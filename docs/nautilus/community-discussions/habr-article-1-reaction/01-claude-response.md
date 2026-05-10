@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Прочитал внимательно.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -274,7 +280,7 @@ Provides empirical validation что архитектура работает в 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 - [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md)
 - [133-обратная-связь](../../../02-anthropic-vacancies/133-обратная-связь.md)

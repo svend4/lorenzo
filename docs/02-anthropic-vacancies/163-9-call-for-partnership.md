@@ -132,7 +132,7 @@ section explicitly invites partnership.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [164-10-appendices](164-10-appendices.md) (сходство 0.17)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.16)
 - [159-5-economic-model](159-5-economic-model.md) (сходство 0.15)
@@ -142,7 +142,7 @@ section explicitly invites partnership.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [164-10-appendices](164-10-appendices.md)
 - [159-5-economic-model](159-5-economic-model.md)
@@ -153,7 +153,7 @@ section explicitly invites partnership.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [153-executive-summary](153-executive-summary.md)
 - [155-1-problem-statement](155-1-problem-statement.md)

@@ -78,7 +78,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [01-agent-routing](01-agent-routing.md) (сходство 0.12)
 - [05-benchmarks](05-benchmarks.md) (сходство 0.11)
 - [02-knowledge-graphs](02-knowledge-graphs.md) (сходство 0.11)
@@ -88,7 +88,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-agent-routing](01-agent-routing.md)
 - [05-benchmarks](05-benchmarks.md)
 - [02-knowledge-graphs](02-knowledge-graphs.md)
@@ -126,7 +126,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-agent-routing](01-agent-routing.md)
 - [05-benchmarks](05-benchmarks.md)
 - [README](README.md)

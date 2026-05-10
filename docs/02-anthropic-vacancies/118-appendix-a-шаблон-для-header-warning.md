@@ -4,6 +4,8 @@
 ## Contents
 
 - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 <!-- tags: architecture -->
@@ -59,7 +61,7 @@ transitional state:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [12-appendix-a-header-warning](../nautilus/review-methodology/12-appendix-a-header-warning.md)
 
 
@@ -67,7 +69,7 @@ transitional state:
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [102-доступ-к-данным](102-доступ-к-данным.md)
 - [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
 - [16-history](16-history.md)

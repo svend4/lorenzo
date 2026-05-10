@@ -86,6 +86,6 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [decision-record](decision-record.md)
 - [research-note](research-note.md)

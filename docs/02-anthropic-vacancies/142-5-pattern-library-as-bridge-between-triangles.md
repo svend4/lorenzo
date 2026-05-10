@@ -155,7 +155,7 @@ efficiently between levels.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.17)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.15)
 - [144-7-open-questions](144-7-open-questions.md) (сходство 0.14)
@@ -165,7 +165,7 @@ efficiently between levels.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [144-7-open-questions](144-7-open-questions.md)
@@ -211,7 +211,7 @@ efficiently between levels.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [136-abstract](136-abstract.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)

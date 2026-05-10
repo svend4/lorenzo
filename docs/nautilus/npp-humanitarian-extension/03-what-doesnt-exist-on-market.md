@@ -1,5 +1,11 @@
 # Что не существует на рынке:
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ EIC Pathfinder (€4M max) — deep-tech, можно защитить через
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 - [09-difference-4-institutional-vision](../../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)

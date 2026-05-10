@@ -1,5 +1,11 @@
 # Question 5: Каковы limits Lorenzo's authority?
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -79,7 +85,7 @@ Engage с vulnerable individuals directly without human safeguards
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-bez-max-approval](../08-bez-max-approval.md)
 - 03-q3-what-[lorenzo-does](03-q3-what-lorenzo-does.md)
 - [09-voobshche-nelzya](../09-voobshche-nelzya.md)

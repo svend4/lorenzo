@@ -1,5 +1,11 @@
 # Что такое «внуковая» комбинация — operationalized Lorenzo
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -83,7 +89,7 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
 - [01-pluses-1-7](01-pluses-1-7.md)
 - [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)

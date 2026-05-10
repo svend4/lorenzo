@@ -8,6 +8,7 @@
   - [17.2. Version in Registry](#172-version-in-registry)
   - [17.3. Breaking Changes Process](#173-breaking-changes-process)
   - [17.4. Deprecation Policy](#174-deprecation-policy)
+- [Смотрите также](#смотрите-также)
 
 
 > [!IMPORTANT]
@@ -67,7 +68,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
 - [12-versioning-policy](../npp-v1-0/12-versioning-policy.md)
 - [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)

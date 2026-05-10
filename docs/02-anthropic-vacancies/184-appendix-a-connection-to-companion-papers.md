@@ -4,10 +4,13 @@
 ## Contents
 
 - [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
 
 
 > [!NOTE]
@@ -57,7 +60,7 @@ work and beyond.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.24)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.22)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.21)
@@ -67,7 +70,7 @@ work and beyond.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
@@ -122,7 +125,7 @@ work and beyond.
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [137-table-of-contents](137-table-of-contents.md)
 - [146-acknowledgments](146-acknowledgments.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)

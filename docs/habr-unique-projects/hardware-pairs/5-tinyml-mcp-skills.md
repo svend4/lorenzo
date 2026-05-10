@@ -1,5 +1,12 @@
 # Пара 5 — TinyML/Edge AI × MCP + skills
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +44,7 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [4-riscv-privacy](4-riscv-privacy.md)
 - [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
 - [05-supplementary-infrastructure](../key-findings/05-supplementary-infrastructure.md)
@@ -48,7 +55,7 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

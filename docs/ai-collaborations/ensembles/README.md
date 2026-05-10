@@ -5,6 +5,7 @@
 ## Содержание
 
 - [1-agentic-knowledge-os.md](1-agentic-knowledge-os.md) — <!-- summary -->
+<!-- tags: collaboration, architecture, rag, knowledge -->
 - [2-distributed-agent-workshop.md](2-distributed-agent-workshop.md) — <!-- summary -->
 - 3-forensic-[rag.md](3-forensic-rag.md) — <!-- summary -->
 - [4-web-to-knowledge-pipeline.md](4-web-to-knowledge-pipeline.md) — <!-- summary -->

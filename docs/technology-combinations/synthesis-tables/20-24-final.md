@@ -4,6 +4,7 @@
 ## Contents
 
 - [Рекомендация](#рекомендация)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -49,7 +50,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [24-mega-integration-full-stack](../combinations/24-mega-integration-full-stack.md)
 - [31-35-final](31-35-final.md)
 - [15-19-extended](15-19-extended.md)

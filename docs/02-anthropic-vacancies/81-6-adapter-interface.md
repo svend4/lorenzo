@@ -113,7 +113,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.51)
 - [85-10-query-flow](85-10-query-flow.md) (сходство 0.12)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
@@ -123,7 +123,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 - [19-7-portalentry-structure](19-7-portalentry-structure.md)
@@ -134,7 +134,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [21-9-query-flow](21-9-query-flow.md)

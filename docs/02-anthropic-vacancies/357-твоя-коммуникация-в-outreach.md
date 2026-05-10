@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твоя коммуникация в outreach](#твоя-коммуникация-в-outreach)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -51,7 +52,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-outreach-communication](../lorenzo-agent/13-outreach-communication.md)
 - [04-q4-character](../lorenzo-agent/specification/04-q4-character.md)
 

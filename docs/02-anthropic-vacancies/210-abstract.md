@@ -81,7 +81,7 @@ their daily work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [223-12-closing](223-12-closing.md) (сходство 0.30)
 - [252-abstract](252-abstract.md) (сходство 0.18)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.17)
@@ -91,7 +91,7 @@ their daily work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [223-12-closing](223-12-closing.md)
 - [252-abstract](252-abstract.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
@@ -144,7 +144,7 @@ their daily work.
 
 ---
 
-**Кто ссылается на этот документ (18):**
+## Кто ссылается на этот документ (18)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [168-abstract](168-abstract.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)

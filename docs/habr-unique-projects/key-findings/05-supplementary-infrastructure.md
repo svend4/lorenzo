@@ -1,5 +1,12 @@
 # Источник данных и инфраструктурные кусочки
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +47,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 06-[svyazi-2-0-block-map](06-svyazi-2-0-block-map.md)
 - [04-dochkina-sequential](04-dochkina-sequential.md)
 - [02-related-projects](../analogues/02-related-projects.md)
@@ -51,7 +58,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

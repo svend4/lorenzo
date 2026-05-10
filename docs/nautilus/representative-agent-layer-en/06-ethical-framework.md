@@ -11,6 +11,7 @@
   - [6.5. Vulnerability Protection](#65-vulnerability-protection)
   - [6.6. Consent and Capacity](#66-consent-and-capacity)
   - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+- [Смотрите также](#смотрите-также)
 
 
 > [!IMPORTANT]
@@ -123,7 +124,7 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [175-6-ethical-framework](../../02-anthropic-vacancies/175-6-ethical-framework.md)
 - [07-governance-oversight](07-governance-oversight.md)
 - [05-architectural-specification](05-architectural-specification.md)

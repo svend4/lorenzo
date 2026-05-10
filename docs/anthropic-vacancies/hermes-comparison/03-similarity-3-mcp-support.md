@@ -1,5 +1,11 @@
 # Сходство 3: MCP support
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ InGit MCP server, который мы планировали, работал б�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)

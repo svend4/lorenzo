@@ -153,7 +153,7 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [128-доступные-инструменты](128-доступные-инструменты.md) (сходство 0.12)
 - [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.11)
 
@@ -162,7 +162,7 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [90-15-security-considerations](90-15-security-considerations.md)
 - [23-11-security-considerations](23-11-security-considerations.md)
 - [128-доступные-инструменты](128-доступные-инструменты.md)
@@ -173,7 +173,7 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [128-доступные-инструменты](128-доступные-инструменты.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [23-11-security-considerations](23-11-security-considerations.md)

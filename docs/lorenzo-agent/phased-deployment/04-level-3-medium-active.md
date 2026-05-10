@@ -1,5 +1,11 @@
 # Уровень 3 — Средний (Lorenzo Active)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -71,7 +77,7 @@ Synthesis quality зависит от model capabilities
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-level-2-basic-lite](03-level-2-basic-lite.md)
 - [05-level-4-extended-mature](05-level-4-extended-mature.md)
 - [01-level-0-manual](01-level-0-manual.md)

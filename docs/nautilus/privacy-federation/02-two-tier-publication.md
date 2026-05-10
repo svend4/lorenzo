@@ -1,5 +1,11 @@
 # Архитектурное решение: две-уровневая публикация
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -135,7 +141,7 @@ procedural_stage: "klage"
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-what-this-gives-technically](03-what-this-gives-technically.md)
 - [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
 - [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)

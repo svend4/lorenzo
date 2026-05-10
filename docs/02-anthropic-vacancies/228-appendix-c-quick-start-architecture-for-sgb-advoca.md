@@ -227,7 +227,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.15)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.14)
 - [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.14)
@@ -237,7 +237,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
@@ -292,7 +292,7 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 
 ---
 
-**Кто ссылается на этот документ (20):**
+## Кто ссылается на этот документ (20)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)

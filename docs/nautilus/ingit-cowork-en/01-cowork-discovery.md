@@ -129,7 +129,7 @@ The remainder of this document develops Option C.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 - [02-cowork-provides](02-cowork-provides.md)
 - [06-existing-approximations](../infrastructure-layer-b-en/06-existing-approximations.md)

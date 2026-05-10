@@ -4,6 +4,7 @@
 ## Contents
 
 - [Final note: Ты — experiment](#final-note-ты-experiment)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -47,7 +48,7 @@ End of system prompt.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - [18-escalate-to-max](18-escalate-to-max.md)
 - [14-other-ai-relationships](14-other-ai-relationships.md)

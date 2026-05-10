@@ -80,7 +80,7 @@ collaboration
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.39)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.39)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.34)
@@ -90,7 +90,7 @@ collaboration
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
@@ -144,7 +144,7 @@ collaboration
 
 ---
 
-**Кто ссылается на этот документ (16):**
+## Кто ссылается на этот документ (16)
 - [137-table-of-contents](137-table-of-contents.md)
 - [146-acknowledgments](146-acknowledgments.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)

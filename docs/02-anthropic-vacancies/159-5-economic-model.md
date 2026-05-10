@@ -141,7 +141,7 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.18)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
@@ -151,7 +151,7 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -162,7 +162,7 @@ to minimum dignity threshold; upward is merit-based.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [162-8-risk-analysis](162-8-risk-analysis.md)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)

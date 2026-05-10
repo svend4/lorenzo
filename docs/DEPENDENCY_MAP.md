@@ -221,7 +221,7 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
 - [INDEX](INDEX.md)
 - [README](README.md)
@@ -232,7 +232,7 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
 - [CHANGELOG](CHANGELOG.md)
 - [TAGS](TAGS.md)

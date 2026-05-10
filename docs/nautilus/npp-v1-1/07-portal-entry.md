@@ -6,6 +6,7 @@
 - [7. PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
+- [Смотрите также](#смотрите-также)
 
 
 - 7. [PortalEntry Structure](#7-portalentry-structure)
@@ -95,7 +96,7 @@ is_fallback=False
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [82-7-portalentry-structure](../../02-anthropic-vacancies/82-7-portalentry-structure.md)
 - [19-7-portalentry-structure](../../02-anthropic-vacancies/19-7-portalentry-structure.md)
 - [06-adapter-interface](06-adapter-interface.md)

@@ -4,6 +4,9 @@
 ## Contents
 
 - [15. Glossary of Examples](#15-glossary-of-examples)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
 
 
 > [!NOTE]
@@ -42,7 +45,7 @@ implementations.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [97-22-glossary-of-reference-examples](97-22-glossary-of-reference-examples.md) (сходство 0.33)
 - [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.18)
 - [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.16)
@@ -52,7 +55,7 @@ implementations.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [97-22-glossary-of-reference-examples](97-22-glossary-of-reference-examples.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
@@ -63,7 +66,7 @@ implementations.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - 35-passports-[info1-md](35-passports-info1-md.md)
 - 45-passports-[pro2-md](45-passports-pro2-md.md)

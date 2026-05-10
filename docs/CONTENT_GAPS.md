@@ -352,7 +352,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CLUSTERS](CLUSTERS.md)
 - [ORPHANS](ORPHANS.md)
 - [SOURCE_MAP](SOURCE_MAP.md)

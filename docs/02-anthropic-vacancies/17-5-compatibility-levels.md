@@ -8,6 +8,9 @@
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Queryable](#level-2-queryable)
   - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!NOTE]
@@ -84,7 +87,7 @@ Portal может переводить концепты между Repos чер�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [80-5-compatibility-levels](80-5-compatibility-levels.md) (сходство 0.32)
 - [41-compatibility-level](41-compatibility-level.md) (сходство 0.17)
 - [51-compatibility-level](51-compatibility-level.md) (сходство 0.14)
@@ -94,7 +97,7 @@ Portal может переводить концепты между Repos чер�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [80-5-compatibility-levels](80-5-compatibility-levels.md)
 - [41-compatibility-level](41-compatibility-level.md)
 - [51-compatibility-level](51-compatibility-level.md)
@@ -105,7 +108,7 @@ Portal может переводить концепты между Repos чер�
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [21-9-query-flow](21-9-query-flow.md)

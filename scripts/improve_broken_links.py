@@ -248,6 +248,9 @@ def main():
     # ── Markdown-отчёт ──────────────────────────────────────────────
     lines = [
         "# Сломанные внутренние ссылки\n",
+        f"<!-- summary -->\n> Сломанных ссылок: **{len(all_broken)}**, пропущено: {len(all_os_errors)}\n",
+        "<!-- tags: quality, links, validation, broken-links -->\n",
+        f"> [!{'TIP' if not all_broken else 'WARNING'}]\n> {'Все внутренние ссылки рабочие!' if not all_broken else f'Найдено {len(all_broken)} сломанных ссылок — требуют исправления.'}\n\n<!-- alert-added -->\n",
         f"**Найдено:** {len(all_broken)} проблем, {len(all_os_errors)} пропущено (длинный путь)\n",
     ]
 
@@ -296,6 +299,13 @@ def main():
     ]
     for url in sorted(ext_urls)[:30]:
         lines.append(f"- {url}")
+
+    lines += [
+        "\n## Смотрите также\n",
+        "- [HEALTH](HEALTH.md) — общее здоровье репозитория",
+        "- [METRICS](METRICS.md) — метрики качества документов",
+        "- [VALIDATION](VALIDATION.md) — валидация структуры",
+    ]
 
     out = DOCS / "BROKEN_LINKS.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

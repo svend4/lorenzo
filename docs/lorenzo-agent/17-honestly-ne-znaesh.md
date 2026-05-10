@@ -4,6 +4,7 @@
 ## Contents
 
 - [Когда ты Honestly не знаешь](#когда-ты-honestly-не-знаешь)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -40,7 +41,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [361-когда-ты-honestly-не-знаешь](../02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - [18-escalate-to-max](18-escalate-to-max.md)

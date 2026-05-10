@@ -9,6 +9,7 @@
   - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
   - [9.4. Algorithm](#94-algorithm)
   - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -132,7 +133,7 @@ v2.0 MAY использовать:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md)
 - [08-consensus-algorithm](../npp-v1-0/08-consensus-algorithm.md)
 - [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md)

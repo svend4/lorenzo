@@ -1,5 +1,11 @@
 # Question 9: Geographic / linguistic scope
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -72,7 +78,7 @@ Lorenzo speaks all three, but Habr is initial home base
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [06-yazyki-kultura](../06-yazyki-kultura.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)

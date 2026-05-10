@@ -151,7 +151,7 @@ placed where infrastructure considerations naturally fit.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [287-references](../../02-anthropic-vacancies/287-references.md)
 - [286-acknowledgments](../../02-anthropic-vacancies/286-acknowledgments.md)
 - [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)

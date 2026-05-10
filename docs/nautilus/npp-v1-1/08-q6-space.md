@@ -9,6 +9,7 @@
   - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
   - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
   - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
+- [Смотрите также](#смотрите-также)
 
 
 > [!IMPORTANT]
@@ -110,7 +111,7 @@ return list(visited.keys())
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [83-8-q6-space-normative](../../02-anthropic-vacancies/83-8-q6-space-normative.md)
 - [07-portal-entry](07-portal-entry.md)
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)

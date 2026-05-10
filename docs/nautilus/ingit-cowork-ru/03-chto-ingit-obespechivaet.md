@@ -215,7 +215,7 @@ YAML)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 - [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
 - [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)

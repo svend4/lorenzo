@@ -5,10 +5,13 @@
 
 - [10. QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
 
 
 > [!NOTE]
@@ -82,7 +85,7 @@ category (сначала full, затем partial, затем singular).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [21-9-query-flow](21-9-query-flow.md) (сходство 0.11)
 - [25-13-reference-implementation](25-13-reference-implementation.md) (сходство 0.11)
 - [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.11)
@@ -92,7 +95,7 @@ category (сначала full, затем partial, затем singular).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
@@ -149,7 +152,7 @@ category (сначала full, затем partial, затем singular).
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)

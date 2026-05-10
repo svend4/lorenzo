@@ -9,6 +9,8 @@
   - [4.3. Recommended Sections](#43-recommended-sections)
   - [4.4. Schema Validation](#44-schema-validation)
   - [4.5. Naming Convention](#45-naming-convention)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -94,7 +96,7 @@ Portal SHOULD предоставлять команду валидации:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [09-4-passport-passport-md](09-4-passport-passport-md.md) (сходство 0.24)
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.13)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.13)
@@ -104,7 +106,7 @@ Portal SHOULD предоставлять команду валидации:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)

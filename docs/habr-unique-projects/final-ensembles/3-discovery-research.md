@@ -1,5 +1,11 @@
 # Ансамбль 3 — «Discovery-engine для научной работы»
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ transcription → entity extraction → vault wikilinks;
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [1-one-person-one-company](1-one-person-one-company.md)
 - [2-autoresearch-legal](2-autoresearch-legal.md)
 - [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)

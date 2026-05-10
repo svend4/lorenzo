@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.25)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
@@ -92,7 +92,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
@@ -103,7 +103,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (20):**
+## Кто ссылается на этот документ (20)
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

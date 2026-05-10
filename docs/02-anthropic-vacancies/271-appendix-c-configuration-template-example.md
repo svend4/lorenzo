@@ -4,6 +4,9 @@
 ## Contents
 
 - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
 
 
 > [!NOTE]
@@ -95,7 +98,7 @@ configuration.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md) (сходство 0.11)
 - [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.10)
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.10)
@@ -105,7 +108,7 @@ configuration.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [270-appendix-b-sub-agent-registry-schema-sketch](270-appendix-b-sub-agent-registry-schema-sketch.md)
 - [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [211-table-of-contents](211-table-of-contents.md)
@@ -116,7 +119,7 @@ configuration.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [137-table-of-contents](137-table-of-contents.md)
 - [211-table-of-contents](211-table-of-contents.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)

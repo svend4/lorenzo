@@ -145,7 +145,7 @@ synthesis.)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
 - [267-acknowledgments](../../02-anthropic-vacancies/267-acknowledgments.md)
 - [01-why-binary-incomplete](01-why-binary-incomplete.md)

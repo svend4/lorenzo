@@ -1,5 +1,11 @@
 # Сводная таблица 9–14 (Extended)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [15-19-extended](15-19-extended.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
 - [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)

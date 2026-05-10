@@ -82,7 +82,7 @@ populations, Type 1 is the right starting point.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.18)
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.13)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.13)
@@ -92,7 +92,7 @@ populations, Type 1 is the right starting point.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
@@ -139,7 +139,7 @@ populations, Type 1 is the right starting point.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [210-abstract](210-abstract.md)
 - [211-table-of-contents](211-table-of-contents.md)

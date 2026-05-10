@@ -171,7 +171,7 @@ to discuss work with."
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.17)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.16)
 - [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md) (сходство 0.16)
@@ -181,7 +181,7 @@ to discuss work with."
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
 - [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
@@ -234,7 +234,7 @@ to discuss work with."
 
 ---
 
-**Кто ссылается на этот документ (15):**
+## Кто ссылается на этот документ (15)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [210-abstract](210-abstract.md)

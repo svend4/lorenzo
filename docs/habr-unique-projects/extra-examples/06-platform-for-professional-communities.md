@@ -1,5 +1,11 @@
 # Платформа для профессиональных сообществ
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -42,7 +48,7 @@ AI matcher находит unexpected combinations (Wi-Fi инженер + SPb р
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-federated-platform](09-federated-platform.md)
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)

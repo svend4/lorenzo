@@ -11,6 +11,7 @@
   - [11.5. For Policymakers](#115-for-policymakers)
   - [11.6. For Potential Principals](#116-for-potential-principals)
   - [11.7. For Critics](#117-for-critics)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -101,7 +102,7 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [180-11-call-for-collaboration](../../02-anthropic-vacancies/180-11-call-for-collaboration.md)
 - [12-call-for-collaboration](../composite-skills-agents/12-call-for-collaboration.md)
 - [09-phased-rollout](09-phased-rollout.md)

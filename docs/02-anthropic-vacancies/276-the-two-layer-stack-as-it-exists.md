@@ -83,7 +83,7 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.19)
 - [275-why-this-document-exists](275-why-this-document-exists.md) (сходство 0.18)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.18)
@@ -93,7 +93,7 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [279-existing-approximations](279-existing-approximations.md)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
@@ -143,7 +143,7 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [218-7-application-domains](218-7-application-domains.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)

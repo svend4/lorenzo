@@ -5,6 +5,7 @@
 
 - [Схема](#схема)
 - [Новое свойство](#новое-свойство)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -51,7 +52,7 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
 - [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
 - [C-multi-agent-factory](C-multi-agent-factory.md)

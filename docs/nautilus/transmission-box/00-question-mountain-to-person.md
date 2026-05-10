@@ -1,5 +1,11 @@
 # Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -28,7 +34,7 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
 - [00-question-supply-demand](../supply-demand/00-question-supply-demand.md)
 - [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)

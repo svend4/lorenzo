@@ -1,5 +1,11 @@
 # Executive summary
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -27,7 +33,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-executive-summary](../../04-ai-collaborations/01-executive-summary.md)
 - [mvp-plan](../prototype/mvp-plan.md)
 - [license-tree](../limitations/license-tree.md)

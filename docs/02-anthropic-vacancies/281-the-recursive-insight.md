@@ -96,7 +96,7 @@ work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [285-closing](285-closing.md) (сходство 0.15)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.14)
 - [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md) (сходство 0.13)
@@ -106,7 +106,7 @@ work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [285-closing](285-closing.md)
 - [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
@@ -150,7 +150,7 @@ work.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [155-1-problem-statement](155-1-problem-statement.md)
 - [168-abstract](168-abstract.md)

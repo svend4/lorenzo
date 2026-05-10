@@ -1,5 +1,11 @@
 # Ансамбль 2 — Distributed Agent Workshop
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +65,7 @@ Community Project Builder — участники сообщества предл
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)

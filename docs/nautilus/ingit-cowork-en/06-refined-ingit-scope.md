@@ -8,6 +8,7 @@
   - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
   - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
   - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Смотрите также](#смотрите-также)
 
 
 > [!TIP]
@@ -102,7 +103,7 @@ better outcomes.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [314-6-refined-ingit-scope-with-cowork-in-mind](../../02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [02-cowork-provides](02-cowork-provides.md)
 - 03-[ingit-provides](03-ingit-provides.md)

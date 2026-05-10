@@ -352,7 +352,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
 - [12-closing](12-closing.md)

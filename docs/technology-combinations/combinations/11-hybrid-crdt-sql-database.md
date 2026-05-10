@@ -1,5 +1,12 @@
 # Комбинация 11: Hybrid CRDT-SQL Database
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +66,7 @@ ROI: Real-time collaboration without conflict UI
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 - [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
@@ -70,7 +77,7 @@ ROI: Real-time collaboration without conflict UI
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)

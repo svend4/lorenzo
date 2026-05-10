@@ -1,5 +1,11 @@
 # Следующий артефакт: Svyazi 2.0 Architecture RFC
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -47,7 +53,7 @@ Pilot scenarios: community OS, legal/research OS, AgentOps memory kernel.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-metrics-tree](06-metrics-tree.md)
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)

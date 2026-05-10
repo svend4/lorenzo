@@ -1,5 +1,11 @@
 # Secondary match — Applied AI Engineer (EMEA) + Beneficial Deployments
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -28,7 +34,7 @@ Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-practical-ranking](08-practical-ranking.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [02-primary-fde](02-primary-fde.md)

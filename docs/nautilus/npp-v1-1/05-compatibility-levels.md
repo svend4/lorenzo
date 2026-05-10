@@ -8,6 +8,7 @@
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Linked](#level-2-linked)
   - [Level 3 — Interactive](#level-3-interactive)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -92,7 +93,7 @@ Portal возвращает static entries.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [80-5-compatibility-levels](../../02-anthropic-vacancies/80-5-compatibility-levels.md)
 - [17-5-compatibility-levels](../../02-anthropic-vacancies/17-5-compatibility-levels.md)
 - [07-portal-entry](07-portal-entry.md)

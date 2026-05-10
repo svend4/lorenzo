@@ -4,6 +4,7 @@
 ## Contents
 
 - [21. ADR-003: Five Onboarding Paths as Equal-Rank](#21-adr-003-five-onboarding-paths-as-equal-rank)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -57,7 +58,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
 - [19-adr-001-federation-over-merging](19-adr-001-federation-over-merging.md)
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)

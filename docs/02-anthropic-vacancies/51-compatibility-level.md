@@ -4,10 +4,13 @@
 ## Contents
 
 - [Compatibility Level](#compatibility-level)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!NOTE]
@@ -45,7 +48,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [61-compatibility-level](61-compatibility-level.md) (сходство 0.67)
 - [41-compatibility-level](41-compatibility-level.md) (сходство 0.52)
 - [60-bridges](60-bridges.md) (сходство 0.16)
@@ -55,7 +58,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [61-compatibility-level](61-compatibility-level.md)
 - [41-compatibility-level](41-compatibility-level.md)
 - [60-bridges](60-bridges.md)
@@ -106,7 +109,7 @@
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [41-compatibility-level](41-compatibility-level.md)
 - [47-native-format](47-native-format.md)

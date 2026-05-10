@@ -9,6 +9,7 @@
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
   - [9.5. For Potential Contributors](#95-for-potential-contributors)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -123,7 +124,7 @@ pipeline
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [163-9-call-for-partnership](../../02-anthropic-vacancies/163-9-call-for-partnership.md)
 - [07-phased-rollout](07-phased-rollout.md)
 - [05-economic-model](05-economic-model.md)

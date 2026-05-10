@@ -1,5 +1,11 @@
 # Section 5: Role of Anthropic Beneficial Deployments
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -48,7 +54,7 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-context](00-context.md)
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)

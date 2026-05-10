@@ -1,5 +1,11 @@
 # Минусы Hermes (где наша архитектура добавляет ценность)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -56,7 +62,7 @@ Cowork был самым серьёзным конкурентом для наш
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
 - [11-pluses-of-hermes](11-pluses-of-hermes.md)

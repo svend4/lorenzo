@@ -8,6 +8,9 @@
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Linked](#level-2-linked)
   - [Level 3 — Interactive](#level-3-interactive)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
 
 
 > [!NOTE]
@@ -100,7 +103,7 @@ Portal возвращает static entries.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [17-5-compatibility-levels](17-5-compatibility-levels.md) (сходство 0.32)
 - [77-2-terminology](77-2-terminology.md) (сходство 0.12)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
@@ -110,7 +113,7 @@ Portal возвращает static entries.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [17-5-compatibility-levels](17-5-compatibility-levels.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 - [41-compatibility-level](41-compatibility-level.md)
@@ -121,7 +124,7 @@ Portal возвращает static entries.
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [41-compatibility-level](41-compatibility-level.md)

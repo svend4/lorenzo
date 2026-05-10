@@ -1,5 +1,11 @@
 # Software Engineering - Infrastructure — 22 роли
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@ Inference (самая частая роль — 8+ позиций разного
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [12-technical-program-management](12-technical-program-management.md)
 - [09-product-management-support-ops](09-product-management-support-ops.md)

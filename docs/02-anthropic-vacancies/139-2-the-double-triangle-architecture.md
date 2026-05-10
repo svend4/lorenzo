@@ -158,7 +158,7 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.19)
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.17)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md) (сходство 0.17)
@@ -168,7 +168,7 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
@@ -179,7 +179,7 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [136-abstract](136-abstract.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)

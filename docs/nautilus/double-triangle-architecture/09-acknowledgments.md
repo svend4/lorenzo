@@ -4,6 +4,7 @@
 ## Contents
 
 - [Acknowledgments](#acknowledgments)
+- [Смотрите также](#смотрите-также)
 
 
 > [!TIP]
@@ -48,7 +49,7 @@ review.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [146-acknowledgments](../../02-anthropic-vacancies/146-acknowledgments.md)
 - [08-difference-3-federation-missing](../../anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md)
 - [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md)

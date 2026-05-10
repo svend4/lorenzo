@@ -1,5 +1,11 @@
 # Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -52,7 +58,7 @@ Claude hat geantwortet: Я понял вашу мысль.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-platform-not-position](../profile-mapping/03-integral-final/05-platform-not-position.md)
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - [09-minuses-and-risks](09-minuses-and-risks.md)

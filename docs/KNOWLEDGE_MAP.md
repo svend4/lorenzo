@@ -149,7 +149,7 @@ _Карта сгенерирована автоматически: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [HEALTH](HEALTH.md)
 - [STATS](STATS.md)

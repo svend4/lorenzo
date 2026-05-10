@@ -189,7 +189,7 @@ agents inherit this distinction.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md) (сходство 0.18)
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.16)
@@ -199,7 +199,7 @@ agents inherit this distinction.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
 - [264-11-open-questions](264-11-open-questions.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -251,7 +251,7 @@ agents inherit this distinction.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [211-table-of-contents](211-table-of-contents.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
 - [253-table-of-contents](253-table-of-contents.md)

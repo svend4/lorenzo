@@ -1,5 +1,11 @@
 # Что concept document NOT (это не grant / не paper / не business plan), длина и формат
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -88,7 +94,7 @@ Each session maybe 2-3 hours. Total time investment: 20-30 hours of yours, simil
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-section-10-engagement-request](10-section-10-engagement-request.md)
 - [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
 - [00-context](00-context.md)

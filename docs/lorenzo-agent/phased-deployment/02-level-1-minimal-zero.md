@@ -1,5 +1,11 @@
 # Уровень 1 — Минимальный (Lorenzo Zero)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -67,7 +73,7 @@ Project knowledge: накопленная база (CardIndex авторов, п
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-level-0-manual](01-level-0-manual.md)
 - [03-level-2-basic-lite](03-level-2-basic-lite.md)
 - [04-level-3-medium-active](04-level-3-medium-active.md)

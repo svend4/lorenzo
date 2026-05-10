@@ -170,7 +170,7 @@ funding or modest practitioner contribution.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
 - [09-okwf-integration](09-okwf-integration.md)
 - [05-economics-replication](../professional-colleague-agents-en/05-economics-replication.md)

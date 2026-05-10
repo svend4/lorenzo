@@ -4,6 +4,9 @@
 ## Contents
 
 - [Essence](#essence)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!NOTE]
@@ -42,7 +45,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [46-essence](46-essence.md) (сходство 0.18)
 - [56-essence](56-essence.md) (сходство 0.12)
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.12)
@@ -52,7 +55,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [46-essence](46-essence.md)
 - [39-angle-perspective](39-angle-perspective.md)
 - [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
@@ -63,7 +66,7 @@
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [31-content-overview](31-content-overview.md)

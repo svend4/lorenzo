@@ -62,6 +62,6 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [`docs/glossary/concepts.md`](../glossary/concepts.md)
 - [`docs/CONCEPTS.md`](../CONCEPTS.md)

@@ -4,6 +4,7 @@
 ## Contents
 
 - [2. Terminology](#2-terminology)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -75,7 +76,7 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-reference-implementation](13-reference-implementation.md)
 - [10-query-result](10-query-result.md)
 - [05-compatibility-levels](05-compatibility-levels.md)

@@ -1,5 +1,12 @@
 # Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -61,7 +68,7 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
 - [3-zinc-hybrid-arch](../../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
@@ -72,7 +79,7 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)

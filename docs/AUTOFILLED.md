@@ -7,7 +7,9 @@
 - [Как работает](#как-работает)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
 
 
 > [!NOTE]
@@ -75,7 +77,7 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [.md](autofilled/components/.md)
 - [cowork](autofilled/components/cowork.md)
 - [ingit](autofilled/components/ingit.md)
@@ -92,7 +94,7 @@ _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [README](README.md)
 - [TABLES](TABLES.md)
 - [cowork](autofilled/components/cowork.md)

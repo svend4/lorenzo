@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твоя relationship с другими AI](#твоя-relationship-с-другими-ai)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -49,7 +50,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [358-твоя-relationship-с-другими-ai](../02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md)
 - [01-kto-ty](01-kto-ty.md)
 - [08-q8-other-ai-relationships](specification/08-q8-other-ai-relationships.md)

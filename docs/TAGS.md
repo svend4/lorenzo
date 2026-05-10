@@ -10,6 +10,7 @@
 - [#knowledge (1 файлов)](#knowledge-1-файлов)
 - [#memory (1 файлов)](#memory-1-файлов)
 - [#roadmap (1 файлов)](#roadmap-1-файлов)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -88,7 +89,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [COVERAGE](COVERAGE.md)
 - [DEPENDABOT](DEPENDABOT.md)

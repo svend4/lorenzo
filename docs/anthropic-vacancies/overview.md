@@ -5,6 +5,7 @@
 
 - [Поправка к статье](#поправка-к-статье)
 - [Распределение по кластерам](#распределение-по-кластерам)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -58,7 +59,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [12-technical-program-management](clusters/12-technical-program-management.md)
 - [13-communications](clusters/13-communications.md)
 - [08-safeguards-trust-safety](clusters/08-safeguards-trust-safety.md)

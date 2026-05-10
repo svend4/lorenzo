@@ -4,6 +4,7 @@
 ## Contents
 
 - [Why This Hasn't Been Built](#why-this-hasnt-been-built)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -75,7 +76,7 @@ integration does not.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [278-why-this-hasn-t-been-built](../../02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
 - [06-existing-approximations](06-existing-approximations.md)
 - [01-missing-middle-layer](01-missing-middle-layer.md)

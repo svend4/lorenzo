@@ -2050,7 +2050,7 @@ interface Adapter {
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [CONTENT_GAPS](CONTENT_GAPS.md)
 - [READING_TIME](READING_TIME.md)

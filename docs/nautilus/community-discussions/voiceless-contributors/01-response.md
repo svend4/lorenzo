@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -262,7 +268,7 @@ Risk Analysis: добавить risks identified выше
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-voiceless](00-question-voiceless.md)
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 - [01-response-en](../agent-changes-reality/01-response-en.md)

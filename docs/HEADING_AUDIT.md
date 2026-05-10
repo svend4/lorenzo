@@ -5195,7 +5195,7 @@ _секция: 1_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)

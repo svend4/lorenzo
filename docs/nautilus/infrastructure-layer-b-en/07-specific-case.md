@@ -120,7 +120,7 @@ infrastructure.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [280-the-specific-case-in-front-of-us](../../02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
 - [03-two-layer-stack](03-two-layer-stack.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)

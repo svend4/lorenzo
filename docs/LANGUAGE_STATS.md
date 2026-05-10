@@ -952,7 +952,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
 - [SOURCE_MAP](SOURCE_MAP.md)

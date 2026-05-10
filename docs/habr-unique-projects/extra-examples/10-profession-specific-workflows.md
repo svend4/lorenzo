@@ -1,5 +1,11 @@
 # Profession-specific workflows
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -64,7 +70,7 @@ Time to MVP: 3-6 месяцев focused work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [09-federated-platform](09-federated-platform.md)
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)

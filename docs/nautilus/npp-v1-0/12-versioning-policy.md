@@ -7,6 +7,7 @@
   - [12.1. Semver](#121-semver)
   - [12.2. Version in Registry](#122-version-in-registry)
   - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -60,7 +61,7 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
 - [17-versioning-policy](../npp-v1-1/17-versioning-policy.md)
 - [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)

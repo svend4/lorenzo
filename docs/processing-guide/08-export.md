@@ -237,7 +237,7 @@ python scripts/mcp_server.py  # stdio режим
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -247,7 +247,7 @@ python scripts/mcp_server.py  # stdio режим
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [09-automation](09-automation.md)
 - [01-overview](01-overview.md)

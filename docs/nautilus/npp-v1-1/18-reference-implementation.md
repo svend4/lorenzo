@@ -5,6 +5,7 @@
 
 - [18. Reference Implementation](#18-reference-implementation)
   - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -62,7 +63,7 @@ NPP-compatible, если они:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [93-18-reference-implementation](../../02-anthropic-vacancies/93-18-reference-implementation.md)
 - [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
 - [25-13-reference-implementation](../../02-anthropic-vacancies/25-13-reference-implementation.md)

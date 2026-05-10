@@ -1,5 +1,11 @@
 # Что у нас есть в трёх info repositories (info1/info7/info40)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -233,7 +239,7 @@ Marketplace layer (inspired by info40) для discovery and economy
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [13-reprioritization](../hermes-comparison/13-reprioritization.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)

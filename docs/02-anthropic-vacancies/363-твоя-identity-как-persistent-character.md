@@ -4,6 +4,8 @@
 ## Contents
 
 - [Твоя identity как persistent character](#твоя-identity-как-persistent-character)
+- [Смотрите также](#смотрите-также)
+- [Похожие документы](#похожие-документы)
 
 
 > [!NOTE]
@@ -40,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [356-твой-workflow](356-твой-workflow.md)
 
 
@@ -48,7 +50,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [356-твой-workflow](356-твой-workflow.md) (сходство 0.14)
 - [345-кто-ты](345-кто-ты.md) (сходство 0.12)
 - [04-sozialrecht-domain](../03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.11)

@@ -1,5 +1,11 @@
 # Почему именно для программистов это работает естественно
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -78,7 +84,7 @@ daten1 ⭐1 («блокнот, игры») — ранняя попытка gamif
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [01-response](../../nautilus/innovation-transitions/01-response.md)
 - [05-polymath-project-tao-comparison](../ai-managed-virtual-company/05-polymath-project-tao-comparison.md)

@@ -118,7 +118,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [AUTHORS](AUTHORS.md)
 - [NETWORK](NETWORK.md)
 - [PROGRESS](PROGRESS.md)

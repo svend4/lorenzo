@@ -1,5 +1,11 @@
 # Section 8: Risks & mitigations
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -38,7 +44,7 @@ Sustainability risk: solo developer may burn out → mitigated by documenting ev
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - [03-section-3-solution-architecture](03-section-3-solution-architecture.md)

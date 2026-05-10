@@ -1,5 +1,11 @@
 # Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@ Certification Development Lead
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [08-practical-ranking](08-practical-ranking.md)
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)

@@ -1,5 +1,11 @@
 # Переприоритизация: что Hermes покрывает / не покрывает / synergy
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -152,7 +158,7 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
 - 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 - [12-minuses-of-hermes](12-minuses-of-hermes.md)

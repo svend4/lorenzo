@@ -103,7 +103,7 @@ _Минимальный сценарий: open source + личное время 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [DENSITY](DENSITY.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 - [SCHEDULE](SCHEDULE.md)

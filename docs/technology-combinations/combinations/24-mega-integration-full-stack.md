@@ -1,5 +1,11 @@
 # Комбинация 24: MEGA-INTEGRATION: Full Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -143,7 +149,7 @@ Charted specialized domains for discovering innovative projects
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [20-24-final](../synthesis-tables/20-24-final.md)
 - [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
 - [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)

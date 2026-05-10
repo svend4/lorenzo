@@ -110,7 +110,7 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.11)
 
 
@@ -118,7 +118,7 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
@@ -129,7 +129,7 @@ def q6_neighbors(bits: str, max_distance: int) -> list[str]:
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)

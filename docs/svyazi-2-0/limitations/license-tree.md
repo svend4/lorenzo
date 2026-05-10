@@ -4,6 +4,7 @@
 ## Contents
 
 - [Развилки в коротком виде](#развилки-в-коротком-виде)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -41,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [14-limitations](../../01-svyazi/14-limitations.md)
 - [executive-summary](../overview/executive-summary.md)
 - [first-contacts](../outreach/first-contacts.md)

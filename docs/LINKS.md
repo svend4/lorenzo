@@ -1,5 +1,11 @@
 # Индекс ссылок
 
+<!-- toc-auto -->
+## Contents
+
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+- [Смотрите также](#смотрите-также)
+
 
 <!-- tags: meta, links, index -->
 
@@ -225,7 +231,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [12-content-overview](02-anthropic-vacancies/12-content-overview.md)
 - [31-content-overview](02-anthropic-vacancies/31-content-overview.md)
 - [README](README.md)
@@ -236,7 +242,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [BROKEN_LINKS](BROKEN_LINKS.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
 - [CONTACTS](CONTACTS.md)

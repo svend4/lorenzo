@@ -6,6 +6,9 @@
 - [Bridges](#bridges)
   - [pro2 ↔ info1](#pro2-info1)
   - [pro2 ↔ meta](#pro2-meta)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 > [!NOTE]
@@ -50,7 +53,7 @@ hamming-переходов от «root» вершин) коррелирует с
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [60-bridges](60-bridges.md) (сходство 0.21)
 - [40-bridges](40-bridges.md) (сходство 0.20)
 
@@ -59,7 +62,7 @@ hamming-переходов от «root» вершин) коррелирует с
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [60-bridges](60-bridges.md)
 - [40-bridges](40-bridges.md)
 - [61-compatibility-level](61-compatibility-level.md)
@@ -70,7 +73,7 @@ hamming-переходов от «root» вершин) коррелирует с
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - 35-passports-[info1-md](35-passports-info1-md.md)
 - [47-native-format](47-native-format.md)
 - [51-compatibility-level](51-compatibility-level.md)

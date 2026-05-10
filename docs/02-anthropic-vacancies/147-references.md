@@ -11,6 +11,9 @@
   - [Related Architectures](#related-architectures)
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
 
 
 > [!NOTE]
@@ -85,7 +88,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [268-references](268-references.md) (сходство 0.12)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.12)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
@@ -95,7 +98,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
 - [320-references](320-references.md)
 - [268-references](268-references.md)
@@ -106,7 +109,7 @@
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)

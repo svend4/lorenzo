@@ -1,5 +1,11 @@
 # Question 6: Как Lorenzo accountable?
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -76,7 +82,7 @@ Worst case: public retirement of Lorenzo persona
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - 03-q3-what-[lorenzo-does](03-q3-what-lorenzo-does.md)

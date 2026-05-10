@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-intro.md](00-intro.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-missing-middle-layer.md](01-missing-middle-layer.md) — <!-- summary -->
 - [02-why-document-exists.md](02-why-document-exists.md) — <!-- summary -->
 - [03-two-layer-stack.md](03-two-layer-stack.md) — > [!TIP]

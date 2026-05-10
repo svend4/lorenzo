@@ -12,6 +12,7 @@
   - [11.6. Liability for Composite Outputs](#116-liability-for-composite-outputs)
   - [11.7. The "Emergence" Question](#117-the-emergence-question)
   - [11.8. Transition from Composite to Representative](#118-transition-from-composite-to-representative)
+- [Смотрите также](#смотрите-также)
 
 
 > [!TIP]
@@ -118,7 +119,7 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [264-11-open-questions](../../02-anthropic-vacancies/264-11-open-questions.md)
 - [12-call-for-collaboration](12-call-for-collaboration.md)
 - [09-okwf-integration](09-okwf-integration.md)

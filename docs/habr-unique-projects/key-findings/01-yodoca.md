@@ -1,5 +1,12 @@
 # Yodoca — главная находка итерации
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -42,7 +49,7 @@ https://habr.com/ru/articles/1006622/
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-synthesis](../../05-habr-projects/01-synthesis.md)
 - [02-memnet](02-memnet.md)
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
@@ -53,7 +60,7 @@ https://habr.com/ru/articles/1006622/
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

@@ -1,5 +1,11 @@
 # Синтез: хеббовский граф людей-навыков-идей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -31,7 +37,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
 - [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
 - [02-related-projects-context](02-related-projects-context.md)

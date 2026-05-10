@@ -1,5 +1,12 @@
 # MemNet — нейроархитектурный двойник «магии» Svyazi
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +44,7 @@ AI-бот для самопознания
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [2-tsu-mome](../hardware-pairs/2-tsu-mome.md)
 - [01-yodoca](01-yodoca.md)
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
@@ -48,7 +55,7 @@ AI-бот для самопознания
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

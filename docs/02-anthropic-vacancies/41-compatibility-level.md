@@ -4,10 +4,13 @@
 ## Contents
 
 - [Compatibility Level](#compatibility-level)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
 
 
 > [!NOTE]
@@ -44,7 +47,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [51-compatibility-level](51-compatibility-level.md) (сходство 0.52)
 - [61-compatibility-level](61-compatibility-level.md) (сходство 0.44)
 - [17-5-compatibility-levels](17-5-compatibility-levels.md) (сходство 0.17)
@@ -54,7 +57,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [51-compatibility-level](51-compatibility-level.md)
 - [61-compatibility-level](61-compatibility-level.md)
 - [17-5-compatibility-levels](17-5-compatibility-levels.md)
@@ -107,7 +110,7 @@
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)

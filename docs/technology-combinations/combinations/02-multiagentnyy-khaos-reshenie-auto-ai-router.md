@@ -1,5 +1,12 @@
 # Комбинация 2: Мультиагентный хаос-решение × Auto AI Router
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -51,7 +58,7 @@ Router даёт fallback из коробки. Если Opus недоступен
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
 - [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
 - 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
@@ -62,7 +69,7 @@ Router даёт fallback из коробки. Если Opus недоступен
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)

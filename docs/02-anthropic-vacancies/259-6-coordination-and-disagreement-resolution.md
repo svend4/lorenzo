@@ -168,7 +168,7 @@ practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
 - [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.14)
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md) (сходство 0.13)
@@ -178,7 +178,7 @@ practice.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
 - [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
@@ -225,7 +225,7 @@ practice.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [211-table-of-contents](211-table-of-contents.md)

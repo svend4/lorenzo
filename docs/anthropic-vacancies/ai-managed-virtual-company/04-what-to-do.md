@@ -1,5 +1,11 @@
 # Что с этим делать
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-three-entry-points](10-three-entry-points.md)
 - [04-stronger-paths-outside-anthropic](../profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
 - [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)

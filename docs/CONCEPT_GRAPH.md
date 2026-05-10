@@ -5,6 +5,7 @@
 
 - [Диаграмма](#диаграмма)
 - [Топ концептов по связям](#топ-концептов-по-связям)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -175,7 +176,7 @@ graph TD
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [15-glossary](nautilus/npp-v1-0/15-glossary.md)
 - [13-reference-implementation](nautilus/npp-v1-0/13-reference-implementation.md)
 - [10-query-result](nautilus/npp-v1-0/10-query-result.md)

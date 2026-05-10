@@ -10,6 +10,7 @@
   - [3.4. Optional Fields](#34-optional-fields)
   - [3.5. Validation Rules](#35-validation-rules)
   - [3.6. AutoAdapter Special Case](#36-autoadapter-special-case)
+- [Смотрите также](#смотрите-также)
 
 
 - 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
@@ -145,7 +146,7 @@ Onboarding Path C (self-declaring repo).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [78-3-registry-nautilus-json](../../02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [08-3-registry-nautilus-json](../../02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [07-portal-entry](07-portal-entry.md)

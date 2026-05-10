@@ -1,5 +1,11 @@
 # Product Management, Support, & Operations — 17 ролей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -22,7 +28,7 @@ Product Manager по Claude Code, API Growth, Consumer, Monetization, Multi-Clou
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [14-public-policy](14-public-policy.md)
 - [15-public-benefit](15-public-benefit.md)

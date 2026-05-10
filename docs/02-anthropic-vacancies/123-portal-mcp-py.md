@@ -745,7 +745,7 @@ if __name__ == "__main__":
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.22)
 - 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.21)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md) (сходство 0.17)
@@ -755,7 +755,7 @@ if __name__ == "__main__":
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
@@ -815,7 +815,7 @@ if __name__ == "__main__":
 
 ---
 
-**Кто ссылается на этот документ (21):**
+## Кто ссылается на этот документ (21)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - [105-review-methodology-md](105-review-methodology-md.md)

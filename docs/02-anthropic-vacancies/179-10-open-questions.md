@@ -114,7 +114,7 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.13)
 - [181-12-closing](181-12-closing.md) (сходство 0.12)
@@ -124,7 +124,7 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
 - [181-12-closing](181-12-closing.md)
 - [264-11-open-questions](264-11-open-questions.md)
@@ -135,7 +135,7 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)

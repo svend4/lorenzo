@@ -152,7 +152,7 @@ that touches the world beyond the personal context.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
 - [03-what-makes-representative-agent](03-what-makes-representative-agent.md)
 - [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)

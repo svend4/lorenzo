@@ -97,7 +97,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [STATS](STATS.md)
 - [HEALTH](HEALTH.md)
 - [WORD_FREQ](WORD_FREQ.md)

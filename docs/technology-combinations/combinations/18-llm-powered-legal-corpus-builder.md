@@ -1,5 +1,12 @@
 # Комбинация 18: LLM-Powered Legal Corpus Builder
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -79,7 +86,7 @@ ROI: 10 sec semantic search vs 2 hr manual review
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 - [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
@@ -90,7 +97,7 @@ ROI: 10 sec semantic search vs 2 hr manual review
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)

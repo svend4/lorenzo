@@ -72,7 +72,7 @@ _Сгенерировано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [DIGEST_AUTO.md](../DIGEST_AUTO.md) — автоматический дайджест из git
 - [retrospective](retrospective.md)
 - [meeting-notes](meeting-notes.md)

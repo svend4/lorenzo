@@ -42,7 +42,7 @@ readiness.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [120-главные-технические-риски](../../02-anthropic-vacancies/120-главные-технические-риски.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 - [15-appendix-c-history](15-appendix-c-history.md)

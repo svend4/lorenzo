@@ -100,7 +100,7 @@ product.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.16)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.16)
@@ -110,7 +110,7 @@ product.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [279-existing-approximations](279-existing-approximations.md)
@@ -159,7 +159,7 @@ product.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [218-7-application-domains](218-7-application-domains.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)

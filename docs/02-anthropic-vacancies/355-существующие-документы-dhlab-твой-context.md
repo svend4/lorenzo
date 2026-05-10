@@ -4,10 +4,13 @@
 ## Contents
 
 - [Существующие документы DHLab (твой context)](#существующие-документы-dhlab-твой-context)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
 
 
 > [!NOTE]
@@ -48,7 +51,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.24)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.22)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.19)
@@ -58,7 +61,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
@@ -107,7 +110,7 @@
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [137-table-of-contents](137-table-of-contents.md)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)

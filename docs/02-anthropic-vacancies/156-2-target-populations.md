@@ -158,7 +158,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [153-executive-summary](153-executive-summary.md) (сходство 0.17)
 - [155-1-problem-statement](155-1-problem-statement.md) (сходство 0.16)
 - [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md) (сходство 0.16)
@@ -168,7 +168,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [153-executive-summary](153-executive-summary.md)
 - [155-1-problem-statement](155-1-problem-statement.md)
 - [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
@@ -205,7 +205,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [153-executive-summary](153-executive-summary.md)
 - [154-table-of-contents](154-table-of-contents.md)
 - [155-1-problem-statement](155-1-problem-statement.md)

@@ -1,5 +1,11 @@
 # Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -54,7 +60,7 @@ Aktion Mensch — поддерживает disability-related tech specifically.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-what-i-can-do-now](../privacy-federation/04-what-i-can-do-now.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
 - [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)

@@ -1,5 +1,11 @@
 # Различие 5: Дрифт между tool capability и mission
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Hermes designed для general-purpose autonomous agency. Self-improvement, mult
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)

@@ -118,7 +118,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [02-knowledge-graphs](02-knowledge-graphs.md) (сходство 0.14)
 - [03-local-first](03-local-first.md) (сходство 0.11)
 
@@ -127,7 +127,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-knowledge-graphs](02-knowledge-graphs.md)
 - [03-local-first](03-local-first.md)
 - [WORD_FREQ](../WORD_FREQ.md)
@@ -160,7 +160,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-agent-routing](01-agent-routing.md)
 - [03-local-first](03-local-first.md)
 - [README](README.md)

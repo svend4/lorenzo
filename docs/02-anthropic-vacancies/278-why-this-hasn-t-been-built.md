@@ -88,7 +88,7 @@ integration does not.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [285-closing](285-closing.md) (сходство 0.15)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.12)
@@ -98,7 +98,7 @@ integration does not.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [285-closing](285-closing.md)
 - [279-existing-approximations](279-existing-approximations.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
@@ -147,7 +147,7 @@ integration does not.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [168-abstract](168-abstract.md)
 - [266-13-closing](266-13-closing.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)

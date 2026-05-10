@@ -3463,7 +3463,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [SEARCH](SEARCH.md)

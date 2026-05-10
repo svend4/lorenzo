@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-question-what-is-hermes.md](00-question-what-is-hermes.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [01-similarity-1-composite-skills.md](01-similarity-1-composite-skills.md) — <!-- summary -->
 - [02-similarity-2-persistent-memory.md](02-similarity-2-persistent-memory.md) — <!-- summary -->
 - 03-similarity-3-[mcp-support.md](03-similarity-3-mcp-support.md) — <!-- summary -->

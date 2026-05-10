@@ -4,10 +4,13 @@
 ## Contents
 
 - [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
 
 
 > [!TIP]
@@ -50,7 +53,7 @@ review.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [267-acknowledgments](267-acknowledgments.md) (сходство 0.17)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.17)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
@@ -60,7 +63,7 @@ review.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
@@ -115,7 +118,7 @@ review.
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [137-table-of-contents](137-table-of-contents.md)
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)

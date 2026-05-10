@@ -1,5 +1,11 @@
 # Результаты последнего поиска — что нашлось и что не нашлось
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -88,7 +94,7 @@ Limitation: developer task automation, не community synthesis
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-level-5-full-network](../phased-deployment/06-level-5-full-network.md)
 - 00-question-[lorenzo-codename](00-question-lorenzo-codename.md)
 - [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)

@@ -1,5 +1,11 @@
 # Section 10: Engagement request
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -64,7 +70,7 @@ Potential outcomes
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [11-not-and-format](11-not-and-format.md)
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - [06-section-6-proposer-role](06-section-6-proposer-role.md)

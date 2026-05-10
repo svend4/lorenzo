@@ -23,7 +23,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [02-collaboration-partners](02-collaboration-partners.md) (сходство 0.18)
 - [01-synthesis](01-synthesis.md) (сходство 0.16)
 - [README](knowledge/README.md) (сходство 0.10)
@@ -32,7 +32,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-synthesis](01-synthesis.md)
 - [wikontic](knowledge/wikontic.md)
 - [README](memory/README.md)

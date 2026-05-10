@@ -39,7 +39,7 @@ svend4 как обычный tool.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.21)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.18)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.16)
@@ -49,7 +49,7 @@ svend4 как обычный tool.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [123-portal-mcp-py](123-portal-mcp-py.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
 - [42-author-contact](42-author-contact.md)
@@ -107,7 +107,7 @@ svend4 как обычный tool.
 
 ---
 
-**Кто ссылается на этот документ (20):**
+## Кто ссылается на этот документ (20)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)

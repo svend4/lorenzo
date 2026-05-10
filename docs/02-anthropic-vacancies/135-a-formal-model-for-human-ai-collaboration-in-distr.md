@@ -4,10 +4,13 @@
 ## Contents
 
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
 
 
 > [!NOTE]
@@ -43,7 +46,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md) (сходство 0.44)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.40)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.37)
@@ -53,7 +56,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
@@ -101,7 +104,7 @@
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)

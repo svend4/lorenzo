@@ -201,7 +201,7 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [MISSING](MISSING.md)
 - [TAGS](TAGS.md)
 - [GLOSSARY](GLOSSARY.md)

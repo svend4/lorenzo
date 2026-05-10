@@ -6,6 +6,8 @@
 - [Описание](#описание)
 - [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
 - [Числовые наблюдения](#числовые-наблюдения)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!WARNING]
@@ -54,7 +56,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [E-execution-plane](../ensembles/E-execution-plane.md)
 - [research-docs-liteparse](research-docs-liteparse.md)
 - [rufler](rufler.md)
@@ -65,7 +67,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

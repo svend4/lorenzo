@@ -5,6 +5,7 @@
 ## Содержание
 
 - [01-why-binary-incomplete.md](01-why-binary-incomplete.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [02-twenty-one-teachers-pattern.md](02-twenty-one-teachers-pattern.md) — > [!TIP]
 - [03-what-makes-csa.md](03-what-makes-csa.md) — <!-- summary -->
 - [04-sub-agent-registry.md](04-sub-agent-registry.md) — > [!TIP]

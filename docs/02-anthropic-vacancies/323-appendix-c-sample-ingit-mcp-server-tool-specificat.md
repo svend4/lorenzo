@@ -284,7 +284,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.21)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md) (сходство 0.17)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.15)
@@ -294,7 +294,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [318-10-strategic-positioning](318-10-strategic-positioning.md)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
@@ -340,7 +340,7 @@ This recursive nature — каждый ваш observation refines understanding,
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)

@@ -1,5 +1,11 @@
 # Сходство 4: Multi-platform reach (17+ платформ)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -30,7 +36,7 @@ Hermes здесь значительно шире. Особенно важно �
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)

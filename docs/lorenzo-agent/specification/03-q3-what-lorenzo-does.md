@@ -1,5 +1,11 @@
 # Question 3: Что Lorenzo фактически делает?
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -73,7 +79,7 @@ New domain exploration (medical advocacy? educational?)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - [06-q6-accountability](06-q6-accountability.md)

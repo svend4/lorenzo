@@ -1,5 +1,12 @@
 # Коррекция: FDE понижается
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -30,7 +37,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 - 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
 - [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
@@ -41,7 +48,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [README](README.md)
 - [components-by-name](../../../glossary/components-by-name.md)
 - [concepts](../../../glossary/concepts.md)

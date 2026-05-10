@@ -4,6 +4,7 @@
 ## Contents
 
 - [The Recursive Insight](#the-recursive-insight)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -83,7 +84,7 @@ work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [281-the-recursive-insight](../../02-anthropic-vacancies/281-the-recursive-insight.md)
 - [09-what-industry-will-build](09-what-industry-will-build.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)

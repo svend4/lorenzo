@@ -1,5 +1,11 @@
 # Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -110,7 +116,7 @@ Cascade означает: первая модель делает простую 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 03-[nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [00-question-two-nautiluses](00-question-two-nautiluses.md)

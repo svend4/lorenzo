@@ -249,7 +249,7 @@ _Документ обновляется вручную при изменени�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-synthesis](meta-scripting/05-synthesis.md)
 - [02-architecture](meta-scripting/02-architecture.md)
 - [03-catalog](meta-scripting/03-catalog.md)

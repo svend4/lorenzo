@@ -4,6 +4,9 @@
 ## Contents
 
 - [Essence](#essence)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 > [!NOTE]
@@ -44,7 +47,7 @@ Mixture-of-Experts routing (v53–v61).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [36-essence](36-essence.md) (сходство 0.18)
 - [45-passports-[pro2](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.17)
 - [56-essence](56-essence.md) (сходство 0.14)
@@ -54,7 +57,7 @@ Mixture-of-Experts routing (v53–v61).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [45-passports-[pro2](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 - [36-essence](36-essence.md)
 - [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
@@ -65,7 +68,7 @@ Mixture-of-Experts routing (v53–v61).
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - 35-passports-[info1-md](35-passports-info1-md.md)
 - [39-angle-perspective](39-angle-perspective.md)

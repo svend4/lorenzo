@@ -4,10 +4,13 @@
 ## Contents
 
 - [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
 
 
 > [!NOTE]
@@ -44,7 +47,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.44)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.36)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.35)
@@ -54,7 +57,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
@@ -97,7 +100,7 @@
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)

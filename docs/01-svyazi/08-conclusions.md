@@ -4,6 +4,8 @@
 ## Contents
 
 - [Выводы](#выводы)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 
 
 > [!TIP]
@@ -44,7 +46,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [07-выводы](../04-ai-collaborations/07-выводы.md) (сходство 0.95)
 - [01-executive-summary](01-executive-summary.md) (сходство 0.21)
 - [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.14)
@@ -54,7 +56,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-выводы](../04-ai-collaborations/07-выводы.md)
 - [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
 - [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)

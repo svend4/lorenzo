@@ -38,7 +38,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [211-table-of-contents](211-table-of-contents.md) (сходство 0.23)
 - [253-table-of-contents](253-table-of-contents.md) (сходство 0.21)
 - [154-table-of-contents](154-table-of-contents.md) (сходство 0.17)
@@ -48,7 +48,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [211-table-of-contents](211-table-of-contents.md)
 - [253-table-of-contents](253-table-of-contents.md)
 - [154-table-of-contents](154-table-of-contents.md)
@@ -95,7 +95,7 @@
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [137-table-of-contents](137-table-of-contents.md)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [154-table-of-contents](154-table-of-contents.md)

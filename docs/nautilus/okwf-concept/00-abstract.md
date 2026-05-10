@@ -98,7 +98,7 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-appendices](10-appendices.md)
 - [09-call-for-partnership](09-call-for-partnership.md)
 - [01-problem-statement](01-problem-statement.md)

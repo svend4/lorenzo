@@ -126,7 +126,7 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.18)
 - [221-10-open-questions](221-10-open-questions.md) (сходство 0.18)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
@@ -136,7 +136,7 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
@@ -147,7 +147,7 @@ indefinitely; "graduation" may not be the right metaphor.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)

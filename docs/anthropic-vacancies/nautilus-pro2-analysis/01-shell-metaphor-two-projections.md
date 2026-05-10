@@ -1,5 +1,11 @@
 # Раковина наутилуса как scale invariance — две проекции одной метафоры
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-two-nautiluses](00-question-two-nautiluses.md)
 - [15-glossary](../../nautilus/npp-v1-0/15-glossary.md)
 - [13-reference-implementation](../../nautilus/npp-v1-0/13-reference-implementation.md)

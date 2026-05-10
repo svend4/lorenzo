@@ -1,5 +1,11 @@
 # Сходство 5: Self-hosting и privacy
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -32,7 +38,7 @@ Hermes полностью self-hosted, MIT license, all data stays on your machi
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)

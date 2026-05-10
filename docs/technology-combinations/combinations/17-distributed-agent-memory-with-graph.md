@@ -1,5 +1,11 @@
 # Комбинация 17: Distributed Agent Memory with Graph
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -65,7 +71,7 @@ ROI: Distributed research without central server, knowledge compounds
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 - [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
 - 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)

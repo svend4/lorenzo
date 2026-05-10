@@ -4,6 +4,7 @@
 ## Contents
 
 - [Closing](#closing)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -62,7 +63,7 @@ need to be solved before other work proceeds.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-what-not-solved](10-what-not-solved.md)
 - [05-why-not-built](05-why-not-built.md)
 - [08-recursive-insight](08-recursive-insight.md)

@@ -1,5 +1,11 @@
 # Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -28,7 +34,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 - [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)

@@ -158,7 +158,7 @@ Layer.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.13)
 - [168-abstract](168-abstract.md) (сходство 0.13)
@@ -168,7 +168,7 @@ Layer.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [168-abstract](168-abstract.md)
@@ -202,7 +202,7 @@ Layer.
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [156-2-target-populations](156-2-target-populations.md)
 - [168-abstract](168-abstract.md)
 - [169-table-of-contents](169-table-of-contents.md)

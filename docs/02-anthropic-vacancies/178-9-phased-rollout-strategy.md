@@ -143,7 +143,7 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.17)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
 - [180-11-call-for-collaboration](180-11-call-for-collaboration.md) (сходство 0.14)
@@ -153,7 +153,7 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [180-11-call-for-collaboration](180-11-call-for-collaboration.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
@@ -164,7 +164,7 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [223-12-closing](223-12-closing.md)

@@ -70,7 +70,7 @@ and B (branch Y) on YYYY-MM-DD»
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
 - [10-checklist](10-checklist.md)
 - [07-portal-entry](../npp-v1-1/07-portal-entry.md)

@@ -4,6 +4,7 @@
 ## Contents
 
 - [6. Почему это валидный паттерн для AI-assisted workflows](#6-почему-это-валидный-паттерн-для-ai-assisted-workflows)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -57,7 +58,7 @@ AI-assisted development**. Старые правила («избегай дуб�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
 - [15-appendix-c-history](15-appendix-c-history.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)

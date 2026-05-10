@@ -1,5 +1,12 @@
 # Комбинация 31: Event-Sourced Legal Document History
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -71,7 +78,7 @@ ROI: Complete audit trail for court, instant historical queries
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
@@ -82,7 +89,7 @@ ROI: Complete audit trail for court, instant historical queries
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)

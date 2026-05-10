@@ -4,6 +4,9 @@
 ## Contents
 
 - [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
 
 
 > [!TIP]
@@ -52,7 +55,7 @@ training logs, benchmarks]
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [53-history](53-history.md) (сходство 0.18)
 - [52-author-contact](52-author-contact.md) (сходство 0.14)
 - [45-passports-[pro2](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md) (сходство 0.10)
@@ -62,7 +65,7 @@ training logs, benchmarks]
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [53-history](53-history.md)
 - [52-author-contact](52-author-contact.md)
 - [42-author-contact](42-author-contact.md)
@@ -73,7 +76,7 @@ training logs, benchmarks]
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [12-content-overview](12-content-overview.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)

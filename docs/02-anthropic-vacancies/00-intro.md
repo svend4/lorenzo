@@ -430,7 +430,7 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md) (сходство 0.19)
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.18)
 - [TABLES](../TABLES.md) (сходство 0.15)
@@ -456,7 +456,7 @@ soz150 / Writing OS + data4 (public) → новый legal-sgb-toolkit с:
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md)
 - [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
 - [README](README.md)

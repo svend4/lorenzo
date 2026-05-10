@@ -4,10 +4,13 @@
 ## Contents
 
 - [0. Status of This Document](#0-status-of-this-document)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (20)](#кто-ссылается-на-этот-документ-20)
 
 
 > [!NOTE]
@@ -42,7 +45,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.55)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.22)
 - [42-author-contact](42-author-contact.md) (сходство 0.20)
@@ -52,7 +55,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
 - [42-author-contact](42-author-contact.md)
 - [62-author-contact](62-author-contact.md)
@@ -114,7 +117,7 @@
 
 ---
 
-**Кто ссылается на этот документ (20):**
+## Кто ссылается на этот документ (20)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)

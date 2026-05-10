@@ -8,6 +8,9 @@
   - [17.2. Version in Registry](#172-version-in-registry)
   - [17.3. Breaking Changes Process](#173-breaking-changes-process)
   - [17.4. Deprecation Policy](#174-deprecation-policy)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 <!-- abstract-auto -->
@@ -74,7 +77,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [24-12-versioning-policy](24-12-versioning-policy.md) (сходство 0.63)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.15)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.12)
@@ -84,7 +87,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [24-12-versioning-policy](24-12-versioning-policy.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
@@ -95,7 +98,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)

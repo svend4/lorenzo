@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-overview.md](00-overview.md) — <!-- summary -->
+<!-- tags: agent, specification, architecture, implementation -->
 - [01-level-0-manual.md](01-level-0-manual.md) — <!-- summary -->
 - [02-level-1-minimal-zero.md](02-level-1-minimal-zero.md) — <!-- summary -->
 - [03-level-2-basic-lite.md](03-level-2-basic-lite.md) — <!-- summary -->

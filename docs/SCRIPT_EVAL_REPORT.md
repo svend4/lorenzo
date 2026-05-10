@@ -611,7 +611,7 @@ BM25 — точный, но не понимает синонимы. «Агент
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md)
 - [DECISIONS](DECISIONS.md)
 - [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)

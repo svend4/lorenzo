@@ -1,5 +1,12 @@
 # Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -76,7 +83,7 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
@@ -87,7 +94,7 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)

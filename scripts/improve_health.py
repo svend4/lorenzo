@@ -110,6 +110,9 @@ def main():
 
     lines = [
         "# Health Dashboard\n",
+        f"<!-- summary -->\n> Балл здоровья репозитория: **{total_score:.0f}/100** — файлов: {stats['total_files']}, слов: {stats['total_words']:,}\n",
+        "<!-- tags: health, quality, metrics, documentation -->\n",
+        f"> [!TIP]\n> Балл 90+ означает отличное состояние базы знаний.\n\n<!-- alert-added -->\n",
         f"_Обновлено: {today}_\n",
         f"## Общий балл: **{total_score:.0f}/100** {score_to_emoji(total_score)}\n",
 
@@ -154,6 +157,14 @@ def main():
         lines.append(f"- 🗑️ Убрать {exact_dups} точных дублей (`DUPLICATES.md`)")
     if total_score >= 90:
         lines.append("- ✅ Репозиторий в отличном состоянии!")
+
+    lines += [
+        "\n## Смотрите также\n",
+        "- [METRICS](METRICS.md) — метрики качества документов",
+        "- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок",
+        "- [VALIDATION](VALIDATION.md) — валидация структуры",
+        "- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)",
+    ]
 
     out = DOCS / "HEALTH.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

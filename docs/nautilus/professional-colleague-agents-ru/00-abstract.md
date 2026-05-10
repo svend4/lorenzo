@@ -52,7 +52,7 @@ AI-партнёров в свою ежедневную работу.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 - [12-zaklyuchenie](12-zaklyuchenie.md)
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)

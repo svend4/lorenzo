@@ -7,6 +7,7 @@
 - [Файлы с низким покрытием (< 3 признаков) — 3 файлов](#файлы-с-низким-покрытием-3-признаков-3-файлов)
 - [Полное покрытие — 1 файлов](#полное-покрытие-1-файлов)
 - [Рекомендуемые действия](#рекомендуемые-действия)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -73,7 +74,7 @@ python scripts/improve_autofill.py
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [TAGS](TAGS.md)
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)

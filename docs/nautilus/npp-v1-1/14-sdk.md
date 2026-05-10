@@ -7,6 +7,7 @@
   - [14.1. Required SDK Methods](#141-required-sdk-methods)
   - [14.2. Optional SDK Methods](#142-optional-sdk-methods)
   - [14.3. Return Types](#143-return-types)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -65,7 +66,7 @@ acceptable только для debugging/experimental версий.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [89-14-sdk-contract-informative](../../02-anthropic-vacancies/89-14-sdk-contract-informative.md)
 - [18-reference-implementation](18-reference-implementation.md)
 - [11-relevance-ranking](11-relevance-ranking.md)

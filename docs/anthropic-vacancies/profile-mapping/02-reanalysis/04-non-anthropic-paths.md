@@ -1,5 +1,11 @@
 # Альтернативные пути вне Anthropic
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -32,7 +38,7 @@ Patent filing. 6 патентабельных изобретений — это 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)

@@ -40,7 +40,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.20)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.17)
 - [229-профессиональные-коллеги-агенты](229-профессиональные-коллеги-агенты.md) (сходство 0.17)
@@ -50,7 +50,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [42-author-contact](42-author-contact.md)
@@ -113,7 +113,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (21):**
+## Кто ссылается на этот документ (21)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - [106-tl-dr](106-tl-dr.md)

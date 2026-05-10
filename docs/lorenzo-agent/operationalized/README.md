@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-overview-grandchild-combination.md](00-overview-grandchild-combination.md) — <!-- summary -->
+<!-- tags: agent, specification, architecture, implementation -->
 - [01-pluses-1-7.md](01-pluses-1-7.md) — <!-- summary -->
 - [02-minuses-1-10.md](02-minuses-1-10.md) — > [!TIP]
 - [03-honest-opinion.md](03-honest-opinion.md) — <!-- summary -->

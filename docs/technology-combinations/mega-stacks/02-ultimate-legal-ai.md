@@ -5,6 +5,7 @@
 
 - [Capabilities](#capabilities)
 - [First implementation priority](#first-implementation-priority)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -84,7 +85,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 - [01-legal-ai-stack](01-legal-ai-stack.md)

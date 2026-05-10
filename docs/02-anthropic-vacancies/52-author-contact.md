@@ -4,10 +4,13 @@
 ## Contents
 
 - [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!TIP]
@@ -49,7 +52,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [62-author-contact](62-author-contact.md) (сходство 0.37)
 - [42-author-contact](42-author-contact.md) (сходство 0.31)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md) (сходство 0.16)
@@ -59,7 +62,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [62-author-contact](62-author-contact.md)
 - [42-author-contact](42-author-contact.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
@@ -110,7 +113,7 @@
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)

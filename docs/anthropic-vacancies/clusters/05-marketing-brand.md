@@ -1,5 +1,11 @@
 # Marketing & Brand — 23 роли
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@ Art Director Enterprise, Copy Leads, Customer Marketing (включая Startup 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [16-people](16-people.md)
 - [15-public-benefit](15-public-benefit.md)

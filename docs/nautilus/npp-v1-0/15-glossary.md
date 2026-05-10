@@ -8,6 +8,7 @@
   - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -142,7 +143,7 @@ example_user, example@email.com
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [27-15-glossary-of-examples](../../02-anthropic-vacancies/27-15-glossary-of-examples.md)
 - [17-appendix-b-change-log](17-appendix-b-change-log.md)
 - [13-reference-implementation](13-reference-implementation.md)

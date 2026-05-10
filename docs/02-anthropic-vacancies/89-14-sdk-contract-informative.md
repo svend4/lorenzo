@@ -7,6 +7,9 @@
   - [14.1. Required SDK Methods](#141-required-sdk-methods)
   - [14.2. Optional SDK Methods](#142-optional-sdk-methods)
   - [14.3. Return Types](#143-return-types)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 > [!NOTE]
@@ -61,7 +64,7 @@ acceptable только для debugging/experimental версий.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.12)
 
 
@@ -69,7 +72,7 @@ acceptable только для debugging/experimental версий.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [93-18-reference-implementation](93-18-reference-implementation.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
@@ -80,7 +83,7 @@ acceptable только для debugging/experimental версий.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [04-abstract](04-abstract.md)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)

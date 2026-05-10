@@ -1,5 +1,11 @@
 # Пара 3 — CRDT-синхронизация × Self-hosted persistence
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
 - 03-crdt-local-first-[svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
 - [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)

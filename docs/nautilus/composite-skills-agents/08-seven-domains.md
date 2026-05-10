@@ -195,7 +195,7 @@ within 5-10 years.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [261-8-seven-domains-of-application](../../02-anthropic-vacancies/261-8-seven-domains-of-application.md)
 - [02-twenty-one-teachers-pattern](02-twenty-one-teachers-pattern.md)
 - [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)

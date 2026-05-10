@@ -1,5 +1,11 @@
 # Графовая когнитивная память на SQLite (Виталий, март 2026)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -61,7 +67,7 @@ Local-first, single-file SQLite — portable, offline-capable, simple
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [01-coally](01-coally.md)
 - [07-key-observation](07-key-observation.md)

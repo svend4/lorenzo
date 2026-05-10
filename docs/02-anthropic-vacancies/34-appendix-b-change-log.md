@@ -82,7 +82,7 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [104-appendix-c-references](104-appendix-c-references.md) (сходство 0.13)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md) (сходство 0.12)
 - [64-for-the-curious-philosophy](64-for-the-curious-philosophy.md) (сходство 0.11)
@@ -92,7 +92,7 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 - [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md)
@@ -142,7 +142,7 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 - [04-abstract](04-abstract.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)

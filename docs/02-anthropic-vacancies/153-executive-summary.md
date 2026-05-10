@@ -90,7 +90,7 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [155-1-problem-statement](155-1-problem-statement.md) (сходство 0.17)
 - [156-2-target-populations](156-2-target-populations.md) (сходство 0.17)
 - [164-10-appendices](164-10-appendices.md) (сходство 0.15)
@@ -100,7 +100,7 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [155-1-problem-statement](155-1-problem-statement.md)
 - [156-2-target-populations](156-2-target-populations.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -152,7 +152,7 @@ stakeholders as basis for dialogue and refinement.
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)

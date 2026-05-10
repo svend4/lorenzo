@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-question-habr-examples.md](00-question-habr-examples.md) — <!-- summary -->
+<!-- tags: habr, projects, oss, collaboration -->
 - 01-[svyazi-andrey-chuyan.md](01-svyazi-andrey-chuyan.md) — <!-- summary -->
 - [02-vshe-scientific-networking.md](02-vshe-scientific-networking.md) — <!-- summary -->
 - [03-brainbox-multi-ai-hub.md](03-brainbox-multi-ai-hub.md) — <!-- summary -->

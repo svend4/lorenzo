@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Отличное наблюдение.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -190,7 +196,7 @@ Peer-to-peer collaboration matching через deep-profile analysis — это 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-practical](00-question-practical.md)
 - [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 - [00-question-voiceless](../voiceless-contributors/00-question-voiceless.md)

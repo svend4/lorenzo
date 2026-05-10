@@ -1,5 +1,11 @@
 # A2A vs MCP, ансамбль H — MCP/A2A Review Fabric
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -58,7 +64,7 @@ memory_fact: "review_required"
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 07-vs-[notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 - [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)

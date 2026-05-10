@@ -154,7 +154,7 @@ requires research.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [144-7-open-questions](../../02-anthropic-vacancies/144-7-open-questions.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
 - [08-call-to-action](08-call-to-action.md)

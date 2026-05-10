@@ -1,5 +1,11 @@
 # Финальный список потенциальных collaborators (Tier 1–4)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -61,7 +67,7 @@ Tier 4 — institutional reference
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md)
 - [354-существующий-landscape-collaborators-твоя-working-](../../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)

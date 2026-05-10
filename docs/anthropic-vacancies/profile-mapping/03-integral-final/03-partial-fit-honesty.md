@@ -1,5 +1,11 @@
 # Что такое частичное соответствие — честно
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ Remote-friendly EMEA + accommodation под health status — Anthropic дела
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)
 - [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [17-appendix-b-change-log](../../../nautilus/npp-v1-0/17-appendix-b-change-log.md)

@@ -7,6 +7,7 @@
   - [1.1. The Current Landscape](#11-the-current-landscape)
   - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
   - [1.3. The Rising Urgency](#13-the-rising-urgency)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -99,7 +100,7 @@ such a protocol.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [138-1-why-single-triangle-models-are-incomplete](../../02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
 - [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
 - [136-abstract](../../02-anthropic-vacancies/136-abstract.md)

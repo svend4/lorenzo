@@ -39,7 +39,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.22)
 - [45-passports-pro2-md](45-passports-pro2-md.md) (сходство 0.21)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md) (сходство 0.16)
@@ -49,7 +49,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [27-15-glossary-of-examples](27-15-glossary-of-examples.md)
 - [45-passports-pro2-md](45-passports-pro2-md.md)
@@ -105,7 +105,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [39-angle-perspective](39-angle-perspective.md)
 - [42-author-contact](42-author-contact.md)

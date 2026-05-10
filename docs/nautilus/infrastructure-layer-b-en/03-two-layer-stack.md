@@ -4,6 +4,7 @@
 ## Contents
 
 - [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
+- [Смотрите также](#смотрите-также)
 
 
 > [!TIP]
@@ -70,7 +71,7 @@ infrastructure that does not exist as a unified product.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [276-the-two-layer-stack-as-it-exists](../../02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
 - [06-existing-approximations](06-existing-approximations.md)
 - [01-missing-middle-layer](01-missing-middle-layer.md)

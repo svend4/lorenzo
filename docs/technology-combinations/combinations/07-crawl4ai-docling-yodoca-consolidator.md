@@ -1,5 +1,12 @@
 # Комбинация 7: Crawl4AI × Docling × Yodoca consolidator
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +66,7 @@ Graph view показывает связи между прецедентами
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
 - [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
@@ -70,7 +77,7 @@ Graph view показывает связи между прецедентами
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)

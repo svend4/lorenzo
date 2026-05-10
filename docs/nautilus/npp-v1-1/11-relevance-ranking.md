@@ -6,6 +6,7 @@
 - [11. Relevance Ranking](#11-relevance-ranking)
   - [11.1. Scoring Formula](#111-scoring-formula)
   - [11.2. MAY Extensions](#112-may-extensions)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -78,7 +79,7 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [86-11-relevance-ranking](../../02-anthropic-vacancies/86-11-relevance-ranking.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 - [09-consensus-algorithm](09-consensus-algorithm.md)

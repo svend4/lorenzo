@@ -19,7 +19,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [yodoca](yodoca.md) (сходство 0.21)
 - [README](../knowledge/README.md) (сходство 0.17)
 - [README](../README.md) (сходство 0.10)
@@ -28,7 +28,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-synthesis](../01-synthesis.md)
 - [wikontic](../knowledge/wikontic.md)
 - [yodoca](yodoca.md)

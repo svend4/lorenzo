@@ -1,5 +1,11 @@
 # Различие 3: Federated knowledge architecture отсутствует
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -28,7 +34,7 @@ Nautilus Portal Protocol specifically addresses federated queries across multipl
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)

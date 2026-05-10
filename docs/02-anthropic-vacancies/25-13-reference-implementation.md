@@ -4,10 +4,13 @@
 ## Contents
 
 - [13. Reference Implementation](#13-reference-implementation)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (20)](#кто-ссылается-на-этот-документ-20)
 
 
 > [!NOTE]
@@ -46,7 +49,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.36)
 - [42-author-contact](42-author-contact.md) (сходство 0.21)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.19)
@@ -56,7 +59,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [93-18-reference-implementation](93-18-reference-implementation.md)
 - [42-author-contact](42-author-contact.md)
 - [62-author-contact](62-author-contact.md)
@@ -117,7 +120,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Кто ссылается на этот документ (20):**
+## Кто ссылается на этот документ (20)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [104-appendix-c-references](104-appendix-c-references.md)

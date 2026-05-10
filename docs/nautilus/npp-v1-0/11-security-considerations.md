@@ -7,6 +7,7 @@
   - [11.1. Untrusted Adapters](#111-untrusted-adapters)
   - [11.2. Private Repositories](#112-private-repositories)
   - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -65,7 +66,7 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [23-11-security-considerations](../../02-anthropic-vacancies/23-11-security-considerations.md)
 - [15-security](../npp-v1-1/15-security.md)
 - [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md)

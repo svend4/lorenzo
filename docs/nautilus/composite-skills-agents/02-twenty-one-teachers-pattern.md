@@ -145,7 +145,7 @@ practitioner can configure into their own combination.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
 - [08-seven-domains](08-seven-domains.md)
 - [01-why-binary-incomplete](01-why-binary-incomplete.md)

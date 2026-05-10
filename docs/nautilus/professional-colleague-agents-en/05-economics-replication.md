@@ -159,7 +159,7 @@ economically viable for moderately sized professions.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [216-5-the-economics-of-profession-wide-replication](../../02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
 - [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
 - [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)

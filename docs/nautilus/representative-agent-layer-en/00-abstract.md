@@ -95,7 +95,7 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [11-call-for-collaboration](11-call-for-collaboration.md)
 - [01-cinderella-syndrome](01-cinderella-syndrome.md)
 - [09-phased-rollout](09-phased-rollout.md)

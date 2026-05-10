@@ -243,7 +243,7 @@ emerge.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [217-6-risks-specific-to-this-category](../../02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
 - [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)
 - [10-risks](../composite-skills-agents/10-risks.md)

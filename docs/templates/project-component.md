@@ -43,7 +43,7 @@ _Создано: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [contact-outreach](contact-outreach.md)
 - [ensemble](ensemble.md)
 - [tech-pair](tech-pair.md)

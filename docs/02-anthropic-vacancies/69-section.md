@@ -783,7 +783,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [72-расписание-фазы-3](72-расписание-фазы-3.md) (сходство 0.12)
 - [122-глоссарий](122-глоссарий.md) (сходство 0.11)
 - [104-appendix-c-references](104-appendix-c-references.md) (сходство 0.11)
@@ -793,7 +793,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [72-расписание-фазы-3](72-расписание-фазы-3.md)
 - [122-глоссарий](122-глоссарий.md)
 - [104-appendix-c-references](104-appendix-c-references.md)
@@ -804,7 +804,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [04-abstract](04-abstract.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [104-appendix-c-references](104-appendix-c-references.md)

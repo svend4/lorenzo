@@ -150,7 +150,7 @@ lose the social and negotiation skills they currently have.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.14)
 - [179-10-open-questions](179-10-open-questions.md) (сходство 0.14)
 - [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
@@ -160,7 +160,7 @@ lose the social and negotiation skills they currently have.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [179-10-open-questions](179-10-open-questions.md)
 - [175-6-ethical-framework](175-6-ethical-framework.md)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
@@ -171,7 +171,7 @@ lose the social and negotiation skills they currently have.
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [144-7-open-questions](144-7-open-questions.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)

@@ -1,5 +1,11 @@
 # Более сильные пути вне Anthropic
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 04-non-[anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
 - 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
 - [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)

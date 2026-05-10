@@ -10,6 +10,7 @@
   - [13.4. CORS](#134-cors)
   - [13.5. OpenAPI Specification](#135-openapi-specification)
   - [13.6. Error Responses](#136-error-responses)
+- [Смотрите также](#смотрите-также)
 
 
 > [!IMPORTANT]
@@ -153,7 +154,7 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [88-13-rest-api-contract-normative-for-portals](../../02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
 - [07-portal-entry](07-portal-entry.md)
 - [17-versioning-policy](17-versioning-policy.md)

@@ -242,7 +242,7 @@ consensus-based validation across repos.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [67-о-проекте](67-о-проекте.md) (сходство 0.17)
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.12)
@@ -252,7 +252,7 @@ consensus-based validation across repos.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [67-о-проекте](67-о-проекте.md)
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
@@ -263,7 +263,7 @@ consensus-based validation across repos.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [164-10-appendices](164-10-appendices.md)

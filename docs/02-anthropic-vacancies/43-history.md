@@ -4,6 +4,9 @@
 ## Contents
 
 - [History](#history)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!NOTE]
@@ -46,7 +49,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [63-history](63-history.md) (сходство 0.16)
 
 
@@ -54,7 +57,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [63-history](63-history.md)
 - [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 - [53-history](53-history.md)
@@ -65,7 +68,7 @@
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [31-content-overview](31-content-overview.md)
 - 35-passports-[info1-md](35-passports-info1-md.md)
 - [42-author-contact](42-author-contact.md)

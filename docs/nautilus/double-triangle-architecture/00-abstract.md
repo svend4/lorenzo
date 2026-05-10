@@ -95,7 +95,7 @@ unsolved issues.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
 - [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
 - [08-call-to-action](08-call-to-action.md)

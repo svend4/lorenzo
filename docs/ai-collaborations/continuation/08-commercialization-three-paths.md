@@ -1,5 +1,11 @@
 # Коммерциализация: три направления
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -57,7 +63,7 @@ C. AgentOps Knowledge Kernel
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 - [01-shared-memory-between-agents](01-shared-memory-between-agents.md)
 - [06-metrics-tree](06-metrics-tree.md)

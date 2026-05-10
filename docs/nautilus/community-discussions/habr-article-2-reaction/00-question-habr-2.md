@@ -1,5 +1,11 @@
 # Du hast gesagt: https://www.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -30,7 +36,7 @@ Du hast gesagt: https://www.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
 - [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)

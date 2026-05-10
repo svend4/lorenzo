@@ -154,7 +154,7 @@ exist.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [143-6-four-deployment-domains](../../02-anthropic-vacancies/143-6-four-deployment-domains.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
 - [08-call-to-action](08-call-to-action.md)

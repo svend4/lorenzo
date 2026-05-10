@@ -1,5 +1,11 @@
 # Что брать из info repositories — concrete recommendations
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -142,7 +148,7 @@ Marketplace layer (longer term) для economy dimension
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-what-info-repos-contain](02-what-info-repos-contain.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 - [05-what-to-do-right-now](05-what-to-do-right-now.md)

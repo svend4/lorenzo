@@ -23,7 +23,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-agent-routing](01-agent-routing.md)
 - [03-local-first](03-local-first.md)
 - [05-benchmarks](05-benchmarks.md)

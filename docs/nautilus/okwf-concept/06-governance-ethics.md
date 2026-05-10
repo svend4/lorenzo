@@ -9,6 +9,7 @@
   - [6.3. Conflict of Interest Management](#63-conflict-of-interest-management)
   - [6.4. Regulatory Compliance](#64-regulatory-compliance)
   - [6.5. Ethical Red Lines](#65-ethical-red-lines)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -134,7 +135,7 @@ dignified issues
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [160-6-governance-and-ethics](../../02-anthropic-vacancies/160-6-governance-and-ethics.md)
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)
 - [09-call-for-partnership](09-call-for-partnership.md)

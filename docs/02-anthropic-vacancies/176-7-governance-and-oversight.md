@@ -115,7 +115,7 @@ by mission-driven foundations.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [175-6-ethical-framework](175-6-ethical-framework.md) (сходство 0.15)
 - [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.13)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.11)
@@ -125,7 +125,7 @@ by mission-driven foundations.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [175-6-ethical-framework](175-6-ethical-framework.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
@@ -136,7 +136,7 @@ by mission-driven foundations.
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [144-7-open-questions](144-7-open-questions.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)

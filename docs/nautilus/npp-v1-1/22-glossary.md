@@ -334,7 +334,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [104-appendix-c-references](../../02-anthropic-vacancies/104-appendix-c-references.md)
 - [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md)
 - [16-glossary](../review-methodology/16-glossary.md)

@@ -9,6 +9,9 @@
   - [Disability and Access](#disability-and-access)
   - [Modern AI Ethics](#modern-ai-ethics)
   - [Companion Documents](#companion-documents)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!NOTE]
@@ -83,7 +86,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [204-ссылки](204-ссылки.md) (сходство 0.24)
 - [225-references](225-references.md) (сходство 0.22)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.17)
@@ -93,7 +96,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [204-ссылки](204-ссылки.md)
 - [225-references](225-references.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
@@ -104,7 +107,7 @@
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [146-acknowledgments](146-acknowledgments.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 - [182-acknowledgments](182-acknowledgments.md)

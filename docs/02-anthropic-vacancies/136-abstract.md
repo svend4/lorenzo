@@ -89,7 +89,7 @@ unsolved issues.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.19)
 - [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.18)
 - [148-appendix-a-glossary](148-appendix-a-glossary.md) (сходство 0.17)
@@ -99,7 +99,7 @@ unsolved issues.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [137-table-of-contents](137-table-of-contents.md)
@@ -150,7 +150,7 @@ unsolved issues.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [137-table-of-contents](137-table-of-contents.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)

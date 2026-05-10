@@ -123,7 +123,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [198-8-риски-и-меры-противодействия](../../02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 - [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)

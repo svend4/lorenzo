@@ -1,5 +1,11 @@
 # Конкретный потенциальный collaborator
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -55,7 +61,7 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [12-concrete-next-step](12-concrete-next-step.md)
 - [09-federated-platform](09-federated-platform.md)
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)

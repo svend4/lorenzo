@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -409,7 +415,7 @@ ADR обосновывающие ключевые архитектурные р�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-response](../innovation-transitions/01-response.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)

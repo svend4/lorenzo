@@ -97,6 +97,6 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - `docs/svyazi-2-0/components/legal-[rag.md`](...)
 - [decision-record](decision-record.md)

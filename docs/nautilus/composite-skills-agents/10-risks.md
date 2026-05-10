@@ -167,7 +167,7 @@ with collective improvement
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [263-10-risks-specific-to-composite-architectures](../../02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
 - [09-okwf-integration](09-okwf-integration.md)
 - [11-open-questions](11-open-questions.md)

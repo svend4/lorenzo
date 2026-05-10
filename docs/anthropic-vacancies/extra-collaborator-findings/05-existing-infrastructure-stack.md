@@ -1,5 +1,11 @@
 # Existing infrastructure stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -50,7 +56,7 @@ Domain applications
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-final-tier-ranking](06-final-tier-ranking.md)
 - [03-section-3-solution-architecture](../beneficial-deployments-concept/03-section-3-solution-architecture.md)
 - [04-similarity-4-multi-platform](../hermes-comparison/04-similarity-4-multi-platform.md)

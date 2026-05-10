@@ -58,7 +58,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.31)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.24)
 - [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md) (сходство 0.18)
@@ -68,7 +68,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md)
@@ -79,7 +79,7 @@
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [146-acknowledgments](146-acknowledgments.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 - [182-acknowledgments](182-acknowledgments.md)

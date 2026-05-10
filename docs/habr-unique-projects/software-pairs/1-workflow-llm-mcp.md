@@ -1,5 +1,11 @@
 # Пара 1 — Workflow-автоматизация × LLM-агенты с MCP
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
 - [5-browser-agents-headless](5-browser-agents-headless.md)
 - [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)

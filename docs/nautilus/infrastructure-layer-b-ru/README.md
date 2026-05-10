@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-intro.md](00-intro.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-zachem-dokument.md](01-zachem-dokument.md) — <!-- summary -->
 - [02-dvukhsloynyy-stek.md](02-dvukhsloynyy-stek.md) — <!-- summary -->
 - [03-otsutstvuet-sloy-b.md](03-otsutstvuet-sloy-b.md) — <!-- summary -->

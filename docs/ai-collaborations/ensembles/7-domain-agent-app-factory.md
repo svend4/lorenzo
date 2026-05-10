@@ -1,5 +1,11 @@
 # Ансамбль 7 — Domain Agent App Factory
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -54,7 +60,7 @@ BIM/Engineering Coach — тот же паттерн для инженерных
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)
 - [6-continuous-eval-loop](6-continuous-eval-loop.md)

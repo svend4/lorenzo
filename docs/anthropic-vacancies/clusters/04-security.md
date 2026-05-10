@@ -1,5 +1,11 @@
 # Security — 24 роли
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -22,7 +28,7 @@ Application Security, Detection & Response, Offensive Security, Insider Risk, Pl
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [16-people](16-people.md)
 - [13-communications](13-communications.md)
 - [12-technical-program-management](12-technical-program-management.md)

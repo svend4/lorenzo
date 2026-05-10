@@ -1,4 +1,8 @@
 # prototype
+<!-- summary -->
+> prototype
+
+<!-- tags: svyazi, architecture, knowledge-os, rag -->
 
 **Файлов:** 3
 

@@ -554,7 +554,7 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [165-closing](165-closing.md) (сходство 0.18)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.17)
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.16)
@@ -564,7 +564,7 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [165-closing](165-closing.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [CONCEPTS](../CONCEPTS.md)
@@ -610,7 +610,7 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [133-обратная-связь](133-обратная-связь.md)
 - [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

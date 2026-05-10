@@ -1,5 +1,11 @@
 # Safeguards (Trust & Safety) — 21 роль
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@ Trust & Safety в ML-смысле: Biological Safety Research Scientist, Policy 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [14-public-policy](14-public-policy.md)
 - [09-product-management-support-ops](09-product-management-support-ops.md)

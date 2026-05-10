@@ -1,5 +1,12 @@
 # Комбинация 1: Правильная агентская архитектура × Svyazi-паттерн
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +66,7 @@ Cross-domain запросы через event bus
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
 - 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
 - 03-crdt-local-first-[svyazi-cardindex](03-crdt-local-first-svyazi-cardindex.md)
@@ -70,7 +77,7 @@ Cross-domain запросы через event bus
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)

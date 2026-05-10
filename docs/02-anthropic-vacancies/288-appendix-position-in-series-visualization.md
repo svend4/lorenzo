@@ -166,7 +166,7 @@ So I named the possibility without pushing toward it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.17)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) (сходство 0.13)
 - [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md) (сходство 0.12)
@@ -176,7 +176,7 @@ So I named the possibility without pushing toward it.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 - [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
@@ -221,7 +221,7 @@ So I named the possibility without pushing toward it.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [164-10-appendices](164-10-appendices.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)

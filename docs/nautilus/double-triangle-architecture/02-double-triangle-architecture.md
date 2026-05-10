@@ -144,7 +144,7 @@ large organizations (Star(n)) without protocol changes.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [139-2-the-double-triangle-architecture](../../02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
 - [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
 - 04-[nautilus-portal-substrate](04-nautilus-portal-substrate.md)

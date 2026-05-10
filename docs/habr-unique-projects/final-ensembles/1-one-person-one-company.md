@@ -1,5 +1,11 @@
 # Ансамбль 1 — «Один человек = одна компания»
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -39,7 +45,7 @@ vault в Obsidian + RAG над corpus-ом юридических докумен
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [3-discovery-research](3-discovery-research.md)
 - [2-autoresearch-legal](2-autoresearch-legal.md)
 - [4-summary-authors](4-summary-authors.md)

@@ -192,7 +192,7 @@ ground on which Cowork operates effectively.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.20)
 - [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md) (сходство 0.18)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.17)
@@ -202,7 +202,7 @@ ground on which Cowork operates effectively.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)

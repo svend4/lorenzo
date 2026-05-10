@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-question-mmorpg-for-programmers.md](00-question-mmorpg-for-programmers.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [01-why-stronger-than-it-looks.md](01-why-stronger-than-it-looks.md) — <!-- summary -->
 - [02-existing-niche.md](02-existing-niche.md) — <!-- summary -->
 - [03-why-natural-for-programmers.md](03-why-natural-for-programmers.md) — <!-- summary -->

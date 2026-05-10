@@ -169,7 +169,7 @@ _Полная дорожная карта: docs/01-[svyazi/12-roadmap.md](01-svy
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-mvp-planning](01-svyazi/07-mvp-planning.md)
 - [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 - [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)

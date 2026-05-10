@@ -4,6 +4,9 @@
 ## Contents
 
 - [Appendix B: Comparison Matrix](#appendix-b-comparison-matrix)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 > [!NOTE]
@@ -56,7 +59,7 @@ local control, free substrate plus Cowork subscription.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [307-abstract](307-abstract.md) (сходство 0.12)
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
@@ -66,7 +69,7 @@ local control, free substrate plus Cowork subscription.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [308-table-of-contents](308-table-of-contents.md)
 - [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
@@ -77,7 +80,7 @@ local control, free substrate plus Cowork subscription.
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [307-abstract](307-abstract.md)
 - [308-table-of-contents](308-table-of-contents.md)

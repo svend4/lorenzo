@@ -8,6 +8,7 @@
   - [10.2. Parallelism](#102-parallelism)
   - [10.3. Error Handling](#103-error-handling)
   - [10.4. Timeout Behavior](#104-timeout-behavior)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -74,7 +75,7 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)
 - [09-query-flow](../npp-v1-0/09-query-flow.md)
 - [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)

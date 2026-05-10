@@ -450,7 +450,7 @@ _...ещё 455 упоминаний в 2026_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [VERSION_DIFF](VERSION_DIFF.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [SEARCH](SEARCH.md)

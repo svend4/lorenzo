@@ -4,6 +4,9 @@
 ## Contents
 
 - [Content Overview](#content-overview)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!TIP]
@@ -48,7 +51,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [12-content-overview](12-content-overview.md) (сходство 0.11)
 
 
@@ -56,7 +59,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [58-content-overview](58-content-overview.md)
 - [42-author-contact](42-author-contact.md)
 - [231-содержание](231-содержание.md)
@@ -67,7 +70,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [31-content-overview](31-content-overview.md)

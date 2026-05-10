@@ -84,6 +84,6 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [TECH_RADAR.md](../TECH_RADAR.md)
 - [decision-record](decision-record.md)

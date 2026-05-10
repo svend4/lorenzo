@@ -147,7 +147,7 @@ efficiently between levels.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [142-5-pattern-library-as-bridge-between-triangles](../../02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
 - [02-double-triangle-architecture](02-double-triangle-architecture.md)
 - [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md)

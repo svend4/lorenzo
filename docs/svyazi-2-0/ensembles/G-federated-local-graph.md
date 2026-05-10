@@ -5,6 +5,8 @@
 
 - [Схема](#схема)
 - [Новое свойство](#новое-свойство)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -52,7 +54,7 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
 - [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
 - [D-voice-first-mesh](D-voice-first-mesh.md)
@@ -63,7 +65,7 @@ flowchart LR
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

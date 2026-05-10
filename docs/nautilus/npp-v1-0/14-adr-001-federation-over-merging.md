@@ -4,6 +4,7 @@
 ## Contents
 
 - [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -63,7 +64,7 @@ formal mapping
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md)
 - [26-14-adr-001-federation-over-merging](../../02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
 - [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)

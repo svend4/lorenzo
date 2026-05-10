@@ -1,5 +1,12 @@
 # Ансамбль 3 — Forensic RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +66,7 @@ Technical Docs Investigator — для больших кодовых/инжен�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [B-forensic-rag](../../svyazi-2-0/ensembles/B-forensic-rag.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
@@ -70,7 +77,7 @@ Technical Docs Investigator — для больших кодовых/инжен�
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [README](README.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

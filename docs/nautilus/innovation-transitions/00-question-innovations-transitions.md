@@ -183,7 +183,7 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
 - [09-minuses-and-risks](../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)

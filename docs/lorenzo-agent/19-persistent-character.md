@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твоя identity как persistent character](#твоя-identity-как-persistent-character)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -42,7 +43,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [363-твоя-identity-как-persistent-character](../02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)

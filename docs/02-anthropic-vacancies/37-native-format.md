@@ -4,10 +4,13 @@
 ## Contents
 
 - [Native Format](#native-format)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!NOTE]
@@ -59,7 +62,7 @@ or something custom?]
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [57-native-format](57-native-format.md) (сходство 0.12)
 
 
@@ -67,7 +70,7 @@ or something custom?]
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [57-native-format](57-native-format.md)
 - [47-native-format](47-native-format.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
@@ -111,7 +114,7 @@ or something custom?]
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [04-abstract](04-abstract.md)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)

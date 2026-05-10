@@ -160,7 +160,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [140-3-three-inter-layer-protocols](../../02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
 - [02-double-triangle-architecture](02-double-triangle-architecture.md)
 - [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)

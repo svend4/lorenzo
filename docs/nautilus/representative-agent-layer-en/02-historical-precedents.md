@@ -206,7 +206,7 @@ never had it**.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [171-2-historical-precedents-agents-as-civilizational-i](../../02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
 - [01-cinderella-syndrome](01-cinderella-syndrome.md)

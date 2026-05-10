@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-context-fundamental-questions.md](00-context-fundamental-questions.md) — <!-- summary -->
+<!-- tags: agent, specification, architecture, implementation -->
 - 01-q1-what-[lorenzo-is.md](01-q1-what-lorenzo-is.md) — <!-- summary -->
 - 02-q2-whom-[lorenzo-serves.md](02-q2-whom-lorenzo-serves.md) — <!-- summary -->
 - 03-q3-what-[lorenzo-does.md](03-q3-what-lorenzo-does.md) — <!-- summary -->

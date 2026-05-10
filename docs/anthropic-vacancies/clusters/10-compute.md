@@ -1,5 +1,11 @@
 # Compute — 13 ролей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [14-public-policy](14-public-policy.md)
 - [12-technical-program-management](12-technical-program-management.md)

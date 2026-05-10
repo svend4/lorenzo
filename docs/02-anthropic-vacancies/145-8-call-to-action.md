@@ -160,7 +160,7 @@ Contact: via [GitHub](../01-svyazi/03-component-catalog.md) issues at
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [136-abstract](136-abstract.md) (сходство 0.18)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.17)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.15)
@@ -170,7 +170,7 @@ Contact: via [GitHub](../01-svyazi/03-component-catalog.md) issues at
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [136-abstract](136-abstract.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [144-7-open-questions](144-7-open-questions.md)
@@ -220,7 +220,7 @@ Contact: via [GitHub](../01-svyazi/03-component-catalog.md) issues at
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [136-abstract](136-abstract.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

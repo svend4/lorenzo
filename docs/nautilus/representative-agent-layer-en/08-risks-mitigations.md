@@ -12,6 +12,7 @@
   - [8.6. Risk: Cultural and Linguistic Bias](#86-risk-cultural-and-linguistic-bias)
   - [8.7. Risk: Regulatory Backlash](#87-risk-regulatory-backlash)
   - [8.8. Risk: Atrophy of Direct Human Skills](#88-risk-atrophy-of-direct-human-skills)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -142,7 +143,7 @@ for inclusion of those who never had the skills
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [177-8-risks-and-mitigations](../../02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 - [10-open-questions](10-open-questions.md)
 - [05-architectural-specification](05-architectural-specification.md)

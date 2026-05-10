@@ -178,7 +178,7 @@ funding or modest practitioner contribution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.21)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md) (сходство 0.20)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.19)
@@ -188,7 +188,7 @@ funding or modest practitioner contribution.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
@@ -229,7 +229,7 @@ funding or modest practitioner contribution.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)

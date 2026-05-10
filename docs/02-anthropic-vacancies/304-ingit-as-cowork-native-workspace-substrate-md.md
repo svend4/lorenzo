@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.11)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.11)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.11)
@@ -84,7 +84,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
@@ -95,7 +95,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)

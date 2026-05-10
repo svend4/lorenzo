@@ -160,7 +160,7 @@ InGit/Cowork:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [334-8-импликации-для-nautilus-и-okwf](../../02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
 - [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
 - [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)

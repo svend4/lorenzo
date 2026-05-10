@@ -1,5 +1,11 @@
 # LAYER 7: Coordination engine
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -396,7 +402,7 @@ Specific proposal involving HMP integration
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 02-naming-rationale-[lorenzo-medici](02-naming-rationale-lorenzo-medici.md)
 - [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)

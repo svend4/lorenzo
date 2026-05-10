@@ -97,7 +97,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ORPHANS](ORPHANS.md)
 - [COMPARE](COMPARE.md)
 - [114-7-реализация-в-проекте-nautilus](02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)

@@ -1,5 +1,11 @@
 # Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -32,7 +38,7 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)

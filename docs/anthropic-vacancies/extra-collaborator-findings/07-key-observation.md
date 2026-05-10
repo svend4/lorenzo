@@ -1,5 +1,11 @@
 # Ключевое наблюдение: single-developer projects of significant sophistication
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-final-tier-ranking](06-final-tier-ranking.md)
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)

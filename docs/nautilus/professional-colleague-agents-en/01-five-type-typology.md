@@ -211,7 +211,7 @@ ethical, and economic framework.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [212-1-the-five-type-typology-of-principal-side-agents](../../02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
 - [226-appendix-a-comparative-table-five-agent-types](../../02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
 - [09-relationship-other-agents](09-relationship-other-agents.md)

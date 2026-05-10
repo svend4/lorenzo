@@ -497,7 +497,7 @@ for qa in load_json("docs/qa_cache.json"):
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -507,7 +507,7 @@ for qa in load_json("docs/qa_cache.json"):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [07-llm](07-llm.md)
 - [05-analysis](05-analysis.md)

@@ -1,5 +1,11 @@
 # Section 3: Proposed solution architecture (existing components + integration)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -45,7 +51,7 @@ This is architecturally feasible synthesis, не build-from-scratch. Existing co
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - [06-section-6-proposer-role](06-section-6-proposer-role.md)
 - [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)

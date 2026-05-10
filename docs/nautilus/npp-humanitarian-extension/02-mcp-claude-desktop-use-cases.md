@@ -1,5 +1,11 @@
 # Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -42,7 +48,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
 - [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
 - [04-section-4-sgb-pilot](../../anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)

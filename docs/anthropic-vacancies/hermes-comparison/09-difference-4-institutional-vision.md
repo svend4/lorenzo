@@ -1,5 +1,11 @@
 # Различие 4: Institutional vision
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Document 2.3: Infrastructure analysis
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)

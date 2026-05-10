@@ -1,5 +1,11 @@
 # Контекст: что такое Anthropic Beneficial Deployments
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -58,7 +64,7 @@ What's the role of you (the proposer)? Specifically.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
 - [10-section-10-engagement-request](10-section-10-engagement-request.md)
 - [01-section-1-problem](01-section-1-problem.md)

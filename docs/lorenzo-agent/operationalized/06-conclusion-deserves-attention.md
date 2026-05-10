@@ -4,6 +4,7 @@
 ## Contents
 
 - [Executive summary](#executive-summary)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -131,7 +132,7 @@ Continue conversation или pause для обдумывания?
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-recommendations](04-recommendations.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [00-overview-grandchild-combination](00-overview-grandchild-combination.md)

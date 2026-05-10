@@ -7,3 +7,4 @@
 - [first-contacts.md](first-contacts.md) — > [!TIP]
 - [message-template.md](message-template.md) — > [!TIP]
 - [narrow-questions.md](narrow-questions.md) — <!-- summary -->
+<!-- tags: svyazi, architecture, knowledge-os, rag -->

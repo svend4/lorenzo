@@ -51,7 +51,7 @@ Last updated: 2026-04*
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md) (сходство 0.12)
 
 
@@ -59,7 +59,7 @@ Last updated: 2026-04*
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [47-native-format](47-native-format.md)
@@ -104,7 +104,7 @@ Last updated: 2026-04*
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - [123-portal-mcp-py](123-portal-mcp-py.md)

@@ -4,10 +4,13 @@
 ## Contents
 
 - [Author & Contact](#author-contact)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (16)](#кто-ссылается-на-этот-документ-16)
 
 
 > [!TIP]
@@ -44,7 +47,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [52-author-contact](52-author-contact.md) (сходство 0.37)
 - [42-author-contact](42-author-contact.md) (сходство 0.37)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.15)
@@ -54,7 +57,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [42-author-contact](42-author-contact.md)
 - [52-author-contact](52-author-contact.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
@@ -111,7 +114,7 @@
 
 ---
 
-**Кто ссылается на этот документ (16):**
+## Кто ссылается на этот документ (16)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [16-history](16-history.md)

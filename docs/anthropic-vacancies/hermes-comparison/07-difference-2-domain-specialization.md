@@ -1,5 +1,11 @@
 # Различие 2: Domain-specific specialization
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-similarity-1-composite-skills](01-similarity-1-composite-skills.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)

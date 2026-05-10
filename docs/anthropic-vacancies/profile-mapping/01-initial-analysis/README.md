@@ -5,6 +5,7 @@
 ## Содержание
 
 - [01-profile-five-layers.md](01-profile-five-layers.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [02-primary-fde.md](02-primary-fde.md) — > [!TIP]
 - [03-secondary-beneficial-deployments.md](03-secondary-beneficial-deployments.md) — <!-- summary -->
 - [04-tertiary-research-engineer-agents.md](04-tertiary-research-engineer-agents.md) — <!-- summary -->

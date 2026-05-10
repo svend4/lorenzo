@@ -1,5 +1,12 @@
 # Комбинация 27: Hybrid RAG with AST-Chunked Code
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -68,7 +75,7 @@ ROI: Developer understands legal context, lawyer sees implementation
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
 - [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
@@ -79,7 +86,7 @@ ROI: Developer understands legal context, lawyer sees implementation
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)

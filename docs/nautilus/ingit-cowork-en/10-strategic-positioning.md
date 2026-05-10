@@ -169,7 +169,7 @@ integrate InGit specifically with the Cowork tab in Claude
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [318-10-strategic-positioning](../../02-anthropic-vacancies/318-10-strategic-positioning.md)
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - 08-implications-[nautilus-okwf](08-implications-nautilus-okwf.md)

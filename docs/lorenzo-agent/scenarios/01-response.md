@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Очень интересный вопрос.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -505,7 +511,7 @@ Option F: Pause exploration — это substantial concept, нужно time to d
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-scenario](00-question-scenario.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)

@@ -161,7 +161,7 @@ requires research.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md) (сходство 0.15)
 - [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.15)
@@ -171,7 +171,7 @@ requires research.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
@@ -220,7 +220,7 @@ requires research.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)

@@ -182,7 +182,7 @@ workflow.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [215-4-architecture-of-professional-colleague-agents](../../02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
 - [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)
 - [06-risks](06-risks.md)

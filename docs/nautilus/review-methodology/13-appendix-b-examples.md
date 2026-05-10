@@ -92,7 +92,7 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [119-appendix-b-примеры-расхождений-и-их-разрешения](../../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
 - [15-appendix-c-history](15-appendix-c-history.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)

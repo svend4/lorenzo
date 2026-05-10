@@ -124,7 +124,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ensemble](ensemble.md)
 - [experiment-log](experiment-log.md)
 - [mega-stack](mega-stack.md)
@@ -133,7 +133,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [REGISTRY](../REGISTRY.md)
 - [TASKS_INDEX](../TASKS_INDEX.md)
 - [README](README.md)

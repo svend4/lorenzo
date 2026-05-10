@@ -1,5 +1,12 @@
 # Комбинация 9: Agent Orchestration Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -56,7 +63,7 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
 - 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
@@ -67,7 +74,7 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)

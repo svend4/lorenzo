@@ -1,5 +1,11 @@
 # Бонус-родитель — In-memory computing на мемристорах
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [7-metaphor](7-metaphor.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 - [6-metaphor](../software-pairs/6-metaphor.md)

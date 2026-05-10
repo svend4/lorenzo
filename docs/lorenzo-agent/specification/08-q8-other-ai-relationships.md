@@ -1,5 +1,11 @@
 # Question 8: Lorenzo's relationship с другими AI agents
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -66,7 +72,7 @@ Acknowledges dependencies
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [14-other-ai-relationships](../14-other-ai-relationships.md)
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [00-context-fundamental-questions](00-context-fundamental-questions.md)

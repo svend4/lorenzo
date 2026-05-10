@@ -196,7 +196,7 @@ defers complex decisions until evidence is available.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.15)
@@ -206,7 +206,7 @@ defers complex decisions until evidence is available.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
@@ -217,7 +217,7 @@ defers complex decisions until evidence is available.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
 - [308-table-of-contents](308-table-of-contents.md)
 - 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)

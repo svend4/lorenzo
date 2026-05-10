@@ -169,7 +169,7 @@ across both journals and individual researchers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.19)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.18)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.16)
@@ -179,7 +179,7 @@ across both journals and individual researchers.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
@@ -229,7 +229,7 @@ across both journals and individual researchers.
 
 ---
 
-**Кто ссылается на этот документ (16):**
+## Кто ссылается на этот документ (16)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [153-executive-summary](153-executive-summary.md)
 - [155-1-problem-statement](155-1-problem-statement.md)

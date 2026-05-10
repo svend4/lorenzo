@@ -149,7 +149,7 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -159,7 +159,7 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [03-chunking](03-chunking.md)
 - [WORD_FREQ](../WORD_FREQ.md)

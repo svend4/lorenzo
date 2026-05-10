@@ -240,7 +240,7 @@ scores = cosine_similarity(query_vec, embeddings)
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -250,7 +250,7 @@ scores = cosine_similarity(query_vec, embeddings)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [07-llm](07-llm.md)
 - [05-analysis](05-analysis.md)

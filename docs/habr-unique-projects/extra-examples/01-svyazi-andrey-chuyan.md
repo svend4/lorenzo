@@ -1,5 +1,11 @@
 # Svyazi (Андрей Чуян) — детальный обзор
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -45,7 +51,7 @@ Privacy by design
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
 - 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 - [svyazi](../../svyazi-2-0/components/svyazi.md)

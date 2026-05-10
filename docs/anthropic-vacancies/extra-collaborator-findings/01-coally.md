@@ -1,5 +1,11 @@
 # CoAlly — distributed shared memory для AI-агентов
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -50,7 +56,7 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-appendix-b-examples](../../nautilus/review-methodology/13-appendix-b-examples.md)
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)

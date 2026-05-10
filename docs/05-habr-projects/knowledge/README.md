@@ -21,7 +21,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [wikontic](wikontic.md) (сходство 0.19)
 - [README](../memory/README.md) (сходство 0.17)
 - [README](../README.md) (сходство 0.10)
@@ -31,7 +31,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [README](../README.md)
 - [wikontic](wikontic.md)
 - [README](../memory/README.md)

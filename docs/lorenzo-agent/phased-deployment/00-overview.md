@@ -1,5 +1,11 @@
 # Поэтапная структура активностей Lorenzo — обзор
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -42,7 +48,7 @@ Claude hat geantwortet: Отлично — это очень важный отв
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-progression-logic](07-progression-logic.md)
 - [06-level-5-full-network](06-level-5-full-network.md)
 - [01-level-0-manual](01-level-0-manual.md)

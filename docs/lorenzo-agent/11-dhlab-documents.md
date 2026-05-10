@@ -4,6 +4,7 @@
 ## Contents
 
 - [Существующие документы DHLab (твой context)](#существующие-документы-dhlab-твой-context)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -46,7 +47,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [355-существующие-документы-dhlab-твой-context](../02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
 - [09-difference-4-institutional-vision](../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](../02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)

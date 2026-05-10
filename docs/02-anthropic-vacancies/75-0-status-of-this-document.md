@@ -4,10 +4,13 @@
 ## Contents
 
 - [0. Status of This Document](#0-status-of-this-document)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
 
 
 > [!NOTE]
@@ -47,7 +50,7 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.55)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.16)
 - [42-author-contact](42-author-contact.md) (сходство 0.15)
@@ -57,7 +60,7 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [42-author-contact](42-author-contact.md)
 - [62-author-contact](62-author-contact.md)
@@ -108,7 +111,7 @@ stable требуют bump до v2.0 с migration guide.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)

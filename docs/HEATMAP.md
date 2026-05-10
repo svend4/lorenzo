@@ -92,7 +92,7 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [DENSITY](DENSITY.md)
 - [ONBOARDING](ONBOARDING.md)
 - [SCHEDULE](SCHEDULE.md)

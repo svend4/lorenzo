@@ -1,4 +1,12 @@
 # Skill Dashboard
+<!-- summary -->
+> Skill Dashboard
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: self-improve -->
 
 

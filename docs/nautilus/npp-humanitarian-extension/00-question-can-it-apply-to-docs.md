@@ -1,5 +1,11 @@
 # Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -48,7 +54,7 @@ Q6 и консенсус-модель работают как есть, но с�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
 - [00-question-anonymization](../privacy-federation/00-question-anonymization.md)
 - [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)

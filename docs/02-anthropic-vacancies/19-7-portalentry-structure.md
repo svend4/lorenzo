@@ -5,6 +5,9 @@
 
 - [7. PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 - 7. [PortalEntry Structure](#7-portalentry-structure)
@@ -70,7 +73,7 @@ class PortalEntry:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.25)
 
 
@@ -78,7 +81,7 @@ class PortalEntry:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
@@ -89,7 +92,7 @@ class PortalEntry:
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)

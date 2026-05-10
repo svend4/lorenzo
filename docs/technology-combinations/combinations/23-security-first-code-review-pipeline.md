@@ -1,5 +1,11 @@
 # Комбинация 23: Security-First Code Review Pipeline
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -60,7 +66,7 @@ ROI: Automated compliance vs manual audit (weeks → minutes)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)

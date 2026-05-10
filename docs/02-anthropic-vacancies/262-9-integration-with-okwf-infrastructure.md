@@ -160,7 +160,7 @@ broader applicability.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
 - [266-13-closing](266-13-closing.md) (сходство 0.20)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.18)
@@ -170,7 +170,7 @@ broader applicability.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [266-13-closing](266-13-closing.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
@@ -181,7 +181,7 @@ broader applicability.
 
 ---
 
-**Кто ссылается на этот документ (17):**
+## Кто ссылается на этот документ (17)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

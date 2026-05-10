@@ -137,7 +137,7 @@ support to skilled professions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [252-abstract](252-abstract.md) (сходство 0.25)
 - [266-13-closing](266-13-closing.md) (сходство 0.20)
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md) (сходство 0.18)
@@ -147,7 +147,7 @@ support to skilled professions.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [252-abstract](252-abstract.md)
 - [266-13-closing](266-13-closing.md)
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
@@ -197,7 +197,7 @@ support to skilled professions.
 
 ---
 
-**Кто ссылается на этот документ (16):**
+## Кто ссылается на этот документ (16)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)

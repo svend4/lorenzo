@@ -1,5 +1,11 @@
 # Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md)
 - [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
 - [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)

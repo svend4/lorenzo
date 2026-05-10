@@ -163,7 +163,7 @@ modifies their configuration over time.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.17)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.15)
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.15)
@@ -173,7 +173,7 @@ modifies their configuration over time.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
 - [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
@@ -221,7 +221,7 @@ modifies their configuration over time.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [253-table-of-contents](253-table-of-contents.md)

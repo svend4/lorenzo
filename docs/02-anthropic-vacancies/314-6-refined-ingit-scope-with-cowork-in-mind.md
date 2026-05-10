@@ -8,6 +8,9 @@
   - [6.2. New Phase 2 (Months 3-6): MCP Server](#62-new-phase-2-months-3-6-mcp-server)
   - [6.3. New Phase 3 (Months 6-12): Adoption and Refinement](#63-new-phase-3-months-6-12-adoption-and-refinement)
   - [6.4. Total Reduced Scope](#64-total-reduced-scope)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!TIP]
@@ -109,7 +112,7 @@ better outcomes.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.17)
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.14)
 - [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.13)
@@ -119,7 +122,7 @@ better outcomes.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
 - [308-table-of-contents](308-table-of-contents.md)
@@ -130,7 +133,7 @@ better outcomes.
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
 - [308-table-of-contents](308-table-of-contents.md)
 - [README](README.md)

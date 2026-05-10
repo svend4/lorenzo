@@ -5,6 +5,7 @@
 
 - [10. QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -61,7 +62,7 @@ category (сначала full, затем partial, затем singular).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [17-appendix-b-change-log](17-appendix-b-change-log.md)
 - [13-reference-implementation](13-reference-implementation.md)
 - [22-10-queryresult-structure](../../02-anthropic-vacancies/22-10-queryresult-structure.md)

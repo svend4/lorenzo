@@ -151,7 +151,7 @@ Active participant target in first three years: 5,000-10,000.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md)
 - [01-problem-statement](01-problem-statement.md)
 - [03-why-existing-fail](03-why-existing-fail.md)

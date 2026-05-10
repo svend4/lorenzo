@@ -1,5 +1,11 @@
 # Ансамбль 9 — Ambient Team Agent
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -55,7 +61,7 @@ Operations Concierge — в чате принимает команды, созд
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)

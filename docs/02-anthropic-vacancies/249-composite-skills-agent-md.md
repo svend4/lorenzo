@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md) (сходство 0.20)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.14)
@@ -87,7 +87,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
@@ -98,7 +98,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (21):**
+## Кто ссылается на этот документ (21)
 - [12-content-overview](12-content-overview.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)

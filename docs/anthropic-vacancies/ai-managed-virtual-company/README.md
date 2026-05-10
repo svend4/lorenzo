@@ -6,6 +6,7 @@
 
 - [00-question-rephrasing.md](00-question-rephrasing.md) — > [!WARNING]
 - [01-existing-landscape.md](01-existing-landscape.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [02-four-structural-blockers.md](02-four-structural-blockers.md) — <!-- summary -->
 - [03-three-variants-A-B-C.md](03-three-variants-A-B-C.md) — <!-- summary -->
 - [04-what-to-do.md](04-what-to-do.md) — <!-- summary -->

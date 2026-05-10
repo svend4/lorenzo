@@ -45,7 +45,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.14)
 - [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.12)
 - [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.12)
@@ -55,7 +55,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
@@ -99,7 +99,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - [105-review-methodology-md](105-review-methodology-md.md)

@@ -6,6 +6,7 @@
 - [Без метаданных (нет summary или тегов) — 239 файлов](#без-метаданных-нет-summary-или-тегов-239-файлов)
 - [Короткие (< 100 слов, заготовки) — 34 файлов](#короткие-100-слов-заготовки-34-файлов)
 - [Рекомендуемые действия](#рекомендуемые-действия)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -92,7 +93,7 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [14-main-technical-risks](nautilus/review-methodology/14-main-technical-risks.md)
 - [COVERAGE](COVERAGE.md)
 - [12-appendix-a-header-warning](nautilus/review-methodology/12-appendix-a-header-warning.md)

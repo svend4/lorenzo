@@ -8,6 +8,7 @@
   - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
   - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
   - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -67,7 +68,7 @@ prompts (не «продолжи вариант A»)?
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [116-9-checklist-применения-методологии](../../02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
 - [GITHUB_ISSUES](../../GITHUB_ISSUES.md)
 - [13-appendix-b-examples](13-appendix-b-examples.md)

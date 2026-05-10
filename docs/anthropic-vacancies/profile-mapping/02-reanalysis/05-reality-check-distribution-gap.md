@@ -1,5 +1,11 @@
 # Reality check: проблема distribution-слоя
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@ Du hast gesagt: https://github.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
 - 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
 - [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)

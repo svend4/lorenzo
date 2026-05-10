@@ -144,7 +144,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [authors-by-name](../glossary/authors-by-name.md)
 - [components-by-name](../glossary/components-by-name.md)
 - [5-voice-local-memory](../habr-unique-projects/deep-pairs/5-voice-local-memory.md)

@@ -1,5 +1,12 @@
 # Сводный список авторов и потенциальных соавторов
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -39,7 +46,7 @@ Teilen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [1-one-person-one-company](1-one-person-one-company.md)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - 06-[svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
@@ -50,7 +57,7 @@ Teilen
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [README](../README.md)
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)

@@ -6,6 +6,7 @@
 
 - [00-tldr.md](00-tldr.md) — > [!WARNING]
 - [01-context-motivation.md](01-context-motivation.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [02-formal-workflow.md](02-formal-workflow.md) — > [!WARNING]
 - [03-consolidation-principles.md](03-consolidation-principles.md) — <!-- summary -->
 - [04-fallback-ratio-question.md](04-fallback-ratio-question.md) — > [!IMPORTANT]

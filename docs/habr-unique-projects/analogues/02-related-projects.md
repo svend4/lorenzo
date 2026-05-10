@@ -1,5 +1,12 @@
 # Смежные проекты
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -45,7 +52,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-related-projects-context](../../ai-collaborations/candidates/02-related-projects-context.md)
 - [03-synthesis-hebbian-collaboration-graph](../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
 - [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
@@ -56,7 +63,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

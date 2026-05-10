@@ -66,7 +66,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [связанный-шаблон](docs/templates/связанный.md)
 ```
 
@@ -137,7 +137,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [research-note](research-note.md)
 - [decision-record](decision-record.md)
 - [`scripts/improve_validate_templates.py`](../../scripts/improve_validate_templates.py)

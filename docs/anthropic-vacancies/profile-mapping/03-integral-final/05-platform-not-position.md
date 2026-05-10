@@ -1,5 +1,11 @@
 # Финальный вывод: платформа, а не должность
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-rephrasing](../../ai-managed-virtual-company/00-question-rephrasing.md)
 - [00-question-mountain-to-person](../../../nautilus/transmission-box/00-question-mountain-to-person.md)
 - [00-question-voiceless](../../../nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)

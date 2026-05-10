@@ -4,6 +4,7 @@
 ## Contents
 
 - [Рекомендация](#рекомендация)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -57,7 +58,7 @@ class Bescheid(BaseModel):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
 - [20-24-final](20-24-final.md)
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)

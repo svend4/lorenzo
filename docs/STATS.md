@@ -93,7 +93,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [HEALTH](HEALTH.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [SENTIMENT](SENTIMENT.md)

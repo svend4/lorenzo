@@ -1,5 +1,11 @@
 # Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -191,7 +197,7 @@ If Lorenzo becomes pure tool-building exercise, original mission slips.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [01-pluses-1-7](01-pluses-1-7.md)

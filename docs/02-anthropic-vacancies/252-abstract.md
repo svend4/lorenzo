@@ -84,7 +84,7 @@ in skilled work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.25)
 - [267-acknowledgments](267-acknowledgments.md) (сходство 0.24)
 - [266-13-closing](266-13-closing.md) (сходство 0.20)
@@ -94,7 +94,7 @@ in skilled work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
 - [267-acknowledgments](267-acknowledgments.md)
 - [266-13-closing](266-13-closing.md)
@@ -146,7 +146,7 @@ in skilled work.
 
 ---
 
-**Кто ссылается на этот документ (18):**
+## Кто ссылается на этот документ (18)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [168-abstract](168-abstract.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)

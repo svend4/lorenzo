@@ -453,7 +453,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [SEARCH](SEARCH.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [READING_TIME](READING_TIME.md)

@@ -4,6 +4,7 @@
 ## Contents
 
 - [Что ты НЕ МОЖЕШЬ делать без Max approval](#что-ты-не-можешь-делать-без-max-approval)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -41,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [352-что-ты-не-можешь-делать-без-max-approval](../02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
 - [05-q5-authority-limits](specification/05-q5-authority-limits.md)
 - [09-voobshche-nelzya](09-voobshche-nelzya.md)

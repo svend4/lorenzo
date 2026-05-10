@@ -1,5 +1,11 @@
 # Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -42,7 +48,7 @@ Success rate: A% Widerspruch acceptance
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)

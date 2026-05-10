@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-five-type-typology.md](01-five-type-typology.md) — <!-- summary -->
 - [02-what-makes-pca.md](02-what-makes-pca.md) — <!-- summary -->
 - [03-empirical-case-obuchay.md](03-empirical-case-obuchay.md) — <!-- summary -->

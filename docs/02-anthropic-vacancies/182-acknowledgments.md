@@ -4,10 +4,13 @@
 ## Contents
 
 - [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!TIP]
@@ -50,7 +53,7 @@ will be more than enough.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [224-acknowledgments](224-acknowledgments.md) (сходство 0.17)
 - [146-acknowledgments](146-acknowledgments.md) (сходство 0.14)
 - [267-acknowledgments](267-acknowledgments.md) (сходство 0.13)
@@ -60,7 +63,7 @@ will be more than enough.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [146-acknowledgments](146-acknowledgments.md)
 - [224-acknowledgments](224-acknowledgments.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
@@ -106,7 +109,7 @@ will be more than enough.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 - [146-acknowledgments](146-acknowledgments.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)

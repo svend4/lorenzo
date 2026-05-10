@@ -1,5 +1,11 @@
 # Минусы и риски как бизнеса
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -58,7 +64,7 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md)
 - [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)
 - [03-why-natural-for-programmers](03-why-natural-for-programmers.md)

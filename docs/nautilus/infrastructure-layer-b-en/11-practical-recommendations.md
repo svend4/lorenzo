@@ -4,6 +4,7 @@
 ## Contents
 
 - [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -77,7 +78,7 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [284-practical-recommendations-for-the-current-project](../../02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
 - [07-specific-case](07-specific-case.md)

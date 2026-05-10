@@ -1,5 +1,11 @@
 # Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [07-current-implementations](07-current-implementations.md)
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)

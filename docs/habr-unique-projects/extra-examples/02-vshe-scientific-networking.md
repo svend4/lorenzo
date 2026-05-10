@@ -1,5 +1,11 @@
 # ВШЭ научный нетворкинг — micro-collaborations
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Distinguishes между разными формами научного сотр
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)

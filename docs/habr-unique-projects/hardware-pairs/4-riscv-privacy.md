@@ -1,5 +1,12 @@
 # Пара 4 — RISC-V × privacy-by-design община
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +44,7 @@ Mesh из таких узлов — несколько community-nodes в раз
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
 - 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
@@ -48,7 +55,7 @@ Mesh из таких узлов — несколько community-nodes в раз
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

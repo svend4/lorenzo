@@ -1,5 +1,11 @@
 # Уровень 4 — Расширенный (Lorenzo Mature)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -70,7 +76,7 @@ Sustainability challenges
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-level-5-full-network](06-level-5-full-network.md)
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - [01-level-0-manual](01-level-0-manual.md)

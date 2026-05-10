@@ -4,6 +4,7 @@
 ## Contents
 
 - [Когда сомневаешься — escalate к Max](#когда-сомневаешься-escalate-к-max)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -42,7 +43,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [362-когда-сомневаешься-escalate-к-max](../02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md)
 - [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)

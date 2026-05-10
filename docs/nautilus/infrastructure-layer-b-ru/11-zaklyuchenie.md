@@ -4,6 +4,7 @@
 ## Contents
 
 - [Заключение](#заключение)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -71,7 +72,7 @@ AI-координированной интеллектуальной работ�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [300-заключение](../../02-anthropic-vacancies/300-заключение.md)
 - [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
 - [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)

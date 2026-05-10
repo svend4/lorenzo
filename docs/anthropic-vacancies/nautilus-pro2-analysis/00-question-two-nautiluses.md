@@ -1,5 +1,11 @@
 # Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -46,7 +52,7 @@ Claude hat geantwortet: Правильно разграничиваете — э
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
 - [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
 - [00-question-camel-vs-nautilus](../nautilus-vs-camel/00-question-camel-vs-nautilus.md)

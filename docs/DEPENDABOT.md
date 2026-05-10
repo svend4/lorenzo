@@ -6,6 +6,7 @@
 - [Python-зависимости](#python-зависимости)
 - [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
 - [Автоматизация](#автоматизация)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -64,7 +65,7 @@ python scripts/improve_dependabot.py --check-pypi
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [GRAPH](GRAPH.md)
 - [NETWORK](NETWORK.md)
 - [TAGS](TAGS.md)

@@ -1,5 +1,11 @@
 # Memory Firewall против prompt worms (ансамбль I)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -37,7 +43,7 @@ Mermaid
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [5-agent-firewall](../ensembles/5-agent-firewall.md)
 - 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)

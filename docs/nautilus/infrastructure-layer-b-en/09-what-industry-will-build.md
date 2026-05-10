@@ -4,6 +4,7 @@
 ## Contents
 
 - [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -68,7 +69,7 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [282-what-industry-will-likely-build](../../02-anthropic-vacancies/282-what-industry-will-likely-build.md)
 - [08-recursive-insight](08-recursive-insight.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)

@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твои anti-patterns](#твои-anti-patterns)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -45,7 +46,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [359-твои-anti-patterns](../02-anthropic-vacancies/359-твои-anti-patterns.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - [18-escalate-to-max](18-escalate-to-max.md)

@@ -9,6 +9,9 @@
   - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
   - [9.4. Algorithm](#94-algorithm)
   - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -135,7 +138,7 @@ v2.0 MAY использовать:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [20-8-consensus-algorithm](20-8-consensus-algorithm.md) (сходство 0.34)
 - [86-11-relevance-ranking](86-11-relevance-ranking.md) (сходство 0.12)
 
@@ -144,7 +147,7 @@ v2.0 MAY использовать:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [20-8-consensus-algorithm](20-8-consensus-algorithm.md)
 - [86-11-relevance-ranking](86-11-relevance-ranking.md)
 - [85-10-query-flow](85-10-query-flow.md)
@@ -155,7 +158,7 @@ v2.0 MAY использовать:
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [README](README.md)

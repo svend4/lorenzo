@@ -1,10 +1,16 @@
 # key-findings
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Файлов:** 6
 
 ## Содержание
 
 - 01-[yodoca.md](01-yodoca.md) — <!-- summary -->
+<!-- tags: habr, projects, oss, collaboration -->
 - [02-memnet.md](02-memnet.md) — <!-- summary -->
 - 03-pda-[llm-as-periphery.md](03-pda-llm-as-periphery.md) — <!-- summary -->
 - [04-dochkina-sequential.md](04-dochkina-sequential.md) — <!-- summary -->

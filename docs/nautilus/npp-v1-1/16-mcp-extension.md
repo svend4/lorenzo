@@ -4,6 +4,7 @@
 ## Contents
 
 - [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -48,7 +49,7 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [91-16-mcp-extension-informative](../../02-anthropic-vacancies/91-16-mcp-extension-informative.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 - [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)

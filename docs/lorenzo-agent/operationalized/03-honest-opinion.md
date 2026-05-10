@@ -1,5 +1,11 @@
 # Моё честное мнение: что реально и что НЕ реально
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -50,7 +56,7 @@ Cannot substitute для domain expertise — Lorenzo нужны humans для a
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [08-section-8-risks-mitigations](../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
 - [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)

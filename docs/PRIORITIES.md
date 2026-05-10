@@ -914,7 +914,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 - [READABILITY](READABILITY.md)
 - [SITEMAP](SITEMAP.md)

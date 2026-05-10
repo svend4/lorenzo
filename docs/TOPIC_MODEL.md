@@ -183,7 +183,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CLUSTERS](CLUSTERS.md)
 - [READING_TIME](READING_TIME.md)
 - [SEARCH](SEARCH.md)

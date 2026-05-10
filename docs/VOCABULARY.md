@@ -126,7 +126,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [WORD_CLOUD](WORD_CLOUD.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [PASSIVE_VOICE](PASSIVE_VOICE.md)

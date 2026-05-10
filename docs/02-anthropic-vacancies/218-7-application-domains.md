@@ -207,7 +207,7 @@ application drafting.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.14)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.14)
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md) (сходство 0.14)
@@ -217,7 +217,7 @@ application drafting.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
@@ -247,7 +247,7 @@ application drafting.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)

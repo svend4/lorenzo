@@ -323,7 +323,7 @@ Pero никто не построил yet what you described. Это opportunity
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.17)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md) (сходство 0.15)
 - [165-closing](165-closing.md) (сходство 0.15)
@@ -333,7 +333,7 @@ Pero никто не построил yet what you described. Это opportunity
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [165-closing](165-closing.md)
@@ -383,7 +383,7 @@ Pero никто не построил yet what you described. Это opportunity
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [00-intro](00-intro.md)
 - [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md)
 - [133-обратная-связь](133-обратная-связь.md)

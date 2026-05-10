@@ -143,7 +143,7 @@
 
 ---
 
-**Кто ссылается на этот документ (226):**
+## Кто ссылается на этот документ (226)
 - [00-intro](02-anthropic-vacancies/00-intro.md)
 - [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)

@@ -4,6 +4,7 @@
 ## Contents
 
 - [20. ADR-002: Q6 as First-Class Protocol Concept](#20-adr-002-q6-as-first-class-protocol-concept)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -59,7 +60,7 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [95-20-adr-002-q6-as-first-class-protocol-concept](../../02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
 - [11-relevance-ranking](11-relevance-ranking.md)

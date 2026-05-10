@@ -1,5 +1,12 @@
 # Пара 3 — Adversarial agents × Multi-IDE стек
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +43,7 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
@@ -47,7 +54,7 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

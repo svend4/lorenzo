@@ -135,6 +135,10 @@ def main():
 
     lines = [
         "# Валидация структуры репозитория\n",
+        f"<!-- summary -->\n> Ошибок: **{total_err}**, предупреждений: **{total_warn}**, пройдено: **{total_ok}**\n",
+        "<!-- tags: quality, validation, structure, health -->\n",
+        f"> [!{'TIP' if total_err == 0 else 'WARNING'}]\n> {'Структура репозитория валидна.' if total_err == 0 else f'{total_err} ошибок валидации требуют исправления.'}\n\n<!-- alert-added -->\n",
+        "<!-- toc-auto -->\n## Contents\n\n- [Сводка](#сводка)\n- [Итог](#итог)\n- [Смотрите также](#смотрите-также)\n",
         f"**Ошибок:** {total_err}  **Предупреждений:** {total_warn}  "
         f"**Пройдено:** {total_ok}\n",
 
@@ -171,6 +175,14 @@ def main():
     else:
         lines += ["\n## Итог\n",
                   f"❌ **{total_err} ошибок, {total_warn} предупреждений** — требуется исправление."]
+
+    lines += [
+        "\n## Смотрите также\n",
+        "- [HEALTH](HEALTH.md) — общее здоровье репозитория",
+        "- [METRICS](METRICS.md) — метрики качества документов",
+        "- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок",
+        "- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)",
+    ]
 
     out = DOCS / "VALIDATION.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

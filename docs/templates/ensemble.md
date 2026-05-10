@@ -56,7 +56,7 @@ _Создано: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [project-component](project-component.md)
 - [decision-record](decision-record.md)
 - [mega-stack](mega-stack.md)

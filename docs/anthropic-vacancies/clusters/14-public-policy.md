@@ -1,5 +1,11 @@
 # Public Policy — 5 ролей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -22,7 +28,7 @@ External Affairs Australia, Policy Analyst LATAM, Policy Planning & Operations U
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [15-public-benefit](15-public-benefit.md)
 - [09-product-management-support-ops](09-product-management-support-ops.md)

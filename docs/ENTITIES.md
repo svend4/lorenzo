@@ -166,7 +166,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [NETWORK](NETWORK.md)
 - [GLOSSARY](GLOSSARY.md)
 - [GRAPH](GRAPH.md)

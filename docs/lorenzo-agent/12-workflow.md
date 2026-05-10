@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твой workflow](#твой-workflow)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -69,7 +70,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [356-твой-workflow](../02-anthropic-vacancies/356-твой-workflow.md)
 - [07-chto-mozhesh](07-chto-mozhesh.md)
 - [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)

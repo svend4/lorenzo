@@ -190,7 +190,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [authors-by-name](authors-by-name.md)
 - [concepts](concepts.md)
 - [PRIORITIES](../PRIORITIES.md)

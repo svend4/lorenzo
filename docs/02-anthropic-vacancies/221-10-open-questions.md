@@ -104,7 +104,7 @@ they shape technical decisions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
 - [179-10-open-questions](179-10-open-questions.md) (сходство 0.12)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.12)
@@ -114,7 +114,7 @@ they shape technical decisions.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [264-11-open-questions](264-11-open-questions.md)
 - [179-10-open-questions](179-10-open-questions.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -125,7 +125,7 @@ they shape technical decisions.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [211-table-of-contents](211-table-of-contents.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)

@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-context.md](00-context.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [01-section-1-problem.md](01-section-1-problem.md) — <!-- summary -->
 - [02-section-2-beneficial-dimension.md](02-section-2-beneficial-dimension.md) — <!-- summary -->
 - [03-section-3-solution-architecture.md](03-section-3-solution-architecture.md) — <!-- summary -->

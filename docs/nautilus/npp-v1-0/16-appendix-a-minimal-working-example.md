@@ -94,7 +94,7 @@ example_user, example@email.com
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [17-appendix-b-change-log](17-appendix-b-change-log.md)
 - [15-glossary](15-glossary.md)
 - [13-reference-implementation](13-reference-implementation.md)

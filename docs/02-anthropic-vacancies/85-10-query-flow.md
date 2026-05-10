@@ -8,6 +8,9 @@
   - [10.2. Parallelism](#102-parallelism)
   - [10.3. Error Handling](#103-error-handling)
   - [10.4. Timeout Behavior](#104-timeout-behavior)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
 
 
 > [!NOTE]
@@ -84,7 +87,7 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [21-9-query-flow](21-9-query-flow.md) (сходство 0.72)
 - [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.12)
 - [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.10)
@@ -94,7 +97,7 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [21-9-query-flow](21-9-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
@@ -105,7 +108,7 @@ Timeout per adapter RECOMMENDED: 5 секунд (было 10 в v1.0, сниже
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)

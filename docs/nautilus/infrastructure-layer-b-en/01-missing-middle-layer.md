@@ -4,6 +4,7 @@
 ## Contents
 
 - [Why This Document Exists](#why-this-document-exists)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -66,7 +67,7 @@ This document explores that observation.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-why-document-exists](02-why-document-exists.md)
 - [275-why-this-document-exists](../../02-anthropic-vacancies/275-why-this-document-exists.md)
 - [03-two-layer-stack](03-two-layer-stack.md)

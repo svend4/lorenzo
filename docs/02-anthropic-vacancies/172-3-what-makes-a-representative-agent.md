@@ -152,7 +152,7 @@ and 7.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.20)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.15)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.13)
@@ -162,7 +162,7 @@ and 7.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
@@ -213,7 +213,7 @@ and 7.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [211-table-of-contents](211-table-of-contents.md)

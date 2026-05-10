@@ -1,5 +1,11 @@
 # Du hast gesagt: https://habr.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@ https://habr.com/ru/articles/1027724/
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
 - [13-communications](../../../anthropic-vacancies/clusters/13-communications.md)
 - [16-people](../../../anthropic-vacancies/clusters/16-people.md)

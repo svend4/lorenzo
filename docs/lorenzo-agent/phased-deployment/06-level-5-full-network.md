@@ -1,5 +1,11 @@
 # Уровень 5 — Полный (Lorenzo Network)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -48,7 +54,7 @@ Foundation status для DHLab
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-level-0-manual](01-level-0-manual.md)
 - [05-level-4-extended-mature](05-level-4-extended-mature.md)
 - [03-level-2-basic-lite](03-level-2-basic-lite.md)

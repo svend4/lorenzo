@@ -1,5 +1,12 @@
 # Комбинация 4: Парсинг с LLM × Graph-RAG × Правильная агентская архитектура
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -52,7 +59,7 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
 - 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
@@ -63,7 +70,7 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)

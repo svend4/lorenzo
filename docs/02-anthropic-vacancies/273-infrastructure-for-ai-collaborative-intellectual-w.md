@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md) (сходство 0.25)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.12)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.12)
@@ -84,7 +84,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
@@ -95,7 +95,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [153-executive-summary](153-executive-summary.md)

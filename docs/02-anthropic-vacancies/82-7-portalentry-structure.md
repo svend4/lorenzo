@@ -6,6 +6,9 @@
 - [7. PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 <!-- abstract-auto -->
@@ -103,7 +106,7 @@ PortalEntry(
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [19-7-portalentry-structure](19-7-portalentry-structure.md) (сходство 0.25)
 - [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.12)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.12)
@@ -113,7 +116,7 @@ PortalEntry(
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [19-7-portalentry-structure](19-7-portalentry-structure.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
@@ -124,7 +127,7 @@ PortalEntry(
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)

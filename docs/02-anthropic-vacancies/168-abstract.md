@@ -81,7 +81,7 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [210-abstract](210-abstract.md) (сходство 0.16)
 - [223-12-closing](223-12-closing.md) (сходство 0.15)
 - [252-abstract](252-abstract.md) (сходство 0.14)
@@ -91,7 +91,7 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [210-abstract](210-abstract.md)
 - [223-12-closing](223-12-closing.md)
 - [252-abstract](252-abstract.md)
@@ -147,7 +147,7 @@ service organizations, civil society, and policymakers.
 
 ---
 
-**Кто ссылается на этот документ (19):**
+## Кто ссылается на этот документ (19)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)

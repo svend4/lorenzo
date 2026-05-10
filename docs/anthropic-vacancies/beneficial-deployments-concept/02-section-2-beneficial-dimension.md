@@ -1,5 +1,11 @@
 # Section 2: Why this matters — beneficial dimension
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@ This is exactly the demographic where AI augmentation could provide most value: 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-section-1-problem](01-section-1-problem.md)
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 - [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)

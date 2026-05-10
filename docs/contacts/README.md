@@ -1,4 +1,13 @@
 # contacts
+<!-- summary -->
+> contacts
+
+<!-- tags: contacts, authors, collaboration, outreach -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 **Файлов:** 15
 

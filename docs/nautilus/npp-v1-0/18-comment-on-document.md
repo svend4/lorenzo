@@ -1,5 +1,11 @@
 # Комментарий: дизайн-решения NPP v1.0
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -56,7 +62,7 @@ Du hast gesagt: Да
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [34-appendix-b-change-log](../../02-anthropic-vacancies/34-appendix-b-change-log.md)
 - [03-registry](../npp-v1-1/03-registry.md)
 - [07-portal-entry](../npp-v1-1/07-portal-entry.md)

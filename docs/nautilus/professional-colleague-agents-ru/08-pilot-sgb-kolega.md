@@ -271,7 +271,7 @@ OKWF:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
 - [07-oblasti-primeneniya](07-oblasti-primeneniya.md)
 - [05-ekonomika](05-ekonomika.md)

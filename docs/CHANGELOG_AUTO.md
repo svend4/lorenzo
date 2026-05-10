@@ -119,7 +119,7 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CHANGELOG](CHANGELOG.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
 - [DIGEST](DIGEST.md)
@@ -143,7 +143,7 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [INDEX](INDEX.md)
 - [README](README.md)
 - [TABLES](TABLES.md)

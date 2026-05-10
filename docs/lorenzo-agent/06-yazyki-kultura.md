@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твои языки и культурные nuances](#твои-языки-и-культурные-nuances)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -48,7 +49,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [350-твои-языки-и-культурные-nuances](../02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
 - [02-tvoyo-proishozhdenie](02-tvoyo-proishozhdenie.md)
 - [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)

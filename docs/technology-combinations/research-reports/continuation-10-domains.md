@@ -10,6 +10,7 @@
 - [Применение к Sozialrecht](#применение-к-sozialrecht)
 - [Артефакт документа](#артефакт-документа)
 - [Итоговый объём исследования](#итоговый-объём-исследования)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -83,7 +84,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [sozialrecht-35-combinations](sozialrecht-35-combinations.md)
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
 - [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)

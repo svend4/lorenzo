@@ -78,7 +78,7 @@ when AI augments human practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [319-acknowledgments](319-acknowledgments.md) (сходство 0.26)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.25)
 - [252-abstract](252-abstract.md) (сходство 0.24)
@@ -88,7 +88,7 @@ when AI augments human practice.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [319-acknowledgments](319-acknowledgments.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [252-abstract](252-abstract.md)
@@ -140,7 +140,7 @@ when AI augments human practice.
 
 ---
 
-**Кто ссылается на этот документ (18):**
+## Кто ссылается на этот документ (18)
 - [146-acknowledgments](146-acknowledgments.md)
 - [168-abstract](168-abstract.md)
 - [182-acknowledgments](182-acknowledgments.md)

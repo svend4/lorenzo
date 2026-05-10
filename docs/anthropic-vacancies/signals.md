@@ -8,6 +8,8 @@
 - [Зарплатная вилка](#зарплатная-вилка)
 - [Forward Deployed Engineer](#forward-deployed-engineer)
 - [География](#география)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]
@@ -56,7 +58,7 @@ Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangal
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-sales](clusters/02-sales.md)
 - [overview](overview.md)
 - [01-ai-research-engineering](clusters/01-ai-research-engineering.md)
@@ -67,7 +69,7 @@ Sales и Applied AI: SF, NY, London, Dublin, Munich, Paris, Tokyo, Seoul, Bangal
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [README](README.md)
 - [methodology](methodology.md)
 - [overview](overview.md)

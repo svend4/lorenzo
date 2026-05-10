@@ -1,5 +1,12 @@
 # AgentOps и Trace Envelope (ансамбль G)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -64,7 +71,7 @@ anomaly_flags:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 - [8-budget-aware-intelligence-stack](../ensembles/8-budget-aware-intelligence-stack.md)
 - [10-architecture-rfc](10-architecture-rfc.md)
@@ -75,7 +82,7 @@ anomaly_flags:
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [README](README.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

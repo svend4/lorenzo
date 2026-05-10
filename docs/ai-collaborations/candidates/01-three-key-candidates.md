@@ -1,5 +1,12 @@
 # Три ключевых кандидата: K2-18, Wikontic, NGT Memory
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +41,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
 - [wikontic](../../05-habr-projects/knowledge/wikontic.md)
 - [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
@@ -45,7 +52,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [README](README.md)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)

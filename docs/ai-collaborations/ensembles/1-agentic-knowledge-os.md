@@ -1,5 +1,11 @@
 # Ансамбль 1 — Agentic Knowledge OS
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -55,7 +61,7 @@ Legal/Research Case OS — каждое дело, научная гипотез�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)
 - [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)

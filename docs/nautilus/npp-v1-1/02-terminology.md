@@ -4,6 +4,7 @@
 ## Contents
 
 - [2. Terminology](#2-terminology)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -93,7 +94,7 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [77-2-terminology](../../02-anthropic-vacancies/77-2-terminology.md)
 - [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)
 - [03-registry](03-registry.md)

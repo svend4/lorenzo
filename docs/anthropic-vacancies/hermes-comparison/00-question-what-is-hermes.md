@@ -1,5 +1,11 @@
 # Что такое Hermes Agent (Nous Research, MIT, 95K+ stars)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -68,7 +74,7 @@ Termux support (что особенно релевантно для вас, уч
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [11-pluses-of-hermes](11-pluses-of-hermes.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)

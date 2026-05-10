@@ -5,6 +5,8 @@
 
 - [Результат](#результат)
 - [Первый проект для внедрения](#первый-проект-для-внедрения)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -64,7 +66,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-ultimate-legal-ai](02-ultimate-legal-ai.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 - [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)
@@ -75,7 +77,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [reading-paths](../../reading-paths.md)
 - [README](README.md)

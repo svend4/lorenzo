@@ -1,5 +1,12 @@
 # Комбинация 32: Consensus-Based Multi-Agent Coordination
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -65,7 +72,7 @@ ROI: Resilient multi-agent workflows, no single point of failure
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
 - [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
 - [34-distributed-event-store-with-paxos](34-distributed-event-store-with-paxos.md)
@@ -76,7 +83,7 @@ ROI: Resilient multi-agent workflows, no single point of failure
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)

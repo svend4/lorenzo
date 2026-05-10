@@ -5,5 +5,6 @@
 ## Содержание
 
 - [01-three-key-candidates.md](01-three-key-candidates.md) — <!-- summary -->
+<!-- tags: collaboration, architecture, rag, knowledge -->
 - [02-related-projects-context.md](02-related-projects-context.md) — <!-- summary -->
 - [03-synthesis-hebbian-collaboration-graph.md](03-synthesis-hebbian-collaboration-graph.md) — > [!TIP]

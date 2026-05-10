@@ -85,7 +85,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
 - [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
 - [06-eticheskaya-ramka](06-eticheskaya-ramka.md)

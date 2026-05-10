@@ -1,5 +1,11 @@
 # Ансамбль 5 — Agent Firewall
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -55,7 +61,7 @@ MCP Firewall — единая прослойка между агентом и в
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)

@@ -1,5 +1,11 @@
 # Du hast gesagt: Такой агент конечно меняет уже собственную реальность человека и…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -30,7 +36,7 @@ Du hast gesagt: Такой агент конечно меняет уже соб�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
 - [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)

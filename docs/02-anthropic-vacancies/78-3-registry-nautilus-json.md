@@ -168,7 +168,7 @@ Onboarding Path C (self-declaring repo).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
 - [77-2-terminology](77-2-terminology.md) (сходство 0.16)
 - [07-2-terminology](07-2-terminology.md) (сходство 0.15)
@@ -178,7 +178,7 @@ Onboarding Path C (self-declaring repo).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 - [77-2-terminology](77-2-terminology.md)
@@ -189,7 +189,7 @@ Onboarding Path C (self-declaring repo).
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [34-appendix-b-change-log](34-appendix-b-change-log.md)
 - [README](README.md)

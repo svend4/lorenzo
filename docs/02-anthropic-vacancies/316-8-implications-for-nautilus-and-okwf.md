@@ -154,7 +154,7 @@ implementable starting next week.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.16)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
@@ -164,7 +164,7 @@ implementable starting next week.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [318-10-strategic-positioning](318-10-strategic-positioning.md)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
@@ -175,7 +175,7 @@ implementable starting next week.
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [164-10-appendices](164-10-appendices.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)

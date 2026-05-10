@@ -1,5 +1,11 @@
 # Personal multi-agent hub
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -52,7 +58,7 @@ agents/04_strategic_advisor.md — для общей стратегии
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [09-federated-platform](09-federated-platform.md)

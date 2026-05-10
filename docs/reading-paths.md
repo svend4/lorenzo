@@ -122,7 +122,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PRIORITIES](PRIORITIES.md)
 - [SEARCH](SEARCH.md)
 - [SITEMAP](SITEMAP.md)

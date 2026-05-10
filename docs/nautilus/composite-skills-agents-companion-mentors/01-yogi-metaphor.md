@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Это очень тонкое и важное наблюдение.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -72,7 +78,7 @@ Claude hat geantwortet: Это очень тонкое и важное набл�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
 - [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
 - [00-question-multiple-mentors](00-question-multiple-mentors.md)

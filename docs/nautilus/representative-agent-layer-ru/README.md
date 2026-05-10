@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-sindrom-zolushki.md](01-sindrom-zolushki.md) — <!-- summary -->
 - [02-istoricheskie-pretsedenty.md](02-istoricheskie-pretsedenty.md) — > [!WARNING]
 - [03-chto-delaet-predstavitelskim.md](03-chto-delaet-predstavitelskim.md) — > [!TIP]

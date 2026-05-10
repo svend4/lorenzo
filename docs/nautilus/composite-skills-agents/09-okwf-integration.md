@@ -152,7 +152,7 @@ broader applicability.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 - [13-closing](13-closing.md)
 - [07-economics-combinatorial](07-economics-combinatorial.md)

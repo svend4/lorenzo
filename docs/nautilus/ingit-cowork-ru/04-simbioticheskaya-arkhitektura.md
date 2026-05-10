@@ -172,7 +172,7 @@ Cowork — удобство, не авторитет.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [330-4-симбиотическая-архитектура](../../02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
 - [05-priblizheniya](../infrastructure-layer-b-ru/05-priblizheniya.md)
 - 03-chto-[ingit-obespechivaet](03-chto-ingit-obespechivaet.md)

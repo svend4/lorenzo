@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твоя коммуникация в outreach](#твоя-коммуникация-в-outreach)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -52,7 +53,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
 - [04-q4-character](specification/04-q4-character.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)

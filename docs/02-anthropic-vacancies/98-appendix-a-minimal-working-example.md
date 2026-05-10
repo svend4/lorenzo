@@ -131,7 +131,7 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md) (сходство 0.44)
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.11)
 - [35-passports-info1-md](35-passports-info1-md.md) (сходство 0.10)
@@ -141,7 +141,7 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [123-portal-mcp-py](123-portal-mcp-py.md)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
@@ -152,7 +152,7 @@ class MyNotesAdapter(BaseAdapter):
 
 ---
 
-**Кто ссылается на этот документ (17):**
+## Кто ссылается на этот документ (17)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)

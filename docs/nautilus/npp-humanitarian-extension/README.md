@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-question-can-it-apply-to-docs.md](00-question-can-it-apply-to-docs.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-structural-comparison-code-vs-docs.md](01-structural-comparison-code-vs-docs.md) — <!-- summary -->
 - 02-mcp-[claude-desktop-use-cases.md](02-mcp-claude-desktop-use-cases.md) — <!-- summary -->
 - [03-what-doesnt-exist-on-market.md](03-what-doesnt-exist-on-market.md) — <!-- summary -->

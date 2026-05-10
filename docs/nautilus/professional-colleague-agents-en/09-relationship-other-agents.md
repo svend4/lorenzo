@@ -142,7 +142,7 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [220-9-relationship-to-other-agent-types](../../02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
 - [01-five-type-typology](01-five-type-typology.md)
 - [02-what-makes-pca](02-what-makes-pca.md)

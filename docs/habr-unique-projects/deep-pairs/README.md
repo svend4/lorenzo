@@ -1,10 +1,16 @@
 # deep-pairs
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Файлов:** 8
 
 ## Содержание
 
 - 1-[llm-gateway.md](1-llm-gateway.md) — <!-- summary -->
+<!-- tags: habr, projects, oss, collaboration -->
 - 2-document-[rag.md](2-document-rag.md) — <!-- summary -->
 - [3-adversarial-multi-ide.md](3-adversarial-multi-ide.md) — <!-- summary -->
 - [4-skill-catalogs-subagents.md](4-skill-catalogs-subagents.md) — <!-- summary -->

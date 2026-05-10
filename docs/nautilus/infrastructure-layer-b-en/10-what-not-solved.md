@@ -4,6 +4,7 @@
 ## Contents
 
 - [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -55,7 +56,7 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [283-what-this-document-doesn-t-solve](../../02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
 - [01-missing-middle-layer](01-missing-middle-layer.md)
 - [02-why-document-exists](02-why-document-exists.md)

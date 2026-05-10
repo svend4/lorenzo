@@ -12005,7 +12005,7 @@ _Слов: 193_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [TABLES](TABLES.md)
 - [HEADING_AUDIT](HEADING_AUDIT.md)

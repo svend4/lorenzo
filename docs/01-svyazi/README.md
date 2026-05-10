@@ -39,7 +39,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [README](../04-ai-collaborations/README.md) (сходство 0.67)
 - [PRIORITIES](../PRIORITIES.md) (сходство 0.11)
 

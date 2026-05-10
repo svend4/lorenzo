@@ -749,7 +749,7 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.14)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.14)
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.13)
@@ -759,7 +759,7 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [CONCEPTS](../CONCEPTS.md)
@@ -786,7 +786,7 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [165-closing](165-closing.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [README](README.md)

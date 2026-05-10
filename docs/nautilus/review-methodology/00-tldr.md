@@ -4,6 +4,7 @@
 ## Contents
 
 - [TL;DR](#tldr)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -53,7 +54,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [106-tl-dr](../../02-anthropic-vacancies/106-tl-dr.md)
 - [70-зачем-две-версии-параллельно](../../02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)

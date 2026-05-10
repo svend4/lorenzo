@@ -1,5 +1,11 @@
 # Пересмотренный маппинг на Anthropic
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Incubator / accelerator для founder-track. Entrepreneur First (Paris, Berlin)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 - [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
 - [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)

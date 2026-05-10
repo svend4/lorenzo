@@ -5,6 +5,8 @@
 
 - [New capabilities](#new-capabilities)
 - [Performance](#performance)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!TIP]
@@ -78,7 +80,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
 - [32-consensus-based-multi-agent-coordination](../combinations/32-consensus-based-multi-agent-coordination.md)
@@ -89,7 +91,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [reading-paths](../../reading-paths.md)
 - [README](README.md)

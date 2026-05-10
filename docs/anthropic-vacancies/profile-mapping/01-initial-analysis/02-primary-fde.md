@@ -1,5 +1,12 @@
 # Primary match — Forward Deployed Engineer, Applied AI (EMEA)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -30,7 +37,7 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [08-practical-ranking](08-practical-ranking.md)
@@ -41,7 +48,7 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [README](README.md)
 - [components-by-name](../../../glossary/components-by-name.md)
 - [concepts](../../../glossary/concepts.md)

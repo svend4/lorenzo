@@ -99,7 +99,7 @@ supply-chain риск.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [23-11-security-considerations](23-11-security-considerations.md) (сходство 0.55)
 - 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md) (сходство 0.11)
 - [85-10-query-flow](85-10-query-flow.md) (сходство 0.10)
@@ -109,7 +109,7 @@ supply-chain риск.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [23-11-security-considerations](23-11-security-considerations.md)
 - 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
@@ -141,7 +141,7 @@ supply-chain риск.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [23-11-security-considerations](23-11-security-considerations.md)

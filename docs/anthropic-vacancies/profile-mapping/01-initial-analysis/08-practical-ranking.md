@@ -1,5 +1,11 @@
 # Практическое ранжирование (первая итерация)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -28,7 +34,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)

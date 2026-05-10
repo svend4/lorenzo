@@ -465,7 +465,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONTENT_GAPS](CONTENT_GAPS.md)
 - [CLUSTERS](CLUSTERS.md)
 - [ENTITIES](ENTITIES.md)

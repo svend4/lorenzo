@@ -1,5 +1,11 @@
 # Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что тв…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -30,7 +36,7 @@ Du hast gesagt: А под какой сценарий больше всего п
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)

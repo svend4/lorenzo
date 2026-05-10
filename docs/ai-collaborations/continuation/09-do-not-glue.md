@@ -1,5 +1,11 @@
 # Что пока не стоит склеивать в один релиз
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -39,7 +45,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)

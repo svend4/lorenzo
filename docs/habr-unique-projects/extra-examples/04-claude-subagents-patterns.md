@@ -1,5 +1,11 @@
 # Claude subagents patterns
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@ Orchestrator pattern в .ai/agents/01_orchestrator.md
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)

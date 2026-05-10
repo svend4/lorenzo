@@ -7,6 +7,7 @@
   - [7.1. Хронология применения](#71-хронология-применения)
   - [7.2. Артефакты](#72-артефакты)
   - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -80,7 +81,7 @@ NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процес
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [114-7-реализация-в-проекте-nautilus](../../02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
 - [02-formal-workflow](02-formal-workflow.md)
 - [11-application-plan-current-docs](11-application-plan-current-docs.md)

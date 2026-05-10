@@ -177,7 +177,7 @@ is this integration.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [157-3-why-existing-solutions-fail](../../02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
 - [02-target-populations](02-target-populations.md)
 - [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md)

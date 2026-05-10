@@ -89,7 +89,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.19)
 - [136-abstract](136-abstract.md) (сходство 0.17)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.17)
@@ -99,7 +99,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [146-acknowledgments](146-acknowledgments.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
@@ -151,7 +151,7 @@
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [133-обратная-связь](133-обратная-связь.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [136-abstract](136-abstract.md)

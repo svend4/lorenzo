@@ -5,6 +5,8 @@
 
 - [🎯 Главная находка: паттерн «скромные родители → мощные дети»](#главная-находка-паттерн-скромные-родители-мощные-дети)
 - [Рекомендация](#рекомендация)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!TIP]
@@ -64,7 +66,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 08-conductor-[adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md)
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
@@ -75,7 +77,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [concepts](../../glossary/concepts.md)
 - [reading-paths](../../reading-paths.md)
 - [README](../README.md)

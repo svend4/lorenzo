@@ -1,5 +1,11 @@
 # Сводка профиля: пять слоёв
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -38,7 +44,7 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [08-practical-ranking](08-practical-ranking.md)
 - [01-three-archetypes](../03-integral-final/01-three-archetypes.md)

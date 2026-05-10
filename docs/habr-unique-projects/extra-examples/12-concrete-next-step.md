@@ -1,5 +1,11 @@
 # Конкретный next step
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -54,7 +60,7 @@ Honest reflection
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)

@@ -1,5 +1,11 @@
 # Section 9: Why this is timely
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Window of opportunity: building this в 2026 means leveraging mature components.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
 - [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
 - [06-section-6-proposer-role](06-section-6-proposer-role.md)

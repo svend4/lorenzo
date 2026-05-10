@@ -1,5 +1,12 @@
 # Комбинация 28: Pydantic-Enforced Legal Workflows
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -79,7 +86,7 @@ ROI: Type-safe legal automation, catches errors before human review
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 - 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 - [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
@@ -90,7 +97,7 @@ ROI: Type-safe legal automation, catches errors before human review
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)

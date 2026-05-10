@@ -185,7 +185,7 @@ ground on which Cowork operates effectively.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [02-cowork-provides](02-cowork-provides.md)
 - [04-symbiotic-architecture](04-symbiotic-architecture.md)

@@ -145,7 +145,7 @@ and 7.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
 - [05-architectural-specification](05-architectural-specification.md)
 - [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)

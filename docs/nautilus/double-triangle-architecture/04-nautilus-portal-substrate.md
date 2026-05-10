@@ -130,7 +130,7 @@ Double-Triangle deployments.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [141-4-nautilus-portal-as-reference-substrate](../../02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
 - [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)

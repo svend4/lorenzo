@@ -1,5 +1,11 @@
 # Три точки входа разной амбиции
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-what-to-do](04-what-to-do.md)
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)

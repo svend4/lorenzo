@@ -140,7 +140,7 @@ string description концепта entry в терминах target_repo, ил�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.51)
 - [21-9-query-flow](21-9-query-flow.md) (сходство 0.11)
 - [85-10-query-flow](85-10-query-flow.md) (сходство 0.10)
@@ -150,7 +150,7 @@ string description концепта entry в терминах target_repo, ил�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [81-6-adapter-interface](81-6-adapter-interface.md)
 - [19-7-portalentry-structure](19-7-portalentry-structure.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
@@ -202,7 +202,7 @@ string description концепта entry в терминах target_repo, ил�
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [21-9-query-flow](21-9-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [23-11-security-considerations](23-11-security-considerations.md)

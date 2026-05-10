@@ -5,6 +5,9 @@
 
 - [Статус](#статус)
   - [Прямые аналоги Svyazi (паттерн «LLM + детерминированный код → структура»)](#прямые-аналоги-svyazi-паттерн-llm-детерминированный-код-структура)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]
@@ -64,7 +67,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [wikontic](../knowledge/wikontic.md) (сходство 0.10)
 
 
@@ -72,7 +75,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [Yodoca: консолидация и забывание](yodoca.md)
 - agent-memory-[mcp + Memory OS](agent-memory-mcp.md)
 - [MemNet: исследовательская память](memnet.md)
@@ -94,7 +97,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [wikontic](../knowledge/wikontic.md)
 - [README](README.md)
 - [04-structuring](../../processing-guide/04-structuring.md)

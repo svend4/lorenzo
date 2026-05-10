@@ -1,5 +1,11 @@
 # Specialized knowledge workspace
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -46,7 +52,7 @@ Optional sync с Cowork для agentic capabilities
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)

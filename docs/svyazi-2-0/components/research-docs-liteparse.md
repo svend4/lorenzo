@@ -5,6 +5,8 @@
 
 - [Описание](#описание)
 - [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -48,7 +50,7 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [yodoca](yodoca.md)
 - [mclaude](mclaude.md)
 - [graph-rag](graph-rag.md)
@@ -59,7 +61,7 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

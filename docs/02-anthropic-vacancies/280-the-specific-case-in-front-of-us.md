@@ -128,7 +128,7 @@ infrastructure.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.18)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.16)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.16)
@@ -138,7 +138,7 @@ infrastructure.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
@@ -186,7 +186,7 @@ infrastructure.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [218-7-application-domains](218-7-application-domains.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)

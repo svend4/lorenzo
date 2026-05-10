@@ -108,7 +108,7 @@ such a protocol.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [136-abstract](136-abstract.md) (сходство 0.19)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md) (сходство 0.18)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.14)
@@ -118,7 +118,7 @@ such a protocol.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [136-abstract](136-abstract.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
@@ -129,7 +129,7 @@ such a protocol.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [136-abstract](136-abstract.md)
 - [137-table-of-contents](137-table-of-contents.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)

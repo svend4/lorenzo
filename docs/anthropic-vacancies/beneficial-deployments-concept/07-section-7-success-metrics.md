@@ -1,5 +1,11 @@
 # Section 7: Success metrics
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Pattern library growth: target N reusable case patterns by Phase 2
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
 - [01-section-1-problem](01-section-1-problem.md)

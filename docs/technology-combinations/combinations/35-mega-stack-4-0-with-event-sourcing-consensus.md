@@ -1,5 +1,11 @@
 # Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -125,7 +131,7 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [31-35-final](../synthesis-tables/31-35-final.md)
 - [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)

@@ -218,7 +218,7 @@ ethical, and economic framework.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.24)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.18)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.17)
@@ -228,7 +228,7 @@ ethical, and economic framework.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
@@ -282,7 +282,7 @@ ethical, and economic framework.
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)

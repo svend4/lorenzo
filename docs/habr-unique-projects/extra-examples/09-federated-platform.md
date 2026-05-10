@@ -1,5 +1,11 @@
 # Federated platform
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@ Federation between practitioner deployments (Nautilus)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [10-profession-specific-workflows](10-profession-specific-workflows.md)

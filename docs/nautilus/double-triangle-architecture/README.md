@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-why-single-triangle-incomplete.md](01-why-single-triangle-incomplete.md) — <!-- summary -->
 - [02-double-triangle-architecture.md](02-double-triangle-architecture.md) — > [!IMPORTANT]
 - [03-three-inter-layer-protocols.md](03-three-inter-layer-protocols.md) — > [!IMPORTANT]

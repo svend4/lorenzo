@@ -150,7 +150,7 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [161-7-phased-rollout-plan](../../02-anthropic-vacancies/161-7-phased-rollout-plan.md)
 - [05-economic-model](05-economic-model.md)
 - [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)

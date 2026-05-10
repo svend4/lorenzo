@@ -1,5 +1,12 @@
 # Комбинация 25: Legal DSL → Code Transpiler
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -101,7 +108,7 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-legal-document-transpiler](13-legal-document-transpiler.md)
 - [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
@@ -112,7 +119,7 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)

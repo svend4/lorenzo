@@ -160,7 +160,7 @@ _Индекс сгенерирован автоматически · 1742 док
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ONBOARDING](ONBOARDING.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 - [PROGRESS](PROGRESS.md)

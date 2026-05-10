@@ -5,6 +5,7 @@
 
 - [Схема](#схема)
 - [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -56,7 +57,7 @@ flowchart LR
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
 - [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
 - [F-evidence-backed-intake](F-evidence-backed-intake.md)

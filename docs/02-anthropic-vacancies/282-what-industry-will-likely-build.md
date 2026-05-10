@@ -4,10 +4,13 @@
 ## Contents
 
 - [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!NOTE]
@@ -78,7 +81,7 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [281-the-recursive-insight](281-the-recursive-insight.md) (сходство 0.13)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.13)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.13)
@@ -88,7 +91,7 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [281-the-recursive-insight](281-the-recursive-insight.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [307-abstract](307-abstract.md)
@@ -133,7 +136,7 @@ what exists and adapt as better infrastructure emerges.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [153-executive-summary](153-executive-summary.md)
 - [164-10-appendices](164-10-appendices.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)

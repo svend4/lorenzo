@@ -190,7 +190,7 @@ workflow.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.15)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.15)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.14)
@@ -200,7 +200,7 @@ workflow.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
@@ -249,7 +249,7 @@ workflow.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)

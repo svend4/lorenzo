@@ -9,6 +9,7 @@
   - [5.3. Consensus ML Ensembles](#53-consensus-ml-ensembles)
   - [5.4. Red Team / Blue Team](#54-red-team-blue-team)
   - [5.5. Новое в данной методологии](#55-новое-в-данной-методологии)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -94,7 +95,7 @@ consolidation.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [112-5-связь-с-существующими-методологиями](../../02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
 - [10-checklist](10-checklist.md)
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)

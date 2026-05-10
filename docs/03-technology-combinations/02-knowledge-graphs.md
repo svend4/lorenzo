@@ -110,7 +110,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [05-benchmarks](05-benchmarks.md) (сходство 0.14)
 - [03-local-first](03-local-first.md) (сходство 0.11)
 
@@ -119,7 +119,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-benchmarks](05-benchmarks.md)
 - [03-local-first](03-local-first.md)
 - [01-agent-routing](01-agent-routing.md)
@@ -130,7 +130,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [01-agent-routing](01-agent-routing.md)
 - [03-local-first](03-local-first.md)
 - [05-benchmarks](05-benchmarks.md)

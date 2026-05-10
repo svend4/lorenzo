@@ -171,7 +171,11 @@ def main():
         badges.append(("validation", "validation", f"{errors}_errors", "red"))
 
     # Записываем SVG и markdown
-    md_lines = ['# Status Badges\n', f'_Обновлено: {date.today().isoformat()}_\n',
+    md_lines = ['# Status Badges\n',
+                '<!-- summary -->\n> Бейджи статуса репозитория: тесты, шаблоны, скрипты, скилы\n',
+                '<!-- tags: badges, status, quality, documentation -->\n',
+                '> [!TIP]\n> Вставьте бейджи в README для отображения статуса проекта.\n\n<!-- alert-added -->\n',
+                f'_Обновлено: {date.today().isoformat()}_\n',
                 '\n## Превью\n']
     md_snippets = ['\n## Markdown сниппеты для README\n```markdown']
 

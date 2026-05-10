@@ -35,7 +35,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md) (сходство 0.24)
 - [253-table-of-contents](253-table-of-contents.md) (сходство 0.15)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.15)
@@ -45,7 +45,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
@@ -97,7 +97,7 @@
 
 ---
 
-**Кто ссылается на этот документ (15):**
+## Кто ссылается на этот документ (15)
 - [136-abstract](136-abstract.md)
 - [146-acknowledgments](146-acknowledgments.md)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)

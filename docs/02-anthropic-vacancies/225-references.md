@@ -10,6 +10,9 @@
   - [Professional Practice Theory](#professional-practice-theory)
   - [AI in Professional Practice](#ai-in-professional-practice)
   - [Related Architecture](#related-architecture)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
 
 
 > [!NOTE]
@@ -86,7 +89,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [245-ссылки](245-ссылки.md) (сходство 0.22)
 - [183-references](183-references.md) (сходство 0.22)
 - [268-references](268-references.md) (сходство 0.18)
@@ -96,7 +99,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [245-ссылки](245-ссылки.md)
 - [183-references](183-references.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
@@ -107,7 +110,7 @@
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
 - [168-abstract](168-abstract.md)

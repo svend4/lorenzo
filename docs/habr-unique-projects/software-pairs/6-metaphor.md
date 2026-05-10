@@ -1,5 +1,11 @@
 # Метафора в твоей терминологии
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -42,7 +48,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [7-metaphor](../hardware-pairs/7-metaphor.md)
 - [6-bonus-rram-memristor](../hardware-pairs/6-bonus-rram-memristor.md)
 - [3-crdt-self-hosted](3-crdt-self-hosted.md)

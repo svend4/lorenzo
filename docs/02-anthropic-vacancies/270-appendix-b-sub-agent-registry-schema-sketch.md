@@ -4,6 +4,9 @@
 ## Contents
 
 - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]
@@ -109,7 +112,7 @@ substantial refinement based on actual implementation experience.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
 - [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md) (сходство 0.11)
 
@@ -118,7 +121,7 @@ substantial refinement based on actual implementation experience.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
@@ -129,7 +132,7 @@ substantial refinement based on actual implementation experience.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [253-table-of-contents](253-table-of-contents.md)
 - [308-table-of-contents](308-table-of-contents.md)
 - 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)

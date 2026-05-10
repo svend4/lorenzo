@@ -8,10 +8,13 @@
   - [MCP Standard](#mcp-standard)
   - [Companion Documents in This Series](#companion-documents-in-this-series)
   - [Related Work](#related-work)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 
 
 > [!NOTE]
@@ -65,7 +68,7 @@ acknowledgments above.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [338-ссылки](338-ссылки.md) (сходство 0.32)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
 - [287-references](287-references.md) (сходство 0.14)
@@ -75,7 +78,7 @@ acknowledgments above.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [338-ссылки](338-ссылки.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
@@ -119,7 +122,7 @@ acknowledgments above.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [146-acknowledgments](146-acknowledgments.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)

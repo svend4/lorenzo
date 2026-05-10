@@ -102,7 +102,7 @@ walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [223-12-closing](223-12-closing.md) (сходство 0.21)
 - [252-abstract](252-abstract.md) (сходство 0.20)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.20)
@@ -112,7 +112,7 @@ walking it.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [252-abstract](252-abstract.md)
 - [223-12-closing](223-12-closing.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -164,7 +164,7 @@ walking it.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [168-abstract](168-abstract.md)
 - [181-12-closing](181-12-closing.md)
 - [223-12-closing](223-12-closing.md)

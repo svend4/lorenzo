@@ -1,5 +1,11 @@
 # Сложности и рекомендации перед detailed specification
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!IMPORTANT]
 > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
 
@@ -352,7 +358,7 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)

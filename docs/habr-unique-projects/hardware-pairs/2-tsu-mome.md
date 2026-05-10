@@ -1,5 +1,12 @@
 # Пара 2 — Термодинамические TSU × MoE/MoME-роутинг
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +44,7 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-memnet](../key-findings/02-memnet.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 - 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
@@ -48,7 +55,7 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

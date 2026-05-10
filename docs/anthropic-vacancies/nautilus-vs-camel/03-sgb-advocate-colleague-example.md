@@ -1,5 +1,11 @@
 # Конкретный пример: SGB Advocate Colleague на этой архитектуре
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -78,7 +84,7 @@ MCP interoperability
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [09-federated-platform](../../habr-unique-projects/extra-examples/09-federated-platform.md)

@@ -1,5 +1,11 @@
 # Пара 2 — Парсинг документов × локальный RAG
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Local RAG за вечер (https://habr.com/ru/articles/955798/) — 5 open-sour
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 - [5-voice-local-memory](5-voice-local-memory.md)
 - 2-pkm-[mcp-skills](../software-pairs/2-pkm-mcp-skills.md)

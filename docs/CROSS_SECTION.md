@@ -154,7 +154,7 @@ _Для каждого концепта — TF-IDF вес в каждой сек
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [kksudo](contacts/kksudo.md)
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [CONTACTS](CONTACTS.md)

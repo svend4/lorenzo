@@ -1,5 +1,11 @@
 # Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Metaverse попытки: Horizon Workrooms от Meta, VR Chat, Mozilla Hubs. Э
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 - [04-pluses-as-business](04-pluses-as-business.md)
 - [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)

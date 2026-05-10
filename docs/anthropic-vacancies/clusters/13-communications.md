@@ -1,5 +1,11 @@
 # Communications — 5 ролей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -22,7 +28,7 @@ Communications Lead для Claude Code и для Anthropic Institute, Communicat
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-product-management-support-ops](09-product-management-support-ops.md)
 - [14-public-policy](14-public-policy.md)
 - [15-public-benefit](15-public-benefit.md)

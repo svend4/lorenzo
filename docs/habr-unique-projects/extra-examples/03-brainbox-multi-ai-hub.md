@@ -1,5 +1,11 @@
 # BrainBox — self-hosted multi-AI hub
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -68,7 +74,7 @@ Community knowledge: Zettelkasten + Лумановская иерархия + RA
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 - 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)

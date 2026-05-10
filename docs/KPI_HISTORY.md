@@ -5,6 +5,7 @@
 
 - [Текущие метрики](#текущие-метрики)
 - [История](#история)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -56,7 +57,7 @@ _Запускать регулярно для получения трендов.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [TAGS](TAGS.md)
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 - [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)

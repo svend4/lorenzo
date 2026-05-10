@@ -4,6 +4,7 @@
 ## Contents
 
 - [Appendix B: Change Log](#appendix-b-change-log)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -34,7 +35,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-reference-implementation](13-reference-implementation.md)
 - [10-query-result](10-query-result.md)
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)

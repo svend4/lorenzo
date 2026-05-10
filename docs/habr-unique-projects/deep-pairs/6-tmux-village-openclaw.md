@@ -1,5 +1,11 @@
 # Пара 6 — Деревня агентов через tmux × OpenClaw оркестратор
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)

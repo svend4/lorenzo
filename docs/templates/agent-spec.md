@@ -111,6 +111,6 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [project-component](project-component.md)
 - [protocol-spec](protocol-spec.md)

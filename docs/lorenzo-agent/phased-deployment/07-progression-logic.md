@@ -1,5 +1,11 @@
 # Логика прогрессии: conservative escalation
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -52,7 +58,7 @@ Decision points:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-overview](00-overview.md)
 - [01-level-0-manual](01-level-0-manual.md)
 - [06-level-5-full-network](06-level-5-full-network.md)

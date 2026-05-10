@@ -8,6 +8,7 @@
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
+- [Смотрите также](#смотрите-также)
 
 
   - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
@@ -111,7 +112,7 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [81-6-adapter-interface](../../02-anthropic-vacancies/81-6-adapter-interface.md)
 - [18-6-adapter-interface](../../02-anthropic-vacancies/18-6-adapter-interface.md)
 - [07-portal-entry](07-portal-entry.md)

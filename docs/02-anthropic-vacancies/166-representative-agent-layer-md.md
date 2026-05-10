@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.33)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) (сходство 0.27)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.25)
@@ -82,7 +82,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
@@ -93,7 +93,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)

@@ -1,5 +1,12 @@
 # Пара 4 — Скилл-каталоги × Subagent-оркестрация
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +43,7 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
 - 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)
@@ -47,7 +54,7 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

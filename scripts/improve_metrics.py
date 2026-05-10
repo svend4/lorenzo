@@ -140,6 +140,9 @@ def main():
 
     lines = [
         "# Метрики качества документации\n",
+        f"<!-- summary -->\n> Средний балл: **{avg_score:.1f}/100** по {len(file_rows)} документам\n",
+        "<!-- tags: quality, metrics, documentation, coverage -->\n",
+        f"> [!TIP]\n> Балл выше 85 означает хорошее качество документации.\n\n<!-- alert-added -->\n",
         f"**Файлов:** {len(file_rows)}  "
         f"**Средний балл:** {avg_score:.1f}/100\n",
 
@@ -199,6 +202,11 @@ def main():
         f"- Файлов с оглавлением: **{pct_toc:.1f}%**",
         f"- Файлов с callout: **{pct_callout:.1f}%**",
         f"- Средний балл качества: **{avg_score:.1f}/100**",
+        "\n## Смотрите также\n",
+        "- [HEALTH](HEALTH.md) — общее здоровье репозитория",
+        "- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок",
+        "- [VALIDATION](VALIDATION.md) — валидация структуры",
+        "- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)",
     ]
 
     out = DOCS / "METRICS.md"

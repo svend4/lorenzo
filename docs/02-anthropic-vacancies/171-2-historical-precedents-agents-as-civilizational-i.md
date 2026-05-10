@@ -213,7 +213,7 @@ never had it**.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.14)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md) (сходство 0.14)
 - [168-abstract](168-abstract.md) (сходство 0.12)
@@ -223,7 +223,7 @@ never had it**.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
 - [168-abstract](168-abstract.md)
@@ -259,7 +259,7 @@ never had it**.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [168-abstract](168-abstract.md)
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)

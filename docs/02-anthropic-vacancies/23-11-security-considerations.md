@@ -7,10 +7,13 @@
   - [11.1. Untrusted Adapters](#111-untrusted-adapters)
   - [11.2. Private Repositories](#112-private-repositories)
   - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
@@ -74,7 +77,7 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [90-15-security-considerations](90-15-security-considerations.md) (сходство 0.55)
 
 
@@ -82,7 +85,7 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [90-15-security-considerations](90-15-security-considerations.md)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)
 - 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
@@ -116,7 +119,7 @@ Implementation MUST различать public и private registries и не
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [90-15-security-considerations](90-15-security-considerations.md)

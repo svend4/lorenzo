@@ -10,6 +10,7 @@
   - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
   - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
   - [12.6. Path Selection Guidance](#126-path-selection-guidance)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -125,7 +126,7 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [87-12-onboarding-paths-normative](../../02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
 - [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
 - [03-registry](03-registry.md)

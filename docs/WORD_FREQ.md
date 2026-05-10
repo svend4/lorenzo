@@ -555,7 +555,7 @@ _(Слова, характерные только для этого раздел
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
 - [SENTIMENT](SENTIMENT.md)
 - [STATS](STATS.md)

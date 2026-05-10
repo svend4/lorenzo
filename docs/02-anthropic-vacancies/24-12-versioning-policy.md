@@ -7,10 +7,13 @@
   - [12.1. Semver](#121-semver)
   - [12.2. Version in Registry](#122-version-in-registry)
   - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 > [!NOTE]
@@ -62,7 +65,7 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [92-17-versioning-policy](92-17-versioning-policy.md) (сходство 0.63)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md) (сходство 0.14)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md) (сходство 0.13)
@@ -72,7 +75,7 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [92-17-versioning-policy](92-17-versioning-policy.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
@@ -120,7 +123,7 @@ implementation MUST поддерживать **минимум текущую maj
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)

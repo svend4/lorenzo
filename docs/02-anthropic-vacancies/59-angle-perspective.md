@@ -4,10 +4,13 @@
 ## Contents
 
 - [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!NOTE]
@@ -47,7 +50,7 @@ evolution».
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.14)
 - [49-angle-perspective](49-angle-perspective.md) (сходство 0.12)
 
@@ -56,7 +59,7 @@ evolution».
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [39-angle-perspective](39-angle-perspective.md)
 - [49-angle-perspective](49-angle-perspective.md)
 - [36-essence](36-essence.md)
@@ -102,7 +105,7 @@ evolution».
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [13-angle-perspective](13-angle-perspective.md)
 - 35-passports-[info1-md](35-passports-info1-md.md)
 - [39-angle-perspective](39-angle-perspective.md)

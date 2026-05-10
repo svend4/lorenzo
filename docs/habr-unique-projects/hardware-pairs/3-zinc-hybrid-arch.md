@@ -1,5 +1,12 @@
 # Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +44,7 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - 06-openclaude-utyokshiy-[claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
 - [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
@@ -48,7 +55,7 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

@@ -39,7 +39,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [README](../01-svyazi/README.md) (сходство 0.67)
 - [PRIORITIES](../PRIORITIES.md) (сходство 0.18)
 - [MISSING](../MISSING.md) (сходство 0.16)

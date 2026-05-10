@@ -77,7 +77,7 @@ shareable AI-collaborative work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
 - [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md) (сходство 0.16)
@@ -87,7 +87,7 @@ shareable AI-collaborative work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md)
@@ -138,7 +138,7 @@ shareable AI-collaborative work.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [168-abstract](168-abstract.md)
 - [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
 - [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)

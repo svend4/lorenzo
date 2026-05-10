@@ -188,7 +188,7 @@ unchanged remains to be measured.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.16)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.12)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.12)
@@ -198,7 +198,7 @@ unchanged remains to be measured.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
@@ -243,7 +243,7 @@ unchanged remains to be measured.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [210-abstract](210-abstract.md)
 - [211-table-of-contents](211-table-of-contents.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)

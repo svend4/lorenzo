@@ -4,6 +4,7 @@
 ## Contents
 
 - [Рекомендация](#рекомендация)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -73,7 +74,7 @@ def get_state_at(case_id, target_date):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
 - [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
 - [20-24-final](20-24-final.md)

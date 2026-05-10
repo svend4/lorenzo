@@ -1,5 +1,11 @@
 # HW-NL2Workflow — Supervisor/Orchestrator/Filler с 3600+ examples
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -56,7 +62,7 @@ Self-hosted второй мозг через Claude Code + Obsidian
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)

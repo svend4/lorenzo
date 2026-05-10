@@ -1,5 +1,11 @@
 # AI-ассистент с Mem0 / Letta / Graphiti integration
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -89,7 +95,7 @@ Extraction/structuring
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [06-final-tier-ranking](06-final-tier-ranking.md)
 - [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md)
 - [354-существующий-landscape-collaborators-твоя-working-](../../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)

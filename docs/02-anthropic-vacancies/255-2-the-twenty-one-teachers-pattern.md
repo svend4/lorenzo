@@ -152,7 +152,7 @@ practitioner can configure into their own combination.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.18)
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md) (сходство 0.17)
 - [252-abstract](252-abstract.md) (сходство 0.15)
@@ -162,7 +162,7 @@ practitioner can configure into their own combination.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
 - [252-abstract](252-abstract.md)
@@ -205,7 +205,7 @@ practitioner can configure into their own combination.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
 - [252-abstract](252-abstract.md)
 - [253-table-of-contents](253-table-of-contents.md)

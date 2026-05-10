@@ -136,7 +136,7 @@ The remainder of this document develops Option C.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [307-abstract](307-abstract.md) (сходство 0.19)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
@@ -146,7 +146,7 @@ The remainder of this document develops Option C.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [307-abstract](307-abstract.md)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 - [279-existing-approximations](279-existing-approximations.md)
@@ -157,7 +157,7 @@ The remainder of this document develops Option C.
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
 - [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
 - [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)

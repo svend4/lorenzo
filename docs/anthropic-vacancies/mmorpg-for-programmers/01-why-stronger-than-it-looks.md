@@ -1,5 +1,11 @@
 # Почему эта идея сильнее, чем выглядит
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-existing-niche](02-existing-niche.md)
 - [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
 - [04-pluses-as-business](04-pluses-as-business.md)

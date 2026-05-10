@@ -176,7 +176,7 @@ state. Cowork memory is convenience, not authority.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.18)
 - [307-abstract](307-abstract.md) (сходство 0.16)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.15)
@@ -186,7 +186,7 @@ state. Cowork memory is convenience, not authority.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [307-abstract](307-abstract.md)
 - [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
@@ -197,7 +197,7 @@ state. Cowork memory is convenience, not authority.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [168-abstract](168-abstract.md)
 - [307-abstract](307-abstract.md)
 - [308-table-of-contents](308-table-of-contents.md)

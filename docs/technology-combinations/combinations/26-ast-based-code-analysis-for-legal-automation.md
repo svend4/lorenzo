@@ -1,5 +1,11 @@
 # Комбинация 26: AST-Based Code Analysis for Legal Automation
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -81,7 +87,7 @@ ROI: Prevents errors from inconsistent legal implementations
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
 - 27-hybrid-[rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
 - [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)

@@ -9,6 +9,7 @@
   - [7.3. Dispute Resolution](#73-dispute-resolution)
   - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
   - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -119,7 +120,7 @@ by mission-driven foundations.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [176-7-governance-and-oversight](../../02-anthropic-vacancies/176-7-governance-and-oversight.md)
 - [06-ethical-framework](06-ethical-framework.md)
 - [05-architectural-specification](05-architectural-specification.md)

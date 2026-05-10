@@ -240,7 +240,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [LINKS](LINKS.md)
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
 - [42-author-contact](02-anthropic-vacancies/42-author-contact.md)

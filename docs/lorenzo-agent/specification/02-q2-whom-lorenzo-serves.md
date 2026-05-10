@@ -1,5 +1,11 @@
 # Question 2: Кому Lorenzo служит? (4 варианта приоритета)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -73,7 +79,7 @@ Lorenzo ultimately serves vulnerable populations, directly works с independent 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - 01-q1-what-[lorenzo-is](01-q1-what-lorenzo-is.md)

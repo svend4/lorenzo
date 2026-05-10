@@ -241,7 +241,7 @@ incremental rather than novel.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.17)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
 - [164-10-appendices](164-10-appendices.md) (сходство 0.15)
@@ -251,7 +251,7 @@ incremental rather than novel.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [164-10-appendices](164-10-appendices.md)
@@ -303,7 +303,7 @@ incremental rather than novel.
 
 ---
 
-**Кто ссылается на этот документ (18):**
+## Кто ссылается на этот документ (18)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [155-1-problem-statement](155-1-problem-statement.md)

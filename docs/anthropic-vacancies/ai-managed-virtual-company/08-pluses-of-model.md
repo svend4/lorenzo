@@ -1,5 +1,11 @@
 # Плюсы модели, если её построить
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ Natural fit для inclusive work. Люди с health limitations, neurodiversit
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-four-structural-blockers](02-four-structural-blockers.md)
 - [07-current-implementations](07-current-implementations.md)
 - [01-existing-landscape](01-existing-landscape.md)

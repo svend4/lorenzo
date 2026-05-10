@@ -8,6 +8,9 @@
   - [Knowledge Management](#knowledge-management)
   - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
   - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
 
 
 > [!NOTE]
@@ -73,7 +76,7 @@ header of this document.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [302-ссылки](302-ссылки.md) (сходство 0.18)
 - [320-references](320-references.md) (сходство 0.14)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
@@ -83,7 +86,7 @@ header of this document.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [302-ссылки](302-ссылки.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
@@ -94,7 +97,7 @@ header of this document.
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)

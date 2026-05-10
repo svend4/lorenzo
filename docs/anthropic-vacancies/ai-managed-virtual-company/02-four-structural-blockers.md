@@ -1,5 +1,11 @@
 # Четыре структурные причины, почему это не работает в текущих попытках
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-pluses-of-model](08-pluses-of-model.md)
 - [07-current-implementations](07-current-implementations.md)
 - [01-existing-landscape](01-existing-landscape.md)

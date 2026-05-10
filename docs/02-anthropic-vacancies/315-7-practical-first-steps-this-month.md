@@ -107,7 +107,7 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.12)
@@ -117,7 +117,7 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
 - [308-table-of-contents](308-table-of-contents.md)
@@ -128,7 +128,7 @@ work. Most successful infrastructure projects start this way.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)

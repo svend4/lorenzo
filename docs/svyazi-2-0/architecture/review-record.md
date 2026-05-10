@@ -4,6 +4,8 @@
 ## Contents
 
 - [Минимальные поля](#минимальные-поля)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -41,7 +43,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [integration-spec](integration-spec.md)
 - [card-envelope](card-envelope.md)
 - [evidence-envelope](evidence-envelope.md)
@@ -52,7 +54,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 - [integration-spec](integration-spec.md)

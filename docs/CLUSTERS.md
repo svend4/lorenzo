@@ -33,6 +33,8 @@
 - [Кластер 28 — angle-perspective, essence, смотрит, anthropic-vacancies (5 файлов)](#кластер-28-angle-perspective-essence-смотрит-anthropic-vacancies-5-файлов)
 - [Кластер 29 — target-populations, populations, problem-statement, target (5 файлов)](#кластер-29-target-populations-populations-problem-statement-target-5-файлов)
 - [Кластер 30 — contributor, phase, phase-, foundation (5 файлов)](#кластер-30-contributor-phase-phase--foundation-5-файлов)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 - Кластер 1 — turn, view, [svyazi, cardindex (30 файлов)](#кластер-1-turn-view-svyazi-cardindex-30-файлов)
@@ -488,7 +490,7 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 - [SEARCH](SEARCH.md)
 - [READING_ORDER](READING_ORDER.md)
@@ -499,7 +501,7 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [211-table-of-contents](02-anthropic-vacancies/211-table-of-contents.md)
 - [307-abstract](02-anthropic-vacancies/307-abstract.md)
 - [308-table-of-contents](02-anthropic-vacancies/308-table-of-contents.md)

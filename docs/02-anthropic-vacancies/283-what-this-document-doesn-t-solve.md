@@ -4,10 +4,13 @@
 ## Contents
 
 - [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (12)](#кто-ссылается-на-этот-документ-12)
 
 
 > [!NOTE]
@@ -57,7 +60,7 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [307-abstract](307-abstract.md) (сходство 0.14)
 - [275-why-this-document-exists](275-why-this-document-exists.md) (сходство 0.12)
 - [286-acknowledgments](286-acknowledgments.md) (сходство 0.11)
@@ -67,7 +70,7 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [286-acknowledgments](286-acknowledgments.md)
 - [307-abstract](307-abstract.md)
@@ -112,7 +115,7 @@ document provides framing. It does not provide answers.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [267-acknowledgments](267-acknowledgments.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)

@@ -1,5 +1,11 @@
 # Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -35,7 +41,7 @@ Mehr anzeigen
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
 - [00-question-rephrasing](../../../anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
 - [00-question-supply-demand](../../supply-demand/00-question-supply-demand.md)

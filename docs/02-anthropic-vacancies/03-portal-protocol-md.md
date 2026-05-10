@@ -41,7 +41,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.47)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md) (сходство 0.38)
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md) (сходство 0.36)
@@ -51,7 +51,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
 - [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
@@ -113,7 +113,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (22):**
+## Кто ссылается на этот документ (22)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
 - [123-portal-mcp-py](123-portal-mcp-py.md)

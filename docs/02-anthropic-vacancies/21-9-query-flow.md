@@ -7,10 +7,13 @@
   - [9.1. Lifecycle](#91-lifecycle)
   - [9.2. Parallelism](#92-parallelism)
   - [9.3. Error Handling](#93-error-handling)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]
@@ -63,7 +66,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [85-10-query-flow](85-10-query-flow.md) (сходство 0.72)
 - [81-6-adapter-interface](81-6-adapter-interface.md) (сходство 0.11)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md) (сходство 0.11)
@@ -73,7 +76,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [85-10-query-flow](85-10-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
@@ -119,7 +122,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [90-15-security-considerations](90-15-security-considerations.md)

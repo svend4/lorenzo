@@ -1,5 +1,11 @@
 # Section 6: Proposer's role и qualifications
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -48,7 +54,7 @@ Identified working potential collaborators (HMP, Свяжи, etc.)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)

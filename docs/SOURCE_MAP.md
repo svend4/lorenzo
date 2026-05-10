@@ -1332,7 +1332,7 @@ _Обновлено: 2026-05-10_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)

@@ -1,23 +1,23 @@
 # Валидация структуры репозитория
 
-<!-- toc -->
-## Содержание
+<!-- summary -->
+> Ошибок: **0**, предупреждений: **43**, пройдено: **27**
+
+<!-- tags: quality, validation, structure, health -->
+
+> [!TIP]
+> Структура репозитория валидна.
+
+<!-- alert-added -->
+
+<!-- toc-auto -->
+## Contents
 
 - [Сводка](#сводка)
-- [✅ Разделы и README](#разделы-и-readme)
-- [✅ Мета-файлы](#мета-файлы)
-- [Пустые/короткие файлы](#пустыекороткие-файлы)
-- [Именование файлов](#именование-файлов)
-- [Заголовки H1](#заголовки-h1)
-- [Внутренние ссылки](#внутренние-ссылки)
 - [Итог](#итог)
+- [Смотрите также](#смотрите-также)
 
----
-
-<!-- tags: memory, ingestion, local-first, roadmap, anthropic, self-improve, collaboration -->
-
-
-**Ошибок:** 0  **Предупреждений:** 51  **Пройдено:** 27
+**Ошибок:** 0  **Предупреждений:** 43  **Пройдено:** 27
 
 ## Сводка
 
@@ -25,9 +25,9 @@
 |----------|--------|---------|
 | Разделы и README | ✅ | 0 |
 | Мета-файлы | ✅ | 0 |
-| Пустые/короткие файлы | ⚠️ | 31 |
+| Пустые/короткие файлы | ⚠️ | 32 |
 | Именование файлов | ✅ | 10 |
-| Заголовки H1 | ⚠️ | 20 |
+| Заголовки H1 | ⚠️ | 11 |
 | Внутренние ссылки | ✅ | 15 |
 
 ## ✅ Разделы и README
@@ -41,11 +41,12 @@ _Всё в порядке_
 ## Пустые/короткие файлы
 
 - ⚠️ Слишком короткий файл: `docs/01-svyazi/00-intro-part2.md` (6 слов)
-- ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (16 слов)
+- ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (29 слов)
 - ⚠️ Слишком короткий файл: `docs/MCP_DASHBOARD.md` (6 слов)
-- ⚠️ Слишком короткий файл: `docs/SKILL_DASHBOARD.md` (21 слов)
+- ⚠️ Слишком короткий файл: `docs/SKILL_DASHBOARD.md` (25 слов)
 - ⚠️ Слишком короткий файл: `docs/ai-collaborations/candidates/README.md` (23 слов)
 - ⚠️ Слишком короткий файл: `docs/ai-collaborations/channels/README.md` (25 слов)
+- ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (18 слов)
 - ⚠️ Слишком короткий файл: `docs/glossary/README.md` (24 слов)
 - ⚠️ Слишком короткий файл: `docs/habr-unique-projects/analogues/README.md` (18 слов)
 - ⚠️ Слишком короткий файл: `docs/habr-unique-projects/evaluation/README.md` (28 слов)
@@ -87,17 +88,6 @@ _Всё в порядке_
 
 ## Заголовки H1
 
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/03-component-catalog.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/04-ensembles-overview.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/06-security-privacy.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/07-mvp-planning.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/08-conclusions.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/09-architectural-gaps.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/10-second-order-ensembles.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/11-integration-contracts.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/12-roadmap.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/13-contacts.md`
-- ⚠️ Нет заголовка H1: `docs/01-svyazi/14-limitations.md`
 - ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/03-component-catalog.md`
 - ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/04-ensembles-overview.md`
 - ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/06-security-privacy.md`
@@ -107,25 +97,43 @@ _Всё в порядке_
 - ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/10-second-order-ensembles.md`
 - ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/11-integration-contracts.md`
 - ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/12-roadmap.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/13-contacts.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/14-limitations.md`
 
 ## Внутренние ссылки
 
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/104-appendix-c-references.md`: `./docs/PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md`: `./REVIEW_METHODOLOGY.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/122-глоссарий.md`: `./REVIEW_METHODOLOGY.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md`: `../PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md`: `../PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md`: `../PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./passports/info1.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./passports/pro2.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/67-о-проекте.md`: `./passports/meta.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/68-about.md`: `./PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/68-about.md`: `./PORTAL-PROTOCOL.md`
-- 🔗 Сломана ссылка в `docs/02-anthropic-vacancies/68-about.md`: `./PORTAL-PROTOCOL.md`
+- 🔗 Сломана ссылка в `docs/CODE_BLOCKS.md`: `./REVIEW_METHODOLOGY.md`
+- 🔗 Сломана ссылка в `docs/DECISIONS.md`: `../docs/05-habr-projects/mem  
+  _→ 01-интегральный-анализ-профиля-svend4_
+
+- явно проставить relationship в metadata . Создать файл pro2/nautilus/PROVENANCE.md , где будет написано одной фразой: «This directory contains the routing/orchestration component of YiJing-Transformer  
+  _→ 01-интегральный-анализ-профиля-svend4_
+
+- 9-to-5 office + GdB 70 + intensity вашего производства`
+- 🔗 Сломана ссылка в `docs/QUESTIONS.md`: `docs/02-anthropic]
+- What Cowork Provides That InGit Doesn't Need to Build (docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md`
+- 🔗 Сломана ссылка в `docs/QUESTIONS.md`: `docs/nautilus/okwf-concept/10-appendices.md]
+-`
+- 🔗 Сломана ссылка в `docs/RISK_REGISTER.md`: `docs/04-ai-collaborations/0… |
+| `06-security-privacy` | cs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
+- 🔗 Сломана ссылка в `docs/SCRIPTS_CATALOG.md`: `../path/file.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `02-extraction.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `03-chunking.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `04-structuring.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `05-analysis.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `06-search.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `07-llm.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `08-export.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `09-automation.md`
+- 🔗 Сломана ссылка в `docs/TABLES.md`: `10-future.md`
 
 ## Итог
 
-⚠️ **51 предупреждений** — рекомендуется исправить.
+⚠️ **43 предупреждений** — рекомендуется исправить.
+
+## Смотрите также
+
+- [HEALTH](HEALTH.md) — общее здоровье репозитория
+- [METRICS](METRICS.md) — метрики качества документов
+- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
+- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)

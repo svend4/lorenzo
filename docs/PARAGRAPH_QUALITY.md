@@ -7257,7 +7257,7 @@ _абзац: 1_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)

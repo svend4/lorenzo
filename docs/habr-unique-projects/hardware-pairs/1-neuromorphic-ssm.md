@@ -1,5 +1,12 @@
 # Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -39,7 +46,7 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
 - [4-riscv-privacy](4-riscv-privacy.md)
@@ -50,7 +57,7 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

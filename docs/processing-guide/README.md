@@ -5,6 +5,7 @@
 ## Содержание
 
 - [01-overview.md](01-overview.md) — <!-- summary -->
+<!-- tags: guide, documentation, workflow, scripting -->
 - [02-extraction.md](02-extraction.md) — > [!WARNING]
 - [03-chunking.md](03-chunking.md) — > [!WARNING]
 - [04-structuring.md](04-structuring.md) — > [!TIP]

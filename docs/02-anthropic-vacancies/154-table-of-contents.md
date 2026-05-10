@@ -37,7 +37,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [169-table-of-contents](169-table-of-contents.md) (сходство 0.17)
 
 
@@ -45,7 +45,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [169-table-of-contents](169-table-of-contents.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [137-table-of-contents](137-table-of-contents.md)
@@ -99,7 +99,7 @@
 
 ---
 
-**Кто ссылается на этот документ (18):**
+## Кто ссылается на этот документ (18)
 - 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [137-table-of-contents](137-table-of-contents.md)

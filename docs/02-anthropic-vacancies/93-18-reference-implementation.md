@@ -5,10 +5,13 @@
 
 - [18. Reference Implementation](#18-reference-implementation)
   - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (19)](#кто-ссылается-на-этот-документ-19)
 
 
 > [!NOTE]
@@ -64,7 +67,7 @@ NPP-compatible, если они:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [25-13-reference-implementation](25-13-reference-implementation.md) (сходство 0.36)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.13)
 - [89-14-sdk-contract-informative](89-14-sdk-contract-informative.md) (сходство 0.12)
@@ -74,7 +77,7 @@ NPP-compatible, если они:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [42-author-contact](42-author-contact.md)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
@@ -129,7 +132,7 @@ NPP-compatible, если они:
 
 ---
 
-**Кто ссылается на этот документ (19):**
+## Кто ссылается на этот документ (19)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)

@@ -119,7 +119,7 @@ _Radar обновляется вручную при существенных и�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ONBOARDING](ONBOARDING.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 - [FOOTNOTES](FOOTNOTES.md)

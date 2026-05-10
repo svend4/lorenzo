@@ -9,6 +9,7 @@
   - [15.3. MCP Exposure](#153-mcp-exposure)
   - [15.4. Rate Limiting](#154-rate-limiting)
   - [15.5. Supply Chain](#155-supply-chain)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -89,7 +90,7 @@ supply-chain риск.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md)
 - [11-security-considerations](../npp-v1-0/11-security-considerations.md)
 - [23-11-security-considerations](../../02-anthropic-vacancies/23-11-security-considerations.md)

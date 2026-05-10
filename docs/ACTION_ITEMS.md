@@ -1708,7 +1708,7 @@ _(153 дублей скрыто)_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPTS](CONCEPTS.md)
 - [READABILITY](READABILITY.md)
 - [TABLES](TABLES.md)

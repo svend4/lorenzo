@@ -1,5 +1,11 @@
 # Три наложенные идентичности
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [15-public-benefit](../../clusters/15-public-benefit.md)
 - [02-final-ranking](../03-integral-final/02-final-ranking.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)

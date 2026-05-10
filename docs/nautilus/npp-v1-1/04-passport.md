@@ -9,6 +9,7 @@
   - [4.3. Recommended Sections](#43-recommended-sections)
   - [4.4. Schema Validation](#44-schema-validation)
   - [4.5. Naming Convention](#45-naming-convention)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -91,7 +92,7 @@ Portal SHOULD предоставлять команду валидации:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [79-4-passport-passport-md](../../02-anthropic-vacancies/79-4-passport-passport-md.md)
 - [09-4-passport-passport-md](../../02-anthropic-vacancies/09-4-passport-passport-md.md)
 - [03-registry](03-registry.md)

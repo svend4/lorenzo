@@ -133,7 +133,7 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [176-7-governance-and-oversight](176-7-governance-and-oversight.md) (сходство 0.15)
 - [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.13)
@@ -143,7 +143,7 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [176-7-governance-and-oversight](176-7-governance-and-oversight.md)
 - [174-5-architectural-specification](174-5-architectural-specification.md)
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
@@ -154,7 +154,7 @@ tech-sophisticated principals fails its core mission.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [144-7-open-questions](144-7-open-questions.md)
 - [146-acknowledgments](146-acknowledgments.md)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)

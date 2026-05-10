@@ -1,5 +1,12 @@
 # Комбинация 5: SourceCraft CLI × Claude Code × Sequential протокол Дочкиной
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -60,7 +67,7 @@ Skills сохраняются в корпоративный граф знани�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
@@ -71,7 +78,7 @@ Skills сохраняются в корпоративный граф знани�
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)

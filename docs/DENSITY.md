@@ -98,7 +98,7 @@ _Все темы достаточно раскрыты_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [HEATMAP](HEATMAP.md)
 - [SCHEDULE](SCHEDULE.md)
 - [ONBOARDING](ONBOARDING.md)

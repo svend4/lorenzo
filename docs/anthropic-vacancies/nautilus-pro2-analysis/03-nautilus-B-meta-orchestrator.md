@@ -1,5 +1,11 @@
 # Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -132,7 +138,7 @@ Du hast gesagt: https://github.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [DECISIONS](../../DECISIONS.md)
 - 02-[nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
 - [02-общий-план-развития-nautilus-portal-protocol](../../02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)

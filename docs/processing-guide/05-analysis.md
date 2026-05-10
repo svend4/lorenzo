@@ -293,7 +293,7 @@ python scripts/improve_version_diff.py --last 10
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -303,7 +303,7 @@ python scripts/improve_version_diff.py --last 10
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [06-search](06-search.md)
 - [10-future](10-future.md)

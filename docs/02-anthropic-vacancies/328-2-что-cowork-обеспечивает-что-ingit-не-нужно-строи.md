@@ -192,7 +192,7 @@ Cowork работает на macOS и Windows (Linux,
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [332-6-уточнённый-объём-[ingit](306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.15)
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.12)
 - [329-3-что-[ingit](306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.12)
@@ -202,7 +202,7 @@ Cowork работает на macOS и Windows (Linux,
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [332-6-уточнённый-объём-[ingit](306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](327-1-открытие-cowork-и-почему-это-меняет-всё.md)
 - [329-3-что-[ingit](306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
@@ -213,7 +213,7 @@ Cowork работает на macOS и Windows (Linux,
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [326-содержание](326-содержание.md)
 - 329-3-что-[ingit-обеспечивает-чего-cowork-не-хватает](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 - [README](README.md)

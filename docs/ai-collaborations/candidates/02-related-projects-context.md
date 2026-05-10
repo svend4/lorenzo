@@ -1,5 +1,11 @@
 # Смежные проекты в контексте
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
 - [01-three-key-candidates](01-three-key-candidates.md)
 - [03-synthesis-hebbian-collaboration-graph](03-synthesis-hebbian-collaboration-graph.md)

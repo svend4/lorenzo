@@ -38,7 +38,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [253-table-of-contents](253-table-of-contents.md) (сходство 0.26)
 - [169-table-of-contents](169-table-of-contents.md) (сходство 0.23)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.18)
@@ -48,7 +48,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [253-table-of-contents](253-table-of-contents.md)
 - [169-table-of-contents](169-table-of-contents.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
@@ -112,7 +112,7 @@
 
 ---
 
-**Кто ссылается на этот документ (20):**
+## Кто ссылается на этот документ (20)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [169-table-of-contents](169-table-of-contents.md)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)

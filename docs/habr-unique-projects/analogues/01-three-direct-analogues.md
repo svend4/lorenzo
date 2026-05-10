@@ -1,5 +1,12 @@
 # Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -50,7 +57,7 @@ https://habr.com/ru/articles/1014366/
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
 - [wikontic](../../05-habr-projects/knowledge/wikontic.md)
 - [02-related-projects](02-related-projects.md)
@@ -61,7 +68,7 @@ https://habr.com/ru/articles/1014366/
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

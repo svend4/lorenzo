@@ -1,5 +1,11 @@
 # Комбинация 16: Adversarial Multi-Agent Code Review
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -73,7 +79,7 @@ ROI: Automated review → manual approval only for edge cases
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
 - [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)

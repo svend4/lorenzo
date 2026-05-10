@@ -1,5 +1,11 @@
 # Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Auto AI Router как sidecar — крутится рядом с Open WebUI, б�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
 - [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)

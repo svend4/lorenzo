@@ -1,5 +1,11 @@
 # Финальное ранжирование Anthropic-ролей по частичному покрытию
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -46,7 +52,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
 - 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)

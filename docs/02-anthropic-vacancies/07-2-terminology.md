@@ -4,6 +4,9 @@
 ## Contents
 
 - [2. Terminology](#2-terminology)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 > [!NOTE]
@@ -82,7 +85,7 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [77-2-terminology](77-2-terminology.md) (сходство 0.63)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.16)
 - [67-о-проекте](67-о-проекте.md) (сходство 0.16)
@@ -92,7 +95,7 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [77-2-terminology](77-2-terminology.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [67-о-проекте](67-о-проекте.md)
@@ -103,7 +106,7 @@ human-readable описание: что хранит, какая философ�
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [51-compatibility-level](51-compatibility-level.md)
 - [61-compatibility-level](61-compatibility-level.md)
 - [67-о-проекте](67-о-проекте.md)

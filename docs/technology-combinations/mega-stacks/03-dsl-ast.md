@@ -4,6 +4,8 @@
 ## Contents
 
 - [New capabilities](#new-capabilities)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -64,7 +66,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 - [04-event-sourcing-consensus](04-event-sourcing-consensus.md)
 - [02-ultimate-legal-ai](02-ultimate-legal-ai.md)
@@ -75,7 +77,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [reading-paths](../../reading-paths.md)
 - [README](README.md)

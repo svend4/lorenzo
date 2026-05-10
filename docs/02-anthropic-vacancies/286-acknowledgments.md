@@ -4,10 +4,13 @@
 ## Contents
 
 - [Acknowledgments](#acknowledgments)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (17)](#кто-ссылается-на-этот-документ-17)
 
 
 > [!NOTE]
@@ -57,7 +60,7 @@ contributed structure and reference work.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.20)
 - [275-why-this-document-exists](275-why-this-document-exists.md) (сходство 0.16)
 - [319-acknowledgments](319-acknowledgments.md) (сходство 0.16)
@@ -67,7 +70,7 @@ contributed structure and reference work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [319-acknowledgments](319-acknowledgments.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
@@ -119,7 +122,7 @@ contributed structure and reference work.
 
 ---
 
-**Кто ссылается на этот документ (17):**
+## Кто ссылается на этот документ (17)
 - [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)

@@ -168,7 +168,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.18)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.17)
 - [144-7-open-questions](144-7-open-questions.md) (сходство 0.15)
@@ -178,7 +178,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [138-1-why-single-triangle-models-are-incomplete](138-1-why-single-triangle-models-are-incomplete.md)
 - [136-abstract](136-abstract.md)
@@ -224,7 +224,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [136-abstract](136-abstract.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)

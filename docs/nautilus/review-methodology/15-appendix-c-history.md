@@ -5,6 +5,7 @@
 
 - [Appendix C: История изменений методологии](#appendix-c-история-изменений-методологии)
   - [v1.0 (2026-04)](#v10-2026-04)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -42,7 +43,7 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)

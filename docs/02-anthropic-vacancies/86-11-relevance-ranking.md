@@ -6,6 +6,9 @@
 - [11. Relevance Ranking](#11-relevance-ranking)
   - [11.1. Scoring Formula](#111-scoring-formula)
   - [11.2. MAY Extensions](#112-may-extensions)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!NOTE]
@@ -74,7 +77,7 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [84-9-consensus-algorithm](84-9-consensus-algorithm.md) (сходство 0.12)
 - [20-8-consensus-algorithm](20-8-consensus-algorithm.md) (сходство 0.10)
 
@@ -83,7 +86,7 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [84-9-consensus-algorithm](84-9-consensus-algorithm.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
@@ -94,7 +97,7 @@ embeddings) могут использоваться, но MUST быть опци
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [21-9-query-flow](21-9-query-flow.md)

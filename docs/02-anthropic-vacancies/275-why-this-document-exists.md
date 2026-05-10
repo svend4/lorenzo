@@ -79,7 +79,7 @@ This document explores that observation.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.18)
 - [286-acknowledgments](286-acknowledgments.md) (сходство 0.16)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
@@ -89,7 +89,7 @@ This document explores that observation.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [286-acknowledgments](286-acknowledgments.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
@@ -137,7 +137,7 @@ This document explores that observation.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [267-acknowledgments](267-acknowledgments.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)

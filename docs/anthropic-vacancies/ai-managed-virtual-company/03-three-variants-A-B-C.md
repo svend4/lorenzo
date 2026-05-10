@@ -1,5 +1,11 @@
 # Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -56,7 +62,7 @@ Anthropic, кстати, частично уже внутри этой эвол�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - [07-current-implementations](07-current-implementations.md)
 - [01-existing-landscape](01-existing-landscape.md)

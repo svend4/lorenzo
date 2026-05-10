@@ -158,7 +158,7 @@ exist.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.18)
 - [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.17)
 - [164-10-appendices](164-10-appendices.md) (сходство 0.15)
@@ -168,7 +168,7 @@ exist.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [164-10-appendices](164-10-appendices.md)
@@ -215,7 +215,7 @@ exist.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [136-abstract](136-abstract.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)

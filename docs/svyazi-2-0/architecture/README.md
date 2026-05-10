@@ -5,6 +5,7 @@
 ## Содержание
 
 - [card-envelope.md](card-envelope.md) — <!-- summary -->
+<!-- tags: svyazi, architecture, knowledge-os, rag -->
 - [evidence-envelope.md](evidence-envelope.md) — <!-- summary -->
 - [gaps.md](gaps.md) — > [!TIP]
 - [integration-spec.md](integration-spec.md) — > [!TIP]

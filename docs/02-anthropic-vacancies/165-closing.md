@@ -547,7 +547,7 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.18)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md) (сходство 0.18)
 - [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.18)
@@ -557,7 +557,7 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPTS](../CONCEPTS.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
@@ -592,7 +592,7 @@ Story тверже становится. «Infrastructure для distributed wor
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md)
 - [133-обратная-связь](133-обратная-связь.md)
 - [150-appendix-c-version-history](150-appendix-c-version-history.md)

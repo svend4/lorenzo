@@ -102,7 +102,7 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [07-2-terminology](07-2-terminology.md) (сходство 0.63)
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
@@ -112,7 +112,7 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-2-terminology](07-2-terminology.md)
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
@@ -123,7 +123,7 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
 - 124-конфигурация-для-[claude-desktop](124-конфигурация-для-claude-desktop.md)
 - [67-о-проекте](67-о-проекте.md)

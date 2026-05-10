@@ -1,5 +1,12 @@
 # Комбинация 15: Self-Consolidating Legal Corpus
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -68,7 +75,7 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 - 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
@@ -79,7 +86,7 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)

@@ -1,5 +1,11 @@
 # Tertiary match — Research Engineer, Agents / Virtual Collaborator (Cowork)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -28,7 +34,7 @@ Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-practical-ranking](08-practical-ranking.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)

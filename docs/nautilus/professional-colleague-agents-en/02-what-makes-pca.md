@@ -163,7 +163,7 @@ to discuss work with."
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
 - [01-five-type-typology](01-five-type-typology.md)
 - [09-relationship-other-agents](09-relationship-other-agents.md)

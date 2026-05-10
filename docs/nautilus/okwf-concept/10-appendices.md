@@ -141,7 +141,7 @@ These questions await substantive input from partners:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [164-10-appendices](../../02-anthropic-vacancies/164-10-appendices.md)
 - [04-proposed-infrastructure](04-proposed-infrastructure.md)
 - [09-call-for-partnership](09-call-for-partnership.md)

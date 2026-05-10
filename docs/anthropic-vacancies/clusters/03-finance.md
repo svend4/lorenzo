@@ -1,5 +1,11 @@
 # Finance — 36 ролей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [09-product-management-support-ops](09-product-management-support-ops.md)
 - [13-communications](13-communications.md)
 - [14-public-policy](14-public-policy.md)

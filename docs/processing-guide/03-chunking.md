@@ -205,7 +205,7 @@ for chunk in chunks:
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -215,7 +215,7 @@ for chunk in chunks:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-extraction](02-extraction.md)
 - [07-llm](07-llm.md)
 - [09-automation](09-automation.md)

@@ -1,5 +1,11 @@
 # Вопрос: MMORPG-RPG переделанная для программистов / технарей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -52,7 +58,7 @@ Claude hat geantwortet: Переписанная версия вашего во�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 - [00-question-rephrasing](../ai-managed-virtual-company/00-question-rephrasing.md)
 - [03-why-natural-for-programmers](03-why-natural-for-programmers.md)

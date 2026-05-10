@@ -129,7 +129,7 @@ support to skilled professions.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [254-1-why-the-binary-view-is-incomplete](../../02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
 - [252-abstract](../../02-anthropic-vacancies/252-abstract.md)
 - [13-closing](13-closing.md)

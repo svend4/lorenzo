@@ -1,5 +1,11 @@
 # Ансамбль 4 — Web-to-Knowledge Pipeline
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -53,7 +59,7 @@ Court/Regulation Watcher — отслеживание судебных сайт�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
 - [9-ambient-team-agent](9-ambient-team-agent.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)

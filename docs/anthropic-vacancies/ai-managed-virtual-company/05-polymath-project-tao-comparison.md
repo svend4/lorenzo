@@ -1,5 +1,11 @@
 # Сравнение с Terence Tao, Polymath Project
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -80,7 +86,7 @@ Claude hat geantwortet: Переписанная версия вашего во�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 - [00-question-rephrasing](00-question-rephrasing.md)
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)

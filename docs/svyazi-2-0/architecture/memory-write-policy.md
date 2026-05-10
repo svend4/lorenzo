@@ -4,6 +4,8 @@
 ## Contents
 
 - [Минимальные поля](#минимальные-поля)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]
@@ -47,7 +49,7 @@ Yodoca уже мыслит память через consolidation + forgetting, N
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
 - [11-интеграционный-контракт-который-стоит-зафиксироват](../../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
 - [card-envelope](card-envelope.md)
@@ -58,7 +60,7 @@ Yodoca уже мыслит память через consolidation + forgetting, N
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

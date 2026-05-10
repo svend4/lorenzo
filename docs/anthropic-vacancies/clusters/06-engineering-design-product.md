@@ -1,5 +1,11 @@
 # Engineering & Design - Product — 22 роли
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [09-product-management-support-ops](09-product-management-support-ops.md)
 - [16-people](16-people.md)

@@ -48,7 +48,7 @@ if "--section" in sys.argv:
         SECTION_FILTER = DOCS / sys.argv[idx + 1]
 
 SKIP_FILES = {
-    "README.md", "OUTLINE.md", "COMPARE.md",
+    "README.md", "OUTLINE.md",
     "TOPIC_MODEL.md", "SPELLCHECK.md", "CONTENT_GAPS.md",
     "DUPLICATE_ACROSS.md", "EXTERNAL_COMPARE.md",
 }

@@ -1,5 +1,11 @@
 # Глоссарий проектов
 
+<!-- toc-auto -->
+## Contents
+
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+- [Смотрите также](#смотрите-также)
+
 
 <!-- tags: meta, glossary, index -->
 
@@ -56,7 +62,7 @@
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [03-local-first](03-technology-combinations/03-local-first.md)
 - [INDEX](INDEX.md)
 - [README](README.md)
@@ -67,7 +73,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [MINDMAP](MINDMAP.md)
 - [GRAPH](GRAPH.md)
 - [NETWORK](NETWORK.md)

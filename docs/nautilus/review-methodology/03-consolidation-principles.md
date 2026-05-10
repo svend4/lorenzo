@@ -119,7 +119,7 @@ target interface и native-форматами как adaptees»
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [109-3-принципы-консолидации-фаза-c](../../02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
 - [71-критерии-выбора-для-фазы-3](../../02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
 - [04-fallback-ratio-question](04-fallback-ratio-question.md)

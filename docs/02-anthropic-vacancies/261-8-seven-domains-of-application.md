@@ -203,7 +203,7 @@ within 5-10 years.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md) (сходство 0.17)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md) (сходство 0.14)
 - [218-7-application-domains](218-7-application-domains.md) (сходство 0.14)
@@ -213,7 +213,7 @@ within 5-10 years.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
 - [218-7-application-domains](218-7-application-domains.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
@@ -250,7 +250,7 @@ within 5-10 years.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [218-7-application-domains](218-7-application-domains.md)
 - [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)

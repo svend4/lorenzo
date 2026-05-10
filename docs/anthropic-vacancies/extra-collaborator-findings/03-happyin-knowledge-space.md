@@ -1,5 +1,11 @@
 # Happyin Knowledge Space (Анастасия) — детали
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +65,7 @@ MIT license — open для использования и адаптации
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
 - [06-final-tier-ranking](06-final-tier-ranking.md)
 - [01-coally](01-coally.md)

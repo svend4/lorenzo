@@ -151,7 +151,7 @@ Layer.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [02-historical-precedents](02-historical-precedents.md)
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)

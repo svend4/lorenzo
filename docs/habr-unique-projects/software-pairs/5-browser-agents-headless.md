@@ -1,5 +1,11 @@
 # Пара 5 — Browser agents × headless web extraction
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -55,7 +61,7 @@ Self-aware agent с пониманием контекста — self-aware MCP-�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 - [1-workflow-llm-mcp](1-workflow-llm-mcp.md)
 - [3-crdt-self-hosted](3-crdt-self-hosted.md)

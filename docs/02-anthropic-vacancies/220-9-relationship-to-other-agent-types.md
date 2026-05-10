@@ -150,7 +150,7 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.18)
 - [210-abstract](210-abstract.md) (сходство 0.17)
 - [223-12-closing](223-12-closing.md) (сходство 0.17)
@@ -160,7 +160,7 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [210-abstract](210-abstract.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
 - [223-12-closing](223-12-closing.md)
@@ -212,7 +212,7 @@ confusion. Distinguishing them enables clear architecture.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [210-abstract](210-abstract.md)
 - [211-table-of-contents](211-table-of-contents.md)

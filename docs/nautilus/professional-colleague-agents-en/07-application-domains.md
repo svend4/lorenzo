@@ -199,7 +199,7 @@ application drafting.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [218-7-application-domains](../../02-anthropic-vacancies/218-7-application-domains.md)
 - [08-seven-domains](../composite-skills-agents/08-seven-domains.md)
 - [04-ten-domains](../representative-agent-layer-en/04-ten-domains.md)

@@ -1,5 +1,12 @@
 # Комбинация 14: local-first Agent Development Environment
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -125,7 +132,7 @@ Charted eight research directions for discovering additional project synergies
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
@@ -136,7 +143,7 @@ Charted eight research directions for discovering additional project synergies
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)

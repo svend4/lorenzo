@@ -156,7 +156,7 @@ Cowork в настоящее время дорог в использовании
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [335-9-риски-и-открытые-вопросы](../../02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
 - [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
 - [06-konkretnyy-sluchay](../infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)

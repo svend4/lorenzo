@@ -4,6 +4,7 @@
 ## Contents
 
 - [What's Missing — Layer B](#whats-missing-layer-b)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -87,7 +88,7 @@ product.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [277-what-s-missing-layer-b](../../02-anthropic-vacancies/277-what-s-missing-layer-b.md)
 - [06-existing-approximations](06-existing-approximations.md)
 - [07-specific-case](07-specific-case.md)

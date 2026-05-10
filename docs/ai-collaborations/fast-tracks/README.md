@@ -50,7 +50,7 @@ ChatGPT сказал:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
 - [3-forensic-rag](../ensembles/3-forensic-rag.md)
 - [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)

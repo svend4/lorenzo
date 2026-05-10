@@ -153,7 +153,7 @@ modifies their configuration over time.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [258-5-configuration-how-principals-build-their-ensembl](../../02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
 - [07-economics-combinatorial](07-economics-combinatorial.md)
 - [03-what-makes-csa](03-what-makes-csa.md)

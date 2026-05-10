@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -496,7 +502,7 @@ Personal manifesto — dignified contribution infrastructure for qualified indiv
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
 - [01-three-related-themes](../supply-demand/01-three-related-themes.md)
 - [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)

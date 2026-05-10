@@ -160,7 +160,7 @@ that touches the world beyond the personal context.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md) (сходство 0.20)
 - [175-6-ethical-framework](175-6-ethical-framework.md) (сходство 0.14)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.14)
@@ -170,7 +170,7 @@ that touches the world beyond the personal context.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
 - [175-6-ethical-framework](175-6-ethical-framework.md)
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
@@ -222,7 +222,7 @@ that touches the world beyond the personal context.
 
 ---
 
-**Кто ссылается на этот документ (10):**
+## Кто ссылается на этот документ (10)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [144-7-open-questions](144-7-open-questions.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

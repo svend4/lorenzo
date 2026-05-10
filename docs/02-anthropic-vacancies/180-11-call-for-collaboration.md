@@ -11,6 +11,9 @@
   - [11.5. For Policymakers](#115-for-policymakers)
   - [11.6. For Potential Principals](#116-for-potential-principals)
   - [11.7. For Critics](#117-for-critics)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]
@@ -104,7 +107,7 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.16)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.14)
 - [223-12-closing](223-12-closing.md) (сходство 0.13)
@@ -114,7 +117,7 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
 - [223-12-closing](223-12-closing.md)
@@ -125,7 +128,7 @@ prefer honest critics to unreserved enthusiasts.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [168-abstract](168-abstract.md)
 - [223-12-closing](223-12-closing.md)

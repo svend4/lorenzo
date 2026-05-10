@@ -265,7 +265,7 @@ Skills в `.claude/skills/` — это инструкции для Claude **ко
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -275,7 +275,7 @@ Skills в `.claude/skills/` — это инструкции для Claude **ко
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-export](08-export.md)
 - [10-future](10-future.md)
 - [WORD_FREQ](../WORD_FREQ.md)

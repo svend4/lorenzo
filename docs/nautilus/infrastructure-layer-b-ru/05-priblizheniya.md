@@ -9,6 +9,7 @@
   - [Notion / Obsidian / Roam](#notion-obsidian-roam)
   - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
   - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -135,7 +136,7 @@ AI-сотрудничества над общей работой**.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [294-существующие-приближения](../../02-anthropic-vacancies/294-существующие-приближения.md)
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 - [08-promyshlennost-postroit](08-promyshlennost-postroit.md)

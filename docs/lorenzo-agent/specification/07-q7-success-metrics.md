@@ -1,5 +1,11 @@
 # Question 7: Каковы success metrics?
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -74,7 +80,7 @@ Anti-metrics (что НЕ optimize for):
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-q5-authority-limits](05-q5-authority-limits.md)
 - 03-q3-what-[lorenzo-does](03-q3-what-lorenzo-does.md)
 - [06-q6-accountability](06-q6-accountability.md)

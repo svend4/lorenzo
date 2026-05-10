@@ -4,6 +4,9 @@
 ## Contents
 
 - [Топ-20 слов](#топ-20-слов)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 > [!NOTE]
@@ -58,7 +61,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.30)
 - [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
 - [304-ingit-as-cowork-native-workspace-substrate-md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
@@ -68,7 +71,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 - [65-readme-md](02-anthropic-vacancies/65-readme-md.md)
@@ -79,7 +82,7 @@
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [304-ingit-as-cowork-native-workspace-substrate-md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [INDEX](INDEX.md)

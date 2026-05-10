@@ -1,5 +1,11 @@
 # Метафора «двое родителей — несколько детей»
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - [6-metaphor](../software-pairs/6-metaphor.md)
 - 06-[svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)

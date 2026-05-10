@@ -6,10 +6,13 @@
 - [Appendix B: Change Log](#appendix-b-change-log)
   - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
   - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!NOTE]
@@ -55,7 +58,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md) (сходство 0.13)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.11)
 - [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.10)
@@ -65,7 +68,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
@@ -111,7 +114,7 @@
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [128-доступные-инструменты](128-доступные-инструменты.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)

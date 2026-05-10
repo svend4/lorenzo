@@ -1,5 +1,11 @@
 # Что взять: agent controller architecture
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -302,7 +308,7 @@ LAYER 6: Outreach engine
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-dhlab-umbrella](03-dhlab-umbrella.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [04-proposed-infrastructure](../../nautilus/okwf-concept/04-proposed-infrastructure.md)

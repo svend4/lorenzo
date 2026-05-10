@@ -1,5 +1,11 @@
 # Что я бы посоветовал делать прямо сейчас
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -60,7 +66,7 @@ Option C: Help write specific document или code prototype prepared для CAM
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 - [01-passive-vs-active-roles](01-passive-vs-active-roles.md)

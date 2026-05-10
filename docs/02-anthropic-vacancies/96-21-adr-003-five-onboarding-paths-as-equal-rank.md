@@ -4,6 +4,9 @@
 ## Contents
 
 - [21. ADR-003: Five Onboarding Paths as Equal-Rank](#21-adr-003-five-onboarding-paths-as-equal-rank)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
 
 
 > [!NOTE]
@@ -55,7 +58,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md) (сходство 0.11)
 
 
@@ -63,7 +66,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
@@ -74,7 +77,7 @@
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)

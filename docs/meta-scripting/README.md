@@ -5,6 +5,7 @@
 ## Содержание
 
 - [01-concept.md](01-concept.md) — <!-- summary -->
+<!-- tags: scripting, automation, workflow, tooling -->
 - [02-architecture.md](02-architecture.md) — > [!WARNING]
 - [03-catalog.md](03-catalog.md) — <!-- summary -->
 - [04-enrichment.md](04-enrichment.md) — <!-- summary -->

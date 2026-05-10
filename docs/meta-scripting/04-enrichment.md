@@ -196,7 +196,7 @@ if __name__ == "__main__":
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-catalog](03-catalog.md)
 - [02-architecture](02-architecture.md)
 - [05-synthesis](05-synthesis.md)

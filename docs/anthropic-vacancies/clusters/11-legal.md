@@ -1,5 +1,11 @@
 # Legal — 13 ролей
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -26,7 +32,7 @@ Commercial Counsel по поднаправлениям (Colocation & Networks, D
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [12-technical-program-management](12-technical-program-management.md)
 - [09-product-management-support-ops](09-product-management-support-ops.md)

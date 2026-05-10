@@ -138,7 +138,7 @@ Double-Triangle deployments.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.20)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.17)
 - [136-abstract](136-abstract.md) (сходство 0.17)
@@ -148,7 +148,7 @@ Double-Triangle deployments.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
 - [136-abstract](136-abstract.md)
@@ -203,7 +203,7 @@ Double-Triangle deployments.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [136-abstract](136-abstract.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)

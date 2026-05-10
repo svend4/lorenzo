@@ -4,6 +4,7 @@
 ## Contents
 
 - [Что этот документ не решает](#что-этот-документ-не-решает)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -55,7 +56,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [298-что-этот-документ-не-решает](../../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
 - [12-appendix-a-header-warning](../review-methodology/12-appendix-a-header-warning.md)
 - [01-zachem-dokument](01-zachem-dokument.md)

@@ -4,6 +4,7 @@
 ## Contents
 
 - [13. Reference Implementation](#13-reference-implementation)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -44,7 +45,7 @@ Reference НЕ является нормативной. Альтернативн
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-13-reference-implementation](../../02-anthropic-vacancies/25-13-reference-implementation.md)
 - [17-appendix-b-change-log](17-appendix-b-change-log.md)
 - [18-reference-implementation](../npp-v1-1/18-reference-implementation.md)

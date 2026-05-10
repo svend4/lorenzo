@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-cinderella-syndrome.md](01-cinderella-syndrome.md) — <!-- summary -->
 - [02-historical-precedents.md](02-historical-precedents.md) — <!-- summary -->
 - [03-what-makes-representative-agent.md](03-what-makes-representative-agent.md) — <!-- summary -->

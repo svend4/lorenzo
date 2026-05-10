@@ -1,5 +1,11 @@
 # Ансамбль 6 — Continuous Eval Loop
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -57,7 +63,7 @@ Svyazi Self-Improver — карточки с низким качеством ext
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 - [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 - [1-agentic-knowledge-os](1-agentic-knowledge-os.md)

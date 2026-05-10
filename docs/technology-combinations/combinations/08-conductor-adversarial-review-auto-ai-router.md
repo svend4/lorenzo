@@ -1,5 +1,12 @@
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -135,7 +142,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
@@ -146,7 +153,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

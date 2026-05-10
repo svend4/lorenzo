@@ -229,7 +229,7 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [01-overview](01-overview.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [README](README.md)
@@ -239,7 +239,7 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 - [07-llm](07-llm.md)
 - [research-summary](../autofilled/research-summary.md)

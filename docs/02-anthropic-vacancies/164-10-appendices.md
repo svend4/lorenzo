@@ -180,7 +180,7 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.17)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
 - [162-8-risk-analysis](162-8-risk-analysis.md) (сходство 0.16)
@@ -190,7 +190,7 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [162-8-risk-analysis](162-8-risk-analysis.md)
@@ -240,7 +240,7 @@ shared, cited, refined by anyone with attribution.
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

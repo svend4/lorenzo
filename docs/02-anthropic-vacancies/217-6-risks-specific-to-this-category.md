@@ -251,7 +251,7 @@ emerge.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md) (сходство 0.15)
 - [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.14)
@@ -261,7 +261,7 @@ emerge.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
@@ -305,7 +305,7 @@ emerge.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
 - [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)

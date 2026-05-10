@@ -1,5 +1,11 @@
 # Пассивный vs активный: разделение ролей (библиотека vs research team)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@ CAMEL — это active execution framework. Когда вы создаёте Ch
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-camel-vs-nautilus](00-question-camel-vs-nautilus.md)
 - [08-difference-3-federation-missing](../hermes-comparison/08-difference-3-federation-missing.md)
 - [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)

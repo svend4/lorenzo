@@ -1,5 +1,11 @@
 # Различие 1: Структурированная подложка отсутствует
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +46,7 @@ InGit specifically provides структуру (00_inbox через 90_exports, 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-difference-3-federation-missing](08-difference-3-federation-missing.md)
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)

@@ -154,7 +154,7 @@ scripts/
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-architecture](02-architecture.md)
 - [01-concept](01-concept.md)
 - [METHODOLOGY](../METHODOLOGY.md)

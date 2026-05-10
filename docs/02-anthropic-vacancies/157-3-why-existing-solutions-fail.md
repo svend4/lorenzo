@@ -184,7 +184,7 @@ is this integration.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [156-2-target-populations](156-2-target-populations.md) (сходство 0.16)
 - [153-executive-summary](153-executive-summary.md) (сходство 0.15)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.13)
@@ -194,7 +194,7 @@ is this integration.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [156-2-target-populations](156-2-target-populations.md)
 - [153-executive-summary](153-executive-summary.md)
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
@@ -230,7 +230,7 @@ is this integration.
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [153-executive-summary](153-executive-summary.md)
 - [154-table-of-contents](154-table-of-contents.md)
 - [155-1-problem-statement](155-1-problem-statement.md)

@@ -156,7 +156,7 @@ Cowork не имеет.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [327-1-открытие-cowork-и-почему-это-меняет-всё](../../02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
 - [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
 - [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)

@@ -836,7 +836,7 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.21)
 - [00-intro](../04-ai-collaborations/00-intro.md) (сходство 0.19)
 - [00-intro](../04-ai-collaborations/00-intro.md) (сходство 0.16)
@@ -846,7 +846,7 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPTS](../CONCEPTS.md)
 - [00-intro](../04-ai-collaborations/00-intro.md)
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
@@ -881,7 +881,7 @@ https://raw.githubusercontent.com/svend4/nautilus/main/passports/info1.md
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [00-intro](00-intro.md)
 - [165-closing](165-closing.md)
 - [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)

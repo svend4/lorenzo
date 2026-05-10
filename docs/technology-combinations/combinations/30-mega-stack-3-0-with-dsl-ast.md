@@ -1,5 +1,11 @@
 # Комбинация 30: MEGA-STACK 3.0 with DSL & AST
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -108,7 +114,7 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
 - [03-dsl-ast](../mega-stacks/03-dsl-ast.md)

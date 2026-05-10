@@ -4,6 +4,7 @@
 ## Contents
 
 - [Кто ты](#кто-ты)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -36,7 +37,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [345-кто-ты](../02-anthropic-vacancies/345-кто-ты.md)
 - [14-other-ai-relationships](14-other-ai-relationships.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)

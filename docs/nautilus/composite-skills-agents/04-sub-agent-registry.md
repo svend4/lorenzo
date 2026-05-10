@@ -161,7 +161,7 @@ across both journals and individual researchers.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [257-4-the-sub-agent-registry](../../02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
 - [09-okwf-integration](09-okwf-integration.md)
 - [07-economics-combinatorial](07-economics-combinatorial.md)

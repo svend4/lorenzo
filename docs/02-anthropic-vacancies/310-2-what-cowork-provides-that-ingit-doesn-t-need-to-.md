@@ -148,7 +148,7 @@ individual developer or small team.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.20)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.18)
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.17)
@@ -158,7 +158,7 @@ individual developer or small team.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 - [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
@@ -169,7 +169,7 @@ individual developer or small team.
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
 - [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
 - [307-abstract](307-abstract.md)

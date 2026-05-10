@@ -145,7 +145,7 @@ Foundation will not:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.14)
 - [164-10-appendices](164-10-appendices.md) (сходство 0.11)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.11)
@@ -155,7 +155,7 @@ Foundation will not:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
 - [164-10-appendices](164-10-appendices.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -166,7 +166,7 @@ Foundation will not:
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [164-10-appendices](164-10-appendices.md)
 - [README](README.md)

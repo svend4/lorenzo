@@ -7,6 +7,7 @@
   - [9.1. Lifecycle](#91-lifecycle)
   - [9.2. Parallelism](#92-parallelism)
   - [9.3. Error Handling](#93-error-handling)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -63,7 +64,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-query-flow](../npp-v1-1/10-query-flow.md)
 - [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)
 - [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)

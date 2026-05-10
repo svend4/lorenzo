@@ -1,5 +1,12 @@
 # Комбинация 22: Russian-International OSS Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -70,7 +77,7 @@ ROI: Performance + community support, no vendor lock-in
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
 - 27-hybrid-[rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)
@@ -81,7 +88,7 @@ ROI: Performance + community support, no vendor lock-in
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)

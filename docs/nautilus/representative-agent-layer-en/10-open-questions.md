@@ -9,6 +9,7 @@
   - [10.3. Legal Questions](#103-legal-questions)
   - [10.4. Social Questions](#104-social-questions)
   - [10.5. Philosophical Questions](#105-philosophical-questions)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -118,7 +119,7 @@ of whether ethical frameworks keep pace.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [179-10-open-questions](../../02-anthropic-vacancies/179-10-open-questions.md)
 - [08-risks-mitigations](08-risks-mitigations.md)
 - [11-open-questions](../composite-skills-agents/11-open-questions.md)

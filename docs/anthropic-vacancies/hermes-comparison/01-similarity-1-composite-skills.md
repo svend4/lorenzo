@@ -1,5 +1,11 @@
 # Сходство 1: Composite Skills паттерн уже встроен
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ Hermes имеет buit-in skills system с 118 навыками в v0.10.0. Ка
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)

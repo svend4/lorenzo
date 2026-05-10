@@ -233,7 +233,7 @@ Community governance operates:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 - 04-[nautilus-portal-substrate](../double-triangle-architecture/04-nautilus-portal-substrate.md)
 - [05-economic-model](05-economic-model.md)

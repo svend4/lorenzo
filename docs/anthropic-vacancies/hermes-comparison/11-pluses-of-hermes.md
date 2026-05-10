@@ -1,5 +1,11 @@
 # Плюсы Hermes (vs наша гипотетическая архитектура)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -42,7 +48,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)

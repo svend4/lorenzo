@@ -95,7 +95,7 @@ walking it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [210-abstract](210-abstract.md) (сходство 0.30)
 - [266-13-closing](266-13-closing.md) (сходство 0.21)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md) (сходство 0.17)
@@ -105,7 +105,7 @@ walking it.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [210-abstract](210-abstract.md)
 - [266-13-closing](266-13-closing.md)
 - [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
@@ -164,7 +164,7 @@ walking it.
 
 ---
 
-**Кто ссылается на этот документ (18):**
+## Кто ссылается на этот документ (18)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [168-abstract](168-abstract.md)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)

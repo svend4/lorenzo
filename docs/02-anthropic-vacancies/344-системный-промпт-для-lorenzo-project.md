@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.20)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.17)
 
@@ -85,7 +85,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
@@ -96,7 +96,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (16):**
+## Кто ссылается на этот документ (16)
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)

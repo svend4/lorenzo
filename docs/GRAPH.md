@@ -5,6 +5,7 @@
 
 - [Топ совместных упоминаний](#топ-совместных-упоминаний)
 - [DOT-формат (Graphviz)](#dot-формат-graphviz)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -662,7 +663,7 @@ digraph lorenzo {
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [NETWORK](NETWORK.md)
 - [MINDMAP](MINDMAP.md)
 - [GLOSSARY](GLOSSARY.md)

@@ -1,4 +1,8 @@
 # security
+<!-- summary -->
+> security
+
+<!-- tags: svyazi, architecture, knowledge-os, rag -->
 
 **Файлов:** 3
 

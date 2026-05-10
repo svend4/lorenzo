@@ -4,10 +4,13 @@
 ## Contents
 
 - [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 > [!NOTE]
@@ -46,7 +49,7 @@ reasoning.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.14)
 - [59-angle-perspective](59-angle-perspective.md) (сходство 0.12)
 - [13-angle-perspective](13-angle-perspective.md) (сходство 0.10)
@@ -56,7 +59,7 @@ reasoning.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [39-angle-perspective](39-angle-perspective.md)
 - [59-angle-perspective](59-angle-perspective.md)
 - [47-native-format](47-native-format.md)
@@ -103,7 +106,7 @@ reasoning.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [13-angle-perspective](13-angle-perspective.md)
 - [39-angle-perspective](39-angle-perspective.md)
 - [47-native-format](47-native-format.md)

@@ -1,5 +1,11 @@
 # Что НЕ подходит (честно)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +42,7 @@ Security Engineer уровня Offensive/Red Team — требует конкр�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-ai-research-engineering](../../clusters/01-ai-research-engineering.md)
 - [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)

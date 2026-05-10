@@ -10,6 +10,7 @@
   - [9.4. Phase 3 — High-Stakes Domain Deployment (Years 4-6)](#94-phase-3-high-stakes-domain-deployment-years-4-6)
   - [9.5. Phase 4 — Mature Infrastructure (Year 6+)](#95-phase-4-mature-infrastructure-year-6)
   - [9.6. Pace Considerations](#96-pace-considerations)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -134,7 +135,7 @@ durable, beneficial infrastructure than rapid scaling.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [178-9-phased-rollout-strategy](../../02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
 - [07-phased-rollout](../okwf-concept/07-phased-rollout.md)
 - [11-call-for-collaboration](11-call-for-collaboration.md)

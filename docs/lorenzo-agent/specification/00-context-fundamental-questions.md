@@ -1,5 +1,11 @@
 # Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@ Fundamental questions для Lorenzo
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [07-q7-success-metrics](07-q7-success-metrics.md)

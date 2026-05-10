@@ -1,5 +1,11 @@
 # People — 3 роли
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -22,7 +28,7 @@ Immigration Coordinator, People Operations Lead, Technical Recruiter. Мален
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-communications](13-communications.md)
 - [15-public-benefit](15-public-benefit.md)
 - [09-product-management-support-ops](09-product-management-support-ops.md)

@@ -11,6 +11,7 @@
   - [Related Architectures](#related-architectures)
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -82,7 +83,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [147-references](../../02-anthropic-vacancies/147-references.md)
 - [11-dhlab-documents](../../lorenzo-agent/11-dhlab-documents.md)
 - [09-acknowledgments](09-acknowledgments.md)

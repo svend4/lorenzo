@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твоя личность](#твоя-личность)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -57,7 +58,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md)
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - [19-persistent-character](19-persistent-character.md)

@@ -157,7 +157,7 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [159-5-economic-model](159-5-economic-model.md) (сходство 0.18)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.17)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.16)
@@ -167,7 +167,7 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [159-5-economic-model](159-5-economic-model.md)
 - [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -208,7 +208,7 @@ qualified individuals regardless of traditional constraints.
 
 ---
 
-**Кто ссылается на этот документ (5):**
+## Кто ссылается на этот документ (5)
 - [153-executive-summary](153-executive-summary.md)
 - [162-8-risk-analysis](162-8-risk-analysis.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)

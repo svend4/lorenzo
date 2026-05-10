@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -331,7 +337,7 @@ Advocate/evangelist (spreading the idea)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
 - [01-completing-loop](../transmission-box/01-completing-loop.md)
 - [01-response](../innovation-transitions/01-response.md)

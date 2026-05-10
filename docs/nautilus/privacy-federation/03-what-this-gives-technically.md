@@ -1,5 +1,11 @@
 # Что это даёт технически
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -186,7 +192,7 @@ Riskи и trade-offs, которые стоит осознавать
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
 - [02-two-tier-publication](02-two-tier-publication.md)

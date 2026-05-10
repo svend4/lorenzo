@@ -123,7 +123,7 @@ problem.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md) (сходство 0.19)
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.16)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
@@ -133,7 +133,7 @@ problem.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
@@ -144,7 +144,7 @@ problem.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)

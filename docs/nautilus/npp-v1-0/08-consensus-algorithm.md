@@ -9,6 +9,7 @@
   - [8.3. Consensus Categories](#83-consensus-categories)
   - [8.4. Coverage Ratio](#84-coverage-ratio)
   - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -87,7 +88,7 @@ coverage_ratio = len(full_consensus) / total_unique_concepts
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md)
 - [09-consensus-algorithm](../npp-v1-1/09-consensus-algorithm.md)
 - [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md)

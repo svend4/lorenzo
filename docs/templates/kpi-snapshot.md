@@ -65,7 +65,7 @@ _Сгенерировано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [KPI_HISTORY.md](../KPI_HISTORY.md)
 - [HEALTH.md](../HEALTH.md)
 - [retrospective](retrospective.md)

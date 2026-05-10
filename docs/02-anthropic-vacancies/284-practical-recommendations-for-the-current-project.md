@@ -90,7 +90,7 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.16)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md) (сходство 0.15)
 - [279-existing-approximations](279-existing-approximations.md) (сходство 0.14)
@@ -100,7 +100,7 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
 - [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - [285-closing](285-closing.md)
@@ -153,7 +153,7 @@ The friction will be lower than no infrastructure at all.
 
 ---
 
-**Кто ссылается на этот документ (12):**
+## Кто ссылается на этот документ (12)
 - [164-10-appendices](164-10-appendices.md)
 - [218-7-application-domains](218-7-application-domains.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)

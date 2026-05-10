@@ -1,4 +1,8 @@
 # transmission-box
+<!-- summary -->
+> transmission-box
+
+<!-- tags: nautilus, protocol, architecture, community -->
 
 **Файлов:** 2
 

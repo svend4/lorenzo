@@ -121,7 +121,7 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-2-terminology](07-2-terminology.md)
 - [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 - [77-2-terminology](77-2-terminology.md)
@@ -131,7 +131,7 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [07-2-terminology](07-2-terminology.md) (сходство 0.16)
 - [80-5-compatibility-levels](80-5-compatibility-levels.md) (сходство 0.16)
 - [77-2-terminology](77-2-terminology.md) (сходство 0.15)

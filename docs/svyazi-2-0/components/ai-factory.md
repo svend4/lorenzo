@@ -5,6 +5,8 @@
 
 - [Описание](#описание)
 - [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -48,7 +50,7 @@ Spec‑driven многоагентный development‑framework и автоно
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [rufler](rufler.md)
 - [yodoca](yodoca.md)
 - [memnet](memnet.md)
@@ -59,7 +61,7 @@ Spec‑driven многоагентный development‑framework и автоно
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

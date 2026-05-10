@@ -4,10 +4,13 @@
 ## Contents
 
 - [Angle / Perspective](#angle-perspective)
+- [Похожие документы](#похожие-документы)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
 
 
 > [!NOTE]
@@ -36,7 +39,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [39-angle-perspective](39-angle-perspective.md) (сходство 0.11)
 - [49-angle-perspective](49-angle-perspective.md) (сходство 0.10)
 
@@ -81,7 +84,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [12-content-overview](12-content-overview.md)
 - [31-content-overview](31-content-overview.md)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
@@ -92,7 +95,7 @@
 
 ---
 
-**Кто ссылается на этот документ (14):**
+## Кто ссылается на этот документ (14)
 - [12-content-overview](12-content-overview.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)

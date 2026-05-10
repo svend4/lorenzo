@@ -1,5 +1,11 @@
 # Сходство 2: Persistent memory — Layer B функциональность
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -30,7 +36,7 @@ Cowork также имеет persistent memory, но Hermes идёт дальш�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)

@@ -1,5 +1,12 @@
 # Комбинация 21: Legal Corpus Analytics at Scale
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -86,7 +93,7 @@ ROI: Data-driven legal strategy, precedent patterns visible
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [22-russian-international-oss-stack](22-russian-international-oss-stack.md)
@@ -97,7 +104,7 @@ ROI: Data-driven legal strategy, precedent patterns visible
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)

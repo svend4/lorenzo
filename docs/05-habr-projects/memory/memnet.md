@@ -335,7 +335,7 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [00-intro](../../04-ai-collaborations/00-intro.md) (сходство 0.67)
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.13)
 - [TABLES](../../TABLES.md) (сходство 0.13)
@@ -345,7 +345,7 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [Yodoca: консолидация и забывание](yodoca.md)
 - [NGT Memory: ассоциативный граф](ngt-memory.md)
 - agent-memory-[mcp + Memory OS](agent-memory-mcp.md)
@@ -379,7 +379,7 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [README](README.md)
 - [ACTION_ITEMS](../../ACTION_ITEMS.md)
 - [DECISIONS](../../DECISIONS.md)

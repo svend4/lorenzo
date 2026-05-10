@@ -62,7 +62,7 @@ Passport SHOULD содержать следующие разделы:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [79-4-passport-passport-md](79-4-passport-passport-md.md) (сходство 0.24)
 - [08-3-registry-nautilus-json](08-3-registry-nautilus-json.md) (сходство 0.10)
 
@@ -71,7 +71,7 @@ Passport SHOULD содержать следующие разделы:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [79-4-passport-passport-md](79-4-passport-passport-md.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
@@ -122,7 +122,7 @@ Passport SHOULD содержать следующие разделы:
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [04-abstract](04-abstract.md)
 - [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)

@@ -1,5 +1,11 @@
 # Уровень 2 — Базовый (Lorenzo Lite)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -70,7 +76,7 @@ Outreach всё ещё manual (Макс как Lorenzo)
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-level-0-manual](01-level-0-manual.md)
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - [06-level-5-full-network](06-level-5-full-network.md)

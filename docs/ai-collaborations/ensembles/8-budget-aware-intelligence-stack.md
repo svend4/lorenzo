@@ -1,5 +1,11 @@
 # Ансамбль 8 — Budget-Aware Intelligence Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -53,7 +59,7 @@ Research Compression Engine — 10M токенов литературы сжим
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [02-agentops-trace-envelope](../continuation/02-agentops-trace-envelope.md)
 - [6-continuous-eval-loop](6-continuous-eval-loop.md)
 - [5-agent-firewall](5-agent-firewall.md)

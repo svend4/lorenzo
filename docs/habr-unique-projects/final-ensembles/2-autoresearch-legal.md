@@ -1,5 +1,12 @@
 # Ансамбль 2 — «AutoResearch для legal precedent mining»
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -39,7 +46,7 @@ Stability Engine блокирует ложные обобщения («конк�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [3-discovery-research](3-discovery-research.md)
 - [1-one-person-one-company](1-one-person-one-company.md)
 - [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
@@ -50,7 +57,7 @@ Stability Engine блокирует ложные обобщения («конк�
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

@@ -208,7 +208,7 @@ _Сгенерировано: 2026-05-10 17:37  |  Алгоритм: TF-IDF + BM2
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [yodoca](svyazi-2-0/components/yodoca.md)
 - [wikontic](05-habr-projects/knowledge/wikontic.md)
 - [NETWORK](NETWORK.md)

@@ -1,5 +1,11 @@
 # Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -105,7 +111,7 @@ Lorenzo's role: facilitate connection между Анастасией и дру�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-recommendations](04-recommendations.md)
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [00-overview-grandchild-combination](00-overview-grandchild-combination.md)

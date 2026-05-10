@@ -1,5 +1,12 @@
 # Виктория Дочкина — Sequential‑протокол распределённых агентов
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +44,7 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
 - 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
 - [02-memnet](02-memnet.md)
@@ -48,7 +55,7 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)

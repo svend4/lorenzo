@@ -1,5 +1,11 @@
 # Синтез: блок-карта Svyazi 2.0 на хеббовском графе
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -43,7 +49,7 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
 - [7-metaphor](../hardware-pairs/7-metaphor.md)
 - [4-summary-authors](../final-ensembles/4-summary-authors.md)

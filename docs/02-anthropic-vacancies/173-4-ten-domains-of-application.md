@@ -360,7 +360,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md) (сходство 0.16)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.15)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.14)
@@ -370,7 +370,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [218-7-application-domains](218-7-application-domains.md)
@@ -392,7 +392,7 @@ tackling more challenging ones (3, 4, 5, 7, 9, 10).
 
 ---
 
-**Кто ссылается на этот документ (6):**
+## Кто ссылается на этот документ (6)
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)

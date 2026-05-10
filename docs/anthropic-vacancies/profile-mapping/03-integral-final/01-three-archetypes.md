@@ -1,5 +1,11 @@
 # Интегральный портрет — три архетипа
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -38,7 +44,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
 - [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)
 - [04-tertiary-research-engineer-agents](../01-initial-analysis/04-tertiary-research-engineer-agents.md)

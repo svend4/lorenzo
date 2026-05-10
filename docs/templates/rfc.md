@@ -108,7 +108,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [decision-record](decision-record.md)
 - [protocol-spec](protocol-spec.md)
 
@@ -116,7 +116,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [REGISTRY](../REGISTRY.md)
 - [TASKS_INDEX](../TASKS_INDEX.md)
 - [README](README.md)

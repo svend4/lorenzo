@@ -1001,7 +1001,7 @@ _`docs/templates/` — 23 файлов_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)

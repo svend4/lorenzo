@@ -1,5 +1,11 @@
 # Claude hat geantwortet: Отличный запрос.
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -300,7 +306,7 @@ Focused action > parallel ambition.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
 - [00-question-innovations-transitions](00-question-innovations-transitions.md)

@@ -5,6 +5,7 @@
 ## Содержание
 
 - [01-cowork-discovery.md](01-cowork-discovery.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [02-cowork-provides.md](02-cowork-provides.md) — <!-- summary -->
 - 03-[ingit-provides.md](03-ingit-provides.md) — <!-- summary -->
 - [04-symbiotic-architecture.md](04-symbiotic-architecture.md) — <!-- summary -->

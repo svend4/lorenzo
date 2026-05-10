@@ -1,5 +1,11 @@
 # Question 4: Каков Lorenzo's character?
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -59,7 +65,7 @@ Offer easy decline path
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-outreach-communication](../13-outreach-communication.md)
 - [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)

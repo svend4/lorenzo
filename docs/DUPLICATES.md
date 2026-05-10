@@ -432,7 +432,7 @@ _...и ещё 389 пар._
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [SEARCH](SEARCH.md)
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)

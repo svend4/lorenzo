@@ -1,5 +1,11 @@
 # Section 4: Specific deployment — SGB Advocate Community pilot
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -48,7 +54,7 @@ Phase 3 (year 2+): Foundation/economy formalization
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 - [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
 - [10-section-10-engagement-request](10-section-10-engagement-request.md)

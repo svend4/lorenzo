@@ -1,5 +1,11 @@
 # Что я могу сделать сейчас
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -38,7 +44,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
 - [05-which-combination-more-valuable](../npp-humanitarian-extension/05-which-combination-more-valuable.md)
 - [03-what-doesnt-exist-on-market](../npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)

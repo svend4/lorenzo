@@ -1,5 +1,11 @@
 # Пара 7 — AutoResearch цикл × Распределённый рой
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Sequential протокол для модерации inferred-фактов — 
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](../../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
 - [05-supplementary-infrastructure](../key-findings/05-supplementary-infrastructure.md)
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)

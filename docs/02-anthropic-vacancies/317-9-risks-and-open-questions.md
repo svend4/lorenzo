@@ -136,7 +136,7 @@ works regardless of any of them.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.15)
 - [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.13)
 - [323-appendix-c-sample-[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.13)
@@ -146,7 +146,7 @@ works regardless of any of them.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [318-10-strategic-positioning](318-10-strategic-positioning.md)
 - [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
@@ -157,7 +157,7 @@ works regardless of any of them.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [319-acknowledgments](319-acknowledgments.md)
 - 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)

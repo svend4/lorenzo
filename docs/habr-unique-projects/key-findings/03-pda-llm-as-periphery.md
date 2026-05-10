@@ -1,5 +1,12 @@
 # PDA-бот — «LLM как периферия»
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -36,7 +43,7 @@ https://habr.com/ru/articles/1017200/
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 - [02-memnet](02-memnet.md)
 - [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
@@ -47,7 +54,7 @@ https://habr.com/ru/articles/1017200/
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)

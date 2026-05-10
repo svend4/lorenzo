@@ -5,6 +5,9 @@
 
 - [Топ слов по охвату файлов](#топ-слов-по-охвату-файлов)
 - [Топ биграмм (устойчивые словосочетания)](#топ-биграмм-устойчивые-словосочетания)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!TIP]
@@ -185,7 +188,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.29)
 - [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.29)
 - [COVERAGE](COVERAGE.md) (сходство 0.23)
@@ -195,7 +198,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
 - [COVERAGE](COVERAGE.md)
@@ -206,7 +209,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [04-abstract](02-anthropic-vacancies/04-abstract.md)
 - [141-4-nautilus-portal-as-reference-substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)

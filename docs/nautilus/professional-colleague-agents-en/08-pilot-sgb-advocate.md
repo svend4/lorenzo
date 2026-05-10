@@ -233,7 +233,7 @@ incremental rather than novel.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [219-8-pilot-proposal-sgb-advocate-colleague](../../02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
 - [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)

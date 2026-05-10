@@ -175,7 +175,7 @@ practice.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.15)
 - [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.15)
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.15)
@@ -185,7 +185,7 @@ practice.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
 - [264-11-open-questions](264-11-open-questions.md)
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
@@ -237,7 +237,7 @@ practice.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [162-8-risk-analysis](162-8-risk-analysis.md)
 - [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)

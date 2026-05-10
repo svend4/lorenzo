@@ -4,6 +4,7 @@
 ## Contents
 
 - [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+- [Смотрите также](#смотрите-также)
 
 
 > [!TIP]
@@ -57,7 +58,7 @@ applied work demonstrated its absence
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [13-acknowledgments-refs](13-acknowledgments-refs.md)
 - [10-what-not-solved](10-what-not-solved.md)
 - [12-closing](12-closing.md)

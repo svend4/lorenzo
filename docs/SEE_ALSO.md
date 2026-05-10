@@ -4,6 +4,7 @@
 ## Contents
 
 - [Ключевые связи](#ключевые-связи)
+- [Смотрите также](#смотрите-также)
 
 
 <!-- summary -->
@@ -55,7 +56,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [SEARCH](SEARCH.md)
 - [READING_ORDER](READING_ORDER.md)
 - [CLUSTERS](CLUSTERS.md)

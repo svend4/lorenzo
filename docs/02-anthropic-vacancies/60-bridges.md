@@ -6,6 +6,9 @@
 - [Bridges](#bridges)
   - [meta ↔ pro2](#meta-pro2)
   - [meta ↔ info1](#meta-info1)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
 
 
 > [!NOTE]
@@ -43,7 +46,7 @@ bridge.]
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [61-compatibility-level](61-compatibility-level.md) (сходство 0.22)
 - [40-bridges](40-bridges.md) (сходство 0.22)
 - [50-bridges](50-bridges.md) (сходство 0.21)
@@ -53,7 +56,7 @@ bridge.]
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [61-compatibility-level](61-compatibility-level.md)
 - [51-compatibility-level](51-compatibility-level.md)
 - [40-bridges](40-bridges.md)
@@ -64,7 +67,7 @@ bridge.]
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [41-compatibility-level](41-compatibility-level.md)
 - [47-native-format](47-native-format.md)
 - [49-angle-perspective](49-angle-perspective.md)

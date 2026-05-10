@@ -6,6 +6,8 @@
 - [По секциям](#по-секциям)
   - [01-svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
   - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -65,7 +67,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [MISSING](MISSING.md) (сходство 0.15)
 - [README](04-ai-collaborations/README.md) (сходство 0.13)
 - [ALERTS](ALERTS.md) (сходство 0.13)
@@ -75,7 +77,7 @@ _Обновлено: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [evidence-envelope](svyazi-2-0/architecture/evidence-envelope.md)
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [BROKEN_LINKS](BROKEN_LINKS.md)

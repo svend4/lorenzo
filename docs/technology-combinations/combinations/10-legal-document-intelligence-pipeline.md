@@ -1,5 +1,12 @@
 # Комбинация 10: Legal Document Intelligence Pipeline
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -57,7 +64,7 @@ ROI: 10 sec queries vs 2 hour manual search
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md)
 - 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 - [13-legal-document-transpiler](13-legal-document-transpiler.md)
@@ -68,7 +75,7 @@ ROI: 10 sec queries vs 2 hour manual search
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)

@@ -242,7 +242,7 @@ Hope this helps. Рад был участвовать в формировани�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [228-appendix-c-quick-start-architecture-for-sgb-advoca](../../02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 - [12-closing](../representative-agent-layer-en/12-closing.md)

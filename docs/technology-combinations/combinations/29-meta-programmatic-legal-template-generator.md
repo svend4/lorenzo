@@ -1,5 +1,11 @@
 # Комбинация 29: Meta-Programmatic Legal Template Generator
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -74,7 +80,7 @@ ROI: Write once, deploy everywhere
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)

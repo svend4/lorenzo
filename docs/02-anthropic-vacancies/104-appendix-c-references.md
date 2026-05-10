@@ -110,7 +110,7 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [122-глоссарий](122-глоссарий.md) (сходство 0.16)
 - [34-appendix-b-change-log](34-appendix-b-change-log.md) (сходство 0.13)
 - [69-section](69-section.md) (сходство 0.11)
@@ -120,7 +120,7 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [122-глоссарий](122-глоссарий.md)
 - [34-appendix-b-change-log](34-appendix-b-change-log.md)
 - [69-section](69-section.md)
@@ -180,7 +180,7 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 
 ---
 
-**Кто ссылается на этот документ (15):**
+## Кто ссылается на этот документ (15)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)

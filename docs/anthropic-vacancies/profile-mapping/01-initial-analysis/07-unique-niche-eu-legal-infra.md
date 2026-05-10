@@ -1,5 +1,11 @@
 # Уникальная ниша, которой у Anthropic формально нет
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -28,7 +34,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [11-legal](../../clusters/11-legal.md)
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)

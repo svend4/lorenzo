@@ -1,5 +1,11 @@
 # Что именно анонимизировать: немецкий стандарт
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -68,7 +74,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-anonymization](00-question-anonymization.md)
 - [07-difference-2-domain-specialization](../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
 - [02-two-tier-publication](02-two-tier-publication.md)

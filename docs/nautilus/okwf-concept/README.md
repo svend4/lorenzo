@@ -5,6 +5,7 @@
 ## Содержание
 
 - [00-abstract.md](00-abstract.md) — <!-- summary -->
+<!-- tags: nautilus, protocol, architecture, community -->
 - [01-problem-statement.md](01-problem-statement.md) — <!-- summary -->
 - [02-target-populations.md](02-target-populations.md) — <!-- summary -->
 - [03-why-existing-fail.md](03-why-existing-fail.md) — <!-- summary -->

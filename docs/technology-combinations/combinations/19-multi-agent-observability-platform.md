@@ -1,5 +1,11 @@
 # Комбинация 19: Multi-Agent Observability Platform
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -167,7 +173,7 @@ Claude hat geantwortet: Продолжаю охоту за уникальным�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
 - [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
 - [15-19-extended](../synthesis-tables/15-19-extended.md)

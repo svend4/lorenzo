@@ -210,7 +210,7 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ORPHANS](ORPHANS.md)
 - [STALENESS](STALENESS.md)
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)

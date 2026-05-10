@@ -96,7 +96,7 @@ their daily work.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [12-closing](12-closing.md)
 - [09-relationship-other-agents](09-relationship-other-agents.md)
 - [01-five-type-typology](01-five-type-typology.md)

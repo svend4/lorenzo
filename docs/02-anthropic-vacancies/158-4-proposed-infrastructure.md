@@ -241,7 +241,7 @@ Community governance operates:
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.18)
 - [144-7-open-questions](144-7-open-questions.md) (сходство 0.16)
@@ -251,7 +251,7 @@ Community governance operates:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [144-7-open-questions](144-7-open-questions.md)
@@ -262,7 +262,7 @@ Community governance operates:
 
 ---
 
-**Кто ссылается на этот документ (13):**
+## Кто ссылается на этот документ (13)
 - 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)

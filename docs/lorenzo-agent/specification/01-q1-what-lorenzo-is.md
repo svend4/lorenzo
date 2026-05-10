@@ -1,5 +1,11 @@
 # Question 1: Что Lorenzo фундаментально такое? (Framings A–D)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -91,7 +97,7 @@ Avoids autonomy controversies while preserving brand benefits
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 02-q2-whom-[lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - [05-q5-authority-limits](05-q5-authority-limits.md)

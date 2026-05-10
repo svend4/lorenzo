@@ -1,5 +1,11 @@
 # Дерево метрик Svyazi 2.0
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -44,7 +50,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)

@@ -117,7 +117,7 @@ _Создано: 2026-04-29_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [ensemble](ensemble.md)
 - [project-component](project-component.md)
 - [tech-radar-entry](tech-radar-entry.md)

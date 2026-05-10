@@ -1,5 +1,13 @@
 # Домен: немецкое социальное право
 
+<!-- toc-auto -->
+## Contents
+
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -48,7 +56,7 @@ Graph-RAG links precedents through citations. ROI: 10 sec queries vs 2 hour manu
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [README](README.md) (сходство 0.15)
 
 
@@ -56,7 +64,7 @@ Graph-RAG links precedents through citations. ROI: 10 sec queries vs 2 hour manu
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [GLOSSARY](../GLOSSARY.md)
 - [MINDMAP](../MINDMAP.md)
 - [360-что-ты-всегда-делаешь](../02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
@@ -67,7 +75,7 @@ Graph-RAG links precedents through citations. ROI: 10 sec queries vs 2 hour manu
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [321-appendix-a-decision-tree-for-ingit-adopters](../02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [01-agent-routing](01-agent-routing.md)
 - [README](README.md)

@@ -24378,7 +24378,7 @@ _Файл: `docs/templates/weekly-digest.md` | 4 колонок, 4 строк_
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [OUTLINE](OUTLINE.md)
 - [QUESTIONS](QUESTIONS.md)
 - [CONCEPTS](CONCEPTS.md)

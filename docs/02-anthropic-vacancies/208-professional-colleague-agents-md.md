@@ -33,7 +33,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.14)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.12)
@@ -94,7 +94,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
@@ -105,7 +105,7 @@ markdown
 
 ---
 
-**Кто ссылается на этот документ (25):**
+## Кто ссылается на этот документ (25)
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)

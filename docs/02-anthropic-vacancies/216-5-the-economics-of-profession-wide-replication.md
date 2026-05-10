@@ -167,7 +167,7 @@ economically viable for moderately sized professions.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.20)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.14)
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md) (сходство 0.12)
@@ -177,7 +177,7 @@ economically viable for moderately sized professions.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
 - [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
@@ -225,7 +225,7 @@ economically viable for moderately sized professions.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
 - [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)

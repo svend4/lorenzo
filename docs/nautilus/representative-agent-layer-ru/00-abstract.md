@@ -42,7 +42,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [190-содержание](../../02-anthropic-vacancies/190-содержание.md)
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)

@@ -99,7 +99,7 @@ match actual technology architecture.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [222-11-call-for-collaboration](222-11-call-for-collaboration.md) (сходство 0.26)
 - [264-11-open-questions](264-11-open-questions.md) (сходство 0.18)
 - [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.17)
@@ -109,7 +109,7 @@ match actual technology architecture.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [222-11-call-for-collaboration](222-11-call-for-collaboration.md)
 - [266-13-closing](266-13-closing.md)
 - [264-11-open-questions](264-11-open-questions.md)
@@ -120,7 +120,7 @@ match actual technology architecture.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)

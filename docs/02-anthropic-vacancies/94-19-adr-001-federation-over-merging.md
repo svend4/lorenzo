@@ -4,10 +4,13 @@
 ## Contents
 
 - [19. ADR-001: Federation over Merging](#19-adr-001-federation-over-merging)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
 
 
 > [!NOTE]
@@ -67,7 +70,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md) (сходство 0.89)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.11)
 
@@ -76,7 +79,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - [96-21-adr-003-five-onboarding-paths-as-equal-rank](96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
@@ -111,7 +114,7 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [README](README.md)

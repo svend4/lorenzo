@@ -6,6 +6,7 @@
 
 - [01-shared-memory-between-agents.md](01-shared-memory-between-agents.md) — > [!WARNING]
 - [02-agentops-trace-envelope.md](02-agentops-trace-envelope.md) — <!-- summary -->
+<!-- tags: collaboration, architecture, rag, knowledge -->
 - 03-a2a-vs-[mcp-protocols.md](03-a2a-vs-mcp-protocols.md) — > [!WARNING]
 - [04-memory-firewall-vs-prompt-worms.md](04-memory-firewall-vs-prompt-worms.md) — > [!WARNING]
 - [05-roadmap-6-12-months.md](05-roadmap-6-12-months.md) — > [!TIP]

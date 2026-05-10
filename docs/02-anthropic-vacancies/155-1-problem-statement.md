@@ -135,7 +135,7 @@ coordinated action now.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [153-executive-summary](153-executive-summary.md) (сходство 0.17)
 - [156-2-target-populations](156-2-target-populations.md) (сходство 0.16)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
@@ -145,7 +145,7 @@ coordinated action now.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [153-executive-summary](153-executive-summary.md)
 - [156-2-target-populations](156-2-target-populations.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -186,7 +186,7 @@ coordinated action now.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [153-executive-summary](153-executive-summary.md)
 - [154-table-of-contents](154-table-of-contents.md)

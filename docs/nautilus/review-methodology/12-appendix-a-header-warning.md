@@ -4,6 +4,7 @@
 ## Contents
 
 - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]
@@ -55,7 +56,7 @@ transitional state:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
 - [15-appendix-c-history](15-appendix-c-history.md)
 - [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)

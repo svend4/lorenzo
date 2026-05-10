@@ -11,6 +11,9 @@
   - [11.5. For Existing Professional Tool Vendors](#115-for-existing-professional-tool-vendors)
   - [11.6. For Researchers](#116-for-researchers)
   - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 
 
 > [!NOTE]
@@ -99,7 +102,7 @@ practitioners during framework development valuable.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.26)
 - [145-8-call-to-action](145-8-call-to-action.md) (сходство 0.15)
 - [223-12-closing](223-12-closing.md) (сходство 0.13)
@@ -109,7 +112,7 @@ practitioners during framework development valuable.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [223-12-closing](223-12-closing.md)
@@ -120,7 +123,7 @@ practitioners during framework development valuable.
 
 ---
 
-**Кто ссылается на этот документ (7):**
+## Кто ссылается на этот документ (7)
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [210-abstract](210-abstract.md)

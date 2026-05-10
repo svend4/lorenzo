@@ -9,6 +9,7 @@
   - [Notion / Obsidian / Roam](#notion-obsidian-roam)
   - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
   - [Combination workflows](#combination-workflows)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -117,7 +118,7 @@ problem.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [279-existing-approximations](../../02-anthropic-vacancies/279-existing-approximations.md)
 - [03-two-layer-stack](03-two-layer-stack.md)
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)

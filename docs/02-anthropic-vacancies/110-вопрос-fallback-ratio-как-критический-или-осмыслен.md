@@ -78,7 +78,7 @@
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [123-portal-mcp-py](123-portal-mcp-py.md)
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
 - [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md)
@@ -89,7 +89,7 @@
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.21)
 - [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.19)
 - [19-7-portalentry-structure](19-7-portalentry-structure.md) (сходство 0.19)

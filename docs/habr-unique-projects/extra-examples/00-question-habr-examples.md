@@ -1,5 +1,11 @@
 # Вопрос: ещё примеры с Хабра по варианту D
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -73,7 +79,7 @@ Web durchsucht
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [02-collaboration-partners](../../05-habr-projects/02-collaboration-partners.md)
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)

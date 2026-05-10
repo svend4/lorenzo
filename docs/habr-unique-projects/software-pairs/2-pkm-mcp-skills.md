@@ -1,5 +1,11 @@
 # Пара 2 — Local-first PKM (Obsidian/Logseq) × MCP/Skills
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Local LLM Wiki поверх раздельной личной/агентной �
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 - [02-related-projects](../analogues/02-related-projects.md)
 - [4-speech-to-text-llm](4-speech-to-text-llm.md)

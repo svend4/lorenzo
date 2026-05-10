@@ -1,5 +1,11 @@
 # Пара 5 — Голосовой ввод × Локальная память
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -37,7 +43,7 @@ Daily voice journal — каждый вечер 5 минут устного ра
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 - [2-document-rag](2-document-rag.md)

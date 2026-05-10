@@ -176,7 +176,7 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [164-10-appendices](164-10-appendices.md) (сходство 0.16)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.16)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
@@ -186,7 +186,7 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [164-10-appendices](164-10-appendices.md)
 - [163-9-call-for-partnership](163-9-call-for-partnership.md)
@@ -213,7 +213,7 @@ within acceptable range for mission-driven foundation launch.
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 - [164-10-appendices](164-10-appendices.md)
 - [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)

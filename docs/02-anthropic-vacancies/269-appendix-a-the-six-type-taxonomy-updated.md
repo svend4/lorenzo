@@ -4,10 +4,13 @@
 ## Contents
 
 - [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 
 
 > [!NOTE]
@@ -66,7 +69,7 @@ how skilled practice actually structures itself.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md) (сходство 0.31)
 - [252-abstract](252-abstract.md) (сходство 0.14)
 - [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md) (сходство 0.13)
@@ -76,7 +79,7 @@ how skilled practice actually structures itself.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [226-appendix-a-comparative-table-five-agent-types](226-appendix-a-comparative-table-five-agent-types.md)
 - [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md)
 - [211-table-of-contents](211-table-of-contents.md)
@@ -119,7 +122,7 @@ how skilled practice actually structures itself.
 
 ---
 
-**Кто ссылается на этот документ (9):**
+## Кто ссылается на этот документ (9)
 - [210-abstract](210-abstract.md)
 - [211-table-of-contents](211-table-of-contents.md)
 - [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)

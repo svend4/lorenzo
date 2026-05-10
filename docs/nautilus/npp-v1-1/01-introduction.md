@@ -9,6 +9,7 @@
   - [1.3. Non-Goals](#13-non-goals)
   - [1.4. Terminology](#14-terminology)
   - [1.5. Changes from v1.0](#15-changes-from-v10)
+- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
@@ -107,7 +108,7 @@ NPP **не** пытается:
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [76-1-introduction](../../02-anthropic-vacancies/76-1-introduction.md)
 - [06-1-introduction](../../02-anthropic-vacancies/06-1-introduction.md)
 - [00-abstract-status](00-abstract-status.md)

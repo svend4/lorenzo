@@ -1,5 +1,12 @@
 # Комбинация 3: CRDT local-first × Svyazi CardIndex
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -59,7 +66,7 @@ Discovery-файл Svyazi (накопление неизвестного) син
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
 - 01-pravilnaya-agentskaya-arkhitektura-[svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
 - 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
@@ -70,7 +77,7 @@ Discovery-файл Svyazi (накопление неизвестного) син
 
 ---
 
-**Кто ссылается на этот документ (4):**
+## Кто ссылается на этот документ (4)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)

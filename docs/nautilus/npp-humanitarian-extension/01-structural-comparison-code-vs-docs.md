@@ -1,5 +1,11 @@
 # Структурное сравнение: код vs гуманитарные документы
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -273,7 +279,7 @@ legal-nautilus/ ← отдельный приватный репо
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
 - [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)

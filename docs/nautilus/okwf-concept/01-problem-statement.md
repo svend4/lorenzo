@@ -127,7 +127,7 @@ coordinated action now.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [155-1-problem-statement](../../02-anthropic-vacancies/155-1-problem-statement.md)
 - [02-target-populations](02-target-populations.md)
 - [09-call-for-partnership](09-call-for-partnership.md)

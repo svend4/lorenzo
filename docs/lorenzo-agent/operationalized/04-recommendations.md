@@ -1,5 +1,11 @@
 # Рекомендации: принять архитектуру как direction, не immediate plan
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -95,7 +101,7 @@ Read source code existing components
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [01-pluses-1-7](01-pluses-1-7.md)
 - [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)

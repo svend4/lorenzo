@@ -5,6 +5,7 @@
 ## Содержание
 
 - [01-fde-downgraded.md](01-fde-downgraded.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [02-three-overlapping-identities.md](02-three-overlapping-identities.md) — <!-- summary -->
 - 03-revised-[anthropic-mapping.md](03-revised-anthropic-mapping.md) — <!-- summary -->
 - 04-non-[anthropic-paths.md](04-non-anthropic-paths.md) — > [!TIP]

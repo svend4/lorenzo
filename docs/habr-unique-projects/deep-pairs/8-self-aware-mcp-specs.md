@@ -1,5 +1,12 @@
 # Пара 8 — Self-aware MCP × Specs-first архитектура
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (3)](#кто-ссылается-на-этот-документ-3)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -40,7 +47,7 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - 03-pda-[llm-as-periphery](../key-findings/03-pda-llm-as-periphery.md)
 - [5-browser-agents-headless](../software-pairs/5-browser-agents-headless.md)
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
@@ -51,7 +58,7 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 
 ---
 
-**Кто ссылается на этот документ (3):**
+## Кто ссылается на этот документ (3)
 - [authors-by-name](../../glossary/authors-by-name.md)
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)

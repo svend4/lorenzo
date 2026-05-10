@@ -1,5 +1,11 @@
 # Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -34,7 +40,7 @@ Claude hat geantwortet: Очень хороший вопрос — и он по�
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 - [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
 - [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)

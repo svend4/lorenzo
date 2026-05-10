@@ -4,10 +4,13 @@
 ## Contents
 
 - [Closing](#closing)
+- [Похожие документы](#похожие-документы)
+- [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
 
 
 > [!NOTE]
@@ -73,7 +76,7 @@ need to be solved before other work proceeds.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md) (сходство 0.15)
 - [281-the-recursive-insight](281-the-recursive-insight.md) (сходство 0.15)
 - [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md) (сходство 0.13)
@@ -83,7 +86,7 @@ need to be solved before other work proceeds.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [281-the-recursive-insight](281-the-recursive-insight.md)
 - [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
 - [286-acknowledgments](286-acknowledgments.md)
@@ -131,7 +134,7 @@ need to be solved before other work proceeds.
 
 ---
 
-**Кто ссылается на этот документ (11):**
+## Кто ссылается на этот документ (11)
 - [168-abstract](168-abstract.md)
 - [266-13-closing](266-13-closing.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)

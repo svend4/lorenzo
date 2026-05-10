@@ -160,7 +160,7 @@ practice.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [259-6-coordination-and-disagreement-resolution](../../02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
 - [03-what-makes-csa](03-what-makes-csa.md)
 - [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)

@@ -1,5 +1,11 @@
 # Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)
 
+<!-- toc-auto -->
+## Contents
+
+- [Смотрите также](#смотрите-также)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 
@@ -169,7 +175,7 @@ Both produce artifacts which are immediately useful
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
 - [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)

@@ -7,6 +7,7 @@
 - [01-coally.md](01-coally.md) — > [!WARNING]
 - [02-vitaly-graph-cognitive-memory.md](02-vitaly-graph-cognitive-memory.md) — > [!IMPORTANT]
 - 03-happyin-[knowledge-space.md](03-happyin-knowledge-space.md) — <!-- summary -->
+<!-- tags: anthropic, vacancies, analysis, roadmap -->
 - [04-mem0-letta-graphiti.md](04-mem0-letta-graphiti.md) — <!-- summary -->
 - [05-existing-infrastructure-stack.md](05-existing-infrastructure-stack.md) — <!-- summary -->
 - [06-final-tier-ranking.md](06-final-tier-ranking.md) — <!-- summary -->

@@ -171,7 +171,7 @@ Either way, the material exists.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [323-appendix-c-sample-[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) (сходство 0.21)
 - [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.16)
 - [307-abstract](307-abstract.md) (сходство 0.16)
@@ -181,7 +181,7 @@ Either way, the material exists.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [323-appendix-c-sample-[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 - [307-abstract](307-abstract.md)
@@ -192,7 +192,7 @@ Either way, the material exists.
 
 ---
 
-**Кто ссылается на этот документ (8):**
+## Кто ссылается на этот документ (8)
 - [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
 - [281-the-recursive-insight](281-the-recursive-insight.md)
