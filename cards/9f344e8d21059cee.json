@@ -6,8 +6,8 @@
     "docs/05-habr-projects/memory/ngt-memory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:48+00:00",
-  "updated_at": "2026-05-10T15:26:48+00:00",
+  "created_at": "2026-05-10T15:40:23+00:00",
+  "updated_at": "2026-05-10T15:40:23+00:00",
   "payload_hash": "sha256:6a3208c9388a0ede",
   "payload": {
     "title": "NGT[^ngt] Memory: ассоциативный граф",

@@ -119,10 +119,14 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
     # 3. Имя файла — надёжный быстрый сигнал
     if any(k in name for k in ("contact", "author", "person", "автор")):
         return "person"
-    if any(k in name for k in ("project", "проект", "yodoca", "agentfs",
-                                "memnet", "cardindex", "svyazi", "rufler",
-                                "wikontic", "knowledge-space", "ngt-memory",
-                                "liteparse", "mclaude", "firecrawl")):
+    # Проверяем "проект" только как полное слово в имени файла
+    # ("проектов", "проекты" — множественное число в аналитических файлах, не проект сам по себе)
+    _proj_name_match = any(k in name for k in ("project", "yodoca", "agentfs",
+                                                "memnet", "cardindex", "svyazi", "rufler",
+                                                "wikontic", "knowledge-space", "ngt-memory",
+                                                "liteparse", "mclaude", "firecrawl"))
+    _proj_ru_match = bool(re.search(r'(?<![а-яё])проект(?!ов|ах|ам|ами|ы)(?![а-яё])', name))
+    if _proj_name_match or _proj_ru_match:
         return "project"
     if any(k in name for k in ("note", "заметка", "запись")):
         return "note"
@@ -130,14 +134,18 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
         return "fact"
 
     # 4. H1 — если заголовок содержит имя проекта
+    # Сканируем до 30 строк, чтобы не пропустить H1 за длинным frontmatter
     if text:
-        for line in text.splitlines()[:5]:
+        for line in text.splitlines()[:30]:
             if line.startswith("# "):
                 h1 = line[2:].lower()
                 # Пропускаем мета-документы с известными H1-префиксами
                 if any(h1.startswith(p) for p in (
                         "q&a:", "резюме", "summary:", "тема:", "chapter",
                         "схема", "индекс", "отчёт", "аудит", "метрики",
+                        # Сравнительные / аналитические документы
+                        "три ", "сравнение", "аналог", "кандидат", "карта ",
+                        "ансамбль ", "ensemble ", "топ-", "обзор",
                 )):
                     return "doc"
                 if any(k in h1 for k in ("автор", "author", "contact", "контакт")):
@@ -155,6 +163,12 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
 
     # 5. Контент: если файл в memory/ или knowledge/ подпапке — вероятно проект
     parts = [p.name.lower() for p in path.parents]
+    # Папки с анализом/сравнением — всегда doc, даже если упоминают проекты
+    _ANALYSIS_DIRS = ("analogues", "candidates", "comparison", "overview",
+                      "continuation", "extra", "extra-collaborator-findings",
+                      "ai-managed-virtual-company")
+    if any(p in parts for p in _ANALYSIS_DIRS):
+        return "doc"
     if any(p in parts for p in ("memory", "knowledge", "ensembles")):
         # Дополнительный сигнал: короткий файл об одном проекте
         if text and len(text.split()) < 600:

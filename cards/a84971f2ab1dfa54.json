@@ -6,8 +6,8 @@
     "docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:af9b5e0670f447c1",
   "payload": {
     "title": "Question 2: Кому Lorenzo служит? (4 варианта приоритета)",

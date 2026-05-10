@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:a28ab8da5234e7b1",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/contacts/vitalysemenov.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
+  "payload_hash": "sha256:3e35c9fb52501c11",
+  "payload": {
+    "title": "Контакт: VitaliySemenov / agent-memory-mcp",
+    "summary": "projects: [\"agent-memory-mcp\", \"Memory OS\"]",
+    "tags": [
+      "person",
+      "memory",
+      "mcp",
+      "contact"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "agent-memory-mcp"
+    ],
+    "wc": 295,
+    "path": "docs/contacts/vitalysemenov.md"
+  }
+}

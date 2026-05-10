@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:13e5ad8d4082ac3e",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/svyazi-2-0/ensembles/E-execution-plane.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:51+00:00",
-  "updated_at": "2026-05-10T15:26:51+00:00",
+  "created_at": "2026-05-10T15:40:26+00:00",
+  "updated_at": "2026-05-10T15:40:26+00:00",
   "payload_hash": "sha256:437b3bfc6e7d003d",
   "payload": {
     "title": "Ансамбль E — Safe and cheap execution plane",

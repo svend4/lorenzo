@@ -6,8 +6,8 @@
     "docs/nautilus/representative-agent-layer-en/05-architectural-specification.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:50+00:00",
-  "updated_at": "2026-05-10T15:26:50+00:00",
+  "created_at": "2026-05-10T15:40:25+00:00",
+  "updated_at": "2026-05-10T15:40:25+00:00",
   "payload_hash": "sha256:31351e5759b1af51",
   "payload": {
     "title": "5. Architectural Specification",

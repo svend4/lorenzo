@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "VitalyOborin"
 author_handle: "@VitalyOborin"
-projects: ["Svyazi", "Yodoca"]
+projects: ["Svyazi", "Yodoca", "Wikontic"]
 platform: GitHub
 status: not_started
 priority: 3

@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:d3b6da99e3cbaf23",
-  "card_type": "doc",
+  "card_type": "person",
   "state": "raw",
   "sources": [
     "docs/contacts/andrey-chuyan.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:2f08adb5b5767181",
   "payload": {
     "title": "Контакт: andrey_chuyan / Svyazi",

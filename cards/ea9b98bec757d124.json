@@ -6,8 +6,8 @@
     "docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:51+00:00",
-  "updated_at": "2026-05-10T15:26:51+00:00",
+  "created_at": "2026-05-10T15:40:26+00:00",
+  "updated_at": "2026-05-10T15:40:26+00:00",
   "payload_hash": "sha256:895f8dda9ce11051",
   "payload": {
     "title": "Комбинация 1: Правильная агентская архитектура × Svyazi-паттерн",

@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:608fab6ce76d136b",
-  "card_type": "doc",
+  "card_type": "person",
   "state": "raw",
   "sources": [
     "docs/obsidian/contacts/nlaik.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:51+00:00",
-  "updated_at": "2026-05-10T15:26:51+00:00",
+  "created_at": "2026-05-10T15:40:26+00:00",
+  "updated_at": "2026-05-10T15:40:26+00:00",
   "payload_hash": "sha256:0e38bf30e7fff5b0",
   "payload": {
     "title": "Контакт: nlaik / LiteParse / research-docs",

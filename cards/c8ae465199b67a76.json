@@ -6,8 +6,8 @@
     "docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:288ec396f0106674",
   "payload": {
     "title": "Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)",

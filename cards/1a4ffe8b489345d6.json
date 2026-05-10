@@ -6,8 +6,8 @@
     "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:51+00:00",
-  "updated_at": "2026-05-10T15:26:51+00:00",
+  "created_at": "2026-05-10T15:40:26+00:00",
+  "updated_at": "2026-05-10T15:40:26+00:00",
   "payload_hash": "sha256:1e6d85150619f6bb",
   "payload": {
     "title": "Комбинация 3: CRDT local-first × Svyazi CardIndex",

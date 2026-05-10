@@ -6,8 +6,8 @@
     "docs/lorenzo-agent/specification/07-q7-success-metrics.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:47abfb2e280a21b8",
   "payload": {
     "title": "Question 7: Каковы success metrics?",

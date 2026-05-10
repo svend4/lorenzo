@@ -6,8 +6,8 @@
     "docs/nautilus/review-methodology/07-why-valid-for-ai.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:50+00:00",
-  "updated_at": "2026-05-10T15:26:50+00:00",
+  "created_at": "2026-05-10T15:40:25+00:00",
+  "updated_at": "2026-05-10T15:40:25+00:00",
   "payload_hash": "sha256:870657b2acf626e1",
   "payload": {
     "title": "6. Почему это валидный паттерн для AI‑assisted workflows",

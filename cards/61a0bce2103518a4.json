@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:61a0bce2103518a4",
-  "card_type": "doc",
+  "card_type": "project",
   "state": "raw",
   "sources": [
     "docs/obsidian/01-svyazi/00-intro-part2.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:50+00:00",
-  "updated_at": "2026-05-10T15:26:50+00:00",
+  "created_at": "2026-05-10T15:40:25+00:00",
+  "updated_at": "2026-05-10T15:40:25+00:00",
   "payload_hash": "sha256:00ee41a4c17a236a",
   "payload": {
     "title": "Продолжение исследования для Svyazi 2.0",

@@ -6,8 +6,8 @@
     "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:a351bab8df4bcfd6",
   "payload": {
     "title": "Section 3: Proposed solution architecture (existing components + integration)",

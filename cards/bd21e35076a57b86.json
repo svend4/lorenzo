@@ -6,8 +6,8 @@
     "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:a91e6a3db3cceb9e",
   "payload": {
     "title": "Виктория Дочкина — Sequential‑протокол распределённых агентов",

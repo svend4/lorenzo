@@ -6,8 +6,8 @@
     "docs/KPI.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:23+00:00",
+  "updated_at": "2026-05-10T15:40:23+00:00",
   "payload_hash": "sha256:0e39a158bb5197d3",
   "payload": {
     "title": "Числовые KPI и метрики",

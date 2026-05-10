@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:5d002db9e303020d",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/svyazi-2-0/ensembles/G-federated-local-graph.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:51+00:00",
-  "updated_at": "2026-05-10T15:26:51+00:00",
+  "created_at": "2026-05-10T15:40:26+00:00",
+  "updated_at": "2026-05-10T15:40:26+00:00",
   "payload_hash": "sha256:55fd2af6452ad6e6",
   "payload": {
     "title": "Ансамбль G — Federated Local‑First Community Graph",

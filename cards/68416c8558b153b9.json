@@ -6,8 +6,8 @@
     "docs/technology-combinations/combinations/09-agent-orchestration-stack.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:51+00:00",
-  "updated_at": "2026-05-10T15:26:51+00:00",
+  "created_at": "2026-05-10T15:40:26+00:00",
+  "updated_at": "2026-05-10T15:40:26+00:00",
   "payload_hash": "sha256:af5b16e1d6e755ea",
   "payload": {
     "title": "Комбинация 9: Agent Orchestration Stack",

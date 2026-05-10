@@ -6,8 +6,8 @@
     "docs/nautilus/composite-skills-agents/10-risks.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:50+00:00",
-  "updated_at": "2026-05-10T15:26:50+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:cc65a37b175b7b10",
   "payload": {
     "title": "10. Risks Specific to Composite Architectures",

@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:7fa4142b9e9a9389",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:26:49+00:00",
-  "updated_at": "2026-05-10T15:26:49+00:00",
+  "created_at": "2026-05-10T15:40:24+00:00",
+  "updated_at": "2026-05-10T15:40:24+00:00",
   "payload_hash": "sha256:ea0455e67bd87c21",
   "payload": {
     "title": "Ансамбль 1 — Agentic Knowledge OS",
