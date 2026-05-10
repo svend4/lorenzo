@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:b638ac1976cacbda",
-  "card_type": "person",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/obsidian/AUTHORS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:25+00:00",
-  "updated_at": "2026-05-10T15:40:25+00:00",
+  "created_at": "2026-05-10T15:55:30+00:00",
+  "updated_at": "2026-05-10T15:55:30+00:00",
   "payload_hash": "sha256:ab3cf2ad2d762424",
   "payload": {
     "title": "Авторы и коллаборации",

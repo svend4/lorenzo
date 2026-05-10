@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:d987b9d85a4d8c0a",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/ai-collaborations/source-projects.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:24+00:00",
-  "updated_at": "2026-05-10T15:40:24+00:00",
+  "created_at": "2026-05-10T15:55:29+00:00",
+  "updated_at": "2026-05-10T15:55:29+00:00",
   "payload_hash": "sha256:95134142f6161205",
   "payload": {
     "title": "Source projects — все Хабр-источники в диалоге",

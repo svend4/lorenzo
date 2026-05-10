@@ -6,8 +6,8 @@
     "docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:24+00:00",
-  "updated_at": "2026-05-10T15:40:24+00:00",
+  "created_at": "2026-05-10T15:55:29+00:00",
+  "updated_at": "2026-05-10T15:55:29+00:00",
   "payload_hash": "sha256:824f487fecdd85ec",
   "payload": {
     "title": "Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)",

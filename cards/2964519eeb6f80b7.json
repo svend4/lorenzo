@@ -6,8 +6,8 @@
     "docs/meta-scripting/02-architecture.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:24+00:00",
-  "updated_at": "2026-05-10T15:40:24+00:00",
+  "created_at": "2026-05-10T15:55:29+00:00",
+  "updated_at": "2026-05-10T15:55:29+00:00",
   "payload_hash": "sha256:1c5f611db6302a7d",
   "payload": {
     "title": "Метаскриптинг — Часть 2: Архитектура",

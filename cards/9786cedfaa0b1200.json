@@ -6,8 +6,8 @@
     "docs/SCORING.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:24+00:00",
-  "updated_at": "2026-05-10T15:40:24+00:00",
+  "created_at": "2026-05-10T15:55:28+00:00",
+  "updated_at": "2026-05-10T15:55:28+00:00",
   "payload_hash": "sha256:4a6be261363c2127",
   "payload": {
     "title": "Оценка готовности проекта (Go/No-Go)",

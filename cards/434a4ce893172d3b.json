@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:434a4ce893172d3b",
-  "card_type": "note",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:25+00:00",
-  "updated_at": "2026-05-10T15:40:25+00:00",
+  "created_at": "2026-05-10T15:55:30+00:00",
+  "updated_at": "2026-05-10T15:55:30+00:00",
   "payload_hash": "sha256:e91dc966fab01991",
   "payload": {
     "title": "Final note: Ты — experiment",

@@ -6,8 +6,8 @@
     "docs/nautilus/infrastructure-layer-b-en/00-intro.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:24+00:00",
-  "updated_at": "2026-05-10T15:40:24+00:00",
+  "created_at": "2026-05-10T15:55:29+00:00",
+  "updated_at": "2026-05-10T15:55:29+00:00",
   "payload_hash": "sha256:24951e12e498cc19",
   "payload": {
     "title": "The Missing Middle Layer Between Chat and Code",

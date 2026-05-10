@@ -6,8 +6,8 @@
     "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:24+00:00",
-  "updated_at": "2026-05-10T15:40:24+00:00",
+  "created_at": "2026-05-10T15:55:29+00:00",
+  "updated_at": "2026-05-10T15:55:29+00:00",
   "payload_hash": "sha256:fecfcee79fea05a7",
   "payload": {
     "title": "Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference",

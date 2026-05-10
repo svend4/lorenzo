@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:ae59ed0fe0531952",
-  "card_type": "project",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/obsidian/autofilled/components/svyazi.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:26+00:00",
-  "updated_at": "2026-05-10T15:40:26+00:00",
+  "created_at": "2026-05-10T15:55:30+00:00",
+  "updated_at": "2026-05-10T15:55:30+00:00",
   "payload_hash": "sha256:83b7dfbaa3918b35",
   "payload": {
     "title": "Svyazi",

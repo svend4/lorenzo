@@ -84,8 +84,32 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
         "component_matrix", "projects-map", "projects_map",
         "tech_radar", "onboarding", "risk_register", "dependency_map",
         "kpi_history", "digest_weekly", "executive-summary",
+        # Template files
+        "project-component",
     }
-    if name in _META_NAMES:
+    # Числовой префикс ("01-", "00-") перед именем не влияет на тип
+    name_clean = re.sub(r'^\d+-', '', name)
+    if name in _META_NAMES or name_clean in _META_NAMES:
+        return "doc"
+
+    # 0.5. Папки с шаблонами, зеркалами и анализом — всегда doc (проверяем рано,
+    # до filename-эвристик шага 3, чтобы избежать ложных срабатываний)
+    _parts = [p.name.lower() for p in path.parents]
+    _EARLY_DOC_DIRS = (
+        "templates",          # docs/templates/
+        "obsidian",           # docs/obsidian/ — зеркала для Obsidian
+        "confluence",         # docs/confluence/ — экспорт для Confluence
+        # Аналитические/сравнительные разделы
+        "analogues", "candidates", "comparison", "overview",
+        "continuation", "extra", "extra-collaborator-findings",
+        "ai-managed-virtual-company",
+        "key-findings", "extra-examples", "combinations",
+        # Топ-уровневые разделы документации (всё там — docs, не project cards)
+        "01-svyazi", "02-anthropic-vacancies",
+        "03-technology-combinations", "technology-combinations",
+        "04-ai-collaborations", "ai-collaborations",
+    )
+    if any(p in _parts for p in _EARLY_DOC_DIRS):
         return "doc"
 
     # 1. YAML frontmatter — самый точный источник
@@ -119,10 +143,11 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
     # 3. Имя файла — надёжный быстрый сигнал
     if any(k in name for k in ("contact", "author", "person", "автор")):
         return "person"
-    # Проверяем "проект" только как полное слово в имени файла
-    # ("проектов", "проекты" — множественное число в аналитических файлах, не проект сам по себе)
-    _proj_name_match = any(k in name for k in ("project", "yodoca", "agentfs",
-                                                "memnet", "cardindex", "svyazi", "rufler",
+    # Специфичные имена проектов — не используем "project" как общее слово,
+    # т.к. "*-project" в имени файла (типа "системный-промпт-для-lorenzo-project",
+    # "project-component") — не проектные карточки, а документы.
+    _proj_name_match = any(k in name for k in ("yodoca", "agentfs",
+                                                "memnet", "cardindex",
                                                 "wikontic", "knowledge-space", "ngt-memory",
                                                 "liteparse", "mclaude", "firecrawl"))
     _proj_ru_match = bool(re.search(r'(?<![а-яё])проект(?!ов|ах|ам|ами|ы)(?![а-яё])', name))
@@ -162,14 +187,8 @@ def _detect_card_type(path: Path, text: str = "") -> CardType:
                 break
 
     # 5. Контент: если файл в memory/ или knowledge/ подпапке — вероятно проект
-    parts = [p.name.lower() for p in path.parents]
-    # Папки с анализом/сравнением — всегда doc, даже если упоминают проекты
-    _ANALYSIS_DIRS = ("analogues", "candidates", "comparison", "overview",
-                      "continuation", "extra", "extra-collaborator-findings",
-                      "ai-managed-virtual-company")
-    if any(p in parts for p in _ANALYSIS_DIRS):
-        return "doc"
-    if any(p in parts for p in ("memory", "knowledge", "ensembles")):
+    # _EARLY_DOC_DIRS уже проверены в шаге 0.5; здесь — оставшиеся сигналы
+    if any(p in _parts for p in ("memory", "knowledge", "ensembles")):
         # Дополнительный сигнал: короткий файл об одном проекте
         if text and len(text.split()) < 600:
             return "project"

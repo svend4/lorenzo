@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:8268ae06c5a5d988",
-  "card_type": "person",
+  "card_type": "doc",
   "state": "raw",
   "sources": [
     "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:40:23+00:00",
-  "updated_at": "2026-05-10T15:40:23+00:00",
+  "created_at": "2026-05-10T15:55:28+00:00",
+  "updated_at": "2026-05-10T15:55:28+00:00",
   "payload_hash": "sha256:3132aa0a27454444",
   "payload": {
     "title": "План прототипа и возможные контакты",
