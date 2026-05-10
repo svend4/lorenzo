@@ -43,5 +43,18 @@
       "improve_validate.py",
       "improve_consistency.py"
     ]
+  },
+  {
+    "recipe": "card-index",
+    "started_at": "2026-05-10T15:06:19",
+    "dry_run": true,
+    "ok_count": 3,
+    "total_count": 3,
+    "total_sec": 4.0,
+    "scripts": [
+      "improve_card_index.py",
+      "improve_embedding_index.py",
+      "improve_card_index.py"
+    ]
   }
 ]
