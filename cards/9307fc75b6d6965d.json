@@ -1,0 +1,35 @@
+{
+  "card_id": "sha256:9307fc75b6d6965d",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/memory/agent-memory-mcp.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T16:10:54+00:00",
+  "updated_at": "2026-05-10T16:10:54+00:00",
+  "payload_hash": "sha256:710a889586eaf7c4",
+  "payload": {
+    "title": "agent-memory-mcp + Memory OS",
+    "summary": "`agent-memory-mcp` — типизированный MCP-сервер памяти для AI-агентов с поддержкой четырёх типов записей: `episodic`, `semantic`, `procedural`, `working`. Хранение на SQLite + WAL обеспечивает локальную, GDPR-safe, offline-capable работу. Включает поиск по репо и документам, а также path guard для уп",
+    "body": "agent memory mcp memory профиль проекта параметр значение автор vitaliysemenov moshael github moshael источник хабр github лицензия уточнена maturity agent memory mcp рабочий oss memory концепт слой svyazi memory описание agent memory mcp типизированный mcp сервер памяти для агентов поддержкой четырёх типов записей episodic semantic procedural working хранение sqlite wal обеспечивает локальную gdpr safe offline capable работу включает поиск репо документам также path guard для управления доступом memory более амбициозная концепция поверх agent memory mcp онтология знаний gardener loop автоматическое поддержание качества памяти temporal факты время события время записи planner scout synthesizer агентный стек ключевые компоненты sqlite wal локальное хранение offline capable gdpr safe typed memories episodic semantic procedural working repo doc search поиск репозиторию документам path guard управление доступом файловым путям ontology концептуальная онтология знаний memory gardener loop автоматическое поддержание очистка памяти temporal facts время события время записи memory planner scout synthesizer агентный стек memory concept loop цикл обновления концептов синергия svyazi готовый memory слой mcp api для claude desktop нулевые накладные расходы интеграцию typed memories дополняют cardenvelope episodic fact цикл через memorywrite sqlite wal тот стек что cardstore локальный без сетевых зависимостей gardener loop реализует идею decay prototype spec автоматический переход raw decayed temporal факты решают проблему когда это было известно для доказательных цепочек evidenceenvelope path guard можно переиспользовать как skillpolicy какие инструменты могут читать писать какие пути сравнение другими memory проектами проект подход отличие yodoca консолидация забывание фокус decay consolidator ngt memory ассоциативный граф нейроподобные связи типы memnet нейроархитектура исследовательский mcp agent memory mcp типизированный mcp готовый api для агентов открытые вопросы есть публичная документация memory temporal facts gardener loop планируется поддержка внешних источников cardindex doc ingestion как memory write api взаимодействует внешними источниками планируется поддержка batch ingestion документов контакт контактный файл docs contacts vitalysemenov contacts vitalysemenov статус not started создано",
+    "tags": [
+      "memory",
+      "mcp",
+      "agent",
+      "typed-memory",
+      "sqlite",
+      "bi-temporal"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp"
+    ],
+    "wc": 453,
+    "path": "docs/05-habr-projects/memory/agent-memory-mcp.md"
+  }
+}
