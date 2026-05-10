@@ -6,12 +6,13 @@
     "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:f9baaa0cf74fa448",
   "payload": {
     "title": "Комбинация 18: LLM-Powered Legal Corpus Builder",
     "summary": "Crawl4AI (BM25 filtering, LLM extraction, Pydantic schemas)",
+    "body": "комбинация llm powered legal corpus builder источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex смотрите также legal document intelligence pipeline docs technology combinations combinations legal document intelligence pipeline legal corpus analytics scale docs technology combinations combinations legal corpus analytics scale pydantic enforced legal workflows docs technology combinations combinations pydantic enforced legal workflows sozialrecht domain docs technology combinations sozialrecht domain кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme ultimate legal docs technology combinations mega stacks ultimate legal extended docs technology combinations synthesis tables extended",
     "tags": [
       "rag",
       "knowledge",

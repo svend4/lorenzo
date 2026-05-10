@@ -6,12 +6,13 @@
     "docs/nautilus/npp-v1-1/00-abstract-status.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:f26bbfbc6059daa6",
   "payload": {
     "title": "Abstract + Status of This Document",
     "summary": "Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации",
+    "body": "abstract status this document источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude abstract nautilus portal protocol далее npp определяет способ федерации независимых git репозиториев содержащих знания разных native форматах без принудительного слияния единую схему протокол специфицирует минимальный манифест объявляющий репозиторий участником федерации nautilus json формат человекочитаемого описания репозитория passport обязательный интерфейс адаптера baseadapter унифицированную структуру данных portalentry алгоритм вычисления консенсуса между репозиториями пространство координат для семантической близости четыре уровня совместимости для поэтапного подключения пять стандартных путей онбординга новых репозиториев rest api контракт для внешних потребителей sdk контракт для программных клиентов ключевой принцип федерация слияние native форматы сохраняются как есть унификация происходит только момент обращения через адаптер отличается тем что нормализует практики возникшие ходе разработки reference implementation пространство как первоклассный концепт протокола пять путей онбординга как equivalent рангованные стратегии rest api как mandatory для совместимых порталов поле fallback portalentry расширенная модель консенсуса учётом fallback статуса status this document этот документ рабочий черновик nautilus portal protocol объявления stable возможны изменения breaking changes после stable требуют bump migration guide обратная совместимость все адаптеры продолжают работать новые поля fallback координаты metadata опциональные порталы поддерживают оба протокола через shim логику комментарии предложения через issues репозитории github com svend nautilus https github com svend nautilus смотрите также abstract docs anthropic vacancies abstract abstract docs anthropic vacancies abstract status this document docs anthropic vacancies status this document introduction docs nautilus npp introduction",
     "tags": [
       "architecture",
       "anthropic",

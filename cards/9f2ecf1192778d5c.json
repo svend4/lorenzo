@@ -6,12 +6,13 @@
     "docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:db308fb12f8073de",
   "payload": {
     "title": "Заключение",
     "summary": "AI-координированной интеллектуальной работы.",
+    "body": "заключение источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также заключение docs anthropic vacancies заключение rekursivnoe prozrenie docs nautilus infrastructure layer rekursivnoe prozrenie pochemu postroeno docs nautilus infrastructure layer pochemu postroeno reshaet docs nautilus infrastructure layer reshaet",
     "tags": [
       "architecture",
       "anthropic",

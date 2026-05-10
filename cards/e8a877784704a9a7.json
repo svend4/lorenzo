@@ -6,12 +6,13 @@
     "docs/obsidian/05-habr-projects/knowledge/wikontic.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:7fb22d8b82787edc",
   "payload": {
     "title": "Wikontic: семантический граф",
     "summary": "Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пайплайн построения графов знаний из текста с использованием онтологии Wikidata, дедупликацией и типиза",
+    "body": "wikontic семантический граф warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема решает буквально тот класс проблем что чуяна слое нормализация kubernetes кубер одна сущность через ручной skillssynonyms yml через автоматическ ключевые слова projects memory readme yodoca wikontic https companies articles статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено wikontic алла чепурова airi лаборатория cognitive systems https habr com companies airi articles более ранняя статья https habr com companies airi articles пай проекты wikontic wikontic алла чепурова airi лаборатория cognitive systems https habr com companies airi articles более ранняя статья https habr com companies airi articles пайплайн построения графов знаний текста использованием онтологии wikidata дедупликацией типизацией сущностей решает буквально тот класс проблем что чуяна слое нормализация kubernetes кубер одна сущность через ручной skills synonyms yml через автоматическую сверку онтологией чуяна справочник сотню строк который дополняет вручную алла построила что делает это автоматически похожие документы readme сходство ngt memory сходство смотрите также yodoca ngt memory collaboration partners synthesis упоминается ngt ngt memory ассоциативный граф memory ngt memory yodoca yodoca консолидация забывание memory yodoca collaboration partners авторы контакты synthesis синтез как проекты собираются вместе readme системы знаний упоминается readme системы знаний связанные документы synthesis синтез как проекты собираются вместе ngt ngt memory ассоциативный граф memory ngt memory yodoca yodoca консолидация забывание memory yodoca collaboration partners авторы контакты readme уникальные проекты хабра readme системы памяти связанные документы readme системы знаний synthesis синтез как проекты собираются вместе readme уникальные проекты хабра ngt ngt memory ассоциативный граф docs habr projects memory ngt memory readme системы памяти yodoca yodoca консолидация забывание docs habr projects memory yodoca",
     "tags": [
       "ingestion",
       "collaboration"

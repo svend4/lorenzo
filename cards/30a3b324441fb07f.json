@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:51df916f5d9a528d",
   "payload": {
     "title": "Сложности и рекомендации перед detailed specification",
     "summary": "Прежде чем переходим к detailed specification, вижу несколько difficulties которые нужно address:",
+    "body": "сложности рекомендации перед detailed specification important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин проекты cardindex смотрите также dhlab umbrella docs lorenzo agent naming dhlab umbrella что такое вариант concept document для anthropic docs anthropic vacancies что такое вариант concept document для anthropic appendix sample ingit mcp server tool specificat docs anthropic vacancies appendix sample ingit mcp server tool specificat strategic positioning docs nautilus ingit cowork strategic positioning",
     "tags": [
       "rag",
       "knowledge",

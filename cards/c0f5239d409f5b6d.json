@@ -6,12 +6,13 @@
     "docs/obsidian/VERSION_DIFF.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:384b6d887170b8bf",
   "payload": {
     "title": "Diff базы знаний между версиями",
     "summary": "Изменено файлов: **59** | Добавлено слов: **+143** | Удалено слов: **-2403**",
+    "body": "diff базы знаний между версиями обновлено head head изменено файлов добавлено слов удалено слов изменённые файлы файл слов добавленные темы удалённые темы docs scripts catalog содержание docs concepts docs version diff изменённые файлы новые файлы изменённые файлы docs changelog коммитов коммитов docs tables изменившиеся файлы топ слов без метаданных нет summary или тегов файлов точная дата изменившиеся файлы топ слов без метаданных нет summary или тегов файлов точная дата docs tasks index содержание docs kpi версия количество размер версия количество размер docs registry содержание docs empty sections tables tables version diff docs digest auto docs action items решения рекомендации ограничения решения рекомендации ограничения docs duplicates docs questions duplicates duplicates tables duplicates duplicates tables docs content gaps gdpr файлов hmp файлов idf файлов gdpr файлов hmp файлов linkedin файлов docs citation index docs links docs compare docs priorities docs readme docs timeline упоминаний упоминаний упоминаний упоминаний упоминаний упоминаний docs see also docs tags architecture файлов collaboration файлов ingestion файлов architecture файлов collaboration файлов ingestion файлов docs abbreviations docs alerts docs authors docs badges docs code blocks docs complexity docs concept graph docs consistency docs contacts docs contact priority docs contradictions числовое уверенность числовое уверенность числовое уверенность числовое уверенность числовое уверенность числовое уверенность docs crossrefs docs density docs digest weekly docs entities docs glossary docs graph docs health docs knowledge map docs language stats docs metrics docs missing docs named entities github файлов google файлов llm файлов github файлов google файлов llm файлов docs network docs outline docs paragraph quality docs action items проблем docs changelog проблем docs concepts проблем docs action items проблем docs changelog проблем docs concepts проблем docs passive voice docs readability docs reading time docs report docs sentiment docs sitemap docs spellcheck docs staleness без метаданных нет summary или тегов файлов без метаданных нет summary или тегов файлов docs stats docs vocabulary docs word freq root слов templates слов root слов templates слов",
     "tags": [
       "rag",
       "orchestration",

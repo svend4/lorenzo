@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:56ebcbfb3e519d5d",
   "payload": {
     "title": "Что такое частичное соответствие — честно",
     "summary": "Patent-grade изобретательство (TetraDrone, FlamberRotor, WILOS, Рой роботов-зверей) — на это в Anthropic просто нет места.",
+    "body": "что такое частичное соответствие честно источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также unique niche legal infra docs anthropic vacancies profile mapping initial analysis unique niche legal infra question habr link docs nautilus community discussions habr article reaction question habr link appendix change log docs nautilus npp appendix change log reference implementation docs nautilus npp reference implementation",
     "tags": [
       "anthropic",
       "collaboration"

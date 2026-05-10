@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:1e449be5b8d446ab",
   "payload": {
     "title": "5. Связь с существующими методологиями",
     "summary": "Теоретическим прародителем является **N-version programming**",
+    "body": "связь существующими методологиями warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема связь существующими методологиями contents подход новое данной методологии новое данной методологии теоретическим прародителем является version programming ключевые слова version programming связь существующими методологиями reviews ensembles отличия contents связь существующими методологиями связь существующими методологиями version programming version programming paired reviews academia paired reviews academia consensus ensembles consensus ensembles red team blue team red team blue team новое данной методологии новое данной методологии теоретическим прародителем является version programming смотрите также ограничения открытые вопросы docs anthropic vacancies ограничения открытые вопросы похожие документы ограничения открытые вопросы docs anthropic vacancies ограничения открытые вопросы сходство контекст мотивация docs anthropic vacancies контекст мотивация сходство реализация проекте nautilus docs anthropic vacancies реализация проекте nautilus сходство",
     "tags": [
       "memory",
       "rag"

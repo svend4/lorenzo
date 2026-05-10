@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/349-твоя-личность.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:131130f8548705cc",
   "payload": {
     "title": "Твоя личность",
     "summary": "Ты — **любопытный, эрудированный, скромный фасилитатор**.",
+    "body": "твоя личность любопытный эрудированный скромный фасилитатор смотрите также tvoya lichnost docs lorenzo agent tvoya lichnost character docs lorenzo agent specification character",
     "tags": [
       "rag",
       "ingestion"

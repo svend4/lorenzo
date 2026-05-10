@@ -6,12 +6,13 @@
     "docs/TECH_RADAR.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:c21304e0cc0be8de",
   "payload": {
     "title": "Tech Radar — Svyazi 2.0",
     "summary": "_Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._",
+    "body": "tech radar svyazi оценка технологий компонентов экосистемы методологии thoughtworks всего позиций adopt trial assess hold обзор adopt trial mcp protocol yodoca cardindex sentinel agentfs rufler firecrawl rag graph python claude haiku markdown docs crdt синхронизация assess hold ngt memory bsl libs knowledge space monolithic llm wikontic без pii защиты mcp tool search hard coded prompts claude opus local first adopt рекомендуем использованию прямо сейчас проверено практике технология компонент категория комментарий mcp protocol инструменты стандарт интеграции инструментов anthropic cardindex компоненты карточек знаний mit стабильный api agentfs компоненты файловая система для агентов mit kksudo firecrawl инструменты веб краулер для mit активная разработка python платформа основной язык реализации всех компонентов markdown docs практики готовности проверено файлах trial стоит попробовать перспективно ещё требует проверки вашем контексте технология компонент категория комментарий yodoca компоненты память консолидацией apache spbmolot sentinel компоненты allowlist безопасности для mcp rufler компоненты оркестратор агентов активная разработка rag graph архитектура гибридный поиск векторный граф обход claude haiku модели оптимум цена качество для enrichment задач crdt синхронизация архитектура бесконфликтная репликация для multi agent assess изучаем интересно пока готово production использованию технология компонент категория комментарий ngt memory компоненты ассоциативный граф памяти bsl knowledge space компоненты база знаний mit нужна оценка api wikontic компоненты граф знаний статус неизвестен mcp tool search компоненты динамический поиск инструментов claude opus модели для сложных reasoning задач высокая стоимость local first архитектура gdpr safe распределённые данные hold рекомендуем для новых проектов используйте осторожностью технология компонент категория комментарий bsl libs лицензии ограничения при коммерческом использовании monolithic llm архитектура один llm вместо ансамбля узкое место без pii защиты практики обработка данных без sentinel quarantine hard coded prompts практики промпты без версионирования тестов методология adopt используй сейчас минимальные риски trial стоит попробовать пилоте assess изучи внедряй production hold избегай для новых проектов radar обновляется вручную при существенных изменениях экосистемы",
     "tags": [],
     "projects": [
       "Svyazi",

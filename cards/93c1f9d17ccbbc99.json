@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/security/default-policy.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:6babb7d89aec68ba",
   "payload": {
     "title": "Что стоит зафиксировать как default policy",
     "summary": "",
+    "body": "что стоит зафиксировать как default policy warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты svyazi factory agent memory mcp sentinel смотрите также security privacy docs svyazi security privacy безопасность приватность бюджетный роутинг docs collaborations безопасность приватность бюджетный роутинг risks docs svyazi prototype risks first contacts docs svyazi outreach first contacts кто ссылается этот документ components name docs glossary components name concepts docs glossary concepts readme docs svyazi security readme",
     "tags": [
       "memory",
       "orchestration",

@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/limitations/do-not-glue.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:34b4045504e56b68",
   "payload": {
     "title": "Что пока лучше не склеивать",
     "summary": "",
+    "body": "что пока лучше склеивать warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел ограничения лицензии что пока лучше склеивать проекты mclaude factory rufler autoresearch whisper yttri смотрите также limitations docs svyazi limitations license tree docs svyazi limitations license tree ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать conclusions docs svyazi limitations conclusions",
     "tags": [
       "memory",
       "rag",

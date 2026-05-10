@@ -6,12 +6,13 @@
     "docs/nautilus/double-triangle-architecture/09-acknowledgments.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:7f1449eac0dda502",
   "payload": {
     "title": "Acknowledgments",
     "summary": "This work emerged through extensive collaboration with Anthropic's",
+    "body": "acknowledgments tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration смотрите также acknowledgments docs anthropic vacancies acknowledgments difference federation missing docs anthropic vacancies hermes comparison difference federation missing appendix glossary docs anthropic vacancies appendix glossary appendix change log docs nautilus npp appendix change log",
     "tags": [
       "rag",
       "roadmap",

@@ -6,12 +6,13 @@
     "docs/GLOSSARY.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:f38f07d511a7517e",
   "payload": {
     "title": "Глоссарий проектов",
     "summary": "Все проекты, упоминаемые в документах, с количеством файлов.",
+    "body": "глоссарий проектов все проекты упоминаемые документах количеством файлов проект упоминается файлах factory aif handoff agentfs auto router autoresearch automerge cardindex firecrawl graph rag hybrid rag legal rag litellm liteparse memnet memory ngt memory openwhispr rlm toolkit rufler sentinel self aware mcp sequential svyazi tool search whisper wikontic yjs yodoca yttri agent memory mcp knowledge space mclaude смотрите также mindmap docs mindmap graph docs graph network docs network contact priority docs contact priority",
     "tags": [],
     "projects": [
       "Svyazi",

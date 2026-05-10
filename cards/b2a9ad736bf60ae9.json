@@ -6,12 +6,13 @@
     "docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:4da0958755c4e8cd",
   "payload": {
     "title": "Комбинация 25: Legal DSL → Code Transpiler",
     "summary": "Python AST (Abstract Syntax Tree manipulation, code generation)",
+    "body": "комбинация legal dsl code transpiler источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также legal document transpiler docs technology combinations combinations legal document transpiler meta programmatic legal template generator docs technology combinations combinations meta programmatic legal template generator pydantic enforced legal workflows docs technology combinations combinations pydantic enforced legal workflows ast based code analysis for legal automation docs technology combinations combinations ast based code analysis for legal automation кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme extended docs technology combinations synthesis tables extended",
     "tags": [
       "rag"
     ],

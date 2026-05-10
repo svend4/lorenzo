@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/operationalized/02-minuses-1-10.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:b5df887f306e24cf",
   "payload": {
     "title": "Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact",
     "summary": "Integration effort: легко 30-50% от building from scratch. Не trivial.",
+    "body": "минусы integration сложность lifecycle risk license framing competition scope limitations complexity budget project tension tool impact tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ внуковой комбинации которая operationalises концепт lorenzo проекты knowledge space mclaude rufler legal rag смотрите также развёрнутый анализ внуковой комбинации docs anthropic vacancies развёрнутый анализ внуковой комбинации anchor node habr scout docs lorenzo agent operationalized anchor node habr scout pluses docs lorenzo agent operationalized pluses recommendations docs lorenzo agent operationalized recommendations",
     "tags": [
       "rag",
       "orchestration",

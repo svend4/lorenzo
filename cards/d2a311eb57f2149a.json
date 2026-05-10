@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:80766242cc2eacf3",
   "payload": {
     "title": "Ограничения текущей версии (0.1.0-draft)",
     "summary": "title: \"Ограничения текущей версии (0.1.0-draft)\"",
+    "body": "ограничения текущей версии draft работает только stdio mode http mode планируется ограничения текущей версии draft работает только stdio mode http mode планируется кэширует результаты между tool calls каждый раз заново nautilus neighbors эвристически ищет entries финальная версия потребует индекса nautilus health использует fallback алгоритм если health check удалось импортировать поддерживает private repos все адаптеры memnet nautilus json доступны похожие документы доступные инструменты сходство смотрите также доступные инструменты примеры запросов claude appendix minimal working example planned упоминается mcp extension informative mcp extension informative readme вакансии anthropic анализ кластерам доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude упоминается readme вакансии anthropic анализ кластерам связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative связанные документы доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative",
     "tags": [
       "memory",
       "anthropic",

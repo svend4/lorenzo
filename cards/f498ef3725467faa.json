@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:10902640efb16441",
   "payload": {
     "title": "Question 9: Geographic / linguistic scope",
     "summary": "Question 9: Geographic / linguistic scope?",
+    "body": "question geographic linguistic scope источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин смотрите также whom lorenzo serves docs lorenzo agent specification whom lorenzo serves yazyki kultura docs lorenzo agent yazyki kultura other relationships docs lorenzo agent specification other relationships funding model docs lorenzo agent specification funding model",
     "tags": [
       "rag",
       "ingestion",

@@ -6,12 +6,13 @@
     "docs/05-habr-projects/02-collaboration-partners.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:ddda4a905b70da40",
   "payload": {
     "title": "Авторы и контакты",
     "summary": "автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов которые вместе можно совместить и которые дойдут вместе один уникальный проект",
+    "body": "авторы контакты абстракт авто проблема авторы контакты статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено автора статьи выше подобных ключевые слова которые projects подобных может проектов вместе svyazi memory статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено автора статьи выше подобных авторов подобных разработчиков или ещё может быть или может быть даже несколько проектов которые вместе можно совместить которые дойдут вместе один уникальный проект проекты svyazi svyazi похожие документы readme docs habr projects readme сходство смотрите также synthesis docs habr projects synthesis yodoca docs habr projects memory yodoca ngt memory docs habr projects memory ngt memory wikontic docs habr projects knowledge wikontic llm large language model большая языковая модель svyazi главный проект экосистема компонентов кто ссылается этот документ synthesis docs habr projects synthesis readme docs habr projects readme wikontic docs habr projects knowledge wikontic yodoca docs habr projects memory yodoca",
     "tags": [
       "knowledge",
       "ingestion",

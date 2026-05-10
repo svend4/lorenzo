@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:2609c0c114dff479",
   "payload": {
     "title": "Что этот документ не решает",
     "summary": "Он не предоставляет дорожную карту реализации.",
+    "body": "что этот документ решает warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений этот документ определяет проблему смотрите также ensemble docs templates ensemble что промышленность вероятно построит docs anthropic vacancies что промышленность вероятно построит sentiment docs sentiment appendix примеры расхождений разрешения docs anthropic vacancies appendix примеры расхождений разрешения похожие документы ensemble docs templates ensemble сходство appendix примеры расхождений разрешения docs anthropic vacancies appendix примеры расхождений разрешения сходство что промышленность вероятно построит docs anthropic vacancies что промышленность вероятно построит сходство",
     "tags": [
       "architecture",
       "collaboration"

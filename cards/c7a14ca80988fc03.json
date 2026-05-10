@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:1ff786aeead609b5",
   "payload": {
     "title": "Appendix A: Minimal Working Example",
     "summary": "title: \"Appendix A: Minimal Working Example\"",
+    "body": "appendix minimal working example абстракт авто проблема appendix minimal working example contents appendix minimal working example appendix minimal working example подход похожие документы appendix minimal working example docs anthropic vacancies appendix minimal working example сходство portal protocol docs ключевые слова minimal appendix working example anthropic vacancies portal notes contents appendix minimal working example appendix minimal working example memnet minimal nautilus json minimal nautilusjson minimal adapter level minimal adapter level minimal passport minimal passport passport passports notes appendix minimal working example minimal nautilus json protocol version ecosystem name example registry name notes repo owner notes format notes adapter notes passport passports notes compatibility key определено minimal adapter level adapters notes from base import baseadapter portalentry class mynotesadapter baseadapter name notes repo owner notes def fetch self query str list portalentry query lower results for self static entries title lower content lower return results self static entries fallback def static entries self list portalentry return portalentry notes intro title introduction source self repo format type document content sample content about metadata links fallback true больше entries def describe self dict return repo self repo format notes native unit markdown note total items compatibility minimal passport паспорт owner notes поле значение репозиторий owner notes формат markdown notes единица markdown документ адаптер adapters notes уровень совместимости читаемый описание описание персональная коллекция markdown заметок похожие документы appendix minimal working example сходство portal protocol сходство passports info сходство смотрите также appendix minimal working example portal mcp portal protocol review methodology",
     "tags": [
       "ingestion"
     ],

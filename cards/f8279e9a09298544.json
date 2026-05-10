@@ -47,12 +47,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:a80d588fb4e0024b",
   "payload": {
     "title": "Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров",
     "summary": "Статья даёт только общие цифры (≈429 вакансий, вилка $320–405 тыс.). На официальной странице вакансий Anthropic — **436 открытых ролей** (цифра плавает ежедневно). Важная поправка к формулировке журналиста: это **все открытые позиции компании**, а не «429 разработчиков» — инженерных из них примерно ",
+    "body": "обзор открытых ролей anthropic разбитых кластеров источник mhtml снимок вакансии anthropic кластерам claude корень репозитория затравка статья dnews вакансий вилка тыс смотрите также technical program management docs anthropic vacancies clusters technical program management communications docs anthropic vacancies clusters communications safeguards trust safety docs anthropic vacancies clusters safeguards trust safety product management support ops docs anthropic vacancies clusters product management support ops",
     "tags": [
       "anthropic"
     ],

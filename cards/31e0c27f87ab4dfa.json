@@ -6,12 +6,13 @@
     "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:2aef70d7bc756941",
   "payload": {
     "title": "Du hast gesagt: https://habr.",
     "summary": "",
+    "body": "hast gesagt https habr источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога реакция habr статью смотрите также appendix change log docs nautilus npp appendix change log communications docs anthropic vacancies clusters communications people docs anthropic vacancies clusters people reference implementation docs nautilus npp reference implementation",
     "tags": [
       "anthropic",
       "collaboration"

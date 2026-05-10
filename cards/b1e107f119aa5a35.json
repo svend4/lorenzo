@@ -6,12 +6,13 @@
     "docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:2febc0fd65c320c0",
   "payload": {
     "title": "Ансамбль 4 — Web-to-Knowledge Pipeline",
     "summary": "4. Web-to-Knowledge Pipeline: «браузер не как экран, а как датчик данных»",
+    "body": "ансамбль web knowledge pipeline источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi knowledge space firecrawl смотрите также agentic knowledge docs collaborations ensembles agentic knowledge ambient team agent docs collaborations ensembles ambient team agent domain agent app factory docs collaborations ensembles domain agent app factory budget aware intelligence stack docs collaborations ensembles budget aware intelligence stack",
     "tags": [
       "knowledge",
       "ingestion",

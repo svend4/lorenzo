@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:ed52cff50721131d",
   "payload": {
     "title": "Personal multi-agent hub",
     "summary": "Что получается: Personal multi-agent hub:",
+    "body": "personal multi agent hub источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов смотрите также specialized knowledge workspace docs habr unique projects extra examples specialized knowledge workspace platform for professional communities docs habr unique projects extra examples platform for professional communities federated platform docs habr unique projects extra examples federated platform claude subagents patterns docs habr unique projects extra examples claude subagents patterns",
     "tags": [
       "architecture",
       "anthropic",

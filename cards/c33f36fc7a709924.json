@@ -6,12 +6,13 @@
     "docs/obsidian/STATS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:4e76e846c8a17f5e",
   "payload": {
     "title": "Детальная статистика репозитория",
     "summary": "title: \"Детальная статистика репозитория\"",
+    "body": "детальная статистика репозитория содержание сводная таблица разделам сводная таблица разделам топ файлов объёму топ файлов объёму ключевые показатели ключевые показатели разделов файлов слов символов сводная таблица разделам раздел файлов слов таблиц блоков кода ссылок жирного svyazi anthropic vacancies technology combinations collaborations habr projects collaborations anthropic vacancies autofilled badges contacts glossary habr unique projects lorenzo agent nautilus root svyazi technology combinations templates итого топ файлов объёму файл слов таблиц код tables outline приложение образец спецификаций интегральный анализ профиля svend readability обратная связь paragraph quality concepts reading time empty sections intro что такое вариант concept document section response closing heading audit intro appendix version history action items scripts catalog ключевые показатели среднее слов файл всего заголовков всего таблиц всего code блоков всего ссылок выделений жирным todo fixme меток",
     "tags": [
       "rag",
       "ingestion",

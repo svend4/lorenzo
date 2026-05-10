@@ -6,12 +6,13 @@
     "docs/DENSITY.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:1bd3e86399d3f2d8",
   "payload": {
     "title": "Карта плотности тем",
     "summary": "Количество упоминаний каждой темы в каждом разделе.",
+    "body": "карта плотности тем tip этот документ описывает mvp подход начните него для быстрого прототипа количество упоминаний каждой темы каждом разделе тема svyazi vacancies tech collab habr root итого svyazi cardindex agentfs yodoca ngt memory sentinel rufler factory knowledge forensic rag mcp mvp архитектура безопасность лицензия roadmap вакансии комбинации habr контакты наиболее раскрытые темы тема упоминаний визуализация вакансии svyazi agentfs ngt memory habr mcp архитектура лицензия комбинации yodoca слабо раскрытые темы все темы достаточно раскрыты где сосредоточена каждая тема тема основной раздел svyazi root cardindex root agentfs root yodoca root ngt memory root sentinel root rufler root factory root knowledge root forensic rag root mcp root mvp root архитектура root безопасность root лицензия root roadmap root вакансии root комбинации root habr root контакты root",
     "tags": [],
     "projects": [
       "Svyazi",

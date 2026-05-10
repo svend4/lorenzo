@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/key-findings/02-memnet.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:01079e814b9f860c",
   "payload": {
     "title": "MemNet — нейроархитектурный двойник «магии» Svyazi",
     "summary": "Нейроархитектурный двойник «магии» Svyazi",
+    "body": "memnet нейроархитектурный двойник магии svyazi источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi ngt memory memnet смотрите также tsu mome docs habr unique projects hardware pairs tsu mome yodoca docs habr unique projects key findings yodoca supplementary infrastructure docs habr unique projects key findings supplementary infrastructure pda llm periphery docs habr unique projects key findings pda llm periphery кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name concepts docs glossary concepts readme docs habr unique projects key findings readme",
     "tags": [
       "memory",
       "ingestion",

@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/128-доступные-инструменты.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:76f984db07e6a15f",
   "payload": {
     "title": "Доступные инструменты",
     "summary": "После успешной интеграции Claude Desktop получает доступ к 7 tools:",
+    "body": "доступные инструменты после успешной интеграции claude desktop получает доступ tools доступные инструменты после успешной интеграции claude desktop получает доступ tools tool назначение nautilus query поиск всей экосистеме consensus nautilus query repo поиск конкретном репо nautilus list repos список всех адаптеров метаданными nautilus consensus check проверка concept agreement nautilus describe описание экосистемы философия версия angles nautilus neighbors поиск соседей hamming distance nautilus health health score похожие документы примеры запросов claude сходство mcp extension informative сходство rest api contract normative for portals сходство смотрите также примеры запросов claude mcp extension informative appendix change log rest api contract normative for portals упоминается rest api contract normative for portals rest api contract normative for portals mcp extension informative mcp extension informative appendix change log appendix change log readme вакансии anthropic анализ кластерам ограничения текущей версии draft ограничения текущей версии draft примеры запросов claude примеры запросов claude упоминается readme вакансии anthropic анализ кластерам связанные документы mcp extension informative mcp extension informative примеры запросов claude примеры запросов claude appendix change log appendix change log ограничения текущей версии draft ограничения текущей версии draft rest api contract normative for portals rest api contract normative for portals связанные документы примеры запросов claude примеры запросов claude mcp extension informative mcp extension informative ограничения текущей версии draft ограничения текущей версии draft rest api contract normative for portals rest api contract normative for portals appendix change log appendix change log reference implementation reference implementation appendix references appendix references sdk contract informative sdk contract informative",
     "tags": [
       "architecture"
     ],

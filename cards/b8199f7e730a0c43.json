@@ -31,12 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:c09a3c3099756209",
   "payload": {
     "title": "Конфигурация для Claude Desktop",
     "summary": "После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Путь зависит от ОС:",
+    "body": "конфигурация для claude desktop после сохранения portal mcp корне репо чтобы подключить claude desktop нужно отредактировать файл конфигурации mcp путь зависит похожие документы подключение claude desktop подключение claude desktop сходство отладка отладка сходство смотрите также подключение claude desktop подключение claude desktop отладка отладка readme mcp инструкция установке readme mcp инструкция установке примеры запросов claude примеры запросов claude упоминается вакансии anthropic анализ кластерам readme отладка отладка подключение claude desktop подключение claude desktop упоминается вакансии anthropic анализ кластерам readme связанные документы отладка отладка подключение claude desktop подключение claude desktop связанные документы отладка отладка подключение claude desktop подключение claude desktop глоссарий глоссарий terminology terminology кто ссылается этот документ глоссарий docs anthropic vacancies глоссарий readme mcp инструкция установке docs anthropic vacancies readme mcp инструкция установке подключение claude desktop docs anthropic vacancies подключение claude desktop примеры запросов claude docs anthropic vacancies примеры запросов claude отладка docs anthropic vacancies отладка readme docs anthropic vacancies readme",
     "tags": [
       "anthropic"
     ],

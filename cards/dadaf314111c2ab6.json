@@ -6,12 +6,13 @@
     "docs/obsidian/ENTITIES.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:69b472a5ac886af6",
   "payload": {
     "title": "Именованные сущности",
     "summary": "",
+    "body": "именованные сущности люди авторы люди авторы проекты svyazi cardindex agentfs knowledge space mclaude factory rufler liteparse содержание люди авторы люди авторы проекты проекты организации организации технологии стандарты технологии стандарты github репозитории github репозитории встречаемость проектов топ пары встречаемость проектов топ пары файлов просмотрено люди авторы имя упоминаний файлов lorenzo svend spbmolot kksudo андрей виталий антропик проекты проект упоминаний файлов nautilus svyazi lorenzo cowork ingit sgb yodoca cardindex agentfs ngt knowledge space memnet mclaude rufler liteparse factory sentinel wikontic firecrawl agent memory mcp shield mcp tool search организации организация упоминаний файлов anthropic claude habr github хабр obsidian google openai chatgpt технологии стандарты технология упоминаний файлов rag mcp mit llm json python rest crdt yaml rust apache bsl sqlite mermaid postgresql idf typescript langchain faiss websocket fastapi jwt graphql oauth github репозитории репозиторий упоминаний https github com svend nautilus https github com svend nautilus https github com svend ingit https github com svend ingit https github com svend pro https github com svend pro https github com svend info https github com svend info https github com anastasiyaw knowledge space https github com anastasiyaw knowledge space https github com svend meta https github com svend meta https github com settings tokens https github com settings tokens https github com camel camel https github com camel camel https github com svend data https github com svend data https github com anthropics mcp https github com anthropics mcp https github com svend info https github com svend info https github com svend info https github com svend info https github com vitalyoborin yodoca https github com vitalyoborin yodoca https github com spbmolot ngt memory https github com spbmolot ngt memory https github com kksudo agentfs https github com kksudo agentfs встречаемость проектов топ пары пара общих файлов cowork ingit nautilus sgb svyazi yodoca nautilus cowork svyazi cardindex svyazi ngt nautilus ingit yodoca ngt svyazi agentfs svyazi memnet nautilus memnet svyazi knowledge space cardindex ngt svyazi mclaude nautilus svyazi yodoca cardindex agentfs ngt svyazi rufler yodoca agentfs cardindex agentfs смотрите также network glossary graph contacts",
     "tags": [
       "memory",
       "rag",

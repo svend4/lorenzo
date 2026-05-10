@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:28f0d01b4bf213bd",
   "payload": {
     "title": "Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)",
     "summary": "InnoCentive (ныне Wazoku Crowd) — с 2001 года платформа открытых R&D-задач с cash prizes. Работает, но по старой модели: задача → много независимых решений → комитет выбирает одно. Командообразования нет, AI-оркестрации нет. Решает узкий класс задач, где решение можно формализовать заранее.",
+    "body": "что уже существует innocentive kaggle toptal anthropic fellows daos источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также current implementations docs anthropic vacancies managed virtual company current implementations three variants docs anthropic vacancies managed virtual company three variants pluses model docs anthropic vacancies managed virtual company pluses model three entry points docs anthropic vacancies managed virtual company three entry points",
     "tags": [
       "orchestration",
       "anthropic"

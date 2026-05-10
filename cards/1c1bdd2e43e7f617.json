@@ -6,12 +6,13 @@
     "docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:1830f7345c454698",
   "payload": {
     "title": "Безопасность, приватность и бюджетный роутинг",
     "summary": "Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP servers, импорты документов и memory writes потенциально недоверенными**. Это не паранойя, а прямой вывод из материалов про Prompt Worms, катастрофы автономных агентов и практик защиты AI Fa",
+    "body": "безопасность приватность бюджетный роутинг абстракт авто проблема третьих auto router litellm позволяют скрыть провайдерную сложность единым api rlm toolkit прямо формализует budget first privacy first конфигурации подход при таком подходе дорогая модель перестаёт быть двигателем всего становится дорогим редким specialist step результат первых memory показывает что extraction высокий reasoning всегда полезен может ломать schema discipline ключевые слова svyazi search memory только privacy security нужен модель статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено tip этот документ описывает mvp подход начните него для быстрого прототипа для svyazi svyazi безопасная архитектура добавить сканер конце самого начала считать skills mcp mcp servers импорты документов memory writes потенциально недоверенными это паранойя проекты svyazi agentfs agentfs factory agent memory mcp sentinel sentinel litellm auto router tool search похожие документы security privacy docs svyazi docs svyazi intro part security privacy сходство план прототипа возможные контакты docs collaborations план прототипа возможные контакты сходство mvp planning docs svyazi docs svyazi intro part mvp planning сходство смотрите также security privacy docs svyazi docs svyazi intro part security privacy план прототипа возможные контакты docs collaborations план прототипа возможные контакты приоритетные ансамбли docs collaborations приоритетные ансамбли mvp planning docs svyazi docs svyazi intro part mvp planning mcp model context protocol протокол для инструментов llm large language model большая языковая модель pii personally identifiable information персональные данные agentfs oss проект файловая система для агентов mit sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов кто ссылается этот документ readme docs collaborations readme risk register docs risk register tables docs tables",
     "tags": [
       "memory",
       "rag",

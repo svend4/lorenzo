@@ -6,12 +6,13 @@
     "docs/obsidian/METRICS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:32c7ac46cfcf7bc6",
   "payload": {
     "title": "Метрики качества документации",
     "summary": "",
+    "body": "метрики качества документации файлов средний балл качество разделам раздел балл ссылок слов код блоков summary тегами svyazi anthropic vacancies technology combinations collaborations habr projects root топ лучших документов документ балл слов интегральный анализ профиля svend общий план развития nautilus portal принципы консолидации фаза обратная связь the double triangle architecture pattern library bridge between типология пяти типов агентов приложение архитектура быстрого симбиотическая архитектура четыре пути интеграции порядке приложение образец спецификаций что такое вариант concept document развёрнутый анализ внуковой комбинац технический stack svyazi foundat section документы требующие улучшения документ балл что отсутствует appendix domain comparison summary tags toc callout приложение матрица сравнения summary tags toc callout abbreviations summary tags toc callout authors summary tags toc callout complexity summary tags toc callout crossrefs summary tags toc callout density summary tags toc callout glossary summary tags toc callout kpi summary tags toc callout links summary tags toc callout mcp dashboard summary tags toc callout missing summary tags toc callout priorities summary tags toc callout questions summary tags toc callout sentiment summary tags toc callout tags summary tags toc callout word freq summary tags toc callout readme summary tags toc callout общие показатели файлов summary файлов тегами файлов оглавлением файлов callout средний балл качества смотрите также stats llm summaries content gaps health",
     "tags": [
       "memory",
       "ingestion",

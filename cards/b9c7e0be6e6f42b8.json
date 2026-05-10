@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/74-abstract.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:8003d3b8e83bf03b",
   "payload": {
     "title": "Abstract",
     "summary": "Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации",
+    "body": "abstract абстракт авто проблема abstract nautilus portal protocol далее npp определяет способ федерации abstract nautilus portal protocol далее npp определяет способ федерации независимых git репозито подход алгоритм вычисления консенсуса между репозиториями ключевые слова anthropic vacancies abstract introduction terminology nautilus федерации сходство nautilus portal protocol далее npp определяет способ федерации abstract nautilus portal protocol далее npp определяет способ федерации независимых git репозиториев содержащих знания разных native форматах без принудительного слияния единую схему протокол специфицирует минимальный манифест объявляющий репозиторий участником федерации memnet nautilus json формат человекочитаемого описания репозитория passport обязательный интерфейс адаптера интегральный анализ профиля svend baseadapter унифицированную структуру данных интегральный анализ профиля svend portalentry алгоритм вычисления консенсуса между репозиториями пространство координат для семантической близости четыре уровня совместимости для поэтапного подключения пять стандартных путей онбординга новых репозиториев rest api контракт для внешних потребителей sdk контракт для программных клиентов ключевой принцип федерация слияние native форматы сохраняются как есть унификация происходит только момент обращения через адаптер отличается тем что нормализует практики возникшие ходе разработки reference implementation пространство как первоклассный концепт протокола пять путей онбординга как equivalent рангованные стратегии rest api как mandatory для совместимых порталов поле fallback интегральный анализ профиля svend portalentry расширенная модель консенсуса учётом fallback статуса похожие документы abstract сходство introduction сходство terminology сходство смотрите также abstract introduction terminology appendix minimal working example упоминается introduction introduction terminology terminology terminology terminology принципы консолидации фаза принципы консолидации фаза portalentry structure portalentry structure abstract abstract readme вакансии anthropic анализ кластерам упоминается readme вакансии anthropic анализ кластерам связанные документы abstract abstract terminology terminology terminology terminology appendix minimal working example appendix minimal working example связанные документы abstract abstract terminology terminology terminology terminology status this document status this document registry nautilus json registry nautilus json review methodology review methodology readme mcp инструкция установке readme mcp инструкция установке portalentry structure portalentry structure",
     "tags": [
       "architecture"
     ],

@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:a513f24a168d6f5b",
   "payload": {
     "title": "Графовая когнитивная память на SQLite (Виталий, март 2026)",
     "summary": "2. Графовая когнитивная память на SQLite (Виталий, март 2026)",
+    "body": "графовая когнитивная память sqlite виталий март important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование проекты ngt memory смотрите также mem letta graphiti docs anthropic vacancies extra collaborator findings mem letta graphiti coally docs anthropic vacancies extra collaborator findings coally key observation docs anthropic vacancies extra collaborator findings key observation приложение образец спецификаций инструментов ing docs anthropic vacancies приложение образец спецификаций инструментов ing",
     "tags": [
       "memory",
       "ingestion",

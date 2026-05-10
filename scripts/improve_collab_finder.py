@@ -231,15 +231,17 @@ def _graph_bonus(card: CardEnvelope, candidate_ids: set[str]) -> float:
 def _title_key(card: CardEnvelope) -> str:
     """Нормализованный ключ заголовка для дедупликации.
 
-    Нормализует так, чтобы «Yodoca[^yodoca]: консолидация», «Yodoca» и
-    «NGT[^ngt] Memory: граф» → «ngt» не расходились с «NGT Memory» → «ngtmemory».
+    Нормализует так, чтобы «Yodoca[^yodoca]: консолидация», «Yodoca»,
+    «NGT[^ngt] Memory: граф» → «ngtmemory» и
+    «MemNet / memory-is-all-you-need» → «memnet» совпадали с
+    «MemNet: исследовательская память» → «memnet».
     """
     t = card.payload.get("title", "").lower()
-    # 1. Удаляем Markdown-сноски [^...] перед разбивкой
+    # 1. Удаляем Markdown-сноски [^...]
     t = re.sub(r'\[\^[^\]]*\]', '', t)
-    # 2. Берём текст до первого жёсткого разделителя (:, —, ()
-    first = re.split(r'[:—–()]', t)[0].strip()
-    # 3. Убираем не-алфавитные символы
+    # 2. Берём первый сегмент до жёстких разделителей (включая "/")
+    first = re.split(r'[:—–()/]', t)[0].strip()
+    # 3. Убираем не-алфавитные символы и пробелы
     key = re.sub(r'[^а-яёa-z0-9\s]', ' ', first).strip()
     key = re.sub(r'\s+', '', key)[:40]
     return key or re.sub(r'[^а-яёa-z0-9]', '', t)[:40]
@@ -275,6 +277,21 @@ def find_candidates(query_text: str, top: int = 5,
         p = card.payload.get("path", "")
         return any(p.startswith(pfx) for pfx in _MIRROR_PREFIXES)
 
+    # Предпочтительные источники: богатый контент из 05-habr-projects/
+    # над заглушками svyazi-2-0/components/ (те же 0 рёбер, но мало текста)
+    _STUB_PREFIXES = ("docs/svyazi-2-0/", "svyazi-2-0/")
+
+    def _card_weight(c: CardEnvelope) -> tuple[int, int, int]:
+        """Вес для дедупликации: (не-зеркало, рёбра, слов в тексте)."""
+        not_mirror = 0 if _is_mirror(c) else 1
+        edges = len(c.edges)
+        # Штрафуем заглушки: у них мало слов и они из svyazi-2-0/
+        wc = c.payload.get("wc", 0)
+        path = c.payload.get("path", "")
+        if any(path.startswith(p) for p in _STUB_PREFIXES):
+            wc = wc // 4  # понижаем приоритет относительно богатых файлов
+        return (not_mirror, edges, wc)
+
     deduped: dict[str, CardEnvelope] = {}
     for card in pool:
         key = _title_key(card)
@@ -283,16 +300,8 @@ def find_candidates(query_text: str, top: int = 5,
         existing = deduped.get(key)
         if existing is None:
             deduped[key] = card
-        else:
-            # Предпочитаем не-зеркало; среди равных — с большим числом рёбер
-            curr_mirror = _is_mirror(card)
-            ex_mirror   = _is_mirror(existing)
-            if ex_mirror and not curr_mirror:
-                deduped[key] = card
-            elif not ex_mirror and curr_mirror:
-                pass  # оставляем existing
-            elif len(card.edges) > len(existing.edges):
-                deduped[key] = card
+        elif _card_weight(card) > _card_weight(existing):
+            deduped[key] = card
 
     pool = list(deduped.values())
 

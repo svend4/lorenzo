@@ -6,12 +6,13 @@
     "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:6a022b59d4b6acb6",
   "payload": {
     "title": "Комбинация 19: Multi-Agent Observability Platform",
     "summary": "OpenTelemetry (unified standard for traces/metrics/logs)",
+    "body": "комбинация multi agent observability platform источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex ngt memory auto router yjs смотрите также mega integration full stack docs technology combinations combinations mega integration full stack local first agent development environment docs technology combinations combinations local first agent development environment extended docs technology combinations synthesis tables extended ultimate legal docs technology combinations mega stacks ultimate legal",
     "tags": [
       "memory",
       "rag",

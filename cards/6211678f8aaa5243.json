@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/final-ensembles/4-summary-authors.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:e0d2a640e2e0922f",
   "payload": {
     "title": "Сводный список авторов и потенциальных соавторов",
     "summary": "Это как раз AutoResearch Карпаты, перенесённый на твой собственный research-loop. И — что поразительно — у тебя уже есть все компоненты: pro2 + понимание Q6 + skills + Obsidian-структура. Не хватает только склейки.",
+    "body": "сводный список авторов потенциальных соавторов источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi yodoca ngt memory autoresearch wikontic смотрите также one person one company docs habr unique projects final ensembles one person one company authors name docs glossary authors name svyazi block map docs habr unique projects key findings svyazi block map discovery research docs habr unique projects final ensembles discovery research кто ссылается этот документ readme docs habr unique projects readme readme docs habr unique projects final ensembles readme reading paths docs reading paths",
     "tags": [
       "memory",
       "knowledge",

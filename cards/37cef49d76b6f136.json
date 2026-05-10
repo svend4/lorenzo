@@ -6,12 +6,13 @@
     "docs/nautilus/representative-agent-layer-en/07-governance-oversight.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:fddee169511e1aac",
   "payload": {
     "title": "7. Governance and Oversight",
     "summary": "Effective Representative Agent systems require governance",
+    "body": "governance and oversight источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также governance and oversight docs anthropic vacancies governance and oversight ethical framework docs nautilus representative agent layer ethical framework architectural specification docs nautilus representative agent layer architectural specification phased rollout docs nautilus representative agent layer phased rollout",
     "tags": [
       "architecture",
       "roadmap",

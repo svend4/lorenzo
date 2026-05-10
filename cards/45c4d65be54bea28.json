@@ -6,12 +6,13 @@
     "docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:48dae0563fba5fc0",
   "payload": {
     "title": "Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync",
     "summary": "ClickHouse (Yandex, колоночная OLAP, 100M+ строк/сек, $2B valuation)",
+    "body": "комбинация hybrid olap oltp with real time sync источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты yjs automerge смотрите также hybrid crdt sql database docs technology combinations combinations hybrid crdt sql database event sourcing cqrs clickhouse analytics docs technology combinations combinations event sourcing cqrs clickhouse analytics distributed agent memory with graph docs technology combinations combinations distributed agent memory with graph final docs technology combinations synthesis tables final кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme final docs technology combinations synthesis tables final",
     "tags": [
       "rag",
       "local-first",

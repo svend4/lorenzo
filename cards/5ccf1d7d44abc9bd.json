@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/86-11-relevance-ranking.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:9d432619784c5002",
   "payload": {
     "title": "11. Relevance Ranking",
     "summary": "v1.1 нормализует алгоритм ранжирования из reference implementation.",
+    "body": "relevance ranking contents relevance ranking relevance ranking scoring formula scoring formula may extensions may extensions нормализует алгоритм ранжирования reference implementation похожие документы consensus algorithm docs anthropic vacancies consensus algorithm сходство consensus algorithm docs anthropic vacancies consensus algorithm сходство смотрите также consensus algorithm docs anthropic vacancies consensus algorithm queryresult structure docs anthropic vacancies queryresult structure reference implementation docs anthropic vacancies reference implementation consensus algorithm docs anthropic vacancies consensus algorithm кто ссылается этот документ appendix change log docs anthropic vacancies appendix change log nautilus portal reference substrate docs anthropic vacancies nautilus portal reference substrate query flow docs anthropic vacancies query flow queryresult structure docs anthropic vacancies queryresult structure reference implementation docs anthropic vacancies reference implementation критерии выбора для фазы docs anthropic vacancies критерии выбора для фазы readme docs anthropic vacancies readme",
     "tags": [
       "anthropic",
       "collaboration"

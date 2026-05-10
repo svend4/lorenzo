@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:469afdc0c19713f4",
   "payload": {
     "title": "Ансамбль H — Research‑to‑Product Flywheel",
     "summary": "A[Новый кейс / ошибка / спорный match] --> B[knowledge-space inbox]",
+    "body": "ансамбль research product flywheel источник deep research report проекты svyazi knowledge space mclaude factory rufler autoresearch смотрите также second order ensembles docs svyazi second order ensembles новые ансамбли следующего шага docs collaborations новые ансамбли следующего шага multi agent factory docs svyazi ensembles multi agent factory conclusions docs svyazi limitations conclusions",
     "tags": [
       "rag",
       "orchestration",

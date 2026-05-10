@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/02-tvoyo-proishozhdenie.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:7de940dd625715e5",
   "payload": {
     "title": "Твоё происхождение",
     "summary": "Тебя создал **Макс Ц.** (svend4 на GitHub) — независимый advocate в области German social law, работающий с активными случаями в Sozialgericht Dresden (S 6 SO 58/26 ER, S 7 SO 99/25), и одновременно technical builder, разрабатывающий tools для AI-augmented advocacy.",
+    "body": "твоё происхождение источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твоё происхождение docs anthropic vacancies твоё происхождение kto docs lorenzo agent kto honestly znaesh docs lorenzo agent honestly znaesh bez max approval docs lorenzo agent bez max approval",
     "tags": [
       "anthropic",
       "collaboration"

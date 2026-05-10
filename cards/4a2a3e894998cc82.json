@@ -6,12 +6,13 @@
     "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:a45b9d354082af1c",
   "payload": {
     "title": "Memory Firewall против prompt worms (ансамбль I)",
     "summary": "4. Четвёртый новый слой: защита от prompt worms и заражения памяти",
+    "body": "memory firewall против prompt worms ансамбль warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi sentinel смотрите также agent firewall docs collaborations ensembles agent firewall mcp protocols docs collaborations continuation mcp protocols agentops trace envelope docs collaborations continuation agentops trace envelope agentic knowledge docs collaborations ensembles agentic knowledge",
     "tags": [
       "memory",
       "rag",

@@ -6,12 +6,13 @@
     "docs/SENTIMENT.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:942225de36e70cc0",
   "payload": {
     "title": "Тональный анализ документов",
     "summary": "",
+    "body": "тональный анализ документов warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений файлов проанализировано тональность разделам раздел оптимизм скептицизм срочность неопределённость тон svyazi скептичный anthropic vacancies скептичный technology combinations нейтральный collaborations скептичный habr projects оптимистичный collaborations скептичный anthropic vacancies скептичный autofilled нейтральный contacts нейтральный glossary нейтральный habr unique projects оптимистичный lorenzo agent скептичный meta scripting скептичный nautilus скептичный obsidian скептичный processing guide скептичный root скептичный svyazi скептичный technology combinations оптимистичный templates скептичный самые оптимистичные документы документ оптимизм тон question habr examples оптимистичный yogi metaphor оптимистичный workflow оптимистичный claude subagents patterns оптимистичный portalentry structure срочный portalentry structure срочный what was missing paper оптимистичный vshe scientific networking оптимистичный mega integration full stack оптимистичный brainbox multi hub оптимистичный самые скептичные риск ориентированные документ скептицизм тон heading audit скептичный paragraph quality скептичный paragraph quality скептичный risk entry скептичный risks and mitigations скептичный risks and mitigations скептичный риски меры противодействия скептичный риски меры противодействия скептичный riski mery скептичный risk analysis скептичный распределение тональности тон файлов скептичный нейтральный оптимистичный срочный неопределённый",
     "tags": [],
     "projects": [
       "Svyazi"

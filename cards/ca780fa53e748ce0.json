@@ -6,12 +6,13 @@
     "docs/KEYWORD_INDEX.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:d8ce1f64debc9235",
   "payload": {
     "title": "Инвертированный индекс ключевых слов",
     "summary": "Уникальных слов: **23264** | Биграмм: **13489** | Файлов: **487**",
+    "body": "инвертированный индекс ключевых слов проблема инвертированный индекс ключевых слов обновлено уникальных слов биграмм файлов python scripts improvekeywordindex query ваш запрос поиск проекты svyazi ngt memory похожие документы concept graph docs concept graph сходство with anthropic cowork platform docs anthropic vacancies with anthropic cowork platform сходство coverage docs coverage сходство смотрите также concept graph docs concept graph with anthropic cowork platform docs anthropic vacancies with anthropic cowork platform coverage docs coverage acknowledgments docs anthropic vacancies acknowledgments кто ссылается этот документ abstract docs anthropic vacancies abstract nautilus portal reference substrate docs anthropic vacancies nautilus portal reference substrate appendix quick start architecture for sgb advoca docs anthropic vacancies appendix quick start architecture for sgb advoca with anthropic cowork platform docs anthropic vacancies with anthropic cowork platform приложение образец спецификаций инструментов ing docs anthropic vacancies приложение образец спецификаций инструментов ing readme docs readme tables docs tables",
     "tags": [
       "memory",
       "ingestion",

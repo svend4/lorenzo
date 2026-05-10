@@ -6,12 +6,13 @@
     "docs/nautilus/professional-colleague-agents-en/00-abstract.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:f71b3a54dd51be61",
   "payload": {
     "title": "Professional Colleague Agents",
     "summary": "Building on the Representative Agent Layer paper, we observe",
+    "body": "professional colleague agents источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper professional colleague agents написанный совместно claude abstract building the representative agent layer paper observe that agents the principal side not single category but structured family least five distinct types personal assistants professional colleague agents institutional agents employee agents and representative agents each type serves different need has different economics requires different governance and proceeds different pace deployment this paper develops the professional colleague agent category detail argue that professional colleague agents are the lowest friction highest leverage entry point for deployment skilled professions because they operate within already standardized professional contexts augment rather than replace the human professional externalize decisions third parties replicate across all practitioners profession with one investment and relieve burdens that practitioners themselves recognize problems document empirical case study from russian education the obuchay обучай service which grew from zero teacher users seven months develop formal architecture and design principles identify specific risks unique this category and propose deployment strategy specifically applied the german social law domain relevant the author work and okwf pilot opportunities argue that professional colleague agents should the first production deployment foundation funded infrastructure with representative agents second phase extension once professionals have integrated partners into their daily work table contents the five type typology principal side agents what makes professional colleague agent empirical case study обучай architecture professional colleague agents the economics profession wide replication risks specific this category application domains pilot proposal sgb advocate colleague relationship other agent types open questions call for collaboration",
     "tags": [
       "rag",
       "architecture",

@@ -6,12 +6,13 @@
     "docs/nautilus/review-methodology/01-context-motivation.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:f31d98ff5a88d865",
   "payload": {
     "title": "1. Контекст и мотивация",
     "summary": "Проект Nautilus разрабатывается в паре «автор + Claude Code агент».",
+    "body": "контекст мотивация источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также контекст мотивация docs anthropic vacancies контекст мотивация tldr docs nautilus review methodology tldr limitations open questions docs nautilus review methodology limitations open questions checklist docs nautilus review methodology checklist",
     "tags": [
       "memory",
       "roadmap",

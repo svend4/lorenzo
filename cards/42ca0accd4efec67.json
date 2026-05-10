@@ -31,12 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:817fb7b7f978f30b",
   "payload": {
     "title": "Синтез: как проекты собираются вместе",
     "summary": "Синтезировал архитектурные находки для расширенной системы памяти",
+    "body": "синтез как проекты собираются вместе статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено синтезировал архитектурные находки для расширенной системы памяти похожие документы readme readme сходство смотрите также yodoca memory yodoca collaboration partners collaboration partners portal mcp anthropic vacancies portal mcp wikontic knowledge wikontic упоминается ngt ngt memory ассоциативный граф memory ngt memory wikontic семантический граф knowledge wikontic yodoca yodoca консолидация забывание memory yodoca авторы контакты collaboration partners уникальные проекты хабра readme упоминается уникальные проекты хабра readme связанные документы ngt ngt memory ассоциативный граф memory ngt memory wikontic семантический граф knowledge wikontic уникальные проекты хабра readme yodoca yodoca консолидация забывание memory yodoca авторы контакты collaboration partners системы памяти memory readme связанные документы уникальные проекты хабра readme ngt ngt memory ассоциативный граф docs habr projects memory ngt memory wikontic семантический граф knowledge wikontic системы памяти readme системы знаний readme yodoca yodoca консолидация забывание docs habr projects memory yodoca кто ссылается этот документ portal mcp docs anthropic vacancies portal mcp readme docs habr projects readme wikontic docs habr projects knowledge wikontic yodoca docs habr projects memory yodoca",
     "tags": [
       "architecture",
       "roadmap"

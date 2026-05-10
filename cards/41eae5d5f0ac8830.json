@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/126-установка.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:6fcfc56982df6f73",
   "payload": {
     "title": "Установка",
     "summary": "Это единственная внешняя зависимость. Сам portal работает без",
+    "body": "установка contents установка установка установить mcp sdk установить mcp sdk проверить что portal работает проверить что portalpy работает протестировать mcp обёртку локально протестировать mcp обёртку локально это единственная внешняя зависимость сам portal работает без установка установить mcp sdk pip install mcp это единственная внешняя зависимость сам portal работает без внешних библиотек stdlib only проверить что portal работает path nautilus python portal query synthesis если выдаёт результаты portal готов mcp интеграции протестировать mcp обёртку локально python portal mcp warmup ждёт stdio input ctrl для выхода если stderr видны логи вроде info portal initialized adapters loaded обёртка работает смотрите также appendix minimal working example похожие документы appendix minimal working example сходство appendix minimal working example сходство portal mcp сходство",
     "tags": [
       "architecture"
     ],

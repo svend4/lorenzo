@@ -6,12 +6,13 @@
     "docs/templates/mega-stack.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:3ef8683f68174e7d",
   "payload": {
     "title": "Mega-stack: [Название]",
     "summary": "domain: \"[legal-AI | knowledge-OS | agent-platform]\"",
+    "body": "mega stack название назначение класс задач legal knowledge etc целевой объём документов sla latency availability слои стека сверху вниз client компонент лицензия зрелость agent layer компонент тип агента откуда orchestration компонент паттерн rag search компонент тип узлы knowledge graph компонент memory компонент hot slow storage oltp компонент storage olap компонент ingestion компонент форматы infra компонент cross layer контракты слой слой формат протокол ingestion storage json http rest storage rag roadmap фазам phase mvp недели цель end end вертикальный срез включено компонентов phase beta месяца включено дополнительно phase месяца phase месяцев стоимость категория месяц llm api хостинг платные лицензии итого риски митигации риск severity митигация альтернативные стеки альтернатива когда лучше связанные ансамбли docs technology combinations combinations создано смотрите также ensemble docs templates ensemble project component docs templates project component tech radar entry docs templates tech radar entry",
     "tags": [
       "mega-stack",
       "архитектура"

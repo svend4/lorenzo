@@ -6,12 +6,13 @@
     "docs/nautilus/review-methodology/02-formal-workflow.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:de0bb2029d3a6389",
   "payload": {
     "title": "2. Формальный workflow",
     "summary": "Claude агент #1 Claude агент #2 (человек или agent",
+    "body": "формальный workflow warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также формальный workflow docs anthropic vacancies формальный workflow implementation nautilus docs nautilus review methodology implementation nautilus application plan current docs docs nautilus review methodology application plan current docs checklist docs nautilus review methodology checklist",
     "tags": [
       "memory",
       "architecture",

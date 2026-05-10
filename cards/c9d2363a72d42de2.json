@@ -6,12 +6,13 @@
     "docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:6506f135d742cb29",
   "payload": {
     "title": "19. ADR-001: Federation over Merging",
     "summary": "выбор: заставить все данные мигрировать в единую схему (merge),",
+    "body": "adr federation over merging источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также adr federation over merging docs nautilus npp adr federation over merging adr federation over merging docs anthropic vacancies adr federation over merging adr federation over merging docs anthropic vacancies adr federation over merging adr five onboarding paths docs nautilus npp adr five onboarding paths кто ссылается этот документ readme docs nautilus readme readme docs nautilus npp readme reading paths docs reading paths",
     "tags": [
       "architecture",
       "anthropic",

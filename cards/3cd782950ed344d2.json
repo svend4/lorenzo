@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:f3dd41f56a20ee8a",
   "payload": {
     "title": "Различие 5: Дрифт между tool capability и mission",
     "summary": "Различие 5: Дрифт между tool capability и mission",
+    "body": "различие дрифт между tool capability mission источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога сравнение собственной архитектуры ingit cowork nautilus hermes agent nous resear смотрите также difference domain specialization docs anthropic vacancies hermes comparison difference domain specialization difference institutional vision docs anthropic vacancies hermes comparison difference institutional vision similarity self hosting privacy docs anthropic vacancies hermes comparison similarity self hosting privacy similarity multi platform docs anthropic vacancies hermes comparison similarity multi platform",
     "tags": [
       "architecture",
       "anthropic",

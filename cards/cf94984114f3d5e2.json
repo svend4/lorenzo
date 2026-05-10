@@ -6,12 +6,13 @@
     "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:d04a08a614fbedab",
   "payload": {
     "title": "Что этот документ не решает",
     "summary": "Он не предоставляет дорожную карту реализации.",
+    "body": "что этот документ решает warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также что этот документ решает docs anthropic vacancies что этот документ решает appendix header warning docs nautilus review methodology appendix header warning zachem dokument docs nautilus infrastructure layer zachem dokument zaklyuchenie docs nautilus infrastructure layer zaklyuchenie",
     "tags": [
       "architecture",
       "anthropic",

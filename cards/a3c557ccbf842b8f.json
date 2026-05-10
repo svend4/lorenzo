@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/components/agentfs.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:19b4bdf5d99b7c26",
   "payload": {
     "title": "AgentFS",
     "summary": "Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.",
+    "body": "agentfs источник хабр github citeturn view turn view turn view проекты svyazi agentfs смотрите также yodoca docs svyazi components yodoca memnet docs svyazi components memnet mclaude docs svyazi components mclaude knowledge space docs svyazi components knowledge space кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs svyazi components readme",
     "tags": [
       "knowledge",
       "ingestion",

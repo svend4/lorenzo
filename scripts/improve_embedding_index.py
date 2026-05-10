@@ -73,6 +73,7 @@ def card_text(card: CardEnvelope) -> str:
         title,        # первый раз — обычный вес
         title,        # второй раз — удвоение веса заголовка
         p.get("summary", ""),
+        p.get("body", ""),    # первые 800 слов тела файла
         " ".join(p.get("tags", [])),
         " ".join(p.get("projects", [])),
         card.card_type,

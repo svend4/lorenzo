@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/48-content-overview.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:99c72d62ad82bada",
   "payload": {
     "title": "Content Overview",
     "summary": "1. **Концептуальная база** — [? уточнить объём: сколько концептов,",
+    "body": "content overview концептуальная база уточнить объём сколько концептов content overview основные составляющие концептуальная база уточнить объём сколько концептов какая заполненность графа yijing transformer research код эксперименты model weights для versions подпапку или отдельную область ppl based experiments lci metric exploration target archetypal interlingua approach failed shared trit proj bottleneck nautilusyijin return separate experts with routing планы nautilusmome production ready pipeline подпапка memnet nautilus historical embedded версия portal миграции отдельный репо github com svend nautilus научные артефакты перечислить если есть jupyter notebooks training logs benchmarks похожие документы history сходство author contact сходство интегральный анализ профиля svend passports pro docs anthropic vacancies passports pro сходство смотрите также history author contact author contact author contact",
     "tags": [
       "self-improvement",
       "collaboration"

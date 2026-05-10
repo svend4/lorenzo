@@ -6,12 +6,13 @@
     "docs/nautilus/representative-agent-layer-en/09-phased-rollout.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:139dd58cbb398e11",
   "payload": {
     "title": "9. Phased Rollout Strategy",
     "summary": "A responsible deployment of Representative Agent technology",
+    "body": "phased rollout strategy источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также phased rollout strategy docs anthropic vacancies phased rollout strategy phased rollout docs nautilus okwf concept phased rollout call for collaboration docs nautilus representative agent layer call for collaboration pilot sgb advocate docs nautilus professional colleague agents pilot sgb advocate",
     "tags": [
       "architecture",
       "roadmap",

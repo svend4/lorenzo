@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/82-7-portalentry-structure.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:9b78f53845e9b275",
   "payload": {
     "title": "7. PortalEntry Structure",
     "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
+    "body": "portalentry structure абстракт авто проблема portalentry structure portalentry structure подход metadata metadata important ключевой документ для понимания архитектуры результат implementation may расширять список content полный текст представление may быть большим metadata must содержать для level адаптеров links список других rep ключевые слова portalentry structure anthropic vacancies metadata format adapter interface contents portalentry docs anthropic vacancies интегральный анализ профиля svend structure portalentry structure field semantics field semantics metadata metadata important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь унифицированная структура данных возвращаемая адаптерами похожие документы portalentry structure docs anthropic vacancies portalentry structure сходство adapter interface docs anthropic vacancies adapter interface сходство registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство смотрите также portalentry structure docs anthropic vacancies portalentry structure adapter interface docs anthropic vacancies adapter interface registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json portal mcp docs anthropic vacancies portal mcp кто ссылается этот документ appendix change log docs anthropic vacancies appendix change log принципы консолидации фаза docs anthropic vacancies принципы консолидации фаза portal mcp docs anthropic vacancies portal mcp adapter interface docs anthropic vacancies adapter interface query flow docs anthropic vacancies query flow queryresult structure docs anthropic vacancies queryresult structure readme docs anthropic vacancies readme",
     "tags": [
       "ingestion",
       "architecture",

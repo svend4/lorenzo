@@ -31,12 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:f7f178db5527263e",
   "payload": {
     "title": "README.md",
     "summary": "",
+    "body": "readme единая точка входа для федеративных git экосистем знаний english below english below похожие документы portal protocol portal protocol сходство portal mcp portal mcp сходство readme mcp инструкция установке readme mcp инструкция установке сходство смотрите также appendix minimal working example appendix minimal working example readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology portal mcp portal mcp упоминается abstract abstract readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology portal mcp portal mcp вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы review methodology review methodology portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example abstract abstract содержание содержание queryresult structure queryresult structure связанные документы portal mcp portal mcp readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology appendix minimal working example appendix minimal working example abstract abstract подключение claude desktop подключение claude desktop appendix minimal working example appendix minimal working example appendix change log appendix change log кто ссылается этот документ portal protocol docs anthropic vacancies portal protocol abstract docs anthropic vacancies abstract review methodology docs anthropic vacancies review methodology portal mcp docs anthropic vacancies portal mcp readme mcp инструкция установке docs anthropic vacancies readme mcp инструкция установке подключение claude desktop docs anthropic vacancies подключение claude desktop appendix change log docs anthropic vacancies appendix change log зачем две версии параллельно docs anthropic vacancies зачем две версии параллельно ещё",
     "tags": [
       "anthropic"
     ],

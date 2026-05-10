@@ -35,12 +35,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:acc5612d0d336274",
   "payload": {
     "title": "10. QueryResult Structure",
     "summary": "results_by_repo: dict[str, list[PortalEntry]]",
+    "body": "queryresult structure results repo dict str list portalentry похожие документы query flow query flow сходство reference implementation reference implementation сходство adapter interface adapter interface сходство смотрите также reference implementation reference implementation query flow query flow appendix minimal working example appendix minimal working example relevance ranking relevance ranking упоминается query flow query flow relevance ranking relevance ranking sdk contract informative sdk contract informative mcp extension informative mcp extension informative passport passport passport passport adapter interface adapter interface adapter interface adapter interface portalentry structure portalentry structure consensus algorithm consensus algorithm query flow query flow appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example appendix change log appendix change log history history native format native format вакансии anthropic анализ кластерам readme подключение claude desktop подключение claude desktop что всегда делаешь что всегда делаешь упоминается вакансии anthropic анализ кластерам readme связанные документы appendix minimal working example appendix minimal working example sdk contract informative sdk contract informative appendix minimal working example appendix minimal working example query flow query flow compatibility level compatibility level adapter interface adapter interface passport passport passport passport appendix change log appendix change log связанные документы appendix minimal working example appendix minimal working example query flow query flow appendix minimal working example appendix minimal working example sdk contract informative sdk contract informative adapter interface adapter interface adapter interface adapter interface passport passport passport passport appendix change log appendix change log кто ссылается этот документ passport passport docs anthropic vacancies passport passport appendix change log docs anthropic vacancies appendix change log подключение claude desktop docs anthropic vacancies подключение claude desktop adapter interface docs anthropic vacancies adapter interface query flow docs anthropic vacancies query flow reference implementation docs anthropic vacancies reference implementation native format docs anthropic vacancies native format history docs anthropic vacancies history ещё",
     "tags": [
       "anthropic"
     ],

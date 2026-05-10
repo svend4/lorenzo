@@ -6,12 +6,13 @@
     "docs/CLUSTERS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:67b142a73f541592",
   "payload": {
     "title": "Кластеры тематически близких файлов",
     "summary": "Метод: TF-IDF + косинусное сходство (порог 0.15)",
+    "body": "кластеры тематически близких файлов tip этот документ описывает mvp подход начните него для быстрого прототипа метод idf косинусное сходство порог проекты svyazi cardindex смотрите также language stats docs language stats search docs search reading order docs reading order source map docs source map кто ссылается этот документ table contents docs anthropic vacancies table contents abstract docs anthropic vacancies abstract table contents docs anthropic vacancies table contents appendix decision tree for ingit adopters docs anthropic vacancies appendix decision tree for ingit adopters приложение образец спецификаций инструментов ing docs anthropic vacancies приложение образец спецификаций инструментов ing index docs index readme docs readme tables docs tables ещё",
     "tags": [
       "rag",
       "security",

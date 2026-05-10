@@ -43,12 +43,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:e2e38de5c876bb5f",
   "payload": {
     "title": "README-MCP.md— инструкция по установке",
     "summary": "Отдельный документ для репо, объясняющий, как настроить MCP-обёртку:",
+    "body": "readme mcp инструкция установке отдельный документ для репо объясняющий как настроить mcp обёртку похожие документы portal mcp portal mcp сходство portal protocol portal protocol сходство portal protocol portal protocol сходство смотрите также portal mcp portal mcp review methodology review methodology author contact author contact readme readme упоминается abstract abstract appendix minimal working example appendix minimal working example appendix change log appendix change log portal protocol portal protocol readme readme review methodology review methodology references references portal mcp portal mcp благодарности благодарности вакансии anthropic анализ кластерам readme глоссарий глоссарий зачем две версии параллельно зачем две версии параллельно конфигурация для claude desktop конфигурация для claude desktop общий план развития nautilus portal protocol общий план развития nautilus portal protocol отладка отладка подключение claude desktop подключение claude desktop расписание фазы расписание фазы ссылки ссылки section упоминается вакансии anthropic анализ кластерам readme связанные документы review methodology review methodology readme readme appendix minimal working example appendix minimal working example глоссарий глоссарий portal mcp portal mcp appendix minimal working example appendix minimal working example abstract abstract status this document status this document связанные документы review methodology review methodology глоссарий глоссарий portal mcp portal mcp readme readme appendix minimal working example appendix minimal working example appendix change log appendix change log status this document status this document section кто ссылается этот документ общий план развития nautilus portal protocol docs anthropic vacancies общий план развития nautilus portal protocol portal protocol docs anthropic vacancies portal protocol status this document docs anthropic vacancies status this document review methodology docs anthropic vacancies review methodology глоссарий docs anthropic vacancies глоссарий portal mcp docs anthropic vacancies portal mcp конфигурация для claude desktop docs anthropic vacancies конфигурация для claude desktop подключение claude desktop docs anthropic vacancies подключение claude desktop ещё",
     "tags": [
       "collaboration"
     ],

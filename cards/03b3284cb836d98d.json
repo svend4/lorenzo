@@ -6,12 +6,13 @@
     "docs/01-svyazi/14-limitations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:34642625b1bd421e",
   "payload": {
     "title": "14 limitations",
     "summary": "Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL[^bsl] 1.1 и прямо говорит о бесплатн",
+    "body": "абстракт авто проблема такой порядок согласуется yttri подходом workspace вокруг записей простыми локальными whisper сценариями идеей local first sync как следующего первого слоя подход такой порядок согласуется yttri подходом workspace вокруг записей простыми локальными whisper сценариями идеей local first sync как следующего первого слоя результат cite turn search turn view turn view turn view turn view turn view похожие документы ограничения лицензии что пока лучше склеивать docs collabor ключевые слова svyazi memory лучше search rufler roadmap ограничения лицензии самое важное ограничение техническое управленческое часть самых ценных компонентов находится разных режимах зрелости лицензирования svyazi svyazi как базовый паттерн остаётся авторским закрытым проекты svyazi mclaude factory rufler rufler ngt ngt memory autoresearch docs svyazi executive summary whisper yttri похожие документы ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать сходство дорожная карта прототипа следующей итерации docs collaborations дорожная карта прототипа следующей итерации сходство roadmap docs svyazi docs svyazi intro part roadmap сходство смотрите также ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать roadmap docs svyazi docs svyazi intro part roadmap дорожная карта прототипа следующей итерации docs collaborations дорожная карта прототипа следующей итерации выводы docs collaborations выводы ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов bsl business source license коммерческая лицензия открытым кодом",
     "tags": [
       "memory",
       "rag",

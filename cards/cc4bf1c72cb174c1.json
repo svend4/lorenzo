@@ -6,12 +6,13 @@
     "docs/01-svyazi/10-second-order-ensembles.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:d9e7b1e61c50731d",
   "payload": {
     "title": "10 second order ensembles",
     "summary": "Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функций” и начинают образовывать новые свойства на уровне процесса сообщества, исследовательской группы ",
+    "body": "абстракт авто проблема это намного лучше соответствует задачам экспертных сообществ чем either выбор между всё облако всё только локально подход cite turn view turn search turn search turn view turn view turn view turn view главное новое свойство здесь только privacy архитектурная живучесть результат здесь главный эффект даёт одна новая функция изменение формы владения системой ключевые слова svyazi ансамбли новые search проект просто knowledge space самые интересные продолжения просто добавление ещё одного инструмента уже найденные пять ансамблей сборка трёх новых ансамблей второго порядка где компоненты перестают быть рядами функ проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space docs svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы новые ансамбли следующего шага docs collaborations новые ансамбли следующего шага сходство приоритетные ансамбли docs collaborations приоритетные ансамбли сходство ensembles overview docs svyazi docs svyazi intro part ensembles overview сходство смотрите также новые ансамбли следующего шага docs collaborations новые ансамбли следующего шага приоритетные ансамбли docs collaborations приоритетные ансамбли ensembles overview docs svyazi docs svyazi intro part ensembles overview roadmap docs svyazi docs svyazi intro part roadmap mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts docs svyazi contacts readme docs svyazi readme component matrix docs component matrix",
     "tags": [
       "memory",
       "rag",

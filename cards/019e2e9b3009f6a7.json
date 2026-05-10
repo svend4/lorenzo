@@ -31,12 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:f1f26dbe74ead830",
   "payload": {
     "title": "Отладка",
     "summary": "2. Запустить `portal-mcp.py --warmup` напрямую в терминале —",
+    "body": "отладка contents отладка отладка сервер подключается сервер подключается tool call падает adapterfailed tool call падает adapterfailed tool появляется claude desktop tool появляется claude desktop проверить логи claude desktop похожие документы подключение claude desktop подключение claude desktop сходство конфигурация для claude desktop конфигурация для claude desktop сходство смотрите также подключение claude desktop подключение claude desktop конфигурация для claude desktop конфигурация для claude desktop appendix minimal working example appendix minimal working example readme mcp инструкция установке readme mcp инструкция установке упоминается вакансии anthropic анализ кластерам readme конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop упоминается вакансии anthropic анализ кластерам readme связанные документы конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop portal mcp portal mcp связанные документы конфигурация для claude desktop конфигурация для claude desktop подключение claude desktop подключение claude desktop кто ссылается этот документ конфигурация для claude desktop docs anthropic vacancies конфигурация для claude desktop readme mcp инструкция установке docs anthropic vacancies readme mcp инструкция установке подключение claude desktop docs anthropic vacancies подключение claude desktop readme docs anthropic vacancies readme",
     "tags": [
       "ingestion"
     ],

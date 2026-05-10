@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:53150e02448b9989",
   "payload": {
     "title": "6. Почему это валидный паттерн для AI-assisted workflows",
     "summary": "title: \"6. Почему это валидный паттерн для AI-assisted workflows\"",
+    "body": "почему это валидный паттерн для assisted workflows традиционная software engineering оптимизировалась против почему это валидный паттерн для assisted workflows традиционная software engineering оптимизировалась против дублирования кода документации это разумно когда каждая работа стоит человеческих часов агентами ситуация меняется количественно каждый запуск claude code минуты работы часы создание параллельной версии документа дешевле чем потеря единственного insight roi меняется другую сторону избыточность больше люкс страховка это пример adaptation engineering practice новой реальности assisted development старые правила избегай дублирования требуют переосмысления когда unit cost меняется раз аналогичные переосмысления происходят других областях code generation меньше dry полicy больше regenerate demand testing меньше handcraft больше auto generated property tests documentation меньше write once больше iterate with трёхфазная методология часть этого shift смотрите также why valid for",
     "tags": [
       "anthropic"
     ],

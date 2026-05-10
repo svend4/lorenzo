@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/components/knowledge-space.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:fd211ff50e0258c9",
   "payload": {
     "title": "knowledge-space",
     "summary": "Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.",
+    "body": "knowledge space автор sonia black anastasiyaw проекты svyazi knowledge space смотрите также mclaude docs svyazi components mclaude rufler docs svyazi components rufler memnet docs svyazi components memnet yodoca docs svyazi components yodoca кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs svyazi components readme",
     "tags": [
       "knowledge",
       "ingestion",

@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:fecfcee79fea05a7",
   "payload": {
     "title": "Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference",
     "summary": "Пара 1. LLM-gateway × Self-hosted фронт + локальный inference",
+    "body": "пара llm gateway self hosted фронт локальный inference источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты litellm auto router смотрите также multiagentnyy khaos reshenie auto router docs technology combinations combinations multiagentnyy khaos reshenie auto router tmux village openclaw docs habr unique projects deep pairs tmux village openclaw skill catalogs subagents docs habr unique projects deep pairs skill catalogs subagents one person one company docs habr unique projects final ensembles one person one company",
     "tags": [
       "security",
       "architecture",

@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/10-collaborators-landscape.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:a3ac8f494d25d41d",
   "payload": {
     "title": "Существующий landscape collaborators (working knowledge)",
     "summary": "В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):",
+    "body": "существующий landscape collaborators working knowledge источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория проекты cardindex knowledge space ngt memory wikontic смотрите также существующий landscape collaborators твоя working docs anthropic vacancies существующий landscape collaborators твоя working final tier ranking docs anthropic vacancies extra collaborator findings final tier ranking mem letta graphiti docs anthropic vacancies extra collaborator findings mem letta graphiti section solution architecture docs anthropic vacancies beneficial deployments concept section solution architecture",
     "tags": [
       "memory",
       "knowledge",

@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/overview/executive-summary.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:8c63431e10393c17",
   "payload": {
     "title": "Executive summary",
     "summary": "",
+    "body": "executive summary tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел executive summary проекты svyazi cardindex agentfs mclaude factory rufler liteparse legal rag смотрите также executive summary docs collaborations executive summary mvp plan docs svyazi prototype mvp plan license tree docs svyazi limitations license tree first contacts docs svyazi outreach first contacts",
     "tags": [
       "memory",
       "rag",

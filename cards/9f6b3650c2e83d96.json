@@ -6,12 +6,13 @@
     "docs/obsidian/MINDMAP.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:4299ec6764e9ec8c",
   "payload": {
     "title": "Майндмап репозитория Lorenzo",
     "summary": "Rufler -->|self-improvement| AutoResearch",
+    "body": "майндмап репозитория lorenzo структура разделов mindmap root lorenzo repository svyazi cardindex evidence envelope memory write policy ансамбли mvp дней безопасность anthropic vacancies research gtm sales trust safety inference infra product eng карьерный маппинг tech combinations агентный роутинг граф знаний local first sozialrecht бенчмарки collaborations knowledge forensic rag agent teams security runtime web intelligence habr projects yodoca ngt memory memnet knowledge space agentfs wikontic поток данных между проектами flowchart subgraph ingest svyazi svyazi cardindex cardindex firecrawl firecrawl end subgraph knowledge agentfs agentfs knowledge space knowledge space end subgraph memory yodoca yodoca ngt memory ngt memory memnet memnet end subgraph rag liteparse liteparse legal rag legal rag hybrid rag hybrid rag end subgraph orchestration mclaude mclaude factory factory rufler rufler end subgraph security litellm litellm sentinel sentinel tool search tool search end svyazi ingest index cardindex cardindex storage agentfs agentfs reference knowledge space yodoca consolidation ngt memory ngt memory recall discovery svyazi liteparse evidence legal rag legal rag proof card cardindex mclaude coordination factory factory orchestration rufler rufler self improvement autoresearch litellm gateway guard sentinel tool search lazy load litellm легенда слой проекты ingestion svyazi cardindex firecrawl knowledge agentfs knowledge space memory yodoca ngt memory memnet rag liteparse legal rag hybrid rag graph rag orchestration mclaude factory rufler autoresearch security litellm sentinel tool search auto router sync yjs automerge смотрите также glossary contact priority graph network",
     "tags": [
       "memory",
       "rag",

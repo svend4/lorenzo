@@ -6,12 +6,13 @@
     "docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:6f05817a249b509b",
   "payload": {
     "title": "Синтез: хеббовский граф людей-навыков-идей",
     "summary": "Локальная система обнаружения коллабораций на хеббовском графе людей-навыков-идей.",
+    "body": "синтез хеббовский граф людей навыков идей tip документ содержит практические рекомендации лучшие практики источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi cardindex ngt memory wikontic смотрите также related projects docs habr unique projects analogues related projects three direct analogues docs habr unique projects analogues three direct analogues related projects context docs collaborations candidates related projects context three key candidates docs collaborations candidates three key candidates",
     "tags": [
       "memory",
       "knowledge",

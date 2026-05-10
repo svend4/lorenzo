@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/06-1-introduction.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:8e9321643301f668",
   "payload": {
     "title": "1. Introduction",
     "summary": "Современные системы управления знаниями (Notion, Obsidian, Roam, Logseq,",
+    "body": "introduction абстракт авто проблема design goals протокол спроектирован так чтобы одновременно достичь low barrier entry подключение существующего репо федерации требует больше минут работы два файла подход homogenization разные типы знаний методология семантика символизм принудительно приводятся одной структуре что уменьшает выразительность ключевые слова introduction goals anthropic vacancies проекте federation merging motivation contents introduction introduction motivation motivation design goals design goals non goals non goals terminology terminology современные системы управления знаниями notion obsidian roam logseq похожие документы introduction docs anthropic vacancies introduction сходство проекте docs anthropic vacancies проекте сходство смотрите также introduction docs anthropic vacancies introduction проекте docs anthropic vacancies проекте adr federation over merging docs anthropic vacancies adr federation over merging adr federation over merging docs anthropic vacancies adr federation over merging кто ссылается этот документ adr federation over merging docs anthropic vacancies adr federation over merging проекте docs anthropic vacancies проекте adr federation over merging docs anthropic vacancies adr federation over merging adr first class protocol concept docs anthropic vacancies adr first class protocol concept readme docs anthropic vacancies readme",
     "tags": [
       "collaboration"
     ],

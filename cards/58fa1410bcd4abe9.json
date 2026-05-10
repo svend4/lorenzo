@@ -6,12 +6,13 @@
     "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:679fa11b1c160ed6",
   "payload": {
     "title": "What's Missing — Layer B",
     "summary": "Between chat and repository, there should exist Layer B: an",
+    "body": "what missing layer источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также what missing layer docs anthropic vacancies what missing layer existing approximations docs nautilus infrastructure layer existing approximations specific case docs nautilus infrastructure layer specific case two layer stack docs nautilus infrastructure layer two layer stack",
     "tags": [
       "architecture",
       "anthropic"

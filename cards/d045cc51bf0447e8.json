@@ -6,12 +6,13 @@
     "docs/01-svyazi/11-integration-contracts.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:7732a8c653034202",
   "payload": {
     "title": "11 integration contracts",
     "summary": "Чтобы все эти ансамбли не рассыпались, полезно зафиксировать **минимальный интерфейсный контракт** между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели появятся три несовместимые сущности с названием “карточка”, два разных формата evidence и четыре нес",
+    "body": "абстракт авто проблема каждый skill или mcp mcp инструмент должен иметь класс доступа класс среды условия вызова postcondition подход любой retrieval ответ match suggestion profile enrichment или auto summary должен возвращать только текст sourceid page span box retrievalmethod confidence support результат это идеальная онтология минимальный договор который позволяет системам вообще разговаривать между собой ключевые слова контракт memory svyazi который через search проект agentfs чтобы все эти ансамбли рассыпались полезно зафиксировать минимальный интерфейсный контракт между слоями это заменяет будущую реализацию резко уменьшает риск того что через две недели проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory liteparse docs svyazi executive summary legal rag rag hybrid rag похожие документы интеграционный контракт который стоит зафиксироват docs collaborations интеграционный контракт который стоит зафиксироват сходство технический stack svyazi docs svyazi intro part foundation docs anthropic vacancies технический stack svyazi foundation сходство архитектурные зазоры которые важнее новых инструме docs collaborations архитектурные зазоры которые важнее новых инструме сходство смотрите также интеграционный контракт который стоит зафиксироват docs collaborations интеграционный контракт который стоит зафиксироват технический stack svyazi docs svyazi intro part foundation docs anthropic vacancies технический stack svyazi foundation architectural gaps docs svyazi docs svyazi intro part architectural gaps архитектурные зазоры которые важнее новых инструме docs collaborations архитектурные зазоры которые важнее новых инструме mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов кто ссылается этот документ contacts docs svyazi contacts readme docs svyazi readme технический stack svyazi foundation docs anthropic vacancies технический stack svyazi foundation",
     "tags": [
       "memory",
       "rag",

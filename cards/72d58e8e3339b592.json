@@ -6,12 +6,13 @@
     "docs/technology-combinations/research-reports/sozialrecht-35-combinations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:f779d34f7f40988e",
   "payload": {
     "title": "Research Report: Sozialrecht (35 комбинаций)",
     "summary": "Этот отчёт расширяет базовый каталог 35 комбинаций фокусом на немецкое социальное право (SGB), с применением к Bürgergeld, Eingliederungshilfe, Persönliches Budget.",
+    "body": "research report sozialrecht комбинаций источник mhtml снимок комбинирование технологий для новых свойств claude секция research report building previously identified combinations focus the german sozialrecht domain смотрите также continuation domains docs technology combinations research reports continuation domains legal stack docs technology combinations mega stacks legal stack ultimate legal docs technology combinations mega stacks ultimate legal dsl ast docs technology combinations mega stacks dsl ast",
     "tags": [
       "rag",
       "architecture"

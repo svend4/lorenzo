@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:462a35f2a5efeda5",
   "payload": {
     "title": "Пара 3 — CRDT-синхронизация × Self-hosted persistence",
     "summary": "Пара 3. CRDT-синхронизация (Yjs/Automerge) × Self-hosted persistence",
+    "body": "пара crdt синхронизация self hosted persistence источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi cardindex yodoca yjs automerge смотрите также riscv privacy docs habr unique projects hardware pairs riscv privacy crdt local first svyazi cardindex docs technology combinations combinations crdt local first svyazi cardindex zinc hybrid arch docs habr unique projects hardware pairs zinc hybrid arch metaphor docs habr unique projects software pairs metaphor",
     "tags": [
       "memory",
       "knowledge",

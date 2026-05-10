@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/347-твоя-миссия.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:ca74e82ef2885d6d",
   "payload": {
     "title": "Твоя миссия",
     "summary": "Твоя миссия — **catalyzing community synthesis в области beneficial AI для уязвимых групп**.",
+    "body": "твоя миссия warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений твоя миссия catalyzing community synthesis области beneficial для уязвимых групп смотрите также tvoya missiya docs lorenzo agent tvoya missiya кто ссылается этот документ доступ данным docs anthropic vacancies доступ данным appendix история изменений методологии docs anthropic vacancies appendix история изменений методологии history docs anthropic vacancies history приложение дерево решений для принимающих ingit docs anthropic vacancies приложение дерево решений для принимающих ingit readme docs anthropic vacancies readme",
     "tags": [
       "architecture"
     ],

@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:925772eb7f6be3fc",
   "payload": {
     "title": "9. Consensus Algorithm",
     "summary": "При query через portal, когда результаты возвращаются из нескольких",
+    "body": "consensus algorithm абстракт авто проблема consensus algorithm consensus algorithm результат future extensions future extensions при query через portal когда результаты возвращаются нескольких ключевые слова consensus algorithm fallback query anthropic vacancies через portal contents consensus algorithm consensus algorithm definition definition consensus structure consensus structure consensus strategy real fallback consensus strategy real fallback algorithm algorithm future extensions future extensions при query через portal когда результаты возвращаются нескольких consensus algorithm definition при query через portal когда результаты возвращаются нескольких repos portal must вычислять консенсус степень согласованности концепта между repos consensus structure portal must возвращать consensus объект следующими полями dataclass class consensus present list str repos real entries present fallback list str repos только fallback missing list str repos без entries coverage float len present total repos coverage with fallback float включая fallback agreed bool coverage consensus strategy real fallback различает два типа coverage coverage доля repos вернувших реальные fallback entries содержащие query coverage with fallback доля repos вернувших любые entries включая fallback концепт считается agreed полный консенсус если coverage algorithm pseudo code def compute consensus query str results repo dict str list portalentry consensus total repos len results repo present present fallback missing for repo name entries results repo items real matches for entries not fallback and query matches query fallback matches for entries fallback and query matches query real matches present append repo name elif fallback matches present fallback append repo name else missing append repo name coverage len present total repos coverage with fallback len present len present fallback total repos return consensus present present present fallback present fallback missing missing coverage coverage coverage with fallback coverage with fallback agreed coverage future extensions may использовать semantic similarity через embeddings cross lingual matching weighted consensus разный вес confidence адаптера fuzzy matching configurable threshold эти расширения breaking они будут активироваться через algorithm параметр query сохраняя как default похожие документы consensus algorithm сходство relevance ranking сходство смотрите также consensus algorithm relevance ranking query flow примеры запросов claude",
     "tags": [
       "rag"
     ],

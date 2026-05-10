@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/ensembles/D-voice-first-mesh.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:5f2238178dda0f4e",
   "payload": {
     "title": "Ансамбль D — Voice‑first local knowledge mesh",
     "summary": "A[Микрофон / встреча / голосовая заметка] --> B[Whisper / Handy / OpenWhispr / GigaAM]",
+    "body": "ансамбль voice first local knowledge mesh important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник deep research report проекты svyazi agentfs yjs automerge whisper yttri смотрите также ensembles overview docs svyazi ensembles overview приоритетные ансамбли docs collaborations приоритетные ансамбли voice stack docs svyazi components voice stack evidence backed intake docs svyazi ensembles evidence backed intake",
     "tags": [
       "knowledge",
       "ingestion",

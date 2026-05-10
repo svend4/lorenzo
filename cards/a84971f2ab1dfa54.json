@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:af9b5e0670f447c1",
   "payload": {
     "title": "Question 2: Кому Lorenzo служит? (4 варианта приоритета)",
     "summary": "Answer 1: Vulnerable populations (SGB claimants, disabled persons)",
+    "body": "question кому lorenzo служит варианта приоритета источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин смотрите также geographic linguistic scope docs lorenzo agent specification geographic linguistic scope other relationships docs lorenzo agent specification other relationships what lorenzo docs lorenzo agent specification what lorenzo success metrics docs lorenzo agent specification success metrics",
     "tags": [
       "architecture",
       "anthropic",

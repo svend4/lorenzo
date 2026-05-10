@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:4df8bf440015c636",
   "payload": {
     "title": "Минусы и риски",
     "summary": "Responsibility gap в критических моментах. Если AI-мета-агент принял решение, и оно оказалось провальным, кто ответственен? Компания-заказчик? Разработчик AI-агента? Фрилансеры-исполнители? Legal frameworks ещё не готовы к этому. Это не теоретическая проблема — это то, из-за чего большие корпорации ",
+    "body": "минусы риски warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также question innovations transitions docs nautilus innovation transitions question innovations transitions question rephrasing docs anthropic vacancies managed virtual company question rephrasing polymath project tao comparison docs anthropic vacancies managed virtual company polymath project tao comparison four structural blockers docs anthropic vacancies managed virtual company four structural blockers",
     "tags": [
       "orchestration",
       "architecture",

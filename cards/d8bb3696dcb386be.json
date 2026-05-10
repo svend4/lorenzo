@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/93-18-reference-implementation.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:2124281dee4515f1",
   "payload": {
     "title": "18. Reference Implementation",
     "summary": "Reference НЕ является нормативной. Альтернативные implementations",
+    "body": "reference implementation github com svend nautilus https github com svend nautilus reference implementation reference implementation github com svend nautilus https github com svend nautilus reference является нормативной альтернативные implementations npp compatible если они корректно парсят memnet nautilus json per раздел реализуют интегральный анализ профиля svend baseadapter interface per раздел производят интегральный анализ профиля svend portalentry структуры per раздел обеспечивают для level per раздел вычисляют consensus per раздел предоставляют required rest endpoints per раздел current reference implementation metrics informative snapshot draft метрика значение python loc адаптеров реестровых расширенных тестов passing mypy errors внешних зависимостей stdlib only health score coverage real vertices похожие документы reference implementation сходство portal protocol сходство sdk contract informative сходство смотрите также reference implementation author contact portal protocol portal protocol упоминается status this document status this document status this document status this document reference implementation reference implementation sdk contract informative sdk contract informative appendix change log appendix change log appendix references appendix references author contact author contact author contact author contact author contact author contact content overview content overview history history passports info passports info readme вакансии anthropic анализ кластерам доступные инструменты доступные инструменты about about проекте проекте упоминается readme вакансии anthropic анализ кластерам связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document content overview content overview appendix references appendix references versioning policy versioning policy связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document appendix references appendix references passports info passports info author contact author contact",
     "tags": [
       "rag",
       "collaboration"

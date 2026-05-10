@@ -6,12 +6,13 @@
     "docs/ai-collaborations/ensembles/6-continuous-eval-loop.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:67c8fc5f73bad83a",
   "payload": {
     "title": "Ансамбль 6 — Continuous Eval Loop",
     "summary": "6. Continuous Eval Loop: «самоулучшение не на вере, а на метриках»",
+    "body": "ансамбль continuous eval loop источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi factory смотрите также budget aware intelligence stack docs collaborations ensembles budget aware intelligence stack domain agent app factory docs collaborations ensembles domain agent app factory agentic knowledge docs collaborations ensembles agentic knowledge distributed agent workshop docs collaborations ensembles distributed agent workshop",
     "tags": [
       "orchestration",
       "knowledge",

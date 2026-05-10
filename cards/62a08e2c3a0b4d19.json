@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/phased-deployment/01-level-0-manual.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:e869b6708a98d78e",
   "payload": {
     "title": "Уровень 0 — Ручной режим (текущий)",
     "summary": "Что это: Макс + Claude в чате делают всё вручную. Нет автоматизации, нет персистентности между сессиями, нет отдельной идентичности.",
+    "body": "уровень ручной режим текущий источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network смотрите также level basic lite docs lorenzo agent phased deployment level basic lite level full network docs lorenzo agent phased deployment level full network level minimal zero docs lorenzo agent phased deployment level minimal zero progression logic docs lorenzo agent phased deployment progression logic",
     "tags": [
       "roadmap",
       "anthropic"

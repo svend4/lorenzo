@@ -6,12 +6,13 @@
     "docs/MISSING.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:c6e966a975537dde",
   "payload": {
     "title": "Карта пробелов знаний",
     "summary": "Анализ покрытия ключевых тем и проектов в docs/.",
+    "body": "карта пробелов знаний анализ покрытия ключевых тем проектов docs статус тема проект файлов слов минимум примеры файлов svyazi word freq schedule local first language stats footnotes self improvement passive voice reading list yodoca word freq schedule cardindex word freq schedule agentfs word freq schedule knowledge space language stats footnotes ngt memory glossary consistency mclaude language stats empty sections rufler language stats footnotes liteparse language stats broken links sentinel schedule footnotes factory empty sections glossary autoresearch passive voice language stats crdt language stats footnotes evidence envelope empty sections consistency sozialrecht language stats empty sections card envelope consistency prototype spec memory write policy questions prototype spec review record empty sections prototype spec privacy design tables missing бюджетный роутинг risk register tables skill policy tables summaries лицензия bsl risk register tables voice ingestion tables missing итог хорошо раскрыто слабо раскрыто отсутствует рекомендации темы статусом или нужно дополнить отдельными документами",
     "tags": [],
     "projects": [
       "Svyazi",

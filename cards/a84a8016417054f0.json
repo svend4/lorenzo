@@ -6,12 +6,13 @@
     "docs/HEATMAP.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:dac729c63f807bb0",
   "payload": {
     "title": "Тепловая карта тем",
     "summary": "Плотность упоминаний каждой темы по разделам (‰ — на тысячу слов).",
+    "body": "тепловая карта тем tip этот документ описывает mvp подход начните него для быстрого прототипа плотность упоминаний каждой темы разделам тысячу слов тема svyazi vacancies tech collab habr память knowledge агент оркестр безопасность архитектура mvp roadmap граф rag лицензия oss вакансии комбинации habr проекты контакты команда интеграция api максимум высокое среднее низкое числовые значения тема svyazi anthropic technology collabo habr proje память knowledge агент оркестр безопасность архитектура mvp roadmap граф rag лицензия oss вакансии комбинации habr проекты контакты команда интеграция api доминирующие темы разделам svyazi память knowledge anthropic vacancies вакансии technology combinations агент оркестр collaborations агент оркестр habr projects память knowledge концентрация тем тема лучший раздел плотность память knowledge habr projects агент оркестр technology combinations безопасность svyazi архитектура anthropic vacancies mvp roadmap svyazi граф rag technology combinations лицензия oss svyazi вакансии anthropic vacancies комбинации technology combinations habr проекты habr projects контакты команда svyazi интеграция api svyazi",
     "tags": [],
     "projects": [
       "Svyazi"

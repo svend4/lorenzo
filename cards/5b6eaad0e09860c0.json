@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:1cfc6d6fc906fc2c",
   "payload": {
     "title": "Пара 2 — Термодинамические TSU × MoE/MoME-роутинг",
     "summary": "Пара 2. Термодинамические TSU (Extropic, Normal Computing) × MoE/MoME-роутинг",
+    "body": "пара термодинамические tsu moe mome роутинг источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты memnet смотрите также memnet docs habr unique projects key findings memnet zinc hybrid arch docs habr unique projects hardware pairs zinc hybrid arch tinyml mcp skills docs habr unique projects hardware pairs tinyml mcp skills bonus rram memristor docs habr unique projects hardware pairs bonus rram memristor кто ссылается этот документ components name docs glossary components name concepts docs glossary concepts readme docs habr unique projects hardware pairs readme readme docs nautilus readme",
     "tags": [
       "memory",
       "knowledge",

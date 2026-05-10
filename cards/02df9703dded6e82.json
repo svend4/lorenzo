@@ -6,12 +6,13 @@
     "docs/DIGEST.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:dc2ee9f2093e7585",
   "payload": {
     "title": "Дайджест изменений",
     "summary": "Изменено файлов: **692** (+22425 / -6820 строк)",
+    "body": "дайджест изменений chore update generated docs auto enrichment toc summaries meta scripting кто ссылается этот документ changelog auto docs changelog auto readme docs readme tables docs tables смотрите также digest weekly docs digest weekly changelog auto docs changelog auto digest auto docs digest auto changelog docs changelog",
     "tags": [
       "rag",
       "architecture",

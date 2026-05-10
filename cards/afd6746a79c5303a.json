@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/naming/03-dhlab-umbrella.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:99086688c64bb856",
   "payload": {
     "title": "LAYER 7: Coordination engine",
     "summary": "Это substantial technical scope. Realistic implementation: 6-12 months part-time для basic Lorenzo, 18-24 months для fully-featured.",
+    "body": "layer coordination engine tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога выбор имени lorenzo как codename для catalyst agent lorenzo medici dhlab umbrella проекты cardindex смотрите также naming rationale lorenzo medici docs lorenzo agent naming naming rationale lorenzo medici difficulties and recommendations docs lorenzo agent specification difficulties and recommendations что такое вариант concept document для anthropic docs anthropic vacancies что такое вариант concept document для anthropic final note experiment docs anthropic vacancies final note experiment",
     "tags": [
       "rag",
       "knowledge",

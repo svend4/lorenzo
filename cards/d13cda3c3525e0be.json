@@ -6,12 +6,13 @@
     "docs/nautilus/npp-v1-1/14-sdk.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:507e343a63881b70",
   "payload": {
     "title": "14. SDK Contract (Informative)",
     "summary": "Reference implementation предоставляет Python SDK (`nautilus_sdk.py`).",
+    "body": "sdk contract informative источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также sdk contract informative docs anthropic vacancies sdk contract informative reference implementation docs nautilus npp reference implementation relevance ranking docs nautilus npp relevance ranking appendix change log docs nautilus npp appendix change log",
     "tags": [
       "anthropic"
     ],

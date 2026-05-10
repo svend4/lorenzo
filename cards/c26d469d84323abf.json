@@ -6,12 +6,13 @@
     "docs/01-svyazi/12-roadmap.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:987577ded9a2d1fc",
   "payload": {
     "title": "12 roadmap",
     "summary": "Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти **три короткие итерации**, каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить контракт и доказуемость. Вторая — добавить controlled memory и human review. Третья — подключить or",
+    "body": "абстракт авто проблема тут нужно решить прежде всего какая память умнее какая licence policy лучше подходит подход это хорошая новость такую архитектуру можно собрать без огромной команды если самого начала дисциплинировать стыки результат эта фаза даёт уже очень ценный эффект объяснимые suggestions вместо магического мэтчинга ключевые слова итерации svyazi memory дорожная карта first evidence local если идти дальше после базового mvp лучшая стратегия добавить всё пройти три короткие итерации каждая которых поднимает один новый класс свойств первая итерация должна закрепить проекты svyazi svyazi mclaude factory yodoca yodoca ngt ngt memory похожие документы дорожная карта прототипа следующей итерации docs collaborations дорожная карта прототипа следующей итерации сходство limitations docs svyazi docs svyazi intro part limitations сходство выводы docs collaborations выводы сходство смотрите также дорожная карта прототипа следующей итерации docs collaborations дорожная карта прототипа следующей итерации limitations docs svyazi docs svyazi intro part limitations выводы docs collaborations выводы conclusions docs svyazi docs svyazi intro part conclusions crdt conflict free replicated data type бесконфликтные данные yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl svyazi главный проект экосистема компонентов bsl business source license коммерческая лицензия открытым кодом",
     "tags": [
       "memory",
       "rag",

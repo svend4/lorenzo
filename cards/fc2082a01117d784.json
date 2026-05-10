@@ -6,12 +6,13 @@
     "docs/ai-collaborations/continuation/09-do-not-glue.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:1b02c7ddbac9d3f0",
   "payload": {
     "title": "Что пока не стоит склеивать в один релиз",
     "summary": "9. Что пока не стоит склеивать в один релиз",
+    "body": "что пока стоит склеивать один релиз источник mhtml снимок поиск коллабораций проектов корень репозитория проекты auto router tool search autoresearch смотрите также architecture rfc docs collaborations continuation architecture rfc agentops trace envelope docs collaborations continuation agentops trace envelope roadmap months docs collaborations continuation roadmap months mcp protocols docs collaborations continuation mcp protocols",
     "tags": [
       "rag",
       "security",

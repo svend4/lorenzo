@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/outreach/message-template.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:a63c607d690c2a31",
   "payload": {
     "title": "Шаблон первого сообщения",
     "summary": "Если писать в комментарии на Хабре, лучше сократить до 5–6 строк и добавить один конкретный вопрос, а не «давайте сотрудничать». Лучший формат — **одна архитектурная гипотеза + один вопрос на стык систем**.",
+    "body": "шаблон первого сообщения tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex смотрите также план прототипа возможные контакты docs collaborations план прототипа возможные контакты mvp planning docs svyazi mvp planning first contacts docs svyazi outreach first contacts mvp plan docs svyazi prototype mvp plan",
     "tags": [
       "memory",
       "rag",

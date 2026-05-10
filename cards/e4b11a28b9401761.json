@@ -6,12 +6,13 @@
     "docs/04-ai-collaborations/QA.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:c0388fae3cffbe55",
   "payload": {
     "title": "Q&A: 04-ai-collaborations",
     "summary": "_Автоматически сгенерировано по 15 файлам раздела._",
+    "body": "collaborations автоматически сгенерировано файлам раздела как реализован forensic rag доказуемостью упоминаются liteparse bounding box page level evidence что такое evidence envelope зачем нужен упоминаются evidence envelope source page span какие rag подходы сравниваются документах упоминаются legal rag hybrid rag graph rag liteparse какие архитектурных зазоров выделены исследовании упоминаются зазор карточка evidence memory governance agent contract что входит интеграционный контракт между слоями упоминаются card envelope evidence envelope memory write skill policy review record каковы этапы mvp оценка времени упоминаются mvp итерац фаза неделя что входит первую итерацию прототипа упоминаются evidence first unified card page span manual review кто ключевые авторы проектов для контакта упоминаются андрей чуян виталий оборин kksudo spbmolot какие вопросы лучше задавать авторам при первом контакте упоминаются первый вопрос архитектурный шаблон контакт какие инструменты обеспечивают безопасность агентов упоминаются sentinel litellm tool search auto router какова политика доступа умолчанию tool classes упоминаются read only allowlist path guard quarantine как организован бюджетный роутинг между моделями упоминаются routing budget litellm local model как работает agentfs что такое agentos упоминаются agentos vault compile persistent state что такое knowledge space для кого предназначен упоминаются reference card agent readable gotcha как cardindex хранит версионирует карточки упоминаются cardindex card state hash dedup какие кластеры найма выделены anthropic упоминаются research inference product какие роли наиболее релевантны для профиля svend найдено этом файле",
     "tags": [],
     "projects": [
       "CardIndex",

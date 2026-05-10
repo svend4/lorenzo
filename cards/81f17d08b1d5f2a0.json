@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:9bae6aa92181e184",
   "payload": {
     "title": "Финальное ранжирование Anthropic-ролей по частичному покрытию",
     "summary": "Первый — независимый изобретатель-систематизатор в традиции Бакминстера Фуллера / Рэя Курцвейла / Стивена Вольфрама ранней стадии. Человек, который строит онтологии и метаструктуры (Q6-гиперкуб для LLM, 16 архетипов Pseudo-RAG, 4-уровневая пирамида автоматизации, граф гексаграмм) как способ организо",
+    "body": "финальное ранжирование anthropic ролей частичному покрытию tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также three overlapping identities docs anthropic vacancies profile mapping reanalysis three overlapping identities primary fde docs anthropic vacancies profile mapping initial analysis primary fde revised anthropic mapping docs anthropic vacancies profile mapping reanalysis revised anthropic mapping stronger paths outside anthropic docs anthropic vacancies profile mapping integral final stronger paths outside anthropic",
     "tags": [
       "rag",
       "architecture",

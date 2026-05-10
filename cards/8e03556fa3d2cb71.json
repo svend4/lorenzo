@@ -6,12 +6,13 @@
     "docs/obsidian/05-habr-projects/memory/yodoca.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:cedfb0cffd31e013",
   "payload": {
     "title": "Yodoca[^yodoca]: консолидация и забывание",
     "summary": "title: \"Yodoca[^yodoca]: консолидация и забывание\"",
+    "body": "yodoca yodoca консолидация забывание абстракт авто проблема yodoca yodoca консолидация забывание important ключевой документ для понимания архитектуры подход yodoca yodoca консолидация забывание important ключевой документ для понимания архитектуры ключевые слова memory projects yodoca svyazi collaboration wikontic sqlite readme important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь статус параметр значение теги упоминаний репо слой memory контакт vitalyoborin vitalyoborin статус связи писали обновлено yodoca научил агента помнить важное забывать лишнее sqlite https habr com articles это просто аналог это архитектурное продолжение svyazi svyazi уровне agentic memory что проекты svyazi yodoca yodoca научил агента помнить важное забывать лишнее sqlite https habr com articles это просто аналог это архитектурное продолжение svyazi уровне agentic memory что него есть чего чуяна пока нет разделение hot path запись эпизодов sqlite fts без llm llm slow path асинхронные эмбеддинги отдельный приватный llm агент похожие документы readme сходство смотрите также synthesis wikontic portal mcp collaboration partners llm large language model большая языковая модель yodoca oss проект система памяти консолидацией apache svyazi главный проект экосистема компонентов упоминается ngt ngt memory ассоциативный граф ngt memory wikontic wikontic семантический граф collaboration partners авторы контакты decisions ключевые решения выводы synthesis синтез как проекты собираются вместе readme системы памяти упоминается readme системы памяти связанные документы ngt ngt memory ассоциативный граф ngt memory synthesis синтез как проекты собираются вместе wikontic wikontic семантический граф collaboration partners авторы контакты связанные документы ngt ngt memory ассоциативный граф docs habr projects memory ngt memory synthesis синтез как проекты собираются вместе collaboration partners авторы контакты wikontic wikontic семантический граф version diff diff базы знаний между версиями",
     "tags": [
       "memory",
       "ingestion",

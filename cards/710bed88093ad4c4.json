@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/40-bridges.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:88cc09f8cd833408",
   "payload": {
     "title": "Bridges",
     "summary": "глубиной концепта в Q6-графе знаний `[[01-интегральный-анализ-профиля-svend4|pro2]]`. [? уточнить exact mapping:",
+    "body": "bridges contents bridges bridges info pro info docs anthropic vacancies интегральный анализ профиля svend pro info meta info docs anthropic vacancies интегральный анализ профиля svend meta способ обращения через мост способ обращения через мост level concept depth уровень info коррелирует bridges info pro level concept depth уровень интегральный анализ профиля svend info коррелирует глубиной концепта графе знаний интегральный анализ профиля svend pro уточнить exact mapping например leaf вершины root вершины info meta level rule class уровни соотносятся классификацией правил клеточных автоматов wolfram classes описать mapping если есть или отметить что мост пока декларативный способ обращения через мост портал использует memnet nautilus json для lookup bridge описания передаёт его адаптеру при вызове translate фактический перевод свободная текстовая интерпретация formal mapping похожие документы bridges сходство bridges сходство compatibility level сходство смотрите также bridges bridges compatibility level compatibility level",
     "tags": [
       "memory",
       "anthropic",

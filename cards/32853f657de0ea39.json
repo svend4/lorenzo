@@ -6,12 +6,13 @@
     "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:8458c7ba5c2ba733",
   "payload": {
     "title": "Ансамбль 7 — Domain Agent App Factory",
     "summary": "7. Domain Agent App Factory: «из одного фитнес-тренера — фабрика вертикальных ассистентов»",
+    "body": "ансамбль domain agent app factory источник mhtml снимок поиск коллабораций проектов корень репозитория смотрите также agentic knowledge docs collaborations ensembles agentic knowledge ambient team agent docs collaborations ensembles ambient team agent continuous eval loop docs collaborations ensembles continuous eval loop forensic rag docs collaborations ensembles forensic rag",
     "tags": [
       "rag",
       "local-first",

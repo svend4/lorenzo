@@ -6,12 +6,13 @@
     "docs/ai-collaborations/continuation/06-metrics-tree.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:f6a452750aa8b4c0",
   "payload": {
     "title": "Дерево метрик Svyazi 2.0",
     "summary": "6. Метрики, без которых Svyazi‑2.0 нельзя масштабировать",
+    "body": "дерево метрик svyazi источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi смотрите также architecture rfc docs collaborations continuation architecture rfc roadmap months docs collaborations continuation roadmap months agentops trace envelope docs collaborations continuation agentops trace envelope commercialization three paths docs collaborations continuation commercialization three paths",
     "tags": [
       "rag",
       "knowledge",

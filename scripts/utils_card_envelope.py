@@ -281,6 +281,26 @@ class CardEnvelope:
                     summary = stripped[:300]
                     break
 
+        # body: первые 800 слов чистого текста для BM25-скоринга
+        body_words: list[str] = []
+        in_frontmatter = False
+        fm_closed = False
+        for line in lines:
+            stripped = line.strip()
+            if stripped == "---" and not fm_closed:
+                in_frontmatter = not in_frontmatter
+                if not in_frontmatter:
+                    fm_closed = True
+                continue
+            if in_frontmatter:
+                continue
+            if stripped.startswith("<!--") or stripped.startswith("```"):
+                continue
+            body_words.extend(re.findall(r'[а-яёa-z]{3,}', stripped.lower()))
+            if len(body_words) >= 800:
+                break
+        body = " ".join(body_words[:800])
+
         # Теги из YAML frontmatter или <!-- tags: ... -->
         tags: list[str] = []
         tag_match = re.search(r'<!--\s*tags:\s*([^>]+)-->', text)
@@ -305,6 +325,7 @@ class CardEnvelope:
             payload={
                 "title":    title,
                 "summary":  summary,
+                "body":     body,
                 "tags":     tags,
                 "projects": mentioned,
                 "wc":       len(text.split()),

@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:1d26d9fa5686f890",
   "payload": {
     "title": "4. Passport (`passport.md`)",
     "summary": "Passport — human-readable описание Repo, расположенное в корне",
+    "body": "passport passport contents passport passport passport passportmd purpose purpose recommended structure recommended structure passport human readable описание repo расположенное корне passport passport purpose passport human readable описание repo расположенное корне каждого repo participant portal passport предназначен для людей читающих repo впервые для адаптеров которые могут его парсить для discovery recommended structure passport should содержать следующие разделы essence essence один абзац что это для кого почему существует объём объём единиц demo отображение отображение определено level похожие документы passport passport сходство registry nautilus json сходство смотрите также passport passport appendix minimal working example appendix minimal working example compatibility level упоминается queryresult structure queryresult structure sdk contract informative sdk contract informative passport passport passport passport compatibility levels compatibility levels compatibility levels compatibility levels appendix minimal working example appendix minimal working example compatibility level compatibility level history history native format native format planned planned readme вакансии anthropic анализ кластерам что всегда делаешь что всегда делаешь упоминается readme вакансии anthropic анализ кластерам связанные документы compatibility level compatibility level planned planned native format native format compatibility levels compatibility levels sdk contract informative sdk contract informative appendix minimal working example appendix minimal working example подключение claude desktop подключение claude desktop compatibility levels compatibility levels связанные документы appendix minimal working example appendix minimal working example compatibility level compatibility level passport passport passport passport planned planned queryresult structure queryresult structure appendix minimal working example appendix minimal working example history history abstract abstract",
     "tags": [
       "anthropic"
     ],

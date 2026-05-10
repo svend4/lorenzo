@@ -6,12 +6,13 @@
     "docs/ai-collaborations/ensembles/5-agent-firewall.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:6ed0dfa6aceeefac",
   "payload": {
     "title": "Ансамбль 5 — Agent Firewall",
     "summary": "5. Agent Firewall: «иммунная система для автономных агентов»",
+    "body": "ансамбль agent firewall warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi sentinel tool search смотрите также memory firewall prompt worms docs collaborations continuation memory firewall prompt worms budget aware intelligence stack docs collaborations ensembles budget aware intelligence stack domain agent app factory docs collaborations ensembles domain agent app factory default policy docs svyazi security default policy",
     "tags": [
       "rag",
       "security",

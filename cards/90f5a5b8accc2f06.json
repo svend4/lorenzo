@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/key-findings/01-yodoca.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:35328e45b954fc1b",
   "payload": {
     "title": "Yodoca — главная находка итерации",
     "summary": "Откопал ещё несколько крупных находок — теперь складывается уже не три, а почти десять параллельных проектов, и среди них есть один поразительно точный нейроархитектурный аналог хеббовского механизма Чуяна.",
+    "body": "yodoca главная находка итерации источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi cardindex yodoca смотрите также synthesis docs habr projects synthesis memnet docs habr unique projects key findings memnet supplementary infrastructure docs habr unique projects key findings supplementary infrastructure related projects docs habr unique projects analogues related projects кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name concepts docs glossary concepts readme docs habr unique projects key findings readme",
     "tags": [
       "memory",
       "knowledge",

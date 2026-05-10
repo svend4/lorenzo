@@ -6,12 +6,13 @@
     "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:87a06843388c2c29",
   "payload": {
     "title": "Ансамбль 8 — Budget-Aware Intelligence Stack",
     "summary": "8. Budget-Aware Intelligence Stack: «не всё надо отдавать большой LLM»",
+    "body": "ансамбль budget aware intelligence stack источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi tool search смотрите также agentops trace envelope docs collaborations continuation agentops trace envelope continuous eval loop docs collaborations ensembles continuous eval loop agent firewall docs collaborations ensembles agent firewall domain agent app factory docs collaborations ensembles domain agent app factory",
     "tags": [
       "rag",
       "security",

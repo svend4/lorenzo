@@ -6,12 +6,13 @@
     "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:a8807eaf89538880",
   "payload": {
     "title": "Section 9: Why this is timely",
     "summary": "Multiple working components recently emerged (HMP active, Hermes 95K stars, CAMEL mature)",
+    "body": "section why this timely источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section solution architecture docs anthropic vacancies beneficial deployments concept section solution architecture section risks mitigations docs anthropic vacancies beneficial deployments concept section risks mitigations section proposer role docs anthropic vacancies beneficial deployments concept section proposer role section success metrics docs anthropic vacancies beneficial deployments concept section success metrics",
     "tags": [
       "rag",
       "architecture",

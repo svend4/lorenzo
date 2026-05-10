@@ -39,12 +39,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:d29628fec2924272",
   "payload": {
     "title": "Зачем две версии параллельно",
     "summary": "Для критически важных документов (STATUS, IMPLEMENTATION_STAGE)",
+    "body": "зачем две версии параллельно для критически важных документов status implementation stage похожие документы сходство смотрите также review methodology review methodology portal protocol portal protocol appendix minimal working example appendix minimal working example упоминается конкретный план применения текущим документам конкретный план применения текущим документам вакансии anthropic анализ кластерам readme глоссарий глоссарий критерии выбора для фазы критерии выбора для фазы упоминается вакансии anthropic анализ кластерам readme связанные документы review methodology review methodology appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy readme readme индекс смотрите также see also abstract abstract planned planned связанные документы глоссарий глоссарий review methodology review methodology appendix minimal working example appendix minimal working example appendix references appendix references readme mcp инструкция установке readme mcp инструкция установке author contact author contact author contact author contact кто ссылается этот документ portal protocol docs anthropic vacancies portal protocol appendix references docs anthropic vacancies appendix references review methodology docs anthropic vacancies review methodology docs anthropic vacancies глоссарий docs anthropic vacancies глоссарий readme mcp инструкция установке docs anthropic vacancies readme mcp инструкция установке author contact docs anthropic vacancies author contact author contact docs anthropic vacancies author contact ещё",
     "tags": [
       "memory"
     ],

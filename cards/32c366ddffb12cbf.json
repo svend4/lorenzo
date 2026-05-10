@@ -6,12 +6,13 @@
     "docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:fdfb4ed6b876b5a9",
   "payload": {
     "title": "Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…",
     "summary": "Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система применять не только к репозиториям с кодом но и крепозиториям с документацией например есть со…",
+    "body": "hast gesagt вопрос такой вопрос такие можно этот протокол это система источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога применение npp гуманитарным документам юридические социальные смотрите также which combination more valuable docs nautilus npp humanitarian extension which combination more valuable question anonymization docs nautilus privacy federation question anonymization question habr docs nautilus community discussions habr article reaction question habr appendix change log docs nautilus npp appendix change log",
     "tags": [
       "architecture",
       "anthropic"

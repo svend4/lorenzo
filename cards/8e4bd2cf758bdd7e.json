@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:1537519b582b5810",
   "payload": {
     "title": "5. Связь с существующими методологиями",
     "summary": "title: \"5. Связь с существующими методологиями\"",
+    "body": "связь существующими методологиями warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений абстракт авто проблема связь существующими методологиями contents подход новое данной методологии новое данной методологии теоретическим прародителем является version programming ключевые слова version programming связь существующими методологиями reviews ensembles отличия contents связь существующими методологиями связь существующими методологиями version programming version programming paired reviews academia paired reviews academia consensus ensembles consensus ensembles red team blue team red team blue team новое данной методологии новое данной методологии теоретическим прародителем является version programming связь существующими методологиями version programming теоретическим прародителем является version programming chen avizienis написание нескольких независимых имплементаций одной спецификации для повышения reliability использовалось safety critical systems boeing nasa отличия version programming про код цель fault tolerance трёхфазная методология про документацию цель completeness insights paired reviews academia академической рецензии две независимые peer reviews могут противоречить друг другу meta reviewer editor должен разрешить противоречие структура похожая two independent consolidation отличия academic review оценки accept reject major revision наша методология конструктивные версии документа consensus ensembles используется ensemble methods несколько моделей voting или averaging это разрешение через числовой механизм отличия ensembles разрешение автоматическое правилу наша методология разрешение ручное через правила red team blue team security public policy используется структура red blue один агент критикует другой защищает meta reviewer interpretates отличия red blue agents имеют разные роли adversarial наша методология agents имеют одну роль независимость исполнения convergent новое данной методологии комбинация следующих свойств описана известной литературе применение assisted documentation человеческой работе сохранение параллельных версий main отдельных ветках явный transitional state документированным header warning decision tree для ручной консолидации правила это делает методологию потенциально публикационной смотрите также ограничения открытые вопросы похожие документы ограничения открытые вопросы сходство контекст мотивация сходство реализация проекте nautilus сходство",
     "tags": [
       "memory",
       "rag"

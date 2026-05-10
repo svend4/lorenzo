@@ -6,12 +6,13 @@
     "docs/obsidian/autofilled/components/cowork.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:e3382b6ae5ac6cfc",
   "payload": {
     "title": "Cowork",
     "summary": "",
+    "body": "cowork компонент экосистемы svyazi проекты svyazi тип статус упоминаний описание компонент экосистемы svyazi ссылки исходники readme документация связанные документы ingit kksudo lorenzo nautilus sgb spbmolot svyazi антропик связанные документы sgb svyazi антропик ingit kksudo lorenzo nautilus spbmolot смотрите также ingit lorenzo nautilus упоминается lorenzo nautilus sgb svyazi readme components ingit kksudo spbmolot svend autofilled автозаполненные шаблоны антропик tables все таблицы репозитория sitemap карта репозитория lorenzo",
     "tags": [
       "ingestion",
       "collaboration"

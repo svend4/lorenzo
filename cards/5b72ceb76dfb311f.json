@@ -6,12 +6,13 @@
     "docs/ai-collaborations/continuation/05-roadmap-6-12-months.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:70b411ecc54a6f8d",
   "payload": {
     "title": "Roadmap на 6–12 месяцев",
     "summary": "Ниже дорожная карта уже не “по инструментам”, а по системным способностям. Она предполагает, что базовый MVP из CardIndex + evidence + memory уже начат.",
+    "body": "roadmap месяцев tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок поиск коллабораций проектов корень репозитория проекты cardindex mclaude factory смотрите также roadmap docs svyazi prototype roadmap architecture rfc docs collaborations continuation architecture rfc дорожная карта прототипа следующей итерации docs collaborations дорожная карта прототипа следующей итерации roadmap docs svyazi roadmap",
     "tags": [
       "memory",
       "rag",

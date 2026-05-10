@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:8a4f991b7a08e979",
   "payload": {
     "title": "7. Реализация в проекте Nautilus",
     "summary": "title: \"7. Реализация в проекте Nautilus\"",
+    "body": "реализация проекте nautilus абстракт авто проблема реализация проекте nautilus contents подход будущем методология может быть формализована npp как рекомендованный workflow для community contributed documentation ключевые слова nautilus применения anthropic vacancies status workflow реализация проекте contents реализация проекте nautilus реализация проекте nautilus docs habr projects memory memnet хронология применения хронология применения артефакты артефакты интеграция nautilus portal protocol интеграция nautilus docs habr projects memory memnet portal protocol первое применение implementation stage part реализация проекте nautilus хронология применения первое применение implementation stage part апрель вариант ветка claude review memnet nautilus changes tdywx вариант ветка claude project implementation stage czyle текущий статус merged main with parallel blocks фаза пройдена повторное применение status апрель пройдена фаза единожды single pass статус канонично трёхфазная методология применялась осмысленность документ достаточно простой для single pass пример что методология применяется селективно только там где польза оправдывает overhead артефакты для каждого документа прошедшего через методологию репо сохраняются исходные draft ветки claude как audit trail merged main header warning текущее состояние финальная консолидированная после фазы удалять исходные ветки следует завершения фазы они могут содержать контекст нужный для разрешения неочевидных расхождений интеграция nautilus portal protocol npp breaking changes process упоминает rfc процесс для major version bump трёхфазная методология неофициальный аналог rfc для документов затрагивающих протокол formally имеющих высокую ценность status implementation stage итд будущем методология может быть формализована npp как рекомендованный workflow для community contributed documentation похожие документы формальный workflow сходство конкретный план применения текущим документам сходство status this document сходство смотрите также формальный workflow конкретный план применения текущим документам status this document versioning policy",
     "tags": [
       "orchestration",
       "architecture",

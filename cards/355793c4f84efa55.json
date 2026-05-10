@@ -6,12 +6,13 @@
     "docs/WORD_CLOUD.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:32f79456d3bc5f41",
   "payload": {
     "title": "Word Cloud",
     "summary": "Визуализация 80 самых частых слов репозитория.",
+    "body": "word cloud визуализация самых частых слов репозитория проекты svyazi похожие документы concept graph docs concept graph сходство appendix minimal working example docs anthropic vacancies appendix minimal working example сходство ingit cowork native workspace substrate docs anthropic vacancies ingit cowork native workspace substrate сходство смотрите также concept graph docs concept graph appendix minimal working example docs anthropic vacancies appendix minimal working example readme docs anthropic vacancies readme practical path layer through symbiotic inte docs anthropic vacancies practical path layer through symbiotic inte кто ссылается этот документ ingit cowork native workspace substrate docs anthropic vacancies ingit cowork native workspace substrate appendix decision tree for ingit adopters docs anthropic vacancies appendix decision tree for ingit adopters index docs index llm summaries docs llm summaries readme docs readme tables docs tables",
     "tags": [
       "ingestion",
       "anthropic"

@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:06272e55f933a3ba",
   "payload": {
     "title": "Вопрос: fallback-ratio как критический или осмысленный?",
     "summary": "Два независимых анализа пришли к разным выводам:",
+    "body": "вопрос fallback ratio как критический или осмысленный абстракт авто проблема два независимых анализа пришли разным выводам позиция fallback критично требует срочных живых адаптеров для info pro meta data позиция fallback осмысленн подход important ключевой документ для понимания архитектуры результат два независимых анализа пришли разным выводам вопрос fallback ratio как критический или осмысленный ключевые слова fallback anthropic vacancies решение проекта версии метрика count important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь два независимых анализа пришли разным выводам смотрите также portal mcp docs anthropic vacancies portal mcp portalentry structure docs anthropic vacancies portalentry structure checklist применения методологии docs anthropic vacancies checklist применения методологии adapter interface docs anthropic vacancies adapter interface похожие документы portalentry structure docs anthropic vacancies portalentry structure сходство portal mcp docs anthropic vacancies portal mcp сходство portalentry structure docs anthropic vacancies portalentry structure сходство",
     "tags": [
       "memory",
       "rag",

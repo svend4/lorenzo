@@ -6,12 +6,13 @@
     "docs/02-anthropic-vacancies/17-5-compatibility-levels.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:819d0fd9b14678f0",
   "payload": {
     "title": "5. Compatibility Levels",
     "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
+    "body": "compatibility levels абстракт авто проблема use case статические repos архивы reference docs которые нужно искать подход адаптер реализует только describe метод результат это позволяет постепенное подключение существующий repo может начать уровне расти уровню без переделки ключевые слова level compatibility levels anthropic vacancies может portal repos contents compatibility levels compatibility levels level discoverable level discoverable level readable level readable level queryable level queryable level interactive bridged level interactive bridged npp определяет уровня совместимости repo экосистемой это похожие документы compatibility levels docs anthropic vacancies compatibility levels сходство compatibility level docs anthropic vacancies compatibility level сходство compatibility level docs anthropic vacancies compatibility level сходство смотрите также compatibility levels docs anthropic vacancies compatibility levels compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level кто ссылается этот документ passport passport docs anthropic vacancies passport passport adapter interface docs anthropic vacancies adapter interface query flow docs anthropic vacancies query flow compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level readme docs anthropic vacancies readme",
     "tags": [
       "memory",
       "anthropic",

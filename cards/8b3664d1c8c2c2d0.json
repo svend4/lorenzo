@@ -47,12 +47,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:27+00:00",
-  "updated_at": "2026-05-10T15:55:27+00:00",
+  "created_at": "2026-05-10T16:03:31+00:00",
+  "updated_at": "2026-05-10T16:03:31+00:00",
   "payload_hash": "sha256:b5c5498159e4a923",
   "payload": {
     "title": "Доступ к данным",
     "summary": "",
+    "body": "доступ данным warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений fallback всегда возвращает static entries упоминается заключение заключение почему это валидный паттерн для assisted workflows почему это валидный паттерн для assisted work appendix шаблон для header warning appendix шаблон для header warning appendix domain comparison matrix appendix domain comparison matrix appendix история изменений методологии appendix история изменений методологии history history вакансии anthropic анализ кластерам readme главные технические риски главные технические риски когда сомневаешься escalate max когда сомневаешься escalate max когда honestly знаешь когда honestly знаешь кому служишь слоистая модель кому служишь слоистая модель приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit приложение матрица сравнения областей приложение матрица сравнения областей твои anti patterns твои anti patterns твоя личность твоя личность твоя миссия твоя миссия упоминается вакансии anthropic анализ кластерам readme смотрите также приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit appendix шаблон для header warning appendix шаблон для header warning appendix история изменений методологии appendix история изменений методологии кому служишь слоистая модель кому служишь слоистая модель связанные документы appendix история изменений методологии appendix история изменений методологии приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit кому служишь слоистая модель кому служишь слоистая модель appendix шаблон для header warning appendix шаблон для header warning когда honestly знаешь когда honestly знаешь appendix domain comparison matrix appendix domain comparison matrix твоя миссия твоя миссия главные технические риски главные технические риски кто ссылается этот документ appendix история изменений методологии docs anthropic vacancies appendix история изменений методологии history docs anthropic vacancies history appendix domain comparison matrix docs anthropic vacancies appendix domain comparison matrix заключение docs anthropic vacancies заключение приложение матрица сравнения областей docs anthropic vacancies приложение матрица сравнения областей приложение дерево решений для принимающих ingit docs anthropic vacancies приложение дерево решений для принимающих ingit readme docs anthropic vacancies readme",
     "tags": [
       "anthropic"
     ],

@@ -6,12 +6,13 @@
     "docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:c77e71138e2c94b3",
   "payload": {
     "title": "10. QueryResult Structure",
     "summary": "results_by_repo: dict[str, list[PortalEntry]]",
+    "body": "queryresult structure results repo dict str list portalentry queryresult structure class queryresult query str results repo dict str list portalentry consensus consensus total entries int repos queried list str errors dict str str repo name error message timing dict str float repo name seconds elapsed serialization общий план развития nautilus portal protocol queryresult must поддерживать сериализацию json markdown html json для mcp api markdown для cli llm consumption html для web interface формат markdown should группировать результаты consensus category сначала full затем partial затем singular похожие документы query flow сходство reference implementation сходство adapter interface сходство смотрите также reference implementation query flow appendix minimal working example relevance ranking упоминается query flow query flow relevance ranking relevance ranking sdk contract informative sdk contract informative mcp extension informative mcp extension informative passport passport passport passport adapter interface adapter interface adapter interface adapter interface portalentry structure portalentry structure consensus algorithm consensus algorithm query flow query flow appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example appendix change log appendix change log history history native format native format readme вакансии anthropic анализ кластерам подключение claude desktop подключение claude desktop что всегда делаешь что всегда делаешь упоминается readme вакансии anthropic анализ кластерам связанные документы appendix minimal working example appendix minimal working example sdk contract informative sdk contract informative appendix minimal working example appendix minimal working example query flow query flow compatibility level compatibility level adapter interface adapter interface passport passport passport passport appendix change log appendix change log связанные документы appendix minimal working example appendix minimal working example query flow query flow appendix minimal working example appendix minimal working example sdk contract informative sdk contract informative adapter interface adapter interface adapter interface adapter interface passport passport passport passport appendix change log appendix change log",
     "tags": [
       "anthropic"
     ],

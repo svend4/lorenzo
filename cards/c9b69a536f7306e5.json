@@ -6,12 +6,13 @@
     "docs/technology-combinations/mega-stacks/03-dsl-ast.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:abd8e337acb276e2",
   "payload": {
     "title": "Mega‑Stack 3.0 — with DSL & AST",
     "summary": "Финальная архитектура, объединяющая все 30 комбинаций, включая DSL, AST и Pydantic.",
+    "body": "mega stack with dsl ast источник mhtml снимок комбинирование технологий для новых свойств claude секция комбинация mega stack with dsl ast проекты hybrid rag смотрите также extended docs technology combinations synthesis tables extended event sourcing consensus docs technology combinations mega stacks event sourcing consensus ultimate legal docs technology combinations mega stacks ultimate legal mega stack with dsl ast docs technology combinations combinations mega stack with dsl ast кто ссылается этот документ components name docs glossary components name reading paths docs reading paths readme docs technology combinations mega stacks readme",
     "tags": [
       "rag",
       "local-first",

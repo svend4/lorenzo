@@ -6,12 +6,13 @@
     "docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:0d4cdcef1e7a35fa",
   "payload": {
     "title": "Комбинация 31: Event-Sourced Legal Document History",
     "summary": "Event Sourcing (immutable event log, time-travel queries)",
+    "body": "комбинация event sourced legal document history источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также event sourcing cqrs clickhouse analytics docs technology combinations combinations event sourcing cqrs clickhouse analytics mega stack with event sourcing consensus docs technology combinations combinations mega stack with event sourcing consensus final docs technology combinations synthesis tables final hybrid olap oltp with real time sync docs technology combinations combinations hybrid olap oltp with real time sync кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme final docs technology combinations synthesis tables final",
     "tags": [
       "rag"
     ],

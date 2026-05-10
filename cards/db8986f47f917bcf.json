@@ -6,12 +6,13 @@
     "docs/ai-collaborations/continuation/08-commercialization-three-paths.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:32bf0ab9841025c4",
   "payload": {
     "title": "Коммерциализация: три направления",
     "summary": "8. Коммерциализация: три реалистичных направления",
+    "body": "коммерциализация три направления источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi mclaude factory liteparse legal rag смотрите также agentops trace envelope docs collaborations continuation agentops trace envelope shared memory between agents docs collaborations continuation shared memory between agents metrics tree docs collaborations continuation metrics tree ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать",
     "tags": [
       "rag",
       "orchestration",

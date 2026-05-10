@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/naming/01-search-results-not-found.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:31d6871687127d85",
   "payload": {
     "title": "Результаты последнего поиска — что нашлось и что не нашлось",
     "summary": "Результаты последнего поиска — что нашлось и что не нашлось",
+    "body": "результаты последнего поиска что нашлось что нашлось источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога выбор имени lorenzo как codename для catalyst agent lorenzo medici dhlab umbrella смотрите также level full network docs lorenzo agent phased deployment level full network question lorenzo codename docs lorenzo agent naming question lorenzo codename personal multi agent hub docs habr unique projects extra examples personal multi agent hub section solution architecture docs anthropic vacancies beneficial deployments concept section solution architecture",
     "tags": [
       "anthropic",
       "collaboration"

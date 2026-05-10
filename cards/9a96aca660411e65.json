@@ -6,12 +6,13 @@
     "docs/COST.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:28+00:00",
-  "updated_at": "2026-05-10T15:55:28+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:795f94d800ed2690",
   "payload": {
     "title": "Оценка стоимости MVP",
     "summary": "_Ориентировочные цифры на основе документации проекта._",
+    "body": "оценка стоимости mvp ориентировочные цифры основе документации проекта итого параметр значение человеко недель человеко часов бюджет usd календарный срок месяцев команда ролей компонентам компонент роль недель стоимость usd project management project manager knowledge ядро senior python dev yodoca memory layer engineer cardindex интеграция senior python dev ngt граф памяти engineer sentinel безопасность senior python dev rufler оркестрация engineer mcp протокол адаптер senior python dev тесты devops agentfs подключение senior python dev mcp tool search senior python dev документация api tech writer итого ролям роль ставка usd недель итого usd senior python dev engineer devops tech writer project manager сценарии сценарий команда срок бюджет минимальный solo разработчик мес оптимальный человека мес ускоренный человек мес минимальный сценарий open source личное время авторов компонентов временные оценки документов источник контекст недель развёрнутый анал макс part time реальный timeline месяца для full lorenzo catalyst рудоёмкий процесс подачи может быть месяцев финанс развёрнутый анал eam solo developer макс part time реальный timeline action items обратная связь burnout проект месяцев для singl concepts инимально жизнеспособный прототип месяцев decisions document структурированный план месяцев который tables развёрнутый анал макс part time реальный timeline response есяцев maybe eventual formalization как rfc standard допущения рабочая неделя часов ставки рыночные для независимых разработчиков европа сша open source компоненты бесплатны сервера инфраструктура включены мес авторы oss компонентов могут участвовать добровольно снижает бюджет",
     "tags": [],
     "projects": [
       "CardIndex",

@@ -6,12 +6,13 @@
     "docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:1c66bd2c7ae4d34f",
   "payload": {
     "title": "Ансамбль 2 — Distributed Agent Workshop",
     "summary": "2. Distributed Agent Workshop: «агенты как настоящая команда»",
+    "body": "ансамбль distributed agent workshop источник mhtml снимок поиск коллабораций проектов корень репозитория проекты factory rufler смотрите также shared memory between agents docs collaborations continuation shared memory between agents ambient team agent docs collaborations ensembles ambient team agent agentic knowledge docs collaborations ensembles agentic knowledge domain agent app factory docs collaborations ensembles domain agent app factory",
     "tags": [
       "orchestration",
       "architecture",

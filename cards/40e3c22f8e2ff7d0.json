@@ -6,12 +6,13 @@
     "docs/nautilus/supply-demand/01-three-related-themes.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:12ee4dcbca7ddb96",
   "payload": {
     "title": "Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.",
     "summary": "Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.",
+    "body": "claude hat geantwortet очень богатый вопрос три разных связанных темы warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога спрос рождает предложение три связанные темы смотрите также appendix version history docs anthropic vacancies appendix version history completing loop docs nautilus transmission box completing loop response docs nautilus innovation transitions response closing docs anthropic vacancies closing",
     "tags": [
       "rag",
       "architecture",

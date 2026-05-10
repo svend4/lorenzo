@@ -6,12 +6,13 @@
     "docs/habr-unique-projects/analogues/02-related-projects.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:b02962fa8338caa5",
   "payload": {
     "title": "Смежные проекты",
     "summary": "«Программа поиска единомышленников ВКонтакте» (https://habr.com/ru/articles/495554/) — олдскульный аналог через анализ подписок, без LLM, но с той же концепцией matching по интересам. Полезна как контр-пример: показывает, чего не хватает без семантического слоя.",
+    "body": "смежные проекты источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi cardindex ngt memory wikontic смотрите также related projects context docs collaborations candidates related projects context synthesis hebbian collaboration graph docs collaborations candidates synthesis hebbian collaboration graph three key candidates docs collaborations candidates three key candidates three direct analogues docs habr unique projects analogues three direct analogues кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs habr unique projects analogues readme",
     "tags": [
       "memory",
       "knowledge",

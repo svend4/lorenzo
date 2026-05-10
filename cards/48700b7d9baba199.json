@@ -6,12 +6,13 @@
     "docs/svyazi-2-0/components/ngt-memory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:386260526bcfeae6",
   "payload": {
     "title": "NGT Memory",
     "summary": "Персистентная память для LLM‑приложений с ассоциативным графом и миллисекундным retrieval overhead.",
+    "body": "ngt memory автор spbmolot ngt memory проекты svyazi ngt memory смотрите также memnet docs svyazi components memnet yodoca docs svyazi components yodoca hybrid rag docs svyazi components hybrid rag graph rag docs svyazi components graph rag кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name concepts docs glossary concepts readme docs svyazi components readme",
     "tags": [
       "memory",
       "rag",

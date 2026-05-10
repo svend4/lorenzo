@@ -31,12 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:523179edce3e5c8c",
   "payload": {
     "title": "Сводная таблица 25–30 (Complete 1–30)",
     "summary": "aktenzeichen: str = Field(regex=r\"[A-Z]\\s\\d+\\sSO\\s\\d+/\\d+\")",
+    "body": "сводная таблица complete источник mhtml снимок комбинирование технологий для новых свойств claude секция extended synthesis table complete смотрите также mega stack with dsl ast docs technology combinations combinations mega stack with dsl ast final docs technology combinations synthesis tables final dsl ast docs technology combinations mega stacks dsl ast final docs technology combinations synthesis tables final",
     "tags": [
       "rag",
       "orchestration"

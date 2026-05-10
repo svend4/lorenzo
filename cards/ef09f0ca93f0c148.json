@@ -6,12 +6,13 @@
     "docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:32+00:00",
+  "updated_at": "2026-05-10T16:03:32+00:00",
   "payload_hash": "sha256:29f157bdc5574c8e",
   "payload": {
     "title": "Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph",
     "summary": "7. Чем Svyazi‑2.0 отличается от Notion AI, Mem, AFFiNE и LangGraph‑стеков",
+    "body": "чем svyazi отличается notion mem affine langgraph warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi cardindex смотрите также ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать mcp protocols docs collaborations continuation mcp protocols roadmap months docs collaborations continuation roadmap months agentops trace envelope docs collaborations continuation agentops trace envelope",
     "tags": [
       "rag",
       "knowledge",

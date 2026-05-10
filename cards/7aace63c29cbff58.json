@@ -6,12 +6,13 @@
     "docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:1ddc56d4e80f6f3e",
   "payload": {
     "title": "Уровень 1 — Минимальный (Lorenzo Zero)",
     "summary": "Что это: Базовая персистентность через Claude Projects + ручной workflow. Lorenzo существует как конфигурация Project, но всё ещё через ручные триггеры.",
+    "body": "уровень минимальный lorenzo zero источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network проекты cardindex смотрите также level manual docs lorenzo agent phased deployment level manual level basic lite docs lorenzo agent phased deployment level basic lite level medium active docs lorenzo agent phased deployment level medium active level full network docs lorenzo agent phased deployment level full network",
     "tags": [
       "knowledge",
       "roadmap",

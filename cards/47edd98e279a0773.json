@@ -6,12 +6,13 @@
     "docs/nautilus/infrastructure-layer-b-ru/00-intro.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:29+00:00",
-  "updated_at": "2026-05-10T15:55:29+00:00",
+  "created_at": "2026-05-10T16:03:33+00:00",
+  "updated_at": "2026-05-10T16:03:33+00:00",
   "payload_hash": "sha256:cf401d19996b91c2",
   "payload": {
     "title": "00 Intro",
     "summary": "Это honest about its limits. Inquiry paper, not specification.",
+    "body": "intro источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также appendix position series visualization docs anthropic vacancies appendix position series visualization инфраструктура для совместной интеллектуальной docs anthropic vacancies инфраструктура для совместной интеллектуальной ingit как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего blagodarnosti ssylki docs nautilus infrastructure layer blagodarnosti ssylki",
     "tags": [
       "architecture",
       "anthropic",

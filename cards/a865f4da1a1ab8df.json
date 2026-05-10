@@ -6,12 +6,13 @@
     "docs/obsidian/NETWORK.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:55:30+00:00",
-  "updated_at": "2026-05-10T15:55:30+00:00",
+  "created_at": "2026-05-10T16:03:34+00:00",
+  "updated_at": "2026-05-10T16:03:34+00:00",
   "payload_hash": "sha256:f9fafd55df4bf5a7",
   "payload": {
     "title": "Сеть проектов и авторов",
     "summary": "",
+    "body": "сеть проектов авторов узлов связей топ упоминаемых пар пара общих файлов cowork ingit svyazi yodoca svyazi cardindex svyazi ngt yodoca ngt svyazi agentfs svyazi memnet svyazi knowledge space cardindex ngt svyazi mclaude cardindex yodoca agentfs ngt svyazi rufler agentfs yodoca cardindex agentfs svyazi liteparse agentfs knowledge space svyazi factory yodoca mclaude yodoca knowledge space центральность узлов влиятельность узел балл центральности тип svyazi проект ngt проект yodoca проект cardindex проект agentfs проект knowledge space проект rufler проект mclaude проект memnet проект liteparse проект factory проект sentinel проект lorenzo svend автор cowork проект андрей kksudo автор lorenzo проект ingit проект виталий spbmolot автор wikontic проект firecrawl проект авторы проекты андрей kksudo svyazi agentfs knowledge space yodoca ngt cardindex liteparse memnet виталий spbmolot svyazi knowledge space agentfs yodoca ngt cardindex liteparse memnet lorenzo svend svyazi memnet cowork ingit lorenzo cardindex ngt knowledge space смотрите также graph entities glossary mindmap",
     "tags": [
       "memory",
       "rag",
