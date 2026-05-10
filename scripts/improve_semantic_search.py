@@ -95,6 +95,44 @@ def tokenize(text: str, min_len: int = 3) -> list[str]:
     return [t for t in raw if t not in _STOPWORDS]
 
 
+# Русские падежные/числовые суффиксы для нормализации запросов
+_RU_SUFFIXES = (
+    "ациями","ацией","ацию","ации","ация",   # -ация (оркестрация)
+    "ениями","ением","ению","ении","ение",   # -ение
+    "ировать","ирует","ируют",               # -ировать
+    "овании","ование","ованию","ованием",    # -ование
+    "ностью","ности","ностей",               # -ность
+    "агентов","агентам","агентами",          # агент (partial)
+    "ями","ами","ому","ому","ого",
+    "ает","ают","ает","ают",
+    "ов","ем","ей","ий","ых","ым","ая","ую","ой",
+)
+
+
+def _ru_stem(token: str) -> str:
+    """Strip common Russian endings to get a search-friendly root."""
+    for suf in _RU_SUFFIXES:
+        if token.endswith(suf) and len(token) - len(suf) >= 4:
+            return token[: len(token) - len(suf)]
+    return token
+
+
+def tokenize_query(text: str, min_len: int = 3) -> list[str]:
+    """Like tokenize() but adds stemmed variants for Russian query tokens."""
+    raw = tokenize(text, min_len)
+    expanded: list[str] = []
+    seen: set[str] = set()
+    for tok in raw:
+        if tok not in seen:
+            seen.add(tok)
+            expanded.append(tok)
+        stem = _ru_stem(tok)
+        if stem != tok and stem not in seen and len(stem) >= min_len:
+            seen.add(stem)
+            expanded.append(stem)
+    return expanded
+
+
 # ─────────────────────────────────────────────────────────────────────
 # Режим 1: TF-IDF (card-level)
 # ─────────────────────────────────────────────────────────────────────
@@ -110,7 +148,13 @@ def _cosine_sim(v1: dict, v2: dict) -> float:
 
 def search_semantic(query: str, top: int = 10,
                     card_type: str = "", section: str = "") -> list[dict]:
-    """TF-IDF cosine search over CardStore."""
+    """TF-IDF cosine search over CardStore.
+
+    Uses tokenize_query() which expands Russian query tokens with stemmed
+    variants, improving recall for inflected forms (оркестрация→оркестр, etc.).
+    Deduplicates stub paths (svyazi-2-0/components/) in favour of canonical
+    docs/05-habr-projects/ versions.
+    """
     idx = _get_tfidf()
     if not idx:
         return []
@@ -119,7 +163,7 @@ def search_semantic(query: str, top: int = 10,
     vectors = idx["vectors"]
     meta    = idx["card_meta"]
 
-    q_tokens = tokenize(query)
+    q_tokens = tokenize_query(query)
     if not q_tokens:
         return []
 
@@ -128,7 +172,7 @@ def search_semantic(query: str, top: int = 10,
     q_tf   = {t: c / total for t, c in tf_map.items()}
     q_vec  = {t: q_tf[t] * idf[t] for t in q_tf if t in idf}
 
-    results = []
+    raw: list[dict] = []
     for cid, vec in vectors.items():
         m = meta.get(cid, {})
         if card_type and card_type != "all" and m.get("card_type") != card_type:
@@ -137,7 +181,7 @@ def search_semantic(query: str, top: int = 10,
             continue
         score = _cosine_sim(q_vec, vec)
         if score > 0.0:
-            results.append({
+            raw.append({
                 "mode":  "semantic",
                 "score": round(score, 4),
                 "card_id": cid,
@@ -147,7 +191,19 @@ def search_semantic(query: str, top: int = 10,
                 "state": m.get("state", ""),
             })
 
-    results.sort(key=lambda x: -x["score"])
+    raw.sort(key=lambda x: -x["score"])
+
+    # Deduplicate: keep canonical (non-stub) path when same stem exists
+    deduped: dict[str, dict] = {}
+    for r in raw:
+        key = _canonical_path_key(r["path"])
+        existing = deduped.get(key)
+        if existing is None:
+            deduped[key] = r
+        elif _is_stub_path(existing["path"]) and not _is_stub_path(r["path"]):
+            deduped[key] = r  # prefer rich file over stub
+
+    results = sorted(deduped.values(), key=lambda x: -x["score"])
     return results[:top]
 
 
@@ -287,6 +343,13 @@ def search_hybrid(query: str, top: int = 10,
     sem_res = search_semantic(query, top=top * 2, card_type=card_type, section=section)
     bm25_res = search_bm25(query, top=top * 2, section=section)
 
+    # When card_type filter is active, restrict BM25 to paths known in semantic results
+    # so high-volume non-project docs (e.g. anthropic vacancies) don't swamp the output.
+    if card_type and card_type != "all":
+        allowed_stems = {_canonical_path_key(r.get("path","")) for r in sem_res}
+        bm25_res = [r for r in bm25_res
+                    if _canonical_path_key(r.get("file","") or r.get("title","")) in allowed_stems]
+
     # Normalise scores to [0, 1]
     def _norm(lst: list[dict], key: str = "score") -> None:
         mx = max((r[key] for r in lst), default=1.0) or 1.0
@@ -305,7 +368,6 @@ def search_hybrid(query: str, top: int = 10,
         raw_key = r.get("path") or r.get("card_id") or r["title"]
         dedup_key = _canonical_path_key(raw_key)
         existing = meta.get(dedup_key)
-        # Keep the non-stub version; fall back to higher-score among stubs
         if existing is None or (_is_stub_path(existing.get("path","")) and
                                  not _is_stub_path(r.get("path",""))):
             rrf[dedup_key]  = rrf.get(dedup_key, 0) + 1.0 / (k + rank + 1)
