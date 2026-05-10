@@ -797,7 +797,7 @@ markdown
 - [72-расписание-фазы-3](72-расписание-фазы-3.md)
 - [122-глоссарий](122-глоссарий.md)
 - [104-appendix-c-references](104-appendix-c-references.md)
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../05-habr-projects/memory/memnet.md).md)
+- [114-7-реализация-в-проекте-nautilus](114-7-реализация-в-проекте-nautilus.md)
 
 
 <!-- backlinks -->

@@ -1,6 +1,6 @@
 # Сломанные внутренние ссылки
 
-**Найдено:** 900 проблем, 25 пропущено (длинный путь)
+**Найдено:** 783 проблем, 22 пропущено (длинный путь)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
@@ -14,14 +14,8 @@
 | `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Упоминается в | `#упоминается-в` | якорь не найден |
 | `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Связанные документы | `#связанные-документы` | якорь не найден |
 | `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
-| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
-| `docs/02-anthropic-vacancies/111-4-условия-применимости.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
 | `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | 7. Реализация в проекте Nautil | `#7-реализация-в-проекте-[nautilus](../05` | якорь не найден |
 | `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | 7.3. Интеграция с Nautilus Por | `#73-интеграция-с-[nautilus](../05-habr-p` | якорь не найден |
-| `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
-| `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
-| `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
 | `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
 | `docs/02-anthropic-vacancies/122-глоссарий.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
 | `docs/02-anthropic-vacancies/130-отладка.md` | Tool-call падает с "adapterfai | `#tool-call-падает-с-adapterfailed` | якорь не найден |
@@ -54,10 +48,16 @@
 | `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Упоминается в | `#упоминается-в` | якорь не найден |
 | `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Связанные документы | `#связанные-документы` | якорь не найден |
 | `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` | Связь с библиотекой паттернов  | `#связь-с-библиотекой-паттернов-[nautilus` | якорь не найден |
+| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/268-references.md` | Упоминается в | `#упоминается-в` | якорь не найден |
 
-_...и ещё 850 проблем_
+_...и ещё 733 проблем_
 
-## Пропущено из-за длинного пути (25)
+## Пропущено из-за длинного пути (22)
 
 _Markdown-ссылки с путём > 240 символов — OS не может проверить._
 
@@ -75,11 +75,8 @@ _Markdown-ссылки с путём > 240 символов — OS не може
 | ` | путь слишком длинный (731 симв.) |
 | `docs/TABLES.md` | `docs/04-ai-collaborations/06… |
 | `07-mvp-planning` | путь слишком длинный (632 симв.) |
-| `docs/TABLES.md` | `docs/04-ai-collaborations/06… |
-| `07-mvp-planning` | путь слишком длинный (623 симв.) |
-| `docs/TABLES.md` | `../docs/05-habr-projects/memo | `docs/02-anthropic` | путь слишком длинный (517 симв.) |
-| `docs/TABLES.md` | `../docs/05- | `docs/02-anthropic-vacancies/114-7-р` | путь слишком длинный (580 симв.) |
-| `docs/TABLES.md` | `../docs/01-svyazi/03-co | `docs/02-anthropic-vacan` | путь слишком длинный (527 симв.) |
+| `docs/TABLES.md` | `../05-ha` | якорь не найден |
+| `docs/02-anthropic` | путь слишком длинный (7010 симв.) |
 | `docs/habr-unique-projects/README.md` | `../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%B` | путь слишком длинный (403 симв.) |
 | `docs/habr-unique-projects/README.md` | `../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%B` | путь слишком длинный (408 симв.) |
 | `docs/obsidian/ABBREVIATIONS.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
@@ -98,6 +95,10 @@ _Markdown-ссылки с путём > 240 символов — OS не може
 | `07-mvp-planning` | путь слишком длинный (445 симв.) |
 | `docs/obsidian/TABLES.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
 | ` | путь слишком длинный (740 симв.) |
+| `docs/obsidian/TABLES.md` | `docs/04-ai-collaborations/06… |
+| `07-mvp-planning` | путь слишком длинный (632 симв.) |
+| `docs/obsidian/TABLES.md` | `../docs/05-habr-projects/memo | `docs/02-anthropic` | путь слишком длинный (526 симв.) |
+| `docs/obsidian/TABLES.md` | `../docs/05- | `docs/02-anthropic-vacancies/114-7-р` | путь слишком длинный (589 симв.) |
 
 ## Внешние URL (251 уникальных)
 

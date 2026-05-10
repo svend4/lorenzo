@@ -31,23 +31,8 @@
   },
   {
     "file": "docs/TABLES.md",
-    "target": "docs/04-ai-collaborations/06… |\n| `07-mvp-planning` | l Search + базовые правила безопасности | Удер",
-    "issue": "путь слишком длинный (623 симв.)"
-  },
-  {
-    "file": "docs/TABLES.md",
-    "target": "../docs/05-habr-projects/memo | `docs/02-anthropic-vacancies/133-обратная-связь.md` |\n| `2025-11-12`",
-    "issue": "путь слишком длинный (517 симв.)"
-  },
-  {
-    "file": "docs/TABLES.md",
-    "target": "../docs/05- | `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` |\n| `апреле 2026`",
-    "issue": "путь слишком длинный (580 симв.)"
-  },
-  {
-    "file": "docs/TABLES.md",
-    "target": "../docs/01-svyazi/03-co | `docs/02-anthropic-vacancies/00-intro.md` |\n| `6-12 месяце` | которые беру",
-    "issue": "путь слишком длинный (527 симв.)"
+    "target": "../05-ha` | якорь не найден |\n| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Упоми",
+    "issue": "путь слишком длинный (7010 симв.)"
   },
   {
     "file": "docs/habr-unique-projects/README.md",
