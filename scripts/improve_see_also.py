@@ -4,6 +4,7 @@ improve_see_also.py — добавляет блок "See Also / Смотрите
 Создаёт docs/SEE_ALSO.md (индекс) и вставляет блоки в файлы.
 Запуск: python scripts/improve_see_also.py
 """
+import os
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -69,14 +70,17 @@ def find_related(fname: str, tokens: dict[str, set],
     return scores[:n]
 
 
-def build_see_also_block(related: list[tuple[str, Path]]) -> str:
+def build_see_also_block(related: list[tuple[str, Path]], target: Path | None = None) -> str:
     lines = [f"\n{MARKER}\n", "---\n", "**Смотрите также:**"]
     for name, fpath in related:
         stem = Path(name).stem
-        try:
-            rel = fpath.relative_to(ROOT)
-        except ValueError:
-            rel = fpath
+        if target is not None:
+            rel = os.path.relpath(fpath, target.parent)
+        else:
+            try:
+                rel = fpath.relative_to(ROOT)
+            except ValueError:
+                rel = fpath
         lines.append(f"- [{stem}]({rel})")
     lines.append("")
     return "\n".join(lines) + "\n"
@@ -146,7 +150,7 @@ def main():
         text = fpath.read_text(encoding="utf-8")
         if MARKER in text:
             continue
-        block = build_see_also_block(related)
+        block = build_see_also_block(related, target=fpath)
         if dry_run:
             refs_short = ", ".join(Path(r).stem for r, _ in related[:3])
             print(f"  [dry-run] {fpath.relative_to(ROOT)} → see-also: {refs_short}")

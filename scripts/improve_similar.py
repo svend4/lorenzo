@@ -5,6 +5,7 @@ improve_similar.py — для каждого документа находит �
 и создаёт сводный docs/SIMILAR.md.
 Запуск: python scripts/improve_similar.py
 """
+import os
 import re
 from pathlib import Path
 
@@ -114,7 +115,7 @@ def main():
 
         block = [f"\n{marker}\n", "---\n", "**Похожие документы:**"]
         for score, fj in good:
-            rel = fj.relative_to(ROOT)
+            rel = os.path.relpath(fj, fi.parent)
             block.append(f"- [{fj.stem}]({rel}) (сходство {score:.2f})")
         block.append("")
 

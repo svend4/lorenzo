@@ -4,6 +4,7 @@ improve_backlinks.py — индекс обратных ссылок.
 Добавляет блок "Кто ссылается" в конец файла и создаёт docs/BACKLINKS.md.
 Запуск: python scripts/improve_backlinks.py
 """
+import os
 import re
 from pathlib import Path
 from collections import defaultdict
@@ -114,10 +115,7 @@ def main():
                  f"**Кто ссылается на этот документ ({len(srcs)}):**"]
         for src in sorted(srcs)[:8]:
             src_path = Path(src) if Path(src).is_absolute() else ROOT / src
-            try:
-                rel = src_path.relative_to(ROOT)
-            except ValueError:
-                rel = Path(src)
+            rel = os.path.relpath(src_path, tgt_path.parent)
             block.append(f"- [{Path(src).stem}]({rel})")
         if len(srcs) > 8:
             block.append(f"- _...ещё {len(srcs)-8}_")
