@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/components/ai-factory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:39690c41e0b42c13",
   "payload": {
     "title": "AI Factory + AIF Handoff",
-    "summary": "> - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9",
+    "summary": "Spec‑driven многоагентный development‑framework и автономный Kanban‑слой поверх него.",
     "tags": [
       "orchestration",
       "ingestion",

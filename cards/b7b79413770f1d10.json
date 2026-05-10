@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:8982517210ea2248",
   "payload": {
     "title": "6. Coordination and Disagreement Resolution",
-    "summary": "> 🎯 **Проблема:** They differ on specific issue: A says X; B says Y.\" Helps principal see what is settled and what is contested.",
+    "summary": "The composite agent's most subtle function is coordinating",
     "tags": [
       "rag",
       "ingestion"

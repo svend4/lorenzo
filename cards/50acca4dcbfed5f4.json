@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:ff3e6c13aa0ce615",
   "payload": {
     "title": "2. The Twenty-One Teachers Pattern",
-    "summary": "> 🎯 **Проблема:** AI Architecture Should Mirror This If composite mastery is how skilled practitioners actually develop, AI infrastructure supporting them should make this pattern accessible — not j",
+    "summary": "The metaphor that crystallizes this pattern comes from a story",
     "tags": [
       "local-first"
     ],

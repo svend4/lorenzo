@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/84-9-consensus-algorithm.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:c70656fa8cf55abd",
   "payload": {
     "title": "9. Consensus Algorithm",
-    "summary": "> 🎯 **Проблема:** Consensus Algorithm(9-consensus-algorithm) - 9.1.",
+    "summary": "При query через portal, когда результаты возвращаются из нескольких",
     "tags": [
       "rag"
     ],

@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/components/graph-rag.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:494ccb439a3094ed",
   "payload": {
     "title": "Graph RAG",
-    "summary": "<!-- tags: rag, ingestion, self-improvement, collaboration -->",
+    "summary": "Графовый RAG с provenance‑trace и typed API, собранный из 5 исследовательских техник.",
     "tags": [
       "rag",
       "ingestion",

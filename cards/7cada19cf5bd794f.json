@@ -6,12 +6,12 @@
     "docs/nautilus/npp-v1-0/07-portal-entry.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:bbafa6d759075b8f",
   "payload": {
     "title": "7. PortalEntry Structure",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
     "tags": [
       "anthropic"
     ],

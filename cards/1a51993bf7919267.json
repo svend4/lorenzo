@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:395d0deab2032fc6",
   "payload": {
     "title": "AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения",
-    "summary": "<!-- tags: architecture, collaboration -->",
+    "summary": "",
     "tags": [
       "architecture",
       "collaboration"

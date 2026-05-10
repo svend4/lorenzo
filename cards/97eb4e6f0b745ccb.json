@@ -6,12 +6,12 @@
     "docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:81fecf93f12ecc63",
   "payload": {
     "title": "6. Этическая рамка",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».",
+    "summary": "Представительские Агенты поднимают новые этические вопросы. Мы предлагаем рамку, основанную на установленных принципах, адаптированных к контексту AI.",
     "tags": [
       "local-first",
       "architecture",

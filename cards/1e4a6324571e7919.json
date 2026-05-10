@@ -6,12 +6,12 @@
     "docs/nautilus/composite-skills-agents/06-coordination-disagreement.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:4fa08e7f6c1f2b7f",
   "payload": {
     "title": "6. Coordination and Disagreement Resolution",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».",
+    "summary": "The composite agent's most subtle function is coordinating",
     "tags": [
       "rag",
       "ingestion",

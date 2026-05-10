@@ -6,12 +6,12 @@
     "docs/obsidian/DUPLICATES.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:6bb38b385c291fe2",
   "payload": {
     "title": "Отчёт о дублировании",
-    "summary": "- [Похожие файлы (Jaccard ≥ 0.5)](#похожие-файлы-jaccard-05)",
+    "summary": "",
     "tags": [],
     "projects": [],
     "wc": 2936,

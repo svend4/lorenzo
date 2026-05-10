@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:fd08ba96ff53197a",
   "payload": {
     "title": "Плюсы модели, если её построить",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з",
+    "summary": "Объективно работает лучше человеческого management для задач уровня 1-2. AI-мета-агент не устаёт, помнит все детали, одновременно следит за 20 задачами, не имеет фаворитов, применяет одинаковые стандарты качества ко всем.",
     "tags": [
       "architecture",
       "anthropic"

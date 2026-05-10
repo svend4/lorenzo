@@ -6,12 +6,12 @@
     "docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:e081b287c681b979",
   "payload": {
     "title": "Карта найденных проектов и паттернов",
-    "summary": "> 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров.",
+    "summary": ", «для агентов, не людей». | **MIT**. citeturn33view0turn37search1 | Активный OSS, база растёт почти ежедневно. citeturn33view1turn37search1 | **Высокая**: это внешний knowledge layer для агентов и нормализатора. |",
     "tags": [
       "memory",
       "rag",

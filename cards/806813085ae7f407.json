@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:0662a95a31040210",
   "payload": {
     "title": "10. Appendices",
-    "summary": "> 🎯 **Проблема:** Appendix F: Document Metadata Document status: Working draft, seeking feedback Review version: v1.0.0-draft Next planned revision: v1.1-draft incorporating partner feedback Primary",
+    "summary": "(15+ pages formal spec), REVIEW_METHODOLOGY,",
     "tags": [
       "rag",
       "roadmap",

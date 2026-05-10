@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:36f8afc0d39e9db5",
   "payload": {
     "title": "Пара 6 — Деревня агентов через tmux × OpenClaw оркестратор",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "Пара 6. Деревня агентов через tmux × OpenClaw оркестратор",
     "tags": [
       "rag",
       "orchestration",

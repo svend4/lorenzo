@@ -39,12 +39,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:47867658b6a805f6",
   "payload": {
     "title": "Подключение к Claude Desktop",
-    "summary": "- [Подключение к Claude Desktop](#подключение-к-claude-desktop)",
+    "summary": "~/Library/Application Support/Claude/claude_desktop_config.json",
     "tags": [
       "anthropic"
     ],

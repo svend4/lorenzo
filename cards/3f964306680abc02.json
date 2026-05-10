@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:e61b244728658d2c",
   "payload": {
     "title": "4. Proposed Infrastructure",
-    "summary": "> 🎯 **Проблема:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "OKWF infrastructure consists of six interlocking layers. Each",
     "tags": [
       "rag",
       "architecture",

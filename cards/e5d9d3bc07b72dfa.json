@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/outreach/narrow-questions.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:32b535ca672a73a0",
   "payload": {
     "title": "Узкие вопросы для каждого автора",
-    "summary": "> > Источник: `deep-research-report (3).md`, раздел «Контактная стратегия и узкие вопросы для авторов».",
+    "summary": "",
     "tags": [
       "memory",
       "rag",

@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:a5763aa89a1dac8c",
   "payload": {
     "title": "Каталог задач (TASKS_INDEX)",
-    "summary": "- [lorenzo-contacts (1)](#lorenzo-contacts-1)",
+    "summary": "Этот файл автогенерируется из `tasks/*.task.yaml`. Не редактируйте вручную.",
     "tags": [
       "architecture",
       "roadmap",

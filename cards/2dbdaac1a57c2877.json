@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/12-content-overview.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:82f35637dafbb6ad",
   "payload": {
     "title": "Content Overview",
-    "summary": "> Что внутри: типы данных, приблизительный объём, основные темы.",
+    "summary": "Что внутри: типы данных, приблизительный объём, основные темы.",
     "tags": [
       "anthropic"
     ],

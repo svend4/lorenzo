@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/13-angle-perspective.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:24923ba652b0c7db",
   "payload": {
     "title": "Angle / Perspective",
-    "summary": "> С какого угла Repo смотрит на общие концепты",
+    "summary": "С какого угла Repo смотрит на общие концепты",
     "tags": [
       "anthropic"
     ],

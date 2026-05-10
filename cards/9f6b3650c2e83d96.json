@@ -6,12 +6,12 @@
     "docs/obsidian/MINDMAP.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:4299ec6764e9ec8c",
   "payload": {
     "title": "Майндмап репозитория Lorenzo",
-    "summary": "<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->",
+    "summary": "Rufler -->|self-improvement| AutoResearch",
     "tags": [
       "memory",
       "rag",

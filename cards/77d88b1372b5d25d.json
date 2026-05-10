@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/36-essence.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:41ea40bba05415cd",
   "payload": {
     "title": "Essence",
-    "summary": "> `info1` — персональная база методов и инструментов для структурированного",
+    "summary": "`[[01-интегральный-анализ-профиля-svend4|info1]]` — персональная база методов и инструментов для структурированного",
     "tags": [
       "collaboration"
     ],

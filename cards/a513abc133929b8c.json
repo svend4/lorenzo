@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:900c577350162239",
   "payload": {
     "title": "2. Что Cowork обеспечивает, что InGit не нужно строить",
-    "summary": "- [2. Что Cowork обеспечивает, что InGit не нужно строить](#2-что-cowork-обеспечивает-что-ingit-не-нужно-строить)",
+    "summary": "Если InGit позиционируется дополнять Cowork, а",
     "tags": [
       "architecture",
       "roadmap"

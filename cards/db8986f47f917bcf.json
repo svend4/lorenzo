@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/08-commercialization-three-paths.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:32bf0ab9841025c4",
   "payload": {
     "title": "Коммерциализация: три направления",
-    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "summary": "8. Коммерциализация: три реалистичных направления",
     "tags": [
       "rag",
       "orchestration",

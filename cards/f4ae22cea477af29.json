@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:a513f24a168d6f5b",
   "payload": {
     "title": "Графовая когнитивная память на SQLite (Виталий, март 2026)",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "2. Графовая когнитивная память на SQLite (Виталий, март 2026)",
     "tags": [
       "memory",
       "ingestion",

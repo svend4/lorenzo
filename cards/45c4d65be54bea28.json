@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:48dae0563fba5fc0",
   "payload": {
     "title": "Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "ClickHouse (Yandex, колоночная OLAP, 100M+ строк/сек, $2B valuation)",
     "tags": [
       "rag",
       "local-first",

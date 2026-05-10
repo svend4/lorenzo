@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/09-agent-orchestration-stack.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:af5b16e1d6e755ea",
   "payload": {
     "title": "Комбинация 9: Agent Orchestration Stack",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "Agent-Bridge (habr.com/ru/articles/1016456/) - визуальное управление десятками CLI агентов из браузера, персистентные сессии",
     "tags": [
       "orchestration",
       "collaboration"

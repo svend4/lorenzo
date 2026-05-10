@@ -6,12 +6,12 @@
     "docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:4119c5e70eabf59c",
   "payload": {
     "title": "Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).",
+    "summary": "Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы типа:",
     "tags": [
       "roadmap",
       "anthropic"

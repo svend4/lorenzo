@@ -6,12 +6,12 @@
     "docs/nautilus/review-methodology/16-glossary.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:5c6ad9c8c9427aa1",
   "payload": {
     "title": "Глоссарий",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "Этот документ, в отличие от двух предыдущих (PORTAL-PROTOCOL v1.1 и trio of passports), имеет другой характер. Это не technical specification и не product documentation — это meta-документ о процессе. Отмечу несколько принципиальных решений.",
     "tags": [
       "memory",
       "architecture",

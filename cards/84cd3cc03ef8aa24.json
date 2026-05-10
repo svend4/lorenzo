@@ -6,12 +6,12 @@
     "docs/03-technology-combinations/02-knowledge-graphs.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:0d5839361519d90a",
   "payload": {
     "title": "Графы знаний и Legal AI",
-    "summary": "> 🎯 **Проблема:** Yodoca-консолидатор ночью: - Извлекает durable knowledge (прецеденты, применённые статьи, аргументы) - Старые неиспользуемые дела затухают по Эббингаузу - Часто используемые — укре",
+    "summary": "граф знаний (BSG B 8 SO 9/19 R → § 78 Abs. 6 SGB IX → Antragsteller)",
     "tags": [
       "memory",
       "rag",

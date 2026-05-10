@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:6a6d977efa4e59e6",
   "payload": {
     "title": "Angle / Perspective",
-    "summary": "> **Methodological** — `info1` смотрит на концепты **с позиции применения**.",
+    "summary": "На вопрос «что такое кристалл» `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` отвечает не определением",
     "tags": [
       "anthropic",
       "collaboration"

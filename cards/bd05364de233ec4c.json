@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:abd460c219d6252c",
   "payload": {
     "title": "Appendix A: Шаблон для header warning",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "Готовый копи-паст шаблон для вставки в начало документов в",
     "tags": [
       "architecture"
     ],

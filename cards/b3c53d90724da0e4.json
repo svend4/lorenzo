@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/359-твои-anti-patterns.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:cfd0955150f31de4",
   "payload": {
     "title": "Твои anti-patterns",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»",
     "tags": [
       "rag"
     ],

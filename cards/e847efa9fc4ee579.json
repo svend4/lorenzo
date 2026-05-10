@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:00d24fb475374f47",
   "payload": {
     "title": "8. Risks and Mitigations",
-    "summary": "- [8. Risks and Mitigations](#8-risks-and-mitigations)",
+    "summary": "We address eight categories of risk with specific mitigations.",
     "tags": [
       "rag",
       "orchestration",

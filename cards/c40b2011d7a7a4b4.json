@@ -6,12 +6,12 @@
     "docs/obsidian/01-svyazi/09-architectural-gaps.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:f2a0e01b36a1bfef",
   "payload": {
     "title": "09 architectural gaps",
-    "summary": "> 🎯 **Проблема:** Архитектурный зазор Уже сильные кандидаты Что в них уже хорошо закрыто Что пока остаётся незакрытым Что брать в MVP --------------- Карточка как единица правды Svyazi, AgentFS Card",
+    "summary": "После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт `.agentos` и compile‑to‑runtime политику; [[03-component-catalog|knowledge-space]] формирует agent‑readable reference cards; NGT[^ngt] Memor",
     "tags": [
       "memory",
       "rag",

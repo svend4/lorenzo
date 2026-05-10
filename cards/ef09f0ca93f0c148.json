@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:29f157bdc5574c8e",
   "payload": {
     "title": "Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "7. Чем Svyazi‑2.0 отличается от Notion AI, Mem, AFFiNE и LangGraph‑стеков",
     "tags": [
       "rag",
       "knowledge",

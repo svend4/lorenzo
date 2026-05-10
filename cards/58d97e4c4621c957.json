@@ -6,12 +6,12 @@
     "docs/obsidian/PROGRESS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:30abbc08f98153f5",
   "payload": {
     "title": "Прогресс MVP",
-    "summary": "<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->",
+    "summary": "_Обновлено: 2026-04-29 (improve_progress_sync.py)_",
     "tags": [
       "memory",
       "knowledge",

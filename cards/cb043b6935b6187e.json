@@ -11,12 +11,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:790e7f7fddd85b56",
   "payload": {
     "title": "Mega‑Stack 2.0 — Ultimate Legal‑AI System",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».",
+    "summary": "Объединяет все 19 комбинаций в одну архитектуру.",
     "tags": [
       "memory",
       "rag",

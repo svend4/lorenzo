@@ -6,12 +6,12 @@
     "docs/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:227516be205a58c0",
   "payload": {
     "title": "11. Призыв к сотрудничеству",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.",
+    "summary": "Мы приглашаем конкретные виды сотрудничества:",
     "tags": [
       "architecture",
       "anthropic"

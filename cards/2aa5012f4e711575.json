@@ -6,12 +6,12 @@
     "docs/obsidian/CONCEPT_GRAPH.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:f3942e6d29968a51",
   "payload": {
     "title": "Граф концептов базы знаний",
-    "summary": "<!-- tags: ingestion, architecture, anthropic, collaboration -->",
+    "summary": "Концептов: **40** | Связей: **773** (мин. вес: 2)",
     "tags": [
       "ingestion",
       "architecture",

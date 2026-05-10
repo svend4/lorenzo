@@ -6,12 +6,12 @@
     "docs/obsidian/MISSING.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:c0db843117bb41e9",
   "payload": {
     "title": "Карта пробелов знаний",
-    "summary": "<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement -->",
+    "summary": "Анализ покрытия ключевых тем и проектов в docs/.",
     "tags": [
       "memory",
       "rag",

@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/analogues/01-three-direct-analogues.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:86235974b58b4f85",
   "payload": {
     "title": "Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "Соберу ещё один пласт — авторские проекты с ярко выраженной идеей \"обнаружения связей\" между людьми/идеями через LLM.",
     "tags": [
       "memory",
       "ingestion",

@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/249-composite-skills-agent-md.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:1bf9f954b8714066",
   "payload": {
     "title": "COMPOSITE SKILLS AGENT.md",
-    "summary": "> - [[166-representative-agent-layer-md]] (сходство 0.25)",
+    "summary": "",
     "tags": [
       "architecture",
       "anthropic"

@@ -6,12 +6,12 @@
     "docs/obsidian/DEPENDENCY_MAP.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:11adccd5a9bdebed",
   "payload": {
     "title": "Карта зависимостей скриптов",
-    "summary": "> _Что каждый `improve_*.py` производит и от чего зависит._",
+    "summary": "_Что каждый `improve_*.py` производит и от чего зависит._",
     "tags": [
       "rag",
       "orchestration",

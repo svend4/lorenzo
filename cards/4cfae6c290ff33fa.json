@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:eb4de867d211861d",
   "payload": {
     "title": "2. Target Populations",
-    "summary": "> 🎯 **Проблема:** Disabled Specialists with Modified Work Requirements Size estimate: 5M+ in OECD countries with preserved intellectual capacity and specific support needs.",
+    "summary": "library and junior legal writer mentorship",
     "tags": [
       "anthropic"
     ],

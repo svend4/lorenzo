@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:a45b9d354082af1c",
   "payload": {
     "title": "Memory Firewall против prompt worms (ансамбль I)",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "4. Четвёртый новый слой: защита от prompt worms и заражения памяти",
     "tags": [
       "memory",
       "rag",

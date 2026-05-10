@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:368ac1592ed1a6b2",
   "payload": {
     "title": "5. Pattern Library as Bridge Between Triangles",
-    "summary": "> 🎯 **Проблема:** Fully distributed knowledge (every assistant learns independently) has opposite problems: it doesn't compound, and it diverges.",
+    "summary": "Double-Triangle systems face a fundamental question: how do",
     "tags": [
       "security",
       "roadmap"

@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/92-17-versioning-policy.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:a8de7ea9119a0a59",
   "payload": {
     "title": "17. Versioning Policy",
-    "summary": "> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.",
+    "summary": "Каждый registry MUST объявлять `protocol_version`. Portal MUST",
     "tags": [
       "architecture"
     ],

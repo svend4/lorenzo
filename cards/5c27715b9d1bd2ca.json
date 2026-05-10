@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:1ab4665de16b03a7",
   "payload": {
     "title": "Software Engineering - Infrastructure — 22 роли",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "summary": "Inference (самая частая роль — 8+ позиций разного уровня в SF/London/Dublin/Seattle), Cloud Inference AWS, Sandboxing, AI Reliability, Data Infrastructure, Databases, Observability, Voice Platform, Datacenter Server Lifecycle, Developer Productivity. Фактически — команда, которая обслуживает то, на ",
     "tags": [
       "local-first",
       "anthropic"

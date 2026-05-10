@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:b4d0eebe5c8c999c",
   "payload": {
     "title": "6. Risks Specific to this Category",
-    "summary": "> 🎯 **Проблема:** Teacher's agent generates problems requiring active human reasoning, not pattern-matching.",
+    "summary": "Professional Colleague Agents have risks distinct from",
     "tags": [
       "local-first",
       "architecture"

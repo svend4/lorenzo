@@ -6,12 +6,12 @@
     "docs/nautilus/representative-agent-layer-en/06-ethical-framework.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:70617413a6c57d04",
   "payload": {
     "title": "6. Ethical Framework",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "Representative Agents raise novel ethical questions. We",
     "tags": [
       "orchestration",
       "local-first",

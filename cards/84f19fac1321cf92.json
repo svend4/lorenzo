@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:92556da1d46f4104",
   "payload": {
     "title": "BrainBox — self-hosted multi-AI hub",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).",
+    "summary": "Что делает: Self-hosted сервис для управления 15+ open-source AI-системами через единый веб-интерфейс. Генерация изображений, распознавание объектов, озвучка, и т.д.",
     "tags": [
       "rag",
       "local-first",

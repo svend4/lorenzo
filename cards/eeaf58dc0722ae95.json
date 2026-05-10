@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:383110622a6d92bb",
   "payload": {
     "title": "3. Three Inter-Layer Protocols",
-    "summary": "> 🎯 **Проблема:** Instead, it issues a structured query that travels: A → N → M → N' → A' → response back through the chain.",
+    "summary": "The architecture requires three formalized protocols between layers.",
     "tags": [
       "rag",
       "orchestration",

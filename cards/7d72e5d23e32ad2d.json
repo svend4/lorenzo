@@ -6,12 +6,12 @@
     "docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:ed156e724cf2ad45",
   "payload": {
     "title": "8. Пилотное предложение: SGB Колega-Адвокат",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "Коллеги-Агента к конкретной возможности: агент",
     "tags": [
       "rag",
       "architecture",

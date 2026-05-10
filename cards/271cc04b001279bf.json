@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:d4415b5c7a364c00",
   "payload": {
     "title": "9. Risks and Open Questions",
-    "summary": "- [9. Risks and Open Questions](#9-risks-and-open-questions)",
+    "summary": "Several uncertainties merit explicit attention.",
     "tags": [
       "rag",
       "orchestration",

@@ -6,12 +6,12 @@
     "docs/03-technology-combinations/04-sozialrecht-domain.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:1f7bff5b671daec7",
   "payload": {
     "title": "Домен: немецкое социальное право",
-    "summary": "> Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) LLM+Pydantic parses legal entities: class Bescheid(BaseModel): aktenzeichen: str; p",
+    "summary": "Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) LLM+Pydantic parses legal entities: class Bescheid(BaseModel): aktenzeichen: str; paragraphs: List[SGB_Reference]; deadline: date Svyazi [CardIndex](../docs/01-svyazi/01-executive-sum",
     "tags": [
       "rag",
       "knowledge",

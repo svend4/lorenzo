@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:2489bd473c8e28a1",
   "payload": {
     "title": "Вопрос: MMORPG-RPG переделанная для программистов / технарей",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo",
+    "summary": "Du hast gesagt: Есть ещё один вариант который вы не просмотрели и просчитали он достаточно полуфантастический полусредневековую это ММО РПГ ну переделанная для переделанной дл…",
     "tags": [
       "local-first",
       "architecture",

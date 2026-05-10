@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/43-history.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:f3c8dbc3eeaca8d4",
   "payload": {
     "title": "History",
-    "summary": "> **Создан:** [? уточнить — декабрь 2025, если совпадает с волной",
+    "summary": "",
     "tags": [
       "memory",
       "anthropic",

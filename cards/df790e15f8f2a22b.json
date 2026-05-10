@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:06cff205e925a95d",
   "payload": {
     "title": "Контекст: что такое Anthropic Beneficial Deployments",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с",
+    "summary": "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments",
     "tags": [
       "anthropic"
     ],

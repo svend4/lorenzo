@@ -6,12 +6,12 @@
     "docs/ai-collaborations/ensembles/3-forensic-rag.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:d153a26445a6b654",
   "payload": {
     "title": "Ансамбль 3 — Forensic RAG",
-    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "summary": "3. Forensic RAG: «RAG, которому можно верить глазами»",
     "tags": [
       "rag",
       "knowledge",

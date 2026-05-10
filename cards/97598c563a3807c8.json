@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/128-доступные-инструменты.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:76f984db07e6a15f",
   "payload": {
     "title": "Доступные инструменты",
-    "summary": "> После успешной интеграции Claude Desktop получает доступ к 7 tools:",
+    "summary": "После успешной интеграции Claude Desktop получает доступ к 7 tools:",
     "tags": [
       "architecture"
     ],

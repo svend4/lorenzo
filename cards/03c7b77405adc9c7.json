@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:577b2f2605916add",
   "payload": {
     "title": "Safeguards (Trust & Safety) — 21 роль",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "summary": "Trust & Safety в ML-смысле: Biological Safety Research Scientist, Policy Manager по CBRN-E (Chemical/Biological/Radiological/Nuclear/Explosives), Offensive Security Research Engineer, Threat Investigators (CBRN-E, Cyber, Influence Operations), Safeguards Analysts (Account Abuse, Human Exploitation, ",
     "tags": [
       "anthropic"
     ],

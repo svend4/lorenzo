@@ -6,12 +6,12 @@
     "docs/nautilus/npp-v1-0/05-compatibility-levels.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:6f718362ffba6552",
   "payload": {
     "title": "5. Compatibility Levels",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).",
+    "summary": "NPP определяет 4 уровня совместимости Repo с экосистемой. Это",
     "tags": [
       "anthropic"
     ],

@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:e48080cd94d35667",
   "payload": {
     "title": "Ансамбль F — Evidence‑Backed Community Intake",
-    "summary": "> > Источник: `deep-research-report (3).md` (ансамбли «второго порядка»).",
+    "summary": "A[Анкета / чат / PDF / голос] --> B[Svyazi-style extraction]",
     "tags": [
       "memory",
       "rag",

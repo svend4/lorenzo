@@ -39,12 +39,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:39669ae7864dc865",
   "payload": {
     "title": "Table of Contents",
-    "summary": "> 1. **Why Single-Triangle Models Are Incomplete**",
+    "summary": "1. **Why Single-Triangle Models Are Incomplete**",
     "tags": [
       "architecture"
     ],

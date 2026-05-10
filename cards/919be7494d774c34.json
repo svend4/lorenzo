@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/136-abstract.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:6c024affb6957ff5",
   "payload": {
     "title": "Abstract",
-    "summary": "- [Связанные документы](#связанные-документы)",
+    "summary": "We introduce the **Double-Triangle Architecture** for human-AI",
     "tags": [
       "rag",
       "architecture"

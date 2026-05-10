@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:4db755317fed01de",
   "payload": {
     "title": "Комбинация 16: Adversarial Multi-Agent Code Review",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "Adversarial review pattern (habr.com/ru/articles/1019588/) - Opus writes, Codex reviews, cycle until APPROVED",
     "tags": [
       "rag",
       "orchestration",

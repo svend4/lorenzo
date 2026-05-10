@@ -6,12 +6,12 @@
     "docs/obsidian/CONTACTS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:f7de05cc7d6b3b81",
   "payload": {
     "title": "Контакты и авторы",
-    "summary": "- [Ключевые авторы проектов](#ключевые-авторы-проектов)",
+    "summary": "Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.",
     "tags": [
       "memory",
       "rag",

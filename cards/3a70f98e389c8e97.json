@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:efffa7a4b3356821",
   "payload": {
     "title": "The Two-Layer Stack As It Exists",
-    "summary": "> 🎯 **Проблема:** The problem is what happens between them.",
+    "summary": "Currently, AI-collaborative work tends to occur in one of two",
     "tags": [
       "architecture",
       "anthropic"

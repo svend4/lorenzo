@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:9306f02c2b60b108",
   "payload": {
     "title": "1. Why the Binary View Is Incomplete",
-    "summary": "> 🎯 **Проблема:** The Problem with the Existing Taxonomy Professional Colleague Agents (PCA) v1.0 introduced five types of principal-side agents.",
+    "summary": "Professional Colleague Agents (PCA) v1.0 introduced five types",
     "tags": [
       "ingestion",
       "architecture",

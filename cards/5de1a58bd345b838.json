@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/limitations/conclusions.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:27f949d2d6fc2e92",
   "payload": {
     "title": "Итоговые выводы и порядок сборки",
-    "summary": "> > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`.",
+    "summary": "1. **Svyazi + AgentFS + NGT/Yodoca + LiteParse** — это даёт уже полезный MVP.",
     "tags": [
       "memory",
       "rag",

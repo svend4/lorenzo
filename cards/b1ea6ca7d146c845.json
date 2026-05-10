@@ -6,12 +6,12 @@
     "docs/nautilus/review-methodology/13-appendix-b-examples.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:171faee84eba9102",
   "payload": {
     "title": "Appendix B: Примеры расхождений и их разрешения",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "$ find . -name \"*.py\" ! -path \"./.git/*\" | xargs wc -l | tail -1",
     "tags": [
       "anthropic"
     ],

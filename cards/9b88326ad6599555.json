@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:e406325958a3a694",
   "payload": {
     "title": "Пара 8 — Self-aware MCP × Specs-first архитектура",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "Пара 8. Self-aware MCP × Specs-first архитектура",
     "tags": [
       "knowledge",
       "architecture",

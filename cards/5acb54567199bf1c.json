@@ -6,12 +6,12 @@
     "docs/nautilus/npp-v1-0/09-query-flow.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:002382ba0ac17fd5",
   "payload": {
     "title": "9. Query Flow",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).",
+    "summary": "1. Client вызывает `portal.query(q, target_repos=None)`",
     "tags": [
       "anthropic"
     ],

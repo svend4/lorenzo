@@ -6,12 +6,12 @@
     "docs/nautilus/composite-skills-agents/05-configuration-ensembles.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:ba343f957fac707f",
   "payload": {
     "title": "5. Configuration: How Principals Build Their Ensembles",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».",
+    "summary": "A central question for Composite Skills Agents: how does a",
     "tags": [
       "anthropic"
     ],

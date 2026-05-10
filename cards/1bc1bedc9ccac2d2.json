@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:3eb269dcf955db76",
   "payload": {
     "title": "A2A vs MCP, ансамбль H — MCP/A2A Review Fabric",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "3. Третий новый слой: A2A как протокол для агентов, MCP как протокол для инструментов",
     "tags": [
       "memory",
       "rag",

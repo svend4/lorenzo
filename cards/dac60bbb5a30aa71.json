@@ -6,12 +6,12 @@
     "docs/obsidian/DEPENDABOT.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:b75d45dbe41e210a",
   "payload": {
     "title": "Мониторинг зависимостей",
-    "summary": "<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->",
+    "summary": "python scripts/improve_dependabot.py --generate-config",
     "tags": [
       "memory",
       "knowledge",

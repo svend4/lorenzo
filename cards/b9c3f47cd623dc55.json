@@ -6,12 +6,12 @@
     "docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:01ae8755385f16a6",
   "payload": {
     "title": "5. Экономика тиражирования по профессии",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.",
+    "summary": "Коллег-Агентов — что **один агент обслуживает",
     "tags": [
       "architecture",
       "anthropic"

@@ -6,12 +6,12 @@
     "docs/nautilus/review-methodology/09-limitations-open-questions.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:78f08db55ac06d79",
   "payload": {
     "title": "8. Ограничения и открытые вопросы",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "практике Nautilus было только 2 параллельных варианта.",
     "tags": [
       "memory",
       "roadmap",

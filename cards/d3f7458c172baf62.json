@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:bef1abf1754e0296",
   "payload": {
     "title": "4. Ten Domains of Application",
-    "summary": "> 🎯 **Проблема:** Domain 3 — Social Workers Managing Client Caseloads Principal: Social worker, case manager, community organizer managing many clients with complex needs.",
+    "summary": "The Representative Agent pattern applies broadly. We identify",
     "tags": [
       "rag",
       "ingestion",

@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/129-примеры-запросов-в-claude.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:d35c6e3125e3ab9a",
   "payload": {
     "title": "Примеры запросов (в Claude)",
-    "summary": "> После подключения Claude может использовать tools автоматически.",
+    "summary": "После подключения Claude может использовать tools автоматически.",
     "tags": [
       "collaboration"
     ],

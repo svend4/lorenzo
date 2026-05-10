@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:a41aaba94523d203",
   "payload": {
     "title": "14. ADR-001: Federation over Merging",
-    "summary": "> **Context:** При построении системы knowledge management встаёт",
+    "summary": "выбор: заставить все данные мигрировать в единую схему (merge),",
     "tags": [
       "architecture",
       "collaboration"

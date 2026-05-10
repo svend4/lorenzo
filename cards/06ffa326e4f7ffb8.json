@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/180-11-call-for-collaboration.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:e3c5c7bc2b8dcd3c",
   "payload": {
     "title": "11. Call for Collaboration",
-    "summary": "> 🎯 **Проблема:** Pilot partnerships allow the technology to develop in service of actual need rather than imagined need.",
+    "summary": "This paper is offered as starting point, not finished",
     "tags": [
       "ingestion"
     ],

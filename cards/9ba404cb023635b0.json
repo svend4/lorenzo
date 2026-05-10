@@ -6,12 +6,12 @@
     "docs/lorenzo-agent/specification/01-q1-what-lorenzo-is.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:f479579e7e33f401",
   "payload": {
     "title": "Question 1: Что Lorenzo фундаментально такое? (Framings A–D)",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "summary": "Question 1: Что Lorenzo фундаментально такое?",
     "tags": [
       "anthropic"
     ],

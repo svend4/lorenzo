@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:1b3491f92322cd3d",
   "payload": {
     "title": "Angle / Perspective",
-    "summary": "> **Semantic** — `pro2` смотрит на мир через **структуру значений**.",
+    "summary": "На вопрос «что такое кристалл» он отвечает Q6-координатами",
     "tags": [
       "anthropic",
       "collaboration"

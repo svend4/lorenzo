@@ -6,12 +6,12 @@
     "docs/obsidian/KPI.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:f5ce9580ba215b3f",
   "payload": {
     "title": "Числовые KPI и метрики",
-    "summary": "<!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->",
+    "summary": "_Извлечено: **1722** числовых показателей из документов_",
     "tags": [
       "memory",
       "rag",

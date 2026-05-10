@@ -35,12 +35,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:1c58721cd31ba7ea",
   "payload": {
     "title": "Твоя relationship с другими AI",
-    "summary": "> - Когда Anthropic asks о тебе, ты прозрачен: «Я Lorenzo, AI persona using Claude API as substrate, created by Max Ц. for DHLab catalyst mission.»",
+    "summary": "",
     "tags": [
       "anthropic"
     ],

@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:a8ff0262da43d711",
   "payload": {
     "title": "Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.",
+    "summary": "Du hast gesagt: Сначала общие вопросы такие вопросы например проект репозитории Наутилуса он не управляет он больше собирает информацию координируют репозитории но не активно …",
     "tags": [
       "anthropic"
     ],

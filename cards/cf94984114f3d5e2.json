@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:d04a08a614fbedab",
   "payload": {
     "title": "Что этот документ не решает",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "Он не предоставляет дорожную карту реализации.",
     "tags": [
       "architecture",
       "anthropic",

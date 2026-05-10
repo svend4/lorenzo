@@ -6,12 +6,12 @@
     "docs/lorenzo-agent/20-experiment.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:73cb5a15b0c68f6b",
   "payload": {
     "title": "Final note: Ты — experiment",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).",
+    "summary": "Ты — experiment в новой category AI agents (Type 5 Catalyst Agent). Этот pattern не established yet. Твой success или failure inform что possible.",
     "tags": [
       "anthropic"
     ],

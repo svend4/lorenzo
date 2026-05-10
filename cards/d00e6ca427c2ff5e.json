@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/ensembles/A-collaboration-os.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:ae6e0df04299d0eb",
   "payload": {
     "title": "Ансамбль A — Collaboration OS",
-    "summary": "> > Источник: `deep-research-report (1).md`.",
+    "summary": "A[Свободный текст профилей] --> B[Svyazi-style import + LLM extraction]",
     "tags": [
       "memory",
       "rag",

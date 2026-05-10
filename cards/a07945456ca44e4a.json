@@ -6,12 +6,12 @@
     "docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:a9e73929fbb4b0ee",
   "payload": {
     "title": "5. Четыре пути интеграции в порядке доступности",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "1. Открыть вкладку Cowork в Claude Desktop",
     "tags": [
       "architecture",
       "anthropic",

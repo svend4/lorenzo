@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/architecture/memory-write-policy.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:77d055a73081b9df",
   "payload": {
     "title": "Memory Write Policy",
-    "summary": "> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».",
+    "summary": "Система должна различать хотя бы четыре режима записи:",
     "tags": [
       "memory",
       "architecture"

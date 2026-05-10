@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:2f6ee6349fe7e6b6",
   "payload": {
     "title": "Комбинация 23: Security-First Code Review Pipeline",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "CyberCodeReview (российский open-source, security-focused)",
     "tags": [
       "orchestration"
     ],

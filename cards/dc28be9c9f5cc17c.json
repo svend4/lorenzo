@@ -6,12 +6,12 @@
     "docs/obsidian/contacts/antipozitive.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:5478fba2cc7b00af",
   "payload": {
     "title": "Контакт: Antipozitive / MemNet",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "Я изучаю MemNet — он отлично вписывается в Svyazi 2.0,",
     "tags": [
       "контакты",
       "команда"

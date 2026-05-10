@@ -6,12 +6,12 @@
     "docs/obsidian/contacts/cutcode.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:e142d3a555f8963a",
   "payload": {
     "title": "Контакт: Cutcode / AIF Handoff",
-    "summary": "<!-- summary: Шаблон для связи с автором AIF Handoff -->",
+    "summary": "Я изучаю AIF Handoff — он отлично вписывается в Svyazi 2.0,",
     "tags": [
       "контакты",
       "команда"

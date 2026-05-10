@@ -6,12 +6,12 @@
     "docs/obsidian/HEALTH.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:df852b9821fd6937",
   "payload": {
     "title": "Health Dashboard",
-    "summary": "<!-- tags: ingestion, anthropic, collaboration -->",
+    "summary": "",
     "tags": [
       "ingestion",
       "anthropic",

@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:4f9cc90eed1f49c8",
   "payload": {
     "title": "Why This Document Exists",
-    "summary": "- [Why This Document Exists](#why-this-document-exists)",
+    "summary": "The seven preceding documents in this series were produced in",
     "tags": [
       "orchestration",
       "architecture",

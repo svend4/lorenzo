@@ -6,12 +6,12 @@
     "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:2aef70d7bc756941",
   "payload": {
     "title": "Du hast gesagt: https://habr.",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на Habr-статью.",
+    "summary": "",
     "tags": [
       "anthropic",
       "collaboration"

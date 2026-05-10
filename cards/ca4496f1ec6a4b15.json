@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/clusters/03-finance.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:044121c91ff8ce4e",
   "payload": {
     "title": "Finance — 36 ролей",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "summary": "Очень активно растёт: Revenue Accounting (включая новый Senior Manager по New Product Introduction), Deal Desk и Deal Operations по трём регионам (Americas/APAC/EMEA), Treasury, Payroll, Tax, Finance Systems Engineer, Director Technical Accounting M&A. Сигнал: компания готовится к бóльшему операцион",
     "tags": [
       "anthropic"
     ],

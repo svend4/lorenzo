@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:27e2dcac153ab2f3",
   "payload": {
     "title": "Практические рекомендации для текущего проекта",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "summary": "Nautilus / OKWF, практические следующие шаги:",
     "tags": [
       "architecture",
       "anthropic"

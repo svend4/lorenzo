@@ -6,12 +6,12 @@
     "docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:d9e739b2776001fd",
   "payload": {
     "title": "11. Call for Collaboration",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.",
+    "summary": "We invite specific kinds of collaboration:",
     "tags": [
       "rag",
       "architecture",

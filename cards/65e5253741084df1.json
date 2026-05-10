@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:78278dcb62f3c801",
   "payload": {
     "title": "Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "Complete architecture combining ALL 35 combinations:",
     "tags": [
       "rag",
       "orchestration",

@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:f27d61ba51db815b",
   "payload": {
     "title": "The Specific Case in Front of Us",
-    "summary": "> 🎯 **Проблема:** Future Claude sessions about specific aspects of this work need specific context — not the whole 50,000 words.",
+    "summary": "The seven documents produced in this session have specific",
     "tags": [
       "rag",
       "anthropic"

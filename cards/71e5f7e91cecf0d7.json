@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:b435b836bd6e8e87",
   "payload": {
     "title": "Пара 3 — Adversarial agents × Multi-IDE стек",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "Пара 3. Adversarial agents × Multi-IDE стэк",
     "tags": [
       "collaboration"
     ],

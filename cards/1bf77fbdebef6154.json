@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:749215dd9ccbc719",
   "payload": {
     "title": "The Missing Middle Layer Between Chat and Code",
-    "summary": "> **Document type:** Inquiry paper, not architectural specification",
+    "summary": "work (Documents 1-2) than to applied papers (Documents 3-7), but",
     "tags": [
       "architecture",
       "collaboration"

@@ -100,27 +100,63 @@ def _load_contacts() -> dict[str, Path]:
     return mapping
 
 
-def _find_contact(card: CardEnvelope, contacts: dict[str, Path]) -> Path | None:
-    """Ищет контактный файл для карточки по названию проекта и тегам."""
-    searches = []
-    title = card.payload.get("title", "").lower()
-    # Из заголовка: первое слово-кандидат
-    searches.append(title.split(":")[0].strip())
-    searches.append(title.split("/")[0].strip())
-    # Из projects payload
-    for proj in card.payload.get("projects", []):
-        searches.append(proj.lower())
-    # Из path
-    path = card.payload.get("path", "")
-    searches.append(Path(path).stem.lower())
+_GENERIC_PROJECTS = {
+    "svyazi", "cardindex", "mclaude", "ai factory", "hybrid rag",
+    "graph rag", "legal rag", "knowledge os",
+}
 
-    for key in searches:
+
+def _find_contact(card: CardEnvelope, contacts: dict[str, Path]) -> Path | None:
+    """Ищет контактный файл по названию основного проекта карточки.
+
+    Только path-stem и первый сегмент заголовка — никаких payload.projects
+    (они включают все упомянутые проекты и дают ложные совпадения).
+    """
+    title = card.payload.get("title", "").lower()
+    path  = card.payload.get("path", "")
+
+    # Убираем Markdown-сноски [^...]
+    title_clean = re.sub(r'\[\^[^\]]*\]', '', title)
+
+    # Первый сегмент до основных разделителей
+    first_seg = re.split(r'[:—–+]', title_clean)[0].strip()
+
+    candidates: list[str] = []
+
+    # Path stem (hyphen-stripped): "agent-memory-mcp" → "agentmemory mcp"... → "agentmemorymcp"
+    stem_raw = Path(path).stem.lower()
+    # Вариант с дефисом и без
+    candidates.append(stem_raw)
+    candidates.append(re.sub(r'[^а-яёa-z0-9]', '', stem_raw))
+
+    # Первый сегмент заголовка
+    candidates.append(first_seg)
+    candidates.append(re.sub(r'[^а-яёa-z0-9]', '', first_seg))
+
+    # Убираем пустые и дубли
+    seen: set[str] = set()
+    keys: list[str] = []
+    for k in candidates:
+        k = k.strip()
+        if k and k not in seen:
+            seen.add(k)
+            keys.append(k)
+
+    # Точные совпадения
+    for key in keys:
         if key in contacts:
             return contacts[key]
-        # Частичное совпадение
+
+    # Частичное совпадение — только для ключей ≥ 7 символов (reduce false positives)
+    for key in keys:
+        if len(key) < 7:
+            continue
         for ckey, cpath in contacts.items():
-            if len(key) > 4 and (key in ckey or ckey in key):
+            if len(ckey) < 4:
+                continue
+            if key in ckey or ckey in key:
                 return cpath
+
     return None
 
 
@@ -193,9 +229,20 @@ def _graph_bonus(card: CardEnvelope, candidate_ids: set[str]) -> float:
 
 
 def _title_key(card: CardEnvelope) -> str:
-    """Нормализованный ключ заголовка для дедупликации."""
+    """Нормализованный ключ заголовка для дедупликации.
+
+    Нормализует так, чтобы «Yodoca[^yodoca]: консолидация», «Yodoca» и
+    «NGT[^ngt] Memory: граф» → «ngt» не расходились с «NGT Memory» → «ngtmemory».
+    """
     t = card.payload.get("title", "").lower()
-    return re.sub(r'[^а-яёa-z0-9]', '', t)[:60]
+    # 1. Удаляем Markdown-сноски [^...] перед разбивкой
+    t = re.sub(r'\[\^[^\]]*\]', '', t)
+    # 2. Берём текст до первого жёсткого разделителя (:, —, ()
+    first = re.split(r'[:—–()]', t)[0].strip()
+    # 3. Убираем не-алфавитные символы
+    key = re.sub(r'[^а-яёa-z0-9\s]', ' ', first).strip()
+    key = re.sub(r'\s+', '', key)[:40]
+    return key or re.sub(r'[^а-яёa-z0-9]', '', t)[:40]
 
 
 def find_candidates(query_text: str, top: int = 5,

@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:c04d295d13394aaa",
   "payload": {
     "title": "passports/pro2.md",
-    "summary": "> > **Семантический угол экосистемы svend4**",
+    "summary": "",
     "tags": [
       "collaboration"
     ],

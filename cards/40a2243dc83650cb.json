@@ -6,12 +6,12 @@
     "docs/nautilus/npp-v1-1/03-registry.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:4d613e1a82eb1059",
   "payload": {
     "title": "3. Registry (`nautilus.json`)",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "Registry — central source of truth о том, какие Repos входят в",
     "tags": [
       "architecture",
       "anthropic"

@@ -6,12 +6,12 @@
     "docs/NETWORK.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:92e252f2a2b8ce0e",
   "payload": {
     "title": "Сеть проектов и авторов",
-    "summary": "**Андрей (kksudo)** → **Svyazi** (116), **AgentFS** (84), **Yodoca** (81), **NGT** (80), **knowledge-space** (76), **Lorenzo** (75), **CardIndex** (68), **ingit** (62)",
+    "summary": "",
     "tags": [],
     "projects": [
       "Svyazi",

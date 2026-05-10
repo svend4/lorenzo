@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:007e1937dc65a4ff",
   "payload": {
     "title": "A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers",
-    "summary": "<!-- tags: architecture, collaboration -->",
+    "summary": "",
     "tags": [
       "architecture",
       "collaboration"

@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/85-10-query-flow.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:7725193e7bd88ad0",
   "payload": {
     "title": "10. Query Flow",
-    "summary": "> 🎯 **Проблема:** Error Handling(103-error-handling) - 10.4.",
+    "summary": "1. Client вызывает `portal.query(q, target_repos=None)`",
     "tags": [
       "anthropic"
     ],

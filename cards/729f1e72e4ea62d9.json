@@ -11,12 +11,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:ce56a004726c5b68",
   "payload": {
     "title": "Сигналы: что говорит структура вакансий",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория).",
+    "summary": "Тезис Амодеи «кодинг исчезнет первым» и открытый найм 68 Research Engineer'ов — **не противоречие, а сигнал** о том, какие именно инженерные роли остаются: не «написать CRUD», а те, что на переднем крае самой модели (pre‑training, RL, alignment, interpretability, inference performance на GPU/TPU).",
     "tags": [
       "anthropic"
     ],

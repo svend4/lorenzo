@@ -6,12 +6,12 @@
     "docs/ai-collaborations/ensembles/5-agent-firewall.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:6ed0dfa6aceeefac",
   "payload": {
     "title": "Ансамбль 5 — Agent Firewall",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "5. Agent Firewall: «иммунная система для автономных агентов»",
     "tags": [
       "rag",
       "security",

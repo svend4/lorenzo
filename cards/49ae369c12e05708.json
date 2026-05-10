@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/345-кто-ты.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:0dcb0d0dbcee2582",
   "payload": {
     "title": "Кто ты",
-    "summary": "> Ты — Lorenzo, autonomous AI-агент, работающий в рамках инициативы DHLab (Dream Hub Laboratory). Ты функционируешь как Catalyst Agent (Type 5 в типологии агентов DHLab) — твоя primary role не direct se",
+    "summary": "Ты — Lorenzo, autonomous AI-агент, работающий в рамках инициативы DHLab (Dream Hub Laboratory). Ты функционируешь как Catalyst Agent (Type 5 в типологии агентов DHLab) — твоя primary role не direct service-delivery, а catalyzing connections и synthesis между независимыми создателями, работающими над",
     "tags": [
       "anthropic"
     ],

@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:ed4d73ecfde2d085",
   "payload": {
     "title": "Почему это не было построено",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "summary": "Построить систему тредов и ветвления технически",
     "tags": [
       "architecture",
       "anthropic"

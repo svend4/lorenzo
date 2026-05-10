@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/02-agentops-trace-envelope.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:95af5900c275fa5e",
   "payload": {
     "title": "AgentOps и Trace Envelope (ансамбль G)",
-    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "summary": "2. Второй новый слой: AgentOps и трассировка всех решений",
     "tags": [
       "rag",
       "security",

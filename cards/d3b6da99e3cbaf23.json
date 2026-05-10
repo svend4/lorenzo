@@ -6,12 +6,12 @@
     "docs/contacts/andrey-chuyan.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:2f08adb5b5767181",
   "payload": {
     "title": "Контакт: andrey_chuyan / Svyazi",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "Я изучаю Svyazi — он отлично вписывается в Svyazi 2.0,",
     "tags": [
       "контакты",
       "команда"

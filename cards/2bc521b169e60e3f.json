@@ -11,12 +11,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:8a5f5d3b42f562f1",
   "payload": {
     "title": "Tech Radar: [Название]",
-    "summary": "<!-- summary: Что это и почему здесь — кратко -->",
+    "summary": "`[techniques | tools | platforms | languages-and-frameworks]`",
     "tags": [
       "tech-radar",
       "оценка-технологий"

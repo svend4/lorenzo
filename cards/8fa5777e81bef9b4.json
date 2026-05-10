@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:991f1c0021540c5b",
   "payload": {
     "title": "Конкретный случай перед нами",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "Семь документов, произведённых в этой сессии,",
     "tags": [
       "architecture",
       "anthropic",

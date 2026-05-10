@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/10-architecture-rfc.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:069d089e63836122",
   "payload": {
     "title": "Следующий артефакт: Svyazi 2.0 Architecture RFC",
-    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "summary": "10. Следующий конкретный артефакт: Svyazi‑2.0 Architecture RFC",
     "tags": [
       "memory",
       "rag",

@@ -6,12 +6,12 @@
     "docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:c903b50732125364",
   "payload": {
     "title": "Claude hat geantwortet: Это очень тонкое и важное наблюдение.",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "Claude hat geantwortet: Это очень тонкое и важное наблюдение.",
     "tags": [
       "anthropic"
     ],

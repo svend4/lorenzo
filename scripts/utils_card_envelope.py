@@ -215,12 +215,38 @@ class CardEnvelope:
         if not title:
             title = path.stem.replace("-", " ").replace("_", " ")
 
-        # Краткое резюме — первый абзац не-заголовок
+        # Краткое резюме: предпочитаем текст из секций "Описание/Description",
+        # затем первый чистый параграф (не мета-строки).
         summary = ""
-        for line in text.splitlines():
-            if not line.startswith("#") and not line.startswith("|") and len(line.strip()) > 40:
-                summary = line.strip()[:300]
-                break
+        lines = text.splitlines()
+        _META_PREFIXES = ("#", "|", ">", "<!--", "-", "*", "+", "!", "[", "```")
+        _SKIP_PATTERNS  = ("citeturn", "**Источник", "**Автор", "**Лицензия",
+                           "**Maturity", "**Проект", "**Версия", "**Дата",
+                           "**Статус", "---")
+        # 1. Ищем секцию Описание / Description / Overview
+        in_desc = False
+        for line in lines:
+            stripped = line.strip()
+            if re.match(r'^#+\s*(описание|description|overview|intro|введение)', stripped, re.IGNORECASE):
+                in_desc = True
+                continue
+            if in_desc:
+                if stripped.startswith("#"):
+                    break  # следующая секция
+                if (len(stripped) > 40
+                        and not any(stripped.startswith(p) for p in _META_PREFIXES)
+                        and not any(kw in stripped for kw in _SKIP_PATTERNS)):
+                    summary = stripped[:300]
+                    break
+        # 2. Если не нашли — берём первый чистый параграф
+        if not summary:
+            for line in lines:
+                stripped = line.strip()
+                if (len(stripped) > 40
+                        and not any(stripped.startswith(p) for p in _META_PREFIXES)
+                        and not any(kw in stripped for kw in _SKIP_PATTERNS)):
+                    summary = stripped[:300]
+                    break
 
         # Теги из YAML frontmatter или <!-- tags: ... -->
         tags: list[str] = []

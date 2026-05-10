@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:f4a51f11669aeb76",
   "payload": {
     "title": "Local-first и P2P стек",
-    "summary": "- [Связанные документы](#связанные-документы)",
+    "summary": "Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.",
     "tags": [
       "rag",
       "knowledge",

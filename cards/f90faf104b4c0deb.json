@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/components/agent-memory-mcp.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:4df540be2763577b",
   "payload": {
     "title": "agent-memory-mcp + Memory OS",
-    "summary": "<!-- tags: memory, ingestion, architecture, roadmap, collaboration -->",
+    "summary": "Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts.",
     "tags": [
       "memory",
       "ingestion",

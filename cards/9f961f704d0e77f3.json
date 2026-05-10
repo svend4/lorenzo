@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:86d910e644fab341",
   "payload": {
     "title": "12. Onboarding Paths (Normative)",
-    "summary": "- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)",
+    "summary": "NPP v1.1 формализует пять путей подключения нового Repo как",
     "tags": [
       "architecture",
       "collaboration"

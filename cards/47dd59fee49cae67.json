@@ -39,12 +39,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:86a18e0fe137071d",
   "payload": {
     "title": "Lorenzo",
-    "summary": "- [Автозаполненные шаблоны](../../AUTOFILLED.md)",
+    "summary": "",
     "tags": [
       "ingestion",
       "collaboration"

@@ -35,12 +35,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:05+00:00",
-  "updated_at": "2026-05-10T15:20:05+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:e40bb909d2eb72d4",
   "payload": {
     "title": "Интегральный анализ профиля svend4",
-    "summary": "> 🎯 **Проблема:** Разница: Linked Data требует единой онтологии (RDF), Nautilus принципиально не требует — каждый репо в native формате.",
+    "summary": "Теперь, когда я видел всё — 70 репозиториев за 4 месяца, структурный архив data70 с 1105 разговорами и топ-10 проектами, pinned-репо daten и universal-file-storage-mcp изнутри, плюс контекст из userMemories — можно сделать корректный вывод. Мой предыдущий ответ про «Forward Deployed Engineer» был ос",
     "tags": [
       "rag",
       "orchestration",

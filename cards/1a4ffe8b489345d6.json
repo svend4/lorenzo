@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:1e6d85150619f6bb",
   "payload": {
     "title": "Комбинация 3: CRDT local-first × Svyazi CardIndex",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "CRDT / RON / Yjs (habr.com/ru/articles/534510/, habr.com/ru/articles/946722/) — conflict-free replicated data types, p2p синхронизация",
     "tags": [
       "knowledge",
       "ingestion",

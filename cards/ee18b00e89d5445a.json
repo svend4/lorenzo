@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/90-15-security-considerations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:b56ec68fd4b3c4d6",
   "payload": {
     "title": "15. Security Considerations",
-    "summary": "- [15. Security Considerations](#15-security-considerations)",
+    "summary": "Adapters выполняются внутри Portal-процесса. Portal MUST",
     "tags": [
       "memory",
       "ingestion",

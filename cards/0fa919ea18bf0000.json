@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/279-existing-approximations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:d6b6265351643fab",
   "payload": {
     "title": "Existing Approximations",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "Several existing tools approximate parts of what Layer B",
     "tags": [
       "rag",
       "architecture",

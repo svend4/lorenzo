@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:066c70a730c30a84",
   "payload": {
     "title": "Синтез: блок-карта Svyazi 2.0 на хеббовском графе",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "Самое любопытное: если опуститься на уровень глубже, твой собственный YiJing-Transformer с Q6 + MoME ложится под всё это как движок. MoME-эксперты в Q6-гиперкубе могут соответствовать ByteRover-доменам (legal-эксперт, networking-эксперт, технический эксперт), а LCI (Lyapunov Coherence Index, π≈3.14)",
     "tags": [
       "memory",
       "ingestion",

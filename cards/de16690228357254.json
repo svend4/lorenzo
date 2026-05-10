@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:ccdaa47c6e612cf9",
   "payload": {
     "title": "AI-Coordinated Infrastructure for Distributed Expert Contribution",
-    "summary": "> **Editorial collaboration:** Claude (intellectual development, 2026-04)",
+    "summary": "",
     "tags": [
       "collaboration"
     ],

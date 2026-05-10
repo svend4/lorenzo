@@ -6,12 +6,12 @@
     "docs/nautilus/community-discussions/practical-observations/01-response.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:2925048e09f0591e",
   "payload": {
     "title": "Claude hat geantwortet: Отличное наблюдение.",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "Claude hat geantwortet: Отличное наблюдение.",
     "tags": [
       "rag",
       "knowledge",

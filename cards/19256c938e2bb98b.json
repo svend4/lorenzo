@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:1948d1a2edb939c4",
   "payload": {
     "title": "Tertiary match — Research Engineer, Agents / Virtual Collaborator (Cowork)",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.",
+    "summary": "Здесь сидит ваша NautilusMoME-линия. Open-вакансии — Research Engineer Agents (SF/Seattle/NY, Remote-friendly), Research Engineer Virtual Collaborator Cowork (именно тот десктопный агент, про который говорит продукт-описание), Research Engineer Environment Scaling, Research Engineer Reward Models Pl",
     "tags": [
       "anthropic",
       "self-improvement",

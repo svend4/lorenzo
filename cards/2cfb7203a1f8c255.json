@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:348a0e810c080399",
   "payload": {
     "title": "7. Application Domains",
-    "summary": "> 🎯 **Проблема:** Application Domains !TIP Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "We identify nine professions or sub-professions where",
     "tags": [
       "ingestion",
       "architecture"

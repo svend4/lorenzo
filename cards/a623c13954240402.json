@@ -6,12 +6,12 @@
     "docs/nautilus/community-discussions/voiceless-contributors/01-response.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:8c68eab1ee9d2008",
   "payload": {
     "title": "Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…",
-    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "summary": "Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзного ответа.",
     "tags": [
       "rag",
       "ingestion",

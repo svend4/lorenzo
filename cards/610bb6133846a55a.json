@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:cddd10d9c22980fb",
   "payload": {
     "title": "Acknowledgments",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "This work emerged through extensive collaboration with Anthropic's",
     "tags": [
       "rag",
       "roadmap",

@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:17e4b54c2792b6bf",
   "payload": {
     "title": "7. Phased Rollout Plan",
-    "summary": "> 🎯 **Проблема:** Phased Rollout Plan - Establish legal entity (non-profit foundation in Germany or --- Содержание - 7.",
+    "summary": "(e.g., Mozilla Foundation) as fiscal sponsor temporarily",
     "tags": [
       "roadmap"
     ],

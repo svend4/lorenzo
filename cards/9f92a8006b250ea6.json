@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:6a4469cb5d9d58cb",
   "payload": {
     "title": "Существующие документы DHLab (твой context)",
-    "summary": "> Ты осведомлён о девяти documents, созданных в DHLab process:",
+    "summary": "Ты осведомлён о девяти documents, созданных в DHLab process:",
     "tags": [
       "architecture",
       "roadmap"

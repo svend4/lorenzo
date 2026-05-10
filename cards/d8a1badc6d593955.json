@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:d80e08f31a2c3609",
   "payload": {
     "title": "Комбинация 17: Distributed Agent Memory with Graph",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "agentmemory MCP (51 tools, Ebbinghaus decay, memory consolidation)",
     "tags": [
       "memory",
       "rag",

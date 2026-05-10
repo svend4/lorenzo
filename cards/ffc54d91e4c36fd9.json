@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:15545910af1b3d7a",
   "payload": {
     "title": "The Two-Layer Stack As It Exists",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "Currently, AI-collaborative work tends to occur in one of two",
     "tags": [
       "architecture",
       "anthropic"

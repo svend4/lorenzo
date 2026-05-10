@@ -39,12 +39,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:2502a1b98b3bda1d",
   "payload": {
     "title": "portal-mcp.py",
-    "summary": "> 🎯 **Проблема:** portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.",
+    "summary": "Exposes Nautilus Portal as Model Context Protocol tools for LLM clients",
     "tags": [
       "rag",
       "ingestion",

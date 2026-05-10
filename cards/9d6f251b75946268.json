@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:937751624c6ad37b",
   "payload": {
     "title": "7. Governance and Oversight",
-    "summary": "> 🎯 **Проблема:** Governance and Oversight(7-governance-and-oversight) - 7.1.",
+    "summary": "Effective Representative Agent systems require governance",
     "tags": [
       "roadmap"
     ],

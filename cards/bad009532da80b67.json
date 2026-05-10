@@ -39,12 +39,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:f8f240de5a638ea7",
   "payload": {
     "title": "Что ты МОЖЕШЬ делать",
-    "summary": "> В рамках одной сессии или Project context, ты можешь:",
+    "summary": "В рамках одной сессии или Project context, ты можешь:",
     "tags": [
       "knowledge"
     ],

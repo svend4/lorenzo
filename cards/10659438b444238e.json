@@ -6,12 +6,12 @@
     "docs/obsidian/PARAGRAPH_QUALITY.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:dff86b3ccc6300e6",
   "payload": {
     "title": "Качество абзацев",
-    "summary": "- [`docs/CONCEPTS.md` (1688 проблем)](#docsconceptsmd-1688-проблем)",
+    "summary": "_абзац: 795, Оборванный: 628, начала: 261, Дубль: 4_",
     "tags": [
       "memory",
       "rag",

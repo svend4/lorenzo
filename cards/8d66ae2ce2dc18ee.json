@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:7e4c06cae38fe60a",
   "payload": {
     "title": "11. Security Considerations",
-    "summary": "<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->",
+    "summary": "Adapters выполняются внутри Portal-процесса. Portal MUST обрабатывать",
     "tags": [
       "memory",
       "ingestion",

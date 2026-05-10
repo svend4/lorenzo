@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:17ff8cdadd615440",
   "payload": {
     "title": "Closing",
-    "summary": "> 🎯 **Проблема:** Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.",
+    "summary": "The Open Knowledge Work Foundation is proposed as response",
     "tags": [
       "rag",
       "knowledge",

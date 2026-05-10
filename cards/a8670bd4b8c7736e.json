@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:4268ff960cfbc27e",
   "payload": {
     "title": "Existing infrastructure stack",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.",
+    "summary": "Hermes (Nous Research) — personal autonomous agent",
     "tags": [
       "anthropic"
     ],

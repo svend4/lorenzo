@@ -6,12 +6,12 @@
     "docs/COLLAB_SUGGESTIONS.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
-  "payload_hash": "sha256:d8292d1332f70659",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
+  "payload_hash": "sha256:52faf053cef0bb9b",
   "payload": {
     "title": "Рекомендации по коллаборации (Collaboration Finder)",
-    "summary": "> Автоматический поиск партнёрских проектов для: «# Svyazi 2.0 — Спецификация прототипа > [!TIP] > Этот документ описывает MVP-под»",
+    "summary": "<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>",
     "tags": [
       "collaboration",
       "projects",
@@ -23,12 +23,14 @@
       "CardIndex",
       "AgentFS",
       "knowledge-space",
-      "mclaude",
-      "AI Factory",
       "LiteParse",
-      "Legal RAG"
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
     ],
-    "wc": 1367,
+    "wc": 1003,
     "path": "docs/COLLAB_SUGGESTIONS.md"
   }
 }

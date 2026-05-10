@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:73b65968daf3d3cd",
   "payload": {
     "title": "6. Refined InGit Scope with Cowork in Mind",
-    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "summary": "The original InGit roadmap (10-16 months to v1.0) reflected",
     "tags": [
       "architecture",
       "roadmap"

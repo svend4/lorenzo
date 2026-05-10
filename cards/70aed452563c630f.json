@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:ad12821bd1813b2f",
   "payload": {
     "title": "Более сильные пути вне Anthropic",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.",
+    "summary": "Research fellowship с independent affiliation. Alan Turing Institute (UK), DFKI Saarbrücken или Berlin (DE), Fraunhofer IAO (Stuttgart), Max Planck Institute for Software Systems (Saarbrücken/Kaiserslautern), Mozilla Foundation AI fellowship, Open Society Foundations Disability Rights Fellowship, Ro",
     "tags": [
       "rag",
       "anthropic",

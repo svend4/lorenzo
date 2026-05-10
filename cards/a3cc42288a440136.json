@@ -6,12 +6,12 @@
     "docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:616c822322aba21f",
   "payload": {
     "title": "3. Three Inter-Layer Protocols",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "The architecture requires three formalized protocols between layers.",
     "tags": [
       "rag",
       "orchestration",

@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:e369b604bd75dd9e",
   "payload": {
     "title": "12. Closing",
-    "summary": "> 🎯 **Проблема:** What is new is that we finally have technology capable of providing representation at scale — affordably, persistently, across the full range of human work and need.",
+    "summary": "The Cinderella Syndrome — quality without visibility —",
     "tags": [
       "anthropic"
     ],

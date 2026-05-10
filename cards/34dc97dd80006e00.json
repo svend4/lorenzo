@@ -6,12 +6,12 @@
     "docs/ai-collaborations/continuation/06-metrics-tree.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:f6a452750aa8b4c0",
   "payload": {
     "title": "Дерево метрик Svyazi 2.0",
-    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "summary": "6. Метрики, без которых Svyazi‑2.0 нельзя масштабировать",
     "tags": [
       "rag",
       "knowledge",

@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:392aba719bd92877",
   "payload": {
     "title": "History",
-    "summary": "- Embedded-версия Nautilus Portal в подпапке `[nautilus](../docs/05-habr-projects/memory/memnet.md)/` (март 2026)",
+    "summary": "hexagrams onto Wolfram's Elementary Cellular Automata» (совместно",
     "tags": [
       "collaboration"
     ],

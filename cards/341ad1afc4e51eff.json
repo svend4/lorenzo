@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:3f2085712440a3b0",
   "payload": {
     "title": "Ансамбль 2 — «AutoResearch для legal precedent mining»",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "AutoResearch-цикл крутит над BSG-корпусом (несколько тысяч решений) гипотезы вида «существует ли паттерн, при котором § 78 SGB IX выигрывал в 90% случаев при условиях X»;",
     "tags": [
       "self-improvement",
       "collaboration"

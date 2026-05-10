@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:25b2a3095f0d6a57",
   "payload": {
     "title": "Appendix B: Sub-Agent Registry Schema (Sketch)",
-    "summary": "> 🎯 **Проблема:** Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, sub-agent registry entries might follow --- Appendix B: Sub-Agent Registry Schema (Sketch) For implementation, su",
+    "summary": "For implementation, sub-agent registry entries might follow",
     "tags": [
       "rag",
       "architecture",

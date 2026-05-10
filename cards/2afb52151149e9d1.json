@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:116cb00f857120aa",
   "payload": {
     "title": "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments",
-    "summary": "> 🎯 **Проблема:** Question Set 2: Your priorities 2a) Что важнее: Lorenzo как long-term project, или SGB Advocate Tool как immediate need?",
+    "summary": "Anthropic Beneficial Deployments — это команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas. Включает (насколько я знаю):",
     "tags": [
       "memory",
       "rag",

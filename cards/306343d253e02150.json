@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:dfa1d23c0dd09910",
   "payload": {
     "title": "8. Risk Analysis",
-    "summary": "> 🎯 **Проблема:** Comprehensive Risk Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.",
+    "summary": "On balance, OKWF faces typical challenges of a new foundation",
     "tags": [
       "rag",
       "roadmap",

@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:4551d1299e3301ee",
   "payload": {
     "title": "21. ADR-003: Five Onboarding Paths as Equal-Rank",
-    "summary": "**Context**: В v1.0 была одна \"основная\" стратегия подключения",
+    "summary": "(manual adapter). В процессе развития reference implementation",
     "tags": [
       "anthropic"
     ],

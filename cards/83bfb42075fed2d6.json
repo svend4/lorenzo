@@ -35,12 +35,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:3ff3405b80c2557d",
   "payload": {
     "title": "Appendix C: Quick-Start Architecture for SGB Advocate Colleague",
-    "summary": "> 🎯 **Проблема:** Contact via github.com/svend4/nautilus/issues(URL --- Комментарий к шестому документу Это завершающий документ концептуальной работы сессии.",
+    "summary": "For readers interested in concrete architecture for the",
     "tags": [
       "rag",
       "ingestion",

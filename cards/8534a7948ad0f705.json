@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/268-references.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:2fd33c77735a190e",
   "payload": {
     "title": "References",
-    "summary": "- [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)",
+    "summary": "Harvard University Press. (On modular cognitive architecture.)",
     "tags": [
       "rag",
       "architecture",

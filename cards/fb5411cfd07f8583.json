@@ -6,12 +6,12 @@
     "docs/obsidian/01-svyazi/QA.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:69f83c0f1bcae470",
   "payload": {
     "title": "Q&A: 01-svyazi",
-    "summary": "<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->",
+    "summary": "_Автоматически сгенерировано по 14 файлам раздела._",
     "tags": [
       "rag",
       "security",

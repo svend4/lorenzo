@@ -35,12 +35,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:01ca193b638d150a",
   "payload": {
     "title": "8. Pilot Proposal: SGB Advocate Colleague",
-    "summary": "> 🎯 **Проблема:** Clear demand: Author personally needs this.",
+    "summary": "We now apply the Professional Colleague Agent framework to a",
     "tags": [
       "rag",
       "architecture",

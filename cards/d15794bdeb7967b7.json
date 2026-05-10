@@ -35,12 +35,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:47+00:00",
+  "updated_at": "2026-05-10T15:26:47+00:00",
   "payload_hash": "sha256:9a13db5222ba1921",
   "payload": {
     "title": "Обратная связь",
-    "summary": "> 🎯 **Проблема:** Мой takeaway: ключ в Протоколе 3 — Node'ы не ждут повелений сверху, assistant'ы sами poll meta-agent for needed context.",
+    "summary": "Issues: [github.com/svend4/nautilus/issues](https://github.com/svend4/nautilus/issues)",
     "tags": [
       "memory",
       "rag",

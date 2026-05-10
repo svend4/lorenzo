@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:2d63828e354d1663",
   "payload": {
     "title": "Благодарности",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "summary": "Этот документ возник из наблюдения автора, в",
     "tags": [
       "architecture",
       "anthropic",

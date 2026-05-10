@@ -6,12 +6,12 @@
     "docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:06eab9fad834a7a3",
   "payload": {
     "title": "5. Архитектурная спецификация",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».",
+    "summary": "Система Представительского Агента состоит из семи компонентов:",
     "tags": [
       "local-first",
       "architecture",

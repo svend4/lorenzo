@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:0e81415219c88f1a",
   "payload": {
     "title": "HW-NL2Workflow — Supervisor/Orchestrator/Filler с 3600+ examples",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).",
+    "summary": "Что делает: Multi-agent framework для перевода natural language инструкций в business processes. Три агента: Supervisor, Orchestrator, Filler. Свой dataset HW-NL2Workflow с 3600+ примерами.",
     "tags": [
       "rag",
       "anthropic",

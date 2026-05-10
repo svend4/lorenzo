@@ -6,12 +6,12 @@
     "docs/nautilus/review-methodology/03-consolidation-principles.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:525ff03a0c92d6c7",
   "payload": {
     "title": "3. Принципы консолидации (Фаза C)",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».",
+    "summary": "Этот раздел — **главный практический инструмент**. Это decision",
     "tags": [
       "memory",
       "rag",

@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:85e0c57c829cc960",
   "payload": {
     "title": "4. The Sub-Agent Registry",
-    "summary": "> 🎯 **Проблема:** Curation and Trust An open registry needs curation to maintain quality.",
+    "summary": "The infrastructure underlying Composite Skills Agents requires",
     "tags": [
       "ingestion",
       "roadmap",

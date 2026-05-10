@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/122-глоссарий.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:a39f165aaf4c66ed",
   "payload": {
     "title": "Глоссарий",
-    "summary": "> 🎯 **Проблема:** Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после публикации.",
+    "summary": "Этот документ, в отличие от двух предыдущих (PORTAL-PROTOCOL v1.1 и trio of passports), имеет другой характер . Это не technical specification и не product documentation — это meta-документ о процессе . Отмечу несколько принципиальных решений.",
     "tags": [
       "memory",
       "architecture",

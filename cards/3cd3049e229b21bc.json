@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/03-portal-protocol-md.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:7e139fafcced5b3a",
   "payload": {
     "title": "PORTAL-PROTOCOL.md",
-    "summary": "**License:** CC BY 4.0 (documentation) / MIT (reference implementation)",
+    "summary": "",
     "tags": [
       "collaboration"
     ],

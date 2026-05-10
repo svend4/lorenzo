@@ -39,12 +39,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:575ce316ba793cd5",
   "payload": {
     "title": "AI-саммари разделов документации",
-    "summary": "> - [Архитектура Svyazi 2.0](#архитектура-svyazi-20)",
+    "summary": "_`docs/01-svyazi/` · 16 файлов · 10,166 слов_",
     "tags": [
       "ingestion",
       "local-first",

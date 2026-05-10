@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:e512f2e80ffde689",
   "payload": {
     "title": "Практическое ранжирование (первая итерация)",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.",
+    "summary": "Если упорядочить по вероятности успеха и соответствию текущему корпусу работ: 1. FDE Applied AI Munich / EMEA → 2. Applied AI Engineer Beneficial Deployments Life Sciences → 3. Anthropic Fellows Program (ML Systems & Performance или RL) как «мост» к Research Engineer Agents → 4. Developer Community ",
     "tags": [
       "roadmap",
       "anthropic",

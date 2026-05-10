@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/221-10-open-questions.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:4ba10640e06827a1",
   "payload": {
     "title": "10. Open Questions",
-    "summary": "- [10. Open Questions](#10-open-questions)",
+    "summary": "specialization? Can sub-specialties have their own agents",
     "tags": [
       "architecture",
       "anthropic"

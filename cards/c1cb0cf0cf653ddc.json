@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:44077fac10951117",
   "payload": {
     "title": "9. Relationship to Other Agent Types",
-    "summary": "> 🎯 **Проблема:** Integration challenge: Layer C (interface layer) of Type 1 needs to talk to Type 2 systems.",
+    "summary": "Professional Colleague Agents do not stand alone. They",
     "tags": [
       "orchestration",
       "architecture",

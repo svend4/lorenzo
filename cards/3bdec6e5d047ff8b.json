@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/extra-examples/12-concrete-next-step.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:9c4fe2f4ce58c2a8",
   "payload": {
     "title": "Конкретный next step",
-    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "summary": "Что я бы рекомендовал как concrete next step",
     "tags": [
       "anthropic",
       "collaboration"

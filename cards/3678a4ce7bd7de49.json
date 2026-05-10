@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:e1ecdda1d1535db4",
   "payload": {
     "title": "Why This Hasn't Been Built",
-    "summary": "- [Why This Hasn't Been Built](#why-this-hasnt-been-built)",
+    "summary": "threading-and-branching system is not technically difficult.",
     "tags": [
       "architecture",
       "anthropic"

@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/components/memnet.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:f3596ee5753d6ad4",
   "payload": {
     "title": "MemNet / memory-is-all-you-need",
-    "summary": "> - **Источник:** Хабр + GitHub citeturn21view4turn17search0turn18search2",
+    "summary": "Исследовательская активная память для трансформеров.",
     "tags": [
       "memory",
       "ingestion",

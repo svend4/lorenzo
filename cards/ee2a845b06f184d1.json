@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/60-bridges.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:08c80928362770db",
   "payload": {
     "title": "Bridges",
-    "summary": "- [meta ↔ pro2](#meta-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))",
+    "summary": "Это **единственный formal mapping** в экосистеме, реализованный через",
     "tags": [
       "anthropic",
       "collaboration"

@@ -6,12 +6,12 @@
     "docs/nautilus/double-triangle-architecture/09-acknowledgments.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:7f1449eac0dda502",
   "payload": {
     "title": "Acknowledgments",
-    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "summary": "This work emerged through extensive collaboration with Anthropic's",
     "tags": [
       "rag",
       "roadmap",

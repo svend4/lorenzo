@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:406640a2e08746de",
   "payload": {
     "title": "1. Problem Statement",
-    "summary": "> 🎯 **Проблема:** It is a present problem with actionable solutions that require coordinated action now.",
+    "summary": "The AI industry in 2026 exhibits an apparent paradox. Frontier",
     "tags": [
       "anthropic"
     ],

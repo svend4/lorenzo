@@ -6,12 +6,12 @@
     "docs/lorenzo-agent/specification/06-q6-accountability.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:bfcbb41d7f317b7c",
   "payload": {
     "title": "Question 6: Как Lorenzo accountable?",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "summary": "Annual: outcomes, attributions, criticisms received",
     "tags": [
       "anthropic"
     ],

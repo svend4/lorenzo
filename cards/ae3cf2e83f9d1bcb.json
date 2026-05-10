@@ -6,12 +6,12 @@
     "docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:a6c82bf8408cae6e",
   "payload": {
     "title": "7. Управление и надзор",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».",
+    "summary": "Эффективные системы Представительских Агентов требуют управления на трёх уровнях:",
     "tags": [
       "architecture",
       "anthropic"

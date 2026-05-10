@@ -6,12 +6,12 @@
     "docs/READABILITY.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:ca9902671e571c1a",
   "payload": {
     "title": "Читаемость документов (Flesch-Kincaid)",
-    "summary": "> FRE: 70-100 лёгкий, 50-70 средний, 30-50 сложный, <30 очень сложный",
+    "summary": "",
     "tags": [],
     "projects": [
       "Svyazi",

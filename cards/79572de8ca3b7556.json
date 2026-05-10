@@ -6,12 +6,12 @@
     "docs/nautilus/review-methodology/01-context-motivation.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:f31d98ff5a88d865",
   "payload": {
     "title": "1. Контекст и мотивация",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».",
+    "summary": "Проект Nautilus разрабатывается в паре «автор + Claude Code агент».",
     "tags": [
       "memory",
       "roadmap",

@@ -6,12 +6,12 @@
     "docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:40fea062fdf69474",
   "payload": {
     "title": "3. Эмпирический кейс: «Обучай»",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.",
+    "summary": "Профессионального Коллегу-Агента, который",
     "tags": [
       "architecture",
       "anthropic",

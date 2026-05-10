@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/components/mclaude.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:e1c3fd45a4d17703",
   "payload": {
     "title": "mclaude",
-    "summary": "> - **Источник:** Хабр + GitHub citeturn20view2turn37search0",
+    "summary": "Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом.",
     "tags": [
       "orchestration",
       "ingestion",

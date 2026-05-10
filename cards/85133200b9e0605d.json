@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/59-angle-perspective.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:0d5e262c55cf8c19",
   "payload": {
     "title": "Angle / Perspective",
-    "summary": "> **Symbolic** — `meta` смотрит на мир как на **систему дискретных",
+    "summary": "состояний и правил переходов**. На вопрос «что такое кристалл» он",
     "tags": [
       "anthropic",
       "collaboration"

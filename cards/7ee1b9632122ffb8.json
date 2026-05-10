@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/64-for-the-curious-philosophy.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:503fa471d1a66fe1",
   "payload": {
     "title": "For the Curious: Philosophy",
-    "summary": "> 🎯 **Проблема:** Если это утверждение удастся формально доказать, оно становится вкладом в теорию сложных систем.",
+    "summary": "`meta` реализует редкую идею: **две символические системы, разделённые",
     "tags": [
       "architecture",
       "collaboration"

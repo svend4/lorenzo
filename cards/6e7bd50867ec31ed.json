@@ -31,12 +31,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:1a993269129c6a50",
   "payload": {
     "title": "History",
-    "summary": "> **Создан:** февраль 2026 (судя по repo creation date)",
+    "summary": "«64 as Projection of 256: Hexagrams as Symmetry Classes of",
     "tags": [
       "architecture"
     ],

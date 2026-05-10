@@ -6,12 +6,12 @@
     "docs/obsidian/CONTACT_PRIORITY.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:b3489b226d52d1ae",
   "payload": {
     "title": "Приоритет контактов",
-    "summary": "<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->",
+    "summary": "1. **spbmolot** (NGT Memory, 58 упоминаний) → [[spbmolot|открыть контакт]]",
     "tags": [
       "memory",
       "rag",

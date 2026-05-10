@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:1f3b86b956c7237a",
   "payload": {
     "title": "Комбинация 2: Мультиагентный хаос-решение × Auto AI Router",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "\"Мультиагентный хаос\" (habr.com/ru/articles/1026856/) — статья 5 дней назад: как мы построили систему, которая действительно работает; Planner → Executor паттерн",
     "tags": [
       "architecture",
       "collaboration"

@@ -6,12 +6,12 @@
     "docs/obsidian/contacts/vladspace.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:b74b37c1b32afa3c",
   "payload": {
     "title": "Контакт: VladSpace / Graph RAG",
-    "summary": "<!-- summary: Шаблон для связи с автором Graph RAG -->",
+    "summary": "Я изучаю Graph RAG — он отлично вписывается в Svyazi 2.0,",
     "tags": [
       "контакты",
       "команда"

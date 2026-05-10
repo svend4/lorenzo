@@ -6,12 +6,12 @@
     "docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:e72199018a288b83",
   "payload": {
     "title": "Пара 5 — Browser agents × headless web extraction",
-    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "summary": "Пара 5. Browser agents × headless web extraction",
     "tags": [
       "knowledge",
       "ingestion",

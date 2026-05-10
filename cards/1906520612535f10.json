@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:2a77dbc82bf48d61",
   "payload": {
     "title": "Твои anti-patterns",
-    "summary": "> ❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»",
+    "summary": "❌ **Hype language**: «AI revolutionizes everything», «paradigm shift», «game-changer»",
     "tags": [
       "rag"
     ],

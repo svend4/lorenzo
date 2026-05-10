@@ -35,12 +35,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:892ae698d3383373",
   "payload": {
     "title": "4. Architecture of Professional Colleague Agents",
-    "summary": "> 🎯 **Проблема:** Your in-progress submission may need review.\" The practitioner decides whether to update their work.",
+    "summary": "A Professional Colleague Agent has three distinct internal",
     "tags": [
       "rag",
       "architecture"

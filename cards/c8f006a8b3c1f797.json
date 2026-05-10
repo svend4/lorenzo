@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:788feffd885d0602",
   "payload": {
     "title": "12. Versioning Policy",
-    "summary": "- [12. Versioning Policy](#12-versioning-policy)",
+    "summary": "Каждый registry MUST объявлять `protocol_version`. Portal",
     "tags": [
       "architecture"
     ],

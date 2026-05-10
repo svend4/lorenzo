@@ -6,12 +6,12 @@
     "docs/svyazi-2-0/components/self-aware-mcp.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:0b871355c35db8b1",
   "payload": {
     "title": "Self‑Aware MCP + Skills + CodeWiki",
-    "summary": "> - **Авторы:** akazant / akzhankalimatov / AnastasiyaW",
+    "summary": "Контекст реального мира для агента плюс reusable skills и авто‑документация кодовой базы.",
     "tags": [
       "knowledge",
       "ingestion",

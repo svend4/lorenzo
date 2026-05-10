@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/105-review-methodology-md.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:6f52d47d31ed3b2d",
   "payload": {
     "title": "REVIEW_METHODOLOGY.md",
-    "summary": "> **Статус:** Активно применяется в проекте svend4/nautilus",
+    "summary": "",
     "tags": [
       "collaboration"
     ],

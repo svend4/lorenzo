@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/130-отладка.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:f1647bf4bf3b98b3",
   "payload": {
     "title": "Отладка",
-    "summary": "- [Сервер не подключается](#сервер-не-подключается)",
+    "summary": "2. Запустить `portal-mcp.py --warmup` напрямую в терминале —",
     "tags": [
       "ingestion"
     ],

@@ -23,12 +23,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:f6c890c738b93d71",
   "payload": {
     "title": "12. Versioning Policy",
-    "summary": "- [12. Versioning Policy](#12-versioning-policy)",
+    "summary": "Каждый registry MUST объявлять `protocol_version`. Portal",
     "tags": [
       "architecture"
     ],

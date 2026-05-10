@@ -6,12 +6,12 @@
     "docs/nautilus/representative-agent-layer-ru/00-abstract.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:30079fff4dcc2fc1",
   "payload": {
     "title": "Содержание",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».",
+    "summary": "1. **Синдром Золушки: Почему качество остаётся невидимым**",
     "tags": [
       "architecture",
       "anthropic"

@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/clusters/06-engineering-design-product.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:53a2f392efd50b59",
   "payload": {
     "title": "Engineering & Design - Product — 22 роли",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "summary": "Продуктовая инженерия: Software Engineer (Full-stack, Backend, Platform, UI, iOS, Android, Desktop), Staff+ уровни, Product Designer Claude Code, Prompt Engineer, Model Quality Engineer, API (Senior Staff), Billing Platform, Cybersecurity Products, Auth & Identity. Это ваши коллеги по стеку Managed ",
     "tags": [
       "anthropic"
     ],

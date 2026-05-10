@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:589b8393c648074e",
   "payload": {
     "title": "with Anthropic's Cowork Platform",
-    "summary": "- [with Anthropic's Cowork Platform](#with-anthropics-cowork-platform)",
+    "summary": "Document 2.3's identification of the Layer B gap, providing",
     "tags": [
       "local-first",
       "architecture",

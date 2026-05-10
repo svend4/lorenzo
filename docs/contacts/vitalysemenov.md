@@ -1,0 +1,77 @@
+---
+template: contact-outreach
+version: "1.0"
+author: "VitaliySemenov"
+author_handle: "@moshael"
+projects: ["agent-memory-mcp", "Memory OS"]
+platform: GitHub
+status: not_started
+priority: 2
+created: 2026-05-10
+last_contact: null
+tags: [контакты, команда]
+---
+# Контакт: VitaliySemenov / agent-memory-mcp
+
+<!-- summary -->
+> Автор agent-memory-mcp (типизированная память для MCP + Memory OS с bi-temporal фактами).
+**Проекты:** agent-memory-mcp, Memory OS
+
+---
+<!-- tags: person, memory, mcp, contact -->
+
+## Профиль
+
+| Параметр | Значение |
+|----------|---------|
+| Ник | VitaliySemenov / moshael |
+| GitHub | @moshael |
+| Проекты | agent-memory-mcp, Memory OS |
+| Слой в Svyazi | memory |
+| Упомянут в файлах | docs/svyazi-2-0/components/agent-memory-mcp.md |
+| Статус | not_started |
+
+## Проект: agent-memory-mcp
+
+Typed memory MCP-сервер с типами: `episodic`, `semantic`, `procedural`, `working`.  
+Хранит в SQLite + WAL. Включает repo/doc search и path guard.
+
+**Синергия с Lorenzo/Svyazi:**
+- Готовый memory-слой с MCP API для Claude Desktop
+- Typed memories дополняют CardEnvelope (episode → fact цикл)
+- SQLite + WAL — локальный, GDPR-safe, offline-capable
+
+## Вопросы для первого контакта
+
+1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?
+2. Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)?
+3. Открыты к интеграционным PR для Svyazi 2.0?
+
+## Шаблон первого сообщения
+
+```
+**Кому:** VitaliySemenov (@moshael)
+**Тема:** Интеграция agent-memory-mcp в Knowledge OS (Svyazi 2.0)
+
+Привет!
+
+Изучил ваш agent-memory-mcp и Memory OS — очень близко к тому, 
+что мы строим в Svyazi 2.0 (локальная Knowledge OS для коллаборационных сетей).
+
+Особенно ценна идея typed memories (episodic → semantic → procedural) 
+и bi-temporal facts с gardener-loop.
+
+Работаю над интеграцией memory-слоя с CardIndex (Card Envelope) + 
+AgentFS (граф знаний). Хотел бы обсудить:
+- Как memory write API взаимодействует с внешними источниками?
+- Планируется ли поддержка batch-ingestion из документов?
+
+Репо: github.com/svend4/lorenzo | Спецификация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+## История контактов
+
+_Контакт ещё не установлен_

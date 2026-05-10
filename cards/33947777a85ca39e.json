@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/clusters/02-sales.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:ea4838ae42cbafd5",
   "payload": {
     "title": "Sales — 150 ролей (≈34% всего найма)",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "summary": "То, что статья замалчивает: основной рост Anthropic сейчас — не в инженерах, а в GTM. Account Executive (Enterprise, Strategic, Mid-Market, SMB, Startups, Federal, State & Local, DOD/IC), Solutions Architect Applied AI по вертикалям (Industries, Life Sciences, Financial Services, Government, Nationa",
     "tags": [
       "anthropic"
     ],

@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:c77e71138e2c94b3",
   "payload": {
     "title": "10. QueryResult Structure",
-    "summary": "> results_by_repo: dict[str, list[PortalEntry]]",
+    "summary": "results_by_repo: dict[str, list[PortalEntry]]",
     "tags": [
       "anthropic"
     ],

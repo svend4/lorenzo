@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:a863159e9884b5b5",
   "payload": {
     "title": "🇷🇺 О проекте",
-    "summary": "> 🎯 **Проблема:** Документация - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports",
+    "summary": "Nautilus — протокол и reference implementation для **федерации**",
     "tags": [
       "rag",
       "architecture",

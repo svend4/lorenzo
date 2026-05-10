@@ -6,12 +6,12 @@
     "docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:2d21d6c8be98166c",
   "payload": {
     "title": "6. Уточнённый объём InGit с учётом Cowork",
-    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "summary": "месяцев до v1.0) отражала амбицию полного",
     "tags": [
       "architecture",
       "roadmap"

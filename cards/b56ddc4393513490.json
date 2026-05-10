@@ -6,12 +6,12 @@
     "docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:9339189f10bf6c79",
   "payload": {
     "title": "7. PortalEntry Structure",
-    "summary": "<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->",
+    "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
     "tags": [
       "memory",
       "ingestion",

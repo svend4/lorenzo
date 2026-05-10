@@ -6,12 +6,12 @@
     "docs/nautilus/okwf-concept/02-target-populations.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:4879b29190fe0e93",
   "payload": {
     "title": "2. Target Populations",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».",
+    "summary": "library and junior legal writer mentorship",
     "tags": [
       "anthropic"
     ],

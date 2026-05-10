@@ -6,12 +6,12 @@
     "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:09+00:00",
-  "updated_at": "2026-05-10T15:20:09+00:00",
+  "created_at": "2026-05-10T15:26:51+00:00",
+  "updated_at": "2026-05-10T15:26:51+00:00",
   "payload_hash": "sha256:f9baaa0cf74fa448",
   "payload": {
     "title": "Комбинация 18: LLM-Powered Legal Corpus Builder",
-    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "summary": "Crawl4AI (BM25 filtering, LLM extraction, Pydantic schemas)",
     "tags": [
       "rag",
       "knowledge",

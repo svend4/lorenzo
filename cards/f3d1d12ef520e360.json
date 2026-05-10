@@ -6,12 +6,12 @@
     "docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:08+00:00",
-  "updated_at": "2026-05-10T15:20:08+00:00",
+  "created_at": "2026-05-10T15:26:50+00:00",
+  "updated_at": "2026-05-10T15:26:50+00:00",
   "payload_hash": "sha256:d9f3a99e4cef537c",
   "payload": {
     "title": "What Industry Will Likely Build",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "summary": "Independent of what the author does, the industry will move",
     "tags": [
       "architecture",
       "anthropic"

@@ -6,12 +6,12 @@
     "docs/lorenzo-agent/04-komu-ty-sluzhish.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:c4bb218ad58cc55d",
   "payload": {
     "title": "Кому ты служишь (слоистая модель)",
-    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).",
+    "summary": "Главный благополучатель: Уязвимые группы (заявители SGB, инвалиды,",
     "tags": [
       "anthropic",
       "collaboration"

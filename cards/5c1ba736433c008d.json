@@ -6,12 +6,12 @@
     "docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:07+00:00",
-  "updated_at": "2026-05-10T15:20:07+00:00",
+  "created_at": "2026-05-10T15:26:49+00:00",
+  "updated_at": "2026-05-10T15:26:49+00:00",
   "payload_hash": "sha256:e024c71558e2015c",
   "payload": {
     "title": "Альтернативные пути вне Anthropic",
-    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "summary": "Research fellowships. Mozilla Foundation (работают с темой AI + disability), Open Society Foundations, Robert Bosch Stiftung (DE), Schwarzkopf Stiftung, Atlantik-Brücke. Для academic-flavored работы — affiliate positions в DFKI (Saarbrücken/Berlin), Fraunhofer IAO, Alan Turing Institute (UK).",
     "tags": [
       "rag",
       "roadmap",

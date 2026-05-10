@@ -27,12 +27,12 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:66515beed24786a6",
   "payload": {
     "title": "5. Configuration: How Principals Build Their Ensembles",
-    "summary": "> 🎯 **Проблема:** The Configuration Problem A principal entering an ecosystem with hundreds of available sub-agents faces a configuration problem.",
+    "summary": "A central question for Composite Skills Agents: how does a",
     "tags": [
       "anthropic"
     ],

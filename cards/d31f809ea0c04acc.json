@@ -6,12 +6,12 @@
     "docs/BADGES.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T15:20:06+00:00",
-  "updated_at": "2026-05-10T15:20:06+00:00",
+  "created_at": "2026-05-10T15:26:48+00:00",
+  "updated_at": "2026-05-10T15:26:48+00:00",
   "payload_hash": "sha256:3f81156901e47594",
   "payload": {
     "title": "Status Badges",
-    "summary": "- **tests** ![tests](https://img.shields.io/badge/tests-0--passing-brightgreen)",
+    "summary": "",
     "tags": [],
     "projects": [],
     "wc": 42,
