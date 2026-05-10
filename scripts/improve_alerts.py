@@ -85,6 +85,12 @@ def extract_summary(text: str, max_words: int = 25) -> str:
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Добавляет callout-блоки в .md файлы")
+    parser.add_argument("--dry-run", action="store_true",
+                        help="Показать сколько файлов будет изменено, не изменять")
+    args = parser.parse_args()
+
     print("Добавление callout-блоков...")
     added = 0
     stats = {"NOTE": 0, "TIP": 0, "WARNING": 0, "IMPORTANT": 0}
@@ -144,7 +150,10 @@ def main():
         callout_block = f"\n\n> [!{ctype}]\n> {cmsg}\n\n{MARKER}"
 
         new_text = text[:insert_pos] + callout_block + text[insert_pos:]
-        f.write_text(new_text, encoding="utf-8")
+        if args.dry_run:
+            print(f"  [dry-run] {f.relative_to(ROOT)} → [{ctype}]")
+        else:
+            f.write_text(new_text, encoding="utf-8")
         added += 1
         stats[ctype] += 1
 
@@ -173,6 +182,12 @@ def main():
         "```",
         "\n_Поддерживается в GitHub Markdown с 2023 года._",
     ]
+
+    if args.dry_run:
+        print(f"\n[dry-run] будет добавлено {added} callout-блоков "
+              f"(TIP={stats['TIP']}, WARNING={stats['WARNING']}, IMPORTANT={stats['IMPORTANT']})")
+        print("[dry-run] ALERTS.md не обновлён. Добавьте --apply или уберите --dry-run.")
+        return
 
     out = DOCS / "ALERTS.md"
     out.write_text("\n".join(lines) + "\n", encoding="utf-8")

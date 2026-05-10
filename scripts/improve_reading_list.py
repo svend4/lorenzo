@@ -55,6 +55,8 @@ if "--section" in sys.argv:
     if idx + 1 < len(sys.argv):
         SECTION_FILTER = sys.argv[idx + 1]
 
+DRY_RUN = "--dry-run" in sys.argv
+
 SKIP_FILES = {
     "READING_LIST.md", "SEARCH.md", "SUMMARIES.md", "KNOWLEDGE_MAP.md",
     "KEYWORD_INDEX.md", "CONTRADICTIONS.md", "SIMILAR_PASSAGES.md",
@@ -228,6 +230,9 @@ def main() -> None:
         out = [{"rank": i+1, "title": r["title"], "file": r["source"],
                 "score": r["score"], "read_min": r["read_min"], "words": r["wc"]}
                for i, r in enumerate(results)]
+        if DRY_RUN:
+            print(f"  [dry-run] docs/reading_list.json → {len(out)} записей")
+            return
         out_f = DOCS / "reading_list.json"
         out_f.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"  wrote: {out_f.relative_to(ROOT)}")
@@ -268,6 +273,10 @@ def main() -> None:
             lines.append(f"- [{it['title'][:60]}]({it['source']}) — {it['read_min']} мин")
         lines.append("")
 
+    if DRY_RUN:
+        print(f"  [dry-run] docs/READING_LIST.md → {len(results)} документов, ~{total_time} мин")
+        print("[dry-run] Файл не изменён. Уберите --dry-run чтобы применить.")
+        return
     out_f = DOCS / "READING_LIST.md"
     out_f.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"  wrote: {out_f.relative_to(ROOT)}")
