@@ -43,7 +43,7 @@ _Обновлено: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [README](docs/05-habr-projects/README.md) (сходство 0.18)
+- [README](README.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -51,10 +51,10 @@ _Обновлено: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
-- [ngt-memory](docs/05-habr-projects/memory/ngt-memory.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
+- [01-synthesis](01-synthesis.md)
+- [yodoca](memory/yodoca.md)
+- [ngt-memory](memory/ngt-memory.md)
+- [wikontic](knowledge/wikontic.md)
 
 
 
@@ -71,8 +71,8 @@ _Обновлено: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (4):**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [README](docs/05-habr-projects/README.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [01-synthesis](01-synthesis.md)
+- [README](README.md)
+- [wikontic](knowledge/wikontic.md)
+- [yodoca](memory/yodoca.md)
 

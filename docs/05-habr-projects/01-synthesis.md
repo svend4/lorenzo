@@ -81,8 +81,8 @@ _Обновлено: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (4):**
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [README](docs/05-habr-projects/README.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [123-portal-mcp-py](../02-anthropic-vacancies/123-portal-mcp-py.md)
+- [README](README.md)
+- [wikontic](knowledge/wikontic.md)
+- [yodoca](memory/yodoca.md)
 

@@ -105,9 +105,9 @@ Yodoca — «Научил ИИ-агента помнить важное и за�
 ---
 
 **Кто ссылается на этот документ (5):**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [README](docs/05-habr-projects/memory/README.md)
-- [04-structuring](docs/processing-guide/04-structuring.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [01-synthesis](../01-synthesis.md)
+- [wikontic](../knowledge/wikontic.md)
+- [README](README.md)
+- [04-structuring](../../processing-guide/04-structuring.md)
+- [PROCESSING_GUIDE](../../processing-guide/PROCESSING_GUIDE.md)
 

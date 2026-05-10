@@ -94,7 +94,7 @@ Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive A
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [README](docs/05-habr-projects/knowledge/README.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [01-synthesis](../01-synthesis.md)
+- [README](README.md)
+- [yodoca](../memory/yodoca.md)
 

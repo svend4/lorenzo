@@ -23,7 +23,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [01-synthesis](../01-synthesis.md)
+- [wikontic](../knowledge/wikontic.md)
+- [yodoca](yodoca.md)
 

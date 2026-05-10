@@ -49,7 +49,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Похожие документы:**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md) (сходство 0.10)
+- [wikontic](../knowledge/wikontic.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -79,8 +79,8 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Кто ссылается на этот документ (4):**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [README](docs/05-habr-projects/memory/README.md)
-- [04-structuring](docs/processing-guide/04-structuring.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [wikontic](../knowledge/wikontic.md)
+- [README](README.md)
+- [04-structuring](../../processing-guide/04-structuring.md)
+- [PROCESSING_GUIDE](../../processing-guide/PROCESSING_GUIDE.md)
 
