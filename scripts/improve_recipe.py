@@ -40,6 +40,7 @@ NO_DRY_RUN = {
     "improve_content_gaps.py", "improve_broken_links.py", "improve_validate.py",
     "improve_self.py", "improve_benchmark.py", "improve_watch.py",
     "improve_watcher.py", "improve_workflow_v2.py",
+    "improve_embedding_index.py",  # только --index / --query, нет --dry-run
 }
 
 # ─────────────────────────────────────────────────────────────────────
@@ -246,6 +247,26 @@ BUILTIN_RECIPES: dict[str, dict] = {
             ("improve_self.py", ["--catalog"]),
             ("improve_self.py", ["--cross-read"]),
             ("improve_benchmark.py", []),
+        ],
+    },
+
+    # ── Card Index и семантика ─────────────────────────────────────
+    "card-index": {
+        "description": "Построить CardStore + TF-IDF индекс + найти коллаборации",
+        "tags": ["cards", "index", "semantic", "collaboration", "карточки"],
+        "scripts": [
+            ("improve_card_index.py",      ["--build", "--incremental"]),
+            ("improve_embedding_index.py", ["--index"]),
+            ("improve_card_index.py",      ["--export", "--fmt", "csv"]),
+        ],
+    },
+    "collab-find": {
+        "description": "Поиск партнёрских проектов: CardStore + TF-IDF + шаблоны сообщений",
+        "tags": ["collaboration", "projects", "outreach", "коллаборация", "поиск"],
+        "scripts": [
+            ("improve_card_index.py",      ["--build", "--incremental"]),
+            ("improve_embedding_index.py", ["--index"]),
+            ("improve_collab_finder.py",   ["--query", "агент память граф знаний коллаборация"]),
         ],
     },
 
