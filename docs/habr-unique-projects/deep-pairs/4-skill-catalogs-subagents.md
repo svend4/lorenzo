@@ -34,7 +34,7 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 **Смотрите также:**
 - [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
-- [8-self-aware-mcp-specs](8-self-aware-mcp-specs.md)
+- 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)
 - [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
 
 

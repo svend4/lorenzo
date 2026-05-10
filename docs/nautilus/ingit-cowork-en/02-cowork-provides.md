@@ -141,7 +141,7 @@ individual developer or small team.
 
 **Смотрите также:**
 - [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [03-ingit-provides](03-ingit-provides.md)
-- [06-refined-ingit-scope](06-refined-ingit-scope.md)
+- 03-[ingit-provides](03-ingit-provides.md)
+- 06-refined-[ingit-scope](06-refined-ingit-scope.md)
 - [01-cowork-discovery](01-cowork-discovery.md)
 

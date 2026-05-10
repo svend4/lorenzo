@@ -43,5 +43,5 @@ Mermaid
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 - [2-distributed-agent-workshop](../ensembles/2-distributed-agent-workshop.md)
 - [1-agentic-knowledge-os](../ensembles/1-agentic-knowledge-os.md)
-- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
 

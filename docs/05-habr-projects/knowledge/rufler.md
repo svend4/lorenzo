@@ -8,7 +8,7 @@ layer: orchestration
 license: MIT
 maturity: active-oss
 priority: 2
-tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
+tags: rufler, yaml, orchestration, agent-swarm, [claude-code, declarative, mcp, token-accounting]
 ---
 <!-- autofill-status -->
 

@@ -3,6 +3,10 @@
 
 <!-- tags: outreach, communication, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 <!-- summary -->
 > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 

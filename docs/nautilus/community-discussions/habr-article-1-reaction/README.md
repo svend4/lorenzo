@@ -5,4 +5,4 @@
 ## Содержание
 
 - [00-question-habr-link.md](00-question-habr-link.md) — <!-- summary -->
-- [01-claude-response.md](01-claude-response.md) — > [!WARNING]
+- 01-[claude-response.md](01-claude-response.md) — > [!WARNING]

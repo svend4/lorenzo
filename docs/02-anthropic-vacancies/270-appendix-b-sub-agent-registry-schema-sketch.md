@@ -121,6 +121,6 @@ substantial refinement based on actual implementation experience.
 **Кто ссылается на этот документ (4):**
 - [253-table-of-contents](253-table-of-contents.md)
 - [308-table-of-contents](308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [README](README.md)
 

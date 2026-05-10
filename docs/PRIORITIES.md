@@ -13,7 +13,7 @@
 - [Топ-5 по каждому разделу](#топ-5-по-каждому-разделу)
   - [01-initial-analysis](#01-initial-analysis)
   - [01-svyazi](#01-svyazi)
-  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - 02-[anthropic-vacancies](#02-anthropic-vacancies)
   - [02-reanalysis](#02-reanalysis)
   - [03-integral-final](#03-integral-final)
   - [03-technology-combinations](#03-technology-combinations)

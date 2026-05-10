@@ -8,6 +8,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Источник:** Хабр + GitHub citeturn21view4turn17search0turn18search2
 **Проекты:** Svyazi, MemNet
 

@@ -59,7 +59,7 @@
 - слой — не память, не RAG[^rag] и не оркестр **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], [LiteParse](../docs/01-svyazi/01-executive-sum  
   _→ 08-conclusions_
 
-- слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где [CardIndex](../docs/01-svyazi/01-executive-su  
+- слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правильная сборка**: где CardIndex/01-executive-su  
   _→ 08-conclusions_
 
 - Svyazi + AgentFS + NGT^ngt/Yodoca + LiteParse: это даёт уже полезный MVP. > 🏷️ **Ключевые слова:** `summary`, `svyazi`, `executive`, `проект`, `выводы`, `collaborations`, `first`, `cardindex` > <!--  
@@ -172,7 +172,7 @@ _...ещё 41 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude](contacts/anastasiyaw.md)  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### Контакт: AnastasiyaW / [knowledge-space, mclaude](contacts/anastasiyaw.md)  
   _→ OUTLINE_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
@@ -202,7 +202,7 @@ _...ещё 41 записей в этой категории_
 - положите все четыре файла в репо (PORTAL-PROTOCOL.md в корень, README.md заменяет текущий, три passport'а в папку passports/). Commit с сообщением вида docs: initial v1.0-draft documentation layer . Т  
   _→ 69-section_
 
-- [Рекомендуется создать документы](CONTENT_GAPS.md#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](CONTENT_GAPS.md#детали-по-топ-20-пробелам) - [`LiteParse` (105 файлов)](CONTENT_GAPS.md) - [`BSL` (75 файлов)](CONTENT_GAPS.md)  
+- [Рекомендуется создать документы](CONTENT_GAPS.md#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](CONTENT_GAPS.md#детали-по-топ-20-пробелам) - `[LiteParse` (105 файлов)](CONTENT_GAPS.md) - [`BSL` (75 файлов)](CONTENT_GAPS.md)  
   _→ CONTENT_GAPS_
 
 - создать документы | Концепция | Упоминаний | Рекомендуемая папка | |-----------|-----------|-------------------| | `LiteParse` | 105 | `docs/obsidian/` | | `BSL` | 75 | `docs/obsidian/` | | `NPP` | 6  

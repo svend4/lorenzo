@@ -3,12 +3,12 @@ template: project-component
 version: "1.0"
 author: "VitaliySemenov"
 author_handle: "@moshael"
-projects: ["agent-memory-mcp", "Memory OS"]
+projects: "agent-memory-[mcp", "Memory OS"]
 layer: memory
 license: unspecified
 maturity: working-oss
 priority: 2
-tags: [memory, mcp, typed-memory, sqlite, agent, bi-temporal]
+tags: memory, mcp, typed-memory, [sqlite, agent, bi-temporal]
 ---
 <!-- autofill-status -->
 

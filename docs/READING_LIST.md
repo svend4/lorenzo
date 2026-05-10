@@ -6,18 +6,18 @@
 - [Contents](#contents)
 - [Contents](#contents-1)
 - [По секциям](#по-секциям)
-  - [01-svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
+  - 01-[svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
   - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
 ## Contents
 
 - [Contents](#contents)
 - [По секциям](#по-секциям)
-  - [01-svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
+  - 01-[svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
   - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
 ## Contents
 
 - [По секциям](#по-секциям)
-  - [01-svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
+  - 01-[svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
   - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
 
 

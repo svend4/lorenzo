@@ -11,8 +11,8 @@
 
 - [Глобальный топ-50 слов](#глобальный-топ-50-слов)
 - [Топ-15 слов по разделам](#топ-15-слов-по-разделам)
-  - [01-svyazi (9,780 слов)](#01-svyazi-9780-слов)
-  - [02-anthropic-vacancies (210,677 слов)](#02-anthropic-vacancies-210677-слов)
+  - 01-[svyazi (9,780 слов)](#01-svyazi-9780-слов)
+  - 02-[anthropic-vacancies (210,677 слов)](#02-anthropic-vacancies-210677-слов)
   - [03-technology-combinations (2,418 слов)](#03-technology-combinations-2418-слов)
   - [04-ai-collaborations (21,631 слов)](#04-ai-collaborations-21631-слов)
   - [05-habr-projects (7,085 слов)](#05-habr-projects-7085-слов)

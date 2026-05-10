@@ -105,14 +105,14 @@ or something custom?]
 - [Native Format](57-native-format.md) _25%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _21%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_
 - [Содержание](326-содержание.md) _17%_
 ## Связанные документы
 
 - [Native Format](57-native-format.md) _33%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _29%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _25%_
 - [Compatibility Level](41-compatibility-level.md) _25%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 - [Abstract](04-abstract.md) _21%_

@@ -64,8 +64,8 @@
 ---
 
 **Кто ссылается на этот документ (5):**
-- [35-passports-info1-md](35-passports-info1-md.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [67-о-проекте](67-о-проекте.md)
 - [README](README.md)

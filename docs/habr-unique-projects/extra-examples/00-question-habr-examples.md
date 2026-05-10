@@ -69,7 +69,7 @@ Web durchsucht
 ---
 
 **Смотрите также:**
-- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [02-collaboration-partners](../../05-habr-projects/02-collaboration-partners.md)
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 - [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md)

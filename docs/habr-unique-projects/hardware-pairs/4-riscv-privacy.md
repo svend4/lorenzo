@@ -34,9 +34,9 @@ Mesh из таких узлов — несколько community-nodes в раз
 
 **Смотрите также:**
 - [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
-- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md)
+- 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
-- [03-crdt-local-first-svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+- 03-crdt-local-first-[svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
 
 
 <!-- backlinks -->

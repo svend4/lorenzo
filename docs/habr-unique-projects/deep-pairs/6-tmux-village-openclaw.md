@@ -35,5 +35,5 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
-- [1-llm-gateway](1-llm-gateway.md)
+- 1-[llm-gateway](1-llm-gateway.md)
 

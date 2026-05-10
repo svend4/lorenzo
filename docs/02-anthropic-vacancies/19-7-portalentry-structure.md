@@ -3,7 +3,7 @@
 <!-- toc-auto -->
 ## Contents
 
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
 
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
@@ -76,7 +76,7 @@ class PortalEntry:
 
 **Смотрите также:**
 - [82-7-portalentry-structure](82-7-portalentry-structure.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
 
@@ -87,7 +87,7 @@ class PortalEntry:
 
 **Кто ссылается на этот документ (6):**
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [23-11-security-considerations](23-11-security-considerations.md)
 - [74-abstract](74-abstract.md)

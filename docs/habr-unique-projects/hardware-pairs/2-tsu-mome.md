@@ -35,7 +35,7 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 **Смотрите также:**
 - [02-memnet](../key-findings/02-memnet.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
-- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md)
+- 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 
 

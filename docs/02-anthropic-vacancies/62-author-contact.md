@@ -130,7 +130,7 @@
 - [24-12-versioning-policy](24-12-versioning-policy.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [338-ссылки](338-ссылки.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md)
 - _...ещё 8_
 

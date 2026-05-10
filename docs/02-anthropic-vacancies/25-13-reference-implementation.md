@@ -79,7 +79,7 @@ Reference НЕ является нормативной. Альтернативн
 
 - [0. Status of This Document](05-0-status-of-this-document.md)
 - [0. Status of This Document](75-0-status-of-this-document.md)
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- 10. [QueryResult Structure](22-10-queryresult-structure.md)
 - [11. Relevance Ranking](86-11-relevance-ranking.md)
 - [14. SDK Contract (Informative)](89-14-sdk-contract-informative.md)
 - [15. Glossary of Examples](27-15-glossary-of-examples.md)
@@ -135,7 +135,7 @@ Reference НЕ является нормативной. Альтернативн
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [122-глоссарий](122-глоссарий.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [164-10-appendices](164-10-appendices.md)
 - _...ещё 12_

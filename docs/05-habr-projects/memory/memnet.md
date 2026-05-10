@@ -348,7 +348,7 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 **Смотрите также:**
 - [Yodoca: консолидация и забывание](yodoca.md)
 - [NGT Memory: ассоциативный граф](ngt-memory.md)
-- [agent-memory-mcp + Memory OS](agent-memory-mcp.md)
+- agent-memory-[mcp + Memory OS](agent-memory-mcp.md)
 - [knowledge-space](../knowledge/knowledge-space.md)
 
 

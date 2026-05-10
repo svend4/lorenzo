@@ -6,6 +6,10 @@
 ---
 <!-- tags: architecture, anthropic, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -47,5 +51,5 @@ agents/04_strategic_advisor.md — для общей стратегии
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - [09-federated-platform](09-federated-platform.md)
-- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
+- 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
 

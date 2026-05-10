@@ -226,7 +226,7 @@ in distributed systems, adapted for human-AI hybrid execution.
 
 **Кто ссылается на этот документ (6):**
 - [136-abstract](136-abstract.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 - [144-7-open-questions](144-7-open-questions.md)
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)

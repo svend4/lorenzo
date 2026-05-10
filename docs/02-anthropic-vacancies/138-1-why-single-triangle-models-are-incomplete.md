@@ -165,7 +165,7 @@ such a protocol.
 - [136-abstract](136-abstract.md)
 - [137-table-of-contents](137-table-of-contents.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 - [144-7-open-questions](144-7-open-questions.md)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)

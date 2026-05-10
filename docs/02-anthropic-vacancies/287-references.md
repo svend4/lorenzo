@@ -112,7 +112,7 @@ header of this document.
 **Смотрите также:**
 - [302-ссылки](302-ссылки.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 
 

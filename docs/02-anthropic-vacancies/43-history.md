@@ -6,6 +6,10 @@
 ---
 <!-- tags: memory, anthropic, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -52,10 +56,10 @@
 
 **Кто ссылается на этот документ (10):**
 - [31-content-overview](31-content-overview.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [42-author-contact](42-author-contact.md)
 - [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [47-native-format](47-native-format.md)
 - [53-history](53-history.md)
 - [55-passports-meta-md](55-passports-meta-md.md)

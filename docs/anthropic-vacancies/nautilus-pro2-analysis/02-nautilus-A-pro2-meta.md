@@ -106,7 +106,7 @@ Cascade означает: первая модель делает простую 
 ---
 
 **Смотрите также:**
-- [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
+- 03-[nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 - [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
 - [00-question-two-nautiluses](00-question-two-nautiluses.md)
 - [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)

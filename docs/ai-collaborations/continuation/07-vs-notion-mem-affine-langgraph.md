@@ -49,7 +49,7 @@ LangGraph официально позиционируется как низко�
 
 **Смотрите также:**
 - [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 

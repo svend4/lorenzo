@@ -497,7 +497,7 @@ README — на двух языках минимум. Русский как prim
 **Кто ссылается на этот документ (8):**
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [122-глоссарий](122-глоссарий.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [133-обратная-связь](133-обратная-связь.md)
 - [34-appendix-b-change-log](34-appendix-b-change-log.md)
 - [64-for-the-curious-philosophy](64-for-the-curious-philosophy.md)

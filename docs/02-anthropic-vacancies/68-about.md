@@ -260,7 +260,7 @@ consensus-based validation across repos.
 
 **Кто ссылается на этот документ (10):**
 - [104-appendix-c-references](104-appendix-c-references.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [164-10-appendices](164-10-appendices.md)
 - [23-11-security-considerations](23-11-security-considerations.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)

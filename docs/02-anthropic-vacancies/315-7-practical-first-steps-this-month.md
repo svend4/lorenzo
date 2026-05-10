@@ -172,6 +172,6 @@ work. Most successful infrastructure projects start this way.
 - [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
 - [307-abstract](307-abstract.md)
 - [308-table-of-contents](308-table-of-contents.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - _...ещё 1_
 

@@ -6,5 +6,5 @@
 
 - [00-question-two-nautiluses.md](00-question-two-nautiluses.md) — <!-- summary -->
 - [01-shell-metaphor-two-projections.md](01-shell-metaphor-two-projections.md) — <!-- summary -->
-- [02-nautilus-A-pro2-meta.md](02-nautilus-A-pro2-meta.md) — <!-- summary -->
-- [03-nautilus-B-meta-orchestrator.md](03-nautilus-B-meta-orchestrator.md) — <!-- summary -->
+- 02-[nautilus-A-pro2-meta.md](02-nautilus-A-pro2-meta.md) — <!-- summary -->
+- 03-[nautilus-B-meta-orchestrator.md](03-nautilus-B-meta-orchestrator.md) — <!-- summary -->

@@ -36,7 +36,7 @@ AI-бот для самопознания
 - [2-tsu-mome](../hardware-pairs/2-tsu-mome.md)
 - [01-yodoca](01-yodoca.md)
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
-- [03-pda-llm-as-periphery](03-pda-llm-as-periphery.md)
+- 03-pda-[llm-as-periphery](03-pda-llm-as-periphery.md)
 
 
 <!-- backlinks -->

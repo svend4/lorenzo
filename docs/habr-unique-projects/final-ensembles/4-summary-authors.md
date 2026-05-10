@@ -37,7 +37,7 @@ Teilen
 **Смотрите также:**
 - [1-one-person-one-company](1-one-person-one-company.md)
 - [authors-by-name](../../glossary/authors-by-name.md)
-- [06-svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
+- 06-[svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
 - [3-discovery-research](3-discovery-research.md)
 
 

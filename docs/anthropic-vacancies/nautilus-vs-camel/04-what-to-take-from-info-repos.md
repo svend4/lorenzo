@@ -141,5 +141,5 @@ Marketplace layer (longer term) для economy dimension
 - [02-what-info-repos-contain](02-what-info-repos-contain.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 - [05-what-to-do-right-now](05-what-to-do-right-now.md)
-- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 

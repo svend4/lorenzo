@@ -16,20 +16,20 @@
 - [Contents](#contents)
 - [Contents](#contents-1)
 - [Contents](#contents-2)
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 ## Contents
 
 - [Contents](#contents)
 - [Contents](#contents-1)
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 ## Contents
 
 - [Contents](#contents)
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 ## Contents
@@ -129,7 +129,7 @@ PortalEntry(
 - [19-7-portalentry-structure](19-7-portalentry-structure.md)
 - [81-6-adapter-interface](81-6-adapter-interface.md)
 - [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 
 
 <!-- backlinks -->
@@ -139,7 +139,7 @@ PortalEntry(
 **Кто ссылается на этот документ (7):**
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)

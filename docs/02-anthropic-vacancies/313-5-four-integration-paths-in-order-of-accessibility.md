@@ -215,6 +215,6 @@ defers complex decisions until evidence is available.
 **Кто ссылается на этот документ (4):**
 - [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
 - [308-table-of-contents](308-table-of-contents.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [README](README.md)
 

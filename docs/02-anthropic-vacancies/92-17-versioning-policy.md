@@ -113,7 +113,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 
 **Смотрите также:**
 - [24-12-versioning-policy](24-12-versioning-policy.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [75-0-status-of-this-document](75-0-status-of-this-document.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 
@@ -125,7 +125,7 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 **Кто ссылается на этот документ (9):**
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 - [24-12-versioning-policy](24-12-versioning-policy.md)
 - [42-author-contact](42-author-contact.md)

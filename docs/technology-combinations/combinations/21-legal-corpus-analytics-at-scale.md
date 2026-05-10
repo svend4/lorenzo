@@ -82,7 +82,7 @@ ROI: Data-driven legal strategy, precedent patterns visible
 ---
 
 **Смотрите также:**
-- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [22-russian-international-oss-stack](22-russian-international-oss-stack.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)

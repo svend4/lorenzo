@@ -49,7 +49,7 @@
 **Похожие документы:**
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.27)
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.17)
-- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.10)
+- 123-portal-[mcp-py](123-portal-mcp-py.md) (сходство 0.10)
 
 <!-- backlinks-auto -->
 ## Упоминается в
@@ -97,7 +97,7 @@
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
-- [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
+- 344-системный-промпт-для-[lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
 
 
 <!-- backlinks -->
@@ -106,7 +106,7 @@
 
 **Кто ссылается на этот документ (13):**
 - [12-content-overview](12-content-overview.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)

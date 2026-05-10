@@ -214,7 +214,7 @@ efficiently between levels.
 **Кто ссылается на этот документ (8):**
 - [136-abstract](136-abstract.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [144-7-open-questions](144-7-open-questions.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

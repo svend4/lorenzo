@@ -49,6 +49,6 @@
 **Смотрите также:**
 - [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
 - [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
-- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
 - [04-stronger-paths-outside-anthropic](04-stronger-paths-outside-anthropic.md)
 

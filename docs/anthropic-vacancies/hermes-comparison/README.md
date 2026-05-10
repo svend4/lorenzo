@@ -7,7 +7,7 @@
 - [00-question-what-is-hermes.md](00-question-what-is-hermes.md) — <!-- summary -->
 - [01-similarity-1-composite-skills.md](01-similarity-1-composite-skills.md) — <!-- summary -->
 - [02-similarity-2-persistent-memory.md](02-similarity-2-persistent-memory.md) — <!-- summary -->
-- [03-similarity-3-mcp-support.md](03-similarity-3-mcp-support.md) — <!-- summary -->
+- 03-similarity-3-[mcp-support.md](03-similarity-3-mcp-support.md) — <!-- summary -->
 - [04-similarity-4-multi-platform.md](04-similarity-4-multi-platform.md) — <!-- summary -->
 - [05-similarity-5-self-hosting-privacy.md](05-similarity-5-self-hosting-privacy.md) — <!-- summary -->
 - [06-difference-1-structured-substrate-missing.md](06-difference-1-structured-substrate-missing.md) — <!-- summary -->

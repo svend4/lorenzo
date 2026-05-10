@@ -397,7 +397,7 @@ Specific proposal involving HMP integration
 ---
 
 **Смотрите также:**
-- [02-naming-rationale-lorenzo-medici](02-naming-rationale-lorenzo-medici.md)
+- 02-naming-rationale-[lorenzo-medici](02-naming-rationale-lorenzo-medici.md)
 - [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)

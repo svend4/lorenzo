@@ -74,7 +74,7 @@ shareable AI-collaborative work.
 
 **Похожие документы:**
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.19)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.17)
 - [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md) (сходство 0.16)
 
 
@@ -84,7 +84,7 @@ shareable AI-collaborative work.
 
 **Смотрите также:**
 - [309-1-the-cowork-discovery-and-why-it-changes-everythi](309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [312-4-the-symbiotic-architecture](312-4-the-symbiotic-architecture.md)
 - [308-table-of-contents](308-table-of-contents.md)
 
@@ -138,9 +138,9 @@ shareable AI-collaborative work.
 - [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
 - [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [308-table-of-contents](308-table-of-contents.md)
 - [319-acknowledgments](319-acknowledgments.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - _...ещё 1_
 

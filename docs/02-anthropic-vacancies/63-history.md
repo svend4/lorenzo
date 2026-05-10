@@ -99,7 +99,7 @@
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
 - [Содержание](326-содержание.md) _25%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _21%_
-- [portal-mcp.py](123-portal-mcp-py.md) _21%_
+- portal-[mcp.py](123-portal-mcp-py.md) _21%_
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _21%_
 - [Planned (v0.2.0)](132-planned-v0-2-0.md) _21%_
 - [Содержание](190-содержание.md) _21%_
@@ -109,10 +109,10 @@
 - [Содержание](326-содержание.md) _29%_
 - [Compatibility Level](41-compatibility-level.md) _29%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
-- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- portal-[mcp.py](123-portal-mcp-py.md) _25%_
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
 - [Table of Contents](154-table-of-contents.md) _25%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _25%_
 
 <!-- backlinks -->
 
@@ -120,8 +120,8 @@
 
 **Кто ссылается на этот документ (11):**
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [154-table-of-contents](154-table-of-contents.md)
 - [190-содержание](190-содержание.md)

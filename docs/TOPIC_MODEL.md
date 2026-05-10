@@ -15,7 +15,7 @@
 ## Содержание
 
 - [Тема 1: turn, view, cite (325 документов)](#тема-1-turn-view-cite-325-документов)
-- [Тема 4: cowork, ingit, composite (79 документов)](#тема-4-cowork-ingit-composite-79-документов)
+- Тема 4: cowork, [ingit, composite (79 документов)](#тема-4-cowork-ingit-composite-79-документов)
 - [Тема 2: middle, ensembl, layer (27 документов)](#тема-2-middle-ensembl-layer-27-документов)
 - [Тема 3: агент, совместной, коллеги (26 документов)](#тема-3-агент-совместной-коллеги-26-документов)
 - [Тема 5: compatibility, level, bridges (22 документов)](#тема-5-compatibility-level-bridges-22-документов)

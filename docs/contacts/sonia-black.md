@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "Sonia_Black"
 author_handle: "@Sonia_Black"
-projects: ["Svyazi", "knowledge-space"]
+projects: "Svyazi", "[knowledge-space"]
 platform: GitHub
 status: not_started
 priority: 3

@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+
 
 
 

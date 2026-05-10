@@ -36,7 +36,7 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 
 **Смотрите также:**
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
-- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md)
+- 5-tinyml-[mcp-skills](5-tinyml-mcp-skills.md)
 - [4-riscv-privacy](4-riscv-privacy.md)
 - [01-yodoca](../key-findings/01-yodoca.md)
 

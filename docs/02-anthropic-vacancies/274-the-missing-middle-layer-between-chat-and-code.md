@@ -72,7 +72,7 @@ applied work demonstrated its absence
 
 **Похожие документы:**
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md) (сходство 0.42)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.39)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.39)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md) (сходство 0.38)
 
 
@@ -82,7 +82,7 @@ applied work demonstrated its absence
 
 **Смотрите также:**
 - [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
 

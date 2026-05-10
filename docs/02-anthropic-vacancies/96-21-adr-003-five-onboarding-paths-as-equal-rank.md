@@ -6,6 +6,10 @@
 ---
 <!-- tags: anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -62,7 +66,7 @@
 **Кто ссылается на этот документ (6):**
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
 - [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
 - [README](README.md)

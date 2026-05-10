@@ -2,6 +2,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Индекс тегов: каждый файл помечен тегами по темам автоматически.
 
 <!-- tags: meta, tags, index -->
@@ -11,7 +15,7 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
-- [#anthropic (2 файлов)](#anthropic-2-файлов)
+- #[anthropic (2 файлов)](#anthropic-2-файлов)
 - [#architecture (1 файлов)](#architecture-1-файлов)
 - [#collaboration (2 файлов)](#collaboration-2-файлов)
 - [#ingestion (2 файлов)](#ingestion-2-файлов)
@@ -21,7 +25,7 @@
 ## Contents
 
 - [Contents](#contents)
-- [#anthropic (2 файлов)](#anthropic-2-файлов)
+- #[anthropic (2 файлов)](#anthropic-2-файлов)
 - [#architecture (1 файлов)](#architecture-1-файлов)
 - [#collaboration (2 файлов)](#collaboration-2-файлов)
 - [#ingestion (2 файлов)](#ingestion-2-файлов)
@@ -30,7 +34,7 @@
 - [#roadmap (1 файлов)](#roadmap-1-файлов)
 ## Contents
 
-- [#anthropic (2 файлов)](#anthropic-2-файлов)
+- #[anthropic (2 файлов)](#anthropic-2-файлов)
 - [#architecture (1 файлов)](#architecture-1-файлов)
 - [#collaboration (2 файлов)](#collaboration-2-файлов)
 - [#ingestion (2 файлов)](#ingestion-2-файлов)

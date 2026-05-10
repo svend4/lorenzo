@@ -7,6 +7,10 @@
 ---
 <!-- tags: architecture, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -45,8 +49,8 @@ Router даёт fallback из коробки. Если Opus недоступен
 **Смотрите также:**
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
 - [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
-- [1-llm-gateway](../../habr-unique-projects/deep-pairs/1-llm-gateway.md)
+- 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- 1-[llm-gateway](../../habr-unique-projects/deep-pairs/1-llm-gateway.md)
 
 
 <!-- backlinks -->

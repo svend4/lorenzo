@@ -6,6 +6,10 @@
 ---
 <!-- tags: orchestration, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -50,7 +54,7 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 **Смотрите также:**
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- 05-sourcecraft-cli-[claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
 - [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
 
 

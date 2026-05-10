@@ -3,12 +3,12 @@ template: project-component
 version: "1.0"
 author: "nlaik"
 author_handle: "@nlaik"
-projects: ["research-docs", "LiteParse"]
+projects: "research-docs", "[LiteParse"]
 layer: ingestion
 license: Apache-2.0
 maturity: active-oss
 priority: 2
-tags: [liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, html-report, evidence]
+tags: liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, [html-report, evidence]
 ---
 <!-- autofill-status -->
 

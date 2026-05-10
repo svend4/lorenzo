@@ -109,5 +109,5 @@ Portal SHOULD предоставлять команду валидации:
 - [79-4-passport-passport-md](../../02-anthropic-vacancies/79-4-passport-passport-md.md)
 - [09-4-passport-passport-md](../../02-anthropic-vacancies/09-4-passport-passport-md.md)
 - [03-registry](03-registry.md)
-- [16-mcp-extension](16-mcp-extension.md)
+- 16-[mcp-extension](16-mcp-extension.md)
 

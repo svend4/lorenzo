@@ -356,7 +356,7 @@ _Определения извлечены автоматически из до�
 
 **CardIndex**
 : единственный источник правды о состоянии каждой карточки» — у Андрея это центральный компонент с состояниями pending/processed/error/updated, версионированием, историей хешей  
-  _→ [01-claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
+  _→ 01-[claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
 
 **Case law**
 : - BSG decisions (federal social court)  
@@ -3124,7 +3124,7 @@ _Определения извлечены автоматически из до�
 
 **е: pattern library с contribution bridges**
 : более formalized version того же механизма  
-  _→ [01-claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
+  _→ 01-[claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
 
 **Единый тип карточки**
 : должен хранить и «человека», и «проект», и «эпизод», и «документ», и «слабую гипотезу»  
@@ -3218,7 +3218,7 @@ _Определения извлечены автоматически из до�
 
 **И pro2, и nautilus**
 : вложенная иерархическая координация: один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
-  _→ [03-nautilus-B-meta-orchestrator](anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)_
+  _→ 03-[nautilus-B-meta-orchestrator](anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)_
 
 **И ваш пример с компьютерной игрой**
 : операционализация на детском уровне всего этого комплекса  
@@ -3328,7 +3328,7 @@ _Определения извлечены автоматически из до�
 
 **к π, это заслуживает отдельной публикации**
 : потенциальная эмпирическая закономерность, похожая на golden ratio в optimization  
-  _→ [02-nautilus-A-pro2-meta](anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)_
+  _→ 02-[nautilus-A-pro2-meta](anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)_
 
 **Каждая «камера»**
 : экспертный слой в MoE, вложенный в более общую структуру  
@@ -3617,11 +3617,11 @@ _Определения извлечены автоматически из до�
 
 **Но LangGraph**
 : runtime, а не доменная система  
-  _→ [07-vs-notion-mem-affine-langgraph](ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)_
+  _→ 07-vs-[notion-mem-affine-langgraph](ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)_
 
 **Но Notion AI**
 : прежде всего workspace search + productivity AI  
-  _→ [07-vs-notion-mem-affine-langgraph](ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)_
+  _→ 07-vs-[notion-mem-affine-langgraph](ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)_
 
 **Но есть нюанс: skills в Hermes**
 : generally functional capabilities (web search, code execution, file operations, etc  
@@ -4066,7 +4066,7 @@ _Определения извлечены автоматически из до�
 
 **рхитектуре: трёхфазная methodology review**
 : именно механизм обратной связи  
-  _→ [01-claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
+  _→ 01-[claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
 
 **рёх траекторий, первый публичный артефакт**
 : всё тот же universal-file-storage-mcp, потому что он является технологическим доказательством того, что вы способны довести идею до работающего инструмента  
@@ -4606,7 +4606,7 @@ _Определения извлечены автоматически из до�
 
 **Это не просто похожий паттерн**
 : один и тот же inversion of control: AI делает экзегезу (понимание смысла), детерминированный код делает выкладку (структурирование результата)  
-  _→ [01-claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
+  _→ 01-[claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)_
 
 **Это не просто расширение**
 : второй контур применения, возможно более коммерчески значимый, чем первый  

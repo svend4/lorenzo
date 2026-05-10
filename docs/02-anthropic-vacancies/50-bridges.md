@@ -91,7 +91,7 @@ hamming-переходов от «root» вершин) коррелирует с
 ---
 
 **Кто ссылается на этот документ (6):**
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [47-native-format](47-native-format.md)
 - [51-compatibility-level](51-compatibility-level.md)
 - [57-native-format](57-native-format.md)

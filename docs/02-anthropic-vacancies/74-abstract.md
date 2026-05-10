@@ -106,7 +106,7 @@ fallback-статуса.
 - [2. Terminology](07-2-terminology.md)
 - [2. Terminology](77-2-terminology.md)
 - [3. Принципы консолидации (Фаза C)](109-3-принципы-консолидации-фаза-c.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md)
 - [Abstract](04-abstract.md)
 - [Вакансии Anthropic — Анализ по кластерам](README.md)
 ## Упоминается в
@@ -126,10 +126,10 @@ fallback-статуса.
 - [2. Terminology](77-2-terminology.md) _29%_
 - [2. Terminology](07-2-terminology.md) _25%_
 - [0. Status of This Document](05-0-status-of-this-document.md) _21%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- 3. Registry (`[nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _21%_
 - [README-MCP.md— инструкция по установке](125-readme-mcp-md-инструкция-по-установке.md) _21%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md) _21%_
 
 <!-- backlinks -->
 
@@ -140,6 +140,6 @@ fallback-статуса.
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [README](README.md)
 

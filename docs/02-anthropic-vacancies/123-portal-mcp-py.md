@@ -22,7 +22,7 @@
 <!-- toc -->
 ## Содержание
 
-- [portal-mcp.py](#portal-mcppy)
+- portal-[mcp.py](#portal-mcppy)
 - [Упоминается в](#упоминается-в)
 - [Связанные документы](#связанные-документы)
 
@@ -747,7 +747,7 @@ if __name__ == "__main__":
 
 **Похожие документы:**
 - [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.22)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.21)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md) (сходство 0.21)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md) (сходство 0.17)
 
 
@@ -757,7 +757,7 @@ if __name__ == "__main__":
 
 **Смотрите также:**
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
 - [65-readme-md](65-readme-md.md)
 
@@ -766,8 +766,8 @@ if __name__ == "__main__":
 
 - [11. Security Considerations](23-11-security-considerations.md)
 - [17. Versioning Policy](92-17-versioning-policy.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md)
 - [A Practical Path to Layer B Through Symbiotic Integration](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
 - [Abstract](04-abstract.md)
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
@@ -819,8 +819,8 @@ if __name__ == "__main__":
 - [03-portal-protocol-md](03-portal-protocol-md.md)
 - [04-abstract](04-abstract.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [130-отладка](130-отладка.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [154-table-of-contents](154-table-of-contents.md)

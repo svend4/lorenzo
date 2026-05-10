@@ -33,7 +33,7 @@ Local LLM Wiki поверх раздельной личной/агентной �
 ---
 
 **Смотрите также:**
-- [07-crawl4ai-docling-yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 - [02-related-projects](../analogues/02-related-projects.md)
 - [4-speech-to-text-llm](4-speech-to-text-llm.md)
 - [2-document-rag](../deep-pairs/2-document-rag.md)

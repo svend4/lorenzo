@@ -6,6 +6,10 @@
 ---
 <!-- tags: local-first, architecture, anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -24,7 +28,7 @@ Hermes полностью self-hosted, MIT license, all data stays on your machi
 ---
 
 **Смотрите также:**
-- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md)
+- 03-similarity-3-[mcp-support](03-similarity-3-mcp-support.md)
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)

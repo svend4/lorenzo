@@ -69,7 +69,7 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 
 **Смотрите также:**
 - [Yodoca: консолидация и забывание](yodoca.md)
-- [agent-memory-mcp + Memory OS](agent-memory-mcp.md)
+- agent-memory-[mcp + Memory OS](agent-memory-mcp.md)
 - [MemNet: исследовательская память](memnet.md)
 - [Wikontic: семантический граф](../knowledge/wikontic.md)
 

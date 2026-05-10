@@ -38,5 +38,5 @@
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
-- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md)
+- 03-a2a-vs-[mcp-protocols](03-a2a-vs-mcp-protocols.md)
 

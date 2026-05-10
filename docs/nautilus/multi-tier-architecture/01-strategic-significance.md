@@ -413,5 +413,5 @@ ADR обосновывающие ключевые архитектурные р�
 - [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
 - [01-response](../innovation-transitions/01-response.md)
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
-- [01-claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
+- 01-[claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
 

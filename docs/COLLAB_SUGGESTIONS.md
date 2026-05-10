@@ -144,7 +144,7 @@ Lorenzo / svend4
   - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
   - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
   - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - docs/05-habr-projects/memory/agent-memory-[mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
 
 **Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
 **Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)

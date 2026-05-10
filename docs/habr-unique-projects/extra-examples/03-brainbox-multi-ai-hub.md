@@ -65,7 +65,7 @@ Community knowledge: Zettelkasten + Лумановская иерархия + RA
 
 **Смотрите также:**
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
-- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
-- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- 04-[claude-subagents-patterns](04-claude-subagents-patterns.md)
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
 

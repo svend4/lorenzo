@@ -56,9 +56,9 @@ Cross-domain запросы через event bus
 
 **Смотрите также:**
 - [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
-- [03-crdt-local-first-svyazi-cardindex](03-crdt-local-first-svyazi-cardindex.md)
-- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
+- 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- 03-crdt-local-first-[svyazi-cardindex](03-crdt-local-first-svyazi-cardindex.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
 
 
 <!-- backlinks -->

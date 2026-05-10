@@ -120,9 +120,9 @@ Repo к экосистеме (A–E, см. раздел 12).
 
 **Кто ссылается на этот документ (6):**
 - [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
-- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md)
+- 124-конфигурация-для-[claude-desktop](124-конфигурация-для-claude-desktop.md)
 - [67-о-проекте](67-о-проекте.md)
 - [74-abstract](74-abstract.md)
-- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
 - [README](README.md)
 

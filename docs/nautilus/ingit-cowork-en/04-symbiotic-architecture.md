@@ -154,7 +154,7 @@ state. Cowork memory is convenience, not authority.
 
 **Смотрите также:**
 - [312-4-the-symbiotic-architecture](../../02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
-- [03-ingit-provides](03-ingit-provides.md)
+- 03-[ingit-provides](03-ingit-provides.md)
 - [02-cowork-provides](02-cowork-provides.md)
 - [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 

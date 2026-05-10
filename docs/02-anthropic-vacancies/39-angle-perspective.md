@@ -116,7 +116,7 @@
 
 **Кто ссылается на этот документ (7):**
 - [13-angle-perspective](13-angle-perspective.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [49-angle-perspective](49-angle-perspective.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [57-native-format](57-native-format.md)

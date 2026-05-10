@@ -60,7 +60,7 @@ AutoResearch Карпатого + Q6-роутер + ZINC:
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
 - [02-multiagentnyy-khaos-reshenie-auto-ai-router](02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
 - [3-zinc-hybrid-arch](../../habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- 01-pravilnaya-agentskaya-arkhitektura-[svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
 
 
 <!-- backlinks -->

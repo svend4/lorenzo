@@ -34,7 +34,7 @@ Discovery-loop через voice journal — каждый вечер пять м�
 
 **Смотрите также:**
 - [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md)
-- [5-tinyml-mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
+- 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 - [6-metaphor](6-metaphor.md)
 

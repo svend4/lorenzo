@@ -8,6 +8,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9
 **Проекты:** Svyazi, AI Factory
 

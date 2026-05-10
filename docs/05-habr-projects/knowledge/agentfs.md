@@ -8,7 +8,7 @@ layer: knowledge
 license: MIT
 maturity: working-prototype-v0.1.5
 priority: 1
-tags: [agentfs, obsidian, filesystem, agent, knowledge, persistent-state, security]
+tags: agentfs, [obsidian, filesystem, agent, knowledge, persistent-state, security]
 ---
 <!-- autofill-status -->
 ## Статус

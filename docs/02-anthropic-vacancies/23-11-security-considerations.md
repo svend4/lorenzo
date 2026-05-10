@@ -172,8 +172,8 @@ Implementation MUST различать public и private registries и не
 
 **Смотрите также:**
 - [90-15-security-considerations](90-15-security-considerations.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [88-13-rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 88-13-[rest-api-contract-normative-for-portals](88-13-rest-api-contract-normative-for-portals.md)
 - [19-7-portalentry-structure](19-7-portalentry-structure.md)
 
 <!-- backlinks-auto -->
@@ -205,7 +205,7 @@ Implementation MUST различать public и private registries и не
 ---
 
 **Кто ссылается на этот документ (4):**
-- [123-portal-mcp-py](123-portal-mcp-py.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [90-15-security-considerations](90-15-security-considerations.md)
 - [README](README.md)

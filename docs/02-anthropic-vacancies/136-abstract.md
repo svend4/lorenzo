@@ -148,7 +148,7 @@ unsolved issues.
 **Кто ссылается на этот документ (9):**
 - [137-table-of-contents](137-table-of-contents.md)
 - [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [145-8-call-to-action](145-8-call-to-action.md)

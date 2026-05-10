@@ -14,7 +14,7 @@
 
 - [22. Glossary of Reference Examples](#22-glossary-of-reference-examples)
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
+  - A.1. Minimal `[nautilus.json`](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 - [Описание](#описание)

@@ -32,7 +32,7 @@ https://habr.com/ru/articles/1017200/
 ---
 
 **Смотрите также:**
-- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+- 8-self-aware-[mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 - [02-memnet](02-memnet.md)
 - [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)

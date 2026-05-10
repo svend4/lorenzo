@@ -5,7 +5,7 @@
 
 - [Contents](#contents)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. `describe()` — Required for Level 1+](#62-describe-required-for-level-1)
   - [6.3. `fetch(query)` — Required for Level 2+](#63-fetchquery-required-for-level-2)
   - [6.4. `translate_to(entry, target_repo)` — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
@@ -27,7 +27,7 @@
 - [Contents](#contents-1)
 - [Contents](#contents-2)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
   - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
   - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
@@ -41,7 +41,7 @@
 - [Contents](#contents)
 - [Contents](#contents-1)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
   - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
   - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
@@ -54,7 +54,7 @@
 - [Содержание](#содержание)
 - [Contents](#contents)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
   - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
   - [6.4. translate_to(entry, target_repo) — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
@@ -65,7 +65,7 @@
 ## Contents
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. describe() — Required for Level 1+](#62-describe-required-for-level-1)
   - [6.3. fetch(query) — Required for Level 2+](#63-fetchquery-required-for-level-2)
   - [6.4. `translate_to(entry, target_repo)` — Required for Level 3](#64-translate_toentry-target_repo-required-for-level-3)
@@ -176,15 +176,15 @@ string description концепта entry в терминах target_repo, ил�
 ## Упоминается в
 
 - [10. Query Flow](85-10-query-flow.md)
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- 10. [QueryResult Structure](22-10-queryresult-structure.md)
 - [13. REST API Contract (Normative for Portals)](88-13-rest-api-contract-normative-for-portals.md)
 - [15. Security Considerations](90-15-security-considerations.md)
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md)
+- 3. Registry (`[nautilus.json`)](08-3-registry-nautilus-json.md)
 - [5. Compatibility Levels](17-5-compatibility-levels.md)
 - [5. Compatibility Levels](80-5-compatibility-levels.md)
 - [6. Adapter Interface](81-6-adapter-interface.md)
-- [7. PortalEntry Structure](19-7-portalentry-structure.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md)
 - [8. Q6 Space (Normative)](83-8-q6-space-normative.md)
 - [9. Query Flow](21-9-query-flow.md)
 - [Вакансии Anthropic — Анализ по кластерам](README.md)
@@ -198,21 +198,21 @@ string description концепта entry в терминах target_repo, ил�
 - [6. Adapter Interface](81-6-adapter-interface.md) _48%_
 - [9. Query Flow](21-9-query-flow.md) _33%_
 - [10. Query Flow](85-10-query-flow.md) _25%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _21%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _21%_
+- 3. Registry (`[nautilus.json`)](08-3-registry-nautilus-json.md) _21%_
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _21%_
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md) _21%_
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
 ## Связанные документы
 
 - [6. Adapter Interface](81-6-adapter-interface.md) _53%_
 - [9. Query Flow](21-9-query-flow.md) _33%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _29%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _29%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _29%_
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md) _29%_
 - [10. Query Flow](85-10-query-flow.md) _29%_
-- [3. Registry (`nautilus.json`)](08-3-registry-nautilus-json.md) _25%_
+- 3. Registry (`[nautilus.json`)](08-3-registry-nautilus-json.md) _25%_
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _21%_
-- [7. PortalEntry Structure](19-7-portalentry-structure.md) _21%_
+- 7. [PortalEntry Structure](19-7-portalentry-structure.md) _21%_
 
 <!-- backlinks -->
 

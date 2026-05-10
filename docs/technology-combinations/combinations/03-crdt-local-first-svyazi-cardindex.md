@@ -7,6 +7,10 @@
 ---
 <!-- tags: knowledge, ingestion, local-first, collaboration -->
 
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
+
 
 
 
@@ -52,8 +56,8 @@ Discovery-файл Svyazi (накопление неизвестного) син
 
 **Смотрите также:**
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
-- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
-- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md)
+- 01-pravilnaya-agentskaya-arkhitektura-[svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
 - [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 
 

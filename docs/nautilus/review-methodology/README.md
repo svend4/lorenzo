@@ -12,7 +12,7 @@
 - [05-conditions-of-applicability.md](05-conditions-of-applicability.md) — > [!WARNING]
 - [06-relation-existing-methodologies.md](06-relation-existing-methodologies.md) — > [!WARNING]
 - [07-why-valid-for-ai.md](07-why-valid-for-ai.md) — <!-- summary -->
-- [08-implementation-nautilus.md](08-implementation-nautilus.md) — <!-- summary -->
+- 08-implementation-[nautilus.md](08-implementation-nautilus.md) — <!-- summary -->
 - [09-limitations-open-questions.md](09-limitations-open-questions.md) — > [!WARNING]
 - [10-checklist.md](10-checklist.md) — > [!WARNING]
 - [11-application-plan-current-docs.md](11-application-plan-current-docs.md) — <!-- summary -->

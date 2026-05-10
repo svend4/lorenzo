@@ -85,7 +85,7 @@ Limitation: developer task automation, не community synthesis
 
 **Смотрите также:**
 - [06-level-5-full-network](../phased-deployment/06-level-5-full-network.md)
-- [00-question-lorenzo-codename](00-question-lorenzo-codename.md)
+- 00-question-[lorenzo-codename](00-question-lorenzo-codename.md)
 - [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 - [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 

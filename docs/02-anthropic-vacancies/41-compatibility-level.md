@@ -121,7 +121,7 @@
 
 **Кто ссылается на этот документ (14):**
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [154-table-of-contents](154-table-of-contents.md)
 - [169-table-of-contents](169-table-of-contents.md)

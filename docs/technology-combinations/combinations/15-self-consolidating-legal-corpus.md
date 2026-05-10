@@ -66,8 +66,8 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 **Смотрите также:**
 - [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
-- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
-- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
+- 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 
 
 <!-- backlinks -->

@@ -36,5 +36,5 @@ Daily voice journal — каждый вечер 5 минут устного ра
 - [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 - [2-document-rag](2-document-rag.md)
-- [07-crawl4ai-docling-yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
 

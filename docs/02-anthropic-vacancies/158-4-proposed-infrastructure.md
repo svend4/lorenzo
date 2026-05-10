@@ -263,7 +263,7 @@ Community governance operates:
 ---
 
 **Кто ссылается на этот документ (13):**
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 - [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
 - [144-7-open-questions](144-7-open-questions.md)

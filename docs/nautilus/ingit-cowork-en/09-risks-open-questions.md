@@ -130,7 +130,7 @@ works regardless of any of them.
 
 **Смотрите также:**
 - [317-9-risks-and-open-questions](../../02-anthropic-vacancies/317-9-risks-and-open-questions.md)
-- [08-implications-nautilus-okwf](08-implications-nautilus-okwf.md)
+- 08-implications-[nautilus-okwf](08-implications-nautilus-okwf.md)
 - [10-strategic-positioning](10-strategic-positioning.md)
-- [03-ingit-provides](03-ingit-provides.md)
+- 03-[ingit-provides](03-ingit-provides.md)
 

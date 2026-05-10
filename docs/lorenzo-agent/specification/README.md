@@ -5,9 +5,9 @@
 ## Содержание
 
 - [00-context-fundamental-questions.md](00-context-fundamental-questions.md) — <!-- summary -->
-- [01-q1-what-lorenzo-is.md](01-q1-what-lorenzo-is.md) — <!-- summary -->
-- [02-q2-whom-lorenzo-serves.md](02-q2-whom-lorenzo-serves.md) — <!-- summary -->
-- [03-q3-what-lorenzo-does.md](03-q3-what-lorenzo-does.md) — <!-- summary -->
+- 01-q1-what-[lorenzo-is.md](01-q1-what-lorenzo-is.md) — <!-- summary -->
+- 02-q2-whom-[lorenzo-serves.md](02-q2-whom-lorenzo-serves.md) — <!-- summary -->
+- 03-q3-what-[lorenzo-does.md](03-q3-what-lorenzo-does.md) — <!-- summary -->
 - [04-q4-character.md](04-q4-character.md) — <!-- summary -->
 - [05-q5-authority-limits.md](05-q5-authority-limits.md) — <!-- summary -->
 - [06-q6-accountability.md](06-q6-accountability.md) — <!-- summary -->

@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, rag, knowledge, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -52,7 +56,7 @@ Graph view показывает связи между прецедентами
 
 **Смотрите также:**
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- 04-parsing-s-llm-graph-[rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
 - [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 

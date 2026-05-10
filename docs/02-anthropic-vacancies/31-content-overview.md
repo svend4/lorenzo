@@ -93,7 +93,7 @@
 - [12-content-overview](12-content-overview.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
-- [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
+- 304-[ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 
 
 <!-- backlinks -->

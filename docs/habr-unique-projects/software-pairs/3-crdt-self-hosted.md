@@ -34,7 +34,7 @@ Hierarchical CRDT memory layers — рабочий контекст (быстр�
 
 **Смотрите также:**
 - [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
-- [03-crdt-local-first-svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+- 03-crdt-local-first-[svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
 - [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
 - [6-metaphor](6-metaphor.md)
 

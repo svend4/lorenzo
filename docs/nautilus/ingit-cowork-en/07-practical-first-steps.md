@@ -120,6 +120,6 @@ work. Most successful infrastructure projects start this way.
 **Смотрите также:**
 - [315-7-practical-first-steps-this-month](../../02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
 - [05-four-integration-paths](05-four-integration-paths.md)
-- [06-refined-ingit-scope](06-refined-ingit-scope.md)
+- 06-refined-[ingit-scope](06-refined-ingit-scope.md)
 - [11-practical-recommendations](../infrastructure-layer-b-en/11-practical-recommendations.md)
 

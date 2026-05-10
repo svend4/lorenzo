@@ -116,8 +116,8 @@
 
 ## Подразделы
 
-- [01-svyazi/](01-svyazi/) — Svyazi 2.0 — Архитектура и исследование
-- [02-anthropic-vacancies/](02-anthropic-vacancies/) — Вакансии Anthropic — Анализ по кластерам
+- 01-[svyazi/](01-svyazi/) — Svyazi 2.0 — Архитектура и исследование
+- 02-[anthropic-vacancies/](02-anthropic-vacancies/) — Вакансии Anthropic — Анализ по кластерам
 - [03-technology-combinations/](03-technology-combinations/) — Комбинирование технологий для новых свойств
 - [04-ai-collaborations/](04-ai-collaborations/) — Поиск AI-коллабораций
 - [05-habr-projects/](05-habr-projects/) — Уникальные проекты с Хабра

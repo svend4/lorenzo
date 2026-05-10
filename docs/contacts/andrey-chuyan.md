@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "andrey_chuyan"
 author_handle: "@andrey_chuyan"
-projects: ["Svyazi", "CardIndex"]
+projects: "Svyazi", "[CardIndex"]
 platform: GitHub
 status: not_started
 priority: 3

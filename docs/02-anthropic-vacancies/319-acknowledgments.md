@@ -95,7 +95,7 @@ Methodological: how-to и reflection.
 
 **Похожие документы:**
 - [267-acknowledgments](267-acknowledgments.md) (сходство 0.26)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.25)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.25)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.23)
 
 
@@ -104,7 +104,7 @@ Methodological: how-to и reflection.
 ---
 
 **Смотрите также:**
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [267-acknowledgments](267-acknowledgments.md)
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [355-существующие-документы-dhlab-твой-context](355-существующие-документы-dhlab-твой-context.md)
@@ -160,6 +160,6 @@ Methodological: how-to и reflection.
 - [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
 - [275-why-this-document-exists](275-why-this-document-exists.md)
 - [286-acknowledgments](286-acknowledgments.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - _...ещё 3_
 

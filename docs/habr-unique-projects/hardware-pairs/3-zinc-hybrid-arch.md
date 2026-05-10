@@ -34,7 +34,7 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 
 **Смотрите также:**
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
-- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
+- 06-openclaude-utyokshiy-[claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
 - [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
 - [4-riscv-privacy](4-riscv-privacy.md)
 

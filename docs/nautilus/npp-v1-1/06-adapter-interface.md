@@ -6,7 +6,7 @@
 - [Contents](#contents)
 - [Contents](#contents-1)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
@@ -14,14 +14,14 @@
 
 - [Contents](#contents)
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
 ## Contents
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
+  - 6.1. [BaseAdapter Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
@@ -120,5 +120,5 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [81-6-adapter-interface](../../02-anthropic-vacancies/81-6-adapter-interface.md)
 - [18-6-adapter-interface](../../02-anthropic-vacancies/18-6-adapter-interface.md)
 - [07-portal-entry](07-portal-entry.md)
-- [16-mcp-extension](16-mcp-extension.md)
+- 16-[mcp-extension](16-mcp-extension.md)
 

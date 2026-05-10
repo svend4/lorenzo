@@ -154,7 +154,7 @@ https://github.com/camel-ai/camel сравнить этого Агента ну�
 
 **Смотрите также:**
 - [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
-- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 - [12-minuses-of-hermes](12-minuses-of-hermes.md)
 - [10-strategic-positioning](../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
 

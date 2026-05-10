@@ -5,7 +5,7 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
-- [10. QueryResult Structure](#10-queryresult-structure)
+- 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -14,7 +14,7 @@
 ## Contents
 
 - [Contents](#contents)
-- [10. QueryResult Structure](#10-queryresult-structure)
+- 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -22,7 +22,7 @@
 - [Связанные документы](#связанные-документы-1)
 ## Contents
 
-- [10. QueryResult Structure](#10-queryresult-structure)
+- 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -99,7 +99,7 @@ category (сначала full, затем partial, затем singular).
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md)
 - [6. Adapter Interface](18-6-adapter-interface.md)
 - [6. Adapter Interface](81-6-adapter-interface.md)
-- [7. PortalEntry Structure](82-7-portalentry-structure.md)
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md)
 - [8. Consensus Algorithm](20-8-consensus-algorithm.md)
 - [9. Query Flow](21-9-query-flow.md)
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md)
@@ -143,7 +143,7 @@ category (сначала full, затем partial, затем singular).
 **Кто ссылается на этот документ (11):**
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [18-6-adapter-interface](18-6-adapter-interface.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)

@@ -97,6 +97,6 @@ human-readable описание: что хранит, какая философ�
 - [61-compatibility-level](61-compatibility-level.md)
 - [67-о-проекте](67-о-проекте.md)
 - [74-abstract](74-abstract.md)
-- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+- 91-16-[mcp-extension-informative](91-16-mcp-extension-informative.md)
 - [README](README.md)
 

@@ -810,7 +810,7 @@ markdown
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
 - [122-глоссарий](122-глоссарий.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
 - [72-расписание-фазы-3](72-расписание-фазы-3.md)
 - _...ещё 1_

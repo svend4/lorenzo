@@ -227,6 +227,6 @@ implementable starting next week.
 - [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
-- [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
+- 304-[ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - _...ещё 5_
 

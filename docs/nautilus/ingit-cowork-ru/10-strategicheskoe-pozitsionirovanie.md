@@ -190,7 +190,7 @@ InGit папкой) немедленно
 
 **Смотрите также:**
 - [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
-- [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- 08-implikatsii-[nautilus-okwf](08-implikatsii-nautilus-okwf.md)
 - [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 - [09-riski-voprosy](09-riski-voprosy.md)
 

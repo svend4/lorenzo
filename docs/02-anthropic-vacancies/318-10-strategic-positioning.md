@@ -194,6 +194,6 @@ Either way, the material exists.
 - [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - [307-abstract](307-abstract.md)
 - [319-acknowledgments](319-acknowledgments.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [README](README.md)
 

@@ -99,7 +99,7 @@
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
 - [4. Passport (`passport.md`)](09-4-passport-passport-md.md) _25%_
 - [Appendix A: Minimal Working Example](98-appendix-a-minimal-working-example.md) _25%_
-- [portal-mcp.py](123-portal-mcp-py.md) _21%_
+- portal-[mcp.py](123-portal-mcp-py.md) _21%_
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _21%_
 - [Table of Contents](154-table-of-contents.md) _21%_
 
@@ -110,8 +110,8 @@
 **Кто ссылается на этот документ (17):**
 - [04-abstract](04-abstract.md)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [131-ограничения-текущей-версии-0-1-0-draft](131-ограничения-текущей-версии-0-1-0-draft.md)
 - [154-table-of-contents](154-table-of-contents.md)
 - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)

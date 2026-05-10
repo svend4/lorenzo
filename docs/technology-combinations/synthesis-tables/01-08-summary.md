@@ -60,7 +60,7 @@
 ---
 
 **Смотрите также:**
-- [08-conductor-adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md)
+- 08-conductor-[adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md)
 - [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [15-19-extended](15-19-extended.md)

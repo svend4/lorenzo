@@ -36,10 +36,10 @@
 ---
 
 **Смотрите также:**
-- [06-svyazi-2-0-block-map](06-svyazi-2-0-block-map.md)
+- 06-[svyazi-2-0-block-map](06-svyazi-2-0-block-map.md)
 - [04-dochkina-sequential](04-dochkina-sequential.md)
 - [02-related-projects](../analogues/02-related-projects.md)
-- [5-tinyml-mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
+- 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
 
 
 <!-- backlinks -->

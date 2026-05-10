@@ -108,7 +108,7 @@
 - [211-table-of-contents](211-table-of-contents.md)
 - [253-table-of-contents](253-table-of-contents.md)
 - [307-abstract](307-abstract.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [326-содержание](326-содержание.md)
 - _...ещё 2_
 

@@ -90,7 +90,7 @@ native-формат репозитория в унифицированное п�
 - [Planned (v0.2.0)](132-planned-v0-2-0.md)
 - [README.md](65-readme-md.md)
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
-- [portal-mcp.py](123-portal-mcp-py.md)
+- portal-[mcp.py](123-portal-mcp-py.md)
 - [Вакансии Anthropic — Анализ по кластерам](README.md)
 - [Инвертированный индекс ключевых слов](../KEYWORD_INDEX.md)
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md)
@@ -103,7 +103,7 @@ native-формат репозитория в унифицированное п�
 <!-- related-auto -->
 ## Связанные документы
 
-- [portal-mcp.py](123-portal-mcp-py.md) _37%_
+- portal-[mcp.py](123-portal-mcp-py.md) _37%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _37%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
@@ -114,7 +114,7 @@ native-формат репозитория в унифицированное п�
 ## Связанные документы
 
 - [Abstract](74-abstract.md) _42%_
-- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- portal-[mcp.py](123-portal-mcp-py.md) _33%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _33%_
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _33%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _33%_
@@ -130,9 +130,9 @@ native-формат репозитория в унифицированное п�
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [164-10-appendices](164-10-appendices.md)
 - _...ещё 11_

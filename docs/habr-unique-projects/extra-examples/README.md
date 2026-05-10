@@ -5,10 +5,10 @@
 ## Содержание
 
 - [00-question-habr-examples.md](00-question-habr-examples.md) — <!-- summary -->
-- [01-svyazi-andrey-chuyan.md](01-svyazi-andrey-chuyan.md) — <!-- summary -->
+- 01-[svyazi-andrey-chuyan.md](01-svyazi-andrey-chuyan.md) — <!-- summary -->
 - [02-vshe-scientific-networking.md](02-vshe-scientific-networking.md) — <!-- summary -->
 - [03-brainbox-multi-ai-hub.md](03-brainbox-multi-ai-hub.md) — <!-- summary -->
-- [04-claude-subagents-patterns.md](04-claude-subagents-patterns.md) — <!-- summary -->
+- 04-[claude-subagents-patterns.md](04-claude-subagents-patterns.md) — <!-- summary -->
 - [05-hw-nl2workflow.md](05-hw-nl2workflow.md) — <!-- summary -->
 - [06-platform-for-professional-communities.md](06-platform-for-professional-communities.md) — <!-- summary -->
 - [07-specialized-knowledge-workspace.md](07-specialized-knowledge-workspace.md) — <!-- summary -->

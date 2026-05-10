@@ -209,6 +209,6 @@ works regardless of any of them.
 **Кто ссылается на этот документ (4):**
 - [145-8-call-to-action](145-8-call-to-action.md)
 - [319-acknowledgments](319-acknowledgments.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- 323-appendix-c-sample-[ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - [README](README.md)
 

@@ -6,6 +6,10 @@
 ---
 <!-- tags: collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -52,9 +56,9 @@
 - [12-content-overview](12-content-overview.md)
 - [13-angle-perspective](13-angle-perspective.md)
 - [31-content-overview](31-content-overview.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [39-angle-perspective](39-angle-perspective.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [49-angle-perspective](49-angle-perspective.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - _...ещё 2_

@@ -64,5 +64,5 @@ Option C: Help write specific document или code prototype prepared для CAM
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
 - [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
-- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 

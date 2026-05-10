@@ -10,7 +10,7 @@
 - [04-structuring.md](04-structuring.md) — > [!TIP]
 - [05-analysis.md](05-analysis.md) — <!-- summary -->
 - [06-search.md](06-search.md) — > [!IMPORTANT]
-- [07-llm.md](07-llm.md) — <!-- summary -->
+- 07-[llm.md](07-llm.md) — <!-- summary -->
 - [08-export.md](08-export.md) — <!-- summary -->
 - [09-automation.md](09-automation.md) — > [!WARNING]
 - [10-future.md](10-future.md) — <!-- summary -->

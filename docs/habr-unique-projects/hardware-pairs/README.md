@@ -8,6 +8,6 @@
 - [2-tsu-mome.md](2-tsu-mome.md) — <!-- summary -->
 - [3-zinc-hybrid-arch.md](3-zinc-hybrid-arch.md) — <!-- summary -->
 - [4-riscv-privacy.md](4-riscv-privacy.md) — <!-- summary -->
-- [5-tinyml-mcp-skills.md](5-tinyml-mcp-skills.md) — <!-- summary -->
+- 5-tinyml-[mcp-skills.md](5-tinyml-mcp-skills.md) — <!-- summary -->
 - [6-bonus-rram-memristor.md](6-bonus-rram-memristor.md) — <!-- summary -->
 - [7-metaphor.md](7-metaphor.md) — <!-- summary -->

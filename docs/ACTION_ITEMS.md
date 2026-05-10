@@ -626,7 +626,7 @@ _(324 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - потому что это не выложено в открытый доступ в чате в персональном в личном чате использованного для безопасной компании безопасной нейросети ничего н  
   _→ 01-интегральный-анализ-профиля-svend4_
-- токена определяется слабейшим звеном во всей цепочке (устройство, клавиатура, сеть, Anthropic edge, Anthropic logs, [GitHub](../docs/01-svyazi/03-comp  
+- токена определяется слабейшим звеном во всей цепочке (устройство, клавиатура, сеть, Anthropic edge, Anthropic logs, GitHub/03-comp  
   _→ 01-интегральный-анализ-профиля-svend4_
 - полагаться на это. Отзовите руками немедленно.  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -1633,7 +1633,7 @@ _(13 дублей скрыто)_
   _→ 69-section_
 - единый сводный IMPLEMENTATION_REVIEW.md взамен четырёх частей — более структурир  
   _→ 69-section_
-- `adapters/<format>.py`, наследуясь от `[BaseAdapter](../docs/02-anthropic-vacanc  
+- `adapters/<format>.py`, наследуясь от `BaseAdapter-vacanc  
   _→ 87-12-onboarding-paths-normative_
 - `passports/<format>.md`  
   _→ 87-12-onboarding-paths-normative_
@@ -1691,7 +1691,7 @@ _(13 дублей скрыто)_
   _→ 12-onboarding-paths_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
-- `adapters/<format>.py`, наследуясь от `[[01-интегральный-анализ-профиля-svend4|B  
+- `adapters/<format>.py`, наследуясь от `[01-интегральный-анализ-профиля-[svend4|B  
   _→ 87-12-onboarding-paths-normative_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [119. Шаблоны]  
   _→ QUESTIONS_

@@ -4,7 +4,7 @@
 ## Содержание
 
 - [Contents](#contents)
-- [3. Registry (`nautilus.json`)](#3-registry-nautilusjson)
+- 3. Registry (`[nautilus.json`)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -21,7 +21,7 @@
 - [Contents](#contents)
 - [Contents](#contents-1)
 - [Contents](#contents-2)
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -32,7 +32,7 @@
 - [Содержание](#содержание)
 - [Contents](#contents)
 - [Contents](#contents-1)
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -42,7 +42,7 @@
 
 - [Содержание](#содержание)
 - [Contents](#contents)
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)
@@ -50,7 +50,7 @@
   - [3.5. Validation Rules](#35-validation-rules)
 ## Contents
 
-- [3. Registry (nautilus.json)](#3-registry-nautilusjson)
+- 3. Registry (nautilus.[json)](#3-registry-nautilusjson)
   - [3.1. Purpose](#31-purpose)
   - [3.2. Schema](#32-schema)
   - [3.3. Required Fields](#33-required-fields)

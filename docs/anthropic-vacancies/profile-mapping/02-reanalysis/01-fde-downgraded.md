@@ -27,7 +27,7 @@
 
 **Смотрите также:**
 - [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
-- [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
+- 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
 - [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
 - [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md)
 

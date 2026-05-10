@@ -123,7 +123,7 @@
 **Похожие документы:**
 - [268-references](268-references.md) (сходство 0.12)
 - [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.12)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -147,7 +147,7 @@
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)
 - [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
-- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - [320-references](320-references.md)
 - [338-ссылки](338-ссылки.md)
 - _...ещё 3_

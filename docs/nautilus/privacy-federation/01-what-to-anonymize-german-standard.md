@@ -67,5 +67,5 @@
 - [00-question-anonymization](00-question-anonymization.md)
 - [07-difference-2-domain-specialization](../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
 - [02-two-tier-publication](02-two-tier-publication.md)
-- [03-similarity-3-mcp-support](../../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+- 03-similarity-3-[mcp-support](../../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
 

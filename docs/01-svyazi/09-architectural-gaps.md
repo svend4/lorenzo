@@ -91,5 +91,5 @@
 **Кто ссылается на этот документ (3):**
 - [13-contacts](13-contacts.md)
 - [README](README.md)
-- [366-технический-stack-svyazi-2-0-foundation](../02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
+- 366-технический-stack-[svyazi-2-0-foundation](../02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
 

@@ -78,7 +78,7 @@ ROI: Prevents errors from inconsistent legal implementations
 
 **Смотрите также:**
 - [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
-- [27-hybrid-rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
+- 27-hybrid-[rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
 - [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
 - [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
 

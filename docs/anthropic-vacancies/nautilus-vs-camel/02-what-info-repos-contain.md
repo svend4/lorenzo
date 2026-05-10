@@ -237,5 +237,5 @@ Marketplace layer (inspired by info40) для discovery and economy
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [13-reprioritization](../hermes-comparison/13-reprioritization.md)
 - [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
-- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- 08-implications-[nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 

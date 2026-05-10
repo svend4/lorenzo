@@ -36,8 +36,8 @@ Patent filing на 6 патентабельных изобретений. DPMA (
 ---
 
 **Смотрите также:**
-- [04-non-anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
-- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- 04-non-[anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md)
+- 03-revised-[anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
 - [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)
 - [03-partial-fit-honesty](03-partial-fit-honesty.md)
 

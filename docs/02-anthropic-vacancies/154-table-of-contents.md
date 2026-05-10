@@ -76,7 +76,7 @@
 - [Table of Contents](169-table-of-contents.md) _29%_
 - [Compatibility Level](41-compatibility-level.md) _29%_
 - [For the Curious: Philosophy](44-for-the-curious-philosophy.md) _29%_
-- [portal-mcp.py](123-portal-mcp-py.md) _25%_
+- portal-[mcp.py](123-portal-mcp-py.md) _25%_
 - [Подключение к Claude Desktop](127-подключение-к-claude-desktop.md) _25%_
 - [For the Curious: Philosophy](54-for-the-curious-philosophy.md) _25%_
 ## Связанные документы
@@ -95,7 +95,7 @@
 ---
 
 **Кто ссылается на этот документ (18):**
-- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- 127-подключение-к-[claude-desktop](127-подключение-к-claude-desktop.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [137-table-of-contents](137-table-of-contents.md)
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)

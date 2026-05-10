@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, rag, security, ingestion, architecture, roadmap, collaboration -->
 
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+
 
 
 

@@ -6,6 +6,10 @@
 ---
 <!-- tags: collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -50,8 +54,8 @@ implementations.
 
 **Кто ссылается на этот документ (8):**
 - [25-13-reference-implementation](25-13-reference-implementation.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [49-angle-perspective](49-angle-perspective.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [59-angle-perspective](59-angle-perspective.md)

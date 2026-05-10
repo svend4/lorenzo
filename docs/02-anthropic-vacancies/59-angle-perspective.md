@@ -116,9 +116,9 @@ evolution».
 
 **Кто ссылается на этот документ (7):**
 - [13-angle-perspective](13-angle-perspective.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [39-angle-perspective](39-angle-perspective.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [49-angle-perspective](49-angle-perspective.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [README](README.md)

@@ -70,7 +70,7 @@ local control, free substrate plus Cowork subscription.
 - [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - [307-abstract](307-abstract.md)
 - [308-table-of-contents](308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [326-содержание](326-содержание.md)
 - [README](README.md)
 

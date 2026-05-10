@@ -14,8 +14,8 @@
 <!-- toc -->
 ## Содержание
 
-- [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
-- [`docs/02-anthropic-vacancies/69-section.md` (1 задач)](#docs02-anthropic-vacancies69-sectionmd-1-задач)
+- `docs/02-[anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
+- `docs/02-[anthropic-vacancies/69-section.md` (1 задач)](#docs02-anthropic-vacancies69-sectionmd-1-задач)
 - [`docs/FAQ.md` (1 задач)](#docsfaqmd-1-задач)
 - [`docs/MISSING.md` (1 задач)](#docsmissingmd-1-задач)
 - [`docs/PROTOTYPE_SPEC.md` (16 задач)](#docsprototype_specmd-16-задач)
@@ -39,8 +39,8 @@
 - [`docs/contacts/zodigancode.md` (4 задач)](#docscontactszodigancodemd-4-задач)
 - [`docs/meta-scripting/01-concept.md` (1 задач)](#docsmeta-scripting01-conceptmd-1-задач)
 - [`docs/nautilus/review-methodology/10-checklist.md` (18 задач)](#docsnautilusreview-methodology10-checklistmd-18-задач)
-- [`docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docsobsidian02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
-- [`docs/obsidian/02-anthropic-vacancies/69-section.md` (1 задач)](#docsobsidian02-anthropic-vacancies69-sectionmd-1-задач)
+- `docs/obsidian/02-[anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docsobsidian02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)
+- `docs/obsidian/02-[anthropic-vacancies/69-section.md` (1 задач)](#docsobsidian02-anthropic-vacancies69-sectionmd-1-задач)
 - [`docs/obsidian/FAQ.md` (1 задач)](#docsobsidianfaqmd-1-задач)
 - [`docs/obsidian/MISSING.md` (1 задач)](#docsobsidianmissingmd-1-задач)
 - [`docs/obsidian/QUESTIONS.md` (3 задач)](#docsobsidianquestionsmd-3-задач)

@@ -137,9 +137,9 @@
 - [04-abstract](04-abstract.md)
 - [05-0-status-of-this-document](05-0-status-of-this-document.md)
 - [105-review-methodology-md](105-review-methodology-md.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - _...ещё 13_
 

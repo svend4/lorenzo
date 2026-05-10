@@ -9,7 +9,7 @@
 - [02-section-2-beneficial-dimension.md](02-section-2-beneficial-dimension.md) — <!-- summary -->
 - [03-section-3-solution-architecture.md](03-section-3-solution-architecture.md) — <!-- summary -->
 - [04-section-4-sgb-pilot.md](04-section-4-sgb-pilot.md) — <!-- summary -->
-- [05-section-5-role-of-anthropic.md](05-section-5-role-of-anthropic.md) — > [!TIP]
+- 05-section-5-role-of-[anthropic.md](05-section-5-role-of-anthropic.md) — > [!TIP]
 - [06-section-6-proposer-role.md](06-section-6-proposer-role.md) — <!-- summary -->
 - [07-section-7-success-metrics.md](07-section-7-success-metrics.md) — <!-- summary -->
 - [08-section-8-risks-mitigations.md](08-section-8-risks-mitigations.md) — <!-- summary -->

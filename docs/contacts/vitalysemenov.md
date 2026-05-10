@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "VitaliySemenov"
 author_handle: "@moshael"
-projects: ["agent-memory-mcp", "Memory OS"]
+projects: "agent-memory-[mcp", "Memory OS"]
 platform: GitHub
 status: not_started
 priority: 2

@@ -20,10 +20,10 @@
 - [10-query-flow.md](10-query-flow.md) — <!-- summary -->
 - [11-relevance-ranking.md](11-relevance-ranking.md) — <!-- summary -->
 - [12-onboarding-paths.md](12-onboarding-paths.md) — <!-- summary -->
-- [13-rest-api.md](13-rest-api.md) — > [!IMPORTANT]
+- 13-[rest-api.md](13-rest-api.md) — > [!IMPORTANT]
 - [14-sdk.md](14-sdk.md) — <!-- summary -->
 - [15-security.md](15-security.md) — <!-- summary -->
-- [16-mcp-extension.md](16-mcp-extension.md) — <!-- summary -->
+- 16-[mcp-extension.md](16-mcp-extension.md) — <!-- summary -->
 - [17-versioning-policy.md](17-versioning-policy.md) — > [!IMPORTANT]
 - [18-reference-implementation.md](18-reference-implementation.md) — <!-- summary -->
 - [19-adr-001-federation-over-merging.md](19-adr-001-federation-over-merging.md) — <!-- summary -->

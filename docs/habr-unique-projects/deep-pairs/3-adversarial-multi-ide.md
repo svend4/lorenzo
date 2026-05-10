@@ -33,7 +33,7 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 
 **Смотрите также:**
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
-- [8-self-aware-mcp-specs](8-self-aware-mcp-specs.md)
+- 8-self-aware-[mcp-specs](8-self-aware-mcp-specs.md)
 - [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
 - [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
 

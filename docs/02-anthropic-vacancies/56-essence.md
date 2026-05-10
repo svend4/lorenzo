@@ -6,6 +6,10 @@
 ---
 <!-- tags: collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -55,9 +59,9 @@ CA-правил, через классы Вольфрама, через аттр
 ---
 
 **Кто ссылается на этот документ (6):**
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [39-angle-perspective](39-angle-perspective.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [55-passports-meta-md](55-passports-meta-md.md)
 - [59-angle-perspective](59-angle-perspective.md)
 - [README](README.md)

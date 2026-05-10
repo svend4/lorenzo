@@ -49,9 +49,9 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 
 **Смотрите также:**
 - [03-local-first](../../03-technology-combinations/03-local-first.md)
-- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
+- 07-crawl4ai-docling-[yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
 - [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
-- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- 01-pravilnaya-agentskaya-arkhitektura-[svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
 
 
 <!-- backlinks -->

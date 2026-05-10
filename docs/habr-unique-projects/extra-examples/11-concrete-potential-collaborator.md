@@ -53,6 +53,6 @@ Open discussion of how community-matching patterns scale до vulnerable populat
 **Смотрите также:**
 - [12-concrete-next-step](12-concrete-next-step.md)
 - [09-federated-platform](09-federated-platform.md)
-- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- 01-[svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
 - [08-section-8-risks-mitigations](../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
 

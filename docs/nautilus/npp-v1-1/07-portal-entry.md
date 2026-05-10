@@ -5,18 +5,18 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 ## Contents
 
 - [Contents](#contents)
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 ## Contents
 
-- [7. PortalEntry Structure](#7-portalentry-structure)
+- 7. [PortalEntry Structure](#7-portalentry-structure)
   - [7.1. Field Semantics](#71-field-semantics)
   - [7.2. Q6 Metadata](#72-q6-metadata)
 

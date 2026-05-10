@@ -114,7 +114,7 @@
 ---
 
 **Похожие документы:**
-- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md) (сходство 0.23)
+- 124-конфигурация-для-[claude-desktop](124-конфигурация-для-claude-desktop.md) (сходство 0.23)
 - [130-отладка](130-отладка.md) (сходство 0.15)
 
 
@@ -123,10 +123,10 @@
 ---
 
 **Смотрите также:**
-- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md)
+- 124-конфигурация-для-[claude-desktop](124-конфигурация-для-claude-desktop.md)
 - [130-отладка](130-отладка.md)
 - [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 
 <!-- backlinks-auto -->
 ## Упоминается в
@@ -134,7 +134,7 @@
 - [History](63-history.md)
 - [Planned (v0.2.0)](132-planned-v0-2-0.md)
 - [README.md](65-readme-md.md)
-- [portal-mcp.py](123-portal-mcp-py.md)
+- portal-[mcp.py](123-portal-mcp-py.md)
 - [Вакансии Anthropic — Анализ по кластерам](README.md)
 - [Конфигурация для Claude Desktop](124-конфигурация-для-claude-desktop.md)
 - [Отладка](130-отладка.md)
@@ -146,7 +146,7 @@
 <!-- related-auto -->
 ## Связанные документы
 
-- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- portal-[mcp.py](123-portal-mcp-py.md) _33%_
 - [Compatibility Level](41-compatibility-level.md) _29%_
 - [Table of Contents](154-table-of-contents.md) _25%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
@@ -156,12 +156,12 @@
 - [Отладка](130-отладка.md) _21%_
 ## Связанные документы
 
-- [portal-mcp.py](123-portal-mcp-py.md) _33%_
+- portal-[mcp.py](123-portal-mcp-py.md) _33%_
 - [Abstract](04-abstract.md) _25%_
 - [Конфигурация для Claude Desktop](124-конфигурация-для-claude-desktop.md) _25%_
 - [Отладка](130-отладка.md) _25%_
 - [Содержание](190-содержание.md) _25%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _25%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _25%_
 - [Содержание](326-содержание.md) _25%_
 
@@ -172,9 +172,9 @@
 **Кто ссылается на этот документ (15):**
 - [04-abstract](04-abstract.md)
 - [09-4-passport-passport-md](09-4-passport-passport-md.md)
-- [123-portal-mcp-py](123-portal-mcp-py.md)
-- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md)
-- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- 123-portal-[mcp-py](123-portal-mcp-py.md)
+- 124-конфигурация-для-[claude-desktop](124-конфигурация-для-claude-desktop.md)
+- 125-readme-[mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
 - [130-отладка](130-отладка.md)
 - [132-planned-v0-2-0](132-planned-v0-2-0.md)
 - [154-table-of-contents](154-table-of-contents.md)

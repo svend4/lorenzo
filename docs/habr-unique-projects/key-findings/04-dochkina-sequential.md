@@ -34,7 +34,7 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 
 **Смотрите также:**
 - [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
-- [5-tinyml-mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
+- 5-tinyml-[mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
 - [02-memnet](02-memnet.md)
 - [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
 

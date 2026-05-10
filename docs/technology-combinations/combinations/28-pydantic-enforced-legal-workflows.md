@@ -76,7 +76,7 @@ ROI: Type-safe legal automation, catches errors before human review
 
 **Смотрите также:**
 - [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
-- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- 18-[llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 - [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
 - [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
 

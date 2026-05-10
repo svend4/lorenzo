@@ -114,7 +114,7 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ## Упоминается в
 
 - [10. Query Flow](85-10-query-flow.md)
-- [10. QueryResult Structure](22-10-queryresult-structure.md)
+- 10. [QueryResult Structure](22-10-queryresult-structure.md)
 - [15. Security Considerations](90-15-security-considerations.md)
 - [6. Adapter Interface](18-6-adapter-interface.md)
 - [6. Adapter Interface](81-6-adapter-interface.md)
@@ -131,17 +131,17 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 - [10. Query Flow](85-10-query-flow.md) _66%_
 - [6. Adapter Interface](18-6-adapter-interface.md) _33%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _29%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _25%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _25%_
 - [9. Consensus Algorithm](84-9-consensus-algorithm.md) _21%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _17%_
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md) _17%_
 - [11. Relevance Ranking](86-11-relevance-ranking.md) _17%_
 ## Связанные документы
 
 - [10. Query Flow](85-10-query-flow.md) _66%_
 - [6. Adapter Interface](18-6-adapter-interface.md) _33%_
-- [10. QueryResult Structure](22-10-queryresult-structure.md) _33%_
+- 10. [QueryResult Structure](22-10-queryresult-structure.md) _33%_
 - [6. Adapter Interface](81-6-adapter-interface.md) _25%_
-- [7. PortalEntry Structure](82-7-portalentry-structure.md) _21%_
+- 7. [PortalEntry Structure](82-7-portalentry-structure.md) _21%_
 - [9. Consensus Algorithm](84-9-consensus-algorithm.md) _21%_
 - [5. Compatibility Levels](17-5-compatibility-levels.md) _17%_
 - [Appendix A: Minimal Working Example](28-appendix-a-minimal-working-example.md) _17%_

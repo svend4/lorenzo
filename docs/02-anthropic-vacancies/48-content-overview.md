@@ -6,6 +6,10 @@
 ---
 <!-- tags: self-improvement, collaboration -->
 
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
+
 
 
 
@@ -63,9 +67,9 @@ training logs, benchmarks]
 - [12-content-overview](12-content-overview.md)
 - [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)
-- [35-passports-info1-md](35-passports-info1-md.md)
+- 35-passports-[info1-md](35-passports-info1-md.md)
 - [42-author-contact](42-author-contact.md)
-- [45-passports-pro2-md](45-passports-pro2-md.md)
+- 45-passports-[pro2-md](45-passports-pro2-md.md)
 - [47-native-format](47-native-format.md)
 - _...ещё 6_
 

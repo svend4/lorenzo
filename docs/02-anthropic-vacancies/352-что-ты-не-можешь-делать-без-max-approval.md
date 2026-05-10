@@ -6,6 +6,10 @@
 ---
 <!-- tags: anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
@@ -49,7 +53,7 @@
 - [154-table-of-contents](154-table-of-contents.md)
 - [211-table-of-contents](211-table-of-contents.md)
 - [308-table-of-contents](308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- 321-appendix-a-decision-tree-for-[ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [351-что-ты-можешь-делать](351-что-ты-можешь-делать.md)
 - [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md)
 - _...ещё 3_

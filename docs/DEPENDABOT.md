@@ -22,6 +22,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > python scripts/improve_dependabot.py --generate-config
 **Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
 

@@ -38,6 +38,6 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 **Смотрите также:**
 - [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 - [6-metaphor](../software-pairs/6-metaphor.md)
-- [06-svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
+- 06-[svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 

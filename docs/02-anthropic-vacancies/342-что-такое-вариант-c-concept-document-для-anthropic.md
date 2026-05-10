@@ -1434,7 +1434,7 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 - [165-closing](165-closing.md)
 - [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
 - [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- 343-[lorenzo-catalyst-agent-глубокая-проработка-специфи](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
 - [364-final-note-ты-experiment](364-final-note-ты-experiment.md)
 - [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
 - [README](README.md)

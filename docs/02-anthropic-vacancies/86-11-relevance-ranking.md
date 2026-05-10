@@ -116,7 +116,7 @@ embeddings) могут использоваться, но MUST быть опци
 
 **Кто ссылается на этот документ (7):**
 - [103-appendix-b-change-log](103-appendix-b-change-log.md)
-- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- 141-4-[nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
 - [21-9-query-flow](21-9-query-flow.md)
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - [25-13-reference-implementation](25-13-reference-implementation.md)

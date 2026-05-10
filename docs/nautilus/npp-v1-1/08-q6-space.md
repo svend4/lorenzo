@@ -133,5 +133,5 @@ return list(visited.keys())
 - [83-8-q6-space-normative](../../02-anthropic-vacancies/83-8-q6-space-normative.md)
 - [07-portal-entry](07-portal-entry.md)
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
-- [13-rest-api](13-rest-api.md)
+- 13-[rest-api](13-rest-api.md)
 

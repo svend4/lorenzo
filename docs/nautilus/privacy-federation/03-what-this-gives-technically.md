@@ -141,11 +141,11 @@ json
 "mcpServers": {
 "nautilus-legal-public": {
 "command": "python3",
-"args": ["/path/to/nautilus-legal/legal-portal-mcp.py"]
+"args": "/path/to/nautilus-legal/legal-portal-[mcp.py"]
 },
 "cases-private": {
 "command": "python3",
-"args": ["/path/to/cases-private/private-mcp.py"],
+"args": "/path/to/cases-private/private-[mcp.py"],
 "env": {
 "PRIVATE_ACCESS_TOKEN": "<your token>",
 "ENCRYPTION_KEY": "<your key>"

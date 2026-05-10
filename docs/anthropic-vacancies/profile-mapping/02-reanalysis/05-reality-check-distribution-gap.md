@@ -31,7 +31,7 @@ Du hast gesagt: https://github.
 
 **Смотрите также:**
 - [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
-- [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
+- 03-revised-[anthropic-mapping](03-revised-anthropic-mapping.md)
 - [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
 - [01-fde-downgraded](01-fde-downgraded.md)
 

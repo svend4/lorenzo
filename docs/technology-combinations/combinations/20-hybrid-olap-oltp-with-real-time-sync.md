@@ -72,7 +72,7 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 ---
 
 **Смотрите также:**
-- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md)
+- 11-hybrid-crdt-[sql-database](11-hybrid-crdt-sql-database.md)
 - [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 - [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)

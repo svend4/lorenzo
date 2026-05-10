@@ -3,7 +3,7 @@ template: project-component
 version: "1.0"
 author: "AnastasiyaW"
 author_handle: "@Sonia_Black"
-projects: ["knowledge-space"]
+projects: "[knowledge-space"]
 layer: knowledge
 license: MIT
 maturity: active-oss

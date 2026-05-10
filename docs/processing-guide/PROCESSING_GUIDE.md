@@ -131,7 +131,7 @@
 - [Проблема ручного запуска](#проблема-ручного-запуска)
 - [Ступень 1: Оркестратор — improve_run_all.py](#ступень-1-оркестратор-improve_run_allpy)
 - [Ступень 2: Автономный Watcher — improve_watcher.py](#ступень-2-автономный-watcher-improve_watcherpy)
-- [Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
+- Ступень 3: [GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
 - [Ступень 4: Pre-commit хуки — .pre-commit-config.yaml](#ступень-4-pre-commit-хуки-pre-commit-configyaml)
 - [Ступень 5: Dependabot — .github/dependabot.yml](#ступень-5-dependabot-githubdependabotyml)
 - [Ступень 6: MCP-сервер — mcp_server.py (Claude Desktop)](#ступень-6-mcp-сервер-mcp_serverpy-claude-desktop)

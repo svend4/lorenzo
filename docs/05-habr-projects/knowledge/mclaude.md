@@ -8,7 +8,7 @@ layer: orchestration
 license: MIT
 maturity: active-oss
 priority: 2
-tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
+tags: mclaude, multi-agent, orchestration, [claude-code, locks, handoffs, mailbox, parallel]
 ---
 <!-- autofill-status -->
 

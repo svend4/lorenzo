@@ -5,7 +5,7 @@
 ## Содержание
 
 - [A-collaboration-os.md](A-collaboration-os.md) — <!-- summary -->
-- [B-forensic-rag.md](B-forensic-rag.md) — <!-- summary -->
+- B-forensic-[rag.md](B-forensic-rag.md) — <!-- summary -->
 - [C-multi-agent-factory.md](C-multi-agent-factory.md) — <!-- summary -->
 - [D-voice-first-mesh.md](D-voice-first-mesh.md) — > [!IMPORTANT]
 - [E-execution-plane.md](E-execution-plane.md) — <!-- summary -->
