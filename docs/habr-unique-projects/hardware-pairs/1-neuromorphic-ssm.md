@@ -31,10 +31,10 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 ---
 
 **Смотрите также:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
-- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md)
+- [4-riscv-privacy](4-riscv-privacy.md)
+- [01-yodoca](../key-findings/01-yodoca.md)
 
 
 <!-- backlinks -->
@@ -42,7 +42,7 @@ Spike-driven consolidator — Yodoca-style ночная консолидация
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/hardware-pairs/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

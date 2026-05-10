@@ -62,10 +62,10 @@ ROI: Performance + community support, no vendor lock-in
 ---
 
 **Смотрите также:**
-- [21-legal-corpus-analytics-at-scale](docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md)
-- [27-hybrid-rag-with-ast-chunked-code](docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+- [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
+- [27-hybrid-rag-with-ast-chunked-code](27-hybrid-rag-with-ast-chunked-code.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 
 
 <!-- backlinks -->
@@ -73,7 +73,7 @@ ROI: Performance + community support, no vendor lock-in
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
 

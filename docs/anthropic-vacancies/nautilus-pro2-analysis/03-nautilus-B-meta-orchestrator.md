@@ -124,8 +124,8 @@ Du hast gesagt: https://github.
 ---
 
 **Смотрите также:**
-- [DECISIONS](docs/DECISIONS.md)
-- [02-nautilus-A-pro2-meta](docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)
-- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [DECISIONS](../../DECISIONS.md)
+- [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
+- [02-общий-план-развития-nautilus-portal-protocol](../../02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [00-question-two-nautiluses](00-question-two-nautiluses.md)
 

@@ -43,8 +43,8 @@ AI-assisted development**. Старые правила («избегай дуб�
 ---
 
 **Смотрите также:**
-- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md)
+- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [14-main-technical-risks](14-main-technical-risks.md)
 

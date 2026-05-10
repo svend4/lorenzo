@@ -61,5 +61,5 @@ _Дата: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [weekly-digest](docs/templates/weekly-digest.md)
-- [kpi-snapshot](docs/templates/kpi-snapshot.md)
+- [weekly-digest](weekly-digest.md)
+- [kpi-snapshot](kpi-snapshot.md)

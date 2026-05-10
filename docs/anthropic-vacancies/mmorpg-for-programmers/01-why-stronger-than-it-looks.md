@@ -28,8 +28,8 @@
 ---
 
 **Смотрите также:**
-- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md)
-- [00-question-mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md)
-- [04-pluses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
-- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+- [02-existing-niche](02-existing-niche.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [04-pluses-as-business](04-pluses-as-business.md)
+- [05-minuses-as-business](05-minuses-as-business.md)
 

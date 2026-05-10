@@ -51,10 +51,10 @@ Cross-domain запросы через event bus
 ---
 
 **Смотрите также:**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
-- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+- [01-agent-routing](../../03-technology-combinations/01-agent-routing.md)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [03-crdt-local-first-svyazi-cardindex](03-crdt-local-first-svyazi-cardindex.md)
+- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
 
 
 <!-- backlinks -->
@@ -62,7 +62,7 @@ Cross-domain запросы через event bus
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 

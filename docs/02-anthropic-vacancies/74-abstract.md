@@ -25,10 +25,10 @@ Nautilus Portal Protocol (далее — **NPP**) определяет спос�
 без их принудительного слияния в единую схему. Протокол специфицирует:
 
 1. Минимальный манифест, объявляющий репозиторий участником федерации 
-   (`[nautilus](../docs/05-habr-projects/memory/memnet.md).json`)
+   (`[nautilus](../05-habr-projects/memory/memnet.md).json`)
 2. Формат человекочитаемого описания репозитория (`passport.md`)
-3. Обязательный интерфейс адаптера (`[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`)
-4. Унифицированную структуру данных (`[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`)
+3. Обязательный интерфейс адаптера (`[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)`)
+4. Унифицированную структуру данных (`[PortalEntry](01-интегральный-анализ-профиля-svend4.md)`)
 5. Алгоритм вычисления консенсуса между репозиториями
 6. Пространство координат Q6 для семантической близости
 7. Четыре уровня совместимости для поэтапного подключения
@@ -43,7 +43,7 @@ Nautilus Portal Protocol (далее — **NPP**) определяет спос�
 ходе разработки reference implementation**: Q6-пространство как первоклассный 
 концепт протокола, пять путей онбординга как equivalent-рангованные 
 стратегии, REST API как mandatory для совместимых порталов, поле 
-`is_fallback` в [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), расширенная модель консенсуса с учётом 
+`is_fallback` в [PortalEntry](01-интегральный-анализ-профиля-svend4.md), расширенная модель консенсуса с учётом 
 fallback-статуса.
 
 ---
@@ -105,10 +105,10 @@ fallback-статуса.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [04-abstract](04-abstract.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [README](README.md)
 

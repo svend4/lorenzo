@@ -59,8 +59,8 @@ High failure rate — Metaverse-hype 2021-2022 научил инвесторов
 ---
 
 **Смотрите также:**
-- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
-- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
+- [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md)
+- [04-what-to-do](../ai-managed-virtual-company/04-what-to-do.md)
+- [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 

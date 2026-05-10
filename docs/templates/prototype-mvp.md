@@ -120,16 +120,16 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [experiment-log](docs/templates/experiment-log.md)
-- [mega-stack](docs/templates/mega-stack.md)
+- [ensemble](ensemble.md)
+- [experiment-log](experiment-log.md)
+- [mega-stack](mega-stack.md)
 
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (3):**
-- [REGISTRY](docs/REGISTRY.md)
-- [TASKS_INDEX](docs/TASKS_INDEX.md)
-- [README](docs/templates/README.md)
+- [REGISTRY](../REGISTRY.md)
+- [TASKS_INDEX](../TASKS_INDEX.md)
+- [README](README.md)
 

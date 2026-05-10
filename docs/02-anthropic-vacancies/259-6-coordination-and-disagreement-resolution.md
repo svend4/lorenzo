@@ -217,13 +217,13 @@ practice.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
 - _...ещё 3_
 

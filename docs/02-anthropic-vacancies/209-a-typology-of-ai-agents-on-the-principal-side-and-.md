@@ -100,13 +100,13 @@
 ---
 
 **Кто ссылается на этот документ (17):**
-- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
-- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
-- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
-- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [182-acknowledgments](182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [211-table-of-contents](211-table-of-contents.md)
 - _...ещё 9_
 

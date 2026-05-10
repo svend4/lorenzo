@@ -73,8 +73,8 @@ AI-сотрудничество. Каждый инструмент решал
 ---
 
 **Смотрите также:**
-- [293-почему-это-не-было-построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
-- [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
+- [293-почему-это-не-было-построено](../../02-anthropic-vacancies/293-почему-это-не-было-построено.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
 

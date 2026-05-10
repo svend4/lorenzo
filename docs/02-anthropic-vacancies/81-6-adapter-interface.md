@@ -21,7 +21,7 @@
 ## Contents
 
 - [6. Adapter Interface](#6-adapter-interface)
-  - [6.1. [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract)
+  - [6.1. [BaseAdapter](01-интегральный-анализ-профиля-svend4.md) Contract](#61-baseadapter-contract)
   - [6.2. fetch(query) — Required](#62-fetchquery-required)
   - [6.3. describe() — Required](#63-describe-required)
   - [6.4. Type Safety](#64-type-safety)
@@ -46,7 +46,7 @@
 ### 6.1. BaseAdapter Contract
 
 Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
-от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`:
+от `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)`:
 
 ```python
 from abc import ABC, abstractmethod
@@ -68,7 +68,7 @@ class BaseAdapter(ABC):
 
 ### 6.2. `fetch(query)` — Required
 
-Accepts string query, returns list of `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
+Accepts string query, returns list of `[PortalEntry](01-интегральный-анализ-профиля-svend4.md)`.
 
 Implementation MUST:
 
@@ -115,9 +115,9 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Похожие документы:**
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.51)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md) (сходство 0.12)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.12)
+- [18-6-adapter-interface](18-6-adapter-interface.md) (сходство 0.51)
+- [85-10-query-flow](85-10-query-flow.md) (сходство 0.12)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -125,10 +125,10 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Смотрите также:**
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
 
 
 <!-- backlinks -->
@@ -136,11 +136,11 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Кто ссылается на этот документ (7):**
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [README](README.md)
 

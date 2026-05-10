@@ -115,8 +115,8 @@ dignified issues
 ---
 
 **Смотрите также:**
-- [160-6-governance-and-ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+- [160-6-governance-and-ethics](../../02-anthropic-vacancies/160-6-governance-and-ethics.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [10-appendices](10-appendices.md)
 

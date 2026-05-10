@@ -73,8 +73,8 @@ Hypothes.is для аннотаций существует; мог бы
 ---
 
 **Смотрите также:**
-- [297-что-промышленность-вероятно-построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+- [297-что-промышленность-вероятно-построит](../../02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
+- [05-priblizheniya](05-priblizheniya.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 

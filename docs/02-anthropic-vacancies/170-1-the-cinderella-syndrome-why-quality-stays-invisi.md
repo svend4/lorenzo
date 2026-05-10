@@ -110,7 +110,7 @@ real-world consequences:
 
 - A retired electrical engineer with 40 years of microwave 
   experience never contributes to open hardware projects 
-  because they cannot navigate [GitHub](../docs/01-svyazi/03-component-catalog.md) culture
+  because they cannot navigate [GitHub](../01-svyazi/03-component-catalog.md) culture
 - A disabled mathematician with novel insights never publishes 
   because the conference travel system excludes them
 - A domain expert in an underrepresented region with deep 
@@ -194,11 +194,11 @@ Layer.
 ---
 
 **Кто ссылается на этот документ (7):**
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [168-abstract](168-abstract.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [181-12-closing](181-12-closing.md)
+- [README](README.md)
 

@@ -65,8 +65,8 @@ infrastructure that does not exist as a unified product.
 ---
 
 **Смотрите также:**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
-- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](../../02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
 

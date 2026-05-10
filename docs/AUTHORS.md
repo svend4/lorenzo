@@ -35,8 +35,8 @@
 ---
 
 **Смотрите также:**
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [LINKS](docs/LINKS.md)
-- [CONTACTS](docs/CONTACTS.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [LINKS](LINKS.md)
+- [CONTACTS](CONTACTS.md)
 

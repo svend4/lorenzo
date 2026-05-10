@@ -27,10 +27,10 @@
 ---
 
 **Смотрите также:**
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
-- [card-envelope](docs/svyazi-2-0/architecture/card-envelope.md)
-- [evidence-envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
-- [memory-write-policy](docs/svyazi-2-0/architecture/memory-write-policy.md)
+- [integration-spec](integration-spec.md)
+- [card-envelope](card-envelope.md)
+- [evidence-envelope](evidence-envelope.md)
+- [memory-write-policy](memory-write-policy.md)
 
 
 <!-- backlinks -->
@@ -38,7 +38,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/architecture/README.md)
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [integration-spec](integration-spec.md)
 

@@ -44,8 +44,8 @@ Claude hat geantwortet: Переписанная версия вашего во�
 ---
 
 **Смотрите также:**
-- [01-why-stronger-than-it-looks](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [03-why-natural-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
-- [02-existing-niche](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [00-question-rephrasing](../ai-managed-virtual-company/00-question-rephrasing.md)
+- [03-why-natural-for-programmers](03-why-natural-for-programmers.md)
+- [02-existing-niche](02-existing-niche.md)
 

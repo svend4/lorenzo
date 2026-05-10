@@ -81,4 +81,4 @@ _Создано: 2026-04-29_
 
 **Смотрите также:**
 - [RISK_REGISTER.md](../RISK_REGISTER.md)
-- [decision-record](docs/templates/decision-record.md)
+- [decision-record](decision-record.md)

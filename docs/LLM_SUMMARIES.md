@@ -96,7 +96,7 @@ _Без ключа — автоматическое резюме на основ
 ---
 
 **Кто ссылается на этот документ (3):**
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 

@@ -114,9 +114,9 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Похожие документы:**
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
-- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.12)
+- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.14)
+- [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.12)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -124,10 +124,10 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Смотрите также:**
-- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [313-5-four-integration-paths-in-order-of-accessibility](313-5-four-integration-paths-in-order-of-accessibility.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
 
 
 <!-- backlinks -->
@@ -135,13 +135,13 @@ work. Most successful infrastructure projects start this way.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
-- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [307-abstract](307-abstract.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - _...ещё 1_
 

@@ -22,8 +22,8 @@ Du hast gesagt: Ещё есть такие вопросы то есть если
 ---
 
 **Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 

@@ -101,13 +101,13 @@ contributed structure and reference work.
 ---
 
 **Кто ссылается на этот документ (17):**
-- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
 - _...ещё 9_
 

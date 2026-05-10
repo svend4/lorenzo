@@ -85,13 +85,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (9):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [70-зачем-две-версии-параллельно](70-зачем-две-версии-параллельно.md)
 - _...ещё 1_
 

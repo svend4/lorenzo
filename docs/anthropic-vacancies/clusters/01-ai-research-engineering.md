@@ -18,8 +18,8 @@
 ---
 
 **Смотрите также:**
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
-- [08-safeguards-trust-safety](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
+- [12-technical-program-management](12-technical-program-management.md)
+- [13-communications](13-communications.md)
+- [15-public-benefit](15-public-benefit.md)
+- [08-safeguards-trust-safety](08-safeguards-trust-safety.md)
 

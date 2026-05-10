@@ -97,13 +97,13 @@
 ---
 
 **Кто ссылается на этот документ (16):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
-- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [182-acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
-- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [153-executive-summary](153-executive-summary.md)
+- [182-acknowledgments](182-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
 - _...ещё 8_
 

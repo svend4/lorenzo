@@ -32,10 +32,10 @@
 ---
 
 **Смотрите также:**
-- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
-- [04-dochkina-sequential](docs/habr-unique-projects/key-findings/04-dochkina-sequential.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
+- [06-svyazi-2-0-block-map](06-svyazi-2-0-block-map.md)
+- [04-dochkina-sequential](04-dochkina-sequential.md)
+- [02-related-projects](../analogues/02-related-projects.md)
+- [5-tinyml-mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
 
 
 <!-- backlinks -->
@@ -43,7 +43,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/habr-unique-projects/key-findings/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

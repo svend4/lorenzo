@@ -36,7 +36,7 @@ For the seven-document Nautilus / OKWF project specifically,
 practical next steps:
 
 **Step 1 — Commit documents to repository.** All seven 
-documents should be saved to `[nautilus](../docs/05-habr-projects/memory/memnet.md)/docs/` as Markdown 
+documents should be saved to `[nautilus](../05-habr-projects/memory/memnet.md)/docs/` as Markdown 
 files. This creates stable reference artifacts.
 
 **Step 2 — Create README that links them.** A top-level 
@@ -44,7 +44,7 @@ README explains the relationships between documents, in what
 order to read them, what each addresses. This serves as 
 poor-man's cross-reference index.
 
-**Step 3 — Open [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions.** Enable Discussions on 
+**Step 3 — Open [GitHub](../01-svyazi/03-component-catalog.md) Discussions.** Enable Discussions on 
 the Nautilus repository. Create initial categories: 
 Architecture, Implementation, Pilots, Theory, Community. 
 This provides threaded discussion infrastructure.
@@ -145,13 +145,13 @@ The friction will be lower than no infrastructure at all.
 ---
 
 **Кто ссылается на этот документ (12):**
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [164-10-appendices](164-10-appendices.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
 - _...ещё 4_
 

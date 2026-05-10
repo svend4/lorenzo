@@ -29,8 +29,8 @@ Mehr anzeigen
 ---
 
 **Смотрите также:**
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [00-question-multiple-mentors](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+- [150-appendix-c-version-history](../../02-anthropic-vacancies/150-appendix-c-version-history.md)
+- [00-question-supply-demand](../supply-demand/00-question-supply-demand.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-multiple-mentors](../composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
 

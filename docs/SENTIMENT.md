@@ -77,8 +77,8 @@
 ---
 
 **Смотрите также:**
-- [STATS](docs/STATS.md)
-- [HEALTH](docs/HEALTH.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [STATS](STATS.md)
+- [HEALTH](HEALTH.md)
+- [WORD_FREQ](WORD_FREQ.md)
+- [12-appendix-a-header-warning](nautilus/review-methodology/12-appendix-a-header-warning.md)
 

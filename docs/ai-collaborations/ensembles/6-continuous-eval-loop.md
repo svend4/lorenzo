@@ -49,8 +49,8 @@ Svyazi Self-Improver — карточки с низким качеством ext
 ---
 
 **Смотрите также:**
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
 

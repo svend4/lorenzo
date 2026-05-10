@@ -6,8 +6,8 @@
 ## Contents
 
 - [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
-  - [pro2 ↔ meta](#[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
+  - [pro2 ↔ info1](#pro2-[info1](01-интегральный-анализ-профиля-svend4.md))
+  - [pro2 ↔ meta](#[pro2](01-интегральный-анализ-профиля-svend4.md)-meta)
 
 
 <!-- summary -->
@@ -24,7 +24,7 @@
 ### `pro2 ↔ info1`
 **Q6-concept-depth ↔ α-level**. Глубина концепта в Q6-графе (число 
 hamming-переходов от «root» вершин) коррелирует с α-уровнем в 
-`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact correspondence]
+`[info1](01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact correspondence]
 
 ### `pro2 ↔ meta`
 **Q6-vertex ↔ hexagram**. Это **прямой, формальный мост** (один из 
@@ -46,8 +46,8 @@ hamming-переходов от «root» вершин) коррелирует с
 ---
 
 **Похожие документы:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.21)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.20)
+- [60-bridges](60-bridges.md) (сходство 0.21)
+- [40-bridges](40-bridges.md) (сходство 0.20)
 
 
 <!-- see-also -->
@@ -55,10 +55,10 @@ hamming-переходов от «root» вершин) коррелирует с
 ---
 
 **Смотрите также:**
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [60-bridges](60-bridges.md)
+- [40-bridges](40-bridges.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [57-native-format](57-native-format.md)
 
 
 <!-- backlinks -->
@@ -66,10 +66,10 @@ hamming-переходов от «root» вершин) коррелирует с
 ---
 
 **Кто ссылается на этот документ (6):**
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [47-native-format](47-native-format.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
 

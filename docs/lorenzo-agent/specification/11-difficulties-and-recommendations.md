@@ -353,8 +353,8 @@ Choice 2 если хотите thorough thinking before commitment. Choice 4 е�
 ---
 
 **Смотрите также:**
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](../../02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [10-strategic-positioning](../../nautilus/ingit-cowork-en/10-strategic-positioning.md)
 

@@ -85,7 +85,7 @@ SHOULD НЕ включаться в публичную registry.
 
 Для приватных Repos RECOMMENDED:
 
-- Отдельный `private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с explicit opt-in
+- Отдельный `private-[nautilus](../05-habr-projects/memory/memnet.md).json` с explicit opt-in
 - Отдельный portal instance, не доступный публично
 - Authentication на REST API (JWT / API keys)
 - Нет MCP exposure без whitelist
@@ -166,8 +166,8 @@ supply-chain риск.
 ---
 
 **Кто ссылается на этот документ (4):**
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [README](README.md)
 

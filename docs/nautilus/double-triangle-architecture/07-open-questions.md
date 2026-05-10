@@ -155,8 +155,8 @@ requires research.
 ---
 
 **Смотрите также:**
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [144-7-open-questions](../../02-anthropic-vacancies/144-7-open-questions.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- [08-call-to-action](08-call-to-action.md)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 

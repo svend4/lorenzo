@@ -135,8 +135,8 @@ Charted specialized domains for discovering innovative projects
 ---
 
 **Смотрите также:**
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
 

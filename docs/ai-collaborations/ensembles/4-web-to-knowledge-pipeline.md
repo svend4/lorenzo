@@ -45,8 +45,8 @@ Court/Regulation Watcher — отслеживание судебных сайт�
 ---
 
 **Смотрите также:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 

@@ -189,13 +189,13 @@ support to skilled professions.
 ---
 
 **Кто ссылается на этот документ (16):**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [252-abstract](252-abstract.md)
 - _...ещё 8_
 

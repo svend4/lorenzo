@@ -22,8 +22,8 @@ Cowork также имеет persistent memory, но Hermes идёт дальш�
 ---
 
 **Смотрите также:**
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 

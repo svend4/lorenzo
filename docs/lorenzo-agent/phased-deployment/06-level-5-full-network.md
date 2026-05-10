@@ -40,8 +40,8 @@ Foundation status для DHLab
 ---
 
 **Смотрите также:**
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
-- [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [05-level-4-extended-mature](05-level-4-extended-mature.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
+- [07-progression-logic](07-progression-logic.md)
 

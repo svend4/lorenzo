@@ -225,9 +225,9 @@ answer = llm.complete(f"На основе контекста:\n{context}\n\nВо
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -235,8 +235,8 @@ answer = llm.complete(f"На основе контекста:\n{context}\n\nВо
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [06-search](docs/processing-guide/06-search.md)
-- [10-future](docs/processing-guide/10-future.md)
-- [03-chunking](docs/processing-guide/03-chunking.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [06-search](06-search.md)
+- [10-future](10-future.md)
+- [03-chunking](03-chunking.md)
 

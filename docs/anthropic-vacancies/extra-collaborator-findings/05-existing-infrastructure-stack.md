@@ -42,8 +42,8 @@ Domain applications
 ---
 
 **Смотрите также:**
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [06-final-tier-ranking](06-final-tier-ranking.md)
+- [03-section-3-solution-architecture](../beneficial-deployments-concept/03-section-3-solution-architecture.md)
+- [04-similarity-4-multi-platform](../hermes-comparison/04-similarity-4-multi-platform.md)
+- [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
 

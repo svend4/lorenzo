@@ -149,9 +149,9 @@ Foundation will not:
 ---
 
 **Похожие документы:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.14)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.11)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.11)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.14)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.11)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -159,10 +159,10 @@ Foundation will not:
 ---
 
 **Смотрите также:**
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [164-10-appendices](164-10-appendices.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
 
 
 <!-- backlinks -->
@@ -170,7 +170,7 @@ Foundation will not:
 ---
 
 **Кто ссылается на этот документ (3):**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [README](README.md)
 

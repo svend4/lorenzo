@@ -28,8 +28,8 @@
 ---
 
 **Смотрите также:**
-- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md)
-- [02-methodology](docs/01-svyazi/02-methodology.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [message-template](docs/svyazi-2-0/outreach/message-template.md)
+- [02-методика-и-рамка-отбора](../../04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [02-methodology](../../01-svyazi/02-methodology.md)
+- [executive-summary](executive-summary.md)
+- [message-template](../outreach/message-template.md)
 

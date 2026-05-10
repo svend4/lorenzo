@@ -68,7 +68,7 @@ develop both, compare them, and choose. Currently this would
 require manual maintenance of two versions.
 
 **Promotion to repository.** The seven documents should be 
-committed to [GitHub](../docs/01-svyazi/03-component-catalog.md). This is straightforward — copy, commit, 
+committed to [GitHub](../01-svyazi/03-component-catalog.md). This is straightforward — copy, commit, 
 push. But the discussion that produced them, the alternatives 
 considered, the reasoning chains — all of that lives only in 
 chat. The repository will have artifacts without provenance.
@@ -83,28 +83,28 @@ conversation_search (limited).
 
 Given the gap, what can we realistically do now?
 
-**Option 1 — Commit and walk away.** Save documents to [GitHub](../docs/01-svyazi/03-component-catalog.md). 
+**Option 1 — Commit and walk away.** Save documents to [GitHub](../01-svyazi/03-component-catalog.md). 
 Treat them as static reference artifacts. Future development 
 happens in fresh sessions with documents as context. 
 Limitations: cross-references break, no annotation, no 
 threading, but no maintenance overhead.
 
-**Option 2 — Commit plus [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions.** Save documents 
-to [GitHub](../docs/01-svyazi/03-component-catalog.md). Open GitHub Discussions for the repository. Use 
+**Option 2 — Commit plus [GitHub](../01-svyazi/03-component-catalog.md) Discussions.** Save documents 
+to [GitHub](../01-svyazi/03-component-catalog.md). Open GitHub Discussions for the repository. Use 
 Discussions for threaded conversations about specific aspects. 
 Limitations: cultural mismatch, AI collaboration is external 
 to Discussions, but threading works.
 
-**Option 3 — Hybrid with Projects.** Save documents to [GitHub](../docs/01-svyazi/03-component-catalog.md). 
+**Option 3 — Hybrid with Projects.** Save documents to [GitHub](../01-svyazi/03-component-catalog.md). 
 Create Anthropic Project for Nautilus / OKWF work. Use 
 Project for AI-assisted development of new aspects. Use 
-[GitHub](../docs/01-svyazi/03-component-catalog.md) for stable artifacts. Use Discussions for community 
+[GitHub](../01-svyazi/03-component-catalog.md) for stable artifacts. Use Discussions for community 
 input. Limitations: fragmentation, but each tool used for 
 its strengths.
 
 **Option 4 — Custom lightweight setup.** For technical users 
 willing to self-host, deploy Discourse or similar threaded 
-forum. Connect to [GitHub](../docs/01-svyazi/03-component-catalog.md) via integrations. Use Anthropic API 
+forum. Connect to [GitHub](../01-svyazi/03-component-catalog.md) via integrations. Use Anthropic API 
 for AI collaboration via custom interface. Limitations: 
 maintenance burden, but more aligned to actual workflow.
 
@@ -178,13 +178,13 @@ infrastructure.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
 - _...ещё 1_
 

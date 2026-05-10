@@ -32,8 +32,8 @@ Claude hat geantwortet: Отличный, осмысленный подход.
 ---
 
 **Смотрите также:**
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
-- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
-- [01-what-to-anonymize-german-standard](docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md)
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+- [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+- [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
+- [00-question-two-nautiluses](../../anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
 

@@ -142,9 +142,9 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Похожие документы:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.18)
-- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.18)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.18)
+- [221-10-open-questions](221-10-open-questions.md) (сходство 0.18)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -152,10 +152,10 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Смотрите также:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-- [221-10-open-questions](docs/02-anthropic-vacancies/221-10-open-questions.md)
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [221-10-open-questions](221-10-open-questions.md)
 
 
 <!-- backlinks -->
@@ -163,13 +163,13 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Кто ссылается на этот документ (10):**
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
+- [261-8-seven-domains-of-application](261-8-seven-domains-of-application.md)
 - _...ещё 2_
 

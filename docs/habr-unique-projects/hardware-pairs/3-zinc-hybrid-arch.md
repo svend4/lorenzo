@@ -29,10 +29,10 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 ---
 
 **Смотрите также:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
+- [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
+- [4-riscv-privacy](4-riscv-privacy.md)
 
 
 <!-- backlinks -->
@@ -40,8 +40,8 @@ Autonomous Research Box — связка из ZINC + AutoResearch-loop Карп�
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/hardware-pairs/README.md)
-- [README](docs/nautilus/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [README](../../nautilus/README.md)
 

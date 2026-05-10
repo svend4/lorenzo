@@ -33,10 +33,10 @@ Agent‑first референсная база: 785+ карточек по 26 д�
 ---
 
 **Смотрите также:**
-- [mclaude](docs/svyazi-2-0/components/mclaude.md)
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [memnet](docs/svyazi-2-0/components/memnet.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+- [mclaude](mclaude.md)
+- [rufler](rufler.md)
+- [memnet](memnet.md)
+- [yodoca](yodoca.md)
 
 
 <!-- backlinks -->
@@ -44,7 +44,7 @@ Agent‑first референсная база: 785+ карточек по 26 д�
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

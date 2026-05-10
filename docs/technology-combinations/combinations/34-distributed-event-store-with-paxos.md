@@ -57,10 +57,10 @@ ROI: Legal documents never lost, even with datacenter failure
 ---
 
 **Смотрите также:**
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 
 
 <!-- backlinks -->
@@ -68,7 +68,7 @@ ROI: Legal documents never lost, even with datacenter failure
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
 

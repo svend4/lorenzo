@@ -45,8 +45,8 @@ Research Compression Engine — 10M токенов литературы сжим
 ---
 
 **Смотрите также:**
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
-- [5-agent-firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [02-agentops-trace-envelope](../continuation/02-agentops-trace-envelope.md)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md)
+- [5-agent-firewall](5-agent-firewall.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 

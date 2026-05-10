@@ -28,8 +28,8 @@
 ---
 
 **Смотрите также:**
-- [362-когда-сомневаешься-escalate-к-max](docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [362-когда-сомневаешься-escalate-к-max](../02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [09-voobshche-nelzya](09-voobshche-nelzya.md)
 

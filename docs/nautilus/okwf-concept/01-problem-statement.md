@@ -119,8 +119,8 @@ coordinated action now.
 ---
 
 **Смотрите также:**
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [155-1-problem-statement](../../02-anthropic-vacancies/155-1-problem-statement.md)
+- [02-target-populations](02-target-populations.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md)
 

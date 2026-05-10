@@ -139,13 +139,13 @@ integration does not.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [276-the-two-layer-stack-as-it-exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
+- [168-abstract](168-abstract.md)
+- [266-13-closing](266-13-closing.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [276-the-two-layer-stack-as-it-exists](276-the-two-layer-stack-as-it-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
 - _...ещё 3_
 

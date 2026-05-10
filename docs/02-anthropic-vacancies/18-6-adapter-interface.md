@@ -46,7 +46,7 @@
 ### 6.1. BaseAdapter Contract
 
 Каждый адаптер MUST наследоваться (или иметь эквивалентный интерфейс) 
-от `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`:
+от `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)`:
 
 ```python
 class BaseAdapter:
@@ -84,7 +84,7 @@ Returns dict со следующей обязательной структуро
 
 ### 6.3. `fetch(query)` — Required for Level 2+
 
-Accepts string query, returns list of `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
+Accepts string query, returns list of `[PortalEntry](01-интегральный-анализ-профиля-svend4.md)`.
 
 Implementation MUST:
 
@@ -100,7 +100,7 @@ Implementation SHOULD:
 
 ### 6.4. `translate_to(entry, target_repo)` — Required for Level 3
 
-Accepts `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` и имя target repo из `bridges`. Returns 
+Accepts `[PortalEntry](01-интегральный-анализ-профиля-svend4.md)` и имя target repo из `bridges`. Returns 
 string description концепта entry в терминах target_repo, или 
 `None` если перевод невозможен.
 
@@ -177,9 +177,9 @@ string description концепта entry в терминах target_repo, ил�
 ---
 
 **Кто ссылается на этот документ (5):**
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [README](README.md)
 

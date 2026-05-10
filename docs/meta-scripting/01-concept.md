@@ -106,8 +106,8 @@ CLAUDE.md        →  описания скриптов   →  несоотве�
 ---
 
 **Смотрите также:**
-- [05-synthesis](docs/meta-scripting/05-synthesis.md)
-- [02-architecture](docs/meta-scripting/02-architecture.md)
-- [03-catalog](docs/meta-scripting/03-catalog.md)
-- [10-future](docs/processing-guide/10-future.md)
+- [05-synthesis](05-synthesis.md)
+- [02-architecture](02-architecture.md)
+- [03-catalog](03-catalog.md)
+- [10-future](../processing-guide/10-future.md)
 

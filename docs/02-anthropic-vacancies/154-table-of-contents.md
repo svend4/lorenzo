@@ -91,13 +91,13 @@
 ---
 
 **Кто ссылается на этот документ (18):**
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
 - _...ещё 10_
 

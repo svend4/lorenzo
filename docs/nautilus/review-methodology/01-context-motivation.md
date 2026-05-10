@@ -71,8 +71,8 @@ third agent с явным контекстом обоих) создаёт фин
 ---
 
 **Смотрите также:**
-- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
-- [00-tldr](docs/nautilus/review-methodology/00-tldr.md)
-- [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [00-tldr](00-tldr.md)
+- [09-limitations-open-questions](09-limitations-open-questions.md)
+- [10-checklist](10-checklist.md)
 

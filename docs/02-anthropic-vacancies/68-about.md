@@ -27,7 +27,7 @@
   - [Compatibility Levels](#compatibility-levels)
   - [Documentation](#documentation)
   - [Project Status](#project-status)
-  - [Why "Nautilus"?](#why-[nautilus](../docs/05-habr-projects/memory/memnet.md))
+  - [Why "Nautilus"?](#why-[nautilus](../05-habr-projects/memory/memnet.md))
   - [Related Work](#related-work)
   - [Licenses](#licenses)
   - [Contact](#contact)
@@ -101,7 +101,7 @@ python portal.py --serve
 
 **Minimal (Level 0–1, 5 minutes):**
 
-1. Place `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` in your repo's root:
+1. Place `[nautilus](../05-habr-projects/memory/memnet.md).json` in your repo's root:
 
 ```json
 {
@@ -122,10 +122,10 @@ python portal.py --serve
 **Full (Level 2–3, a few hours):**
 
 3. Add an adapter in `adapters/my_repo.py` implementing the 
-   `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` interface (see 
+   `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)` interface (see 
    [PORTAL-PROTOCOL.md §6](./PORTAL-PROTOCOL.md#6-adapter-interface))
 
-4. Register the repo in the portal's root `[nautilus](../docs/05-habr-projects/memory/memnet.md).json`
+4. Register the repo in the portal's root `[nautilus](../05-habr-projects/memory/memnet.md).json`
 
 ### How It Works
 
@@ -191,7 +191,7 @@ v1.0.0-stable.
 
 ### Why "Nautilus"?
 
-A [nautilus](../docs/05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger 
+A [nautilus](../05-habr-projects/memory/memnet.md) shell is a **spiral of nested chambers**, each larger 
 than the last but built on the same geometry. This is *fractal 
 scaling with preserved proportion*. Nautilus Protocol embodies the 
 same pattern: repos nested inside an ecosystem, each self-contained 
@@ -234,9 +234,9 @@ consensus-based validation across repos.
 ---
 
 **Похожие документы:**
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.17)
-- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.12)
+- [67-о-проекте](67-о-проекте.md) (сходство 0.17)
+- [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.16)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -244,10 +244,10 @@ consensus-based validation across repos.
 ---
 
 **Смотрите также:**
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [67-о-проекте](67-о-проекте.md)
+- [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [164-10-appendices](164-10-appendices.md)
 
 
 <!-- backlinks -->
@@ -255,13 +255,13 @@ consensus-based validation across repos.
 ---
 
 **Кто ссылается на этот документ (10):**
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [164-10-appendices](164-10-appendices.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [42-author-contact](42-author-contact.md)
+- [67-о-проекте](67-о-проекте.md)
 - _...ещё 2_
 

@@ -72,10 +72,10 @@
 ---
 
 **Смотрите также:**
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [32-consensus-based-multi-agent-coordination](../combinations/32-consensus-based-multi-agent-coordination.md)
+- [03-dsl-ast](03-dsl-ast.md)
 
 
 <!-- backlinks -->
@@ -83,7 +83,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [reading-paths](docs/reading-paths.md)
-- [README](docs/technology-combinations/mega-stacks/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
 

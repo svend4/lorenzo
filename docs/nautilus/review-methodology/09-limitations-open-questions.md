@@ -72,8 +72,8 @@ Revert** для публичных-facing docs.
 ---
 
 **Смотрите также:**
-- [115-8-ограничения-и-открытые-вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [107-1-контекст-и-мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [115-8-ограничения-и-открытые-вопросы](../../02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [10-checklist](10-checklist.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
 

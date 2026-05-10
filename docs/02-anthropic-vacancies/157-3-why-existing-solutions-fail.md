@@ -222,9 +222,9 @@ is this integration.
 ---
 
 **Кто ссылается на этот документ (5):**
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [153-executive-summary](153-executive-summary.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [README](README.md)
 

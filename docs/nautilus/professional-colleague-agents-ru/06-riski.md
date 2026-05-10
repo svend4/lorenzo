@@ -306,8 +306,8 @@ HIPAA, GDPR, эквивалентное соответствие.
 ---
 
 **Смотрите также:**
-- [237-6-риски-специфичные-для-этой-категории](docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
-- [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
-- [04-arkhitektura](docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
+- [237-6-риски-специфичные-для-этой-категории](../../02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
+- [04-arkhitektura](04-arkhitektura.md)
 

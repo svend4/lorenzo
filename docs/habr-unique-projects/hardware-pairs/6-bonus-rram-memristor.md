@@ -29,8 +29,8 @@ In-memory computing на мемристорах (RRAM/CBRAM) (habr.com/ru/compan
 ---
 
 **Смотрите также:**
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
-- [2-tsu-mome](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+- [7-metaphor](7-metaphor.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+- [6-metaphor](../software-pairs/6-metaphor.md)
+- [2-tsu-mome](2-tsu-mome.md)
 

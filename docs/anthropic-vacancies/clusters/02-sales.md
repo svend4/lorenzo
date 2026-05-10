@@ -18,10 +18,10 @@
 ---
 
 **Смотрите также:**
-- [signals](docs/anthropic-vacancies/signals.md)
-- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
-- [05-marketing-brand](docs/anthropic-vacancies/clusters/05-marketing-brand.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+- [signals](../signals.md)
+- [14-public-policy](14-public-policy.md)
+- [05-marketing-brand](05-marketing-brand.md)
+- [09-product-management-support-ops](09-product-management-support-ops.md)
 
 
 <!-- backlinks -->
@@ -29,8 +29,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [README](docs/anthropic-vacancies/clusters/README.md)
-- [overview](docs/anthropic-vacancies/overview.md)
-- [signals](docs/anthropic-vacancies/signals.md)
-- [concepts](docs/glossary/concepts.md)
+- [README](README.md)
+- [overview](../overview.md)
+- [signals](../signals.md)
+- [concepts](../../glossary/concepts.md)
 

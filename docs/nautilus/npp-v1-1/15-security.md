@@ -70,8 +70,8 @@ supply-chain риск.
 ---
 
 **Смотрите также:**
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [11-security-considerations](docs/nautilus/npp-v1-0/11-security-considerations.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+- [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md)
+- [11-security-considerations](../npp-v1-0/11-security-considerations.md)
+- [23-11-security-considerations](../../02-anthropic-vacancies/23-11-security-considerations.md)
+- [06-adapter-interface](06-adapter-interface.md)
 

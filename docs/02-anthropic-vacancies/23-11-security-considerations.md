@@ -59,7 +59,7 @@ Portal SHOULD НЕ выполнять adapters из untrusted sources без rev
 
 Repos, содержащие чувствительные данные, SHOULD НЕ включаться в 
 публичную registry. Для приватных Repos RECOMMENDED отдельный 
-`private-[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с явным opt-in.
+`private-[nautilus](../05-habr-projects/memory/memnet.md).json` с явным opt-in.
 
 Implementation MUST различать public и private registries и не 
 смешивать результаты без явного запроса.
@@ -121,8 +121,8 @@ Implementation MUST различать public и private registries и не
 ---
 
 **Кто ссылается на этот документ (4):**
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [README](README.md)
 

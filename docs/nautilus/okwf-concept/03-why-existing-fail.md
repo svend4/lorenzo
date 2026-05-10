@@ -169,8 +169,8 @@ is this integration.
 ---
 
 **Смотрите также:**
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
-- [02-target-populations](docs/nautilus/okwf-concept/02-target-populations.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [157-3-why-existing-solutions-fail](../../02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [02-target-populations](02-target-populations.md)
+- [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
 

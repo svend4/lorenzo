@@ -59,8 +59,8 @@ memory_fact: "review_required"
 ---
 
 **Смотрите также:**
-- [07-vs-notion-mem-affine-langgraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+- [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
 

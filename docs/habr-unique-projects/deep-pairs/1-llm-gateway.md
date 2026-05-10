@@ -29,8 +29,8 @@ Auto AI Router как sidecar — крутится рядом с Open WebUI, б�
 ---
 
 **Смотрите также:**
-- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
 

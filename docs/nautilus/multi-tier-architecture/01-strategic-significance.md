@@ -410,8 +410,8 @@ ADR обосновывающие ключевые архитектурные р�
 ---
 
 **Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
-- [01-claude-response](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-response](../innovation-transitions/01-response.md)
+- [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
+- [01-claude-response](../community-discussions/habr-article-1-reaction/01-claude-response.md)
 

@@ -60,10 +60,10 @@ ROI: Developer understands legal context, lawyer sees implementation
 ---
 
 **Смотрите также:**
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
 
 
 <!-- backlinks -->
@@ -71,7 +71,7 @@ ROI: Developer understands legal context, lawyer sees implementation
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
 

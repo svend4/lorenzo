@@ -42,10 +42,10 @@ https://habr.com/ru/articles/1014366/
 ---
 
 **Смотрите также:**
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+- [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
+- [wikontic](../../05-habr-projects/knowledge/wikontic.md)
+- [02-related-projects](02-related-projects.md)
+- [03-synthesis-hebbian-collaboration-graph](../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
 
 
 <!-- backlinks -->
@@ -53,7 +53,7 @@ https://habr.com/ru/articles/1014366/
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/habr-unique-projects/analogues/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

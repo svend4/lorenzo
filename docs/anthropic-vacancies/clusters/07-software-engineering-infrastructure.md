@@ -18,8 +18,8 @@ Inference (самая частая роль — 8+ позиций разного
 ---
 
 **Смотрите также:**
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
-- [16-people](docs/anthropic-vacancies/clusters/16-people.md)
+- [13-communications](13-communications.md)
+- [12-technical-program-management](12-technical-program-management.md)
+- [09-product-management-support-ops](09-product-management-support-ops.md)
+- [16-people](16-people.md)
 

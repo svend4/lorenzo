@@ -136,8 +136,8 @@
 ---
 
 **Смотрите также:**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
+- [authors-by-name](../glossary/authors-by-name.md)
+- [components-by-name](../glossary/components-by-name.md)
+- [5-voice-local-memory](../habr-unique-projects/deep-pairs/5-voice-local-memory.md)
+- [4-summary-authors](../habr-unique-projects/final-ensembles/4-summary-authors.md)
 

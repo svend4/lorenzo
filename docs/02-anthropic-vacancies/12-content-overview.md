@@ -69,13 +69,13 @@
 ---
 
 **Кто ссылается на этот документ (10):**
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
-- [305-a-practical-path-to-layer-b-through-symbiotic-inte](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
-- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [31-content-overview](31-content-overview.md)
 - _...ещё 2_
 

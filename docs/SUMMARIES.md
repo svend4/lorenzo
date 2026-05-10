@@ -448,9 +448,9 @@ _Executive Summary_
 ---
 
 **Похожие документы:**
-- [TABLES](docs/TABLES.md) (сходство 0.17)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md) (сходство 0.17)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.17)
+- [TABLES](TABLES.md) (сходство 0.17)
+- [ACTION_ITEMS](ACTION_ITEMS.md) (сходство 0.17)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -458,8 +458,8 @@ _Executive Summary_
 ---
 
 **Смотрите также:**
-- [DECISIONS](docs/DECISIONS.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [HEADING_AUDIT](docs/HEADING_AUDIT.md)
+- [DECISIONS](DECISIONS.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
 

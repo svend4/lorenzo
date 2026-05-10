@@ -74,4 +74,4 @@ _Обнаружено: 2026-04-29_
 
 **Смотрите также:**
 - [CONTRADICTIONS.md](../CONTRADICTIONS.md)
-- [decision-record](docs/templates/decision-record.md)
+- [decision-record](decision-record.md)

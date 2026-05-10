@@ -99,8 +99,8 @@ of whether ethical frameworks keep pace.
 ---
 
 **Смотрите также:**
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
-- [08-risks-mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+- [179-10-open-questions](../../02-anthropic-vacancies/179-10-open-questions.md)
+- [08-risks-mitigations](08-risks-mitigations.md)
+- [11-open-questions](../composite-skills-agents/11-open-questions.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
 

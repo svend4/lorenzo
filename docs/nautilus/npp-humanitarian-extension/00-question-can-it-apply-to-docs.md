@@ -40,8 +40,8 @@ Q6 и консенсус-модель работают как есть, но с�
 ---
 
 **Смотрите также:**
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
+- [00-question-anonymization](../privacy-federation/00-question-anonymization.md)
+- [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 

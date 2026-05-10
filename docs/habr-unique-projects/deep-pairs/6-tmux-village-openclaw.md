@@ -28,8 +28,8 @@ Telegram-orchestrated headless village — пишешь в Telegram «откро
 ---
 
 **Смотрите также:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [1-one-person-one-company](../final-ensembles/1-one-person-one-company.md)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
+- [1-llm-gateway](1-llm-gateway.md)
 

@@ -171,8 +171,8 @@ python scripts/improve_self.py --enrich --apply     # применяет
 ---
 
 **Смотрите также:**
-- [05-synthesis](docs/meta-scripting/05-synthesis.md)
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+- [05-synthesis](05-synthesis.md)
+- [118-appendix-a-шаблон-для-header-warning](../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [132-planned-v0-2-0](../02-anthropic-vacancies/132-planned-v0-2-0.md)
 

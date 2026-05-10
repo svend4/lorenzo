@@ -137,8 +137,8 @@ and 7.
 ---
 
 **Смотрите также:**
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+- [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
+- [01-five-type-typology](../professional-colleague-agents-en/01-five-type-typology.md)
 

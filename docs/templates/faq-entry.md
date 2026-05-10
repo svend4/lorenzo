@@ -59,4 +59,4 @@ _Последняя проверка: 2026-04-29_
 
 **Смотрите также:**
 - [FAQ.md](../FAQ.md)
-- [glossary-entry](docs/templates/glossary-entry.md)
+- [glossary-entry](glossary-entry.md)

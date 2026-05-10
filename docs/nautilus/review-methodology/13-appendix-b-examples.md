@@ -84,8 +84,8 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 ---
 
 **Смотрите также:**
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [10-checklist](10-checklist.md)
 

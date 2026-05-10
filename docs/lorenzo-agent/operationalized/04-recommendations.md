@@ -96,8 +96,8 @@ Read source code existing components
 ---
 
 **Смотрите также:**
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
-- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
-- [00-overview-grandchild-combination](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)
+- [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
 

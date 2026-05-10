@@ -146,8 +146,8 @@ LiteParse research-docs (1021098) — узел 5
 ---
 
 **Смотрите также:**
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [02-minuses-1-10](docs/lorenzo-agent/operationalized/02-minuses-1-10.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+- [04-recommendations](04-recommendations.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [02-minuses-1-10](02-minuses-1-10.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
 

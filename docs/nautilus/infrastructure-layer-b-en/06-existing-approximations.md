@@ -98,8 +98,8 @@ problem.
 ---
 
 **Смотрите также:**
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [07-specific-case](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
+- [279-existing-approximations](../../02-anthropic-vacancies/279-existing-approximations.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [07-specific-case](07-specific-case.md)
 

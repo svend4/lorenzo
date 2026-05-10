@@ -45,7 +45,7 @@ products from other providers). Excellent for creative dialogue,
 exploration, generating content. The natural creative space. 
 Linear by structure.
 
-**Layer C — Code repositories.** [GitHub](../docs/01-svyazi/03-component-catalog.md), GitLab, Codeberg. 
+**Layer C — Code repositories.** [GitHub](../01-svyazi/03-component-catalog.md), GitLab, Codeberg. 
 Excellent for storing structured artifacts, version control, 
 collaboration around technical artifacts. Branching, merging, 
 issues, discussions. Code-oriented by design.
@@ -144,13 +144,13 @@ infrastructure that does not exist as a unified product.
 ---
 
 **Кто ссылается на этот документ (10):**
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [218-7-application-domains](218-7-application-domains.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
 - _...ещё 2_
 

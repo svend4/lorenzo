@@ -15,7 +15,7 @@
 
 **Ключевые этапы:**
 - Формирование Q6-концептуальной базы
-- Embedded-версия Nautilus Portal в подпапке `[nautilus](../docs/05-habr-projects/memory/memnet.md)/` (март 2026)
+- Embedded-версия Nautilus Portal в подпапке `[nautilus](../05-habr-projects/memory/memnet.md)/` (март 2026)
 - Миграция Portal в отдельный репо `github.com/svend4/nautilus` 
   (март 2026)
 - YiJing-Transformer v53–v61 (январь–апрель 2026)
@@ -90,12 +90,12 @@
 ---
 
 **Кто ссылается на этот документ (8):**
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
-- [63-history](docs/02-anthropic-vacancies/63-history.md)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [63-history](63-history.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [README](README.md)
 

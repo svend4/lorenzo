@@ -113,8 +113,8 @@ v2.0 MAY использовать:
 ---
 
 **Смотрите также:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [08-consensus-algorithm](docs/nautilus/npp-v1-0/08-consensus-algorithm.md)
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+- [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md)
+- [08-consensus-algorithm](../npp-v1-0/08-consensus-algorithm.md)
+- [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
 

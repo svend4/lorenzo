@@ -26,8 +26,8 @@
 <!-- toc-auto -->
 ## Contents
 
-- [8. Implications for Nautilus and OKWF](#8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf)
-  - [8.1. Nautilus as Federated Knowledge Substrate](#81-[nautilus](../docs/05-habr-projects/memory/memnet.md)-as-federated-knowledge-substrate)
+- [8. Implications for Nautilus and OKWF](#8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf)
+  - [8.1. Nautilus as Federated Knowledge Substrate](#81-[nautilus](../05-habr-projects/memory/memnet.md)-as-federated-knowledge-substrate)
   - [8.2. OKWF Pilot Implications](#82-okwf-pilot-implications)
   - [8.3. Composite Skills Agent in This Architecture](#83-composite-skills-agent-in-this-architecture)
   - [8.4. Document 2.3's Recursive Insight Realized](#84-document-23s-recursive-insight-realized)
@@ -166,9 +166,9 @@ implementable starting next week.
 ---
 
 **Похожие документы:**
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.16)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
-- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
+- [318-10-strategic-positioning](318-10-strategic-positioning.md) (сходство 0.16)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md) (сходство 0.16)
+- [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -176,10 +176,10 @@ implementable starting next week.
 ---
 
 **Смотрите также:**
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-- [318-10-strategic-positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [317-9-risks-and-open-questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
+- [262-9-integration-with-okwf-infrastructure](262-9-integration-with-okwf-infrastructure.md)
+- [318-10-strategic-positioning](318-10-strategic-positioning.md)
+- [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [317-9-risks-and-open-questions](317-9-risks-and-open-questions.md)
 
 
 <!-- backlinks -->
@@ -187,13 +187,13 @@ implementable starting next week.
 ---
 
 **Кто ссылается на этот документ (13):**
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
-- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [164-10-appendices](164-10-appendices.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - _...ещё 5_
 

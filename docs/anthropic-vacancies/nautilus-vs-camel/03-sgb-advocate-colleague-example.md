@@ -70,8 +70,8 @@ MCP interoperability
 ---
 
 **Смотрите также:**
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
-- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+- [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [09-federated-platform](../../habr-unique-projects/extra-examples/09-federated-platform.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
 

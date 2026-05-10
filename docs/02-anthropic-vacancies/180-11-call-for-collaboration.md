@@ -100,9 +100,9 @@ prefer honest critics to unreserved enthusiasts.
 ---
 
 **Похожие документы:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.16)
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.14)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md) (сходство 0.13)
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md) (сходство 0.16)
+- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.14)
+- [223-12-closing](223-12-closing.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -110,10 +110,10 @@ prefer honest critics to unreserved enthusiasts.
 ---
 
 **Смотрите также:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
+- [265-12-call-for-collaboration](265-12-call-for-collaboration.md)
+- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
+- [223-12-closing](223-12-closing.md)
+- [168-abstract](168-abstract.md)
 
 
 <!-- backlinks -->
@@ -121,8 +121,8 @@ prefer honest critics to unreserved enthusiasts.
 ---
 
 **Кто ссылается на этот документ (4):**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [168-abstract](168-abstract.md)
+- [223-12-closing](223-12-closing.md)
+- [README](README.md)
 

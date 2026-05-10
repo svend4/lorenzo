@@ -33,8 +33,8 @@ Patent filing. 6 патентабельных изобретений — это 
 ---
 
 **Смотрите также:**
-- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+- [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
 

@@ -69,8 +69,8 @@ work.
 ---
 
 **Смотрите также:**
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-- [09-what-industry-will-build](docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+- [281-the-recursive-insight](../../02-anthropic-vacancies/281-the-recursive-insight.md)
+- [09-what-industry-will-build](09-what-industry-will-build.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
 

@@ -77,7 +77,7 @@ with Double-Triangle if anonymization pipeline operates correctly.
 ### 6.2. Project Management Domain
 
 **Participants.** Software engineers, product managers, designers, 
-[DevOps](../docs/05-habr-projects/memory/memnet.md) engineers, QA engineers.
+[DevOps](../05-habr-projects/memory/memnet.md) engineers, QA engineers.
 
 **Lower triangle contents.** Assistants specialized for:
 - Code generation and review (Copilot, Cursor, Claude Code)
@@ -93,7 +93,7 @@ retrospective synthesis.
 patterns, deployment playbooks, incident postmortems (anonymized), 
 architecture decision records.
 
-**Existing partial implementations.** Jira AI, Linear AI, [GitHub](../docs/01-svyazi/03-component-catalog.md) 
+**Existing partial implementations.** Jira AI, Linear AI, [GitHub](../01-svyazi/03-component-catalog.md) 
 Projects automation — all provide fragments of this architecture 
 but lack Protocol 3.
 
@@ -216,13 +216,13 @@ exist.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [136-abstract](136-abstract.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [164-10-appendices](164-10-appendices.md)
+- [218-7-application-domains](218-7-application-domains.md)
 - _...ещё 3_
 

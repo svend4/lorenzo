@@ -100,8 +100,8 @@ by mission-driven foundations.
 ---
 
 **Смотрите также:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
+- [176-7-governance-and-oversight](../../02-anthropic-vacancies/176-7-governance-and-oversight.md)
+- [06-ethical-framework](06-ethical-framework.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [09-phased-rollout](09-phased-rollout.md)
 

@@ -82,9 +82,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.86)
-- [mixaill76](docs/contacts/mixaill76.md) (сходство 0.86)
+- [vladspace](vladspace.md) (сходство 0.88)
+- [zodigancode](zodigancode.md) (сходство 0.86)
+- [mixaill76](mixaill76.md) (сходство 0.86)
 
 
 <!-- see-also -->
@@ -92,8 +92,8 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+- [vladspace](vladspace.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
+- [dmitriila](dmitriila.md)
 

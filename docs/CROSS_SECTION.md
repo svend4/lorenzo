@@ -146,8 +146,8 @@ _Для каждого концепта — TF-IDF вес в каждой сек
 ---
 
 **Смотрите также:**
-- [kksudo](docs/contacts/kksudo.md)
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [CONTACTS](docs/CONTACTS.md)
-- [andrey-chuyan](docs/contacts/andrey-chuyan.md)
+- [kksudo](contacts/kksudo.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTACTS](CONTACTS.md)
+- [andrey-chuyan](contacts/andrey-chuyan.md)
 

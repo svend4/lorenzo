@@ -36,7 +36,7 @@
 Имеет уникальное имя (например, `svend4`).
 
 **Repository-participant** (далее — **Repo**) — Git-репозиторий, 
-содержащий минимум `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне и/или зарегистрированный 
+содержащий минимум `[nautilus](../05-habr-projects/memory/memnet.md).json` в корне и/или зарегистрированный 
 в registry портала.
 
 **Native format** — исходный формат данных в Repo, определяемый автором. 
@@ -48,22 +48,22 @@ NPP не ограничивает native format.
 implementation: `github.com/svend4/nautilus`, но альтернативные 
 порталы совместимы через соответствие этому протоколу.
 
-**Registry** — файл `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне Portal-репо, перечисляющий 
+**Registry** — файл `[nautilus](../05-habr-projects/memory/memnet.md).json` в корне Portal-репо, перечисляющий 
 все Repos экосистемы с их метаданными.
 
 **Adapter** — Python-модуль (или эквивалент на другом языке), 
-реализующий `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` interface и переводящий native format Repo 
-в унифицированный `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
+реализующий `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)` interface и переводящий native format Repo 
+в унифицированный `[PortalEntry](01-интегральный-анализ-профиля-svend4.md)`.
 
 **Passport** — `passport.md` файл, human-readable описание Repo, 
 располагается в `passports/<format>.md` в Portal-репо. Валидируется 
 по `passport_schema.json`.
 
-**[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)** — унифицированная структура данных, в которую 
+**[PortalEntry](01-интегральный-анализ-профиля-svend4.md)** — унифицированная структура данных, в которую 
 адаптеры конвертируют native-записи при fetch.
 
 **Bridge** — декларативное описание моста между концепциями разных 
-Repos. Описан в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в поле `bridges` и в passport 
+Repos. Описан в `[nautilus](../05-habr-projects/memory/memnet.md).json` в поле `bridges` и в passport 
 соответствующего репо.
 
 **Consensus** — результат сопоставления найденных концептов между 
@@ -82,10 +82,10 @@ Repos. Описан в `[nautilus](../docs/05-habr-projects/memory/memnet.md).js
 
 **Fallback** — адаптер вернул статические (заранее заготовленные) 
 данные, а не результат реального поиска. Обозначается 
-`[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md).is_fallback = True`.
+`[PortalEntry](01-интегральный-анализ-профиля-svend4.md).is_fallback = True`.
 
 **Protocol Version** — semver-версия NPP, объявляемая в 
-`[nautilus](../docs/05-habr-projects/memory/memnet.md).json` поле `protocol_version` (или `nautilus_version` 
+`[nautilus](../05-habr-projects/memory/memnet.md).json` поле `protocol_version` (или `nautilus_version` 
 для v1.x из-за исторических причин).
 
 **Onboarding Path** — один из пяти стандартных способов подключения 
@@ -98,9 +98,9 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Похожие документы:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.63)
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
+- [07-2-terminology](07-2-terminology.md) (сходство 0.63)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.16)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -108,10 +108,10 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Смотрите также:**
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [07-2-terminology](07-2-terminology.md)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [67-о-проекте](67-о-проекте.md)
 
 
 <!-- backlinks -->
@@ -119,10 +119,10 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Кто ссылается на этот документ (6):**
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [124-конфигурация-для-claude-desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md)
+- [67-о-проекте](67-о-проекте.md)
+- [74-abstract](74-abstract.md)
+- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+- [README](README.md)
 

@@ -155,5 +155,5 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [rfc](docs/templates/rfc.md)
+- [rfc](rfc.md)
 - [`docs/nautilus/npp-v1-1/`](../nautilus/npp-v1-1/)

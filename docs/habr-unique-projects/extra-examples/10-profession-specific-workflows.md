@@ -65,8 +65,8 @@ Time to MVP: 3-6 месяцев focused work.
 ---
 
 **Смотрите также:**
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [09-federated-platform](09-federated-platform.md)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 

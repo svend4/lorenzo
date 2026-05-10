@@ -33,8 +33,8 @@
 ---
 
 **Смотрите также:**
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [14-limitations](docs/01-svyazi/14-limitations.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
+- [08-conclusions](../../01-svyazi/08-conclusions.md)
+- [07-выводы](../../04-ai-collaborations/07-выводы.md)
+- [14-limitations](../../01-svyazi/14-limitations.md)
+- [executive-summary](../overview/executive-summary.md)
 

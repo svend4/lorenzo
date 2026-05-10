@@ -62,8 +62,8 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Смотрите также:**
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [09-consensus-algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md)
-- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+- [86-11-relevance-ranking](../../02-anthropic-vacancies/86-11-relevance-ranking.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [09-consensus-algorithm](09-consensus-algorithm.md)
+- [14-sdk](14-sdk.md)
 

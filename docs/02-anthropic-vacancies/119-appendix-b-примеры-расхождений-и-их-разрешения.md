@@ -101,10 +101,10 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 ---
 
 **Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [ensemble](../templates/ensemble.md)
+- [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md)
+- [298-что-этот-документ-не-решает](298-что-этот-документ-не-решает.md)
+- [108-2-формальный-workflow](108-2-формальный-workflow.md)
 
 
 <!-- similar-docs -->
@@ -112,7 +112,7 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 ---
 
 **Похожие документы:**
-- [ensemble](docs/templates/ensemble.md) (сходство 0.25)
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.25)
-- [SENTIMENT](docs/SENTIMENT.md) (сходство 0.21)
+- [ensemble](../templates/ensemble.md) (сходство 0.25)
+- [116-9-checklist-применения-методологии](116-9-checklist-применения-методологии.md) (сходство 0.25)
+- [SENTIMENT](../SENTIMENT.md) (сходство 0.21)
 

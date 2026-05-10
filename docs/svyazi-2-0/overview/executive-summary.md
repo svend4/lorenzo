@@ -28,8 +28,8 @@
 ---
 
 **Смотрите также:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [mvp-plan](docs/svyazi-2-0/prototype/mvp-plan.md)
-- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+- [01-executive-summary](../../04-ai-collaborations/01-executive-summary.md)
+- [mvp-plan](../prototype/mvp-plan.md)
+- [license-tree](../limitations/license-tree.md)
+- [first-contacts](../outreach/first-contacts.md)
 

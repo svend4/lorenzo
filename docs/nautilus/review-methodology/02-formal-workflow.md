@@ -93,8 +93,8 @@ merge-conflict error. С заголовком — понимает осмысл�
 ---
 
 **Смотрите также:**
-- [108-2-формальный-workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
-- [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
-- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [108-2-формальный-workflow](../../02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
+- [10-checklist](10-checklist.md)
 

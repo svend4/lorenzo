@@ -198,8 +198,8 @@ never had it**.
 ---
 
 **Смотрите также:**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [01-response-en](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
-- [01-cinderella-syndrome](docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](../../02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [04-ten-domains](04-ten-domains.md)
 

@@ -309,8 +309,8 @@ _Обновлено: 2026-05-10_
 ---
 
 **Смотрите также:**
-- [CLUSTERS](docs/CLUSTERS.md)
-- [ORPHANS](docs/ORPHANS.md)
-- [SOURCE_MAP](docs/SOURCE_MAP.md)
-- [NAMED_ENTITIES](docs/NAMED_ENTITIES.md)
+- [CLUSTERS](CLUSTERS.md)
+- [ORPHANS](ORPHANS.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
 

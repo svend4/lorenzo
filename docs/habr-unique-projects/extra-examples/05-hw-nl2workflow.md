@@ -48,8 +48,8 @@ Self-hosted второй мозг через Claude Code + Obsidian
 ---
 
 **Смотрите также:**
-- [08-personal-multi-agent-hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
-- [06-platform-for-professional-communities](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
-- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
+- [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
+- [10-profession-specific-workflows](10-profession-specific-workflows.md)
 

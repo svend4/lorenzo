@@ -34,8 +34,8 @@ AI-агенты для рекрутинга конкретно — сейчас 
 ---
 
 **Смотрите также:**
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
-- [10-three-entry-points](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+- [07-current-implementations](07-current-implementations.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [08-pluses-of-model](08-pluses-of-model.md)
+- [10-three-entry-points](10-three-entry-points.md)
 

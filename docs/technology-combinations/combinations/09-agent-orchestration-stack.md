@@ -48,10 +48,10 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 ---
 
 **Смотрите также:**
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [12-multi-agent-observability-stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
-- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
-- [32-consensus-based-multi-agent-coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+- [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
 
 
 <!-- backlinks -->
@@ -59,7 +59,7 @@ ROI: Full stack development на $700/мес вместо $20k/мес team
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
 

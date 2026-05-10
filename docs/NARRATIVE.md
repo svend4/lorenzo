@@ -9,7 +9,7 @@ _Связный рассказ о том, как складывается про
 
 > <!-- toc --> - [Contents](#contents) - [Главная линия синергии](#главная-линия-синергии) - [Ключевой вывод](#ключевой-вывод) - [Что добавляет продолжение исследования](#что-добавляет-продолжение-исследования) - [Приоритет ансамблей для старта](#приоритет-ансамблей-для-старта) --- <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Svyazi^svyazi 2.0 — Исполнительное резюме Contents - Главная линия синергии(главная-линия-синергии) - Ключевой вывод(ключевой-вывод) - Что добавляет продолжение исследования(что-до > ✅ **Результат:** Первое — Svyazi + AgentFS +…
 
-_[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_
+_[→ Читать полностью](01-svyazi/01-executive-summary.md)_
 
 ---
 
@@ -18,7 +18,7 @@ _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_
 
 > <!-- summary --> > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров. **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse --- <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** MemNet / memory-is-all-you-need Antipozitive Хабр + GitHub citeturn21view4turn17search0turn18search2 Исследовательская активная память для трансформеров. > 🔧 **Подход:** 6 слоёв, YAML,…
 
-_[→ Читать полностью](docs/01-svyazi/03-component-catalog.md)_
+_[→ Читать полностью](01-svyazi/03-component-catalog.md)_
 
 ---
 
@@ -27,7 +27,7 @@ _[→ Читать полностью](docs/01-svyazi/03-component-catalog.md)_
 
 > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** citeturn35search0 - Контекст реального мира доступен агенту как tool, а не как догадка: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. > 🔧 **Подход:** citeturn34view3 - Контроль над retrieval‑слоем без «фреймворкового тумана»: Hybrid RAG‑подход на pdfplumber/FAISS/TF‑IDF проще дебажить и дешевле держать в локальном контуре, че > ✅ **Результат:**…
 
-_[→ Читать полностью](docs/01-svyazi/04-ensembles-overview.md)_
+_[→ Читать полностью](01-svyazi/04-ensembles-overview.md)_
 
 ---
 
@@ -39,7 +39,7 @@ _[→ Читать полностью](docs/01-svyazi/04-ensembles-overview.md)_
 - **🛠️ MVP:** — **12–18 инженерных дней** для одного сильного разработчика или пары “backend + agent/operator”
 - **🛠️ MVP:** и проверить один сценарий: **обнаружение и объяснение полезных коллабораций**
 
-_[→ Читать полностью](docs/01-svyazi/07-mvp-planning.md)_
+_[→ Читать полностью](01-svyazi/07-mvp-planning.md)_
 
 ---
 
@@ -50,7 +50,7 @@ _[→ Читать полностью](docs/01-svyazi/07-mvp-planning.md)_
 
 - **🛠️ MVP:** --------------- Карточка как единица правды Svyazi, AgentFS Card
 
-_[→ Читать полностью](docs/01-svyazi/09-architectural-gaps.md)_
+_[→ Читать полностью](01-svyazi/09-architectural-gaps.md)_
 
 ---
 
@@ -62,7 +62,7 @@ _[→ Читать полностью](docs/01-svyazi/09-architectural-gaps.md)_
 - **🛠️ MVP:** без чрезмерной формализации
 - **🛠️ MVP:** | На какие идеи опирается |
 
-_[→ Читать полностью](docs/01-svyazi/11-integration-contracts.md)_
+_[→ Читать полностью](01-svyazi/11-integration-contracts.md)_
 
 ---
 
@@ -74,7 +74,7 @@ _[→ Читать полностью](docs/01-svyazi/11-integration-contracts.m
 - **🚀 Старт:** должна закрепить контракт и доказуемость
 - **🎯 Цель:** | Минимум, который должен заработать | Оценка усилий | Главный риск |
 
-_[→ Читать полностью](docs/01-svyazi/12-roadmap.md)_
+_[→ Читать полностью](01-svyazi/12-roadmap.md)_
 
 ---
 
@@ -87,7 +87,7 @@ _[→ Читать полностью](docs/01-svyazi/12-roadmap.md)_
 - **🛠️ MVP:** Planning](07-mvp-planning
 - **🛠️ MVP:** Planning](07-mvp-planning
 
-_[→ Читать полностью](docs/01-svyazi/13-contacts.md)_
+_[→ Читать полностью](01-svyazi/13-contacts.md)_
 
 ---
 
@@ -100,7 +100,7 @@ _[→ Читать полностью](docs/01-svyazi/13-contacts.md)_
 - **🎯 Цель:** «как мерить качество извлечённой структуры», над которой Чуян ещё думает
 - **🎯 Цель:** проходит через планирование, реализацию, ревью, security review и уведомление в Telegram; AI Factory сканирует проект, определяет стек, ставит skills, настраивает MCP-серверы, создаёт
 
-_[→ Читать полностью](docs/04-ai-collaborations/00-intro.md)_
+_[→ Читать полностью](04-ai-collaborations/00-intro.md)_
 
 ---
 
@@ -109,7 +109,7 @@ _[→ Читать полностью](docs/04-ai-collaborations/00-intro.md)_
 
 > <!-- abstract-auto --> > **Абстракт** (авто) > > 🎯 **Проблема:** Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры. > 🔧 **Подход:** Yodoca^yodoca: консолидация и забывание !IMPORTANT Ключевой документ для понимания архитектуры. > 🏷️ **Ключевые слова:** `memory`, `projects`, `yodoca`, `svyazi`, `collaboration`, `wikontic`, `sqlite`, `readme` > > [!IMPORTANT] > Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь. <!--…
 
-_[→ Читать полностью](docs/05-habr-projects/memory/yodoca.md)_
+_[→ Читать полностью](05-habr-projects/memory/yodoca.md)_
 
 ---
 
@@ -121,7 +121,7 @@ _[→ Читать полностью](docs/05-habr-projects/memory/yodoca.md)_
 - **🎯 Цель:** «как мерить качество извлечённой структуры», над которой Чуян ещё думает
 - **🎯 Цель:** «как мерить качество извлечённой структуры», над которой Чуян ещё думает
 
-_[→ Читать полностью](docs/05-habr-projects/memory/ngt-memory.md)_
+_[→ Читать полностью](05-habr-projects/memory/ngt-memory.md)_
 
 ---
 
@@ -136,7 +136,7 @@ Lorenzo — это не один проект, а **экосистема вза�
 4. **Команда** — распределённые авторы на Хабре и GitHub
 5. **Следующий шаг** — контакт с авторами ключевых компонентов
 
-_Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](docs/01-svyazi/12-roadmap.md)_
+_Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](01-svyazi/12-roadmap.md)_
 
 
 <!-- see-also -->
@@ -144,8 +144,8 @@ _Полная дорожная карта: [docs/01-svyazi/12-roadmap.md](docs/0
 ---
 
 **Смотрите также:**
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [SIMILAR_PASSAGES](docs/SIMILAR_PASSAGES.md)
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- [12-roadmap](01-svyazi/12-roadmap.md)
 

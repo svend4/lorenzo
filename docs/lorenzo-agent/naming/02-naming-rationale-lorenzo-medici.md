@@ -303,8 +303,8 @@ LAYER 6: Outreach engine
 ---
 
 **Смотрите также:**
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+- [03-dhlab-umbrella](03-dhlab-umbrella.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [04-proposed-infrastructure](../../nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md)
 

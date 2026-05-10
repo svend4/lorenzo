@@ -24,8 +24,8 @@ Mehr anzeigen
 ---
 
 **Смотрите также:**
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
-- [02-what-was-missing-in-paper-6](docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
 

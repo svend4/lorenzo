@@ -1977,8 +1977,8 @@ Thank you for the collaboration.
 ---
 
 **Смотрите также:**
-- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
+- [12-closing](../../representative-agent-layer-en/12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](../../../02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
+- [04-ten-domains](../../representative-agent-layer-en/04-ten-domains.md)
+- [173-4-ten-domains-of-application](../../../02-anthropic-vacancies/173-4-ten-domains-of-application.md)
 

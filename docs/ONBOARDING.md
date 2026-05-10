@@ -34,11 +34,11 @@ _Всего: 407 файлов, 370,610 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`docs/01-svyazi/`](docs/01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 11,578 |
-| [`docs/02-anthropic-vacancies/`](docs/02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 319,964 |
-| [`docs/03-technology-combinations/`](docs/03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,159 |
-| [`docs/04-ai-collaborations/`](docs/04-ai-collaborations/README.md) | AI-коллаборации | 17 | 26,574 |
-| [`docs/05-habr-projects/`](docs/05-habr-projects/README.md) | Хабр-проекты | 10 | 9,335 |
+| [`docs/01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 11,578 |
+| [`docs/02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 319,964 |
+| [`docs/03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,159 |
+| [`docs/04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 26,574 |
+| [`docs/05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 10 | 9,335 |
 
 ## Ключевые документы
 

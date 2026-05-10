@@ -34,7 +34,7 @@
 ---
 
 **Смотрите также:**
-- [15-anti-patterns](docs/lorenzo-agent/15-anti-patterns.md)
+- [15-anti-patterns](../lorenzo-agent/15-anti-patterns.md)
 
 
 <!-- backlinks -->
@@ -42,8 +42,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
-- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [README](README.md)
 

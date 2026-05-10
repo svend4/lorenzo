@@ -57,8 +57,8 @@ Du hast gesagt: Да
 ---
 
 **Смотрите также:**
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)
+- [34-appendix-b-change-log](../../02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [03-registry](../npp-v1-1/03-registry.md)
+- [07-portal-entry](../npp-v1-1/07-portal-entry.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
 

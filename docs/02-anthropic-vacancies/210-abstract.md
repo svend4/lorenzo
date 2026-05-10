@@ -136,13 +136,13 @@ their daily work.
 ---
 
 **Кто ссылается на этот документ (18):**
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [168-abstract](168-abstract.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [181-12-closing](181-12-closing.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
 - _...ещё 10_
 

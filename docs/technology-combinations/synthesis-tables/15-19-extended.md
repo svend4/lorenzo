@@ -25,8 +25,8 @@
 ---
 
 **Смотрите также:**
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+- [09-14-extended](09-14-extended.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [20-24-final](20-24-final.md)
+- [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
 

@@ -6,8 +6,8 @@
 ## Contents
 
 - [Bridges](#bridges)
-  - [meta ↔ pro2](#meta-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
-  - [meta ↔ info1](#meta-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
+  - [meta ↔ pro2](#meta-[pro2](01-интегральный-анализ-профиля-svend4.md))
+  - [meta ↔ info1](#meta-[info1](01-интегральный-анализ-профиля-svend4.md))
 
 
 <!-- summary -->
@@ -22,7 +22,7 @@
 ## Bridges
 
 ### `meta ↔ pro2`
-**Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)/passport.md`). 
+**Hexagram ↔ Q6-vertex**. Биективное соответствие (см. `[pro2](01-интегральный-анализ-профиля-svend4.md)/passport.md`). 
 Это **единственный formal mapping** в экосистеме, реализованный через 
 прямую математическую функцию в адаптерах.
 
@@ -39,9 +39,9 @@ bridge.]
 ---
 
 **Похожие документы:**
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md) (сходство 0.22)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md) (сходство 0.22)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md) (сходство 0.21)
+- [61-compatibility-level](61-compatibility-level.md) (сходство 0.22)
+- [40-bridges](40-bridges.md) (сходство 0.22)
+- [50-bridges](50-bridges.md) (сходство 0.21)
 
 
 <!-- see-also -->
@@ -49,10 +49,10 @@ bridge.]
 ---
 
 **Смотрите также:**
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [40-bridges](docs/02-anthropic-vacancies/40-bridges.md)
-- [50-bridges](docs/02-anthropic-vacancies/50-bridges.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [40-bridges](40-bridges.md)
+- [50-bridges](50-bridges.md)
 
 
 <!-- backlinks -->
@@ -60,12 +60,12 @@ bridge.]
 ---
 
 **Кто ссылается на этот документ (8):**
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [47-native-format](47-native-format.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
 

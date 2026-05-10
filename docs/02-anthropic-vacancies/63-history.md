@@ -23,7 +23,7 @@
 **Направление развития:**
 - Формальная математическая публикация mapping 64 ↔ 256
 - Интерактивные визуализации CA-динамики для каждой гексаграммы
-- Возможная публикация paper совместно с `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`: 
+- Возможная публикация paper совместно с `[pro2](01-интегральный-анализ-профиля-svend4.md)`: 
   «64 as Projection of 256: Hexagrams as Symmetry Classes of 
   Elementary Cellular Automata»
 
@@ -88,13 +88,13 @@
 ---
 
 **Кто ссылается на этот документ (11):**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [190-содержание](190-содержание.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [326-содержание](326-содержание.md)
 - _...ещё 3_
 

@@ -215,7 +215,7 @@ python
 @dataclass
 class Annotation:
     id: str                     # "annot:uuid"
-    target: str                 # id of [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) being annotated
+    target: str                 # id of [PortalEntry](01-интегральный-анализ-профиля-svend4.md) being annotated
     author: str                 # Node name или assistant id
     content: str                # annotation text
     visibility: str             # "private" | "team" | "public"
@@ -611,13 +611,13 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 ---
 
 **Кто ссылается на этот документ (12):**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
+- [133-обратная-связь](133-обратная-связь.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [165-closing](165-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
 - _...ещё 4_
 

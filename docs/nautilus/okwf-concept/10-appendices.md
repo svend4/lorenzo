@@ -133,8 +133,8 @@ These questions await substantive input from partners:
 ---
 
 **Смотрите также:**
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
-- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+- [164-10-appendices](../../02-anthropic-vacancies/164-10-appendices.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [08-pilot-sgb-advocate](../professional-colleague-agents-en/08-pilot-sgb-advocate.md)
 

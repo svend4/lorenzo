@@ -11,10 +11,10 @@
 
 ## For the Curious: Philosophy
 
-`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` реализует идею, что **methodology — это отдельное измерение 
+`[info1](01-интегральный-анализ-профиля-svend4.md)` реализует идею, что **methodology — это отдельное измерение 
 знания**, не сводимое к семантике. Одно и то же явление (например, 
-фрактал) имеет definition (в `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`), symbolic encoding (в `meta`), 
-и practical applications (в `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`). Эти три измерения не 
+фрактал) имеет definition (в `[pro2](01-интегральный-анализ-профиля-svend4.md)`), symbolic encoding (в `meta`), 
+и practical applications (в `[info1](01-интегральный-анализ-профиля-svend4.md)`). Эти три измерения не 
 дополнительны в смысле «разные аспекты», они **ортогональны**: 
 полное понимание требует одновременного присутствия во всех трёх.
 
@@ -88,13 +88,13 @@ Last updated: 2026-04*
 ---
 
 **Кто ссылается на этот документ (12):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
-- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
+- [04-abstract](04-abstract.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [190-содержание](190-содержание.md)
+- [326-содержание](326-содержание.md)
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md)
 - _...ещё 4_
 

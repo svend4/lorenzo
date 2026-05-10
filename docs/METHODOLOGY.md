@@ -241,8 +241,8 @@ _Документ обновляется вручную при изменени�
 ---
 
 **Смотрите также:**
-- [05-synthesis](docs/meta-scripting/05-synthesis.md)
-- [02-architecture](docs/meta-scripting/02-architecture.md)
-- [03-catalog](docs/meta-scripting/03-catalog.md)
-- [09-automation](docs/processing-guide/09-automation.md)
+- [05-synthesis](meta-scripting/05-synthesis.md)
+- [02-architecture](meta-scripting/02-architecture.md)
+- [03-catalog](meta-scripting/03-catalog.md)
+- [09-automation](processing-guide/09-automation.md)
 

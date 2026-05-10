@@ -88,12 +88,12 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 ---
 
 **Кто ссылается на этот документ (8):**
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [131-ограничения-текущей-версии-0-1-0-draft](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [131-ограничения-текущей-версии-0-1-0-draft](131-ограничения-текущей-версии-0-1-0-draft.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [README](README.md)
 

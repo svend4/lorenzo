@@ -52,10 +52,10 @@ Skills сохраняются в корпоративный граф знани�
 ---
 
 **Смотрите также:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [09-agent-orchestration-stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md)
-- [02-multiagentnyy-khaos-reshenie-auto-ai-router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
-- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+- [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
 
 
 <!-- backlinks -->
@@ -63,7 +63,7 @@ Skills сохраняются в корпоративный граф знани�
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 

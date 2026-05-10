@@ -133,7 +133,7 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [research-note](docs/templates/research-note.md)
-- [decision-record](docs/templates/decision-record.md)
+- [research-note](research-note.md)
+- [decision-record](decision-record.md)
 - [`scripts/improve_validate_templates.py`](../../scripts/improve_validate_templates.py)
 - [`scripts/improve_template_init.py`](../../scripts/improve_template_init.py)

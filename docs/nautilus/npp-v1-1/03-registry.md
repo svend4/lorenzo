@@ -113,8 +113,8 @@ Onboarding Path C (self-declaring repo).
 ---
 
 **Смотрите также:**
-- [78-3-registry-nautilus-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [08-3-registry-nautilus-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+- [78-3-registry-nautilus-json](../../02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [08-3-registry-nautilus-json](../../02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [07-portal-entry](07-portal-entry.md)
+- [02-terminology](02-terminology.md)
 

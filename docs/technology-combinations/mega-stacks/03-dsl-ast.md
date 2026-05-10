@@ -50,10 +50,10 @@
 ---
 
 **Смотрите также:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+- [04-event-sourcing-consensus](04-event-sourcing-consensus.md)
+- [02-ultimate-legal-ai](02-ultimate-legal-ai.md)
+- [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
 
 
 <!-- backlinks -->
@@ -61,7 +61,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [reading-paths](docs/reading-paths.md)
-- [README](docs/technology-combinations/mega-stacks/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
 

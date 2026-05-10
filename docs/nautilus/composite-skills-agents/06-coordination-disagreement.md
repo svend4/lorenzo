@@ -152,8 +152,8 @@ practice.
 ---
 
 **Смотрите также:**
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
-- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [05-configuration-ensembles](docs/nautilus/composite-skills-agents/05-configuration-ensembles.md)
+- [259-6-coordination-and-disagreement-resolution](../../02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
+- [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [05-configuration-ensembles](05-configuration-ensembles.md)
 

@@ -26,8 +26,8 @@
 ---
 
 **Смотрите также:**
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [15-19-extended](15-19-extended.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 

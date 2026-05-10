@@ -126,8 +126,8 @@ INTEGRATION.md (637 строк) — пять путей подключения
 ---
 
 **Смотрите также:**
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-- [22-glossary](docs/nautilus/npp-v1-1/22-glossary.md)
+- [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [72-расписание-фазы-3](../../02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [22-glossary](../npp-v1-1/22-glossary.md)
 

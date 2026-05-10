@@ -127,9 +127,9 @@ by mission-driven foundations.
 ---
 
 **Похожие документы:**
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.15)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.13)
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.11)
+- [175-6-ethical-framework](175-6-ethical-framework.md) (сходство 0.15)
+- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.13)
+- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -137,10 +137,10 @@ by mission-driven foundations.
 ---
 
 **Смотрите также:**
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [175-6-ethical-framework](175-6-ethical-framework.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [178-9-phased-rollout-strategy](178-9-phased-rollout-strategy.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
 
 
 <!-- backlinks -->
@@ -148,10 +148,10 @@ by mission-driven foundations.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [README](README.md)
 

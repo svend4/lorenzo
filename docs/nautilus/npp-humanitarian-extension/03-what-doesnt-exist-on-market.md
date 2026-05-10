@@ -32,8 +32,8 @@ EIC Pathfinder (€4M max) — deep-tech, можно защитить через
 ---
 
 **Смотрите также:**
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [09-difference-4-institutional-vision](../../anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+- [09-federated-platform](../../habr-unique-projects/extra-examples/09-federated-platform.md)
 

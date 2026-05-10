@@ -51,10 +51,10 @@ formal mapping
 ---
 
 **Смотрите также:**
-- [14-adr-001-federation-over-merging](docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+- [14-adr-001-federation-over-merging](../npp-v1-0/14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
+- [26-14-adr-001-federation-over-merging](../../02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
 
 
 <!-- backlinks -->
@@ -62,7 +62,7 @@ formal mapping
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/nautilus/README.md)
-- [README](docs/nautilus/npp-v1-1/README.md)
-- [reading-paths](docs/reading-paths.md)
+- [README](../README.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 

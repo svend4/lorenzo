@@ -29,8 +29,8 @@ Incubator / accelerator для founder-track. Entrepreneur First (Paris, Berlin)
 ---
 
 **Смотрите также:**
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
-- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
+- [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md)
 

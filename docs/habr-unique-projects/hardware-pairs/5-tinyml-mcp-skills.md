@@ -29,10 +29,10 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 ---
 
 **Смотрите также:**
-- [4-riscv-privacy](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
-- [4-speech-to-text-llm](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+- [4-riscv-privacy](4-riscv-privacy.md)
+- [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md)
+- [05-supplementary-infrastructure](../key-findings/05-supplementary-infrastructure.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 
 
 <!-- backlinks -->
@@ -40,7 +40,7 @@ Edge multi-agent mesh — рой Pi/Jetson-агентов, каждый — уз
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/hardware-pairs/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

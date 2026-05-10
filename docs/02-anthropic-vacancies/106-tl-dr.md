@@ -77,9 +77,9 @@
 ---
 
 **Кто ссылается на этот документ (5):**
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
-- [71-критерии-выбора-для-фазы-3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [70-зачем-две-версии-параллельно](70-зачем-две-версии-параллельно.md)
+- [71-критерии-выбора-для-фазы-3](71-критерии-выбора-для-фазы-3.md)
+- [72-расписание-фазы-3](72-расписание-фазы-3.md)
+- [README](README.md)
 

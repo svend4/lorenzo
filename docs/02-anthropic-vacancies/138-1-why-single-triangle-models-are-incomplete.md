@@ -55,7 +55,7 @@ matured over 2023–2026 and is now mainstream. It answers: **how
 does one person amplify their capacity with AI?**
 
 **Upper-triangle-only systems.** Multi-agent frameworks (CrewAI, 
-[AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
+[AutoGen](01-интегральный-анализ-профиля-svend4.md), LangGraph, MetaGPT, ChatDev) orchestrate multiple AI 
 agents to complete complex tasks. Humans either serve as external 
 observers or are absent from the execution loop. This paradigm 
 answers: **how do we automate entire workflows with AI?**
@@ -110,9 +110,9 @@ such a protocol.
 ---
 
 **Похожие документы:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.19)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.18)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.14)
+- [136-abstract](136-abstract.md) (сходство 0.19)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md) (сходство 0.18)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -120,10 +120,10 @@ such a protocol.
 ---
 
 **Смотрите также:**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [139-2-the-double-triangle-architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [136-abstract](136-abstract.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [139-2-the-double-triangle-architecture](139-2-the-double-triangle-architecture.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
 
 
 <!-- backlinks -->
@@ -131,13 +131,13 @@ such a protocol.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
+- [136-abstract](136-abstract.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - _...ещё 3_
 

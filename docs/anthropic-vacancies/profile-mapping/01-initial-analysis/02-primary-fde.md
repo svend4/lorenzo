@@ -31,10 +31,10 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 ---
 
 **Смотрите также:**
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [signals](docs/anthropic-vacancies/signals.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [signals](../../signals.md)
 
 
 <!-- backlinks -->
@@ -42,7 +42,7 @@ Secondary match: Applied AI Engineer (EMEA) + Beneficial Deployments
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
+- [README](README.md)
+- [components-by-name](../../../glossary/components-by-name.md)
+- [concepts](../../../glossary/concepts.md)
 

@@ -34,6 +34,6 @@
 ---
 
 **Смотрите также:**
-- [13-outreach-communication](docs/lorenzo-agent/13-outreach-communication.md)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
+- [13-outreach-communication](../lorenzo-agent/13-outreach-communication.md)
+- [04-q4-character](../lorenzo-agent/specification/04-q4-character.md)
 

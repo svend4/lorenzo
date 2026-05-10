@@ -29,8 +29,8 @@
 ---
 
 **Смотрите также:**
-- [13-contacts](docs/01-svyazi/13-contacts.md)
-- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [CONTACTS](docs/CONTACTS.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+- [13-contacts](../../01-svyazi/13-contacts.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](../../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [CONTACTS](../../CONTACTS.md)
+- [first-contacts](first-contacts.md)
 

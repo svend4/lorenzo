@@ -26,8 +26,8 @@
 ---
 
 **Смотрите также:**
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
-- [02-final-ranking](docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+- [15-public-benefit](../../clusters/15-public-benefit.md)
+- [02-final-ranking](../03-integral-final/02-final-ranking.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
 

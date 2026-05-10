@@ -62,8 +62,8 @@ Sustainability challenges
 ---
 
 **Смотрите также:**
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
-- [04-level-3-medium-active](docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+- [06-level-5-full-network](06-level-5-full-network.md)
+- [04-level-3-medium-active](04-level-3-medium-active.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
 

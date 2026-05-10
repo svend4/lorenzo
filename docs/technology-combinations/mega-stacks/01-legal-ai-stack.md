@@ -49,10 +49,10 @@
 ---
 
 **Смотрите также:**
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [02-ultimate-legal-ai](02-ultimate-legal-ai.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+- [14-local-first-agent-development-environment](../combinations/14-local-first-agent-development-environment.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
 
 
 <!-- backlinks -->
@@ -60,7 +60,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [reading-paths](docs/reading-paths.md)
-- [README](docs/technology-combinations/mega-stacks/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
+- [README](README.md)
 

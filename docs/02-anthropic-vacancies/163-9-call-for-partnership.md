@@ -27,7 +27,7 @@
 ## Contents
 
 - [9. Call for Partnership](#9-call-for-partnership)
-  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-[mistral](01-интегральный-анализ-профиля-svend4.md)-openai-google-microsoft)
   - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
   - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
   - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
@@ -136,9 +136,9 @@ section explicitly invites partnership.
 ---
 
 **Похожие документы:**
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.17)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.16)
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.15)
+- [164-10-appendices](164-10-appendices.md) (сходство 0.17)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.16)
+- [159-5-economic-model](159-5-economic-model.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -146,10 +146,10 @@ section explicitly invites partnership.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [159-5-economic-model](docs/02-anthropic-vacancies/159-5-economic-model.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [159-5-economic-model](159-5-economic-model.md)
+- [153-executive-summary](153-executive-summary.md)
 
 
 <!-- backlinks -->
@@ -157,12 +157,12 @@ section explicitly invites partnership.
 ---
 
 **Кто ссылается на этот документ (8):**
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [164-10-appendices](164-10-appendices.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [README](README.md)
 

@@ -44,8 +44,8 @@ Decision points:
 ---
 
 **Смотрите также:**
-- [00-overview](docs/lorenzo-agent/phased-deployment/00-overview.md)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+- [00-overview](00-overview.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [06-level-5-full-network](06-level-5-full-network.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
 

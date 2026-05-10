@@ -104,15 +104,15 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [decision-record](docs/templates/decision-record.md)
-- [protocol-spec](docs/templates/protocol-spec.md)
+- [decision-record](decision-record.md)
+- [protocol-spec](protocol-spec.md)
 
 <!-- backlinks -->
 
 ---
 
 **Кто ссылается на этот документ (3):**
-- [REGISTRY](docs/REGISTRY.md)
-- [TASKS_INDEX](docs/TASKS_INDEX.md)
-- [README](docs/templates/README.md)
+- [REGISTRY](../REGISTRY.md)
+- [TASKS_INDEX](../TASKS_INDEX.md)
+- [README](README.md)
 

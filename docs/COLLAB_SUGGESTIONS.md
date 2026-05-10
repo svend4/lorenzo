@@ -18,7 +18,7 @@
 
 **Релевантность:** `0.426`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/memory/memnet.md`](docs/05-habr-projects/memory/memnet.md)
+**Документ:** [`docs/05-habr-projects/memory/memnet.md`](05-habr-projects/memory/memnet.md)
 
 **Теги:** memory, rag, orchestration, security, knowledge
 **Упомянутые проекты:** Svyazi, CardIndex, knowledge-space, Hybrid RAG
@@ -26,13 +26,13 @@
 > Для тебя, с твоим YiJing-Transformer + MoME + Q6, это особенно близко: STDP-граф над слотами + dream-фаза по сути решают ту же задачу, что MoME-роутинг по гиперкубу — выбор релевантных «экспертов» при
 
 **Связан с:**
-  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/ngt-memory.md](docs/05-habr-projects/memory/ngt-memory.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
-  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](05-habr-projects/knowledge/knowledge-space.md) _references_
 
 **Автор:** Antipozitive @Antipozitive  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/antipozitive.md`](docs/contacts/antipozitive.md)
+**Контакт:** [`docs/contacts/antipozitive.md`](contacts/antipozitive.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → Antipozitive</summary>
@@ -69,7 +69,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.325`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/05-habr-projects/memory/yodoca.md`](docs/05-habr-projects/memory/yodoca.md)
+**Документ:** [`docs/05-habr-projects/memory/yodoca.md`](05-habr-projects/memory/yodoca.md)
 
 **Теги:** memory, ingestion, architecture, collaboration
 **Упомянутые проекты:** Svyazi, Yodoca, Wikontic
@@ -77,13 +77,13 @@ Lorenzo / svend4
 > Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi на уровне agentic memory. Что у н
 
 **Связан с:**
-  - [docs/contacts/vitalyoborin.md](docs/contacts/vitalyoborin.md) _references_
-  - [docs/README.md](docs/README.md) _references_
-  - [docs/05-habr-projects/01-synthesis.md](docs/05-habr-projects/01-synthesis.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](docs/05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/contacts/vitalyoborin.md](contacts/vitalyoborin.md) _references_
+  - [docs/README.md](README.md) _references_
+  - [docs/05-habr-projects/01-synthesis.md](05-habr-projects/01-synthesis.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
 
 **Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](docs/contacts/vitalyoborin.md)
+**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
@@ -120,7 +120,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.325`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/knowledge/research-docs-liteparse.md`](docs/05-habr-projects/knowledge/research-docs-liteparse.md)
+**Документ:** [`docs/05-habr-projects/knowledge/research-docs-liteparse.md`](05-habr-projects/knowledge/research-docs-liteparse.md)
 
 **Теги:** liteparse, pdf, forensic, bounding-boxes, visual-citations
 **Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, LiteParse
@@ -128,13 +128,13 @@ Lorenzo / svend4
 > research-docs + LiteParse — система Forensic Document QA: вместо стандартного "ответить на вопрос по PDF" она создаёт HTML-отчёт с визуальными цитатами и `bounding boxes` на страницах исходного докуме
 
 **Связан с:**
-  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
-  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
 
 **Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
+**Контакт:** [`docs/contacts/nlaik.md`](contacts/nlaik.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → nlaik</summary>
@@ -171,7 +171,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.268`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/knowledge/agentfs.md`](docs/05-habr-projects/knowledge/agentfs.md)
+**Документ:** [`docs/05-habr-projects/knowledge/agentfs.md`](05-habr-projects/knowledge/agentfs.md)
 
 **Теги:** agentfs, agent, filesystem, obsidian, knowledge
 **Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
@@ -179,13 +179,13 @@ Lorenzo / svend4
 > AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, скомпилированные конфиги, политики безопасности и CLI
 
 **Связан с:**
-  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
-  - [docs/05-habr-projects/knowledge/mclaude.md](docs/05-habr-projects/knowledge/mclaude.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](docs/05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/knowledge/mclaude.md](05-habr-projects/knowledge/mclaude.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
 
 **Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/kksudo.md`](docs/contacts/kksudo.md)
+**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → kksudo</summary>
@@ -222,7 +222,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.253`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](docs/05-habr-projects/memory/ngt-memory.md)
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
 
 **Теги:** memory, ingestion, collaboration
 **Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
@@ -230,13 +230,13 @@ Lorenzo / svend4
 > ассоциативные связи в персистентной памяти LLM
 
 **Связан с:**
-  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
-  - [docs/05-habr-projects/memory/memnet.md](docs/05-habr-projects/memory/memnet.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](docs/05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/memory/memnet.md](05-habr-projects/memory/memnet.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
 
 **Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/spbmolot.md`](docs/contacts/spbmolot.md)
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → spbmolot</summary>
@@ -273,7 +273,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.250`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
-**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](docs/05-habr-projects/knowledge/wikontic.md)
+**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
 **Теги:** ingestion, collaboration
 **Упомянутые проекты:** Yodoca, Wikontic
@@ -281,13 +281,13 @@ Lorenzo / svend4
 > Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
 
 **Связан с:**
-  - [docs/README.md](docs/README.md) _references_
-  - [docs/05-habr-projects/memory/ngt-memory.md](docs/05-habr-projects/memory/ngt-memory.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/02-collaboration-partners.md](docs/05-habr-projects/02-collaboration-partners.md) _references_
+  - [docs/README.md](README.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/02-collaboration-partners.md](05-habr-projects/02-collaboration-partners.md) _references_
 
 **Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](docs/contacts/vitalyoborin.md)
+**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
@@ -324,7 +324,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.247`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/knowledge/rufler.md`](docs/05-habr-projects/knowledge/rufler.md)
+**Документ:** [`docs/05-habr-projects/knowledge/rufler.md`](05-habr-projects/knowledge/rufler.md)
 
 **Теги:** rufler, yaml, declarative, orchestration, agent-swarm
 **Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
@@ -332,13 +332,13 @@ Lorenzo / svend4
 > Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`)
 
 **Связан с:**
-  - [docs/05-habr-projects/knowledge/mclaude.md](docs/05-habr-projects/knowledge/mclaude.md) _references_
-  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
-  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/knowledge/mclaude.md](05-habr-projects/knowledge/mclaude.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](05-habr-projects/knowledge/knowledge-space.md) _references_
 
 **Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/zodigancode.md`](docs/contacts/zodigancode.md)
+**Контакт:** [`docs/contacts/zodigancode.md`](contacts/zodigancode.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → zodigancode</summary>
@@ -375,7 +375,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.210`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/memory/agent-memory-mcp.md`](docs/05-habr-projects/memory/agent-memory-mcp.md)
+**Документ:** [`docs/05-habr-projects/memory/agent-memory-mcp.md`](05-habr-projects/memory/agent-memory-mcp.md)
 
 **Теги:** memory, mcp, agent, typed-memory, sqlite
 **Упомянутые проекты:** Svyazi, CardIndex, AgentFS, Yodoca
@@ -383,13 +383,13 @@ Lorenzo / svend4
 > `agent-memory-mcp` — типизированный MCP-сервер памяти для AI-агентов с поддержкой четырёх типов записей: `episodic`, `semantic`, `procedural`, `working`. Хранение на SQLite + WAL обеспечивает локальну
 
 **Связан с:**
-  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/ngt-memory.md](docs/05-habr-projects/memory/ngt-memory.md) _references_
-  - [docs/05-habr-projects/memory/memnet.md](docs/05-habr-projects/memory/memnet.md) _references_
-  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/memnet.md](05-habr-projects/memory/memnet.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](05-habr-projects/knowledge/agentfs.md) _references_
 
 **Автор:** VitaliySemenov @moshael  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalysemenov.md`](docs/contacts/vitalysemenov.md)
+**Контакт:** [`docs/contacts/vitalysemenov.md`](contacts/vitalysemenov.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → VitaliySemenov</summary>
@@ -426,7 +426,7 @@ Lorenzo / svend4
 
 **Релевантность:** `0.186`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/knowledge/mclaude.md`](docs/05-habr-projects/knowledge/mclaude.md)
+**Документ:** [`docs/05-habr-projects/knowledge/mclaude.md`](05-habr-projects/knowledge/mclaude.md)
 
 **Теги:** mclaude, multi-agent, orchestration, claude-code, parallel
 **Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
@@ -434,13 +434,13 @@ Lorenzo / svend4
 > mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового агента»: несколько Claude-экземпляров могут одновремен
 
 **Связан с:**
-  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
-  - [docs/05-habr-projects/knowledge/rufler.md](docs/05-habr-projects/knowledge/rufler.md) _references_
-  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/knowledge/rufler.md](05-habr-projects/knowledge/rufler.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
 
 **Автор:** AnastasiyaW @AnastasiyaW  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/anastasiyaw.md`](docs/contacts/anastasiyaw.md)
+**Контакт:** [`docs/contacts/anastasiyaw.md`](contacts/anastasiyaw.md)
 
 <details>
 <summary>📧 Шаблон первого сообщения → AnastasiyaW</summary>

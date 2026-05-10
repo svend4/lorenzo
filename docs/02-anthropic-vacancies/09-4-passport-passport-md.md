@@ -118,12 +118,12 @@ Passport SHOULD содержать следующие разделы:
 ---
 
 **Кто ссылается на этот документ (8):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [63-history](docs/02-anthropic-vacancies/63-history.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [04-abstract](04-abstract.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [37-native-format](37-native-format.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [63-history](63-history.md)
+- [README](README.md)
 

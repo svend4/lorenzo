@@ -30,8 +30,8 @@ Reference НЕ является нормативной. Альтернативн
 ---
 
 **Смотрите также:**
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [18-reference-implementation](docs/nautilus/npp-v1-1/18-reference-implementation.md)
-- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+- [25-13-reference-implementation](../../02-anthropic-vacancies/25-13-reference-implementation.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+- [18-reference-implementation](../npp-v1-1/18-reference-implementation.md)
+- [10-query-result](10-query-result.md)
 

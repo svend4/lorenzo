@@ -47,8 +47,8 @@
 ---
 
 **Смотрите также:**
-- [02-three-overlapping-identities](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
-- [04-stronger-paths-outside-anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+- [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
+- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md)
+- [04-stronger-paths-outside-anthropic](04-stronger-paths-outside-anthropic.md)
 

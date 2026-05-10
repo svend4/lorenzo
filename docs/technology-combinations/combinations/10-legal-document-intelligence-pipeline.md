@@ -49,10 +49,10 @@ ROI: 10 sec queries vs 2 hour manual search
 ---
 
 **Смотрите также:**
-- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
-- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+- [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md)
+- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
 
 
 <!-- backlinks -->
@@ -60,8 +60,8 @@ ROI: 10 sec queries vs 2 hour manual search
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
 

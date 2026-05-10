@@ -22,8 +22,8 @@
 ---
 
 **Смотрите также:**
-- [345-кто-ты](docs/02-anthropic-vacancies/345-кто-ты.md)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
+- [345-кто-ты](../02-anthropic-vacancies/345-кто-ты.md)
+- [14-other-ai-relationships](14-other-ai-relationships.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
 

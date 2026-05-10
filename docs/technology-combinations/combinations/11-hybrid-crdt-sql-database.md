@@ -51,10 +51,10 @@ ROI: Real-time collaboration without conflict UI
 ---
 
 **Смотрите также:**
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+- [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
 
 
 <!-- backlinks -->
@@ -62,7 +62,7 @@ ROI: Real-time collaboration without conflict UI
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
 

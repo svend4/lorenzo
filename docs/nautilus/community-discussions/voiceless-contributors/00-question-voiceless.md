@@ -27,8 +27,8 @@ Mehr anzeigen
 ---
 
 **Смотрите также:**
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
+- [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-rephrasing](../../../anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+- [00-question-supply-demand](../../supply-demand/00-question-supply-demand.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
 

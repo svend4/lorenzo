@@ -1767,8 +1767,8 @@ _Обновлено: 2026-05-10_
 ---
 
 **Смотрите также:**
-- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
-- [SEARCH](docs/SEARCH.md)
-- [READING_TIME](docs/READING_TIME.md)
-- [SOURCE_MAP](docs/SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
 

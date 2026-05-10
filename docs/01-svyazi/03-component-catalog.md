@@ -46,9 +46,9 @@
 ---
 
 **Похожие документы:**
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.99)
-- [TABLES](docs/TABLES.md) (сходство 0.20)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.99)
+- [TABLES](../TABLES.md) (сходство 0.20)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -56,10 +56,10 @@
 ---
 
 **Смотрите также:**
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-- [TABLES](docs/TABLES.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [04-ensembles-overview](docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md)/04-ensembles-overview.md)
+- [03-карта-найденных-проектов-и-паттернов](../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [TABLES](../TABLES.md)
+- [04-приоритетные-ансамбли](../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [04-ensembles-overview](04-ensembles-overview.md)
 
 
 
@@ -86,10 +86,10 @@
 ---
 
 **Кто ссылается на этот документ (6):**
-- [README](docs/01-svyazi/README.md)
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
-- [DECISIONS](docs/DECISIONS.md)
-- [TABLES](docs/TABLES.md)
-- [TIMELINE](docs/TIMELINE.md)
+- [README](README.md)
+- [ACTION_ITEMS](../ACTION_ITEMS.md)
+- [BROKEN_LINKS](../BROKEN_LINKS.md)
+- [DECISIONS](../DECISIONS.md)
+- [TABLES](../TABLES.md)
+- [TIMELINE](../TIMELINE.md)
 

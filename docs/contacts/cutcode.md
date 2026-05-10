@@ -82,9 +82,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.90)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.88)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.86)
+- [zodigancode](zodigancode.md) (сходство 0.90)
+- [vladspace](vladspace.md) (сходство 0.88)
+- [tagir-analyzes](tagir-analyzes.md) (сходство 0.86)
 
 
 <!-- see-also -->
@@ -92,10 +92,10 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [zodigancode](docs/contacts/zodigancode.md)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+- [zodigancode](zodigancode.md)
+- [tagir-analyzes](tagir-analyzes.md)
+- [vladspace](vladspace.md)
+- [dmitriila](dmitriila.md)
 
 
 <!-- backlinks -->
@@ -103,7 +103,7 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (3):**
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
-- [README](docs/contacts/README.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

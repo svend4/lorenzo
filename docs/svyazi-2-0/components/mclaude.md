@@ -33,10 +33,10 @@
 ---
 
 **Смотрите также:**
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [rufler](rufler.md)
+- [knowledge-space](knowledge-space.md)
+- [yodoca](yodoca.md)
+- [memnet](memnet.md)
 
 
 <!-- backlinks -->
@@ -44,7 +44,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

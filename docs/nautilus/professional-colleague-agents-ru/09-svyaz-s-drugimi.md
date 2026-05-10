@@ -164,8 +164,8 @@ AI-помощник нет.
 ---
 
 **Смотрите также:**
-- [240-9-связь-с-другими-типами-агентов](docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md)
-- [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
-- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
+- [240-9-связь-с-другими-типами-агентов](../../02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md)
+- [01-pyat-tipov](01-pyat-tipov.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](../../02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
 

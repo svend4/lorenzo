@@ -107,5 +107,5 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [project-component](docs/templates/project-component.md)
-- [protocol-spec](docs/templates/protocol-spec.md)
+- [project-component](project-component.md)
+- [protocol-spec](protocol-spec.md)

@@ -51,8 +51,8 @@ Personalized PageRank по графу знаний (HippoRAG, Stanford/OSU)
 ---
 
 **Смотрите также:**
-- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [02-vitaly-graph-cognitive-memory](docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [13-appendix-b-examples](../../nautilus/review-methodology/13-appendix-b-examples.md)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
+- [02-formal-workflow](../../nautilus/review-methodology/02-formal-workflow.md)
 

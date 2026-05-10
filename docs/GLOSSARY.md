@@ -42,10 +42,10 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 
 
 <!-- see-also -->
@@ -53,8 +53,8 @@
 ---
 
 **Смотрите также:**
-- [MINDMAP](docs/MINDMAP.md)
-- [GRAPH](docs/GRAPH.md)
-- [NETWORK](docs/NETWORK.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
+- [MINDMAP](MINDMAP.md)
+- [GRAPH](GRAPH.md)
+- [NETWORK](NETWORK.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 

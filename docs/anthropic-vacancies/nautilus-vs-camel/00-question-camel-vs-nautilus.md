@@ -26,8 +26,8 @@ Claude hat geantwortet: Очень хороший вопрос — и он по�
 ---
 
 **Смотрите также:**
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 

@@ -57,8 +57,8 @@ docs) методология **не применяется**.
 ---
 
 **Смотрите также:**
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [08-implementation-nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [117-10-конкретный-план-применения-к-текущим-документам](../../02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [08-implementation-nautilus](08-implementation-nautilus.md)
+- [02-formal-workflow](02-formal-workflow.md)
 

@@ -244,8 +244,8 @@ emerge.
 ---
 
 **Смотрите также:**
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
-- [10-risks](docs/nautilus/composite-skills-agents/10-risks.md)
-- [04-architecture](docs/nautilus/professional-colleague-agents-en/04-architecture.md)
+- [217-6-risks-specific-to-this-category](../../02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
+- [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)
+- [10-risks](../composite-skills-agents/10-risks.md)
+- [04-architecture](04-architecture.md)
 

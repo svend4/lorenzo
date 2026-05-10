@@ -22,8 +22,8 @@ https://habr.com/ru/articles/1027724/
 ---
 
 **Смотрите также:**
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [16-people](docs/anthropic-vacancies/clusters/16-people.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
+- [13-communications](../../../anthropic-vacancies/clusters/13-communications.md)
+- [16-people](../../../anthropic-vacancies/clusters/16-people.md)
+- [13-reference-implementation](../../npp-v1-0/13-reference-implementation.md)
 

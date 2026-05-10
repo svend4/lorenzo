@@ -241,9 +241,9 @@ scores = cosine_similarity(query_vec, embeddings)
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -251,8 +251,8 @@ scores = cosine_similarity(query_vec, embeddings)
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [07-llm](docs/processing-guide/07-llm.md)
-- [05-analysis](docs/processing-guide/05-analysis.md)
-- [10-future](docs/processing-guide/10-future.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [07-llm](07-llm.md)
+- [05-analysis](05-analysis.md)
+- [10-future](10-future.md)
 

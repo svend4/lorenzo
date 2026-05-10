@@ -126,8 +126,8 @@ Alternative: Комбинация 32 (Raft multi-agent) — если нужна 
 ---
 
 **Смотрите также:**
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
-- [31-event-sourced-legal-document-history](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md)
 

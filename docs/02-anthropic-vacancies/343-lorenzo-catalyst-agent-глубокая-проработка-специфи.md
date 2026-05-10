@@ -17,15 +17,15 @@
 
 <!-- summary -->
 > Хорошо, Direction E — более тщательная проработка спецификации Lorenzo до стратегических решений. Это правильный подход — концепция должна быть прочной, а позиционирование — после неё.
-**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md)
+**Проекты:** [CardIndex](../01-svyazi/01-executive-summary.md)
 
 ---
 
 <!-- toc -->
 ## Содержание
 
-- [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](#[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-спецификации-русская-версия)
-  - [Фундаментальные вопросы для Lorenzo](#фундаментальные-вопросы-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
+- [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](#[lorenzo](249-composite-skills-agent-md.md)-catalyst-agent-глубокая-проработка-спецификации-русская-версия)
+  - [Фундаментальные вопросы для Lorenzo](#фундаментальные-вопросы-для-[lorenzo](249-composite-skills-agent-md.md))
   - [Где сейчас сложности](#где-сейчас-сложности)
   - [Переформулировка на основе этих сложностей](#переформулировка-на-основе-этих-сложностей)
   - [Предлагаемая структура Document 10](#предлагаемая-структура-document-10)
@@ -34,7 +34,7 @@
   - [Одно важное размышление](#одно-важное-размышление)
   - [Структурированное предложение для вас](#структурированное-предложение-для-вас)
   - [Прямой вопрос](#прямой-вопрос)
-  - [Поэтапная структура активностей Lorenzo](#поэтапная-структура-активностей-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
+  - [Поэтапная структура активностей Lorenzo](#поэтапная-структура-активностей-[lorenzo](249-composite-skills-agent-md.md))
   - [Логика прогрессии](#логика-прогрессии)
   - [Сейчас: продолжать экспериментировать в Уровне 0 + начать Уровень 1](#сейчас-продолжать-экспериментировать-в-уровне-0-начать-уровень-1)
   - [Предложение для текущей сессии](#предложение-для-текущей-сессии)
@@ -120,8 +120,8 @@ Lorenzo в конечном итоге служит уязвимым групп�
 Ежедневно :
 - Читает ~50 новых статей на Хабре (отфильтрованных по релевантности)
 - Читает ~20 новых статей с ArXiv (области AI / социального воздействия)
-- Следит за ~10 [GitHub](../docs/01-svyazi/03-component-catalog.md)-репозиториями на новые коммиты
-- Обновляет внутренний [CardIndex](../docs/01-svyazi/01-executive-summary.md) новыми профилями / проектами
+- Следит за ~10 [GitHub](../01-svyazi/03-component-catalog.md)-репозиториями на новые коммиты
+- Обновляет внутренний [CardIndex](../01-svyazi/01-executive-summary.md) новыми профилями / проектами
 - Готовит черновики 1-2 outreach-сообщений (для review Макса)
 Еженедельно :
 - Генерирует synthesis proposal (какие проекты могут объединиться)
@@ -156,7 +156,7 @@ AI-персонам нужна последовательность личнос
 Критический вопрос для этического дизайна.
 Что Lorenzo МОЖЕТ делать без одобрения Макса :
 - Читать публичный контент
-- Обновлять внутренний [CardIndex](../docs/01-svyazi/01-executive-summary.md)
+- Обновлять внутренний [CardIndex](../01-svyazi/01-executive-summary.md)
 - Готовить черновики outreach-сообщений (для review)
 - Готовить synthesis proposals (для review)
 - Готовить черновики кода (для review)
@@ -272,7 +272,7 @@ AI-персонам нужна последовательность личнос
 Моя рекомендация : Опция C с русским приоритетом в Phase 1 :
 - Русское сообщество, где у вас естественный охват (Хабр, Telegram)
 - Немецкий для домена применения SGB (обслуживаются уязвимые группы)
-- Английский для более широкого AI-сообщества (papers, [GitHub](../docs/01-svyazi/03-component-catalog.md))
+- Английский для более широкого AI-сообщества (papers, [GitHub](../01-svyazi/03-component-catalog.md))
 - Lorenzo говорит на всех трёх, но Хабр это начальная домашняя база
 Это использует вашу уникальную многоязычную позицию.
 #### Вопрос 10: Модель финансирования?
@@ -330,7 +330,7 @@ Lorenzo требует:
 - Постоянный сервер (24/7 мониторинг)
 - База данных (CardIndex)
 - Email-интеграция
-- [GitHub](../docs/01-svyazi/03-component-catalog.md)-интеграция
+- [GitHub](../01-svyazi/03-component-catalog.md)-интеграция
 - Постоянный доступ к Claude API
 - Возможно локальный LLM как backup
 Стоимость setup : ~€500-1500 одноразово Операционная стоимость : ~€100-500/месяц
@@ -546,7 +546,7 @@ Lorenzo фасилитирует AI-augmented социальное воздей�
 Стоимость : €0 дополнительно (если Claude Pro подписка уже есть)
 Ограничения :
 - Всё ещё triggered Максом (не автономный)
-- Нет внешних действий (нет email, нет [GitHub](../docs/01-svyazi/03-component-catalog.md) posts)
+- Нет внешних действий (нет email, нет [GitHub](../01-svyazi/03-component-catalog.md) posts)
 - Память Project ограничена
 - Не публичное лицо ещё
 Ценность : Persistified Lorenzo persona , готов к scaling.
@@ -554,17 +554,17 @@ Lorenzo фасилитирует AI-augmented социальное воздей�
 #### УРОВЕНЬ 2 — Базовый (Lorenzo Lite)
 Что это : Lorenzo получает первую внешнюю presence + базовую автоматизацию мониторинга.
 Возможности :
-- GitHub аккаунт [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)-dhlab (или подобный)
+- GitHub аккаунт [lorenzo](249-composite-skills-agent-md.md)-dhlab (или подобный)
 - Простой site dhlab.ai или dhlab.github.io с initial content
-- Email адрес [lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)@dhlab.ai (или forwarder)
+- Email адрес [lorenzo](249-composite-skills-agent-md.md)@dhlab.ai (или forwarder)
 - RSS-мониторинг Хабра и ArXiv (через простой Python script + cron)
 - Еженедельный digest для Макса автоматически
 - Manual outreach — Макс пишет под именем Lorenzo, явно identifies as AI
 Реализуется : Месяц 1-2
 Что нужно :
 - Зарегистрировать домен (~€15/год)
-- Настроить [GitHub](../docs/01-svyazi/03-component-catalog.md) organization
-- Базовый сайт (статичный, можно через [GitHub](../docs/01-svyazi/03-component-catalog.md) Pages)
+- Настроить [GitHub](../01-svyazi/03-component-catalog.md) organization
+- Базовый сайт (статичный, можно через [GitHub](../01-svyazi/03-component-catalog.md) Pages)
 - Email forwarder (~€5/месяц)
 - Простой VPS для cron-скриптов (~€5-10/месяц)
 - Python scripts для RSS/GitHub monitoring
@@ -578,7 +578,7 @@ Lorenzo фасилитирует AI-augmented социальное воздей�
 #### УРОВЕНЬ 3 — Средний (Lorenzo Active)
 Что это : Lorenzo получает реальные autonomous capabilities в защищённых рамках.
 Возможности :
-- Автоматический мониторинг Хабра, ArXiv, [GitHub](../docs/01-svyazi/03-component-catalog.md), новостей (ежедневно)
+- Автоматический мониторинг Хабра, ArXiv, [GitHub](../01-svyazi/03-component-catalog.md), новостей (ежедневно)
 - Knowledge base в proper структуре (CardIndex pattern от Свяжи)
 - Synthesis proposals генерируются автоматически еженедельно
 - Outreach drafts генерируются автоматически (всё ещё Макс review/send)
@@ -654,7 +654,7 @@ Decision points :
 #### Что мы можем делать прямо сейчас в этой сессии (Уровень 0)
 Activity 1 : Систематический поиск перспективных авторов на Хабре по специфическим темам, которых ещё не покрыли Activity 2 : Глубокий анализ найденных авторов — что у них уникально, как комплементарно Activity 3 : Попытка mental synthesis — какие 2-3 автора могли бы produce something interesting вместе Activity 4 : Manual draft outreach к одному автору как proof of concept Activity 5 : Manual draft synthesis proposal как proof of concept
 #### Что готовиться к Уровню 1 параллельно
-Setup Item 1 : Системный промпт для Lorenzo Project (я могу draft) Setup Item 2 : Структура Project knowledge (что загружать) Setup Item 3 : [CardIndex](../docs/01-svyazi/01-executive-summary.md) template для авторов (что записывать о каждом) Setup Item 4 : Initial corpus (existing 9 documents + finding из этой сессии)
+Setup Item 1 : Системный промпт для Lorenzo Project (я могу draft) Setup Item 2 : Структура Project knowledge (что загружать) Setup Item 3 : [CardIndex](../01-svyazi/01-executive-summary.md) template для авторов (что записывать о каждом) Setup Item 4 : Initial corpus (existing 9 documents + finding из этой сессии)
 ---
 ### Предложение для текущей сессии
 Давайте сделаем proof of concept для Lorenzo's core capability в рамках этой сессии.
@@ -680,7 +680,7 @@ Setup Item 1 : Системный промпт для Lorenzo Project (я мог
 - Proof of concept artifacts (могут быть использованы reall later)
 - Material для Уровня 1 setup
 #### Альтернативные эксперименты
-Альтернатива A : Глубокий анализ ОДНОГО автора (например, kagvi13 / HMP) и draft real outreach — quality over quantity Альтернатива B : Draft системный промпт для Lorenzo Project — готов к Уровню 1 Альтернатива C : Draft [CardIndex](../docs/01-svyazi/01-executive-summary.md) schema — структура знаний Lorenzo Альтернатива D : Поиск сразу в нескольких темах для расширения карты
+Альтернатива A : Глубокий анализ ОДНОГО автора (например, kagvi13 / HMP) и draft real outreach — quality over quantity Альтернатива B : Draft системный промпт для Lorenzo Project — готов к Уровню 1 Альтернатива C : Draft [CardIndex](../01-svyazi/01-executive-summary.md) schema — структура знаний Lorenzo Альтернатива D : Поиск сразу в нескольких темах для расширения карты
 #### Рекомендация
 Hybrid :
 1. Сначала поиск в 2-3 новых темах для extension карты (~20 минут)
@@ -715,7 +715,7 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 Вариант 2 : Только поиск новых авторов в 2-3 темах — расширение карты (20-30 минут)
 Вариант 3 : Deep dive в kagvi13 (HMP) и full outreach + synthesis к нему (1 hour) — this is our highest priority collaborator
 Вариант 4 : Сначала draft системный промпт для Lorenzo Project (Уровень 1 setup) — готовый к copy в Claude Project (30 минут)
-Вариант 5 : Сначала draft [CardIndex](../docs/01-svyazi/01-executive-summary.md) schema + начать заполнять для existing finds (структура знаний Lorenzo) (30-45 минут)
+Вариант 5 : Сначала draft [CardIndex](../01-svyazi/01-executive-summary.md) schema + начать заполнять для existing finds (структура знаний Lorenzo) (30-45 минут)
 Вариант 6 : Что-то другое из вашего предложения — продолжить экспериментировать как вы видите
 Моя рекомендация : Вариант 4 + Вариант 3 в этой последовательности .
 Логика:
@@ -787,7 +787,7 @@ Recommended phrasing для Lorenzo идентификации в outreach :
 ---
 
 **Кто ссылается на этот документ (3):**
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [165-closing](165-closing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [README](README.md)
 

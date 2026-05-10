@@ -81,13 +81,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (14):**
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [153-executive-summary](153-executive-summary.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
 - _...ещё 6_
 

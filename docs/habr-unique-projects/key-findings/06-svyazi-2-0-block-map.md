@@ -35,8 +35,8 @@ Claude hat geantwortet: Понял задачу: ты хочешь не один
 ---
 
 **Смотрите также:**
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- [4-summary-authors](../final-ensembles/4-summary-authors.md)
+- [02-memnet](02-memnet.md)
 

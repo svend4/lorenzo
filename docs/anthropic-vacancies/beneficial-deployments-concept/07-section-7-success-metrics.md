@@ -32,8 +32,8 @@ Pattern library growth: target N reusable case patterns by Phase 2
 ---
 
 **Смотрите также:**
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [02-section-2-beneficial-dimension](docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)
-- [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md)
+- [01-section-1-problem](01-section-1-problem.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
 

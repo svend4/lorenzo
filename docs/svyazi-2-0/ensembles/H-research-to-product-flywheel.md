@@ -36,8 +36,8 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [C-multi-agent-factory](docs/svyazi-2-0/ensembles/C-multi-agent-factory.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
+- [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [C-multi-agent-factory](C-multi-agent-factory.md)
+- [conclusions](../limitations/conclusions.md)
 

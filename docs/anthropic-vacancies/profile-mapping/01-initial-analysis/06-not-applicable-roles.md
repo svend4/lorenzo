@@ -28,8 +28,8 @@ Security Engineer уровня Offensive/Red Team — требует конкр�
 ---
 
 **Смотрите также:**
-- [01-ai-research-engineering](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+- [01-ai-research-engineering](../../clusters/01-ai-research-engineering.md)
+- [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [07-unique-niche-eu-legal-infra](07-unique-niche-eu-legal-infra.md)
 

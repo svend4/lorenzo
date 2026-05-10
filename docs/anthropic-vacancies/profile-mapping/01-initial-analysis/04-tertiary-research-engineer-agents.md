@@ -20,8 +20,8 @@ Quarternary match: Developer Education Lead / Prompt Engineer, Claude Code
 ---
 
 **Смотрите также:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [01-ai-research-engineering](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [01-ai-research-engineering](../../clusters/01-ai-research-engineering.md)
 

@@ -54,8 +54,8 @@ what exists and adapt as better infrastructure emerges.
 ---
 
 **Смотрите также:**
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [08-recursive-insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+- [282-what-industry-will-likely-build](../../02-anthropic-vacancies/282-what-industry-will-likely-build.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
 

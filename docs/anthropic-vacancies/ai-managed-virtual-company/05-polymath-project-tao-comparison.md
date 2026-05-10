@@ -81,8 +81,8 @@ Claude hat geantwortet: Переписанная версия вашего во�
 ---
 
 **Смотрите также:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
 

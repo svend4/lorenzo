@@ -153,8 +153,8 @@ broader applicability.
 ---
 
 **Смотрите также:**
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [13-closing](13-closing.md)
+- [07-economics-combinatorial](07-economics-combinatorial.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
 

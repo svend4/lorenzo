@@ -124,8 +124,8 @@
 ---
 
 **Смотрите также:**
-- [198-8-риски-и-меры-противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+- [198-8-риски-и-меры-противодействия](../../02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 

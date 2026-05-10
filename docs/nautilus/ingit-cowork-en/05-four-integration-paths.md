@@ -180,8 +180,8 @@ defers complex decisions until evidence is available.
 ---
 
 **Смотрите также:**
-- [313-5-four-integration-paths-in-order-of-accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-- [07-practical-first-steps](docs/nautilus/ingit-cowork-en/07-practical-first-steps.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+- [313-5-four-integration-paths-in-order-of-accessibility](../../02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
+- [07-practical-first-steps](07-practical-first-steps.md)
+- [03-ingit-provides](03-ingit-provides.md)
+- [02-cowork-provides](02-cowork-provides.md)
 

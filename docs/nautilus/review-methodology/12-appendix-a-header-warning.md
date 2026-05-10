@@ -50,8 +50,8 @@ transitional state:
 ---
 
 **Смотрите также:**
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 

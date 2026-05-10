@@ -22,8 +22,8 @@ Hermes здесь значительно шире. Особенно важно �
 ---
 
 **Смотрите также:**
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
-- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
-- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
+- [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
+- [11-pluses-of-hermes](11-pluses-of-hermes.md)
 

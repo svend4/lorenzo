@@ -81,13 +81,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (14):**
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 - _...ещё 6_
 

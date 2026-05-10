@@ -48,8 +48,8 @@
 ---
 
 **Смотрите также:**
-- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
-- [70-зачем-две-версии-параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+- [106-tl-dr](../../02-anthropic-vacancies/106-tl-dr.md)
+- [70-зачем-две-версии-параллельно](../../02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
 

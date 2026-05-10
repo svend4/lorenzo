@@ -43,8 +43,8 @@
 ---
 
 **Смотрите также:**
-- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
-- [19-adr-001-federation-over-merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md)
-- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [19-adr-001-federation-over-merging](19-adr-001-federation-over-merging.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
 

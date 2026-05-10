@@ -60,10 +60,10 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 ---
 
 **Смотрите также:**
-- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+- [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
+- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
 
 
 <!-- backlinks -->
@@ -71,7 +71,7 @@ ROI: Self-maintaining corpus, stale precedents auto-archive
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
 

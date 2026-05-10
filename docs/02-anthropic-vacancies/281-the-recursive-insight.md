@@ -142,13 +142,13 @@ work.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-- [282-what-industry-will-likely-build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [168-abstract](168-abstract.md)
+- [266-13-closing](266-13-closing.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [278-why-this-hasn-t-been-built](278-why-this-hasn-t-been-built.md)
+- [282-what-industry-will-likely-build](282-what-industry-will-likely-build.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
 - _...ещё 3_
 

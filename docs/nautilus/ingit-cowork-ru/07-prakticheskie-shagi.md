@@ -102,8 +102,8 @@ MCP сервера. Не реализовывать пока; сначала
 ---
 
 **Смотрите также:**
-- [333-7-практические-первые-шаги-в-этом-месяце](docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md)
-- [DUPLICATES](docs/DUPLICATES.md)
-- [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+- [333-7-практические-первые-шаги-в-этом-месяце](../../02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md)
+- [DUPLICATES](../../DUPLICATES.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+- [07-difference-2-domain-specialization](../../anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
 

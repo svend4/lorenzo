@@ -46,8 +46,8 @@ BIM/Engineering Coach — тот же паттерн для инженерных
 ---
 
 **Смотрите также:**
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [6-continuous-eval-loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
-- [3-forensic-rag](docs/ai-collaborations/ensembles/3-forensic-rag.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md)
+- [3-forensic-rag](3-forensic-rag.md)
 

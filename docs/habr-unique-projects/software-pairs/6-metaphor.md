@@ -34,8 +34,8 @@
 ---
 
 **Смотрите также:**
-- [7-metaphor](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
+- [7-metaphor](../hardware-pairs/7-metaphor.md)
+- [6-bonus-rram-memristor](../hardware-pairs/6-bonus-rram-memristor.md)
+- [3-crdt-self-hosted](3-crdt-self-hosted.md)
+- [3-discovery-research](../final-ensembles/3-discovery-research.md)
 

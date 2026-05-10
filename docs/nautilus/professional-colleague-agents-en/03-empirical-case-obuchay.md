@@ -172,8 +172,8 @@ unchanged remains to be measured.
 ---
 
 **Смотрите также:**
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+- [214-3-empirical-case-study-обучай](../../02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
+- [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
 

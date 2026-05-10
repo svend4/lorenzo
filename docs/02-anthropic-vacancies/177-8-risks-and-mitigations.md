@@ -157,9 +157,9 @@ lose the social and negotiation skills they currently have.
 ---
 
 **Похожие документы:**
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.14)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.14)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md) (сходство 0.14)
+- [179-10-open-questions](179-10-open-questions.md) (сходство 0.14)
+- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -167,10 +167,10 @@ lose the social and negotiation skills they currently have.
 ---
 
 **Смотрите также:**
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
-- [175-6-ethical-framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
+- [179-10-open-questions](179-10-open-questions.md)
+- [175-6-ethical-framework](175-6-ethical-framework.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
 
 
 <!-- backlinks -->
@@ -178,11 +178,11 @@ lose the social and negotiation skills they currently have.
 ---
 
 **Кто ссылается на этот документ (7):**
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [217-6-risks-specific-to-this-category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [217-6-risks-specific-to-this-category](217-6-risks-specific-to-this-category.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [263-10-risks-specific-to-composite-architectures](263-10-risks-specific-to-composite-architectures.md)
+- [README](README.md)
 

@@ -26,7 +26,7 @@
 
 <!-- summary -->
 > Поиск вёлся с приоритетом на **Хабр как первичный слой описания идеи** и на **репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса**.
-**Проекты:** Svyazi[^svyazi], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Legal RAG[^rag], Graph RAG
+**Проекты:** Svyazi[^svyazi], [LiteParse](01-executive-summary.md), Legal RAG[^rag], Graph RAG
 
 ---
 <!-- tags: rag, security, ingestion, architecture, roadmap, collaboration -->
@@ -78,8 +78,8 @@
 ---
 
 **Похожие документы:**
-- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.74)
-- [README](docs/04-ai-collaborations/README.md) (сходство 0.11)
+- [02-методика-и-рамка-отбора](../04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.74)
+- [README](../04-ai-collaborations/README.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -87,10 +87,10 @@
 ---
 
 **Смотрите также:**
-- [02-методика-и-рамка-отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [DUPLICATES](docs/DUPLICATES.md)
+- [02-методика-и-рамка-отбора](../04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md)
+- [05-план-прототипа-и-возможные-контакты](../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [DUPLICATES](../DUPLICATES.md)
 
 
 

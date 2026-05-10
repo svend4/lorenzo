@@ -24,8 +24,8 @@
 ---
 
 **Смотрите также:**
-- [budget-routing](docs/svyazi-2-0/security/budget-routing.md)
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-- [voice-stack](docs/svyazi-2-0/components/voice-stack.md)
+- [budget-routing](budget-routing.md)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](../../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [voice-stack](../components/voice-stack.md)
 

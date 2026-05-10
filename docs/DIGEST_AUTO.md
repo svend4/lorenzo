@@ -42,7 +42,7 @@ _Период: 2026-05-03 — 2026-05-10 (7 дней)_
 
 ## Новые файлы
 
-- [`README.md`](docs/meta-scripting/README.md) — `meta-scripting`
+- [`README.md`](meta-scripting/README.md) — `meta-scripting`
 - [`211559110a051804.json`](cards/211559110a051804.json) — `root`
 - [`372bafbfb0972e2a.json`](cards/372bafbfb0972e2a.json) — `root`
 - [`42ca0accd4efec67.json`](cards/42ca0accd4efec67.json) — `root`
@@ -53,28 +53,28 @@ _Период: 2026-05-03 — 2026-05-10 (7 дней)_
 - [`improve_card_index.py`](scripts/improve_card_index.py) — `Скрипты`
 - [`recipe_history.json`](scripts/recipe_history.json) — `Скрипты`
 - [`utils_card_envelope.py`](scripts/utils_card_envelope.py) — `Скрипты`
-- [`PROTOTYPE_SPEC.md`](docs/PROTOTYPE_SPEC.md) — `PROTOTYPE_SPEC.md`
+- [`PROTOTYPE_SPEC.md`](PROTOTYPE_SPEC.md) — `PROTOTYPE_SPEC.md`
 - [`improve_recipe.py`](scripts/improve_recipe.py) — `Скрипты`
 - [`improve_search_repl.py`](scripts/improve_search_repl.py) — `Скрипты`
-- [`01-concept.md`](docs/meta-scripting/01-concept.md) — `meta-scripting`
+- [`01-concept.md`](meta-scripting/01-concept.md) — `meta-scripting`
 
 ## Изменённые файлы
 
-- [`03-component-catalog.md`](docs/01-svyazi/03-component-catalog.md)
-- [`07-mvp-planning.md`](docs/01-svyazi/07-mvp-planning.md)
-- [`09-architectural-gaps.md`](docs/01-svyazi/09-architectural-gaps.md)
-- [`10-second-order-ensembles.md`](docs/01-svyazi/10-second-order-ensembles.md)
-- [`11-integration-contracts.md`](docs/01-svyazi/11-integration-contracts.md)
-- [`QA.md`](docs/01-svyazi/QA.md)
-- [`00-intro.md`](docs/02-anthropic-vacancies/00-intro.md)
-- [`03-portal-protocol-md.md`](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [`04-abstract.md`](docs/02-anthropic-vacancies/04-abstract.md)
-- [`05-0-status-of-this-document.md`](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [`06-1-introduction.md`](docs/02-anthropic-vacancies/06-1-introduction.md)
-- [`07-2-terminology.md`](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [`08-3-registry-nautilus-json.md`](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [`09-4-passport-passport-md.md`](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [`103-appendix-b-change-log.md`](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+- [`03-component-catalog.md`](01-svyazi/03-component-catalog.md)
+- [`07-mvp-planning.md`](01-svyazi/07-mvp-planning.md)
+- [`09-architectural-gaps.md`](01-svyazi/09-architectural-gaps.md)
+- [`10-second-order-ensembles.md`](01-svyazi/10-second-order-ensembles.md)
+- [`11-integration-contracts.md`](01-svyazi/11-integration-contracts.md)
+- [`QA.md`](01-svyazi/QA.md)
+- [`00-intro.md`](02-anthropic-vacancies/00-intro.md)
+- [`03-portal-protocol-md.md`](02-anthropic-vacancies/03-portal-protocol-md.md)
+- [`04-abstract.md`](02-anthropic-vacancies/04-abstract.md)
+- [`05-0-status-of-this-document.md`](02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [`06-1-introduction.md`](02-anthropic-vacancies/06-1-introduction.md)
+- [`07-2-terminology.md`](02-anthropic-vacancies/07-2-terminology.md)
+- [`08-3-registry-nautilus-json.md`](02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [`09-4-passport-passport-md.md`](02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [`103-appendix-b-change-log.md`](02-anthropic-vacancies/103-appendix-b-change-log.md)
 
 ## Ключевые слова изменений
 

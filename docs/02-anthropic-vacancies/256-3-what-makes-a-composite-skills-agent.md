@@ -243,13 +243,13 @@ agents inherit this distinction.
 ---
 
 **Кто ссылается на этот документ (12):**
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-- [259-6-coordination-and-disagreement-resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [259-6-coordination-and-disagreement-resolution](259-6-coordination-and-disagreement-resolution.md)
 - _...ещё 4_
 

@@ -81,10 +81,10 @@ json
 ---
 
 **Кто ссылается на этот документ (6):**
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [122-глоссарий](122-глоссарий.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [130-отладка](130-отладка.md)
+- [README](README.md)
 

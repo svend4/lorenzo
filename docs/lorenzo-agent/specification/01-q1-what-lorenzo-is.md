@@ -83,8 +83,8 @@ Avoids autonomy controversies while preserving brand benefits
 ---
 
 **Смотрите также:**
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
-- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
-- [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- [05-q5-authority-limits](05-q5-authority-limits.md)
+- [06-q6-accountability](06-q6-accountability.md)
 

@@ -390,8 +390,8 @@ _...и ещё 370 пар._
 ---
 
 **Смотрите также:**
-- [SEARCH](docs/SEARCH.md)
-- [READING_TIME](docs/READING_TIME.md)
-- [SOURCE_MAP](docs/SOURCE_MAP.md)
-- [READING_ORDER](docs/READING_ORDER.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [READING_ORDER](READING_ORDER.md)
 

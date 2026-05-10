@@ -215,10 +215,10 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
-- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [12-content-overview](02-anthropic-vacancies/12-content-overview.md)
+- [31-content-overview](02-anthropic-vacancies/31-content-overview.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 
 
 <!-- see-also -->
@@ -226,8 +226,8 @@
 ---
 
 **Смотрите также:**
-- [BROKEN_LINKS](docs/BROKEN_LINKS.md)
-- [CITATION_INDEX](docs/CITATION_INDEX.md)
-- [CONTACTS](docs/CONTACTS.md)
-- [anastasiyaw](docs/contacts/anastasiyaw.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONTACTS](CONTACTS.md)
+- [anastasiyaw](contacts/anastasiyaw.md)
 

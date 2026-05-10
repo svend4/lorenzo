@@ -213,8 +213,8 @@
 ---
 
 **Смотрите также:**
-- [194-4-десять-областей-применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md)
-- [12-zaklyuchenie](docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md)
-- [207-приложение-c-образцы-случаев-использования-в-детал](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-- [07-oblasti-primeneniya](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
+- [194-4-десять-областей-применения](../../02-anthropic-vacancies/194-4-десять-областей-применения.md)
+- [12-zaklyuchenie](12-zaklyuchenie.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [07-oblasti-primeneniya](../professional-colleague-agents-ru/07-oblasti-primeneniya.md)
 

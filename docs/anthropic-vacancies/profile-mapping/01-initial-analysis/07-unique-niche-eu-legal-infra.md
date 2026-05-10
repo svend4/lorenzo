@@ -20,8 +20,8 @@
 ---
 
 **Смотрите также:**
-- [11-legal](docs/anthropic-vacancies/clusters/11-legal.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [06-not-applicable-roles](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)
+- [11-legal](../../clusters/11-legal.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [06-not-applicable-roles](06-not-applicable-roles.md)
 

@@ -156,13 +156,13 @@ walking it.
 ---
 
 **Кто ссылается на этот документ (12):**
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
+- [168-abstract](168-abstract.md)
+- [181-12-closing](181-12-closing.md)
+- [223-12-closing](223-12-closing.md)
+- [252-abstract](252-abstract.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [267-acknowledgments](267-acknowledgments.md)
 - _...ещё 4_
 

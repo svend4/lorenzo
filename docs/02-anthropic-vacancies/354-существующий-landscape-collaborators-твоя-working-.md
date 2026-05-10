@@ -10,7 +10,7 @@
 
 <!-- summary -->
 > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):
-**Проекты:** CardIndex, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), NGT Memory, Wikontic
+**Проекты:** CardIndex, [knowledge-space](../01-svyazi/03-component-catalog.md), NGT Memory, Wikontic
 
 ---
 <!-- tags: memory, knowledge, ingestion, roadmap, anthropic, collaboration -->
@@ -25,7 +25,7 @@
 **Tier 1 — highest priority collaborators**:
 - **kagvi13 (HMP — HyperCortex Mesh Protocol)**: Decentralized cognitive mesh для AI agents. github.com/kagvi13/HMP. Версии HMP-0001→HMP-0005. Активная разработка. Это direct architectural twin to Nautilus Portal Protocol, но more developed.
 - **Анастасия (Happyin Knowledge Space)**: 785 articles в 26 domains, knowledge written for AI consumption (not humans). happyin.space, github.com/AnastasiyaW/knowledge-space (MIT).
-- **Андрей Чуян (Свяжи)**: Hybrid LLM + deterministic extraction для community profiles. [CardIndex](../docs/01-svyazi/01-executive-summary.md) single source of truth. Closed code, но explicit invitation в comments.
+- **Андрей Чуян (Свяжи)**: Hybrid LLM + deterministic extraction для community profiles. [CardIndex](../01-svyazi/01-executive-summary.md) single source of truth. Closed code, но explicit invitation в comments.
 - **Виталий (Graph cognitive memory in SQLite)**: Single-file SQLite implementation с episodic+semantic nodes, hybrid search (FTS5+vector+graph), Ebbinghaus forgetting curve. habr.com/ru/articles/1006622/.
 
 **Tier 2 — strong supporting expertise**:
@@ -49,10 +49,10 @@
 ---
 
 **Смотрите также:**
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [WORD_FREQ](../WORD_FREQ.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [136-abstract](136-abstract.md)
+- [ENTITIES](../ENTITIES.md)
 
 
 <!-- similar-docs -->
@@ -60,9 +60,9 @@
 ---
 
 **Похожие документы:**
-- [KEYWORD_INDEX](docs/KEYWORD_INDEX.md) (сходство 0.17)
-- [CONSISTENCY](docs/CONSISTENCY.md) (сходство 0.16)
-- [NETWORK](docs/NETWORK.md) (сходство 0.14)
+- [KEYWORD_INDEX](../KEYWORD_INDEX.md) (сходство 0.17)
+- [CONSISTENCY](../CONSISTENCY.md) (сходство 0.16)
+- [NETWORK](../NETWORK.md) (сходство 0.14)
 
 
 <!-- backlinks -->
@@ -70,8 +70,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [136-abstract](136-abstract.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [364-final-note-ты-experiment](364-final-note-ты-experiment.md)
+- [README](README.md)
 

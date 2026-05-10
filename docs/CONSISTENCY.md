@@ -158,8 +158,8 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ---
 
 **Смотрите также:**
-- [MISSING](docs/MISSING.md)
-- [TAGS](docs/TAGS.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [STATS](docs/STATS.md)
+- [MISSING](MISSING.md)
+- [TAGS](TAGS.md)
+- [GLOSSARY](GLOSSARY.md)
+- [STATS](STATS.md)
 

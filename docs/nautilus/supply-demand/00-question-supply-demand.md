@@ -24,8 +24,8 @@ Mehr anzeigen
 ---
 
 **Смотрите также:**
-- [00-question-mountain-to-person](docs/nautilus/transmission-box/00-question-mountain-to-person.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [00-question-habr-2](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+- [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [05-platform-not-position](../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+- [00-question-habr-2](../community-discussions/habr-article-2-reaction/00-question-habr-2.md)
 

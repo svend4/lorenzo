@@ -489,9 +489,9 @@ for qa in load_json("docs/qa_cache.json"):
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -499,8 +499,8 @@ for qa in load_json("docs/qa_cache.json"):
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [07-llm](docs/processing-guide/07-llm.md)
-- [05-analysis](docs/processing-guide/05-analysis.md)
-- [06-search](docs/processing-guide/06-search.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [07-llm](07-llm.md)
+- [05-analysis](05-analysis.md)
+- [06-search](06-search.md)
 

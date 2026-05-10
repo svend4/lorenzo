@@ -26,8 +26,8 @@
 ---
 
 **Смотрите также:**
-- [361-когда-ты-honestly-не-знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [361-когда-ты-honestly-не-знаешь](../02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [18-escalate-to-max](18-escalate-to-max.md)
+- [09-voobshche-nelzya](09-voobshche-nelzya.md)
 

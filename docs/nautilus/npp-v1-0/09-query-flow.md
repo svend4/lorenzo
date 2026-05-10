@@ -46,8 +46,8 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ---
 
 **Смотрите также:**
-- [10-query-flow](docs/nautilus/npp-v1-1/10-query-flow.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [10-query-flow](../npp-v1-1/10-query-flow.md)
+- [21-9-query-flow](../../02-anthropic-vacancies/21-9-query-flow.md)
+- [85-10-query-flow](../../02-anthropic-vacancies/85-10-query-flow.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
 

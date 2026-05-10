@@ -192,8 +192,8 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 ---
 
 **Смотрите также:**
-- [ORPHANS](docs/ORPHANS.md)
-- [STALENESS](docs/STALENESS.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [STATS](docs/STATS.md)
+- [ORPHANS](ORPHANS.md)
+- [STALENESS](STALENESS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [STATS](STATS.md)
 

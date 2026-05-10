@@ -142,8 +142,8 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 ---
 
 **Смотрите также:**
-- [88-13-rest-api-contract-normative-for-portals](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+- [88-13-rest-api-contract-normative-for-portals](../../02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
+- [07-portal-entry](07-portal-entry.md)
+- [17-versioning-policy](17-versioning-policy.md)
+- [06-adapter-interface](06-adapter-interface.md)
 

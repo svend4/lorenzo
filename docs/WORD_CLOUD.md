@@ -44,9 +44,9 @@
 ---
 
 **Похожие документы:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md) (сходство 0.30)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
-- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.30)
+- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
+- [304-ingit-as-cowork-native-workspace-substrate-md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
 
 
 <!-- see-also -->
@@ -54,10 +54,10 @@
 ---
 
 **Смотрите также:**
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [65-readme-md](docs/02-anthropic-vacancies/65-readme-md.md)
-- [305-a-practical-path-to-layer-b-through-symbiotic-inte](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [65-readme-md](02-anthropic-vacancies/65-readme-md.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
 
 
 <!-- backlinks -->
@@ -65,10 +65,10 @@
 ---
 
 **Кто ссылается на этот документ (6):**
-- [304-ingit-as-cowork-native-workspace-substrate-md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [INDEX](docs/INDEX.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [304-ingit-as-cowork-native-workspace-substrate-md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 

@@ -90,8 +90,8 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 ---
 
 **Смотрите также:**
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+- [81-6-adapter-interface](../../02-anthropic-vacancies/81-6-adapter-interface.md)
+- [18-6-adapter-interface](../../02-anthropic-vacancies/18-6-adapter-interface.md)
+- [07-portal-entry](07-portal-entry.md)
+- [16-mcp-extension](16-mcp-extension.md)
 

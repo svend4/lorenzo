@@ -47,8 +47,8 @@ NPP-compatible, если они:
 ---
 
 **Смотрите также:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [14-sdk](docs/nautilus/npp-v1-1/14-sdk.md)
+- [93-18-reference-implementation](../../02-anthropic-vacancies/93-18-reference-implementation.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+- [25-13-reference-implementation](../../02-anthropic-vacancies/25-13-reference-implementation.md)
+- [14-sdk](14-sdk.md)
 

@@ -69,5 +69,5 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [decision-record](docs/templates/decision-record.md)
-- [contact-outreach](docs/templates/contact-outreach.md)
+- [decision-record](decision-record.md)
+- [contact-outreach](contact-outreach.md)

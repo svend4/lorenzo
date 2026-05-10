@@ -75,8 +75,8 @@
 ---
 
 **Смотрите также:**
-- [197-7-управление-и-надзор](docs/02-anthropic-vacancies/197-7-управление-и-надзор.md)
-- [DUPLICATES](docs/DUPLICATES.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+- [197-7-управление-и-надзор](../../02-anthropic-vacancies/197-7-управление-и-надзор.md)
+- [DUPLICATES](../../DUPLICATES.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 

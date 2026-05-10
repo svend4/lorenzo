@@ -81,9 +81,9 @@
 ---
 
 **Похожие документы:**
-- [268-references](docs/02-anthropic-vacancies/268-references.md) (сходство 0.12)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) (сходство 0.12)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
+- [268-references](268-references.md) (сходство 0.12)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md) (сходство 0.12)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -91,10 +91,10 @@
 ---
 
 **Смотрите также:**
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
-- [320-references](docs/02-anthropic-vacancies/320-references.md)
-- [268-references](docs/02-anthropic-vacancies/268-references.md)
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
+- [320-references](320-references.md)
+- [268-references](268-references.md)
+- [338-ссылки](338-ссылки.md)
 
 
 <!-- backlinks -->
@@ -102,13 +102,13 @@
 ---
 
 **Кто ссылается на этот документ (11):**
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [320-references](docs/02-anthropic-vacancies/320-references.md)
-- [338-ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [320-references](320-references.md)
+- [338-ссылки](338-ссылки.md)
 - _...ещё 3_
 

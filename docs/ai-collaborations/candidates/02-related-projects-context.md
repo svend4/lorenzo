@@ -28,8 +28,8 @@
 ---
 
 **Смотрите также:**
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
-- [01-yodoca](docs/habr-unique-projects/key-findings/01-yodoca.md)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
+- [01-three-key-candidates](01-three-key-candidates.md)
+- [03-synthesis-hebbian-collaboration-graph](03-synthesis-hebbian-collaboration-graph.md)
+- [01-yodoca](../../habr-unique-projects/key-findings/01-yodoca.md)
 

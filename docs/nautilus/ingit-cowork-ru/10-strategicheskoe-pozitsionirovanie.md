@@ -185,8 +185,8 @@ InGit папкой) немедленно
 ---
 
 **Смотрите также:**
-- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
-- [08-implikatsii-nautilus-okwf](docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md)
-- [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
-- [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+- [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
+- [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
+- [09-riski-voprosy](09-riski-voprosy.md)
 

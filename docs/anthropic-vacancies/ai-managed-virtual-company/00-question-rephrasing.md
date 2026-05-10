@@ -53,8 +53,8 @@ Claude hat geantwortet: Я понял вашу мысль.
 ---
 
 **Смотрите также:**
-- [05-platform-not-position](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [09-minuses-and-risks](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
-- [03-three-variants-A-B-C](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+- [05-platform-not-position](../profile-mapping/03-integral-final/05-platform-not-position.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [09-minuses-and-risks](09-minuses-and-risks.md)
+- [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
 

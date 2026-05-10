@@ -127,10 +127,10 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 ---
 
 **Смотрите также:**
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [14-local-first-agent-development-environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- [14-local-first-agent-development-environment](14-local-first-agent-development-environment.md)
 
 
 <!-- backlinks -->
@@ -138,8 +138,8 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 

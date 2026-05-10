@@ -42,7 +42,7 @@ April 2026:
 - **Anthropic**: 440 open positions, primarily senior roles at 
   $320K–$405K compensation
 - **OpenAI**: estimated 600+ open positions
-- **Google [DeepMind](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)**: estimated 400+ open positions
+- **Google [DeepMind](01-интегральный-анализ-профиля-svend4.md)**: estimated 400+ open positions
 - **Mistral, Cohere, Inflection, xAI**: collectively 1000+ open 
   positions
 
@@ -178,13 +178,13 @@ coordinated action now.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [156-2-target-populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [273-infrastructure-for-ai-collaborative-intellectual-w](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
-- [281-the-recursive-insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [153-executive-summary](153-executive-summary.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [156-2-target-populations](156-2-target-populations.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
 - _...ещё 1_
 

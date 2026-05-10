@@ -89,13 +89,13 @@
 ---
 
 **Кто ссылается на этот документ (15):**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [136-abstract](136-abstract.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 - _...ещё 7_
 

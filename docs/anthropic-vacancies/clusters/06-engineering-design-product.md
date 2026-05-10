@@ -18,8 +18,8 @@
 ---
 
 **Смотрите также:**
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
-- [16-people](docs/anthropic-vacancies/clusters/16-people.md)
-- [04-security](docs/anthropic-vacancies/clusters/04-security.md)
+- [13-communications](13-communications.md)
+- [09-product-management-support-ops](09-product-management-support-ops.md)
+- [16-people](16-people.md)
+- [04-security](04-security.md)
 

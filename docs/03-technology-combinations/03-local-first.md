@@ -23,7 +23,7 @@
 
 <!-- summary -->
 > - Сложные архитектурные → Claude Opus
-**Проекты:** Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md), Yjs
+**Проекты:** Svyazi, [CardIndex](../01-svyazi/01-executive-summary.md), Yjs
 
 ---
 <!-- tags: rag, knowledge, ingestion, local-first, architecture, collaboration -->
@@ -32,7 +32,7 @@
 
 
 локальная Qwen3:8B
-- Средние → облачная [DeepSeek](../docs/05-habr-projects/memory/memnet.md)
+- Средние → облачная [DeepSeek](../05-habr-projects/memory/memnet.md)
 - Сложные архитектурные → Claude Opus
 - Роутер перед каждым агентом, не после
 Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.
@@ -41,10 +41,10 @@
 #### Комбинация 3: CRDT local-first × Svyazi CardIndex
 Родители:
 - CRDT / RON / Yjs (habr.com/ru/articles/534510/, habr.com/ru/articles/946722/) — conflict-free replicated data types, p2p синхронизация
-- Svyazi [CardIndex](../docs/01-svyazi/01-executive-summary.md) — YAML-структура профилей с хешами для дедупликации
+- Svyazi [CardIndex](../01-svyazi/01-executive-summary.md) — YAML-структура профилей с хешами для дедупликации
 Дети:
 3.1 P2P-граф сообщества без центрального сервера Сейчас Svyazi — single-user система. С CRDT:
-- Каждый участник ведёт локальный [CardIndex](../docs/01-svyazi/01-executive-summary.md)
+- Каждый участник ведёт локальный [CardIndex](../01-svyazi/01-executive-summary.md)
 - Изменения синхронизируются p2p через Yjs
 - Конфликты (два человека обновили профиль одного участника) мержатся автоматически
 - Никакого центрального сервера — privacy by design
@@ -118,7 +118,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [README](docs/03-technology-combinations/README.md)
+- [01-agent-routing](01-agent-routing.md)
+- [05-benchmarks](05-benchmarks.md)
+- [README](README.md)
 

@@ -30,8 +30,8 @@ Sustainability risk: solo developer may burn out → mitigated by documenting ev
 ---
 
 **Смотрите также:**
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
 

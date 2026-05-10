@@ -152,7 +152,7 @@ Synthesized local-first and CRDT insights, exploring unconventional applications
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [README](docs/03-technology-combinations/README.md)
+- [01-agent-routing](01-agent-routing.md)
+- [03-local-first](03-local-first.md)
+- [README](README.md)
 

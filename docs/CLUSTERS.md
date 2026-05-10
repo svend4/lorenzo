@@ -364,10 +364,10 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 ---
 
 **Смотрите также:**
-- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
-- [SEARCH](docs/SEARCH.md)
-- [READING_ORDER](docs/READING_ORDER.md)
-- [SOURCE_MAP](docs/SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [SEARCH](SEARCH.md)
+- [READING_ORDER](READING_ORDER.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
 
 
 <!-- backlinks -->
@@ -375,13 +375,13 @@ _...и ещё 101 малых кластеров (по 1-2 файла)_
 ---
 
 **Кто ссылается на этот документ (9):**
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [211-table-of-contents](02-anthropic-vacancies/211-table-of-contents.md)
+- [307-abstract](02-anthropic-vacancies/307-abstract.md)
+- [308-table-of-contents](02-anthropic-vacancies/308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 - _...ещё 1_
 

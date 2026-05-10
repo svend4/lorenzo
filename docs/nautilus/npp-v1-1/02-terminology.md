@@ -79,8 +79,8 @@ Repo к экосистеме (A–E, см. раздел 12).
 ---
 
 **Смотрите также:**
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [05-compatibility-levels](docs/nautilus/npp-v1-1/05-compatibility-levels.md)
+- [77-2-terminology](../../02-anthropic-vacancies/77-2-terminology.md)
+- [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)
+- [03-registry](03-registry.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
 

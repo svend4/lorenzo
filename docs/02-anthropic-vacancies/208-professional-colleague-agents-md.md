@@ -91,13 +91,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (25):**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [136-abstract](136-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - _...ещё 17_
 

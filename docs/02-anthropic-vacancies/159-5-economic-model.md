@@ -153,9 +153,9 @@ to minimum dignity threshold; upward is merit-based.
 ---
 
 **Похожие документы:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.18)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.16)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.15)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md) (сходство 0.18)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md) (сходство 0.16)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -163,10 +163,10 @@ to minimum dignity threshold; upward is merit-based.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [158-4-proposed-infrastructure](158-4-proposed-infrastructure.md)
+- [163-9-call-for-partnership](163-9-call-for-partnership.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
 
 
 <!-- backlinks -->
@@ -174,8 +174,8 @@ to minimum dignity threshold; upward is merit-based.
 ---
 
 **Кто ссылается на этот документ (4):**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
+- [README](README.md)
 

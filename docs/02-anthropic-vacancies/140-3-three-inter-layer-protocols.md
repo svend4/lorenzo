@@ -75,7 +75,7 @@ integrates team-level outputs. M does not see internal Node
 processes, only public deliverables.
 
 **Existing implementations:** Partial, fragmented. Jira with AI 
-triage, Linear with AI suggestions, [GitHub](../docs/01-svyazi/03-component-catalog.md) Projects with 
+triage, Linear with AI suggestions, [GitHub](../01-svyazi/03-component-catalog.md) Projects with 
 automation. None implement the full protocol, all require 
 significant human management intervention.
 
@@ -108,7 +108,7 @@ Instead, it issues a structured query that travels: A → N → M →
 N' → A' → response back through the chain.
 
 **Existing implementations:** None in production systems. Closest 
-analog: [GitHub](../docs/01-svyazi/03-component-catalog.md) Copilot Workspace can see other team members' 
+analog: [GitHub](../01-svyazi/03-component-catalog.md) Copilot Workspace can see other team members' 
 public code but cannot negotiate with their assistants. 
 Anthropic's Managed Agents API moves toward this but does not 
 implement full cross-triangle negotiation.
@@ -225,10 +225,10 @@ in distributed systems, adapted for human-AI hybrid execution.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [136-abstract](136-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [README](README.md)
 

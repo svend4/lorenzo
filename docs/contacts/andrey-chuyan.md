@@ -73,7 +73,7 @@ Svyazi закрывает слой «ingestion/CardIndex» в архитекту
 
 ## Открытые вопросы
 
-1. Стоит ли расширять [CardIndex](../docs/01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы?
+1. Стоит ли расширять [CardIndex](../01-svyazi/01-executive-summary.md) до person/project/episode/evidence или лучше держать разные индексы?
 2. [Вопрос 2]
 
 ---
@@ -84,9 +84,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [nlaik](docs/contacts/nlaik.md) (сходство 0.70)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.67)
+- [nlaik](nlaik.md) (сходство 0.70)
+- [antipozitive](antipozitive.md) (сходство 0.70)
+- [vladspace](vladspace.md) (сходство 0.67)
 
 
 <!-- see-also -->
@@ -94,10 +94,10 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
 
 
 <!-- backlinks -->
@@ -105,7 +105,7 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (3):**
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
-- [README](docs/contacts/README.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

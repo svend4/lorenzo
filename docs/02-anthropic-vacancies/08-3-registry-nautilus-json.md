@@ -122,9 +122,9 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 ---
 
 **Похожие документы:**
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.52)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.16)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.15)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.52)
+- [07-2-terminology](07-2-terminology.md) (сходство 0.16)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -132,10 +132,10 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 ---
 
 **Смотрите также:**
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](19-7-portalentry-structure.md)
+- [07-2-terminology](07-2-terminology.md)
 
 
 <!-- backlinks -->
@@ -143,9 +143,9 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 ---
 
 **Кто ссылается на этот документ (5):**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [74-abstract](74-abstract.md)
+- [README](README.md)
 

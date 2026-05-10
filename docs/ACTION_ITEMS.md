@@ -13,7 +13,7 @@
   _→ 07-mvp-planning_
 - Yodoca или agent-memory-mcp. citeturn22view5turn18search1turn15search3 |  
   _→ 07-mvp-planning_
-- интереснее: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) становится не просто хранилищем знаний, а приёмником результатов ночных иссле  
+- интереснее: [knowledge-space](01-svyazi/03-component-catalog.md) становится не просто хранилищем знаний, а приёмником результатов ночных иссле  
   _→ 10-second-order-ensembles_
 - — **не искать ещё двадцать новых проектов**, а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write  
   _→ 14-limitations_
@@ -29,7 +29,7 @@
   _→ 01-интегральный-анализ-профиля-svend4_
 - переходим к опции A — PORTAL-PROTOCOL.md. Для неё мне понадобятся passports/info1.md , passports/pro2.md , passports/meta.md , плюс portal.py целиком,  
   _→ 01-интегральный-анализ-профиля-svend4_
-- как отозвали токен, есть три безопасных способа прислать мне base.py , info1.py , [nautilus](../docs/05-habr-projects/memory/memnet.md).json :  
+- как отозвали токен, есть три безопасных способа прислать мне base.py , info1.py , [nautilus](05-habr-projects/memory/memnet.md).json :  
   _→ 01-интегральный-анализ-профиля-svend4_
 - полностью возвращаемся к работе без overhead на security-тему.  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -153,7 +153,7 @@
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
 - от одного агента к ансамблю агентов  
   _→ CONCEPTS_
-- _→ [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
+- _→ [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_  
   _→ CONCEPTS_
 - за вами: либо я могу составить конкретный чек-лист для ш  
   _→ DECISIONS_
@@ -1051,7 +1051,7 @@ _(324 дублей скрыто)_
   _→ FOOTNOTES_
 - | ██ 6.7 | 0.5 | 0.3 | ▓▓ 4.1 | 0.1 |  
   _→ HEATMAP_
-- агентов? [[Глобальный Q&A](docs/QA.md)]  
+- агентов? [[Глобальный Q&A](QA.md)]  
   _→ KNOWLEDGE_MAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
@@ -1238,7 +1238,7 @@ _(632 дублей скрыто)_
   _→ 14-limitations_
 - доступа к полному списку репозиториев  
   _→ 00-intro_
-- [GitHub](../docs/01-svyazi/03-component-catalog.md) на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned  
+- [GitHub](01-svyazi/03-component-catalog.md) на crawling. Поэтому сделаю так: сейчас детально разберу то, к чему у меня есть доступ (два pinned  
   _→ 00-intro_
 - (честно)](#что-не-подходит-честно)  
   _→ 00-intro_
@@ -1350,7 +1350,7 @@ _(632 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - и открытые вопросы (0 сл., строка 19)  
   _→ EMPTY_SECTIONS_
-- и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыdocs02-anthropic-vacancies1  
+- и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыdocs02-anthropic-vacancies1  
   _→ OUTLINE_
 - текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftdocs02-  
   _→ OUTLINE_
@@ -1504,7 +1504,7 @@ _(13 дублей скрыто)_
   _→ 01-интегральный-анализ-профиля-svend4_
 - draft за 2-3 сессии.  
   _→ 01-интегральный-анализ-профиля-svend4_
-- [nautilus](../docs/05-habr-projects/memory/memnet.md)/README.md отдельно от корн  
+- [nautilus](05-habr-projects/memory/memnet.md)/README.md отдельно от корн  
   _→ 01-интегральный-анализ-профиля-svend4_
 - PORTAL-PROTOCOL.md как formal specification v1.0. Минимум 8–12 страниц: (1) goal  
   _→ 01-интегральный-анализ-профиля-svend4_
@@ -1686,8 +1686,8 @@ _(153 дублей скрыто)_
 ---
 
 **Смотрите также:**
-- [CONCEPTS](docs/CONCEPTS.md)
-- [READABILITY](docs/READABILITY.md)
-- [TABLES](docs/TABLES.md)
-- [LANGUAGE_STATS](docs/LANGUAGE_STATS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [READABILITY](READABILITY.md)
+- [TABLES](TABLES.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
 

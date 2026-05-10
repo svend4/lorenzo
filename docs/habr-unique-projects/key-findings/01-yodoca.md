@@ -34,10 +34,10 @@ https://habr.com/ru/articles/1006622/
 ---
 
 **Смотрите также:**
-- [01-synthesis](docs/05-habr-projects/01-synthesis.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
+- [01-synthesis](../../05-habr-projects/01-synthesis.md)
+- [02-memnet](02-memnet.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- [02-related-projects](../analogues/02-related-projects.md)
 
 
 <!-- backlinks -->
@@ -45,8 +45,8 @@ https://habr.com/ru/articles/1006622/
 ---
 
 **Кто ссылается на этот документ (4):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/key-findings/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

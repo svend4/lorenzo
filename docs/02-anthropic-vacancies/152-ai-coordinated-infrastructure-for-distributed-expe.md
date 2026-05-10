@@ -79,12 +79,12 @@
 ---
 
 **Кто ссылается на этот документ (8):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [135-a-formal-model-for-human-ai-collaboration-in-distr](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
-- [167-ai-mediated-representation-for-underrepresented-ex](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [52-author-contact](docs/02-anthropic-vacancies/52-author-contact.md)
-- [73-portal-protocol-md-v1-1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [135-a-formal-model-for-human-ai-collaboration-in-distr](135-a-formal-model-for-human-ai-collaboration-in-distr.md)
+- [167-ai-mediated-representation-for-underrepresented-ex](167-ai-mediated-representation-for-underrepresented-ex.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [52-author-contact](52-author-contact.md)
+- [73-portal-protocol-md-v1-1](73-portal-protocol-md-v1-1.md)
+- [README](README.md)
 

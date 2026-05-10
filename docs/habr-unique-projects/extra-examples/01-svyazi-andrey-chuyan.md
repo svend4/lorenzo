@@ -37,8 +37,8 @@ Privacy by design
 ---
 
 **Смотрите также:**
-- [02-vshe-scientific-networking](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md)
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
-- [svyazi](docs/svyazi-2-0/components/svyazi.md)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+- [02-vshe-scientific-networking](02-vshe-scientific-networking.md)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
+- [svyazi](../../svyazi-2-0/components/svyazi.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
 

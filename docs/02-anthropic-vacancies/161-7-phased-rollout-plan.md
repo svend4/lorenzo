@@ -200,9 +200,9 @@ qualified individuals regardless of traditional constraints.
 ---
 
 **Кто ссылается на этот документ (5):**
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [153-executive-summary](153-executive-summary.md)
+- [162-8-risk-analysis](162-8-risk-analysis.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [README](README.md)
 

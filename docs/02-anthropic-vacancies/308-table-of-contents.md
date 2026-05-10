@@ -98,13 +98,13 @@
 ---
 
 **Кто ссылается на этот документ (10):**
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [307-abstract](307-abstract.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [326-содержание](326-содержание.md)
 - _...ещё 2_
 

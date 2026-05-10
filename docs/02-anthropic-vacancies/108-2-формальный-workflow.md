@@ -118,9 +118,9 @@ merge-conflict error. С заголовком — понимает осмысл�
 ---
 
 **Похожие документы:**
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md) (сходство 0.18)
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
-- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md) (сходство 0.14)
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../05-habr-projects/memory/memnet.md).md) (сходство 0.18)
+- [117-10-конкретный-план-применения-к-текущим-документам](117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.14)
+- [106-tl-dr](106-tl-dr.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -128,10 +128,10 @@ merge-conflict error. С заголовком — понимает осмысл�
 ---
 
 **Смотрите также:**
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md)
-- [117-10-конкретный-план-применения-к-текущим-документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
-- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
-- [COMPLEXITY](docs/COMPLEXITY.md)
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../05-habr-projects/memory/memnet.md).md)
+- [117-10-конкретный-план-применения-к-текущим-документам](117-10-конкретный-план-применения-к-текущим-документам.md)
+- [106-tl-dr](106-tl-dr.md)
+- [COMPLEXITY](../COMPLEXITY.md)
 
 
 <!-- backlinks -->
@@ -139,10 +139,10 @@ merge-conflict error. С заголовком — понимает осмысл�
 ---
 
 **Кто ссылается на этот документ (6):**
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [106-tl-dr](docs/02-anthropic-vacancies/106-tl-dr.md)
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [106-tl-dr](106-tl-dr.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [122-глоссарий](122-глоссарий.md)
+- [72-расписание-фазы-3](72-расписание-фазы-3.md)
+- [README](README.md)
 

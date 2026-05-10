@@ -81,13 +81,13 @@
 ---
 
 **Кто ссылается на этот документ (17):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [131-ограничения-текущей-версии-0-1-0-draft](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [04-abstract](04-abstract.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [131-ограничения-текущей-версии-0-1-0-draft](131-ограничения-текущей-версии-0-1-0-draft.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [326-содержание](326-содержание.md)
 - _...ещё 9_
 

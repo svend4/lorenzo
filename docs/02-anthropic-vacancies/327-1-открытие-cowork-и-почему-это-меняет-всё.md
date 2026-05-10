@@ -42,7 +42,7 @@
 Когда Документ 2.3 был написан ранее в этой
 сессии, автор и сотрудник сформулировали пробел
 Слоя B как по существу незаполненный. Мы
-обозрели Anthropic Projects, [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions,
+обозрели Anthropic Projects, [GitHub](../01-svyazi/03-component-catalog.md) Discussions,
 Notion, Obsidian и различные комбинации — и
 заключили, что никакой существующий инструмент
 адекватно не обслуживал устойчивую AI-совместную
@@ -161,9 +161,9 @@ Cowork не имеет.
 ---
 
 **Похожие документы:**
-- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.12)
-- [325-аннотация](docs/02-anthropic-vacancies/325-аннотация.md) (сходство 0.10)
-- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.10)
+- [328-2-что-cowork-обеспечивает-что-[ingit](306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.12)
+- [325-аннотация](325-аннотация.md) (сходство 0.10)
+- [295-конкретный-случай-перед-нами](295-конкретный-случай-перед-нами.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -171,10 +171,10 @@ Cowork не имеет.
 ---
 
 **Смотрите также:**
-- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
-- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
-- [325-аннотация](docs/02-anthropic-vacancies/325-аннотация.md)
-- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [328-2-что-cowork-обеспечивает-что-[ingit](306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [295-конкретный-случай-перед-нами](295-конкретный-случай-перед-нами.md)
+- [325-аннотация](325-аннотация.md)
+- [329-3-что-[ingit](306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
 
 
 <!-- backlinks -->
@@ -182,9 +182,9 @@ Cowork не имеет.
 ---
 
 **Кто ссылается на этот документ (5):**
-- [303-приложение-визуализация-позиции-в-серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
-- [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
+- [326-содержание](326-содержание.md)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [README](README.md)
 

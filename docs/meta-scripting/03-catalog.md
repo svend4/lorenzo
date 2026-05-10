@@ -127,8 +127,8 @@ python scripts/improve_self.py --catalog --query "group:none"
 ---
 
 **Смотрите также:**
-- [04-enrichment](docs/meta-scripting/04-enrichment.md)
-- [01-concept](docs/meta-scripting/01-concept.md)
-- [05-synthesis](docs/meta-scripting/05-synthesis.md)
-- [02-architecture](docs/meta-scripting/02-architecture.md)
+- [04-enrichment](04-enrichment.md)
+- [01-concept](01-concept.md)
+- [05-synthesis](05-synthesis.md)
+- [02-architecture](02-architecture.md)
 

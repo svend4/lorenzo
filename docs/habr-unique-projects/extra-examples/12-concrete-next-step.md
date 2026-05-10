@@ -55,8 +55,8 @@ Honest reflection
 ---
 
 **Смотрите также:**
-- [11-concrete-potential-collaborator](docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md)
-- [10-profession-specific-workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
-- [09-federated-platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+- [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
+- [10-profession-specific-workflows](10-profession-specific-workflows.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [09-federated-platform](09-federated-platform.md)
 

@@ -225,8 +225,8 @@ incremental rather than novel.
 ---
 
 **Смотрите также:**
-- [219-8-pilot-proposal-sgb-advocate-colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+- [219-8-pilot-proposal-sgb-advocate-colleague](../../02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
+- [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
+- [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)
+- [10-appendices](../okwf-concept/10-appendices.md)
 

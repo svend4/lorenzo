@@ -40,8 +40,8 @@ Identified working potential collaborators (HMP, Свяжи, etc.)
 ---
 
 **Смотрите также:**
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+- [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
 

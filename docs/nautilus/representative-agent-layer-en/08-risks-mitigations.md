@@ -120,8 +120,8 @@ for inclusion of those who never had the skills
 ---
 
 **Смотрите также:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
-- [05-architectural-specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+- [177-8-risks-and-mitigations](../../02-anthropic-vacancies/177-8-risks-and-mitigations.md)
+- [10-open-questions](10-open-questions.md)
+- [05-architectural-specification](05-architectural-specification.md)
+- [06-ethical-framework](06-ethical-framework.md)
 

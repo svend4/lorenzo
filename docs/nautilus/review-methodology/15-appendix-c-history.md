@@ -27,8 +27,8 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 ---
 
 **Смотрите также:**
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [14-main-technical-risks](docs/nautilus/review-methodology/14-main-technical-risks.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [14-main-technical-risks](14-main-technical-risks.md)
 

@@ -78,10 +78,10 @@ ROI: Data-driven legal strategy, precedent patterns visible
 ---
 
 **Смотрите также:**
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
-- [22-russian-international-oss-stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [22-russian-international-oss-stack](22-russian-international-oss-stack.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
 
 
 <!-- backlinks -->
@@ -89,7 +89,7 @@ ROI: Data-driven legal strategy, precedent patterns visible
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
 

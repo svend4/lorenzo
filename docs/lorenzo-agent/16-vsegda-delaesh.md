@@ -29,8 +29,8 @@
 ---
 
 **Смотрите также:**
-- [360-что-ты-всегда-делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
+- [360-что-ты-всегда-делаешь](../02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
+- [09-voobshche-nelzya](09-voobshche-nelzya.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [08-bez-max-approval](08-bez-max-approval.md)
 

@@ -17,7 +17,7 @@
 
 <!-- summary -->
 > The Open Knowledge Work Foundation is proposed as response
-**Проекты:** Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md)
+**Проекты:** Svyazi, [CardIndex](../01-svyazi/01-executive-summary.md)
 
 ---
 
@@ -29,7 +29,7 @@
   - [Три стратегии использования этого документа](#три-стратегии-использования-этого-документа)
   - [Что я бы сделал следующим](#что-я-бы-сделал-следующим)
   - [Final observation](#final-observation)
-  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-[svyazi](../docs/01-svyazi/00-intro-part2.md))
+  - [Что описывает статья — суть проекта Svyazi](#что-описывает-статья-суть-проекта-[svyazi](../01-svyazi/00-intro-part2.md))
   - [Прямые параллели с вашей работой](#прямые-параллели-с-вашей-работой)
   - [Что у Андрея отличается от вашей архитектуры](#что-у-андрея-отличается-от-вашей-архитектуры)
   - [Что конкретно можно взять из проекта Свйази в вашу работу](#что-конкретно-можно-взять-из-проекта-свйази-в-вашу-работу)
@@ -40,7 +40,7 @@
   - [Цитата из статьи Андрея](#цитата-из-статьи-андрея)
   - [Ландшафт того, чтоуже существует— и где именно ниша Свйази](#ландшафт-того-чтоуже-существует-и-где-именно-ниша-свйази)
   - [Что яне нашёлв существующих решениях — гдеуникальная ниша Свйази](#что-яне-нашёлв-существующих-решениях-гдеуникальная-ниша-свйази)
-  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-[nautilus](../docs/05-habr-projects/memory/memnet.md))
+  - [Что это значит для проекта OKWF и Nautilus](#что-это-значит-для-проекта-okwf-и-[nautilus](../05-habr-projects/memory/memnet.md))
   - [Самый интересный вопрос — могут ли быть voiceless контрибьюторы](#самый-интересный-вопрос-могут-ли-быть-voiceless-контрибьюторы)
   - [Honest assessment ниши](#honest-assessment-ниши)
   - [Конкретные рекомендации к действию](#конкретные-рекомендации-к-действию)
@@ -89,7 +89,7 @@ academic institutions, policy organizations, and individuals.
 Your feedback is welcome. Your participation is valued. Your 
 critique is essential.
 
-Contact: via [GitHub](../docs/01-svyazi/03-component-catalog.md) issues at 
+Contact: via [GitHub](../01-svyazi/03-component-catalog.md) issues at 
 [github.com/svend4/nautilus](https://github.com/svend4/nautilus) 
 until formal foundation launch.
 
@@ -593,13 +593,13 @@ Story тверже становится. «Infrastructure для distributed wor
 ---
 
 **Кто ссылается на этот документ (9):**
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-- [341-приложение-c-образец-спецификаций-инструментов-ing](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [01-интегральный-анализ-профиля-svend4](01-интегральный-анализ-профиля-svend4.md)
+- [133-обратная-связь](133-обратная-связь.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
 - _...ещё 1_
 

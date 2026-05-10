@@ -59,8 +59,8 @@ English. Рекомендуется формат с параллельными �
 ---
 
 **Кто ссылается на этот документ (4):**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [62-author-contact](62-author-contact.md)
+- [README](README.md)
 

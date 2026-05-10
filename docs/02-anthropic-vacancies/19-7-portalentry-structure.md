@@ -60,7 +60,7 @@ class PortalEntry:
 ---
 
 **Похожие документы:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.25)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md) (сходство 0.25)
 
 
 <!-- see-also -->
@@ -68,10 +68,10 @@ class PortalEntry:
 ---
 
 **Смотрите также:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [81-6-adapter-interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [81-6-adapter-interface](81-6-adapter-interface.md)
 
 
 <!-- backlinks -->
@@ -79,10 +79,10 @@ class PortalEntry:
 ---
 
 **Кто ссылается на этот документ (6):**
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [23-11-security-considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [23-11-security-considerations](23-11-security-considerations.md)
+- [74-abstract](74-abstract.md)
+- [README](README.md)
 

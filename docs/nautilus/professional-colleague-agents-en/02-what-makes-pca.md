@@ -155,8 +155,8 @@ to discuss work with."
 ---
 
 **Смотрите также:**
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [01-five-type-typology](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
-- [09-relationship-other-agents](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
-- [03-empirical-case-obuchay](docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md)
+- [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
 

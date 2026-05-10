@@ -36,8 +36,8 @@
 ---
 
 **Смотрите также:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [08-pluses-of-model](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [07-current-implementations](07-current-implementations.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [08-pluses-of-model](08-pluses-of-model.md)
 

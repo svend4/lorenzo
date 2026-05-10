@@ -32,8 +32,8 @@ Hermes designed для general-purpose autonomous agency. Self-improvement, mult
 ---
 
 **Смотрите также:**
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [05-similarity-5-self-hosting-privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
-- [04-similarity-4-multi-platform](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
+- [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 

@@ -14,8 +14,8 @@
 В качестве иллюстраций используется экосистема `svend4` с тремя 
 Repos:
 
-- **[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)**: 74 документа с α-уровнями, методологический угол
-- **[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)**: Q6-концепты, граф знаний, семантический угол
+- **[info1](01-интегральный-анализ-профиля-svend4.md)**: 74 документа с α-уровнями, методологический угол
+- **[pro2](01-интегральный-анализ-профиля-svend4.md)**: Q6-концепты, граф знаний, семантический угол
 - **meta**: 256 CA-правил, гексаграммы, символьный угол
 
 Эти Repos служат reference examples для тестирования NPP-совместимых 
@@ -28,9 +28,9 @@ implementations.
 ---
 
 **Похожие документы:**
-- [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) (сходство 0.33)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md) (сходство 0.18)
-- [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.16)
+- [97-22-glossary-of-reference-examples](97-22-glossary-of-reference-examples.md) (сходство 0.33)
+- [55-passports-meta-md](55-passports-meta-md.md) (сходство 0.18)
+- [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -38,10 +38,10 @@ implementations.
 ---
 
 **Смотрите также:**
-- [97-22-glossary-of-reference-examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [35-passports-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [45-passports-[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
+- [97-22-glossary-of-reference-examples](97-22-glossary-of-reference-examples.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [35-passports-[info1](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
+- [45-passports-[pro2](01-интегральный-анализ-профиля-svend4.md)-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 
 
 <!-- backlinks -->
@@ -49,12 +49,12 @@ implementations.
 ---
 
 **Кто ссылается на этот документ (8):**
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [67-о-проекте](67-о-проекте.md)
+- [README](README.md)
 

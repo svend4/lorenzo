@@ -100,8 +100,8 @@ return list(visited.keys())
 ---
 
 **Смотрите также:**
-- [83-8-q6-space-normative](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [20-adr-002-q6-first-class](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
-- [13-rest-api](docs/nautilus/npp-v1-1/13-rest-api.md)
+- [83-8-q6-space-normative](../../02-anthropic-vacancies/83-8-q6-space-normative.md)
+- [07-portal-entry](07-portal-entry.md)
+- [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
+- [13-rest-api](13-rest-api.md)
 

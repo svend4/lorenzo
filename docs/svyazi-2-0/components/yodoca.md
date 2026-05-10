@@ -34,10 +34,10 @@
 ---
 
 **Смотрите также:**
-- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md)
-- [memnet](docs/svyazi-2-0/components/memnet.md)
-- [mclaude](docs/svyazi-2-0/components/mclaude.md)
-- [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
+- [ngt-memory](ngt-memory.md)
+- [memnet](memnet.md)
+- [mclaude](mclaude.md)
+- [ai-factory](ai-factory.md)
 
 
 <!-- backlinks -->
@@ -45,8 +45,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

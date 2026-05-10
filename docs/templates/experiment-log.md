@@ -82,5 +82,5 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [decision-record](docs/templates/decision-record.md)
-- [research-note](docs/templates/research-note.md)
+- [decision-record](decision-record.md)
+- [research-note](research-note.md)

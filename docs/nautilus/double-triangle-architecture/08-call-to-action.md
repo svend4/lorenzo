@@ -154,8 +154,8 @@ Contact: via GitHub issues at
 ---
 
 **Смотрите также:**
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
-- [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+- [145-8-call-to-action](../../02-anthropic-vacancies/145-8-call-to-action.md)
+- [06-four-deployment-domains](06-four-deployment-domains.md)
+- [07-open-questions](07-open-questions.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
 

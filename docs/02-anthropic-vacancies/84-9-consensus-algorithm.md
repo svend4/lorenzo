@@ -131,8 +131,8 @@ v2.0 MAY использовать:
 ---
 
 **Похожие документы:**
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.34)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.12)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md) (сходство 0.34)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -140,10 +140,10 @@ v2.0 MAY использовать:
 ---
 
 **Смотрите также:**
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
-- [86-11-relevance-ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
-- [85-10-query-flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md)
+- [86-11-relevance-ranking](86-11-relevance-ranking.md)
+- [85-10-query-flow](85-10-query-flow.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
 
 
 <!-- backlinks -->
@@ -151,7 +151,7 @@ v2.0 MAY использовать:
 ---
 
 **Кто ссылается на этот документ (3):**
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [README](README.md)
 

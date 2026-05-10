@@ -76,8 +76,8 @@ AI-вспомогательной разработки новых аспекто
 ---
 
 **Смотрите также:**
-- [299-практические-рекомендации-для-текущего-проекта](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [295-конкретный-случай-перед-нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
+- [299-практические-рекомендации-для-текущего-проекта](../../02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [295-конкретный-случай-перед-нами](../../02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
 

@@ -105,8 +105,8 @@ python scan_repo.py owner/repo-name
 ---
 
 **Смотрите также:**
-- [87-12-onboarding-paths-normative](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
-- [21-adr-003-five-onboarding-paths](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
-- [03-registry](docs/nautilus/npp-v1-1/03-registry.md)
-- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+- [87-12-onboarding-paths-normative](../../02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
+- [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
+- [03-registry](03-registry.md)
+- [02-terminology](02-terminology.md)
 

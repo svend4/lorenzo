@@ -230,9 +230,9 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -240,8 +240,8 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [07-llm](docs/processing-guide/07-llm.md)
-- [research-summary](docs/autofilled/research-summary.md)
-- [ONBOARDING](docs/ONBOARDING.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [07-llm](07-llm.md)
+- [research-summary](../autofilled/research-summary.md)
+- [ONBOARDING](../ONBOARDING.md)
 

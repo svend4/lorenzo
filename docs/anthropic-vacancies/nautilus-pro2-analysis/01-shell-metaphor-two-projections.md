@@ -26,8 +26,8 @@
 ---
 
 **Смотрите также:**
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
-- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [00-question-two-nautiluses](00-question-two-nautiluses.md)
+- [15-glossary](../../nautilus/npp-v1-0/15-glossary.md)
+- [13-reference-implementation](../../nautilus/npp-v1-0/13-reference-implementation.md)
+- [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
 

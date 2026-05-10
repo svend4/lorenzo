@@ -57,8 +57,8 @@ Fantastical: коллективный интеллект с AI-mediated consensu
 ---
 
 **Смотрите также:**
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [02-four-structural-blockers](docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [02-four-structural-blockers](02-four-structural-blockers.md)
 

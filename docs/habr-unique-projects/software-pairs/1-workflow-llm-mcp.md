@@ -28,8 +28,8 @@ Event-driven legal watcher — Huginn собирает RSS/обновления 
 ---
 
 **Смотрите также:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [5-browser-agents-headless](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
+- [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
+- [5-browser-agents-headless](5-browser-agents-headless.md)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
+- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
 

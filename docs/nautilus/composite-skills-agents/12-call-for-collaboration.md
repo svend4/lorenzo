@@ -83,8 +83,8 @@ match actual technology architecture.
 ---
 
 **Смотрите также:**
-- [265-12-call-for-collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
-- [222-11-call-for-collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+- [265-12-call-for-collaboration](../../02-anthropic-vacancies/265-12-call-for-collaboration.md)
+- [222-11-call-for-collaboration](../../02-anthropic-vacancies/222-11-call-for-collaboration.md)
+- [11-open-questions](11-open-questions.md)
+- [11-call-for-collaboration](../representative-agent-layer-en/11-call-for-collaboration.md)
 

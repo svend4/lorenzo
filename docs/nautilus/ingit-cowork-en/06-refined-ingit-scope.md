@@ -88,8 +88,8 @@ better outcomes.
 ---
 
 **Смотрите также:**
-- [314-6-refined-ingit-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
-- [03-ingit-provides](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
-- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](../../02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [03-ingit-provides](03-ingit-provides.md)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
 

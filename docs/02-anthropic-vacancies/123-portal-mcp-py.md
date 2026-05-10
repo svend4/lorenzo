@@ -816,13 +816,13 @@ if __name__ == "__main__":
 ---
 
 **Кто ссылается на этот документ (21):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [130-отладка](docs/02-anthropic-vacancies/130-отладка.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [130-отладка](130-отладка.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [154-table-of-contents](154-table-of-contents.md)
 - _...ещё 13_
 

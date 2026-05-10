@@ -285,9 +285,9 @@ python scripts/improve_version_diff.py --last 10
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -295,8 +295,8 @@ python scripts/improve_version_diff.py --last 10
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [06-search](docs/processing-guide/06-search.md)
-- [10-future](docs/processing-guide/10-future.md)
-- [07-llm](docs/processing-guide/07-llm.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [06-search](06-search.md)
+- [10-future](10-future.md)
+- [07-llm](07-llm.md)
 

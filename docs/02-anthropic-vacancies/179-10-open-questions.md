@@ -126,9 +126,9 @@ of whether ethical frameworks keep pace.
 ---
 
 **Похожие документы:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.14)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.13)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md) (сходство 0.12)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.14)
+- [264-11-open-questions](264-11-open-questions.md) (сходство 0.13)
+- [181-12-closing](181-12-closing.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -136,10 +136,10 @@ of whether ethical frameworks keep pace.
 ---
 
 **Смотрите также:**
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [181-12-closing](181-12-closing.md)
+- [264-11-open-questions](264-11-open-questions.md)
+- [223-12-closing](223-12-closing.md)
 
 
 <!-- backlinks -->
@@ -147,13 +147,13 @@ of whether ethical frameworks keep pace.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [181-12-closing](181-12-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [223-12-closing](223-12-closing.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
 - _...ещё 3_
 

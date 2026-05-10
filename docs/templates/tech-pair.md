@@ -110,5 +110,5 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [mega-stack](docs/templates/mega-stack.md)
+- [ensemble](ensemble.md)
+- [mega-stack](mega-stack.md)

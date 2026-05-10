@@ -40,7 +40,7 @@
 ---
 
 **Смотрите также:**
-- [56-essence](docs/02-anthropic-vacancies/56-essence.md)
+- [56-essence](56-essence.md)
 
 
 <!-- similar-docs -->
@@ -48,7 +48,7 @@
 ---
 
 **Похожие документы:**
-- [56-essence](docs/02-anthropic-vacancies/56-essence.md) (сходство 0.13)
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md) (сходство 0.12)
-- [60-bridges](docs/02-anthropic-vacancies/60-bridges.md) (сходство 0.12)
+- [56-essence](56-essence.md) (сходство 0.13)
+- [12-content-overview](12-content-overview.md) (сходство 0.12)
+- [60-bridges](60-bridges.md) (сходство 0.12)
 

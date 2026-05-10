@@ -229,9 +229,9 @@ python scripts/mcp_server.py  # stdio режим
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -239,8 +239,8 @@ python scripts/mcp_server.py  # stdio режим
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [09-automation](docs/processing-guide/09-automation.md)
-- [01-overview](docs/processing-guide/01-overview.md)
-- [10-future](docs/processing-guide/10-future.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [09-automation](09-automation.md)
+- [01-overview](01-overview.md)
+- [10-future](10-future.md)
 

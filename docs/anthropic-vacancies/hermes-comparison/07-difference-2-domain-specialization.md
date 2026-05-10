@@ -26,8 +26,8 @@ Hermes не имеет этого domain layer. Чтобы превратить 
 ---
 
 **Смотрите также:**
-- [01-similarity-1-composite-skills](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+- [01-similarity-1-composite-skills](01-similarity-1-composite-skills.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 

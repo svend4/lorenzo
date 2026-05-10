@@ -32,10 +32,10 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 ---
 
 **Смотрите также:**
-- [03-pda-llm-as-periphery](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
-- [5-browser-agents-headless](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+- [03-pda-llm-as-periphery](../key-findings/03-pda-llm-as-periphery.md)
+- [5-browser-agents-headless](../software-pairs/5-browser-agents-headless.md)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
 
 
 <!-- backlinks -->
@@ -43,7 +43,7 @@ Self-aware legal MCP — агент знает «сейчас 26 апреля 20
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/habr-unique-projects/deep-pairs/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

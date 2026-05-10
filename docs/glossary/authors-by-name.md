@@ -52,8 +52,8 @@
 ---
 
 **Смотрите также:**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [CONTACTS](docs/CONTACTS.md)
-- [source-projects](docs/ai-collaborations/source-projects.md)
+- [components-by-name](components-by-name.md)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [CONTACTS](../CONTACTS.md)
+- [source-projects](../ai-collaborations/source-projects.md)
 

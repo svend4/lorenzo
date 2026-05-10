@@ -30,7 +30,7 @@
 4. Portal параллельно вызывает `adapter.fetch(q)` для всех выбранных
 5. Portal собирает `results_by_repo: dict[str, list[PortalEntry]]`
 6. Portal вычисляет consensus через алгоритм раздела 8
-7. Portal возвращает `[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)`
+7. Portal возвращает `[QueryResult](02-общий-план-развития-nautilus-portal-protocol.md)`
 
 ### 9.2. Parallelism
 
@@ -42,7 +42,7 @@ Repos.
 
 Если один adapter падает (exception, timeout), Portal MUST:
 
-- Включить этот репо в `errors` список [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- Включить этот репо в `errors` список [QueryResult](02-общий-план-развития-nautilus-portal-protocol.md)
 - Продолжить обработку остальных
 - Не падать целиком
 
@@ -111,8 +111,8 @@ Timeout per adapter RECOMMENDED: 10 секунд.
 ---
 
 **Кто ссылается на этот документ (4):**
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [90-15-security-considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [90-15-security-considerations](90-15-security-considerations.md)
+- [README](README.md)
 

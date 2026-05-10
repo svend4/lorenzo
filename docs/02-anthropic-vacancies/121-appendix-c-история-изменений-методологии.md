@@ -72,10 +72,10 @@ IMPLEMENTATION_STAGE_PART_*.md в апреле 2026.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [16-history](docs/02-anthropic-vacancies/16-history.md)
-- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
-- [206-приложение-b-матрица-сравнения-областей](docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md)
-- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [16-history](16-history.md)
+- [185-appendix-b-domain-comparison-matrix](185-appendix-b-domain-comparison-matrix.md)
+- [206-приложение-b-матрица-сравнения-областей](206-приложение-b-матрица-сравнения-областей.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [README](README.md)
 

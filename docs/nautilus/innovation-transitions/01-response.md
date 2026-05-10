@@ -301,8 +301,8 @@ Focused action > parallel ambition.
 ---
 
 **Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [01-completing-loop](docs/nautilus/transmission-box/01-completing-loop.md)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [00-question-innovations-transitions](00-question-innovations-transitions.md)
+- [01-completing-loop](../transmission-box/01-completing-loop.md)
 

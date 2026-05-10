@@ -31,8 +31,8 @@ vault в Obsidian + RAG над corpus-ом юридических докумен
 ---
 
 **Смотрите также:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [2-autoresearch-legal](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md)
-- [4-summary-authors](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+- [3-discovery-research](3-discovery-research.md)
+- [2-autoresearch-legal](2-autoresearch-legal.md)
+- [4-summary-authors](4-summary-authors.md)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
 

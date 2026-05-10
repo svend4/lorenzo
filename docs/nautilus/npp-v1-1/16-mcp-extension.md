@@ -34,8 +34,8 @@ MCP wrapper (`portal-mcp.py` в reference implementation) SHOULD
 ---
 
 **Смотрите также:**
-- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+- [91-16-mcp-extension-informative](../../02-anthropic-vacancies/91-16-mcp-extension-informative.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
 

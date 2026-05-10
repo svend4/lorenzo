@@ -18,8 +18,8 @@ Product Manager по Claude Code, API Growth, Consumer, Monetization, Multi-Clou
 ---
 
 **Смотрите также:**
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [14-public-policy](docs/anthropic-vacancies/clusters/14-public-policy.md)
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
+- [13-communications](13-communications.md)
+- [14-public-policy](14-public-policy.md)
+- [15-public-benefit](15-public-benefit.md)
+- [12-technical-program-management](12-technical-program-management.md)
 

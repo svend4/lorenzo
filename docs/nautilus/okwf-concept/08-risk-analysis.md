@@ -170,8 +170,8 @@ within acceptable range for mission-driven foundation launch.
 ---
 
 **Смотрите также:**
-- [162-8-risk-analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+- [162-8-risk-analysis](../../02-anthropic-vacancies/162-8-risk-analysis.md)
+- [07-phased-rollout](07-phased-rollout.md)
+- [04-proposed-infrastructure](04-proposed-infrastructure.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
 

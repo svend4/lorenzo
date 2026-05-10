@@ -58,8 +58,8 @@
 ---
 
 **Смотрите также:**
-- [09-architectural-gaps](docs/01-svyazi/09-architectural-gaps.md)
-- [09-архитектурные-зазоры-которые-важнее-новых-инструме](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
-- [QA](docs/QA.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [09-architectural-gaps](../../01-svyazi/09-architectural-gaps.md)
+- [09-архитектурные-зазоры-которые-важнее-новых-инструме](../../04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
+- [QA](../../QA.md)
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
 

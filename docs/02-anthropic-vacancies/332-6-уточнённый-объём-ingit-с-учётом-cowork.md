@@ -17,7 +17,7 @@
 <!-- toc-auto -->
 ## Contents
 
-- [6. Уточнённый объём InGit с учётом Cowork](#6-уточнённый-объём-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork)
+- [6. Уточнённый объём InGit с учётом Cowork](#6-уточнённый-объём-[ingit](306-with-anthropic-s-cowork-platform.md)-с-учётом-cowork)
   - [6.1. Новая Фаза 1 (Месяцы 1-3): Подложка MVP](#61-новая-фаза-1-месяцы-1-3-подложка-mvp)
   - [6.2. Новая Фаза 2 (Месяцы 3-6): MCP Сервер](#62-новая-фаза-2-месяцы-3-6-mcp-сервер)
   - [6.3. Новая Фаза 3 (Месяцы 6-12): Принятие и Уточнение](#63-новая-фаза-3-месяцы-6-12-принятие-и-уточнение)
@@ -72,7 +72,7 @@
 MCP.
 
 **Поставки**:
-- Python пакет `[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-mcp-server`
+- Python пакет `[ingit](306-with-anthropic-s-cowork-platform.md)-mcp-server`
 - 15-20 инструментов, покрывающих основные
   операции
 - Open source релиз
@@ -88,7 +88,7 @@ MCP.
 
 **Поставки**:
 - Инструменты миграции (Notion, Obsidian,
-  [GitHub](../docs/01-svyazi/03-component-catalog.md))
+  [GitHub](../01-svyazi/03-component-catalog.md))
 - Уточнения на основе обратной связи
   пользователей
 - Расширение документации
@@ -129,9 +129,9 @@ MCP.
 ---
 
 **Похожие документы:**
-- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.15)
-- [331-5-четыре-пути-интеграции-в-порядке-доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) (сходство 0.11)
-- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.10)
+- [328-2-что-cowork-обеспечивает-что-[ingit](306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.15)
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md) (сходство 0.11)
+- [329-3-что-[ingit](306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -139,10 +139,10 @@ MCP.
 ---
 
 **Смотрите также:**
-- [328-2-что-cowork-обеспечивает-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
-- [331-5-четыре-пути-интеграции-в-порядке-доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-- [329-3-что-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [328-2-что-cowork-обеспечивает-что-[ingit](306-with-anthropic-s-cowork-platform.md)-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](331-5-четыре-пути-интеграции-в-порядке-доступности.md)
+- [329-3-что-[ingit](306-with-anthropic-s-cowork-platform.md)-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [326-содержание](326-содержание.md)
 
 
 <!-- backlinks -->
@@ -150,10 +150,10 @@ MCP.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [229-профессиональные-коллеги-агенты](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md)
-- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
-- [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
-- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [229-профессиональные-коллеги-агенты](229-профессиональные-коллеги-агенты.md)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
+- [326-содержание](326-содержание.md)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
+- [README](README.md)
 

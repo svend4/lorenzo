@@ -30,8 +30,8 @@ Daten70, судя по названию-паттерну (Daten = нем. «да
 ---
 
 **Смотрите также:**
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [01-three-archetypes](docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
+- [02-primary-fde](02-primary-fde.md)
 

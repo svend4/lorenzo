@@ -182,8 +182,8 @@
 ---
 
 **Смотрите также:**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [PRIORITIES](docs/PRIORITIES.md)
-- [source-projects](docs/ai-collaborations/source-projects.md)
+- [authors-by-name](authors-by-name.md)
+- [concepts](concepts.md)
+- [PRIORITIES](../PRIORITIES.md)
+- [source-projects](../ai-collaborations/source-projects.md)
 

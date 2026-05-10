@@ -32,10 +32,10 @@
 ---
 
 **Смотрите также:**
-- [hybrid-rag](docs/svyazi-2-0/components/hybrid-rag.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
-- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md)
+- [hybrid-rag](hybrid-rag.md)
+- [yodoca](yodoca.md)
+- [graph-rag](graph-rag.md)
+- [research-docs-liteparse](research-docs-liteparse.md)
 
 
 <!-- backlinks -->
@@ -43,8 +43,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

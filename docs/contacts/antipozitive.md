@@ -35,7 +35,7 @@ tags: [контакты, команда]
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором [MemNet](../docs/01-svyazi/01-executive-summary.md) -->
+<!-- summary: Шаблон для связи с автором [MemNet](../01-svyazi/01-executive-summary.md) -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -82,9 +82,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [nlaik](docs/contacts/nlaik.md) (сходство 0.87)
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.84)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.82)
+- [nlaik](nlaik.md) (сходство 0.87)
+- [vladspace](vladspace.md) (сходство 0.84)
+- [zodigancode](zodigancode.md) (сходство 0.82)
 
 
 <!-- see-also -->
@@ -92,8 +92,8 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
-- [vitalyoborin](docs/contacts/vitalyoborin.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
+- [vitalyoborin](vitalyoborin.md)
 

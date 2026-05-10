@@ -87,13 +87,13 @@
 ---
 
 **Кто ссылается на этот документ (11):**
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [181-12-closing](181-12-closing.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [308-table-of-contents](308-table-of-contents.md)
 - _...ещё 3_
 

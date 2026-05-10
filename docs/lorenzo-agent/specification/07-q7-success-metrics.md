@@ -66,8 +66,8 @@ Anti-metrics (что НЕ optimize for):
 ---
 
 **Смотрите также:**
-- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
-- [03-q3-what-lorenzo-does](docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md)
-- [06-q6-accountability](docs/lorenzo-agent/specification/06-q6-accountability.md)
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
+- [05-q5-authority-limits](05-q5-authority-limits.md)
+- [03-q3-what-lorenzo-does](03-q3-what-lorenzo-does.md)
+- [06-q6-accountability](06-q6-accountability.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 

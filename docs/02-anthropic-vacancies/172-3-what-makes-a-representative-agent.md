@@ -45,7 +45,7 @@ Locus of agency: User.
 Goal: Productivity multiplication on chosen tasks.
 
 **Layer 2 — Multi-Agent Systems** (current research/prototype):  
-Examples: MetaGPT, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md), ChatDev, CrewAI.  
+Examples: MetaGPT, [AutoGen](01-интегральный-анализ-профиля-svend4.md), ChatDev, CrewAI.  
 Function: AI agents collaborate among themselves to complete 
 complex tasks.  
 Direction: AI → AI.  
@@ -205,13 +205,13 @@ and 7.
 ---
 
 **Кто ссылается на этот документ (10):**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [256-3-what-makes-a-composite-skills-agent](256-3-what-makes-a-composite-skills-agent.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
 - _...ещё 2_
 

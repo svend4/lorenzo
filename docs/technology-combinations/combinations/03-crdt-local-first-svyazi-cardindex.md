@@ -51,10 +51,10 @@ Discovery-файл Svyazi (накопление неизвестного) син
 ---
 
 **Смотрите также:**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
-- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
-- [20-hybrid-olap-oltp-with-real-time-sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+- [03-local-first](../../03-technology-combinations/03-local-first.md)
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 
 
 <!-- backlinks -->
@@ -62,8 +62,8 @@ Discovery-файл Svyazi (накопление неизвестного) син
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 

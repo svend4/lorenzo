@@ -35,10 +35,10 @@
 ---
 
 **Смотрите также:**
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
-- [review-record](docs/svyazi-2-0/architecture/review-record.md)
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](../../04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [integration-spec](integration-spec.md)
+- [review-record](review-record.md)
 
 
 <!-- backlinks -->
@@ -46,7 +46,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/architecture/README.md)
-- [integration-spec](docs/svyazi-2-0/architecture/integration-spec.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [integration-spec](integration-spec.md)
 

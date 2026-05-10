@@ -26,8 +26,8 @@ Mehr anzeigen
 ---
 
 **Смотрите также:**
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
-- [00-question-mountain-to-person](docs/nautilus/transmission-box/00-question-mountain-to-person.md)
-- [00-question-voiceless](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
-- [00-question-supply-demand](docs/nautilus/supply-demand/00-question-supply-demand.md)
+- [00-question-rephrasing](../../ai-managed-virtual-company/00-question-rephrasing.md)
+- [00-question-mountain-to-person](../../../nautilus/transmission-box/00-question-mountain-to-person.md)
+- [00-question-voiceless](../../../nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+- [00-question-supply-demand](../../../nautilus/supply-demand/00-question-supply-demand.md)
 

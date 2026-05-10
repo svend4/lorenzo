@@ -28,10 +28,10 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 ---
 
 **Смотрите также:**
-- [4-skill-catalogs-subagents](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
+- [8-self-aware-mcp-specs](8-self-aware-mcp-specs.md)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
 
 
 <!-- backlinks -->
@@ -39,8 +39,8 @@ Continue полностью офлайн — для legal с GDPR-чувстви
 ---
 
 **Кто ссылается на этот документ (4):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/deep-pairs/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

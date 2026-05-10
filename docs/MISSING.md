@@ -45,8 +45,8 @@
 ---
 
 **Смотрите также:**
-- [CONSISTENCY](docs/CONSISTENCY.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [GRAPH](docs/GRAPH.md)
-- [TAGS](docs/TAGS.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [GLOSSARY](GLOSSARY.md)
+- [GRAPH](GRAPH.md)
+- [TAGS](TAGS.md)
 

@@ -200,8 +200,8 @@ application drafting.
 ---
 
 **Смотрите также:**
-- [218-7-application-domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md)
-- [04-ten-domains](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
-- [06-four-deployment-domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+- [218-7-application-domains](../../02-anthropic-vacancies/218-7-application-domains.md)
+- [08-seven-domains](../composite-skills-agents/08-seven-domains.md)
+- [04-ten-domains](../representative-agent-layer-en/04-ten-domains.md)
+- [06-four-deployment-domains](../double-triangle-architecture/06-four-deployment-domains.md)
 

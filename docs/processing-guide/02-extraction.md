@@ -150,9 +150,9 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -160,8 +160,8 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 ---
 
 **Смотрите также:**
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [03-chunking](docs/processing-guide/03-chunking.md)
-- [WORD_FREQ](docs/WORD_FREQ.md)
-- [08-export](docs/processing-guide/08-export.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [03-chunking](03-chunking.md)
+- [WORD_FREQ](../WORD_FREQ.md)
+- [08-export](08-export.md)
 

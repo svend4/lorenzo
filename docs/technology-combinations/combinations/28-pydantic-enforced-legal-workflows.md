@@ -71,10 +71,10 @@ ROI: Type-safe legal automation, catches errors before human review
 ---
 
 **Смотрите также:**
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [18-llm-powered-legal-corpus-builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
-- [23-security-first-code-review-pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
 
 
 <!-- backlinks -->
@@ -82,7 +82,7 @@ ROI: Type-safe legal automation, catches errors before human review
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
 

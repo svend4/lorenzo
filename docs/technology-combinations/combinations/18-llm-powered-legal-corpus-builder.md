@@ -71,10 +71,10 @@ ROI: 10 sec semantic search vs 2 hr manual review
 ---
 
 **Смотрите также:**
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [21-legal-corpus-analytics-at-scale](docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [04-sozialrecht-domain](docs/03-technology-combinations/04-sozialrecht-domain.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- [21-legal-corpus-analytics-at-scale](21-legal-corpus-analytics-at-scale.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md)
 
 
 <!-- backlinks -->
@@ -82,8 +82,8 @@ ROI: 10 sec semantic search vs 2 hr manual review
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
 

@@ -46,7 +46,7 @@ knowledge work.
 
 Existing systems implement only one triangle: personal assistants 
 (Cursor, Copilot, ChatGPT) operate in the lower triangle only; 
-multi-agent frameworks (CrewAI, MetaGPT, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)) operate in the 
+multi-agent frameworks (CrewAI, MetaGPT, [AutoGen](01-интегральный-анализ-профиля-svend4.md)) operate in the 
 upper triangle only and typically replace humans rather than 
 augment them. Neither paradigm captures the full structure of how 
 humans will actually work alongside AI over the next decade.
@@ -142,13 +142,13 @@ unsolved issues.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [140-3-three-inter-layer-protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [140-3-three-inter-layer-protocols](140-3-three-inter-layer-protocols.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
 - _...ещё 1_
 

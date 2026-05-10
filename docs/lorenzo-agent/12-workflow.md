@@ -55,8 +55,8 @@
 ---
 
 **Смотрите также:**
-- [356-твой-workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)
-- [07-chto-mozhesh](docs/lorenzo-agent/07-chto-mozhesh.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
+- [356-твой-workflow](../02-anthropic-vacancies/356-твой-workflow.md)
+- [07-chto-mozhesh](07-chto-mozhesh.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [18-escalate-to-max](18-escalate-to-max.md)
 

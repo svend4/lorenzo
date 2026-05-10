@@ -309,8 +309,8 @@ network_scope: offline | internal | internet
 ---
 
 **Смотрите также:**
-- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
-- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
-- [SIMILAR_PASSAGES](docs/SIMILAR_PASSAGES.md)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [11-integration-contracts](01-svyazi/11-integration-contracts.md)
+- [05-roadmap-6-12-months](ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
 

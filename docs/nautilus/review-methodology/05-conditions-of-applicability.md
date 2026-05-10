@@ -59,8 +59,8 @@ PR
 ---
 
 **Смотрите также:**
-- [111-4-условия-применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [11-application-plan-current-docs](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+- [111-4-условия-применимости](../../02-anthropic-vacancies/111-4-условия-применимости.md)
+- [02-formal-workflow](02-formal-workflow.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [11-application-plan-current-docs](11-application-plan-current-docs.md)
 

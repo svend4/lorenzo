@@ -138,13 +138,13 @@ in skilled work.
 ---
 
 **Кто ссылается на этот документ (18):**
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [249-composite-skills-agent-md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [168-abstract](168-abstract.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [210-abstract](210-abstract.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [223-12-closing](223-12-closing.md)
+- [249-composite-skills-agent-md](249-composite-skills-agent-md.md)
+- [253-table-of-contents](253-table-of-contents.md)
 - _...ещё 10_
 

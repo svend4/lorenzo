@@ -16,7 +16,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-agent-routing](docs/03-technology-combinations/01-agent-routing.md)
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
+- [01-agent-routing](01-agent-routing.md)
+- [03-local-first](03-local-first.md)
+- [05-benchmarks](05-benchmarks.md)
 

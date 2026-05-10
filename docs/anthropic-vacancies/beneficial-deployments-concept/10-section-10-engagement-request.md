@@ -56,8 +56,8 @@ Potential outcomes
 ---
 
 **Смотрите также:**
-- [11-not-and-format](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+- [11-not-and-format](11-not-and-format.md)
+- [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
+- [00-context](00-context.md)
 

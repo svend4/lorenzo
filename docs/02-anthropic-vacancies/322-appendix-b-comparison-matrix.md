@@ -42,9 +42,9 @@ local control, free substrate plus Cowork subscription.
 ---
 
 **Похожие документы:**
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.12)
-- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
+- [307-abstract](307-abstract.md) (сходство 0.12)
+- [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.10)
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -52,10 +52,10 @@ local control, free substrate plus Cowork subscription.
 ---
 
 **Смотрите также:**
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [314-6-refined-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [314-6-refined-[ingit](306-with-anthropic-s-cowork-platform.md)-scope-with-cowork-in-mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
+- [307-abstract](307-abstract.md)
 
 
 <!-- backlinks -->
@@ -63,10 +63,10 @@ local control, free substrate plus Cowork subscription.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [307-abstract](307-abstract.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [326-содержание](326-содержание.md)
+- [README](README.md)
 

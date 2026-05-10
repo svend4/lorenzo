@@ -30,8 +30,8 @@
 ---
 
 **Смотрите также:**
-- [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)
-- [12-workflow](docs/lorenzo-agent/12-workflow.md)
-- [03-tvoya-missiya](docs/lorenzo-agent/03-tvoya-missiya.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [351-что-ты-можешь-делать](../02-anthropic-vacancies/351-что-ты-можешь-делать.md)
+- [12-workflow](12-workflow.md)
+- [03-tvoya-missiya](03-tvoya-missiya.md)
+- [09-voobshche-nelzya](09-voobshche-nelzya.md)
 

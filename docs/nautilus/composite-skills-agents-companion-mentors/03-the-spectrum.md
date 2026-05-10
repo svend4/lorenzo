@@ -137,8 +137,8 @@ Honestly, я склоняюсь рекомендовать третий вари
 ---
 
 **Смотрите также:**
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [02-what-was-missing-in-paper-6](docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
-- [01-yogi-metaphor](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
+- [01-yogi-metaphor](01-yogi-metaphor.md)
+- [09-svyaz-s-drugimi](../professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
 

@@ -29,10 +29,10 @@ Mesh из таких узлов — несколько community-nodes в раз
 ---
 
 **Смотрите также:**
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [03-crdt-local-first-svyazi-cardindex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+- [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
+- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+- [03-crdt-local-first-svyazi-cardindex](../../technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
 
 
 <!-- backlinks -->
@@ -40,7 +40,7 @@ Mesh из таких узлов — несколько community-nodes в раз
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/hardware-pairs/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

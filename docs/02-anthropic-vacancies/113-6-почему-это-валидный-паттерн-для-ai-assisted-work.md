@@ -41,7 +41,7 @@ AI-assisted development**. Старые правила («избегай дуб�
 ---
 
 **Смотрите также:**
-- [07-why-valid-for-ai](docs/nautilus/review-methodology/07-why-valid-for-ai.md)
+- [07-why-valid-for-ai](../nautilus/review-methodology/07-why-valid-for-ai.md)
 
 
 <!-- backlinks -->
@@ -49,8 +49,8 @@ AI-assisted development**. Старые правила («избегай дуб�
 ---
 
 **Кто ссылается на этот документ (4):**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
-- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [31-content-overview](31-content-overview.md)
+- [README](README.md)
 

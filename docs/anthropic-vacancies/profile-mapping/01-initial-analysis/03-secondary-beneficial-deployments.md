@@ -20,8 +20,8 @@ Tertiary match: Research Engineer, Agents / Virtual Collaborator (Cowork)
 ---
 
 **Смотрите также:**
-- [08-practical-ranking](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+- [08-practical-ranking](08-practical-ranking.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [02-primary-fde](02-primary-fde.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 

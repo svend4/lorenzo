@@ -34,8 +34,8 @@ AutoResearch и Sequential выглядят очень мощно, но толь
 ---
 
 **Смотрите также:**
-- [14-limitations](docs/01-svyazi/14-limitations.md)
-- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+- [14-limitations](../../01-svyazi/14-limitations.md)
+- [license-tree](license-tree.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [conclusions](conclusions.md)
 

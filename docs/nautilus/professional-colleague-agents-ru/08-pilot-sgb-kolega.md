@@ -272,8 +272,8 @@ OKWF:
 ---
 
 **Смотрите также:**
-- [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
-- [07-oblasti-primeneniya](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
-- [05-ekonomika](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md)
-- [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
+- [07-oblasti-primeneniya](07-oblasti-primeneniya.md)
+- [05-ekonomika](05-ekonomika.md)
+- [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md)
 

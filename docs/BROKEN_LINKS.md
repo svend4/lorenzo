@@ -1,61 +1,61 @@
 # Сломанные внутренние ссылки
 
-**Найдено:** 12465 проблем, 25 пропущено (длинный путь)
+**Найдено:** 900 проблем, 25 пропущено (длинный путь)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/01-svyazi/01-executive-summary.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | LiteParse | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | README | `docs/04-ai-collaborations/README.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | DUPLICATES | `docs/DUPLICATES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-ensembles-overview | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | README | `docs/01-svyazi/README.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | ACTION_ITEMS | `docs/ACTION_ITEMS.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | BROKEN_LINKS | `docs/BROKEN_LINKS.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | DECISIONS | `docs/DECISIONS.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TIMELINE | `docs/TIMELINE.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | knowledge-space | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | knowledge-space | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | knowledge-space | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | knowledge-space | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 11-integration-contracts | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 12-roadmap | `docs/01-[svyazi](../docs/01-svyazi/00-in` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 13-contacts | `docs/01-svyazi/13-contacts.md` | файл не существует |
+| `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` | ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS P | `#общий-план-развития-[nautilus](../05-ha` | якорь не найден |
+| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | Nautilus Portal Protocol v1.1 | `./docs/PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
+| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
+| `docs/02-anthropic-vacancies/111-4-условия-применимости.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
+| `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | 7. Реализация в проекте Nautil | `#7-реализация-в-проекте-[nautilus](../05` | якорь не найден |
+| `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | 7.3. Интеграция с Nautilus Por | `#73-интеграция-с-[nautilus](../05-habr-p` | якорь не найден |
+| `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
+| `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
+| `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` | 114-7-реализация-в-проекте-nau | `docs/02-anthropic-vacancies/114-7-реализ` | файл не существует |
+| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
+| `docs/02-anthropic-vacancies/122-глоссарий.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
+| `docs/02-anthropic-vacancies/130-отладка.md` | Tool-call падает с "adapterfai | `#tool-call-падает-с-adapterfailed` | якорь не найден |
+| `docs/02-anthropic-vacancies/133-обратная-связь.md` | 9. Практический roadmap для hu | `#9-практический-roadmap-для-humanities-e` | якорь не найден |
+| `docs/02-anthropic-vacancies/133-обратная-связь.md` | Формализация звезды Давида в т | `#формализация-звезды-давида-в-терминах-[` | якорь не найден |
+| `docs/02-anthropic-vacancies/133-обратная-связь.md` | Как Nautilus уже обслуживает э | `#как-[nautilus](../05-habr-projects/memo` | якорь не найден |
+| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | 4. Nautilus Portal as Referenc | `#4-[nautilus](../05-habr-projects/memory` | якорь не найден |
+| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | 4.3. Empirical Evidence from N | `#43-empirical-evidence-from-[nautilus](.` | якорь не найден |
+| `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | 4.1. Technical Substrate: Naut | `#41-technical-substrate-[nautilus](../05` | якорь не найден |
+| `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | 9.1. For AI Companies (Anthrop | `#91-for-ai-companies-anthropic-[mistral]` | якорь не найден |
+| `docs/02-anthropic-vacancies/165-closing.md` | Что описывает статья — суть пр | `#что-описывает-статья-суть-проекта-[svya` | якорь не найден |
+| `docs/02-anthropic-vacancies/165-closing.md` | Что это значит для проекта OKW | `#что-это-значит-для-проекта-okwf-и-[naut` | якорь не найден |
+| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | 6.4. translateto(entry, target | `#64-translatetoentry-targetrepo-required` | якорь не найден |
+| `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` | Что это значит для OKWF и Naut | `#что-это-значит-для-okwf-и-[nautilus](..` | якорь не найден |
+| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Связанные документы | `#связанные-документы` | якорь не найден |
+| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Связанные документы | `#связанные-документы` | якорь не найден |
 
-_...и ещё 12415 проблем_
+_...и ещё 850 проблем_
 
 ## Пропущено из-за длинного пути (25)
 

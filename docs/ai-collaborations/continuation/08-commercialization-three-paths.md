@@ -49,8 +49,8 @@ C. AgentOps Knowledge Kernel
 ---
 
 **Смотрите также:**
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md)
-- [06-metrics-tree](docs/ai-collaborations/continuation/06-metrics-tree.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [01-shared-memory-between-agents](01-shared-memory-between-agents.md)
+- [06-metrics-tree](06-metrics-tree.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
 

@@ -32,8 +32,8 @@
 ---
 
 **Смотрите также:**
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+- [02-related-projects-context](02-related-projects-context.md)
+- [01-three-key-candidates](01-three-key-candidates.md)
 

@@ -31,10 +31,10 @@ Teilen
 ---
 
 **Смотрите также:**
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
+- [1-one-person-one-company](1-one-person-one-company.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [06-svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
+- [3-discovery-research](3-discovery-research.md)
 
 
 <!-- backlinks -->
@@ -42,7 +42,7 @@ Teilen
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/habr-unique-projects/README.md)
-- [README](docs/habr-unique-projects/final-ensembles/README.md)
-- [reading-paths](docs/reading-paths.md)
+- [README](../README.md)
+- [README](README.md)
+- [reading-paths](../../reading-paths.md)
 

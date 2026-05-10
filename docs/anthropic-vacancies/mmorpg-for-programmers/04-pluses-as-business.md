@@ -32,8 +32,8 @@ Venture-attractive — «Roblox for professional work» — понятная и�
 ---
 
 **Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [12-appendix-a-header-warning](../../nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [15-appendix-c-history](../../nautilus/review-methodology/15-appendix-c-history.md)
 

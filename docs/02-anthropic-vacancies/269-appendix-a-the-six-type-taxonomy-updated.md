@@ -100,13 +100,13 @@ how skilled practice actually structures itself.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [227-appendix-b-decision-framework-when-to-build-type-1](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [223-12-closing](223-12-closing.md)
+- [227-appendix-b-decision-framework-when-to-build-type-1](227-appendix-b-decision-framework-when-to-build-type-1.md)
+- [252-abstract](252-abstract.md)
 - _...ещё 1_
 

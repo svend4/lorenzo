@@ -35,7 +35,7 @@ tags: [контакты, команда]
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором [knowledge-space](../docs/01-svyazi/03-component-catalog.md) -->
+<!-- summary: Шаблон для связи с автором [knowledge-space](../01-svyazi/03-component-catalog.md) -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -82,9 +82,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.80)
-- [nlaik](docs/contacts/nlaik.md) (сходство 0.79)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.79)
+- [vladspace](vladspace.md) (сходство 0.80)
+- [nlaik](nlaik.md) (сходство 0.79)
+- [antipozitive](antipozitive.md) (сходство 0.79)
 
 
 <!-- see-also -->
@@ -92,8 +92,8 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [spbmolot](docs/contacts/spbmolot.md)
-- [andrey-chuyan](docs/contacts/andrey-chuyan.md)
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [spbmolot](spbmolot.md)
+- [andrey-chuyan](andrey-chuyan.md)
 

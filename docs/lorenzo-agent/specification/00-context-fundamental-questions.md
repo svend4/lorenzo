@@ -36,8 +36,8 @@ Fundamental questions для Lorenzo
 ---
 
 **Смотрите также:**
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [07-q7-success-metrics](docs/lorenzo-agent/specification/07-q7-success-metrics.md)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [07-q7-success-metrics](07-q7-success-metrics.md)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 

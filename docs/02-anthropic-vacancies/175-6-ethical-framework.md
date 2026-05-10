@@ -148,9 +148,9 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Похожие документы:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.15)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.14)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.13)
+- [176-7-governance-and-oversight](176-7-governance-and-oversight.md) (сходство 0.15)
+- [174-5-architectural-specification](174-5-architectural-specification.md) (сходство 0.14)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md) (сходство 0.13)
 
 
 <!-- see-also -->
@@ -158,10 +158,10 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Смотрите также:**
-- [176-7-governance-and-oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [177-8-risks-and-mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
-- [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
+- [176-7-governance-and-oversight](176-7-governance-and-oversight.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [177-8-risks-and-mitigations](177-8-risks-and-mitigations.md)
+- [179-10-open-questions](179-10-open-questions.md)
 
 
 <!-- backlinks -->
@@ -169,12 +169,12 @@ tech-sophisticated principals fails its core mission.
 ---
 
 **Кто ссылается на этот документ (8):**
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [146-acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [258-5-configuration-how-principals-build-their-ensembl](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [146-acknowledgments](146-acknowledgments.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [223-12-closing](223-12-closing.md)
+- [258-5-configuration-how-principals-build-their-ensembl](258-5-configuration-how-principals-build-their-ensembl.md)
+- [README](README.md)
 

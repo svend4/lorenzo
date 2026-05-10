@@ -146,8 +146,8 @@ exist.
 ---
 
 **Смотрите также:**
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [04-proposed-infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
-- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
-- [158-4-proposed-infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
+- [143-6-four-deployment-domains](../../02-anthropic-vacancies/143-6-four-deployment-domains.md)
+- [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
+- [08-call-to-action](08-call-to-action.md)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md)
 

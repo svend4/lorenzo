@@ -91,8 +91,8 @@
 ---
 
 **Смотрите также:**
-- [195-5-архитектурная-спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
-- [03-chto-delaet-predstavitelskim](docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md)
-- [193-3-что-делает-агента-представительским](docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
+- [195-5-архитектурная-спецификация](../../02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
+- [03-chto-delaet-predstavitelskim](03-chto-delaet-predstavitelskim.md)
+- [193-3-что-делает-агента-представительским](../../02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
 

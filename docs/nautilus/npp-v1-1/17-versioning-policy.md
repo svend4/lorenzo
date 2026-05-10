@@ -58,8 +58,8 @@ v1.1 porталы MUST поддерживать v1.0 адаптеры через 
 ---
 
 **Смотрите также:**
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
-- [12-versioning-policy](docs/nautilus/npp-v1-0/12-versioning-policy.md)
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
+- [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
+- [12-versioning-policy](../npp-v1-0/12-versioning-policy.md)
+- [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
+- [07-portal-entry](07-portal-entry.md)
 

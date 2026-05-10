@@ -192,8 +192,8 @@ If Lorenzo becomes pure tool-building exercise, original mission slips.
 ---
 
 **Смотрите также:**
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [05-anchor-node-habr-scout](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [04-recommendations](04-recommendations.md)
 

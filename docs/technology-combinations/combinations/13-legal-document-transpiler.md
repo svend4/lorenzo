@@ -48,10 +48,10 @@ ROI: 50k historical documents searchable in structured DB
 ---
 
 **Смотрите также:**
-- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
 
 
 <!-- backlinks -->
@@ -59,7 +59,7 @@ ROI: 50k historical documents searchable in structured DB
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
 

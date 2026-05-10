@@ -21,7 +21,7 @@
 | Файл | Теги | Проекты | Слов |
 |------|------|---------|------|
 | `docs/01-svyazi/01-executive-summary.md` |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 737 |
-| `docs/01-svyazi/02-methodology.md` | rag, security, ingestion | Svyazi[^svyazi], [LiteParse](../docs/01-svyazi/01-executive-summary.md), Legal RAG[^rag] | 451 |
+| `docs/01-svyazi/02-methodology.md` | rag, security, ingestion | Svyazi[^svyazi], [LiteParse](01-svyazi/01-executive-summary.md), Legal RAG[^rag] | 451 |
 | `docs/01-svyazi/03-component-catalog.md` |  | Svyazi, CardIndex, AgentFS | 1239 |
 | `docs/01-svyazi/04-ensembles-overview.md` |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1361 |
 | `docs/01-svyazi/06-security-privacy.md` |  | Svyazi, AgentFS[^agentfs], AI Factory | 770 |
@@ -111,7 +111,7 @@
 | `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | rag, roadmap, anthropic |  | 750 |
 | `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | rag, anthropic |  | 645 |
 | `docs/02-anthropic-vacancies/164-10-appendices.md` | rag, roadmap, anthropic |  | 1051 |
-| `docs/02-anthropic-vacancies/165-closing.md` |  | Svyazi, [CardIndex](../docs/01-svyazi/01-executive-summary.md) | 9376 |
+| `docs/02-anthropic-vacancies/165-closing.md` |  | Svyazi, [CardIndex](01-svyazi/01-executive-summary.md) | 9376 |
 | `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | architecture |  | 246 |
 | `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | collaboration |  | 374 |
 | `docs/02-anthropic-vacancies/168-abstract.md` | architecture |  | 543 |
@@ -1078,10 +1078,10 @@
 ---
 
 **Смотрите также:**
-- [READABILITY](docs/READABILITY.md)
-- [READING_TIME](docs/obsidian/READING_TIME.md)
-- [SOURCE_MAP](docs/obsidian/SOURCE_MAP.md)
-- [READING_ORDER](docs/obsidian/READING_ORDER.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](obsidian/READING_TIME.md)
+- [SOURCE_MAP](obsidian/SOURCE_MAP.md)
+- [READING_ORDER](obsidian/READING_ORDER.md)
 
 
 <!-- backlinks -->
@@ -1089,7 +1089,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
-- [TOPIC_MODEL](docs/TOPIC_MODEL.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
+- [TOPIC_MODEL](TOPIC_MODEL.md)
 

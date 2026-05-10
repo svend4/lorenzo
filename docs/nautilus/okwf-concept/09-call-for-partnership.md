@@ -104,8 +104,8 @@ pipeline
 ---
 
 **Смотрите также:**
-- [163-9-call-for-partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
-- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
-- [10-appendices](docs/nautilus/okwf-concept/10-appendices.md)
+- [163-9-call-for-partnership](../../02-anthropic-vacancies/163-9-call-for-partnership.md)
+- [07-phased-rollout](07-phased-rollout.md)
+- [05-economic-model](05-economic-model.md)
+- [10-appendices](10-appendices.md)
 

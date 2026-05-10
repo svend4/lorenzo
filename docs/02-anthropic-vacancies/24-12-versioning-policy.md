@@ -108,13 +108,13 @@ implementation MUST поддерживать **минимум текущую maj
 ---
 
 **Кто ссылается на этот документ (9):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
-- [75-0-status-of-this-document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [62-author-contact](62-author-contact.md)
+- [75-0-status-of-this-document](75-0-status-of-this-document.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
 - _...ещё 1_
 

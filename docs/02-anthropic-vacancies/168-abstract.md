@@ -139,13 +139,13 @@ service organizations, civil society, and policymakers.
 ---
 
 **Кто ссылается на этот документ (19):**
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
-- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [181-12-closing](docs/02-anthropic-vacancies/181-12-closing.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [181-12-closing](181-12-closing.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
 - _...ещё 11_
 

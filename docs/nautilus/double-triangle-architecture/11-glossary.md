@@ -243,8 +243,8 @@ Hope this helps. Рад был участвовать в формировани�
 ---
 
 **Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [12-closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
-- [08-call-to-action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](../../02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [12-closing](../representative-agent-layer-en/12-closing.md)
+- [08-call-to-action](08-call-to-action.md)
 

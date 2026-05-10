@@ -20,8 +20,8 @@
 ---
 
 **Смотрите также:**
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md)
+- [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md)
+- [05-reality-check-distribution-gap](../02-reanalysis/05-reality-check-distribution-gap.md)
 

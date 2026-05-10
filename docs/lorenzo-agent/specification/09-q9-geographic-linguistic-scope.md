@@ -64,8 +64,8 @@ Lorenzo speaks all three, but Habr is initial home base
 ---
 
 **Смотрите также:**
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
-- [06-yazyki-kultura](docs/lorenzo-agent/06-yazyki-kultura.md)
-- [08-q8-other-ai-relationships](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
-- [10-q10-funding-model](docs/lorenzo-agent/specification/10-q10-funding-model.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [06-yazyki-kultura](../06-yazyki-kultura.md)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
+- [10-q10-funding-model](10-q10-funding-model.md)
 

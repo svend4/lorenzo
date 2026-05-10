@@ -113,6 +113,6 @@ _Создано: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [ensemble](docs/templates/ensemble.md)
-- [project-component](docs/templates/project-component.md)
-- [tech-radar-entry](docs/templates/tech-radar-entry.md)
+- [ensemble](ensemble.md)
+- [project-component](project-component.md)
+- [tech-radar-entry](tech-radar-entry.md)

@@ -94,7 +94,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
-- [95-20-adr-002-q6-as-first-class-protocol-concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](95-20-adr-002-q6-as-first-class-protocol-concept.md)
+- [README](README.md)
 

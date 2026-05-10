@@ -36,8 +36,8 @@ This is exactly the demographic where AI augmentation could provide most value: 
 ---
 
 **Смотрите также:**
-- [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+- [01-section-1-problem](01-section-1-problem.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
 

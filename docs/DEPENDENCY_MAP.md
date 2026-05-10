@@ -213,10 +213,10 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 ---
 
 **Кто ссылается на этот документ (4):**
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 
 
 <!-- see-also -->
@@ -224,8 +224,8 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 ---
 
 **Смотрите также:**
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [CHANGELOG](docs/CHANGELOG.md)
-- [TAGS](docs/TAGS.md)
-- [VERSION_DIFF](docs/VERSION_DIFF.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CHANGELOG](CHANGELOG.md)
+- [TAGS](TAGS.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
 

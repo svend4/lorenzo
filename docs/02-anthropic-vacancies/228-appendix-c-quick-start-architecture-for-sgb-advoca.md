@@ -46,7 +46,7 @@ proposed pilot:
   privacy-sensitive operations
 - Storage: PostgreSQL (structured) + ChromaDB (vector)
 - Knowledge base format: Markdown files in Git repository
-- Frontend: [TypeScript](../docs/05-habr-projects/memory/memnet.md) + React
+- Frontend: [TypeScript](../05-habr-projects/memory/memnet.md) + React
 - Mobile: React Native or PWA
 
 **Knowledge base structure** (initial):
@@ -293,13 +293,13 @@ OKWF strategy with this update: SGB Advocate Colleague pilot first, demonstrate 
 ---
 
 **Кто ссылается на этот документ (20):**
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [210-abstract](210-abstract.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
 - _...ещё 12_
 

@@ -144,8 +144,8 @@ that touches the world beyond the personal context.
 ---
 
 **Смотрите также:**
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [03-what-makes-representative-agent](docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [06-ethical-framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+- [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md)
+- [03-what-makes-representative-agent](03-what-makes-representative-agent.md)
+- [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
+- [06-ethical-framework](06-ethical-framework.md)
 

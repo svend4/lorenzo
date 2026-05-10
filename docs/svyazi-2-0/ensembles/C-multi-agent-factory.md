@@ -41,8 +41,8 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [H-research-to-product-flywheel](docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md)
-- [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [H-research-to-product-flywheel](H-research-to-product-flywheel.md)
+- [ai-factory](../components/ai-factory.md)
 

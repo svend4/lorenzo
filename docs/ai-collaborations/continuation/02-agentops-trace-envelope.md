@@ -56,10 +56,10 @@ anomaly_flags:
 ---
 
 **Смотрите также:**
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](../../04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
+- [8-budget-aware-intelligence-stack](../ensembles/8-budget-aware-intelligence-stack.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
 
 
 <!-- backlinks -->
@@ -67,7 +67,7 @@ anomaly_flags:
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/ai-collaborations/continuation/README.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
+- [README](README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
 

@@ -68,10 +68,10 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 ---
 
 **Смотрите также:**
-- [11-hybrid-crdt-sql-database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
-- [33-event-sourcing-cqrs-clickhouse-analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
-- [17-distributed-agent-memory-with-graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md)
+- [17-distributed-agent-memory-with-graph](17-distributed-agent-memory-with-graph.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
 
 
 <!-- backlinks -->
@@ -79,7 +79,7 @@ ROI: Real-time collaboration + analytical insights, best of both worlds
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [20-24-final](docs/technology-combinations/synthesis-tables/20-24-final.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [20-24-final](../synthesis-tables/20-24-final.md)
 

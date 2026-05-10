@@ -17,7 +17,7 @@
 - ✅ Level 1: имеет passport + `describe()` в адаптере
 - ✅ Level 2: `fetch(query)` работает
 - ✅ Level 3: `translate_to(entry, target_repo)` реализован для 
-  мостов с `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` и `meta`
+  мостов с `[pro2](01-интегральный-анализ-профиля-svend4.md)` и `meta`
 
 ---
 
@@ -89,13 +89,13 @@
 ---
 
 **Кто ссылается на этот документ (14):**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [190-содержание](190-содержание.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [326-содержание](326-содержание.md)
 - _...ещё 6_
 

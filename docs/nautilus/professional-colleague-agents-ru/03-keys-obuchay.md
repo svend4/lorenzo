@@ -199,8 +199,8 @@
 ---
 
 **Смотрите также:**
-- [234-3-эмпирический-кейс-обучай](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
-- [233-2-что-делает-агента-профессиональным-коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
-- [06-riski](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
+- [234-3-эмпирический-кейс-обучай](../../02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [233-2-что-делает-агента-профессиональным-коллегой](../../02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
+- [06-riski](06-riski.md)
 

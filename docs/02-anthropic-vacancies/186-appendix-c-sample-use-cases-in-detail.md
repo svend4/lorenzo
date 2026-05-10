@@ -317,13 +317,13 @@ Thank you for the collaboration.
 ---
 
 **Кто ссылается на этот документ (10):**
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [228-appendix-c-quick-start-architecture-for-sgb-advoca](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-- [272-appendix-d-connection-diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [223-12-closing](223-12-closing.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- [323-appendix-c-sample-ingit-mcp-server-tool-specificat](323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
 - _...ещё 2_
 

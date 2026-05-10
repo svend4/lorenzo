@@ -90,13 +90,13 @@ stable требуют bump до v2.0 с migration guide.
 ---
 
 **Кто ссылается на этот документ (11):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [53-history](docs/02-anthropic-vacancies/53-history.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [164-10-appendices](164-10-appendices.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [42-author-contact](42-author-contact.md)
+- [53-history](53-history.md)
 - _...ещё 3_
 

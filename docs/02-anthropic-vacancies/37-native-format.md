@@ -11,7 +11,7 @@
 
 ## Native Format
 
-**Расширение:** `.[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
+**Расширение:** `.[info1](01-интегральный-анализ-профиля-svend4.md)`
 
 **Структура файла:** [? уточнить — Markdown с YAML frontmatter, чистый JSON, 
 or something custom?]
@@ -93,13 +93,13 @@ or something custom?]
 ---
 
 **Кто ссылается на этот документ (10):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
+- [04-abstract](04-abstract.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [47-native-format](47-native-format.md)
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md)
+- [57-native-format](57-native-format.md)
 - _...ещё 2_
 

@@ -30,8 +30,8 @@
 ---
 
 **Смотрите также:**
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [05-which-combination-more-valuable](../npp-humanitarian-extension/05-which-combination-more-valuable.md)
+- [03-what-doesnt-exist-on-market](../npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+- [03-what-this-gives-technically](03-what-this-gives-technically.md)
 

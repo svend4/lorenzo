@@ -55,8 +55,8 @@
 ---
 
 **Смотрите также:**
-- [201-11-призыв-к-сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
-- [199-9-стратегия-поэтапного-развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
+- [201-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
+- [09-strategiya-razvyortyvaniya](09-strategiya-razvyortyvaniya.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [199-9-стратегия-поэтапного-развёртывания](../../02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
 

@@ -215,11 +215,11 @@ bash
 # Шаг 1: клонировать репо, если ещё нет
 cd ~/storage/shared
 git clone https://github.com/svend4/nautilus.git
-cd [nautilus](../docs/05-habr-projects/memory/memnet.md)
+cd [nautilus](../05-habr-projects/memory/memnet.md)
 
 # Шаг 2: переключиться на существующую ветку
 git fetch origin
-git checkout claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx
+git checkout claude/review-[nautilus](../05-habr-projects/memory/memnet.md)-changes-tdywx
 
 # Шаг 3: создать файлы (пустые, наполним позже)
 touch PORTAL-PROTOCOL.md
@@ -245,7 +245,7 @@ git commit -m "docs: add v1.0-draft documentation layer
 - Add PORTAL-PROTOCOL.md (formal specification v1.0)
 - Add passports/info1.md, passports/pro2.md, passports/meta.md
 - Expand README.md with bilingual content and fixed links"
-git push origin claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx
+git push origin claude/review-[nautilus](../05-habr-projects/memory/memnet.md)-changes-tdywx
 
 # Шаг 7: открыть PR через GitHub web
 # github.com/svend4/nautilus/compare/main...claude/review-nautilus-changes-tdywx
@@ -354,7 +354,7 @@ find . -type f -name "*.md" -o -name "*.py" -o -name "*.json" | grep -v ".git" |
 === passports/info1.md ===
 <содержимое>
 
-=== [nautilus](../docs/05-habr-projects/memory/memnet.md).json ===
+=== [nautilus](../05-habr-projects/memory/memnet.md).json ===
 <содержимое>
 ```
 Я разбираю по маркерам и делаю диф с моими предыдущими версиями артефактов.
@@ -374,7 +374,7 @@ find . -type f -name "*.md" -o -name "*.py" -o -name "*.json" | grep -v ".git" |
 
 Ветки:
 - main (HEAD: 7 commits)
-- claude/review-[nautilus](../docs/05-habr-projects/memory/memnet.md)-changes-tdywx (не слита, устарела)
+- claude/review-[nautilus](../05-habr-projects/memory/memnet.md)-changes-tdywx (не слита, устарела)
 ```
 Три-пять строк — и я вижу полную картину, могу дать конкретный анализ плюсов и минусов. Это быстрее, чем я пытаюсь (безуспешно) fetch'нуть /tree/ , и быстрее, чем я читаю rendered-страницу ветки с кэшированием.
 ### Предложение на сейчас
@@ -784,9 +784,9 @@ markdown
 ---
 
 **Похожие документы:**
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md) (сходство 0.12)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.11)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.11)
+- [72-расписание-фазы-3](72-расписание-фазы-3.md) (сходство 0.12)
+- [122-глоссарий](122-глоссарий.md) (сходство 0.11)
+- [104-appendix-c-references](104-appendix-c-references.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -794,10 +794,10 @@ markdown
 ---
 
 **Смотрите также:**
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../docs/05-habr-projects/memory/memnet.md).md)
+- [72-расписание-фазы-3](72-расписание-фазы-3.md)
+- [122-глоссарий](122-глоссарий.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-[nautilus](../05-habr-projects/memory/memnet.md).md)
 
 
 <!-- backlinks -->
@@ -805,13 +805,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (9):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [72-расписание-фазы-3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [04-abstract](04-abstract.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [122-глоссарий](122-глоссарий.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [72-расписание-фазы-3](72-расписание-фазы-3.md)
 - _...ещё 1_
 

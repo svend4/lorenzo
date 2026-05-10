@@ -28,8 +28,8 @@
 ---
 
 **Смотрите также:**
-- [04-what-to-do](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
-- [00-question-innovations-transitions](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
-- [05-minuses-as-business](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+- [04-what-to-do](04-what-to-do.md)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
+- [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)
+- [07-current-implementations](07-current-implementations.md)
 

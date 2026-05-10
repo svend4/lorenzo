@@ -2277,8 +2277,8 @@ for qa in load_json("docs/qa_cache.json"):
 ---
 
 **Смотрите также:**
-- [05-analysis](docs/processing-guide/05-analysis.md)
-- [10-future](docs/processing-guide/10-future.md)
-- [02-extraction](docs/processing-guide/02-extraction.md)
-- [07-llm](docs/processing-guide/07-llm.md)
+- [05-analysis](05-analysis.md)
+- [10-future](10-future.md)
+- [02-extraction](02-extraction.md)
+- [07-llm](07-llm.md)
 

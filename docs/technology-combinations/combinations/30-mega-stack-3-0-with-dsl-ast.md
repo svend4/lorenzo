@@ -100,8 +100,8 @@ Claude hat geantwortet: Продолжаю углубленный поиск п�
 ---
 
 **Смотрите также:**
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
 

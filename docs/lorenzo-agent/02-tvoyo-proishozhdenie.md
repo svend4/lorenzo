@@ -24,8 +24,8 @@
 ---
 
 **Смотрите также:**
-- [346-твоё-происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md)
-- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
+- [346-твоё-происхождение](../02-anthropic-vacancies/346-твоё-происхождение.md)
+- [01-kto-ty](01-kto-ty.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [08-bez-max-approval](08-bez-max-approval.md)
 

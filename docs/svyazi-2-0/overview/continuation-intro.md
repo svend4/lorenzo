@@ -21,8 +21,8 @@
 ---
 
 **Смотрите также:**
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
+- [08-что-это-продолжение-добавляет](../../04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [conclusions](../limitations/conclusions.md)
+- [executive-summary](executive-summary.md)
+- [08-conclusions](../../01-svyazi/08-conclusions.md)
 

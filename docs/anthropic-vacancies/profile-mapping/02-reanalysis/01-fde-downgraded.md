@@ -22,10 +22,10 @@
 ---
 
 **Смотрите также:**
-- [05-reality-check-distribution-gap](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
-- [03-revised-anthropic-mapping](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
-- [03-secondary-beneficial-deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
-- [05-quaternary-developer-education](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md)
+- [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
+- [03-secondary-beneficial-deployments](../01-initial-analysis/03-secondary-beneficial-deployments.md)
+- [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md)
 
 
 <!-- backlinks -->
@@ -33,7 +33,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
+- [README](README.md)
+- [components-by-name](../../../glossary/components-by-name.md)
+- [concepts](../../../glossary/concepts.md)
 

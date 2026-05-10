@@ -117,10 +117,10 @@ Charted eight research directions for discovering additional project synergies
 ---
 
 **Смотрите также:**
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 
 
 <!-- backlinks -->
@@ -128,8 +128,8 @@ Charted eight research directions for discovering additional project synergies
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [09-14-extended](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [09-14-extended](../synthesis-tables/09-14-extended.md)
 

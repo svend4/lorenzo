@@ -62,8 +62,8 @@
 ---
 
 **Смотрите также:**
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
-- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
-- [conclusions](docs/svyazi-2-0/limitations/conclusions.md)
+- [12-roadmap](../../01-svyazi/12-roadmap.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [05-roadmap-6-12-months](../../ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [conclusions](../limitations/conclusions.md)
 

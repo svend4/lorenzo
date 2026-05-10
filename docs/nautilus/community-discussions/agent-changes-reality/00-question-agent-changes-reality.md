@@ -22,8 +22,8 @@ Du hast gesagt: Такой агент конечно меняет уже соб�
 ---
 
 **Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-multi-tier](../../multi-tier-architecture/00-question-multi-tier.md)
 

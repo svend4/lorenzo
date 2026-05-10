@@ -55,7 +55,7 @@ than specifying. Key relevant work includes:
 - Anthropic Projects documentation (current)
 - Microsoft Copilot Studio (different approach to similar 
   problem)
-- Various multi-agent frameworks (LangChain, CrewAI, [AutoGen](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
+- Various multi-agent frameworks (LangChain, CrewAI, [AutoGen](01-интегральный-анализ-профиля-svend4.md))
 
 ### Earlier Companion Documents in This Series
 
@@ -69,9 +69,9 @@ header of this document.
 ---
 
 **Похожие документы:**
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md) (сходство 0.18)
-- [320-references](docs/02-anthropic-vacancies/320-references.md) (сходство 0.14)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
+- [302-ссылки](302-ссылки.md) (сходство 0.18)
+- [320-references](320-references.md) (сходство 0.14)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -79,10 +79,10 @@ header of this document.
 ---
 
 **Смотрите также:**
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [306-with-anthropic-s-cowork-platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
+- [302-ссылки](302-ссылки.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [306-with-anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
 
 
 <!-- backlinks -->
@@ -90,13 +90,13 @@ header of this document.
 ---
 
 **Кто ссылается на этот документ (13):**
-- [184-appendix-a-connection-to-companion-papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
-- [209-a-typology-of-ai-agents-on-the-principal-side-and-](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
-- [251-ai-support-through-configurable-specialist-ensembl](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [274-the-missing-middle-layer-between-chat-and-code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
-- [275-why-this-document-exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-- [277-what-s-missing-layer-b](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-- [286-acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
+- [184-appendix-a-connection-to-companion-papers](184-appendix-a-connection-to-companion-papers.md)
+- [209-a-typology-of-ai-agents-on-the-principal-side-and-](209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
+- [251-ai-support-through-configurable-specialist-ensembl](251-ai-support-through-configurable-specialist-ensembl.md)
+- [267-acknowledgments](267-acknowledgments.md)
+- [274-the-missing-middle-layer-between-chat-and-code](274-the-missing-middle-layer-between-chat-and-code.md)
+- [275-why-this-document-exists](275-why-this-document-exists.md)
+- [277-what-s-missing-layer-b](277-what-s-missing-layer-b.md)
+- [286-acknowledgments](286-acknowledgments.md)
 - _...ещё 5_
 

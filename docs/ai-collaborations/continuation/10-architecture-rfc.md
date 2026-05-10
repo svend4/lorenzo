@@ -39,8 +39,8 @@ Pilot scenarios: community OS, legal/research OS, AgentOps memory kernel.
 ---
 
 **Смотрите также:**
-- [06-metrics-tree](docs/ai-collaborations/continuation/06-metrics-tree.md)
-- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [09-do-not-glue](docs/ai-collaborations/continuation/09-do-not-glue.md)
+- [06-metrics-tree](06-metrics-tree.md)
+- [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [09-do-not-glue](09-do-not-glue.md)
 

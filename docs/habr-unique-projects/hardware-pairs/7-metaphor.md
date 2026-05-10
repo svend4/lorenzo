@@ -32,8 +32,8 @@ Claude hat geantwortet: Понял — переключаюсь на софт.
 ---
 
 **Смотрите также:**
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
-- [6-metaphor](docs/habr-unique-projects/software-pairs/6-metaphor.md)
-- [06-svyazi-2-0-block-map](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
+- [6-metaphor](../software-pairs/6-metaphor.md)
+- [06-svyazi-2-0-block-map](../key-findings/06-svyazi-2-0-block-map.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 

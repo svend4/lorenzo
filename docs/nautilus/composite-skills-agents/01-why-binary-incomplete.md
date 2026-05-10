@@ -121,8 +121,8 @@ support to skilled professions.
 ---
 
 **Смотрите также:**
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [13-closing](docs/nautilus/composite-skills-agents/13-closing.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
+- [254-1-why-the-binary-view-is-incomplete](../../02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
+- [252-abstract](../../02-anthropic-vacancies/252-abstract.md)
+- [13-closing](13-closing.md)
+- [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
 

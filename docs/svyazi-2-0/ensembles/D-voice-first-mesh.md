@@ -44,8 +44,8 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [voice-stack](docs/svyazi-2-0/components/voice-stack.md)
-- [F-evidence-backed-intake](docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [voice-stack](../components/voice-stack.md)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md)
 

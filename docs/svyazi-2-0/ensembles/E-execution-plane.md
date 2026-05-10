@@ -41,8 +41,8 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [security-routing-plane](docs/svyazi-2-0/components/security-routing-plane.md)
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [budget-routing](docs/svyazi-2-0/security/budget-routing.md)
+- [security-routing-plane](../components/security-routing-plane.md)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [budget-routing](../security/budget-routing.md)
 

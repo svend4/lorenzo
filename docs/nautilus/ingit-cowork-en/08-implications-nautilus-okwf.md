@@ -135,8 +135,8 @@ implementable starting next week.
 ---
 
 **Смотрите также:**
-- [316-8-implications-for-nautilus-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [10-strategic-positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
-- [262-9-integration-with-okwf-infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
+- [316-8-implications-for-nautilus-and-okwf](../../02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [09-okwf-integration](../composite-skills-agents/09-okwf-integration.md)
+- [10-strategic-positioning](10-strategic-positioning.md)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
 

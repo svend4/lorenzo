@@ -33,10 +33,10 @@
 ---
 
 **Смотрите также:**
-- [mclaude](docs/svyazi-2-0/components/mclaude.md)
-- [memnet](docs/svyazi-2-0/components/memnet.md)
-- [ai-factory](docs/svyazi-2-0/components/ai-factory.md)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+- [mclaude](mclaude.md)
+- [memnet](memnet.md)
+- [ai-factory](ai-factory.md)
+- [knowledge-space](knowledge-space.md)
 
 
 <!-- backlinks -->
@@ -44,7 +44,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

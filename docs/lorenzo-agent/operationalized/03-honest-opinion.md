@@ -42,8 +42,8 @@ Cannot substitute для domain expertise — Lorenzo нужны humans для a
 ---
 
 **Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [08-section-8-risks-mitigations](../../anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+- [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+- [09-voobshche-nelzya](../09-voobshche-nelzya.md)
 

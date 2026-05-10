@@ -48,8 +48,8 @@ ROI: Detect agent bottlenecks 60 sec vs manual review
 ---
 
 **Смотрите также:**
-- [09-agent-orchestration-stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md)
-- [19-multi-agent-observability-platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
-- [16-adversarial-multi-agent-code-review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [09-agent-orchestration-stack](09-agent-orchestration-stack.md)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md)
+- [16-adversarial-multi-agent-code-review](16-adversarial-multi-agent-code-review.md)
+- [15-19-extended](../synthesis-tables/15-19-extended.md)
 

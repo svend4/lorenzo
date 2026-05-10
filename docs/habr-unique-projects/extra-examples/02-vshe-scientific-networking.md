@@ -32,8 +32,8 @@ Distinguishes между разными формами научного сотр
 ---
 
 **Смотрите также:**
-- [04-claude-subagents-patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
-- [01-svyazi-andrey-chuyan](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
-- [07-specialized-knowledge-workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
-- [03-brainbox-multi-ai-hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
+- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md)
+- [07-specialized-knowledge-workspace](07-specialized-knowledge-workspace.md)
+- [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
 

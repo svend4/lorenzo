@@ -84,9 +84,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.73)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.72)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.71)
+- [vladspace](vladspace.md) (сходство 0.73)
+- [antipozitive](antipozitive.md) (сходство 0.72)
+- [zodigancode](zodigancode.md) (сходство 0.71)
 
 
 <!-- see-also -->
@@ -94,10 +94,10 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [vitalyoborin](docs/contacts/vitalyoborin.md)
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [vitalyoborin](vitalyoborin.md)
 
 
 <!-- backlinks -->
@@ -105,7 +105,7 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (3):**
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [README](docs/contacts/README.md)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [README](README.md)
 

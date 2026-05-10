@@ -37,8 +37,8 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [D-voice-first-mesh](docs/svyazi-2-0/ensembles/D-voice-first-mesh.md)
-- [B-forensic-rag](docs/svyazi-2-0/ensembles/B-forensic-rag.md)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
+- [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [D-voice-first-mesh](D-voice-first-mesh.md)
+- [B-forensic-rag](B-forensic-rag.md)
 

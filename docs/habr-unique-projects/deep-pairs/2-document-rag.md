@@ -29,8 +29,8 @@ Local RAG за вечер (https://habr.com/ru/articles/955798/) — 5 open-sour
 ---
 
 **Смотрите также:**
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
-- [5-voice-local-memory](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
-- [2-pkm-mcp-skills](docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md)
-- [1-llm-gateway](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+- [07-crawl4ai-docling-yodoca-consolidator](../../technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+- [5-voice-local-memory](5-voice-local-memory.md)
+- [2-pkm-mcp-skills](../software-pairs/2-pkm-mcp-skills.md)
+- [1-llm-gateway](1-llm-gateway.md)
 

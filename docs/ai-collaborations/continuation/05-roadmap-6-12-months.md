@@ -37,8 +37,8 @@
 ---
 
 **Смотрите также:**
-- [roadmap](docs/svyazi-2-0/prototype/roadmap.md)
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
-- [12-дорожная-карта-прототипа-следующей-итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-- [12-roadmap](docs/01-svyazi/12-roadmap.md)
+- [roadmap](../../svyazi-2-0/prototype/roadmap.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
+- [12-roadmap](../../01-svyazi/12-roadmap.md)
 

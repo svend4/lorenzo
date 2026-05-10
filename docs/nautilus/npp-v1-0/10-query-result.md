@@ -42,8 +42,8 @@ category (сначала full, затем partial, затем singular).
 ---
 
 **Смотрите также:**
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+- [13-reference-implementation](13-reference-implementation.md)
+- [22-10-queryresult-structure](../../02-anthropic-vacancies/22-10-queryresult-structure.md)
+- [15-glossary](15-glossary.md)
 

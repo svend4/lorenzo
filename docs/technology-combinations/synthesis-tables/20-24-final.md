@@ -35,8 +35,8 @@
 ---
 
 **Смотрите также:**
-- [24-mega-integration-full-stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+- [24-mega-integration-full-stack](../combinations/24-mega-integration-full-stack.md)
+- [31-35-final](31-35-final.md)
+- [15-19-extended](15-19-extended.md)
+- [25-30-extended](25-30-extended.md)
 

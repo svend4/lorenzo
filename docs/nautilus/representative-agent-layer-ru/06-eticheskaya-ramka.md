@@ -82,8 +82,8 @@
 ---
 
 **Смотрите также:**
-- [196-6-этическая-рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md)
-- [10-otkrytye-voprosy](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
-- [05-arkhitekturnaya-spetsifikatsiya](docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md)
-- [07-upravlenie-nadzor](docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md)
+- [196-6-этическая-рамка](../../02-anthropic-vacancies/196-6-этическая-рамка.md)
+- [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
+- [05-arkhitekturnaya-spetsifikatsiya](05-arkhitekturnaya-spetsifikatsiya.md)
+- [07-upravlenie-nadzor](07-upravlenie-nadzor.md)
 

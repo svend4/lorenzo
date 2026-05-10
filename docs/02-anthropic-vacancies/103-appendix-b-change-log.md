@@ -26,7 +26,7 @@
 - **New**: REST API contract mandatory (section 13)
 - **New**: SDK contract informative (section 14)
 - **New**: MCP extension informative (section 16)
-- **Changed**: `is_fallback` field added to [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) (normative)
+- **Changed**: `is_fallback` field added to [PortalEntry](01-интегральный-анализ-профиля-svend4.md) (normative)
 - **Changed**: Consensus structure extended with `coverage_with_fallback`
 - **Changed**: Passport schema formalized via `passport_schema.json`
 - **Clarified**: Naming conventions (passport by format, not by repo)
@@ -99,11 +99,11 @@
 ---
 
 **Кто ссылается на этот документ (7):**
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [README](README.md)
 

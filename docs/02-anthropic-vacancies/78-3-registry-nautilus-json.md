@@ -34,7 +34,7 @@
   - [3.3. Required Fields](#33-required-fields)
   - [3.4. Optional Fields](#34-optional-fields)
   - [3.5. Validation Rules](#35-validation-rules)
-  - [3.6. [AutoAdapter](../docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) Special Case](#36-autoadapter-special-case)
+  - [3.6. [AutoAdapter](141-4-nautilus-portal-as-reference-substrate.md) Special Case](#36-autoadapter-special-case)
 
 
 > [!IMPORTANT]
@@ -101,7 +101,7 @@ Registry MUST быть валидным JSON со следующей струк�
 - `format` — идентификатор native-формата (используется для 
   именования адаптера и passport)
 - `adapter` — имя адаптера: либо имя Python-модуля в `adapters/`, 
-  либо `"auto"` для использования [AutoAdapter](../docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (см. раздел 12.3)
+  либо `"auto"` для использования [AutoAdapter](141-4-nautilus-portal-as-reference-substrate.md) (см. раздел 12.3)
 - `compatibility` — целое 0..3
 
 ### 3.4. Optional Fields
@@ -136,8 +136,8 @@ Portal SHOULD выдавать warning (но не отклонять), если:
 
 ### 3.6. AutoAdapter Special Case
 
-Если `adapter: "auto"`, portal MUST использовать [AutoAdapter](../docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (см. 
-раздел 12.3), который загружает `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` из корня 
+Если `adapter: "auto"`, portal MUST использовать [AutoAdapter](141-4-nautilus-portal-as-reference-substrate.md) (см. 
+раздел 12.3), который загружает `[nautilus](../05-habr-projects/memory/memnet.md).json` из корня 
 target-репо вместо локального модуля-адаптера. Это enables 
 Onboarding Path C (self-declaring repo).
 
@@ -148,9 +148,9 @@ Onboarding Path C (self-declaring repo).
 ---
 
 **Похожие документы:**
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.16)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md) (сходство 0.15)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.52)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.16)
+- [07-2-terminology](07-2-terminology.md) (сходство 0.15)
 
 
 <!-- see-also -->
@@ -158,10 +158,10 @@ Onboarding Path C (self-declaring repo).
 ---
 
 **Смотрите также:**
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
-- [07-2-terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [82-7-portalentry-structure](82-7-portalentry-structure.md)
+- [77-2-terminology](77-2-terminology.md)
+- [07-2-terminology](07-2-terminology.md)
 
 
 <!-- backlinks -->
@@ -169,7 +169,7 @@ Onboarding Path C (self-declaring repo).
 ---
 
 **Кто ссылается на этот документ (3):**
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [README](README.md)
 

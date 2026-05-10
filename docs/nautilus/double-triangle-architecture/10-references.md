@@ -61,8 +61,8 @@
 ---
 
 **Смотрите также:**
-- [147-references](docs/02-anthropic-vacancies/147-references.md)
-- [11-dhlab-documents](docs/lorenzo-agent/11-dhlab-documents.md)
-- [09-acknowledgments](docs/nautilus/double-triangle-architecture/09-acknowledgments.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [147-references](../../02-anthropic-vacancies/147-references.md)
+- [11-dhlab-documents](../../lorenzo-agent/11-dhlab-documents.md)
+- [09-acknowledgments](09-acknowledgments.md)
+- [13-reference-implementation](../npp-v1-0/13-reference-implementation.md)
 

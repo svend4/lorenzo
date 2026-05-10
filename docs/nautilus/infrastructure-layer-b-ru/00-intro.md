@@ -115,8 +115,8 @@ markdown
 ---
 
 **Смотрите также:**
-- [288-appendix-position-in-series-visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-- [289-инфраструктура-для-ai-совместной-интеллектуальной-](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
-- [324-ingit-как-cowork-интегрированная-подложка-рабочего](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
-- [12-blagodarnosti-ssylki](docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md)
+- [288-appendix-position-in-series-visualization](../../02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
+- [289-инфраструктура-для-ai-совместной-интеллектуальной-](../../02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
+- [324-ingit-как-cowork-интегрированная-подложка-рабочего](../../02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
+- [12-blagodarnosti-ssylki](12-blagodarnosti-ssylki.md)
 

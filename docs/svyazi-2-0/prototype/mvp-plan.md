@@ -36,8 +36,8 @@
 ---
 
 **Смотрите также:**
-- [05-план-прототипа-и-возможные-контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+- [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
+- [07-mvp-planning](../../01-svyazi/07-mvp-planning.md)
+- [executive-summary](../overview/executive-summary.md)
+- [first-contacts](../outreach/first-contacts.md)
 

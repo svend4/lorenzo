@@ -135,8 +135,8 @@
 ---
 
 **Смотрите также:**
-- [NETWORK](docs/NETWORK.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [GRAPH](docs/GRAPH.md)
-- [MINDMAP](docs/MINDMAP.md)
+- [NETWORK](NETWORK.md)
+- [GLOSSARY](GLOSSARY.md)
+- [GRAPH](GRAPH.md)
+- [MINDMAP](MINDMAP.md)
 

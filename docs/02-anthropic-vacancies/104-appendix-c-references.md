@@ -172,13 +172,13 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 ---
 
 **Кто ссылается на этот документ (15):**
-- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [109-3-принципы-консолидации-фаза-c](109-3-принципы-консолидации-фаза-c.md)
+- [122-глоссарий](122-глоссарий.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
 - _...ещё 7_
 

@@ -170,8 +170,8 @@ Both produce artifacts which are immediately useful
 ---
 
 **Смотрите также:**
-- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-- [03-dhlab-umbrella](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
-- [04-recommendations](docs/lorenzo-agent/operationalized/04-recommendations.md)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
+- [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- [04-recommendations](../operationalized/04-recommendations.md)
 

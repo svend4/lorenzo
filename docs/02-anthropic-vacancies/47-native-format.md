@@ -11,7 +11,7 @@
 
 ## Native Format
 
-**Расширение:** `.[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`
+**Расширение:** `.[pro2](01-интегральный-анализ-профиля-svend4.md)`
 
 **Структура концепта (предположительно):** [? уточнить точный формат]
 ```
@@ -93,12 +93,12 @@
 ---
 
 **Кто ссылается на этот документ (8):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [54-for-the-curious-philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [04-abstract](04-abstract.md)
+- [37-native-format](37-native-format.md)
+- [42-author-contact](42-author-contact.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [54-for-the-curious-philosophy](54-for-the-curious-philosophy.md)
+- [57-native-format](57-native-format.md)
+- [README](README.md)
 

@@ -97,9 +97,9 @@
 ---
 
 **Похожие документы:**
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md) (сходство 0.68)
-- [08-что-это-продолжение-добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.24)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md) (сходство 0.22)
+- [01-executive-summary](../04-ai-collaborations/01-executive-summary.md) (сходство 0.68)
+- [08-что-это-продолжение-добавляет](../04-ai-collaborations/08-что-это-продолжение-добавляет.md) (сходство 0.24)
+- [07-выводы](../04-ai-collaborations/07-выводы.md) (сходство 0.22)
 
 
 

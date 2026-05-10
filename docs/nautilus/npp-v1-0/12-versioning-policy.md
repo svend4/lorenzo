@@ -43,8 +43,8 @@ implementation MUST поддерживать **минимум текущую maj
 ---
 
 **Смотрите также:**
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
-- [92-17-versioning-policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md)
+- [17-versioning-policy](../npp-v1-1/17-versioning-policy.md)
+- [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
 

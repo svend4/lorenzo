@@ -44,10 +44,10 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 ---
 
 **Смотрите также:**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [07-crawl4ai-docling-yodoca-consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+- [03-local-first](../../03-technology-combinations/03-local-first.md)
+- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
 
 
 <!-- backlinks -->
@@ -55,8 +55,8 @@ Query: вопросы типа "найди дела где § 78 + retroactive b
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 

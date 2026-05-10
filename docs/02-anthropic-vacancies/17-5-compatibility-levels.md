@@ -39,7 +39,7 @@ NPP определяет 4 уровня совместимости Repo с эк�
 
 ### Level 0 — Discoverable
 
-Repo объявлен в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` с полями `name`, `url`, `format`. 
+Repo объявлен в `[nautilus](../05-habr-projects/memory/memnet.md).json` с полями `name`, `url`, `format`. 
 Адаптера ещё нет. Portal знает о существовании Repo, но не может 
 его запрашивать.
 
@@ -76,9 +76,9 @@ Portal может переводить концепты между Repos чер�
 ---
 
 **Похожие документы:**
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.32)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md) (сходство 0.17)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md) (сходство 0.14)
+- [80-5-compatibility-levels](80-5-compatibility-levels.md) (сходство 0.32)
+- [41-compatibility-level](41-compatibility-level.md) (сходство 0.17)
+- [51-compatibility-level](51-compatibility-level.md) (сходство 0.14)
 
 
 <!-- see-also -->
@@ -86,10 +86,10 @@ Portal может переводить концепты между Repos чер�
 ---
 
 **Смотрите также:**
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [80-5-compatibility-levels](80-5-compatibility-levels.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
 
 
 <!-- backlinks -->
@@ -97,11 +97,11 @@ Portal может переводить концепты между Repos чер�
 ---
 
 **Кто ссылается на этот документ (7):**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
 

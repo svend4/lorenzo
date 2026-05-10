@@ -51,8 +51,8 @@ Community Project Builder — участники сообщества предл
 ---
 
 **Смотрите также:**
-- [01-shared-memory-between-agents](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md)
-- [9-ambient-team-agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+- [01-shared-memory-between-agents](../continuation/01-shared-memory-between-agents.md)
+- [9-ambient-team-agent](9-ambient-team-agent.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
 

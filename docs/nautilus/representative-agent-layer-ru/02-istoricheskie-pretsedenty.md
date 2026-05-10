@@ -136,8 +136,8 @@ AI-Представительские Агенты сохраняют сильн
 ---
 
 **Смотрите также:**
-- [192-2-исторические-прецеденты-агенты-как-цивилизационн](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
-- [DUPLICATES](docs/DUPLICATES.md)
-- [04-desyat-oblastey](docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](../../02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
+- [DUPLICATES](../../DUPLICATES.md)
+- [04-desyat-oblastey](04-desyat-oblastey.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 

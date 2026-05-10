@@ -31,10 +31,10 @@ Stability Engine блокирует ложные обобщения («конк�
 ---
 
 **Смотрите также:**
-- [3-discovery-research](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
-- [1-one-person-one-company](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [7-autoresearch-distributed](docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md)
+- [3-discovery-research](3-discovery-research.md)
+- [1-one-person-one-company](1-one-person-one-company.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [7-autoresearch-distributed](../deep-pairs/7-autoresearch-distributed.md)
 
 
 <!-- backlinks -->
@@ -42,7 +42,7 @@ Stability Engine блокирует ложные обобщения («конк�
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/habr-unique-projects/final-ensembles/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

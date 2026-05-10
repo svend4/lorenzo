@@ -34,8 +34,8 @@
 ---
 
 **Смотрите также:**
-- [03-what-doesnt-exist-on-market](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
-- [05-which-combination-more-valuable](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
-- [04-section-4-sgb-pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
-- [16-mcp-extension](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+- [03-what-doesnt-exist-on-market](03-what-doesnt-exist-on-market.md)
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md)
+- [04-section-4-sgb-pilot](../../anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+- [16-mcp-extension](../npp-v1-1/16-mcp-extension.md)
 

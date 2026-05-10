@@ -37,8 +37,8 @@ readiness.
 ---
 
 **Смотрите также:**
-- [120-главные-технические-риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [120-главные-технические-риски](../../02-anthropic-vacancies/120-главные-технические-риски.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [15-appendix-c-history](15-appendix-c-history.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 

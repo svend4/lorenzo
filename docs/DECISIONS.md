@@ -44,10 +44,10 @@
 - путь — не строить большой новый монолит, а начать с минимального прототипа из пяти компонентов: Svyazi‑подобный import/normalize/CardIndex, AgentFS‑подобное файловое ядро, NGT կամ Yodoca‑подобная памя  
   _→ 01-executive-summary_
 
-- кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](../docs/01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33vie  
+- кандидат для слоя .agentos/ и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub](01-svyazi/03-component-catalog.md) issues в AgentFS. citeturn33vie  
   _→ 05-план-прототипа-и-возможные-контакты_
 
-- Svyazi + AgentFS +… - **🛠️ MVP:** Planning](07-mvp-planning - **🛠️ MVP:** Planning](07-mvp-planning _[→ Читать полностью](docs/01-svyazi/01-executive-summary.md)_ --- ## Глава 2: Экосистема проек  
+- Svyazi + AgentFS +… - **🛠️ MVP:** Planning](07-mvp-planning - **🛠️ MVP:** Planning](07-mvp-planning _[→ Читать полностью](01-svyazi/01-executive-summary.md)_ --- ## Глава 2: Экосистема проек  
   _→ NARRATIVE_
 
 - Svyazi + AgentFS + NGT ^ngt /Yodoca + LitePa **B:** `docs/04-ai-collaborations/07-выводы.md` > Если ранжировать найденные направления по практической силе именно для старта, то порядок такой. Первое  
@@ -88,16 +88,16 @@ _...ещё 41 записей в этой категории_
 
 ## Память (16)
 
-- опубликовать спецификацию .[nautilus](../docs/05-habr-projects/memory/memnet.md).yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, к  
+- опубликовать спецификацию .[nautilus](05-habr-projects/memory/memnet.md).yaml и подать её как RFC. Если формат внятный, это потенциально open-source standard. Есть прямой целевой рынок: все, к  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- реализовать [nautilus](../docs/05-habr-projects/memory/memnet.md) как web-portal на базе ваших 70 репо . Это и есть живая демонстрация концепции. Нужны: GitHub API integration, .nautilus.yaml parser д  
+- реализовать [nautilus](05-habr-projects/memory/memnet.md) как web-portal на базе ваших 70 репо . Это и есть живая демонстрация концепции. Нужны: GitHub API integration, .nautilus.yaml parser д  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- сочетать с universal-file-storage-mcp . Если [nautilus](../docs/05-habr-projects/memory/memnet.md) знает о всех ваших репо, а universal-file-storage-mcp даёт Claude доступ к файлам локально, то объеди  
+- сочетать с universal-file-storage-mcp . Если [nautilus](05-habr-projects/memory/memnet.md) знает о всех ваших репо, а universal-file-storage-mcp даёт Claude доступ к файлам локально, то объеди  
   _→ 01-интегральный-анализ-профиля-svend4_
 
-- написать [nautilus](../docs/05-habr-projects/memory/memnet.md)/README.md отдельно от корневого README pro2 . Минимум 1 страница, объясняющая, что эта подпапка делает и как она связана с основной модел  
+- написать [nautilus](05-habr-projects/memory/memnet.md)/README.md отдельно от корневого README pro2 . Минимум 1 страница, объясняющая, что эта подпапка делает и как она связана с основной модел  
   _→ 01-интегральный-анализ-профиля-svend4_
 
 - прочитать в первую очередь. <!-- alert-added --> <!-- summary --> > Два независимых анализа пришли к разным выводам: --- <!-- tags: memory, rag, collaboration --> ## Вопрос: fallback-ratio как  
@@ -133,7 +133,7 @@ _...ещё 41 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](docs/contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
   _→ OUTLINE_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
@@ -169,7 +169,7 @@ _...ещё 41 записей в этой категории_
 - создать документы | Концепция | Упоминаний | Рекомендуемая папка | |-----------|-----------|-------------------| | `LiteParse` | 105 | `docs/obsidian/` | | `BSL` | 75 | `docs/obsidian/` | | `NPP` | 6  
   _→ CONTENT_GAPS_
 
-- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) | 343 | | 37 | [Лицензионные развилки](docs/svyazi-2-0/limitations/license-tree.md) | 324 | | 3  
+- склеивать](docs/svyazi-2-0/limitations/do-not-glue.md) | 343 | | 37 | [Лицензионные развилки](svyazi-2-0/limitations/license-tree.md) | 324 | | 3  
   _→ SITEMAP_
 
 - конкретные next steps. Save in repo as docs/REPRESENTATIVE-AGENT-LAYER.md. Commit. Add link from main README. Done. Третье — гордиться этим. Five interconnected documents addressing real problems wit  
@@ -315,6 +315,6 @@ _...ещё 430 записей в этой категории_
 ---
 
 **Смотрите также:**
-- [ACTION_ITEMS](docs/ACTION_ITEMS.md)
-- [PROGRESS](docs/PROGRESS.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [PROGRESS](PROGRESS.md)
 

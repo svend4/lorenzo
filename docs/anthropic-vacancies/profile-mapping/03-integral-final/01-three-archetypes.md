@@ -30,8 +30,8 @@
 ---
 
 **Смотрите также:**
-- [01-profile-five-layers](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
-- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
-- [04-tertiary-research-engineer-agents](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
-- [02-primary-fde](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+- [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
+- [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+- [04-tertiary-research-engineer-agents](../01-initial-analysis/04-tertiary-research-engineer-agents.md)
+- [02-primary-fde](../01-initial-analysis/02-primary-fde.md)
 

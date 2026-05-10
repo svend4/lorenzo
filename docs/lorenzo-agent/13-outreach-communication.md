@@ -38,8 +38,8 @@
 ---
 
 **Смотрите также:**
-- [357-твоя-коммуникация-в-outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
-- [04-q4-character](docs/lorenzo-agent/specification/04-q4-character.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [03-tvoya-missiya](docs/lorenzo-agent/03-tvoya-missiya.md)
+- [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
+- [04-q4-character](specification/04-q4-character.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [03-tvoya-missiya](03-tvoya-missiya.md)
 

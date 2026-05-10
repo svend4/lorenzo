@@ -187,8 +187,8 @@ Riskи и trade-offs, которые стоит осознавать
 ---
 
 **Смотрите также:**
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [02-two-tier-publication](docs/nautilus/privacy-federation/02-two-tier-publication.md)
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-strategic-significance](../multi-tier-architecture/01-strategic-significance.md)
+- [02-two-tier-publication](02-two-tier-publication.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
 

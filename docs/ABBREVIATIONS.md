@@ -146,8 +146,8 @@
 ---
 
 **Смотрите также:**
-- [SITEMAP](docs/SITEMAP.md)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [TABLES](docs/TABLES.md)
-- [03-карта-найденных-проектов-и-паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [SITEMAP](SITEMAP.md)
+- [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
+- [TABLES](TABLES.md)
+- [03-карта-найденных-проектов-и-паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
 

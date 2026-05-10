@@ -123,8 +123,8 @@
 ---
 
 **Смотрите также:**
-- [PRIORITIES](docs/PRIORITIES.md)
-- [SEARCH](docs/SEARCH.md)
-- [SITEMAP](docs/SITEMAP.md)
-- [READING_ORDER](docs/READING_ORDER.md)
+- [PRIORITIES](PRIORITIES.md)
+- [SEARCH](SEARCH.md)
+- [SITEMAP](SITEMAP.md)
+- [READING_ORDER](READING_ORDER.md)
 

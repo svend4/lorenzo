@@ -214,8 +214,8 @@ API доступно
 ---
 
 **Смотрите также:**
-- [331-5-четыре-пути-интеграции-в-порядке-доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-- [06-utochnyonnyy-obyom-ingit](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md)
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
-- [07-prakticheskie-shagi](docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md)
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](../../02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md)
+- [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
+- [07-prakticheskie-shagi](07-prakticheskie-shagi.md)
 

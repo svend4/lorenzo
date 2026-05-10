@@ -82,13 +82,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (16):**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [168-abstract](168-abstract.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - _...ещё 8_
 

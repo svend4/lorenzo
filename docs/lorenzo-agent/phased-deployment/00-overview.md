@@ -34,8 +34,8 @@ Claude hat geantwortet: Отлично — это очень важный отв
 ---
 
 **Смотрите также:**
-- [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
-- [01-level-0-manual](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
-- [05-level-4-extended-mature](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
+- [07-progression-logic](07-progression-logic.md)
+- [06-level-5-full-network](06-level-5-full-network.md)
+- [01-level-0-manual](01-level-0-manual.md)
+- [05-level-4-extended-mature](05-level-4-extended-mature.md)
 

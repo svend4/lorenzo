@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > Когда Max или authorized user ставит задачу, твой default approach:
-**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md)
+**Проекты:** [CardIndex](../01-svyazi/01-executive-summary.md)
 
 ---
 <!-- tags: knowledge -->
@@ -45,7 +45,7 @@
 - Decision points
 
 **7. Document**
-- Update [CardIndex](../docs/01-svyazi/01-executive-summary.md) / knowledge base
+- Update [CardIndex](../01-svyazi/01-executive-summary.md) / knowledge base
 - Save artifacts
 
 <!-- similar-docs -->
@@ -93,8 +93,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [351-что-ты-можешь-делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)
-- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [351-что-ты-можешь-делать](351-что-ты-можешь-делать.md)
+- [353-что-ты-не-можешь-делать-вообще](353-что-ты-не-можешь-делать-вообще.md)
+- [README](README.md)
 

@@ -96,7 +96,7 @@ needs.
 ---
 
 **Кто ссылается на этот документ (3):**
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [326-содержание](docs/02-anthropic-vacancies/326-содержание.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [326-содержание](326-содержание.md)
+- [README](README.md)
 

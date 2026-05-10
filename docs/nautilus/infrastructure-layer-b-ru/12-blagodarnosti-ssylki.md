@@ -181,8 +181,8 @@ Knowledge Work*
 ---
 
 **Смотрите также:**
-- [302-ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
-- [301-благодарности](docs/02-anthropic-vacancies/301-благодарности.md)
-- [00-intro](docs/nautilus/infrastructure-layer-b-ru/00-intro.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+- [302-ссылки](../../02-anthropic-vacancies/302-ссылки.md)
+- [301-благодарности](../../02-anthropic-vacancies/301-благодарности.md)
+- [00-intro](00-intro.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
 

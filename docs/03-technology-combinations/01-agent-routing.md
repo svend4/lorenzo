@@ -12,7 +12,7 @@
 
 <!-- summary -->
 > самоулучшения промпта". Добавляем durable state из агентской архитектуры:
-**Проекты:** [CardIndex](../docs/01-svyazi/01-executive-summary.md), Auto AI Router
+**Проекты:** [CardIndex](../01-svyazi/01-executive-summary.md), Auto AI Router
 
 ---
 <!-- tags: knowledge, architecture, self-improvement, collaboration -->
@@ -26,7 +26,7 @@
 - Агент периодически запускает A/B-тестирование промптов
 - Лучший промпт сохраняется как новое состояние
 Результат: система сама улучшает свои промпты через накопленные данные, без ручного вмешательства.
-1.2 Multi-domain профилирование с раздельным state У Свyazi один [CardIndex](../docs/01-svyazi/01-executive-summary.md) для всех участников. При масштабе >1000 человек это становится узким местом. Durable state позволяет:
+1.2 Multi-domain профилирование с раздельным state У Свyazi один [CardIndex](../01-svyazi/01-executive-summary.md) для всех участников. При масштабе >1000 человек это становится узким местом. Durable state позволяет:
 - Разделить граф на домены (legal / tech / business)
 - Каждый домен = отдельный агентский поток с собственным состоянием
 - Cross-domain запросы через event bus
@@ -80,7 +80,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [03-local-first](docs/03-technology-combinations/03-local-first.md)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [README](docs/03-technology-combinations/README.md)
+- [03-local-first](03-local-first.md)
+- [05-benchmarks](05-benchmarks.md)
+- [README](README.md)
 

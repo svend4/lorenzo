@@ -105,8 +105,8 @@ indefinitely; "graduation" may not be the right metaphor.
 ---
 
 **Смотрите также:**
-- [264-11-open-questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
-- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [03-what-makes-csa](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
+- [264-11-open-questions](../../02-anthropic-vacancies/264-11-open-questions.md)
+- [12-call-for-collaboration](12-call-for-collaboration.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [03-what-makes-csa](03-what-makes-csa.md)
 

@@ -137,8 +137,8 @@ synthesis.)
 ---
 
 **Смотрите также:**
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [267-acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+- [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md)
+- [267-acknowledgments](../../02-anthropic-vacancies/267-acknowledgments.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+- [09-okwf-integration](09-okwf-integration.md)
 

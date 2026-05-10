@@ -18,8 +18,8 @@ Art Director Enterprise, Copy Leads, Customer Marketing (включая Startup 
 ---
 
 **Смотрите также:**
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [16-people](docs/anthropic-vacancies/clusters/16-people.md)
-- [15-public-benefit](docs/anthropic-vacancies/clusters/15-public-benefit.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+- [13-communications](13-communications.md)
+- [16-people](16-people.md)
+- [15-public-benefit](15-public-benefit.md)
+- [09-product-management-support-ops](09-product-management-support-ops.md)
 

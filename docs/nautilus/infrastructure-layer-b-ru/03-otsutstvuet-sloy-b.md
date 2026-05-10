@@ -90,8 +90,8 @@
 ---
 
 **Смотрите также:**
-- [292-что-отсутствует-слой-b](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
-- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [10-rekomendatsii](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
+- [292-что-отсутствует-слой-b](../../02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [10-rekomendatsii](10-rekomendatsii.md)
 

@@ -82,8 +82,8 @@ Nautilus-как-платформе. Интеллектуальная работ�
 ---
 
 **Смотрите также:**
-- [296-рекурсивное-прозрение](docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
+- [296-рекурсивное-прозрение](../../02-anthropic-vacancies/296-рекурсивное-прозрение.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
 

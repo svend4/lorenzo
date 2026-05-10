@@ -16,17 +16,17 @@
 
 <!-- summary -->
 > Lorenzo's architecture builds on верифицированных open-source компонентах:
-**Проекты:** Svyazi, CardIndex, AgentFS, [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude, AI Factory, Rufler, LiteParse
+**Проекты:** Svyazi, CardIndex, AgentFS, [knowledge-space](../01-svyazi/03-component-catalog.md), mclaude, AI Factory, Rufler, LiteParse
 
 ---
 
 <!-- toc -->
 ## Содержание
 
-- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-20-foundation)
+- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-[svyazi](../01-svyazi/00-intro-part2.md)-20-foundation)
   - [Анализ конкретных компонентов из документа (новых для нас)](#анализ-конкретных-компонентов-из-документа-новых-для-нас)
   - [Synthesizing с нашим existing landscape](#synthesizing-с-нашим-existing-landscape)
-  - [Strategic implications для Lorenzo](#strategic-implications-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
+  - [Strategic implications для Lorenzo](#strategic-implications-для-[lorenzo](249-composite-skills-agent-md.md))
   - [Конкретные next steps](#конкретные-next-steps)
   - [Ключевые вопросы к вам](#ключевые-вопросы-к-вам)
   - [Что это за документ — диагностика](#что-это-за-документ-диагностика)
@@ -52,7 +52,7 @@
 Lorenzo's architecture builds on верифицированных open-source компонентах:
 
 **Layer 1 — Ingestion**: Svyazi-style hybrid extraction (Чуян pattern)
-**Layer 2 — Knowledge**: [knowledge-space](../docs/01-svyazi/03-component-catalog.md) (Анастасия, MIT)
+**Layer 2 — Knowledge**: [knowledge-space](../01-svyazi/03-component-catalog.md) (Анастасия, MIT)
 **Layer 3 — Kernel**: AgentFS-style file architecture (kksudo pattern, MIT)
 **Layer 4 — Memory**: Yodoca consolidation + NGT Memory associations
 **Layer 5 — Evidence**: research-docs/LiteParse forensic RAG (Apache 2.0)
@@ -603,7 +603,7 @@ Wiederholen
 ---
 
 **Кто ссылается на этот документ (3):**
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [364-final-note-ты-experiment](364-final-note-ты-experiment.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- [README](README.md)
 

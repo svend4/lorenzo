@@ -50,8 +50,8 @@
 ---
 
 **Смотрите также:**
-- [298-что-этот-документ-не-решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [01-zachem-dokument](docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+- [298-что-этот-документ-не-решает](../../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [12-appendix-a-header-warning](../review-methodology/12-appendix-a-header-warning.md)
+- [01-zachem-dokument](01-zachem-dokument.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
 

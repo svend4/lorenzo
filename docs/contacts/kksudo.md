@@ -79,9 +79,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.71)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md) (сходство 0.70)
+- [vladspace](vladspace.md) (сходство 0.71)
+- [zodigancode](zodigancode.md) (сходство 0.70)
+- [tagir-analyzes](tagir-analyzes.md) (сходство 0.70)
 
 
 <!-- see-also -->
@@ -89,10 +89,10 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [tagir-analyzes](docs/contacts/tagir-analyzes.md)
-- [vladspace](docs/contacts/vladspace.md)
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
+- [tagir-analyzes](tagir-analyzes.md)
+- [vladspace](vladspace.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
 
 
 <!-- backlinks -->
@@ -100,7 +100,7 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (3):**
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
-- [README](docs/contacts/README.md)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

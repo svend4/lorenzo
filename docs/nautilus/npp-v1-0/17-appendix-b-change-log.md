@@ -24,8 +24,8 @@
 ---
 
 **Смотрите также:**
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [15-glossary](15-glossary.md)
 

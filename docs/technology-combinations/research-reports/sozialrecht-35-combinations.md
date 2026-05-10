@@ -34,8 +34,8 @@
 ---
 
 **Смотрите также:**
-- [continuation-10-domains](docs/technology-combinations/research-reports/continuation-10-domains.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+- [continuation-10-domains](continuation-10-domains.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
 

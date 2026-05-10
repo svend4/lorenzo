@@ -56,8 +56,8 @@ MCP Firewall — единая прослойка между агентом и в
 ---
 
 **Смотрите также:**
-- [04-memory-firewall-vs-prompt-worms](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [default-policy](docs/svyazi-2-0/security/default-policy.md)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [default-policy](../../svyazi-2-0/security/default-policy.md)
 

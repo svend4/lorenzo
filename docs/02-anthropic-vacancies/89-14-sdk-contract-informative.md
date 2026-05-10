@@ -47,7 +47,7 @@ class NautilusClient:
 ### 14.3. Return Types
 
 SDK MUST деsериализовать JSON responses в typed structures (dataclasses 
-для Python, interfaces для [TypeScript](../docs/05-habr-projects/memory/memnet.md) и т.д.). Raw dict return 
+для Python, interfaces для [TypeScript](../05-habr-projects/memory/memnet.md) и т.д.). Raw dict return 
 acceptable только для debugging/experimental версий.
 
 ---
@@ -57,7 +57,7 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Похожие документы:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.12)
+- [93-18-reference-implementation](93-18-reference-implementation.md) (сходство 0.12)
 
 
 <!-- see-also -->
@@ -65,10 +65,10 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Смотрите также:**
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
 
 
 <!-- backlinks -->
@@ -76,13 +76,13 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [93-18-reference-implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
+- [04-abstract](04-abstract.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [93-18-reference-implementation](93-18-reference-implementation.md)
 - _...ещё 1_
 

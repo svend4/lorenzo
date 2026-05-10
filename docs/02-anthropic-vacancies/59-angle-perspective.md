@@ -19,8 +19,8 @@ evolution».
 
 Это самый **формальный** угол в экосистеме. Здесь всё — числа, 
 правила, инварианты. Практически это означает, что `meta` может 
-давать **формальные ответы на формальные вопросы**, где `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` и 
-`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` дают прозу.
+давать **формальные ответы на формальные вопросы**, где `[pro2](01-интегральный-анализ-профиля-svend4.md)` и 
+`[info1](01-интегральный-анализ-профиля-svend4.md)` дают прозу.
 
 ---
 
@@ -84,11 +84,11 @@ evolution».
 ---
 
 **Кто ссылается на этот документ (7):**
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [35-passports-info1-md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
-- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [35-passports-info1-md](35-passports-info1-md.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [README](README.md)
 

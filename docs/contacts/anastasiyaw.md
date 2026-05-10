@@ -35,7 +35,7 @@ tags: [контакты, команда]
 - [Открытые вопросы](#открытые-вопросы)
 
 
-<!-- summary: Шаблон для связи с автором [knowledge-space](../docs/01-svyazi/03-component-catalog.md), mclaude -->
+<!-- summary: Шаблон для связи с автором [knowledge-space](../01-svyazi/03-component-catalog.md), mclaude -->
 <!-- tags: контакты, команда -->
 
 ## Профиль
@@ -84,9 +84,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [sonia-black](docs/contacts/sonia-black.md) (сходство 0.74)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.67)
-- [cutcode](docs/contacts/cutcode.md) (сходство 0.67)
+- [sonia-black](sonia-black.md) (сходство 0.74)
+- [zodigancode](zodigancode.md) (сходство 0.67)
+- [cutcode](cutcode.md) (сходство 0.67)
 
 
 <!-- see-also -->
@@ -94,10 +94,10 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [cutcode](docs/contacts/cutcode.md)
-- [zodigancode](docs/contacts/zodigancode.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [dmitriila](docs/contacts/dmitriila.md)
+- [cutcode](cutcode.md)
+- [zodigancode](zodigancode.md)
+- [sonia-black](sonia-black.md)
+- [dmitriila](dmitriila.md)
 
 
 <!-- backlinks -->
@@ -105,8 +105,8 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (4):**
-- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
-- [README](docs/contacts/README.md)
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

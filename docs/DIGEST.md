@@ -66,9 +66,9 @@ _Обновлено: 2026-05-10_
 ---
 
 **Кто ссылается на этот документ (3):**
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 
 
 <!-- see-also -->
@@ -76,8 +76,8 @@ _Обновлено: 2026-05-10_
 ---
 
 **Смотрите также:**
-- [DIGEST_WEEKLY](docs/DIGEST_WEEKLY.md)
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [DIGEST_AUTO](docs/DIGEST_AUTO.md)
-- [CHANGELOG](docs/CHANGELOG.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [CHANGELOG](CHANGELOG.md)
 

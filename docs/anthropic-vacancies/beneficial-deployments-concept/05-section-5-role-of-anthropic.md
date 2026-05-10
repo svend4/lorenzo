@@ -49,8 +49,8 @@ This is mutual benefit framing. Не «вы дайте денег», но «да
 ---
 
 **Смотрите также:**
-- [00-context](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
-- [09-section-9-timeliness](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [01-section-1-problem](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
+- [00-context](00-context.md)
+- [09-section-9-timeliness](09-section-9-timeliness.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [01-section-1-problem](01-section-1-problem.md)
 

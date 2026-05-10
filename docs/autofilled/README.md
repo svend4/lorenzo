@@ -15,13 +15,13 @@
 ---
 
 **Кто ссылается на этот документ (11):**
-- [.md](docs/autofilled/components/.md)
-- [cowork](docs/autofilled/components/cowork.md)
-- [ingit](docs/autofilled/components/ingit.md)
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [lorenzo](docs/autofilled/components/lorenzo.md)
-- [nautilus](docs/autofilled/components/nautilus.md)
-- [sgb](docs/autofilled/components/sgb.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
+- [.md](components/.md)
+- [cowork](components/cowork.md)
+- [ingit](components/ingit.md)
+- [kksudo](components/kksudo.md)
+- [lorenzo](components/lorenzo.md)
+- [nautilus](components/nautilus.md)
+- [sgb](components/sgb.md)
+- [spbmolot](components/spbmolot.md)
 - _...ещё 3_
 

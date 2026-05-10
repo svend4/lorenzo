@@ -90,8 +90,8 @@
 ---
 
 **Смотрите также:**
-- [08-export](docs/processing-guide/08-export.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [02-extraction](docs/processing-guide/02-extraction.md)
-- [07-llm](docs/processing-guide/07-llm.md)
+- [08-export](08-export.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [02-extraction](02-extraction.md)
+- [07-llm](07-llm.md)
 

@@ -108,10 +108,10 @@
 ---
 
 **Кто ссылается на этот документ (6):**
-- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [37-native-format](37-native-format.md)
+- [47-native-format](47-native-format.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
 

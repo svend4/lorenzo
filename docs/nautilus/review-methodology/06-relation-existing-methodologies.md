@@ -84,8 +84,8 @@ consolidation.
 ---
 
 **Смотрите также:**
-- [112-5-связь-с-существующими-методологиями](docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
-- [09-limitations-open-questions](docs/nautilus/review-methodology/09-limitations-open-questions.md)
+- [112-5-связь-с-существующими-методологиями](../../02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- [10-checklist](10-checklist.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
+- [09-limitations-open-questions](09-limitations-open-questions.md)
 

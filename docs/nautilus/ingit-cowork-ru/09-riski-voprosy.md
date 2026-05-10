@@ -157,8 +157,8 @@ Cowork в настоящее время дорог в использовании
 ---
 
 **Смотрите также:**
-- [335-9-риски-и-открытые-вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
-- [04-simbioticheskaya-arkhitektura](docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
+- [335-9-риски-и-открытые-вопросы](../../02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
+- [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
+- [06-konkretnyy-sluchay](../infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+- [08-promyshlennost-postroit](../infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
 

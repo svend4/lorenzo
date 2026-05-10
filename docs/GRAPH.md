@@ -637,8 +637,8 @@ digraph lorenzo {
 ---
 
 **Смотрите также:**
-- [NETWORK](docs/NETWORK.md)
-- [MINDMAP](docs/MINDMAP.md)
-- [GLOSSARY](docs/GLOSSARY.md)
-- [ENTITIES](docs/ENTITIES.md)
+- [NETWORK](NETWORK.md)
+- [MINDMAP](MINDMAP.md)
+- [GLOSSARY](GLOSSARY.md)
+- [ENTITIES](ENTITIES.md)
 

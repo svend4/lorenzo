@@ -238,8 +238,8 @@ Scite). Активная разработка.
 ---
 
 **Смотрите также:**
-- [238-7-области-применения](docs/02-anthropic-vacancies/238-7-области-применения.md)
-- [08-pilot-sgb-kolega](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md)
-- [239-8-пилотное-предложение-sgb-колega-адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
-- [09-strategiya-razvyortyvaniya](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+- [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md)
+- [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
+- [09-strategiya-razvyortyvaniya](../representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
 

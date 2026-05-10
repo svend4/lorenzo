@@ -69,5 +69,5 @@ _Сгенерировано: 2026-04-29_
 
 **Смотрите также:**
 - [DIGEST_AUTO.md](../DIGEST_AUTO.md) — автоматический дайджест из git
-- [retrospective](docs/templates/retrospective.md)
-- [meeting-notes](docs/templates/meeting-notes.md)
+- [retrospective](retrospective.md)
+- [meeting-notes](meeting-notes.md)

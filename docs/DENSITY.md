@@ -79,8 +79,8 @@ _Все темы достаточно раскрыты_
 ---
 
 **Смотрите также:**
-- [HEATMAP](docs/HEATMAP.md)
-- [SCHEDULE](docs/SCHEDULE.md)
-- [ONBOARDING](docs/ONBOARDING.md)
-- [COMPONENT_MATRIX](docs/COMPONENT_MATRIX.md)
+- [HEATMAP](HEATMAP.md)
+- [SCHEDULE](SCHEDULE.md)
+- [ONBOARDING](ONBOARDING.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 

@@ -17,9 +17,9 @@ Reference implementation:
 Reference НЕ является нормативной. Альтернативные implementations 
 NPP-compatible, если они:
 
-- Корректно парсят `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` per раздел 3
-- Реализуют [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
-- Производят [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) структуры per раздел 7
+- Корректно парсят `[nautilus](../05-habr-projects/memory/memnet.md).json` per раздел 3
+- Реализуют [BaseAdapter](01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
+- Производят [PortalEntry](01-интегральный-анализ-профиля-svend4.md) структуры per раздел 7
 - Обеспечивают Q6 для Level 2+ per раздел 8
 - Вычисляют consensus per раздел 9
 - Предоставляют required REST endpoints per раздел 13
@@ -110,13 +110,13 @@ NPP-compatible, если они:
 ---
 
 **Кто ссылается на этот документ (19):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [128-доступные-инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [24-12-versioning-policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [128-доступные-инструменты](128-доступные-инструменты.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [164-10-appendices](164-10-appendices.md)
+- [24-12-versioning-policy](24-12-versioning-policy.md)
 - _...ещё 11_
 

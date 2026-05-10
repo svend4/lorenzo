@@ -61,8 +61,8 @@ integration does not.
 ---
 
 **Смотрите также:**
-- [278-why-this-hasn-t-been-built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [01-missing-middle-layer](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
-- [02-why-document-exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+- [278-why-this-hasn-t-been-built](../../02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
+- [06-existing-approximations](06-existing-approximations.md)
+- [01-missing-middle-layer](01-missing-middle-layer.md)
+- [02-why-document-exists](02-why-document-exists.md)
 

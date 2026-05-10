@@ -24,7 +24,7 @@
 Имеет уникальное имя (например, `svend4`).
 
 **Repository-participant** (далее — **Repo**) — Git-репозиторий, 
-содержащий минимум `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` и `passport.md` в корне.
+содержащий минимум `[nautilus](../05-habr-projects/memory/memnet.md).json` и `passport.md` в корне.
 
 **Native format** — исходный формат данных в Repo, определяемый автором. 
 Может быть любым: Markdown, JSON, YAML, plain text, бинарный формат, 
@@ -34,22 +34,22 @@
 адаптеры и выполняет query-операции. Reference implementation: 
 `github.com/svend4/nautilus`, но возможны альтернативные.
 
-**Registry** — файл `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в корне Portal-репо, перечисляющий 
+**Registry** — файл `[nautilus](../05-habr-projects/memory/memnet.md).json` в корне Portal-репо, перечисляющий 
 все Repos экосистемы с их метаданными.
 
 **Adapter** — Python-модуль (или эквивалент на другом языке), 
-реализующий `[BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` interface и переводящий native format Repo 
-в унифицированный `[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`.
+реализующий `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)` interface и переводящий native format Repo 
+в унифицированный `[PortalEntry](01-интегральный-анализ-профиля-svend4.md)`.
 
 **Passport** — `passport.md` файл в корне каждого Repo, 
 human-readable описание: что хранит, какая философия, кто автор, 
 как работать.
 
-**[PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)** — унифицированная структура данных, в которую 
+**[PortalEntry](01-интегральный-анализ-профиля-svend4.md)** — унифицированная структура данных, в которую 
 адаптеры конвертируют native-записи при fetch.
 
 **Bridge** — декларативное описание моста между концепциями 
-разных Repos. Описан в `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` в поле `bridges`.
+разных Repos. Описан в `[nautilus](../05-habr-projects/memory/memnet.md).json` в поле `bridges`.
 
 **Consensus** — результат сопоставления найденных концептов между 
 несколькими Repos. Может быть full (во всех Repos), partial (в 
@@ -59,7 +59,7 @@ human-readable описание: что хранит, какая философ�
 степень интеграции Repo с экосистемой. Определение в разделе 5.
 
 **Protocol Version** — semver-версия NPP, объявляемая в 
-`[nautilus](../docs/05-habr-projects/memory/memnet.md).json` поле `protocol_version`.
+`[nautilus](../05-habr-projects/memory/memnet.md).json` поле `protocol_version`.
 
 ---
 
@@ -68,9 +68,9 @@ human-readable описание: что хранит, какая философ�
 ---
 
 **Похожие документы:**
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.63)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.16)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md) (сходство 0.16)
+- [77-2-terminology](77-2-terminology.md) (сходство 0.63)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.16)
+- [67-о-проекте](67-о-проекте.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -78,10 +78,10 @@ human-readable описание: что хранит, какая философ�
 ---
 
 **Смотрите также:**
-- [77-2-terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
-- [08-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [78-3-registry-[nautilus](../docs/05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
+- [77-2-terminology](77-2-terminology.md)
+- [08-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [67-о-проекте](67-о-проекте.md)
+- [78-3-registry-[nautilus](../05-habr-projects/memory/memnet.md)-json](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 
 
 <!-- backlinks -->
@@ -89,10 +89,10 @@ human-readable описание: что хранит, какая философ�
 ---
 
 **Кто ссылается на этот документ (6):**
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-- [74-abstract](docs/02-anthropic-vacancies/74-abstract.md)
-- [91-16-mcp-extension-informative](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [67-о-проекте](67-о-проекте.md)
+- [74-abstract](74-abstract.md)
+- [91-16-mcp-extension-informative](91-16-mcp-extension-informative.md)
+- [README](README.md)
 

@@ -1904,8 +1904,8 @@ interface Adapter {
 ---
 
 **Смотрите также:**
-- [SOURCE_MAP](docs/SOURCE_MAP.md)
-- [CONTENT_GAPS](docs/CONTENT_GAPS.md)
-- [READING_TIME](docs/READING_TIME.md)
-- [READING_ORDER](docs/READING_ORDER.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [READING_TIME](READING_TIME.md)
+- [READING_ORDER](READING_ORDER.md)
 

@@ -51,10 +51,10 @@ Graph view показывает связи между прецедентами
 ---
 
 **Смотрите также:**
-- [02-knowledge-graphs](docs/03-technology-combinations/02-knowledge-graphs.md)
-- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
-- [15-self-consolidating-legal-corpus](docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+- [15-self-consolidating-legal-corpus](15-self-consolidating-legal-corpus.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 
 
 <!-- backlinks -->
@@ -62,7 +62,7 @@ Graph view показывает связи между прецедентами
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [01-08-summary](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [01-08-summary](../synthesis-tables/01-08-summary.md)
 

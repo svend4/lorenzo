@@ -36,8 +36,8 @@
 ---
 
 **Смотрите также:**
-- [14-limitations](docs/01-svyazi/14-limitations.md)
-- [executive-summary](docs/svyazi-2-0/overview/executive-summary.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
-- [risks](docs/svyazi-2-0/prototype/risks.md)
+- [14-limitations](../../01-svyazi/14-limitations.md)
+- [executive-summary](../overview/executive-summary.md)
+- [first-contacts](../outreach/first-contacts.md)
+- [risks](../prototype/risks.md)
 

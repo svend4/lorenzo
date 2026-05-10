@@ -34,7 +34,7 @@
 ---
 
 **Похожие документы:**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md) (сходство 0.11)
+- [12-content-overview](12-content-overview.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -42,10 +42,10 @@
 ---
 
 **Смотрите также:**
-- [58-content-overview](docs/02-anthropic-vacancies/58-content-overview.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [231-содержание](docs/02-anthropic-vacancies/231-содержание.md)
-- [48-content-overview](docs/02-anthropic-vacancies/48-content-overview.md)
+- [58-content-overview](58-content-overview.md)
+- [42-author-contact](42-author-contact.md)
+- [231-содержание](231-содержание.md)
+- [48-content-overview](48-content-overview.md)
 
 
 <!-- backlinks -->
@@ -53,8 +53,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [31-content-overview](docs/02-anthropic-vacancies/31-content-overview.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [31-content-overview](31-content-overview.md)
+- [README](README.md)
 

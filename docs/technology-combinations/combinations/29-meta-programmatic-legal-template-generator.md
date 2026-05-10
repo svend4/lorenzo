@@ -66,8 +66,8 @@ ROI: Write once, deploy everywhere
 ---
 
 **Смотрите также:**
-- [25-legal-dsl-code-transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
-- [10-legal-document-intelligence-pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+- [25-legal-dsl-code-transpiler](25-legal-dsl-code-transpiler.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md)
 

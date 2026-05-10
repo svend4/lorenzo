@@ -36,8 +36,8 @@
 ---
 
 **Смотрите также:**
-- [10-architecture-rfc](docs/ai-collaborations/continuation/10-architecture-rfc.md)
-- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
-- [02-agentops-trace-envelope](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
-- [08-commercialization-three-paths](docs/ai-collaborations/continuation/08-commercialization-three-paths.md)
+- [10-architecture-rfc](10-architecture-rfc.md)
+- [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md)
+- [08-commercialization-three-paths](08-commercialization-three-paths.md)
 

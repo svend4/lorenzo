@@ -142,8 +142,8 @@ qualified individuals regardless of traditional constraints.
 ---
 
 **Смотрите также:**
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [05-economic-model](docs/nautilus/okwf-concept/05-economic-model.md)
-- [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
-- [09-call-for-partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+- [161-7-phased-rollout-plan](../../02-anthropic-vacancies/161-7-phased-rollout-plan.md)
+- [05-economic-model](05-economic-model.md)
+- [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
 

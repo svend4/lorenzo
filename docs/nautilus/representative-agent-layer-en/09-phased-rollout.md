@@ -114,8 +114,8 @@ durable, beneficial infrastructure than rapid scaling.
 ---
 
 **Смотрите также:**
-- [178-9-phased-rollout-strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
-- [07-phased-rollout](docs/nautilus/okwf-concept/07-phased-rollout.md)
-- [11-call-for-collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
-- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+- [178-9-phased-rollout-strategy](../../02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
+- [07-phased-rollout](../okwf-concept/07-phased-rollout.md)
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- [08-pilot-sgb-advocate](../professional-colleague-agents-en/08-pilot-sgb-advocate.md)
 

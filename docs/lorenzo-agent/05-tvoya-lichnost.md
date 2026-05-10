@@ -43,8 +43,8 @@
 ---
 
 **Смотрите также:**
-- [349-твоя-личность](docs/02-anthropic-vacancies/349-твоя-личность.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [19-persistent-character](docs/lorenzo-agent/19-persistent-character.md)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
+- [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [19-persistent-character](19-persistent-character.md)
+- [14-other-ai-relationships](14-other-ai-relationships.md)
 

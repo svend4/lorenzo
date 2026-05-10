@@ -148,8 +148,8 @@ efficiently between levels.
 ---
 
 **Смотрите также:**
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [07-open-questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
+- [142-5-pattern-library-as-bridge-between-triangles](../../02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
+- [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md)
+- [07-open-questions](07-open-questions.md)
 

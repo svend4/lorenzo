@@ -31,8 +31,8 @@
 ---
 
 **Смотрите также:**
-- [359-твои-anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
-- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
+- [359-твои-anti-patterns](../02-anthropic-vacancies/359-твои-anti-patterns.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [18-escalate-to-max](18-escalate-to-max.md)
+- [01-kto-ty](01-kto-ty.md)
 

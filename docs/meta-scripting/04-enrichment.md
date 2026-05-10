@@ -188,8 +188,8 @@ if __name__ == "__main__":
 ---
 
 **Смотрите также:**
-- [03-catalog](docs/meta-scripting/03-catalog.md)
-- [02-architecture](docs/meta-scripting/02-architecture.md)
-- [05-synthesis](docs/meta-scripting/05-synthesis.md)
-- [07-llm](docs/processing-guide/07-llm.md)
+- [03-catalog](03-catalog.md)
+- [02-architecture](02-architecture.md)
+- [05-synthesis](05-synthesis.md)
+- [07-llm](../processing-guide/07-llm.md)
 

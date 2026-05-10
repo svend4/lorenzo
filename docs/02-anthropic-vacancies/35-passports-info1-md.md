@@ -91,13 +91,13 @@ markdown
 ---
 
 **Кто ссылается на этот документ (10):**
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
-- [42-author-contact](docs/02-anthropic-vacancies/42-author-contact.md)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
-- [62-author-contact](docs/02-anthropic-vacancies/62-author-contact.md)
-- [67-о-проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [42-author-contact](42-author-contact.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [62-author-contact](62-author-contact.md)
+- [67-о-проекте](67-о-проекте.md)
 - _...ещё 2_
 

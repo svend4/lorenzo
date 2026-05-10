@@ -36,10 +36,10 @@ Typed memory MCP плюс более тяжёлая концепция Memory OS
 ---
 
 **Смотрите также:**
-- [memnet](docs/svyazi-2-0/components/memnet.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [ngt-memory](docs/svyazi-2-0/components/ngt-memory.md)
+- [memnet](memnet.md)
+- [yodoca](yodoca.md)
+- [rufler](rufler.md)
+- [ngt-memory](ngt-memory.md)
 
 
 <!-- backlinks -->
@@ -47,7 +47,7 @@ Typed memory MCP плюс более тяжёлая концепция Memory OS
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

@@ -77,8 +77,8 @@
 ---
 
 **Смотрите также:**
-- [ORPHANS](docs/ORPHANS.md)
-- [COMPARE](docs/COMPARE.md)
-- [114-7-реализация-в-проекте-nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
-- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [ORPHANS](ORPHANS.md)
+- [COMPARE](COMPARE.md)
+- [114-7-реализация-в-проекте-nautilus](02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
+- [118-appendix-a-шаблон-для-header-warning](02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
 

@@ -29,10 +29,10 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 ---
 
 **Смотрите также:**
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [6-bonus-rram-memristor](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
+- [02-memnet](../key-findings/02-memnet.md)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
+- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md)
 
 
 <!-- backlinks -->
@@ -40,8 +40,8 @@ Dream-engine для discovery — у MemNet («Memory Is All You Need») был�
 ---
 
 **Кто ссылается на этот документ (4):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/hardware-pairs/README.md)
-- [README](docs/nautilus/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
+- [README](../../nautilus/README.md)
 

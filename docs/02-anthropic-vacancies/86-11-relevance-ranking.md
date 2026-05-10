@@ -25,7 +25,7 @@ v1.1 нормализует алгоритм ранжирования из refer
 
 ### 11.1. Scoring Formula
 
-Для каждого [PortalEntry](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) `e` и query `q` (оба normalized):
+Для каждого [PortalEntry](01-интегральный-анализ-профиля-svend4.md) `e` и query `q` (оба normalized):
 
 ```python
 def relevance_score(e: PortalEntry, q: str) -> float:
@@ -70,8 +70,8 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Похожие документы:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.12)
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.10)
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md) (сходство 0.12)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md) (сходство 0.10)
 
 
 <!-- see-also -->
@@ -79,10 +79,10 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Смотрите также:**
-- [84-9-consensus-algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [20-8-consensus-algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
+- [84-9-consensus-algorithm](84-9-consensus-algorithm.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [20-8-consensus-algorithm](20-8-consensus-algorithm.md)
 
 
 <!-- backlinks -->
@@ -90,11 +90,11 @@ embeddings) могут использоваться, но MUST быть опци
 ---
 
 **Кто ссылается на этот документ (7):**
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [22-10-queryresult-structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [71-критерии-выбора-для-фазы-3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [22-10-queryresult-structure](22-10-queryresult-structure.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [71-критерии-выбора-для-фазы-3](71-критерии-выбора-для-фазы-3.md)
+- [README](README.md)
 

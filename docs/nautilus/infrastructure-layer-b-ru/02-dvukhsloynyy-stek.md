@@ -77,8 +77,8 @@ Codeberg. Превосходно подходит для хранения
 ---
 
 **Смотрите также:**
-- [291-двухслойный-стек-как-он-существует](docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md)
-- [03-otsutstvuet-sloy-b](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+- [291-двухслойный-стек-как-он-существует](../../02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [05-priblizheniya](05-priblizheniya.md)
 

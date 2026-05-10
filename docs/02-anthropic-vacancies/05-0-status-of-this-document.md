@@ -96,13 +96,13 @@
 ---
 
 **Кто ссылается на этот документ (20):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [125-readme-mcp-md-инструкция-по-установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [186-appendix-c-sample-use-cases-in-detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-- [203-благодарности](docs/02-anthropic-vacancies/203-благодарности.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [164-10-appendices](164-10-appendices.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [203-благодарности](203-благодарности.md)
 - _...ещё 12_
 

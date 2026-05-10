@@ -16,8 +16,8 @@
 - ✅ Level 0: объявлен в registry
 - ✅ Level 1: passport + `describe()`
 - ✅ Level 2: `fetch(query)` по hexagram numbers, rule numbers, tags
-- ✅ Level 3: `translate_to(entry, "[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)")` через formal hexagram↔vertex; 
-  `translate_to(entry, "[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)")` через class↔alpha mapping
+- ✅ Level 3: `translate_to(entry, "[pro2](01-интегральный-анализ-профиля-svend4.md)")` через formal hexagram↔vertex; 
+  `translate_to(entry, "[info1](01-интегральный-анализ-профиля-svend4.md)")` через class↔alpha mapping
 
 ---
 
@@ -85,11 +85,11 @@
 ---
 
 **Кто ссылается на этот документ (7):**
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [37-native-format](37-native-format.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [47-native-format](47-native-format.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [57-native-format](57-native-format.md)
+- [README](README.md)
 

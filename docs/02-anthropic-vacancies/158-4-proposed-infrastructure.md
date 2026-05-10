@@ -24,7 +24,7 @@
 ## Содержание
 
 - [4. Proposed Infrastructure](#4-proposed-infrastructure)
-  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-protocol)
+  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-[nautilus](../05-habr-projects/memory/memnet.md)-portal-protocol)
   - [4.2. Coordination Pattern: Double-Triangle Architecture](#42-coordination-pattern-double-triangle-architecture)
   - [4.3. Knowledge Layer: Pattern Library with Private Instances](#43-knowledge-layer-pattern-library-with-private-instances)
   - [4.4. Community Layer: Guild Structure](#44-community-layer-guild-structure)
@@ -242,9 +242,9 @@ Community governance operates:
 ---
 
 **Похожие документы:**
-- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.18)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.16)
+- [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.20)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md) (сходство 0.18)
+- [144-7-open-questions](144-7-open-questions.md) (сходство 0.16)
 
 
 <!-- see-also -->
@@ -252,10 +252,10 @@ Community governance operates:
 ---
 
 **Смотрите также:**
-- [141-4-[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [141-4-[nautilus](../05-habr-projects/memory/memnet.md)-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
 
 
 <!-- backlinks -->
@@ -263,13 +263,13 @@ Community governance operates:
 ---
 
 **Кто ссылается на этот документ (13):**
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [142-5-pattern-library-as-bridge-between-triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [144-7-open-questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [150-appendix-c-version-history](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-- [153-executive-summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-- [157-3-why-existing-solutions-fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [142-5-pattern-library-as-bridge-between-triangles](142-5-pattern-library-as-bridge-between-triangles.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [144-7-open-questions](144-7-open-questions.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [150-appendix-c-version-history](150-appendix-c-version-history.md)
+- [153-executive-summary](153-executive-summary.md)
+- [157-3-why-existing-solutions-fail](157-3-why-existing-solutions-fail.md)
 - _...ещё 5_
 

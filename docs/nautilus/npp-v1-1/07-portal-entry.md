@@ -79,8 +79,8 @@ is_fallback=False
 ---
 
 **Смотрите также:**
-- [82-7-portalentry-structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-- [19-7-portalentry-structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
-- [17-versioning-policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
+- [82-7-portalentry-structure](../../02-anthropic-vacancies/82-7-portalentry-structure.md)
+- [19-7-portalentry-structure](../../02-anthropic-vacancies/19-7-portalentry-structure.md)
+- [06-adapter-interface](06-adapter-interface.md)
+- [17-versioning-policy](17-versioning-policy.md)
 

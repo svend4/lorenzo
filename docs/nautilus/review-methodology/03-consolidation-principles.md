@@ -104,8 +104,8 @@ target interface и native-форматами как adaptees»
 ---
 
 **Смотрите также:**
-- [109-3-принципы-консолидации-фаза-c](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-- [71-критерии-выбора-для-фазы-3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
-- [04-fallback-ratio-question](docs/nautilus/review-methodology/04-fallback-ratio-question.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
+- [109-3-принципы-консолидации-фаза-c](../../02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
+- [71-критерии-выбора-для-фазы-3](../../02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
+- [04-fallback-ratio-question](04-fallback-ratio-question.md)
+- [10-checklist](10-checklist.md)
 

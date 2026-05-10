@@ -28,8 +28,8 @@ Remote-friendly EMEA + accommodation под health status — Anthropic дела
 ---
 
 **Смотрите также:**
-- [07-unique-niche-eu-legal-infra](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+- [07-unique-niche-eu-legal-infra](../01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+- [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](../../../nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [13-reference-implementation](../../../nautilus/npp-v1-0/13-reference-implementation.md)
 

@@ -82,8 +82,8 @@ such a protocol.
 ---
 
 **Смотрите также:**
-- [138-1-why-single-triangle-models-are-incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
-- [03-three-inter-layer-protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
-- [136-abstract](docs/02-anthropic-vacancies/136-abstract.md)
-- [02-double-triangle-architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+- [138-1-why-single-triangle-models-are-incomplete](../../02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
+- [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
+- [136-abstract](../../02-anthropic-vacancies/136-abstract.md)
+- [02-double-triangle-architecture](02-double-triangle-architecture.md)
 

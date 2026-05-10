@@ -84,9 +84,9 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Похожие документы:**
-- [vladspace](docs/contacts/vladspace.md) (сходство 0.71)
-- [antipozitive](docs/contacts/antipozitive.md) (сходство 0.70)
-- [zodigancode](docs/contacts/zodigancode.md) (сходство 0.70)
+- [vladspace](vladspace.md) (сходство 0.71)
+- [antipozitive](antipozitive.md) (сходство 0.70)
+- [zodigancode](zodigancode.md) (сходство 0.70)
 
 
 <!-- see-also -->
@@ -94,10 +94,10 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Смотрите также:**
-- [antipozitive](docs/contacts/antipozitive.md)
-- [nlaik](docs/contacts/nlaik.md)
-- [sonia-black](docs/contacts/sonia-black.md)
-- [spbmolot](docs/contacts/spbmolot.md)
+- [antipozitive](antipozitive.md)
+- [nlaik](nlaik.md)
+- [sonia-black](sonia-black.md)
+- [spbmolot](spbmolot.md)
 
 
 <!-- backlinks -->
@@ -105,8 +105,8 @@ _Создано автоматически: 2026-04-29_
 ---
 
 **Кто ссылается на этот документ (4):**
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
-- [README](docs/contacts/README.md)
+- [yodoca](../05-habr-projects/memory/yodoca.md)
+- [kksudo](../autofilled/components/kksudo.md)
+- [spbmolot](../autofilled/components/spbmolot.md)
+- [README](README.md)
 

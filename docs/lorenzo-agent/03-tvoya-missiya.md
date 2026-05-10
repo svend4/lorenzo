@@ -30,8 +30,8 @@
 ---
 
 **Смотрите также:**
-- [347-твоя-миссия](docs/02-anthropic-vacancies/347-твоя-миссия.md)
-- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [07-chto-mozhesh](docs/lorenzo-agent/07-chto-mozhesh.md)
+- [347-твоя-миссия](../02-anthropic-vacancies/347-твоя-миссия.md)
+- [01-kto-ty](01-kto-ty.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [07-chto-mozhesh](07-chto-mozhesh.md)
 

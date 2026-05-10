@@ -34,8 +34,8 @@
 ---
 
 **Смотрите также:**
-- [350-твои-языки-и-культурные-nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
-- [02-tvoyo-proishozhdenie](docs/lorenzo-agent/02-tvoyo-proishozhdenie.md)
-- [17-honestly-ne-znaesh](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+- [350-твои-языки-и-культурные-nuances](../02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
+- [02-tvoyo-proishozhdenie](02-tvoyo-proishozhdenie.md)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md)
+- [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
 

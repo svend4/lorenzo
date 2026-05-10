@@ -22,8 +22,8 @@ Du hast gesagt: Да это интересная ссылка спасибо в�
 ---
 
 **Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [00-question-agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../../../lorenzo-agent/scenarios/00-question-scenario.md)
+- [00-question-agent-changes-reality](../agent-changes-reality/00-question-agent-changes-reality.md)
+- [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md)
 

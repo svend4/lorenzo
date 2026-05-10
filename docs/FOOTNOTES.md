@@ -39,8 +39,8 @@
 ---
 
 **Смотрите также:**
-- [08-conclusions](docs/01-svyazi/08-conclusions.md)
-- [01-executive-summary](docs/04-ai-collaborations/01-executive-summary.md)
-- [07-выводы](docs/04-ai-collaborations/07-выводы.md)
-- [07-mvp-planning](docs/01-svyazi/07-mvp-planning.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [01-executive-summary](04-ai-collaborations/01-executive-summary.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
 

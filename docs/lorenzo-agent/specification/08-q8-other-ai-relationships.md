@@ -58,8 +58,8 @@ Acknowledges dependencies
 ---
 
 **Смотрите также:**
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
-- [02-q2-whom-lorenzo-serves](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
-- [00-context-fundamental-questions](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
-- [09-q9-geographic-linguistic-scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+- [14-other-ai-relationships](../14-other-ai-relationships.md)
+- [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
+- [00-context-fundamental-questions](00-context-fundamental-questions.md)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 

@@ -24,7 +24,7 @@ class QueryResult:
 
 ### 10.1. Serialization
 
-[QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) MUST поддерживать сериализацию в JSON, Markdown, HTML.
+[QueryResult](02-общий-план-развития-nautilus-portal-protocol.md) MUST поддерживать сериализацию в JSON, Markdown, HTML.
 
 - `to_json()` — для MCP / API
 - `to_markdown()` — для CLI и LLM consumption
@@ -107,13 +107,13 @@ category (сначала full, затем partial, затем singular).
 ---
 
 **Кто ссылается на этот документ (11):**
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [127-подключение-к-claude-desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
-- [18-6-adapter-interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
-- [21-9-query-flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
-- [25-13-reference-implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
-- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
-- [63-history](docs/02-anthropic-vacancies/63-history.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [127-подключение-к-claude-desktop](127-подключение-к-claude-desktop.md)
+- [18-6-adapter-interface](18-6-adapter-interface.md)
+- [21-9-query-flow](21-9-query-flow.md)
+- [25-13-reference-implementation](25-13-reference-implementation.md)
+- [37-native-format](37-native-format.md)
+- [63-history](63-history.md)
 - _...ещё 3_
 

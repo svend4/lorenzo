@@ -275,8 +275,8 @@ Provides empirical validation что архитектура работает в 
 ---
 
 **Смотрите также:**
-- [165-closing](docs/02-anthropic-vacancies/165-closing.md)
-- [01-strategic-significance](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
-- [133-обратная-связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-- [01-response](docs/nautilus/innovation-transitions/01-response.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+- [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md)
+- [133-обратная-связь](../../../02-anthropic-vacancies/133-обратная-связь.md)
+- [01-response](../../innovation-transitions/01-response.md)
 

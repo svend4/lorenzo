@@ -48,8 +48,8 @@ Cowork был самым серьёзным конкурентом для наш
 ---
 
 **Смотрите также:**
-- [10-difference-5-tool-vs-mission-drift](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [11-pluses-of-hermes](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
-- [07-difference-2-domain-specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [11-pluses-of-hermes](11-pluses-of-hermes.md)
+- [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 

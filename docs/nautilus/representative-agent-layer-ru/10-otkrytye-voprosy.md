@@ -72,8 +72,8 @@
 ---
 
 **Смотрите также:**
-- [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
-- [08-riski-mery](docs/nautilus/representative-agent-layer-ru/08-riski-mery.md)
+- [200-10-открытые-вопросы](../../02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [08-riski-mery](08-riski-mery.md)
 

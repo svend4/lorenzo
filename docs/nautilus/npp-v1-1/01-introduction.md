@@ -88,8 +88,8 @@ NPP **не** пытается:
 ---
 
 **Смотрите также:**
-- [76-1-introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
-- [06-1-introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
-- [00-abstract-status](docs/nautilus/npp-v1-1/00-abstract-status.md)
-- [02-terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+- [76-1-introduction](../../02-anthropic-vacancies/76-1-introduction.md)
+- [06-1-introduction](../../02-anthropic-vacancies/06-1-introduction.md)
+- [00-abstract-status](00-abstract-status.md)
+- [02-terminology](02-terminology.md)
 

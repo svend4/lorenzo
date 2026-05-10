@@ -112,8 +112,8 @@ infrastructure.
 ---
 
 **Смотрите также:**
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [03-two-layer-stack](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+- [280-the-specific-case-in-front-of-us](../../02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
+- [03-two-layer-stack](03-two-layer-stack.md)
+- [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
+- [06-existing-approximations](06-existing-approximations.md)
 

@@ -37,10 +37,10 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [10-second-order-ensembles](docs/01-svyazi/10-second-order-ensembles.md)
-- [10-новые-ансамбли-следующего-шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [D-voice-first-mesh](docs/svyazi-2-0/ensembles/D-voice-first-mesh.md)
-- [privacy](docs/svyazi-2-0/security/privacy.md)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md)
+- [10-новые-ансамбли-следующего-шага](../../04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
+- [D-voice-first-mesh](D-voice-first-mesh.md)
+- [privacy](../security/privacy.md)
 
 
 <!-- backlinks -->
@@ -48,7 +48,7 @@ flowchart LR
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/ensembles/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

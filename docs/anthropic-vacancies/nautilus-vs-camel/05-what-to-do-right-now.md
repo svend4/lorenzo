@@ -61,8 +61,8 @@ Option C: Help write specific document или code prototype prepared для CAM
 ---
 
 **Смотрите также:**
-- [04-what-to-take-from-info-repos](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
-- [03-sgb-advocate-colleague-example](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
-- [01-passive-vs-active-roles](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
-- [08-implications-nautilus-okwf](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
+- [03-sgb-advocate-colleague-example](03-sgb-advocate-colleague-example.md)
+- [01-passive-vs-active-roles](01-passive-vs-active-roles.md)
+- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
 

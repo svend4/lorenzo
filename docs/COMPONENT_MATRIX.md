@@ -147,7 +147,7 @@ _Совместимость и возможности 14 компонентов 
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
-- [TECH_RADAR](docs/TECH_RADAR.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
+- [TECH_RADAR](TECH_RADAR.md)
 

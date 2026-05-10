@@ -33,10 +33,10 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 ---
 
 **Смотрите также:**
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
-- [mclaude](docs/svyazi-2-0/components/mclaude.md)
-- [graph-rag](docs/svyazi-2-0/components/graph-rag.md)
-- [memnet](docs/svyazi-2-0/components/memnet.md)
+- [yodoca](yodoca.md)
+- [mclaude](mclaude.md)
+- [graph-rag](graph-rag.md)
+- [memnet](memnet.md)
 
 
 <!-- backlinks -->
@@ -44,7 +44,7 @@ Forensic document QA с HTML‑отчётом и bounding boxes на стран�
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

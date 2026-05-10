@@ -28,8 +28,8 @@ Claude hat geantwortet: Отличная идея — Лоренцо как ко
 ---
 
 **Смотрите также:**
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [00-question-scenario](docs/lorenzo-agent/scenarios/00-question-scenario.md)
-- [01-kto-ty](docs/lorenzo-agent/01-kto-ty.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [00-question-scenario](../scenarios/00-question-scenario.md)
+- [01-kto-ty](../01-kto-ty.md)
+- [09-voobshche-nelzya](../09-voobshche-nelzya.md)
 

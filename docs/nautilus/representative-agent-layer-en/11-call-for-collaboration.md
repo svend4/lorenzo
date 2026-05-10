@@ -80,8 +80,8 @@ prefer honest critics to unreserved enthusiasts.
 ---
 
 **Смотрите также:**
-- [180-11-call-for-collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
-- [12-call-for-collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md)
-- [09-phased-rollout](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
-- [10-open-questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
+- [180-11-call-for-collaboration](../../02-anthropic-vacancies/180-11-call-for-collaboration.md)
+- [12-call-for-collaboration](../composite-skills-agents/12-call-for-collaboration.md)
+- [09-phased-rollout](09-phased-rollout.md)
+- [10-open-questions](10-open-questions.md)
 

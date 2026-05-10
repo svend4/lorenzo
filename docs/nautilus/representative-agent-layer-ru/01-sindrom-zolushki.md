@@ -77,8 +77,8 @@
 ---
 
 **Смотрите также:**
-- [191-1-синдром-золушки-почему-качество-остаётся-невидим](docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
-- [02-istoricheskie-pretsedenty](docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md)
-- [06-eticheskaya-ramka](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
-- [00-question-voiceless](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
+- [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
+- [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
+- [00-question-voiceless](../community-discussions/voiceless-contributors/00-question-voiceless.md)
 

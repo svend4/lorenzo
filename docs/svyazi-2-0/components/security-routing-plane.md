@@ -38,10 +38,10 @@
 ---
 
 **Смотрите также:**
-- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
-- [research-docs-liteparse](docs/svyazi-2-0/components/research-docs-liteparse.md)
-- [rufler](docs/svyazi-2-0/components/rufler.md)
-- [yodoca](docs/svyazi-2-0/components/yodoca.md)
+- [E-execution-plane](../ensembles/E-execution-plane.md)
+- [research-docs-liteparse](research-docs-liteparse.md)
+- [rufler](rufler.md)
+- [yodoca](yodoca.md)
 
 
 <!-- backlinks -->
@@ -49,8 +49,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/components/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

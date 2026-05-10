@@ -50,9 +50,9 @@ _Сгенерировано: 2026-04-29 15:06_
 ---
 
 **Кто ссылается на этот документ (3):**
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [INDEX](INDEX.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 
 
 <!-- see-also -->
@@ -60,8 +60,8 @@ _Сгенерировано: 2026-04-29 15:06_
 ---
 
 **Смотрите также:**
-- [KPI_HISTORY](docs/KPI_HISTORY.md)
-- [.md](docs/autofilled/components/.md)
-- [DIGEST_AUTO](docs/DIGEST_AUTO.md)
-- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [.md](autofilled/components/.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 

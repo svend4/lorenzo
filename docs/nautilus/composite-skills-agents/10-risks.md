@@ -168,8 +168,8 @@ with collective improvement
 ---
 
 **Смотрите также:**
-- [263-10-risks-specific-to-composite-architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
-- [09-okwf-integration](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+- [263-10-risks-specific-to-composite-architectures](../../02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
+- [09-okwf-integration](09-okwf-integration.md)
+- [11-open-questions](11-open-questions.md)
+- [04-sub-agent-registry](04-sub-agent-registry.md)
 

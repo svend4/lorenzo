@@ -93,10 +93,10 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 ---
 
 **Смотрите также:**
-- [13-legal-document-transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
-- [29-meta-programmatic-legal-template-generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
-- [28-pydantic-enforced-legal-workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
-- [26-ast-based-code-analysis-for-legal-automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md)
+- [28-pydantic-enforced-legal-workflows](28-pydantic-enforced-legal-workflows.md)
+- [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
 
 
 <!-- backlinks -->
@@ -104,7 +104,7 @@ ROI: 50k docs structured in 1 day vs weeks of manual work
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [25-30-extended](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [25-30-extended](../synthesis-tables/25-30-extended.md)
 

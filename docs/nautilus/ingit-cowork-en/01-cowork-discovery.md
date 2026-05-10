@@ -121,8 +121,8 @@ The remainder of this document develops Option C.
 ---
 
 **Смотрите также:**
-- [309-1-the-cowork-discovery-and-why-it-changes-everythi](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-- [02-cowork-provides](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
-- [06-existing-approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
-- [04-whats-missing-layer-b](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
+- [02-cowork-provides](02-cowork-provides.md)
+- [06-existing-approximations](../infrastructure-layer-b-en/06-existing-approximations.md)
+- [04-whats-missing-layer-b](../infrastructure-layer-b-en/04-whats-missing-layer-b.md)
 

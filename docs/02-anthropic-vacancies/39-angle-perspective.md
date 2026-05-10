@@ -11,14 +11,14 @@
 
 ## Angle / Perspective
 
-**Methodological** — `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` смотрит на концепты **с позиции применения**. 
-На вопрос «что такое кристалл» `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` отвечает не определением 
-(это делает `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`) и не символической интерпретацией (это делает 
+**Methodological** — `[info1](01-интегральный-анализ-профиля-svend4.md)` смотрит на концепты **с позиции применения**. 
+На вопрос «что такое кристалл» `[info1](01-интегральный-анализ-профиля-svend4.md)` отвечает не определением 
+(это делает `[pro2](01-интегральный-анализ-профиля-svend4.md)`) и не символической интерпретацией (это делает 
 `meta`), а описанием методов работы с кристаллами, алгоритмов их 
 идентификации, формул их свойств.
 
-Это дополнительный, не заменяющий взгляд. Консенсус между `[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`, 
-`[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`, `meta` по одному концепту даёт триангулированное понимание: 
+Это дополнительный, не заменяющий взгляд. Консенсус между `[info1](01-интегральный-анализ-профиля-svend4.md)`, 
+`[pro2](01-интегральный-анализ-профиля-svend4.md)`, `meta` по одному концепту даёт триангулированное понимание: 
 **как применять × что значит × как символически устроено**.
 
 ---
@@ -84,11 +84,11 @@
 ---
 
 **Кто ссылается на этот документ (7):**
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [45-passports-pro2-md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [45-passports-pro2-md](45-passports-pro2-md.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [57-native-format](57-native-format.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [README](README.md)
 

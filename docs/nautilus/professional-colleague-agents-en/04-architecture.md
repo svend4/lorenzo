@@ -174,8 +174,8 @@ workflow.
 ---
 
 **Смотрите также:**
-- [215-4-architecture-of-professional-colleague-agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
-- [04-sub-agent-registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
-- [06-risks](docs/nautilus/professional-colleague-agents-en/06-risks.md)
-- [02-what-makes-pca](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+- [215-4-architecture-of-professional-colleague-agents](../../02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
+- [04-sub-agent-registry](../composite-skills-agents/04-sub-agent-registry.md)
+- [06-risks](06-risks.md)
+- [02-what-makes-pca](02-what-makes-pca.md)
 

@@ -43,8 +43,8 @@
 ---
 
 **Смотрите также:**
-- [354-существующий-landscape-collaborators-твоя-working-](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [03-section-3-solution-architecture](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+- [354-существующий-landscape-collaborators-твоя-working-](../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [06-final-tier-ranking](../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+- [04-mem0-letta-graphiti](../anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+- [03-section-3-solution-architecture](../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
 

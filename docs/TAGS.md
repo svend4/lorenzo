@@ -289,10 +289,10 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [INDEX](docs/INDEX.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
 
 
 <!-- see-also -->
@@ -300,8 +300,8 @@
 ---
 
 **Смотрите также:**
-- [DEPENDENCY_MAP](docs/DEPENDENCY_MAP.md)
-- [CONSISTENCY](docs/CONSISTENCY.md)
-- [HEALTH](docs/HEALTH.md)
-- [STATS](docs/STATS.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [HEALTH](HEALTH.md)
+- [STATS](STATS.md)
 

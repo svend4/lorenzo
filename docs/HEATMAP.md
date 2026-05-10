@@ -73,8 +73,8 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 ---
 
 **Смотрите также:**
-- [DENSITY](docs/DENSITY.md)
-- [ONBOARDING](docs/ONBOARDING.md)
-- [SCHEDULE](docs/SCHEDULE.md)
-- [SCORING](docs/SCORING.md)
+- [DENSITY](DENSITY.md)
+- [ONBOARDING](ONBOARDING.md)
+- [SCHEDULE](SCHEDULE.md)
+- [SCORING](SCORING.md)
 

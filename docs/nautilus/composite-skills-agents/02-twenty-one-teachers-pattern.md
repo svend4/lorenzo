@@ -146,8 +146,8 @@ practitioner can configure into their own combination.
 ---
 
 **Смотрите также:**
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-- [08-seven-domains](docs/nautilus/composite-skills-agents/08-seven-domains.md)
-- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
-- [261-8-seven-domains-of-application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
+- [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
+- [08-seven-domains](08-seven-domains.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
+- [261-8-seven-domains-of-application](../../02-anthropic-vacancies/261-8-seven-domains-of-application.md)
 

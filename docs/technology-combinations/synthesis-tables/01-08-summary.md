@@ -49,10 +49,10 @@
 ---
 
 **Смотрите также:**
-- [08-conductor-adversarial-review-auto-ai-router](docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md)
-- [05-benchmarks](docs/03-technology-combinations/05-benchmarks.md)
-- [01-legal-ai-stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
-- [15-19-extended](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+- [08-conductor-adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md)
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md)
+- [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
+- [15-19-extended](15-19-extended.md)
 
 
 <!-- backlinks -->
@@ -60,8 +60,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [concepts](docs/glossary/concepts.md)
-- [reading-paths](docs/reading-paths.md)
-- [README](docs/technology-combinations/README.md)
-- [README](docs/technology-combinations/synthesis-tables/README.md)
+- [concepts](../../glossary/concepts.md)
+- [reading-paths](../../reading-paths.md)
+- [README](../README.md)
+- [README](README.md)
 

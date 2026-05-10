@@ -76,8 +76,8 @@ example_user, example@email.com
 ---
 
 **Смотрите также:**
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [15-glossary](docs/nautilus/npp-v1-0/15-glossary.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+- [15-glossary](15-glossary.md)
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
 

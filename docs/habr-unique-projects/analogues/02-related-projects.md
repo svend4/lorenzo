@@ -37,10 +37,10 @@
 ---
 
 **Смотрите также:**
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
-- [03-synthesis-hebbian-collaboration-graph](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
-- [01-three-key-candidates](docs/ai-collaborations/candidates/01-three-key-candidates.md)
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
+- [02-related-projects-context](../../ai-collaborations/candidates/02-related-projects-context.md)
+- [03-synthesis-hebbian-collaboration-graph](../../ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+- [01-three-key-candidates](../../ai-collaborations/candidates/01-three-key-candidates.md)
+- [01-three-direct-analogues](01-three-direct-analogues.md)
 
 
 <!-- backlinks -->
@@ -48,7 +48,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/habr-unique-projects/analogues/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

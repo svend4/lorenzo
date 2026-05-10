@@ -33,8 +33,8 @@ End of system prompt.
 ---
 
 **Смотрите также:**
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [18-escalate-to-max](docs/lorenzo-agent/18-escalate-to-max.md)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [18-escalate-to-max](18-escalate-to-max.md)
+- [14-other-ai-relationships](14-other-ai-relationships.md)
+- [09-voobshche-nelzya](09-voobshche-nelzya.md)
 

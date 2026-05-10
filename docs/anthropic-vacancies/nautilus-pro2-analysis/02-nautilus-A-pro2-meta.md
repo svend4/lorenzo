@@ -102,8 +102,8 @@ Cascade означает: первая модель делает простую 
 ---
 
 **Смотрите также:**
-- [03-nautilus-B-meta-orchestrator](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)
-- [01-интегральный-анализ-профиля-svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [00-question-two-nautiluses](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
-- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+- [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
+- [01-интегральный-анализ-профиля-svend4](../../02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [00-question-two-nautiluses](00-question-two-nautiluses.md)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
 

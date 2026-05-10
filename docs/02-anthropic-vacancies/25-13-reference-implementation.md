@@ -16,10 +16,10 @@ Reference implementation: `github.com/svend4/nautilus`.
 Reference НЕ является нормативной. Альтернативные implementations 
 соответствуют NPP если они:
 
-- Корректно парсят `[nautilus](../docs/05-habr-projects/memory/memnet.md).json` per раздел 3
-- Реализуют [BaseAdapter](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
+- Корректно парсят `[nautilus](../05-habr-projects/memory/memnet.md).json` per раздел 3
+- Реализуют [BaseAdapter](01-интегральный-анализ-профиля-svend4.md) interface per раздел 6
 - Вычисляют consensus per раздел 8
-- Возвращают [QueryResult](../docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) per раздел 10
+- Возвращают [QueryResult](02-общий-план-развития-nautilus-portal-protocol.md) per раздел 10
 
 ---
 
@@ -99,13 +99,13 @@ Reference НЕ является нормативной. Альтернативн
 ---
 
 **Кто ссылается на этот документ (20):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [05-0-status-of-this-document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [129-примеры-запросов-в-claude](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
-- [141-4-nautilus-portal-as-reference-substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-- [152-ai-coordinated-infrastructure-for-distributed-expe](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [05-0-status-of-this-document](05-0-status-of-this-document.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [122-глоссарий](122-глоссарий.md)
+- [129-примеры-запросов-в-claude](129-примеры-запросов-в-claude.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [152-ai-coordinated-infrastructure-for-distributed-expe](152-ai-coordinated-infrastructure-for-distributed-expe.md)
+- [164-10-appendices](164-10-appendices.md)
 - _...ещё 12_
 

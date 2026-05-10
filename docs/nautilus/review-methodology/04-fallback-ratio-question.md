@@ -65,8 +65,8 @@ and B (branch Y) on YYYY-MM-DD»
 ---
 
 **Смотрите также:**
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [10-checklist](docs/nautilus/review-methodology/10-checklist.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [10-checklist](10-checklist.md)
+- [07-portal-entry](../npp-v1-1/07-portal-entry.md)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md)
 

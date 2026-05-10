@@ -29,8 +29,8 @@ Nautilus Portal Protocol specifically addresses federated queries across multipl
 ---
 
 **Смотрите также:**
-- [06-difference-1-structured-substrate-missing](docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md)
-- [09-difference-4-institutional-vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
-- [03-similarity-3-mcp-support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
-- [02-similarity-2-persistent-memory](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+- [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 

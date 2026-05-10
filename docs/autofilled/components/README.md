@@ -20,13 +20,13 @@
 ---
 
 **Кто ссылается на этот документ (10):**
-- [AUTOFILLED](docs/AUTOFILLED.md)
-- [cowork](docs/autofilled/components/cowork.md)
-- [ingit](docs/autofilled/components/ingit.md)
-- [kksudo](docs/autofilled/components/kksudo.md)
-- [lorenzo](docs/autofilled/components/lorenzo.md)
-- [nautilus](docs/autofilled/components/nautilus.md)
-- [sgb](docs/autofilled/components/sgb.md)
-- [spbmolot](docs/autofilled/components/spbmolot.md)
+- [AUTOFILLED](../../AUTOFILLED.md)
+- [cowork](cowork.md)
+- [ingit](ingit.md)
+- [kksudo](kksudo.md)
+- [lorenzo](lorenzo.md)
+- [nautilus](nautilus.md)
+- [sgb](sgb.md)
+- [spbmolot](spbmolot.md)
 - _...ещё 2_
 

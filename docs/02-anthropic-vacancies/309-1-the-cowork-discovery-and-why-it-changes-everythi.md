@@ -35,7 +35,7 @@
 
 When Document 2.3 was written earlier in this session, the 
 author and collaborator framed the Layer B gap as essentially 
-unfilled. We surveyed Anthropic Projects, [GitHub](../docs/01-svyazi/03-component-catalog.md) Discussions, 
+unfilled. We surveyed Anthropic Projects, [GitHub](../01-svyazi/03-component-catalog.md) Discussions, 
 Notion, Obsidian, and various combinations — and concluded 
 that no existing tool adequately served sustained AI-
 collaborative intellectual work.
@@ -128,9 +128,9 @@ The remainder of this document develops Option C.
 ---
 
 **Похожие документы:**
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md) (сходство 0.19)
-- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
+- [307-abstract](307-abstract.md) (сходство 0.19)
+- [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.18)
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -138,10 +138,10 @@ The remainder of this document develops Option C.
 ---
 
 **Смотрите также:**
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [310-2-what-cowork-provides-that-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-- [279-existing-approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-- [311-3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
+- [307-abstract](307-abstract.md)
+- [310-2-what-cowork-provides-that-[ingit](306-with-anthropic-s-cowork-platform.md)-doesn-t-need-to-](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
+- [279-existing-approximations](279-existing-approximations.md)
+- [311-3-what-[ingit](306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
 
 
 <!-- backlinks -->
@@ -149,10 +149,10 @@ The remainder of this document develops Option C.
 ---
 
 **Кто ссылается на этот документ (6):**
-- [280-the-specific-case-in-front-of-us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-- [283-what-this-document-doesn-t-solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
-- [284-practical-recommendations-for-the-current-project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
-- [307-abstract](docs/02-anthropic-vacancies/307-abstract.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [280-the-specific-case-in-front-of-us](280-the-specific-case-in-front-of-us.md)
+- [283-what-this-document-doesn-t-solve](283-what-this-document-doesn-t-solve.md)
+- [284-practical-recommendations-for-the-current-project](284-practical-recommendations-for-the-current-project.md)
+- [307-abstract](307-abstract.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [README](README.md)
 

@@ -51,10 +51,10 @@ Technical Docs Investigator — для больших кодовых/инжен�
 ---
 
 **Смотрите также:**
-- [B-forensic-rag](docs/svyazi-2-0/ensembles/B-forensic-rag.md)
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [8-budget-aware-intelligence-stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+- [B-forensic-rag](../../svyazi-2-0/ensembles/B-forensic-rag.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
 
 
 <!-- backlinks -->
@@ -62,7 +62,7 @@ Technical Docs Investigator — для больших кодовых/инжен�
 ---
 
 **Кто ссылается на этот документ (3):**
-- [README](docs/ai-collaborations/ensembles/README.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
+- [README](README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
 

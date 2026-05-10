@@ -57,8 +57,8 @@ AI-координированной интеллектуальной работ�
 ---
 
 **Смотрите также:**
-- [300-заключение](docs/02-anthropic-vacancies/300-заключение.md)
-- [07-rekursivnoe-prozrenie](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
-- [04-pochemu-ne-postroeno](docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
+- [300-заключение](../../02-anthropic-vacancies/300-заключение.md)
+- [07-rekursivnoe-prozrenie](07-rekursivnoe-prozrenie.md)
+- [04-pochemu-ne-postroeno](04-pochemu-ne-postroeno.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
 

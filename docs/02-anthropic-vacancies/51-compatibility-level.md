@@ -18,7 +18,7 @@
 - ✅ Level 2: `fetch(query)` по концептам через Q6-координаты или 
   tags
 - ✅ Level 3: `translate_to(entry, "meta")` через biective Q6↔hexagram 
-  mapping; `translate_to(entry, "[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)")` через α-level mapping
+  mapping; `translate_to(entry, "[info1](01-интегральный-анализ-профиля-svend4.md)")` через α-level mapping
 
 ---
 
@@ -88,11 +88,11 @@
 ---
 
 **Кто ссылается на этот документ (7):**
-- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-- [41-compatibility-level](docs/02-anthropic-vacancies/41-compatibility-level.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [49-angle-perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [41-compatibility-level](41-compatibility-level.md)
+- [47-native-format](47-native-format.md)
+- [49-angle-perspective](49-angle-perspective.md)
+- [57-native-format](57-native-format.md)
+- [61-compatibility-level](61-compatibility-level.md)
+- [README](README.md)
 

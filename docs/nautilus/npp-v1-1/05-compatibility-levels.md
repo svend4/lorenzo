@@ -74,8 +74,8 @@ Portal возвращает static entries.
 ---
 
 **Смотрите также:**
-- [80-5-compatibility-levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)
-- [17-5-compatibility-levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
-- [07-portal-entry](docs/nautilus/npp-v1-1/07-portal-entry.md)
-- [06-adapter-interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+- [80-5-compatibility-levels](../../02-anthropic-vacancies/80-5-compatibility-levels.md)
+- [17-5-compatibility-levels](../../02-anthropic-vacancies/17-5-compatibility-levels.md)
+- [07-portal-entry](07-portal-entry.md)
+- [06-adapter-interface](06-adapter-interface.md)
 

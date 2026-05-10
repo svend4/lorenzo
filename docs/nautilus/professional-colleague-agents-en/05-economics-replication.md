@@ -151,8 +151,8 @@ economically viable for moderately sized professions.
 ---
 
 **Смотрите также:**
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
-- [07-economics-combinatorial](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [08-pilot-sgb-advocate](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+- [216-5-the-economics-of-profession-wide-replication](../../02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
+- [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
+- [08-pilot-sgb-advocate](08-pilot-sgb-advocate.md)
 

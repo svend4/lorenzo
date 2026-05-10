@@ -295,13 +295,13 @@ incremental rather than novel.
 ---
 
 **Кто ссылается на этот документ (18):**
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [151-open-knowledge-work-foundation-md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
-- [155-1-problem-statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-- [161-7-phased-rollout-plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- [164-10-appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [173-4-ten-domains-of-application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [155-1-problem-statement](155-1-problem-statement.md)
+- [161-7-phased-rollout-plan](161-7-phased-rollout-plan.md)
+- [164-10-appendices](164-10-appendices.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [173-4-ten-domains-of-application](173-4-ten-domains-of-application.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
 - _...ещё 10_
 

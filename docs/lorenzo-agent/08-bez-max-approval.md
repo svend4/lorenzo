@@ -27,8 +27,8 @@
 ---
 
 **Смотрите также:**
-- [352-что-ты-не-можешь-делать-без-max-approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
-- [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
-- [09-voobshche-nelzya](docs/lorenzo-agent/09-voobshche-nelzya.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
+- [352-что-ты-не-можешь-делать-без-max-approval](../02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
+- [05-q5-authority-limits](specification/05-q5-authority-limits.md)
+- [09-voobshche-nelzya](09-voobshche-nelzya.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
 

@@ -28,10 +28,10 @@ https://habr.com/ru/articles/1017200/
 ---
 
 **Смотрите также:**
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [3-zinc-hybrid-arch](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
+- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md)
+- [02-memnet](02-memnet.md)
+- [3-zinc-hybrid-arch](../hardware-pairs/3-zinc-hybrid-arch.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
 
 
 <!-- backlinks -->
@@ -39,7 +39,7 @@ https://habr.com/ru/articles/1017200/
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/key-findings/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

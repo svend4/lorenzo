@@ -27,8 +27,8 @@
 ---
 
 **Смотрите также:**
-- [353-что-ты-не-можешь-делать-вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
-- [16-vsegda-delaesh](docs/lorenzo-agent/16-vsegda-delaesh.md)
-- [08-bez-max-approval](docs/lorenzo-agent/08-bez-max-approval.md)
-- [14-other-ai-relationships](docs/lorenzo-agent/14-other-ai-relationships.md)
+- [353-что-ты-не-можешь-делать-вообще](../02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md)
+- [08-bez-max-approval](08-bez-max-approval.md)
+- [14-other-ai-relationships](14-other-ai-relationships.md)
 

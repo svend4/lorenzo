@@ -135,8 +135,8 @@ scripts/
 ---
 
 **Смотрите также:**
-- [02-architecture](docs/meta-scripting/02-architecture.md)
-- [01-concept](docs/meta-scripting/01-concept.md)
-- [METHODOLOGY](docs/METHODOLOGY.md)
-- [03-catalog](docs/meta-scripting/03-catalog.md)
+- [02-architecture](02-architecture.md)
+- [01-concept](01-concept.md)
+- [METHODOLOGY](../METHODOLOGY.md)
+- [03-catalog](03-catalog.md)
 

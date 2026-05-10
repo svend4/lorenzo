@@ -152,8 +152,8 @@ InGit/Cowork:
 ---
 
 **Смотрите также:**
-- [334-8-импликации-для-nautilus-и-okwf](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
-- [10-strategicheskoe-pozitsionirovanie](docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md)
-- [336-10-стратегическое-позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
-- [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+- [334-8-импликации-для-nautilus-и-okwf](../../02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
+- [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
+- [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
+- [09-riski-voprosy](09-riski-voprosy.md)
 

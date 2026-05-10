@@ -43,7 +43,7 @@ We now identify five distinct types.
 
 ### 1.1. Type 0 — Personal AI Assistants
 
-**Examples**: ChatGPT, Claude, Cursor, [GitHub](../docs/01-svyazi/03-component-catalog.md) Copilot, Claude
+**Examples**: ChatGPT, Claude, Cursor, [GitHub](../01-svyazi/03-component-catalog.md) Copilot, Claude
 Code.
 
 **Function**: General-purpose helper with whatever task the
@@ -274,13 +274,13 @@ ethical, and economic framework.
 ---
 
 **Кто ссылается на этот документ (14):**
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [214-3-empirical-case-study-обучай](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [214-3-empirical-case-study-обучай](214-3-empirical-case-study-обучай.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
 - _...ещё 6_
 

@@ -112,8 +112,8 @@ example_user, example@email.com
 ---
 
 **Смотрите также:**
-- [27-15-glossary-of-examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [13-reference-implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
-- [10-query-result](docs/nautilus/npp-v1-0/10-query-result.md)
+- [27-15-glossary-of-examples](../../02-anthropic-vacancies/27-15-glossary-of-examples.md)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md)
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
 

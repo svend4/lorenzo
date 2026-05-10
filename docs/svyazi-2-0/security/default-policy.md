@@ -33,10 +33,10 @@
 ---
 
 **Смотрите также:**
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-- [risks](docs/svyazi-2-0/prototype/risks.md)
-- [first-contacts](docs/svyazi-2-0/outreach/first-contacts.md)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](../../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [risks](../prototype/risks.md)
+- [first-contacts](../outreach/first-contacts.md)
 
 
 <!-- backlinks -->
@@ -44,7 +44,7 @@
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/svyazi-2-0/security/README.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

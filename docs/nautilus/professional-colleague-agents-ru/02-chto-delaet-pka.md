@@ -191,8 +191,8 @@
 ---
 
 **Смотрите также:**
-- [233-2-что-делает-агента-профессиональным-коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
-- [03-keys-obuchay](docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
-- [01-pyat-tipov](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
+- [233-2-что-делает-агента-профессиональным-коллегой](../../02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
+- [03-keys-obuchay](03-keys-obuchay.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+- [01-pyat-tipov](01-pyat-tipov.md)
 

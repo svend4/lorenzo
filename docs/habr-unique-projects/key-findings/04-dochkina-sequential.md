@@ -29,10 +29,10 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 ---
 
 **Смотрите также:**
-- [05-supplementary-infrastructure](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
-- [5-tinyml-mcp-skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
-- [02-memnet](docs/habr-unique-projects/key-findings/02-memnet.md)
-- [3-crdt-self-hosted](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md)
+- [5-tinyml-mcp-skills](../hardware-pairs/5-tinyml-mcp-skills.md)
+- [02-memnet](02-memnet.md)
+- [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md)
 
 
 <!-- backlinks -->
@@ -40,8 +40,8 @@ OpenClaw + 5 систем памяти (https://habr.com/ru/articles/1020860/) �
 ---
 
 **Кто ссылается на этот документ (4):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [concepts](docs/glossary/concepts.md)
-- [README](docs/habr-unique-projects/key-findings/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [concepts](../../glossary/concepts.md)
+- [README](README.md)
 

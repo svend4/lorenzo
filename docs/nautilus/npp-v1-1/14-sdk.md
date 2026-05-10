@@ -48,8 +48,8 @@ acceptable только для debugging/experimental версий.
 ---
 
 **Смотрите также:**
-- [89-14-sdk-contract-informative](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md)
-- [18-reference-implementation](docs/nautilus/npp-v1-1/18-reference-implementation.md)
-- [11-relevance-ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+- [89-14-sdk-contract-informative](../../02-anthropic-vacancies/89-14-sdk-contract-informative.md)
+- [18-reference-implementation](18-reference-implementation.md)
+- [11-relevance-ranking](11-relevance-ranking.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
 

@@ -107,8 +107,8 @@ GitHub)
 ---
 
 **Смотрите также:**
-- [332-6-уточнённый-объём-ingit-с-учётом-cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
-- [02-chto-cowork-obespechivaet](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
-- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
-- [05-chetyre-puti-integratsii](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
+- [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
+- [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 

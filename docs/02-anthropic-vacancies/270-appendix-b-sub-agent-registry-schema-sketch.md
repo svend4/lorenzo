@@ -95,8 +95,8 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Похожие документы:**
-- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
-- [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md) (сходство 0.11)
+- [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) (сходство 0.13)
+- [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md) (сходство 0.11)
 
 
 <!-- see-also -->
@@ -104,10 +104,10 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Смотрите также:**
-- [321-appendix-a-decision-tree-for-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [271-appendix-c-configuration-template-example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md)
-- [28-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-[ingit](306-with-anthropic-s-cowork-platform.md)-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [271-appendix-c-configuration-template-example](271-appendix-c-configuration-template-example.md)
+- [28-appendix-a-minimal-working-example](28-appendix-a-minimal-working-example.md)
+- [308-table-of-contents](308-table-of-contents.md)
 
 
 <!-- backlinks -->
@@ -115,8 +115,8 @@ substantial refinement based on actual implementation experience.
 ---
 
 **Кто ссылается на этот документ (4):**
-- [253-table-of-contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
-- [308-table-of-contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
-- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [253-table-of-contents](253-table-of-contents.md)
+- [308-table-of-contents](308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [README](README.md)
 

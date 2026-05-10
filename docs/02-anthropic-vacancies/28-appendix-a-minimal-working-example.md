@@ -4,7 +4,7 @@
 ## Contents
 
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal [nautilus](../docs/05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
+  - [A.1. Minimal [nautilus](../05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
 
@@ -88,9 +88,9 @@ class MyNotesAdapter(BaseAdapter):
 ---
 
 **Похожие документы:**
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) (сходство 0.44)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md) (сходство 0.18)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md) (сходство 0.17)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md) (сходство 0.44)
+- [03-portal-protocol-md](03-portal-protocol-md.md) (сходство 0.18)
+- [123-portal-mcp-py](123-portal-mcp-py.md) (сходство 0.17)
 
 
 <!-- see-also -->
@@ -98,10 +98,10 @@ class MyNotesAdapter(BaseAdapter):
 ---
 
 **Смотрите также:**
-- [98-appendix-a-minimal-working-example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
+- [98-appendix-a-minimal-working-example](98-appendix-a-minimal-working-example.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
 
 
 <!-- backlinks -->
@@ -109,13 +109,13 @@ class MyNotesAdapter(BaseAdapter):
 ---
 
 **Кто ссылается на этот документ (31):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [09-4-passport-passport-md](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
-- [103-appendix-b-change-log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [105-review-methodology-md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
-- [122-глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [09-4-passport-passport-md](09-4-passport-passport-md.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [122-глоссарий](122-глоссарий.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
 - _...ещё 23_
 

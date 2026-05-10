@@ -47,8 +47,8 @@ Operations Concierge — в чате принимает команды, созд
 ---
 
 **Смотрите также:**
-- [7-domain-agent-app-factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
-- [2-distributed-agent-workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
-- [1-agentic-knowledge-os](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
-- [4-web-to-knowledge-pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md)
+- [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md)
+- [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
 

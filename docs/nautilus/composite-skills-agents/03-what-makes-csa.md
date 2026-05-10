@@ -173,8 +173,8 @@ agents inherit this distinction.
 ---
 
 **Смотрите также:**
-- [256-3-what-makes-a-composite-skills-agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-- [06-coordination-disagreement](docs/nautilus/composite-skills-agents/06-coordination-disagreement.md)
-- [11-open-questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
-- [01-why-binary-incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+- [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
+- [06-coordination-disagreement](06-coordination-disagreement.md)
+- [11-open-questions](11-open-questions.md)
+- [01-why-binary-incomplete](01-why-binary-incomplete.md)
 

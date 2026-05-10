@@ -131,13 +131,13 @@ populations, Type 1 is the right starting point.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [172-3-what-makes-a-representative-agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-- [210-abstract](docs/02-anthropic-vacancies/210-abstract.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [212-1-the-five-type-typology-of-principal-side-agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-- [213-2-what-makes-a-professional-colleague-agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-- [220-9-relationship-to-other-agent-types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-- [223-12-closing](docs/02-anthropic-vacancies/223-12-closing.md)
-- [269-appendix-a-the-six-type-taxonomy-updated](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)
+- [172-3-what-makes-a-representative-agent](172-3-what-makes-a-representative-agent.md)
+- [210-abstract](210-abstract.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [212-1-the-five-type-typology-of-principal-side-agents](212-1-the-five-type-typology-of-principal-side-agents.md)
+- [213-2-what-makes-a-professional-colleague-agent](213-2-what-makes-a-professional-colleague-agent.md)
+- [220-9-relationship-to-other-agent-types](220-9-relationship-to-other-agent-types.md)
+- [223-12-closing](223-12-closing.md)
+- [269-appendix-a-the-six-type-taxonomy-updated](269-appendix-a-the-six-type-taxonomy-updated.md)
 - _...ещё 1_
 

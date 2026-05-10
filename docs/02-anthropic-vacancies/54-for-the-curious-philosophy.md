@@ -21,7 +21,7 @@ Q6-гиперкуб выбран не случайно. Он одновреме�
    1) даёт естественный routing в MoE-архитектурах
 
 Это пример **reuse существующих онтологий** вместо изобретения 
-новых. Вместо строить собственную таксономию с нуля, `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` 
+новых. Вместо строить собственную таксономию с нуля, `[pro2](01-интегральный-анализ-профиля-svend4.md)` 
 использует 3000-летнюю, с адаптацией под современные задачи.
 
 ---
@@ -90,13 +90,13 @@ Last updated: 2026-04*
 ---
 
 **Кто ссылается на этот документ (11):**
-- [03-portal-protocol-md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
-- [04-abstract](docs/02-anthropic-vacancies/04-abstract.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
-- [34-appendix-b-change-log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-- [37-native-format](docs/02-anthropic-vacancies/37-native-format.md)
-- [44-for-the-curious-philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md)
+- [03-portal-protocol-md](03-portal-protocol-md.md)
+- [04-abstract](04-abstract.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [190-содержание](190-содержание.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [37-native-format](37-native-format.md)
+- [44-for-the-curious-philosophy](44-for-the-curious-philosophy.md)
 - _...ещё 3_
 

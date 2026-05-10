@@ -16,7 +16,7 @@
 **Context**: В v1.0 Q6-пространство существовало как implementation 
 detail reference portal (pro2 → hexagrams). При росте экосистемы 
 стало ясно, что Q6 работает как универсальная система координат 
-для всех Repos, не только [pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md).
+для всех Repos, не только [pro2](01-интегральный-анализ-профиля-svend4.md).
 
 **Decision**: В v1.1 Q6 повышается до нормативного концепта 
 протокола. Level 2+ адаптеры MUST обеспечивать Q6-координаты. 
@@ -94,8 +94,8 @@ detail reference portal (pro2 → hexagrams). При росте экосисте
 ---
 
 **Кто ссылается на этот документ (4):**
-- [104-appendix-c-references](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-- [26-14-adr-001-federation-over-merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
-- [94-19-adr-001-federation-over-merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [26-14-adr-001-federation-over-merging](26-14-adr-001-federation-over-merging.md)
+- [94-19-adr-001-federation-over-merging](94-19-adr-001-federation-over-merging.md)
+- [README](README.md)
 

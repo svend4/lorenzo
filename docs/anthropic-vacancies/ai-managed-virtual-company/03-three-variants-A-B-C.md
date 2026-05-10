@@ -48,8 +48,8 @@ Anthropic, кстати, частично уже внутри этой эвол�
 ---
 
 **Смотрите также:**
-- [05-polymath-project-tao-comparison](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
-- [07-current-implementations](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
-- [01-existing-landscape](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
-- [00-question-rephrasing](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+- [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
+- [07-current-implementations](07-current-implementations.md)
+- [01-existing-landscape](01-existing-landscape.md)
+- [00-question-rephrasing](00-question-rephrasing.md)
 

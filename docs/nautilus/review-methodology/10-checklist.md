@@ -58,8 +58,8 @@ prompts (не «продолжи вариант A»)?
 ---
 
 **Смотрите также:**
-- [116-9-checklist-применения-методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-- [GITHUB_ISSUES](docs/GITHUB_ISSUES.md)
-- [13-appendix-b-examples](docs/nautilus/review-methodology/13-appendix-b-examples.md)
-- [02-formal-workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+- [116-9-checklist-применения-методологии](../../02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [GITHUB_ISSUES](../../GITHUB_ISSUES.md)
+- [13-appendix-b-examples](13-appendix-b-examples.md)
+- [02-formal-workflow](02-formal-workflow.md)
 

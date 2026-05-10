@@ -215,8 +215,8 @@ PDF/DOCX в других). Медицинские записи должны
 ---
 
 **Смотрите также:**
-- [235-4-архитектура-профессиональных-коллег-агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
-- [05-ekonomika](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
-- [06-riski](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
+- [05-ekonomika](05-ekonomika.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
+- [06-riski](06-riski.md)
 

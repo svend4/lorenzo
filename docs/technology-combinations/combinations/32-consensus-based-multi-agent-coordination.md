@@ -66,10 +66,10 @@ ROI: Resilient multi-agent workflows, no single point of failure
 ---
 
 **Смотрите также:**
-- [04-event-sourcing-consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
-- [35-mega-stack-4-0-with-event-sourcing-consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
-- [34-distributed-event-store-with-paxos](docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](35-mega-stack-4-0-with-event-sourcing-consensus.md)
+- [34-distributed-event-store-with-paxos](34-distributed-event-store-with-paxos.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
 
 
 <!-- backlinks -->
@@ -77,7 +77,7 @@ ROI: Resilient multi-agent workflows, no single point of failure
 ---
 
 **Кто ссылается на этот документ (3):**
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/technology-combinations/combinations/README.md)
-- [31-35-final](docs/technology-combinations/synthesis-tables/31-35-final.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
+- [31-35-final](../synthesis-tables/31-35-final.md)
 

@@ -26,10 +26,10 @@
 ---
 
 **Смотрите также:**
-- [01-three-direct-analogues](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-related-projects](docs/habr-unique-projects/analogues/02-related-projects.md)
-- [02-related-projects-context](docs/ai-collaborations/candidates/02-related-projects-context.md)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
+- [wikontic](../../05-habr-projects/knowledge/wikontic.md)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md)
+- [02-related-projects-context](02-related-projects-context.md)
 
 
 <!-- backlinks -->
@@ -37,8 +37,8 @@
 ---
 
 **Кто ссылается на этот документ (4):**
-- [README](docs/ai-collaborations/candidates/README.md)
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [reading-paths](docs/reading-paths.md)
+- [README](README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [reading-paths](../../reading-paths.md)
 

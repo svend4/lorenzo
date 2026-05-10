@@ -38,8 +38,8 @@ Claude hat geantwortet: Правильно разграничиваете — э
 ---
 
 **Смотрите также:**
-- [01-shell-metaphor-two-projections](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
-- [00-question-multi-tier](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
-- [00-question-camel-vs-nautilus](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
-- [00-question-can-it-apply-to-docs](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md)
+- [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md)
+- [00-question-camel-vs-nautilus](../nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+- [00-question-can-it-apply-to-docs](../../nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
 

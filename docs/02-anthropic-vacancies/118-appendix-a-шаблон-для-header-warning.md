@@ -53,7 +53,7 @@ transitional state:
 ---
 
 **Смотрите также:**
-- [12-appendix-a-header-warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [12-appendix-a-header-warning](../nautilus/review-methodology/12-appendix-a-header-warning.md)
 
 
 <!-- backlinks -->
@@ -61,10 +61,10 @@ transitional state:
 ---
 
 **Кто ссылается на этот документ (6):**
-- [102-доступ-к-данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- [121-appendix-c-история-изменений-методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
-- [16-history](docs/02-anthropic-vacancies/16-history.md)
-- [185-appendix-b-domain-comparison-matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
-- [339-приложение-a-дерево-решений-для-принимающих-ingit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
-- [README](docs/02-anthropic-vacancies/README.md)
+- [102-доступ-к-данным](102-доступ-к-данным.md)
+- [121-appendix-c-история-изменений-методологии](121-appendix-c-история-изменений-методологии.md)
+- [16-history](16-history.md)
+- [185-appendix-b-domain-comparison-matrix](185-appendix-b-domain-comparison-matrix.md)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
+- [README](README.md)
 

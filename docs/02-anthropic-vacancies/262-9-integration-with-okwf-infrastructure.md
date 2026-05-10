@@ -161,9 +161,9 @@ broader applicability.
 ---
 
 **Похожие документы:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md) (сходство 0.20)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.18)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md) (сходство 0.21)
+- [266-13-closing](266-13-closing.md) (сходство 0.20)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md) (сходство 0.18)
 
 
 <!-- see-also -->
@@ -171,10 +171,10 @@ broader applicability.
 ---
 
 **Смотрите также:**
-- [260-7-economics-of-combinatorial-replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-- [266-13-closing](docs/02-anthropic-vacancies/266-13-closing.md)
-- [257-4-the-sub-agent-registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-- [316-8-implications-for-[nautilus](../docs/05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
+- [260-7-economics-of-combinatorial-replication](260-7-economics-of-combinatorial-replication.md)
+- [266-13-closing](266-13-closing.md)
+- [257-4-the-sub-agent-registry](257-4-the-sub-agent-registry.md)
+- [316-8-implications-for-[nautilus](../05-habr-projects/memory/memnet.md)-and-okwf](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 
 
 <!-- backlinks -->
@@ -182,13 +182,13 @@ broader applicability.
 ---
 
 **Кто ссылается на этот документ (17):**
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [143-6-four-deployment-domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-- [145-8-call-to-action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [148-appendix-a-glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-- [171-2-historical-precedents-agents-as-civilizational-i](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-- [174-5-architectural-specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-- [208-professional-colleague-agents-md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
-- [216-5-the-economics-of-profession-wide-replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [143-6-four-deployment-domains](143-6-four-deployment-domains.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [148-appendix-a-glossary](148-appendix-a-glossary.md)
+- [171-2-historical-precedents-agents-as-civilizational-i](171-2-historical-precedents-agents-as-civilizational-i.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [216-5-the-economics-of-profession-wide-replication](216-5-the-economics-of-profession-wide-replication.md)
 - _...ещё 9_
 

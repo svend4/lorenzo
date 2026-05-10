@@ -75,8 +75,8 @@ Habr Scout → Svyazi-like карточки авторов/проектов → 
 ---
 
 **Смотрите также:**
-- [364-final-note-ты-experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-- [01-pluses-1-7](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
-- [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
-- [365-развёрнутый-анализ-внуковой-комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
+- [364-final-note-ты-experiment](../../02-anthropic-vacancies/364-final-note-ты-experiment.md)
+- [01-pluses-1-7](01-pluses-1-7.md)
+- [06-conclusion-deserves-attention](06-conclusion-deserves-attention.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 

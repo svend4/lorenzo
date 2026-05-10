@@ -232,8 +232,8 @@ Copilot, Claude Code.
 ---
 
 **Смотрите также:**
-- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
-- [09-svyaz-s-drugimi](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
-- [246-приложение-a-сравнительная-таблица-пять-типов-аген](docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md)
-- [02-chto-delaet-pka](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
+- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](../../02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
+- [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
+- [246-приложение-a-сравнительная-таблица-пять-типов-аген](../../02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md)
+- [02-chto-delaet-pka](02-chto-delaet-pka.md)
 

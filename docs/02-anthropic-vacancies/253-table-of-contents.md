@@ -95,13 +95,13 @@
 ---
 
 **Кто ссылается на этот документ (13):**
-- [137-table-of-contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
-- [149-appendix-b-summary-of-contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
-- [154-table-of-contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [169-table-of-contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
-- [211-table-of-contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
-- [252-abstract](docs/02-anthropic-vacancies/252-abstract.md)
-- [254-1-why-the-binary-view-is-incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-- [255-2-the-twenty-one-teachers-pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
+- [137-table-of-contents](137-table-of-contents.md)
+- [149-appendix-b-summary-of-contributions](149-appendix-b-summary-of-contributions.md)
+- [154-table-of-contents](154-table-of-contents.md)
+- [169-table-of-contents](169-table-of-contents.md)
+- [211-table-of-contents](211-table-of-contents.md)
+- [252-abstract](252-abstract.md)
+- [254-1-why-the-binary-view-is-incomplete](254-1-why-the-binary-view-is-incomplete.md)
+- [255-2-the-twenty-one-teachers-pattern](255-2-the-twenty-one-teachers-pattern.md)
 - _...ещё 5_
 

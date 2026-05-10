@@ -206,9 +206,9 @@ for chunk in chunks:
 ---
 
 **Кто ссылается на этот документ (3):**
-- [01-overview](docs/processing-guide/01-overview.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
-- [README](docs/processing-guide/README.md)
+- [01-overview](01-overview.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
+- [README](README.md)
 
 
 <!-- see-also -->
@@ -216,8 +216,8 @@ for chunk in chunks:
 ---
 
 **Смотрите также:**
-- [02-extraction](docs/processing-guide/02-extraction.md)
-- [07-llm](docs/processing-guide/07-llm.md)
-- [09-automation](docs/processing-guide/09-automation.md)
-- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [02-extraction](02-extraction.md)
+- [07-llm](07-llm.md)
+- [09-automation](09-automation.md)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 

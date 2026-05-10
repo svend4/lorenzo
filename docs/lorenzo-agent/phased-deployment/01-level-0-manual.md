@@ -46,8 +46,8 @@
 ---
 
 **Смотрите также:**
-- [03-level-2-basic-lite](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
-- [06-level-5-full-network](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
-- [02-level-1-minimal-zero](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
-- [07-progression-logic](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md)
+- [06-level-5-full-network](06-level-5-full-network.md)
+- [02-level-1-minimal-zero](02-level-1-minimal-zero.md)
+- [07-progression-logic](07-progression-logic.md)
 

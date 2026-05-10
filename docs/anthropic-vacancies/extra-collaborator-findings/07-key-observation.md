@@ -26,8 +26,8 @@
 ---
 
 **Смотрите также:**
-- [06-final-tier-ranking](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
-- [04-mem0-letta-graphiti](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [02-vitaly-graph-cognitive-memory](docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
+- [06-final-tier-ranking](06-final-tier-ranking.md)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [02-vitaly-graph-cognitive-memory](02-vitaly-graph-cognitive-memory.md)
 

@@ -41,8 +41,8 @@ flowchart LR
 ---
 
 **Смотрите также:**
-- [04-ensembles-overview](docs/01-svyazi/04-ensembles-overview.md)
-- [04-приоритетные-ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
-- [license-tree](docs/svyazi-2-0/limitations/license-tree.md)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md)
+- [04-приоритетные-ансамбли](../../04-ai-collaborations/04-приоритетные-ансамбли.md)
+- [knowledge-space](../components/knowledge-space.md)
+- [license-tree](../limitations/license-tree.md)
 

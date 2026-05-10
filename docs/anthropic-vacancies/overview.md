@@ -43,8 +43,8 @@
 ---
 
 **Смотрите также:**
-- [12-technical-program-management](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
-- [13-communications](docs/anthropic-vacancies/clusters/13-communications.md)
-- [08-safeguards-trust-safety](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
-- [09-product-management-support-ops](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+- [12-technical-program-management](clusters/12-technical-program-management.md)
+- [13-communications](clusters/13-communications.md)
+- [08-safeguards-trust-safety](clusters/08-safeguards-trust-safety.md)
+- [09-product-management-support-ops](clusters/09-product-management-support-ops.md)
 

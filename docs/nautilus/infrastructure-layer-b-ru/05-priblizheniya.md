@@ -125,8 +125,8 @@ AI-сотрудничества над общей работой**.
 ---
 
 **Смотрите также:**
-- [294-существующие-приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md)
-- [06-konkretnyy-sluchay](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
-- [08-promyshlennost-postroit](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
-- [02-dvukhsloynyy-stek](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+- [294-существующие-приближения](../../02-anthropic-vacancies/294-существующие-приближения.md)
+- [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
+- [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
+- [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
 

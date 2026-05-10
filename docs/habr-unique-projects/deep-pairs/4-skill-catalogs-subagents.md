@@ -28,10 +28,10 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 ---
 
 **Смотрите также:**
-- [6-tmux-village-openclaw](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
-- [1-workflow-llm-mcp](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
-- [8-self-aware-mcp-specs](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
-- [3-adversarial-multi-ide](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md)
+- [8-self-aware-mcp-specs](8-self-aware-mcp-specs.md)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
 
 
 <!-- backlinks -->
@@ -39,7 +39,7 @@ Self-aware MCP под legal (https://habr.com/ru/articles/1007122/) — расш
 ---
 
 **Кто ссылается на этот документ (3):**
-- [authors-by-name](docs/glossary/authors-by-name.md)
-- [components-by-name](docs/glossary/components-by-name.md)
-- [README](docs/habr-unique-projects/deep-pairs/README.md)
+- [authors-by-name](../../glossary/authors-by-name.md)
+- [components-by-name](../../glossary/components-by-name.md)
+- [README](README.md)
 

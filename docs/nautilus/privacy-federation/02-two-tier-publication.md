@@ -127,8 +127,8 @@ procedural_stage: "klage"
 ---
 
 **Смотрите также:**
-- [03-what-this-gives-technically](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
-- [01-structural-comparison-code-vs-docs](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
-- [04-grant-opportunities](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
-- [00-question-anonymization](docs/nautilus/privacy-federation/00-question-anonymization.md)
+- [03-what-this-gives-technically](03-what-this-gives-technically.md)
+- [01-structural-comparison-code-vs-docs](../npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
+- [00-question-anonymization](00-question-anonymization.md)
 

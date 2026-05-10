@@ -43,8 +43,8 @@
 ---
 
 **Смотрите также:**
-- [06-security-privacy](docs/01-svyazi/06-security-privacy.md)
-- [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-- [privacy](docs/svyazi-2-0/security/privacy.md)
-- [E-execution-plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md)
+- [06-безопасность-приватность-и-бюджетный-роутинг](../../04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
+- [privacy](privacy.md)
+- [E-execution-plane](../ensembles/E-execution-plane.md)
 

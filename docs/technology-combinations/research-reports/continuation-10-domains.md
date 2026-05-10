@@ -63,8 +63,8 @@
 ---
 
 **Смотрите также:**
-- [sozialrecht-35-combinations](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md)
-- [03-dsl-ast](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
-- [02-ultimate-legal-ai](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
-- [30-mega-stack-3-0-with-dsl-ast](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+- [sozialrecht-35-combinations](sozialrecht-35-combinations.md)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md)
+- [02-ultimate-legal-ai](../mega-stacks/02-ultimate-legal-ai.md)
+- [30-mega-stack-3-0-with-dsl-ast](../combinations/30-mega-stack-3-0-with-dsl-ast.md)
 

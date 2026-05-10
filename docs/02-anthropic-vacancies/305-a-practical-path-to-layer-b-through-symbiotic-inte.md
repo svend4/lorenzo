@@ -74,13 +74,13 @@
 ---
 
 **Кто ссылается на этот документ (13):**
-- [12-content-overview](docs/02-anthropic-vacancies/12-content-overview.md)
-- [123-portal-mcp-py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [134-the-double-triangle-architecture-md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
-- [166-representative-agent-layer-md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
-- [168-abstract](docs/02-anthropic-vacancies/168-abstract.md)
-- [187-слой-представительских-агентов-md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
-- [202-12-заключение](docs/02-anthropic-vacancies/202-12-заключение.md)
+- [12-content-overview](12-content-overview.md)
+- [123-portal-mcp-py](123-portal-mcp-py.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [168-abstract](168-abstract.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [202-12-заключение](202-12-заключение.md)
 - _...ещё 5_
 

@@ -34,8 +34,8 @@
 ---
 
 **Смотрите также:**
-- [190-содержание](docs/02-anthropic-vacancies/190-содержание.md)
-- [00-question-habr-link](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
-- [17-appendix-b-change-log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
-- [15-appendix-c-history](docs/nautilus/review-methodology/15-appendix-c-history.md)
+- [190-содержание](../../02-anthropic-vacancies/190-содержание.md)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md)
+- [15-appendix-c-history](../review-methodology/15-appendix-c-history.md)
 

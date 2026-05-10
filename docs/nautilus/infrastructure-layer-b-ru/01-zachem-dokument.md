@@ -61,8 +61,8 @@
 ---
 
 **Смотрите также:**
-- [290-почему-этот-документ-существует](docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md)
-- [09-ne-reshaet](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
-- [11-zaklyuchenie](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
-- [03-otsutstvuet-sloy-b](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
+- [290-почему-этот-документ-существует](../../02-anthropic-vacancies/290-почему-этот-документ-существует.md)
+- [09-ne-reshaet](09-ne-reshaet.md)
+- [11-zaklyuchenie](11-zaklyuchenie.md)
+- [03-otsutstvuet-sloy-b](03-otsutstvuet-sloy-b.md)
 

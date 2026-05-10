@@ -40,8 +40,8 @@ Phase 3 (year 2+): Foundation/economy formalization
 ---
 
 **Смотрите также:**
-- [07-section-7-success-metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
-- [08-section-8-risks-mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
-- [10-section-10-engagement-request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
-- [06-section-6-proposer-role](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md)
+- [08-section-8-risks-mitigations](08-section-8-risks-mitigations.md)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md)
 

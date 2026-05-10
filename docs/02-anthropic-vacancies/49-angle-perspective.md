@@ -11,7 +11,7 @@
 
 ## Angle / Perspective
 
-**Semantic** — `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` смотрит на мир через **структуру значений**. 
+**Semantic** — `[pro2](01-интегральный-анализ-профиля-svend4.md)` смотрит на мир через **структуру значений**. 
 На вопрос «что такое кристалл» он отвечает Q6-координатами 
 (положение в гиперкубе), семантическими связями (соседи по Hamming), 
 и гексаграммой (классическая И-Цзин интерпретация).
@@ -85,13 +85,13 @@ reasoning.
 ---
 
 **Кто ссылается на этот документ (9):**
-- [13-angle-perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
-- [39-angle-perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
-- [47-native-format](docs/02-anthropic-vacancies/47-native-format.md)
-- [51-compatibility-level](docs/02-anthropic-vacancies/51-compatibility-level.md)
-- [55-passports-meta-md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
-- [57-native-format](docs/02-anthropic-vacancies/57-native-format.md)
-- [59-angle-perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
-- [61-compatibility-level](docs/02-anthropic-vacancies/61-compatibility-level.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [39-angle-perspective](39-angle-perspective.md)
+- [47-native-format](47-native-format.md)
+- [51-compatibility-level](51-compatibility-level.md)
+- [55-passports-meta-md](55-passports-meta-md.md)
+- [57-native-format](57-native-format.md)
+- [59-angle-perspective](59-angle-perspective.md)
+- [61-compatibility-level](61-compatibility-level.md)
 - _...ещё 1_
 

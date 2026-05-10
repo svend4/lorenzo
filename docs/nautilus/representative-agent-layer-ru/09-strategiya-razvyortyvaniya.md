@@ -106,8 +106,8 @@
 ---
 
 **Смотрите также:**
-- [199-9-стратегия-поэтапного-развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
-- [11-prizyv-k-sotrudnichestvu](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
-- [201-11-призыв-к-сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
-- [08-riski-mery](docs/nautilus/representative-agent-layer-ru/08-riski-mery.md)
+- [199-9-стратегия-поэтапного-развёртывания](../../02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
+- [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
+- [201-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
+- [08-riski-mery](08-riski-mery.md)
 

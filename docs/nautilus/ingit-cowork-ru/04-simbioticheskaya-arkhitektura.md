@@ -173,8 +173,8 @@ Cowork — удобство, не авторитет.
 ---
 
 **Смотрите также:**
-- [330-4-симбиотическая-архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
-- [05-priblizheniya](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
-- [03-chto-ingit-obespechivaet](docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md)
-- [09-riski-voprosy](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+- [330-4-симбиотическая-архитектура](../../02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
+- [05-priblizheniya](../infrastructure-layer-b-ru/05-priblizheniya.md)
+- [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
+- [09-riski-voprosy](09-riski-voprosy.md)
 
