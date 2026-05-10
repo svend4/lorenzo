@@ -74,5 +74,12 @@ tags: [memory, mcp, typed-memory, sqlite, agent, bi-temporal]
 - Контактный файл: [docs/contacts/vitalysemenov.md](../contacts/vitalysemenov.md)
 - Статус: not_started
 
+## Смотрите также
+
+- [Yodoca: консолидация и забывание](yodoca.md) — memory decay + hot/slow path
+- [NGT Memory: ассоциативный граф](ngt-memory.md) — граф-подход к памяти
+- [MemNet: исследовательская память](memnet.md) — нейроархитектура памяти
+- [AgentFS](../knowledge/agentfs.md) — файловая система + persistent state для агентов
+
 ---
 _Создано: 2026-05-10_

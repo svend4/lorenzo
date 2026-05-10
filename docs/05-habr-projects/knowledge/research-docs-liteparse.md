@@ -68,5 +68,12 @@ LiteParse закрывает слой "structured ingestion with evidence" — �
 
 - Контактный файл: [docs/contacts/nlaik.md](../contacts/nlaik.md)
 
+## Смотрите также
+
+- [AgentFS](agentfs.md) — файловое ядро для хранения extracted documents
+- [knowledge-space](knowledge-space.md) — база знаний, пополняемая через LiteParse ingestion pipeline
+- [agent-memory-mcp](../memory/agent-memory-mcp.md) — memory layer для parsed document facts
+- [Yodoca: консолидация и забывание](../memory/yodoca.md) — nightly consolidation extracted content
+
 ---
 _Создано: 2026-05-10_

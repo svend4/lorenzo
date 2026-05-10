@@ -5,9 +5,26 @@
   "sources": [
     "docs/05-habr-projects/memory/memnet.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/agent-memory-mcp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/knowledge-space.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T16:49:25+00:00",
+  "updated_at": "2026-05-10T16:49:25+00:00",
   "payload_hash": "sha256:a8f7f0fca30cd2fc",
   "payload": {
     "title": "MemNet: исследовательская память",
@@ -30,17 +47,19 @@
     "projects": [
       "Svyazi",
       "CardIndex",
+      "knowledge-space",
       "Hybrid RAG",
       "Yodoca",
       "NGT Memory",
       "MemNet",
+      "agent-memory-mcp",
       "LiteLLM",
       "Auto AI Router",
       "AutoResearch",
       "Wikontic",
       "Firecrawl"
     ],
-    "wc": 7264,
+    "wc": 7273,
     "path": "docs/05-habr-projects/memory/memnet.md"
   }
 }

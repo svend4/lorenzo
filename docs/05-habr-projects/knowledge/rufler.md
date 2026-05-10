@@ -73,5 +73,12 @@ Rufler — самый лёгкий путь к multi-agent pipeline: не нуж
 
 - Контактный файл: [docs/contacts/zodigancode.md](../contacts/zodigancode.md)
 
+## Смотрите также
+
+- [mclaude](mclaude.md) — протокол координации агентов (Rufler: запуск; mclaude: координация)
+- [AgentFS](agentfs.md) — файловое ядро которым управляют Rufler-агенты
+- [agent-memory-mcp](../memory/agent-memory-mcp.md) — memory слой для агентов в Rufler-рое
+- [knowledge-space](knowledge-space.md) — база знаний для задач в Rufler YAML-конфиге
+
 ---
 _Создано: 2026-05-10_

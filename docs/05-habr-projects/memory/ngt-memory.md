@@ -57,10 +57,10 @@ Excavated analogous projects and synthesized unified collaboration-discovery sys
 ---
 
 **Смотрите также:**
-- [wikontic](docs/05-habr-projects/knowledge/wikontic.md)
-- [02-collaboration-partners](docs/05-habr-projects/02-collaboration-partners.md)
-- [NARRATIVE](docs/NARRATIVE.md)
-- [yodoca](docs/05-habr-projects/memory/yodoca.md)
+- [Yodoca: консолидация и забывание](yodoca.md)
+- [agent-memory-mcp + Memory OS](agent-memory-mcp.md)
+- [MemNet: исследовательская память](memnet.md)
+- [Wikontic: семантический граф](../knowledge/wikontic.md)
 
 
 

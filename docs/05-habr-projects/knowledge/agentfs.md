@@ -70,5 +70,12 @@ AgentFS превращает Obsidian-vault в операционную сист
 - Контактный файл: [docs/contacts/kksudo.md](../contacts/kksudo.md)
 - Упомянут в документах: 13 раз (наибольшее число упоминаний среди всех авторов)
 
+## Смотрите также
+
+- [knowledge-space](knowledge-space.md) — 785+ agent-first карточек как knowledge layer поверх AgentFS
+- [mclaude](mclaude.md) — координация нескольких AgentFS-сессий через locks/handoffs
+- [agent-memory-mcp](../memory/agent-memory-mcp.md) — typed MCP память совместимая с AgentFS persistent state
+- [Wikontic: семантический граф](wikontic.md) — семантический граф как knowledge layer
+
 ---
 _Создано: 2026-05-10_

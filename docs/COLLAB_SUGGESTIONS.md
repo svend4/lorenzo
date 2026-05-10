@@ -2,7 +2,7 @@
 
 <!-- summary -->
 > Автоматический поиск партнёрских проектов для: «svyazi спецификация прототипа memory orchestration security knowledge ingestion »
-> **Дата:** 2026-05-10 16:39  **Кандидатов:** 7
+> **Дата:** 2026-05-10 16:49  **Кандидатов:** 9
 
 ---
 
@@ -16,14 +16,20 @@
 
 ## 1. MemNet: исследовательская память
 
-**Релевантность:** `0.424`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+**Релевантность:** `0.426`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
 **Документ:** [`docs/05-habr-projects/memory/memnet.md`](docs/05-habr-projects/memory/memnet.md)
 
 **Теги:** memory, rag, orchestration, security, knowledge
-**Упомянутые проекты:** Svyazi, CardIndex, Hybrid RAG, Yodoca
+**Упомянутые проекты:** Svyazi, CardIndex, knowledge-space, Hybrid RAG
 
 > Для тебя, с твоим YiJing-Transformer + MoME + Q6, это особенно близко: STDP-граф над слотами + dream-фаза по сути решают ту же задачу, что MoME-роутинг по гиперкубу — выбор релевантных «экспертов» при
+
+**Связан с:**
+  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](docs/05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
 
 **Автор:** Antipozitive @Antipozitive  |  GitHub  |  ⬜ `not_started`
 **Контакт:** [`docs/contacts/antipozitive.md`](docs/contacts/antipozitive.md)
@@ -61,7 +67,7 @@ Lorenzo / svend4
 
 ## 2. Yodoca[^yodoca]: консолидация и забывание
 
-**Релевантность:** `0.346`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.325`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/05-habr-projects/memory/yodoca.md`](docs/05-habr-projects/memory/yodoca.md)
 
@@ -110,38 +116,44 @@ Lorenzo / svend4
 
 ---
 
-## 3. Rufler
+## 3. research-docs + LiteParse
 
-**Релевантность:** `0.286`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+**Релевантность:** `0.325`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/svyazi-2-0/components/rufler.md`](docs/svyazi-2-0/components/rufler.md)
+**Документ:** [`docs/05-habr-projects/knowledge/research-docs-liteparse.md`](docs/05-habr-projects/knowledge/research-docs-liteparse.md)
 
-**Теги:** orchestration, ingestion, architecture, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
+**Теги:** liteparse, pdf, forensic, bounding-boxes, visual-citations
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, LiteParse
 
-> Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
+> research-docs + LiteParse — система Forensic Document QA: вместо стандартного "ответить на вопрос по PDF" она создаёт HTML-отчёт с визуальными цитатами и `bounding boxes` на страницах исходного докуме
 
-**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/zodigancode.md`](docs/contacts/zodigancode.md)
+**Связан с:**
+  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
+
+**Автор:** nlaik @nlaik  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/nlaik.md`](docs/contacts/nlaik.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → zodigancode</summary>
+<summary>📧 Шаблон первого сообщения → nlaik</summary>
 
 ```
-**Кому:** zodigancode (@zodigancode)
+**Кому:** nlaik (@nlaik)
 **Тема:** Коллаборация по теме «svyazi спецификация прототипа memory orchestration security»
 
-Привет, zodigancode!
+Привет, nlaik!
 
-Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
+Изучила ваш проект **Svyazi, LiteParse** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов._
+Особенно ценна идея: _research-docs + LiteParse — система Forensic Document QA: вместо стандартного "ответить на вопрос по PDF" она создаёт HTML-отчёт с визуальными цитатам_
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
+- Как Svyazi, LiteParse решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -155,9 +167,111 @@ Lorenzo / svend4
 
 ---
 
-## 4. Wikontic: семантический граф
+## 4. AgentFS
 
-**Релевантность:** `0.266`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.268`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
+
+**Документ:** [`docs/05-habr-projects/knowledge/agentfs.md`](docs/05-habr-projects/knowledge/agentfs.md)
+
+**Теги:** agentfs, agent, filesystem, obsidian, knowledge
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
+
+> AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, скомпилированные конфиги, политики безопасности и CLI
+
+**Связан с:**
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/knowledge/mclaude.md](docs/05-habr-projects/knowledge/mclaude.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](docs/05-habr-projects/knowledge/wikontic.md) _references_
+
+**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/kksudo.md`](docs/contacts/kksudo.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → kksudo</summary>
+
+```
+**Кому:** kksudo (@kksudo)
+**Тема:** Коллаборация по теме «svyazi спецификация прототипа memory orchestration security»
+
+Привет, kksudo!
+
+Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, ско_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 5. NGT[^ngt] Memory: ассоциативный граф
+
+**Релевантность:** `0.253`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](docs/05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
+
+> ассоциативные связи в персистентной памяти LLM
+
+**Связан с:**
+  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/memory/memnet.md](docs/05-habr-projects/memory/memnet.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](docs/05-habr-projects/knowledge/wikontic.md) _references_
+
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](docs/contacts/spbmolot.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+
+```
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «svyazi спецификация прототипа memory orchestration security»
+
+Привет, spbmolot!
+
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 6. Wikontic: семантический граф
+
+**Релевантность:** `0.250`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](docs/05-habr-projects/knowledge/wikontic.md)
 
@@ -206,83 +320,44 @@ Lorenzo / svend4
 
 ---
 
-## 5. NGT[^ngt] Memory: ассоциативный граф
+## 7. Rufler
 
-**Релевантность:** `0.251`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+**Релевантность:** `0.247`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
-**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](docs/05-habr-projects/memory/ngt-memory.md)
+**Документ:** [`docs/05-habr-projects/knowledge/rufler.md`](docs/05-habr-projects/knowledge/rufler.md)
 
-**Теги:** memory, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, Wikontic
-
-> ассоциативные связи в персистентной памяти LLM
-
-**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/spbmolot.md`](docs/contacts/spbmolot.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → spbmolot</summary>
-
-```
-**Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «svyazi спецификация прототипа memory orchestration security»
-
-Привет, spbmolot!
-
-Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 6. AgentFS
-
-**Релевантность:** `0.235`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
-
-**Документ:** [`docs/05-habr-projects/knowledge/agentfs.md`](docs/05-habr-projects/knowledge/agentfs.md)
-
-**Теги:** agentfs, agent, filesystem, obsidian, knowledge
+**Теги:** rufler, yaml, declarative, orchestration, agent-swarm
 **Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
 
-> AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, скомпилированные конфиги, политики безопасности и CLI
+> Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`)
 
-**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/kksudo.md`](docs/contacts/kksudo.md)
+**Связан с:**
+  - [docs/05-habr-projects/knowledge/mclaude.md](docs/05-habr-projects/knowledge/mclaude.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
+
+**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/zodigancode.md`](docs/contacts/zodigancode.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → kksudo</summary>
+<summary>📧 Шаблон первого сообщения → zodigancode</summary>
 
 ```
-**Кому:** kksudo (@kksudo)
+**Кому:** zodigancode (@zodigancode)
 **Тема:** Коллаборация по теме «svyazi спецификация прототипа memory orchestration security»
 
-Привет, kksudo!
+Привет, zodigancode!
 
-Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
+Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, ско_
+Особенно ценна идея: _Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAM_
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
+- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -296,16 +371,22 @@ Lorenzo / svend4
 
 ---
 
-## 7. agent-memory-mcp + Memory OS
+## 8. agent-memory-mcp + Memory OS
 
-**Релевантность:** `0.179`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 0
+**Релевантность:** `0.210`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
 
 **Документ:** [`docs/05-habr-projects/memory/agent-memory-mcp.md`](docs/05-habr-projects/memory/agent-memory-mcp.md)
 
 **Теги:** memory, mcp, agent, typed-memory, sqlite
-**Упомянутые проекты:** Svyazi, CardIndex, Yodoca, NGT Memory
+**Упомянутые проекты:** Svyazi, CardIndex, AgentFS, Yodoca
 
 > `agent-memory-mcp` — типизированный MCP-сервер памяти для AI-агентов с поддержкой четырёх типов записей: `episodic`, `semantic`, `procedural`, `working`. Хранение на SQLite + WAL обеспечивает локальну
+
+**Связан с:**
+  - [docs/05-habr-projects/memory/yodoca.md](docs/05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](docs/05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/memnet.md](docs/05-habr-projects/memory/memnet.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
 
 **Автор:** VitaliySemenov @moshael  |  GitHub  |  ⬜ `not_started`
 **Контакт:** [`docs/contacts/vitalysemenov.md`](docs/contacts/vitalysemenov.md)
@@ -341,6 +422,57 @@ Lorenzo / svend4
 
 ---
 
+## 9. mclaude
+
+**Релевантность:** `0.186`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 4
+
+**Документ:** [`docs/05-habr-projects/knowledge/mclaude.md`](docs/05-habr-projects/knowledge/mclaude.md)
+
+**Теги:** mclaude, multi-agent, orchestration, claude-code, parallel
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
+
+> mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового агента»: несколько Claude-экземпляров могут одновремен
+
+**Связан с:**
+  - [docs/05-habr-projects/knowledge/knowledge-space.md](docs/05-habr-projects/knowledge/knowledge-space.md) _references_
+  - [docs/05-habr-projects/knowledge/rufler.md](docs/05-habr-projects/knowledge/rufler.md) _references_
+  - [docs/05-habr-projects/knowledge/agentfs.md](docs/05-habr-projects/knowledge/agentfs.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](docs/05-habr-projects/memory/agent-memory-mcp.md) _references_
+
+**Автор:** AnastasiyaW @AnastasiyaW  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/anastasiyaw.md`](docs/contacts/anastasiyaw.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → AnastasiyaW</summary>
+
+```
+**Кому:** AnastasiyaW (@AnastasiyaW)
+**Тема:** Коллаборация по теме «svyazi спецификация прототипа memory orchestration security»
+
+Привет, AnastasiyaW!
+
+Изучила ваш проект **Svyazi, knowledge-space, mclaude** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового аген_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, knowledge-space, mclaude решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
 ## Следующие шаги
 
 1. Изучить топ-3 кандидата и выбрать приоритет
@@ -358,4 +490,4 @@ Lorenzo / svend4
    python scripts/improve_collab_finder.py --query "svyazi спецификация прототипа memory orchestration"
    ```
 
-_Сгенерировано: 2026-05-10 16:39  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-10 16:49  |  Алгоритм: TF-IDF + BM25 + граф_

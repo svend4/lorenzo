@@ -65,7 +65,14 @@ mclaude закрывает слой "multi-agent coordination" в Svyazi 2.0 —
 ## Контакт
 
 - Контактный файл: [docs/contacts/anastasiyaw.md](../contacts/anastasiyaw.md)
-- Также автор: knowledge-space (785+ карточек, MIT)
+- Также автор: [knowledge-space](knowledge-space.md) (785+ карточек, MIT)
+
+## Смотрите также
+
+- [Rufler](rufler.md) — YAML-декларативный запуск роя агентов (альтернативный подход к оркестрации)
+- [AgentFS](agentfs.md) — файловое ядро для одного агента, mclaude координирует несколько
+- [knowledge-space](knowledge-space.md) — база знаний, которую mclaude агенты читают параллельно
+- [agent-memory-mcp](../memory/agent-memory-mcp.md) — shared memory через MCP между сессиями
 
 ---
 _Создано: 2026-05-10_

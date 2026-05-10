@@ -346,10 +346,10 @@ Self-aware MCP server vuguzum ( https://habr.com/ru/articles/1007122/ , github.c
 ---
 
 **Смотрите также:**
-- [00-intro](docs/04-ai-collaborations/00-intro.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [TABLES](docs/TABLES.md)
-- [CONCEPTS](docs/CONCEPTS.md)
+- [Yodoca: консолидация и забывание](yodoca.md)
+- [NGT Memory: ассоциативный граф](ngt-memory.md)
+- [agent-memory-mcp + Memory OS](agent-memory-mcp.md)
+- [knowledge-space](../knowledge/knowledge-space.md)
 
 
 

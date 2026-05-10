@@ -60,5 +60,12 @@ knowledge-space закрывает слой "нормализованного з
 - Контактный файл: [docs/contacts/sonia-black.md](../contacts/sonia-black.md)
 - Упомянут в документах: 11 раз
 
+## Смотрите также
+
+- [AgentFS](agentfs.md) — файловое ядро, поверх которого knowledge-space размещается
+- [mclaude](mclaude.md) — координация агентов, читающих knowledge-space параллельно
+- [research-docs-liteparse](research-docs-liteparse.md) — ingestion pipeline для пополнения knowledge-space
+- [Wikontic: семантический граф](wikontic.md) — граф-дополнение к reference-картам knowledge-space
+
 ---
 _Создано: 2026-05-10_
