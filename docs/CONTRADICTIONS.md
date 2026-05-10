@@ -421,3 +421,14 @@ _Обновлено: 2026-05-10_
 
 ---
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [08-что-это-продолжение-добавляет](04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+

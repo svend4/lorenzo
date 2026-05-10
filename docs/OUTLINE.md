@@ -12000,3 +12000,14 @@ _Слов: 193_
 - [`162-8-risk-analysis`](02-anthropic-vacancies/162-8-risk-analysis.md)
 - _... ещё 26_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [TABLES](TABLES.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [QUESTIONS](QUESTIONS.md)
+

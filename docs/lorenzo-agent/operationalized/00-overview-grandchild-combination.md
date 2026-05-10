@@ -1,5 +1,10 @@
 # Что такое «внуковая» комбинация — operationalized Lorenzo
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Hybrid RAG, Graph RAG

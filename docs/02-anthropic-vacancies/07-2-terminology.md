@@ -1,5 +1,16 @@
 # 2. Terminology
 
+<!-- toc-auto -->
+## Contents
+
+- [2. Terminology](#2-terminology)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

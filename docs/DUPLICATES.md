@@ -427,3 +427,14 @@
 _...и ещё 389 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SUMMARIES](SUMMARIES.md)
+

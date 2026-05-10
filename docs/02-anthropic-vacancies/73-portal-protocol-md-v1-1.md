@@ -1,5 +1,16 @@
 # PORTAL-PROTOCOL.md v1.1
 
+<!-- toc-auto -->
+## Contents
+
+- [PORTAL-PROTOCOL.md v1.1](#portal-protocolmd-v11)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Status:** Draft — пересмотрен под текущую реализацию v1.1
 

@@ -1,5 +1,10 @@
 # Appendix B: Decision Framework — When to Build Type 1 First
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 

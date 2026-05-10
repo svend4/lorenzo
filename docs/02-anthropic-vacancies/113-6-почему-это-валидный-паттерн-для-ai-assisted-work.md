@@ -1,5 +1,16 @@
 # 6. Почему это валидный паттерн для AI-assisted workflows
 
+<!-- toc-auto -->
+## Contents
+
+- [6. Почему это валидный паттерн для AI-assisted workflows](#6-почему-это-валидный-паттерн-для-ai-assisted-workflows)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Традиционная software engineering оптимизировалась против
 

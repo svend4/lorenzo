@@ -1,5 +1,10 @@
 # Индекс цитирования URL
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Уникальных URL: **151** | Отфильтровано (≥1): **151**
 **Проекты:** AgentFS, knowledge-space, Yodoca, Wikontic
@@ -229,4 +234,15 @@ _Обновлено: 2026-05-10_
 - `docs/TABLES.md`
 - `docs/ai-collaborations/candidates/01-three-key-candidates.md`
 - ... и ещё 7
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LINKS](LINKS.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [42-author-contact](02-anthropic-vacancies/42-author-contact.md)
+- [25-13-reference-implementation](02-anthropic-vacancies/25-13-reference-implementation.md)
 

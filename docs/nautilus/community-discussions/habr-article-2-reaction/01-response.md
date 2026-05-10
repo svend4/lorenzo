@@ -336,3 +336,14 @@ Roadmap для гильдийных коллег в OKWF
 Это полезный артефакт, который complement существующие пять документов и делает архитектуру более полной.
 
 Хотите, чтобы я написал этот sixth paper в следующем сообщении, или предпочтёте другое направление? Возможные альтернативы: проработать конкретный design Профессионального Коллеги для SGB-domain (более applied), переосмыслить OKWF concept document с новой типологией, или просто остановиться и дать материалу отлежаться.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-habr-2](00-question-habr-2.md)
+- [12-zaklyuchenie](../../representative-agent-layer-ru/12-zaklyuchenie.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](../../../02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [02-what-was-missing-in-paper-6](../../composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
+

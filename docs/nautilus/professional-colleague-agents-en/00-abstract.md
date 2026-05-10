@@ -1,5 +1,10 @@
 # Professional Colleague Agents
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
@@ -86,3 +91,14 @@ their daily work.
 11. **Call for Collaboration**
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [12-closing](12-closing.md)
+- [09-relationship-other-agents](09-relationship-other-agents.md)
+- [01-five-type-typology](01-five-type-typology.md)
+- [210-abstract](../../02-anthropic-vacancies/210-abstract.md)
+

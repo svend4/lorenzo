@@ -1,5 +1,16 @@
 # 15. Glossary of Examples
 
+<!-- toc-auto -->
+## Contents
+
+- [15. Glossary of Examples](#15-glossary-of-examples)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > В качестве иллюстраций используется экосистема `svend4` с тремя
 

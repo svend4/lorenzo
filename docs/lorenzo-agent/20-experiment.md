@@ -1,5 +1,16 @@
 # Final note: Ты — experiment
 
+<!-- toc-auto -->
+## Contents
+
+- [Final note: Ты — experiment](#final-note-ты-experiment)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 

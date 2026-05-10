@@ -1,38 +1,18 @@
 # 4. Passport (`passport.md`)
-<!-- tags: anthropic -->
-
 
 <!-- toc-auto -->
+## Contents
+
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [4. Passport (passport.md)](#4-passport-passportmd)
-  - [4.1. Purpose](#41-purpose)
-  - [4.2. Recommended Structure](#42-recommended-structure)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [4. Passport (passport.md)](#4-passport-passportmd)
-  - [4.1. Purpose](#41-purpose)
-  - [4.2. Recommended Structure](#42-recommended-structure)
-## Contents
-
-- [Contents](#contents)
-- [4. Passport (passport.md)](#4-passport-passportmd)
-  - [4.1. Purpose](#41-purpose)
-  - [4.2. Recommended Structure](#42-recommended-structure)
-## Contents
-
-- [4. Passport (passport.md)](#4-passport-passportmd)
-  - [4.1. Purpose](#41-purpose)
-  - [4.2. Recommended Structure](#42-recommended-structure)
+<!-- alert-added -->
+<!-- tags: anthropic -->
 
 
 <!-- summary -->

@@ -3,25 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-  - [1.5. Changes from v1.0](#15-changes-from-v10)
-## Contents
-
-- [Contents](#contents)
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-  - [1.5. Changes from v1.0](#15-changes-from-v10)
-## Contents
-
 - [1. Introduction](#1-introduction)
   - [1.1. Motivation](#11-motivation)
   - [1.2. Design Goals](#12-design-goals)
@@ -29,6 +10,11 @@
   - [1.4. Terminology](#14-terminology)
   - [1.5. Changes from v1.0](#15-changes-from-v10)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

@@ -1,5 +1,10 @@
 # Отчёт орфографии
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > python scripts/improve_spellcheck.py --fix
 **Проекты:** knowledge-space, MemNet

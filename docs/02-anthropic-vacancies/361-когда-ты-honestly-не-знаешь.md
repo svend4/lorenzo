@@ -1,4 +1,10 @@
 # Когда ты Honestly не знаешь
+
+<!-- toc-auto -->
+## Contents
+
+- [Когда ты Honestly не знаешь](#когда-ты-honestly-не-знаешь)
+
 <!-- tags: architecture -->
 
 

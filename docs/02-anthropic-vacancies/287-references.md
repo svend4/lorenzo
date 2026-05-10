@@ -1,5 +1,20 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Threading and Annotation](#threading-and-annotation)
+  - [Knowledge Management](#knowledge-management)
+  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
+  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -7,47 +22,6 @@
 > 🔧 **Подход:** (Zettelkasten method, foundational for modern personal knowledge management.) - Andy Matuschak (ongoing).
 > 🏷️ **Ключевые слова:** `anthropic`, `references`, `vacancies`, `annotation`, `knowledge`, `management`, `documents`, `series`
 >
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [References](#references)
-  - [Threading and Annotation](#threading-and-annotation)
-  - [Knowledge Management](#knowledge-management)
-  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
-  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [References](#references)
-  - [Threading and Annotation](#threading-and-annotation)
-  - [Knowledge Management](#knowledge-management)
-  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
-  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
-## Contents
-
-- [Contents](#contents)
-- [References](#references)
-  - [Threading and Annotation](#threading-and-annotation)
-  - [Knowledge Management](#knowledge-management)
-  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
-  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
-## Contents
-
-- [References](#references)
-  - [Threading and Annotation](#threading-and-annotation)
-  - [Knowledge Management](#knowledge-management)
-  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
-  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
 
 
 <!-- summary -->

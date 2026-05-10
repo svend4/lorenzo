@@ -3,23 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
-- [Состояние компонентов](#состояние-компонентов)
-- [Метрики качества](#метрики-качества)
-- [Следующий шаг](#следующий-шаг)
-- [Связанные документы](#связанные-документы)
-## Contents
-
-- [Contents](#contents)
-- [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
-- [Состояние компонентов](#состояние-компонентов)
-- [Метрики качества](#метрики-качества)
-- [Следующий шаг](#следующий-шаг)
-- [Связанные документы](#связанные-документы)
-## Contents
-
 - [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
 - [Состояние компонентов](#состояние-компонентов)
 - [Метрики качества](#метрики-качества)
@@ -103,3 +86,14 @@ cat docs/contacts/anastasiyaw.md
 - [Go/No-Go Scoring](SCORING.md)
 - [Health Dashboard](HEALTH.md)
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [ONBOARDING](ONBOARDING.md)
+- [INDEX](INDEX.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

@@ -1,5 +1,16 @@
 # 16. MCP Extension (Informative)
 
+<!-- toc-auto -->
+## Contents
+
+- [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 

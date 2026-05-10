@@ -1,4 +1,10 @@
 # Когда сомневаешься — escalate к Max
+
+<!-- toc-auto -->
+## Contents
+
+- [Когда сомневаешься — escalate к Max](#когда-сомневаешься-escalate-к-max)
+
 <!-- tags: architecture -->
 
 

@@ -1,5 +1,10 @@
 # Table of Contents
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > 1. **The Five-Type Typology of Principal-Side Agents**
 

@@ -1,5 +1,16 @@
 # PROFESSIONAL COLLEAGUE AGENTS.md
 
+<!-- toc-auto -->
+## Contents
+
+- [PROFESSIONAL COLLEAGUE AGENTS.md](#professional-colleague-agentsmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)
 

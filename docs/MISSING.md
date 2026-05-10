@@ -7,6 +7,11 @@
 - [Рекомендации](#рекомендации)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Анализ покрытия ключевых тем и проектов в docs/.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

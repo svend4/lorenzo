@@ -445,3 +445,14 @@ _...ещё 455 упоминаний в 2026_
   Building в 2028 risks being late to wave.  
   `09-section-9-timeliness.md`
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+

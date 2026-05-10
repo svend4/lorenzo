@@ -67,6 +67,10 @@ def detect_callout(text: str) -> tuple[str, str] | None:
         return ("IMPORTANT", "Ключевой документ для понимания архитектуры. "
                 "Рекомендуется прочитать в первую очередь.")
 
+    # Fallback — generic NOTE for any document
+    return ("NOTE", "Документ создан на основе исследования. "
+            "Ссылки ведут на связанные материалы.")
+
     return None
 
 

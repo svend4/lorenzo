@@ -1,5 +1,11 @@
 # Acknowledgments
 
+<!-- toc-auto -->
+## Contents
+
+- [Acknowledgments](#acknowledgments)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

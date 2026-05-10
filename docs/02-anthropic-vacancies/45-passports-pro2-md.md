@@ -1,5 +1,16 @@
 # passports/pro2.md
 
+<!-- toc-auto -->
+## Contents
+
+- [passports/pro2.md](#passportspro2md)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Семантический угол экосистемы svend4**
 

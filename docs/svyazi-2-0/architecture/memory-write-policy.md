@@ -1,5 +1,16 @@
 # Memory Write Policy
 
+<!-- toc-auto -->
+## Contents
+
+- [Минимальные поля](#минимальные-поля)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
 **Проекты:** Yodoca, NGT Memory, agent-memory-mcp

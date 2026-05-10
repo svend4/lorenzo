@@ -1,5 +1,16 @@
 # Closing
 
+<!-- toc-auto -->
+## Contents
+
+- [Closing](#closing)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
@@ -46,3 +57,14 @@ The infrastructure question deserves attention. It does not
 need to be solved before other work proceeds.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-what-not-solved](10-what-not-solved.md)
+- [05-why-not-built](05-why-not-built.md)
+- [08-recursive-insight](08-recursive-insight.md)
+- [285-closing](../../02-anthropic-vacancies/285-closing.md)
+

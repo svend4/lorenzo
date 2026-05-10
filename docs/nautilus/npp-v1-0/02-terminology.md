@@ -1,5 +1,16 @@
 # 2. Terminology
 
+<!-- toc-auto -->
+## Contents
+
+- [2. Terminology](#2-terminology)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
@@ -59,3 +70,14 @@ human-readable описание: что хранит, какая философ�
 `nautilus.json` поле `protocol_version`.
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-reference-implementation](13-reference-implementation.md)
+- [10-query-result](10-query-result.md)
+- [05-compatibility-levels](05-compatibility-levels.md)
+- [07-2-terminology](../../02-anthropic-vacancies/07-2-terminology.md)
+

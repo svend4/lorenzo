@@ -3,26 +3,16 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [12. Versioning Policy](#12-versioning-policy)
-  - [12.1. Semver](#121-semver)
-  - [12.2. Version in Registry](#122-version-in-registry)
-  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
-## Contents
-
-- [Contents](#contents)
-- [12. Versioning Policy](#12-versioning-policy)
-  - [12.1. Semver](#121-semver)
-  - [12.2. Version in Registry](#122-version-in-registry)
-  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
-## Contents
-
 - [12. Versioning Policy](#12-versioning-policy)
   - [12.1. Semver](#121-semver)
   - [12.2. Version in Registry](#122-version-in-registry)
   - [12.3. Breaking Changes Process](#123-breaking-changes-process)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

@@ -82,11 +82,30 @@ def _build_toc(headings: list[tuple[int, str]]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _strip_toc_blocks(text: str) -> str:
+    """Удаляет блоки TOC (## Contents + bullet list) перед извлечением заголовков."""
+    # Remove toc-auto marker and the ## Contents block that follows
+    text = re.sub(
+        r'<!-- toc-auto -->\s*\n## Contents\n(?:(?:[ \t]*\n)*(?:[ \t]*[-*] \[.*\].*\n|[ \t]+[-*] \[.*\].*\n|[ \t]*\n))*',
+        '',
+        text
+    )
+    # Also remove bare ## Contents + bullet list (from older runs without the marker)
+    text = re.sub(
+        r'^## Contents\n(?:(?:[ \t]*\n)*(?:[ \t]*[-*] \[.*\].*\n|[ \t]+[-*] \[.*\].*\n|[ \t]*\n))+',
+        '',
+        text, flags=re.MULTILINE
+    )
+    return text
+
+
 def _extract_headings(text: str, max_level: int) -> list[tuple[int, str]]:
     """Извлекает заголовки H2..Hmax (H1 пропускаем — это заголовок документа)."""
+    # Strip existing TOC blocks so we don't include ## Contents in the new TOC
+    clean_text = _strip_toc_blocks(text)
     result = []
     in_code = False
-    for line in text.split('\n'):
+    for line in clean_text.split('\n'):
         if line.startswith('```'):
             in_code = not in_code
         if in_code:
@@ -120,12 +139,14 @@ def process_file(path: Path) -> bool:
     toc_block = _build_toc(headings)
 
     if _has_toc(text) and TOC_MARKER in text:
-        # Обновляем существующий TOC
-        new_text = re.sub(
-            rf'{re.escape(TOC_MARKER)}.*?(?=\n##[^#]|\n#[^#]|\Z)',
-            toc_block.strip(),
-            text, flags=re.DOTALL,
-        )
+        # Strip all existing TOC blocks, then insert fresh one
+        stripped = _strip_toc_blocks(text)
+        stripped = stripped.replace(TOC_MARKER + "\n", "").replace(TOC_MARKER, "")
+        h1_m = re.search(r'^#\s+.+$', stripped, re.MULTILINE)
+        if h1_m:
+            new_text = stripped[:h1_m.end()] + "\n\n" + toc_block + stripped[h1_m.end():]
+        else:
+            new_text = toc_block + "\n" + stripped
         if new_text == text:
             return False
     elif _has_toc(text):

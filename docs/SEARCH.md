@@ -1082,6 +1082,7 @@
 - [READING_TIME](obsidian/READING_TIME.md)
 - [SOURCE_MAP](obsidian/SOURCE_MAP.md)
 - [READING_ORDER](obsidian/READING_ORDER.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
 
 
 <!-- backlinks -->

@@ -218,3 +218,14 @@ _→ [179-10-open-questions](02-anthropic-vacancies/179-10-open-questions.md)_
 
 _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [179-10-open-questions](02-anthropic-vacancies/179-10-open-questions.md)
+- [10-open-questions](nautilus/representative-agent-layer-en/10-open-questions.md)
+- [CLUSTERS](CLUSTERS.md)
+- [SEARCH](SEARCH.md)
+

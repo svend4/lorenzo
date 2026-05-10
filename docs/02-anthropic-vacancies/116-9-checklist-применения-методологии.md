@@ -1,5 +1,15 @@
 # 9. Checklist применения методологии
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Checklist применения методологии](#9-checklist-применения-методологии)
+  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
+  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
+  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
+  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -8,43 +18,6 @@
 > ✅ **Результат:** Во время Фазы A и B - Агенты работают в разных ветках (не в одной) - Prompt'ы для A и B идентичны (иначе это не независимое воспроизведение) - Каждый агент не видит результат друго
 > 🏷️ **Ключевые слова:** `checklist`, `применения`, `методологии`, `перед`, `время`, `документ`, `началом`, `phase`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [9. Checklist применения методологии](#9-checklist-применения-методологии)
-  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
-  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
-  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
-  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [9. Checklist применения методологии](#9-checklist-применения-методологии)
-  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
-  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
-  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
-  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
-## Contents
-
-- [Contents](#contents)
-- [9. Checklist применения методологии](#9-checklist-применения-методологии)
-  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
-  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
-  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
-  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
-## Contents
-
-- [9. Checklist применения методологии](#9-checklist-применения-методологии)
-  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
-  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
-  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
-  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
 
 
 > [!WARNING]

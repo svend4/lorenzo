@@ -1327,3 +1327,16 @@ _Обновлено: 2026-05-10_
 - `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/319-acknowledgments.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/320-references.md` — https://github.com/svend4/ingit
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [SEARCH](SEARCH.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+

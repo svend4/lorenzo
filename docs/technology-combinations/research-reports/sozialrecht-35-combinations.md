@@ -7,6 +7,11 @@
 - [Артефакт документа](#артефакт-документа)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 35 Previously Identified Combinations — Focus on the German *Sozialrecht* Domain»
 

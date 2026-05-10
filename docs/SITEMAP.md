@@ -996,3 +996,14 @@ _`docs/templates/` — 23 файлов_
 | 21 | [Tech Radar: [Название]](docs/templates/tech-radar-entry.md) | 224 |
 | 22 | [[имя нового шаблона]](docs/templates/template-of-templates.md) | 319 |
 | 23 | [Еженедельный дайджест: [период]](docs/templates/weekly-digest.md) | 193 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+

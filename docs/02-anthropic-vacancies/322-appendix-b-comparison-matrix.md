@@ -1,5 +1,16 @@
 # Appendix B: Comparison Matrix
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix B: Comparison Matrix](#appendix-b-comparison-matrix)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

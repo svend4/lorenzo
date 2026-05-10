@@ -1,5 +1,20 @@
 # 1. Introduction
 
+<!-- toc-auto -->
+## Contents
+
+- [1. Introduction](#1-introduction)
+  - [1.1. Motivation](#11-motivation)
+  - [1.2. Design Goals](#12-design-goals)
+  - [1.3. Non-Goals](#13-non-goals)
+  - [1.4. Terminology](#14-terminology)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -7,47 +22,6 @@
 > 🔧 **Подход:** Homogenization: разные типы знаний (методология, семантика, символизм) принудительно приводятся к одной структуре, что уменьшает выразительность.
 > 🏷️ **Ключевые слова:** `introduction`, `goals`, `anthropic`, `vacancies`, `проекте`, `federation`, `merging`, `motivation`
 >
-
-
-<!-- toc-auto -->
-
-> [!TIP]
-> Обзорный документ. Рекомендуется читать перед погружением в детали.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-## Contents
-
-- [Contents](#contents)
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
-## Contents
-
-- [1. Introduction](#1-introduction)
-  - [1.1. Motivation](#11-motivation)
-  - [1.2. Design Goals](#12-design-goals)
-  - [1.3. Non-Goals](#13-non-goals)
-  - [1.4. Terminology](#14-terminology)
 
 
 <!-- summary -->

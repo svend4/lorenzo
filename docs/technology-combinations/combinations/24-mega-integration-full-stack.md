@@ -1,5 +1,10 @@
 # Комбинация 24: MEGA-INTEGRATION: Full Stack
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs

@@ -1,5 +1,16 @@
 # INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md
 
+<!-- toc-auto -->
+## Contents
+
+- [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](#ingit-as-cowork-native-workspace-substratemd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.11)
 

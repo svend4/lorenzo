@@ -1,5 +1,16 @@
 # OPEN KNOWLEDGE WORK FOUNDATION.md
 
+<!-- toc-auto -->
+## Contents
+
+- [OPEN KNOWLEDGE WORK FOUNDATION.md](#open-knowledge-work-foundationmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md) (сходство 0.25)
 

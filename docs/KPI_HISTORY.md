@@ -7,6 +7,10 @@
 - [История](#история)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- tags: meta, kpi, metrics -->
 
@@ -46,4 +50,15 @@ _Последнее обновление: 2026-05-10 · Снапшотов в и
 _История хранится в `docs/kpi_history.json`._
 
 _Запускать регулярно для получения трендов._
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TAGS](TAGS.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [55-passports-meta-md](02-anthropic-vacancies/55-passports-meta-md.md)
 

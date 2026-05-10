@@ -1,5 +1,10 @@
 # Claude hat geantwortet: Очень интересный вопрос.
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — под какой сценарий больше всего подходит — творчество людей объединяется.
 **Проекты:** CardIndex, Wikontic
@@ -495,3 +500,14 @@ Option E: Discuss ethical considerations подробнее — что нужн�
 Option F: Pause exploration — это substantial concept, нужно time to digest
 
 Что вам useful right now?
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-scenario](00-question-scenario.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
+- [01-completing-loop](../../nautilus/transmission-box/01-completing-loop.md)
+

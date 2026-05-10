@@ -257,3 +257,14 @@ Risk Analysis: добавить risks identified выше
 Какой подход resonates? Integration в OKWF document, или separate short paper?
 
 И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из вашего опыта — самое сильное evidence. Если второе, OKWF может быть тестируемая первый use case, prototype, который validates whole approach.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-voiceless](00-question-voiceless.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+- [01-response-en](../agent-changes-reality/01-response-en.md)
+- [01-three-related-themes](../../supply-demand/01-three-related-themes.md)
+

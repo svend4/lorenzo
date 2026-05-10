@@ -1723,3 +1723,14 @@ _Обновлено: 2026-05-10_
 - 📘 Средне: 296 документов
 - 📕 Очень долго: 50 документов
 - 📙 Долго: 38 документов
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [SEARCH](SEARCH.md)
+

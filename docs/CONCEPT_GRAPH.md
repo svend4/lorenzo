@@ -7,6 +7,11 @@
 - [Топ концептов по связям](#топ-концептов-по-связям)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Концептов: **40** | Связей: **779** (мин. вес: 2)
 **Проекты:** Svyazi
@@ -165,3 +170,14 @@ graph TD
 | `layer` | 167 | 1813 | architecture |
 | `сходство` | 195 | 1782 | other |
 | `protocol` | 144 | 1772 | architecture |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [15-glossary](nautilus/npp-v1-0/15-glossary.md)
+- [13-reference-implementation](nautilus/npp-v1-0/13-reference-implementation.md)
+- [10-query-result](nautilus/npp-v1-0/10-query-result.md)
+- [11-relevance-ranking](nautilus/npp-v1-1/11-relevance-ranking.md)
+

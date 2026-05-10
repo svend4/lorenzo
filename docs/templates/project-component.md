@@ -1,5 +1,10 @@
 # [Название компонента]
 
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -33,3 +38,14 @@
 
 ---
 _Создано: 2026-05-10_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [contact-outreach](contact-outreach.md)
+- [ensemble](ensemble.md)
+- [tech-pair](tech-pair.md)
+- [cutcode](../contacts/cutcode.md)
+

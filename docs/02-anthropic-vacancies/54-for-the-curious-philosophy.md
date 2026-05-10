@@ -1,5 +1,16 @@
 # For the Curious: Philosophy
 
+<!-- toc-auto -->
+## Contents
+
+- [For the Curious: Philosophy](#for-the-curious-philosophy)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Q6-гиперкуб выбран не случайно. Он одновременно:
 

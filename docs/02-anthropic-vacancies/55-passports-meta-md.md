@@ -1,5 +1,16 @@
 # passports/meta.md
 
+<!-- toc-auto -->
+## Contents
+
+- [passports/meta.md](#passportsmetamd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Символьный угол экосистемы svend4**
 

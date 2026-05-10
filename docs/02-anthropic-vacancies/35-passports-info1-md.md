@@ -1,5 +1,16 @@
 # passports/info1.md
 
+<!-- toc-auto -->
+## Contents
+
+- [passports/info1.md](#passportsinfo1md)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Методологический угол экосистемы svend4**
 

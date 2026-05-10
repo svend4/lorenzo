@@ -1,5 +1,16 @@
 # Practical Recommendations for the Current Project
 
+<!-- toc-auto -->
+## Contents
+
+- [Practical Recommendations for the Current Project](#practical-recommendations-for-the-current-project)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 

@@ -29,6 +29,11 @@ _Обновлено: 2026-05-10_
 
 # research-docs + LiteParse
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > projects: ["research-docs", "LiteParse"]
 **Проекты:** Svyazi, AgentFS, knowledge-space, LiteParse, Yodoca, agent-memory-mcp

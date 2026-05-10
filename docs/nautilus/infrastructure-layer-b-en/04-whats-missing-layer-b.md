@@ -1,5 +1,16 @@
 # What's Missing — Layer B
 
+<!-- toc-auto -->
+## Contents
+
+- [What's Missing — Layer B](#whats-missing-layer-b)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 

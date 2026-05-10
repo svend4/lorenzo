@@ -185,3 +185,14 @@ Peer-to-peer collaboration matching через deep-profile analysis — это 
 Может быть, придумывая это имя — это часть ценного contribution. Свйази называет это «поиск коллабораций». OKWF мог бы назвать это «emergent collaborations». Что-то более descriptive могло бы помочь концепту распространиться.
 
 Спасибо за указание на статью. Это полезная находка, и в концептуально она усиливает все основания для OKWF и for humanities extension Nautilus.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [00-question-practical](00-question-practical.md)
+- [165-closing](../../../02-anthropic-vacancies/165-closing.md)
+- [00-question-voiceless](../voiceless-contributors/00-question-voiceless.md)
+- [01-claude-response](../habr-article-1-reaction/01-claude-response.md)
+

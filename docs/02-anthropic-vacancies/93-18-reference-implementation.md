@@ -3,25 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [18. Reference Implementation](#18-reference-implementation)
-  - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в-1)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы-1)
-## Contents
-
-- [Contents](#contents)
-- [18. Reference Implementation](#18-reference-implementation)
-  - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в-1)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы-1)
-## Contents
-
 - [18. Reference Implementation](#18-reference-implementation)
   - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
 - [Упоминается в](#упоминается-в)
@@ -29,6 +10,11 @@
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

@@ -1,5 +1,10 @@
 # Комбинация 8: Conductor × adversarial-review × Auto AI Router
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, Yodoca, Auto AI Router

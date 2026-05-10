@@ -542,3 +542,14 @@ brew install gh  # macOS
 python scripts/improve_github_issues.py --create --label docs,automation
 ```
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-checklist](nautilus/review-methodology/10-checklist.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [CONTACTS](CONTACTS.md)
+

@@ -1,5 +1,10 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Автоматический поиск партнёрских проектов для: «агент с памятью консолидация»
 > **Дата:** 2026-05-10 17:37  **Кандидатов:** 3
@@ -198,3 +203,14 @@ Lorenzo / svend4
    ```
 
 _Сгенерировано: 2026-05-10 17:37  |  Алгоритм: TF-IDF + BM25 + граф_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [yodoca](svyazi-2-0/components/yodoca.md)
+- [wikontic](05-habr-projects/knowledge/wikontic.md)
+- [NETWORK](NETWORK.md)
+- [ngt-memory](svyazi-2-0/components/ngt-memory.md)
+

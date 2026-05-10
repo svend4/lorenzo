@@ -1,5 +1,16 @@
 # Mega‑Stack 3.0 — with DSL & AST
 
+<!-- toc-auto -->
+## Contents
+
+- [New capabilities](#new-capabilities)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 30: MEGA‑STACK 3.0 with DSL & AST».
 **Проекты:** Hybrid RAG

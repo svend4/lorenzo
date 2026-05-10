@@ -1,5 +1,16 @@
 # Существующий landscape collaborators (твоя working knowledge)
 
+<!-- toc-auto -->
+## Contents
+
+- [Существующий landscape collaborators (твоя working knowledge)](#существующий-landscape-collaborators-твоя-working-knowledge)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

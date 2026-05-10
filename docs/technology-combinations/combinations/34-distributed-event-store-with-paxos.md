@@ -1,5 +1,10 @@
 # Комбинация 34: Distributed Event Store with Paxos
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 
 <!-- tags: technology, distributed, consensus -->
 

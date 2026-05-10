@@ -1,5 +1,16 @@
 # REVIEW_METHODOLOGY.md
 
+<!-- toc-auto -->
+## Contents
+
+- [REVIEW_METHODOLOGY.md](#review_methodologymd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Статус:** Активно применяется в проекте svend4/nautilus
 

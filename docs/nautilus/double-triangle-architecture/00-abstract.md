@@ -1,5 +1,10 @@
 # Abstract — The Double-Triangle Architecture
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».
 
@@ -85,3 +90,14 @@ unsolved issues.
 8. **Call to Action**
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-why-single-triangle-incomplete](01-why-single-triangle-incomplete.md)
+- [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
+- [08-call-to-action](08-call-to-action.md)
+- [136-abstract](../../02-anthropic-vacancies/136-abstract.md)
+

@@ -1,4 +1,19 @@
 # 5. Compatibility Levels
+
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Linked](#level-2-linked)
+  - [Level 3 — Interactive](#level-3-interactive)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: memory, ingestion, anthropic, collaboration -->
 
 
@@ -12,43 +27,6 @@
 > 🎯 **Проблема:** Compatibility Levels(5-compatibility-levels) - Level 0 — Discoverable(level-0-discoverable) - Level 1 — Readable(level-1-readable) - Level 2 — Linked(level-2-linked) - Level 3 — In
 > 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `portalentry`, `anthropic`, `vacancies`, `fallback`, `требования`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Linked](#level-2-linked)
-  - [Level 3 — Interactive](#level-3-interactive)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Linked](#level-2-linked)
-  - [Level 3 — Interactive](#level-3-interactive)
-## Contents
-
-- [Contents](#contents)
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Linked](#level-2-linked)
-  - [Level 3 — Interactive](#level-3-interactive)
-## Contents
-
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Linked](#level-2-linked)
-  - [Level 3 — Interactive](#level-3-interactive)
 
 
 <!-- summary -->

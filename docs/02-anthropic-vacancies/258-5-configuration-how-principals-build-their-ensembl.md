@@ -1,4 +1,9 @@
 # 5. Configuration: How Principals Build Their Ensembles
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: anthropic -->
 
 

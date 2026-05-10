@@ -947,3 +947,14 @@ _Обновлено: 2026-05-10_
 | `svyazi-2-0` | 0 | 8 | 51 |
 | `technology-combinations` | 0 | 31 | 20 |
 | `templates` | 5 | 0 | 19 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [SEARCH](SEARCH.md)
+

@@ -1,42 +1,19 @@
 # Bridges
-<!-- tags: memory, anthropic, collaboration -->
-
 
 <!-- toc-auto -->
+## Contents
+
+- [Bridges](#bridges)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
+  - [Способ обращения через мост](#способ-обращения-через-мост)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [Bridges](#bridges)
-  - [info1 ↔ pro2](#info1-pro2)
-  - [info1 ↔ meta](#info1-meta)
-  - [Способ обращения через мост](#способ-обращения-через-мост)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Bridges](#bridges)
-  - [info1 ↔ pro2](#info1-pro2)
-  - [info1 ↔ meta](#info1-meta)
-  - [Способ обращения через мост](#способ-обращения-через-мост)
-## Contents
-
-- [Contents](#contents)
-- [Bridges](#bridges)
-  - [info1 ↔ pro2](#info1-pro2)
-  - [info1 ↔ meta](#info1-meta)
-  - [Способ обращения через мост](#способ-обращения-через-мост)
-## Contents
-
-- [Bridges](#bridges)
-  - [info1 ↔ pro2](#info1-pro2)
-  - [info1 ↔ meta](#info1-meta)
-  - [Способ обращения через мост](#способ-обращения-через-мост)
+<!-- alert-added -->
+<!-- tags: memory, anthropic, collaboration -->
 
 
 <!-- summary -->

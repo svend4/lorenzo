@@ -99,3 +99,14 @@ _...и ещё 253_
 | `CONTRADICTIONS.md` | 1472 | 1794 | +322 |
 | `DECISIONS.md` | 2286 | 2567 | +281 |
 | `ABBREVIATIONS.md` | 1420 | 1697 | +277 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [190-содержание](02-anthropic-vacancies/190-содержание.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [SEARCH](SEARCH.md)
+- [METRICS](METRICS.md)
+

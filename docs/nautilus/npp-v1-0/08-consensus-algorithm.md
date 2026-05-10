@@ -3,25 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [8. Consensus Algorithm](#8-consensus-algorithm)
-  - [8.1. Definition](#81-definition)
-  - [8.2. v1.0 Consensus Strategy: String Normalization](#82-v10-consensus-strategy-string-normalization)
-  - [8.3. Consensus Categories](#83-consensus-categories)
-  - [8.4. Coverage Ratio](#84-coverage-ratio)
-  - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
-## Contents
-
-- [Contents](#contents)
-- [8. Consensus Algorithm](#8-consensus-algorithm)
-  - [8.1. Definition](#81-definition)
-  - [8.2. v1.0 Consensus Strategy: String Normalization](#82-v10-consensus-strategy-string-normalization)
-  - [8.3. Consensus Categories](#83-consensus-categories)
-  - [8.4. Coverage Ratio](#84-coverage-ratio)
-  - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
-## Contents
-
 - [8. Consensus Algorithm](#8-consensus-algorithm)
   - [8.1. Definition](#81-definition)
   - [8.2. v1.0 Consensus Strategy: String Normalization](#82-v10-consensus-strategy-string-normalization)
@@ -29,6 +10,11 @@
   - [8.4. Coverage Ratio](#84-coverage-ratio)
   - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

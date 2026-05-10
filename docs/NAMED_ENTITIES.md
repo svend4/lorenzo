@@ -460,3 +460,14 @@ _Обновлено: 2026-05-10_
 - `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md`
 - _...ещё 14_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [CLUSTERS](CLUSTERS.md)
+- [ENTITIES](ENTITIES.md)
+- [SEARCH](SEARCH.md)
+

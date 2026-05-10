@@ -1,5 +1,16 @@
 # REPRESENTATIVE AGENT LAYER.md
 
+<!-- toc-auto -->
+## Contents
+
+- [REPRESENTATIVE AGENT LAYER.md](#representative-agent-layermd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.33)
 

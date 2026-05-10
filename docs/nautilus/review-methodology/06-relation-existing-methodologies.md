@@ -3,25 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [5. Связь с существующими методологиями](#5-связь-с-существующими-методологиями)
-  - [5.1. N-Version Programming](#51-n-version-programming)
-  - [5.2. Paired Reviews (Academia)](#52-paired-reviews-academia)
-  - [5.3. Consensus ML Ensembles](#53-consensus-ml-ensembles)
-  - [5.4. Red Team / Blue Team](#54-red-team-blue-team)
-  - [5.5. Новое в данной методологии](#55-новое-в-данной-методологии)
-## Contents
-
-- [Contents](#contents)
-- [5. Связь с существующими методологиями](#5-связь-с-существующими-методологиями)
-  - [5.1. N-Version Programming](#51-n-version-programming)
-  - [5.2. Paired Reviews (Academia)](#52-paired-reviews-academia)
-  - [5.3. Consensus ML Ensembles](#53-consensus-ml-ensembles)
-  - [5.4. Red Team / Blue Team](#54-red-team-blue-team)
-  - [5.5. Новое в данной методологии](#55-новое-в-данной-методологии)
-## Contents
-
 - [5. Связь с существующими методологиями](#5-связь-с-существующими-методологиями)
   - [5.1. N-Version Programming](#51-n-version-programming)
   - [5.2. Paired Reviews (Academia)](#52-paired-reviews-academia)

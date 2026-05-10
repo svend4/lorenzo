@@ -3958,3 +3958,14 @@ _Обновлено: 2026-05-10_
 
 - hypothesis: " Гипотеза одной строкой "
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [OUTLINE](OUTLINE.md)
+- [TABLES](TABLES.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [CONCEPTS](CONCEPTS.md)
+

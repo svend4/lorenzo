@@ -3,36 +3,29 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
   - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-## Contents
-
-- [Contents](#contents)
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-## Contents
-
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal [nautilus](../05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
-  - [A.2. Minimal Adapter](#a2-minimal-adapter)
-  - [A.3. Minimal Passport](#a3-minimal-passport)
-
-
 <!-- summary -->
 
 > [!NOTE]
@@ -42,8 +35,6 @@
 
 ---
 <!-- tags: ingestion -->
-
-
 
 
 ## Appendix A: Minimal Working Example

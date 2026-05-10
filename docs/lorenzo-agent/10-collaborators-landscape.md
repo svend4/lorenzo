@@ -1,5 +1,16 @@
 # Существующий landscape collaborators (working knowledge)
 
+<!-- toc-auto -->
+## Contents
+
+- [Существующий landscape collaborators (твоя working knowledge)](#существующий-landscape-collaborators-твоя-working-knowledge)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 **Проекты:** CardIndex, knowledge-space, NGT Memory, Wikontic

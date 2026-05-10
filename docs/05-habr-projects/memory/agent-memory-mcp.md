@@ -29,6 +29,11 @@ _Обновлено: 2026-05-10_
 
 # agent-memory-mcp + Memory OS
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > projects: ["agent-memory-mcp", "Memory OS"]
 **Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, NGT Memory, MemNet, agent-memory-mcp

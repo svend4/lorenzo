@@ -1,5 +1,10 @@
 # Ансамбль: [Название]
 
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -46,3 +51,14 @@ output:
 
 ---
 _Создано: 2026-05-10_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [project-component](project-component.md)
+- [decision-record](decision-record.md)
+- [mega-stack](mega-stack.md)
+- [SCORING](../SCORING.md)
+

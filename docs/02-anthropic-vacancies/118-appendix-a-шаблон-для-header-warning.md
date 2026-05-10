@@ -1,4 +1,10 @@
 # Appendix A: Шаблон для header warning
+
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+
 <!-- tags: architecture -->
 
 

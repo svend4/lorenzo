@@ -29,50 +29,6 @@
 >
 
 
-<!-- toc-auto -->
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-## Contents
-
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-
-
 <!-- summary -->
 > Several existing tools approximate parts of what Layer B
 

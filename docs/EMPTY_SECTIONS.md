@@ -3458,3 +3458,14 @@ _Обновлено: 2026-05-10_
 
 - ## Назначение (6 сл., строка 25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [SEARCH](SEARCH.md)
+- [READABILITY](READABILITY.md)
+

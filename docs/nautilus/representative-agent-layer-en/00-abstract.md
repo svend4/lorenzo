@@ -1,5 +1,10 @@
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (EN)».
 
@@ -85,3 +90,14 @@ service organizations, civil society, and policymakers.
 11. **Call for Collaboration**
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-call-for-collaboration](11-call-for-collaboration.md)
+- [01-cinderella-syndrome](01-cinderella-syndrome.md)
+- [09-phased-rollout](09-phased-rollout.md)
+- [168-abstract](../../02-anthropic-vacancies/168-abstract.md)
+

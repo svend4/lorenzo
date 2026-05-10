@@ -3,31 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Scope of "Profession"](#101-scope-of-profession)
-  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
-  - [10.3. International Variation](#103-international-variation)
-  - [10.4. Update Cadence](#104-update-cadence)
-  - [10.5. Quality Assessment](#105-quality-assessment)
-  - [10.6. Transition Costs](#106-transition-costs)
-  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
-  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
-## Contents
-
-- [Contents](#contents)
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Scope of "Profession"](#101-scope-of-profession)
-  - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
-  - [10.3. International Variation](#103-international-variation)
-  - [10.4. Update Cadence](#104-update-cadence)
-  - [10.5. Quality Assessment](#105-quality-assessment)
-  - [10.6. Transition Costs](#106-transition-costs)
-  - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
-  - [10.8. Appropriate Resistance](#108-appropriate-resistance)
-## Contents
-
 - [10. Open Questions](#10-open-questions)
   - [10.1. Scope of "Profession"](#101-scope-of-profession)
   - [10.2. Multi-Profession Practitioners](#102-multi-profession-practitioners)
@@ -38,6 +13,11 @@
   - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
   - [10.8. Appropriate Resistance](#108-appropriate-resistance)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

@@ -1,5 +1,16 @@
 # 22. Glossary of Reference Examples
 
+<!-- toc-auto -->
+## Contents
+
+- [22. Glossary of Reference Examples](#22-glossary-of-reference-examples)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > В качестве иллюстраций используется экосистема `svend4` с 7 Repos:
 

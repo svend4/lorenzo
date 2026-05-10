@@ -1,5 +1,10 @@
 # templates
 
+> [!NOTE]
+> Шаблон документа. Заполните поля согласно инструкции.
+
+<!-- alert-added -->
+
 
 <!-- tags: templates, meta, documentation -->
 

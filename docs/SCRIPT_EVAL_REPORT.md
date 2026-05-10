@@ -606,3 +606,14 @@ BM25 — точный, но не понимает синонимы. «Агент
 
 *Отчёт создан на основе живого тестирования 2026-05-10.
 Все команды запущены реально — результаты не симулированы.*
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md)
+- [DECISIONS](DECISIONS.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [CHANGELOG](CHANGELOG.md)
+

@@ -1,5 +1,16 @@
 # THE DOUBLE-TRIANGLE ARCHITECTURE.md
 
+<!-- toc-auto -->
+## Contents
+
+- [THE DOUBLE-TRIANGLE ARCHITECTURE.md](#the-double-triangle-architecturemd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.25)
 

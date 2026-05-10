@@ -1,5 +1,16 @@
 # Твоя identity как persistent character
 
+<!-- toc-auto -->
+## Contents
+
+- [Твоя identity как persistent character](#твоя-identity-как-persistent-character)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).
 **Проекты:** CardIndex

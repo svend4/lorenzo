@@ -1,5 +1,21 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -7,51 +23,6 @@
 > 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
 > 🏷️ **Ключевые слова:** `references`, `principal`, `anthropic`, `vacancies`, `theory`, `disability`, `ethics`, `ссылки`
 >
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Principal-Agent Theory](#principal-agent-theory)
-  - [Disability and Access](#disability-and-access)
-  - [Modern AI Ethics](#modern-ai-ethics)
-  - [Companion Documents](#companion-documents)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Principal-Agent Theory](#principal-agent-theory)
-  - [Disability and Access](#disability-and-access)
-  - [Modern AI Ethics](#modern-ai-ethics)
-  - [Companion Documents](#companion-documents)
-## Contents
-
-- [Contents](#contents)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Principal-Agent Theory](#principal-agent-theory)
-  - [Disability and Access](#disability-and-access)
-  - [Modern AI Ethics](#modern-ai-ethics)
-  - [Companion Documents](#companion-documents)
-## Contents
-
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Principal-Agent Theory](#principal-agent-theory)
-  - [Disability and Access](#disability-and-access)
-  - [Modern AI Ethics](#modern-ai-ethics)
-  - [Companion Documents](#companion-documents)
 
 
 <!-- summary -->

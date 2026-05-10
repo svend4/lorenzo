@@ -1,38 +1,18 @@
 # 11. Relevance Ranking
-<!-- tags: anthropic, collaboration -->
-
 
 <!-- toc-auto -->
+## Contents
+
+- [11. Relevance Ranking](#11-relevance-ranking)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [11.2. MAY Extensions](#112-may-extensions)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [11. Relevance Ranking](#11-relevance-ranking)
-  - [11.1. Scoring Formula](#111-scoring-formula)
-  - [11.2. MAY Extensions](#112-may-extensions)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [11. Relevance Ranking](#11-relevance-ranking)
-  - [11.1. Scoring Formula](#111-scoring-formula)
-  - [11.2. MAY Extensions](#112-may-extensions)
-## Contents
-
-- [Contents](#contents)
-- [11. Relevance Ranking](#11-relevance-ranking)
-  - [11.1. Scoring Formula](#111-scoring-formula)
-  - [11.2. MAY Extensions](#112-may-extensions)
-## Contents
-
-- [11. Relevance Ranking](#11-relevance-ranking)
-  - [11.1. Scoring Formula](#111-scoring-formula)
-  - [11.2. MAY Extensions](#112-may-extensions)
+<!-- alert-added -->
+<!-- tags: anthropic, collaboration -->
 
 
 <!-- summary -->

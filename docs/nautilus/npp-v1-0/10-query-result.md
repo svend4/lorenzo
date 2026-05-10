@@ -3,6 +3,15 @@
 <!-- toc-auto -->
 ## Contents
 
+- [10. QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 - 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 

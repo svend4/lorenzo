@@ -1,5 +1,11 @@
 # Appendix A: Шаблон для header warning
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 

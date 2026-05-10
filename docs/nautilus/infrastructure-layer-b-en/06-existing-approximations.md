@@ -3,25 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-## Contents
-
-- [Contents](#contents)
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-## Contents
-
 - [Existing Approximations](#existing-approximations)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)
@@ -29,6 +10,11 @@
   - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
   - [Combination workflows](#combination-workflows)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

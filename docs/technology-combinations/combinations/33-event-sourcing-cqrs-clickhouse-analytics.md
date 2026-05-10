@@ -1,5 +1,10 @@
 # Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 
 <!-- tags: technology, event-sourcing, analytics -->
 

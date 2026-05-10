@@ -1,4 +1,19 @@
 # 10. Query Flow
+
+<!-- toc-auto -->
+## Contents
+
+- [10. Query Flow](#10-query-flow)
+  - [10.1. Lifecycle](#101-lifecycle)
+  - [10.2. Parallelism](#102-parallelism)
+  - [10.3. Error Handling](#103-error-handling)
+  - [10.4. Timeout Behavior](#104-timeout-behavior)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: anthropic -->
 
 
@@ -14,43 +29,6 @@
 > ✅ **Результат:** Portal собирает resultsbyrepo: dictstr, listPortalEntry 6.
 > 🏷️ **Ключевые слова:** `portal`, `query`, `adapter`, `timeout`, `anthropic`, `vacancies`, `interface`, `error`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [10. Query Flow](#10-query-flow)
-  - [10.1. Lifecycle](#101-lifecycle)
-  - [10.2. Parallelism](#102-parallelism)
-  - [10.3. Error Handling](#103-error-handling)
-  - [10.4. Timeout Behavior](#104-timeout-behavior)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [10. Query Flow](#10-query-flow)
-  - [10.1. Lifecycle](#101-lifecycle)
-  - [10.2. Parallelism](#102-parallelism)
-  - [10.3. Error Handling](#103-error-handling)
-  - [10.4. Timeout Behavior](#104-timeout-behavior)
-## Contents
-
-- [Contents](#contents)
-- [10. Query Flow](#10-query-flow)
-  - [10.1. Lifecycle](#101-lifecycle)
-  - [10.2. Parallelism](#102-parallelism)
-  - [10.3. Error Handling](#103-error-handling)
-  - [10.4. Timeout Behavior](#104-timeout-behavior)
-## Contents
-
-- [10. Query Flow](#10-query-flow)
-  - [10.1. Lifecycle](#101-lifecycle)
-  - [10.2. Parallelism](#102-parallelism)
-  - [10.3. Error Handling](#103-error-handling)
-  - [10.4. Timeout Behavior](#104-timeout-behavior)
 
 
 <!-- summary -->

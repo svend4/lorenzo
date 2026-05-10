@@ -5190,3 +5190,14 @@ _секция: 1_
 _секция: 1_
 
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+

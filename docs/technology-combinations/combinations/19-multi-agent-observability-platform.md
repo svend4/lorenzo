@@ -1,5 +1,10 @@
 # Комбинация 19: Multi-Agent Observability Platform
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs

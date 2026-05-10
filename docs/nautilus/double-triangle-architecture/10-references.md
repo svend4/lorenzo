@@ -3,29 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [Protocols and Federation](#protocols-and-federation)
-  - [Human-AI Collaboration](#human-ai-collaboration)
-  - [Related Architectures](#related-architectures)
-  - [Pattern Libraries](#pattern-libraries)
-  - [Primary Reference](#primary-reference)
-## Contents
-
-- [Contents](#contents)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [Protocols and Federation](#protocols-and-federation)
-  - [Human-AI Collaboration](#human-ai-collaboration)
-  - [Related Architectures](#related-architectures)
-  - [Pattern Libraries](#pattern-libraries)
-  - [Primary Reference](#primary-reference)
-## Contents
-
 - [References](#references)
   - [Foundational Sources](#foundational-sources)
   - [Multi-Agent Systems](#multi-agent-systems)
@@ -35,6 +12,11 @@
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

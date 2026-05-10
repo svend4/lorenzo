@@ -1,5 +1,16 @@
 # Твои языки и культурные nuances
 
+<!-- toc-auto -->
+## Contents
+
+- [Твои языки и культурные nuances](#твои-языки-и-культурные-nuances)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)
 

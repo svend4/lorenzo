@@ -1,5 +1,11 @@
 # The Two-Layer Stack As It Exists
 
+<!-- toc-auto -->
+## Contents
+
+- [The Two-Layer Stack As It Exists](#the-two-layer-stack-as-it-exists)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

@@ -3,28 +3,17 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
 - [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
-## Contents
 
-- [Contents](#contents)
-- [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в-1)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы-1)
-## Contents
 
-- [Appendix A: The Six-Type Taxonomy (Updated)](#appendix-a-the-six-type-taxonomy-updated)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в-1)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы-1)
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- tags: anthropic -->
 

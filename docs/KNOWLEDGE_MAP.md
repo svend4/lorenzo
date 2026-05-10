@@ -1,5 +1,10 @@
 # Карта базы знаний Lorenzo
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - ## Как реализован forensic RAG с доказуемостью? [Раздел: 01-svyazi]
 **Проекты:** Svyazi
@@ -138,4 +143,15 @@ python scripts/improve_run_all.py --group nlpplus
 ```
 
 _Карта сгенерирована автоматически: 2026-05-10_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [HEALTH](HEALTH.md)
+- [STATS](STATS.md)
+- [COVERAGE](COVERAGE.md)
 

@@ -1,5 +1,21 @@
 # 9. Consensus Algorithm
 
+<!-- toc-auto -->
+## Contents
+
+- [9. Consensus Algorithm](#9-consensus-algorithm)
+  - [9.1. Definition](#91-definition)
+  - [9.2. Consensus Structure](#92-consensus-structure)
+  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
+  - [9.4. Algorithm](#94-algorithm)
+  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -7,51 +23,6 @@
 > ✅ **Результат:** Future Extensions (v2.0+)(95-future-extensions-v20) При query через portal, когда результаты возвращаются из нескольких --- 9.
 > 🏷️ **Ключевые слова:** `consensus`, `algorithm`, `fallback`, `query`, `anthropic`, `vacancies`, `через`, `portal`
 >
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [9. Consensus Algorithm](#9-consensus-algorithm)
-  - [9.1. Definition](#91-definition)
-  - [9.2. Consensus Structure](#92-consensus-structure)
-  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
-  - [9.4. Algorithm](#94-algorithm)
-  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [9. Consensus Algorithm](#9-consensus-algorithm)
-  - [9.1. Definition](#91-definition)
-  - [9.2. Consensus Structure](#92-consensus-structure)
-  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
-  - [9.4. Algorithm](#94-algorithm)
-  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
-## Contents
-
-- [Contents](#contents)
-- [9. Consensus Algorithm](#9-consensus-algorithm)
-  - [9.1. Definition](#91-definition)
-  - [9.2. Consensus Structure](#92-consensus-structure)
-  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
-  - [9.4. Algorithm](#94-algorithm)
-  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
-## Contents
-
-- [9. Consensus Algorithm](#9-consensus-algorithm)
-  - [9.1. Definition](#91-definition)
-  - [9.2. Consensus Structure](#92-consensus-structure)
-  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
-  - [9.4. Algorithm](#94-algorithm)
-  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
 
 
 <!-- summary -->

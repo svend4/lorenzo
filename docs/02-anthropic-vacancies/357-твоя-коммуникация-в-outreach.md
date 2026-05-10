@@ -1,5 +1,16 @@
 # Твоя коммуникация в outreach
 
+<!-- toc-auto -->
+## Contents
+
+- [Твоя коммуникация в outreach](#твоя-коммуникация-в-outreach)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 
 <!-- tags: outreach, communication, collaboration -->
 

@@ -155,3 +155,14 @@ python scripts/improve_run_all.py --group analysis
 
 _Индекс сгенерирован автоматически · 1742 документов · 159 скриптов_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [PROGRESS](PROGRESS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+

@@ -7,6 +7,11 @@
 - [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search

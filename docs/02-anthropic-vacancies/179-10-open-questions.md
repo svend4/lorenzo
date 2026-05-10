@@ -1,5 +1,10 @@
 # 10. Open Questions
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -12,54 +17,6 @@
   - [10.5. Philosophical Questions](#105-philosophical-questions)
 
 ---
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Technical Questions](#101-technical-questions)
-  - [10.2. Economic Questions](#102-economic-questions)
-  - [10.3. Legal Questions](#103-legal-questions)
-  - [10.4. Social Questions](#104-social-questions)
-  - [10.5. Philosophical Questions](#105-philosophical-questions)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Technical Questions](#101-technical-questions)
-  - [10.2. Economic Questions](#102-economic-questions)
-  - [10.3. Legal Questions](#103-legal-questions)
-  - [10.4. Social Questions](#104-social-questions)
-  - [10.5. Philosophical Questions](#105-philosophical-questions)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Technical Questions](#101-technical-questions)
-  - [10.2. Economic Questions](#102-economic-questions)
-  - [10.3. Legal Questions](#103-legal-questions)
-  - [10.4. Social Questions](#104-social-questions)
-  - [10.5. Philosophical Questions](#105-philosophical-questions)
-## Contents
-
-- [10. Open Questions](#10-open-questions)
-  - [10.1. Technical Questions](#101-technical-questions)
-  - [10.2. Economic Questions](#102-economic-questions)
-  - [10.3. Legal Questions](#103-legal-questions)
-  - [10.4. Social Questions](#104-social-questions)
-  - [10.5. Philosophical Questions](#105-philosophical-questions)
 
 
 <!-- summary -->

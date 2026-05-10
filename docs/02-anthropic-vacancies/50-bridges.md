@@ -1,38 +1,18 @@
 # Bridges
-<!-- tags: anthropic, collaboration -->
-
 
 <!-- toc-auto -->
+## Contents
+
+- [Bridges](#bridges)
+  - [pro2 ↔ info1](#pro2-info1)
+  - [pro2 ↔ meta](#pro2-meta)
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-info1)
-  - [pro2 ↔ meta](#pro2-meta)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-info1)
-  - [pro2 ↔ meta](#pro2-meta)
-## Contents
-
-- [Contents](#contents)
-- [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-info1)
-  - [pro2 ↔ meta](#pro2-meta)
-## Contents
-
-- [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-info1)
-  - [pro2 ↔ meta](#pro2-meta)
+<!-- alert-added -->
+<!-- tags: anthropic, collaboration -->
 
 
 <!-- summary -->

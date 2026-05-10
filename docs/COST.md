@@ -98,3 +98,14 @@ _Минимальный сценарий: open source + личное время 
 - Open Source компоненты: бесплатны
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](DENSITY.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [SCHEDULE](SCHEDULE.md)
+- [SCORING](SCORING.md)
+

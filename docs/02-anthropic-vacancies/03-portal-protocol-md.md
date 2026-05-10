@@ -1,5 +1,16 @@
 # PORTAL-PROTOCOL.md
 
+<!-- toc-auto -->
+## Contents
+
+- [PORTAL-PROTOCOL.md](#portal-protocolmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Status:** Draft (Working Document)
 

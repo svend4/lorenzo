@@ -165,10 +165,22 @@ def main():
         f"**Файлов с блоком See Also:** {inserted + already}\n",
         "## Ключевые связи\n",
     ]
+    see_also_path = DOCS / "SEE_ALSO.md"
     for fname, related in list(see_also_map.items())[:30]:
         stem = Path(fname).stem
-        refs = ", ".join(f"`{Path(r).stem}`" for r, _ in related)
-        lines.append(f"- **{stem}** → {refs}")
+        fpath_src = all_files.get(fname)
+        if fpath_src:
+            src_rel = os.path.relpath(fpath_src, DOCS)
+            stem_link = f"[{stem}]({src_rel})"
+        else:
+            stem_link = f"**{stem}**"
+        refs_parts = []
+        for r, rpath in related:
+            rstem = Path(r).stem
+            rrel = os.path.relpath(rpath, DOCS)
+            refs_parts.append(f"[{rstem}]({rrel})")
+        refs = ", ".join(refs_parts)
+        lines.append(f"- {stem_link} → {refs}")
 
     if dry_run:
         print(f"\n[dry-run] файлов к обновлению: {inserted}, уже есть: {already}")

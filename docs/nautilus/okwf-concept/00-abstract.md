@@ -1,5 +1,10 @@
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
@@ -88,3 +93,14 @@ stakeholders as basis for dialogue and refinement.
 10. **Appendices**
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-appendices](10-appendices.md)
+- [09-call-for-partnership](09-call-for-partnership.md)
+- [01-problem-statement](01-problem-statement.md)
+- [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md)
+

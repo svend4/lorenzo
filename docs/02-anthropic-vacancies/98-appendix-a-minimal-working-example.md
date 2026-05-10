@@ -1,5 +1,19 @@
 # Appendix A: Minimal Working Example
 
+<!-- toc-auto -->
+## Contents
+
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -9,50 +23,23 @@
 >
 
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
   - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-## Contents
-
-- [Contents](#contents)
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - A.1. Minimal [nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
   - [A.3. Minimal Passport](#a3-minimal-passport)
-## Contents
-
-- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
-  - [A.1. Minimal [nautilus](../05-habr-projects/memory/memnet.md).json](#a1-minimal-nautilusjson)
-  - [A.2. Minimal Adapter (Level 1)](#a2-minimal-adapter-level-1)
-  - [A.3. Minimal Passport](#a3-minimal-passport)
-
-
 <!-- summary -->
 > "passport": "passports/my_notes.md",
 
 ---
 <!-- tags: ingestion -->
-
-
 
 
 ## Appendix A: Minimal Working Example

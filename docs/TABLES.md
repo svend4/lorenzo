@@ -24373,3 +24373,14 @@ _Файл: `docs/templates/weekly-digest.md` | 4 колонок, 4 строк_
 | HEALTH score | | | |
 | Битых ссылок | | | |
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [OUTLINE](OUTLINE.md)
+- [QUESTIONS](QUESTIONS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [SITEMAP](SITEMAP.md)
+

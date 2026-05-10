@@ -1,5 +1,16 @@
 # COMPOSITE SKILLS AGENT.md
 
+<!-- toc-auto -->
+## Contents
+
+- [COMPOSITE SKILLS AGENT.md](#composite-skills-agentmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
 

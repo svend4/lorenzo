@@ -608,3 +608,14 @@ _Обновлено: 2026-05-10_
 | `docs/AUTHORS.md` | 0 | — | — |
 | `docs/BADGES.md` | 0 | — | — |
 | `docs/ENTITIES.md` | 0 | — | — |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SEARCH](SEARCH.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

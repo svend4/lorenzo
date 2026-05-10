@@ -1,5 +1,22 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Primary Empirical Source](#primary-empirical-source)
+  - [Companion Papers](#companion-papers)
+  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
+  - [Professional Practice Theory](#professional-practice-theory)
+  - [AI in Professional Practice](#ai-in-professional-practice)
+  - [Related Architecture](#related-architecture)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -7,55 +24,6 @@
 > 🔧 **Подход:** "Designing Organizations for an Information-Rich World".
 > 🏷️ **Ключевые слова:** `references`, `anthropic`, `vacancies`, `professional`, `practice`, `architecture`, `foundation`, `representative`
 >
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [References](#references)
-  - [Primary Empirical Source](#primary-empirical-source)
-  - [Companion Papers](#companion-papers)
-  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
-  - [Professional Practice Theory](#professional-practice-theory)
-  - [AI in Professional Practice](#ai-in-professional-practice)
-  - [Related Architecture](#related-architecture)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [References](#references)
-  - [Primary Empirical Source](#primary-empirical-source)
-  - [Companion Papers](#companion-papers)
-  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
-  - [Professional Practice Theory](#professional-practice-theory)
-  - [AI in Professional Practice](#ai-in-professional-practice)
-  - [Related Architecture](#related-architecture)
-## Contents
-
-- [Contents](#contents)
-- [References](#references)
-  - [Primary Empirical Source](#primary-empirical-source)
-  - [Companion Papers](#companion-papers)
-  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
-  - [Professional Practice Theory](#professional-practice-theory)
-  - [AI in Professional Practice](#ai-in-professional-practice)
-  - [Related Architecture](#related-architecture)
-## Contents
-
-- [References](#references)
-  - [Primary Empirical Source](#primary-empirical-source)
-  - [Companion Papers](#companion-papers)
-  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
-  - [Professional Practice Theory](#professional-practice-theory)
-  - [AI in Professional Practice](#ai-in-professional-practice)
-  - [Related Architecture](#related-architecture)
 
 
 <!-- summary -->

@@ -1,42 +1,18 @@
 # 7. Реализация в проекте Nautilus
 
+<!-- toc-auto -->
+## Contents
+
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+  - [7.1. Хронология применения](#71-хронология-применения)
+  - [7.2. Артефакты](#72-артефакты)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 <!-- alert-added -->
-
-<!-- toc-auto -->
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
-  - [7.1. Хронология применения](#71-хронология-применения)
-  - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
-  - [7.1. Хронология применения](#71-хронология-применения)
-  - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
-## Contents
-
-- [Contents](#contents)
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
-  - [7.1. Хронология применения](#71-хронология-применения)
-  - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
-## Contents
-
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
-  - [7.1. Хронология применения](#71-хронология-применения)
-  - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
-
 
 <!-- summary -->
 > **Первое применение — IMPLEMENTATION_STAGE_PART_[1-4].md**

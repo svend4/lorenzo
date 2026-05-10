@@ -1,5 +1,10 @@
 # AgentOps и Trace Envelope (ансамбль G)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).
 **Проекты:** Svyazi, CardIndex, LiteParse, Legal RAG, LiteLLM, Auto AI Router, Tool Search

@@ -1,5 +1,10 @@
 # Согласованность терминов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Анализ различных написаний одних и тех же терминов.
 **Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, Auto AI Router

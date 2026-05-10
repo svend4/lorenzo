@@ -3,19 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Без метаданных (нет summary или тегов) — 239 файлов](#без-метаданных-нет-summary-или-тегов-239-файлов)
-- [Короткие (< 100 слов, заготовки) — 34 файлов](#короткие-100-слов-заготовки-34-файлов)
-- [Рекомендуемые действия](#рекомендуемые-действия)
-## Contents
-
-- [Contents](#contents)
-- [Без метаданных (нет summary или тегов) — 239 файлов](#без-метаданных-нет-summary-или-тегов-239-файлов)
-- [Короткие (< 100 слов, заготовки) — 34 файлов](#короткие-100-слов-заготовки-34-файлов)
-- [Рекомендуемые действия](#рекомендуемые-действия)
-## Contents
-
 - [Без метаданных (нет summary или тегов) — 239 файлов](#без-метаданных-нет-summary-или-тегов-239-файлов)
 - [Короткие (< 100 слов, заготовки) — 34 файлов](#короткие-100-слов-заготовки-34-файлов)
 - [Рекомендуемые действия](#рекомендуемые-действия)
@@ -100,3 +87,14 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [14-main-technical-risks](nautilus/review-methodology/14-main-technical-risks.md)
+- [COVERAGE](COVERAGE.md)
+- [12-appendix-a-header-warning](nautilus/review-methodology/12-appendix-a-header-warning.md)
+- [SPELLCHECK](SPELLCHECK.md)
+

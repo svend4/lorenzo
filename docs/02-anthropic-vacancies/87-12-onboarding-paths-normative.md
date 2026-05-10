@@ -1,5 +1,10 @@
 # 12. Onboarding Paths (Normative)
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc -->
 ## Содержание
 
@@ -13,58 +18,6 @@
   - [12.6. Path Selection Guidance](#126-path-selection-guidance)
 
 ---
-
-
-<!-- toc-auto -->
-
-> [!IMPORTANT]
-> Нормативный документ. Описывает контракты и архитектурные решения.
-
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
-  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
-  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
-  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
-  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
-  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
-  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
-  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
-  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
-  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
-  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
-  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
-  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
-  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
-  - [12.5. Path E — GitHub Actions Webhook](#125-path-e-github-actions-webhook)
-  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
-## Contents
-
-- [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
-  - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
-  - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
-  - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
-  - [12.5. Path E — [GitHub](../01-svyazi/03-component-catalog.md) Actions Webhook](#125-path-e-github-actions-webhook)
-  - [12.6. Path Selection Guidance](#126-path-selection-guidance)
 
 
 <!-- summary -->

@@ -448,3 +448,14 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SEARCH](SEARCH.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

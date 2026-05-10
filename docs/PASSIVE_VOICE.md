@@ -7,6 +7,11 @@
 - [Топ файлов по доле пассива](#топ-файлов-по-доле-пассива)
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Файлов: **936** | Средний пассив: **1.6%** (🟢 Активный стиль)
 **Проекты:** AutoResearch
@@ -58,3 +63,14 @@ _Обновлено: 2026-05-10_
 | `18-reference-implementation.md` | 17% | 🟠 Много пассива | 1 | 0 | 0 |
 | `00-question-supply-demand.md` | 17% | 🟠 Много пассива | 1 | 0 | 1 |
 | `28-pydantic-enforced-legal-workflows.md` | 17% | 🟠 Много пассива | 0 | 1 | 0 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [15-appendix-c-history](nautilus/review-methodology/15-appendix-c-history.md)
+- [TAGS](TAGS.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+

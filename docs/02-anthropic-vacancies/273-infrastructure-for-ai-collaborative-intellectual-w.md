@@ -1,5 +1,16 @@
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md
 
+<!-- toc-auto -->
+## Contents
+
+- [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](#infrastructure-for-ai-collaborative-intellectual-workmd)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md) (сходство 0.25)
 

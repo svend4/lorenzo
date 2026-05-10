@@ -3,25 +3,36 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
+- [10. QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+  - [10.1. Serialization](#101-serialization)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
 - 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
-## Contents
-
-- [Contents](#contents)
 - 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
-## Contents
-
 - 10. [QueryResult Structure](#10-queryresult-structure)
   - [10.1. Serialization](#101-serialization)
 - [Упоминается в](#упоминается-в)
@@ -39,8 +50,6 @@
 
 ---
 <!-- tags: anthropic -->
-
-
 
 
 ## 10. QueryResult Structure

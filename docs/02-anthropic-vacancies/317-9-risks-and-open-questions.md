@@ -25,54 +25,6 @@
 >
 
 
-<!-- toc-auto -->
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [9. Risks and Open Questions](#9-risks-and-open-questions)
-  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
-  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
-  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
-  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
-  - [9.5. Author Capacity](#95-author-capacity)
-  - [9.6. Open Questions](#96-open-questions)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [9. Risks and Open Questions](#9-risks-and-open-questions)
-  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
-  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
-  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
-  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
-  - [9.5. Author Capacity](#95-author-capacity)
-  - [9.6. Open Questions](#96-open-questions)
-## Contents
-
-- [Содержание](#содержание)
-- [Contents](#contents)
-- [9. Risks and Open Questions](#9-risks-and-open-questions)
-  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
-  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
-  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
-  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
-  - [9.5. Author Capacity](#95-author-capacity)
-  - [9.6. Open Questions](#96-open-questions)
-## Contents
-
-- [9. Risks and Open Questions](#9-risks-and-open-questions)
-  - [9.1. Cowork's Future Direction](#91-coworks-future-direction)
-  - [9.2. MCP Standard Evolution](#92-mcp-standard-evolution)
-  - [9.3. Cowork's Resource Consumption](#93-coworks-resource-consumption)
-  - [9.4. Privacy and Sensitive Work](#94-privacy-and-sensitive-work)
-  - [9.5. Author Capacity](#95-author-capacity)
-  - [9.6. Open Questions](#96-open-questions)
-
-
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

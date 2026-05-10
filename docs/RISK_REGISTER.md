@@ -144,3 +144,14 @@ _Курированных рисков: 10 · Из документов: 15_
 | 🔴 КРИТИЧЕСКИЙ | 1 |
 | 🟠 ВЫСОКИЙ | 7 |
 | 🟡 СРЕДНИЙ | 2 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [02-методика-и-рамка-отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [02-methodology](01-svyazi/02-methodology.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

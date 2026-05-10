@@ -3,29 +3,17 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [A Practical Path to Layer B Through Symbiotic Integration](#a-practical-path-to-layer-b-through-symbiotic-integration)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в-1)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы-1)
-## Contents
-
-- [Contents](#contents)
-- [A Practical Path to Layer B Through Symbiotic Integration](#a-practical-path-to-layer-b-through-symbiotic-integration)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в-1)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы-1)
-## Contents
-
 - [A Practical Path to Layer B Through Symbiotic Integration](#a-practical-path-to-layer-b-through-symbiotic-integration)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

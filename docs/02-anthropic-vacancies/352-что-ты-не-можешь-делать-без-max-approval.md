@@ -1,5 +1,16 @@
 # Что ты НЕ МОЖЕШЬ делать без Max approval
 
+<!-- toc-auto -->
+## Contents
+
+- [Что ты НЕ МОЖЕШЬ делать без Max approval](#что-ты-не-можешь-делать-без-max-approval)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - Send any external communication (emails, messages, posts)
 

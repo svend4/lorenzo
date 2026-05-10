@@ -1,5 +1,16 @@
 # 14. ADR-001: Federation over Merging
 
+<!-- toc-auto -->
+## Contents
+
+- [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 

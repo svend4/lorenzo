@@ -1,5 +1,22 @@
 # Индекс тегов
 
+<!-- toc-auto -->
+## Contents
+
+- [#anthropic (2 файлов)](#anthropic-2-файлов)
+- [#architecture (1 файлов)](#architecture-1-файлов)
+- [#collaboration (2 файлов)](#collaboration-2-файлов)
+- [#ingestion (2 файлов)](#ingestion-2-файлов)
+- [#knowledge (1 файлов)](#knowledge-1-файлов)
+- [#memory (1 файлов)](#memory-1-файлов)
+- [#roadmap (1 файлов)](#roadmap-1-файлов)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 
 <!-- summary -->
 
@@ -10,11 +27,6 @@
 
 <!-- tags: meta, tags, index -->
 
-<!-- toc-auto -->
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
 - #[anthropic (2 файлов)](#anthropic-2-файлов)
 - [#architecture (1 файлов)](#architecture-1-файлов)
 - [#collaboration (2 файлов)](#collaboration-2-файлов)
@@ -22,9 +34,6 @@
 - [#knowledge (1 файлов)](#knowledge-1-файлов)
 - [#memory (1 файлов)](#memory-1-файлов)
 - [#roadmap (1 файлов)](#roadmap-1-файлов)
-## Contents
-
-- [Contents](#contents)
 - #[anthropic (2 файлов)](#anthropic-2-файлов)
 - [#architecture (1 файлов)](#architecture-1-файлов)
 - [#collaboration (2 файлов)](#collaboration-2-файлов)
@@ -32,8 +41,6 @@
 - [#knowledge (1 файлов)](#knowledge-1-файлов)
 - [#memory (1 файлов)](#memory-1-файлов)
 - [#roadmap (1 файлов)](#roadmap-1-файлов)
-## Contents
-
 - #[anthropic (2 файлов)](#anthropic-2-файлов)
 - [#architecture (1 файлов)](#architecture-1-файлов)
 - [#collaboration (2 файлов)](#collaboration-2-файлов)
@@ -76,3 +83,14 @@
 ## #roadmap (1 файлов)
 
 - `docs/METRICS.md`
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [COVERAGE](COVERAGE.md)
+- [DEPENDABOT](DEPENDABOT.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+

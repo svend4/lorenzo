@@ -3,23 +3,6 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [9. Checklist применения методологии](#9-checklist-применения-методологии)
-  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
-  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
-  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
-  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
-## Contents
-
-- [Contents](#contents)
-- [9. Checklist применения методологии](#9-checklist-применения-методологии)
-  - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
-  - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
-  - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
-  - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
-## Contents
-
 - [9. Checklist применения методологии](#9-checklist-применения-методологии)
   - [9.1. Перед началом (Pre-Phase A)](#91-перед-началом-pre-phase-a)
   - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)

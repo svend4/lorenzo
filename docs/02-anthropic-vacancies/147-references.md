@@ -1,5 +1,23 @@
 # References
 
+<!-- toc-auto -->
+## Contents
+
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Multi-Agent Systems](#multi-agent-systems)
+  - [Protocols and Federation](#protocols-and-federation)
+  - [Human-AI Collaboration](#human-ai-collaboration)
+  - [Related Architectures](#related-architectures)
+  - [Pattern Libraries](#pattern-libraries)
+  - [Primary Reference](#primary-reference)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -7,59 +25,6 @@
 > 🔧 **Подход:** "Architectural Styles and the Design of Network-based Software Architectures".
 > 🏷️ **Ключевые слова:** `anthropic`, `references`, `protocol`, `portal`, `vacancies`, `svend`, `human`, `nautilus`
 >
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [Protocols and Federation](#protocols-and-federation)
-  - [Human-AI Collaboration](#human-ai-collaboration)
-  - [Related Architectures](#related-architectures)
-  - [Pattern Libraries](#pattern-libraries)
-  - [Primary Reference](#primary-reference)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [Protocols and Federation](#protocols-and-federation)
-  - [Human-AI Collaboration](#human-ai-collaboration)
-  - [Related Architectures](#related-architectures)
-  - [Pattern Libraries](#pattern-libraries)
-  - [Primary Reference](#primary-reference)
-## Contents
-
-- [Contents](#contents)
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [Protocols and Federation](#protocols-and-federation)
-  - [Human-AI Collaboration](#human-ai-collaboration)
-  - [Related Architectures](#related-architectures)
-  - [Pattern Libraries](#pattern-libraries)
-  - [Primary Reference](#primary-reference)
-## Contents
-
-- [References](#references)
-  - [Foundational Sources](#foundational-sources)
-  - [Multi-Agent Systems](#multi-agent-systems)
-  - [Protocols and Federation](#protocols-and-federation)
-  - [Human-AI Collaboration](#human-ai-collaboration)
-  - [Related Architectures](#related-architectures)
-  - [Pattern Libraries](#pattern-libraries)
-  - [Primary Reference](#primary-reference)
 
 
 <!-- summary -->

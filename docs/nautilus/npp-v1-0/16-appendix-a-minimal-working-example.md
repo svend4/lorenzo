@@ -3,29 +3,17 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Essence](#essence)
-- [Native Format](#native-format)
-- [Content Overview](#content-overview)
-- [Angle / Perspective](#angle-perspective)
-- [Author](#author)
-## Contents
-
-- [Contents](#contents)
-- [Essence](#essence)
-- [Native Format](#native-format)
-- [Content Overview](#content-overview)
-- [Angle / Perspective](#angle-perspective)
-- [Author](#author)
-## Contents
-
 - [Essence](#essence)
 - [Native Format](#native-format)
 - [Content Overview](#content-overview)
 - [Angle / Perspective](#angle-perspective)
 - [Author](#author)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 

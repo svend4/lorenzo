@@ -114,3 +114,14 @@ _Не рекомендуем для новых проектов. Использ�
 
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [license-tree](svyazi-2-0/limitations/license-tree.md)
+

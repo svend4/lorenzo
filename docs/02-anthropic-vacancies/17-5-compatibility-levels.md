@@ -1,4 +1,19 @@
 # 5. Compatibility Levels
+
+<!-- toc-auto -->
+## Contents
+
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Queryable](#level-2-queryable)
+  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 <!-- tags: memory, anthropic, collaboration -->
 
 
@@ -14,43 +29,6 @@
 > ✅ **Результат:** Это позволяет постепенное подключение: существующий Repo может начать на уровне 0 и расти к уровню 3 без переделки.
 > 🏷️ **Ключевые слова:** `level`, `compatibility`, `levels`, `anthropic`, `vacancies`, `может`, `portal`, `repos`
 >
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Contents](#contents-2)
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Queryable](#level-2-queryable)
-  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
-## Contents
-
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Queryable](#level-2-queryable)
-  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
-## Contents
-
-- [Contents](#contents)
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Queryable](#level-2-queryable)
-  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
-## Contents
-
-- [5. Compatibility Levels](#5-compatibility-levels)
-  - [Level 0 — Discoverable](#level-0-discoverable)
-  - [Level 1 — Readable](#level-1-readable)
-  - [Level 2 — Queryable](#level-2-queryable)
-  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
 
 
 <!-- summary -->

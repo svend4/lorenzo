@@ -1,5 +1,10 @@
 # Домен: немецкое социальное право
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) LLM+Pydantic parses legal entities: class Bescheid(BaseModel): aktenzeichen: str; p
 **Проекты:** Svyazi, [CardIndex](../01-svyazi/01-executive-summary.md)

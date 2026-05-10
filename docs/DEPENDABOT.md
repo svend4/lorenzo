@@ -3,23 +3,15 @@
 <!-- toc-auto -->
 ## Contents
 
-- [Contents](#contents)
-- [Contents](#contents-1)
-- [Python-зависимости](#python-зависимости)
-- [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
-- [Автоматизация](#автоматизация)
-## Contents
-
-- [Contents](#contents)
-- [Python-зависимости](#python-зависимости)
-- [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
-- [Автоматизация](#автоматизация)
-## Contents
-
 - [Python-зависимости](#python-зависимости)
 - [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
 - [Автоматизация](#автоматизация)
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 <!-- summary -->
 
@@ -67,3 +59,14 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [GRAPH](GRAPH.md)
+- [NETWORK](NETWORK.md)
+- [TAGS](TAGS.md)
+- [MINDMAP](MINDMAP.md)
+

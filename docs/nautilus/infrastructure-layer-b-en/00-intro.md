@@ -1,5 +1,16 @@
 # The Missing Middle Layer Between Chat and Code
 
+<!-- toc-auto -->
+## Contents
+
+- [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+
+
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
@@ -41,3 +52,14 @@ applied work demonstrated its absence
 **Status:** Inquiry paper, exploring rather than specifying
 
 ---
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-acknowledgments-refs](13-acknowledgments-refs.md)
+- [10-what-not-solved](10-what-not-solved.md)
+- [12-closing](12-closing.md)
+- [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
+
