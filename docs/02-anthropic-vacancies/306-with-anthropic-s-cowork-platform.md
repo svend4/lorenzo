@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** with Anthropic's Cowork Platform Document type: Practical implementation paper, building --- with Anthropic's Cowork Platform Document type: Practical implementation paper, buildin

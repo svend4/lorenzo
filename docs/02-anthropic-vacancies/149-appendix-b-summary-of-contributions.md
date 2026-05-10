@@ -4,6 +4,16 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
+- [Author & Contact](#author-contact)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
 - [Author & Contact](#author-contact)
 - [Упоминается в](#упоминается-в)
@@ -21,6 +31,10 @@
 
 
 <!-- summary -->
+
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
 > 1. **Topological formalization** of Double-Triangle Architecture
 
 ---

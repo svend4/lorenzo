@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, knowledge, ingestion, self-improvement, collaboration -->
 
+> [!TIP]
+> Обзорный документ. Рекомендуется читать перед погружением в детали.
+
+
 
 
 

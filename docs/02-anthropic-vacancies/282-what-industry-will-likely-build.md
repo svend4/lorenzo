@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [What Industry Will Likely Build](#what-industry-will-likely-build)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [What Industry Will Likely Build](#what-industry-will-likely-build)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -19,6 +28,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** What Industry Will Likely Build Independent of what the author does, the industry will move --- What Industry Will Likely Build Independent of what the author does, the industry wi

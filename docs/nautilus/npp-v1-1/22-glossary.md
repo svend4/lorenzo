@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [22. Glossary of Reference Examples](#22-glossary-of-reference-examples)

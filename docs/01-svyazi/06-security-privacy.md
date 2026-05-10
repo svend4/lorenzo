@@ -1,3 +1,5 @@
+# Безопасность и приватность
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -9,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!WARNING]
+> Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.
+
 > Для Svyazi[^svyazi]‑2.0 безопасная архитектура — не “добавить сканер в конце”, а **с самого начала считать skills, MCP[^mcp] servers, импорты документов и memory writes потенциально недоверенными**. Это не паранойя,
 **Проекты:** Svyazi, AgentFS[^agentfs], AI Factory, agent-memory-mcp, SENTINEL[^sentinel], LiteLLM, Auto AI Router, Tool Search
 

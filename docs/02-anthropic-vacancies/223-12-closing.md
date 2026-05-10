@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Representative Agent Layer paper, when first written,
 
 ---

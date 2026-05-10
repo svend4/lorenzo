@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > A Representative Agent system consists of seven components:
 
 ---

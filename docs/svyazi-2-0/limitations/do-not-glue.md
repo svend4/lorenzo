@@ -4,6 +4,13 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Оркестрация — выбрать один spine](#оркестрация-выбрать-один-spine)
+- [Voice/local‑first mesh — не идеализировать](#voicelocalfirst-mesh-не-идеализировать)
+- [Self‑improvement — только после метрики](#selfimprovement-только-после-метрики)
+## Contents
+
+- [Contents](#contents)
 - [Оркестрация — выбрать один spine](#оркестрация-выбрать-один-spine)
 - [Voice/local‑first mesh — не идеализировать](#voicelocalfirst-mesh-не-идеализировать)
 - [Self‑improvement — только после метрики](#selfimprovement-только-после-метрики)

@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** If the project continues — and it should — the next phase needs different infrastructure than chat alone.

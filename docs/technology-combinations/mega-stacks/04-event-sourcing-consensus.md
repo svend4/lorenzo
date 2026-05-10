@@ -1,5 +1,12 @@
 # Mega‑Stack 4.0 — with Event Sourcing & Consensus
 
+<!-- toc-auto -->
+## Contents
+
+- [New capabilities](#new-capabilities)
+- [Performance](#performance)
+
+
 > [!TIP]
 > Документ содержит практические рекомендации и лучшие практики.
 

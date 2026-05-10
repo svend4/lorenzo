@@ -1,5 +1,12 @@
 # agent-memory-mcp + Memory OS
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Автор:** VitaliySemenov / moshael
 **Проекты:** Svyazi, agent-memory-mcp

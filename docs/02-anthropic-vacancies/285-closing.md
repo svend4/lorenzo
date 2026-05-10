@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Closing](#closing)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [Closing](#closing)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -19,6 +28,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** That vision rests on infrastructure that partially exists and partially needs building.

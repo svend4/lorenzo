@@ -1,11 +1,22 @@
 # Граф связей проектов
 
+<!-- toc-auto -->
+## Contents
+
+- [Топ совместных упоминаний](#топ-совместных-упоминаний)
+- [DOT-формат (Graphviz)](#dot-формат-graphviz)
+
+
 <!-- summary -->
 > Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, self-improve -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

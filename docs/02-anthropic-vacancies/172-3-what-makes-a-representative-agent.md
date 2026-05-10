@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > A Representative Agent is distinct from existing AI categories.
 
 ---

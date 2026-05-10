@@ -10,6 +10,21 @@
 
 
 <!-- toc-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [References](#references)
+  - [Foundational Sources](#foundational-sources)
+  - [Principal-Agent Theory](#principal-agent-theory)
+  - [Disability and Access](#disability-and-access)
+  - [Modern AI Ethics](#modern-ai-ethics)
+  - [Companion Documents](#companion-documents)
 ## Contents
 
 - [Contents](#contents)

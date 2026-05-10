@@ -1,9 +1,16 @@
 # Executive Report: Репозиторий Lorenzo
 
+<!-- summary -->
+> Executive Report: сводный отчёт о состоянии репозитория Lorenzo — метрики, прогресс, ключевые выводы.
+
 _Дата генерации: 2026-05-10_
 
 ---
 <!-- tags: ingestion, architecture, roadmap, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 ## Общая картина

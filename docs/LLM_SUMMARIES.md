@@ -7,10 +7,27 @@
 ---
 <!-- tags: ingestion, local-first, architecture, anthropic, self-improvement, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 
 <!-- toc-auto -->
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Архитектура Svyazi 2.0](#архитектура-svyazi-20)
+- [Вакансии Anthropic](#вакансии-anthropic)
+- [Комбинации технологий](#комбинации-технологий)
+- [AI-коллаборации](#ai-коллаборации)
+- [Хабр-проекты](#хабр-проекты)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+- [Упоминается в](#упоминается-в)
 ## Contents
 
 - [Contents](#contents)

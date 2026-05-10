@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > InGit + Cowork's distinct profile: maximum structure with full
 
 ---

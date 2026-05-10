@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** InGit should position as the structure layer that Cowork needs — substrate for sustained, organized, recoverable, shareable AI-collaborative work.

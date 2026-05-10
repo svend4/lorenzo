@@ -19,6 +19,22 @@
 - [Contents](#contents-1)
 - [Contents](#contents-2)
 - [Contents](#contents-3)
+- [Contents](#contents-4)
+- [Contents](#contents-5)
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Contents](#contents-3)
 - [11. Security Considerations](#11-security-considerations)
   - [11.1. Untrusted Adapters](#111-untrusted-adapters)
   - [11.2. Private Repositories](#112-private-repositories)
@@ -48,6 +64,22 @@
 
 
 <!-- toc-auto -->
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Contents](#contents-3)
+- [Contents](#contents-4)
+- [Contents](#contents-5)
+- [11. Security Considerations](#11-security-considerations)
+  - [11.1. Untrusted Adapters](#111-untrusted-adapters)
+  - [11.2. Private Repositories](#112-private-repositories)
+  - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
 ## Contents
 
 - [Contents](#contents)

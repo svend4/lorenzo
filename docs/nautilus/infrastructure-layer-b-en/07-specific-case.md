@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [The Specific Case in Front of Us](#the-specific-case-in-front-of-us)

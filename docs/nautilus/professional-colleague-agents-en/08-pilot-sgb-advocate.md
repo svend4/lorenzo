@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [8. Pilot Proposal: SGB Advocate Colleague](#8-pilot-proposal-sgb-advocate-colleague)

@@ -9,6 +9,10 @@
 
 
 <!-- summary -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 > Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.
 **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 

@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -19,6 +28,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Editorial review:** Claude (intellectual collaboration, 2026-04)
 
 ---

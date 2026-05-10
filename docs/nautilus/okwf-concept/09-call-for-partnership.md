@@ -4,6 +4,16 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [9. Call for Partnership](#9-call-for-partnership)
+  - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
+  - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
+  - [9.3. For Academic and Research Partners (Universities, Think Tanks)](#93-for-academic-and-research-partners-universities-think-tanks)
+  - [9.4. For Policy Organizations (EU Commission, National Governments, OECD)](#94-for-policy-organizations-eu-commission-national-governments-oecd)
+  - [9.5. For Potential Contributors](#95-for-potential-contributors)
+## Contents
+
+- [Contents](#contents)
 - [9. Call for Partnership](#9-call-for-partnership)
   - [9.1. For AI Companies (Anthropic, Mistral, OpenAI, Google, Microsoft)](#91-for-ai-companies-anthropic-mistral-openai-google-microsoft)
   - [9.2. For Foundations (Mozilla, Ford, Wikimedia, Hewlett)](#92-for-foundations-mozilla-ford-wikimedia-hewlett)
@@ -21,6 +31,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».
 
 ---

@@ -1,4 +1,11 @@
 # 7. PortalEntry Structure
+
+<!-- toc-auto -->
+## Contents
+
+- [7. PortalEntry Structure](#7-portalentry-structure)
+  - [7.1. Field Semantics](#71-field-semantics)
+
 <!-- tags: memory, ingestion, architecture, anthropic, collaboration -->
 
 

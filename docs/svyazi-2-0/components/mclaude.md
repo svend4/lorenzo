@@ -1,5 +1,12 @@
 # mclaude
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Источник:** Хабр + GitHub citeturn20view2turn37search0
 **Проекты:** Svyazi, mclaude

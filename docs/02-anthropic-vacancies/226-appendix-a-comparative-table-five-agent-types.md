@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [Appendix A: Comparative Table — Five Agent Types](#appendix-a-comparative-table-five-agent-types)

@@ -7,6 +7,10 @@
 ---
 <!-- tags: rag, knowledge, ingestion, architecture, roadmap, collaboration -->
 
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
+
 
 
 

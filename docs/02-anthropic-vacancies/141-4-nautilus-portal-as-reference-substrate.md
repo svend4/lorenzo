@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The Double-Triangle Architecture requires a substrate capable of:
 
 ---

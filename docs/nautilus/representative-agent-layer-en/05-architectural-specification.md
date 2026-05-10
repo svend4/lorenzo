@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [5. Architectural Specification](#5-architectural-specification)

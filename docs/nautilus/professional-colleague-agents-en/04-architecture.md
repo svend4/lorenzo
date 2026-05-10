@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [4. Architecture of Professional Colleague Agents](#4-architecture-of-professional-colleague-agents)

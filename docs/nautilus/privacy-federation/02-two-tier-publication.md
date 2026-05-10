@@ -6,6 +6,10 @@
 ---
 <!-- tags: rag, security, architecture, anthropic, collaboration -->
 
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
+
 
 
 

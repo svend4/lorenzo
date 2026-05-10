@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. Why Existing Solutions Fail](#3-why-existing-solutions-fail)

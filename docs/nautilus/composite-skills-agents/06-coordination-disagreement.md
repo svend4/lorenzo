@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [6. Coordination and Disagreement Resolution](#6-coordination-and-disagreement-resolution)

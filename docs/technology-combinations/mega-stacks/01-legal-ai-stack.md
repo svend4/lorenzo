@@ -1,11 +1,22 @@
 # Mega‑Stack 1.0 — Полный Legal‑AI Stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Результат](#результат)
+- [Первый проект для внедрения](#первый-проект-для-внедрения)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max».
 **Проекты:** Svyazi, CardIndex, Yjs
 
 ---
 <!-- tags: rag, knowledge, ingestion, local-first, roadmap -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

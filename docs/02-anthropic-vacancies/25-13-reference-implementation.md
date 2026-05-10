@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [13. Reference Implementation](#13-reference-implementation)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [13. Reference Implementation](#13-reference-implementation)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -19,6 +28,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Reference implementation: `github.com/svend4/nautilus`.
 
 ---

@@ -6,6 +6,10 @@
 ---
 <!-- tags: local-first, anthropic, collaboration -->
 
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+
 
 
 

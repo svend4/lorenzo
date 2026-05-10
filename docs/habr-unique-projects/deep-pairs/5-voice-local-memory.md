@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, knowledge, local-first, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

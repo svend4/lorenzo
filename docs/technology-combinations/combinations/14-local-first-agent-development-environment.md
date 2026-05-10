@@ -7,6 +7,10 @@
 ---
 <!-- tags: rag, orchestration, knowledge, ingestion, local-first, roadmap -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, rag, orchestration, ingestion, local-first, architecture, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

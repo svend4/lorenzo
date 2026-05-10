@@ -1,3 +1,5 @@
+# Выводы
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -9,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG[^rag] и не оркестр
 **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], mclaude, AI Factory, Rufler[^rufler], [LiteParse](01-executive-summary.md), Yodoca[^yodoca]
 

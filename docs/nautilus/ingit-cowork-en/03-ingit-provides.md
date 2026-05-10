@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [3. What InGit Provides That Cowork Lacks](#3-what-ingit-provides-that-cowork-lacks)

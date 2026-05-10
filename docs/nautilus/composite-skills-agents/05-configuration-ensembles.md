@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. Configuration: How Principals Build Their Ensembles](#5-configuration-how-principals-build-their-ensembles)

@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Each type serves a different need, has different economics, requires different governance, and proceeds at a different pace of deployment.

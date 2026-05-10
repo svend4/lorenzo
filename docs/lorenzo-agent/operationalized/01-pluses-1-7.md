@@ -7,6 +7,10 @@
 ---
 <!-- tags: rag, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

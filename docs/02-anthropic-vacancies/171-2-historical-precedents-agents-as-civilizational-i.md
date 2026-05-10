@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
 > The pattern of representative agents is ancient and recurring.
 
 ---

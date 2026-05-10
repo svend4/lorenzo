@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - Establish legal entity (non-profit foundation in Germany or
 
 ---

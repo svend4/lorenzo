@@ -4,6 +4,16 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+## Contents
+
+- [Contents](#contents)
 - [Existing Approximations](#existing-approximations)
   - [Anthropic Projects](#anthropic-projects)
   - [GitHub Discussions](#github-discussions)
@@ -21,6 +31,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».
 
 ---

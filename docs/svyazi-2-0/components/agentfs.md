@@ -1,5 +1,12 @@
 # AgentFS
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Источник:** Хабр + GitHub citeturn33view4turn33view7turn27view0
 **Проекты:** Svyazi, AgentFS

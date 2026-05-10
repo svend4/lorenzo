@@ -1,11 +1,22 @@
 # Карта пробелов знаний
 
+<!-- toc-auto -->
+## Contents
+
+- [Итог](#итог)
+- [Рекомендации](#рекомендации)
+
+
 <!-- summary -->
 > Анализ покрытия ключевых тем и проектов в docs/.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improve -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

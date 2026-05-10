@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
 
 ---

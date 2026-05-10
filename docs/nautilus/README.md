@@ -1,7 +1,14 @@
 # nautilus/ — Nautilus Portal Protocol и связанные working papers
 
 
+<!-- summary -->
+> Nautilus Portal Protocol: спецификации NPP v1.0 и v1.1, адаптеры, паспорта и протоколы взаимодействия.
+
 <!-- tags: nautilus, protocol, overview -->
+
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
 
 Часть исходного MHTML‑снимка `Вакансии в Anthropic по кластерам - Claude` посвящена не вакансиям, а собственным архитектурным работам пользователя — формальной спецификации **Nautilus Portal Protocol** и нескольким companion papers. Содержимое разбито здесь на тематические подпапки.
 

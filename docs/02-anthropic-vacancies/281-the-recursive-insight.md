@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** The Recursive Insight There is something subtle in all this that warrants explicit --- The Recursive Insight There is something subtle in all this that warrants explicit attention.

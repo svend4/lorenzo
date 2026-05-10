@@ -1,11 +1,22 @@
 # Ансамбль E — Safe and cheap execution plane
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, SENTINEL, LiteLLM, Auto AI Router, Tool Search
 
 ---
 <!-- tags: orchestration, security, ingestion, architecture -->
+
+> [!WARNING]
+> Документ содержит важные предупреждения и ограничения.
+
 
 
 

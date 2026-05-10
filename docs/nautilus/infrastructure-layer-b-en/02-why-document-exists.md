@@ -6,6 +6,10 @@
 ---
 <!-- tags: orchestration, architecture, roadmap, anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

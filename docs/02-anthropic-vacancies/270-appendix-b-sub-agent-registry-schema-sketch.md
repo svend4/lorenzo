@@ -9,6 +9,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > For implementation, sub-agent registry entries might follow
 
 ---

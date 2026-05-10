@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > When Document 2.3 was written earlier in this session, the
 
 ---

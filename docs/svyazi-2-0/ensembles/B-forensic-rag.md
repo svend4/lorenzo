@@ -1,11 +1,22 @@
 # Ансамбль B — Forensic RAG для доказуемого matching и review
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG
 
 ---
 <!-- tags: rag, ingestion, architecture, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

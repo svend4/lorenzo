@@ -7,6 +7,10 @@
 ---
 <!-- tags: rag, security, self-improvement, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

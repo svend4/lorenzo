@@ -4,6 +4,16 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [9. Consensus Algorithm](#9-consensus-algorithm)
+  - [9.1. Definition](#91-definition)
+  - [9.2. Consensus Structure](#92-consensus-structure)
+  - [9.3. v1.1 Consensus Strategy: Real vs Fallback](#93-v11-consensus-strategy-real-vs-fallback)
+  - [9.4. Algorithm](#94-algorithm)
+  - [9.5. Future Extensions (v2.0+)](#95-future-extensions-v20)
+## Contents
+
+- [Contents](#contents)
 - [9. Consensus Algorithm](#9-consensus-algorithm)
   - [9.1. Definition](#91-definition)
   - [9.2. Consensus Structure](#92-consensus-structure)
@@ -21,6 +31,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---

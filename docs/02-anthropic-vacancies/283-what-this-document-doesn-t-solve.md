@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
@@ -19,6 +28,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > This document identifies a problem. It does not propose a
 
 ---

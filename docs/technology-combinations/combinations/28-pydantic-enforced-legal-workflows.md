@@ -6,6 +6,10 @@
 ---
 <!-- tags: rag, orchestration, ingestion, architecture -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > For the seven-document Nautilus / OKWF project specifically,
 
 ---

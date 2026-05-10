@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. The Five-Type Typology of Principal-Side Agents](#1-the-five-type-typology-of-principal-side-agents)

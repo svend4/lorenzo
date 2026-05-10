@@ -4,6 +4,18 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [6. Ethical Framework](#6-ethical-framework)
+  - [6.1. Principal Sovereignty](#61-principal-sovereignty)
+  - [6.2. Transparent Capability](#62-transparent-capability)
+  - [6.3. No Adverse Action Without Notice](#63-no-adverse-action-without-notice)
+  - [6.4. Fairness Across Principals](#64-fairness-across-principals)
+  - [6.5. Vulnerability Protection](#65-vulnerability-protection)
+  - [6.6. Consent and Capacity](#66-consent-and-capacity)
+  - [6.7. Accessibility as First-Class Concern](#67-accessibility-as-first-class-concern)
+## Contents
+
+- [Contents](#contents)
 - [6. Ethical Framework](#6-ethical-framework)
   - [6.1. Principal Sovereignty](#61-principal-sovereignty)
   - [6.2. Transparent Capability](#62-transparent-capability)

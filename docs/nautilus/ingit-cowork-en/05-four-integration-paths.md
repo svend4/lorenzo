@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [5. Four Integration Paths in Order of Accessibility](#5-four-integration-paths-in-order-of-accessibility)

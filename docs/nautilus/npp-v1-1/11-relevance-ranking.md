@@ -4,6 +4,13 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [11. Relevance Ranking](#11-relevance-ranking)
+  - [11.1. Scoring Formula](#111-scoring-formula)
+  - [11.2. MAY Extensions](#112-may-extensions)
+## Contents
+
+- [Contents](#contents)
 - [11. Relevance Ranking](#11-relevance-ranking)
   - [11.1. Scoring Formula](#111-scoring-formula)
   - [11.2. MAY Extensions](#112-may-extensions)
@@ -15,6 +22,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---

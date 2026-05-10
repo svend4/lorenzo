@@ -10,6 +10,10 @@
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Документ фиксирует ключевые архитектурные или технические решения.
+
 > Seven existing infrastructure categories partially address the
 
 ---

@@ -1,5 +1,12 @@
 # AI Factory + AIF Handoff
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9
 **Проекты:** Svyazi, AI Factory

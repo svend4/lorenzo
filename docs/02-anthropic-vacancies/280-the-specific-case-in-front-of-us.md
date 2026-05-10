@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 > The seven documents produced in this session have specific
 
 ---

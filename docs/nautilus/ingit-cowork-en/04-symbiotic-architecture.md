@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
 ## Содержание
 
 - [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)

@@ -1,11 +1,22 @@
 # Ансамбль G — Federated Local‑First Community Graph
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Новое свойство](#новое-свойство)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`.
 **Проекты:** Svyazi, AgentFS, NGT Memory, Yjs, Automerge
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, local-first, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

@@ -1,5 +1,12 @@
 # 10. QueryResult Structure
 
+<!-- toc-auto -->
+## Contents
+
+- [10. QueryResult Structure](#10-queryresult-structure)
+  - [10.1. Serialization](#101-serialization)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 

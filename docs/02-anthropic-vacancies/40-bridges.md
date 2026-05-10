@@ -3,6 +3,19 @@
 
 
 <!-- toc-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Bridges](#bridges)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
+  - [Способ обращения через мост](#способ-обращения-через-мост)
 ## Contents
 
 - [Contents](#contents)

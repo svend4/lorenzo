@@ -10,6 +10,20 @@
 
 
 <!-- toc-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [References](#references)
+  - [Threading and Annotation](#threading-and-annotation)
+  - [Knowledge Management](#knowledge-management)
+  - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
+  - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
 ## Contents
 
 - [Contents](#contents)

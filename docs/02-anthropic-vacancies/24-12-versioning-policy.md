@@ -5,6 +5,19 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
+- [Contents](#contents-2)
+- [12. Versioning Policy](#12-versioning-policy)
+  - [12.1. Semver](#121-semver)
+  - [12.2. Version in Registry](#122-version-in-registry)
+  - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
 - [12. Versioning Policy](#12-versioning-policy)
   - [12.1. Semver](#121-semver)
   - [12.2. Version in Registry](#122-version-in-registry)
@@ -33,6 +46,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **Major** (v1 → v2): breaking changes в interfaces или schemas
 
 ---

@@ -5,6 +5,18 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Appendix B: Change Log](#appendix-b-change-log)
+  - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
+  - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
 - [Appendix B: Change Log](#appendix-b-change-log)
   - [v1.1.0-draft (2026-04-19)](#v110-draft-2026-04-19)
   - [v1.0.0-draft (2026-04 earlier)](#v100-draft-2026-04-earlier)
@@ -30,6 +42,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > - **New**: Q6 as normative concept (section 8, ADR-002)
 
 ---

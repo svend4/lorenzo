@@ -11,6 +11,10 @@ priority: 2
 tags: [memory, mcp, typed-memory, sqlite, agent, bi-temporal]
 ---
 <!-- autofill-status -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Статус
 
 | Параметр | Значение |

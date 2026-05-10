@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > The economics of Composite Skills Agents differ from both
 
 ---

@@ -5,6 +5,15 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
   - [A.2. Minimal Adapter](#a2-minimal-adapter)
@@ -25,6 +34,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > "adapter": "adapters/my_notes.py",
 
 ---

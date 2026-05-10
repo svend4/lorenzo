@@ -1,10 +1,21 @@
 # 18. Reference Implementation
 
+<!-- toc-auto -->
+## Contents
+
+- [18. Reference Implementation](#18-reference-implementation)
+  - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---
 <!-- tags: rag, anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

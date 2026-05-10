@@ -7,6 +7,10 @@
 ---
 <!-- tags: rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
 
+> [!TIP]
+> Раздел содержит несколько документов. Используйте содержание для навигации.
+
+
 
 
 

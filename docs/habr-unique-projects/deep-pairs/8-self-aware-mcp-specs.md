@@ -6,6 +6,10 @@
 ---
 <!-- tags: knowledge, architecture, collaboration -->
 
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+
 
 
 

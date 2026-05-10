@@ -1,3 +1,5 @@
+# Архитектурные зазоры
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
@@ -9,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi[^svyazi] хорошо закрывает ingest и нормализацию; AgentFS[^agentfs] даёт `.agentos` и compile‑to‑runtime политику
 **Проекты:** Svyazi, CardIndex[^cardindex], AgentFS, [knowledge-space](03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 

@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improve, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

@@ -4,6 +4,16 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
+## Contents
+
+- [Contents](#contents)
 - [15. Security Considerations](#15-security-considerations)
   - [15.1. Untrusted Adapters](#151-untrusted-adapters)
   - [15.2. Private Repositories](#152-private-repositories)
@@ -21,6 +31,10 @@
 
 
 <!-- summary -->
+
+> [!WARNING]
+> Документ описывает ограничения, риски или требования безопасности. Читайте внимательно.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.
 
 ---

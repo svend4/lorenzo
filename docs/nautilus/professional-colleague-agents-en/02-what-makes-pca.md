@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [2. What Makes a Professional Colleague Agent](#2-what-makes-a-professional-colleague-agent)

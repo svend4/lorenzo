@@ -1,5 +1,12 @@
 # Yodoca
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Источник:** Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1
 **Проекты:** Svyazi, Yodoca

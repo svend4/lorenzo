@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Acknowledgments The Composite Skills Agent concept emerged from dialogue with --- Acknowledgments The Composite Skills Agent concept emerged from dialogue with Claude (Anthropic) o

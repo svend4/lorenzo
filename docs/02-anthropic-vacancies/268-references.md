@@ -15,6 +15,22 @@
 
 
 <!-- toc-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [References](#references)
+  - [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)
+  - [Pattern of Composite Mastery](#pattern-of-composite-mastery)
+  - [Multi-Agent Coordination](#multi-agent-coordination)
+  - [Practical Examples](#practical-examples)
+  - [Companion Documents in This Series](#companion-documents-in-this-series)
 ## Contents
 
 - [Содержание](#содержание)

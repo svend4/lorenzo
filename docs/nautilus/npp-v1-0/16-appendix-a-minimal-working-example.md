@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Essence](#essence)
+- [Native Format](#native-format)
+- [Content Overview](#content-overview)
+- [Angle / Perspective](#angle-perspective)
+- [Author](#author)
+## Contents
+
+- [Contents](#contents)
 - [Essence](#essence)
 - [Native Format](#native-format)
 - [Content Overview](#content-overview)
@@ -19,6 +28,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---

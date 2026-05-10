@@ -1,5 +1,12 @@
 # research-docs + LiteParse
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Автор:** nlaik / Jerry Liu / LlamaIndex
 **Проекты:** Svyazi, LiteParse

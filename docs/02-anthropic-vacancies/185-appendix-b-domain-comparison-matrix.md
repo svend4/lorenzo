@@ -4,6 +4,14 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [Appendix B: Domain Comparison Matrix](#appendix-b-domain-comparison-matrix)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+## Contents
+
+- [Contents](#contents)
 - [Appendix B: Domain Comparison Matrix](#appendix-b-domain-comparison-matrix)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

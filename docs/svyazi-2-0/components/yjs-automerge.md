@@ -1,5 +1,12 @@
 # Yjs + Automerge
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Авторы:** Kevin Jahns / Automerge team
 **Проекты:** Svyazi, Yjs, Automerge

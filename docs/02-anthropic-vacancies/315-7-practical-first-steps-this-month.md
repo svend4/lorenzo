@@ -14,8 +14,23 @@
 
 <!-- tags: architecture, anthropic -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 <!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [7. Practical First Steps This Month](#7-practical-first-steps-this-month)
+  - [7.1. This Week](#71-this-week)
+  - [7.2. This Month](#72-this-month)
+  - [7.3. Next Quarter](#73-next-quarter)
+  - [7.4. Specific Test Case: This Document Series](#74-specific-test-case-this-document-series)
 ## Contents
 
 - [Содержание](#содержание)

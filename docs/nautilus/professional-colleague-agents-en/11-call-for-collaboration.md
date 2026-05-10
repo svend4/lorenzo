@@ -4,6 +4,18 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For Professional Practitioners](#111-for-professional-practitioners)
+  - [11.2. For Domain Experts (Curators)](#112-for-domain-experts-curators)
+  - [11.3. For Software Engineers](#113-for-software-engineers)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Existing Professional Tool Vendors](#115-for-existing-professional-tool-vendors)
+  - [11.6. For Researchers](#116-for-researchers)
+  - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
+## Contents
+
+- [Contents](#contents)
 - [11. Call for Collaboration](#11-call-for-collaboration)
   - [11.1. For Professional Practitioners](#111-for-professional-practitioners)
   - [11.2. For Domain Experts (Curators)](#112-for-domain-experts-curators)
@@ -25,6 +37,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.
 
 ---

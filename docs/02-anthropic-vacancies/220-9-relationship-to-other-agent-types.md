@@ -11,6 +11,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Professional Colleague Agents do not stand alone. They
 
 ---

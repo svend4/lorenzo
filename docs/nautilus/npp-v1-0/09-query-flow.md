@@ -4,6 +4,14 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [9. Query Flow](#9-query-flow)
+  - [9.1. Lifecycle](#91-lifecycle)
+  - [9.2. Parallelism](#92-parallelism)
+  - [9.3. Error Handling](#93-error-handling)
+## Contents
+
+- [Contents](#contents)
 - [9. Query Flow](#9-query-flow)
   - [9.1. Lifecycle](#91-lifecycle)
   - [9.2. Parallelism](#92-parallelism)
@@ -17,6 +25,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---

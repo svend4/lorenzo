@@ -1,5 +1,12 @@
 # Executive summary
 
+<!-- toc-auto -->
+## Contents
+
+- [Статус](#статус)
+- [Executive summary](#executive-summary)
+
+
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >

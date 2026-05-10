@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [15. Glossary of Examples](#15-glossary-of-examples)
+- [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
+  - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
+  - [A.2. Minimal Adapter](#a2-minimal-adapter)
+  - [A.3. Minimal Passport](#a3-minimal-passport)
+## Contents
+
+- [Contents](#contents)
 - [15. Glossary of Examples](#15-glossary-of-examples)
 - [Appendix A: Minimal Working Example](#appendix-a-minimal-working-example)
   - [A.1. Minimal nautilus.json](#a1-minimal-nautilusjson)
@@ -19,6 +28,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---

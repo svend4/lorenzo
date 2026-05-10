@@ -10,6 +10,22 @@
 
 
 <!-- toc-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [References](#references)
+  - [Primary Empirical Source](#primary-empirical-source)
+  - [Companion Papers](#companion-papers)
+  - [Foundation Sources (continued from Representative Agent Layer)](#foundation-sources-continued-from-representative-agent-layer)
+  - [Professional Practice Theory](#professional-practice-theory)
+  - [AI in Professional Practice](#ai-in-professional-practice)
+  - [Related Architecture](#related-architecture)
 ## Contents
 
 - [Contents](#contents)

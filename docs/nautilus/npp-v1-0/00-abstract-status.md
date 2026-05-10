@@ -1,10 +1,21 @@
 # Abstract + Status of This Document
 
+<!-- toc-auto -->
+## Contents
+
+- [Abstract](#abstract)
+- [0. Status of This Document](#0-status-of-this-document)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---
 <!-- tags: anthropic, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

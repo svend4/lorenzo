@@ -1,11 +1,22 @@
 # Mega‑Stack 2.0 — Ultimate Legal‑AI System
 
+<!-- toc-auto -->
+## Contents
+
+- [Capabilities](#capabilities)
+- [First implementation priority](#first-implementation-priority)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».
 **Проекты:** Svyazi, CardIndex, NGT Memory, Auto AI Router, Yjs
 
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

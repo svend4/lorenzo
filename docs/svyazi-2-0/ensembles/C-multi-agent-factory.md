@@ -1,11 +1,22 @@
 # Ансамбль C — Spec‑driven multi‑agent factory
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** mclaude, AI Factory, Rufler, AutoResearch
 
 ---
 <!-- tags: orchestration, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

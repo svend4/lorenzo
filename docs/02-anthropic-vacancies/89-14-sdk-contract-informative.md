@@ -3,6 +3,19 @@
 
 
 <!-- toc-auto -->
+
+> [!IMPORTANT]
+> Нормативный документ. Описывает контракты и архитектурные решения.
+
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [14. SDK Contract (Informative)](#14-sdk-contract-informative)
+  - [14.1. Required SDK Methods](#141-required-sdk-methods)
+  - [14.2. Optional SDK Methods](#142-optional-sdk-methods)
+  - [14.3. Return Types](#143-return-types)
 ## Contents
 
 - [Contents](#contents)

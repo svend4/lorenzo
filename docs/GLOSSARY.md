@@ -3,6 +3,10 @@
 
 <!-- tags: meta, glossary, index -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 <!-- summary -->
 > Все проекты, упоминаемые в документах, с количеством файлов.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

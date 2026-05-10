@@ -13,6 +13,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** The gap needs to be closed not through yet another centralized platform, but through a protocol — a way for the two triangles to negotiate through well-defined interfaces.
@@ -22,6 +26,16 @@
 
 
 <!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [1. Why Single-Triangle Models Are Incomplete](#1-why-single-triangle-models-are-incomplete)
+  - [1.1. The Current Landscape](#11-the-current-landscape)
+  - [1.2. What Both Paradigms Miss](#12-what-both-paradigms-miss)
+  - [1.3. The Rising Urgency](#13-the-rising-urgency)
 ## Contents
 
 - [Содержание](#содержание)

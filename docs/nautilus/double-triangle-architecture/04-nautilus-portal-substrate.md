@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [4. Nautilus Portal as Reference Substrate](#4-nautilus-portal-as-reference-substrate)

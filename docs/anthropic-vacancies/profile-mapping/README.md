@@ -1,6 +1,9 @@
 # profile-mapping/ — маппинг профиля svend4 на роли Anthropic
 
 
+<!-- summary -->
+> Маппинг профиля svend4 на вакансии Anthropic: соответствие навыков и приоритетных направлений.
+
 <!-- tags: anthropic, profile, mapping -->
 
 В этом же диалоге (после обзора 16 кластеров) Claude трижды итеративно отображал профиль `svend4` (Nautilus / pro2 / Writing OS / data70 / 87‑skill ecosystem) на роли Anthropic. Каждая итерация менял ранжирование, потому что Claude получал больше данных о профиле.

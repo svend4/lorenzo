@@ -1,5 +1,12 @@
 # knowledge-space
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Автор:** Sonia_Black / AnastasiyaW
 **Проекты:** Svyazi, knowledge-space

@@ -4,6 +4,14 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
+  - [4.3. Multilingual Support](#43-multilingual-support)
+## Contents
+
+- [Contents](#contents)
 - [4. Passport (passport.md)](#4-passport-passportmd)
   - [4.1. Purpose](#41-purpose)
   - [4.2. Recommended Structure](#42-recommended-structure)
@@ -17,6 +25,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---

@@ -11,6 +11,10 @@ priority: 2
 tags: [liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, html-report, evidence]
 ---
 <!-- autofill-status -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Статус
 
 | Параметр | Значение |

@@ -1,11 +1,22 @@
 # Ансамбль A — Collaboration OS
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Ожидаемые новые свойства](#ожидаемые-новые-свойства)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (1).md`.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, architecture, self-improvement, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

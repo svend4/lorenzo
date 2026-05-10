@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. The Cowork Discovery and Why It Changes Everything](#1-the-cowork-discovery-and-why-it-changes-everything)

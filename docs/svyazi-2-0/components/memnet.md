@@ -1,5 +1,12 @@
 # MemNet / memory-is-all-you-need
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Источник:** Хабр + GitHub citeturn21view4turn17search0turn18search2
 **Проекты:** Svyazi, MemNet

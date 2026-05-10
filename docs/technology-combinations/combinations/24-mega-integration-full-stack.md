@@ -7,6 +7,10 @@
 ---
 <!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improvement -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

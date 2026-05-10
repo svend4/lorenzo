@@ -1,10 +1,21 @@
 # Research Report: Sozialrecht (35 комбинаций)
 
+<!-- toc-auto -->
+## Contents
+
+- [Что в отчёте](#что-в-отчёте)
+- [Артефакт документа](#артефакт-документа)
+
+
 <!-- summary -->
 > > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 35 Previously Identified Combinations — Focus on the German *Sozialrecht* Domain»
 
 ---
 <!-- tags: rag, architecture -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

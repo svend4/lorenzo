@@ -1,5 +1,12 @@
 # Self‑Aware MCP + Skills + CodeWiki
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Авторы:** akazant / akzhankalimatov / AnastasiyaW
 **Проекты:** Svyazi

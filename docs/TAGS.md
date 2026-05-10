@@ -1,9 +1,23 @@
 # Индекс тегов
 
 
+<!-- summary -->
+> Индекс тегов: каждый файл помечен тегами по темам автоматически.
+
 <!-- tags: meta, tags, index -->
 
 <!-- toc-auto -->
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [#anthropic (2 файлов)](#anthropic-2-файлов)
+- [#architecture (1 файлов)](#architecture-1-файлов)
+- [#collaboration (2 файлов)](#collaboration-2-файлов)
+- [#ingestion (2 файлов)](#ingestion-2-файлов)
+- [#knowledge (1 файлов)](#knowledge-1-файлов)
+- [#memory (1 файлов)](#memory-1-файлов)
+- [#roadmap (1 файлов)](#roadmap-1-файлов)
 ## Contents
 
 - [Contents](#contents)

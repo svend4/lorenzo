@@ -3,6 +3,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** The Configuration Problem A principal entering an ecosystem with hundreds of available sub-agents faces a configuration problem.

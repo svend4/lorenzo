@@ -1,11 +1,22 @@
 # Ансамбль H — Research‑to‑Product Flywheel
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Новое свойство](#новое-свойство)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`.
 **Проекты:** Svyazi, knowledge-space, mclaude, AI Factory, Rufler, AutoResearch
 
 ---
 <!-- tags: rag, orchestration, knowledge, ingestion, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

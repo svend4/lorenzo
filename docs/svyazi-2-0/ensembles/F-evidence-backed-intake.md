@@ -1,11 +1,22 @@
 # Ансамбль F — Evidence‑Backed Community Intake
 
+<!-- toc-auto -->
+## Contents
+
+- [Схема](#схема)
+- [Новые свойства](#новые-свойства)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md` (ансамбли «второго порядка»).
 **Проекты:** Svyazi, CardIndex, LiteParse, Hybrid RAG, Yodoca
 
 ---
 <!-- tags: memory, rag, knowledge, ingestion, local-first, architecture, collaboration -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 

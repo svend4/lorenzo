@@ -1,5 +1,12 @@
 # Hybrid RAG knowledge base
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Источник:** Хабр citeturn34view2
 **Проекты:** Svyazi, Hybrid RAG

@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [2. Historical Precedents: Agents as Civilizational Innovation](#2-historical-precedents-agents-as-civilizational-innovation)

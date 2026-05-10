@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Contents](#contents)
 - [16. MCP Extension (Informative)](#16-mcp-extension-informative)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

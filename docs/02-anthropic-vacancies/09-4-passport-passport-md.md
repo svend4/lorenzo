@@ -3,6 +3,18 @@
 
 
 <!-- toc-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [4. Passport (passport.md)](#4-passport-passportmd)
+  - [4.1. Purpose](#41-purpose)
+  - [4.2. Recommended Structure](#42-recommended-structure)
 ## Contents
 
 - [Contents](#contents)

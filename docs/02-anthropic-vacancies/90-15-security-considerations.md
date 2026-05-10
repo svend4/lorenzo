@@ -39,6 +39,25 @@
 - [Contents](#contents-1)
 - [Contents](#contents-2)
 - [Contents](#contents-3)
+- [Contents](#contents-4)
+- [Contents](#contents-5)
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Contents](#contents-3)
 - [15. Security Considerations](#15-security-considerations)
   - [15.1. Untrusted Adapters](#151-untrusted-adapters)
   - [15.2. Private Repositories](#152-private-repositories)
@@ -75,6 +94,25 @@
 
 
 <!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Contents](#contents)
+- [Contents](#contents-1)
+- [Contents](#contents-2)
+- [Contents](#contents-3)
+- [Contents](#contents-4)
+- [Contents](#contents-5)
+- [15. Security Considerations](#15-security-considerations)
+  - [15.1. Untrusted Adapters](#151-untrusted-adapters)
+  - [15.2. Private Repositories](#152-private-repositories)
+  - [15.3. MCP Exposure](#153-mcp-exposure)
+  - [15.4. Rate Limiting](#154-rate-limiting)
+  - [15.5. Supply Chain](#155-supply-chain)
+- [Упоминается в](#упоминается-в)
+- [Упоминается в](#упоминается-в-1)
+- [Связанные документы](#связанные-документы)
+- [Связанные документы](#связанные-документы-1)
 ## Contents
 
 - [Содержание](#содержание)

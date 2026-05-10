@@ -4,6 +4,15 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [5. Compatibility Levels](#5-compatibility-levels)
+  - [Level 0 — Discoverable](#level-0-discoverable)
+  - [Level 1 — Readable](#level-1-readable)
+  - [Level 2 — Queryable](#level-2-queryable)
+  - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+## Contents
+
+- [Contents](#contents)
 - [5. Compatibility Levels](#5-compatibility-levels)
   - [Level 0 — Discoverable](#level-0-discoverable)
   - [Level 1 — Readable](#level-1-readable)
@@ -19,6 +28,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).
 
 ---

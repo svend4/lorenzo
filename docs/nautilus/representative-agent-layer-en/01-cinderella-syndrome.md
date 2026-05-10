@@ -6,6 +6,10 @@
 ---
 
 <!-- toc -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 ## Содержание
 
 - [1. The Cinderella Syndrome: Why Quality Stays Invisible](#1-the-cinderella-syndrome-why-quality-stays-invisible)

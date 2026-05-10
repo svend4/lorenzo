@@ -9,6 +9,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):
 **Проекты:** CardIndex, [knowledge-space](../01-svyazi/03-component-catalog.md), NGT Memory, Wikontic
 

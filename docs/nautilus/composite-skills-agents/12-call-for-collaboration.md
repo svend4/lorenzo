@@ -4,6 +4,17 @@
 ## Contents
 
 - [Contents](#contents)
+- [Contents](#contents-1)
+- [12. Call for Collaboration](#12-call-for-collaboration)
+  - [12.1. For Practitioners](#121-for-practitioners)
+  - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
+  - [12.3. For Software Engineers and Architects](#123-for-software-engineers-and-architects)
+  - [12.4. For Researchers](#124-for-researchers)
+  - [12.5. For Foundation Funders](#125-for-foundation-funders)
+  - [12.6. For Policymakers](#126-for-policymakers)
+## Contents
+
+- [Contents](#contents)
 - [12. Call for Collaboration](#12-call-for-collaboration)
   - [12.1. For Practitioners](#121-for-practitioners)
   - [12.2. For Curators and Domain Experts](#122-for-curators-and-domain-experts)
@@ -23,6 +34,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».
 
 ---

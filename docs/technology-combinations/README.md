@@ -1,6 +1,9 @@
 # technology-combinations/ — комбинирование технологий для новых свойств
 
 
+<!-- summary -->
+> Комбинации технологий: исследовательские отчёты о синергии инструментов для Knowledge OS.
+
 <!-- tags: technology, combinations, overview -->
 
 ## Источник

@@ -9,6 +9,10 @@
 
 
 <!-- summary -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка **трёх новых ансамблей второго порядка**, где компоненты перестают быть “рядами функ
 **Проекты:** Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space](03-component-catalog.md)[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 

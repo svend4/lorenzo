@@ -1,5 +1,12 @@
 # Voice / local-first stack
 
+<!-- toc-auto -->
+## Contents
+
+- [Описание](#описание)
+- [Ключевые компоненты и паттерны](#ключевые-компоненты-и-паттерны)
+
+
 <!-- summary -->
 > - **Авторы:** atatchin / askid / обзоры Handy / OpenWhispr
 **Проекты:** Svyazi, Whisper, Yttri

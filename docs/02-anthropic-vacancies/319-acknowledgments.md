@@ -14,6 +14,10 @@
 
 
 <!-- abstract-auto -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 > **Абстракт** (авто)
 >
 > 🎯 **Проблема:** Acknowledgments This document emerged from author's question about how to --- Acknowledgments This document emerged from author's question about how to integrate InGit specifically

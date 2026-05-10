@@ -10,6 +10,15 @@
 
 - [Contents](#contents)
 - [Contents](#contents-1)
+- [Contents](#contents-2)
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
+  - [7.1. Хронология применения](#71-хронология-применения)
+  - [7.2. Артефакты](#72-артефакты)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
+## Contents
+
+- [Contents](#contents)
+- [Contents](#contents-1)
 - [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
   - [7.1. Хронология применения](#71-хронология-применения)
   - [7.2. Артефакты](#72-артефакты)

@@ -6,6 +6,10 @@
 ---
 <!-- tags: memory, orchestration, knowledge, ingestion, local-first, architecture, roadmap, collaboration -->
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+
 
 
 

@@ -1,11 +1,22 @@
 # Evidence Envelope
 
+<!-- toc-auto -->
+## Contents
+
+- [Минимальные поля](#минимальные-поля)
+- [Особые случаи](#особые-случаи)
+
+
 <!-- summary -->
 > > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».
 **Проекты:** LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
 
 ---
 <!-- tags: memory, rag, local-first, architecture, self-improvement -->
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
 
 
 
