@@ -7,14 +7,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 131
   },
@@ -30,16 +30,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 209
   },
@@ -50,14 +50,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 140
   },
@@ -69,17 +69,20 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
+      "utils_docignore",
       "pathlib",
-      "utils_docignore"
+      "argparse"
     ],
-    "args": [],
-    "has_dry_run": false,
+    "args": [
+      "--dry-run"
+    ],
+    "has_dry_run": true,
     "has_main": true,
     "risk": "red",
     "group": "",
-    "lines": 186
+    "lines": 201
   },
   "improve_audit_db.py": {
     "doc": "improve_audit_db.py — SQLite audit log для всех событий системы.",
@@ -95,10 +98,10 @@
     ],
     "imports": [
       "sys",
-      "pathlib",
-      "datetime",
       "sqlite3",
-      "json"
+      "json",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": true,
@@ -117,16 +120,16 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "json",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "content",
     "lines": 246
   },
@@ -141,16 +144,16 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "datetime",
       "utils_docignore",
-      "datetime"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 192
   },
@@ -162,13 +165,13 @@
     ],
     "imports": [
       "re",
-      "pathlib",
-      "sys"
+      "sys",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 95
   },
@@ -187,16 +190,16 @@
       "enrich_project_files"
     ],
     "imports": [
+      "re",
       "sys",
       "importlib.util",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 386
   },
@@ -207,9 +210,9 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
@@ -233,7 +236,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 150
   },
@@ -250,12 +253,12 @@
     ],
     "imports": [
       "sys",
-      "subprocess",
+      "json",
       "improve_run_all",
-      "pathlib",
+      "subprocess",
       "datetime",
-      "time",
-      "json"
+      "pathlib",
+      "time"
     ],
     "args": [],
     "has_dry_run": false,
@@ -277,14 +280,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "os"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "quality",
     "lines": 223
   },
@@ -298,10 +301,10 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
+      "pathlib",
       "subprocess",
-      "pathlib"
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
@@ -319,10 +322,10 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
+      "pathlib",
       "subprocess",
-      "pathlib"
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
@@ -344,12 +347,12 @@
       "flush_buffer"
     ],
     "imports": [
-      "sys",
-      "hashlib",
       "re",
-      "pathlib",
+      "sys",
+      "json",
+      "hashlib",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
@@ -386,17 +389,17 @@
       "_score"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
       "datetime",
+      "pathlib",
       "urllib.parse"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "analytics",
     "lines": 173
   },
@@ -411,15 +414,15 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
       "pathlib",
+      "collections",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 146
   },
@@ -431,15 +434,15 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
+      "pathlib",
       "subprocess",
-      "pathlib"
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 99
   },
@@ -458,16 +461,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 289
   },
@@ -488,7 +491,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 147
   },
@@ -519,17 +522,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
+      "json",
       "collections",
-      "pathlib",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 283
   },
@@ -541,14 +544,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 137
   },
@@ -560,14 +563,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "export",
     "lines": 166
   },
@@ -578,14 +581,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 166
   },
@@ -623,16 +626,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "subprocess",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 236
   },
@@ -644,14 +647,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 163
   },
@@ -665,16 +668,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 203
   },
@@ -689,16 +692,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 287
   },
@@ -709,14 +712,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 168
   },
@@ -729,14 +732,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 181
   },
@@ -753,17 +756,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
       "datetime",
+      "pathlib",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "analytics",
     "lines": 331
   },
@@ -780,17 +783,17 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "os",
-      "collections",
       "re",
+      "sys",
+      "collections",
+      "datetime",
       "pathlib",
-      "datetime"
+      "os"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 252
   },
@@ -802,14 +805,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 97
   },
@@ -821,14 +824,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 121
   },
@@ -844,16 +847,16 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "hashlib",
-      "collections",
       "re",
+      "sys",
+      "collections",
+      "hashlib",
       "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 149
   },
@@ -865,14 +868,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 136
   },
@@ -885,18 +888,18 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
-      "datetime",
-      "urllib.request",
+      "sys",
       "urllib.error",
-      "json"
+      "json",
+      "datetime",
+      "pathlib",
+      "urllib.request"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "cicd",
     "lines": 180
   },
@@ -912,7 +915,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "meta",
     "lines": 228
   },
@@ -928,14 +931,14 @@
     ],
     "imports": [
       "re",
-      "subprocess",
       "pathlib",
+      "subprocess",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "analytics",
     "lines": 152
   },
@@ -953,12 +956,12 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "subprocess",
-      "collections",
       "re",
-      "pathlib",
-      "datetime"
+      "sys",
+      "collections",
+      "subprocess",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
@@ -976,16 +979,16 @@
       "main"
     ],
     "imports": [
-      "subprocess",
-      "collections",
       "re",
-      "pathlib",
-      "datetime"
+      "collections",
+      "subprocess",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "analytics",
     "lines": 141
   },
@@ -1002,16 +1005,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 292
   },
@@ -1024,16 +1027,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 202
   },
@@ -1047,14 +1050,14 @@
       "table"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 145
   },
@@ -1067,18 +1070,18 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "subprocess",
-      "shutil",
-      "tempfile",
-      "re",
+      "datetime",
       "pathlib",
-      "datetime"
+      "shutil",
+      "tempfile"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "export",
     "lines": 140
   },
@@ -1095,10 +1098,10 @@
       "main"
     ],
     "imports": [
-      "csv",
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections",
+      "csv"
     ],
     "args": [],
     "has_dry_run": false,
@@ -1121,7 +1124,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "export",
     "lines": 182
   },
@@ -1135,15 +1138,15 @@
       "main"
     ],
     "imports": [
-      "json",
       "re",
       "pathlib",
+      "json",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "export",
     "lines": 124
   },
@@ -1162,18 +1165,18 @@
       "_health_metrics"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
+      "json",
       "datetime",
-      "math",
-      "json"
+      "pathlib",
+      "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "export",
     "lines": 405
   },
@@ -1190,18 +1193,18 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "collections",
       "re",
-      "pathlib",
+      "sys",
+      "urllib.error",
+      "collections",
       "datetime",
-      "urllib.request",
-      "urllib.error"
+      "pathlib",
+      "urllib.request"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 269
   },
@@ -1212,14 +1215,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 111
   },
@@ -1232,14 +1235,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 103
   },
@@ -1256,16 +1259,16 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "json",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 277
   },
@@ -1277,14 +1280,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 150
   },
@@ -1296,16 +1299,19 @@
       "save_code"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections",
+      "argparse"
     ],
-    "args": [],
-    "has_dry_run": false,
+    "args": [
+      "--dry-run"
+    ],
+    "has_dry_run": true,
     "has_main": true,
     "risk": "red",
     "group": "",
-    "lines": 147
+    "lines": 161
   },
   "improve_gap_filler.py": {
     "doc": "improve_gap_filler.py — заполняет пустые секции найденным контентом (BM25).",
@@ -1319,19 +1325,19 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
+      "json",
       "datetime",
       "utils_docignore",
-      "math",
-      "json"
+      "pathlib",
+      "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "content",
     "lines": 296
   },
@@ -1343,17 +1349,17 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "subprocess",
-      "shutil",
-      "re",
+      "datetime",
       "pathlib",
-      "datetime"
+      "shutil"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "cicd",
     "lines": 190
   },
@@ -1367,14 +1373,14 @@
       "make_url_index"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 122
   },
@@ -1388,14 +1394,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 155
   },
@@ -1407,16 +1413,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 227
   },
@@ -1436,7 +1442,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "quality",
     "lines": 157
   },
@@ -1448,14 +1454,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 140
   },
@@ -1472,7 +1478,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "meta",
     "lines": 176
   },
@@ -1484,16 +1490,16 @@
       "main"
     ],
     "imports": [
-      "subprocess",
       "re",
-      "pathlib",
+      "json",
+      "subprocess",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 134
   },
@@ -1508,17 +1514,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
+      "json",
       "collections",
-      "pathlib",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 270
   },
@@ -1538,15 +1544,15 @@
     ],
     "imports": [
       "re",
+      "json",
       "collections",
-      "pathlib",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 267
   },
@@ -1557,14 +1563,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "meta",
     "lines": 128
   },
@@ -1579,15 +1585,15 @@
       "main"
     ],
     "imports": [
-      "json",
       "re",
       "pathlib",
+      "json",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "meta",
     "lines": 151
   },
@@ -1602,16 +1608,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 236
   },
@@ -1627,19 +1633,19 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "collections",
-      "pathlib",
-      "datetime",
-      "urllib.request",
+      "sys",
       "urllib.error",
-      "json"
+      "json",
+      "collections",
+      "datetime",
+      "pathlib",
+      "urllib.request"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 216
   },
@@ -1655,17 +1661,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "anthropic",
       "datetime",
-      "time",
-      "anthropic"
+      "pathlib",
+      "time"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 235
   },
@@ -1678,19 +1684,19 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "utils_chunker",
       "re",
-      "pathlib",
-      "datetime",
-      "time",
+      "sys",
+      "json",
       "anthropic",
-      "json"
+      "datetime",
+      "utils_chunker",
+      "pathlib",
+      "time"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 301
   },
@@ -1703,15 +1709,15 @@
       "main"
     ],
     "imports": [
-      "anthropic",
       "re",
       "pathlib",
+      "anthropic",
       "os"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 131
   },
@@ -1730,15 +1736,15 @@
       "get_cached"
     ],
     "imports": [
-      "sys",
-      "utils_chunker",
-      "hashlib",
       "re",
-      "pathlib",
-      "datetime",
-      "time",
+      "sys",
+      "json",
       "anthropic",
-      "json"
+      "hashlib",
+      "datetime",
+      "utils_chunker",
+      "pathlib",
+      "time"
     ],
     "args": [],
     "has_dry_run": false,
@@ -1757,18 +1763,18 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "utils_chunker",
       "re",
-      "pathlib",
+      "sys",
+      "anthropic",
       "datetime",
-      "time",
-      "anthropic"
+      "utils_chunker",
+      "pathlib",
+      "time"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 261
   },
@@ -1779,10 +1785,10 @@
       "_percentile"
     ],
     "imports": [
-      "json",
-      "collections",
       "pathlib",
-      "datetime"
+      "json",
+      "datetime",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
@@ -1824,17 +1830,17 @@
       "union"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
       "datetime",
+      "pathlib",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 269
   },
@@ -1867,14 +1873,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "quality",
     "lines": 207
   },
@@ -1893,14 +1899,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 162
   },
@@ -1929,14 +1935,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 123
   },
@@ -1948,17 +1954,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
+      "json",
       "collections",
-      "pathlib",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 277
   },
@@ -1988,14 +1994,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 155
   },
@@ -2013,14 +2019,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "export",
     "lines": 150
   },
@@ -2039,7 +2045,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "meta",
     "lines": 157
   },
@@ -2050,14 +2056,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 113
   },
@@ -2073,17 +2079,17 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
       "datetime",
+      "pathlib",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 243
   },
@@ -2101,16 +2107,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 250
   },
@@ -2127,18 +2133,18 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
+      "json",
       "datetime",
-      "math",
-      "json"
+      "pathlib",
+      "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 286
   },
@@ -2153,16 +2159,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 238
   },
@@ -2174,9 +2180,9 @@
     "imports": [
       "sys",
       "subprocess",
-      "shutil",
+      "datetime",
       "pathlib",
-      "datetime"
+      "shutil"
     ],
     "args": [],
     "has_dry_run": false,
@@ -2193,15 +2199,15 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
       "pathlib",
+      "collections",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 138
   },
@@ -2214,14 +2220,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 160
   },
@@ -2241,14 +2247,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 414
   },
@@ -2262,14 +2268,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 170
   },
@@ -2283,16 +2289,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 212
   },
@@ -2304,14 +2310,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 127
   },
@@ -2325,14 +2331,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "quality",
     "lines": 146
   },
@@ -2350,20 +2356,20 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
+      "json",
       "datetime",
-      "math",
-      "json"
+      "pathlib",
+      "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
-    "lines": 278
+    "lines": 287
   },
   "improve_reading_order.py": {
     "doc": "improve_reading_order.py — строит рекомендуемый порядок чтения документов",
@@ -2379,7 +2385,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 165
   },
@@ -2392,14 +2398,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "analytics",
     "lines": 178
   },
@@ -2417,7 +2423,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 97
   },
@@ -2434,18 +2440,18 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "shutil",
       "re",
+      "sys",
       "collections",
-      "pathlib",
       "datetime",
-      "math"
+      "pathlib",
+      "math",
+      "shutil"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 271
   },
@@ -2461,16 +2467,16 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "json",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 235
   },
@@ -2490,7 +2496,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 143
   },
@@ -2504,14 +2510,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "meta",
     "lines": 175
   },
@@ -2528,13 +2534,13 @@
       "main"
     ],
     "imports": [
-      "email.utils",
-      "sys",
-      "subprocess",
       "re",
-      "pathlib",
+      "sys",
+      "xml.etree.ElementTree",
+      "subprocess",
       "datetime",
-      "xml.etree.ElementTree"
+      "pathlib",
+      "email.utils"
     ],
     "args": [],
     "has_dry_run": false,
@@ -2555,11 +2561,11 @@
       "_run_group"
     ],
     "imports": [
+      "re",
       "sys",
       "subprocess",
-      "concurrent.futures",
-      "re",
       "pathlib",
+      "concurrent.futures",
       "time"
     ],
     "args": [],
@@ -2577,9 +2583,9 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
@@ -2607,7 +2613,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 229
   },
@@ -2623,15 +2629,15 @@
     ],
     "imports": [
       "re",
-      "pathlib",
-      "datetime",
       "json",
-      "ast"
+      "ast",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 162
   },
@@ -2643,14 +2649,14 @@
       "main"
     ],
     "imports": [
-      "json",
       "re",
-      "pathlib"
+      "pathlib",
+      "json"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 118
   },
@@ -2664,11 +2670,11 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "utils_docignore"
+      "utils_docignore",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
@@ -2680,6 +2686,7 @@
   "improve_self.py": {
     "doc": "improve_self.py — метаскрипт: читает все скрипты, строит каталог, обогащает, генерирует.",
     "functions": [
+      "_is_inplace_writer",
       "analyze_script",
       "cmd_audit",
       "cmd_catalog",
@@ -2689,14 +2696,14 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
-      "dataclasses",
-      "argparse",
+      "sys",
       "json",
       "typing",
-      "ast"
+      "ast",
+      "dataclasses",
+      "pathlib",
+      "argparse"
     ],
     "args": [
       "--dry-run",
@@ -2713,9 +2720,9 @@
     ],
     "has_dry_run": true,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
-    "lines": 517
+    "lines": 570
   },
   "improve_sentiment.py": {
     "doc": "improve_sentiment.py — тональный анализ документов.",
@@ -2725,14 +2732,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 167
   },
@@ -2744,14 +2751,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 129
   },
@@ -2767,17 +2774,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
       "datetime",
+      "pathlib",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 231
   },
@@ -2796,7 +2803,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 172
   },
@@ -2807,15 +2814,15 @@
     ],
     "imports": [
       "sys",
+      "json",
       "collections",
-      "pathlib",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 128
   },
@@ -2829,17 +2836,17 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "subprocess",
-      "collections",
       "re",
-      "pathlib",
-      "datetime"
+      "sys",
+      "collections",
+      "subprocess",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 227
   },
@@ -2854,17 +2861,17 @@
       "_replace"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
       "datetime",
+      "pathlib",
       "spellchecker"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "quality",
     "lines": 194
   },
@@ -2879,16 +2886,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "subprocess",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 166
   },
@@ -2899,14 +2906,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 128
   },
@@ -2925,17 +2932,17 @@
       "get_health_score"
     ],
     "imports": [
-      "sys",
-      "subprocess",
       "re",
-      "pathlib",
+      "sys",
+      "json",
+      "subprocess",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 214
   },
@@ -2951,16 +2958,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "textwork",
     "lines": 231
   },
@@ -2972,9 +2979,9 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
       "pathlib",
+      "sys",
       "utils_docignore"
     ],
     "args": [],
@@ -2993,14 +3000,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 128
   },
@@ -3017,16 +3024,16 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "json",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": true,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 364
   },
@@ -3057,17 +3064,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
-      "datetime",
+      "sys",
       "improve_validate_templates",
-      "json"
+      "json",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 186
   },
@@ -3082,15 +3089,15 @@
     ],
     "imports": [
       "re",
-      "pathlib",
-      "sys"
+      "sys",
+      "pathlib"
     ],
     "args": [],
-    "has_dry_run": false,
+    "has_dry_run": true,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
-    "lines": 163
+    "lines": 169
   },
   "improve_template_migrate.py": {
     "doc": "improve_template_migrate.py — миграции frontmatter при изменении схемы шаблона.",
@@ -3103,17 +3110,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
-      "datetime",
+      "sys",
       "improve_validate_templates",
-      "json"
+      "json",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": true,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 217
   },
@@ -3144,14 +3151,14 @@
     ],
     "imports": [
       "re",
-      "pathlib",
       "sys",
+      "pathlib",
       "datetime"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 287
   },
@@ -3169,16 +3176,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "nlpplus",
     "lines": 256
   },
@@ -3189,14 +3196,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 113
   },
@@ -3209,16 +3216,16 @@
       "main"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 256
   },
@@ -3237,7 +3244,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 86
   },
@@ -3253,17 +3260,17 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
+      "sys",
       "collections",
-      "pathlib",
       "datetime",
+      "pathlib",
       "math"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "analytics",
     "lines": 243
   },
@@ -3279,14 +3286,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 183
   },
@@ -3303,16 +3310,16 @@
       "main"
     ],
     "imports": [
-      "sys",
       "re",
-      "pathlib",
+      "sys",
+      "json",
       "datetime",
-      "json"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": false,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 318
   },
@@ -3327,12 +3334,12 @@
       "main"
     ],
     "imports": [
-      "sys",
-      "subprocess",
-      "collections",
       "re",
-      "pathlib",
-      "datetime"
+      "sys",
+      "collections",
+      "subprocess",
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
@@ -3356,16 +3363,16 @@
       "_grade"
     ],
     "imports": [
+      "re",
       "sys",
       "collections",
-      "re",
-      "pathlib",
-      "datetime"
+      "datetime",
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "deeptext",
     "lines": 247
   },
@@ -3378,10 +3385,10 @@
       "main"
     ],
     "imports": [
+      "time",
       "sys",
       "subprocess",
-      "pathlib",
-      "time"
+      "pathlib"
     ],
     "args": [],
     "has_dry_run": false,
@@ -3405,13 +3412,13 @@
     ],
     "imports": [
       "sys",
-      "subprocess",
       "watchdog",
-      "pathlib",
-      "datetime",
-      "time",
+      "subprocess",
+      "watchdog.observers",
       "watchdog.events",
-      "watchdog.observers"
+      "datetime",
+      "pathlib",
+      "time"
     ],
     "args": [],
     "has_dry_run": false,
@@ -3430,8 +3437,8 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
+      "collections",
       "pathlib",
       "math",
       "random"
@@ -3439,7 +3446,7 @@
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 180
   },
@@ -3452,14 +3459,14 @@
       "main"
     ],
     "imports": [
-      "collections",
       "re",
-      "pathlib"
+      "pathlib",
+      "collections"
     ],
     "args": [],
     "has_dry_run": false,
     "has_main": true,
-    "risk": "red",
+    "risk": "yellow",
     "group": "",
     "lines": 128
   },
@@ -3477,13 +3484,13 @@
       "__repr__"
     ],
     "imports": [
-      "glob",
-      "sys",
-      "subprocess",
       "re",
+      "sys",
+      "json",
+      "subprocess",
+      "glob",
       "pathlib",
-      "time",
-      "json"
+      "time"
     ],
     "args": [],
     "has_dry_run": true,
@@ -3507,13 +3514,13 @@
       "__init__"
     ],
     "imports": [
-      "sys",
-      "concurrent.futures",
-      "pathlib",
-      "datetime",
-      "time",
       "uuid",
+      "sys",
       "json",
+      "datetime",
+      "pathlib",
+      "concurrent.futures",
+      "time",
       "improve_workflow_run"
     ],
     "args": [],
