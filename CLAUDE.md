@@ -36,7 +36,7 @@ docs/
   benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 96 скриптов обработки документов (12 групп)
+  improve_*.py           — 156 скриптов обработки документов (21 группа)
   utils_chunker.py       — утилиты чанкинга для больших текстов
   mcp_server.py          — MCP-сервер с 7 инструментами
   improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
@@ -116,6 +116,115 @@ scripts/
   # Применение изменений к контенту (группа content)
   improve_auto_linker.py       — авто-ссылки на проекты/технологии в текстах (--apply)
   improve_gap_filler.py        — заполняет пустые секции BM25-контентом из базы (--apply)
+
+  # Отчёты и дашборды (группа reports)
+  improve_health.py            — дашборд здоровья репозитория → HEALTH.md
+  improve_metrics.py           — метрики качества документации → METRICS.md
+  improve_entities.py          — именованные сущности из docs/ → ENTITIES.md
+  improve_report.py            — итоговый executive report о состоянии репозитория
+  improve_stats.py             — детальная статистика по каждому разделу docs/
+  improve_scoring.py           — система оценки готовности к запуску (Go/No-Go) → SCORING.md
+  improve_orphans.py           — документы без входящих ссылок → ORPHANS.md
+  improve_missing.py           — темы упомянутые, но без документа
+  improve_staleness.py         — документы давно не обновлявшиеся или неполные
+  improve_coverage.py          — матрица покрытия: summary, теги, TOC, crossrefs, статус
+  improve_priorities.py        — ранжирует файлы по важности через TF-IDF
+  improve_registry.py          — единый реестр всех артефактов → REGISTRY.md
+  improve_skill_dashboard.py   — статистика использования и оценок скилов
+
+  # Генерация контента (группа content-gen)
+  improve_summaries.py         — краткая аннотация в начало каждого файла (⚠ без dry-run)
+  improve_readmes.py           — README.md для каждой подпапки docs/ (⚠ без dry-run)
+  improve_toc.py               — TOC в начало файлов длиннее 500 слов
+  improve_qa.py                — Q&A листы для каждого раздела docs/ → QA.md
+  improve_glossary.py          — проекты, авторов и URL → GLOSSARY.md
+  improve_tags.py              — теги для каждого файла → TAGS.md
+  improve_alerts.py            — GitHub callout-блоки [!NOTE/TIP/WARNING] (--dry-run)
+  improve_footnotes.py         — сноски [^term] к техническим терминам (--dry-run)
+  improve_see_also.py          — блок "See Also / Смотрите также" в файлы
+  improve_faq.py               — FAQ из QA-паттернов в документах → FAQ.md
+  improve_abbreviations.py     — словарь аббревиатур из docs/ → ABBREVIATIONS.md
+  improve_badges.py            — SVG-бейджи для README
+  improve_status_badges.py     — SVG status badges (state, priority, license)
+  improve_sitemap.py           — навигационная карта репозитория → SITEMAP.md
+  improve_mindmap.py           — майндмап в формате Mermaid mindmap → MINDMAP.md
+  improve_word_cloud.py        — SVG word cloud из топ-слов → word_cloud.svg
+
+  # Анализ и исследование (группа analysis)
+  improve_decisions.py         — ключевые выводы и решения → DECISIONS.md
+  improve_concepts.py          — определения понятий прямо из текстов → CONCEPTS.md
+  improve_kpi.py               — числовые KPI и метрики → KPI.md
+  improve_questions.py         — открытые вопросы из docs/ → QUESTIONS.md
+  improve_action_items.py      — задачи, риски, решения и TODO → ACTION_ITEMS.md
+  improve_timeline.py          — даты и временные маркеры → TIMELINE.md
+  improve_narrative.py         — нарративная линия проекта → NARRATIVE.md
+  improve_clusters.py          — кластеризует файлы по тематической близости
+  improve_density.py           — карта плотности тем по документам
+  improve_heatmap.py           — тепловая карта тем по разделам → HEATMAP.md
+  improve_sentiment.py         — тональный анализ документов → SENTIMENT.md
+  improve_complexity.py        — оценка читаемости документов
+  improve_word_freq.py         — частотный анализ слов по разделам → WORD_FREQ.md
+  improve_cost.py              — оценка стоимости разработки MVP → COST.md
+  improve_schedule.py          — расписание из ACTION_ITEMS и временных маркеров
+
+  # Ссылки и связи (группа links)
+  improve_backlinks.py         — индекс обратных ссылок → BACKLINKS.md
+  improve_crossrefs.py         — карта перекрёстных ссылок → CROSSREFS.md
+  improve_similar.py           — топ-3 похожих документа для каждого файла
+  improve_graph.py             — граф связей между проектами → graph.dot
+  improve_network.py           — анализ сети авторов и проектов → NETWORK.md
+  improve_reading_order.py     — рекомендуемый порядок чтения → READING_ORDER.md
+
+  # Проверка качества (группа quality-extra)
+  improve_broken_links.py      — внутренние ссылки в docs/ (проверка)
+  improve_consistency.py       — разные написания одного термина → CONSISTENCY.md
+  improve_dedup.py             — дублирующиеся файлы и похожие абзацы → DEDUP.md
+  improve_validate.py          — валидация структуры репозитория
+  improve_validate_templates.py — валидация документов по схемам шаблонов
+  improve_compare.py           — docs/ vs предыдущий коммит (diff)
+  improve_template_integrity.py — целостность шаблонов (--fix для исправления)
+  improve_autocorrect.py       — применяет исправления из CONSISTENCY.md (--apply)
+
+  # Дополнительный экспорт (группа export-extra)
+  improve_export_csv.py        — метаданные docs/ → export.csv
+  improve_export_html.py       — docs/ → единый HTML-сайт
+  improve_export_json.py       — структура docs/ → structured JSON
+  improve_extract_code.py      — все code-блоки из docs/ → CODE_BLOCKS.md
+  improve_extract_tables.py    — все Markdown-таблицы из docs/ → TABLES.md
+
+  # Работа с контактами (группа contacts-extra)
+  improve_contacts.py          — email, Telegram, GitHub, Habr-ники → CONTACTS.md
+  improve_contact_priority.py  — ранжирует авторов по приоритету контакта
+  improve_migrate_contacts.py  — миграция docs/contacts/*.md на frontmatter
+
+  # Шаблоны и схемы (группа templates)
+  improve_templates.py         — генерирует шаблоны для каждого раздела docs/
+  improve_template_init.py     — инициализация нового документа из шаблона
+  improve_template_migrate.py  — миграции frontmatter при изменении схемы
+
+  # Индексация и мета (группа index-meta)
+  improve_index_update.py      — инкрементальное обновление search_index.json
+  improve_scripts_catalog.py   — каталог всех scripts/improve_*.py → scripts_catalog.json
+  improve_self.py              — метаскрипт: аудит, каталог, обогащение, генерация скриптов
+  improve_audit_db.py          — SQLite audit log всех событий → audit.db
+
+  # LLM дополнительно (группа llm-extra)
+  improve_llm_gaps.py          — семантический поиск пробелов через Claude API
+
+  # MCP-инструменты (группа mcp-tools)
+  improve_mcp_dashboard.py     — статистика вызовов MCP-серверов → MCP_DASHBOARD.md
+  improve_mcp_test.py          — smoke-тесты для всех MCP-серверов
+
+  # Воркфлоу и автоматизация (группа workflow)
+  improve_workflow_run.py      — исполнитель пайплайнов из tasks/*.task.yaml
+  improve_workflow_v2.py       — workflow engine v2 (расширенный)
+  improve_task_codegen.py      — генератор слоёв (скилл/MCP/index) из *.task.yaml
+  improve_watcher.py           — автономный агент-наблюдатель (Ступень 6)
+  improve_progress.py          — трекер прогресса MVP-проекта → PROGRESS.md
+  improve_progress_sync.py     — синхронизирует PROGRESS.md с реальным состоянием
+  improve_changelog.py         — CHANGELOG из git-истории → CHANGELOG.md
+  improve_digest.py            — дайджест недавних изменений → DIGEST.md
+  improve_merge_short.py       — сливает слишком короткие файлы с соседом
 
 .claude/skills/
   analyze-project.md   — анализ проекта из docs/

@@ -55,6 +55,61 @@ class ScriptInfo:
 
 
 # ─────────────────────────────────────────────
+# Вспомогательные функции
+# ─────────────────────────────────────────────
+
+def _is_inplace_writer(source: str) -> bool:
+    """True если скрипт модифицирует файлы которые сам и читает через glob.
+
+    Отличие от «безопасных» скриптов: вызывает write_text() внутри тела
+    for-цикла по rglob/glob, а не снаружи (на отдельном output-файле).
+
+    Пример RED:    for f in DOCS.rglob("*.md"):
+                       ...
+                       f.write_text(new_text)      ← внутри цикла
+
+    Пример YELLOW: for f in DOCS.rglob("*.md"):
+                       ...                         ← только чтение
+                   out = DOCS / "REPORT.md"
+                   out.write_text(report)           ← снаружи цикла
+    """
+    lines = source.split("\n")
+    # Stack of (for_indent,) — indent of the "for" keyword line
+    for_stack: list[int] = []
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+
+        current_indent = len(line) - len(line.lstrip())
+
+        # Убрать for-циклы, которые уже закончились
+        for_stack = [ind for ind in for_stack if current_indent > ind]
+
+        # Обнаружить for-цикл по rglob/glob
+        if re.match(r"for\s+\w+\s+in\s+.+(?:rglob|glob)\s*\(", stripped):
+            for_stack.append(current_indent)
+            continue
+
+        # Если мы внутри хотя бы одного glob-цикла и встречаем write_text → RED
+        if for_stack and re.search(r"\.(write_text|write_bytes)\s*\(", stripped):
+            return True
+
+    # Secondary signal: scripts with SKIP/ALREADY_HAS marker constants + write_text
+    # are in-place writers even if write_text is delegated to a helper function.
+    # Must appear as a top-level assignment (not inside a string/regex).
+    marker_pattern = re.search(
+        r'^(?:SKIP_MARKERS|ALREADY_HAS\w*|MARKER)\s*=\s*["\'\(]',
+        source, re.MULTILINE
+    )
+    if marker_pattern and re.search(r'\.write_text\s*\(', source):
+        return True
+
+    return False
+
+
+# ─────────────────────────────────────────────
 # AST-анализ одного скрипта
 # ─────────────────────────────────────────────
 
@@ -115,20 +170,18 @@ def analyze_script(path: Path) -> ScriptInfo:
     info.has_dry_run = "--dry-run" in info.args or "dry_run" in source
     info.has_main_block = 'if __name__ == "__main__"' in source
 
-    # Риск: если пишет в docs/**/*.md — жёлтый/красный
+    # Риск: различаем три уровня
+    # 🟢 GREEN:  только чтение / stdout
+    # 🟡 YELLOW: пишет в один выделенный output-файл (HEALTH.md, METRICS.md и т.д.)
+    # 🔴 RED:    модифицирует входные файлы in-place (write_text на loop-переменной)
     writes_docs = "write_text" in info.writes or "write_bytes" in info.writes
-    reads_glob = "rglob" in source or "glob" in source
 
-    if writes_docs and reads_glob:
-        # Пишет в те же файлы что читает → красный
-        if ".md" in source and "write_text" in source:
-            info.risk = "red"
-        else:
-            info.risk = "yellow"
-    elif writes_docs:
-        info.risk = "yellow"
-    else:
+    if not writes_docs:
         info.risk = "green"
+    elif _is_inplace_writer(source):
+        info.risk = "red"
+    else:
+        info.risk = "yellow"
 
     # Группа из CLAUDE.md (простая эвристика)
     group_keywords = {

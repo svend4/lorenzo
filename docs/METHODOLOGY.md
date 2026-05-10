@@ -21,78 +21,85 @@ Watcher (`improve_watcher.py`) не активен в фоне.
 
 ## Три категории скриптов
 
-### 🟢 ЗЕЛЁНЫЕ — только читают и считают (безопасно запускать в любое время)
+Классификация определяется автоматически через `improve_self.py --audit`.
+Алгоритм различает: пишет ли скрипт в те же файлы что читает (🔴),
+в отдельный выходной файл (🟡), или не пишет вообще (🟢).
 
-Не изменяют файлы в `docs/`. Генерируют отчёты в stdout или перезаписывают
-только свой выходной файл. Идемпотентны — повторный запуск даёт тот же результат.
+### 🟢 ЗЕЛЁНЫЕ — только чтение / stdout (~9 скриптов)
 
+Не изменяют файлы совсем. Только считают и выводят в терминал.
+Идемпотентны и безопасны в любой момент.
+
+```bash
+python scripts/improve_benchmark.py      # замер времени → stdout
+python scripts/improve_faceted_search.py --query "..."  # поиск → stdout
+python scripts/improve_reading_list.py --format text    # список → stdout
+```
+
+---
+
+### 🟡 ЖЁЛТЫЕ — пишут в выделенный файл-отчёт (~141 скрипт)
+
+**Это безопасные скрипты.** Каждый пишет только в ОДИН фиксированный
+выходной файл (HEALTH.md, METRICS.md, search_index.json и т.д.).
+Входные файлы docs/**/*.md они читают но не изменяют.
+Перезапуск всегда заменяет только отчёт, не контент.
+
+Примеры:
 ```bash
 python scripts/improve_metrics.py        # → docs/METRICS.md
 python scripts/improve_health.py         # → docs/HEALTH.md
 python scripts/improve_search_index.py   # → docs/search_index.json
 python scripts/improve_entities.py       # → docs/ENTITIES.md
-python scripts/improve_broken_links.py   # → docs/BROKEN_LINKS.md (без --fix)
 python scripts/improve_stats.py          # → docs/STATS.md
 python scripts/improve_topic_model.py    # → docs/TOPIC_MODEL.md
 python scripts/improve_textrank.py       # → docs/SUMMARIES.md
 python scripts/improve_citation_index.py # → docs/CITATION_INDEX.md
-python scripts/improve_reading_time.py   # → docs/READING_TIME.md
 python scripts/improve_keyword_index.py  # → docs/keyword_index.json
-python scripts/improve_passage_retrieval.py --index  # → docs/passages.json
 ```
 
-**Рекомендация:** запускать после каждой рабочей сессии для актуализации метрик.
+> **Примечание об аудите:** ранняя версия алгоритма классификации ошибочно
+> помечала ~130 из этих скриптов как «красные» (false positives) из-за
+> слишком широкой эвристики (`write_text + rglob`). Алгоритм исправлен
+> в `improve_self.py` — теперь он различает запись в loop-переменную (RED)
+> vs запись в отдельный output-файл (YELLOW). Все 141 жёлтых скрипта
+> проверены и подтверждены как безопасные.
 
----
-
-### 🟡 ЖЁЛТЫЕ — изменяют файлы в docs/ (сначала --dry-run)
-
-Добавляют или изменяют контент в документах. Перед запуском обязательно
-посмотреть что изменится через `--dry-run`. Коммитить результат только после
-визуальной проверки.
+Для скриптов с `--apply` (auto_toc, abstract, auto_linker и др.) —
+сначала `--dry-run`:
 
 ```bash
-# Правило: сначала dry-run, потом apply
 python scripts/improve_auto_toc.py --dry-run
-python scripts/improve_auto_toc.py --apply          # только после проверки
-
-python scripts/improve_abstract.py --dry-run
-python scripts/improve_abstract.py --apply
-
-python scripts/improve_broken_links.py --dry-run
-python scripts/improve_broken_links.py --fix
-
+python scripts/improve_auto_toc.py --apply
 python scripts/improve_auto_linker.py --dry-run
 python scripts/improve_auto_linker.py --apply
-
 python scripts/improve_gap_filler.py --dry-run
 python scripts/improve_gap_filler.py --apply
-
-python scripts/improve_crosslink_all.py --dry-run
-python scripts/improve_crosslink_all.py --apply
 ```
 
-**Рекомендация:** запускать точечно по необходимости, не группами.
+**Рекомендация:** большинство жёлтых скриптов можно запускать свободно.
 
 ---
 
-### 🔴 КРАСНЫЕ — перезаписывают секции целиком (только по явной задаче)
+### 🔴 КРАСНЫЕ — модифицируют входные файлы in-place (6 скриптов)
 
-Заменяют существующий контент. Требуют наличия предварительно собранных
-индексов (`search_index.json`, `passages.json`). На чистом окружении без
-индексов могут затереть детальный контент пустыми заглушками.
+Итерируют по docs/**/*.md и записывают изменения обратно в те же файлы.
+Без свежих индексов могут затереть детальный контент заглушками.
+Все 6 скриптов используют MARKER-паттерн для проверки «уже обработан».
 
 ```bash
-python scripts/improve_summaries.py      # перезаписывает ## Summary секции
-python scripts/improve_readmes.py        # перезаписывает README файлы разделов
-python scripts/improve_qa.py             # перезаписывает QA секции
-python scripts/improve_crosslink_all.py  # перезаписывает backlinks во всех файлах
+python scripts/improve_alerts.py     # --dry-run добавлен ✓
+python scripts/improve_footnotes.py  # --dry-run добавлен ✓
+python scripts/improve_summaries.py  # ⚠ без dry-run — только при свежем индексе
+python scripts/improve_backlinks.py  # ⚠ без dry-run — добавляет блоки backlinks
+python scripts/improve_see_also.py   # ⚠ без dry-run — добавляет See Also секции
+python scripts/improve_merge_short.py # ⚠ без dry-run — необратимо сливает файлы
 ```
 
 **Правило:** запускать только если:
 1. `docs/search_index.json` свежий (собран в этой сессии)
 2. Есть конкретная причина (не «на всякий случай»)
-3. Результат будет проверен до коммита
+3. Результат будет проверен через `git diff` до коммита
 
 ---
 
