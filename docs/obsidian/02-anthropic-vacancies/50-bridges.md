@@ -15,8 +15,8 @@ date: 2026-04-29
 ## Contents
 
 - [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))
-  - [pro2 ↔ meta](#[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
+  - [pro2 ↔ info1](#pro2-info1)
+  - [pro2 ↔ meta](#pro2-meta)
 
 
 <!-- summary -->

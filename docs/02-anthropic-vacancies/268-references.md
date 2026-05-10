@@ -10,10 +10,6 @@
   - [Multi-Agent Coordination](#multi-agent-coordination)
   - [Practical Examples](#practical-examples)
   - [Companion Documents in This Series](#companion-documents-in-this-series)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 

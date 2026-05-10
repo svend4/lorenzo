@@ -27,7 +27,7 @@
   - [Compatibility Levels](#compatibility-levels)
   - [Documentation](#documentation)
   - [Project Status](#project-status)
-  - [Why "Nautilus"?](#why-[nautilus](../05-habr-projects/memory/memnet.md))
+  - [Why "Nautilus"?](#why-nautilus)
   - [Related Work](#related-work)
   - [Licenses](#licenses)
   - [Contact](#contact)

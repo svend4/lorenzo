@@ -17,7 +17,7 @@ _Определения извлечены автоматически из до�
   _→ [254-1-why-the-binary-view-is-incomplete](02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)_
 
 **A2A protocol**
-: [A2A vs MCP, ансамбль H](  
+: A2A vs MCP, ансамбль H
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **About Nautilus**
@@ -77,7 +77,7 @@ _Определения извлечены автоматически из до�
   _→ [173-4-ten-domains-of-application](02-anthropic-vacancies/173-4-ten-domains-of-application.md)_
 
 **Agent-pool**
-: [Distributed Agent Workshop](  
+: Distributed Agent Workshop
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **agent-spec**
@@ -89,7 +89,7 @@ _Определения извлечены автоматически из до�
   _→ [307-abstract](02-anthropic-vacancies/307-abstract.md)_
 
 **Agent‑Bridge**
-: [Agent Orchestration Stack (комбо 9)](  
+: Agent Orchestration Stack (комбо 9)
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Agent‑first knowledge retrieval**
@@ -133,7 +133,7 @@ _Определения извлечены автоматически из до�
   _→ [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)_
 
 **Anthropic Skills**
-: [Self‑Aware MCP + Skills + CodeWiki](  
+: Self‑Aware MCP + Skills + CodeWiki
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Anthropomorphizing self**
@@ -205,7 +205,7 @@ _Определения извлечены автоматически из до�
   _→ [00-intro](02-anthropic-vacancies/00-intro.md)_
 
 **Auto AI Router**
-: [Security + routing plane](  
+: Security + routing plane
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **AutoAdapter**
@@ -220,7 +220,7 @@ _Определения извлечены автоматически из до�
   _→ [00-intro](02-anthropic-vacancies/00-intro.md)_
 
 **Biome / Ruff / uv**
-: [Continuation 10 domains](  
+: Continuation 10 domains
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **BM25 (Best Match 25)**
@@ -268,7 +268,7 @@ _Определения извлечены автоматически из до�
   _→ [359-твои-anti-patterns](02-anthropic-vacancies/359-твои-anti-patterns.md)_
 
 **ByteRover**
-: [Supplementary infrastructure](  
+: Supplementary infrastructure
   _→ [components-by-name](glossary/components-by-name.md)_
 
 
@@ -307,7 +307,7 @@ _Определения извлечены автоматически из до�
   _→ [257-4-the-sub-agent-registry](02-anthropic-vacancies/257-4-the-sub-agent-registry.md)_
 
 **Changed**
-: `is_fallback` field added to [PortalEntry](  
+: `is_fallback` field added to PortalEntry
   _→ [103-appendix-b-change-log](02-anthropic-vacancies/103-appendix-b-change-log.md)_
 
 **Characteristics**
@@ -343,7 +343,7 @@ _Определения извлечены автоматически из до�
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
 
 **CoAlly**
-: [Cross‑Agent Memory Bus](  
+: Cross‑Agent Memory Bus
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **CoAlly team**
@@ -363,7 +363,7 @@ _Определения извлечены автоматически из до�
   _→ [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
 **CodeWiki**
-: [Self‑Aware MCP + Skills + CodeWiki](  
+: Self‑Aware MCP + Skills + CodeWiki
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **com, Oyster**
@@ -634,7 +634,7 @@ _Определения извлечены автоматически из до�
   _→ [186-appendix-c-sample-use-cases-in-detail](02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)_
 
 **DuckDB / Turso / pgvector**
-: [Continuation 10 domains](  
+: Continuation 10 domains
   _→ [components-by-name](glossary/components-by-name.md)_
 
 
@@ -733,7 +733,7 @@ _Определения извлечены автоматически из до�
   _→ [156-2-target-populations](02-anthropic-vacancies/156-2-target-populations.md)_
 
 **Examples**
-: ChatGPT, Claude, Cursor, [GitHub](  
+: ChatGPT, Claude, Cursor, GitHub
   _→ [212-1-the-five-type-typology-of-principal-side-agents](02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)_
 
 **Excessive caveats**
@@ -781,7 +781,7 @@ _Определения извлечены автоматически из до�
   _→ [256-3-what-makes-a-composite-skills-agent](02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)_
 
 **Extropic / Normal Computing (TSU)**
-: [Hardware pair 2 — TSU × MoME](  
+: Hardware pair 2 — TSU × MoME
   _→ [components-by-name](glossary/components-by-name.md)_
 
 
@@ -915,7 +915,7 @@ _Определения извлечены автоматически из до�
   _→ [01-strategic-significance](nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **GitHubTopicAdapter**
-: discovery по [GitHub](  
+: discovery по GitHub
   _→ [97-22-glossary-of-reference-examples](02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)_
 
 **glossary-entry**
@@ -1111,7 +1111,7 @@ _Определения извлечены автоматически из до�
   _→ [00-intro](02-anthropic-vacancies/00-intro.md)_
 
 **K2-18 (Романов)**
-: [Three direct analogues](  
+: Three direct analogues
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Keep and focus on**
@@ -1127,7 +1127,7 @@ _Определения извлечены автоматически из до�
   _→ [219-8-pilot-proposal-sgb-advocate-colleague](02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)_
 
 **Knowledge organization**
-: Structuring [CardIndex](  
+: Structuring CardIndex
   _→ [351-что-ты-можешь-делать](02-anthropic-vacancies/351-что-ты-можешь-делать.md)_
 
 **Konstantin Chukavin (Обучай)**
@@ -1146,11 +1146,11 @@ _Определения извлечены автоматически из до�
   _→ [266-13-closing](02-anthropic-vacancies/266-13-closing.md)_
 
 **Langfuse / TraceDebugger**
-: [AgentOps + Trace Envelope](  
+: AgentOps + Trace Envelope
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **LangGraph**
-: [vs Notion/Mem/AFFiNE/LangGraph](  
+: vs Notion/Mem/AFFiNE/LangGraph
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Large Language Models**
@@ -1222,7 +1222,7 @@ _Определения извлечены автоматически из до�
   _→ [171-2-historical-precedents-agents-as-civilizational-i](02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)_
 
 **LiteLLM**
-: [Security + routing plane](  
+: Security + routing plane
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **LiteLLM — claimed MIT**
@@ -1269,7 +1269,7 @@ _Определения извлечены автоматически из до�
 ## M
 
 **Mamba (SSM)**
-: [Hardware pair 1 — Neuromorphic × SSM](  
+: Hardware pair 1 — Neuromorphic × SSM
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **man agency и dignity in AI-augmented work**
@@ -1586,7 +1586,7 @@ _Определения извлечены автоматически из до�
   _→ [351-что-ты-можешь-делать](02-anthropic-vacancies/351-что-ты-можешь-делать.md)_
 
 **PDA-бот (Possibility-Driven Architecture)**
-: [Habr key‑findings — PDA](  
+: Habr key‑findings — PDA
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Persistence**
@@ -2111,7 +2111,7 @@ _Определения извлечены автоматически из до�
   _→ [49-angle-perspective](02-anthropic-vacancies/49-angle-perspective.md)_
 
 **SENTINEL**
-: [Security + routing plane](  
+: Security + routing plane
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Sequencing**
@@ -2139,7 +2139,7 @@ _Определения извлечены автоматически из до�
   _→ [156-2-target-populations](02-anthropic-vacancies/156-2-target-populations.md)_
 
 **Skate**
-: [Distributed Agent Workshop](  
+: Distributed Agent Workshop
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **social_law + analysis_05_recommendations**
@@ -2298,7 +2298,7 @@ _Определения извлечены автоматически из до�
   _→ [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)_
 
 **tg-chat-analyser**
-: [Supplementary infrastructure](  
+: Supplementary infrastructure
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **The combinatorial value**
@@ -2386,7 +2386,7 @@ _Определения извлечены автоматически из до�
   _→ [01-strategic-significance](nautilus/multi-tier-architecture/01-strategic-significance.md)_
 
 **Tool Search**
-: [Security + routing plane](  
+: Security + routing plane
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **Topologически полезен**
@@ -2414,7 +2414,7 @@ _Определения извлечены автоматически из до�
   _→ [continuation-10-domains](technology-combinations/research-reports/continuation-10-domains.md)_
 
 **txt**
-: ограничение [GitHub](  
+: ограничение GitHub
   _→ [00-intro](02-anthropic-vacancies/00-intro.md)_
 
 **Type 1**
@@ -2579,7 +2579,7 @@ _Определения извлечены автоматически из до�
   _→ [00-intro](04-ai-collaborations/00-intro.md)_
 
 **Wikontic**
-: [Three direct analogues](  
+: Three direct analogues
   _→ [components-by-name](glossary/components-by-name.md)_
 
 
@@ -2590,7 +2590,7 @@ _Определения извлечены автоматически из до�
   _→ [conclusions](svyazi-2-0/limitations/conclusions.md)_
 
 **YDB / Tarantool DB 3.0**
-: [Sozialrecht report](  
+: Sozialrecht report
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **YiJing-Transformer research**
@@ -3024,7 +3024,7 @@ _Определения извлечены автоматически из до�
   _→ [79-4-passport-passport-md](02-anthropic-vacancies/79-4-passport-passport-md.md)_
 
 **Дочкина (Sequential протокол)**
-: [AutoResearch + Sequential](  
+: AutoResearch + Sequential
   _→ [components-by-name](glossary/components-by-name.md)_
 
 **дублирования кода и документации**
@@ -3071,7 +3071,7 @@ _Определения извлечены автоматически из до�
   _→ [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)_
 
 **епо hex-проектов, граф Q6 (гексаграммы)»)**
-: backbone для [pro2](  
+: backbone для pro2
   _→ [00-intro](02-anthropic-vacancies/00-intro.md)_
 
 **есколько детей, превосходящих в обучении»**
@@ -3291,7 +3291,7 @@ _Определения извлечены автоматически из до�
   _→ [107-1-контекст-и-мотивация](02-anthropic-vacancies/107-1-контекст-и-мотивация.md)_
 
 **Качество**
-: зависит от index в [nautilus](  
+: зависит от index в nautilus
   _→ [87-12-onboarding-paths-normative](02-anthropic-vacancies/87-12-onboarding-paths-normative.md)_
 
 **кетинг, нетворкинг, построение нарратива)**
@@ -3445,7 +3445,7 @@ _Определения извлечены автоматически из до�
   _→ [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)_
 
 **методологическое измерение**
-: отвечает на вопрос «как это делать», в отличие от `[pro2](  
+: отвечает на вопрос «как это делать», в отличие от `pro2
   _→ [36-essence](02-anthropic-vacancies/36-essence.md)_
 
 **Механика**
@@ -3858,7 +3858,7 @@ _Определения извлечены автоматически из до�
   _→ [234-3-эмпирический-кейс-обучай](02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)_
 
 **Примеры**
-: ChatGPT, Claude, Cursor, [GitHub](  
+: ChatGPT, Claude, Cursor, GitHub
   _→ [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)_
 
 **Примеры запросов**
@@ -4275,7 +4275,7 @@ _Определения извлечены автоматически из до�
   _→ [349-твоя-личность](02-anthropic-vacancies/349-твоя-личность.md)_
 
 **Требования**
-: - Только запись в `[nautilus](  
+: - Только запись в `nautilus
   _→ [80-5-compatibility-levels](02-anthropic-vacancies/80-5-compatibility-levels.md)_
 
 **Третичные**

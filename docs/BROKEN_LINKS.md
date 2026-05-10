@@ -1,61 +1,65 @@
 # Сломанные внутренние ссылки
 
-**Найдено:** 779 проблем, 22 пропущено (длинный путь)
+**Найдено:** 512 проблем, 22 пропущено (длинный путь)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` | ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS P | `#общий-план-развития-[nautilus](../05-ha` | якорь не найден |
-| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Связанные документы | `#связанные-документы` | якорь не найден |
 | `docs/02-anthropic-vacancies/104-appendix-c-references.md` | Nautilus Portal Protocol v1.1 | `./docs/PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | 7. Реализация в проекте Nautil | `#7-реализация-в-проекте-[nautilus](../05` | якорь не найден |
-| `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` | 7.3. Интеграция с Nautilus Por | `#73-интеграция-с-[nautilus](../05-habr-p` | якорь не найден |
 | `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
 | `docs/02-anthropic-vacancies/122-глоссарий.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
 | `docs/02-anthropic-vacancies/130-отладка.md` | Tool-call падает с "adapterfai | `#tool-call-падает-с-adapterfailed` | якорь не найден |
-| `docs/02-anthropic-vacancies/133-обратная-связь.md` | 9. Практический roadmap для hu | `#9-практический-roadmap-для-humanities-e` | якорь не найден |
-| `docs/02-anthropic-vacancies/133-обратная-связь.md` | Формализация звезды Давида в т | `#формализация-звезды-давида-в-терминах-[` | якорь не найден |
-| `docs/02-anthropic-vacancies/133-обратная-связь.md` | Как Nautilus уже обслуживает э | `#как-[nautilus](../05-habr-projects/memo` | якорь не найден |
-| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | 4. Nautilus Portal as Referenc | `#4-[nautilus](../05-habr-projects/memory` | якорь не найден |
-| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | 4.3. Empirical Evidence from N | `#43-empirical-evidence-from-[nautilus](.` | якорь не найден |
-| `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | 4.1. Technical Substrate: Naut | `#41-technical-substrate-[nautilus](../05` | якорь не найден |
-| `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | 9.1. For AI Companies (Anthrop | `#91-for-ai-companies-anthropic-[mistral]` | якорь не найден |
-| `docs/02-anthropic-vacancies/165-closing.md` | Что описывает статья — суть пр | `#что-описывает-статья-суть-проекта-[svya` | якорь не найден |
-| `docs/02-anthropic-vacancies/165-closing.md` | Что это значит для проекта OKW | `#что-это-значит-для-проекта-okwf-и-[naut` | якорь не найден |
-| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/179-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
 | `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | 6.4. translateto(entry, target | `#64-translatetoentry-targetrepo-required` | якорь не найден |
-| `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` | Что это значит для OKWF и Naut | `#что-это-значит-для-okwf-и-[nautilus](..` | якорь не найден |
-| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/221-10-open-questions.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` | Связь с библиотекой паттернов  | `#связь-с-библиотекой-паттернов-[nautilus` | якорь не найден |
-| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Упоминается в | `#упоминается-в` | якорь не найден |
-| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | Связанные документы | `#связанные-документы` | якорь не найден |
-| `docs/02-anthropic-vacancies/268-references.md` | Упоминается в | `#упоминается-в` | якорь не найден |
+| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | `passports/` | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md §6 | `./PORTAL-PROTOCOL.md#6-adapter-interface` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md §5 | `./PORTAL-PROTOCOL.md#5-compatibility-lev` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md | `./PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | passports/ | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | info1 | `./passports/info1.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | pro2 | `./passports/pro2.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | meta | `./passports/meta.md` | файл не существует |
+| `docs/02-anthropic-vacancies/67-о-проекте.md` | MIT | `./LICENSE` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | `passports/` | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md §6 | `./PORTAL-PROTOCOL.md#6-adapter-interface` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md §5 | `./PORTAL-PROTOCOL.md#5-compatibility-lev` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md | `./PORTAL-PROTOCOL.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | passports/ | `./passports/` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | info1 | `./passports/info1.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | pro2 | `./passports/pro2.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | meta | `./passports/meta.md` | файл не существует |
+| `docs/02-anthropic-vacancies/68-about.md` | MIT | `./LICENSE` | файл не существует |
+| `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | tdywx@abc123 | `link` | файл не существует |
+| `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | CzylE@def456 | `link` | файл не существует |
+| `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | 12.2. Path B — generatepasspor | `#122-path-b-generatepassportpy-wizard` | якорь не найден |
+| `docs/ACTION_ITEMS.md` | ADR-NNNN | `../decisions/ADR-NNNN.md` | файл не существует |
+| `docs/ACTION_ITEMS.md` | 8.1. Trade-offs | `#81-trade-offs` | якорь не найден |
+| `docs/ACTION_ITEMS.md` | 8.2. Открытые вопросы | `#82-открытые-вопросы` | якорь не найден |
+| `docs/ACTION_ITEMS.md` | [Content Overview | `docs/02-anthropic-vacancies/31-content-o` | файл не существует |
+| `docs/ACTION_ITEMS.md` | BaseAdapter | `../docs/02-anthropic-vacanc  
+  _→ 87-12` | файл не существует |
+| `docs/CODE_BLOCKS.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
+| `docs/CODE_BLOCKS.md` | docs | `docs/badges/docs.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | words | `docs/badges/words.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | scripts | `docs/badges/scripts.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | health | `docs/badges/health.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | go/no-go | `docs/badges/scoring.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | license | `docs/badges/license.svg` | файл не существует |
+| `docs/CODE_BLOCKS.md` | branch | `docs/badges/branch.svg` | файл не существует |
+| `docs/CONCEPTS.md` | `npp-v1-1/` | `npp-v1-1/` | файл не существует |
+| `docs/CONCEPTS.md` | `okwf-concept/` | `okwf-concept/` | файл не существует |
+| `docs/DECISIONS.md` | Контакт: AnastasiyaW / knowled | `#рекомендуется-создать-документы` | якорь не найден |
+| `docs/DECISIONS.md` | Детали по топ-20 пробелам | `#детали-по-топ-20-пробелам` | якорь не найден |
+| `docs/DECISIONS.md` | `LiteParse` (105 файлов) | `#liteparse-105-файлов` | якорь не найден |
+| `docs/DECISIONS.md` | `BSL` (75 файлов) | `#bsl-75-фай  
+  _→ CONTENT_GAPS_
 
-_...и ещё 729 проблем_
+- созд` | якорь не найден |
+| `docs/DIGEST_AUTO.md` | `improve_card_index.py` | `scripts/improve_card_index.py` | файл не существует |
+| `docs/DIGEST_AUTO.md` | `recipe_history.json` | `scripts/recipe_history.json` | файл не существует |
+
+_...и ещё 462 проблем_
 
 ## Пропущено из-за длинного пути (22)
 
@@ -71,10 +75,10 @@ _Markdown-ссылки с путём > 240 символов — OS не може
   _→ 01-интегральны` | путь слишком длинный (406 симв.) |
 | `docs/QUESTIONS.md` | `docs/nautilus/okwf-concept/10-appendices.md]
 - ###` | путь слишком длинный (288 симв.) |
-| `docs/TABLES.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
-| ` | путь слишком длинный (731 симв.) |
-| `docs/TABLES.md` | `docs/04-ai-collaborations/06… |
-| `07-mvp-planning` | путь слишком длинный (632 симв.) |
+| `docs/TABLES.md` | `nautilus/review-methodology/00-tldr | 23 |
+| **DSL` | путь слишком длинный (726 симв.) |
+| `docs/TABLES.md` | `04-ai-collaborations/06… |
+| `07-mvp-planning` | l` | путь слишком длинный (627 симв.) |
 | `docs/TABLES.md` | `../05-ha` | якорь не найден |
 | `docs/02-anthropic` | путь слишком длинный (7010 симв.) |
 | `docs/habr-unique-projects/README.md` | `../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%B` | путь слишком длинный (403 симв.) |

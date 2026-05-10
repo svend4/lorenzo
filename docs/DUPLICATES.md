@@ -136,7 +136,7 @@
 **Общих абзацев:** 1  
 **Примеры совпадений:**
 
-> - [anastasiyaw.md](anastasiyaw.md) — --- - [andrey-chuyan.md](andrey-chuyan.md) — --- - [antipozitive.md](antipozitive.md) — --- - [cutcode.md](cutcode.md) — --- - [dmitriila.md](dmitriila.md) — --- -…
+> - [anastasiyaw.md](anastasiyaw.md) — --- - [andrey-chuyan.md](contacts/andrey-chuyan.md) — --- - [antipozitive.md](contacts/antipozitive.md) — --- - [cutcode.md](contacts/cutcode.md) — --- - [dmitriila.md](contacts/dmitriila.md) — --- -…
 
 ---
 

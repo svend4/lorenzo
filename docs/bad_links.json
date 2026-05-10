@@ -21,13 +21,13 @@
   },
   {
     "file": "docs/TABLES.md",
-    "target": "docs/nautilus/review-methodology/00-tldr | 23 |\n| **DSL** | Non-programmers write legal automation |",
-    "issue": "путь слишком длинный (731 симв.)"
+    "target": "nautilus/review-methodology/00-tldr | 23 |\n| **DSL** | Non-programmers write legal automation | 72 |",
+    "issue": "путь слишком длинный (726 симв.)"
   },
   {
     "file": "docs/TABLES.md",
-    "target": "docs/04-ai-collaborations/06… |\n| `07-mvp-planning` | l Search + базовые правила безопасности | Удер",
-    "issue": "путь слишком длинный (632 симв.)"
+    "target": "04-ai-collaborations/06… |\n| `07-mvp-planning` | l Search + базовые правила безопасности | Удержать ",
+    "issue": "путь слишком длинный (627 симв.)"
   },
   {
     "file": "docs/TABLES.md",

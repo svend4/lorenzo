@@ -6,8 +6,8 @@
 ## Contents
 
 - [Bridges](#bridges)
-  - [pro2 ↔ info1](#pro2-[info1](01-интегральный-анализ-профиля-svend4.md))
-  - [pro2 ↔ meta](#[pro2](01-интегральный-анализ-профиля-svend4.md)-meta)
+  - [pro2 ↔ info1](#pro2-info1)
+  - [pro2 ↔ meta](#pro2-meta)
 
 
 <!-- summary -->

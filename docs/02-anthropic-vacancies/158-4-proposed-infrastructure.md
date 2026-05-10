@@ -24,7 +24,7 @@
 ## Содержание
 
 - [4. Proposed Infrastructure](#4-proposed-infrastructure)
-  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-[nautilus](../05-habr-projects/memory/memnet.md)-portal-protocol)
+  - [4.1. Technical Substrate: Nautilus Portal Protocol](#41-technical-substrate-nautilus-portal-protocol)
   - [4.2. Coordination Pattern: Double-Triangle Architecture](#42-coordination-pattern-double-triangle-architecture)
   - [4.3. Knowledge Layer: Pattern Library with Private Instances](#43-knowledge-layer-pattern-library-with-private-instances)
   - [4.4. Community Layer: Guild Structure](#44-community-layer-guild-structure)

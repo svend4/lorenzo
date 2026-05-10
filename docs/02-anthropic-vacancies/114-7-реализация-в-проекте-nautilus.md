@@ -8,10 +8,10 @@
 <!-- toc-auto -->
 ## Contents
 
-- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-[nautilus](../05-habr-projects/memory/memnet.md))
+- [7. Реализация в проекте Nautilus](#7-реализация-в-проекте-nautilus)
   - [7.1. Хронология применения](#71-хронология-применения)
   - [7.2. Артефакты](#72-артефакты)
-  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-[nautilus](../05-habr-projects/memory/memnet.md)-portal-protocol)
+  - [7.3. Интеграция с Nautilus Portal Protocol](#73-интеграция-с-nautilus-portal-protocol)
 
 
 <!-- summary -->

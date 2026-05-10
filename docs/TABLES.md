@@ -1370,22 +1370,22 @@ _Файл: `docs/anthropic-vacancies/overview.md` | 3 колонок, 16 стр�
 
 | Кластер | Ролей | Файл |
 |---|---|---|
-| AI Research & Engineering | 68 | [`clusters/01-ai-research-engineering.md`](clusters/01-ai-research-engineering.md) |
-| Sales | 150 (≈34%) | [`clusters/02-sales.md`](clusters/02-sales.md) |
-| Finance | 36 | [`clusters/03-finance.md`](clusters/03-finance.md) |
-| Security | 24 | [`clusters/04-security.md`](clusters/04-security.md) |
-| Marketing & Brand | 23 | [`clusters/05-marketing-brand.md`](clusters/05-marketing-brand.md) |
-| Engineering & Design - Product | 22 | [`clusters/06-engineering-design-product.md`](clusters/06-engineering-design-product.md) |
-| Software Engineering - Infrastructure | 22 | [`clusters/07-software-engineering-infrastructure.md`](clusters/07-software-engineering-infrastructure.md) |
-| Safeguards (Trust & Safety) | 21 | [`clusters/08-safeguards-trust-safety.md`](clusters/08-safeguards-trust-safety.md) |
-| Product Management, Support, & Operations | 17 | [`clusters/09-product-management-support-ops.md`](clusters/09-product-management-support-ops.md) |
-| Compute | 13 | [`clusters/10-compute.md`](clusters/10-compute.md) |
-| Legal | 13 | [`clusters/11-legal.md`](clusters/11-legal.md) |
-| Technical Program Management | 10 | [`clusters/12-technical-program-management.md`](clusters/12-technical-program-management.md) |
-| Communications | 5 | [`clusters/13-communications.md`](clusters/13-communications.md) |
-| Public Policy | 5 | [`clusters/14-public-policy.md`](clusters/14-public-policy.md) |
-| Public Benefit | 4 | [`clusters/15-public-benefit.md`](clusters/15-public-benefit.md) |
-| People | 3 | [`clusters/16-people.md`](clusters/16-people.md) |
+| AI Research & Engineering | 68 | [`clusters/01-ai-research-engineering.md`](anthropic-vacancies/clusters/01-ai-research-engineering.md) |
+| Sales | 150 (≈34%) | [`clusters/02-sales.md`](anthropic-vacancies/clusters/02-sales.md) |
+| Finance | 36 | [`clusters/03-finance.md`](anthropic-vacancies/clusters/03-finance.md) |
+| Security | 24 | [`clusters/04-security.md`](anthropic-vacancies/clusters/04-security.md) |
+| Marketing & Brand | 23 | [`clusters/05-marketing-brand.md`](anthropic-vacancies/clusters/05-marketing-brand.md) |
+| Engineering & Design - Product | 22 | [`clusters/06-engineering-design-product.md`](anthropic-vacancies/clusters/06-engineering-design-product.md) |
+| Software Engineering - Infrastructure | 22 | [`clusters/07-software-engineering-infrastructure.md`](anthropic-vacancies/clusters/07-software-engineering-infrastructure.md) |
+| Safeguards (Trust & Safety) | 21 | [`clusters/08-safeguards-trust-safety.md`](anthropic-vacancies/clusters/08-safeguards-trust-safety.md) |
+| Product Management, Support, & Operations | 17 | [`clusters/09-product-management-support-ops.md`](anthropic-vacancies/clusters/09-product-management-support-ops.md) |
+| Compute | 13 | [`clusters/10-compute.md`](anthropic-vacancies/clusters/10-compute.md) |
+| Legal | 13 | [`clusters/11-legal.md`](anthropic-vacancies/clusters/11-legal.md) |
+| Technical Program Management | 10 | [`clusters/12-technical-program-management.md`](anthropic-vacancies/clusters/12-technical-program-management.md) |
+| Communications | 5 | [`clusters/13-communications.md`](anthropic-vacancies/clusters/13-communications.md) |
+| Public Policy | 5 | [`clusters/14-public-policy.md`](anthropic-vacancies/clusters/14-public-policy.md) |
+| Public Benefit | 4 | [`clusters/15-public-benefit.md`](anthropic-vacancies/clusters/15-public-benefit.md) |
+| People | 3 | [`clusters/16-people.md`](anthropic-vacancies/clusters/16-people.md) |
 
 
 ### 2. profile-mapping/ — маппинг профиля svend4 на роли Anthropic
@@ -3121,7 +3121,7 @@ _Файл: `docs/obsidian/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 | **CRDT** ⭐ | Conflict-free Replicated Data Type — структура данных без конфликтов слияния | 155 |
 | **DAG** | шаг может объявить depends_on: [step_id, | 2 |
 | **DAO** | результат смешанный | 5 |
-| **DR** | Трёхфазная методология Review](docs/nautilus/review-methodology/00-tldr | 23 |
+| **DR** | Трёхфазная методология Review](nautilus/review-methodology/00-tldr | 23 |
 | **DSL** | Non-programmers write legal automation | 72 |
 | **EMEA** | RU/DE/EN на рабочем уровне, базирование в Германии, понимание европейского регуляторного контекста (что прямо читается ч | 60 |
 | **EN** | «was created», «is used», «has been» -  | 441 | | 450 |
@@ -3159,7 +3159,7 @@ _Файл: `docs/obsidian/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 | **NDA** | intermediate view (placeholder'ы, но с consistent identifiers для longitudinal анализа) | 3 |
 | **NGT** | граф памяти | 398 |
 | **NLP** ⭐ | Natural Language Processing — обработка естественного языка | 2 |
-| **NNNN** | [Название]](docs/templates/rfc | 37 |
+| **NNNN** | [Название]](templates/rfc | 37 |
 | **NPP** | **федеративная модель**, где каждый | 184 |
 | **OASIS** | до 1M agents simulation) | 4 |
 | **ODT** | не только текст | 3 |
@@ -3179,7 +3179,7 @@ _Файл: `docs/obsidian/ABBREVIATIONS.md` | 3 колонок, 102 строк_
 | **QA** | демон-критик (adversarial, rigorous) | 325 |
 | **RAG** ⭐ | Retrieval-Augmented Generation — генерация с поиском по базе знаний | 780 |
 | **README** | 550+ строк production-качества: установка, конфигурация для всех 6 платформ (включая детализацию /etc/fstab для CIFS, AD | 1853 |
-| **REGISTRY** | реестр артефактов Lorenzo](docs/REGISTRY | 40 |
+| **REGISTRY** | реестр артефактов Lorenzo](REGISTRY | 40 |
 | **REQUIRED** | откуда пришло | 35 |
 | **RFC** | более ранняя версия, 18 разделов + комментарий о дизайн-решениях | | 157 |
 | **ROI** | 10 sec queries vs 2 hour manual search | 55 |
@@ -5532,7 +5532,7 @@ _Файл: `docs/obsidian/READING_ORDER.md` | 5 колонок, 395 строк_
 | # | Уровень | Документ | Слов | Предварительно прочитать |
 |---|---------|----------|------|--------------------------|
 | 1 | 🟡 Средний | [[04-ensembles-overview]] | 1288 | — |
-| 2 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 | — |
+| 2 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md) | 726 | — |
 | 3 | 🟢 Начало | [[02-methodology|Методика и рамка отбора проектов]] | 480 | — |
 | 4 | 🟢 Начало | [[00-intro-part2|Продолжение исследования для Svyazi 2.0]] | 6 | — |
 | 5 | 🟡 Средний | [[03-component-catalog]] | 1383 | — |
@@ -5548,9 +5548,9 @@ _Файл: `docs/obsidian/READING_ORDER.md` | 5 колонок, 395 строк_
 | 15 | 🟢 Начало | [[01-synthesis|Синтез: как проекты собираются вместе]] | 245 | — |
 | 16 | 🟢 Начало | [[02-collaboration-partners|Авторы и контакты]] | 261 | — |
 | 17 | 🟢 Начало | [[wikontic|Wikontic: семантический граф]] | 369 | — |
-| 18 | 🟢 Начало | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 359 | — |
+| 18 | 🟢 Начало | [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) | 359 | — |
 | 19 | 🟡 Средний | [[memnet|MemNet: исследовательская память]] | 7246 | — |
-| 20 | 🟢 Начало | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 | — |
+| 20 | 🟢 Начало | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 364 | — |
 | 21 | 🟢 Начало | [[01-executive-summary|Executive summary]] | 575 | — |
 | 22 | 🟡 Средний | [[00-intro|Введение]] | 11389 | — |
 | 23 | 🟢 Начало | [[02-методика-и-рамка-отбора|Методика и рамка отбора]] | 434 | — |
@@ -7142,7 +7142,7 @@ _Файл: `docs/obsidian/RISK_REGISTER.md` | 2 колонок, 11 строк_
 | `04-ensembles-overview` | а**: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. citeturn20view12turn30… |
 | `06-security-privacy` | t, collaboration --> ## Безопасность, приватность и бюджетный роутинг Для Svyazi‑2.0 безопасная архи… |
 | `06-security-privacy` | Похожие документы:** - [06-безопасность-приватность-и-бюджетный-роутинг]] (сходство 1.00) - [05-пл… |
-| `06-security-privacy` | **Смотрите также:** - [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/06… |
+| `06-security-privacy` | **Смотрите также:** - [06-безопасность-приватность-и-бюджетный-роутинг](04-ai-collaborations/06… |
 | `07-mvp-planning` | l Search + базовые правила безопасности | Удержать стоимость и не утонуть в MCP[^mcp]/context overhe… |
 | `07-mvp-planning` | review для inferred | Снизить риск ложных связей и утечек | 1–2 дня | **Итого**: реалистичный MVP — … |
 | `07-mvp-planning` | нных компонентов. **Ключевые риски и как их закрывать** | Риск | Почему это важно | Снижение риска |… |
@@ -7544,7 +7544,7 @@ _Файл: `docs/obsidian/SITEMAP.md` | 3 колонок, 14 строк_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [[00-intro-part2|Продолжение исследования для Svyazi 2.0]] | 6 |
-| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 |
+| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md) | 726 |
 | 3 | [[02-methodology|Методика и рамка отбора проектов]] | 480 |
 | 4 | [[03-component-catalog]] | 1383 |
 | 5 | [[04-ensembles-overview]] | 1288 |
@@ -7660,8 +7660,8 @@ _Файл: `docs/obsidian/SITEMAP.md` | 3 колонок, 6 строк_
 | 2 | [[02-collaboration-partners|Авторы и контакты]] | 261 |
 | 3 | [[wikontic|Wikontic: семантический граф]] | 186 |
 | 4 | [[memnet|MemNet: исследовательская память]] | 7246 |
-| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 364 |
-| 6 | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 212 |
+| 5 | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 364 |
+| 6 | [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) | 212 |
 
 
 ### 207. Svyazi 2.0 — Архитектура системы
@@ -7767,7 +7767,7 @@ _Файл: `docs/obsidian/SITEMAP.md` | 3 колонок, 11 строк_
 | 8 | [[spbmolot]] | 36 |
 | 9 | [[svend4]] | 37 |
 | 10 | [[svyazi]] | 36 |
-| 11 | [[Тема исследования]](docs/autofilled/research-summary.md) | 87 |
+| 11 | [[Тема исследования]](autofilled/research-summary.md) | 87 |
 
 
 ### 210. Svyazi 2.0 — Архитектура системы
@@ -8086,29 +8086,29 @@ _Файл: `docs/obsidian/SITEMAP.md` | 3 колонок, 23 строк_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Спецификация агента: [Название]](docs/templates/agent-spec.md) | 356 |
-| 2 | [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) | 119 |
-| 3 | [Противоречие: [Название]](docs/templates/contradiction-record.md) | 174 |
-| 4 | [ADR: [Название решения]](docs/templates/decision-record.md) | 84 |
-| 5 | [Ансамбль: [Название]](docs/templates/ensemble.md) | 112 |
-| 6 | [Эксперимент: [Название]](docs/templates/experiment-log.md) | 185 |
-| 7 | [FAQ: [Вопрос]](docs/templates/faq-entry.md) | 132 |
-| 8 | [[Термин]](docs/templates/glossary-entry.md) | 117 |
-| 9 | [KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md) | 220 |
-| 10 | [Юридический кейс: [Aktenzeichen]](docs/templates/legal-case.md) | 275 |
-| 11 | [Встреча: [Тема]](docs/templates/meeting-notes.md) | 151 |
-| 12 | [Mega-stack: [Название]](docs/templates/mega-stack.md) | 339 |
-| 13 | [[Название компонента]](docs/templates/project-component.md) | 102 |
-| 14 | [[Название протокола]](docs/templates/protocol-spec.md) | 361 |
-| 15 | [MVP: [Название]](docs/templates/prototype-mvp.md) | 368 |
-| 16 | [[Тема исследования]](docs/templates/research-note.md) | 66 |
-| 17 | [Ретроспектива: [период]](docs/templates/retrospective.md) | 160 |
-| 18 | [RFC NNNN: [Название]](docs/templates/rfc.md) | 225 |
-| 19 | [Риск: [Название]](docs/templates/risk-entry.md) | 221 |
-| 20 | [Tech Pair: [A] × [B]](docs/templates/tech-pair.md) | 273 |
-| 21 | [Tech Radar: [Название]](docs/templates/tech-radar-entry.md) | 224 |
-| 22 | [[имя нового шаблона]](docs/templates/template-of-templates.md) | 319 |
-| 23 | [Еженедельный дайджест: [период]](docs/templates/weekly-digest.md) | 193 |
+| 1 | [Спецификация агента: [Название]](templates/agent-spec.md) | 356 |
+| 2 | [Контакт: [Имя / Проект]](templates/contact-outreach.md) | 119 |
+| 3 | [Противоречие: [Название]](templates/contradiction-record.md) | 174 |
+| 4 | [ADR: [Название решения]](templates/decision-record.md) | 84 |
+| 5 | [Ансамбль: [Название]](templates/ensemble.md) | 112 |
+| 6 | [Эксперимент: [Название]](templates/experiment-log.md) | 185 |
+| 7 | [FAQ: [Вопрос]](templates/faq-entry.md) | 132 |
+| 8 | [[Термин]](templates/glossary-entry.md) | 117 |
+| 9 | [KPI Snapshot: [дата]](templates/kpi-snapshot.md) | 220 |
+| 10 | [Юридический кейс: [Aktenzeichen]](templates/legal-case.md) | 275 |
+| 11 | [Встреча: [Тема]](templates/meeting-notes.md) | 151 |
+| 12 | [Mega-stack: [Название]](templates/mega-stack.md) | 339 |
+| 13 | [[Название компонента]](templates/project-component.md) | 102 |
+| 14 | [[Название протокола]](templates/protocol-spec.md) | 361 |
+| 15 | [MVP: [Название]](templates/prototype-mvp.md) | 368 |
+| 16 | [[Тема исследования]](templates/research-note.md) | 66 |
+| 17 | [Ретроспектива: [период]](templates/retrospective.md) | 160 |
+| 18 | [RFC NNNN: [Название]](templates/rfc.md) | 225 |
+| 19 | [Риск: [Название]](templates/risk-entry.md) | 221 |
+| 20 | [Tech Pair: [A] × [B]](templates/tech-pair.md) | 273 |
+| 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 224 |
+| 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 319 |
+| 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 193 |
 
 
 ### 218. Категории
@@ -10563,7 +10563,7 @@ _Файл: `docs/ABBREVIATIONS.md` | 3 колонок, 111 строк_
 | **NDA** | intermediate view (placeholder'ы, но с consistent identifiers для longitudinal анализа) | 6 |
 | **NGT** | граф памяти | 783 |
 | **NLP** ⭐ | Natural Language Processing — обработка естественного языка | 19 |
-| **NNNN** | [Название]](docs/templates/rfc | 45 |
+| **NNNN** | [Название]](templates/rfc | 45 |
 | **NPP** | **федеративная модель**, где каждый | 284 |
 | **OASIS** | до 1M agents simulation) | 9 |
 | **ODT** | не только текст | 6 |
@@ -16278,7 +16278,7 @@ _Файл: `docs/READING_ORDER.md` | 5 колонок, 395 строк_
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
 |---|---------|----------|------|--------------------------|
-| 1 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 | — |
+| 1 | 🟢 Начало | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md) | 726 | — |
 | 2 | 🟡 Средний | [04-ensembles-overview](01-svyazi/04-ensembles-overview.md) | 1288 | — |
 | 3 | 🟢 Начало | [Продолжение исследования для Svyazi 2.0](01-svyazi/00-intro-part2.md) | 6 | — |
 | 4 | 🟢 Начало | [Методика и рамка отбора проектов](01-svyazi/02-methodology.md) | 480 | — |
@@ -16295,8 +16295,8 @@ _Файл: `docs/READING_ORDER.md` | 5 колонок, 395 строк_
 | 15 | 🟢 Начало | [Синтез: как проекты собираются вместе](05-habr-projects/01-synthesis.md) | 263 | — |
 | 16 | 🟢 Начало | [Авторы и контакты](05-habr-projects/02-collaboration-partners.md) | 279 | — |
 | 17 | 🟢 Начало | [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md) | 385 | — |
-| 18 | 🟢 Начало | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 382 | — |
-| 19 | 🟢 Начало | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 379 | — |
+| 18 | 🟢 Начало | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 382 | — |
+| 19 | 🟢 Начало | [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) | 379 | — |
 | 20 | 🟡 Средний | [MemNet: исследовательская память](05-habr-projects/memory/memnet.md) | 7264 | — |
 | 21 | 🟢 Начало | [Executive summary](04-ai-collaborations/01-executive-summary.md) | 593 | — |
 | 22 | 🟡 Средний | [Введение](04-ai-collaborations/00-intro.md) | 11407 | — |
@@ -18587,7 +18587,7 @@ _Файл: `docs/RISK_REGISTER.md` | 2 колонок, 12 строк_
 | `04-ensembles-overview` | а**: Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. citeturn20view12turn30… |
 | `06-security-privacy` | ory`, `только`, `svyazi`, `безопасность`, `бюджетный`, `роутинг`, `нужен` > <!-- summary --> > Для S… |
 | `06-security-privacy` | t, collaboration --> ## Безопасность, приватность и бюджетный роутинг Для Svyazi‑2.0 безопасная архи… |
-| `06-security-privacy` | Похожие документы:** - [06-безопасность-приватность-и-бюджетный-роутинг](docs/04-ai-collaborations/0… |
+| `06-security-privacy` | Похожие документы:** - [06-безопасность-приватность-и-бюджетный-роутинг](04-ai-collaborations/0… |
 | `06-security-privacy` | cs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) (сходство 1.00) - [05-пл… |
 
 
@@ -19467,7 +19467,7 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 14 строк_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [Продолжение исследования для Svyazi 2.0](01-svyazi/00-intro-part2.md) | 6 |
-| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md) | 726 |
+| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md) | 726 |
 | 3 | [Методика и рамка отбора проектов](01-svyazi/02-methodology.md) | 480 |
 | 4 | [03-component-catalog](01-svyazi/03-component-catalog.md) | 1405 |
 | 5 | [04-ensembles-overview](01-svyazi/04-ensembles-overview.md) | 1288 |
@@ -19583,8 +19583,8 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 6 строк_
 | 2 | [Авторы и контакты](05-habr-projects/02-collaboration-partners.md) | 279 |
 | 3 | [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md) | 385 |
 | 4 | [MemNet: исследовательская память](05-habr-projects/memory/memnet.md) | 7264 |
-| 5 | [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md) | 382 |
-| 6 | [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md) | 379 |
+| 5 | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 382 |
+| 6 | [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) | 379 |
 
 
 ### 185. Svyazi 2.0 — Архитектура системы
@@ -19690,7 +19690,7 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 11 строк_
 | 8 | [spbmolot](autofilled/components/spbmolot.md) | 213 |
 | 9 | [svend4](autofilled/components/svend4.md) | 156 |
 | 10 | [Svyazi](autofilled/components/svyazi.md) | 174 |
-| 11 | [[Тема исследования]](docs/autofilled/research-summary.md) | 149 |
+| 11 | [[Тема исследования]](autofilled/research-summary.md) | 149 |
 
 
 ### 188. Svyazi 2.0 — Архитектура системы
@@ -19911,7 +19911,7 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 51 строк_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [Продолжение исследования для Svyazi 2.0](obsidian/01-svyazi/00-intro-part2.md) | 36 |
-| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/obsidian/01-svyazi/01-executive-summary.md) | 739 |
+| 2 | [Svyazi[^svyazi] 2.0 — Исполнительное резюме](obsidian/01-svyazi/01-executive-summary.md) | 739 |
 | 3 | [Методика и рамка отбора проектов](obsidian/01-svyazi/02-methodology.md) | 526 |
 | 4 | [03-component-catalog](obsidian/01-svyazi/03-component-catalog.md) | 1394 |
 | 5 | [04-ensembles-overview](obsidian/01-svyazi/04-ensembles-overview.md) | 1299 |
@@ -20097,29 +20097,29 @@ _Файл: `docs/SITEMAP.md` | 3 колонок, 23 строк_
 
 | # | Документ | Слов |
 |---|----------|------|
-| 1 | [Спецификация агента: [Название]](docs/templates/agent-spec.md) | 356 |
-| 2 | [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md) | 119 |
-| 3 | [Противоречие: [Название]](docs/templates/contradiction-record.md) | 174 |
-| 4 | [ADR: [Название решения]](docs/templates/decision-record.md) | 84 |
-| 5 | [Ансамбль: [Название]](docs/templates/ensemble.md) | 112 |
-| 6 | [Эксперимент: [Название]](docs/templates/experiment-log.md) | 185 |
-| 7 | [FAQ: [Вопрос]](docs/templates/faq-entry.md) | 132 |
-| 8 | [[Термин]](docs/templates/glossary-entry.md) | 117 |
-| 9 | [KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md) | 220 |
-| 10 | [Юридический кейс: [Aktenzeichen]](docs/templates/legal-case.md) | 275 |
-| 11 | [Встреча: [Тема]](docs/templates/meeting-notes.md) | 151 |
-| 12 | [Mega-stack: [Название]](docs/templates/mega-stack.md) | 339 |
-| 13 | [[Название компонента]](docs/templates/project-component.md) | 102 |
-| 14 | [[Название протокола]](docs/templates/protocol-spec.md) | 361 |
-| 15 | [MVP: [Название]](docs/templates/prototype-mvp.md) | 384 |
-| 16 | [[Тема исследования]](docs/templates/research-note.md) | 66 |
-| 17 | [Ретроспектива: [период]](docs/templates/retrospective.md) | 160 |
-| 18 | [RFC NNNN: [Название]](docs/templates/rfc.md) | 241 |
-| 19 | [Риск: [Название]](docs/templates/risk-entry.md) | 221 |
-| 20 | [Tech Pair: [A] × [B]](docs/templates/tech-pair.md) | 273 |
-| 21 | [Tech Radar: [Название]](docs/templates/tech-radar-entry.md) | 224 |
-| 22 | [[имя нового шаблона]](docs/templates/template-of-templates.md) | 319 |
-| 23 | [Еженедельный дайджест: [период]](docs/templates/weekly-digest.md) | 193 |
+| 1 | [Спецификация агента: [Название]](templates/agent-spec.md) | 356 |
+| 2 | [Контакт: [Имя / Проект]](templates/contact-outreach.md) | 119 |
+| 3 | [Противоречие: [Название]](templates/contradiction-record.md) | 174 |
+| 4 | [ADR: [Название решения]](templates/decision-record.md) | 84 |
+| 5 | [Ансамбль: [Название]](templates/ensemble.md) | 112 |
+| 6 | [Эксперимент: [Название]](templates/experiment-log.md) | 185 |
+| 7 | [FAQ: [Вопрос]](templates/faq-entry.md) | 132 |
+| 8 | [[Термин]](templates/glossary-entry.md) | 117 |
+| 9 | [KPI Snapshot: [дата]](templates/kpi-snapshot.md) | 220 |
+| 10 | [Юридический кейс: [Aktenzeichen]](templates/legal-case.md) | 275 |
+| 11 | [Встреча: [Тема]](templates/meeting-notes.md) | 151 |
+| 12 | [Mega-stack: [Название]](templates/mega-stack.md) | 339 |
+| 13 | [[Название компонента]](templates/project-component.md) | 102 |
+| 14 | [[Название протокола]](templates/protocol-spec.md) | 361 |
+| 15 | [MVP: [Название]](templates/prototype-mvp.md) | 384 |
+| 16 | [[Тема исследования]](templates/research-note.md) | 66 |
+| 17 | [Ретроспектива: [период]](templates/retrospective.md) | 160 |
+| 18 | [RFC NNNN: [Название]](templates/rfc.md) | 241 |
+| 19 | [Риск: [Название]](templates/risk-entry.md) | 221 |
+| 20 | [Tech Pair: [A] × [B]](templates/tech-pair.md) | 273 |
+| 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 224 |
+| 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 319 |
+| 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 193 |
 
 
 ### 199. Категории

@@ -10,10 +10,6 @@
   - [7.3. Dispute Resolution](#73-dispute-resolution)
   - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
   - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 

@@ -11,10 +11,6 @@
   - [12.4. For Researchers](#124-for-researchers)
   - [12.5. For Foundation Funders](#125-for-foundation-funders)
   - [12.6. For Policymakers](#126-for-policymakers)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 

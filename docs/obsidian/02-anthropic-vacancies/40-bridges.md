@@ -16,8 +16,8 @@ date: 2026-04-29
 ## Contents
 
 - [Bridges](#bridges)
-  - [info1 ↔ pro2](#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-pro2)
-  - [info1 ↔ meta](#[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)-meta)
+  - [info1 ↔ pro2](#info1-pro2)
+  - [info1 ↔ meta](#info1-meta)
   - [Способ обращения через мост](#способ-обращения-через-мост)
 
 

@@ -30,10 +30,10 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-[svyazi](../docs/01-svyazi/00-intro-part2.md)-20-foundation)
+- [Технический stack (Svyazi 2.0 foundation)](#технический-stack-svyazi-20-foundation)
   - [Анализ конкретных компонентов из документа (новых для нас)](#анализ-конкретных-компонентов-из-документа-новых-для-нас)
   - [Synthesizing с нашим existing landscape](#synthesizing-с-нашим-existing-landscape)
-  - [Strategic implications для Lorenzo](#strategic-implications-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md))
+  - [Strategic implications для Lorenzo](#strategic-implications-для-lorenzo)
   - [Конкретные next steps](#конкретные-next-steps)
   - [Ключевые вопросы к вам](#ключевые-вопросы-к-вам)
   - [Что это за документ — диагностика](#что-это-за-документ-диагностика)

@@ -43,13 +43,13 @@ _Период: 2026-05-03 — 2026-05-10 (7 дней)_
 ## Новые файлы
 
 - [`README.md`](meta-scripting/README.md) — `meta-scripting`
-- [`211559110a051804.json`](cards/211559110a051804.json) — `root`
-- [`372bafbfb0972e2a.json`](cards/372bafbfb0972e2a.json) — `root`
-- [`42ca0accd4efec67.json`](cards/42ca0accd4efec67.json) — `root`
-- [`5fb9dd52c4374742.json`](cards/5fb9dd52c4374742.json) — `root`
-- [`71f9eb7be6254cc6.json`](cards/71f9eb7be6254cc6.json) — `root`
-- [`81e514237f50a17e.json`](cards/81e514237f50a17e.json) — `root`
-- [`9f344e8d21059cee.json`](cards/9f344e8d21059cee.json) — `root`
+- [`211559110a051804.json`](../cards/211559110a051804.json) — `root`
+- [`372bafbfb0972e2a.json`](../cards/372bafbfb0972e2a.json) — `root`
+- [`42ca0accd4efec67.json`](../cards/42ca0accd4efec67.json) — `root`
+- [`5fb9dd52c4374742.json`](../cards/5fb9dd52c4374742.json) — `root`
+- [`71f9eb7be6254cc6.json`](../cards/71f9eb7be6254cc6.json) — `root`
+- [`81e514237f50a17e.json`](../cards/81e514237f50a17e.json) — `root`
+- [`9f344e8d21059cee.json`](../cards/9f344e8d21059cee.json) — `root`
 - [`improve_card_index.py`](scripts/improve_card_index.py) — `Скрипты`
 - [`recipe_history.json`](scripts/recipe_history.json) — `Скрипты`
 - [`utils_card_envelope.py`](scripts/utils_card_envelope.py) — `Скрипты`

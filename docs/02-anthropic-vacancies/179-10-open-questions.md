@@ -10,10 +10,6 @@
   - [10.3. Legal Questions](#103-legal-questions)
   - [10.4. Social Questions](#104-social-questions)
   - [10.5. Philosophical Questions](#105-philosophical-questions)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 

@@ -10,10 +10,6 @@
   - [8.3. Q6 Mapping Rules](#83-q6-mapping-rules)
   - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
   - [8.5. CA-Class Mapping (Informative)](#85-ca-class-mapping-informative)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
 
 ---
 

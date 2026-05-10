@@ -19,7 +19,7 @@
 ## Содержание
 
 - [10. Strategic Positioning](#10-strategic-positioning)
-  - [10.1. InGit as Niche Player](#101-[ingit](306-with-anthropic-s-cowork-platform.md)-as-niche-player)
+  - [10.1. InGit as Niche Player](#101-ingit-as-niche-player)
   - [10.2. Cowork as Distribution Channel](#102-cowork-as-distribution-channel)
   - [10.3. Open Source as Sustainability](#103-open-source-as-sustainability)
   - [10.4. The Bigger Pattern](#104-the-bigger-pattern)

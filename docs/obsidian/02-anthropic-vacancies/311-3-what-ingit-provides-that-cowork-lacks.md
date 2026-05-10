@@ -24,7 +24,7 @@ date: 2026-04-29
 <!-- toc -->
 ## Содержание
 
-- [3. What InGit Provides That Cowork Lacks](#3-what-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)-provides-that-cowork-lacks)
+- [3. What InGit Provides That Cowork Lacks](#3-what-ingit-provides-that-cowork-lacks)
   - [3.1. Structured File Organization](#31-structured-file-organization)
   - [3.2. Metadata as Code](#32-metadata-as-code)
   - [3.3. Git-Native Versioning](#33-git-native-versioning)
