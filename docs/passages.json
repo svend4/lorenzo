@@ -26945,6 +26945,13 @@
       "wc": 44
     },
     {
+      "id": "docs/05-habr-projects/knowledge/README.md::0",
+      "source": "docs/05-habr-projects/knowledge/README.md",
+      "heading": "Содержание",
+      "text": "- agentfs.md agentfs.md — AgentFS — kksudo — Obsidian-vault как операционная система для AI-агентов .agentos/ ядро, MIT, v0.1.5 - knowledge-space.md knowledge-space.md — knowledge-space — AnastasiyaW / Sonia Black — 785+ agent-first карточек по 26 доменам MIT - mclaude.md mclaude.md — mclaude — AnastasiyaW — координация параллельных сессий Claude Code locks, handoffs, mailbox, MIT - research-docs-",
+      "wc": 108
+    },
+    {
       "id": "docs/05-habr-projects/knowledge/agentfs.md::0",
       "source": "docs/05-habr-projects/knowledge/agentfs.md",
       "heading": "",
@@ -27001,6 +27008,13 @@
       "wc": 32
     },
     {
+      "id": "docs/05-habr-projects/knowledge/agentfs.md::8",
+      "source": "docs/05-habr-projects/knowledge/agentfs.md",
+      "heading": "Смотрите также",
+      "text": "- knowledge-space knowledge-space.md — 785+ agent-first карточек как knowledge layer поверх AgentFS - mclaude mclaude.md — координация нескольких AgentFS-сессий через locks/handoffs - agent-memory-mcp ../memory/agent-memory-mcp.md — typed MCP память совместимая с AgentFS persistent state - Wikontic: семантический граф wikontic.md — семантический граф как knowledge layer",
+      "wc": 44
+    },
+    {
       "id": "docs/05-habr-projects/knowledge/knowledge-space.md::0",
       "source": "docs/05-habr-projects/knowledge/knowledge-space.md",
       "heading": "",
@@ -27048,6 +27062,13 @@
       "heading": "Применение в архитектуре Svyazi",
       "text": "knowledge-space закрывает слой \"нормализованного знания\" между raw research notes и структурированным GraphRAG. В то время как AgentFS управляет файловым layout, knowledge-space предоставляет уже структурированный корпус для начальной загрузки CardStore.",
       "wc": 29
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/knowledge-space.md::7",
+      "source": "docs/05-habr-projects/knowledge/knowledge-space.md",
+      "heading": "Смотрите также",
+      "text": "- AgentFS agentfs.md — файловое ядро, поверх которого knowledge-space размещается - mclaude mclaude.md — координация агентов, читающих knowledge-space параллельно - research-docs-liteparse research-docs-liteparse.md — ingestion pipeline для пополнения knowledge-space - Wikontic: семантический граф wikontic.md — граф-дополнение к reference-картам knowledge-space",
+      "wc": 38
     },
     {
       "id": "docs/05-habr-projects/knowledge/mclaude.md::0",
@@ -27106,6 +27127,132 @@
       "wc": 37
     },
     {
+      "id": "docs/05-habr-projects/knowledge/mclaude.md::8",
+      "source": "docs/05-habr-projects/knowledge/mclaude.md",
+      "heading": "Смотрите также",
+      "text": "- Rufler rufler.md — YAML-декларативный запуск роя агентов альтернативный подход к оркестрации - AgentFS agentfs.md — файловое ядро для одного агента, mclaude координирует несколько - knowledge-space knowledge-space.md — база знаний, которую mclaude агенты читают параллельно - agent-memory-mcp ../memory/agent-memory-mcp.md — shared memory через MCP между сессиями",
+      "wc": 45
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::0",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "",
+      "text": "--- template: project-component version: \"1.0\" author: \"nlaik\" author handle: \"@nlaik\" projects: \"research-docs\", \"LiteParse\" layer: ingestion license: Apache-2.0 maturity: active-oss priority: 2 tags: liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, html-report, evidence --- research-docs + LiteParse",
+      "wc": 34
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::1",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Профиль проекта",
+      "text": "Параметр Значение ---------- --------- Автор nlaik / Jerry Liu / LlamaIndex GitHub @nlaik Источник Хабр + GitHub Лицензия Apache 2.0 LiteParse Maturity Активный OSS Слой в Svyazi ingestion / evidence",
+      "wc": 30
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::2",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Описание",
+      "text": "research-docs + LiteParse — система Forensic Document QA: вместо стандартного \"ответить на вопрос по PDF\" она создаёт HTML-отчёт с визуальными цитатами и bounding boxes на страницах исходного документа. Каждый факт в ответе привязан к конкретной области конкретной страницы — это visual grounding.",
+      "wc": 42
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::3",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Описание",
+      "text": "LiteParse — локальный парсер документов с spatial text parsing : он не просто извлекает текст, но сохраняет координаты каждого слова на странице. Это позволяет строить visually-anchored ответы, которых обычным RAG-системам не хватает.",
+      "wc": 32
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::4",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Ключевые компоненты",
+      "text": "- Spatial text parsing — разбор PDF с сохранением координат x, y, w, h каждого слова - Bounding boxes — визуальная привязка цитат к областям на страницах документа - Visual citations — в HTML-отчёте каждая цитата показывает выделенный фрагмент страницы - Multi-format docs — PDF, DOCX, изображения, таблицы - HTML evidence report — финальный отчёт как интерактивный HTML с встроенными страницами - Ло",
+      "wc": 80
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::5",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Синергия со Svyazi 2.0",
+      "text": "- EvidenceEnvelope из PROTOTYPE SPEC — LiteParse как источник evidence chunks с spatial ref: {page, bbox} - Visual grounding решает проблему «откуда это взялось» в RAG-ответах — каждый факт имеет точную привязку - Bounding boxes → поле source span в EvidenceEnvelope: {file, page, bbox, score} - HTML отчёт — human-readable артефакт для ревью перед ApprovalMode \"review\" в SkillPolicy - Apache 2.0 — ",
+      "wc": 74
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::6",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Применение в архитектуре",
+      "text": "LiteParse закрывает слой \"structured ingestion with evidence\" — то, чего нет у CardStore просто markdown и у BM25-поиска нет координат . Для юридических, медицинских и академических документов, где важно не только найти ответ, но и показать откуда он взят — это критический компонент.",
+      "wc": 43
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::7",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Сравнение с подходами",
+      "text": "Подход Visual grounding Coordinate-level Local -------- ----------------- ------------------ ------- LiteParse ✓ bounding boxes ✓ слово-уровень ✓ pdfplumber ✗ только текст ✓ координаты ✓ PyMuPDF частично ✓ ✓ PDF.js ✗ ✗ ✗",
+      "wc": 31
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/research-docs-liteparse.md::8",
+      "source": "docs/05-habr-projects/knowledge/research-docs-liteparse.md",
+      "heading": "Смотрите также",
+      "text": "- AgentFS agentfs.md — файловое ядро для хранения extracted documents - knowledge-space knowledge-space.md — база знаний, пополняемая через LiteParse ingestion pipeline - agent-memory-mcp ../memory/agent-memory-mcp.md — memory layer для parsed document facts - Yodoca: консолидация и забывание ../memory/yodoca.md — nightly consolidation extracted content",
+      "wc": 42
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::0",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "",
+      "text": "--- template: project-component version: \"1.0\" author: \"zodigancode\" author handle: \"@zodigancode\" projects: \"Rufler\" layer: orchestration license: MIT maturity: active-oss priority: 2 tags: rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting --- Rufler",
+      "wc": 31
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::1",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Профиль проекта",
+      "text": "Параметр Значение ---------- --------- Автор zodigancode / lib4u GitHub @zodigancode Источник Хабр + repo/DEV Лицензия MIT Maturity Активный OSS Слой в Svyazi orchestration",
+      "wc": 23
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::2",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Описание",
+      "text": "Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами depends on , автоматическую генерацию целей для агентов auto-objective prompts , управление жизненным циклом pause/resume , учёт токенов token accounting и управление MCP-серверами.",
+      "wc": 45
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::3",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Описание",
+      "text": "Ключевое отличие от mclaude: Rufler работает как декларативный конфигурационный слой описал → запустил , mclaude — как протокол координации уже запущенных агентов.",
+      "wc": 22
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::4",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Ключевые компоненты",
+      "text": "- depends on — граф зависимостей задач: агент B запускается только после завершения агента A - Auto-objective prompts — Rufler сам формирует цель задачи из YAML-описания, не нужно писать промпт вручную - Pause / Resume — приостановка и возобновление роя без потери состояния - Token accounting — учёт и ограничение потребления токенов на задачу и на весь рой - MCP server management — Rufler управляе",
+      "wc": 78
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::5",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Синергия со Svyazi 2.0",
+      "text": "- depends on = порядок итераций PROTOTYPE SPEC: retrieval → consolidation → collaboration - Token accounting → SkillPolicy rate limit : контроль стоимости выполнения пайплайна - MCP server management → управление mcp server.py из Svyazi как отдельным агентным ресурсом - Auto-objective prompts + knowledge-space: Rufler читает карточку задачи, сам формирует промпт - Pause/Resume → MemoryWrite type=\"",
+      "wc": 69
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::6",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Позиция в архитектуре",
+      "text": "Rufler — самый лёгкий путь к multi-agent pipeline: не нужно писать Python-оркестрацию, достаточно YAML. Это делает его идеальным для быстрого прототипирования агентных пайплайнов Svyazi 2.0 перед написанием полноценного кода.",
+      "wc": 29
+    },
+    {
+      "id": "docs/05-habr-projects/knowledge/rufler.md::7",
+      "source": "docs/05-habr-projects/knowledge/rufler.md",
+      "heading": "Смотрите также",
+      "text": "- mclaude mclaude.md — протокол координации агентов Rufler: запуск; mclaude: координация - AgentFS agentfs.md — файловое ядро которым управляют Rufler-агенты - agent-memory-mcp ../memory/agent-memory-mcp.md — memory слой для агентов в Rufler-рое - knowledge-space knowledge-space.md — база знаний для задач в Rufler YAML-конфиге",
+      "wc": 41
+    },
+    {
       "id": "docs/05-habr-projects/knowledge/wikontic.md::0",
       "source": "docs/05-habr-projects/knowledge/wikontic.md",
       "heading": "Wikontic: семантический граф",
@@ -27144,8 +27291,8 @@
       "id": "docs/05-habr-projects/memory/README.md::0",
       "source": "docs/05-habr-projects/memory/README.md",
       "heading": "Содержание",
-      "text": "- memnet.md memnet.md — MemNet — «Memory Is All You Need» Здесь автор делает то же самое, что NGT Memory из… - ngt-memory.md ngt-memory.md — ассоциативные связи в персистентной памяти LLM — хеббовский граф, BSL 1.1 - yodoca.md yodoca.md — Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» Это не прост…",
-      "wc": 54
+      "text": "- agent-memory-mcp.md agent-memory-mcp.md — agent-memory-mcp + Memory OS — VitaliySemenov/@moshael — типизированный MCP-сервер памяти episodic/semantic/procedural/working, SQLite+WAL - memnet.md memnet.md — MemNet — «Memory Is All You Need» Здесь автор делает то же самое, что NGT Memory из… - ngt-memory.md ngt-memory.md — ассоциативные связи в персистентной памяти LLM — хеббовский граф, BSL 1.1 - ",
+      "wc": 70
     },
     {
       "id": "docs/05-habr-projects/memory/agent-memory-mcp.md::0",
@@ -27202,6 +27349,13 @@
       "heading": "Открытые вопросы",
       "text": "1. Есть ли публичная документация по Memory OS bi-temporal facts, gardener-loop ? 2. Планируется ли поддержка внешних источников CardIndex / doc-ingestion ? 3. Как memory write API взаимодействует с внешними источниками? 4. Планируется ли поддержка batch-ingestion из документов?",
       "wc": 38
+    },
+    {
+      "id": "docs/05-habr-projects/memory/agent-memory-mcp.md::8",
+      "source": "docs/05-habr-projects/memory/agent-memory-mcp.md",
+      "heading": "Смотрите также",
+      "text": "- Yodoca: консолидация и забывание yodoca.md — memory decay + hot/slow path - NGT Memory: ассоциативный граф ngt-memory.md — граф-подход к памяти - MemNet: исследовательская память memnet.md — нейроархитектура памяти - AgentFS ../knowledge/agentfs.md — файловая система + persistent state для агентов",
+      "wc": 41
     },
     {
       "id": "docs/05-habr-projects/memory/memnet.md::0",
@@ -27368,6 +27522,13 @@
       "id": "docs/05-habr-projects/memory/memnet.md::23",
       "source": "docs/05-habr-projects/memory/memnet.md",
       "heading": "MemNet: исследовательская память",
+      "text": "Смотрите также: - Yodoca: консолидация и забывание yodoca.md - NGT Memory: ассоциативный граф ngt-memory.md - agent-memory-mcp + Memory OS agent-memory-mcp.md - knowledge-space ../knowledge/knowledge-space.md",
+      "wc": 23
+    },
+    {
+      "id": "docs/05-habr-projects/memory/memnet.md::24",
+      "source": "docs/05-habr-projects/memory/memnet.md",
+      "heading": "MemNet: исследовательская память",
       "text": "Кто ссылается на этот документ 4 : - README docs/05-habr-projects/memory/README.md - ACTION ITEMS docs/ACTION ITEMS.md - DECISIONS docs/DECISIONS.md - FAQ docs/FAQ.md",
       "wc": 21
     },
@@ -27394,6 +27555,13 @@
     },
     {
       "id": "docs/05-habr-projects/memory/ngt-memory.md::3",
+      "source": "docs/05-habr-projects/memory/ngt-memory.md",
+      "heading": "NGT[^ngt] Memory: ассоциативный граф",
+      "text": "Смотрите также: - Yodoca: консолидация и забывание yodoca.md - agent-memory-mcp + Memory OS agent-memory-mcp.md - MemNet: исследовательская память memnet.md - Wikontic: семантический граф ../knowledge/wikontic.md",
+      "wc": 24
+    },
+    {
+      "id": "docs/05-habr-projects/memory/ngt-memory.md::4",
       "source": "docs/05-habr-projects/memory/ngt-memory.md",
       "heading": "NGT[^ngt] Memory: ассоциативный граф",
       "text": "Кто ссылается на этот документ 4 : - wikontic docs/05-habr-projects/knowledge/wikontic.md - README docs/05-habr-projects/memory/README.md - 04-structuring docs/processing-guide/04-structuring.md - PROCESSING GUIDE docs/processing-guide/PROCESSING GUIDE.md",
@@ -28074,103 +28242,236 @@
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::0",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "1. Wikontic: семантический граф",
-      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
-      "wc": 25
+      "heading": "Рекомендации по коллаборации (Collaboration Finder)",
+      "text": "Запрос: svyazi спецификация прототипа memory orchestration security knowledge ingestion local first architecture roadmap self improvement collaboration этот документ описывает подход начните него быстрого доказать одну центральную способность системы находит объясняет кандидатные коллаборации свободным описаниям документам ключевым словам прототип претендует полноту минимален настолько чтобы базов",
+      "wc": 64
     },
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::1",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "1. Wikontic: семантический граф",
-      "text": "Конкретные вопросы: - Как Svyazi, Yodoca, Wikontic решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
-      "wc": 30
+      "heading": "1. MemNet: исследовательская память",
+      "text": "Для тебя, с твоим YiJing-Transformer + MoME + Q6, это особенно близко: STDP-граф над слотами + dream-фаза по сути решают ту же задачу, что MoME-роутинг по гиперкубу — выбор релевантных «экспертов» при",
+      "wc": 32
     },
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::2",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "2. MemNet / memory-is-all-you-need",
-      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
-      "wc": 25
+      "heading": "1. MemNet: исследовательская память",
+      "text": "Особенно ценна идея: Для тебя, с твоим YiJing-Transformer + MoME + Q6, это особенно близко: STDP-граф над слотами + dream-фаза по сути решают ту же задачу, что MoME-роутин",
+      "wc": 28
     },
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::3",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "2. MemNet / memory-is-all-you-need",
-      "text": "Конкретные вопросы: - Как Svyazi, MemNet решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
-      "wc": 29
+      "heading": "1. MemNet: исследовательская память",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
     },
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::4",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "3. NGT Memory",
-      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
-      "wc": 25
+      "heading": "1. MemNet: исследовательская память",
+      "text": "Конкретные вопросы: - Как Svyazi, MemNet решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 29
     },
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::5",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "3. NGT Memory",
-      "text": "Конкретные вопросы: - Как Svyazi, NGT Memory решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
-      "wc": 30
-    },
-    {
-      "id": "docs/COLLAB_SUGGESTIONS.md::6",
-      "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "4. Yodoca[^yodoca]: консолидация и забывание",
+      "heading": "2. Yodoca[^yodoca]: консолидация и забывание",
       "text": "Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» Это не просто аналог, это архитектурное продолжение Svyazi на уровне agentic memory. Что у н",
       "wc": 26
     },
     {
-      "id": "docs/COLLAB_SUGGESTIONS.md::7",
+      "id": "docs/COLLAB_SUGGESTIONS.md::6",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "4. Yodoca[^yodoca]: консолидация и забывание",
+      "heading": "2. Yodoca[^yodoca]: консолидация и забывание",
       "text": "Особенно ценна идея: Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» Это не просто аналог, это архитектурное пр",
       "wc": 21
     },
     {
-      "id": "docs/COLLAB_SUGGESTIONS.md::8",
+      "id": "docs/COLLAB_SUGGESTIONS.md::7",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "4. Yodoca[^yodoca]: консолидация и забывание",
+      "heading": "2. Yodoca[^yodoca]: консолидация и забывание",
       "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
       "wc": 25
     },
     {
-      "id": "docs/COLLAB_SUGGESTIONS.md::9",
+      "id": "docs/COLLAB_SUGGESTIONS.md::8",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "4. Yodoca[^yodoca]: консолидация и забывание",
+      "heading": "2. Yodoca[^yodoca]: консолидация и забывание",
       "text": "Конкретные вопросы: - Как Svyazi, Yodoca, Wikontic решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
       "wc": 30
     },
     {
+      "id": "docs/COLLAB_SUGGESTIONS.md::9",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "3. research-docs + LiteParse",
+      "text": "research-docs + LiteParse — система Forensic Document QA: вместо стандартного \"ответить на вопрос по PDF\" она создаёт HTML-отчёт с визуальными цитатами и bounding boxes на страницах исходного докуме",
+      "wc": 28
+    },
+    {
       "id": "docs/COLLAB_SUGGESTIONS.md::10",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "5. Svyazi[^svyazi] 2.0 — Исполнительное резюме",
-      "text": "Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : ingestion и нормализация профи",
-      "wc": 33
+      "heading": "3. research-docs + LiteParse",
+      "text": "Особенно ценна идея: research-docs + LiteParse — система Forensic Document QA: вместо стандартного \"ответить на вопрос по PDF\" она создаёт HTML-отчёт с визуальными цитатам",
+      "wc": 24
     },
     {
       "id": "docs/COLLAB_SUGGESTIONS.md::11",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "5. Svyazi[^svyazi] 2.0 — Исполнительное резюме",
-      "text": "Особенно ценна идея: Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор",
-      "wc": 29
-    },
-    {
-      "id": "docs/COLLAB_SUGGESTIONS.md::12",
-      "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "5. Svyazi[^svyazi] 2.0 — Исполнительное резюме",
+      "heading": "3. research-docs + LiteParse",
       "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
       "wc": 25
     },
     {
-      "id": "docs/COLLAB_SUGGESTIONS.md::13",
+      "id": "docs/COLLAB_SUGGESTIONS.md::12",
       "source": "docs/COLLAB_SUGGESTIONS.md",
-      "heading": "5. Svyazi[^svyazi] 2.0 — Исполнительное резюме",
+      "heading": "3. research-docs + LiteParse",
       "text": "Конкретные вопросы: - Как Svyazi, LiteParse решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
       "wc": 29
     },
     {
+      "id": "docs/COLLAB_SUGGESTIONS.md::13",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "4. AgentFS",
+      "text": "AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым .agentos/ -ядром. Агент получает постоянный персистентный state, скомпилированные конфиги, политики безопасности и CLI",
+      "wc": 23
+    },
+    {
       "id": "docs/COLLAB_SUGGESTIONS.md::14",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "4. AgentFS",
+      "text": "Особенно ценна идея: AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым .agentos/ -ядром. Агент получает постоянный персистентный state, ско",
+      "wc": 21
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::15",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "4. AgentFS",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::16",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "4. AgentFS",
+      "text": "Конкретные вопросы: - Как Svyazi, AgentFS решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 29
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::17",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "5. NGT[^ngt] Memory: ассоциативный граф",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::18",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "5. NGT[^ngt] Memory: ассоциативный граф",
+      "text": "Конкретные вопросы: - Как Svyazi, NGT Memory решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 30
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::19",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "6. Wikontic: семантический граф",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::20",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "6. Wikontic: семантический граф",
+      "text": "Конкретные вопросы: - Как Svyazi, Yodoca, Wikontic решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 30
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::21",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "7. Rufler",
+      "text": "Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами depends on",
+      "wc": 24
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::22",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "7. Rufler",
+      "text": "Особенно ценна идея: Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAM",
+      "wc": 22
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::23",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "7. Rufler",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::24",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "7. Rufler",
+      "text": "Конкретные вопросы: - Как Svyazi, Rufler решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 29
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::25",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "8. agent-memory-mcp + Memory OS",
+      "text": "agent-memory-mcp — типизированный MCP-сервер памяти для AI-агентов с поддержкой четырёх типов записей: episodic , semantic , procedural , working . Хранение на SQLite + WAL обеспечивает локальну",
+      "wc": 27
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::26",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "8. agent-memory-mcp + Memory OS",
+      "text": "Особенно ценна идея: agent-memory-mcp — типизированный MCP-сервер памяти для AI-агентов с поддержкой четырёх типов записей: episodic , semantic , procedural , workin",
+      "wc": 22
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::27",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "8. agent-memory-mcp + Memory OS",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::28",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "8. agent-memory-mcp + Memory OS",
+      "text": "Конкретные вопросы: - Как agent-memory-mcp, Memory OS решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 30
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::29",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "9. mclaude",
+      "text": "mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового агента»: несколько Claude-экземпляров могут одновремен",
+      "wc": 23
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::30",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "9. mclaude",
+      "text": "Особенно ценна идея: mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового аген",
+      "wc": 22
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::31",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "9. mclaude",
+      "text": "Работаю над Knowledge OS для локальных коллаборационных сетей Svyazi 2.0 — CardIndex + Retrieval + Memory . Хотел бы обсудить возможность интеграции или обмена опытом.",
+      "wc": 25
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::32",
+      "source": "docs/COLLAB_SUGGESTIONS.md",
+      "heading": "9. mclaude",
+      "text": "Конкретные вопросы: - Как Svyazi, knowledge-space, mclaude решает конкретный аспект из запроса ? - Есть ли API / адаптер для внешних систем? - Открыты к совместным PR или техническому обмену?",
+      "wc": 30
+    },
+    {
+      "id": "docs/COLLAB_SUGGESTIONS.md::33",
       "source": "docs/COLLAB_SUGGESTIONS.md",
       "heading": "Следующие шаги",
       "text": "1. Изучить топ-3 кандидата и выбрать приоритет 2. Обновить статус контакта: 3. Отправить сообщение по шаблону выше 4. Обновить после ответа: 5. Повторить поиск с уточнённым запросом:",

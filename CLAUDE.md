@@ -15,8 +15,10 @@ docs/
   02-anthropic-vacancies/ — анализ 436 вакансий Anthropic
   03-technology-combinations/ — 40+ синергий технологий
   04-ai-collaborations/ — 5 ансамблей OSS-проектов
-  05-habr-projects/    — проекты с Хабра: memory/, knowledge/
-  contacts/            — контактные файлы 14 авторов (generate автоматически)
+  05-habr-projects/    — проекты с Хабра (9 богатых файлов):
+    memory/            — agent-memory-mcp, memnet, ngt-memory, yodoca
+    knowledge/         — agentfs, knowledge-space, mclaude, research-docs-liteparse, rufler, wikontic
+  contacts/            — контактные файлы 15 авторов (generate автоматически)
   templates/           — шаблоны документов
   CONTACTS.md          — сводная таблица авторов и проектов
   ENTITIES.md          — упоминания проектов (22 проекта)
@@ -240,13 +242,16 @@ scripts/
 
 ## Ключевые проекты (из CONTACTS.md)
 
-| Автор | Проект | Слой | Приоритет |
-|-------|--------|------|-----------|
-| kksudo | AgentFS | knowledge/filesystem | 13 упоминаний |
-| spbmolot | NGT Memory | memory | 12 упоминаний |
-| VitalyOborin | Yodoca | memory | 7 упоминаний |
-| AnastasiyaW | knowledge-space | knowledge | 11 упоминаний |
-| andrey_chuyan | Svyazi | ingestion/CardIndex | 4 упоминания |
+| Автор | Проект | Слой | Файл |
+|-------|--------|------|------|
+| kksudo | AgentFS | knowledge/filesystem | docs/05-habr-projects/knowledge/agentfs.md |
+| spbmolot | NGT Memory | memory | docs/05-habr-projects/memory/ngt-memory.md |
+| VitalyOborin | Yodoca + Wikontic | memory + graph | docs/05-habr-projects/memory/yodoca.md |
+| AnastasiyaW | knowledge-space + mclaude | knowledge + orchestration | docs/05-habr-projects/knowledge/ |
+| VitaliySemenov | agent-memory-mcp | memory/MCP | docs/05-habr-projects/memory/agent-memory-mcp.md |
+| Antipozitive | MemNet | memory/research | docs/05-habr-projects/memory/memnet.md |
+| zodigancode | Rufler | orchestration/YAML | docs/05-habr-projects/knowledge/rufler.md |
+| nlaik | research-docs + LiteParse | ingestion/evidence | docs/05-habr-projects/knowledge/research-docs-liteparse.md |
 
 ## Как работать
 
@@ -298,24 +303,29 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 ## Текущие приоритеты
 
 1. **Написать авторам** — файлы готовы в `docs/contacts/`, нужно только отправить
-2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит 21 файл за ~$0.011
-3. **Прототип** — Итерации 0-1-3 ✅ ВЫПОЛНЕНО; Итерация 2 (Yodoca API) 🔄 в процессе
+2. **LLM-обогащение** — `improve_llm_enrich.py` обогатит файлы за ~$0.011
+3. **Прототип** — Итерации 0-1-3 ✅ ВЫПОЛНЕНО; Итерация 2 (Consolidation) 🔄 в процессе
 
 ## Статус прототипа (PROTOTYPE_SPEC.md)
 
 | Итерация | Статус | Ключевые артефакты |
 |----------|--------|--------------------|
-| 0 — Вертикальный срез | ✅ Готово | 1624 карточки, 2497 рёбер, MCP 11 инструментов |
-| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(2052 токена) + гибрид 0.6/0.4 |
+| 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
+| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16468 токенов) + гибрид 0.6/0.4 |
 | 2 — Consolidation | 🔄 В процессе | CI daily, incremental build, orphan rate < 15% |
-| 3 — Collaboration Finder | ✅ Готово | improve_collab_finder.py, 3с < 10с, COLLAB_SUGGESTIONS.md |
+| 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 10/11 карточек с рёбрами, 9 контактов |
 
 ### Collaboration Finder (Итерация 3)
 ```bash
 python scripts/improve_collab_finder.py --query "агент с памятью консолидация"
-python scripts/improve_collab_finder.py --file docs/PROTOTYPE_SPEC.md --top 7
-python scripts/improve_collab_finder.py --query "knowledge graph RAG" --dry-run
+python scripts/improve_collab_finder.py --file docs/PROTOTYPE_SPEC.md --top 9
+python scripts/improve_collab_finder.py --query "yaml declarative agent swarm" --dry-run
+python scripts/improve_collab_finder.py --query "typed memory mcp sqlite" --top 5
 ```
+
+**Покрытие проектов (9 карточек, все с контактами):**
+- memory/: agent-memory-mcp (VitaliySemenov), memnet (Antipozitive), ngt-memory (spbmolot), yodoca (VitalyOborin)
+- knowledge/: agentfs (kksudo), knowledge-space (AnastasiyaW), mclaude (AnastasiyaW), research-docs (nlaik), rufler (zodigancode), wikontic (VitalyOborin)
 
 ### Unified Semantic Search (новый)
 ```bash
@@ -329,11 +339,15 @@ python scripts/improve_semantic_search.py --query "граф знаний" --json
 ### CardStore и TF-IDF индекс
 ```bash
 python scripts/improve_card_index.py --build --incremental   # инкрементальная сборка (< 3с)
-python scripts/improve_embedding_index.py --index            # TF-IDF индекс (2052 токена)
+python scripts/improve_embedding_index.py --index            # TF-IDF индекс (16468 токенов, body-поле)
 python scripts/improve_embedding_index.py --query "агент"   # семантический поиск
 python scripts/improve_embedding_index.py --similar <card_id>  # похожие карточки
 python scripts/improve_embedding_index.py --stats           # статистика индекса
 ```
+
+**Архитектура CardEnvelope.payload (после обогащения):**
+- `title` (x2 вес в TF-IDF), `summary` (300 символов), `body` (800 слов чистого текста)
+- `tags`, `projects` (упомянутые проекты), `wc`, `path`
 
 ## Архитектурный принцип Svyazi 2.0
 
