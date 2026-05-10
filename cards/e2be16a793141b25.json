@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/overview/continuation-intro.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/conclusions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/overview/executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/08-conclusions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:402cfd9216ccd958",
   "payload": {
     "title": "Что добавляет продолжение исследования",
     "summary": "",
-    "body": "что добавляет продолжение исследования источник deep research report раздел что это продолжение добавляет проекты svyazi cardindex смотрите также что это продолжение добавляет docs collaborations что это продолжение добавляет conclusions docs svyazi limitations conclusions executive summary docs svyazi overview executive summary conclusions docs svyazi conclusions",
+    "body": "что добавляет продолжение исследования источник deep research report раздел что это продолжение добавляет проекты svyazi cardindex смотрите также что это продолжение добавляет collaborations что это продолжение добавляет conclusions limitations conclusions executive summary executive summary conclusions svyazi conclusions",
     "tags": [
       "rag",
       "knowledge",

@@ -5,14 +5,43 @@
   "sources": [
     "docs/ai-collaborations/continuation/02-agentops-trace-envelope.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/10-architecture-rfc.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:95af5900c275fa5e",
   "payload": {
     "title": "AgentOps и Trace Envelope (ансамбль G)",
     "summary": "2. Второй новый слой: AgentOps и трассировка всех решений",
-    "body": "agentops trace envelope ансамбль источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi cardindex liteparse legal rag litellm auto router tool search смотрите также ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать budget aware intelligence stack docs collaborations ensembles budget aware intelligence stack architecture rfc docs collaborations continuation architecture rfc memory firewall prompt worms docs collaborations continuation memory firewall prompt worms кто ссылается этот документ readme docs collaborations continuation readme components name docs glossary components name concepts docs glossary concepts",
+    "body": "agentops trace envelope ансамбль источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi cardindex liteparse legal rag litellm auto router tool search смотрите также ограничения лицензии что пока лучше склеивать collaborations ограничения лицензии что пока лучше склеивать budget aware intelligence stack ensembles budget aware intelligence stack architecture rfc architecture rfc memory firewall prompt worms memory firewall prompt worms кто ссылается этот документ readme readme components name glossary components name concepts glossary concepts",
     "tags": [
       "rag",
       "security",

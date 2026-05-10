@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:d7be2e895d9e5f8d",
   "payload": {
     "title": "Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)",
     "summary": "The Cinderella Syndrome at scale: People navigating Germany's social welfare system (SGB IX, SGB XII) face complex bureaucracy. Disability claimants, elderly persons, families with disabled children — all need professional advocacy, but qualified advocates are scarce, expensive, и часто invisible to",
-    "body": "section problem statement cinderella syndrome scale sgb xii источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section beneficial dimension docs anthropic vacancies beneficial deployments concept section beneficial dimension section success metrics docs anthropic vacancies beneficial deployments concept section success metrics section sgb pilot docs anthropic vacancies beneficial deployments concept section sgb pilot section timeliness docs anthropic vacancies beneficial deployments concept section timeliness",
+    "body": "section problem statement cinderella syndrome scale sgb xii источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section beneficial dimension section beneficial dimension section success metrics section success metrics section sgb pilot section sgb pilot section timeliness section timeliness",
     "tags": [
       "rag",
       "anthropic"

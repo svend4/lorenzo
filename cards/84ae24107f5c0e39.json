@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/review-methodology/00-tldr.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/106-tl-dr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/15-appendix-c-history.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:a8517f402b83e313",
   "payload": {
     "title": "TL;DR — Трёхфазная методология Review",
     "summary": "Для критически важных документов проекта применяется",
-    "body": "трёхфазная методология review warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus для критически важных документов проекта применяется трёхфазный review вариант создаётся независимо первым claude агентом ветка вариант создаётся независимо вторым claude агентом ветка вариант ручная консолидация после сравнения достижения фазы оба варианта сохраняются параллельно документе дубликаты секций намеренные merge conflict это защита потери информации что упускает один агент может заметить другой механический merge выбрать один удалить другой теряет часть insights безвозвратно смотрите также docs anthropic vacancies зачем две версии параллельно docs anthropic vacancies зачем две версии параллельно appendix header warning docs nautilus review methodology appendix header warning appendix history docs nautilus review methodology appendix history",
+    "body": "трёхфазная методология review warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus для критически важных документов проекта применяется трёхфазный review вариант создаётся независимо первым claude агентом ветка вариант создаётся независимо вторым claude агентом ветка вариант ручная консолидация после сравнения достижения фазы оба варианта сохраняются параллельно документе дубликаты секций намеренные merge conflict это защита потери информации что упускает один агент может заметить другой механический merge выбрать один удалить другой теряет часть insights безвозвратно смотрите также anthropic vacancies зачем две версии параллельно anthropic vacancies зачем две версии параллельно appendix header warning appendix header warning appendix history appendix history",
     "tags": [
       "memory",
       "anthropic",

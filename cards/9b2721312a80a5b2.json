@@ -5,14 +5,47 @@
   "sources": [
     "docs/02-anthropic-vacancies/19-7-portalentry-structure.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/23-11-security-considerations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/74-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:ed2d6e6e37abd255",
   "payload": {
     "title": "7. PortalEntry Structure",
     "summary": "Унифицированная структура данных, возвращаемая адаптерами.",
-    "body": "portalentry structure абстракт авто проблема portalentry structure important ключевой документ для понимания архитектуры подход portalentry structure important ключевой документ для понимания архитектуры ключевые слова portalentry structure anthropic vacancies данных registry summary унифицированная important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь унифицированная структура данных возвращаемая адаптерами похожие документы portalentry structure docs anthropic vacancies portalentry structure сходство смотрите также portalentry structure docs anthropic vacancies portalentry structure portal mcp docs anthropic vacancies portal mcp registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json adapter interface docs anthropic vacancies adapter interface кто ссылается этот документ принципы консолидации фаза docs anthropic vacancies принципы консолидации фаза portal mcp docs anthropic vacancies portal mcp adapter interface docs anthropic vacancies adapter interface security considerations docs anthropic vacancies security considerations abstract docs anthropic vacancies abstract readme docs anthropic vacancies readme",
+    "body": "portalentry structure абстракт авто проблема portalentry structure important ключевой документ для понимания архитектуры подход portalentry structure important ключевой документ для понимания архитектуры ключевые слова portalentry structure anthropic vacancies данных registry summary унифицированная important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь унифицированная структура данных возвращаемая адаптерами похожие документы portalentry structure portalentry structure сходство смотрите также portalentry structure portalentry structure portal mcp portal mcp registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json adapter interface adapter interface кто ссылается этот документ принципы консолидации фаза принципы консолидации фаза portal mcp portal mcp adapter interface adapter interface security considerations security considerations abstract abstract readme readme",
     "tags": [
       "memory",
       "ingestion",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/review-methodology/03-consolidation-principles.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/04-fallback-ratio-question.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/10-checklist.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:525ff03a0c92d6c7",
   "payload": {
     "title": "3. Принципы консолидации (Фаза C)",
     "summary": "Этот раздел — **главный практический инструмент**. Это decision",
-    "body": "принципы консолидации фаза источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также принципы консолидации фаза docs anthropic vacancies принципы консолидации фаза критерии выбора для фазы docs anthropic vacancies критерии выбора для фазы fallback ratio question docs nautilus review methodology fallback ratio question checklist docs nautilus review methodology checklist",
+    "body": "принципы консолидации фаза источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также принципы консолидации фаза anthropic vacancies принципы консолидации фаза критерии выбора для фазы anthropic vacancies критерии выбора для фазы fallback ratio question fallback ratio question checklist checklist",
     "tags": [
       "memory",
       "rag",

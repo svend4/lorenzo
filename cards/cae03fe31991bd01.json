@@ -5,14 +5,39 @@
   "sources": [
     "docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:4551d1299e3301ee",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/104-appendix-c-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:8e2feb1fa854fb93",
   "payload": {
     "title": "21. ADR-003: Five Onboarding Paths as Equal-Rank",
     "summary": "(manual adapter). В процессе развития reference implementation",
-    "body": "adr five onboarding paths equal rank status accepted new похожие документы adr federation over merging docs anthropic vacancies adr federation over merging сходство смотрите также adr federation over merging docs anthropic vacancies adr federation over merging adr first class protocol concept docs anthropic vacancies adr first class protocol concept adr federation over merging docs anthropic vacancies adr federation over merging appendix decision tree for ingit docs anthropic vacancies with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters кто ссылается этот документ appendix references docs anthropic vacancies appendix references adr federation over merging docs anthropic vacancies adr federation over merging appendix decision tree for ingit adopters docs anthropic vacancies appendix decision tree for ingit adopters adr federation over merging docs anthropic vacancies adr federation over merging adr first class protocol concept docs anthropic vacancies adr first class protocol concept readme docs anthropic vacancies readme",
+    "body": "adr five onboarding paths equal rank status accepted new похожие документы adr federation over merging adr federation over merging сходство смотрите также adr federation over merging adr federation over merging adr first class protocol concept adr first class protocol concept adr federation over merging adr federation over merging appendix decision tree for ingit with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters кто ссылается этот документ appendix references appendix references adr federation over merging adr federation over merging appendix decision tree for ingit adopters appendix decision tree for ingit adopters adr federation over merging adr federation over merging adr first class protocol concept adr first class protocol concept readme readme",
     "tags": [
       "anthropic"
     ],

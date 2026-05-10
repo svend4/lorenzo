@@ -5,9 +5,26 @@
   "sources": [
     "docs/PROTOTYPE_SPEC.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/05-roadmap-6-12-months.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SIMILAR_PASSAGES.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:4047a4bf2afbae13",
   "payload": {
     "title": "Svyazi 2.0 — Спецификация прототипа",

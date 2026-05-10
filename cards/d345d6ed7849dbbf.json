@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/clusters/01-ai-research-engineering.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
-  "payload_hash": "sha256:632040deaecc66ad",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/12-technical-program-management.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/13-communications.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/15-public-benefit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:13fe7c64e7897e24",
   "payload": {
     "title": "AI Research & Engineering — 68 ролей",
     "summary": "Ядро исследовательского и ML-инженерного найма. Research Engineer/Scientist по направлениям Pre-training, Post-training, RL, Interpretability, Alignment Science, Frontier Red Team (Cyber/Autonomy/Emerging Risks), Vision, Audio, Agents, Reward Models, Science of Scaling, Economic Research. Отдельно —",
-    "body": "research engineering ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также technical program management docs anthropic vacancies clusters technical program management communications docs anthropic vacancies clusters communications public benefit docs anthropic vacancies clusters public benefit safeguards trust safety docs anthropic vacancies clusters safeguards trust safety",
+    "body": "research engineering ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также technical program management technical program management communications communications public benefit public benefit safeguards trust safety safeguards trust safety",
     "tags": [
       "anthropic"
     ],

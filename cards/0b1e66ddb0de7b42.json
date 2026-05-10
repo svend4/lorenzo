@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:654beef8118a11b1",
   "payload": {
     "title": "Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)",
     "summary": "Разложу по уровням приближения к вашей идее.",
-    "body": "что уже существует этой нише habitica codingame hackerrank pieces источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также why stronger than looks docs anthropic vacancies mmorpg for programmers why stronger than looks pluses business docs anthropic vacancies mmorpg for programmers pluses business question mmorpg for programmers docs anthropic vacancies mmorpg for programmers question mmorpg for programmers why natural for programmers docs anthropic vacancies mmorpg for programmers why natural for programmers",
+    "body": "что уже существует этой нише habitica codingame hackerrank pieces источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также why stronger than looks why stronger than looks pluses business pluses business question mmorpg for programmers question mmorpg for programmers why natural for programmers why natural for programmers",
     "tags": [
       "orchestration",
       "architecture",

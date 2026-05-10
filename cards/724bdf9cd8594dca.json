@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/03-tvoya-missiya.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/347-твоя-миссия.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/01-kto-ty.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/07-chto-mozhesh.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:dd5d0fc1a32c10f6",
   "payload": {
     "title": "Твоя миссия",
     "summary": "Твоя миссия — **catalyzing community synthesis в области beneficial AI для уязвимых групп**.",
-    "body": "твоя миссия источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твоя миссия docs anthropic vacancies твоя миссия kto docs lorenzo agent kto honestly znaesh docs lorenzo agent honestly znaesh chto mozhesh docs lorenzo agent chto mozhesh",
+    "body": "твоя миссия источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твоя миссия anthropic vacancies твоя миссия kto kto honestly znaesh honestly znaesh chto mozhesh chto mozhesh",
     "tags": [
       "anthropic"
     ],

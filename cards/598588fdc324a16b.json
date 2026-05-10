@@ -5,14 +5,43 @@
   "sources": [
     "docs/svyazi-2-0/components/ai-factory.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
-  "payload_hash": "sha256:39690c41e0b42c13",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:7f67ca70af469394",
   "payload": {
     "title": "AI Factory + AIF Handoff",
     "summary": "Spec‑driven многоагентный development‑framework и автономный Kanban‑слой поверх него.",
-    "body": "factory aif handoff источник хабр github citeturn view turn search turn search проекты svyazi factory смотрите также rufler docs svyazi components rufler yodoca docs svyazi components yodoca memnet docs svyazi components memnet mclaude docs svyazi components mclaude кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs svyazi components readme",
+    "body": "factory aif handoff источник хабр github citeturn view turn search turn search проекты svyazi factory смотрите также rufler rufler yodoca yodoca memnet memnet mclaude mclaude кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
     "tags": [
       "orchestration",
       "ingestion",

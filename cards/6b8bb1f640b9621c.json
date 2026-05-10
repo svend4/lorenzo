@@ -5,14 +5,31 @@
   "sources": [
     "docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/PROGRESS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:03d106e60232a1c3",
   "payload": {
     "title": "9. Checklist применения методологии",
     "summary": "",
-    "body": "checklist применения методологии абстракт авто проблема checklist применения методологии contents подход checklist применения методологии checklist применения методологии результат время фазы агенты работают разных ветках одной prompt для идентичны иначе это независимое воспроизведение каждый агент видит результат друго ключевые слова checklist применения методологии перед время документ началом phase contents checklist применения методологии checklist применения методологии перед началом pre phase перед началом pre phase время фазы время фазы после merge main transitional state после merge main transitional state фаза consolidation фаза consolidation warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений документ действительно критически важен смотрите также progress docs progress формальный workflow docs anthropic vacancies формальный workflow appendix примеры расхождений разрешения docs anthropic vacancies appendix примеры расхождений разрешения контекст мотивация docs anthropic vacancies контекст мотивация похожие документы appendix примеры расхождений разрешения docs anthropic vacancies appendix примеры расхождений разрешения сходство контекст мотивация docs anthropic vacancies контекст мотивация сходство формальный workflow docs anthropic vacancies формальный workflow сходство",
+    "body": "checklist применения методологии абстракт авто проблема checklist применения методологии contents подход checklist применения методологии checklist применения методологии результат время фазы агенты работают разных ветках одной prompt для идентичны иначе это независимое воспроизведение каждый агент видит результат друго ключевые слова checklist применения методологии перед время документ началом phase contents checklist применения методологии checklist применения методологии перед началом pre phase перед началом pre phase время фазы время фазы после merge main transitional state после merge main transitional state фаза consolidation фаза consolidation warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений документ действительно критически важен смотрите также progress progress формальный workflow формальный workflow appendix примеры расхождений разрешения appendix примеры расхождений разрешения контекст мотивация контекст мотивация похожие документы appendix примеры расхождений разрешения appendix примеры расхождений разрешения сходство контекст мотивация контекст мотивация сходство формальный workflow формальный workflow сходство",
     "tags": [
       "roadmap"
     ],

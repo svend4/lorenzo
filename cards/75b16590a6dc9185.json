@@ -5,14 +5,39 @@
   "sources": [
     "docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/09-architectural-gaps.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/QA.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:d87be9154340c869",
   "payload": {
     "title": "Архитектурные зазоры, которые важнее новых инструментов",
     "summary": "После первичного обзора видно, что дефицит уже не в наличии компонентов, а в **стыках между ними**. Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт",
-    "body": "архитектурные зазоры которые важнее новых инструментов tip этот документ описывает mvp подход начните него для быстрого прототипа абстракт авто проблема архитектурный зазор уже сильные кандидаты что них уже хорошо закрыто что пока остаётся незакрытым что брать mvp карточка как единица правды svyazi agentfs card подход третьих нужен memory governance layer который даёт ассоциативной памяти записывать предлагаемое как истинное результат наоборот даже средний model tier даёт много пользы если extract normalize review evidence memory status already pinned ключевые слова svyazi memory проект search review который agentfs knowledge статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено после первичного обзора видно что дефицит уже наличии компонентов стыках между ними svyazi svyazi хорошо закрывает ingest нормализацию agentfs agentfs даёт проекты svyazi cardindex cardindex agentfs knowledge space docs svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы architectural gaps docs svyazi docs svyazi intro part architectural gaps сходство docs сходство интеграционный контракт который стоит зафиксироват docs collaborations интеграционный контракт который стоит зафиксироват сходство смотрите также architectural gaps docs svyazi docs svyazi intro part architectural gaps docs integration contracts docs svyazi docs svyazi intro part integration contracts интеграционный контракт который стоит зафиксироват docs collaborations интеграционный контракт который стоит зафиксироват rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts docs svyazi contacts технический stack svyazi foundation docs anthropic vacancies технический stack svyazi foundation readme docs collaborations readme tables docs tables",
+    "body": "архитектурные зазоры которые важнее новых инструментов tip этот документ описывает mvp подход начните него для быстрого прототипа абстракт авто проблема архитектурный зазор уже сильные кандидаты что них уже хорошо закрыто что пока остаётся незакрытым что брать mvp карточка как единица правды svyazi agentfs card подход третьих нужен memory governance layer который даёт ассоциативной памяти записывать предлагаемое как истинное результат наоборот даже средний model tier даёт много пользы если extract normalize review evidence memory status already pinned ключевые слова svyazi memory проект search review который agentfs knowledge статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено после первичного обзора видно что дефицит уже наличии компонентов стыках между ними svyazi svyazi хорошо закрывает ingest нормализацию agentfs agentfs даёт проекты svyazi cardindex cardindex agentfs knowledge space svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы architectural gaps svyazi architectural gaps сходство сходство интеграционный контракт который стоит зафиксироват интеграционный контракт который стоит зафиксироват сходство смотрите также architectural gaps svyazi architectural gaps integration contracts svyazi integration contracts интеграционный контракт который стоит зафиксироват интеграционный контракт который стоит зафиксироват rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts svyazi contacts технический stack svyazi foundation anthropic vacancies технический stack svyazi foundation readme readme tables tables",
     "tags": [
       "memory",
       "rag",

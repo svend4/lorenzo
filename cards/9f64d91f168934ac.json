@@ -5,14 +5,43 @@
   "sources": [
     "docs/DIGEST_WEEKLY.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/KPI_HISTORY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DIGEST_AUTO.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONCEPT_GRAPH.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:e397f7d894e9e7b4",
   "payload": {
     "title": "Еженедельный дайджест — 2026-04-29",
     "summary": "_Период: последние 7 дней (с 2026-04-22)_",
-    "body": "еженедельный дайджест период последние дней сгенерировано кто ссылается этот документ index docs index readme docs readme tables docs tables смотрите также kpi history docs kpi history docs autofilled components digest auto docs digest auto concept graph docs concept graph",
+    "body": "еженедельный дайджест период последние дней сгенерировано кто ссылается этот документ index index readme readme tables tables смотрите также kpi history kpi history autofilled components digest auto digest auto concept graph concept graph",
     "tags": [
       "rag"
     ],

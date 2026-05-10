@@ -5,14 +5,43 @@
   "sources": [
     "docs/anthropic-vacancies/clusters/02-sales.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/signals.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/14-public-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/05-marketing-brand.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:ea4838ae42cbafd5",
   "payload": {
     "title": "Sales — 150 ролей (≈34% всего найма)",
     "summary": "То, что статья замалчивает: основной рост Anthropic сейчас — не в инженерах, а в GTM. Account Executive (Enterprise, Strategic, Mid-Market, SMB, Startups, Federal, State & Local, DOD/IC), Solutions Architect Applied AI по вертикалям (Industries, Life Sciences, Financial Services, Government, Nationa",
-    "body": "sales ролей всего найма источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также signals docs anthropic vacancies signals public policy docs anthropic vacancies clusters public policy marketing brand docs anthropic vacancies clusters marketing brand product management support ops docs anthropic vacancies clusters product management support ops кто ссылается этот документ readme docs anthropic vacancies clusters readme overview docs anthropic vacancies overview signals docs anthropic vacancies signals concepts docs glossary concepts",
+    "body": "sales ролей всего найма источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также signals signals public policy public policy marketing brand marketing brand product management support ops product management support ops кто ссылается этот документ readme readme overview overview signals signals concepts glossary concepts",
     "tags": [
       "anthropic"
     ],

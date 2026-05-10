@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/okwf-concept/05-economic-model.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/159-5-economic-model.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/07-phased-rollout.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/04-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/okwf-concept/09-call-for-partnership.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:8d81af91f9fe54e0",
   "payload": {
     "title": "5. Economic Model",
     "summary": "OKWF is not and will not become a for-profit entity. Operational",
-    "body": "economic model tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper open knowledge work foundation concept document источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper open knowledge work foundation concept document economic model budget philosophy okwf not and will not become for profit entity operational sustainability comes from core endowment from foundational corporate partners and foundation grants initial growing target grant funding for specific initiatives and research annually earned revenue from commercial projects routed through platform growing majority operational funding over years contributor fees explicit zero platform fees for contributors dignity preserving roles three year pilot budget estimated category year year year core staff people infrastructure development contributor stipends growing cohort contributor bonuses legal and compliance administrative and governance community events and outreach reserve and contingency total annual three year total funding strategy phase months secure anchor partnership commitment over years from one company most likely candidate anthropic public benefit team which has explicit mission alignment and existing programs phase months overlapping secure secondary partnerships each from additional sources complementary company mistral cohere foundation grant mozilla ford wikimedia program grant eic pathfinder horizon europe phase months launch commercial project revenue stream target year commercial revenue scaling year phase year develop endowment through success contingent additional sponsorships contributor economics representative contributor profiles contributor retired german law professor hours week base stipend month typical bonuses month from completed projects annual total other income pension partial contributor disabled senior engineer like document author hours week base stipend month reflecting germany cost living typical bonuses month from specialized technical work annual total other income disability pension does not conflict with foundation work structure contributor domain expert belarus hours week base stipend month local cost living adjusted typical bonuses month from technical work annual total local purchasing power equivalent germany contributor career switcher phd teacher spain hours week base stipend month limited engagement typical bonuses month annual total supplements existing income explores transition these profiles are illustrative actual compensation reflects engagement level impact skill and region foundation commits minimum dignity threshold upward merit based смотрите также economic model docs anthropic vacancies economic model phased rollout docs nautilus okwf concept phased rollout proposed infrastructure docs nautilus okwf concept proposed infrastructure call for partnership docs nautilus okwf concept call for partnership",
+    "body": "economic model tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper open knowledge work foundation concept document источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper open knowledge work foundation concept document economic model budget philosophy okwf not and will not become for profit entity operational sustainability comes from core endowment from foundational corporate partners and foundation grants initial growing target grant funding for specific initiatives and research annually earned revenue from commercial projects routed through platform growing majority operational funding over years contributor fees explicit zero platform fees for contributors dignity preserving roles three year pilot budget estimated category year year year core staff people infrastructure development contributor stipends growing cohort contributor bonuses legal and compliance administrative and governance community events and outreach reserve and contingency total annual three year total funding strategy phase months secure anchor partnership commitment over years from one company most likely candidate anthropic public benefit team which has explicit mission alignment and existing programs phase months overlapping secure secondary partnerships each from additional sources complementary company mistral cohere foundation grant mozilla ford wikimedia program grant eic pathfinder horizon europe phase months launch commercial project revenue stream target year commercial revenue scaling year phase year develop endowment through success contingent additional sponsorships contributor economics representative contributor profiles contributor retired german law professor hours week base stipend month typical bonuses month from completed projects annual total other income pension partial contributor disabled senior engineer like document author hours week base stipend month reflecting germany cost living typical bonuses month from specialized technical work annual total other income disability pension does not conflict with foundation work structure contributor domain expert belarus hours week base stipend month local cost living adjusted typical bonuses month from technical work annual total local purchasing power equivalent germany contributor career switcher phd teacher spain hours week base stipend month limited engagement typical bonuses month annual total supplements existing income explores transition these profiles are illustrative actual compensation reflects engagement level impact skill and region foundation commits minimum dignity threshold upward merit based смотрите также economic model anthropic vacancies economic model phased rollout phased rollout proposed infrastructure proposed infrastructure call for partnership call for partnership",
     "tags": [
       "roadmap",
       "anthropic"

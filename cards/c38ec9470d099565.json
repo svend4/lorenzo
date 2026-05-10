@@ -5,14 +5,47 @@
   "sources": [
     "docs/svyazi-2-0/components/autoresearch-sequential.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
-  "payload_hash": "sha256:4b8628109944a689",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/ai-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/graph-rag.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:3673b2d6102ca60f",
   "payload": {
     "title": "AutoResearch + Sequential",
     "summary": "Ночной цикл самоулучшения и протокол reviewer‑цепочки без централизованного координатора.",
-    "body": "autoresearch sequential авторы андрей карпаты виктория дочкина проекты svyazi autoresearch смотрите также memnet docs svyazi components memnet yodoca docs svyazi components yodoca factory docs svyazi components factory graph rag docs svyazi components graph rag кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name concepts docs glossary concepts readme docs svyazi components readme",
+    "body": "autoresearch sequential авторы андрей карпаты виктория дочкина проекты svyazi autoresearch смотрите также memnet memnet yodoca yodoca factory factory graph rag graph rag кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
     "tags": [
       "orchestration",
       "ingestion",

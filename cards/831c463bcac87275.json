@@ -5,14 +5,35 @@
   "sources": [
     "docs/01-svyazi/08-conclusions.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:e060c351dd5d1f16",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/07-выводы.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/MISSING.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:ba79f08e2e715f74",
   "payload": {
     "title": "08 conclusions",
     "summary": "По итогам поиска видно, что **Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей**, не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG и не оркестрация по отдельности: все они уже представлены на Хабре и в репозиториях. Дефицитный слой — **правиль",
-    "body": "абстракт авто проблема итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново подход итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново результат первое svyazi agentfs ngt ngt yodoca liteparse это даёт уже полезный mvp ключевые слова summary svyazi executive проект выводы collaborations first cardindex итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново самый дефицитный слой память rag rag оркестр проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory rufler rufler liteparse docs svyazi executive summary yodoca yodoca похожие документы выводы docs collaborations выводы сходство executive summary docs svyazi docs svyazi intro part executive summary сходство executive summary docs collaborations executive summary сходство смотрите также выводы docs collaborations выводы что это продолжение добавляет docs collaborations что это продолжение добавляет executive summary docs collaborations executive summary missing docs missing rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов",
+    "body": "абстракт авто проблема итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново подход итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново результат первое svyazi agentfs ngt ngt yodoca liteparse это даёт уже полезный mvp ключевые слова summary svyazi executive проект выводы collaborations first cardindex итогам поиска видно что svyazi уже можно собирать существующих software first кирпичей придумывая половину архитектуры заново самый дефицитный слой память rag rag оркестр проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory rufler rufler liteparse executive summary yodoca yodoca похожие документы выводы collaborations выводы сходство executive summary executive summary сходство executive summary collaborations executive summary сходство смотрите также выводы collaborations выводы что это продолжение добавляет collaborations что это продолжение добавляет executive summary collaborations executive summary missing missing rag retrieval augmented generation генерация поиском cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов",
     "tags": [
       "memory",
       "rag",

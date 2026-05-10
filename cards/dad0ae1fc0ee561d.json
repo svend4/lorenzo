@@ -5,14 +5,47 @@
   "sources": [
     "docs/ai-collaborations/candidates/01-three-key-candidates.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/analogues/01-three-direct-analogues.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/02-related-projects.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/02-related-projects-context.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/reading-paths.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:c20d8f84622e407b",
   "payload": {
     "title": "Три ключевых кандидата: K2-18, Wikontic, NGT Memory",
     "summary": "1. K2-18 — Аскольд Романов (Яндекс Образование) https://habr.com/ru/companies/yandex/articles/1019928/ Open-source инструмент, который трансформирует учебный текст в семантический граф знаний с образовательными метриками. Автор — лингвист (ВМК МГУ + аспирантура), фокус: «лингвистика даёт типизацию о",
-    "body": "три ключевых кандидата wikontic ngt memory источник mhtml снимок поиск коллабораций проектов корень репозитория проекты ngt memory wikontic смотрите также three direct analogues docs habr unique projects analogues three direct analogues wikontic docs habr projects knowledge wikontic related projects docs habr unique projects analogues related projects related projects context docs collaborations candidates related projects context кто ссылается этот документ readme docs collaborations candidates readme authors name docs glossary authors name components name docs glossary components name reading paths docs reading paths",
+    "body": "три ключевых кандидата wikontic ngt memory источник mhtml снимок поиск коллабораций проектов корень репозитория проекты ngt memory wikontic смотрите также three direct analogues habr unique projects analogues three direct analogues wikontic habr projects knowledge wikontic related projects habr unique projects analogues related projects related projects context related projects context кто ссылается этот документ readme readme authors name glossary authors name components name glossary components name reading paths reading paths",
     "tags": [
       "memory",
       "ingestion",

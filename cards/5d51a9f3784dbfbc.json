@@ -7,6 +7,14 @@
   ],
   "edges": [
     {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/03-technology-combinations/01-agent-routing.md",
       "rel": "references"
     },
@@ -17,19 +25,15 @@
     {
       "to": "docs/03-technology-combinations/02-knowledge-graphs.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/WORD_FREQ.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:f4a51f11669aeb76",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:093a8bea197c74e2",
   "payload": {
     "title": "Local-first и P2P стек",
     "summary": "Экономия: 80% запросов идут на дешёвые модели, Opus только для Planner-агента.",
-    "body": "local first стек содержание упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы локальная qwen средние облачная deepseek docs habr projects memory memnet сложные архитектурные claude opus роутер перед каждым агентом после экономия запросов идут дешёвые модели opus только для planner агента fault tolerant агентский граф router даёт fallback коробки если opus недоступен sonnet gpt локальная модель мультиагентная система перестаёт ломаться при отказе одного провайдера комбинация crdt local first svyazi cardindex родители crdt ron yjs habr com articles habr com articles conflict free replicated data types синхронизация svyazi cardindex docs svyazi executive summary yaml структура профилей хешами для дедупликации дети граф сообщества без центрального сервера сейчас svyazi single user система crdt каждый участник ведёт локальный cardindex docs svyazi executive summary изменения синхронизируются через yjs конфликты два человека обновили профиль одного участника мержатся автоматически никакого центрального сервера privacy design для legal community max каждый юрист сообществе ведёт свой локальный граф дел участников всё синхронизируется peer peer данные покидают машины участников offline first discovery discovery файл svyazi накопление неизвестного синхронизируется через crdt между устройствами ноутбук нашёл новую сущность добавил discovery телефон оффлайн дня при подключении автоматически получает обновления модерация тоже распределённая комбинация парсинг llm graph rag правильная агентская архитектура родители парсинг llm habr com articles structured outputs pydantic автоматическое извлечение структуры graph rag habr com articles microsoft research графы знаний вместо плоского rag durable state агенты habr com articles дети self building legal knowledge graph агент читает новые решения sozialgericht парсер llm извлекает сущности судья закона истец ответчик решение graph builder строит похожие документы agent routing agent routing сходство benchmarks benchmarks сходство knowledge graphs knowledge graphs сходство смотрите также agent routing agent routing benchmarks benchmarks knowledge graphs knowledge graphs word freq word freq упоминается агентные системы роутинг agent routing бенчмарки производительность benchmarks графы знаний legal knowledge graphs комбинирование технологий для новых свойств readme упоминается комбинирование технологий для новых свойств readme связанные документы графы знаний legal knowledge graphs бенчмарки производительность benchmarks комбинирование технологий для новых свойств readme связанные документы бенчмарки производительность benchmarks графы знаний legal knowledge graphs комбинирование технологий для новых свойств readme приоритеты файлов priorities агентные системы роутинг agent routing глоссарий проектов glossary тепловая карта тем heatmap карта репозитория lorenzo sitemap кто ссылается этот документ agent routing docs technology combinations agent routing benchmarks docs technology combinations benchmarks readme docs technology combinations readme",
+    "body": "local first стек содержание упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы локальная qwen средние облачная deepseek habr projects memory memnet сложные архитектурные claude opus роутер перед каждым агентом после экономия запросов идут дешёвые модели opus только для planner агента fault tolerant агентский граф router даёт fallback коробки если opus недоступен sonnet gpt локальная модель мультиагентная система перестаёт ломаться при отказе одного провайдера комбинация crdt local first svyazi cardindex родители crdt ron yjs habr com articles habr com articles conflict free replicated data types синхронизация svyazi cardindex svyazi executive summary yaml структура профилей хешами для дедупликации дети граф сообщества без центрального сервера сейчас svyazi single user система crdt каждый участник ведёт локальный cardindex svyazi executive summary изменения синхронизируются через yjs конфликты два человека обновили профиль одного участника мержатся автоматически никакого центрального сервера privacy design для legal community max каждый юрист сообществе ведёт свой локальный граф дел участников всё синхронизируется peer peer данные покидают машины участников offline first discovery discovery файл svyazi накопление неизвестного синхронизируется через crdt между устройствами ноутбук нашёл новую сущность добавил discovery телефон оффлайн дня при подключении автоматически получает обновления модерация тоже распределённая комбинация парсинг llm graph rag правильная агентская архитектура родители парсинг llm habr com articles structured outputs pydantic автоматическое извлечение структуры graph rag habr com articles microsoft research графы знаний вместо плоского rag durable state агенты habr com articles дети self building legal knowledge graph агент читает новые решения sozialgericht парсер llm извлекает сущности судья закона истец ответчик решение graph builder строит похожие документы agent routing agent routing сходство benchmarks benchmarks сходство knowledge graphs knowledge graphs сходство смотрите также agent routing agent routing benchmarks benchmarks knowledge graphs knowledge graphs word freq word freq упоминается агентные системы роутинг agent routing бенчмарки производительность benchmarks графы знаний legal knowledge graphs комбинирование технологий для новых свойств readme упоминается комбинирование технологий для новых свойств readme связанные документы графы знаний legal knowledge graphs бенчмарки производительность benchmarks комбинирование технологий для новых свойств readme связанные документы бенчмарки производительность benchmarks графы знаний legal knowledge graphs комбинирование технологий для новых свойств readme приоритеты файлов priorities агентные системы роутинг agent routing глоссарий проектов glossary тепловая карта тем heatmap карта репозитория lorenzo sitemap кто ссылается этот документ agent routing agent routing benchmarks benchmarks readme readme",
     "tags": [
       "rag",
       "knowledge",

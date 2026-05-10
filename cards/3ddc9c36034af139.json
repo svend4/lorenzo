@@ -5,14 +5,31 @@
   "sources": [
     "docs/04-ai-collaborations/04-приоритетные-ансамбли.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:8bcd44582306fe1c",
   "payload": {
     "title": "Приоритетные ансамбли",
     "summary": "Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.",
-    "body": "приоритетные ансамбли абстракт авто проблема cite turn search контекст реального мира доступен агенту как tool как догадка self aware mcp закрывает проблемы часового пояса даты локации подход изучите перед принятием архитектурных решений результат cite turn view review без центрального bottleneck sequential протокол экспериментах автора даёт качество выше coordinator режима сильных моделях ключевые слова search svyazi knowledge first проект agentfs space rufler статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений ниже все теоретически возможные комбинации пять ансамблей максимальным приростом свойств при минимальном интеграционном риске проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space docs svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы ensembles overview docs svyazi docs svyazi intro part ensembles overview сходство карта найденных проектов паттернов docs collaborations карта найденных проектов паттернов сходство component catalog docs svyazi docs svyazi intro part component catalog сходство смотрите также ensembles overview docs svyazi docs svyazi intro part ensembles overview карта найденных проектов паттернов docs collaborations карта найденных проектов паттернов component catalog docs svyazi docs svyazi intro part component catalog план прототипа возможные контакты docs collaborations план прототипа возможные контакты mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts docs svyazi contacts readme docs collaborations readme component matrix docs component matrix tables docs tables",
+    "body": "приоритетные ансамбли абстракт авто проблема cite turn search контекст реального мира доступен агенту как tool как догадка self aware mcp закрывает проблемы часового пояса даты локации подход изучите перед принятием архитектурных решений результат cite turn view review без центрального bottleneck sequential протокол экспериментах автора даёт качество выше coordinator режима сильных моделях ключевые слова search svyazi knowledge first проект agentfs space rufler статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений ниже все теоретически возможные комбинации пять ансамблей максимальным приростом свойств при минимальном интеграционном риске проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы ensembles overview svyazi ensembles overview сходство карта найденных проектов паттернов карта найденных проектов паттернов сходство component catalog svyazi component catalog сходство смотрите также ensembles overview svyazi ensembles overview карта найденных проектов паттернов карта найденных проектов паттернов component catalog svyazi component catalog план прототипа возможные контакты план прототипа возможные контакты mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit кто ссылается этот документ contacts svyazi contacts readme readme component matrix component matrix tables tables",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/limitations/license-tree.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/14-limitations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/overview/executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/first-contacts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/prototype/risks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:a395614d207a3818",
   "payload": {
     "title": "Лицензионные развилки",
     "summary": "",
-    "body": "лицензионные развилки warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел ограничения лицензии что пока лучше склеивать проекты svyazi cardindex agentfs knowledge space liteparse legal rag hybrid rag graph rag смотрите также limitations docs svyazi limitations executive summary docs svyazi overview executive summary first contacts docs svyazi outreach first contacts risks docs svyazi prototype risks",
+    "body": "лицензионные развилки warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел ограничения лицензии что пока лучше склеивать проекты svyazi cardindex agentfs knowledge space liteparse legal rag hybrid rag graph rag смотрите также limitations svyazi limitations executive summary overview executive summary first contacts outreach first contacts risks prototype risks",
     "tags": [
       "memory",
       "rag",

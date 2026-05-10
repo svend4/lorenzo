@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:1a3652ae2526e53a",
   "payload": {
     "title": "What This Document Doesn't Solve",
     "summary": "This document identifies a problem. It does not propose a",
-    "body": "what this document doesn solve источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также what this document doesn solve docs anthropic vacancies what this document doesn solve missing middle layer docs nautilus infrastructure layer missing middle layer why document exists docs nautilus infrastructure layer why document exists recursive insight docs nautilus infrastructure layer recursive insight",
+    "body": "what this document doesn solve источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также what this document doesn solve anthropic vacancies what this document doesn solve missing middle layer missing middle layer why document exists why document exists recursive insight recursive insight",
     "tags": [
       "architecture",
       "roadmap",

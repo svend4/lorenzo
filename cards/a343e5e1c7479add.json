@@ -5,9 +5,50 @@
   "sources": [
     "docs/DIGEST_AUTO.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/meta-scripting/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/PROTOTYPE_SPEC.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/meta-scripting/01-concept.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/09-architectural-gaps.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/10-second-order-ensembles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/QA.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/00-intro.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:bfff38bcbfc16c0a",
   "payload": {
     "title": "Автодайджест изменений",

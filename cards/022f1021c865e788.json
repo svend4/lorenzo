@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/security/budget-routing.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/06-security-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/security/privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/E-execution-plane.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:8403cbe5c41c530a",
   "payload": {
     "title": "Практичный бюджетный роутинг моделей",
     "summary": "",
-    "body": "практичный бюджетный роутинг моделей warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты litellm auto router tool search autoresearch смотрите также security privacy docs svyazi security privacy безопасность приватность бюджетный роутинг docs collaborations безопасность приватность бюджетный роутинг privacy docs svyazi security privacy execution plane docs svyazi ensembles execution plane",
+    "body": "практичный бюджетный роутинг моделей warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты litellm auto router tool search autoresearch смотрите также security privacy svyazi security privacy безопасность приватность бюджетный роутинг collaborations безопасность приватность бюджетный роутинг privacy privacy execution plane ensembles execution plane",
     "tags": [
       "rag",
       "security",

@@ -39,13 +39,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:575ce316ba793cd5",
   "payload": {
     "title": "AI-саммари разделов документации",
     "summary": "_`docs/01-svyazi/` · 16 файлов · 10,166 слов_",
-    "body": "саммари разделов документации архитектура svyazi архитектура svyazi проекты svyazi запустите anthropic api key для генерации резюме без ключа автоматическое резюме основе метаданных связанные документы индекс документации lorenzo svyazi index отчёт дублировании duplicates карта репозитория lorenzo sitemap валидация структуры репозитория validation связанные документы индекс документации lorenzo svyazi index индекс тегов tags svyazi svyazi архитектура исследование docs svyazi readme перекрёстные ссылки crossrefs смотрите также concept graph concept graph validation validation onboarding onboarding word cloud word cloud упоминается docs readme все таблицы репозитория tables индекс документации lorenzo svyazi index карта репозитория lorenzo sitemap онбординг svyazi lorenzo onboarding кто ссылается этот документ index docs index readme docs readme tables docs tables",
+    "body": "саммари разделов документации архитектура svyazi архитектура svyazi проекты svyazi запустите anthropic api key для генерации резюме без ключа автоматическое резюме основе метаданных связанные документы индекс документации lorenzo svyazi index отчёт дублировании duplicates карта репозитория lorenzo sitemap валидация структуры репозитория validation связанные документы индекс документации lorenzo svyazi index индекс тегов tags svyazi svyazi архитектура исследование docs svyazi readme перекрёстные ссылки crossrefs смотрите также concept graph concept graph validation validation onboarding onboarding word cloud word cloud упоминается docs readme все таблицы репозитория tables индекс документации lorenzo svyazi index карта репозитория lorenzo sitemap онбординг svyazi lorenzo onboarding кто ссылается этот документ index index readme readme tables tables",
     "tags": [
       "ingestion",
       "local-first",

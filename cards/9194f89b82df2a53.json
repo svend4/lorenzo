@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/62-author-contact.md",
       "rel": "references"
     },
@@ -29,19 +33,15 @@
     {
       "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/164-10-appendices.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:21aa43f0b1a78a1d",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:2f92f1cb90657473",
   "payload": {
     "title": "Author & Contact",
-    "summary": "`[nautilus](../docs/05-habr-projects/memory/memnet.md)-portal`)",
-    "body": "author contact maintainer svend github похожие документы author contact author contact сходство author contact author contact сходство portal protocol portal protocol сходство смотрите также author contact author contact reference implementation reference implementation author contact author contact status this document status this document упоминается status this document status this document status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation nautilus portal reference substrate nautilus portal reference substrate реализация проекте nautilus реализация проекте nautilus abstract abstract author contact author contact author contact author contact content overview content overview history history history history native format native format portal protocol portal protocol planned planned readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology вакансии anthropic анализ кластерам readme зачем две версии параллельно зачем две версии параллельно примеры запросов claude примеры запросов claude about about проекте проекте упоминается вакансии anthropic анализ кластерам readme связанные документы reference implementation reference implementation author contact author contact reference implementation reference implementation status this document status this document status this document status this document versioning policy versioning policy content overview content overview passports info passports info связанные документы author contact author contact reference implementation reference implementation reference implementation reference implementation status this document status this document status this document status this document nautilus portal reference substrate nautilus portal reference substrate versioning policy versioning policy passports info passports info кто ссылается этот документ portal protocol docs anthropic vacancies portal protocol abstract docs anthropic vacancies abstract status this document docs anthropic vacancies status this document review methodology docs anthropic vacancies review methodology readme mcp инструкция установке docs anthropic vacancies readme mcp инструкция установке примеры запросов claude docs anthropic vacancies примеры запросов claude planned docs anthropic vacancies planned nautilus portal reference substrate docs anthropic vacancies nautilus portal reference substrate ещё",
+    "summary": "`[nautilus](../05-habr-projects/memory/memnet.md)-portal`)",
+    "body": "author contact maintainer svend github похожие документы author contact author contact сходство author contact author contact сходство portal protocol portal protocol сходство смотрите также author contact author contact reference implementation reference implementation author contact author contact status this document status this document упоминается status this document status this document status this document status this document appendices appendices versioning policy versioning policy reference implementation reference implementation versioning policy versioning policy reference implementation reference implementation nautilus portal reference substrate nautilus portal reference substrate реализация проекте nautilus реализация проекте nautilus abstract abstract author contact author contact author contact author contact content overview content overview history history history history native format native format portal protocol portal protocol planned planned readme mcp инструкция установке readme mcp инструкция установке review methodology review methodology вакансии anthropic анализ кластерам readme зачем две версии параллельно зачем две версии параллельно примеры запросов claude примеры запросов claude about about проекте проекте упоминается вакансии anthropic анализ кластерам readme связанные документы reference implementation reference implementation author contact author contact reference implementation reference implementation status this document status this document status this document status this document versioning policy versioning policy content overview content overview passports info passports info связанные документы author contact author contact reference implementation reference implementation reference implementation reference implementation status this document status this document status this document status this document nautilus portal reference substrate nautilus portal reference substrate versioning policy versioning policy passports info passports info кто ссылается этот документ portal protocol portal protocol abstract abstract status this document status this document review methodology review methodology readme mcp инструкция установке readme mcp инструкция установке примеры запросов claude примеры запросов claude planned planned nautilus portal reference substrate nautilus portal reference substrate ещё",
     "tags": [
       "collaboration"
     ],

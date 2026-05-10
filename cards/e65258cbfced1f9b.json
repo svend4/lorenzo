@@ -5,14 +5,43 @@
   "sources": [
     "docs/02-anthropic-vacancies/175-6-ethical-framework.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/176-7-governance-and-oversight.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/179-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/144-7-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/146-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:79df834f88e52bc2",
   "payload": {
     "title": "6. Ethical Framework",
     "summary": "Representative Agents raise novel ethical questions. We",
-    "body": "ethical framework содержание contents contents ethical framework ethical framework principal sovereignty principal sovereignty transparent capability transparent capability adverse action without notice adverse action without notice fairness across principals fairness across principals vulnerability protection vulnerability protection consent and capacity consent and capacity accessibility first class concern accessibility first class concern ethical framework representative agents raise novel ethical questions propose framework grounded established principles adapted context principal sovereignty the principal sovereign over their own representation this means principal owns all data about themselves used agent principal can modify terminate agent any time principal can override any agent decision principal can audit all agent actions principal cannot exploited agent provider this non negotiable without principal sovereignty the system becomes another mechanism for exploitation the very populations claims serve transparent capability agents must honest about what they can and cannot this includes acknowledging when domain expertise exceeds agent capability recommending human professional involvement when appropriate not overstating likelihood success disclosing failure rates and limitations particularly critical legal medical and financial domains where overconfidence can cause harm adverse action without notice agent cannot take consequential actions adverse counterparties without principal awareness and approval examples adverse actions legal complaints public allegations withdrawal cooperation these require explicit principal decision fairness across principals multiple principals use agents that interact fairness considerations apply agent should not gain advantage through manipulation deception exploitation other agents behavior adversarial robustness required vulnerability protection when principal vulnerable state mental health crisis severe illness cognitive decline agent role shifts toward protection may involve refusing high stakes commitments escalating designated trusted human maintaining stable status quo until vulnerability resolves consent and capacity some principals severe cognitive disability dementia minors cannot fully consent agent operation for these populations agent operates only with explicit guardian authorization guardian retains all override capability agent scope conservative defaulting status quo periodic authorization required accessibility first class concern agent interfaces must accessible populations they serve this means visual disabilities full screen reader compatibility cognitive disabilities clear simple language options motor disabilities voice and alternative input linguistic diversity high quality multi language support technology unfamiliarity human mediated onboarding representative agent that only accessible tech sophisticated principals fails its core mission похожие документы governance and oversight docs anthropic vacancies governance and oversight сходство architectural specification docs anthropic vacancies architectural specification сходство risks and mitigations docs anthropic vacancies risks and mitigations сходство смотрите также governance and oversight docs anthropic vacancies governance and oversight architectural specification docs anthropic vacancies architectural specification risks and mitigations docs anthropic vacancies risks and mitigations open questions docs anthropic vacancies open questions кто ссылается этот документ open questions docs anthropic vacancies open questions acknowledgments docs anthropic vacancies acknowledgments historical precedents agents civilizational docs anthropic vacancies historical precedents agents civilizational what makes representative agent docs anthropic vacancies what makes representative agent architectural specification docs anthropic vacancies architectural specification closing docs anthropic vacancies closing configuration how principals build their ensembl docs anthropic vacancies configuration how principals build their ensembl readme docs anthropic vacancies readme",
+    "body": "ethical framework содержание contents contents ethical framework ethical framework principal sovereignty principal sovereignty transparent capability transparent capability adverse action without notice adverse action without notice fairness across principals fairness across principals vulnerability protection vulnerability protection consent and capacity consent and capacity accessibility first class concern accessibility first class concern ethical framework representative agents raise novel ethical questions propose framework grounded established principles adapted context principal sovereignty the principal sovereign over their own representation this means principal owns all data about themselves used agent principal can modify terminate agent any time principal can override any agent decision principal can audit all agent actions principal cannot exploited agent provider this non negotiable without principal sovereignty the system becomes another mechanism for exploitation the very populations claims serve transparent capability agents must honest about what they can and cannot this includes acknowledging when domain expertise exceeds agent capability recommending human professional involvement when appropriate not overstating likelihood success disclosing failure rates and limitations particularly critical legal medical and financial domains where overconfidence can cause harm adverse action without notice agent cannot take consequential actions adverse counterparties without principal awareness and approval examples adverse actions legal complaints public allegations withdrawal cooperation these require explicit principal decision fairness across principals multiple principals use agents that interact fairness considerations apply agent should not gain advantage through manipulation deception exploitation other agents behavior adversarial robustness required vulnerability protection when principal vulnerable state mental health crisis severe illness cognitive decline agent role shifts toward protection may involve refusing high stakes commitments escalating designated trusted human maintaining stable status quo until vulnerability resolves consent and capacity some principals severe cognitive disability dementia minors cannot fully consent agent operation for these populations agent operates only with explicit guardian authorization guardian retains all override capability agent scope conservative defaulting status quo periodic authorization required accessibility first class concern agent interfaces must accessible populations they serve this means visual disabilities full screen reader compatibility cognitive disabilities clear simple language options motor disabilities voice and alternative input linguistic diversity high quality multi language support technology unfamiliarity human mediated onboarding representative agent that only accessible tech sophisticated principals fails its core mission похожие документы governance and oversight governance and oversight сходство architectural specification architectural specification сходство risks and mitigations risks and mitigations сходство смотрите также governance and oversight governance and oversight architectural specification architectural specification risks and mitigations risks and mitigations open questions open questions кто ссылается этот документ open questions open questions acknowledgments acknowledgments historical precedents agents civilizational historical precedents agents civilizational what makes representative agent what makes representative agent architectural specification architectural specification closing closing configuration how principals build their ensembl configuration how principals build their ensembl readme readme",
     "tags": [
       "orchestration",
       "local-first"

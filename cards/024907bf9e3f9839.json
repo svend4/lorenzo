@@ -5,14 +5,47 @@
   "sources": [
     "docs/TAGS.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/LLM_SUMMARIES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DEPENDENCY_MAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONSISTENCY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEALTH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STATS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:14483a62ec5bf0e4",
   "payload": {
     "title": "Индекс тегов",
     "summary": "Каждый файл помечен тегами по темам автоматически.",
-    "body": "индекс тегов каждый файл помечен тегами темам автоматически anthropic файлов docs anthropic vacancies почему это валидный паттерн для assisted work docs anthropic vacancies docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs consistency docs contacts docs coverage docs density docs empty sections docs entities docs heading audit docs health docs heatmap docs kpi ещё architecture файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs consistency docs contacts docs contact priority docs cost docs density docs digest docs empty sections docs heading audit docs heatmap ещё collaboration файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs contacts docs contact priority docs cost docs coverage docs density docs digest docs empty sections docs entities docs heading audit ещё ingestion файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs action items docs backlinks docs changelog docs concepts docs consistency docs contacts docs contact priority docs coverage docs density docs empty sections docs entities docs heading audit docs health docs heatmap docs kpi docs metrics ещё knowledge файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs habr projects docs action items docs concepts docs consistency docs contacts docs contact priority docs cost docs density docs empty sections docs entities docs kpi docs priorities docs progress docs docs questions docs schedule ещё local first файлов docs abbreviations docs action items docs backlinks docs complexity docs concepts docs consistency docs contacts docs empty sections docs entities docs heading audit docs kpi docs priorities docs reading order docs scripts catalog docs sitemap docs validation memory файлов docs anthropic vacancies docs action items docs compare docs complexity docs concepts docs consistency docs contacts docs contact priority docs cost docs coverage docs density docs empty sections docs entities docs heading audit docs kpi docs metrics docs priorities docs progress docs docs questions ещё orchestration файлов docs anthropic vacancies docs action items docs changelog docs compare docs concepts docs consistency docs contacts docs contact priority docs cost docs density docs empty sections docs entities docs heading audit docs heatmap docs priorities docs docs scripts catalog docs sitemap docs spellcheck docs obsidian ещё rag файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs abbreviations docs action items docs changelog docs compare docs concepts docs consistency docs contacts docs contact priority docs density docs digest docs empty sections docs entities docs heading audit docs heatmap docs kpi docs priorities ещё roadmap файлов docs svyazi docs anthropic vacancies docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs contacts docs cost docs density docs digest docs empty sections docs heading audit docs heatmap docs kpi docs metrics docs priorities ещё security файлов docs svyazi docs anthropic vacancies docs collaborations docs abbreviations docs action items docs concepts docs contacts docs contact priority docs cost docs density docs empty sections docs entities docs heading audit docs heatmap docs docs reading order docs schedule docs scoring docs sitemap docs spellcheck ещё self improvement файлов docs abbreviations docs action items docs changelog docs complexity docs concepts docs consistency docs contacts docs empty sections docs heading audit docs kpi docs priorities docs progress docs questions docs reading order docs scripts catalog docs sitemap docs spellcheck docs validation docs word freq смотрите также dependency map docs dependency map consistency docs consistency health docs health stats docs stats",
+    "body": "индекс тегов каждый файл помечен тегами темам автоматически anthropic файлов docs anthropic vacancies почему это валидный паттерн для assisted work docs anthropic vacancies docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs consistency docs contacts docs coverage docs density docs empty sections docs entities docs heading audit docs health docs heatmap docs kpi ещё architecture файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs consistency docs contacts docs contact priority docs cost docs density docs digest docs empty sections docs heading audit docs heatmap ещё collaboration файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs contacts docs contact priority docs cost docs coverage docs density docs digest docs empty sections docs entities docs heading audit ещё ingestion файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs action items docs backlinks docs changelog docs concepts docs consistency docs contacts docs contact priority docs coverage docs density docs empty sections docs entities docs heading audit docs health docs heatmap docs kpi docs metrics ещё knowledge файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs habr projects docs action items docs concepts docs consistency docs contacts docs contact priority docs cost docs density docs empty sections docs entities docs kpi docs priorities docs progress docs docs questions docs schedule ещё local first файлов docs abbreviations docs action items docs backlinks docs complexity docs concepts docs consistency docs contacts docs empty sections docs entities docs heading audit docs kpi docs priorities docs reading order docs scripts catalog docs sitemap docs validation memory файлов docs anthropic vacancies docs action items docs compare docs complexity docs concepts docs consistency docs contacts docs contact priority docs cost docs coverage docs density docs empty sections docs entities docs heading audit docs kpi docs metrics docs priorities docs progress docs docs questions ещё orchestration файлов docs anthropic vacancies docs action items docs changelog docs compare docs concepts docs consistency docs contacts docs contact priority docs cost docs density docs empty sections docs entities docs heading audit docs heatmap docs priorities docs docs scripts catalog docs sitemap docs spellcheck docs obsidian ещё rag файлов docs svyazi docs anthropic vacancies docs technology combinations docs collaborations docs abbreviations docs action items docs changelog docs compare docs concepts docs consistency docs contacts docs contact priority docs density docs digest docs empty sections docs entities docs heading audit docs heatmap docs kpi docs priorities ещё roadmap файлов docs svyazi docs anthropic vacancies docs collaborations docs habr projects docs abbreviations docs action items docs backlinks docs changelog docs compare docs concepts docs contacts docs cost docs density docs digest docs empty sections docs heading audit docs heatmap docs kpi docs metrics docs priorities ещё security файлов docs svyazi docs anthropic vacancies docs collaborations docs abbreviations docs action items docs concepts docs contacts docs contact priority docs cost docs density docs empty sections docs entities docs heading audit docs heatmap docs docs reading order docs schedule docs scoring docs sitemap docs spellcheck ещё self improvement файлов docs abbreviations docs action items docs changelog docs complexity docs concepts docs consistency docs contacts docs empty sections docs heading audit docs kpi docs priorities docs progress docs questions docs reading order docs scripts catalog docs sitemap docs spellcheck docs validation docs word freq смотрите также dependency map dependency map consistency consistency health health stats stats",
     "tags": [],
     "projects": [
       "Svyazi"

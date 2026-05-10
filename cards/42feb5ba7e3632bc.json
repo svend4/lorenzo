@@ -5,9 +5,26 @@
   "sources": [
     "docs/SPELLCHECK.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/ORPHANS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STALENESS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/LLM_SUMMARIES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STATS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:e3007bc372a9ac31",
   "payload": {
     "title": "Отчёт орфографии",

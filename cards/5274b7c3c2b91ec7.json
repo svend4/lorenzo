@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/review-methodology/14-main-technical-risks.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/120-главные-технические-риски.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/15-appendix-c-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:9e2769ecc44c6241",
   "payload": {
     "title": "Главные технические риски",
     "summary": "Два независимых анализа выделили разные приоритеты:",
-    "body": "главные технические риски warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также главные технические риски docs anthropic vacancies главные технические риски appendix header warning docs nautilus review methodology appendix header warning appendix history docs nautilus review methodology appendix history question habr link docs nautilus community discussions habr article reaction question habr link",
+    "body": "главные технические риски warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также главные технические риски anthropic vacancies главные технические риски appendix header warning appendix header warning appendix history appendix history question habr link community discussions habr article reaction question habr link",
     "tags": [
       "anthropic",
       "collaboration"

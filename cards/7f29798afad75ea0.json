@@ -5,14 +5,43 @@
   "sources": [
     "docs/02-anthropic-vacancies/221-10-open-questions.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/179-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:4ba10640e06827a1",
   "payload": {
     "title": "10. Open Questions",
     "summary": "specialization? Can sub-specialties have their own agents",
-    "body": "open questions содержание contents contents open questions open questions scope profession scope profession multi profession practitioners multi profession practitioners international variation international variation update cadence update cadence quality assessment quality assessment transition costs transition costs profession wide effects profession wide effects appropriate resistance appropriate resistance упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы open questions several questions remain unresolved scope profession what constitutes profession for the purposes agent specialization can sub specialties have their own agents family law criminal law social law what the right granularity answer likely emerges from market where practitioners cluster and where shared knowledge bases provide enough overlap justify development cost multi profession practitioners how agents handle practitioners who span multiple professional contexts researcher who also teaches lawyer who also academic engineer who also entrepreneur possibilities separate agents combined agent with profile toggling hybrid that automatically applies relevant context international variation professional colleague agent for german social law cannot serve american social law practitioners how structure international variation per country agents modular knowledge bases with country specific layers update cadence how quickly should knowledge bases update authoritative sources change real time daily quarterly with release cadences different for different types changes emergency ordinary quality assessment how measure quality professional colleague agent practitioner satisfaction time savings output accuracy measured how long term professional development different metrics serve different stakeholders transition costs when practitioners move between professional colleague agents switching providers what the friction personal preferences and history transfer trained habits modified knowledge bases that practitioner has customized profession wide effects beyond individual practitioner effects what happens profession whole when most practitioners use the same professional colleague agent does practice homogenize does quality improve does innovation slow empirical question requiring measurement appropriate resistance should some professions resist professional colleague agents are there professional values that augmentation undermines what might lose these are not technical questions but they shape technical decisions похожие документы open questions docs anthropic vacancies open questions сходство open questions docs anthropic vacancies open questions сходство why the binary view incomplete docs anthropic vacancies why the binary view incomplete сходство смотрите также open questions docs anthropic vacancies open questions open questions docs anthropic vacancies open questions why the binary view incomplete docs anthropic vacancies why the binary view incomplete closing docs anthropic vacancies closing кто ссылается этот документ open knowledge work foundation docs anthropic vacancies open knowledge work foundation table contents docs anthropic vacancies table contents what makes professional colleague agent docs anthropic vacancies what makes professional colleague agent architecture professional colleague agents docs anthropic vacancies architecture professional colleague agents the economics profession wide replication docs anthropic vacancies the economics profession wide replication risks specific this category docs anthropic vacancies risks specific this category pilot proposal sgb advocate colleague docs anthropic vacancies pilot proposal sgb advocate colleague closing docs anthropic vacancies closing ещё",
+    "body": "open questions содержание contents contents open questions open questions scope profession scope profession multi profession practitioners multi profession practitioners international variation international variation update cadence update cadence quality assessment quality assessment transition costs transition costs profession wide effects profession wide effects appropriate resistance appropriate resistance упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы open questions several questions remain unresolved scope profession what constitutes profession for the purposes agent specialization can sub specialties have their own agents family law criminal law social law what the right granularity answer likely emerges from market where practitioners cluster and where shared knowledge bases provide enough overlap justify development cost multi profession practitioners how agents handle practitioners who span multiple professional contexts researcher who also teaches lawyer who also academic engineer who also entrepreneur possibilities separate agents combined agent with profile toggling hybrid that automatically applies relevant context international variation professional colleague agent for german social law cannot serve american social law practitioners how structure international variation per country agents modular knowledge bases with country specific layers update cadence how quickly should knowledge bases update authoritative sources change real time daily quarterly with release cadences different for different types changes emergency ordinary quality assessment how measure quality professional colleague agent practitioner satisfaction time savings output accuracy measured how long term professional development different metrics serve different stakeholders transition costs when practitioners move between professional colleague agents switching providers what the friction personal preferences and history transfer trained habits modified knowledge bases that practitioner has customized profession wide effects beyond individual practitioner effects what happens profession whole when most practitioners use the same professional colleague agent does practice homogenize does quality improve does innovation slow empirical question requiring measurement appropriate resistance should some professions resist professional colleague agents are there professional values that augmentation undermines what might lose these are not technical questions but they shape technical decisions похожие документы open questions open questions сходство open questions open questions сходство why the binary view incomplete why the binary view incomplete сходство смотрите также open questions open questions open questions open questions why the binary view incomplete why the binary view incomplete closing closing кто ссылается этот документ open knowledge work foundation open knowledge work foundation table contents table contents what makes professional colleague agent what makes professional colleague agent architecture professional colleague agents architecture professional colleague agents the economics profession wide replication the economics profession wide replication risks specific this category risks specific this category pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague closing closing ещё",
     "tags": [
       "architecture",
       "anthropic"

@@ -5,14 +5,47 @@
   "sources": [
     "docs/contacts/andrey-chuyan.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/nlaik.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/antipozitive.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/vladspace.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/sonia-black.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:2f08adb5b5767181",
   "payload": {
     "title": "Контакт: andrey_chuyan / Svyazi",
     "summary": "Я изучаю Svyazi — он отлично вписывается в Svyazi 2.0,",
-    "body": "контакт andrey chuyan svyazi tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi cardindex contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник andrey chuyan github andrey chuyan https github com andrey chuyan проекты svyazi слой svyazi ingestion cardindex упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте andrey chuyan изучаю svyazi отлично вписывается svyazi которую собираю как локальную community intelligence platform svyazi закрывает слой ingestion cardindex архитектуре один конкретный вопрос стоит расширять cardindex person project episode evidence или лучше держать разные индексы было интересно пообщаться как лучше связаться открытые вопросы стоит расширять cardindex docs svyazi executive summary person project episode evidence или лучше держать разные индексы вопрос создано автоматически похожие документы nlaik docs contacts nlaik сходство antipozitive docs contacts antipozitive сходство vladspace docs contacts vladspace сходство смотрите также antipozitive docs contacts antipozitive nlaik docs contacts nlaik sonia black docs contacts sonia black spbmolot docs contacts spbmolot кто ссылается этот документ kksudo docs autofilled components kksudo spbmolot docs autofilled components spbmolot readme docs contacts readme",
+    "body": "контакт andrey chuyan svyazi tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi cardindex contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник andrey chuyan github andrey chuyan https github com andrey chuyan проекты svyazi слой svyazi ingestion cardindex упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте andrey chuyan изучаю svyazi отлично вписывается svyazi которую собираю как локальную community intelligence platform svyazi закрывает слой ingestion cardindex архитектуре один конкретный вопрос стоит расширять cardindex person project episode evidence или лучше держать разные индексы было интересно пообщаться как лучше связаться открытые вопросы стоит расширять cardindex svyazi executive summary person project episode evidence или лучше держать разные индексы вопрос создано автоматически похожие документы nlaik nlaik сходство antipozitive antipozitive сходство vladspace vladspace сходство смотрите также antipozitive antipozitive nlaik nlaik sonia black sonia black spbmolot spbmolot кто ссылается этот документ kksudo autofilled components kksudo spbmolot autofilled components spbmolot readme readme",
     "tags": [
       "контакты",
       "команда"

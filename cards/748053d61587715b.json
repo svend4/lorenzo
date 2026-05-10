@@ -9,10 +9,30 @@
     {
       "to": "docs/processing-guide/README.md",
       "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/01-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/07-llm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/05-analysis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/06-search.md",
+      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:4a5d964ada8d63a3",
   "payload": {
     "title": "Обработка больших массивов — Часть 10: Инновационные подходы",

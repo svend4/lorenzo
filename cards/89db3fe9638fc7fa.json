@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/63-history.md",
       "rel": "references"
     },
@@ -27,13 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:392aba719bd92877",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:09f88d34c13db6bb",
   "payload": {
     "title": "History",
     "summary": "hexagrams onto Wolfram's Elementary Cellular Automata» (совместно",
-    "body": "history создан дата первого коммита похожие документы history history сходство content overview content overview сходство смотрите также content overview content overview history history author contact author contact history history упоминается status this document status this document content overview content overview history history history history вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы content overview content overview status this document status this document reference implementation reference implementation author contact author contact status this document status this document reference implementation reference implementation author contact author contact реализация проекте nautilus реализация проекте nautilus связанные документы content overview content overview status this document status this document reference implementation reference implementation author contact author contact history history status this document status this document reference implementation reference implementation author contact author contact кто ссылается этот документ status this document docs anthropic vacancies status this document reference implementation docs anthropic vacancies reference implementation author contact docs anthropic vacancies author contact author contact docs anthropic vacancies author contact history docs anthropic vacancies history status this document docs anthropic vacancies status this document reference implementation docs anthropic vacancies reference implementation readme docs anthropic vacancies readme",
+    "body": "history создан дата первого коммита похожие документы history history сходство content overview content overview сходство смотрите также content overview content overview history history author contact author contact history history упоминается status this document status this document content overview content overview history history history history вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы content overview content overview status this document status this document reference implementation reference implementation author contact author contact status this document status this document reference implementation reference implementation author contact author contact реализация проекте nautilus реализация проекте nautilus связанные документы content overview content overview status this document status this document reference implementation reference implementation author contact author contact history history status this document status this document reference implementation reference implementation author contact author contact кто ссылается этот документ status this document status this document reference implementation reference implementation author contact author contact author contact author contact history history status this document status this document reference implementation reference implementation readme readme",
     "tags": [
       "collaboration"
     ],

@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/18-escalate-to-max.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
-  "payload_hash": "sha256:4237d9c7b3fe2eb9",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/16-vsegda-delaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:dfe2f25afb650e96",
   "payload": {
     "title": "Когда сомневаешься — escalate к Max",
     "summary": "Просто say: «Это decision уровня Max. Я могу draft analysis, но финальный call за ним.»",
-    "body": "когда сомневаешься escalate max источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также когда сомневаешься escalate max docs anthropic vacancies когда сомневаешься escalate max honestly znaesh docs lorenzo agent honestly znaesh vsegda delaesh docs lorenzo agent vsegda delaesh voobshche nelzya docs lorenzo agent voobshche nelzya",
+    "body": "когда сомневаешься escalate max источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также когда сомневаешься escalate max anthropic vacancies когда сомневаешься escalate max honestly znaesh honestly znaesh vsegda delaesh vsegda delaesh voobshche nelzya voobshche nelzya",
     "tags": [
       "anthropic"
     ],

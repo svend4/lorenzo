@@ -5,14 +5,47 @@
   "sources": [
     "docs/svyazi-2-0/architecture/memory-write-policy.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/card-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/review-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/integration-spec.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:77d055a73081b9df",
   "payload": {
     "title": "Memory Write Policy",
     "summary": "Система должна различать хотя бы четыре режима записи:",
-    "body": "memory write policy источник deep research report раздел интеграционный контракт проекты yodoca ngt memory agent memory mcp смотрите также integration contracts docs svyazi integration contracts интеграционный контракт который стоит зафиксироват docs collaborations интеграционный контракт который стоит зафиксироват card envelope docs svyazi architecture card envelope review record docs svyazi architecture review record кто ссылается этот документ components name docs glossary components name concepts docs glossary concepts readme docs svyazi architecture readme integration spec docs svyazi architecture integration spec",
+    "body": "memory write policy источник deep research report раздел интеграционный контракт проекты yodoca ngt memory agent memory mcp смотрите также integration contracts svyazi integration contracts интеграционный контракт который стоит зафиксироват collaborations интеграционный контракт который стоит зафиксироват card envelope card envelope review record review record кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme integration spec integration spec",
     "tags": [
       "memory",
       "architecture"

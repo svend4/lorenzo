@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/clusters/11-legal.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
-  "payload_hash": "sha256:d46672196c0d8232",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/13-communications.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/12-technical-program-management.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/16-people.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:75d4f87dbe806438",
   "payload": {
     "title": "Legal — 13 ролей",
     "summary": "Commercial Counsel по поднаправлениям (Colocation & Networks, Datacenters & Construction, Compute & Infrastructure, EMEA, GTM), Frontier Counsel (регуляторика передовых моделей), Trade Compliance Counsel, Product Counsel Claude Platform, People Legal. Юридический стек заточен под инфраструктурные сд",
-    "body": "legal ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также communications docs anthropic vacancies clusters communications technical program management docs anthropic vacancies clusters technical program management product management support ops docs anthropic vacancies clusters product management support ops people docs anthropic vacancies clusters people",
+    "body": "legal ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также communications communications technical program management technical program management product management support ops product management support ops people people",
     "tags": [
       "anthropic"
     ],

@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/02-cowork-provides.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/ingit-cowork-en/03-ingit-provides.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:d31b0c4772aa8b50",
   "payload": {
     "title": "6. Refined InGit Scope with Cowork in Mind",
     "summary": "The original InGit roadmap (10-16 months to v1.0) reflected",
-    "body": "refined ingit scope with cowork mind источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork смотрите также refined ingit scope with cowork mind docs anthropic vacancies refined ingit scope with cowork mind cowork provides docs nautilus ingit cowork cowork provides ingit provides docs nautilus ingit cowork ingit provides what cowork provides that ingit doesn need docs anthropic vacancies what cowork provides that ingit doesn need",
+    "body": "refined ingit scope with cowork mind источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper ingit cowork смотрите также refined ingit scope with cowork mind anthropic vacancies refined ingit scope with cowork mind cowork provides cowork provides ingit provides ingit provides what cowork provides that ingit doesn need anthropic vacancies what cowork provides that ingit doesn need",
     "tags": [
       "architecture",
       "roadmap",

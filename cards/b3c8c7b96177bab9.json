@@ -5,14 +5,31 @@
   "sources": [
     "docs/ai-collaborations/ensembles/9-ambient-team-agent.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:373eb082033f5822",
   "payload": {
     "title": "Ансамбль 9 — Ambient Team Agent",
     "summary": "9. Ambient Team Agent: «ассистент живёт в рабочем чате»",
-    "body": "ансамбль ambient team agent источник mhtml снимок поиск коллабораций проектов корень репозитория проекты agentfs knowledge space смотрите также domain agent app factory docs collaborations ensembles domain agent app factory distributed agent workshop docs collaborations ensembles distributed agent workshop agentic knowledge docs collaborations ensembles agentic knowledge web knowledge pipeline docs collaborations ensembles web knowledge pipeline",
+    "body": "ансамбль ambient team agent источник mhtml снимок поиск коллабораций проектов корень репозитория проекты agentfs knowledge space смотрите также domain agent app factory domain agent app factory distributed agent workshop distributed agent workshop agentic knowledge agentic knowledge web knowledge pipeline web knowledge pipeline",
     "tags": [
       "rag",
       "orchestration",

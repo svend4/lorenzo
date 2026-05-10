@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:23d1d40d5965b72e",
   "payload": {
     "title": "Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров",
     "summary": "Du hast gesagt: Есть несколько разных вопросов и поэтому можно их частично параллельно обсуждать частично последовательно например есть объективная задача спрос рождает предло…",
-    "body": "вопрос разделить зарплату команду фрилансеров warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также platform not position docs anthropic vacancies profile mapping integral final platform not position polymath project tao comparison docs anthropic vacancies managed virtual company polymath project tao comparison minuses and risks docs anthropic vacancies managed virtual company minuses and risks three variants docs anthropic vacancies managed virtual company three variants",
+    "body": "вопрос разделить зарплату команду фрилансеров warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также platform not position profile mapping integral final platform not position polymath project tao comparison polymath project tao comparison minuses and risks minuses and risks three variants three variants",
     "tags": [
       "orchestration",
       "anthropic"

@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/196-6-этическая-рамка.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:81fecf93f12ecc63",
   "payload": {
     "title": "6. Этическая рамка",
     "summary": "Представительские Агенты поднимают новые этические вопросы. Мы предлагаем рамку, основанную на установленных принципах, адаптированных к контексту AI.",
-    "body": "этическая рамка источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также этическая рамка docs anthropic vacancies этическая рамка otkrytye voprosy docs nautilus representative agent layer otkrytye voprosy arkhitekturnaya spetsifikatsiya docs nautilus representative agent layer arkhitekturnaya spetsifikatsiya upravlenie nadzor docs nautilus representative agent layer upravlenie nadzor",
+    "body": "этическая рамка источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer смотрите также этическая рамка anthropic vacancies этическая рамка otkrytye voprosy otkrytye voprosy arkhitekturnaya spetsifikatsiya arkhitekturnaya spetsifikatsiya upravlenie nadzor upravlenie nadzor",
     "tags": [
       "local-first",
       "architecture",

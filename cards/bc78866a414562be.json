@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/npp-v1-1/10-query-flow.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/85-10-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/09-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/21-9-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/11-relevance-ranking.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:f7e4afedd1317135",
   "payload": {
     "title": "10. Query Flow",
     "summary": "1. Client вызывает `portal.query(q, target_repos=None)`",
-    "body": "query flow источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также query flow docs anthropic vacancies query flow query flow docs nautilus npp query flow query flow docs anthropic vacancies query flow relevance ranking docs nautilus npp relevance ranking",
+    "body": "query flow источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также query flow anthropic vacancies query flow query flow npp query flow query flow anthropic vacancies query flow relevance ranking relevance ranking",
     "tags": [
       "anthropic"
     ],

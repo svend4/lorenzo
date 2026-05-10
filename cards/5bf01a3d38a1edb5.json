@@ -5,9 +5,30 @@
   "sources": [
     "docs/KPI.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/PRIORITIES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TIMELINE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SEARCH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:0e39a158bb5197d3",
   "payload": {
     "title": "Числовые KPI и метрики",

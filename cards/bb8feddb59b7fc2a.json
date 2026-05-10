@@ -5,14 +5,43 @@
   "sources": [
     "docs/svyazi-2-0/architecture/skill-tool-policy.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/integration-spec.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/review-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:9776e25a0555307d",
   "payload": {
     "title": "Skill and Tool Policy",
     "summary": "",
-    "body": "skill and tool policy источник deep research report раздел интеграционный контракт проекты sentinel litellm auto router tool search смотрите также integration contracts docs svyazi integration contracts интеграционный контракт который стоит зафиксироват docs collaborations интеграционный контракт который стоит зафиксироват integration spec docs svyazi architecture integration spec review record docs svyazi architecture review record кто ссылается этот документ components name docs glossary components name concepts docs glossary concepts readme docs svyazi architecture readme integration spec docs svyazi architecture integration spec",
+    "body": "skill and tool policy источник deep research report раздел интеграционный контракт проекты sentinel litellm auto router tool search смотрите также integration contracts svyazi integration contracts интеграционный контракт который стоит зафиксироват collaborations интеграционный контракт который стоит зафиксироват integration spec integration spec review record review record кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme integration spec integration spec",
     "tags": [
       "security",
       "architecture"

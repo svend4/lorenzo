@@ -5,14 +5,43 @@
   "sources": [
     "docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/01-yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:824f487fecdd85ec",
   "payload": {
     "title": "Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)",
     "summary": "Понял идею. Соберу пять hardware-near родительских пар, от каждой — веер детей с разными нишами. Везде пары устроены так, что одна технология даёт «биологию» (что считаем), вторая — «физику» (как считаем), а от их скрещивания рождается несколько по-разному ориентированных потомков.",
-    "body": "пара нейроморфные процессоры state space models mamba источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi yodoca смотрите также bonus rram memristor docs habr unique projects hardware pairs bonus rram memristor tinyml mcp skills docs habr unique projects hardware pairs tinyml mcp skills riscv privacy docs habr unique projects hardware pairs riscv privacy yodoca docs habr unique projects key findings yodoca кто ссылается этот документ components name docs glossary components name concepts docs glossary concepts readme docs habr unique projects hardware pairs readme",
+    "body": "пара нейроморфные процессоры state space models mamba источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi yodoca смотрите также bonus rram memristor bonus rram memristor tinyml mcp skills tinyml mcp skills riscv privacy riscv privacy yodoca key findings yodoca кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme",
     "tags": [
       "memory",
       "knowledge",

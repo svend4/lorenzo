@@ -25,15 +25,27 @@
     {
       "to": "docs/technology-combinations/combinations/24-mega-integration-full-stack.md",
       "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/31-35-final.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/15-19-extended.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/25-30-extended.md",
+      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:b7f2aef79185e472",
   "payload": {
     "title": "Сводная таблица 20–24 (Final 1–24)",
     "summary": "1. Start: Crawl 1000 Sozialgericht decisions",
-    "body": "сводная таблица final источник mhtml снимок комбинирование технологий для новых свойств claude секция final synthesis table complete смотрите также mega integration full stack docs technology combinations combinations mega integration full stack final docs technology combinations synthesis tables final extended docs technology combinations synthesis tables extended extended docs technology combinations synthesis tables extended",
+    "body": "сводная таблица final источник mhtml снимок комбинирование технологий для новых свойств claude секция final synthesis table complete смотрите также mega integration full stack combinations mega integration full stack final final extended extended extended extended",
     "tags": [
       "rag",
       "orchestration",

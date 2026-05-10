@@ -5,14 +5,35 @@
   "sources": [
     "docs/02-anthropic-vacancies/92-17-versioning-policy.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/24-12-versioning-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:1ed55c2b1c9f9e97",
   "payload": {
     "title": "17. Versioning Policy",
     "summary": "Каждый registry MUST объявлять `protocol_version`. Portal MUST",
-    "body": "versioning policy абстракт авто проблема breaking changes process для major version bump требуется подход deprecation policy deprecation policy important ключевой документ для понимания архитектуры ключевые слова policy versioning status document version anthropic vacancies major contents versioning policy versioning policy semver semver version registry version registry breaking changes process breaking changes process deprecation policy deprecation policy important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь major breaking changes interfaces или schemas похожие документы versioning policy docs anthropic vacancies versioning policy сходство status this document docs anthropic vacancies status this document сходство status this document docs anthropic vacancies status this document сходство смотрите также versioning policy docs anthropic vacancies versioning policy portal mcp docs anthropic vacancies portal mcp status this document docs anthropic vacancies status this document status this document docs anthropic vacancies status this document кто ссылается этот документ portal protocol docs anthropic vacancies portal protocol status this document docs anthropic vacancies status this document portal mcp docs anthropic vacancies portal mcp примеры запросов claude docs anthropic vacancies примеры запросов claude versioning policy docs anthropic vacancies versioning policy author contact docs anthropic vacancies author contact author contact docs anthropic vacancies author contact status this document docs anthropic vacancies status this document ещё",
+    "body": "versioning policy абстракт авто проблема breaking changes process для major version bump требуется подход deprecation policy deprecation policy important ключевой документ для понимания архитектуры ключевые слова policy versioning status document version anthropic vacancies major contents versioning policy versioning policy semver semver version registry version registry breaking changes process breaking changes process deprecation policy deprecation policy important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь major breaking changes interfaces или schemas похожие документы versioning policy versioning policy сходство status this document status this document сходство status this document status this document сходство смотрите также versioning policy versioning policy portal mcp portal mcp status this document status this document status this document status this document кто ссылается этот документ portal protocol portal protocol status this document status this document portal mcp portal mcp примеры запросов claude примеры запросов claude versioning policy versioning policy author contact author contact author contact author contact status this document status this document ещё",
     "tags": [
       "architecture"
     ],

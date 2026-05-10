@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/nautilus/privacy-federation/00-question-anonymization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/privacy-federation/02-two-tier-publication.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:074896d83cc15992",
   "payload": {
     "title": "Что именно анонимизировать: немецкий стандарт",
     "summary": "Что именно анонимизировать: немецкий стандарт",
-    "body": "что именно анонимизировать немецкий стандарт источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога приватность анонимизация федерации npp смотрите также question anonymization docs nautilus privacy federation question anonymization difference domain specialization docs anthropic vacancies hermes comparison difference domain specialization two tier publication docs nautilus privacy federation two tier publication similarity mcp support docs anthropic vacancies hermes comparison similarity mcp support",
+    "body": "что именно анонимизировать немецкий стандарт источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога приватность анонимизация федерации npp смотрите также question anonymization question anonymization difference domain specialization anthropic vacancies hermes comparison difference domain specialization two tier publication two tier publication similarity mcp support anthropic vacancies hermes comparison similarity mcp support",
     "tags": [
       "anthropic"
     ],

@@ -5,14 +5,43 @@
   "sources": [
     "docs/habr-unique-projects/analogues/01-three-direct-analogues.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/candidates/01-three-key-candidates.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/02-related-projects.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:86235974b58b4f85",
   "payload": {
     "title": "Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory",
     "summary": "Соберу ещё один пласт — авторские проекты с ярко выраженной идеей \"обнаружения связей\" между людьми/идеями через LLM.",
-    "body": "три прямых аналога svyazi wikontic ngt memory источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi ngt memory wikontic смотрите также three key candidates docs collaborations candidates three key candidates wikontic docs habr projects knowledge wikontic related projects docs habr unique projects analogues related projects synthesis hebbian collaboration graph docs collaborations candidates synthesis hebbian collaboration graph кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs habr unique projects analogues readme",
+    "body": "три прямых аналога svyazi wikontic ngt memory источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi ngt memory wikontic смотрите также three key candidates collaborations candidates three key candidates wikontic habr projects knowledge wikontic related projects related projects synthesis hebbian collaboration graph collaborations candidates synthesis hebbian collaboration graph кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
     "tags": [
       "memory",
       "ingestion",

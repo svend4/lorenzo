@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/infrastructure-layer-b-en/07-specific-case.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:68aefbe71eee3c7e",
   "payload": {
     "title": "Existing Approximations",
     "summary": "Several existing tools approximate parts of what Layer B",
-    "body": "existing approximations источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также existing approximations docs anthropic vacancies existing approximations two layer stack docs nautilus infrastructure layer two layer stack whats missing layer docs nautilus infrastructure layer whats missing layer specific case docs nautilus infrastructure layer specific case",
+    "body": "existing approximations источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper infrastructure for collaborative intellectual work смотрите также existing approximations anthropic vacancies existing approximations two layer stack two layer stack whats missing layer whats missing layer specific case specific case",
     "tags": [
       "rag",
       "architecture",

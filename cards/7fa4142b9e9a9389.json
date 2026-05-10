@@ -5,14 +5,31 @@
   "sources": [
     "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/9-ambient-team-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:ea0455e67bd87c21",
   "payload": {
     "title": "Ансамбль 1 — Agentic Knowledge OS",
     "summary": "1. Agentic Knowledge OS: «память для агентов, не для людей»",
-    "body": "ансамбль agentic knowledge источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi agentfs knowledge space смотрите также domain agent app factory docs collaborations ensembles domain agent app factory ambient team agent docs collaborations ensembles ambient team agent web knowledge pipeline docs collaborations ensembles web knowledge pipeline distributed agent workshop docs collaborations ensembles distributed agent workshop",
+    "body": "ансамбль agentic knowledge источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi agentfs knowledge space смотрите также domain agent app factory domain agent app factory ambient team agent ambient team agent web knowledge pipeline web knowledge pipeline distributed agent workshop distributed agent workshop",
     "tags": [
       "memory",
       "rag",

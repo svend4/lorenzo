@@ -5,14 +5,43 @@
   "sources": [
     "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/01-08-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:4dc80802d7190690",
   "payload": {
     "title": "Комбинация 7: Crawl4AI × Docling × Yodoca consolidator",
     "summary": "Crawl4AI (habr.com/ru/articles/875088/) — open-source веб-скрейпинг для LLM, оптимизация для обучения моделей",
-    "body": "комбинация crawl docling yodoca consolidator источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты yodoca смотрите также knowledge graphs docs technology combinations knowledge graphs parsing llm graph rag pravilnaya agentskaya arkhitektura docs technology combinations combinations parsing llm graph rag pravilnaya agentskaya arkhitektura self consolidating legal corpus docs technology combinations combinations self consolidating legal corpus legal document intelligence pipeline docs technology combinations combinations legal document intelligence pipeline кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme summary docs technology combinations synthesis tables summary",
+    "body": "комбинация crawl docling yodoca consolidator источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты yodoca смотрите также knowledge graphs technology combinations knowledge graphs parsing llm graph rag pravilnaya agentskaya arkhitektura parsing llm graph rag pravilnaya agentskaya arkhitektura self consolidating legal corpus self consolidating legal corpus legal document intelligence pipeline legal document intelligence pipeline кто ссылается этот документ components name glossary components name readme readme summary synthesis tables summary",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,47 @@
   "sources": [
     "docs/02-anthropic-vacancies/43-history.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:b9f1b547ebd2d00b",
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/63-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/53-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/31-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/35-passports-info1-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:eea2bb9113aab75b",
   "payload": {
     "title": "History",
     "summary": "",
-    "body": "history создан уточнить декабрь если совпадает волной похожие документы history docs anthropic vacancies history сходство смотрите также history docs anthropic vacancies history passports info docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies passports info history docs anthropic vacancies history author contact docs anthropic vacancies author contact кто ссылается этот документ content overview docs anthropic vacancies content overview passports info docs anthropic vacancies passports info author contact docs anthropic vacancies author contact for the curious philosophy docs anthropic vacancies for the curious philosophy passports pro docs anthropic vacancies passports pro native format docs anthropic vacancies native format history docs anthropic vacancies history passports meta docs anthropic vacancies passports meta ещё",
+    "body": "history создан уточнить декабрь если совпадает волной похожие документы history history сходство смотрите также history history passports info интегральный анализ профиля svend docs anthropic vacancies passports info history history author contact author contact кто ссылается этот документ content overview content overview passports info passports info author contact author contact for the curious philosophy for the curious philosophy passports pro passports pro native format native format history history passports meta passports meta ещё",
     "tags": [
       "memory",
       "anthropic",

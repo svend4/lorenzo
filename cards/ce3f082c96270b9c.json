@@ -5,14 +5,43 @@
   "sources": [
     "docs/04-ai-collaborations/01-executive-summary.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:f9c50c088efb22d0",
   "payload": {
     "title": "Executive summary",
     "summary": "Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: ingestion и нормализация профилей из свободного текста, agent‑first knowledge base, файлосистемная память для агентов, ассоциативн",
-    "body": "executive summary абстракт авто проблема executive summary статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important главный документ результат cite turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn ключевые слова svyazi проект summary cardindex agentfs executive rufler memory статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important главный документ проекта начните чтение отсюда если смотреть отдельные статьи как можно состыковать хабре первые месяцы года уже сложился почти полный конструктор для svyazi ingestion нормализация профи проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory rufler rufler liteparse docs svyazi executive summary legal rag rag похожие документы executive summary docs svyazi docs svyazi intro part executive summary сходство план прототипа возможные контакты docs collaborations план прототипа возможные контакты сходство mvp planning docs svyazi docs svyazi intro part mvp planning сходство смотрите также component catalog docs svyazi docs svyazi intro part component catalog ensembles overview docs svyazi docs svyazi intro part ensembles overview mvp planning docs svyazi docs svyazi intro part mvp planning mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов кто ссылается этот документ readme docs collaborations readme tables docs tables structuring docs processing guide structuring processing guide docs processing guide processing guide",
+    "body": "executive summary абстракт авто проблема executive summary статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important главный документ результат cite turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn view turn ключевые слова svyazi проект summary cardindex agentfs executive rufler memory статус параметр значение теги упоминаний репо слой контакт статус связи писали обновлено important главный документ проекта начните чтение отсюда если смотреть отдельные статьи как можно состыковать хабре первые месяцы года уже сложился почти полный конструктор для svyazi ingestion нормализация профи проекты svyazi svyazi cardindex cardindex agentfs agentfs mclaude factory rufler rufler liteparse svyazi executive summary legal rag rag похожие документы executive summary svyazi executive summary сходство план прототипа возможные контакты план прототипа возможные контакты сходство mvp planning svyazi mvp planning сходство смотрите также component catalog svyazi component catalog ensembles overview svyazi ensembles overview mvp planning svyazi mvp planning mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов кто ссылается этот документ readme readme tables tables structuring processing guide structuring processing guide processing guide processing guide",
     "tags": [
       "memory",
       "rag",

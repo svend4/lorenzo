@@ -43,13 +43,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:edd73f1618eacb55",
   "payload": {
     "title": "svend4",
     "summary": "",
-    "body": "svend компонент экосистемы svyazi проекты svyazi смотрите также cowork cowork ingit ingit lorenzo lorenzo упоминается components readme автозаполненные шаблоны autofilled все таблицы репозитория tables карта репозитория lorenzo sitemap кто ссылается этот документ autofilled docs autofilled tables docs tables readme docs autofilled components readme cowork docs autofilled components cowork ingit docs autofilled components ingit kksudo docs autofilled components kksudo lorenzo docs autofilled components lorenzo nautilus docs autofilled components nautilus ещё",
+    "body": "svend компонент экосистемы svyazi проекты svyazi смотрите также cowork cowork ingit ingit lorenzo lorenzo упоминается components readme автозаполненные шаблоны autofilled все таблицы репозитория tables карта репозитория lorenzo sitemap кто ссылается этот документ autofilled autofilled tables tables readme readme cowork cowork ingit ingit kksudo kksudo lorenzo lorenzo nautilus nautilus ещё",
     "tags": [
       "ingestion",
       "collaboration"

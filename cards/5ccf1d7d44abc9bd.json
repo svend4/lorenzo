@@ -5,14 +5,47 @@
   "sources": [
     "docs/02-anthropic-vacancies/86-11-relevance-ranking.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:9d432619784c5002",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/84-9-consensus-algorithm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/20-8-consensus-algorithm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/21-9-query-flow.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:5ee4515f8120ad6d",
   "payload": {
     "title": "11. Relevance Ranking",
     "summary": "v1.1 нормализует алгоритм ранжирования из reference implementation.",
-    "body": "relevance ranking contents relevance ranking relevance ranking scoring formula scoring formula may extensions may extensions нормализует алгоритм ранжирования reference implementation похожие документы consensus algorithm docs anthropic vacancies consensus algorithm сходство consensus algorithm docs anthropic vacancies consensus algorithm сходство смотрите также consensus algorithm docs anthropic vacancies consensus algorithm queryresult structure docs anthropic vacancies queryresult structure reference implementation docs anthropic vacancies reference implementation consensus algorithm docs anthropic vacancies consensus algorithm кто ссылается этот документ appendix change log docs anthropic vacancies appendix change log nautilus portal reference substrate docs anthropic vacancies nautilus portal reference substrate query flow docs anthropic vacancies query flow queryresult structure docs anthropic vacancies queryresult structure reference implementation docs anthropic vacancies reference implementation критерии выбора для фазы docs anthropic vacancies критерии выбора для фазы readme docs anthropic vacancies readme",
+    "body": "relevance ranking contents relevance ranking relevance ranking scoring formula scoring formula may extensions may extensions нормализует алгоритм ранжирования reference implementation похожие документы consensus algorithm consensus algorithm сходство consensus algorithm consensus algorithm сходство смотрите также consensus algorithm consensus algorithm queryresult structure queryresult structure reference implementation reference implementation consensus algorithm consensus algorithm кто ссылается этот документ appendix change log appendix change log nautilus portal reference substrate nautilus portal reference substrate query flow query flow queryresult structure queryresult structure reference implementation reference implementation критерии выбора для фазы критерии выбора для фазы readme readme",
     "tags": [
       "anthropic",
       "collaboration"

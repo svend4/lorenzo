@@ -5,9 +5,38 @@
   "sources": [
     "docs/DEPENDENCY_MAP.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/CHANGELOG_AUTO.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CHANGELOG.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TAGS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/VERSION_DIFF.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:1a2414c6f317fb6e",
   "payload": {
     "title": "Карта зависимостей скриптов",

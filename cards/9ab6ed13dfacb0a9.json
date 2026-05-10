@@ -5,14 +5,55 @@
   "sources": [
     "docs/CLUSTERS.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/LANGUAGE_STATS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SEARCH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READING_ORDER.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SOURCE_MAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:67b142a73f541592",
   "payload": {
     "title": "Кластеры тематически близких файлов",
     "summary": "Метод: TF-IDF + косинусное сходство (порог 0.15)",
-    "body": "кластеры тематически близких файлов tip этот документ описывает mvp подход начните него для быстрого прототипа метод idf косинусное сходство порог проекты svyazi cardindex смотрите также language stats docs language stats search docs search reading order docs reading order source map docs source map кто ссылается этот документ table contents docs anthropic vacancies table contents abstract docs anthropic vacancies abstract table contents docs anthropic vacancies table contents appendix decision tree for ingit adopters docs anthropic vacancies appendix decision tree for ingit adopters приложение образец спецификаций инструментов ing docs anthropic vacancies приложение образец спецификаций инструментов ing index docs index readme docs readme tables docs tables ещё",
+    "body": "кластеры тематически близких файлов tip этот документ описывает mvp подход начните него для быстрого прототипа метод idf косинусное сходство порог проекты svyazi cardindex смотрите также language stats language stats search search reading order reading order source map source map кто ссылается этот документ table contents anthropic vacancies table contents abstract anthropic vacancies abstract table contents anthropic vacancies table contents appendix decision tree for ingit adopters anthropic vacancies appendix decision tree for ingit adopters приложение образец спецификаций инструментов ing anthropic vacancies приложение образец спецификаций инструментов ing index index readme readme tables tables ещё",
     "tags": [
       "rag",
       "security",

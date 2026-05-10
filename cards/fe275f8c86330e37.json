@@ -5,14 +5,31 @@
   "sources": [
     "docs/ai-collaborations/ensembles/5-agent-firewall.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/security/default-policy.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:6ed0dfa6aceeefac",
   "payload": {
     "title": "Ансамбль 5 — Agent Firewall",
     "summary": "5. Agent Firewall: «иммунная система для автономных агентов»",
-    "body": "ансамбль agent firewall warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi sentinel tool search смотрите также memory firewall prompt worms docs collaborations continuation memory firewall prompt worms budget aware intelligence stack docs collaborations ensembles budget aware intelligence stack domain agent app factory docs collaborations ensembles domain agent app factory default policy docs svyazi security default policy",
+    "body": "ансамбль agent firewall warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi sentinel tool search смотрите также memory firewall prompt worms continuation memory firewall prompt worms budget aware intelligence stack budget aware intelligence stack domain agent app factory domain agent app factory default policy svyazi security default policy",
     "tags": [
       "rag",
       "security",

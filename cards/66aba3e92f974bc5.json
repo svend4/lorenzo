@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/review-methodology/09-limitations-open-questions.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/10-checklist.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/02-formal-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:78f08db55ac06d79",
   "payload": {
     "title": "8. Ограничения и открытые вопросы",
     "summary": "практике Nautilus было только 2 параллельных варианта.",
-    "body": "ограничения открытые вопросы warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также ограничения открытые вопросы docs anthropic vacancies ограничения открытые вопросы checklist docs nautilus review methodology checklist formal workflow docs nautilus review methodology formal workflow контекст мотивация docs anthropic vacancies контекст мотивация",
+    "body": "ограничения открытые вопросы warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также ограничения открытые вопросы anthropic vacancies ограничения открытые вопросы checklist checklist formal workflow formal workflow контекст мотивация anthropic vacancies контекст мотивация",
     "tags": [
       "memory",
       "roadmap",

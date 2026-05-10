@@ -5,14 +5,39 @@
   "sources": [
     "docs/02-anthropic-vacancies/56-essence.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:2bc3b568a8ba93a7",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/55-passports-meta-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/46-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/36-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/35-passports-info1-md.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:57d50939de3f137f",
   "payload": {
     "title": "Essence",
     "summary": "`meta` — **символьное измерение** экосистемы svend4. Здесь концепты",
-    "body": "essence meta символьное измерение экосистемы svend здесь концепты похожие документы passports meta docs anthropic vacancies passports meta сходство essence docs anthropic vacancies essence сходство essence docs anthropic vacancies essence сходство смотрите также passports meta docs anthropic vacancies passports meta essence docs anthropic vacancies essence glossary examples docs anthropic vacancies glossary examples passports info docs anthropic vacancies интегральный анализ профиля svend docs anthropic vacancies passports info кто ссылается этот документ passports info docs anthropic vacancies passports info angle perspective docs anthropic vacancies angle perspective passports pro docs anthropic vacancies passports pro passports meta docs anthropic vacancies passports meta angle perspective docs anthropic vacancies angle perspective readme docs anthropic vacancies readme",
+    "body": "essence meta символьное измерение экосистемы svend здесь концепты похожие документы passports meta passports meta сходство essence essence сходство essence essence сходство смотрите также passports meta passports meta essence essence glossary examples glossary examples passports info интегральный анализ профиля svend docs anthropic vacancies passports info кто ссылается этот документ passports info passports info angle perspective angle perspective passports pro passports pro passports meta passports meta angle perspective angle perspective readme readme",
     "tags": [
       "collaboration"
     ],

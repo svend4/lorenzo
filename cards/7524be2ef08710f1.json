@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/supply-demand/00-question-supply-demand.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/nautilus/transmission-box/00-question-mountain-to-person.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/scenarios/00-question-scenario.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:c23707a71033cd67",
   "payload": {
     "title": "Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…",
     "summary": "Du hast gesagt: Спрос рождает предложение - это простая экономическая истина начнём если с самого начала обсуждение этого вопроса то что есть примерно 400 или 500 вакансии сер…",
-    "body": "hast gesagt спрос рождает предложение это простая экономическая истина нач источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога спрос рождает предложение три связанные темы смотрите также question mountain person docs nautilus transmission box question mountain person question scenario docs lorenzo agent scenarios question scenario platform not position docs anthropic vacancies profile mapping integral final platform not position question habr docs nautilus community discussions habr article reaction question habr",
+    "body": "hast gesagt спрос рождает предложение это простая экономическая истина нач источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога спрос рождает предложение три связанные темы смотрите также question mountain person transmission box question mountain person question scenario lorenzo agent scenarios question scenario platform not position anthropic vacancies profile mapping integral final platform not position question habr community discussions habr article reaction question habr",
     "tags": [
       "anthropic"
     ],

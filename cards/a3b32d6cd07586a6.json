@@ -5,14 +5,39 @@
   "sources": [
     "docs/02-anthropic-vacancies/85-10-query-flow.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/21-9-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/18-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:df6d2c79f6752faa",
   "payload": {
     "title": "10. Query Flow",
     "summary": "1. Client вызывает `portal.query(q, target_repos=None)`",
-    "body": "query flow абстракт авто проблема error handling error handling подход portal вычисляет consensus алгоритму раздела результат portal собирает resultsbyrepo dictstr listportalentry ключевые слова portal query adapter timeout anthropic vacancies interface error contents query flow query flow lifecycle lifecycle parallelism parallelism error handling error handling timeout behavior timeout behavior client вызывает portal query target repos none похожие документы query flow docs anthropic vacancies query flow сходство adapter interface docs anthropic vacancies adapter interface сходство adapter interface docs anthropic vacancies adapter interface сходство смотрите также query flow docs anthropic vacancies query flow queryresult structure docs anthropic vacancies queryresult structure adapter interface docs anthropic vacancies adapter interface relevance ranking docs anthropic vacancies relevance ranking кто ссылается этот документ adapter interface docs anthropic vacancies adapter interface query flow docs anthropic vacancies query flow queryresult structure docs anthropic vacancies queryresult structure security considerations docs anthropic vacancies security considerations readme docs anthropic vacancies readme",
+    "body": "query flow абстракт авто проблема error handling error handling подход portal вычисляет consensus алгоритму раздела результат portal собирает resultsbyrepo dictstr listportalentry ключевые слова portal query adapter timeout anthropic vacancies interface error contents query flow query flow lifecycle lifecycle parallelism parallelism error handling error handling timeout behavior timeout behavior client вызывает portal query target repos none похожие документы query flow query flow сходство adapter interface adapter interface сходство adapter interface adapter interface сходство смотрите также query flow query flow queryresult structure queryresult structure adapter interface adapter interface relevance ranking relevance ranking кто ссылается этот документ adapter interface adapter interface query flow query flow queryresult structure queryresult structure security considerations security considerations readme readme",
     "tags": [
       "anthropic"
     ],

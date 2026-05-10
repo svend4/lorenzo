@@ -5,14 +5,43 @@
   "sources": [
     "docs/technology-combinations/combinations/13-legal-document-transpiler.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/09-14-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:bc62a6105063592c",
   "payload": {
     "title": "Комбинация 13: Legal Document Transpiler",
     "summary": "COBOL→Java transpiler (habr.com/ru/articles/489730/) - built in 1 day using ANTLR visitor pattern",
-    "body": "комбинация legal document transpiler источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также legal dsl code transpiler docs technology combinations combinations legal dsl code transpiler legal document intelligence pipeline docs technology combinations combinations legal document intelligence pipeline pydantic enforced legal workflows docs technology combinations combinations pydantic enforced legal workflows meta programmatic legal template generator docs technology combinations combinations meta programmatic legal template generator кто ссылается этот документ readme docs technology combinations combinations readme legal stack docs technology combinations mega stacks legal stack extended docs technology combinations synthesis tables extended",
+    "body": "комбинация legal document transpiler источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также legal dsl code transpiler legal dsl code transpiler legal document intelligence pipeline legal document intelligence pipeline pydantic enforced legal workflows pydantic enforced legal workflows meta programmatic legal template generator meta programmatic legal template generator кто ссылается этот документ readme readme legal stack mega stacks legal stack extended synthesis tables extended",
     "tags": [
       "rag",
       "architecture",

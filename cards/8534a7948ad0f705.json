@@ -5,14 +5,47 @@
   "sources": [
     "docs/02-anthropic-vacancies/268-references.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/225-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/137-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/146-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:2fd33c77735a190e",
   "payload": {
     "title": "References",
     "summary": "Harvard University Press. (On modular cognitive architecture.)",
-    "body": "references содержание contents contents references references foundational sources for composite architecture foundational sources for composite architecture pattern composite mastery pattern composite mastery multi agent coordination multi agent coordination practical examples practical examples companion documents this series companion documents this series упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы references foundational sources for composite architecture anderson the architecture cognition harvard university press modular cognitive architecture minsky the society mind simon schuster cognition ensemble specialized agents csikszentmihalyi creativity flow and the psychology discovery and invention harper how expertise develops through specialization combined with synthesis pattern composite mastery sennett the craftsman yale university press how skilled practice combines learned specializations dreyfus dreyfus mind over machine the power human intuition and expertise the era the computer free press stages skill acquisition multi agent coordination wooldridge introduction multiagent systems wiley foundational text gilbert troitzsch simulation for the social scientist open university press modeling ensembles practical examples stanier become effective software engineering manager pragmatic bookshelf how engineers combine specialized knowledge susskind susskind the future the professions oxford university press how professions are evolving the era companion documents this series svend nautilus portal protocol svend review methodology svend double triangle architecture svend open knowledge work foundation concept document svend representative agent layer svend professional colleague agents похожие документы support through configurable specialist ensembl docs anthropic vacancies support through configurable specialist ensembl сходство the missing middle layer between chat and code docs anthropic vacancies the missing middle layer between chat and code сходство references docs anthropic vacancies references сходство смотрите также support through configurable specialist ensembl docs anthropic vacancies support through configurable specialist ensembl the missing middle layer between chat and code docs anthropic vacancies the missing middle layer between chat and code typology agents the principal side and docs anthropic vacancies typology agents the principal side and appendix connection companion papers docs anthropic vacancies appendix connection companion papers кто ссылается этот документ table contents docs anthropic vacancies table contents acknowledgments docs anthropic vacancies acknowledgments mediated representation for underrepresented docs anthropic vacancies mediated representation for underrepresented appendix connection companion papers docs anthropic vacancies appendix connection companion papers typology agents the principal side and docs anthropic vacancies typology agents the principal side and support through configurable specialist ensembl docs anthropic vacancies support through configurable specialist ensembl acknowledgments docs anthropic vacancies acknowledgments the missing middle layer between chat and code docs anthropic vacancies the missing middle layer between chat and code ещё",
+    "body": "references содержание contents contents references references foundational sources for composite architecture foundational sources for composite architecture pattern composite mastery pattern composite mastery multi agent coordination multi agent coordination practical examples practical examples companion documents this series companion documents this series упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы references foundational sources for composite architecture anderson the architecture cognition harvard university press modular cognitive architecture minsky the society mind simon schuster cognition ensemble specialized agents csikszentmihalyi creativity flow and the psychology discovery and invention harper how expertise develops through specialization combined with synthesis pattern composite mastery sennett the craftsman yale university press how skilled practice combines learned specializations dreyfus dreyfus mind over machine the power human intuition and expertise the era the computer free press stages skill acquisition multi agent coordination wooldridge introduction multiagent systems wiley foundational text gilbert troitzsch simulation for the social scientist open university press modeling ensembles practical examples stanier become effective software engineering manager pragmatic bookshelf how engineers combine specialized knowledge susskind susskind the future the professions oxford university press how professions are evolving the era companion documents this series svend nautilus portal protocol svend review methodology svend double triangle architecture svend open knowledge work foundation concept document svend representative agent layer svend professional colleague agents похожие документы support through configurable specialist ensembl support through configurable specialist ensembl сходство the missing middle layer between chat and code the missing middle layer between chat and code сходство references references сходство смотрите также support through configurable specialist ensembl support through configurable specialist ensembl the missing middle layer between chat and code the missing middle layer between chat and code typology agents the principal side and typology agents the principal side and appendix connection companion papers appendix connection companion papers кто ссылается этот документ table contents table contents acknowledgments acknowledgments mediated representation for underrepresented mediated representation for underrepresented appendix connection companion papers appendix connection companion papers typology agents the principal side and typology agents the principal side and support through configurable specialist ensembl support through configurable specialist ensembl acknowledgments acknowledgments the missing middle layer between chat and code the missing middle layer between chat and code ещё",
     "tags": [
       "rag",
       "architecture",

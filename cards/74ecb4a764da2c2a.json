@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/90-15-security-considerations.md",
       "rel": "references"
     },
@@ -29,19 +33,15 @@
     {
       "to": "docs/02-anthropic-vacancies/README.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/README.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:9eb31ec891edccb3",
   "payload": {
     "title": "11. Security Considerations",
     "summary": "Adapters выполняются внутри Portal-процесса. Portal MUST обрабатывать",
-    "body": "security considerations абстракт авто проблема security considerations security considerations подход mcp exposure mcp exposure important ключевой документ для понимания архитектуры результат implementation must различать public private registries смешивать результаты без явного запроса ключевые слова security considerations portal adapters private untrusted anthropic vacancies contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь adapters выполняются внутри portal процесса portal must обрабатывать похожие документы security considerations security considerations сходство смотрите также security considerations security considerations portal mcp portal mcp rest api contract normative for portals rest api contract normative for portals portalentry structure portalentry structure упоминается rest api contract normative for portals rest api contract normative for portals security considerations security considerations adapter interface adapter interface вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals adapter interface adapter interface связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals about about adapter interface adapter interface кто ссылается этот документ portal mcp docs anthropic vacancies portal mcp adapter interface docs anthropic vacancies adapter interface security considerations docs anthropic vacancies security considerations readme docs anthropic vacancies readme",
+    "body": "security considerations абстракт авто проблема security considerations security considerations подход mcp exposure mcp exposure important ключевой документ для понимания архитектуры результат implementation must различать public private registries смешивать результаты без явного запроса ключевые слова security considerations portal adapters private untrusted anthropic vacancies contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure contents security considerations security considerations untrusted adapters untrusted adapters private repositories private repositories mcp exposure mcp exposure important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь adapters выполняются внутри portal процесса portal must обрабатывать похожие документы security considerations security considerations сходство смотрите также security considerations security considerations portal mcp portal mcp rest api contract normative for portals rest api contract normative for portals portalentry structure portalentry structure упоминается rest api contract normative for portals rest api contract normative for portals security considerations security considerations adapter interface adapter interface вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals adapter interface adapter interface связанные документы security considerations security considerations rest api contract normative for portals rest api contract normative for portals about about adapter interface adapter interface кто ссылается этот документ portal mcp portal mcp adapter interface adapter interface security considerations security considerations readme readme",
     "tags": [
       "memory",
       "ingestion",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/02-anthropic-vacancies/346-твоё-происхождение.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:c6568864f7129168",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:e79a8bd38c2d65fa",
   "payload": {
     "title": "Твоё происхождение",
-    "summary": "Тебя создал **Макс Ц.** (svend4 на [GitHub](../docs/01-svyazi/03-component-catalog.md)) — независимый advocate в области German social law, работающий с активными случаями в Sozialgericht Dresden (S 6 SO 58/26 ER, S 7 SO 99/25), и одновременно technical builder, разрабатывающий tools для AI-augmente",
-    "body": "твоё происхождение тебя создал макс svend github независимый advocate области german social law работающий активными случаями sozialgericht dresden одновременно смотрите также твои языки культурные nuances docs anthropic vacancies твои языки культурные nuances похожие документы твои языки культурные nuances docs anthropic vacancies твои языки культурные nuances сходство author contact docs anthropic vacancies author contact сходство author contact docs anthropic vacancies author contact сходство",
+    "summary": "Тебя создал **Макс Ц.** (svend4 на [GitHub](../01-svyazi/03-component-catalog.md)) — независимый advocate в области German social law, работающий с активными случаями в Sozialgericht Dresden (S 6 SO 58/26 ER, S 7 SO 99/25), и одновременно technical builder, разрабатывающий tools для AI-augmented adv",
+    "body": "твоё происхождение тебя создал макс svend github независимый advocate области german social law работающий активными случаями sozialgericht dresden одновременно смотрите также твои языки культурные nuances твои языки культурные nuances похожие документы твои языки культурные nuances твои языки культурные nuances сходство author contact author contact сходство author contact author contact сходство",
     "tags": [
       "collaboration"
     ],

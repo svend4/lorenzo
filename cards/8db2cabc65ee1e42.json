@@ -5,14 +5,39 @@
   "sources": [
     "docs/02-anthropic-vacancies/84-9-consensus-algorithm.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/20-8-consensus-algorithm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/85-10-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/21-9-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:c70656fa8cf55abd",
   "payload": {
     "title": "9. Consensus Algorithm",
     "summary": "При query через portal, когда результаты возвращаются из нескольких",
-    "body": "consensus algorithm абстракт авто проблема consensus algorithm consensus algorithm результат future extensions future extensions при query через portal когда результаты возвращаются нескольких ключевые слова consensus algorithm fallback query anthropic vacancies через portal contents consensus algorithm consensus algorithm definition definition consensus structure consensus structure consensus strategy real fallback consensus strategy real fallback algorithm algorithm future extensions future extensions при query через portal когда результаты возвращаются нескольких похожие документы consensus algorithm docs anthropic vacancies consensus algorithm сходство relevance ranking docs anthropic vacancies relevance ranking сходство смотрите также consensus algorithm docs anthropic vacancies consensus algorithm relevance ranking docs anthropic vacancies relevance ranking query flow docs anthropic vacancies query flow примеры запросов claude docs anthropic vacancies примеры запросов claude кто ссылается этот документ примеры запросов claude docs anthropic vacancies примеры запросов claude query flow docs anthropic vacancies query flow readme docs anthropic vacancies readme",
+    "body": "consensus algorithm абстракт авто проблема consensus algorithm consensus algorithm результат future extensions future extensions при query через portal когда результаты возвращаются нескольких ключевые слова consensus algorithm fallback query anthropic vacancies через portal contents consensus algorithm consensus algorithm definition definition consensus structure consensus structure consensus strategy real fallback consensus strategy real fallback algorithm algorithm future extensions future extensions при query через portal когда результаты возвращаются нескольких похожие документы consensus algorithm consensus algorithm сходство relevance ranking relevance ranking сходство смотрите также consensus algorithm consensus algorithm relevance ranking relevance ranking query flow query flow примеры запросов claude примеры запросов claude кто ссылается этот документ примеры запросов claude примеры запросов claude query flow query flow readme readme",
     "tags": [
       "rag"
     ],

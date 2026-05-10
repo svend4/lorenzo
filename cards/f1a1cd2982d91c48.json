@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md",
       "rel": "references"
     },
@@ -25,27 +29,15 @@
     {
       "to": "docs/02-anthropic-vacancies/04-abstract.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/43-history.md",
-      "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md",
-      "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/154-table-of-contents.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:2d67d0456c28331a",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c76fd940cd658b0f",
   "payload": {
     "title": "For the Curious: Philosophy",
-    "summary": "`[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)` реализует идею, что **methodology — это отдельное измерение",
-    "body": "for the curious philosophy info реализует идею что methodology это отдельное измерение passport version protocol npp portal protocol last updated паспорт похожие документы for the curious philosophy for the curious philosophy сходство смотрите также for the curious philosophy for the curious philosophy author contact author contact appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example упоминается abstract abstract for the curious philosophy for the curious philosophy history history planned planned table contents table contents вакансии anthropic анализ кластерам readme содержание содержание упоминается вакансии anthropic анализ кластерам readme связанные документы abstract abstract portal mcp portal mcp содержание содержание appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy planned planned table contents table contents compatibility level compatibility level связанные документы abstract abstract содержание содержание for the curious philosophy for the curious philosophy planned planned table contents table contents appendix minimal working example appendix minimal working example содержание содержание status this document status this document кто ссылается этот документ abstract docs anthropic vacancies abstract status this document docs anthropic vacancies status this document portal mcp docs anthropic vacancies portal mcp planned docs anthropic vacancies planned table contents docs anthropic vacancies table contents содержание docs anthropic vacancies содержание содержание docs anthropic vacancies содержание for the curious philosophy docs anthropic vacancies for the curious philosophy ещё",
+    "summary": "`[info1](01-интегральный-анализ-профиля-svend4.md)` реализует идею, что **methodology — это отдельное измерение",
+    "body": "for the curious philosophy info реализует идею что methodology это отдельное измерение passport version protocol npp portal protocol last updated паспорт похожие документы for the curious philosophy for the curious philosophy сходство смотрите также for the curious philosophy for the curious philosophy author contact author contact appendix minimal working example appendix minimal working example appendix minimal working example appendix minimal working example упоминается abstract abstract for the curious philosophy for the curious philosophy history history planned planned table contents table contents вакансии anthropic анализ кластерам readme содержание содержание упоминается вакансии anthropic анализ кластерам readme связанные документы abstract abstract portal mcp portal mcp содержание содержание appendix minimal working example appendix minimal working example for the curious philosophy for the curious philosophy planned planned table contents table contents compatibility level compatibility level связанные документы abstract abstract содержание содержание for the curious philosophy for the curious philosophy planned planned table contents table contents appendix minimal working example appendix minimal working example содержание содержание status this document status this document кто ссылается этот документ abstract abstract status this document status this document portal mcp portal mcp planned planned table contents table contents содержание содержание содержание содержание for the curious philosophy for the curious philosophy ещё",
     "tags": [
       "rag"
     ],

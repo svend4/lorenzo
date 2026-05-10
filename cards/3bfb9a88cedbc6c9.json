@@ -5,14 +5,47 @@
   "sources": [
     "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/04-sozialrecht-domain.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/13-legal-document-transpiler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/09-14-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:db44396c81d3faa3",
   "payload": {
     "title": "Комбинация 10: Legal Document Intelligence Pipeline",
     "summary": "LLM Parsing (habr.com/ru/articles/892954/) - Structured Outputs, Pydantic validation, HTML→JSON",
-    "body": "комбинация legal document intelligence pipeline источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex смотрите также sozialrecht domain docs technology combinations sozialrecht domain llm powered legal corpus builder docs technology combinations combinations llm powered legal corpus builder legal document transpiler docs technology combinations combinations legal document transpiler pydantic enforced legal workflows docs technology combinations combinations pydantic enforced legal workflows кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme legal stack docs technology combinations mega stacks legal stack extended docs technology combinations synthesis tables extended",
+    "body": "комбинация legal document intelligence pipeline источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex смотрите также sozialrecht domain technology combinations sozialrecht domain llm powered legal corpus builder llm powered legal corpus builder legal document transpiler legal document transpiler pydantic enforced legal workflows pydantic enforced legal workflows кто ссылается этот документ components name glossary components name readme readme legal stack mega stacks legal stack extended synthesis tables extended",
     "tags": [
       "rag",
       "knowledge",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/technology-combinations/combinations/12-multi-agent-observability-stack.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/09-agent-orchestration-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/15-19-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:a972e7498b572f56",
   "payload": {
     "title": "Комбинация 12: Multi-Agent Observability Stack",
     "summary": "OpenTelemetry (unified standard, habr.com/ru/companies/wildberries/articles/995330/)",
-    "body": "комбинация multi agent observability stack источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также agent orchestration stack docs technology combinations combinations agent orchestration stack multi agent observability platform docs technology combinations combinations multi agent observability platform adversarial multi agent code review docs technology combinations combinations adversarial multi agent code review extended docs technology combinations synthesis tables extended",
+    "body": "комбинация multi agent observability stack источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также agent orchestration stack agent orchestration stack multi agent observability platform multi agent observability platform adversarial multi agent code review adversarial multi agent code review extended synthesis tables extended",
     "tags": [
       "orchestration",
       "collaboration"

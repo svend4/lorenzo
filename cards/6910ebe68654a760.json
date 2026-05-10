@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/representative-agent-layer-ru/00-abstract.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
-  "payload_hash": "sha256:30079fff4dcc2fc1",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/190-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/15-appendix-c-history.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:fe0df72e39d40413",
   "payload": {
     "title": "Содержание",
     "summary": "1. **Синдром Золушки: Почему качество остаётся невидимым**",
-    "body": "содержание источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer содержание синдром золушки почему качество остаётся невидимым исторические прецеденты агенты как цивилизационная инновация что делает агента представительским десять областей применения архитектурная спецификация этическая рамка управление надзор риски меры противодействия стратегия поэтапного развёртывания открытые вопросы призыв сотрудничеству смотрите также содержание docs anthropic vacancies содержание question habr link docs nautilus community discussions habr article reaction question habr link appendix change log docs nautilus npp appendix change log appendix history docs nautilus review methodology appendix history",
+    "body": "содержание источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper representative agent layer содержание синдром золушки почему качество остаётся невидимым исторические прецеденты агенты как цивилизационная инновация что делает агента представительским десять областей применения архитектурная спецификация этическая рамка управление надзор риски меры противодействия стратегия поэтапного развёртывания открытые вопросы призыв сотрудничеству смотрите также содержание anthropic vacancies содержание question habr link community discussions habr article reaction question habr link appendix change log npp appendix change log appendix history review methodology appendix history",
     "tags": [
       "architecture",
       "anthropic"

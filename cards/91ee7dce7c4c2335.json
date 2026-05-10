@@ -5,14 +5,47 @@
   "sources": [
     "docs/02-anthropic-vacancies/147-references.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/268-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/320-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/338-ссылки.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/104-appendix-c-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/148-appendix-a-glossary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:b701d1461c46852b",
   "payload": {
     "title": "References",
     "summary": "",
-    "body": "references абстракт авто проблема references contents references references foundational sources foundational sources multi agent systems multi agent systems protocols and federation protocols and federa подход architectural styles and the design network based software architectures ключевые слова anthropic references protocol portal vacancies svend human nautilus contents references references foundational sources foundational sources multi agent systems multi agent systems protocols and federation protocols and federation human collaboration human collaboration related architectures related architectures pattern libraries pattern libraries primary reference primary reference conway how committees invent datamation похожие документы references docs anthropic vacancies references сходство portal protocol docs anthropic vacancies portal protocol сходство with anthropic cowork platform docs anthropic vacancies with anthropic cowork platform сходство смотрите также portal protocol docs anthropic vacancies portal protocol references docs anthropic vacancies references references docs anthropic vacancies references ссылки docs anthropic vacancies ссылки кто ссылается этот документ appendix references docs anthropic vacancies appendix references three inter layer protocols docs anthropic vacancies three inter layer protocols appendix glossary docs anthropic vacancies appendix glossary coordinated infrastructure for distributed expe docs anthropic vacancies coordinated infrastructure for distributed expe reference implementation docs anthropic vacancies reference implementation with anthropic cowork platform docs anthropic vacancies with anthropic cowork platform references docs anthropic vacancies references ссылки docs anthropic vacancies ссылки ещё",
+    "body": "references абстракт авто проблема references contents references references foundational sources foundational sources multi agent systems multi agent systems protocols and federation protocols and federa подход architectural styles and the design network based software architectures ключевые слова anthropic references protocol portal vacancies svend human nautilus contents references references foundational sources foundational sources multi agent systems multi agent systems protocols and federation protocols and federation human collaboration human collaboration related architectures related architectures pattern libraries pattern libraries primary reference primary reference conway how committees invent datamation похожие документы references references сходство portal protocol portal protocol сходство with anthropic cowork platform with anthropic cowork platform сходство смотрите также portal protocol portal protocol references references references references ссылки ссылки кто ссылается этот документ appendix references appendix references three inter layer protocols three inter layer protocols appendix glossary appendix glossary coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe reference implementation reference implementation with anthropic cowork platform with anthropic cowork platform references references ссылки ссылки ещё",
     "tags": [
       "roadmap",
       "anthropic",

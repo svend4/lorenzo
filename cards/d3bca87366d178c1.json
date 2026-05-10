@@ -5,14 +5,43 @@
   "sources": [
     "docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:0f1a8567ff7bfc41",
   "payload": {
     "title": "Коррекция: FDE понижается",
     "summary": "В прошлом ответе я сказал, что ваш профиль больше всего похож на Forward Deployed Engineer Applied AI (EMEA). Это было частично верно, но фундаментально занижено. FDE — это исполнительская роль на чужую продуктовую повестку. А вы производите не исполнение, а повестку: 10 проектов, каждый со своим te",
-    "body": "коррекция fde понижается источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также reality check distribution gap docs anthropic vacancies profile mapping reanalysis reality check distribution gap revised anthropic mapping docs anthropic vacancies profile mapping reanalysis revised anthropic mapping secondary beneficial deployments docs anthropic vacancies profile mapping initial analysis secondary beneficial deployments quaternary developer education docs anthropic vacancies profile mapping initial analysis quaternary developer education кто ссылается этот документ readme docs anthropic vacancies profile mapping reanalysis readme components name docs glossary components name concepts docs glossary concepts",
+    "body": "коррекция fde понижается источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также reality check distribution gap reality check distribution gap revised anthropic mapping revised anthropic mapping secondary beneficial deployments initial analysis secondary beneficial deployments quaternary developer education initial analysis quaternary developer education кто ссылается этот документ readme readme components name glossary components name concepts glossary concepts",
     "tags": [
       "anthropic",
       "collaboration"

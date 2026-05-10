@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/specification/05-q5-authority-limits.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/08-bez-max-approval.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/09-voobshche-nelzya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:f5873b3cb18ee868",
   "payload": {
     "title": "Question 5: Каковы limits Lorenzo's authority?",
     "summary": "Question 5: Каковы limits Lorenzo's authority?",
-    "body": "question каковы limits lorenzo authority источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин проекты cardindex смотрите также bez max approval docs lorenzo agent bez max approval what lorenzo does docs lorenzo agent specification what lorenzo does voobshche nelzya docs lorenzo agent voobshche nelzya что можешь делать без max approval docs anthropic vacancies что можешь делать без max approval",
+    "body": "question каковы limits lorenzo authority источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин проекты cardindex смотрите также bez max approval bez max approval what lorenzo does what lorenzo does voobshche nelzya voobshche nelzya что можешь делать без max approval anthropic vacancies что можешь делать без max approval",
     "tags": [
       "knowledge",
       "anthropic"

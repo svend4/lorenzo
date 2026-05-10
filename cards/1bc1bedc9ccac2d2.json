@@ -5,14 +5,31 @@
   "sources": [
     "docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/10-architecture-rfc.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:3eb269dcf955db76",
   "payload": {
     "title": "A2A vs MCP, ансамбль H — MCP/A2A Review Fabric",
     "summary": "3. Третий новый слой: A2A как протокол для агентов, MCP как протокол для инструментов",
-    "body": "mcp ансамбль mcp review fabric warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi mclaude factory смотрите также notion mem affine langgraph docs collaborations continuation notion mem affine langgraph ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать memory firewall prompt worms docs collaborations continuation memory firewall prompt worms architecture rfc docs collaborations continuation architecture rfc",
+    "body": "mcp ансамбль mcp review fabric warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок поиск коллабораций проектов корень репозитория проекты svyazi mclaude factory смотрите также notion mem affine langgraph notion mem affine langgraph ограничения лицензии что пока лучше склеивать collaborations ограничения лицензии что пока лучше склеивать memory firewall prompt worms memory firewall prompt worms architecture rfc architecture rfc",
     "tags": [
       "memory",
       "rag",

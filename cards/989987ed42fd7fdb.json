@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/clusters/13-communications.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
-  "payload_hash": "sha256:2c1efa7a70aa3243",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/14-public-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/15-public-benefit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/16-people.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:ad7456162e3fa40e",
   "payload": {
     "title": "Communications — 5 ролей",
     "summary": "Communications Lead для Claude Code и для Anthropic Institute, Communications Manager Research, Engineering Editorial Lead, Internal Communications Manager Policy.",
-    "body": "communications ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также product management support ops docs anthropic vacancies clusters product management support ops public policy docs anthropic vacancies clusters public policy public benefit docs anthropic vacancies clusters public benefit people docs anthropic vacancies clusters people",
+    "body": "communications ролей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория ссылка статью затравку dnews смотрите также product management support ops product management support ops public policy public policy public benefit public benefit people people",
     "tags": [
       "anthropic"
     ],

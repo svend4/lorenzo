@@ -5,14 +5,35 @@
   "sources": [
     "docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/nautilus/review-methodology/07-why-valid-for-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/31-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:4478cbf0441c11ee",
   "payload": {
     "title": "6. Почему это валидный паттерн для AI-assisted workflows",
     "summary": "Традиционная software engineering оптимизировалась против",
-    "body": "почему это валидный паттерн для assisted workflows традиционная software engineering оптимизировалась против смотрите также why valid for docs nautilus review methodology why valid for кто ссылается этот документ доступ данным docs anthropic vacancies доступ данным appendix история изменений методологии docs anthropic vacancies appendix история изменений методологии content overview docs anthropic vacancies content overview readme docs anthropic vacancies readme",
+    "body": "почему это валидный паттерн для assisted workflows традиционная software engineering оптимизировалась против смотрите также why valid for nautilus review methodology why valid for кто ссылается этот документ доступ данным доступ данным appendix история изменений методологии appendix история изменений методологии content overview content overview readme readme",
     "tags": [
       "anthropic"
     ],

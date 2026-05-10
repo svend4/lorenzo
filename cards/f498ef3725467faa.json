@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/06-yazyki-kultura.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/10-q10-funding-model.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:10902640efb16441",
   "payload": {
     "title": "Question 9: Geographic / linguistic scope",
     "summary": "Question 9: Geographic / linguistic scope?",
-    "body": "question geographic linguistic scope источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин смотрите также whom lorenzo serves docs lorenzo agent specification whom lorenzo serves yazyki kultura docs lorenzo agent yazyki kultura other relationships docs lorenzo agent specification other relationships funding model docs lorenzo agent specification funding model",
+    "body": "question geographic linguistic scope источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога direction refining lorenzo before strategic decisions это процесс который привёл фин смотрите также whom lorenzo serves whom lorenzo serves yazyki kultura yazyki kultura other relationships other relationships funding model funding model",
     "tags": [
       "rag",
       "ingestion",

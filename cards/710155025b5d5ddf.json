@@ -5,14 +5,47 @@
   "sources": [
     "docs/contacts/vladspace.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/contacts/zodigancode.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/tagir-analyzes.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/mixaill76.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/cutcode.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/dmitriila.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:a553e626289a6fbc",
   "payload": {
     "title": "Контакт: VladSpace / Graph RAG",
     "summary": "Я изучаю Graph RAG — он отлично вписывается в Svyazi 2.0,",
-    "body": "контакт vladspace graph rag tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi graph rag contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник vladspace github vladspace https github com vladspace проекты graph rag слой svyazi rag упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте vladspace изучаю graph rag отлично вписывается svyazi которую собираю как локальную community intelligence platform graph rag закрывает слой rag архитектуре было интересно пообщаться как лучше связаться открытые вопросы вопрос вопрос создано автоматически похожие документы zodigancode docs contacts zodigancode сходство tagir analyzes docs contacts tagir analyzes сходство mixaill docs contacts mixaill сходство смотрите также tagir analyzes docs contacts tagir analyzes cutcode docs contacts cutcode zodigancode docs contacts zodigancode dmitriila docs contacts dmitriila кто ссылается этот документ kksudo docs autofilled components kksudo spbmolot docs autofilled components spbmolot readme docs contacts readme",
+    "body": "контакт vladspace graph rag tip документ содержит практические рекомендации лучшие практики статус связи статус связи проекты svyazi graph rag contents профиль профиль статус связи статус связи первое сообщение первое сообщение открытые вопросы открытые вопросы профиль параметр значение ник vladspace github vladspace https github com vladspace проекты graph rag слой svyazi rag упомянут документах файлах платформа habr github статус связи изучили профиль написали первое сообщение получили ответ договорились сотрудничестве первое сообщение здравствуйте vladspace изучаю graph rag отлично вписывается svyazi которую собираю как локальную community intelligence platform graph rag закрывает слой rag архитектуре было интересно пообщаться как лучше связаться открытые вопросы вопрос вопрос создано автоматически похожие документы zodigancode zodigancode сходство tagir analyzes tagir analyzes сходство mixaill mixaill сходство смотрите также tagir analyzes tagir analyzes cutcode cutcode zodigancode zodigancode dmitriila dmitriila кто ссылается этот документ kksudo autofilled components kksudo spbmolot autofilled components spbmolot readme readme",
     "tags": [
       "контакты",
       "команда"

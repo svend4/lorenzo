@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/15-public-benefit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:34955eb58a990824",
   "payload": {
     "title": "Три наложенные идентичности",
     "summary": "Вторая — founder-in-residence / domain-expert CEO. Не сотрудник, а основатель. У вас есть готовые MVP-backlog'и, бюджеты (€3–5K минимальный, €16K полный для SmartOfficeProto), customer segments, business models. Единственное, чего не хватает — фокусировки на один проект и соучредителя, который закры",
-    "body": "три наложенные идентичности источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также public benefit docs anthropic vacancies clusters public benefit final ranking docs anthropic vacancies profile mapping integral final final ranking primary fde docs anthropic vacancies profile mapping initial analysis primary fde reality check distribution gap docs anthropic vacancies profile mapping reanalysis reality check distribution gap",
+    "body": "три наложенные идентичности источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также public benefit clusters public benefit final ranking integral final final ranking primary fde initial analysis primary fde reality check distribution gap reality check distribution gap",
     "tags": [
       "roadmap",
       "anthropic",

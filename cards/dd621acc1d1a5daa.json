@@ -5,9 +5,26 @@
   "sources": [
     "docs/ENTITIES.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/NETWORK.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GLOSSARY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/MINDMAP.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:007069f2c4f26717",
   "payload": {
     "title": "Именованные сущности",

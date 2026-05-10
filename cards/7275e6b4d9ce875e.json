@@ -5,14 +5,31 @@
   "sources": [
     "docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:2d21d6c8be98166c",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/326-содержание.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:74ab349a4eefff43",
   "payload": {
     "title": "6. Уточнённый объём InGit с учётом Cowork",
     "summary": "месяцев до v1.0) отражала амбицию полного",
-    "body": "уточнённый объём ingit учётом cowork tip этот документ описывает mvp подход начните него для быстрого прототипа абстракт авто проблема похожие документы что cowork обеспечивает что ingit нужно строи docs anthropic vacancies что cowork обеспечивает что ingit нужно строи сходство результат чистая временная линия месяцев примерно месяцев гораздо более высоким качеством результата ключевые слова cowork ingit объём новая месяцы обеспечивает месяца anthropic contents уточнённый объём ingit учётом cowork уточнённый объём ingit docs anthropic vacancies with anthropic cowork platform учётом cowork новая фаза месяцы подложка mvp новая фаза месяцы подложка mvp новая фаза месяцы mcp сервер новая фаза месяцы mcp сервер новая фаза месяцы принятие уточнение новая фаза месяцы принятие уточнение общий сокращённый объём общий сокращённый объём оригинальная дорожная карта ingit похожие документы что cowork обеспечивает что ingit docs anthropic vacancies with anthropic cowork platform нужно строи docs anthropic vacancies что cowork обеспечивает что ingit нужно строи сходство четыре пути интеграции порядке доступности docs anthropic vacancies четыре пути интеграции порядке доступности сходство что ingit docs anthropic vacancies with anthropic cowork platform обеспечивает чего cowork хватает docs anthropic vacancies что ingit обеспечивает чего cowork хватает сходство смотрите также что cowork обеспечивает что ingit docs anthropic vacancies with anthropic cowork platform нужно строи docs anthropic vacancies что cowork обеспечивает что ingit нужно строи четыре пути интеграции порядке доступности docs anthropic vacancies четыре пути интеграции порядке доступности что ingit docs anthropic vacancies with anthropic cowork platform обеспечивает чего cowork хватает docs anthropic vacancies что ingit обеспечивает чего cowork хватает содержание docs anthropic vacancies содержание кто ссылается этот документ профессиональные коллеги агенты docs anthropic vacancies профессиональные коллеги агенты инфраструктура для совместной интеллектуальной docs anthropic vacancies инфраструктура для совместной интеллектуальной ingit как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего содержание docs anthropic vacancies содержание что ingit обеспечивает чего cowork хватает docs anthropic vacancies что ingit обеспечивает чего cowork хватает readme docs anthropic vacancies readme",
+    "body": "уточнённый объём ingit учётом cowork tip этот документ описывает mvp подход начните него для быстрого прототипа абстракт авто проблема похожие документы что cowork обеспечивает что ingit нужно строи docs anthropic vacancies что cowork обеспечивает что ingit нужно строи сходство результат чистая временная линия месяцев примерно месяцев гораздо более высоким качеством результата ключевые слова cowork ingit объём новая месяцы обеспечивает месяца anthropic contents уточнённый объём ingit учётом cowork уточнённый объём ingit with anthropic cowork platform учётом cowork новая фаза месяцы подложка mvp новая фаза месяцы подложка mvp новая фаза месяцы mcp сервер новая фаза месяцы mcp сервер новая фаза месяцы принятие уточнение новая фаза месяцы принятие уточнение общий сокращённый объём общий сокращённый объём оригинальная дорожная карта ingit похожие документы что cowork обеспечивает что ingit with anthropic cowork platform нужно строи docs anthropic vacancies что cowork обеспечивает что ingit нужно строи сходство четыре пути интеграции порядке доступности четыре пути интеграции порядке доступности сходство что ingit with anthropic cowork platform обеспечивает чего cowork хватает docs anthropic vacancies что ingit обеспечивает чего cowork хватает сходство смотрите также что cowork обеспечивает что ingit with anthropic cowork platform нужно строи docs anthropic vacancies что cowork обеспечивает что ingit нужно строи четыре пути интеграции порядке доступности четыре пути интеграции порядке доступности что ingit with anthropic cowork platform обеспечивает чего cowork хватает docs anthropic vacancies что ingit обеспечивает чего cowork хватает содержание содержание кто ссылается этот документ профессиональные коллеги агенты профессиональные коллеги агенты инфраструктура для совместной интеллектуальной инфраструктура для совместной интеллектуальной ingit как cowork интегрированная подложка рабочего ingit как cowork интегрированная подложка рабочего содержание содержание что ingit обеспечивает чего cowork хватает что ingit обеспечивает чего cowork хватает readme readme",
     "tags": [
       "architecture",
       "roadmap"

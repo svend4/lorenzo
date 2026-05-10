@@ -5,10 +5,51 @@
   "sources": [
     "docs/SITEMAP.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:3f3f566391d4276b",
+  "edges": [
+    {
+      "to": "docs/ABBREVIATIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ALERTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTHORS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/obsidian/AUTHORS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTOFILLED.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BACKLINKS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BADGES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BROKEN_LINKS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c5d7c631354582ff",
   "payload": {
     "title": "Карта репозитория Lorenzo",
     "summary": "_`docs/02-anthropic-vacancies/` — 355 файлов_",

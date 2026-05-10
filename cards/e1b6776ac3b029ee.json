@@ -37,15 +37,19 @@
     {
       "to": "docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md",
       "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/05-benchmarks.md",
+      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:9d17e2f6d3f25de5",
   "payload": {
     "title": "Сводная таблица 1–8",
     "summary": "Ни один из этих проектов по отдельности не революционен:",
-    "body": "сводная таблица источник mhtml снимок комбинирование технологий для новых свойств claude секция сводная таблица синергии проекты svyazi cardindex yodoca смотрите также conductor adversarial review auto router docs technology combinations combinations conductor adversarial review auto router benchmarks docs technology combinations benchmarks legal stack docs technology combinations mega stacks legal stack extended docs technology combinations synthesis tables extended кто ссылается этот документ concepts docs glossary concepts reading paths docs reading paths readme docs technology combinations readme readme docs technology combinations synthesis tables readme",
+    "body": "сводная таблица источник mhtml снимок комбинирование технологий для новых свойств claude секция сводная таблица синергии проекты svyazi cardindex yodoca смотрите также conductor adversarial review auto router combinations conductor adversarial review auto router benchmarks technology combinations benchmarks legal stack mega stacks legal stack extended extended кто ссылается этот документ concepts glossary concepts reading paths reading paths readme readme readme readme",
     "tags": [
       "memory",
       "rag",

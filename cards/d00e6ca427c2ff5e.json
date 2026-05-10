@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/ensembles/A-collaboration-os.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/license-tree.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:ae6e0df04299d0eb",
   "payload": {
     "title": "Ансамбль A — Collaboration OS",
     "summary": "A[Свободный текст профилей] --> B[Svyazi-style import + LLM extraction]",
-    "body": "ансамбль collaboration источник deep research report проекты svyazi cardindex agentfs knowledge space yodoca ngt memory смотрите также ensembles overview docs svyazi ensembles overview приоритетные ансамбли docs collaborations приоритетные ансамбли knowledge space docs svyazi components knowledge space license tree docs svyazi limitations license tree",
+    "body": "ансамбль collaboration источник deep research report проекты svyazi cardindex agentfs knowledge space yodoca ngt memory смотрите также ensembles overview svyazi ensembles overview приоритетные ансамбли collaborations приоритетные ансамбли knowledge space components knowledge space license tree limitations license tree",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,43 @@
   "sources": [
     "docs/01-svyazi/03-component-catalog.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/BROKEN_LINKS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:fff6b9992c3cf293",
   "payload": {
     "title": "03 component catalog",
     "summary": "",
-    "body": "проблема memnet memory all you need antipozitive хабр github cite turn view turn search turn search исследовательская активная память для трансформеров проекты svyazi cardindex agentfs knowledge space mclaude factory rufler liteparse похожие документы карта найденных проектов паттернов docs collaborations карта найденных проектов паттернов сходство tables docs tables сходство приоритетные ансамбли docs collaborations приоритетные ансамбли сходство смотрите также карта найденных проектов паттернов docs collaborations карта найденных проектов паттернов tables docs tables приоритетные ансамбли docs collaborations приоритетные ансамбли ensembles overview docs svyazi docs svyazi intro part ensembles overview mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов кто ссылается этот документ readme docs svyazi readme action items docs action items broken links docs broken links decisions docs decisions tables docs tables timeline docs timeline",
+    "body": "проблема memnet memory all you need antipozitive хабр github cite turn view turn search turn search исследовательская активная память для трансформеров проекты svyazi cardindex agentfs knowledge space mclaude factory rufler liteparse похожие документы карта найденных проектов паттернов collaborations карта найденных проектов паттернов сходство tables tables сходство приоритетные ансамбли collaborations приоритетные ансамбли сходство смотрите также карта найденных проектов паттернов collaborations карта найденных проектов паттернов tables tables приоритетные ансамбли collaborations приоритетные ансамбли ensembles overview ensembles overview mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit sentinel oss проект безопасность allowlist для mcp svyazi главный проект экосистема компонентов кто ссылается этот документ readme readme action items action items broken links broken links decisions decisions tables tables timeline timeline",
     "tags": [
       "memory",
       "rag",

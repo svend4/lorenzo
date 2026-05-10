@@ -7,6 +7,14 @@
   ],
   "edges": [
     {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/04-abstract.md",
       "rel": "references"
     },
@@ -21,19 +29,15 @@
     {
       "to": "docs/02-anthropic-vacancies/07-2-terminology.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:15d8da096c1d760c",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:04d99d292e78dd31",
   "payload": {
     "title": "Abstract",
     "summary": "Nautilus Portal Protocol (далее — **NPP**) определяет способ федерации",
-    "body": "abstract абстракт авто проблема abstract nautilus portal protocol далее npp определяет способ федерации abstract nautilus portal protocol далее npp определяет способ федерации независимых git репозито подход алгоритм вычисления консенсуса между репозиториями ключевые слова anthropic vacancies abstract introduction terminology nautilus федерации сходство nautilus portal protocol далее npp определяет способ федерации похожие документы abstract abstract сходство introduction introduction сходство terminology terminology сходство смотрите также abstract abstract introduction introduction terminology terminology appendix minimal working example appendix minimal working example упоминается introduction introduction terminology terminology terminology terminology принципы консолидации фаза принципы консолидации фаза portalentry structure portalentry structure abstract abstract вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы abstract abstract terminology terminology terminology terminology appendix minimal working example appendix minimal working example связанные документы abstract abstract terminology terminology terminology terminology status this document status this document registry nautilus json registry nautilus json review methodology review methodology readme mcp инструкция установке readme mcp инструкция установке portalentry structure portalentry structure кто ссылается этот документ abstract docs anthropic vacancies abstract status this document docs anthropic vacancies status this document review methodology docs anthropic vacancies review methodology принципы консолидации фаза docs anthropic vacancies принципы консолидации фаза readme mcp инструкция установке docs anthropic vacancies readme mcp инструкция установке readme docs anthropic vacancies readme",
+    "body": "abstract абстракт авто проблема abstract nautilus portal protocol далее npp определяет способ федерации abstract nautilus portal protocol далее npp определяет способ федерации независимых git репозито подход алгоритм вычисления консенсуса между репозиториями ключевые слова anthropic vacancies abstract introduction terminology nautilus федерации сходство nautilus portal protocol далее npp определяет способ федерации похожие документы abstract abstract сходство introduction introduction сходство terminology terminology сходство смотрите также abstract abstract introduction introduction terminology terminology appendix minimal working example appendix minimal working example упоминается introduction introduction terminology terminology terminology terminology принципы консолидации фаза принципы консолидации фаза portalentry structure portalentry structure abstract abstract вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы abstract abstract terminology terminology terminology terminology appendix minimal working example appendix minimal working example связанные документы abstract abstract terminology terminology terminology terminology status this document status this document registry nautilus json registry nautilus json review methodology review methodology readme mcp инструкция установке readme mcp инструкция установке portalentry structure portalentry structure кто ссылается этот документ abstract abstract status this document status this document review methodology review methodology принципы консолидации фаза принципы консолидации фаза readme mcp инструкция установке readme mcp инструкция установке readme readme",
     "tags": [
       "architecture"
     ],

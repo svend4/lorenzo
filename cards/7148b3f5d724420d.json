@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/10-collaborators-landscape.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:3a6bb1e2f6ace140",
   "payload": {
     "title": "Финальный список потенциальных collaborators (Tier 1–4)",
     "summary": "В ranked order для outreach (объединяя все три раунда):",
-    "body": "финальный список потенциальных collaborators tier источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование проекты ngt memory wikontic смотрите также collaborators landscape docs lorenzo agent collaborators landscape существующий landscape collaborators твоя working docs anthropic vacancies существующий landscape collaborators твоя working mem letta graphiti docs anthropic vacancies extra collaborator findings mem letta graphiti existing infrastructure stack docs anthropic vacancies extra collaborator findings existing infrastructure stack",
+    "body": "финальный список потенциальных collaborators tier источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование проекты ngt memory wikontic смотрите также collaborators landscape lorenzo agent collaborators landscape существующий landscape collaborators твоя working anthropic vacancies существующий landscape collaborators твоя working mem letta graphiti mem letta graphiti existing infrastructure stack existing infrastructure stack",
     "tags": [
       "memory",
       "ingestion",

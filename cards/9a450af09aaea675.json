@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/review-methodology/04-fallback-ratio-question.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/10-checklist.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/07-portal-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:2535b11a3d971cf2",
   "payload": {
     "title": "Вопрос: fallback‑ratio как критический или осмысленный?",
     "summary": "Два независимых анализа пришли к разным выводам:",
-    "body": "вопрос fallback ratio как критический или осмысленный important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также вопрос fallback ratio как критический или осмыслен docs anthropic vacancies вопрос fallback ratio как критический или осмыслен checklist docs nautilus review methodology checklist portal entry docs nautilus npp portal entry appendix header warning docs nautilus review methodology appendix header warning",
+    "body": "вопрос fallback ratio как критический или осмысленный important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также вопрос fallback ratio как критический или осмыслен anthropic vacancies вопрос fallback ratio как критический или осмыслен checklist checklist portal entry npp portal entry appendix header warning appendix header warning",
     "tags": [
       "memory",
       "rag",

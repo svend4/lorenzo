@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/limitations/do-not-glue.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/14-limitations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/license-tree.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/limitations/conclusions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:34b4045504e56b68",
   "payload": {
     "title": "Что пока лучше не склеивать",
     "summary": "",
-    "body": "что пока лучше склеивать warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел ограничения лицензии что пока лучше склеивать проекты mclaude factory rufler autoresearch whisper yttri смотрите также limitations docs svyazi limitations license tree docs svyazi limitations license tree ограничения лицензии что пока лучше склеивать docs collaborations ограничения лицензии что пока лучше склеивать conclusions docs svyazi limitations conclusions",
+    "body": "что пока лучше склеивать warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел ограничения лицензии что пока лучше склеивать проекты mclaude factory rufler autoresearch whisper yttri смотрите также limitations svyazi limitations license tree license tree ограничения лицензии что пока лучше склеивать collaborations ограничения лицензии что пока лучше склеивать conclusions conclusions",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,39 @@
   "sources": [
     "docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/07-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:86d910e644fab341",
   "payload": {
     "title": "12. Onboarding Paths (Normative)",
     "summary": "NPP v1.1 формализует пять путей подключения нового Repo как",
-    "body": "onboarding paths normative содержание contents contents onboarding paths normative onboarding paths normative path manual adapter path manual adapter path generate passport wizard path generate passportpy wizard path self declaring repo autoadapter path self declaring repo autoadapter path auto scanner path auto scanner path github actions webhook path github actions webhook path selection guidance path selection guidance упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы onboarding paths normative npp формализует пять путей подключения нового repo как equivalent рангованные стратегии каждая имеет свой trade off между автоматизацией качеством path manual adapter время минут автоматизация качество высокое написать adapters format наследуясь baseadapter docs anthropic vacancies интегральный анализ профиля svend написать passports format зарегистрировать адаптер adapters init добавить импорт portal конструктор добавить запись nautilus docs habr projects memory memnet json path generate passport wizard время минут автоматизация качество требует доработки python generate passport repo owner repo format myformat adapter генерирует заготовки passport adapter дальше вручную заполнить static entries реальными концептами дописать отображение паспорте добавить мосты другим repos path self declaring repo autoadapter время минут автоматизация качество зависит index nautilus docs habr projects memory memnet json target репо целевом репо создать nautilus docs habr projects memory memnet json корне полем index portal репо добавить запись adapter auto repo portal автоматически использует autoadapter docs anthropic vacancies nautilus portal reference substrate ключевое свойство repo регистрирует себя сам portal требует изменений кода это enables federation без координации path auto scanner время минуты автоматизация качество низкое только структура python scan repo owner repo name результат passports format авто заполнен структуре adapters format статика найденных файлов auto report json детальный отчёт сканер отправная точка результат всё равно нужно проверить уточнить маппинг вручную path github actions webhook время минут настройки далее полностью автоматически автоматизация качество низкое без маппинга целевом репо создать github workflows register nautilus yml при push target репо repository dispatch event portal репо portal репо github workflows auto update yml запускает scan repo generate passport commit плюсы полностью автоматически минусы нужны github docs svyazi component catalog токены правами оба репо всё равно требует ручной проверки path selection guidance вариант когда использовать когда хорошо знаете структуру repo хотите high quality стартовая точка для большинства новых repos для repos которые автор хочет сам декларировать для быстрой первой интеграции незнакомых repos для автоматической fleet federation многих repos рекомендуемый путь для типового repo доработать вручную для federation новых repos будущем смотрите также terminology docs anthropic vacancies terminology registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json terminology docs anthropic vacancies terminology похожие документы terminology docs anthropic vacancies terminology сходство compatibility levels docs anthropic vacancies compatibility levels сходство terminology docs anthropic vacancies terminology сходство",
+    "body": "onboarding paths normative содержание contents contents onboarding paths normative onboarding paths normative path manual adapter path manual adapter path generate passport wizard path generate passportpy wizard path self declaring repo autoadapter path self declaring repo autoadapter path auto scanner path auto scanner path github actions webhook path github actions webhook path selection guidance path selection guidance упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы onboarding paths normative npp формализует пять путей подключения нового repo как equivalent рангованные стратегии каждая имеет свой trade off между автоматизацией качеством path manual adapter время минут автоматизация качество высокое написать adapters format наследуясь baseadapter интегральный анализ профиля svend написать passports format зарегистрировать адаптер adapters init добавить импорт portal конструктор добавить запись nautilus habr projects memory memnet json path generate passport wizard время минут автоматизация качество требует доработки python generate passport repo owner repo format myformat adapter генерирует заготовки passport adapter дальше вручную заполнить static entries реальными концептами дописать отображение паспорте добавить мосты другим repos path self declaring repo autoadapter время минут автоматизация качество зависит index nautilus habr projects memory memnet json target репо целевом репо создать nautilus habr projects memory memnet json корне полем index portal репо добавить запись adapter auto repo portal автоматически использует autoadapter nautilus portal reference substrate ключевое свойство repo регистрирует себя сам portal требует изменений кода это enables federation без координации path auto scanner время минуты автоматизация качество низкое только структура python scan repo owner repo name результат passports format авто заполнен структуре adapters format статика найденных файлов auto report json детальный отчёт сканер отправная точка результат всё равно нужно проверить уточнить маппинг вручную path github actions webhook время минут настройки далее полностью автоматически автоматизация качество низкое без маппинга целевом репо создать github workflows register nautilus yml при push target репо repository dispatch event portal репо portal репо github workflows auto update yml запускает scan repo generate passport commit плюсы полностью автоматически минусы нужны github svyazi component catalog токены правами оба репо всё равно требует ручной проверки path selection guidance вариант когда использовать когда хорошо знаете структуру repo хотите high quality стартовая точка для большинства новых repos для repos которые автор хочет сам декларировать для быстрой первой интеграции незнакомых repos для автоматической fleet federation многих repos рекомендуемый путь для типового repo доработать вручную для federation новых repos будущем смотрите также terminology terminology registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json terminology terminology похожие документы terminology terminology сходство compatibility levels compatibility levels сходство terminology terminology сходство",
     "tags": [
       "architecture",
       "collaboration"

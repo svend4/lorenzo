@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/prototype/mvp-plan.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/overview/executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/first-contacts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:8596fe476a44fca5",
   "payload": {
     "title": "План MVP-прототипа",
     "summary": "",
-    "body": "план mvp прототипа tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex agentfs liteparse yodoca ngt memory sentinel litellm смотрите также план прототипа возможные контакты docs collaborations план прототипа возможные контакты mvp planning docs svyazi mvp planning executive summary docs svyazi overview executive summary first contacts docs svyazi outreach first contacts",
+    "body": "план mvp прототипа tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex agentfs liteparse yodoca ngt memory sentinel litellm смотрите также план прототипа возможные контакты collaborations план прототипа возможные контакты mvp planning svyazi mvp planning executive summary overview executive summary first contacts outreach first contacts",
     "tags": [
       "memory",
       "rag",

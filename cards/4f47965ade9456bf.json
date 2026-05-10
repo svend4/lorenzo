@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/03-technology-combinations/03-local-first.md",
       "rel": "references"
     },
@@ -25,23 +29,15 @@
     {
       "to": "docs/03-technology-combinations/05-benchmarks.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/03-technology-combinations/README.md",
-      "rel": "references"
-    },
-    {
-      "to": "docs/README.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:2d2a78ff84b6f24f",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:4e4bc13d30c482ad",
   "payload": {
     "title": "Агентные системы и роутинг",
     "summary": "самоулучшения промпта\". Добавляем durable state из агентской архитектуры:",
-    "body": "агентные системы роутинг абстракт авто проблема агентные системы роутинг самоулучшения промпта подход добавляем durable state агентской архитектуры проекты cardindex auto router самоулучшения промпта результат durable state позволяет разделить граф домены legal tech business каждый домен отдельный агентский поток собственным состоянием cross domain запросы через event ключевые слова state domain local first technology combinations durable router самоулучшения промпта добавляем durable state агентской архитектуры проекты cardindex docs svyazi executive summary auto router комбинация мультиагентный хаос решение auto router родители мультиагентный хаос habr com articles статья дней назад как построили систему которая действительно работает planner executor паттерн auto router habr com articles лёгкий прокси openai формат мегабайты ram старт дети иерархический похожие документы local first local first сходство смотрите также local first local first knowledge graphs knowledge graphs word freq word freq sozialrecht domain sozialrecht domain упоминается local first стек local first бенчмарки производительность benchmarks графы знаний legal knowledge graphs комбинирование технологий для новых свойств readme упоминается комбинирование технологий для новых свойств readme связанные документы комбинирование технологий для новых свойств readme local first стек local first бенчмарки производительность benchmarks кто ссылается этот документ local first docs technology combinations local first benchmarks docs technology combinations benchmarks readme docs technology combinations readme",
+    "body": "агентные системы роутинг абстракт авто проблема агентные системы роутинг самоулучшения промпта подход добавляем durable state агентской архитектуры проекты cardindex auto router самоулучшения промпта результат durable state позволяет разделить граф домены legal tech business каждый домен отдельный агентский поток собственным состоянием cross domain запросы через event ключевые слова state domain local first technology combinations durable router самоулучшения промпта добавляем durable state агентской архитектуры проекты cardindex svyazi executive summary auto router комбинация мультиагентный хаос решение auto router родители мультиагентный хаос habr com articles статья дней назад как построили систему которая действительно работает planner executor паттерн auto router habr com articles лёгкий прокси openai формат мегабайты ram старт дети иерархический похожие документы local first local first сходство смотрите также local first local first knowledge graphs knowledge graphs word freq word freq sozialrecht domain sozialrecht domain упоминается local first стек local first бенчмарки производительность benchmarks графы знаний legal knowledge graphs комбинирование технологий для новых свойств readme упоминается комбинирование технологий для новых свойств readme связанные документы комбинирование технологий для новых свойств readme local first стек local first бенчмарки производительность benchmarks кто ссылается этот документ local first local first benchmarks benchmarks readme readme",
     "tags": [
       "knowledge",
       "architecture",

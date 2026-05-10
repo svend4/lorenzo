@@ -10,8 +10,8 @@
 | **02-anthropic-vacancies** | 79 | 73.4 | 0.6 | 100% | 99% |
 | **03-technology-combinations** | 64 | 49.6 | 0.0 | 86% | 71% |
 | **04-ai-collaborations** | 77 | 17.2 | 0.0 | 88% | 88% |
-| **05-habr-projects** | 65 | 41.9 | 0.1 | 75% | 75% |
-| **root** | 53 | 21.6 | 1.5 | 27% | 24% |
+| **05-habr-projects** | 65 | 42.0 | 0.1 | 75% | 75% |
+| **root** | 52 | 21.5 | 1.5 | 28% | 23% |
 
 ## Топ-15 лучших документов
 
@@ -33,7 +33,7 @@
 | `323-appendix-c-sample-ingit-mcp-server-t` | 100 | 1782 |
 | `330-4-симбиотическая-архитектура` | 100 | 703 |
 
-## Документы, требующие улучшения (39)
+## Документы, требующие улучшения (40)
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
@@ -54,14 +54,14 @@
 | `KPI_HISTORY` | 30 | summary, tags, TOC, callout |
 | `LANGUAGE_STATS` | 30 | summary, tags, TOC, callout |
 | `NAMED_ENTITIES` | 30 | summary, tags, TOC, callout |
+| `ORPHANS` | 30 | summary, tags, TOC, callout |
 | `PARAGRAPH_QUALITY` | 30 | summary, tags, TOC, callout |
 | `PASSIVE_VOICE` | 30 | summary, tags, TOC, callout |
-| `QA` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 
 - Файлов с `<!-- summary -->`: **89.7%**
-- Файлов с тегами: **88.9%**
+- Файлов с тегами: **88.8%**
 - Файлов с оглавлением: **32.7%**
 - Файлов с callout: **30.5%**
 - Средний балл качества: **71.1/100**

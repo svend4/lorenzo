@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md",
       "rel": "references"
     },
@@ -29,19 +33,15 @@
     {
       "to": "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:3ae7ad85e5ef292f",
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:6dd7dceaadb20152",
   "payload": {
     "title": "Appendix B: Change Log",
     "summary": "",
-    "body": "appendix change log contents appendix change log appendix change log draft draft draft earlier draft earlier new normative concept section adr похожие документы mcp extension informative mcp extension informative сходство portalentry structure portalentry structure сходство reference implementation reference implementation сходство смотрите также mcp extension informative mcp extension informative queryresult structure queryresult structure appendix minimal working example appendix minimal working example reference implementation reference implementation упоминается queryresult structure queryresult structure relevance ranking relevance ranking sdk contract informative sdk contract informative mcp extension informative mcp extension informative adapter interface adapter interface space normative space normative appendix references appendix references вакансии anthropic анализ кластерам readme доступные инструменты доступные инструменты упоминается вакансии anthropic анализ кластерам readme связанные документы sdk contract informative sdk contract informative доступные инструменты доступные инструменты queryresult structure queryresult structure adapter interface adapter interface reference implementation reference implementation appendix references appendix references связанные документы appendix references appendix references queryresult structure queryresult structure sdk contract informative sdk contract informative mcp extension informative mcp extension informative доступные инструменты доступные инструменты appendix change log appendix change log adapter interface adapter interface space normative space normative кто ссылается этот документ appendix references docs anthropic vacancies appendix references доступные инструменты docs anthropic vacancies доступные инструменты queryresult structure docs anthropic vacancies queryresult structure appendix change log docs anthropic vacancies appendix change log mcp extension informative docs anthropic vacancies mcp extension informative reference implementation docs anthropic vacancies reference implementation readme docs anthropic vacancies readme",
+    "body": "appendix change log contents appendix change log appendix change log draft draft draft earlier draft earlier new normative concept section adr похожие документы mcp extension informative mcp extension informative сходство portalentry structure portalentry structure сходство reference implementation reference implementation сходство смотрите также mcp extension informative mcp extension informative queryresult structure queryresult structure appendix minimal working example appendix minimal working example reference implementation reference implementation упоминается queryresult structure queryresult structure relevance ranking relevance ranking sdk contract informative sdk contract informative mcp extension informative mcp extension informative adapter interface adapter interface space normative space normative appendix references appendix references вакансии anthropic анализ кластерам readme доступные инструменты доступные инструменты упоминается вакансии anthropic анализ кластерам readme связанные документы sdk contract informative sdk contract informative доступные инструменты доступные инструменты queryresult structure queryresult structure adapter interface adapter interface reference implementation reference implementation appendix references appendix references связанные документы appendix references appendix references queryresult structure queryresult structure sdk contract informative sdk contract informative mcp extension informative mcp extension informative доступные инструменты доступные инструменты appendix change log appendix change log adapter interface adapter interface space normative space normative кто ссылается этот документ appendix references appendix references доступные инструменты доступные инструменты queryresult structure queryresult structure appendix change log appendix change log mcp extension informative mcp extension informative reference implementation reference implementation readme readme",
     "tags": [
       "rag",
       "architecture"

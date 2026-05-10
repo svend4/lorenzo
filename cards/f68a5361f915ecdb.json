@@ -7,6 +7,18 @@
   ],
   "edges": [
     {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/93-18-reference-implementation.md",
       "rel": "references"
     },
@@ -21,27 +33,15 @@
     {
       "to": "docs/02-anthropic-vacancies/62-author-contact.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
-      "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
-      "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:568f255159071708",
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:706267ceffd57834",
   "payload": {
     "title": "13. Reference Implementation",
     "summary": "Reference implementation: `github.com/svend4/nautilus`.",
-    "body": "reference implementation reference implementation github com svend nautilus похожие документы reference implementation reference implementation сходство author contact author contact сходство portal protocol portal protocol сходство смотрите также reference implementation reference implementation author contact author contact author contact author contact portal protocol portal protocol упоминается status this document status this document status this document status this document queryresult structure queryresult structure relevance ranking relevance ranking sdk contract informative sdk contract informative glossary examples glossary examples reference implementation reference implementation nautilus portal reference substrate nautilus portal reference substrate coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe appendix references appendix references author contact author contact author contact author contact author contact author contact content overview content overview essence essence history history references references passports info passports info вакансии anthropic анализ кластерам readme section about about проекте проекте упоминается вакансии anthropic анализ кластерам readme связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document content overview content overview passports info passports info versioning policy versioning policy связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document passports info passports info author contact author contact appendix references appendix references кто ссылается этот документ portal protocol docs anthropic vacancies portal protocol status this document docs anthropic vacancies status this document appendix references docs anthropic vacancies appendix references глоссарий docs anthropic vacancies глоссарий примеры запросов claude docs anthropic vacancies примеры запросов claude nautilus portal reference substrate docs anthropic vacancies nautilus portal reference substrate coordinated infrastructure for distributed expe docs anthropic vacancies coordinated infrastructure for distributed expe appendices docs anthropic vacancies appendices ещё",
+    "body": "reference implementation reference implementation github com svend nautilus похожие документы reference implementation reference implementation сходство author contact author contact сходство portal protocol portal protocol сходство смотрите также reference implementation reference implementation author contact author contact author contact author contact portal protocol portal protocol упоминается status this document status this document status this document status this document queryresult structure queryresult structure relevance ranking relevance ranking sdk contract informative sdk contract informative glossary examples glossary examples reference implementation reference implementation nautilus portal reference substrate nautilus portal reference substrate coordinated infrastructure for distributed expert contribution coordinated infrastructure for distributed expe appendix references appendix references author contact author contact author contact author contact author contact author contact content overview content overview essence essence history history references references passports info passports info вакансии anthropic анализ кластерам readme section about about проекте проекте упоминается вакансии anthropic анализ кластерам readme связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document content overview content overview passports info passports info versioning policy versioning policy связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document passports info passports info author contact author contact appendix references appendix references кто ссылается этот документ portal protocol portal protocol status this document status this document appendix references appendix references глоссарий глоссарий примеры запросов claude примеры запросов claude nautilus portal reference substrate nautilus portal reference substrate coordinated infrastructure for distributed expe coordinated infrastructure for distributed expe appendices appendices ещё",
     "tags": [
       "collaboration"
     ],

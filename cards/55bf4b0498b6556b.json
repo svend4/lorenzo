@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/contacts/anastasiyaw.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/contacts/sonia-black.md",
       "rel": "references"
     },
@@ -27,13 +31,13 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T17:08:16+00:00",
-  "updated_at": "2026-05-10T17:08:16+00:00",
-  "payload_hash": "sha256:2ac2981055e2159b",
+  "created_at": "2026-05-10T17:30:24+00:00",
+  "updated_at": "2026-05-10T17:30:24+00:00",
+  "payload_hash": "sha256:6d43105502adaea6",
   "payload": {
     "title": "knowledge-space",
     "summary": "knowledge-space — это agent-first референсная база знаний: 785+ плотных карточек по 26 доменам, выращенная из реальных research-сессий автора. Ключевой принцип: карточки написаны «для агентов, не людей» — каждая содержит максимум структурированной информации в минимуме текста, gotchas (подводные кам",
-    "body": "knowledge space профиль проекта параметр значение автор sonia black anastasiyaw github sonia black источник хабр github лицензия mit maturity активный oss база растёт почти ежедневно слой svyazi knowledge описание knowledge space это agent first референсная база знаний плотных карточек доменам выращенная реальных research сессий автора ключевой принцип карточки написаны для агентов людей каждая содержит максимум структурированной информации минимуме текста gotchas подводные камни wiki links связанные концепты база включает research inbox поток необработанных исследовательских заметок которые постепенно превращаются нормализованные карточки знаний это реализует принцип episodic semantic conversion prototype spec ключевые компоненты dense reference cards плотные карточки минимум воды максимум фактов gotchas явно помеченные подводные камни типичные ошибки wiki links двойные скобки для связей между концептами research inbox необработанные исследовательские заметки episodic доменов широкий охват права системного дизайна карточек реально накопленная синтетическая база agent first дизайн структура оптимизирована для llm чтения для людей синергия svyazi внешний knowledge layer knowledge space как upstream источник карточек для cardstore research inbox episodic memory cardenvelope state raw normalizer cardenvelope state normalized dense cards идеальный формат для idf векторизации высокая информационная плотность gotchas как факты cardenvelope type fact для явных ограничений предупреждений wiki links могут стать cardedge rel references при ingestion mit лицензия прямое использование без ограничений применение архитектуре svyazi knowledge space закрывает слой нормализованного знания между raw research notes структурированным graphrag время как agentfs управляет файловым layout knowledge space предоставляет уже структурированный корпус для начальной загрузки cardstore контакт контактный файл docs contacts sonia black contacts sonia black упомянут документах раз смотрите также agentfs agentfs файловое ядро поверх которого knowledge space размещается mclaude mclaude координация агентов читающих knowledge space параллельно research docs liteparse research docs liteparse ingestion pipeline для пополнения knowledge space wikontic семантический граф wikontic граф дополнение reference картам knowledge space создано",
+    "body": "статус параметр значение теги упоминаний репо слой knowledge orchestration контакт anastasiyaw contacts anastasiyaw статус связи писали обновлено knowledge space профиль проекта параметр значение автор sonia black anastasiyaw github sonia black источник хабр github лицензия mit maturity активный oss база растёт почти ежедневно слой svyazi knowledge описание knowledge space это agent first референсная база знаний плотных карточек доменам выращенная реальных research сессий автора ключевой принцип карточки написаны для агентов людей каждая содержит максимум структурированной информации минимуме текста gotchas подводные камни wiki links связанные концепты база включает research inbox поток необработанных исследовательских заметок которые постепенно превращаются нормализованные карточки знаний это реализует принцип episodic semantic conversion prototype spec ключевые компоненты dense reference cards плотные карточки минимум воды максимум фактов gotchas явно помеченные подводные камни типичные ошибки wiki links двойные скобки для связей между концептами research inbox необработанные исследовательские заметки episodic доменов широкий охват права системного дизайна карточек реально накопленная синтетическая база agent first дизайн структура оптимизирована для llm чтения для людей синергия svyazi внешний knowledge layer knowledge space как upstream источник карточек для cardstore research inbox episodic memory cardenvelope state raw normalizer cardenvelope state normalized dense cards идеальный формат для idf векторизации высокая информационная плотность gotchas как факты cardenvelope type fact для явных ограничений предупреждений wiki links могут стать cardedge rel references при ingestion mit лицензия прямое использование без ограничений применение архитектуре svyazi knowledge space закрывает слой нормализованного знания между raw research notes структурированным graphrag время как agentfs управляет файловым layout knowledge space предоставляет уже структурированный корпус для начальной загрузки cardstore контакт контактный файл docs contacts sonia black contacts sonia black упомянут документах раз смотрите также agentfs agentfs файловое ядро поверх которого knowledge space размещается mclaude mclaude координация агентов читающих knowledge space параллельно research docs liteparse research docs liteparse ingestion pipeline для пополнения knowledge space wikontic семантический граф wikontic граф дополнение reference картам knowledge space создано",
     "tags": [
       "knowledge-space",
       "agent",
@@ -52,7 +56,7 @@
       "LiteParse",
       "Wikontic"
     ],
-    "wc": 399,
+    "wc": 441,
     "path": "docs/05-habr-projects/knowledge/knowledge-space.md"
   }
 }

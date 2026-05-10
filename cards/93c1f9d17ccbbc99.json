@@ -5,14 +5,43 @@
   "sources": [
     "docs/svyazi-2-0/security/default-policy.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/06-security-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/prototype/risks.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/first-contacts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/security/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:6babb7d89aec68ba",
   "payload": {
     "title": "Что стоит зафиксировать как default policy",
     "summary": "",
-    "body": "что стоит зафиксировать как default policy warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты svyazi factory agent memory mcp sentinel смотрите также security privacy docs svyazi security privacy безопасность приватность бюджетный роутинг docs collaborations безопасность приватность бюджетный роутинг risks docs svyazi prototype risks first contacts docs svyazi outreach first contacts кто ссылается этот документ components name docs glossary components name concepts docs glossary concepts readme docs svyazi security readme",
+    "body": "что стоит зафиксировать как default policy warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты svyazi factory agent memory mcp sentinel смотрите также security privacy svyazi security privacy безопасность приватность бюджетный роутинг collaborations безопасность приватность бюджетный роутинг risks prototype risks first contacts outreach first contacts кто ссылается этот документ components name glossary components name concepts glossary concepts readme readme",
     "tags": [
       "memory",
       "orchestration",

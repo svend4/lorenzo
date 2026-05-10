@@ -5,14 +5,31 @@
   "sources": [
     "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/svyazi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:aba5cebb6e786180",
   "payload": {
     "title": "Svyazi (Андрей Чуян) — детальный обзор",
     "summary": "Что делает: Гибридная LLM + детерминированная система структурирования участников сообщества. AI извлекает смысл из свободных текстов («занимаюсь бэкендом 7 лет, Go и Python, в k8s два года...»), детерминированный код нормализует. Двухэтапный поиск: фильтр по индексу → LLM-скоринг короткого списка.",
-    "body": "svyazi андрей чуян детальный обзор источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов проекты svyazi cardindex смотрите также vshe scientific networking docs habr unique projects extra examples vshe scientific networking claude subagents patterns docs habr unique projects extra examples claude subagents patterns svyazi docs svyazi components svyazi brainbox multi hub docs habr unique projects extra examples brainbox multi hub",
+    "body": "svyazi андрей чуян детальный обзор источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов проекты svyazi cardindex смотрите также vshe scientific networking vshe scientific networking claude subagents patterns claude subagents patterns svyazi svyazi components svyazi brainbox multi hub brainbox multi hub",
     "tags": [
       "knowledge",
       "ingestion",

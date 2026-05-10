@@ -5,14 +5,31 @@
   "sources": [
     "docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:36f8afc0d39e9db5",
   "payload": {
     "title": "Пара 6 — Деревня агентов через tmux × OpenClaw оркестратор",
     "summary": "Пара 6. Деревня агентов через tmux × OpenClaw оркестратор",
-    "body": "пара деревня агентов через tmux openclaw оркестратор источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория смотрите также skill catalogs subagents docs habr unique projects deep pairs skill catalogs subagents one person one company docs habr unique projects final ensembles one person one company workflow llm mcp docs habr unique projects software pairs workflow llm mcp llm gateway docs habr unique projects deep pairs llm gateway",
+    "body": "пара деревня агентов через tmux openclaw оркестратор источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория смотрите также skill catalogs subagents skill catalogs subagents one person one company final ensembles one person one company workflow llm mcp software pairs workflow llm mcp llm gateway llm gateway",
     "tags": [
       "rag",
       "orchestration",

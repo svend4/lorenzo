@@ -5,14 +5,43 @@
   "sources": [
     "docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/09-agent-orchestration-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/01-08-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:359c7f9381826a5b",
   "payload": {
     "title": "Комбинация 5: SourceCraft CLI × Claude Code × Sequential протокол Дочкиной",
     "summary": "SourceCraft CLI (habr.com/ru/news/1026498/) — Яндекс, консольное приложение с ИИ-агентом, skills (сценарии), накопление знаний команды",
-    "body": "комбинация sourcecraft cli claude code sequential протокол дочкиной источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также knowledge graphs docs technology combinations knowledge graphs agent orchestration stack docs technology combinations combinations agent orchestration stack multiagentnyy khaos reshenie auto router docs technology combinations combinations multiagentnyy khaos reshenie auto router adversarial multi agent code review docs technology combinations combinations adversarial multi agent code review кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme summary docs technology combinations synthesis tables summary",
+    "body": "комбинация sourcecraft cli claude code sequential протокол дочкиной источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также knowledge graphs technology combinations knowledge graphs agent orchestration stack agent orchestration stack multiagentnyy khaos reshenie auto router multiagentnyy khaos reshenie auto router adversarial multi agent code review adversarial multi agent code review кто ссылается этот документ components name glossary components name readme readme summary synthesis tables summary",
     "tags": [
       "orchestration",
       "collaboration"

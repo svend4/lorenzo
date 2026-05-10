@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/operationalized/04-recommendations.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/01-pluses-1-7.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:339f037c68ebd451",
   "payload": {
     "title": "Рекомендации: принять архитектуру как direction, не immediate plan",
     "summary": "Рекомендация 1: Принять архитектуру как direction, не immediate plan",
-    "body": "рекомендации принять архитектуру как direction immediate plan tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ внуковой комбинации которая operationalises концепт lorenzo проекты knowledge space mclaude firecrawl смотрите также anchor node habr scout docs lorenzo agent operationalized anchor node habr scout pluses docs lorenzo agent operationalized pluses conclusion deserves attention docs lorenzo agent operationalized conclusion deserves attention overview grandchild combination docs lorenzo agent operationalized overview grandchild combination",
+    "body": "рекомендации принять архитектуру как direction immediate plan tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ внуковой комбинации которая operationalises концепт lorenzo проекты knowledge space mclaude firecrawl смотрите также anchor node habr scout anchor node habr scout pluses pluses conclusion deserves attention conclusion deserves attention overview grandchild combination overview grandchild combination",
     "tags": [
       "rag",
       "orchestration",

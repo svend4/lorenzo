@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:e024c71558e2015c",
   "payload": {
     "title": "Альтернативные пути вне Anthropic",
     "summary": "Research fellowships. Mozilla Foundation (работают с темой AI + disability), Open Society Foundations, Robert Bosch Stiftung (DE), Schwarzkopf Stiftung, Atlantik-Brücke. Для academic-flavored работы — affiliate positions в DFKI (Saarbrücken/Berlin), Fraunhofer IAO, Alan Turing Institute (UK).",
-    "body": "альтернативные пути вне anthropic tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также stronger paths outside anthropic docs anthropic vacancies profile mapping integral final stronger paths outside anthropic primary fde docs anthropic vacancies profile mapping initial analysis primary fde reality check distribution gap docs anthropic vacancies profile mapping reanalysis reality check distribution gap revised anthropic mapping docs anthropic vacancies profile mapping reanalysis revised anthropic mapping",
+    "body": "альтернативные пути вне anthropic tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также stronger paths outside anthropic integral final stronger paths outside anthropic primary fde initial analysis primary fde reality check distribution gap reality check distribution gap revised anthropic mapping revised anthropic mapping",
     "tags": [
       "rag",
       "roadmap",

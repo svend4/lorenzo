@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/review-methodology/06-relation-existing-methodologies.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/10-checklist.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/12-appendix-a-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/review-methodology/09-limitations-open-questions.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:e53f3dc8c3e0bb97",
   "payload": {
     "title": "5. Связь с существующими методологиями",
     "summary": "Теоретическим прародителем является **N-version programming**",
-    "body": "связь существующими методологиями warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также связь существующими методологиями docs anthropic vacancies связь существующими методологиями checklist docs nautilus review methodology checklist appendix header warning docs nautilus review methodology appendix header warning limitations open questions docs nautilus review methodology limitations open questions",
+    "body": "связь существующими методологиями warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper трёхфазная методология review nautilus смотрите также связь существующими методологиями anthropic vacancies связь существующими методологиями checklist checklist appendix header warning appendix header warning limitations open questions limitations open questions",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/133-обратная-связь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/privacy-federation/03-what-this-gives-technically.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/multi-tier-architecture/01-strategic-significance.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/privacy-federation/02-two-tier-publication.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:d098d71606c5e38b",
   "payload": {
     "title": "Структурное сравнение: код vs гуманитарные документы",
     "summary": "Структурное сравнение: код vs гуманитарные документы",
-    "body": "структурное сравнение код гуманитарные документы источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога применение npp гуманитарным документам юридические социальные смотрите также обратная связь docs anthropic vacancies обратная связь what this gives technically docs nautilus privacy federation what this gives technically strategic significance docs nautilus multi tier architecture strategic significance two tier publication docs nautilus privacy federation two tier publication",
+    "body": "структурное сравнение код гуманитарные документы источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога применение npp гуманитарным документам юридические социальные смотрите также обратная связь anthropic vacancies обратная связь what this gives technically privacy federation what this gives technically strategic significance multi tier architecture strategic significance two tier publication privacy federation two tier publication",
     "tags": [
       "rag",
       "ingestion",

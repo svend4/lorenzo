@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/multi-tier-architecture/00-question-multi-tier.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:f248e0572f2b904d",
   "payload": {
     "title": "Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)",
     "summary": "Du hast gesagt: Вопрос такой Есть ещё такие вопросы репозитории про два про два вечно наутилусы Наутилус было такая Такой проект такой код Там было два ноль один Наутилус как …",
-    "body": "вопрос два наутилуса репозиториях svend pro nautilus источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ двух собственных проектов наутилус репозиториях svend pro yijing transformer смотрите также shell metaphor two projections docs anthropic vacancies nautilus pro analysis shell metaphor two projections question multi tier docs nautilus multi tier architecture question multi tier question camel nautilus docs anthropic vacancies nautilus camel question camel nautilus question can apply docs docs nautilus npp humanitarian extension question can apply docs",
+    "body": "вопрос два наутилуса репозиториях svend pro nautilus источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ двух собственных проектов наутилус репозиториях svend pro yijing transformer смотрите также shell metaphor two projections shell metaphor two projections question multi tier nautilus multi tier architecture question multi tier question camel nautilus nautilus camel question camel nautilus question can apply docs nautilus npp humanitarian extension question can apply docs",
     "tags": [
       "orchestration",
       "architecture",

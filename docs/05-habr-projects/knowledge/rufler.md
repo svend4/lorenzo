@@ -18,7 +18,7 @@ tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, 
 | Теги | — |
 | Упоминаний в репо | 691 |
 | Слой | orchestration |
-| Контакт | [@zodigancode](docs/contacts/zodigancode.md) |
+| Контакт | [@zodigancode](../../contacts/zodigancode.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-05-10_

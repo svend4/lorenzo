@@ -5,14 +5,47 @@
   "sources": [
     "docs/svyazi-2-0/components/security-routing-plane.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/ensembles/E-execution-plane.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/research-docs-liteparse.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:a4c23cffd78ecacf",
   "payload": {
     "title": "Security + routing plane",
     "summary": "Рантайм‑безопасность и бюджетный execution plane для агентных систем.",
-    "body": "security routing plane авторы dmitriila berriai mixaill maslennikovig проекты svyazi sentinel litellm auto router tool search смотрите также execution plane docs svyazi ensembles execution plane research docs liteparse docs svyazi components research docs liteparse rufler docs svyazi components rufler yodoca docs svyazi components yodoca кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name concepts docs glossary concepts readme docs svyazi components readme",
+    "body": "security routing plane авторы dmitriila berriai mixaill maslennikovig проекты svyazi sentinel litellm auto router tool search смотрите также execution plane ensembles execution plane research docs liteparse research docs liteparse rufler rufler yodoca yodoca кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
     "tags": [
       "orchestration",
       "security",

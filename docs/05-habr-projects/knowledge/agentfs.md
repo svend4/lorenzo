@@ -18,7 +18,7 @@ tags: [agentfs, obsidian, filesystem, agent, knowledge, persistent-state, securi
 | Теги | — |
 | Упоминаний в репо | 1384 |
 | Слой | knowledge/filesystem |
-| Контакт | [@kksudo](docs/contacts/kksudo.md) |
+| Контакт | [@kksudo](../../contacts/kksudo.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-05-10_

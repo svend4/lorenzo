@@ -5,14 +5,43 @@
   "sources": [
     "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/signals.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:ec50b67798e9c137",
   "payload": {
     "title": "Primary match — Forward Deployed Engineer, Applied AI (EMEA)",
     "summary": "Primary match: Forward Deployed Engineer, Applied AI (EMEA)",
-    "body": "primary match forward deployed engineer applied emea tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также secondary beneficial deployments docs anthropic vacancies profile mapping initial analysis secondary beneficial deployments quaternary developer education docs anthropic vacancies profile mapping initial analysis quaternary developer education practical ranking docs anthropic vacancies profile mapping initial analysis practical ranking signals docs anthropic vacancies signals кто ссылается этот документ readme docs anthropic vacancies profile mapping initial analysis readme components name docs glossary components name concepts docs glossary concepts",
+    "body": "primary match forward deployed engineer applied emea tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога маппинг профиля svend роли anthropic смотрите также secondary beneficial deployments secondary beneficial deployments quaternary developer education quaternary developer education practical ranking practical ranking signals signals кто ссылается этот документ readme readme components name glossary components name concepts glossary concepts",
     "tags": [
       "roadmap",
       "anthropic",

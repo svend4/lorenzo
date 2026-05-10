@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/security/privacy.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/security/budget-routing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/06-security-privacy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/voice-stack.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:a8d174c71c1a7c27",
   "payload": {
     "title": "Приватность: local-first by default",
     "summary": "",
-    "body": "приватность local first default warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты agentfs смотрите также budget routing docs svyazi security budget routing security privacy docs svyazi security privacy безопасность приватность бюджетный роутинг docs collaborations безопасность приватность бюджетный роутинг voice stack docs svyazi components voice stack",
+    "body": "приватность local first default warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений источник deep research report раздел безопасность приватность бюджетный роутинг проекты agentfs смотрите также budget routing budget routing security privacy svyazi security privacy безопасность приватность бюджетный роутинг collaborations безопасность приватность бюджетный роутинг voice stack components voice stack",
     "tags": [
       "security",
       "knowledge",

@@ -43,12 +43,12 @@
       "rel": "references"
     },
     {
-      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "to": "docs/contacts/kksudo.md",
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:9ec44d2060a18d84",
   "payload": {
     "title": "Обработка больших массивов документов — Полное руководство",

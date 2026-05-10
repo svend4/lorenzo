@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:d9f885dca07c4da9",
   "payload": {
     "title": "Section 6: Proposer's role и qualifications",
     "summary": "Section 6: Proposer's role и qualifications",
-    "body": "section proposer role qualifications источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section solution architecture docs anthropic vacancies beneficial deployments concept section solution architecture section timeliness docs anthropic vacancies beneficial deployments concept section timeliness section success metrics docs anthropic vacancies beneficial deployments concept section success metrics section risks mitigations docs anthropic vacancies beneficial deployments concept section risks mitigations",
+    "body": "section proposer role qualifications источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога variant написание concept document для anthropic beneficial deployments outreach смотрите также section solution architecture section solution architecture section timeliness section timeliness section success metrics section success metrics section risks mitigations section risks mitigations",
     "tags": [
       "anthropic",
       "collaboration"

@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:288ec396f0106674",
   "payload": {
     "title": "Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)",
     "summary": "Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME",
-    "body": "наутилус pro meta yijing transformer nautilusmome внутренняя архитектура нейросети источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ двух собственных проектов наутилус репозиториях svend pro yijing transformer смотрите также nautilus meta orchestrator docs anthropic vacancies nautilus pro analysis nautilus meta orchestrator интегральный анализ профиля svend docs anthropic vacancies интегральный анализ профиля svend question two nautiluses docs anthropic vacancies nautilus pro analysis question two nautiluses shell metaphor two projections docs anthropic vacancies nautilus pro analysis shell metaphor two projections",
+    "body": "наутилус pro meta yijing transformer nautilusmome внутренняя архитектура нейросети источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ двух собственных проектов наутилус репозиториях svend pro yijing transformer смотрите также nautilus meta orchestrator nautilus meta orchestrator интегральный анализ профиля svend anthropic vacancies интегральный анализ профиля svend question two nautiluses question two nautiluses shell metaphor two projections shell metaphor two projections",
     "tags": [
       "orchestration",
       "ingestion",

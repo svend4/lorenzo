@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/06-yazyki-kultura.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/02-tvoyo-proishozhdenie.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:c699a06f218c9e75",
   "payload": {
     "title": "Языки и культурные nuances (RU / DE / EN)",
     "summary": "",
-    "body": "языки культурные nuances источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твои языки культурные nuances docs anthropic vacancies твои языки культурные nuances tvoyo proishozhdenie docs lorenzo agent tvoyo proishozhdenie honestly znaesh docs lorenzo agent honestly znaesh geographic linguistic scope docs lorenzo agent specification geographic linguistic scope",
+    "body": "языки культурные nuances источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога системный промпт для lorenzo catalyst agent наименование этого репозитория смотрите также твои языки культурные nuances anthropic vacancies твои языки культурные nuances tvoyo proishozhdenie tvoyo proishozhdenie honestly znaesh honestly znaesh geographic linguistic scope specification geographic linguistic scope",
     "tags": [
       "roadmap",
       "anthropic",

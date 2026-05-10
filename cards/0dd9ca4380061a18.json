@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:517068d7033bddf6",
   "payload": {
     "title": "Минусы и риски как бизнеса",
     "summary": "5-7 лет до устойчивой монетизации (это не 18-месячный стартап)",
-    "body": "минусы риски как бизнеса tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также three entry points docs anthropic vacancies managed virtual company three entry points what docs anthropic vacancies managed virtual company what why natural for programmers docs anthropic vacancies mmorpg for programmers why natural for programmers why stronger than looks docs anthropic vacancies mmorpg for programmers why stronger than looks",
+    "body": "минусы риски как бизнеса tip этот документ описывает mvp подход начните него для быстрого прототипа источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также three entry points managed virtual company three entry points what managed virtual company what why natural for programmers why natural for programmers why stronger than looks why stronger than looks",
     "tags": [
       "rag",
       "architecture",

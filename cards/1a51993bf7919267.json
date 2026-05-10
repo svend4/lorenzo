@@ -5,14 +5,35 @@
   "sources": [
     "docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:395d0deab2032fc6",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/244-благодарности.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:0dd3e9b26d50967b",
   "payload": {
     "title": "AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения",
     "summary": "",
-    "body": "опосредованное представительство для недопредставленных экспертов уязвимых категорий населения сопроводительный документ похожие документы профессиональные коллеги агенты docs anthropic vacancies профессиональные коллеги агенты сходство инфраструктура для совместной интеллектуальной docs anthropic vacancies инфраструктура для совместной интеллектуальной сходство ingit docs anthropic vacancies with anthropic cowork platform как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего сходство смотрите также профессиональные коллеги агенты docs anthropic vacancies профессиональные коллеги агенты инфраструктура для совместной интеллектуальной docs anthropic vacancies инфраструктура для совместной интеллектуальной ingit docs anthropic vacancies with anthropic cowork platform как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего review methodology docs anthropic vacancies review methodology кто ссылается этот документ review methodology docs anthropic vacancies review methodology профессиональные коллеги агенты docs anthropic vacancies профессиональные коллеги агенты благодарности docs anthropic vacancies благодарности инфраструктура для совместной интеллектуальной docs anthropic vacancies инфраструктура для совместной интеллектуальной благодарности docs anthropic vacancies благодарности ingit как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего readme docs anthropic vacancies readme",
+    "body": "опосредованное представительство для недопредставленных экспертов уязвимых категорий населения сопроводительный документ похожие документы профессиональные коллеги агенты профессиональные коллеги агенты сходство инфраструктура для совместной интеллектуальной инфраструктура для совместной интеллектуальной сходство ingit with anthropic cowork platform как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего сходство смотрите также профессиональные коллеги агенты профессиональные коллеги агенты инфраструктура для совместной интеллектуальной инфраструктура для совместной интеллектуальной ingit with anthropic cowork platform как cowork интегрированная подложка рабочего docs anthropic vacancies ingit как cowork интегрированная подложка рабочего review methodology review methodology кто ссылается этот документ review methodology review methodology профессиональные коллеги агенты профессиональные коллеги агенты благодарности благодарности инфраструктура для совместной интеллектуальной инфраструктура для совместной интеллектуальной благодарности благодарности ingit как cowork интегрированная подложка рабочего ingit как cowork интегрированная подложка рабочего readme readme",
     "tags": [
       "architecture",
       "collaboration"

@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/outreach/first-contacts.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/outreach/message-template.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/07-mvp-planning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACTS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:4044cec717b70a45",
   "payload": {
     "title": "Первые контакты",
     "summary": "",
-    "body": "первые контакты tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex agentfs knowledge space mclaude yodoca ngt memory смотрите также план прототипа возможные контакты docs collaborations план прототипа возможные контакты message template docs svyazi outreach message template mvp planning docs svyazi mvp planning contacts docs contacts",
+    "body": "первые контакты tip этот документ описывает mvp подход начните него для быстрого прототипа источник deep research report раздел план прототипа возможные контакты проекты svyazi cardindex agentfs knowledge space mclaude yodoca ngt memory смотрите также план прототипа возможные контакты collaborations план прототипа возможные контакты message template message template mvp planning svyazi mvp planning contacts contacts",
     "tags": [
       "memory",
       "rag",

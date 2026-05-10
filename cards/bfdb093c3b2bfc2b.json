@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:23326d7d23499b44",
   "payload": {
     "title": "Почему эта идея сильнее, чем выглядит",
     "summary": "Геймификация работы — не новый концепт. Но обычно она делается плохо: очки, значки, leaderboard сверху поверх скучного tracker'а. Это косметика, которая не меняет сам труд. Ваша идея совершенно другая: не украшать работу игровыми элементами, а перенести работу внутрь игровой среды целиком, включая п",
-    "body": "почему эта идея сильнее чем выглядит источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также existing niche docs anthropic vacancies mmorpg for programmers existing niche question mmorpg for programmers docs anthropic vacancies mmorpg for programmers question mmorpg for programmers pluses business docs anthropic vacancies mmorpg for programmers pluses business minuses business docs anthropic vacancies mmorpg for programmers minuses business",
+    "body": "почему эта идея сильнее чем выглядит источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также existing niche existing niche question mmorpg for programmers question mmorpg for programmers pluses business pluses business minuses business minuses business",
     "tags": [
       "architecture",
       "anthropic"

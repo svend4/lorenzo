@@ -5,14 +5,43 @@
   "sources": [
     "docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/253-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:25b2a3095f0d6a57",
   "payload": {
     "title": "Appendix B: Sub-Agent Registry Schema (Sketch)",
     "summary": "For implementation, sub-agent registry entries might follow",
-    "body": "appendix sub agent registry schema sketch абстракт авто проблема appendix sub agent registry schema sketch for implementation sub agent registry entries might follow appendix sub agent registry schema sketch for implementation ключевые слова appendix anthropic vacancies example schema agent registry decision for implementation sub agent registry entries might follow похожие документы appendix decision tree for ingit docs anthropic vacancies with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters сходство appendix configuration template example docs anthropic vacancies appendix configuration template example сходство смотрите также appendix decision tree for ingit docs anthropic vacancies with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters appendix configuration template example docs anthropic vacancies appendix configuration template example appendix minimal working example docs anthropic vacancies appendix minimal working example table contents docs anthropic vacancies table contents кто ссылается этот документ table contents docs anthropic vacancies table contents table contents docs anthropic vacancies table contents appendix decision tree for ingit adopters docs anthropic vacancies appendix decision tree for ingit adopters readme docs anthropic vacancies readme",
+    "body": "appendix sub agent registry schema sketch абстракт авто проблема appendix sub agent registry schema sketch for implementation sub agent registry entries might follow appendix sub agent registry schema sketch for implementation ключевые слова appendix anthropic vacancies example schema agent registry decision for implementation sub agent registry entries might follow похожие документы appendix decision tree for ingit with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters сходство appendix configuration template example appendix configuration template example сходство смотрите также appendix decision tree for ingit with anthropic cowork platform adopters docs anthropic vacancies appendix decision tree for ingit adopters appendix configuration template example appendix configuration template example appendix minimal working example appendix minimal working example table contents table contents кто ссылается этот документ table contents table contents table contents table contents appendix decision tree for ingit adopters appendix decision tree for ingit adopters readme readme",
     "tags": [
       "rag",
       "architecture",

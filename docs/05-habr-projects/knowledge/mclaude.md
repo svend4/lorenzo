@@ -18,7 +18,7 @@ tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbo
 | Теги | — |
 | Упоминаний в репо | 676 |
 | Слой | knowledge/orchestration |
-| Контакт | [@AnastasiyaW](docs/contacts/anastasiyaw.md) |
+| Контакт | [@AnastasiyaW](../../contacts/anastasiyaw.md) |
 | Статус связи | не писали |
 
 _Обновлено: 2026-05-10_

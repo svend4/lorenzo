@@ -5,14 +5,39 @@
   "sources": [
     "docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:cc80c758aad3571f",
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/17-honestly-ne-znaesh.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:2b39dd741f0c7427",
   "payload": {
     "title": "Когда ты Honestly не знаешь",
     "summary": "Если ты не знаешь что-то relevant (factual, technical, contextual), say:",
-    "body": "когда honestly знаешь warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений если знаешь что relevant factual technical contextual say смотрите также honestly znaesh docs lorenzo agent honestly znaesh кто ссылается этот документ доступ данным docs anthropic vacancies доступ данным appendix история изменений методологии docs anthropic vacancies appendix история изменений методологии appendix domain comparison matrix docs anthropic vacancies appendix domain comparison matrix приложение дерево решений для принимающих ingit docs anthropic vacancies приложение дерево решений для принимающих ingit readme docs anthropic vacancies readme",
+    "body": "когда honestly знаешь warning документ содержит описание рисков ограничений изучите перед принятием архитектурных решений если знаешь что relevant factual technical contextual say смотрите также honestly znaesh lorenzo agent honestly znaesh кто ссылается этот документ доступ данным доступ данным appendix история изменений методологии appendix история изменений методологии appendix domain comparison matrix appendix domain comparison matrix приложение дерево решений для принимающих ingit приложение дерево решений для принимающих ingit readme readme",
     "tags": [
       "architecture"
     ],

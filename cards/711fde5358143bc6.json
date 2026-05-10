@@ -5,14 +5,31 @@
   "sources": [
     "docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/20-24-final.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/12-multi-agent-observability-stack.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:2f6ee6349fe7e6b6",
   "payload": {
     "title": "Комбинация 23: Security-First Code Review Pipeline",
     "summary": "CyberCodeReview (российский open-source, security-focused)",
-    "body": "комбинация security first code review pipeline источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также adversarial multi agent code review docs technology combinations combinations adversarial multi agent code review pydantic enforced legal workflows docs technology combinations combinations pydantic enforced legal workflows final docs technology combinations synthesis tables final multi agent observability stack docs technology combinations combinations multi agent observability stack",
+    "body": "комбинация security first code review pipeline источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также adversarial multi agent code review adversarial multi agent code review pydantic enforced legal workflows pydantic enforced legal workflows final synthesis tables final multi agent observability stack multi agent observability stack",
     "tags": [
       "orchestration"
     ],

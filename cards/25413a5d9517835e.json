@@ -23,9 +23,9 @@
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:d4abc74e64b1d1ce",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:f093813dabf3a0f7",
   "payload": {
     "title": "Прогресс MVP",
     "summary": "_Обновлено: 2026-05-10 (improve_progress_sync.py)_",

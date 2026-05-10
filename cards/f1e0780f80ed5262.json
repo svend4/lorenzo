@@ -5,14 +5,31 @@
   "sources": [
     "docs/01-svyazi/04-ensembles-overview.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:a4125eca4febb613",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/01-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:049b1ef1909d477e",
   "payload": {
     "title": "04 ensembles overview",
     "summary": "Ниже — не все теоретически возможные комбинации, а **пять ансамблей с максимальным приростом свойств при минимальном интеграционном риске**.",
-    "body": "абстракт авто проблема cite turn search контекст реального мира доступен агенту как tool как догадка self aware mcp закрывает проблемы часового пояса даты локации подход cite turn view контроль над retrieval слоем без фреймворкового тумана hybrid rag подход pdfplumber faiss idf проще дебажить дешевле держать локальном контуре результат cite turn view review без центрального bottleneck sequential протокол экспериментах автора даёт качество выше coordinator режима сильных моделях ключевые слова search svyazi first knowledge проект agentfs space rufler ниже все теоретически возможные комбинации пять ансамблей максимальным приростом свойств при минимальном интеграционном риске проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space docs svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы приоритетные ансамбли docs collaborations приоритетные ансамбли сходство карта найденных проектов паттернов docs collaborations карта найденных проектов паттернов сходство component catalog docs svyazi docs svyazi intro part component catalog сходство смотрите также приоритетные ансамбли docs collaborations приоритетные ансамбли карта найденных проектов паттернов docs collaborations карта найденных проектов паттернов component catalog docs svyazi docs svyazi intro part component catalog executive summary docs collaborations executive summary mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit",
+    "body": "абстракт авто проблема cite turn search контекст реального мира доступен агенту как tool как догадка self aware mcp закрывает проблемы часового пояса даты локации подход cite turn view контроль над retrieval слоем без фреймворкового тумана hybrid rag подход pdfplumber faiss idf проще дебажить дешевле держать локальном контуре результат cite turn view review без центрального bottleneck sequential протокол экспериментах автора даёт качество выше coordinator режима сильных моделях ключевые слова search svyazi first knowledge проект agentfs space rufler ниже все теоретически возможные комбинации пять ансамблей максимальным приростом свойств при минимальном интеграционном риске проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы приоритетные ансамбли collaborations приоритетные ансамбли сходство карта найденных проектов паттернов collaborations карта найденных проектов паттернов сходство component catalog component catalog сходство смотрите также приоритетные ансамбли collaborations приоритетные ансамбли карта найденных проектов паттернов collaborations карта найденных проектов паттернов component catalog component catalog executive summary collaborations executive summary mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском crdt conflict free replicated data type бесконфликтные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit",
     "tags": [
       "memory",
       "rag",

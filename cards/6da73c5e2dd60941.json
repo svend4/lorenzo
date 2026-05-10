@@ -5,14 +5,31 @@
   "sources": [
     "docs/02-anthropic-vacancies/79-4-passport-passport-md.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/82-7-portalentry-structure.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:c1bbd32d37ad79a0",
   "payload": {
     "title": "4. Passport (`passport.md`)",
     "summary": "Passport — human-readable описание Repo, расположенное в",
-    "body": "passport passport абстракт авто проблема passport passport passport passportmd результат recommended sections passport should содержать разделы описание предложения содержании repo объём количество единиц связей отображение правило проекции ключевые слова passport registry nautilus anthropic vacancies structure schema passports contents passport passport passport passportmd purpose purpose required structure required structure recommended sections recommended sections schema validation schema validation naming convention naming convention passport human readable описание repo расположенное похожие документы passport passport docs anthropic vacancies passport passport сходство registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство смотрите также passport passport docs anthropic vacancies passport passport registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json portalentry structure docs anthropic vacancies portalentry structure",
+    "body": "passport passport абстракт авто проблема passport passport passport passportmd результат recommended sections passport should содержать разделы описание предложения содержании repo объём количество единиц связей отображение правило проекции ключевые слова passport registry nautilus anthropic vacancies structure schema passports contents passport passport passport passportmd purpose purpose required structure required structure recommended sections recommended sections schema validation schema validation naming convention naming convention passport human readable описание repo расположенное похожие документы passport passport passport passport сходство registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство смотрите также passport passport passport passport registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json portalentry structure portalentry structure",
     "tags": [
       "architecture"
     ],

@@ -5,14 +5,19 @@
   "sources": [
     "docs/templates/protocol-spec.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/templates/rfc.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:377df087b3c196a6",
   "payload": {
     "title": "[Название протокола]",
     "summary": "`[draft | proposed | implemented | superseded]`",
-    "body": "название протокола status this document draft proposed implemented superseded этот документ спецификация протокола стиле ietf nautilus npp introduction motivation почему нужен этот протокол какой gap закрывает scope что входит что входит terminology термин определение endpoint adapter слова must should may rfc https datatracker ietf org doc html rfc registry discovery как участники находят друг друга registry url version passport identity метаданные участника compatibility levels level что означает read only read write локально federation взаимная видимость active collaboration adapter interface interface adapter query input query result ingest data document void portalentry атомарная единица данных portal entry uuid type card document fragment source payload timestamp consensus algorithm как достигается согласие если протокол распределённый query flow sequencediagram user portal query portal adapter translate adapter source native query source adapter raw result adapter portal portalentry portal user rendered privacy considerations pii обработка анонимизация право забвение security considerations угрозы митигации известные ограничения compatibility backward что меняется при upgrade with other protocols совместимость mcp openapi etc reference implementation ссылка код open questions references nautilus npp docs nautilus npp rfc appendix examples примеры запросов ответов appendix change log версия дата изменения initial draft создано смотрите также rfc docs templates rfc docs nautilus npp nautilus npp",
+    "body": "название протокола status this document draft proposed implemented superseded этот документ спецификация протокола стиле ietf nautilus npp introduction motivation почему нужен этот протокол какой gap закрывает scope что входит что входит terminology термин определение endpoint adapter слова must should may rfc https datatracker ietf org doc html rfc registry discovery как участники находят друг друга registry url version passport identity метаданные участника compatibility levels level что означает read only read write локально federation взаимная видимость active collaboration adapter interface interface adapter query input query result ingest data document void portalentry атомарная единица данных portal entry uuid type card document fragment source payload timestamp consensus algorithm как достигается согласие если протокол распределённый query flow sequencediagram user portal query portal adapter translate adapter source native query source adapter raw result adapter portal portalentry portal user rendered privacy considerations pii обработка анонимизация право забвение security considerations угрозы митигации известные ограничения compatibility backward что меняется при upgrade with other protocols совместимость mcp openapi etc reference implementation ссылка код open questions references nautilus npp docs nautilus npp rfc appendix examples примеры запросов ответов appendix change log версия дата изменения initial draft создано смотрите также rfc rfc docs nautilus npp nautilus npp",
     "tags": [
       "протокол",
       "спецификация"

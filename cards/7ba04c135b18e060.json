@@ -5,14 +5,31 @@
   "sources": [
     "docs/svyazi-2-0/ensembles/C-multi-agent-factory.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/04-ensembles-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/04-приоритетные-ансамбли.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/ai-factory.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:8b45507333ce19cd",
   "payload": {
     "title": "Ансамбль C — Spec‑driven multi‑agent factory",
     "summary": "A[Задача / spec] --> B[AI Factory / AIF Handoff]",
-    "body": "ансамбль spec driven multi agent factory источник deep research report проекты mclaude factory rufler autoresearch смотрите также ensembles overview docs svyazi ensembles overview приоритетные ансамбли docs collaborations приоритетные ансамбли research product flywheel docs svyazi ensembles research product flywheel factory docs svyazi components factory",
+    "body": "ансамбль spec driven multi agent factory источник deep research report проекты mclaude factory rufler autoresearch смотрите также ensembles overview svyazi ensembles overview приоритетные ансамбли collaborations приоритетные ансамбли research product flywheel research product flywheel factory components factory",
     "tags": [
       "orchestration",
       "self-improvement",

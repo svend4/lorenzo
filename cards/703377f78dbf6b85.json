@@ -5,14 +5,47 @@
   "sources": [
     "docs/svyazi-2-0/components/memnet.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
-  "payload_hash": "sha256:f3596ee5753d6ad4",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:257b9c0ba0cef5f5",
   "payload": {
     "title": "MemNet / memory-is-all-you-need",
     "summary": "Исследовательская активная память для трансформеров.",
-    "body": "memnet memory all you need источник хабр github citeturn view turn search turn search проекты svyazi memnet смотрите также ngt memory docs svyazi components ngt memory yodoca docs svyazi components yodoca rufler docs svyazi components rufler knowledge space docs svyazi components knowledge space кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name concepts docs glossary concepts readme docs svyazi components readme",
+    "body": "memnet memory all you need источник хабр github citeturn view turn search turn search проекты svyazi memnet смотрите также ngt memory ngt memory yodoca yodoca rufler rufler knowledge space knowledge space кто ссылается этот документ authors name glossary authors name components name glossary components name concepts glossary concepts readme readme",
     "tags": [
       "memory",
       "ingestion",

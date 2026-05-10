@@ -5,14 +5,23 @@
   "sources": [
     "docs/templates/meeting-notes.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
-  "payload_hash": "sha256:f28a196f9e6d4d58",
+  "edges": [
+    {
+      "to": "docs/templates/decision-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contact-outreach.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:ffd389a0e125a18b",
   "payload": {
     "title": "Встреча: [Тема]",
     "summary": "location: \"[Zoom|Telegram|Discord|in-person]\"",
-    "body": "встреча тема контекст зачем собрались какой вопрос обсуждали участники имя роль платформа имя роль github habr telegram повестка пункт пункт пункт обсуждение пункт что было сказано ключевые точки спорные моменты пункт принятые решения решение отв имя решение отв имя action items действие отв имя срок дата действие отв имя срок дата открытые вопросы следующая встреча дата дата тема тема создано смотрите также decision record docs templates decision record contact outreach docs templates contact outreach",
+    "body": "встреча тема контекст зачем собрались какой вопрос обсуждали участники имя роль платформа имя роль github habr telegram повестка пункт пункт пункт обсуждение пункт что было сказано ключевые точки спорные моменты пункт принятые решения решение отв имя решение отв имя action items действие отв имя срок дата действие отв имя срок дата открытые вопросы следующая встреча дата дата тема тема создано смотрите также decision record decision record contact outreach contact outreach",
     "tags": [
       "встреча"
     ],

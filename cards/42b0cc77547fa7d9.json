@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:2d7166812bdfd2aa",
   "payload": {
     "title": "Что с этим делать",
     "summary": "Три реалистичные траектории по возрастанию амбиции:",
-    "body": "что этим делать источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также three entry points docs anthropic vacancies managed virtual company three entry points stronger paths outside anthropic docs anthropic vacancies profile mapping integral final stronger paths outside anthropic minuses business docs anthropic vacancies mmorpg for programmers minuses business pluses model docs anthropic vacancies managed virtual company pluses model",
+    "body": "что этим делать источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также three entry points three entry points stronger paths outside anthropic profile mapping integral final stronger paths outside anthropic minuses business mmorpg for programmers minuses business pluses model pluses model",
     "tags": [
       "rag",
       "anthropic",

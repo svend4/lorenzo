@@ -5,14 +5,43 @@
   "sources": [
     "docs/svyazi-2-0/components/agentfs.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
-  "payload_hash": "sha256:19b4bdf5d99b7c26",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/knowledge-space.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:5e63e47a6bd82ef9",
   "payload": {
     "title": "AgentFS",
     "summary": "Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.",
-    "body": "agentfs источник хабр github citeturn view turn view turn view проекты svyazi agentfs смотрите также yodoca docs svyazi components yodoca memnet docs svyazi components memnet mclaude docs svyazi components mclaude knowledge space docs svyazi components knowledge space кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs svyazi components readme",
+    "body": "agentfs источник хабр github citeturn view turn view turn view проекты svyazi agentfs смотрите также yodoca yodoca memnet memnet mclaude mclaude knowledge space knowledge space кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
     "tags": [
       "knowledge",
       "ingestion",

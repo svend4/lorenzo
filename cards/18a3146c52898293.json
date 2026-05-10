@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:2489bd473c8e28a1",
   "payload": {
     "title": "Вопрос: MMORPG-RPG переделанная для программистов / технарей",
     "summary": "Du hast gesagt: Есть ещё один вариант который вы не просмотрели и просчитали он достаточно полуфантастический полусредневековую это ММО РПГ ну переделанная для переделанной дл…",
-    "body": "вопрос mmorpg rpg переделанная для программистов технарей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также why stronger than looks docs anthropic vacancies mmorpg for programmers why stronger than looks question rephrasing docs anthropic vacancies managed virtual company question rephrasing why natural for programmers docs anthropic vacancies mmorpg for programmers why natural for programmers existing niche docs anthropic vacancies mmorpg for programmers existing niche",
+    "body": "вопрос mmorpg rpg переделанная для программистов технарей источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога гипотеза mmorpg формата для программистов технарей как способ организовать distributed смотрите также why stronger than looks why stronger than looks question rephrasing managed virtual company question rephrasing why natural for programmers why natural for programmers existing niche existing niche",
     "tags": [
       "local-first",
       "architecture",

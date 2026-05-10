@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
-  "payload_hash": "sha256:6da9d1435c7f11d3",
+  "edges": [
+    {
+      "to": "docs/nautilus/npp-v1-0/17-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
+  "payload_hash": "sha256:68d9a21fc5c93f6e",
   "payload": {
     "title": "Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?",
     "summary": "Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?",
-    "body": "что этого сейчас кажется более ценным или какая своя комбинация источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога применение npp гуманитарным документам юридические социальные смотрите также appendix change log docs nautilus npp appendix change log what doesnt exist market docs nautilus npp humanitarian extension what doesnt exist market question habr link docs nautilus community discussions habr article reaction question habr link reference implementation docs nautilus npp reference implementation",
+    "body": "что этого сейчас кажется более ценным или какая своя комбинация источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога применение npp гуманитарным документам юридические социальные смотрите также appendix change log npp appendix change log what doesnt exist market what doesnt exist market question habr link community discussions habr article reaction question habr link reference implementation npp reference implementation",
     "tags": [
       "anthropic"
     ],

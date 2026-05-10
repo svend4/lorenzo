@@ -5,14 +5,43 @@
   "sources": [
     "docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/04-dochkina-sequential.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/analogues/02-related-projects.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/key-findings/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:22b999732aa7b737",
   "payload": {
     "title": "Источник данных и инфраструктурные кусочки",
     "summary": "В прошлом ответе я предложил «Svyazi 2.0 на хеббовском графе». Теперь схема проявляется конкретнее — каждый блок занят конкретным проектом:",
-    "body": "источник данных инфраструктурные кусочки источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi yodoca ngt memory memnet wikontic смотрите также svyazi block map docs habr unique projects key findings svyazi block map dochkina sequential docs habr unique projects key findings dochkina sequential related projects docs habr unique projects analogues related projects tinyml mcp skills docs habr unique projects hardware pairs tinyml mcp skills кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs habr unique projects key findings readme",
+    "body": "источник данных инфраструктурные кусочки источник mhtml снимок поиск уникальных проектов хабре для совместной разработки claude корень репозитория проекты svyazi yodoca ngt memory memnet wikontic смотрите также svyazi block map svyazi block map dochkina sequential dochkina sequential related projects analogues related projects tinyml mcp skills hardware pairs tinyml mcp skills кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
     "tags": [
       "memory",
       "orchestration",

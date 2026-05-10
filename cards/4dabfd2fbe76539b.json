@@ -5,22 +5,53 @@
   "sources": [
     "docs/02-anthropic-vacancies/111-4-условия-применимости.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/106-tl-dr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/12-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/122-глоссарий.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/31-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:6dc4da85b5d620f9",
   "payload": {
     "title": "4. Условия применимости",
     "summary": "Методология не универсальна. Она **уместна при следующих условиях**:",
-    "body": "условия применимости абстракт авто проблема условия применимости условия применимости подход когда оппонирует когда оппонирует методология универсальна ключевые слова когда применять anthropic vacancies условия применимости формальный workflow contents условия применимости условия применимости когда применять когда применять когда применять когда применять когда оппонирует когда оппонирует методология универсальна она уместна при следующих условиях похожие документы формальный workflow docs anthropic vacancies формальный workflow сходство смотрите также формальный workflow docs anthropic vacancies формальный workflow docs anthropic vacancies реализация проекте nautilus docs anthropic vacancies реализация проекте nautilus docs habr projects memory memnet конкретный план применения текущим документам docs anthropic vacancies конкретный план применения текущим документам кто ссылается этот документ docs anthropic vacancies content overview docs anthropic vacancies content overview глоссарий docs anthropic vacancies глоссарий content overview docs anthropic vacancies content overview readme docs anthropic vacancies readme",
+    "body": "условия применимости абстракт авто проблема условия применимости условия применимости подход когда оппонирует когда оппонирует методология универсальна ключевые слова когда применять anthropic vacancies условия применимости формальный workflow contents условия применимости условия применимости когда применять когда применять когда применять когда применять когда оппонирует когда оппонирует методология универсальна она уместна при следующих условиях похожие документы формальный workflow формальный workflow сходство смотрите также формальный workflow формальный workflow реализация проекте nautilus реализация проекте nautilus конкретный план применения текущим документам конкретный план применения текущим документам кто ссылается этот документ content overview content overview глоссарий глоссарий content overview content overview readme readme",
     "tags": [
       "memory",
       "architecture",
       "roadmap"
     ],
-    "projects": [
-      "MemNet"
-    ],
+    "projects": [],
     "wc": 292,
     "path": "docs/02-anthropic-vacancies/111-4-условия-применимости.md"
   }

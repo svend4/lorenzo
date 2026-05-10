@@ -5,14 +5,31 @@
   "sources": [
     "docs/habr-unique-projects/extra-examples/00-question-habr-examples.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/02-collaboration-partners.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:36f777c69d73e42a",
   "payload": {
     "title": "Вопрос: ещё примеры с Хабра по варианту D",
     "summary": "https://habr.com/ru/articles/1027724/ в конце статьи было написано как с помощью этой программы и ИИ нашлись два человека которые вместе организовали потом проект по разработке программного обеспечения нужно поискать на хабре подобные проекты уникальные как у автора статьи выше подобных авторов подо",
-    "body": "вопрос ещё примеры хабра варианту источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов проекты svyazi смотрите также svyazi andrey chuyan docs habr unique projects extra examples svyazi andrey chuyan collaboration partners docs habr projects collaboration partners workflow docs habr unique projects extra examples workflow overview grandchild combination docs lorenzo agent operationalized overview grandchild combination",
+    "body": "вопрос ещё примеры хабра варианту источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога расширенные примеры хабра варианту поиск ещё уникальных проектов проекты svyazi смотрите также svyazi andrey chuyan svyazi andrey chuyan collaboration partners habr projects collaboration partners workflow workflow overview grandchild combination lorenzo agent operationalized overview grandchild combination",
     "tags": [
       "ingestion",
       "anthropic",

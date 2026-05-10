@@ -5,22 +5,45 @@
   "sources": [
     "docs/02-anthropic-vacancies/108-2-формальный-workflow.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/106-tl-dr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/COMPLEXITY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
   "payload_hash": "sha256:3f3d82f776befcef",
   "payload": {
     "title": "2. Формальный workflow",
     "summary": "Фаза A                 Фаза B                 Фаза C",
-    "body": "формальный workflow содержание contents contents формальный workflow формальный workflow три фазы три фазы условия для применения методологии условия для применения методологии артефакты каждой фазы артефакты каждой фазы заголовок транзитного состояния заголовок транзитного состояния упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы формальный workflow три фазы фаза фаза фаза ветка ветка консолидация claude агент claude агент человек или agent независимая работа независимая работа явным контекстом обоих вариантов artifact artifact artifact final merge main как параллельные блоки with header warning условия для применения методологии методология применяется только критически важным документам где стоимость потери информации высока примеры nautilus status отчёт состоянии проекта implementation stage part технико концептуальный review portal protocol formal specification для routine документов readme adapter docs passport templates достаточно single pass review критерий применения если потеря одной вашей фразы документе может повлиять архитектурное решение grant application или academic reviewer применяйте трёхфазный метод артефакты каждой фазы фаза артефакт место хранения финальность doc draft ветка claude review xxx нет промежуточное doc draft ветка claude review yyy нет промежуточное merge doc header warning параллельными блоками main dupликацией нет transitional doc консолидированная main dupликаты удалены канонично заголовок транзитного состояния документы состоянии merged but not consolidated must начинаться следующего блока или эквивалентного статус документа сравнительный промежуточный вариант этот файл содержит параллельно сохранённые версии двух независимых анализов вариант ветка вариант ветка дубликаты таблиц параграфов намеренные для сохранения информации обоих независимых анализов финальная консолидированная версия будет создана после ручной верификации тех пор этот документ internal reference material предназначен для внешнего аудита без этого заголовка внешний читатель интерпретирует дубликаты как merge conflict error заголовком понимает осмысленную методологию похожие документы реализация проекте nautilus docs anthropic vacancies реализация проекте nautilus docs habr projects memory memnet сходство конкретный план применения текущим документам docs anthropic vacancies конкретный план применения текущим документам сходство docs anthropic vacancies сходство смотрите также реализация проекте nautilus docs anthropic vacancies реализация проекте nautilus docs habr projects memory memnet конкретный план применения текущим документам docs anthropic vacancies конкретный план применения текущим документам docs anthropic vacancies complexity docs complexity кто ссылается этот документ review methodology docs anthropic vacancies review methodology docs anthropic vacancies принципы консолидации фаза docs anthropic vacancies принципы консолидации фаза глоссарий docs anthropic vacancies глоссарий расписание фазы docs anthropic vacancies расписание фазы readme docs anthropic vacancies readme",
+    "body": "формальный workflow содержание contents contents формальный workflow формальный workflow три фазы три фазы условия для применения методологии условия для применения методологии артефакты каждой фазы артефакты каждой фазы заголовок транзитного состояния заголовок транзитного состояния упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы формальный workflow три фазы фаза фаза фаза ветка ветка консолидация claude агент claude агент человек или agent независимая работа независимая работа явным контекстом обоих вариантов artifact artifact artifact final merge main как параллельные блоки with header warning условия для применения методологии методология применяется только критически важным документам где стоимость потери информации высока примеры nautilus status отчёт состоянии проекта implementation stage part технико концептуальный review portal protocol formal specification для routine документов readme adapter docs passport templates достаточно single pass review критерий применения если потеря одной вашей фразы документе может повлиять архитектурное решение grant application или academic reviewer применяйте трёхфазный метод артефакты каждой фазы фаза артефакт место хранения финальность doc draft ветка claude review xxx нет промежуточное doc draft ветка claude review yyy нет промежуточное merge doc header warning параллельными блоками main dupликацией нет transitional doc консолидированная main dupликаты удалены канонично заголовок транзитного состояния документы состоянии merged but not consolidated must начинаться следующего блока или эквивалентного статус документа сравнительный промежуточный вариант этот файл содержит параллельно сохранённые версии двух независимых анализов вариант ветка вариант ветка дубликаты таблиц параграфов намеренные для сохранения информации обоих независимых анализов финальная консолидированная версия будет создана после ручной верификации тех пор этот документ internal reference material предназначен для внешнего аудита без этого заголовка внешний читатель интерпретирует дубликаты как merge conflict error заголовком понимает осмысленную методологию похожие документы реализация проекте nautilus реализация проекте nautilus сходство конкретный план применения текущим документам конкретный план применения текущим документам сходство сходство смотрите также реализация проекте nautilus реализация проекте nautilus конкретный план применения текущим документам конкретный план применения текущим документам complexity complexity кто ссылается этот документ review methodology review methodology принципы консолидации фаза принципы консолидации фаза глоссарий глоссарий расписание фазы расписание фазы readme readme",
     "tags": [
       "memory",
       "architecture",
       "roadmap"
     ],
-    "projects": [
-      "MemNet"
-    ],
+    "projects": [],
     "wc": 483,
     "path": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md"
   }

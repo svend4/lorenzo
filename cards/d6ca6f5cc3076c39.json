@@ -7,6 +7,10 @@
   ],
   "edges": [
     {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/57-native-format.md",
       "rel": "references"
     },
@@ -29,19 +33,15 @@
     {
       "to": "docs/02-anthropic-vacancies/43-history.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/37-native-format.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:8a59321c3f96ed94",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:c3083ef22335edb0",
   "payload": {
     "title": "Native Format",
     "summary": "\"q6_vertex\": \"binary string, 6 bits (e.g. '101100')\",",
-    "body": "native format структура концепта предположительно уточнить точный формат похожие документы native format native format сходство смотрите также native format native format bridges bridges angle perspective angle perspective author contact author contact упоминается angle perspective angle perspective bridges bridges for the curious philosophy for the curious philosophy history history native format native format native format native format вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы native format native format history history bridges bridges compatibility level compatibility level angle perspective angle perspective bridges bridges compatibility level compatibility level связанные документы native format native format angle perspective angle perspective bridges bridges native format native format history history content overview content overview compatibility level compatibility level abstract abstract кто ссылается этот документ abstract docs anthropic vacancies abstract native format docs anthropic vacancies native format author contact docs anthropic vacancies author contact angle perspective docs anthropic vacancies angle perspective compatibility level docs anthropic vacancies compatibility level for the curious philosophy docs anthropic vacancies for the curious philosophy native format docs anthropic vacancies native format readme docs anthropic vacancies readme",
+    "body": "native format структура концепта предположительно уточнить точный формат похожие документы native format native format сходство смотрите также native format native format bridges bridges angle perspective angle perspective author contact author contact упоминается angle perspective angle perspective bridges bridges for the curious philosophy for the curious philosophy history history native format native format native format native format вакансии anthropic анализ кластерам readme упоминается вакансии anthropic анализ кластерам readme связанные документы native format native format history history bridges bridges compatibility level compatibility level angle perspective angle perspective bridges bridges compatibility level compatibility level связанные документы native format native format angle perspective angle perspective bridges bridges native format native format history history content overview content overview compatibility level compatibility level abstract abstract кто ссылается этот документ abstract abstract native format native format author contact author contact angle perspective angle perspective compatibility level compatibility level for the curious philosophy for the curious philosophy native format native format readme readme",
     "tags": [
       "anthropic",
       "collaboration"

@@ -5,14 +5,43 @@
   "sources": [
     "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/15-19-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:f429b5bf57ce6f98",
   "payload": {
     "title": "Комбинация 15: Self-Consolidating Legal Corpus",
     "summary": "Crawl4AI (GitHub 60k+ stars, LLM-optimized web scraping, markdown generation)",
-    "body": "комбинация self consolidating legal corpus источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также distributed agent memory with graph docs technology combinations combinations distributed agent memory with graph legal document intelligence pipeline docs technology combinations combinations legal document intelligence pipeline crawl docling yodoca consolidator docs technology combinations combinations crawl docling yodoca consolidator llm powered legal corpus builder docs technology combinations combinations llm powered legal corpus builder кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme extended docs technology combinations synthesis tables extended",
+    "body": "комбинация self consolidating legal corpus источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также distributed agent memory with graph distributed agent memory with graph legal document intelligence pipeline legal document intelligence pipeline crawl docling yodoca consolidator crawl docling yodoca consolidator llm powered legal corpus builder llm powered legal corpus builder кто ссылается этот документ components name glossary components name readme readme extended synthesis tables extended",
     "tags": [
       "memory",
       "knowledge",

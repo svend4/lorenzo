@@ -5,9 +5,26 @@
   "sources": [
     "docs/WORD_FREQ.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
+  "edges": [
+    {
+      "to": "docs/KEYWORD_INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SENTIMENT.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/STATS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEALTH.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:4c3ef67a900f0960",
   "payload": {
     "title": "Частотный анализ слов",

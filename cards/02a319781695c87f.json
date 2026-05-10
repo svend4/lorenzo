@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/double-triangle-architecture/10-references.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/147-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/11-dhlab-documents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/09-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-0/13-reference-implementation.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:a686f55965363799",
   "payload": {
     "title": "References",
     "summary": "",
-    "body": "references источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration смотрите также references docs anthropic vacancies references dhlab documents docs lorenzo agent dhlab documents acknowledgments docs nautilus double triangle architecture acknowledgments reference implementation docs nautilus npp reference implementation",
+    "body": "references источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога paper the double triangle architecture for human collaboration смотрите также references anthropic vacancies references dhlab documents lorenzo agent dhlab documents acknowledgments acknowledgments reference implementation npp reference implementation",
     "tags": [
       "roadmap",
       "anthropic",

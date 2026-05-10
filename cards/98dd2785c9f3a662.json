@@ -5,14 +5,31 @@
   "sources": [
     "docs/lorenzo-agent/phased-deployment/08-current-session-poc.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/naming/03-dhlab-umbrella.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/04-recommendations.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:a0ada26794a41a12",
   "payload": {
     "title": "Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)",
     "summary": "Что мы можем делать прямо сейчас в этой сессии (Уровень 0)",
-    "body": "что можем делать прямо сейчас уровень параллельная подготовка уровню tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network проекты cardindex смотрите также lorenzo catalyst agent глубокая проработка специфи docs anthropic vacancies lorenzo catalyst agent глубокая проработка специфи final note experiment docs anthropic vacancies final note experiment dhlab umbrella docs lorenzo agent naming dhlab umbrella recommendations docs lorenzo agent operationalized recommendations",
+    "body": "что можем делать прямо сейчас уровень параллельная подготовка уровню tip документ содержит практические рекомендации лучшие практики источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога пятиуровневая phased deployment lorenzo ручного режима полноценному network проекты cardindex смотрите также lorenzo catalyst agent глубокая проработка специфи anthropic vacancies lorenzo catalyst agent глубокая проработка специфи final note experiment anthropic vacancies final note experiment dhlab umbrella naming dhlab umbrella recommendations operationalized recommendations",
     "tags": [
       "knowledge",
       "local-first",

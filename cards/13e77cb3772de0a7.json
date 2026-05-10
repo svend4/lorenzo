@@ -5,14 +5,31 @@
   "sources": [
     "docs/nautilus/npp-v1-1/08-q6-space.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/83-8-q6-space-normative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/07-portal-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/npp-v1-1/13-rest-api.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:1863185e4e5ce18c",
   "payload": {
     "title": "8. Q6 Space (Normative)",
     "summary": "Q6 — 6-мерное бинарное пространство {0,1}⁶. Содержит 64 вершины.",
-    "body": "space normative important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также space normative docs anthropic vacancies space normative portal entry docs nautilus npp portal entry adr first class docs nautilus npp adr first class rest api docs nautilus npp rest api",
+    "body": "space normative important ключевой документ для понимания архитектуры рекомендуется прочитать первую очередь источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога nautilus portal protocol rfc написанный совместно claude смотрите также space normative anthropic vacancies space normative portal entry portal entry adr first class adr first class rest api rest api",
     "tags": [
       "anthropic"
     ],

@@ -5,14 +5,35 @@
   "sources": [
     "docs/02-anthropic-vacancies/40-bridges.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:63ed2d84e275767d",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/60-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/50-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:4d0fab199085a599",
   "payload": {
     "title": "Bridges",
-    "summary": "глубиной концепта в Q6-графе знаний `[pro2](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact mapping:",
-    "body": "bridges contents bridges bridges info pro info docs anthropic vacancies интегральный анализ профиля svend pro info meta info docs anthropic vacancies интегральный анализ профиля svend meta способ обращения через мост способ обращения через мост level concept depth уровень info коррелирует похожие документы bridges docs anthropic vacancies bridges сходство bridges docs anthropic vacancies bridges сходство compatibility level docs anthropic vacancies compatibility level сходство смотрите также bridges docs anthropic vacancies bridges bridges docs anthropic vacancies bridges compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level кто ссылается этот документ compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level native format docs anthropic vacancies native format compatibility level docs anthropic vacancies compatibility level history docs anthropic vacancies history adr first class protocol concept docs anthropic vacancies adr first class protocol concept readme docs anthropic vacancies readme",
+    "summary": "глубиной концепта в Q6-графе знаний `[pro2](01-интегральный-анализ-профиля-svend4.md)`. [? уточнить exact mapping:",
+    "body": "bridges contents bridges bridges info pro info интегральный анализ профиля svend pro info meta info интегральный анализ профиля svend meta способ обращения через мост способ обращения через мост level concept depth уровень info коррелирует похожие документы bridges bridges сходство bridges bridges сходство compatibility level compatibility level сходство смотрите также bridges bridges bridges bridges compatibility level compatibility level compatibility level compatibility level кто ссылается этот документ compatibility level compatibility level compatibility level compatibility level native format native format compatibility level compatibility level history history adr first class protocol concept adr first class protocol concept readme readme",
     "tags": [
       "memory",
       "anthropic",

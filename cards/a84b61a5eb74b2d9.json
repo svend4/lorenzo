@@ -5,14 +5,47 @@
   "sources": [
     "docs/GLOSSARY.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:f38f07d511a7517e",
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/03-local-first.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/MINDMAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/GRAPH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/NETWORK.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONTACT_PRIORITY.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:157936016d446558",
   "payload": {
     "title": "Глоссарий проектов",
     "summary": "Все проекты, упоминаемые в документах, с количеством файлов.",
-    "body": "глоссарий проектов все проекты упоминаемые документах количеством файлов проект упоминается файлах factory aif handoff agentfs auto router autoresearch automerge cardindex firecrawl graph rag hybrid rag legal rag litellm liteparse memnet memory ngt memory openwhispr rlm toolkit rufler sentinel self aware mcp sequential svyazi tool search whisper wikontic yjs yodoca yttri agent memory mcp knowledge space mclaude смотрите также mindmap docs mindmap graph docs graph network docs network contact priority docs contact priority",
+    "body": "глоссарий проектов все проекты упоминаемые документах количеством файлов проект упоминается файлах factory aif handoff agentfs auto router autoresearch automerge cardindex firecrawl graph rag hybrid rag legal rag litellm liteparse memnet memory ngt memory openwhispr rlm toolkit rufler sentinel self aware mcp sequential svyazi tool search whisper wikontic yjs yodoca yttri agent memory mcp knowledge space mclaude смотрите также mindmap mindmap graph graph network network contact priority contact priority",
     "tags": [],
     "projects": [
       "Svyazi",

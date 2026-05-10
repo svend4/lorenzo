@@ -5,14 +5,43 @@
   "sources": [
     "docs/svyazi-2-0/components/knowledge-space.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
-  "payload_hash": "sha256:fd211ff50e0258c9",
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/mclaude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/rufler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/authors-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
+  "payload_hash": "sha256:68d72200d09b704b",
   "payload": {
     "title": "knowledge-space",
     "summary": "Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.",
-    "body": "knowledge space автор sonia black anastasiyaw проекты svyazi knowledge space смотрите также mclaude docs svyazi components mclaude rufler docs svyazi components rufler memnet docs svyazi components memnet yodoca docs svyazi components yodoca кто ссылается этот документ authors name docs glossary authors name components name docs glossary components name readme docs svyazi components readme",
+    "body": "knowledge space автор sonia black anastasiyaw проекты svyazi knowledge space смотрите также mclaude mclaude rufler rufler memnet memnet yodoca yodoca кто ссылается этот документ authors name glossary authors name components name glossary components name readme readme",
     "tags": [
       "knowledge",
       "ingestion",

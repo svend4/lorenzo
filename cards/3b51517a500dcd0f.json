@@ -5,14 +5,43 @@
   "sources": [
     "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/glossary/components-by-name.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/synthesis-tables/25-30-extended.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:1ed91cec20ab2b5d",
   "payload": {
     "title": "Комбинация 28: Pydantic-Enforced Legal Workflows",
     "summary": "Pydantic validation (structured LLM outputs)",
-    "body": "комбинация pydantic enforced legal workflows источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также legal document intelligence pipeline docs technology combinations combinations legal document intelligence pipeline llm powered legal corpus builder docs technology combinations combinations llm powered legal corpus builder meta programmatic legal template generator docs technology combinations combinations meta programmatic legal template generator security first code review pipeline docs technology combinations combinations security first code review pipeline кто ссылается этот документ components name docs glossary components name readme docs technology combinations combinations readme extended docs technology combinations synthesis tables extended",
+    "body": "комбинация pydantic enforced legal workflows источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория смотрите также legal document intelligence pipeline legal document intelligence pipeline llm powered legal corpus builder llm powered legal corpus builder meta programmatic legal template generator meta programmatic legal template generator security first code review pipeline security first code review pipeline кто ссылается этот документ components name glossary components name readme readme extended synthesis tables extended",
     "tags": [
       "rag",
       "orchestration",

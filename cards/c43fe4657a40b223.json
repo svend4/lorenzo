@@ -5,9 +5,26 @@
   "sources": [
     "docs/nautilus/double-triangle-architecture/11-glossary.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/133-обратная-связь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/representative-agent-layer-en/12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/nautilus/double-triangle-architecture/08-call-to-action.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:2aa9778905e52130",
   "payload": {
     "title": "Appendix A: Glossary",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:6e38a1e9ade44a48",
   "payload": {
     "title": "Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)",
     "summary": "Что могло бы сработать в вашей формулировке",
-    "body": "три варианта staffing agency research consortium managed distributed virtual company источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также polymath project tao comparison docs anthropic vacancies managed virtual company polymath project tao comparison current implementations docs anthropic vacancies managed virtual company current implementations existing landscape docs anthropic vacancies managed virtual company existing landscape question rephrasing docs anthropic vacancies managed virtual company question rephrasing",
+    "body": "три варианта staffing agency research consortium managed distributed virtual company источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога анализ идеи managed distributed virtual company как альтернативы найму одного человека смотрите также polymath project tao comparison polymath project tao comparison current implementations current implementations existing landscape existing landscape question rephrasing question rephrasing",
     "tags": [
       "orchestration",
       "architecture",

@@ -5,14 +5,43 @@
   "sources": [
     "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/266-13-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:a6b4a62c1093894d",
   "payload": {
     "title": "12. Call for Collaboration",
     "summary": "This paper opens questions that require multi-stakeholder",
-    "body": "call for collaboration содержание contents contents call for collaboration call for collaboration for practitioners for practitioners for curators and domain experts for curators and domain experts for software engineers and architects for software engineers and architects for researchers for researchers for foundation funders for foundation funders for policymakers for policymakers упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы call for collaboration this paper opens questions that require multi stakeholder engagement for practitioners tell how your practice combines specializations what configuration sub agents would actually serve your work what would make composite agents valuable versus merely complex pilot participation invited particularly for the sgb advocate colleague pilot for curators and domain experts sub agent registry development needs curated knowledge across many narrow specializations domain experts willing help develop sub agents their specialties particularly compensated through foundation funding would substantially accelerate deployment for software engineers and architects coordinator infrastructure substantial engineering work open source contributions reference implementations welcome particular needs sub agent registry standards and protocols configuration management interfaces disagreement detection and presentation systems audit and observability tools for researchers empirical studies composite configuration patterns would illuminate questions raised section particular value configuration clustering analysis effectiveness comparison composite monolithic agents long term effects professional development cross cultural deployment outcomes for foundation funders composite skills agents represent higher leverage infrastructure investment than monolithic professional colleague agents more flexible support across diverse practitioner needs more scalable across adjacent professions more aligned with how mastery actually develops more resilient changes any single component funding sub agent development investing foundational infrastructure that supports many configurations across many practitioners for policymakers regulatory frameworks for professional practice will need address composite architectures specifically questions about liability professional responsibility and quality standards apply differently when many specialized sub agents contribute outputs engagement during regulatory development helps ensure frameworks match actual technology architecture похожие документы call for collaboration docs anthropic vacancies call for collaboration сходство open questions docs anthropic vacancies open questions сходство integration with okwf infrastructure docs anthropic vacancies integration with okwf infrastructure сходство смотрите также call for collaboration docs anthropic vacancies call for collaboration closing docs anthropic vacancies closing open questions docs anthropic vacancies open questions integration with okwf infrastructure docs anthropic vacancies integration with okwf infrastructure кто ссылается этот документ open knowledge work foundation docs anthropic vacancies open knowledge work foundation professional colleague agents docs anthropic vacancies professional colleague agents the economics profession wide replication docs anthropic vacancies the economics profession wide replication pilot proposal sgb advocate colleague docs anthropic vacancies pilot proposal sgb advocate colleague risks specific composite architectures docs anthropic vacancies risks specific composite architectures closing docs anthropic vacancies closing infrastructure for collaborative intellectual docs anthropic vacancies infrastructure for collaborative intellectual readme docs anthropic vacancies readme",
+    "body": "call for collaboration содержание contents contents call for collaboration call for collaboration for practitioners for practitioners for curators and domain experts for curators and domain experts for software engineers and architects for software engineers and architects for researchers for researchers for foundation funders for foundation funders for policymakers for policymakers упоминается упоминается упоминается упоминается связанные документы связанные документы связанные документы связанные документы call for collaboration this paper opens questions that require multi stakeholder engagement for practitioners tell how your practice combines specializations what configuration sub agents would actually serve your work what would make composite agents valuable versus merely complex pilot participation invited particularly for the sgb advocate colleague pilot for curators and domain experts sub agent registry development needs curated knowledge across many narrow specializations domain experts willing help develop sub agents their specialties particularly compensated through foundation funding would substantially accelerate deployment for software engineers and architects coordinator infrastructure substantial engineering work open source contributions reference implementations welcome particular needs sub agent registry standards and protocols configuration management interfaces disagreement detection and presentation systems audit and observability tools for researchers empirical studies composite configuration patterns would illuminate questions raised section particular value configuration clustering analysis effectiveness comparison composite monolithic agents long term effects professional development cross cultural deployment outcomes for foundation funders composite skills agents represent higher leverage infrastructure investment than monolithic professional colleague agents more flexible support across diverse practitioner needs more scalable across adjacent professions more aligned with how mastery actually develops more resilient changes any single component funding sub agent development investing foundational infrastructure that supports many configurations across many practitioners for policymakers regulatory frameworks for professional practice will need address composite architectures specifically questions about liability professional responsibility and quality standards apply differently when many specialized sub agents contribute outputs engagement during regulatory development helps ensure frameworks match actual technology architecture похожие документы call for collaboration call for collaboration сходство open questions open questions сходство integration with okwf infrastructure integration with okwf infrastructure сходство смотрите также call for collaboration call for collaboration closing closing open questions open questions integration with okwf infrastructure integration with okwf infrastructure кто ссылается этот документ open knowledge work foundation open knowledge work foundation professional colleague agents professional colleague agents the economics profession wide replication the economics profession wide replication pilot proposal sgb advocate colleague pilot proposal sgb advocate colleague risks specific composite architectures risks specific composite architectures closing closing infrastructure for collaborative intellectual infrastructure for collaborative intellectual readme readme",
     "tags": [
       "rag",
       "anthropic"

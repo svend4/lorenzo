@@ -5,14 +5,23 @@
   "sources": [
     "docs/templates/agent-spec.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/templates/project-component.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/protocol-spec.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:e5c6384b82f78e9d",
   "payload": {
     "title": "Спецификация агента: [Название]",
     "summary": "`[representative | professional-colleague | composite-skills | catalyst | companion | other]`",
-    "body": "спецификация агента название тип агента representative professional colleague composite skills catalyst companion other docs nautilus nautilus для типологии назначение предложения какую задачу решает агент принципал кого представляет одного человека имя команду организацию сообщество полномочия что может делать имени принципала действие действие запреты чего делает запрет запрет скилы агента скилл откуда когда применяет скилл docs claude skills триггер скилл tools плагины mcp сервер инструменты зачем lorenzo search search docs поиск контекста память тип памяти хранилище объём срок жизни working context tokens сессия episodic дней semantic search index json весь корпус вечно procedural скилы decision boundary класс решения сам агент подтверждением только человек чтение docs edit файла push remote финансовые связь авторами failure modes при недостатке контекста действие при противоречивых данных действие при недоступности mcp действие при превышении бюджета действие метрики качества агента helpfulness действий полезных honesty утверждений верных harmlessness инцидентов harm безопасность auth как агент аутентифицируется audit log где хранится журнал действий rollback как откатить решение агента связанные документы docs nautilus representative agent layer docs lorenzo agent создано смотрите также project component docs templates project component protocol spec docs templates protocol spec",
+    "body": "спецификация агента название тип агента representative professional colleague composite skills catalyst companion other docs nautilus nautilus для типологии назначение предложения какую задачу решает агент принципал кого представляет одного человека имя команду организацию сообщество полномочия что может делать имени принципала действие действие запреты чего делает запрет запрет скилы агента скилл откуда когда применяет скилл docs claude skills триггер скилл tools плагины mcp сервер инструменты зачем lorenzo search search docs поиск контекста память тип памяти хранилище объём срок жизни working context tokens сессия episodic дней semantic search index json весь корпус вечно procedural скилы decision boundary класс решения сам агент подтверждением только человек чтение docs edit файла push remote финансовые связь авторами failure modes при недостатке контекста действие при противоречивых данных действие при недоступности mcp действие при превышении бюджета действие метрики качества агента helpfulness действий полезных honesty утверждений верных harmlessness инцидентов harm безопасность auth как агент аутентифицируется audit log где хранится журнал действий rollback как откатить решение агента связанные документы docs nautilus representative agent layer docs lorenzo agent создано смотрите также project component project component protocol spec protocol spec",
     "tags": [
       "агент",
       "спецификация"

@@ -5,14 +5,31 @@
   "sources": [
     "docs/02-anthropic-vacancies/07-2-terminology.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:35c3b12c46544e85",
+  "edges": [
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/67-о-проекте.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:755b34346b84e1f3",
   "payload": {
     "title": "2. Terminology",
     "summary": "Имеет уникальное имя (например, `svend4`).",
-    "body": "terminology абстракт авто проблема terminology ecosystem набор репозиториев участвующих одной федерации результат consensus результат сопоставления найденных концептов между несколькими repos ключевые слова nautilus registry anthropic vacancies terminology native repos проекте ecosystem набор репозиториев участвующих одной федерации похожие документы terminology docs anthropic vacancies terminology сходство registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство проекте docs anthropic vacancies проекте сходство смотрите также terminology docs anthropic vacancies terminology registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json проекте docs anthropic vacancies проекте registry nautilus docs habr projects memory memnet json docs anthropic vacancies registry nautilus json кто ссылается этот документ compatibility level docs anthropic vacancies compatibility level compatibility level docs anthropic vacancies compatibility level проекте docs anthropic vacancies проекте abstract docs anthropic vacancies abstract mcp extension informative docs anthropic vacancies mcp extension informative readme docs anthropic vacancies readme",
+    "body": "terminology абстракт авто проблема terminology ecosystem набор репозиториев участвующих одной федерации результат consensus результат сопоставления найденных концептов между несколькими repos ключевые слова nautilus registry anthropic vacancies terminology native repos проекте ecosystem набор репозиториев участвующих одной федерации похожие документы terminology terminology сходство registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json сходство проекте проекте сходство смотрите также terminology terminology registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json проекте проекте registry nautilus habr projects memory memnet json docs anthropic vacancies registry nautilus json кто ссылается этот документ compatibility level compatibility level compatibility level compatibility level проекте проекте abstract abstract mcp extension informative mcp extension informative readme readme",
     "tags": [
       "architecture",
       "collaboration"

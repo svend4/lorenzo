@@ -7,6 +7,14 @@
   ],
   "edges": [
     {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
       "rel": "references"
     },
@@ -25,23 +33,15 @@
     {
       "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
       "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
-      "rel": "references"
-    },
-    {
-      "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
-      "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T16:03:32+00:00",
-  "updated_at": "2026-05-10T16:03:32+00:00",
-  "payload_hash": "sha256:fdca92e5f34938ac",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
+  "payload_hash": "sha256:9264c53e75ee8382",
   "payload": {
     "title": "18. Reference Implementation",
     "summary": "Reference НЕ является нормативной. Альтернативные implementations",
-    "body": "reference implementation github com svend nautilus https github com svend nautilus похожие документы reference implementation reference implementation сходство portal protocol portal protocol сходство sdk contract informative sdk contract informative сходство смотрите также reference implementation reference implementation author contact author contact portal protocol portal protocol portal protocol portal protocol упоминается status this document status this document status this document status this document reference implementation reference implementation sdk contract informative sdk contract informative appendix change log appendix change log appendix references appendix references author contact author contact author contact author contact author contact author contact content overview content overview history history passports info passports info вакансии anthropic анализ кластерам readme доступные инструменты доступные инструменты about about проекте проекте упоминается вакансии anthropic анализ кластерам readme связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document content overview content overview appendix references appendix references versioning policy versioning policy связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document appendix references appendix references passports info passports info author contact author contact кто ссылается этот документ portal protocol docs anthropic vacancies portal protocol status this document docs anthropic vacancies status this document appendix change log docs anthropic vacancies appendix change log appendix references docs anthropic vacancies appendix references доступные инструменты docs anthropic vacancies доступные инструменты примеры запросов claude docs anthropic vacancies примеры запросов claude appendices docs anthropic vacancies appendices versioning policy docs anthropic vacancies versioning policy ещё",
+    "body": "reference implementation github com svend nautilus https github com svend nautilus похожие документы reference implementation reference implementation сходство portal protocol portal protocol сходство sdk contract informative sdk contract informative сходство смотрите также reference implementation reference implementation author contact author contact portal protocol portal protocol portal protocol portal protocol упоминается status this document status this document status this document status this document reference implementation reference implementation sdk contract informative sdk contract informative appendix change log appendix change log appendix references appendix references author contact author contact author contact author contact author contact author contact content overview content overview history history passports info passports info вакансии anthropic анализ кластерам readme доступные инструменты доступные инструменты about about проекте проекте упоминается вакансии anthropic анализ кластерам readme связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document content overview content overview appendix references appendix references versioning policy versioning policy связанные документы reference implementation reference implementation author contact author contact author contact author contact status this document status this document status this document status this document appendix references appendix references passports info passports info author contact author contact кто ссылается этот документ portal protocol portal protocol status this document status this document appendix change log appendix change log appendix references appendix references доступные инструменты доступные инструменты примеры запросов claude примеры запросов claude appendices appendices versioning policy versioning policy ещё",
     "tags": [
       "rag",
       "collaboration"

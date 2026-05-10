@@ -11,6 +11,10 @@
       "rel": "references"
     },
     {
+      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "rel": "references"
+    },
+    {
       "to": "docs/05-habr-projects/memory/yodoca.md",
       "rel": "references"
     },
@@ -23,17 +27,25 @@
       "rel": "references"
     },
     {
-      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "to": "docs/05-habr-projects/memory/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/04-structuring.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/PROCESSING_GUIDE.md",
       "rel": "references"
     }
   ],
-  "created_at": "2026-05-10T17:08:16+00:00",
-  "updated_at": "2026-05-10T17:08:16+00:00",
+  "created_at": "2026-05-10T17:29:24+00:00",
+  "updated_at": "2026-05-10T17:29:24+00:00",
   "payload_hash": "sha256:91827ddf9ceaa6ac",
   "payload": {
     "title": "NGT[^ngt] Memory: ассоциативный граф",
     "summary": "ассоциативные связи в персистентной памяти LLM",
-    "body": "ngt ngt memory ассоциативный граф абстракт авто проблема романова уже решена задача как мерить качество извлечённой структуры над которой чуян ещё думает результат автор лингвист вмк мгу аспирантура фокус лингвистика даёт типизацию отношений масштабируется сотни страниц llm понимает семантику без формальной структуры ключевые слова projects memory collaboration связи памяти svyazi wikontic ассоциативные статус параметр значение теги упоминаний репо слой memory контакт spbmolot contacts spbmolot статус связи писали обновлено ассоциативные связи персистентной памяти llm llm проекты svyazi svyazi ngt memory похожие документы wikontic docs habr projects knowledge wikontic сходство смотрите также yodoca консолидация забывание yodoca agent memory mcp memory agent memory mcp memnet исследовательская память memnet wikontic семантический граф knowledge wikontic llm large language model большая языковая модель ngt oss проект ассоциативный граф памяти bsl svyazi главный проект экосистема компонентов кто ссылается этот документ wikontic docs habr projects knowledge wikontic readme docs habr projects memory readme structuring docs processing guide structuring processing guide docs processing guide processing guide",
+    "body": "ngt ngt memory ассоциативный граф абстракт авто проблема романова уже решена задача как мерить качество извлечённой структуры над которой чуян ещё думает результат автор лингвист вмк мгу аспирантура фокус лингвистика даёт типизацию отношений масштабируется сотни страниц llm понимает семантику без формальной структуры ключевые слова projects memory collaboration связи памяти svyazi wikontic ассоциативные статус параметр значение теги упоминаний репо слой memory контакт spbmolot contacts spbmolot статус связи писали обновлено ассоциативные связи персистентной памяти llm llm проекты svyazi svyazi ngt memory похожие документы wikontic knowledge wikontic сходство смотрите также yodoca консолидация забывание yodoca agent memory mcp memory agent memory mcp memnet исследовательская память memnet wikontic семантический граф knowledge wikontic llm large language model большая языковая модель ngt oss проект ассоциативный граф памяти bsl svyazi главный проект экосистема компонентов кто ссылается этот документ wikontic knowledge wikontic readme readme structuring processing guide structuring processing guide processing guide processing guide",
     "tags": [
       "memory",
       "ingestion",

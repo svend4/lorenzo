@@ -5,14 +5,31 @@
   "sources": [
     "docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:33+00:00",
-  "updated_at": "2026-05-10T16:03:33+00:00",
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:25+00:00",
+  "updated_at": "2026-05-10T17:29:25+00:00",
   "payload_hash": "sha256:4268ff960cfbc27e",
   "payload": {
     "title": "Existing infrastructure stack",
     "summary": "Hermes (Nous Research) — personal autonomous agent",
-    "body": "existing infrastructure stack источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование смотрите также final tier ranking docs anthropic vacancies extra collaborator findings final tier ranking section solution architecture docs anthropic vacancies beneficial deployments concept section solution architecture similarity multi platform docs anthropic vacancies hermes comparison similarity multi platform personal multi agent hub docs habr unique projects extra examples personal multi agent hub",
+    "body": "existing infrastructure stack источник mhtml снимок вакансии anthropic кластерам claude корень репозитория раздел диалога вариант продолжение поиска уникальных проектов финальное ранжирование смотрите также final tier ranking final tier ranking section solution architecture beneficial deployments concept section solution architecture similarity multi platform hermes comparison similarity multi platform personal multi agent hub habr unique projects extra examples personal multi agent hub",
     "tags": [
       "anthropic"
     ],

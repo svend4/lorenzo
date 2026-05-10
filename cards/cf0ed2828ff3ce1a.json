@@ -5,14 +5,51 @@
   "sources": [
     "docs/01-svyazi/07-mvp-planning.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:31+00:00",
-  "updated_at": "2026-05-10T16:03:31+00:00",
-  "payload_hash": "sha256:4044fd167e1a1b09",
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/09-architectural-gaps.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/11-integration-contracts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/12-roadmap.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/13-contacts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/01-svyazi/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/COMPONENT_MATRIX.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:23+00:00",
+  "updated_at": "2026-05-10T17:29:23+00:00",
+  "payload_hash": "sha256:5bda33d698c7235a",
   "payload": {
     "title": "07 mvp planning",
     "summary": "Наиболее рациональный прототип — **не собирать всё сразу**, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым эпизодам, не теряя доказуемость и локальность*. Для этого достаточно минимального набора из пяти сло",
-    "body": "абстракт авто проблема cite turn view turn view turn search комментарии статьям issues discussions репозиториях knowledge space mclaude подход если нет всё равно спасибо публикацию она уже повлияла архитектуру прототипа результат cite turn view turn search turn search многоагентный хаос раньше пользы рой даёт выгоду только после появления handoff lock чётких спецификаций начинать mclaude ключевые слова search svyazi memory проект knowledge cardindex agentfs yodoca наиболее рациональный прототип собирать всё сразу доказать одну центральную способность система находит объясняет кандидатные коллаборации свободным описаниям документам речевым проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space docs svyazi component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы план прототипа возможные контакты docs collaborations план прототипа возможные контакты сходство архитектурные зазоры которые важнее новых инструме docs collaborations архитектурные зазоры которые важнее новых инструме сходство architectural gaps docs svyazi docs svyazi intro part architectural gaps сходство смотрите также architectural gaps docs svyazi docs svyazi intro part architectural gaps integration contracts docs svyazi docs svyazi intro part integration contracts roadmap docs svyazi docs svyazi intro part roadmap mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель pii personally identifiable information персональные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit bsl business source license коммерческая лицензия открытым кодом кто ссылается этот документ contacts docs svyazi contacts readme docs svyazi readme component matrix docs component matrix progress docs progress report docs report",
+    "body": "абстракт авто проблема cite turn view turn view turn search комментарии статьям issues discussions репозиториях knowledge space mclaude подход если нет всё равно спасибо публикацию она уже повлияла архитектуру прототипа результат cite turn view turn search turn search многоагентный хаос раньше пользы рой даёт выгоду только после появления handoff lock чётких спецификаций начинать mclaude ключевые слова search svyazi memory проект knowledge cardindex agentfs yodoca наиболее рациональный прототип собирать всё сразу доказать одну центральную способность система находит объясняет кандидатные коллаборации свободным описаниям документам речевым проекты svyazi svyazi cardindex cardindex agentfs agentfs knowledge space component catalog knowledge space mclaude factory rufler rufler liteparse похожие документы план прототипа возможные контакты collaborations план прототипа возможные контакты сходство архитектурные зазоры которые важнее новых инструме collaborations архитектурные зазоры которые важнее новых инструме сходство architectural gaps architectural gaps сходство смотрите также architectural gaps architectural gaps integration contracts integration contracts roadmap roadmap mcp model context protocol протокол для инструментов rag retrieval augmented generation генерация поиском llm large language model большая языковая модель pii personally identifiable information персональные данные cardindex oss проект индекс знаний карточках mit agentfs oss проект файловая система для агентов mit yodoca oss проект система памяти консолидацией apache ngt oss проект ассоциативный граф памяти bsl sentinel oss проект безопасность allowlist для mcp rufler oss проект оркестратор агентов svyazi главный проект экосистема компонентов knowledge space oss проект база знаний карточек mit bsl business source license коммерческая лицензия открытым кодом кто ссылается этот документ contacts contacts readme readme component matrix component matrix progress progress report report",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,31 @@
   "sources": [
     "docs/technology-combinations/combinations/24-mega-integration-full-stack.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/technology-combinations/synthesis-tables/20-24-final.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/19-multi-agent-observability-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:adbd1085ae96baf5",
   "payload": {
     "title": "Комбинация 24: MEGA-INTEGRATION: Full Stack",
     "summary": "Combining ALL 24 combinations + Russian OSS:",
-    "body": "комбинация mega integration full stack источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex ngt memory auto router yjs смотрите также final docs technology combinations synthesis tables final multi agent observability platform docs technology combinations combinations multi agent observability platform local first agent development environment docs technology combinations combinations local first agent development environment ultimate legal docs technology combinations mega stacks ultimate legal",
+    "body": "комбинация mega integration full stack источник mhtml снимок комбинирование технологий для новых свойств claude корень репозитория проекты svyazi cardindex ngt memory auto router yjs смотрите также final synthesis tables final multi agent observability platform multi agent observability platform local first agent development environment local first agent development environment ultimate legal mega stacks ultimate legal",
     "tags": [
       "memory",
       "rag",

@@ -5,14 +5,19 @@
   "sources": [
     "docs/templates/legal-case.md"
   ],
-  "edges": [],
-  "created_at": "2026-05-10T16:03:34+00:00",
-  "updated_at": "2026-05-10T16:03:34+00:00",
+  "edges": [
+    {
+      "to": "docs/templates/decision-record.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T17:29:27+00:00",
+  "updated_at": "2026-05-10T17:29:27+00:00",
   "payload_hash": "sha256:62523f683ce5bae6",
   "payload": {
     "title": "Юридический кейс: [Aktenzeichen]",
     "summary": "",
-    "body": "юридический кейс aktenzeichen идентификация параметр значение aktenzeichen тип sozialgericht verwaltungsgericht stage antrag bescheid widerspruch klage berufung filed дата deadline дата status open closed appeal стороны роль кто antragsteller ger имя beh rde beklagte имя хронология дата событие документ yyyy antrag eingereicht файл yyyy bescheid erhalten файл yyyy widerspruch файл предмет спора краткое описание сути предложений применимые нормы xxx sgb пояснение zzz ausl nderg пояснение аргументы antragsteller ger аргумент аргумент beh rde beklagte контр аргумент контр аргумент прецеденты решение суд дата релевантность bsg bsg как относится текущий статус что происходит сейчас кто следующий должен ходить открытые вопросы действия action отв имя срок дата action связанные кейсы docs legal cases other создано смотрите также docs svyazi components legal rag decision record docs templates decision record",
+    "body": "юридический кейс aktenzeichen идентификация параметр значение aktenzeichen тип sozialgericht verwaltungsgericht stage antrag bescheid widerspruch klage berufung filed дата deadline дата status open closed appeal стороны роль кто antragsteller ger имя beh rde beklagte имя хронология дата событие документ yyyy antrag eingereicht файл yyyy bescheid erhalten файл yyyy widerspruch файл предмет спора краткое описание сути предложений применимые нормы xxx sgb пояснение zzz ausl nderg пояснение аргументы antragsteller ger аргумент аргумент beh rde beklagte контр аргумент контр аргумент прецеденты решение суд дата релевантность bsg bsg как относится текущий статус что происходит сейчас кто следующий должен ходить открытые вопросы действия action отв имя срок дата action связанные кейсы docs legal cases other создано смотрите также docs svyazi components legal rag decision record decision record",
     "tags": [
       "legal",
       "case"
