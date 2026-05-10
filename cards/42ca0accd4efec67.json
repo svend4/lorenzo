@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:42ca0accd4efec67",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/01-synthesis.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/02-collaboration-partners.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/wikontic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:31:36+00:00",
+  "updated_at": "2026-05-10T14:31:36+00:00",
+  "payload_hash": "sha256:817fb7b7f978f30b",
+  "payload": {
+    "title": "Синтез: как проекты собираются вместе",
+    "summary": "> Синтезировал архитектурные находки для расширенной системы памяти",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 263,
+    "path": "docs/05-habr-projects/01-synthesis.md"
+  }
+}

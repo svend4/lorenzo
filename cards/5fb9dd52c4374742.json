@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:5fb9dd52c4374742",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/05-habr-projects/knowledge/wikontic.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/ngt-memory.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/yodoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/02-collaboration-partners.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/01-synthesis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/knowledge/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:31:36+00:00",
+  "updated_at": "2026-05-10T14:31:36+00:00",
+  "payload_hash": "sha256:c78e074da54c2e60",
+  "payload": {
+    "title": "Wikontic: семантический граф",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 385,
+    "path": "docs/05-habr-projects/knowledge/wikontic.md"
+  }
+}

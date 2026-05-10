@@ -25,11 +25,22 @@ import re
 import subprocess
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 ROOT    = Path(__file__).parent.parent
 SCRIPTS = ROOT / "scripts"
-CUSTOM_RECIPES_FILE = SCRIPTS / "recipes.json"
+CUSTOM_RECIPES_FILE  = SCRIPTS / "recipes.json"
+HISTORY_FILE         = SCRIPTS / "recipe_history.json"
+
+# Scripts that don't accept --dry-run (safe to run without it, output only to stdout)
+NO_DRY_RUN = {
+    "improve_health.py", "improve_metrics.py", "improve_stats.py",
+    "improve_scoring.py", "improve_entities.py", "improve_version_diff.py",
+    "improve_content_gaps.py", "improve_broken_links.py", "improve_validate.py",
+    "improve_self.py", "improve_benchmark.py", "improve_watch.py",
+    "improve_watcher.py", "improve_workflow_v2.py",
+}
 
 # ─────────────────────────────────────────────────────────────────────
 # Встроенные рецепты
@@ -409,14 +420,84 @@ def cmd_info(name: str) -> None:
 
 
 # ─────────────────────────────────────────────────────────────────────
+# История запусков
+# ─────────────────────────────────────────────────────────────────────
+
+def _load_history() -> list[dict]:
+    if HISTORY_FILE.exists():
+        try:
+            return json.loads(HISTORY_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            return []
+    return []
+
+
+def _save_history(entry: dict) -> None:
+    history = _load_history()
+    history.append(entry)
+    history = history[-200:]  # хранить последние 200 записей
+    HISTORY_FILE.write_text(
+        json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
+def cmd_stats(name: str = "") -> None:
+    history = _load_history()
+    if not history:
+        print("  История пуста. Запустите рецепт: --run <name>")
+        return
+
+    if name:
+        entries = [e for e in history if e.get("recipe") == name]
+        if not entries:
+            print(f"  Нет истории для рецепта «{name}»")
+            return
+        print(f"\n  История рецепта «{name}» ({len(entries)} запусков):\n")
+        for e in entries[-10:]:
+            ts   = e.get("started_at", "?")[:16]
+            mode = "[dry]" if e.get("dry_run") else "     "
+            ok   = e.get("ok_count", 0)
+            tot  = e.get("total_count", 0)
+            sec  = e.get("total_sec", 0)
+            print(f"  {ts}  {mode}  {ok}/{tot} ✅  {sec:.0f}с")
+        return
+
+    # Общая статистика
+    from collections import Counter
+    counts = Counter(e.get("recipe") for e in history)
+    last_run = {}
+    for e in history:
+        r = e.get("recipe", "")
+        if r:
+            last_run[r] = e.get("started_at", "")[:16]
+
+    print(f"\n  История запусков ({len(history)} всего):\n")
+    print(f"  {'Рецепт':<28} {'Запусков':>9}  {'Последний запуск'}")
+    print(f"  {'─'*28}  {'─'*9}  {'─'*16}")
+    for recipe, count in counts.most_common(20):
+        print(f"  {recipe:<28} {count:>9}  {last_run.get(recipe, '?')}")
+    print()
+
+
+# ─────────────────────────────────────────────────────────────────────
 # Выполнение рецепта
 # ─────────────────────────────────────────────────────────────────────
+
+def _has_dry_run_flag(script_path: Path) -> bool:
+    """Проверяет, поддерживает ли скрипт --dry-run."""
+    if script_path.name in NO_DRY_RUN:
+        return False
+    try:
+        src = script_path.read_text(encoding="utf-8")
+        return "--dry-run" in src
+    except Exception:
+        return False
+
 
 def cmd_run(name: str, dry_run: bool) -> None:
     recipes = _all_recipes()
     if name not in recipes:
         print(f"  ❌ Рецепт не найден: {name}")
-        # Попробовать нечёткий поиск
         close = [n for n in recipes if name in n or n in name]
         if close:
             print(f"  Похожие: {', '.join(close)}")
@@ -424,8 +505,9 @@ def cmd_run(name: str, dry_run: bool) -> None:
 
     r = recipes[name]
     scripts = r["scripts"]
+    started_at = datetime.now().isoformat(timespec="seconds")
 
-    mode = "[dry-run]" if dry_run else ""
+    mode = "[dry-run — скрипты запускаются с --dry-run]" if dry_run else ""
     print(f"\n{'═'*60}")
     print(f"  Рецепт: {name}  {mode}")
     print(f"  {r['description']}")
@@ -441,15 +523,20 @@ def cmd_run(name: str, dry_run: bool) -> None:
             results.append((script, False, 0.0))
             continue
 
-        cmd = [sys.executable, str(path)] + args
-        if dry_run and "--dry-run" not in args:
-            cmd.append("--dry-run")
+        cmd = [sys.executable, str(path)] + list(args)
 
-        print(f"  {i}/{len(scripts)} ▶  {script}  {' '.join(args)}", end="", flush=True)
-        if dry_run:
-            print("  [пропуск в dry-run режиме]")
-            results.append((script, True, 0.0))
-            continue
+        # В dry-run режиме: добавляем --dry-run если скрипт его поддерживает
+        if dry_run and "--dry-run" not in args:
+            if _has_dry_run_flag(path):
+                cmd.append("--dry-run")
+                label = "[dry-run]"
+            else:
+                label = "[read-only, нет --dry-run]"
+        else:
+            label = ""
+
+        args_display = " ".join(args) + (f" {label}" if label else "")
+        print(f"  {i}/{len(scripts)} ▶  {script}  {args_display}", flush=True)
 
         t0 = time.time()
         try:
@@ -458,11 +545,15 @@ def cmd_run(name: str, dry_run: bool) -> None:
             )
             elapsed = time.time() - t0
             ok = proc.returncode == 0
-            status = "✅" if ok else "⚠"
-            print(f"  {status}  ({elapsed:.1f}с)")
+            status = "  ✅" if ok else "  ⚠"
+            print(f"{status}  ({elapsed:.1f}с)")
+            # Показываем первые 5 строк вывода
+            out_lines = [l for l in (proc.stdout or "").split("\n") if l.strip()][:5]
+            for line in out_lines:
+                print(f"      {line}")
             if not ok and proc.stderr:
                 for line in proc.stderr.strip().split("\n")[-3:]:
-                    print(f"      {line}")
+                    print(f"      ⚠ {line}")
             results.append((script, ok, elapsed))
         except subprocess.TimeoutExpired:
             print("  ⏱ TIMEOUT (120с)")
@@ -471,16 +562,23 @@ def cmd_run(name: str, dry_run: bool) -> None:
             print(f"  ❌ {e}")
             results.append((script, False, 0.0))
 
-    # Итог
-    total = time.time()
-    ok_count = sum(1 for _, ok, _ in results if ok)
+    ok_count  = sum(1 for _, ok, _ in results if ok)
     total_sec = sum(t for _, _, t in results)
+
     print(f"\n{'─'*60}")
-    if dry_run:
-        print(f"  [dry-run] {len(scripts)} скриптов в рецепте «{name}»")
-        print(f"  Запуск без --dry-run применит изменения.\n")
-    else:
-        print(f"  Итог: {ok_count}/{len(scripts)} успешно  |  {total_sec:.1f}с суммарно\n")
+    mode_label = "dry-run" if dry_run else "выполнен"
+    print(f"  Итог [{mode_label}]: {ok_count}/{len(scripts)} успешно  |  {total_sec:.1f}с\n")
+
+    # Сохраняем в историю
+    _save_history({
+        "recipe":      name,
+        "started_at":  started_at,
+        "dry_run":     dry_run,
+        "ok_count":    ok_count,
+        "total_count": len(scripts),
+        "total_sec":   round(total_sec, 1),
+        "scripts":     [s for s, _, _ in results],
+    })
 
 
 # ─────────────────────────────────────────────────────────────────────
@@ -544,12 +642,14 @@ def main() -> None:
                         help="Добавить пользовательский рецепт")
     parser.add_argument("--delete",  metavar="ИМЯ",
                         help="Удалить пользовательский рецепт")
+    parser.add_argument("--stats",   nargs="?", const="", metavar="ИМЯ",
+                        help="История запусков (опц. имя рецепта для деталей)")
     parser.add_argument("--desc",    metavar="ТЕКСТ",
                         help="Описание рецепта (для --add)")
     parser.add_argument("--scripts", nargs="+", metavar="СКРИПТ",
                         help="Список скриптов (для --add)")
     parser.add_argument("--dry-run", action="store_true",
-                        help="Показать план без запуска скриптов")
+                        help="Запустить скрипты с --dry-run (показывает план каждого)")
     parser.add_argument("--group",   metavar="ТЕМА",
                         help="Фильтр по первому тегу (для --list)")
     args = parser.parse_args()
@@ -562,6 +662,8 @@ def main() -> None:
         cmd_run(args.run, dry_run=args.dry_run)
     elif args.info:
         cmd_info(args.info)
+    elif args.stats is not None:
+        cmd_stats(name=args.stats)
     elif args.add:
         if not args.desc or not args.scripts:
             print("  ❌ Для --add нужны --desc и --scripts")

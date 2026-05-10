@@ -1,0 +1,8 @@
+card_id,card_type,state,title,path,wc,edges,tags
+sha256:211559110a051804,doc,raw,Авторы и контакты,docs/05-habr-projects/02-collaboration-partners.md,279,0,knowledge|ingestion|collaboration
+sha256:372bafbfb0972e2a,doc,raw,Q&A: 05-habr-projects,docs/05-habr-projects/QA.md,309,0,knowledge|ingestion|architecture|roadmap|anthropic|collaboration
+sha256:42ca0accd4efec67,doc,raw,Синтез: как проекты собираются вместе,docs/05-habr-projects/01-synthesis.md,263,6,architecture|roadmap
+sha256:5fb9dd52c4374742,doc,raw,Wikontic: семантический граф,docs/05-habr-projects/knowledge/wikontic.md,385,6,ingestion|collaboration
+sha256:71f9eb7be6254cc6,project,raw,Yodoca[^yodoca]: консолидация и забывание,docs/05-habr-projects/memory/yodoca.md,379,7,memory|ingestion|architecture|collaboration
+sha256:81e514237f50a17e,project,raw,MemNet: исследовательская память,docs/05-habr-projects/memory/memnet.md,7264,0,memory|rag|orchestration|security|knowledge|ingestion|local-first|architecture|roadmap|anthropic|self-improvement|collaboration
+sha256:9f344e8d21059cee,doc,raw,NGT[^ngt] Memory: ассоциативный граф,docs/05-habr-projects/memory/ngt-memory.md,382,0,memory|ingestion|collaboration

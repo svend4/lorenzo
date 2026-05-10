@@ -1,0 +1,16 @@
+[
+  {
+    "recipe": "scripts-audit",
+    "started_at": "2026-05-10T14:27:11",
+    "dry_run": true,
+    "ok_count": 3,
+    "total_count": 4,
+    "total_sec": 121.0,
+    "scripts": [
+      "improve_self.py",
+      "improve_self.py",
+      "improve_self.py",
+      "improve_benchmark.py"
+    ]
+  }
+]
