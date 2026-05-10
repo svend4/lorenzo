@@ -217,8 +217,13 @@ def main():
     all_os_errors: list[dict] = []
     total_fixed = 0
 
+    # Пути-зеркала (obsidian, confluence) пропускаем — они auto-generated
+    MIRROR_DIRS = {"obsidian", "confluence"}
+
     for f in sorted(scan_root.rglob("*.md")):
         if f.name in {"BROKEN_LINKS.md", "SUMMARIES.md"}:
+            continue
+        if any(part in MIRROR_DIRS for part in f.relative_to(DOCS).parts):
             continue
         broken, os_errs = check_links(f, anchor_map)
         if FIX and broken:

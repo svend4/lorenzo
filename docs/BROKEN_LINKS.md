@@ -1,6 +1,6 @@
 # Сломанные внутренние ссылки
 
-**Найдено:** 207 проблем, 12 пропущено (длинный путь)
+**Найдено:** 113 проблем, 4 пропущено (длинный путь)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
@@ -74,9 +74,9 @@
 | `docs/OUTLINE.md` | Lorenzo Agent | `#lorenzo-agent` | якорь не найден |
 | `docs/OUTLINE.md` | Meta Scripting | `#meta-scripting` | якорь не найден |
 
-_...и ещё 157 проблем_
+_...и ещё 63 проблем_
 
-## Пропущено из-за длинного пути (12)
+## Пропущено из-за длинного пути (4)
 
 _Markdown-ссылки с путём > 240 символов — OS не может проверить._
 
@@ -90,22 +90,6 @@ _Markdown-ссылки с путём > 240 символов — OS не може
   _→ 01-интегральны` | путь слишком длинный (406 симв.) |
 | `docs/TABLES.md` | `nautilus/review-methodology/00-tldr | 23 |
 | **DSL` | путь слишком длинный (726 симв.) |
-| `docs/obsidian/ABBREVIATIONS.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
-| ` | путь слишком длинный (740 симв.) |
-| `docs/obsidian/ACTION_ITEMS.md` | `../docs/01-svyazi/03-comp  
-  _→ 01-интегральный-а` | путь слишком длинный (3079 симв.) |
-| `docs/obsidian/DECISIONS.md` | `../docs/01-svyazi/01-executive-sum  
-  _→ 08-concl` | путь слишком длинный (1285 симв.) |
-| `docs/obsidian/DECISIONS.md` | `../docs/05-habr-projects/mem  
-  _→ 01-интегральны` | путь слишком длинный (415 симв.) |
-| `docs/obsidian/RISK_REGISTER.md` | `docs/04-ai-collaborations/06… |
-|  | l Search + ба` | путь слишком длинный (393 симв.) |
-| `docs/obsidian/TABLES.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
-| ` | путь слишком длинный (740 симв.) |
-| `docs/obsidian/TABLES.md` | `../docs/05- |  |
-|  | ния к IMPLEMENTATION_STAGE_P` | путь слишком длинный (345 симв.) |
-| `docs/obsidian/TABLES.md` | `../docs/01-svyazi/03-co |  |
-|  | которые берут не` | путь слишком длинный (318 симв.) |
 
 ## Внешние URL (251 уникальных)
 
