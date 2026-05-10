@@ -1,15 +1,6 @@
 # Skill Dashboard
 
-<!-- summary -->
-> _Лог метрик не найден (.claude/skill_metrics.jsonl)._
-
----
-<!-- tags: self-improvement -->
-
-
-
-
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-10_
 
 _Лог метрик не найден (.claude/skill_metrics.jsonl)._
 

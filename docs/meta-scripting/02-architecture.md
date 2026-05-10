@@ -1,5 +1,10 @@
 # Метаскриптинг — Часть 2: Архитектура
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Как устроен скрипт, который читает другие скрипты.
 
@@ -160,3 +165,14 @@ python scripts/improve_self.py --enrich --apply     # применяет
 ```
 
 Никогда не меняет чужой файл без явного `--apply`.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-synthesis](docs/meta-scripting/05-synthesis.md)
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [132-planned-v0-2-0](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
+

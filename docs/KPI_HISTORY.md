@@ -37,3 +37,14 @@ _Запускать регулярно для получения трендов.
 - [TABLES](docs/TABLES.md)
 - [kpi-snapshot](docs/templates/kpi-snapshot.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](docs/DIGEST_WEEKLY.md)
+- [HEALTH](docs/HEALTH.md)
+- [.md](docs/autofilled/components/.md)
+- [118-appendix-a-шаблон-для-header-warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
+

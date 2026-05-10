@@ -129,3 +129,14 @@ scripts/
 человек: "принять"          →  Claude применяет  →  стоп
                                (не идёт дальше без следующего запроса)
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-architecture](docs/meta-scripting/02-architecture.md)
+- [01-concept](docs/meta-scripting/01-concept.md)
+- [METHODOLOGY](docs/METHODOLOGY.md)
+- [03-catalog](docs/meta-scripting/03-catalog.md)
+

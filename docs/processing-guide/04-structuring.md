@@ -1,5 +1,10 @@
 # Обработка больших массивов — Часть 4: Структурирование
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 > Как превратить набор текстовых файлов в связанную, навигируемую базу знаний.
 
 ---
@@ -228,4 +233,15 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 - [01-overview](docs/processing-guide/01-overview.md)
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+- [research-summary](docs/autofilled/research-summary.md)
+- [ONBOARDING](docs/ONBOARDING.md)
 

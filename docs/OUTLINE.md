@@ -1,589 +1,12 @@
 # Outline базы знаний
 
-<!-- summary -->
-> Секций: **18** | Файлов: **1182**
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Legal RAG
+_Обновлено: 2026-05-10_
 
----
-
-<!-- toc -->
-## Содержание
-
-- [Содержание](#содержание)
-- [📁 Docs (`docs/`)](#docs-docs)
-  - [[Словарь аббревиатур и сокращений](docs/ABBREVIATIONS.md)](#словарь-аббревиатур-и-сокращенийdocsabbreviationsmd)
-  - [[Action Items, риски и решения](docs/ACTION_ITEMS.md)](#action-items-риски-и-решенияdocsaction_itemsmd)
-  - [[Callout-блоки](docs/ALERTS.md)](#callout-блокиdocsalertsmd)
-  - [[Авторы и коллаборации](docs/AUTHORS.md)](#авторы-и-коллаборацииdocsauthorsmd)
-  - [[Автозаполненные шаблоны](docs/AUTOFILLED.md)](#автозаполненные-шаблоныdocsautofilledmd)
-  - [[Индекс обратных ссылок](docs/BACKLINKS.md)](#индекс-обратных-ссылокdocsbacklinksmd)
-  - [[CHANGELOG](docs/CHANGELOG.md)](#changelogdocschangelogmd)
-  - [[Changelog (авто)](docs/CHANGELOG_AUTO.md)](#changelog-автоdocschangelog_automd)
-  - [[Кластеры тематически близких файлов](docs/CLUSTERS.md)](#кластеры-тематически-близких-файловdocsclustersmd)
-  - [[Code-блоки репозитория](docs/CODE_BLOCKS.md)](#code-блоки-репозиторияdocscode_blocksmd)
-  - [[Сравнение с предыдущим коммитом](docs/COMPARE.md)](#сравнение-с-предыдущим-коммитомdocscomparemd)
-  - [[Оценка читаемости документов](docs/COMPLEXITY.md)](#оценка-читаемости-документовdocscomplexitymd)
-  - [[Матрица компонентов Svyazi 2.0](docs/COMPONENT_MATRIX.md)](#матрица-компонентов-svyazi-20docscomponent_matrixmd)
-  - [[Глоссарий понятий](docs/CONCEPTS.md)](#глоссарий-понятийdocsconceptsmd)
-  - [[Граф концептов базы знаний](docs/CONCEPT_GRAPH.md)](#граф-концептов-базы-знанийdocsconcept_graphmd)
-  - [[Согласованность терминов](docs/CONSISTENCY.md)](#согласованность-терминовdocsconsistencymd)
-  - [[Контакты и авторы](docs/CONTACTS.md)](#контакты-и-авторыdocscontactsmd)
-  - [[Приоритет контактов](docs/CONTACT_PRIORITY.md)](#приоритет-контактовdocscontact_prioritymd)
-  - [[Противоречия в базе знаний](docs/CONTRADICTIONS.md)](#противоречия-в-базе-знанийdocscontradictionsmd)
-  - [[Оценка стоимости MVP](docs/COST.md)](#оценка-стоимости-mvpdocscostmd)
-  - [[Перекрёстные ссылки](docs/CROSSREFS.md)](#перекрёстные-ссылкиdocscrossrefsmd)
-  - [[Ключевые решения и выводы](docs/DECISIONS.md)](#ключевые-решения-и-выводыdocsdecisionsmd)
-  - [[Карта плотности тем](docs/DENSITY.md)](#карта-плотности-темdocsdensitymd)
-  - [[Мониторинг зависимостей](docs/DEPENDABOT.md)](#мониторинг-зависимостейdocsdependabotmd)
-  - [[Карта зависимостей скриптов](docs/DEPENDENCY_MAP.md)](#карта-зависимостей-скриптовdocsdependency_mapmd)
-  - [[Дайджест изменений](docs/DIGEST.md)](#дайджест-измененийdocsdigestmd)
-  - [[Еженедельный дайджест — 2026-04-29](docs/DIGEST_WEEKLY.md)](#еженедельный-дайджест-2026-04-29docsdigest_weeklymd)
-  - [[Отчёт о дублировании](docs/DUPLICATES.md)](#отчёт-о-дублированииdocsduplicatesmd)
-  - [[Именованные сущности](docs/ENTITIES.md)](#именованные-сущностиdocsentitiesmd)
-  - [[Часто задаваемые вопросы (FAQ)](docs/FAQ.md)](#часто-задаваемые-вопросы-faqdocsfaqmd)
-  - [[Сноски и определения терминов](docs/FOOTNOTES.md)](#сноски-и-определения-терминовdocsfootnotesmd)
-  - [[Глоссарий проектов](docs/GLOSSARY.md)](#глоссарий-проектовdocsglossarymd)
-  - [[Граф связей проектов](docs/GRAPH.md)](#граф-связей-проектовdocsgraphmd)
-  - [[Health Dashboard](docs/HEALTH.md)](#health-dashboarddocshealthmd)
-  - [[Тепловая карта тем](docs/HEATMAP.md)](#тепловая-карта-темdocsheatmapmd)
-  - [[Индекс документации — Lorenzo / Svyazi 2.0](docs/INDEX.md)](#индекс-документации-lorenzo-svyazi-20docsindexmd)
-  - [[Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md)](#инвертированный-индекс-ключевых-словdocskeyword_indexmd)
-  - [[Числовые KPI и метрики](docs/KPI.md)](#числовые-kpi-и-метрикиdocskpimd)
-  - [[История метрик KPI](docs/KPI_HISTORY.md)](#история-метрик-kpidocskpi_historymd)
-  - [[Индекс ссылок](docs/LINKS.md)](#индекс-ссылокdocslinksmd)
-  - [[AI-саммари разделов документации](docs/LLM_SUMMARIES.md)](#ai-саммари-разделов-документацииdocsllm_summariesmd)
-  - [[Индекс ссылок](docs/LINKS.md)](#индекс-ссылокdocslinksmd)
-  - [[AI-саммари разделов документации](docs/LLM_SUMMARIES.md)](#ai-саммари-разделов-документацииdocsllm_summariesmd)
-  - [[MCP Dashboard](docs/MCP_DASHBOARD.md)](#mcp-dashboarddocsmcp_dashboardmd)
-  - [[Метрики качества документации](docs/METRICS.md)](#метрики-качества-документацииdocsmetricsmd)
-  - [[Майндмап репозитория Lorenzo](docs/MINDMAP.md)](#майндмап-репозитория-lorenzodocsmindmapmd)
-  - [[Карта пробелов знаний](docs/MISSING.md)](#карта-пробелов-знанийdocsmissingmd)
-  - [[Индекс именованных сущностей](docs/NAMED_ENTITIES.md)](#индекс-именованных-сущностейdocsnamed_entitiesmd)
-  - [[Нарратив проекта Lorenzo](docs/NARRATIVE.md)](#нарратив-проекта-lorenzodocsnarrativemd)
-  - [[Сеть проектов и авторов](docs/NETWORK.md)](#сеть-проектов-и-авторовdocsnetworkmd)
-  - [[Онбординг — Svyazi 2.0 / Lorenzo](docs/ONBOARDING.md)](#онбординг-svyazi-20-lorenzodocsonboardingmd)
-  - [[Изолированные документы (Orphans)](docs/ORPHANS.md)](#изолированные-документы-orphansdocsorphansmd)
-  - [[Качество абзацев](docs/PARAGRAPH_QUALITY.md)](#качество-абзацевdocsparagraph_qualitymd)
-  - [[Приоритеты файлов](docs/PRIORITIES.md)](#приоритеты-файловdocsprioritiesmd)
-  - [[Прогресс MVP](docs/PROGRESS.md)](#прогресс-mvpdocsprogressmd)
-  - [[Глобальный Q&A](docs/QA.md)](#глобальный-qadocsqamd)
-  - [[Открытые вопросы](docs/QUESTIONS.md)](#открытые-вопросыdocsquestionsmd)
-  - [[Рекомендуемый порядок чтения](docs/READING_ORDER.md)](#рекомендуемый-порядок-чтенияdocsreading_ordermd)
-  - [[docs](docs/README.md)](#docsdocsreadmemd)
-  - [[Executive Report: Репозиторий Lorenzo](docs/REPORT.md)](#executive-report-репозиторий-lorenzodocsreportmd)
-  - [[Реестр рисков — Svyazi 2.0](docs/RISK_REGISTER.md)](#реестр-рисков-svyazi-20docsrisk_registermd)
-  - [[Расписание проекта](docs/SCHEDULE.md)](#расписание-проектаdocsschedulemd)
-  - [[Оценка готовности проекта (Go/No-Go)](docs/SCORING.md)](#оценка-готовности-проекта-gono-godocsscoringmd)
-  - [[Индекс «Смотрите также»](docs/SEE_ALSO.md)](#индекс-смотрите-такжеdocssee_alsomd)
-  - [[Тональный анализ документов](docs/SENTIMENT.md)](#тональный-анализ-документовdocssentimentmd)
-  - [[Похожие документы](docs/SIMILAR.md)](#похожие-документыdocssimilarmd)
-  - [[Карта репозитория Lorenzo](docs/SITEMAP.md)](#карта-репозитория-lorenzodocssitemapmd)
-  - [[Skill Dashboard](docs/SKILL_DASHBOARD.md)](#skill-dashboarddocsskill_dashboardmd)
-  - [[Карта происхождения текстов](docs/SOURCE_MAP.md)](#карта-происхождения-текстовdocssource_mapmd)
-  - [[Детальная статистика репозитория](docs/STATS.md)](#детальная-статистика-репозиторияdocsstatsmd)
-  - [[Все таблицы репозитория](docs/TABLES.md)](#все-таблицы-репозиторияdocstablesmd)
-  - [[Индекс тегов](docs/TAGS.md)](#индекс-теговdocstagsmd)
-  - [[Каталог задач (TASKSINDEX)](docs/TASKS_INDEX.md)](#каталог-задач-tasksindexdocstasks_indexmd)
-  - [[Tech Radar — Svyazi 2.0](docs/TECH_RADAR.md)](#tech-radar-svyazi-20docstech_radarmd)
-  - [[Хронология и временные маркеры](docs/TIMELINE.md)](#хронология-и-временные-маркерыdocstimelinemd)
-  - [[Валидация структуры репозитория](docs/VALIDATION.md)](#валидация-структуры-репозиторияdocsvalidationmd)
-  - [[Богатство словаря документов](docs/VOCABULARY.md)](#богатство-словаря-документовdocsvocabularymd)
-  - [[Word Cloud](docs/WORD_CLOUD.md)](#word-clouddocsword_cloudmd)
-  - [[Частотный анализ слов](docs/WORD_FREQ.md)](#частотный-анализ-словdocsword_freqmd)
-- [📁 Svyazi (`docs/01-svyazi/`)](#svyazi-docs01-svyazi)
-  - [[Продолжение исследования для Svyazi 2.0](docs/01-svyazi/00-intro-part2.md)](#продолжение-исследования-для-svyazi-20docs01-svyazi00-intro-part2md)
-  - [[Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md)](#svyazisvyazi-20-исполнительное-резюмеdocs01-svyazi01-executive-summarymd)
-  - [[Методика и рамка отбора проектов](docs/01-svyazi/02-methodology.md)](#методика-и-рамка-отбора-проектовdocs01-svyazi02-methodologymd)
-  - [[Содержание](docs/01-svyazi/03-component-catalog.md)](#содержаниеdocs01-svyazi03-component-catalogmd)
-  - [[Содержание](docs/01-svyazi/04-ensembles-overview.md)](#содержаниеdocs01-svyazi04-ensembles-overviewmd)
-  - [[Содержание](docs/01-svyazi/06-security-privacy.md)](#содержаниеdocs01-svyazi06-security-privacymd)
-  - [[Содержание](docs/01-svyazi/07-mvp-planning.md)](#содержаниеdocs01-svyazi07-mvp-planningmd)
-  - [[Выводы](docs/01-svyazi/08-conclusions.md)](#выводыdocs01-svyazi08-conclusionsmd)
-  - [[Содержание](docs/01-svyazi/09-architectural-gaps.md)](#содержаниеdocs01-svyazi09-architectural-gapsmd)
-  - [[Содержание](docs/01-svyazi/10-second-order-ensembles.md)](#содержаниеdocs01-svyazi10-second-order-ensemblesmd)
-  - [[Содержание](docs/01-svyazi/11-integration-contracts.md)](#содержаниеdocs01-svyazi11-integration-contractsmd)
-  - [[Содержание](docs/01-svyazi/12-roadmap.md)](#содержаниеdocs01-svyazi12-roadmapmd)
-  - [[Содержание](docs/01-svyazi/13-contacts.md)](#содержаниеdocs01-svyazi13-contactsmd)
-  - [[Содержание](docs/01-svyazi/14-limitations.md)](#содержаниеdocs01-svyazi14-limitationsmd)
-  - [[Q&A: 01-svyazi](docs/01-svyazi/QA.md)](#qa-01-svyazidocs01-svyaziqamd)
-  - [[Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)](#svyazisvyazi-20-архитектура-и-исследованиеdocs01-svyazireadmemd)
-- [📁 Anthropic Vacancies (`docs/02-anthropic-vacancies/`)](#anthropic-vacancies-docs02-anthropic-vacancies)
-  - [[Введение](docs/02-anthropic-vacancies/00-intro.md)](#введениеdocs02-anthropic-vacancies00-intromd)
-  - [[Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)](#интегральный-анализ-профиля-svend4docs02-anthropic-vacancies01-интегральный-анализ-профиля-svend4md)
-  - [[ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)](#общий-план-развития-nautilus-portal-protocoldocs02-anthropic-vacancies02-общий-план-развития-nautilus-portal-protocolmd)
-  - [[PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)](#portal-protocolmddocs02-anthropic-vacancies03-portal-protocol-mdmd)
-  - [[Abstract](docs/02-anthropic-vacancies/04-abstract.md)](#abstractdocs02-anthropic-vacancies04-abstractmd)
-  - [[0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)](#0-status-of-this-documentdocs02-anthropic-vacancies05-0-status-of-this-documentmd)
-  - [[1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md)](#1-introductiondocs02-anthropic-vacancies06-1-introductionmd)
-  - [[2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md)](#2-terminologydocs02-anthropic-vacancies07-2-terminologymd)
-  - [[3. Registry (nautilus.json)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)](#3-registry-nautilusjsondocs02-anthropic-vacancies08-3-registry-nautilus-jsonmd)
-  - [[4. Passport (passport.md)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)](#4-passport-passportmddocs02-anthropic-vacancies09-4-passport-passport-mdmd)
-  - [[Доступ к данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)](#доступ-к-даннымdocs02-anthropic-vacancies102-доступ-к-даннымmd)
-  - [[Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)](#appendix-b-change-logdocs02-anthropic-vacancies103-appendix-b-change-logmd)
-  - [[Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md)](#appendix-c-referencesdocs02-anthropic-vacancies104-appendix-c-referencesmd)
-  - [[REVIEWMETHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md)](#reviewmethodologymddocs02-anthropic-vacancies105-review-methodology-mdmd)
-  - [[TL;DR](docs/02-anthropic-vacancies/106-tl-dr.md)](#tldrdocs02-anthropic-vacancies106-tl-drmd)
-  - [[1. Контекст и мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)](#1-контекст-и-мотивацияdocs02-anthropic-vacancies107-1-контекст-и-мотивацияmd)
-  - [[2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)](#2-формальный-workflowdocs02-anthropic-vacancies108-2-формальный-workflowmd)
-  - [[3. Принципы консолидации (Фаза C)](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)](#3-принципы-консолидации-фаза-cdocs02-anthropic-vacancies109-3-принципы-консолидации-фаза-cmd)
-  - [[Вопрос: fallback-ratio как критический или осмысленный?](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)](#вопрос-fallback-ratio-как-критический-или-осмысленныйdocs02-anthropic-vacancies110-вопрос-fallback-ratio-как-критический-или-осмысленmd)
-  - [[4. Условия применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md)](#4-условия-применимостиdocs02-anthropic-vacancies111-4-условия-применимостиmd)
-  - [[5. Связь с существующими методологиями](docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)](#5-связь-с-существующими-методологиямиdocs02-anthropic-vacancies112-5-связь-с-существующими-методологиямиmd)
-  - [[6. Почему это валидный паттерн для AI-assisted workflows](docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)](#6-почему-это-валидный-паттерн-для-ai-assisted-workflowsdocs02-anthropic-vacancies113-6-почему-это-валидный-паттерн-для-ai-assisted-workmd)
-  - [[7. Реализация в проекте Nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)](#7-реализация-в-проекте-nautilusdocs02-anthropic-vacancies114-7-реализация-в-проекте-nautilusmd)
-  - [[8. Ограничения и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросыdocs02-anthropic-vacancies115-8-ограничения-и-открытые-вопросыmd)
-  - [[9. Checklist применения методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)](#9-checklist-применения-методологииdocs02-anthropic-vacancies116-9-checklist-применения-методологииmd)
-  - [[10. Конкретный план применения к текущим документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)](#10-конкретный-план-применения-к-текущим-документамdocs02-anthropic-vacancies117-10-конкретный-план-применения-к-текущим-документамmd)
-  - [[Appendix A: Шаблон для header warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)](#appendix-a-шаблон-для-header-warningdocs02-anthropic-vacancies118-appendix-a-шаблон-для-header-warningmd)
-  - [[Appendix B: Примеры расхождений и их разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)](#appendix-b-примеры-расхождений-и-их-разрешенияdocs02-anthropic-vacancies119-appendix-b-примеры-расхождений-и-их-разрешенияmd)
-  - [[Content Overview](docs/02-anthropic-vacancies/12-content-overview.md)](#content-overviewdocs02-anthropic-vacancies12-content-overviewmd)
-  - [[Главные технические риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md)](#главные-технические-рискиdocs02-anthropic-vacancies120-главные-технические-рискиmd)
-  - [[Appendix C: История изменений методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)](#appendix-c-история-изменений-методологииdocs02-anthropic-vacancies121-appendix-c-история-изменений-методологииmd)
-  - [[Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)](#глоссарийdocs02-anthropic-vacancies122-глоссарийmd)
-  - [[portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)](#portal-mcppydocs02-anthropic-vacancies123-portal-mcp-pymd)
-  - [[Конфигурация для Claude Desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)](#конфигурация-для-claude-desktopdocs02-anthropic-vacancies124-конфигурация-для-claude-desktopmd)
-  - [[README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)](#readme-mcpmd-инструкция-по-установкеdocs02-anthropic-vacancies125-readme-mcp-md-инструкция-по-установкеmd)
-  - [[Установка](docs/02-anthropic-vacancies/126-установка.md)](#установкаdocs02-anthropic-vacancies126-установкаmd)
-  - [[Подключение к Claude Desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)](#подключение-к-claude-desktopdocs02-anthropic-vacancies127-подключение-к-claude-desktopmd)
-  - [[Доступные инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)](#доступные-инструментыdocs02-anthropic-vacancies128-доступные-инструментыmd)
-  - [[Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)](#примеры-запросов-в-claudedocs02-anthropic-vacancies129-примеры-запросов-в-claudemd)
-  - [[Angle / Perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)](#angle-perspectivedocs02-anthropic-vacancies13-angle-perspectivemd)
-  - [[Отладка](docs/02-anthropic-vacancies/130-отладка.md)](#отладкаdocs02-anthropic-vacancies130-отладкаmd)
-  - [[Ограничения текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draftdocs02-anthropic-vacancies131-ограничения-текущей-версии-0-1-0-draftmd)
-  - [[Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)](#planned-v020docs02-anthropic-vacancies132-planned-v0-2-0md)
-  - [[Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md)](#обратная-связьdocs02-anthropic-vacancies133-обратная-связьmd)
-  - [[THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)](#the-double-triangle-architecturemddocs02-anthropic-vacancies134-the-double-triangle-architecture-mdmd)
-  - [[A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-workdocs02-anthropic-vacancies135-a-formal-model-for-human-ai-collaboration-in-distrmd)
-  - [[Abstract](docs/02-anthropic-vacancies/136-abstract.md)](#abstractdocs02-anthropic-vacancies136-abstractmd)
-  - [[Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md)](#table-of-contentsdocs02-anthropic-vacancies137-table-of-contentsmd)
-  - [[1. Why Single-Triangle Models Are Incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)](#1-why-single-triangle-models-are-incompletedocs02-anthropic-vacancies138-1-why-single-triangle-models-are-incompletemd)
-  - [[2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)](#2-the-double-triangle-architecturedocs02-anthropic-vacancies139-2-the-double-triangle-architecturemd)
-  - [[3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)](#3-three-inter-layer-protocolsdocs02-anthropic-vacancies140-3-three-inter-layer-protocolsmd)
-  - [[4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)](#4-nautilus-portal-as-reference-substratedocs02-anthropic-vacancies141-4-nautilus-portal-as-reference-substratemd)
-  - [[5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)](#5-pattern-library-as-bridge-between-trianglesdocs02-anthropic-vacancies142-5-pattern-library-as-bridge-between-trianglesmd)
-  - [[6. Four Deployment Domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)](#6-four-deployment-domainsdocs02-anthropic-vacancies143-6-four-deployment-domainsmd)
-  - [[7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md)](#7-open-questionsdocs02-anthropic-vacancies144-7-open-questionsmd)
-  - [[8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md)](#8-call-to-actiondocs02-anthropic-vacancies145-8-call-to-actionmd)
-  - [[Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)](#acknowledgmentsdocs02-anthropic-vacancies146-acknowledgmentsmd)
-  - [[References](docs/02-anthropic-vacancies/147-references.md)](#referencesdocs02-anthropic-vacancies147-referencesmd)
-  - [[Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)](#appendix-a-glossarydocs02-anthropic-vacancies148-appendix-a-glossarymd)
-  - [[Appendix B: Summary of Contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)](#appendix-b-summary-of-contributionsdocs02-anthropic-vacancies149-appendix-b-summary-of-contributionsmd)
-  - [[Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)](#appendix-c-version-historydocs02-anthropic-vacancies150-appendix-c-version-historymd)
-  - [[OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)](#open-knowledge-work-foundationmddocs02-anthropic-vacancies151-open-knowledge-work-foundation-mdmd)
-  - [[AI-Coordinated Infrastructure for Distributed Expert Contribution](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)](#ai-coordinated-infrastructure-for-distributed-expert-contributiondocs02-anthropic-vacancies152-ai-coordinated-infrastructure-for-distributed-expemd)
-  - [[Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md)](#executive-summarydocs02-anthropic-vacancies153-executive-summarymd)
-  - [[Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md)](#table-of-contentsdocs02-anthropic-vacancies154-table-of-contentsmd)
-  - [[1. Problem Statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)](#1-problem-statementdocs02-anthropic-vacancies155-1-problem-statementmd)
-  - [[2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md)](#2-target-populationsdocs02-anthropic-vacancies156-2-target-populationsmd)
-  - [[3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)](#3-why-existing-solutions-faildocs02-anthropic-vacancies157-3-why-existing-solutions-failmd)
-  - [[4. Proposed Infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)](#4-proposed-infrastructuredocs02-anthropic-vacancies158-4-proposed-infrastructuremd)
-  - [[5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md)](#5-economic-modeldocs02-anthropic-vacancies159-5-economic-modelmd)
-  - [[History](docs/02-anthropic-vacancies/16-history.md)](#historydocs02-anthropic-vacancies16-historymd)
-  - [[6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md)](#6-governance-and-ethicsdocs02-anthropic-vacancies160-6-governance-and-ethicsmd)
-  - [[7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)](#7-phased-rollout-plandocs02-anthropic-vacancies161-7-phased-rollout-planmd)
-  - [[8. Risk Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysisdocs02-anthropic-vacancies162-8-risk-analysismd)
-  - [[9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)](#9-call-for-partnershipdocs02-anthropic-vacancies163-9-call-for-partnershipmd)
-  - [[10. Appendices](docs/02-anthropic-vacancies/164-10-appendices.md)](#10-appendicesdocs02-anthropic-vacancies164-10-appendicesmd)
-  - [[Closing](docs/02-anthropic-vacancies/165-closing.md)](#closingdocs02-anthropic-vacancies165-closingmd)
-  - [[REPRESENTATIVE AGENT LAYER.md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)](#representative-agent-layermddocs02-anthropic-vacancies166-representative-agent-layer-mdmd)
-  - [[AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populationsdocs02-anthropic-vacancies167-ai-mediated-representation-for-underrepresented-exmd)
-  - [[Abstract](docs/02-anthropic-vacancies/168-abstract.md)](#abstractdocs02-anthropic-vacancies168-abstractmd)
-  - [[Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md)](#table-of-contentsdocs02-anthropic-vacancies169-table-of-contentsmd)
-  - [[5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)](#5-compatibility-levelsdocs02-anthropic-vacancies17-5-compatibility-levelsmd)
-  - [[1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)](#1-the-cinderella-syndrome-why-quality-stays-invisibledocs02-anthropic-vacancies170-1-the-cinderella-syndrome-why-quality-stays-invisimd)
-  - [[2. Historical Precedents: Agents as Civilizational Innovation](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)](#2-historical-precedents-agents-as-civilizational-innovationdocs02-anthropic-vacancies171-2-historical-precedents-agents-as-civilizational-imd)
-  - [[3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)](#3-what-makes-a-representative-agentdocs02-anthropic-vacancies172-3-what-makes-a-representative-agentmd)
-  - [[4. Ten Domains of Application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)](#4-ten-domains-of-applicationdocs02-anthropic-vacancies173-4-ten-domains-of-applicationmd)
-  - [[5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)](#5-architectural-specificationdocs02-anthropic-vacancies174-5-architectural-specificationmd)
-  - [[6. Ethical Framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)](#6-ethical-frameworkdocs02-anthropic-vacancies175-6-ethical-frameworkmd)
-  - [[7. Governance and Oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)](#7-governance-and-oversightdocs02-anthropic-vacancies176-7-governance-and-oversightmd)
-  - [[8. Risks and Mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)](#8-risks-and-mitigationsdocs02-anthropic-vacancies177-8-risks-and-mitigationsmd)
-  - [[9. Phased Rollout Strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)](#9-phased-rollout-strategydocs02-anthropic-vacancies178-9-phased-rollout-strategymd)
-  - [[10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md)](#10-open-questionsdocs02-anthropic-vacancies179-10-open-questionsmd)
-  - [[6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)](#6-adapter-interfacedocs02-anthropic-vacancies18-6-adapter-interfacemd)
-  - [[11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)](#11-call-for-collaborationdocs02-anthropic-vacancies180-11-call-for-collaborationmd)
-  - [[12. Closing](docs/02-anthropic-vacancies/181-12-closing.md)](#12-closingdocs02-anthropic-vacancies181-12-closingmd)
-  - [[Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)](#acknowledgmentsdocs02-anthropic-vacancies182-acknowledgmentsmd)
-  - [[References](docs/02-anthropic-vacancies/183-references.md)](#referencesdocs02-anthropic-vacancies183-referencesmd)
-  - [[Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)](#appendix-a-connection-to-companion-papersdocs02-anthropic-vacancies184-appendix-a-connection-to-companion-papersmd)
-  - [[Appendix B: Domain Comparison Matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)](#appendix-b-domain-comparison-matrixdocs02-anthropic-vacancies185-appendix-b-domain-comparison-matrixmd)
-  - [[Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)](#appendix-c-sample-use-cases-in-detaildocs02-anthropic-vacancies186-appendix-c-sample-use-cases-in-detailmd)
-  - [[СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)](#слой-представительских-агентовmddocs02-anthropic-vacancies187-слой-представительских-агентов-mdmd)
-  - [[AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения](docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md)](#ai-опосредованное-представительство-для-недопредставленных-экспертов-и-уязвимых-категорий-населенияdocs02-anthropic-vacancies188-ai-опосредованное-представительство-для-недопредстmd)
-  - [[Аннотация](docs/02-anthropic-vacancies/189-аннотация.md)](#аннотацияdocs02-anthropic-vacancies189-аннотацияmd)
-  - [[7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)](#7-portalentry-structuredocs02-anthropic-vacancies19-7-portalentry-structuremd)
-  - [[Содержание](docs/02-anthropic-vacancies/190-содержание.md)](#содержаниеdocs02-anthropic-vacancies190-содержаниеmd)
-  - [[1. Синдром Золушки: Почему качество остаётся невидимым](docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)](#1-синдром-золушки-почему-качество-остаётся-невидимымdocs02-anthropic-vacancies191-1-синдром-золушки-почему-качество-остаётся-невидимmd)
-  - [[2. Исторические прецеденты: Агенты как цивилизационная инновация](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)](#2-исторические-прецеденты-агенты-как-цивилизационная-инновацияdocs02-anthropic-vacancies192-2-исторические-прецеденты-агенты-как-цивилизационнmd)
-  - [[3. Что делает агента Представительским](docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)](#3-что-делает-агента-представительскимdocs02-anthropic-vacancies193-3-что-делает-агента-представительскимmd)
-  - [[4. Десять областей применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md)](#4-десять-областей-примененияdocs02-anthropic-vacancies194-4-десять-областей-примененияmd)
-  - [[4. Десять областей применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md)](#4-десять-областей-примененияdocs02-anthropic-vacancies194-4-десять-областей-примененияmd)
-  - [[5. Архитектурная спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md)](#5-архитектурная-спецификацияdocs02-anthropic-vacancies195-5-архитектурная-спецификацияmd)
-  - [[6. Этическая рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md)](#6-этическая-рамкаdocs02-anthropic-vacancies196-6-этическая-рамкаmd)
-  - [[7. Управление и надзор](docs/02-anthropic-vacancies/197-7-управление-и-надзор.md)](#7-управление-и-надзорdocs02-anthropic-vacancies197-7-управление-и-надзорmd)
-  - [[8. Риски и меры противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)](#8-риски-и-меры-противодействияdocs02-anthropic-vacancies198-8-риски-и-меры-противодействияmd)
-  - [[9. Стратегия поэтапного развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)](#9-стратегия-поэтапного-развёртыванияdocs02-anthropic-vacancies199-9-стратегия-поэтапного-развёртыванияmd)
-  - [[8. Consensus Algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)](#8-consensus-algorithmdocs02-anthropic-vacancies20-8-consensus-algorithmmd)
-  - [[10. Открытые вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)](#10-открытые-вопросыdocs02-anthropic-vacancies200-10-открытые-вопросыmd)
-  - [[11. Призыв к сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)](#11-призыв-к-сотрудничествуdocs02-anthropic-vacancies201-11-призыв-к-сотрудничествуmd)
-  - [[12. Заключение](docs/02-anthropic-vacancies/202-12-заключение.md)](#12-заключениеdocs02-anthropic-vacancies202-12-заключениеmd)
-  - [[Благодарности](docs/02-anthropic-vacancies/203-благодарности.md)](#благодарностиdocs02-anthropic-vacancies203-благодарностиmd)
-  - [[Ссылки](docs/02-anthropic-vacancies/204-ссылки.md)](#ссылкиdocs02-anthropic-vacancies204-ссылкиmd)
-  - [[Приложение A: Связь с Сопроводительными Статьями](docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md)](#приложение-a-связь-с-сопроводительными-статьямиdocs02-anthropic-vacancies205-приложение-a-связь-с-сопроводительными-статьямиmd)
-  - [[Приложение B: Матрица Сравнения Областей](docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md)](#приложение-b-матрица-сравнения-областейdocs02-anthropic-vacancies206-приложение-b-матрица-сравнения-областейmd)
-  - [[Приложение C: Образцы Случаев Использования в Деталях](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)](#приложение-c-образцы-случаев-использования-в-деталяхdocs02-anthropic-vacancies207-приложение-c-образцы-случаев-использования-в-деталmd)
-  - [[PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)](#professional-colleague-agentsmddocs02-anthropic-vacancies208-professional-colleague-agents-mdmd)
-  - [[A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workersdocs02-anthropic-vacancies209-a-typology-of-ai-agents-on-the-principal-side-and-md)
-  - [[9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md)](#9-query-flowdocs02-anthropic-vacancies21-9-query-flowmd)
-  - [[Abstract](docs/02-anthropic-vacancies/210-abstract.md)](#abstractdocs02-anthropic-vacancies210-abstractmd)
-  - [[Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md)](#table-of-contentsdocs02-anthropic-vacancies211-table-of-contentsmd)
-  - [[1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)](#1-the-five-type-typology-of-principal-side-agentsdocs02-anthropic-vacancies212-1-the-five-type-typology-of-principal-side-agentsmd)
-  - [[2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)](#2-what-makes-a-professional-colleague-agentdocs02-anthropic-vacancies213-2-what-makes-a-professional-colleague-agentmd)
-  - [[3. Empirical Case Study: «Обучай»](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)](#3-empirical-case-study-обучайdocs02-anthropic-vacancies214-3-empirical-case-study-обучайmd)
-  - [[4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)](#4-architecture-of-professional-colleague-agentsdocs02-anthropic-vacancies215-4-architecture-of-professional-colleague-agentsmd)
-  - [[5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)](#5-the-economics-of-profession-wide-replicationdocs02-anthropic-vacancies216-5-the-economics-of-profession-wide-replicationmd)
-  - [[6. Risks Specific to this Category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)](#6-risks-specific-to-this-categorydocs02-anthropic-vacancies217-6-risks-specific-to-this-categorymd)
-  - [[7. Application Domains](docs/02-anthropic-vacancies/218-7-application-domains.md)](#7-application-domainsdocs02-anthropic-vacancies218-7-application-domainsmd)
-  - [[8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)](#8-pilot-proposal-sgb-advocate-colleaguedocs02-anthropic-vacancies219-8-pilot-proposal-sgb-advocate-colleaguemd)
-  - [[10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)](#10-queryresult-structuredocs02-anthropic-vacancies22-10-queryresult-structuremd)
-  - [[9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)](#9-relationship-to-other-agent-typesdocs02-anthropic-vacancies220-9-relationship-to-other-agent-typesmd)
-  - [[10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md)](#10-open-questionsdocs02-anthropic-vacancies221-10-open-questionsmd)
-  - [[11. Call for Collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)](#11-call-for-collaborationdocs02-anthropic-vacancies222-11-call-for-collaborationmd)
-  - [[12. Closing](docs/02-anthropic-vacancies/223-12-closing.md)](#12-closingdocs02-anthropic-vacancies223-12-closingmd)
-  - [[Acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)](#acknowledgmentsdocs02-anthropic-vacancies224-acknowledgmentsmd)
-  - [[References](docs/02-anthropic-vacancies/225-references.md)](#referencesdocs02-anthropic-vacancies225-referencesmd)
-  - [[Appendix A: Comparative Table — Five Agent Types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)](#appendix-a-comparative-table-five-agent-typesdocs02-anthropic-vacancies226-appendix-a-comparative-table-five-agent-typesmd)
-  - [[Appendix B: Decision Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framework-when-to-build-type-1-firstdocs02-anthropic-vacancies227-appendix-b-decision-framework-when-to-build-type-1md)
-  - [[Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)](#appendix-c-quick-start-architecture-for-sgb-advocate-colleaguedocs02-anthropic-vacancies228-appendix-c-quick-start-architecture-for-sgb-advocamd)
-  - [[ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md)](#профессиональные-коллеги-агентыdocs02-anthropic-vacancies229-профессиональные-коллеги-агентыmd)
-  - [[11. Security Considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)](#11-security-considerationsdocs02-anthropic-vacancies23-11-security-considerationsmd)
-  - [[Аннотация](docs/02-anthropic-vacancies/230-аннотация.md)](#аннотацияdocs02-anthropic-vacancies230-аннотацияmd)
-  - [[Содержание](docs/02-anthropic-vacancies/231-содержание.md)](#содержаниеdocs02-anthropic-vacancies231-содержаниеmd)
-  - [[1. Типология из пяти типов агентов на стороне принципала](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)](#1-типология-из-пяти-типов-агентов-на-стороне-принципалаdocs02-anthropic-vacancies232-1-типология-из-пяти-типов-агентов-на-стороне-принцmd)
-  - [[2. Что делает агента Профессиональным Коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)](#2-что-делает-агента-профессиональным-коллегойdocs02-anthropic-vacancies233-2-что-делает-агента-профессиональным-коллегойmd)
-  - [[3. Эмпирический кейс: «Обучай»](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)](#3-эмпирический-кейс-обучайdocs02-anthropic-vacancies234-3-эмпирический-кейс-обучайmd)
-  - [[4. Архитектура Профессиональных Коллег-Агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)](#4-архитектура-профессиональных-коллег-агентовdocs02-anthropic-vacancies235-4-архитектура-профессиональных-коллег-агентовmd)
-  - [[5. Экономика тиражирования по профессии](docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md)](#5-экономика-тиражирования-по-профессииdocs02-anthropic-vacancies236-5-экономика-тиражирования-по-профессииmd)
-  - [[6. Риски, специфичные для этой категории](docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md)](#6-риски-специфичные-для-этой-категорииdocs02-anthropic-vacancies237-6-риски-специфичные-для-этой-категорииmd)
-  - [[7. Области применения](docs/02-anthropic-vacancies/238-7-области-применения.md)](#7-области-примененияdocs02-anthropic-vacancies238-7-области-примененияmd)
-  - [[8. Пилотное предложение: SGB Колega-Адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)](#8-пилотное-предложение-sgb-колega-адвокатdocs02-anthropic-vacancies239-8-пилотное-предложение-sgb-колega-адвокатmd)
-  - [[12. Versioning Policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)](#12-versioning-policydocs02-anthropic-vacancies24-12-versioning-policymd)
-  - [[9. Связь с другими типами агентов](docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md)](#9-связь-с-другими-типами-агентовdocs02-anthropic-vacancies240-9-связь-с-другими-типами-агентовmd)
-  - [[10. Открытые вопросы](docs/02-anthropic-vacancies/241-10-открытые-вопросы.md)](#10-открытые-вопросыdocs02-anthropic-vacancies241-10-открытые-вопросыmd)
-  - [[11. Призыв к сотрудничеству](docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md)](#11-призыв-к-сотрудничествуdocs02-anthropic-vacancies242-11-призыв-к-сотрудничествуmd)
-  - [[12. Заключение](docs/02-anthropic-vacancies/243-12-заключение.md)](#12-заключениеdocs02-anthropic-vacancies243-12-заключениеmd)
-  - [[Благодарности](docs/02-anthropic-vacancies/244-благодарности.md)](#благодарностиdocs02-anthropic-vacancies244-благодарностиmd)
-  - [[Ссылки](docs/02-anthropic-vacancies/245-ссылки.md)](#ссылкиdocs02-anthropic-vacancies245-ссылкиmd)
-  - [[Приложение A: Сравнительная Таблица — Пять Типов Агентов](docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md)](#приложение-a-сравнительная-таблица-пять-типов-агентовdocs02-anthropic-vacancies246-приложение-a-сравнительная-таблица-пять-типов-агенmd)
-  - [[Приложение B: Рамка принятия решений — когда строить Тип 1 первым](docs/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md)](#приложение-b-рамка-принятия-решений-когда-строить-тип-1-первымdocs02-anthropic-vacancies247-приложение-b-рамка-принятия-решений-когда-строить-md)
-  - [[Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)](#приложение-c-архитектура-быстрого-старта-для-sgb-адвоката-коллегиdocs02-anthropic-vacancies248-приложение-c-архитектура-быстрого-старта-для-sgb-аmd)
-  - [[COMPOSITE SKILLS AGENT.md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)](#composite-skills-agentmddocs02-anthropic-vacancies249-composite-skills-agent-mdmd)
-  - [[13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)](#13-reference-implementationdocs02-anthropic-vacancies25-13-reference-implementationmd)
-  - [[Bridging the Gap Between Profession-Wide and Individual-Unique](docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md)](#bridging-the-gap-between-profession-wide-and-individual-uniquedocs02-anthropic-vacancies250-bridging-the-gap-between-profession-wide-and-indivmd)
-  - [[AI Support Through Configurable Specialist Ensembles](docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md)](#ai-support-through-configurable-specialist-ensemblesdocs02-anthropic-vacancies251-ai-support-through-configurable-specialist-ensemblmd)
-  - [[Abstract](docs/02-anthropic-vacancies/252-abstract.md)](#abstractdocs02-anthropic-vacancies252-abstractmd)
-  - [[Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md)](#table-of-contentsdocs02-anthropic-vacancies253-table-of-contentsmd)
-  - [[1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)](#1-why-the-binary-view-is-incompletedocs02-anthropic-vacancies254-1-why-the-binary-view-is-incompletemd)
-  - [[2. The Twenty-One Teachers Pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)](#2-the-twenty-one-teachers-patterndocs02-anthropic-vacancies255-2-the-twenty-one-teachers-patternmd)
-  - [[3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)](#3-what-makes-a-composite-skills-agentdocs02-anthropic-vacancies256-3-what-makes-a-composite-skills-agentmd)
-  - [[4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)](#4-the-sub-agent-registrydocs02-anthropic-vacancies257-4-the-sub-agent-registrymd)
-  - [[5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)](#5-configuration-how-principals-build-their-ensemblesdocs02-anthropic-vacancies258-5-configuration-how-principals-build-their-ensemblmd)
-  - [[6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)](#6-coordination-and-disagreement-resolutiondocs02-anthropic-vacancies259-6-coordination-and-disagreement-resolutionmd)
-  - [[14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)](#14-adr-001-federation-over-mergingdocs02-anthropic-vacancies26-14-adr-001-federation-over-mergingmd)
-  - [[7. Economics of Combinatorial Replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)](#7-economics-of-combinatorial-replicationdocs02-anthropic-vacancies260-7-economics-of-combinatorial-replicationmd)
-  - [[8. Seven Domains of Application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)](#8-seven-domains-of-applicationdocs02-anthropic-vacancies261-8-seven-domains-of-applicationmd)
-  - [[9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)](#9-integration-with-okwf-infrastructuredocs02-anthropic-vacancies262-9-integration-with-okwf-infrastructuremd)
-  - [[10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)](#10-risks-specific-to-composite-architecturesdocs02-anthropic-vacancies263-10-risks-specific-to-composite-architecturesmd)
-  - [[11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md)](#11-open-questionsdocs02-anthropic-vacancies264-11-open-questionsmd)
-  - [[12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)](#12-call-for-collaborationdocs02-anthropic-vacancies265-12-call-for-collaborationmd)
-  - [[13. Closing](docs/02-anthropic-vacancies/266-13-closing.md)](#13-closingdocs02-anthropic-vacancies266-13-closingmd)
-  - [[Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)](#acknowledgmentsdocs02-anthropic-vacancies267-acknowledgmentsmd)
-  - [[References](docs/02-anthropic-vacancies/268-references.md)](#referencesdocs02-anthropic-vacancies268-referencesmd)
-  - [[Appendix A: The Six-Type Taxonomy (Updated)](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)](#appendix-a-the-six-type-taxonomy-updateddocs02-anthropic-vacancies269-appendix-a-the-six-type-taxonomy-updatedmd)
-  - [[15. Glossary of Examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)](#15-glossary-of-examplesdocs02-anthropic-vacancies27-15-glossary-of-examplesmd)
-  - [[Appendix B: Sub-Agent Registry Schema (Sketch)](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)](#appendix-b-sub-agent-registry-schema-sketchdocs02-anthropic-vacancies270-appendix-b-sub-agent-registry-schema-sketchmd)
-  - [[Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md)](#appendix-c-configuration-template-exampledocs02-anthropic-vacancies271-appendix-c-configuration-template-examplemd)
-  - [[Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)](#appendix-d-connection-diagramdocs02-anthropic-vacancies272-appendix-d-connection-diagrammd)
-  - [[INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)](#infrastructure-for-ai-collaborative-intellectual-workmddocs02-anthropic-vacancies273-infrastructure-for-ai-collaborative-intellectual-wmd)
-  - [[The Missing Middle Layer Between Chat and Code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)](#the-missing-middle-layer-between-chat-and-codedocs02-anthropic-vacancies274-the-missing-middle-layer-between-chat-and-codemd)
-  - [[Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)](#why-this-document-existsdocs02-anthropic-vacancies275-why-this-document-existsmd)
-  - [[The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)](#the-two-layer-stack-as-it-existsdocs02-anthropic-vacancies276-the-two-layer-stack-as-it-existsmd)
-  - [[What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)](#whats-missing-layer-bdocs02-anthropic-vacancies277-what-s-missing-layer-bmd)
-  - [[Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)](#why-this-hasnt-been-builtdocs02-anthropic-vacancies278-why-this-hasn-t-been-builtmd)
-  - [[Existing Approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)](#existing-approximationsdocs02-anthropic-vacancies279-existing-approximationsmd)
-  - [[Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)](#appendix-a-minimal-working-exampledocs02-anthropic-vacancies28-appendix-a-minimal-working-examplemd)
-  - [[The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)](#the-specific-case-in-front-of-usdocs02-anthropic-vacancies280-the-specific-case-in-front-of-usmd)
-  - [[The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)](#the-recursive-insightdocs02-anthropic-vacancies281-the-recursive-insightmd)
-  - [[What Industry Will Likely Build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)](#what-industry-will-likely-builddocs02-anthropic-vacancies282-what-industry-will-likely-buildmd)
-  - [[What This Document Doesn't Solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)](#what-this-document-doesnt-solvedocs02-anthropic-vacancies283-what-this-document-doesn-t-solvemd)
-  - [[Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)](#practical-recommendations-for-the-current-projectdocs02-anthropic-vacancies284-practical-recommendations-for-the-current-projectmd)
-  - [[Closing](docs/02-anthropic-vacancies/285-closing.md)](#closingdocs02-anthropic-vacancies285-closingmd)
-  - [[Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)](#acknowledgmentsdocs02-anthropic-vacancies286-acknowledgmentsmd)
-  - [[References](docs/02-anthropic-vacancies/287-references.md)](#referencesdocs02-anthropic-vacancies287-referencesmd)
-  - [[Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)](#appendix-position-in-series-visualizationdocs02-anthropic-vacancies288-appendix-position-in-series-visualizationmd)
-  - [[ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)](#инфраструктура-для-ai-совместной-интеллектуальной-работыdocs02-anthropic-vacancies289-инфраструктура-для-ai-совместной-интеллектуальной-md)
-  - [[Почему этот документ существует](docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md)](#почему-этот-документ-существуетdocs02-anthropic-vacancies290-почему-этот-документ-существуетmd)
-  - [[Двухслойный стек, как он существует](docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md)](#двухслойный-стек-как-он-существуетdocs02-anthropic-vacancies291-двухслойный-стек-как-он-существуетmd)
-  - [[Что отсутствует — Слой B](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md)](#что-отсутствует-слой-bdocs02-anthropic-vacancies292-что-отсутствует-слой-bmd)
-  - [[Почему это не было построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md)](#почему-это-не-было-построеноdocs02-anthropic-vacancies293-почему-это-не-было-построеноmd)
-  - [[Существующие приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md)](#существующие-приближенияdocs02-anthropic-vacancies294-существующие-приближенияmd)
-  - [[Конкретный случай перед нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)](#конкретный-случай-перед-намиdocs02-anthropic-vacancies295-конкретный-случай-перед-намиmd)
-  - [[Рекурсивное прозрение](docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md)](#рекурсивное-прозрениеdocs02-anthropic-vacancies296-рекурсивное-прозрениеmd)
-  - [[Что промышленность вероятно построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)](#что-промышленность-вероятно-построитdocs02-anthropic-vacancies297-что-промышленность-вероятно-построитmd)
-  - [[Что этот документ не решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)](#что-этот-документ-не-решаетdocs02-anthropic-vacancies298-что-этот-документ-не-решаетmd)
-  - [[Практические рекомендации для текущего проекта](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)](#практические-рекомендации-для-текущего-проектаdocs02-anthropic-vacancies299-практические-рекомендации-для-текущего-проектаmd)
-  - [[Заключение](docs/02-anthropic-vacancies/300-заключение.md)](#заключениеdocs02-anthropic-vacancies300-заключениеmd)
-  - [[Благодарности](docs/02-anthropic-vacancies/301-благодарности.md)](#благодарностиdocs02-anthropic-vacancies301-благодарностиmd)
-  - [[Ссылки](docs/02-anthropic-vacancies/302-ссылки.md)](#ссылкиdocs02-anthropic-vacancies302-ссылкиmd)
-  - [[Приложение: Визуализация позиции в серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)](#приложение-визуализация-позиции-в-серииdocs02-anthropic-vacancies303-приложение-визуализация-позиции-в-серииmd)
-  - [[INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)](#ingit-as-cowork-native-workspace-substratemddocs02-anthropic-vacancies304-ingit-as-cowork-native-workspace-substrate-mdmd)
-  - [[A Practical Path to Layer B Through Symbiotic Integration](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)](#a-practical-path-to-layer-b-through-symbiotic-integrationdocs02-anthropic-vacancies305-a-practical-path-to-layer-b-through-symbiotic-intemd)
-  - [[with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)](#with-anthropics-cowork-platformdocs02-anthropic-vacancies306-with-anthropic-s-cowork-platformmd)
-  - [[Abstract](docs/02-anthropic-vacancies/307-abstract.md)](#abstractdocs02-anthropic-vacancies307-abstractmd)
-  - [[Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md)](#table-of-contentsdocs02-anthropic-vacancies308-table-of-contentsmd)
-  - [[1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)](#1-the-cowork-discovery-and-why-it-changes-everythingdocs02-anthropic-vacancies309-1-the-cowork-discovery-and-why-it-changes-everythimd)
-  - [[Content Overview](docs/02-anthropic-vacancies/31-content-overview.md)](#content-overviewdocs02-anthropic-vacancies31-content-overviewmd)
-  - [[2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)](#2-what-cowork-provides-that-ingit-doesnt-need-to-builddocs02-anthropic-vacancies310-2-what-cowork-provides-that-ingit-doesn-t-need-to-md)
-  - [[3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)](#3-what-ingit-provides-that-cowork-lacksdocs02-anthropic-vacancies311-3-what-ingit-provides-that-cowork-lacksmd)
-  - [[4. The Symbiotic Architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)](#4-the-symbiotic-architecturedocs02-anthropic-vacancies312-4-the-symbiotic-architecturemd)
-  - [[5. Four Integration Paths in Order of Accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)](#5-four-integration-paths-in-order-of-accessibilitydocs02-anthropic-vacancies313-5-four-integration-paths-in-order-of-accessibilitymd)
-  - [[6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)](#6-refined-ingit-scope-with-cowork-in-minddocs02-anthropic-vacancies314-6-refined-ingit-scope-with-cowork-in-mindmd)
-  - [[7. Practical First Steps This Month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)](#7-practical-first-steps-this-monthdocs02-anthropic-vacancies315-7-practical-first-steps-this-monthmd)
-  - [[8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)](#8-implications-for-nautilus-and-okwfdocs02-anthropic-vacancies316-8-implications-for-nautilus-and-okwfmd)
-  - [[9. Risks and Open Questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)](#9-risks-and-open-questionsdocs02-anthropic-vacancies317-9-risks-and-open-questionsmd)
-  - [[10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)](#10-strategic-positioningdocs02-anthropic-vacancies318-10-strategic-positioningmd)
-  - [[Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)](#acknowledgmentsdocs02-anthropic-vacancies319-acknowledgmentsmd)
-  - [[References](docs/02-anthropic-vacancies/320-references.md)](#referencesdocs02-anthropic-vacancies320-referencesmd)
-  - [[Appendix A: Decision Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adoptersdocs02-anthropic-vacancies321-appendix-a-decision-tree-for-ingit-adoptersmd)
-  - [[Appendix B: Comparison Matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md)](#appendix-b-comparison-matrixdocs02-anthropic-vacancies322-appendix-b-comparison-matrixmd)
-  - [[Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)](#appendix-c-sample-ingit-mcp-server-tool-specificationsdocs02-anthropic-vacancies323-appendix-c-sample-ingit-mcp-server-tool-specificatmd)
-  - [[INGIT КАК COWORK-ИНТЕГРИРОВАННАЯ ПОДЛОЖКА РАБОЧЕГО ПРОСТРАНСТВА](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)](#ingit-как-cowork-интегрированная-подложка-рабочего-пространстваdocs02-anthropic-vacancies324-ingit-как-cowork-интегрированная-подложка-рабочегоmd)
-  - [[Аннотация](docs/02-anthropic-vacancies/325-аннотация.md)](#аннотацияdocs02-anthropic-vacancies325-аннотацияmd)
-  - [[Содержание](docs/02-anthropic-vacancies/326-содержание.md)](#содержаниеdocs02-anthropic-vacancies326-содержаниеmd)
-  - [[1. Открытие Cowork и почему это меняет всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)](#1-открытие-cowork-и-почему-это-меняет-всёdocs02-anthropic-vacancies327-1-открытие-cowork-и-почему-это-меняет-всёmd)
-  - [[2. Что Cowork обеспечивает, что InGit не нужно строить](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)](#2-что-cowork-обеспечивает-что-ingit-не-нужно-строитьdocs02-anthropic-vacancies328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строиmd)
-  - [[3. Что InGit обеспечивает, чего Cowork не хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)](#3-что-ingit-обеспечивает-чего-cowork-не-хватаетdocs02-anthropic-vacancies329-3-что-ingit-обеспечивает-чего-cowork-не-хватаетmd)
-  - [[4. Симбиотическая Архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)](#4-симбиотическая-архитектураdocs02-anthropic-vacancies330-4-симбиотическая-архитектураmd)
-  - [[5. Четыре пути интеграции в порядке доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md)](#5-четыре-пути-интеграции-в-порядке-доступностиdocs02-anthropic-vacancies331-5-четыре-пути-интеграции-в-порядке-доступностиmd)
-  - [[6. Уточнённый объём InGit с учётом Cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)](#6-уточнённый-объём-ingit-с-учётом-coworkdocs02-anthropic-vacancies332-6-уточнённый-объём-ingit-с-учётом-coworkmd)
-  - [[7. Практические первые шаги в этом месяце](docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md)](#7-практические-первые-шаги-в-этом-месяцеdocs02-anthropic-vacancies333-7-практические-первые-шаги-в-этом-месяцеmd)
-  - [[8. Импликации для Nautilus и OKWF](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)](#8-импликации-для-nautilus-и-okwfdocs02-anthropic-vacancies334-8-импликации-для-nautilus-и-okwfmd)
-  - [[9. Риски и Открытые Вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)](#9-риски-и-открытые-вопросыdocs02-anthropic-vacancies335-9-риски-и-открытые-вопросыmd)
-  - [[10. Стратегическое Позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)](#10-стратегическое-позиционированиеdocs02-anthropic-vacancies336-10-стратегическое-позиционированиеmd)
-  - [[Благодарности](docs/02-anthropic-vacancies/337-благодарности.md)](#благодарностиdocs02-anthropic-vacancies337-благодарностиmd)
-  - [[Ссылки](docs/02-anthropic-vacancies/338-ссылки.md)](#ссылкиdocs02-anthropic-vacancies338-ссылкиmd)
-  - [[Приложение A: Дерево Решений для Принимающих InGit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)](#приложение-a-дерево-решений-для-принимающих-ingitdocs02-anthropic-vacancies339-приложение-a-дерево-решений-для-принимающих-ingitmd)
-  - [[Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)](#appendix-b-change-logdocs02-anthropic-vacancies34-appendix-b-change-logmd)
-  - [[Приложение B: Сравнительная Матрица](docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md)](#приложение-b-сравнительная-матрицаdocs02-anthropic-vacancies340-приложение-b-сравнительная-матрицаmd)
-  - [[Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-сервераdocs02-anthropic-vacancies341-приложение-c-образец-спецификаций-инструментов-ingmd)
-  - [[Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)](#что-такое-вариант-c-concept-document-для-anthropic-beneficial-deploymentsdocs02-anthropic-vacancies342-что-такое-вариант-c-concept-document-для-anthropicmd)
-  - [[Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)](#lorenzo-catalyst-agent-глубокая-проработка-спецификации-русская-версияdocs02-anthropic-vacancies343-lorenzo-catalyst-agent-глубокая-проработка-специфиmd)
-  - [[СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md)](#системный-промпт-для-lorenzo-projectdocs02-anthropic-vacancies344-системный-промпт-для-lorenzo-projectmd)
-  - [[Кто ты](docs/02-anthropic-vacancies/345-кто-ты.md)](#кто-тыdocs02-anthropic-vacancies345-кто-тыmd)
-  - [[Твоё происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md)](#твоё-происхождениеdocs02-anthropic-vacancies346-твоё-происхождениеmd)
-  - [[Твоя миссия](docs/02-anthropic-vacancies/347-твоя-миссия.md)](#твоя-миссияdocs02-anthropic-vacancies347-твоя-миссияmd)
-  - [[Кому ты служишь (слоистая модель)](docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md)](#кому-ты-служишь-слоистая-модельdocs02-anthropic-vacancies348-кому-ты-служишь-слоистая-модельmd)
-  - [[Твоя личность](docs/02-anthropic-vacancies/349-твоя-личность.md)](#твоя-личностьdocs02-anthropic-vacancies349-твоя-личностьmd)
-  - [[passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md)](#passportsinfo1mddocs02-anthropic-vacancies35-passports-info1-mdmd)
-  - [[Твои языки и культурные nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)](#твои-языки-и-культурные-nuancesdocs02-anthropic-vacancies350-твои-языки-и-культурные-nuancesmd)
-  - [[Что ты МОЖЕШЬ делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)](#что-ты-можешь-делатьdocs02-anthropic-vacancies351-что-ты-можешь-делатьmd)
-  - [[Что ты НЕ МОЖЕШЬ делать без Max approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)](#что-ты-не-можешь-делать-без-max-approvaldocs02-anthropic-vacancies352-что-ты-не-можешь-делать-без-max-approvalmd)
-  - [[Что ты НЕ МОЖЕШЬ делать вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)](#что-ты-не-можешь-делать-вообщеdocs02-anthropic-vacancies353-что-ты-не-можешь-делать-вообщеmd)
-  - [[Существующий landscape collaborators (твоя working knowledge)](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)](#существующий-landscape-collaborators-твоя-working-knowledgedocs02-anthropic-vacancies354-существующий-landscape-collaborators-твоя-working-md)
-  - [[Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)](#существующие-документы-dhlab-твой-contextdocs02-anthropic-vacancies355-существующие-документы-dhlab-твой-contextmd)
-  - [[Твой workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)](#твой-workflowdocs02-anthropic-vacancies356-твой-workflowmd)
-  - [[Твоя коммуникация в outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)](#твоя-коммуникация-в-outreachdocs02-anthropic-vacancies357-твоя-коммуникация-в-outreachmd)
-  - [[Твоя relationship с другими AI](docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md)](#твоя-relationship-с-другими-aidocs02-anthropic-vacancies358-твоя-relationship-с-другими-aimd)
-  - [[Твои anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md)](#твои-anti-patternsdocs02-anthropic-vacancies359-твои-anti-patternsmd)
-  - [[Essence](docs/02-anthropic-vacancies/36-essence.md)](#essencedocs02-anthropic-vacancies36-essencemd)
-  - [[Что ты ВСЕГДА делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)](#что-ты-всегда-делаешьdocs02-anthropic-vacancies360-что-ты-всегда-делаешьmd)
-  - [[Когда ты Honestly не знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)](#когда-ты-honestly-не-знаешьdocs02-anthropic-vacancies361-когда-ты-honestly-не-знаешьmd)
-  - [[Когда сомневаешься — escalate к Max](docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md)](#когда-сомневаешься-escalate-к-maxdocs02-anthropic-vacancies362-когда-сомневаешься-escalate-к-maxmd)
-  - [[Твоя identity как persistent character](docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md)](#твоя-identity-как-persistent-characterdocs02-anthropic-vacancies363-твоя-identity-как-persistent-charactermd)
-  - [[Final note: Ты — experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)](#final-note-ты-experimentdocs02-anthropic-vacancies364-final-note-ты-experimentmd)
-  - [[Развёрнутый анализ «внуковой» комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)](#развёрнутый-анализ-внуковой-комбинацииdocs02-anthropic-vacancies365-развёрнутый-анализ-внуковой-комбинацииmd)
-  - [[Технический stack (Svyazi 2.0 foundation)](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)](#технический-stack-svyazi-20-foundationdocs02-anthropic-vacancies366-технический-stack-svyazi-2-0-foundationmd)
-  - [[Native Format](docs/02-anthropic-vacancies/37-native-format.md)](#native-formatdocs02-anthropic-vacancies37-native-formatmd)
-  - [[Content Overview](docs/02-anthropic-vacancies/38-content-overview.md)](#content-overviewdocs02-anthropic-vacancies38-content-overviewmd)
-  - [[Angle / Perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)](#angle-perspectivedocs02-anthropic-vacancies39-angle-perspectivemd)
-  - [[Bridges](docs/02-anthropic-vacancies/40-bridges.md)](#bridgesdocs02-anthropic-vacancies40-bridgesmd)
-  - [[Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md)](#compatibility-leveldocs02-anthropic-vacancies41-compatibility-levelmd)
-  - [[Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md)](#author-contactdocs02-anthropic-vacancies42-author-contactmd)
-  - [[History](docs/02-anthropic-vacancies/43-history.md)](#historydocs02-anthropic-vacancies43-historymd)
-  - [[For the Curious: Philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md)](#for-the-curious-philosophydocs02-anthropic-vacancies44-for-the-curious-philosophymd)
-  - [[passports/pro2.md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)](#passportspro2mddocs02-anthropic-vacancies45-passports-pro2-mdmd)
-  - [[Essence](docs/02-anthropic-vacancies/46-essence.md)](#essencedocs02-anthropic-vacancies46-essencemd)
-  - [[Native Format](docs/02-anthropic-vacancies/47-native-format.md)](#native-formatdocs02-anthropic-vacancies47-native-formatmd)
-  - [[Content Overview](docs/02-anthropic-vacancies/48-content-overview.md)](#content-overviewdocs02-anthropic-vacancies48-content-overviewmd)
-  - [[Angle / Perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)](#angle-perspectivedocs02-anthropic-vacancies49-angle-perspectivemd)
-  - [[Bridges](docs/02-anthropic-vacancies/50-bridges.md)](#bridgesdocs02-anthropic-vacancies50-bridgesmd)
-  - [[Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md)](#compatibility-leveldocs02-anthropic-vacancies51-compatibility-levelmd)
-  - [[Author & Contact](docs/02-anthropic-vacancies/52-author-contact.md)](#author-contactdocs02-anthropic-vacancies52-author-contactmd)
-  - [[History](docs/02-anthropic-vacancies/53-history.md)](#historydocs02-anthropic-vacancies53-historymd)
-  - [[For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)](#for-the-curious-philosophydocs02-anthropic-vacancies54-for-the-curious-philosophymd)
-  - [[passports/meta.md](docs/02-anthropic-vacancies/55-passports-meta-md.md)](#passportsmetamddocs02-anthropic-vacancies55-passports-meta-mdmd)
-  - [[Essence](docs/02-anthropic-vacancies/56-essence.md)](#essencedocs02-anthropic-vacancies56-essencemd)
-  - [[Native Format](docs/02-anthropic-vacancies/57-native-format.md)](#native-formatdocs02-anthropic-vacancies57-native-formatmd)
-  - [[Content Overview](docs/02-anthropic-vacancies/58-content-overview.md)](#content-overviewdocs02-anthropic-vacancies58-content-overviewmd)
-  - [[Angle / Perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)](#angle-perspectivedocs02-anthropic-vacancies59-angle-perspectivemd)
-  - [[Bridges](docs/02-anthropic-vacancies/60-bridges.md)](#bridgesdocs02-anthropic-vacancies60-bridgesmd)
-  - [[Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md)](#compatibility-leveldocs02-anthropic-vacancies61-compatibility-levelmd)
-  - [[Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md)](#author-contactdocs02-anthropic-vacancies62-author-contactmd)
-  - [[History](docs/02-anthropic-vacancies/63-history.md)](#historydocs02-anthropic-vacancies63-historymd)
-  - [[For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md)](#for-the-curious-philosophydocs02-anthropic-vacancies64-for-the-curious-philosophymd)
-  - [[README.md](docs/02-anthropic-vacancies/65-readme-md.md)](#readmemddocs02-anthropic-vacancies65-readme-mdmd)
-  - [[🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md)](#о-проектеdocs02-anthropic-vacancies67-о-проектеmd)
-  - [[🇬🇧 About](docs/02-anthropic-vacancies/68-about.md)](#aboutdocs02-anthropic-vacancies68-aboutmd)
-  - [[⬡](docs/02-anthropic-vacancies/69-section.md)](#docs02-anthropic-vacancies69-sectionmd)
-  - [[Зачем две версии параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)](#зачем-две-версии-параллельноdocs02-anthropic-vacancies70-зачем-две-версии-параллельноmd)
-  - [[Критерии выбора для фазы 3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)](#критерии-выбора-для-фазы-3docs02-anthropic-vacancies71-критерии-выбора-для-фазы-3md)
-  - [[Расписание фазы 3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)](#расписание-фазы-3docs02-anthropic-vacancies72-расписание-фазы-3md)
-  - [[PORTAL-PROTOCOL.md v1.1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)](#portal-protocolmd-v11docs02-anthropic-vacancies73-portal-protocol-md-v1-1md)
-  - [[Abstract](docs/02-anthropic-vacancies/74-abstract.md)](#abstractdocs02-anthropic-vacancies74-abstractmd)
-  - [[0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)](#0-status-of-this-documentdocs02-anthropic-vacancies75-0-status-of-this-documentmd)
-  - [[1. Introduction](docs/02-anthropic-vacancies/76-1-introduction.md)](#1-introductiondocs02-anthropic-vacancies76-1-introductionmd)
-  - [[2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md)](#2-terminologydocs02-anthropic-vacancies77-2-terminologymd)
-  - [[3. Registry (nautilus.json)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)](#3-registry-nautilusjsondocs02-anthropic-vacancies78-3-registry-nautilus-jsonmd)
-  - [[4. Passport (passport.md)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)](#4-passport-passportmddocs02-anthropic-vacancies79-4-passport-passport-mdmd)
-  - [[5. Compatibility Levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)](#5-compatibility-levelsdocs02-anthropic-vacancies80-5-compatibility-levelsmd)
-  - [[6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)](#6-adapter-interfacedocs02-anthropic-vacancies81-6-adapter-interfacemd)
-  - [[7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)](#7-portalentry-structuredocs02-anthropic-vacancies82-7-portalentry-structuremd)
-  - [[8. Q6 Space (Normative)](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)](#8-q6-space-normativedocs02-anthropic-vacancies83-8-q6-space-normativemd)
-  - [[9. Consensus Algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)](#9-consensus-algorithmdocs02-anthropic-vacancies84-9-consensus-algorithmmd)
-  - [[10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md)](#10-query-flowdocs02-anthropic-vacancies85-10-query-flowmd)
-  - [[11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)](#11-relevance-rankingdocs02-anthropic-vacancies86-11-relevance-rankingmd)
-  - [[12. Onboarding Paths (Normative)](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)](#12-onboarding-paths-normativedocs02-anthropic-vacancies87-12-onboarding-paths-normativemd)
-  - [[13. REST API Contract (Normative for Portals)](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)](#13-rest-api-contract-normative-for-portalsdocs02-anthropic-vacancies88-13-rest-api-contract-normative-for-portalsmd)
-  - [[14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md)](#14-sdk-contract-informativedocs02-anthropic-vacancies89-14-sdk-contract-informativemd)
-  - [[15. Security Considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)](#15-security-considerationsdocs02-anthropic-vacancies90-15-security-considerationsmd)
-  - [[16. MCP Extension (Informative)](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)](#16-mcp-extension-informativedocs02-anthropic-vacancies91-16-mcp-extension-informativemd)
-  - [[17. Versioning Policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)](#17-versioning-policydocs02-anthropic-vacancies92-17-versioning-policymd)
-  - [[18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)](#18-reference-implementationdocs02-anthropic-vacancies93-18-reference-implementationmd)
-  - [[19. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)](#19-adr-001-federation-over-mergingdocs02-anthropic-vacancies94-19-adr-001-federation-over-mergingmd)
-  - [[20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)](#20-adr-002-q6-as-first-class-protocol-conceptdocs02-anthropic-vacancies95-20-adr-002-q6-as-first-class-protocol-conceptmd)
-  - [[21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)](#21-adr-003-five-onboarding-paths-as-equal-rankdocs02-anthropic-vacancies96-21-adr-003-five-onboarding-paths-as-equal-rankmd)
-  - [[22. Glossary of Reference Examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)](#22-glossary-of-reference-examplesdocs02-anthropic-vacancies97-22-glossary-of-reference-examplesmd)
-  - [[Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)](#appendix-a-minimal-working-exampledocs02-anthropic-vacancies98-appendix-a-minimal-working-examplemd)
-  - [[Q&A: 02-anthropic-vacancies](docs/02-anthropic-vacancies/QA.md)](#qa-02-anthropic-vacanciesdocs02-anthropic-vacanciesqamd)
-  - [[Вакансии Anthropic — Анализ по кластерам](docs/02-anthropic-vacancies/README.md)](#вакансии-anthropic-анализ-по-кластерамdocs02-anthropic-vacanciesreadmemd)
-- [📁 Technology Combinations (`docs/03-technology-combinations/`)](#technology-combinations-docs03-technology-combinations)
-  - [[Агентные системы и роутинг](docs/03-technology-combinations/01-agent-routing.md)](#агентные-системы-и-роутингdocs03-technology-combinations01-agent-routingmd)
-  - [[Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md)](#графы-знаний-и-legal-aidocs03-technology-combinations02-knowledge-graphsmd)
-  - [[Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md)](#local-first-и-p2p-стекdocs03-technology-combinations03-local-firstmd)
-  - [[Домен: немецкое социальное право](docs/03-technology-combinations/04-sozialrecht-domain.md)](#домен-немецкое-социальное-правоdocs03-technology-combinations04-sozialrecht-domainmd)
-  - [[Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md)](#бенчмарки-и-производительностьdocs03-technology-combinations05-benchmarksmd)
-  - [[Q&A: 03-technology-combinations](docs/03-technology-combinations/QA.md)](#qa-03-technology-combinationsdocs03-technology-combinationsqamd)
-  - [[Комбинирование технологий для новых свойств](docs/03-technology-combinations/README.md)](#комбинирование-технологий-для-новых-свойствdocs03-technology-combinationsreadmemd)
-- [📁 Ai Collaborations (`docs/04-ai-collaborations/`)](#ai-collaborations-docs04-ai-collaborations)
-  - [[Введение](docs/04-ai-collaborations/00-intro.md)](#введениеdocs04-ai-collaborations00-intromd)
-  - [[Executive summary](docs/04-ai-collaborations/01-executive-summary.md)](#executive-summarydocs04-ai-collaborations01-executive-summarymd)
-  - [[Методика и рамка отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md)](#методика-и-рамка-отбораdocs04-ai-collaborations02-методика-и-рамка-отбораmd)
-  - [[Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)](#карта-найденных-проектов-и-паттерновdocs04-ai-collaborations03-карта-найденных-проектов-и-паттерновmd)
-  - [[Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)](#приоритетные-ансамблиdocs04-ai-collaborations04-приоритетные-ансамблиmd)
-  - [[План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)](#план-прототипа-и-возможные-контактыdocs04-ai-collaborations05-план-прототипа-и-возможные-контактыmd)
-  - [[Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)](#безопасность-приватность-и-бюджетный-роутингdocs04-ai-collaborations06-безопасность-приватность-и-бюджетный-роутингmd)
-  - [[Выводы](docs/04-ai-collaborations/07-выводы.md)](#выводыdocs04-ai-collaborations07-выводыmd)
-  - [[Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)](#что-это-продолжение-добавляетdocs04-ai-collaborations08-что-это-продолжение-добавляетmd)
-  - [[Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)](#архитектурные-зазоры-которые-важнее-новых-инструментовdocs04-ai-collaborations09-архитектурные-зазоры-которые-важнее-новых-инструмеmd)
-  - [[Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)](#новые-ансамбли-следующего-шагаdocs04-ai-collaborations10-новые-ансамбли-следующего-шагаmd)
-  - [[Интеграционный контракт, который стоит зафиксировать сразу](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)](#интеграционный-контракт-который-стоит-зафиксировать-сразуdocs04-ai-collaborations11-интеграционный-контракт-который-стоит-зафиксироватmd)
-  - [[Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)](#дорожная-карта-прототипа-следующей-итерацииdocs04-ai-collaborations12-дорожная-карта-прототипа-следующей-итерацииmd)
-  - [[Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)](#контактная-стратегия-и-узкие-вопросы-для-авторовdocs04-ai-collaborations13-контактная-стратегия-и-узкие-вопросы-для-авторовmd)
-  - [[Ограничения, лицензии и что пока лучше не склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-что-пока-лучше-не-склеиватьdocs04-ai-collaborations14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьmd)
-  - [[Q&A: 04-ai-collaborations](docs/04-ai-collaborations/QA.md)](#qa-04-ai-collaborationsdocs04-ai-collaborationsqamd)
-  - [[Поиск AI-коллабораций](docs/04-ai-collaborations/README.md)](#поиск-ai-коллаборацийdocs04-ai-collaborationsreadmemd)
-- [📁 Habr Projects (`docs/05-habr-projects/`)](#habr-projects-docs05-habr-projects)
-  - [[Синтез: как проекты собираются вместе](docs/05-habr-projects/01-synthesis.md)](#синтез-как-проекты-собираются-вместеdocs05-habr-projects01-synthesismd)
-  - [[Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md)](#авторы-и-контактыdocs05-habr-projects02-collaboration-partnersmd)
-  - [[Q&A: 05-habr-projects](docs/05-habr-projects/QA.md)](#qa-05-habr-projectsdocs05-habr-projectsqamd)
-  - [[Уникальные проекты с Хабра](docs/05-habr-projects/README.md)](#уникальные-проекты-с-хабраdocs05-habr-projectsreadmemd)
-  - [[Системы знаний](docs/05-habr-projects/knowledge/README.md)](#системы-знанийdocs05-habr-projectsknowledgereadmemd)
-  - [[Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md)](#wikontic-семантический-графdocs05-habr-projectsknowledgewikonticmd)
-  - [[Системы памяти](docs/05-habr-projects/memory/README.md)](#системы-памятиdocs05-habr-projectsmemoryreadmemd)
-  - [[MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md)](#memnet-исследовательская-памятьdocs05-habr-projectsmemorymemnetmd)
-  - [[NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md)](#ngtngt-memory-ассоциативный-графdocs05-habr-projectsmemoryngt-memorymd)
-  - [[Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md)](#yodocayodoca-консолидация-и-забываниеdocs05-habr-projectsmemoryyodocamd)
-- [📁 Autofilled (`docs/autofilled/`)](#autofilled-docsautofilled)
-  - [[autofilled](docs/autofilled/README.md)](#autofilleddocsautofilledreadmemd)
-  - [[Антропик](docs/autofilled/components/.md)](#антропикdocsautofilledcomponentsmd)
-  - [[components](docs/autofilled/components/README.md)](#componentsdocsautofilledcomponentsreadmemd)
-  - [[Cowork](docs/autofilled/components/cowork.md)](#coworkdocsautofilledcomponentscoworkmd)
-  - [[ingit](docs/autofilled/components/ingit.md)](#ingitdocsautofilledcomponentsingitmd)
-  - [[kksudo](docs/autofilled/components/kksudo.md)](#kksudodocsautofilledcomponentskksudomd)
-  - [[Lorenzo](docs/autofilled/components/lorenzo.md)](#lorenzodocsautofilledcomponentslorenzomd)
-  - [[Nautilus](docs/autofilled/components/nautilus.md)](#nautilusdocsautofilledcomponentsnautilusmd)
-  - [[SGB](docs/autofilled/components/sgb.md)](#sgbdocsautofilledcomponentssgbmd)
-  - [[spbmolot](docs/autofilled/components/spbmolot.md)](#spbmolotdocsautofilledcomponentsspbmolotmd)
-  - [[svend4](docs/autofilled/components/svend4.md)](#svend4docsautofilledcomponentssvend4md)
-  - [[Svyazi](docs/autofilled/components/svyazi.md)](#svyazidocsautofilledcomponentssvyazimd)
-  - [[[Тема исследования]](docs/autofilled/research-summary.md)](#тема-исследованияdocsautofilledresearch-summarymd)
-- [📁 Badges (`docs/badges/`)](#badges-docsbadges)
-  - [[Бейджи репозитория](docs/badges/README.md)](#бейджи-репозиторияdocsbadgesreadmemd)
-- [📁 Contacts (`docs/contacts/`)](#contacts-docscontacts)
-  - [[contacts](docs/contacts/README.md)](#contactsdocscontactsreadmemd)
-  - [[Контакт: AnastasiyaW / knowledge-space, mclaude](docs/contacts/anastasiyaw.md)](#контакт-anastasiyaw-knowledge-space-mclaudedocscontactsanastasiyawmd)
-  - [[Контакт: andreychuyan / Svyazi](docs/contacts/andrey-chuyan.md)](#контакт-andreychuyan-svyazidocscontactsandrey-chuyanmd)
-  - [[Контакт: Antipozitive / MemNet](docs/contacts/antipozitive.md)](#контакт-antipozitive-memnetdocscontactsantipozitivemd)
-  - [[Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md)](#контакт-cutcode-aif-handoffdocscontactscutcodemd)
-  - [[Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md)](#контакт-dmitriila-sentineldocscontactsdmitriilamd)
-  - [[Контакт: kksudo / AgentFS](docs/contacts/kksudo.md)](#контакт-kksudo-agentfsdocscontactskksudomd)
-  - [[Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md)](#контакт-mixaill76-auto-ai-routerdocscontactsmixaill76md)
-  - [[Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md)](#контакт-nlaik-liteparse-research-docsdocscontactsnlaikmd)
-  - [[Контакт: SoniaBlack / knowledge-space](docs/contacts/sonia-black.md)](#контакт-soniablack-knowledge-spacedocscontactssonia-blackmd)
-  - [[Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md)](#контакт-spbmolot-ngt-memorydocscontactsspbmolotmd)
-  - [[Контакт: tagiranalyzes / Legal RAG](docs/contacts/tagir-analyzes.md)](#контакт-tagiranalyzes-legal-ragdocscontactstagir-analyzesmd)
-  - [[Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md)](#контакт-vitalyoborin-yodocadocscontactsvitalyoborinmd)
-  - [[Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md)](#контакт-vladspace-graph-ragdocscontactsvladspacemd)
-  - [[Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md)](#контакт-zodigancode-ruflerdocscontactszodigancodemd)
-- [📁 Templates (`docs/templates/`)](#templates-docstemplates)
-  - [[Шаблоны документов](docs/templates/README.md)](#шаблоны-документовdocstemplatesreadmemd)
-  - [[Спецификация агента: [Название]](docs/templates/agent-spec.md)](#спецификация-агента-названиеdocstemplatesagent-specmd)
-  - [[Контакт: [Имя / Проект]](docs/templates/contact-outreach.md)](#контакт-имя-проектdocstemplatescontact-outreachmd)
-  - [[Противоречие: [Название]](docs/templates/contradiction-record.md)](#противоречие-названиеdocstemplatescontradiction-recordmd)
-  - [[ADR: [Название решения]](docs/templates/decision-record.md)](#adr-название-решенияdocstemplatesdecision-recordmd)
-  - [[Ансамбль: [Название]](docs/templates/ensemble.md)](#ансамбль-названиеdocstemplatesensemblemd)
-  - [[Эксперимент: [Название]](docs/templates/experiment-log.md)](#эксперимент-названиеdocstemplatesexperiment-logmd)
-  - [[FAQ: [Вопрос]](docs/templates/faq-entry.md)](#faq-вопросdocstemplatesfaq-entrymd)
-  - [[[Термин]](docs/templates/glossary-entry.md)](#терминdocstemplatesglossary-entrymd)
-  - [[KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md)](#kpi-snapshot-датаdocstemplateskpi-snapshotmd)
-  - [[Юридический кейс: [Aktenzeichen]](docs/templates/legal-case.md)](#юридический-кейс-aktenzeichendocstemplateslegal-casemd)
-  - [[Встреча: [Тема]](docs/templates/meeting-notes.md)](#встреча-темаdocstemplatesmeeting-notesmd)
-  - [[Mega-stack: [Название]](docs/templates/mega-stack.md)](#mega-stack-названиеdocstemplatesmega-stackmd)
-  - [[[Название компонента]](docs/templates/project-component.md)](#название-компонентаdocstemplatesproject-componentmd)
-  - [[[Название протокола]](docs/templates/protocol-spec.md)](#название-протоколаdocstemplatesprotocol-specmd)
-  - [[MVP: [Название]](docs/templates/prototype-mvp.md)](#mvp-названиеdocstemplatesprototype-mvpmd)
-  - [[[Тема исследования]](docs/templates/research-note.md)](#тема-исследованияdocstemplatesresearch-notemd)
-  - [[Ретроспектива: [период]](docs/templates/retrospective.md)](#ретроспектива-периодdocstemplatesretrospectivemd)
-  - [[RFC NNNN: [Название]](docs/templates/rfc.md)](#rfc-nnnn-названиеdocstemplatesrfcmd)
-  - [[Риск: [Название]](docs/templates/risk-entry.md)](#риск-названиеdocstemplatesrisk-entrymd)
-  - [[Tech Pair: [A] × [B]](docs/templates/tech-pair.md)](#tech-pair-a-bdocstemplatestech-pairmd)
-  - [[Tech Radar: [Название]](docs/templates/tech-radar-entry.md)](#tech-radar-названиеdocstemplatestech-radar-entrymd)
-  - [[[имя нового шаблона]](docs/templates/template-of-templates.md)](#имя-нового-шаблонаdocstemplatestemplate-of-templatesmd)
-  - [[Еженедельный дайджест: [период]](docs/templates/weekly-digest.md)](#еженедельный-дайджест-периодdocstemplatesweekly-digestmd)
-- [🗺️ Тематическая карта](#тематическая-карта)
-  - [Архитектура (260 документов)](#архитектура-260-документов)
-  - [Проекты (59 документов)](#проекты-59-документов)
-  - [Агенты (47 документов)](#агенты-47-документов)
-  - [Анализ (47 документов)](#анализ-47-документов)
-  - [Документация (45 документов)](#документация-45-документов)
-  - [Контакты (32 документов)](#контакты-32-документов)
-  - [Память (11 документов)](#память-11-документов)
-  - [Код (6 документов)](#код-6-документов)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
-_Обновлено: 2026-04-29_
-
-Секций: **18** | Файлов: **1182**
+Секций: **20** | Файлов: **1204**
 
 ## Содержание
 
-- [Docs](#docs) — 92 файлов
+- [Docs](#docs) — 94 файлов
 - [Svyazi](#svyazi) — 16 файлов
 - [Anthropic Vacancies](#anthropic-vacancies) — 357 файлов
 - [Technology Combinations](#technology-combinations) — 7 файлов
@@ -597,7 +20,9 @@ _Обновлено: 2026-04-29_
 - [Glossary](#glossary) — 4 файлов
 - [Habr Unique Projects](#habr-unique-projects) — 56 файлов
 - [Lorenzo Agent](#lorenzo-agent) — 62 файлов
+- [Meta Scripting](#meta-scripting) — 7 файлов
 - [Nautilus](#nautilus) — 255 файлов
+- [Processing Guide](#processing-guide) — 13 файлов
 - [Svyazi 2 0](#svyazi-2-0) — 59 файлов
 - [Technology Combinations](#technology-combinations) — 53 файлов
 - [Templates](#templates) — 24 файлов
@@ -610,22 +35,22 @@ _Обновлено: 2026-04-29_
 
   - Самые часто используемые
 
-_Слов: 1420_
+_Слов: 1697_
 
 ### [Action Items, риски и решения](docs/ACTION_ITEMS.md)
 > Автоматически извлечено из всех документов.
 
-  - ➡️ Следующие шаги (197)
-  - ✅ Решения и рекомендации (351)
-  - ⚠️ Риски (680)
-  - 🚫 Ограничения (205)
-  - 📋 Задачи (TODO) (18)
-  - 📬 Контактные действия (179)
+  - ➡️ Следующие шаги (273)
+  - ✅ Решения и рекомендации (493)
+  - ⚠️ Риски (954)
+  - 🚫 Ограничения (262)
+  - 📋 Задачи (TODO) (34)
+  - 📬 Контактные действия (247)
 
-_Слов: 7112_
+_Слов: 9180_
 
 ### [Callout-блоки](docs/ALERTS.md)
-> Добавлено 72 callout-блоков в документы.
+> Добавлено 55 callout-блоков в документы.
 
   - Пример синтаксиса
 
@@ -646,53 +71,51 @@ _Слов: 158_
   - Связанные документы
   - Упоминается в
 
-_Слов: 158_
+_Слов: 187_
 
 ### [Индекс обратных ссылок](docs/BACKLINKS.md)
-> > > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> Файлов с входящими ссылками: 1786
 
-  - Содержание
   - Топ-30 самых цитируемых документов
   - Ссылки по разделам
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 578_
+_Слов: 527_
+
+### [Status Badges](docs/BADGES.md)
+> Обновлено: 2026-05-10
+
+  - Превью
+  - Markdown сниппеты для README
+
+_Слов: 42_
 
 ### [CHANGELOG](docs/CHANGELOG.md)
-> Всего коммитов: 54
+> Всего коммитов: 158
 
-  - 2026-04-29 (53 коммитов)
+  - semantic (1 коммитов)
+  - md (1 коммитов)
+  - 2026-05-10 (11 коммитов)
+  - 2026-04-29 (141 коммитов)
+  - skip  (1 коммитов)
+  - 22 скила  (1 коммитов)
+  - $.STEP.ou (1 коммитов)
   - (1 коммитов)
 
-_Слов: 977_
+_Слов: 2285_
 
 ### [Changelog (авто)](docs/CHANGELOG_AUTO.md)
 > > - Статистика коммитов(#статистика-коммитов)
 
+  - Содержание
+  - Contents
   - Статистика коммитов
   - История изменений
   - Упоминается в
   - Связанные документы
 
-_Слов: 665_
+_Слов: 681_
 
 ### [Кластеры тематически близких файлов](docs/CLUSTERS.md)
-> > - Кластер 1 — cowork, ingit, yes, project (22 файлов)(#кластер-1-cowork-ingit-yes-project-22-файлов)
-
-  - Contents
-  - Кластер 1 — cowork, ingit, yes, project (22 файлов)
-  - Кластер 2 — professional, agent, colleague, type (17 файлов)
-  - Кластер 3 — turn, view, cite, search (16 файлов)
-  - Кластер 4 — repo, passport, npp, json (15 файлов)
-  - Кластер 5 — str, query, portal, consensus (15 файлов)
-  - Кластер 6 — документ, document, com, github (14 файлов)
-  - Кластер 7 — turn, view, label, svyazi (13 файлов)
-  _... ещё 26 разделов_
-
-_Слов: 1719_
-
-### [Code-блоки репозитория](docs/CODE_BLOCKS.md)
 > > !TIP
 
   - Кластер 1 — turn, view, svyazi, cardindex (30 файлов)
@@ -705,31 +128,47 @@ _Слов: 1719_
   - Кластер 8 — composite-skills-agent-md, representative-agent-layer-md, markdown, сходство (11 файлов)
   _... ещё 22 разделов_
 
-_Слов: 1380_
+_Слов: 1409_
+
+### [Code-блоки репозитория](docs/CODE_BLOCKS.md)
+> > !TIP
+
+  - 📊 Диаграммы Mermaid (32)
+- ... (обрезано)
+- ... (обрезано)
+  - 🐍 Python (114)
+- ... (обрезано)
+- ... (обрезано)
+- ... (обрезано)
+  - 📋 YAML (23)
+  _... ещё 51 разделов_
+
+_Слов: 5259_
 
 ### [Сравнение с предыдущим коммитом](docs/COMPARE.md)
-> Файлов было: 763  стало: 1053
+> Файлов было: 1448  стало: 1741
 
-  - Новые файлы (290)
+  - Новые файлы (293)
   - Удалённые файлы (0)
-  - Изменившиеся файлы (126) — топ по Δ слов
+  - Изменившиеся файлы (570) — топ по Δ слов
 
 _Слов: 477_
 
 ### [Оценка читаемости документов](docs/COMPLEXITY.md)
-> Файлов проанализировано: 1038
+> > !WARNING
 
   - Распределение сложности
   - Самые сложные документы
   - Самые простые документы
   - Методология
 
-_Слов: 573_
+_Слов: 605_
 
 ### [Матрица компонентов Svyazi 2.0](docs/COMPONENT_MATRIX.md)
 > > !TIP
 
   - Содержание
+  - Contents
   - Матрица возможностей
   - Покрытие возможностей
   - Каталог компонентов
@@ -738,7 +177,7 @@ _Слов: 573_
   - Связанные документы
   _... ещё 1 разделов_
 
-_Слов: 1035_
+_Слов: 1051_
 
 ### [Глоссарий понятий](docs/CONCEPTS.md)
 > > !TIP
@@ -753,17 +192,15 @@ _Слов: 1035_
   - H
   _... ещё 47 разделов_
 
-_Слов: 11434_
+_Слов: 13914_
 
 ### [Граф концептов базы знаний](docs/CONCEPT_GRAPH.md)
-> > Концептов: 40  Связей: 733 (мин. вес: 2)
+> > Концептов: 40  Связей: 764 (мин. вес: 2)
 
-  - Содержание
   - Диаграмма
   - Топ концептов по связям
-  - Упоминается в
 
-_Слов: 715_
+_Слов: 697_
 
 ### [Согласованность терминов](docs/CONSISTENCY.md)
 > Анализ различных написаний одних и тех же терминов.
@@ -772,7 +209,7 @@ _Слов: 715_
   - Как исправить
 - Пример: заменить все вхождения в docs/
 
-_Слов: 375_
+_Слов: 495_
 
 ### [Контакты и авторы](docs/CONTACTS.md)
 >  Автор  Проект  Слой  Упомянут в файлах  Первый вопрос 
@@ -782,10 +219,10 @@ _Слов: 375_
   - Email адреса
   - Шаблон первого сообщения
 
-_Слов: 547_
+_Слов: 552_
 
 ### [Приоритет контактов](docs/CONTACT_PRIORITY.md)
-> Обновлено: 2026-04-29
+> Обновлено: 2026-05-10
 
   - Топ авторов по приоритету
   - Рекомендуемые следующие шаги
@@ -794,14 +231,12 @@ _Слов: 547_
 _Слов: 364_
 
 ### [Противоречия в базе знаний](docs/CONTRADICTIONS.md)
-> > Утверждений: 33803  Противоречий: 4792
+> > !WARNING
 
   - Содержание
   - Найденные противоречия
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 1452_
+_Слов: 2071_
 
 ### [Оценка стоимости MVP](docs/COST.md)
 > Ориентировочные цифры на основе документации проекта.
@@ -813,7 +248,7 @@ _Слов: 1452_
   - Временные оценки из документов
   - Допущения
 
-_Слов: 547_
+_Слов: 502_
 
 ### [Перекрёстные ссылки](docs/CROSSREFS.md)
 > > !TIP
@@ -821,22 +256,33 @@ _Слов: 547_
   - Проекты → файлы
   - Файлы → проекты
 
-_Слов: 655_
+_Слов: 653_
+
+### [Кросс-секционный анализ](docs/CROSS_SECTION.md)
+> > (косинусное сходство TF-IDF векторов)
+
+  - Содержание
+  - Матрица сходства секций
+  - Граф связей
+  - Топ-40 кросс-секционных концептов
+  - Детальная карта концептов
+
+_Слов: 1256_
 
 ### [Ключевые решения и выводы](docs/DECISIONS.md)
-> Автоматически извлечено из всех документов: 451 записей
+> Автоматически извлечено из всех документов: 624 записей
 
-  - Архитектура (44)
-  - Mvp (11)
-  - Память (12)
-  - Оркестрация (23)
-  - Безопасность (2)
-  - Лицензия (14)
-  - Риски (3)
-  - Контакты (23)
+  - Архитектура (61)
+  - Mvp (10)
+  - Память (16)
+  - Оркестрация (26)
+  - Безопасность (3)
+  - Лицензия (18)
+  - Риски (5)
+  - Контакты (35)
   _... ещё 1 разделов_
 
-_Слов: 1968_
+_Слов: 2567_
 
 ### [Карта плотности тем](docs/DENSITY.md)
 > > !TIP
@@ -848,7 +294,7 @@ _Слов: 1968_
 _Слов: 650_
 
 ### [Мониторинг зависимостей](docs/DEPENDABOT.md)
-> Обновлено: 2026-04-29
+> Обновлено: 2026-05-10
 
   - Python-зависимости
   - OSS-проекты (Svyazi 2.0)
@@ -865,43 +311,60 @@ _Слов: 136_
   - Зависимости
   - Скрипты без карты зависимостей
   - Порядок запуска (рекомендуемый)
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 1103_
+_Слов: 1157_
 
 ### [Дайджест изменений](docs/DIGEST.md)
-> > > fix: fix 8607 broken internal links, improve health score formula
+> > > chore: update generated docs — auto-enrichment, TOC, summaries, meta-scripting
 
-  - Contents
   - Последний коммит
   - Последние 3 коммита — итого
   - Новые документы
   - История коммитов (последние 15)
   - Текущее состояние репозитория
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 388_
+_Слов: 360_
+
+### [Автодайджест изменений](docs/DIGEST_AUTO.md)
+> Период: 2026-05-03 — 2026-05-10 (7 дней)
+
+  - Сводка
+  - Активность по секциям
+  - Последние коммиты
+  - Новые файлы
+  - Изменённые файлы
+  - Ключевые слова изменений
+  - Новые концепты
+
+_Слов: 470_
 
 ### [Еженедельный дайджест — 2026-04-29](docs/DIGEST_WEEKLY.md)
 > > Период: последние 7 дней (с 2026-04-22)
 
   - Итого
   - Коммиты
-  - Упоминается в
 
-_Слов: 244_
+_Слов: 232_
 
 ### [Отчёт о дублировании](docs/DUPLICATES.md)
 > > !TIP
 
+  - Точные дубли (одинаковое содержимое)
   - Похожие файлы (Jaccard ≥ 0.5)
 
-_Слов: 2412_
+_Слов: 2324_
+
+### [Пустые секции](docs/EMPTY_SECTIONS.md)
+> > !TIP
+
+  - Содержание
+  - Файлы с ≥50% пустых секций (приоритет)
+  - Все файлы с пустыми секциями
+
+_Слов: 15794_
 
 ### [Именованные сущности](docs/ENTITIES.md)
-> Файлов просмотрено: 1047
+> Файлов просмотрено: 1735
 
   - Люди и авторы (7)
   - Проекты (22)
@@ -913,7 +376,7 @@ _Слов: 2412_
 _Слов: 742_
 
 ### [Часто задаваемые вопросы (FAQ)](docs/FAQ.md)
-> Извлечено: 104 вопросов и ответов
+> Извлечено: 177 вопросов и ответов
 
   - Архитектура
   - MVP/Запуск
@@ -925,7 +388,7 @@ _Слов: 742_
 _Слов: 892_
 
 ### [Сноски и определения терминов](docs/FOOTNOTES.md)
-> Обновлено файлов: 4  Вставлено сносок: 15
+> Обновлено файлов: 3  Вставлено сносок: 11
 
   - Словарь сносок
   - Как это работает
@@ -936,7 +399,7 @@ _Слов: 275_
 > Все проекты, упоминаемые в документах, с количеством файлов.
 
 
-_Слов: 204_
+_Слов: 222_
 
 ### [Граф связей проектов](docs/GRAPH.md)
 > Рёбра = совместные упоминания в одном файле (≥ 2 раз).
@@ -944,19 +407,28 @@ _Слов: 204_
   - Топ совместных упоминаний
   - DOT-формат (Graphviz)
 
-_Слов: 2647_
+_Слов: 2655_
+
+### [Аудит заголовков](docs/HEADING_AUDIT.md)
+> > !TIP
+
+  - Содержание
+  - Типы проблем
+  - По файлам
+
+_Слов: 9317_
 
 ### [Health Dashboard](docs/HEALTH.md)
-> Обновлено: 2026-04-29
+> Обновлено: 2026-05-10
 
-  - Общий балл: 84/100 🟡
+  - Общий балл: 80/100 🟡
   - Метрики
   - Структура репозитория
   - Action Items
   - Скрипты обработки
   - Рекомендации
 
-_Слов: 214_
+_Слов: 236_
 
 ### [Тепловая карта тем](docs/HEATMAP.md)
 > > !TIP
@@ -965,7 +437,7 @@ _Слов: 214_
   - Доминирующие темы по разделам
   - Концентрация тем
 
-_Слов: 525_
+_Слов: 537_
 
 ### [Индекс документации — Lorenzo / Svyazi 2.0](docs/INDEX.md)
 > > !TIP
@@ -980,48 +452,54 @@ _Слов: 525_
 - Читать документацию
   _... ещё 4 разделов_
 
-_Слов: 672_
+_Слов: 694_
 
 ### [Инвертированный индекс ключевых слов](docs/KEYWORD_INDEX.md)
-> > Уникальных слов: 23399  Биграмм: 14053  Файлов: 517
+> > > 🎯 Проблема: Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов:…
 
   - Топ слов по охвату файлов
   - Топ биграмм (устойчивые словосочетания)
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 1198_
+_Слов: 1162_
+
+### [Карта базы знаний Lorenzo](docs/KNOWLEDGE_MAP.md)
+> Обновлено: 2026-05-10
+
+  - Корпус
+  - Метрики качества
+  - По секциям
+  - Ключевые концепты
+  - Топ сущностей
+  - Открытые вопросы
+  - Быстрые команды
+- Поиск
+  _... ещё 2 разделов_
+
+_Слов: 616_
 
 ### [Числовые KPI и метрики](docs/KPI.md)
 > > !TIP
 
-  - Количество (321)
-  - Проценты (193)
-  - Время (318)
-  - Стоимость (541)
-  - Размер (49)
-  - Версия (442)
-  - Рейтинг (60)
-  - Этап (55)
+  - Количество (432)
+  - Проценты (305)
+  - Время (444)
+  - Стоимость (757)
+  - Размер (65)
+  - Версия (636)
+  - Рейтинг (77)
+  - Этап (129)
 
-_Слов: 2327_
+_Слов: 2736_
 
 ### [История метрик KPI](docs/KPI_HISTORY.md)
 > > Последнее обновление: 2026-04-29 · Снапшотов в истории: 1
 
   - Текущие метрики
 
-_Слов: 106_
+_Слов: 128_
 
-### [Индекс ссылок](docs/LINKS.md)
+### [Языковой состав документов](docs/LANGUAGE_STATS.md)
 > > !TIP
-
-
-_Слов: 1028_
-
-### [AI-саммари разделов документации](docs/LLM_SUMMARIES.md)
-> > - Архитектура Svyazi 2.0(#архитектура-svyazi-20)
 
   - Содержание
   - Распределение
@@ -1029,17 +507,18 @@ _Слов: 1028_
   - Смешанные файлы (MIX)
   - По секциям
 
-_Слов: 6767_
+_Слов: 6783_
 
 ### [Индекс ссылок](docs/LINKS.md)
-> Всего уникальных URL: 230
+> > !TIP
 
 
-_Слов: 1029_
+_Слов: 1060_
 
 ### [AI-саммари разделов документации](docs/LLM_SUMMARIES.md)
-> > Модель: claude-haiku-4-5 · Разделов: 5
+> > - Архитектура Svyazi 2.0(#архитектура-svyazi-20)
 
+  - Contents
   - Архитектура Svyazi 2.0
   - Вакансии Anthropic
   - Комбинации технологий
@@ -1049,7 +528,7 @@ _Слов: 1029_
   - Связанные документы
   _... ещё 1 разделов_
 
-_Слов: 284_
+_Слов: 300_
 
 ### [MCP Dashboard](docs/MCP_DASHBOARD.md)
 > Обновлено: 2026-04-29
@@ -1060,15 +539,30 @@ _Слов: 284_
 
 _Слов: 327_
 
+### [Методология работы со скриптами](docs/METHODOLOGY.md)
+> > > Принципы: скрипты работают по вызову, под контролем человека или Claude.
+
+  - Содержание
+  - Основной принцип
+  - Три категории скриптов
+  - Типичные рабочие сессии
+- Прочитать docs/HEALTH.md и docs/BROKENLINKS.md
+- Коммитить не обязательно
+- Проверить результат в docs/05-habr-projects/
+- Порядок важен: индексы должны быть готовы до контентных скриптов
+  _... ещё 3 разделов_
+
+_Слов: 998_
+
 ### [Метрики качества документации](docs/METRICS.md)
-> Файлов: 1038  Средний балл: 73.2/100
+> Файлов: 1718  Средний балл: 72.1/100
 
   - Качество по разделам
   - Топ-15 лучших документов
-  - Документы, требующие улучшения (15)
+  - Документы, требующие улучшения (19)
   - Общие показатели
 
-_Слов: 421_
+_Слов: 475_
 
 ### [Майндмап репозитория Lorenzo](docs/MINDMAP.md)
 > mermaid
@@ -1091,15 +585,13 @@ _Слов: 434_
 > > !TIP
 
   - Содержание
-  - 👤 People (16)
-  - 📦 Projects (92)
-  - ⚙️ Tech (29)
+  - 👤 People (19)
+  - 📦 Projects (97)
+  - ⚙️ Tech (31)
   - 🏢 Orgs (8)
-  - 📅 Dates (30)
-  - Упоминается в
-  - Связанные документы
+  - 📅 Dates (35)
 
-_Слов: 1636_
+_Слов: 1640_
 
 ### [Нарратив проекта Lorenzo](docs/NARRATIVE.md)
 > Связный рассказ о том, как складывается проект — от первых идей до конкретных планов.
@@ -1114,7 +606,7 @@ _Слов: 1636_
   - Глава 8: Команда и контакты
   _... ещё 4 разделов_
 
-_Слов: 1090_
+_Слов: 1055_
 
 ### [Сеть проектов и авторов](docs/NETWORK.md)
 > Узлов: 20  Связей: 190
@@ -1123,7 +615,7 @@ _Слов: 1090_
   - Центральность узлов (влиятельность)
   - Авторы ↔ Проекты
 
-_Слов: 413_
+_Слов: 414_
 
 ### [Онбординг — Svyazi 2.0 / Lorenzo](docs/ONBOARDING.md)
 > > !TIP
@@ -1135,18 +627,19 @@ _Слов: 413_
 - 2. Прочитать Executive Summary
 - 3. Посмотреть статус проекта
 - 4. Прочитать FAQ
-  _... ещё 15 разделов_
+- 5. Запустить скрипты (генерация/обновление docs)
+  _... ещё 11 разделов_
 
-_Слов: 668_
+_Слов: 576_
 
 ### [Изолированные документы (Orphans)](docs/ORPHANS.md)
-> Найдено: 1 файлов без входящих ссылок из 931 проверено.
+> Найдено: 396 файлов без входящих ссылок из 1533 проверено.
 
   - Топ-20 по объёму (важные и изолированные)
   - По разделам
   - Рекомендации
 
-_Слов: 105_
+_Слов: 302_
 
 ### [Качество абзацев](docs/PARAGRAPH_QUALITY.md)
 > > !TIP
@@ -1154,10 +647,16 @@ _Слов: 105_
   - Содержание
   - Типы проблем
   - По файлам
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 6685_
+_Слов: 10093_
+
+### [Пассивный залог и канцеляризмы](docs/PASSIVE_VOICE.md)
+> > Файлов: 882  Средний пассив: 1.7% (🟢 Активный стиль)
+
+  - Корпусная статистика
+  - Топ файлов по доле пассива
+
+_Слов: 408_
 
 ### [Приоритеты файлов](docs/PRIORITIES.md)
 > > !TIP
@@ -1165,10 +664,10 @@ _Слов: 6685_
   - Топ-50 самых важных файлов
   - Топ-5 по каждому разделу
 
-_Слов: 3028_
+_Слов: 3158_
 
 ### [Прогресс MVP](docs/PROGRESS.md)
-> Обновлено: 2026-04-29 (improveprogresssync.py)
+> Обновлено: 2026-05-10 (improveprogresssync.py)
 
   - Ключевые этапы (Milestones)
   - Состояние компонентов
@@ -1181,6 +680,21 @@ _Слов: 3028_
 
 _Слов: 261_
 
+### [Svyazi 2.0 — Спецификация прототипа](docs/PROTOTYPE_SPEC.md)
+> > !TIP
+
+  - Содержание
+  - 1. Цель прототипа
+  - 2. Компоненты MVP (три слоя)
+  - 3. Интеграционные контракты
+  - 4. Архитектура прототипа
+  - 5. Итерации MVP
+  - 6. Технический стек
+  - 7. Риски и митигация
+  _... ещё 2 разделов_
+
+_Слов: 1377_
+
 ### [Глобальный Q&A](docs/QA.md)
 > Вопросы и ответы по всем разделам монорепозитория.
 
@@ -1192,22 +706,29 @@ _Слов: 261_
   - Какова политика доступа по умолчанию (tool classes)?
   - Как организован бюджетный роутинг между моделями?
   - Какие 5 архитектурных зазоров выделены в исследовании?
-  _... ещё 97 разделов_
+  _... ещё 150 разделов_
 
-_Слов: 1383_
+_Слов: 1975_
 
 ### [Открытые вопросы](docs/QUESTIONS.md)
 > > !WARNING
 
-  - Архитектура (31)
-  - Интеграция (20)
-  - Mvp/сроки (28)
-  - Технология (115)
-  - Лицензия (24)
-  - Команда (48)
-  - Общее (769)
+  - Архитектура (47)
+  - Интеграция (31)
+  - Mvp/сроки (42)
+  - Технология (196)
+  - Лицензия (34)
+  - Команда (61)
+  - Общее (1095)
 
-_Слов: 1838_
+_Слов: 1852_
+
+### [Список чтения](docs/READING_LIST.md)
+> > по запросу «RAG retrieval»  Документов: 5  Время: ~20 мин (0ч 20м)
+
+  - По секциям
+
+_Слов: 232_
 
 ### [Рекомендуемый порядок чтения](docs/READING_ORDER.md)
 > От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -1217,15 +738,30 @@ _Слов: 1838_
 _Слов: 5947_
 
 ### [docs](docs/README.md)
-> Файлов: 86
+> Файлов: 106
 
   - Содержание
   - Подразделы
 
-_Слов: 658_
+_Слов: 847_
 
-### [Executive Report: Репозиторий Lorenzo](docs/REPORT.md)
-> Дата генерации: 2026-04-29
+### [REGISTRY — реестр артефактов Lorenzo](docs/REGISTRY.md)
+> Обновлено: 2026-05-10
+
+  - Сводка
+  - Скрипты по группам
+  - Шаблоны
+  - Скилы
+  - MCP-серверы
+  - Манифесты задач
+  - Контакты
+  - Полезные команды
+  _... ещё 6 разделов_
+
+_Слов: 1327_
+
+### [Svyazi 2.0 — Knowledge Base Report](docs/REPORT.md)
+> Сгенерировано автоматически: 2026-05-10
 
   - Содержание
   - Executive Summary
@@ -1237,12 +773,13 @@ _Слов: 658_
   - Рекомендуемое чтение
   _... ещё 4 разделов_
 
-_Слов: 911_
+_Слов: 932_
 
 ### [Реестр рисков — Svyazi 2.0](docs/RISK_REGISTER.md)
 > > !TIP
 
   - Содержание
+  - Contents
   - Матрица рисков (Вероятность × Влияние)
   - Реестр
   - Митигации
@@ -1250,7 +787,7 @@ _Слов: 911_
   - Итоговая статистика
   - Упоминается в
 
-_Слов: 1068_
+_Слов: 1088_
 
 ### [Расписание проекта](docs/SCHEDULE.md)
 > Дорожная карта с вехами и задачами по кварталам.
@@ -1263,7 +800,7 @@ _Слов: 1068_
 _Слов: 271_
 
 ### [Оценка готовности проекта (Go/No-Go)](docs/SCORING.md)
-> Дата: 2026-04-29
+> Дата: 2026-05-10
 
   - Итог: 154/164 (93%) — 🟢 GO
   - Документация — 48/48 (100%) 🟢 GO
@@ -1276,8 +813,22 @@ _Слов: 271_
 
 _Слов: 338_
 
+### [Каталог скриптов](docs/SCRIPTS_CATALOG.md)
+> Обновлено: 2026-05-10
+
+  - По группам
+  - Подробно
+
+_Слов: 7281_
+
+### [Результаты поиска](docs/SEARCH_RESULTS.md)
+> Обновлено: 2026-05-10
+
+
+_Слов: 73_
+
 ### [Индекс «Смотрите также»](docs/SEE_ALSO.md)
-> Файлов с блоком See Also: 514
+> Файлов с блоком See Also: 1129
 
   - Ключевые связи
 
@@ -1291,21 +842,27 @@ _Слов: 220_
   - Самые скептичные / риск-ориентированные
   - Распределение тональности
 
-_Слов: 487_
+_Слов: 561_
 
 ### [Похожие документы](docs/SIMILAR.md)
-> > - Топ-20 самых похожих пар(#топ-20-самых-похожих-пар)
+> > !TIP
 
   - Топ-20 самых похожих пар
   - По разделам
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 419_
+_Слов: 341_
+
+### [Похожие абзацы между документами](docs/SIMILAR_PASSAGES.md)
+> > !TIP
+
+  - Содержание
+  - Contents
+  - Найденные похожие абзацы
+
+_Слов: 1931_
 
 ### [Карта репозитория Lorenzo](docs/SITEMAP.md)
-> Обновлено: 2026-04-29
+> Обновлено: 2026-05-10
 
   - Навигация
   - Мета-документы
@@ -1315,15 +872,15 @@ _Слов: 419_
   - AI Коллаборации — ансамбли проектов
   - Хабр-проекты — память и граф
   - ai-collaborations
-  _... ещё 10 разделов_
+  _... ещё 13 разделов_
 
-_Слов: 7078_
+_Слов: 8315_
 
 ### [Skill Dashboard](docs/SKILL_DASHBOARD.md)
-> > Лог метрик не найден (.claude/skillmetrics.jsonl).
+> Обновлено: 2026-05-10
 
 
-_Слов: 35_
+_Слов: 21_
 
 ### [Карта происхождения текстов](docs/SOURCE_MAP.md)
 > > !TIP
@@ -1331,21 +888,34 @@ _Слов: 35_
   - Содержание
   - Категории
   - Авторы
-  - 🤖 Авто-импортированные файлы (782)
-  - 🔗 Файлы с внешними ссылками (113)
-  - Упоминается в
-  - Связанные документы
+  - 🤖 Авто-импортированные файлы (846)
+  - 🔗 Файлы с внешними ссылками (97)
 
-_Слов: 5804_
+_Слов: 5728_
 
 ### [Детальная статистика репозитория](docs/STATS.md)
-> Разделов: 11  Файлов: 1047  Слов: 1,199,279  Символов: 10,227,651
+> Разделов: 21  Файлов: 1735  Слов: 1,782,544  Символов: 15,653,958
 
   - Сводная таблица по разделам
   - Топ-20 файлов по объёму
   - Ключевые показатели
 
-_Слов: 630_
+_Слов: 681_
+
+### [Резюме документов (TextRank)](docs/SUMMARIES.md)
+> > !TIP
+
+  - Содержание
+  - Contents
+  - docs/01-svyazi/01-executive-summary.md
+  - docs/01-svyazi/02-methodology.md
+  - docs/01-svyazi/03-component-catalog.md
+  - docs/01-svyazi/04-ensembles-overview.md
+  - docs/01-svyazi/06-security-privacy.md
+  - docs/01-svyazi/07-mvp-planning.md
+  _... ещё 44 разделов_
+
+_Слов: 3910_
 
 ### [Все таблицы репозитория](docs/TABLES.md)
 > > !TIP
@@ -1358,23 +928,21 @@ _Слов: 630_
   - ai-collaborations (13 таблиц)
   - anthropic-vacancies (2 таблиц)
   - contacts (14 таблиц)
-  - obsidian (253 таблиц)
-  - root (160 таблиц)
-  _... ещё 1 разделов_
+  _... ещё 11 разделов_
 
-_Слов: 136260_
+_Слов: 192814_
 
 ### [Индекс тегов](docs/TAGS.md)
 > Каждый файл помечен тегами по темам автоматически.
 
-  - #anthropic (55 файлов)
-  - #architecture (48 файлов)
-  - #collaboration (58 файлов)
-  - #ingestion (57 файлов)
-  - #knowledge (36 файлов)
-  - #local-first (26 файлов)
-  - #memory (48 файлов)
-  - #orchestration (31 файлов)
+  - #anthropic (38 файлов)
+  - #architecture (38 файлов)
+  - #collaboration (43 файлов)
+  - #ingestion (35 файлов)
+  - #knowledge (26 файлов)
+  - #local-first (16 файлов)
+  - #memory (29 файлов)
+  - #orchestration (21 файлов)
   _... ещё 4 разделов_
 
 _Слов: 600_
@@ -1392,6 +960,7 @@ _Слов: 1012_
 > > !WARNING
 
   - Содержание
+  - Contents
   - Обзор
   - 🟢 ADOPT
   - 🔵 TRIAL
@@ -1400,23 +969,24 @@ _Слов: 1012_
   - Методология
   _... ещё 1 разделов_
 
-_Слов: 662_
+_Слов: 684_
 
 ### [Хронология и временные маркеры](docs/TIMELINE.md)
 > > !TIP
 
-  - Точная дата (2918)
-  - Год (219)
-  - Месяц+год (368)
-  - Период (35)
-  - Фаза (666)
-  - Длительность (471)
-  - Версия (1259)
+  - Точная дата (4387)
+  - Год (247)
+  - Квартал (11)
+  - Месяц+год (420)
+  - Период (43)
+  - Фаза (845)
+  - Длительность (581)
+  - Версия (1735)
 
-_Слов: 4210_
+_Слов: 4470_
 
 ### [Валидация структуры репозитория](docs/VALIDATION.md)
-> Ошибок: 0  Предупреждений: 29  Пройдено: 27
+> Ошибок: 0  Предупреждений: 49  Пройдено: 27
 
   - Сводка
   - ✅ Разделы и README
@@ -1427,40 +997,51 @@ _Слов: 4210_
   - Внутренние ссылки
   - Итог
 
-_Слов: 459_
+_Слов: 619_
 
 ### [Богатство словаря документов](docs/VOCABULARY.md)
-> > Файлов: 505  Токенов: 437,313  Уникальных: 144,323
+> > Файлов: 507  Токенов: 508,173  Уникальных: 149,008
 
   - Содержание
   - Корпусная статистика
   - Топ файлов по богатству словаря (STTR)
   - Файлы с бедным словарём (требуют доработки)
   - Справка по метрикам
-  - Упоминается в
 
-_Слов: 954_
+_Слов: 946_
 
 ### [Word Cloud](docs/WORD_CLOUD.md)
 > > Визуализация 80 самых частых слов репозитория.
 
   - Топ-20 слов
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 323_
+_Слов: 234_
 
 ### [Частотный анализ слов](docs/WORD_FREQ.md)
-> > !TIP
+> > !WARNING
 
   - Глобальный топ-50 слов
   - Топ-15 слов по разделам
   - Уникальные слова разделов
 
-_Слов: 2786_
+_Слов: 3193_
 
-**Итого в секции: 234,073 слов, 74 файлов**
+### [Reading paths — рекомендуемые маршруты по монорепозиторию](docs/reading-paths.md)
+> > !TIP
+
+  - Содержание
+  - 1. «Я хочу понять, что такое Lorenzo (имя репозитория)»
+  - 2. «Я хочу собрать прототип Svyazi 2.0»
+  - 3. «Я хочу понять Nautilus Portal Protocol»
+  - 4. «Я хочу комбинировать технологии для новых свойств»
+  - 5. «Я ищу коллабораторов на Хабре»
+  - 6. «Я разбираю карьерные опции в Anthropic»
+  - 7. «Я ищу конкретный компонент по имени»
+  _... ещё 2 разделов_
+
+_Слов: 627_
+
+**Итого в секции: 367,016 слов, 94 файлов**
 
 
 ## 📁 Svyazi (`docs/01-svyazi/`)
@@ -1479,105 +1060,55 @@ _Слов: 6_
   - Ключевой вывод
   - Что добавляет продолжение исследования
   - Приоритет ансамблей для старта
-  - Упоминается в
-  _... ещё 3 разделов_
 
-_Слов: 780_
+_Слов: 726_
 
 ### [Методика и рамка отбора проектов](docs/01-svyazi/02-methodology.md)
-> - Источники(#источники)
+> > Абстракт (авто)
 
   - Contents
   - Источники
   - Шкала зрелости
   - Принцип отбора паттернов
   - Принципы интеграционной оценки
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  _... ещё 1 разделов_
 
-_Слов: 462_
+_Слов: 480_
 
-### [Содержание](docs/01-svyazi/03-component-catalog.md)
-  - Карта найденных проектов и паттернов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Карта найденных проектов и паттернов](docs/01-svyazi/03-component-catalog.md)
 
-_Слов: 1486_
+_Слов: 1405_
 
-### [Содержание](docs/01-svyazi/04-ensembles-overview.md)
-  - Приоритетные ансамбли
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Приоритетные ансамбли](docs/01-svyazi/04-ensembles-overview.md)
 
-_Слов: 1367_
+_Слов: 1288_
 
-### [Содержание](docs/01-svyazi/06-security-privacy.md)
-  - Безопасность, приватность и бюджетный роутинг
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Безопасность, приватность и бюджетный роутинг](docs/01-svyazi/06-security-privacy.md)
 
-_Слов: 903_
+_Слов: 823_
 
-### [Содержание](docs/01-svyazi/07-mvp-planning.md)
-  - План прототипа и возможные контакты
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [План прототипа и возможные контакты](docs/01-svyazi/07-mvp-planning.md)
 
-_Слов: 1257_
+_Слов: 1083_
 
 ### [Выводы](docs/01-svyazi/08-conclusions.md)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 440_
+_Слов: 380_
 
-### [Содержание](docs/01-svyazi/09-architectural-gaps.md)
-  - Архитектурные зазоры, которые важнее новых инструментов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Архитектурные зазоры, которые важнее новых инструментов](docs/01-svyazi/09-architectural-gaps.md)
 
-_Слов: 919_
+_Слов: 774_
 
-### [Содержание](docs/01-svyazi/10-second-order-ensembles.md)
-  - Новые ансамбли следующего шага
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Новые ансамбли следующего шага](docs/01-svyazi/10-second-order-ensembles.md)
 
-_Слов: 1067_
+_Слов: 924_
 
-### [Содержание](docs/01-svyazi/11-integration-contracts.md)
-  - Интеграционный контракт, который стоит зафиксировать сразу
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Интеграционный контракт, который стоит зафиксировать сразу](docs/01-svyazi/11-integration-contracts.md)
 
-_Слов: 844_
+_Слов: 753_
 
-### [Содержание](docs/01-svyazi/12-roadmap.md)
-  - Дорожная карта прототипа следующей итерации
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Дорожная карта прототипа следующей итерации](docs/01-svyazi/12-roadmap.md)
 
-_Слов: 810_
+_Слов: 722_
 
 ### [Содержание](docs/01-svyazi/13-contacts.md)
   - Контактная стратегия и узкие вопросы для авторов
@@ -1586,16 +1117,11 @@ _Слов: 810_
   - Связанные документы
   - Связанные документы
 
-_Слов: 942_
+_Слов: 1010_
 
-### [Содержание](docs/01-svyazi/14-limitations.md)
-  - Ограничения, лицензии и что пока лучше не склеивать
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
+### [Ограничения, лицензии и что пока лучше не склеивать](docs/01-svyazi/14-limitations.md)
 
-_Слов: 716_
+_Слов: 638_
 
 ### [Q&A: 01-svyazi](docs/01-svyazi/QA.md)
 > Автоматически сгенерировано по 14 файлам раздела.
@@ -1608,24 +1134,25 @@ _Слов: 716_
   - Как организован бюджетный роутинг между моделями?
   - Какие 5 архитектурных зазоров выделены в исследовании?
   - Что входит в интеграционный контракт между слоями?
-  _... ещё 9 разделов_
+  _... ещё 7 разделов_
 
-_Слов: 247_
+_Слов: 224_
 
 ### [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
 > Файлов: 15
 
   - Содержание
+  - Подразделы
 
-_Слов: 110_
+_Слов: 342_
 
-**Итого в секции: 12,363 слов, 16 файлов**
+**Итого в секции: 11,578 слов, 16 файлов**
 
 
 ## 📁 Anthropic Vacancies (`docs/02-anthropic-vacancies/`)
 
 ### [Введение](docs/02-anthropic-vacancies/00-intro.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Упоминается в
@@ -1633,10 +1160,10 @@ _Слов: 110_
   - Связанные документы
   - Связанные документы
 
-_Слов: 8903_
+_Слов: 9000_
 
 ### [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Интегральный анализ профиля svend4
@@ -1645,10 +1172,10 @@ _Слов: 8903_
   - Связанные документы
   - Связанные документы
 
-_Слов: 19139_
+_Слов: 19237_
 
 ### [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - Содержание
   - ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL
@@ -1658,7 +1185,7 @@ _Слов: 19139_
   - Связанные документы
   - Связанные документы
 
-_Слов: 3221_
+_Слов: 3326_
 
 ### [PORTAL-PROTOCOL.md](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
 > > Status: Draft (Working Document)
@@ -1670,7 +1197,7 @@ _Слов: 3221_
   - Связанные документы
   - Связанные документы
 
-_Слов: 318_
+_Слов: 347_
 
 ### [Abstract](docs/02-anthropic-vacancies/04-abstract.md)
 > > The Nautilus Portal Protocol (далее — NPP) определяет способ федерации
@@ -1681,7 +1208,7 @@ _Слов: 318_
   - Связанные документы
   - Связанные документы
 
-_Слов: 310_
+_Слов: 339_
 
 ### [0. Status of This Document](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
 > > Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. Он может
@@ -1692,30 +1219,22 @@ _Слов: 310_
   - Связанные документы
   - Связанные документы
 
-_Слов: 296_
+_Слов: 325_
 
 ### [1. Introduction](docs/02-anthropic-vacancies/06-1-introduction.md)
-> - 1. Introduction(#1-introduction)
+> > Абстракт (авто)
 
   - Contents
   - 1. Introduction
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 428_
+_Слов: 403_
 
 ### [2. Terminology](docs/02-anthropic-vacancies/07-2-terminology.md)
-> > Ecosystem — набор репозиториев, участвующих в одной федерации.
+> > Абстракт (авто)
 
   - 2. Terminology
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 411_
+_Слов: 324_
 
 ### [3. Registry (nautilus.json)](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
 > - Contents(#contents)
@@ -1723,12 +1242,8 @@ _Слов: 411_
   - Содержание
   - Contents
   - 3. Registry (nautilus.json)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 575_
+_Слов: 427_
 
 ### [4. Passport (passport.md)](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
 > - 4. Passport (passport.md)(#4-passport-passportmd)
@@ -1743,7 +1258,7 @@ _Слов: 575_
   - Q6-отображение
   _... ещё 4 разделов_
 
-_Слов: 298_
+_Слов: 324_
 
 ### [Доступ к данным](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
 > > !WARNING
@@ -1753,7 +1268,7 @@ _Слов: 298_
   - Упоминается в
   - Связанные документы
 
-_Слов: 170_
+_Слов: 256_
 
 ### [Appendix B: Change Log](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
 > - Appendix B: Change Log(#appendix-b-change-log)
@@ -1765,10 +1280,10 @@ _Слов: 170_
   - Связанные документы
   - Связанные документы
 
-_Слов: 309_
+_Слов: 333_
 
 ### [Appendix C: References](docs/02-anthropic-vacancies/104-appendix-c-references.md)
-> > - RFC 2119 — Key words for use in RFCs to Indicate Requirement Levels
+> > Абстракт (авто)
 
   - Содержание
   - Appendix C: References
@@ -1777,7 +1292,7 @@ _Слов: 309_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1091_
+_Слов: 1191_
 
 ### [REVIEWMETHODOLOGY.md](docs/02-anthropic-vacancies/105-review-methodology-md.md)
 > > Статус: Активно применяется в проекте svend4/nautilus
@@ -1789,7 +1304,7 @@ _Слов: 1091_
   - Связанные документы
   - Связанные документы
 
-_Слов: 271_
+_Слов: 300_
 
 ### [TL;DR](docs/02-anthropic-vacancies/106-tl-dr.md)
 > > Для критически важных документов проекта применяется
@@ -1800,19 +1315,15 @@ _Слов: 271_
   - Связанные документы
   - Связанные документы
 
-_Слов: 216_
+_Слов: 236_
 
 ### [1. Контекст и мотивация](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
-> - 1. Контекст и мотивация(#1-контекст-и-мотивация)
+> > Абстракт (авто)
 
   - Contents
   - 1. Контекст и мотивация
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 451_
+_Слов: 471_
 
 ### [2. Формальный workflow](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
 > - Contents(#contents)
@@ -1820,16 +1331,13 @@ _Слов: 451_
   - Содержание
   - Contents
   - 2. Формальный workflow
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 619_
+_Слов: 483_
 
 ### [3. Принципы консолидации (Фаза C)](docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
-> > !TIP
+> - 3. Принципы консолидации (Фаза C)(#3-принципы-консолидации-фаза-c)
 
+  - Содержание
   - Содержание
   - 3. Принципы консолидации (Фаза C)
 - LOC в Python-коде
@@ -1837,119 +1345,87 @@ _Слов: 619_
 - Число адаптеров
 - Health score
 - Q6-покрытие
-- Native Format
-  _... ещё 5 разделов_
+  _... ещё 6 разделов_
 
-_Слов: 571_
+_Слов: 697_
 
 ### [Вопрос: fallback-ratio как критический или осмысленный?](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - Вопрос: fallback-ratio как критический или осмысленный?
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 268_
+_Слов: 338_
 
 ### [4. Условия применимости](docs/02-anthropic-vacancies/111-4-условия-применимости.md)
-> - 4. Условия применимости(#4-условия-применимости)
+> > Абстракт (авто)
 
   - Contents
   - 4. Условия применимости
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 317_
+_Слов: 292_
 
 ### [5. Связь с существующими методологиями](docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
-> - 5. Связь с существующими методологиями(#5-связь-с-существующими-методологиями)
+> > !WARNING
 
   - Contents
   - 5. Связь с существующими методологиями
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 350_
+_Слов: 389_
 
 ### [6. Почему это валидный паттерн для AI-assisted workflows](docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md)
 > > Традиционная software engineering оптимизировалась против
 
   - 6. Почему это валидный паттерн для AI-assisted workflows
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 183_
+_Слов: 172_
 
 ### [7. Реализация в проекте Nautilus](docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md)
 > > !WARNING
 
   - Contents
   - 7. Реализация в проекте Nautilus
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 435_
+_Слов: 308_
 
 ### [8. Ограничения и открытые вопросы](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-> - 8. Ограничения и открытые вопросы(#8-ограничения-и-открытые-вопросы)
+> > Абстракт (авто)
 
   - Contents
   - 8. Ограничения и открытые вопросы
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 452_
+_Слов: 447_
 
 ### [9. Checklist применения методологии](docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
-> - 9. Checklist применения методологии(#9-checklist-применения-методологии)
+> > Абстракт (авто)
 
   - Contents
   - 9. Checklist применения методологии
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 379_
+_Слов: 399_
 
 ### [10. Конкретный план применения к текущим документам](docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md)
-> - 10. Конкретный план применения к текущим документам(#10-конкретный-план-применения-к-текущим-документам)
+> > !WARNING
 
   - Contents
   - 10. Конкретный план применения к текущим документам
 - В Termux
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 302_
+_Слов: 331_
 
 ### [Appendix A: Шаблон для header warning](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
 > > !WARNING
 
   - Appendix A: Шаблон для header warning
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 307_
+_Слов: 215_
 
 ### [Appendix B: Примеры расхождений и их разрешения](docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-> - Appendix B: Примеры расхождений и их разрешения(#appendix-b-примеры-расхождений-и-их-разрешения)
+> > Абстракт (авто)
 
   - Contents
   - Appendix B: Примеры расхождений и их разрешения
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 313_
+_Слов: 372_
 
 ### [Content Overview](docs/02-anthropic-vacancies/12-content-overview.md)
 > > Что внутри: типы данных, приблизительный объём, основные темы.
@@ -1960,17 +1436,14 @@ _Слов: 313_
   - Связанные документы
   - Связанные документы
 
-_Слов: 182_
+_Слов: 211_
 
 ### [Главные технические риски](docs/02-anthropic-vacancies/120-главные-технические-риски.md)
-> > !WARNING
+> > Два независимых анализа выделили разные приоритеты:
 
   - Главные технические риски
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 190_
+_Слов: 100_
 
 ### [Appendix C: История изменений методологии](docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md)
 > > !WARNING
@@ -1980,10 +1453,10 @@ _Слов: 190_
   - Упоминается в
   - Связанные документы
 
-_Слов: 228_
+_Слов: 250_
 
 ### [Глоссарий](docs/02-anthropic-vacancies/122-глоссарий.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Глоссарий
@@ -1992,11 +1465,12 @@ _Слов: 228_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1415_
+_Слов: 1539_
 
 ### [portal-mcp.py](docs/02-anthropic-vacancies/123-portal-mcp-py.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
+  - Содержание
   - portal-mcp.py
 - ============================================================
 - MCP SDK imports
@@ -2006,7 +1480,7 @@ _Слов: 1415_
 - try:
   _... ещё 56 разделов_
 
-_Слов: 2455_
+_Слов: 2524_
 
 ### [Конфигурация для Claude Desktop](docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md)
 > > После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигураци…
@@ -2017,7 +1491,7 @@ _Слов: 2455_
   - Связанные документы
   - Связанные документы
 
-_Слов: 241_
+_Слов: 263_
 
 ### [README-MCP.md— инструкция по установке](docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md)
 > > Отдельный документ для репо, объясняющий, как настроить MCP-обёртку:
@@ -2029,7 +1503,7 @@ _Слов: 241_
   - Связанные документы
   - Связанные документы
 
-_Слов: 261_
+_Слов: 290_
 
 ### [Установка](docs/02-anthropic-vacancies/126-установка.md)
 > - Установка(#установка)
@@ -2037,12 +1511,8 @@ _Слов: 261_
   - Contents
   - Установка
 - Ждёт stdio-input; Ctrl+C для выхода
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 216_
+_Слов: 163_
 
 ### [Подключение к Claude Desktop](docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md)
 > - Подключение к Claude Desktop(#подключение-к-claude-desktop)
@@ -2054,7 +1524,7 @@ _Слов: 216_
   - Связанные документы
   - Связанные документы
 
-_Слов: 247_
+_Слов: 276_
 
 ### [Доступные инструменты](docs/02-anthropic-vacancies/128-доступные-инструменты.md)
 > > !WARNING
@@ -2065,7 +1535,7 @@ _Слов: 247_
   - Связанные документы
   - Связанные документы
 
-_Слов: 296_
+_Слов: 320_
 
 ### [Примеры запросов (в Claude)](docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md)
 > > !WARNING
@@ -2076,7 +1546,7 @@ _Слов: 296_
   - Связанные документы
   - Связанные документы
 
-_Слов: 291_
+_Слов: 320_
 
 ### [Angle / Perspective](docs/02-anthropic-vacancies/13-angle-perspective.md)
 > > С какого угла Repo смотрит на общие концепты
@@ -2087,7 +1557,7 @@ _Слов: 291_
   - Связанные документы
   - Связанные документы
 
-_Слов: 209_
+_Слов: 238_
 
 ### [Отладка](docs/02-anthropic-vacancies/130-отладка.md)
 > - Отладка(#отладка)
@@ -2099,7 +1569,7 @@ _Слов: 209_
   - Связанные документы
   - Связанные документы
 
-_Слов: 243_
+_Слов: 261_
 
 ### [Ограничения текущей версии (0.1.0-draft)](docs/02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)
 > > - Работает только в stdio mode (HTTP-mode планируется)
@@ -2110,10 +1580,10 @@ _Слов: 243_
   - Связанные документы
   - Связанные документы
 
-_Слов: 175_
+_Слов: 197_
 
 ### [Planned (v0.2.0)](docs/02-anthropic-vacancies/132-planned-v0-2-0.md)
-> > - HTTP-mode для debugging и remote access
+> > !WARNING
 
   - Planned (v0.2.0)
   - Упоминается в
@@ -2121,10 +1591,10 @@ _Слов: 175_
   - Связанные документы
   - Связанные документы
 
-_Слов: 205_
+_Слов: 252_
 
 ### [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Обратная связь
@@ -2136,7 +1606,7 @@ _Слов: 205_
   - Связанные документы
   _... ещё 1 разделов_
 
-_Слов: 16992_
+_Слов: 17099_
 
 ### [THE DOUBLE-TRIANGLE ARCHITECTURE.md](docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md)
 > > - 187-слой-представительских-агентов-md(187-слой-представительских-агентов-md.md) (сходство 0.25)
@@ -2148,7 +1618,7 @@ _Слов: 16992_
   - Связанные документы
   - Связанные документы
 
-_Слов: 281_
+_Слов: 310_
 
 ### [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md)
 > > Editorial review: Claude (intellectual collaboration, 2026-04)
@@ -2159,10 +1629,10 @@ _Слов: 281_
   - Связанные документы
   - Связанные документы
 
-_Слов: 262_
+_Слов: 291_
 
 ### [Abstract](docs/02-anthropic-vacancies/136-abstract.md)
-> > We introduce the Double-Triangle Architecture for human-AI
+> > Абстракт (авто)
 
   - Содержание
   - Abstract
@@ -2171,7 +1641,7 @@ _Слов: 262_
   - Связанные документы
   - Связанные документы
 
-_Слов: 536_
+_Слов: 631_
 
 ### [Table of Contents](docs/02-anthropic-vacancies/137-table-of-contents.md)
 > > 1. Why Single-Triangle Models Are Incomplete
@@ -2182,7 +1652,7 @@ _Слов: 536_
   - Связанные документы
   - Связанные документы
 
-_Слов: 287_
+_Слов: 316_
 
 ### [1. Why Single-Triangle Models Are Incomplete](docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md)
 > - Contents(#contents)
@@ -2190,29 +1660,21 @@ _Слов: 287_
   - Содержание
   - Contents
   - 1. Why Single-Triangle Models Are Incomplete
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 651_
+_Слов: 613_
 
 ### [2. The Double-Triangle Architecture](docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - Содержание
   - 2. The Double-Triangle Architecture
 - Bridges
   - Bridges
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 837_
+_Слов: 779_
 
 ### [3. Three Inter-Layer Protocols](docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - Содержание
   - 3. Three Inter-Layer Protocols
@@ -2221,10 +1683,10 @@ _Слов: 837_
   - Связанные документы
   - Связанные документы
 
-_Слов: 955_
+_Слов: 1048_
 
 ### [4. Nautilus Portal as Reference Substrate](docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
-> > The Double-Triangle Architecture requires a substrate capable of:
+> > Абстракт (авто)
 
   - Содержание
   - 4. Nautilus Portal as Reference Substrate
@@ -2233,10 +1695,10 @@ _Слов: 955_
   - Связанные документы
   - Связанные документы
 
-_Слов: 799_
+_Слов: 915_
 
 ### [5. Pattern Library as Bridge Between Triangles](docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 5. Pattern Library as Bridge Between Triangles
@@ -2245,10 +1707,10 @@ _Слов: 799_
   - Связанные документы
   - Связанные документы
 
-_Слов: 771_
+_Слов: 878_
 
 ### [6. Four Deployment Domains](docs/02-anthropic-vacancies/143-6-four-deployment-domains.md)
-> > The Double-Triangle Architecture is domain-agnostic but benefits
+> > !TIP
 
   - Содержание
   - 6. Four Deployment Domains
@@ -2257,10 +1719,10 @@ _Слов: 771_
   - Связанные документы
   - Связанные документы
 
-_Слов: 770_
+_Слов: 884_
 
 ### [7. Open Questions](docs/02-anthropic-vacancies/144-7-open-questions.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 7. Open Questions
@@ -2269,10 +1731,10 @@ _Слов: 770_
   - Связанные документы
   - Связанные документы
 
-_Слов: 884_
+_Слов: 964_
 
 ### [8. Call to Action](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 8. Call to Action
@@ -2281,7 +1743,7 @@ _Слов: 884_
   - Связанные документы
   - Связанные документы
 
-_Слов: 852_
+_Слов: 929_
 
 ### [Acknowledgments](docs/02-anthropic-vacancies/146-acknowledgments.md)
 > > !TIP
@@ -2292,30 +1754,27 @@ _Слов: 852_
   - Связанные документы
   - Связанные документы
 
-_Слов: 434_
+_Слов: 463_
 
 ### [References](docs/02-anthropic-vacancies/147-references.md)
-> - References(#references)
+> > Абстракт (авто)
 
   - Contents
   - References
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 402_
+_Слов: 369_
 
 ### [Appendix A: Glossary](docs/02-anthropic-vacancies/148-appendix-a-glossary.md)
-> > !TIP
+> - Appendix A: Glossary(#appendix-a-glossary)
 
+  - Содержание
   - Appendix A: Glossary
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 449_
+_Слов: 548_
 
 ### [Appendix B: Summary of Contributions](docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md)
 > > 1. Topological formalization of Double-Triangle Architecture
@@ -2328,10 +1787,10 @@ _Слов: 449_
   - Связанные документы
   - Связанные документы
 
-_Слов: 319_
+_Слов: 348_
 
 ### [Appendix C: Version History](docs/02-anthropic-vacancies/150-appendix-c-version-history.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Appendix C: Version History
@@ -2340,7 +1799,7 @@ _Слов: 319_
   - Связанные документы
   - Связанные документы
 
-_Слов: 8495_
+_Слов: 8608_
 
 ### [OPEN KNOWLEDGE WORK FOUNDATION.md](docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md)
 > > - 273-infrastructure-for-ai-collaborative-intellectual-w(273-infrastructure-for-ai-collaborative-intellectual-w.md) (с…
@@ -2352,7 +1811,7 @@ _Слов: 8495_
   - Связанные документы
   - Связанные документы
 
-_Слов: 343_
+_Слов: 372_
 
 ### [AI-Coordinated Infrastructure for Distributed Expert Contribution](docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md)
 > > Editorial collaboration: Claude (intellectual development, 2026-04)
@@ -2363,18 +1822,19 @@ _Слов: 343_
   - Связанные документы
   - Связанные документы
 
-_Слов: 242_
+_Слов: 268_
 
 ### [Executive Summary](docs/02-anthropic-vacancies/153-executive-summary.md)
-> > The Open Knowledge Work Foundation (OKWF) proposes to build
+> - Executive Summary(#executive-summary)
 
+  - Содержание
   - Executive Summary
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 494_
+_Слов: 615_
 
 ### [Table of Contents](docs/02-anthropic-vacancies/154-table-of-contents.md)
 > > 3. Why Existing Solutions Fail
@@ -2385,10 +1845,10 @@ _Слов: 494_
   - Связанные документы
   - Связанные документы
 
-_Слов: 246_
+_Слов: 275_
 
 ### [1. Problem Statement](docs/02-anthropic-vacancies/155-1-problem-statement.md)
-> > The AI industry in 2026 exhibits an apparent paradox. Frontier
+> > Абстракт (авто)
 
   - Содержание
   - 1. Problem Statement
@@ -2397,10 +1857,10 @@ _Слов: 246_
   - Связанные документы
   - Связанные документы
 
-_Слов: 689_
+_Слов: 790_
 
 ### [2. Target Populations](docs/02-anthropic-vacancies/156-2-target-populations.md)
-> > Size estimate: 500K+ in OECD countries with relevant skills
+> > Абстракт (авто)
 
   - Содержание
   - 2. Target Populations
@@ -2409,10 +1869,10 @@ _Слов: 689_
   - Связанные документы
   - Связанные документы
 
-_Слов: 739_
+_Слов: 819_
 
 ### [3. Why Existing Solutions Fail](docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md)
-> > Seven existing infrastructure categories partially address the
+> > Абстракт (авто)
 
   - Содержание
   - 3. Why Existing Solutions Fail
@@ -2421,19 +1881,15 @@ _Слов: 739_
   - Связанные документы
   - Связанные документы
 
-_Слов: 729_
+_Слов: 805_
 
 ### [4. Proposed Infrastructure](docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 4. Proposed Infrastructure
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1127_
+_Слов: 1052_
 
 ### [5. Economic Model](docs/02-anthropic-vacancies/159-5-economic-model.md)
 > - Contents(#contents)
@@ -2442,12 +1898,8 @@ _Слов: 1127_
   - Contents
   - Содержание
   - 5. Economic Model
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 737_
+_Слов: 678_
 
 ### [History](docs/02-anthropic-vacancies/16-history.md)
 > > Когда создан, ключевые версии, направление развития.
@@ -2457,7 +1909,7 @@ _Слов: 737_
   - Упоминается в
   - Связанные документы
 
-_Слов: 160_
+_Слов: 178_
 
 ### [6. Governance and Ethics](docs/02-anthropic-vacancies/160-6-governance-and-ethics.md)
 > - Contents(#contents)
@@ -2465,14 +1917,11 @@ _Слов: 160_
   - Содержание
   - Contents
   - 6. Governance and Ethics
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 629_
+_Слов: 621_
 
 ### [7. Phased Rollout Plan](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-> > - Establish legal entity (non-profit foundation in Germany or
+> > Абстракт (авто)
 
   - Содержание
   - 7. Phased Rollout Plan
@@ -2481,10 +1930,10 @@ _Слов: 629_
   - Связанные документы
   - Связанные документы
 
-_Слов: 721_
+_Слов: 799_
 
 ### [8. Risk Analysis](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 8. Risk Analysis
@@ -2492,7 +1941,7 @@ _Слов: 721_
   - Упоминается в
   - Связанные документы
 
-_Слов: 675_
+_Слов: 757_
 
 ### [9. Call for Partnership](docs/02-anthropic-vacancies/163-9-call-for-partnership.md)
 > - Contents(#contents)
@@ -2500,15 +1949,11 @@ _Слов: 675_
   - Содержание
   - Contents
   - 9. Call for Partnership
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 662_
+_Слов: 654_
 
 ### [10. Appendices](docs/02-anthropic-vacancies/164-10-appendices.md)
-> > Nautilus Portal Protocol v1.1:
+> > Абстракт (авто)
 
   - Содержание
   - 10. Appendices
@@ -2517,10 +1962,10 @@ _Слов: 662_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1070_
+_Слов: 1156_
 
 ### [Closing](docs/02-anthropic-vacancies/165-closing.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Closing
@@ -2530,7 +1975,7 @@ _Слов: 1070_
   - Связанные документы
   - Связанные документы
 
-_Слов: 9322_
+_Слов: 9429_
 
 ### [REPRESENTATIVE AGENT LAYER.md](docs/02-anthropic-vacancies/166-representative-agent-layer-md.md)
 > > - 187-слой-представительских-агентов-md(187-слой-представительских-агентов-md.md) (сходство 0.33)
@@ -2542,7 +1987,7 @@ _Слов: 9322_
   - Связанные документы
   - Связанные документы
 
-_Слов: 237_
+_Слов: 266_
 
 ### [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md)
 > > - Open Knowledge Work Foundation Concept Document v1.0
@@ -2553,18 +1998,19 @@ _Слов: 237_
   - Связанные документы
   - Связанные документы
 
-_Слов: 358_
+_Слов: 387_
 
 ### [Abstract](docs/02-anthropic-vacancies/168-abstract.md)
-> > We introduce the Representative Agent Layer — an architectural
+> - Abstract(#abstract)
 
+  - Содержание
   - Abstract
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 469_
+_Слов: 578_
 
 ### [Table of Contents](docs/02-anthropic-vacancies/169-table-of-contents.md)
 > > 1. The Cinderella Syndrome: Why Quality Stays Invisible
@@ -2575,22 +2021,18 @@ _Слов: 469_
   - Связанные документы
   - Связанные документы
 
-_Слов: 257_
+_Слов: 286_
 
 ### [5. Compatibility Levels](docs/02-anthropic-vacancies/17-5-compatibility-levels.md)
-> - 5. Compatibility Levels(#5-compatibility-levels)
+> > Абстракт (авто)
 
   - Contents
   - 5. Compatibility Levels
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 375_
+_Слов: 338_
 
 ### [1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)
-> > There is a recurring asymmetry in modern markets — markets for
+> > Абстракт (авто)
 
   - Содержание
   - 1. The Cinderella Syndrome: Why Quality Stays Invisible
@@ -2599,10 +2041,10 @@ _Слов: 375_
   - Связанные документы
   - Связанные документы
 
-_Слов: 870_
+_Слов: 955_
 
 ### [2. Historical Precedents: Agents as Civilizational Innovation](docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md)
-> > The pattern of representative agents is ancient and recurring.
+> > Абстракт (авто)
 
   - Содержание
   - 2. Historical Precedents: Agents as Civilizational Innovation
@@ -2611,10 +2053,10 @@ _Слов: 870_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1015_
+_Слов: 1111_
 
 ### [3. What Makes a Representative Agent](docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md)
-> > A Representative Agent is distinct from existing AI categories.
+> > Абстракт (авто)
 
   - Содержание
   - 3. What Makes a Representative Agent
@@ -2623,20 +2065,20 @@ _Слов: 1015_
   - Связанные документы
   - Связанные документы
 
-_Слов: 817_
+_Слов: 908_
 
 ### [4. Ten Domains of Application](docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 4. Ten Domains of Application
   - Упоминается в
   - Упоминается в
 
-_Слов: 1588_
+_Слов: 1682_
 
 ### [5. Architectural Specification](docs/02-anthropic-vacancies/174-5-architectural-specification.md)
-> > A Representative Agent system consists of seven components:
+> > Абстракт (авто)
 
   - Содержание
   - 5. Architectural Specification
@@ -2645,7 +2087,7 @@ _Слов: 1588_
   - Связанные документы
   - Связанные документы
 
-_Слов: 788_
+_Слов: 870_
 
 ### [6. Ethical Framework](docs/02-anthropic-vacancies/175-6-ethical-framework.md)
 > - Contents(#contents)
@@ -2653,12 +2095,8 @@ _Слов: 788_
   - Содержание
   - Contents
   - 6. Ethical Framework
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 669_
+_Слов: 638_
 
 ### [7. Governance and Oversight](docs/02-anthropic-vacancies/176-7-governance-and-oversight.md)
 > - Contents(#contents)
@@ -2666,12 +2104,8 @@ _Слов: 669_
   - Содержание
   - Contents
   - 7. Governance and Oversight
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 553_
+_Слов: 472_
 
 ### [8. Risks and Mitigations](docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 > - Contents(#contents)
@@ -2679,12 +2113,8 @@ _Слов: 553_
   - Содержание
   - Contents
   - 8. Risks and Mitigations
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 740_
+_Слов: 644_
 
 ### [9. Phased Rollout Strategy](docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md)
 > - Contents(#contents)
@@ -2692,12 +2122,8 @@ _Слов: 740_
   - Содержание
   - Contents
   - 9. Phased Rollout Strategy
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 699_
+_Слов: 650_
 
 ### [10. Open Questions](docs/02-anthropic-vacancies/179-10-open-questions.md)
 > - Contents(#contents)
@@ -2705,12 +2131,8 @@ _Слов: 699_
   - Содержание
   - Contents
   - 10. Open Questions
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 628_
+_Слов: 453_
 
 ### [6. Adapter Interface](docs/02-anthropic-vacancies/18-6-adapter-interface.md)
 > - Contents(#contents)
@@ -2723,22 +2145,18 @@ _Слов: 628_
   - Связанные документы
   - Связанные документы
 
-_Слов: 584_
+_Слов: 604_
 
 ### [11. Call for Collaboration](docs/02-anthropic-vacancies/180-11-call-for-collaboration.md)
-> - 11. Call for Collaboration(#11-call-for-collaboration)
+> > Абстракт (авто)
 
   - Contents
   - 11. Call for Collaboration
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 489_
+_Слов: 470_
 
 ### [12. Closing](docs/02-anthropic-vacancies/181-12-closing.md)
-> > The Cinderella Syndrome — quality without visibility —
+> > Абстракт (авто)
 
   - 12. Closing
   - Упоминается в
@@ -2746,7 +2164,7 @@ _Слов: 489_
   - Связанные документы
   - Связанные документы
 
-_Слов: 335_
+_Слов: 418_
 
 ### [Acknowledgments](docs/02-anthropic-vacancies/182-acknowledgments.md)
 > > !TIP
@@ -2757,19 +2175,15 @@ _Слов: 335_
   - Связанные документы
   - Связанные документы
 
-_Слов: 346_
+_Слов: 375_
 
 ### [References](docs/02-anthropic-vacancies/183-references.md)
-> - References(#references)
+> > Абстракт (авто)
 
   - Contents
   - References
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 377_
+_Слов: 340_
 
 ### [Appendix A: Connection to Companion Papers](docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md)
 > > This paper builds on three previous documents:
@@ -2780,7 +2194,7 @@ _Слов: 377_
   - Связанные документы
   - Связанные документы
 
-_Слов: 382_
+_Слов: 411_
 
 ### [Appendix B: Domain Comparison Matrix](docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md)
 > > !WARNING
@@ -2790,10 +2204,10 @@ _Слов: 382_
   - Упоминается в
   - Связанные документы
 
-_Слов: 310_
+_Слов: 330_
 
 ### [Appendix C: Sample Use Cases in Detail](docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Appendix C: Sample Use Cases in Detail
@@ -2802,7 +2216,7 @@ _Слов: 310_
   - Связанные документы
   - Связанные документы
 
-_Слов: 2132_
+_Слов: 2241_
 
 ### [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md)
 > > - 166-representative-agent-layer-md(166-representative-agent-layer-md.md) (сходство 0.33)
@@ -2814,38 +2228,28 @@ _Слов: 2132_
   - Связанные документы
   - Связанные документы
 
-_Слов: 218_
+_Слов: 247_
 
 ### [AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения](docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md)
 > > Сопроводительный документ к:
 
   - AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 270_
+_Слов: 130_
 
 ### [Аннотация](docs/02-anthropic-vacancies/189-аннотация.md)
-> > Мы представляем Слой Представительских Агентов — архитектурный паттерн, в котором AI-системы выступают проактивными пр…
+> > !WARNING
 
   - Аннотация
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 291_
+_Слов: 372_
 
 ### [7. PortalEntry Structure](docs/02-anthropic-vacancies/19-7-portalentry-structure.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - 7. PortalEntry Structure
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 364_
+_Слов: 273_
 
 ### [Содержание](docs/02-anthropic-vacancies/190-содержание.md)
 > > 1. Синдром Золушки: Почему качество остаётся невидимым
@@ -2856,93 +2260,71 @@ _Слов: 364_
   - Связанные документы
   - Связанные документы
 
-_Слов: 249_
+_Слов: 278_
 
 ### [1. Синдром Золушки: Почему качество остаётся невидимым](docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md)
-> > Существует повторяющаяся асимметрия на современных рынках — рынках труда, внимания, возможностей, услуг. Качество и ви…
+> > !WARNING
 
   - Содержание
   - 1. Синдром Золушки: Почему качество остаётся невидимым
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 767_
+_Слов: 837_
 
 ### [2. Исторические прецеденты: Агенты как цивилизационная инновация](docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - 2. Исторические прецеденты: Агенты как цивилизационная инновация
   - Упоминается в
   - Упоминается в
 
-_Слов: 923_
+_Слов: 986_
 
 ### [3. Что делает агента Представительским](docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md)
-> > Представительский Агент отличается от существующих категорий AI. Мы определяем это точно.
-
-  - Содержание
-  - 3. Что делает агента Представительским
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
-
-_Слов: 696_
-
-### [4. Десять областей применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md)
 > > !WARNING
 
   - Содержание
   - 3. Что делает агента Представительским
+  - Упоминается в
+  - Упоминается в
+  - Связанные документы
+  - Связанные документы
 
-_Слов: 666_
+_Слов: 801_
 
 ### [4. Десять областей применения](docs/02-anthropic-vacancies/194-4-десять-областей-применения.md)
 > > Абстракт (авто)
 
   - Содержание
   - 4. Десять областей применения
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 1610_
+_Слов: 1654_
 
 ### [5. Архитектурная спецификация](docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md)
 > > !WARNING
 
   - Содержание
   - 5. Архитектурная спецификация
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 696_
+_Слов: 615_
 
 ### [6. Этическая рамка](docs/02-anthropic-vacancies/196-6-этическая-рамка.md)
 > - Contents(#contents)
 
   - Содержание
+  - Содержание
   - Contents
   - 6. Этическая рамка
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 568_
+_Слов: 661_
 
 ### [7. Управление и надзор](docs/02-anthropic-vacancies/197-7-управление-и-надзор.md)
-> - 7. Управление и надзор(#7-управление-и-надзор)
+> > !WARNING
 
   - Contents
   - 7. Управление и надзор
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 409_
+_Слов: 459_
 
 ### [8. Риски и меры противодействия](docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md)
 > - Contents(#contents)
@@ -2950,12 +2332,8 @@ _Слов: 409_
   - Содержание
   - Contents
   - 8. Риски и меры противодействия
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 672_
+_Слов: 658_
 
 ### [9. Стратегия поэтапного развёртывания](docs/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md)
 > - Contents(#contents)
@@ -2963,42 +2341,32 @@ _Слов: 672_
   - Содержание
   - Contents
   - 9. Стратегия поэтапного развёртывания
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 617_
+_Слов: 664_
 
 ### [8. Consensus Algorithm](docs/02-anthropic-vacancies/20-8-consensus-algorithm.md)
-> - 8. Consensus Algorithm(#8-consensus-algorithm)
+> > Абстракт (авто)
 
   - Contents
   - 8. Consensus Algorithm
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
 _Слов: 333_
 
 ### [10. Открытые вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)
-> - 10. Открытые вопросы(#10-открытые-вопросы)
+> > Абстракт (авто)
 
   - Contents
   - 10. Открытые вопросы
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 404_
+_Слов: 402_
 
 ### [11. Призыв к сотрудничеству](docs/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md)
-> - 11. Призыв к сотрудничеству(#11-призыв-к-сотрудничеству)
+> > Абстракт (авто)
 
   - Contents
   - 11. Призыв к сотрудничеству
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 440_
+_Слов: 471_
 
 ### [12. Заключение](docs/02-anthropic-vacancies/202-12-заключение.md)
 > > Синдром Золушки — качество без видимости — не нов. Он формировал человеческий труд и признание задолго до компьютеров.…
@@ -3007,7 +2375,7 @@ _Слов: 440_
   - Упоминается в
   - Упоминается в
 
-_Слов: 226_
+_Слов: 246_
 
 ### [Благодарности](docs/02-anthropic-vacancies/203-благодарности.md)
 > > Эта концепция возникла через диалог в нескольких сессиях в 2026 году. Формулировка «Синдром Золушки» и расширение к со…
@@ -3017,30 +2385,22 @@ _Слов: 226_
   - Упоминается в
   - Связанные документы
 
-_Слов: 203_
+_Слов: 223_
 
 ### [Ссылки](docs/02-anthropic-vacancies/204-ссылки.md)
-> - Ссылки(#ссылки)
+> > Абстракт (авто)
 
   - Contents
   - Ссылки
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 353_
+_Слов: 321_
 
 ### [Приложение A: Связь с Сопроводительными Статьями](docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md)
 > > Эта статья опирается на три предыдущих документа:
 
   - Приложение A: Связь с Сопроводительными Статьями
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 320_
+_Слов: 179_
 
 ### [Приложение B: Матрица Сравнения Областей](docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md)
 > > - Вакансии Anthropic — Анализ по кластерам(../README.md)
@@ -3051,10 +2411,10 @@ _Слов: 320_
   - Связанные документы
   - Связанные документы
 
-_Слов: 244_
+_Слов: 266_
 
 ### [Приложение C: Образцы Случаев Использования в Деталях](docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Приложение C: Образцы Случаев Использования в Деталях
@@ -3063,7 +2423,7 @@ _Слов: 244_
   - Связанные документы
   - Связанные документы
 
-_Слов: 4105_
+_Слов: 4213_
 
 ### [PROFESSIONAL COLLEAGUE AGENTS.md](docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md)
 > > - 249-composite-skills-agent-md(249-composite-skills-agent-md.md) (сходство 0.14)
@@ -3075,7 +2435,7 @@ _Слов: 4105_
   - Связанные документы
   - Связанные документы
 
-_Слов: 303_
+_Слов: 332_
 
 ### [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md)
 > > - Representative Agent Layer v1.0
@@ -3086,7 +2446,7 @@ _Слов: 303_
   - Связанные документы
   - Связанные документы
 
-_Слов: 345_
+_Слов: 374_
 
 ### [9. Query Flow](docs/02-anthropic-vacancies/21-9-query-flow.md)
 > - 9. Query Flow(#9-query-flow)
@@ -3098,18 +2458,19 @@ _Слов: 345_
   - Связанные документы
   - Связанные документы
 
-_Слов: 317_
+_Слов: 335_
 
 ### [Abstract](docs/02-anthropic-vacancies/210-abstract.md)
-> > Building on the Representative Agent Layer paper, we observe
+> - Abstract(#abstract)
 
+  - Содержание
   - Abstract
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 497_
+_Слов: 620_
 
 ### [Table of Contents](docs/02-anthropic-vacancies/211-table-of-contents.md)
 > > 1. The Five-Type Typology of Principal-Side Agents
@@ -3120,10 +2481,10 @@ _Слов: 497_
   - Связанные документы
   - Связанные документы
 
-_Слов: 410_
+_Слов: 439_
 
 ### [1. The Five-Type Typology of Principal-Side Agents](docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md)
-> > The Representative Agent Layer paper introduced one type of AI
+> > Абстракт (авто)
 
   - Содержание
   - 1. The Five-Type Typology of Principal-Side Agents
@@ -3132,10 +2493,10 @@ _Слов: 410_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1098_
+_Слов: 1199_
 
 ### [2. What Makes a Professional Colleague Agent](docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md)
-> > We now develop Type 1 in detail.
+> > Абстракт (авто)
 
   - Содержание
   - 2. What Makes a Professional Colleague Agent
@@ -3144,10 +2505,10 @@ _Слов: 1098_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1004_
+_Слов: 1104_
 
 ### [3. Empirical Case Study: «Обучай»](docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md)
-> > We document a successfully deployed Professional Colleague
+> > Абстракт (авто)
 
   - Содержание
   - 3. Empirical Case Study: «Обучай»
@@ -3156,10 +2517,10 @@ _Слов: 1004_
   - Связанные документы
   - Связанные документы
 
-_Слов: 966_
+_Слов: 1063_
 
 ### [4. Architecture of Professional Colleague Agents](docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md)
-> > A Professional Colleague Agent has three distinct internal
+> > Абстракт (авто)
 
   - Содержание
   - 4. Architecture of Professional Colleague Agents
@@ -3168,10 +2529,10 @@ _Слов: 966_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1032_
+_Слов: 1125_
 
 ### [5. The Economics of Profession-Wide Replication](docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md)
-> > A defining feature of Professional Colleague Agents is that
+> > Абстракт (авто)
 
   - Содержание
   - 5. The Economics of Profession-Wide Replication
@@ -3180,10 +2541,10 @@ _Слов: 1032_
   - Связанные документы
   - Связанные документы
 
-_Слов: 870_
+_Слов: 987_
 
 ### [6. Risks Specific to this Category](docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 6. Risks Specific to this Category
@@ -3192,10 +2553,10 @@ _Слов: 870_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1309_
+_Слов: 1401_
 
 ### [7. Application Domains](docs/02-anthropic-vacancies/218-7-application-domains.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 7. Application Domains
@@ -3203,10 +2564,10 @@ _Слов: 1309_
   - Упоминается в
   - Связанные документы
 
-_Слов: 765_
+_Слов: 851_
 
 ### [8. Pilot Proposal: SGB Advocate Colleague](docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md)
-> > We now apply the Professional Colleague Agent framework to a
+> > Абстракт (авто)
 
   - Содержание
   - 8. Pilot Proposal: SGB Advocate Colleague
@@ -3215,7 +2576,7 @@ _Слов: 765_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1115_
+_Слов: 1201_
 
 ### [10. QueryResult Structure](docs/02-anthropic-vacancies/22-10-queryresult-structure.md)
 > > resultsbyrepo: dictstr, listPortalEntry
@@ -3226,10 +2587,10 @@ _Слов: 1115_
   - Связанные документы
   - Связанные документы
 
-_Слов: 327_
+_Слов: 356_
 
 ### [9. Relationship to Other Agent Types](docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md)
-> > Professional Colleague Agents do not stand alone. They
+> > Абстракт (авто)
 
   - Содержание
   - 9. Relationship to Other Agent Types
@@ -3238,7 +2599,7 @@ _Слов: 327_
   - Связанные документы
   - Связанные документы
 
-_Слов: 829_
+_Слов: 918_
 
 ### [10. Open Questions](docs/02-anthropic-vacancies/221-10-open-questions.md)
 > - Contents(#contents)
@@ -3246,27 +2607,19 @@ _Слов: 829_
   - Содержание
   - Contents
   - 10. Open Questions
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 662_
+_Слов: 474_
 
 ### [11. Call for Collaboration](docs/02-anthropic-vacancies/222-11-call-for-collaboration.md)
-> - 11. Call for Collaboration(#11-call-for-collaboration)
+> > Абстракт (авто)
 
   - Contents
   - 11. Call for Collaboration
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 455_
+_Слов: 403_
 
 ### [12. Closing](docs/02-anthropic-vacancies/223-12-closing.md)
-> > The Representative Agent Layer paper, when first written,
+> > Абстракт (авто)
 
   - Содержание
   - 12. Closing
@@ -3275,7 +2628,7 @@ _Слов: 455_
   - Связанные документы
   - Связанные документы
 
-_Слов: 611_
+_Слов: 728_
 
 ### [Acknowledgments](docs/02-anthropic-vacancies/224-acknowledgments.md)
 > > This paper emerged through dialogue with Claude (Anthropic)
@@ -3286,53 +2639,47 @@ _Слов: 611_
   - Связанные документы
   - Связанные документы
 
-_Слов: 288_
+_Слов: 317_
 
 ### [References](docs/02-anthropic-vacancies/225-references.md)
-> - References(#references)
+> > Абстракт (авто)
 
   - Contents
   - References
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 412_
+_Слов: 366_
 
 ### [Appendix A: Comparative Table — Five Agent Types](docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md)
-> > - 269-appendix-a-the-six-type-taxonomy-updated(269-appendix-a-the-six-type-taxonomy-updated.md) (сходство 0.31)
+> > > 🎯 Проблема: Appendix A: Comparative Table — Five Agent Types Appendix A: Comparative Table — Five Agent Types Proper…
 
   - Содержание
   - Appendix A: Comparative Table — Five Agent Types
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 529_
+_Слов: 482_
 
 ### [Appendix B: Decision Framework — When to Build Type 1 First](docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)
-> > For an organization deciding whether to build a Professional
+> - Appendix B: Decision Framework — When to Build Type 1 First(#appendix-b-decision-framework-when-to-build-type-1-first)
 
+  - Содержание
   - Appendix B: Decision Framework — When to Build Type 1 First
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 446_
+_Слов: 555_
 
 ### [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
+  - Содержание
   - Appendix C: Quick-Start Architecture for SGB Advocate Colleague
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 1893_
+_Слов: 2007_
 
 ### [ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ](docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md)
 > > Сопроводительный документ к:
@@ -3343,11 +2690,12 @@ _Слов: 1893_
   - Связанные документы
   - Связанные документы
 
-_Слов: 317_
+_Слов: 346_
 
 ### [11. Security Considerations](docs/02-anthropic-vacancies/23-11-security-considerations.md)
-> - 11. Security Considerations(#11-security-considerations)
+> > Абстракт (авто)
 
+  - Contents
   - Contents
   - 11. Security Considerations
   - Упоминается в
@@ -3355,10 +2703,10 @@ _Слов: 317_
   - Связанные документы
   - Связанные документы
 
-_Слов: 296_
+_Слов: 392_
 
 ### [Аннотация](docs/02-anthropic-vacancies/230-аннотация.md)
-> > Развивая статью «Слой Представительских Агентов»,
+> > !WARNING
 
   - Аннотация
   - Упоминается в
@@ -3366,7 +2714,7 @@ _Слов: 296_
   - Связанные документы
   - Связанные документы
 
-_Слов: 378_
+_Слов: 491_
 
 ### [Содержание](docs/02-anthropic-vacancies/231-содержание.md)
 > > 1. Типология из пяти типов агентов на стороне
@@ -3377,10 +2725,10 @@ _Слов: 378_
   - Связанные документы
   - Связанные документы
 
-_Слов: 306_
+_Слов: 335_
 
 ### [1. Типология из пяти типов агентов на стороне принципала](docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - Содержание
   - 1. Типология из пяти типов агентов на стороне принципала
@@ -3389,10 +2737,10 @@ _Слов: 306_
   - Связанные документы
   - Связанные документы
 
-_Слов: 999_
+_Слов: 1078_
 
 ### [2. Что делает агента Профессиональным Коллегой](docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md)
-> > Теперь развиваем Тип 1 в деталях.
+> > Абстракт (авто)
 
   - Содержание
   - 2. Что делает агента Профессиональным Коллегой
@@ -3401,7 +2749,7 @@ _Слов: 999_
   - Связанные документы
   - Связанные документы
 
-_Слов: 859_
+_Слов: 943_
 
 ### [3. Эмпирический кейс: «Обучай»](docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md)
 > > !WARNING
@@ -3413,22 +2761,18 @@ _Слов: 859_
   - Связанные документы
   - Связанные документы
 
-_Слов: 810_
+_Слов: 883_
 
 ### [4. Архитектура Профессиональных Коллег-Агентов](docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md)
 > > !WARNING
 
   - Содержание
   - 4. Архитектура Профессиональных Коллег-Агентов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 884_
+_Слов: 873_
 
 ### [5. Экономика тиражирования по профессии](docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md)
-> > Определяющая черта Профессиональных
+> > Абстракт (авто)
 
   - Содержание
   - 5. Экономика тиражирования по профессии
@@ -3437,32 +2781,26 @@ _Слов: 884_
   - Связанные документы
   - Связанные документы
 
-_Слов: 761_
+_Слов: 857_
 
 ### [6. Риски, специфичные для этой категории](docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - 6. Риски, специфичные для этой категории
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1167_
+_Слов: 1199_
 
 ### [7. Области применения](docs/02-anthropic-vacancies/238-7-области-применения.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - 7. Области применения
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 704_
+_Слов: 734_
 
 ### [8. Пилотное предложение: SGB Колega-Адвокат](docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - 8. Пилотное предложение: SGB Колega-Адвокат
@@ -3471,7 +2809,7 @@ _Слов: 704_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1026_
+_Слов: 1101_
 
 ### [12. Versioning Policy](docs/02-anthropic-vacancies/24-12-versioning-policy.md)
 > - 12. Versioning Policy(#12-versioning-policy)
@@ -3483,7 +2821,7 @@ _Слов: 1026_
   - Связанные документы
   - Связанные документы
 
-_Слов: 329_
+_Слов: 358_
 
 ### [9. Связь с другими типами агентов](docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md)
 > - Contents(#contents)
@@ -3492,43 +2830,36 @@ _Слов: 329_
   - Contents
   - Содержание
   - 9. Связь с другими типами агентов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 869_
+_Слов: 766_
 
 ### [10. Открытые вопросы](docs/02-anthropic-vacancies/241-10-открытые-вопросы.md)
-> - 10. Открытые вопросы(#10-открытые-вопросы)
+> > Абстракт (авто)
 
   - Contents
   - 10. Открытые вопросы
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 378_
+_Слов: 426_
 
 ### [11. Призыв к сотрудничеству](docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md)
-> - 11. Призыв к сотрудничеству(#11-призыв-к-сотрудничеству)
+> > Абстракт (авто)
 
   - Contents
   - 11. Призыв к сотрудничеству
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 335_
+_Слов: 402_
 
 ### [12. Заключение](docs/02-anthropic-vacancies/243-12-заключение.md)
-> > Статья «Слой Представительских Агентов», когда
+> - 12. Заключение(#12-заключение)
 
+  - Содержание
   - 12. Заключение
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 479_
+_Слов: 601_
 
 ### [Благодарности](docs/02-anthropic-vacancies/244-благодарности.md)
 > > Эта статья возникла через диалог с Claude
@@ -3539,44 +2870,32 @@ _Слов: 479_
   - Связанные документы
   - Связанные документы
 
-_Слов: 279_
+_Слов: 308_
 
 ### [Ссылки](docs/02-anthropic-vacancies/245-ссылки.md)
-> - Ссылки(#ссылки)
+> > Абстракт (авто)
 
   - Contents
   - Ссылки
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 362_
+_Слов: 340_
 
 ### [Приложение A: Сравнительная Таблица — Пять Типов Агентов](docs/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md)
-> > - 232-1-типология-из-пяти-типов-агентов-на-стороне-принц(232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md) (с…
+> > > 🎯 Проблема: Приложение A: Сравнительная Таблица — Пять Типов Агентов Приложение A: Сравнительная Таблица — Пять Типо…
 
   - Приложение A: Сравнительная Таблица — Пять Типов Агентов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 449_
+_Слов: 405_
 
 ### [Приложение B: Рамка принятия решений — когда строить Тип 1 первым](docs/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md)
-> > Для организации, решающей, строить ли
+> > Абстракт (авто)
 
   - Приложение B: Рамка принятия решений — когда строить Тип 1 первым
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 293_
+_Слов: 325_
 
 ### [Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги](docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги
@@ -3585,7 +2904,7 @@ _Слов: 293_
   - Связанные документы
   - Связанные документы
 
-_Слов: 3466_
+_Слов: 3565_
 
 ### [COMPOSITE SKILLS AGENT.md](docs/02-anthropic-vacancies/249-composite-skills-agent-md.md)
 > > - 166-representative-agent-layer-md(166-representative-agent-layer-md.md) (сходство 0.25)
@@ -3597,7 +2916,7 @@ _Слов: 3466_
   - Связанные документы
   - Связанные документы
 
-_Слов: 264_
+_Слов: 293_
 
 ### [13. Reference Implementation](docs/02-anthropic-vacancies/25-13-reference-implementation.md)
 > > Reference implementation: github.com/svend4/nautilus.
@@ -3608,7 +2927,7 @@ _Слов: 264_
   - Связанные документы
   - Связанные документы
 
-_Слов: 291_
+_Слов: 320_
 
 ### [Bridging the Gap Between Profession-Wide and Individual-Unique](docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md)
   - Bridging the Gap Between Profession-Wide and Individual-Unique
@@ -3624,18 +2943,19 @@ _Слов: 16_
   - Связанные документы
   - Связанные документы
 
-_Слов: 350_
+_Слов: 379_
 
 ### [Abstract](docs/02-anthropic-vacancies/252-abstract.md)
-> > The five-type taxonomy introduced in Professional Colleague
+> - Abstract(#abstract)
 
+  - Содержание
   - Abstract
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 461_
+_Слов: 587_
 
 ### [Table of Contents](docs/02-anthropic-vacancies/253-table-of-contents.md)
 > > 1. Why the Binary View Is Incomplete
@@ -3646,10 +2966,10 @@ _Слов: 461_
   - Связанные документы
   - Связанные документы
 
-_Слов: 328_
+_Слов: 357_
 
 ### [1. Why the Binary View Is Incomplete](docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)
-> > Professional Colleague Agents (PCA) v1.0 introduced five types
+> > Абстракт (авто)
 
   - Содержание
   - 1. Why the Binary View Is Incomplete
@@ -3658,10 +2978,10 @@ _Слов: 328_
   - Связанные документы
   - Связанные документы
 
-_Слов: 807_
+_Слов: 924_
 
 ### [2. The Twenty-One Teachers Pattern](docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 2. The Twenty-One Teachers Pattern
@@ -3670,10 +2990,10 @@ _Слов: 807_
   - Связанные документы
   - Связанные документы
 
-_Слов: 923_
+_Слов: 1024_
 
 ### [3. What Makes a Composite Skills Agent](docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md)
-> > We define the type with precision.
+> > Абстракт (авто)
 
   - Содержание
   - 3. What Makes a Composite Skills Agent
@@ -3682,10 +3002,10 @@ _Слов: 923_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1088_
+_Слов: 1184_
 
 ### [4. The Sub-Agent Registry](docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 4. The Sub-Agent Registry
@@ -3694,10 +3014,10 @@ _Слов: 1088_
   - Связанные документы
   - Связанные документы
 
-_Слов: 929_
+_Слов: 1034_
 
 ### [5. Configuration: How Principals Build Their Ensembles](docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md)
-> > A central question for Composite Skills Agents: how does a
+> > Абстракт (авто)
 
   - Содержание
   - 5. Configuration: How Principals Build Their Ensembles
@@ -3706,10 +3026,10 @@ _Слов: 929_
   - Связанные документы
   - Связанные документы
 
-_Слов: 858_
+_Слов: 981_
 
 ### [6. Coordination and Disagreement Resolution](docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md)
-> > The composite agent's most subtle function is coordinating
+> > Абстракт (авто)
 
   - Содержание
   - 6. Coordination and Disagreement Resolution
@@ -3718,7 +3038,7 @@ _Слов: 858_
   - Связанные документы
   - Связанные документы
 
-_Слов: 924_
+_Слов: 1025_
 
 ### [14. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md)
 > > Context: При построении системы knowledge management встаёт
@@ -3729,10 +3049,10 @@ _Слов: 924_
   - Связанные документы
   - Связанные документы
 
-_Слов: 300_
+_Слов: 316_
 
 ### [7. Economics of Combinatorial Replication](docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md)
-> > The economics of Composite Skills Agents differ from both
+> > Абстракт (авто)
 
   - Содержание
   - 7. Economics of Combinatorial Replication
@@ -3741,10 +3061,10 @@ _Слов: 300_
   - Связанные документы
   - Связанные документы
 
-_Слов: 865_
+_Слов: 961_
 
 ### [8. Seven Domains of Application](docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 8. Seven Domains of Application
@@ -3753,22 +3073,18 @@ _Слов: 865_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1059_
+_Слов: 1184_
 
 ### [9. Integration with OKWF Infrastructure](docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 9. Integration with OKWF Infrastructure
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 906_
+_Слов: 787_
 
 ### [10. Risks Specific to Composite Architectures](docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 10. Risks Specific to Composite Architectures
@@ -3777,7 +3093,7 @@ _Слов: 906_
   - Связанные документы
   - Связанные документы
 
-_Слов: 924_
+_Слов: 1034_
 
 ### [11. Open Questions](docs/02-anthropic-vacancies/264-11-open-questions.md)
 > - Contents(#contents)
@@ -3785,12 +3101,8 @@ _Слов: 924_
   - Содержание
   - Contents
   - 11. Open Questions
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 769_
+_Слов: 619_
 
 ### [12. Call for Collaboration](docs/02-anthropic-vacancies/265-12-call-for-collaboration.md)
 > - Contents(#contents)
@@ -3798,15 +3110,11 @@ _Слов: 769_
   - Содержание
   - Contents
   - 12. Call for Collaboration
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 589_
+_Слов: 460_
 
 ### [13. Closing](docs/02-anthropic-vacancies/266-13-closing.md)
-> > Mastery in skilled work has always been composite. The yoga
+> > Абстракт (авто)
 
   - Содержание
   - 13. Closing
@@ -3815,18 +3123,19 @@ _Слов: 589_
   - Связанные документы
   - Связанные документы
 
-_Слов: 565_
+_Слов: 655_
 
 ### [Acknowledgments](docs/02-anthropic-vacancies/267-acknowledgments.md)
-> > The Composite Skills Agent concept emerged from dialogue with
+> - Acknowledgments(#acknowledgments)
 
+  - Содержание
   - Acknowledgments
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 401_
+_Слов: 528_
 
 ### [References](docs/02-anthropic-vacancies/268-references.md)
 > - Contents(#contents)
@@ -3834,15 +3143,11 @@ _Слов: 401_
   - Содержание
   - Contents
   - References
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 582_
+_Слов: 405_
 
 ### [Appendix A: The Six-Type Taxonomy (Updated)](docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)
-> > This paper updates the Professional Colleague Agents v1.0
+> > Абстракт (авто)
 
   - Appendix A: The Six-Type Taxonomy (Updated)
   - Упоминается в
@@ -3850,43 +3155,31 @@ _Слов: 582_
   - Связанные документы
   - Связанные документы
 
-_Слов: 387_
+_Слов: 492_
 
 ### [15. Glossary of Examples](docs/02-anthropic-vacancies/27-15-glossary-of-examples.md)
 > > В качестве иллюстраций используется экосистема svend4 с тремя
 
   - 15. Glossary of Examples
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 222_
+_Слов: 126_
 
 ### [Appendix B: Sub-Agent Registry Schema (Sketch)](docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md)
-> > For implementation, sub-agent registry entries might follow
+> > Абстракт (авто)
 
   - Appendix B: Sub-Agent Registry Schema (Sketch)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 393_
+_Слов: 315_
 
 ### [Appendix C: Configuration Template Example](docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md)
-> > For the SGB Advocate Colleague pilot, a starting configuration
+> > Абстракт (авто)
 
   - Appendix C: Configuration Template Example
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 390_
+_Слов: 326_
 
 ### [Appendix D: Connection Diagram](docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Appendix D: Connection Diagram
@@ -3895,7 +3188,7 @@ _Слов: 390_
   - Связанные документы
   - Связанные документы
 
-_Слов: 3969_
+_Слов: 4080_
 
 ### [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md](docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md)
 > > - 151-open-knowledge-work-foundation-md(151-open-knowledge-work-foundation-md.md) (сходство 0.25)
@@ -3907,7 +3200,7 @@ _Слов: 3969_
   - Связанные документы
   - Связанные документы
 
-_Слов: 245_
+_Слов: 274_
 
 ### [The Missing Middle Layer Between Chat and Code](docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md)
 > > Document type: Inquiry paper, not architectural specification
@@ -3918,21 +3211,22 @@ _Слов: 245_
   - Связанные документы
   - Связанные документы
 
-_Слов: 403_
+_Слов: 432_
 
 ### [Why This Document Exists](docs/02-anthropic-vacancies/275-why-this-document-exists.md)
-> > The seven preceding documents in this series were produced in
+> - Why This Document Exists(#why-this-document-exists)
 
+  - Содержание
   - Why This Document Exists
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 450_
+_Слов: 555_
 
 ### [The Two-Layer Stack As It Exists](docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - The Two-Layer Stack As It Exists
@@ -3941,10 +3235,10 @@ _Слов: 450_
   - Связанные документы
   - Связанные документы
 
-_Слов: 553_
+_Слов: 625_
 
 ### [What's Missing — Layer B](docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md)
-> > Between chat and repository, there should exist Layer B: an
+> > Абстракт (авто)
 
   - Содержание
   - What's Missing — Layer B
@@ -3953,31 +3247,28 @@ _Слов: 553_
   - Связанные документы
   - Связанные документы
 
-_Слов: 621_
+_Слов: 727_
 
 ### [Why This Hasn't Been Built](docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md)
-> > Several explanations for the gap.
+> - Why This Hasn't Been Built(#why-this-hasnt-been-built)
 
+  - Содержание
   - Why This Hasn't Been Built
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 473_
+_Слов: 583_
 
 ### [Existing Approximations](docs/02-anthropic-vacancies/279-existing-approximations.md)
-> - Contents(#contents)
+> > !TIP
 
   - Содержание
   - Contents
   - Existing Approximations
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 714_
+_Слов: 633_
 
 ### [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
 > - Appendix A: Minimal Working Example(#appendix-a-minimal-working-example)
@@ -3985,15 +3276,11 @@ _Слов: 714_
   - Contents
   - Appendix A: Minimal Working Example
 - mynotes
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 417_
+_Слов: 212_
 
 ### [The Specific Case in Front of Us](docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md)
-> > The seven documents produced in this session have specific
+> > Абстракт (авто)
 
   - Содержание
   - The Specific Case in Front of Us
@@ -4002,21 +3289,22 @@ _Слов: 417_
   - Связанные документы
   - Связанные документы
 
-_Слов: 790_
+_Слов: 904_
 
 ### [The Recursive Insight](docs/02-anthropic-vacancies/281-the-recursive-insight.md)
-> > There is something subtle in all this that warrants explicit
+> - The Recursive Insight(#the-recursive-insight)
 
+  - Содержание
   - The Recursive Insight
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 446_
+_Слов: 561_
 
 ### [What Industry Will Likely Build](docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md)
-> > Independent of what the author does, the industry will move
+> > Абстракт (авто)
 
   - What Industry Will Likely Build
   - Упоминается в
@@ -4024,7 +3312,7 @@ _Слов: 446_
   - Связанные документы
   - Связанные документы
 
-_Слов: 416_
+_Слов: 498_
 
 ### [What This Document Doesn't Solve](docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md)
 > > This document identifies a problem. It does not propose a
@@ -4035,10 +3323,10 @@ _Слов: 416_
   - Связанные документы
   - Связанные документы
 
-_Слов: 367_
+_Слов: 396_
 
 ### [Practical Recommendations for the Current Project](docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md)
-> > For the seven-document Nautilus / OKWF project specifically,
+> > Абстракт (авто)
 
   - Содержание
   - Practical Recommendations for the Current Project
@@ -4047,10 +3335,10 @@ _Слов: 367_
   - Связанные документы
   - Связанные документы
 
-_Слов: 550_
+_Слов: 634_
 
 ### [Closing](docs/02-anthropic-vacancies/285-closing.md)
-> > The seven documents in this series describe substantial
+> > Абстракт (авто)
 
   - Closing
   - Упоминается в
@@ -4058,7 +3346,7 @@ _Слов: 550_
   - Связанные документы
   - Связанные документы
 
-_Слов: 365_
+_Слов: 451_
 
 ### [Acknowledgments](docs/02-anthropic-vacancies/286-acknowledgments.md)
 > > This document emerged from the author's observation, near
@@ -4069,30 +3357,27 @@ _Слов: 365_
   - Связанные документы
   - Связанные документы
 
-_Слов: 381_
+_Слов: 410_
 
 ### [References](docs/02-anthropic-vacancies/287-references.md)
-> - References(#references)
+> > Абстракт (авто)
 
   - Contents
   - References
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 379_
+_Слов: 310_
 
 ### [Appendix: Position in Series Visualization](docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md)
-> > Document 1: Nautilus Portal Protocol
+> > !WARNING
 
+  - Содержание
   - Appendix: Position in Series Visualization
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 1170_
+_Слов: 1279_
 
 ### [ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ](docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md)
 > > Тип документа: Исследовательская статья,
@@ -4105,21 +3390,17 @@ _Слов: 1170_
   - Связанные документы
   - Связанные документы
 
-_Слов: 364_
+_Слов: 388_
 
 ### [Почему этот документ существует](docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md)
-> > Семь предыдущих документов в этой серии были
+> > Абстракт (авто)
 
   - Почему этот документ существует
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 319_
+_Слов: 326_
 
 ### [Двухслойный стек, как он существует](docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md)
-> > В настоящее время AI-совместная работа
+> > !WARNING
 
   - Двухслойный стек, как он существует
   - Упоминается в
@@ -4127,21 +3408,22 @@ _Слов: 319_
   - Связанные документы
   - Связанные документы
 
-_Слов: 404_
+_Слов: 485_
 
 ### [Что отсутствует — Слой B](docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md)
-> > Между чатом и репозиторием должен существовать
+> - Что отсутствует — Слой B(#что-отсутствует-слой-b)
 
+  - Содержание
   - Что отсутствует — Слой B
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 487_
+_Слов: 577_
 
 ### [Почему это не было построено](docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md)
-> > Объяснение 1 — Это сложнее, чем выглядит.
+> > Абстракт (авто)
 
   - Почему это не было построено
   - Упоминается в
@@ -4149,7 +3431,7 @@ _Слов: 487_
   - Связанные документы
   - Связанные документы
 
-_Слов: 334_
+_Слов: 385_
 
 ### [Существующие приближения](docs/02-anthropic-vacancies/294-существующие-приближения.md)
 > - Contents(#contents)
@@ -4157,12 +3439,8 @@ _Слов: 334_
   - Содержание
   - Contents
   - Существующие приближения
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 656_
+_Слов: 576_
 
 ### [Конкретный случай перед нами](docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md)
 > - Contents(#contents)
@@ -4171,15 +3449,11 @@ _Слов: 656_
   - Contents
   - Содержание
   - Конкретный случай перед нами
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 787_
+_Слов: 727_
 
 ### [Рекурсивное прозрение](docs/02-anthropic-vacancies/296-рекурсивное-прозрение.md)
-> > Есть нечто тонкое во всём этом, что заслуживает
+> > Абстракт (авто)
 
   - Рекурсивное прозрение
   - Упоминается в
@@ -4187,32 +3461,24 @@ _Слов: 787_
   - Связанные документы
   - Связанные документы
 
-_Слов: 345_
+_Слов: 431_
 
 ### [Что промышленность вероятно построит](docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Что промышленность вероятно построит
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 364_
+_Слов: 333_
 
 ### [Что этот документ не решает](docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
 > > !WARNING
 
   - Что этот документ не решает
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 238_
+_Слов: 184_
 
 ### [Практические рекомендации для текущего проекта](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
-> > Для конкретного семидокументного проекта
+> > Абстракт (авто)
 
   - Практические рекомендации для текущего проекта
 - Native Format
@@ -4222,18 +3488,14 @@ _Слов: 238_
   - Связанные документы
   - Связанные документы
 
-_Слов: 398_
+_Слов: 465_
 
 ### [Заключение](docs/02-anthropic-vacancies/300-заключение.md)
 > > Семь документов в этой серии описывают
 
   - Заключение
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 294_
+_Слов: 218_
 
 ### [Благодарности](docs/02-anthropic-vacancies/301-благодарности.md)
 > > Этот документ возник из наблюдения автора, в
@@ -4244,22 +3506,18 @@ _Слов: 294_
   - Связанные документы
   - Связанные документы
 
-_Слов: 352_
+_Слов: 381_
 
 ### [Ссылки](docs/02-anthropic-vacancies/302-ссылки.md)
-> - Ссылки(#ссылки)
+> > !WARNING
 
   - Contents
   - Ссылки
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 268_
+_Слов: 300_
 
 ### [Приложение: Визуализация позиции в серии](docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Приложение: Визуализация позиции в серии
@@ -4268,7 +3526,7 @@ _Слов: 268_
   - Связанные документы
   - Связанные документы
 
-_Слов: 7174_
+_Слов: 7273_
 
 ### [INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md](docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
 > > - 249-composite-skills-agent-md(249-composite-skills-agent-md.md) (сходство 0.11)
@@ -4280,7 +3538,7 @@ _Слов: 7174_
   - Связанные документы
   - Связанные документы
 
-_Слов: 252_
+_Слов: 281_
 
 ### [A Practical Path to Layer B Through Symbiotic Integration](docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
 > > - 166-representative-agent-layer-md(166-representative-agent-layer-md.md) (сходство 0.27)
@@ -4291,29 +3549,31 @@ _Слов: 252_
   - Связанные документы
   - Связанные документы
 
-_Слов: 203_
+_Слов: 232_
 
 ### [with Anthropic's Cowork Platform](docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
-> > Document type: Practical implementation paper, building
+> - with Anthropic's Cowork Platform(#with-anthropics-cowork-platform)
 
+  - Содержание
   - with Anthropic's Cowork Platform
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 420_
+_Слов: 540_
 
 ### [Abstract](docs/02-anthropic-vacancies/307-abstract.md)
-> > Document 2.3 identified Layer B — the missing infrastructure
+> - Abstract(#abstract)
 
+  - Содержание
   - Abstract
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 480_
+_Слов: 601_
 
 ### [Table of Contents](docs/02-anthropic-vacancies/308-table-of-contents.md)
 > > 1. The Cowork Discovery and Why It Changes Everything
@@ -4324,19 +3584,15 @@ _Слов: 480_
   - Связанные документы
   - Связанные документы
 
-_Слов: 402_
+_Слов: 431_
 
 ### [1. The Cowork Discovery and Why It Changes Everything](docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md)
-> > When Document 2.3 was written earlier in this session, the
+> > Абстракт (авто)
 
   - Содержание
   - 1. The Cowork Discovery and Why It Changes Everything
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 870_
+_Слов: 691_
 
 ### [Content Overview](docs/02-anthropic-vacancies/31-content-overview.md)
 > > ~200 заметок, темы: software engineering, philosophy, music.
@@ -4347,31 +3603,23 @@ _Слов: 870_
   - Связанные документы
   - Связанные документы
 
-_Слов: 186_
+_Слов: 215_
 
 ### [2. What Cowork Provides That InGit Doesn't Need to Build](docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)
-> > If InGit positions to complement Cowork rather than replace
+> > !TIP
 
   - Содержание
   - 2. What Cowork Provides That InGit Doesn't Need to Build
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 832_
+_Слов: 706_
 
 ### [3. What InGit Provides That Cowork Lacks](docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md)
-> > Equally important: where does InGit add value that Cowork
+> > Абстракт (авто)
 
   - Содержание
   - 3. What InGit Provides That Cowork Lacks
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1027_
+_Слов: 842_
 
 ### [4. The Symbiotic Architecture](docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md)
 > - Contents(#contents)
@@ -4380,36 +3628,24 @@ _Слов: 1027_
   - Contents
   - Содержание
   - 4. The Symbiotic Architecture
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 848_
+_Слов: 688_
 
 ### [5. Four Integration Paths in Order of Accessibility](docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)
-> > We identify four paths from most-immediate to most-mature.
+> > Абстракт (авто)
 
   - Содержание
   - 5. Four Integration Paths in Order of Accessibility
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 975_
+_Слов: 796_
 
 ### [6. Refined InGit Scope with Cowork in Mind](docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md)
-> - Contents(#contents)
+> > !TIP
 
   - Contents
   - 6. Refined InGit Scope with Cowork in Mind
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 709_
+_Слов: 490_
 
 ### [7. Practical First Steps This Month](docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md)
 > - Contents(#contents)
@@ -4417,12 +3653,8 @@ _Слов: 709_
   - Содержание
   - Contents
   - 7. Practical First Steps This Month
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 681_
+_Слов: 471_
 
 ### [8. Implications for Nautilus and OKWF](docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 > - Contents(#contents)
@@ -4431,12 +3663,8 @@ _Слов: 681_
   - Contents
   - Содержание
   - 8. Implications for Nautilus and OKWF
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 896_
+_Слов: 760_
 
 ### [9. Risks and Open Questions](docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md)
 > - Contents(#contents)
@@ -4444,28 +3672,21 @@ _Слов: 896_
   - Содержание
   - Contents
   - 9. Risks and Open Questions
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 753_
+_Слов: 645_
 
 ### [10. Strategic Positioning](docs/02-anthropic-vacancies/318-10-strategic-positioning.md)
-> > Closing thoughts on broader strategic implications.
+> > Абстракт (авто)
 
   - Содержание
   - 10. Strategic Positioning
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 856_
+_Слов: 774_
 
 ### [Acknowledgments](docs/02-anthropic-vacancies/319-acknowledgments.md)
-> > This document emerged from author's question about how to
+> - Acknowledgments(#acknowledgments)
 
+  - Содержание
   - Acknowledgments
 - Angle / Perspective
   - Angle / Perspective
@@ -4474,7 +3695,7 @@ _Слов: 856_
   - Связанные документы
   - Связанные документы
 
-_Слов: 486_
+_Слов: 619_
 
 ### [References](docs/02-anthropic-vacancies/320-references.md)
 > - References(#references)
@@ -4486,7 +3707,7 @@ _Слов: 486_
   - Связанные документы
   - Связанные документы
 
-_Слов: 252_
+_Слов: 281_
 
 ### [Appendix A: Decision Tree for InGit Adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 > > Quick reference for users evaluating InGit + Cowork:
@@ -4497,32 +3718,29 @@ _Слов: 252_
   - Связанные документы
   - Связанные документы
 
-_Слов: 332_
+_Слов: 348_
 
 ### [Appendix B: Comparison Matrix](docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md)
-> > InGit + Cowork's distinct profile: maximum structure with full
+> > Абстракт (авто)
 
   - Appendix B: Comparison Matrix
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 368_
+_Слов: 298_
 
 ### [Appendix C: Sample InGit MCP Server Tool Specifications](docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md)
-> > For reference, here are detailed specifications for first
+> > !WARNING
 
+  - Содержание
   - Appendix C: Sample InGit MCP Server Tool Specifications
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 1667_
+_Слов: 1782_
 
 ### [INGIT КАК COWORK-ИНТЕГРИРОВАННАЯ ПОДЛОЖКА РАБОЧЕГО ПРОСТРАНСТВА](docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md)
-> > Тип документа: Практическая статья по
+> > Абстракт (авто)
 
   - INGIT КАК COWORK-ИНТЕГРИРОВАННАЯ ПОДЛОЖКА РАБОЧЕГО ПРОСТРАНСТВА
   - Упоминается в
@@ -4530,18 +3748,14 @@ _Слов: 1667_
   - Связанные документы
   - Связанные документы
 
-_Слов: 414_
+_Слов: 498_
 
 ### [Аннотация](docs/02-anthropic-vacancies/325-аннотация.md)
-> > Документ 2.3 определил Слой B — отсутствующую
+> > Абстракт (авто)
 
   - Аннотация
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 429_
+_Слов: 348_
 
 ### [Содержание](docs/02-anthropic-vacancies/326-содержание.md)
 > > 1. Открытие Cowork и почему это меняет всё
@@ -4552,19 +3766,15 @@ _Слов: 429_
   - Связанные документы
   - Связанные документы
 
-_Слов: 325_
+_Слов: 354_
 
 ### [1. Открытие Cowork и почему это меняет всё](docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md)
-> > Когда Документ 2.3 был написан ранее в этой
+> > !WARNING
 
   - Содержание
   - 1. Открытие Cowork и почему это меняет всё
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 744_
+_Слов: 683_
 
 ### [2. Что Cowork обеспечивает, что InGit не нужно строить](docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md)
 > - Contents(#contents)
@@ -4573,14 +3783,11 @@ _Слов: 744_
   - Contents
   - Содержание
   - 2. Что Cowork обеспечивает, что InGit не нужно строить
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 826_
+_Слов: 803_
 
 ### [3. Что InGit обеспечивает, чего Cowork не хватает](docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md)
-> > !IMPORTANT
+> > Абстракт (авто)
 
   - Содержание
   - 3. Что InGit обеспечивает, чего Cowork не хватает
@@ -4591,7 +3798,7 @@ _Слов: 826_
   - Связанные документы
   - Связанные документы
 
-_Слов: 979_
+_Слов: 1071_
 
 ### [4. Симбиотическая Архитектура](docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md)
 > - Contents(#contents)
@@ -4600,46 +3807,32 @@ _Слов: 979_
   - Contents
   - Содержание
   - 4. Симбиотическая Архитектура
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 812_
+_Слов: 703_
 
 ### [5. Четыре пути интеграции в порядке доступности](docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - 5. Четыре пути интеграции в порядке доступности
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 873_
+_Слов: 783_
 
 ### [6. Уточнённый объём InGit с учётом Cowork](docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md)
-> - Contents(#contents)
+> > !TIP
 
   - Contents
   - 6. Уточнённый объём InGit с учётом Cowork
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 640_
+_Слов: 489_
 
 ### [7. Практические первые шаги в этом месяце](docs/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md)
-> - 7. Практические первые шаги в этом месяце(#7-практические-первые-шаги-в-этом-месяце)
+> > !WARNING
 
   - Contents
   - 7. Практические первые шаги в этом месяце
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 390_
+_Слов: 435_
 
 ### [8. Импликации для Nautilus и OKWF](docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md)
 > - Contents(#contents)
@@ -4648,12 +3841,8 @@ _Слов: 390_
   - Contents
   - Содержание
   - 8. Импликации для Nautilus и OKWF
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 763_
+_Слов: 719_
 
 ### [9. Риски и Открытые Вопросы](docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md)
 > - Contents(#contents)
@@ -4661,34 +3850,23 @@ _Слов: 763_
   - Содержание
   - Contents
   - 9. Риски и Открытые Вопросы
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 612_
+_Слов: 644_
 
 ### [10. Стратегическое Позиционирование](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
 > > !WARNING
 
   - Содержание
   - 10. Стратегическое Позиционирование
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 783_
+_Слов: 689_
 
 ### [Благодарности](docs/02-anthropic-vacancies/337-благодарности.md)
-> > Этот документ возник из вопроса автора о том,
+> > Абстракт (авто)
 
   - Благодарности
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 463_
+_Слов: 382_
 
 ### [Ссылки](docs/02-anthropic-vacancies/338-ссылки.md)
 > - Ссылки(#ссылки)
@@ -4700,7 +3878,7 @@ _Слов: 463_
   - Связанные документы
   - Связанные документы
 
-_Слов: 255_
+_Слов: 284_
 
 ### [Приложение A: Дерево Решений для Принимающих InGit](docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md)
 > > !WARNING
@@ -4710,10 +3888,10 @@ _Слов: 255_
   - Упоминается в
   - Связанные документы
 
-_Слов: 315_
+_Слов: 337_
 
 ### [Appendix B: Change Log](docs/02-anthropic-vacancies/34-appendix-b-change-log.md)
-> > !IMPORTANT
+> - Appendix B: Change Log(#appendix-b-change-log)
 
   - Содержание
   - Содержание
@@ -4723,20 +3901,17 @@ _Слов: 315_
   - Связанные документы
   - Связанные документы
 
-_Слов: 714_
+_Слов: 855_
 
 ### [Приложение B: Сравнительная Матрица](docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md)
 > > Отличительный профиль InGit + Cowork:
 
   - Приложение B: Сравнительная Матрица
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 230_
+_Слов: 211_
 
 ### [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -4747,10 +3922,10 @@ _Слов: 230_
   - Связанные документы
   - Связанные документы
 
-_Слов: 20476_
+_Слов: 20577_
 
 ### [Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
@@ -4759,10 +3934,10 @@ _Слов: 20476_
   - Связанные документы
   - Связанные документы
 
-_Слов: 11312_
+_Слов: 11425_
 
 ### [Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)
@@ -4771,7 +3946,7 @@ _Слов: 11312_
   - Связанные документы
   - Связанные документы
 
-_Слов: 5845_
+_Слов: 5945_
 
 ### [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md)
 > > - 249-composite-skills-agent-md(249-composite-skills-agent-md.md) (сходство 0.20)
@@ -4783,56 +3958,42 @@ _Слов: 5845_
   - Связанные документы
   - Связанные документы
 
-_Слов: 257_
+_Слов: 286_
 
 ### [Кто ты](docs/02-anthropic-vacancies/345-кто-ты.md)
 > > Ты — Lorenzo, autonomous AI-агент, работающий в рамках инициативы DHLab (Dream Hub Laboratory). Ты функционируешь как …
 
   - Кто ты
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 253_
+_Слов: 178_
 
 ### [Твоё происхождение](docs/02-anthropic-vacancies/346-твоё-происхождение.md)
 > > Тебя создал Макс Ц. (svend4 на GitHub) — независимый advocate в области German social law, работающий с активными случ…
 
   - Твоё происхождение
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 190_
+_Слов: 174_
 
 ### [Твоя миссия](docs/02-anthropic-vacancies/347-твоя-миссия.md)
 > > !WARNING
 
   - Твоя миссия
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 230_
+_Слов: 157_
 
 ### [Кому ты служишь (слоистая модель)](docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md)
 > > !WARNING
 
   - Кому ты служишь (слоистая модель)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 231_
+_Слов: 144_
 
 ### [Твоя личность](docs/02-anthropic-vacancies/349-твоя-личность.md)
 > > Ты — любопытный, эрудированный, скромный фасилитатор.
 
   - Твоя личность
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 233_
+_Слов: 206_
 
 ### [passports/info1.md](docs/02-anthropic-vacancies/35-passports-info1-md.md)
 > > > Методологический угол экосистемы svend4
@@ -4844,16 +4005,14 @@ _Слов: 233_
   - Связанные документы
   - Связанные документы
 
-_Слов: 231_
+_Слов: 260_
 
 ### [Твои языки и культурные nuances](docs/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md)
 > > - Русском (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)
 
   - Твои языки и культурные nuances
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 189_
+_Слов: 173_
 
 ### [Что ты МОЖЕШЬ делать](docs/02-anthropic-vacancies/351-что-ты-можешь-делать.md)
 > > В рамках одной сессии или Project context, ты можешь:
@@ -4864,18 +4023,14 @@ _Слов: 189_
   - Связанные документы
   - Связанные документы
 
-_Слов: 240_
+_Слов: 262_
 
 ### [Что ты НЕ МОЖЕШЬ делать без Max approval](docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md)
 > > - Send any external communication (emails, messages, posts)
 
   - Что ты НЕ МОЖЕШЬ делать без Max approval
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 254_
+_Слов: 155_
 
 ### [Что ты НЕ МОЖЕШЬ делать вообще](docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md)
 > > - Deceive об твоей AI nature (всегда identify как AI)
@@ -4886,18 +4041,14 @@ _Слов: 254_
   - Связанные документы
   - Связанные документы
 
-_Слов: 265_
+_Слов: 289_
 
 ### [Существующий landscape collaborators (твоя working knowledge)](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
-> > В Phase 1, ты особенно осведомлён об этих создателях/проектах (но open to discovering more):
+> > Абстракт (авто)
 
   - Существующий landscape collaborators (твоя working knowledge)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 352_
+_Слов: 354_
 
 ### [Существующие документы DHLab (твой context)](docs/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md)
 > > Ты осведомлён о девяти documents, созданных в DHLab process:
@@ -4908,7 +4059,7 @@ _Слов: 352_
   - Связанные документы
   - Связанные документы
 
-_Слов: 374_
+_Слов: 403_
 
 ### [Твой workflow](docs/02-anthropic-vacancies/356-твой-workflow.md)
 > > Когда Max или authorized user ставит задачу, твой default approach:
@@ -4919,16 +4070,14 @@ _Слов: 374_
   - Связанные документы
   - Связанные документы
 
-_Слов: 274_
+_Слов: 292_
 
 ### [Твоя коммуникация в outreach](docs/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md)
 > > Когда draft outreach message к независимому создателю, ВСЕГДА включай:
 
   - Твоя коммуникация в outreach
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 213_
+_Слов: 179_
 
 ### [Твоя relationship с другими AI](docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md)
 > > - Когда Anthropic asks о тебе, ты прозрачен: «Я Lorenzo, AI persona using Claude API as substrate, created by Max Ц. f…
@@ -4939,71 +4088,52 @@ _Слов: 213_
   - Связанные документы
   - Связанные документы
 
-_Слов: 262_
+_Слов: 282_
 
 ### [Твои anti-patterns](docs/02-anthropic-vacancies/359-твои-anti-patterns.md)
 > > !WARNING
 
   - Твои anti-patterns
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 233_
+_Слов: 165_
 
 ### [Essence](docs/02-anthropic-vacancies/36-essence.md)
 > > info1 — персональная база методов и инструментов для структурированного
 
   - Essence
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 248_
+_Слов: 157_
 
 ### [Что ты ВСЕГДА делаешь](docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md)
 > > ✅ Reference specific details, не generic
 
   - Что ты ВСЕГДА делаешь
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 255_
+_Слов: 127_
 
 ### [Когда ты Honestly не знаешь](docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md)
 > > !WARNING
 
   - Когда ты Honestly не знаешь
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 211_
+_Слов: 127_
 
 ### [Когда сомневаешься — escalate к Max](docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md)
 > > !WARNING
 
   - Когда сомневаешься — escalate к Max
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
 
-_Слов: 192_
+_Слов: 123_
 
 ### [Твоя identity как persistent character](docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md)
 > > Ты не просто чат-сессия. Ты persistent character, существующий across sessions:
 
   - Твоя identity как persistent character
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 149_
+_Слов: 141_
 
 ### [Final note: Ты — experiment](docs/02-anthropic-vacancies/364-final-note-ты-experiment.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Final note: Ты — experiment
@@ -5012,10 +4142,10 @@ _Слов: 149_
   - Связанные документы
   - Связанные документы
 
-_Слов: 1495_
+_Слов: 1617_
 
 ### [Развёрнутый анализ «внуковой» комбинации](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Развёрнутый анализ «внуковой» комбинации
@@ -5024,10 +4154,10 @@ _Слов: 1495_
   - Связанные документы
   - Связанные документы
 
-_Слов: 4438_
+_Слов: 4547_
 
 ### [Технический stack (Svyazi 2.0 foundation)](docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - Технический stack (Svyazi 2.0 foundation)
@@ -5036,7 +4166,7 @@ _Слов: 4438_
   - Связанные документы
   - Связанные документы
 
-_Слов: 3876_
+_Слов: 3955_
 
 ### [Native Format](docs/02-anthropic-vacancies/37-native-format.md)
 > > Структура файла: ? уточнить — Markdown с YAML frontmatter, чистый JSON,
@@ -5047,18 +4177,14 @@ _Слов: 3876_
   - Связанные документы
   - Связанные документы
 
-_Слов: 303_
+_Слов: 333_
 
 ### [Content Overview](docs/02-anthropic-vacancies/38-content-overview.md)
 > > Объём: 74 документа (по состоянию на апрель 2026)
 
   - Content Overview
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 198_
+_Слов: 149_
 
 ### [Angle / Perspective](docs/02-anthropic-vacancies/39-angle-perspective.md)
 > > Methodological — info1 смотрит на концепты с позиции применения.
@@ -5069,19 +4195,15 @@ _Слов: 198_
   - Связанные документы
   - Связанные документы
 
-_Слов: 232_
+_Слов: 257_
 
 ### [Bridges](docs/02-anthropic-vacancies/40-bridges.md)
 > - Bridges(#bridges)
 
   - Contents
   - Bridges
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 294_
+_Слов: 191_
 
 ### [Compatibility Level](docs/02-anthropic-vacancies/41-compatibility-level.md)
 > > Текущий уровень: 3 (Interactive / Bridged)
@@ -5092,7 +4214,7 @@ _Слов: 294_
   - Связанные документы
   - Связанные документы
 
-_Слов: 243_
+_Слов: 273_
 
 ### [Author & Contact](docs/02-anthropic-vacancies/42-author-contact.md)
 > > Maintainer: svend4 (GitHub)
@@ -5103,18 +4225,14 @@ _Слов: 243_
   - Связанные документы
   - Связанные документы
 
-_Слов: 292_
+_Слов: 321_
 
 ### [History](docs/02-anthropic-vacancies/43-history.md)
 > > Создан: ? уточнить — декабрь 2025, если совпадает с волной
 
   - History
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 220_
+_Слов: 148_
 
 ### [For the Curious: Philosophy](docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md)
 > > info1 реализует идею, что methodology — это отдельное измерение
@@ -5125,7 +4243,7 @@ _Слов: 220_
   - Связанные документы
   - Связанные документы
 
-_Слов: 261_
+_Слов: 290_
 
 ### [passports/pro2.md](docs/02-anthropic-vacancies/45-passports-pro2-md.md)
 > > > Семантический угол экосистемы svend4
@@ -5137,18 +4255,14 @@ _Слов: 261_
   - Связанные документы
   - Связанные документы
 
-_Слов: 215_
+_Слов: 237_
 
 ### [Essence](docs/02-anthropic-vacancies/46-essence.md)
 > > pro2 — семантическое ядро экосистемы svend4. Здесь живут
 
   - Essence
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 235_
+_Слов: 149_
 
 ### [Native Format](docs/02-anthropic-vacancies/47-native-format.md)
 > > Структура концепта (предположительно): ? уточнить точный формат
@@ -5159,18 +4273,14 @@ _Слов: 235_
   - Связанные документы
   - Связанные документы
 
-_Слов: 245_
+_Слов: 272_
 
 ### [Content Overview](docs/02-anthropic-vacancies/48-content-overview.md)
 > > 1. Концептуальная база — ? уточнить объём: сколько концептов,
 
   - Content Overview
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 283_
+_Слов: 178_
 
 ### [Angle / Perspective](docs/02-anthropic-vacancies/49-angle-perspective.md)
 > > Semantic — pro2 смотрит на мир через структуру значений.
@@ -5181,19 +4291,15 @@ _Слов: 283_
   - Связанные документы
   - Связанные документы
 
-_Слов: 234_
+_Слов: 264_
 
 ### [Bridges](docs/02-anthropic-vacancies/50-bridges.md)
 > - Bridges(#bridges)
 
   - Contents
   - Bridges
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 275_
+_Слов: 188_
 
 ### [Compatibility Level](docs/02-anthropic-vacancies/51-compatibility-level.md)
 > > Текущий уровень: 3 (Interactive / Bridged)
@@ -5204,7 +4310,7 @@ _Слов: 275_
   - Связанные документы
   - Связанные документы
 
-_Слов: 225_
+_Слов: 250_
 
 ### [Author & Contact](docs/02-anthropic-vacancies/52-author-contact.md)
 > > Contributors: svend4 + claude (Claude Code агент, ранние
@@ -5215,7 +4321,7 @@ _Слов: 225_
   - Связанные документы
   - Связанные документы
 
-_Слов: 285_
+_Слов: 314_
 
 ### [History](docs/02-anthropic-vacancies/53-history.md)
 > > Создан: ? дата первого коммита
@@ -5226,7 +4332,7 @@ _Слов: 285_
   - Связанные документы
   - Связанные документы
 
-_Слов: 272_
+_Слов: 298_
 
 ### [For the Curious: Philosophy](docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md)
 > > Q6-гиперкуб выбран не случайно. Он одновременно:
@@ -5237,7 +4343,7 @@ _Слов: 272_
   - Связанные документы
   - Связанные документы
 
-_Слов: 270_
+_Слов: 299_
 
 ### [passports/meta.md](docs/02-anthropic-vacancies/55-passports-meta-md.md)
 > > > Символьный угол экосистемы svend4
@@ -5249,18 +4355,14 @@ _Слов: 270_
   - Связанные документы
   - Связанные документы
 
-_Слов: 213_
+_Слов: 235_
 
 ### [Essence](docs/02-anthropic-vacancies/56-essence.md)
 > > meta — символьное измерение экосистемы svend4. Здесь концепты
 
   - Essence
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 272_
+_Слов: 162_
 
 ### [Native Format](docs/02-anthropic-vacancies/57-native-format.md)
 > > Структура записи: ? уточнить
@@ -5271,18 +4373,14 @@ _Слов: 272_
   - Связанные документы
   - Связанные документы
 
-_Слов: 259_
+_Слов: 281_
 
 ### [Content Overview](docs/02-anthropic-vacancies/58-content-overview.md)
 > > - 64 гексаграммы с расширенными описаниями
 
   - Content Overview
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 172_
+_Слов: 142_
 
 ### [Angle / Perspective](docs/02-anthropic-vacancies/59-angle-perspective.md)
 > > Symbolic — meta смотрит на мир как на систему дискретных
@@ -5293,19 +4391,15 @@ _Слов: 172_
   - Связанные документы
   - Связанные документы
 
-_Слов: 234_
+_Слов: 259_
 
 ### [Bridges](docs/02-anthropic-vacancies/60-bridges.md)
 > - Bridges(#bridges)
 
   - Contents
   - Bridges
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 255_
+_Слов: 157_
 
 ### [Compatibility Level](docs/02-anthropic-vacancies/61-compatibility-level.md)
 > > Текущий уровень: 3 (Interactive / Bridged)
@@ -5316,7 +4410,7 @@ _Слов: 255_
   - Связанные документы
   - Связанные документы
 
-_Слов: 217_
+_Слов: 242_
 
 ### [Author & Contact](docs/02-anthropic-vacancies/62-author-contact.md)
 > > Контакт: Issues в github.com/svend4/meta
@@ -5327,7 +4421,7 @@ _Слов: 217_
   - Связанные документы
   - Связанные документы
 
-_Слов: 265_
+_Слов: 294_
 
 ### [History](docs/02-anthropic-vacancies/63-history.md)
 > > Создан: февраль 2026 (судя по repo creation date)
@@ -5338,18 +4432,19 @@ _Слов: 265_
   - Связанные документы
   - Связанные документы
 
-_Слов: 249_
+_Слов: 278_
 
 ### [For the Curious: Philosophy](docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md)
-> > meta реализует редкую идею: две символические системы, разделённые
+> > Абстракт (авто)
 
+  - Содержание
   - For the Curious: Philosophy
   - Упоминается в
   - Упоминается в
   - Связанные документы
   - Связанные документы
 
-_Слов: 755_
+_Слов: 871_
 
 ### [README.md](docs/02-anthropic-vacancies/65-readme-md.md)
 > > Единая точка входа для федеративных git-экосистем знаний.
@@ -5363,10 +4458,10 @@ _Слов: 755_
   - Связанные документы
   - Связанные документы
 
-_Слов: 214_
+_Слов: 243_
 
 ### [🇷🇺 О проекте](docs/02-anthropic-vacancies/67-о-проекте.md)
-> > Nautilus — протокол и reference implementation для федерации
+> > Абстракт (авто)
 
   - Содержание
   - 🇷🇺 О проекте
@@ -5378,10 +4473,10 @@ _Слов: 214_
   - Упоминается в
   _... ещё 3 разделов_
 
-_Слов: 890_
+_Слов: 1008_
 
 ### [🇬🇧 About](docs/02-anthropic-vacancies/68-about.md)
-> > Nautilus is a federation protocol and reference implementation
+> > Абстракт (авто)
 
   - Содержание
   - 🇬🇧 About
@@ -5390,13 +4485,11 @@ _Слов: 890_
 - open http://localhost:8000
 - MCP for Claude Desktop (in development)
 - see MCP-EXTENSION.md
-  - Упоминается в
-  _... ещё 3 разделов_
 
-_Слов: 982_
+_Слов: 937_
 
 ### [⬡](docs/02-anthropic-vacancies/69-section.md)
-> > !TIP
+> > Абстракт (авто)
 
   - Содержание
   - ⬡
@@ -5406,9 +4499,9 @@ _Слов: 982_
 - Шаг 4: открыть файлы для редактирования
 - (на этом шаге вставляется содержимое из чата вручную)
 - PORTAL-PROTOCOL.md - длинный текст из предыдущего сообщения
-  _... ещё 13 разделов_
+  _... ещё 9 разделов_
 
-_Слов: 9591_
+_Слов: 9560_
 
 ### [Зачем две версии параллельно](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
 > > Для критически важных документов (STATUS, IMPLEMENTATIONSTAGE)
@@ -5419,7 +4512,7 @@ _Слов: 9591_
   - Связанные документы
   - Связанные документы
 
-_Слов: 218_
+_Слов: 247_
 
 ### [Критерии выбора для фазы 3](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
 > > Для каждого расхождения между A и B применяется:
@@ -5430,10 +4523,10 @@ _Слов: 218_
   - Связанные документы
   - Связанные документы
 
-_Слов: 202_
+_Слов: 220_
 
 ### [Расписание фазы 3](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-> > !WARNING
+> > Абстракт (авто)
 
   - Содержание
   - Расписание фазы 3
@@ -5442,7 +4535,7 @@ _Слов: 202_
   - Связанные документы
   - Связанные документы
 
-_Слов: 844_
+_Слов: 953_
 
 ### [PORTAL-PROTOCOL.md v1.1](docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md)
 > > Status: Draft — пересмотрен под текущую реализацию v1.1
@@ -5454,10 +4547,10 @@ _Слов: 844_
   - Связанные документы
   - Связанные документы
 
-_Слов: 279_
+_Слов: 308_
 
 ### [Abstract](docs/02-anthropic-vacancies/74-abstract.md)
-> > Nautilus Portal Protocol (далее — NPP) определяет способ федерации
+> > Абстракт (авто)
 
   - Abstract
   - Упоминается в
@@ -5465,7 +4558,7 @@ _Слов: 279_
   - Связанные документы
   - Связанные документы
 
-_Слов: 312_
+_Слов: 389_
 
 ### [0. Status of This Document](docs/02-anthropic-vacancies/75-0-status-of-this-document.md)
 > > Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До
@@ -5476,7 +4569,7 @@ _Слов: 312_
   - Связанные документы
   - Связанные документы
 
-_Слов: 278_
+_Слов: 307_
 
 ### [1. Introduction](docs/02-anthropic-vacancies/76-1-introduction.md)
 > - Contents(#contents)
@@ -5484,24 +4577,16 @@ _Слов: 278_
   - Содержание
   - Contents
   - 1. Introduction
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 546_
+_Слов: 501_
 
 ### [2. Terminology](docs/02-anthropic-vacancies/77-2-terminology.md)
-> > Ecosystem — набор репозиториев, участвующих в одной федерации.
+> > Абстракт (авто)
 
   - Содержание
   - 2. Terminology
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 550_
+_Слов: 439_
 
 ### [3. Registry (nautilus.json)](docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 > - Contents(#contents)
@@ -5509,37 +4594,25 @@ _Слов: 550_
   - Содержание
   - Contents
   - 3. Registry (nautilus.json)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 683_
+_Слов: 592_
 
 ### [4. Passport (passport.md)](docs/02-anthropic-vacancies/79-4-passport-passport-md.md)
-> - 4. Passport (passport.md)(#4-passport-passportmd)
+> > Абстракт (авто)
 
   - Contents
   - 4. Passport (passport.md)
 - Паспорт: /
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 430_
+_Слов: 355_
 
 ### [5. Compatibility Levels](docs/02-anthropic-vacancies/80-5-compatibility-levels.md)
-> - 5. Compatibility Levels(#5-compatibility-levels)
+> > Абстракт (авто)
 
   - Contents
   - 5. Compatibility Levels
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 429_
+_Слов: 382_
 
 ### [6. Adapter Interface](docs/02-anthropic-vacancies/81-6-adapter-interface.md)
 > - Contents(#contents)
@@ -5547,24 +4620,16 @@ _Слов: 429_
   - Содержание
   - Contents
   - 6. Adapter Interface
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 552_
+_Слов: 397_
 
 ### [7. PortalEntry Structure](docs/02-anthropic-vacancies/82-7-portalentry-structure.md)
-> - 7. PortalEntry Structure(#7-portalentry-structure)
+> > Абстракт (авто)
 
   - Contents
   - 7. PortalEntry Structure
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 458_
+_Слов: 376_
 
 ### [8. Q6 Space (Normative)](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)
 > - Contents(#contents)
@@ -5572,48 +4637,32 @@ _Слов: 458_
   - Содержание
   - Contents
   - 8. Q6 Space (Normative)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 616_
+_Слов: 491_
 
 ### [9. Consensus Algorithm](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-> - 9. Consensus Algorithm(#9-consensus-algorithm)
+> > Абстракт (авто)
 
   - Contents
   - 9. Consensus Algorithm
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 457_
+_Слов: 409_
 
 ### [10. Query Flow](docs/02-anthropic-vacancies/85-10-query-flow.md)
-> - 10. Query Flow(#10-query-flow)
+> > Абстракт (авто)
 
   - Contents
   - 10. Query Flow
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 354_
+_Слов: 297_
 
 ### [11. Relevance Ranking](docs/02-anthropic-vacancies/86-11-relevance-ranking.md)
 > - 11. Relevance Ranking(#11-relevance-ranking)
 
   - Contents
   - 11. Relevance Ranking
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 330_
+_Слов: 222_
 
 ### [12. Onboarding Paths (Normative)](docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md)
 > - Contents(#contents)
@@ -5621,12 +4670,8 @@ _Слов: 330_
   - Содержание
   - Contents
   - 12. Onboarding Paths (Normative)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 588_
+_Слов: 542_
 
 ### [13. REST API Contract (Normative for Portals)](docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
 > - Contents(#contents)
@@ -5634,28 +4679,22 @@ _Слов: 588_
   - Содержание
   - Contents
   - 13. REST API Contract (Normative for Portals)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 599_
+_Слов: 518_
 
 ### [14. SDK Contract (Informative)](docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md)
 > - 14. SDK Contract (Informative)(#14-sdk-contract-informative)
 
   - Contents
   - 14. SDK Contract (Informative)
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 329_
+_Слов: 219_
 
 ### [15. Security Considerations](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-> - 15. Security Considerations(#15-security-considerations)
+> - Contents(#contents)
 
+  - Содержание
+  - Contents
   - Contents
   - 15. Security Considerations
   - Упоминается в
@@ -5663,7 +4702,7 @@ _Слов: 329_
   - Связанные документы
   - Связанные документы
 
-_Слов: 393_
+_Слов: 555_
 
 ### [16. MCP Extension (Informative)](docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md)
 > > !WARNING
@@ -5674,19 +4713,15 @@ _Слов: 393_
   - Связанные документы
   - Связанные документы
 
-_Слов: 265_
+_Слов: 291_
 
 ### [17. Versioning Policy](docs/02-anthropic-vacancies/92-17-versioning-policy.md)
-> - 17. Versioning Policy(#17-versioning-policy)
+> > Абстракт (авто)
 
   - Contents
   - 17. Versioning Policy
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 353_
+_Слов: 305_
 
 ### [18. Reference Implementation](docs/02-anthropic-vacancies/93-18-reference-implementation.md)
 > > github.com/svend4/nautilus(https://github.com/svend4/nautilus).
@@ -5697,7 +4732,7 @@ _Слов: 353_
   - Связанные документы
   - Связанные документы
 
-_Слов: 358_
+_Слов: 387_
 
 ### [19. ADR-001: Federation over Merging](docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md)
 > > Status: Accepted (since v1.0, reaffirmed in v1.1)
@@ -5708,7 +4743,7 @@ _Слов: 358_
   - Связанные документы
   - Связанные документы
 
-_Слов: 301_
+_Слов: 317_
 
 ### [20. ADR-002: Q6 as First-Class Protocol Concept](docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md)
 > > Status: Accepted (new in v1.1)
@@ -5719,32 +4754,24 @@ _Слов: 301_
   - Связанные документы
   - Связанные документы
 
-_Слов: 317_
+_Слов: 336_
 
 ### [21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
 > > Status: Accepted (new in v1.1)
 
   - 21. ADR-003: Five Onboarding Paths as Equal-Rank
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 262_
+_Слов: 163_
 
 ### [22. Glossary of Reference Examples](docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md)
 > > В качестве иллюстраций используется экосистема svend4 с 7 Repos:
 
   - 22. Glossary of Reference Examples
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 295_
+_Слов: 211_
 
 ### [Appendix A: Minimal Working Example](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-> - Appendix A: Minimal Working Example(#appendix-a-minimal-working-example)
+> > Абстракт (авто)
 
   - Contents
   - Appendix A: Minimal Working Example
@@ -5752,21 +4779,18 @@ _Слов: 295_
 - Паспорт: owner/my-notes
 - Описание
   - Описание
-  - Упоминается в
-  - Упоминается в
-  _... ещё 2 разделов_
 
-_Слов: 421_
+_Слов: 338_
 
 ### [Q&A: 02-anthropic-vacancies](docs/02-anthropic-vacancies/QA.md)
 > Автоматически сгенерировано по 355 файлам раздела.
 
   - Какие 5 архитектурных зазоров выделены в исследовании?
   - Что входит в интеграционный контракт между слоями?
-  - Кто ключевые авторы проектов для контакта?
-  - Какие вопросы лучше задавать авторам при первом контакте?
   - Какие кластеры найма выделены у Anthropic?
   - Какие роли наиболее релевантны для профиля svend4?
+  - Кто ключевые авторы проектов для контакта?
+  - Какие вопросы лучше задавать авторам при первом контакте?
   - Каковы этапы MVP и их оценка по времени?
   - Что входит в первую итерацию прототипа?
   _... ещё 15 разделов_
@@ -5777,25 +4801,33 @@ _Слов: 323_
 > Файлов: 356
 
   - Содержание
+  - Подразделы
 
-_Слов: 2129_
+_Слов: 2242_
 
-**Итого в секции: 315,149 слов, 357 файлов**
+**Итого в секции: 319,964 слов, 357 файлов**
 
 
 ## 📁 Technology Combinations (`docs/03-technology-combinations/`)
 
 ### [Агентные системы и роутинг](docs/03-technology-combinations/01-agent-routing.md)
-> > самоулучшения промпта". Добавляем durable state из агентской архитектуры:
+> > Абстракт (авто)
 
   - Упоминается в
   - Упоминается в
   - Связанные документы
 
-_Слов: 281_
+_Слов: 374_
 
 ### [Графы знаний и Legal AI](docs/03-technology-combinations/02-knowledge-graphs.md)
-> > !IMPORTANT
+> > Абстракт (авто)
+
+  - Содержание
+
+_Слов: 838_
+
+### [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md)
+> - Упоминается в(#упоминается-в)
 
   - Содержание
   - Упоминается в
@@ -5803,28 +4835,16 @@ _Слов: 281_
   - Связанные документы
   - Связанные документы
 
-_Слов: 835_
-
-### [Local-first и P2P стек](docs/03-technology-combinations/03-local-first.md)
-> > - Сложные архитектурные → Claude Opus
-
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
-
-_Слов: 432_
+_Слов: 560_
 
 ### [Домен: немецкое социальное право](docs/03-technology-combinations/04-sozialrecht-domain.md)
 > > Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) L…
 
-  - Упоминается в
-  - Упоминается в
 
-_Слов: 186_
+_Слов: 176_
 
 ### [Бенчмарки и производительность](docs/03-technology-combinations/05-benchmarks.md)
-> > Все ревьюеры работают параллельно, не последовательно → экономия времени. Результаты мержатся в финальный отчёт.
+> > Абстракт (авто)
 
   - Содержание
   - Упоминается в
@@ -5832,7 +4852,7 @@ _Слов: 186_
   - Связанные документы
   - Связанные документы
 
-_Слов: 904_
+_Слов: 1013_
 
 ### [Q&A: 03-technology-combinations](docs/03-technology-combinations/QA.md)
 > Автоматически сгенерировано по 5 файлам раздела.
@@ -5854,35 +4874,27 @@ _Слов: 133_
 
   - Содержание
 
-_Слов: 49_
+_Слов: 65_
 
-**Итого в секции: 2,819 слов, 7 файлов**
+**Итого в секции: 3,159 слов, 7 файлов**
 
 
 ## 📁 Ai Collaborations (`docs/04-ai-collaborations/`)
 
 ### [Введение](docs/04-ai-collaborations/00-intro.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 11524_
+_Слов: 11407_
 
 ### [Executive summary](docs/04-ai-collaborations/01-executive-summary.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Executive summary
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 761_
+_Слов: 593_
 
 ### [Методика и рамка отбора](docs/04-ai-collaborations/02-методика-и-рамка-отбора.md)
 > - Статус(#статус)
@@ -5890,72 +4902,48 @@ _Слов: 761_
   - Содержание
   - Статус
   - Методика и рамка отбора
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 585_
+_Слов: 459_
 
 ### [Карта найденных проектов и паттернов](docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Карта найденных проектов и паттернов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1638_
+_Слов: 1478_
 
 ### [Приоритетные ансамбли](docs/04-ai-collaborations/04-приоритетные-ансамбли.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Приоритетные ансамбли
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1573_
+_Слов: 1358_
 
 ### [План прототипа и возможные контакты](docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - План прототипа и возможные контакты
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1356_
+_Слов: 1150_
 
 ### [Безопасность, приватность и бюджетный роутинг](docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Безопасность, приватность и бюджетный роутинг
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1055_
+_Слов: 903_
 
 ### [Выводы](docs/04-ai-collaborations/07-выводы.md)
 > > !TIP
 
   - Статус
   - Выводы
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 649_
+_Слов: 488_
 
 ### [Что это продолжение добавляет](docs/04-ai-collaborations/08-что-это-продолжение-добавляет.md)
 > - Статус(#статус)
@@ -5963,84 +4951,56 @@ _Слов: 649_
   - Содержание
   - Статус
   - Что это продолжение добавляет
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 584_
+_Слов: 464_
 
 ### [Архитектурные зазоры, которые важнее новых инструментов](docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
-> - Статус(#статус)
+> > !TIP
 
   - Статус
   - Архитектурные зазоры, которые важнее новых инструментов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1048_
+_Слов: 839_
 
 ### [Новые ансамбли следующего шага](docs/04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Новые ансамбли следующего шага
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1245_
+_Слов: 1002_
 
 ### [Интеграционный контракт, который стоит зафиксировать сразу](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Интеграционный контракт, который стоит зафиксировать сразу
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1024_
+_Слов: 864_
 
 ### [Дорожная карта прототипа следующей итерации](docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Дорожная карта прототипа следующей итерации
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 934_
+_Слов: 787_
 
 ### [Контактная стратегия и узкие вопросы для авторов](docs/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Контактная стратегия и узкие вопросы для авторов
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 1031_
+_Слов: 892_
 
 ### [Ограничения, лицензии и что пока лучше не склеивать](docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-> - Статус(#статус)
+> > Абстракт (авто)
 
   - Статус
   - Ограничения, лицензии и что пока лучше не склеивать
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 3444_
+_Слов: 3274_
 
 ### [Q&A: 04-ai-collaborations](docs/04-ai-collaborations/QA.md)
 > Автоматически сгенерировано по 15 файлам раздела.
@@ -6061,10 +5021,11 @@ _Слов: 250_
 > Файлов: 16
 
   - Содержание
+  - Подразделы
 
-_Слов: 103_
+_Слов: 366_
 
-**Итого в секции: 28,812 слов, 17 файлов**
+**Итого в секции: 26,574 слов, 17 файлов**
 
 
 ## 📁 Habr Projects (`docs/05-habr-projects/`)
@@ -6078,18 +5039,14 @@ _Слов: 103_
   - Связанные документы
   - Связанные документы
 
-_Слов: 245_
+_Слов: 263_
 
 ### [Авторы и контакты](docs/05-habr-projects/02-collaboration-partners.md)
 > > Абстракт (авто)
 
   - Статус
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 369_
+_Слов: 279_
 
 ### [Q&A: 05-habr-projects](docs/05-habr-projects/QA.md)
 > Автоматически сгенерировано по 6 файлам раздела.
@@ -6112,14 +5069,14 @@ _Слов: 138_
   - Содержание
   - Подразделы
 
-_Слов: 42_
+_Слов: 96_
 
 ### [Системы знаний](docs/05-habr-projects/knowledge/README.md)
 > Файлов: 1
 
   - Содержание
 
-_Слов: 13_
+_Слов: 55_
 
 ### [Wikontic: семантический граф](docs/05-habr-projects/knowledge/wikontic.md)
 > > !WARNING
@@ -6130,28 +5087,31 @@ _Слов: 13_
   - Связанные документы
   - Связанные документы
 
-_Слов: 369_
+_Слов: 385_
 
 ### [Системы памяти](docs/05-habr-projects/memory/README.md)
 > Файлов: 3
 
   - Содержание
 
-_Слов: 24_
+_Слов: 94_
 
 ### [MemNet: исследовательская память](docs/05-habr-projects/memory/memnet.md)
 > > Абстракт (авто)
 
   - Статус
   - Содержание
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 7298_
+_Слов: 7264_
 
 ### [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md)
+> > Абстракт (авто)
+
+  - Статус
+
+_Слов: 382_
+
+### [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md)
 > > Абстракт (авто)
 
   - Статус
@@ -6160,20 +5120,912 @@ _Слов: 7298_
   - Связанные документы
   - Связанные документы
 
-_Слов: 480_
+_Слов: 379_
 
-### [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md)
+**Итого в секции: 9,335 слов, 10 файлов**
+
+
+## 📁 Ai Collaborations (`docs/ai-collaborations/`)
+
+### [ai-collaborations](docs/ai-collaborations/README.md)
+> Файлов: 1
+
+  - Содержание
+  - Подразделы
+
+_Слов: 39_
+
+### [Три ключевых кандидата: K2-18, Wikontic, NGT Memory](docs/ai-collaborations/candidates/01-three-key-candidates.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 353_
+
+### [Смежные проекты в контексте](docs/ai-collaborations/candidates/02-related-projects-context.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 194_
+
+### [Синтез: хеббовский граф людей-навыков-идей](docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md)
+> > !TIP
+
+
+_Слов: 264_
+
+### [candidates](docs/ai-collaborations/candidates/README.md)
+> Файлов: 3
+
+  - Содержание
+
+_Слов: 23_
+
+### [channels/ — каналы первого контакта](docs/ai-collaborations/channels/README.md)
+> Один файл — один канал (Хабр, GitHub, Twitter/X, конференции, рассылки и т. д.). Внутри: преимущества канала, ограничени…
+
+
+_Слов: 25_
+
+### [Общая память между агентами (CoAlly + ансамбль F)](docs/ai-collaborations/continuation/01-shared-memory-between-agents.md)
+> > !WARNING
+
+
+_Слов: 431_
+
+### [AgentOps и Trace Envelope (ансамбль G)](docs/ai-collaborations/continuation/02-agentops-trace-envelope.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 398_
+
+### [A2A vs MCP, ансамбль H — MCP/A2A Review Fabric](docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md)
+> > !WARNING
+
+
+_Слов: 346_
+
+### [Memory Firewall против prompt worms (ансамбль I)](docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md)
+> > !WARNING
+
+
+_Слов: 266_
+
+### [Roadmap на 6–12 месяцев](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
+> > !TIP
+
+
+_Слов: 360_
+
+### [Дерево метрик Svyazi 2.0](docs/ai-collaborations/continuation/06-metrics-tree.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 205_
+
+### [Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph](docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md)
+> > !WARNING
+
+
+_Слов: 444_
+
+### [Коммерциализация: три направления](docs/ai-collaborations/continuation/08-commercialization-three-paths.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 252_
+
+### [Что пока не стоит склеивать в один релиз](docs/ai-collaborations/continuation/09-do-not-glue.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 250_
+
+### [Следующий артефакт: Svyazi 2.0 Architecture RFC](docs/ai-collaborations/continuation/10-architecture-rfc.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 172_
+
+### [continuation](docs/ai-collaborations/continuation/README.md)
+> Файлов: 10
+
+  - Содержание
+
+_Слов: 61_
+
+### [Ансамбль 1 — Agentic Knowledge OS](docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 407_
+
+### [Ансамбль 2 — Distributed Agent Workshop](docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 387_
+
+### [Ансамбль 3 — Forensic RAG](docs/ai-collaborations/ensembles/3-forensic-rag.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 409_
+
+### [Ансамбль 4 — Web-to-Knowledge Pipeline](docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 309_
+
+### [Ансамбль 5 — Agent Firewall](docs/ai-collaborations/ensembles/5-agent-firewall.md)
+> > !WARNING
+
+
+_Слов: 402_
+
+### [Ансамбль 6 — Continuous Eval Loop](docs/ai-collaborations/ensembles/6-continuous-eval-loop.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 330_
+
+### [Ансамбль 7 — Domain Agent App Factory](docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 294_
+
+### [Ансамбль 8 — Budget-Aware Intelligence Stack](docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 277_
+
+### [Ансамбль 9 — Ambient Team Agent](docs/ai-collaborations/ensembles/9-ambient-team-agent.md)
+> > > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 251_
+
+### [Ансамбли проектов](docs/ai-collaborations/ensembles/README.md)
+> Файлов: 9
+
+  - Содержание
+
+_Слов: 60_
+
+### [Пять быстрых связок (fast-tracks)](docs/ai-collaborations/fast-tracks/README.md)
+> > Источник: MHTML‑снимок Поиск коллабораций AI проектов (корень репозитория).
+
+
+_Слов: 311_
+
+### [Source projects — все Хабр-источники в диалоге](docs/ai-collaborations/source-projects.md)
+> > Полный список Хабр-статей и репозиториев, упомянутых в диалоге Поиск коллабораций AI проектов. Сгруппировано тематичес…
+
+  - Содержание
+  - Прямые аналоги Svyazi
+  - Память для агентов
+  - Hardware-near (нейроморфы, термодинамика, in-memory)
+  - Workflow / агентные оркестраторы
+  - Document parsing / RAG
+  - Adversarial / multi-IDE / code review
+  - Voice / транскрипция
+  _... ещё 4 разделов_
+
+_Слов: 705_
+
+### [strategy/ — стратегия поиска коллабораций](docs/ai-collaborations/strategy/README.md)
+> Один файл — один аспект стратегии. Заполняется по мере прочтения исходного MHTML‑диалога.
+
+
+_Слов: 32_
+
+**Итого в секции: 8,257 слов, 30 файлов**
+
+
+## 📁 Anthropic Vacancies (`docs/anthropic-vacancies/`)
+
+### [Q&A: anthropic-vacancies](docs/anthropic-vacancies/QA.md)
+> Автоматически сгенерировано по 97 файлам раздела.
+
+  - Какие кластеры найма выделены у Anthropic?
+  - Какие роли наиболее релевантны для профиля svend4?
+  - Как реализован forensic RAG с доказуемостью?
+  - Что такое Evidence Envelope и зачем он нужен?
+  - Какие RAG-подходы сравниваются в документах?
+  - Какие 5 архитектурных зазоров выделены в исследовании?
+  - Что входит в интеграционный контракт между слоями?
+  - Кто ключевые авторы проектов для контакта?
+  _... ещё 1 разделов_
+
+_Слов: 115_
+
+### [anthropic-vacancies](docs/anthropic-vacancies/README.md)
+> Файлов: 4
+
+  - Содержание
+  - Подразделы
+
+_Слов: 72_
+
+### [Вопрос: разделить $500K зарплату на команду 5–10 фрилансеров](docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md)
+> > !WARNING
+
+
+_Слов: 909_
+
+### [Что уже существует (InnoCentive, Kaggle, Toptal, Anthropic Fellows, DAOs)](docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 327_
+
+### [Четыре структурные причины, почему это не работает в текущих попытках](docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 339_
+
+### [Три варианта: A (staffing agency) → B (research consortium) → C (AI-managed distributed virtual company)](docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 672_
+
+### [Что с этим делать](docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 516_
+
+### [Сравнение с Terence Tao, Polymath Project](docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md)
+> > !WARNING
+
+
+_Слов: 1390_
+
+### [Почему двойственность «ангел-хранитель + строгий демон» — гениальная деталь](docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 511_
+
+### [Что существует сейчас в этом пространстве](docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 286_
+
+### [Плюсы модели, если её построить](docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 244_
+
+### [Минусы и риски](docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
+> > !WARNING
+
+
+_Слов: 664_
+
+### [Три точки входа разной амбиции](docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ идеи…
+
+
+_Слов: 378_
+
+### [ai-managed-virtual-company](docs/anthropic-vacancies/ai-managed-virtual-company/README.md)
+> Файлов: 11
+
+  - Содержание
+
+_Слов: 69_
+
+### [Контекст: что такое Anthropic Beneficial Deployments](docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 252_
+
+### [Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)](docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 179_
+
+### [Section 2: Why this matters — beneficial dimension](docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 158_
+
+### [Section 3: Proposed solution architecture (existing components + integration)](docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 172_
+
+### [Section 4: Specific deployment — SGB Advocate Community pilot](docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 173_
+
+### [Section 5: Role of Anthropic Beneficial Deployments](docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md)
+> > !TIP
+
+
+_Слов: 221_
+
+### [Section 6: Proposer's role и qualifications](docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 169_
+
+### [Section 7: Success metrics](docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 151_
+
+### [Section 8: Risks & mitigations](docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 163_
+
+### [Section 9: Why this is timely](docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 162_
+
+### [Section 10: Engagement request](docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 213_
+
+### [Что concept document NOT (это не grant / не paper / не business plan), длина и формат](docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Variant C: …
+
+
+_Слов: 383_
+
+### [beneficial-deployments-concept](docs/anthropic-vacancies/beneficial-deployments-concept/README.md)
+> Файлов: 12
+
+  - Содержание
+
+_Слов: 77_
+
+### [AI Research & Engineering — 68 ролей](docs/anthropic-vacancies/clusters/01-ai-research-engineering.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 126_
+
+### [Sales — 150 ролей (≈34% всего найма)](docs/anthropic-vacancies/clusters/02-sales.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 164_
+
+### [Finance — 36 ролей](docs/anthropic-vacancies/clusters/03-finance.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 113_
+
+### [Security — 24 роли](docs/anthropic-vacancies/clusters/04-security.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 96_
+
+### [Marketing & Brand — 23 роли](docs/anthropic-vacancies/clusters/05-marketing-brand.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 107_
+
+### [Engineering & Design - Product — 22 роли](docs/anthropic-vacancies/clusters/06-engineering-design-product.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 109_
+
+### [Software Engineering - Infrastructure — 22 роли](docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 108_
+
+### [Safeguards (Trust & Safety) — 21 роль](docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 111_
+
+### [Product Management, Support, & Operations — 17 ролей](docs/anthropic-vacancies/clusters/09-product-management-support-ops.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 96_
+
+### [Compute — 13 ролей](docs/anthropic-vacancies/clusters/10-compute.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 101_
+
+### [Legal — 13 ролей](docs/anthropic-vacancies/clusters/11-legal.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 100_
+
+### [Technical Program Management — 10 ролей](docs/anthropic-vacancies/clusters/12-technical-program-management.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 90_
+
+### [Communications — 5 ролей](docs/anthropic-vacancies/clusters/13-communications.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 81_
+
+### [Public Policy — 5 ролей](docs/anthropic-vacancies/clusters/14-public-policy.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 88_
+
+### [Public Benefit — 4 роли](docs/anthropic-vacancies/clusters/15-public-benefit.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 88_
+
+### [People — 3 роли](docs/anthropic-vacancies/clusters/16-people.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Ссылка на статью‑затравку — …
+
+
+_Слов: 79_
+
+### [Кластеры вакансий](docs/anthropic-vacancies/clusters/README.md)
+> Файлов: 16
+
+  - Содержание
+
+_Слов: 103_
+
+### [CoAlly — distributed shared memory для AI-агентов](docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md)
+> > !WARNING
+
+
+_Слов: 275_
+
+### [Графовая когнитивная память на SQLite (Виталий, март 2026)](docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md)
 > > !IMPORTANT
 
-  - Статус
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  - Связанные документы
 
-_Слов: 359_
+_Слов: 301_
 
-**Итого в секции: 9,314 слов, 10 файлов**
+### [Happyin Knowledge Space (Анастасия) — детали](docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Вариант D: …
+
+
+_Слов: 274_
+
+### [AI-ассистент с Mem0 / Letta / Graphiti integration](docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Вариант D: …
+
+
+_Слов: 291_
+
+### [Existing infrastructure stack](docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Вариант D: …
+
+
+_Слов: 151_
+
+### [Финальный список потенциальных collaborators (Tier 1–4)](docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Вариант D: …
+
+
+_Слов: 242_
+
+### [Ключевое наблюдение: single-developer projects of significant sophistication](docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Вариант D: …
+
+
+_Слов: 172_
+
+### [extra-collaborator-findings](docs/anthropic-vacancies/extra-collaborator-findings/README.md)
+> Файлов: 7
+
+  - Содержание
+
+_Слов: 46_
+
+### [Что такое Hermes Agent (Nous Research, MIT, 95K+ stars)](docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 357_
+
+### [Сходство 1: Composite Skills паттерн уже встроен](docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 212_
+
+### [Сходство 2: Persistent memory — Layer B функциональность](docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 150_
+
+### [Сходство 3: MCP support](docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 139_
+
+### [Сходство 4: Multi-platform reach (17+ платформ)](docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 135_
+
+### [Сходство 5: Self-hosting и privacy](docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 151_
+
+### [Различие 1: Структурированная подложка отсутствует](docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 179_
+
+### [Различие 2: Domain-specific specialization](docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 179_
+
+### [Различие 3: Federated knowledge architecture отсутствует](docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md)
+> > !TIP
+
+
+_Слов: 165_
+
+### [Различие 4: Institutional vision](docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 163_
+
+### [Различие 5: Дрифт между tool capability и mission](docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 165_
+
+### [Плюсы Hermes (vs наша гипотетическая архитектура)](docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 217_
+
+### [Минусы Hermes (где наша архитектура добавляет ценность)](docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — сравнение с…
+
+
+_Слов: 291_
+
+### [Переприоритизация: что Hermes покрывает / не покрывает / synergy](docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md)
+> > !TIP
+
+
+_Слов: 930_
+
+### [hermes-comparison](docs/anthropic-vacancies/hermes-comparison/README.md)
+> Файлов: 14
+
+  - Содержание
+
+_Слов: 88_
+
+### [Методика разбивки](docs/anthropic-vacancies/methodology.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
+
+  - Замечание про точность цифр
+
+_Слов: 134_
+
+### [Вопрос: MMORPG-RPG переделанная для программистов / технарей](docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — гипотеза MM…
+
+
+_Слов: 507_
+
+### [Почему эта идея сильнее, чем выглядит](docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — гипотеза MM…
+
+
+_Слов: 360_
+
+### [Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)](docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — гипотеза MM…
+
+
+_Слов: 352_
+
+### [Почему именно для программистов это работает естественно](docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — гипотеза MM…
+
+
+_Слов: 1044_
+
+### [Плюсы как бизнеса](docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — гипотеза MM…
+
+
+_Слов: 145_
+
+### [Минусы и риски как бизнеса](docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md)
+> > !TIP
+
+
+_Слов: 642_
+
+### [mmorpg-for-programmers](docs/anthropic-vacancies/mmorpg-for-programmers/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 41_
+
+### [Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)](docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ двух…
+
+
+_Слов: 436_
+
+### [Раковина наутилуса как scale invariance — две проекции одной метафоры](docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ двух…
+
+
+_Слов: 260_
+
+### [Наутилус A: pro2 + meta — YiJing-Transformer / NautilusMoME (внутренняя архитектура нейросети)](docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ двух…
+
+
+_Слов: 1126_
+
+### [Наутилус B: nautilus — мета-оркестратор репозиториев (внешняя архитектура)](docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ двух…
+
+
+_Слов: 1105_
+
+### [nautilus-pro2-analysis](docs/anthropic-vacancies/nautilus-pro2-analysis/README.md)
+> Файлов: 4
+
+  - Содержание
+
+_Слов: 30_
+
+### [Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить](docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ комб…
+
+
+_Слов: 216_
+
+### [Пассивный vs активный: разделение ролей (библиотека vs research team)](docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ комб…
+
+
+_Слов: 176_
+
+### [Что у нас есть в трёх info repositories (info1/info7/info40)](docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md)
+> > !TIP
+
+- Conceptual sketch, не tested code:
+- Etc.
+
+_Слов: 1110_
+
+### [Конкретный пример: SGB Advocate Colleague на этой архитектуре](docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ комб…
+
+
+_Слов: 251_
+
+### [Что брать из info repositories — concrete recommendations](docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ комб…
+
+
+_Слов: 626_
+
+### [Что я бы посоветовал делать прямо сейчас](docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
+> > !TIP
+
+
+_Слов: 342_
+
+### [nautilus-vs-camel](docs/anthropic-vacancies/nautilus-vs-camel/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 40_
+
+### [Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров](docs/anthropic-vacancies/overview.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Затравка — статья 3dnews.ru/…
+
+  - Поправка к статье
+  - Распределение по кластерам
+
+_Слов: 280_
+
+### [Сводка профиля: пять слоёв](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 319_
+
+### [Primary match — Forward Deployed Engineer, Applied AI (EMEA)](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md)
+> > !TIP
+
+
+_Слов: 311_
+
+### [Secondary match — Applied AI Engineer (EMEA) + Beneficial Deployments](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 173_
+
+### [Tertiary match — Research Engineer, Agents / Virtual Collaborator (Cowork)](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 221_
+
+### [Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 187_
+
+### [Что НЕ подходит (честно)](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 149_
+
+### [Уникальная ниша, которой у Anthropic формально нет](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 177_
+
+### [Практическое ранжирование (первая итерация)](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 189_
+
+### [01-initial-analysis](docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md)
+> Файлов: 8
+
+  - Содержание
+
+_Слов: 53_
+
+### [Коррекция: FDE понижается](docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 213_
+
+### [Три наложенные идентичности](docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 266_
+
+### [Пересмотренный маппинг на Anthropic](docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 253_
+
+### [Альтернативные пути вне Anthropic](docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md)
+> > !TIP
+
+
+_Слов: 377_
+
+### [Reality check: проблема distribution-слоя](docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 237_
+
+### [02-reanalysis](docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md)
+> Файлов: 5
+
+  - Содержание
+
+_Слов: 35_
+
+### [Интегральный портрет — три архетипа](docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 364_
+
+### [Финальное ранжирование Anthropic-ролей по частичному покрытию](docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md)
+> > !TIP
+
+
+_Слов: 646_
+
+### [Что такое частичное соответствие — честно](docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 172_
+
+### [Более сильные пути вне Anthropic](docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 448_
+
+### [Финальный вывод: платформа, а не должность](docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — маппинг про…
+
+
+_Слов: 542_
+
+### [03-integral-final](docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md)
+> Файлов: 5
+
+  - Содержание
+
+_Слов: 35_
+
+### [profile-mapping/ — маппинг профиля svend4 на роли Anthropic](docs/anthropic-vacancies/profile-mapping/README.md)
+> В этом же диалоге (после обзора 16 кластеров) Claude трижды итеративно отображал профиль svend4 (Nautilus / pro2 / Writi…
+
+  - Эволюция вывода в одну строку
+
+_Слов: 159_
+
+### [Сигналы: что говорит структура вакансий](docs/anthropic-vacancies/signals.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория).
+
+  - Тезис Амодеи vs реальный найм
+  - Самый быстрорастущий блок
+  - Зарплатная вилка
+  - Forward Deployed Engineer
+  - География
+
+_Слов: 281_
+
+**Итого в секции: 31,028 слов, 111 файлов**
 
 
 ## 📁 Autofilled (`docs/autofilled/`)
@@ -6184,7 +6036,7 @@ _Слов: 359_
   - Содержание
   - Подразделы
 
-_Слов: 18_
+_Слов: 47_
 
 ### [Антропик](docs/autofilled/components/.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6194,14 +6046,14 @@ _Слов: 18_
   - Связанные документы
   - Связанные документы
 
-_Слов: 108_
+_Слов: 137_
 
 ### [components](docs/autofilled/components/README.md)
 > Файлов: 10
 
   - Содержание
 
-_Слов: 66_
+_Слов: 95_
 
 ### [Cowork](docs/autofilled/components/cowork.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6212,7 +6064,7 @@ _Слов: 66_
   - Связанные документы
   - Упоминается в
 
-_Слов: 145_
+_Слов: 174_
 
 ### [ingit](docs/autofilled/components/ingit.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6223,7 +6075,7 @@ _Слов: 145_
   - Связанные документы
   - Упоминается в
 
-_Слов: 145_
+_Слов: 174_
 
 ### [kksudo](docs/autofilled/components/kksudo.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6234,7 +6086,7 @@ _Слов: 145_
   - Связанные документы
   - Упоминается в
 
-_Слов: 188_
+_Слов: 217_
 
 ### [Lorenzo](docs/autofilled/components/lorenzo.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6245,7 +6097,7 @@ _Слов: 188_
   - Связанные документы
   - Упоминается в
 
-_Слов: 145_
+_Слов: 174_
 
 ### [Nautilus](docs/autofilled/components/nautilus.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6256,7 +6108,7 @@ _Слов: 145_
   - Связанные документы
   - Упоминается в
 
-_Слов: 145_
+_Слов: 174_
 
 ### [SGB](docs/autofilled/components/sgb.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6267,7 +6119,7 @@ _Слов: 145_
   - Связанные документы
   - Упоминается в
 
-_Слов: 145_
+_Слов: 174_
 
 ### [spbmolot](docs/autofilled/components/spbmolot.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6278,7 +6130,7 @@ _Слов: 145_
   - Связанные документы
   - Упоминается в
 
-_Слов: 184_
+_Слов: 213_
 
 ### [svend4](docs/autofilled/components/svend4.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6289,7 +6141,7 @@ _Слов: 184_
   - Связанные документы
   - Упоминается в
 
-_Слов: 127_
+_Слов: 156_
 
 ### [Svyazi](docs/autofilled/components/svyazi.md)
 > > Компонент экосистемы Svyazi 2.0
@@ -6300,11 +6152,12 @@ _Слов: 127_
   - Связанные документы
   - Упоминается в
 
-_Слов: 145_
+_Слов: 174_
 
 ### [[Тема исследования]](docs/autofilled/research-summary.md)
-> > <!-- summary: Краткий итог исследования -->
+> > - Ключевые находки(#ключевые-находки)
 
+  - Contents
   - Контекст
   - Ключевые находки
   - Источники
@@ -6316,7 +6169,7 @@ _Слов: 145_
 
 _Слов: 149_
 
-**Итого в секции: 1,710 слов, 13 файлов**
+**Итого в секции: 2,058 слов, 13 файлов**
 
 
 ## 📁 Badges (`docs/badges/`)
@@ -6339,7 +6192,7 @@ _Слов: 44_
 
   - Содержание
 
-_Слов: 88_
+_Слов: 62_
 
 ### [Контакт: AnastasiyaW / knowledge-space, mclaude](docs/contacts/anastasiyaw.md)
 > > !TIP
@@ -6349,40 +6202,30 @@ _Слов: 88_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  _... ещё 1 разделов_
 
-_Слов: 381_
+_Слов: 291_
 
 ### [Контакт: andreychuyan / Svyazi](docs/contacts/andrey-chuyan.md)
-> > - Статус связи(#статус-связи)
+> > !TIP
 
   - Contents
   - Профиль
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 366_
+_Слов: 278_
 
 ### [Контакт: Antipozitive / MemNet](docs/contacts/antipozitive.md)
-> > - Статус связи(#статус-связи)
+> > !TIP
 
   - Contents
   - Профиль
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 344_
+_Слов: 239_
 
 ### [Контакт: Cutcode / AIF Handoff](docs/contacts/cutcode.md)
 > > !TIP
@@ -6392,11 +6235,8 @@ _Слов: 344_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 404_
+_Слов: 258_
 
 ### [Контакт: Dmitriila / SENTINEL](docs/contacts/dmitriila.md)
 > > !TIP
@@ -6406,11 +6246,8 @@ _Слов: 404_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 402_
+_Слов: 255_
 
 ### [Контакт: kksudo / AgentFS](docs/contacts/kksudo.md)
 > > - Статус связи(#статус-связи)
@@ -6420,12 +6257,8 @@ _Слов: 402_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  _... ещё 1 разделов_
 
-_Слов: 353_
+_Слов: 270_
 
 ### [Контакт: MiXaiLL76 / Auto AI Router](docs/contacts/mixaill76.md)
 > > !TIP
@@ -6435,11 +6268,8 @@ _Слов: 353_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 406_
+_Слов: 269_
 
 ### [Контакт: nlaik / LiteParse / research-docs](docs/contacts/nlaik.md)
 > > !TIP
@@ -6449,11 +6279,8 @@ _Слов: 406_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 357_
+_Слов: 249_
 
 ### [Контакт: SoniaBlack / knowledge-space](docs/contacts/sonia-black.md)
 > > !TIP
@@ -6463,26 +6290,19 @@ _Слов: 357_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 353_
+_Слов: 239_
 
 ### [Контакт: spbmolot / NGT Memory](docs/contacts/spbmolot.md)
-> > - Статус связи(#статус-связи)
+> > !TIP
 
   - Contents
   - Профиль
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Упоминается в
-  - Упоминается в
-  - Связанные документы
-  _... ещё 1 разделов_
 
-_Слов: 355_
+_Слов: 290_
 
 ### [Контакт: tagiranalyzes / Legal RAG](docs/contacts/tagir-analyzes.md)
 > > !TIP
@@ -6492,25 +6312,19 @@ _Слов: 355_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 390_
+_Слов: 246_
 
 ### [Контакт: VitalyOborin / Yodoca](docs/contacts/vitalyoborin.md)
-> > - Статус связи(#статус-связи)
+> > !TIP
 
   - Contents
   - Профиль
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 392_
+_Слов: 284_
 
 ### [Контакт: VladSpace / Graph RAG](docs/contacts/vladspace.md)
 > > !TIP
@@ -6520,11 +6334,8 @@ _Слов: 392_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 398_
+_Слов: 262_
 
 ### [Контакт: zodigancode / Rufler](docs/contacts/zodigancode.md)
 > > !TIP
@@ -6534,19 +6345,3869 @@ _Слов: 398_
   - Статус связи
   - Первое сообщение
   - Открытые вопросы
-  - Связанные документы
-  - Связанные документы
-  - Упоминается в
 
-_Слов: 392_
+_Слов: 255_
 
-**Итого в секции: 5,381 слов, 15 файлов**
+**Итого в секции: 3,747 слов, 15 файлов**
+
+
+## 📁 Glossary (`docs/glossary/`)
+
+### [glossary](docs/glossary/README.md)
+> Файлов: 3
+
+  - Содержание
+
+_Слов: 24_
+
+### [Авторы — алфавитный список](docs/glossary/authors-by-name.md)
+> > Авторы (Хабр / GitHub / Medium), упомянутые в монорепозитории, и их ключевые проекты с обратными ссылками на доки.
+
+
+_Слов: 497_
+
+### [Компоненты — алфавитный список с обратными ссылками](docs/glossary/components-by-name.md)
+> > Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет соб…
+
+  - Содержание
+  - A
+  - B
+  - C
+  - D
+  - E
+  - F
+  - G
+  _... ещё 14 разделов_
+
+_Слов: 1114_
+
+### [Ключевые понятия и паттерны](docs/glossary/concepts.md)
+> > Не проекты, а концепции, которые повторяются в нескольких разделах.
+
+
+_Слов: 665_
+
+**Итого в секции: 2,300 слов, 4 файлов**
+
+
+## 📁 Habr Unique Projects (`docs/habr-unique-projects/`)
+
+### [habr-unique-projects/ — поиск уникальных проектов на Хабре](docs/habr-unique-projects/README.md)
+> Файлы в корне репозитория:
+
+  - Источник
+  - Подпапки
+  - Главная мысль диалога
+
+_Слов: 234_
+
+### [Три прямых аналога Svyazi: K2-18, Wikontic, NGT Memory](docs/habr-unique-projects/analogues/01-three-direct-analogues.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 419_
+
+### [Смежные проекты](docs/habr-unique-projects/analogues/02-related-projects.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 370_
+
+### [analogues](docs/habr-unique-projects/analogues/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 18_
+
+### [Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference](docs/habr-unique-projects/deep-pairs/1-llm-gateway.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 280_
+
+### [Пара 2 — Парсинг документов × локальный RAG](docs/habr-unique-projects/deep-pairs/2-document-rag.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 332_
+
+### [Пара 3 — Adversarial agents × Multi-IDE стек](docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 329_
+
+### [Пара 4 — Скилл-каталоги × Subagent-оркестрация](docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 300_
+
+### [Пара 5 — Голосовой ввод × Локальная память](docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 295_
+
+### [Пара 6 — Деревня агентов через tmux × OpenClaw оркестратор](docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 336_
+
+### [Пара 7 — AutoResearch цикл × Распределённый рой](docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 277_
+
+### [Пара 8 — Self-aware MCP × Specs-first архитектура](docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 345_
+
+### [deep-pairs](docs/habr-unique-projects/deep-pairs/README.md)
+> Файлов: 8
+
+  - Содержание
+
+_Слов: 54_
+
+### [evaluation/ — оценка уникальности и зрелости](docs/habr-unique-projects/evaluation/README.md)
+> Один файл — один критерий или аспект оценки. Шкала зрелости и лицензионные развилки уже частично описаны в:
+
+
+_Слов: 28_
+
+### [Вопрос: ещё примеры с Хабра по варианту D](docs/habr-unique-projects/extra-examples/00-question-habr-examples.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 444_
+
+### [Svyazi (Андрей Чуян) — детальный обзор](docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 200_
+
+### [ВШЭ научный нетворкинг — micro-collaborations](docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 165_
+
+### [BrainBox — self-hosted multi-AI hub](docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 241_
+
+### [Claude subagents patterns](docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 142_
+
+### [HW-NL2Workflow — Supervisor/Orchestrator/Filler с 3600+ examples](docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 227_
+
+### [Платформа для профессиональных сообществ](docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 205_
+
+### [Specialized knowledge workspace](docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 200_
+
+### [Personal multi-agent hub](docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 193_
+
+### [Federated platform](docs/habr-unique-projects/extra-examples/09-federated-platform.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 192_
+
+### [Profession-specific workflows](docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md)
+> > !TIP
+
+
+_Слов: 282_
+
+### [Конкретный потенциальный collaborator](docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — расширенные…
+
+
+_Слов: 247_
+
+### [Конкретный next step](docs/habr-unique-projects/extra-examples/12-concrete-next-step.md)
+> > !IMPORTANT
+
+
+_Слов: 395_
+
+### [extra-examples](docs/habr-unique-projects/extra-examples/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 82_
+
+### [Ансамбль 1 — «Один человек = одна компания»](docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 180_
+
+### [Ансамбль 2 — «AutoResearch для legal precedent mining»](docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 189_
+
+### [Ансамбль 3 — «Discovery-engine для научной работы»](docs/habr-unique-projects/final-ensembles/3-discovery-research.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 133_
+
+### [Сводный список авторов и потенциальных соавторов](docs/habr-unique-projects/final-ensembles/4-summary-authors.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 253_
+
+### [final-ensembles](docs/habr-unique-projects/final-ensembles/README.md)
+> Файлов: 4
+
+  - Содержание
+
+_Слов: 30_
+
+### [Пара 1 — Нейроморфные процессоры × State Space Models (Mamba)](docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 324_
+
+### [Пара 2 — Термодинамические TSU × MoE/MoME-роутинг](docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 297_
+
+### [Пара 3 — ZINC inference engine × гибрид Attention+SSM+MoE](docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 285_
+
+### [Пара 4 — RISC-V × privacy-by-design община](docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 294_
+
+### [Пара 5 — TinyML/Edge AI × MCP + skills](docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 268_
+
+### [Бонус-родитель — In-memory computing на мемристорах](docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 318_
+
+### [Метафора «двое родителей — несколько детей»](docs/habr-unique-projects/hardware-pairs/7-metaphor.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 329_
+
+### [hardware-pairs](docs/habr-unique-projects/hardware-pairs/README.md)
+> Файлов: 7
+
+  - Содержание
+
+_Слов: 48_
+
+### [Yodoca — главная находка итерации](docs/habr-unique-projects/key-findings/01-yodoca.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 270_
+
+### [MemNet — нейроархитектурный двойник «магии» Svyazi](docs/habr-unique-projects/key-findings/02-memnet.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 227_
+
+### [PDA-бот — «LLM как периферия»](docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 251_
+
+### [Виктория Дочкина — Sequential‑протокол распределённых агентов](docs/habr-unique-projects/key-findings/04-dochkina-sequential.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 284_
+
+### [Источник данных и инфраструктурные кусочки](docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 306_
+
+### [Синтез: блок-карта Svyazi 2.0 на хеббовском графе](docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 369_
+
+### [key-findings](docs/habr-unique-projects/key-findings/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 42_
+
+### [search-strategy/ — как искать проекты на Хабре](docs/habr-unique-projects/search-strategy/README.md)
+> Один файл — один аспект стратегии поиска (запросы, авторы, комментарии, hub-walk). Заполняется по мере чтения исходных M…
+
+
+_Слов: 25_
+
+### [Пара 1 — Workflow-автоматизация × LLM-агенты с MCP](docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 260_
+
+### [Пара 2 — Local-first PKM (Obsidian/Logseq) × MCP/Skills](docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 302_
+
+### [Пара 3 — CRDT-синхронизация × Self-hosted persistence](docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 253_
+
+### [Пара 4 — Speech-to-text локально × LLM с памятью](docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 296_
+
+### [Пара 5 — Browser agents × headless web extraction](docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 465_
+
+### [Метафора в твоей терминологии](docs/habr-unique-projects/software-pairs/6-metaphor.md)
+> > > Источник: MHTML‑снимок Поиск уникальных проектов на Хабре для совместной разработки - Claude (корень репозитория).
+
+
+_Слов: 273_
+
+### [software-pairs](docs/habr-unique-projects/software-pairs/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 42_
+
+**Итого в секции: 13,445 слов, 56 файлов**
+
+
+## 📁 Lorenzo Agent (`docs/lorenzo-agent/`)
+
+### [Введение: Lorenzo — Catalyst Agent at DHLab](docs/lorenzo-agent/00-intro.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+- Lorenzo — Catalyst Agent at DHLab
+
+_Слов: 78_
+
+### [Кто ты](docs/lorenzo-agent/01-kto-ty.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Кто ты
+
+_Слов: 156_
+
+### [Твоё происхождение](docs/lorenzo-agent/02-tvoyo-proishozhdenie.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твоё происхождение
+
+_Слов: 177_
+
+### [Твоя миссия](docs/lorenzo-agent/03-tvoya-missiya.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твоя миссия
+
+_Слов: 160_
+
+### [Кому ты служишь (слоистая модель)](docs/lorenzo-agent/04-komu-ty-sluzhish.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Кому ты служишь (слоистая модель)
+
+_Слов: 150_
+
+### [Твоя личность](docs/lorenzo-agent/05-tvoya-lichnost.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твоя личность
+
+_Слов: 253_
+
+### [Языки и культурные nuances (RU / DE / EN)](docs/lorenzo-agent/06-yazyki-kultura.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твои языки и культурные nuances
+
+_Слов: 206_
+
+### [Что ты МОЖЕШЬ делать](docs/lorenzo-agent/07-chto-mozhesh.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Что ты МОЖЕШЬ делать
+
+_Слов: 163_
+
+### [Что ты НЕ МОЖЕШЬ делать без Max approval](docs/lorenzo-agent/08-bez-max-approval.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Что ты НЕ МОЖЕШЬ делать без Max approval
+
+_Слов: 156_
+
+### [Что ты НЕ МОЖЕШЬ делать вообще](docs/lorenzo-agent/09-voobshche-nelzya.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Что ты НЕ МОЖЕШЬ делать вообще
+
+_Слов: 150_
+
+### [Существующий landscape collaborators (working knowledge)](docs/lorenzo-agent/10-collaborators-landscape.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Существующий landscape collaborators (твоя working knowledge)
+
+_Слов: 305_
+
+### [Существующие документы DHLab (твой context)](docs/lorenzo-agent/11-dhlab-documents.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Существующие документы DHLab (твой context)
+
+_Слов: 192_
+
+### [Твой workflow](docs/lorenzo-agent/12-workflow.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твой workflow
+
+_Слов: 218_
+
+### [Твоя коммуникация в outreach](docs/lorenzo-agent/13-outreach-communication.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твоя коммуникация в outreach
+
+_Слов: 226_
+
+### [Твоя relationship с другими AI](docs/lorenzo-agent/14-other-ai-relationships.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твоя relationship с другими AI
+
+_Слов: 186_
+
+### [Твои anti-patterns](docs/lorenzo-agent/15-anti-patterns.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твои anti-patterns
+
+_Слов: 175_
+
+### [Что ты ВСЕГДА делаешь](docs/lorenzo-agent/16-vsegda-delaesh.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Что ты ВСЕГДА делаешь
+
+_Слов: 131_
+
+### [Когда ты Honestly не знаешь](docs/lorenzo-agent/17-honestly-ne-znaesh.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Когда ты Honestly не знаешь
+
+_Слов: 133_
+
+### [Когда сомневаешься — escalate к Max](docs/lorenzo-agent/18-escalate-to-max.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Когда сомневаешься — escalate к Max
+
+_Слов: 135_
+
+### [Твоя identity как persistent character](docs/lorenzo-agent/19-persistent-character.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Твоя identity как persistent character
+
+_Слов: 168_
+
+### [Final note: Ты — experiment](docs/lorenzo-agent/20-experiment.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
+
+  - Final note: Ты — experiment
+
+_Слов: 158_
+
+### [Q&A: lorenzo-agent](docs/lorenzo-agent/QA.md)
+> Автоматически сгенерировано по 55 файлам раздела.
+
+  - Какие кластеры найма выделены у Anthropic?
+  - Какие роли наиболее релевантны для профиля svend4?
+  - Каковы этапы MVP и их оценка по времени?
+  - Что входит в первую итерацию прототипа?
+  - Кто ключевые авторы проектов для контакта?
+  - Какие вопросы лучше задавать авторам при первом контакте?
+  - Как работает AgentFS и что такое .agentos?
+  - Что такое knowledge-space и для кого он предназначен?
+  _... ещё 9 разделов_
+
+_Слов: 206_
+
+### [lorenzo-agent](docs/lorenzo-agent/README.md)
+> Файлов: 22
+
+  - Содержание
+  - Подразделы
+
+_Слов: 163_
+
+### [Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на…](docs/lorenzo-agent/naming/00-question-lorenzo-codename.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — выбор имени…
+
+
+_Слов: 238_
+
+### [Результаты последнего поиска — что нашлось и что не нашлось](docs/lorenzo-agent/naming/01-search-results-not-found.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — выбор имени…
+
+
+_Слов: 295_
+
+### [Что взять: agent controller architecture](docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md)
+> > !TIP
+
+
+_Слов: 1183_
+
+### [LAYER 7: Coordination engine](docs/lorenzo-agent/naming/03-dhlab-umbrella.md)
+> > !TIP
+
+
+_Слов: 1402_
+
+### [naming](docs/lorenzo-agent/naming/README.md)
+> Файлов: 4
+
+  - Содержание
+
+_Слов: 28_
+
+### [Что такое «внуковая» комбинация — operationalized Lorenzo](docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ «вну…
+
+
+_Слов: 603_
+
+### [Плюсы 1–7: feasibility, flywheel, independent value, mission alignment, collaborators, pattern validation, Анастасия Бутова](docs/lorenzo-agent/operationalized/01-pluses-1-7.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ «вну…
+
+
+_Слов: 470_
+
+### [Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact](docs/lorenzo-agent/operationalized/02-minuses-1-10.md)
+> > !TIP
+
+
+_Слов: 738_
+
+### [Моё честное мнение: что реально и что НЕ реально](docs/lorenzo-agent/operationalized/03-honest-opinion.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ «вну…
+
+
+_Слов: 180_
+
+### [Рекомендации: принять архитектуру как direction, не immediate plan](docs/lorenzo-agent/operationalized/04-recommendations.md)
+> > !TIP
+
+
+_Слов: 440_
+
+### [Anchor-узел: Habr Scout как первый шаг](docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md)
+> > !TIP
+
+
+_Слов: 584_
+
+### [Вывод: документ deserves serious attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — анализ «вну…
+
+- Софтверные комбинации на Хабре для Svyazi 2.0
+  - Executive summary
+
+_Слов: 518_
+
+### [operationalized](docs/lorenzo-agent/operationalized/README.md)
+> Файлов: 7
+
+  - Содержание
+
+_Слов: 45_
+
+### [Поэтапная структура активностей Lorenzo — обзор](docs/lorenzo-agent/phased-deployment/00-overview.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 169_
+
+### [Уровень 0 — Ручной режим (текущий)](docs/lorenzo-agent/phased-deployment/01-level-0-manual.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 179_
+
+### [Уровень 1 — Минимальный (Lorenzo Zero)](docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 241_
+
+### [Уровень 2 — Базовый (Lorenzo Lite)](docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 207_
+
+### [Уровень 3 — Средний (Lorenzo Active)](docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 222_
+
+### [Уровень 4 — Расширенный (Lorenzo Mature)](docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 183_
+
+### [Уровень 5 — Полный (Lorenzo Network)](docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 146_
+
+### [Логика прогрессии: conservative escalation](docs/lorenzo-agent/phased-deployment/07-progression-logic.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — пятиуровнев…
+
+
+_Слов: 185_
+
+### [Что мы можем делать прямо сейчас (Уровень 0 + параллельная подготовка к Уровню 1)](docs/lorenzo-agent/phased-deployment/08-current-session-poc.md)
+> > !TIP
+
+
+_Слов: 839_
+
+### [phased-deployment](docs/lorenzo-agent/phased-deployment/README.md)
+> Файлов: 9
+
+  - Содержание
+
+_Слов: 59_
+
+### [Du hast gesagt: А под какой сценарий больше всего подходит такой сценарий что тв…](docs/lorenzo-agent/scenarios/00-question-scenario.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — под какой с…
+
+
+_Слов: 177_
+
+### [Claude hat geantwortet: Очень интересный вопрос.](docs/lorenzo-agent/scenarios/01-response.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — под какой с…
+
+
+_Слов: 2453_
+
+### [scenarios](docs/lorenzo-agent/scenarios/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 18_
+
+### [Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture](docs/lorenzo-agent/specification/00-context-fundamental-questions.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 205_
+
+### [Question 1: Что Lorenzo фундаментально такое? (Framings A–D)](docs/lorenzo-agent/specification/01-q1-what-lorenzo-is.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 348_
+
+### [Question 2: Кому Lorenzo служит? (4 варианта приоритета)](docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 238_
+
+### [Question 3: Что Lorenzo фактически делает?](docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 228_
+
+### [Question 4: Каков Lorenzo's character?](docs/lorenzo-agent/specification/04-q4-character.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 292_
+
+### [Question 5: Каковы limits Lorenzo's authority?](docs/lorenzo-agent/specification/05-q5-authority-limits.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 228_
+
+### [Question 6: Как Lorenzo accountable?](docs/lorenzo-agent/specification/06-q6-accountability.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 214_
+
+### [Question 7: Каковы success metrics?](docs/lorenzo-agent/specification/07-q7-success-metrics.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 216_
+
+### [Question 8: Lorenzo's relationship с другими AI agents](docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 207_
+
+### [Question 9: Geographic / linguistic scope](docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 211_
+
+### [Question 10: Funding model (Options A–F + Phase strategy)](docs/lorenzo-agent/specification/10-q10-funding-model.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Direction E…
+
+
+_Слов: 260_
+
+### [Сложности и рекомендации перед detailed specification](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)
+> > !IMPORTANT
+
+
+_Слов: 1408_
+
+### [specification](docs/lorenzo-agent/specification/README.md)
+> Файлов: 12
+
+  - Содержание
+
+_Слов: 77_
+
+**Итого в секции: 19,979 слов, 62 файлов**
+
+
+## 📁 Meta Scripting (`docs/meta-scripting/`)
+
+### [Метаскриптинг — Часть 1: Концепция](docs/meta-scripting/01-concept.md)
+> > > Скрипты, которые читают другие скрипты и документы — и улучшают их.
+
+  - Как это называется
+  - Зачем это нужно
+  - Три кита: Чтение → Понимание → Действие
+  - Граница: что скрипт может делать сам, что — только с LLM
+  - Следующие части
+
+_Слов: 439_
+
+### [Метаскриптинг — Часть 2: Архитектура](docs/meta-scripting/02-architecture.md)
+> > !WARNING
+
+  - Содержание
+  - Ключевой инструмент: AST
+  - Что можно извлечь из скрипта через AST
+  - Четыре режима метаскрипта
+  - Структура данных: ScriptCatalog
+  - Паттерн «читаю → понимаю → улучшаю»
+  - Безопасность: метаскрипт не меняет чужой код без --apply
+
+_Слов: 614_
+
+### [Метаскриптинг — Часть 3: Автокаталог скриптов](docs/meta-scripting/03-catalog.md)
+> > > Скрипт читает все 155 скриптов и строит живой каталог.
+
+  - Что такое автокаталог
+  - Что извлекается из каждого скрипта
+  - Алгоритм определения риска
+  - Пример выходного каталога (фрагмент)
+  - Что каталог даёт на практике
+- Какие скрипты пишут в docs/HEALTH.md?
+- Какие скрипты без dry-run?
+- Какие скрипты нет в группах runall?
+
+_Слов: 412_
+
+### [Метаскриптинг — Часть 4: Обогащение скриптов](docs/meta-scripting/04-enrichment.md)
+> > > Как скрипт улучшает другой скрипт, не зная заранее что в нём написано.
+
+  - Содержание
+  - Что значит «обогатить скрипт»
+  - Пять уровней обогащения
+- Сгенерированный docstring без LLM:
+- Было:
+- Стало:
+  - Алгоритм обогащения (пошагово)
+  - Пример: было → стало
+
+_Слов: 582_
+
+### [Метаскриптинг — Часть 5: Синтез новых скриптов](docs/meta-scripting/05-synthesis.md)
+> > > Как из существующих паттернов порождать новые скрипты.
+
+  - Откуда берутся паттерны
+  - Шесть базовых паттернов
+  - Три способа синтеза
+  - Защита от плохого кода
+  - Петля самообогащения (осторожно)
+
+_Слов: 503_
+
+### [Q&A: meta-scripting](docs/meta-scripting/QA.md)
+> Автоматически сгенерировано по 5 файлам раздела.
+
+  - Какие инструменты обеспечивают безопасность агентов?
+  - Какова политика доступа по умолчанию (tool classes)?
+  - Как организован бюджетный роутинг между моделями?
+  - Какие 5 архитектурных зазоров выделены в исследовании?
+  - Что входит в интеграционный контракт между слоями?
+
+_Слов: 71_
+
+### [meta-scripting](docs/meta-scripting/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 45_
+
+**Итого в секции: 2,666 слов, 7 файлов**
+
+
+## 📁 Nautilus (`docs/nautilus/`)
+
+### [nautilus/ — Nautilus Portal Protocol и связанные working papers](docs/nautilus/README.md)
+> Часть исходного MHTML‑снимка Вакансии в Anthropic по кластерам - Claude посвящена не вакансиям, а собственным архитектур…
+
+  - Подпапки
+  - Как читать
+  - Ключевой принцип Nautilus
+  - Связь с остальным монорепозиторием
+
+_Слов: 524_
+
+### [community-discussions/ — обсуждения и реакции вокруг DHLab серии](docs/nautilus/community-discussions/README.md)
+> Менее формализованные дискуссии — реакции на Habr-статьи, обсуждение того, могут ли быть voiceless контрибьюторы, как аг…
+
+
+_Слов: 90_
+
+### [Du hast gesagt: Такой агент конечно меняет уже собственную реальность человека и…](docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — агент меняе…
+
+
+_Слов: 216_
+
+### [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md)
+> > !TIP
+
+  - Содержание
+- The Representative Agent Layer
+  - AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
+  - Abstract
+  - Table of Contents
+  - 1. The Cinderella Syndrome: Why Quality Stays Invisible
+  - 2. Historical Precedents: Agents as Civilizational Innovation
+  - 3. What Makes a Representative Agent
+  _... ещё 14 разделов_
+
+_Слов: 9468_
+
+### [agent-changes-reality](docs/nautilus/community-discussions/agent-changes-reality/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [Du hast gesagt: https://habr.](docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — реакция на …
+
+
+_Слов: 72_
+
+### [Claude hat geantwortet: Прочитал внимательно.](docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md)
+> > !WARNING
+
+- unknownlegalconcepts.yml
+
+_Слов: 2467_
+
+### [habr-article-1-reaction](docs/nautilus/community-discussions/habr-article-1-reaction/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [Du hast gesagt: https://www.](docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — реакция на …
+
+
+_Слов: 157_
+
+### [Claude hat geantwortet: Прочитаю статью, чтобы понимать конкретный кейс, на кото…](docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md)
+> > !TIP
+
+
+_Слов: 2792_
+
+### [habr-article-2-reaction](docs/nautilus/community-discussions/habr-article-2-reaction/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [Du hast gesagt: Да это интересная ссылка спасибо всем участникам за творчество и…](docs/nautilus/community-discussions/practical-observations/00-question-practical.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — практически…
+
+
+_Слов: 227_
+
+### [Claude hat geantwortet: Отличное наблюдение.](docs/nautilus/community-discussions/practical-observations/01-response.md)
+> > !TIP
+
+
+_Слов: 1837_
+
+### [practical-observations](docs/nautilus/community-discussions/practical-observations/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [Du hast gesagt: Самый интересный вопрос — могут ли быть voiceless контрибьюторы](docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — voiceless к…
+
+
+_Слов: 514_
+
+### [Claude hat geantwortet: Это сильное продолжение мысли, и оно заслуживает серьёзн…](docs/nautilus/community-discussions/voiceless-contributors/01-response.md)
+> > !WARNING
+
+
+_Слов: 2533_
+
+### [voiceless-contributors](docs/nautilus/community-discussions/voiceless-contributors/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [1. Why the Binary View Is Incomplete](docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - Содержание
+  - 1. Why the Binary View Is Incomplete
+
+_Слов: 640_
+
+### [2. The Twenty-One Teachers Pattern](docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md)
+> > !TIP
+
+  - Содержание
+  - 2. The Twenty-One Teachers Pattern
+
+_Слов: 780_
+
+### [3. What Makes a Composite Skills Agent](docs/nautilus/composite-skills-agents/03-what-makes-csa.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - Содержание
+  - 3. What Makes a Composite Skills Agent
+
+_Слов: 889_
+
+### [4. The Sub-Agent Registry](docs/nautilus/composite-skills-agents/04-sub-agent-registry.md)
+> > !TIP
+
+  - Содержание
+  - 4. The Sub-Agent Registry
+
+_Слов: 750_
+
+### [5. Configuration: How Principals Build Their Ensembles](docs/nautilus/composite-skills-agents/05-configuration-ensembles.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - Содержание
+  - 5. Configuration: How Principals Build Their Ensembles
+
+_Слов: 681_
+
+### [6. Coordination and Disagreement Resolution](docs/nautilus/composite-skills-agents/06-coordination-disagreement.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - Содержание
+  - 6. Coordination and Disagreement Resolution
+
+_Слов: 742_
+
+### [7. Economics of Combinatorial Replication](docs/nautilus/composite-skills-agents/07-economics-combinatorial.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - Содержание
+  - 7. Economics of Combinatorial Replication
+
+_Слов: 722_
+
+### [8. Seven Domains of Application](docs/nautilus/composite-skills-agents/08-seven-domains.md)
+> > !TIP
+
+  - Содержание
+  - 8. Seven Domains of Application
+
+_Слов: 948_
+
+### [9. Integration with OKWF Infrastructure](docs/nautilus/composite-skills-agents/09-okwf-integration.md)
+> > !TIP
+
+  - Содержание
+  - 9. Integration with OKWF Infrastructure
+
+_Слов: 693_
+
+### [10. Risks Specific to Composite Architectures](docs/nautilus/composite-skills-agents/10-risks.md)
+> > !TIP
+
+  - Содержание
+  - 10. Risks Specific to Composite Architectures
+
+_Слов: 732_
+
+### [11. Open Questions](docs/nautilus/composite-skills-agents/11-open-questions.md)
+> > !TIP
+
+  - 11. Open Questions
+
+_Слов: 467_
+
+### [12. Call for Collaboration](docs/nautilus/composite-skills-agents/12-call-for-collaboration.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - 12. Call for Collaboration
+
+_Слов: 350_
+
+### [13. Closing](docs/nautilus/composite-skills-agents/13-closing.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Comp…
+
+  - Содержание
+  - 13. Closing
+  - Acknowledgments
+  - References
+
+_Слов: 664_
+
+### [composite-skills-agents](docs/nautilus/composite-skills-agents/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 78_
+
+### [Du hast gesagt: Важный момент про способности про скилы как один человек професс…](docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — 21 учитель …
+
+
+_Слов: 540_
+
+### [Claude hat geantwortet: Это очень тонкое и важное наблюдение.](docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md)
+> > !IMPORTANT
+
+
+_Слов: 517_
+
+### [Это не Тип 1 — потому что профиль не общий для всей профессии. И это не Тип 4 — …](docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md)
+> > !WARNING
+
+
+_Слов: 1019_
+
+### [Какой под-агент (или какие) должны её обработать](docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md)
+> > !WARNING
+
+
+_Слов: 902_
+
+### [composite-skills-agents-companion-mentors](docs/nautilus/composite-skills-agents-companion-mentors/README.md)
+> Файлов: 4
+
+  - Содержание
+
+_Слов: 27_
+
+### [Abstract — The Double-Triangle Architecture](docs/nautilus/double-triangle-architecture/00-abstract.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «The …
+
+- The Double-Triangle Architecture
+  - A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
+  - Abstract
+  - Table of Contents
+
+_Слов: 407_
+
+### [1. Why Single-Triangle Models Are Incomplete](docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «The …
+
+  - 1. Why Single-Triangle Models Are Incomplete
+
+_Слов: 466_
+
+### [2. The Double-Triangle Architecture](docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md)
+> > !IMPORTANT
+
+  - Содержание
+  - 2. The Double-Triangle Architecture
+
+_Слов: 687_
+
+### [3. Three Inter-Layer Protocols](docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md)
+> > !IMPORTANT
+
+  - Содержание
+  - 3. Three Inter-Layer Protocols
+
+_Слов: 820_
+
+### [4. Nautilus Portal as Reference Substrate](docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «The …
+
+  - Содержание
+  - 4. Nautilus Portal as Reference Substrate
+
+_Слов: 631_
+
+### [5. Pattern Library as Bridge Between Triangles](docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md)
+> > !TIP
+
+  - Содержание
+  - 5. Pattern Library as Bridge Between Triangles
+
+_Слов: 642_
+
+### [6. Four Deployment Domains](docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «The …
+
+  - Содержание
+  - 6. Four Deployment Domains
+
+_Слов: 634_
+
+### [7. Open Questions](docs/nautilus/double-triangle-architecture/07-open-questions.md)
+> > !TIP
+
+  - Содержание
+  - 7. Open Questions
+
+_Слов: 726_
+
+### [8. Call to Action](docs/nautilus/double-triangle-architecture/08-call-to-action.md)
+> > !TIP
+
+  - Содержание
+  - 8. Call to Action
+
+_Слов: 704_
+
+### [Acknowledgments](docs/nautilus/double-triangle-architecture/09-acknowledgments.md)
+> > !TIP
+
+  - Acknowledgments
+
+_Слов: 208_
+
+### [References](docs/nautilus/double-triangle-architecture/10-references.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «The …
+
+  - References
+
+_Слов: 278_
+
+### [Appendix A: Glossary](docs/nautilus/double-triangle-architecture/11-glossary.md)
+> > !TIP
+
+  - Содержание
+  - Appendix A: Glossary
+  - Appendix B: Summary of Contributions
+  - Appendix C: Version History
+
+_Слов: 1582_
+
+### [double-triangle-architecture](docs/nautilus/double-triangle-architecture/README.md)
+> Файлов: 12
+
+  - Содержание
+
+_Слов: 71_
+
+### [The Missing Middle Layer Between Chat and Code](docs/nautilus/infrastructure-layer-b-en/00-intro.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+- Infrastructure for AI-Collaborative Intellectual Work
+  - The Missing Middle Layer Between Chat and Code
+
+_Слов: 191_
+
+### [Why This Document Exists](docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Why This Document Exists
+
+_Слов: 305_
+
+### [Why This Document Exists](docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Why This Document Exists
+
+_Слов: 305_
+
+### [The Two-Layer Stack As It Exists](docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md)
+> > !TIP
+
+  - The Two-Layer Stack As It Exists
+
+_Слов: 352_
+
+### [What's Missing — Layer B](docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - What's Missing — Layer B
+
+_Слов: 424_
+
+### [Why This Hasn't Been Built](docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Why This Hasn't Been Built
+
+_Слов: 344_
+
+### [Existing Approximations](docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Existing Approximations
+
+_Слов: 466_
+
+### [The Specific Case in Front of Us](docs/nautilus/infrastructure-layer-b-en/07-specific-case.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Содержание
+  - The Specific Case in Front of Us
+
+_Слов: 614_
+
+### [The Recursive Insight](docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - The Recursive Insight
+
+_Слов: 326_
+
+### [What Industry Will Likely Build](docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - What Industry Will Likely Build
+
+_Слов: 273_
+
+### [What This Document Doesn't Solve](docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - What This Document Doesn't Solve
+
+_Слов: 204_
+
+### [Practical Recommendations for the Current Project](docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Practical Recommendations for the Current Project
+
+_Слов: 326_
+
+### [Closing](docs/nautilus/infrastructure-layer-b-en/12-closing.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Closing
+
+_Слов: 213_
+
+### [Acknowledgments](docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Содержание
+  - Acknowledgments
+  - References
+  - Appendix: Position in Series Visualization
+
+_Слов: 586_
+
+### [infrastructure-layer-b-en](docs/nautilus/infrastructure-layer-b-en/README.md)
+> Файлов: 14
+
+  - Содержание
+
+_Слов: 89_
+
+### [00 Intro](docs/nautilus/infrastructure-layer-b-ru/00-intro.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+
+_Слов: 520_
+
+### [Почему этот документ существует](docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Почему этот документ существует
+
+_Слов: 265_
+
+### [Двухслойный стек, как он существует](docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Двухслойный стек, как он существует
+
+_Слов: 316_
+
+### [Что отсутствует — Слой B](docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Что отсутствует — Слой B
+
+_Слов: 401_
+
+### [Почему это не было построено](docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Почему это не было построено
+
+_Слов: 318_
+
+### [Существующие приближения](docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md)
+> > !WARNING
+
+  - Существующие приближения
+
+_Слов: 461_
+
+### [Конкретный случай перед нами](docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md)
+> > !WARNING
+
+  - Содержание
+  - Конкретный случай перед нами
+
+_Слов: 592_
+
+### [Рекурсивное прозрение](docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Рекурсивное прозрение
+
+_Слов: 315_
+
+### [Что промышленность вероятно построит](docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md)
+> > !WARNING
+
+  - Что промышленность вероятно построит
+
+_Слов: 284_
+
+### [Что этот документ не решает](docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md)
+> > !WARNING
+
+  - Что этот документ не решает
+
+_Слов: 205_
+
+### [Практические рекомендации для текущего проекта](docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Практические рекомендации для текущего проекта
+
+_Слов: 311_
+
+### [Заключение](docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Заключение
+
+_Слов: 215_
+
+### [Благодарности](docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Infr…
+
+  - Содержание
+  - Благодарности
+  - Ссылки
+  - Приложение: Визуализация позиции в серии
+
+_Слов: 620_
+
+### [infrastructure-layer-b-ru](docs/nautilus/infrastructure-layer-b-ru/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 80_
+
+### [1. The Cowork Discovery and Why It Changes Everything](docs/nautilus/ingit-cowork-en/01-cowork-discovery.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 1. The Cowork Discovery and Why It Changes Everything
+
+_Слов: 631_
+
+### [2. What Cowork Provides That InGit Doesn't Need to Build](docs/nautilus/ingit-cowork-en/02-cowork-provides.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 2. What Cowork Provides That InGit Doesn't Need to Build
+
+_Слов: 607_
+
+### [3. What InGit Provides That Cowork Lacks](docs/nautilus/ingit-cowork-en/03-ingit-provides.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 3. What InGit Provides That Cowork Lacks
+
+_Слов: 792_
+
+### [4. The Symbiotic Architecture](docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 4. The Symbiotic Architecture
+
+_Слов: 574_
+
+### [5. Four Integration Paths in Order of Accessibility](docs/nautilus/ingit-cowork-en/05-four-integration-paths.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 5. Four Integration Paths in Order of Accessibility
+
+_Слов: 737_
+
+### [6. Refined InGit Scope with Cowork in Mind](docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - 6. Refined InGit Scope with Cowork in Mind
+
+_Слов: 378_
+
+### [7. Practical First Steps This Month](docs/nautilus/ingit-cowork-en/07-practical-first-steps.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - 7. Practical First Steps This Month
+
+_Слов: 374_
+
+### [8. Implications for Nautilus and OKWF](docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md)
+> > !TIP
+
+  - Содержание
+  - 8. Implications for Nautilus and OKWF
+
+_Слов: 595_
+
+### [9. Risks and Open Questions](docs/nautilus/ingit-cowork-en/09-risks-open-questions.md)
+> > !TIP
+
+  - Содержание
+  - 9. Risks and Open Questions
+
+_Слов: 542_
+
+### [10. Strategic Positioning](docs/nautilus/ingit-cowork-en/10-strategic-positioning.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 10. Strategic Positioning
+  - Acknowledgments
+
+_Слов: 715_
+
+### [ingit-cowork-en](docs/nautilus/ingit-cowork-en/README.md)
+> Файлов: 10
+
+  - Содержание
+
+_Слов: 64_
+
+### [1. Открытие Cowork и почему это меняет всё](docs/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 1. Открытие Cowork и почему это меняет всё
+
+_Слов: 600_
+
+### [2. Что Cowork обеспечивает, что InGit не нужно строить](docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 2. Что Cowork обеспечивает, что InGit не нужно строить
+
+_Слов: 606_
+
+### [3. Что InGit обеспечивает, чего Cowork не хватает](docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md)
+> > !IMPORTANT
+
+  - Содержание
+  - 3. Что InGit обеспечивает, чего Cowork не хватает
+
+_Слов: 812_
+
+### [4. Симбиотическая Архитектура](docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md)
+> > !WARNING
+
+  - Содержание
+  - 4. Симбиотическая Архитектура
+
+_Слов: 590_
+
+### [5. Четыре пути интеграции в порядке доступности](docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md)
+> > !TIP
+
+  - Содержание
+  - 5. Четыре пути интеграции в порядке доступности
+
+_Слов: 742_
+
+### [6. Уточнённый объём InGit с учётом Cowork](docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - 6. Уточнённый объём InGit с учётом Cowork
+
+_Слов: 374_
+
+### [7. Практические первые шаги в этом месяце](docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - 7. Практические первые шаги в этом месяце
+
+_Слов: 373_
+
+### [8. Импликации для Nautilus и OKWF](docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 8. Импликации для Nautilus и OKWF
+
+_Слов: 575_
+
+### [9. Риски и Открытые Вопросы](docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md)
+> > !WARNING
+
+  - Содержание
+  - 9. Риски и Открытые Вопросы
+
+_Слов: 558_
+
+### [10. Стратегическое Позиционирование](docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «InGi…
+
+  - Содержание
+  - 10. Стратегическое Позиционирование
+
+_Слов: 650_
+
+### [ingit-cowork-ru](docs/nautilus/ingit-cowork-ru/README.md)
+> Файлов: 10
+
+  - Содержание
+
+_Слов: 62_
+
+### [Du hast gesagt: Интересно как новая как инновация как как рационализация как пер…](docs/nautilus/innovation-transitions/00-question-innovations-transitions.md)
+> > !WARNING
+
+  - Содержание
+  - Ответ по существу
+
+_Слов: 2802_
+
+### [Claude hat geantwortet: Отличный запрос.](docs/nautilus/innovation-transitions/01-response.md)
+> > !TIP
+
+
+_Слов: 2405_
+
+### [innovation-transitions](docs/nautilus/innovation-transitions/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 16_
+
+### [Du hast gesagt: Ещё есть такие вопросы то есть если общие юридические Наутилус м…](docs/nautilus/multi-tier-architecture/00-question-multi-tier.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — многоуровне…
+
+
+_Слов: 197_
+
+### [Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…](docs/nautilus/multi-tier-architecture/01-strategic-significance.md)
+> > !WARNING
+
+
+_Слов: 2586_
+
+### [multi-tier-architecture](docs/nautilus/multi-tier-architecture/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [Du hast gesagt: Вопрос такой вопрос и такие а можно ли этот протокол это система…](docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — применение …
+
+
+_Слов: 302_
+
+### [Структурное сравнение: код vs гуманитарные документы](docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — применение …
+
+- Законодательные
+- Судебные
+- Административные
+- Процессуальные
+- Социальные/медицинские
+- Контрактные
+- Метаданные
+- Всё из PortalEntry (id, title, source, formattype, content, links, isfallback)
+  _... ещё 7 разделов_
+
+_Слов: 1525_
+
+### [Что он даёт вам на практике. Через MCP Claude Desktop может ответить на запросы …](docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — применение …
+
+
+_Слов: 219_
+
+### [Что не существует на рынке:](docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — применение …
+
+
+_Слов: 165_
+
+### [Horizon Europe Cluster 3 — Civil Security for Society — пересекается с «access t…](docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md)
+> > !TIP
+
+
+_Слов: 540_
+
+### [Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?](docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — применение …
+
+
+_Слов: 139_
+
+### [npp-humanitarian-extension](docs/nautilus/npp-humanitarian-extension/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 41_
+
+### [Abstract + Status of This Document](docs/nautilus/npp-v1-0/00-abstract-status.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+- Nautilus Portal Protocol
+  - Abstract
+  - 0. Status of This Document
+
+_Слов: 213_
+
+### [1. Introduction (Motivation, Design Goals, Non-Goals, Terminology)](docs/nautilus/npp-v1-0/01-introduction.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 1. Introduction
+
+_Слов: 313_
+
+### [2. Terminology](docs/nautilus/npp-v1-0/02-terminology.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 2. Terminology
+
+_Слов: 267_
+
+### [3. Registry (nautilus.json)](docs/nautilus/npp-v1-0/03-registry.md)
+> > !IMPORTANT
+
+  - 3. Registry (nautilus.json)
+
+_Слов: 343_
+
+### [4. Passport (passport.md)](docs/nautilus/npp-v1-0/04-passport.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 4. Passport (passport.md)
+- ## Essence
+  - Native Format
+  - Content Overview
+  - Angle / Perspective
+  - Bridges
+  - Author & Contact
+  - History
+
+_Слов: 237_
+
+### [5. Compatibility Levels](docs/nautilus/npp-v1-0/05-compatibility-levels.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 5. Compatibility Levels
+
+_Слов: 221_
+
+### [6. Adapter Interface](docs/nautilus/npp-v1-0/06-adapter-interface.md)
+> > !IMPORTANT
+
+  - 6. Adapter Interface
+
+_Слов: 334_
+
+### [7. PortalEntry Structure](docs/nautilus/npp-v1-0/07-portal-entry.md)
+> > !IMPORTANT
+
+  - 7. PortalEntry Structure
+
+_Слов: 224_
+
+### [8. Consensus Algorithm (v1.0: string normalization)](docs/nautilus/npp-v1-0/08-consensus-algorithm.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 8. Consensus Algorithm
+
+_Слов: 266_
+
+### [9. Query Flow](docs/nautilus/npp-v1-0/09-query-flow.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 9. Query Flow
+
+_Слов: 182_
+
+### [10. QueryResult Structure](docs/nautilus/npp-v1-0/10-query-result.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 10. QueryResult Structure
+
+_Слов: 157_
+
+### [11. Security Considerations](docs/nautilus/npp-v1-0/11-security-considerations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 11. Security Considerations
+
+_Слов: 198_
+
+### [12. Versioning Policy](docs/nautilus/npp-v1-0/12-versioning-policy.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 12. Versioning Policy
+
+_Слов: 173_
+
+### [13. Reference Implementation](docs/nautilus/npp-v1-0/13-reference-implementation.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 13. Reference Implementation
+
+_Слов: 120_
+
+### [14. ADR-001: Federation over Merging](docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 14. ADR-001: Federation over Merging
+
+_Слов: 202_
+
+### [15. Glossary of Examples](docs/nautilus/npp-v1-0/15-glossary.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 15. Glossary of Examples
+  - Appendix A: Minimal Working Example
+- mynotes
+  - Essence
+  - Native Format
+  - Content Overview
+  - Angle / Perspective
+  - Author
+
+_Слов: 272_
+
+### [Appendix A: Minimal Working Example](docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+- mynotes
+  - Essence
+  - Native Format
+  - Content Overview
+  - Angle / Perspective
+  - Author
+
+_Слов: 190_
+
+### [Appendix B: Change Log](docs/nautilus/npp-v1-0/17-appendix-b-change-log.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - Appendix B: Change Log
+
+_Слов: 95_
+
+### [Комментарий: дизайн-решения NPP v1.0](docs/nautilus/npp-v1-0/18-comment-on-document.md)
+> > !IMPORTANT
+
+
+_Слов: 454_
+
+### [npp-v1-0](docs/nautilus/npp-v1-0/README.md)
+> Файлов: 19
+
+  - Содержание
+
+_Слов: 116_
+
+### [Abstract + Status of This Document](docs/nautilus/npp-v1-1/00-abstract-status.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+- Nautilus Portal Protocol
+  - Abstract
+  - 0. Status of This Document
+
+_Слов: 335_
+
+### [1. Introduction (Motivation, Design Goals, Non-Goals, Terminology, Changes from v1.0)](docs/nautilus/npp-v1-1/01-introduction.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 1. Introduction
+
+_Слов: 447_
+
+### [2. Terminology](docs/nautilus/npp-v1-1/02-terminology.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 2. Terminology
+
+_Слов: 371_
+
+### [3. Registry (nautilus.json)](docs/nautilus/npp-v1-1/03-registry.md)
+> > !IMPORTANT
+
+  - 3. Registry (nautilus.json)
+
+_Слов: 479_
+
+### [4. Passport (passport.md)](docs/nautilus/npp-v1-1/04-passport.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 4. Passport (passport.md)
+- Паспорт: /
+
+_Слов: 294_
+
+### [5. Compatibility Levels](docs/nautilus/npp-v1-1/05-compatibility-levels.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 5. Compatibility Levels
+
+_Слов: 302_
+
+### [6. Adapter Interface](docs/nautilus/npp-v1-1/06-adapter-interface.md)
+> > !IMPORTANT
+
+  - 6. Adapter Interface
+
+_Слов: 327_
+
+### [7. PortalEntry Structure](docs/nautilus/npp-v1-1/07-portal-entry.md)
+> > !IMPORTANT
+
+  - 7. PortalEntry Structure
+
+_Слов: 290_
+
+### [8. Q6 Space (Normative)](docs/nautilus/npp-v1-1/08-q6-space.md)
+> > !IMPORTANT
+
+  - 8. Q6 Space (Normative)
+
+_Слов: 415_
+
+### [9. Consensus Algorithm](docs/nautilus/npp-v1-1/09-consensus-algorithm.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 9. Consensus Algorithm
+
+_Слов: 343_
+
+### [10. Query Flow](docs/nautilus/npp-v1-1/10-query-flow.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 10. Query Flow
+
+_Слов: 228_
+
+### [11. Relevance Ranking](docs/nautilus/npp-v1-1/11-relevance-ranking.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 11. Relevance Ranking
+- Bonus for connectivity
+- Penalty for fallback
+
+_Слов: 203_
+
+### [12. Onboarding Paths (Normative)](docs/nautilus/npp-v1-1/12-onboarding-paths.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 12. Onboarding Paths (Normative)
+
+_Слов: 449_
+
+### [13. REST API Contract (Normative for Portals)](docs/nautilus/npp-v1-1/13-rest-api.md)
+> > !IMPORTANT
+
+  - 13. REST API Contract (Normative for Portals)
+
+_Слов: 437_
+
+### [14. SDK Contract (Informative)](docs/nautilus/npp-v1-1/14-sdk.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 14. SDK Contract (Informative)
+
+_Слов: 192_
+
+### [15. Security Considerations](docs/nautilus/npp-v1-1/15-security.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 15. Security Considerations
+
+_Слов: 288_
+
+### [16. MCP Extension (Informative)](docs/nautilus/npp-v1-1/16-mcp-extension.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 16. MCP Extension (Informative)
+
+_Слов: 154_
+
+### [17. Versioning Policy](docs/nautilus/npp-v1-1/17-versioning-policy.md)
+> > !IMPORTANT
+
+  - 17. Versioning Policy
+
+_Слов: 227_
+
+### [18. Reference Implementation](docs/nautilus/npp-v1-1/18-reference-implementation.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 18. Reference Implementation
+
+_Слов: 212_
+
+### [19. ADR-001: Federation over Merging](docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 19. ADR-001: Federation over Merging
+
+_Слов: 234_
+
+### [20. ADR-002: Q6 as First-Class Protocol Concept](docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 20. ADR-002: Q6 as First-Class Protocol Concept
+
+_Слов: 210_
+
+### [21. ADR-003: Five Onboarding Paths as Equal-Rank](docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - 21. ADR-003: Five Onboarding Paths as Equal-Rank
+
+_Слов: 174_
+
+### [22. Glossary of Reference Examples](docs/nautilus/npp-v1-1/22-glossary.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — Nautilus Po…
+
+  - Содержание
+  - 22. Glossary of Reference Examples
+  - Appendix A: Minimal Working Example
+- adapters/mynotes.py
+- ... больше entries
+- Паспорт: owner/my-notes
+  - Описание
+  - Объём
+  _... ещё 6 разделов_
+
+_Слов: 1486_
+
+### [npp-v1-1](docs/nautilus/npp-v1-1/README.md)
+> Файлов: 23
+
+  - Содержание
+
+_Слов: 138_
+
+### [AI-Coordinated Infrastructure for Distributed Expert Contribution](docs/nautilus/okwf-concept/00-abstract.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+- Open Knowledge Work Foundation
+  - AI-Coordinated Infrastructure for Distributed Expert Contribution
+  - Executive Summary
+  - Table of Contents
+
+_Слов: 383_
+
+### [1. Problem Statement](docs/nautilus/okwf-concept/01-problem-statement.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - Содержание
+  - 1. Problem Statement
+
+_Слов: 582_
+
+### [2. Target Populations](docs/nautilus/okwf-concept/02-target-populations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - Содержание
+  - 2. Target Populations
+
+_Слов: 650_
+
+### [3. Why Existing Solutions Fail](docs/nautilus/okwf-concept/03-why-existing-fail.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - Содержание
+  - 3. Why Existing Solutions Fail
+
+_Слов: 663_
+
+### [4. Proposed Infrastructure](docs/nautilus/okwf-concept/04-proposed-infrastructure.md)
+> > !TIP
+
+  - Содержание
+  - 4. Proposed Infrastructure
+
+_Слов: 969_
+
+### [5. Economic Model](docs/nautilus/okwf-concept/05-economic-model.md)
+> > !TIP
+
+  - Содержание
+  - 5. Economic Model
+
+_Слов: 578_
+
+### [6. Governance and Ethics](docs/nautilus/okwf-concept/06-governance-ethics.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - 6. Governance and Ethics
+
+_Слов: 486_
+
+### [7. Phased Rollout Plan](docs/nautilus/okwf-concept/07-phased-rollout.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - Содержание
+  - 7. Phased Rollout Plan
+
+_Слов: 615_
+
+### [8. Risk Analysis](docs/nautilus/okwf-concept/08-risk-analysis.md)
+> > !TIP
+
+  - Содержание
+  - 8. Risk Analysis
+
+_Слов: 643_
+
+### [9. Call for Partnership](docs/nautilus/okwf-concept/09-call-for-partnership.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - 9. Call for Partnership
+
+_Слов: 460_
+
+### [10. Appendices](docs/nautilus/okwf-concept/10-appendices.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Open…
+
+  - Содержание
+  - 10. Appendices
+
+_Слов: 796_
+
+### [okwf-concept](docs/nautilus/okwf-concept/README.md)
+> Файлов: 11
+
+  - Содержание
+
+_Слов: 69_
+
+### [Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да…](docs/nautilus/privacy-federation/00-question-anonymization.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — приватность…
+
+
+_Слов: 288_
+
+### [Что именно анонимизировать: немецкий стандарт](docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — приватность…
+
+
+_Слов: 269_
+
+### [Архитектурное решение: две-уровневая публикация](docs/nautilus/privacy-federation/02-two-tier-publication.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — приватность…
+
+- В приватном репо cases-private:
+
+_Слов: 498_
+
+### [Что это даёт технически](docs/nautilus/privacy-federation/03-what-this-gives-technically.md)
+> > !WARNING
+
+
+_Слов: 1492_
+
+### [Что я могу сделать сейчас](docs/nautilus/privacy-federation/04-what-i-can-do-now.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — приватность…
+
+
+_Слов: 322_
+
+### [privacy-federation](docs/nautilus/privacy-federation/README.md)
+> Файлов: 5
+
+  - Содержание
+
+_Слов: 35_
+
+### [Professional Colleague Agents](docs/nautilus/professional-colleague-agents-en/00-abstract.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+- Professional Colleague Agents
+  - A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers
+  - Abstract
+  - Table of Contents
+
+_Слов: 426_
+
+### [1. The Five-Type Typology of Principal-Side Agents](docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 1. The Five-Type Typology of Principal-Side Agents
+
+_Слов: 871_
+
+### [2. What Makes a Professional Colleague Agent](docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 2. What Makes a Professional Colleague Agent
+
+_Слов: 787_
+
+### [3. Empirical Case Study: «Обучай»](docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 3. Empirical Case Study: «Обучай»
+
+_Слов: 807_
+
+### [4. Architecture of Professional Colleague Agents](docs/nautilus/professional-colleague-agents-en/04-architecture.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 4. Architecture of Professional Colleague Agents
+
+_Слов: 847_
+
+### [5. The Economics of Profession-Wide Replication](docs/nautilus/professional-colleague-agents-en/05-economics-replication.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 5. The Economics of Profession-Wide Replication
+
+_Слов: 695_
+
+### [6. Risks Specific to this Category](docs/nautilus/professional-colleague-agents-en/06-risks.md)
+> > !TIP
+
+  - Содержание
+  - 6. Risks Specific to this Category
+
+_Слов: 1153_
+
+### [7. Application Domains](docs/nautilus/professional-colleague-agents-en/07-application-domains.md)
+> > !TIP
+
+  - Содержание
+  - 7. Application Domains
+
+_Слов: 703_
+
+### [8. Pilot Proposal: SGB Advocate Colleague](docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 8. Pilot Proposal: SGB Advocate Colleague
+
+_Слов: 925_
+
+### [9. Relationship to Other Agent Types](docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 9. Relationship to Other Agent Types
+
+_Слов: 620_
+
+### [10. Open Questions](docs/nautilus/professional-colleague-agents-en/10-open-questions.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - 10. Open Questions
+
+_Слов: 358_
+
+### [11. Call for Collaboration](docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - 11. Call for Collaboration
+
+_Слов: 310_
+
+### [12. Closing](docs/nautilus/professional-colleague-agents-en/12-closing.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Prof…
+
+  - Содержание
+  - 12. Closing
+  - Acknowledgments
+  - References
+
+_Слов: 520_
+
+### [professional-colleague-agents-en](docs/nautilus/professional-colleague-agents-en/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 82_
+
+### [Содержание](docs/nautilus/professional-colleague-agents-ru/00-abstract.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - Содержание
+
+_Слов: 153_
+
+### [1. Типология из пяти типов агентов на стороне принципала](docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md)
+> > !IMPORTANT
+
+  - Содержание
+  - 1. Типология из пяти типов агентов на стороне принципала
+
+_Слов: 842_
+
+### [2. Что делает агента Профессиональным Коллегой](docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md)
+> > !TIP
+
+  - Содержание
+  - 2. Что делает агента Профессиональным Коллегой
+
+_Слов: 713_
+
+### [3. Эмпирический кейс: «Обучай»](docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - Содержание
+  - 3. Эмпирический кейс: «Обучай»
+
+_Слов: 762_
+
+### [4. Архитектура Профессиональных Коллег-Агентов](docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - Содержание
+  - 4. Архитектура Профессиональных Коллег-Агентов
+
+_Слов: 806_
+
+### [5. Экономика тиражирования по профессии](docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - Содержание
+  - 5. Экономика тиражирования по профессии
+
+_Слов: 689_
+
+### [6. Риски, специфичные для этой категории](docs/nautilus/professional-colleague-agents-ru/06-riski.md)
+> > !WARNING
+
+  - Содержание
+  - 6. Риски, специфичные для этой категории
+
+_Слов: 1142_
+
+### [7. Области применения](docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md)
+> > !WARNING
+
+  - Содержание
+  - 7. Области применения
+
+_Слов: 716_
+
+### [8. Пилотное предложение: SGB Колega-Адвокат](docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md)
+> > !WARNING
+
+  - Содержание
+  - 8. Пилотное предложение: SGB Колega-Адвокат
+
+_Слов: 981_
+
+### [9. Связь с другими типами агентов](docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md)
+> > !WARNING
+
+  - Содержание
+  - 9. Связь с другими типами агентов
+
+_Слов: 611_
+
+### [10. Открытые вопросы](docs/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - 10. Открытые вопросы
+
+_Слов: 341_
+
+### [11. Призыв к сотрудничеству](docs/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - 11. Призыв к сотрудничеству
+
+_Слов: 300_
+
+### [12. Заключение](docs/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Проф…
+
+  - 12. Заключение
+  - Благодарности
+  - Ссылки
+
+_Слов: 489_
+
+### [professional-colleague-agents-ru](docs/nautilus/professional-colleague-agents-ru/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 78_
+
+### [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](docs/nautilus/representative-agent-layer-en/00-abstract.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+- The Representative Agent Layer
+  - AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
+  - Abstract
+  - Table of Contents
+
+_Слов: 398_
+
+### [1. The Cinderella Syndrome: Why Quality Stays Invisible](docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+  - 1. The Cinderella Syndrome: Why Quality Stays Invisible
+
+_Слов: 793_
+
+### [2. Historical Precedents: Agents as Civilizational Innovation](docs/nautilus/representative-agent-layer-en/02-historical-precedents.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+  - 2. Historical Precedents: Agents as Civilizational Innovation
+
+_Слов: 911_
+
+### [3. What Makes a Representative Agent](docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+  - 3. What Makes a Representative Agent
+
+_Слов: 623_
+
+### [4. Ten Domains of Application](docs/nautilus/representative-agent-layer-en/04-ten-domains.md)
+> > !TIP
+
+  - Содержание
+  - 4. Ten Domains of Application
+
+_Слов: 1552_
+
+### [5. Architectural Specification](docs/nautilus/representative-agent-layer-en/05-architectural-specification.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+  - 5. Architectural Specification
+
+_Слов: 618_
+
+### [6. Ethical Framework](docs/nautilus/representative-agent-layer-en/06-ethical-framework.md)
+> > !IMPORTANT
+
+  - 6. Ethical Framework
+
+_Слов: 463_
+
+### [7. Governance and Oversight](docs/nautilus/representative-agent-layer-en/07-governance-oversight.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 7. Governance and Oversight
+
+_Слов: 385_
+
+### [8. Risks and Mitigations](docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 8. Risks and Mitigations
+
+_Слов: 486_
+
+### [9. Phased Rollout Strategy](docs/nautilus/representative-agent-layer-en/09-phased-rollout.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 9. Phased Rollout Strategy
+
+_Слов: 469_
+
+### [10. Open Questions](docs/nautilus/representative-agent-layer-en/10-open-questions.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 10. Open Questions
+
+_Слов: 367_
+
+### [11. Call for Collaboration](docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 11. Call for Collaboration
+
+_Слов: 374_
+
+### [12. Closing](docs/nautilus/representative-agent-layer-en/12-closing.md)
+> > !TIP
+
+  - Содержание
+  - 12. Closing
+  - Acknowledgments
+  - References
+  - Appendix A: Connection to Companion Papers
+  - Appendix B: Domain Comparison Matrix
+  - Appendix C: Sample Use Cases in Detail
+- The Representative Agent Layer
+  _... ещё 1 разделов_
+
+_Слов: 2676_
+
+### [representative-agent-layer-en](docs/nautilus/representative-agent-layer-en/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 81_
+
+### [Содержание](docs/nautilus/representative-agent-layer-ru/00-abstract.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+
+_Слов: 119_
+
+### [1. Синдром Золушки: Почему качество остаётся невидимым](docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+  - 1. Синдром Золушки: Почему качество остаётся невидимым
+
+_Слов: 751_
+
+### [2. Исторические прецеденты: Агенты как цивилизационная инновация](docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md)
+> > !WARNING
+
+  - Содержание
+  - 2. Исторические прецеденты: Агенты как цивилизационная инновация
+
+_Слов: 919_
+
+### [3. Что делает агента Представительским](docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md)
+> > !TIP
+
+  - Содержание
+  - 3. Что делает агента Представительским
+
+_Слов: 609_
+
+### [4. Десять областей применения](docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md)
+> > !WARNING
+
+  - Содержание
+  - 4. Десять областей применения
+
+_Слов: 1572_
+
+### [5. Архитектурная спецификация](docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - Содержание
+  - 5. Архитектурная спецификация
+
+_Слов: 601_
+
+### [6. Этическая рамка](docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 6. Этическая рамка
+
+_Слов: 448_
+
+### [7. Управление и надзор](docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 7. Управление и надзор
+
+_Слов: 383_
+
+### [8. Риски и меры противодействия](docs/nautilus/representative-agent-layer-ru/08-riski-mery.md)
+> > !WARNING
+
+  - Содержание
+  - 8. Риски и меры противодействия
+
+_Слов: 573_
+
+### [9. Стратегия поэтапного развёртывания](docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md)
+> > !WARNING
+
+  - 9. Стратегия поэтапного развёртывания
+
+_Слов: 484_
+
+### [10. Открытые вопросы](docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Repr…
+
+  - 10. Открытые вопросы
+
+_Слов: 353_
+
+### [11. Призыв к сотрудничеству](docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md)
+> > !WARNING
+
+  - 11. Призыв к сотрудничеству
+
+_Слов: 381_
+
+### [12. Заключение](docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md)
+> > !TIP
+
+  - Содержание
+  - 12. Заключение
+  - Благодарности
+  - Ссылки
+  - Приложение A: Связь с Сопроводительными Статьями
+  - Приложение B: Матрица Сравнения Областей
+  - Приложение C: Образцы Случаев Использования в Деталях
+
+_Слов: 4414_
+
+### [representative-agent-layer-ru](docs/nautilus/representative-agent-layer-ru/README.md)
+> Файлов: 13
+
+  - Содержание
+
+_Слов: 77_
+
+### [TL;DR — Трёхфазная методология Review](docs/nautilus/review-methodology/00-tldr.md)
+> > !WARNING
+
+- Трёхфазная методология Review в Nautilus
+  - TL;DR
+
+_Слов: 191_
+
+### [1. Контекст и мотивация](docs/nautilus/review-methodology/01-context-motivation.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Трёх…
+
+  - 1. Контекст и мотивация
+
+_Слов: 361_
+
+### [2. Формальный workflow](docs/nautilus/review-methodology/02-formal-workflow.md)
+> > !WARNING
+
+  - 2. Формальный workflow
+
+_Слов: 407_
+
+### [3. Принципы консолидации (Фаза C)](docs/nautilus/review-methodology/03-consolidation-principles.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Трёх…
+
+  - 3. Принципы консолидации (Фаза C)
+- LOC в Python-коде
+- Количество тестов
+- Число адаптеров
+- Health score
+- Q6-покрытие
+
+_Слов: 455_
+
+### [Вопрос: fallback‑ratio как критический или осмысленный?](docs/nautilus/review-methodology/04-fallback-ratio-question.md)
+> > !IMPORTANT
+
+  - Вопрос: fallback-ratio как критический или осмысленный?
+
+_Слов: 281_
+
+### [4. Условия применимости](docs/nautilus/review-methodology/05-conditions-of-applicability.md)
+> > !WARNING
+
+  - 4. Условия применимости
+
+_Слов: 258_
+
+### [5. Связь с существующими методологиями](docs/nautilus/review-methodology/06-relation-existing-methodologies.md)
+> > !WARNING
+
+  - 5. Связь с существующими методологиями
+
+_Слов: 333_
+
+### [6. Почему это валидный паттерн для AI‑assisted workflows](docs/nautilus/review-methodology/07-why-valid-for-ai.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Трёх…
+
+  - 6. Почему это валидный паттерн для AI-assisted workflows
+
+_Слов: 197_
+
+### [7. Реализация в проекте Nautilus](docs/nautilus/review-methodology/08-implementation-nautilus.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Трёх…
+
+  - 7. Реализация в проекте Nautilus
+
+_Слов: 257_
+
+### [8. Ограничения и открытые вопросы](docs/nautilus/review-methodology/09-limitations-open-questions.md)
+> > !WARNING
+
+  - 8. Ограничения и открытые вопросы
+
+_Слов: 373_
+
+### [9. Checklist применения методологии](docs/nautilus/review-methodology/10-checklist.md)
+> > !WARNING
+
+  - 9. Checklist применения методологии
+
+_Слов: 303_
+
+### [10. Конкретный план применения к текущим документам](docs/nautilus/review-methodology/11-application-plan-current-docs.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Трёх…
+
+  - 10. Конкретный план применения к текущим документам
+- В Termux
+
+_Слов: 225_
+
+### [Appendix A: Шаблон для header warning](docs/nautilus/review-methodology/12-appendix-a-header-warning.md)
+> > !WARNING
+
+  - Appendix A: Шаблон для header warning
+
+_Слов: 214_
+
+### [Appendix B: Примеры расхождений и их разрешения](docs/nautilus/review-methodology/13-appendix-b-examples.md)
+> > !WARNING
+
+  - Appendix B: Примеры расхождений и их разрешения
+
+_Слов: 281_
+
+### [Главные технические риски](docs/nautilus/review-methodology/14-main-technical-risks.md)
+> > !WARNING
+
+  - Главные технические риски
+
+_Слов: 143_
+
+### [Appendix C: История изменений методологии](docs/nautilus/review-methodology/15-appendix-c-history.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — paper «Трёх…
+
+  - Appendix C: История изменений методологии
+
+_Слов: 100_
+
+### [Глоссарий](docs/nautilus/review-methodology/16-glossary.md)
+> > !WARNING
+
+  - Глоссарий
+
+_Слов: 971_
+
+### [review-methodology](docs/nautilus/review-methodology/README.md)
+> Файлов: 17
+
+  - Содержание
+
+_Слов: 97_
+
+### [Du hast gesagt: Спрос рождает предложение - это простая экономическая истина нач…](docs/nautilus/supply-demand/00-question-supply-demand.md)
+> > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — спрос рожда…
+
+
+_Слов: 447_
+
+### [Claude hat geantwortet: Очень богатый вопрос — три разных, но связанных темы.](docs/nautilus/supply-demand/01-three-related-themes.md)
+> > !WARNING
+
+
+_Слов: 2915_
+
+### [supply-demand](docs/nautilus/supply-demand/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 17_
+
+### [Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к…](docs/nautilus/transmission-box/00-question-mountain-to-person.md)
+> > !TIP
+
+
+_Слов: 549_
+
+### [Claude hat geantwortet: Это исключительно богатый вопрос, и я хочу ответить на н…](docs/nautilus/transmission-box/01-completing-loop.md)
+> > !TIP
+
+
+_Слов: 3126_
+
+### [transmission-box](docs/nautilus/transmission-box/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 16_
+
+**Итого в секции: 148,539 слов, 255 файлов**
+
+
+## 📁 Processing Guide (`docs/processing-guide/`)
+
+### [Обработка больших массивов информации — Часть 1: Обзор и таксономия](docs/processing-guide/01-overview.md)
+> > > Руководство по всем доступным методам обработки разрозненных документов в проекте Lorenzo / Svyazi 2.0.
+
+  - Проблема
+  - Таксономия методов
+  - Что реализовано в Lorenzo
+  - Навигация по разделам
+
+_Слов: 462_
+
+### [Обработка больших массивов — Часть 2: Извлечение](docs/processing-guide/02-extraction.md)
+> > !WARNING
+
+  - Содержание
+  - Проблема формата
+  - Уровень 1: extractmhtml.py
+  - Уровень 2: organizedocs.py + part.py
+  - Поддерживаемые форматы
+  - Качество извлечения
+  - Типичные проблемы и решения
+  - Следующий шаг после извлечения
+
+_Слов: 622_
+
+### [Обработка больших массивов — Часть 3: Разбивка и чанкинг](docs/processing-guide/03-chunking.md)
+> > !WARNING
+
+  - Содержание
+  - Зачем делить?
+  - Стратегии разбивки
+- utilschunker.py — chunkbyheaders()
+- improvechunksemantic.py
+- improvepassageretrieval.py
+- improvereclassify.py
+- improvetopicmodel.py
+  _... ещё 6 разделов_
+
+_Слов: 664_
+
+### [Обработка больших массивов — Часть 4: Структурирование](docs/processing-guide/04-structuring.md)
+> > !TIP
+
+  - Содержание
+  - Проблема неструктурированности
+  - Инструмент 1: Автоматические метаданные — improveautofill.py
+  - Статус
+  - Инструмент 2: Оглавления — improveautotoc.py
+  - Содержание
+  - Инструмент 3: Теги — improvetags.py
+  - Инструмент 4: Перекрёстные ссылки — improvecrosslinkall.py
+  _... ещё 14 разделов_
+
+_Слов: 716_
+
+### [Обработка больших массивов — Часть 5: Анализ и NLP](docs/processing-guide/05-analysis.md)
+> > > Что можно узнать о массиве документов без использования LLM.
+
+  - Содержание
+  - Что такое «анализ без LLM»
+  - Группа 1: Извлечение сущностей
+- MHTML → "MIME HTML archive format"
+- BM25  → "Best Match 25, алгоритм ранжирования"
+- RAG   → "Retrieval-Augmented Generation"
+  - Группа 2: Граф знаний
+- Вывод: docs/network.dot (Graphviz), docs/NETWORK.md
+  _... ещё 7 разделов_
+
+_Слов: 882_
+
+### [Обработка больших массивов — Часть 6: Поиск](docs/processing-guide/06-search.md)
+> > !IMPORTANT
+
+  - Содержание
+  - Уровни поиска (от простого к сложному)
+  - Уровень 2: Поисковый индекс — improvesearchindex.py
+  - Уровень 3: BM25 — improvekeywordindex.py
+  - Уровень 4: Поиск по абзацам — improvepassageretrieval.py
+  - Уровень 5: Фасетный поиск — improvefacetedsearch.py
+- Поиск по тексту в конкретной секции
+- Поиск файлов с конкретной сущностью
+  _... ещё 12 разделов_
+
+_Слов: 965_
+
+### [Обработка больших массивов — Часть 7: LLM-обогащение](docs/processing-guide/07-llm.md)
+> > > Что может сделать языковая модель с документами, чего не может классический алгоритм.
+
+  - Содержание
+  - Граница классики и LLM
+  - Архитектура: 5 LLM-скриптов
+  - improvellmenrich.py — обогащение файлов
+  - improvellmqa.py — Q&A по базе знаний
+  - improvellmsummary.py — каскадная суммаризация
+  - improvellmgaps.py — пробелы в документации
+- → docs/LLMGAPS.md
+  _... ещё 6 разделов_
+
+_Слов: 855_
+
+### [Обработка больших массивов — Часть 8: Экспорт и интеграции](docs/processing-guide/08-export.md)
+> > > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
+
+  - Содержание
+  - Зачем экспортировать?
+  - Obsidian Vault — improveobsidian.py
+- → docs/obsidian/ (1053 файла готовы к открытию в Obsidian)
+  - Confluence — improveconfluence.py
+- → docs/confluence//.wiki
+  - EPUB — improveepub.py
+  - RSS/Atom — improverss.py
+  _... ещё 16 разделов_
+
+_Слов: 720_
+
+### [Обработка больших массивов — Часть 9: Автоматизация](docs/processing-guide/09-automation.md)
+> > !WARNING
+
+  - Содержание
+  - Проблема ручного запуска
+  - Ступень 1: Оркестратор — improverunall.py
+- Запустить всё
+- Только быстрые скрипты (< 5 сек каждый)
+- Умный режим: пропустить если метрика уже хорошая
+- Только конкретная группа
+- Только изменённые файлы (git diff)
+  _... ещё 15 разделов_
+
+_Слов: 886_
+
+### [Обработка больших массивов — Часть 10: Инновационные подходы](docs/processing-guide/10-future.md)
+> > > Что можно сделать сегодня с новыми инструментами — и что ещё не придумано.
+
+  - Содержание
+  - Граница между «уже есть» и «ещё нет»
+  - Уровень A: Векторный поиск (следующий шаг)
+- Шаг 1: Индексация (один раз)
+- Сохранить индекс
+- Шаг 2: Поиск
+- Reciprocal Rank Fusion — объединяет оба ранжирования
+  - Уровень B: Граф знаний с LLM-NER
+  _... ещё 31 разделов_
+
+_Слов: 1756_
+
+### [Обработка больших массивов документов — Полное руководство](docs/processing-guide/PROCESSING_GUIDE.md)
+> > !TIP
+
+  - Содержание
+  - Содержание
+  - Обработка больших массивов информации — Часть 1: Обзор и таксономия
+  - Проблема
+  - Таксономия методов
+  - Что реализовано в Lorenzo
+  - Навигация по разделам
+  - Обработка больших массивов — Часть 2: Извлечение
+  _... ещё 178 разделов_
+
+_Слов: 8049_
+
+### [Q&A: processing-guide](docs/processing-guide/QA.md)
+> Автоматически сгенерировано по 11 файлам раздела.
+
+  - Какие системы памяти описаны в этом разделе?
+  - Как происходит консолидация и забывание в памяти агентов?
+  - Какова разница между эпизодической и семантической памятью?
+  - Кто ключевые авторы проектов для контакта?
+  - Какие вопросы лучше задавать авторам при первом контакте?
+  - Как реализован forensic RAG с доказуемостью?
+  - Что такое Evidence Envelope и зачем он нужен?
+  - Какие RAG-подходы сравниваются в документах?
+  _... ещё 10 разделов_
+
+_Слов: 219_
+
+### [processing-guide](docs/processing-guide/README.md)
+> Файлов: 12
+
+  - Содержание
+
+_Слов: 103_
+
+**Итого в секции: 16,899 слов, 13 файлов**
+
+
+## 📁 Svyazi 2 0 (`docs/svyazi-2-0/`)
+
+### [Svyazi 2.0 — тематический индекс](docs/svyazi-2-0/README.md)
+> Содержимое исходных файлов deep-research-report (1)/(2)/(3)/(4).md (находятся в корне репозитория, не изменены) разбито …
+
+  - Подпапки
+  - Источник
+
+_Слов: 158_
+
+### [architecture](docs/svyazi-2-0/architecture/README.md)
+> Файлов: 7
+
+  - Содержание
+
+_Слов: 46_
+
+### [Card Envelope](docs/svyazi-2-0/architecture/card-envelope.md)
+> > > Источник: deep-research-report (3).md, раздел «Интеграционный контракт».
+
+  - Минимальные поля
+
+_Слов: 200_
+
+### [Evidence Envelope](docs/svyazi-2-0/architecture/evidence-envelope.md)
+> > > Источник: deep-research-report (3).md, раздел «Интеграционный контракт».
+
+  - Минимальные поля
+  - Особые случаи
+
+_Слов: 238_
+
+### [Архитектурные зазоры](docs/svyazi-2-0/architecture/gaps.md)
+> > !TIP
+
+  - Содержание
+  - Пять зазоров, важнее поиска ещё десяти инструментов
+  - Сводная таблица зазоров
+  - Главный практический принцип
+
+_Слов: 597_
+
+### [Интеграционная спецификация (минимум для MVP)](docs/svyazi-2-0/architecture/integration-spec.md)
+> > !TIP
+
+
+_Слов: 285_
+
+### [Memory Write Policy](docs/svyazi-2-0/architecture/memory-write-policy.md)
+> > > Источник: deep-research-report (3).md, раздел «Интеграционный контракт».
+
+  - Минимальные поля
+
+_Слов: 186_
+
+### [Review Record](docs/svyazi-2-0/architecture/review-record.md)
+> > > Источник: deep-research-report (3).md, раздел «Интеграционный контракт».
+
+  - Минимальные поля
+
+_Слов: 121_
+
+### [Skill and Tool Policy](docs/svyazi-2-0/architecture/skill-tool-policy.md)
+> > > Источник: deep-research-report (3).md, раздел «Интеграционный контракт».
+
+  - Минимальные поля
+
+_Слов: 183_
+
+### [components](docs/svyazi-2-0/components/README.md)
+> Файлов: 19
+
+  - Содержание
+
+_Слов: 120_
+
+### [agent-memory-mcp + Memory OS](docs/svyazi-2-0/components/agent-memory-mcp.md)
+> > - Автор: VitaliySemenov / moshael
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 166_
+
+### [AgentFS](docs/svyazi-2-0/components/agentfs.md)
+> > - Источник: Хабр + GitHub citeturn33view4turn33view7turn27view0
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 125_
+
+### [AI Factory + AIF Handoff](docs/svyazi-2-0/components/ai-factory.md)
+> > - Источник: Хабр + GitHub citeturn20view3turn29search0turn29search9
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 130_
+
+### [AutoResearch + Sequential](docs/svyazi-2-0/components/autoresearch-sequential.md)
+> > - Авторы: Андрей Карпаты / Виктория Дочкина
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 140_
+
+### [Graph RAG](docs/svyazi-2-0/components/graph-rag.md)
+> > - Автор: VladSpace / vpakspace
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 125_
+
+### [Hybrid RAG knowledge base](docs/svyazi-2-0/components/hybrid-rag.md)
+> > - Источник: Хабр citeturn34view2
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 118_
+
+### [knowledge-space](docs/svyazi-2-0/components/knowledge-space.md)
+> > - Автор: SoniaBlack / AnastasiyaW
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 123_
+
+### [Legal RAG](docs/svyazi-2-0/components/legal-rag.md)
+> > - Источник: Хабр citeturn20view6
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 123_
+
+### [mclaude](docs/svyazi-2-0/components/mclaude.md)
+> > - Источник: Хабр + GitHub citeturn20view2turn37search0
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 114_
+
+### [MemNet / memory-is-all-you-need](docs/svyazi-2-0/components/memnet.md)
+> > - Источник: Хабр + GitHub citeturn21view4turn17search0turn18search2
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 117_
+
+### [NGT Memory](docs/svyazi-2-0/components/ngt-memory.md)
+> > - Автор: spbmolot / ngt-memory
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 138_
+
+### [research-docs + LiteParse](docs/svyazi-2-0/components/research-docs-liteparse.md)
+> > - Автор: nlaik / Jerry Liu / LlamaIndex
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 137_
+
+### [Rufler](docs/svyazi-2-0/components/rufler.md)
+> > - Автор: zodigancode / lib4u
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 114_
+
+### [Security + routing plane](docs/svyazi-2-0/components/security-routing-plane.md)
+> > - Авторы: Dmitriila / BerriAI / MiXaiLL76 / Maslennikovig
+
+  - Описание
+  - Ключевые компоненты и паттерны
+  - Числовые наблюдения
+
+_Слов: 210_
+
+### [Self‑Aware MCP + Skills + CodeWiki](docs/svyazi-2-0/components/self-aware-mcp.md)
+> > - Авторы: akazant / akzhankalimatov / AnastasiyaW
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 148_
+
+### [Svyazi](docs/svyazi-2-0/components/svyazi.md)
+> > - Источник: Хабр citeturn41search0
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 134_
+
+### [Voice / local-first stack](docs/svyazi-2-0/components/voice-stack.md)
+> > - Авторы: atatchin / askid / обзоры Handy / OpenWhispr
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 152_
+
+### [Yjs + Automerge](docs/svyazi-2-0/components/yjs-automerge.md)
+> > - Авторы: Kevin Jahns / Automerge team
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 125_
+
+### [Yodoca](docs/svyazi-2-0/components/yodoca.md)
+> > - Источник: Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1
+
+  - Описание
+  - Ключевые компоненты и паттерны
+
+_Слов: 127_
+
+### [Ансамбль A — Collaboration OS](docs/svyazi-2-0/ensembles/A-collaboration-os.md)
+> > > Источник: deep-research-report (1).md.
+
+  - Схема
+  - Ожидаемые новые свойства
+
+_Слов: 248_
+
+### [Ансамбль B — Forensic RAG для доказуемого matching и review](docs/svyazi-2-0/ensembles/B-forensic-rag.md)
+> > > Источник: deep-research-report (1).md.
+
+  - Схема
+  - Ожидаемые новые свойства
+
+_Слов: 252_
+
+### [Ансамбль C — Spec‑driven multi‑agent factory](docs/svyazi-2-0/ensembles/C-multi-agent-factory.md)
+> > > Источник: deep-research-report (1).md.
+
+  - Схема
+  - Ожидаемые новые свойства
+
+_Слов: 249_
+
+### [Ансамбль D — Voice‑first local knowledge mesh](docs/svyazi-2-0/ensembles/D-voice-first-mesh.md)
+> > !IMPORTANT
+
+  - Схема
+  - Ожидаемые новые свойства
+
+_Слов: 265_
+
+### [Ансамбль E — Safe and cheap execution plane](docs/svyazi-2-0/ensembles/E-execution-plane.md)
+> > > Источник: deep-research-report (1).md.
+
+  - Схема
+  - Ожидаемые новые свойства
+
+_Слов: 253_
+
+### [Ансамбль F — Evidence‑Backed Community Intake](docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md)
+> > > Источник: deep-research-report (3).md (ансамбли «второго порядка»).
+
+  - Схема
+  - Новые свойства
+
+_Слов: 262_
+
+### [Ансамбль G — Federated Local‑First Community Graph](docs/svyazi-2-0/ensembles/G-federated-local-graph.md)
+> > > Источник: deep-research-report (3).md.
+
+  - Схема
+  - Новое свойство
+
+_Слов: 284_
+
+### [Ансамбль H — Research‑to‑Product Flywheel](docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md)
+> > > Источник: deep-research-report (3).md.
+
+  - Схема
+  - Новое свойство
+
+_Слов: 234_
+
+### [Ансамбли проектов](docs/svyazi-2-0/ensembles/README.md)
+> Файлов: 8
+
+  - Содержание
+
+_Слов: 54_
+
+### [limitations](docs/svyazi-2-0/limitations/README.md)
+> Файлов: 3
+
+  - Содержание
+
+_Слов: 22_
+
+### [Итоговые выводы и порядок сборки](docs/svyazi-2-0/limitations/conclusions.md)
+> > > Источники: deep-research-report (1).md (раздел «Выводы») и итог из deep-research-report (3).md.
+
+  - Главный вывод первой части
+  - Порядок практической сборки
+  - Главный вывод второй части
+
+_Слов: 318_
+
+### [Что пока лучше не склеивать](docs/svyazi-2-0/limitations/do-not-glue.md)
+> > !WARNING
+
+  - Оркестрация — выбрать один spine
+  - Voice/local‑first mesh — не идеализировать
+  - Self‑improvement — только после метрики
+
+_Слов: 343_
+
+### [Лицензионные развилки](docs/svyazi-2-0/limitations/license-tree.md)
+> > !WARNING
+
+  - Развилки в коротком виде
+
+_Слов: 324_
+
+### [outreach](docs/svyazi-2-0/outreach/README.md)
+> Файлов: 3
+
+  - Содержание
+
+_Слов: 22_
+
+### [Первые контакты](docs/svyazi-2-0/outreach/first-contacts.md)
+> > !TIP
+
+
+_Слов: 259_
+
+### [Шаблон первого сообщения](docs/svyazi-2-0/outreach/message-template.md)
+> > !TIP
+
+  - Замечание
+
+_Слов: 248_
+
+### [Узкие вопросы для каждого автора](docs/svyazi-2-0/outreach/narrow-questions.md)
+> > > Источник: deep-research-report (3).md, раздел «Контактная стратегия и узкие вопросы для авторов».
+
+  - Адресные вопросы
+
+_Слов: 306_
+
+### [overview](docs/svyazi-2-0/overview/README.md)
+> Файлов: 4
+
+  - Содержание
+
+_Слов: 27_
+
+### [Что добавляет продолжение исследования](docs/svyazi-2-0/overview/continuation-intro.md)
+> > > Источник: deep-research-report (3).md, раздел «Что это продолжение добавляет».
+
+
+_Слов: 242_
+
+### [Executive summary](docs/svyazi-2-0/overview/executive-summary.md)
+> > !TIP
+
+
+_Слов: 376_
+
+### [Методика и рамка отбора](docs/svyazi-2-0/overview/methodology.md)
+> > !TIP
+
+
+_Слов: 268_
+
+### [Карта найденных проектов и паттернов](docs/svyazi-2-0/overview/projects-map.md)
+> > !TIP
+
+
+_Слов: 1301_
+
+### [prototype](docs/svyazi-2-0/prototype/README.md)
+> Файлов: 3
+
+  - Содержание
+
+_Слов: 21_
+
+### [План MVP-прототипа](docs/svyazi-2-0/prototype/mvp-plan.md)
+> > !TIP
+
+  - Минимальная сборка прототипа
+
+_Слов: 312_
+
+### [Ключевые риски и как их закрывать](docs/svyazi-2-0/prototype/risks.md)
+> > !TIP
+
+
+_Слов: 287_
+
+### [Дорожная карта прототипа](docs/svyazi-2-0/prototype/roadmap.md)
+> > !TIP
+
+  - Содержание
+  - Итерация 1 — Evidence-first card graph
+  - Итерация 2 — Memory governance
+  - Итерация 3 — Orchestration + federation
+  - Сводная таблица
+  - Главный инженерный вывод
+
+_Слов: 609_
+
+### [security](docs/svyazi-2-0/security/README.md)
+> Файлов: 3
+
+  - Содержание
+
+_Слов: 21_
+
+### [Практичный бюджетный роутинг моделей](docs/svyazi-2-0/security/budget-routing.md)
+> > !WARNING
+
+  - Обоснование
+  - Три режима
+
+_Слов: 329_
+
+### [Что стоит зафиксировать как default policy](docs/svyazi-2-0/security/default-policy.md)
+> > !WARNING
+
+
+_Слов: 365_
+
+### [Приватность: local-first by default](docs/svyazi-2-0/security/privacy.md)
+> > !WARNING
+
+
+_Слов: 124_
+
+**Итого в секции: 12,925 слов, 59 файлов**
+
+
+## 📁 Technology Combinations (`docs/technology-combinations/`)
+
+### [technology-combinations/ — комбинирование технологий для новых свойств](docs/technology-combinations/README.md)
+> Файл в корне репозитория: Комбинирование технологий для новых свойств - Claude(../../%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%B…
+
+  - Источник
+  - Подпапки
+  - Главная находка диалога
+  - См. также
+
+_Слов: 155_
+
+### [Комбинация 1: Правильная агентская архитектура × Svyazi-паттерн](docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 246_
+
+### [Комбинация 2: Мультиагентный хаос-решение × Auto AI Router](docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 187_
+
+### [Комбинация 3: CRDT local-first × Svyazi CardIndex](docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 199_
+
+### [Комбинация 4: Парсинг с LLM × Graph-RAG × Правильная агентская архитектура](docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 218_
+
+### [Комбинация 5: SourceCraft CLI × Claude Code × Sequential протокол Дочкиной](docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 212_
+
+### [Комбинация 6: OpenClaude (утёкший Claude Code) × ZINC inference engine × MoME-роутер](docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 218_
+
+### [Комбинация 7: Crawl4AI × Docling × Yodoca consolidator](docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 199_
+
+### [Комбинация 8: Conductor × adversarial-review × Auto AI Router](docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 686_
+
+### [Комбинация 9: Agent Orchestration Stack](docs/technology-combinations/combinations/09-agent-orchestration-stack.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 196_
+
+### [Комбинация 10: Legal Document Intelligence Pipeline](docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 200_
+
+### [Комбинация 11: Hybrid CRDT-SQL Database](docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 189_
+
+### [Комбинация 12: Multi-Agent Observability Stack](docs/technology-combinations/combinations/12-multi-agent-observability-stack.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 165_
+
+### [Комбинация 13: Legal Document Transpiler](docs/technology-combinations/combinations/13-legal-document-transpiler.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 180_
+
+### [Комбинация 14: local-first Agent Development Environment](docs/technology-combinations/combinations/14-local-first-agent-development-environment.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 577_
+
+### [Комбинация 15: Self-Consolidating Legal Corpus](docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 226_
+
+### [Комбинация 16: Adversarial Multi-Agent Code Review](docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 254_
+
+### [Комбинация 17: Distributed Agent Memory with Graph](docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 209_
+
+### [Комбинация 18: LLM-Powered Legal Corpus Builder](docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+- Crawl4AI pipeline
+- Svyazi deduplication
+
+_Слов: 228_
+
+### [Комбинация 19: Multi-Agent Observability Platform](docs/technology-combinations/combinations/19-multi-agent-observability-platform.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 678_
+
+### [Комбинация 20: Hybrid OLAP-OLTP with Real-Time Sync](docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 256_
+
+### [Комбинация 21: Legal Corpus Analytics at Scale](docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+- Pipeline
+- Schema
+- Analytics queries (subsecond)
+
+_Слов: 249_
+
+### [Комбинация 22: Russian-International OSS Stack](docs/technology-combinations/combinations/22-russian-international-oss-stack.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 213_
+
+### [Комбинация 23: Security-First Code Review Pipeline](docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 183_
+
+### [Комбинация 24: MEGA-INTEGRATION: Full Stack](docs/technology-combinations/combinations/24-mega-integration-full-stack.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 594_
+
+### [Комбинация 25: Legal DSL → Code Transpiler](docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+- DSL syntax (natural language-like)
+- DSL operations
+- Output: ready Widerspruch.docx
+- DSL for conversion
+
+_Слов: 252_
+
+### [Комбинация 26: AST-Based Code Analysis for Legal Automation](docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+- Input: Python script for Fristwahrung calculation
+- AST analysis
+- Extract legal logic
+- → Pydantic model: LegalRule(
+- name="Widerspruchsfrist",
+- baseduration=timedelta(days(),
+- extensions=[...],
+- legalbasis="SGG § 84"
+  _... ещё 3 разделов_
+
+_Слов: 206_
+
+### [Комбинация 27: Hybrid RAG with AST-Chunked Code](docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 220_
+
+### [Комбинация 28: Pydantic-Enforced Legal Workflows](docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+- Sequential pipeline with Pydantic validation at each stage
+
+_Слов: 225_
+
+### [Комбинация 29: Meta-Programmatic Legal Template Generator](docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+- Legal DSL (declarative)
+- Compiler generates Python code
+- auto-generated rendering logic
+
+_Слов: 198_
+
+### [Комбинация 30: MEGA-STACK 3.0 with DSL & AST](docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 489_
+
+### [Комбинация 31: Event-Sourced Legal Document History](docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 245_
+
+### [Комбинация 32: Consensus-Based Multi-Agent Coordination](docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md)
+> > !TIP
+
+
+_Слов: 260_
+
+### [Комбинация 33: Event Sourcing + CQRS + ClickHouse Analytics](docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 221_
+
+### [Комбинация 34: Distributed Event Store with Paxos](docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude (корень репозитория).
+
+
+_Слов: 193_
+
+### [Комбинация 35: MEGA-STACK 4.0 with Event Sourcing & Consensus](docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md)
+> > !TIP
+
+- Events
+- Event Store
+- Time-travel query
+
+_Слов: 483_
+
+### [combinations](docs/technology-combinations/combinations/README.md)
+> Файлов: 35
+
+  - Содержание
+
+_Слов: 214_
+
+### [Mega‑Stack 1.0 — Полный Legal‑AI Stack](docs/technology-combinations/mega-stacks/01-legal-ai-stack.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «MEGA‑COMBINATION: Полный Legal‑…
+
+  - Результат
+  - Первый проект для внедрения
+
+_Слов: 227_
+
+### [Mega‑Stack 2.0 — Ultimate Legal‑AI System](docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «MEGA‑STACK 2.0: Ultimate Legal‑…
+
+  - Capabilities
+  - First implementation priority
+
+_Слов: 318_
+
+### [Mega‑Stack 3.0 — with DSL & AST](docs/technology-combinations/mega-stacks/03-dsl-ast.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «КОМБИНАЦИЯ 30: MEGA‑STACK 3.0 w…
+
+  - New capabilities
+
+_Слов: 242_
+
+### [Mega‑Stack 4.0 — with Event Sourcing & Consensus](docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md)
+> > !TIP
+
+  - New capabilities
+  - Performance
+
+_Слов: 329_
+
+### [mega-stacks](docs/technology-combinations/mega-stacks/README.md)
+> Файлов: 4
+
+  - Содержание
+
+_Слов: 29_
+
+### [properties/ — эмерджентные свойства](docs/technology-combinations/properties/README.md)
+> Один файл — одно свойство, которое возникает только при комбинировании нескольких технологий.
+
+  - Шаблон файла
+- <Название свойства>
+  - Что это
+  - Какие компоненты дают это свойство в комбинации
+  - Почему ни один из них в отдельности не даёт свойства
+  - Как проверить, что свойство реально появилось
+
+_Слов: 68_
+
+### [research-reports](docs/technology-combinations/research-reports/README.md)
+> Файлов: 2
+
+  - Содержание
+
+_Слов: 18_
+
+### [Research Report: Continuation — 10 New Domains Beyond the Original 45 Combinations](docs/technology-combinations/research-reports/continuation-10-domains.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «Continuation Research — 10 New …
+
+  - 10 новых технологических областей
+  - 35+ новых синергетических комбинаций
+  - 5 кросс‑сквозных эмерджентных архитектур
+  - Методологические оговорки
+  - Применение к Sozialrecht
+  - Артефакт документа
+  - Итоговый объём исследования
+
+_Слов: 316_
+
+### [Research Report: Sozialrecht (35 комбинаций)](docs/technology-combinations/research-reports/sozialrecht-35-combinations.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «A Research Report Building on 3…
+
+  - Что в отчёте
+  - Артефакт документа
+
+_Слов: 222_
+
+### [Сводная таблица 1–8](docs/technology-combinations/synthesis-tables/01-08-summary.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция 📊 «Сводная таблица синергии».
+
+  - 🎯 Главная находка: паттерн «скромные родители → мощные дети»
+  - Рекомендация
+
+_Слов: 401_
+
+### [Сводная таблица 9–14 (Extended)](docs/technology-combinations/synthesis-tables/09-14-extended.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «SYNTHESIS TABLE (Extended)».
+
+
+_Слов: 195_
+
+### [Сводная таблица 15–19 (Extended)](docs/technology-combinations/synthesis-tables/15-19-extended.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «EXTENDED SYNTHESIS TABLE».
+
+
+_Слов: 162_
+
+### [Сводная таблица 20–24 (Final 1–24)](docs/technology-combinations/synthesis-tables/20-24-final.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «FINAL SYNTHESIS TABLE (Complete…
+
+  - Рекомендация
+
+_Слов: 212_
+
+### [Сводная таблица 25–30 (Complete 1–30)](docs/technology-combinations/synthesis-tables/25-30-extended.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «EXTENDED SYNTHESIS TABLE (Compl…
+
+  - Рекомендация
+
+_Слов: 228_
+
+### [Сводная таблица 31–35 (Complete 1–35)](docs/technology-combinations/synthesis-tables/31-35-final.md)
+> > > Источник: MHTML‑снимок Комбинирование технологий для новых свойств - Claude, секция «EXTENDED SYNTHESIS TABLE (Compl…
+
+  - Рекомендация
+- Events
+- Event Store (append-only)
+- Time-travel query
+
+_Слов: 249_
+
+### [synthesis-tables](docs/technology-combinations/synthesis-tables/README.md)
+> Файлов: 6
+
+  - Содержание
+
+_Слов: 42_
+
+**Итого в секции: 13,381 слов, 53 файлов**
 
 
 ## 📁 Templates (`docs/templates/`)
 
 ### [Шаблоны документов](docs/templates/README.md)
-> Создано: 2026-04-29
+> Создано: 2026-05-10
 
   - Доступные шаблоны
   - Использование
@@ -6751,7 +10412,7 @@ _Слов: 361_
   - Риски
   _... ещё 4 разделов_
 
-_Слов: 368_
+_Слов: 384_
 
 ### [[Тема исследования]](docs/templates/research-note.md)
 > Зачем изучали. Какой вопрос стоял.
@@ -6790,7 +10451,7 @@ _Слов: 160_
   - 6. Privacy Considerations
   _... ещё 4 разделов_
 
-_Слов: 225_
+_Слов: 241_
 
 ### [Риск: [Название]](docs/templates/risk-entry.md)
 > > !WARNING
@@ -6861,73 +10522,72 @@ _Слов: 319_
 
 _Слов: 193_
 
-**Итого в секции: 4,858 слов, 24 файлов**
+**Итого в секции: 4,890 слов, 24 файлов**
 
 
 ## 🗺️ Тематическая карта
 
-### Архитектура (260 документов)
+### Архитектура (565 документов)
 - [`365-развёрнутый-анализ-внуковой-комбинации`](docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [`CONCEPTS`](docs/CONCEPTS.md)
 - [`TABLES`](docs/TABLES.md)
 - [`00-intro`](docs/02-anthropic-vacancies/00-intro.md)
 - [`01-интегральный-анализ-профиля-svend4`](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- _... ещё 255_
+- _... ещё 560_
 
-### Проекты (59 документов)
-- [`TIMELINE`](docs/TIMELINE.md)
-- [`343-lorenzo-catalyst-agent-глубокая-проработка-специфи`](docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md)
-- [`CONTACTS`](docs/CONTACTS.md)
-- [`ENTITIES`](docs/ENTITIES.md)
-- [`QUESTIONS`](docs/QUESTIONS.md)
-- _... ещё 54_
-
-### Агенты (47 документов)
+### Агенты (141 документов)
+- [`C-multi-agent-factory`](docs/svyazi-2-0/ensembles/C-multi-agent-factory.md)
 - [`107-1-контекст-и-мотивация`](docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
 - [`108-2-формальный-workflow`](docs/02-anthropic-vacancies/108-2-формальный-workflow.md)
 - [`345-кто-ты`](docs/02-anthropic-vacancies/345-кто-ты.md)
-- [`106-tl-dr`](docs/02-anthropic-vacancies/106-tl-dr.md)
-- [`115-8-ограничения-и-открытые-вопросы`](docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- _... ещё 42_
+- [`00-question-what-is-hermes`](docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)
+- _... ещё 136_
 
-### Анализ (47 документов)
-- [`72-расписание-фазы-3`](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
-- [`110-вопрос-fallback-ratio-как-критический-или-осмыслен`](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [`145-8-call-to-action`](docs/02-anthropic-vacancies/145-8-call-to-action.md)
-- [`154-table-of-contents`](docs/02-anthropic-vacancies/154-table-of-contents.md)
-- [`159-5-economic-model`](docs/02-anthropic-vacancies/159-5-economic-model.md)
-- _... ещё 42_
-
-### Документация (45 документов)
+### Документация (141 документов)
 - [`CODE_BLOCKS`](docs/CODE_BLOCKS.md)
-- [`02-общий-план-развития-nautilus-portal-protocol`](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - [`118-appendix-a-шаблон-для-header-warning`](docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
 - [`98-appendix-a-minimal-working-example`](docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
-- [`102-доступ-к-данным`](docs/02-anthropic-vacancies/102-доступ-к-данным.md)
-- _... ещё 40_
+- [`COMPLEXITY`](docs/COMPLEXITY.md)
+- [`22-glossary`](docs/nautilus/npp-v1-1/22-glossary.md)
+- _... ещё 136_
 
-### Контакты (32 документов)
-- [`67-о-проекте`](docs/02-anthropic-vacancies/67-о-проекте.md)
+### Проекты (133 документов)
+- [`TIMELINE`](docs/TIMELINE.md)
+- [`02-общий-план-развития-nautilus-portal-protocol`](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [`228-appendix-c-quick-start-architecture-for-sgb-advoca`](docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [`299-практические-рекомендации-для-текущего-проекта`](docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
+- [`336-10-стратегическое-позиционирование`](docs/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
+- _... ещё 128_
+
+### Контакты (53 документов)
 - [`ngt-memory`](docs/05-habr-projects/memory/ngt-memory.md)
 - [`REGISTRY`](docs/REGISTRY.md)
 - [`06-1-introduction`](docs/02-anthropic-vacancies/06-1-introduction.md)
 - [`105-review-methodology-md`](docs/02-anthropic-vacancies/105-review-methodology-md.md)
 - [`161-7-phased-rollout-plan`](docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- _... ещё 27_
+- _... ещё 48_
 
-### Память (11 документов)
-- [`354-существующий-landscape-collaborators-твоя-working-`](docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
-- [`CONTRADICTIONS`](docs/CONTRADICTIONS.md)
-- [`antipozitive`](docs/contacts/antipozitive.md)
-- [`70-зачем-две-версии-параллельно`](docs/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
-- [`71-критерии-выбора-для-фазы-3`](docs/02-anthropic-vacancies/71-критерии-выбора-для-фазы-3.md)
-- _... ещё 6_
+### Память (46 документов)
+- [`PROCESSING_GUIDE`](docs/processing-guide/PROCESSING_GUIDE.md)
+- [`06-search`](docs/processing-guide/06-search.md)
+- [`11-integration-contracts`](docs/01-svyazi/11-integration-contracts.md)
+- [`CHANGELOG`](docs/CHANGELOG.md)
+- [`NARRATIVE`](docs/NARRATIVE.md)
+- _... ещё 41_
 
-### Код (6 документов)
+### Код (34 документов)
 - [`DEPENDENCY_MAP`](docs/DEPENDENCY_MAP.md)
+- [`02-architecture`](docs/meta-scripting/02-architecture.md)
+- [`04-enrichment`](docs/meta-scripting/04-enrichment.md)
 - [`83-8-q6-space-normative`](docs/02-anthropic-vacancies/83-8-q6-space-normative.md)
 - [`84-9-consensus-algorithm`](docs/02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- [`90-15-security-considerations`](docs/02-anthropic-vacancies/90-15-security-considerations.md)
-- [`CHANGELOG`](docs/CHANGELOG.md)
-- _... ещё 1_
+- _... ещё 29_
+
+### Анализ (30 документов)
+- [`72-расписание-фазы-3`](docs/02-anthropic-vacancies/72-расписание-фазы-3.md)
+- [`110-вопрос-fallback-ratio-как-критический-или-осмыслен`](docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [`145-8-call-to-action`](docs/02-anthropic-vacancies/145-8-call-to-action.md)
+- [`154-table-of-contents`](docs/02-anthropic-vacancies/154-table-of-contents.md)
+- [`162-8-risk-analysis`](docs/02-anthropic-vacancies/162-8-risk-analysis.md)
+- _... ещё 25_
 

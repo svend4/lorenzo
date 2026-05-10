@@ -1,20 +1,5 @@
 # Q&A: 01-svyazi
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG
-
----
-<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 _Автоматически сгенерировано по 14 файлам раздела._
 
 ## Как реализован forensic RAG с доказуемостью?
@@ -23,7 +8,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
+Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -47,7 +32,7 @@ _Автоматически сгенерировано по 14 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -76,26 +61,3 @@ _Автоматически сгенерировано по 14 файлам ра
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
-
-## Какие кластеры найма выделены у Anthropic?
-
-Упоминаются: **research**, **product**
-
-## Какие роли наиболее релевантны для профиля svend4?
-
-_Не найдено в этом файле._
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [QA](../04-ai-collaborations/QA.md) (сходство 0.82)
-- [QA](../02-anthropic-vacancies/QA.md) (сходство 0.52)
-- [QA](../QA.md) (сходство 0.51)
-
-<!-- footnotes-added -->
-
----
-
-[^rag]: Retrieval-Augmented Generation — генерация с поиском

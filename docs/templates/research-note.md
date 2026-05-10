@@ -1,13 +1,3 @@
----
-template: research-note
-version: "1.0"
-title: "[Тема исследования]"
-created: 2026-04-29
-status: draft
-tags: [исследование]
-related: []
----
-
 # [Тема исследования]
 
 <!-- summary: Краткий итог исследования -->
@@ -39,24 +29,4 @@ related: []
 - [ ] [Действие 2]
 
 ---
-_Создано: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [research-summary](docs/obsidian/autofilled/research-summary.md)
-- [contact-outreach](docs/templates/contact-outreach.md)
-- [project-component](docs/templates/project-component.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [REGISTRY](docs/REGISTRY.md)
-- [TASKS_INDEX](docs/TASKS_INDEX.md)
-- [README](docs/templates/README.md)
-
+_Создано: 2026-05-10_

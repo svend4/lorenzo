@@ -1,17 +1,18 @@
 # processing-guide
 
-**Файлов:** 11
+**Файлов:** 12
 
 ## Содержание
 
-- [01-overview.md](01-overview.md) — > Руководство по всем доступным методам обработки разрозненных документов в проекте Lorenzo / Svyazi 2.0.
-- [02-extraction.md](02-extraction.md) — > Как превратить сырые файлы (MHTML, PDF, HTML, TXT) в чистый Markdown.
-- [03-chunking.md](03-chunking.md) — > Как правильно делить большой текст на смысловые части.
+- [01-overview.md](01-overview.md) — <!-- summary -->
+- [02-extraction.md](02-extraction.md) — <!-- summary -->
+- [03-chunking.md](03-chunking.md) — <!-- summary -->
 - [04-structuring.md](04-structuring.md) — > Как превратить набор текстовых файлов в связанную, навигируемую базу знаний.
-- [05-analysis.md](05-analysis.md) — > Что можно узнать о массиве документов без использования LLM.
-- [06-search.md](06-search.md) — > Как найти нужное в 1000+ документах: от простого grep до BM25 и фасетов.
-- [07-llm.md](07-llm.md) — > Что может сделать языковая модель с документами, чего не может классический алгоритм.
-- [08-export.md](08-export.md) — > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.
-- [09-automation.md](09-automation.md) — > Как сделать так, чтобы всё работало само: оркестратор, watcher, CI/CD, MCP.
-- [10-future.md](10-future.md) — > Что можно сделать сегодня с новыми инструментами — и что ещё не придумано.
+- [05-analysis.md](05-analysis.md) — <!-- summary -->
+- [06-search.md](06-search.md) — <!-- summary -->
+- [07-llm.md](07-llm.md) — <!-- summary -->
+- [08-export.md](08-export.md) — <!-- summary -->
+- [09-automation.md](09-automation.md) — <!-- summary -->
+- [10-future.md](10-future.md) — <!-- summary -->
 - [PROCESSING_GUIDE.md](PROCESSING_GUIDE.md) — > Всё о том, как превратить неструктурированные документы (MHTML, Markdown, PDF) в управляемую, поисковую и обогащённую …
+- [QA.md](QA.md) — _Автоматически сгенерировано по 11 файлам раздела._

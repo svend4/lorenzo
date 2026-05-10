@@ -1,5 +1,10 @@
 # Svyazi 2.0 — Спецификация прототипа
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > **Версия:** 1.0 · **Дата:** 2026-05-10 · **Статус:** Draft
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, LiteParse, Legal RAG
@@ -285,3 +290,14 @@ network_scope: offline | internal | internet
 ---
 
 *Документ синтезирован из: `docs/01-svyazi/07-mvp-planning.md`, `docs/01-svyazi/11-integration-contracts.md`, `docs/01-svyazi/09-architectural-gaps.md`, `docs/01-svyazi/12-roadmap.md`*
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [11-интеграционный-контракт-который-стоит-зафиксироват](docs/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md)
+- [11-integration-contracts](docs/01-svyazi/11-integration-contracts.md)
+- [05-roadmap-6-12-months](docs/ai-collaborations/continuation/05-roadmap-6-12-months.md)
+- [SIMILAR_PASSAGES](docs/SIMILAR_PASSAGES.md)
+

@@ -12,5 +12,36 @@
       "improve_self.py",
       "improve_benchmark.py"
     ]
+  },
+  {
+    "recipe": "dashboard",
+    "started_at": "2026-05-10T14:37:23",
+    "dry_run": true,
+    "ok_count": 5,
+    "total_count": 5,
+    "total_sec": 3.0,
+    "scripts": [
+      "improve_health.py",
+      "improve_metrics.py",
+      "improve_scoring.py",
+      "improve_stats.py",
+      "improve_coverage.py"
+    ]
+  },
+  {
+    "recipe": "quality-check",
+    "started_at": "2026-05-10T14:37:56",
+    "dry_run": true,
+    "ok_count": 5,
+    "total_count": 6,
+    "total_sec": 10.8,
+    "scripts": [
+      "improve_spellcheck.py",
+      "improve_broken_links.py",
+      "improve_heading_audit.py",
+      "improve_empty_sections.py",
+      "improve_validate.py",
+      "improve_consistency.py"
+    ]
   }
 ]

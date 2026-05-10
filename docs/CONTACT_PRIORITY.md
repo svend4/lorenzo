@@ -1,44 +1,34 @@
 # Приоритет контактов
 
-<!-- summary -->
-> 1. **kksudo** (AgentFS, 133 упоминаний) → [открыть контакт](contacts/kksudo.md)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
-
-
-
-
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-10_
 
 ## Топ авторов по приоритету
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 133 | 👁 Изучили | 410 |
-| 2 | **spbmolot** | NGT Memory | memory | 128 | 👁 Изучили | 395 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 78 | ⬜ Не начато | 240 |
-| 4 | **Cutcode** | AIF Handoff | orchestration | 76 | ⬜ Не начато | 232 |
-| 5 | **VitalyOborin** | Yodoca | memory | 71 | ⬜ Не начато | 219 |
-| 6 | **VladSpace** | Graph RAG | rag | 69 | ⬜ Не начато | 211 |
-| 7 | **Dmitriila** | SENTINEL | security | 69 | ⬜ Не начато | 209 |
-| 8 | **MiXaiLL76** | Auto AI Router | security | 68 | ⬜ Не начато | 206 |
-| 9 | **zodigancode** | Rufler | orchestration | 59 | ⬜ Не начато | 181 |
-| 10 | **Antipozitive** | MemNet | memory | 50 | ⬜ Не начато | 156 |
-| 11 | **nlaik** | LiteParse / research-docs | rag | 49 | ⬜ Не начато | 151 |
-| 12 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 43 | ⬜ Не начато | 131 |
-| 13 | **tagir_analyzes** | Legal RAG | rag | 41 | ⬜ Не начато | 127 |
-| 14 | **Sonia_Black** | knowledge-space | knowledge | 38 | ⬜ Не начато | 120 |
-| 15 | **lee-to** | AI Factory | orchestration | 16 | ⬜ Не начато | 52 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 138 | 👁 Изучили | 425 |
+| 2 | **spbmolot** | NGT Memory | memory | 131 | 👁 Изучили | 404 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 90 | ⬜ Не начато | 276 |
+| 4 | **VladSpace** | Graph RAG | rag | 81 | ⬜ Не начато | 247 |
+| 5 | **VitalyOborin** | Yodoca | memory | 73 | ⬜ Не начато | 225 |
+| 6 | **zodigancode** | Rufler | orchestration | 70 | ⬜ Не начато | 214 |
+| 7 | **Cutcode** | AIF Handoff | orchestration | 68 | ⬜ Не начато | 208 |
+| 8 | **Dmitriila** | SENTINEL | security | 64 | ⬜ Не начато | 194 |
+| 9 | **Antipozitive** | MemNet | memory | 61 | ⬜ Не начато | 189 |
+| 10 | **MiXaiLL76** | Auto AI Router | security | 56 | ⬜ Не начато | 170 |
+| 11 | **nlaik** | LiteParse / research-docs | rag | 52 | ⬜ Не начато | 160 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 33 | ⬜ Не начато | 105 |
+| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 29 | ⬜ Не начато | 89 |
+| 14 | **tagir_analyzes** | Legal RAG | rag | 27 | ⬜ Не начато | 85 |
+| 15 | **lee-to** | AI Factory | orchestration | 19 | ⬜ Не начато | 61 |
 
 ## Рекомендуемые следующие шаги
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 133 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **spbmolot** (NGT Memory, 128 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 78 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **kksudo** (AgentFS, 138 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **spbmolot** (NGT Memory, 131 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 90 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 

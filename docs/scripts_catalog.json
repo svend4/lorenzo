@@ -126,6 +126,26 @@
     "group": "quality"
   },
   {
+    "name": "improve_card_index.py",
+    "summary": "CLI для управления CardEnvelope-карточками.",
+    "description": "Превращает docs/ в карточный индекс (CardStore) согласно PROTOTYPE_SPEC.md. Каждый .md файл → одна CardEnvelope с типом, состоянием, payload и рёбрами. Команды:",
+    "flags": [
+      "--approve",
+      "--build",
+      "--decay",
+      "--dry-run",
+      "--export",
+      "--fmt",
+      "--get",
+      "--link",
+      "--rel",
+      "--search",
+      "--section",
+      "--stats"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_changelog.py",
     "summary": "генерирует CHANGELOG из git-истории репозитория.",
     "description": "Группирует коммиты по типам (feat/fix/chore/improve) и датам. Создаёт docs/CHANGELOG.md и CHANGELOG.md в корне.",

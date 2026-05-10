@@ -1,16 +1,6 @@
 # Мониторинг зависимостей
 
-<!-- summary -->
-> python scripts/improve_dependabot.py --generate-config
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->
-
-
-
-
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-10_
 
 ## Python-зависимости
 

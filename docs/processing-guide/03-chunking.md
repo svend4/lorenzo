@@ -1,5 +1,10 @@
 # Обработка больших массивов — Часть 3: Разбивка и чанкинг
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Как правильно делить большой текст на смысловые части.
 
@@ -204,4 +209,15 @@ for chunk in chunks:
 - [01-overview](docs/processing-guide/01-overview.md)
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-extraction](docs/processing-guide/02-extraction.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+- [09-automation](docs/processing-guide/09-automation.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 

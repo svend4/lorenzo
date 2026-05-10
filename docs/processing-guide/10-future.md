@@ -493,3 +493,14 @@ for qa in load_json("docs/qa_cache.json"):
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+- [05-analysis](docs/processing-guide/05-analysis.md)
+- [06-search](docs/processing-guide/06-search.md)
+

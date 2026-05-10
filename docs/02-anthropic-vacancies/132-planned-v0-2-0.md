@@ -1,5 +1,10 @@
 # Planned (v0.2.0)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - HTTP-mode для debugging и remote access
 

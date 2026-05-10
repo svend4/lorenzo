@@ -1,6 +1,6 @@
 # Индекс обратных ссылок
 
-**Файлов с входящими ссылками:** 1785
+**Файлов с входящими ссылками:** 1786
 
 ## Топ-30 самых цитируемых документов
 
@@ -13,13 +13,13 @@
 | `208-professional-colleague-agents-m` | 25 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `136-abstract.md` +21 |
 | `03-portal-protocol-md` | 22 | `05-0-status-of-this-document.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md`, `125-readme-mcp-md-инструкция-по-установке.md` +18 |
 | `TABLES` | 21 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `AUTOFILLED.md` +17 |
-| `105-review-methodology-md` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `106-tl-dr.md`, `122-глоссарий.md` +17 |
-| `123-portal-mcp-py` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `105-review-methodology-md.md`, `125-readme-mcp-md-инструкция-по-установке.md` +17 |
 | `42-author-contact` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +17 |
+| `123-portal-mcp-py` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `105-review-methodology-md.md`, `125-readme-mcp-md-инструкция-по-установке.md` +17 |
+| `105-review-methodology-md` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `106-tl-dr.md`, `122-глоссарий.md` +17 |
 | `249-composite-skills-agent-md` | 21 | `12-content-overview.md`, `134-the-double-triangle-architecture-md.md`, `151-open-knowledge-work-foundation-md.md`, `166-representative-agent-layer-md.md` +17 |
 | `125-readme-mcp-md-инструкция-по-уст` | 20 | `02-общий-план-развития-nautilus-portal-protocol.md`, `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +16 |
-| `05-0-status-of-this-document` | 20 | `03-portal-protocol-md.md`, `04-abstract.md`, `125-readme-mcp-md-инструкция-по-установке.md`, `129-примеры-запросов-в-claude.md` +16 |
 | `25-13-reference-implementation` | 20 | `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `104-appendix-c-references.md`, `122-глоссарий.md` +16 |
+| `05-0-status-of-this-document` | 20 | `03-portal-protocol-md.md`, `04-abstract.md`, `125-readme-mcp-md-инструкция-по-установке.md`, `129-примеры-запросов-в-claude.md` +16 |
 | `134-the-double-triangle-architectur` | 20 | `12-content-overview.md`, `13-angle-perspective.md`, `143-6-four-deployment-domains.md`, `144-7-open-questions.md` +16 |
 | `211-table-of-contents` | 20 | `149-appendix-b-summary-of-contributions.md`, `169-table-of-contents.md`, `172-3-what-makes-a-representative-agent.md`, `182-acknowledgments.md` +16 |
 | `228-appendix-c-quick-start-architec` | 20 | `151-open-knowledge-work-foundation-md.md`, `186-appendix-c-sample-use-cases-in-detail.md`, `208-professional-colleague-agents-md.md`, `210-abstract.md` +16 |
@@ -42,10 +42,10 @@
 | Раздел | Входящих | Исходящих |
 |--------|----------|-----------|
 | **.claude** | 28 | 0 |
-| **01-svyazi** | 35 | 35 |
-| **02-anthropic-vacancies** | 3198 | 3460 |
+| **01-svyazi** | 35 | 32 |
+| **02-anthropic-vacancies** | 3197 | 3460 |
 | **03-technology-combinations** | 20 | 30 |
-| **04-ai-collaborations** | 54 | 20 |
+| **04-ai-collaborations** | 53 | 20 |
 | **05-habr-projects** | 36 | 36 |
 | **ai-collaborations** | 46 | 29 |
 | **anthropic-vacancies** | 146 | 129 |
@@ -55,11 +55,11 @@
 | **glossary** | 8 | 172 |
 | **habr-unique-projects** | 110 | 58 |
 | **lorenzo-agent** | 68 | 73 |
-| **meta-scripting** | 9 | 9 |
+| **meta-scripting** | 10 | 10 |
 | **nautilus** | 274 | 260 |
-| **obsidian** | 522 | 132 |
-| **processing-guide** | 31 | 37 |
-| **root** | 651 | 888 |
+| **obsidian** | 520 | 132 |
+| **processing-guide** | 32 | 38 |
+| **root** | 650 | 886 |
 | **scripts** | 2 | 0 |
 | **svyazi-2-0** | 148 | 65 |
 | **technology-combinations** | 132 | 96 |

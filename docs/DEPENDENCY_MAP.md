@@ -218,3 +218,14 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [README](docs/README.md)
 - [TABLES](docs/TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
+- [CHANGELOG](docs/CHANGELOG.md)
+- [TAGS](docs/TAGS.md)
+- [VERSION_DIFF](docs/VERSION_DIFF.md)
+

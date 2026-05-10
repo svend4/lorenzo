@@ -60,7 +60,7 @@
 - [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) — ---
 - [PRIORITIES.md](PRIORITIES.md) — ---
 - [PROGRESS.md](PROGRESS.md) — ---
-- [QA.md](QA.md) — ---
+- [QA.md](QA.md) — _Автоматически сгенерировано по 505 файлам раздела._
 - [QUESTIONS.md](QUESTIONS.md) — ---
 - [READING_ORDER.md](READING_ORDER.md) — ---
 - [READING_TIME.md](READING_TIME.md) — ---

@@ -47,3 +47,14 @@ _Обновлено: 2026-04-29_
 | `00-question-supply-demand.md` | 17% | 🟠 Много пассива | 1 | 0 | 1 |
 | `28-pydantic-enforced-legal-workflows.md` | 17% | 🟠 Много пассива | 0 | 1 | 0 |
 | `108-2-формальный-workflow.md` | 15% | 🟠 Много пассива | 2 | 0 | 0 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VOCABULARY](docs/VOCABULARY.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md)
+- [STATS](docs/STATS.md)
+

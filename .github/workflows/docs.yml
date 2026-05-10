@@ -1,25 +1,25 @@
-# ОТКЛЮЧЁН от автозапуска — только ручной запуск через GitHub UI или CLI
-# Причина: автоматические коммиты от бота создавали merge-конфликты
-# и засоряли историю git. Скрипты запускаются вручную или через Claude.
-#
-# Как запустить вручную:
-#   gh workflow run docs.yml
-#   или: GitHub → Actions → docs-update → Run workflow
+# Автоматически создан improve_ci_config.py
+# Обновляет метрики и индексы после push в main/master
 name: docs-update
 
 on:
-  workflow_dispatch:  # ТОЛЬКО ручной запуск
+  push:
+    branches: [main, master]
+    paths:
+      - 'docs/**'
+      - 'scripts/**'
+  workflow_dispatch:
 
 jobs:
   update-docs:
     runs-on: ubuntu-latest
     permissions:
-      contents: read  # только чтение — бот не пишет в репо
+      contents: write
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # нужен для git log в staleness/rss
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,7 +33,11 @@ jobs:
           key: ${{ runner.os }}-pip-${{ hashFiles('requirements*.txt') }}
 
       - name: Install dependencies
-        run: pip install --quiet anthropic || true
+        run: |
+          pip install --quiet anthropic || true
+
+      - name: Run fast scripts
+        run: python scripts/improve_run_all.py --fast --group reports
 
       - name: Update search index
         run: python scripts/improve_search_index.py
@@ -41,16 +45,10 @@ jobs:
       - name: Generate RSS feed
         run: python scripts/improve_rss.py
 
-      - name: Update health metrics
-        run: python scripts/improve_health.py
-
-      - name: Update stats
-        run: python scripts/improve_stats.py
-
-      - name: Show results (no commit)
+      - name: Commit updated docs
         run: |
-          echo "=== Результаты (не коммитятся) ==="
-          echo "search_index.json: $(wc -c < docs/search_index.json) байт"
-          cat docs/HEALTH.md | head -10
-          echo ""
-          echo "Чтобы зафиксировать — запустите скрипты локально и сделайте коммит вручную."
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          git diff --staged --quiet || git commit -m "docs: auto-update metrics [skip ci]"
+          git push

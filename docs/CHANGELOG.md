@@ -1,25 +1,119 @@
 # CHANGELOG
 
-<!-- summary -->
-> Статистика: ✨ feat: 18 | 🔧 chore: 14 | ⚡ improve: 14 | 🐛 fix: 5 | 📝 docs: 3
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+Всего коммитов: **158**  
+Статистика: 🔧 chore: 66 | ✨ feat: 47 | 📝 docs: 21 | ⚡ improve: 14 | 🐛 fix: 10
 
 
-
-
-Всего коммитов: **54**  
-Статистика: ✨ feat: 18 | 🔧 chore: 14 | ⚡ improve: 14 | 🐛 fix: 5 | 📝 docs: 3
-
-
-## 2026-04-29 (53 коммитов)
+## semantic (1 коммитов)
 
 ### 🔧 Обслуживание
 
+- hybrid _  E4. cm_
+
+## md (1 коммитов)
+
+### 🔧 Обслуживание
+
+- csv: bulk export _  --expo_
+
+## 2026-05-10 (11 коммитов)
+
+### 🔧 Обслуживание
+
+- update generated docs — auto-enrichment, TOC, summaries, meta-scripting _696550ff_
+  > Scripts ran during session added summaries, TOC, abstract blocks, and
+- update generated indexes and dashboards _3ac7b575_
+  > Re-run improve_health.py (84/100), improve_metrics.py (69.6/100),
+- restore: восстановить контент обеднённый ботом — preview-строки, похожие документы, footnotes _daf0d7f2_
+  > Бот заменял живые превью содержимого (первые предложения файлов) на HTML-заглушки
+- отключить автоматические коммиты бота, добавить METHODOLOGY.md _40e69e77_
+### ✨ Новые функции
+
+- card envelope library, card index CLI, fix recipe dry-run + history _95929faf_
+  > utils_card_envelope.py — 5 data contracts from PROTOTYPE_SPEC.md:
+- implement E-K roadmap items — recipe system, BM25 MCP, prototype spec, code generator _9b4e71ac_
+  > F: improve_recipe.py — 20 built-in recipes (quality-check, morning-run, full-index,
+- implement improve_self.py --batch and add REPL search script _f069f299_
+  > - improve_self.py: add --batch flag for bulk script enrichment (docstring + main block)
+- complete run_all coverage + --dry-run for all red scripts _cdb6ccce_
+  > A) improve_run_all.py:
+- document all 156 scripts, fix risk algorithm, update methodology _a5de89d7_
+  > Priority 2: Added all 85 previously undocumented scripts to CLAUDE.md
+- add --dry-run to all 4 content-modifying scripts _fe718881_
+  > improve_alerts.py, improve_footnotes.py, improve_reading_list.py,
+- метаскрипт improve_self.py + документация docs/meta-scripting/ _1a1f0520_
+  > improve_self.py — скрипт четвёртого порядка: читает другие скрипты через AST,
+
+## 2026-04-29 (141 коммитов)
+
+### 🔧 Обслуживание
+
+- Merge remote-tracking branch 'origin/main' into claude/organize-monorepo-docs-VmctA _741edf95_
+- regenerate auto-feeds after Sprint 51-53 _ba2fcac1_
+  > https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz
+- regenerate auto-feeds after Sprint 48-50 _dedfe11d_
+  > https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz
+- regenerate auto-feeds after Sprint 45-47 _74b242b5_
+  > https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz
+- regenerate auto-feeds after Sprint 42-44 _7d1a69d2_
+  > https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz
+- sync auto-generated docs after status report run _2ed1bf01_
+  > Reports, metrics, indexes and contact files updated by benchmark
+- regenerate auto-feeds after Sprint 39-41 _d445ffb3_
+- regenerate auto-feeds after Sprint 36-38 _6efb6b90_
+- regenerate auto-feeds after Sprint 33-35 _65941440_
+- regenerate confluence/obsidian REPORT exports _2b1e57d2_
+- regenerate auto-exports after Sprint 30-32 _e0233b26_
+- regenerate auto-exports after Sprint 27-29 _40f1222e_
+- regenerate SPELLCHECK.md _471565f1_
+- regenerate READABILITY.md after merge _4bdf6b83_
+- regenerate exports/indexes after merge with main _b9521c3d_
+- regenerate auto-exports after Sprint 24-26 _6421a1fc_
+- regenerate auto-exports after Sprint 21-23 _6ac59707_
+- regenerate auto-exports after Sprint 18-20 _f053125f_
+- extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737f2_
+- regenerate badges + auto-exports after Sprint 12-14 _25de4e63_
+- regenerate export artifacts (REPORT, CSV, RSS, Atom, HTML) _b471bbad_
+- ignore auto-generated exports and runtime caches _41a9c8aa_
+- regenerate VALIDATION.md after rebase _093bb8c8_
+- sync PROGRESS.md _78e6481d_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _d4d34b4a_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _2a9e9403_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- sync PROGRESS.md _fc65bef5_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Audit-driven extraction of major missing substantive content _fedc045a_
+  > After audit of source dialogs against extracted content, 12 major
 - refresh executive report _12dea45c_
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- синхронизировать сгенерированные отчёты и docs _64358a84_
+  > Обновление всех авто-генерируемых файлов после запуска
+- Extract Nautilus Portal Protocol v1.0.0-draft (earlier version) _c6592525_
+  > docs/nautilus/npp-v1-0/ (NEW, 20 files):
+- Extract Nautilus-vs-CAMEL analysis and Habr extra-examples _ee71737e_
+  > docs/anthropic-vacancies/nautilus-vs-camel/ (NEW, 7 files):
+- Extract Hermes Agent comparison and re-prioritization _7822b130_
+  > docs/anthropic-vacancies/hermes-comparison/ (NEW, 15 files):
+- sync PROGRESS.md after content scripts commit _afe64e18_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Extract AI-managed virtual company and MMORPG-for-programmers analyses _e965e1cd_
+  > docs/anthropic-vacancies/ai-managed-virtual-company/ (NEW, 12 files):
+- Extract Anthropic outreach concept, collaborator findings, reading paths _088f3f16_
+  > docs/anthropic-vacancies/beneficial-deployments-concept/ (NEW, 13 files):
+- Extract Lorenzo specification questions and phased deployment _9d9d2fee_
+  > The same anthropic-vacancies dialog contained more substantive
+- Extract Three-Phase Review Methodology and operationalized Lorenzo _047d6c06_
+  > docs/nautilus/review-methodology/ (NEW):
+- Extract Lorenzo agent prompt and 4 more DHLab papers _5a34f469_
+  > The same MHTML dialog (anthropic-vacancies) contained even more
+- sync PROGRESS.md after nlpplus scripts commit _78f4f118_
+  > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
+- Extract Nautilus Portal Protocol RFC and companion papers _cbe83e6e_
+  > The anthropic-vacancies dialog drifted into substantial Nautilus
+- Add profile-mapping, glossary, source-projects index _b552bcfc_
+  > docs/anthropic-vacancies/profile-mapping/:
 - sync CONTRADICTIONS.md (background task output) _89d3e8fb_
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 - sync CONTRADICTIONS.md after contradiction_check fix _6b81ffed_
@@ -48,6 +142,11 @@
 - Initial commit _6c49dba6_
 ### 📝 Документация
 
+- auto-update metrics [skip ci] _d4da2426_
+- add 10-part processing guide with combined master document _c4b470af_
+  > Complete guide to processing large document collections, covering:
+- auto-update metrics [skip ci] _bf2aa845_
+- auto-update via improve_run_all [skip ci] _c3a31450_
 - auto-update via improve_run_all [skip ci] _b0ed2c15_
 - auto-update via improve_run_all [skip ci] _0f740af3_
 - auto-update via improve_run_all [skip ci] _88a8480c_
@@ -55,7 +154,10 @@
 - auto-update via improve_run_all [skip ci] _0c696915_
 - auto-update via improve_run_all [skip ci] _519d41b5_
 - auto-update via improve_run_all [skip ci] _fdd84b5b_
+- auto-update metrics [skip ci] _d8c1da19_
+- auto-update metrics [skip ci] _94be1ad1_
 - auto-update via improve_run_all [skip ci] _ba78ff20_
+- auto-update via improve_run_all [skip ci] _f63f1a9f_
 - auto-update via improve_run_all [skip ci] _039a4a2a_
 - auto-update via improve_run_all [skip ci] _dfc530a0_
 - auto-update via improve_run_all [skip ci] _f73c58f7_
@@ -66,6 +168,24 @@
   > https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
 ### ✨ Новые функции
 
+- Sprint 51-53 — prompt library, webhooks, adaptive retrieval _4d415860_
+  > Sprint 51: Prompt library (`docstoolkit/prompts/`)
+- Sprint 48-50 — eval framework, conversation memory, plan-and-execute _707d1d26_
+  > Sprint 48: Eval / golden dataset (`docstoolkit/eval/`)
+- Sprint 45-47 — budget guards, model router, workflow DAG _5b15d5f6_
+  > Sprint 45: Budget tracker (`docstoolkit/budget/`)
+- Sprint 42-44 — streaming RAG, feedback loop, A/B experiments _2a7a98b3_
+  > Sprint 42: Streaming RAG (`docstoolkit/rag/streaming.py`)
+- Sprint 39-41 — auth/RBAC, vector DB plugins, OpenTelemetry _dccdd498_
+  > Sprint 39 — Authentication + RBAC
+- Sprint 36-38 — federation, event bus, multi-modal ingest _6313b6a7_
+  > Sprint 36 — Federation (NPP Nautilus Portal Protocol)
+- Sprint 33-35 — agent loop, cloud ingest, time-travel queries _be1b6b9b_
+  > Sprint 33 — Autonomous Agent loop
+- Sprint 30-32 — interactive web UI, SSE streaming, benchmark suite _965bc0d7_
+  > Sprint 30 — Interactive web UI
+- Sprint 27-29 — Multi-LLM, concept clustering, docs portal _00ff4e11_
+  > Sprint 27 — Multi-LLM providers
 - Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph _d3dd0884_
   > Sprint 24 — RAG end-to-end
 - Sprint 21-23 — embeddings cache, skill testing, release engineering _11d7bad1_
@@ -90,6 +210,8 @@
   > Новый скрипт для создания персонализированных списков чтения:
 - ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний _a8455926_
   > Новые скрипты (группа content + nlpplus):
+- run all script groups, apply TOC/abstracts/crosslinks, rebuild search index _898c42a0_
+  > - All 7 script groups pass clean (quality, analytics, deeptext, meta, textwork, reports, generate)
 - add component matrix, KPI history tracker, fix run_all coverage _69562b02_
   > - improve_component_matrix.py: 14×10 compatibility matrix (memory/search/
 - добавить 8 скриптов группы nlpplus — расширенный NLP-анализ _4bcc9739_
@@ -128,6 +250,15 @@
   > - Split 4 deep-research-report .md files into 14 focused docs in docs/01-svyazi/
 ### 🐛 Исправления
 
+- docs-check workflow — добавить deps + continue-on-error _c11825ce_
+  > Job 'check' падал на каждом push потому что:
+- regenerate catalogs (Catalog up-to-date check) _8ac2cdaa_
+- CI Catalog check — improve_auto_toc respects .docignore _d6279595_
+  > CI workflow .github/workflows/test.yml job 'Catalog up-to-date check'
+- восстановить 24 файла повреждённых GitHub Actions ботом _643d52de_
+  > Бот (improve_run_all --fast --group reports) на чистом CI-сервере
+- остановить деструктивные авто-обновления от GitHub Actions бота _ee0b767e_
+  > Проблема: бот запускал improve_run_all.py --fast --group reports на чистом
 - fix crosslink root cause (relative paths), map all 125 scripts in dependency map _ed3fa81f_
   > - Fixed improve_crosslink_all.py: links now use os.path.relpath() instead of
 - fix 8607 broken internal links, improve health score formula _52179ba5_
@@ -169,6 +300,12 @@
 - verify coverage, merge short files, add READMEs and glossary _91dd9685_
   > - verify_coverage.py: checks 97.6%→100.5% text coverage, all 26 terms found
 
+##  skip  (1 коммитов)
+
+### 🔧 Обслуживание
+
+- retry (with max_retries) _  - on_e_
+
 ##  22 скила  (1 коммитов)
 
 ### 🔧 Обслуживание
@@ -176,18 +313,14 @@
 - 9 MCP-серверов (+8) _Итого: 2_
   > 5 манифестов
 
+##  $.STEP.ou (1 коммитов)
+
+### 🔧 Обслуживание
+
+- constants _  - Inpu_
+
 ##  (1 коммитов)
 
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [CHANGELOG_AUTO](docs/CHANGELOG_AUTO.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
-

@@ -54,3 +54,14 @@ _Сгенерировано: 2026-04-29 15:06_
 - [README](docs/README.md)
 - [TABLES](docs/TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KPI_HISTORY](docs/KPI_HISTORY.md)
+- [.md](docs/autofilled/components/.md)
+- [DIGEST_AUTO](docs/DIGEST_AUTO.md)
+- [CONCEPT_GRAPH](docs/CONCEPT_GRAPH.md)
+

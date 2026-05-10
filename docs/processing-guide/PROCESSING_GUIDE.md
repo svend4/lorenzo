@@ -1,5 +1,10 @@
 # Обработка больших массивов документов — Полное руководство
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 > Всё о том, как превратить неструктурированные документы (MHTML, Markdown, PDF) в управляемую, поисковую и обогащённую базу знаний.
 > Основано на реальной практике: 9 исходных файлов → 483 структурированных документа в проекте Lorenzo.
 
@@ -2266,3 +2271,14 @@ for qa in load_json("docs/qa_cache.json"):
 ---
 
 ← **Часть 9: Автоматизация** | [Содержание](README.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-analysis](docs/processing-guide/05-analysis.md)
+- [10-future](docs/processing-guide/10-future.md)
+- [02-extraction](docs/processing-guide/02-extraction.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+

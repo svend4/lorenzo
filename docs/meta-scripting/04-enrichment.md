@@ -182,3 +182,14 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-catalog](docs/meta-scripting/03-catalog.md)
+- [02-architecture](docs/meta-scripting/02-architecture.md)
+- [05-synthesis](docs/meta-scripting/05-synthesis.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+

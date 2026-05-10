@@ -84,3 +84,14 @@
 | [08-export](08-export.md) | Экспорт: форматы, RAG-пайплайн, интеграции |
 | [09-automation](09-automation.md) | Автоматизация: оркестратор, watcher, CI/CD, MCP |
 | [10-future](10-future.md) | Инновационные и ещё не придуманные подходы |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-export](docs/processing-guide/08-export.md)
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [02-extraction](docs/processing-guide/02-extraction.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+

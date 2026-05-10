@@ -1,22 +1,21 @@
-# Валидация шаблонов
-<!-- tags: memory, ingestion, roadmap, anthropic, collaboration -->
+# Валидация структуры репозитория
 
+**Ошибок:** 0  **Предупреждений:** 49  **Пройдено:** 27
 
-**Ошибок:** 0  **Предупреждений:** 29  **Пройдено:** 27
-
-**Загружено схем:** 22
+## Сводка
 
 | Проверка | Статус | Проблем |
 |----------|--------|---------|
 | Разделы и README | ✅ | 0 |
 | Мета-файлы | ✅ | 0 |
-| Пустые/короткие файлы | ⚠️ | 9 |
+| Пустые/короткие файлы | ⚠️ | 29 |
 | Именование файлов | ✅ | 10 |
-| Заголовки H1 | ⚠️ | 11 |
+| Заголовки H1 | ⚠️ | 20 |
 | Внутренние ссылки | ✅ | 15 |
 
-**Валидно:** 14 | **С ошибками:** 0 | **Без шаблона:** 2323
+## ✅ Разделы и README
 
+_Всё в порядке_
 
 ## ✅ Мета-файлы
 
@@ -25,17 +24,34 @@ _Всё в порядке_
 ## Пустые/короткие файлы
 
 - ⚠️ Слишком короткий файл: `docs/01-svyazi/00-intro-part2.md` (6 слов)
-- ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (23 слов)
 - ⚠️ Слишком короткий файл: `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` (16 слов)
-- ⚠️ Слишком короткий файл: `docs/05-habr-projects/knowledge/README.md` (13 слов)
-- ⚠️ Слишком короткий файл: `docs/05-habr-projects/memory/README.md` (24 слов)
 - ⚠️ Слишком короткий файл: `docs/ai-collaborations/candidates/README.md` (23 слов)
 - ⚠️ Слишком короткий файл: `docs/ai-collaborations/channels/README.md` (25 слов)
-- ⚠️ Слишком короткий файл: `docs/autofilled/README.md` (18 слов)
-- ⚠️ Слишком короткий файл: `docs/obsidian/05-habr-projects/knowledge/README.md` (11 слов)
-- ⚠️ Слишком короткий файл: `docs/obsidian/05-habr-projects/memory/README.md` (19 слов)
+- ⚠️ Слишком короткий файл: `docs/glossary/README.md` (24 слов)
+- ⚠️ Слишком короткий файл: `docs/habr-unique-projects/analogues/README.md` (18 слов)
+- ⚠️ Слишком короткий файл: `docs/habr-unique-projects/evaluation/README.md` (28 слов)
+- ⚠️ Слишком короткий файл: `docs/habr-unique-projects/search-strategy/README.md` (25 слов)
+- ⚠️ Слишком короткий файл: `docs/lorenzo-agent/naming/README.md` (28 слов)
+- ⚠️ Слишком короткий файл: `docs/lorenzo-agent/scenarios/README.md` (18 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/agent-changes-reality/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/practical-observations/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/community-discussions/voiceless-contributors/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/composite-skills-agents-companion-mentors/README.md` (27 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/innovation-transitions/README.md` (16 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/multi-tier-architecture/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/supply-demand/README.md` (17 слов)
+- ⚠️ Слишком короткий файл: `docs/nautilus/transmission-box/README.md` (16 слов)
 - ⚠️ Слишком короткий файл: `docs/obsidian/autofilled/README.md` (16 слов)
 - ⚠️ Слишком короткий файл: `docs/obsidian/templates/README.md` (26 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/limitations/README.md` (22 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/outreach/README.md` (22 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/overview/README.md` (27 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/prototype/README.md` (21 слов)
+- ⚠️ Слишком короткий файл: `docs/svyazi-2-0/security/README.md` (21 слов)
+- ⚠️ Слишком короткий файл: `docs/technology-combinations/mega-stacks/README.md` (29 слов)
+- ⚠️ Слишком короткий файл: `docs/technology-combinations/research-reports/README.md` (18 слов)
 
 ## Именование файлов
 
@@ -63,6 +79,15 @@ _Всё в порядке_
 - ⚠️ Нет заголовка H1: `docs/01-svyazi/12-roadmap.md`
 - ⚠️ Нет заголовка H1: `docs/01-svyazi/13-contacts.md`
 - ⚠️ Нет заголовка H1: `docs/01-svyazi/14-limitations.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/03-component-catalog.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/04-ensembles-overview.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/06-security-privacy.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/07-mvp-planning.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/08-conclusions.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/09-architectural-gaps.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/10-second-order-ensembles.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/11-integration-contracts.md`
+- ⚠️ Нет заголовка H1: `docs/obsidian/01-svyazi/12-roadmap.md`
 
 ## Внутренние ссылки
 
@@ -84,16 +109,4 @@ _Всё в порядке_
 
 ## Итог
 
-⚠️ **29 предупреждений** — рекомендуется исправить.
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (5):**
-- [INDEX](docs/INDEX.md)
-- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
-- [README](docs/README.md)
-- [REPORT](docs/REPORT.md)
-- [TABLES](docs/TABLES.md)
-
+⚠️ **49 предупреждений** — рекомендуется исправить.

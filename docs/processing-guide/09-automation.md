@@ -1,5 +1,10 @@
 # Обработка больших массивов — Часть 9: Автоматизация
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Как сделать так, чтобы всё работало само: оркестратор, watcher, CI/CD, MCP.
 **Проекты:** AgentFS, Yodoca
@@ -264,4 +269,15 @@ Skills в `.claude/skills/` — это инструкции для Claude **ко
 - [01-overview](docs/processing-guide/01-overview.md)
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [08-export](docs/processing-guide/08-export.md)
+- [10-future](docs/processing-guide/10-future.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [03-chunking](docs/processing-guide/03-chunking.md)
 

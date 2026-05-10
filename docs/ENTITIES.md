@@ -1,78 +1,78 @@
 # Именованные сущности
 
-**Файлов просмотрено:** 1733
+**Файлов просмотрено:** 1735
 
 
 ## Люди и авторы (7)
 
 | Имя | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Lorenzo** | 3721 | 267 |
-| **svend4** | 2683 | 408 |
-| **kksudo** | 529 | 134 |
-| **spbmolot** | 481 | 127 |
-| **Андрей** | 221 | 66 |
-| **Виталий** | 95 | 44 |
+| **Lorenzo** | 3808 | 267 |
+| **svend4** | 2677 | 410 |
+| **kksudo** | 528 | 134 |
+| **spbmolot** | 478 | 127 |
+| **Андрей** | 218 | 67 |
+| **Виталий** | 96 | 45 |
 | **Антропик** | 75 | 33 |
 
 ## Проекты (22)
 
 | Проект | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Nautilus** | 9517 | 751 |
-| **Svyazi** | 7004 | 466 |
-| **Cowork** | 5034 | 341 |
-| **ingit** | 4710 | 314 |
-| **Lorenzo** | 3721 | 267 |
-| **SGB** | 2296 | 342 |
-| **AgentFS** | 1406 | 177 |
-| **Yodoca** | 1383 | 227 |
-| **CardIndex** | 1333 | 213 |
-| **NGT** | 1320 | 254 |
-| **knowledge-space** | 1019 | 162 |
-| **MemNet** | 953 | 238 |
-| **Rufler** | 687 | 134 |
-| **mclaude** | 673 | 138 |
-| **LiteParse** | 589 | 130 |
-| **SENTINEL** | 549 | 124 |
-| **AI Factory** | 495 | 119 |
-| **Wikontic** | 413 | 79 |
+| **Nautilus** | 9699 | 753 |
+| **Svyazi** | 7087 | 461 |
+| **Cowork** | 5039 | 339 |
+| **ingit** | 4709 | 311 |
+| **Lorenzo** | 3808 | 267 |
+| **SGB** | 2308 | 341 |
+| **Yodoca** | 1403 | 229 |
+| **AgentFS** | 1384 | 177 |
+| **NGT** | 1331 | 255 |
+| **CardIndex** | 1305 | 215 |
+| **knowledge-space** | 998 | 162 |
+| **MemNet** | 969 | 241 |
+| **Rufler** | 691 | 134 |
+| **mclaude** | 676 | 138 |
+| **LiteParse** | 594 | 131 |
+| **SENTINEL** | 553 | 124 |
+| **AI Factory** | 498 | 121 |
+| **Wikontic** | 419 | 80 |
 | **Firecrawl** | 222 | 33 |
-| **agent-memory-mcp** | 164 | 55 |
-| **Shield** | 69 | 19 |
+| **agent-memory-mcp** | 169 | 59 |
+| **Shield** | 67 | 19 |
 | **MCP Tool Search** | 29 | 12 |
 
 ## Организации (9)
 
 | Организация | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Anthropic** | 28783 | 1290 |
-| **Obsidian** | 5316 | 164 |
-| **Claude** | 5238 | 927 |
-| **Habr** | 3931 | 402 |
-| **GitHub** | 3419 | 429 |
-| **Хабр** | 909 | 192 |
+| **Anthropic** | 28835 | 1289 |
+| **Obsidian** | 5348 | 168 |
+| **Claude** | 5291 | 927 |
+| **Habr** | 4015 | 402 |
+| **GitHub** | 3423 | 428 |
+| **Хабр** | 912 | 192 |
 | **Google** | 152 | 63 |
 | **OpenAI** | 139 | 76 |
-| **ChatGPT** | 126 | 75 |
+| **ChatGPT** | 126 | 74 |
 
 ## Технологии и стандарты (24)
 
 | Технология | Упоминаний | Файлов |
 |---------|------------|--------|
-| **MCP** | 4343 | 523 |
-| **RAG** | 3950 | 552 |
-| **MIT** | 2967 | 533 |
-| **LLM** | 2111 | 365 |
-| **JSON** | 1173 | 224 |
-| **Python** | 1091 | 232 |
-| **REST** | 662 | 227 |
-| **YAML** | 470 | 169 |
-| **CRDT** | 380 | 89 |
-| **Rust** | 262 | 123 |
-| **BSL** | 229 | 89 |
+| **MCP** | 4375 | 526 |
+| **RAG** | 3935 | 553 |
+| **MIT** | 2987 | 533 |
+| **LLM** | 2142 | 365 |
+| **JSON** | 1179 | 223 |
+| **Python** | 1089 | 231 |
+| **REST** | 664 | 229 |
+| **YAML** | 472 | 169 |
+| **CRDT** | 386 | 90 |
+| **Rust** | 266 | 124 |
+| **BSL** | 230 | 90 |
 | **Apache** | 204 | 97 |
-| **SQLite** | 172 | 59 |
+| **SQLite** | 173 | 60 |
 | **Mermaid** | 133 | 48 |
 | **TF-IDF** | 110 | 37 |
 | **PostgreSQL** | 67 | 38 |
@@ -109,23 +109,34 @@
 
 | Пара | Общих файлов |
 |------|-------------|
-| Cowork ↔ ingit | 277 |
-| Nautilus ↔ Cowork | 244 |
-| Nautilus ↔ ingit | 219 |
-| Nautilus ↔ SGB | 216 |
-| Svyazi ↔ Yodoca | 201 |
-| Svyazi ↔ NGT | 200 |
-| Svyazi ↔ CardIndex | 187 |
-| Yodoca ↔ NGT | 186 |
+| Cowork ↔ ingit | 275 |
+| Nautilus ↔ Cowork | 243 |
+| Nautilus ↔ ingit | 218 |
+| Nautilus ↔ SGB | 215 |
+| Svyazi ↔ Yodoca | 200 |
+| Svyazi ↔ NGT | 198 |
+| Yodoca ↔ NGT | 187 |
+| Svyazi ↔ CardIndex | 183 |
 | Nautilus ↔ MemNet | 165 |
-| Svyazi ↔ AgentFS | 162 |
-| Nautilus ↔ Svyazi | 147 |
-| Cowork ↔ SGB | 147 |
-| AgentFS ↔ NGT | 147 |
-| Svyazi ↔ knowledge-space | 144 |
-| CardIndex ↔ NGT | 144 |
-| AgentFS ↔ Yodoca | 143 |
-| Svyazi ↔ Lorenzo | 142 |
-| ingit ↔ SGB | 138 |
-| AgentFS ↔ CardIndex | 136 |
-| Yodoca ↔ CardIndex | 135 |
+| Svyazi ↔ AgentFS | 157 |
+| Nautilus ↔ Svyazi | 149 |
+| AgentFS ↔ NGT | 148 |
+| Cowork ↔ SGB | 146 |
+| NGT ↔ CardIndex | 146 |
+| Yodoca ↔ AgentFS | 144 |
+| Svyazi ↔ Lorenzo | 141 |
+| Svyazi ↔ knowledge-space | 139 |
+| ingit ↔ SGB | 137 |
+| Yodoca ↔ CardIndex | 137 |
+| AgentFS ↔ CardIndex | 137 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [NETWORK](docs/NETWORK.md)
+- [GLOSSARY](docs/GLOSSARY.md)
+- [GRAPH](docs/GRAPH.md)
+- [MINDMAP](docs/MINDMAP.md)
+

@@ -289,3 +289,14 @@ python scripts/improve_version_diff.py --last 10
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [06-search](docs/processing-guide/06-search.md)
+- [10-future](docs/processing-guide/10-future.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+

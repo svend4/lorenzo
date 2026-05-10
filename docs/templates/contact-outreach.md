@@ -1,17 +1,3 @@
----
-template: contact-outreach
-version: "1.0"
-author: "[Имя]"
-author_handle: "[@handle]"
-projects: []
-platform: "[Habr|GitHub|Telegram]"
-status: not_started
-priority: 3
-created: 2026-04-29
-last_contact: null
-tags: [контакты, команда]
----
-
 # Контакт: [Имя / Проект]
 
 <!-- summary: Шаблон для связи с автором X -->
@@ -53,26 +39,4 @@ tags: [контакты, команда]
 2. [Вопрос 2]
 
 ---
-_Создано: 2026-04-29_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [vladspace](docs/obsidian/contacts/vladspace.md)
-- [cutcode](docs/obsidian/contacts/cutcode.md)
-- [dmitriila](docs/obsidian/contacts/dmitriila.md)
-- [mixaill76](docs/obsidian/contacts/mixaill76.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [REGISTRY](docs/REGISTRY.md)
-- [TASKS_INDEX](docs/TASKS_INDEX.md)
-- [research-summary](docs/autofilled/research-summary.md)
-- [README](docs/templates/README.md)
-
+_Создано: 2026-05-10_

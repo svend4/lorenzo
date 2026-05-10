@@ -1,5 +1,10 @@
 # Обработка больших массивов — Часть 2: Извлечение
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Как превратить сырые файлы (MHTML, PDF, HTML, TXT) в чистый Markdown.
 **Проекты:** Svyazi, Whisper
@@ -148,4 +153,15 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 - [01-overview](docs/processing-guide/01-overview.md)
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [03-chunking](docs/processing-guide/03-chunking.md)
+- [WORD_FREQ](docs/WORD_FREQ.md)
+- [08-export](docs/processing-guide/08-export.md)
 

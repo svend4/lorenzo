@@ -2,7 +2,7 @@
 
 _Обновлено: 2026-05-10_
 
-**Всего скриптов:** 157
+**Всего скриптов:** 158
 
 
 ## По группам
@@ -238,10 +238,11 @@ _Обновлено: 2026-05-10_
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (17)
+### без группы (18)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
+| `improve_card_index.py` | CLI для управления CardEnvelope-карточками. | `--approve`, `--build`, `--decay`, `--dry-run`, `--export`, `--fmt`, … |
 | `improve_contact_status.py` | обновляет статус контакта в docs/contacts/<slug>.md. | `--agreed`, `--author`, `--list`, `--messaged`, `--note`, `--replied`, … |
 | `improve_llm_contact.py` | генерирует персонализированное первое сообщение автору через LLM. | `--all`, `--author`, `--dry-run` |
 | `improve_llm_enrich.py` | семантическое обогащение проектных файлов через Claude API. | `--dry-run`, `--file`, `--force`, `--model`, `--section` |
@@ -368,6 +369,15 @@ _Обновлено: 2026-05-10_
 Находит ссылки на несуществующие файлы и якоря. Создаёт docs/BROKEN_LINKS.md. Новое: --fix автоматически исправляет ссылки с неправильным регистром или лишними ../.
 
 **Флаги:** `--dry-run`, `--fix`
+
+
+### `improve_card_index.py` _(группа: без группы)_
+
+**CLI для управления CardEnvelope-карточками.**
+
+Превращает docs/ в карточный индекс (CardStore) согласно PROTOTYPE_SPEC.md. Каждый .md файл → одна CardEnvelope с типом, состоянием, payload и рёбрами. Команды:
+
+**Флаги:** `--approve`, `--build`, `--decay`, `--dry-run`, `--export`, `--fmt`, `--get`, `--link`, `--rel`, `--search`, `--section`, `--stats`
 
 
 ### `improve_changelog.py` _(группа: reports)_

@@ -1,7 +1,12 @@
 # Пустые секции
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
-> Файлов с проблемами: **401** | Пустых секций: **1671**
+> Файлов с проблемами: **553** | Пустых секций: **1589**
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
@@ -11,116 +16,197 @@
 
 - [Файлы с ≥50% пустых секций (приоритет)](#файлы-с-50-пустых-секций-приоритет)
 - [Все файлы с пустыми секциями](#все-файлы-с-пустыми-секциями)
-  - [`OUTLINE.md` (511 из 1210)](#outlinemd-511-из-1210)
-  - [`CODE_BLOCKS.md` (112 из 113)](#code_blocksmd-112-из-113)
-  - [`QA.md` (109 из 109)](#qamd-109-из-109)
-  - [`SPELLCHECK.md` (28 из 29)](#spellcheckmd-28-из-29)
-  - [`NAMED_ENTITIES.md` (25 из 30)](#named_entitiesmd-25-из-30)
-  - [`QA.md` (23 из 23)](#qamd-23-из-23)
-  - [`SCRIPTS_CATALOG.md` (23 из 173)](#scripts_catalogmd-23-из-173)
+  - [`QA.md` (114 из 116)](#qamd-114-из-116)
+  - [`CODE_BLOCKS.md` (112 из 114)](#code_blocksmd-112-из-114)
+  - [`PROCESSING_GUIDE.md` (59 из 130)](#processing_guidemd-59-из-130)
+  - [`OUTLINE.md` (46 из 561)](#outlinemd-46-из-561)
+  - [`SPELLCHECK.md` (45 из 45)](#spellcheckmd-45-из-45)
+  - [`NAMED_ENTITIES.md` (25 из 31)](#named_entitiesmd-25-из-31)
+  - [`QA.md` (23 из 25)](#qamd-23-из-25)
+  - [`SCRIPTS_CATALOG.md` (22 из 178)](#scripts_catalogmd-22-из-178)
   - [`mega-stack.md` (18 из 22)](#mega-stackmd-18-из-22)
   - [`protocol-spec.md` (18 из 22)](#protocol-specmd-18-из-22)
   - [`rfc.md` (18 из 19)](#rfcmd-18-из-19)
   - [`QA.md` (17 из 17)](#qamd-17-из-17)
-  - [`TABLES.md` (16 из 449)](#tablesmd-16-из-449)
-  - [`QA.md` (15 из 15)](#qamd-15-из-15)
-  - [`QA.md` (15 из 15)](#qamd-15-из-15)
+  - [`QA.md` (17 из 17)](#qamd-17-из-17)
+  - [`QA.md` (16 из 17)](#qamd-16-из-17)
+  - [`05-analysis.md` (15 из 24)](#05-analysismd-15-из-24)
+  - [`TABLES.md` (14 из 574)](#tablesmd-14-из-574)
+  - [`342-что-такое-вариант-c-concept-document-для-anthropic.md` (13 из 125)](#342-что-такое-вариант-c-concept-document-для-anthropicmd-13-из-125)
   - [`CONSISTENCY.md` (13 из 13)](#consistencymd-13-из-13)
-  - [`QA.md` (12 из 12)](#qamd-12-из-12)
   - [`tech-pair.md` (12 из 15)](#tech-pairmd-12-из-15)
   - [`template-of-templates.md` (12 из 15)](#template-of-templatesmd-12-из-15)
-  - [`342-что-такое-вариант-c-concept-document-для-anthropic.md` (11 из 121)](#342-что-такое-вариант-c-concept-document-для-anthropicmd-11-из-121)
-  - [`QA.md` (11 из 11)](#qamd-11-из-11)
-  - [`FAQ.md` (11 из 32)](#faqmd-11-из-32)
-  - [`RISK_REGISTER.md` (11 из 16)](#risk_registermd-11-из-16)
+  - [`RISK_REGISTER.md` (11 из 18)](#risk_registermd-11-из-18)
   - [`experiment-log.md` (11 из 13)](#experiment-logmd-11-из-13)
-  - [`GITHUB_ISSUES.md` (9 из 37)](#github_issuesmd-9-из-37)
+  - [`QA.md` (10 из 11)](#qamd-10-из-11)
+  - [`02-общий-план-развития-nautilus-portal-protocol.md` (9 из 36)](#02-общий-план-развития-nautilus-portal-protocolmd-9-из-36)
+  - [`365-развёрнутый-анализ-внуковой-комбинации.md` (9 из 65)](#365-развёрнутый-анализ-внуковой-комбинацииmd-9-из-65)
+  - [`FAQ.md` (9 из 30)](#faqmd-9-из-30)
+  - [`GITHUB_ISSUES.md` (9 из 38)](#github_issuesmd-9-из-38)
   - [`QA.md` (9 из 9)](#qamd-9-из-9)
   - [`01-response-en.md` (9 из 98)](#01-response-enmd-9-из-98)
-  - [`02-общий-план-развития-nautilus-portal-protocol.md` (7 из 32)](#02-общий-план-развития-nautilus-portal-protocolmd-7-из-32)
-  - [`365-развёрнутый-анализ-внуковой-комбинации.md` (7 из 61)](#365-развёрнутый-анализ-внуковой-комбинацииmd-7-из-61)
-  - [`CHANGELOG.md` (7 из 12)](#changelogmd-7-из-12)
+  - [`QA.md` (8 из 10)](#qamd-8-из-10)
+  - [`343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (7 из 60)](#343-lorenzo-catalyst-agent-глубокая-проработка-специфиmd-7-из-60)
+  - [`METHODOLOGY.md` (7 из 15)](#methodologymd-7-из-15)
+  - [`04-enrichment.md` (7 из 10)](#04-enrichmentmd-7-из-10)
   - [`22-glossary.md` (7 из 13)](#22-glossarymd-7-из-13)
   - [`legal-case.md` (7 из 13)](#legal-casemd-7-из-13)
   - [`meeting-notes.md` (7 из 10)](#meeting-notesmd-7-из-10)
   - [`prototype-mvp.md` (7 из 16)](#prototype-mvpmd-7-из-16)
   - [`risk-entry.md` (7 из 10)](#risk-entrymd-7-из-10)
   - [`weekly-digest.md` (7 из 10)](#weekly-digestmd-7-из-10)
-  - [`INDEX.md` (6 из 12)](#indexmd-6-из-12)
-  - [`SCHEDULE.md` (6 из 8)](#schedulemd-6-из-8)
+  - [`341-приложение-c-образец-спецификаций-инструментов-ing.md` (6 из 34)](#341-приложение-c-образец-спецификаций-инструментов-ingmd-6-из-34)
+  - [`INDEX.md` (6 из 14)](#indexmd-6-из-14)
+  - [`PROTOTYPE_SPEC.md` (6 из 19)](#prototype_specmd-6-из-19)
+  - [`SCHEDULE.md` (6 из 9)](#schedulemd-6-из-9)
+  - [`research-summary.md` (6 из 9)](#research-summarymd-6-из-9)
+  - [`10-future.md` (6 из 17)](#10-futuremd-6-из-17)
   - [`faq-entry.md` (6 из 7)](#faq-entrymd-6-из-7)
   - [`glossary-entry.md` (6 из 7)](#glossary-entrymd-6-из-7)
   - [`tech-radar-entry.md` (6 из 10)](#tech-radar-entrymd-6-из-10)
-  - [`343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (5 из 56)](#343-lorenzo-catalyst-agent-глубокая-проработка-специфиmd-5-из-56)
+  - [`01-интегральный-анализ-профиля-svend4.md` (5 из 96)](#01-интегральный-анализ-профиля-svend4md-5-из-96)
+  - [`09-4-passport-passport-md.md` (5 из 11)](#09-4-passport-passport-mdmd-5-из-11)
+  - [`127-подключение-к-claude-desktop.md` (5 из 10)](#127-подключение-к-claude-desktopmd-5-из-10)
+  - [`02-architecture.md` (5 из 11)](#02-architecturemd-5-из-11)
+  - [`07-llm.md` (5 из 14)](#07-llmmd-5-из-14)
+  - [`08-export.md` (5 из 13)](#08-exportmd-5-из-13)
   - [`contradiction-record.md` (5 из 8)](#contradiction-recordmd-5-из-8)
-  - [`ensemble.md` (5 из 6)](#ensemblemd-5-из-6)
-  - [`research-note.md` (5 из 5)](#research-notemd-5-из-5)
-  - [`09-4-passport-passport-md.md` (4 из 7)](#09-4-passport-passport-mdmd-4-из-7)
-  - [`127-подключение-к-claude-desktop.md` (4 из 6)](#127-подключение-к-claude-desktopmd-4-из-6)
+  - [`00-intro.md` (4 из 58)](#00-intromd-4-из-58)
+  - [`133-обратная-связь.md` (4 из 25)](#133-обратная-связьmd-4-из-25)
+  - [`18-6-adapter-interface.md` (4 из 11)](#18-6-adapter-interfacemd-4-из-11)
+  - [`234-3-эмпирический-кейс-обучай.md` (4 из 14)](#234-3-эмпирический-кейс-обучайmd-4-из-14)
   - [`28-appendix-a-minimal-working-example.md` (4 из 5)](#28-appendix-a-minimal-working-examplemd-4-из-5)
-  - [`341-приложение-c-образец-спецификаций-инструментов-ing.md` (4 из 30)](#341-приложение-c-образец-спецификаций-инструментов-ingmd-4-из-30)
+  - [`320-references.md` (4 из 10)](#320-referencesmd-4-из-10)
+  - [`338-ссылки.md` (4 из 10)](#338-ссылкиmd-4-из-10)
+  - [`364-final-note-ты-experiment.md` (4 из 22)](#364-final-note-ты-experimentmd-4-из-22)
+  - [`67-о-проекте.md` (4 из 17)](#67-о-проектеmd-4-из-17)
+  - [`72-расписание-фазы-3.md` (4 из 10)](#72-расписание-фазы-3md-4-из-10)
   - [`98-appendix-a-minimal-working-example.md` (4 из 6)](#98-appendix-a-minimal-working-examplemd-4-из-6)
+  - [`05-benchmarks.md` (4 из 13)](#05-benchmarksmd-4-из-13)
+  - [`CHANGELOG.md` (4 из 10)](#changelogmd-4-из-10)
   - [`CONCEPTS.md` (4 из 55)](#conceptsmd-4-из-55)
-  - [`HEALTH.md` (4 из 6)](#healthmd-4-из-6)
-  - [`PRIORITIES.md` (4 из 80)](#prioritiesmd-4-из-80)
-  - [`research-summary.md` (4 из 5)](#research-summarymd-4-из-5)
   - [`16-appendix-a-minimal-working-example.md` (4 из 5)](#16-appendix-a-minimal-working-examplemd-4-из-5)
-  - [`decision-record.md` (4 из 5)](#decision-recordmd-4-из-5)
+  - [`ensemble.md` (4 из 6)](#ensemblemd-4-из-6)
   - [`kpi-snapshot.md` (4 из 6)](#kpi-snapshotmd-4-из-6)
+  - [`research-note.md` (4 из 5)](#research-notemd-4-из-5)
   - [`retrospective.md` (4 из 7)](#retrospectivemd-4-из-7)
-  - [`01-интегральный-анализ-профиля-svend4.md` (3 из 92)](#01-интегральный-анализ-профиля-svend4md-3-из-92)
+  - [`104-appendix-c-references.md` (3 из 15)](#104-appendix-c-referencesmd-3-из-15)
+  - [`109-3-принципы-консолидации-фаза-c.md` (3 из 14)](#109-3-принципы-консолидации-фаза-cmd-3-из-14)
+  - [`124-конфигурация-для-claude-desktop.md` (3 из 5)](#124-конфигурация-для-claude-desktopmd-3-из-5)
   - [`126-установка.md` (3 из 5)](#126-установкаmd-3-из-5)
-  - [`18-6-adapter-interface.md` (3 из 6)](#18-6-adapter-interfacemd-3-из-6)
-  - [`320-references.md` (3 из 6)](#320-referencesmd-3-из-6)
-  - [`338-ссылки.md` (3 из 6)](#338-ссылкиmd-3-из-6)
-  - [`67-о-проекте.md` (3 из 13)](#67-о-проектеmd-3-из-13)
-  - [`81-6-adapter-interface.md` (3 из 6)](#81-6-adapter-interfacemd-3-из-6)
+  - [`150-appendix-c-version-history.md` (3 из 38)](#150-appendix-c-version-historymd-3-из-38)
+  - [`170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (3 из 10)](#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-3-из-10)
+  - [`186-appendix-c-sample-use-cases-in-detail.md` (3 из 22)](#186-appendix-c-sample-use-cases-in-detailmd-3-из-22)
+  - [`206-приложение-b-матрица-сравнения-областей.md` (3 из 5)](#206-приложение-b-матрица-сравнения-областейmd-3-из-5)
+  - [`239-8-пилотное-предложение-sgb-колega-адвокат.md` (3 из 14)](#239-8-пилотное-предложение-sgb-колega-адвокатmd-3-из-14)
+  - [`24-12-versioning-policy.md` (3 из 9)](#24-12-versioning-policymd-3-из-9)
+  - [`293-почему-это-не-было-построено.md` (3 из 5)](#293-почему-это-не-было-построеноmd-3-из-5)
+  - [`81-6-adapter-interface.md` (3 из 7)](#81-6-adapter-interfacemd-3-из-7)
   - [`84-9-consensus-algorithm.md` (3 из 7)](#84-9-consensus-algorithmmd-3-из-7)
-  - [`READING_ORDER.md` (3 из 4)](#reading_ordermd-3-из-4)
+  - [`90-15-security-considerations.md` (3 из 12)](#90-15-security-considerationsmd-3-из-12)
+  - [`HEALTH.md` (3 из 6)](#healthmd-3-из-6)
+  - [`READING_ORDER.md` (3 из 5)](#reading_ordermd-3-из-5)
   - [`SCORING.md` (3 из 8)](#scoringmd-3-из-8)
-  - [`VALIDATION.md` (3 из 8)](#validationmd-3-из-8)
+  - [`03-catalog.md` (3 из 5)](#03-catalogmd-3-из-5)
+  - [`05-synthesis.md` (3 из 8)](#05-synthesismd-3-из-8)
   - [`06-adapter-interface.md` (3 из 5)](#06-adapter-interfacemd-3-из-5)
   - [`15-glossary.md` (3 из 5)](#15-glossarymd-3-из-5)
   - [`06-adapter-interface.md` (3 из 5)](#06-adapter-interfacemd-3-из-5)
   - [`09-consensus-algorithm.md` (3 из 6)](#09-consensus-algorithmmd-3-из-6)
+  - [`03-chunking.md` (3 из 12)](#03-chunkingmd-3-из-12)
+  - [`06-search.md` (3 из 11)](#06-searchmd-3-из-11)
+  - [`09-automation.md` (3 из 11)](#09-automationmd-3-из-11)
+  - [`decision-record.md` (3 из 5)](#decision-recordmd-3-из-5)
   - [`project-component.md` (3 из 5)](#project-componentmd-3-из-5)
-  - [`08-3-registry-nautilus-json.md` (2 из 7)](#08-3-registry-nautilus-jsonmd-2-из-7)
-  - [`104-appendix-c-references.md` (2 из 11)](#104-appendix-c-referencesmd-2-из-11)
-  - [`108-2-формальный-workflow.md` (2 из 6)](#108-2-формальный-workflowmd-2-из-6)
-  - [`133-обратная-связь.md` (2 из 21)](#133-обратная-связьmd-2-из-21)
-  - [`150-appendix-c-version-history.md` (2 из 34)](#150-appendix-c-version-historymd-2-из-34)
-  - [`186-appendix-c-sample-use-cases-in-detail.md` (2 из 18)](#186-appendix-c-sample-use-cases-in-detailmd-2-из-18)
-  - [`24-12-versioning-policy.md` (2 из 5)](#24-12-versioning-policymd-2-из-5)
-  - [`364-final-note-ты-experiment.md` (2 из 18)](#364-final-note-ты-experimentmd-2-из-18)
+  - [`03-portal-protocol-md.md` (2 из 5)](#03-portal-protocol-mdmd-2-из-5)
+  - [`08-3-registry-nautilus-json.md` (2 из 8)](#08-3-registry-nautilus-jsonmd-2-из-8)
+  - [`103-appendix-b-change-log.md` (2 из 8)](#103-appendix-b-change-logmd-2-из-8)
+  - [`105-review-methodology-md.md` (2 из 5)](#105-review-methodology-mdmd-2-из-5)
+  - [`106-tl-dr.md` (2 из 5)](#106-tl-drmd-2-из-5)
+  - [`108-2-формальный-workflow.md` (2 из 7)](#108-2-формальный-workflowmd-2-из-7)
+  - [`125-readme-mcp-md-инструкция-по-установке.md` (2 из 5)](#125-readme-mcp-md-инструкция-по-установкеmd-2-из-5)
+  - [`130-отладка.md` (2 из 9)](#130-отладкаmd-2-из-9)
+  - [`134-the-double-triangle-architecture-md.md` (2 из 5)](#134-the-double-triangle-architecture-mdmd-2-из-5)
+  - [`142-5-pattern-library-as-bridge-between-triangles.md` (2 из 11)](#142-5-pattern-library-as-bridge-between-trianglesmd-2-из-11)
+  - [`151-open-knowledge-work-foundation-md.md` (2 из 5)](#151-open-knowledge-work-foundation-mdmd-2-из-5)
+  - [`155-1-problem-statement.md` (2 из 9)](#155-1-problem-statementmd-2-из-9)
+  - [`156-2-target-populations.md` (2 из 11)](#156-2-target-populationsmd-2-из-11)
+  - [`157-3-why-existing-solutions-fail.md` (2 из 14)](#157-3-why-existing-solutions-failmd-2-из-14)
+  - [`161-7-phased-rollout-plan.md` (2 из 11)](#161-7-phased-rollout-planmd-2-из-11)
+  - [`162-8-risk-analysis.md` (2 из 12)](#162-8-risk-analysismd-2-из-12)
+  - [`164-10-appendices.md` (2 из 12)](#164-10-appendicesmd-2-из-12)
+  - [`165-closing.md` (2 из 37)](#165-closingmd-2-из-37)
+  - [`166-representative-agent-layer-md.md` (2 из 5)](#166-representative-agent-layer-mdmd-2-из-5)
+  - [`171-2-historical-precedents-agents-as-civilizational-i.md` (2 из 13)](#171-2-historical-precedents-agents-as-civilizational-imd-2-из-13)
+  - [`172-3-what-makes-a-representative-agent.md` (2 из 10)](#172-3-what-makes-a-representative-agentmd-2-из-10)
+  - [`174-5-architectural-specification.md` (2 из 10)](#174-5-architectural-specificationmd-2-из-10)
+  - [`187-слой-представительских-агентов-md.md` (2 из 5)](#187-слой-представительских-агентов-mdmd-2-из-5)
+  - [`193-3-что-делает-агента-представительским.md` (2 из 10)](#193-3-что-делает-агента-представительскимmd-2-из-10)
+  - [`203-благодарности.md` (2 из 4)](#203-благодарностиmd-2-из-4)
+  - [`207-приложение-c-образцы-случаев-использования-в-детал.md` (2 из 18)](#207-приложение-c-образцы-случаев-использования-в-деталmd-2-из-18)
+  - [`208-professional-colleague-agents-md.md` (2 из 5)](#208-professional-colleague-agents-mdmd-2-из-5)
+  - [`21-9-query-flow.md` (2 из 9)](#21-9-query-flowmd-2-из-9)
+  - [`213-2-what-makes-a-professional-colleague-agent.md` (2 из 10)](#213-2-what-makes-a-professional-colleague-agentmd-2-из-10)
+  - [`214-3-empirical-case-study-обучай.md` (2 из 14)](#214-3-empirical-case-study-обучайmd-2-из-14)
+  - [`215-4-architecture-of-professional-colleague-agents.md` (2 из 11)](#215-4-architecture-of-professional-colleague-agentsmd-2-из-11)
+  - [`22-10-queryresult-structure.md` (2 из 6)](#22-10-queryresult-structuremd-2-из-6)
+  - [`224-acknowledgments.md` (2 из 5)](#224-acknowledgmentsmd-2-из-5)
+  - [`228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (2 из 17)](#228-appendix-c-quick-start-architecture-for-sgb-advocamd-2-из-17)
+  - [`229-профессиональные-коллеги-агенты.md` (2 из 6)](#229-профессиональные-коллеги-агентыmd-2-из-6)
+  - [`23-11-security-considerations.md` (2 из 10)](#23-11-security-considerationsmd-2-из-10)
+  - [`230-аннотация.md` (2 из 5)](#230-аннотацияmd-2-из-5)
+  - [`233-2-что-делает-агента-профессиональным-коллегой.md` (2 из 10)](#233-2-что-делает-агента-профессиональным-коллегойmd-2-из-10)
+  - [`236-5-экономика-тиражирования-по-профессии.md` (2 из 11)](#236-5-экономика-тиражирования-по-профессииmd-2-из-11)
+  - [`249-composite-skills-agent-md.md` (2 из 5)](#249-composite-skills-agent-mdmd-2-из-5)
+  - [`254-1-why-the-binary-view-is-incomplete.md` (2 из 10)](#254-1-why-the-binary-view-is-incompletemd-2-из-10)
+  - [`256-3-what-makes-a-composite-skills-agent.md` (2 из 11)](#256-3-what-makes-a-composite-skills-agentmd-2-из-11)
+  - [`259-6-coordination-and-disagreement-resolution.md` (2 из 11)](#259-6-coordination-and-disagreement-resolutionmd-2-из-11)
+  - [`272-appendix-d-connection-diagram.md` (2 из 29)](#272-appendix-d-connection-diagrammd-2-из-29)
+  - [`273-infrastructure-for-ai-collaborative-intellectual-w.md` (2 из 5)](#273-infrastructure-for-ai-collaborative-intellectual-wmd-2-из-5)
+  - [`288-appendix-position-in-series-visualization.md` (2 из 14)](#288-appendix-position-in-series-visualizationmd-2-из-14)
+  - [`289-инфраструктура-для-ai-совместной-интеллектуальной-.md` (2 из 7)](#289-инфраструктура-для-ai-совместной-интеллектуальной-md-2-из-7)
+  - [`296-рекурсивное-прозрение.md` (2 из 5)](#296-рекурсивное-прозрениеmd-2-из-5)
+  - [`304-ingit-as-cowork-native-workspace-substrate-md.md` (2 из 5)](#304-ingit-as-cowork-native-workspace-substrate-mdmd-2-из-5)
+  - [`323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (2 из 19)](#323-appendix-c-sample-ingit-mcp-server-tool-specificatmd-2-из-19)
+  - [`324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (2 из 6)](#324-ingit-как-cowork-интегрированная-подложка-рабочегоmd-2-из-6)
+  - [`329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (2 из 16)](#329-3-что-ingit-обеспечивает-чего-cowork-не-хватаетmd-2-из-16)
+  - [`344-системный-промпт-для-lorenzo-project.md` (2 из 5)](#344-системный-промпт-для-lorenzo-projectmd-2-из-5)
+  - [`35-passports-info1-md.md` (2 из 5)](#35-passports-info1-mdmd-2-из-5)
+  - [`356-твой-workflow.md` (2 из 5)](#356-твой-workflowmd-2-из-5)
+  - [`366-технический-stack-svyazi-2-0-foundation.md` (2 из 7)](#366-технический-stack-svyazi-2-0-foundationmd-2-из-7)
+  - [`45-passports-pro2-md.md` (2 из 5)](#45-passports-pro2-mdmd-2-из-5)
+  - [`55-passports-meta-md.md` (2 из 5)](#55-passports-meta-mdmd-2-из-5)
+  - [`65-readme-md.md` (2 из 6)](#65-readme-mdmd-2-из-6)
   - [`68-about.md` (2 из 14)](#68-aboutmd-2-из-14)
+  - [`71-критерии-выбора-для-фазы-3.md` (2 из 5)](#71-критерии-выбора-для-фазы-3md-2-из-5)
+  - [`73-portal-protocol-md-v1-1.md` (2 из 5)](#73-portal-protocol-md-v1-1md-2-из-5)
   - [`78-3-registry-nautilus-json.md` (2 из 9)](#78-3-registry-nautilus-jsonmd-2-из-9)
   - [`79-4-passport-passport-md.md` (2 из 7)](#79-4-passport-passport-mdmd-2-из-7)
-  - [`83-8-q6-space-normative.md` (2 из 7)](#83-8-q6-space-normativemd-2-из-7)
+  - [`83-8-q6-space-normative.md` (2 из 8)](#83-8-q6-space-normativemd-2-из-8)
   - [`86-11-relevance-ranking.md` (2 из 4)](#86-11-relevance-rankingmd-2-из-4)
   - [`89-14-sdk-contract-informative.md` (2 из 5)](#89-14-sdk-contract-informativemd-2-из-5)
-  - [`05-benchmarks.md` (2 из 9)](#05-benchmarksmd-2-из-9)
-  - [`CONTACTS.md` (2 из 4)](#contactsmd-2-из-4)
+  - [`CHANGELOG_AUTO.md` (2 из 7)](#changelog_automd-2-из-7)
   - [`CONTACT_PRIORITY.md` (2 из 4)](#contact_prioritymd-2-из-4)
   - [`COVERAGE.md` (2 из 4)](#coveragemd-2-из-4)
+  - [`DUPLICATES.md` (2 из 12)](#duplicatesmd-2-из-12)
   - [`MINDMAP.md` (2 из 3)](#mindmapmd-2-из-3)
   - [`ONBOARDING.md` (2 из 9)](#onboardingmd-2-из-9)
   - [`ORPHANS.md` (2 из 4)](#orphansmd-2-из-4)
-  - [`PROGRESS.md` (2 из 5)](#progressmd-2-из-5)
-  - [`REPORT.md` (2 из 11)](#reportmd-2-из-11)
+  - [`PRIORITIES.md` (2 из 83)](#prioritiesmd-2-из-83)
   - [`SIMILAR.md` (2 из 8)](#similarmd-2-из-8)
   - [`TASKS_INDEX.md` (2 из 20)](#tasks_indexmd-2-из-20)
-  - [`README.md` (2 из 2)](#readmemd-2-из-2)
-  - [`.md` (2 из 2)](#md-2-из-2)
-  - [`cowork.md` (2 из 2)](#coworkmd-2-из-2)
-  - [`ingit.md` (2 из 2)](#ingitmd-2-из-2)
-  - [`kksudo.md` (2 из 2)](#kksudomd-2-из-2)
-  - [`lorenzo.md` (2 из 2)](#lorenzomd-2-из-2)
-  - [`nautilus.md` (2 из 2)](#nautilusmd-2-из-2)
-  - [`sgb.md` (2 из 2)](#sgbmd-2-из-2)
-  - [`spbmolot.md` (2 из 2)](#spbmolotmd-2-из-2)
-  - [`svend4.md` (2 из 2)](#svend4md-2-из-2)
-  - [`svyazi.md` (2 из 2)](#svyazimd-2-из-2)
+  - [`.md` (2 из 4)](#md-2-из-4)
+  - [`cowork.md` (2 из 5)](#coworkmd-2-из-5)
+  - [`ingit.md` (2 из 5)](#ingitmd-2-из-5)
+  - [`kksudo.md` (2 из 5)](#kksudomd-2-из-5)
+  - [`lorenzo.md` (2 из 5)](#lorenzomd-2-из-5)
+  - [`nautilus.md` (2 из 5)](#nautilusmd-2-из-5)
+  - [`sgb.md` (2 из 5)](#sgbmd-2-из-5)
+  - [`spbmolot.md` (2 из 5)](#spbmolotmd-2-из-5)
+  - [`svend4.md` (2 из 5)](#svend4md-2-из-5)
+  - [`svyazi.md` (2 из 5)](#svyazimd-2-из-5)
   - [`components-by-name.md` (2 из 22)](#components-by-namemd-2-из-22)
+  - [`01-concept.md` (2 из 5)](#01-conceptmd-2-из-5)
   - [`13-closing.md` (2 из 6)](#13-closingmd-2-из-6)
   - [`03-registry.md` (2 из 6)](#03-registrymd-2-из-6)
   - [`12-versioning-policy.md` (2 из 4)](#12-versioning-policymd-2-из-4)
@@ -133,15 +219,13 @@
   - [`12-closing.md` (2 из 17)](#12-closingmd-2-из-17)
   - [`12-zaklyuchenie.md` (2 из 16)](#12-zaklyucheniemd-2-из-16)
   - [`02-formal-workflow.md` (2 из 5)](#02-formal-workflowmd-2-из-5)
+  - [`04-structuring.md` (2 из 11)](#04-structuringmd-2-из-11)
   - [`continuation-10-domains.md` (2 из 7)](#continuation-10-domainsmd-2-из-7)
-  - [`contact-outreach.md` (2 из 4)](#contact-outreachmd-2-из-4)
-  - [`00-intro.md` (1 из 54)](#00-intromd-1-из-54)
-  - [`03-portal-protocol-md.md` (1 из 1)](#03-portal-protocol-mdmd-1-из-1)
+  - [`13-contacts.md` (1 из 6)](#13-contactsmd-1-из-6)
+  - [`04-abstract.md` (1 из 5)](#04-abstractmd-1-из-5)
+  - [`05-0-status-of-this-document.md` (1 из 5)](#05-0-status-of-this-documentmd-1-из-5)
   - [`06-1-introduction.md` (1 из 6)](#06-1-introductionmd-1-из-6)
-  - [`103-appendix-b-change-log.md` (1 из 4)](#103-appendix-b-change-logmd-1-из-4)
-  - [`105-review-methodology-md.md` (1 из 1)](#105-review-methodology-mdmd-1-из-1)
   - [`107-1-контекст-и-мотивация.md` (1 из 5)](#107-1-контекст-и-мотивацияmd-1-из-5)
-  - [`109-3-принципы-консолидации-фаза-c.md` (1 из 9)](#109-3-принципы-консолидации-фаза-cmd-1-из-9)
   - [`111-4-условия-применимости.md` (1 из 5)](#111-4-условия-применимостиmd-1-из-5)
   - [`112-5-связь-с-существующими-методологиями.md` (1 из 7)](#112-5-связь-с-существующими-методологиямиmd-1-из-7)
   - [`114-7-реализация-в-проекте-nautilus.md` (1 из 5)](#114-7-реализация-в-проекте-nautilusmd-1-из-5)
@@ -149,130 +233,200 @@
   - [`116-9-checklist-применения-методологии.md` (1 из 6)](#116-9-checklist-применения-методологииmd-1-из-6)
   - [`117-10-конкретный-план-применения-к-текущим-документам.md` (1 из 4)](#117-10-конкретный-план-применения-к-текущим-документамmd-1-из-4)
   - [`119-appendix-b-примеры-расхождений-и-их-разрешения.md` (1 из 5)](#119-appendix-b-примеры-расхождений-и-их-разрешенияmd-1-из-5)
-  - [`121-appendix-c-история-изменений-методологии.md` (1 из 2)](#121-appendix-c-история-изменений-методологииmd-1-из-2)
-  - [`125-readme-mcp-md-инструкция-по-установке.md` (1 из 1)](#125-readme-mcp-md-инструкция-по-установкеmd-1-из-1)
-  - [`130-отладка.md` (1 из 5)](#130-отладкаmd-1-из-5)
-  - [`134-the-double-triangle-architecture-md.md` (1 из 1)](#134-the-double-triangle-architecture-mdmd-1-из-1)
+  - [`12-content-overview.md` (1 из 5)](#12-content-overviewmd-1-из-5)
+  - [`121-appendix-c-история-изменений-методологии.md` (1 из 5)](#121-appendix-c-история-изменений-методологииmd-1-из-5)
+  - [`122-глоссарий.md` (1 из 18)](#122-глоссарийmd-1-из-18)
+  - [`123-portal-mcp-py.md` (1 из 6)](#123-portal-mcp-pymd-1-из-6)
+  - [`128-доступные-инструменты.md` (1 из 5)](#128-доступные-инструментыmd-1-из-5)
+  - [`129-примеры-запросов-в-claude.md` (1 из 5)](#129-примеры-запросов-в-claudemd-1-из-5)
+  - [`13-angle-perspective.md` (1 из 5)](#13-angle-perspectivemd-1-из-5)
+  - [`131-ограничения-текущей-версии-0-1-0-draft.md` (1 из 5)](#131-ограничения-текущей-версии-0-1-0-draftmd-1-из-5)
+  - [`132-planned-v0-2-0.md` (1 из 5)](#132-planned-v0-2-0md-1-из-5)
+  - [`135-a-formal-model-for-human-ai-collaboration-in-distr.md` (1 из 5)](#135-a-formal-model-for-human-ai-collaboration-in-distrmd-1-из-5)
+  - [`136-abstract.md` (1 из 6)](#136-abstractmd-1-из-6)
+  - [`137-table-of-contents.md` (1 из 5)](#137-table-of-contentsmd-1-из-5)
   - [`138-1-why-single-triangle-models-are-incomplete.md` (1 из 6)](#138-1-why-single-triangle-models-are-incompletemd-1-из-6)
   - [`139-2-the-double-triangle-architecture.md` (1 из 6)](#139-2-the-double-triangle-architecturemd-1-из-6)
-  - [`142-5-pattern-library-as-bridge-between-triangles.md` (1 из 7)](#142-5-pattern-library-as-bridge-between-trianglesmd-1-из-7)
+  - [`140-3-three-inter-layer-protocols.md` (1 из 10)](#140-3-three-inter-layer-protocolsmd-1-из-10)
+  - [`141-4-nautilus-portal-as-reference-substrate.md` (1 из 9)](#141-4-nautilus-portal-as-reference-substratemd-1-из-9)
+  - [`143-6-four-deployment-domains.md` (1 из 10)](#143-6-four-deployment-domainsmd-1-из-10)
+  - [`144-7-open-questions.md` (1 из 12)](#144-7-open-questionsmd-1-из-12)
+  - [`145-8-call-to-action.md` (1 из 11)](#145-8-call-to-actionmd-1-из-11)
+  - [`146-acknowledgments.md` (1 из 5)](#146-acknowledgmentsmd-1-из-5)
   - [`147-references.md` (1 из 9)](#147-referencesmd-1-из-9)
-  - [`151-open-knowledge-work-foundation-md.md` (1 из 1)](#151-open-knowledge-work-foundation-mdmd-1-из-1)
-  - [`155-1-problem-statement.md` (1 из 5)](#155-1-problem-statementmd-1-из-5)
-  - [`156-2-target-populations.md` (1 из 7)](#156-2-target-populationsmd-1-из-7)
-  - [`157-3-why-existing-solutions-fail.md` (1 из 10)](#157-3-why-existing-solutions-failmd-1-из-10)
+  - [`148-appendix-a-glossary.md` (1 из 5)](#148-appendix-a-glossarymd-1-из-5)
+  - [`149-appendix-b-summary-of-contributions.md` (1 из 6)](#149-appendix-b-summary-of-contributionsmd-1-из-6)
+  - [`152-ai-coordinated-infrastructure-for-distributed-expe.md` (1 из 5)](#152-ai-coordinated-infrastructure-for-distributed-expemd-1-из-5)
+  - [`153-executive-summary.md` (1 из 6)](#153-executive-summarymd-1-из-6)
+  - [`154-table-of-contents.md` (1 из 5)](#154-table-of-contentsmd-1-из-5)
   - [`159-5-economic-model.md` (1 из 8)](#159-5-economic-modelmd-1-из-8)
+  - [`16-history.md` (1 из 5)](#16-historymd-1-из-5)
   - [`160-6-governance-and-ethics.md` (1 из 8)](#160-6-governance-and-ethicsmd-1-из-8)
-  - [`161-7-phased-rollout-plan.md` (1 из 7)](#161-7-phased-rollout-planmd-1-из-7)
-  - [`162-8-risk-analysis.md` (1 из 9)](#162-8-risk-analysismd-1-из-9)
-  - [`164-10-appendices.md` (1 из 8)](#164-10-appendicesmd-1-из-8)
-  - [`166-representative-agent-layer-md.md` (1 из 1)](#166-representative-agent-layer-mdmd-1-из-1)
-  - [`170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (1 из 6)](#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-1-из-6)
-  - [`172-3-what-makes-a-representative-agent.md` (1 из 6)](#172-3-what-makes-a-representative-agentmd-1-из-6)
-  - [`174-5-architectural-specification.md` (1 из 6)](#174-5-architectural-specificationmd-1-из-6)
-  - [`176-7-governance-and-oversight.md` (1 из 7)](#176-7-governance-and-oversightmd-1-из-7)
+  - [`167-ai-mediated-representation-for-underrepresented-ex.md` (1 из 5)](#167-ai-mediated-representation-for-underrepresented-exmd-1-из-5)
+  - [`168-abstract.md` (1 из 6)](#168-abstractmd-1-из-6)
+  - [`169-table-of-contents.md` (1 из 5)](#169-table-of-contentsmd-1-из-5)
+  - [`176-7-governance-and-oversight.md` (1 из 8)](#176-7-governance-and-oversightmd-1-из-8)
   - [`177-8-risks-and-mitigations.md` (1 из 11)](#177-8-risks-and-mitigationsmd-1-из-11)
   - [`178-9-phased-rollout-strategy.md` (1 из 9)](#178-9-phased-rollout-strategymd-1-из-9)
-  - [`179-10-open-questions.md` (1 из 7)](#179-10-open-questionsmd-1-из-7)
+  - [`179-10-open-questions.md` (1 из 8)](#179-10-open-questionsmd-1-из-8)
+  - [`181-12-closing.md` (1 из 5)](#181-12-closingmd-1-из-5)
+  - [`182-acknowledgments.md` (1 из 5)](#182-acknowledgmentsmd-1-из-5)
   - [`183-references.md` (1 из 7)](#183-referencesmd-1-из-7)
-  - [`187-слой-представительских-агентов-md.md` (1 из 1)](#187-слой-представительских-агентов-mdmd-1-из-1)
+  - [`184-appendix-a-connection-to-companion-papers.md` (1 из 5)](#184-appendix-a-connection-to-companion-papersmd-1-из-5)
   - [`19-7-portalentry-structure.md` (1 из 2)](#19-7-portalentry-structuremd-1-из-2)
+  - [`190-содержание.md` (1 из 5)](#190-содержаниеmd-1-из-5)
   - [`191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (1 из 6)](#191-1-синдром-золушки-почему-качество-остаётся-невидимmd-1-из-6)
-  - [`193-3-что-делает-агента-представительским.md` (1 из 6)](#193-3-что-делает-агента-представительскимmd-1-из-6)
+  - [`192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (1 из 11)](#192-2-исторические-прецеденты-агенты-как-цивилизационнmd-1-из-11)
   - [`195-5-архитектурная-спецификация.md` (1 из 6)](#195-5-архитектурная-спецификацияmd-1-из-6)
   - [`197-7-управление-и-надзор.md` (1 из 7)](#197-7-управление-и-надзорmd-1-из-7)
   - [`198-8-риски-и-меры-противодействия.md` (1 из 11)](#198-8-риски-и-меры-противодействияmd-1-из-11)
   - [`199-9-стратегия-поэтапного-развёртывания.md` (1 из 9)](#199-9-стратегия-поэтапного-развёртыванияmd-1-из-9)
   - [`20-8-consensus-algorithm.md` (1 из 7)](#20-8-consensus-algorithmmd-1-из-7)
   - [`200-10-открытые-вопросы.md` (1 из 7)](#200-10-открытые-вопросыmd-1-из-7)
+  - [`202-12-заключение.md` (1 из 3)](#202-12-заключениеmd-1-из-3)
   - [`204-ссылки.md` (1 из 7)](#204-ссылкиmd-1-из-7)
-  - [`207-приложение-c-образцы-случаев-использования-в-детал.md` (1 из 14)](#207-приложение-c-образцы-случаев-использования-в-деталmd-1-из-14)
-  - [`208-professional-colleague-agents-md.md` (1 из 1)](#208-professional-colleague-agents-mdmd-1-из-1)
-  - [`21-9-query-flow.md` (1 из 5)](#21-9-query-flowmd-1-из-5)
-  - [`213-2-what-makes-a-professional-colleague-agent.md` (1 из 6)](#213-2-what-makes-a-professional-colleague-agentmd-1-из-6)
-  - [`214-3-empirical-case-study-обучай.md` (1 из 10)](#214-3-empirical-case-study-обучайmd-1-из-10)
-  - [`215-4-architecture-of-professional-colleague-agents.md` (1 из 7)](#215-4-architecture-of-professional-colleague-agentsmd-1-из-7)
-  - [`22-10-queryresult-structure.md` (1 из 2)](#22-10-queryresult-structuremd-1-из-2)
-  - [`221-10-open-questions.md` (1 из 10)](#221-10-open-questionsmd-1-из-10)
+  - [`209-a-typology-of-ai-agents-on-the-principal-side-and-.md` (1 из 5)](#209-a-typology-of-ai-agents-on-the-principal-side-and-md-1-из-5)
+  - [`210-abstract.md` (1 из 6)](#210-abstractmd-1-из-6)
+  - [`211-table-of-contents.md` (1 из 5)](#211-table-of-contentsmd-1-из-5)
+  - [`212-1-the-five-type-typology-of-principal-side-agents.md` (1 из 13)](#212-1-the-five-type-typology-of-principal-side-agentsmd-1-из-13)
+  - [`216-5-the-economics-of-profession-wide-replication.md` (1 из 11)](#216-5-the-economics-of-profession-wide-replicationmd-1-из-11)
+  - [`217-6-risks-specific-to-this-category.md` (1 из 13)](#217-6-risks-specific-to-this-categorymd-1-из-13)
+  - [`218-7-application-domains.md` (1 из 14)](#218-7-application-domainsmd-1-из-14)
+  - [`219-8-pilot-proposal-sgb-advocate-colleague.md` (1 из 14)](#219-8-pilot-proposal-sgb-advocate-colleaguemd-1-из-14)
+  - [`220-9-relationship-to-other-agent-types.md` (1 из 11)](#220-9-relationship-to-other-agent-typesmd-1-из-11)
+  - [`221-10-open-questions.md` (1 из 11)](#221-10-open-questionsmd-1-из-11)
   - [`222-11-call-for-collaboration.md` (1 из 9)](#222-11-call-for-collaborationmd-1-из-9)
+  - [`223-12-closing.md` (1 из 6)](#223-12-closingmd-1-из-6)
   - [`225-references.md` (1 из 8)](#225-referencesmd-1-из-8)
-  - [`228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (1 из 12)](#228-appendix-c-quick-start-architecture-for-sgb-advocamd-1-из-12)
-  - [`229-профессиональные-коллеги-агенты.md` (1 из 2)](#229-профессиональные-коллеги-агентыmd-1-из-2)
-  - [`23-11-security-considerations.md` (1 из 5)](#23-11-security-considerationsmd-1-из-5)
-  - [`233-2-что-делает-агента-профессиональным-коллегой.md` (1 из 6)](#233-2-что-делает-агента-профессиональным-коллегойmd-1-из-6)
-  - [`234-3-эмпирический-кейс-обучай.md` (1 из 10)](#234-3-эмпирический-кейс-обучайmd-1-из-10)
+  - [`227-appendix-b-decision-framework-when-to-build-type-1.md` (1 из 5)](#227-appendix-b-decision-framework-when-to-build-type-1md-1-из-5)
+  - [`231-содержание.md` (1 из 5)](#231-содержаниеmd-1-из-5)
+  - [`232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` (1 из 13)](#232-1-типология-из-пяти-типов-агентов-на-стороне-принцmd-1-из-13)
   - [`235-4-архитектура-профессиональных-коллег-агентов.md` (1 из 7)](#235-4-архитектура-профессиональных-коллег-агентовmd-1-из-7)
   - [`241-10-открытые-вопросы.md` (1 из 10)](#241-10-открытые-вопросыmd-1-из-10)
   - [`242-11-призыв-к-сотрудничеству.md` (1 из 9)](#242-11-призыв-к-сотрудничествуmd-1-из-9)
+  - [`243-12-заключение.md` (1 из 6)](#243-12-заключениеmd-1-из-6)
+  - [`244-благодарности.md` (1 из 5)](#244-благодарностиmd-1-из-5)
   - [`245-ссылки.md` (1 из 8)](#245-ссылкиmd-1-из-8)
-  - [`249-composite-skills-agent-md.md` (1 из 1)](#249-composite-skills-agent-mdmd-1-из-1)
+  - [`248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (1 из 23)](#248-приложение-c-архитектура-быстрого-старта-для-sgb-аmd-1-из-23)
+  - [`25-13-reference-implementation.md` (1 из 5)](#25-13-reference-implementationmd-1-из-5)
   - [`250-bridging-the-gap-between-profession-wide-and-indiv.md` (1 из 1)](#250-bridging-the-gap-between-profession-wide-and-indivmd-1-из-1)
-  - [`254-1-why-the-binary-view-is-incomplete.md` (1 из 6)](#254-1-why-the-binary-view-is-incompletemd-1-из-6)
-  - [`256-3-what-makes-a-composite-skills-agent.md` (1 из 7)](#256-3-what-makes-a-composite-skills-agentmd-1-из-7)
-  - [`259-6-coordination-and-disagreement-resolution.md` (1 из 7)](#259-6-coordination-and-disagreement-resolutionmd-1-из-7)
+  - [`251-ai-support-through-configurable-specialist-ensembl.md` (1 из 5)](#251-ai-support-through-configurable-specialist-ensemblmd-1-из-5)
+  - [`252-abstract.md` (1 из 6)](#252-abstractmd-1-из-6)
+  - [`253-table-of-contents.md` (1 из 5)](#253-table-of-contentsmd-1-из-5)
+  - [`255-2-the-twenty-one-teachers-pattern.md` (1 из 10)](#255-2-the-twenty-one-teachers-patternmd-1-из-10)
+  - [`257-4-the-sub-agent-registry.md` (1 из 11)](#257-4-the-sub-agent-registrymd-1-из-11)
+  - [`258-5-configuration-how-principals-build-their-ensembl.md` (1 из 11)](#258-5-configuration-how-principals-build-their-ensemblmd-1-из-11)
+  - [`26-14-adr-001-federation-over-merging.md` (1 из 5)](#26-14-adr-001-federation-over-mergingmd-1-из-5)
+  - [`260-7-economics-of-combinatorial-replication.md` (1 из 11)](#260-7-economics-of-combinatorial-replicationmd-1-из-11)
+  - [`261-8-seven-domains-of-application.md` (1 из 14)](#261-8-seven-domains-of-applicationmd-1-из-14)
+  - [`263-10-risks-specific-to-composite-architectures.md` (1 из 14)](#263-10-risks-specific-to-composite-architecturesmd-1-из-14)
   - [`264-11-open-questions.md` (1 из 11)](#264-11-open-questionsmd-1-из-11)
-  - [`265-12-call-for-collaboration.md` (1 из 8)](#265-12-call-for-collaborationmd-1-из-8)
-  - [`268-references.md` (1 из 7)](#268-referencesmd-1-из-7)
-  - [`272-appendix-d-connection-diagram.md` (1 из 25)](#272-appendix-d-connection-diagrammd-1-из-25)
-  - [`273-infrastructure-for-ai-collaborative-intellectual-w.md` (1 из 1)](#273-infrastructure-for-ai-collaborative-intellectual-wmd-1-из-1)
-  - [`288-appendix-position-in-series-visualization.md` (1 из 9)](#288-appendix-position-in-series-visualizationmd-1-из-9)
-  - [`289-инфраструктура-для-ai-совместной-интеллектуальной-.md` (1 из 3)](#289-инфраструктура-для-ai-совместной-интеллектуальной-md-1-из-3)
-  - [`304-ingit-as-cowork-native-workspace-substrate-md.md` (1 из 1)](#304-ingit-as-cowork-native-workspace-substrate-mdmd-1-из-1)
+  - [`265-12-call-for-collaboration.md` (1 из 9)](#265-12-call-for-collaborationmd-1-из-9)
+  - [`266-13-closing.md` (1 из 6)](#266-13-closingmd-1-из-6)
+  - [`267-acknowledgments.md` (1 из 5)](#267-acknowledgmentsmd-1-из-5)
+  - [`268-references.md` (1 из 8)](#268-referencesmd-1-из-8)
+  - [`269-appendix-a-the-six-type-taxonomy-updated.md` (1 из 5)](#269-appendix-a-the-six-type-taxonomy-updatedmd-1-из-5)
+  - [`274-the-missing-middle-layer-between-chat-and-code.md` (1 из 5)](#274-the-missing-middle-layer-between-chat-and-codemd-1-из-5)
+  - [`275-why-this-document-exists.md` (1 из 6)](#275-why-this-document-existsmd-1-из-6)
+  - [`276-the-two-layer-stack-as-it-exists.md` (1 из 6)](#276-the-two-layer-stack-as-it-existsmd-1-из-6)
+  - [`277-what-s-missing-layer-b.md` (1 из 6)](#277-what-s-missing-layer-bmd-1-из-6)
+  - [`278-why-this-hasn-t-been-built.md` (1 из 6)](#278-why-this-hasn-t-been-builtmd-1-из-6)
+  - [`280-the-specific-case-in-front-of-us.md` (1 из 9)](#280-the-specific-case-in-front-of-usmd-1-из-9)
+  - [`281-the-recursive-insight.md` (1 из 6)](#281-the-recursive-insightmd-1-из-6)
+  - [`282-what-industry-will-likely-build.md` (1 из 5)](#282-what-industry-will-likely-buildmd-1-из-5)
+  - [`283-what-this-document-doesn-t-solve.md` (1 из 5)](#283-what-this-document-doesn-t-solvemd-1-из-5)
+  - [`284-practical-recommendations-for-the-current-project.md` (1 из 6)](#284-practical-recommendations-for-the-current-projectmd-1-из-6)
+  - [`285-closing.md` (1 из 5)](#285-closingmd-1-из-5)
+  - [`286-acknowledgments.md` (1 из 5)](#286-acknowledgmentsmd-1-из-5)
+  - [`291-двухслойный-стек-как-он-существует.md` (1 из 5)](#291-двухслойный-стек-как-он-существуетmd-1-из-5)
+  - [`292-что-отсутствует-слой-b.md` (1 из 6)](#292-что-отсутствует-слой-bmd-1-из-6)
+  - [`299-практические-рекомендации-для-текущего-проекта.md` (1 из 6)](#299-практические-рекомендации-для-текущего-проектаmd-1-из-6)
+  - [`301-благодарности.md` (1 из 5)](#301-благодарностиmd-1-из-5)
+  - [`303-приложение-визуализация-позиции-в-серии.md` (1 из 16)](#303-приложение-визуализация-позиции-в-серииmd-1-из-16)
+  - [`305-a-practical-path-to-layer-b-through-symbiotic-inte.md` (1 из 5)](#305-a-practical-path-to-layer-b-through-symbiotic-intemd-1-из-5)
+  - [`306-with-anthropic-s-cowork-platform.md` (1 из 5)](#306-with-anthropic-s-cowork-platformmd-1-из-5)
+  - [`307-abstract.md` (1 из 6)](#307-abstractmd-1-из-6)
+  - [`308-table-of-contents.md` (1 из 5)](#308-table-of-contentsmd-1-из-5)
   - [`309-1-the-cowork-discovery-and-why-it-changes-everythi.md` (1 из 5)](#309-1-the-cowork-discovery-and-why-it-changes-everythimd-1-из-5)
+  - [`31-content-overview.md` (1 из 5)](#31-content-overviewmd-1-из-5)
   - [`311-3-what-ingit-provides-that-cowork-lacks.md` (1 из 11)](#311-3-what-ingit-provides-that-cowork-lacksmd-1-из-11)
   - [`312-4-the-symbiotic-architecture.md` (1 из 8)](#312-4-the-symbiotic-architecturemd-1-из-8)
   - [`313-5-four-integration-paths-in-order-of-accessibility.md` (1 из 7)](#313-5-four-integration-paths-in-order-of-accessibilitymd-1-из-7)
-  - [`315-7-practical-first-steps-this-month.md` (1 из 6)](#315-7-practical-first-steps-this-monthmd-1-из-6)
+  - [`315-7-practical-first-steps-this-month.md` (1 из 7)](#315-7-practical-first-steps-this-monthmd-1-из-7)
   - [`316-8-implications-for-nautilus-and-okwf.md` (1 из 8)](#316-8-implications-for-nautilus-and-okwfmd-1-из-8)
   - [`317-9-risks-and-open-questions.md` (1 из 9)](#317-9-risks-and-open-questionsmd-1-из-9)
   - [`318-10-strategic-positioning.md` (1 из 8)](#318-10-strategic-positioningmd-1-из-8)
-  - [`323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (1 из 14)](#323-appendix-c-sample-ingit-mcp-server-tool-specificatmd-1-из-14)
-  - [`324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (1 из 2)](#324-ingit-как-cowork-интегрированная-подложка-рабочегоmd-1-из-2)
+  - [`319-acknowledgments.md` (1 из 7)](#319-acknowledgmentsmd-1-из-7)
+  - [`321-appendix-a-decision-tree-for-ingit-adopters.md` (1 из 5)](#321-appendix-a-decision-tree-for-ingit-adoptersmd-1-из-5)
+  - [`326-содержание.md` (1 из 5)](#326-содержаниеmd-1-из-5)
   - [`327-1-открытие-cowork-и-почему-это-меняет-всё.md` (1 из 5)](#327-1-открытие-cowork-и-почему-это-меняет-всёmd-1-из-5)
-  - [`329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (1 из 12)](#329-3-что-ingit-обеспечивает-чего-cowork-не-хватаетmd-1-из-12)
   - [`330-4-симбиотическая-архитектура.md` (1 из 8)](#330-4-симбиотическая-архитектураmd-1-из-8)
   - [`331-5-четыре-пути-интеграции-в-порядке-доступности.md` (1 из 7)](#331-5-четыре-пути-интеграции-в-порядке-доступностиmd-1-из-7)
   - [`333-7-практические-первые-шаги-в-этом-месяце.md` (1 из 6)](#333-7-практические-первые-шаги-в-этом-месяцеmd-1-из-6)
   - [`335-9-риски-и-открытые-вопросы.md` (1 из 9)](#335-9-риски-и-открытые-вопросыmd-1-из-9)
   - [`336-10-стратегическое-позиционирование.md` (1 из 8)](#336-10-стратегическое-позиционированиеmd-1-из-8)
-  - [`344-системный-промпт-для-lorenzo-project.md` (1 из 1)](#344-системный-промпт-для-lorenzo-projectmd-1-из-1)
-  - [`35-passports-info1-md.md` (1 из 1)](#35-passports-info1-mdmd-1-из-1)
+  - [`34-appendix-b-change-log.md` (1 из 9)](#34-appendix-b-change-logmd-1-из-9)
+  - [`351-что-ты-можешь-делать.md` (1 из 5)](#351-что-ты-можешь-делатьmd-1-из-5)
+  - [`353-что-ты-не-можешь-делать-вообще.md` (1 из 5)](#353-что-ты-не-можешь-делать-вообщеmd-1-из-5)
+  - [`355-существующие-документы-dhlab-твой-context.md` (1 из 5)](#355-существующие-документы-dhlab-твой-contextmd-1-из-5)
+  - [`358-твоя-relationship-с-другими-ai.md` (1 из 5)](#358-твоя-relationship-с-другими-aimd-1-из-5)
+  - [`37-native-format.md` (1 из 5)](#37-native-formatmd-1-из-5)
+  - [`39-angle-perspective.md` (1 из 5)](#39-angle-perspectivemd-1-из-5)
   - [`40-bridges.md` (1 из 5)](#40-bridgesmd-1-из-5)
-  - [`45-passports-pro2-md.md` (1 из 1)](#45-passports-pro2-mdmd-1-из-1)
+  - [`41-compatibility-level.md` (1 из 5)](#41-compatibility-levelmd-1-из-5)
+  - [`42-author-contact.md` (1 из 5)](#42-author-contactmd-1-из-5)
+  - [`44-for-the-curious-philosophy.md` (1 из 6)](#44-for-the-curious-philosophymd-1-из-6)
+  - [`47-native-format.md` (1 из 5)](#47-native-formatmd-1-из-5)
+  - [`49-angle-perspective.md` (1 из 5)](#49-angle-perspectivemd-1-из-5)
   - [`50-bridges.md` (1 из 4)](#50-bridgesmd-1-из-4)
-  - [`55-passports-meta-md.md` (1 из 1)](#55-passports-meta-mdmd-1-из-1)
+  - [`51-compatibility-level.md` (1 из 5)](#51-compatibility-levelmd-1-из-5)
+  - [`52-author-contact.md` (1 из 5)](#52-author-contactmd-1-из-5)
+  - [`53-history.md` (1 из 5)](#53-historymd-1-из-5)
+  - [`54-for-the-curious-philosophy.md` (1 из 6)](#54-for-the-curious-philosophymd-1-из-6)
+  - [`57-native-format.md` (1 из 5)](#57-native-formatmd-1-из-5)
+  - [`59-angle-perspective.md` (1 из 5)](#59-angle-perspectivemd-1-из-5)
   - [`60-bridges.md` (1 из 4)](#60-bridgesmd-1-из-4)
-  - [`65-readme-md.md` (1 из 2)](#65-readme-mdmd-1-из-2)
-  - [`72-расписание-фазы-3.md` (1 из 6)](#72-расписание-фазы-3md-1-из-6)
-  - [`73-portal-protocol-md-v1-1.md` (1 из 1)](#73-portal-protocol-md-v1-1md-1-из-1)
-  - [`76-1-introduction.md` (1 из 7)](#76-1-introductionmd-1-из-7)
+  - [`61-compatibility-level.md` (1 из 5)](#61-compatibility-levelmd-1-из-5)
+  - [`62-author-contact.md` (1 из 5)](#62-author-contactmd-1-из-5)
+  - [`63-history.md` (1 из 5)](#63-historymd-1-из-5)
+  - [`64-for-the-curious-philosophy.md` (1 из 7)](#64-for-the-curious-philosophymd-1-из-7)
+  - [`70-зачем-две-версии-параллельно.md` (1 из 5)](#70-зачем-две-версии-параллельноmd-1-из-5)
+  - [`74-abstract.md` (1 из 5)](#74-abstractmd-1-из-5)
+  - [`75-0-status-of-this-document.md` (1 из 5)](#75-0-status-of-this-documentmd-1-из-5)
+  - [`76-1-introduction.md` (1 из 8)](#76-1-introductionmd-1-из-8)
   - [`80-5-compatibility-levels.md` (1 из 6)](#80-5-compatibility-levelsmd-1-из-6)
   - [`82-7-portalentry-structure.md` (1 из 4)](#82-7-portalentry-structuremd-1-из-4)
   - [`85-10-query-flow.md` (1 из 6)](#85-10-query-flowmd-1-из-6)
   - [`88-13-rest-api-contract-normative-for-portals.md` (1 из 9)](#88-13-rest-api-contract-normative-for-portalsmd-1-из-9)
-  - [`90-15-security-considerations.md` (1 из 7)](#90-15-security-considerationsmd-1-из-7)
+  - [`91-16-mcp-extension-informative.md` (1 из 5)](#91-16-mcp-extension-informativemd-1-из-5)
   - [`92-17-versioning-policy.md` (1 из 6)](#92-17-versioning-policymd-1-из-6)
-  - [`README.md` (1 из 2)](#readmemd-1-из-2)
-  - [`README.md` (1 из 1)](#readmemd-1-из-1)
-  - [`ALERTS.md` (1 из 1)](#alertsmd-1-из-1)
+  - [`93-18-reference-implementation.md` (1 из 6)](#93-18-reference-implementationmd-1-из-6)
+  - [`94-19-adr-001-federation-over-merging.md` (1 из 5)](#94-19-adr-001-federation-over-mergingmd-1-из-5)
+  - [`95-20-adr-002-q6-as-first-class-protocol-concept.md` (1 из 5)](#95-20-adr-002-q6-as-first-class-protocol-conceptmd-1-из-5)
+  - [`01-agent-routing.md` (1 из 4)](#01-agent-routingmd-1-из-4)
+  - [`03-local-first.md` (1 из 7)](#03-local-firstmd-1-из-7)
+  - [`01-synthesis.md` (1 из 6)](#01-synthesismd-1-из-6)
+  - [`wikontic.md` (1 из 5)](#wikonticmd-1-из-5)
+  - [`yodoca.md` (1 из 5)](#yodocamd-1-из-5)
   - [`BADGES.md` (1 из 2)](#badgesmd-1-из-2)
-  - [`CHANGELOG_AUTO.md` (1 из 3)](#changelog_automd-1-из-3)
-  - [`CITATION_INDEX.md` (1 из 13)](#citation_indexmd-1-из-13)
+  - [`CITATION_INDEX.md` (1 из 18)](#citation_indexmd-1-из-18)
   - [`COMPARE.md` (1 из 3)](#comparemd-1-из-3)
   - [`CONCEPT_GRAPH.md` (1 из 2)](#concept_graphmd-1-из-2)
-  - [`CONTENT_GAPS.md` (1 из 22)](#content_gapsmd-1-из-22)
+  - [`CONTACTS.md` (1 из 5)](#contactsmd-1-из-5)
+  - [`CONTENT_GAPS.md` (1 из 29)](#content_gapsmd-1-из-29)
   - [`CROSS_SECTION.md` (1 из 5)](#cross_sectionmd-1-из-5)
   - [`DENSITY.md` (1 из 3)](#densitymd-1-из-3)
   - [`DEPENDABOT.md` (1 из 3)](#dependabotmd-1-из-3)
-  - [`DIGEST_WEEKLY.md` (1 из 2)](#digest_weeklymd-1-из-2)
-  - [`DUPLICATES.md` (1 из 31)](#duplicatesmd-1-из-31)
-  - [`GRAPH.md` (1 из 2)](#graphmd-1-из-2)
+  - [`KNOWLEDGE_MAP.md` (1 из 8)](#knowledge_mapmd-1-из-8)
   - [`MISSING.md` (1 из 2)](#missingmd-1-из-2)
+  - [`PROGRESS.md` (1 из 5)](#progressmd-1-из-5)
   - [`READING_LIST.md` (1 из 3)](#reading_listmd-1-из-3)
   - [`REGISTRY.md` (1 из 9)](#registrymd-1-из-9)
   - [`STALENESS.md` (1 из 3)](#stalenessmd-1-из-3)
-  - [`TECH_RADAR.md` (1 из 7)](#tech_radarmd-1-из-7)
-  - [`WORD_FREQ.md` (1 из 21)](#word_freqmd-1-из-21)
+  - [`TECH_RADAR.md` (1 из 9)](#tech_radarmd-1-из-9)
+  - [`VALIDATION.md` (1 из 6)](#validationmd-1-из-6)
+  - [`WORD_FREQ.md` (1 из 24)](#word_freqmd-1-из-24)
+  - [`README.md` (1 из 2)](#readmemd-1-из-2)
   - [`README.md` (1 из 2)](#readmemd-1-из-2)
   - [`README.md` (1 из 2)](#readmemd-1-из-2)
   - [`anastasiyaw.md` (1 из 5)](#anastasiyawmd-1-из-5)
@@ -383,6 +537,8 @@
   - [`15-appendix-c-history.md` (1 из 2)](#15-appendix-c-historymd-1-из-2)
   - [`README.md` (1 из 1)](#readmemd-1-из-1)
   - [`README.md` (1 из 1)](#readmemd-1-из-1)
+  - [`01-overview.md` (1 из 4)](#01-overviewmd-1-из-4)
+  - [`02-extraction.md` (1 из 10)](#02-extractionmd-1-из-10)
   - [`agentfs.md` (1 из 2)](#agentfsmd-1-из-2)
   - [`ai-factory.md` (1 из 2)](#ai-factorymd-1-из-2)
   - [`autoresearch-sequential.md` (1 из 2)](#autoresearch-sequentialmd-1-из-2)
@@ -412,6 +568,7 @@
   - [`README.md` (1 из 1)](#readmemd-1-из-1)
   - [`README.md` (1 из 2)](#readmemd-1-из-2)
   - [`agent-spec.md` (1 из 11)](#agent-specmd-1-из-11)
+  - [`contact-outreach.md` (1 из 4)](#contact-outreachmd-1-из-4)
 
 ---
 
@@ -420,9 +577,9 @@
 
 
 
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-10_
 
-Файлов с проблемами: **401** | Пустых секций: **1671**
+Файлов с проблемами: **553** | Пустых секций: **1589**
 
 > Пустая секция — заголовок с менее чем 15 слов содержимого.
 
@@ -431,44 +588,11 @@ _Обновлено: 2026-04-29_
 
 | Файл | Пустых | Всего | % |
 |------|--------|-------|---|
-| `QA.md` | 15 | 15 | 100% |
-| `03-portal-protocol-md.md` | 1 | 1 | 100% |
-| `105-review-methodology-md.md` | 1 | 1 | 100% |
-| `125-readme-mcp-md-инструкция-по-установке.md` | 1 | 1 | 100% |
-| `134-the-double-triangle-architecture-md.md` | 1 | 1 | 100% |
-| `151-open-knowledge-work-foundation-md.md` | 1 | 1 | 100% |
-| `166-representative-agent-layer-md.md` | 1 | 1 | 100% |
-| `187-слой-представительских-агентов-md.md` | 1 | 1 | 100% |
-| `208-professional-colleague-agents-md.md` | 1 | 1 | 100% |
-| `249-composite-skills-agent-md.md` | 1 | 1 | 100% |
 | `250-bridging-the-gap-between-profession-wide-and-indiv.md` | 1 | 1 | 100% |
-| `273-infrastructure-for-ai-collaborative-intellectual-w.md` | 1 | 1 | 100% |
-| `304-ingit-as-cowork-native-workspace-substrate-md.md` | 1 | 1 | 100% |
-| `344-системный-промпт-для-lorenzo-project.md` | 1 | 1 | 100% |
-| `35-passports-info1-md.md` | 1 | 1 | 100% |
-| `45-passports-pro2-md.md` | 1 | 1 | 100% |
-| `55-passports-meta-md.md` | 1 | 1 | 100% |
-| `73-portal-protocol-md-v1-1.md` | 1 | 1 | 100% |
-| `QA.md` | 23 | 23 | 100% |
-| `QA.md` | 12 | 12 | 100% |
-| `QA.md` | 15 | 15 | 100% |
-| `QA.md` | 11 | 11 | 100% |
-| `README.md` | 1 | 1 | 100% |
-| `ALERTS.md` | 1 | 1 | 100% |
+| `QA.md` | 17 | 17 | 100% |
 | `CONSISTENCY.md` | 13 | 13 | 100% |
-| `QA.md` | 109 | 109 | 100% |
+| `SPELLCHECK.md` | 45 | 45 | 100% |
 | `QA.md` | 9 | 9 | 100% |
-| `README.md` | 2 | 2 | 100% |
-| `.md` | 2 | 2 | 100% |
-| `cowork.md` | 2 | 2 | 100% |
-| `ingit.md` | 2 | 2 | 100% |
-| `kksudo.md` | 2 | 2 | 100% |
-| `lorenzo.md` | 2 | 2 | 100% |
-| `nautilus.md` | 2 | 2 | 100% |
-| `sgb.md` | 2 | 2 | 100% |
-| `spbmolot.md` | 2 | 2 | 100% |
-| `svend4.md` | 2 | 2 | 100% |
-| `svyazi.md` | 2 | 2 | 100% |
 | `README.md` | 1 | 1 | 100% |
 | `QA.md` | 17 | 17 | 100% |
 | `README.md` | 1 | 1 | 100% |
@@ -483,70 +607,67 @@ _Обновлено: 2026-04-29_
 | `README.md` | 1 | 1 | 100% |
 | `README.md` | 1 | 1 | 100% |
 | `README.md` | 1 | 1 | 100% |
-| `research-note.md` | 5 | 5 | 100% |
-| `CODE_BLOCKS.md` | 112 | 113 | 99% |
-| `SPELLCHECK.md` | 28 | 29 | 97% |
+| `CODE_BLOCKS.md` | 112 | 114 | 98% |
+| `QA.md` | 114 | 116 | 98% |
 | `rfc.md` | 18 | 19 | 95% |
+| `QA.md` | 16 | 17 | 94% |
+| `QA.md` | 23 | 25 | 92% |
+| `QA.md` | 10 | 11 | 91% |
 | `faq-entry.md` | 6 | 7 | 86% |
 | `glossary-entry.md` | 6 | 7 | 86% |
 | `experiment-log.md` | 11 | 13 | 85% |
-| `NAMED_ENTITIES.md` | 25 | 30 | 83% |
-| `ensemble.md` | 5 | 6 | 83% |
 | `mega-stack.md` | 18 | 22 | 82% |
 | `protocol-spec.md` | 18 | 22 | 82% |
+| `NAMED_ENTITIES.md` | 25 | 31 | 81% |
 | `28-appendix-a-minimal-working-example.md` | 4 | 5 | 80% |
-| `research-summary.md` | 4 | 5 | 80% |
+| `QA.md` | 8 | 10 | 80% |
 | `16-appendix-a-minimal-working-example.md` | 4 | 5 | 80% |
-| `decision-record.md` | 4 | 5 | 80% |
+| `research-note.md` | 4 | 5 | 80% |
 | `tech-pair.md` | 12 | 15 | 80% |
 | `template-of-templates.md` | 12 | 15 | 80% |
-| `READING_ORDER.md` | 3 | 4 | 75% |
-| `SCHEDULE.md` | 6 | 8 | 75% |
+| `04-enrichment.md` | 7 | 10 | 70% |
 | `meeting-notes.md` | 7 | 10 | 70% |
 | `risk-entry.md` | 7 | 10 | 70% |
 | `weekly-digest.md` | 7 | 10 | 70% |
-| `RISK_REGISTER.md` | 11 | 16 | 69% |
-| `127-подключение-к-claude-desktop.md` | 4 | 6 | 67% |
 | `98-appendix-a-minimal-working-example.md` | 4 | 6 | 67% |
-| `HEALTH.md` | 4 | 6 | 67% |
 | `MINDMAP.md` | 2 | 3 | 67% |
+| `SCHEDULE.md` | 6 | 9 | 67% |
+| `research-summary.md` | 6 | 9 | 67% |
 | `11-relevance-ranking.md` | 2 | 3 | 67% |
+| `ensemble.md` | 4 | 6 | 67% |
 | `kpi-snapshot.md` | 4 | 6 | 67% |
+| `05-analysis.md` | 15 | 24 | 62% |
 | `contradiction-record.md` | 5 | 8 | 62% |
+| `RISK_REGISTER.md` | 11 | 18 | 61% |
+| `124-конфигурация-для-claude-desktop.md` | 3 | 5 | 60% |
 | `126-установка.md` | 3 | 5 | 60% |
+| `206-приложение-b-матрица-сравнения-областей.md` | 3 | 5 | 60% |
+| `293-почему-это-не-было-построено.md` | 3 | 5 | 60% |
+| `READING_ORDER.md` | 3 | 5 | 60% |
+| `03-catalog.md` | 3 | 5 | 60% |
 | `06-adapter-interface.md` | 3 | 5 | 60% |
 | `15-glossary.md` | 3 | 5 | 60% |
 | `06-adapter-interface.md` | 3 | 5 | 60% |
+| `decision-record.md` | 3 | 5 | 60% |
 | `project-component.md` | 3 | 5 | 60% |
 | `tech-radar-entry.md` | 6 | 10 | 60% |
-| `CHANGELOG.md` | 7 | 12 | 58% |
-| `09-4-passport-passport-md.md` | 4 | 7 | 57% |
 | `retrospective.md` | 4 | 7 | 57% |
 | `22-glossary.md` | 7 | 13 | 54% |
 | `legal-case.md` | 7 | 13 | 54% |
-| `121-appendix-c-история-изменений-методологии.md` | 1 | 2 | 50% |
-| `18-6-adapter-interface.md` | 3 | 6 | 50% |
+| `127-подключение-к-claude-desktop.md` | 5 | 10 | 50% |
 | `19-7-portalentry-structure.md` | 1 | 2 | 50% |
-| `22-10-queryresult-structure.md` | 1 | 2 | 50% |
-| `229-профессиональные-коллеги-агенты.md` | 1 | 2 | 50% |
-| `320-references.md` | 3 | 6 | 50% |
-| `324-ingit-как-cowork-интегрированная-подложка-рабочего.md` | 1 | 2 | 50% |
-| `338-ссылки.md` | 3 | 6 | 50% |
-| `65-readme-md.md` | 1 | 2 | 50% |
-| `81-6-adapter-interface.md` | 3 | 6 | 50% |
+| `203-благодарности.md` | 2 | 4 | 50% |
 | `86-11-relevance-ranking.md` | 2 | 4 | 50% |
-| `README.md` | 1 | 2 | 50% |
 | `BADGES.md` | 1 | 2 | 50% |
 | `CONCEPT_GRAPH.md` | 1 | 2 | 50% |
-| `CONTACTS.md` | 2 | 4 | 50% |
 | `CONTACT_PRIORITY.md` | 2 | 4 | 50% |
 | `COVERAGE.md` | 2 | 4 | 50% |
-| `DIGEST_WEEKLY.md` | 1 | 2 | 50% |
-| `GRAPH.md` | 1 | 2 | 50% |
-| `INDEX.md` | 6 | 12 | 50% |
+| `HEALTH.md` | 3 | 6 | 50% |
 | `MISSING.md` | 1 | 2 | 50% |
 | `ORPHANS.md` | 2 | 4 | 50% |
 | `README.md` | 1 | 2 | 50% |
+| `README.md` | 1 | 2 | 50% |
+| `.md` | 2 | 4 | 50% |
 | `README.md` | 1 | 2 | 50% |
 | `07-portal-entry.md` | 1 | 2 | 50% |
 | `10-query-result.md` | 1 | 2 | 50% |
@@ -579,72 +700,80 @@ _Обновлено: 2026-04-29_
 | `G-federated-local-graph.md` | 1 | 2 | 50% |
 | `H-research-to-product-flywheel.md` | 1 | 2 | 50% |
 | `README.md` | 1 | 2 | 50% |
-| `contact-outreach.md` | 2 | 4 | 50% |
 
 ## Все файлы с пустыми секциями
 
-### `OUTLINE.md` (511 из 1210)
+### `QA.md` (114 из 116)
 
-- ## 📁 Docs (`docs/`) (0 сл., строка 29)
-- ### [Словарь аббревиатур и сокращений](docs/ABBREVIATIONS.md) (9 сл., строка 31)
-- ### [Callout-блоки](docs/ALERTS.md) (11 сл., строка 50)
-- ### [Авторы и коллаборации](docs/AUTHORS.md) (8 сл., строка 57)
-- ### [Автозаполненные шаблоны](docs/AUTOFILLED.md) (14 сл., строка 63)
-- _...ещё 506_
+- ## Раздел: 01-svyazi (0 сл., строка 139)
+- ## Как реализован forensic RAG с доказуемостью? (6 сл., строка 142)
+- ## Что такое Evidence Envelope и зачем он нужен? (6 сл., строка 146)
+- ## Какие RAG-подходы сравниваются в документах? (8 сл., строка 150)
+- ## Какие инструменты обеспечивают безопасность агентов? (8 сл., строка 154)
+- _...ещё 109_
 
-### `CODE_BLOCKS.md` (112 из 113)
+### `CODE_BLOCKS.md` (112 из 114)
 
-- ## 📊 Диаграммы Mermaid (22) (0 сл., строка 21)
-- ### Приоритетные ансамбли (4 сл., строка 24)
-- ### Приоритетные ансамбли (4 сл., строка 29)
-- ### Приоритетные ансамбли (4 сл., строка 34)
-- ### Приоритетные ансамбли (4 сл., строка 39)
+- ## 📊 Диаграммы Mermaid (22) (0 сл., строка 169)
+- ### Приоритетные ансамбли (4 сл., строка 172)
+- ### Приоритетные ансамбли (4 сл., строка 177)
+- ### Приоритетные ансамбли (4 сл., строка 182)
+- ### Приоритетные ансамбли (4 сл., строка 187)
 - _...ещё 107_
 
-### `QA.md` (109 из 109)
+### `PROCESSING_GUIDE.md` (59 из 130)
 
-- ## Раздел: 01-svyazi (0 сл., строка 7)
-- ## Как реализован forensic RAG с доказуемостью? (6 сл., строка 10)
-- ## Что такое Evidence Envelope и зачем он нужен? (6 сл., строка 14)
-- ## Какие RAG-подходы сравниваются в документах? (8 сл., строка 18)
-- ## Какие инструменты обеспечивают безопасность агентов? (8 сл., строка 22)
-- _...ещё 104_
+- ## Таксономия методов (13 сл., строка 195)
+- ## Обработка больших массивов — Часть 2: Извлечение (13 сл., строка 237)
+- ## Поддерживаемые форматы (0 сл., строка 292)
+- ## Следующий шаг после извлечения (11 сл., строка 340)
+- ## Обработка больших массивов — Часть 3: Разбивка и чанкинг (10 сл., строка 346)
+- _...ещё 54_
 
-### `SPELLCHECK.md` (28 из 29)
+### `OUTLINE.md` (46 из 561)
+
+- ## 📁 Docs (`docs/`) (0 сл., строка 606)
+- ### [Словарь аббревиатур и сокращений](docs/ABBREVIATIONS.md) (9 сл., строка 608)
+- ### [Callout-блоки](docs/ALERTS.md) (11 сл., строка 627)
+- ### [Авторы и коллаборации](docs/AUTHORS.md) (8 сл., строка 634)
+- ### [CHANGELOG](docs/CHANGELOG.md) (13 сл., строка 662)
+- _...ещё 41_
+
+### `SPELLCHECK.md` (45 из 45)
 
 - ## Найденные проблемы (0 сл., строка 7)
 - ### `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (5 сл., строка 9)
 - ### `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md` (5 сл., строка 13)
 - ### `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` (5 сл., строка 17)
 - ### `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` (5 сл., строка 21)
-- _...ещё 23_
+- _...ещё 40_
 
-### `NAMED_ENTITIES.md` (25 из 30)
+### `NAMED_ENTITIES.md` (25 из 31)
 
-- ### `anthropic` (743 файлов) (13 сл., строка 35)
-- ### `claude` (400 файлов) (13 сл., строка 44)
-- ### `svend4` (195 файлов) (13 сл., строка 53)
-- ### `spbmolot` (44 файлов) (13 сл., строка 62)
-- ### `kksudo` (43 файлов) (13 сл., строка 71)
+- ### `anthropic` (402 файлов) (13 сл., строка 81)
+- ### `claude` (181 файлов) (13 сл., строка 90)
+- ### `svend4` (102 файлов) (13 сл., строка 99)
+- ### `kksudo` (54 файлов) (13 сл., строка 108)
+- ### `spbmolot` (50 файлов) (13 сл., строка 117)
 - _...ещё 20_
 
-### `QA.md` (23 из 23)
+### `QA.md` (23 из 25)
 
-- ## Какие 5 архитектурных зазоров выделены в исследовании? (8 сл., строка 5)
-- ## Что входит в интеграционный контракт между слоями? (11 сл., строка 9)
-- ## Кто ключевые авторы проектов для контакта? (5 сл., строка 13)
-- ## Какие вопросы лучше задавать авторам при первом контакте? (6 сл., строка 17)
-- ## Какие кластеры найма выделены у Anthropic? (8 сл., строка 21)
+- ## Какие 5 архитектурных зазоров выделены в исследовании? (8 сл., строка 84)
+- ## Что входит в интеграционный контракт между слоями? (11 сл., строка 88)
+- ## Кто ключевые авторы проектов для контакта? (5 сл., строка 92)
+- ## Какие вопросы лучше задавать авторам при первом контакте? (6 сл., строка 96)
+- ## Каковы этапы MVP и их оценка по времени? (6 сл., строка 100)
 - _...ещё 18_
 
-### `SCRIPTS_CATALOG.md` (23 из 173)
+### `SCRIPTS_CATALOG.md` (22 из 178)
 
-- ## По группам (0 сл., строка 189)
-- ## Подробно (0 сл., строка 426)
-- ### `improve_action_items.py` _(группа: extract)_ (10 сл., строка 445)
-- ### `improve_changelog_auto.py` _(группа: без группы)_ (14 сл., строка 543)
-- ### `improve_complexity.py` _(группа: analysis)_ (13 сл., строка 600)
-- _...ещё 18_
+- ## По группам (0 сл., строка 8)
+- ## Подробно (0 сл., строка 263)
+- ### `improve_action_items.py` _(группа: extract)_ (10 сл., строка 282)
+- ### `improve_changelog_auto.py` _(группа: analytics)_ (14 сл., строка 380)
+- ### `improve_complexity.py` _(группа: analysis)_ (13 сл., строка 437)
+- _...ещё 17_
 
 ### `mega-stack.md` (18 из 22)
 
@@ -675,57 +804,66 @@ _Обновлено: 2026-04-29_
 
 ### `QA.md` (17 из 17)
 
-- ## Какие кластеры найма выделены у Anthropic? (3 сл., строка 5)
-- ## Какие роли наиболее релевантны для профиля svend4? (5 сл., строка 9)
-- ## Как работает AgentFS и что такое .agentos? (5 сл., строка 13)
-- ## Что такое knowledge-space и для кого он предназначен? (2 сл., строка 17)
-- ## Как CardIndex хранит и версионирует карточки? (3 сл., строка 21)
+- ## Как реализован forensic RAG с доказуемостью? (6 сл., строка 20)
+- ## Что такое Evidence Envelope и зачем он нужен? (6 сл., строка 24)
+- ## Какие RAG-подходы сравниваются в документах? (8 сл., строка 28)
+- ## Какие 5 архитектурных зазоров выделены в исследовании? (8 сл., строка 32)
+- ## Что входит в интеграционный контракт между слоями? (11 сл., строка 36)
 - _...ещё 12_
 
-### `TABLES.md` (16 из 449)
+### `QA.md` (17 из 17)
 
-- ## 01-svyazi (11 таблиц) (0 сл., строка 11)
-- ## 02-anthropic-vacancies (34 таблиц) (0 сл., строка 161)
-- ## 03-technology-combinations (1 таблиц) (0 сл., строка 613)
-- ## 04-ai-collaborations (38 таблиц) (0 сл., строка 631)
-- ## 05-habr-projects (6 таблиц) (0 сл., строка 1016)
+- ## Какие кластеры найма выделены у Anthropic? (3 сл., строка 15)
+- ## Какие роли наиболее релевантны для профиля svend4? (5 сл., строка 19)
+- ## Как работает AgentFS и что такое .agentos? (5 сл., строка 23)
+- ## Что такое knowledge-space и для кого он предназначен? (2 сл., строка 27)
+- ## Как CardIndex хранит и версионирует карточки? (3 сл., строка 31)
+- _...ещё 12_
+
+### `QA.md` (16 из 17)
+
+- ## Как реализован forensic RAG с доказуемостью? (6 сл., строка 20)
+- ## Что такое Evidence Envelope и зачем он нужен? (6 сл., строка 24)
+- ## Какие RAG-подходы сравниваются в документах? (8 сл., строка 28)
+- ## Какие инструменты обеспечивают безопасность агентов? (8 сл., строка 32)
+- ## Какова политика доступа по умолчанию (tool classes)? (6 сл., строка 36)
 - _...ещё 11_
 
-### `QA.md` (15 из 15)
+### `05-analysis.md` (15 из 24)
 
-- ## Как реализован forensic RAG с доказуемостью? (6 сл., строка 5)
-- ## Что такое Evidence Envelope и зачем он нужен? (6 сл., строка 9)
-- ## Какие RAG-подходы сравниваются в документах? (8 сл., строка 13)
-- ## Какие инструменты обеспечивают безопасность агентов? (8 сл., строка 17)
-- ## Какова политика доступа по умолчанию (tool classes)? (6 сл., строка 21)
+- ## Группа 1: Извлечение сущностей (0 сл., строка 59)
+- ### improve_abbreviations.py — словарь аббревиатур (11 сл., строка 86)
+- ## Группа 2: Граф знаний (0 сл., строка 94)
+- ### improve_network.py — граф документов (12 сл., строка 108)
+- ### improve_cross_section.py — граф между секциями (10 сл., строка 116)
 - _...ещё 10_
 
-### `QA.md` (15 из 15)
+### `TABLES.md` (14 из 574)
 
-- ## Как реализован forensic RAG с доказуемостью? (6 сл., строка 5)
-- ## Что такое Evidence Envelope и зачем он нужен? (6 сл., строка 9)
-- ## Какие RAG-подходы сравниваются в документах? (8 сл., строка 13)
-- ## Какие 5 архитектурных зазоров выделены в исследовании? (8 сл., строка 17)
-- ## Что входит в интеграционный контракт между слоями? (11 сл., строка 21)
-- _...ещё 10_
+- ## 01-svyazi (11 таблиц) (0 сл., строка 591)
+- ## 02-anthropic-vacancies (34 таблиц) (0 сл., строка 741)
+- ## 03-technology-combinations (1 таблиц) (0 сл., строка 1193)
+- ## 04-ai-collaborations (38 таблиц) (0 сл., строка 1211)
+- ## 05-habr-projects (6 таблиц) (0 сл., строка 1596)
+- _...ещё 9_
+
+### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (13 из 125)
+
+- ## Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments (0 сл., строка 85)
+- ### На что это структурно похоже (0 сл., строка 288)
+- ### Архетипические образы (4 сл., строка 314)
+- ### На что это похоже в будущем — emerging vision (11 сл., строка 352)
+- ### Результаты последнего поиска — что нашлось и что не нашлось (0 сл., строка 506)
+- _...ещё 8_
 
 ### `CONSISTENCY.md` (13 из 13)
 
-- ## Детали по файлам (0 сл., строка 22)
-- ### `knowledgespace` → должно быть `knowledge-space` (6 сл., строка 25)
-- ### `knowledge-space` → должно быть `knowledge-space` (14 сл., строка 31)
-- ### `knowledge-space` → должно быть `knowledge-space` (4 сл., строка 40)
-- ### `AI Factory` → должно быть `AI Factory` (14 сл., строка 45)
+- ## Детали по файлам (0 сл., строка 31)
+- ### `knowledgespace` → должно быть `knowledge-space` (6 сл., строка 34)
+- ### `knowledge-space` → должно быть `knowledge-space` (14 сл., строка 40)
+- ### `knowledge-space` → должно быть `knowledge-space` (4 сл., строка 49)
+- ### `AI Factory` → должно быть `AI Factory` (14 сл., строка 54)
 - _...ещё 8_
-
-### `QA.md` (12 из 12)
-
-- ## Как реализован forensic RAG с доказуемостью? (5 сл., строка 5)
-- ## Что такое Evidence Envelope и зачем он нужен? (5 сл., строка 9)
-- ## Какие RAG-подходы сравниваются в документах? (5 сл., строка 13)
-- ## Как работает AgentFS и что такое .agentos? (2 сл., строка 17)
-- ## Что такое knowledge-space и для кого он предназначен? (5 сл., строка 21)
-- _...ещё 7_
 
 ### `tech-pair.md` (12 из 15)
 
@@ -745,40 +883,13 @@ _Обновлено: 2026-04-29_
 - ### 4. Секции 2-го уровня (`##`) (6 сл., строка 37)
 - _...ещё 7_
 
-### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (11 из 121)
+### `RISK_REGISTER.md` (11 из 18)
 
-- ## Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments (0 сл., строка 85)
-- ### На что это структурно похоже (0 сл., строка 288)
-- ### Архетипические образы (4 сл., строка 314)
-- ### На что это похоже в будущем — emerging vision (11 сл., строка 352)
-- ### Результаты последнего поиска — что нашлось и что не нашлось (0 сл., строка 506)
-- _...ещё 6_
-
-### `QA.md` (11 из 11)
-
-- ## Как работает AgentFS и что такое .agentos? (2 сл., строка 5)
-- ## Что такое knowledge-space и для кого он предназначен? (5 сл., строка 9)
-- ## Как CardIndex хранит и версионирует карточки? (3 сл., строка 13)
-- ## Какие 5 архитектурных зазоров выделены в исследовании? (2 сл., строка 17)
-- ## Что входит в интеграционный контракт между слоями? (5 сл., строка 21)
-- _...ещё 6_
-
-### `FAQ.md` (11 из 32)
-
-- ## Архитектура (0 сл., строка 6)
-- ## MVP/Запуск (0 сл., строка 35)
-- ### С чего начать? (12 сл., строка 37)
-- ## Компоненты (0 сл., строка 48)
-- ## Интеграция (0 сл., строка 59)
-- _...ещё 6_
-
-### `RISK_REGISTER.md` (11 из 16)
-
-- ## Матрица рисков (Вероятность × Влияние) (0 сл., строка 42)
-- ## Митигации (0 сл., строка 61)
-- ### 1. Одиночный разработчик — bus factor 1 (13 сл., строка 63)
-- ### 2. Авторы компонентов не ответят на запросы (12 сл., строка 69)
-- ### 3. PII-утечки через MCP-инструменты (13 сл., строка 75)
+- ## Матрица рисков (Вероятность × Влияние) (0 сл., строка 63)
+- ## Митигации (0 сл., строка 82)
+- ### 1. Одиночный разработчик — bus factor 1 (13 сл., строка 84)
+- ### 2. Авторы компонентов не ответят на запросы (12 сл., строка 90)
+- ### 3. PII-утечки через MCP-инструменты (13 сл., строка 96)
 - _...ещё 6_
 
 ### `experiment-log.md` (11 из 13)
@@ -790,22 +901,58 @@ _Обновлено: 2026-04-29_
 - ### Метрики успеха (10 сл., строка 35)
 - _...ещё 6_
 
-### `GITHUB_ISSUES.md` (9 из 37)
+### `QA.md` (10 из 11)
 
-- ## `docs/MISSING.md` (1 задач) (7 сл., строка 39)
-- ## `docs/SCRIPTS_CATALOG.md` (1 задач) (9 сл., строка 43)
-- ## `docs/SPELLCHECK.md` (1 задач) (8 сл., строка 47)
-- ## `docs/TABLES.md` (1 задач) (9 сл., строка 51)
-- ## `docs/autofilled/research-summary.md` (2 задач) (14 сл., строка 55)
+- ## Как реализован forensic RAG с доказуемостью? (5 сл., строка 29)
+- ## Что такое Evidence Envelope и зачем он нужен? (5 сл., строка 33)
+- ## Какие RAG-подходы сравниваются в документах? (5 сл., строка 37)
+- ## Как работает AgentFS и что такое .agentos? (2 сл., строка 41)
+- ## Что такое knowledge-space и для кого он предназначен? (5 сл., строка 45)
+- _...ещё 5_
+
+### `02-общий-план-развития-nautilus-portal-protocol.md` (9 из 36)
+
+- ## ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL (0 сл., строка 43)
+- #### 4.1 Структураnautilus.json(registry) (0 сл., строка 117)
+- #### 4.2 КонтрактBaseAdapter(псевдокод) (0 сл., строка 119)
+- #### 4.3 Логика движкаportal.py (0 сл., строка 121)
+- #### 4.4 СтруктураQueryResultвозврата (0 сл., строка 123)
+- _...ещё 4_
+
+### `365-развёрнутый-анализ-внуковой-комбинации.md` (9 из 65)
+
+- ## Развёрнутый анализ «внуковой» комбинации (0 сл., строка 53)
+- ### Плюсы этой архитектуры (0 сл., строка 81)
+- ### Минусы и риски этой архитектуры (0 сл., строка 123)
+- ### Мои рекомендации (0 сл., строка 223)
+- ### Критический анализ — что в этом документе сильно (0 сл., строка 402)
+- _...ещё 4_
+
+### `FAQ.md` (9 из 30)
+
+- ## Архитектура (0 сл., строка 52)
+- ## MVP/Запуск (0 сл., строка 75)
+- ### С чего начать? (12 сл., строка 77)
+- ## Компоненты (0 сл., строка 88)
+- ## Интеграция (0 сл., строка 99)
+- _...ещё 4_
+
+### `GITHUB_ISSUES.md` (9 из 38)
+
+- ## `docs/MISSING.md` (1 задач) (7 сл., строка 92)
+- ## `docs/SCRIPTS_CATALOG.md` (1 задач) (9 сл., строка 96)
+- ## `docs/SPELLCHECK.md` (1 задач) (8 сл., строка 100)
+- ## `docs/TABLES.md` (1 задач) (9 сл., строка 104)
+- ## `docs/autofilled/research-summary.md` (2 задач) (14 сл., строка 108)
 - _...ещё 4_
 
 ### `QA.md` (9 из 9)
 
-- ## Какие кластеры найма выделены у Anthropic? (8 сл., строка 5)
-- ## Какие роли наиболее релевантны для профиля svend4? (7 сл., строка 9)
-- ## Как реализован forensic RAG с доказуемостью? (2 сл., строка 13)
-- ## Что такое Evidence Envelope и зачем он нужен? (2 сл., строка 17)
-- ## Какие RAG-подходы сравниваются в документах? (5 сл., строка 21)
+- ## Какие кластеры найма выделены у Anthropic? (8 сл., строка 14)
+- ## Какие роли наиболее релевантны для профиля svend4? (7 сл., строка 18)
+- ## Как реализован forensic RAG с доказуемостью? (2 сл., строка 22)
+- ## Что такое Evidence Envelope и зачем он нужен? (2 сл., строка 26)
+- ## Какие RAG-подходы сравниваются в документах? (5 сл., строка 30)
 - _...ещё 4_
 
 ### `01-response-en.md` (9 из 98)
@@ -817,31 +964,40 @@ _Обновлено: 2026-04-29_
 - ## 8. Risks and Mitigations (9 сл., строка 1198)
 - _...ещё 4_
 
-### `02-общий-план-развития-nautilus-portal-protocol.md` (7 из 32)
+### `QA.md` (8 из 10)
 
-- ## ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL (0 сл., строка 43)
-- #### 4.1 Структураnautilus.json(registry) (0 сл., строка 117)
-- #### 4.2 КонтрактBaseAdapter(псевдокод) (0 сл., строка 119)
-- #### 4.3 Логика движкаportal.py (0 сл., строка 121)
-- #### 4.4 СтруктураQueryResultвозврата (0 сл., строка 123)
+- ## Как работает AgentFS[^agentfs] и что такое .agentos? (6 сл., строка 39)
+- ## Что такое knowledge-space[^knowledge-space] и для кого он предназначен? (9 сл., строка 45)
+- ## Как CardIndex[^cardindex] хранит и версионирует карточки? (7 сл., строка 51)
+- ## Кто ключевые авторы проектов для контакта? (7 сл., строка 57)
+- ## Какие вопросы лучше задавать авторам при первом контакте? (8 сл., строка 63)
+- _...ещё 3_
+
+### `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (7 из 60)
+
+- ### Где сейчас сложности (13 сл., строка 308)
+- ### Переформулировка на основе этих сложностей (6 сл., строка 357)
+- ### Предлагаемая структура Document 10 (6 сл., строка 378)
+- ### Перед составлением документа — вопросы к вам (11 сл., строка 409)
+- ### Предложение для текущей сессии (13 сл., строка 649)
 - _...ещё 2_
 
-### `365-развёрнутый-анализ-внуковой-комбинации.md` (7 из 61)
+### `METHODOLOGY.md` (7 из 15)
 
-- ## Развёрнутый анализ «внуковой» комбинации (0 сл., строка 53)
-- ### Плюсы этой архитектуры (0 сл., строка 81)
-- ### Минусы и риски этой архитектуры (0 сл., строка 123)
-- ### Мои рекомендации (0 сл., строка 223)
-- ### Критический анализ — что в этом документе сильно (0 сл., строка 402)
+- ## Типичные рабочие сессии (0 сл., строка 104)
+- ### Сессия: проверить состояние репо (0 сл., строка 106)
+- ### Сессия: починить сломанные ссылки (0 сл., строка 110)
+- ### Сессия: обновить поисковый индекс (0 сл., строка 114)
+- ### Сессия: LLM-обогащение (нужен ANTHROPIC_API_KEY) (0 сл., строка 118)
 - _...ещё 2_
 
-### `CHANGELOG.md` (7 из 12)
+### `04-enrichment.md` (7 из 10)
 
-- ## semantic (1 коммитов) (0 сл., строка 7)
-- ### 🔧 Обслуживание (5 сл., строка 9)
-- ## 2026-04-29 (100 коммитов) (0 сл., строка 13)
-- ## 22 скила  (1 коммитов) (0 сл., строка 204)
-- ### 🔧 Обслуживание (9 сл., строка 206)
+- ## Что значит «обогатить скрипт» (9 сл., строка 32)
+- ## Пять уровней обогащения (0 сл., строка 40)
+- ### Уровень 2: Типизация (без LLM) (9 сл., строка 50)
+- ### Уровень 3: --dry-run флаг (без LLM) (13 сл., строка 54)
+- ### Уровень 5: Кросс-обогащение (с LLM) (9 сл., строка 64)
 - _...ещё 2_
 
 ### `22-glossary.md` (7 из 13)
@@ -898,22 +1054,58 @@ _Обновлено: 2026-04-29_
 - ### Контакты / коммуникации (7 сл., строка 30)
 - _...ещё 2_
 
-### `INDEX.md` (6 из 12)
+### `341-приложение-c-образец-спецификаций-инструментов-ing.md` (6 из 34)
 
-- ## Разделы документации (0 сл., строка 48)
-- ### [🏗️  Архитектура Svyazi 2.0](docs/01-svyazi/README.md) (11 сл., строка 50)
-- ### [💼 Вакансии Anthropic](docs/02-anthropic-vacancies/README.md) (12 сл., строка 56)
-- ### [⚗️  Комбинации технологий](docs/03-technology-combinations/README.md) (9 сл., строка 62)
-- ### [🤝 AI-коллаборации](docs/04-ai-collaborations/README.md) (14 сл., строка 68)
+- ### Конкретные потенциальные collaborators — final list (5 сл., строка 287)
+- ### Итоги расширенного поиска — три новых критически важных проекта (0 сл., строка 384)
+- ### Расширенный landscape — actually impressive (7 сл., строка 440)
+- ### Финальный список potential collaborators (9 сл., строка 473)
+- ## Упоминается в (10 сл., строка 520)
 - _...ещё 1_
 
-### `SCHEDULE.md` (6 из 8)
+### `INDEX.md` (6 из 14)
 
-- ## Gantt-диаграмма (7 сл., строка 20)
-- ## Задачи по фазам (0 сл., строка 27)
-- ### Исследование (0 сл., строка 30)
-- ### Архитектура (0 сл., строка 33)
-- ### Контакты (0 сл., строка 36)
+- ## Разделы документации (0 сл., строка 48)
+- ### [🏗️  Архитектура Svyazi 2.0](README.md) (11 сл., строка 50)
+- ### [💼 Вакансии Anthropic](README.md) (12 сл., строка 56)
+- ### [⚗️  Комбинации технологий](README.md) (9 сл., строка 62)
+- ### [🤝 AI-коллаборации](README.md) (14 сл., строка 68)
+- _...ещё 1_
+
+### `PROTOTYPE_SPEC.md` (6 из 19)
+
+- ## 3. Интеграционные контракты (14 сл., строка 68)
+- ### 3.4 Skill & Tool Policy (13 сл., строка 101)
+- ### 3.5 Review Record (1 сл., строка 107)
+- ## 4. Архитектура прототипа (1 сл., строка 113)
+- ## 5. Итерации MVP (0 сл., строка 119)
+- _...ещё 1_
+
+### `SCHEDULE.md` (6 из 9)
+
+- ## Gantt-диаграмма (7 сл., строка 44)
+- ## Задачи по фазам (0 сл., строка 51)
+- ### Исследование (0 сл., строка 54)
+- ### Архитектура (0 сл., строка 57)
+- ### Контакты (0 сл., строка 60)
+- _...ещё 1_
+
+### `research-summary.md` (6 из 9)
+
+- ## Контекст (5 сл., строка 23)
+- ## Ключевые находки (12 сл., строка 27)
+- ## Источники (6 сл., строка 33)
+- ## Открытые вопросы (4 сл., строка 38)
+- ## Связанные документы (4 сл., строка 60)
+- _...ещё 1_
+
+### `10-future.md` (6 из 17)
+
+- ## Уровень E: Инкрементальное обучение базы знаний (14 сл., строка 122)
+- ## Уровень G: Голосовой пайплайн (Speech-to-Knowledge) (1 сл., строка 143)
+- ## Уровень H: Синтез из нескольких репозиториев (11 сл., строка 151)
+- ## Уровень I: Не придуманные подходы (0 сл., строка 159)
+- ### Нейросеть на собственной базе (Domain-Specific Fine-tuning) (1 сл., строка 181)
 - _...ещё 1_
 
 ### `faq-entry.md` (6 из 7)
@@ -943,13 +1135,53 @@ _Обновлено: 2026-04-29_
 - ## Когда НЕ использовать (6 сл., строка 48)
 - _...ещё 1_
 
-### `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (5 из 56)
+### `01-интегральный-анализ-профиля-svend4.md` (5 из 96)
 
-- ### Где сейчас сложности (13 сл., строка 308)
-- ### Переформулировка на основе этих сложностей (6 сл., строка 357)
-- ### Предлагаемая структура Document 10 (6 сл., строка 378)
-- ### Перед составлением документа — вопросы к вам (11 сл., строка 409)
-- ### Предложение для текущей сессии (13 сл., строка 649)
+- ### Наутилус B: nautilus — мета-оркестратор репозиториев (13 сл., строка 394)
+- ### Оценка и конкретные действия (0 сл., строка 426)
+- ### Что здесь технически необычно — разбор трёх уникальных деталей (0 сл., строка 521)
+- ## Упоминается в (10 сл., строка 803)
+- ## Связанные документы (12 сл., строка 808)
+
+### `09-4-passport-passport-md.md` (5 из 11)
+
+- ## 4. Passport (`passport.md`) (0 сл., строка 22)
+- ### 4.2. Recommended Structure (7 сл., строка 32)
+- ## Essence (8 сл., строка 41)
+- ## Объём (4 сл., строка 46)
+- ## Упоминается в (10 сл., строка 90)
+
+### `127-подключение-к-claude-desktop.md` (5 из 10)
+
+- ## Подключение к Claude Desktop (0 сл., строка 24)
+- ### macOS (1 сл., строка 26)
+- ### Windows (1 сл., строка 32)
+- ### Linux (1 сл., строка 38)
+- ## Упоминается в (10 сл., строка 81)
+
+### `02-architecture.md` (5 из 11)
+
+- ## Что можно извлечь из скрипта через AST (8 сл., строка 45)
+- ## Четыре режима метаскрипта (0 сл., строка 53)
+- ### Режим 1: --audit (аудит) (6 сл., строка 55)
+- ## Структура данных: ScriptCatalog (9 сл., строка 76)
+- ## Паттерн «читаю → понимаю → улучшаю» (1 сл., строка 84)
+
+### `07-llm.md` (5 из 14)
+
+- ## Архитектура: 5 LLM-скриптов (10 сл., строка 51)
+- ## Стратегии работы с большими документами (0 сл., строка 130)
+- ### Стратегия 1: Sliding Window (0 сл., строка 132)
+- ### Стратегия 2: Иерархическая суммаризация (0 сл., строка 136)
+- ### Стратегия 3: RAG (Retrieval-Augmented Generation) (6 сл., строка 140)
+
+### `08-export.md` (5 из 13)
+
+- ## EPUB — improve_epub.py (14 сл., строка 72)
+- ## JSON/CSV — improve_export_json.py, improve_export_csv.py (3 сл., строка 92)
+- ## JSONL для RAG — improve_chunk_semantic.py (11 сл., строка 101)
+- ## HTML — improve_export_html.py (1 сл., строка 112)
+- ## Карта сайта — improve_sitemap.py (1 сл., строка 118)
 
 ### `contradiction-record.md` (5 из 8)
 
@@ -959,35 +1191,33 @@ _Обновлено: 2026-04-29_
 - ## Источник B (8 сл., строка 36)
 - ## В чём противоречие (5 сл., строка 44)
 
-### `ensemble.md` (5 из 6)
+### `00-intro.md` (4 из 58)
 
-- ## Назначение (9 сл., строка 6)
-- ## Архитектурная схема (0 сл., строка 17)
-- ## Контракт взаимодействия (0 сл., строка 21)
-- ## Риски и ограничения (6 сл., строка 25)
-- ## MVP-шаги (12 сл., строка 30)
+- ### Финализированный план consolidation на все 70 (14 сл., строка 384)
+- ## Упоминается в (7 сл., строка 432)
+- ## Упоминается в (10 сл., строка 435)
+- ## Связанные документы (6 сл., строка 440)
 
-### `research-note.md` (5 из 5)
+### `133-обратная-связь.md` (4 из 25)
 
-- ## Контекст (5 сл., строка 6)
-- ## Ключевые находки (12 сл., строка 10)
-- ## Источники (6 сл., строка 16)
-- ## Открытые вопросы (4 сл., строка 21)
-- ## Следующие шаги (13 сл., строка 26)
+- ### Шесть архитектурных следствий вашей звезды Давида (13 сл., строка 381)
+- ### Что это значит для направлений проекта (14 сл., строка 437)
+- ## Упоминается в (10 сл., строка 533)
+- ## Связанные документы (5 сл., строка 538)
 
-### `09-4-passport-passport-md.md` (4 из 7)
+### `18-6-adapter-interface.md` (4 из 11)
 
-- ## 4. Passport (`passport.md`) (0 сл., строка 22)
-- ### 4.2. Recommended Structure (7 сл., строка 32)
-- ## Essence (8 сл., строка 41)
-- ## Объём (4 сл., строка 46)
+- ## 6. Adapter Interface (0 сл., строка 44)
+- ### 6.1. BaseAdapter Contract (10 сл., строка 46)
+- ### 6.2. `describe()` — Required for Level 1+ (6 сл., строка 53)
+- ## Упоминается в (10 сл., строка 123)
 
-### `127-подключение-к-claude-desktop.md` (4 из 6)
+### `234-3-эмпирический-кейс-обучай.md` (4 из 14)
 
-- ## Подключение к Claude Desktop (0 сл., строка 24)
-- ### macOS (1 сл., строка 26)
-- ### Windows (1 сл., строка 32)
-- ### Linux (1 сл., строка 38)
+- ## 3. Эмпирический кейс: «Обучай» (11 сл., строка 43)
+- ## Упоминается в (14 сл., строка 229)
+- ## Упоминается в (10 сл., строка 233)
+- ## Связанные документы (8 сл., строка 238)
 
 ### `28-appendix-a-minimal-working-example.md` (4 из 5)
 
@@ -996,12 +1226,40 @@ _Обновлено: 2026-04-29_
 - ### A.2. Minimal Adapter (0 сл., строка 27)
 - ### A.3. Minimal Passport (1 сл., строка 31)
 
-### `341-приложение-c-образец-спецификаций-инструментов-ing.md` (4 из 30)
+### `320-references.md` (4 из 10)
 
-- ### Конкретные потенциальные collaborators — final list (5 сл., строка 287)
-- ### Итоги расширенного поиска — три новых критически важных проекта (0 сл., строка 384)
-- ### Расширенный landscape — actually impressive (7 сл., строка 440)
-- ### Финальный список potential collaborators (9 сл., строка 473)
+- ## References (0 сл., строка 22)
+- ### MCP Standard (9 сл., строка 33)
+- ### Companion Documents in This Series (11 сл., строка 38)
+- ## Упоминается в (10 сл., строка 79)
+
+### `338-ссылки.md` (4 из 10)
+
+- ## Ссылки (0 сл., строка 22)
+- ### Стандарт MCP (9 сл., строка 35)
+- ### Сопроводительные Документы в этой Серии (10 сл., строка 40)
+- ## Упоминается в (10 сл., строка 84)
+
+### `364-final-note-ты-experiment.md` (4 из 22)
+
+- ### Что нужно decide перед использованием (7 сл., строка 63)
+- ### Как использовать этот системный промпт (0 сл., строка 98)
+- ## Упоминается в (10 сл., строка 207)
+- ## Связанные документы (5 сл., строка 212)
+
+### `67-о-проекте.md` (4 из 17)
+
+- ### Быстрый старт (0 сл., строка 79)
+- ### Файловая структура (0 сл., строка 133)
+- ### Лицензии (14 сл., строка 152)
+- ## Упоминается в (10 сл., строка 198)
+
+### `72-расписание-фазы-3.md` (4 из 10)
+
+- ## Расписание фазы 3 (5 сл., строка 39)
+- ## Упоминается в (11 сл., строка 97)
+- ## Упоминается в (10 сл., строка 102)
+- ## Связанные документы (6 сл., строка 107)
 
 ### `98-appendix-a-minimal-working-example.md` (4 из 6)
 
@@ -1010,33 +1268,26 @@ _Обновлено: 2026-04-29_
 - ### A.2. Minimal Adapter (Level 1) (0 сл., строка 36)
 - ### A.3. Minimal Passport (1 сл., строка 40)
 
+### `05-benchmarks.md` (4 из 13)
+
+- ### КОМБИНАЦИЯ 9: Agent Orchestration Stack (0 сл., строка 90)
+- ### КОМБИНАЦИЯ 10: Legal Document Intelligence Pipeline (0 сл., строка 100)
+- ## Упоминается в (9 сл., строка 134)
+- ## Связанные документы (13 сл., строка 139)
+
+### `CHANGELOG.md` (4 из 10)
+
+- ## 2026-04-29 (53 коммитов) (0 сл., строка 17)
+- ## 22 скила  (1 коммитов) (0 сл., строка 172)
+- ### 🔧 Обслуживание (9 сл., строка 174)
+- ## (1 коммитов) (0 сл., строка 179)
+
 ### `CONCEPTS.md` (4 из 55)
 
-- ## Z (10 сл., строка 2445)
-- ## Х (12 сл., строка 4128)
-- ## Ц (8 сл., строка 4135)
-- ## Ь (12 сл., строка 4222)
-
-### `HEALTH.md` (4 из 6)
-
-- ## Общий балл: **77/100** 🟡 (0 сл., строка 5)
-- ## Action Items (9 сл., строка 43)
-- ## Скрипты обработки (4 сл., строка 49)
-- ## Рекомендации (14 сл., строка 53)
-
-### `PRIORITIES.md` (4 из 80)
-
-- ## Топ-5 по каждому разделу (0 сл., строка 67)
-- ### ai-collaborations (11 сл., строка 154)
-- ### autofilled (11 сл., строка 195)
-- ### knowledge (11 сл., строка 456)
-
-### `research-summary.md` (4 из 5)
-
-- ## Контекст (5 сл., строка 13)
-- ## Ключевые находки (12 сл., строка 17)
-- ## Источники (6 сл., строка 23)
-- ## Открытые вопросы (4 сл., строка 28)
+- ## Z (10 сл., строка 2600)
+- ## Х (12 сл., строка 4379)
+- ## Ц (8 сл., строка 4386)
+- ## Ь (12 сл., строка 4473)
 
 ### `16-appendix-a-minimal-working-example.md` (4 из 5)
 
@@ -1045,12 +1296,12 @@ _Обновлено: 2026-04-29_
 - ## Content Overview (7 сл., строка 58)
 - ## Angle / Perspective (4 сл., строка 61)
 
-### `decision-record.md` (4 из 5)
+### `ensemble.md` (4 из 6)
 
-- ## Статус (7 сл., строка 6)
-- ## Контекст (9 сл., строка 10)
-- ## Принятое решение (5 сл., строка 22)
-- ## Последствия (13 сл., строка 28)
+- ## Назначение (9 сл., строка 18)
+- ## Архитектурная схема (0 сл., строка 29)
+- ## Контракт взаимодействия (0 сл., строка 33)
+- ## Риски и ограничения (6 сл., строка 37)
 
 ### `kpi-snapshot.md` (4 из 6)
 
@@ -1059,6 +1310,13 @@ _Обновлено: 2026-04-29_
 - ## Лучшие изменения (14 сл., строка 39)
 - ## Регрессии (14 сл., строка 44)
 
+### `research-note.md` (4 из 5)
+
+- ## Контекст (5 сл., строка 16)
+- ## Ключевые находки (12 сл., строка 20)
+- ## Источники (6 сл., строка 26)
+- ## Открытые вопросы (4 сл., строка 31)
+
 ### `retrospective.md` (4 из 7)
 
 - ## Период (6 сл., строка 17)
@@ -1066,11 +1324,23 @@ _Обновлено: 2026-04-29_
 - ## Что прошло плохо ❌ (6 сл., строка 29)
 - ## Что узнали 💡 (6 сл., строка 34)
 
-### `01-интегральный-анализ-профиля-svend4.md` (3 из 92)
+### `104-appendix-c-references.md` (3 из 15)
 
-- ### Наутилус B: nautilus — мета-оркестратор репозиториев (13 сл., строка 394)
-- ### Оценка и конкретные действия (0 сл., строка 426)
-- ### Что здесь технически необычно — разбор трёх уникальных деталей (0 сл., строка 521)
+- ## Appendix C: References (0 сл., строка 33)
+- ### Комментарий к документу (7 сл., строка 56)
+- ## Упоминается в (10 сл., строка 144)
+
+### `109-3-принципы-консолидации-фаза-c.md` (3 из 14)
+
+- ### 3.1. Для каждого расхождения применяются правила (0 сл., строка 54)
+- ## Упоминается в (10 сл., строка 147)
+- ## Связанные документы (7 сл., строка 152)
+
+### `124-конфигурация-для-claude-desktop.md` (3 из 5)
+
+- ## Упоминается в (14 сл., строка 44)
+- ## Упоминается в (10 сл., строка 49)
+- ## Связанные документы (9 сл., строка 54)
 
 ### `126-установка.md` (3 из 5)
 
@@ -1078,35 +1348,53 @@ _Обновлено: 2026-04-29_
 - ### 1. Установить MCP SDK (12 сл., строка 23)
 - ### 2. Проверить, что portal.py работает (8 сл., строка 30)
 
-### `18-6-adapter-interface.md` (3 из 6)
+### `150-appendix-c-version-history.md` (3 из 38)
 
-- ## 6. Adapter Interface (0 сл., строка 37)
-- ### 6.1. BaseAdapter Contract (10 сл., строка 39)
-- ### 6.2. `describe()` — Required for Level 1+ (6 сл., строка 46)
+- ## Appendix C: Version History (0 сл., строка 57)
+- ### Часть 7: Конкретное синтетическое предложение (8 сл., строка 318)
+- ## Упоминается в (10 сл., строка 422)
 
-### `320-references.md` (3 из 6)
+### `170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (3 из 10)
 
-- ## References (0 сл., строка 22)
-- ### MCP Standard (9 сл., строка 33)
-- ### Companion Documents in This Series (11 сл., строка 38)
+- ## 1. The Cinderella Syndrome: Why Quality Stays Invisible (0 сл., строка 33)
+- ## Упоминается в (10 сл., строка 175)
+- ## Связанные документы (14 сл., строка 180)
 
-### `338-ссылки.md` (3 из 6)
+### `186-appendix-c-sample-use-cases-in-detail.md` (3 из 22)
 
-- ## Ссылки (0 сл., строка 22)
-- ### Стандарт MCP (9 сл., строка 35)
-- ### Сопроводительные Документы в этой Серии (10 сл., строка 40)
+- ## Appendix C: Sample Use Cases in Detail (0 сл., строка 40)
+- ### Комментарий к этому документу (13 сл., строка 174)
+- ## Упоминается в (10 сл., строка 289)
 
-### `67-о-проекте.md` (3 из 13)
+### `206-приложение-b-матрица-сравнения-областей.md` (3 из 5)
 
-- ### Быстрый старт (0 сл., строка 79)
-- ### Файловая структура (0 сл., строка 133)
-- ### Лицензии (14 сл., строка 152)
+- ## Упоминается в (12 сл., строка 30)
+- ## Упоминается в (10 сл., строка 34)
+- ## Связанные документы (14 сл., строка 39)
 
-### `81-6-adapter-interface.md` (3 из 6)
+### `239-8-пилотное-предложение-sgb-колega-адвокат.md` (3 из 14)
 
-- ## 6. Adapter Interface (0 сл., строка 37)
-- ### 6.1. BaseAdapter Contract (10 сл., строка 39)
-- ### 6.3. `describe()` — Required (6 сл., строка 66)
+- ## Упоминается в (10 сл., строка 306)
+- ## Связанные документы (7 сл., строка 311)
+- ## Связанные документы (7 сл., строка 314)
+
+### `24-12-versioning-policy.md` (3 из 9)
+
+- ## 12. Versioning Policy (0 сл., строка 21)
+- ### 12.2. Version in Registry (13 сл., строка 31)
+- ## Упоминается в (10 сл., строка 80)
+
+### `293-почему-это-не-было-построено.md` (3 из 5)
+
+- ## Упоминается в (12 сл., строка 96)
+- ## Упоминается в (10 сл., строка 101)
+- ## Связанные документы (3 сл., строка 106)
+
+### `81-6-adapter-interface.md` (3 из 7)
+
+- ## 6. Adapter Interface (0 сл., строка 44)
+- ### 6.1. BaseAdapter Contract (10 сл., строка 46)
+- ### 6.3. `describe()` — Required (6 сл., строка 73)
 
 ### `84-9-consensus-algorithm.md` (3 из 7)
 
@@ -1114,11 +1402,23 @@ _Обновлено: 2026-04-29_
 - ### 9.2. Consensus Structure (8 сл., строка 40)
 - ### 9.4. Algorithm (1 сл., строка 58)
 
-### `READING_ORDER.md` (3 из 4)
+### `90-15-security-considerations.md` (3 из 12)
 
-- ## Маршруты по целям (0 сл., строка 403)
-- ### 🚀 Быстрый старт (30 минут) (9 сл., строка 405)
-- ### 🏗️ Архитектура (2 часа) (13 сл., строка 411)
+- ## 15. Security Considerations (0 сл., строка 49)
+- ## Упоминается в (10 сл., строка 129)
+- ## Связанные документы (14 сл., строка 134)
+
+### `HEALTH.md` (3 из 6)
+
+- ## Общий балл: **80/100** 🟡 (0 сл., строка 5)
+- ## Action Items (9 сл., строка 46)
+- ## Скрипты обработки (4 сл., строка 52)
+
+### `READING_ORDER.md` (3 из 5)
+
+- ## Маршруты по целям (0 сл., строка 424)
+- ### 🚀 Быстрый старт (30 минут) (9 сл., строка 426)
+- ### 🏗️ Архитектура (2 часа) (13 сл., строка 432)
 
 ### `SCORING.md` (3 из 8)
 
@@ -1126,11 +1426,17 @@ _Обновлено: 2026-04-29_
 - ## Приоритетные действия (2 незакрытых) (14 сл., строка 57)
 - ## ✅ Проект готов к запуску MVP! (0 сл., строка 62)
 
-### `VALIDATION.md` (3 из 8)
+### `03-catalog.md` (3 из 5)
 
-- ## ✅ Разделы и README (3 сл., строка 16)
-- ## ✅ Мета-файлы (3 сл., строка 20)
-- ## Итог (6 сл., строка 103)
+- ## Что извлекается из каждого скрипта (1 сл., строка 26)
+- ## Алгоритм определения риска (1 сл., строка 32)
+- ## Пример выходного каталога (фрагмент) (1 сл., строка 38)
+
+### `05-synthesis.md` (3 из 8)
+
+- ## Откуда берутся паттерны (14 сл., строка 17)
+- ## Три способа синтеза (0 сл., строка 39)
+- ### Способ C: Расширение существующего (13 сл., строка 62)
 
 ### `06-adapter-interface.md` (3 из 5)
 
@@ -1156,56 +1462,345 @@ _Обновлено: 2026-04-29_
 - ### 9.2. Consensus Structure (8 сл., строка 22)
 - ### 9.4. Algorithm (1 сл., строка 40)
 
+### `03-chunking.md` (3 из 12)
+
+- ## Стратегии разбивки (0 сл., строка 45)
+- ### Стратегия 6: Разбивка по языку — реализовано (11 сл., строка 120)
+- ## Инструмент выбора стратегии: utils_chunker.py (1 сл., строка 142)
+
+### `06-search.md` (3 из 11)
+
+- ## Уровни поиска (от простого к сложному) (1 сл., строка 37)
+- ## Уровень 2: Поисковый индекс — improve_search_index.py (10 сл., строка 43)
+- ## Уровень 5: Фасетный поиск — improve_faceted_search.py (14 сл., строка 81)
+
+### `09-automation.md` (3 из 11)
+
+- ## Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml (5 сл., строка 72)
+- ## Ступень 4: Pre-commit хуки — .pre-commit-config.yaml (5 сл., строка 82)
+- ## Полная цепочка автоматизации (1 сл., строка 129)
+
+### `decision-record.md` (3 из 5)
+
+- ## Статус (7 сл., строка 19)
+- ## Контекст (9 сл., строка 23)
+- ## Принятое решение (5 сл., строка 35)
+
 ### `project-component.md` (3 из 5)
 
-- ## Что это (8 сл., строка 6)
-- ## Ключевые особенности (12 сл., строка 10)
-- ## Интеграция с Svyazi (9 сл., строка 25)
+- ## Что это (8 сл., строка 20)
+- ## Ключевые особенности (12 сл., строка 24)
+- ## Интеграция с Svyazi (9 сл., строка 39)
 
-### `08-3-registry-nautilus-json.md` (2 из 7)
+### `03-portal-protocol-md.md` (2 из 5)
 
-- ## 3. Registry (`nautilus.json`) (0 сл., строка 37)
-- ### 3.2. Schema (8 сл., строка 45)
+- ## PORTAL-PROTOCOL.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 71)
 
-### `104-appendix-c-references.md` (2 из 11)
+### `08-3-registry-nautilus-json.md` (2 из 8)
 
-- ## Appendix C: References (0 сл., строка 33)
-- ### Комментарий к документу (7 сл., строка 56)
+- ## 3. Registry (`nautilus.json`) (0 сл., строка 46)
+- ### 3.2. Schema (8 сл., строка 54)
 
-### `108-2-формальный-workflow.md` (2 из 6)
+### `103-appendix-b-change-log.md` (2 из 8)
 
-- ## 2. Формальный workflow (0 сл., строка 36)
-- ### 2.1. Три фазы (0 сл., строка 38)
+- ## Appendix B: Change Log (0 сл., строка 20)
+- ## Упоминается в (10 сл., строка 73)
 
-### `133-обратная-связь.md` (2 из 21)
+### `105-review-methodology-md.md` (2 из 5)
 
-- ### Шесть архитектурных следствий вашей звезды Давида (13 сл., строка 381)
-- ### Что это значит для направлений проекта (14 сл., строка 437)
+- ## REVIEW_METHODOLOGY.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 71)
 
-### `150-appendix-c-version-history.md` (2 из 34)
+### `106-tl-dr.md` (2 из 5)
 
-- ## Appendix C: Version History (0 сл., строка 57)
-- ### Часть 7: Конкретное синтетическое предложение (8 сл., строка 318)
+- ## Упоминается в (10 сл., строка 59)
+- ## Связанные документы (11 сл., строка 64)
 
-### `186-appendix-c-sample-use-cases-in-detail.md` (2 из 18)
+### `108-2-формальный-workflow.md` (2 из 7)
 
-- ## Appendix C: Sample Use Cases in Detail (0 сл., строка 40)
-- ### Комментарий к этому документу (13 сл., строка 174)
+- ## 2. Формальный workflow (0 сл., строка 44)
+- ### 2.1. Три фазы (0 сл., строка 46)
 
-### `24-12-versioning-policy.md` (2 из 5)
+### `125-readme-mcp-md-инструкция-по-установке.md` (2 из 5)
 
-- ## 12. Versioning Policy (0 сл., строка 21)
-- ### 12.2. Version in Registry (13 сл., строка 31)
+- ## README-MCP.md— инструкция по установке (10 сл., строка 12)
+- ## Упоминается в (10 сл., строка 65)
 
-### `364-final-note-ты-experiment.md` (2 из 18)
+### `130-отладка.md` (2 из 9)
 
-- ### Что нужно decide перед использованием (7 сл., строка 63)
-- ### Как использовать этот системный промпт (0 сл., строка 98)
+- ## Отладка (0 сл., строка 21)
+- ## Упоминается в (10 сл., строка 75)
+
+### `134-the-double-triangle-architecture-md.md` (2 из 5)
+
+- ## THE DOUBLE-TRIANGLE ARCHITECTURE.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 50)
+
+### `142-5-pattern-library-as-bridge-between-triangles.md` (2 из 11)
+
+- ## 5. Pattern Library as Bridge Between Triangles (0 сл., строка 40)
+- ## Упоминается в (10 сл., строка 171)
+
+### `151-open-knowledge-work-foundation-md.md` (2 из 5)
+
+- ## OPEN KNOWLEDGE WORK FOUNDATION.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 61)
+
+### `155-1-problem-statement.md` (2 из 9)
+
+- ## 1. Problem Statement (0 сл., строка 33)
+- ## Упоминается в (10 сл., строка 153)
+
+### `156-2-target-populations.md` (2 из 11)
+
+- ## 2. Target Populations (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 176)
+
+### `157-3-why-existing-solutions-fail.md` (2 из 14)
+
+- ## 3. Why Existing Solutions Fail (14 сл., строка 37)
+- ## Упоминается в (10 сл., строка 202)
+
+### `161-7-phased-rollout-plan.md` (2 из 11)
+
+- ## 7. Phased Rollout Plan (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 177)
+
+### `162-8-risk-analysis.md` (2 из 12)
+
+- ## 8. Risk Analysis (0 сл., строка 41)
+- ## Упоминается в (10 сл., строка 202)
+
+### `164-10-appendices.md` (2 из 12)
+
+- ## 10. Appendices (0 сл., строка 35)
+- ## Упоминается в (10 сл., строка 204)
+
+### `165-closing.md` (2 из 37)
+
+- ## Упоминается в (10 сл., строка 409)
+- ## Связанные документы (12 сл., строка 414)
+
+### `166-representative-agent-layer-md.md` (2 из 5)
+
+- ## REPRESENTATIVE AGENT LAYER.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 40)
+
+### `171-2-historical-precedents-agents-as-civilizational-i.md` (2 из 13)
+
+- ## Упоминается в (10 сл., строка 230)
+- ## Связанные документы (10 сл., строка 235)
+
+### `172-3-what-makes-a-representative-agent.md` (2 из 10)
+
+- ## 3. What Makes a Representative Agent (13 сл., строка 33)
+- ## Упоминается в (10 сл., строка 177)
+
+### `174-5-architectural-specification.md` (2 из 10)
+
+- ## 5. Architectural Specification (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 186)
+
+### `187-слой-представительских-агентов-md.md` (2 из 5)
+
+- ## СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 37)
+
+### `193-3-что-делает-агента-представительским.md` (2 из 10)
+
+- ## 3. Что делает агента Представительским (11 сл., строка 39)
+- ## Упоминается в (10 сл., строка 134)
+
+### `203-благодарности.md` (2 из 4)
+
+- ## Упоминается в (9 сл., строка 41)
+- ## Упоминается в (10 сл., строка 45)
+
+### `207-приложение-c-образцы-случаев-использования-в-детал.md` (2 из 18)
+
+- ## Приложение C: Образцы Случаев Использования в Деталях (0 сл., строка 53)
+- ## Упоминается в (10 сл., строка 260)
+
+### `208-professional-colleague-agents-md.md` (2 из 5)
+
+- ## PROFESSIONAL COLLEAGUE AGENTS.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 52)
+
+### `21-9-query-flow.md` (2 из 9)
+
+- ## 9. Query Flow (0 сл., строка 23)
+- ## Упоминается в (10 сл., строка 84)
+
+### `213-2-what-makes-a-professional-colleague-agent.md` (2 из 10)
+
+- ## 2. What Makes a Professional Colleague Agent (7 сл., строка 34)
+- ## Упоминается в (10 сл., строка 198)
+
+### `214-3-empirical-case-study-обучай.md` (2 из 14)
+
+- ## 3. Empirical Case Study: «Обучай» (13 сл., строка 38)
+- ## Упоминается в (10 сл., строка 207)
+
+### `215-4-architecture-of-professional-colleague-agents.md` (2 из 11)
+
+- ## 4. Architecture of Professional Colleague Agents (0 сл., строка 35)
+- ## Упоминается в (10 сл., строка 213)
+
+### `22-10-queryresult-structure.md` (2 из 6)
+
+- ## 10. QueryResult Structure (0 сл., строка 12)
+- ## Упоминается в (10 сл., строка 70)
+
+### `224-acknowledgments.md` (2 из 5)
+
+- ## Упоминается в (11 сл., строка 54)
+- ## Упоминается в (10 сл., строка 59)
+
+### `228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (2 из 17)
+
+- ### Комментарий к шестому документу (12 сл., строка 82)
+- ## Упоминается в (10 сл., строка 218)
+
+### `229-профессиональные-коллеги-агенты.md` (2 из 6)
+
+- ## ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ (0 сл., строка 12)
+- ## Упоминается в (10 сл., строка 76)
+
+### `23-11-security-considerations.md` (2 из 10)
+
+- ## 11. Security Considerations (0 сл., строка 45)
+- ## Упоминается в (10 сл., строка 102)
+
+### `230-аннотация.md` (2 из 5)
+
+- ## Упоминается в (10 сл., строка 103)
+- ## Связанные документы (13 сл., строка 108)
+
+### `233-2-что-делает-агента-профессиональным-коллегой.md` (2 из 10)
+
+- ## 2. Что делает агента Профессиональным Коллегой (6 сл., строка 34)
+- ## Упоминается в (10 сл., строка 223)
+
+### `236-5-экономика-тиражирования-по-профессии.md` (2 из 11)
+
+- ## Упоминается в (10 сл., строка 215)
+- ## Связанные документы (13 сл., строка 220)
+
+### `249-composite-skills-agent-md.md` (2 из 5)
+
+- ## COMPOSITE SKILLS AGENT.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 45)
+
+### `254-1-why-the-binary-view-is-incomplete.md` (2 из 10)
+
+- ## 1. Why the Binary View Is Incomplete (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 161)
+
+### `256-3-what-makes-a-composite-skills-agent.md` (2 из 11)
+
+- ## 3. What Makes a Composite Skills Agent (6 сл., строка 35)
+- ## Упоминается в (10 сл., строка 215)
+
+### `259-6-coordination-and-disagreement-resolution.md` (2 из 11)
+
+- ## 6. Coordination and Disagreement Resolution (13 сл., строка 35)
+- ## Упоминается в (10 сл., строка 189)
+
+### `272-appendix-d-connection-diagram.md` (2 из 29)
+
+- ### Комментарий к седьмому документу (7 сл., строка 80)
+- ## Упоминается в (10 сл., строка 332)
+
+### `273-infrastructure-for-ai-collaborative-intellectual-w.md` (2 из 5)
+
+- ## INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 42)
+
+### `288-appendix-position-in-series-visualization.md` (2 из 14)
+
+- ### Заметки к восьмому (2.3) документу (0 сл., строка 66)
+- ## Упоминается в (10 сл., строка 167)
+
+### `289-инфраструктура-для-ai-совместной-интеллектуальной-.md` (2 из 7)
+
+- ## ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ (0 сл., строка 12)
+- ## Упоминается в (10 сл., строка 91)
+
+### `296-рекурсивное-прозрение.md` (2 из 5)
+
+- ## Упоминается в (10 сл., строка 113)
+- ## Связанные документы (3 сл., строка 118)
+
+### `304-ingit-as-cowork-native-workspace-substrate-md.md` (2 из 5)
+
+- ## INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 42)
+
+### `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (2 из 19)
+
+- ### Заметки к девятому документу (2.4) (6 сл., строка 71)
+- ## Упоминается в (10 сл., строка 197)
+
+### `324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (2 из 6)
+
+- ## INGIT КАК COWORK-ИНТЕГРИРОВАННАЯ ПОДЛОЖКА РАБОЧЕГО ПРОСТРАНСТВА (0 сл., строка 21)
+- ## Упоминается в (10 сл., строка 109)
+
+### `329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (2 из 16)
+
+- ## 3. Что InGit обеспечивает, чего Cowork не хватает (13 сл., строка 45)
+- ## Упоминается в (10 сл., строка 261)
+
+### `344-системный-промпт-для-lorenzo-project.md` (2 из 5)
+
+- ## СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 43)
+
+### `35-passports-info1-md.md` (2 из 5)
+
+- ## passports/info1.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 63)
+
+### `356-твой-workflow.md` (2 из 5)
+
+- ## Упоминается в (10 сл., строка 77)
+- ## Связанные документы (6 сл., строка 82)
+
+### `366-технический-stack-svyazi-2-0-foundation.md` (2 из 7)
+
+- ## Упоминается в (10 сл., строка 159)
+- ## Связанные документы (6 сл., строка 164)
+
+### `45-passports-pro2-md.md` (2 из 5)
+
+- ## passports/pro2.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 59)
+
+### `55-passports-meta-md.md` (2 из 5)
+
+- ## passports/meta.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 59)
+
+### `65-readme-md.md` (2 из 6)
+
+- ## README.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 57)
 
 ### `68-about.md` (2 из 14)
 
 - ### Quick Start (0 сл., строка 82)
 - ### Licenses (14 сл., строка 178)
+
+### `71-критерии-выбора-для-фазы-3.md` (2 из 5)
+
+- ## Упоминается в (10 сл., строка 50)
+- ## Связанные документы (7 сл., строка 55)
+
+### `73-portal-protocol-md-v1-1.md` (2 из 5)
+
+- ## PORTAL-PROTOCOL.md v1.1 (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 62)
 
 ### `78-3-registry-nautilus-json.md` (2 из 9)
 
@@ -1217,10 +1812,10 @@ _Обновлено: 2026-04-29_
 - ## 4. Passport (`passport.md`) (0 сл., строка 32)
 - ### 4.2. Required Structure (9 сл., строка 44)
 
-### `83-8-q6-space-normative.md` (2 из 7)
+### `83-8-q6-space-normative.md` (2 из 8)
 
-- ## 8. Q6 Space (Normative) (0 сл., строка 37)
-- ### 8.2. Mandatory for Level 2+ (13 сл., строка 45)
+- ## 8. Q6 Space (Normative) (0 сл., строка 46)
+- ### 8.2. Mandatory for Level 2+ (13 сл., строка 54)
 
 ### `86-11-relevance-ranking.md` (2 из 4)
 
@@ -1232,30 +1827,30 @@ _Обновлено: 2026-04-29_
 - ### 14.1. Required SDK Methods (0 сл., строка 29)
 - ### 14.2. Optional SDK Methods (0 сл., строка 33)
 
-### `05-benchmarks.md` (2 из 9)
+### `CHANGELOG_AUTO.md` (2 из 7)
 
-- ### КОМБИНАЦИЯ 9: Agent Orchestration Stack (0 сл., строка 90)
-- ### КОМБИНАЦИЯ 10: Legal Document Intelligence Pipeline (0 сл., строка 100)
-
-### `CONTACTS.md` (2 из 4)
-
-- ## Email адреса (2 сл., строка 73)
-- ## Шаблон первого сообщения (0 сл., строка 77)
+- ## Contents (13 сл., строка 24)
+- ## История изменений (0 сл., строка 43)
 
 ### `CONTACT_PRIORITY.md` (2 из 4)
 
-- ## Рекомендуемые следующие шаги (0 сл., строка 25)
-- ## Формула расчёта балла (8 сл., строка 33)
+- ## Рекомендуемые следующие шаги (0 сл., строка 35)
+- ## Формула расчёта балла (8 сл., строка 43)
 
 ### `COVERAGE.md` (2 из 4)
 
-- ## Полное покрытие — 0 файлов (0 сл., строка 44)
-- ## Рекомендуемые действия (0 сл., строка 47)
+- ## Полное покрытие — 1 файлов (3 сл., строка 25)
+- ## Рекомендуемые действия (0 сл., строка 29)
+
+### `DUPLICATES.md` (2 из 12)
+
+- ## Точные дубли (одинаковое содержимое) (12 сл., строка 7)
+- ## Похожие файлы (Jaccard ≥ 0.5) (0 сл., строка 13)
 
 ### `MINDMAP.md` (2 из 3)
 
-- ## Структура разделов (0 сл., строка 3)
-- ## Поток данных между проектами (0 сл., строка 7)
+- ## Структура разделов (0 сл., строка 13)
+- ## Поток данных между проектами (0 сл., строка 17)
 
 ### `ONBOARDING.md` (2 из 9)
 
@@ -1264,18 +1859,13 @@ _Обновлено: 2026-04-29_
 
 ### `ORPHANS.md` (2 из 4)
 
-- ## По разделам (0 сл., строка 13)
-- ### autofilled (1 изолированных) (4 сл., строка 16)
+- ## По разделам (0 сл., строка 20)
+- ### autofilled (1 изолированных) (4 сл., строка 23)
 
-### `PROGRESS.md` (2 из 5)
+### `PRIORITIES.md` (2 из 83)
 
-- ## Следующий шаг (13 сл., строка 39)
-- ## Связанные документы (12 сл., строка 49)
-
-### `REPORT.md` (2 из 11)
-
-- ## Корпус документов (0 сл., строка 25)
-- ## Быстрый старт (6 сл., строка 128)
+- ## Топ-5 по каждому разделу (0 сл., строка 62)
+- ### ai-collaborations (11 сл., строка 151)
 
 ### `SIMILAR.md` (2 из 8)
 
@@ -1287,65 +1877,65 @@ _Обновлено: 2026-04-29_
 - ## По MCP-серверу (0 сл., строка 39)
 - ## Подробно (0 сл., строка 75)
 
-### `README.md` (2 из 2)
-
-- ## Содержание (6 сл., строка 5)
-- ## Подразделы (4 сл., строка 9)
-
-### `.md` (2 из 2)
+### `.md` (2 из 4)
 
 - ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
+- ## Ссылки (7 сл., строка 20)
 
-### `cowork.md` (2 из 2)
-
-- ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
-
-### `ingit.md` (2 из 2)
+### `cowork.md` (2 из 5)
 
 - ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
+- ## Ссылки (7 сл., строка 20)
 
-### `kksudo.md` (2 из 2)
-
-- ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
-
-### `lorenzo.md` (2 из 2)
+### `ingit.md` (2 из 5)
 
 - ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
+- ## Ссылки (7 сл., строка 20)
 
-### `nautilus.md` (2 из 2)
-
-- ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
-
-### `sgb.md` (2 из 2)
+### `kksudo.md` (2 из 5)
 
 - ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
+- ## Ссылки (7 сл., строка 20)
 
-### `spbmolot.md` (2 из 2)
-
-- ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
-
-### `svend4.md` (2 из 2)
+### `lorenzo.md` (2 из 5)
 
 - ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
+- ## Ссылки (7 сл., строка 20)
 
-### `svyazi.md` (2 из 2)
+### `nautilus.md` (2 из 5)
 
 - ## Описание (4 сл., строка 17)
-- ## Ссылки (4 сл., строка 20)
+- ## Ссылки (7 сл., строка 20)
+
+### `sgb.md` (2 из 5)
+
+- ## Описание (4 сл., строка 17)
+- ## Ссылки (7 сл., строка 20)
+
+### `spbmolot.md` (2 из 5)
+
+- ## Описание (4 сл., строка 17)
+- ## Ссылки (7 сл., строка 20)
+
+### `svend4.md` (2 из 5)
+
+- ## Описание (4 сл., строка 17)
+- ## Ссылки (7 сл., строка 20)
+
+### `svyazi.md` (2 из 5)
+
+- ## Описание (4 сл., строка 17)
+- ## Ссылки (7 сл., строка 20)
 
 ### `components-by-name.md` (2 из 22)
 
 - ## F (13 сл., строка 84)
 - ## V (9 сл., строка 161)
+
+### `01-concept.md` (2 из 5)
+
+- ## Три кита: Чтение → Понимание → Действие (1 сл., строка 52)
+- ## Граница: что скрипт может делать сам, что — только с LLM (1 сл., строка 58)
 
 ### `13-closing.md` (2 из 6)
 
@@ -1407,43 +1997,35 @@ _Обновлено: 2026-04-29_
 - ## 2. Формальный workflow (0 сл., строка 19)
 - ### 2.1. Три фазы (0 сл., строка 21)
 
+### `04-structuring.md` (2 из 11)
+
+- ## Инструмент 7: See-also и сноски (13 сл., строка 123)
+- ## Итоговая структура файла после всех инструментов (1 сл., строка 132)
+
 ### `continuation-10-domains.md` (2 из 7)
 
 - ## 5 кросс‑сквозных эмерджентных архитектур (11 сл., строка 39)
 - ## Применение к Sozialrecht (9 сл., строка 49)
 
-### `contact-outreach.md` (2 из 4)
+### `13-contacts.md` (1 из 6)
 
-- ## Первое сообщение (0 сл., строка 22)
-- ## Открытые вопросы для обсуждения (9 сл., строка 26)
+- ## Упоминается в (10 сл., строка 107)
 
-### `00-intro.md` (1 из 54)
+### `04-abstract.md` (1 из 5)
 
-- ### Финализированный план consolidation на все 70 (14 сл., строка 384)
+- ## Упоминается в (10 сл., строка 68)
 
-### `03-portal-protocol-md.md` (1 из 1)
+### `05-0-status-of-this-document.md` (1 из 5)
 
-- ## PORTAL-PROTOCOL.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 68)
 
 ### `06-1-introduction.md` (1 из 6)
 
 - ## 1. Introduction (0 сл., строка 31)
 
-### `103-appendix-b-change-log.md` (1 из 4)
-
-- ## Appendix B: Change Log (0 сл., строка 20)
-
-### `105-review-methodology-md.md` (1 из 1)
-
-- ## REVIEW_METHODOLOGY.md (2 сл., строка 12)
-
 ### `107-1-контекст-и-мотивация.md` (1 из 5)
 
 - ## 1. Контекст и мотивация (0 сл., строка 36)
-
-### `109-3-принципы-консолидации-фаза-c.md` (1 из 9)
-
-- ### 3.1. Для каждого расхождения применяются правила (0 сл., строка 42)
 
 ### `111-4-условия-применимости.md` (1 из 5)
 
@@ -1455,7 +2037,7 @@ _Обновлено: 2026-04-29_
 
 ### `114-7-реализация-в-проекте-nautilus.md` (1 из 5)
 
-- ## 7. Реализация в проекте Nautilus (0 сл., строка 30)
+- ## 7. Реализация в проекте Nautilus (0 сл., строка 26)
 
 ### `115-8-ограничения-и-открытые-вопросы.md` (1 из 5)
 
@@ -1473,21 +2055,53 @@ _Обновлено: 2026-04-29_
 
 - ## Appendix B: Примеры расхождений и их разрешения (0 сл., строка 36)
 
-### `121-appendix-c-история-изменений-методологии.md` (1 из 2)
+### `12-content-overview.md` (1 из 5)
 
-- ## Appendix C: История изменений методологии (0 сл., строка 10)
+- ## Упоминается в (10 сл., строка 30)
 
-### `125-readme-mcp-md-инструкция-по-установке.md` (1 из 1)
+### `121-appendix-c-история-изменений-методологии.md` (1 из 5)
 
-- ## README-MCP.md— инструкция по установке (10 сл., строка 12)
+- ## Appendix C: История изменений методологии (0 сл., строка 17)
 
-### `130-отладка.md` (1 из 5)
+### `122-глоссарий.md` (1 из 18)
 
-- ## Отладка (0 сл., строка 21)
+- ## Упоминается в (10 сл., строка 158)
 
-### `134-the-double-triangle-architecture-md.md` (1 из 1)
+### `123-portal-mcp-py.md` (1 из 6)
 
-- ## THE DOUBLE-TRIANGLE ARCHITECTURE.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 85)
+
+### `128-доступные-инструменты.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 60)
+
+### `129-примеры-запросов-в-claude.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 62)
+
+### `13-angle-perspective.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 35)
+
+### `131-ограничения-текущей-версии-0-1-0-draft.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 48)
+
+### `132-planned-v0-2-0.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 48)
+
+### `135-a-formal-model-for-human-ai-collaboration-in-distr.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 55)
+
+### `136-abstract.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 114)
+
+### `137-table-of-contents.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 61)
 
 ### `138-1-why-single-triangle-models-are-incomplete.md` (1 из 6)
 
@@ -1497,69 +2111,81 @@ _Обновлено: 2026-04-29_
 
 - ## 2. The Double-Triangle Architecture (0 сл., строка 39)
 
-### `142-5-pattern-library-as-bridge-between-triangles.md` (1 из 7)
+### `140-3-three-inter-layer-protocols.md` (1 из 10)
 
-- ## 5. Pattern Library as Bridge Between Triangles (0 сл., строка 40)
+- ## Упоминается в (10 сл., строка 199)
+
+### `141-4-nautilus-portal-as-reference-substrate.md` (1 из 9)
+
+- ## Упоминается в (10 сл., строка 167)
+
+### `143-6-four-deployment-domains.md` (1 из 10)
+
+- ## Упоминается в (10 сл., строка 190)
+
+### `144-7-open-questions.md` (1 из 12)
+
+- ## Упоминается в (10 сл., строка 195)
+
+### `145-8-call-to-action.md` (1 из 11)
+
+- ## Упоминается в (10 сл., строка 193)
+
+### `146-acknowledgments.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 78)
 
 ### `147-references.md` (1 из 9)
 
 - ## References (0 сл., строка 34)
 
-### `151-open-knowledge-work-foundation-md.md` (1 из 1)
+### `148-appendix-a-glossary.md` (1 из 5)
 
-- ## OPEN KNOWLEDGE WORK FOUNDATION.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 112)
 
-### `155-1-problem-statement.md` (1 из 5)
+### `149-appendix-b-summary-of-contributions.md` (1 из 6)
 
-- ## 1. Problem Statement (0 сл., строка 33)
+- ## Упоминается в (10 сл., строка 73)
 
-### `156-2-target-populations.md` (1 из 7)
+### `152-ai-coordinated-infrastructure-for-distributed-expe.md` (1 из 5)
 
-- ## 2. Target Populations (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 54)
 
-### `157-3-why-existing-solutions-fail.md` (1 из 10)
+### `153-executive-summary.md` (1 из 6)
 
-- ## 3. Why Existing Solutions Fail (14 сл., строка 37)
+- ## Упоминается в (10 сл., строка 116)
+
+### `154-table-of-contents.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 63)
 
 ### `159-5-economic-model.md` (1 из 8)
 
 - ## 5. Economic Model (0 сл., строка 61)
 
+### `16-history.md` (1 из 5)
+
+- ## Упоминается в (7 сл., строка 30)
+
 ### `160-6-governance-and-ethics.md` (1 из 8)
 
 - ## 6. Governance and Ethics (0 сл., строка 48)
 
-### `161-7-phased-rollout-plan.md` (1 из 7)
+### `167-ai-mediated-representation-for-underrepresented-ex.md` (1 из 5)
 
-- ## 7. Phased Rollout Plan (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 69)
 
-### `162-8-risk-analysis.md` (1 из 9)
+### `168-abstract.md` (1 из 6)
 
-- ## 8. Risk Analysis (0 сл., строка 41)
+- ## Упоминается в (10 сл., строка 111)
 
-### `164-10-appendices.md` (1 из 8)
+### `169-table-of-contents.md` (1 из 5)
 
-- ## 10. Appendices (0 сл., строка 35)
+- ## Упоминается в (10 сл., строка 59)
 
-### `166-representative-agent-layer-md.md` (1 из 1)
+### `176-7-governance-and-oversight.md` (1 из 8)
 
-- ## REPRESENTATIVE AGENT LAYER.md (2 сл., строка 12)
-
-### `170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (1 из 6)
-
-- ## 1. The Cinderella Syndrome: Why Quality Stays Invisible (0 сл., строка 33)
-
-### `172-3-what-makes-a-representative-agent.md` (1 из 6)
-
-- ## 3. What Makes a Representative Agent (13 сл., строка 33)
-
-### `174-5-architectural-specification.md` (1 из 6)
-
-- ## 5. Architectural Specification (0 сл., строка 34)
-
-### `176-7-governance-and-oversight.md` (1 из 7)
-
-- ## 7. Governance and Oversight (0 сл., строка 33)
+- ## 7. Governance and Oversight (0 сл., строка 41)
 
 ### `177-8-risks-and-mitigations.md` (1 из 11)
 
@@ -1569,33 +2195,45 @@ _Обновлено: 2026-04-29_
 
 - ## 9. Phased Rollout Strategy (11 сл., строка 48)
 
-### `179-10-open-questions.md` (1 из 7)
+### `179-10-open-questions.md` (1 из 8)
 
-- ## 10. Open Questions (11 сл., строка 32)
+- ## 10. Open Questions (11 сл., строка 41)
+
+### `181-12-closing.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 82)
+
+### `182-acknowledgments.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 69)
 
 ### `183-references.md` (1 из 7)
 
 - ## References (0 сл., строка 32)
 
-### `187-слой-представительских-агентов-md.md` (1 из 1)
+### `184-appendix-a-connection-to-companion-papers.md` (1 из 5)
 
-- ## СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 76)
 
 ### `19-7-portalentry-structure.md` (1 из 2)
 
 - ## 7. PortalEntry Structure (5 сл., строка 26)
 
+### `190-содержание.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 63)
+
 ### `191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (1 из 6)
 
 - ## 1. Синдром Золушки: Почему качество остаётся невидимым (0 сл., строка 39)
 
-### `193-3-что-делает-агента-представительским.md` (1 из 6)
+### `192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (1 из 11)
 
-- ## 3. Что делает агента Представительским (11 сл., строка 39)
+- ## Упоминается в (7 сл., строка 155)
 
 ### `195-5-архитектурная-спецификация.md` (1 из 6)
 
-- ## 5. Архитектурная спецификация (0 сл., строка 39)
+- ## 5. Архитектурная спецификация (0 сл., строка 29)
 
 ### `197-7-управление-и-надзор.md` (1 из 7)
 
@@ -1617,69 +2255,77 @@ _Обновлено: 2026-04-29_
 
 - ## 10. Открытые вопросы (12 сл., строка 33)
 
+### `202-12-заключение.md` (1 из 3)
+
+- ## Упоминается в (7 сл., строка 27)
+
 ### `204-ссылки.md` (1 из 7)
 
 - ## Ссылки (0 сл., строка 32)
 
-### `207-приложение-c-образцы-случаев-использования-в-детал.md` (1 из 14)
+### `209-a-typology-of-ai-agents-on-the-principal-side-and-.md` (1 из 5)
 
-- ## Приложение C: Образцы Случаев Использования в Деталях (0 сл., строка 53)
+- ## Упоминается в (10 сл., строка 72)
 
-### `208-professional-colleague-agents-md.md` (1 из 1)
+### `210-abstract.md` (1 из 6)
 
-- ## PROFESSIONAL COLLEAGUE AGENTS.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 108)
 
-### `21-9-query-flow.md` (1 из 5)
+### `211-table-of-contents.md` (1 из 5)
 
-- ## 9. Query Flow (0 сл., строка 23)
+- ## Упоминается в (10 сл., строка 76)
 
-### `213-2-what-makes-a-professional-colleague-agent.md` (1 из 6)
+### `212-1-the-five-type-typology-of-principal-side-agents.md` (1 из 13)
 
-- ## 2. What Makes a Professional Colleague Agent (7 сл., строка 34)
+- ## Упоминается в (10 сл., строка 232)
 
-### `214-3-empirical-case-study-обучай.md` (1 из 10)
+### `216-5-the-economics-of-profession-wide-replication.md` (1 из 11)
 
-- ## 3. Empirical Case Study: «Обучай» (13 сл., строка 38)
+- ## Упоминается в (10 сл., строка 189)
 
-### `215-4-architecture-of-professional-colleague-agents.md` (1 из 7)
+### `217-6-risks-specific-to-this-category.md` (1 из 13)
 
-- ## 4. Architecture of Professional Colleague Agents (0 сл., строка 35)
+- ## Упоминается в (10 сл., строка 278)
 
-### `22-10-queryresult-structure.md` (1 из 2)
+### `218-7-application-domains.md` (1 из 14)
 
-- ## 10. QueryResult Structure (0 сл., строка 12)
+- ## Упоминается в (10 сл., строка 232)
 
-### `221-10-open-questions.md` (1 из 10)
+### `219-8-pilot-proposal-sgb-advocate-colleague.md` (1 из 14)
 
-- ## 10. Open Questions (4 сл., строка 35)
+- ## Упоминается в (10 сл., строка 267)
+
+### `220-9-relationship-to-other-agent-types.md` (1 из 11)
+
+- ## Упоминается в (10 сл., строка 176)
+
+### `221-10-open-questions.md` (1 из 11)
+
+- ## 10. Open Questions (4 сл., строка 47)
 
 ### `222-11-call-for-collaboration.md` (1 из 9)
 
 - ## 11. Call for Collaboration (6 сл., строка 33)
 
+### `223-12-closing.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 128)
+
 ### `225-references.md` (1 из 8)
 
 - ## References (0 сл., строка 33)
 
-### `228-appendix-c-quick-start-architecture-for-sgb-advoca.md` (1 из 12)
+### `227-appendix-b-decision-framework-when-to-build-type-1.md` (1 из 5)
 
-- ### Комментарий к шестому документу (12 сл., строка 71)
+- ## Упоминается в (10 сл., строка 91)
 
-### `229-профессиональные-коллеги-агенты.md` (1 из 2)
+### `231-содержание.md` (1 из 5)
 
-- ## ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ (0 сл., строка 12)
+- ## Упоминается в (10 сл., строка 66)
 
-### `23-11-security-considerations.md` (1 из 5)
+### `232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md` (1 из 13)
 
-- ## 11. Security Considerations (0 сл., строка 36)
-
-### `233-2-что-делает-агента-профессиональным-коллегой.md` (1 из 6)
-
-- ## 2. Что делает агента Профессиональным Коллегой (6 сл., строка 34)
-
-### `234-3-эмпирический-кейс-обучай.md` (1 из 10)
-
-- ## 3. Эмпирический кейс: «Обучай» (11 сл., строка 43)
+- ## Упоминается в (10 сл., строка 255)
 
 ### `235-4-архитектура-профессиональных-коллег-агентов.md` (1 из 7)
 
@@ -1693,65 +2339,185 @@ _Обновлено: 2026-04-29_
 
 - ## 11. Призыв к сотрудничеству (5 сл., строка 35)
 
+### `243-12-заключение.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 133)
+
+### `244-благодарности.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 68)
+
 ### `245-ссылки.md` (1 из 8)
 
 - ## Ссылки (0 сл., строка 33)
 
-### `249-composite-skills-agent-md.md` (1 из 1)
+### `248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md` (1 из 23)
 
-- ## COMPOSITE SKILLS AGENT.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 302)
+
+### `25-13-reference-implementation.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 71)
 
 ### `250-bridging-the-gap-between-profession-wide-and-indiv.md` (1 из 1)
 
 - ## Bridging the Gap Between Profession-Wide and Individual-Unique (0 сл., строка 3)
 
-### `254-1-why-the-binary-view-is-incomplete.md` (1 из 6)
+### `251-ai-support-through-configurable-specialist-ensembl.md` (1 из 5)
 
-- ## 1. Why the Binary View Is Incomplete (0 сл., строка 34)
+- ## Упоминается в (10 сл., строка 72)
 
-### `256-3-what-makes-a-composite-skills-agent.md` (1 из 7)
+### `252-abstract.md` (1 из 6)
 
-- ## 3. What Makes a Composite Skills Agent (6 сл., строка 35)
+- ## Упоминается в (10 сл., строка 110)
 
-### `259-6-coordination-and-disagreement-resolution.md` (1 из 7)
+### `253-table-of-contents.md` (1 из 5)
 
-- ## 6. Coordination and Disagreement Resolution (13 сл., строка 35)
+- ## Упоминается в (10 сл., строка 67)
+
+### `255-2-the-twenty-one-teachers-pattern.md` (1 из 10)
+
+- ## Упоминается в (10 сл., строка 181)
+
+### `257-4-the-sub-agent-registry.md` (1 из 11)
+
+- ## Упоминается в (10 сл., строка 202)
+
+### `258-5-configuration-how-principals-build-their-ensembl.md` (1 из 11)
+
+- ## Упоминается в (10 сл., строка 185)
+
+### `26-14-adr-001-federation-over-merging.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 73)
+
+### `260-7-economics-of-combinatorial-replication.md` (1 из 11)
+
+- ## Упоминается в (10 сл., строка 197)
+
+### `261-8-seven-domains-of-application.md` (1 из 14)
+
+- ## Упоминается в (10 сл., строка 228)
+
+### `263-10-risks-specific-to-composite-architectures.md` (1 из 14)
+
+- ## Упоминается в (10 сл., строка 210)
 
 ### `264-11-open-questions.md` (1 из 11)
 
 - ## 11. Open Questions (8 сл., строка 56)
 
-### `265-12-call-for-collaboration.md` (1 из 8)
+### `265-12-call-for-collaboration.md` (1 из 9)
 
-- ## 12. Call for Collaboration (8 сл., строка 32)
+- ## 12. Call for Collaboration (8 сл., строка 43)
 
-### `268-references.md` (1 из 7)
+### `266-13-closing.md` (1 из 6)
 
-- ## References (0 сл., строка 31)
+- ## Упоминается в (10 сл., строка 128)
 
-### `272-appendix-d-connection-diagram.md` (1 из 25)
+### `267-acknowledgments.md` (1 из 5)
 
-- ### Комментарий к седьмому документу (7 сл., строка 80)
+- ## Упоминается в (10 сл., строка 92)
 
-### `273-infrastructure-for-ai-collaborative-intellectual-w.md` (1 из 1)
+### `268-references.md` (1 из 8)
 
-- ## INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md (2 сл., строка 12)
+- ## References (0 сл., строка 41)
 
-### `288-appendix-position-in-series-visualization.md` (1 из 9)
+### `269-appendix-a-the-six-type-taxonomy-updated.md` (1 из 5)
 
-- ### Заметки к восьмому (2.3) документу (0 сл., строка 55)
+- ## Упоминается в (10 сл., строка 72)
 
-### `289-инфраструктура-для-ai-совместной-интеллектуальной-.md` (1 из 3)
+### `274-the-missing-middle-layer-between-chat-and-code.md` (1 из 5)
 
-- ## ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ (0 сл., строка 12)
+- ## Упоминается в (10 сл., строка 76)
 
-### `304-ingit-as-cowork-native-workspace-substrate-md.md` (1 из 1)
+### `275-why-this-document-exists.md` (1 из 6)
 
-- ## INGIT AS COWORK-NATIVE WORKSPACE SUBSTRATE.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 101)
+
+### `276-the-two-layer-stack-as-it-exists.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 116)
+
+### `277-what-s-missing-layer-b.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 123)
+
+### `278-why-this-hasn-t-been-built.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 111)
+
+### `280-the-specific-case-in-front-of-us.md` (1 из 9)
+
+- ## Упоминается в (10 сл., строка 150)
+
+### `281-the-recursive-insight.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 118)
+
+### `282-what-industry-will-likely-build.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 88)
+
+### `283-what-this-document-doesn-t-solve.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 66)
+
+### `284-practical-recommendations-for-the-current-project.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 117)
+
+### `285-closing.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 85)
+
+### `286-acknowledgments.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 73)
+
+### `291-двухслойный-стек-как-он-существует.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 116)
+
+### `292-что-отсутствует-слой-b.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 134)
+
+### `299-практические-рекомендации-для-текущего-проекта.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 113)
+
+### `301-благодарности.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 78)
+
+### `303-приложение-визуализация-позиции-в-серии.md` (1 из 16)
+
+- ## Упоминается в (10 сл., строка 246)
+
+### `305-a-practical-path-to-layer-b-through-symbiotic-inte.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 35)
+
+### `306-with-anthropic-s-cowork-platform.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 96)
+
+### `307-abstract.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 102)
+
+### `308-table-of-contents.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 70)
 
 ### `309-1-the-cowork-discovery-and-why-it-changes-everythi.md` (1 из 5)
 
 - ## 1. The Cowork Discovery and Why It Changes Everything (0 сл., строка 32)
+
+### `31-content-overview.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 31)
 
 ### `311-3-what-ingit-provides-that-cowork-lacks.md` (1 из 11)
 
@@ -1765,9 +2531,9 @@ _Обновлено: 2026-04-29_
 
 - ## 5. Four Integration Paths in Order of Accessibility (8 сл., строка 35)
 
-### `315-7-practical-first-steps-this-month.md` (1 из 6)
+### `315-7-practical-first-steps-this-month.md` (1 из 7)
 
-- ## 7. Practical First Steps This Month (6 сл., строка 34)
+- ## 7. Practical First Steps This Month (6 сл., строка 41)
 
 ### `316-8-implications-for-nautilus-and-okwf.md` (1 из 8)
 
@@ -1781,21 +2547,21 @@ _Обновлено: 2026-04-29_
 
 - ## 10. Strategic Positioning (6 сл., строка 36)
 
-### `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` (1 из 14)
+### `319-acknowledgments.md` (1 из 7)
 
-- ### Заметки к девятому документу (2.4) (6 сл., строка 60)
+- ## Упоминается в (10 сл., строка 121)
 
-### `324-ingit-как-cowork-интегрированная-подложка-рабочего.md` (1 из 2)
+### `321-appendix-a-decision-tree-for-ingit-adopters.md` (1 из 5)
 
-- ## INGIT КАК COWORK-ИНТЕГРИРОВАННАЯ ПОДЛОЖКА РАБОЧЕГО ПРОСТРАНСТВА (0 сл., строка 21)
+- ## Упоминается в (10 сл., строка 55)
+
+### `326-содержание.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 72)
 
 ### `327-1-открытие-cowork-и-почему-это-меняет-всё.md` (1 из 5)
 
 - ## 1. Открытие Cowork и почему это меняет всё (0 сл., строка 38)
-
-### `329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (1 из 12)
-
-- ## 3. Что InGit обеспечивает, чего Cowork не хватает (13 сл., строка 45)
 
 ### `330-4-симбиотическая-архитектура.md` (1 из 8)
 
@@ -1815,51 +2581,123 @@ _Обновлено: 2026-04-29_
 
 ### `336-10-стратегическое-позиционирование.md` (1 из 8)
 
-- ## 10. Стратегическое Позиционирование (7 сл., строка 36)
+- ## 10. Стратегическое Позиционирование (7 сл., строка 31)
 
-### `344-системный-промпт-для-lorenzo-project.md` (1 из 1)
+### `34-appendix-b-change-log.md` (1 из 9)
 
-- ## СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 115)
 
-### `35-passports-info1-md.md` (1 из 1)
+### `351-что-ты-можешь-делать.md` (1 из 5)
 
-- ## passports/info1.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 51)
+
+### `353-что-ты-не-можешь-делать-вообще.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 52)
+
+### `355-существующие-документы-dhlab-твой-context.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 61)
+
+### `358-твоя-relationship-с-другими-ai.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 56)
+
+### `37-native-format.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 65)
+
+### `39-angle-perspective.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 56)
 
 ### `40-bridges.md` (1 из 5)
 
 - ## Bridges (0 сл., строка 23)
 
-### `45-passports-pro2-md.md` (1 из 1)
+### `41-compatibility-level.md` (1 из 5)
 
-- ## passports/pro2.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 61)
+
+### `42-author-contact.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 74)
+
+### `44-for-the-curious-philosophy.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 60)
+
+### `47-native-format.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 55)
+
+### `49-angle-perspective.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 57)
 
 ### `50-bridges.md` (1 из 4)
 
 - ## Bridges (0 сл., строка 22)
 
-### `55-passports-meta-md.md` (1 из 1)
+### `51-compatibility-level.md` (1 из 5)
 
-- ## passports/meta.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 60)
+
+### `52-author-contact.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 64)
+
+### `53-history.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 62)
+
+### `54-for-the-curious-philosophy.md` (1 из 6)
+
+- ## Упоминается в (10 сл., строка 62)
+
+### `57-native-format.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 61)
+
+### `59-angle-perspective.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 56)
 
 ### `60-bridges.md` (1 из 4)
 
 - ## Bridges (0 сл., строка 22)
 
-### `65-readme-md.md` (1 из 2)
+### `61-compatibility-level.md` (1 из 5)
 
-- ## README.md (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 57)
 
-### `72-расписание-фазы-3.md` (1 из 6)
+### `62-author-contact.md` (1 из 5)
 
-- ## Расписание фазы 3 (5 сл., строка 39)
+- ## Упоминается в (10 сл., строка 65)
 
-### `73-portal-protocol-md-v1-1.md` (1 из 1)
+### `63-history.md` (1 из 5)
 
-- ## PORTAL-PROTOCOL.md v1.1 (2 сл., строка 12)
+- ## Упоминается в (10 сл., строка 60)
 
-### `76-1-introduction.md` (1 из 7)
+### `64-for-the-curious-philosophy.md` (1 из 7)
 
-- ## 1. Introduction (0 сл., строка 32)
+- ## Упоминается в (10 сл., строка 110)
+
+### `70-зачем-две-версии-параллельно.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 50)
+
+### `74-abstract.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 81)
+
+### `75-0-status-of-this-document.md` (1 из 5)
+
+- ## Упоминается в (10 сл., строка 62)
+
+### `76-1-introduction.md` (1 из 8)
+
+- ## 1. Introduction (0 сл., строка 41)
 
 ### `80-5-compatibility-levels.md` (1 из 6)
 
@@ -1875,51 +2713,71 @@ _Обновлено: 2026-04-29_
 
 ### `88-13-rest-api-contract-normative-for-portals.md` (1 из 9)
 
-- ### 13.5. OpenAPI Specification (11 сл., строка 105)
+- ### 13.5. OpenAPI Specification (11 сл., строка 99)
 
-### `90-15-security-considerations.md` (1 из 7)
+### `91-16-mcp-extension-informative.md` (1 из 5)
 
-- ## 15. Security Considerations (0 сл., строка 38)
+- ## Упоминается в (10 сл., строка 63)
 
 ### `92-17-versioning-policy.md` (1 из 6)
 
 - ## 17. Versioning Policy (0 сл., строка 36)
 
-### `README.md` (1 из 2)
+### `93-18-reference-implementation.md` (1 из 6)
 
-- ## Подразделы (10 сл., строка 11)
+- ## Упоминается в (10 сл., строка 82)
 
-### `README.md` (1 из 1)
+### `94-19-adr-001-federation-over-merging.md` (1 из 5)
 
-- ## Содержание (6 сл., строка 5)
+- ## Упоминается в (10 сл., строка 74)
 
-### `ALERTS.md` (1 из 1)
+### `95-20-adr-002-q6-as-first-class-protocol-concept.md` (1 из 5)
 
-- ## Пример синтаксиса (7 сл., строка 12)
+- ## Упоминается в (10 сл., строка 70)
+
+### `01-agent-routing.md` (1 из 4)
+
+- ## Упоминается в (9 сл., строка 67)
+
+### `03-local-first.md` (1 из 7)
+
+- ## Упоминается в (9 сл., строка 95)
+
+### `01-synthesis.md` (1 из 6)
+
+- ## Упоминается в (8 сл., строка 57)
+
+### `wikontic.md` (1 из 5)
+
+- ## Упоминается в (6 сл., строка 70)
+
+### `yodoca.md` (1 из 5)
+
+- ## Упоминается в (6 сл., строка 84)
 
 ### `BADGES.md` (1 из 2)
 
 - ## Markdown сниппеты для README (0 сл., строка 17)
 
-### `CHANGELOG_AUTO.md` (1 из 3)
+### `CITATION_INDEX.md` (1 из 18)
 
-- ## История изменений (0 сл., строка 22)
-
-### `CITATION_INDEX.md` (1 из 13)
-
-- ## Детали топ-10 (0 сл., строка 87)
+- ## Детали топ-10 (0 сл., строка 122)
 
 ### `COMPARE.md` (1 из 3)
 
-- ## Удалённые файлы (0) (0 сл., строка 51)
+- ## Удалённые файлы (0) (0 сл., строка 60)
 
 ### `CONCEPT_GRAPH.md` (1 из 2)
 
-- ## Диаграмма (0 сл., строка 7)
+- ## Диаграмма (0 сл., строка 17)
 
-### `CONTENT_GAPS.md` (1 из 22)
+### `CONTACTS.md` (1 из 5)
 
-- ## Детали по топ-20 пробелам (0 сл., строка 64)
+- ## Email адреса (2 сл., строка 95)
+
+### `CONTENT_GAPS.md` (1 из 29)
+
+- ## Детали по топ-20 пробелам (0 сл., строка 109)
 
 ### `CROSS_SECTION.md` (1 из 5)
 
@@ -1927,27 +2785,23 @@ _Обновлено: 2026-04-29_
 
 ### `DENSITY.md` (1 из 3)
 
-- ## Слабо раскрытые темы (0) (4 сл., строка 48)
+- ## Слабо раскрытые темы (0) (4 сл., строка 43)
 
 ### `DEPENDABOT.md` (1 из 3)
 
-- ## Автоматизация (11 сл., строка 23)
+- ## Автоматизация (11 сл., строка 33)
 
-### `DIGEST_WEEKLY.md` (1 из 2)
+### `KNOWLEDGE_MAP.md` (1 из 8)
 
-- ## Коммиты (14 сл., строка 24)
-
-### `DUPLICATES.md` (1 из 31)
-
-- ## Похожие файлы (Jaccard ≥ 0.5) (0 сл., строка 12)
-
-### `GRAPH.md` (1 из 2)
-
-- ## DOT-формат (Graphviz) (14 сл., строка 37)
+- ## Быстрые команды (4 сл., строка 114)
 
 ### `MISSING.md` (1 из 2)
 
-- ## Итог (14 сл., строка 33)
+- ## Итог (14 сл., строка 43)
+
+### `PROGRESS.md` (1 из 5)
+
+- ## Следующий шаг (13 сл., строка 49)
 
 ### `READING_LIST.md` (1 из 3)
 
@@ -1959,15 +2813,23 @@ _Обновлено: 2026-04-29_
 
 ### `STALENESS.md` (1 из 3)
 
-- ## Рекомендуемые действия (0 сл., строка 57)
+- ## Рекомендуемые действия (0 сл., строка 67)
 
-### `TECH_RADAR.md` (1 из 7)
+### `TECH_RADAR.md` (1 из 9)
 
-- ## Обзор (0 сл., строка 35)
+- ## Обзор (0 сл., строка 47)
 
-### `WORD_FREQ.md` (1 из 21)
+### `VALIDATION.md` (1 из 6)
+
+- ## ✅ Мета-файлы (3 сл., строка 21)
+
+### `WORD_FREQ.md` (1 из 24)
 
 - ## Топ-15 слов по разделам (0 сл., строка 60)
+
+### `README.md` (1 из 2)
+
+- ## Содержание (6 сл., строка 5)
 
 ### `README.md` (1 из 2)
 
@@ -1979,7 +2841,7 @@ _Обновлено: 2026-04-29_
 
 ### `anastasiyaw.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `andrey-chuyan.md` (1 из 5)
 
@@ -1991,11 +2853,11 @@ _Обновлено: 2026-04-29_
 
 ### `cutcode.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `dmitriila.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `kksudo.md` (1 из 5)
 
@@ -2003,7 +2865,7 @@ _Обновлено: 2026-04-29_
 
 ### `mixaill76.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `nlaik.md` (1 из 5)
 
@@ -2019,7 +2881,7 @@ _Обновлено: 2026-04-29_
 
 ### `tagir-analyzes.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `vitalyoborin.md` (1 из 5)
 
@@ -2027,11 +2889,11 @@ _Обновлено: 2026-04-29_
 
 ### `vladspace.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `zodigancode.md` (1 из 5)
 
-- ## Первое сообщение (0 сл., строка 54)
+- ## Первое сообщение (0 сл., строка 59)
 
 ### `README.md` (1 из 1)
 
@@ -2409,6 +3271,14 @@ _Обновлено: 2026-04-29_
 
 - ## Содержание (10 сл., строка 5)
 
+### `01-overview.md` (1 из 4)
+
+- ## Таксономия методов (13 сл., строка 30)
+
+### `02-extraction.md` (1 из 10)
+
+- ## Поддерживаемые форматы (0 сл., строка 82)
+
 ### `agentfs.md` (1 из 2)
 
 - ## Описание (10 сл., строка 19)
@@ -2519,9 +3389,24 @@ _Обновлено: 2026-04-29_
 
 ### `README.md` (1 из 2)
 
-- ## Использование (0 сл., строка 17)
+- ## Подразделы (4 сл., строка 31)
 
 ### `agent-spec.md` (1 из 11)
 
 - ## Назначение (6 сл., строка 25)
+
+### `contact-outreach.md` (1 из 4)
+
+- ## Первое сообщение (0 сл., строка 36)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](docs/HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](docs/PARAGRAPH_QUALITY.md)
+- [SEARCH](docs/SEARCH.md)
+- [READING_TIME](docs/READING_TIME.md)
 

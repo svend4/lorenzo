@@ -1,16 +1,6 @@
 # Автодайджест изменений
 
-<!-- summary -->
-> _Период: 2026-04-22 — 2026-04-29 (7 дней)_
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion, anthropic, collaboration -->
-
-
-
-
-_Период: 2026-04-22 — 2026-04-29 (7 дней)_
+_Период: 2026-05-03 — 2026-05-10 (7 дней)_
 
 ---
 
@@ -18,56 +8,100 @@ _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **111** |
+| Коммитов | **11** |
 | Новых файлов | **20** |
-| Изменённых файлов | **0** |
-| Слов добавлено | **+0** |
-| Слов удалено | **−0** |
+| Изменённых файлов | **20** |
+| Слов добавлено | **+111,195** |
+| Слов удалено | **−14,966** |
 
 ## Активность по секциям
 
 | Секция | Изменений |
 |--------|-----------|
-| `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
-| `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 234 |
-| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 186 |
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 142 |
-| `anthropic-vacancies` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 111 |
-| `lorenzo-agent` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 62 |
-| `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 59 |
-| `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 56 |
+| `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 220 |
+| `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 94 |
+| `Скрипты` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 30 |
+| `technology-combinations` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 29 |
+| `svyazi-2-0` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 28 |
+| `habr-unique-projects` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 17 |
+| `autofilled` | ▓▓▓▓▓▓▓▓▓▓▓▓ 12 |
+| `processing-guide` | ▓▓▓▓▓▓▓▓▓▓▓▓ 12 |
 
 ## Последние коммиты
 
-- `2026-04-29` [d6279595] fix: CI Catalog check — improve_auto_toc respects .docignore
-- `2026-04-29` [b0ed2c15] docs: auto-update via improve_run_all [skip ci]
-- `2026-04-29` [6421a1fc] chore: regenerate auto-exports after Sprint 24-26
-- `2026-04-29` [d3dd0884] feat: Sprint 24-26 — RAG pipeline, jobs queue, knowledge graph
-- `2026-04-29` [0f740af3] docs: auto-update via improve_run_all [skip ci]
-- `2026-04-29` [6ac59707] chore: regenerate auto-exports after Sprint 21-23
-- `2026-04-29` [11d7bad1] feat: Sprint 21-23 — embeddings cache, skill testing, release engineer
-- `2026-04-29` [88a8480c] docs: auto-update via improve_run_all [skip ci]
-- `2026-04-29` [f053125f] chore: regenerate auto-exports after Sprint 18-20
-- `2026-04-29` [89f9dc93] feat: Sprint 18-20 — MCP-изация новых слоёв, plugin system, web ingest
+- `2026-05-10` [696550ff] chore: update generated docs — auto-enrichment, TOC, summaries, meta-s
+- `2026-05-10` [95929faf] feat: card envelope library, card index CLI, fix recipe dry-run + hist
+- `2026-05-10` [9b4e71ac] feat: implement E-K roadmap items — recipe system, BM25 MCP, prototype
+- `2026-05-10` [f069f299] feat: implement improve_self.py --batch and add REPL search script
+- `2026-05-10` [cdb6ccce] feat(scripts): complete run_all coverage + --dry-run for all red scrip
+- `2026-05-10` [3ac7b575] chore: update generated indexes and dashboards
+- `2026-05-10` [a5de89d7] feat: document all 156 scripts, fix risk algorithm, update methodology
+- `2026-05-10` [fe718881] feat(scripts): add --dry-run to all 4 content-modifying scripts
+- `2026-05-10` [1a1f0520] feat: метаскрипт improve_self.py + документация docs/meta-scripting/
+- `2026-05-10` [daf0d7f2] restore: восстановить контент обеднённый ботом — preview-строки, похож
 
 ## Новые файлы
 
-- [`__init__.py`](docs-toolkit/docstoolkit/graph/__init__.py) — `root`
-- [`builder.py`](docs-toolkit/docstoolkit/graph/builder.py) — `root`
-- [`export.py`](docs-toolkit/docstoolkit/graph/export.py) — `root`
-- [`ner.py`](docs-toolkit/docstoolkit/graph/ner.py) — `root`
-- [`__init__.py`](docs-toolkit/docstoolkit/jobs/__init__.py) — `root`
-- [`handlers.py`](docs-toolkit/docstoolkit/jobs/handlers.py) — `root`
-- [`queue.py`](docs-toolkit/docstoolkit/jobs/queue.py) — `root`
-- [`worker.py`](docs-toolkit/docstoolkit/jobs/worker.py) — `root`
-- [`__init__.py`](docs-toolkit/docstoolkit/rag/__init__.py) — `root`
-- [`answerer.py`](docs-toolkit/docstoolkit/rag/answerer.py) — `root`
-- [`assembler.py`](docs-toolkit/docstoolkit/rag/assembler.py) — `root`
-- [`pipeline.py`](docs-toolkit/docstoolkit/rag/pipeline.py) — `root`
-- [`retriever.py`](docs-toolkit/docstoolkit/rag/retriever.py) — `root`
-- [`types.py`](docs-toolkit/docstoolkit/rag/types.py) — `root`
-- [`test_graph.py`](docs-toolkit/tests/test_graph.py) — `root`
+- [`README.md`](docs/meta-scripting/README.md) — `meta-scripting`
+- [`211559110a051804.json`](cards/211559110a051804.json) — `root`
+- [`372bafbfb0972e2a.json`](cards/372bafbfb0972e2a.json) — `root`
+- [`42ca0accd4efec67.json`](cards/42ca0accd4efec67.json) — `root`
+- [`5fb9dd52c4374742.json`](cards/5fb9dd52c4374742.json) — `root`
+- [`71f9eb7be6254cc6.json`](cards/71f9eb7be6254cc6.json) — `root`
+- [`81e514237f50a17e.json`](cards/81e514237f50a17e.json) — `root`
+- [`9f344e8d21059cee.json`](cards/9f344e8d21059cee.json) — `root`
+- [`improve_card_index.py`](scripts/improve_card_index.py) — `Скрипты`
+- [`recipe_history.json`](scripts/recipe_history.json) — `Скрипты`
+- [`utils_card_envelope.py`](scripts/utils_card_envelope.py) — `Скрипты`
+- [`PROTOTYPE_SPEC.md`](docs/PROTOTYPE_SPEC.md) — `PROTOTYPE_SPEC.md`
+- [`improve_recipe.py`](scripts/improve_recipe.py) — `Скрипты`
+- [`improve_search_repl.py`](scripts/improve_search_repl.py) — `Скрипты`
+- [`01-concept.md`](docs/meta-scripting/01-concept.md) — `meta-scripting`
+
+## Изменённые файлы
+
+- [`03-component-catalog.md`](docs/01-svyazi/03-component-catalog.md)
+- [`07-mvp-planning.md`](docs/01-svyazi/07-mvp-planning.md)
+- [`09-architectural-gaps.md`](docs/01-svyazi/09-architectural-gaps.md)
+- [`10-second-order-ensembles.md`](docs/01-svyazi/10-second-order-ensembles.md)
+- [`11-integration-contracts.md`](docs/01-svyazi/11-integration-contracts.md)
+- [`QA.md`](docs/01-svyazi/QA.md)
+- [`00-intro.md`](docs/02-anthropic-vacancies/00-intro.md)
+- [`03-portal-protocol-md.md`](docs/02-anthropic-vacancies/03-portal-protocol-md.md)
+- [`04-abstract.md`](docs/02-anthropic-vacancies/04-abstract.md)
+- [`05-0-status-of-this-document.md`](docs/02-anthropic-vacancies/05-0-status-of-this-document.md)
+- [`06-1-introduction.md`](docs/02-anthropic-vacancies/06-1-introduction.md)
+- [`07-2-terminology.md`](docs/02-anthropic-vacancies/07-2-terminology.md)
+- [`08-3-registry-nautilus-json.md`](docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md)
+- [`09-4-passport-passport-md.md`](docs/02-anthropic-vacancies/09-4-passport-passport-md.md)
+- [`103-appendix-b-change-log.md`](docs/02-anthropic-vacancies/103-appendix-b-change-log.md)
+
+## Ключевые слова изменений
+
+| Слово | Добавлено | Удалено |
+|-------|-----------|---------|
+| `anthropic` | +6027 | −187 |
+| `vacancies` | +5757 | −149 |
+| `проблем` | +5591 | −4 |
+| `readme` | +1240 | −56 |
+| `nautilus` | +1174 | −67 |
+| `agent` | +997 | −95 |
+| `svyazi` | +962 | −241 |
+| `appendix` | +930 | −30 |
+| `документ` | +605 | −26 |
+| `этот` | +587 | −20 |
+| `layer` | +575 | −6 |
+| `agents` | +538 | −32 |
+| `backlinks` | +536 | −13 |
+| `ссылается` | +525 | −1 |
+| `knowledge` | +524 | −198 |
+
+## Новые концепты
+
+_Слова появившиеся в этом периоде (≥3 раза):_
+
+`отдельные`, `состыковать`, `хабре`, `месяцы`, `описания`, `паттерны`, `теоретически`, `пять`, `ансамблей`, `свойств`, `добавить`, `начала`, `прототип`, `доказать`, `центральную`
 
 ---
-_Дайджест сгенерирован автоматически: 2026-04-29_
+_Дайджест сгенерирован автоматически: 2026-05-10_
 

@@ -229,3 +229,14 @@ answer = llm.complete(f"На основе контекста:\n{context}\n\nВо
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [06-search](docs/processing-guide/06-search.md)
+- [10-future](docs/processing-guide/10-future.md)
+- [03-chunking](docs/processing-guide/03-chunking.md)
+

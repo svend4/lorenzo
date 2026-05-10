@@ -121,3 +121,14 @@ python scripts/improve_self.py --catalog --query "group:none"
 
 **4. Обнаружение дублей**
 Два скрипта читают одни файлы и пишут похожие выходы → вероятно дубли.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-enrichment](docs/meta-scripting/04-enrichment.md)
+- [01-concept](docs/meta-scripting/01-concept.md)
+- [05-synthesis](docs/meta-scripting/05-synthesis.md)
+- [02-architecture](docs/meta-scripting/02-architecture.md)
+

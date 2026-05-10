@@ -4,36 +4,36 @@
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 122 |
+| **AI Factory** | 125 |
 | **AIF Handoff** | 55 |
-| **AgentFS** | 180 |
-| **Auto AI Router** | 112 |
-| **AutoResearch** | 94 |
+| **AgentFS** | 181 |
+| **Auto AI Router** | 113 |
+| **AutoResearch** | 97 |
 | **Automerge** | 55 |
-| **CardIndex** | 215 |
-| **Firecrawl** | 36 |
+| **CardIndex** | 219 |
+| **Firecrawl** | 37 |
 | **Graph RAG** | 82 |
-| **Hybrid RAG** | 78 |
-| **Legal RAG** | 84 |
-| **LiteLLM** | 81 |
-| **LiteParse** | 132 |
-| **MemNet** | 243 |
-| **Memory OS** | 58 |
+| **Hybrid RAG** | 79 |
+| **Legal RAG** | 85 |
+| **LiteLLM** | 82 |
+| **LiteParse** | 135 |
+| **MemNet** | 245 |
+| **Memory OS** | 59 |
 | **NGT Memory** | 157 |
 | **OpenWhispr** | 32 |
 | **RLM-Toolkit** | 18 |
-| **Rufler** | 136 |
-| **SENTINEL** | 127 |
-| **Self-Aware MCP** | 30 |
-| **Sequential** | 164 |
-| **Svyazi** | 470 |
-| **Tool Search** | 84 |
-| **Whisper** | 41 |
-| **Wikontic** | 81 |
+| **Rufler** | 138 |
+| **SENTINEL** | 128 |
+| **Self-Aware MCP** | 31 |
+| **Sequential** | 167 |
+| **Svyazi** | 465 |
+| **Tool Search** | 85 |
+| **Whisper** | 42 |
+| **Wikontic** | 84 |
 | **Yjs** | 67 |
-| **Yodoca** | 232 |
-| **Yttri** | 32 |
-| **agent-memory-mcp** | 59 |
+| **Yodoca** | 233 |
+| **Yttri** | 33 |
+| **agent-memory-mcp** | 62 |
 | **knowledge-space** | 166 |
 | **mclaude** | 142 |
 
@@ -46,4 +46,15 @@
 - [INDEX](docs/INDEX.md)
 - [README](docs/README.md)
 - [TABLES](docs/TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](docs/MINDMAP.md)
+- [GRAPH](docs/GRAPH.md)
+- [NETWORK](docs/NETWORK.md)
+- [CONTACT_PRIORITY](docs/CONTACT_PRIORITY.md)
 

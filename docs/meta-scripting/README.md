@@ -1,11 +1,12 @@
 # meta-scripting
 
-**Файлов:** 5
+**Файлов:** 6
 
 ## Содержание
 
-- [01-concept.md](01-concept.md) — > Скрипты, которые читают другие скрипты и документы — и улучшают их.
-- [02-architecture.md](02-architecture.md) — > Как устроен скрипт, который читает другие скрипты.
-- [03-catalog.md](03-catalog.md) — > Скрипт читает все 155 скриптов и строит живой каталог.
-- [04-enrichment.md](04-enrichment.md) — > Как скрипт улучшает другой скрипт, не зная заранее что в нём написано.
-- [05-synthesis.md](05-synthesis.md) — > Как из существующих паттернов порождать новые скрипты.
+- [01-concept.md](01-concept.md) — <!-- summary -->
+- [02-architecture.md](02-architecture.md) — <!-- summary -->
+- [03-catalog.md](03-catalog.md) — <!-- summary -->
+- [04-enrichment.md](04-enrichment.md) — <!-- summary -->
+- [05-synthesis.md](05-synthesis.md) — <!-- summary -->
+- [QA.md](QA.md) — _Автоматически сгенерировано по 5 файлам раздела._

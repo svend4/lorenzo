@@ -100,3 +100,14 @@ CLAUDE.md        →  описания скриптов   →  несоотве�
 - [03-catalog.md](03-catalog.md) — автокаталог скриптов
 - [04-enrichment.md](04-enrichment.md) — обогащение существующих скриптов
 - [05-synthesis.md](05-synthesis.md) — генерация новых скриптов
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [05-synthesis](docs/meta-scripting/05-synthesis.md)
+- [02-architecture](docs/meta-scripting/02-architecture.md)
+- [03-catalog](docs/meta-scripting/03-catalog.md)
+- [10-future](docs/processing-guide/10-future.md)
+

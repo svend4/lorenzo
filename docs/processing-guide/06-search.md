@@ -1,5 +1,10 @@
 # Обработка больших массивов — Часть 6: Поиск
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > Как найти нужное в 1000+ документах: от простого grep до BM25 и фасетов.
 **Проекты:** AgentFS, Yodoca, MemNet, SENTINEL
@@ -239,4 +244,15 @@ scores = cosine_similarity(query_vec, embeddings)
 - [01-overview](docs/processing-guide/01-overview.md)
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [07-llm](docs/processing-guide/07-llm.md)
+- [05-analysis](docs/processing-guide/05-analysis.md)
+- [10-future](docs/processing-guide/10-future.md)
 

@@ -1,52 +1,6 @@
 # Часто задаваемые вопросы (FAQ)
 
-<!-- summary -->
-> _Извлечено: 125 вопросов и ответов_
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, MemNet
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Архитектура](#архитектура)
-  - [Что такое MCP?](#что-такое-mcp)
-  - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
-  - [Какой вариант резонирует?](#какой-вариант-резонирует)
-  - [Что это такое?](#что-это-такое)
-- [MVP/Запуск](#mvpзапуск)
-  - [С чего начать?](#с-чего-начать)
-  - [Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?](#сейчас-для-этой-конкретной-сессии-с-семью-документами-что-вы-хотите-сделать)
-- [Компоненты](#компоненты)
-  - [Какова лицензия проекта?](#какова-лицензия-проекта)
-  - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
-- [Интеграция](#интеграция)
-  - [Какой направление приоритетно?](#какой-направление-приоритетно)
-  - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
-  - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
-  - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
-  - [Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?](#набор-вопросов-4-ваши-ресурсы-4a-бюджет-для-setup-500-1500-одноразово)
-  - [Why "Nautilus"?](#why-nautilus)
-- [Лицензия](#лицензия)
-  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
-- [Общее](#общее)
-  - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
-  - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
-  - [Что из этого feels aligned с вашими current capabilities и interest?](#что-из-этого-feels-aligned-с-вашими-current-capabilities-и-interest)
-  - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
-  - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
-  - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
-  - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
-  - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
-
-
-_Извлечено: 125 вопросов и ответов_
+_Извлечено: 177 вопросов и ответов_
 
 
 ## Архитектура
@@ -70,6 +24,12 @@ _→ [248-приложение-c-архитектура-быстрого-ста�
 **Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **96% 🟢 GO** (документация и архитектура).
 
 _→ [ONBOARDING](docs/ONBOARDING.md)_
+
+### Принимаем эту architecture как Lorenzo vision (с моими caveats)?
+
+Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
+
+_→ [06-conclusion-deserves-attention](docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)_
 
 
 ## MVP/Запуск
@@ -134,6 +94,12 @@ A [nautilus](../docs/05-habr-projects/memory/memnet.md) shell is a **spiral of n
 
 _→ [68-about](docs/02-anthropic-vacancies/68-about.md)_
 
+### Did creator approve final attribution?
+
+Это много steps. И violations damage Lorenzo's reputation rapidly.
+
+_→ [11-difficulties-and-recommendations](docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md)_
+
 
 ## Лицензия
 
@@ -142,6 +108,12 @@ _→ [68-about](docs/02-anthropic-vacancies/68-about.md)_
 И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
 
 _→ [165-closing](docs/02-anthropic-vacancies/165-closing.md)_
+
+### Question 5: Каковы limits Lorenzo's authority?
+
+Critical question для ethical design.
+
+_→ [05-q5-authority-limits](docs/lorenzo-agent/specification/05-q5-authority-limits.md)_
 
 
 ## Общее
@@ -191,15 +163,4 @@ _→ [179-10-open-questions](docs/02-anthropic-vacancies/179-10-open-questions.m
 Как работает ответственность, когда агент совершает существенные ошибки? Какие юрисдикционные правила применяются, когда агент представляет человека в стране A, общающегося со стороной в стране B? Как существующие регуляции (GDPR, HIPAA, AI Act) применяются конкретно к представительским агентам?
 
 _→ [200-10-открытые-вопросы](docs/02-anthropic-vacancies/200-10-открытые-вопросы.md)_
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [INDEX](docs/INDEX.md)
-- [README](docs/README.md)
-- [TABLES](docs/TABLES.md)
-- [faq-entry](docs/templates/faq-entry.md)
 

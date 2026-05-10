@@ -10,9 +10,8 @@ _Обновлено: 2026-05-10_
 - **skills** ![skills](https://img.shields.io/badge/skills-28-blue)
 - **mcp-servers** ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
 - **manifests** ![manifests](https://img.shields.io/badge/manifests-13-blue)
-- **scripts** ![scripts](https://img.shields.io/badge/scripts-158-blue)
-- **health** ![health](https://img.shields.io/badge/health-84/100-green)
-- **validation** ![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
+- **scripts** ![scripts](https://img.shields.io/badge/scripts-159-blue)
+- **health** ![health](https://img.shields.io/badge/health-80/100-green)
 
 ## Markdown сниппеты для README
 ```markdown
@@ -21,7 +20,6 @@ _Обновлено: 2026-05-10_
 ![skills](https://img.shields.io/badge/skills-28-blue)
 ![mcp_servers](https://img.shields.io/badge/mcp--servers-12-blue)
 ![manifests](https://img.shields.io/badge/manifests-13-blue)
-![scripts](https://img.shields.io/badge/scripts-158-blue)
-![health](https://img.shields.io/badge/health-84/100-green)
-![validation](https://img.shields.io/badge/validation-14--valid-brightgreen)
+![scripts](https://img.shields.io/badge/scripts-159-blue)
+![health](https://img.shields.io/badge/health-80/100-green)
 ```

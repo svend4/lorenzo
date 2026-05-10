@@ -1,18 +1,8 @@
 # Отчёт орфографии
 
-<!-- summary -->
-> python scripts/improve_spellcheck.py --fix
-**Проекты:** knowledge-space, MemNet
+_Обновлено: 2026-05-10_
 
----
-<!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improvement, collaboration -->
-
-
-
-
-_Обновлено: 2026-04-29_
-
-Файлов с проблемами: **30**
+Файлов с проблемами: **43**
 
 ## Найденные проблемы
 
@@ -72,11 +62,19 @@ _Обновлено: 2026-04-29_
 
 - ❌ `проверяет` → `проверяет`
 
+### `docs/METHODOLOGY.md`
+
+- ❌ `проверяет` → `проверяет`
+
+### `docs/SCRIPTS_CATALOG.md`
+
+- ❌ `проверяет` → `проверяет`
+
 ### `docs/TABLES.md`
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+### `docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md`
 
 - ❌ `проверяет` → `проверяет`
 
@@ -172,58 +170,6 @@ _Обновлено: 2026-04-29_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/SCRIPTS_CATALOG.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/ai-collaborations/ensembles/5-agent-firewall.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/ai-collaborations/fast-tracks/README.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md`
-
-- ❌ `проверяет` → `проверяет`
-
-### `docs/obsidian/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -246,8 +192,8 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 ---
 
 **Смотрите также:**
-- [STATS](docs/obsidian/STATS.md)
-- [CITATION_INDEX](docs/obsidian/CITATION_INDEX.md)
-- [LLM_SUMMARIES](docs/obsidian/LLM_SUMMARIES.md)
-- [STALENESS](docs/obsidian/STALENESS.md)
+- [ORPHANS](docs/ORPHANS.md)
+- [STALENESS](docs/STALENESS.md)
+- [LLM_SUMMARIES](docs/LLM_SUMMARIES.md)
+- [STATS](docs/STATS.md)
 

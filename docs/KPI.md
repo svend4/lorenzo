@@ -1,9 +1,14 @@
 # Числовые KPI и метрики
 
-_Извлечено: **2823** числовых показателей из документов_
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+_Извлечено: **2845** числовых показателей из документов_
 
 
-## Количество (428)
+## Количество (432)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -27,9 +32,9 @@ _Извлечено: **2823** числовых показателей из до�
 | **4** | md` — _220-9-relationship-to-other-agent-types_ - _...и ещё 4 файлов_ ## Кластер | `CLUSTERS` |
 | **3** | ожение-c-образец-спецификаций-инструментов-ing_ - _...и ещё 3 файлов_ ## Кластер | `CLUSTERS` |
 | **2** | n_ - `docs/contacts/vladspace.md` — _vladspace_ - _...и ещё 2 файлов_ ## Кластер | `CLUSTERS` |
-| _...ещё 408_ | | |
+| _...ещё 412_ | | |
 
-## Проценты (302)
+## Проценты (305)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -53,9 +58,9 @@ _Извлечено: **2823** числовых показателей из до�
 | **7** | negotiation, paperwork. **Mechanics**: Commission-based (5-7% typical), split be | `171-2-historical-preceden` |
 | **50** | s. ### 8.7. Expected Outcomes **For practitioners**: - 30-50% time reduction on  | `219-8-pilot-proposal-sgb-` |
 | **95** | - Cost vs. external lawyer: 80-90% saving - Quality target: 95% citation accurac | `341-приложение-c-образец-` |
-| _...ещё 282_ | | |
+| _...ещё 285_ | | |
 
-## Время (443)
+## Время (444)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -79,9 +84,9 @@ _Извлечено: **2823** числовых показателей из до�
 | **2** | икуются в общий «доска квестов»: могут быть микро (fix bug, 2 часа, XP уровня 50 | `01-интегральный-анализ-пр` |
 | **1-2** | fix bug, 2 часа, XP уровня 50), средние (implement feature, 1-2 недели, XP и cur | `01-интегральный-анализ-пр` |
 | **3–5** | я бы делал в следующие две недели в порядке ROI. День 1–2 (3–5 часов): fix broke | `01-интегральный-анализ-пр` |
-| _...ещё 423_ | | |
+| _...ещё 424_ | | |
 
-## Стоимость (754)
+## Стоимость (757)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -105,9 +110,9 @@ _Извлечено: **2823** числовых показателей из до�
 | **$5** | Google DeepMind, Microsoft AI, Mistral, Anthropic), budget $5-20M/year, which: - | `150-appendix-c-version-hi` |
 | **$1** | - Provides minimum stipend (не full salary, но dignified — $1-3K/month part-time | `150-appendix-c-version-hi` |
 | **€500** | es. Economic layer: - Base stipend для active contributors (€500-1500/month part | `150-appendix-c-version-hi` |
-| _...ещё 734_ | | |
+| _...ещё 737_ | | |
 
-## Размер (64)
+## Размер (65)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -119,6 +124,7 @@ _Извлечено: **2823** числовых показателей из до�
 | **2.0** | ndeswehr/TechHUB SVI), ИИ/агенты (4.1 МБ), и робототехника (2.0 МБ, 15 роботов с | `00-intro` |
 | **2** | право 7.4 МБ, дроны 4.6 МБ, ИИ-агенты 4.1 МБ, робототехника 2 МБ. Центральные те | `01-интегральный-анализ-пр` |
 | **16** | push-to-talk с Pause-key, Whisper large-v3-turbo на NVIDIA 16GB или Apple Silico | `00-intro` |
+| **000** | огнитивной устойчивости и этике \| 211 \| \| **HTML** \| ~4 200 000 байт \| 114  | `ABBREVIATIONS` |
 | **10** | ки \| \| Vector store \| hnswlib (local) \| MIT, без сервера, < 10 MB \| \| BM25 | `PROTOTYPE_SPEC` |
 | **7.6** | - ## Качество извлечения После парсинга MHTML «Вакансии» (7.6 МБ): **Потери:** ~ | `02-extraction` |
 | **4.5** | .py **Строит:** `docs/search_index.json` — 1053 документа, 4.5 МБ Каждая запись: | `06-search` |
@@ -156,15 +162,15 @@ _Извлечено: **2823** числовых показателей из до�
 |----------|----------|---------|
 | **10** | nts (≈8 репо)](#кластер-4-archives-experiments-8-репо) - [Топ-10 репо, в которые | `00-intro` |
 | **5** | sh/git), либо помочь с English README-драфтом для одного из топ-5, либо проработ | `00-intro` |
-| **30** | обратных ссылок **Файлов с входящими ссылками:** 1785 ## Топ-30 самых цитируемых | `BACKLINKS` |
+| **30** | обратных ссылок **Файлов с входящими ссылками:** 1786 ## Топ-30 самых цитируемых | `BACKLINKS` |
 | **20** | ь документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#де | `CONTENT_GAPS` |
 | **40** | (#матрица-сходства-секций) - [Граф связей](#граф-связей) - [Топ-40 кросс-секцион | `CROSS_SECTION` |
-| **15** | бзор (0 сл., строка 35) ### `WORD_FREQ.md` (1 из 21) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
+| **15** | айлы (3 сл., строка 21) ### `WORD_FREQ.md` (1 из 24) - ## Топ-15 слов по раздела | `EMPTY_SECTIONS` |
 | **50** | ### [Приоритеты файлов](docs/PRIORITIES.md) > > !TIP - Топ-50 самых важных файло | `OUTLINE` |
 | **3** | - Детальные метрики - Лучшие изменения - Регрессии - Топ-3 фокуса на следующий п | `OUTLINE` |
 | **8** | », «достигн», «получен», «вывод») - Ключевые слова (TF-IDF топ-8) **Флаги:** `-- | `SCRIPTS_CATALOG` |
 
-## Этап (119)
+## Этап (129)
 
 | Значение | Контекст | Источник |
 |----------|----------|---------|
@@ -174,10 +180,29 @@ _Извлечено: **2823** числовых показателей из до�
 | **4** | кристалла», получить osmыслený ответ с указанием репо. #### Фаза 4 — Web interfa | `02-общий-план-развития-na` |
 | **5** | y через браузер, получить отформатированный результат. #### Фаза 5 — Публикация  | `02-общий-план-развития-na` |
 | **0** | ёртывания](#9-стратегия-поэтапного-развёртывания) - [9.1. Фаза 0 — Основание (Ме | `199-9-стратегия-поэтапног` |
-| **24** | ode/session_01R8BfHH65xW6pXJw2RvvLiW ### ✨ Новые функции - Sprint 24-26 — RAG pi | `CHANGELOG` |
-| **21** | knowledge graph _d3dd0884_ > Sprint 24 — RAG end-to-end - Sprint 21-23 — embeddi | `CHANGELOG` |
-| **18** | ng _11d7bad1_ > Sprint 21 — Persistent embeddings cache - Sprint 18-20 — MCP-иза | `CHANGELOG` |
-| **15** | system, web ingest _89f9dc93_ > Sprint 18 — MCP-изация - Sprint 15-17 — workflow | `CHANGELOG` |
-| **12** | i18n _2265a4db_ > Sprint 15 — workflow & observability - Sprint 12-14 — bot-awar | `CHANGELOG` |
-| **9** | web dashboard _1bf14810_ > Sprint 12 — bot-aware system - Sprint 9-11 — skills M | `CHANGELOG` |
-| **6** | ins, CI/CD _22c4cf8d_ > Sprint 9 — agentic skills layer - Sprint 6-8 — миграции, | `CHANGELOG` |
+| **51** | onorepo-docs-VmctA _741edf95_ - regenerate auto-feeds after Sprint 51-53 _ba2fca | `CHANGELOG` |
+| **48** | sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 48-50 _dedfe1 | `CHANGELOG` |
+| **45** | sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 45-47 _74b242 | `CHANGELOG` |
+| **42** | sion_01Dz4rhQWcqu2afRsJ5LqHpz - regenerate auto-feeds after Sprint 42-44 _7d1a69 | `CHANGELOG` |
+| **39** | ct files updated by benchmark - regenerate auto-feeds after Sprint 39-41 _d445ff | `CHANGELOG` |
+| **36** | after Sprint 39-41 _d445ffb3_ - regenerate auto-feeds after Sprint 36-38 _6efb6b | `CHANGELOG` |
+| **33** | after Sprint 36-38 _6efb6b90_ - regenerate auto-feeds after Sprint 33-35 _659414 | `CHANGELOG` |
+| **30** | n REPORT exports _2b1e57d2_ - regenerate auto-exports after Sprint 30-32 _e0233b | `CHANGELOG` |
+| **27** | ter Sprint 30-32 _e0233b26_ - regenerate auto-exports after Sprint 27-29 _40f122 | `CHANGELOG` |
+| **24** | merge with main _b9521c3d_ - regenerate auto-exports after Sprint 24-26 _6421a1f | `CHANGELOG` |
+| **21** | ter Sprint 24-26 _6421a1fc_ - regenerate auto-exports after Sprint 21-23 _6ac597 | `CHANGELOG` |
+| **18** | ter Sprint 21-23 _6ac59707_ - regenerate auto-exports after Sprint 18-20 _f05312 | `CHANGELOG` |
+| **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
+| **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
+| _...ещё 109_ | | |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TIMELINE](docs/TIMELINE.md)
+- [TABLES](docs/TABLES.md)
+- [SEARCH](docs/SEARCH.md)
+- [02-общий-план-развития-nautilus-portal-protocol](docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+

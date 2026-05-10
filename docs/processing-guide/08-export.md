@@ -233,3 +233,14 @@ python scripts/mcp_server.py  # stdio режим
 - [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
 - [README](docs/processing-guide/README.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](docs/processing-guide/PROCESSING_GUIDE.md)
+- [09-automation](docs/processing-guide/09-automation.md)
+- [01-overview](docs/processing-guide/01-overview.md)
+- [10-future](docs/processing-guide/10-future.md)
+
