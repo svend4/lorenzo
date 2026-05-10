@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:59689493619e22d3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:b7c1029952602317",
+  "payload": {
+    "title": "Рекурсивное прозрение",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 315,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md"
+  }
+}

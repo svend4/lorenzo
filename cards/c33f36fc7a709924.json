@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:c33f36fc7a709924",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/STATS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:4e76e846c8a17f5e",
+  "payload": {
+    "title": "Детальная статистика репозитория",
+    "summary": "title: \"Детальная статистика репозитория\"",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 667,
+    "path": "docs/obsidian/STATS.md"
+  }
+}

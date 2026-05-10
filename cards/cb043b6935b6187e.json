@@ -1,0 +1,38 @@
+{
+  "card_id": "sha256:cb043b6935b6187e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:790e7f7fddd85b56",
+  "payload": {
+    "title": "Mega‑Stack 2.0 — Ultimate Legal‑AI System",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑STACK 2.0: Ultimate Legal‑AI System».",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "NGT Memory",
+      "Auto AI Router"
+    ],
+    "wc": 318,
+    "path": "docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md"
+  }
+}

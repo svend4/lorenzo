@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:4c3a38c8794b7ac0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:ea380c1d16eb5922",
+  "payload": {
+    "title": "Что НЕ подходит (честно)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 149,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md"
+  }
+}

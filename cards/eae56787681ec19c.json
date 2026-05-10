@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:eae56787681ec19c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/12-closing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:b0764b501f65012a",
+  "payload": {
+    "title": "Closing",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 213,
+    "path": "docs/nautilus/infrastructure-layer-b-en/12-closing.md"
+  }
+}

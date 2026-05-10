@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:4ac341decc23ac04",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/GRAPH.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:efffa9e24b02bbc0",
+  "payload": {
+    "title": "Граф связей проектов",
+    "summary": "<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, self-improvement -->",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 2679,
+    "path": "docs/obsidian/GRAPH.md"
+  }
+}

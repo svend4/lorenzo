@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:e21f9d9969e68054",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:90146a70e1bce571",
+  "payload": {
+    "title": "Конкретный потенциальный collaborator",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 247,
+    "path": "docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md"
+  }
+}

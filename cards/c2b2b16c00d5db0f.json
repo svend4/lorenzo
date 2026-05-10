@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:c2b2b16c00d5db0f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/00-question-habr-examples.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:36f777c69d73e42a",
+  "payload": {
+    "title": "Вопрос: ещё примеры с Хабра по варианту D",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).",
+    "tags": [
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 444,
+    "path": "docs/habr-unique-projects/extra-examples/00-question-habr-examples.md"
+  }
+}

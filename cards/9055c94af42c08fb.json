@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:9055c94af42c08fb",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:4dc80802d7190690",
+  "payload": {
+    "title": "Комбинация 7: Crawl4AI × Docling × Yodoca consolidator",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca"
+    ],
+    "wc": 199,
+    "path": "docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md"
+  }
+}

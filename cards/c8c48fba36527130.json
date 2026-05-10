@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:c8c48fba36527130",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/244-благодарности.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/203-благодарности.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/301-благодарности.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/231-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/243-12-заключение.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/230-аннотация.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:e00050910e571a8f",
+  "payload": {
+    "title": "Благодарности",
+    "summary": "> Эта статья возникла через диалог с Claude",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 308,
+    "path": "docs/02-anthropic-vacancies/244-благодарности.md"
+  }
+}

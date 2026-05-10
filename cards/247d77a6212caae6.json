@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:247d77a6212caae6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:87ceae2cadb80b2e",
+  "payload": {
+    "title": "Приложение: Визуализация позиции в серии",
+    "summary": "title: \"Приложение: Визуализация позиции в серии\"",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 7264,
+    "path": "docs/obsidian/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:0775cd2988d2b65a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/18-comment-on-document.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:58f505ba7e9c4b51",
+  "payload": {
+    "title": "Комментарий: дизайн-решения NPP v1.0",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 454,
+    "path": "docs/nautilus/npp-v1-0/18-comment-on-document.md"
+  }
+}

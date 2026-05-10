@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:681811e94d344768",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:703bfd07f22ce01c",
+  "payload": {
+    "title": "Антропик",
+    "summary": "- [README](docs/obsidian/autofilled/components/README.md)",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 150,
+    "path": "docs/obsidian/autofilled/components/.md"
+  }
+}

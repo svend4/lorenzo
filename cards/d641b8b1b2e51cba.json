@@ -1,0 +1,70 @@
+{
+  "card_id": "sha256:d641b8b1b2e51cba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/165-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/KEYWORD_INDEX.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:d950ef6d493ed7e0",
+  "payload": {
+    "title": "Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера",
+    "summary": "> 🎯 **Проблема:** Не «нет хорошего», а «много good options, нужно выбирать правильную combination».",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "Graph RAG",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 20577,
+    "path": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md"
+  }
+}

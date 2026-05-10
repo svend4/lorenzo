@@ -1,0 +1,38 @@
+{
+  "card_id": "sha256:af91a84991c428d9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/ONBOARDING.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:55d9dd5b3ae53417",
+  "payload": {
+    "title": "Онбординг — Svyazi 2.0 / Lorenzo",
+    "summary": "title: \"Онбординг — Svyazi 2.0 / Lorenzo\"",
+    "tags": [
+      "memory",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Rufler",
+      "Yodoca",
+      "SENTINEL",
+      "Firecrawl"
+    ],
+    "wc": 584,
+    "path": "docs/obsidian/ONBOARDING.md"
+  }
+}

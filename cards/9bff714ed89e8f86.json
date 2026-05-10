@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:9bff714ed89e8f86",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:c0a286e57768c4ec",
+  "payload": {
+    "title": "12. Onboarding Paths (Normative)",
+    "summary": "title: \"12. Onboarding Paths (Normative)\"",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 611,
+    "path": "docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md"
+  }
+}

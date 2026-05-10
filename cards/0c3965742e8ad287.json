@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:0c3965742e8ad287",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/51-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/61-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/41-compatibility-level.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/37-native-format.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:9a0d07057603c111",
+  "payload": {
+    "title": "Planned (v0.2.0)",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 252,
+    "path": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  }
+}

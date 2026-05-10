@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:b9dd731af1116b04",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/okwf-concept/00-abstract.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:56fb11396a083eaa",
+  "payload": {
+    "title": "AI-Coordinated Infrastructure for Distributed Expert Contribution",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».",
+    "tags": [
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 383,
+    "path": "docs/nautilus/okwf-concept/00-abstract.md"
+  }
+}

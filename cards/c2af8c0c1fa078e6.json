@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:c2af8c0c1fa078e6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/06-1-introduction.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:8e9321643301f668",
+  "payload": {
+    "title": "1. Introduction",
+    "summary": "> 🎯 **Проблема:** Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 403,
+    "path": "docs/02-anthropic-vacancies/06-1-introduction.md"
+  }
+}

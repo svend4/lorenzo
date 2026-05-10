@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:e1767efa33f86306",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/glossary-entry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/glossary/concepts.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONCEPTS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:f78472eed55ac7e0",
+  "payload": {
+    "title": "[Термин]",
+    "summary": "<!-- summary: Краткое определение термина в 1 предложении -->",
+    "tags": [
+      "глоссарий"
+    ],
+    "projects": [],
+    "wc": 117,
+    "path": "docs/templates/glossary-entry.md"
+  }
+}

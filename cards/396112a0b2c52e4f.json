@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:396112a0b2c52e4f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/55-passports-meta-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/45-passports-pro2-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/35-passports-info1-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/56-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/39-angle-perspective.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:0f83ebbb62dc9998",
+  "payload": {
+    "title": "passports/meta.md",
+    "summary": "> > **Символьный угол экосистемы svend4**",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 235,
+    "path": "docs/02-anthropic-vacancies/55-passports-meta-md.md"
+  }
+}

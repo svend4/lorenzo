@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0f9b57e1e03ea136",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:8604fba284795589",
+  "payload": {
+    "title": "Двухслойный стек, как он существует",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 316,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md"
+  }
+}

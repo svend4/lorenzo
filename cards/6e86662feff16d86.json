@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:6e86662feff16d86",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:36c15b915569520b",
+  "payload": {
+    "title": "9. Связь с другими типами агентов",
+    "summary": "- [9. Связь с другими типами агентов](#9-связь-с-другими-типами-агентов)",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 766,
+    "path": "docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md"
+  }
+}

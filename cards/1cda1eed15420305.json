@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:1cda1eed15420305",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/research-summary.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:4e79a68db83a89be",
+  "payload": {
+    "title": "[Тема исследования]",
+    "summary": "> - [Ключевые находки](#ключевые-находки)",
+    "tags": [
+      "исследование"
+    ],
+    "projects": [],
+    "wc": 161,
+    "path": "docs/obsidian/autofilled/research-summary.md"
+  }
+}

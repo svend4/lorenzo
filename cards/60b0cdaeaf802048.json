@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:60b0cdaeaf802048",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/345-кто-ты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/169-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:1c58721cd31ba7ea",
+  "payload": {
+    "title": "Твоя relationship с другими AI",
+    "summary": "> - Когда Anthropic asks о тебе, ты прозрачен: «Я Lorenzo, AI persona using Claude API as substrate, created by Max Ц. for DHLab catalyst mission.»",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 282,
+    "path": "docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md"
+  }
+}

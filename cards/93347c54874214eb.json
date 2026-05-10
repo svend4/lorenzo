@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:93347c54874214eb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e5366c11d4a06b39",
+  "payload": {
+    "title": "3. Что делает агента Представительским",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 609,
+    "path": "docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md"
+  }
+}

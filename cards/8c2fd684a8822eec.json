@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:8c2fd684a8822eec",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/templates/project-component.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:280ac9ee762789f2",
+  "payload": {
+    "title": "[Название компонента]",
+    "summary": "<!-- summary: Краткое описание в 1-2 предложениях -->",
+    "tags": [
+      "архитектура",
+      "проект"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 102,
+    "path": "docs/templates/project-component.md"
+  }
+}

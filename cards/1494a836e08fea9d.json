@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:1494a836e08fea9d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:b8a7e8c108a4742b",
+  "payload": {
+    "title": "8. Q6 Space (Normative)",
+    "summary": "- [8. Q6 Space (Normative)](#8-q6-space-normative)",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 542,
+    "path": "docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md"
+  }
+}

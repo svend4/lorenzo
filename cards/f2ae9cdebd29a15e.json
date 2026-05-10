@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:f2ae9cdebd29a15e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/165-closing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CONCEPTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/150-appendix-c-version-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:17ff8cdadd615440",
+  "payload": {
+    "title": "Closing",
+    "summary": "> 🎯 **Проблема:** Она demonstrably существует в форме tens or hundreds of independent projects, которые solve similar problems в isolation.",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "MemNet"
+    ],
+    "wc": 9429,
+    "path": "docs/02-anthropic-vacancies/165-closing.md"
+  }
+}

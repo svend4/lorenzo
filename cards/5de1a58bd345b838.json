@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:5de1a58bd345b838",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/limitations/conclusions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:27f949d2d6fc2e92",
+  "payload": {
+    "title": "Итоговые выводы и порядок сборки",
+    "summary": "> > Источники: `deep-research-report (1).md` (раздел «Выводы») и итог из `deep-research-report (3).md`.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "AutoResearch"
+    ],
+    "wc": 318,
+    "path": "docs/svyazi-2-0/limitations/conclusions.md"
+  }
+}

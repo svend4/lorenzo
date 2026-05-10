@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0ece6780e7ced164",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/223-12-closing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:1beff14261c3f5cd",
+  "payload": {
+    "title": "12. Closing",
+    "summary": "- [Связанные документы](#связанные-документы)",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 713,
+    "path": "docs/obsidian/02-anthropic-vacancies/223-12-closing.md"
+  }
+}

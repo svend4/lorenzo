@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:1d17143423c06bba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/266-13-closing.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/252-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/181-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:e79d086efad6223a",
+  "payload": {
+    "title": "13. Closing",
+    "summary": "> 🎯 **Проблема:** Building uniquely customized agents serves deep representational needs but cannot scale.",
+    "tags": [
+      "rag"
+    ],
+    "projects": [],
+    "wc": 655,
+    "path": "docs/02-anthropic-vacancies/266-13-closing.md"
+  }
+}

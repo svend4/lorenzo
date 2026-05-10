@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:146d2d215c8d6768",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:ae690791c8391f9a",
+  "payload": {
+    "title": "Appendix A: Minimal Working Example",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 190,
+    "path": "docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md"
+  }
+}

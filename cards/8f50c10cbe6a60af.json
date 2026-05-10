@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:8f50c10cbe6a60af",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:5cf8e0674052c4d7",
+  "payload": {
+    "title": "4. Proposed Infrastructure",
+    "summary": "> 🎯 **Проблема:** Proposed Infrastructure !TIP Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 1052,
+    "path": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md"
+  }
+}

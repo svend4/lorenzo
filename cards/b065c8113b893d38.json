@@ -1,0 +1,35 @@
+{
+  "card_id": "sha256:b065c8113b893d38",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/operationalized/02-minuses-1-10.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:b5df887f306e24cf",
+  "payload": {
+    "title": "Минусы 1–10: integration сложность, lifecycle risk, license, framing, competition, scope, limitations, complexity budget, project tension, tool vs impact",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Legal RAG"
+    ],
+    "wc": 738,
+    "path": "docs/lorenzo-agent/operationalized/02-minuses-1-10.md"
+  }
+}

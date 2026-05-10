@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:ffc3d244c7fa0c3e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/risk-entry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/RISK_REGISTER.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:32a8c0b1e195b335",
+  "payload": {
+    "title": "Риск: [Название]",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "риск",
+      "безопасность"
+    ],
+    "projects": [],
+    "wc": 221,
+    "path": "docs/templates/risk-entry.md"
+  }
+}

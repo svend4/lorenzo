@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:42d40120752b8ae0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:4478cbf0441c11ee",
+  "payload": {
+    "title": "6. Почему это валидный паттерн для AI-assisted workflows",
+    "summary": "> Традиционная software engineering оптимизировалась против",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 172,
+    "path": "docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md"
+  }
+}

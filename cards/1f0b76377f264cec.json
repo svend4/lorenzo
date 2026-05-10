@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:1f0b76377f264cec",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/08-implementation-nautilus.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:784686c07763aeab",
+  "payload": {
+    "title": "7. Реализация в проекте Nautilus",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 257,
+    "path": "docs/nautilus/review-methodology/08-implementation-nautilus.md"
+  }
+}

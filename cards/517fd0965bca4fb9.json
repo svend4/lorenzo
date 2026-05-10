@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:517fd0965bca4fb9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:0a36a6575f46b1f2",
+  "payload": {
+    "title": "Ключевое наблюдение: single-developer projects of significant sophistication",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 172,
+    "path": "docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md"
+  }
+}

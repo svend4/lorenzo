@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:c40b2011d7a7a4b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/01-svyazi/09-architectural-gaps.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f2a0e01b36a1bfef",
+  "payload": {
+    "title": "09 architectural gaps",
+    "summary": "> 🎯 **Проблема:** Архитектурный зазор Уже сильные кандидаты Что в них уже хорошо закрыто Что пока остаётся незакрытым Что брать в MVP --------------- Карточка как единица правды Svyazi, AgentFS Card",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 769,
+    "path": "docs/obsidian/01-svyazi/09-architectural-gaps.md"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:2e0cc0c9a2c9a7f4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:86debc292abcaab7",
+  "payload": {
+    "title": "8. Импликации для Nautilus и OKWF",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 575,
+    "path": "docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md"
+  }
+}

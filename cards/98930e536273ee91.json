@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:98930e536273ee91",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/285-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/275-why-this-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/266-13-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/168-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:3fb7647ad59f87f2",
+  "payload": {
+    "title": "Why This Hasn't Been Built",
+    "summary": "- [Why This Hasn't Been Built](#why-this-hasnt-been-built)",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 583,
+    "path": "docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md"
+  }
+}

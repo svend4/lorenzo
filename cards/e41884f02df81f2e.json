@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:e41884f02df81f2e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:fecfcee79fea05a7",
+  "payload": {
+    "title": "Пара 1 — LLM-gateway × Self-hosted фронт + локальный inference",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "LiteLLM",
+      "Auto AI Router"
+    ],
+    "wc": 280,
+    "path": "docs/habr-unique-projects/deep-pairs/1-llm-gateway.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:514af9cb11c0b040",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/264-11-open-questions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:2bc87121777b216d",
+  "payload": {
+    "title": "11. Open Questions",
+    "summary": "- [11. Open Questions](#11-open-questions)",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 605,
+    "path": "docs/obsidian/02-anthropic-vacancies/264-11-open-questions.md"
+  }
+}

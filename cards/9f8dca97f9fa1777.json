@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:9f8dca97f9fa1777",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/autofilled/components/svyazi.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/autofilled/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/cowork.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/lorenzo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/sgb.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:2b9fe585fc0b34ae",
+  "payload": {
+    "title": "Svyazi",
+    "summary": "- [Автозаполненные шаблоны](../../AUTOFILLED.md)",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 174,
+    "path": "docs/autofilled/components/svyazi.md"
+  }
+}

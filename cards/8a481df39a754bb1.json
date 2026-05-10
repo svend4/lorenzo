@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:8a481df39a754bb1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/72-расписание-фазы-3.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/122-глоссарий.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/69-section.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:032fbb2e2161b365",
+  "payload": {
+    "title": "Расписание фазы 3",
+    "summary": "> 🎯 **Проблема:** Вместо того чтобы бороться с этим как с проблемой, вы превратили это в feature : дубликаты становятся diff'ом, diff становится данными для консолидации.",
+    "tags": [
+      "memory",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 953,
+    "path": "docs/02-anthropic-vacancies/72-расписание-фазы-3.md"
+  }
+}

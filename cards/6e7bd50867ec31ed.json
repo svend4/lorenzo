@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:6e7bd50867ec31ed",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/63-history.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/53-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/43-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/40-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/09-4-passport-passport-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:1a993269129c6a50",
+  "payload": {
+    "title": "History",
+    "summary": "> **Создан:** февраль 2026 (судя по repo creation date)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 278,
+    "path": "docs/02-anthropic-vacancies/63-history.md"
+  }
+}

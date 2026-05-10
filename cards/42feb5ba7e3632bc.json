@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:42feb5ba7e3632bc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SPELLCHECK.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:e3007bc372a9ac31",
+  "payload": {
+    "title": "Отчёт орфографии",
+    "summary": "python scripts/improve_spellcheck.py --fix",
+    "tags": [],
+    "projects": [
+      "knowledge-space",
+      "MemNet"
+    ],
+    "wc": 346,
+    "path": "docs/SPELLCHECK.md"
+  }
+}

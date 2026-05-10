@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:c45cfc6d733272a5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/137-table-of-contents.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/253-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/136-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/146-acknowledgments.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:39669ae7864dc865",
+  "payload": {
+    "title": "Table of Contents",
+    "summary": "> 1. **Why Single-Triangle Models Are Incomplete**",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 316,
+    "path": "docs/02-anthropic-vacancies/137-table-of-contents.md"
+  }
+}

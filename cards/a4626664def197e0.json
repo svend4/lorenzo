@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:a4626664def197e0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-en/10-strategic-positioning.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:093e1f121c2b9b6e",
+  "payload": {
+    "title": "10. Strategic Positioning",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».",
+    "tags": [
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 715,
+    "path": "docs/nautilus/ingit-cowork-en/10-strategic-positioning.md"
+  }
+}

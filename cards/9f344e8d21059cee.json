@@ -1,13 +1,13 @@
 {
   "card_id": "sha256:9f344e8d21059cee",
-  "card_type": "doc",
+  "card_type": "project",
   "state": "raw",
   "sources": [
     "docs/05-habr-projects/memory/ngt-memory.md"
   ],
   "edges": [],
-  "created_at": "2026-05-10T14:37:29+00:00",
-  "updated_at": "2026-05-10T14:37:29+00:00",
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
   "payload_hash": "sha256:6a3208c9388a0ede",
   "payload": {
     "title": "NGT[^ngt] Memory: ассоциативный граф",

@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:2ec51f805fb8cc03",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONCEPTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/165-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:946175a66c0a0f04",
+  "payload": {
+    "title": "Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)",
+    "summary": "> 🎯 **Проблема:** Начну с фундаментальных вопросов , на которые нужно ответить до архитектуры — потому что архитектура следует из этих ответов.",
+    "tags": [
+      "security",
+      "knowledge",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 5945,
+    "path": "docs/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md"
+  }
+}

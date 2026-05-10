@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:6a4da813faf76f41",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/vladspace.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:b74b37c1b32afa3c",
+  "payload": {
+    "title": "Контакт: VladSpace / Graph RAG",
+    "summary": "<!-- summary: Шаблон для связи с автором Graph RAG -->",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "Graph RAG"
+    ],
+    "wc": 223,
+    "path": "docs/obsidian/contacts/vladspace.md"
+  }
+}

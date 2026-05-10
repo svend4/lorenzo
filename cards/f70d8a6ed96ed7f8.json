@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:f70d8a6ed96ed7f8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/63-history.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:0a0bf71f74871899",
+  "payload": {
+    "title": "History",
+    "summary": "> **Создан:** февраль 2026 (судя по repo creation date)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 260,
+    "path": "docs/obsidian/02-anthropic-vacancies/63-history.md"
+  }
+}

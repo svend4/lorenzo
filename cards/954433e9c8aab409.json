@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:954433e9c8aab409",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/65-readme-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:6f2a7413d0106fd0",
+  "payload": {
+    "title": "README.md",
+    "summary": "> **Единая точка входа для федеративных git-экосистем знаний.**",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 225,
+    "path": "docs/obsidian/02-anthropic-vacancies/65-readme-md.md"
+  }
+}

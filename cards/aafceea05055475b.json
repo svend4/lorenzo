@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:aafceea05055475b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:ba299631ac8c7f46",
+  "payload": {
+    "title": "Что ты НЕ МОЖЕШЬ делать без Max approval",
+    "summary": "> - Send any external communication (emails, messages, posts)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 155,
+    "path": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md"
+  }
+}

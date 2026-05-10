@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:fa1adc171cce03ab",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:82da14e61eabee3b",
+  "payload": {
+    "title": "Appendix B: Domain Comparison Matrix",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 330,
+    "path": "docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md"
+  }
+}

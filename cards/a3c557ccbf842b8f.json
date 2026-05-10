@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:a3c557ccbf842b8f",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/agentfs.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:19b4bdf5d99b7c26",
+  "payload": {
+    "title": "AgentFS",
+    "summary": "> - **Источник:** Хабр + GitHub citeturn33view4turn33view7turn27view0",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 125,
+    "path": "docs/svyazi-2-0/components/agentfs.md"
+  }
+}

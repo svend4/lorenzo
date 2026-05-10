@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:8d66ae2ce2dc18ee",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:7e4c06cae38fe60a",
+  "payload": {
+    "title": "11. Security Considerations",
+    "summary": "<!-- tags: memory, ingestion, architecture, anthropic, collaboration -->",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 395,
+    "path": "docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md"
+  }
+}

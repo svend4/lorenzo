@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:8f8c04267c8cea99",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:eb6d36be479a6d6f",
+  "payload": {
+    "title": "Ансамбль 1 — «Один человек = одна компания»",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "security",
+      "knowledge",
+      "local-first",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "LiteLLM",
+      "AutoResearch"
+    ],
+    "wc": 180,
+    "path": "docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md"
+  }
+}

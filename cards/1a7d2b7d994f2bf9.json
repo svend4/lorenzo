@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:1a7d2b7d994f2bf9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/320-references.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/338-ссылки.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/287-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/147-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:c0e34ac8f3818334",
+  "payload": {
+    "title": "References",
+    "summary": "- [Primary External References](#primary-external-references)",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 281,
+    "path": "docs/02-anthropic-vacancies/320-references.md"
+  }
+}

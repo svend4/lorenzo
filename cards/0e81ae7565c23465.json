@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0e81ae7565c23465",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:d7be2e895d9e5f8d",
+  "payload": {
+    "title": "Section 1: Problem statement (Cinderella Syndrome at scale, SGB IX/XII)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 179,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:9e6b0c4b642b59c3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/STATS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:ebbf117c31038fa0",
+  "payload": {
+    "title": "Детальная статистика репозитория",
+    "summary": "**Разделов:** 21  **Файлов:** 1735  **Слов:** 1,782,544  **Символов:** 15,653,958",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 681,
+    "path": "docs/STATS.md"
+  }
+}

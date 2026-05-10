@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:9d5c66dbfd5be3be",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/83-8-q6-space-normative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/06-1-introduction.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:5345fea3b9cadddc",
+  "payload": {
+    "title": "20. ADR-002: Q6 as First-Class Protocol Concept",
+    "summary": "**Context**: В v1.0 Q6-пространство существовало как implementation",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 336,
+    "path": "docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:99da8fafc9bc21dc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/privacy-federation/03-what-this-gives-technically.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e228547cfcb3bdee",
+  "payload": {
+    "title": "Что это даёт технически",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1492,
+    "path": "docs/nautilus/privacy-federation/03-what-this-gives-technically.md"
+  }
+}

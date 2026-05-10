@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:375f8672f994d795",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/264-11-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/179-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:c2836735a68f8365",
+  "payload": {
+    "title": "10. Risks Specific to Composite Architectures",
+    "summary": "> 🎯 **Проблема:** Practitioners working on similar problems develop incompatible approaches because they used different sub-agent configurations.",
+    "tags": [
+      "rag",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 1034,
+    "path": "docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md"
+  }
+}

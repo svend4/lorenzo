@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0d46b50121e3a127",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:bd1c5bcaab5ea951",
+  "payload": {
+    "title": "СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT",
+    "summary": "title: \"СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT\"",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 274,
+    "path": "docs/obsidian/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:24c12f2c58d7b1b7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/126-установка.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:0752edd57001c3fb",
+  "payload": {
+    "title": "Установка",
+    "summary": "- [1. Установить MCP SDK](#1-установить-mcp-sdk)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 163,
+    "path": "docs/02-anthropic-vacancies/126-установка.md"
+  }
+}

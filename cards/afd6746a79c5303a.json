@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:afd6746a79c5303a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/naming/03-dhlab-umbrella.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:99086688c64bb856",
+  "payload": {
+    "title": "LAYER 7: Coordination engine",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 1402,
+    "path": "docs/lorenzo-agent/naming/03-dhlab-umbrella.md"
+  }
+}

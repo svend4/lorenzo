@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:9ab6ed13dfacb0a9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CLUSTERS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:67b142a73f541592",
+  "payload": {
+    "title": "Кластеры тематически близких файлов",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 1409,
+    "path": "docs/CLUSTERS.md"
+  }
+}

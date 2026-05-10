@@ -1,0 +1,20 @@
+{
+  "card_id": "sha256:b638ac1976cacbda",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/AUTHORS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:ab3cf2ad2d762424",
+  "payload": {
+    "title": "Авторы и коллаборации",
+    "summary": "Авторы проектов, упоминаемые в исследованиях.",
+    "tags": [],
+    "projects": [],
+    "wc": 169,
+    "path": "docs/obsidian/AUTHORS.md"
+  }
+}

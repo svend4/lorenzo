@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:bc78866a414562be",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/10-query-flow.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f7e4afedd1317135",
+  "payload": {
+    "title": "10. Query Flow",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 228,
+    "path": "docs/nautilus/npp-v1-1/10-query-flow.md"
+  }
+}

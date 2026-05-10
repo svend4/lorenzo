@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c56df61f9036edd6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:5c81844a9b808a79",
+  "payload": {
+    "title": "10. Открытые вопросы",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Профессиональные Коллеги-Агенты (RU)», написанный совместно с Claude.",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 341,
+    "path": "docs/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md"
+  }
+}

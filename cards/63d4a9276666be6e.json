@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:63d4a9276666be6e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/301-благодарности.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/337-благодарности.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/244-благодарности.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/203-благодарности.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:68c640712334d595",
+  "payload": {
+    "title": "Благодарности",
+    "summary": "> Этот документ возник из наблюдения автора, в",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 381,
+    "path": "docs/02-anthropic-vacancies/301-благодарности.md"
+  }
+}

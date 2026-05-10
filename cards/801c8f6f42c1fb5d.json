@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:801c8f6f42c1fb5d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/spbmolot.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:3b46ceff75553e53",
+  "payload": {
+    "title": "spbmolot",
+    "summary": "- [NGT[^ngt] Memory: ассоциативный граф](../../05-habr-projects/memory/ngt-memory.md)",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Graph RAG",
+      "Yodoca",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 197,
+    "path": "docs/obsidian/autofilled/components/spbmolot.md"
+  }
+}

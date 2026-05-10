@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:d64896ec785addae",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/196-6-этическая-рамка.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:43d0c426978d8dc0",
+  "payload": {
+    "title": "6. Этическая рамка",
+    "summary": "- [6. Этическая рамка](#6-этическая-рамка)",
+    "tags": [
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 661,
+    "path": "docs/02-anthropic-vacancies/196-6-этическая-рамка.md"
+  }
+}

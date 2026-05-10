@@ -1,0 +1,86 @@
+{
+  "card_id": "sha256:1ba41021026f8dfe",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/TABLES.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/STATS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/METRICS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/VALIDATION.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SENTIMENT.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CLUSTERS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SIMILAR.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEATMAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/QUESTIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/KPI.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:1c97ad51ebdf5ee6",
+  "payload": {
+    "title": "Все таблицы репозитория",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 192814,
+    "path": "docs/TABLES.md"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:12543ac6244bf8d7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/07-выводы.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:e917181140352188",
+  "payload": {
+    "title": "Выводы",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "AutoResearch"
+    ],
+    "wc": 488,
+    "path": "docs/04-ai-collaborations/07-выводы.md"
+  }
+}

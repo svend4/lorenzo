@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:b2858c6e8851f056",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/128-доступные-инструменты.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:827bcd3b4dbcd88c",
+  "payload": {
+    "title": "Доступные инструменты",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 320,
+    "path": "docs/02-anthropic-vacancies/128-доступные-инструменты.md"
+  }
+}

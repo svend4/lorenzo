@@ -1,0 +1,20 @@
+{
+  "card_id": "sha256:33d0c21db656fac1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/KPI_HISTORY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:18b68c2a730ffc60",
+  "payload": {
+    "title": "История метрик KPI",
+    "summary": "_Последнее обновление: 2026-05-10 · Снапшотов в истории: 2_",
+    "tags": [],
+    "projects": [],
+    "wc": 134,
+    "path": "docs/KPI_HISTORY.md"
+  }
+}

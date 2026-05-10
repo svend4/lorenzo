@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:3e5b87ccc6d86157",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/mega-stack.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:3ef8683f68174e7d",
+  "payload": {
+    "title": "Mega-stack: [Название]",
+    "summary": "domain: \"[legal-AI | knowledge-OS | agent-platform]\"",
+    "tags": [
+      "mega-stack",
+      "архитектура"
+    ],
+    "projects": [],
+    "wc": 339,
+    "path": "docs/templates/mega-stack.md"
+  }
+}

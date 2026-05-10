@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:7baefb34222e0205",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/231-содержание.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/190-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/326-содержание.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/230-аннотация.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/243-12-заключение.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:bb26bc717b5d5e07",
+  "payload": {
+    "title": "Содержание",
+    "summary": "> 1. **Типология из пяти типов агентов на стороне",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 335,
+    "path": "docs/02-anthropic-vacancies/231-содержание.md"
+  }
+}

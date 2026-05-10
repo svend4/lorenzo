@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:7788e6d6cfa6060f",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONTACTS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:f7de05cc7d6b3b81",
+  "payload": {
+    "title": "Контакты и авторы",
+    "summary": "- [Ключевые авторы проектов](#ключевые-авторы-проектов)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 593,
+    "path": "docs/obsidian/CONTACTS.md"
+  }
+}

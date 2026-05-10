@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:dacf50ea1c580529",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:11c7ed0c01c5ba2b",
+  "payload": {
+    "title": "Claude subagents patterns",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 142,
+    "path": "docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md"
+  }
+}

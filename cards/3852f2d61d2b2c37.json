@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:3852f2d61d2b2c37",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:e041a54812368bd2",
+  "payload": {
+    "title": "Сравнение с Terence Tao, Polymath Project",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 1390,
+    "path": "docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md"
+  }
+}

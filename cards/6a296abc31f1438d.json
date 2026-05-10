@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:6a296abc31f1438d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:bfe29aa1f7041a1c",
+  "payload": {
+    "title": "Claude hat geantwortet: Хорошо.",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 9468,
+    "path": "docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md"
+  }
+}

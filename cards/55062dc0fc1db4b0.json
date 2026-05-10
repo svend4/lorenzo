@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:55062dc0fc1db4b0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CONCEPTS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:b1e90bdc74ae1ad4",
+  "payload": {
+    "title": "Глоссарий понятий",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 13914,
+    "path": "docs/CONCEPTS.md"
+  }
+}

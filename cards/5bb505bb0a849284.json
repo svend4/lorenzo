@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:5bb505bb0a849284",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/92-17-versioning-policy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:1ed55c2b1c9f9e97",
+  "payload": {
+    "title": "17. Versioning Policy",
+    "summary": "> 🎯 **Проблема:** Breaking Changes Process Для major version bump требуется: 1.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 305,
+    "path": "docs/02-anthropic-vacancies/92-17-versioning-policy.md"
+  }
+}

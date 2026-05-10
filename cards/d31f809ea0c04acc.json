@@ -1,0 +1,20 @@
+{
+  "card_id": "sha256:d31f809ea0c04acc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/BADGES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:3f81156901e47594",
+  "payload": {
+    "title": "Status Badges",
+    "summary": "- **tests** ![tests](https://img.shields.io/badge/tests-0--passing-brightgreen)",
+    "tags": [],
+    "projects": [],
+    "wc": 42,
+    "path": "docs/BADGES.md"
+  }
+}

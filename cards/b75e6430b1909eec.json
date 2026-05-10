@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:b75e6430b1909eec",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:fd08ba96ff53197a",
+  "payload": {
+    "title": "Плюсы модели, если её построить",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 244,
+    "path": "docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md"
+  }
+}

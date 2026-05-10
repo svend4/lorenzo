@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:d35499ea99cd6d92",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SCRIPTS_CATALOG.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:854925420b6c5db0",
+  "payload": {
+    "title": "Каталог скриптов",
+    "summary": "**словарь аббревиатур и сокращений из docs/.**",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 7281,
+    "path": "docs/SCRIPTS_CATALOG.md"
+  }
+}

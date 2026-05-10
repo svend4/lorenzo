@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:a60826f9ddb3c3c6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/limitations/do-not-glue.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:34b4045504e56b68",
+  "payload": {
+    "title": "Что пока лучше не склеивать",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "local-first",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "AutoResearch"
+    ],
+    "wc": 343,
+    "path": "docs/svyazi-2-0/limitations/do-not-glue.md"
+  }
+}

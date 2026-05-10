@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:019e2e9b3009f6a7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/130-отладка.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:f1f26dbe74ead830",
+  "payload": {
+    "title": "Отладка",
+    "summary": "- [Сервер не подключается](#сервер-не-подключается)",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 261,
+    "path": "docs/02-anthropic-vacancies/130-отладка.md"
+  }
+}

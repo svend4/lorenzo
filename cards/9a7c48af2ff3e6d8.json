@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:9a7c48af2ff3e6d8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:0e8cdf1090694675",
+  "payload": {
+    "title": "7. PortalEntry Structure",
+    "summary": "> 🎯 **Проблема:** PortalEntry Structure(7-portalentry-structure) - 7.1.",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 369,
+    "path": "docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md"
+  }
+}

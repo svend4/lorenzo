@@ -441,10 +441,43 @@ def _save_history(entry: dict) -> None:
     )
 
 
-def cmd_stats(name: str = "") -> None:
+def _parse_since(since_str: str) -> str | None:
+    """Парсит '--since 7d', '--since 30d', '--since 2026-04-01'. Возвращает ISO-строку или None."""
+    since_str = since_str.strip()
+    # N дней назад: "7d", "30d", "1d"
+    m = re.match(r'^(\d+)d$', since_str)
+    if m:
+        days = int(m.group(1))
+        dt = datetime.now() - __import__('datetime').timedelta(days=days)
+        return dt.strftime("%Y-%m-%dT%H:%M:%S")
+    # Дата: "2026-04-01" или "2026-04-01T10:00"
+    for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M", "%Y-%m-%d"):
+        try:
+            dt = datetime.strptime(since_str, fmt)
+            return dt.strftime("%Y-%m-%dT%H:%M:%S")
+        except ValueError:
+            continue
+    return None
+
+
+def cmd_stats(name: str = "", since: str = "") -> None:
     history = _load_history()
     if not history:
         print("  История пуста. Запустите рецепт: --run <name>")
+        return
+
+    # Применяем фильтр --since
+    since_dt: str | None = None
+    if since:
+        since_dt = _parse_since(since)
+        if since_dt:
+            history = [e for e in history if e.get("started_at", "") >= since_dt]
+            print(f"  Фильтр: с {since_dt[:10]} ({len(history)} записей)")
+        else:
+            print(f"  ⚠ Не удалось распознать --since «{since}». Формат: 7d, 30d, 2026-04-01")
+
+    if not history:
+        print("  Нет записей за указанный период.")
         return
 
     if name:
@@ -452,30 +485,43 @@ def cmd_stats(name: str = "") -> None:
         if not entries:
             print(f"  Нет истории для рецепта «{name}»")
             return
-        print(f"\n  История рецепта «{name}» ({len(entries)} запусков):\n")
-        for e in entries[-10:]:
+
+        ok_rate = sum(1 for e in entries if e.get("ok_count", 0) == e.get("total_count", 0))
+        avg_sec = sum(e.get("total_sec", 0) for e in entries) / len(entries)
+        print(f"\n  История рецепта «{name}» ({len(entries)} запусков):")
+        print(f"  Успех 100%: {ok_rate}/{len(entries)}  |  Ср. время: {avg_sec:.0f}с\n")
+        for e in entries[-15:]:
             ts   = e.get("started_at", "?")[:16]
             mode = "[dry]" if e.get("dry_run") else "     "
             ok   = e.get("ok_count", 0)
             tot  = e.get("total_count", 0)
             sec  = e.get("total_sec", 0)
-            print(f"  {ts}  {mode}  {ok}/{tot} ✅  {sec:.0f}с")
+            icon = "✅" if ok == tot else "⚠"
+            print(f"  {ts}  {mode}  {icon} {ok}/{tot}  {sec:.0f}с")
         return
 
     # Общая статистика
     from collections import Counter
     counts = Counter(e.get("recipe") for e in history)
-    last_run = {}
+    last_run: dict[str, str] = {}
+    total_sec_map: dict[str, float] = {}
+    ok_map: dict[str, int] = {}
     for e in history:
         r = e.get("recipe", "")
         if r:
             last_run[r] = e.get("started_at", "")[:16]
+            total_sec_map[r] = total_sec_map.get(r, 0.0) + e.get("total_sec", 0)
+            ok_map[r] = ok_map.get(r, 0) + (
+                1 if e.get("ok_count", 0) == e.get("total_count", 0) else 0
+            )
 
-    print(f"\n  История запусков ({len(history)} всего):\n")
-    print(f"  {'Рецепт':<28} {'Запусков':>9}  {'Последний запуск'}")
-    print(f"  {'─'*28}  {'─'*9}  {'─'*16}")
+    print(f"\n  История запусков ({len(history)} записей):\n")
+    print(f"  {'Рецепт':<28} {'Запусков':>9}  {'✅':>5}  {'Ср.время':>9}  {'Последний запуск'}")
+    print(f"  {'─'*28}  {'─'*9}  {'─'*5}  {'─'*9}  {'─'*16}")
     for recipe, count in counts.most_common(20):
-        print(f"  {recipe:<28} {count:>9}  {last_run.get(recipe, '?')}")
+        avg = total_sec_map.get(recipe, 0) / count
+        ok  = ok_map.get(recipe, 0)
+        print(f"  {recipe:<28} {count:>9}  {ok:>5}  {avg:>8.0f}с  {last_run.get(recipe, '?')}")
     print()
 
 
@@ -644,6 +690,8 @@ def main() -> None:
                         help="Удалить пользовательский рецепт")
     parser.add_argument("--stats",   nargs="?", const="", metavar="ИМЯ",
                         help="История запусков (опц. имя рецепта для деталей)")
+    parser.add_argument("--since",   metavar="ПЕРИОД", default="",
+                        help="Фильтр по дате: '7d', '30d', '2026-04-01' (для --stats)")
     parser.add_argument("--desc",    metavar="ТЕКСТ",
                         help="Описание рецепта (для --add)")
     parser.add_argument("--scripts", nargs="+", metavar="СКРИПТ",
@@ -663,7 +711,7 @@ def main() -> None:
     elif args.info:
         cmd_info(args.info)
     elif args.stats is not None:
-        cmd_stats(name=args.stats)
+        cmd_stats(name=args.stats, since=args.since)
     elif args.add:
         if not args.desc or not args.scripts:
             print("  ❌ Для --add нужны --desc и --scripts")

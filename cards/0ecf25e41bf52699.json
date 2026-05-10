@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0ecf25e41bf52699",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:134cc1fa2e56a867",
+  "payload": {
+    "title": "11. Призыв к сотрудничеству",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 381,
+    "path": "docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md"
+  }
+}

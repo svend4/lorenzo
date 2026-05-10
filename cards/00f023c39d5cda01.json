@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:00f023c39d5cda01",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:b311d26db7ef3c8c",
+  "payload": {
+    "title": "1. Why Single-Triangle Models Are Incomplete",
+    "summary": "title: \"1. Why Single-Triangle Models Are Incomplete\"",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 602,
+    "path": "docs/obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md"
+  }
+}

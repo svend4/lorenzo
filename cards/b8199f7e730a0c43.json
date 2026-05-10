@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:b8199f7e730a0c43",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/130-отладка.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:c09a3c3099756209",
+  "payload": {
+    "title": "Конфигурация для Claude Desktop",
+    "summary": "> После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Путь зависит от ОС:",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 263,
+    "path": "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md"
+  }
+}

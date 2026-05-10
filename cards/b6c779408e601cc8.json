@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:b6c779408e601cc8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/129-примеры-запросов-в-claude.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:d35c6e3125e3ab9a",
+  "payload": {
+    "title": "Примеры запросов (в Claude)",
+    "summary": "> После подключения Claude может использовать tools автоматически.",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 287,
+    "path": "docs/obsidian/02-anthropic-vacancies/129-примеры-запросов-в-claude.md"
+  }
+}

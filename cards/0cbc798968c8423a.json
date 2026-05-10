@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0cbc798968c8423a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:c826b5129e941fb3",
+  "payload": {
+    "title": "2. Что делает агента Профессиональным Коллегой",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 713,
+    "path": "docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md"
+  }
+}

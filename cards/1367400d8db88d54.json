@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:1367400d8db88d54",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/contacts/zodigancode.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:fd22b2a40e18e8a3",
+  "payload": {
+    "title": "Контакт: zodigancode / Rufler",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "Rufler"
+    ],
+    "wc": 255,
+    "path": "docs/contacts/zodigancode.md"
+  }
+}

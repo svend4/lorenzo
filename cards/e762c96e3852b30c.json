@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:e762c96e3852b30c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/MISSING.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:c6e966a975537dde",
+  "payload": {
+    "title": "Карта пробелов знаний",
+    "summary": "Анализ покрытия ключевых тем и проектов в docs/.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "SENTINEL",
+      "AutoResearch"
+    ],
+    "wc": 434,
+    "path": "docs/MISSING.md"
+  }
+}

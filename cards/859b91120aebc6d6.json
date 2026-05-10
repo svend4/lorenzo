@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:859b91120aebc6d6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/COMPONENT_MATRIX.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:09db776c9767a947",
+  "payload": {
+    "title": "Матрица компонентов Svyazi 2.0",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 1047,
+    "path": "docs/obsidian/COMPONENT_MATRIX.md"
+  }
+}

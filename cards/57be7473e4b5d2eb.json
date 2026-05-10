@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:57be7473e4b5d2eb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/34-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/104-appendix-c-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/67-о-проекте.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:6008a083594eb89f",
+  "payload": {
+    "title": "For the Curious: Philosophy",
+    "summary": "> 🎯 **Проблема:** Если это утверждение удастся формально доказать, оно становится вкладом в теорию сложных систем.",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 871,
+    "path": "docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md"
+  }
+}

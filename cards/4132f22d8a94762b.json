@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:4132f22d8a94762b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/174-5-architectural-specification.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:56be6075dcfbbf69",
+  "payload": {
+    "title": "5. Architectural Specification",
+    "summary": "> 🎯 **Проблема:** User Interface: Multi-modal access (web, mobile, voice) appropriate to principal's accessibility needs.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 852,
+    "path": "docs/obsidian/02-anthropic-vacancies/174-5-architectural-specification.md"
+  }
+}

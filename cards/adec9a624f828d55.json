@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:adec9a624f828d55",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ACTION_ITEMS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/165-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:6af0e0146a94dc44",
+  "payload": {
+    "title": "Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги",
+    "summary": "> 🎯 **Проблема:** Почему это важно архитектурно Композитный Агент решает критическую проблему , которую ни Тип 1, ни Тип 5 решить не могут.",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 3565,
+    "path": "docs/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md"
+  }
+}

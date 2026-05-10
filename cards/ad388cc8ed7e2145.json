@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:ad388cc8ed7e2145",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/VOCABULARY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:60bbce53177cf7e5",
+  "payload": {
+    "title": "Богатство словаря документов",
+    "summary": "- [Корпусная статистика](#корпусная-статистика)",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 927,
+    "path": "docs/obsidian/VOCABULARY.md"
+  }
+}

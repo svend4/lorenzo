@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:b6c11aba0bd1db20",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/307-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/275-why-this-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/286-acknowledgments.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/285-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:14a1af5c075a93e0",
+  "payload": {
+    "title": "What This Document Doesn't Solve",
+    "summary": "> This document identifies a problem. It does not propose a",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 396,
+    "path": "docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md"
+  }
+}

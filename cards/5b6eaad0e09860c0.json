@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:5b6eaad0e09860c0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:1cfc6d6fc906fc2c",
+  "payload": {
+    "title": "Пара 2 — Термодинамические TSU × MoE/MoME-роутинг",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "knowledge",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 297,
+    "path": "docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md"
+  }
+}

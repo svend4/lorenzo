@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:73f91d7653d2d8f7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:8887bc54f8b9f460",
+  "payload": {
+    "title": "8. Ограничения и открытые вопросы",
+    "summary": "> 🎯 **Проблема:** Вернуться к формулировке задачи, уточнить scope, и только потом запускать параллельные review заново.",
+    "tags": [
+      "memory",
+      "roadmap"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 447,
+    "path": "docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md"
+  }
+}

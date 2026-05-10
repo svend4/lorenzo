@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:088ddd4a6f042621",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:6a243cef5fbad1b2",
+  "payload": {
+    "title": "7. Области применения",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 716,
+    "path": "docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md"
+  }
+}

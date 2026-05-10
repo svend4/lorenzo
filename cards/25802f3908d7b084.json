@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:25802f3908d7b084",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:2d317e2d5dfeadba",
+  "payload": {
+    "title": "1. Why the Binary View Is Incomplete",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 640,
+    "path": "docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md"
+  }
+}

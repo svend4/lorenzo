@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:90fee7c7f40220b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:5e8fab4077691843",
+  "payload": {
+    "title": "Существующий landscape collaborators (твоя working knowledge)",
+    "summary": "title: \"Существующий landscape collaborators (твоя working knowledge)\"",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "knowledge-space",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 362,
+    "path": "docs/obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md"
+  }
+}

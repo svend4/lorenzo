@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:4a76bbbd74133b12",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/knowledge-space.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:fd211ff50e0258c9",
+  "payload": {
+    "title": "knowledge-space",
+    "summary": "<!-- tags: knowledge, ingestion, architecture, collaboration -->",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 123,
+    "path": "docs/svyazi-2-0/components/knowledge-space.md"
+  }
+}

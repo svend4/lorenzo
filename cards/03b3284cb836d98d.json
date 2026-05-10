@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:03b3284cb836d98d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/01-svyazi/14-limitations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:34642625b1bd421e",
+  "payload": {
+    "title": "14 limitations",
+    "summary": "> 🎯 **Проблема:** Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сл",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "NGT Memory",
+      "AutoResearch"
+    ],
+    "wc": 638,
+    "path": "docs/01-svyazi/14-limitations.md"
+  }
+}

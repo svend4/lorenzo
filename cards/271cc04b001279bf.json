@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:271cc04b001279bf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:d4415b5c7a364c00",
+  "payload": {
+    "title": "9. Risks and Open Questions",
+    "summary": "- [9. Risks and Open Questions](#9-risks-and-open-questions)",
+    "tags": [
+      "rag",
+      "orchestration",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 645,
+    "path": "docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md"
+  }
+}

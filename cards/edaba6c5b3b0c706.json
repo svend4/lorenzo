@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:edaba6c5b3b0c706",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/innovation-transitions/01-response.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:814b4ac545ce2c7b",
+  "payload": {
+    "title": "Claude hat geantwortet: Отличный запрос.",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 2405,
+    "path": "docs/nautilus/innovation-transitions/01-response.md"
+  }
+}

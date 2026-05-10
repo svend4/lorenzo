@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:62aff45f5ea6b296",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:af6f6bc2e2f60101",
+  "payload": {
+    "title": "Сходство 3: MCP support",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 139,
+    "path": "docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:dcb7e41fed9e78ba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/245-ссылки.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:1babd57de1fe75b0",
+  "payload": {
+    "title": "Ссылки",
+    "summary": "> 🎯 **Проблема:** Ссылки Contents - Ссылки(ссылки) - Первичный Эмпирический Источник(первичный-эмпирический-источник) - Сопроводительные Документы(сопроводительные-документы) - Основополагающие Исто",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 340,
+    "path": "docs/02-anthropic-vacancies/245-ссылки.md"
+  }
+}

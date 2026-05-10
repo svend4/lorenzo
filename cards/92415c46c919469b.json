@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:92415c46c919469b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:1804b86335cf129d",
+  "payload": {
+    "title": "Appendix C: Version History",
+    "summary": "> 🎯 **Проблема:** Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится голодным.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 8591,
+    "path": "docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md"
+  }
+}

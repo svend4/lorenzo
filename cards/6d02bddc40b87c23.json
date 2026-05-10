@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:6d02bddc40b87c23",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/yodoca.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:539069d693d47baa",
+  "payload": {
+    "title": "Yodoca",
+    "summary": "> - **Источник:** Хабр + GitHub citeturn38view7turn21view0turn21view1turn18search1",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 127,
+    "path": "docs/svyazi-2-0/components/yodoca.md"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:282dc27b8f589c8d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/REGISTRY.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/agent-spec.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contact-outreach.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contradiction-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/decision-record.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/ensemble.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/experiment-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/faq-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/glossary-entry.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/kpi-snapshot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/legal-case.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:222ca567cb7a89d9",
+  "payload": {
+    "title": "REGISTRY — реестр артефактов Lorenzo",
+    "summary": "python scripts/improve_template_init.py --type rfc --slug docs/rfcs/RFC-NNNN.md",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 1327,
+    "path": "docs/REGISTRY.md"
+  }
+}

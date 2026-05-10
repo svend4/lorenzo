@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:598588fdc324a16b",
+  "card_type": "fact",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/ai-factory.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:39690c41e0b42c13",
+  "payload": {
+    "title": "AI Factory + AIF Handoff",
+    "summary": "> - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9",
+    "tags": [
+      "orchestration",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 130,
+    "path": "docs/svyazi-2-0/components/ai-factory.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:9ee84d231746ff3c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:160174af8cb31c7f",
+  "payload": {
+    "title": "5. Four Integration Paths in Order of Accessibility",
+    "summary": "> 🎯 **Проблема:** --- --- Похожие документы: - 311-3-what-ingit-provides-that-cowork-lacks(docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.16) - 310-2-what-co",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 796,
+    "path": "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md"
+  }
+}

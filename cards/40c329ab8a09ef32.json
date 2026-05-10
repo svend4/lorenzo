@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:40c329ab8a09ef32",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/06-1-introduction.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:748dc5cb0b3744ee",
+  "payload": {
+    "title": "1. Introduction",
+    "summary": "> 🎯 **Проблема:** Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы (два файла",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 395,
+    "path": "docs/obsidian/02-anthropic-vacancies/06-1-introduction.md"
+  }
+}

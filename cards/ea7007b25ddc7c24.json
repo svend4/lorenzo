@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:ea7007b25ddc7c24",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/meta-scripting/04-enrichment.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:347205133c688497",
+  "payload": {
+    "title": "Метаскриптинг — Часть 4: Обогащение скриптов",
+    "summary": "> > Как скрипт улучшает другой скрипт, не зная заранее что в нём написано.",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 582,
+    "path": "docs/meta-scripting/04-enrichment.md"
+  }
+}

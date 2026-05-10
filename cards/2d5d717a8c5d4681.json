@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:2d5d717a8c5d4681",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:4db755317fed01de",
+  "payload": {
+    "title": "Комбинация 16: Adversarial Multi-Agent Code Review",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "orchestration",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Auto AI Router"
+    ],
+    "wc": 254,
+    "path": "docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md"
+  }
+}

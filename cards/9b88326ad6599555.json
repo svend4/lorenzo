@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:9b88326ad6599555",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:e406325958a3a694",
+  "payload": {
+    "title": "Пара 8 — Self-aware MCP × Specs-first архитектура",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 345,
+    "path": "docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md"
+  }
+}

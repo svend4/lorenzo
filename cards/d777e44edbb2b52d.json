@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:d777e44edbb2b52d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/operationalized/03-honest-opinion.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:7072f85ebc15f0d7",
+  "payload": {
+    "title": "Моё честное мнение: что реально и что НЕ реально",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 180,
+    "path": "docs/lorenzo-agent/operationalized/03-honest-opinion.md"
+  }
+}

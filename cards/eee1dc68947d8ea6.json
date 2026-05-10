@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:eee1dc68947d8ea6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/37-native-format.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:aaa47ad4575d9c2c",
+  "payload": {
+    "title": "Native Format",
+    "summary": "> **Структура файла:** [[01-интегральный-анализ-профиля-svend4|? уточнить — Markdown с YAML frontmatter, чистый JSON,",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 318,
+    "path": "docs/obsidian/02-anthropic-vacancies/37-native-format.md"
+  }
+}

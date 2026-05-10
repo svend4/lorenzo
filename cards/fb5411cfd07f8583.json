@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:fb5411cfd07f8583",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/01-svyazi/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:69f83c0f1bcae470",
+  "payload": {
+    "title": "Q&A: 01-svyazi",
+    "summary": "<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->",
+    "tags": [
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 244,
+    "path": "docs/obsidian/01-svyazi/QA.md"
+  }
+}

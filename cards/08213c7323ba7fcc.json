@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:08213c7323ba7fcc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/153-executive-summary.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/155-1-problem-statement.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/156-2-target-populations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/164-10-appendices.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/163-9-call-for-partnership.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/181-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:2c3279961731a1f5",
+  "payload": {
+    "title": "Executive Summary",
+    "summary": "- [Executive Summary](#executive-summary)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 615,
+    "path": "docs/02-anthropic-vacancies/153-executive-summary.md"
+  }
+}

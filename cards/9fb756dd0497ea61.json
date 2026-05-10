@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:9fb756dd0497ea61",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:3596be174ae711fd",
+  "payload": {
+    "title": "9. Стратегия поэтапного развёртывания",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "security",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 484,
+    "path": "docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md"
+  }
+}

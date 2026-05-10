@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:4164c6cad7260b36",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/07-why-valid-for-ai.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:870657b2acf626e1",
+  "payload": {
+    "title": "6. Почему это валидный паттерн для AI‑assisted workflows",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Трёхфазная методология Review в Nautilus».",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 197,
+    "path": "docs/nautilus/review-methodology/07-why-valid-for-ai.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:d1a72c876660eec4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/contacts/kksudo.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:e863486535f46331",
+  "payload": {
+    "title": "Контакт: kksudo / AgentFS",
+    "summary": "<!-- summary: Шаблон для связи с автором AgentFS -->",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS"
+    ],
+    "wc": 270,
+    "path": "docs/contacts/kksudo.md"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:d5d6dcea6264f56c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/308-table-of-contents.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/253-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/137-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:8da1325e0f148636",
+  "payload": {
+    "title": "Table of Contents",
+    "summary": "> 1. **The Cowork Discovery and Why It Changes Everything**",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 431,
+    "path": "docs/02-anthropic-vacancies/308-table-of-contents.md"
+  }
+}

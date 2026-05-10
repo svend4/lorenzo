@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:fc7e3cd369f43884",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CONTRADICTIONS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:8f6cd67ac6fbd399",
+  "payload": {
+    "title": "Противоречия в базе знаний",
+    "summary": "Утверждений: **71214** | Противоречий: **5915**",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "MemNet",
+      "AutoResearch"
+    ],
+    "wc": 1633,
+    "path": "docs/CONTRADICTIONS.md"
+  }
+}

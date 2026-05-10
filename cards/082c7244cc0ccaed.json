@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:082c7244cc0ccaed",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:5a23e8bf43ea4d1c",
+  "payload": {
+    "title": "Q&A: lorenzo-agent",
+    "summary": "_Автоматически сгенерировано по 55 файлам раздела._",
+    "tags": [],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "NGT Memory"
+    ],
+    "wc": 206,
+    "path": "docs/lorenzo-agent/QA.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:aa893aa0d4662687",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/347-твоя-миссия.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:ca74e82ef2885d6d",
+  "payload": {
+    "title": "Твоя миссия",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 157,
+    "path": "docs/02-anthropic-vacancies/347-твоя-миссия.md"
+  }
+}

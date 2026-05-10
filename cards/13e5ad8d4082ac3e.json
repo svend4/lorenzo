@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:13e5ad8d4082ac3e",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/E-execution-plane.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:437b3bfc6e7d003d",
+  "payload": {
+    "title": "Ансамбль E — Safe and cheap execution plane",
+    "summary": "> > Источник: `deep-research-report (1).md`.",
+    "tags": [
+      "orchestration",
+      "security",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 253,
+    "path": "docs/svyazi-2-0/ensembles/E-execution-plane.md"
+  }
+}

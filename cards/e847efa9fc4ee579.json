@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:e847efa9fc4ee579",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:00d24fb475374f47",
+  "payload": {
+    "title": "8. Risks and Mitigations",
+    "summary": "- [8. Risks and Mitigations](#8-risks-and-mitigations)",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 632,
+    "path": "docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md"
+  }
+}

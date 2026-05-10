@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:49006bdcaa9ac6f4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:aee0c1fd8195837d",
+  "payload": {
+    "title": "Дорожная карта прототипа следующей итерации",
+    "summary": "title: \"Дорожная карта прототипа следующей итерации\"",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 800,
+    "path": "docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:daf577663a455b36",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/TASKS_INDEX.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/rfc.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/prototype-mvp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/research-note.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/contact-outreach.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:a5763aa89a1dac8c",
+  "payload": {
+    "title": "Каталог задач (TASKS_INDEX)",
+    "summary": "- [lorenzo-contacts (1)](#lorenzo-contacts-1)",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1012,
+    "path": "docs/TASKS_INDEX.md"
+  }
+}

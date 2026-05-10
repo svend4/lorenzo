@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:2dc70df0d1ec73ef",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/09-okwf-integration.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e5e4a8260fa1a713",
+  "payload": {
+    "title": "9. Integration with OKWF Infrastructure",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 693,
+    "path": "docs/nautilus/composite-skills-agents/09-okwf-integration.md"
+  }
+}

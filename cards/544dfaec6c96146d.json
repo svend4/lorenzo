@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:544dfaec6c96146d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:008fc35343bd6cd1",
+  "payload": {
+    "title": "4. Симбиотическая Архитектура",
+    "summary": "- [4. Симбиотическая Архитектура](#4-симбиотическая-архитектура)",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 720,
+    "path": "docs/obsidian/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md"
+  }
+}

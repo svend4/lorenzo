@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:4bb3bc7372c8041e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:fd06ec93cce9dd31",
+  "payload": {
+    "title": "1. Синдром Золушки: Почему качество остаётся невидимым",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 751,
+    "path": "docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md"
+  }
+}

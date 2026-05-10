@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:3e172959f6e5e3b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/231-содержание.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:bd16559d6c5e4174",
+  "payload": {
+    "title": "Содержание",
+    "summary": "> 1. **Типология из пяти типов агентов на стороне",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 317,
+    "path": "docs/obsidian/02-anthropic-vacancies/231-содержание.md"
+  }
+}

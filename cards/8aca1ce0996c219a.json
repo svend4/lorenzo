@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:8aca1ce0996c219a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/07-progression-logic.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:ac915b5c46721589",
+  "payload": {
+    "title": "Логика прогрессии: conservative escalation",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 185,
+    "path": "docs/lorenzo-agent/phased-deployment/07-progression-logic.md"
+  }
+}

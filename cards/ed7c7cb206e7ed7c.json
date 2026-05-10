@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:ed7c7cb206e7ed7c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/69-section.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:29f6c26c36ca2517",
+  "payload": {
+    "title": "⬡",
+    "summary": "> 🎯 **Проблема:** Что с ними делать(три-артефакта-готовы-что-с-ними-делать) - Что изменилось — ничего(что-изменилось-ничего) - Что это значит(что-это-значит) - Как проверить точно(как-проверить-точн",
+    "tags": [
+      "memory",
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 9556,
+    "path": "docs/obsidian/02-anthropic-vacancies/69-section.md"
+  }
+}

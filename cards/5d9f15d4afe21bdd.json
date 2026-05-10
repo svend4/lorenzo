@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:5d9f15d4afe21bdd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/159-5-economic-model.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:52b7f96a6bbf606c",
+  "payload": {
+    "title": "5. Economic Model",
+    "summary": "- [5.1. Budget Philosophy](#51-budget-philosophy)",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 675,
+    "path": "docs/obsidian/02-anthropic-vacancies/159-5-economic-model.md"
+  }
+}

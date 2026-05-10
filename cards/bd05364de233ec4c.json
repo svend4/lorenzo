@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:bd05364de233ec4c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:abd460c219d6252c",
+  "payload": {
+    "title": "Appendix A: Шаблон для header warning",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 215,
+    "path": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md"
+  }
+}

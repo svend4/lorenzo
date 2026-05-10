@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:d40724d7416b245a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/self-aware-mcp.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:0b871355c35db8b1",
+  "payload": {
+    "title": "Self‑Aware MCP + Skills + CodeWiki",
+    "summary": "> - **Авторы:** akazant / akzhankalimatov / AnastasiyaW",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "Rufler",
+      "agent-memory-mcp"
+    ],
+    "wc": 148,
+    "path": "docs/svyazi-2-0/components/self-aware-mcp.md"
+  }
+}

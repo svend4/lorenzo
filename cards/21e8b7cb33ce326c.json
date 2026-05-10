@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:21e8b7cb33ce326c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:c0bc3ec31a0f419f",
+  "payload": {
+    "title": "Комбинация 29: Meta-Programmatic Legal Template Generator",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 198,
+    "path": "docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md"
+  }
+}

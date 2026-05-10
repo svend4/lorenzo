@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:dac60bbb5a30aa71",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/DEPENDABOT.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:b75d45dbe41e210a",
+  "payload": {
+    "title": "Мониторинг зависимостей",
+    "summary": "<!-- tags: memory, knowledge, ingestion, anthropic, collaboration -->",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 154,
+    "path": "docs/obsidian/DEPENDABOT.md"
+  }
+}

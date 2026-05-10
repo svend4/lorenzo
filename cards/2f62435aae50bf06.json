@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:2f62435aae50bf06",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:d0d6d5a93c2c86b6",
+  "payload": {
+    "title": "with Anthropic's Cowork Platform",
+    "summary": "title: \"with Anthropic's Cowork Platform\"",
+    "tags": [
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 523,
+    "path": "docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md"
+  }
+}

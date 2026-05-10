@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:a954ac7ca1fa8846",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:4e4ebc1bb5172d6a",
+  "payload": {
+    "title": "6. Coordination and Disagreement Resolution",
+    "summary": "title: \"6. Coordination and Disagreement Resolution\"",
+    "tags": [
+      "rag",
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 1013,
+    "path": "docs/obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md"
+  }
+}

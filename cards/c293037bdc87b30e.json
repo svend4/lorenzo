@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:c293037bdc87b30e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:0cd311c281a732b9",
+  "payload": {
+    "title": "3. Принципы консолидации (Фаза C)",
+    "summary": "title: \"3. Принципы консолидации (Фаза C)\"",
+    "tags": [
+      "memory",
+      "rag",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 696,
+    "path": "docs/obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md"
+  }
+}

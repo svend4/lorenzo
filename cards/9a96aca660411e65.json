@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:9a96aca660411e65",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/COST.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:795f94d800ed2690",
+  "payload": {
+    "title": "Оценка стоимости MVP",
+    "summary": "_Ориентировочные цифры на основе документации проекта._",
+    "tags": [],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "Rufler",
+      "Yodoca",
+      "SENTINEL",
+      "Tool Search"
+    ],
+    "wc": 502,
+    "path": "docs/COST.md"
+  }
+}

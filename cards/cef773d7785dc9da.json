@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:cef773d7785dc9da",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:42893b58cde5b6f6",
+  "payload": {
+    "title": "Du hast gesagt: Важный момент про способности про скилы как один человек професс…",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — 21 учитель индийского йога — спектр между Professional Colleague и Representative Agent.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 540,
+    "path": "docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md"
+  }
+}

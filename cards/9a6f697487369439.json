@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:9a6f697487369439",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:72a99348b1591a93",
+  "payload": {
+    "title": "Appendix C: Sample Use Cases in Detail",
+    "summary": "title: \"Appendix C: Sample Use Cases in Detail\"",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 2239,
+    "path": "docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md"
+  }
+}

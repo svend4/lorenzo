@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:caa847f1b1ea5f37",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/07-specific-case.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:725fc1b89ce8c446",
+  "payload": {
+    "title": "The Specific Case in Front of Us",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 614,
+    "path": "docs/nautilus/infrastructure-layer-b-en/07-specific-case.md"
+  }
+}

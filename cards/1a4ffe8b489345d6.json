@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:1a4ffe8b489345d6",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:1e6d85150619f6bb",
+  "payload": {
+    "title": "Комбинация 3: CRDT local-first × Svyazi CardIndex",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 199,
+    "path": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md"
+  }
+}

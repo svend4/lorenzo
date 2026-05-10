@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:8d7b9860987d5fe5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/03-technology-combinations/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:418ac85f57e23cdc",
+  "payload": {
+    "title": "Q&A: 03-technology-combinations",
+    "summary": "_Автоматически сгенерировано по 5 файлам раздела._",
+    "tags": [],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space"
+    ],
+    "wc": 133,
+    "path": "docs/03-technology-combinations/QA.md"
+  }
+}

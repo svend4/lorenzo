@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:6211678f8aaa5243",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/final-ensembles/4-summary-authors.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:e0d2a640e2e0922f",
+  "payload": {
+    "title": "Сводный список авторов и потенциальных соавторов",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "NGT Memory",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 253,
+    "path": "docs/habr-unique-projects/final-ensembles/4-summary-authors.md"
+  }
+}

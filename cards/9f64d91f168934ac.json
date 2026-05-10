@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:9f64d91f168934ac",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DIGEST_WEEKLY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:e397f7d894e9e7b4",
+  "payload": {
+    "title": "Еженедельный дайджест — 2026-04-29",
+    "summary": "> _Период: последние 7 дней (с 2026-04-22)_",
+    "tags": [
+      "rag"
+    ],
+    "projects": [],
+    "wc": 232,
+    "path": "docs/DIGEST_WEEKLY.md"
+  }
+}

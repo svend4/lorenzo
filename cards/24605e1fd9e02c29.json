@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:24605e1fd9e02c29",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:160e45c2f464eb4d",
+  "payload": {
+    "title": "Кому ты служишь (слоистая модель)",
+    "summary": "title: \"Кому ты служишь (слоистая модель)\"",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 119,
+    "path": "docs/obsidian/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md"
+  }
+}

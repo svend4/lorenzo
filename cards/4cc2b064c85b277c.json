@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:4cc2b064c85b277c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/ACTION_ITEMS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:b45df9f56b6cae53",
+  "payload": {
+    "title": "Action Items, риски и решения",
+    "summary": "- [➡️ Следующие шаги (150)](#следующие-шаги-150)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 8127,
+    "path": "docs/obsidian/ACTION_ITEMS.md"
+  }
+}

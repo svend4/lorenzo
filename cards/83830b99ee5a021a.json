@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:83830b99ee5a021a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/prototype/risks.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:57222abf559c3729",
+  "payload": {
+    "title": "Ключевые риски и как их закрывать",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "AutoResearch"
+    ],
+    "wc": 287,
+    "path": "docs/svyazi-2-0/prototype/risks.md"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "card_id": "sha256:4c8f3656705af737",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/autofilled/components/kksudo.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/autofilled/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/cowork.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/lorenzo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/sgb.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/svyazi.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:9c335960ac8fca52",
+  "payload": {
+    "title": "kksudo",
+    "summary": "- [Автозаполненные шаблоны](../../AUTOFILLED.md)",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 217,
+    "path": "docs/autofilled/components/kksudo.md"
+  }
+}

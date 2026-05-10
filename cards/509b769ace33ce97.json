@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:509b769ace33ce97",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ORPHANS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:95536adc89eda7f7",
+  "payload": {
+    "title": "Изолированные документы (Orphans)",
+    "summary": "**Найдено:** 396 файлов без входящих ссылок из 1533 проверено.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 302,
+    "path": "docs/ORPHANS.md"
+  }
+}

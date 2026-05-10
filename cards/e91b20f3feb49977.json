@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:e91b20f3feb49977",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:d9f885dca07c4da9",
+  "payload": {
+    "title": "Section 6: Proposer's role и qualifications",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 169,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md"
+  }
+}

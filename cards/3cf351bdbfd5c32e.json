@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:3cf351bdbfd5c32e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:c67e157081890fd9",
+  "payload": {
+    "title": "2. The Double-Triangle Architecture",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 687,
+    "path": "docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:ff9c2e9ca761ccd6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:bc13f137c832ebc0",
+  "payload": {
+    "title": "Что промышленность вероятно построит",
+    "summary": "> 🎯 **Проблема:** Риск: сложность Notion создаёт барьер для входа.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 333,
+    "path": "docs/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md"
+  }
+}

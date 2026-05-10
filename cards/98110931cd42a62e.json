@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:98110931cd42a62e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/COVERAGE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:a1ab0abd30f5124b",
+  "payload": {
+    "title": "Матрица покрытия документов",
+    "summary": "- [Сводка по секциям](#сводка-по-секциям)",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 1050,
+    "path": "docs/obsidian/COVERAGE.md"
+  }
+}

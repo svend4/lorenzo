@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:a24c42d2c5a65e71",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/163-9-call-for-partnership.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:11e2926c99cac751",
+  "payload": {
+    "title": "9. Call for Partnership",
+    "summary": "- [9. Call for Partnership](#9-call-for-partnership)",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 654,
+    "path": "docs/02-anthropic-vacancies/163-9-call-for-partnership.md"
+  }
+}

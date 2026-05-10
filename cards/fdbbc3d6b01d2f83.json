@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:fdbbc3d6b01d2f83",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/NAMED_ENTITIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:4d1dba46c6e6c7f0",
+  "payload": {
+    "title": "Индекс именованных сущностей",
+    "summary": "- [`anthropic` (743 файлов)](#anthropic-743-файлов)",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 1622,
+    "path": "docs/obsidian/NAMED_ENTITIES.md"
+  }
+}

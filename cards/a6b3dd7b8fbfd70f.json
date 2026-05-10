@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:a6b3dd7b8fbfd70f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/andrey-chuyan.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:ac69c29e58b034fe",
+  "payload": {
+    "title": "Контакт: andrey_chuyan / Svyazi",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 252,
+    "path": "docs/obsidian/contacts/andrey-chuyan.md"
+  }
+}

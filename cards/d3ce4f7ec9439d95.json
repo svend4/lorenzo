@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:d3ce4f7ec9439d95",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:7f4644d90fa4e2eb",
+  "payload": {
+    "title": "2. The Twenty-One Teachers Pattern",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "local-first",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 780,
+    "path": "docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md"
+  }
+}

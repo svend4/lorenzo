@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:52308cb6a7ecb144",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/103-appendix-b-change-log.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:7e668e19e4260167",
+  "payload": {
+    "title": "Appendix B: Change Log",
+    "summary": "- [Appendix B: Change Log](#appendix-b-change-log)",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 325,
+    "path": "docs/obsidian/02-anthropic-vacancies/103-appendix-b-change-log.md"
+  }
+}

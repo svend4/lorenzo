@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:5b9eeee2522fb80e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/HEALTH.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:e7deff8af9386ef8",
+  "payload": {
+    "title": "Health Dashboard",
+    "summary": "- 🔗 Проверить 317 сломанных ссылок (`BROKEN_LINKS.md`)",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 236,
+    "path": "docs/HEALTH.md"
+  }
+}

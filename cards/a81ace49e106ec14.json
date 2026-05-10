@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:a81ace49e106ec14",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:a4da7ff8aa2410c6",
+  "payload": {
+    "title": "3. Что InGit обеспечивает, чего Cowork не хватает",
+    "summary": "> 🎯 **Проблема:** Без метаданных задачи не имеют статуса, документы не имеют происхождения, артефакты не имеют отношений.",
+    "tags": [
+      "security",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 1071,
+    "path": "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md"
+  }
+}

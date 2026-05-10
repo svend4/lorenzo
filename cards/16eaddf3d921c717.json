@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:16eaddf3d921c717",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/210-abstract.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:83842c9017b94884",
+  "payload": {
+    "title": "Abstract",
+    "summary": "- [Связанные документы](#связанные-документы)",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 606,
+    "path": "docs/obsidian/02-anthropic-vacancies/210-abstract.md"
+  }
+}

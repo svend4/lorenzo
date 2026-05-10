@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:89b441e44de36c30",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:d7d80c9deab3c121",
+  "payload": {
+    "title": "Question 8: Lorenzo's relationship с другими AI agents",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 207,
+    "path": "docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md"
+  }
+}

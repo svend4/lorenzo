@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:7a8781c5b28e6e5c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:1efba6ecb37bab2c",
+  "payload": {
+    "title": "A Formal Model for Human-AI Collaboration in Distributed Knowledge Work",
+    "summary": "title: \"A Formal Model for Human-AI Collaboration in Distributed Knowledge Work\"",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 282,
+    "path": "docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:93fd74b90ebe4435",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:30ee0961ad1e999d",
+  "payload": {
+    "title": "1. The Five-Type Typology of Principal-Side Agents",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 871,
+    "path": "docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md"
+  }
+}

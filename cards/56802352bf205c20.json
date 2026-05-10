@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:56802352bf205c20",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:f429b5bf57ce6f98",
+  "payload": {
+    "title": "Комбинация 15: Self-Consolidating Legal Corpus",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "knowledge",
+      "self-improvement"
+    ],
+    "projects": [
+      "Yodoca"
+    ],
+    "wc": 226,
+    "path": "docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:14ce04e906b8d34a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/synthesis-tables/31-35-final.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:8cc1c6b282df47e5",
+  "payload": {
+    "title": "Сводная таблица 31–35 (Complete 1–35)",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑35)».",
+    "tags": [
+      "rag",
+      "local-first",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 249,
+    "path": "docs/technology-combinations/synthesis-tables/31-35-final.md"
+  }
+}

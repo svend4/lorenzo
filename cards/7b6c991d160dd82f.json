@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:7b6c991d160dd82f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/STALENESS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:ec1dfcbc5dde5bdf",
+  "payload": {
+    "title": "Отчёт об устаревших документах",
+    "summary": "<!-- tags: ingestion, architecture, anthropic, collaboration -->",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 407,
+    "path": "docs/obsidian/STALENESS.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:49f44355f85a7979",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/122-глоссарий.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:a39f165aaf4c66ed",
+  "payload": {
+    "title": "Глоссарий",
+    "summary": "> 🎯 **Проблема:** Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после публикации.",
+    "tags": [
+      "memory",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1527,
+    "path": "docs/obsidian/02-anthropic-vacancies/122-глоссарий.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:8860a92b732fe8cd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/READING_ORDER.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:9c364963402f02ff",
+  "payload": {
+    "title": "Рекомендуемый порядок чтения",
+    "summary": "От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 5947,
+    "path": "docs/READING_ORDER.md"
+  }
+}

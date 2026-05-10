@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:b8650ea584470804",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/68-about.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:75767bb61dc99b81",
+  "payload": {
+    "title": "🇬🇧 About",
+    "summary": "> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in",
+    "tags": [
+      "rag",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 937,
+    "path": "docs/02-anthropic-vacancies/68-about.md"
+  }
+}

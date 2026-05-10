@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:d129535654a34b0c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/272-appendix-d-connection-diagram.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:5bad9cbdc65a31c0",
+  "payload": {
+    "title": "Appendix D: Connection Diagram",
+    "summary": "> 🎯 **Проблема:** Если у вас есть bandwidth хотеть участвовать в этом — даже на уровне написания о том, что нужно — вы могли бы внести вклад.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 4075,
+    "path": "docs/obsidian/02-anthropic-vacancies/272-appendix-d-connection-diagram.md"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:5dec679479c02951",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:aba5cebb6e786180",
+  "payload": {
+    "title": "Svyazi (Андрей Чуян) — детальный обзор",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — расширенные примеры с Хабра по варианту D (поиск ещё уникальных проектов).",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 200,
+    "path": "docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md"
+  }
+}

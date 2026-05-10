@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:973d50db60a63727",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/synthesis-tables/25-30-extended.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:523179edce3e5c8c",
+  "payload": {
+    "title": "Сводная таблица 25–30 (Complete 1–30)",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «EXTENDED SYNTHESIS TABLE (Complete 1‑30)».",
+    "tags": [
+      "rag",
+      "orchestration"
+    ],
+    "projects": [],
+    "wc": 228,
+    "path": "docs/technology-combinations/synthesis-tables/25-30-extended.md"
+  }
+}

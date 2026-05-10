@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:4dbc1cbe02a025d5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:f5947a72b66d1a47",
+  "payload": {
+    "title": "Комбинация 11: Hybrid CRDT-SQL Database",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "local-first",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 189,
+    "path": "docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md"
+  }
+}

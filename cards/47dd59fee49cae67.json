@@ -1,0 +1,58 @@
+{
+  "card_id": "sha256:47dd59fee49cae67",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/autofilled/components/lorenzo.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/autofilled/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/cowork.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/sgb.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/svyazi.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:86a18e0fe137071d",
+  "payload": {
+    "title": "Lorenzo",
+    "summary": "- [Автозаполненные шаблоны](../../AUTOFILLED.md)",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 174,
+    "path": "docs/autofilled/components/lorenzo.md"
+  }
+}

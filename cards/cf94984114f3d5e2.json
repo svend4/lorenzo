@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:cf94984114f3d5e2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:d04a08a614fbedab",
+  "payload": {
+    "title": "Что этот документ не решает",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 205,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md"
+  }
+}

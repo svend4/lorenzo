@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:dad0ae1fc0ee561d",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/candidates/01-three-key-candidates.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:c20d8f84622e407b",
+  "payload": {
+    "title": "Три ключевых кандидата: K2-18, Wikontic, NGT Memory",
+    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 353,
+    "path": "docs/ai-collaborations/candidates/01-three-key-candidates.md"
+  }
+}

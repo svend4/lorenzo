@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:58b9ce648c59c8a7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:7ea98962b425cd82",
+  "payload": {
+    "title": "Пара 4 — Скилл-каталоги × Subagent-оркестрация",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "orchestration",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 300,
+    "path": "docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:74b2cd17e6c2f4ea",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:eefae68171074521",
+  "payload": {
+    "title": "СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md",
+    "summary": "title: \"СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md\"",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 231,
+    "path": "docs/obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md"
+  }
+}

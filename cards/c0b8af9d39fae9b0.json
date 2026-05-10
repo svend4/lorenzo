@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:c0b8af9d39fae9b0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/7-metaphor.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:cc6bc602466c2b74",
+  "payload": {
+    "title": "Метафора «двое родителей — несколько детей»",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 329,
+    "path": "docs/habr-unique-projects/hardware-pairs/7-metaphor.md"
+  }
+}

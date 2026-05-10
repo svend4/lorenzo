@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:bd5d1c9597c045b8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:a6b4a62c1093894d",
+  "payload": {
+    "title": "12. Call for Collaboration",
+    "summary": "- [12. Call for Collaboration](#12-call-for-collaboration)",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 460,
+    "path": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md"
+  }
+}

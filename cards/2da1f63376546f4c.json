@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:2da1f63376546f4c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/innovation-transitions/00-question-innovations-transitions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:2de2aad05f06db0c",
+  "payload": {
+    "title": "Du hast gesagt: Интересно как новая как инновация как как рационализация как пер…",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 2802,
+    "path": "docs/nautilus/innovation-transitions/00-question-innovations-transitions.md"
+  }
+}

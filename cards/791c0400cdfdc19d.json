@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:791c0400cdfdc19d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:fee14a3e8add21a2",
+  "payload": {
+    "title": "2. Что Cowork обеспечивает, что InGit не нужно строить",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 606,
+    "path": "docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md"
+  }
+}

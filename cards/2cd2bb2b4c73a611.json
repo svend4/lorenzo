@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:2cd2bb2b4c73a611",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:869c85d554bcae30",
+  "payload": {
+    "title": "21. ADR-003: Five Onboarding Paths as Equal-Rank",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 174,
+    "path": "docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md"
+  }
+}

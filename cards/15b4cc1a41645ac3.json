@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:15b4cc1a41645ac3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/legal-case.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:62523f683ce5bae6",
+  "payload": {
+    "title": "Юридический кейс: [Aktenzeichen]",
+    "summary": "<!-- summary: О чём кейс в 1-2 предложениях -->",
+    "tags": [
+      "legal",
+      "case"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 275,
+    "path": "docs/templates/legal-case.md"
+  }
+}

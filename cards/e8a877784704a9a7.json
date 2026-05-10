@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:e8a877784704a9a7",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/05-habr-projects/knowledge/wikontic.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:7fb22d8b82787edc",
+  "payload": {
+    "title": "Wikontic: семантический граф",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 384,
+    "path": "docs/obsidian/05-habr-projects/knowledge/wikontic.md"
+  }
+}

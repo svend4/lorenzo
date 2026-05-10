@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:2cfb7203a1f8c255",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:348a0e810c080399",
+  "payload": {
+    "title": "7. Application Domains",
+    "summary": "> 🎯 **Проблема:** Application Domains !TIP Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 837,
+    "path": "docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md"
+  }
+}

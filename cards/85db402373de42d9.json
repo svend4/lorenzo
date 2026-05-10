@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:85db402373de42d9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/16-history.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:737fc2218153af96",
+  "payload": {
+    "title": "History",
+    "summary": "> Когда создан, ключевые версии, направление развития.",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 178,
+    "path": "docs/02-anthropic-vacancies/16-history.md"
+  }
+}

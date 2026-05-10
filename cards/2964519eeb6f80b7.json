@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:2964519eeb6f80b7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/meta-scripting/02-architecture.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:1c5f611db6302a7d",
+  "payload": {
+    "title": "Метаскриптинг — Часть 2: Архитектура",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "security",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 614,
+    "path": "docs/meta-scripting/02-architecture.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:581554fb606a2cf1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:4ce01d29bb848a7c",
+  "payload": {
+    "title": "AI Support Through Configurable Specialist Ensembles",
+    "summary": "title: \"AI Support Through Configurable Specialist Ensembles\"",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 368,
+    "path": "docs/obsidian/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md"
+  }
+}

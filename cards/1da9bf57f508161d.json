@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:1da9bf57f508161d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/03-technology-combinations/02-knowledge-graphs.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:8fdf926361a80cde",
+  "payload": {
+    "title": "Графы знаний и Legal AI",
+    "summary": "> 🎯 **Проблема:** Yodoca-консолидатор ночью: - Извлекает durable knowledge (прецеденты, применённые статьи, аргументы) - Старые неиспользуемые дела затухают по Эббингаузу - Часто используемые — укре",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "Auto AI Router",
+      "AutoResearch"
+    ],
+    "wc": 815,
+    "path": "docs/obsidian/03-technology-combinations/02-knowledge-graphs.md"
+  }
+}

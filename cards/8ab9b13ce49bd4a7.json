@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:8ab9b13ce49bd4a7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:72b28b75c3728f0e",
+  "payload": {
+    "title": "6. Four Deployment Domains",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».",
+    "tags": [
+      "rag",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 634,
+    "path": "docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:11513150011672ab",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/03-technology-combinations/01-agent-routing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:0450bcbe581d0776",
+  "payload": {
+    "title": "Агентные системы и роутинг",
+    "summary": "> 🎯 **Проблема:** Агентные системы и роутинг самоулучшения промпта\".",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "Auto AI Router"
+    ],
+    "wc": 370,
+    "path": "docs/obsidian/03-technology-combinations/01-agent-routing.md"
+  }
+}

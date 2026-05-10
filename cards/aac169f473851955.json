@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:aac169f473851955",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:552e6b0f22ac800d",
+  "payload": {
+    "title": "4. Десять областей применения",
+    "summary": "> 🎯 **Проблема:** Требует тщательного дизайна вокруг конфиденциальности и управления данными, но без фундаментальных технических барьеров.",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1650,
+    "path": "docs/obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md"
+  }
+}

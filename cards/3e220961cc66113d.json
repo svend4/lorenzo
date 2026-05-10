@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:3e220961cc66113d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/TIMELINE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:6ad4462c45402109",
+  "payload": {
+    "title": "Хронологическая лента событий",
+    "summary": "ClickHouse stores for analytics Schema CREATE TABLE decisions ( aktenzeichen String, court String, decisiondate Date, pa",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 2077,
+    "path": "docs/TIMELINE.md"
+  }
+}

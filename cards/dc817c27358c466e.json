@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:dc817c27358c466e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/183-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:26e94518f22e56aa",
+  "payload": {
+    "title": "References",
+    "summary": "> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 322,
+    "path": "docs/obsidian/02-anthropic-vacancies/183-references.md"
+  }
+}

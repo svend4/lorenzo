@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:1b98932f15bd85d6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:9390ac4d19a64ffa",
+  "payload": {
+    "title": "ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL",
+    "summary": "title: \"ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL\"",
+    "tags": [
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 3332,
+    "path": "docs/obsidian/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md"
+  }
+}

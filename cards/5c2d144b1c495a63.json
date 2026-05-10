@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:5c2d144b1c495a63",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/155-1-problem-statement.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/153-executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/156-2-target-populations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/163-9-call-for-partnership.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:406640a2e08746de",
+  "payload": {
+    "title": "1. Problem Statement",
+    "summary": "> 🎯 **Проблема:** It is a present problem with actionable solutions that require coordinated action now.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 790,
+    "path": "docs/02-anthropic-vacancies/155-1-problem-statement.md"
+  }
+}

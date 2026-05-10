@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:4dabfd2fbe76539b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/111-4-условия-применимости.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:6dc4da85b5d620f9",
+  "payload": {
+    "title": "4. Условия применимости",
+    "summary": "> 🎯 **Проблема:** Условия применимости(4-условия-применимости) - 4.1.",
+    "tags": [
+      "memory",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 292,
+    "path": "docs/02-anthropic-vacancies/111-4-условия-применимости.md"
+  }
+}

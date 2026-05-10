@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:a513abc133929b8c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:900c577350162239",
+  "payload": {
+    "title": "2. Что Cowork обеспечивает, что InGit не нужно строить",
+    "summary": "- [2. Что Cowork обеспечивает, что InGit не нужно строить](#2-что-cowork-обеспечивает-что-ingit-не-нужно-строить)",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 803,
+    "path": "docs/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:4a95deda814fb488",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/287-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:3d9f1882cccf114d",
+  "payload": {
+    "title": "References",
+    "summary": "> 🎯 **Проблема:** AI Collaboration Infrastructure - Anthropic Projects documentation (current) - Microsoft Copilot Studio (different approach to similar problem) - Various multi-agent frameworks (La",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 310,
+    "path": "docs/02-anthropic-vacancies/287-references.md"
+  }
+}

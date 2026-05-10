@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:ae59ed0fe0531952",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/svyazi.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:83b7dfbaa3918b35",
+  "payload": {
+    "title": "Svyazi",
+    "summary": "",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 158,
+    "path": "docs/obsidian/autofilled/components/svyazi.md"
+  }
+}

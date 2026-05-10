@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:1319be84f2253371",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:ffb634d1334dd99c",
+  "payload": {
+    "title": "AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations",
+    "summary": "title: \"AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations\"",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 376,
+    "path": "docs/obsidian/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md"
+  }
+}

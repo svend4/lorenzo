@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:4a9a7f2dc165ecc8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:6e7303524dc73e88",
+  "payload": {
+    "title": "5. Pattern Library as Bridge Between Triangles",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "security",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 642,
+    "path": "docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md"
+  }
+}

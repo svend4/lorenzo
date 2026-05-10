@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:13682ece6b3f2646",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:043909639ee46903",
+  "payload": {
+    "title": "9. Integration with OKWF Infrastructure",
+    "summary": "title: \"9. Integration with OKWF Infrastructure\"",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 777,
+    "path": "docs/obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md"
+  }
+}

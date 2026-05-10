@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:4fc9549d7fcd51af",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:158414e274e1471c",
+  "payload": {
+    "title": "11. Call for Collaboration",
+    "summary": "> 🎯 **Проблема:** Liability, professional licensure interaction, quality standards — all need development.",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 403,
+    "path": "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md"
+  }
+}

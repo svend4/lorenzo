@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:d6ca6f5cc3076c39",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/47-native-format.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/57-native-format.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/50-bridges.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/49-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/43-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/37-native-format.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:8a59321c3f96ed94",
+  "payload": {
+    "title": "Native Format",
+    "summary": "> **Структура концепта (предположительно):** [? уточнить точный формат]",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 272,
+    "path": "docs/02-anthropic-vacancies/47-native-format.md"
+  }
+}

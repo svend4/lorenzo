@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:61741eb5bba2bba8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/privacy-federation/02-two-tier-publication.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e40ab336d79e11c1",
+  "payload": {
+    "title": "Архитектурное решение: две-уровневая публикация",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.",
+    "tags": [
+      "rag",
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 498,
+    "path": "docs/nautilus/privacy-federation/02-two-tier-publication.md"
+  }
+}

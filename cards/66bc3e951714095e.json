@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:66bc3e951714095e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/56-essence.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:7de93323cb73effd",
+  "payload": {
+    "title": "Essence",
+    "summary": "> `meta` — **символьное измерение** экосистемы svend4. Здесь концепты",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 151,
+    "path": "docs/obsidian/02-anthropic-vacancies/56-essence.md"
+  }
+}

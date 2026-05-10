@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:c2a0cb4d9289dfba",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/mclaude.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:e1c3fd45a4d17703",
+  "payload": {
+    "title": "mclaude",
+    "summary": "> - **Источник:** Хабр + GitHub citeturn20view2turn37search0",
+    "tags": [
+      "orchestration",
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 114,
+    "path": "docs/svyazi-2-0/components/mclaude.md"
+  }
+}

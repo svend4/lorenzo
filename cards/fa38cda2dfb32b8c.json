@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:fa38cda2dfb32b8c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/TOPIC_MODEL.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:8cb0eece31c67e1a",
+  "payload": {
+    "title": "Тематическое моделирование (TF-IDF)",
+    "summary": "title: \"Тематическое моделирование (TF-IDF)\"",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS"
+    ],
+    "wc": 1076,
+    "path": "docs/obsidian/TOPIC_MODEL.md"
+  }
+}

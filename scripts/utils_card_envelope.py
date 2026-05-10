@@ -54,18 +54,83 @@ def _card_id_for(source: str) -> str:
     return _sha256(source)
 
 
-def _detect_card_type(path: Path) -> CardType:
+def _detect_card_type(path: Path, text: str = "") -> CardType:
+    """Определяет тип карточки из нескольких источников по убыванию приоритета:
+
+    1. YAML frontmatter (``type:`` или ``card_type:``)
+    2. <!-- tags: ... --> с type-словами
+    3. Имя файла
+    4. H1-заголовок (первая строка # ...)
+    5. Контентные сигналы (имена известных проектов)
+    """
     name = path.stem.lower()
-    text_hint = name
-    if any(k in text_hint for k in ("person", "author", "contact", "автор")):
+
+    # 1. YAML frontmatter — самый точный источник
+    fm_match = re.search(r'^---\s*\n(.*?)\n---', text, re.DOTALL | re.MULTILINE)
+    if fm_match:
+        fm = fm_match.group(1)
+        for key in ("card_type", "type"):
+            km = re.search(rf'^{key}\s*:\s*(\S+)', fm, re.MULTILINE)
+            if km:
+                v = km.group(1).strip().strip('"').strip("'").lower()
+                if v in ("person", "author", "contact"):
+                    return "person"
+                if v in ("project",):
+                    return "project"
+                if v in ("note",):
+                    return "note"
+                if v in ("fact",):
+                    return "fact"
+                if v in ("doc", "document", "article"):
+                    return "doc"
+
+    # 2. <!-- tags: ... --> с type-хинтами
+    tag_match = re.search(r'<!--\s*tags:\s*([^>]+)-->', text)
+    if tag_match:
+        tag_str = tag_match.group(1).lower()
+        if any(t in tag_str for t in ("person", "author", "contact")):
+            return "person"
+        if "project" in tag_str:
+            return "project"
+
+    # 3. Имя файла — надёжный быстрый сигнал
+    if any(k in name for k in ("contact", "author", "person", "автор")):
         return "person"
-    if any(k in text_hint for k in ("project", "проект", "yodoca", "agentfs",
-                                     "memnet", "cardindex", "svyazi", "rufler")):
+    if any(k in name for k in ("project", "проект", "yodoca", "agentfs",
+                                "memnet", "cardindex", "svyazi", "rufler",
+                                "wikontic", "knowledge-space", "ngt-memory",
+                                "liteparse", "mclaude", "firecrawl")):
         return "project"
-    if any(k in text_hint for k in ("note", "заметка", "запись")):
+    if any(k in name for k in ("note", "заметка", "запись")):
         return "note"
-    if any(k in text_hint for k in ("fact", "факт")):
+    if any(k in name for k in ("fact", "факт")):
         return "fact"
+
+    # 4. H1 — если заголовок содержит имя проекта
+    if text:
+        for line in text.splitlines()[:5]:
+            if line.startswith("# "):
+                h1 = line[2:].lower()
+                if any(k in h1 for k in ("автор", "author", "contact", "контакт")):
+                    return "person"
+                # Проекты с фиксированными именами в H1
+                _PROJ_NAMES = [
+                    "yodoca", "agentfs", "memnet", "svyazi", "wikontic",
+                    "ngt memory", "knowledge-space", "cardindex", "rufler",
+                    "liteparsе", "mclaude", "firecrawl", "litellm",
+                    "agent-memory-mcp", "sentinel",
+                ]
+                if any(p in h1 for p in _PROJ_NAMES):
+                    return "project"
+                break
+
+    # 5. Контент: если файл в memory/ или knowledge/ подпапке — вероятно проект
+    parts = [p.name.lower() for p in path.parents]
+    if any(p in parts for p in ("memory", "knowledge", "ensembles")):
+        # Дополнительный сигнал: короткий файл об одном проекте
+        if text and len(text.split()) < 600:
+            return "project"
+
     return "doc"
 
 
@@ -146,7 +211,7 @@ class CardEnvelope:
 
         return cls(
             card_id=card_id,
-            card_type=_detect_card_type(path),
+            card_type=_detect_card_type(path, text),
             state="raw",
             sources=[source],
             payload={

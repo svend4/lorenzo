@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:9671ae877f29d054",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/SOURCE_MAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:b0f5e2d6727c0641",
+  "payload": {
+    "title": "Карта происхождения текстов",
+    "summary": "> Эти файлы были созданы автоматически и могут требовать проверки.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 8933,
+    "path": "docs/SOURCE_MAP.md"
+  }
+}

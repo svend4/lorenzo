@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:7830dcf2740fca28",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/05-habr-projects/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:dc46274291274229",
+  "payload": {
+    "title": "Q&A: 05-habr-projects",
+    "summary": "<!-- tags: knowledge, architecture, roadmap, collaboration -->",
+    "tags": [
+      "knowledge",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space"
+    ],
+    "wc": 352,
+    "path": "docs/obsidian/05-habr-projects/QA.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:842186e2f6034fb3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/deep-pairs/2-document-rag.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:8e34bd9dd6defa90",
+  "payload": {
+    "title": "Пара 2 — Парсинг документов × локальный RAG",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "collaboration"
+    ],
+    "projects": [
+      "Hybrid RAG",
+      "Yodoca"
+    ],
+    "wc": 332,
+    "path": "docs/habr-unique-projects/deep-pairs/2-document-rag.md"
+  }
+}

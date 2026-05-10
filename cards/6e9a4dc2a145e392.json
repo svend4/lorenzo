@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:6e9a4dc2a145e392",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:0e7a612234570081",
+  "payload": {
+    "title": "Зачем две версии параллельно",
+    "summary": "> Для критически важных документов (STATUS, IMPLEMENTATION_STAGE)",
+    "tags": [
+      "memory"
+    ],
+    "projects": [],
+    "wc": 232,
+    "path": "docs/obsidian/02-anthropic-vacancies/70-зачем-две-версии-параллельно.md"
+  }
+}

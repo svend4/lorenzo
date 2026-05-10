@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:d9b535bf85390d68",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/QUESTIONS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:ec709273389a9daa",
+  "payload": {
+    "title": "Вопросы и открытые темы из базы знаний",
+    "summary": "title: \"Вопросы и открытые темы из базы знаний\"",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 23070,
+    "path": "docs/obsidian/QUESTIONS.md"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:e266940033cac28d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SENTIMENT.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:a39d96447d855a56",
+  "payload": {
+    "title": "Тональный анализ документов",
+    "summary": "- [Тональность по разделам](#тональность-по-разделам)",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 527,
+    "path": "docs/obsidian/SENTIMENT.md"
+  }
+}

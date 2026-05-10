@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0fc00a59a87f2253",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/244-благодарности.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:fc3b9eba54a36eb8",
+  "payload": {
+    "title": "Благодарности",
+    "summary": "> Эта статья возникла через диалог с Claude",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 292,
+    "path": "docs/obsidian/02-anthropic-vacancies/244-благодарности.md"
+  }
+}

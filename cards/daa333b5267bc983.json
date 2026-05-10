@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:daa333b5267bc983",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/74-abstract.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/76-1-introduction.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/07-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:15d8da096c1d760c",
+  "payload": {
+    "title": "Abstract",
+    "summary": "> 🎯 **Проблема:** Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации --- Abstract Nautilus Portal Protocol (далее — NPP) определяет способ федерации независимых Git-репозито",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 389,
+    "path": "docs/02-anthropic-vacancies/74-abstract.md"
+  }
+}

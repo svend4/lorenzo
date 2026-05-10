@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:69711c806f1af2ef",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/protocol-spec.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:377df087b3c196a6",
+  "payload": {
+    "title": "[Название протокола]",
+    "summary": "<!-- summary: Что делает протокол и какую проблему решает -->",
+    "tags": [
+      "протокол",
+      "спецификация"
+    ],
+    "projects": [],
+    "wc": 361,
+    "path": "docs/templates/protocol-spec.md"
+  }
+}

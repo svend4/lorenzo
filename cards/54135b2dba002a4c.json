@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:54135b2dba002a4c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SCORING.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:1ca7244acc23b8f7",
+  "payload": {
+    "title": "Оценка готовности проекта (Go/No-Go)",
+    "summary": "title: \"Оценка готовности проекта (Go/No-Go)\"",
+    "tags": [
+      "security",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 477,
+    "path": "docs/obsidian/SCORING.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:c479b8be2cefd023",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:439638a89247d167",
+  "payload": {
+    "title": "Planned (v0.2.0)",
+    "summary": "> - HTTP-mode для debugging и remote access",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 217,
+    "path": "docs/obsidian/02-anthropic-vacancies/132-planned-v0-2-0.md"
+  }
+}

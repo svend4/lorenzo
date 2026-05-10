@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:32853f657de0ea39",
+  "card_type": "fact",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:8458c7ba5c2ba733",
+  "payload": {
+    "title": "Ансамбль 7 — Domain Agent App Factory",
+    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 294,
+    "path": "docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md"
+  }
+}

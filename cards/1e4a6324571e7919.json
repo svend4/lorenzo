@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:1e4a6324571e7919",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/06-coordination-disagreement.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:4fa08e7f6c1f2b7f",
+  "payload": {
+    "title": "6. Coordination and Disagreement Resolution",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».",
+    "tags": [
+      "rag",
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 742,
+    "path": "docs/nautilus/composite-skills-agents/06-coordination-disagreement.md"
+  }
+}

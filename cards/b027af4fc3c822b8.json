@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:b027af4fc3c822b8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/GLOSSARY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:a7df6958460cb769",
+  "payload": {
+    "title": "Глоссарий проектов",
+    "summary": "Все проекты, упоминаемые в документах, с количеством файлов.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 214,
+    "path": "docs/obsidian/GLOSSARY.md"
+  }
+}

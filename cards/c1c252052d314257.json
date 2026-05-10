@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:c1c252052d314257",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/AUTOFILLED.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:4d32b3737a961e5e",
+  "payload": {
+    "title": "Автозаполненные шаблоны",
+    "summary": "> _Источники: ENTITIES.md, SCORING.md, NETWORK.md, docs/templates/_",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 172,
+    "path": "docs/obsidian/AUTOFILLED.md"
+  }
+}

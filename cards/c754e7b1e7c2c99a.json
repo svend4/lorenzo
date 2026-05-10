@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:c754e7b1e7c2c99a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/cutcode.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:e142d3a555f8963a",
+  "payload": {
+    "title": "Контакт: Cutcode / AIF Handoff",
+    "summary": "<!-- summary: Шаблон для связи с автором AIF Handoff -->",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 221,
+    "path": "docs/obsidian/contacts/cutcode.md"
+  }
+}

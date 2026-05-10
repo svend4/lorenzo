@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:db8986f47f917bcf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/continuation/08-commercialization-three-paths.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:32bf0ab9841025c4",
+  "payload": {
+    "title": "Коммерциализация: три направления",
+    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "LiteParse",
+      "Legal RAG"
+    ],
+    "wc": 252,
+    "path": "docs/ai-collaborations/continuation/08-commercialization-three-paths.md"
+  }
+}

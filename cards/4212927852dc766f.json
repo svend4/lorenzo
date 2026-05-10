@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:4212927852dc766f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/ensemble.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:fdaee0b12f49cfe9",
+  "payload": {
+    "title": "Ансамбль: [Название]",
+    "summary": "<!-- summary: Ансамбль из X компонентов для Y задачи -->",
+    "tags": [
+      "ансамбль",
+      "архитектура"
+    ],
+    "projects": [],
+    "wc": 112,
+    "path": "docs/templates/ensemble.md"
+  }
+}

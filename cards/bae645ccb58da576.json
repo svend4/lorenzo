@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:bae645ccb58da576",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/145-8-call-to-action.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/136-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/143-6-four-deployment-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/144-7-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/222-11-call-for-collaboration.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:060757085c6a7ebf",
+  "payload": {
+    "title": "8. Call to Action",
+    "summary": "> 🎯 **Проблема:** Contact: via GitHub issues at github.com/svend4/nautilus(URL --- --- Похожие документы: - 136-abstract(docs/02-anthropic-vacancies/136-abstract.md) (сходство 0.18) - 143-6-four-dep",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 929,
+    "path": "docs/02-anthropic-vacancies/145-8-call-to-action.md"
+  }
+}

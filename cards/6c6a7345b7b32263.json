@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:6c6a7345b7b32263",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/294-существующие-приближения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/290-почему-этот-документ-существует.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:3a3095d2095da440",
+  "payload": {
+    "title": "Что отсутствует — Слой B",
+    "summary": "- [Что отсутствует — Слой B](#что-отсутствует-слой-b)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 577,
+    "path": "docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md"
+  }
+}

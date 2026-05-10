@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:2a6c7d7d6ca72f23",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/130-отладка.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f1647bf4bf3b98b3",
+  "payload": {
+    "title": "Отладка",
+    "summary": "- [Сервер не подключается](#сервер-не-подключается)",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 254,
+    "path": "docs/obsidian/02-anthropic-vacancies/130-отладка.md"
+  }
+}

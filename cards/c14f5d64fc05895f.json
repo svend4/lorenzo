@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:c14f5d64fc05895f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/contacts/anastasiyaw.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:2c33914e87bcce5f",
+  "payload": {
+    "title": "Контакт: AnastasiyaW / knowledge-space, mclaude",
+    "summary": "projects: [\"Svyazi\", \"knowledge-space\", \"mclaude\"]",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude"
+    ],
+    "wc": 291,
+    "path": "docs/contacts/anastasiyaw.md"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:28c5efc00c77bdaf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:7790575cd024ad1d",
+  "payload": {
+    "title": "1. The Five-Type Typology of Principal-Side Agents",
+    "summary": "> 🎯 **Проблема:** A single human professional could simultaneously have: Personal AI Assistants (Type 0) do not occupy a fixed layer — they function across all layers as utility, used as needed.",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 1199,
+    "path": "docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md"
+  }
+}

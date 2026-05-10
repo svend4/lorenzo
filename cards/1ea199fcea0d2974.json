@@ -1,0 +1,45 @@
+{
+  "card_id": "sha256:1ea199fcea0d2974",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DECISIONS.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/01-svyazi/03-component-catalog.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/05-habr-projects/memory/memnet.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:9f834338de9ae7cf",
+  "payload": {
+    "title": "Ключевые решения и выводы",
+    "summary": "Автоматически извлечено из всех документов: **624 записей**",
+    "tags": [
+      "memory",
+      "rag",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch"
+    ],
+    "wc": 2567,
+    "path": "docs/DECISIONS.md"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "card_id": "sha256:a26be436cef57c50",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:219dee6f81149997",
+  "payload": {
+    "title": "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments",
+    "summary": "title: \"Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments\"",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 11418,
+    "path": "docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md"
+  }
+}

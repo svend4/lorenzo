@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:27b1afd2ba068625",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/308-table-of-contents.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:930f7c1d77d6b8c3",
+  "payload": {
+    "title": "Table of Contents",
+    "summary": "> 1. **The Cowork Discovery and Why It Changes Everything**",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 415,
+    "path": "docs/obsidian/02-anthropic-vacancies/308-table-of-contents.md"
+  }
+}

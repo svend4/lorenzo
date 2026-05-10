@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:8b3c12fb8fa17f41",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:c2b6fa46367344fa",
+  "payload": {
+    "title": "2. What Makes a Professional Colleague Agent",
+    "summary": "title: \"2. What Makes a Professional Colleague Agent\"",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 1092,
+    "path": "docs/obsidian/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md"
+  }
+}

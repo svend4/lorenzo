@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:09cddbabc1591924",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:469afdc0c19713f4",
+  "payload": {
+    "title": "Ансамбль H — Research‑to‑Product Flywheel",
+    "summary": "> > Источник: `deep-research-report (3).md`.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "AutoResearch"
+    ],
+    "wc": 234,
+    "path": "docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md"
+  }
+}

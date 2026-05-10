@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:2089f99640763165",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/225-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:6e2fd3a065fa0047",
+  "payload": {
+    "title": "References",
+    "summary": "> 🎯 **Проблема:** References Contents - References(references) - Primary Empirical Source(primary-empirical-source) - Companion Papers(companion-papers) - Foundation Sources (continued from Represen",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 366,
+    "path": "docs/02-anthropic-vacancies/225-references.md"
+  }
+}

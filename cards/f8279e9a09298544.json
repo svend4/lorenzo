@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:f8279e9a09298544",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/overview.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/clusters/01-ai-research-engineering.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/02-sales.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/03-finance.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/04-security.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/05-marketing-brand.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/06-engineering-design-product.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/09-product-management-support-ops.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/anthropic-vacancies/clusters/10-compute.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:a80d588fb4e0024b",
+  "payload": {
+    "title": "Обзор: 436 открытых ролей Anthropic, разбитых на 16 кластеров",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Затравка — статья 3dnews.ru/1140248 («≈429 вакансий, вилка $320–405 тыс.»).",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 280,
+    "path": "docs/anthropic-vacancies/overview.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:3f32c6dc06b40ebd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/GITHUB_ISSUES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:fbf83b205a966d56",
+  "payload": {
+    "title": "GitHub Issues — список задач",
+    "summary": "- [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач)](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd-18-задач)",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1721,
+    "path": "docs/obsidian/GITHUB_ISSUES.md"
+  }
+}

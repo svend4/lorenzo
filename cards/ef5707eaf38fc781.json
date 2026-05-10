@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:ef5707eaf38fc781",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/PRIORITIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:c6dbdb8c5d00e05f",
+  "payload": {
+    "title": "Приоритеты файлов",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 3158,
+    "path": "docs/PRIORITIES.md"
+  }
+}

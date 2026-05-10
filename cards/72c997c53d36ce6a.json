@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:72c997c53d36ce6a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:d3253cab1e5c39fb",
+  "payload": {
+    "title": "Profession-specific workflows",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 282,
+    "path": "docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md"
+  }
+}

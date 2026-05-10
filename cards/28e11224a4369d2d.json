@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:28e11224a4369d2d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CHANGELOG_AUTO.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CHANGELOG.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DEPENDENCY_MAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DIGEST.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SITEMAP.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/INDEX.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:a621d7c48638c286",
+  "payload": {
+    "title": "Changelog (авто)",
+    "summary": "> - [Статистика коммитов](#статистика-коммитов)",
+    "tags": [
+      "rag",
+      "ingestion",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 681,
+    "path": "docs/CHANGELOG_AUTO.md"
+  }
+}

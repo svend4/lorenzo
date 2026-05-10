@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:fa9f13b22ae6df87",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/METHODOLOGY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:b08632ed7bf06bce",
+  "payload": {
+    "title": "Методология работы со скриптами",
+    "summary": "> > Принципы: скрипты работают **по вызову**, под контролем человека или Claude.",
+    "tags": [
+      "rag",
+      "security",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 998,
+    "path": "docs/METHODOLOGY.md"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:ca938574a00bd3e1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/145-8-call-to-action.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:697c31c69b9a16a5",
+  "payload": {
+    "title": "PROFESSIONAL COLLEAGUE AGENTS.md",
+    "summary": "> - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.14)",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 332,
+    "path": "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md"
+  }
+}

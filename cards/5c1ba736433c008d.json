@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:5c1ba736433c008d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:e024c71558e2015c",
+  "payload": {
+    "title": "Альтернативные пути вне Anthropic",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "rag",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 377,
+    "path": "docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md"
+  }
+}

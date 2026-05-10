@@ -1,0 +1,36 @@
+{
+  "card_id": "sha256:6c009484eac03f1c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/RISK_REGISTER.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e24ba72f0bbccd9e",
+  "payload": {
+    "title": "Реестр рисков — Svyazi 2.0",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Rufler",
+      "SENTINEL"
+    ],
+    "wc": 1081,
+    "path": "docs/obsidian/RISK_REGISTER.md"
+  }
+}

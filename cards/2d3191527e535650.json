@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:2d3191527e535650",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/architecture/evidence-envelope.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:6a0823c44d1853b1",
+  "payload": {
+    "title": "Evidence Envelope",
+    "summary": "> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».",
+    "tags": [
+      "memory",
+      "rag",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "NGT Memory"
+    ],
+    "wc": 238,
+    "path": "docs/svyazi-2-0/architecture/evidence-envelope.md"
+  }
+}

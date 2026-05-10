@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:bf52c960fc7a73c1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/54-for-the-curious-philosophy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:adba772e37db0ae0",
+  "payload": {
+    "title": "For the Curious: Philosophy",
+    "summary": "> Q6-гиперкуб выбран не случайно. Он одновременно:",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 284,
+    "path": "docs/obsidian/02-anthropic-vacancies/54-for-the-curious-philosophy.md"
+  }
+}

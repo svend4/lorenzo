@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:d8a1badc6d593955",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:d80e08f31a2c3609",
+  "payload": {
+    "title": "Комбинация 17: Distributed Agent Memory with Graph",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "rag",
+      "local-first",
+      "self-improvement"
+    ],
+    "projects": [
+      "NGT Memory"
+    ],
+    "wc": 209,
+    "path": "docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md"
+  }
+}

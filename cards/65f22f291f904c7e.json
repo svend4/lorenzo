@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:65f22f291f904c7e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:a8ff0262da43d711",
+  "payload": {
+    "title": "Вопрос: Nautilus пассивный, CAMEL активный — можно ли скрестить",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 216,
+    "path": "docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md"
+  }
+}

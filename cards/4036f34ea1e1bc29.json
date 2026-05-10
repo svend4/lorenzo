@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:4036f34ea1e1bc29",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/62-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/345-кто-ты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/356-твой-workflow.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:5ed78d4c4a4ed868",
+  "payload": {
+    "title": "Что ты НЕ МОЖЕШЬ делать вообще",
+    "summary": "> - Deceive об твоей AI nature (всегда identify как AI)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 289,
+    "path": "docs/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "card_id": "sha256:56b743bfb699f361",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/NARRATIVE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:9ff2bed3862e9403",
+  "payload": {
+    "title": "Нарратив проекта Lorenzo",
+    "summary": "_Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 1055,
+    "path": "docs/NARRATIVE.md"
+  }
+}

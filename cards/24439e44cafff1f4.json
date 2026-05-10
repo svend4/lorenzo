@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:24439e44cafff1f4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SOURCE_MAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:ae26da17562cfe7b",
+  "payload": {
+    "title": "Карта происхождения текстов",
+    "summary": "- [🤖 Авто-импортированные файлы (846)](#авто-импортированные-файлы-846)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 6134,
+    "path": "docs/obsidian/SOURCE_MAP.md"
+  }
+}

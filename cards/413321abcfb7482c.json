@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:413321abcfb7482c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/12-call-for-collaboration.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f95ba24b4b3f83ab",
+  "payload": {
+    "title": "12. Call for Collaboration",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 350,
+    "path": "docs/nautilus/composite-skills-agents/12-call-for-collaboration.md"
+  }
+}

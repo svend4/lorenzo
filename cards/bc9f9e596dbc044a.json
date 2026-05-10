@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:bc9f9e596dbc044a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/STALENESS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:2001ca94cee7b9eb",
+  "payload": {
+    "title": "Отчёт об устаревших документах",
+    "summary": "python scripts/improve_llm_enrich.py --section 05-habr-projects",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 398,
+    "path": "docs/STALENESS.md"
+  }
+}

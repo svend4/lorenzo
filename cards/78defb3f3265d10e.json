@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:78defb3f3265d10e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/ALERTS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:47f520afcfe87d69",
+  "payload": {
+    "title": "Callout-блоки",
+    "summary": "Добавлено **43** callout-блоков в документы.",
+    "tags": [
+      "ingestion"
+    ],
+    "projects": [],
+    "wc": 92,
+    "path": "docs/obsidian/ALERTS.md"
+  }
+}

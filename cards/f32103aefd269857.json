@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:f32103aefd269857",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/VERSION_DIFF.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:98773c350344baba",
+  "payload": {
+    "title": "Diff базы знаний между версиями",
+    "summary": "**HEAD~10** (`40e69e7`) → **HEAD** (`696550f`)",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 5448,
+    "path": "docs/VERSION_DIFF.md"
+  }
+}

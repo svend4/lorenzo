@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:9357b519b01a9cc3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/21-9-query-flow.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/85-10-query-flow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/81-6-adapter-interface.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/86-11-relevance-ranking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/90-15-security-considerations.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:52c6c643081a6c69",
+  "payload": {
+    "title": "9. Query Flow",
+    "summary": "- [9.3. Error Handling](#93-error-handling)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 335,
+    "path": "docs/02-anthropic-vacancies/21-9-query-flow.md"
+  }
+}

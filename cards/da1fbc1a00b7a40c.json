@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:da1fbc1a00b7a40c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/58-content-overview.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:fda984f2a8bd9822",
+  "payload": {
+    "title": "Content Overview",
+    "summary": "> - 64 гексаграммы с расширенными описаниями",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 154,
+    "path": "docs/obsidian/02-anthropic-vacancies/58-content-overview.md"
+  }
+}

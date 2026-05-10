@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:69a8c3c514441229",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/06-search.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:54c51f3ce552dede",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 6: Поиск",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "memory",
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "AgentFS",
+      "Yodoca",
+      "MemNet",
+      "SENTINEL"
+    ],
+    "wc": 965,
+    "path": "docs/processing-guide/06-search.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c05f7297ad2d16d6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:3ad7105a32766eed",
+  "payload": {
+    "title": "AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения",
+    "summary": "title: \"AI-опосредованное представительство для недопредставленных экспертов и уязвимых категорий населения\"",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 127,
+    "path": "docs/obsidian/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md"
+  }
+}

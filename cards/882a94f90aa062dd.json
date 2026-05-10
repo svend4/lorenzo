@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:882a94f90aa062dd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/08-riski-mery.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:299fca83c829614d",
+  "payload": {
+    "title": "8. Риски и меры противодействия",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "security",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 573,
+    "path": "docs/nautilus/representative-agent-layer-ru/08-riski-mery.md"
+  }
+}

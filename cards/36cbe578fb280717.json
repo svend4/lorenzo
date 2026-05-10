@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:36cbe578fb280717",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/43-history.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:b9f1b547ebd2d00b",
+  "payload": {
+    "title": "History",
+    "summary": "> **Создан:** [? уточнить — декабрь 2025, если совпадает с волной",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 148,
+    "path": "docs/02-anthropic-vacancies/43-history.md"
+  }
+}

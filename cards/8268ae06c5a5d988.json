@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:8268ae06c5a5d988",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:3132aa0a27454444",
+  "payload": {
+    "title": "План прототипа и возможные контакты",
+    "summary": "> 🎯 **Проблема:** citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch"
+    ],
+    "wc": 1150,
+    "path": "docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md"
+  }
+}

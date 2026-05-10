@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:4d44028cae309f8e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:00fb038ad8639e40",
+  "payload": {
+    "title": "Комбинация 27: Hybrid RAG with AST-Chunked Code",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "self-improvement"
+    ],
+    "projects": [
+      "Hybrid RAG"
+    ],
+    "wc": 220,
+    "path": "docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md"
+  }
+}

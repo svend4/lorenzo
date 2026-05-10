@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:8deaaa000341f031",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/01-svyazi/00-intro-part2.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:2cbaced53d91348c",
+  "payload": {
+    "title": "Продолжение исследования для Svyazi 2.0",
+    "summary": "",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 6,
+    "path": "docs/01-svyazi/00-intro-part2.md"
+  }
+}

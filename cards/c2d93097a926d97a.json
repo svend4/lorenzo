@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:c2d93097a926d97a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/16-mcp-extension.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:cbe21511866c51ab",
+  "payload": {
+    "title": "16. MCP Extension (Informative)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 154,
+    "path": "docs/nautilus/npp-v1-1/16-mcp-extension.md"
+  }
+}

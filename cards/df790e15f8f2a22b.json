@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:df790e15f8f2a22b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:06cff205e925a95d",
+  "payload": {
+    "title": "Контекст: что такое Anthropic Beneficial Deployments",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 252,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md"
+  }
+}

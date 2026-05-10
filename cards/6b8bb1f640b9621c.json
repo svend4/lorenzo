@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:6b8bb1f640b9621c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:03d106e60232a1c3",
+  "payload": {
+    "title": "9. Checklist применения методологии",
+    "summary": "> 🎯 **Проблема:** Checklist применения методологии Contents - 9.",
+    "tags": [
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 399,
+    "path": "docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:15b3909552a6392d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e699de0c80b0f284",
+  "payload": {
+    "title": "6. Этическая рамка",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 621,
+    "path": "docs/obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md"
+  }
+}

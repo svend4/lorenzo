@@ -1,0 +1,38 @@
+{
+  "card_id": "sha256:5fbc22b9811c9bec",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:db736bd7a97f1b0f",
+  "payload": {
+    "title": "Q&A: 02-anthropic-vacancies",
+    "summary": "_Автоматически сгенерировано по 355 файлам раздела._",
+    "tags": [],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 323,
+    "path": "docs/02-anthropic-vacancies/QA.md"
+  }
+}

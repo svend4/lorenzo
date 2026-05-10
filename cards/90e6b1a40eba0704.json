@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:90e6b1a40eba0704",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/238-7-области-применения.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:8780e851d07b7f54",
+  "payload": {
+    "title": "7. Области применения",
+    "summary": "> 🎯 **Проблема:** Важное, но осторожное развёртывание требуется.",
+    "tags": [
+      "security",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 751,
+    "path": "docs/obsidian/02-anthropic-vacancies/238-7-области-применения.md"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:eb2d3b3225572931",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/READING_TIME.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:32b55ad115ef634a",
+  "payload": {
+    "title": "Время чтения документов",
+    "summary": "- [Самые длинные документы (42)](#самые-длинные-документы-42)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 12452,
+    "path": "docs/obsidian/READING_TIME.md"
+  }
+}

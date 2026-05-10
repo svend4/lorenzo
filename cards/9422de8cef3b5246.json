@@ -1,0 +1,20 @@
+{
+  "card_id": "sha256:9422de8cef3b5246",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/DUPLICATES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:6bb38b385c291fe2",
+  "payload": {
+    "title": "Отчёт о дублировании",
+    "summary": "- [Похожие файлы (Jaccard ≥ 0.5)](#похожие-файлы-jaccard-05)",
+    "tags": [],
+    "projects": [],
+    "wc": 2936,
+    "path": "docs/obsidian/DUPLICATES.md"
+  }
+}

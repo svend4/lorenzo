@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:fe518b288f2cd282",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:73b65968daf3d3cd",
+  "payload": {
+    "title": "6. Refined InGit Scope with Cowork in Mind",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 490,
+    "path": "docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md"
+  }
+}

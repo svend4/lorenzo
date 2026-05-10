@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:c43fe4657a40b223",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/11-glossary.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:2aa9778905e52130",
+  "payload": {
+    "title": "Appendix A: Glossary",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1582,
+    "path": "docs/nautilus/double-triangle-architecture/11-glossary.md"
+  }
+}

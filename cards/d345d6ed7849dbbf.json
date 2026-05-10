@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:d345d6ed7849dbbf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/clusters/01-ai-research-engineering.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:632040deaecc66ad",
+  "payload": {
+    "title": "AI Research & Engineering — 68 ролей",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 126,
+    "path": "docs/anthropic-vacancies/clusters/01-ai-research-engineering.md"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:47b75d74e7860f55",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:80327a26dc283c14",
+  "payload": {
+    "title": "8. Pilot Proposal: SGB Advocate Colleague",
+    "summary": "title: \"8. Pilot Proposal: SGB Advocate Colleague\"",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 1192,
+    "path": "docs/obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md"
+  }
+}

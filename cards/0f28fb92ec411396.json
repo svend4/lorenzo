@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:0f28fb92ec411396",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:a49a840366dcbd21",
+  "payload": {
+    "title": "Du hast gesagt: https://www.",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — реакция на вторую Habr-статью.",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 157,
+    "path": "docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:3e09ba50fb0b36e0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:074896d83cc15992",
+  "payload": {
+    "title": "Что именно анонимизировать: немецкий стандарт",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 269,
+    "path": "docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md"
+  }
+}

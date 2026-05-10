@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:eb252bf51d7212e9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/123-portal-mcp-py.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:a192cd6203ab8c2c",
+  "payload": {
+    "title": "portal-mcp.py",
+    "summary": "> 🎯 **Проблема:** portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca"
+    ],
+    "wc": 2512,
+    "path": "docs/obsidian/02-anthropic-vacancies/123-portal-mcp-py.md"
+  }
+}

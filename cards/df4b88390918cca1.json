@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:df4b88390918cca1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/03-technology-combinations/05-benchmarks.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/03-technology-combinations/02-knowledge-graphs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/03-local-first.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/WORD_FREQ.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/01-agent-routing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/03-technology-combinations/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:cb5dcb2c6bacd4a8",
+  "payload": {
+    "title": "Бенчмарки и производительность",
+    "summary": "> 🎯 **Проблема:** --- 📊Сводная таблица синергии Комбинация Кубики Уникальный результат Экономия/ROI --- --- --- --- 1 Агентская архитектура + Svyazi Самообучающиеся промпты, multi-domain профилирова",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 1013,
+    "path": "docs/03-technology-combinations/05-benchmarks.md"
+  }
+}

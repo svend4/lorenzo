@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:0b1e66ddb0de7b42",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:654beef8118a11b1",
+  "payload": {
+    "title": "Что уже существует в этой нише (Habitica, Codingame, Hackerrank, Pieces)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 352,
+    "path": "docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md"
+  }
+}

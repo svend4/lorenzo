@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:bb56e6e009ccc9a2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/130-отладка.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/63-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/65-readme-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:47867658b6a805f6",
+  "payload": {
+    "title": "Подключение к Claude Desktop",
+    "summary": "- [Подключение к Claude Desktop](#подключение-к-claude-desktop)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 276,
+    "path": "docs/02-anthropic-vacancies/127-подключение-к-claude-desktop.md"
+  }
+}

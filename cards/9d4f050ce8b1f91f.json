@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:9d4f050ce8b1f91f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/326-содержание.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:23643b466c4213b0",
+  "payload": {
+    "title": "Содержание",
+    "summary": "> 1. **Открытие Cowork и почему это меняет всё**",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 336,
+    "path": "docs/obsidian/02-anthropic-vacancies/326-содержание.md"
+  }
+}

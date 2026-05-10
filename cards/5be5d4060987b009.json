@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:5be5d4060987b009",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/WORD_FREQ.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:4c3ef67a900f0960",
+  "payload": {
+    "title": "Частотный анализ слов",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 3193,
+    "path": "docs/WORD_FREQ.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:41bf9565d3b6ac4b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/03-technology-combinations/04-sozialrecht-domain.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:1f7bff5b671daec7",
+  "payload": {
+    "title": "Домен: немецкое социальное право",
+    "summary": "> Sozialrecht corpus auto-builder Docling extracts structure from Sozialgericht PDFs (headings, paragraphs, citations) LLM+Pydantic parses legal entities: class Bescheid(BaseModel): aktenzeichen: str; p",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 176,
+    "path": "docs/03-technology-combinations/04-sozialrecht-domain.md"
+  }
+}

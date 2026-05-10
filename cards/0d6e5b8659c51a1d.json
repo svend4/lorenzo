@@ -1,0 +1,20 @@
+{
+  "card_id": "sha256:0d6e5b8659c51a1d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:8ceae660aacb18e2",
+  "payload": {
+    "title": "Q&A: anthropic-vacancies",
+    "summary": "_Автоматически сгенерировано по 97 файлам раздела._",
+    "tags": [],
+    "projects": [],
+    "wc": 115,
+    "path": "docs/anthropic-vacancies/QA.md"
+  }
+}

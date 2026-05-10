@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:5f444f296d42a0ba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:2806c67098689f76",
+  "payload": {
+    "title": "9. Phased Rollout Strategy",
+    "summary": "- [9. Phased Rollout Strategy](#9-phased-rollout-strategy)",
+    "tags": [
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 650,
+    "path": "docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md"
+  }
+}

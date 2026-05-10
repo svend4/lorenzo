@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:48c66988f53b321a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/multi-tier-architecture/01-strategic-significance.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:bd5e298599c74a58",
+  "payload": {
+    "title": "Claude hat geantwortet: Это стратегически значимый вопрос, и ответ на него — да,…",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "security",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 2586,
+    "path": "docs/nautilus/multi-tier-architecture/01-strategic-significance.md"
+  }
+}

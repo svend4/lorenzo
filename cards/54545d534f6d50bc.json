@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:54545d534f6d50bc",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:c990dd97160eaa79",
+  "payload": {
+    "title": "14. SDK Contract (Informative)",
+    "summary": "<!-- tags: memory, anthropic, collaboration -->",
+    "tags": [
+      "memory",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 219,
+    "path": "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md"
+  }
+}

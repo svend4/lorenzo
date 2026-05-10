@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:c8f006a8b3c1f797",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:788feffd885d0602",
+  "payload": {
+    "title": "12. Versioning Policy",
+    "summary": "- [12. Versioning Policy](#12-versioning-policy)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 342,
+    "path": "docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md"
+  }
+}

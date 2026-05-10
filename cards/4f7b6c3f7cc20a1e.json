@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:4f7b6c3f7cc20a1e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:6b0ee89f43d1e508",
+  "payload": {
+    "title": "Сходство 1: Composite Skills паттерн уже встроен",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 212,
+    "path": "docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md"
+  }
+}

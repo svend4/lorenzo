@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:5510b736d15ee97f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:30bd12ad16edfee9",
+  "payload": {
+    "title": "Приложение B: Рамка принятия решений — когда строить Тип 1 первым",
+    "summary": "title: \"Приложение B: Рамка принятия решений — когда строить Тип 1 первым\"",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 346,
+    "path": "docs/obsidian/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:a3cc42288a440136",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:616c822322aba21f",
+  "payload": {
+    "title": "3. Three Inter-Layer Protocols",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 820,
+    "path": "docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md"
+  }
+}

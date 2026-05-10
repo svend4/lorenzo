@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:1adfcef565f1b8aa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/120-главные-технические-риски.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/359-твои-anti-patterns.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:cffe70b181ab15e4",
+  "payload": {
+    "title": "Приложение A: Дерево Решений для Принимающих InGit",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 337,
+    "path": "docs/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md"
+  }
+}

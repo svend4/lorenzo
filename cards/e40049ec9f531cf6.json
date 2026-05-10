@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:e40049ec9f531cf6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/65-readme-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/04-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:f7f178db5527263e",
+  "payload": {
+    "title": "README.md",
+    "summary": "> **Единая точка входа для федеративных git-экосистем знаний.**",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 243,
+    "path": "docs/02-anthropic-vacancies/65-readme-md.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:35667dec3a72d794",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/DIGEST.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:0aa1db3982f8b8f0",
+  "payload": {
+    "title": "Дайджест изменений",
+    "summary": "> > 🎯 **Проблема:** Дайджест изменений Contents - Последний коммит(последний-коммит) - Последние 3 коммита — итого(последние-3-коммита-итого) - Новые документы(новые-документы) - История коммитов (пос",
+    "tags": [
+      "rag",
+      "ingestion",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 534,
+    "path": "docs/obsidian/DIGEST.md"
+  }
+}

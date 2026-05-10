@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:e2cc0f83ac9580ac",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:2f4211a90f211470",
+  "payload": {
+    "title": "Почему этот документ существует",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 265,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md"
+  }
+}

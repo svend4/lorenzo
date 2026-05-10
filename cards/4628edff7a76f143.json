@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:4628edff7a76f143",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/13-legal-document-transpiler.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:6e847b078891af8c",
+  "payload": {
+    "title": "Mega‑Stack 1.0 — Полный Legal‑AI Stack",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «MEGA‑COMBINATION: Полный Legal‑AI Stack для Max».",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 227,
+    "path": "docs/technology-combinations/mega-stacks/01-legal-ai-stack.md"
+  }
+}

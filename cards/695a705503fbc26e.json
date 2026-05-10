@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:695a705503fbc26e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/168-abstract.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:c00d6ad4c0a0ff74",
+  "payload": {
+    "title": "Abstract",
+    "summary": "- [Связанные документы](#связанные-документы)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 560,
+    "path": "docs/obsidian/02-anthropic-vacancies/168-abstract.md"
+  }
+}

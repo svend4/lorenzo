@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:7477bc76260be4ec",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/38-content-overview.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:7b66b06ad6cedad2",
+  "payload": {
+    "title": "Content Overview",
+    "summary": "> **Объём:** 74 документа (по состоянию на апрель 2026)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 149,
+    "path": "docs/02-anthropic-vacancies/38-content-overview.md"
+  }
+}

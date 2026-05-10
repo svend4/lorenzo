@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:3a70f98e389c8e97",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/275-why-this-document-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/218-7-application-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:efffa7a4b3356821",
+  "payload": {
+    "title": "The Two-Layer Stack As It Exists",
+    "summary": "> 🎯 **Проблема:** The problem is what happens between them.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 625,
+    "path": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md"
+  }
+}

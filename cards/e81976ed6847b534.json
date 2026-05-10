@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:e81976ed6847b534",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/NARRATIVE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:14a767796a474b9d",
+  "payload": {
+    "title": "Нарратив проекта Lorenzo",
+    "summary": "_Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet"
+    ],
+    "wc": 1066,
+    "path": "docs/obsidian/NARRATIVE.md"
+  }
+}

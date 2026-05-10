@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:65d0649f726ef713",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SITEMAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e7a306906b4fd76d",
+  "payload": {
+    "title": "Карта репозитория Lorenzo",
+    "summary": "- [Svyazi 2.0 — Архитектура системы](#svyazi-20-архитектура-системы)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Auto AI Router",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 7163,
+    "path": "docs/obsidian/SITEMAP.md"
+  }
+}

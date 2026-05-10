@@ -1,0 +1,52 @@
+{
+  "card_id": "sha256:46b4edad15f15aeb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/174-5-architectural-specification.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/175-6-ethical-framework.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/179-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:bd1ee3b676a1adc4",
+  "payload": {
+    "title": "5. Architectural Specification",
+    "summary": "> 🎯 **Проблема:** User Interface: Multi-modal access (web, mobile, voice) appropriate to principal's accessibility needs.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 870,
+    "path": "docs/02-anthropic-vacancies/174-5-architectural-specification.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:e1e0dfc3e4e0b978",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/156-2-target-populations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:831fff730b4090b8",
+  "payload": {
+    "title": "2. Target Populations",
+    "summary": "> 🎯 **Проблема:** Disabled Specialists with Modified Work Requirements Size estimate: 5M+ in OECD countries with preserved intellectual capacity and specific support needs.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 808,
+    "path": "docs/obsidian/02-anthropic-vacancies/156-2-target-populations.md"
+  }
+}

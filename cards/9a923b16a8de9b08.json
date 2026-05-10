@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:9a923b16a8de9b08",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/155-1-problem-statement.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/221-10-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/265-12-call-for-collaboration.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:b70058475d3549fe",
+  "payload": {
+    "title": "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md",
+    "summary": "> - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md) (сходство 0.25)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 274,
+    "path": "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md"
+  }
+}

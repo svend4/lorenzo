@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:62fe217d4dd7c448",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:238e7bb4222e0ad9",
+  "payload": {
+    "title": "20. ADR-002: Q6 as First-Class Protocol Concept",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 210,
+    "path": "docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md"
+  }
+}

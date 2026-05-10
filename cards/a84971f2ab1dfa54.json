@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:a84971f2ab1dfa54",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:af9b5e0670f447c1",
+  "payload": {
+    "title": "Question 2: Кому Lorenzo служит? (4 варианта приоритета)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 238,
+    "path": "docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md"
+  }
+}

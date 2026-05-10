@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:a82b0a985444924a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/11-security-considerations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:be283b833be949eb",
+  "payload": {
+    "title": "11. Security Considerations",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 198,
+    "path": "docs/nautilus/npp-v1-0/11-security-considerations.md"
+  }
+}

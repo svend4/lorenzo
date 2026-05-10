@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:be1a6640d011cf12",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:28070b8b1fd64dee",
+  "payload": {
+    "title": "10. Конкретный план применения к текущим документам",
+    "summary": "title: \"10. Конкретный план применения к текущим документам\"",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 334,
+    "path": "docs/obsidian/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md"
+  }
+}

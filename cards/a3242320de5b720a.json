@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:a3242320de5b720a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/privacy-federation/04-what-i-can-do-now.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:65bf78adb1ded9de",
+  "payload": {
+    "title": "Что я могу сделать сейчас",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — приватность и анонимизация в федерации NPP.",
+    "tags": [
+      "security",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 322,
+    "path": "docs/nautilus/privacy-federation/04-what-i-can-do-now.md"
+  }
+}

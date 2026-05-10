@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:6c64b30f1fa1ec72",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DEPENDABOT.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:8b506e0d4c87e1d0",
+  "payload": {
+    "title": "Мониторинг зависимостей",
+    "summary": "python scripts/improve_dependabot.py --generate-config",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 136,
+    "path": "docs/DEPENDABOT.md"
+  }
+}

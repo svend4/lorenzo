@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:68d162485243e145",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:0271ba2bc0fe45da",
+  "payload": {
+    "title": "Что такое «внуковая» комбинация — operationalized Lorenzo",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ «внуковой» комбинации, которая operationalises концепт Lorenzo.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Hybrid RAG",
+      "Graph RAG",
+      "SENTINEL",
+      "Firecrawl"
+    ],
+    "wc": 603,
+    "path": "docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md"
+  }
+}

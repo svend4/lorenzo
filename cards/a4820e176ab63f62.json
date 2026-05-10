@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:a4820e176ab63f62",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/05-compatibility-levels.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f017401c3e187da7",
+  "payload": {
+    "title": "5. Compatibility Levels",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 302,
+    "path": "docs/nautilus/npp-v1-1/05-compatibility-levels.md"
+  }
+}

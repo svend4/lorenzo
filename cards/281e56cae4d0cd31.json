@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:281e56cae4d0cd31",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:9a243ebcb53a047b",
+  "payload": {
+    "title": "9. Связь с другими типами агентов",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 611,
+    "path": "docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:c3eae96a7bf1c3c0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/00-context-fundamental-questions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:8d20d66936059238",
+  "payload": {
+    "title": "Direction E: Refine Lorenzo — фундаментальные вопросы перед architecture",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 205,
+    "path": "docs/lorenzo-agent/specification/00-context-fundamental-questions.md"
+  }
+}

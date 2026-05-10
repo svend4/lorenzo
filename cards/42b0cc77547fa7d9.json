@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:42b0cc77547fa7d9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:2d7166812bdfd2aa",
+  "payload": {
+    "title": "Что с этим делать",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з",
+    "tags": [
+      "rag",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 516,
+    "path": "docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:0b177040a197e77a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e61b91a09ad97a63",
+  "payload": {
+    "title": "10. Стратегическое Позиционирование",
+    "summary": "title: \"10. Стратегическое Позиционирование\"",
+    "tags": [
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 734,
+    "path": "docs/obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md"
+  }
+}

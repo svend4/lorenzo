@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:0c8015a1df82048f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:ca07a6d927af25ba",
+  "payload": {
+    "title": "9. Риски и Открытые Вопросы",
+    "summary": "- [9. Риски и Открытые Вопросы](#9-риски-и-открытые-вопросы)",
+    "tags": [
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 644,
+    "path": "docs/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md"
+  }
+}

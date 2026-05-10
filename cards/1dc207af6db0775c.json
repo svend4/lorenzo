@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:1dc207af6db0775c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:5f5d1efae46749ff",
+  "payload": {
+    "title": "Section 5: Role of Anthropic Beneficial Deployments",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 221,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md"
+  }
+}

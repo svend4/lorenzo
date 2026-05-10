@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:a9edb1cdb879ebbd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/03-what-makes-csa.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:760a62dc0c815e13",
+  "payload": {
+    "title": "3. What Makes a Composite Skills Agent",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Composite Skills Agents».",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 889,
+    "path": "docs/nautilus/composite-skills-agents/03-what-makes-csa.md"
+  }
+}

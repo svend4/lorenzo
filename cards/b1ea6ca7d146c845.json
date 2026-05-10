@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:b1ea6ca7d146c845",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/13-appendix-b-examples.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:171faee84eba9102",
+  "payload": {
+    "title": "Appendix B: Примеры расхождений и их разрешения",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 281,
+    "path": "docs/nautilus/review-methodology/13-appendix-b-examples.md"
+  }
+}

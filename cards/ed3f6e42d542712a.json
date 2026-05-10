@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:ed3f6e42d542712a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/DEPENDENCY_MAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:1a2414c6f317fb6e",
+  "payload": {
+    "title": "Карта зависимостей скриптов",
+    "summary": "> _Что каждый `improve_*.py` производит и от чего зависит._",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "local-first",
+      "roadmap",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 1157,
+    "path": "docs/DEPENDENCY_MAP.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:4a8f9876f7d28acb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:72894a3b7c41647d",
+  "payload": {
+    "title": "7. Economics of Combinatorial Replication",
+    "summary": "title: \"7. Economics of Combinatorial Replication\"",
+    "tags": [
+      "rag",
+      "orchestration",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 956,
+    "path": "docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md"
+  }
+}

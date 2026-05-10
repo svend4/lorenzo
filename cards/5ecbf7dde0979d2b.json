@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:5ecbf7dde0979d2b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/okwf-concept/02-target-populations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:4879b29190fe0e93",
+  "payload": {
+    "title": "2. Target Populations",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 650,
+    "path": "docs/nautilus/okwf-concept/02-target-populations.md"
+  }
+}

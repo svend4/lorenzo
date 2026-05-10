@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:a8670bd4b8c7736e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:4268ff960cfbc27e",
+  "payload": {
+    "title": "Existing infrastructure stack",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 151,
+    "path": "docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:7ba04c135b18e060",
+  "card_type": "fact",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/C-multi-agent-factory.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:8b45507333ce19cd",
+  "payload": {
+    "title": "Ансамбль C — Spec‑driven multi‑agent factory",
+    "summary": "> > Источник: `deep-research-report (1).md`.",
+    "tags": [
+      "orchestration",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "AutoResearch"
+    ],
+    "wc": 249,
+    "path": "docs/svyazi-2-0/ensembles/C-multi-agent-factory.md"
+  }
+}

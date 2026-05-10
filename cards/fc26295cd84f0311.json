@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:fc26295cd84f0311",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/04-q4-character.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e58da8ebedfaad62",
+  "payload": {
+    "title": "Question 4: Каков Lorenzo's character?",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "tags": [
+      "rag",
+      "local-first",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 292,
+    "path": "docs/lorenzo-agent/specification/04-q4-character.md"
+  }
+}

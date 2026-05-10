@@ -1,0 +1,46 @@
+{
+  "card_id": "sha256:dadaf314111c2ab6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/ENTITIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:69b472a5ac886af6",
+  "payload": {
+    "title": "Именованные сущности",
+    "summary": "> - [Люди и авторы (7)](#люди-и-авторы-7)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Tool Search",
+      "Wikontic",
+      "Firecrawl"
+    ],
+    "wc": 815,
+    "path": "docs/obsidian/ENTITIES.md"
+  }
+}

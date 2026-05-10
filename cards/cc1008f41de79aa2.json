@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:cc1008f41de79aa2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/11-relevance-ranking.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:c0c1397302b7356e",
+  "payload": {
+    "title": "11. Relevance Ranking",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 203,
+    "path": "docs/nautilus/npp-v1-1/11-relevance-ranking.md"
+  }
+}

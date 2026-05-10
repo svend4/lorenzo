@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:f6b74015f36091a0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/00-abstract-status.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:bc8e5ce6798e9fc5",
+  "payload": {
+    "title": "Abstract + Status of This Document",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 213,
+    "path": "docs/nautilus/npp-v1-0/00-abstract-status.md"
+  }
+}

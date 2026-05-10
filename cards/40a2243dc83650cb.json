@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:40a2243dc83650cb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/03-registry.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:4d613e1a82eb1059",
+  "payload": {
+    "title": "3. Registry (`nautilus.json`)",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 479,
+    "path": "docs/nautilus/npp-v1-1/03-registry.md"
+  }
+}

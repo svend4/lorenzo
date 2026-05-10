@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:0dd9ca4380061a18",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:517068d7033bddf6",
+  "payload": {
+    "title": "Минусы и риски как бизнеса",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 642,
+    "path": "docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md"
+  }
+}

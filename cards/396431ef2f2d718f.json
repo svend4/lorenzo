@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:396431ef2f2d718f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:7a97de01c8a253cd",
+  "payload": {
+    "title": "Три точки входа разной амбиции",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ идеи AI-managed distributed virtual company как альтернативы найму одного человека з",
+    "tags": [
+      "orchestration",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 378,
+    "path": "docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md"
+  }
+}

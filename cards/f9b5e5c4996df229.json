@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:f9b5e5c4996df229",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/03-technology-combinations/03-local-first.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:0e7d3ee3c3d90b89",
+  "payload": {
+    "title": "Local-first и P2P стек",
+    "summary": "- [Связанные документы](#связанные-документы)",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "MemNet"
+    ],
+    "wc": 556,
+    "path": "docs/obsidian/03-technology-combinations/03-local-first.md"
+  }
+}

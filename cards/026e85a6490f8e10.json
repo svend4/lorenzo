@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:026e85a6490f8e10",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:595500cbb345026a",
+  "payload": {
+    "title": "1. Why Single-Triangle Models Are Incomplete",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 466,
+    "path": "docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md"
+  }
+}

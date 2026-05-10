@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:eb7406609921c5a3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/okwf-concept/03-why-existing-fail.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:55fef3c65abba950",
+  "payload": {
+    "title": "3. Why Existing Solutions Fail",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Open Knowledge Work Foundation Concept Document».",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 663,
+    "path": "docs/nautilus/okwf-concept/03-why-existing-fail.md"
+  }
+}

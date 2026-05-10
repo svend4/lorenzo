@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:31c687db462cbc59",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/50-bridges.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:c792b0cd86af9ff7",
+  "payload": {
+    "title": "Bridges",
+    "summary": "- [pro2 ↔ info1](#pro2-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md))",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 179,
+    "path": "docs/obsidian/02-anthropic-vacancies/50-bridges.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:2b1b8cef409735c4",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:a4d7e194f4f7c6ca",
+  "payload": {
+    "title": "Happyin Knowledge Space (Анастасия) — детали",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Вариант D: продолжение поиска уникальных проектов и финальное ранжирование.",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "knowledge-space"
+    ],
+    "wc": 274,
+    "path": "docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md"
+  }
+}

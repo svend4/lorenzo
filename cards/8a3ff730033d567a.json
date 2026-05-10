@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:8a3ff730033d567a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:3c6e44376b3930d6",
+  "payload": {
+    "title": "3. What InGit Provides That Cowork Lacks",
+    "summary": "> 🎯 **Проблема:** If you use Cowork extensively and later need to switch platforms (Gemini, GPT, local models), Cowork-specific patterns don't transfer.",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 842,
+    "path": "docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md"
+  }
+}

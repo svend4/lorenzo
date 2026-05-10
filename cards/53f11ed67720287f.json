@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:53f11ed67720287f",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/templates/contact-outreach.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:682a156d648b81a3",
+  "payload": {
+    "title": "Контакт: [Имя / Проект]",
+    "summary": "<!-- summary: Шаблон для связи с автором X -->",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 135,
+    "path": "docs/obsidian/templates/contact-outreach.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:4435230f3dd46982",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/46-essence.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:052a6115571ff49b",
+  "payload": {
+    "title": "Essence",
+    "summary": "> `pro2` — **семантическое ядро** экосистемы svend4. Здесь живут",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 133,
+    "path": "docs/obsidian/02-anthropic-vacancies/46-essence.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:608fab6ce76d136b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/nlaik.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:0e38bf30e7fff5b0",
+  "payload": {
+    "title": "Контакт: nlaik / LiteParse / research-docs",
+    "summary": "title: \"Контакт: nlaik / LiteParse / research-docs\"",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse"
+    ],
+    "wc": 241,
+    "path": "docs/obsidian/contacts/nlaik.md"
+  }
+}

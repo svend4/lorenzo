@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:6c2627f62d7634d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f832ef67d39bc19d",
+  "payload": {
+    "title": "7. Практические первые шаги в этом месяце",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (RU)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 373,
+    "path": "docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md"
+  }
+}

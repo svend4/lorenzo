@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:87e773a1c0938389",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/architecture/card-envelope.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:ec59bf2336d5def6",
+  "payload": {
+    "title": "Card Envelope",
+    "summary": "> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS"
+    ],
+    "wc": 200,
+    "path": "docs/svyazi-2-0/architecture/card-envelope.md"
+  }
+}

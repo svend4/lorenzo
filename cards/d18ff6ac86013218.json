@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:d18ff6ac86013218",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CHANGELOG_AUTO.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:339fdce5c31d65ca",
+  "payload": {
+    "title": "Changelog (авто)",
+    "summary": "> - [Статистика коммитов](#статистика-коммитов)",
+    "tags": [
+      "rag",
+      "ingestion",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 683,
+    "path": "docs/obsidian/CHANGELOG_AUTO.md"
+  }
+}

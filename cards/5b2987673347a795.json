@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:5b2987673347a795",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/professional-colleague-agents-en/05-economics-replication.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:8dec682182c106b3",
+  "payload": {
+    "title": "5. The Economics of Profession-Wide Replication",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Professional Colleague Agents (EN)», написанный совместно с Claude.",
+    "tags": [
+      "rag",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 695,
+    "path": "docs/nautilus/professional-colleague-agents-en/05-economics-replication.md"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:91ee7dce7c4c2335",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/147-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:b701d1461c46852b",
+  "payload": {
+    "title": "References",
+    "summary": "> 🎯 **Проблема:** References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa",
+    "tags": [
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 369,
+    "path": "docs/02-anthropic-vacancies/147-references.md"
+  }
+}

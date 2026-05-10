@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:bcec07a4bb5a000f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/TOPIC_MODEL.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/CLUSTERS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READING_TIME.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/SEARCH.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/READABILITY.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:da88514e4985fa18",
+  "payload": {
+    "title": "Тематическое моделирование (TF-IDF)",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS"
+    ],
+    "wc": 1051,
+    "path": "docs/TOPIC_MODEL.md"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:8fa5777e81bef9b4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:991f1c0021540c5b",
+  "payload": {
+    "title": "Конкретный случай перед нами",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 592,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md"
+  }
+}

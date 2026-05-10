@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:8658f147c33afc8e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/166-representative-agent-layer-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/168-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/225-references.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:0ef85e5dff8f1165",
+  "payload": {
+    "title": "REPRESENTATIVE AGENT LAYER.md",
+    "summary": "> - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.33)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 266,
+    "path": "docs/02-anthropic-vacancies/166-representative-agent-layer-md.md"
+  }
+}

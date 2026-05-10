@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:7e96d0187af7555d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/legal-rag.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:74a733b2f6e289b3",
+  "payload": {
+    "title": "Legal RAG",
+    "summary": "<!-- tags: rag, ingestion, roadmap, self-improvement, collaboration -->",
+    "tags": [
+      "rag",
+      "ingestion",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "Legal RAG",
+      "Yodoca"
+    ],
+    "wc": 123,
+    "path": "docs/svyazi-2-0/components/legal-rag.md"
+  }
+}

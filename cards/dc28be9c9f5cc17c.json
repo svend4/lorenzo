@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:dc28be9c9f5cc17c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/antipozitive.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:5478fba2cc7b00af",
+  "payload": {
+    "title": "Контакт: Antipozitive / MemNet",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 229,
+    "path": "docs/obsidian/contacts/antipozitive.md"
+  }
+}

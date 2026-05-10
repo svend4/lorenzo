@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:21de8123a115e1b9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:d0ebeb4a90082eaa",
+  "payload": {
+    "title": "Что этот документ не решает",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 201,
+    "path": "docs/obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md"
+  }
+}

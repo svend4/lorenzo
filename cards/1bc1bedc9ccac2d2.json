@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:1bc1bedc9ccac2d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:3eb269dcf955db76",
+  "payload": {
+    "title": "A2A vs MCP, ансамбль H — MCP/A2A Review Fabric",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory"
+    ],
+    "wc": 346,
+    "path": "docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md"
+  }
+}

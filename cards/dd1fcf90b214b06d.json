@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:dd1fcf90b214b06d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:6a923ce70c30b6f4",
+  "payload": {
+    "title": "4. The Symbiotic Architecture",
+    "summary": "- [4. The Symbiotic Architecture](#4-the-symbiotic-architecture)",
+    "tags": [
+      "memory",
+      "rag",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 688,
+    "path": "docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md"
+  }
+}

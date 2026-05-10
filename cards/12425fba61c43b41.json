@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:12425fba61c43b41",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/specification/05-q5-authority-limits.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:f5873b3cb18ee868",
+  "payload": {
+    "title": "Question 5: Каковы limits Lorenzo's authority?",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин",
+    "tags": [
+      "knowledge",
+      "anthropic"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 228,
+    "path": "docs/lorenzo-agent/specification/05-q5-authority-limits.md"
+  }
+}

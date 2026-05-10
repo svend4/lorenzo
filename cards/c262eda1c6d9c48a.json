@@ -1,0 +1,73 @@
+{
+  "card_id": "sha256:c262eda1c6d9c48a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/PROCESSING_GUIDE.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/processing-guide/02-extraction.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/03-chunking.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/04-structuring.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/05-analysis.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/06-search.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/07-llm.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/08-export.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/09-automation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/processing-guide/10-future.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/04-ai-collaborations/01-executive-summary.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:9ec44d2060a18d84",
+  "payload": {
+    "title": "Обработка больших массивов документов — Полное руководство",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL"
+    ],
+    "wc": 8049,
+    "path": "docs/processing-guide/PROCESSING_GUIDE.md"
+  }
+}

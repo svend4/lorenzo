@@ -1,0 +1,35 @@
+{
+  "card_id": "sha256:d00e6ca427c2ff5e",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/A-collaboration-os.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:ae6e0df04299d0eb",
+  "payload": {
+    "title": "Ансамбль A — Collaboration OS",
+    "summary": "> > Источник: `deep-research-report (1).md`.",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 248,
+    "path": "docs/svyazi-2-0/ensembles/A-collaboration-os.md"
+  }
+}

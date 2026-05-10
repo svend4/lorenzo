@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:6910ebe68654a760",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/00-abstract.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:30079fff4dcc2fc1",
+  "payload": {
+    "title": "Содержание",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Representative Agent Layer (RU)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 119,
+    "path": "docs/nautilus/representative-agent-layer-ru/00-abstract.md"
+  }
+}

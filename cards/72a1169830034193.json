@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:72a1169830034193",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/128-доступные-инструменты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/129-примеры-запросов-в-claude.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/103-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/22-10-queryresult-structure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:76d4b22d75d7b94c",
+  "payload": {
+    "title": "16. MCP Extension (Informative)",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 291,
+    "path": "docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md"
+  }
+}

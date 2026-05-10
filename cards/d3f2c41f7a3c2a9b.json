@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:d3f2c41f7a3c2a9b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/clusters/05-marketing-brand.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:5a0b4d12a270683c",
+  "payload": {
+    "title": "Marketing & Brand — 23 роли",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 107,
+    "path": "docs/anthropic-vacancies/clusters/05-marketing-brand.md"
+  }
+}

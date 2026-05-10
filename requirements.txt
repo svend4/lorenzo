@@ -1,12 +1,40 @@
 # Lorenzo — зависимости
-# Базовые скрипты (improve_*.py, utils_chunker.py) работают без зависимостей —
-# только стандартная библиотека Python 3.10+.
+# ──────────────────────────────────────────────────────────────
+# Минимум (все 159 скриптов без LLM): стандартная библиотека Python 3.11+
+# Полная установка: pip install -r requirements.txt
 
-# Stage 3: LLM-скрипты (improve_llm_*.py)
-anthropic>=0.40.0          # Claude API: improve_llm_enrich, improve_llm_summary, improve_llm_qa
+# ── Базовые зависимости (рекомендуется) ───────────────────────
 
-# Stage 5: MCP-сервер (mcp_server.py)
-mcp>=1.0.0                 # Model Context Protocol SDK
+# MHTML → Markdown (extract_mhtml.py + organize_docs.py)
+beautifulsoup4>=4.12.0     # HTML-парсер
+lxml>=5.0.0                # быстрый XML/HTML backend для bs4
 
-# Опционально: для word cloud (improve_word_cloud.py)
-# pillow>=10.0.0
+# Орфография (improve_spellcheck.py -- расширенная проверка)
+pyspellchecker>=0.8.1      # BM25-совместимый спеллчекер без ML
+
+# ── Stage 3: LLM-скрипты (improve_llm_*.py) ──────────────────
+# Требуют: export ANTHROPIC_API_KEY=sk-ant-...
+anthropic>=0.40.0          # Claude API: llm_enrich, llm_summary, llm_qa, llm_contact
+
+# ── Stage 4: CardEnvelope / CardStore ─────────────────────────
+# utils_card_envelope.py, improve_card_index.py — только stdlib, без зависимостей
+
+# ── Stage 5: MCP-сервер (mcp_server.py) ──────────────────────
+mcp>=1.0.0                 # Model Context Protocol SDK (Claude Desktop интеграция)
+
+# ── Stage 6: Семантический поиск (планируется) ────────────────
+# Итерация 1 из PROTOTYPE_SPEC.md: hybrid BM25 + embedding search
+# hnswlib>=0.8.0            # ANN-граф для векторного поиска (MIT, без сервера, <10MB)
+# numpy>=1.26.0             # вектора для hnswlib
+
+# ── Экспорт ────────────────────────────────────────────────────
+# EPUB (improve_epub.py): apt install pandoc (не pip)
+
+# ── Опционально ────────────────────────────────────────────────
+# pillow>=10.0.0            # SVG word cloud (improve_word_cloud.py)
+# streamlit>=1.35.0         # Web UI для CardStore (планируется)
+
+# ── Быстрая установка только обязательного ────────────────────
+# pip install beautifulsoup4 lxml
+# pip install anthropic          # + ANTHROPIC_API_KEY для LLM
+# pip install mcp                # + Claude Desktop для MCP

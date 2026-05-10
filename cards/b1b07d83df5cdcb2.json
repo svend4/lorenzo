@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:b1b07d83df5cdcb2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/160-6-governance-and-ethics.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:cfb8e16ed6161dd9",
+  "payload": {
+    "title": "6. Governance and Ethics",
+    "summary": "- [6. Governance and Ethics](#6-governance-and-ethics)",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 621,
+    "path": "docs/02-anthropic-vacancies/160-6-governance-and-ethics.md"
+  }
+}

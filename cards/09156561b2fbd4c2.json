@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:09156561b2fbd4c2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/168-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/175-6-ethical-framework.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:6301b68f6fccb82e",
+  "payload": {
+    "title": "2. Historical Precedents: Agents as Civilizational Innovation",
+    "summary": "> 🎯 **Проблема:** Specialization by domain — different markets need different agent expertise What limits all these systems: 1.",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 1111,
+    "path": "docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md"
+  }
+}

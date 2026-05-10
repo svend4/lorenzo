@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:30046ba0db6cc9cd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/122-глоссарий.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/104-appendix-c-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/72-расписание-фазы-3.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/108-2-формальный-workflow.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/69-section.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/111-4-условия-применимости.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:da8e38af4c929bbb",
+  "payload": {
+    "title": "Глоссарий",
+    "summary": "> 🎯 **Проблема:** Это означает, что код — reference implementation , который нужно будет сверить с реальными именами методов и полей в вашем репо после публикации.",
+    "tags": [
+      "memory",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1539,
+    "path": "docs/02-anthropic-vacancies/122-глоссарий.md"
+  }
+}

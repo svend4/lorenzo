@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:58fa1410bcd4abe9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:679fa11b1c160ed6",
+  "payload": {
+    "title": "What's Missing — Layer B",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 424,
+    "path": "docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md"
+  }
+}

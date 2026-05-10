@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:e518efadc98cdb97",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:a937db7edf75e98f",
+  "payload": {
+    "title": "12. Заключение",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 4414,
+    "path": "docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md"
+  }
+}

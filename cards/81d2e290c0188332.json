@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:81d2e290c0188332",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/sonia-black.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:2633c1d5ba2ff50c",
+  "payload": {
+    "title": "Контакт: Sonia_Black / knowledge-space",
+    "summary": "title: \"Контакт: Sonia_Black / knowledge-space\"",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space"
+    ],
+    "wc": 229,
+    "path": "docs/obsidian/contacts/sonia-black.md"
+  }
+}

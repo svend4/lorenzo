@@ -1,0 +1,41 @@
+{
+  "card_id": "sha256:356578e9d580a181",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:56ffd972236af95e",
+  "payload": {
+    "title": "Безопасность, приватность и бюджетный роутинг",
+    "summary": "title: \"Безопасность, приватность и бюджетный роутинг\"",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "AI Factory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch"
+    ],
+    "wc": 900,
+    "path": "docs/obsidian/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md"
+  }
+}

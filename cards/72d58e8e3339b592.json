@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:72d58e8e3339b592",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/research-reports/sozialrecht-35-combinations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:f779d34f7f40988e",
+  "payload": {
+    "title": "Research Report: Sozialrecht (35 комбинаций)",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «A Research Report Building on 35 Previously Identified Combinations — Focus on the German *Sozialrecht* Domain»",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 222,
+    "path": "docs/technology-combinations/research-reports/sozialrecht-35-combinations.md"
+  }
+}

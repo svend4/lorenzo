@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:2460d3f18593fc30",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:f555b26777c10ea5",
+  "payload": {
+    "title": "9. Стратегия поэтапного развёртывания",
+    "summary": "title: \"9. Стратегия поэтапного развёртывания\"",
+    "tags": [
+      "security",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 680,
+    "path": "docs/obsidian/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md"
+  }
+}

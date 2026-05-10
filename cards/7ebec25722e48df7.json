@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:7ebec25722e48df7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:2d90208fd53322f6",
+  "payload": {
+    "title": "Сводка профиля: пять слоёв",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.",
+    "tags": [
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 319,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:f0f6cd151fba4b79",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:7d0a9eb0c7aea184",
+  "payload": {
+    "title": "Приложение B: Матрица Сравнения Областей",
+    "summary": "title: \"Приложение B: Матрица Сравнения Областей\"",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 259,
+    "path": "docs/obsidian/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md"
+  }
+}

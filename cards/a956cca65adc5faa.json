@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:a956cca65adc5faa",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/BROKEN_LINKS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:f1e6a2f22cae8ed2",
+  "payload": {
+    "title": "Сломанные внутренние ссылки",
+    "summary": "**Найдено:** 76 проблем, 0 пропущено (длинный путь)",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 654,
+    "path": "docs/BROKEN_LINKS.md"
+  }
+}

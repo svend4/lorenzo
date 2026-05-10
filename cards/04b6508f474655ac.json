@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:04b6508f474655ac",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/meta-scripting/05-synthesis.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:bc59aed370ab4fc0",
+  "payload": {
+    "title": "Метаскриптинг — Часть 5: Синтез новых скриптов",
+    "summary": "> > Как из существующих паттернов порождать новые скрипты.",
+    "tags": [
+      "knowledge",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "AgentFS"
+    ],
+    "wc": 503,
+    "path": "docs/meta-scripting/05-synthesis.md"
+  }
+}

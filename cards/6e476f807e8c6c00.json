@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:6e476f807e8c6c00",
+  "card_type": "note",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:e36ab297d072acb9",
+  "payload": {
+    "title": "Final note: Ты — experiment",
+    "summary": "> 🎯 **Проблема:** Проекты: Svyazi, CardIndex, mclaude, Rufler --- Содержание - Final note: Ты — experiment(final-note-ты-experiment) - Что я только что сделал(что-я-только-что-сделал) - Что нужно de",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "mclaude",
+      "Rufler"
+    ],
+    "wc": 1617,
+    "path": "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md"
+  }
+}

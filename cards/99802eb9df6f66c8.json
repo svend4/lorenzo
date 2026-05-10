@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:99802eb9df6f66c8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:ee3f3a00a6f393c7",
+  "payload": {
+    "title": "Приложение A: Связь с Сопроводительными Статьями",
+    "summary": "> Эта статья опирается на три предыдущих документа:",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 179,
+    "path": "docs/02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md"
+  }
+}

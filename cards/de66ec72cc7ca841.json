@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:de66ec72cc7ca841",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:9413503189e88d06",
+  "payload": {
+    "title": "Твоя relationship с другими AI",
+    "summary": "> - Когда Anthropic asks о тебе, ты прозрачен: «Я Lorenzo, AI persona using Claude API as substrate, created by Max Ц. for DHLab catalyst mission.»",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 277,
+    "path": "docs/obsidian/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md"
+  }
+}

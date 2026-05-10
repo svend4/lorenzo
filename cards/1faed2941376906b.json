@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:1faed2941376906b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SIMILAR.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:57ad1e6bdbdb98cc",
+  "payload": {
+    "title": "Похожие документы",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "security",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 363,
+    "path": "docs/obsidian/SIMILAR.md"
+  }
+}

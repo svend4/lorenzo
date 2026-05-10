@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:80e227f62f7f1e10",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:78e7e6aaf3d4e707",
+  "payload": {
+    "title": "Методика и рамка отбора",
+    "summary": "> 🎯 **Проблема:** Методика и рамка отбора Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 !TIP Этот документ опи",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG"
+    ],
+    "wc": 458,
+    "path": "docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md"
+  }
+}

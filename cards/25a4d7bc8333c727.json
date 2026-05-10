@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:25a4d7bc8333c727",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:08a62a57a795fa9a",
+  "payload": {
+    "title": "Why This Document Exists",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 305,
+    "path": "docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md"
+  }
+}

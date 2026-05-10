@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:5af506ad54244545",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:f34a6f65082ed528",
+  "payload": {
+    "title": "Твоя коммуникация в outreach",
+    "summary": "> Когда draft outreach message к независимому создателю, ВСЕГДА включай:",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 195,
+    "path": "docs/obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md"
+  }
+}

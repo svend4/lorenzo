@@ -1,0 +1,34 @@
+{
+  "card_id": "sha256:70a6e4288c32737c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:0f43cc933306d51c",
+  "payload": {
+    "title": "Anchor-узел: Habr Scout как первый шаг",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "LiteParse",
+      "Firecrawl"
+    ],
+    "wc": 584,
+    "path": "docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md"
+  }
+}

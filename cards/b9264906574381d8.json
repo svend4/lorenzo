@@ -1,0 +1,55 @@
+{
+  "card_id": "sha256:b9264906574381d8",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/285-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/164-10-appendices.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/218-7-application-domains.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:bb9f5a5a9eef9fbe",
+  "payload": {
+    "title": "Practical Recommendations for the Current Project",
+    "summary": "> 🎯 **Проблема:** Practical Recommendations for the Current Project For the seven-document Nautilus / OKWF project specifically, --- Practical Recommendations for the Current Project For the seven-d",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 634,
+    "path": "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md"
+  }
+}

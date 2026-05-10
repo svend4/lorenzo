@@ -1,0 +1,59 @@
+{
+  "card_id": "sha256:ca00e7d7ebbaa05a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/123-portal-mcp-py.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/105-review-methodology-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/65-readme-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/74-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/34-appendix-b-change-log.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:e2e38de5c876bb5f",
+  "payload": {
+    "title": "README-MCP.md— инструкция по установке",
+    "summary": "> Отдельный документ для репо, объясняющий, как настроить MCP-обёртку:",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 290,
+    "path": "docs/02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md"
+  }
+}

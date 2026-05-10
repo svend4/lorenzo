@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:ae84b062b9cae09d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:8a6794de8c02ebbc",
+  "payload": {
+    "title": "20. ADR-002: Q6 as First-Class Protocol Concept",
+    "summary": "title: \"20. ADR-002: Q6 as First-Class Protocol Concept\"",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 337,
+    "path": "docs/obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md"
+  }
+}

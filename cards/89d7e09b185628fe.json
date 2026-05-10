@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:89d7e09b185628fe",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/PROTOTYPE_SPEC.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:4047a4bf2afbae13",
+  "payload": {
+    "title": "Svyazi 2.0 — Спецификация прототипа",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Tool Search"
+    ],
+    "wc": 1377,
+    "path": "docs/PROTOTYPE_SPEC.md"
+  }
+}

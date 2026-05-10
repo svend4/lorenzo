@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:067b54a158c7a29a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:9ccce1541cb52654",
+  "payload": {
+    "title": "5. Четыре пути интеграции в порядке доступности",
+    "summary": "title: \"5. Четыре пути интеграции в порядке доступности\"",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 804,
+    "path": "docs/obsidian/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md"
+  }
+}

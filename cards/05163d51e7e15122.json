@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:05163d51e7e15122",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/COMPARE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e5168c968eac4009",
+  "payload": {
+    "title": "Сравнение с предыдущим коммитом",
+    "summary": "<!-- tags: memory, rag, architecture, roadmap, anthropic, collaboration -->",
+    "tags": [
+      "memory",
+      "rag",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 498,
+    "path": "docs/obsidian/COMPARE.md"
+  }
+}

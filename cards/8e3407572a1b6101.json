@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:8e3407572a1b6101",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:d967515ace433166",
+  "payload": {
+    "title": "4. Passport (`passport.md`)",
+    "summary": "> 🎯 **Проблема:** Passport (passport.md)(4-passport-passportmd) - 4.1.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 368,
+    "path": "docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md"
+  }
+}

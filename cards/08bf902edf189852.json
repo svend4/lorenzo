@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:08bf902edf189852",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:77cd020bb15fd90c",
+  "payload": {
+    "title": "Why This Hasn't Been Built",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 344,
+    "path": "docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md"
+  }
+}

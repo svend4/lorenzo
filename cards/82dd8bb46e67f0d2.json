@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:82dd8bb46e67f0d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/07-chto-mozhesh.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:077617bd585c61de",
+  "payload": {
+    "title": "Что ты МОЖЕШЬ делать",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).",
+    "tags": [
+      "knowledge",
+      "anthropic"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 163,
+    "path": "docs/lorenzo-agent/07-chto-mozhesh.md"
+  }
+}

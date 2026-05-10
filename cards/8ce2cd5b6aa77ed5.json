@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:8ce2cd5b6aa77ed5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:9812e8cef44be0c7",
+  "payload": {
+    "title": "1. Типология из пяти типов агентов на стороне принципала",
+    "summary": "title: \"1. Типология из пяти типов агентов на стороне принципала\"",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 1073,
+    "path": "docs/obsidian/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md"
+  }
+}

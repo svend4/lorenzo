@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:a7171d8c24611eee",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e755e6c7af0c7019",
+  "payload": {
+    "title": "4. The Symbiotic Architecture",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «InGit + Cowork (EN)».",
+    "tags": [
+      "memory",
+      "rag",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 574,
+    "path": "docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:2f8c9a9b50fa6d9f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:a17913b37353f61c",
+  "payload": {
+    "title": "1. The Cowork Discovery and Why It Changes Everything",
+    "summary": "title: \"1. The Cowork Discovery and Why It Changes Everything\"",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 686,
+    "path": "docs/obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md"
+  }
+}

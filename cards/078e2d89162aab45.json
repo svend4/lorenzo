@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:078e2d89162aab45",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:29705e8960ca4921",
+  "payload": {
+    "title": "Что промышленность вероятно построит",
+    "summary": "title: \"Что промышленность вероятно построит\"",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 331,
+    "path": "docs/obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "card_id": "sha256:e2c43153e7733f5f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/93-18-reference-implementation.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/25-13-reference-implementation.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/42-author-contact.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/05-0-status-of-this-document.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/75-0-status-of-this-document.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:fdca92e5f34938ac",
+  "payload": {
+    "title": "18. Reference Implementation",
+    "summary": "> [`github.com/svend4/nautilus`](https://github.com/svend4/nautilus).",
+    "tags": [
+      "rag",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 387,
+    "path": "docs/02-anthropic-vacancies/93-18-reference-implementation.md"
+  }
+}

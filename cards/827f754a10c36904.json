@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:827f754a10c36904",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/autofilled/components/ingit.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:88d879d4b6ef0b1f",
+  "payload": {
+    "title": "ingit",
+    "summary": "",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 158,
+    "path": "docs/obsidian/autofilled/components/ingit.md"
+  }
+}

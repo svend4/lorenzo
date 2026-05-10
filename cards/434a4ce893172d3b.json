@@ -1,0 +1,34 @@
+{
+  "card_id": "sha256:434a4ce893172d3b",
+  "card_type": "note",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e91dc966fab01991",
+  "payload": {
+    "title": "Final note: Ты — experiment",
+    "summary": "> 🎯 **Проблема:** Проекты: Svyazi, CardIndex, mclaude, Rufler --- Содержание - Final note: Ты — experiment(final-note-ты-experiment) - Что я только что сделал(что-я-только-что-сделал) - Что нужно de",
+    "tags": [
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "mclaude",
+      "Rufler"
+    ],
+    "wc": 1601,
+    "path": "docs/obsidian/02-anthropic-vacancies/364-final-note-ты-experiment.md"
+  }
+}

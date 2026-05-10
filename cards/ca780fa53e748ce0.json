@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:ca780fa53e748ce0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/KEYWORD_INDEX.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:d8ce1f64debc9235",
+  "payload": {
+    "title": "Инвертированный индекс ключевых слов",
+    "summary": "> > 🎯 **Проблема:** Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов: 487 python scripts/improvekeywordindex.py --query \"ваш запрос\" — поиск по и",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "NGT Memory"
+    ],
+    "wc": 1162,
+    "path": "docs/KEYWORD_INDEX.md"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:10f091df6794f82a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:a351bab8df4bcfd6",
+  "payload": {
+    "title": "Section 3: Proposed solution architecture (existing components + integration)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Variant C: написание concept document для Anthropic Beneficial Deployments outreach (8–15 с",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 172,
+    "path": "docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md"
+  }
+}

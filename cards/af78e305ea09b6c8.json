@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:af78e305ea09b6c8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/architecture/integration-spec.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/architecture/card-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/evidence-envelope.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/memory-write-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/skill-tool-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/review-record.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:686b12357088e48c",
+  "payload": {
+    "title": "Интеграционная спецификация (минимум для MVP)",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "Tool Search"
+    ],
+    "wc": 285,
+    "path": "docs/svyazi-2-0/architecture/integration-spec.md"
+  }
+}

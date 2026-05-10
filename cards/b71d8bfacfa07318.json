@@ -1,0 +1,44 @@
+{
+  "card_id": "sha256:b71d8bfacfa07318",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/144-7-open-questions.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/145-8-call-to-action.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:4605f9224a5e4c3d",
+  "payload": {
+    "title": "7. Open Questions",
+    "summary": "> 🎯 **Проблема:** Open Questions !TIP Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 964,
+    "path": "docs/02-anthropic-vacancies/144-7-open-questions.md"
+  }
+}

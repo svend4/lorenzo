@@ -1,0 +1,38 @@
+{
+  "card_id": "sha256:9306e2950f3f6e7a",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONTRADICTIONS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:c1928eae1d975b7c",
+  "payload": {
+    "title": "Противоречия в базе знаний",
+    "summary": "- [Найденные противоречия](#найденные-противоречия)",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "LiteParse",
+      "NGT Memory",
+      "MemNet",
+      "AutoResearch"
+    ],
+    "wc": 1794,
+    "path": "docs/obsidian/CONTRADICTIONS.md"
+  }
+}

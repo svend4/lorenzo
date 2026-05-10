@@ -1,0 +1,20 @@
+{
+  "card_id": "sha256:2f668b0620510685",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/COMPARE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:b07acc197196a8c7",
+  "payload": {
+    "title": "Сравнение с предыдущим коммитом",
+    "summary": "**Слов было:** 1,319,272  **стало:** 1,785,385  **Δ:** +466,113",
+    "tags": [],
+    "projects": [],
+    "wc": 477,
+    "path": "docs/COMPARE.md"
+  }
+}

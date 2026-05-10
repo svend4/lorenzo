@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:3cc26c60db9bd77f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:08778b3b4b23b108",
+  "payload": {
+    "title": "Что отсутствует — Слой B",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (RU)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 401,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md"
+  }
+}

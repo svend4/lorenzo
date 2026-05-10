@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:3c1ce59e7b186ad6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:80ac28a33050928e",
+  "payload": {
+    "title": "8. Риски и меры противодействия",
+    "summary": "- [8. Риски и меры противодействия](#8-риски-и-меры-противодействия)",
+    "tags": [
+      "security",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 658,
+    "path": "docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md"
+  }
+}

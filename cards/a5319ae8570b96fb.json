@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:a5319ae8570b96fb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/164-10-appendices.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:e076ae57c4e44cfe",
+  "payload": {
+    "title": "Appendix: Position in Series Visualization",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1279,
+    "path": "docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md"
+  }
+}

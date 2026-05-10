@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:4b54baccae7c2328",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:fec7b72f7d47aab6",
+  "payload": {
+    "title": "2. Что делает агента Профессиональным Коллегой",
+    "summary": "> 🎯 **Проблема:** «Помощник» предполагает подчинённого помогающего, выполняющего задачи, делегированные руководителем.",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 943,
+    "path": "docs/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:ef04f137d537a9a8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/voice-stack.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:30404dc6e9b2a375",
+  "payload": {
+    "title": "Voice / local-first stack",
+    "summary": "> - **Авторы:** atatchin / askid / обзоры Handy / OpenWhispr",
+    "tags": [
+      "memory",
+      "ingestion",
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 152,
+    "path": "docs/svyazi-2-0/components/voice-stack.md"
+  }
+}

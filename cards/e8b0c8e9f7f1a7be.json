@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:e8b0c8e9f7f1a7be",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/238-7-области-применения.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/194-4-десять-областей-применения.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:c7df13ca699ef7d2",
+  "payload": {
+    "title": "8. Пилотное предложение: SGB Колega-Адвокат",
+    "summary": "> 🎯 **Проблема:** Требования к базе знаний Слой A для этого агента требует: Статутные знания: - Полный SGB IX (реабилитация, инвалидность) - Полный SGB XII (социальная помощь) - Соответствующий SGG",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 1101,
+    "path": "docs/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md"
+  }
+}

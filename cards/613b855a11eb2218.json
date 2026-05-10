@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:613b855a11eb2218",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:310c3b3e3d2416ce",
+  "payload": {
+    "title": "Пара 4 — Speech-to-text локально × LLM с памятью",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "local-first",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "NGT Memory",
+      "MemNet"
+    ],
+    "wc": 296,
+    "path": "docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md"
+  }
+}

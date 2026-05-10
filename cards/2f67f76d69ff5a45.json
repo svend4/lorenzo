@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:2f67f76d69ff5a45",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/TIMELINE.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/133-обратная-связь.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/TABLES.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/34-appendix-b-change-log.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/DECISIONS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/104-appendix-c-references.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:36828b93a2b04868",
+  "payload": {
+    "title": "ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL",
+    "summary": "> 🎯 **Проблема:** Это low barrier to entry : подключить существующий репо к Nautilus занимает 5 минут, не требует рефакторинга.",
+    "tags": [
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 3326,
+    "path": "docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:04ec3c8013719ce1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/05-habr-projects/01-synthesis.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:279004a8f473f067",
+  "payload": {
+    "title": "Синтез: как проекты собираются вместе",
+    "summary": "title: \"Синтез: как проекты собираются вместе\"",
+    "tags": [
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 262,
+    "path": "docs/obsidian/05-habr-projects/01-synthesis.md"
+  }
+}

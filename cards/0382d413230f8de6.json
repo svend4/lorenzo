@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:0382d413230f8de6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/09-acknowledgments.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:7f1449eac0dda502",
+  "payload": {
+    "title": "Acknowledgments",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 208,
+    "path": "docs/nautilus/double-triangle-architecture/09-acknowledgments.md"
+  }
+}

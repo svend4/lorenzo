@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:520ecbf7de5203ff",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/overview/methodology.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/overview/projects-map.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:a838abe123d64beb",
+  "payload": {
+    "title": "Методика и рамка отбора",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG"
+    ],
+    "wc": 268,
+    "path": "docs/svyazi-2-0/overview/methodology.md"
+  }
+}

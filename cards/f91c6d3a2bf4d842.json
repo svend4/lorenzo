@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:f91c6d3a2bf4d842",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/05-habr-projects/02-collaboration-partners.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:76f7fb9eed381b4b",
+  "payload": {
+    "title": "Авторы и контакты",
+    "summary": "> 🎯 **Проблема:** Авторы и контакты Статус Параметр Значение ------------------- Теги — Упоминаний в репо — Слой — Контакт — Статус связи не писали Обновлено: 2026-04-29 автора статьи выше подобных",
+    "tags": [
+      "knowledge",
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "Wikontic"
+    ],
+    "wc": 278,
+    "path": "docs/obsidian/05-habr-projects/02-collaboration-partners.md"
+  }
+}

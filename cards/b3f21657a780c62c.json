@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:b3f21657a780c62c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:6ec221e1194cf1cd",
+  "payload": {
+    "title": "Что промышленность вероятно построит",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 284,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md"
+  }
+}

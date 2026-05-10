@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:482938e5cb9ddb0d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/contacts/vitalyoborin.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:22ea70a63f7206a7",
+  "payload": {
+    "title": "Контакт: VitalyOborin / Yodoca",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "контакты",
+      "команда"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 256,
+    "path": "docs/obsidian/contacts/vitalyoborin.md"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:df32b5a9d849a1e7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/08-export.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:7752a7d350eb5540",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 8: Экспорт и интеграции",
+    "summary": "> > Куда отправить обработанную базу знаний: форматы, платформы, пайплайны.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca"
+    ],
+    "wc": 720,
+    "path": "docs/processing-guide/08-export.md"
+  }
+}

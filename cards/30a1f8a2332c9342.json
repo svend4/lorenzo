@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:30a1f8a2332c9342",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/PARAGRAPH_QUALITY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:a100f144d1ce5545",
+  "payload": {
+    "title": "Качество абзацев",
+    "summary": "_абзац: 853, Оборванный: 659, начала: 276, Дубль: 5_",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "agent-memory-mcp",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 11068,
+    "path": "docs/PARAGRAPH_QUALITY.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:b72b5c2b3ba32c75",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/okwf-concept/05-economic-model.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:8d81af91f9fe54e0",
+  "payload": {
+    "title": "5. Economic Model",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 578,
+    "path": "docs/nautilus/okwf-concept/05-economic-model.md"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:88e97dbd3e1f06d1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:b54fd2b7f9a654f5",
+  "payload": {
+    "title": "9. Integration with OKWF Infrastructure",
+    "summary": "> 🎯 **Проблема:** This plan is more realistic than the earlier proposal because it matches how skilled practitioners actually develop and what they actually need.",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 787,
+    "path": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md"
+  }
+}

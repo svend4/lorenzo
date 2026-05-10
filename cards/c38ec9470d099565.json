@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:c38ec9470d099565",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/autoresearch-sequential.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:4b8628109944a689",
+  "payload": {
+    "title": "AutoResearch + Sequential",
+    "summary": "> - **Авторы:** Андрей Карпаты / Виктория Дочкина",
+    "tags": [
+      "orchestration",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch"
+    ],
+    "wc": 140,
+    "path": "docs/svyazi-2-0/components/autoresearch-sequential.md"
+  }
+}

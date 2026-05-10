@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:9a56cef29b31d289",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/14-other-ai-relationships.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:35b6fac9290381f1",
+  "payload": {
+    "title": "Твоя relationship с другими AI",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 186,
+    "path": "docs/lorenzo-agent/14-other-ai-relationships.md"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:0f134a54a00eb8bd",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/45-passports-pro2-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/55-passports-meta-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/35-passports-info1-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/46-essence.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/27-15-glossary-of-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/39-angle-perspective.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:c04d295d13394aaa",
+  "payload": {
+    "title": "passports/pro2.md",
+    "summary": "> > **Семантический угол экосистемы svend4**",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 237,
+    "path": "docs/02-anthropic-vacancies/45-passports-pro2-md.md"
+  }
+}

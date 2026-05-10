@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:c5832da7a2c289ea",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/ONBOARDING.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:fa651e340c09004a",
+  "payload": {
+    "title": "Онбординг — Svyazi 2.0 / Lorenzo",
+    "summary": "_Руководство для новых участников проекта._",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Rufler",
+      "Yodoca",
+      "SENTINEL",
+      "Firecrawl"
+    ],
+    "wc": 460,
+    "path": "docs/ONBOARDING.md"
+  }
+}

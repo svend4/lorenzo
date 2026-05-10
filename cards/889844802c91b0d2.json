@@ -1,0 +1,95 @@
+{
+  "card_id": "sha256:889844802c91b0d2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/glossary/components-by-name.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/svyazi-2-0/components/agentfs.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/A-collaboration-os.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/ensembles/G-federated-local-graph.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/continuation/01-shared-memory-between-agents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/09-agent-orchestration-stack.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/technology-combinations/combinations/14-local-first-agent-development-environment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/components/agent-memory-mcp.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/architecture/memory-write-policy.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:5326712e4b8d6153",
+  "payload": {
+    "title": "Компоненты — алфавитный список с обратными ссылками",
+    "summary": "> Для каждого проекта / технологии / паттерна — все доки в монорепозитории, где он упоминается. Если компонент имеет собственную карточку, она указана первой.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 1114,
+    "path": "docs/glossary/components-by-name.md"
+  }
+}

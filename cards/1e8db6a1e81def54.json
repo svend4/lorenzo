@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:1e8db6a1e81def54",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/okwf-concept/04-proposed-infrastructure.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:2031a010f9151e89",
+  "payload": {
+    "title": "4. Proposed Infrastructure",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 969,
+    "path": "docs/nautilus/okwf-concept/04-proposed-infrastructure.md"
+  }
+}

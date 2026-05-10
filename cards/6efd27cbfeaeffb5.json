@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:6efd27cbfeaeffb5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:f0224902bed02a65",
+  "payload": {
+    "title": "Quarternary match — Developer Education Lead / Prompt Engineer, Claude Code",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — маппинг профиля svend4 на роли Anthropic.",
+    "tags": [
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 187,
+    "path": "docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md"
+  }
+}

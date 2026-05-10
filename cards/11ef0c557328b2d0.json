@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:11ef0c557328b2d0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/307-abstract.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/308-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/318-10-strategic-positioning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:a56ebde7d22d9b9c",
+  "payload": {
+    "title": "Abstract",
+    "summary": "- [Связанные документы](#связанные-документы)",
+    "tags": [
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 601,
+    "path": "docs/02-anthropic-vacancies/307-abstract.md"
+  }
+}

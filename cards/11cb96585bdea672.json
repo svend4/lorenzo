@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:11cb96585bdea672",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/07-2-terminology.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:35c3b12c46544e85",
+  "payload": {
+    "title": "2. Terminology",
+    "summary": "> 🎯 **Проблема:** Terminology Ecosystem — набор репозиториев, участвующих в одной федерации.",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 324,
+    "path": "docs/02-anthropic-vacancies/07-2-terminology.md"
+  }
+}

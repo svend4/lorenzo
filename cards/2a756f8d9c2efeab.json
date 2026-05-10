@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:2a756f8d9c2efeab",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/faq-entry.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/FAQ.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:83421521a21d1d1a",
+  "payload": {
+    "title": "FAQ: [Вопрос]",
+    "summary": "<!-- summary: Краткий ответ в 1 предложении -->",
+    "tags": [
+      "faq"
+    ],
+    "projects": [],
+    "wc": 132,
+    "path": "docs/templates/faq-entry.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:864b0b3cbc98d447",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:8d4c8e498a92bcb4",
+  "payload": {
+    "title": "THE DOUBLE-TRIANGLE ARCHITECTURE.md",
+    "summary": "title: \"THE DOUBLE-TRIANGLE ARCHITECTURE.md\"",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 296,
+    "path": "docs/obsidian/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md"
+  }
+}

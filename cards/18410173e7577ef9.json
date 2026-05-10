@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:18410173e7577ef9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:c08cd67897b4de95",
+  "payload": {
+    "title": "Приложение: Визуализация позиции в серии",
+    "summary": "> 🎯 **Проблема:** Если они уже это позволяют (нужно проверить), то 1-2 недели для создания template.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 7273,
+    "path": "docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md"
+  }
+}

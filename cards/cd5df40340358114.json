@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:cd5df40340358114",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/template-of-templates.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:56c7129690b6c798",
+  "payload": {
+    "title": "[имя нового шаблона]",
+    "summary": "new_template_name: \"[имя нового шаблона]\"",
+    "tags": [
+      "тег1",
+      "тег2"
+    ],
+    "projects": [],
+    "wc": 319,
+    "path": "docs/templates/template-of-templates.md"
+  }
+}

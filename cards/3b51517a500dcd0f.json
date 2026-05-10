@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:3b51517a500dcd0f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:1ed91cec20ab2b5d",
+  "payload": {
+    "title": "Комбинация 28: Pydantic-Enforced Legal Workflows",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude` (корень репозитория).",
+    "tags": [
+      "rag",
+      "orchestration",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 225,
+    "path": "docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:57d0bcc755735a50",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/318-10-strategic-positioning.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:fbd02f0224cf66c7",
+  "payload": {
+    "title": "10. Strategic Positioning",
+    "summary": "> 🎯 **Проблема:** InGit no longer needs to be standalone solution; it becomes substrate complementing existing agent infrastructure.",
+    "tags": [
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "MemNet"
+    ],
+    "wc": 774,
+    "path": "docs/02-anthropic-vacancies/318-10-strategic-positioning.md"
+  }
+}

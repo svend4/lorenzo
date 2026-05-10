@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:703377f78dbf6b85",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/components/memnet.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:f3596ee5753d6ad4",
+  "payload": {
+    "title": "MemNet / memory-is-all-you-need",
+    "summary": "> - **Источник:** Хабр + GitHub citeturn21view4turn17search0turn18search2",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "Rufler",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 117,
+    "path": "docs/svyazi-2-0/components/memnet.md"
+  }
+}

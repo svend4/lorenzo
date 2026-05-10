@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:a0fd6b9281fee6e6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:33294a81e1600738",
+  "payload": {
+    "title": "Пассивный vs активный: разделение ролей (библиотека vs research team)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ комбинирования пассивного Nautilus с активным CAMEL framework.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 176,
+    "path": "docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:fb981ab8d62ccf58",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CITATION_INDEX.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:2bc4a84f32464783",
+  "payload": {
+    "title": "Индекс цитирования URL",
+    "summary": "- [Наиболее цитируемые URL](#наиболее-цитируемые-url)",
+    "tags": [
+      "memory",
+      "knowledge",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "knowledge-space",
+      "Yodoca",
+      "MemNet"
+    ],
+    "wc": 915,
+    "path": "docs/obsidian/CITATION_INDEX.md"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:1bc97e528262da85",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:6da9d1435c7f11d3",
+  "payload": {
+    "title": "Что из этого сейчас кажется более ценным? Или какая-то своя комбинация?",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 139,
+    "path": "docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md"
+  }
+}

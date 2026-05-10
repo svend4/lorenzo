@@ -1,0 +1,33 @@
+{
+  "card_id": "sha256:39025dcfa198fd19",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/kpi-snapshot.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/KPI_HISTORY.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/HEALTH.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:de392456f170fc73",
+  "payload": {
+    "title": "KPI Snapshot: [дата]",
+    "summary": "<!-- summary: Снапшот ключевых метрик за период -->",
+    "tags": [
+      "kpi",
+      "метрики",
+      "снапшот"
+    ],
+    "projects": [],
+    "wc": 220,
+    "path": "docs/templates/kpi-snapshot.md"
+  }
+}

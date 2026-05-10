@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:3b4ea9c493ba13c6",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:639eb81ebb8a923a",
+  "payload": {
+    "title": "Плюсы как бизнеса",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — гипотеза MMORPG-формата для программистов / технарей как способ организовать distributed wo",
+    "tags": [
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 145,
+    "path": "docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md"
+  }
+}

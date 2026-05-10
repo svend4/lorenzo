@@ -1,0 +1,36 @@
+{
+  "card_id": "sha256:ac8201a2dfbb3a30",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/DECISIONS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:b14a4c814f90677a",
+  "payload": {
+    "title": "Ключевые решения и выводы",
+    "summary": "Автоматически извлечено из всех документов: **394 записей**",
+    "tags": [
+      "memory",
+      "rag",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch"
+    ],
+    "wc": 2493,
+    "path": "docs/obsidian/DECISIONS.md"
+  }
+}

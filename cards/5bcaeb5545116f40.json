@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:5bcaeb5545116f40",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/agent-spec.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:e5c6384b82f78e9d",
+  "payload": {
+    "title": "Спецификация агента: [Название]",
+    "summary": "<!-- summary: Что делает агент и в каком контексте -->",
+    "tags": [
+      "агент",
+      "спецификация"
+    ],
+    "projects": [],
+    "wc": 356,
+    "path": "docs/templates/agent-spec.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:c8f09f0872ad3e15",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:362af326f511d62c",
+  "payload": {
+    "title": "Пара 5 — TinyML/Edge AI × MCP + skills",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "orchestration",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 268,
+    "path": "docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md"
+  }
+}

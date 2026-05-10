@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:01b0bead4db60460",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:e91b7d822bb4c18e",
+  "payload": {
+    "title": "3. Registry (`nautilus.json`)",
+    "summary": "> 🎯 **Проблема:** Registry (nautilus.json)(3-registry-nautilusjson) - 3.1.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 416,
+    "path": "docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md"
+  }
+}

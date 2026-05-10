@@ -1,0 +1,42 @@
+{
+  "card_id": "sha256:831c463bcac87275",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/01-svyazi/08-conclusions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:e060c351dd5d1f16",
+  "payload": {
+    "title": "08 conclusions",
+    "summary": "> 🎯 **Проблема:** По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей, не придумывая половину архитектуры заново.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Yodoca",
+      "AutoResearch"
+    ],
+    "wc": 380,
+    "path": "docs/01-svyazi/08-conclusions.md"
+  }
+}

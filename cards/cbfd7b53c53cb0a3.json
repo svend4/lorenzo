@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:cbfd7b53c53cb0a3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/252-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/211-table-of-contents.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/223-12-closing.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:1c96f4fc78eb1b3c",
+  "payload": {
+    "title": "Appendix A: The Six-Type Taxonomy (Updated)",
+    "summary": "> 🎯 **Проблема:** Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Professional Colleague Agents v1.0 --- Appendix A: The Six-Type Taxonomy (Updated) This paper updates the Profess",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 492,
+    "path": "docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md"
+  }
+}

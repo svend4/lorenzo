@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:ab90a1ab2d742073",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/337-благодарности.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:79973c18e0ec3e07",
+  "payload": {
+    "title": "Благодарности",
+    "summary": "> 🎯 **Проблема:** Благодарности Этот документ возник из вопроса автора о том, --- Благодарности Этот документ возник из вопроса автора о том, как интегрировать InGit конкретно с вкладкой Cowork в Cl",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 382,
+    "path": "docs/02-anthropic-vacancies/337-благодарности.md"
+  }
+}

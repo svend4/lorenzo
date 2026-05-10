@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:03bf44a35038b05d",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/KPI_HISTORY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:253bbec7b1749242",
+  "payload": {
+    "title": "История метрик KPI",
+    "summary": "> _Последнее обновление: 2026-04-29 · Снапшотов в истории: 1_",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 113,
+    "path": "docs/obsidian/KPI_HISTORY.md"
+  }
+}

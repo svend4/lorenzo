@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:35d2b907ab8fca9c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/HEATMAP.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:4ba6ace683661ded",
+  "payload": {
+    "title": "Тепловая карта тем",
+    "summary": "- [Числовые значения (‰)](#числовые-значения)",
+    "tags": [
+      "rag",
+      "orchestration",
+      "security",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 577,
+    "path": "docs/obsidian/HEATMAP.md"
+  }
+}

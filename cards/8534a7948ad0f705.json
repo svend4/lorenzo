@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:8534a7948ad0f705",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/268-references.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:2fd33c77735a190e",
+  "payload": {
+    "title": "References",
+    "summary": "- [Foundational Sources for Composite Architecture](#foundational-sources-for-composite-architecture)",
+    "tags": [
+      "rag",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 405,
+    "path": "docs/02-anthropic-vacancies/268-references.md"
+  }
+}

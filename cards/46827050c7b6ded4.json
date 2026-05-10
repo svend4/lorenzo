@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:46827050c7b6ded4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:34da18cb3e001e9f",
+  "payload": {
+    "title": "Appendix B: Примеры расхождений и их разрешения",
+    "summary": "> 🎯 **Проблема:** Нужна проверка: Оказалось, Вариант A был корректен, B — устарел или ошибся.",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 372,
+    "path": "docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md"
+  }
+}

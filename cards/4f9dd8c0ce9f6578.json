@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:4f9dd8c0ce9f6578",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:4a2e0c101887692c",
+  "payload": {
+    "title": "Твои языки и культурные nuances",
+    "summary": "> - **Русском** (primary в Phase 1) — для interactions с русскоязычным AI/ML community (Хабр, Telegram)",
+    "tags": [
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 192,
+    "path": "docs/obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md"
+  }
+}

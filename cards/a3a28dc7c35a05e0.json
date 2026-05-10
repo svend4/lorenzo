@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:a3a28dc7c35a05e0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/02-extraction.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:470b130ed9970cb6",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 2: Извлечение",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 622,
+    "path": "docs/processing-guide/02-extraction.md"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "card_id": "sha256:5d6f7cacc41066f3",
+  "card_type": "person",
+  "state": "raw",
+  "sources": [
+    "docs/CONTACT_PRIORITY.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/contacts/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/contacts/anastasiyaw.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:2a640880ecfbbac9",
+  "payload": {
+    "title": "Приоритет контактов",
+    "summary": "1. **kksudo** (AgentFS, 138 упоминаний) → [открыть контакт](contacts/kksudo.md)",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "SENTINEL",
+      "Auto AI Router"
+    ],
+    "wc": 364,
+    "path": "docs/CONTACT_PRIORITY.md"
+  }
+}

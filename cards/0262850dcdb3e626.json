@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:0262850dcdb3e626",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/COMPLEXITY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:7af79350b7aedff0",
+  "payload": {
+    "title": "Оценка читаемости документов",
+    "summary": "- [Распределение сложности](#распределение-сложности)",
+    "tags": [
+      "memory",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 642,
+    "path": "docs/obsidian/COMPLEXITY.md"
+  }
+}

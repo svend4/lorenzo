@@ -1,0 +1,35 @@
+{
+  "card_id": "sha256:40a369016df1ed1f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SCHEDULE.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:e0fb0edd0aa9de63",
+  "payload": {
+    "title": "Расписание проекта",
+    "summary": "<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->",
+    "tags": [
+      "memory",
+      "security",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "Yodoca",
+      "SENTINEL",
+      "Tool Search"
+    ],
+    "wc": 374,
+    "path": "docs/obsidian/SCHEDULE.md"
+  }
+}

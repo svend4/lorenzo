@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:196dc6c9b4b7054e",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CONTENT_GAPS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:39a25b37a5fc2c7c",
+  "payload": {
+    "title": "Тематические пробелы (Content Gaps)",
+    "summary": "Найдено пробелов: **850** (мин. упоминаний: 3)",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 886,
+    "path": "docs/CONTENT_GAPS.md"
+  }
+}

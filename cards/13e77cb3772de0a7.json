@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:13e77cb3772de0a7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/08-q6-space.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:1863185e4e5ce18c",
+  "payload": {
+    "title": "8. Q6 Space (Normative)",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 415,
+    "path": "docs/nautilus/npp-v1-1/08-q6-space.md"
+  }
+}

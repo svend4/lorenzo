@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:d7dcdcbe8af6ac21",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/SEE_ALSO.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:39c6d1cec69f6f82",
+  "payload": {
+    "title": "Индекс «Смотрите также»",
+    "summary": "<!-- tags: rag, security, ingestion, local-first, architecture, roadmap, collaboration -->",
+    "tags": [
+      "rag",
+      "security",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 241,
+    "path": "docs/obsidian/SEE_ALSO.md"
+  }
+}

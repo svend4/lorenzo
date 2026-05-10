@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:d63e176995f23344",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/QA.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:6c3f390254c8d15e",
+  "payload": {
+    "title": "Q&A: obsidian",
+    "summary": "_Автоматически сгенерировано по 505 файлам раздела._",
+    "tags": [],
+    "projects": [
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "mclaude",
+      "AI Factory",
+      "Rufler",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "agent-memory-mcp",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 336,
+    "path": "docs/obsidian/QA.md"
+  }
+}

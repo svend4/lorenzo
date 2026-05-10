@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:d2d0741136feaa05",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:914471bedff813c1",
+  "payload": {
+    "title": "3. What InGit Provides That Cowork Lacks",
+    "summary": "title: \"3. What InGit Provides That Cowork Lacks\"",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 857,
+    "path": "docs/obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:341ad1afc4e51eff",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:3f2085712440a3b0",
+  "payload": {
+    "title": "Ансамбль 2 — «AutoResearch для legal precedent mining»",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "AutoResearch"
+    ],
+    "wc": 189,
+    "path": "docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md"
+  }
+}

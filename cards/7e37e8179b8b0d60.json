@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:7e37e8179b8b0d60",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/204-ссылки.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:94c07844d1bf7eae",
+  "payload": {
+    "title": "Ссылки",
+    "summary": "> 🎯 **Проблема:** Ссылки Contents - Ссылки(ссылки) - Основополагающие Источники(основополагающие-источники) - Теория Принципал-Агент(теория-принципал-агент) - Инвалидность и Доступ(инвалидность-и-до",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 321,
+    "path": "docs/02-anthropic-vacancies/204-ссылки.md"
+  }
+}

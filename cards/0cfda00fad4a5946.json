@@ -1,0 +1,77 @@
+{
+  "card_id": "sha256:0cfda00fad4a5946",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/reading-paths.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/lorenzo-agent/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/01-kto-ty.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/03-tvoya-missiya.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/04-komu-ty-sluzhish.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/specification/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/phased-deployment/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/lorenzo-agent/operationalized/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/overview/executive-summary.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/svyazi-2-0/overview/projects-map.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:a99533b01dd80a00",
+  "payload": {
+    "title": "Reading paths — рекомендуемые маршруты по монорепозиторию",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "orchestration",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "Yodoca",
+      "NGT Memory",
+      "MemNet",
+      "Wikontic"
+    ],
+    "wc": 627,
+    "path": "docs/reading-paths.md"
+  }
+}

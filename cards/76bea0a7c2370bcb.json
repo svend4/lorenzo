@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:76bea0a7c2370bcb",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/67-о-проекте.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/68-about.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/07-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/77-2-terminology.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/76-1-introduction.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/06-1-introduction.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:a863159e9884b5b5",
+  "payload": {
+    "title": "🇷🇺 О проекте",
+    "summary": "> 🎯 **Проблема:** Документация - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal specification v1.0 (15 страниц) - passports/(./passports/) — описания репо экосистемы для людей - info1(./passports",
+    "tags": [
+      "rag",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "MemNet"
+    ],
+    "wc": 1008,
+    "path": "docs/02-anthropic-vacancies/67-о-проекте.md"
+  }
+}

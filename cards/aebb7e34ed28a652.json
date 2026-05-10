@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:aebb7e34ed28a652",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/144-7-open-questions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:69f91a78524a7334",
+  "payload": {
+    "title": "7. Open Questions",
+    "summary": "> 🎯 **Проблема:** Open Questions !TIP Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "roadmap"
+    ],
+    "projects": [],
+    "wc": 950,
+    "path": "docs/obsidian/02-anthropic-vacancies/144-7-open-questions.md"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "card_id": "sha256:16a16a0289364c39",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/202-12-заключение.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/102-доступ-к-данным.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/190-содержание.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:40918b89e58f89a0",
+  "payload": {
+    "title": "12. Заключение",
+    "summary": "> Синдром Золушки — качество без видимости — не нов. Он формировал человеческий труд и признание задолго до компьютеров. Что нового — мы наконец имеем технологию, способную обеспечить представительство",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 246,
+    "path": "docs/02-anthropic-vacancies/202-12-заключение.md"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "card_id": "sha256:aac276d5d838d81c",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/prototype/roadmap.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:3373c8aa6e15c8af",
+  "payload": {
+    "title": "Дорожная карта прототипа",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "orchestration",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "roadmap",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "mclaude",
+      "AI Factory",
+      "Yodoca",
+      "NGT Memory"
+    ],
+    "wc": 609,
+    "path": "docs/svyazi-2-0/prototype/roadmap.md"
+  }
+}

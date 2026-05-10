@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:5a881a5cac7c3be4",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/B-forensic-rag.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:1f78b84954581fad",
+  "payload": {
+    "title": "Ансамбль B — Forensic RAG для доказуемого matching и review",
+    "summary": "> > Источник: `deep-research-report (1).md`.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [
+      "Svyazi",
+      "LiteParse",
+      "Legal RAG",
+      "Hybrid RAG",
+      "Graph RAG"
+    ],
+    "wc": 252,
+    "path": "docs/svyazi-2-0/ensembles/B-forensic-rag.md"
+  }
+}

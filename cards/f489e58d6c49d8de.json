@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:f489e58d6c49d8de",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CONSISTENCY.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:714638826ae23470",
+  "payload": {
+    "title": "Согласованность терминов",
+    "summary": "Анализ различных написаний одних и тех же терминов.",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "knowledge-space",
+      "AI Factory",
+      "LiteParse",
+      "NGT Memory",
+      "Auto AI Router"
+    ],
+    "wc": 495,
+    "path": "docs/CONSISTENCY.md"
+  }
+}

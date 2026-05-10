@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:88c47b023cc655ca",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/46-essence.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:eecb20147c8365f2",
+  "payload": {
+    "title": "Essence",
+    "summary": "> `pro2` — **семантическое ядро** экосистемы svend4. Здесь живут",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 149,
+    "path": "docs/02-anthropic-vacancies/46-essence.md"
+  }
+}

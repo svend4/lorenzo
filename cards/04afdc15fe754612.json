@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:04afdc15fe754612",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/TAGS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:ce7f156bc649b949",
+  "payload": {
+    "title": "Индекс тегов",
+    "summary": "Каждый файл помечен тегами по темам автоматически.",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 610,
+    "path": "docs/obsidian/TAGS.md"
+  }
+}

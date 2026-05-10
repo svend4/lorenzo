@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:5e15fdd605cac241",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/285-closing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:58a96e324ec65463",
+  "payload": {
+    "title": "Closing",
+    "summary": "> 🎯 **Проблема:** That vision rests on infrastructure that partially exists and partially needs building.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 437,
+    "path": "docs/obsidian/02-anthropic-vacancies/285-closing.md"
+  }
+}

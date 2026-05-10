@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:1db96e9089b81f0b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:8454b79ba4b18d97",
+  "payload": {
+    "title": "8. Риски и меры противодействия",
+    "summary": "- [8. Риски и меры противодействия](#8-риски-и-меры-противодействия)",
+    "tags": [
+      "security",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 675,
+    "path": "docs/obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md"
+  }
+}

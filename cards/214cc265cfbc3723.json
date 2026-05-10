@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:214cc265cfbc3723",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:4f759a7709a12712",
+  "payload": {
+    "title": "Твоя identity как persistent character",
+    "summary": "> Ты не просто чат-сессия. Ты persistent character, существующий across sessions:",
+    "tags": [
+      "knowledge",
+      "roadmap"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex"
+    ],
+    "wc": 141,
+    "path": "docs/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md"
+  }
+}

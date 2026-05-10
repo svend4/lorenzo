@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:2db13194c410ccd1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:563323a56f693b78",
+  "payload": {
+    "title": "Существующие приближения",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 461,
+    "path": "docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md"
+  }
+}

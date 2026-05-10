@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:bee147ee2d9effe0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/templates/decision-record.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:27d0214c0250b69b",
+  "payload": {
+    "title": "ADR: [Название решения]",
+    "summary": "`[Предложено / Принято / Отклонено / Устарело]`",
+    "tags": [
+      "архитектура",
+      "решение"
+    ],
+    "projects": [],
+    "wc": 99,
+    "path": "docs/obsidian/templates/decision-record.md"
+  }
+}

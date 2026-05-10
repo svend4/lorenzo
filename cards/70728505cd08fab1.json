@@ -1,0 +1,50 @@
+{
+  "card_id": "sha256:70728505cd08fab1",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/279-existing-approximations.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/218-7-application-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:f27d61ba51db815b",
+  "payload": {
+    "title": "The Specific Case in Front of Us",
+    "summary": "> 🎯 **Проблема:** Future Claude sessions about specific aspects of this work need specific context — not the whole 50,000 words.",
+    "tags": [
+      "rag",
+      "anthropic"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 904,
+    "path": "docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md"
+  }
+}

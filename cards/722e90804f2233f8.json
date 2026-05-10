@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:722e90804f2233f8",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/methodology.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/anthropic-vacancies/signals.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:7e20e38ad5f62878",
+  "payload": {
+    "title": "Методика разбивки",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория).",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 134,
+    "path": "docs/anthropic-vacancies/methodology.md"
+  }
+}

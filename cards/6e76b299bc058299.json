@@ -1,0 +1,35 @@
+{
+  "card_id": "sha256:6e76b299bc058299",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/processing-guide/05-analysis.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:cc1065859e9dc2fe",
+  "payload": {
+    "title": "Обработка больших массивов — Часть 5: Анализ и NLP",
+    "summary": "> > Что можно узнать о массиве документов без использования LLM.",
+    "tags": [
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "SENTINEL"
+    ],
+    "wc": 882,
+    "path": "docs/processing-guide/05-analysis.md"
+  }
+}

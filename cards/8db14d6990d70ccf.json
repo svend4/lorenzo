@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:8db14d6990d70ccf",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/296-рекурсивное-прозрение.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:6e3fd55dd5dcd993",
+  "payload": {
+    "title": "Рекурсивное прозрение",
+    "summary": "> 🎯 **Проблема:** Рекурсивное прозрение Есть нечто тонкое во всём этом, что заслуживает --- Рекурсивное прозрение Есть нечто тонкое во всём этом, что заслуживает явного внимания.",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 433,
+    "path": "docs/obsidian/02-anthropic-vacancies/296-рекурсивное-прозрение.md"
+  }
+}

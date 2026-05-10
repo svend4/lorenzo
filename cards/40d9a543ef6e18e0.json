@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:40d9a543ef6e18e0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/162-8-risk-analysis.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:034244c8e656370f",
+  "payload": {
+    "title": "8. Risk Analysis",
+    "summary": "> 🎯 **Проблема:** Comprehensive Risk Assessment On balance, OKWF faces typical challenges of a new foundation with novel scope.",
+    "tags": [
+      "rag",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 756,
+    "path": "docs/obsidian/02-anthropic-vacancies/162-8-risk-analysis.md"
+  }
+}

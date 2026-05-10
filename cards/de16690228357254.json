@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:de16690228357254",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/03-portal-protocol-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/52-author-contact.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:ccdaa47c6e612cf9",
+  "payload": {
+    "title": "AI-Coordinated Infrastructure for Distributed Expert Contribution",
+    "summary": "> **Editorial collaboration:** Claude (intellectual development, 2026-04)",
+    "tags": [
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 268,
+    "path": "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md"
+  }
+}

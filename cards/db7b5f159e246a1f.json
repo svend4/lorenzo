@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:db7b5f159e246a1f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:9be317bd82fd318e",
+  "payload": {
+    "title": "Различие 2: Domain-specific specialization",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — сравнение собственной архитектуры (InGit + Cowork + Nautilus) с Hermes Agent от Nous Resear",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 179,
+    "path": "docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md"
+  }
+}

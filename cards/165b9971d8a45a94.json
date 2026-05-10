@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:165b9971d8a45a94",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/189-аннотация.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:a38ebc2a874aa218",
+  "payload": {
+    "title": "Аннотация",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 367,
+    "path": "docs/obsidian/02-anthropic-vacancies/189-аннотация.md"
+  }
+}

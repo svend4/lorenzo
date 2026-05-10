@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:c9d2363a72d42de2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:6506f135d742cb29",
+  "payload": {
+    "title": "19. ADR-001: Federation over Merging",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.1 RFC, написанный совместно с Claude.",
+    "tags": [
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 234,
+    "path": "docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:56fbaa44b86b2aac",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-0/12-versioning-policy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:a5ff3ab435412c1e",
+  "payload": {
+    "title": "12. Versioning Policy",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Nautilus Portal Protocol v1.0.0-draft RFC (более ранняя версия v1.1).",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 173,
+    "path": "docs/nautilus/npp-v1-0/12-versioning-policy.md"
+  }
+}

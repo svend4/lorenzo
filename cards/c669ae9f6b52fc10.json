@@ -1,0 +1,34 @@
+{
+  "card_id": "sha256:c669ae9f6b52fc10",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:e48080cd94d35667",
+  "payload": {
+    "title": "Ансамбль F — Evidence‑Backed Community Intake",
+    "summary": "> > Источник: `deep-research-report (3).md` (ансамбли «второго порядка»).",
+    "tags": [
+      "memory",
+      "rag",
+      "knowledge",
+      "ingestion",
+      "local-first",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "LiteParse",
+      "Hybrid RAG",
+      "Yodoca"
+    ],
+    "wc": 262,
+    "path": "docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md"
+  }
+}

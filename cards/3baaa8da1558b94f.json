@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:3baaa8da1558b94f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:c31b5396496119b4",
+  "payload": {
+    "title": "Приложение B: Сравнительная Матрица",
+    "summary": "контролем, бесплатная подложка плюс подписка",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 211,
+    "path": "docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md"
+  }
+}

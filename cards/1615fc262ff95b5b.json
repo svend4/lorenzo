@@ -1,0 +1,43 @@
+{
+  "card_id": "sha256:1615fc262ff95b5b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/autofilled/research-summary.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/templates/contact-outreach.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/project-component.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/AUTOFILLED.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/templates/README.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:1432ed2a3c9c2cc0",
+  "payload": {
+    "title": "[Тема исследования]",
+    "summary": "> - [Ключевые находки](#ключевые-находки)",
+    "tags": [
+      "исследование"
+    ],
+    "projects": [],
+    "wc": 149,
+    "path": "docs/autofilled/research-summary.md"
+  }
+}

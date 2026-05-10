@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:81cf95d5c07b3b76",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/VALIDATION.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:6b1a7be4af634ff5",
+  "payload": {
+    "title": "Валидация структуры репозитория",
+    "summary": "**Ошибок:** 0  **Предупреждений:** 49  **Пройдено:** 27",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 619,
+    "path": "docs/VALIDATION.md"
+  }
+}

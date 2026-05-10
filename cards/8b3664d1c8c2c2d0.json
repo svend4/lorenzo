@@ -1,0 +1,63 @@
+{
+  "card_id": "sha256:8b3664d1c8c2c2d0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/102-доступ-к-данным.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/202-12-заключение.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/16-history.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/120-главные-технические-риски.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:b5c5498159e4a923",
+  "payload": {
+    "title": "Доступ к данным",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 256,
+    "path": "docs/02-anthropic-vacancies/102-доступ-к-данным.md"
+  }
+}

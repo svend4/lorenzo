@@ -1,0 +1,62 @@
+{
+  "card_id": "sha256:4a6ac36b71aaade2",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/autofilled/components/svend4.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/autofilled/README.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/cowork.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/ingit.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/kksudo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/lorenzo.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/nautilus.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/sgb.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/spbmolot.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/autofilled/components/svyazi.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:edd73f1618eacb55",
+  "payload": {
+    "title": "svend4",
+    "summary": "- [Автозаполненные шаблоны](../../AUTOFILLED.md)",
+    "tags": [
+      "ingestion",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 156,
+    "path": "docs/autofilled/components/svend4.md"
+  }
+}

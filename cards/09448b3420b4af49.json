@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:09448b3420b4af49",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:f248e0572f2b904d",
+  "payload": {
+    "title": "Вопрос: два Наутилуса в репозиториях svend4 (pro2 vs nautilus)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — анализ двух собственных проектов «Наутилус» в репозиториях svend4: pro2 (YiJing-Transformer",
+    "tags": [
+      "orchestration",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 436,
+    "path": "docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md"
+  }
+}

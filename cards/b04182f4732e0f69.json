@@ -1,0 +1,28 @@
+{
+  "card_id": "sha256:b04182f4732e0f69",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/architecture/memory-write-policy.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:77d055a73081b9df",
+  "payload": {
+    "title": "Memory Write Policy",
+    "summary": "> > Источник: `deep-research-report (3).md`, раздел «Интеграционный контракт».",
+    "tags": [
+      "memory",
+      "architecture"
+    ],
+    "projects": [
+      "Svyazi",
+      "Yodoca",
+      "NGT Memory",
+      "agent-memory-mcp"
+    ],
+    "wc": 186,
+    "path": "docs/svyazi-2-0/architecture/memory-write-policy.md"
+  }
+}

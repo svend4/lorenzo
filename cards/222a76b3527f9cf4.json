@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:222a76b3527f9cf4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:f730737a986e0dee",
+  "payload": {
+    "title": "4. Architecture of Professional Colleague Agents",
+    "summary": "title: \"4. Architecture of Professional Colleague Agents\"",
+    "tags": [
+      "rag",
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 1114,
+    "path": "docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md"
+  }
+}

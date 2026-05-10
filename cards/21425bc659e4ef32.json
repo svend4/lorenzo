@@ -1,0 +1,48 @@
+{
+  "card_id": "sha256:21425bc659e4ef32",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:007e1937dc65a4ff",
+  "payload": {
+    "title": "A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers",
+    "summary": "<!-- tags: architecture, collaboration -->",
+    "tags": [
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 374,
+    "path": "docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md"
+  }
+}

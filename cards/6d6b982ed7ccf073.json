@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:6d6b982ed7ccf073",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/review-methodology/02-formal-workflow.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:de0bb2029d3a6389",
+  "payload": {
+    "title": "2. Формальный workflow",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "memory",
+      "architecture",
+      "roadmap",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 407,
+    "path": "docs/nautilus/review-methodology/02-formal-workflow.md"
+  }
+}

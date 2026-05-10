@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:edb749b2db4f1c68",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:472ac8d42dcde043",
+  "payload": {
+    "title": "Что не существует на рынке:",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — применение NPP к гуманитарным документам (юридические, социальные).",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 165,
+    "path": "docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md"
+  }
+}

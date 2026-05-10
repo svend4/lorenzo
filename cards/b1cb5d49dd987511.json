@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:b1cb5d49dd987511",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/representative-agent-layer-en/12-closing.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:c28eddda33452659",
+  "payload": {
+    "title": "12. Closing",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 2676,
+    "path": "docs/nautilus/representative-agent-layer-en/12-closing.md"
+  }
+}

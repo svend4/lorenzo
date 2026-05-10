@@ -1,0 +1,26 @@
+{
+  "card_id": "sha256:79c41538732c011f",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:4e3f4fdfb856b60f",
+  "payload": {
+    "title": "4. Nautilus Portal as Reference Substrate",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «The Double-Triangle Architecture for Human-AI Collaboration».",
+    "tags": [
+      "rag",
+      "knowledge",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 631,
+    "path": "docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md"
+  }
+}

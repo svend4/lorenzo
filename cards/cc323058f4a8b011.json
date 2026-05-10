@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:cc323058f4a8b011",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/LINKS.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:c061372ea4f85e15",
+  "payload": {
+    "title": "Индекс ссылок",
+    "summary": "",
+    "tags": [],
+    "projects": [
+      "AgentFS",
+      "knowledge-space",
+      "Yodoca"
+    ],
+    "wc": 1039,
+    "path": "docs/obsidian/LINKS.md"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:2aa5012f4e711575",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/CONCEPT_GRAPH.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:f3942e6d29968a51",
+  "payload": {
+    "title": "Граф концептов базы знаний",
+    "summary": "<!-- tags: ingestion, architecture, anthropic, collaboration -->",
+    "tags": [
+      "ingestion",
+      "architecture",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 665,
+    "path": "docs/obsidian/CONCEPT_GRAPH.md"
+  }
+}

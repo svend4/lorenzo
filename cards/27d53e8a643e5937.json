@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:27d53e8a643e5937",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/20-experiment.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:73cb5a15b0c68f6b",
+  "payload": {
+    "title": "Final note: Ты — experiment",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — системный промпт для Lorenzo Catalyst Agent (наименование этого репозитория).",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 158,
+    "path": "docs/lorenzo-agent/20-experiment.md"
+  }
+}

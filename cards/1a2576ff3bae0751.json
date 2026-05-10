@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:1a2576ff3bae0751",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:87a06843388c2c29",
+  "payload": {
+    "title": "Ансамбль 8 — Budget-Aware Intelligence Stack",
+    "summary": "> > Источник: MHTML‑снимок `Поиск коллабораций AI проектов` (корень репозитория).",
+    "tags": [
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "Tool Search"
+    ],
+    "wc": 277,
+    "path": "docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md"
+  }
+}

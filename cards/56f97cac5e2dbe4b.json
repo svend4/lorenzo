@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:56f97cac5e2dbe4b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/naming/00-question-lorenzo-codename.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:a2aef9517cb67367",
+  "payload": {
+    "title": "Du hast gesagt: Думаю про опцию д поискать в том числе на про что-то подобное на…",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — выбор имени Lorenzo как codename для Catalyst Agent (Lorenzo Medici, DHLab umbrella).",
+    "tags": [
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 238,
+    "path": "docs/lorenzo-agent/naming/00-question-lorenzo-codename.md"
+  }
+}

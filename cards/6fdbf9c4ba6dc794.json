@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:6fdbf9c4ba6dc794",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:6f05817a249b509b",
+  "payload": {
+    "title": "Синтез: хеббовский граф людей-навыков-идей",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 264,
+    "path": "docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md"
+  }
+}

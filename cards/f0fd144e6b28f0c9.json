@@ -1,0 +1,24 @@
+{
+  "card_id": "sha256:f0fd144e6b28f0c9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:24+00:00",
+  "updated_at": "2026-05-10T14:57:24+00:00",
+  "payload_hash": "sha256:06272e55f933a3ba",
+  "payload": {
+    "title": "Вопрос: fallback-ratio как критический или осмысленный?",
+    "summary": "> 🎯 **Проблема:** Два независимых анализа пришли к разным выводам: - Позиция A: 88% fallback критично, требует срочных живых адаптеров для info1/pro2/meta/data2 - Позиция B: 88% fallback — осмысленн",
+    "tags": [
+      "memory",
+      "rag",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 338,
+    "path": "docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md"
+  }
+}

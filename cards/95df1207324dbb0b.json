@@ -1,0 +1,53 @@
+{
+  "card_id": "sha256:95df1207324dbb0b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/150-appendix-c-version-history.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/165-closing.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/CONCEPTS.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:08477d3f9e83e6c4",
+  "payload": {
+    "title": "Appendix C: Version History",
+    "summary": "> 🎯 **Проблема:** Вы точно заметили паттерн: корм для животного в приюте не решает проблему приюта, потому что животное снова становится голодным.",
+    "tags": [
+      "rag",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [],
+    "wc": 8608,
+    "path": "docs/02-anthropic-vacancies/150-appendix-c-version-history.md"
+  }
+}

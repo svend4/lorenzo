@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:870697d0d799b6b5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:1d26d9fa5686f890",
+  "payload": {
+    "title": "4. Passport (`passport.md`)",
+    "summary": "- [4. Passport (passport.md)](#4-passport-passportmd)",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 311,
+    "path": "docs/obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:36ab9f15dab4c522",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/templates/prototype-mvp.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:7db15f4f09d99168",
+  "payload": {
+    "title": "MVP: [Название]",
+    "summary": "<!-- summary: Что прототипируем и какая метрика успеха -->",
+    "tags": [
+      "mvp",
+      "прототип"
+    ],
+    "projects": [],
+    "wc": 384,
+    "path": "docs/templates/prototype-mvp.md"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:4a2a3e894998cc82",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:a45b9d354082af1c",
+  "payload": {
+    "title": "Memory Firewall против prompt worms (ансамбль I)",
+    "summary": "> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.",
+    "tags": [
+      "memory",
+      "rag",
+      "security",
+      "ingestion",
+      "architecture",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "SENTINEL"
+    ],
+    "wc": 266,
+    "path": "docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md"
+  }
+}

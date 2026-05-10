@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:c9b69a536f7306e5",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/technology-combinations/mega-stacks/03-dsl-ast.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:abd8e337acb276e2",
+  "payload": {
+    "title": "Mega‑Stack 3.0 — with DSL & AST",
+    "summary": "> > Источник: MHTML‑снимок `Комбинирование технологий для новых свойств - Claude`, секция «КОМБИНАЦИЯ 30: MEGA‑STACK 3.0 with DSL & AST».",
+    "tags": [
+      "rag",
+      "local-first",
+      "architecture",
+      "self-improvement"
+    ],
+    "projects": [
+      "Hybrid RAG"
+    ],
+    "wc": 242,
+    "path": "docs/technology-combinations/mega-stacks/03-dsl-ast.md"
+  }
+}

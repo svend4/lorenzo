@@ -1,0 +1,39 @@
+{
+  "card_id": "sha256:b1ed61762d390ea9",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/svyazi-2-0/prototype/mvp-plan.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:30+00:00",
+  "updated_at": "2026-05-10T14:57:30+00:00",
+  "payload_hash": "sha256:8596fe476a44fca5",
+  "payload": {
+    "title": "План MVP-прототипа",
+    "summary": "> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.",
+    "tags": [
+      "memory",
+      "rag",
+      "security",
+      "knowledge",
+      "ingestion",
+      "roadmap",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "LiteParse",
+      "Yodoca",
+      "NGT Memory",
+      "SENTINEL",
+      "LiteLLM",
+      "Auto AI Router",
+      "Tool Search"
+    ],
+    "wc": 312,
+    "path": "docs/svyazi-2-0/prototype/mvp-plan.md"
+  }
+}

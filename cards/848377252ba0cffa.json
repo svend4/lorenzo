@@ -1,0 +1,56 @@
+{
+  "card_id": "sha256:848377252ba0cffa",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/166-representative-agent-layer-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/13-angle-perspective.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/12-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/31-content-overview.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/364-final-note-ты-experiment.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:4bdd6e5bfc65f38b",
+  "payload": {
+    "title": "СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT",
+    "summary": "> - [249-composite-skills-agent-md](249-composite-skills-agent-md.md) (сходство 0.20)",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 286,
+    "path": "docs/02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md"
+  }
+}

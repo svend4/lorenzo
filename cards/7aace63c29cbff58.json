@@ -1,0 +1,27 @@
+{
+  "card_id": "sha256:7aace63c29cbff58",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:1ddc56d4e80f6f3e",
+  "payload": {
+    "title": "Уровень 1 — Минимальный (Lorenzo Zero)",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценному network).",
+    "tags": [
+      "knowledge",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "CardIndex"
+    ],
+    "wc": 241,
+    "path": "docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md"
+  }
+}

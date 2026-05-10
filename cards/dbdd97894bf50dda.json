@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:dbdd97894bf50dda",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/CONCEPT_GRAPH.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:8a15291ce10ae64c",
+  "payload": {
+    "title": "Граф концептов базы знаний",
+    "summary": "Концептов: **40** | Связей: **779** (мин. вес: 2)",
+    "tags": [],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 646,
+    "path": "docs/CONCEPT_GRAPH.md"
+  }
+}

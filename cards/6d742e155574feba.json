@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:6d742e155574feba",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:9377dbfcd85972cb",
+  "payload": {
+    "title": "3. What Makes a Representative Agent",
+    "summary": "title: \"3. What Makes a Representative Agent\"",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 895,
+    "path": "docs/obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md"
+  }
+}

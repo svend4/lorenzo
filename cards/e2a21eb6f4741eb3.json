@@ -1,0 +1,25 @@
+{
+  "card_id": "sha256:e2a21eb6f4741eb3",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/composite-skills-agents/04-sub-agent-registry.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:adccff47d311e5f1",
+  "payload": {
+    "title": "4. The Sub-Agent Registry",
+    "summary": "> Документ содержит практические рекомендации и лучшие практики.",
+    "tags": [
+      "ingestion",
+      "roadmap",
+      "anthropic",
+      "self-improvement"
+    ],
+    "projects": [],
+    "wc": 750,
+    "path": "docs/nautilus/composite-skills-agents/04-sub-agent-registry.md"
+  }
+}

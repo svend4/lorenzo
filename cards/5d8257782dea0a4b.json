@@ -1,0 +1,30 @@
+{
+  "card_id": "sha256:5d8257782dea0a4b",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/NAMED_ENTITIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:26+00:00",
+  "updated_at": "2026-05-10T14:57:26+00:00",
+  "payload_hash": "sha256:92b37b40ac4dc089",
+  "payload": {
+    "title": "Индекс именованных сущностей",
+    "summary": "Всего сущностей: **243** (мин. 2 упоминаний)",
+    "tags": [],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "AgentFS",
+      "knowledge-space",
+      "LiteParse",
+      "Yodoca",
+      "MemNet",
+      "AutoResearch",
+      "Wikontic"
+    ],
+    "wc": 1508,
+    "path": "docs/NAMED_ENTITIES.md"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:97dbdb935776f310",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:c9d7d8cf58867197",
+  "payload": {
+    "title": "Practical Recommendations for the Current Project",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — paper «Infrastructure for AI-Collaborative Intellectual Work (EN)».",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 326,
+    "path": "docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md"
+  }
+}

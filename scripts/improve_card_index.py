@@ -5,7 +5,7 @@ improve_card_index.py — CLI для управления CardEnvelope-карт�
 Каждый .md файл → одна CardEnvelope с типом, состоянием, payload и рёбрами.
 
 Команды:
-  --build [--section РАЗДЕЛ]   построить/обновить индекс из docs/
+  --build [--section РАЗДЕЛ] [--incremental]  построить/обновить индекс
   --stats                      статистика: сколько карточек, по типам/статусам
   --search "запрос"            поиск по карточкам
   --get <card_id>              показать одну карточку
@@ -15,9 +15,14 @@ improve_card_index.py — CLI для управления CardEnvelope-карт�
   --export [--fmt json|md|csv] экспортировать все карточки
   --dry-run                    показать план без изменений
 
+Флаги:
+  --incremental  пропустить файлы, не изменившиеся с последней сборки
+  --verbose      подробный вывод (для --build)
+
 Запуск:
     python scripts/improve_card_index.py --build --dry-run
     python scripts/improve_card_index.py --build
+    python scripts/improve_card_index.py --build --incremental
     python scripts/improve_card_index.py --stats
     python scripts/improve_card_index.py --search "Yodoca память"
     python scripts/improve_card_index.py --export --fmt csv
@@ -26,6 +31,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 ROOT    = Path(__file__).parent.parent
@@ -67,7 +73,14 @@ def _extract_internal_links(text: str, base: Path) -> list[str]:
 # Команды
 # ─────────────────────────────────────────────────────────────────────
 
-def cmd_build(section: str = "", dry_run: bool = False) -> None:
+def _file_mtime_iso(path: Path) -> str:
+    """Возвращает mtime файла в ISO-8601 формате."""
+    import os
+    return datetime.utcfromtimestamp(os.path.getmtime(path)).strftime("%Y-%m-%dT%H:%M:%S+00:00")
+
+
+def cmd_build(section: str = "", dry_run: bool = False,
+              incremental: bool = False, verbose: bool = False) -> None:
     store = CardStore(CARDS)
 
     root = DOCS / section if section else DOCS
@@ -75,13 +88,30 @@ def cmd_build(section: str = "", dry_run: bool = False) -> None:
                 if f.name not in SKIP_FILES and not any(
                     p.name.startswith(".") for p in f.parents)]
 
+    # Инкрементальный режим: загружаем существующие карточки для сравнения
+    existing: dict[str, str] = {}  # card_id → updated_at
+    if incremental and not dry_run:
+        for card in store.all():
+            existing[card.card_id] = card.updated_at
+
+    mode_label = "[dry-run]" if dry_run else ("Директория: " + str(CARDS.relative_to(ROOT)))
+    if incremental:
+        mode_label += " [incremental]"
+
     print(f"\n{'='*60}")
     print(f"  Построение CardStore из {len(md_files)} файлов")
-    print(f"  {'[dry-run]' if dry_run else 'Директория: ' + str(CARDS.relative_to(ROOT))}")
+    print(f"  {mode_label}")
     print(f"{'='*60}\n")
 
-    built = skipped = linked = 0
+    built = skipped = linked = unchanged = 0
     for path in md_files:
+        try:
+            text = path.read_text(encoding="utf-8")
+        except OSError as e:
+            print(f"  ⚠ {path.name}: {e}")
+            skipped += 1
+            continue
+
         try:
             card = CardEnvelope.from_file(path, root=ROOT)
         except Exception as e:
@@ -89,11 +119,20 @@ def cmd_build(section: str = "", dry_run: bool = False) -> None:
             skipped += 1
             continue
 
+        # Инкрементальная проверка: пропустить, если файл не изменился
+        if incremental and card.card_id in existing:
+            file_mtime = _file_mtime_iso(path)
+            card_ts    = existing[card.card_id]
+            if file_mtime <= card_ts:
+                unchanged += 1
+                if verbose:
+                    print(f"  ⏩ {path.name} (без изменений)")
+                continue
+
         # Добавляем рёбра из внутренних ссылок
         try:
-            text  = path.read_text(encoding="utf-8")
             links = _extract_internal_links(text, path)
-            for link in links[:10]:  # не более 10 рёбер из ссылок
+            for link in links[:10]:
                 card.add_edge(link, rel="references")
                 linked += 1
         except Exception:
@@ -104,9 +143,13 @@ def cmd_build(section: str = "", dry_run: bool = False) -> None:
             print(f"  {card.card_type:10} {card.card_id[:18]}  {title}")
         else:
             store.put(card)
+            if verbose:
+                title = card.payload.get("title", path.name)[:40]
+                print(f"  ✅ {card.card_type:8} {title}")
         built += 1
 
-    print(f"\n  {'[dry-run] ' if dry_run else ''}Карточек: {built}, рёбер: {linked}, ошибок: {skipped}")
+    inc_note = f", пропущено (без изм.): {unchanged}" if incremental else ""
+    print(f"\n  {'[dry-run] ' if dry_run else ''}Карточек: {built}, рёбер: {linked}, ошибок: {skipped}{inc_note}")
     if dry_run:
         print(f"  Добавьте --build без --dry-run чтобы записать в {CARDS.relative_to(ROOT)}/")
     else:
@@ -304,14 +347,19 @@ def main() -> None:
                         help="Формат экспорта (для --export)")
     parser.add_argument("--top",     type=int, default=10,
                         help="Число результатов (для --search)")
-    parser.add_argument("--dry-run", action="store_true",
+    parser.add_argument("--dry-run",     action="store_true",
                         help="Показать план без записи файлов")
+    parser.add_argument("--incremental", action="store_true",
+                        help="Пропустить файлы без изменений (для --build)")
+    parser.add_argument("--verbose",     action="store_true",
+                        help="Подробный вывод (для --build)")
     args = parser.parse_args()
 
     dry_run = args.dry_run
 
     if args.build:
-        cmd_build(section=args.section or "", dry_run=dry_run)
+        cmd_build(section=args.section or "", dry_run=dry_run,
+                  incremental=args.incremental, verbose=args.verbose)
     elif args.stats:
         cmd_stats()
     elif args.search:

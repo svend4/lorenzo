@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:5a7d57be45801e73",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/nautilus/npp-v1-1/06-adapter-interface.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:28+00:00",
+  "updated_at": "2026-05-10T14:57:28+00:00",
+  "payload_hash": "sha256:0383e377f23ff509",
+  "payload": {
+    "title": "6. Adapter Interface",
+    "summary": "> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.",
+    "tags": [
+      "ingestion",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 327,
+    "path": "docs/nautilus/npp-v1-1/06-adapter-interface.md"
+  }
+}

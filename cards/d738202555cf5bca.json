@@ -1,0 +1,60 @@
+{
+  "card_id": "sha256:d738202555cf5bca",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/166-representative-agent-layer-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/249-composite-skills-agent-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/143-6-four-deployment-domains.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/144-7-open-questions.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/168-abstract.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:61ff8e790d61c505",
+  "payload": {
+    "title": "THE DOUBLE-TRIANGLE ARCHITECTURE.md",
+    "summary": "> - [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md) (сходство 0.25)",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 310,
+    "path": "docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md"
+  }
+}

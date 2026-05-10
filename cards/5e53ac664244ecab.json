@@ -1,0 +1,32 @@
+{
+  "card_id": "sha256:5e53ac664244ecab",
+  "card_type": "project",
+  "state": "raw",
+  "sources": [
+    "docs/habr-unique-projects/analogues/02-related-projects.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:b02962fa8338caa5",
+  "payload": {
+    "title": "Смежные проекты",
+    "summary": "> > Источник: MHTML‑снимок `Поиск уникальных проектов на Хабре для совместной разработки - Claude` (корень репозитория).",
+    "tags": [
+      "memory",
+      "knowledge",
+      "ingestion",
+      "architecture",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "CardIndex",
+      "NGT Memory",
+      "Wikontic"
+    ],
+    "wc": 370,
+    "path": "docs/habr-unique-projects/analogues/02-related-projects.md"
+  }
+}

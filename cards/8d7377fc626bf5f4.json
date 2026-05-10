@@ -1,0 +1,51 @@
+{
+  "card_id": "sha256:8d7377fc626bf5f4",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md"
+  ],
+  "edges": [
+    {
+      "to": "docs/02-anthropic-vacancies/166-representative-agent-layer-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/174-5-architectural-specification.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/168-abstract.md",
+      "rel": "references"
+    },
+    {
+      "to": "docs/02-anthropic-vacancies/132-planned-v0-2-0.md",
+      "rel": "references"
+    }
+  ],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:12ffd5c8edfa93da",
+  "payload": {
+    "title": "СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md",
+    "summary": "> - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.33)",
+    "tags": [
+      "architecture"
+    ],
+    "projects": [],
+    "wc": 247,
+    "path": "docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md"
+  }
+}

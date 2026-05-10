@@ -1,0 +1,22 @@
+{
+  "card_id": "sha256:989987ed42fd7fdb",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/anthropic-vacancies/clusters/13-communications.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:27+00:00",
+  "updated_at": "2026-05-10T14:57:27+00:00",
+  "payload_hash": "sha256:2c1efa7a70aa3243",
+  "payload": {
+    "title": "Communications — 5 ролей",
+    "summary": "> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Ссылка на статью‑затравку — 3dnews.ru/1140248.",
+    "tags": [
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 81,
+    "path": "docs/anthropic-vacancies/clusters/13-communications.md"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "card_id": "sha256:fcdf8146ea04ebb7",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/KEYWORD_INDEX.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:824acbcb4359620e",
+  "payload": {
+    "title": "Инвертированный индекс ключевых слов",
+    "summary": "title: \"Инвертированный индекс ключевых слов\"",
+    "tags": [
+      "memory",
+      "ingestion",
+      "architecture",
+      "roadmap",
+      "anthropic",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi",
+      "knowledge-space",
+      "NGT Memory"
+    ],
+    "wc": 1162,
+    "path": "docs/obsidian/KEYWORD_INDEX.md"
+  }
+}

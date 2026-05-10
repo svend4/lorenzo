@@ -1,0 +1,23 @@
+{
+  "card_id": "sha256:7f29798afad75ea0",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/02-anthropic-vacancies/221-10-open-questions.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:25+00:00",
+  "updated_at": "2026-05-10T14:57:25+00:00",
+  "payload_hash": "sha256:4ba10640e06827a1",
+  "payload": {
+    "title": "10. Open Questions",
+    "summary": "- [10. Open Questions](#10-open-questions)",
+    "tags": [
+      "architecture",
+      "anthropic"
+    ],
+    "projects": [],
+    "wc": 474,
+    "path": "docs/02-anthropic-vacancies/221-10-open-questions.md"
+  }
+}

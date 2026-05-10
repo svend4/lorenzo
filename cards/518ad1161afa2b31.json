@@ -1,0 +1,29 @@
+{
+  "card_id": "sha256:518ad1161afa2b31",
+  "card_type": "doc",
+  "state": "raw",
+  "sources": [
+    "docs/obsidian/LLM_SUMMARIES.md"
+  ],
+  "edges": [],
+  "created_at": "2026-05-10T14:57:29+00:00",
+  "updated_at": "2026-05-10T14:57:29+00:00",
+  "payload_hash": "sha256:11f425277db31a10",
+  "payload": {
+    "title": "AI-саммари разделов документации",
+    "summary": "title: \"AI-саммари разделов документации\"",
+    "tags": [
+      "ingestion",
+      "local-first",
+      "architecture",
+      "anthropic",
+      "self-improvement",
+      "collaboration"
+    ],
+    "projects": [
+      "Svyazi"
+    ],
+    "wc": 295,
+    "path": "docs/obsidian/LLM_SUMMARIES.md"
+  }
+}
