@@ -105,6 +105,8 @@ def find_similar_files(threshold: float = THRESHOLD) -> list[tuple[Path, Path, f
 def _truncate(text: str, max_len: int = 200) -> str:
     """Обрезает абзац для отображения в отчёте."""
     text = text.replace("\n", " ").strip()
+    # Strip markdown links to avoid broken anchor refs in the report
+    text = re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
     if len(text) <= max_len:
         return text
     return text[:max_len] + "…"

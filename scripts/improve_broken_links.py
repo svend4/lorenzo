@@ -28,7 +28,7 @@ ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "docs"
 
 # Паттерны для ссылок
-LINK_RE = re.compile(r'\[([^\]]+)\]\(([^)]+)\)')
+LINK_RE = re.compile(r'\[([^\]\n]+)\]\(([^)\n]+)\)')
 ANCHOR_RE = re.compile(r'^#+\s+(.+)$', re.MULTILINE)
 
 # Максимальная длина пути (безопасный предел ОС)
@@ -218,12 +218,13 @@ def main():
     total_fixed = 0
 
     # Пути-зеркала (obsidian, confluence) пропускаем — они auto-generated
-    MIRROR_DIRS = {"obsidian", "confluence"}
+    # templates/ и autofilled/ содержат intentional placeholder-ссылки
+    SKIP_DIRS = {"obsidian", "confluence", "templates", "autofilled"}
 
     for f in sorted(scan_root.rglob("*.md")):
         if f.name in {"BROKEN_LINKS.md", "SUMMARIES.md"}:
             continue
-        if any(part in MIRROR_DIRS for part in f.relative_to(DOCS).parts):
+        if any(part in SKIP_DIRS for part in f.relative_to(DOCS).parts):
             continue
         broken, os_errs = check_links(f, anchor_map)
         if FIX and broken:

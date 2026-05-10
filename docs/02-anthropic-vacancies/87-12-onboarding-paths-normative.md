@@ -20,7 +20,7 @@
 
 - [12. Onboarding Paths (Normative)](#12-onboarding-paths-normative)
   - [12.1. Path A — Manual Adapter](#121-path-a-manual-adapter)
-  - [12.2. Path B — generatepassport.py Wizard](#122-path-b-generatepassportpy-wizard)
+  - [12.2. Path B — generate_passport.py Wizard](#122-path-b-generate_passportpy-wizard)
   - [12.3. Path C — Self-Declaring Repo (AutoAdapter)](#123-path-c-self-declaring-repo-autoadapter)
   - [12.4. Path D — Auto-Scanner](#124-path-d-auto-scanner)
   - [12.5. Path E — [GitHub](../01-svyazi/03-component-catalog.md) Actions Webhook](#125-path-e-github-actions-webhook)

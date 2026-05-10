@@ -142,7 +142,7 @@ _Извлечено: **2845** числовых показателей из до�
 | **1.0.0** | desyncronize). Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1. | `02-общий-план-развития-na` |
 | **1.0.1** | onize). Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHAN | `02-общий-план-развития-na` |
 | **1.1.0** | Каждый релиз — git tag + CHANGELOG. Semver: v1.0.0, v1.0.1, v1.1.0. CHANGELOG.md | `02-общий-план-развития-na` |
-| **0.2.0** | rmat.md) - [Native Format](47-native-format.md) - [Planned (v0.2.0)](132-planned | `04-abstract` |
+| **0.2.0** | rmat.md) - [Native Format](02-anthropic-vacancies/47-native-format.md) - [Planned (v0.2.0)](132-planned | `04-abstract` |
 | **3.1.0** | RFCs to Indicate Requirement Levels - OpenAPI Specification v3.1.0 (for REST API | `104-appendix-c-references` |
 | **1.2** | прямое следствие этого. #### Что я сознательно оставил для v1.2 или v2.0 Formal  | `104-appendix-c-references` |
 | **3.0** | Удалить transitional header 7. Добавить changelog-запись: «v3.0 consolidated fro | `110-вопрос-fallback-ratio` |

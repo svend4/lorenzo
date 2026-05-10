@@ -574,7 +574,7 @@ _(160 дублей скрыто)_
   _→ meeting-notes_
 - go / no-go  
   _→ prototype-mvp_
-- 1] — см. [ADR-NNNN](../decisions/ADR-NNNN.md)  
+- 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
 _(324 дублей скрыто)_

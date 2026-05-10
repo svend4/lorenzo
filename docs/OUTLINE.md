@@ -2,21 +2,21 @@
 
 _Обновлено: 2026-05-10_
 
-Секций: **20** | Файлов: **1204**
+Секций: **20** | Файлов: **1213**
 
 ## Содержание
 
-- [Docs](#docs) — 94 файлов
+- [Docs](#docs) — 96 файлов
 - [Svyazi](#svyazi) — 16 файлов
 - [Anthropic Vacancies](#anthropic-vacancies) — 357 файлов
 - [Technology Combinations](#technology-combinations) — 7 файлов
 - [Ai Collaborations](#ai-collaborations) — 17 файлов
-- [Habr Projects](#habr-projects) — 10 файлов
+- [Habr Projects](#habr-projects) — 16 файлов
 - [Ai Collaborations](#ai-collaborations) — 30 файлов
 - [Anthropic Vacancies](#anthropic-vacancies) — 111 файлов
 - [Autofilled](#autofilled) — 13 файлов
 - [Badges](#badges) — 1 файлов
-- [Contacts](#contacts) — 15 файлов
+- [Contacts](#contacts) — 16 файлов
 - [Glossary](#glossary) — 4 файлов
 - [Habr Unique Projects](#habr-unique-projects) — 56 файлов
 - [Lorenzo Agent](#lorenzo-agent) — 62 файлов
@@ -28,7 +28,9 @@ _Обновлено: 2026-05-10_
 - [Templates](#templates) — 24 файлов
 
 
-## 📁 Docs (`docs/`)
+## Docs
+
+_Путь: `docs/`_
 
 ### [Словарь аббревиатур и сокращений](ABBREVIATIONS.md)
 > > !TIP
@@ -145,6 +147,16 @@ _Слов: 1409_
 
 _Слов: 5259_
 
+### [Рекомендации по коллаборации (Collaboration Finder)](COLLAB_SUGGESTIONS.md)
+> > Автоматический поиск партнёрских проектов для: «агент с памятью консолидация»
+
+  - 1. Wikontic: семантический граф
+  - 2. Yodoca
+  - 3. NGT[^ngt] Memory: ассоциативный граф
+  - Следующие шаги
+
+_Слов: 631_
+
 ### [Сравнение с предыдущим коммитом](COMPARE.md)
 > Файлов было: 1448  стало: 1741
 
@@ -195,12 +207,12 @@ _Слов: 1051_
 _Слов: 13914_
 
 ### [Граф концептов базы знаний](CONCEPT_GRAPH.md)
-> > Концептов: 40  Связей: 764 (мин. вес: 2)
+> Обновлено: 2026-05-10
 
   - Диаграмма
   - Топ концептов по связям
 
-_Слов: 697_
+_Слов: 646_
 
 ### [Согласованность терминов](CONSISTENCY.md)
 > Анализ различных написаний одних и тех же терминов.
@@ -231,12 +243,11 @@ _Слов: 552_
 _Слов: 364_
 
 ### [Противоречия в базе знаний](CONTRADICTIONS.md)
-> > !WARNING
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Найденные противоречия
 
-_Слов: 2071_
+_Слов: 1633_
 
 ### [Оценка стоимости MVP](COST.md)
 > Ориентировочные цифры на основе документации проекта.
@@ -347,21 +358,19 @@ _Слов: 470_
 _Слов: 232_
 
 ### [Отчёт о дублировании](DUPLICATES.md)
-> > !TIP
+> Порог сходства: 0.5
 
-  - Точные дубли (одинаковое содержимое)
   - Похожие файлы (Jaccard ≥ 0.5)
 
-_Слов: 2324_
+_Слов: 2434_
 
 ### [Пустые секции](EMPTY_SECTIONS.md)
-> > !TIP
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Файлы с ≥50% пустых секций (приоритет)
   - Все файлы с пустыми секциями
 
-_Слов: 15794_
+_Слов: 13300_
 
 ### [Именованные сущности](ENTITIES.md)
 > Файлов просмотрено: 1735
@@ -410,25 +419,24 @@ _Слов: 222_
 _Слов: 2655_
 
 ### [Аудит заголовков](HEADING_AUDIT.md)
-> > !TIP
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Типы проблем
   - По файлам
 
-_Слов: 9317_
+_Слов: 5907_
 
 ### [Health Dashboard](HEALTH.md)
 > Обновлено: 2026-05-10
 
-  - Общий балл: 80/100 🟡
+  - Общий балл: 99/100 🟢
   - Метрики
   - Структура репозитория
   - Action Items
   - Скрипты обработки
   - Рекомендации
 
-_Слов: 236_
+_Слов: 228_
 
 ### [Тепловая карта тем](HEATMAP.md)
 > > !TIP
@@ -440,9 +448,8 @@ _Слов: 236_
 _Слов: 537_
 
 ### [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-> > !TIP
+> Главный навигационный хаб. Все разделы и документы.
 
-  - Содержание
   - Метрики репозитория
   - Разделы документации
   - Аналитика и отчёты
@@ -450,9 +457,10 @@ _Слов: 537_
   - LLM-обогащение (Ступень 3)
   - Быстрый старт
 - Читать документацию
-  _... ещё 4 разделов_
+- Обновить всю документацию
+  _... ещё 1 разделов_
 
-_Слов: 694_
+_Слов: 514_
 
 ### [Инвертированный индекс ключевых слов](KEYWORD_INDEX.md)
 > > > 🎯 Проблема: Инвертированный индекс ключевых слов Обновлено: 2026-04-29 Уникальных слов: 23264 Биграмм: 13489 Файлов:…
@@ -475,7 +483,7 @@ _Слов: 1162_
 - Поиск
   _... ещё 2 разделов_
 
-_Слов: 616_
+_Слов: 607_
 
 ### [Числовые KPI и метрики](KPI.md)
 > > !TIP
@@ -492,22 +500,22 @@ _Слов: 616_
 _Слов: 2736_
 
 ### [История метрик KPI](KPI_HISTORY.md)
-> > Последнее обновление: 2026-04-29 · Снапшотов в истории: 1
+> Последнее обновление: 2026-05-10 · Снапшотов в истории: 2
 
   - Текущие метрики
+  - История
 
-_Слов: 128_
+_Слов: 134_
 
 ### [Языковой состав документов](LANGUAGE_STATS.md)
-> > !TIP
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Распределение
   - Файлы с неожиданным языком
   - Смешанные файлы (MIX)
   - По секциям
 
-_Слов: 6783_
+_Слов: 6984_
 
 ### [Индекс ссылок](LINKS.md)
 > > !TIP
@@ -531,13 +539,10 @@ _Слов: 1060_
 _Слов: 300_
 
 ### [MCP Dashboard](MCP_DASHBOARD.md)
-> Обновлено: 2026-04-29
+> Логи MCP-вызовов отсутствуют.
 
-  - По серверам
-  - Топ-15 инструментов (с латентностью)
-  - Латентность по серверам
 
-_Слов: 327_
+_Слов: 6_
 
 ### [Методология работы со скриптами](METHODOLOGY.md)
 > > > Принципы: скрипты работают по вызову, под контролем человека или Claude.
@@ -555,14 +560,14 @@ _Слов: 327_
 _Слов: 998_
 
 ### [Метрики качества документации](METRICS.md)
-> Файлов: 1718  Средний балл: 72.1/100
+> Файлов: 1726  Средний балл: 71.2/100
 
   - Качество по разделам
   - Топ-15 лучших документов
-  - Документы, требующие улучшения (19)
+  - Документы, требующие улучшения (39)
   - Общие показатели
 
-_Слов: 475_
+_Слов: 471_
 
 ### [Майндмап репозитория Lorenzo](MINDMAP.md)
 > mermaid
@@ -582,16 +587,15 @@ _Слов: 242_
 _Слов: 434_
 
 ### [Индекс именованных сущностей](NAMED_ENTITIES.md)
-> > !TIP
+> Обновлено: 2026-05-10
 
-  - Содержание
-  - 👤 People (19)
-  - 📦 Projects (97)
-  - ⚙️ Tech (31)
+  - 👤 People (20)
+  - 📦 Projects (144)
+  - ⚙️ Tech (32)
   - 🏢 Orgs (8)
-  - 📅 Dates (35)
+  - 📅 Dates (39)
 
-_Слов: 1640_
+_Слов: 1508_
 
 ### [Нарратив проекта Lorenzo](NARRATIVE.md)
 > Связный рассказ о том, как складывается проект — от первых идей до конкретных планов.
@@ -606,7 +610,7 @@ _Слов: 1640_
   - Глава 8: Команда и контакты
   _... ещё 4 разделов_
 
-_Слов: 1055_
+_Слов: 1032_
 
 ### [Сеть проектов и авторов](NETWORK.md)
 > Узлов: 20  Связей: 190
@@ -618,9 +622,8 @@ _Слов: 1055_
 _Слов: 414_
 
 ### [Онбординг — Svyazi 2.0 / Lorenzo](ONBOARDING.md)
-> > !TIP
+> Руководство для новых участников проекта.
 
-  - Содержание
   - Что это такое?
   - Первые 30 минут
 - 1. Клонировать репозиторий
@@ -628,35 +631,35 @@ _Слов: 414_
 - 3. Посмотреть статус проекта
 - 4. Прочитать FAQ
 - 5. Запустить скрипты (генерация/обновление docs)
-  _... ещё 11 разделов_
+  - Структура документации
+  _... ещё 10 разделов_
 
-_Слов: 576_
+_Слов: 460_
 
 ### [Изолированные документы (Orphans)](ORPHANS.md)
-> Найдено: 396 файлов без входящих ссылок из 1533 проверено.
+> Найдено: 399 файлов без входящих ссылок из 1542 проверено.
 
   - Топ-20 по объёму (важные и изолированные)
   - По разделам
   - Рекомендации
 
-_Слов: 302_
+_Слов: 308_
 
 ### [Качество абзацев](PARAGRAPH_QUALITY.md)
-> > !TIP
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Типы проблем
   - По файлам
 
-_Слов: 10093_
+_Слов: 11068_
 
 ### [Пассивный залог и канцеляризмы](PASSIVE_VOICE.md)
-> > Файлов: 882  Средний пассив: 1.7% (🟢 Активный стиль)
+> Обновлено: 2026-05-10
 
   - Корпусная статистика
   - Топ файлов по доле пассива
 
-_Слов: 408_
+_Слов: 373_
 
 ### [Приоритеты файлов](PRIORITIES.md)
 > > !TIP
@@ -693,7 +696,7 @@ _Слов: 261_
   - 7. Риски и митигация
   _... ещё 2 разделов_
 
-_Слов: 1377_
+_Слов: 1431_
 
 ### [Глобальный Q&A](QA.md)
 > Вопросы и ответы по всем разделам монорепозитория.
@@ -710,18 +713,16 @@ _Слов: 1377_
 
 _Слов: 1975_
 
-### [Открытые вопросы](QUESTIONS.md)
-> > !WARNING
+### [Вопросы и открытые темы из базы знаний](QUESTIONS.md)
+> Обновлено: 2026-05-10
 
-  - Архитектура (47)
-  - Интеграция (31)
-  - Mvp/сроки (42)
-  - Технология (196)
-  - Лицензия (34)
-  - Команда (61)
-  - Общее (1095)
+  - Сводка
+  - 🔓 Открытый вопрос (16)
+  - ❓ Вопрос (1961)
+  - 📌 TODO/Идея (151)
+  - 💭 Гипотеза (392)
 
-_Слов: 1852_
+_Слов: 23735_
 
 ### [Список чтения](READING_LIST.md)
 > > по запросу «RAG retrieval»  Документов: 5  Время: ~20 мин (0ч 20м)
@@ -760,34 +761,28 @@ _Слов: 847_
 
 _Слов: 1327_
 
-### [Svyazi 2.0 — Knowledge Base Report](REPORT.md)
-> Сгенерировано автоматически: 2026-05-10
+### [Executive Report: Репозиторий Lorenzo](REPORT.md)
+> Дата генерации: 2026-05-10
 
-  - Содержание
-  - Executive Summary
-  - Корпус документов
-  - Ключевые проекты
-  - Ключевые сущности
-  - Архитектурные решения
-  - Открытые вопросы
-  - Рекомендуемое чтение
-  _... ещё 4 разделов_
+  - Общая картина
+  - Структура репозитория
+  - Извлечённые знания
+  - Топ навигационных документов
+  - Рекомендуемые следующие шаги
+  - Аналитические инструменты
 
-_Слов: 932_
+_Слов: 304_
 
 ### [Реестр рисков — Svyazi 2.0](RISK_REGISTER.md)
-> > !TIP
+> Курированных рисков: 10 · Из документов: 15
 
-  - Содержание
-  - Contents
   - Матрица рисков (Вероятность × Влияние)
   - Реестр
   - Митигации
   - Упоминания рисков в документах
   - Итоговая статистика
-  - Упоминается в
 
-_Слов: 1088_
+_Слов: 788_
 
 ### [Расписание проекта](SCHEDULE.md)
 > Дорожная карта с вехами и задачами по кварталам.
@@ -820,6 +815,21 @@ _Слов: 338_
   - Подробно
 
 _Слов: 7281_
+
+### [Отчёт об оценке скриптов Lorenzo](SCRIPT_EVAL_REPORT.md)
+> > Детальное живое тестирование 159 скриптов: сценки-диалоги, сравнение «до/после», плюсы/минусы, пути развития.
+
+  - Содержание
+  - 1. Общая картина: что изменилось
+  - 2. Диалог-сценки: скрипты в действии
+- Шаг 1: посмотреть, что будет создано
+- Шаг 2: реальная сборка
+- Шаг 3: статистика
+- Шаг 4: поиск
+- Шаг 5: одобрить найденный проект
+  _... ещё 16 разделов_
+
+_Слов: 2904_
 
 ### [Результаты поиска](SEARCH_RESULTS.md)
 > Обновлено: 2026-05-10
@@ -883,15 +893,14 @@ _Слов: 8315_
 _Слов: 21_
 
 ### [Карта происхождения текстов](SOURCE_MAP.md)
-> > !TIP
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Категории
   - Авторы
-  - 🤖 Авто-импортированные файлы (846)
-  - 🔗 Файлы с внешними ссылками (97)
+  - 🤖 Авто-импортированные файлы (1252)
+  - 🔗 Файлы с внешними ссылками (157)
 
-_Слов: 5728_
+_Слов: 8933_
 
 ### [Детальная статистика репозитория](STATS.md)
 > Разделов: 21  Файлов: 1735  Слов: 1,782,544  Символов: 15,653,958
@@ -918,19 +927,19 @@ _Слов: 681_
 _Слов: 3910_
 
 ### [Все таблицы репозитория](TABLES.md)
-> > !TIP
+> Всего таблиц: 773
 
   - 01-svyazi (11 таблиц)
   - 02-anthropic-vacancies (34 таблиц)
   - 03-technology-combinations (1 таблиц)
   - 04-ai-collaborations (38 таблиц)
-  - 05-habr-projects (6 таблиц)
+  - 05-habr-projects (16 таблиц)
   - ai-collaborations (13 таблиц)
   - anthropic-vacancies (2 таблиц)
-  - contacts (14 таблиц)
+  - contacts (15 таблиц)
   _... ещё 11 разделов_
 
-_Слов: 192814_
+_Слов: 212289_
 
 ### [Индекс тегов](TAGS.md)
 > Каждый файл помечен тегами по темам автоматически.
@@ -957,36 +966,34 @@ _Слов: 600_
 _Слов: 1012_
 
 ### [Tech Radar — Svyazi 2.0](TECH_RADAR.md)
-> > !WARNING
+> Оценка технологий и компонентов экосистемы по методологии ThoughtWorks.
 
-  - Содержание
-  - Contents
   - Обзор
   - 🟢 ADOPT
   - 🔵 TRIAL
   - 🟡 ASSESS
   - 🔴 HOLD
   - Методология
+
+_Слов: 522_
+
+### [Хронологическая лента событий](TIMELINE.md)
+> Обновлено: 2026-05-10
+
+  - 2020 (4 упоминаний)
+  - 2021 (2 упоминаний)
+  - 2022 (12 упоминаний)
+  - 2023 (11 упоминаний)
+  - 2024 (51 упоминаний)
+  - 2025 (44 упоминаний)
+  - 2026 (475 упоминаний)
+  - 2027 (3 упоминаний)
   _... ещё 1 разделов_
 
-_Слов: 684_
-
-### [Хронология и временные маркеры](TIMELINE.md)
-> > !TIP
-
-  - Точная дата (4387)
-  - Год (247)
-  - Квартал (11)
-  - Месяц+год (420)
-  - Период (43)
-  - Фаза (845)
-  - Длительность (581)
-  - Версия (1735)
-
-_Слов: 4470_
+_Слов: 2077_
 
 ### [Валидация структуры репозитория](VALIDATION.md)
-> Ошибок: 0  Предупреждений: 49  Пройдено: 27
+> Ошибок: 0  Предупреждений: 51  Пройдено: 27
 
   - Сводка
   - ✅ Разделы и README
@@ -997,18 +1004,17 @@ _Слов: 4470_
   - Внутренние ссылки
   - Итог
 
-_Слов: 619_
+_Слов: 635_
 
 ### [Богатство словаря документов](VOCABULARY.md)
-> > Файлов: 507  Токенов: 508,173  Уникальных: 149,008
+> Обновлено: 2026-05-10
 
-  - Содержание
   - Корпусная статистика
   - Топ файлов по богатству словаря (STTR)
   - Файлы с бедным словарём (требуют доработки)
   - Справка по метрикам
 
-_Слов: 946_
+_Слов: 882_
 
 ### [Word Cloud](WORD_CLOUD.md)
 > > Визуализация 80 самых частых слов репозитория.
@@ -1041,16 +1047,18 @@ _Слов: 3193_
 
 _Слов: 627_
 
-**Итого в секции: 367,016 слов, 94 файлов**
+**Итого в секции: 405,714 слов, 96 файлов**
 
 
-## 📁 Svyazi (`docs/01-svyazi/`)
+## Svyazi
+
+_Путь: `docs/01-svyazi/`_
 
 ### [Продолжение исследования для Svyazi 2.0](01-svyazi/00-intro-part2.md)
 
 _Слов: 6_
 
-### [Svyazi[^svyazi] 2.0 — Исполнительное резюме](docs/01-svyazi/01-executive-summary.md)
+### [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md)
 > - Contents(#contents)
 
   - Содержание
@@ -1138,7 +1146,7 @@ _Слов: 638_
 
 _Слов: 224_
 
-### [Svyazi[^svyazi] 2.0 — Архитектура и исследование](docs/01-svyazi/README.md)
+### [Svyazi[^svyazi] 2.0 — Архитектура и исследование](01-svyazi/README.md)
 > Файлов: 15
 
   - Содержание
@@ -1149,7 +1157,9 @@ _Слов: 342_
 **Итого в секции: 11,578 слов, 16 файлов**
 
 
-## 📁 Anthropic Vacancies (`docs/02-anthropic-vacancies/`)
+## Anthropic Vacancies
+
+_Путь: `docs/02-anthropic-vacancies/`_
 
 ### [Введение](02-anthropic-vacancies/00-intro.md)
 > > Абстракт (авто)
@@ -1243,7 +1253,7 @@ _Слов: 324_
   - Contents
   - 3. Registry (nautilus.json)
 
-_Слов: 427_
+_Слов: 415_
 
 ### [4. Passport (passport.md)](02-anthropic-vacancies/09-4-passport-passport-md.md)
 > - 4. Passport (passport.md)(#4-passport-passportmd)
@@ -1332,7 +1342,7 @@ _Слов: 471_
   - Contents
   - 2. Формальный workflow
 
-_Слов: 483_
+_Слов: 471_
 
 ### [3. Принципы консолидации (Фаза C)](02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md)
 > - 3. Принципы консолидации (Фаза C)(#3-принципы-консолидации-фаза-c)
@@ -2105,7 +2115,7 @@ _Слов: 638_
   - Contents
   - 7. Governance and Oversight
 
-_Слов: 472_
+_Слов: 460_
 
 ### [8. Risks and Mitigations](02-anthropic-vacancies/177-8-risks-and-mitigations.md)
 > - Contents(#contents)
@@ -2132,7 +2142,7 @@ _Слов: 650_
   - Contents
   - 10. Open Questions
 
-_Слов: 453_
+_Слов: 441_
 
 ### [6. Adapter Interface](02-anthropic-vacancies/18-6-adapter-interface.md)
 > - Contents(#contents)
@@ -2316,7 +2326,7 @@ _Слов: 615_
   - Contents
   - 6. Этическая рамка
 
-_Слов: 661_
+_Слов: 655_
 
 ### [7. Управление и надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md)
 > > !WARNING
@@ -2608,7 +2618,7 @@ _Слов: 918_
   - Contents
   - 10. Open Questions
 
-_Слов: 474_
+_Слов: 462_
 
 ### [11. Call for Collaboration](02-anthropic-vacancies/222-11-call-for-collaboration.md)
 > > Абстракт (авто)
@@ -2655,7 +2665,7 @@ _Слов: 366_
   - Содержание
   - Appendix A: Comparative Table — Five Agent Types
 
-_Слов: 482_
+_Слов: 470_
 
 ### [Appendix B: Decision Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)
 > - Appendix B: Decision Framework — When to Build Type 1 First(#appendix-b-decision-framework-when-to-build-type-1-first)
@@ -3111,7 +3121,7 @@ _Слов: 619_
   - Contents
   - 12. Call for Collaboration
 
-_Слов: 460_
+_Слов: 448_
 
 ### [13. Closing](02-anthropic-vacancies/266-13-closing.md)
 > > Абстракт (авто)
@@ -3144,7 +3154,7 @@ _Слов: 528_
   - Contents
   - References
 
-_Слов: 405_
+_Слов: 393_
 
 ### [Appendix A: The Six-Type Taxonomy (Updated)](02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md)
 > > Абстракт (авто)
@@ -3654,7 +3664,7 @@ _Слов: 490_
   - Contents
   - 7. Practical First Steps This Month
 
-_Слов: 471_
+_Слов: 459_
 
 ### [8. Implications for Nautilus and OKWF](02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md)
 > - Contents(#contents)
@@ -4578,7 +4588,7 @@ _Слов: 307_
   - Contents
   - 1. Introduction
 
-_Слов: 501_
+_Слов: 489_
 
 ### [2. Terminology](02-anthropic-vacancies/77-2-terminology.md)
 > > Абстракт (авто)
@@ -4586,7 +4596,7 @@ _Слов: 501_
   - Содержание
   - 2. Terminology
 
-_Слов: 439_
+_Слов: 427_
 
 ### [3. Registry (nautilus.json)](02-anthropic-vacancies/78-3-registry-nautilus-json.md)
 > - Contents(#contents)
@@ -4621,7 +4631,7 @@ _Слов: 382_
   - Contents
   - 6. Adapter Interface
 
-_Слов: 397_
+_Слов: 385_
 
 ### [7. PortalEntry Structure](02-anthropic-vacancies/82-7-portalentry-structure.md)
 > > Абстракт (авто)
@@ -4638,7 +4648,7 @@ _Слов: 376_
   - Contents
   - 8. Q6 Space (Normative)
 
-_Слов: 491_
+_Слов: 479_
 
 ### [9. Consensus Algorithm](02-anthropic-vacancies/84-9-consensus-algorithm.md)
 > > Абстракт (авто)
@@ -4671,7 +4681,7 @@ _Слов: 222_
   - Contents
   - 12. Onboarding Paths (Normative)
 
-_Слов: 542_
+_Слов: 530_
 
 ### [13. REST API Contract (Normative for Portals)](02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md)
 > - Contents(#contents)
@@ -4680,7 +4690,7 @@ _Слов: 542_
   - Contents
   - 13. REST API Contract (Normative for Portals)
 
-_Слов: 518_
+_Слов: 506_
 
 ### [14. SDK Contract (Informative)](02-anthropic-vacancies/89-14-sdk-contract-informative.md)
 > - 14. SDK Contract (Informative)(#14-sdk-contract-informative)
@@ -4805,10 +4815,12 @@ _Слов: 323_
 
 _Слов: 2242_
 
-**Итого в секции: 319,964 слов, 357 файлов**
+**Итого в секции: 319,778 слов, 357 файлов**
 
 
-## 📁 Technology Combinations (`docs/03-technology-combinations/`)
+## Technology Combinations
+
+_Путь: `docs/03-technology-combinations/`_
 
 ### [Агентные системы и роутинг](03-technology-combinations/01-agent-routing.md)
 > > Абстракт (авто)
@@ -4824,7 +4836,7 @@ _Слов: 374_
 
   - Содержание
 
-_Слов: 838_
+_Слов: 826_
 
 ### [Local-first и P2P стек](03-technology-combinations/03-local-first.md)
 > - Упоминается в(#упоминается-в)
@@ -4876,10 +4888,12 @@ _Слов: 133_
 
 _Слов: 65_
 
-**Итого в секции: 3,159 слов, 7 файлов**
+**Итого в секции: 3,147 слов, 7 файлов**
 
 
-## 📁 Ai Collaborations (`docs/04-ai-collaborations/`)
+## Ai Collaborations
+
+_Путь: `docs/04-ai-collaborations/`_
 
 ### [Введение](04-ai-collaborations/00-intro.md)
 > > Абстракт (авто)
@@ -4903,7 +4917,7 @@ _Слов: 593_
   - Статус
   - Методика и рамка отбора
 
-_Слов: 459_
+_Слов: 447_
 
 ### [Карта найденных проектов и паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
 > > Абстракт (авто)
@@ -4952,7 +4966,7 @@ _Слов: 488_
   - Статус
   - Что это продолжение добавляет
 
-_Слов: 464_
+_Слов: 452_
 
 ### [Архитектурные зазоры, которые важнее новых инструментов](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md)
 > > !TIP
@@ -5025,10 +5039,12 @@ _Слов: 250_
 
 _Слов: 366_
 
-**Итого в секции: 26,574 слов, 17 файлов**
+**Итого в секции: 26,550 слов, 17 файлов**
 
 
-## 📁 Habr Projects (`docs/05-habr-projects/`)
+## Habr Projects
+
+_Путь: `docs/05-habr-projects/`_
 
 ### [Синтез: как проекты собираются вместе](05-habr-projects/01-synthesis.md)
 >  Параметр  Значение 
@@ -5061,7 +5077,7 @@ _Слов: 279_
   - Кто ключевые авторы проектов для контакта?
   _... ещё 3 разделов_
 
-_Слов: 138_
+_Слов: 158_
 
 ### [Уникальные проекты с Хабра](05-habr-projects/README.md)
 > Файлов: 3
@@ -5069,14 +5085,88 @@ _Слов: 138_
   - Содержание
   - Подразделы
 
-_Слов: 96_
+_Слов: 117_
 
 ### [Системы знаний](05-habr-projects/knowledge/README.md)
-> Файлов: 1
+> Файлов: 6
 
   - Содержание
 
-_Слов: 55_
+_Слов: 163_
+
+### [Статус](05-habr-projects/knowledge/agentfs.md)
+>  Параметр  Значение 
+
+- AgentFS
+  - Профиль проекта
+  - Описание
+  - Ключевые компоненты
+  - Синергия со Svyazi 2.0
+  - Уровень релевантности
+  - Сравнение с аналогами
+  - Контакт
+  _... ещё 1 разделов_
+
+_Слов: 509_
+
+### [Статус](05-habr-projects/knowledge/knowledge-space.md)
+>  Параметр  Значение 
+
+- knowledge-space
+  - Профиль проекта
+  - Описание
+  - Ключевые компоненты
+  - Синергия со Svyazi 2.0
+  - Применение в архитектуре Svyazi
+  - Контакт
+  - Смотрите также
+
+_Слов: 441_
+
+### [Статус](05-habr-projects/knowledge/mclaude.md)
+>  Параметр  Значение 
+
+- mclaude
+  - Профиль проекта
+  - Описание
+  - Ключевые компоненты
+  - Синергия со Svyazi 2.0
+  - Позиция в экосистеме
+  - Сравнение с аналогами
+  - Контакт
+  _... ещё 1 разделов_
+
+_Слов: 475_
+
+### [Статус](05-habr-projects/knowledge/research-docs-liteparse.md)
+>  Параметр  Значение 
+
+- research-docs + LiteParse
+  - Профиль проекта
+  - Описание
+  - Ключевые компоненты
+  - Синергия со Svyazi 2.0
+  - Применение в архитектуре
+  - Сравнение с подходами
+  - Контакт
+  _... ещё 1 разделов_
+
+_Слов: 544_
+
+### [Статус](05-habr-projects/knowledge/rufler.md)
+>  Параметр  Значение 
+
+- Rufler
+  - Профиль проекта
+  - Описание
+  - Ключевые компоненты
+  - Пример структуры задачи (Rufler DSL)
+  - Синергия со Svyazi 2.0
+  - Позиция в архитектуре
+  - Контакт
+  _... ещё 1 разделов_
+
+_Слов: 476_
 
 ### [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md)
 > > !WARNING
@@ -5090,11 +5180,26 @@ _Слов: 55_
 _Слов: 385_
 
 ### [Системы памяти](05-habr-projects/memory/README.md)
-> Файлов: 3
+> Файлов: 4
 
   - Содержание
 
-_Слов: 94_
+_Слов: 128_
+
+### [Статус](05-habr-projects/memory/agent-memory-mcp.md)
+>  Параметр  Значение 
+
+- agent-memory-mcp + Memory OS
+  - Профиль проекта
+  - Описание
+  - Ключевые компоненты
+  - Синергия со Svyazi 2.0
+  - Сравнение с другими memory-проектами
+  - Открытые вопросы
+  - Контакт
+  _... ещё 1 разделов_
+
+_Слов: 535_
 
 ### [MemNet: исследовательская память](05-habr-projects/memory/memnet.md)
 > > Абстракт (авто)
@@ -5102,16 +5207,16 @@ _Слов: 94_
   - Статус
   - Содержание
 
-_Слов: 7264_
+_Слов: 7273_
 
-### [NGT[^ngt] Memory: ассоциативный граф](docs/05-habr-projects/memory/ngt-memory.md)
+### [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md)
 > > Абстракт (авто)
 
   - Статус
 
-_Слов: 382_
+_Слов: 392_
 
-### [Yodoca[^yodoca]: консолидация и забывание](docs/05-habr-projects/memory/yodoca.md)
+### [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md)
 > > Абстракт (авто)
 
   - Статус
@@ -5122,10 +5227,12 @@ _Слов: 382_
 
 _Слов: 379_
 
-**Итого в секции: 9,335 слов, 10 файлов**
+**Итого в секции: 12,517 слов, 16 файлов**
 
 
-## 📁 Ai Collaborations (`docs/ai-collaborations/`)
+## Ai Collaborations
+
+_Путь: `docs/ai-collaborations/`_
 
 ### [ai-collaborations](ai-collaborations/README.md)
 > Файлов: 1
@@ -5324,7 +5431,9 @@ _Слов: 32_
 **Итого в секции: 8,257 слов, 30 файлов**
 
 
-## 📁 Anthropic Vacancies (`docs/anthropic-vacancies/`)
+## Anthropic Vacancies
+
+_Путь: `docs/anthropic-vacancies/`_
 
 ### [Q&A: anthropic-vacancies](anthropic-vacancies/QA.md)
 > Автоматически сгенерировано по 97 файлам раздела.
@@ -6028,7 +6137,9 @@ _Слов: 281_
 **Итого в секции: 31,028 слов, 111 файлов**
 
 
-## 📁 Autofilled (`docs/autofilled/`)
+## Autofilled
+
+_Путь: `docs/autofilled/`_
 
 ### [autofilled](autofilled/README.md)
 > Файлов: 1
@@ -6154,7 +6265,7 @@ _Слов: 156_
 
 _Слов: 174_
 
-### [[Тема исследования]](docs/autofilled/research-summary.md)
+### [[Тема исследования]](autofilled/research-summary.md)
 > > - Ключевые находки(#ключевые-находки)
 
   - Contents
@@ -6172,7 +6283,9 @@ _Слов: 149_
 **Итого в секции: 2,058 слов, 13 файлов**
 
 
-## 📁 Badges (`docs/badges/`)
+## Badges
+
+_Путь: `docs/badges/`_
 
 ### [Бейджи репозитория](badges/README.md)
 > Автоматически генерируются скриптом improvebadges.py.
@@ -6185,7 +6298,9 @@ _Слов: 44_
 **Итого в секции: 44 слов, 1 файлов**
 
 
-## 📁 Contacts (`docs/contacts/`)
+## Contacts
+
+_Путь: `docs/contacts/`_
 
 ### [contacts](contacts/README.md)
 > Файлов: 14
@@ -6324,7 +6439,18 @@ _Слов: 246_
   - Первое сообщение
   - Открытые вопросы
 
-_Слов: 284_
+_Слов: 285_
+
+### [Контакт: VitaliySemenov / agent-memory-mcp](contacts/vitalysemenov.md)
+> > Автор agent-memory-mcp (типизированная память для MCP + Memory OS с bi-temporal фактами).
+
+  - Профиль
+  - Проект: agent-memory-mcp
+  - Вопросы для первого контакта
+  - Шаблон первого сообщения
+  - История контактов
+
+_Слов: 295_
 
 ### [Контакт: VladSpace / Graph RAG](contacts/vladspace.md)
 > > !TIP
@@ -6348,10 +6474,12 @@ _Слов: 262_
 
 _Слов: 255_
 
-**Итого в секции: 3,747 слов, 15 файлов**
+**Итого в секции: 4,043 слов, 16 файлов**
 
 
-## 📁 Glossary (`docs/glossary/`)
+## Glossary
+
+_Путь: `docs/glossary/`_
 
 ### [glossary](glossary/README.md)
 > Файлов: 3
@@ -6390,7 +6518,9 @@ _Слов: 665_
 **Итого в секции: 2,300 слов, 4 файлов**
 
 
-## 📁 Habr Unique Projects (`docs/habr-unique-projects/`)
+## Habr Unique Projects
+
+_Путь: `docs/habr-unique-projects/`_
 
 ### [habr-unique-projects/ — поиск уникальных проектов на Хабре](habr-unique-projects/README.md)
 > Файлы в корне репозитория:
@@ -6741,7 +6871,9 @@ _Слов: 42_
 **Итого в секции: 13,445 слов, 56 файлов**
 
 
-## 📁 Lorenzo Agent (`docs/lorenzo-agent/`)
+## Lorenzo Agent
+
+_Путь: `docs/lorenzo-agent/`_
 
 ### [Введение: Lorenzo — Catalyst Agent at DHLab](lorenzo-agent/00-intro.md)
 > > > Источник: MHTML‑снимок Вакансии в Anthropic по кластерам - Claude (корень репозитория). Раздел диалога — системный п…
@@ -7157,7 +7289,9 @@ _Слов: 77_
 **Итого в секции: 19,979 слов, 62 файлов**
 
 
-## 📁 Meta Scripting (`docs/meta-scripting/`)
+## Meta Scripting
+
+_Путь: `docs/meta-scripting/`_
 
 ### [Метаскриптинг — Часть 1: Концепция](meta-scripting/01-concept.md)
 > > > Скрипты, которые читают другие скрипты и документы — и улучшают их.
@@ -7243,7 +7377,9 @@ _Слов: 45_
 **Итого в секции: 2,666 слов, 7 файлов**
 
 
-## 📁 Nautilus (`docs/nautilus/`)
+## Nautilus
+
+_Путь: `docs/nautilus/`_
 
 ### [nautilus/ — Nautilus Portal Protocol и связанные working papers](nautilus/README.md)
 > Часть исходного MHTML‑снимка Вакансии в Anthropic по кластерам - Claude посвящена не вакансиям, а собственным архитектур…
@@ -9180,7 +9316,9 @@ _Слов: 16_
 **Итого в секции: 148,539 слов, 255 файлов**
 
 
-## 📁 Processing Guide (`docs/processing-guide/`)
+## Processing Guide
+
+_Путь: `docs/processing-guide/`_
 
 ### [Обработка больших массивов информации — Часть 1: Обзор и таксономия](processing-guide/01-overview.md)
 > > > Руководство по всем доступным методам обработки разрозненных документов в проекте Lorenzo / Svyazi 2.0.
@@ -9366,7 +9504,9 @@ _Слов: 103_
 **Итого в секции: 16,899 слов, 13 файлов**
 
 
-## 📁 Svyazi 2 0 (`docs/svyazi-2-0/`)
+## Svyazi 2 0
+
+_Путь: `docs/svyazi-2-0/`_
 
 ### [Svyazi 2.0 — тематический индекс](svyazi-2-0/README.md)
 > Содержимое исходных файлов deep-research-report (1)/(2)/(3)/(4).md (находятся в корне репозитория, не изменены) разбито …
@@ -9818,7 +9958,9 @@ _Слов: 124_
 **Итого в секции: 12,925 слов, 59 файлов**
 
 
-## 📁 Technology Combinations (`docs/technology-combinations/`)
+## Technology Combinations
+
+_Путь: `docs/technology-combinations/`_
 
 ### [technology-combinations/ — комбинирование технологий для новых свойств](technology-combinations/README.md)
 > Файл в корне репозитория: Комбинирование технологий для новых свойств - Claude(../../%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%B…
@@ -10204,7 +10346,9 @@ _Слов: 42_
 **Итого в секции: 13,381 слов, 53 файлов**
 
 
-## 📁 Templates (`docs/templates/`)
+## Templates
+
+_Путь: `docs/templates/`_
 
 ### [Шаблоны документов](templates/README.md)
 > Создано: 2026-05-10
@@ -10216,7 +10360,7 @@ _Слов: 42_
 
 _Слов: 82_
 
-### [Спецификация агента: [Название]](docs/templates/agent-spec.md)
+### [Спецификация агента: [Название]](templates/agent-spec.md)
 > representative  professional-colleague  composite-skills  catalyst  companion  other
 
   - Тип агента
@@ -10231,7 +10375,7 @@ _Слов: 82_
 
 _Слов: 356_
 
-### [Контакт: [Имя / Проект]](docs/templates/contact-outreach.md)
+### [Контакт: [Имя / Проект]](templates/contact-outreach.md)
 >  Параметр  Значение 
 
   - Профиль
@@ -10241,7 +10385,7 @@ _Слов: 356_
 
 _Слов: 119_
 
-### [Противоречие: [Название]](docs/templates/contradiction-record.md)
+### [Противоречие: [Название]](templates/contradiction-record.md)
 > CONTRA-NNNN
 
   - ID
@@ -10255,7 +10399,7 @@ _Слов: 119_
 
 _Слов: 174_
 
-### [ADR: [Название решения]](docs/templates/decision-record.md)
+### [ADR: [Название решения]](templates/decision-record.md)
 > Предложено / Принято / Отклонено / Устарело
 
   - Статус
@@ -10266,7 +10410,7 @@ _Слов: 174_
 
 _Слов: 84_
 
-### [Ансамбль: [Название]](docs/templates/ensemble.md)
+### [Ансамбль: [Название]](templates/ensemble.md)
 > Какую задачу решает ансамбль. Почему именно эта комбинация компонентов.
 
   - Назначение
@@ -10278,7 +10422,7 @@ _Слов: 84_
 
 _Слов: 112_
 
-### [Эксперимент: [Название]](docs/templates/experiment-log.md)
+### [Эксперимент: [Название]](templates/experiment-log.md)
 > > Если X, то Y, потому что Z.
 
   - Гипотеза
@@ -10292,7 +10436,7 @@ _Слов: 112_
 
 _Слов: 185_
 
-### [FAQ: [Вопрос]](docs/templates/faq-entry.md)
+### [FAQ: [Вопрос]](templates/faq-entry.md)
 > > Точная формулировка вопроса
 
   - Вопрос
@@ -10305,7 +10449,7 @@ _Слов: 185_
 
 _Слов: 132_
 
-### [[Термин]](docs/templates/glossary-entry.md)
+### [[Термин]](templates/glossary-entry.md)
 > Полное определение в 2-3 предложениях.
 
   - Определение
@@ -10318,7 +10462,7 @@ _Слов: 132_
 
 _Слов: 117_
 
-### [KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md)
+### [KPI Snapshot: [дата]](templates/kpi-snapshot.md)
 > Дата снапшота: 2026-04-29
 
   - Период
@@ -10330,7 +10474,7 @@ _Слов: 117_
 
 _Слов: 220_
 
-### [Юридический кейс: [Aktenzeichen]](docs/templates/legal-case.md)
+### [Юридический кейс: [Aktenzeichen]](templates/legal-case.md)
 >  Параметр  Значение 
 
   - Идентификация
@@ -10345,7 +10489,7 @@ _Слов: 220_
 
 _Слов: 275_
 
-### [Встреча: [Тема]](docs/templates/meeting-notes.md)
+### [Встреча: [Тема]](templates/meeting-notes.md)
 > Зачем собрались. Какой вопрос обсуждали.
 
   - Контекст
@@ -10359,7 +10503,7 @@ _Слов: 275_
 
 _Слов: 151_
 
-### [Mega-stack: [Название]](docs/templates/mega-stack.md)
+### [Mega-stack: [Название]](templates/mega-stack.md)
 > Класс задач: legal-AI / knowledge-OS / etc.
 
   - Назначение
@@ -10373,7 +10517,7 @@ _Слов: 151_
 
 _Слов: 339_
 
-### [[Название компонента]](docs/templates/project-component.md)
+### [[Название компонента]](templates/project-component.md)
 > Описание проекта в 2-3 предложениях. Какую задачу решает.
 
   - Что это
@@ -10384,7 +10528,7 @@ _Слов: 339_
 
 _Слов: 102_
 
-### [[Название протокола]](docs/templates/protocol-spec.md)
+### [[Название протокола]](templates/protocol-spec.md)
 > draft  proposed  implemented  superseded
 
   - 0. Status of this Document
@@ -10399,7 +10543,7 @@ _Слов: 102_
 
 _Слов: 361_
 
-### [MVP: [Название]](docs/templates/prototype-mvp.md)
+### [MVP: [Название]](templates/prototype-mvp.md)
 > MVP-NNNN
 
   - ID
@@ -10414,7 +10558,7 @@ _Слов: 361_
 
 _Слов: 384_
 
-### [[Тема исследования]](docs/templates/research-note.md)
+### [[Тема исследования]](templates/research-note.md)
 > Зачем изучали. Какой вопрос стоял.
 
   - Контекст
@@ -10425,7 +10569,7 @@ _Слов: 384_
 
 _Слов: 66_
 
-### [Ретроспектива: [период]](docs/templates/retrospective.md)
+### [Ретроспектива: [период]](templates/retrospective.md)
 > С: 2026-04-22
 
   - Период
@@ -10438,7 +10582,7 @@ _Слов: 66_
 
 _Слов: 160_
 
-### [RFC NNNN: [Название]](docs/templates/rfc.md)
+### [RFC NNNN: [Название]](templates/rfc.md)
 > draft  proposed  accepted  rejected  implemented  superseded
 
   - Status of this Document
@@ -10453,7 +10597,7 @@ _Слов: 160_
 
 _Слов: 241_
 
-### [Риск: [Название]](docs/templates/risk-entry.md)
+### [Риск: [Название]](templates/risk-entry.md)
 > > !WARNING
 
   - ID
@@ -10467,7 +10611,7 @@ _Слов: 241_
 
 _Слов: 221_
 
-### [Tech Pair: [A] × [B]](docs/templates/tech-pair.md)
+### [Tech Pair: [A] × [B]](templates/tech-pair.md)
 > PAIR-NNNN
 
   - ID
@@ -10482,7 +10626,7 @@ _Слов: 221_
 
 _Слов: 273_
 
-### [Tech Radar: [Название]](docs/templates/tech-radar-entry.md)
+### [Tech Radar: [Название]](templates/tech-radar-entry.md)
 > techniques  tools  platforms  languages-and-frameworks
 
   - Quadrant
@@ -10497,7 +10641,7 @@ _Слов: 273_
 
 _Слов: 224_
 
-### [[имя нового шаблона]](docs/templates/template-of-templates.md)
+### [[имя нового шаблона]](templates/template-of-templates.md)
 > Это мета-шаблон для создания новых шаблонов в docs/templates/.
 
   - Что делать
@@ -10509,7 +10653,7 @@ _Слов: 224_
 
 _Слов: 319_
 
-### [Еженедельный дайджест: [период]](docs/templates/weekly-digest.md)
+### [Еженедельный дайджест: [период]](templates/weekly-digest.md)
 > 3-5 пунктов главного за неделю.
 
   - TL;DR
@@ -10527,67 +10671,67 @@ _Слов: 193_
 
 ## 🗺️ Тематическая карта
 
-### Архитектура (565 документов)
+### Архитектура (569 документов)
 - [`365-развёрнутый-анализ-внуковой-комбинации`](02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md)
 - [`CONCEPTS`](CONCEPTS.md)
 - [`TABLES`](TABLES.md)
 - [`00-intro`](02-anthropic-vacancies/00-intro.md)
 - [`01-интегральный-анализ-профиля-svend4`](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- _... ещё 560_
+- _... ещё 564_
 
-### Агенты (141 документов)
-- [`C-multi-agent-factory`](svyazi-2-0/ensembles/C-multi-agent-factory.md)
-- [`107-1-контекст-и-мотивация`](02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
-- [`108-2-формальный-workflow`](02-anthropic-vacancies/108-2-формальный-workflow.md)
-- [`345-кто-ты`](02-anthropic-vacancies/345-кто-ты.md)
-- [`00-question-what-is-hermes`](anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)
-- _... ещё 136_
-
-### Документация (141 документов)
+### Документация (142 документов)
 - [`CODE_BLOCKS`](CODE_BLOCKS.md)
 - [`118-appendix-a-шаблон-для-header-warning`](02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md)
 - [`98-appendix-a-minimal-working-example`](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md)
 - [`COMPLEXITY`](COMPLEXITY.md)
 - [`22-glossary`](nautilus/npp-v1-1/22-glossary.md)
-- _... ещё 136_
+- _... ещё 137_
 
-### Проекты (133 документов)
-- [`TIMELINE`](TIMELINE.md)
+### Агенты (135 документов)
+- [`C-multi-agent-factory`](svyazi-2-0/ensembles/C-multi-agent-factory.md)
+- [`107-1-контекст-и-мотивация`](02-anthropic-vacancies/107-1-контекст-и-мотивация.md)
+- [`108-2-формальный-workflow`](02-anthropic-vacancies/108-2-формальный-workflow.md)
+- [`345-кто-ты`](02-anthropic-vacancies/345-кто-ты.md)
+- [`00-question-what-is-hermes`](anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md)
+- _... ещё 130_
+
+### Проекты (132 документов)
+- [`DUPLICATES`](DUPLICATES.md)
 - [`02-общий-план-развития-nautilus-portal-protocol`](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - [`228-appendix-c-quick-start-architecture-for-sgb-advoca`](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
 - [`299-практические-рекомендации-для-текущего-проекта`](02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md)
 - [`336-10-стратегическое-позиционирование`](02-anthropic-vacancies/336-10-стратегическое-позиционирование.md)
-- _... ещё 128_
+- _... ещё 127_
 
-### Контакты (53 документов)
+### Контакты (61 документов)
+- [`rufler`](05-habr-projects/knowledge/rufler.md)
 - [`ngt-memory`](05-habr-projects/memory/ngt-memory.md)
 - [`REGISTRY`](REGISTRY.md)
 - [`06-1-introduction`](02-anthropic-vacancies/06-1-introduction.md)
 - [`105-review-methodology-md`](02-anthropic-vacancies/105-review-methodology-md.md)
-- [`161-7-phased-rollout-plan`](02-anthropic-vacancies/161-7-phased-rollout-plan.md)
-- _... ещё 48_
+- _... ещё 56_
 
 ### Память (46 документов)
 - [`PROCESSING_GUIDE`](processing-guide/PROCESSING_GUIDE.md)
+- [`SCRIPT_EVAL_REPORT`](SCRIPT_EVAL_REPORT.md)
 - [`06-search`](processing-guide/06-search.md)
 - [`11-integration-contracts`](01-svyazi/11-integration-contracts.md)
 - [`CHANGELOG`](CHANGELOG.md)
-- [`NARRATIVE`](NARRATIVE.md)
 - _... ещё 41_
 
-### Код (34 документов)
+### Код (35 документов)
 - [`DEPENDENCY_MAP`](DEPENDENCY_MAP.md)
 - [`02-architecture`](meta-scripting/02-architecture.md)
 - [`04-enrichment`](meta-scripting/04-enrichment.md)
 - [`83-8-q6-space-normative`](02-anthropic-vacancies/83-8-q6-space-normative.md)
 - [`84-9-consensus-algorithm`](02-anthropic-vacancies/84-9-consensus-algorithm.md)
-- _... ещё 29_
+- _... ещё 30_
 
-### Анализ (30 документов)
+### Анализ (31 документов)
 - [`72-расписание-фазы-3`](02-anthropic-vacancies/72-расписание-фазы-3.md)
 - [`110-вопрос-fallback-ratio-как-критический-или-осмыслен`](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
 - [`145-8-call-to-action`](02-anthropic-vacancies/145-8-call-to-action.md)
 - [`154-table-of-contents`](02-anthropic-vacancies/154-table-of-contents.md)
 - [`162-8-risk-analysis`](02-anthropic-vacancies/162-8-risk-analysis.md)
-- _... ещё 25_
+- _... ещё 26_
 

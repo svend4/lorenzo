@@ -96,7 +96,7 @@
 **Общих абзацев:** 1  
 **Примеры совпадений:**
 
-> - [anastasiyaw.md](anastasiyaw.md) — --- - [andrey-chuyan.md](andrey-chuyan.md) — --- - [antipozitive.md](antipozitive.md) — --- - [cutcode.md](cutcode.md) — --- - [dmitriila.md](dmitriila.md) — --- -…
+> - [anastasiyaw.md](contacts/anastasiyaw.md) — --- - [andrey-chuyan.md](contacts/andrey-chuyan.md) — --- - [antipozitive.md](contacts/antipozitive.md) — --- - [cutcode.md](contacts/cutcode.md) — --- - [dmitriila.md](contacts/dmitriila.md) — --- -…
 
 ---
 
@@ -142,7 +142,7 @@
 
 > **Общественный уровень**: Регулятивные рамки на национальном/ЕС уровне. Вероятно появятся со временем по мере созревания технологии. Должны нацеливаться на: защиту уязвимых групп, предотвращение экспл…
 
-> - [7. Управление и надзор](#7-управление-и-надзор)   - [7.1. Три уровня управления](#71-три-уровня-управления)   - [7.2. Аудит и Ответственность](#72-аудит-и-ответственность)   - [7.3. Разрешение Спор…
+> - 7. Управление и надзор   - 7.1. Три уровня управления   - 7.2. Аудит и Ответственность   - 7.3. Разрешение Спор…
 
 ---
 

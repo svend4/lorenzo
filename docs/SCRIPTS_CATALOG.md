@@ -993,7 +993,7 @@ Stage 3b: map-reduce для документов любого размера. А
 
 **готовит docs/ для импорта в Obsidian.**
 
-Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет [Text](../path/file.md) → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)
+Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет `[Text](../path/file.md)` → `[[file]]` (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)
 
 **Флаги:** `--dry-run`, `--in-place`, `--section`
 

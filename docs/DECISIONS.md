@@ -133,7 +133,7 @@ _...ещё 41 записей в этой категории_
 - собирать все сразу в один контур. mclaude хорошо решает синхронизацию нескольких сессий; AI Factory — spec/pipeline/patch evolution; Rufler — YAML‑рой  
   _→ 14-limitations_
 
-- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude  
+- в секции: 44 слов, 1 файлов** ## 📁 Contacts (`docs/contacts/`) ### [contacts](contacts/README.md) > Файлов: 14 - Содержание _Слов: 88_ ### [Контакт: AnastasiyaW / knowledge-space, mclaude](contacts/anastasiyaw.md)  
   _→ OUTLINE_
 
 - вопрос для community matching. citeturn22view4turn22view5 | | **авторы knowledge-space / mclaude** | Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? | Э  
@@ -163,7 +163,7 @@ _...ещё 41 записей в этой категории_
 - положите все четыре файла в репо (PORTAL-PROTOCOL.md в корень, README.md заменяет текущий, три passport'а в папку passports/). Commit с сообщением вида docs: initial v1.0-draft documentation layer . Т  
   _→ 69-section_
 
-- создать документы](#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](#детали-по-топ-20-пробелам) - [`LiteParse` (105 файлов)](#liteparse-105-файлов) - [`BSL` (75 файлов)](#bsl-75-фай  
+- [Рекомендуется создать документы](CONTENT_GAPS.md#рекомендуется-создать-документы) - [Детали по топ-20 пробелам](CONTENT_GAPS.md#детали-по-топ-20-пробелам) - [`LiteParse` (105 файлов)](CONTENT_GAPS.md) - [`BSL` (75 файлов)](CONTENT_GAPS.md)  
   _→ CONTENT_GAPS_
 
 - создать документы | Концепция | Упоминаний | Рекомендуемая папка | |-----------|-----------|-------------------| | `LiteParse` | 105 | `docs/obsidian/` | | `BSL` | 75 | `docs/obsidian/` | | `NPP` | 6  
