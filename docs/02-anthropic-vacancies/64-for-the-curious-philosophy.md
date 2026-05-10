@@ -48,7 +48,7 @@
 
 ---
 
-*Passport version: 1.0 · Protocol: [NPP v1.0](../PORTAL-PROTOCOL.md) · 
+*Passport version: 1.0 · Protocol: [NPP v1.0](03-portal-protocol-md.md) · 
 Last updated: 2026-04*
 ```
 ---

@@ -3,7 +3,7 @@
 <!-- abstract-auto -->
 > **Абстракт** (авто)
 >
-> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(./PORTAL-PROTOCOL.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
+> 🎯 **Проблема:** Documentation - PORTAL-PROTOCOL.md(03-portal-protocol-md.md) — formal v1.0 specification (15 pages) - passports/(./passports/) — human-readable repo descriptions - info1(./passports/in
 > 🔧 **Подход:** - 0: Discoverable — declared in registry only - 1: Readable — has passport + describe() method - 2: Queryable — implements fetch(query) — search works - 3: Interactive — translatet
 > ✅ **Результат:** Reports always show attribution — which repo each result came from.
 > 🏷️ **Ключевые слова:** `nautilus`, `portal`, `protocol`, `reference`, `https`, `anthropic`, `svend`, `passports`
@@ -117,13 +117,13 @@ python portal.py --serve
 ```
 
 2. Write `passport.md` — a one-page description (see templates in 
-   [`passports/`](./passports/))
+   `passports/`)
 
 **Full (Level 2–3, a few hours):**
 
 3. Add an adapter in `adapters/my_repo.py` implementing the 
    `[BaseAdapter](01-интегральный-анализ-профиля-svend4.md)` interface (see 
-   [PORTAL-PROTOCOL.md §6](./PORTAL-PROTOCOL.md#6-adapter-interface))
+   [PORTAL-PROTOCOL.md §6](03-portal-protocol-md.md#6-adapter-interface))
 
 4. Register the repo in the portal's root `[nautilus](../05-habr-projects/memory/memnet.md).json`
 
@@ -162,16 +162,16 @@ day one.
 - **3: Interactive** — `translate_to()` — cross-repo translations 
   via bridges
 
-Details in [PORTAL-PROTOCOL.md §5](./PORTAL-PROTOCOL.md#5-compatibility-levels).
+Details in [PORTAL-PROTOCOL.md §5](03-portal-protocol-md.md#5-compatibility-levels).
 
 ### Documentation
 
-- **[PORTAL-PROTOCOL.md](./PORTAL-PROTOCOL.md)** — formal v1.0 
+- **[PORTAL-PROTOCOL.md](03-portal-protocol-md.md)** — formal v1.0 
   specification (15 pages)
-- **[passports/](./passports/)** — human-readable repo descriptions
-  - [info1](./passports/info1.md)
-  - [pro2](./passports/pro2.md)
-  - [meta](./passports/meta.md)
+- **`passports/`** — human-readable repo descriptions
+  - `info1`
+  - `pro2`
+  - `meta`
 - **Issues** — questions, proposals, bug reports
 
 ### Project Status
@@ -220,7 +220,7 @@ consensus-based validation across repos.
 - **Documentation** (README, PORTAL-PROTOCOL, passports): 
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 - **Code** (portal, adapters, glyph_adapter): 
-  [MIT](./LICENSE)
+  [MIT](README.md)
 
 ### Contact
 

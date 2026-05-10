@@ -15,6 +15,7 @@ import os
 import re
 import sys
 from pathlib import Path
+from urllib.parse import unquote
 
 FIX     = "--fix"     in sys.argv
 DRY_RUN = "--dry-run" in sys.argv
@@ -133,6 +134,10 @@ def check_links(filepath: Path, anchor_map: dict) -> tuple[list[dict], list[dict
     except OSError:
         return [], []
 
+    # Strip code blocks so links inside ``` ... ``` are not checked
+    text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    text = re.sub(r'`[^`]+`', '', text)
+
     broken: list[dict] = []
     os_errors: list[dict] = []
 
@@ -153,11 +158,13 @@ def check_links(filepath: Path, anchor_map: dict) -> tuple[list[dict], list[dict
                     })
             continue
 
-        # Относительный путь
+        # Относительный путь (URL-decode для файлов с пробелами/скобками)
+        decoded_target = unquote(target.split('#')[0] if '#' in target else target)
         if target.startswith('/'):
-            resolved = ROOT / target.lstrip('/')
+            resolved = ROOT / decoded_target.lstrip('/')
         else:
-            resolved = filepath.parent / target
+            resolved = filepath.parent / decoded_target
+        target = unquote(target)  # decode for anchor checking too
 
         # Убираем якорь из пути
         anchor = None

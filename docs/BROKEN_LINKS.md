@@ -1,67 +1,82 @@
 # Сломанные внутренние ссылки
 
-**Найдено:** 512 проблем, 22 пропущено (длинный путь)
+**Найдено:** 209 проблем, 12 пропущено (длинный путь)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | Nautilus Portal Protocol v1.1 | `./docs/PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
-| `docs/02-anthropic-vacancies/122-глоссарий.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
 | `docs/02-anthropic-vacancies/130-отладка.md` | Tool-call падает с "adapterfai | `#tool-call-падает-с-adapterfailed` | якорь не найден |
 | `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | 6.4. translateto(entry, target | `#64-translatetoentry-targetrepo-required` | якорь не найден |
-| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | NPP v1.0 | `../PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | `passports/` | `./passports/` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md §6 | `./PORTAL-PROTOCOL.md#6-adapter-interface` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md §5 | `./PORTAL-PROTOCOL.md#5-compatibility-lev` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | PORTAL-PROTOCOL.md | `./PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | passports/ | `./passports/` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | info1 | `./passports/info1.md` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | pro2 | `./passports/pro2.md` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | meta | `./passports/meta.md` | файл не существует |
-| `docs/02-anthropic-vacancies/67-о-проекте.md` | MIT | `./LICENSE` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | `passports/` | `./passports/` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md §6 | `./PORTAL-PROTOCOL.md#6-adapter-interface` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md §5 | `./PORTAL-PROTOCOL.md#5-compatibility-lev` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | PORTAL-PROTOCOL.md | `./PORTAL-PROTOCOL.md` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | passports/ | `./passports/` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | info1 | `./passports/info1.md` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | pro2 | `./passports/pro2.md` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | meta | `./passports/meta.md` | файл не существует |
-| `docs/02-anthropic-vacancies/68-about.md` | MIT | `./LICENSE` | файл не существует |
 | `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | tdywx@abc123 | `link` | файл не существует |
 | `docs/02-anthropic-vacancies/72-расписание-фазы-3.md` | CzylE@def456 | `link` | файл не существует |
 | `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | 12.2. Path B — generatepasspor | `#122-path-b-generatepassportpy-wizard` | якорь не найден |
 | `docs/ACTION_ITEMS.md` | ADR-NNNN | `../decisions/ADR-NNNN.md` | файл не существует |
-| `docs/ACTION_ITEMS.md` | 8.1. Trade-offs | `#81-trade-offs` | якорь не найден |
-| `docs/ACTION_ITEMS.md` | 8.2. Открытые вопросы | `#82-открытые-вопросы` | якорь не найден |
-| `docs/ACTION_ITEMS.md` | [Content Overview | `docs/02-anthropic-vacancies/31-content-o` | файл не существует |
 | `docs/ACTION_ITEMS.md` | BaseAdapter | `../docs/02-anthropic-vacanc  
   _→ 87-12` | файл не существует |
-| `docs/CODE_BLOCKS.md` | REVIEW_METHODOLOGY.md | `./REVIEW_METHODOLOGY.md` | файл не существует |
-| `docs/CODE_BLOCKS.md` | docs | `docs/badges/docs.svg` | файл не существует |
-| `docs/CODE_BLOCKS.md` | words | `docs/badges/words.svg` | файл не существует |
-| `docs/CODE_BLOCKS.md` | scripts | `docs/badges/scripts.svg` | файл не существует |
-| `docs/CODE_BLOCKS.md` | health | `docs/badges/health.svg` | файл не существует |
-| `docs/CODE_BLOCKS.md` | go/no-go | `docs/badges/scoring.svg` | файл не существует |
-| `docs/CODE_BLOCKS.md` | license | `docs/badges/license.svg` | файл не существует |
-| `docs/CODE_BLOCKS.md` | branch | `docs/badges/branch.svg` | файл не существует |
-| `docs/CONCEPTS.md` | `npp-v1-1/` | `npp-v1-1/` | файл не существует |
-| `docs/CONCEPTS.md` | `okwf-concept/` | `okwf-concept/` | файл не существует |
 | `docs/DECISIONS.md` | Контакт: AnastasiyaW / knowled | `#рекомендуется-создать-документы` | якорь не найден |
 | `docs/DECISIONS.md` | Детали по топ-20 пробелам | `#детали-по-топ-20-пробелам` | якорь не найден |
-| `docs/DECISIONS.md` | `LiteParse` (105 файлов) | `#liteparse-105-файлов` | якорь не найден |
-| `docs/DECISIONS.md` | `BSL` (75 файлов) | `#bsl-75-фай  
+| `docs/DECISIONS.md` |  (105 файлов) | `#liteparse-105-файлов` | якорь не найден |
+| `docs/DECISIONS.md` |  (75 файлов) | `#bsl-75-фай  
   _→ CONTENT_GAPS_
 
 - созд` | якорь не найден |
-| `docs/DIGEST_AUTO.md` | `improve_card_index.py` | `scripts/improve_card_index.py` | файл не существует |
-| `docs/DIGEST_AUTO.md` | `recipe_history.json` | `scripts/recipe_history.json` | файл не существует |
+| `docs/DUPLICATES.md` | https://github.com/spbmolot/…
+ | `#contents` | якорь не найден |
+| `docs/DUPLICATES.md` | Главная линия синергии | `#главная-линия-синергии` | якорь не найден |
+| `docs/DUPLICATES.md` | Ключевой вывод | `#ключевой-вывод` | якорь не найден |
+| `docs/DUPLICATES.md` | Что добавляет продолжение иссл | `#что-добавляет-продолжение-исследования` | якорь не найден |
+| `docs/DUPLICATES.md` | 11. Призыв к сотрудничеству | `#11-призыв-к-сотрудничеству` | якорь не найден |
+| `docs/DUPLICATES.md` | 11.1. Для Профессиональных Пра | `#111-для-профессиональных-практикующих` | якорь не найден |
+| `docs/DUPLICATES.md` | 11.2. Для Доменных Экспертов ( | `#112-д…
 
-_...и ещё 462 проблем_
+---
 
-## Пропущено из-за длинного пути (22)
+### 89% —  vs 
+
+**Общих аб` | якорь не найден |
+| `docs/DUPLICATES.md` | 7. Практические первые шаги в  | `#7-практические-первые-шаги-в-этом-месяц` | якорь не найден |
+| `docs/DUPLICATES.md` | 7.1. На этой неделе | `#71-на-этой-неделе` | якорь не найден |
+| `docs/DUPLICATES.md` | 7.2. В этом месяце | `#72-в-этом-месяце` | якорь не найден |
+| `docs/DUPLICATES.md` | 7.3. В следующем…
+
+---
+
+### 83 | `#10-открытые-вопросы` | якорь не найден |
+| `docs/DUPLICATES.md` | 10.1. Объём «Профессии» | `#101-объём-профессии` | якорь не найден |
+| `docs/DUPLICATES.md` | 10.2. Многопрофессиональные пр | `#102-многопрофессиональные-практикующие` | якорь не найден |
+| `docs/DUPLICATES.md` | 10.3. Ме…
+
+> Как агенты обраба | `#contents` | якорь не найден |
+| `docs/DUPLICATES.md` | 9. Стратегия поэтапного развёр | `#9-стратегия-поэтапного-развёртывания` | якорь не найден |
+| `docs/DUPLICATES.md` | 9.1. Фаза 0 — Основание (Месяц | `#91-фаза-0-основание-месяцы-1-12` | якорь не найден |
+| `docs/KPI.md` | Sales — 150 ролей (самый больш | `#sal |  |
+| **90** | Посадить такого чел` | якорь не найден |
+| `docs/KPI.md` | Native Format | `47-native-format.md` | файл не существует |
+| `docs/KPI.md` | Planned (v0.2.0) | `132-planned |  |
+| **3.1.0** | RFCs to I` | файл не существует |
+| `docs/NARRATIVE.md` | Contents | `#contents` | якорь не найден |
+| `docs/NARRATIVE.md` | Главная линия синергии | `#главная-линия-синергии` | якорь не найден |
+| `docs/NARRATIVE.md` | Ключевой вывод | `#ключевой-вывод` | якорь не найден |
+| `docs/NARRATIVE.md` | Что добавляет продолжение иссл | `#что-добавляет-продолжение-исследования` | якорь не найден |
+| `docs/NARRATIVE.md` | Приоритет ансамблей для старта | `#приоритет-ансамблей-для-старта` | якорь не найден |
+| `docs/OUTLINE.md` | Docs | `#docs` | якорь не найден |
+| `docs/OUTLINE.md` | Svyazi | `#svyazi` | якорь не найден |
+| `docs/OUTLINE.md` | Anthropic Vacancies | `#anthropic-vacancies` | якорь не найден |
+| `docs/OUTLINE.md` | Technology Combinations | `#technology-combinations` | якорь не найден |
+| `docs/OUTLINE.md` | Ai Collaborations | `#ai-collaborations` | якорь не найден |
+| `docs/OUTLINE.md` | Habr Projects | `#habr-projects` | якорь не найден |
+| `docs/OUTLINE.md` | Ai Collaborations | `#ai-collaborations` | якорь не найден |
+| `docs/OUTLINE.md` | Anthropic Vacancies | `#anthropic-vacancies` | якорь не найден |
+| `docs/OUTLINE.md` | Autofilled | `#autofilled` | якорь не найден |
+| `docs/OUTLINE.md` | Badges | `#badges` | якорь не найден |
+| `docs/OUTLINE.md` | Contacts | `#contacts` | якорь не найден |
+| `docs/OUTLINE.md` | Glossary | `#glossary` | якорь не найден |
+| `docs/OUTLINE.md` | Habr Unique Projects | `#habr-unique-projects` | якорь не найден |
+| `docs/OUTLINE.md` | Lorenzo Agent | `#lorenzo-agent` | якорь не найден |
+| `docs/OUTLINE.md` | Meta Scripting | `#meta-scripting` | якорь не найден |
+
+_...и ещё 159 проблем_
+
+## Пропущено из-за длинного пути (12)
 
 _Markdown-ссылки с путём > 240 символов — OS не может проверить._
 
@@ -70,39 +85,27 @@ _Markdown-ссылки с путём > 240 символов — OS не може
 | `docs/ACTION_ITEMS.md` | `../docs/01-svyazi/03-comp  
   _→ 01-интегральный-а` | путь слишком длинный (2790 симв.) |
 | `docs/DECISIONS.md` | `../docs/01-svyazi/01-executive-sum  
-  _→ 08-concl` | путь слишком длинный (1355 симв.) |
+  _→ 08-concl` | путь слишком длинный (1276 симв.) |
 | `docs/DECISIONS.md` | `../docs/05-habr-projects/mem  
   _→ 01-интегральны` | путь слишком длинный (406 симв.) |
-| `docs/QUESTIONS.md` | `docs/nautilus/okwf-concept/10-appendices.md]
-- ###` | путь слишком длинный (288 симв.) |
 | `docs/TABLES.md` | `nautilus/review-methodology/00-tldr | 23 |
 | **DSL` | путь слишком длинный (726 симв.) |
-| `docs/TABLES.md` | `04-ai-collaborations/06… |
-| `07-mvp-planning` | l` | путь слишком длинный (627 симв.) |
-| `docs/TABLES.md` | `../05-ha` | якорь не найден |
-| `docs/02-anthropic` | путь слишком длинный (7010 симв.) |
-| `docs/habr-unique-projects/README.md` | `../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%B` | путь слишком длинный (403 симв.) |
-| `docs/habr-unique-projects/README.md` | `../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%B` | путь слишком длинный (408 симв.) |
 | `docs/obsidian/ABBREVIATIONS.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
 | ` | путь слишком длинный (740 симв.) |
 | `docs/obsidian/ACTION_ITEMS.md` | `../docs/01-svyazi/03-comp  
   _→ 01-интегральный-а` | путь слишком длинный (3079 симв.) |
-| `docs/obsidian/ACTION_ITEMS.md` | `../docs/02-anthropic-vacanc  
-  _→ 87-12-onboardin` | путь слишком длинный (245 симв.) |
 | `docs/obsidian/DECISIONS.md` | `../docs/01-svyazi/01-executive-sum  
-  _→ 08-concl` | путь слишком длинный (1364 симв.) |
+  _→ 08-concl` | путь слишком длинный (1285 симв.) |
 | `docs/obsidian/DECISIONS.md` | `../docs/05-habr-projects/mem  
   _→ 01-интегральны` | путь слишком длинный (415 симв.) |
-| `docs/obsidian/QUESTIONS.md` | `docs/nautilus/okwf-concept/09-call]
-- ###  Du hast` | путь слишком длинный (288 симв.) |
 | `docs/obsidian/RISK_REGISTER.md` | `docs/04-ai-collaborations/06… |
-| `07-mvp-planning` | путь слишком длинный (445 симв.) |
+|  | l Search + ба` | путь слишком длинный (393 симв.) |
 | `docs/obsidian/TABLES.md` | `docs/nautilus/review-methodology/00-tldr | 23 |
 | ` | путь слишком длинный (740 симв.) |
-| `docs/obsidian/TABLES.md` | `docs/04-ai-collaborations/06… |
-| `07-mvp-planning` | путь слишком длинный (632 симв.) |
-| `docs/obsidian/TABLES.md` | `../docs/05-habr-projects/memo | `docs/02-anthropic` | путь слишком длинный (526 симв.) |
-| `docs/obsidian/TABLES.md` | `../docs/05- | `docs/02-anthropic-vacancies/114-7-р` | путь слишком длинный (589 симв.) |
+| `docs/obsidian/TABLES.md` | `../docs/05- |  |
+|  | ния к IMPLEMENTATION_STAGE_P` | путь слишком длинный (345 симв.) |
+| `docs/obsidian/TABLES.md` | `../docs/01-svyazi/03-co |  |
+|  | которые берут не` | путь слишком длинный (318 симв.) |
 
 ## Внешние URL (251 уникальных)
 

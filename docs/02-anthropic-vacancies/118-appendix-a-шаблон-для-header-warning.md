@@ -33,7 +33,7 @@ transitional state:
 > параграфов — **намеренные**, для сохранения информации из обоих 
 > независимых анализов.
 >
-> **Методология**: см. [REVIEW_METHODOLOGY.md](./REVIEW_METHODOLOGY.md)
+> **Методология**: см. [REVIEW_METHODOLOGY.md](105-review-methodology-md.md)
 >
 > Финальная консолидированная версия будет создана в рамках Фазы C
 > (deadline: ``). До тех пор этот документ — **internal 

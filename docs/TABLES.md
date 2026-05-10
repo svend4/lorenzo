@@ -1393,9 +1393,9 @@ _Файл: `docs/anthropic-vacancies/profile-mapping/README.md` | 2 колоно
 
 | Папка | Что содержит |
 |---|---|
-| [`01-initial-analysis/`](01-initial-analysis/) | Первая итерация: FDE Applied AI как Primary match |
-| [`02-reanalysis/`](02-reanalysis/) | Коррекция после просмотра репозиториев: FDE понижен, выходят founder/research-fellowship треки |
-| [`03-integral-final/`](03-integral-final/) | Финальный интегральный анализ после 70 репо: «платформа, а не должность» |
+| [`01-initial-analysis/`](anthropic-vacancies/profile-mapping/01-initial-analysis/) | Первая итерация: FDE Applied AI как Primary match |
+| [`02-reanalysis/`](anthropic-vacancies/profile-mapping/02-reanalysis/) | Коррекция после просмотра репозиториев: FDE понижен, выходят founder/research-fellowship треки |
+| [`03-integral-final/`](anthropic-vacancies/profile-mapping/03-integral-final/) | Финальный интегральный анализ после 70 репо: «платформа, а не должность» |
 
 
 ## contacts (15 таблиц)
@@ -1679,15 +1679,15 @@ _Файл: `docs/habr-unique-projects/README.md` | 2 колонок, 9 стро�
 
 | Подпапка | О чём |
 |---|---|
-| [`analogues/`](analogues/) | Прямые аналоги Svyazi (K2-18, Wikontic, NGT Memory) и смежные проекты |
-| [`key-findings/`](key-findings/) | Ключевые находки: Yodoca, MemNet, PDA-бот, Дочкина, инфраструктурные кусочки, синтез блок-карты |
-| [`hardware-pairs/`](hardware-pairs/) | Пять hardware-near родительских пар + бонус (RRAM) и метафора |
-| [`software-pairs/`](software-pairs/) | Пять софтверных родительских пар |
-| [`deep-pairs/`](deep-pairs/) | Восемь углублённых софтверных пар (третья итерация) |
-| [`final-ensembles/`](final-ensembles/) | Три финальных ансамбля + сводный список авторов |
-| [`extra-examples/`](extra-examples/) | Расширенные примеры с Хабра по варианту D — 13 файлов: Svyazi (детально), ВШЭ нетворкинг, BrainBox, Claude subagents, HW-NL2Workflow, профессиональные платформы, knowledge workspace, multi-agent hub, federated platform, profession-specific workflows, конкретные next steps |
-| [`search-strategy/`](search-strategy/) | Каркас стратегии поиска (заполняется по необходимости) |
-| [`evaluation/`](evaluation/) | Каркас оценки уникальности и зрелости |
+| [`analogues/`](habr-unique-projects/analogues/) | Прямые аналоги Svyazi (K2-18, Wikontic, NGT Memory) и смежные проекты |
+| [`key-findings/`](habr-unique-projects/key-findings/) | Ключевые находки: Yodoca, MemNet, PDA-бот, Дочкина, инфраструктурные кусочки, синтез блок-карты |
+| [`hardware-pairs/`](habr-unique-projects/hardware-pairs/) | Пять hardware-near родительских пар + бонус (RRAM) и метафора |
+| [`software-pairs/`](habr-unique-projects/software-pairs/) | Пять софтверных родительских пар |
+| [`deep-pairs/`](habr-unique-projects/deep-pairs/) | Восемь углублённых софтверных пар (третья итерация) |
+| [`final-ensembles/`](habr-unique-projects/final-ensembles/) | Три финальных ансамбля + сводный список авторов |
+| [`extra-examples/`](habr-unique-projects/extra-examples/) | Расширенные примеры с Хабра по варианту D — 13 файлов: Svyazi (детально), ВШЭ нетворкинг, BrainBox, Claude subagents, HW-NL2Workflow, профессиональные платформы, knowledge workspace, multi-agent hub, federated platform, profession-specific workflows, конкретные next steps |
+| [`search-strategy/`](habr-unique-projects/search-strategy/) | Каркас стратегии поиска (заполняется по необходимости) |
+| [`evaluation/`](habr-unique-projects/evaluation/) | Каркас оценки уникальности и зрелости |
 
 
 ## lorenzo-agent (1 таблиц)
@@ -1742,10 +1742,10 @@ _Файл: `docs/nautilus/README.md` | 2 колонок, 22 строк_
 
 | Подпапка | Что содержит |
 |---|---|
-| [`npp-v1-0/`](npp-v1-0/) | Nautilus Portal Protocol v1.0.0-draft RFC — более ранняя версия, 18 разделов + комментарий о дизайн-решениях |
-| [`npp-v1-1/`](npp-v1-1/) | Nautilus Portal Protocol v1.1 RFC — полная формальная спецификация, 23 раздела |
+| [`npp-v1-0/`](nautilus/npp-v1-0/) | Nautilus Portal Protocol v1.0.0-draft RFC — более ранняя версия, 18 разделов + комментарий о дизайн-решениях |
+| [`npp-v1-1/`](nautilus/npp-v1-1/) | Nautilus Portal Protocol v1.1 RFC — полная формальная спецификация, 23 раздела |
 | [`review-methodology/`](review-methodology/) | Трёхфазная методология Review v1.0 — параллельная разработка двух вариантов с последующей ручной консолидацией (17 разделов) |
-| [`okwf-concept/`](okwf-concept/) | Open Knowledge Work Foundation — Concept Document (11 разделов): шестислойная инфраструктура, target populations, governance, phased rollout |
+| [`okwf-concept/`](nautilus/okwf-concept/) | Open Knowledge Work Foundation — Concept Document (11 разделов): шестислойная инфраструктура, target populations, governance, phased rollout |
 | [`representative-agent-layer-en/`](representative-agent-layer-en/) | Representative Agent Layer (EN) — Cinderella Syndrome, исторические прецеденты, архитектурная спецификация (13 разделов) |
 | [`representative-agent-layer-ru/`](representative-agent-layer-ru/) | Слой Представительских Агентов (RU, 13 разделов) |
 | [`professional-colleague-agents-en/`](professional-colleague-agents-en/) | Professional Colleague Agents — типология AI-агентов на стороне принципала (13 разделов, EN) |

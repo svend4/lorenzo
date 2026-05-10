@@ -86,7 +86,7 @@ Formal MCP spec. Сейчас informative. После того как portal-mcp
 #### Что делать с этим файлом
 Рекомендую следующий workflow:
 1. Создать docs/PORTAL-PROTOCOL.md в репо с этим содержимым (или PORTAL-PROTOCOL.md в корне, если хотите более заметно)
-2. Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [Nautilus Portal Protocol v1.1](./docs/PORTAL-PROTOCOL.md) с рабочим линком
+2. Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [Nautilus Portal Protocol v1.1](73-portal-protocol-md-v1-1.md) с рабочим линком
 3. Коммит с сообщением docs: add formal PORTAL-PROTOCOL.md v1.1 specification
 4. Пройтись по документу и проверить цифры в 18.1 против актуальных (6782 LOC, 13 адаптеров, 60 тестов, 82/100 health)
 5. Если есть расхождения — обновить в разделе 18.1

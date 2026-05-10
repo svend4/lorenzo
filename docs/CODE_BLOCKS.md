@@ -1751,13 +1751,13 @@ _`docs/FOOTNOTES.md` | 3 строк_
 _`docs/badges/README.md` | 7 строк_
 
 ```markdown
-![docs](docs/badges/docs.svg)
-![words](docs/badges/words.svg)
-![scripts](docs/badges/scripts.svg)
-![health](docs/badges/health.svg)
-![go/no-go](docs/badges/scoring.svg)
-![license](docs/badges/license.svg)
-![branch](docs/badges/branch.svg)
+![docs](badges/docs.svg)
+![words](badges/words.svg)
+![scripts](badges/scripts.svg)
+![health](badges/health.svg)
+![go/no-go](badges/scoring.svg)
+![license](badges/license.svg)
+![branch](badges/branch.svg)
 ```
 
 ### 4.2. Recommended Structure

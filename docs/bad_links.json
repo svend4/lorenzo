@@ -7,7 +7,7 @@
   {
     "file": "docs/DECISIONS.md",
     "target": "../docs/01-svyazi/01-executive-sum  \n  _→ 08-conclusions_\n\n- слой — не память, не RAG и не оркестрац",
-    "issue": "путь слишком длинный (1355 симв.)"
+    "issue": "путь слишком длинный (1276 симв.)"
   },
   {
     "file": "docs/DECISIONS.md",
@@ -15,34 +15,9 @@
     "issue": "путь слишком длинный (406 симв.)"
   },
   {
-    "file": "docs/QUESTIONS.md",
-    "target": "docs/nautilus/okwf-concept/10-appendices.md]\n- ###  Du hast gesagt: Того если гора не идёт человеку ",
-    "issue": "путь слишком длинный (288 симв.)"
-  },
-  {
     "file": "docs/TABLES.md",
     "target": "nautilus/review-methodology/00-tldr | 23 |\n| **DSL** | Non-programmers write legal automation | 72 |",
     "issue": "путь слишком длинный (726 симв.)"
-  },
-  {
-    "file": "docs/TABLES.md",
-    "target": "04-ai-collaborations/06… |\n| `07-mvp-planning` | l Search + базовые правила безопасности | Удержать ",
-    "issue": "путь слишком длинный (627 симв.)"
-  },
-  {
-    "file": "docs/TABLES.md",
-    "target": "../05-ha` | якорь не найден |\n| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | Упоми",
-    "issue": "путь слишком длинный (7010 симв.)"
-  },
-  {
-    "file": "docs/habr-unique-projects/README.md",
-    "target": "../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%",
-    "issue": "путь слишком длинный (403 симв.)"
-  },
-  {
-    "file": "docs/habr-unique-projects/README.md",
-    "target": "../../%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%20%D1%83%D0%BD%D0%B8%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85%",
-    "issue": "путь слишком длинный (408 симв.)"
   },
   {
     "file": "docs/obsidian/ABBREVIATIONS.md",
@@ -55,14 +30,9 @@
     "issue": "путь слишком длинный (3079 симв.)"
   },
   {
-    "file": "docs/obsidian/ACTION_ITEMS.md",
-    "target": "../docs/02-anthropic-vacanc  \n  _→ 87-12-onboarding-paths-normative_\n- `passports/<format>.md`  \n  _",
-    "issue": "путь слишком длинный (245 симв.)"
-  },
-  {
     "file": "docs/obsidian/DECISIONS.md",
     "target": "../docs/01-svyazi/01-executive-sum  \n  _→ 08-conclusions_\n\n- слой — не память, не RAG и не оркестрац",
-    "issue": "путь слишком длинный (1364 симв.)"
+    "issue": "путь слишком длинный (1285 симв.)"
   },
   {
     "file": "docs/obsidian/DECISIONS.md",
@@ -70,14 +40,9 @@
     "issue": "путь слишком длинный (415 симв.)"
   },
   {
-    "file": "docs/obsidian/QUESTIONS.md",
-    "target": "docs/nautilus/okwf-concept/09-call]\n- ###  Du hast gesagt: Того если гора не идёт человеку может быт",
-    "issue": "путь слишком длинный (288 симв.)"
-  },
-  {
     "file": "docs/obsidian/RISK_REGISTER.md",
-    "target": "docs/04-ai-collaborations/06… |\n| `07-mvp-planning` | l Search + базовые правила безопасности | Удер",
-    "issue": "путь слишком длинный (445 симв.)"
+    "target": "docs/04-ai-collaborations/06… |\n|  | l Search + базовые правила безопасности | Удержать стоимость и ",
+    "issue": "путь слишком длинный (393 симв.)"
   },
   {
     "file": "docs/obsidian/TABLES.md",
@@ -86,27 +51,12 @@
   },
   {
     "file": "docs/obsidian/TABLES.md",
-    "target": "docs/04-ai-collaborations/06… |\n| `07-mvp-planning` | l Search + базовые правила безопасности | Удер",
-    "issue": "путь слишком длинный (632 симв.)"
+    "target": "../docs/05- |  |\n|  | ния к IMPLEMENTATION_STAGE_PART_*.md в апреле 2026. Будущие версии методологии",
+    "issue": "путь слишком длинный (345 симв.)"
   },
   {
     "file": "docs/obsidian/TABLES.md",
-    "target": "../docs/05-habr-projects/memo | `docs/02-anthropic-vacancies/133-обратная-связь.md` |\n| `2025-11-12`",
-    "issue": "путь слишком длинный (526 симв.)"
-  },
-  {
-    "file": "docs/obsidian/TABLES.md",
-    "target": "../docs/05- | `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` |\n| `апреле 2026`",
-    "issue": "путь слишком длинный (589 симв.)"
-  },
-  {
-    "file": "docs/obsidian/TABLES.md",
-    "target": "../docs/01-svyazi/03-co | `docs/02-anthropic-vacancies/00-intro.md` |\n| `6-12 месяце` | которые беру",
-    "issue": "путь слишком длинный (536 симв.)"
-  },
-  {
-    "file": "docs/technology-combinations/README.md",
-    "target": "../../%D0%9A%D0%BE%D0%BC%D0%B1%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%82%",
-    "issue": "путь слишком длинный (313 симв.)"
+    "target": "../docs/01-svyazi/03-co |  |\n|  | которые берут нестандартных одиночек на 6-12 месяцев, обучают, ино",
+    "issue": "путь слишком длинный (318 симв.)"
   }
 ]
