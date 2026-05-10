@@ -24,7 +24,7 @@ docs/
   ENTITIES.md          — упоминания проектов (22 проекта)
   PROTOTYPE_SPEC.md    — спецификация прототипа Svyazi 2.0 (4 контракта + 4 итерации)
   DECISIONS.md         — ключевые архитектурные решения
-  HEALTH.md            — балл здоровья репо (90/100)
+  HEALTH.md            — балл здоровья репо (87/100)
   METRICS.md           — метрики качества документов (71.1/100)
   SCORING.md           — Go/No-Go (96% → GO)
   search_index.json    — поисковый индекс (483 документа, content+preview)

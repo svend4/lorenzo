@@ -10,6 +10,19 @@ maturity: active-oss
 priority: 2
 tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
 ---
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 998 |
+| Слой | knowledge/orchestration |
+| Контакт | [@AnastasiyaW](docs/contacts/anastasiyaw.md) |
+| Статус связи | не писали |
+
+_Обновлено: 2026-05-10_
+
 # knowledge-space
 
 <!-- summary: Agent-first референсная база знаний: 785+ карточек по 26 доменам, растущая из реальных research-сессий -->

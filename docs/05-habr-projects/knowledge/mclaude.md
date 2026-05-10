@@ -10,6 +10,19 @@ maturity: active-oss
 priority: 2
 tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
 ---
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 676 |
+| Слой | knowledge/orchestration |
+| Контакт | [@AnastasiyaW](docs/contacts/anastasiyaw.md) |
+| Статус связи | не писали |
+
+_Обновлено: 2026-05-10_
+
 # mclaude
 
 <!-- summary: Координация нескольких параллельных сессий Claude Code над одним проектом через locks, handoffs и mailbox -->

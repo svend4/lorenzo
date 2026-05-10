@@ -10,6 +10,19 @@ maturity: working-oss
 priority: 2
 tags: [memory, mcp, typed-memory, sqlite, agent, bi-temporal]
 ---
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+_Обновлено: 2026-05-10_
+
 # agent-memory-mcp + Memory OS
 
 <!-- summary: Типизированный MCP-сервер памяти агента с bi-temporal фактами и gardener-loop -->

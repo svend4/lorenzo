@@ -10,6 +10,19 @@ maturity: working-prototype-v0.1.5
 priority: 1
 tags: [agentfs, obsidian, filesystem, agent, knowledge, persistent-state, security]
 ---
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 1384 |
+| Слой | knowledge/filesystem |
+| Контакт | [@kksudo](docs/contacts/kksudo.md) |
+| Статус связи | не писали |
+
+_Обновлено: 2026-05-10_
+
 # AgentFS
 
 <!-- summary: Превращает Obsidian-vault в операционную систему для AI-агентов с единым .agentos/-ядром -->

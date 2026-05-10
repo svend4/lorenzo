@@ -10,6 +10,19 @@ maturity: active-oss
 priority: 2
 tags: [liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, html-report, evidence]
 ---
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | — |
+| Слой | — |
+| Контакт | — |
+| Статус связи | не писали |
+
+_Обновлено: 2026-05-10_
+
 # research-docs + LiteParse
 
 <!-- summary: Forensic document QA с HTML-отчётом и bounding boxes на PDF-страницах — visual grounding для RAG-систем -->

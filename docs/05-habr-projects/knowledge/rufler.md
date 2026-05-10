@@ -10,6 +10,19 @@ maturity: active-oss
 priority: 2
 tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
 ---
+<!-- autofill-status -->
+## Статус
+
+| Параметр | Значение |
+|----------|---------|
+| Теги | — |
+| Упоминаний в репо | 691 |
+| Слой | orchestration |
+| Контакт | [@zodigancode](docs/contacts/zodigancode.md) |
+| Статус связи | не писали |
+
+_Обновлено: 2026-05-10_
+
 # Rufler
 
 <!-- summary: Декларативный YAML-слой для запуска автономного роя Claude Code-агентов с depends_on, pause/resume и token accounting -->
