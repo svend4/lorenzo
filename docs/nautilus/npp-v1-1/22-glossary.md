@@ -268,7 +268,7 @@ openapi.yaml — OpenAPI 3.1.0 spec (упомянут в STATUS)
 
 Создать docs/PORTAL-PROTOCOL.md в репо с этим содержимым (или PORTAL-PROTOCOL.md в корне, если хотите более заметно)
 
-Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [Nautilus Portal Protocol v1.1](./docs/PORTAL-PROTOCOL.md) с рабочим линком
+Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на [Nautilus Portal Protocol v1.1](../../02-anthropic-vacancies/73-portal-protocol-md-v1-1.md) с рабочим линком
 
 Коммит с сообщением docs: add formal PORTAL-PROTOCOL.md v1.1 specification
 

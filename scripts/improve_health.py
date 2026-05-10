@@ -54,12 +54,21 @@ def main():
     # Читаем метрики из уже созданных файлов
     coverage = read_metric("../docs/../verify_coverage.py",
                            r'Покрытие.*?(\d+\.\d+)%', "97.6")
-    # Из MISSING.md
+    # Из MISSING.md — читаем из раздела ## Итог, иначе считаем по таблице
     missing_text = (DOCS / "MISSING.md").read_text(encoding="utf-8") \
         if (DOCS / "MISSING.md").exists() else ""
-    ok_count = len(re.findall(r'✅', missing_text))
-    warn_count = len(re.findall(r'⚠️', missing_text))
-    bad_count = len(re.findall(r'❌', missing_text))
+    ok_m   = re.search(r'✅[^*]*\*\*(\d+)\*\*', missing_text)
+    warn_m = re.search(r'⚠️[^*]*\*\*(\d+)\*\*', missing_text)
+    bad_m  = re.search(r'❌[^*]*\*\*(\d+)\*\*', missing_text)
+    if ok_m or warn_m or bad_m:
+        ok_count   = int(ok_m.group(1))   if ok_m   else 0
+        warn_count = int(warn_m.group(1)) if warn_m else 0
+        bad_count  = int(bad_m.group(1))  if bad_m  else 0
+    else:
+        # Fallback: count only table rows (lines starting with |)
+        ok_count   = sum(1 for l in missing_text.splitlines() if l.startswith('|') and '✅' in l)
+        warn_count = sum(1 for l in missing_text.splitlines() if l.startswith('|') and '⚠️' in l)
+        bad_count  = sum(1 for l in missing_text.splitlines() if l.startswith('|') and '❌' in l)
 
     # Из CONSISTENCY.md
     consistency_text = (DOCS / "CONSISTENCY.md").read_text(encoding="utf-8") \

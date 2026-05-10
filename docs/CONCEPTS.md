@@ -3117,7 +3117,7 @@ _Определения извлечены автоматически из до�
 
 ## З
 
-**Затем [`npp-v1-1/`](npp-v1-1/)**
+**Затем [`npp-v1-1/`](nautilus/npp-v1-1/)**
 : формальный протокол, на который ссылаются остальные  
   _→ [README](nautilus/README.md)_
 
@@ -3531,7 +3531,7 @@ _Определения извлечены автоматически из до�
 : defensible moat для такого проекта, которого не будет у обычных legal-tech стартапов  
   _→ [04-grant-opportunities](nautilus/npp-humanitarian-extension/04-grant-opportunities.md)_
 
-**ните с [`okwf-concept/`](okwf-concept/)****
+**ните с [`okwf-concept/`](nautilus/okwf-concept/)****
 : foundational concept document, фон для всех остальных  
   _→ [README](nautilus/README.md)_
 

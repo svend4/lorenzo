@@ -50,12 +50,12 @@ _Период: 2026-05-03 — 2026-05-10 (7 дней)_
 - [`71f9eb7be6254cc6.json`](../cards/71f9eb7be6254cc6.json) — `root`
 - [`81e514237f50a17e.json`](../cards/81e514237f50a17e.json) — `root`
 - [`9f344e8d21059cee.json`](../cards/9f344e8d21059cee.json) — `root`
-- [`improve_card_index.py`](scripts/improve_card_index.py) — `Скрипты`
-- [`recipe_history.json`](scripts/recipe_history.json) — `Скрипты`
-- [`utils_card_envelope.py`](scripts/utils_card_envelope.py) — `Скрипты`
+- [`improve_card_index.py`](../scripts/improve_card_index.py) — `Скрипты`
+- [`recipe_history.json`](../scripts/recipe_history.json) — `Скрипты`
+- [`utils_card_envelope.py`](../scripts/utils_card_envelope.py) — `Скрипты`
 - [`PROTOTYPE_SPEC.md`](PROTOTYPE_SPEC.md) — `PROTOTYPE_SPEC.md`
-- [`improve_recipe.py`](scripts/improve_recipe.py) — `Скрипты`
-- [`improve_search_repl.py`](scripts/improve_search_repl.py) — `Скрипты`
+- [`improve_recipe.py`](../scripts/improve_recipe.py) — `Скрипты`
+- [`improve_search_repl.py`](../scripts/improve_search_repl.py) — `Скрипты`
 - [`01-concept.md`](meta-scripting/01-concept.md) — `meta-scripting`
 
 ## Изменённые файлы

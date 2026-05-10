@@ -101,7 +101,7 @@ Appendix B — реальные примеры
 
 Второе — в каждый из четырёх IMPLEMENTATION_STAGE_PART_*.md добавить header warning из Appendix A с реальными названиями веток (claude/review-nautilus-changes-tdywx и claude/project-implementation-stage-CzylE) и deadline Фазы C (рекомендую 2 недели от сегодня).
 
-Третье — в README.md в разделе «Документация» добавить одну строку: [REVIEW_METHODOLOGY.md](./REVIEW_METHODOLOGY.md) — о трёхфазной методологии review.
+Третье — в README.md в разделе «Документация» добавить одну строку: [REVIEW_METHODOLOGY.md](../../02-anthropic-vacancies/105-review-methodology-md.md) — о трёхфазной методологии review.
 
 Это займёт 15–20 минут, и после этого ваш repo имеет defensible meta-layer: для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режиме.
 

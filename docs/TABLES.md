@@ -1744,26 +1744,26 @@ _Файл: `docs/nautilus/README.md` | 2 колонок, 22 строк_
 |---|---|
 | [`npp-v1-0/`](nautilus/npp-v1-0/) | Nautilus Portal Protocol v1.0.0-draft RFC — более ранняя версия, 18 разделов + комментарий о дизайн-решениях |
 | [`npp-v1-1/`](nautilus/npp-v1-1/) | Nautilus Portal Protocol v1.1 RFC — полная формальная спецификация, 23 раздела |
-| [`review-methodology/`](review-methodology/) | Трёхфазная методология Review v1.0 — параллельная разработка двух вариантов с последующей ручной консолидацией (17 разделов) |
+| [`review-methodology/`](nautilus/review-methodology/) | Трёхфазная методология Review v1.0 — параллельная разработка двух вариантов с последующей ручной консолидацией (17 разделов) |
 | [`okwf-concept/`](nautilus/okwf-concept/) | Open Knowledge Work Foundation — Concept Document (11 разделов): шестислойная инфраструктура, target populations, governance, phased rollout |
-| [`representative-agent-layer-en/`](representative-agent-layer-en/) | Representative Agent Layer (EN) — Cinderella Syndrome, исторические прецеденты, архитектурная спецификация (13 разделов) |
-| [`representative-agent-layer-ru/`](representative-agent-layer-ru/) | Слой Представительских Агентов (RU, 13 разделов) |
-| [`professional-colleague-agents-en/`](professional-colleague-agents-en/) | Professional Colleague Agents — типология AI-агентов на стороне принципала (13 разделов, EN) |
-| [`professional-colleague-agents-ru/`](professional-colleague-agents-ru/) | Тот же документ на русском (13 разделов) |
-| [`composite-skills-agents/`](composite-skills-agents/) | Composite Skills Agents — Twenty-One Teachers Pattern, sub-agent registry, ensembles (13 разделов) |
-| [`double-triangle-architecture/`](double-triangle-architecture/) | Double-Triangle Architecture for Human-AI Collaboration — звезда Давида (12 разделов) |
-| [`infrastructure-layer-b-en/`](infrastructure-layer-b-en/) | Infrastructure for AI-Collaborative Intellectual Work (EN) — «missing middle Layer B» между Chat и Code (14 разделов) |
-| [`infrastructure-layer-b-ru/`](infrastructure-layer-b-ru/) | Инфраструктура для AI-совместной интеллектуальной работы (RU, 13 разделов) |
-| [`ingit-cowork-en/`](ingit-cowork-en/) | InGit + Cowork — Symbiotic Architecture (10 разделов, EN) |
-| [`ingit-cowork-ru/`](ingit-cowork-ru/) | Тот же документ на русском (10 разделов) |
-| [`npp-humanitarian-extension/`](npp-humanitarian-extension/) | Применение NPP к гуманитарным документам (юридические / социальные), grant opportunities |
-| [`privacy-federation/`](privacy-federation/) | Privacy-aware federation: что анонимизировать, двухуровневая публикация |
-| [`multi-tier-architecture/`](multi-tier-architecture/) | Многоуровневая архитектура: общая база + приватные подключения |
-| [`innovation-transitions/`](innovation-transitions/) | Инновация как переход состояний (паровоз → тепловоз) |
-| [`supply-demand/`](supply-demand/) | «Спрос рождает предложение» — три связанные темы |
-| [`transmission-box/`](transmission-box/) | Если гора не идёт к человеку — посредник как коробка передач |
-| [`composite-skills-agents-companion-mentors/`](composite-skills-agents-companion-mentors/) | Companion paper: метафора 21 учителя индийского йога — спектр между Professional Colleague и Representative Agent |
-| [`community-discussions/`](community-discussions/) | Реакции на Habr-статьи, voiceless контрибьюторы, агент меняющий реальность |
+| [`representative-agent-layer-en/`](nautilus/representative-agent-layer-en/) | Representative Agent Layer (EN) — Cinderella Syndrome, исторические прецеденты, архитектурная спецификация (13 разделов) |
+| [`representative-agent-layer-ru/`](nautilus/representative-agent-layer-ru/) | Слой Представительских Агентов (RU, 13 разделов) |
+| [`professional-colleague-agents-en/`](nautilus/professional-colleague-agents-en/) | Professional Colleague Agents — типология AI-агентов на стороне принципала (13 разделов, EN) |
+| [`professional-colleague-agents-ru/`](nautilus/professional-colleague-agents-ru/) | Тот же документ на русском (13 разделов) |
+| [`composite-skills-agents/`](nautilus/composite-skills-agents/) | Composite Skills Agents — Twenty-One Teachers Pattern, sub-agent registry, ensembles (13 разделов) |
+| [`double-triangle-architecture/`](nautilus/double-triangle-architecture/) | Double-Triangle Architecture for Human-AI Collaboration — звезда Давида (12 разделов) |
+| [`infrastructure-layer-b-en/`](nautilus/infrastructure-layer-b-en/) | Infrastructure for AI-Collaborative Intellectual Work (EN) — «missing middle Layer B» между Chat и Code (14 разделов) |
+| [`infrastructure-layer-b-ru/`](nautilus/infrastructure-layer-b-ru/) | Инфраструктура для AI-совместной интеллектуальной работы (RU, 13 разделов) |
+| [`ingit-cowork-en/`](nautilus/ingit-cowork-en/) | InGit + Cowork — Symbiotic Architecture (10 разделов, EN) |
+| [`ingit-cowork-ru/`](nautilus/ingit-cowork-ru/) | Тот же документ на русском (10 разделов) |
+| [`npp-humanitarian-extension/`](nautilus/npp-humanitarian-extension/) | Применение NPP к гуманитарным документам (юридические / социальные), grant opportunities |
+| [`privacy-federation/`](nautilus/privacy-federation/) | Privacy-aware federation: что анонимизировать, двухуровневая публикация |
+| [`multi-tier-architecture/`](nautilus/multi-tier-architecture/) | Многоуровневая архитектура: общая база + приватные подключения |
+| [`innovation-transitions/`](nautilus/innovation-transitions/) | Инновация как переход состояний (паровоз → тепловоз) |
+| [`supply-demand/`](nautilus/supply-demand/) | «Спрос рождает предложение» — три связанные темы |
+| [`transmission-box/`](nautilus/transmission-box/) | Если гора не идёт к человеку — посредник как коробка передач |
+| [`composite-skills-agents-companion-mentors/`](nautilus/composite-skills-agents-companion-mentors/) | Companion paper: метафора 21 учителя индийского йога — спектр между Professional Colleague и Representative Agent |
+| [`community-discussions/`](nautilus/community-discussions/) | Реакции на Habr-статьи, voiceless контрибьюторы, агент меняющий реальность |
 
 
 ### 2. community-discussions/ — обсуждения и реакции вокруг DHLab с
@@ -1771,11 +1771,11 @@ _Файл: `docs/nautilus/community-discussions/README.md` | 2 колонок, 5
 
 | Подпапка | О чём |
 |---|---|
-| [`habr-article-1-reaction/`](habr-article-1-reaction/) | Реакция на первую Habr-статью в обсуждении |
-| [`practical-observations/`](practical-observations/) | Когда теоретические идеи работают на практике |
-| [`voiceless-contributors/`](voiceless-contributors/) | Могут ли быть voiceless контрибьюторы |
-| [`agent-changes-reality/`](agent-changes-reality/) | Catalyst Agent меняет реальность не только своего человека |
-| [`habr-article-2-reaction/`](habr-article-2-reaction/) | Реакция на вторую Habr-статью |
+| [`habr-article-1-reaction/`](nautilus/habr-article-1-reaction/) | Реакция на первую Habr-статью в обсуждении |
+| [`practical-observations/`](nautilus/practical-observations/) | Когда теоретические идеи работают на практике |
+| [`voiceless-contributors/`](nautilus/voiceless-contributors/) | Могут ли быть voiceless контрибьюторы |
+| [`agent-changes-reality/`](nautilus/agent-changes-reality/) | Catalyst Agent меняет реальность не только своего человека |
+| [`habr-article-2-reaction/`](nautilus/habr-article-2-reaction/) | Реакция на вторую Habr-статью |
 
 
 ### 3. Appendix B: Domain Comparison Matrix
