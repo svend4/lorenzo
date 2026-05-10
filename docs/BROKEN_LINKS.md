@@ -1,132 +1,93 @@
 # Сломанные внутренние ссылки
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> > | Метрика | З` | якорь не найден |
-**Проекты:** knowledge-space, LiteParse, Yodoca
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Безопа` | файл не существует |](#безопа-файл-не-существует)
-  - [100% — `docs/VAL | `#корпусная-статистика` | якорь не найден |](#100-docsval-корпусная-статистика-якорь-не-найден)
-  - [100% — `docs/COMPL | `#топ-доменов` | якорь не найден |](#100-docscompl-топ-доменов-якорь-не-найден)
-- [Внешние URL (204 уникальных)](#внешние-url-204-уникальных)
-
----
-
-<!-- tags: memory, rag, orchestration, knowledge, anthropic, collaboration -->
-
-
-
-
-**Найдено:** 317 проблем
+**Найдено:** 76 проблем, 0 пропущено (длинный путь)
 
 | Файл | Текст ссылки | Цель | Проблема |
 |------|--------------|------|----------|
-| `docs/01-svyazi/01-executive-summary.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/01-executive-summary.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | README | `docs/04-ai-collaborations/README.md` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 02-методика-и-рамка-отбора | `docs/04-ai-collaborations/02-методика-и-` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/02-methodology.md` | DUPLICATES | `docs/DUPLICATES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | TABLES | `docs/TABLES.md` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/03-component-catalog.md` | 04-ensembles-overview | `docs/01-svyazi/04-ensembles-overview.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-svyazi/03-component-catalog.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-карта-найденных-проектов-и- | `docs/04-ai-collaborations/03-карта-найде` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 03-component-catalog | `docs/01-svyazi/03-component-catalog.md` | файл не существует |
-| `docs/01-svyazi/04-ensembles-overview.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 06-безопасность-приватность-и- | `docs/04-ai-collaborations/06-безопасност` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/06-security-privacy.md` | 04-приоритетные-ансамбли | `docs/04-ai-collaborations/04-приоритетны` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 05-план-прототипа-и-возможные- | `docs/04-ai-collaborations/05-план-протот` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-svyazi/09-architectural-gaps.md` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 09-architectural-gaps | `docs/01-svyazi/09-architectural-gaps.md` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 11-integration-contracts | `docs/01-svyazi/11-integration-contracts.` | файл не существует |
-| `docs/01-svyazi/07-mvp-planning.md` | 12-roadmap | `docs/01-svyazi/12-roadmap.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/01-svyazi/01-executive-summary.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 07-выводы | `docs/04-ai-collaborations/07-выводы.md` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 08-что-это-продолжение-добавля | `docs/04-ai-collaborations/08-что-это-про` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | 01-executive-summary | `docs/04-ai-collaborations/01-executive-s` | файл не существует |
-| `docs/01-svyazi/08-conclusions.md` | MISSING | `docs/MISSING.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 09-архитектурные-зазоры-которы | `docs/04-ai-collaborations/09-архитектурн` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | QA | `docs/QA.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 11-интеграционный-контракт-кот | `docs/04-ai-collaborations/11-интеграцион` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 11-integration-contracts | `docs/01-svyazi/11-integration-contracts.` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 06-security-privacy | `docs/01-svyazi/06-security-privacy.md` | файл не существует |
-| `docs/01-svyazi/09-architectural-gaps.md` | 07-mvp-planning | `docs/01-svyazi/07-mvp-planning.md` | файл не существует |
-| `docs/01-svyazi/10-second-order-ensembles.md` | 10-новые-ансамбли-следующего-ш | `docs/04-ai-collaborations/10-новые-ансам` | файл не существует |
+| `docs/05-habr-projects/01-synthesis.md` | 123-portal-mcp-py | `docs/02-anthropic-vacancies/123-portal-m` | файл не существует |
+| `docs/05-habr-projects/01-synthesis.md` | README | `docs/05-habr-projects/README.md` | файл не существует |
+| `docs/05-habr-projects/01-synthesis.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/01-synthesis.md` | yodoca | `docs/05-habr-projects/memory/yodoca.md` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | README | `docs/05-habr-projects/README.md` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | 01-synthesis | `docs/05-habr-projects/01-synthesis.md` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | yodoca | `docs/05-habr-projects/memory/yodoca.md` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | ngt-memory | `docs/05-habr-projects/memory/ngt-memory.` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | 01-synthesis | `docs/05-habr-projects/01-synthesis.md` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | README | `docs/05-habr-projects/README.md` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/02-collaboration-partners.md` | yodoca | `docs/05-habr-projects/memory/yodoca.md` | файл не существует |
+| `docs/05-habr-projects/README.md` | 01-synthesis | `docs/05-habr-projects/01-synthesis.md` | файл не существует |
+| `docs/05-habr-projects/README.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/README.md` | README | `docs/05-habr-projects/memory/README.md` | файл не существует |
+| `docs/05-habr-projects/knowledge/README.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/knowledge/README.md` | README | `docs/05-habr-projects/memory/README.md` | файл не существует |
+| `docs/05-habr-projects/knowledge/README.md` | README | `docs/05-habr-projects/README.md` | файл не существует |
+| `docs/05-habr-projects/knowledge/README.md` | README | `docs/05-habr-projects/README.md` | файл не существует |
+| `docs/05-habr-projects/knowledge/README.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/knowledge/README.md` | README | `docs/05-habr-projects/memory/README.md` | файл не существует |
+| `docs/05-habr-projects/knowledge/wikontic.md` | 01-synthesis | `docs/05-habr-projects/01-synthesis.md` | файл не существует |
+| `docs/05-habr-projects/knowledge/wikontic.md` | README | `docs/05-habr-projects/knowledge/README.m` | файл не существует |
+| `docs/05-habr-projects/knowledge/wikontic.md` | yodoca | `docs/05-habr-projects/memory/yodoca.md` | файл не существует |
+| `docs/05-habr-projects/memory/README.md` | 01-synthesis | `docs/05-habr-projects/01-synthesis.md` | файл не существует |
+| `docs/05-habr-projects/memory/README.md` | wikontic | `docs/05-habr-projects/knowledge/wikontic` | файл не существует |
+| `docs/05-habr-projects/memory/README.md` | yodoca | `docs/05-habr-projects/memory/yodoca.md` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | @Antipozitive | `docs/contacts/antipozitive.md` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | CardIndex | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | Пара 7. [AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | Ансамбль 2: «[AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | MemNet | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | CardIndex | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | MemNet | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | MemNet | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | pro2 | `../docs/02-anthropic-vacancies/01-интегр` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | CardIndex | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | MemNet | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | pro2 | `../docs/02-anthropic-vacancies/01-интегр` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | obsidian | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | WebSocket | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | CardIndex | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | OpenWhispr | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | OpenWhispr | `../docs/01-svyazi/03-component-catalog.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
+| `docs/05-habr-projects/memory/memnet.md` | AutoResearch | `../docs/01-svyazi/01-executive-summary.m` | файл не существует |
 
-_...и ещё 3987 проблем_
+_...и ещё 26 проблем_
 
-## Внешние URL (129 уникальных)
+## Внешние URL (37 уникальных)
 
 _Внешние ссылки не проверяются автоматически — требуют ручной проверки._
 
-- http://localhost:8000
-- http://localhost:8080
-- https://...install.sh
-- https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakansiy-s-zarplatoy-do-405000
-- https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-professiy-i-otkryl-429-vakans…
-- https://activitypub.rocks/
-- https://api.github.com/users/svend4/repos?per_page=100&sort=updated
-- https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner
-- https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
-- https://claude.com/product/cowork
-- https://creativecommons.org/licenses/by/4.0/
-- https://forum.[obsidian](../docs/01-svyazi/03-component-catalog.md).md/t/new-plugin-llm-wiki-turn-your-vault-into-a-queryable-knowledge-base-privately/113223
-- https://github
-- https://github.com/AnastasiyaW
-- https://github.com/AnastasiyaW/knowledge-space
-- https://github.com/Antipozitive
-- https://github.com/Cutcode
-- https://github.com/Dmitriila
-- https://github.com/MiXaiLL76
-- https://github.com/Sonia_Black
-- https://github.com/VitalyOborin
-- https://github.com/VitalyOborin/yodoca
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [LINKS](docs/obsidian/LINKS.md)
-- [CITATION_INDEX](docs/obsidian/CITATION_INDEX.md)
-- [WORD_FREQ](docs/obsidian/WORD_FREQ.md)
-- [STALENESS](docs/obsidian/STALENESS.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [README](docs/README.md)
-- [REPORT](docs/REPORT.md)
-- [TABLES](docs/TABLES.md)
-
+- https://forum.[obsidian
+- https://habr.com/ru/articles/1002138/
+- https://habr.com/ru/articles/1005776/
+- https://habr.com/ru/articles/1006602/
+- https://habr.com/ru/articles/1006622/
+- https://habr.com/ru/articles/1007122/
+- https://habr.com/ru/articles/1009538/
+- https://habr.com/ru/articles/1009608/
+- https://habr.com/ru/articles/1009958/
+- https://habr.com/ru/articles/1010198/
+- https://habr.com/ru/articles/1010478/
+- https://habr.com/ru/articles/1016096/
+- https://habr.com/ru/articles/1017200/
+- https://habr.com/ru/articles/1019588/
+- https://habr.com/ru/articles/1020598/
+- https://habr.com/ru/articles/1020860/
+- https://habr.com/ru/articles/1023446/
+- https://habr.com/ru/articles/1024634/
+- https://habr.com/ru/articles/1024884/comments/
+- https://habr.com/ru/articles/1027210/
+- https://habr.com/ru/articles/1027382/
+- https://habr.com/ru/articles/1027658/
+- https://habr.com/ru/articles/1027878/
+- https://habr.com/ru/articles/893356/
+- https://habr.com/ru/articles/938626/
+- https://habr.com/ru/articles/943498/
+- https://habr.com/ru/articles/955798/
+- https://habr.com/ru/articles/975414/
+- https://habr.com/ru/articles/983684/
+- https://habr.com/ru/articles/996144/
