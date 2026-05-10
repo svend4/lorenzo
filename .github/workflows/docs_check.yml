@@ -1,5 +1,5 @@
-# Автоматически создан improve_ci_config.py
-# Быстрая проверка docs при PR
+# Проверка качества docs при Pull Request — только читает, ничего не пишет
+# Показывает статус в PR (зелёный/красный значок) без коммитов
 name: docs-check
 
 on:
@@ -11,6 +11,8 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read  # только чтение
 
     steps:
       - uses: actions/checkout@v4
@@ -21,10 +23,10 @@ jobs:
           python-version: '3.11'
           cache: pip
 
-      - name: Install optional deps
+      - name: Install deps
         run: pip install --quiet beautifulsoup4 lxml pyspellchecker
 
-      - name: Check broken links (internal)
+      - name: Check broken links
         continue-on-error: true
         run: python scripts/improve_broken_links.py
 
@@ -36,14 +38,8 @@ jobs:
         continue-on-error: true
         run: python scripts/improve_readability_v2.py
 
-      - name: Verify search index up to date
-        continue-on-error: true
-        run: python scripts/improve_search_index.py
-
-      - name: Check for regressions
+      - name: Verify core files exist
         run: |
-          # Убеждаемся, что METRICS.md существует
-          test -f docs/METRICS.md || (echo "❌ docs/METRICS.md missing" && exit 1)
-          # Убеждаемся, что search_index.json существует
+          test -f docs/METRICS.md     || (echo "❌ METRICS.md missing" && exit 1)
           test -f docs/search_index.json || (echo "❌ search_index.json missing" && exit 1)
-          echo "✅ Core docs present"
+          echo "✅ Core docs present — проверка пройдена"

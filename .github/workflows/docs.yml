@@ -1,25 +1,25 @@
-# Автоматически создан improve_ci_config.py
-# Обновляет только безопасные индексы — НЕ запускает скрипты изменяющие контент
+# ОТКЛЮЧЁН от автозапуска — только ручной запуск через GitHub UI или CLI
+# Причина: автоматические коммиты от бота создавали merge-конфликты
+# и засоряли историю git. Скрипты запускаются вручную или через Claude.
+#
+# Как запустить вручную:
+#   gh workflow run docs.yml
+#   или: GitHub → Actions → docs-update → Run workflow
 name: docs-update
 
 on:
-  push:
-    branches: [main, master]
-    paths:
-      - 'docs/**'
-      - 'scripts/**'
-  workflow_dispatch:
+  workflow_dispatch:  # ТОЛЬКО ручной запуск
 
 jobs:
   update-docs:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read  # только чтение — бот не пишет в репо
 
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # нужен для git log в rss/version_diff
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,12 +35,6 @@ jobs:
       - name: Install dependencies
         run: pip install --quiet anthropic || true
 
-      # ВАЖНО: запускаем только скрипты которые НЕ изменяют контентные файлы.
-      # Скрипты типа improve_summaries / improve_readmes / improve_qa / improve_similar
-      # должны запускаться ТОЛЬКО вручную — они зависят от предварительно
-      # сгенерированных индексов и при запуске на чистом CI перезаписывают
-      # более богатый авто-генерированный контент заглушками.
-
       - name: Update search index
         run: python scripts/improve_search_index.py
 
@@ -53,12 +47,10 @@ jobs:
       - name: Update stats
         run: python scripts/improve_stats.py
 
-      - name: Commit updated docs
+      - name: Show results (no commit)
         run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Коммитим только конкретные безопасные файлы, не весь docs/
-          git add docs/search_index.json docs/feed.rss docs/feed.atom \
-                  docs/HEALTH.md docs/STATS.md || true
-          git diff --staged --quiet || git commit -m "docs: auto-update metrics [skip ci]"
-          git push
+          echo "=== Результаты (не коммитятся) ==="
+          echo "search_index.json: $(wc -c < docs/search_index.json) байт"
+          cat docs/HEALTH.md | head -10
+          echo ""
+          echo "Чтобы зафиксировать — запустите скрипты локально и сделайте коммит вручную."
