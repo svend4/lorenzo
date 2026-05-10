@@ -465,6 +465,7 @@ def cmd_enrich_batch(dry_run: bool) -> None:
 # ─────────────────────────────────────────────
 
 PATTERNS = {
+    # ── Отчёт: читает docs/, пишет один выходной файл ─────────────
     "REPORT": """\
 \"\"\"
 {name}.py — {description}.
@@ -519,13 +520,321 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 """,
+
+    # ── Обогащение: читает docs/, модифицирует файлы in-place ──────
+    "ENRICHER": """\
+\"\"\"
+{name}.py — {description}.
+Читает и модифицирует: docs/**/*.md (добавляет блок в конец файла)
+Маркер: <!-- {OUTPUT_LOWER} --> (идемпотентность)
+Запуск:  python scripts/{name}.py [--dry-run] [--section РАЗДЕЛ]
+\"\"\"
+import argparse
+from pathlib import Path
+
+ROOT   = Path(__file__).parent.parent
+DOCS   = ROOT / "docs"
+MARKER = "<!-- {OUTPUT_LOWER} -->"
+SKIP   = {{"README.md", "SUMMARIES.md"}}
+
+
+def enrich(path: Path, dry_run: bool = False) -> bool:
+    \"\"\"Добавить блок в конец файла. Возвращает True если изменён.\"\"\"
+    text = path.read_text(encoding="utf-8")
+    if MARKER in text or len(text) < 100:
+        return False
+
+    # TODO: реализовать логику обогащения
+    block = f"\\n{{MARKER}}\\n\\n---\\n\\n**{description}:** _TODO_\\n"
+
+    if dry_run:
+        return True
+    path.write_text(text + block, encoding="utf-8")
+    return True
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="{description}")
+    parser.add_argument("--dry-run",  action="store_true",
+                        help="Показать план без изменений")
+    parser.add_argument("--section",  metavar="РАЗДЕЛ",
+                        help="Обработать только один раздел docs/")
+    args = parser.parse_args()
+
+    root = DOCS / args.section if args.section else DOCS
+    updated = skipped = 0
+    for f in sorted(root.rglob("*.md")):
+        if f.name in SKIP:
+            continue
+        if enrich(f, dry_run=args.dry_run):
+            if args.dry_run:
+                print(f"  [dry-run] {{f.relative_to(ROOT)}}")
+            updated += 1
+        else:
+            skipped += 1
+
+    label = "[dry-run] " if args.dry_run else ""
+    print(f"{{label}}обновлено: {{updated}}, пропущено: {{skipped}}")
+
+
+if __name__ == "__main__":
+    main()
+""",
+
+    # ── Анализатор: читает docs/, пишет JSON + MD ──────────────────
+    "ANALYZER": """\
+\"\"\"
+{name}.py — {description}.
+Читает:  docs/**/*.md
+Пишет:   docs/{OUTPUT}.md  и  docs/{OUTPUT}.json
+Запуск:  python scripts/{name}.py [--dry-run] [--section РАЗДЕЛ] [--top N]
+\"\"\"
+import argparse
+import json
+import re
+from pathlib import Path
+
+ROOT   = Path(__file__).parent.parent
+DOCS   = ROOT / "docs"
+OUT_MD = DOCS / "{OUTPUT}.md"
+OUT_JS = DOCS / "{OUTPUT}.json"
+SKIP   = {{"README.md", "SUMMARIES.md", "{OUTPUT}.md"}}
+
+
+def analyze_file(path: Path) -> dict | None:
+    \"\"\"Анализировать один файл. None если файл не подходит.\"\"\"
+    try:
+        text = path.read_text(encoding="utf-8")
+    except Exception:
+        return None
+    if len(text) < 50:
+        return None
+    # TODO: реализовать анализ
+    return {{
+        "file":  str(path.relative_to(ROOT)),
+        "lines": text.count("\\n") + 1,
+        "words": len(text.split()),
+    }}
+
+
+def render_md(results: list[dict]) -> str:
+    lines = [
+        "# {description}\\n",
+        f"_Файлов: {{len(results)}}_\\n",
+        "| Файл | Строк | Слов |",
+        "|------|-------|------|",
+    ]
+    for r in results[:50]:
+        short = "/".join(r["file"].split("/")[-2:])
+        lines.append(f"| {{short}} | {{r['lines']}} | {{r['words']}} |")
+    return "\\n".join(lines)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="{description}")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--section", metavar="РАЗДЕЛ")
+    parser.add_argument("--top",     type=int, default=50)
+    args = parser.parse_args()
+
+    root = DOCS / args.section if args.section else DOCS
+    results = []
+    for f in sorted(root.rglob("*.md")):
+        if f.name in SKIP:
+            continue
+        r = analyze_file(f)
+        if r:
+            results.append(r)
+
+    results = results[:args.top]
+    md = render_md(results)
+    print(f"Проанализировано: {{len(results)}} файлов")
+    print(md[:300])
+
+    if args.dry_run:
+        print(f"\\n[dry-run] {{OUT_MD.name}} и {{OUT_JS.name}} не записаны.")
+        return
+
+    OUT_MD.write_text(md, encoding="utf-8")
+    OUT_JS.write_text(json.dumps(results, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"✅ {{OUT_MD.relative_to(ROOT)}}  {{OUT_JS.relative_to(ROOT)}}")
+
+
+if __name__ == "__main__":
+    main()
+""",
+
+    # ── Поисковый инструмент: интерактивный CLI-поиск ──────────────
+    "SEARCHER": """\
+\"\"\"
+{name}.py — {description}.
+Читает:  docs/**/*.md (live-индекс при запуске)
+Режимы:  интерактивный REPL или разовый --query
+Запуск:  python scripts/{name}.py
+         python scripts/{name}.py --query "агент память" --top 10
+\"\"\"
+import argparse
+import re
+from collections import Counter
+from pathlib import Path
+
+ROOT = Path(__file__).parent.parent
+DOCS = ROOT / "docs"
+STOP = {{"и","в","не","на","с","по","к","из","для","это","как","но",
+         "the","a","an","is","of","in","to","for","with","by","and"}}
+
+
+def tokenize(text: str) -> list[str]:
+    return [t for t in re.findall(r'[а-яёa-z]{{3,}}', text.lower()) if t not in STOP]
+
+
+def build_index() -> list[dict]:
+    \"\"\"Строит простой инвертированный индекс.\"\"\"
+    print("  Индексирую...", end="", flush=True)
+    docs = []
+    for f in sorted(DOCS.rglob("*.md")):
+        try:
+            text = f.read_text(encoding="utf-8")
+        except Exception:
+            continue
+        docs.append({{"file": str(f.relative_to(ROOT)), "tokens": tokenize(text)}})
+    print(f" {{len(docs)}} файлов")
+    return docs
+
+
+def search(query: str, docs: list[dict], top: int = 10) -> list[dict]:
+    tokens = tokenize(query)
+    scored = []
+    for doc in docs:
+        score = sum(doc["tokens"].count(t) for t in tokens)
+        if score > 0:
+            scored.append({{"score": score, "file": doc["file"]}})
+    return sorted(scored, key=lambda x: -x["score"])[:top]
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="{description}")
+    parser.add_argument("--query", "-q", metavar="ЗАПРОС")
+    parser.add_argument("--top",         type=int, default=10)
+    args = parser.parse_args()
+
+    docs = build_index()
+
+    if args.query:
+        results = search(args.query, docs, top=args.top)
+        print(f"Результаты «{{args.query}}»: {{len(results)}}")
+        for r in results:
+            print(f"  [{{r['score']:4d}}] {{r['file']}}")
+        return
+
+    # REPL
+    print("\\nПоиск (Ctrl+C для выхода):")
+    while True:
+        try:
+            q = input("  > ").strip()
+        except (EOFError, KeyboardInterrupt):
+            break
+        if not q:
+            continue
+        results = search(q, docs, top=args.top)
+        for i, r in enumerate(results, 1):
+            print(f"  {{i:2}}. [{{r['score']:3d}}] {{r['file']}}")
+        print()
+
+
+if __name__ == "__main__":
+    main()
+""",
+
+    # ── Экспортёр: docs/ → внешний формат ─────────────────────────
+    "EXPORTER": """\
+\"\"\"
+{name}.py — {description}.
+Читает:  docs/**/*.md
+Пишет:   docs/{OUTPUT_LOWER}/ (каталог с преобразованными файлами)
+Запуск:  python scripts/{name}.py [--dry-run] [--section РАЗДЕЛ]
+\"\"\"
+import argparse
+from pathlib import Path
+
+ROOT    = Path(__file__).parent.parent
+DOCS    = ROOT / "docs"
+OUT_DIR = DOCS / "{OUTPUT_LOWER}"
+SKIP    = {{"README.md", "SUMMARIES.md"}}
+
+
+def convert(text: str, path: Path) -> str:
+    \"\"\"Конвертировать Markdown в целевой формат.\"\"\"
+    # TODO: реализовать конвертацию
+    return text
+
+
+def export_file(src: Path, dry_run: bool = False) -> Path | None:
+    \"\"\"Экспортировать один файл. Возвращает путь к результату.\"\"\"
+    try:
+        text = src.read_text(encoding="utf-8")
+    except Exception:
+        return None
+    converted = convert(text, src)
+    rel = src.relative_to(DOCS)
+    dst = OUT_DIR / rel.with_suffix(".txt")  # TODO: поменять расширение
+    if dry_run:
+        return dst
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    dst.write_text(converted, encoding="utf-8")
+    return dst
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="{description}")
+    parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument("--section", metavar="РАЗДЕЛ")
+    args = parser.parse_args()
+
+    root = DOCS / args.section if args.section else DOCS
+    done = skipped = 0
+    for f in sorted(root.rglob("*.md")):
+        if f.name in SKIP or f.is_relative_to(OUT_DIR):
+            skipped += 1
+            continue
+        dst = export_file(f, dry_run=args.dry_run)
+        if dst:
+            if args.dry_run:
+                print(f"  [dry-run] {{f.relative_to(DOCS)}} → {{dst.relative_to(DOCS)}}")
+            done += 1
+
+    label = "[dry-run] " if args.dry_run else ""
+    print(f"{{label}}экспортировано: {{done}}, пропущено: {{skipped}}")
+    if not args.dry_run:
+        print(f"✅ {{OUT_DIR.relative_to(ROOT)}}/")
+
+
+if __name__ == "__main__":
+    main()
+""",
 }
+
+PATTERN_DESCRIPTIONS = {
+    "REPORT":   "Читает docs/, пишет один выходной .md файл (отчёт/дашборд)",
+    "ENRICHER": "Читает и модифицирует docs/ in-place, добавляет блок с маркером",
+    "ANALYZER": "Анализирует docs/, пишет .md + .json (статистика/метрики)",
+    "SEARCHER": "Интерактивный REPL-поиск по docs/ с live-индексом",
+    "EXPORTER": "Экспортирует docs/ во внешний формат (каталог с файлами)",
+}
+
 
 def cmd_generate(name: str, pattern: str, description: str, dry_run: bool) -> None:
     """Генерирует новый скрипт по шаблону."""
+    if pattern == "list":
+        print("Доступные паттерны:")
+        for p, desc in PATTERN_DESCRIPTIONS.items():
+            print(f"  {p:<12} — {desc}")
+        return
     if pattern not in PATTERNS:
-        print(f"❌ Неизвестный паттерн: {pattern}")
-        print(f"   Доступные: {', '.join(PATTERNS)}")
+        print(f"❌ Неизвестный паттерн: {pattern}\n")
+        print("Доступные паттерны:")
+        for p, desc in PATTERN_DESCRIPTIONS.items():
+            print(f"  {p:<12} — {desc}")
         sys.exit(1)
 
     script_name = name if name.startswith("improve_") else f"improve_{name}"
@@ -534,20 +843,21 @@ def cmd_generate(name: str, pattern: str, description: str, dry_run: bool) -> No
         name=script_name,
         description=description,
         OUTPUT=output_name,
+        OUTPUT_LOWER=output_name.lower(),
     )
 
     GENERATED_DIR.mkdir(exist_ok=True)
     out_path = GENERATED_DIR / f"{script_name}.py"
 
-    header = f"# GENERATED by improve_self.py — проверить перед использованием\n"
+    header = f"# GENERATED by improve_self.py  pattern={pattern} — проверить перед использованием\n"
     content = header + content
 
-    print(f"\nПаттерн:  {pattern}")
+    print(f"\nПаттерн:  {pattern}  ({PATTERN_DESCRIPTIONS[pattern]})")
     print(f"Файл:     scripts/generated/{script_name}.py")
     print(f"Описание: {description}")
-    print(f"\n{'─'*50}")
-    print(content[:600])
-    print(f"{'─'*50}")
+    print(f"\n{'─'*55}")
+    print(content[:700])
+    print(f"{'─'*55}")
 
     if dry_run:
         print("\n[dry-run] Файл не создан. Добавьте --apply.")
@@ -555,8 +865,8 @@ def cmd_generate(name: str, pattern: str, description: str, dry_run: bool) -> No
 
     out_path.write_text(content, encoding="utf-8")
     print(f"\n✅ Создан: {out_path.relative_to(ROOT)}")
-    print(f"   Следующий шаг: проверить, потом:")
-    print(f"   mv {out_path} {SCRIPTS / out_path.name}")
+    print(f"   Проверить синтаксис: python -m py_compile {out_path}")
+    print(f"   Переместить:         mv {out_path} {SCRIPTS / out_path.name}")
 
 
 # ─────────────────────────────────────────────
@@ -629,7 +939,8 @@ def main() -> None:
     parser.add_argument("--cross-read", action="store_true", help="Сравнить скрипты и документацию")
     parser.add_argument("--generate",   action="store_true", help="Сгенерировать новый скрипт")
     parser.add_argument("--name",       metavar="ИМЯ",       help="Имя нового скрипта (для --generate)")
-    parser.add_argument("--pattern",    default="REPORT",    help="Паттерн: REPORT (по умолчанию)")
+    parser.add_argument("--pattern",    default="REPORT",
+                        help="Паттерн: REPORT|ENRICHER|ANALYZER|SEARCHER|EXPORTER|list")
     parser.add_argument("--description",metavar="ТЕКСТ",     help="Описание нового скрипта")
     parser.add_argument("--dry-run",    action="store_true", help="Показать план без изменений")
     parser.add_argument("--apply",      action="store_true", help="Применить изменения")
@@ -658,11 +969,13 @@ def main() -> None:
         cmd_cross_read()
 
     if args.generate:
-        if not args.name:
+        if not args.name and args.pattern != "list":
             print("❌ Для --generate нужно указать --name")
+            print("   Или: --generate --pattern list  чтобы увидеть паттерны")
             sys.exit(1)
-        desc = args.description or args.name.replace("_", " ")
-        cmd_generate(args.name, args.pattern, desc, dry_run=dry_run)
+        name = args.name or "_list_"
+        desc = args.description or (name.replace("_", " ") if name != "_list_" else "")
+        cmd_generate(name, args.pattern, desc, dry_run=dry_run)
 
 
 if __name__ == "__main__":

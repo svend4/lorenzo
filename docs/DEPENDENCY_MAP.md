@@ -1,28 +1,8 @@
 # Карта зависимостей скриптов
 
-<!-- summary -->
-> _Что каждый `improve_*.py` производит и от чего зависит._
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Зависимости](#зависимости)
-- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-
----
-
-<!-- tags: rag, orchestration, ingestion, roadmap, anthropic, self-improvement -->
-
-
-
-
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 126 · **Всего в репо:** 125
+**Скриптов в карте:** 126 · **Всего в репо:** 157
 
 ## Зависимости
 
@@ -155,6 +135,43 @@ _Что каждый `improve_*.py` производит и от чего зав
 | `improve_word_cloud.py` | `docs/WORD_CLOUD.svg`, `docs/WORD_CLOUD.md` | `docs/WORD_FREQ.md` |
 | `improve_word_freq.py` | `docs/WORD_FREQ.md` | `docs/**/*.md` |
 
+## Скрипты без карты зависимостей
+
+_Существуют в репо, но не добавлены в карту:_
+
+- `improve_audit_db.py`
+- `improve_auto_linker.py`
+- `improve_cross_section.py`
+- `improve_digest_auto.py`
+- `improve_empty_sections.py`
+- `improve_export_report.py`
+- `improve_faceted_search.py`
+- `improve_gap_filler.py`
+- `improve_heading_audit.py`
+- `improve_knowledge_map.py`
+- `improve_language_split.py`
+- `improve_mcp_dashboard.py`
+- `improve_mcp_test.py`
+- `improve_migrate_contacts.py`
+- `improve_passive_voice.py`
+- `improve_question_extractor.py`
+- `improve_reading_list.py`
+- `improve_registry.py`
+- `improve_scripts_catalog.py`
+- `improve_search_repl.py`
+- `improve_self.py`
+- `improve_similar_passages.py`
+- `improve_skill_dashboard.py`
+- `improve_status_badges.py`
+- `improve_task_codegen.py`
+- `improve_template_init.py`
+- `improve_template_integrity.py`
+- `improve_template_migrate.py`
+- `improve_textrank.py`
+- `improve_validate_templates.py`
+- `improve_workflow_run.py`
+- `improve_workflow_v2.py`
+
 ## Порядок запуска (рекомендуемый)
 
 ```
@@ -171,21 +188,3 @@ _Что каждый `improve_*.py` производит и от чего зав
 
 _Используй `python scripts/improve_run_all.py` для автоматического порядка._
 
-<!-- backlinks-auto -->
-## Упоминается в
-
-- [Changelog (авто)](CHANGELOG_AUTO.md)
-- [docs](README.md)
-- [Все таблицы репозитория](TABLES.md)
-- [Индекс документации — Lorenzo / Svyazi 2.0](INDEX.md)
-- [Карта репозитория Lorenzo](SITEMAP.md)
-
-<!-- related-auto -->
-## Связанные документы
-
-- [CHANGELOG](CHANGELOG.md) _25%_
-- [docs](README.md) _25%_
-- [Индекс тегов](TAGS.md) _21%_
-- [Changelog (авто)](CHANGELOG_AUTO.md) _17%_
-- [Прогресс MVP](PROGRESS.md) _17%_
-- [Бейджи репозитория](badges/README.md) _15%_

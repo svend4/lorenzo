@@ -20,6 +20,7 @@ docs/
   templates/           — шаблоны документов
   CONTACTS.md          — сводная таблица авторов и проектов
   ENTITIES.md          — упоминания проектов (22 проекта)
+  PROTOTYPE_SPEC.md    — спецификация прототипа Svyazi 2.0 (4 контракта + 4 итерации)
   DECISIONS.md         — ключевые архитектурные решения
   HEALTH.md            — балл здоровья репо (75/100)
   METRICS.md           — метрики качества документов (65.7/100)
@@ -36,9 +37,10 @@ docs/
   benchmark.json       — история замеров скриптов
 
 scripts/
-  improve_*.py           — 156 скриптов обработки документов (21 группа)
+  improve_*.py           — 157 скриптов обработки документов (21 группа)
   utils_chunker.py       — утилиты чанкинга для больших текстов
-  mcp_server.py          — MCP-сервер с 7 инструментами
+  mcp_server.py          — MCP-сервер с 11 инструментами (+ bm25_search, run_recipe, list_recipes)
+  improve_recipe.py      — система рецептов: 20 именованных цепочек скриптов (--list/--find/--run)
   improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
   improve_autofill.py    — заполняет шаблоны из данных других скриптов
   improve_contact_status.py — CLI для обновления статуса контактов
@@ -489,6 +491,44 @@ python scripts/improve_digest_weekly.py    # еженедельный дайдж
 | `docs/KPI_HISTORY.md` | История метрик (снапшоты с трендами) |
 | `docs/INDEX.md` | Главный навигационный хаб |
 | `docs/DEPENDENCY_MAP.md` | Карта зависимостей скриптов |
+| `docs/PROTOTYPE_SPEC.md` | Спецификация прототипа Svyazi 2.0 (4 контракта + 4 итерации) |
+
+### Рецепты (improve_recipe.py)
+```bash
+python scripts/improve_recipe.py --list               # все 20 рецептов
+python scripts/improve_recipe.py --find "поиск"       # найти рецепт по цели
+python scripts/improve_recipe.py --run morning-run    # ежедневный пайплайн
+python scripts/improve_recipe.py --run quality-check --dry-run  # план без запуска
+python scripts/improve_recipe.py --info full-index    # детали рецепта
+python scripts/improve_recipe.py --add my --desc "..." --scripts a.py b.py  # добавить
+```
+
+### Мета-аудит и генерация скриптов (improve_self.py)
+```bash
+python scripts/improve_self.py --audit                # аудит всех скриптов
+python scripts/improve_self.py --batch --dry-run      # план пакетного обогащения
+python scripts/improve_self.py --batch --apply        # добавить docstring + main-блок
+python scripts/improve_self.py --cross-read           # скрипты vs CLAUDE.md
+python scripts/improve_self.py --generate --pattern list          # список паттернов
+python scripts/improve_self.py --generate --name my_report --pattern REPORT --description "Мой отчёт"
+python scripts/improve_self.py --generate --name my_enricher --pattern ENRICHER --description "Обогащение"
+python scripts/improve_self.py --generate --name my_analyzer --pattern ANALYZER --description "Анализ"
+python scripts/improve_self.py --generate --name my_searcher --pattern SEARCHER --description "Поиск"
+python scripts/improve_self.py --generate --name my_exporter --pattern EXPORTER --description "Экспорт"
+```
+
+### Интерактивный поиск (improve_search_repl.py)
+```bash
+python scripts/improve_search_repl.py                    # интерактивный REPL
+python scripts/improve_search_repl.py --query "агент"   # разовый поиск
+python scripts/improve_search_repl.py --index           # пересобрать live-индекс
+# В REPL:
+#   <запрос>          BM25-поиск по абзацам
+#   :full <запрос>    полнотекстовый поиск
+#   :list <запрос>    список файлов с временем чтения
+#   :related <файл>   похожие документы (Jaccard)
+#   :top              топ-10 файлов по абзацам
+```
 
 ## Важные предупреждения
 
