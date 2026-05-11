@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T09:08:23+00:00</updated>
+  <updated>2026-05-11T09:13:18+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/3c00c354a787cdef4e2273e49591b66bd964cc37</id>
+    <title>test: +51 тест — test_embedding_index.py + test_badges.py; итого 286</title>
+    <link href="https://github.com/svend4/lorenzo/commit/3c00c354a787cdef4e2273e49591b66bd964cc37"/>
+    <updated>2026-05-11T09:09:21+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>test: +51 тест — test_embedding_index.py + test_badges.py; итого 286</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/CHANGELOG_AUTO.md">docs/obsidian/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/CITATION_INDEX.md">docs/obsidian/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/DEPENDABOT.md">docs/obsidian/DEPENDABOT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/DEPENDENCY_MAP.md">docs/obsidian/DEPENDENCY_MAP.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/DIGEST_WEEKLY.md">docs/obsidian/DIGEST_WEEKLY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/GITHUB_ISSUES.md">docs/obsidian/GITHUB_ISSUES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/OUTLINE.md">docs/obsidian/OUTLINE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li></ul><p>Коммит: <code>3c00c354</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/a833ea0b5ac52f78f635e55715ad5707faaf3839</id>
     <title>test: +27 тестов — test_passage_retrieval.py; итого 235 тестов</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/80bb9e4210dce340a7923a68b8fe9b792e6dd8d5"/>
     <updated>2026-05-11T08:06:48+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: авто-перегенерация зеркал obsidian/ confluence/ и индексов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCORING.md">docs/SCORING.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/QA.md">docs/obsidian/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/02-anthropic-vacancies/QA.md">docs/obsidian/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/03-technology-combinations/QA.md">docs/obsidian/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/04-ai-collaborations/QA.md">docs/obsidian/04-ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/05-habr-projects/QA.md">docs/obsidian/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/ABBREVIATIONS.md">docs/obsidian/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/ACTION_ITEMS.md">docs/obsidian/ACTION_ITEMS.md</a></li></ul><p>Коммит: <code>80bb9e42</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/82c7db84c1c562b76a3c31bbd65bfa08ec80d4fc</id>
-    <title>feat: автодетектирование milestone прототипа и тестирования в PROGRESS.md</title>
-    <link href="https://github.com/svend4/lorenzo/commit/82c7db84c1c562b76a3c31bbd65bfa08ec80d4fc"/>
-    <updated>2026-05-11T08:02:31+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: автодетектирование milestone прототипа и тестирования в PROGRESS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>82c7db84</code></p>]]></content>
   </entry>
 </feed>
