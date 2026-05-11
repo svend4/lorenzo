@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 09:18:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 09:23:33 GMT</lastBuildDate>
+    <item>
+      <title>test: +54 теста — test_status_badges.py + test_autofill.py; итого 394</title>
+      <link>https://github.com/svend4/lorenzo/commit/cda0f08a4a5302254cba843764c8e6d86f9f7d0c</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/cda0f08a4a5302254cba843764c8e6d86f9f7d0c</guid>
+      <pubDate>Mon, 11 May 2026 09:19:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>test: +54 теста — test_status_badges.py + test_autofill.py; итого 394</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li></ul><p>Коммит: <code>cda0f08a</code></p>]]></description>
+    </item>
     <item>
       <title>test: +54 теста — test_metrics.py + test_migrate_contacts.py; итого 340</title>
       <link>https://github.com/svend4/lorenzo/commit/c34d758c394f6acd54f57b805154d8e19f247093</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b5efba6c625a76b1716b19470ca63f966ffa466f</guid>
       <pubDate>Mon, 11 May 2026 08:23:39 GMT</pubDate>
       <description><![CDATA[<p><strong>feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROTOTYPE_SPEC.md">docs/PROTOTYPE_SPEC.md</a></li></ul><p>Коммит: <code>b5efba6c</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: обновление каталогов после gateway.py + тестов</title>
-      <link>https://github.com/svend4/lorenzo/commit/7ffc3e02e3f3e441b9b3cf7389a5208edb554ef0</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/7ffc3e02e3f3e441b9b3cf7389a5208edb554ef0</guid>
-      <pubDate>Mon, 11 May 2026 08:15:23 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: обновление каталогов после gateway.py + тестов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>7ffc3e02</code></p>]]></description>
     </item>
   </channel>
 </rss>
