@@ -201,3 +201,13 @@ _Полная дорожная карта: [01-svyazi/12-roadmap.md](01-svyazi/1
 # Запуск
 python scripts/improve_narrative.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NARRATIVE](obsidian/NARRATIVE.md) (сходство 0.98)
+- [13-contacts](01-svyazi/13-contacts.md) (сходство 0.21)
+- [13-contacts](obsidian/01-svyazi/13-contacts.md) (сходство 0.21)
+

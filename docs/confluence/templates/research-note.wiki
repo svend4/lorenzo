@@ -66,3 +66,13 @@ h2. Использование
 # Запуск
 python scripts/improve_research_note.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [research-note|../obsidian/templates/research-note.md] (сходство 0.93)
+* [research-summary|../obsidian/autofilled/research-summary.md] (сходство 0.45)
+* [research-summary|../autofilled/research-summary.md] (сходство 0.44)
+

@@ -231,3 +231,28 @@ h2. Смотрите также
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
 * [Контакты|CONTACTS.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_ORDER|READING_ORDER.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [KPI|obsidian/KPI.md] (сходство 0.99)
+* [TIMELINE|TIMELINE.md] (сходство 0.18)
+* [SUMMARIES|SUMMARIES.md] (сходство 0.13)
+

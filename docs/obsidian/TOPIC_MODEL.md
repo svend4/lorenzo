@@ -199,3 +199,25 @@ python scripts/improve_topic_model.py
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[TOPIC_MODEL]] (сходство 0.99)
+- [[BACKLINKS]] (сходство 0.23)
+- [[SEE_ALSO]] (сходство 0.22)
+

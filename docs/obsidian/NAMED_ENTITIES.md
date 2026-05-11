@@ -483,3 +483,29 @@ python scripts/improve_named_entities.py
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[CODE_BLOCKS]]
+- [[COMPARE]]
+- [[CONTENT_GAPS]]
+- [[LINK_PREVIEW]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[NAMED_ENTITIES]] (сходство 0.96)
+- [[BACKLINKS]] (сходство 0.25)
+- [[SEE_ALSO]] (сходство 0.25)
+

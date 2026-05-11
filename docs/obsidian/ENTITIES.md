@@ -172,3 +172,29 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_entities.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (49):**
+- [[354-существующий-landscape-collaborators-твоя-working-]]
+- [[ACTION_ITEMS]]
+- [[CHANGELOG_AUTO]]
+- [[CITATION_INDEX]]
+- [[COMPLEXITY]]
+- [[COMPONENT_MATRIX]]
+- [[CONCEPT_GRAPH]]
+- [[CONTRADICTIONS]]
+- _...ещё 41_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[ENTITIES]] (сходство 0.80)
+- [[NETWORK]] (сходство 0.40)
+- [[NETWORK]] (сходство 0.38)
+

@@ -185,3 +185,29 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (15):_
+* [[HEALTH]]
+* [[LLM_SUMMARIES]]
+* [[METRICS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* _...ещё 7_
+
+
+
+
+----
+
+_Похожие документы:_
+* [[CONCEPT_GRAPH]] (сходство 0.92)
+* [[KEYWORD_INDEX]] (сходство 0.42)
+* [[CROSS_SECTION]] (сходство 0.40)
+

@@ -131,3 +131,27 @@ python scripts/improve_vocabulary.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](CONCEPTS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VOCABULARY](obsidian/VOCABULARY.md) (сходство 0.97)
+- [COMPLEXITY](obsidian/COMPLEXITY.md) (сходство 0.22)
+- [COMPLEXITY](COMPLEXITY.md) (сходство 0.22)
+

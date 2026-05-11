@@ -140,3 +140,27 @@ python scripts/improve_vocabulary.py
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[VOCABULARY]] (сходство 0.97)
+- [[COMPLEXITY]] (сходство 0.22)
+- [[COMPLEXITY]] (сходство 0.22)
+

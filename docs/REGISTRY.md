@@ -202,3 +202,29 @@ python scripts/improve_task_codegen.py
 # Реестр артефактов (этот файл)
 python scripts/improve_registry.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (28):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [agent-spec](templates/agent-spec.md)
+- [contact-outreach](templates/contact-outreach.md)
+- _...ещё 20_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [REGISTRY](obsidian/REGISTRY.md) (сходство 0.99)
+- [VALIDATION](obsidian/VALIDATION.md) (сходство 0.35)
+- [VALIDATION](VALIDATION.md) (сходство 0.35)
+

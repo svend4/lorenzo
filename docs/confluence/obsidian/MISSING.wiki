@@ -111,3 +111,13 @@ h2. Использование
 # Запуск
 python scripts/improve_missing.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[MISSING]] (сходство 0.97)
+* [[CONSISTENCY]] (сходство 0.29)
+* [[CONSISTENCY]] (сходство 0.28)
+

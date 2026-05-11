@@ -163,3 +163,29 @@
 # Запуск
 python scripts/improve_entities.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (49):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- _...ещё 41_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ENTITIES](obsidian/ENTITIES.md) (сходство 0.80)
+- [NETWORK](NETWORK.md) (сходство 0.40)
+- [NETWORK](obsidian/NETWORK.md) (сходство 0.38)
+

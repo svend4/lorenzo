@@ -306,3 +306,13 @@ _...ещё 64 записей в этой категории_
 
 _...ещё 998 записей в этой категории_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DECISIONS](obsidian/DECISIONS.md) (сходство 1.00)
+- [SUMMARIES](obsidian/SUMMARIES.md) (сходство 0.17)
+- [SUMMARIES](SUMMARIES.md) (сходство 0.17)
+

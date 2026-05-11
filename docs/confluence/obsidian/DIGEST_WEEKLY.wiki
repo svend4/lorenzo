@@ -121,3 +121,29 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [[BROKEN_LINKS]]
+* [[HEALTH]]
+* [[INDEX]]
+* [[LINK_PREVIEW]]
+* [[METRICS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* _...ещё 3_
+
+
+
+
+----
+
+_Похожие документы:_
+* [[DIGEST_WEEKLY]] (сходство 0.93)
+* [[DIGEST_AUTO]] (сходство 0.35)
+* [[METRICS]] (сходство 0.32)
+

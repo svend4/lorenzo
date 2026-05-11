@@ -347,3 +347,13 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_tasks_index.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TASKS_INDEX](obsidian/TASKS_INDEX.md) (сходство 0.98)
+- [REGISTRY](REGISTRY.md) (сходство 0.29)
+- [REGISTRY](obsidian/REGISTRY.md) (сходство 0.29)
+

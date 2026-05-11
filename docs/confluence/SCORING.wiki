@@ -93,3 +93,13 @@ h2. Использование
 # Запуск
 python scripts/improve_scoring.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [SCORING|obsidian/SCORING.md] (сходство 0.97)
+* [COVERAGE|COVERAGE.md] (сходство 0.21)
+* [DENSITY|DENSITY.md] (сходство 0.21)
+

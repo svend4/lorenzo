@@ -289,3 +289,13 @@ _Обновлено: 2026-05-11_
 - [SPELLCHECK](SPELLCHECK.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LINKS](obsidian/LINKS.md) (сходство 0.48)
+- [LINKS](LINKS.md) (сходство 0.44)
+- [CITATION_INDEX](CITATION_INDEX.md) (сходство 0.31)
+

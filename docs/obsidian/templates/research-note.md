@@ -69,3 +69,13 @@ _Создано: 2026-05-11_
 # Запуск
 python scripts/improve_research_note.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[research-note]] (сходство 0.93)
+- [[research-summary]] (сходство 0.45)
+- [[research-summary]] (сходство 0.44)
+

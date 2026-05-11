@@ -72,3 +72,13 @@ _Чем выше балл — тем важнее написать первым.
 - [README](README.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACT_PRIORITY](obsidian/CONTACT_PRIORITY.md) (сходство 0.96)
+- [MINDMAP](MINDMAP.md) (сходство 0.36)
+- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.36)
+

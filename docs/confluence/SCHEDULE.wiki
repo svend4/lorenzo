@@ -87,3 +87,13 @@ _Кто ссылается на этот документ (7):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [SCHEDULE|obsidian/SCHEDULE.md] (сходство 0.97)
+* [MINDMAP|MINDMAP.md] (сходство 0.27)
+* [MINDMAP|obsidian/MINDMAP.md] (сходство 0.27)
+

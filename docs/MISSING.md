@@ -100,3 +100,13 @@
 # Запуск
 python scripts/improve_missing.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MISSING](obsidian/MISSING.md) (сходство 0.97)
+- [CONSISTENCY](CONSISTENCY.md) (сходство 0.29)
+- [CONSISTENCY](obsidian/CONSISTENCY.md) (сходство 0.28)
+

@@ -445,3 +445,29 @@ python scripts/improve_contradictions.py
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [[08-conclusions]]
+- [[08-что-это-продолжение-добавляет]]
+- [[HEALTH]]
+- [[METRICS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[CONTRADICTIONS]] (сходство 0.98)
+- [[SIMILAR_PASSAGES]] (сходство 0.19)
+- [[SIMILAR_PASSAGES]] (сходство 0.19)
+

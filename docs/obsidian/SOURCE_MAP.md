@@ -1849,3 +1849,28 @@ python scripts/improve_source_map.py --dry-run
 - [[ACTION_ITEMS|Задачи]]
 - [[TIMELINE|Хронология]]
 - [[OUTLINE|Структура]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[307-abstract]]
+- [[CLUSTERS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[SOURCE_MAP]] (сходство 1.00)
+- [[READING_TIME]] (сходство 0.81)
+- [[READABILITY]] (сходство 0.81)
+

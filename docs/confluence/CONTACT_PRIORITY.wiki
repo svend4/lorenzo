@@ -76,3 +76,13 @@ _Кто ссылается на этот документ (14):_
 * [README|README.md]
 * _...ещё 6_
 
+
+
+
+----
+
+_Похожие документы:_
+* [CONTACT_PRIORITY|obsidian/CONTACT_PRIORITY.md] (сходство 0.96)
+* [MINDMAP|MINDMAP.md] (сходство 0.36)
+* [MINDMAP|obsidian/MINDMAP.md] (сходство 0.36)
+

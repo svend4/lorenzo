@@ -90,3 +90,13 @@ h2. Использование
 # Запуск
 python scripts/improve_digest.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[DIGEST]] (сходство 0.97)
+* [[DIGEST_AUTO]] (сходство 0.36)
+* [[DIGEST_AUTO]] (сходство 0.35)
+

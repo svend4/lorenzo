@@ -74,3 +74,13 @@ h2. Использование
 # Запуск
 python scripts/improve_research_note.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[research-note]] (сходство 0.93)
+* [[research-summary]] (сходство 0.45)
+* [[research-summary]] (сходство 0.44)
+

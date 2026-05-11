@@ -1119,3 +1119,28 @@ python scripts/improve_language_stats.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CLUSTERS](CLUSTERS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SCORING](SCORING.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LANGUAGE_STATS](obsidian/LANGUAGE_STATS.md) (сходство 1.00)
+- [READING_TIME](obsidian/READING_TIME.md) (сходство 0.81)
+- [READING_TIME](READING_TIME.md) (сходство 0.80)
+

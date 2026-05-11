@@ -125,3 +125,29 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 # Запуск
 python scripts/improve_digest_auto.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 13_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) (сходство 0.91)
+- [DIGEST](DIGEST.md) (сходство 0.35)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.35)
+

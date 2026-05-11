@@ -174,3 +174,29 @@ graph TD
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [HEALTH](HEALTH.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 7_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.92)
+- [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) (сходство 0.42)
+- [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.40)
+

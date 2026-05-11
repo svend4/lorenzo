@@ -128,3 +128,29 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[CONCEPTS]]
+* [[INDEX]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+* _...ещё 2_
+
+
+
+
+----
+
+_Похожие документы:_
+* [[TECH_RADAR]] (сходство 0.97)
+* [[COMPONENT_MATRIX]] (сходство 0.25)
+* [[COMPONENT_MATRIX]] (сходство 0.21)
+

@@ -181,3 +181,29 @@ graph TD
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (15):**
+- [[HEALTH]]
+- [[LLM_SUMMARIES]]
+- [[METRICS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 7_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[CONCEPT_GRAPH]] (сходство 0.92)
+- [[KEYWORD_INDEX]] (сходство 0.42)
+- [[CROSS_SECTION]] (сходство 0.40)
+

@@ -282,3 +282,13 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 # Запуск
 python scripts/improve_faq.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FAQ](obsidian/FAQ.md) (сходство 0.98)
+- [QA](QA.md) (сходство 0.18)
+- [QA](obsidian/QA.md) (сходство 0.18)
+

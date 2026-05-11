@@ -107,3 +107,13 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_missing.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[MISSING]] (сходство 0.97)
+- [[CONSISTENCY]] (сходство 0.29)
+- [[CONSISTENCY]] (сходство 0.28)
+

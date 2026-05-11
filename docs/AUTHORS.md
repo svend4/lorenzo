@@ -1,16 +1,5 @@
 # Авторы и коллаборации
 
-> [!NOTE]
-> Раздел `AUTHORS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: authors, docs -->
-
-
-<!-- summary -->
-> `AUTHORS` — раздел документации проекта Lorenzo.
-
-
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
@@ -18,18 +7,18 @@
 | **AnastasiyaW** | 135 |
 | **Antipozitive** | 85 |
 | **BerriAI** | 22 |
-| **Cutcode** | 73 |
-| **Dmitriila** | 65 |
-| **MiXaiLL76** | 61 |
+| **Cutcode** | 71 |
+| **Dmitriila** | 63 |
+| **MiXaiLL76** | 59 |
 | **Sonia_Black** | 41 |
 | **VitaliySemenov** | 33 |
-| **VitalyOborin** | 113 |
-| **VladSpace** | 85 |
+| **VitalyOborin** | 109 |
+| **VladSpace** | 81 |
 | **akazant** | 18 |
 | **akzhankalimatov** | 14 |
 | **andrey_chuyan** | 33 |
 | **iximy** | 18 |
-| **kksudo** | 197 |
+| **kksudo** | 195 |
 | **lee-to** | 22 |
 | **lib4u** | 30 |
 | **moshael** | 26 |
@@ -38,14 +27,15 @@
 | **tagir_analyzes** | 29 |
 | **vpakspace** | 16 |
 | **zodigancode** | 95 |
-| **Андрей Чуян** | 70 |
-| **Виталий Оборин** | 16 |
+| **Андрей Чуян** | 76 |
+| **Виталий Оборин** | 20 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
@@ -53,12 +43,15 @@
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
-- [README](contacts/README.md)
+- _...ещё 1_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_authors.py
-```
+---
+
+**Похожие документы:**
+- [AUTHORS](obsidian/AUTHORS.md) (сходство 0.70)
+- [README](obsidian/contacts/README.md) (сходство 0.39)
+- [README](contacts/README.md) (сходство 0.39)
+

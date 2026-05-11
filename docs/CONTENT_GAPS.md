@@ -378,3 +378,13 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_content_gaps.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.26)
+- [CODE_BLOCKS](CODE_BLOCKS.md) (сходство 0.24)
+- [CODE_BLOCKS](obsidian/CODE_BLOCKS.md) (сходство 0.23)
+

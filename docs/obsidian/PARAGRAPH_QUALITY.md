@@ -7520,3 +7520,28 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [[ACTION_ITEMS|Задачи]]
 - [[TIMELINE|Хронология]]
 - [[OUTLINE|Структура]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[CODE_BLOCKS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[PARAGRAPH_QUALITY]] (сходство 1.00)
+- [[HEADING_AUDIT]] (сходство 0.97)
+- [[HEADING_AUDIT]] (сходство 0.97)
+

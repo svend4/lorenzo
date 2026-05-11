@@ -54,3 +54,28 @@ _Запускать регулярно для получения трендов.
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [QA](svyazi-2-0/QA.md)
+- [kpi-snapshot](templates/kpi-snapshot.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI_HISTORY](obsidian/KPI_HISTORY.md) (сходство 0.90)
+- [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.42)
+- [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.40)
+

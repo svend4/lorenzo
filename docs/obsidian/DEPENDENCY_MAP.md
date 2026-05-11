@@ -236,3 +236,29 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[CHANGELOG]]
+- [[HEALTH]]
+- [[INDEX]]
+- [[METRICS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[DEPENDENCY_MAP]] (сходство 0.99)
+- [[README]] (сходство 0.25)
+- [[README]] (сходство 0.25)
+

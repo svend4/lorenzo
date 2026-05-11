@@ -65,3 +65,13 @@ h2. Использование
 # Запуск
 python scripts/improve_project_component.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [project-component|../obsidian/templates/project-component.md] (сходство 0.95)
+* [contact-outreach|contact-outreach.md] (сходство 0.32)
+* [ensemble|ensemble.md] (сходство 0.32)
+

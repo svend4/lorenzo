@@ -1125,3 +1125,13 @@ _`docs/templates/` — 23 файлов_
 | 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 363 |
 | 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 382 |
 | 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 367 |
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[SITEMAP]] (сходство 0.96)
+- [[SEARCH]] (сходство 0.50)
+- [[READABILITY]] (сходство 0.49)
+

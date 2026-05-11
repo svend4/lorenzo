@@ -84,3 +84,13 @@ h2. Использование
 # Запуск
 python scripts/improve_see_also.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[SEE_ALSO]] (сходство 0.95)
+* [[BACKLINKS]] (сходство 0.27)
+* [[BACKLINKS]] (сходство 0.26)
+

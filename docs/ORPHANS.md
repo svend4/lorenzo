@@ -54,3 +54,13 @@ _Эти документы не связаны с остальными — их 
 # Запуск
 python scripts/improve_orphans.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ORPHANS](obsidian/ORPHANS.md) (сходство 0.95)
+- [README](obsidian/technology-combinations/synthesis-tables/README.md) (сходство 0.31)
+- [README](obsidian/svyazi-2-0/limitations/README.md) (сходство 0.31)
+

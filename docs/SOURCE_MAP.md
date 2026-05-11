@@ -1842,3 +1842,28 @@ python scripts/improve_source_map.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [307-abstract](02-anthropic-vacancies/307-abstract.md)
+- [CLUSTERS](CLUSTERS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SOURCE_MAP](obsidian/SOURCE_MAP.md) (сходство 1.00)
+- [READING_TIME](READING_TIME.md) (сходство 0.81)
+- [READABILITY](READABILITY.md) (сходство 0.81)
+

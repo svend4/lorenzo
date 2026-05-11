@@ -99,3 +99,13 @@ _Кто ссылается на этот документ (11):_
 * [READING_TIME|READING_TIME.md]
 * _...ещё 3_
 
+
+
+
+----
+
+_Похожие документы:_
+* [PROGRESS|obsidian/PROGRESS.md] (сходство 0.97)
+* [KEYWORD_INDEX|obsidian/KEYWORD_INDEX.md] (сходство 0.22)
+* [KEYWORD_INDEX|KEYWORD_INDEX.md] (сходство 0.20)
+

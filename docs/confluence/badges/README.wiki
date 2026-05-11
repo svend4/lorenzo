@@ -57,3 +57,13 @@ _Кто ссылается на этот документ (8):_
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.
+
+
+
+----
+
+_Похожие документы:_
+* [README|../obsidian/badges/README.md] (сходство 0.92)
+* [README|../obsidian/svyazi-2-0/limitations/README.md] (сходство 0.56)
+* [README|../obsidian/technology-combinations/synthesis-tables/README.md] (сходство 0.53)
+

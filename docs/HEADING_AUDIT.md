@@ -7337,3 +7337,27 @@ python scripts/improve_heading_audit.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CLUSTERS](CLUSTERS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) (сходство 1.00)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) (сходство 0.97)
+- [PARAGRAPH_QUALITY](obsidian/PARAGRAPH_QUALITY.md) (сходство 0.97)
+

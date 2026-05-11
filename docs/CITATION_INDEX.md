@@ -245,3 +245,29 @@ python scripts/improve_citation_index.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [HEALTH](HEALTH.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [METRICS](METRICS.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CITATION_INDEX](obsidian/CITATION_INDEX.md) (сходство 0.96)
+- [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.31)
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.26)
+

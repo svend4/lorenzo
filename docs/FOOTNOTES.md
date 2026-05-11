@@ -77,3 +77,13 @@
 - [README](README.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FOOTNOTES](obsidian/FOOTNOTES.md) (сходство 0.97)
+- [GRAPH](GRAPH.md) (сходство 0.28)
+- [GRAPH](obsidian/GRAPH.md) (сходство 0.27)
+

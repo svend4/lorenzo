@@ -38,3 +38,29 @@ date: 2026-05-11
 ## Подразделы
 
 - [_schemas/](_schemas/) — _schemas
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (29):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[research-summary]]
+- [[agent-spec]]
+- [[contact-outreach]]
+- _...ещё 21_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[README]] (сходство 0.88)
+- [[README]] (сходство 0.23)
+- [[README]] (сходство 0.22)
+

@@ -234,3 +234,28 @@ python scripts/improve_kpi.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_ORDER](READING_ORDER.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI](obsidian/KPI.md) (сходство 0.99)
+- [TIMELINE](TIMELINE.md) (сходство 0.18)
+- [SUMMARIES](SUMMARIES.md) (сходство 0.13)
+

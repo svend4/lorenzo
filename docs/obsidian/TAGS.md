@@ -85,3 +85,29 @@ date: 2026-05-11
 - `docs/obsidian/OUTLINE.md`
 - `docs/obsidian/PROGRESS.md`
 - `docs/obsidian/REPORT.md`
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (21):**
+- [[ACTION_ITEMS]]
+- [[CONSISTENCY]]
+- [[CROSS_SECTION]]
+- [[EMPTY_SECTIONS]]
+- [[HEADING_AUDIT]]
+- [[INDEX]]
+- [[LANGUAGE_STATS]]
+- [[LLM_SUMMARIES]]
+- _...ещё 13_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[TAGS]] (сходство 0.59)
+- [[MINDMAP]] (сходство 0.19)
+- [[MINDMAP]] (сходство 0.18)
+

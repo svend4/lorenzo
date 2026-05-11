@@ -308,3 +308,29 @@ python scripts/improve_changelog_auto.py
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [[CHANGELOG]]
+- [[CONTACTS]]
+- [[DIGEST_AUTO]]
+- [[HEALTH]]
+- [[INDEX]]
+- [[METRICS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 4_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[CHANGELOG_AUTO]] (сходство 0.99)
+- [[CHANGELOG]] (сходство 0.57)
+- [[CHANGELOG]] (сходство 0.57)
+

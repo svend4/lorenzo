@@ -67,3 +67,13 @@ _Создано: 2026-05-11_
 - [README](README.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ensemble](../obsidian/templates/ensemble.md) (сходство 0.91)
+- [project-component](project-component.md) (сходство 0.32)
+- [project-component](../obsidian/templates/project-component.md) (сходство 0.31)
+

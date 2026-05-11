@@ -70,3 +70,13 @@ _Дата: 2026-05-11_
 # Запуск
 python scripts/improve_decision_record.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[decision-record]] (сходство 0.95)
+- [[ensemble]] (сходство 0.30)
+- [[ensemble]] (сходство 0.30)
+

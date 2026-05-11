@@ -72,3 +72,13 @@
 # Запуск
 python scripts/improve_see_also.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](obsidian/SEE_ALSO.md) (сходство 0.95)
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.27)
+- [BACKLINKS](BACKLINKS.md) (сходство 0.26)
+

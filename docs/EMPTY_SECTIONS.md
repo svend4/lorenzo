@@ -7954,3 +7954,29 @@ python scripts/improve_empty_sections.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CONTACTS](CONTACTS.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SCORING](SCORING.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) (сходство 1.00)
+- [HEADING_AUDIT](HEADING_AUDIT.md) (сходство 0.65)
+- [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) (сходство 0.65)
+

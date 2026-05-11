@@ -476,3 +476,29 @@ h2. Смотрите также
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [COMPARE|COMPARE.md]
+* [CONTENT_GAPS|CONTENT_GAPS.md]
+* [LINK_PREVIEW|LINK_PREVIEW.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 2_
+
+
+
+
+----
+
+_Похожие документы:_
+* [NAMED_ENTITIES|obsidian/NAMED_ENTITIES.md] (сходство 0.96)
+* [BACKLINKS|obsidian/BACKLINKS.md] (сходство 0.25)
+* [SEE_ALSO|SEE_ALSO.md] (сходство 0.25)
+

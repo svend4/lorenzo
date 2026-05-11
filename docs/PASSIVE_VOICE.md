@@ -64,3 +64,28 @@ python scripts/improve_passive_voice.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [15-appendix-c-history](nautilus/review-methodology/15-appendix-c-history.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) (сходство 0.92)
+- [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.34)
+- [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.33)
+

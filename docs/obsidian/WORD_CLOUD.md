@@ -75,3 +75,13 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_word_cloud.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[WORD_CLOUD]] (сходство 0.95)
+- [[README]] (сходство 0.33)
+- [[README]] (сходство 0.33)
+

@@ -120,3 +120,13 @@ _Минимальный сценарий: open source + личное время 
 # Запуск
 python scripts/improve_cost.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COST](obsidian/COST.md) (сходство 0.98)
+- [SCHEDULE](SCHEDULE.md) (сходство 0.19)
+- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.19)
+

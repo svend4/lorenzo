@@ -6,30 +6,11 @@
 ----
 title: "Похожие документы"
 tags:
-  * ingestion
-  * collaboration
   * general
 date: 2026-05-11
 ----
 
 h1. Похожие документы
-
-
-
-
-{quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
-_Проекты:_ Svyazi
-
-----
-
-
-
-
-
-{quote}[!NOTE]{quote}
-{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
-
-
 
 _Файлов проанализировано:_ 2468
 
@@ -38,6 +19,7 @@ _Файлов проанализировано:_ 2468
 h2. Топ-20 самых похожих пар
 
 || Сходство || Файл A || Файл B ||
+|| 1.000 || `02-why-document-exists.md` || `01-missing-middle-layer.md` ||
 || 1.000 || `svyazi.md` || `svend4.md` ||
 || 1.000 || `svyazi.md` || `sgb.md` ||
 || 1.000 || `svyazi.md` || `nautilus.md` ||
@@ -54,10 +36,9 @@ h2. Топ-20 самых похожих пар
 || 1.000 || `cowork.md` || `svend4.md` ||
 || 1.000 || `cowork.md` || `sgb.md` ||
 || 1.000 || `TABLES.md` || `TABLES.md` ||
+|| 1.000 || `02-why-document-exists.md` || `01-missing-middle-layer.md` ||
+|| 1.000 || `README.md` || `README.md` ||
 || 1.000 || `svyazi.md` || `svend4.md` ||
-|| 1.000 || `svyazi.md` || `sgb.md` ||
-|| 1.000 || `svyazi.md` || `nautilus.md` ||
-|| 1.000 || `svend4.md` || `sgb.md` ||
 
 h2. По разделам
 
@@ -70,13 +51,18 @@ h3. autofilled
 * {{svend4.md}} ↔ {{sgb.md}} (1.000)
 * {{svend4.md}} ↔ {{nautilus.md}} (1.000)
 
+h3. nautilus
+
+* {{02-why-document-exists.md}} ↔ {{01-missing-middle-layer.md}} (1.000)
+* {{README.md}} ↔ {{README.md}} (1.000)
+
 h3. obsidian
 
+* {{02-why-document-exists.md}} ↔ {{01-missing-middle-layer.md}} (1.000)
 * {{svyazi.md}} ↔ {{svend4.md}} (1.000)
 * {{svyazi.md}} ↔ {{sgb.md}} (1.000)
 * {{svyazi.md}} ↔ {{nautilus.md}} (1.000)
 * {{svend4.md}} ↔ {{sgb.md}} (1.000)
-* {{svend4.md}} ↔ {{nautilus.md}} (1.000)
 
 h3. processing-guide
 
@@ -85,17 +71,3 @@ h3. processing-guide
 h3. svyazi-2-0
 
 * {{projects-map.md}} ↔ {{projects-map.md}} (0.995)
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_similar.py
-{code}
-
-h2. Смотрите также
-* [[README|Главная]]
-* [[METRICS|Метрики]]
-* [[HEALTH|Здоровье]]
-* [[GLOSSARY|Глоссарий]]
-* [[ENTITIES|Сущности]]

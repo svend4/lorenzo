@@ -7524,3 +7524,28 @@ h2. Смотрите также
 * [[ACTION_ITEMS|Задачи]]
 * [[TIMELINE|Хронология]]
 * [[OUTLINE|Структура]]
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [[321-appendix-a-decision-tree-for-ingit-adopters]]
+* [[CODE_BLOCKS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+
+
+
+
+----
+
+_Похожие документы:_
+* [[PARAGRAPH_QUALITY]] (сходство 1.00)
+* [[HEADING_AUDIT]] (сходство 0.97)
+* [[HEADING_AUDIT]] (сходство 0.97)
+

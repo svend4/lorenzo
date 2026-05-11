@@ -679,3 +679,13 @@ _Кто ссылается на этот документ (11):_
 * [READING_TIME|READING_TIME.md]
 * _...ещё 3_
 
+
+
+
+----
+
+_Похожие документы:_
+* [GRAPH|obsidian/GRAPH.md] (сходство 0.96)
+* [MINDMAP|MINDMAP.md] (сходство 0.49)
+* [MINDMAP|obsidian/MINDMAP.md] (сходство 0.48)
+

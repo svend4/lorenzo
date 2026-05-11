@@ -403,3 +403,27 @@ python scripts/improve_summaries.py --dry-run
 - [Оценка](SCORING.md)
 - [Теги](TAGS.md)
 - [Задачи](ACTION_ITEMS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](CONCEPTS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SUMMARIES](obsidian/SUMMARIES.md) (сходство 1.00)
+- [READING_ORDER](READING_ORDER.md) (сходство 0.22)
+- [READING_ORDER](obsidian/READING_ORDER.md) (сходство 0.22)
+

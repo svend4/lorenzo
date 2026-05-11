@@ -107,3 +107,13 @@ python scripts/improve_sentinel_check.py --section 05-habr-projects
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SENTINEL](obsidian/SENTINEL.md) (сходство 0.96)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.16)
+- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.16)
+

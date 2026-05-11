@@ -216,3 +216,13 @@ _Полная дорожная карта: [[12-roadmap|01-svyazi/12-roadmap.md]
 # Запуск
 python scripts/improve_narrative.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[NARRATIVE]] (сходство 0.98)
+- [[13-contacts]] (сходство 0.21)
+- [[13-contacts]] (сходство 0.21)
+

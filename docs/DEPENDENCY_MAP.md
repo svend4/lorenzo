@@ -229,3 +229,29 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CHANGELOG](CHANGELOG.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) (сходство 0.99)
+- [README](README.md) (сходство 0.25)
+- [README](obsidian/README.md) (сходство 0.25)
+

@@ -69,3 +69,13 @@ _Создано: 2026-05-11_
 - [[README]]
 - [[meeting-notes]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[contact-outreach]] (сходство 0.94)
+- [[tagir-analyzes]] (сходство 0.40)
+- [[tagir-analyzes]] (сходство 0.40)
+

@@ -84,3 +84,13 @@ python scripts/improve_autofill.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[COVERAGE]] (сходство 0.97)
+- [[HEATMAP]] (сходство 0.27)
+- [[README]] (сходство 0.27)
+

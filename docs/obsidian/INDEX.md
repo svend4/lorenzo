@@ -162,3 +162,29 @@ python scripts/improve_run_all.py --group analysis
 
 _Индекс сгенерирован автоматически · 2482 документов · 166 скриптов_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (23):**
+- [[README]]
+- [[ABBREVIATIONS]]
+- [[ALERTS]]
+- [[CLUSTERS]]
+- [[CONTACTS]]
+- [[COST]]
+- [[FAQ]]
+- [[FOOTNOTES]]
+- _...ещё 15_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[INDEX]] (сходство 0.95)
+- [[ONBOARDING]] (сходство 0.23)
+- [[ONBOARDING]] (сходство 0.22)
+

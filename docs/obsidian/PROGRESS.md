@@ -105,3 +105,13 @@ cat docs/contacts/anastasiyaw.md
 - [[READING_TIME]]
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[PROGRESS]] (сходство 0.97)
+- [[KEYWORD_INDEX]] (сходство 0.22)
+- [[KEYWORD_INDEX]] (сходство 0.20)
+

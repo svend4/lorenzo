@@ -82,3 +82,13 @@ h2. Использование
 # Запуск
 python scripts/improve_digest.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [DIGEST|obsidian/DIGEST.md] (сходство 0.97)
+* [DIGEST_AUTO|obsidian/DIGEST_AUTO.md] (сходство 0.36)
+* [DIGEST_AUTO|DIGEST_AUTO.md] (сходство 0.35)
+

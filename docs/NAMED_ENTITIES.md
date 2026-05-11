@@ -476,3 +476,29 @@ python scripts/improve_named_entities.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [COMPARE](COMPARE.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NAMED_ENTITIES](obsidian/NAMED_ENTITIES.md) (сходство 0.96)
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.25)
+- [SEE_ALSO](SEE_ALSO.md) (сходство 0.25)
+

@@ -489,3 +489,13 @@ python scripts/improve_reading_order.py --dry-run
 # Вариант 4
 python scripts/improve_reading_order.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_ORDER](obsidian/READING_ORDER.md) (сходство 1.00)
+- [README](02-anthropic-vacancies/README.md) (сходство 0.74)
+- [README](obsidian/02-anthropic-vacancies/README.md) (сходство 0.74)
+

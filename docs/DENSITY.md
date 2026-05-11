@@ -107,3 +107,28 @@ python scripts/improve_density.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SCORING](SCORING.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DENSITY](obsidian/DENSITY.md) (сходство 0.93)
+- [HEATMAP](obsidian/HEATMAP.md) (сходство 0.46)
+- [HEATMAP](HEATMAP.md) (сходство 0.45)
+

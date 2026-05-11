@@ -243,3 +243,28 @@ python scripts/improve_kpi.py --dry-run
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
 - [[CONTACTS|Контакты]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_ORDER]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[KPI]] (сходство 0.99)
+- [[TIMELINE]] (сходство 0.18)
+- [[SUMMARIES]] (сходство 0.13)
+

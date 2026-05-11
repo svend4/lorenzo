@@ -136,3 +136,13 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_network.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[NETWORK]] (сходство 0.94)
+- [[GRAPH]] (сходство 0.46)
+- [[GRAPH]] (сходство 0.45)
+

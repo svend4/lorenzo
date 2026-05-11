@@ -139,3 +139,29 @@ python scripts/improve_run_all.py --group nlpplus
 
 _Карта сгенерирована автоматически: 2026-05-11_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [OUTLINE](OUTLINE.md)
+- [QA](QA.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SEE_ALSO](SEE_ALSO.md)
+- [TABLES](TABLES.md)
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KNOWLEDGE_MAP](obsidian/KNOWLEDGE_MAP.md) (сходство 0.95)
+- [QA](03-technology-combinations/QA.md) (сходство 0.35)
+- [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.34)
+

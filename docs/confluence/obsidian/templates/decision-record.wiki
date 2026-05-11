@@ -74,3 +74,13 @@ h2. Использование
 # Запуск
 python scripts/improve_decision_record.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[decision-record]] (сходство 0.95)
+* [[ensemble]] (сходство 0.30)
+* [[ensemble]] (сходство 0.30)
+

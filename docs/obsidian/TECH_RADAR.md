@@ -127,3 +127,29 @@ _Radar обновляется вручную при существенных и�
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[CONCEPTS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[TECH_RADAR]] (сходство 0.97)
+- [[COMPONENT_MATRIX]] (сходство 0.25)
+- [[COMPONENT_MATRIX]] (сходство 0.21)
+

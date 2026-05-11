@@ -16535,3 +16535,29 @@ python scripts/improve_outline.py --dry-run
 # Вариант 21
 python scripts/improve_outline.py --dry-run
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (667):_
+* [00-intro-part2|01-svyazi/00-intro-part2.md]
+* [02-methodology|01-svyazi/02-methodology.md]
+* [06-security-privacy|01-svyazi/06-security-privacy.md]
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [12-roadmap|01-svyazi/12-roadmap.md]
+* [14-limitations|01-svyazi/14-limitations.md]
+* [QA|01-svyazi/QA.md]
+* [110-вопрос-fallback-ratio-как-критический-или-осмыслен|02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md]
+* _...ещё 659_
+
+
+
+
+----
+
+_Похожие документы:_
+* [OUTLINE|obsidian/OUTLINE.md] (сходство 1.00)
+* [EMPTY_SECTIONS|EMPTY_SECTIONS.md] (сходство 0.48)
+* [EMPTY_SECTIONS|obsidian/EMPTY_SECTIONS.md] (сходство 0.48)
+

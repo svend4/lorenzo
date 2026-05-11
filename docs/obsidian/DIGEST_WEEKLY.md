@@ -118,3 +118,29 @@ _Сгенерировано: 2026-05-11 09:03_
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [[BROKEN_LINKS]]
+- [[HEALTH]]
+- [[INDEX]]
+- [[LINK_PREVIEW]]
+- [[METRICS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[DIGEST_WEEKLY]] (сходство 0.93)
+- [[DIGEST_AUTO]] (сходство 0.35)
+- [[METRICS]] (сходство 0.32)
+

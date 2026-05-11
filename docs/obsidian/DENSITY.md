@@ -116,3 +116,28 @@ python scripts/improve_density.py
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[MISSING]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SCORING]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[DENSITY]] (сходство 0.93)
+- [[HEATMAP]] (сходство 0.46)
+- [[HEATMAP]] (сходство 0.45)
+

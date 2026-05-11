@@ -221,3 +221,13 @@ h2. Использование
 # Запуск
 python scripts/improve_narrative.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[NARRATIVE]] (сходство 0.98)
+* [[13-contacts]] (сходство 0.21)
+* [[13-contacts]] (сходство 0.21)
+

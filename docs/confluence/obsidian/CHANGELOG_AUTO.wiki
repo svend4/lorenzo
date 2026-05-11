@@ -312,3 +312,29 @@ h2. Смотрите также
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
 * [[DECISIONS|Решения]]
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [[CHANGELOG]]
+* [[CONTACTS]]
+* [[DIGEST_AUTO]]
+* [[HEALTH]]
+* [[INDEX]]
+* [[METRICS]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* _...ещё 4_
+
+
+
+
+----
+
+_Похожие документы:_
+* [[CHANGELOG_AUTO]] (сходство 0.99)
+* [[CHANGELOG]] (сходство 0.57)
+* [[CHANGELOG]] (сходство 0.57)
+

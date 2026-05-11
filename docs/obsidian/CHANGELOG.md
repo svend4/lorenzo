@@ -566,3 +566,13 @@ python scripts/improve_changelog.py
 # Вариант 2
 python scripts/improve_changelog.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[CHANGELOG]] (сходство 1.00)
+- [[CHANGELOG_AUTO]] (сходство 0.57)
+- [[CHANGELOG_AUTO]] (сходство 0.57)
+

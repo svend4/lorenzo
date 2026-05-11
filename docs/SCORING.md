@@ -93,3 +93,13 @@ _Дата: 2026-05-11_
 # Запуск
 python scripts/improve_scoring.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCORING](obsidian/SCORING.md) (сходство 0.97)
+- [COVERAGE](COVERAGE.md) (сходство 0.21)
+- [DENSITY](DENSITY.md) (сходство 0.21)
+

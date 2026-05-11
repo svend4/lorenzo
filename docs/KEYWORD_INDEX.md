@@ -184,3 +184,29 @@ python scripts/improve_keyword_index.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [04-abstract](02-anthropic-vacancies/04-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [GATEWAY](GATEWAY.md)
+- _...ещё 6_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) (сходство 0.85)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.37)
+- [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.37)
+

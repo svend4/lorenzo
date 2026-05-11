@@ -125,3 +125,29 @@ python scripts/improve_watcher.py
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [[CODE_BLOCKS]]
+- [[FAQ]]
+- [[FOOTNOTES]]
+- [[INDEX]]
+- [[LLM_SUMMARIES]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 4_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[ONBOARDING]] (сходство 0.94)
+- [[INDEX]] (сходство 0.23)
+- [[INDEX]] (сходство 0.22)
+

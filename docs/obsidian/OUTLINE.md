@@ -16539,3 +16539,29 @@ python scripts/improve_outline.py --dry-run
 # Вариант 21
 python scripts/improve_outline.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (667):**
+- [[00-intro-part2]]
+- [[02-methodology]]
+- [[06-security-privacy]]
+- [[08-conclusions]]
+- [[12-roadmap]]
+- [[14-limitations]]
+- [[QA]]
+- [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
+- _...ещё 659_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[OUTLINE]] (сходство 1.00)
+- [[EMPTY_SECTIONS]] (сходство 0.48)
+- [[EMPTY_SECTIONS]] (сходство 0.48)
+

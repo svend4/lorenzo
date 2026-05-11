@@ -7513,3 +7513,28 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PARAGRAPH_QUALITY](obsidian/PARAGRAPH_QUALITY.md) (сходство 1.00)
+- [HEADING_AUDIT](HEADING_AUDIT.md) (сходство 0.97)
+- [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) (сходство 0.97)
+

@@ -311,3 +311,13 @@ h2. Общее (1018)
 
 _...ещё 998 записей в этой категории_
 
+
+
+
+----
+
+_Похожие документы:_
+* [DECISIONS|obsidian/DECISIONS.md] (сходство 1.00)
+* [SUMMARIES|obsidian/SUMMARIES.md] (сходство 0.17)
+* [SUMMARIES|SUMMARIES.md] (сходство 0.17)
+

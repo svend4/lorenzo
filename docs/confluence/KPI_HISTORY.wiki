@@ -57,3 +57,28 @@ h2. Смотрите также
 * [Здоровье|HEALTH.md]
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+* [QA|svyazi-2-0/QA.md]
+* [kpi-snapshot|templates/kpi-snapshot.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [KPI_HISTORY|obsidian/KPI_HISTORY.md] (сходство 0.90)
+* [SKILL_DASHBOARD|SKILL_DASHBOARD.md] (сходство 0.42)
+* [SKILL_DASHBOARD|obsidian/SKILL_DASHBOARD.md] (сходство 0.40)
+

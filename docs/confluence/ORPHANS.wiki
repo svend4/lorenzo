@@ -58,3 +58,13 @@ h2. Использование
 # Запуск
 python scripts/improve_orphans.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [ORPHANS|obsidian/ORPHANS.md] (сходство 0.95)
+* [README|obsidian/technology-combinations/synthesis-tables/README.md] (сходство 0.31)
+* [README|obsidian/svyazi-2-0/limitations/README.md] (сходство 0.31)
+

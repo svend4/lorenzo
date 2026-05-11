@@ -255,3 +255,13 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](habr-unique-projects/deep-pairs/README.md) (сходство 0.24)
+- [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.24)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md) (сходство 0.24)
+

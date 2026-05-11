@@ -75,3 +75,13 @@ _Кто ссылается на этот документ (7):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [COVERAGE|obsidian/COVERAGE.md] (сходство 0.97)
+* [HEATMAP|obsidian/HEATMAP.md] (сходство 0.27)
+* [README|svyazi-2-0/overview/README.md] (сходство 0.27)
+

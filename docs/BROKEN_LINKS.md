@@ -151,3 +151,13 @@ python scripts/improve_broken_links.py --fix
 - [SEARCH](SEARCH.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.20)
+- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.19)
+- [METRICS](METRICS.md) (сходство 0.18)
+

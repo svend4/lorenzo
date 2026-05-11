@@ -153,3 +153,29 @@ python scripts/improve_run_all.py --group analysis
 
 _Индекс сгенерирован автоматически · 2482 документов · 166 скриптов_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (23):**
+- [README](01-svyazi/README.md)
+- [ABBREVIATIONS](ABBREVIATIONS.md)
+- [ALERTS](ALERTS.md)
+- [CLUSTERS](CLUSTERS.md)
+- [CONTACTS](CONTACTS.md)
+- [COST](COST.md)
+- [FAQ](FAQ.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- _...ещё 15_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [INDEX](obsidian/INDEX.md) (сходство 0.95)
+- [ONBOARDING](ONBOARDING.md) (сходство 0.23)
+- [ONBOARDING](obsidian/ONBOARDING.md) (сходство 0.22)
+

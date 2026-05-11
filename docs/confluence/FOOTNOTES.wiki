@@ -81,3 +81,13 @@ _Кто ссылается на этот документ (11):_
 * [README|README.md]
 * _...ещё 3_
 
+
+
+
+----
+
+_Похожие документы:_
+* [FOOTNOTES|obsidian/FOOTNOTES.md] (сходство 0.97)
+* [GRAPH|GRAPH.md] (сходство 0.28)
+* [GRAPH|obsidian/GRAPH.md] (сходство 0.27)
+

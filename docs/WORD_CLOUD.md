@@ -66,3 +66,13 @@
 # Запуск
 python scripts/improve_word_cloud.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [WORD_CLOUD](obsidian/WORD_CLOUD.md) (сходство 0.95)
+- [README](obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.33)
+- [README](anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.33)
+

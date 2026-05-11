@@ -79,3 +79,13 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_digest.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST](obsidian/DIGEST.md) (сходство 0.97)
+- [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) (сходство 0.36)
+- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.35)
+

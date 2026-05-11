@@ -436,3 +436,29 @@ python scripts/improve_contradictions.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [08-что-это-продолжение-добавляет](04-ai-collaborations/08-что-это-продолжение-добавляет.md)
+- [HEALTH](HEALTH.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) (сходство 0.98)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) (сходство 0.19)
+- [SIMILAR_PASSAGES](obsidian/SIMILAR_PASSAGES.md) (сходство 0.19)
+

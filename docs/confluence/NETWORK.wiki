@@ -125,3 +125,13 @@ h2. Использование
 # Запуск
 python scripts/improve_network.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [NETWORK|obsidian/NETWORK.md] (сходство 0.94)
+* [GRAPH|GRAPH.md] (сходство 0.46)
+* [GRAPH|obsidian/GRAPH.md] (сходство 0.45)
+

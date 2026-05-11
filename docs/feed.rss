@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 09:43:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 09:48:03 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate all auto-generated docs artifacts after smart pipeline run</title>
+      <link>https://github.com/svend4/lorenzo/commit/7ff328edaa1eee7b8b0905190aa1e076ec1ba18b</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/7ff328edaa1eee7b8b0905190aa1e076ec1ba18b</guid>
+      <pubDate>Mon, 11 May 2026 09:44:00 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate all auto-generated docs artifacts after smart pipeline run</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG_AUTO.md">docs/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPLEXITY.md">docs/COMPLEXITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPONENT_MATRIX.md">docs/COMPONENT_MATRIX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li></ul><p>Коммит: <code>7ff328ed</code></p>]]></description>
+    </item>
     <item>
       <title>chore: update auto-generated docs artifacts</title>
       <link>https://github.com/svend4/lorenzo/commit/4a6e7a87b6046bb422d98f44923cb78d54a331c7</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f5ebc6286f974f7e1025c0f3c4edda71d3cd948d</guid>
       <pubDate>Mon, 11 May 2026 08:27:07 GMT</pubDate>
       <description><![CDATA[<p><strong>docs: обновление README.md и GATEWAY.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li></ul><p>Коммит: <code>f5ebc628</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: авто-перегенерация дашбордов после Hit Rate@10 1.000</title>
-      <link>https://github.com/svend4/lorenzo/commit/9cb118ab31c6b16cd5e88f606fc1789b9bdbb867</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/9cb118ab31c6b16cd5e88f606fc1789b9bdbb867</guid>
-      <pubDate>Mon, 11 May 2026 08:23:59 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: авто-перегенерация дашбордов после Hit Rate@10 1.000</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/02-anthropic-vacancies/README.md">docs/obsidian/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>9cb118ab</code></p>]]></description>
     </item>
   </channel>
 </rss>

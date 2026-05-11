@@ -221,3 +221,13 @@ python scripts/improve_abbreviations.py
 # Вариант 2
 python scripts/improve_abbreviations.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[ABBREVIATIONS]] (сходство 0.99)
+- [[VERSION_DIFF]] (сходство 0.12)
+- [[VERSION_DIFF]] (сходство 0.12)
+

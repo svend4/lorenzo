@@ -79,3 +79,13 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 - [SPELLCHECK](SPELLCHECK.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [STALENESS](obsidian/STALENESS.md) (сходство 0.96)
+- [ORPHANS](ORPHANS.md) (сходство 0.25)
+- [README](obsidian/svyazi-2-0/outreach/README.md) (сходство 0.25)
+

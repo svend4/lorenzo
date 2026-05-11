@@ -252,3 +252,29 @@ python scripts/improve_citation_index.py
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [[HEALTH]]
+- [[LINK_PREVIEW]]
+- [[METRICS]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[SPELLCHECK]]
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[CITATION_INDEX]] (сходство 0.96)
+- [[LINK_PREVIEW]] (сходство 0.31)
+- [[BACKLINKS]] (сходство 0.26)
+

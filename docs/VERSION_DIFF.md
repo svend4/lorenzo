@@ -1015,3 +1015,29 @@ python scripts/improve_version_diff.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [yodoca](05-habr-projects/memory/yodoca.md)
+- [ABBREVIATIONS](ABBREVIATIONS.md)
+- [AUTOFILLED](AUTOFILLED.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VERSION_DIFF](obsidian/VERSION_DIFF.md) (сходство 1.00)
+- [READABILITY](READABILITY.md) (сходство 0.64)
+- [READING_TIME](READING_TIME.md) (сходство 0.64)
+

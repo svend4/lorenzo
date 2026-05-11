@@ -71,3 +71,13 @@ python scripts/improve_autofill.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COVERAGE](obsidian/COVERAGE.md) (сходство 0.97)
+- [HEATMAP](obsidian/HEATMAP.md) (сходство 0.27)
+- [README](svyazi-2-0/overview/README.md) (сходство 0.27)
+

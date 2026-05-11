@@ -349,3 +349,29 @@ python scripts/improve_cross_section.py --dry-run
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
 - [Теги](TAGS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CONTACTS](CONTACTS.md)
+- [DEMO](DEMO.md)
+- [HEALTH](HEALTH.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CROSS_SECTION](obsidian/CROSS_SECTION.md) (сходство 0.97)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.40)
+- [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.40)
+

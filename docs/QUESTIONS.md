@@ -4011,3 +4011,29 @@ python scripts/improve_questions.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [13-contacts](01-svyazi/13-contacts.md)
+- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [CONCEPTS](CONCEPTS.md)
+- [FAQ](FAQ.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [QA](QA.md)
+- _...ещё 5_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QUESTIONS](obsidian/QUESTIONS.md) (сходство 1.00)
+- [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) (сходство 0.31)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md) (сходство 0.31)
+

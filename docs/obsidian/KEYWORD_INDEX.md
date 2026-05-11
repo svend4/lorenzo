@@ -191,3 +191,29 @@ python scripts/improve_keyword_index.py
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [[04-abstract]]
+- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[306-with-anthropic-s-cowork-platform]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[354-существующий-landscape-collaborators-твоя-working-]]
+- [[BROKEN_LINKS]]
+- [[GATEWAY]]
+- _...ещё 6_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[KEYWORD_INDEX]] (сходство 0.85)
+- [[CONCEPT_GRAPH]] (сходство 0.37)
+- [[CONCEPT_GRAPH]] (сходство 0.37)
+

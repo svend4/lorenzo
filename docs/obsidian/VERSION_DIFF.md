@@ -1022,3 +1022,29 @@ python scripts/improve_version_diff.py --dry-run
 - [[ACTION_ITEMS|Задачи]]
 - [[TIMELINE|Хронология]]
 - [[OUTLINE|Структура]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[yodoca]]
+- [[ABBREVIATIONS]]
+- [[AUTOFILLED]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[VERSION_DIFF]] (сходство 1.00)
+- [[READABILITY]] (сходство 0.64)
+- [[READING_TIME]] (сходство 0.64)
+

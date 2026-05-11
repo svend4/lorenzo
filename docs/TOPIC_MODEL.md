@@ -192,3 +192,25 @@ python scripts/improve_topic_model.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TOPIC_MODEL](obsidian/TOPIC_MODEL.md) (сходство 0.99)
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.23)
+- [SEE_ALSO](SEE_ALSO.md) (сходство 0.22)
+

@@ -96,3 +96,13 @@ cat docs/contacts/anastasiyaw.md
 - [READING_TIME](READING_TIME.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROGRESS](obsidian/PROGRESS.md) (сходство 0.97)
+- [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) (сходство 0.22)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md) (сходство 0.20)
+

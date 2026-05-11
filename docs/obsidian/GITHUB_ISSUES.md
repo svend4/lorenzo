@@ -666,3 +666,29 @@ python scripts/improve_github_issues.py
 - [[DECISIONS|Решения]]
 - [[CONTACTS|Контакты]]
 - [[SCORING|Оценка]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[116-9-checklist-применения-методологии]]
+- [[CONTACTS]]
+- [[PROTOTYPE_SPEC]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SCORING]]
+- [[SEARCH]]
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[GITHUB_ISSUES]] (сходство 0.99)
+- [[10-checklist]] (сходство 0.23)
+- [[10-checklist]] (сходство 0.22)
+

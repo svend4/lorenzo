@@ -1753,3 +1753,29 @@ python scripts/improve_action_items.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (35):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
+- [165-closing](02-anthropic-vacancies/165-closing.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- _...ещё 27_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ACTION_ITEMS](obsidian/ACTION_ITEMS.md) (сходство 1.00)
+- [QUESTIONS](QUESTIONS.md) (сходство 0.23)
+- [QUESTIONS](obsidian/QUESTIONS.md) (сходство 0.23)
+

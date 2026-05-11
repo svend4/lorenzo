@@ -214,3 +214,13 @@ python scripts/improve_abbreviations.py
 # Вариант 2
 python scripts/improve_abbreviations.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ABBREVIATIONS](obsidian/ABBREVIATIONS.md) (сходство 0.99)
+- [VERSION_DIFF](obsidian/VERSION_DIFF.md) (сходство 0.12)
+- [VERSION_DIFF](VERSION_DIFF.md) (сходство 0.12)
+

@@ -675,3 +675,13 @@ digraph lorenzo {
 - [READING_TIME](READING_TIME.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GRAPH](obsidian/GRAPH.md) (сходство 0.96)
+- [MINDMAP](MINDMAP.md) (сходство 0.49)
+- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.48)
+

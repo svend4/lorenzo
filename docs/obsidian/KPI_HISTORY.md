@@ -61,3 +61,28 @@ _Запускать регулярно для получения трендов.
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[QA]]
+- [[kpi-snapshot]]
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[KPI_HISTORY]] (сходство 0.90)
+- [[SKILL_DASHBOARD]] (сходство 0.42)
+- [[SKILL_DASHBOARD]] (сходство 0.40)
+

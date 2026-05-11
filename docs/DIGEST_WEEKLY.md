@@ -111,3 +111,29 @@ _Сгенерировано: 2026-05-11 09:03_
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.93)
+- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.35)
+- [METRICS](METRICS.md) (сходство 0.32)
+

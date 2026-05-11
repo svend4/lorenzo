@@ -112,3 +112,29 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_reading_list.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- _...ещё 2_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_LIST](obsidian/READING_LIST.md) (сходство 0.85)
+- [README](anthropic-vacancies/profile-mapping/02-reanalysis/README.md) (сходство 0.28)
+- [README](nautilus/community-discussions/habr-article-1-reaction/README.md) (сходство 0.27)
+

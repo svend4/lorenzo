@@ -305,3 +305,29 @@ h2. Смотрите также
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [CHANGELOG|CHANGELOG.md]
+* [CONTACTS|CONTACTS.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [HEALTH|HEALTH.md]
+* [INDEX|INDEX.md]
+* [METRICS|METRICS.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* _...ещё 4_
+
+
+
+
+----
+
+_Похожие документы:_
+* [CHANGELOG_AUTO|obsidian/CHANGELOG_AUTO.md] (сходство 0.99)
+* [CHANGELOG|CHANGELOG.md] (сходство 0.57)
+* [CHANGELOG|obsidian/CHANGELOG.md] (сходство 0.57)
+

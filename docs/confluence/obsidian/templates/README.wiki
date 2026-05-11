@@ -43,3 +43,29 @@ h2. Содержание
 h2. Подразделы
 
 * [_schemas/|_schemas/] — _schemas
+
+
+
+----
+
+_Кто ссылается на этот документ (29):_
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[research-summary]]
+* [[agent-spec]]
+* [[contact-outreach]]
+* _...ещё 21_
+
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.88)
+* [[README]] (сходство 0.23)
+* [[README]] (сходство 0.22)
+

@@ -1,81 +1,71 @@
 ---
 title: "Глоссарий проектов"
 tags:
-  - glossary
-  - docs
   - general
 date: 2026-05-11
 ---
 
 # Глоссарий проектов
 
-> [!NOTE]
-> Раздел `GLOSSARY` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: glossary, docs -->
-
-
-<!-- summary -->
-> `GLOSSARY` — раздел документации проекта Lorenzo.
-
-
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 155 |
-| **AIF Handoff** | 66 |
+| **AI Factory** | 151 |
+| **AIF Handoff** | 64 |
 | **AgentFS** | 268 |
-| **Auto AI Router** | 137 |
-| **AutoResearch** | 130 |
-| **Automerge** | 78 |
+| **Auto AI Router** | 135 |
+| **AutoResearch** | 128 |
+| **Automerge** | 82 |
 | **CardIndex** | 300 |
-| **Firecrawl** | 45 |
+| **Firecrawl** | 43 |
 | **Graph RAG** | 105 |
 | **Hybrid RAG** | 103 |
-| **Legal RAG** | 109 |
-| **LiteLLM** | 99 |
+| **Legal RAG** | 111 |
+| **LiteLLM** | 97 |
 | **LiteParse** | 195 |
-| **MemNet** | 282 |
-| **Memory OS** | 95 |
+| **MemNet** | 286 |
+| **Memory OS** | 97 |
 | **NGT Memory** | 223 |
 | **OpenWhispr** | 39 |
-| **RLM-Toolkit** | 22 |
+| **RLM-Toolkit** | 20 |
 | **Rufler** | 213 |
-| **SENTINEL** | 174 |
+| **SENTINEL** | 194 |
 | **Self-Aware MCP** | 44 |
-| **Sequential** | 237 |
-| **Svyazi** | 688 |
+| **Sequential** | 233 |
+| **Svyazi** | 747 |
 | **Tool Search** | 105 |
 | **Whisper** | 55 |
-| **Wikontic** | 123 |
-| **Yjs** | 94 |
+| **Wikontic** | 121 |
+| **Yjs** | 98 |
 | **Yodoca** | 345 |
 | **Yttri** | 39 |
 | **agent-memory-mcp** | 145 |
-| **knowledge-space** | 253 |
+| **knowledge-space** | 249 |
 | **mclaude** | 217 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (40):**
+**Кто ссылается на этот документ (53):**
 - [[03-local-first]]
 - [[04-sozialrecht-domain]]
+- [[ACTION_ITEMS]]
 - [[CHANGELOG_AUTO]]
 - [[CITATION_INDEX]]
+- [[COMPLEXITY]]
+- [[COMPONENT_MATRIX]]
 - [[CONCEPT_GRAPH]]
-- [[CONTRADICTIONS]]
-- [[CROSS_SECTION]]
-- [[DEPENDENCY_MAP]]
-- _...ещё 32_
+- _...ещё 45_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_glossary.py
-```
+---
+
+**Похожие документы:**
+- [[GLOSSARY]] (сходство 0.65)
+- [[MINDMAP]] (сходство 0.35)
+- [[MINDMAP]] (сходство 0.32)
+

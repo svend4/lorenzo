@@ -50,3 +50,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ALERTS](obsidian/ALERTS.md) (сходство 0.93)
+- [README](obsidian/processing-guide/README.md) (сходство 0.29)
+- [README](processing-guide/README.md) (сходство 0.27)
+

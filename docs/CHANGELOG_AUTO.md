@@ -301,3 +301,29 @@ python scripts/improve_changelog_auto.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [CHANGELOG](CHANGELOG.md)
+- [CONTACTS](CONTACTS.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 4_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 0.99)
+- [CHANGELOG](CHANGELOG.md) (сходство 0.57)
+- [CHANGELOG](obsidian/CHANGELOG.md) (сходство 0.57)
+

@@ -70,3 +70,13 @@ _Создано: 2026-05-11_
 # Запуск
 python scripts/improve_project_component.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[project-component]] (сходство 0.95)
+- [[contact-outreach]] (сходство 0.32)
+- [[ensemble]] (сходство 0.32)
+

@@ -2629,3 +2629,13 @@ python scripts/improve_readability.py --dry-run
 # Вариант 19
 python scripts/improve_readability.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_TIME](READING_TIME.md) (сходство 0.98)
+- [SEARCH](SEARCH.md) (сходство 0.96)
+- [READING_TIME](obsidian/READING_TIME.md) (сходство 0.95)
+

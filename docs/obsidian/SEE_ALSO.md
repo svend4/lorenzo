@@ -79,3 +79,13 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_see_also.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [[SEE_ALSO]] (сходство 0.95)
+- [[BACKLINKS]] (сходство 0.27)
+- [[BACKLINKS]] (сходство 0.26)
+

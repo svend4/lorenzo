@@ -82,3 +82,13 @@ _Кто ссылается на этот документ (7):_
 * [SPELLCHECK|SPELLCHECK.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [STALENESS|obsidian/STALENESS.md] (сходство 0.96)
+* [ORPHANS|ORPHANS.md] (сходство 0.25)
+* [README|obsidian/svyazi-2-0/outreach/README.md] (сходство 0.25)
+

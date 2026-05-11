@@ -31,3 +31,29 @@
 ## Подразделы
 
 - [_schemas/](_schemas/) — _schemas
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (29):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [agent-spec](agent-spec.md)
+- [contact-outreach](contact-outreach.md)
+- _...ещё 21_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/templates/README.md) (сходство 0.88)
+- [README](../autofilled/README.md) (сходство 0.23)
+- [README](../obsidian/autofilled/README.md) (сходство 0.22)
+

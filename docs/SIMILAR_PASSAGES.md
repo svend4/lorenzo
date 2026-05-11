@@ -321,3 +321,29 @@ python scripts/improve_similar_passages.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [NARRATIVE](NARRATIVE.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SEE_ALSO](SEE_ALSO.md)
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SIMILAR_PASSAGES](obsidian/SIMILAR_PASSAGES.md) (сходство 0.98)
+- [CONTRADICTIONS](CONTRADICTIONS.md) (сходство 0.19)
+- [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) (сходство 0.19)
+

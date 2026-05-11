@@ -74,3 +74,13 @@ h2. Использование
 # Запуск
 python scripts/improve_project_component.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[project-component]] (сходство 0.95)
+* [[contact-outreach]] (сходство 0.32)
+* [[ensemble]] (сходство 0.32)
+
