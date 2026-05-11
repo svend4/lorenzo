@@ -3,8 +3,22 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T08:05:32+00:00</updated>
+  <updated>2026-05-11T08:22:55+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/7ffc3e02e3f3e441b9b3cf7389a5208edb554ef0</id>
+    <title>chore: обновление каталогов после gateway.py + тестов</title>
+    <link href="https://github.com/svend4/lorenzo/commit/7ffc3e02e3f3e441b9b3cf7389a5208edb554ef0"/>
+    <updated>2026-05-11T08:15:23+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: обновление каталогов после gateway.py + тестов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>7ffc3e02</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/80bb9e4210dce340a7923a68b8fe9b792e6dd8d5</id>
+    <title>chore: авто-перегенерация зеркал obsidian/ confluence/ и индексов</title>
+    <link href="https://github.com/svend4/lorenzo/commit/80bb9e4210dce340a7923a68b8fe9b792e6dd8d5"/>
+    <updated>2026-05-11T08:06:48+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: авто-перегенерация зеркал obsidian/ confluence/ и индексов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCORING.md">docs/SCORING.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/QA.md">docs/obsidian/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/02-anthropic-vacancies/QA.md">docs/obsidian/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/03-technology-combinations/QA.md">docs/obsidian/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/04-ai-collaborations/QA.md">docs/obsidian/04-ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/05-habr-projects/QA.md">docs/obsidian/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/ABBREVIATIONS.md">docs/obsidian/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/ACTION_ITEMS.md">docs/obsidian/ACTION_ITEMS.md</a></li></ul><p>Коммит: <code>80bb9e42</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/82c7db84c1c562b76a3c31bbd65bfa08ec80d4fc</id>
     <title>feat: автодетектирование milestone прототипа и тестирования в PROGRESS.md</title>
@@ -130,19 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/62b5e19231592dddd2516a13eebcb2073323664e"/>
     <updated>2026-05-11T04:48:03+00:00</updated>
     <content type="html"><![CDATA[<p><strong>feat: SENTINEL security check + contact statuses + progress 55%</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG_AUTO.md">docs/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li></ul><p>Коммит: <code>62b5e192</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/defa92c569cd17927f4c413290222956c2a0c456</id>
-    <title>chore: update auto-generated dashboards</title>
-    <link href="https://github.com/svend4/lorenzo/commit/defa92c569cd17927f4c413290222956c2a0c456"/>
-    <updated>2026-05-11T04:37:30+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: update auto-generated dashboards</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/EMPTY_SECTIONS.md">docs/EMPTY_SECTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/MCP_DASHBOARD.md">docs/MCP_DASHBOARD.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SKILL_DASHBOARD.md">docs/SKILL_DASHBOARD.md</a></li></ul><p>Коммит: <code>defa92c5</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/c601257db5f049ddf800fcc0b65838046de9489b</id>
-    <title>feat: add open letter drafts for 8 project authors</title>
-    <link href="https://github.com/svend4/lorenzo/commit/c601257db5f049ddf800fcc0b65838046de9489b"/>
-    <updated>2026-05-11T04:37:15+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: add open letter drafts for 8 project authors</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/METRICS.md">docs/METRICS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/README.md">docs/letters/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/anastasiyaw.md">docs/letters/anastasiyaw.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/antipozitive.md">docs/letters/antipozitive.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/kksudo.md">docs/letters/kksudo.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/nlaik.md">docs/letters/nlaik.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/spbmolot.md">docs/letters/spbmolot.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/vitalyoborin.md">docs/letters/vitalyoborin.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/vitalysemenov.md">docs/letters/vitalysemenov.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/letters/zodigancode.md">docs/letters/zodigancode.md</a></li></ul><p>Коммит: <code>c601257d</code></p>]]></content>
   </entry>
 </feed>

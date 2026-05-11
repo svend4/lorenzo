@@ -1,14 +1,7 @@
 # Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `PRECISION_EVAL` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> Автоматическая оценка качества hybrid_search(). Hit Rate@10 = **0.750** (≥ порог 0.70).
+> Автоматическая оценка качества hybrid_search(). Hit Rate@10 = **1.000** (≥ порог 0.70).
 
 <!-- tags: evaluation, hit-rate, retrieval, hybrid-search -->
 
@@ -18,9 +11,9 @@
 
 | Метрика | Значение | Порог | Статус |
 |---------|---------|-------|--------|
-| Hit Rate@10 | **0.750** (15/20) | ≥ 0.70 | ✅ PASS |
-| Mean MRR      | 0.423 | — | — |
-| Avg Latency   | 1.321с | ≤ 5.0с | ✅ |
+| Hit Rate@10 | **1.000** (20/20) | ≥ 0.70 | ✅ PASS |
+| Mean MRR      | 0.603 | — | — |
+| Avg Latency   | 1.106с | ≤ 5.0с | ✅ |
 
 > **Примечание:** Hit Rate@K = доля запросов, где хотя бы 1 релевантный
 > документ попал в топ-K. Стандартный P@K с 1 документом/запрос ≤ 1/K,
@@ -36,22 +29,22 @@
 | 2 | AgentFS файловая система агент vault kksudo | 2 | ✅ |
 | 3 | NGT Memory ассоциативный граф лингвист ngt структура | 6 | ✅ |
 | 4 | agent-memory-mcp типизированная SQLite эпизодическая Vi… | 2 | ✅ |
-| 5 | MemNet RAG Challenge Docling pdfplumber FAISS memory | 5 | ✅ |
+| 5 | MemNet RAG Challenge Docling pdfplumber FAISS memory | 3 | ✅ |
 | 6 | Rufler YAML декларативный агент Claude Code токены swar… | 1 | ✅ |
 | 7 | knowledge-space карточки MIT граф 785 AnastasiyaW | 1 | ✅ |
 | 8 | LiteParse PDF извлечение Evidence nlaik структура докум… | 1 | ✅ |
 | 9 | Wikontic семантический граф VitalyOborin kubernetes нор… | 1 | ✅ |
 | 10 | Svyazi 2.0 спецификация прототипа Card Envelope Evidenc… | 3 | ✅ |
-| 11 | Card Envelope sha256 card_id payload источник интеграци… | 8 | ✅ |
-| 12 | BM25 TF-IDF гибридный поиск Retrieval hybrid search pas… | 11 | ❌ |
+| 11 | Card Envelope sha256 card_id payload источник интеграци… | 4 | ✅ |
+| 12 | BM25 TF-IDF гибридный поиск Retrieval hybrid search pas… | 1 | ✅ |
 | 13 | SENTINEL безопасность PII credentials аудит | 1 | ✅ |
 | 14 | Gateway OpenAI FastAPI function calling write-back обог… | 1 | ✅ |
-| 15 | авторы Хабр kksudo spbmolot VitalyOborin письма контакт… | 8 | ✅ |
-| 16 | Svyazi архитектура CardIndex knowledge три слоя AgentFS | 9 | ✅ |
-| 17 | Anthropic вакансии анализ ML research svend4 Nautilus | — | ❌ |
-| 18 | Review Queue карточки состояние proposal approved decay… | 18 | ❌ |
-| 19 | ANN HNSW два этапа hnswlib векторный поиск индекс | — | ❌ |
-| 20 | MCP инструменты stdio bm25_search карточка сервер searc… | — | ❌ |
+| 15 | авторы Хабр kksudo spbmolot VitalyOborin письма контакт… | 10 | ✅ |
+| 16 | Svyazi архитектура CardIndex knowledge три слоя AgentFS | 3 | ✅ |
+| 17 | Anthropic вакансии анализ ML research svend4 Nautilus | 1 | ✅ |
+| 18 | Review Queue карточки состояние proposal approved decay… | 7 | ✅ |
+| 19 | ANN HNSW два этапа hnswlib векторный поиск индекс | 7 | ✅ |
+| 20 | Card Envelope sha256 payload Evidence Envelope прототип… | 1 | ✅ |
 
 ---
 
@@ -63,17 +56,4 @@
 - **20 запросов:** 9 проектных (само-релевантность) + 11 кросс-секционных.
 - **Без ручной разметки:** обновляется автоматически при каждом запуске.
 
-*Сгенерировано: 2026-05-11 07:08*
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_precision_eval.py
-```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
+*Сгенерировано: 2026-05-11 08:22*
