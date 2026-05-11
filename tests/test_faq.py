@@ -120,3 +120,39 @@ def test_categorize_license_category():
 def test_categorize_unknown_topic():
     result = mod.categorize("Погода хорошая?", "Да очень хорошо.")
     assert result == "Общее"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_faq_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "FAQ.md").exists()
+
+
+def test_main_faq_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# AgentFS\n\nЧто такое AgentFS? — это файловая система агента.",
+        encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "FAQ.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "FAQ.md").exists()
+
+
+def test_main_faq_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "FAQ.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

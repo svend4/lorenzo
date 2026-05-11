@@ -201,3 +201,36 @@ def test_count_scripts_uses_scripts_dir(tmp_path, monkeypatch):
     (scripts / "other.py").write_text("", encoding="utf-8")
     result = mod.count_scripts()
     assert result == 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_digest_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DIGEST.md").exists()
+
+
+def test_main_digest_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "DIGEST.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DIGEST.md").exists()
+
+
+def test_main_digest_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DIGEST.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

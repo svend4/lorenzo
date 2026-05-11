@@ -160,3 +160,36 @@ def test_make_matrix_contains_projects():
 def test_make_matrix_empty_co():
     result = mod.make_matrix({})
     assert isinstance(result, list)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_graph_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "GRAPH.md").exists()
+
+
+def test_main_graph_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgentFS and Yodoca work together.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "GRAPH.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "GRAPH.md").exists()
+
+
+def test_main_graph_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "GRAPH.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

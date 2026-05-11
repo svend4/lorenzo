@@ -221,3 +221,37 @@ def test_top_words_memory_cluster_has_memory_words():
     result = mod.top_words(["memory1.md", "memory2.md"], tfidf, n=6)
     # "память" or "консолидация" should appear in memory cluster top words
     assert any(w in result for w in ["память", "консолидация", "decay"])
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_clusters_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CLUSTERS.md").exists()
+
+
+def test_main_clusters_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "a.md").write_text("# AgentFS\n\nMemory agent system.", encoding="utf-8")
+    (tmp_path / "b.md").write_text("# Yodoca\n\nMemory consolidation.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CLUSTERS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CLUSTERS.md").exists()
+
+
+def test_main_clusters_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CLUSTERS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

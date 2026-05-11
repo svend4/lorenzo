@@ -199,3 +199,35 @@ def test_format_stats_multiple_types():
     ]
     result = mod.format_stats(commits)
     assert "|" in result  # separator between entries
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_commits_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # git won't run in tmp_path → returns [] → main returns early
+    mod.main()  # must not raise
+
+
+def test_main_creates_changelog_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "docs").mkdir()
+    fake_commits = [
+        {"sha": "abc12345", "date": "2025-05-01", "subject": "feat: add search", "body": ""},
+        {"sha": "def67890", "date": "2025-05-01", "subject": "fix: broken links", "body": ""},
+    ]
+    monkeypatch.setattr(mod, "get_git_log", lambda: fake_commits)
+    mod.main()
+    assert (tmp_path / "docs" / "CHANGELOG.md").exists()
+
+
+def test_main_changelog_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "docs").mkdir()
+    fake_commits = [
+        {"sha": "abc12345", "date": "2025-05-01", "subject": "feat: add search", "body": ""},
+    ]
+    monkeypatch.setattr(mod, "get_git_log", lambda: fake_commits)
+    mod.main()
+    text = (tmp_path / "docs" / "CHANGELOG.md").read_text(encoding="utf-8")
+    assert "# CHANGELOG" in text

@@ -297,3 +297,40 @@ def test_process_file_idempotent(tmp_path, monkeypatch):
     # Marker should not be duplicated
     assert content_after_second.count(mod.ABSTRACT_MARKER) == \
            content_after_first.count(mod.ABSTRACT_MARKER)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 0)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nContent about agent memory systems.", encoding="utf-8"
+    )
+    mod.main()  # dry-run → must not raise
+
+
+def test_main_apply_modifies_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 0)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent about agent memory systems.", encoding="utf-8")
+    mod.main()  # apply → modifies file, must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_WORDS", 0)
+    mod.main()  # no files → must not raise

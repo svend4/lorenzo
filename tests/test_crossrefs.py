@@ -69,3 +69,36 @@ def test_build_file_map_maps_files_to_projects(tmp_path, monkeypatch):
     for projects in result.values():
         all_projects.extend(projects)
     assert "Svyazi" in all_projects
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_crossrefs_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CROSSREFS.md").exists()
+
+
+def test_main_crossrefs_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nSee [Yodoca](yodoca.md).", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CROSSREFS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CROSSREFS.md").exists()
+
+
+def test_main_crossrefs_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CROSSREFS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

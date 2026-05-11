@@ -179,3 +179,40 @@ def test_has_toc_true_with_contents_heading():
 def test_has_toc_true_with_table_of_contents():
     result = mod._has_toc("# Title\n\n## Table of Contents\n- [Section](#section)\n")
     assert result is True
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n## Section 1\n\nContent.\n\n## Section 2\n\nMore content.", encoding="utf-8"
+    )
+    mod.main()  # dry-run → must not raise
+
+
+def test_main_apply_adds_toc(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "MIN_HEADINGS", 2)
+    f = tmp_path / "doc.md"
+    f.write_text(
+        "# Title\n\n## Section 1\n\nContent.\n\n## Section 2\n\nMore.", encoding="utf-8"
+    )
+    mod.main()  # apply → must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()  # no files → must not raise
