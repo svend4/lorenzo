@@ -42,6 +42,9 @@ scripts/
   improve_*.py           — 159 скриптов обработки документов (21 группа)
   utils_chunker.py       — утилиты чанкинга для больших текстов
   mcp_server.py          — MCP-сервер с 11 инструментами (+ bm25_search, run_recipe, list_recipes)
+  gateway.py             — OpenAI-compatible HTTP gateway (FastAPI, порт 8083, 5 инструментов)
+  review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
+  prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
   improve_run_all.py     — оркестратор (--smart, --fast, --group, --changed, --parallel)
   improve_embedding_index.py — TF-IDF семантический индекс над CardStore (pure Python, min_df=2)
@@ -271,6 +274,34 @@ python scripts/improve_run_all.py --changed         # только группы 
 python scripts/improve_run_all.py --parallel 4      # параллельное выполнение групп
 ```
 
+### HTTP Gateway (Stage 7)
+```bash
+pip install fastapi uvicorn streamlit        # установить зависимости
+python scripts/gateway.py                    # запустить на порту 8083
+python scripts/gateway.py --port 9000        # другой порт
+
+# Тест:
+curl http://localhost:8083/api/health
+curl -X POST http://localhost:8083/api/ask \
+     -H "Content-Type: application/json" \
+     -d '{"query": "агент с памятью", "top_k": 5}'
+
+# Добавить карточку (обогащение корпуса):
+curl -X POST http://localhost:8083/api/cards \
+     -H "Content-Type: application/json" \
+     -d '{"title": "Новый проект", "content": "...", "section": "04-ai-collaborations"}'
+
+# Swagger UI: http://localhost:8083/docs
+# OpenAI-клиент: base_url="http://localhost:8083/v1", model="lorenzo-gateway"
+```
+
+### Review Queue UI (Streamlit)
+```bash
+streamlit run scripts/review_queue.py       # → http://localhost:8501
+# Одобрять / отклонять / откладывать карточки из очереди
+# Реализует Review Record из PROTOTYPE_SPEC §3.5
+```
+
 ### Работа с контактами
 ```bash
 python scripts/improve_contact_status.py --list              # сводная таблица
@@ -311,9 +342,10 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | Итерация | Статус | Ключевые артефакты |
 |----------|--------|--------------------|
 | 0 — Вертикальный срез | ✅ Готово | 1632 карточки, 2500+ рёбер, MCP 11 инструментов |
-| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16472 токенов) + гибрид 0.6/0.4 |
+| 1 — Retrieval Loop | ✅ Готово | BM25 + TF-IDF(16472 токенов) + гибрид 0.6/0.4 + Review Queue UI |
 | 2 — Consolidation | 🔄 В процессе | CI daily, incremental build, orphan rate < 15% |
 | 3 — Collaboration Finder | ✅ Готово | 9 богатых проектных файлов, 10/11 карточек с рёбрами, 9 контактов |
+| 4 — Gateway & Enrichment | ✅ Готово | OpenAI-compatible API, write-back, function calling, Review Queue |
 
 ### Collaboration Finder (Итерация 3)
 ```bash

@@ -25,7 +25,7 @@
 - [4. Архитектура прототипа](#4-архитектура-прототипа)
 - [5. Итерации MVP](#5-итерации-mvp)
   - [Итерация 0 — Вертикальный срез (2 недели)](#итерация-0-вертикальный-срез-2-недели-выполнено)
-  - [Итерация 1 — Retrieval Loop (2 недели)](#итерация-1-retrieval-loop-2-недели-выполнено-локально-без-hnswlib)
+  - [Итерация 1 — Retrieval Loop (2 недели)](#итерация-1-retrieval-loop-2-недели-выполнено-без-hnswlib)
   - [Итерация 2 — Consolidation (2 недели)](#итерация-2-consolidation-2-недели-выполнено-45-без-yodoca-api)
   - [Итерация 3 — Collaboration Finder (финальная)](#итерация-3-collaboration-finder-финальная-выполнено)
 - [6. Технический стек](#6-технический-стек)
@@ -196,7 +196,7 @@ network_scope: offline | internal | internet
 
 ---
 
-### Итерация 1 — Retrieval Loop (2 недели) ✅ ВЫПОЛНЕНО (локально, без hnswlib)
+### Итерация 1 — Retrieval Loop (2 недели) ✅ ВЫПОЛНЕНО (без hnswlib)
 
 **Цель:** BM25 + семантический поиск по всем карточкам.
 
@@ -204,7 +204,7 @@ network_scope: offline | internal | internet
 - [x] TF-IDF семантика (3 149 токенов, cosine similarity) — `improve_embedding_index.py`
 - [x] Гибридный поиск: 0.6×TF-IDF + 0.4×BM25 + граф-бонус — `improve_collab_finder.py`
 - [x] Evidence Envelope — `utils_card_envelope.py::Evidence Envelope`
-- [ ] Review Queue UI — _запланировано: Streamlit_
+- [x] Review Queue UI — `scripts/review_queue.py` (Streamlit: одобрение/отклонение/defer + Review Record §3.5)
 - [ ] hnswlib ANN-граф — _запланировано (раскомментировать в requirements.txt)_
 
 **Результат:** Precision@5 ≥ 0.7 для проектных запросов. **Критерий выполнен.**
@@ -236,6 +236,22 @@ network_scope: offline | internal | internet
 
 **Результат:** `docs/COLLAB_SUGGESTIONS.md` автоматически при каждом `daily` run.
 **Критерий выполнен (3с < 10с).**
+
+---
+
+### Итерация 4 — Gateway & Enrichment ✅ ВЫПОЛНЕНО
+
+**Цель:** любой AI-агент подключается к корпусу по стандартному OpenAI-протоколу и обогащает его.
+
+- [x] OpenAI-compatible HTTP API — `scripts/gateway.py` (FastAPI, порт 8083)
+- [x] RAG через наш hybrid_search без внешних зависимостей — `POST /api/ask`
+- [x] Write-back: AI добавляет карточки → `docs/` + инкрементальный индекс — `POST /api/cards`
+- [x] 5 function-calling инструментов: search, get_card, add_card, find_collabs, get_contacts
+- [x] Review Queue UI (Streamlit) — `scripts/review_queue.py` (одобрение / отклонение / defer)
+- [x] Опциональный LLM-синтез через Claude (если задан ANTHROPIC_API_KEY)
+
+**Результат:** любой клиент (Cursor, Claude Desktop, Python openai SDK) подключается без изменений кода.
+**Задокументировано:** `docs/GATEWAY.md`.
 
 ---
 

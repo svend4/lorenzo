@@ -371,7 +371,18 @@ _Добавлено через Lorenzo Gateway: {date}_
 """
     filepath = target_dir / f"{slug}.md"
     filepath.write_text(md, encoding="utf-8")
-    _invalidate_index()  # сбросить кэш — следующий поиск подхватит новую карточку
+
+    # Инкрементально обновить search_index.json, чтобы новая карточка
+    # была доступна через поиск без перезапуска сервера
+    try:
+        import subprocess
+        subprocess.run(
+            ["python3", str(SCRIPTS / "improve_index_update.py")],
+            cwd=ROOT, capture_output=True, timeout=30,
+        )
+    except Exception:
+        pass
+    _invalidate_index()  # сбросить in-memory кэш
 
     return f"Карточка создана: {filepath.relative_to(ROOT)}\nЗаголовок: {title}\nТеги: {tags_str}"
 
