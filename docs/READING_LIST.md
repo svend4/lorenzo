@@ -1,106 +1,114 @@
 # Список чтения
 
-<!-- toc-auto -->
-## Contents
+<!-- toc -->
+## Содержание
 
 - [По секциям](#по-секциям)
-  - [01-svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
-  - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
-- [Похожие документы](#похожие-документы)
+  - [`02-anthropic-vacancies` (5 докум., ~345 мин)](#02-anthropic-vacancies-5-докум-345-мин)
+  - [`04-ai-collaborations` (1 докум., ~53 мин)](#04-ai-collaborations-1-докум-53-мин)
+  - [`CONCEPTS.md` (1 докум., ~65 мин)](#conceptsmd-1-докум-65-мин)
+  - [`OUTLINE.md` (1 докум., ~183 мин)](#outlinemd-1-докум-183-мин)
+  - [`READABILITY.md` (1 докум., ~159 мин)](#readabilitymd-1-докум-159-мин)
+  - [`READING_TIME.md` (1 докум., ~117 мин)](#reading_timemd-1-докум-117-мин)
+  - [`SITEMAP.md` (1 докум., ~41 мин)](#sitemapmd-1-докум-41-мин)
+  - [`SOURCE_MAP.md` (1 докум., ~50 мин)](#source_mapmd-1-докум-50-мин)
+  - [`TABLES.md` (1 докум., ~1519 мин)](#tablesmd-1-докум-1519-мин)
+  - [`VERSION_DIFF.md` (1 докум., ~39 мин)](#version_diffmd-1-докум-39-мин)
+  - [`nautilus` (1 докум., ~39 мин)](#nautilus-1-докум-39-мин)
 - [Использование](#использование)
-- [Смотрите также](#смотрите-также)
 
+---
+
+
+<!-- toc-auto -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `READING_LIST` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-
-  - [01-svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
-  - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
-  - 01-[svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
-  - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
-  - 01-[svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
-  - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
-  - 01-[svyazi (3 докум., ~12 мин)](#01-svyazi-3-докум-12-мин)
-  - [04-ai-collaborations (2 докум., ~8 мин)](#04-ai-collaborations-2-докум-8-мин)
+<!-- tags: reading-list, docs -->
 
 
 <!-- summary -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-> **по запросу «RAG retrieval»** | Документов: **5** | Время: **~20 мин** (0ч 20м)
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion, architecture, self-improvement -->
+> `READING_LIST` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-11_
 
-**по запросу «RAG retrieval»** | Документов: **5** | Время: **~20 мин** (0ч 20м)
+**топ по насыщенности** | Документов: **15** | Время: **~2610 мин** (43ч 30м)
 
 | # | Документ | Секция | Время | Слов | Score |
 |---|----------|--------|-------|------|-------|
-| 1 | [11 integration contracts](01-svyazi/11-integration-contracts.md) | `01-svyazi` | 3 мин | 737 | 9.6 |
-| 2 | [Интеграционный контракт, который стоит зафиксирова](04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | `04-ai-collaborations` | 4 мин | 846 | 9.4 |
-| 3 | [09 architectural gaps](01-svyazi/09-architectural-gaps.md) | `01-svyazi` | 3 мин | 758 | 9.3 |
-| 4 | [Архитектурные зазоры, которые важнее новых инструм](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | `04-ai-collaborations` | 4 мин | 805 | 9.2 |
-| 5 | [03 component catalog](01-svyazi/03-component-catalog.md) | `01-svyazi` | 6 мин | 1352 | 9.1 |
+| 1 | [Все таблицы репозитория](docs/TABLES.md) | `TABLES.md` | 1519 мин | 352795 | — |
+| 2 | [Outline базы знаний](docs/OUTLINE.md) | `OUTLINE.md` | 183 мин | 40376 | — |
+| 3 | [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) | `READABILITY.md` | 159 мин | 37538 | — |
+| 4 | [Время чтения документов](docs/READING_TIME.md) | `READING_TIME.md` | 117 мин | 27566 | — |
+| 5 | [Приложение C: Образец Спецификаций Инструментов In](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) | `02-anthropic-vacancies` | 89 мин | 20580 | — |
+| 6 | [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | `02-anthropic-vacancies` | 91 мин | 19240 | — |
+| 7 | [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) | `02-anthropic-vacancies` | 75 мин | 17102 | — |
+| 8 | [Глоссарий понятий](docs/CONCEPTS.md) | `CONCEPTS.md` | 65 мин | 15054 | — |
+| 9 | [Карта происхождения текстов](docs/SOURCE_MAP.md) | `SOURCE_MAP.md` | 50 мин | 12223 | — |
+| 10 | [Введение](docs/04-ai-collaborations/00-intro.md) | `04-ai-collaborations` | 53 мин | 11507 | — |
+| 11 | [Что такое Вариант C — Concept Document для Anthrop](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) | `02-anthropic-vacancies` | 47 мин | 11428 | — |
+| 12 | [Карта репозитория Lorenzo](docs/SITEMAP.md) | `SITEMAP.md` | 41 мин | 9605 | — |
+| 13 | [Diff базы знаний между версиями](docs/VERSION_DIFF.md) | `VERSION_DIFF.md` | 39 мин | 9581 | — |
+| 14 | [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) | `nautilus` | 39 мин | 9568 | — |
+| 15 | [⬡](docs/02-anthropic-vacancies/69-section.md) | `02-anthropic-vacancies` | 43 мин | 9563 | — |
 
 ## По секциям
 
-### `01-svyazi` (3 докум., ~12 мин)
+### `02-anthropic-vacancies` (5 докум., ~345 мин)
 
-- [11 integration contracts](01-svyazi/11-integration-contracts.md) — 3 мин
-- [09 architectural gaps](01-svyazi/09-architectural-gaps.md) — 3 мин
-- [03 component catalog](01-svyazi/03-component-catalog.md) — 6 мин
+- [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) — 89 мин
+- [Интегральный анализ профиля svend4](docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) — 91 мин
+- [Обратная связь](docs/02-anthropic-vacancies/133-обратная-связь.md) — 75 мин
+- [Что такое Вариант C — Concept Document для Anthropic Benefic](docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) — 47 мин
+- [⬡](docs/02-anthropic-vacancies/69-section.md) — 43 мин
 
-### `04-ai-collaborations` (2 докум., ~8 мин)
+### `04-ai-collaborations` (1 докум., ~53 мин)
 
-- [Интеграционный контракт, который стоит зафиксировать сразу](04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) — 4 мин
-- [Архитектурные зазоры, которые важнее новых инструментов](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) — 4 мин
+- [Введение](docs/04-ai-collaborations/00-intro.md) — 53 мин
 
+### `CONCEPTS.md` (1 докум., ~65 мин)
 
-<!-- similar-docs -->
+- [Глоссарий понятий](docs/CONCEPTS.md) — 65 мин
 
----
+### `OUTLINE.md` (1 докум., ~183 мин)
 
-## Похожие документы
-- [MISSING](MISSING.md) (сходство 0.15)
-- [README](04-ai-collaborations/README.md) (сходство 0.13)
-- [ALERTS](ALERTS.md) (сходство 0.13)
+- [Outline базы знаний](docs/OUTLINE.md) — 183 мин
 
+### `READABILITY.md` (1 докум., ~159 мин)
 
-<!-- see-also -->
+- [Читаемость документов (Flesch-Kincaid)](docs/READABILITY.md) — 159 мин
 
----
+### `READING_TIME.md` (1 докум., ~117 мин)
+
+- [Время чтения документов](docs/READING_TIME.md) — 117 мин
+
+### `SITEMAP.md` (1 докум., ~41 мин)
+
+- [Карта репозитория Lorenzo](docs/SITEMAP.md) — 41 мин
+
+### `SOURCE_MAP.md` (1 докум., ~50 мин)
+
+- [Карта происхождения текстов](docs/SOURCE_MAP.md) — 50 мин
+
+### `TABLES.md` (1 докум., ~1519 мин)
+
+- [Все таблицы репозитория](docs/TABLES.md) — 1519 мин
+
+### `VERSION_DIFF.md` (1 докум., ~39 мин)
+
+- [Diff базы знаний между версиями](docs/VERSION_DIFF.md) — 39 мин
+
+### `nautilus` (1 докум., ~39 мин)
+
+- [Claude hat geantwortet: Хорошо.](docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md) — 39 мин
+
 
 
 ## Использование
-
 ```bash
+# Запуск
 python scripts/improve_reading_list.py
 ```
-
-## Смотрите также
-- [evidence-envelope](svyazi-2-0/architecture/evidence-envelope.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [REPORT](REPORT.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-

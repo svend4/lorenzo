@@ -5,329 +5,81 @@
 
 h1. Индекс тегов
 
-
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{TAGS}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-
-
-{quote}{{TAGS}} — раздел документации проекта Lorenzo.{quote}
-
-
 Каждый файл помечен тегами по темам автоматически.
 
 
-h2. #anthropic (49 файлов)
+h2. #anthropic (3 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/COMPLEXITY.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COVERAGE.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/KPI.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* _...и ещё 29_
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
 
-h2. #architecture (51 файлов)
+h2. #architecture (5 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/COMPLEXITY.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COST.md}}
-* {{docs/COVERAGE.md}}
-* {{docs/DENSITY.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* _...и ещё 31_
+* {{docs/VALIDATION.md}}
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
+* {{docs/obsidian/VALIDATION.md}}
 
-h2. #collaboration (61 файлов)
+h2. #collaboration (5 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COST.md}}
-* {{docs/COVERAGE.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/KPI.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* _...и ещё 41_
+* {{docs/VALIDATION.md}}
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
+* {{docs/obsidian/VALIDATION.md}}
 
-h2. #ingestion (54 файлов)
+h2. #ingestion (3 файлов)
 
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/ALERTS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COVERAGE.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/KPI.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* _...и ещё 34_
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
 
-h2. #knowledge (45 файлов)
+h2. #knowledge (5 файлов)
 
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/COST.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/KPI.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* {{docs/NARRATIVE.md}}
-* {{docs/NETWORK.md}}
-* {{docs/PRIORITIES.md}}
-* _...и ещё 25_
+* {{docs/VALIDATION.md}}
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
+* {{docs/obsidian/VALIDATION.md}}
 
-h2. #local-first (29 файлов)
+h2. #local-first (1 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/KPI.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* {{docs/PRIORITIES.md}}
-* {{docs/READING_ORDER.md}}
-* {{docs/SCRIPTS_CATALOG.md}}
-* {{docs/SEE_ALSO.md}}
-* {{docs/SENTIMENT.md}}
-* {{docs/SITEMAP.md}}
-* _...и ещё 9_
+* {{docs/obsidian/OUTLINE.md}}
 
-h2. #memory (46 файлов)
+h2. #memory (3 файлов)
 
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/COMPLEXITY.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/COST.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/KPI.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* _...и ещё 26_
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
 
-h2. #orchestration (40 файлов)
+h2. #orchestration (3 файлов)
 
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/COMPLEXITY.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COST.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* _...и ещё 20_
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
 
-h2. #rag (44 файлов)
+h2. #rag (2 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/KPI.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* {{docs/NARRATIVE.md}}
-* {{docs/NETWORK.md}}
-* _...и ещё 24_
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/REPORT.md}}
 
-h2. #roadmap (51 файлов)
+h2. #roadmap (5 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/BACKLINKS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPARE.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COST.md}}
-* {{docs/COVERAGE.md}}
-* {{docs/DENSITY.md}}
-* {{docs/DIGEST.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/KPI.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* {{docs/NARRATIVE.md}}
-* _...и ещё 31_
+* {{docs/VALIDATION.md}}
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}
+* {{docs/obsidian/VALIDATION.md}}
 
-h2. #security (37 файлов)
+h2. #security (2 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTACT_PRIORITY.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/COST.md}}
-* {{docs/COVERAGE.md}}
-* {{docs/DENSITY.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/HEATMAP.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* {{docs/NETWORK.md}}
-* _...и ещё 17_
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/REPORT.md}}
 
-h2. #self-improvement (40 файлов)
+h2. #self-improvement (3 файлов)
 
-* {{docs/ABBREVIATIONS.md}}
-* {{docs/ACTION_ITEMS.md}}
-* {{docs/CHANGELOG.md}}
-* {{docs/CLUSTERS.md}}
-* {{docs/CODE_BLOCKS.md}}
-* {{docs/COMPLEXITY.md}}
-* {{docs/CONCEPTS.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/CONTENT_GAPS.md}}
-* {{docs/FOOTNOTES.md}}
-* {{docs/GRAPH.md}}
-* {{docs/HEADING_AUDIT.md}}
-* {{docs/KPI.md}}
-* {{docs/LINK_PREVIEW.md}}
-* {{docs/MINDMAP.md}}
-* {{docs/MISSING.md}}
-* {{docs/PRIORITIES.md}}
-* {{docs/PROGRESS.md}}
-* {{docs/QUESTIONS.md}}
-* {{docs/READING_ORDER.md}}
-* _...и ещё 20_
-
-
-
-----
-
-_Кто ссылается на этот документ (16):_
-* [CONSISTENCY|CONSISTENCY.md]
-* [CROSS_SECTION|CROSS_SECTION.md]
-* [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
-* [INDEX|INDEX.md]
-* [LANGUAGE_STATS|LANGUAGE_STATS.md]
-* [LLM_SUMMARIES|LLM_SUMMARIES.md]
-* [MISSING|MISSING.md]
-* [OUTLINE|OUTLINE.md]
-* _...ещё 8_
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_tags.py
-{code}
+* {{docs/obsidian/OUTLINE.md}}
+* {{docs/obsidian/PROGRESS.md}}
+* {{docs/obsidian/REPORT.md}}

@@ -3,7 +3,6 @@
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Метрики репозитория](#метрики-репозитория)
 - [Разделы документации](#разделы-документации)
   - [[🏗️  Архитектура Svyazi 2.0](01-svyazi/README.md)](#архитектура-svyazi-2001-svyazireadmemd)
@@ -20,20 +19,6 @@
 
 
 <!-- toc-auto -->
-## Contents
-
-- [Метрики репозитория](#метрики-репозитория)
-- [Разделы документации](#разделы-документации)
-  - [[🏗️  Архитектура Svyazi 2.0](01-svyazi/README.md)](#архитектура-svyazi-2001-svyazireadmemd)
-  - [[💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)](#вакансии-anthropic02-anthropic-vacanciesreadmemd)
-  - [[⚗️  Комбинации технологий](03-technology-combinations/README.md)](#комбинации-технологий03-technology-combinationsreadmemd)
-  - [[🤝 AI-коллаборации](04-ai-collaborations/README.md)](#ai-коллаборации04-ai-collaborationsreadmemd)
-  - [[📦 Хабр-проекты](05-habr-projects/README.md)](#хабр-проекты05-habr-projectsreadmemd)
-- [Аналитика и отчёты](#аналитика-и-отчёты)
-- [Ключевые документы](#ключевые-документы)
-- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
-- [Быстрый старт](#быстрый-старт)
-
 
 > [!NOTE]
 > Раздел `INDEX` формируется автоматически из данных репозитория.
@@ -52,9 +37,9 @@ _Главный навигационный хаб. Все разделы и до
 
 | Параметр | Значение |
 |----------|---------|
-| Markdown документов | **2451** |
-| Слов | **2,713,388** |
-| Скриптов автоматизации | **163** |
+| Markdown документов | **2482** |
+| Слов | **2,984,512** |
+| Скриптов автоматизации | **166** |
 | Go/No-Go скоринг | **100 🟢** |
 | Здоровье репо | **100/100** |
 
@@ -64,31 +49,31 @@ _Главный навигационный хаб. Все разделы и до
 
 Ключевые компоненты, контракты, MVP, дорожная карта
 
-_16 файлов · 13,370 слов_
+_16 файлов · 13,360 слов_
 
 ### [💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)
 
 436 вакансий по 12 кластерам, стратегический анализ
 
-_357 файлов · 341,436 слов_
+_357 файлов · 341,828 слов_
 
 ### [⚗️  Комбинации технологий](03-technology-combinations/README.md)
 
 40+ синергетических комбинаций AI-технологий
 
-_7 файлов · 3,835 слов_
+_7 файлов · 3,815 слов_
 
 ### [🤝 AI-коллаборации](04-ai-collaborations/README.md)
 
 5 ансамблей OSS-проектов: Knowledge OS, Agent Teams, Security Runtime
 
-_17 файлов · 27,978 слов_
+_17 файлов · 27,940 слов_
 
 ### [📦 Хабр-проекты](05-habr-projects/README.md)
 
 Yodoca, NGT, AgentFS, knowledge-space — проекты с Хабра
 
-_16 файлов · 14,769 слов_
+_16 файлов · 14,869 слов_
 
 
 ## Аналитика и отчёты
@@ -166,42 +151,5 @@ python scripts/improve_run_all.py --group analysis
 
 ---
 
-_Индекс сгенерирован автоматически · 2451 документов · 163 скриптов_
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [README](01-svyazi/README.md)
-- [CLUSTERS](CLUSTERS.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [INDEX](obsidian/INDEX.md) (сходство 0.97)
-- [ONBOARDING](ONBOARDING.md) (сходство 0.24)
-- [ONBOARDING](obsidian/ONBOARDING.md) (сходство 0.24)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ONBOARDING](ONBOARDING.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+_Индекс сгенерирован автоматически · 2482 документов · 166 скриптов_
 

@@ -1,5 +1,32 @@
 # Каталог задач (TASKS_INDEX)
 
+<!-- toc -->
+## Содержание
+
+- [По MCP-серверу](#по-mcp-серверу)
+  - [lorenzo-contacts (1)](#lorenzo-contacts-1)
+  - [lorenzo-graph (4)](#lorenzo-graph-4)
+  - [lorenzo-runner (5)](#lorenzo-runner-5)
+  - [lorenzo-search (3)](#lorenzo-search-3)
+- [Подробно](#подробно)
+  - [`audit-corpus`](#audit-corpus)
+  - [`compare`](#compare)
+  - [`daily-routine`](#daily-routine)
+  - [`find-contradictions`](#find-contradictions)
+  - [`find-gaps`](#find-gaps)
+  - [`generate-rfc`](#generate-rfc)
+  - [`plan-mvp`](#plan-mvp)
+  - [`search`](#search)
+  - [`summarize`](#summarize)
+  - [`synthesize`](#synthesize)
+  - [`track-decisions`](#track-decisions)
+  - [`weekly-review`](#weekly-review)
+  - [`write-contact`](#write-contact)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]

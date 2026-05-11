@@ -15,7 +15,6 @@ h1. Tech Radar — Svyazi 2.0
 
 h2. Содержание
 
-* [Contents|#contents]
 * [Обзор|#обзор]
 * [🟢 ADOPT|#adopt]
 * [🔵 TRIAL|#trial]
@@ -27,16 +26,6 @@ h2. Содержание
 ----
 
 
-
-h2. Contents
-
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
-* [Смотрите также|#смотрите-также]
 
 
 {quote}[!NOTE]{quote}
@@ -139,40 +128,3 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
-
-
-
-----
-
-_Кто ссылается на этот документ (12):_
-* [[COMPONENT_MATRIX]]
-* [[CONCEPTS]]
-* [[FOOTNOTES]]
-* [[INDEX]]
-* [[OUTLINE]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* _...ещё 4_
-
-
-
-
-----
-
-_Похожие документы:_
-* [[TECH_RADAR]] (сходство 0.99)
-* [[FOOTNOTES]] (сходство 0.22)
-* [[ONBOARDING]] (сходство 0.21)
-
-
-
-
-----
-
-_Смотрите также:_
-* [[ONBOARDING]]
-* [[CONCEPT_GRAPH]]
-* [[DIGEST_WEEKLY]]
-* [[KEYWORD_INDEX]]
-

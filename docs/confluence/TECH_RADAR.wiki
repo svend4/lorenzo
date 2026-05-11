@@ -8,7 +8,6 @@ h1. Tech Radar — Svyazi 2.0
 
 h2. Содержание
 
-* [Contents|#contents]
 * [Обзор|#обзор]
 * [🟢 ADOPT|#adopt]
 * [🔵 TRIAL|#trial]
@@ -20,16 +19,6 @@ h2. Содержание
 ----
 
 
-
-h2. Contents
-
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
-* [Смотрите также|#смотрите-также]
 
 
 {quote}[!NOTE]{quote}
@@ -132,40 +121,3 @@ h2. Смотрите также
 * [Здоровье|HEALTH.md]
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
-
-
-
-----
-
-_Кто ссылается на этот документ (12):_
-* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
-* [CONCEPTS|CONCEPTS.md]
-* [FOOTNOTES|FOOTNOTES.md]
-* [INDEX|INDEX.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* _...ещё 4_
-
-
-
-
-----
-
-_Похожие документы:_
-* [TECH_RADAR|obsidian/TECH_RADAR.md] (сходство 0.99)
-* [FOOTNOTES|FOOTNOTES.md] (сходство 0.22)
-* [ONBOARDING|ONBOARDING.md] (сходство 0.21)
-
-
-
-
-----
-
-_Смотрите также:_
-* [ONBOARDING|ONBOARDING.md]
-* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
-* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
-* [KEYWORD_INDEX|KEYWORD_INDEX.md]
-

@@ -1,5 +1,21 @@
 # Тематическое моделирование (TF-IDF)
 
+<!-- toc -->
+## Содержание
+
+- [Тема 1: cowork, ingit, turn (2056 документов)](#тема-1-cowork-ingit-turn-2056-документов)
+- [Тема 4: triangle, double, domain (108 документов)](#тема-4-triangle-double-domain-108-документов)
+- [Тема 2: memory, wikontic, yodoca (104 документов)](#тема-2-memory-wikontic-yodoca-104-документов)
+- [Тема 3: level, compatibility, bridges (82 документов)](#тема-3-level-compatibility-bridges-82-документов)
+- [Тема 6: federation, normative, merging (68 документов)](#тема-6-federation-normative-merging-68-документов)
+- [Тема 5: section, beneficial, success (54 документов)](#тема-5-section-beneficial-success-54-документов)
+- [Топ уникальных слов по темам](#топ-уникальных-слов-по-темам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]

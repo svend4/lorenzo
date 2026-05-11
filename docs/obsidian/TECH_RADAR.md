@@ -10,7 +10,6 @@ date: 2026-05-11
 <!-- toc -->
 ## Содержание
 
-- [Contents](#contents)
 - [Обзор](#обзор)
 - [🟢 ADOPT](#adopt)
 - [🔵 TRIAL](#trial)
@@ -23,16 +22,6 @@ date: 2026-05-11
 
 
 <!-- toc-auto -->
-## Contents
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-- [Смотрите также](#смотрите-также)
-
 
 > [!NOTE]
 > Раздел `TECH_RADAR` формируется автоматически из данных репозитория.
@@ -138,40 +127,3 @@ _Radar обновляется вручную при существенных и�
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (12):**
-- [[COMPONENT_MATRIX]]
-- [[CONCEPTS]]
-- [[FOOTNOTES]]
-- [[INDEX]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- _...ещё 4_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[TECH_RADAR]] (сходство 0.99)
-- [[FOOTNOTES]] (сходство 0.22)
-- [[ONBOARDING]] (сходство 0.21)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[ONBOARDING]]
-- [[CONCEPT_GRAPH]]
-- [[DIGEST_WEEKLY]]
-- [[KEYWORD_INDEX]]
-

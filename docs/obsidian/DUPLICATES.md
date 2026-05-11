@@ -9,6 +9,45 @@ date: 2026-05-11
 
 # Отчёт о дублировании
 
+<!-- toc -->
+## Содержание
+
+- [Похожие файлы (Jaccard ≥ 0.5)](#похожие-файлы-jaccard-05)
+  - [100% — `docs/SENTINEL.md` vs `docs/obsidian/SENTINEL.md`](#100-docssentinelmd-vs-docsobsidiansentinelmd)
+  - [100% — `docs/PRECISION_EVAL.md` vs `docs/obsidian/PRECISION_EVAL.md`](#100-docsprecision_evalmd-vs-docsobsidianprecision_evalmd)
+  - [100% — `docs/BADGES.md` vs `docs/obsidian/BADGES.md`](#100-docsbadgesmd-vs-docsobsidianbadgesmd)
+  - [100% — `docs/GATEWAY.md` vs `docs/obsidian/GATEWAY.md`](#100-docsgatewaymd-vs-docsobsidiangatewaymd)
+  - [100% — `docs/DIGEST.md` vs `docs/obsidian/DIGEST.md`](#100-docsdigestmd-vs-docsobsidiandigestmd)
+  - [100% — `docs/SIMILAR.md` vs `docs/obsidian/SIMILAR.md`](#100-docssimilarmd-vs-docsobsidiansimilarmd)
+  - [100% — `docs/TOPIC_MODEL.md` vs `docs/obsidian/TOPIC_MODEL.md`](#100-docstopic_modelmd-vs-docsobsidiantopic_modelmd)
+  - [100% — `docs/svyazi-2-0/components/hybrid-rag.md` vs `docs/obsidian/svyazi-2-0/components/hybrid-rag.md`](#100-docssvyazi-2-0componentshybrid-ragmd-vs-docsobsidiansvyazi-2-0componentshybrid-ragmd)
+  - [100% — `docs/svyazi-2-0/components/agent-memory-mcp.md` vs `docs/obsidian/svyazi-2-0/components/agent-memory-mcp.md`](#100-docssvyazi-2-0componentsagent-memory-mcpmd-vs-docsobsidiansvyazi-2-0componentsagent-memory-mcpmd)
+  - [100% — `docs/svyazi-2-0/components/graph-rag.md` vs `docs/obsidian/svyazi-2-0/components/graph-rag.md`](#100-docssvyazi-2-0componentsgraph-ragmd-vs-docsobsidiansvyazi-2-0componentsgraph-ragmd)
+  - [100% — `docs/svyazi-2-0/components/mclaude.md` vs `docs/obsidian/svyazi-2-0/components/mclaude.md`](#100-docssvyazi-2-0componentsmclaudemd-vs-docsobsidiansvyazi-2-0componentsmclaudemd)
+  - [100% — `docs/letters/vitalysemenov.md` vs `docs/obsidian/letters/vitalysemenov.md`](#100-docslettersvitalysemenovmd-vs-docsobsidianlettersvitalysemenovmd)
+  - [100% — `docs/letters/antipozitive.md` vs `docs/obsidian/letters/antipozitive.md`](#100-docslettersantipozitivemd-vs-docsobsidianlettersantipozitivemd)
+  - [100% — `docs/letters/nlaik.md` vs `docs/obsidian/letters/nlaik.md`](#100-docslettersnlaikmd-vs-docsobsidianlettersnlaikmd)
+  - [100% — `docs/obsidian/processing-guide/06-search.md` vs `docs/processing-guide/06-search.md`](#100-docsobsidianprocessing-guide06-searchmd-vs-docsprocessing-guide06-searchmd)
+  - [100% — `docs/obsidian/templates/retrospective.md` vs `docs/obsidian/templates/meeting-notes.md`](#100-docsobsidiantemplatesretrospectivemd-vs-docsobsidiantemplatesmeeting-notesmd)
+  - [100% — `docs/obsidian/templates/faq-entry.md` vs `docs/obsidian/nautilus/review-methodology/15-appendix-c-history.md`](#100-docsobsidiantemplatesfaq-entrymd-vs-docsobsidiannautilusreview-methodology15-appendix-c-historymd)
+  - [100% — `docs/obsidian/templates/faq-entry.md` vs `docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md`](#100-docsobsidiantemplatesfaq-entrymd-vs-docsobsidian02-anthropic-vacancies120-главные-технические-рискиmd)
+  - [100% — `docs/obsidian/templates/weekly-digest.md` vs `docs/obsidian/nautilus/review-methodology/00-tldr.md`](#100-docsobsidiantemplatesweekly-digestmd-vs-docsobsidiannautilusreview-methodology00-tldrmd)
+  - [100% — `docs/obsidian/ai-collaborations/QA.md` vs `docs/ai-collaborations/QA.md`](#100-docsobsidianai-collaborationsqamd-vs-docsai-collaborationsqamd)
+  - [100% — `docs/obsidian/05-habr-projects/02-collaboration-partners.md` vs `docs/05-habr-projects/02-collaboration-partners.md`](#100-docsobsidian05-habr-projects02-collaboration-partnersmd-vs-docs05-habr-projects02-collaboration-partnersmd)
+  - [100% — `docs/obsidian/nautilus/review-methodology/15-appendix-c-history.md` vs `docs/obsidian/02-anthropic-vacancies/120-главные-технические-риски.md`](#100-docsobsidiannautilusreview-methodology15-appendix-c-historymd-vs-docsobsidian02-anthropic-vacancies120-главные-технические-рискиmd)
+  - [100% — `docs/obsidian/anthropic-vacancies/clusters/13-communications.md` vs `docs/obsidian/anthropic-vacancies/clusters/16-people.md`](#100-docsobsidiananthropic-vacanciesclusters13-communicationsmd-vs-docsobsidiananthropic-vacanciesclusters16-peoplemd)
+  - [100% — `docs/lorenzo-agent/QA.md` vs `docs/processing-guide/QA.md`](#100-docslorenzo-agentqamd-vs-docsprocessing-guideqamd)
+  - [100% — `docs/lorenzo-agent/QA.md` vs `docs/anthropic-vacancies/QA.md`](#100-docslorenzo-agentqamd-vs-docsanthropic-vacanciesqamd)
+  - [100% — `docs/processing-guide/QA.md` vs `docs/anthropic-vacancies/QA.md`](#100-docsprocessing-guideqamd-vs-docsanthropic-vacanciesqamd)
+  - [100% — `docs/03-technology-combinations/QA.md` vs `docs/02-anthropic-vacancies/QA.md`](#100-docs03-technology-combinationsqamd-vs-docs02-anthropic-vacanciesqamd)
+  - [100% — `docs/03-technology-combinations/QA.md` vs `docs/01-svyazi/QA.md`](#100-docs03-technology-combinationsqamd-vs-docs01-svyaziqamd)
+  - [100% — `docs/02-anthropic-vacancies/QA.md` vs `docs/01-svyazi/QA.md`](#100-docs02-anthropic-vacanciesqamd-vs-docs01-svyaziqamd)
+  - [99% — `docs/DECISIONS.md` vs `docs/obsidian/DECISIONS.md`](#99-docsdecisionsmd-vs-docsobsidiandecisionsmd)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]

@@ -1,328 +1,80 @@
 # Индекс тегов
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `TAGS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: tags, docs -->
-
-
-<!-- summary -->
-> `TAGS` — раздел документации проекта Lorenzo.
-
-
 Каждый файл помечен тегами по темам автоматически.
 
 
-## #anthropic (49 файлов)
+## #anthropic (3 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
-- `docs/COMPLEXITY.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COVERAGE.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- _...и ещё 29_
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
 
-## #architecture (51 файлов)
+## #architecture (5 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
-- `docs/COMPLEXITY.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/DENSITY.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- _...и ещё 31_
+- `docs/VALIDATION.md`
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
+- `docs/obsidian/VALIDATION.md`
 
-## #collaboration (61 файлов)
+## #collaboration (5 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- _...и ещё 41_
+- `docs/VALIDATION.md`
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
+- `docs/obsidian/VALIDATION.md`
 
-## #ingestion (54 файлов)
+## #ingestion (3 файлов)
 
-- `docs/ACTION_ITEMS.md`
-- `docs/ALERTS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COVERAGE.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- _...и ещё 34_
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
 
-## #knowledge (45 файлов)
+## #knowledge (5 файлов)
 
-- `docs/ACTION_ITEMS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/KPI.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/NARRATIVE.md`
-- `docs/NETWORK.md`
-- `docs/PRIORITIES.md`
-- _...и ещё 25_
+- `docs/VALIDATION.md`
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
+- `docs/obsidian/VALIDATION.md`
 
-## #local-first (29 файлов)
+## #local-first (1 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/BACKLINKS.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/KPI.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/PRIORITIES.md`
-- `docs/READING_ORDER.md`
-- `docs/SCRIPTS_CATALOG.md`
-- `docs/SEE_ALSO.md`
-- `docs/SENTIMENT.md`
-- `docs/SITEMAP.md`
-- _...и ещё 9_
+- `docs/obsidian/OUTLINE.md`
 
-## #memory (46 файлов)
+## #memory (3 файлов)
 
-- `docs/ACTION_ITEMS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
-- `docs/COMPLEXITY.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/KPI.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- _...и ещё 26_
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
 
-## #orchestration (40 файлов)
+## #orchestration (3 файлов)
 
-- `docs/ACTION_ITEMS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
-- `docs/COMPLEXITY.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COST.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- _...и ещё 20_
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
 
-## #rag (44 файлов)
+## #rag (2 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/NARRATIVE.md`
-- `docs/NETWORK.md`
-- _...и ещё 24_
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/REPORT.md`
 
-## #roadmap (51 файлов)
+## #roadmap (5 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/BACKLINKS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPARE.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/DENSITY.md`
-- `docs/DIGEST.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/KPI.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/NARRATIVE.md`
-- _...и ещё 31_
+- `docs/VALIDATION.md`
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`
+- `docs/obsidian/VALIDATION.md`
 
-## #security (37 файлов)
+## #security (2 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/DENSITY.md`
-- `docs/ENTITIES.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/HEATMAP.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/NETWORK.md`
-- _...и ещё 17_
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/REPORT.md`
 
-## #self-improvement (40 файлов)
+## #self-improvement (3 файлов)
 
-- `docs/ABBREVIATIONS.md`
-- `docs/ACTION_ITEMS.md`
-- `docs/CHANGELOG.md`
-- `docs/CLUSTERS.md`
-- `docs/CODE_BLOCKS.md`
-- `docs/COMPLEXITY.md`
-- `docs/CONCEPTS.md`
-- `docs/CONTACTS.md`
-- `docs/CONTENT_GAPS.md`
-- `docs/FOOTNOTES.md`
-- `docs/GRAPH.md`
-- `docs/HEADING_AUDIT.md`
-- `docs/KPI.md`
-- `docs/LINK_PREVIEW.md`
-- `docs/MINDMAP.md`
-- `docs/MISSING.md`
-- `docs/PRIORITIES.md`
-- `docs/PROGRESS.md`
-- `docs/QUESTIONS.md`
-- `docs/READING_ORDER.md`
-- _...и ещё 20_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (16):**
-- [CONSISTENCY](CONSISTENCY.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [INDEX](INDEX.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [MISSING](MISSING.md)
-- [OUTLINE](OUTLINE.md)
-- _...ещё 8_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_tags.py
-```
+- `docs/obsidian/OUTLINE.md`
+- `docs/obsidian/PROGRESS.md`
+- `docs/obsidian/REPORT.md`

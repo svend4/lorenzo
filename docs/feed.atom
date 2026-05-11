@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T09:23:33+00:00</updated>
+  <updated>2026-05-11T09:43:46+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/4a6e7a87b6046bb422d98f44923cb78d54a331c7</id>
+    <title>chore: update auto-generated docs artifacts</title>
+    <link href="https://github.com/svend4/lorenzo/commit/4a6e7a87b6046bb422d98f44923cb78d54a331c7"/>
+    <updated>2026-05-11T09:24:52+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: update auto-generated docs artifacts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li></ul><p>Коммит: <code>4a6e7a87</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/cda0f08a4a5302254cba843764c8e6d86f9f7d0c</id>
     <title>test: +54 теста — test_status_badges.py + test_autofill.py; итого 394</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/9cb118ab31c6b16cd5e88f606fc1789b9bdbb867"/>
     <updated>2026-05-11T08:23:59+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: авто-перегенерация дашбордов после Hit Rate@10 1.000</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/02-anthropic-vacancies/README.md">docs/obsidian/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>9cb118ab</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/b5efba6c625a76b1716b19470ca63f966ffa466f</id>
-    <title>feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска</title>
-    <link href="https://github.com/svend4/lorenzo/commit/b5efba6c625a76b1716b19470ca63f966ffa466f"/>
-    <updated>2026-05-11T08:23:39+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROTOTYPE_SPEC.md">docs/PROTOTYPE_SPEC.md</a></li></ul><p>Коммит: <code>b5efba6c</code></p>]]></content>
   </entry>
 </feed>

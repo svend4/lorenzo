@@ -1,5 +1,18 @@
 # Прогресс MVP
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `PROGRESS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: progress, docs -->
+
+
+<!-- summary -->
+> `PROGRESS` — раздел документации проекта Lorenzo.
+
+
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)

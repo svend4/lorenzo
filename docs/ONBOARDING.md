@@ -1,33 +1,6 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Что это такое?](#что-это-такое)
-- [Первые 30 минут](#первые-30-минут)
-- [Структура документации](#структура-документации)
-- [Ключевые документы](#ключевые-документы)
-- [Скрипты автоматизации](#скрипты-автоматизации)
-- [Архитектура компонентов](#архитектура-компонентов)
-- [Как внести вклад](#как-внести-вклад)
-- [Контакты](#контакты)
-
----
-
-
 <!-- toc-auto -->
-## Contents
-
-- [Что это такое?](#что-это-такое)
-- [Первые 30 минут](#первые-30-минут)
-- [Структура документации](#структура-документации)
-- [Ключевые документы](#ключевые-документы)
-- [Скрипты автоматизации](#скрипты-автоматизации)
-- [Архитектура компонентов](#архитектура-компонентов)
-- [Как внести вклад](#как-внести-вклад)
-- [Контакты](#контакты)
-
 
 > [!NOTE]
 > Раздел `ONBOARDING` формируется автоматически из данных репозитория.
@@ -70,15 +43,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 413 файлов, 401,388 слов_
+_Всего: 413 файлов, 401,812 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,370 |
-| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 341,436 |
-| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,835 |
-| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,978 |
-| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,769 |
+| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,360 |
+| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 341,828 |
+| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,815 |
+| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,940 |
+| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,869 |
 
 ## Ключевые документы
 
@@ -95,7 +68,7 @@ _Всего: 413 файлов, 401,388 слов_
 
 ## Скрипты автоматизации
 
-В репо 163 скриптов `improve_*.py` для автоматического обновления документации.
+В репо 166 скриптов `improve_*.py` для автоматического обновления документации.
 
 ```bash
 # Все скрипты быстро
@@ -142,41 +115,4 @@ python scripts/improve_watcher.py
 
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (16):**
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [DENSITY](DENSITY.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [FAQ](FAQ.md)
-- [FOOTNOTES](FOOTNOTES.md)
-- [HEATMAP](HEATMAP.md)
-- [INDEX](INDEX.md)
-- _...ещё 8_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ONBOARDING](obsidian/ONBOARDING.md) (сходство 0.98)
-- [INDEX](INDEX.md) (сходство 0.24)
-- [INDEX](obsidian/INDEX.md) (сходство 0.22)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [INDEX](INDEX.md)
-- [TECH_RADAR](TECH_RADAR.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 

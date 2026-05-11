@@ -1,16 +1,5 @@
 # Аудит заголовков
 
-> [!NOTE]
-> Раздел `HEADING_AUDIT` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> Файлов с проблемами: **1199** из 1237
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
-
----
-
 <!-- toc -->
 ## Содержание
 
@@ -19,12 +8,12 @@
   - [`docs/EMPTY_SECTIONS.md` (441 проблем)](#docsempty_sectionsmd-441-проблем)
   - [`docs/QA.md` (179 проблем)](#docsqamd-179-проблем)
   - [`docs/CODE_BLOCKS.md` (127 проблем)](#docscode_blocksmd-127-проблем)
-  - [`docs/SPELLCHECK.md` (53 проблем)](#docsspellcheckmd-53-проблем)
-  - [`docs/TABLES.md` (49 проблем)](#docstablesmd-49-проблем)
+  - [`docs/TABLES.md` (52 проблем)](#docstablesmd-52-проблем)
+  - [`docs/SPELLCHECK.md` (51 проблем)](#docsspellcheckmd-51-проблем)
   - [`docs/processing-guide/PROCESSING_GUIDE.md` (31 проблем)](#docsprocessing-guideprocessing_guidemd-31-проблем)
   - [`docs/02-anthropic-vacancies/QA.md` (21 проблем)](#docs02-anthropic-vacanciesqamd-21-проблем)
+  - [`docs/CHANGELOG.md` (20 проблем)](#docschangelogmd-20-проблем)
   - [`docs/GATEWAY.md` (20 проблем)](#docsgatewaymd-20-проблем)
-  - [`docs/CHANGELOG.md` (19 проблем)](#docschangelogmd-19-проблем)
   - [`docs/templates/protocol-spec.md` (18 проблем)](#docstemplatesprotocol-specmd-18-проблем)
   - [`docs/processing-guide/QA.md` (17 проблем)](#docsprocessing-guideqamd-17-проблем)
   - [`docs/templates/rfc.md` (17 проблем)](#docstemplatesrfcmd-17-проблем)
@@ -42,13 +31,13 @@
   - [`docs/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md` (11 проблем)](#docs02-anthropic-vacancies299-практические-рекомендации-для-текущего-проектаmd-11-проблем)
   - [`docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` (11 проблем)](#docs02-anthropic-vacancies365-развёрнутый-анализ-внуковой-комбинацииmd-11-проблем)
   - [`docs/05-habr-projects/QA.md` (11 проблем)](#docs05-habr-projectsqamd-11-проблем)
+  - [`docs/FAQ.md` (11 проблем)](#docsfaqmd-11-проблем)
   - [`docs/SCRIPT_EVAL_REPORT.md` (11 проблем)](#docsscript_eval_reportmd-11-проблем)
   - [`docs/ai-collaborations/QA.md` (11 проблем)](#docsai-collaborationsqamd-11-проблем)
   - [`docs/01-svyazi/QA.md` (10 проблем)](#docs01-svyaziqamd-10-проблем)
   - [`docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` (10 проблем)](#docs02-anthropic-vacancies341-приложение-c-образец-спецификаций-инструментов-ingmd-10-проблем)
   - [`docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` (10 проблем)](#docs02-anthropic-vacancies98-appendix-a-minimal-working-examplemd-10-проблем)
   - [`docs/03-technology-combinations/05-benchmarks.md` (10 проблем)](#docs03-technology-combinations05-benchmarksmd-10-проблем)
-  - [`docs/FAQ.md` (10 проблем)](#docsfaqmd-10-проблем)
   - [`docs/templates/experiment-log.md` (10 проблем)](#docstemplatesexperiment-logmd-10-проблем)
   - [`docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (9 проблем)](#docs02-anthropic-vacancies02-общий-план-развития-nautilus-portal-protocolmd-9-проблем)
   - [`docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` (9 проблем)](#docs02-anthropic-vacancies149-appendix-b-summary-of-contributionsmd-9-проблем)
@@ -135,6 +124,7 @@
   - [`docs/05-habr-projects/memory/yodoca.md` (6 проблем)](#docs05-habr-projectsmemoryyodocamd-6-проблем)
   - [`docs/SCHEDULE.md` (6 проблем)](#docsschedulemd-6-проблем)
   - [`docs/nautilus/npp-v1-0/15-glossary.md` (6 проблем)](#docsnautilusnpp-v1-015-glossarymd-6-проблем)
+  - [`docs/nautilus/okwf-concept/00-abstract.md` (6 проблем)](#docsnautilusokwf-concept00-abstractmd-6-проблем)
   - [`docs/nautilus/professional-colleague-agents-en/00-abstract.md` (6 проблем)](#docsnautilusprofessional-colleague-agents-en00-abstractmd-6-проблем)
   - [`docs/nautilus/representative-agent-layer-en/00-abstract.md` (6 проблем)](#docsnautilusrepresentative-agent-layer-en00-abstractmd-6-проблем)
   - [`docs/nautilus/representative-agent-layer-en/12-closing.md` (6 проблем)](#docsnautilusrepresentative-agent-layer-en12-closingmd-6-проблем)
@@ -252,7 +242,6 @@
   - [`docs/nautilus/double-triangle-architecture/00-abstract.md` (5 проблем)](#docsnautilusdouble-triangle-architecture00-abstractmd-5-проблем)
   - [`docs/nautilus/infrastructure-layer-b-en/00-intro.md` (5 проблем)](#docsnautilusinfrastructure-layer-b-en00-intromd-5-проблем)
   - [`docs/nautilus/npp-v1-1/09-consensus-algorithm.md` (5 проблем)](#docsnautilusnpp-v1-109-consensus-algorithmmd-5-проблем)
-  - [`docs/nautilus/okwf-concept/00-abstract.md` (5 проблем)](#docsnautilusokwf-concept00-abstractmd-5-проблем)
   - [`docs/templates/contradiction-record.md` (5 проблем)](#docstemplatescontradiction-recordmd-5-проблем)
   - [`docs/templates/retrospective.md` (5 проблем)](#docstemplatesretrospectivemd-5-проблем)
   - [`docs/02-anthropic-vacancies/06-1-introduction.md` (4 проблем)](#docs02-anthropic-vacancies06-1-introductionmd-4-проблем)
@@ -376,7 +365,7 @@
   - [`docs/DEMO.md` (4 проблем)](#docsdemomd-4-проблем)
   - [`docs/HEALTH.md` (4 проблем)](#docshealthmd-4-проблем)
   - [`docs/SCRIPTS_CATALOG.md` (4 проблем)](#docsscripts_catalogmd-4-проблем)
-  - [`docs/SENTINEL.md` (4 проблем)](#docssentinelmd-4-проблем)
+  - [`docs/SIMILAR.md` (4 проблем)](#docssimilarmd-4-проблем)
   - [`docs/autofilled/components/.md` (4 проблем)](#docsautofilledcomponentsmd-4-проблем)
   - [`docs/autofilled/components/cowork.md` (4 проблем)](#docsautofilledcomponentscoworkmd-4-проблем)
   - [`docs/autofilled/components/ingit.md` (4 проблем)](#docsautofilledcomponentsingitmd-4-проблем)
@@ -431,6 +420,7 @@
   - [`docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md` (4 проблем)](#docstechnology-combinationscombinations35-mega-stack-4-0-with-event-sourcing-consensusmd-4-проблем)
   - [`docs/templates/decision-record.md` (4 проблем)](#docstemplatesdecision-recordmd-4-проблем)
   - [`docs/templates/ensemble.md` (4 проблем)](#docstemplatesensemblemd-4-проблем)
+  - [`docs/templates/research-note.md` (4 проблем)](#docstemplatesresearch-notemd-4-проблем)
   - [`docs/01-svyazi/08-conclusions.md` (3 проблем)](#docs01-svyazi08-conclusionsmd-3-проблем)
   - [`docs/01-svyazi/09-architectural-gaps.md` (3 проблем)](#docs01-svyazi09-architectural-gapsmd-3-проблем)
   - [`docs/01-svyazi/11-integration-contracts.md` (3 проблем)](#docs01-svyazi11-integration-contractsmd-3-проблем)
@@ -500,20 +490,19 @@
   - [`docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` (3 проблем)](#docs04-ai-collaborations14-ограничения-лицензии-и-что-пока-лучше-не-склеиватьmd-3-проблем)
   - [`docs/05-habr-projects/knowledge/rufler.md` (3 проблем)](#docs05-habr-projectsknowledgeruflermd-3-проблем)
   - [`docs/AUTOFILLED.md` (3 проблем)](#docsautofilledmd-3-проблем)
-  - [`docs/CHANGELOG_AUTO.md` (3 проблем)](#docschangelog_automd-3-проблем)
-  - [`docs/CITATION_INDEX.md` (3 проблем)](#docscitation_indexmd-3-проблем)
-  - [`docs/CROSS_SECTION.md` (3 проблем)](#docscross_sectionmd-3-проблем)
+  - [`docs/BROKEN_LINKS.md` (3 проблем)](#docsbroken_linksmd-3-проблем)
+  - [`docs/CONCEPTS.md` (3 проблем)](#docsconceptsmd-3-проблем)
   - [`docs/INDEX.md` (3 проблем)](#docsindexmd-3-проблем)
   - [`docs/LLM_SUMMARIES.md` (3 проблем)](#docsllm_summariesmd-3-проблем)
-  - [`docs/MINDMAP.md` (3 проблем)](#docsmindmapmd-3-проблем)
   - [`docs/ONBOARDING.md` (3 проблем)](#docsonboardingmd-3-проблем)
+  - [`docs/ORPHANS.md` (3 проблем)](#docsorphansmd-3-проблем)
   - [`docs/PROTOTYPE_SPEC.md` (3 проблем)](#docsprototype_specmd-3-проблем)
   - [`docs/READING_LIST.md` (3 проблем)](#docsreading_listmd-3-проблем)
+  - [`docs/READING_ORDER.md` (3 проблем)](#docsreading_ordermd-3-проблем)
   - [`docs/REPORT.md` (3 проблем)](#docsreportmd-3-проблем)
   - [`docs/RISK_REGISTER.md` (3 проблем)](#docsrisk_registermd-3-проблем)
-  - [`docs/SIMILAR.md` (3 проблем)](#docssimilarmd-3-проблем)
-  - [`docs/SOURCE_MAP.md` (3 проблем)](#docssource_mapmd-3-проблем)
-  - [`docs/VERSION_DIFF.md` (3 проблем)](#docsversion_diffmd-3-проблем)
+  - [`docs/SCORING.md` (3 проблем)](#docsscoringmd-3-проблем)
+  - [`docs/TASKS_INDEX.md` (3 проблем)](#docstasks_indexmd-3-проблем)
   - [`docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md` (3 проблем)](#docsanthropic-vacanciesbeneficial-deployments-concept11-not-and-formatmd-3-проблем)
   - [`docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` (3 проблем)](#docsanthropic-vacanciesnautilus-vs-camel02-what-info-repos-containmd-3-проблем)
   - [`docs/contacts/anastasiyaw.md` (3 проблем)](#docscontactsanastasiyawmd-3-проблем)
@@ -647,7 +636,6 @@
   - [`docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md` (3 проблем)](#docstechnology-combinationscombinations29-meta-programmatic-legal-template-generatormd-3-проблем)
   - [`docs/technology-combinations/research-reports/continuation-10-domains.md` (3 проблем)](#docstechnology-combinationsresearch-reportscontinuation-10-domainsmd-3-проблем)
   - [`docs/templates/project-component.md` (3 проблем)](#docstemplatesproject-componentmd-3-проблем)
-  - [`docs/templates/research-note.md` (3 проблем)](#docstemplatesresearch-notemd-3-проблем)
   - [`docs/01-svyazi/00-intro-part2.md` (2 проблем)](#docs01-svyazi00-intro-part2md-2-проблем)
   - [`docs/01-svyazi/01-executive-summary.md` (2 проблем)](#docs01-svyazi01-executive-summarymd-2-проблем)
   - [`docs/01-svyazi/02-methodology.md` (2 проблем)](#docs01-svyazi02-methodologymd-2-проблем)
@@ -678,28 +666,23 @@
   - [`docs/05-habr-projects/knowledge/research-docs-liteparse.md` (2 проблем)](#docs05-habr-projectsknowledgeresearch-docs-liteparsemd-2-проблем)
   - [`docs/05-habr-projects/memory/agent-memory-mcp.md` (2 проблем)](#docs05-habr-projectsmemoryagent-memory-mcpmd-2-проблем)
   - [`docs/05-habr-projects/memory/memnet.md` (2 проблем)](#docs05-habr-projectsmemorymemnetmd-2-проблем)
+  - [`docs/CHANGELOG_AUTO.md` (2 проблем)](#docschangelog_automd-2-проблем)
+  - [`docs/CITATION_INDEX.md` (2 проблем)](#docscitation_indexmd-2-проблем)
   - [`docs/COMPARE.md` (2 проблем)](#docscomparemd-2-проблем)
   - [`docs/COMPONENT_MATRIX.md` (2 проблем)](#docscomponent_matrixmd-2-проблем)
-  - [`docs/CONCEPTS.md` (2 проблем)](#docsconceptsmd-2-проблем)
-  - [`docs/CONCEPT_GRAPH.md` (2 проблем)](#docsconcept_graphmd-2-проблем)
-  - [`docs/DEPENDENCY_MAP.md` (2 проблем)](#docsdependency_mapmd-2-проблем)
-  - [`docs/DIGEST_WEEKLY.md` (2 проблем)](#docsdigest_weeklymd-2-проблем)
+  - [`docs/CONTENT_GAPS.md` (2 проблем)](#docscontent_gapsmd-2-проблем)
+  - [`docs/CROSS_SECTION.md` (2 проблем)](#docscross_sectionmd-2-проблем)
+  - [`docs/DENSITY.md` (2 проблем)](#docsdensitymd-2-проблем)
   - [`docs/LANGUAGE_STATS.md` (2 проблем)](#docslanguage_statsmd-2-проблем)
-  - [`docs/LINK_PREVIEW.md` (2 проблем)](#docslink_previewmd-2-проблем)
-  - [`docs/NAMED_ENTITIES.md` (2 проблем)](#docsnamed_entitiesmd-2-проблем)
-  - [`docs/ORPHANS.md` (2 проблем)](#docsorphansmd-2-проблем)
+  - [`docs/MINDMAP.md` (2 проблем)](#docsmindmapmd-2-проблем)
   - [`docs/PASSIVE_VOICE.md` (2 проблем)](#docspassive_voicemd-2-проблем)
-  - [`docs/READING_ORDER.md` (2 проблем)](#docsreading_ordermd-2-проблем)
-  - [`docs/REGISTRY.md` (2 проблем)](#docsregistrymd-2-проблем)
-  - [`docs/SCORING.md` (2 проблем)](#docsscoringmd-2-проблем)
+  - [`docs/PRECISION_EVAL.md` (2 проблем)](#docsprecision_evalmd-2-проблем)
+  - [`docs/PRIORITIES.md` (2 проблем)](#docsprioritiesmd-2-проблем)
   - [`docs/SEARCH_RESULTS.md` (2 проблем)](#docssearch_resultsmd-2-проблем)
+  - [`docs/SENTINEL.md` (2 проблем)](#docssentinelmd-2-проблем)
   - [`docs/SIMILAR_PASSAGES.md` (2 проблем)](#docssimilar_passagesmd-2-проблем)
-  - [`docs/TAGS.md` (2 проблем)](#docstagsmd-2-проблем)
-  - [`docs/TASKS_INDEX.md` (2 проблем)](#docstasks_indexmd-2-проблем)
   - [`docs/TECH_RADAR.md` (2 проблем)](#docstech_radarmd-2-проблем)
-  - [`docs/TOPIC_MODEL.md` (2 проблем)](#docstopic_modelmd-2-проблем)
-  - [`docs/VOCABULARY.md` (2 проблем)](#docsvocabularymd-2-проблем)
-  - [`docs/WORD_CLOUD.md` (2 проблем)](#docsword_cloudmd-2-проблем)
+  - [`docs/WORD_FREQ.md` (2 проблем)](#docsword_freqmd-2-проблем)
   - [`docs/ai-collaborations/candidates/01-three-key-candidates.md` (2 проблем)](#docsai-collaborationscandidates01-three-key-candidatesmd-2-проблем)
   - [`docs/ai-collaborations/candidates/02-related-projects-context.md` (2 проблем)](#docsai-collaborationscandidates02-related-projects-contextmd-2-проблем)
   - [`docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md` (2 проблем)](#docsai-collaborationscandidates03-synthesis-hebbian-collaboration-graphmd-2-проблем)
@@ -993,6 +976,7 @@
   - [`docs/nautilus/transmission-box/00-question-mountain-to-person.md` (2 проблем)](#docsnautilustransmission-box00-question-mountain-to-personmd-2-проблем)
   - [`docs/nautilus/transmission-box/01-completing-loop.md` (2 проблем)](#docsnautilustransmission-box01-completing-loopmd-2-проблем)
   - [`docs/processing-guide/03-chunking.md` (2 проблем)](#docsprocessing-guide03-chunkingmd-2-проблем)
+  - [`docs/processing-guide/README.md` (2 проблем)](#docsprocessing-guidereadmemd-2-проблем)
   - [`docs/svyazi-2-0/README.md` (2 проблем)](#docssvyazi-2-0readmemd-2-проблем)
   - [`docs/svyazi-2-0/architecture/card-envelope.md` (2 проблем)](#docssvyazi-2-0architecturecard-envelopemd-2-проблем)
   - [`docs/svyazi-2-0/architecture/evidence-envelope.md` (2 проблем)](#docssvyazi-2-0architectureevidence-envelopemd-2-проблем)
@@ -1081,30 +1065,49 @@
   - [`docs/05-habr-projects/knowledge/README.md` (1 проблем)](#docs05-habr-projectsknowledgereadmemd-1-проблем)
   - [`docs/05-habr-projects/knowledge/agentfs.md` (1 проблем)](#docs05-habr-projectsknowledgeagentfsmd-1-проблем)
   - [`docs/05-habr-projects/memory/README.md` (1 проблем)](#docs05-habr-projectsmemoryreadmemd-1-проблем)
-  - [`docs/ALERTS.md` (1 проблем)](#docsalertsmd-1-проблем)
-  - [`docs/BROKEN_LINKS.md` (1 проблем)](#docsbroken_linksmd-1-проблем)
+  - [`docs/ABBREVIATIONS.md` (1 проблем)](#docsabbreviationsmd-1-проблем)
+  - [`docs/ACTION_ITEMS.md` (1 проблем)](#docsaction_itemsmd-1-проблем)
+  - [`docs/AUTHORS.md` (1 проблем)](#docsauthorsmd-1-проблем)
+  - [`docs/BACKLINKS.md` (1 проблем)](#docsbacklinksmd-1-проблем)
+  - [`docs/CLUSTERS.md` (1 проблем)](#docsclustersmd-1-проблем)
   - [`docs/COLLAB_SUGGESTIONS.md` (1 проблем)](#docscollab_suggestionsmd-1-проблем)
+  - [`docs/COMPLEXITY.md` (1 проблем)](#docscomplexitymd-1-проблем)
+  - [`docs/CONCEPT_GRAPH.md` (1 проблем)](#docsconcept_graphmd-1-проблем)
   - [`docs/CONTACTS.md` (1 проблем)](#docscontactsmd-1-проблем)
   - [`docs/CONTACT_PRIORITY.md` (1 проблем)](#docscontact_prioritymd-1-проблем)
-  - [`docs/CONTENT_GAPS.md` (1 проблем)](#docscontent_gapsmd-1-проблем)
+  - [`docs/COST.md` (1 проблем)](#docscostmd-1-проблем)
+  - [`docs/CROSSREFS.md` (1 проблем)](#docscrossrefsmd-1-проблем)
   - [`docs/DECISIONS.md` (1 проблем)](#docsdecisionsmd-1-проблем)
-  - [`docs/DENSITY.md` (1 проблем)](#docsdensitymd-1-проблем)
-  - [`docs/DEPENDABOT.md` (1 проблем)](#docsdependabotmd-1-проблем)
+  - [`docs/DEPENDENCY_MAP.md` (1 проблем)](#docsdependency_mapmd-1-проблем)
+  - [`docs/DIGEST.md` (1 проблем)](#docsdigestmd-1-проблем)
   - [`docs/DIGEST_AUTO.md` (1 проблем)](#docsdigest_automd-1-проблем)
+  - [`docs/DIGEST_WEEKLY.md` (1 проблем)](#docsdigest_weeklymd-1-проблем)
   - [`docs/DUPLICATES.md` (1 проблем)](#docsduplicatesmd-1-проблем)
-  - [`docs/FOOTNOTES.md` (1 проблем)](#docsfootnotesmd-1-проблем)
-  - [`docs/GRAPH.md` (1 проблем)](#docsgraphmd-1-проблем)
+  - [`docs/ENTITIES.md` (1 проблем)](#docsentitiesmd-1-проблем)
+  - [`docs/GLOSSARY.md` (1 проблем)](#docsglossarymd-1-проблем)
   - [`docs/KNOWLEDGE_MAP.md` (1 проблем)](#docsknowledge_mapmd-1-проблем)
+  - [`docs/KPI.md` (1 проблем)](#docskpimd-1-проблем)
   - [`docs/KPI_HISTORY.md` (1 проблем)](#docskpi_historymd-1-проблем)
   - [`docs/MCP_DASHBOARD.md` (1 проблем)](#docsmcp_dashboardmd-1-проблем)
   - [`docs/METRICS.md` (1 проблем)](#docsmetricsmd-1-проблем)
+  - [`docs/MISSING.md` (1 проблем)](#docsmissingmd-1-проблем)
+  - [`docs/NAMED_ENTITIES.md` (1 проблем)](#docsnamed_entitiesmd-1-проблем)
+  - [`docs/NARRATIVE.md` (1 проблем)](#docsnarrativemd-1-проблем)
   - [`docs/NETWORK.md` (1 проблем)](#docsnetworkmd-1-проблем)
-  - [`docs/PRIORITIES.md` (1 проблем)](#docsprioritiesmd-1-проблем)
+  - [`docs/PROGRESS.md` (1 проблем)](#docsprogressmd-1-проблем)
+  - [`docs/QUESTIONS.md` (1 проблем)](#docsquestionsmd-1-проблем)
+  - [`docs/READABILITY.md` (1 проблем)](#docsreadabilitymd-1-проблем)
   - [`docs/READING_TIME.md` (1 проблем)](#docsreading_timemd-1-проблем)
+  - [`docs/REGISTRY.md` (1 проблем)](#docsregistrymd-1-проблем)
   - [`docs/SEE_ALSO.md` (1 проблем)](#docssee_alsomd-1-проблем)
+  - [`docs/SENTIMENT.md` (1 проблем)](#docssentimentmd-1-проблем)
   - [`docs/SKILL_DASHBOARD.md` (1 проблем)](#docsskill_dashboardmd-1-проблем)
+  - [`docs/SOURCE_MAP.md` (1 проблем)](#docssource_mapmd-1-проблем)
+  - [`docs/TAGS.md` (1 проблем)](#docstagsmd-1-проблем)
   - [`docs/TIMELINE.md` (1 проблем)](#docstimelinemd-1-проблем)
-  - [`docs/WORD_FREQ.md` (1 проблем)](#docsword_freqmd-1-проблем)
+  - [`docs/TOPIC_MODEL.md` (1 проблем)](#docstopic_modelmd-1-проблем)
+  - [`docs/VERSION_DIFF.md` (1 проблем)](#docsversion_diffmd-1-проблем)
+  - [`docs/WORD_CLOUD.md` (1 проблем)](#docsword_cloudmd-1-проблем)
   - [`docs/ai-collaborations/README.md` (1 проблем)](#docsai-collaborationsreadmemd-1-проблем)
   - [`docs/ai-collaborations/candidates/README.md` (1 проблем)](#docsai-collaborationscandidatesreadmemd-1-проблем)
   - [`docs/ai-collaborations/channels/README.md` (1 проблем)](#docsai-collaborationschannelsreadmemd-1-проблем)
@@ -1151,7 +1154,6 @@
   - [`docs/meta-scripting/05-synthesis.md` (1 проблем)](#docsmeta-scripting05-synthesismd-1-проблем)
   - [`docs/meta-scripting/README.md` (1 проблем)](#docsmeta-scriptingreadmemd-1-проблем)
   - [`docs/nautilus/community-discussions/README.md` (1 проблем)](#docsnautiluscommunity-discussionsreadmemd-1-проблем)
-  - [`docs/nautilus/community-discussions/agent-changes-reality/README.md` (1 проблем)](#docsnautiluscommunity-discussionsagent-changes-realityreadmemd-1-проблем)
   - [`docs/nautilus/community-discussions/habr-article-1-reaction/README.md` (1 проблем)](#docsnautiluscommunity-discussionshabr-article-1-reactionreadmemd-1-проблем)
   - [`docs/nautilus/community-discussions/habr-article-2-reaction/README.md` (1 проблем)](#docsnautiluscommunity-discussionshabr-article-2-reactionreadmemd-1-проблем)
   - [`docs/nautilus/community-discussions/practical-observations/README.md` (1 проблем)](#docsnautiluscommunity-discussionspractical-observationsreadmemd-1-проблем)
@@ -1168,7 +1170,6 @@
   - [`docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md` (1 проблем)](#docsnautilusingit-cowork-ru04-simbioticheskaya-arkhitekturamd-1-проблем)
   - [`docs/nautilus/ingit-cowork-ru/README.md` (1 проблем)](#docsnautilusingit-cowork-rureadmemd-1-проблем)
   - [`docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` (1 проблем)](#docsnautilusinnovation-transitions00-question-innovations-transitionsmd-1-проблем)
-  - [`docs/nautilus/innovation-transitions/README.md` (1 проблем)](#docsnautilusinnovation-transitionsreadmemd-1-проблем)
   - [`docs/nautilus/multi-tier-architecture/README.md` (1 проблем)](#docsnautilusmulti-tier-architecturereadmemd-1-проблем)
   - [`docs/nautilus/npp-humanitarian-extension/README.md` (1 проблем)](#docsnautilusnpp-humanitarian-extensionreadmemd-1-проблем)
   - [`docs/nautilus/npp-v1-0/README.md` (1 проблем)](#docsnautilusnpp-v1-0readmemd-1-проблем)
@@ -1189,7 +1190,6 @@
   - [`docs/processing-guide/02-extraction.md` (1 проблем)](#docsprocessing-guide02-extractionmd-1-проблем)
   - [`docs/processing-guide/04-structuring.md` (1 проблем)](#docsprocessing-guide04-structuringmd-1-проблем)
   - [`docs/processing-guide/06-search.md` (1 проблем)](#docsprocessing-guide06-searchmd-1-проблем)
-  - [`docs/processing-guide/README.md` (1 проблем)](#docsprocessing-guidereadmemd-1-проблем)
   - [`docs/reading-paths.md` (1 проблем)](#docsreading-pathsmd-1-проблем)
   - [`docs/svyazi-2-0/architecture/README.md` (1 проблем)](#docssvyazi-2-0architecturereadmemd-1-проблем)
   - [`docs/svyazi-2-0/architecture/gaps.md` (1 проблем)](#docssvyazi-2-0architecturegapsmd-1-проблем)
@@ -1215,24 +1215,35 @@
   - [`docs/templates/README.md` (1 проблем)](#docstemplatesreadmemd-1-проблем)
   - [`docs/templates/contact-outreach.md` (1 проблем)](#docstemplatescontact-outreachmd-1-проблем)
   - [`docs/templates/kpi-snapshot.md` (1 проблем)](#docstemplateskpi-snapshotmd-1-проблем)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 ---
 
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `HEADING_AUDIT` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: heading-audit, docs -->
 
 
+<!-- summary -->
+> `HEADING_AUDIT` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-11_
 
-Файлов с проблемами: **1199** из 1237
+Файлов с проблемами: **1210** из 1237
 
 ## Типы проблем
 
 | Тип | Кол-во |
 |-----|--------|
-| 🕳️  Пустая секция | 3598 |
-| ♊ Дублирующийся заголовок | 1114 |
+| 🕳️  Пустая секция | 3607 |
+| ♊ Дублирующийся заголовок | 1115 |
 | 📏 Длинный заголовок | 4 |
 | 🪜 Пропущен уровень | 5 |
 | ❌ Несколько H1 | 74 |
@@ -1251,17 +1262,17 @@ _секция: 156, заголовок: 23_
 
 ### `docs/CODE_BLOCKS.md` (127 проблем)
 
-_секция: 108, заголовок: 19_
+_секция: 107, заголовок: 20_
 
 
-### `docs/SPELLCHECK.md` (53 проблем)
+### `docs/TABLES.md` (52 проблем)
 
-_секция: 53_
+_заголовок: 30, секция: 22_
 
 
-### `docs/TABLES.md` (49 проблем)
+### `docs/SPELLCHECK.md` (51 проблем)
 
-_заголовок: 29, секция: 20_
+_секция: 51_
 
 
 ### `docs/processing-guide/PROCESSING_GUIDE.md` (31 проблем)
@@ -1274,14 +1285,14 @@ _секция: 29, заголовок: 2_
 _секция: 21_
 
 
+### `docs/CHANGELOG.md` (20 проблем)
+
+_секция: 15, заголовок: 5_
+
+
 ### `docs/GATEWAY.md` (20 проблем)
 
 _секция: 19, заголовок: 1_
-
-
-### `docs/CHANGELOG.md` (19 проблем)
-
-_секция: 14, заголовок: 5_
 
 
 ### `docs/templates/protocol-spec.md` (18 проблем)
@@ -1369,6 +1380,11 @@ _секция: 8, заголовок: 3_
 _секция: 11_
 
 
+### `docs/FAQ.md` (11 проблем)
+
+_секция: 11_
+
+
 ### `docs/SCRIPT_EVAL_REPORT.md` (11 проблем)
 
 _секция: 11_
@@ -1397,11 +1413,6 @@ _секция: 7, заголовок: 2, H1: 1_
 ### `docs/03-technology-combinations/05-benchmarks.md` (10 проблем)
 
 _секция: 6, заголовок: 4_
-
-
-### `docs/FAQ.md` (10 проблем)
-
-_секция: 10_
 
 
 ### `docs/templates/experiment-log.md` (10 проблем)
@@ -1832,6 +1843,11 @@ _секция: 6_
 ### `docs/nautilus/npp-v1-0/15-glossary.md` (6 проблем)
 
 _секция: 5, заголовок: 1_
+
+
+### `docs/nautilus/okwf-concept/00-abstract.md` (6 проблем)
+
+_секция: 3, заголовок: 2, H1: 1_
 
 
 ### `docs/nautilus/professional-colleague-agents-en/00-abstract.md` (6 проблем)
@@ -2417,11 +2433,6 @@ _секция: 3, H1: 1, заголовок: 1_
 ### `docs/nautilus/npp-v1-1/09-consensus-algorithm.md` (5 проблем)
 
 _секция: 4, заголовок: 1_
-
-
-### `docs/nautilus/okwf-concept/00-abstract.md` (5 проблем)
-
-_секция: 3, H1: 1, заголовок: 1_
 
 
 ### `docs/templates/contradiction-record.md` (5 проблем)
@@ -3039,7 +3050,7 @@ _секция: 4_
 _секция: 4_
 
 
-### `docs/SENTINEL.md` (4 проблем)
+### `docs/SIMILAR.md` (4 проблем)
 
 _секция: 4_
 
@@ -3310,6 +3321,11 @@ _секция: 4_
 
 
 ### `docs/templates/ensemble.md` (4 проблем)
+
+_секция: 4_
+
+
+### `docs/templates/research-note.md` (4 проблем)
 
 _секция: 4_
 
@@ -3659,17 +3675,12 @@ _секция: 3_
 _секция: 2, заголовок: 1_
 
 
-### `docs/CHANGELOG_AUTO.md` (3 проблем)
+### `docs/BROKEN_LINKS.md` (3 проблем)
 
-_секция: 3_
-
-
-### `docs/CITATION_INDEX.md` (3 проблем)
-
-_секция: 3_
+_секция: 2, заголовок: 1_
 
 
-### `docs/CROSS_SECTION.md` (3 проблем)
+### `docs/CONCEPTS.md` (3 проблем)
 
 _секция: 3_
 
@@ -3684,12 +3695,12 @@ _секция: 3_
 _секция: 2, заголовок: 1_
 
 
-### `docs/MINDMAP.md` (3 проблем)
+### `docs/ONBOARDING.md` (3 проблем)
 
 _секция: 3_
 
 
-### `docs/ONBOARDING.md` (3 проблем)
+### `docs/ORPHANS.md` (3 проблем)
 
 _секция: 3_
 
@@ -3704,6 +3715,11 @@ _секция: 3_
 _секция: 3_
 
 
+### `docs/READING_ORDER.md` (3 проблем)
+
+_секция: 3_
+
+
 ### `docs/REPORT.md` (3 проблем)
 
 _секция: 3_
@@ -3714,19 +3730,14 @@ _секция: 3_
 _секция: 3_
 
 
-### `docs/SIMILAR.md` (3 проблем)
+### `docs/SCORING.md` (3 проблем)
 
 _секция: 3_
 
 
-### `docs/SOURCE_MAP.md` (3 проблем)
+### `docs/TASKS_INDEX.md` (3 проблем)
 
-_секция: 2, заголовок: 1_
-
-
-### `docs/VERSION_DIFF.md` (3 проблем)
-
-_секция: 2, заголовок: 1_
+_секция: 3_
 
 
 ### `docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md` (3 проблем)
@@ -4394,11 +4405,6 @@ _секция: 3_
 _секция: 3_
 
 
-### `docs/templates/research-note.md` (3 проблем)
-
-_секция: 3_
-
-
 ### `docs/01-svyazi/00-intro-part2.md` (2 проблем)
 
 _секция: 2_
@@ -4549,6 +4555,16 @@ _секция: 2_
 _секция: 2_
 
 
+### `docs/CHANGELOG_AUTO.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/CITATION_INDEX.md` (2 проблем)
+
+_секция: 2_
+
+
 ### `docs/COMPARE.md` (2 проблем)
 
 _секция: 2_
@@ -4559,22 +4575,17 @@ _секция: 2_
 _секция: 1, заголовок: 1_
 
 
-### `docs/CONCEPTS.md` (2 проблем)
+### `docs/CONTENT_GAPS.md` (2 проблем)
 
 _секция: 2_
 
 
-### `docs/CONCEPT_GRAPH.md` (2 проблем)
+### `docs/CROSS_SECTION.md` (2 проблем)
 
 _секция: 2_
 
 
-### `docs/DEPENDENCY_MAP.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/DIGEST_WEEKLY.md` (2 проблем)
+### `docs/DENSITY.md` (2 проблем)
 
 _секция: 2_
 
@@ -4584,17 +4595,7 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/LINK_PREVIEW.md` (2 проблем)
-
-_секция: 1, заголовок: 1_
-
-
-### `docs/NAMED_ENTITIES.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/ORPHANS.md` (2 проблем)
+### `docs/MINDMAP.md` (2 проблем)
 
 _секция: 2_
 
@@ -4604,17 +4605,12 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/READING_ORDER.md` (2 проблем)
+### `docs/PRECISION_EVAL.md` (2 проблем)
 
 _секция: 2_
 
 
-### `docs/REGISTRY.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/SCORING.md` (2 проблем)
+### `docs/PRIORITIES.md` (2 проблем)
 
 _секция: 2_
 
@@ -4624,17 +4620,12 @@ _секция: 2_
 _секция: 2_
 
 
+### `docs/SENTINEL.md` (2 проблем)
+
+_секция: 2_
+
+
 ### `docs/SIMILAR_PASSAGES.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/TAGS.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/TASKS_INDEX.md` (2 проблем)
 
 _секция: 2_
 
@@ -4644,17 +4635,7 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/TOPIC_MODEL.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/VOCABULARY.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/WORD_CLOUD.md` (2 проблем)
+### `docs/WORD_FREQ.md` (2 проблем)
 
 _секция: 2_
 
@@ -6124,6 +6105,11 @@ _секция: 2_
 _секция: 2_
 
 
+### `docs/processing-guide/README.md` (2 проблем)
+
+_секция: 2_
+
+
 ### `docs/svyazi-2-0/README.md` (2 проблем)
 
 _секция: 2_
@@ -6564,17 +6550,42 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/ALERTS.md` (1 проблем)
+### `docs/ABBREVIATIONS.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/BROKEN_LINKS.md` (1 проблем)
+### `docs/ACTION_ITEMS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/AUTHORS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/BACKLINKS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/CLUSTERS.md` (1 проблем)
 
 _секция: 1_
 
 
 ### `docs/COLLAB_SUGGESTIONS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/COMPLEXITY.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/CONCEPT_GRAPH.md` (1 проблем)
 
 _секция: 1_
 
@@ -6589,7 +6600,12 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/CONTENT_GAPS.md` (1 проблем)
+### `docs/COST.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/CROSSREFS.md` (1 проблем)
 
 _секция: 1_
 
@@ -6599,12 +6615,12 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/DENSITY.md` (1 проблем)
+### `docs/DEPENDENCY_MAP.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/DEPENDABOT.md` (1 проблем)
+### `docs/DIGEST.md` (1 проблем)
 
 _секция: 1_
 
@@ -6614,22 +6630,32 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/DIGEST_WEEKLY.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/DUPLICATES.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/FOOTNOTES.md` (1 проблем)
+### `docs/ENTITIES.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/GRAPH.md` (1 проблем)
+### `docs/GLOSSARY.md` (1 проблем)
 
 _секция: 1_
 
 
 ### `docs/KNOWLEDGE_MAP.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/KPI.md` (1 проблем)
 
 _секция: 1_
 
@@ -6649,12 +6675,37 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/MISSING.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/NAMED_ENTITIES.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/NARRATIVE.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/NETWORK.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/PRIORITIES.md` (1 проблем)
+### `docs/PROGRESS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/QUESTIONS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/READABILITY.md` (1 проблем)
 
 _секция: 1_
 
@@ -6664,7 +6715,17 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/REGISTRY.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/SEE_ALSO.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/SENTIMENT.md` (1 проблем)
 
 _секция: 1_
 
@@ -6674,12 +6735,32 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/SOURCE_MAP.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/TAGS.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/TIMELINE.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/WORD_FREQ.md` (1 проблем)
+### `docs/TOPIC_MODEL.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/VERSION_DIFF.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/WORD_CLOUD.md` (1 проблем)
 
 _секция: 1_
 
@@ -6914,11 +6995,6 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/nautilus/community-discussions/agent-changes-reality/README.md` (1 проблем)
-
-_секция: 1_
-
-
 ### `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` (1 проблем)
 
 _секция: 1_
@@ -6995,11 +7071,6 @@ _секция: 1_
 
 
 ### `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/nautilus/innovation-transitions/README.md` (1 проблем)
 
 _секция: 1_
 
@@ -7100,11 +7171,6 @@ _секция: 1_
 
 
 ### `docs/processing-guide/06-search.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/processing-guide/README.md` (1 проблем)
 
 _секция: 1_
 
@@ -7235,33 +7301,6 @@ _секция: 1_
 
 
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [SEARCH](SEARCH.md)
-- [SOURCE_MAP](SOURCE_MAP.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (15):**
-- [CLUSTERS](CLUSTERS.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-- [OUTLINE](OUTLINE.md)
-- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-- [PRIORITIES](PRIORITIES.md)
-- [READABILITY](READABILITY.md)
-- _...ещё 7_
-
-
 
 ## Использование
 ```bash
@@ -7284,11 +7323,17 @@ python scripts/improve_heading_audit.py --dry-run
 # Вариант 5
 python scripts/improve_heading_audit.py --dry-run
 ```
-```bash
-# Вариант 6
-python scripts/improve_heading_audit.py --dry-run
-```
-```bash
-# Вариант 7
-python scripts/improve_heading_audit.py --dry-run
-```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)
+- [Теги](TAGS.md)
+- [Задачи](ACTION_ITEMS.md)
+- [Хронология](TIMELINE.md)
+- [Структура](OUTLINE.md)

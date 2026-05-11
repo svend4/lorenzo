@@ -1,5 +1,27 @@
 # Индекс цитирования URL
 
+<!-- toc -->
+## Содержание
+
+- [Топ доменов](#топ-доменов)
+- [Наиболее цитируемые URL](#наиболее-цитируемые-url)
+- [Детали топ-10](#детали-топ-10)
+  - [`https://github.com/svend4/nautilus/issues`](#httpsgithubcomsvend4nautilusissues)
+  - [`https://github.com/svend4/nautilus`](#httpsgithubcomsvend4nautilus)
+  - [`https://github.com/svend4/ingit`](#httpsgithubcomsvend4ingit)
+  - [`https://github.com/svend4/pro2`](#httpsgithubcomsvend4pro2)
+  - [`https://habr.com/ru/articles/1006622/`](#httpshabrcomruarticles1006622)
+  - [`https://habr.com/ru/companies/airi/articles/1000720/`](#httpshabrcomrucompaniesairiarticles1000720)
+  - [`https://github.com/AnastasiyaW/knowledge-space`](#httpsgithubcomanastasiyawknowledge-space)
+  - [`https://habr.com/ru/companies/airi/articles/855128/`](#httpshabrcomrucompaniesairiarticles855128)
+  - [`https://habr.com/ru/articles/1007122/`](#httpshabrcomruarticles1007122)
+  - [`https://github.com/mcp`](#httpsgithubcommcp)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]

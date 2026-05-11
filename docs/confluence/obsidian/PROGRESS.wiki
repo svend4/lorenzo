@@ -6,11 +6,26 @@
 ----
 title: "Прогресс MVP"
 tags:
+  * progress
+  * docs
   * general
 date: 2026-05-11
 ----
 
 h1. Прогресс MVP
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{PROGRESS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{PROGRESS}} — раздел документации проекта Lorenzo.{quote}
+
 
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 

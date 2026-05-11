@@ -13,6 +13,40 @@ date: 2026-05-11
 h1. Частотный анализ слов
 
 
+h2. Содержание
+
+* [Глобальный топ-50 слов|#глобальный-топ-50-слов]
+* [Топ-15 слов по разделам|#топ-15-слов-по-разделам]
+  * [01-svyazi (11,030 слов)|#01-svyazi-11030-слов]
+  * [02-anthropic-vacancies (199,518 слов)|#02-anthropic-vacancies-199518-слов]
+  * [03-technology-combinations (2,733 слов)|#03-technology-combinations-2733-слов]
+  * [04-ai-collaborations (22,370 слов)|#04-ai-collaborations-22370-слов]
+  * [05-habr-projects (10,845 слов)|#05-habr-projects-10845-слов]
+  * [ai-collaborations (9,575 слов)|#ai-collaborations-9575-слов]
+  * [anthropic-vacancies (36,478 слов)|#anthropic-vacancies-36478-слов]
+  * [autofilled (1,892 слов)|#autofilled-1892-слов]
+  * [badges (64 слов)|#badges-64-слов]
+  * [contacts (2,776 слов)|#contacts-2776-слов]
+  * [glossary (3,174 слов)|#glossary-3174-слов]
+  * [habr-unique-projects (15,648 слов)|#habr-unique-projects-15648-слов]
+  * [letters (2,414 слов)|#letters-2414-слов]
+  * [lorenzo-agent (21,680 слов)|#lorenzo-agent-21680-слов]
+  * [meta-scripting (1,491 слов)|#meta-scripting-1491-слов]
+  * [nautilus (132,038 слов)|#nautilus-132038-слов]
+  * [obsidian (850,813 слов)|#obsidian-850813-слов]
+  * [processing-guide (8,651 слов)|#processing-guide-8651-слов]
+  * [root (416,092 слов)|#root-416092-слов]
+  * [svyazi-2-0 (16,027 слов)|#svyazi-2-0-16027-слов]
+  * [technology-combinations (16,115 слов)|#technology-combinations-16115-слов]
+  * [templates (4,368 слов)|#templates-4368-слов]
+* [Уникальные слова разделов|#уникальные-слова-разделов]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+
+----
+
+
+
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{WORD_FREQ}} формируется автоматически из данных репозитория.{quote}

@@ -1,19 +1,9 @@
 # Резюме документов (TextRank)
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> > 🎯 **Проблема:** citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
 <!-- toc -->
 ## Содержание
 
+- [`docs/01-svyazi/00-intro-part2.md`](#docs01-svyazi00-intro-part2md)
 - [`docs/01-svyazi/01-executive-summary.md`](#docs01-svyazi01-executive-summarymd)
 - [`docs/01-svyazi/02-methodology.md`](#docs01-svyazi02-methodologymd)
 - [`docs/01-svyazi/03-component-catalog.md`](#docs01-svyazi03-component-catalogmd)
@@ -27,148 +17,160 @@
 - [`docs/01-svyazi/12-roadmap.md`](#docs01-svyazi12-roadmapmd)
 - [`docs/01-svyazi/13-contacts.md`](#docs01-svyazi13-contactsmd)
 - [`docs/01-svyazi/14-limitations.md`](#docs01-svyazi14-limitationsmd)
+- [`docs/01-svyazi/QA.md`](#docs01-svyaziqamd)
 - [`docs/01-svyazi/README.md`](#docs01-svyazireadmemd)
 - [`docs/02-anthropic-vacancies/00-intro.md`](#docs02-anthropic-vacancies00-intromd)
 - [`docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`](#docs02-anthropic-vacancies01-интегральный-анализ-профиля-svend4md)
 - [`docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`](#docs02-anthropic-vacancies02-общий-план-развития-nautilus-portal-protocolmd)
+- [`docs/02-anthropic-vacancies/03-portal-protocol-md.md`](#docs02-anthropic-vacancies03-portal-protocol-mdmd)
+- [`docs/02-anthropic-vacancies/04-abstract.md`](#docs02-anthropic-vacancies04-abstractmd)
+- [`docs/02-anthropic-vacancies/05-0-status-of-this-document.md`](#docs02-anthropic-vacancies05-0-status-of-this-documentmd)
 - [`docs/02-anthropic-vacancies/06-1-introduction.md`](#docs02-anthropic-vacancies06-1-introductionmd)
 - [`docs/02-anthropic-vacancies/07-2-terminology.md`](#docs02-anthropic-vacancies07-2-terminologymd)
 - [`docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`](#docs02-anthropic-vacancies08-3-registry-nautilus-jsonmd)
+- [`docs/02-anthropic-vacancies/09-4-passport-passport-md.md`](#docs02-anthropic-vacancies09-4-passport-passport-mdmd)
+- [`docs/02-anthropic-vacancies/102-доступ-к-данным.md`](#docs02-anthropic-vacancies102-доступ-к-даннымmd)
+- [`docs/02-anthropic-vacancies/103-appendix-b-change-log.md`](#docs02-anthropic-vacancies103-appendix-b-change-logmd)
 - [`docs/02-anthropic-vacancies/104-appendix-c-references.md`](#docs02-anthropic-vacancies104-appendix-c-referencesmd)
+- [`docs/02-anthropic-vacancies/105-review-methodology-md.md`](#docs02-anthropic-vacancies105-review-methodology-mdmd)
+- [`docs/02-anthropic-vacancies/106-tl-dr.md`](#docs02-anthropic-vacancies106-tl-drmd)
 - [`docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`](#docs02-anthropic-vacancies107-1-контекст-и-мотивацияmd)
 - [`docs/02-anthropic-vacancies/108-2-формальный-workflow.md`](#docs02-anthropic-vacancies108-2-формальный-workflowmd)
 - [`docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`](#docs02-anthropic-vacancies109-3-принципы-консолидации-фаза-cmd)
 - [`docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`](#docs02-anthropic-vacancies110-вопрос-fallback-ratio-как-критический-или-осмысленmd)
+- [`docs/02-anthropic-vacancies/111-4-условия-применимости.md`](#docs02-anthropic-vacancies111-4-условия-применимостиmd)
 - [`docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md`](#docs02-anthropic-vacancies112-5-связь-с-существующими-методологиямиmd)
+- [`docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md`](#docs02-anthropic-vacancies113-6-почему-это-валидный-паттерн-для-ai-assisted-workmd)
 - [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`](#docs02-anthropic-vacancies114-7-реализация-в-проекте-nautilusmd)
 - [`docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`](#docs02-anthropic-vacancies115-8-ограничения-и-открытые-вопросыmd)
 - [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md`](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd)
 - [`docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md`](#docs02-anthropic-vacancies117-10-конкретный-план-применения-к-текущим-документамmd)
+- [`docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md`](#docs02-anthropic-vacancies118-appendix-a-шаблон-для-header-warningmd)
 - [`docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md`](#docs02-anthropic-vacancies119-appendix-b-примеры-расхождений-и-их-разрешенияmd)
+- [`docs/02-anthropic-vacancies/12-content-overview.md`](#docs02-anthropic-vacancies12-content-overviewmd)
+- [`docs/02-anthropic-vacancies/120-главные-технические-риски.md`](#docs02-anthropic-vacancies120-главные-технические-рискиmd)
+- [`docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md`](#docs02-anthropic-vacancies121-appendix-c-история-изменений-методологииmd)
 - [`docs/02-anthropic-vacancies/122-глоссарий.md`](#docs02-anthropic-vacancies122-глоссарийmd)
+- [`docs/02-anthropic-vacancies/123-portal-mcp-py.md`](#docs02-anthropic-vacancies123-portal-mcp-pymd)
 - [`docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md`](#docs02-anthropic-vacancies124-конфигурация-для-claude-desktopmd)
-- [`docs/02-anthropic-vacancies/130-отладка.md`](#docs02-anthropic-vacancies130-отладкаmd)
-- [`docs/02-anthropic-vacancies/133-обратная-связь.md`](#docs02-anthropic-vacancies133-обратная-связьmd)
-- [`docs/02-anthropic-vacancies/136-abstract.md`](#docs02-anthropic-vacancies136-abstractmd)
-- [`docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`](#docs02-anthropic-vacancies138-1-why-single-triangle-models-are-incompletemd)
-- [`docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md`](#docs02-anthropic-vacancies139-2-the-double-triangle-architecturemd)
-- [`docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md`](#docs02-anthropic-vacancies140-3-three-inter-layer-protocolsmd)
-- [`docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md`](#docs02-anthropic-vacancies141-4-nautilus-portal-as-reference-substratemd)
-- [`docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`](#docs02-anthropic-vacancies142-5-pattern-library-as-bridge-between-trianglesmd)
-- [`docs/02-anthropic-vacancies/143-6-four-deployment-domains.md`](#docs02-anthropic-vacancies143-6-four-deployment-domainsmd)
-- [`docs/02-anthropic-vacancies/144-7-open-questions.md`](#docs02-anthropic-vacancies144-7-open-questionsmd)
-- [`docs/02-anthropic-vacancies/145-8-call-to-action.md`](#docs02-anthropic-vacancies145-8-call-to-actionmd)
-- [`docs/02-anthropic-vacancies/146-acknowledgments.md`](#docs02-anthropic-vacancies146-acknowledgmentsmd)
-- [`docs/02-anthropic-vacancies/147-references.md`](#docs02-anthropic-vacancies147-referencesmd)
-- [`docs/02-anthropic-vacancies/148-appendix-a-glossary.md`](#docs02-anthropic-vacancies148-appendix-a-glossarymd)
-- [`docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md`](#docs02-anthropic-vacancies149-appendix-b-summary-of-contributionsmd)
-- [`docs/02-anthropic-vacancies/150-appendix-c-version-history.md`](#docs02-anthropic-vacancies150-appendix-c-version-historymd)
-- [`docs/02-anthropic-vacancies/153-executive-summary.md`](#docs02-anthropic-vacancies153-executive-summarymd)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 ---
 
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `SUMMARIES` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: summaries, docs -->
 
 
+<!-- summary -->
+> `SUMMARIES` — раздел документации проекта Lorenzo.
 
 
-<!-- abstract-auto -->
-> **Абстракт** (авто)
->
-> 🎯 **Проблема:** citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo.
-> 🔧 **Подход:** В‑третьих, нужен memory governance layer , который не даёт ассоциативной памяти записывать предлагаемое как истинное.
-> ✅ **Результат:** В‑третьих, нужен memory governance layer , который не даёт ассоциативной памяти записывать предлагаемое как истинное.
-> 🏷️ **Ключевые слова:** `anthropic`, `vacancies`, `svyazi`, `triangle`, `nautilus`, `portal`, `protocol`, `double`
->
+_Обновлено: 2026-05-11_
 
+Файлов: **1097** | Предложений: **3** на документ
 
-_Обновлено: 2026-04-29_
+## `docs/01-svyazi/00-intro-part2.md`
 
-Файлов: **291** | Предложений: **3** на документ
+_Продолжение исследования для Svyazi[^svyazi] 2.0_
+
+> - README README.md — раздел 01-svyazi - 01-executive-summary 01-executive-summary.md — резюме проекта - PROTOTYPE SPEC ../PROTOTYPE SPEC.md — спецификация прототипа Документ индексирован в базе знаний репозитория. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
 
 ## `docs/01-svyazi/01-executive-summary.md`
 
 _Svyazi[^svyazi] 2.0 — Исполнительное резюме_
 
-> Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : ingestion и нормализация профи Проекты: Svyazi, CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, Rufler ^rufler , LiteParse, Legal RAG ^rag --- Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : ingestion и нормализация профилей из свободного текста, agent‑first knowledge base, файлосистемная память для агентов, ассоциативная и консолидируемая долговременная память, визуально проверяемый RAG, многоагентная оркестрация, безопасный MCP ^mcp ‑слой, локальный voice→vault вход и бюджетно‑осознанный роутинг моделей. Для многоагентной работы уже есть mclaude, AI Factory, AIF Handoff, Rufler и протокол Sequential; для forensic‑режима — research-docs/LiteParse, Legal RAG, Hybrid RAG и Graph RAG; для безопасного и дешёвого исполнения — Tool Search, LiteLLM, Auto AI Router, RLM-Toolkit и SENTINEL ^sentinel . Первое — Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2.
+> - Главная линия синергии #главная-линия-синергии - Ключевой вывод #ключевой-вывод - Что добавляет продолжение исследования #что-добавляет-продолжение-исследования - Приоритет ансамблей для старта #приоритет-ансамблей-для-старта --- Абстракт авто 🎯 Проблема: Svyazi^svyazi 2.0 — Исполнительное резюме Contents - Главная линия синергии главная-линия-синергии - Ключевой вывод ключевой-вывод - Что добавляет продолжение исследования что-до ✅ Результат: Первое — Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2. 🏷️ Ключевые слова: svyazi , проект , cardindex , agentfs , добавляет , продолжение , rufler , memory !IMPORTANT Главный документ проекта. Первое — Svyazi + AgentFS + NGT/Yodoca + LiteParse: даёт уже полезный MVP 2.
 
 ## `docs/01-svyazi/02-methodology.md`
 
 _Методика и рамка отбора проектов_
 
-> Поиск вёлся с приоритетом на Хабр как первичный слой описания идеи и на репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса . Проекты: Svyazi ^svyazi , LiteParse, Legal RAG ^rag , Graph RAG --- Поиск вёлся с приоритетом на Хабр как первичный слой описания идеи и на репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса . Доказуемость — можно ли проверить, что слой работает правильно?
+> 🏷️ Ключевые слова: отбора , методика , рамка , зрелости , collaborations , шкала , первичный , svyazi !TIP Этот документ описывает MVP-подход. Поиск вёлся с приоритетом на Хабр как первичный слой описания идеи и на репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса . Проекты: Svyazi ^svyazi , LiteParse 01-executive-summary.md , Legal RAG ^rag , Graph RAG --- Поиск вёлся с приоритетом на Хабр как первичный слой описания идеи и на репозитории как первичный слой верификации лицензии, зрелости и интеграционного интерфейса .
 
 ## `docs/01-svyazi/03-component-catalog.md`
 
-_03-component-catalog_
+_Каталог компонентов Svyazi 2.0_
 
 > citeturn33view1turn37search1 Высокая : это внешний knowledge layer для агентов и нормализатора. citeturn22view3turn32search2 Очень высокая : быстрый ассоциативный memory‑слой для discovery и matching. citeturn15search3turn39view3 Высокая : слой typed memory и governance для более поздних итераций.
 
 ## `docs/01-svyazi/04-ensembles-overview.md`
 
-_04-ensembles-overview_
+_Приоритетные ансамбли проектов_
 
-> citeturn20view11 Ансамбль D — Voice‑first local knowledge mesh Для реальных пользователей и операторов Svyazi‑2.0 важно не только “искать по базе”, но и пополнять её без боли. citeturn21view10turn35search0 - Локальная обработка вместо облачной утечки контекста : и локальный speech‑to‑text, и local‑first workspace, и CRDT ^crdt ‑sync работают в модели “данные принадлежат устройству пользователя”. citeturn11search2turn39view0turn39view1turn20view18turn20view10 Ожидаемые новые свойства: - Реальная экономия контекста ещё до первого токена работы : в кейсе Tool Search MCP‑overhead упал с 82k до 5.7k токенов, а свободное окно выросло на 76k.
+> citeturn21view10turn35search0 - Локальная обработка вместо облачной утечки контекста : и локальный speech‑to‑text, и local‑first workspace, и CRDT ^crdt ‑sync работают в модели “данные принадлежат устройству пользователя”. citeturn35search0 - Контекст реального мира доступен агенту как tool, а не как догадка : Self‑Aware MCP закрывает проблемы часового пояса, ОС, даты и локации. citeturn11search2turn39view0turn39view1turn20view18turn20view10 Ожидаемые новые свойства: - Реальная экономия контекста ещё до первого токена работы : в кейсе Tool Search MCP‑overhead упал с 82k до 5.7k токенов, а свободное окно выросло на 76k.
 
 ## `docs/01-svyazi/06-security-privacy.md`
 
-_06-security-privacy_
+_Безопасность и приватность_
 
-> Для Svyazi ^svyazi ‑2.0 безопасная архитектура — не “добавить сканер в конце”, а с самого начала считать skills, MCP ^mcp servers, импорты документов и memory writes потенциально недоверенными . Это не паранойя, Проекты: Svyazi, AgentFS ^agentfs , AI Factory, agent-memory-mcp, SENTINEL ^sentinel , LiteLLM, Auto AI Router, Tool Search --- Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а с самого начала считать skills, MCP servers, импорты документов и memory writes потенциально недоверенными . Если нужен самый дешёвый режим — запускать extraction, indexing и basic memory на локальной модели, а в облако отправлять только ambiguous ranking и финальное объяснение.
+> 🏷️ Ключевые слова: search , memory , только , svyazi , безопасность , бюджетный , роутинг , нужен !WARNING Документ описывает ограничения, риски или требования безопасности. Для Svyazi ^svyazi ‑2.0 безопасная архитектура — не “добавить сканер в конце”, а с самого начала считать skills, MCP ^mcp servers, импорты документов и memory writes потенциально недоверенными . Это не паранойя, Проекты: Svyazi, AgentFS ^agentfs , AI Factory, agent-memory-mcp, SENTINEL ^sentinel , LiteLLM, Auto AI Router, Tool Search --- Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а с самого начала считать skills, MCP servers, импорты документов и memory writes потенциально недоверенными .
 
 ## `docs/01-svyazi/07-mvp-planning.md`
 
-_07-mvp-planning_
+_Планирование MVP_
 
-> citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude. citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo. citeturn22view4turn22view5 Комментарии к статье NGT Memory и GitHub repository.
+> Абстракт авто 🎯 Проблема: citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude. citeturn33view3turn20view2turn37search0 Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude. citeturn21view0turn21view1turn18search1 Комментарии к статье Yodoca и GitHub issues/discussions в repo.
 
 ## `docs/01-svyazi/08-conclusions.md`
 
-_08-conclusions_
+_Выводы_
 
-> По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG ^rag и не оркестр Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, Rufler ^rufler , LiteParse, Yodoca ^yodoca --- По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитектуры заново. citeturn41search0turn27view0turn22view4turn21view0turn20view5turn20view6turn20view11turn20view10turn39view1turn39view0 Если ранжировать найденные направления по практической силе именно для старта, то порядок такой.
+> 🔧 Подход: По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей, не придумывая половину архитектуры заново. По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитектуры заново. Самый дефицитный слой — не память, не RAG ^rag и не оркестр Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, Rufler ^rufler , LiteParse 01-executive-summary.md , Yodoca ^yodoca --- По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей , не придумывая половину архитектуры заново.
 
 ## `docs/01-svyazi/09-architectural-gaps.md`
 
-_09-architectural-gaps_
+_Архитектурные зазоры_
 
-> Svyazi ^svyazi хорошо закрывает ingest и нормализацию; AgentFS ^agentfs даёт .agentos и compile‑to‑runtime политику Проекты: Svyazi, CardIndex ^cardindex , AgentFS, knowledge-space ^knowledge-space , mclaude, AI Factory, Rufler ^rufler , LiteParse --- После первичного обзора видно, что дефицит уже не в наличии компонентов, а в стыках между ними . Svyazi хорошо закрывает ingest и нормализацию; AgentFS даёт .agentos и compile‑to‑runtime политику; knowledge-space формирует agent‑readable reference cards; NGT ^ngt Memory и Yodoca ^yodoca решают разные режимы памяти; research-docs/LiteParse и Legal RAG ^rag решают доказуемость; LiteLLM, Auto AI Router и Tool Search — execution plane; SENTINEL ^sentinel и path‑guard практики — безопасность. В‑третьих, нужен memory governance layer , который не даёт ассоциативной памяти записывать предлагаемое как истинное.
+> ✅ Результат: Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned. Svyazi ^svyazi хорошо закрывает ingest и нормализацию; AgentFS ^agentfs даёт .agentos и compile‑to‑runtime политику Проекты: Svyazi, CardIndex ^cardindex , AgentFS, knowledge-space 03-component-catalog.md ^knowledge-space , mclaude, AI Factory, Rufler ^rufler , LiteParse --- После первичного обзора видно, что дефицит уже не в наличии компонентов, а в стыках между ними . Наоборот, даже средний model tier даёт много пользы, если extract/normalize/review/evidence и memory status already pinned.
 
 ## `docs/01-svyazi/10-second-order-ensembles.md`
 
-_10-second-order-ensembles_
+_Ансамбли следующего шага_
 
-> citeturn41search0turn21view0turn20view5turn20view6 Второй ансамбль — Federated Local‑First Community Graph . citeturn27view0turn11search0turn11search11turn22view4turn20view12turn39view0turn20view10 Главное новое свойство здесь — не только privacy, но и архитектурная живучесть . citeturn33view2turn20view15turn12search2turn20view2turn20view3turn20view4turn20view19turn20view11 Здесь появляется новое свойство, которого нет у большинства “умных CRM” и “matching‑ботов”: изменение качества системы становится повторяемым артефактом .
+> 🔧 Подход: citeturn27view0turn11search0turn11search11turn22view4turn20view12turn39view0turn20view10 Главное новое свойство здесь — не только privacy, но и архитектурная живучесть. citeturn41search0turn21view0turn20view5turn20view6 Второй ансамбль — Federated Local‑First Community Graph . citeturn27view0turn11search0turn11search11turn22view4turn20view12turn39view0turn20view10 Главное новое свойство здесь — не только privacy, но и архитектурная живучесть .
 
 ## `docs/01-svyazi/11-integration-contracts.md`
 
-_11-integration-contracts_
+_Интеграционные контракты_
 
-> Чтобы все эти ансамбли не рассыпались, полезно зафиксировать минимальный интерфейсный контракт между слоями. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid RAG --- Чтобы все эти ансамбли не рассыпались, полезно зафиксировать минимальный интерфейсный контракт между слоями. citeturn21view0turn22view4turn20view16turn39view3 Четвёртый контракт — Skill and Tool Policy .
+> 🔧 Подход: Любой retrieval‑ответ, match suggestion, profile enrichment или auto‑summary должен возвращать не только текст, но и sourceid, page, span, box, retrievalmethod, confidence, support ✅ Результат: Это не “идеальная онтология”, а минимальный договор, который позволяет системам вообще разговаривать между собой. 🏷️ Ключевые слова: контракт , memory , svyazi , который , через , search , проект , agentfs !IMPORTANT Нормативный документ. Это не заменяет будущую реализацию, но резко уменьшает риск того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse 01-executive-summary.md , Legal RAG ^rag , Hybrid RAG --- Чтобы все эти ансамбли не рассыпались, полезно зафиксировать минимальный интерфейсный контракт между слоями.
 
 ## `docs/01-svyazi/12-roadmap.md`
 
-_12-roadmap_
+_Дорожная карта прототипа_
 
-> Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти три короткие итерации , каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить Проекты: Svyazi ^svyazi , mclaude, AI Factory, Yodoca ^yodoca , NGT ^ngt Memory --- Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти три короткие итерации , каждая из которых поднимает один новый класс свойств. citeturn41search0turn20view5turn34view2turn20view6 Во второй итерации имеет смысл включить двухуровневую память и review queue .
+> 🏷️ Ключевые слова: итерации , svyazi , memory , дорожная , карта , first , evidence , local !TIP Обзорный документ. Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти три короткие итерации , каждая из которых поднимает один новый класс свойств. Первая итерация должна закрепить Проекты: Svyazi ^svyazi , mclaude, AI Factory, Yodoca ^yodoca , NGT ^ngt Memory --- Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти три короткие итерации , каждая из которых поднимает один новый класс свойств.
 
 ## `docs/01-svyazi/13-contacts.md`
 
-_13-contacts_
+_Контактная стратегия_
 
-> citeturn22view4turn22view5turn32search2 Пятый разговор имеет смысл вести с авторами knowledge-space и mclaude, потому что именно здесь хорошо сходятся agent‑readable knowledge এবং multi‑session coordination. citeturn33view2turn20view2turn37search0turn20view3 Чтобы не перегружать первые обращения, ниже — более короткие шаблоны на один вопрос. citeturn22view4turn22view5 авторы knowledge-space / mclaude Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем?
+> 🏷️ Ключевые слова: вопрос , knowledge , space , лучше , cardindex , agentfs , search , между !TIP Обзорный документ. citeturn33view2turn20view2turn37search0turn20view3 Чтобы не перегружать первые обращения, ниже — более короткие шаблоны на один вопрос. citeturn22view4turn22view5 авторы knowledge-space / mclaude Держать операционные benchmark/gotcha cards в одной базе с reference cards или отдельным слоем?
 
 ## `docs/01-svyazi/14-limitations.md`
 
-_14-limitations_
+_Ограничения и лицензии_
 
-> Svyazi ^svyazi как базовый паттерн остаётся авторским закрытым п Проекты: Svyazi, mclaude, AI Factory, Rufler ^rufler , NGT ^ngt Memory, AutoResearch, Whisper, Yttri --- Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Поэтому self-improvement контур разумно активировать только тогда, когда вы уже можете померить quality of match, quality of evidence и false positive rate по review‑очереди. Лучший следующий шаг — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record.
+> Абстракт авто 🎯 Проблема: Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сл 🔧 Подход: Такой порядок согласуется и с Yttri‑подходом к workspace вокруг записей, и с простыми локальными whisper‑сценариями, и с идеей local-first sync как следующего, а не первого слоя сл ✅ Результат: citeturn41search0turn27view0turn20view5turn21view0turn39view1turn20view10 --- Похожие документы: - 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать docs/04-ai-collabor 🏷️ Ключевые слова: svyazi , memory , лучше , search , rufler , roadmap , ограничения , лицензии !WARNING Документ описывает ограничения, риски или требования безопасности. Svyazi ^svyazi как базовый паттерн остаётся авторским закрытым п Проекты: Svyazi, mclaude, AI Factory, Rufler ^rufler , NGT ^ngt Memory, AutoResearch 01-executive-summary.md , Whisper, Yttri --- Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зрелости и лицензирования. Лучший следующий шаг — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Policy, Skill Policy и Review Record.
+
+## `docs/01-svyazi/QA.md`
+
+_Q&A: 01-svyazi_
+
+> !NOTE Раздел QA формируется автоматически из данных репозитория. Проекты: Svyazi ^svyazi , LiteParse, Legal RAG ^rag , Hybrid RAG, Graph RAG, SENTINEL ^sentinel , LiteLLM, Auto AI Router --- Автоматически сгенерировано по 14 файлам раздела. Упоминаются: зазор , карточка , evidence , memory governance , agent contract Упоминаются: card envelope , Evidence Envelope , memory write , skill policy , review record Упоминаются: liteparse , bounding box , page-level , evidence Упоминаются: Evidence Envelope , source id , page , span Упоминаются: Legal RAG , Hybrid RAG , Graph RAG , LiteParse Упоминаются: SENTINEL , LiteLLM , Tool Search , Auto AI Router Упоминаются: read-only , allowlist , path guard , quarantine Упоминаются: routing , budget , litellm Упоминаются: mvp , 12-18 , итерац , фаза , неделя Упоминаются: evidence-first , unified card , page/span , manual review Упоминаются: Андрей Чуян , Виталий Оборин , kksudo , spbmolot Упоминаются: первый вопрос , архитектурный , шаблон , контакт --- Кто ссылается на этот документ 6 : - README README.md - OUTLINE ../OUTLINE.md - READABILITY ../READABILITY.md - READING TIME ../READING TIME.md - SEARCH ../SEARCH.md - TABLES ../TABLES.md --- Похожие документы: - QA ../obsidian/01-svyazi/QA.md сходство 0.99 - QA ../04-ai-collaborations/QA.md сходство 0.85 - QA ../obsidian/04-ai-collaborations/QA.md сходство 0.84 --- ^rag : Retrieval-Augmented Generation — генерация с поиском ^sentinel : OSS-проект: безопасность и allowlist для MCP ^svyazi : Главный проект: экосистема AI-компонентов
 
 ## `docs/01-svyazi/README.md`
 
 _Svyazi[^svyazi] 2.0 — Архитектура и исследование_
 
-> Файлов: 14 - 00-intro-part2.md 00-intro-part2.md — - 01-executive-summary.md 01-executive-summary.md — Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже слож… - 02-methodology.md 02-methodology.md — Поиск вёлся с приоритетом на Хабр как первичный слой описания идеи и на репозитории как первичный слой верификации… - 03-component-catalog.md 03-component-catalog.md — Проект или связка Автор Ссылка на статью и репо Краткое описание Ключевые компоненты и паттерны Лицензия M… - 04-ensembles-overview.md 04-ensembles-overview.md — Ниже — не все теоретически возможные комбинации, а пять ансамблей с максимальным приростом свойств при минимальном инт… - 06-security-privacy.md 06-security-privacy.md — Для Svyazi‑2.0 безопасная архитектура — не “добавить сканер в конце”, а с самого начала считать skills, MCP ^mcp servers, и… - 07-mvp-planning.md 07-mvp-planning.md — Наиболее рациональный прототип — не собирать всё сразу , а доказать одну центральную способность: система находит и … - 08-conclusions.md 08-conclusions.md — По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей , не придумывая пол… - 09-architectural-gaps.md 09-architectural-gaps.md — После первичного обзора видно, что дефицит уже не в наличии компонентов, а в стыках между ними . Svyazi хорошо закрыв… - 10-second-order-ensembles.md 10-second-order-ensembles.md — Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка тр… - 11-integration-contracts.md 11-integration-contracts.md — Чтобы все эти ансамбли не рассыпались, полезно зафиксировать минимальный интерфейсный контракт между слоями. Это не … - 12-roadmap.md 12-roadmap.md — Если идти дальше после базового MVP, то лучшая стратегия — не “добавить всё”, а пройти три короткие итерации , каждая… - 13-contacts.md 13-contacts.md — С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы “давайте сделаем Svyazi… - 14-limitations.md 14-limitations.md — Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зре… - ensembles/ ensembles/ — Ансамбли проектов --- Похожие документы: - README docs/04-ai-collaborations/README.md сходство 0.67 - PRIORITIES docs/PRIORITIES.md сходство 0.11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов
+> Файлов: 15 - 00-intro-part2.md 00-intro-part2.md — - 01-executive-summary.md 01-executive-summary.md — Если смотреть не на отдельные статьи, а на то, как их можно состыковать, то на Хабре за первые месяцы 2026 года уже слож… - 02-methodology.md 02-methodology.md — Поиск вёлся с приоритетом на Хабр как первичный слой описания идеи и на репозитории как первичный слой верификации… - 03-component-catalog.md 03-component-catalog.md — Проект или связка Автор Ссылка на статью и репо Краткое описание Ключевые компоненты и паттерны Лицензия M… - 04-ensembles-overview.md 04-ensembles-overview.md — Ниже — не все теоретически возможные комбинации, а пять ансамблей с максимальным приростом свойств при минимальном инт… - 06-security-privacy.md 06-security-privacy.md — Для Svyazi‑2.0 безопасная архитектура — не "добавить сканер в конце", а с самого начала считать skills, MCP ^mcp servers, и… - 07-mvp-planning.md 07-mvp-planning.md — Наиболее рациональный прототип — не собирать всё сразу , а доказать одну центральную способность: система находит и … - 08-conclusions.md 08-conclusions.md — По итогам поиска видно, что Svyazi‑2.0 уже можно собирать из существующих software‑first кирпичей , не придумывая пол… - 09-architectural-gaps.md 09-architectural-gaps.md — После первичного обзора видно, что дефицит уже не в наличии компонентов, а в стыках между ними . Svyazi хорошо закрыв… - 10-second-order-ensembles.md 10-second-order-ensembles.md — Самые интересные продолжения — не просто добавление ещё одного инструмента в уже найденные пять ансамблей, а сборка тр… - 11-integration-contracts.md 11-integration-contracts.md — Чтобы все эти ансамбли не рассыпались, полезно зафиксировать минимальный интерфейсный контракт между слоями. Это не … - 12-roadmap.md 12-roadmap.md — Если идти дальше после базового MVP, то лучшая стратегия — не "добавить всё", а пройти три короткие итерации , каждая… - 13-contacts.md 13-contacts.md — С практической точки зрения следующие письма или комментарии лучше строить не вокруг общей фразы "давайте сделаем Svyazi… - 14-limitations.md 14-limitations.md — Самое важное ограничение не техническое, а управленческое: часть самых ценных компонентов находится в разных режимах зре… - QA.md QA.md — Вопросы и ответы по разделу: архитектура, компоненты, MVP, ансамбли - ensembles/ ensembles/ — Ансамбли проектов --- - README ../04-ai-collaborations/README.md сходство 0.67 - PRIORITIES ../PRIORITIES.md сходство 0.11 --- ^mcp : Model Context Protocol — протокол для AI-инструментов ^svyazi : Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ 13 : - 00-intro-part2 00-intro-part2.md - 03-component-catalog 03-component-catalog.md - 07-mvp-planning 07-mvp-planning.md - 09-architectural-gaps 09-architectural-gaps.md - 10-second-order-ensembles 10-second-order-ensembles.md - 11-integration-contracts 11-integration-contracts.md - README ../04-ai-collaborations/README.md - INDEX ../INDEX.md - ...ещё 5
 
 ## `docs/02-anthropic-vacancies/00-intro.md`
 
@@ -180,258 +182,224 @@ _Введение_
 
 _Интегральный анализ профиля svend4_
 
-> Если ваш nautilus использует MCP как protocol — это современный и правильный выбор. Пришлёте мне README info1, pro2, meta если есть , и один пример nautilus.json + один адаптер из adapters/ . Если его нет — значит GitHub уже отозвал автоматически.
+> Если ваш nautilus ../05-habr-projects/memory/memnet.md использует MCP как protocol — это современный и правильный выбор. Если в nautilus ../05-habr-projects/memory/memnet.md уже есть эти 4 компонента, это готовая инфраструктура для того, чтобы упаковать ваши 70 репо в coherent navigable portal. Пришлёте мне README info1, pro2, meta если есть , и один пример nautilus ../05-habr-projects/memory/memnet.md .json + один адаптер из adapters/ .
 
 ## `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 
 _ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL_
 
-> --- - ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL #общий-план-развития-nautilus-portal-protocol - Часть 1. Чтобы подключить репо к Nautilus — нужен только nautilus.json 10–20 строк JSON и passport.md 1 страница markdown . Nautilus не читает приватные репо через MCP по умолчанию.
+> --- - ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL #общий-план-развития-nautilus-portal-protocol - Часть 1. Чтобы подключить репо к Nautilus — нужен только nautilus ../05-habr-projects/memory/memnet.md .json 10–20 строк JSON и passport.md 1 страница markdown . nautilus ../05-habr-projects/memory/memnet.md .json включает поле protocol version .
+
+## `docs/02-anthropic-vacancies/03-portal-protocol-md.md`
+
+_PORTAL-PROTOCOL.md_
+
+> markdown bash python scripts/improve semantic search.py --query "PORTAL PROTOCOL md" - 152-ai-coordinated-infrastructure-for-distributed-expe 152-ai-coordinated-infrastructure-for-distributed-expe.md - 73-portal-protocol-md-v1-1 73-portal-protocol-md-v1-1.md - 135-a-formal-model-for-human-ai-collaboration-in-distr 135-a-formal-model-for-human-ai-collaboration-in-distr.md - 167-ai-mediated-representation-for-underrepresented-ex 167-ai-mediated-representation-for-underrepresented-ex.md - 0. Versioning Policy 24-12-versioning-policy.md 21% - AI-Coordinated Infrastructure for Distributed Expert Contribution 152-ai-coordinated-infrastructure-for-distributed-expe.md 53% - PORTAL-PROTOCOL.md v1.1 73-portal-protocol-md-v1-1.md 53% - A Formal Model for Human-AI Collaboration in Distributed Knowledge Work 135-a-formal-model-for-human-ai-collaboration-in-distr.md 48% - 0. Versioning Policy 24-12-versioning-policy.md 25% - Author & Contact 42-author-contact.md 25% - Author & Contact 52-author-contact.md 25% --- - 05-0-status-of-this-document 05-0-status-of-this-document.md - 105-review-methodology-md 105-review-methodology-md.md - 123-portal-mcp-py 123-portal-mcp-py.md - 125-readme-mcp-md-инструкция-по-установке 125-readme-mcp-md-инструкция-по-установке.md - 129-примеры-запросов-в-claude 129-примеры-запросов-в-claude.md - 135-a-formal-model-for-human-ai-collaboration-in-distr 135-a-formal-model-for-human-ai-collaboration-in-distr.md - 152-ai-coordinated-infrastructure-for-distributed-expe 152-ai-coordinated-infrastructure-for-distributed-expe.md - 164-10-appendices 164-10-appendices.md - ...ещё 14
+
+## `docs/02-anthropic-vacancies/04-abstract.md`
+
+_Abstract_
+
+> --- --- - 74-abstract 74-abstract.md сходство 0.43 --- - 74-abstract 74-abstract.md - 98-appendix-a-minimal-working-example 98-appendix-a-minimal-working-example.md - 42-author-contact 42-author-contact.md - 65-readme-md 65-readme-md.md - 14. Passport passport.md 09-4-passport-passport-md.md - Abstract 74-abstract.md - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md - Appendix A: Minimal Working Example 98-appendix-a-minimal-working-example.md - Appendix B: Change Log 34-appendix-b-change-log.md - For the Curious: Philosophy 44-for-the-curious-philosophy.md - For the Curious: Philosophy 54-for-the-curious-philosophy.md - Native Format 37-native-format.md - Native Format 47-native-format.md - Planned v0.2.0 132-planned-v0-2-0.md - README.md 65-readme-md.md - REVIEW METHODOLOGY.md 105-review-methodology-md.md - portal- mcp.py 123-portal-mcp-py.md - Вакансии Anthropic — Анализ по кластерам README.md - Инвертированный индекс ключевых слов ../KEYWORD INDEX.md - Подключение к Claude Desktop 127-подключение-к-claude-desktop.md - Что ты ВСЕГДА делаешь 360-что-ты-всегда-делаешь.md - ⬡ 69-section.md - Вакансии Anthropic — Анализ по кластерам ../README.md - portal- mcp.py 123-portal-mcp-py.md 37% - For the Curious: Philosophy 54-for-the-curious-philosophy.md 37% - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md 33% - For the Curious: Philosophy 44-for-the-curious-philosophy.md 33% - For the Curious: Philosophy 64-for-the-curious-philosophy.md 33% - Abstract 74-abstract.md 33% - REVIEW METHODOLOGY.md 105-review-methodology-md.md 29% - Индекс «Смотрите также» ../SEE ALSO.md 29% - Abstract 74-abstract.md 42% - portal- mcp.py 123-portal-mcp-py.md 33% - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md 33% - For the Curious: Philosophy 44-for-the-curious-philosophy.md 33% - For the Curious: Philosophy 54-for-the-curious-philosophy.md 33% - Appendix A: Minimal Working Example 98-appendix-a-minimal-working-example.md 33% - Planned v0.2.0 132-planned-v0-2-0.md 29% - 0. Status of This Document 05-0-status-of-this-document.md 25% --- - 05-0-status-of-this-document 05-0-status-of-this-document.md - 09-4-passport-passport-md 09-4-passport-passport-md.md - 105-review-methodology-md 105-review-methodology-md.md - 123-portal- mcp-py 123-portal-mcp-py.md - 125-readme- mcp-md-инструкция-по-установке 125-readme-mcp-md-инструкция-по-установке.md - 127-подключение-к- claude-desktop 127-подключение-к-claude-desktop.md - 132-planned-v0-2-0 132-planned-v0-2-0.md - 164-10-appendices 164-10-appendices.md - ...ещё 11
+
+## `docs/02-anthropic-vacancies/05-0-status-of-this-document.md`
+
+_0. Status of This Document_
+
+> Этот документ — рабочий черновик Nautilus Portal Protocol v1.0. --- --- - 75-0-status-of-this-document 75-0-status-of-this-document.md сходство 0.55 - 03-portal-protocol-md 03-portal-protocol-md.md сходство 0.22 - 42-author-contact 42-author-contact.md сходство 0.20 --- - 75-0-status-of-this-document 75-0-status-of-this-document.md - 42-author-contact 42-author-contact.md - 62-author-contact 62-author-contact.md - 03-portal-protocol-md 03-portal-protocol-md.md - 0. Status of This Document 75-0-status-of-this-document.md 90% - Author & Contact 42-author-contact.md 53% - Author & Contact 62-author-contact.md 42% - 13.
 
 ## `docs/02-anthropic-vacancies/06-1-introduction.md`
 
 _1. Introduction_
 
-> Современные системы управления знаниями Notion, Obsidian, Roam, Logseq, --- Современные системы управления знаниями Notion, Obsidian, Roam, Logseq, Coda, Confluence требуют от пользователя миграции в их единый формат. Homogenization : разные типы знаний методология, семантика, символизм принудительно приводятся к одной структуре, что уменьшает выразительность. NPP не пытается: - Заменить существующие системы знаний Notion, Obsidian — они дополняются, не заменяются - Обеспечить real-time sync между репо федерация асинхронна по дизайну - Формализовать онтологии bridges между репо — свободные текстовые описания, не OWL/RDF - Обеспечить write-operations в федерируемые репо read-only в v1.0 Ключевые термины определены в разделе 2.
+> Абстракт авто 🎯 Проблема: Design Goals Протокол спроектирован так, чтобы одновременно достичь: - Low barrier to entry: подключение существующего репо к федерации требует не больше 5 минут работы два файла 🔧 Подход: Homogenization: разные типы знаний методология, семантика, символизм принудительно приводятся к одной структуре, что уменьшает выразительность. 🏷️ Ключевые слова: introduction , goals , anthropic , vacancies , проекте , federation , merging , motivation Современные системы управления знаниями Notion, Obsidian, Roam, Logseq, --- Современные системы управления знаниями Notion, Obsidian, Roam, Logseq, Coda, Confluence требуют от пользователя миграции в их единый формат. --- --- - 76-1-introduction 76-1-introduction.md сходство 0.53 - 67-о-проекте 67-о-проекте.md сходство 0.12 --- - 76-1-introduction 76-1-introduction.md - 67-о-проекте 67-о-проекте.md - 26-14-adr-001-federation-over-merging 26-14-adr-001-federation-over-merging.md - 94-19-adr-001-federation-over-merging 94-19-adr-001-federation-over-merging.md --- - 26-14-adr-001-federation-over-merging 26-14-adr-001-federation-over-merging.md - 67-о-проекте 67-о-проекте.md - 94-19-adr-001-federation-over-merging 94-19-adr-001-federation-over-merging.md - 95-20-adr-002-q6-as-first-class-protocol-concept 95-20-adr-002-q6-as-first-class-protocol-concept.md - README README.md
 
 ## `docs/02-anthropic-vacancies/07-2-terminology.md`
 
 _2. Terminology_
 
-> Repository-participant далее — Repo — Git-репозиторий, содержащий минимум nautilus.json и passport.md в корне. Native format — исходный формат данных в Repo, определяемый автором. Registry — файл nautilus.json в корне Portal-репо, перечисляющий все Repos экосистемы с их метаданными.
+> Repository-participant далее — Repo — Git-репозиторий, содержащий минимум nautilus ../05-habr-projects/memory/memnet.md .json и passport.md в корне. Registry — файл nautilus ../05-habr-projects/memory/memnet.md .json в корне Portal-репо, перечисляющий все Repos экосистемы с их метаданными. Описан в nautilus ../05-habr-projects/memory/memnet.md .json в поле bridges .
 
 ## `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`
 
 _3. Registry (`nautilus.json`)_
 
-> Registry — central source of truth о том, какие Repos входят в --- Registry — central source of truth о том, какие Repos входят в экосистему и как их интерпретировать. Registry MUST быть валидным JSON со следующей структурой: - protocol version — строка в формате semver. - ecosystem name — короткое уникальное имя latin, без пробелов .
+> Validation Rules #35-validation-rules !IMPORTANT Ключевой документ для понимания архитектуры. Registry — central source of truth о том, какие Repos входят в --- Registry — central source of truth о том, какие Repos входят в экосистему и как их интерпретировать. Registry MUST быть валидным JSON со следующей структурой: - protocol version — строка в формате semver.
+
+## `docs/02-anthropic-vacancies/09-4-passport-passport-md.md`
+
+_4. Passport (`passport.md`)_
+
+> Compatibility Levels 80-5-compatibility-levels.md - Appendix A: Minimal Working Example 98-appendix-a-minimal-working-example.md - Compatibility Level 41-compatibility-level.md - History 63-history.md - Native Format 37-native-format.md - Planned v0.2.0 132-planned-v0-2-0.md - Вакансии Anthropic — Анализ по кластерам README.md - Что ты ВСЕГДА делаешь 360-что-ты-всегда-делаешь.md - Вакансии Anthropic — Анализ по кластерам ../README.md - Compatibility Level 41-compatibility-level.md 33% - Planned v0.2.0 132-planned-v0-2-0.md 25% - Native Format 37-native-format.md 25% - 5. Compatibility Levels 17-5-compatibility-levels.md 21% - Appendix A: Minimal Working Example 98-appendix-a-minimal-working-example.md 33% - Compatibility Level 41-compatibility-level.md 29% - 4. QueryResult Structure 22-10-queryresult-structure.md 25% - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md 25% - History 63-history.md 25% - Abstract 04-abstract.md 21% --- - 04-abstract 04-abstract.md - 127-подключение-к-claude-desktop 127-подключение-к-claude-desktop.md - 132-planned-v0-2-0 132-planned-v0-2-0.md - 22-10-queryresult-structure 22-10-queryresult-structure.md - 37-native-format 37-native-format.md - 41-compatibility-level 41-compatibility-level.md - 63-history 63-history.md - README README.md
+
+## `docs/02-anthropic-vacancies/102-доступ-к-данным.md`
+
+_Доступ к данным_
+
+> - Доступ к данным #доступ-к-данным !WARNING Документ содержит описание рисков и ограничений. - Fallback: всегда возвращает static entries --- - Тип: static - Требует токен: нет - Fallback: всегда возвращает static entries bash python scripts/improve semantic search.py --query "Доступ к данным" - 339-приложение-a-дерево-решений-для-принимающих-ingit 339-приложение-a-дерево-решений-для-принимающих-ingit.md - 118-appendix-a-шаблон-для-header-warning 118-appendix-a-шаблон-для-header-warning.md - 121-appendix-c-история-изменений-методологии 121-appendix-c-история-изменений-методологии.md - 348-кому-ты-служишь-слоистая-модель 348-кому-ты-служишь-слоистая-модель.md - Appendix C: История изменений методологии 121-appendix-c-история-изменений-методологии.md 60% - Приложение A: Дерево Решений для Принимающих InGit 339-приложение-a-дерево-решений-для-принимающих-ingit.md 60% - Кому ты служишь слоистая модель 348-кому-ты-служишь-слоистая-модель.md 53% - Appendix A: Шаблон для header warning 118-appendix-a-шаблон-для-header-warning.md 42% - Когда ты Honestly не знаешь 361-когда-ты-honestly-не-знаешь.md 42% - Appendix B: Domain Comparison Matrix 185-appendix-b-domain-comparison-matrix.md 29% - Твоя миссия 347-твоя-миссия.md 29% - Главные технические риски 120-главные-технические-риски.md 25% --- - 121-appendix-c-история-изменений-методологии 121-appendix-c-история-изменений-методологии.md - 16-history 16-history.md - 185-appendix-b-domain-comparison-matrix 185-appendix-b-domain-comparison-matrix.md - 202-12-заключение 202-12-заключение.md - 206-приложение-b-матрица-сравнения-областей 206-приложение-b-матрица-сравнения-областей.md - 339-приложение-a-дерево-решений-для-принимающих-ingit 339-приложение-a-дерево-решений-для-принимающих-ingit.md - README README.md Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска. --- Похожие документы: - 102-доступ-к-данным ../obsidian/02-anthropic-vacancies/102-доступ-к-данным.md сходство 0.97 - 339-приложение-a-дерево-решений-для-принимающих-ingit 339-приложение-a-дерево-решений-для-принимающих-ingit.md сходство 0.54 - 339-приложение-a-дерево-решений-для-принимающих-ingit ../obsidian/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md сходство 0.53
+
+## `docs/02-anthropic-vacancies/103-appendix-b-change-log.md`
+
+_Appendix B: Change Log_
+
+> Q6 Space Normative 83-8-q6-space-normative.md - Appendix C: References 104-appendix-c-references.md - Вакансии Anthropic — Анализ по кластерам README.md - Доступные инструменты 128-доступные-инструменты.md - Вакансии Anthropic — Анализ по кластерам ../README.md - 14. MCP Extension Informative 91-16-mcp-extension-informative.md 25% - Доступные инструменты 128-доступные-инструменты.md 21% - Appendix B: Change Log 34-appendix-b-change-log.md 21% - 6. Q6 Space Normative 83-8-q6-space-normative.md 21% --- - 104-appendix-c-references 104-appendix-c-references.md - 128-доступные-инструменты 128-доступные-инструменты.md - 22-10-queryresult-structure 22-10-queryresult-structure.md - 34-appendix-b-change-log 34-appendix-b-change-log.md - 91-16- mcp-extension-informative 91-16-mcp-extension-informative.md - 93-18-reference-implementation 93-18-reference-implementation.md - README README.md
 
 ## `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 
 _Appendix C: References_
 
-> Создать docs/PORTAL-PROTOCOL.md в репо с этим содержимым или PORTAL-PROTOCOL.md в корне, если хотите более заметно 2. Добавить ссылку из README.md: в footer заменить Nautilus Portal Protocol v1.1 на Nautilus Portal Protocol v1.1 ./docs/PORTAL-PROTOCOL.md с рабочим линком 3. Коммит с сообщением docs: add formal PORTAL-PROTOCOL.md v1.1 specification 4.
+> Nautilus Portal as Reference Substrate 141-4-nautilus-portal-as-reference-substrate.md - Appendix B: Change Log 103-appendix-b-change-log.md - Appendix B: Change Log 34-appendix-b-change-log.md - For the Curious: Philosophy 64-for-the-curious-philosophy.md - References 147-references.md - Вакансии Anthropic — Анализ по кластерам README.md - Глоссарий 122-глоссарий.md - Доступные инструменты 128-доступные-инструменты.md - Зачем две версии параллельно 70-зачем-две-версии-параллельно.md - ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL 02-общий-план-развития-nautilus-portal-protocol.md - ⬡ 69-section.md - 🇬🇧 About 68-about.md - 🇷🇺 О проекте 67-о-проекте.md - Вакансии Anthropic — Анализ по кластерам ../README.md - 18. Reference Implementation 25-13-reference-implementation.md 25% - Appendix B: Change Log 34-appendix-b-change-log.md 21% - ⬡ 69-section.md 21% - Appendix B: Change Log 103-appendix-b-change-log.md 17% - Глоссарий 122-глоссарий.md 17% - References 147-references.md 17% - For the Curious: Philosophy 64-for-the-curious-philosophy.md 17% - 18. Reference Implementation 25-13-reference-implementation.md 29% - For the Curious: Philosophy 64-for-the-curious-philosophy.md 29% - 🇬🇧 About 68-about.md 29% - Appendix B: Change Log 103-appendix-b-change-log.md 25% - Глоссарий 122-глоссарий.md 25% - 4.
+
+## `docs/02-anthropic-vacancies/105-review-methodology-md.md`
+
+_REVIEW_METHODOLOGY.md_
+
+> - REVIEW METHODOLOGY.md #review methodologymd !NOTE Документ создан на основе исследования. Статус: Активно применяется в проекте svend4/nautilus --- !NOTE Документ создан на основе исследования. markdown bash python scripts/improve semantic search.py --query "REVIEW METHODOLOGY md" - 28-appendix-a-minimal-working-example 28-appendix-a-minimal-working-example.md - 03-portal-protocol-md 03-portal-protocol-md.md - 42-author-contact 42-author-contact.md - 188-ai-опосредованное-представительство-для-недопредст 188-ai-опосредованное-представительство-для-недопредст.md - 10.
+
+## `docs/02-anthropic-vacancies/106-tl-dr.md`
+
+_TL;DR_
+
+> --- --- - 70-зачем-две-версии-параллельно 70-зачем-две-версии-параллельно.md сходство 0.35 - 108-2-формальный-workflow 108-2-формальный-workflow.md сходство 0.14 - 107-1-контекст-и-мотивация 107-1-контекст-и-мотивация.md сходство 0.12 --- - 70-зачем-две-версии-параллельно 70-зачем-две-версии-параллельно.md - 108-2-формальный-workflow 108-2-формальный-workflow.md - 107-1-контекст-и-мотивация 107-1-контекст-и-мотивация.md - 105-review-methodology-md 105-review-methodology-md.md - 1. Условия применимости 111-4-условия-применимости.md - Вакансии Anthropic — Анализ по кластерам README.md - Зачем две версии параллельно 70-зачем-две-версии-параллельно.md - Критерии выбора для фазы 3 71-критерии-выбора-для-фазы-3.md - Вакансии Anthropic — Анализ по кластерам ../README.md - Зачем две версии параллельно 70-зачем-две-версии-параллельно.md 33% - Расписание фазы 3 72-расписание-фазы-3.md 17% - Зачем две версии параллельно 70-зачем-две-версии-параллельно.md 42% - REVIEW METHODOLOGY.md 105-review-methodology-md.md 17% - 2. Формальный workflow 108-2-формальный-workflow.md 17% - Критерии выбора для фазы 3 71-критерии-выбора-для-фазы-3.md 17% --- - 105-review-methodology-md 105-review-methodology-md.md - 70-зачем-две-версии-параллельно 70-зачем-две-версии-параллельно.md - 71-критерии-выбора-для-фазы-3 71-критерии-выбора-для-фазы-3.md - 72-расписание-фазы-3 72-расписание-фазы-3.md - README README.md
 
 ## `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`
 
 _1. Контекст и мотивация_
 
-> Проект Nautilus разрабатывается в паре «автор + Claude Code агент». --- Проект Nautilus разрабатывается в паре «автор + Claude Code агент». Параллельное сохранение Фазы A и B — оба варианта коммитятся в main друг под другом, с дубликатами 2.
+> ✅ Результат: Каждый запуск создаёт отдельную ветку, на которой агент работает независимо от других. Проект Nautilus разрабатывается в паре «автор + Claude Code агент». Каждый запуск создаёт отдельную ветку, на которой агент работает независимо от других.
 
 ## `docs/02-anthropic-vacancies/108-2-формальный-workflow.md`
 
 _2. Формальный workflow_
 
-> Фаза A Фаза B Фаза C --- Методология применяется только к критически важным документам , где стоимость потери информации высока. Примеры из Nautilus: - STATUS.md — отчёт о состоянии проекта - IMPLEMENTATION STAGE PART .md — технико-концептуальный review - PORTAL-PROTOCOL.md — formal specification Для routine документов README, adapter docs, passport templates достаточно single-pass review. Критерий применения : если потеря одной вашей фразы в документе может повлиять на архитектурное решение, grant application или academic reviewer — применяйте трёхфазный метод.
+> Фаза A Фаза B Фаза C --- Методология применяется только к критически важным документам , где стоимость потери информации высока. Примеры из Nautilus: - STATUS.md — отчёт о состоянии проекта - IMPLEMENTATION STAGE PART .md — технико-концептуальный review - PORTAL-PROTOCOL.md — formal specification Для routine документов README, adapter docs, passport templates достаточно single-pass review. --- --- - 114-7-реализация-в-проекте-nautilus 114-7-реализация-в-проекте-nautilus.md сходство 0.18 - 117-10-конкретный-план-применения-к-текущим-документам 117-10-конкретный-план-применения-к-текущим-документам.md сходство 0.14 - 106-tl-dr 106-tl-dr.md сходство 0.14 --- - 114-7-реализация-в-проекте-nautilus 114-7-реализация-в-проекте-nautilus.md - 117-10-конкретный-план-применения-к-текущим-документам 117-10-конкретный-план-применения-к-текущим-документам.md - 106-tl-dr 106-tl-dr.md - COMPLEXITY ../COMPLEXITY.md --- - 105-review-methodology-md 105-review-methodology-md.md - 106-tl-dr 106-tl-dr.md - 109-3-принципы-консолидации-фаза-c 109-3-принципы-консолидации-фаза-c.md - 122-глоссарий 122-глоссарий.md - 72-расписание-фазы-3 72-расписание-фазы-3.md - README README.md
 
 ## `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`
 
 _3. Принципы консолидации (Фаза C)_
 
-> Если A и B сообщают одинаковое число например, «60 тестов» в обеих — взять это значение, удалить дубликат. Если A и B сообщают разные числа например, «6782 LOC» в A, «6600 LOC» в B — провести реальную проверку и зафиксировать проверенное значение. Если один вариант содержит раздел, которого нет в другом — автоматически включить в v3 .
+> Для каждого расхождения применяются правила #31-для-каждого-расхождения-применяются-правила - Native Format #native-format --- Абстракт авто 🎯 Проблема: Пример: - A: «88% fallback — критическая проблема, требует срочного решения» - B: «88% fallback — осмысленный tradeoff, приоритет средний» → В финальной версии обе позиции сохраняю 🔧 Подход: Если избегаете трёхфазного подхода, эти 10-15% теряются безвозвратно. --- - 71-критерии-выбора-для-фазы-3 71-критерии-выбора-для-фазы-3.md сходство 0.21 --- - 71-критерии-выбора-для-фазы-3 71-критерии-выбора-для-фазы-3.md - 107-1-контекст-и-мотивация 107-1-контекст-и-мотивация.md - 108-2-формальный-workflow 108-2-формальный-workflow.md - 82-7-portalentry-structure 82-7-portalentry-structure.md - 2. Terminology 77-2-terminology.md 17% --- - 104-appendix-c-references 104-appendix-c-references.md - 64-for-the-curious-philosophy 64-for-the-curious-philosophy.md - 71-критерии-выбора-для-фазы-3 71-критерии-выбора-для-фазы-3.md - 74-abstract 74-abstract.md - README README.md
 
 ## `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`
 
 _Вопрос: fallback-ratio как критический или осмысленный?_
 
-> Python LOC — базовая метрика масштаба проекта 2. Q6 coverage — ключевая метрика конкретного проекта 4. Commit count — временная метрика Всё остальное даты, версии, названия веток — проверяется при встрече, но не в приоритете.
+> #вопрос-fallback-ratio-как-критический-или-осмысленный Абстракт авто 🎯 Проблема: Два независимых анализа пришли к разным выводам: - Позиция A: 88% fallback критично, требует срочных живых адаптеров для info1/pro2/meta/data2 - Позиция B: 88% fallback — осмысленн 🔧 Подход: !IMPORTANT Ключевой документ для понимания архитектуры. 🏷️ Ключевые слова: fallback , anthropic , vacancies , решение , проекта , версии , метрика , count !IMPORTANT Ключевой документ для понимания архитектуры. Два независимых анализа пришли к разным выводам: --- Два независимых анализа пришли к разным выводам: - Позиция A : 88% fallback критично, требует срочных живых адаптеров для info1 01-интегральный-анализ-профиля-svend4.md /pro2/meta/data2 - Позиция B : 88% fallback — осмысленное решение для early-stage проекта, приоритет средний Текущее решение автора : ваше решение + обоснование 1.
+
+## `docs/02-anthropic-vacancies/111-4-условия-применимости.md`
+
+_4. Условия применимости_
+
+> 🔧 Подход: Когда оппонирует 43-когда-оппонирует Методология не универсальна. 🏷️ Ключевые слова: когда , применять , anthropic , vacancies , условия , применимости , формальный , workflow Методология не универсальна. Она уместна при следующих условиях : --- Методология не универсальна.
 
 ## `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md`
 
 _5. Связь с существующими методологиями_
 
-> Теоретическим прародителем является N-version programming --- Теоретическим прародителем является N-version programming Chen & Avizienis, 1977–78 — написание нескольких независимых имплементаций одной спецификации для повышения reliability. Отличия: - N-version programming: про код, цель — fault-tolerance - Трёхфазная методология: про документацию, цель — completeness of insights В академической рецензии две независимые peer reviews могут противоречить друг другу . Отличия: - ML ensembles: разрешение автоматическое, по правилу - Наша методология: разрешение ручное, через правила 1-5 В security и public policy используется структура red vs blue : один агент критикует, другой защищает.
+> 🔧 Подход: Новое в данной методологии 55-новое-в-данной-методологии Теоретическим прародителем является N-version programming --- 5. 🏷️ Ключевые слова: version , programming , связь , существующими , методологиями , reviews , ensembles , отличия Теоретическим прародителем является N-version programming --- Теоретическим прародителем является N-version programming Chen & Avizienis, 1977–78 — написание нескольких независимых имплементаций одной спецификации для повышения reliability. Отличия: - ML ensembles: разрешение автоматическое, по правилу - Наша методология: разрешение ручное, через правила 1-5 В security и public policy используется структура red vs blue : один агент критикует, другой защищает.
+
+## `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md`
+
+_6. Почему это валидный паттерн для AI-assisted workflows_
+
+> Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска. Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска. Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска.
 
 ## `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
 
 _7. Реализация в проекте Nautilus_
 
-> Первое применение — IMPLEMENTATION STAGE PART 1-4 .md --- Первое применение — IMPLEMENTATION STAGE PART 1-4 .md апрель 2026 : - Вариант A: ветка claude/review-nautilus-changes-tdywx - Вариант B: ветка claude/project-implementation-stage-CzylE - Текущий статус: Merged-to-main with parallel blocks, Фаза C не пройдена Повторное применение — STATUS.md апрель 2026 : - Пройдена Фаза A единожды single-pass - Статус: канонично, трёхфазная методология не применялась - Осмысленность: документ достаточно простой для single-pass Пример, что методология применяется селективно , только там, где польза оправдывает overhead. Исходные draft ветки claude/ — как audit trail 2. Финальная консолидированная — после Фазы C Удалять исходные ветки не следует до завершения Фазы C — они могут содержать контекст, нужный для разрешения неочевидных расхождений.
+> Первое применение — IMPLEMENTATION STAGE PART 1-4 .md --- Первое применение — IMPLEMENTATION STAGE PART 1-4 .md апрель 2026 : - Вариант A: ветка claude/review- nautilus ../05-habr-projects/memory/memnet.md -changes-tdywx - Вариант B: ветка claude/project-implementation-stage-CzylE - Текущий статус: Merged-to-main with parallel blocks, Фаза C не пройдена Повторное применение — STATUS.md апрель 2026 : - Пройдена Фаза A единожды single-pass - Статус: канонично, трёхфазная методология не применялась - Осмысленность: документ достаточно простой для single-pass Пример, что методология применяется селективно , только там, где польза оправдывает overhead. Исходные draft ветки claude/ — как audit trail 2. Финальная консолидированная — после Фазы C Удалять исходные ветки не следует до завершения Фазы C — они могут содержать контекст, нужный для разрешения неочевидных расхождений.
 
 ## `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`
 
 _8. Ограничения и открытые вопросы_
 
-> Q4 : Как долго может оставаться документ в transitional state? Если Фаза C откладывается дольше, transitional state становится постоянным, что подрывает доверие. Option Freeze : явно пометить документ как «frozen at transitional state», не удалять header warning, принять репутационный debt 3.
+> Что делать, если ресурсов на Фазу C нет #83-что-делать-если-ресурсов-на-фазу-c-нет - Похожие документы #похожие-документы - Использование #использование - Смотрите также #смотрите-также --- Абстракт авто 🎯 Проблема: Вернуться к формулировке задачи, уточнить scope, и только потом запускать параллельные review заново. 🔧 Подход: Что делать, если ресурсов на Фазу C нет Если трёхфазная методология применена к документу, но времени на Фазу C нет и не предвидится в течение 2 недель : 1. Если трёхфазная методология применена к документу, но времени на Фазу C нет и не предвидится в течение 2 недель : 1.
 
 ## `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md`
 
 _9. Checklist применения методологии_
 
-> - Есть время на Фазу C в течение 2 недель? - Две ветки будут работать на полностью независимых prompts не «продолжи вариант A» ? - Агенты работают в разных ветках не в одной - Prompt'ы для A и B идентичны иначе это не независимое воспроизведение - Каждый агент не видит результат другого - Header warning добавлен см.
+> Во время Фазы A и B #92-во-время-фазы-a-и-b - 9.3. ✅ Результат: Во время Фазы A и B - Агенты работают в разных ветках не в одной - Prompt'ы для A и B идентичны иначе это не независимое воспроизведение - Каждый агент не видит результат друго 🏷️ Ключевые слова: checklist , применения , методологии , перед , время , документ , началом , phase !WARNING Документ содержит описание рисков и ограничений. - Агенты работают в разных ветках не в одной - Prompt'ы для A и B идентичны иначе это не независимое воспроизведение - Каждый агент не видит результат другого - Header warning добавлен см.
 
 ## `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md`
 
 _10. Конкретный план применения к текущим документам_
 
-> Текущий статус : Merged-to-main, Фаза C не пройдена, header --- Текущий статус : Merged-to-main, Фаза C не пройдена, header warning отсутствует . Добавить header warning §2.4 в каждую из 4 частей 2. Установить deadline Фазы C: 2026-05-03 2 недели 3.
+> Конкретный план применения к текущим документам #10-конкретный-план-применения-к-текущим-документам - 10.1. Абстракт авто 🎯 Проблема: Конкретный план применения к текущим документам Contents - 10. 🔧 Подход: Будущие применения Планируемые кандидаты на трёхфазную методологию: - ARCHITECTURE.md если создаётся — формальное описание архитектуры - CONTRIBUTING.md если создаётся — guidel ✅ Результат: Провести верификацию конкретных метрик: Результат — вставить в финальный консолидированный документ вместо обоих вариантов.
+
+## `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md`
+
+_Appendix A: Шаблон для header warning_
+
+> Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. --- Похожие документы: - 118-appendix-a-шаблон-для-header-warning ../obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md сходство 0.93 - 12-appendix-a-header-warning ../obsidian/nautilus/review-methodology/12-appendix-a-header-warning.md сходство 0.64 - 12-appendix-a-header-warning ../nautilus/review-methodology/12-appendix-a-header-warning.md сходство 0.61
 
 ## `docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md`
 
 _Appendix B: Примеры расхождений и их разрешения_
 
-> Из IMPLEMENTATION STAGE PART 1.md реальный пример : --- Из IMPLEMENTATION STAGE PART 1.md реальный пример : Разрешение через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.md : Это существенное расхождение почти в 2 раза . Гипотетический пример : Разрешение : оба риска реальны, приоритезация зависит от цели проекта.
+> 🔧 Подход: Расхождение в концептуальных выводах Правило 5 Гипотетический пример: Разрешение: оба риска реальны, приоритезация зависит от цели проекта. ✅ Результат: Расхождение в концептуальных выводах Правило 5 Гипотетический пример: Разрешение: оба риска реальны, приоритезация зависит от цели проекта. Гипотетический пример : Разрешение : оба риска реальны, приоритезация зависит от цели проекта.
+
+## `docs/02-anthropic-vacancies/12-content-overview.md`
+
+_Content Overview_
+
+> - Content Overview #content-overview - Похожие документы #похожие-документы - Упоминается в #упоминается-в - Упоминается в #упоминается-в-1 - Связанные документы #связанные-документы - Связанные документы #связанные-документы-1 - Использование #использование - Смотрите также #смотрите-также - Кто ссылается на этот документ 10 #кто-ссылается-на-этот-документ-10 !NOTE Документ создан на основе исследования. Что внутри: типы данных, приблизительный объём, основные темы. --- Что внутри: типы данных, приблизительный объём, основные темы.
+
+## `docs/02-anthropic-vacancies/120-главные-технические-риски.md`
+
+_Главные технические риски_
+
+> - Главные технические риски #главные-технические-риски !NOTE Документ создан на основе исследования. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo.
+
+## `docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md`
+
+_Appendix C: История изменений методологии_
+
+> - Appendix C: История изменений методологии #appendix-c-история-изменений-методологии - v1.0 2026-04 #v10-2026-04 - Упоминается в #упоминается-в - Упоминается в #упоминается-в-1 - Использование #использование - Смотрите также #смотрите-также - Связанные документы #связанные-документы - Кто ссылается на этот документ 6 #кто-ссылается-на-этот-документ-6 !WARNING Документ содержит описание рисков и ограничений. Будущие версии методологии будут задокументированы в этом appendix. Почему это валидный паттерн для AI-assisted workflows 113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md - Appendix A: Шаблон для header warning 118-appendix-a-шаблон-для-header-warning.md - Appendix B: Domain Comparison Matrix 185-appendix-b-domain-comparison-matrix.md - History 16-history.md - Вакансии Anthropic — Анализ по кластерам README.md - Главные технические риски 120-главные-технические-риски.md - Доступ к данным 102-доступ-к-данным.md - Когда ты Honestly не знаешь 361-когда-ты-honestly-не-знаешь.md - Кому ты служишь слоистая модель 348-кому-ты-служишь-слоистая-модель.md - Приложение A: Дерево Решений для Принимающих InGit 339-приложение-a-дерево-решений-для-принимающих-ingit.md - Приложение B: Матрица Сравнения Областей 206-приложение-b-матрица-сравнения-областей.md - Твои anti-patterns 359-твои-anti-patterns.md - Твоя миссия 347-твоя-миссия.md - Вакансии Anthropic — Анализ по кластерам ../README.md --- - 102-доступ-к-данным 102-доступ-к-данным.md - 118-appendix-a-шаблон-для-header-warning 118-appendix-a-шаблон-для-header-warning.md - 339-приложение-a-дерево-решений-для-принимающих-ingit 339-приложение-a-дерево-решений-для-принимающих-ingit.md - 185-appendix-b-domain-comparison-matrix 185-appendix-b-domain-comparison-matrix.md - Доступ к данным 102-доступ-к-данным.md 60% - Приложение A: Дерево Решений для Принимающих InGit 339-приложение-a-дерево-решений-для-принимающих-ingit.md 60% - Кому ты служишь слоистая модель 348-кому-ты-служишь-слоистая-модель.md 53% - Appendix A: Шаблон для header warning 118-appendix-a-шаблон-для-header-warning.md 42% - Когда ты Honestly не знаешь 361-когда-ты-honestly-не-знаешь.md 42% - Appendix B: Domain Comparison Matrix 185-appendix-b-domain-comparison-matrix.md 29% - Твоя миссия 347-твоя-миссия.md 29% - Главные технические риски 120-главные-технические-риски.md 25% --- - 102-доступ-к-данным 102-доступ-к-данным.md - 16-history 16-history.md - 185-appendix-b-domain-comparison-matrix 185-appendix-b-domain-comparison-matrix.md - 206-приложение-b-матрица-сравнения-областей 206-приложение-b-матрица-сравнения-областей.md - 339-приложение-a-дерево-решений-для-принимающих-ingit 339-приложение-a-дерево-решений-для-принимающих-ingit.md - README README.md --- Похожие документы: - 121-appendix-c-история-изменений-методологии ../obsidian/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md сходство 0.97 - 339-приложение-a-дерево-решений-для-принимающих-ingit 339-приложение-a-дерево-решений-для-принимающих-ingit.md сходство 0.65 - 339-приложение-a-дерево-решений-для-принимающих-ingit ../obsidian/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md сходство 0.63
 
 ## `docs/02-anthropic-vacancies/122-глоссарий.md`
 
 _Глоссарий_
 
-> Commit: docs: add REVIEW METHODOLOGY for three-phase review process . REVIEW METHODOLOGY.md v1.0 — meta-документ о вашем workflow с AI-agents Плюс то, что уже в репо: 1. Пишу portal-mcp.py — MCP wrapper над Nautilus Portal.
+> ✅ Результат: IMPLEMENTATIONSTAGEPART1-4.md — технико-концептуальный review в transitional state, готовый к Фазе C После того, как PORTAL-PROTOCOL и REVIEWMETHODOLOGY скоммитятся в репо, у вас д 🏷️ Ключевые слова: review , portal , methodology , документ , appendix , nautilus , методология , protocol !WARNING Документ содержит описание рисков и ограничений. Реализация в проекте Nautilus 114-7-реализация-в-проекте-nautilus.md - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md - Appendix B: Change Log 34-appendix-b-change-log.md - Appendix C: References 104-appendix-c-references.md - For the Curious: Philosophy 64-for-the-curious-philosophy.md - README-MCP.md— инструкция по установке 125-readme-mcp-md-инструкция-по-установке.md - REVIEW METHODOLOGY.md 105-review-methodology-md.md - Вакансии Anthropic — Анализ по кластерам README.md - Зачем две версии параллельно 70-зачем-две-версии-параллельно.md - Конфигурация для Claude Desktop 124-конфигурация-для-claude-desktop.md - Расписание фазы 3 72-расписание-фазы-3.md - ⬡ 69-section.md - 🇷🇺 О проекте 67-о-проекте.md - Вакансии Anthropic — Анализ по кластерам ../README.md - README-MCP.md— инструкция по установке 125-readme-mcp-md-инструкция-по-установке.md 25% - ⬡ 69-section.md 21% - Расписание фазы 3 72-расписание-фазы-3.md 21% - Индекс обратных ссылок ../BACKLINKS.md 21% - Appendix C: References 104-appendix-c-references.md 17% - REVIEW METHODOLOGY.md 105-review-methodology-md.md 17% - 13. Reference Implementation 25-13-reference-implementation.md 17% - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md 17% - README-MCP.md— инструкция по установке 125-readme-mcp-md-инструкция-по-установке.md 33% - REVIEW METHODOLOGY.md 105-review-methodology-md.md 29% - Appendix A: Minimal Working Example 28-appendix-a-minimal-working-example.md 29% - Зачем две версии параллельно 70-зачем-две-версии-параллельно.md 29% - Расписание фазы 3 72-расписание-фазы-3.md 29% - Appendix C: References 104-appendix-c-references.md 25% - Appendix B: Change Log 34-appendix-b-change-log.md 25% - For the Curious: Philosophy 64-for-the-curious-philosophy.md 25% --- - 02-общий-план-развития-nautilus-portal-protocol 02-общий-план-развития-nautilus-portal-protocol.md - 104-appendix-c-references 104-appendix-c-references.md - 105-review-methodology-md 105-review-methodology-md.md - 124-конфигурация-для-claude-desktop 124-конфигурация-для-claude-desktop.md - 125-readme-mcp-md-инструкция-по-установке 125-readme-mcp-md-инструкция-по-установке.md - 34-appendix-b-change-log 34-appendix-b-change-log.md - 64-for-the-curious-philosophy 64-for-the-curious-philosophy.md - 67-о-проекте 67-о-проекте.md - ...ещё 3
+
+## `docs/02-anthropic-vacancies/123-portal-mcp-py.md`
+
+_portal-mcp.py_
+
+> Абстракт авто 🎯 Проблема: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. 🔧 Подход: portal-mcp.py !IMPORTANT Ключевой документ для понимания архитектуры. 🏷️ Ключевые слова: anthropic , vacancies , readme , appendix , minimal , working , example , portal !IMPORTANT Ключевой документ для понимания архитектуры.
 
 ## `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md`
 
 _Конфигурация для Claude Desktop_
 
-> После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Путь зависит от ОС: --- После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. После сохранения конфигурации и перезапуска Claude Desktop в чате появится индикатор подключения MCP-сервера, и tools станут доступны для использования.
+> После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Путь зависит от ОС: --- После сохранения portal-mcp.py в корне репо, чтобы подключить к Claude Desktop, нужно отредактировать файл конфигурации MCP. Terminology 77-2-terminology.md 17% --- - 122-глоссарий 122-глоссарий.md - 125-readme- mcp-md-инструкция-по-установке 125-readme-mcp-md-инструкция-по-установке.md - 127-подключение-к- claude-desktop 127-подключение-к-claude-desktop.md - 129-примеры-запросов-в-claude 129-примеры-запросов-в-claude.md - 130-отладка 130-отладка.md - README README.md
 
-## `docs/02-anthropic-vacancies/130-отладка.md`
-
-_Отладка_
-
-> Проверить логи Claude Desktop: - macOS: ~/Library/Logs/Claude/mcp .log - Windows: %APPDATA%\Claude\logs\mcp .log - Linux: ~/.config/Claude/logs/mcp .log 2. Проверить: Если portal тоже падает — проблема не в MCP, а в самом адаптере. Проверить синтаксис claude desktop config.json валидный JSON 2.
-
-## `docs/02-anthropic-vacancies/133-обратная-связь.md`
-
-_Обратная связь_
-
-> Key property: meta-agent не видит, какие assistant'ы использует Node . - Node level : Node disagrees с meta-agent's task assignment. - Meta level : два Node disagree on architecture.
-
-## `docs/02-anthropic-vacancies/136-abstract.md`
-
-_Abstract_
-
-> We introduce the Double-Triangle Architecture for human-AI --- We introduce the Double-Triangle Architecture for human-AI collaboration in distributed knowledge work. These two triangles superimpose to form a six-pointed star topology, which we argue is the correct architectural primitive for the next generation of AI-managed knowledge work. Formal specification of the Double-Triangle Architecture, including three inter-layer protocols and six architectural invariants 2.
-
-## `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md`
-
-_1. Why Single-Triangle Models Are Incomplete_
-
-> In reality, every knowledge worker simultaneously occupies both positions : - A software engineer uses Copilot to write code lower triangle: human conducts assistant - At the same time, their team lead coordinates the engineer alongside five others toward a sprint goal upper triangle: meta-agent coordinates human The engineer's decisions about what Copilot generates depend on the sprint context coming from upper triangle . This creates what we call the coordination gap : personal AI assistants don't know about team context, and team-level coordination tools don't know about assistant-generated artifacts. Information has to be manually translated by humans across this gap, constantly.
-
-## `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md`
-
-_2. The Double-Triangle Architecture_
-
-> Six Architectural Invariants #23-six-architectural-invariants - Bridges #bridges --- We formalize the architecture using two triangles sharing a common vertex: Lower triangle per human Node N : where A 1, A 2, A 3 are AI assistants personalized to N's work. Each human N is simultaneously the vertex of a lower triangle their own and a base node of an upper triangle their team's . Lower triangle assistants have broad autonomy to execute tasks within their scope, but the human Node retains final authority on what propagates upward to team context.
-
-## `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md`
-
-_3. Three Inter-Layer Protocols_
-
-> Protocol 2 — Meta-Agent Coordinates Nodes #32-protocol-2-meta-agent-coordinates-nodes - 3.3. Protocol 3 — Assistant-to-Meta Negotiation #33-protocol-3-assistant-to-meta-negotiation - 3.4. Direction: Assistant A of Node N → Meta-agent M upward across triangles Semantics.
-
-## `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md`
-
-_4. Nautilus Portal as Reference Substrate_
-
-> Required Extensions to NPP for Double-Triangle #42-required-extensions-to-npp-for-double-triangle - 4.3. We propose NPP as the reference substrate for Double-Triangle implementations. A Double-Triangle implementation is an NPP v1.1 implementation plus these extensions.
-
-## `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
-
-_5. Pattern Library as Bridge Between Triangles_
-
-> Private instance points to public pattern it uses as a template. Private instance generates anonymized pattern to contribute back to public library. Direction: instance → pattern through anonymization pipeline .
-
-## `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md`
-
-_6. Four Deployment Domains_
-
-> The Double-Triangle Architecture is domain-agnostic but benefits --- - 6. Generic Knowledge Work Domain #64-generic-knowledge-work-domain --- The Double-Triangle Architecture is domain-agnostic but benefits from concrete deployment analysis. This domain is perhaps the broadest application of Double-Triangle architecture.
-
-## `docs/02-anthropic-vacancies/144-7-open-questions.md`
-
-_7. Open Questions_
-
-> The Double-Triangle Architecture is proposed as a framework, not --- - 7. Adversarial Dynamics #76-adversarial-dynamics --- The Double-Triangle Architecture is proposed as a framework, not a complete solution. Does the architecture scale to very large organizations?
-
-## `docs/02-anthropic-vacancies/145-8-call-to-action.md`
-
-_8. Call to Action_
-
-> The Double-Triangle Architecture is a framework awaiting --- - 8. For the First Author #85-for-the-first-author --- The Double-Triangle Architecture is a framework awaiting implementation and validation. Deploy Double-Triangle architecture in specific domains — legal practice, medical coordination, engineering teams, research groups.
-
-## `docs/02-anthropic-vacancies/146-acknowledgments.md`
-
-_Acknowledgments_
-
-> This work emerged through extensive collaboration with Anthropic's --- This work emerged through extensive collaboration with Anthropic's Claude primarily Claude Opus 4.7 across multiple sessions in 2026. This dependency on AI assistance is not a footnote but a core observation: the Double-Triangle Architecture is the emerging pattern of its own construction. This paper was written by one human working with multiple AI assistants, which is exactly the lower triangle it describes.
-
-## `docs/02-anthropic-vacancies/147-references.md`
-
-_References_
-
-> Artificial Intelligence: A Modern Approach , 4th ed. "Architectural Styles and the Design of Network-based Software Architectures". Design Patterns: Elements of Reusable Object-Oriented Software .
-
-## `docs/02-anthropic-vacancies/148-appendix-a-glossary.md`
-
-_Appendix A: Glossary_
-
-> - Upper triangle : Meta-agent + multiple human participants. - Protocol 1 : Downward communication within lower triangle Node to Assistants . - Protocol 2 : Downward communication within upper triangle Meta-agent to Nodes .
-
-## `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md`
-
-_Appendix B: Summary of Contributions_
-
-> Topological formalization of Double-Triangle Architecture with Star of David metaphor 2. Three inter-layer protocols specification only Protocols 1 and 2 are currently partially implemented; Protocol 3 is novel 4. Nautilus Portal Protocol v1.1 reference substrate with documented gaps requiring three specific extensions 6.
-
-## `docs/02-anthropic-vacancies/150-appendix-c-version-history.md`
-
-_Appendix C: Version History_
-
-> Infrastructure layer — open-source platform built on Nautilus Portal Protocol. Написать 10-page concept document «Open Knowledge Work Foundation: AI-Coordinated Infrastructure for Distributed Expert Contribution». Интегрирует всё: Nautilus Portal Protocol, Double-Triangle Architecture, Foundation Model, humanities extension, MMORPG-like engagement, pattern library.
-
-## `docs/02-anthropic-vacancies/153-executive-summary.md`
-
-_Executive Summary_
-
-> Existing staffing platforms Deel, Toptal, Upwork, Mercor treat these populations as transactional labor, not as dignified contributors with persistent professional identity. Nautilus Portal Protocol — open technical substrate for federated knowledge work 2. Double-Triangle Architecture — human-AI collaboration pattern preserving individual autonomy 3.
-
-
-<!-- similar-docs -->
-
----
-
-## Похожие документы
-- [TABLES](TABLES.md) (сходство 0.17)
-- [ACTION_ITEMS](ACTION_ITEMS.md) (сходство 0.17)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) (сходство 0.17)
-
-
-<!-- see-also -->
-
----
 
 
 ## Использование
-
 ```bash
-python scripts/improve_textrank.py
+# Запуск
+python scripts/improve_summaries.py
 ```
-
 ```bash
-# Применить резюме прямо в файлы + только раздел habr-projects
-python scripts/improve_textrank.py --apply --section 05-habr-projects
-python scripts/improve_textrank.py --sentences 5  # 5 предложений вместо 3
+# Вариант 2
+python scripts/improve_summaries.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_summaries.py --dry-run
 ```
 
 ## Смотрите также
-- [DECISIONS](DECISIONS.md)
-- [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)
-- [ACTION_ITEMS](ACTION_ITEMS.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [CONCEPTS](CONCEPTS.md)
-- [DUPLICATES](DUPLICATES.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)
+- [Теги](TAGS.md)
+- [Задачи](ACTION_ITEMS.md)
