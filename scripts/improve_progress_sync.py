@@ -172,6 +172,23 @@ def check_testing() -> dict:
     }
 
 
+def check_published() -> dict:
+    """Проверяет наличие git-тега v* (признак публикации MVP)."""
+    import subprocess
+    try:
+        result = subprocess.run(
+            ["git", "tag", "--list", "v*"],
+            capture_output=True, text=True, cwd=str(ROOT), timeout=10,
+        )
+        tags = [t.strip() for t in result.stdout.splitlines() if t.strip()]
+    except Exception:
+        tags = []
+    return {
+        "tags": tags,
+        "ready": len(tags) > 0,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Вычисление статуса milestone
 # ---------------------------------------------------------------------------
@@ -179,7 +196,8 @@ def check_testing() -> dict:
 def compute_milestones(contacts: dict, enriched: dict, arch: dict,
                        scripts: dict, digest: dict,
                        prototype: dict | None = None,
-                       testing: dict | None = None) -> list[dict]:
+                       testing: dict | None = None,
+                       published: dict | None = None) -> list[dict]:
     """Возвращает список milestone с реальным статусом."""
     return [
         {
@@ -242,8 +260,12 @@ def compute_milestones(contacts: dict, enriched: dict, arch: dict,
         },
         {
             "title": "Опубликован MVP на GitHub",
-            "done":  False,
-            "detail": "Финальный этап",
+            "done":  (published or {}).get("ready", False),
+            "detail": (
+                f"git tag {', '.join((published or {}).get('tags', []))} ✅"
+                if published and published.get("ready")
+                else "Создать git tag v* для публикации MVP"
+            ),
         },
     ]
 
@@ -423,8 +445,9 @@ def main():
     scores    = check_quality_scores()
     digest    = check_digest()
     skills    = check_skills()
-    prototype = check_prototype()
-    testing   = check_testing()
+    prototype  = check_prototype()
+    testing    = check_testing()
+    published  = check_published()
 
     print(f"  Контакты:   {contacts['total']} файлов "
           f"(написали: {contacts['messaged']}, ответили: {contacts['replied']})")
@@ -432,10 +455,12 @@ def main():
     print(f"  Скрипты:    {scripts['total']} (LLM: {scripts['llm']})")
     print(f"  Баллы:      health={scores.get('health')}, "
           f"metrics={scores.get('metrics')}, scoring={scores.get('scoring')}")
+    print(f"  Опубликован: тегов={len(published['tags'])}")
     print()
 
     milestones = compute_milestones(contacts, enriched, arch, scripts, digest,
-                                    prototype=prototype, testing=testing)
+                                    prototype=prototype, testing=testing,
+                                    published=published)
     done = sum(1 for m in milestones if m["done"])
     print(f"Milestones: {done}/{len(milestones)}")
     for m in milestones:
