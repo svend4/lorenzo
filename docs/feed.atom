@@ -3,8 +3,22 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T08:22:55+00:00</updated>
+  <updated>2026-05-11T08:25:03+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/9cb118ab31c6b16cd5e88f606fc1789b9bdbb867</id>
+    <title>chore: авто-перегенерация дашбордов после Hit Rate@10 1.000</title>
+    <link href="https://github.com/svend4/lorenzo/commit/9cb118ab31c6b16cd5e88f606fc1789b9bdbb867"/>
+    <updated>2026-05-11T08:23:59+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: авто-перегенерация дашбордов после Hit Rate@10 1.000</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/02-anthropic-vacancies/README.md">docs/obsidian/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>9cb118ab</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/b5efba6c625a76b1716b19470ca63f966ffa466f</id>
+    <title>feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска</title>
+    <link href="https://github.com/svend4/lorenzo/commit/b5efba6c625a76b1716b19470ca63f966ffa466f"/>
+    <updated>2026-05-11T08:23:39+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROTOTYPE_SPEC.md">docs/PROTOTYPE_SPEC.md</a></li></ul><p>Коммит: <code>b5efba6c</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/7ffc3e02e3f3e441b9b3cf7389a5208edb554ef0</id>
     <title>chore: обновление каталогов после gateway.py + тестов</title>
@@ -130,19 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/645d38b50b101856e567b84dfa6593d248b9f230"/>
     <updated>2026-05-11T04:58:38+00:00</updated>
     <content type="html"><![CDATA[<p><strong>feat: working prototype Knowledge OS — prototype_demo.py</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md">docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG_AUTO.md">docs/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEMO.md">docs/DEMO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEPENDENCY_MAP.md">docs/DEPENDENCY_MAP.md</a></li></ul><p>Коммит: <code>645d38b5</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/deef911dc24eea897b9ded7045369492c82af3c1</id>
-    <title>feat: protect PROGRESS.md manual sections + update search/deeptext</title>
-    <link href="https://github.com/svend4/lorenzo/commit/deef911dc24eea897b9ded7045369492c82af3c1"/>
-    <updated>2026-05-11T04:51:46+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: protect PROGRESS.md manual sections + update search/deeptext</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KEYWORD_INDEX.md">docs/KEYWORD_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/METRICS.md">docs/METRICS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/NAMED_ENTITIES.md">docs/NAMED_ENTITIES.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PARAGRAPH_QUALITY.md">docs/PARAGRAPH_QUALITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TIMELINE.md">docs/TIMELINE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VOCABULARY.md">docs/VOCABULARY.md</a></li></ul><p>Коммит: <code>deef911d</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/62b5e19231592dddd2516a13eebcb2073323664e</id>
-    <title>feat: SENTINEL security check + contact statuses + progress 55%</title>
-    <link href="https://github.com/svend4/lorenzo/commit/62b5e19231592dddd2516a13eebcb2073323664e"/>
-    <updated>2026-05-11T04:48:03+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: SENTINEL security check + contact statuses + progress 55%</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG_AUTO.md">docs/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li></ul><p>Коммит: <code>62b5e192</code></p>]]></content>
   </entry>
 </feed>

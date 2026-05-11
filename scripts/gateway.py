@@ -594,15 +594,29 @@ async def health():
     }
 
 
+_NOISE_SECTIONS = frozenset({
+    "obsidian", "confluence", "autofilled", "badges",
+    "nautilus", "habr-unique-projects", "svyazi-2-0",
+    "ai-collaborations", "anthropic-vacancies",
+    "technology-combinations", "lorenzo-agent", "meta-scripting",
+    "processing-guide",
+})
+
+
 @app.get("/api/status")
 async def status():
     idx = _load_index()
     sections: dict[str, int] = {}
+    noise_cards = 0
     for d in idx:
         sec = d.get("section", "other")
-        sections[sec] = sections.get(sec, 0) + 1
+        if sec in _NOISE_SECTIONS:
+            noise_cards += 1
+        else:
+            sections[sec] = sections.get(sec, 0) + 1
     return {
         "total_cards":    len(idx),
+        "core_cards":     len(idx) - noise_cards,
         "total_passages": len(_load_passages()),
         "sections":       sections,
         "tools":          [t["function"]["name"] for t in TOOLS],
