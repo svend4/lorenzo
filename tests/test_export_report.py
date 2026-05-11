@@ -119,3 +119,29 @@ def test_open_questions_returns_list(tmp_path, monkeypatch):
     )
     result = mod._open_questions(n=5)
     assert isinstance(result, list)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_report_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "REPORT.md").exists()
+
+
+def test_main_report_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "REPORT.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "REPORT.md").exists()

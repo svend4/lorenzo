@@ -178,3 +178,31 @@ def test_find_contact_file_missing_dir(monkeypatch, tmp_path):
     monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path / "nonexistent")
     result = mod.find_contact_file("anyone")
     assert result is None
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_list_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    mod.main()
+
+
+def test_main_no_args_shows_usage(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Использование" in out or "author" in out.lower()
+
+
+def test_main_author_not_found_exits(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--author", "nobody"])
+    try:
+        mod.main()
+    except SystemExit:
+        pass

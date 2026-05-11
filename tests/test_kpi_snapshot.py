@@ -153,3 +153,31 @@ def test_trend_large_delta():
 def test_trend_negative_delta_shows_magnitude():
     result = mod.trend(10, 20)
     assert "10" in result  # delta = -10
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_kpi_history_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "HISTORY_FILE", tmp_path / "kpi_history.json")
+    mod.main()
+    assert (tmp_path / "KPI_HISTORY.md").exists()
+
+
+def test_main_kpi_history_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "HISTORY_FILE", tmp_path / "kpi_history.json")
+    mod.main()
+    text = (tmp_path / "KPI_HISTORY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_updates_history_json(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    history_file = tmp_path / "kpi_history.json"
+    monkeypatch.setattr(mod, "HISTORY_FILE", history_file)
+    mod.main()
+    assert history_file.exists()

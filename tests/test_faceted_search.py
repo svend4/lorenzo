@@ -167,3 +167,41 @@ def test_filter_by_type_finds_files():
 def test_filter_by_type_empty():
     result = mod._filter_by_type("unknown_type", {})
     assert result == set()
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_filters_prints_usage(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "ENTITY_FILTER", None)
+    monkeypatch.setattr(mod, "TYPE_FILTER", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "фильтр" in out or "query" in out.lower() or "--query" in out
+
+
+def test_main_with_query_no_index_warns(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "QUERY", "AgentFS")
+    monkeypatch.setattr(mod, "ENTITY_FILTER", None)
+    monkeypatch.setattr(mod, "TYPE_FILTER", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "_load_keyword_index", lambda: {})
+    monkeypatch.setattr(mod, "_load_entities", lambda: {})
+    mod.main()
+
+
+def test_main_with_entity_filter_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "ENTITY_FILTER", "AgentFS")
+    monkeypatch.setattr(mod, "TYPE_FILTER", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "_load_keyword_index", lambda: {})
+    monkeypatch.setattr(mod, "_load_entities", lambda: {})
+    mod.main()

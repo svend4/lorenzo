@@ -103,3 +103,32 @@ def test_find_contradictions_returns_list():
     ]
     result = mod._find_contradictions(claims)
     assert isinstance(result, list)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_contradictions_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "a.md").write_text("# Title\n\nThe system supports 500 cards.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CONTRADICTIONS.md").exists()
+
+
+def test_main_contradictions_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "a.md").write_text("# Title\n\nThe system supports 500 cards.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CONTRADICTIONS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "CONTRADICTIONS.md").exists()

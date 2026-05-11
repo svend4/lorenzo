@@ -205,3 +205,35 @@ def test_complexity_score_many_words_raises():
 def test_complexity_score_medium_sentence_one_point():
     score = mod.complexity_score(20.0, 0.0, 0, 0)  # > 15 but <= 25 → +1
     assert score == 1
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_complexity_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n" + "This is a test sentence. " * 20,
+        encoding="utf-8"
+    )
+    mod.main()
+    assert (tmp_path / "COMPLEXITY.md").exists()
+
+
+def test_main_complexity_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n" + "This is a test sentence. " * 20,
+        encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "COMPLEXITY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "COMPLEXITY.md").exists()

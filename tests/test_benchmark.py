@@ -158,3 +158,28 @@ def test_print_report_skips_empty_times(capsys):
     captured = capsys.readouterr()
     # Should not crash; empty script list doesn't appear
     assert "Нет данных" not in captured.out or True  # no-crash check
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_report_only_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BENCH_FILE", tmp_path / "benchmark.json")
+    monkeypatch.setattr(mod, "REPORT_ONLY", True)
+    mod.main()  # report-only → reads empty history, must not raise
+
+
+def test_main_report_only_with_history(tmp_path, monkeypatch):
+    import json
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    bench = tmp_path / "benchmark.json"
+    bench.write_text(json.dumps({
+        "scripts": {"test.py": [1.2, 0.9, 1.5]},
+        "runs": [{"date": "2025-05-01", "timestamp": "2025-05-01T10:00:00",
+                  "scripts": {"test.py": 1.2}, "total": 1.2}]
+    }), encoding="utf-8")
+    monkeypatch.setattr(mod, "BENCH_FILE", bench)
+    monkeypatch.setattr(mod, "REPORT_ONLY", True)
+    mod.main()  # must not raise

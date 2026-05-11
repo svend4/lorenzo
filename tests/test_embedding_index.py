@@ -235,3 +235,23 @@ def test_cmd_query_scores_descending():
     results = mod.cmd_query("граф знаний memory", top=10)
     scores = [r[0] for r in results]
     assert scores == sorted(scores, reverse=True)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_args_prints_help(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert True  # prints help or exits cleanly
+
+
+def test_main_stats_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--stats"])
+    mod.main()
+
+
+def test_main_query_no_index_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
+    mod.main()

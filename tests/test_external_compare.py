@@ -139,3 +139,41 @@ def test_timeout_constant():
     assert hasattr(mod, "TIMEOUT")
     assert isinstance(mod.TIMEOUT, int)
     assert mod.TIMEOUT > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_args_prints_usage(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", False)
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "URL_ARG", None)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Использование" in out or "improve_external_compare" in out
+
+
+def test_main_auto_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", True)
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "URL_ARG", None)
+    monkeypatch.setattr(mod, "LIMIT", 0)
+    mod.main()
+
+
+def test_main_file_arg_missing_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", False)
+    monkeypatch.setattr(mod, "FILE_ARG", tmp_path / "nonexistent.md")
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "URL_ARG", "https://example.com")
+    mod.main()

@@ -147,3 +147,38 @@ def test_word_count_delta_second_is_zero(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "DOCS", tmp_path)
     _, delta = mod.word_count_delta()
     assert delta == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def _dw_setup(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "get_weekly_changes", lambda days=7: {
+        "commits": [],
+        "added": [],
+        "modified": [],
+        "folders": {},
+        "since": "2026-05-04",
+        "days": days,
+    })
+    monkeypatch.setattr(mod, "word_count_delta", lambda: (100, 5))
+    (tmp_path / "sample.md").write_text("# Test\n\nContent.", encoding="utf-8")
+
+
+def test_main_creates_digest_weekly_md(tmp_path, monkeypatch):
+    _dw_setup(tmp_path, monkeypatch)
+    mod.main()
+    assert (tmp_path / "DIGEST_WEEKLY.md").exists()
+
+
+def test_main_digest_weekly_has_content(tmp_path, monkeypatch):
+    _dw_setup(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "DIGEST_WEEKLY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_digest_weekly_no_crash(tmp_path, monkeypatch):
+    _dw_setup(tmp_path, monkeypatch)
+    mod.main()

@@ -103,3 +103,36 @@ def test_cmd_query_returns_one_on_error(tmp_path, monkeypatch, capsys):
 def test_db_path_attribute():
     assert hasattr(mod, "DB_PATH")
     assert isinstance(mod.DB_PATH, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_rebuild_no_crash(tmp_path, monkeypatch):
+    claude_dir = tmp_path / ".claude"
+    claude_dir.mkdir()
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLAUDE_DIR", claude_dir)
+    monkeypatch.setattr(mod, "DB_PATH", claude_dir / "audit.sqlite")
+    monkeypatch.setattr("sys.argv", ["prog", "--rebuild"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_default_no_crash(tmp_path, monkeypatch):
+    claude_dir = tmp_path / ".claude"
+    claude_dir.mkdir()
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLAUDE_DIR", claude_dir)
+    monkeypatch.setattr(mod, "DB_PATH", claude_dir / "audit.sqlite")
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()  # must not raise
+
+
+def test_main_top_tools_no_crash(tmp_path, monkeypatch):
+    claude_dir = tmp_path / ".claude"
+    claude_dir.mkdir()
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLAUDE_DIR", claude_dir)
+    monkeypatch.setattr(mod, "DB_PATH", claude_dir / "audit.sqlite")
+    monkeypatch.setattr("sys.argv", ["prog", "--top-tools", "3"])
+    mod.main()  # must not raise

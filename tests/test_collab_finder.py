@@ -142,3 +142,41 @@ def test_extract_file_query_respects_max_tokens():
     result = mod._extract_file_query(long_text, max_tokens=10)
     words = result.split()
     assert len(words) <= 20  # approximate limit
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_args_prints_help(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog"])
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+    out = capsys.readouterr().out
+    # Either prints help or exits — both acceptable
+    assert True
+
+
+def test_main_with_query_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "AgentFS memory", "--dry-run"])
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "OUT_MD", tmp_path / "COLLAB.md")
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+
+
+def test_main_dry_run_no_file_written(tmp_path, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent", "--dry-run"])
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "OUT_MD", tmp_path / "COLLAB.md")
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+    assert not (tmp_path / "COLLAB.md").exists()

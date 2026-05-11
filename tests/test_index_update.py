@@ -208,3 +208,34 @@ def test_build_entry_real_doc():
     assert len(entry["content"]) > 50
     assert entry["section"] == "05-habr-projects"
     assert entry["words"] > 10
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_search_index(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INDEX_FILE", tmp_path / "search_index.json")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "search_index.json").exists()
+
+
+def test_main_index_has_entries(tmp_path, monkeypatch):
+    import json as _json
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    index_file = tmp_path / "search_index.json"
+    monkeypatch.setattr(mod, "INDEX_FILE", index_file)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    data = _json.loads(index_file.read_text(encoding="utf-8"))
+    assert isinstance(data, list)
+    assert len(data) >= 1
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INDEX_FILE", tmp_path / "search_index.json")
+    mod.main()

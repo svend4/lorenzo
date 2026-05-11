@@ -146,3 +146,34 @@ def test_to_dot_includes_edges():
 def test_to_dot_empty_graph():
     result = mod.to_dot({}, {})
     assert "digraph" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_concept_graph_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FORMAT", "mermaid")
+    mod.main()
+    assert (tmp_path / "CONCEPT_GRAPH.md").exists()
+
+
+def test_main_concept_graph_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FORMAT", "mermaid")
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgent memory system.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CONCEPT_GRAPH.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FORMAT", "mermaid")
+    mod.main()
+    assert (tmp_path / "CONCEPT_GRAPH.md").exists()
