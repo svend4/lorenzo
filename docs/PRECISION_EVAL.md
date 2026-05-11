@@ -12,8 +12,8 @@
 | Метрика | Значение | Порог | Статус |
 |---------|---------|-------|--------|
 | Hit Rate@10 | **0.750** (15/20) | ≥ 0.70 | ✅ PASS |
-| Mean MRR      | 0.419 | — | — |
-| Avg Latency   | 1.336с | ≤ 5.0с | ✅ |
+| Mean MRR      | 0.423 | — | — |
+| Avg Latency   | 1.321с | ≤ 5.0с | ✅ |
 
 > **Примечание:** Hit Rate@K = доля запросов, где хотя бы 1 релевантный
 > документ попал в топ-K. Стандартный P@K с 1 документом/запрос ≤ 1/K,
@@ -26,10 +26,10 @@
 | # | Запрос | Rank | Hit |
 |---|--------|------|-----|
 | 1 | Yodoca консолидация SQLite decay forgot memory | 4 | ✅ |
-| 2 | AgentFS файловая система агент vault kksudo | 3 | ✅ |
-| 3 | NGT Memory ассоциативный граф лингвист ngt структура | 5 | ✅ |
+| 2 | AgentFS файловая система агент vault kksudo | 2 | ✅ |
+| 3 | NGT Memory ассоциативный граф лингвист ngt структура | 6 | ✅ |
 | 4 | agent-memory-mcp типизированная SQLite эпизодическая Vi… | 2 | ✅ |
-| 5 | MemNet RAG Challenge Docling pdfplumber FAISS memory | 6 | ✅ |
+| 5 | MemNet RAG Challenge Docling pdfplumber FAISS memory | 5 | ✅ |
 | 6 | Rufler YAML декларативный агент Claude Code токены swar… | 1 | ✅ |
 | 7 | knowledge-space карточки MIT граф 785 AnastasiyaW | 1 | ✅ |
 | 8 | LiteParse PDF извлечение Evidence nlaik структура докум… | 1 | ✅ |
@@ -39,11 +39,11 @@
 | 12 | BM25 TF-IDF гибридный поиск Retrieval hybrid search pas… | 11 | ❌ |
 | 13 | SENTINEL безопасность PII credentials аудит | 1 | ✅ |
 | 14 | Gateway OpenAI FastAPI function calling write-back обог… | 1 | ✅ |
-| 15 | авторы Хабр kksudo spbmolot VitalyOborin письма контакт… | 6 | ✅ |
+| 15 | авторы Хабр kksudo spbmolot VitalyOborin письма контакт… | 8 | ✅ |
 | 16 | Svyazi архитектура CardIndex knowledge три слоя AgentFS | 9 | ✅ |
 | 17 | Anthropic вакансии анализ ML research svend4 Nautilus | — | ❌ |
-| 18 | Review Queue карточки состояние proposal approved decay… | 17 | ❌ |
-| 19 | ANN HNSW два этапа hnswlib векторный поиск индекс | 20 | ❌ |
+| 18 | Review Queue карточки состояние proposal approved decay… | 18 | ❌ |
+| 19 | ANN HNSW два этапа hnswlib векторный поиск индекс | — | ❌ |
 | 20 | MCP инструменты stdio bm25_search карточка сервер searc… | — | ❌ |
 
 ---
@@ -56,4 +56,4 @@
 - **20 запросов:** 9 проектных (само-релевантность) + 11 кросс-секционных.
 - **Без ручной разметки:** обновляется автоматически при каждом запуске.
 
-*Сгенерировано: 2026-05-11 06:57*
+*Сгенерировано: 2026-05-11 07:08*

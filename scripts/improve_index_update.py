@@ -39,6 +39,58 @@ def get_changed_files() -> set[str]:
         return set()
 
 
+def _clean_md(text: str) -> str:
+    """Удаляет markdown-разметку и нормализует пробелы."""
+    text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    text = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
+    text = re.sub(r'-\s+\[.+?\]\(#?.+?\)', '', text)   # TOC-ссылки
+    text = re.sub(r'\[!(?:WARNING|NOTE|TIP|IMPORTANT|CAUTION)\]', '', text)
+    text = re.sub(r'[#*_`\[\]|>^]', ' ', text)
+    return re.sub(r'\s+', ' ', text).strip()
+
+
+def _extract_summary_block(text: str) -> str:
+    """Извлекает содержимое блока <!-- summary --> ... <!-- (следующий комментарий)."""
+    m = re.search(r'<!--\s*summary\s*-->(.*?)(?=<!--|\Z)', text, re.DOTALL)
+    if not m:
+        return ""
+    return _clean_md(m.group(1))
+
+
+def _extract_body(text: str) -> str:
+    """
+    Извлекает основной текст файла — тело после boilerplate-секций.
+
+    Стратегия: ищет первый непустой параграф вне блоков summary/abstract/status/TOC.
+    Удаляет:
+      - Авто-generated блоки (<!-- abstract-auto -->, <!-- autofill-status -->)
+      - TOC-ссылки (- [text](#anchor))
+      - Alert-цитаты (> [!WARNING/NOTE/TIP])
+      - Авто-абстракты (> **Абстракт**)
+    Сохраняет:
+      - Текст в блоках summary (уже извлечён отдельно)
+      - Реальные параграфы и разделы документа
+    """
+    # Удалить блоки-заглушки целиком
+    text = re.sub(r'<!--\s*abstract-auto\s*-->.*?(?=##|\Z)', '', text, flags=re.DOTALL)
+    text = re.sub(r'<!--\s*autofill-status\s*-->.*?(?=##|\Z)', '', text, flags=re.DOTALL)
+    text = re.sub(r'<!--\s*summary\s*-->.*?(?=<!--|\Z)', '', text, flags=re.DOTALL)
+    text = re.sub(r'<!--\s*(?:toc-auto|see-also|related-auto|backlinks-auto|backlinks|alert-added|similar-docs)\s*-->', '', text)
+    return _clean_md(text)
+
+
+def _extract_content(text: str, max_chars: int = 2000) -> str:
+    """
+    Формирует индексируемый контент:
+      1. Summary-блок (наиболее релевантный)
+      2. Тело документа (stripped boilerplate)
+    """
+    summary = _extract_summary_block(text)
+    body    = _extract_body(text)
+    combined = (summary + " " + body).strip()
+    return combined[:max_chars]
+
+
 def build_entry(f: Path) -> dict:
     text = f.read_text(encoding="utf-8")
     rel  = str(f.relative_to(ROOT))
@@ -49,16 +101,14 @@ def build_entry(f: Path) -> dict:
             title = line[2:].strip()[:80]
             break
 
-    clean = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
-    clean = re.sub(r'<!--.*?-->', '', clean, flags=re.DOTALL)
-    clean = re.sub(r'[#*_`\[\]|>]', ' ', clean)
-    clean = re.sub(r'\s+', ' ', clean).strip()
+    content = _extract_content(text)
+    clean   = _clean_md(text)      # для подсчёта слов (полный текст)
 
     tags_m = re.search(r'<!--\s*tags:\s*([^-]+?)-->', text)
     tags = [t.strip() for t in tags_m.group(1).split(',')] if tags_m else []
 
-    summary_m = re.search(r'<!--\s*summary\s*-->(.*?)<!--', text, re.DOTALL)
-    summary = summary_m.group(1).strip()[:200] if summary_m else clean[:200]
+    summary_block = _extract_summary_block(text)
+    summary = (summary_block or clean)[:200]
 
     rel_parts = Path(rel).parts
     section = rel_parts[1] if len(rel_parts) > 2 else "root"
@@ -70,7 +120,7 @@ def build_entry(f: Path) -> dict:
         "tags":    tags,
         "summary": summary,
         "words":   len(clean.split()),
-        "content": clean[:2000],
+        "content": content,
         "updated": datetime.now().isoformat()[:19],
     }
 

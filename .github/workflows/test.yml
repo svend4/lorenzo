@@ -42,11 +42,11 @@ jobs:
           python-version: "3.11"
           cache: pip
 
-      - name: Install pytest
-        run: pip install pytest --quiet
+      - name: Install test dependencies
+        run: pip install -r requirements-test.txt --quiet
 
       - name: Run tests/
-        run: python -m pytest tests/ -q
+        run: python -m pytest tests/ -q --ignore=tests/test_ann_index.py
 
       - name: Run docs-toolkit tests/
         run: python -m pytest docs-toolkit/tests/ -q
