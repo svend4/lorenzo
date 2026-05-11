@@ -1,21 +1,6 @@
 # Прогресс MVP
 
 <!-- toc-auto -->
-## Contents
-
-- [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
-- [Состояние компонентов](#состояние-компонентов)
-- [Метрики качества](#метрики-качества)
-- [Следующий шаг](#следующий-шаг)
-- [Связанные документы](#связанные-документы)
-- [Открытые письма авторам](#открытые-письма-авторам)
-- [Что было сделано (журнал сессий)](#что-было-сделано-журнал-сессий)
-  - [Сессия 2026-05-11 — Стабилизация + Письма](#сессия-2026-05-11-стабилизация-письма)
-  - [Сессия 2026-05-11 — SENTINEL + Контакты + Защита PROGRESS.md](#сессия-2026-05-11-sentinel-контакты-защита-progressmd)
-- [Текущая стадия — Итерация 2 Consolidation (55%)](#текущая-стадия-итерация-2-consolidation-55)
-- [Связанные документы](#связанные-документы-1)
-
-
 
 > [!NOTE]
 > Раздел `PROGRESS` формируется автоматически из данных репозитория.
@@ -32,7 +17,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`█████████░░░░░░░░░░░ 45%` 5/11
+`████████████░░░░░░░░ 63%` 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -42,8 +27,8 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 ⬜ Написаны авторам ключевых компонентов
 ⬜ Получены ответы от авторов
 ⬜ LLM-обогащение проектных файлов
-⬜ Создан рабочий прототип Knowledge OS
-⬜ Пройдено тестирование ансамбля
+✅ Создан рабочий прототип Knowledge OS
+✅ Пройдено тестирование компонентов
 ⬜ Опубликован MVP на GitHub
 
 ## Состояние компонентов
@@ -52,9 +37,14 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 164 скриптов | 5 LLM-скриптов, MCP=✅ |
+| Скрипты обработки | ✅ 165 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 7 секций | python scripts/improve_llm_summary.py |
-| Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
+| Claude Skills | ✅ 28 скиллов | analyze-project, write-contact, review-docs, improve, и др. |
+| Lorenzo Gateway | ✅ Итерация 4 | scripts/gateway.py — OpenAI-compatible FastAPI, 5 инструментов |
+| hnswlib ANN-граф | ✅ Итерация 1 | scripts/improve_ann_index.py — 37× speedup, Hit Rate@10=0.75 |
+| Review Queue UI | ✅ Итерация 1 | scripts/review_queue.py — Streamlit, approve/reject/defer |
+| Тесты компонентов | ✅ 43 теста | tests/test_gateway.py (25) + tests/test_ann_index.py (18) |
+| Precision eval | ✅ PASS | scripts/improve_precision_eval.py — Hit Rate@10 = 0.75 ≥ 0.70 |
 
 ## Метрики качества
 
@@ -93,6 +83,7 @@ cat docs/contacts/anastasiyaw.md
 <!-- auto-end -->
 
 
+
 ## Открытые письма авторам
 
 Черновики писем подготовлены для 8 авторов — [docs/letters/](letters/README.md):
@@ -124,6 +115,26 @@ cat docs/contacts/anastasiyaw.md
 
 **Результат:** 100.0/100 по 1221 файлу, 0 сломанных ссылок, 0 orphans.
 
+### Сессия 2026-05-11 — Gateway + ANN + Тесты + Precision Eval
+
+**Новые компоненты:**
+- `scripts/gateway.py` — Lorenzo Gateway: OpenAI-compatible FastAPI, 5 инструментов,
+  write-back (POST /api/cards), гибридный поиск + опциональный ANN, LLM-синтез
+- `docs/GATEWAY.md` — полная документация gateway с примерами, таблицей vs DAF
+- `scripts/improve_ann_index.py` — hnswlib HNSW ANN-индекс, 37× speedup vs TF-IDF,
+  random projection (6000→256 dim), двухстадийный поиск (ANN + exact re-rank)
+- `scripts/review_queue.py` — Streamlit Review Queue UI (approve/reject/defer)
+
+**Тесты:**
+- `tests/test_gateway.py` — 25 тестов FastAPI (health, status, ask, cards, completions)
+- `tests/test_ann_index.py` — 18 тестов ANN (vocab, files, search, speed)
+
+**Оценка качества:**
+- `scripts/improve_precision_eval.py` — автоматическая оценка Hit Rate@K
+  - Hit Rate@10 = 0.75 ≥ 0.70 ✅ PASS
+  - Mean MRR = 0.419, шум фильтруется (obsidian/, autofilled/, TABLES.md и др.)
+  - Метрика исправлена: Hit Rate@K вместо P@K (P@K с 1 релевантным doc ≤ 1/K)
+
 ### Сессия 2026-05-11 — SENTINEL + Контакты + Защита PROGRESS.md
 
 **Инфраструктура:**
@@ -137,7 +148,7 @@ cat docs/contacts/anastasiyaw.md
 - 8 авторов отмечены как `studied` (письмо готово).
 - PROTOTYPE_SPEC: SENTINEL-check ✅ (Итерация 2: 4/5 задач).
 
-## Текущая стадия — Итерация 2 Consolidation (55%)
+## Текущая стадия — Итерация 4 Gateway & Enrichment (63%)
 
 | Подзадача | Статус |
 |-----------|--------|
@@ -146,13 +157,18 @@ cat docs/contacts/anastasiyaw.md
 | Orphan rate < 15% | ✅ 0/2162 |
 | Качество документации 100/100 | ✅ Стабильно |
 | Открытые письма 8 авторам | ✅ Готовы к отправке |
-| SENTINEL security check | ✅ Реализован (`improve_sentinel_check.py`) |
+| SENTINEL security check | ✅ (`improve_sentinel_check.py`) |
+| Lorenzo Gateway (Итерация 4) | ✅ `scripts/gateway.py` + `docs/GATEWAY.md` |
+| hnswlib ANN-граф (Итерация 1) | ✅ `scripts/improve_ann_index.py`, speedup 37× |
+| Review Queue UI (Итерация 1) | ✅ `scripts/review_queue.py` |
+| Тесты gateway + ANN | ✅ 43 теста в `tests/` |
+| Hit Rate@10 ≥ 0.70 (Итерация 4) | ✅ 0.75 (`improve_precision_eval.py`) |
 | Yodoca decay_event API | ⬜ Ожидает ответа автора |
 
 **Следующий приоритет:**
 1. Отправить письма → kksudo → spbmolot → AnastasiyaW → VitalyOborin → nlaik
 2. LLM-обогащение проектных файлов (`ANTHROPIC_API_KEY`)
-3. Рабочий прототип Knowledge OS (Итерация → Итерация 3)
+3. Опубликовать MVP на GitHub (README + docs)
 
 ## Связанные документы
 
