@@ -108,3 +108,42 @@ def test_suggest_location_most_common_folder():
     ]
     result = mod._suggest_location("term", sources)
     assert "05-habr-projects" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_content_gaps_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "CONTENT_GAPS.md").exists()
+
+
+def test_main_content_gaps_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nAgentFS and Yodoca are used here.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "CONTENT_GAPS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "CONTENT_GAPS.md").exists()
+
+
+def test_main_content_gaps_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "CONTENT_GAPS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

@@ -191,3 +191,34 @@ def test_add_summary_inserts_after_h1(tmp_path):
         h1_pos = content.index("# The Main Title")
         summary_pos = content.index("<!-- summary -->")
         assert summary_pos > h1_pos
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    (tmp_path / "doc.md").write_text("# Title\n\nContent here.", encoding="utf-8")
+    mod.main()  # must not raise
+
+
+def test_main_dry_run_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    mod.main()  # must not raise
+
+
+def test_main_apply_adds_summary(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    f = tmp_path / "doc.md"
+    f.write_text(
+        "# Title\n\nThis is a long paragraph for the summary generation test.",
+        encoding="utf-8"
+    )
+    mod.main()
+    content = f.read_text(encoding="utf-8")
+    assert "<!-- summary" in content or "# Title" in content

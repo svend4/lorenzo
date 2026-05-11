@@ -126,3 +126,36 @@ def test_extract_kpis_strips_code_blocks(tmp_path, monkeypatch):
     result = mod.extract_kpis("```\n436 вакансий внутри блока кода\n```\n", f)
     # Code blocks should be stripped
     assert len(result) == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_kpi_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "KPI.md").exists()
+
+
+def test_main_kpi_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n436 вакансий в 12 кластерах.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "KPI.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "KPI.md").exists()
+
+
+def test_main_kpi_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "KPI.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

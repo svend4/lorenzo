@@ -80,3 +80,42 @@ def test_known_people_list_exists():
 def test_known_projects_list_exists():
     assert hasattr(mod, "KNOWN_PROJECTS")
     assert len(mod.KNOWN_PROJECTS) > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_named_entities_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "NAMED_ENTITIES.md").exists()
+
+
+def test_main_named_entities_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text(
+        "# AgentFS\n\nkksudo builds AgentFS at https://github.com/kksudo/agentfs.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "NAMED_ENTITIES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "NAMED_ENTITIES.md").exists()
+
+
+def test_main_named_entities_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "NAMED_ENTITIES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

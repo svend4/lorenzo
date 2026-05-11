@@ -185,3 +185,35 @@ def test_make_matrix_bottom_left_is_low():
     data_rows = [r for r in result if "|" in r]
     bottom_row = data_rows[-1]
     assert "НИЗК" in bottom_row
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_risk_register_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "RISK_REGISTER.md").exists()
+
+
+def test_main_risk_register_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "RISK_REGISTER.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "RISK_REGISTER.md").exists()
+
+
+def test_main_risk_register_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "RISK_REGISTER.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

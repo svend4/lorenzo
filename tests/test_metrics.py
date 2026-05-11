@@ -193,3 +193,36 @@ def test_quality_score_real_file():
     }
     score = mod.quality_score(data)
     assert score >= 50, f"yodoca.md quality too low: {score}"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_metrics_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "METRICS.md").exists()
+
+
+def test_main_metrics_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "METRICS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "METRICS.md").exists()
+
+
+def test_main_metrics_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "METRICS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

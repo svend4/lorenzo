@@ -133,3 +133,42 @@ def test_repeating_starts_no_repeat():
     paras = ["first text here", "second text here", "third text here"]
     result = mod._repeating_starts(paras)
     assert len(result) == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_paragraph_quality_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "PARAGRAPH_QUALITY.md").exists()
+
+
+def test_main_paragraph_quality_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nContent about agent systems.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "PARAGRAPH_QUALITY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "PARAGRAPH_QUALITY.md").exists()
+
+
+def test_main_paragraph_quality_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "PARAGRAPH_QUALITY.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

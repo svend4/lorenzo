@@ -115,3 +115,34 @@ def test_build_related_block_returns_string(tmp_path):
     result = mod._build_related_block(related, tmp_path)
     assert isinstance(result, str)
     assert "Связанные" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # dry-run → must not raise
+
+
+def test_main_dry_run_with_files(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    (tmp_path / "a.md").write_text("# AgentFS\n\nMemory and agent systems.", encoding="utf-8")
+    (tmp_path / "b.md").write_text("# Yodoca\n\nMemory consolidation agent.", encoding="utf-8")
+    mod.main()  # must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # must not raise

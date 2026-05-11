@@ -139,3 +139,40 @@ def test_estimate_reading_time_en_words():
     result = mod.estimate_reading_time(_LONG_EN)
     if result:
         assert result["en_words"] > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_reading_time_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "READING_TIME.md").exists()
+
+
+def test_main_reading_time_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent about AgentFS knowledge.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "READING_TIME.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "READING_TIME.md").exists()
+
+
+def test_main_reading_time_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "READING_TIME.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
