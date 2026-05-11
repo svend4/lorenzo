@@ -60,3 +60,14 @@
 # Запуск
 python scripts/improve_authors.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [LINKS](LINKS.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [authors-by-name](glossary/authors-by-name.md)
+

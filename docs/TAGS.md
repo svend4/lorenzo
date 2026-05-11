@@ -247,3 +247,14 @@
 # Запуск
 python scripts/improve_tags.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [STALENESS](STALENESS.md)
+- [GLOSSARY](GLOSSARY.md)
+- [STATS](STATS.md)
+- [SENTIMENT](SENTIMENT.md)
+

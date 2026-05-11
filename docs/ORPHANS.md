@@ -1,7 +1,7 @@
 # Изолированные документы (Orphans)
 
 > [!NOTE]
-> Раздел `ORPHANS` автоматически формируется из данных репозитория.
+> Раздел `ORPHANS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 <!-- tags: orphans, docs -->
@@ -30,20 +30,8 @@ _Эти документы не связаны с остальными — их 
 3. Крупные изолированные файлы (>100 слов) — добавить в READING_ORDER.md
 4. Мелкие (<50 слов) — рассмотреть для удаления или слияния
 
-<!-- backlinks -->
 
----
-
-**Кто ссылается на этот документ (8):**
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Изолированные документы (Orphans)». Формируется автоматически.
 
 
 ## Использование
@@ -51,3 +39,21 @@ _Эти документы не связаны с остальными — их 
 # Запуск
 python scripts/improve_orphans.py
 ```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ALERTS](ALERTS.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [HEATMAP](HEATMAP.md)
+

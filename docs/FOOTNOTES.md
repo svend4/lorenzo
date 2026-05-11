@@ -2,16 +2,16 @@
 
 <!-- toc-auto -->
 
-<!-- tags: footnotes, docs, analysis, svyazi -->
 > [!NOTE]
-> Документ `FOOTNOTES` автоматически формируется из данных репозитория. Для актуализации запустите соответствующий скрипт.
+> Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-
+<!-- tags: footnotes, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `FOOTNOTES`. Содержит аналитику и структурированные данные по разделу.
+> `FOOTNOTES` — раздел документации проекта Lorenzo.
+
 
 **Обновлено файлов:** 3  **Вставлено сносок:** 13
 
@@ -47,13 +47,6 @@
 [^mcp]: Model Context Protocol — протокол для AI-инструментов
 ```
 
-## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
-
 <!-- see-also -->
 
 ---
@@ -62,20 +55,5 @@
 - [01-executive-summary](04-ai-collaborations/01-executive-summary.md)
 - [08-conclusions](01-svyazi/08-conclusions.md)
 - [07-выводы](04-ai-collaborations/07-выводы.md)
-- [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [08-conclusions](01-svyazi/08-conclusions.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- [ONBOARDING](ONBOARDING.md)
 

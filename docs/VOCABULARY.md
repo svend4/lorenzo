@@ -146,3 +146,14 @@ python scripts/improve_vocabulary.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+

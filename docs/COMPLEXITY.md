@@ -93,3 +93,14 @@ python scripts/improve_complexity.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [VOCABULARY](VOCABULARY.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [SENTIMENT](SENTIMENT.md)
+

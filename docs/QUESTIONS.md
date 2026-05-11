@@ -381,3 +381,14 @@ python scripts/improve_questions.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [FAQ](FAQ.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [13-contacts](01-svyazi/13-contacts.md)
+- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
+

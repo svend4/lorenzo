@@ -1,17 +1,15 @@
 # Майндмап репозитория Lorenzo
 
-<!-- toc-auto -->
-
-<!-- tags: mindmap, docs, analysis, svyazi -->
 > [!NOTE]
-> Документ `MINDMAP` автоматически формируется из данных репозитория. Для актуализации запустите соответствующий скрипт.
+> Раздел `MINDMAP` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-
+<!-- tags: mindmap, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `MINDMAP`. Содержит аналитику и структурированные данные по разделу.
+> `MINDMAP` — раздел документации проекта Lorenzo.
+
 
 ## Структура разделов
 
@@ -64,7 +62,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge-space[knowledge-space]
+    knowledge_space[knowledge space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -88,14 +86,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge-space
+  AgentFS -->|reference| knowledge_space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improvement| AutoResearch
+  Rufler -->|self-improve| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```
@@ -112,13 +110,6 @@ flowchart LR
 | Security | LiteLLM, SENTINEL, Tool Search, Auto AI Router |
 | Sync | Yjs, Automerge |
 
-## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
-
 <!-- see-also -->
 
 ---
@@ -126,22 +117,6 @@ flowchart LR
 **Смотрите также:**
 - [GLOSSARY](GLOSSARY.md)
 - [NETWORK](NETWORK.md)
-- [GRAPH](GRAPH.md)
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
 - [GRAPH](GRAPH.md)
-- [NETWORK](NETWORK.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
 

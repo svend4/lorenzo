@@ -82,3 +82,14 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](DENSITY.md)
+- [SENTIMENT](SENTIMENT.md)
+- [ORPHANS](ORPHANS.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+

@@ -94,3 +94,14 @@ cat docs/contacts/anastasiyaw.md
 - [READING_TIME](READING_TIME.md)
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [ONBOARDING](ONBOARDING.md)
+- [TAGS](TAGS.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+

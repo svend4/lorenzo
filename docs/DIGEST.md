@@ -95,3 +95,14 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_digest.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [READING_LIST](READING_LIST.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+

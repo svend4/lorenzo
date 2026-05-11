@@ -1865,3 +1865,14 @@ python scripts/improve_source_map.py --section 01-svyazi
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

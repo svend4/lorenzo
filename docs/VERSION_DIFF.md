@@ -1610,3 +1610,14 @@ python scripts/improve_version_diff.py --section 01-svyazi
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

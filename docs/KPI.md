@@ -1,4 +1,9 @@
 # Числовые KPI и метрики
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 <!-- tags: kpi, docs -->
 
 
@@ -217,3 +222,14 @@ python scripts/improve_kpi.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TIMELINE](TIMELINE.md)
+- [TABLES](TABLES.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [CLUSTERS](CLUSTERS.md)
+

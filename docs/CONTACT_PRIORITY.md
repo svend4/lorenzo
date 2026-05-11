@@ -72,3 +72,14 @@ _Чем выше балл — тем важнее написать первым.
 - [SEARCH](SEARCH.md)
 - _...ещё 5_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [AUTHORS](AUTHORS.md)
+- [CONTACTS](CONTACTS.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [GLOSSARY](GLOSSARY.md)
+

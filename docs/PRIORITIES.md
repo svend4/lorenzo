@@ -886,3 +886,14 @@ python scripts/improve_priorities.py --dry-run
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

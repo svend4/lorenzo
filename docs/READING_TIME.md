@@ -2517,3 +2517,14 @@ python scripts/improve_reading_time.py --section 01-svyazi
 - [197-7-управление-и-надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md)
 - _...ещё 1201_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

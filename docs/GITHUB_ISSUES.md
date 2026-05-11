@@ -692,3 +692,14 @@ python scripts/improve_github_issues.py
 - [TABLES](TABLES.md)
 - [10-checklist](nautilus/review-methodology/10-checklist.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-checklist](nautilus/review-methodology/10-checklist.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [WORD_FREQ](WORD_FREQ.md)
+- [DUPLICATES](DUPLICATES.md)
+

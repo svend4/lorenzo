@@ -169,3 +169,14 @@ _Индекс сгенерирован автоматически · 2451 док
 - [READABILITY](READABILITY.md)
 - _...ещё 6_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [TAGS](TAGS.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [WORD_FREQ](WORD_FREQ.md)
+

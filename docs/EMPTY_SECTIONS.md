@@ -7665,3 +7665,14 @@ python scripts/improve_empty_sections.py --dry-run
 # Вариант 3
 python scripts/improve_empty_sections.py --dry-run
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+

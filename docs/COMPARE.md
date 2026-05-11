@@ -122,3 +122,14 @@ _...и ещё 947_
 # Запуск
 python scripts/improve_compare.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [190-содержание](02-anthropic-vacancies/190-содержание.md)
+- [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md)
+

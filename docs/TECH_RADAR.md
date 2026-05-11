@@ -136,3 +136,14 @@ _Radar обновляется вручную при существенных и�
 - [SEARCH](SEARCH.md)
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [WORD_FREQ](WORD_FREQ.md)
+- [GLOSSARY](GLOSSARY.md)
+

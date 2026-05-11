@@ -156,3 +156,14 @@ python scripts/improve_digest_auto.py
 - [TABLES](TABLES.md)
 - _...ещё 2_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST](DIGEST.md)
+- [METRICS](METRICS.md)
+- [STALENESS](STALENESS.md)
+- [READING_LIST](READING_LIST.md)
+

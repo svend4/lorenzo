@@ -149,3 +149,14 @@
 # Запуск
 python scripts/improve_entities.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [NETWORK](NETWORK.md)
+- [GLOSSARY](GLOSSARY.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+

@@ -240,3 +240,14 @@
 # Запуск
 python scripts/improve_links.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [AUTHORS](AUTHORS.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+

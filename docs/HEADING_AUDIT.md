@@ -7339,3 +7339,14 @@ python scripts/improve_heading_audit.py
 # Вариант 2
 python scripts/improve_heading_audit.py --dry-run
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

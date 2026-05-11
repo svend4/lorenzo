@@ -2,16 +2,16 @@
 
 <!-- toc-auto -->
 
-<!-- tags: spellcheck, docs, analysis, svyazi -->
 > [!NOTE]
-> Документ `SPELLCHECK` автоматически формируется из данных репозитория. Для актуализации запустите соответствующий скрипт.
+> Раздел `SPELLCHECK` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-
+<!-- tags: spellcheck, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `SPELLCHECK`. Содержит аналитику и структурированные данные по разделу.
+> `SPELLCHECK` — раздел документации проекта Lorenzo.
+
 
 _Обновлено: 2026-05-11_
 
@@ -233,31 +233,19 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 Известных пар опечатка→исправление: **31**
 
 ## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
+- [Сущности](ENTITIES.md)
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [PRIORITIES](PRIORITIES.md)
+- [SENTIMENT](SENTIMENT.md)
+- [HEATMAP](HEATMAP.md)
 - [CONSISTENCY](CONSISTENCY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (5):**
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
 

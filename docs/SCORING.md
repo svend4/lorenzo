@@ -93,3 +93,14 @@ _Дата: 2026-05-11_
 # Запуск
 python scripts/improve_scoring.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COVERAGE](COVERAGE.md)
+- [SCHEDULE](SCHEDULE.md)
+- [TAGS](TAGS.md)
+- [DENSITY](DENSITY.md)
+

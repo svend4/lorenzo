@@ -452,3 +452,21 @@ python scripts/improve_contradictions.py
 - [SEARCH](SEARCH.md)
 - _...ещё 2_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- [PRIORITIES](PRIORITIES.md)
+- [WORD_FREQ](WORD_FREQ.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_contradictions.py
+```

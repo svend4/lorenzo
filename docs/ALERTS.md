@@ -1,18 +1,18 @@
 # Callout-блоки
-
-<!-- tags: alerts, docs, analysis, svyazi -->
+<!-- tags: alerts, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `ALERTS`. Содержит аналитику и структурированные данные по разделу.
+> `ALERTS` — раздел документации проекта Lorenzo.
 
-Добавлено **47** callout-блоков в документы.
+
+Добавлено **8** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
 |-----|------------|------------|
-| `[!NOTE]` | 18 | Нейтральная заметка |
-| `[!TIP]` | 24 | Практический совет |
-| `[!WARNING]` | 5 | Предупреждение о риске |
+| `[!NOTE]` | 3 | Нейтральная заметка |
+| `[!TIP]` | 5 | Практический совет |
+| `[!WARNING]` | 0 | Предупреждение о риске |
 | `[!IMPORTANT]` | 0 | Ключевой документ |
 
 ## Пример синтаксиса
@@ -33,24 +33,23 @@
 
 _Поддерживается в GitHub Markdown с 2023 года._
 
-## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
 
-<!-- backlinks -->
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Callout-блоки». Формируется автоматически.
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+
+<!-- see-also -->
 
 ---
 
-**Кто ссылается на этот документ (8):**
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+**Смотрите также:**
+- [ORPHANS](ORPHANS.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [DENSITY](DENSITY.md)
+- [HEATMAP](HEATMAP.md)
 

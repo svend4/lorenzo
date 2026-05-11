@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **206**  
-Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 33 | 📝 docs: 23 | ⚡ improve: 15
+Всего коммитов: **207**  
+Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -16,10 +16,12 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (1 коммитов)
+## 2026-05-11 (2 коммитов)
 
 ### 🐛 Исправления
 
+- restore 100.0/100 and 0 broken links after second pipeline run _728700c0_
+  > - Fix improve_scripts_catalog.py: escape markdown links in docstring descriptions
 - restore 100.0/100 quality score and 0 broken links after pipeline run _c02dda87_
   > - Fix improve_timeline.py: strip markdown links from context text, use DOCS-relative paths
 

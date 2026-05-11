@@ -1,5 +1,11 @@
 # Глоссарий понятий
 
+<!-- toc-auto -->
+
+<!-- summary -->
+> `CONCEPTS` — раздел документации проекта Lorenzo.
+
+
 > [!NOTE]
 > Документ `CONCEPTS.md` автоматически формируется из данных репозитория.
 
@@ -4773,4 +4779,50 @@ _Определения извлечены автоматически из до�
 **Ясный спрос**
 : Автор лично нуждается в этом  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_concepts.py
+```
+```bash
+# Вариант 2
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_concepts.py --dry-run
+```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TABLES](TABLES.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 

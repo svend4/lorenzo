@@ -1,19 +1,9 @@
 # Читаемость документов (Flesch-Kincaid)
 
-<!-- toc -->
-## Содержание
-
-- [Все документы](#все-документы)
-- [Самые сложные тексты (2412) — рекомендуется упростить](#самые-сложные-тексты-2412-рекомендуется-упростить)
-- [Использование](#использование)
-
----
-
-
 <!-- toc-auto -->
 
 <!-- summary -->
-> Средний индекс FRE: **1.6/100** по 2449 документам
+> Средний индекс FRE: **1.2/100** по 2449 документам
 
 <!-- tags: quality, readability, metrics, documentation -->
 
@@ -24,7 +14,7 @@
 
 _Обновлено: 2026-05-11_
 
-Средний индекс FRE: **1.6/100**
+Средний индекс FRE: **1.2/100**
 
 ## Все документы
 
@@ -44,7 +34,7 @@ _Обновлено: 2026-05-11_
 | [12-roadmap](01-svyazi/12-roadmap.md) | 0 | 🔴 Очень сложный | 776 | 55 | 14.1 |
 | [13-contacts](01-svyazi/13-contacts.md) | 0 | 🔴 Очень сложный | 1163 | 116 | 10.0 |
 | [14-limitations](01-svyazi/14-limitations.md) | 0 | 🔴 Очень сложный | 795 | 59 | 13.5 |
-| [QA](01-svyazi/QA.md) | 0 | 🔴 Очень сложный | 225 | 27 | 8.3 |
+| [QA](01-svyazi/QA.md) | 0 | 🔴 Очень сложный | 217 | 25 | 8.7 |
 | [README](01-svyazi/README.md) | 0 | 🔴 Очень сложный | 395 | 53 | 7.5 |
 | [00-intro](02-anthropic-vacancies/00-intro.md) | 0 | 🔴 Очень сложный | 7932 | 553 | 14.3 |
 | [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | 0 | 🔴 Очень сложный | 17436 | 1353 | 12.9 |
@@ -358,13 +348,13 @@ _Обновлено: 2026-05-11_
 | [96-21-adr-003-five-onboarding-paths-as-equal-](02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) | 0 | 🔴 Очень сложный | 319 | 36 | 8.9 |
 | [97-22-glossary-of-reference-examples](02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) | 0 | 🔴 Очень сложный | 288 | 34 | 8.5 |
 | [98-appendix-a-minimal-working-example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | 0 | 🔴 Очень сложный | 284 | 50 | 5.7 |
-| [QA](02-anthropic-vacancies/QA.md) | 0 | 🔴 Очень сложный | 338 | 36 | 9.4 |
+| [QA](02-anthropic-vacancies/QA.md) | 0 | 🔴 Очень сложный | 335 | 36 | 9.3 |
 | [01-agent-routing](03-technology-combinations/01-agent-routing.md) | 0 | 🔴 Очень сложный | 364 | 38 | 9.6 |
 | [02-knowledge-graphs](03-technology-combinations/02-knowledge-graphs.md) | 0 | 🔴 Очень сложный | 737 | 61 | 12.1 |
 | [03-local-first](03-technology-combinations/03-local-first.md) | 0 | 🔴 Очень сложный | 505 | 61 | 8.3 |
 | [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md) | 0 | 🔴 Очень сложный | 295 | 37 | 8.0 |
 | [05-benchmarks](03-technology-combinations/05-benchmarks.md) | 0 | 🔴 Очень сложный | 845 | 55 | 15.4 |
-| [QA](03-technology-combinations/QA.md) | 0 | 🔴 Очень сложный | 124 | 27 | 4.6 |
+| [QA](03-technology-combinations/QA.md) | 0 | 🔴 Очень сложный | 121 | 27 | 4.5 |
 | [README](03-technology-combinations/README.md) | 0 | 🔴 Очень сложный | 255 | 34 | 7.5 |
 | [00-intro](04-ai-collaborations/00-intro.md) | 0 | 🔴 Очень сложный | 10758 | 696 | 15.5 |
 | [01-executive-summary](04-ai-collaborations/01-executive-summary.md) | 0 | 🔴 Очень сложный | 691 | 43 | 16.1 |
@@ -381,118 +371,119 @@ _Обновлено: 2026-05-11_
 | [12-дорожная-карта-прототипа-следующей-итераци](04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | 0 | 🔴 Очень сложный | 768 | 56 | 13.7 |
 | [13-контактная-стратегия-и-узкие-вопросы-для-а](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) | 0 | 🔴 Очень сложный | 913 | 67 | 13.6 |
 | [14-ограничения-лицензии-и-что-пока-лучше-не-с](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 0 | 🔴 Очень сложный | 3232 | 234 | 13.8 |
-| [QA](04-ai-collaborations/QA.md) | 0 | 🔴 Очень сложный | 260 | 28 | 9.3 |
+| [QA](04-ai-collaborations/QA.md) | 0 | 🔴 Очень сложный | 257 | 28 | 9.2 |
 | [README](04-ai-collaborations/README.md) | 0 | 🔴 Очень сложный | 489 | 57 | 8.6 |
 | [01-synthesis](05-habr-projects/01-synthesis.md) | 0 | 🔴 Очень сложный | 301 | 35 | 8.6 |
 | [02-collaboration-partners](05-habr-projects/02-collaboration-partners.md) | 0 | 🔴 Очень сложный | 252 | 17 | 14.8 |
-| [QA](05-habr-projects/QA.md) | 0 | 🔴 Очень сложный | 187 | 26 | 7.2 |
-| [README](05-habr-projects/README.md) | 0 | 🔴 Очень сложный | 240 | 32 | 7.5 |
-| [README](05-habr-projects/knowledge/README.md) | 0 | 🔴 Очень сложный | 280 | 41 | 6.8 |
+| [QA](05-habr-projects/QA.md) | 0 | 🔴 Очень сложный | 184 | 26 | 7.1 |
+| [README](05-habr-projects/README.md) | 0 | 🔴 Очень сложный | 244 | 33 | 7.4 |
+| [README](05-habr-projects/knowledge/README.md) | 0 | 🔴 Очень сложный | 284 | 42 | 6.8 |
 | [agentfs](05-habr-projects/knowledge/agentfs.md) | 0 | 🔴 Очень сложный | 502 | 35 | 14.3 |
 | [knowledge-space](05-habr-projects/knowledge/knowledge-space.md) | 0 | 🔴 Очень сложный | 540 | 35 | 15.4 |
 | [mclaude](05-habr-projects/knowledge/mclaude.md) | 0 | 🔴 Очень сложный | 565 | 38 | 14.9 |
 | [research-docs-liteparse](05-habr-projects/knowledge/research-docs-liteparse.md) | 0 | 🔴 Очень сложный | 516 | 39 | 13.2 |
 | [rufler](05-habr-projects/knowledge/rufler.md) | 0 | 🔴 Очень сложный | 534 | 34 | 15.7 |
 | [wikontic](05-habr-projects/knowledge/wikontic.md) | 0 | 🔴 Очень сложный | 347 | 56 | 6.2 |
-| [README](05-habr-projects/memory/README.md) | 0 | 🔴 Очень сложный | 301 | 39 | 7.7 |
+| [README](05-habr-projects/memory/README.md) | 0 | 🔴 Очень сложный | 305 | 40 | 7.6 |
 | [agent-memory-mcp](05-habr-projects/memory/agent-memory-mcp.md) | 0 | 🔴 Очень сложный | 574 | 43 | 13.3 |
 | [memnet](05-habr-projects/memory/memnet.md) | 0 | 🔴 Очень сложный | 6735 | 461 | 14.6 |
 | [ngt-memory](05-habr-projects/memory/ngt-memory.md) | 0 | 🔴 Очень сложный | 371 | 33 | 11.2 |
 | [yodoca](05-habr-projects/memory/yodoca.md) | 0 | 🔴 Очень сложный | 350 | 57 | 6.1 |
 | [ABBREVIATIONS](ABBREVIATIONS.md) | 0 | 🔴 Очень сложный | 990 | 7 | 141.4 |
-| [ACTION_ITEMS](ACTION_ITEMS.md) | 0 | 🔴 Очень сложный | 3728 | 218 | 17.1 |
+| [ACTION_ITEMS](ACTION_ITEMS.md) | 0 | 🔴 Очень сложный | 3737 | 228 | 16.4 |
 | [ALERTS](ALERTS.md) | 0 | 🔴 Очень сложный | 23 | 2 | 11.5 |
-| [AUTHORS](AUTHORS.md) | 0 | 🔴 Очень сложный | 81 | 11 | 7.4 |
+| [AUTHORS](AUTHORS.md) | 0 | 🔴 Очень сложный | 77 | 11 | 7.0 |
 | [AUTOFILLED](AUTOFILLED.md) | 0 | 🔴 Очень сложный | 311 | 57 | 5.5 |
-| [BACKLINKS](BACKLINKS.md) | 0 | 🔴 Очень сложный | 68 | 5 | 13.6 |
+| [BACKLINKS](BACKLINKS.md) | 0 | 🔴 Очень сложный | 85 | 9 | 9.4 |
+| [BADGES](BADGES.md) | 0 | 🔴 Очень сложный | 78 | 18 | 4.3 |
 | [BROKEN_LINKS](BROKEN_LINKS.md) | 0 | 🔴 Очень сложный | 168 | 17 | 9.9 |
 | [CHANGELOG_AUTO](CHANGELOG_AUTO.md) | 0 | 🔴 Очень сложный | 517 | 37 | 14.0 |
 | [CLUSTERS](CLUSTERS.md) | 0 | 🔴 Очень сложный | 2970 | 26 | 114.2 |
 | [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md) | 0 | 🔴 Очень сложный | 417 | 55 | 7.6 |
-| [COMPLEXITY](COMPLEXITY.md) | 0 | 🔴 Очень сложный | 96 | 31 | 3.1 |
+| [COMPLEXITY](COMPLEXITY.md) | 0 | 🔴 Очень сложный | 113 | 35 | 3.2 |
 | [COMPONENT_MATRIX](COMPONENT_MATRIX.md) | 0 | 🔴 Очень сложный | 405 | 35 | 11.6 |
-| [CONCEPTS](CONCEPTS.md) | 0 | 🔴 Очень сложный | 13111 | 703 | 18.7 |
-| [CONCEPT_GRAPH](CONCEPT_GRAPH.md) | 0 | 🔴 Очень сложный | 136 | 14 | 9.7 |
-| [CONTACTS](CONTACTS.md) | 0 | 🔴 Очень сложный | 252 | 19 | 13.3 |
-| [CONTACT_PRIORITY](CONTACT_PRIORITY.md) | 0 | 🔴 Очень сложный | 199 | 17 | 11.7 |
-| [CONTENT_GAPS](CONTENT_GAPS.md) | 0 | 🔴 Очень сложный | 280 | 35 | 8.0 |
-| [CONTRADICTIONS](CONTRADICTIONS.md) | 0 | 🔴 Очень сложный | 956 | 194 | 4.9 |
-| [COST](COST.md) | 0 | 🔴 Очень сложный | 227 | 14 | 16.2 |
-| [COVERAGE](COVERAGE.md) | 0 | 🔴 Очень сложный | 67 | 10 | 6.7 |
-| [CROSSREFS](CROSSREFS.md) | 0 | 🔴 Очень сложный | 245 | 6 | 40.8 |
-| [DECISIONS](DECISIONS.md) | 0 | 🔴 Очень сложный | 1328 | 83 | 16.0 |
-| [DENSITY](DENSITY.md) | 0 | 🔴 Очень сложный | 107 | 5 | 21.4 |
-| [DEPENDABOT](DEPENDABOT.md) | 0 | 🔴 Очень сложный | 231 | 32 | 7.2 |
+| [CONCEPTS](CONCEPTS.md) | 0 | 🔴 Очень сложный | 13127 | 703 | 18.7 |
+| [CONTACTS](CONTACTS.md) | 0 | 🔴 Очень сложный | 250 | 18 | 13.9 |
+| [CONTACT_PRIORITY](CONTACT_PRIORITY.md) | 0 | 🔴 Очень сложный | 195 | 16 | 12.2 |
+| [CONTENT_GAPS](CONTENT_GAPS.md) | 0 | 🔴 Очень сложный | 299 | 42 | 7.1 |
+| [CONTRADICTIONS](CONTRADICTIONS.md) | 0 | 🔴 Очень сложный | 1205 | 198 | 6.1 |
+| [COST](COST.md) | 0 | 🔴 Очень сложный | 224 | 14 | 16.0 |
+| [COVERAGE](COVERAGE.md) | 0 | 🔴 Очень сложный | 63 | 9 | 7.0 |
+| [CROSSREFS](CROSSREFS.md) | 0 | 🔴 Очень сложный | 263 | 10 | 26.3 |
+| [DECISIONS](DECISIONS.md) | 0 | 🔴 Очень сложный | 1329 | 83 | 16.0 |
+| [DENSITY](DENSITY.md) | 0 | 🔴 Очень сложный | 125 | 9 | 13.9 |
+| [DEPENDABOT](DEPENDABOT.md) | 0 | 🔴 Очень сложный | 71 | 13 | 5.5 |
 | [DEPENDENCY_MAP](DEPENDENCY_MAP.md) | 0 | 🔴 Очень сложный | 117 | 16 | 7.3 |
-| [DIGEST_AUTO](DIGEST_AUTO.md) | 0 | 🔴 Очень сложный | 314 | 39 | 8.1 |
 | [DIGEST_WEEKLY](DIGEST_WEEKLY.md) | 0 | 🔴 Очень сложный | 118 | 16 | 7.4 |
-| [DUPLICATES](DUPLICATES.md) | 0 | 🔴 Очень сложный | 1284 | 95 | 13.5 |
-| [ENTITIES](ENTITIES.md) | 0 | 🔴 Очень сложный | 154 | 4 | 38.5 |
-| [FAQ](FAQ.md) | 0 | 🔴 Очень сложный | 1330 | 151 | 8.8 |
-| [FOOTNOTES](FOOTNOTES.md) | 0 | 🔴 Очень сложный | 230 | 17 | 13.5 |
-| [GITHUB_ISSUES](GITHUB_ISSUES.md) | 0 | 🔴 Очень сложный | 1575 | 68 | 23.2 |
-| [GLOSSARY](GLOSSARY.md) | 0 | 🔴 Очень сложный | 103 | 9 | 11.4 |
-| [GRAPH](GRAPH.md) | 0 | 🔴 Очень сложный | 161 | 15 | 10.7 |
-| [HEADING_AUDIT](HEADING_AUDIT.md) | 0 | 🔴 Очень сложный | 11454 | 22 | 520.6 |
+| [ENTITIES](ENTITIES.md) | 0 | 🔴 Очень сложный | 159 | 4 | 39.8 |
+| [FAQ](FAQ.md) | 0 | 🔴 Очень сложный | 1442 | 166 | 8.7 |
+| [FOOTNOTES](FOOTNOTES.md) | 0 | 🔴 Очень сложный | 251 | 25 | 10.0 |
+| [GITHUB_ISSUES](GITHUB_ISSUES.md) | 0 | 🔴 Очень сложный | 1560 | 69 | 22.6 |
+| [GLOSSARY](GLOSSARY.md) | 0 | 🔴 Очень сложный | 115 | 13 | 8.8 |
+| [GRAPH](GRAPH.md) | 0 | 🔴 Очень сложный | 192 | 25 | 7.7 |
+| [HEADING_AUDIT](HEADING_AUDIT.md) | 0 | 🔴 Очень сложный | 11500 | 23 | 500.0 |
 | [HEALTH](HEALTH.md) | 0 | 🔴 Очень сложный | 157 | 16 | 9.8 |
-| [HEATMAP](HEATMAP.md) | 0 | 🔴 Очень сложный | 106 | 33 | 3.2 |
-| [INDEX](INDEX.md) | 0 | 🔴 Очень сложный | 463 | 66 | 7.0 |
+| [HEATMAP](HEATMAP.md) | 0 | 🔴 Очень сложный | 123 | 38 | 3.2 |
+| [INDEX](INDEX.md) | 0 | 🔴 Очень сложный | 446 | 66 | 6.8 |
 | [KEYWORD_INDEX](KEYWORD_INDEX.md) | 0 | 🔴 Очень сложный | 307 | 25 | 12.3 |
-| [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md) | 0 | 🔴 Очень сложный | 231 | 27 | 8.6 |
-| [KPI](KPI.md) | 0 | 🔴 Очень сложный | 1165 | 114 | 10.2 |
-| [KPI_HISTORY](KPI_HISTORY.md) | 0 | 🔴 Очень сложный | 239 | 34 | 7.0 |
-| [LINKS](LINKS.md) | 0 | 🔴 Очень сложный | 57 | 10 | 5.7 |
+| [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md) | 0 | 🔴 Очень сложный | 218 | 28 | 7.8 |
+| [KPI](KPI.md) | 0 | 🔴 Очень сложный | 1193 | 122 | 9.8 |
+| [KPI_HISTORY](KPI_HISTORY.md) | 0 | 🔴 Очень сложный | 103 | 18 | 5.7 |
+| [LINKS](LINKS.md) | 0 | 🔴 Очень сложный | 62 | 12 | 5.2 |
 | [LLM_SUMMARIES](LLM_SUMMARIES.md) | 0 | 🔴 Очень сложный | 328 | 61 | 5.4 |
-| [MCP_DASHBOARD](MCP_DASHBOARD.md) | 0 | 🔴 Очень сложный | 328 | 48 | 6.8 |
+| [MCP_DASHBOARD](MCP_DASHBOARD.md) | 0 | 🔴 Очень сложный | 112 | 23 | 4.9 |
 | [METHODOLOGY](METHODOLOGY.md) | 0 | 🔴 Очень сложный | 560 | 49 | 11.4 |
-| [MINDMAP](MINDMAP.md) | 0 | 🔴 Очень сложный | 165 | 20 | 8.2 |
+| [METRICS](METRICS.md) | 0 | 🔴 Очень сложный | 101 | 20 | 5.0 |
+| [MINDMAP](MINDMAP.md) | 0 | 🔴 Очень сложный | 144 | 22 | 6.5 |
 | [MISSING](MISSING.md) | 0 | 🔴 Очень сложный | 109 | 5 | 21.8 |
-| [NARRATIVE](NARRATIVE.md) | 0 | 🔴 Очень сложный | 949 | 63 | 15.1 |
-| [NETWORK](NETWORK.md) | 0 | 🔴 Очень сложный | 222 | 14 | 15.9 |
-| [ONBOARDING](ONBOARDING.md) | 0 | 🔴 Очень сложный | 301 | 32 | 9.4 |
+| [NARRATIVE](NARRATIVE.md) | 0 | 🔴 Очень сложный | 966 | 68 | 14.2 |
+| [NETWORK](NETWORK.md) | 0 | 🔴 Очень сложный | 243 | 22 | 11.0 |
+| [ONBOARDING](ONBOARDING.md) | 0 | 🔴 Очень сложный | 256 | 31 | 8.3 |
 | [ORPHANS](ORPHANS.md) | 0 | 🔴 Очень сложный | 61 | 8 | 7.6 |
-| [OUTLINE](OUTLINE.md) | 0 | 🔴 Очень сложный | 56026 | 4126 | 13.6 |
-| [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) | 0 | 🔴 Очень сложный | 13402 | 27 | 496.4 |
-| [PASSIVE_VOICE](PASSIVE_VOICE.md) | 0 | 🔴 Очень сложный | 146 | 16 | 9.1 |
-| [PROGRESS](PROGRESS.md) | 0 | 🔴 Очень сложный | 257 | 25 | 10.3 |
+| [OUTLINE](OUTLINE.md) | 0 | 🔴 Очень сложный | 56164 | 4153 | 13.5 |
+| [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) | 0 | 🔴 Очень сложный | 13389 | 28 | 478.2 |
+| [PASSIVE_VOICE](PASSIVE_VOICE.md) | 0 | 🔴 Очень сложный | 142 | 19 | 7.5 |
+| [PROGRESS](PROGRESS.md) | 0 | 🔴 Очень сложный | 253 | 24 | 10.5 |
 | [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md) | 0 | 🔴 Очень сложный | 818 | 77 | 10.6 |
-| [QA](QA.md) | 0 | 🔴 Очень сложный | 3386 | 314 | 10.8 |
-| [QUESTIONS](QUESTIONS.md) | 0 | 🔴 Очень сложный | 1676 | 130 | 12.9 |
+| [QA](QA.md) | 0 | 🔴 Очень сложный | 3383 | 314 | 10.8 |
+| [QUESTIONS](QUESTIONS.md) | 0 | 🔴 Очень сложный | 1704 | 136 | 12.5 |
 | [READING_LIST](READING_LIST.md) | 0 | 🔴 Очень сложный | 300 | 49 | 6.1 |
-| [READING_ORDER](READING_ORDER.md) | 0 | 🔴 Очень сложный | 4359 | 599 | 7.3 |
-| [READING_TIME](READING_TIME.md) | 0 | 🔴 Очень сложный | 26979 | 2405 | 11.2 |
-| [REGISTRY](REGISTRY.md) | 0 | 🔴 Очень сложный | 966 | 91 | 10.6 |
-| [REPORT](REPORT.md) | 0 | 🔴 Очень сложный | 241 | 41 | 5.9 |
-| [RISK_REGISTER](RISK_REGISTER.md) | 0 | 🔴 Очень сложный | 481 | 36 | 13.4 |
-| [SCHEDULE](SCHEDULE.md) | 0 | 🔴 Очень сложный | 148 | 14 | 10.6 |
-| [SCORING](SCORING.md) | 0 | 🔴 Очень сложный | 150 | 12 | 12.5 |
-| [SCRIPTS_CATALOG](SCRIPTS_CATALOG.md) | 0 | 🔴 Очень сложный | 5431 | 682 | 8.0 |
+| [READING_ORDER](READING_ORDER.md) | 0 | 🔴 Очень сложный | 4354 | 599 | 7.3 |
+| [READING_TIME](READING_TIME.md) | 0 | 🔴 Очень сложный | 27017 | 2412 | 11.2 |
+| [REGISTRY](REGISTRY.md) | 0 | 🔴 Очень сложный | 953 | 92 | 10.4 |
+| [REPORT](REPORT.md) | 0 | 🔴 Очень сложный | 230 | 42 | 5.5 |
+| [RISK_REGISTER](RISK_REGISTER.md) | 0 | 🔴 Очень сложный | 461 | 31 | 14.9 |
+| [SCHEDULE](SCHEDULE.md) | 0 | 🔴 Очень сложный | 144 | 13 | 11.1 |
+| [SCORING](SCORING.md) | 0 | 🔴 Очень сложный | 157 | 13 | 12.1 |
+| [SCRIPTS_CATALOG](SCRIPTS_CATALOG.md) | 0 | 🔴 Очень сложный | 5466 | 691 | 7.9 |
 | [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md) | 0 | 🔴 Очень сложный | 1193 | 142 | 8.4 |
 | [SEARCH_RESULTS](SEARCH_RESULTS.md) | 0 | 🔴 Очень сложный | 226 | 32 | 7.1 |
-| [SEE_ALSO](SEE_ALSO.md) | 0 | 🔴 Очень сложный | 1229 | 164 | 7.5 |
-| [SENTIMENT](SENTIMENT.md) | 0 | 🔴 Очень сложный | 121 | 45 | 2.7 |
+| [SEE_ALSO](SEE_ALSO.md) | 0 | 🔴 Очень сложный | 1171 | 159 | 7.4 |
+| [SENTIMENT](SENTIMENT.md) | 0 | 🔴 Очень сложный | 139 | 49 | 2.8 |
 | [SIMILAR](SIMILAR.md) | 0 | 🔴 Очень сложный | 130 | 30 | 4.3 |
 | [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) | 0 | 🔴 Очень сложный | 1195 | 147 | 8.1 |
 | [SITEMAP](SITEMAP.md) | 0 | 🔴 Очень сложный | 8929 | 1309 | 6.8 |
-| [SKILL_DASHBOARD](SKILL_DASHBOARD.md) | 0 | 🔴 Очень сложный | 327 | 48 | 6.8 |
-| [SOURCE_MAP](SOURCE_MAP.md) | 0 | 🔴 Очень сложный | 176 | 28 | 6.3 |
+| [SKILL_DASHBOARD](SKILL_DASHBOARD.md) | 0 | 🔴 Очень сложный | 119 | 24 | 5.0 |
+| [SOURCE_MAP](SOURCE_MAP.md) | 0 | 🔴 Очень сложный | 164 | 29 | 5.7 |
 | [SPELLCHECK](SPELLCHECK.md) | 0 | 🔴 Очень сложный | 13 | 1 | 13.0 |
-| [STATS](STATS.md) | 0 | 🔴 Очень сложный | 150 | 11 | 13.6 |
+| [STATS](STATS.md) | 0 | 🔴 Очень сложный | 152 | 11 | 13.8 |
 | [SUMMARIES](SUMMARIES.md) | 0 | 🔴 Очень сложный | 3572 | 256 | 14.0 |
-| [TABLES](TABLES.md) | 0 | 🔴 Очень сложный | 91246 | 9311 | 9.8 |
+| [TABLES](TABLES.md) | 0 | 🔴 Очень сложный | 93850 | 9681 | 9.7 |
+| [TAGS](TAGS.md) | 0 | 🔴 Очень сложный | 87 | 15 | 5.8 |
 | [TASKS_INDEX](TASKS_INDEX.md) | 0 | 🔴 Очень сложный | 829 | 18 | 46.1 |
-| [TECH_RADAR](TECH_RADAR.md) | 0 | 🔴 Очень сложный | 344 | 29 | 11.9 |
-| [TIMELINE](TIMELINE.md) | 0 | 🔴 Очень сложный | 1562 | 217 | 7.2 |
+| [TECH_RADAR](TECH_RADAR.md) | 0 | 🔴 Очень сложный | 342 | 31 | 11.0 |
+| [TIMELINE](TIMELINE.md) | 0 | 🔴 Очень сложный | 1648 | 228 | 7.2 |
 | [TOPIC_MODEL](TOPIC_MODEL.md) | 0 | 🔴 Очень сложный | 619 | 19 | 32.6 |
 | [VALIDATION](VALIDATION.md) | 0 | 🔴 Очень сложный | 191 | 15 | 12.7 |
-| [VERSION_DIFF](VERSION_DIFF.md) | 0 | 🔴 Очень сложный | 6789 | 33 | 205.7 |
+| [VERSION_DIFF](VERSION_DIFF.md) | 0 | 🔴 Очень сложный | 9897 | 128 | 77.3 |
 | [WORD_CLOUD](WORD_CLOUD.md) | 0 | 🔴 Очень сложный | 220 | 25 | 8.8 |
-| [WORD_FREQ](WORD_FREQ.md) | 0 | 🔴 Очень сложный | 751 | 4 | 187.8 |
+| [WORD_FREQ](WORD_FREQ.md) | 0 | 🔴 Очень сложный | 777 | 11 | 70.6 |
 | [QA](ai-collaborations/QA.md) | 0 | 🔴 Очень сложный | 305 | 42 | 7.3 |
-| [README](ai-collaborations/README.md) | 0 | 🔴 Очень сложный | 65 | 11 | 5.9 |
+| [README](ai-collaborations/README.md) | 0 | 🔴 Очень сложный | 87 | 17 | 5.1 |
 | [01-three-key-candidates](ai-collaborations/candidates/01-three-key-candidates.md) | 0 | 🔴 Очень сложный | 360 | 36 | 10.0 |
 | [02-related-projects-context](ai-collaborations/candidates/02-related-projects-context.md) | 0 | 🔴 Очень сложный | 308 | 38 | 8.1 |
 | [03-synthesis-hebbian-collaboration-graph](ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) | 0 | 🔴 Очень сложный | 302 | 29 | 10.4 |
+| [README](ai-collaborations/candidates/README.md) | 0 | 🔴 Очень сложный | 99 | 22 | 4.5 |
 | [README](ai-collaborations/channels/README.md) | 0 | 🔴 Очень сложный | 273 | 35 | 7.8 |
 | [01-shared-memory-between-agents](ai-collaborations/continuation/01-shared-memory-between-agents.md) | 0 | 🔴 Очень сложный | 445 | 41 | 10.9 |
 | [02-agentops-trace-envelope](ai-collaborations/continuation/02-agentops-trace-envelope.md) | 0 | 🔴 Очень сложный | 423 | 41 | 10.3 |
@@ -516,8 +507,8 @@ _Обновлено: 2026-05-11_
 | [README](ai-collaborations/fast-tracks/README.md) | 0 | 🔴 Очень сложный | 369 | 34 | 10.9 |
 | [source-projects](ai-collaborations/source-projects.md) | 0 | 🔴 Очень сложный | 528 | 36 | 14.7 |
 | [README](ai-collaborations/strategy/README.md) | 0 | 🔴 Очень сложный | 282 | 37 | 7.6 |
-| [QA](anthropic-vacancies/QA.md) | 0 | 🔴 Очень сложный | 74 | 15 | 4.9 |
-| [README](anthropic-vacancies/README.md) | 0 | 🔴 Очень сложный | 130 | 18 | 7.2 |
+| [QA](anthropic-vacancies/QA.md) | 0 | 🔴 Очень сложный | 85 | 18 | 4.7 |
+| [README](anthropic-vacancies/README.md) | 0 | 🔴 Очень сложный | 156 | 25 | 6.2 |
 | [00-question-rephrasing](anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) | 0 | 🔴 Очень сложный | 893 | 48 | 18.6 |
 | [01-existing-landscape](anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) | 0 | 🔴 Очень сложный | 357 | 41 | 8.7 |
 | [02-four-structural-blockers](anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md) | 0 | 🔴 Очень сложный | 376 | 43 | 8.7 |
@@ -541,6 +532,7 @@ _Обновлено: 2026-05-11_
 | [09-section-9-timeliness](anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) | 0 | 🔴 Очень сложный | 280 | 35 | 8.0 |
 | [10-section-10-engagement-request](anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) | 0 | 🔴 Очень сложный | 285 | 27 | 10.6 |
 | [11-not-and-format](anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) | 0 | 🔴 Очень сложный | 415 | 36 | 11.5 |
+| [README](anthropic-vacancies/beneficial-deployments-concept/README.md) | 0 | 🔴 Очень сложный | 153 | 38 | 4.0 |
 | [01-ai-research-engineering](anthropic-vacancies/clusters/01-ai-research-engineering.md) | 0 | 🔴 Очень сложный | 291 | 40 | 7.3 |
 | [02-sales](anthropic-vacancies/clusters/02-sales.md) | 0 | 🔴 Очень сложный | 247 | 28 | 8.8 |
 | [03-finance](anthropic-vacancies/clusters/03-finance.md) | 0 | 🔴 Очень сложный | 284 | 38 | 7.5 |
@@ -557,6 +549,7 @@ _Обновлено: 2026-05-11_
 | [14-public-policy](anthropic-vacancies/clusters/14-public-policy.md) | 0 | 🔴 Очень сложный | 284 | 39 | 7.3 |
 | [15-public-benefit](anthropic-vacancies/clusters/15-public-benefit.md) | 0 | 🔴 Очень сложный | 285 | 39 | 7.3 |
 | [16-people](anthropic-vacancies/clusters/16-people.md) | 0 | 🔴 Очень сложный | 284 | 41 | 6.9 |
+| [README](anthropic-vacancies/clusters/README.md) | 0 | 🔴 Очень сложный | 148 | 46 | 3.2 |
 | [01-coally](anthropic-vacancies/extra-collaborator-findings/01-coally.md) | 0 | 🔴 Очень сложный | 288 | 30 | 9.6 |
 | [02-vitaly-graph-cognitive-memory](anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md) | 0 | 🔴 Очень сложный | 300 | 25 | 12.0 |
 | [03-happyin-knowledge-space](anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md) | 0 | 🔴 Очень сложный | 293 | 34 | 8.6 |
@@ -564,6 +557,7 @@ _Обновлено: 2026-05-11_
 | [05-existing-infrastructure-stack](anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md) | 0 | 🔴 Очень сложный | 292 | 37 | 7.9 |
 | [06-final-tier-ranking](anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) | 0 | 🔴 Очень сложный | 272 | 40 | 6.8 |
 | [07-key-observation](anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) | 0 | 🔴 Очень сложный | 294 | 41 | 7.2 |
+| [README](anthropic-vacancies/extra-collaborator-findings/README.md) | 0 | 🔴 Очень сложный | 126 | 31 | 4.1 |
 | [00-question-what-is-hermes](anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md) | 0 | 🔴 Очень сложный | 370 | 36 | 10.3 |
 | [01-similarity-1-composite-skills](anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md) | 0 | 🔴 Очень сложный | 275 | 39 | 7.1 |
 | [02-similarity-2-persistent-memory](anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) | 0 | 🔴 Очень сложный | 291 | 37 | 7.9 |
@@ -578,7 +572,7 @@ _Обновлено: 2026-05-11_
 | [11-pluses-of-hermes](anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md) | 0 | 🔴 Очень сложный | 292 | 50 | 5.8 |
 | [12-minuses-of-hermes](anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md) | 0 | 🔴 Очень сложный | 321 | 50 | 6.4 |
 | [13-reprioritization](anthropic-vacancies/hermes-comparison/13-reprioritization.md) | 0 | 🔴 Очень сложный | 919 | 94 | 9.8 |
-| [README](anthropic-vacancies/hermes-comparison/README.md) | 0 | 🔴 Очень сложный | 170 | 38 | 4.5 |
+| [README](anthropic-vacancies/hermes-comparison/README.md) | 0 | 🔴 Очень сложный | 182 | 42 | 4.3 |
 | [methodology](anthropic-vacancies/methodology.md) | 0 | 🔴 Очень сложный | 258 | 38 | 6.8 |
 | [00-question-mmorpg-for-programmers](anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) | 0 | 🔴 Очень сложный | 541 | 41 | 13.2 |
 | [01-why-stronger-than-it-looks](anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) | 0 | 🔴 Очень сложный | 393 | 45 | 8.7 |
@@ -590,7 +584,7 @@ _Обновлено: 2026-05-11_
 | [01-shell-metaphor-two-projections](anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) | 0 | 🔴 Очень сложный | 286 | 37 | 7.7 |
 | [02-nautilus-A-pro2-meta](anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md) | 0 | 🔴 Очень сложный | 1059 | 80 | 13.2 |
 | [03-nautilus-B-meta-orchestrator](anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) | 0 | 🔴 Очень сложный | 1059 | 84 | 12.6 |
-| [README](anthropic-vacancies/nautilus-pro2-analysis/README.md) | 0 | 🔴 Очень сложный | 84 | 18 | 4.7 |
+| [README](anthropic-vacancies/nautilus-pro2-analysis/README.md) | 0 | 🔴 Очень сложный | 111 | 25 | 4.4 |
 | [00-question-camel-vs-nautilus](anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) | 0 | 🔴 Очень сложный | 313 | 36 | 8.7 |
 | [01-passive-vs-active-roles](anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md) | 0 | 🔴 Очень сложный | 311 | 42 | 7.4 |
 | [02-what-info-repos-contain](anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) | 0 | 🔴 Очень сложный | 1106 | 93 | 11.9 |
@@ -606,16 +600,19 @@ _Обновлено: 2026-05-11_
 | [06-not-applicable-roles](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) | 0 | 🔴 Очень сложный | 296 | 39 | 7.6 |
 | [07-unique-niche-eu-legal-infra](anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md) | 0 | 🔴 Очень сложный | 288 | 37 | 7.8 |
 | [08-practical-ranking](anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) | 0 | 🔴 Очень сложный | 288 | 37 | 7.8 |
+| [README](anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | 0 | 🔴 Очень сложный | 140 | 33 | 4.2 |
 | [01-fde-downgraded](anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) | 0 | 🔴 Очень сложный | 268 | 33 | 8.1 |
 | [02-three-overlapping-identities](anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) | 0 | 🔴 Очень сложный | 288 | 37 | 7.8 |
 | [03-revised-anthropic-mapping](anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) | 0 | 🔴 Очень сложный | 298 | 40 | 7.5 |
 | [04-non-anthropic-paths](anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md) | 0 | 🔴 Очень сложный | 367 | 43 | 8.5 |
 | [05-reality-check-distribution-gap](anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) | 0 | 🔴 Очень сложный | 299 | 36 | 8.3 |
+| [README](anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | 0 | 🔴 Очень сложный | 110 | 27 | 4.1 |
 | [01-three-archetypes](anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md) | 0 | 🔴 Очень сложный | 363 | 46 | 7.9 |
 | [02-final-ranking](anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md) | 0 | 🔴 Очень сложный | 627 | 62 | 10.1 |
 | [03-partial-fit-honesty](anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md) | 0 | 🔴 Очень сложный | 292 | 39 | 7.5 |
 | [04-stronger-paths-outside-anthropic](anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) | 0 | 🔴 Очень сложный | 506 | 52 | 9.7 |
 | [05-platform-not-position](anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) | 0 | 🔴 Очень сложный | 607 | 34 | 17.9 |
+| [README](anthropic-vacancies/profile-mapping/03-integral-final/README.md) | 0 | 🔴 Очень сложный | 108 | 27 | 4.0 |
 | [README](anthropic-vacancies/profile-mapping/README.md) | 0 | 🔴 Очень сложный | 260 | 27 | 9.6 |
 | [signals](anthropic-vacancies/signals.md) | 0 | 🔴 Очень сложный | 303 | 29 | 10.4 |
 | [.md](autofilled/components/.md) | 0 | 🔴 Очень сложный | 154 | 36 | 4.3 |
@@ -623,8 +620,9 @@ _Обновлено: 2026-05-11_
 | [ingit](autofilled/components/ingit.md) | 0 | 🔴 Очень сложный | 196 | 49 | 4.0 |
 | [svend4](autofilled/components/svend4.md) | 0 | 🔴 Очень сложный | 172 | 41 | 4.2 |
 | [research-summary](autofilled/research-summary.md) | 0 | 🔴 Очень сложный | 172 | 37 | 4.6 |
-| [README](badges/README.md) | 0 | 🔴 Очень сложный | 315 | 49 | 6.4 |
-| [QA](contacts/QA.md) | 0 | 🔴 Очень сложный | 85 | 15 | 5.7 |
+| [README](badges/README.md) | 0 | 🔴 Очень сложный | 110 | 24 | 4.6 |
+| [QA](contacts/QA.md) | 0 | 🔴 Очень сложный | 95 | 18 | 5.3 |
+| [README](contacts/README.md) | 0 | 🔴 Очень сложный | 124 | 43 | 2.9 |
 | [anastasiyaw](contacts/anastasiyaw.md) | 0 | 🔴 Очень сложный | 187 | 22 | 8.5 |
 | [andrey-chuyan](contacts/andrey-chuyan.md) | 0 | 🔴 Очень сложный | 190 | 24 | 7.9 |
 | [antipozitive](contacts/antipozitive.md) | 0 | 🔴 Очень сложный | 214 | 32 | 6.7 |
@@ -640,19 +638,21 @@ _Обновлено: 2026-05-11_
 | [vitalysemenov](contacts/vitalysemenov.md) | 0 | 🔴 Очень сложный | 252 | 25 | 10.1 |
 | [vladspace](contacts/vladspace.md) | 0 | 🔴 Очень сложный | 186 | 22 | 8.5 |
 | [zodigancode](contacts/zodigancode.md) | 0 | 🔴 Очень сложный | 189 | 23 | 8.2 |
+| [README](glossary/README.md) | 0 | 🔴 Очень сложный | 93 | 22 | 4.2 |
 | [authors-by-name](glossary/authors-by-name.md) | 0 | 🔴 Очень сложный | 678 | 114 | 5.9 |
 | [components-by-name](glossary/components-by-name.md) | 0 | 🔴 Очень сложный | 2047 | 400 | 5.1 |
 | [concepts](glossary/concepts.md) | 0 | 🔴 Очень сложный | 821 | 112 | 7.3 |
 | [README](habr-unique-projects/README.md) | 0 | 🔴 Очень сложный | 273 | 18 | 15.2 |
 | [01-three-direct-analogues](habr-unique-projects/analogues/01-three-direct-analogues.md) | 0 | 🔴 Очень сложный | 409 | 36 | 11.4 |
 | [02-related-projects](habr-unique-projects/analogues/02-related-projects.md) | 0 | 🔴 Очень сложный | 392 | 31 | 12.6 |
-| [README](habr-unique-projects/analogues/README.md) | 0 | 🔴 Очень сложный | 46 | 11 | 4.2 |
+| [README](habr-unique-projects/analogues/README.md) | 0 | 🔴 Очень сложный | 90 | 19 | 4.7 |
 | [1-llm-gateway](habr-unique-projects/deep-pairs/1-llm-gateway.md) | 0 | 🔴 Очень сложный | 325 | 41 | 7.9 |
 | [2-document-rag](habr-unique-projects/deep-pairs/2-document-rag.md) | 0 | 🔴 Очень сложный | 342 | 38 | 9.0 |
 | [4-skill-catalogs-subagents](habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) | 0 | 🔴 Очень сложный | 311 | 33 | 9.4 |
 | [5-voice-local-memory](habr-unique-projects/deep-pairs/5-voice-local-memory.md) | 0 | 🔴 Очень сложный | 320 | 38 | 8.4 |
 | [6-tmux-village-openclaw](habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) | 0 | 🔴 Очень сложный | 363 | 41 | 8.9 |
 | [7-autoresearch-distributed](habr-unique-projects/deep-pairs/7-autoresearch-distributed.md) | 0 | 🔴 Очень сложный | 310 | 42 | 7.4 |
+| [README](habr-unique-projects/deep-pairs/README.md) | 0 | 🔴 Очень сложный | 132 | 32 | 4.1 |
 | [README](habr-unique-projects/evaluation/README.md) | 0 | 🔴 Очень сложный | 277 | 37 | 7.5 |
 | [00-question-habr-examples](habr-unique-projects/extra-examples/00-question-habr-examples.md) | 0 | 🔴 Очень сложный | 464 | 45 | 10.3 |
 | [01-svyazi-andrey-chuyan](habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) | 0 | 🔴 Очень сложный | 288 | 37 | 7.8 |
@@ -667,11 +667,12 @@ _Обновлено: 2026-05-11_
 | [10-profession-specific-workflows](habr-unique-projects/extra-examples/10-profession-specific-workflows.md) | 0 | 🔴 Очень сложный | 297 | 33 | 9.0 |
 | [11-concrete-potential-collaborator](habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) | 0 | 🔴 Очень сложный | 283 | 29 | 9.8 |
 | [12-concrete-next-step](habr-unique-projects/extra-examples/12-concrete-next-step.md) | 0 | 🔴 Очень сложный | 379 | 48 | 7.9 |
+| [README](habr-unique-projects/extra-examples/README.md) | 0 | 🔴 Очень сложный | 168 | 40 | 4.2 |
 | [1-one-person-one-company](habr-unique-projects/final-ensembles/1-one-person-one-company.md) | 0 | 🔴 Очень сложный | 272 | 37 | 7.4 |
 | [2-autoresearch-legal](habr-unique-projects/final-ensembles/2-autoresearch-legal.md) | 0 | 🔴 Очень сложный | 247 | 28 | 8.8 |
 | [3-discovery-research](habr-unique-projects/final-ensembles/3-discovery-research.md) | 0 | 🔴 Очень сложный | 296 | 40 | 7.4 |
 | [4-summary-authors](habr-unique-projects/final-ensembles/4-summary-authors.md) | 0 | 🔴 Очень сложный | 263 | 26 | 10.1 |
-| [README](habr-unique-projects/final-ensembles/README.md) | 0 | 🔴 Очень сложный | 64 | 17 | 3.8 |
+| [README](habr-unique-projects/final-ensembles/README.md) | 0 | 🔴 Очень сложный | 90 | 24 | 3.8 |
 | [1-neuromorphic-ssm](habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md) | 0 | 🔴 Очень сложный | 339 | 32 | 10.6 |
 | [2-tsu-mome](habr-unique-projects/hardware-pairs/2-tsu-mome.md) | 0 | 🔴 Очень сложный | 307 | 35 | 8.8 |
 | [3-zinc-hybrid-arch](habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) | 0 | 🔴 Очень сложный | 313 | 37 | 8.5 |
@@ -711,11 +712,11 @@ _Обновлено: 2026-05-11_
 | [18-escalate-to-max](lorenzo-agent/18-escalate-to-max.md) | 0 | 🔴 Очень сложный | 294 | 38 | 7.7 |
 | [19-persistent-character](lorenzo-agent/19-persistent-character.md) | 0 | 🔴 Очень сложный | 279 | 34 | 8.2 |
 | [20-experiment](lorenzo-agent/20-experiment.md) | 0 | 🔴 Очень сложный | 266 | 36 | 7.4 |
-| [QA](lorenzo-agent/QA.md) | 0 | 🔴 Очень сложный | 218 | 35 | 6.2 |
+| [QA](lorenzo-agent/QA.md) | 0 | 🔴 Очень сложный | 215 | 35 | 6.1 |
 | [01-search-results-not-found](lorenzo-agent/naming/01-search-results-not-found.md) | 0 | 🔴 Очень сложный | 338 | 31 | 10.9 |
 | [02-naming-rationale-lorenzo-medici](lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) | 0 | 🔴 Очень сложный | 1135 | 44 | 25.8 |
 | [03-dhlab-umbrella](lorenzo-agent/naming/03-dhlab-umbrella.md) | 0 | 🔴 Очень сложный | 1374 | 57 | 24.1 |
-| [README](lorenzo-agent/naming/README.md) | 0 | 🔴 Очень сложный | 85 | 18 | 4.7 |
+| [README](lorenzo-agent/naming/README.md) | 0 | 🔴 Очень сложный | 110 | 24 | 4.6 |
 | [00-overview-grandchild-combination](lorenzo-agent/operationalized/00-overview-grandchild-combination.md) | 0 | 🔴 Очень сложный | 601 | 59 | 10.2 |
 | [01-pluses-1-7](lorenzo-agent/operationalized/01-pluses-1-7.md) | 0 | 🔴 Очень сложный | 483 | 38 | 12.7 |
 | [02-minuses-1-10](lorenzo-agent/operationalized/02-minuses-1-10.md) | 0 | 🔴 Очень сложный | 720 | 52 | 13.8 |
@@ -723,7 +724,7 @@ _Обновлено: 2026-05-11_
 | [04-recommendations](lorenzo-agent/operationalized/04-recommendations.md) | 0 | 🔴 Очень сложный | 419 | 33 | 12.7 |
 | [05-anchor-node-habr-scout](lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) | 0 | 🔴 Очень сложный | 548 | 38 | 14.4 |
 | [06-conclusion-deserves-attention](lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) | 0 | 🔴 Очень сложный | 528 | 50 | 10.6 |
-| [README](lorenzo-agent/operationalized/README.md) | 0 | 🔴 Очень сложный | 82 | 25 | 3.3 |
+| [README](lorenzo-agent/operationalized/README.md) | 0 | 🔴 Очень сложный | 107 | 32 | 3.3 |
 | [00-overview](lorenzo-agent/phased-deployment/00-overview.md) | 0 | 🔴 Очень сложный | 267 | 33 | 8.1 |
 | [01-level-0-manual](lorenzo-agent/phased-deployment/01-level-0-manual.md) | 0 | 🔴 Очень сложный | 286 | 35 | 8.2 |
 | [02-level-1-minimal-zero](lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md) | 0 | 🔴 Очень сложный | 275 | 30 | 9.2 |
@@ -735,7 +736,7 @@ _Обновлено: 2026-05-11_
 | [08-current-session-poc](lorenzo-agent/phased-deployment/08-current-session-poc.md) | 0 | 🔴 Очень сложный | 742 | 41 | 18.1 |
 | [00-question-scenario](lorenzo-agent/scenarios/00-question-scenario.md) | 0 | 🔴 Очень сложный | 320 | 37 | 8.6 |
 | [01-response](lorenzo-agent/scenarios/01-response.md) | 0 | 🔴 Очень сложный | 2300 | 145 | 15.9 |
-| [README](lorenzo-agent/scenarios/README.md) | 0 | 🔴 Очень сложный | 33 | 10 | 3.3 |
+| [README](lorenzo-agent/scenarios/README.md) | 0 | 🔴 Очень сложный | 77 | 18 | 4.3 |
 | [00-context-fundamental-questions](lorenzo-agent/specification/00-context-fundamental-questions.md) | 0 | 🔴 Очень сложный | 283 | 39 | 7.3 |
 | [01-q1-what-lorenzo-is](lorenzo-agent/specification/01-q1-what-lorenzo-is.md) | 0 | 🔴 Очень сложный | 365 | 29 | 12.6 |
 | [02-q2-whom-lorenzo-serves](lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md) | 0 | 🔴 Очень сложный | 287 | 32 | 9.0 |
@@ -748,25 +749,30 @@ _Обновлено: 2026-05-11_
 | [09-q9-geographic-linguistic-scope](lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) | 0 | 🔴 Очень сложный | 287 | 34 | 8.4 |
 | [10-q10-funding-model](lorenzo-agent/specification/10-q10-funding-model.md) | 0 | 🔴 Очень сложный | 269 | 25 | 10.8 |
 | [11-difficulties-and-recommendations](lorenzo-agent/specification/11-difficulties-and-recommendations.md) | 0 | 🔴 Очень сложный | 1322 | 99 | 13.4 |
+| [README](lorenzo-agent/specification/README.md) | 0 | 🔴 Очень сложный | 139 | 38 | 3.7 |
 | [01-concept](meta-scripting/01-concept.md) | 0 | 🔴 Очень сложный | 364 | 36 | 10.1 |
 | [02-architecture](meta-scripting/02-architecture.md) | 0 | 🔴 Очень сложный | 333 | 35 | 9.5 |
 | [03-catalog](meta-scripting/03-catalog.md) | 0 | 🔴 Очень сложный | 199 | 30 | 6.6 |
 | [05-synthesis](meta-scripting/05-synthesis.md) | 0 | 🔴 Очень сложный | 337 | 39 | 8.6 |
-| [QA](meta-scripting/QA.md) | 0 | 🔴 Очень сложный | 92 | 23 | 4.0 |
+| [QA](meta-scripting/QA.md) | 0 | 🔴 Очень сложный | 89 | 23 | 3.9 |
+| [README](meta-scripting/README.md) | 0 | 🔴 Очень сложный | 80 | 25 | 3.2 |
 | [README](nautilus/README.md) | 0 | 🔴 Очень сложный | 505 | 43 | 11.7 |
 | [README](nautilus/community-discussions/README.md) | 0 | 🔴 Очень сложный | 274 | 27 | 10.1 |
 | [00-question-agent-changes-reality](nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) | 0 | 🔴 Очень сложный | 300 | 34 | 8.8 |
 | [01-response-en](nautilus/community-discussions/agent-changes-reality/01-response-en.md) | 0 | 🔴 Очень сложный | 8900 | 803 | 11.1 |
+| [README](nautilus/community-discussions/agent-changes-reality/README.md) | 0 | 🔴 Очень сложный | 103 | 21 | 4.9 |
 | [00-question-habr-link](nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) | 0 | 🔴 Очень сложный | 314 | 48 | 6.5 |
 | [01-claude-response](nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md) | 0 | 🔴 Очень сложный | 2273 | 206 | 11.0 |
+| [README](nautilus/community-discussions/habr-article-1-reaction/README.md) | 0 | 🔴 Очень сложный | 89 | 19 | 4.7 |
 | [00-question-habr-2](nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md) | 0 | 🔴 Очень сложный | 302 | 38 | 7.9 |
 | [01-response](nautilus/community-discussions/habr-article-2-reaction/01-response.md) | 0 | 🔴 Очень сложный | 2528 | 232 | 10.9 |
+| [README](nautilus/community-discussions/habr-article-2-reaction/README.md) | 0 | 🔴 Очень сложный | 88 | 20 | 4.4 |
 | [00-question-practical](nautilus/community-discussions/practical-observations/00-question-practical.md) | 0 | 🔴 Очень сложный | 290 | 32 | 9.1 |
 | [01-response](nautilus/community-discussions/practical-observations/01-response.md) | 0 | 🔴 Очень сложный | 1739 | 161 | 10.8 |
-| [README](nautilus/community-discussions/practical-observations/README.md) | 0 | 🔴 Очень сложный | 39 | 11 | 3.5 |
+| [README](nautilus/community-discussions/practical-observations/README.md) | 0 | 🔴 Очень сложный | 85 | 20 | 4.2 |
 | [00-question-voiceless](nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) | 0 | 🔴 Очень сложный | 553 | 41 | 13.5 |
 | [01-response](nautilus/community-discussions/voiceless-contributors/01-response.md) | 0 | 🔴 Очень сложный | 2375 | 210 | 11.3 |
-| [README](nautilus/community-discussions/voiceless-contributors/README.md) | 0 | 🔴 Очень сложный | 34 | 10 | 3.4 |
+| [README](nautilus/community-discussions/voiceless-contributors/README.md) | 0 | 🔴 Очень сложный | 80 | 19 | 4.2 |
 | [03-what-makes-csa](nautilus/composite-skills-agents/03-what-makes-csa.md) | 0 | 🔴 Очень сложный | 910 | 95 | 9.6 |
 | [04-sub-agent-registry](nautilus/composite-skills-agents/04-sub-agent-registry.md) | 0 | 🔴 Очень сложный | 762 | 82 | 9.3 |
 | [05-configuration-ensembles](nautilus/composite-skills-agents/05-configuration-ensembles.md) | 0 | 🔴 Очень сложный | 697 | 74 | 9.4 |
@@ -782,6 +788,7 @@ _Обновлено: 2026-05-11_
 | [01-yogi-metaphor](nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md) | 0 | 🔴 Очень сложный | 512 | 56 | 9.1 |
 | [02-what-was-missing-in-paper-6](nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md) | 0 | 🔴 Очень сложный | 993 | 115 | 8.6 |
 | [03-the-spectrum](nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md) | 0 | 🔴 Очень сложный | 878 | 106 | 8.3 |
+| [README](nautilus/composite-skills-agents-companion-mentors/README.md) | 0 | 🔴 Очень сложный | 102 | 24 | 4.2 |
 | [00-abstract](nautilus/double-triangle-architecture/00-abstract.md) | 0 | 🔴 Очень сложный | 456 | 43 | 10.6 |
 | [03-three-inter-layer-protocols](nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md) | 0 | 🔴 Очень сложный | 790 | 77 | 10.3 |
 | [04-nautilus-portal-substrate](nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md) | 0 | 🔴 Очень сложный | 670 | 65 | 10.3 |
@@ -813,6 +820,7 @@ _Обновлено: 2026-05-11_
 | [08-implications-nautilus-okwf](nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) | 0 | 🔴 Очень сложный | 614 | 61 | 10.1 |
 | [09-risks-open-questions](nautilus/ingit-cowork-en/09-risks-open-questions.md) | 0 | 🔴 Очень сложный | 520 | 71 | 7.3 |
 | [10-strategic-positioning](nautilus/ingit-cowork-en/10-strategic-positioning.md) | 0 | 🔴 Очень сложный | 739 | 83 | 8.9 |
+| [README](nautilus/ingit-cowork-en/README.md) | 0 | 🔴 Очень сложный | 143 | 35 | 4.1 |
 | [01-otkrytie-cowork](nautilus/ingit-cowork-ru/01-otkrytie-cowork.md) | 0 | 🔴 Очень сложный | 582 | 76 | 7.7 |
 | [02-chto-cowork-obespechivaet](nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) | 0 | 🔴 Очень сложный | 628 | 67 | 9.4 |
 | [03-chto-ingit-obespechivaet](nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md) | 0 | 🔴 Очень сложный | 759 | 69 | 11.0 |
@@ -823,13 +831,13 @@ _Обновлено: 2026-05-11_
 | [08-implikatsii-nautilus-okwf](nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md) | 0 | 🔴 Очень сложный | 535 | 58 | 9.2 |
 | [09-riski-voprosy](nautilus/ingit-cowork-ru/09-riski-voprosy.md) | 0 | 🔴 Очень сложный | 526 | 77 | 6.8 |
 | [10-strategicheskoe-pozitsionirovanie](nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md) | 0 | 🔴 Очень сложный | 612 | 71 | 8.6 |
-| [README](nautilus/ingit-cowork-ru/README.md) | 0 | 🔴 Очень сложный | 125 | 30 | 4.2 |
+| [README](nautilus/ingit-cowork-ru/README.md) | 0 | 🔴 Очень сложный | 145 | 35 | 4.1 |
 | [00-question-innovations-transitions](nautilus/innovation-transitions/00-question-innovations-transitions.md) | 0 | 🔴 Очень сложный | 2719 | 256 | 10.6 |
 | [01-response](nautilus/innovation-transitions/01-response.md) | 0 | 🔴 Очень сложный | 2272 | 190 | 12.0 |
-| [README](nautilus/innovation-transitions/README.md) | 0 | 🔴 Очень сложный | 37 | 10 | 3.7 |
+| [README](nautilus/innovation-transitions/README.md) | 0 | 🔴 Очень сложный | 82 | 18 | 4.6 |
 | [00-question-multi-tier](nautilus/multi-tier-architecture/00-question-multi-tier.md) | 0 | 🔴 Очень сложный | 327 | 36 | 9.1 |
 | [01-strategic-significance](nautilus/multi-tier-architecture/01-strategic-significance.md) | 0 | 🔴 Очень сложный | 2512 | 213 | 11.8 |
-| [README](nautilus/multi-tier-architecture/README.md) | 0 | 🔴 Очень сложный | 48 | 11 | 4.4 |
+| [README](nautilus/multi-tier-architecture/README.md) | 0 | 🔴 Очень сложный | 96 | 20 | 4.8 |
 | [00-question-can-it-apply-to-docs](nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) | 0 | 🔴 Очень сложный | 342 | 38 | 9.0 |
 | [01-structural-comparison-code-vs-docs](nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md) | 0 | 🔴 Очень сложный | 1414 | 126 | 11.2 |
 | [02-mcp-claude-desktop-use-cases](nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md) | 0 | 🔴 Очень сложный | 278 | 36 | 7.7 |
@@ -894,6 +902,7 @@ _Обновлено: 2026-05-11_
 | [02-two-tier-publication](nautilus/privacy-federation/02-two-tier-publication.md) | 0 | 🔴 Очень сложный | 594 | 46 | 12.9 |
 | [03-what-this-gives-technically](nautilus/privacy-federation/03-what-this-gives-technically.md) | 0 | 🔴 Очень сложный | 1374 | 164 | 8.4 |
 | [04-what-i-can-do-now](nautilus/privacy-federation/04-what-i-can-do-now.md) | 0 | 🔴 Очень сложный | 366 | 48 | 7.6 |
+| [README](nautilus/privacy-federation/README.md) | 0 | 🔴 Очень сложный | 123 | 27 | 4.6 |
 | [00-abstract](nautilus/professional-colleague-agents-en/00-abstract.md) | 0 | 🔴 Очень сложный | 483 | 44 | 11.0 |
 | [01-five-type-typology](nautilus/professional-colleague-agents-en/01-five-type-typology.md) | 0 | 🔴 Очень сложный | 828 | 109 | 7.6 |
 | [02-what-makes-pca](nautilus/professional-colleague-agents-en/02-what-makes-pca.md) | 0 | 🔴 Очень сложный | 804 | 111 | 7.2 |
@@ -933,6 +942,7 @@ _Обновлено: 2026-05-11_
 | [10-open-questions](nautilus/representative-agent-layer-en/10-open-questions.md) | 0 | 🔴 Очень сложный | 432 | 58 | 7.4 |
 | [11-call-for-collaboration](nautilus/representative-agent-layer-en/11-call-for-collaboration.md) | 0 | 🔴 Очень сложный | 455 | 62 | 7.3 |
 | [12-closing](nautilus/representative-agent-layer-en/12-closing.md) | 0 | 🔴 Очень сложный | 2464 | 222 | 11.1 |
+| [README](nautilus/representative-agent-layer-en/README.md) | 0 | 🔴 Очень сложный | 133 | 38 | 3.5 |
 | [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md) | 0 | 🔴 Очень сложный | 274 | 48 | 5.7 |
 | [01-sindrom-zolushki](nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md) | 0 | 🔴 Очень сложный | 708 | 71 | 10.0 |
 | [02-istoricheskie-pretsedenty](nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md) | 0 | 🔴 Очень сложный | 827 | 87 | 9.5 |
@@ -946,7 +956,7 @@ _Обновлено: 2026-05-11_
 | [10-otkrytye-voprosy](nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) | 0 | 🔴 Очень сложный | 399 | 56 | 7.1 |
 | [11-prizyv-k-sotrudnichestvu](nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) | 0 | 🔴 Очень сложный | 404 | 59 | 6.8 |
 | [12-zaklyuchenie](nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) | 0 | 🔴 Очень сложный | 3868 | 332 | 11.7 |
-| [README](nautilus/representative-agent-layer-ru/README.md) | 0 | 🔴 Очень сложный | 126 | 36 | 3.5 |
+| [README](nautilus/representative-agent-layer-ru/README.md) | 0 | 🔴 Очень сложный | 130 | 38 | 3.4 |
 | [00-tldr](nautilus/review-methodology/00-tldr.md) | 0 | 🔴 Очень сложный | 268 | 37 | 7.2 |
 | [01-context-motivation](nautilus/review-methodology/01-context-motivation.md) | 0 | 🔴 Очень сложный | 315 | 35 | 9.0 |
 | [02-formal-workflow](nautilus/review-methodology/02-formal-workflow.md) | 0 | 🔴 Очень сложный | 267 | 35 | 7.6 |
@@ -964,12 +974,13 @@ _Обновлено: 2026-05-11_
 | [14-main-technical-risks](nautilus/review-methodology/14-main-technical-risks.md) | 0 | 🔴 Очень сложный | 306 | 41 | 7.5 |
 | [15-appendix-c-history](nautilus/review-methodology/15-appendix-c-history.md) | 0 | 🔴 Очень сложный | 303 | 47 | 6.4 |
 | [16-glossary](nautilus/review-methodology/16-glossary.md) | 0 | 🔴 Очень сложный | 896 | 96 | 9.3 |
-| [README](nautilus/review-methodology/README.md) | 0 | 🔴 Очень сложный | 156 | 44 | 3.5 |
+| [README](nautilus/review-methodology/README.md) | 0 | 🔴 Очень сложный | 168 | 48 | 3.5 |
 | [00-question-supply-demand](nautilus/supply-demand/00-question-supply-demand.md) | 0 | 🔴 Очень сложный | 510 | 31 | 16.5 |
 | [01-three-related-themes](nautilus/supply-demand/01-three-related-themes.md) | 0 | 🔴 Очень сложный | 2687 | 216 | 12.4 |
+| [README](nautilus/supply-demand/README.md) | 0 | 🔴 Очень сложный | 102 | 22 | 4.6 |
 | [00-question-mountain-to-person](nautilus/transmission-box/00-question-mountain-to-person.md) | 0 | 🔴 Очень сложный | 567 | 26 | 21.8 |
 | [01-completing-loop](nautilus/transmission-box/01-completing-loop.md) | 0 | 🔴 Очень сложный | 2895 | 188 | 15.4 |
-| [README](nautilus/transmission-box/README.md) | 0 | 🔴 Очень сложный | 51 | 11 | 4.6 |
+| [README](nautilus/transmission-box/README.md) | 0 | 🔴 Очень сложный | 102 | 22 | 4.6 |
 | [00-intro-part2](obsidian/01-svyazi/00-intro-part2.md) | 0 | 🔴 Очень сложный | 276 | 33 | 8.4 |
 | [01-executive-summary](obsidian/01-svyazi/01-executive-summary.md) | 0 | 🔴 Очень сложный | 654 | 39 | 16.8 |
 | [02-methodology](obsidian/01-svyazi/02-methodology.md) | 0 | 🔴 Очень сложный | 447 | 24 | 18.6 |
@@ -1461,22 +1472,23 @@ _Обновлено: 2026-05-11_
 | [VERSION_DIFF](obsidian/VERSION_DIFF.md) | 0 | 🔴 Очень сложный | 431 | 12 | 35.9 |
 | [WORD_CLOUD](obsidian/WORD_CLOUD.md) | 0 | 🔴 Очень сложный | 155 | 13 | 11.9 |
 | [WORD_FREQ](obsidian/WORD_FREQ.md) | 0 | 🔴 Очень сложный | 928 | 11 | 84.4 |
-| [README](obsidian/ai-collaborations/README.md) | 0 | 🔴 Очень сложный | 33 | 3 | 11.0 |
+| [README](obsidian/ai-collaborations/README.md) | 0 | 🔴 Очень сложный | 49 | 6 | 8.2 |
 | [01-three-key-candidates](obsidian/ai-collaborations/candidates/01-three-key-candidates.md) | 0 | 🔴 Очень сложный | 336 | 23 | 14.6 |
 | [02-related-projects-context](obsidian/ai-collaborations/candidates/02-related-projects-context.md) | 0 | 🔴 Очень сложный | 270 | 28 | 9.6 |
 | [03-synthesis-hebbian-collaboration-graph](obsidian/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) | 0 | 🔴 Очень сложный | 270 | 18 | 15.0 |
+| [README](obsidian/ai-collaborations/candidates/README.md) | 0 | 🔴 Очень сложный | 56 | 11 | 5.1 |
 | [README](obsidian/ai-collaborations/channels/README.md) | 0 | 🔴 Очень сложный | 277 | 30 | 9.2 |
-| [01-shared-memory-between-agents](obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md) | 0 | 🔴 Очень сложный | 420 | 29 | 14.5 |
+| [01-shared-memory-between-agents](obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md) | 0 | 🔴 Очень сложный | 429 | 29 | 14.8 |
 | [02-agentops-trace-envelope](obsidian/ai-collaborations/continuation/02-agentops-trace-envelope.md) | 0 | 🔴 Очень сложный | 397 | 31 | 12.8 |
 | [03-a2a-vs-mcp-protocols](obsidian/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) | 0 | 🔴 Очень сложный | 358 | 24 | 14.9 |
 | [04-memory-firewall-vs-prompt-worms](obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) | 0 | 🔴 Очень сложный | 281 | 25 | 11.2 |
 | [05-roadmap-6-12-months](obsidian/ai-collaborations/continuation/05-roadmap-6-12-months.md) | 0 | 🔴 Очень сложный | 316 | 24 | 13.2 |
 | [06-metrics-tree](obsidian/ai-collaborations/continuation/06-metrics-tree.md) | 0 | 🔴 Очень сложный | 264 | 26 | 10.2 |
-| [07-vs-notion-mem-affine-langgraph](obsidian/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md) | 0 | 🔴 Очень сложный | 450 | 34 | 13.2 |
+| [07-vs-notion-mem-affine-langgraph](obsidian/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md) | 0 | 🔴 Очень сложный | 459 | 34 | 13.5 |
 | [08-commercialization-three-paths](obsidian/ai-collaborations/continuation/08-commercialization-three-paths.md) | 0 | 🔴 Очень сложный | 292 | 27 | 10.8 |
 | [09-do-not-glue](obsidian/ai-collaborations/continuation/09-do-not-glue.md) | 0 | 🔴 Очень сложный | 274 | 28 | 9.8 |
 | [10-architecture-rfc](obsidian/ai-collaborations/continuation/10-architecture-rfc.md) | 0 | 🔴 Очень сложный | 276 | 36 | 7.7 |
-| [1-agentic-knowledge-os](obsidian/ai-collaborations/ensembles/1-agentic-knowledge-os.md) | 0 | 🔴 Очень сложный | 414 | 29 | 14.3 |
+| [1-agentic-knowledge-os](obsidian/ai-collaborations/ensembles/1-agentic-knowledge-os.md) | 0 | 🔴 Очень сложный | 423 | 29 | 14.6 |
 | [2-distributed-agent-workshop](obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md) | 0 | 🔴 Очень сложный | 410 | 29 | 14.1 |
 | [3-forensic-rag](obsidian/ai-collaborations/ensembles/3-forensic-rag.md) | 0 | 🔴 Очень сложный | 405 | 26 | 15.6 |
 | [4-web-to-knowledge-pipeline](obsidian/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md) | 0 | 🔴 Очень сложный | 330 | 24 | 13.8 |
@@ -1489,7 +1501,7 @@ _Обновлено: 2026-05-11_
 | [source-projects](obsidian/ai-collaborations/source-projects.md) | 0 | 🔴 Очень сложный | 489 | 22 | 22.2 |
 | [README](obsidian/ai-collaborations/strategy/README.md) | 0 | 🔴 Очень сложный | 284 | 31 | 9.2 |
 | [QA](obsidian/anthropic-vacancies/QA.md) | 0 | 🔴 Очень сложный | 554 | 58 | 9.6 |
-| [README](obsidian/anthropic-vacancies/README.md) | 0 | 🔴 Очень сложный | 110 | 12 | 9.2 |
+| [README](obsidian/anthropic-vacancies/README.md) | 0 | 🔴 Очень сложный | 119 | 15 | 7.9 |
 | [00-question-rephrasing](obsidian/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) | 0 | 🔴 Очень сложный | 861 | 39 | 22.1 |
 | [01-existing-landscape](obsidian/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) | 0 | 🔴 Очень сложный | 338 | 33 | 10.2 |
 | [02-four-structural-blockers](obsidian/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md) | 0 | 🔴 Очень сложный | 358 | 35 | 10.2 |
@@ -1513,6 +1525,7 @@ _Обновлено: 2026-05-11_
 | [09-section-9-timeliness](obsidian/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) | 0 | 🔴 Очень сложный | 254 | 27 | 9.4 |
 | [10-section-10-engagement-request](obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) | 0 | 🔴 Очень сложный | 260 | 19 | 13.7 |
 | [11-not-and-format](obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) | 0 | 🔴 Очень сложный | 405 | 28 | 14.5 |
+| [README](obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md) | 0 | 🔴 Очень сложный | 141 | 34 | 4.1 |
 | [01-ai-research-engineering](obsidian/anthropic-vacancies/clusters/01-ai-research-engineering.md) | 0 | 🔴 Очень сложный | 271 | 32 | 8.5 |
 | [02-sales](obsidian/anthropic-vacancies/clusters/02-sales.md) | 0 | 🔴 Очень сложный | 235 | 19 | 12.4 |
 | [03-finance](obsidian/anthropic-vacancies/clusters/03-finance.md) | 0 | 🔴 Очень сложный | 271 | 31 | 8.7 |
@@ -1550,7 +1563,7 @@ _Обновлено: 2026-05-11_
 | [11-pluses-of-hermes](obsidian/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md) | 0 | 🔴 Очень сложный | 261 | 42 | 6.2 |
 | [12-minuses-of-hermes](obsidian/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md) | 0 | 🔴 Очень сложный | 309 | 44 | 7.0 |
 | [13-reprioritization](obsidian/anthropic-vacancies/hermes-comparison/13-reprioritization.md) | 0 | 🔴 Очень сложный | 892 | 84 | 10.6 |
-| [README](obsidian/anthropic-vacancies/hermes-comparison/README.md) | 0 | 🔴 Очень сложный | 138 | 33 | 4.2 |
+| [README](obsidian/anthropic-vacancies/hermes-comparison/README.md) | 0 | 🔴 Очень сложный | 176 | 38 | 4.6 |
 | [methodology](obsidian/anthropic-vacancies/methodology.md) | 0 | 🔴 Очень сложный | 259 | 35 | 7.4 |
 | [00-question-mmorpg-for-programmers](obsidian/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) | 0 | 🔴 Очень сложный | 513 | 33 | 15.5 |
 | [01-why-stronger-than-it-looks](obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) | 0 | 🔴 Очень сложный | 366 | 37 | 9.9 |
@@ -1562,7 +1575,7 @@ _Обновлено: 2026-05-11_
 | [01-shell-metaphor-two-projections](obsidian/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) | 0 | 🔴 Очень сложный | 268 | 27 | 9.9 |
 | [02-nautilus-A-pro2-meta](obsidian/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md) | 0 | 🔴 Очень сложный | 1048 | 72 | 14.6 |
 | [03-nautilus-B-meta-orchestrator](obsidian/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) | 0 | 🔴 Очень сложный | 1047 | 76 | 13.8 |
-| [README](obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) | 0 | 🔴 Очень сложный | 39 | 8 | 4.9 |
+| [README](obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) | 0 | 🔴 Очень сложный | 80 | 15 | 5.3 |
 | [00-question-camel-vs-nautilus](obsidian/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) | 0 | 🔴 Очень сложный | 267 | 23 | 11.6 |
 | [01-passive-vs-active-roles](obsidian/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md) | 0 | 🔴 Очень сложный | 272 | 32 | 8.5 |
 | [02-what-info-repos-contain](obsidian/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) | 0 | 🔴 Очень сложный | 1081 | 82 | 13.2 |
@@ -1578,7 +1591,7 @@ _Обновлено: 2026-05-11_
 | [06-not-applicable-roles](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) | 0 | 🔴 Очень сложный | 267 | 31 | 8.6 |
 | [07-unique-niche-eu-legal-infra](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md) | 0 | 🔴 Очень сложный | 263 | 27 | 9.7 |
 | [08-practical-ranking](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) | 0 | 🔴 Очень сложный | 252 | 28 | 9.0 |
-| [README](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | 0 | 🔴 Очень сложный | 86 | 21 | 4.1 |
+| [README](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | 0 | 🔴 Очень сложный | 124 | 26 | 4.8 |
 | [01-fde-downgraded](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) | 0 | 🔴 Очень сложный | 250 | 22 | 11.4 |
 | [02-three-overlapping-identities](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) | 0 | 🔴 Очень сложный | 270 | 27 | 10.0 |
 | [03-revised-anthropic-mapping](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) | 0 | 🔴 Очень сложный | 262 | 29 | 9.0 |
@@ -1697,14 +1710,15 @@ _Обновлено: 2026-05-11_
 | [01-search-results-not-found](obsidian/lorenzo-agent/naming/01-search-results-not-found.md) | 0 | 🔴 Очень сложный | 321 | 22 | 14.6 |
 | [02-naming-rationale-lorenzo-medici](obsidian/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) | 0 | 🔴 Очень сложный | 1115 | 34 | 32.8 |
 | [03-dhlab-umbrella](obsidian/lorenzo-agent/naming/03-dhlab-umbrella.md) | 0 | 🔴 Очень сложный | 1340 | 45 | 29.8 |
+| [README](obsidian/lorenzo-agent/naming/README.md) | 0 | 🔴 Очень сложный | 78 | 15 | 5.2 |
 | [00-overview-grandchild-combination](obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) | 0 | 🔴 Очень сложный | 575 | 47 | 12.2 |
 | [01-pluses-1-7](obsidian/lorenzo-agent/operationalized/01-pluses-1-7.md) | 0 | 🔴 Очень сложный | 473 | 29 | 16.3 |
 | [02-minuses-1-10](obsidian/lorenzo-agent/operationalized/02-minuses-1-10.md) | 0 | 🔴 Очень сложный | 708 | 43 | 16.5 |
 | [03-honest-opinion](obsidian/lorenzo-agent/operationalized/03-honest-opinion.md) | 0 | 🔴 Очень сложный | 258 | 25 | 10.3 |
-| [04-recommendations](obsidian/lorenzo-agent/operationalized/04-recommendations.md) | 0 | 🔴 Очень сложный | 405 | 25 | 16.2 |
+| [04-recommendations](obsidian/lorenzo-agent/operationalized/04-recommendations.md) | 0 | 🔴 Очень сложный | 414 | 25 | 16.6 |
 | [05-anchor-node-habr-scout](obsidian/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) | 0 | 🔴 Очень сложный | 541 | 29 | 18.7 |
 | [06-conclusion-deserves-attention](obsidian/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) | 0 | 🔴 Очень сложный | 511 | 41 | 12.5 |
-| [README](obsidian/lorenzo-agent/operationalized/README.md) | 0 | 🔴 Очень сложный | 47 | 14 | 3.4 |
+| [README](obsidian/lorenzo-agent/operationalized/README.md) | 0 | 🔴 Очень сложный | 89 | 23 | 3.9 |
 | [00-overview](obsidian/lorenzo-agent/phased-deployment/00-overview.md) | 0 | 🔴 Очень сложный | 254 | 26 | 9.8 |
 | [01-level-0-manual](obsidian/lorenzo-agent/phased-deployment/01-level-0-manual.md) | 0 | 🔴 Очень сложный | 261 | 27 | 9.7 |
 | [02-level-1-minimal-zero](obsidian/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md) | 0 | 🔴 Очень сложный | 255 | 22 | 11.6 |
@@ -1716,7 +1730,7 @@ _Обновлено: 2026-05-11_
 | [08-current-session-poc](obsidian/lorenzo-agent/phased-deployment/08-current-session-poc.md) | 0 | 🔴 Очень сложный | 728 | 31 | 23.5 |
 | [00-question-scenario](obsidian/lorenzo-agent/scenarios/00-question-scenario.md) | 0 | 🔴 Очень сложный | 276 | 23 | 12.0 |
 | [01-response](obsidian/lorenzo-agent/scenarios/01-response.md) | 0 | 🔴 Очень сложный | 2279 | 136 | 16.8 |
-| [README](obsidian/lorenzo-agent/scenarios/README.md) | 0 | 🔴 Очень сложный | 13 | 4 | 3.2 |
+| [README](obsidian/lorenzo-agent/scenarios/README.md) | 0 | 🔴 Очень сложный | 32 | 9 | 3.6 |
 | [00-context-fundamental-questions](obsidian/lorenzo-agent/specification/00-context-fundamental-questions.md) | 0 | 🔴 Очень сложный | 257 | 30 | 8.6 |
 | [01-q1-what-lorenzo-is](obsidian/lorenzo-agent/specification/01-q1-what-lorenzo-is.md) | 0 | 🔴 Очень сложный | 354 | 23 | 15.4 |
 | [02-q2-whom-lorenzo-serves](obsidian/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md) | 0 | 🔴 Очень сложный | 266 | 25 | 10.6 |
@@ -1745,10 +1759,10 @@ _Обновлено: 2026-05-11_
 | [01-response](obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md) | 0 | 🔴 Очень сложный | 2510 | 222 | 11.3 |
 | [00-question-practical](obsidian/nautilus/community-discussions/practical-observations/00-question-practical.md) | 0 | 🔴 Очень сложный | 263 | 19 | 13.8 |
 | [01-response](obsidian/nautilus/community-discussions/practical-observations/01-response.md) | 0 | 🔴 Очень сложный | 1724 | 153 | 11.3 |
-| [README](obsidian/nautilus/community-discussions/practical-observations/README.md) | 0 | 🔴 Очень сложный | 14 | 4 | 3.5 |
+| [README](obsidian/nautilus/community-discussions/practical-observations/README.md) | 0 | 🔴 Очень сложный | 33 | 9 | 3.7 |
 | [00-question-voiceless](obsidian/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) | 0 | 🔴 Очень сложный | 514 | 27 | 19.0 |
 | [01-response](obsidian/nautilus/community-discussions/voiceless-contributors/01-response.md) | 0 | 🔴 Очень сложный | 2364 | 201 | 11.8 |
-| [README](obsidian/nautilus/community-discussions/voiceless-contributors/README.md) | 0 | 🔴 Очень сложный | 14 | 4 | 3.5 |
+| [README](obsidian/nautilus/community-discussions/voiceless-contributors/README.md) | 0 | 🔴 Очень сложный | 33 | 9 | 3.7 |
 | [01-why-binary-incomplete](obsidian/nautilus/composite-skills-agents/01-why-binary-incomplete.md) | 0 | 🔴 Очень сложный | 645 | 56 | 11.5 |
 | [03-what-makes-csa](obsidian/nautilus/composite-skills-agents/03-what-makes-csa.md) | 0 | 🔴 Очень сложный | 882 | 88 | 10.0 |
 | [04-sub-agent-registry](obsidian/nautilus/composite-skills-agents/04-sub-agent-registry.md) | 0 | 🔴 Очень сложный | 735 | 74 | 9.9 |
@@ -1765,7 +1779,7 @@ _Обновлено: 2026-05-11_
 | [01-yogi-metaphor](obsidian/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md) | 0 | 🔴 Очень сложный | 476 | 48 | 9.9 |
 | [02-what-was-missing-in-paper-6](obsidian/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md) | 0 | 🔴 Очень сложный | 971 | 106 | 9.2 |
 | [03-the-spectrum](obsidian/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md) | 0 | 🔴 Очень сложный | 847 | 96 | 8.8 |
-| [00-abstract](obsidian/nautilus/double-triangle-architecture/00-abstract.md) | 0 | 🔴 Очень сложный | 443 | 36 | 12.3 |
+| [00-abstract](obsidian/nautilus/double-triangle-architecture/00-abstract.md) | 0 | 🔴 Очень сложный | 478 | 37 | 12.9 |
 | [02-double-triangle-architecture](obsidian/nautilus/double-triangle-architecture/02-double-triangle-architecture.md) | 0 | 🔴 Очень сложный | 600 | 51 | 11.8 |
 | [03-three-inter-layer-protocols](obsidian/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md) | 0 | 🔴 Очень сложный | 753 | 69 | 10.9 |
 | [04-nautilus-portal-substrate](obsidian/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md) | 0 | 🔴 Очень сложный | 645 | 56 | 11.5 |
@@ -1811,13 +1825,13 @@ _Обновлено: 2026-05-11_
 | [08-implikatsii-nautilus-okwf](obsidian/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md) | 0 | 🔴 Очень сложный | 520 | 52 | 10.0 |
 | [09-riski-voprosy](obsidian/nautilus/ingit-cowork-ru/09-riski-voprosy.md) | 0 | 🔴 Очень сложный | 492 | 68 | 7.2 |
 | [10-strategicheskoe-pozitsionirovanie](obsidian/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md) | 0 | 🔴 Очень сложный | 595 | 66 | 9.0 |
-| [README](obsidian/nautilus/ingit-cowork-ru/README.md) | 0 | 🔴 Очень сложный | 91 | 25 | 3.6 |
+| [README](obsidian/nautilus/ingit-cowork-ru/README.md) | 0 | 🔴 Очень сложный | 123 | 30 | 4.1 |
 | [00-question-innovations-transitions](obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) | 0 | 🔴 Очень сложный | 2654 | 241 | 11.0 |
 | [01-response](obsidian/nautilus/innovation-transitions/01-response.md) | 0 | 🔴 Очень сложный | 2236 | 178 | 12.6 |
-| [README](obsidian/nautilus/innovation-transitions/README.md) | 0 | 🔴 Очень сложный | 16 | 4 | 4.0 |
+| [README](obsidian/nautilus/innovation-transitions/README.md) | 0 | 🔴 Очень сложный | 37 | 9 | 4.1 |
 | [00-question-multi-tier](obsidian/nautilus/multi-tier-architecture/00-question-multi-tier.md) | 0 | 🔴 Очень сложный | 267 | 21 | 12.7 |
 | [01-strategic-significance](obsidian/nautilus/multi-tier-architecture/01-strategic-significance.md) | 0 | 🔴 Очень сложный | 2488 | 199 | 12.5 |
-| [README](obsidian/nautilus/multi-tier-architecture/README.md) | 0 | 🔴 Очень сложный | 19 | 4 | 4.8 |
+| [README](obsidian/nautilus/multi-tier-architecture/README.md) | 0 | 🔴 Очень сложный | 42 | 9 | 4.7 |
 | [00-question-can-it-apply-to-docs](obsidian/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) | 0 | 🔴 Очень сложный | 313 | 25 | 12.5 |
 | [01-structural-comparison-code-vs-docs](obsidian/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md) | 0 | 🔴 Очень сложный | 1391 | 114 | 12.2 |
 | [02-mcp-claude-desktop-use-cases](obsidian/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md) | 0 | 🔴 Очень сложный | 273 | 30 | 9.1 |
@@ -1908,18 +1922,18 @@ _Обновлено: 2026-05-11_
 | [10-otkrytye-voprosy](obsidian/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md) | 0 | 🔴 Очень сложный | 385 | 61 | 6.3 |
 | [11-prizyv-k-sotrudnichestvu](obsidian/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md) | 0 | 🔴 Очень сложный | 333 | 49 | 6.8 |
 | [12-zaklyuchenie](obsidian/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md) | 0 | 🔴 Очень сложный | 499 | 57 | 8.8 |
-| [00-abstract](obsidian/nautilus/representative-agent-layer-en/00-abstract.md) | 0 | 🔴 Очень сложный | 416 | 39 | 10.7 |
+| [00-abstract](obsidian/nautilus/representative-agent-layer-en/00-abstract.md) | 0 | 🔴 Очень сложный | 449 | 40 | 11.2 |
 | [01-cinderella-syndrome](obsidian/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md) | 0 | 🔴 Очень сложный | 782 | 64 | 12.2 |
 | [02-historical-precedents](obsidian/nautilus/representative-agent-layer-en/02-historical-precedents.md) | 0 | 🔴 Очень сложный | 892 | 85 | 10.5 |
 | [03-what-makes-representative-agent](obsidian/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md) | 0 | 🔴 Очень сложный | 616 | 84 | 7.3 |
 | [04-ten-domains](obsidian/nautilus/representative-agent-layer-en/04-ten-domains.md) | 0 | 🔴 Очень сложный | 1506 | 175 | 8.6 |
 | [05-architectural-specification](obsidian/nautilus/representative-agent-layer-en/05-architectural-specification.md) | 0 | 🔴 Очень сложный | 594 | 70 | 8.5 |
 | [06-ethical-framework](obsidian/nautilus/representative-agent-layer-en/06-ethical-framework.md) | 0 | 🔴 Очень сложный | 528 | 50 | 10.6 |
-| [07-governance-oversight](obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md) | 0 | 🔴 Очень сложный | 432 | 36 | 12.0 |
+| [07-governance-oversight](obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md) | 0 | 🔴 Очень сложный | 477 | 42 | 11.4 |
 | [08-risks-mitigations](obsidian/nautilus/representative-agent-layer-en/08-risks-mitigations.md) | 0 | 🔴 Очень сложный | 615 | 52 | 11.8 |
 | [09-phased-rollout](obsidian/nautilus/representative-agent-layer-en/09-phased-rollout.md) | 0 | 🔴 Очень сложный | 529 | 39 | 13.6 |
 | [10-open-questions](obsidian/nautilus/representative-agent-layer-en/10-open-questions.md) | 0 | 🔴 Очень сложный | 405 | 50 | 8.1 |
-| [11-call-for-collaboration](obsidian/nautilus/representative-agent-layer-en/11-call-for-collaboration.md) | 0 | 🔴 Очень сложный | 422 | 53 | 8.0 |
+| [11-call-for-collaboration](obsidian/nautilus/representative-agent-layer-en/11-call-for-collaboration.md) | 0 | 🔴 Очень сложный | 479 | 61 | 7.9 |
 | [12-closing](obsidian/nautilus/representative-agent-layer-en/12-closing.md) | 0 | 🔴 Очень сложный | 2424 | 211 | 11.5 |
 | [00-abstract](obsidian/nautilus/representative-agent-layer-ru/00-abstract.md) | 0 | 🔴 Очень сложный | 255 | 40 | 6.4 |
 | [01-sindrom-zolushki](obsidian/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md) | 0 | 🔴 Очень сложный | 680 | 64 | 10.6 |
@@ -1934,7 +1948,7 @@ _Обновлено: 2026-05-11_
 | [10-otkrytye-voprosy](obsidian/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) | 0 | 🔴 Очень сложный | 372 | 49 | 7.6 |
 | [11-prizyv-k-sotrudnichestvu](obsidian/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) | 0 | 🔴 Очень сложный | 374 | 51 | 7.3 |
 | [12-zaklyuchenie](obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) | 0 | 🔴 Очень сложный | 3839 | 323 | 11.9 |
-| [README](obsidian/nautilus/representative-agent-layer-ru/README.md) | 0 | 🔴 Очень сложный | 98 | 31 | 3.2 |
+| [README](obsidian/nautilus/representative-agent-layer-ru/README.md) | 0 | 🔴 Очень сложный | 124 | 36 | 3.4 |
 | [00-tldr](obsidian/nautilus/review-methodology/00-tldr.md) | 0 | 🔴 Очень сложный | 253 | 29 | 8.7 |
 | [01-context-motivation](obsidian/nautilus/review-methodology/01-context-motivation.md) | 0 | 🔴 Очень сложный | 309 | 31 | 10.0 |
 | [02-formal-workflow](obsidian/nautilus/review-methodology/02-formal-workflow.md) | 0 | 🔴 Очень сложный | 234 | 27 | 8.7 |
@@ -1952,11 +1966,12 @@ _Обновлено: 2026-05-11_
 | [14-main-technical-risks](obsidian/nautilus/review-methodology/14-main-technical-risks.md) | 0 | 🔴 Очень сложный | 267 | 30 | 8.9 |
 | [15-appendix-c-history](obsidian/nautilus/review-methodology/15-appendix-c-history.md) | 0 | 🔴 Очень сложный | 262 | 34 | 7.7 |
 | [16-glossary](obsidian/nautilus/review-methodology/16-glossary.md) | 0 | 🔴 Очень сложный | 881 | 85 | 10.4 |
+| [README](obsidian/nautilus/review-methodology/README.md) | 0 | 🔴 Очень сложный | 162 | 44 | 3.7 |
 | [00-question-supply-demand](obsidian/nautilus/supply-demand/00-question-supply-demand.md) | 0 | 🔴 Очень сложный | 459 | 16 | 28.7 |
 | [01-three-related-themes](obsidian/nautilus/supply-demand/01-three-related-themes.md) | 0 | 🔴 Очень сложный | 2663 | 203 | 13.1 |
 | [00-question-mountain-to-person](obsidian/nautilus/transmission-box/00-question-mountain-to-person.md) | 0 | 🔴 Очень сложный | 530 | 13 | 40.8 |
 | [01-completing-loop](obsidian/nautilus/transmission-box/01-completing-loop.md) | 0 | 🔴 Очень сложный | 2861 | 173 | 16.5 |
-| [README](obsidian/nautilus/transmission-box/README.md) | 0 | 🔴 Очень сложный | 20 | 4 | 5.0 |
+| [README](obsidian/nautilus/transmission-box/README.md) | 0 | 🔴 Очень сложный | 45 | 9 | 5.0 |
 | [01-overview](obsidian/processing-guide/01-overview.md) | 0 | 🔴 Очень сложный | 286 | 18 | 15.9 |
 | [02-extraction](obsidian/processing-guide/02-extraction.md) | 0 | 🔴 Очень сложный | 387 | 25 | 15.5 |
 | [03-chunking](obsidian/processing-guide/03-chunking.md) | 0 | 🔴 Очень сложный | 390 | 21 | 18.6 |
@@ -2011,7 +2026,7 @@ _Обновлено: 2026-05-11_
 | [first-contacts](obsidian/svyazi-2-0/outreach/first-contacts.md) | 0 | 🔴 Очень сложный | 265 | 29 | 9.1 |
 | [message-template](obsidian/svyazi-2-0/outreach/message-template.md) | 0 | 🔴 Очень сложный | 246 | 26 | 9.5 |
 | [narrow-questions](obsidian/svyazi-2-0/outreach/narrow-questions.md) | 0 | 🔴 Очень сложный | 325 | 29 | 11.2 |
-| [README](obsidian/svyazi-2-0/overview/README.md) | 0 | 🔴 Очень сложный | 25 | 8 | 3.1 |
+| [README](obsidian/svyazi-2-0/overview/README.md) | 0 | 🔴 Очень сложный | 49 | 14 | 3.5 |
 | [continuation-intro](obsidian/svyazi-2-0/overview/continuation-intro.md) | 0 | 🔴 Очень сложный | 304 | 23 | 13.2 |
 | [executive-summary](obsidian/svyazi-2-0/overview/executive-summary.md) | 0 | 🔴 Очень сложный | 430 | 23 | 18.7 |
 | [methodology](obsidian/svyazi-2-0/overview/methodology.md) | 0 | 🔴 Очень сложный | 280 | 24 | 11.7 |
@@ -2062,7 +2077,7 @@ _Обновлено: 2026-05-11_
 | [02-ultimate-legal-ai](obsidian/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) | 0 | 🔴 Очень сложный | 171 | 20 | 8.6 |
 | [04-event-sourcing-consensus](obsidian/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) | 0 | 🔴 Очень сложный | 142 | 12 | 11.8 |
 | [README](obsidian/technology-combinations/properties/README.md) | 0 | 🔴 Очень сложный | 246 | 26 | 9.5 |
-| [README](obsidian/technology-combinations/research-reports/README.md) | 0 | 🔴 Очень сложный | 16 | 4 | 4.0 |
+| [README](obsidian/technology-combinations/research-reports/README.md) | 0 | 🔴 Очень сложный | 37 | 9 | 4.1 |
 | [continuation-10-domains](obsidian/technology-combinations/research-reports/continuation-10-domains.md) | 0 | 🔴 Очень сложный | 312 | 41 | 7.6 |
 | [sozialrecht-35-combinations](obsidian/technology-combinations/research-reports/sozialrecht-35-combinations.md) | 0 | 🔴 Очень сложный | 247 | 32 | 7.7 |
 | [01-08-summary](obsidian/technology-combinations/synthesis-tables/01-08-summary.md) | 0 | 🔴 Очень сложный | 364 | 12 | 30.3 |
@@ -2097,18 +2112,19 @@ _Обновлено: 2026-05-11_
 | [01-overview](processing-guide/01-overview.md) | 0 | 🔴 Очень сложный | 311 | 34 | 9.1 |
 | [02-extraction](processing-guide/02-extraction.md) | 0 | 🔴 Очень сложный | 394 | 31 | 12.7 |
 | [03-chunking](processing-guide/03-chunking.md) | 0 | 🔴 Очень сложный | 395 | 27 | 14.6 |
-| [04-structuring](processing-guide/04-structuring.md) | 0 | 🔴 Очень сложный | 397 | 32 | 12.4 |
+| [04-structuring](processing-guide/04-structuring.md) | 0 | 🔴 Очень сложный | 401 | 32 | 12.5 |
 | [05-analysis](processing-guide/05-analysis.md) | 0 | 🔴 Очень сложный | 669 | 72 | 9.3 |
 | [06-search](processing-guide/06-search.md) | 0 | 🔴 Очень сложный | 478 | 41 | 11.7 |
 | [07-llm](processing-guide/07-llm.md) | 0 | 🔴 Очень сложный | 466 | 43 | 10.8 |
 | [08-export](processing-guide/08-export.md) | 0 | 🔴 Очень сложный | 455 | 44 | 10.3 |
 | [09-automation](processing-guide/09-automation.md) | 0 | 🔴 Очень сложный | 404 | 44 | 9.2 |
 | [10-future](processing-guide/10-future.md) | 0 | 🔴 Очень сложный | 661 | 36 | 18.4 |
-| [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md) | 0 | 🔴 Очень сложный | 4263 | 307 | 13.9 |
-| [QA](processing-guide/QA.md) | 0 | 🔴 Очень сложный | 221 | 39 | 5.7 |
+| [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md) | 0 | 🔴 Очень сложный | 4267 | 307 | 13.9 |
+| [QA](processing-guide/QA.md) | 0 | 🔴 Очень сложный | 218 | 39 | 5.6 |
 | [reading-paths](reading-paths.md) | 0 | 🔴 Очень сложный | 759 | 142 | 5.3 |
-| [QA](svyazi-2-0/QA.md) | 0 | 🔴 Очень сложный | 318 | 43 | 7.4 |
-| [README](svyazi-2-0/README.md) | 0 | 🔴 Очень сложный | 60 | 10 | 6.0 |
+| [QA](svyazi-2-0/QA.md) | 0 | 🔴 Очень сложный | 338 | 51 | 6.6 |
+| [README](svyazi-2-0/README.md) | 0 | 🔴 Очень сложный | 88 | 17 | 5.2 |
+| [README](svyazi-2-0/architecture/README.md) | 0 | 🔴 Очень сложный | 102 | 28 | 3.6 |
 | [card-envelope](svyazi-2-0/architecture/card-envelope.md) | 0 | 🔴 Очень сложный | 228 | 28 | 8.1 |
 | [evidence-envelope](svyazi-2-0/architecture/evidence-envelope.md) | 0 | 🔴 Очень сложный | 239 | 26 | 9.2 |
 | [gaps](svyazi-2-0/architecture/gaps.md) | 0 | 🔴 Очень сложный | 626 | 34 | 18.4 |
@@ -2143,20 +2159,25 @@ _Обновлено: 2026-05-11_
 | [F-evidence-backed-intake](svyazi-2-0/ensembles/F-evidence-backed-intake.md) | 0 | 🔴 Очень сложный | 281 | 32 | 8.8 |
 | [G-federated-local-graph](svyazi-2-0/ensembles/G-federated-local-graph.md) | 0 | 🔴 Очень сложный | 287 | 27 | 10.6 |
 | [H-research-to-product-flywheel](svyazi-2-0/ensembles/H-research-to-product-flywheel.md) | 0 | 🔴 Очень сложный | 286 | 34 | 8.4 |
+| [README](svyazi-2-0/ensembles/README.md) | 0 | 🔴 Очень сложный | 130 | 33 | 3.9 |
+| [README](svyazi-2-0/limitations/README.md) | 0 | 🔴 Очень сложный | 92 | 22 | 4.2 |
 | [conclusions](svyazi-2-0/limitations/conclusions.md) | 0 | 🔴 Очень сложный | 391 | 37 | 10.6 |
 | [do-not-glue](svyazi-2-0/limitations/do-not-glue.md) | 0 | 🔴 Очень сложный | 385 | 31 | 12.4 |
 | [license-tree](svyazi-2-0/limitations/license-tree.md) | 0 | 🔴 Очень сложный | 302 | 40 | 7.5 |
+| [README](svyazi-2-0/outreach/README.md) | 0 | 🔴 Очень сложный | 83 | 22 | 3.8 |
 | [first-contacts](svyazi-2-0/outreach/first-contacts.md) | 0 | 🔴 Очень сложный | 296 | 41 | 7.2 |
 | [message-template](svyazi-2-0/outreach/message-template.md) | 0 | 🔴 Очень сложный | 265 | 38 | 7.0 |
 | [narrow-questions](svyazi-2-0/outreach/narrow-questions.md) | 0 | 🔴 Очень сложный | 339 | 37 | 9.2 |
-| [README](svyazi-2-0/overview/README.md) | 0 | 🔴 Очень сложный | 55 | 16 | 3.4 |
+| [README](svyazi-2-0/overview/README.md) | 0 | 🔴 Очень сложный | 85 | 24 | 3.5 |
 | [continuation-intro](svyazi-2-0/overview/continuation-intro.md) | 0 | 🔴 Очень сложный | 312 | 32 | 9.8 |
 | [executive-summary](svyazi-2-0/overview/executive-summary.md) | 0 | 🔴 Очень сложный | 461 | 38 | 12.1 |
 | [methodology](svyazi-2-0/overview/methodology.md) | 0 | 🔴 Очень сложный | 302 | 37 | 8.2 |
 | [projects-map](svyazi-2-0/overview/projects-map.md) | 0 | 🔴 Очень сложный | 1319 | 108 | 12.2 |
+| [README](svyazi-2-0/prototype/README.md) | 0 | 🔴 Очень сложный | 78 | 19 | 4.1 |
 | [mvp-plan](svyazi-2-0/prototype/mvp-plan.md) | 0 | 🔴 Очень сложный | 321 | 31 | 10.4 |
 | [risks](svyazi-2-0/prototype/risks.md) | 0 | 🔴 Очень сложный | 311 | 30 | 10.4 |
 | [roadmap](svyazi-2-0/prototype/roadmap.md) | 0 | 🔴 Очень сложный | 594 | 44 | 13.5 |
+| [README](svyazi-2-0/security/README.md) | 0 | 🔴 Очень сложный | 93 | 22 | 4.2 |
 | [budget-routing](svyazi-2-0/security/budget-routing.md) | 0 | 🔴 Очень сложный | 334 | 31 | 10.8 |
 | [default-policy](svyazi-2-0/security/default-policy.md) | 0 | 🔴 Очень сложный | 342 | 29 | 11.8 |
 | [privacy](svyazi-2-0/security/privacy.md) | 0 | 🔴 Очень сложный | 312 | 42 | 7.4 |
@@ -2200,7 +2221,7 @@ _Обновлено: 2026-05-11_
 | [02-ultimate-legal-ai](technology-combinations/mega-stacks/02-ultimate-legal-ai.md) | 0 | 🔴 Очень сложный | 211 | 35 | 6.0 |
 | [04-event-sourcing-consensus](technology-combinations/mega-stacks/04-event-sourcing-consensus.md) | 0 | 🔴 Очень сложный | 163 | 22 | 7.4 |
 | [README](technology-combinations/properties/README.md) | 0 | 🔴 Очень сложный | 241 | 29 | 8.3 |
-| [README](technology-combinations/research-reports/README.md) | 0 | 🔴 Очень сложный | 43 | 11 | 3.9 |
+| [README](technology-combinations/research-reports/README.md) | 0 | 🔴 Очень сложный | 89 | 20 | 4.5 |
 | [continuation-10-domains](technology-combinations/research-reports/continuation-10-domains.md) | 0 | 🔴 Очень сложный | 334 | 52 | 6.4 |
 | [sozialrecht-35-combinations](technology-combinations/research-reports/sozialrecht-35-combinations.md) | 0 | 🔴 Очень сложный | 271 | 43 | 6.3 |
 | [01-08-summary](technology-combinations/synthesis-tables/01-08-summary.md) | 0 | 🔴 Очень сложный | 397 | 40 | 9.9 |
@@ -2209,102 +2230,101 @@ _Обновлено: 2026-05-11_
 | [20-24-final](technology-combinations/synthesis-tables/20-24-final.md) | 0 | 🔴 Очень сложный | 289 | 44 | 6.6 |
 | [25-30-extended](technology-combinations/synthesis-tables/25-30-extended.md) | 0 | 🔴 Очень сложный | 290 | 43 | 6.7 |
 | [31-35-final](technology-combinations/synthesis-tables/31-35-final.md) | 0 | 🔴 Очень сложный | 284 | 39 | 7.3 |
-| [agent-spec](templates/agent-spec.md) | 0 | 🔴 Очень сложный | 211 | 19 | 11.1 |
-| [contact-outreach](templates/contact-outreach.md) | 0 | 🔴 Очень сложный | 275 | 40 | 6.9 |
-| [contradiction-record](templates/contradiction-record.md) | 0 | 🔴 Очень сложный | 238 | 35 | 6.8 |
-| [decision-record](templates/decision-record.md) | 0 | 🔴 Очень сложный | 293 | 42 | 7.0 |
-| [ensemble](templates/ensemble.md) | 0 | 🔴 Очень сложный | 298 | 43 | 6.9 |
-| [experiment-log](templates/experiment-log.md) | 0 | 🔴 Очень сложный | 235 | 30 | 7.8 |
-| [faq-entry](templates/faq-entry.md) | 0 | 🔴 Очень сложный | 260 | 34 | 7.6 |
-| [glossary-entry](templates/glossary-entry.md) | 0 | 🔴 Очень сложный | 262 | 38 | 6.9 |
-| [kpi-snapshot](templates/kpi-snapshot.md) | 0 | 🔴 Очень сложный | 196 | 29 | 6.8 |
-| [legal-case](templates/legal-case.md) | 0 | 🔴 Очень сложный | 192 | 24 | 8.0 |
-| [meeting-notes](templates/meeting-notes.md) | 0 | 🔴 Очень сложный | 247 | 38 | 6.5 |
-| [project-component](templates/project-component.md) | 0 | 🔴 Очень сложный | 293 | 44 | 6.7 |
-| [protocol-spec](templates/protocol-spec.md) | 0 | 🔴 Очень сложный | 204 | 39 | 5.2 |
-| [prototype-mvp](templates/prototype-mvp.md) | 0 | 🔴 Очень сложный | 212 | 13 | 16.3 |
-| [research-note](templates/research-note.md) | 0 | 🔴 Очень сложный | 304 | 49 | 6.2 |
-| [retrospective](templates/retrospective.md) | 0 | 🔴 Очень сложный | 237 | 30 | 7.9 |
-| [rfc](templates/rfc.md) | 0 | 🔴 Очень сложный | 192 | 34 | 5.6 |
-| [risk-entry](templates/risk-entry.md) | 0 | 🔴 Очень сложный | 230 | 28 | 8.2 |
-| [tech-pair](templates/tech-pair.md) | 0 | 🔴 Очень сложный | 196 | 27 | 7.3 |
-| [tech-radar-entry](templates/tech-radar-entry.md) | 0 | 🔴 Очень сложный | 215 | 25 | 8.6 |
-| [template-of-templates](templates/template-of-templates.md) | 0 | 🔴 Очень сложный | 161 | 24 | 6.7 |
-| [weekly-digest](templates/weekly-digest.md) | 0 | 🔴 Очень сложный | 223 | 31 | 7.2 |
+| [README](technology-combinations/synthesis-tables/README.md) | 0 | 🔴 Очень сложный | 74 | 25 | 3.0 |
+| [agent-spec](templates/agent-spec.md) | 0 | 🔴 Очень сложный | 215 | 19 | 11.3 |
+| [contact-outreach](templates/contact-outreach.md) | 0 | 🔴 Очень сложный | 84 | 15 | 5.6 |
+| [contradiction-record](templates/contradiction-record.md) | 0 | 🔴 Очень сложный | 242 | 36 | 6.7 |
+| [decision-record](templates/decision-record.md) | 0 | 🔴 Очень сложный | 121 | 23 | 5.3 |
+| [ensemble](templates/ensemble.md) | 0 | 🔴 Очень сложный | 116 | 22 | 5.3 |
+| [experiment-log](templates/experiment-log.md) | 0 | 🔴 Очень сложный | 239 | 31 | 7.7 |
+| [faq-entry](templates/faq-entry.md) | 0 | 🔴 Очень сложный | 264 | 35 | 7.5 |
+| [glossary-entry](templates/glossary-entry.md) | 0 | 🔴 Очень сложный | 266 | 39 | 6.8 |
+| [kpi-snapshot](templates/kpi-snapshot.md) | 0 | 🔴 Очень сложный | 200 | 30 | 6.7 |
+| [legal-case](templates/legal-case.md) | 0 | 🔴 Очень сложный | 196 | 25 | 7.8 |
+| [meeting-notes](templates/meeting-notes.md) | 0 | 🔴 Очень сложный | 251 | 39 | 6.4 |
+| [project-component](templates/project-component.md) | 0 | 🔴 Очень сложный | 119 | 24 | 5.0 |
+| [protocol-spec](templates/protocol-spec.md) | 0 | 🔴 Очень сложный | 208 | 39 | 5.3 |
+| [prototype-mvp](templates/prototype-mvp.md) | 0 | 🔴 Очень сложный | 216 | 13 | 16.6 |
+| [research-note](templates/research-note.md) | 0 | 🔴 Очень сложный | 101 | 23 | 4.4 |
+| [retrospective](templates/retrospective.md) | 0 | 🔴 Очень сложный | 241 | 31 | 7.8 |
+| [rfc](templates/rfc.md) | 0 | 🔴 Очень сложный | 196 | 35 | 5.6 |
+| [risk-entry](templates/risk-entry.md) | 0 | 🔴 Очень сложный | 234 | 29 | 8.1 |
+| [tech-pair](templates/tech-pair.md) | 0 | 🔴 Очень сложный | 200 | 28 | 7.1 |
+| [tech-radar-entry](templates/tech-radar-entry.md) | 0 | 🔴 Очень сложный | 219 | 26 | 8.4 |
+| [template-of-templates](templates/template-of-templates.md) | 0 | 🔴 Очень сложный | 165 | 24 | 6.9 |
+| [weekly-digest](templates/weekly-digest.md) | 0 | 🔴 Очень сложный | 227 | 32 | 7.1 |
+| [DUPLICATES](DUPLICATES.md) | 0.2 | 🔴 Очень сложный | 562 | 83 | 6.8 |
 | [CODE_BLOCKS](CODE_BLOCKS.md) | 0.3 | 🔴 Очень сложный | 508 | 55 | 9.2 |
 | [sgb](autofilled/components/sgb.md) | 0.3 | 🔴 Очень сложный | 196 | 49 | 4.0 |
+| [README](lorenzo-agent/phased-deployment/README.md) | 0.3 | 🔴 Очень сложный | 134 | 35 | 3.8 |
 | [254-1-why-the-binary-view-is-incomplete](02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) | 0.4 | 🔴 Очень сложный | 1029 | 108 | 9.5 |
 | [352-что-ты-не-можешь-делать-без-max-approval](02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) | 0.4 | 🔴 Очень сложный | 345 | 28 | 12.3 |
+| [README](ai-collaborations/ensembles/README.md) | 0.4 | 🔴 Очень сложный | 146 | 35 | 4.2 |
 | [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) | 0.4 | 🔴 Очень сложный | 356 | 32 | 11.1 |
 | [8-self-aware-mcp-specs](habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) | 0.5 | 🔴 Очень сложный | 342 | 34 | 10.1 |
 | [01-cowork-discovery](nautilus/ingit-cowork-en/01-cowork-discovery.md) | 0.6 | 🔴 Очень сложный | 651 | 75 | 8.7 |
-| [README](obsidian/ai-collaborations/candidates/README.md) | 0.6 | 🔴 Очень сложный | 29 | 6 | 4.8 |
 | [kksudo](autofilled/components/kksudo.md) | 0.7 | 🔴 Очень сложный | 251 | 65 | 3.9 |
 | [01-why-binary-incomplete](nautilus/composite-skills-agents/01-why-binary-incomplete.md) | 0.7 | 🔴 Очень сложный | 673 | 65 | 10.4 |
 | [02-double-triangle-architecture](nautilus/double-triangle-architecture/02-double-triangle-architecture.md) | 0.7 | 🔴 Очень сложный | 639 | 59 | 10.8 |
+| [README](obsidian/nautilus/representative-agent-layer-en/README.md) | 0.8 | 🔴 Очень сложный | 130 | 36 | 3.6 |
 | [322-appendix-b-comparison-matrix](02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) | 0.9 | 🔴 Очень сложный | 349 | 29 | 12.0 |
-| [README](ai-collaborations/candidates/README.md) | 0.9 | 🔴 Очень сложный | 74 | 16 | 4.6 |
+| [DIGEST](DIGEST.md) | 0.9 | 🔴 Очень сложный | 219 | 22 | 10.0 |
 | [COMPARE](obsidian/COMPARE.md) | 0.9 | 🔴 Очень сложный | 167 | 10 | 16.7 |
-| [TAGS](TAGS.md) | 1.0 | 🔴 Очень сложный | 90 | 14 | 6.4 |
+| [README](nautilus/double-triangle-architecture/README.md) | 1.0 | 🔴 Очень сложный | 159 | 39 | 4.1 |
 | [54-for-the-curious-philosophy](02-anthropic-vacancies/54-for-the-curious-philosophy.md) | 1.1 | 🔴 Очень сложный | 380 | 56 | 6.8 |
 | [spbmolot](autofilled/components/spbmolot.md) | 1.1 | 🔴 Очень сложный | 249 | 64 | 3.9 |
 | [11-practical-recommendations](nautilus/infrastructure-layer-b-en/11-practical-recommendations.md) | 1.1 | 🔴 Очень сложный | 376 | 54 | 7.0 |
-| [README](obsidian/nautilus/representative-agent-layer-en/README.md) | 1.1 | 🔴 Очень сложный | 102 | 31 | 3.3 |
+| [README](habr-unique-projects/key-findings/README.md) | 1.2 | 🔴 Очень сложный | 106 | 29 | 3.7 |
 | [01-cowork-discovery](obsidian/nautilus/ingit-cowork-en/01-cowork-discovery.md) | 1.2 | 🔴 Очень сложный | 623 | 67 | 9.3 |
 | [312-4-the-symbiotic-architecture](02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) | 1.3 | 🔴 Очень сложный | 592 | 58 | 10.2 |
-| [README](anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | 1.3 | 🔴 Очень сложный | 114 | 26 | 4.4 |
 | [00-question-lorenzo-codename](obsidian/lorenzo-agent/naming/00-question-lorenzo-codename.md) | 1.4 | 🔴 Очень сложный | 273 | 23 | 11.9 |
+| [mega-stack](templates/mega-stack.md) | 1.5 | 🔴 Очень сложный | 210 | 30 | 7.0 |
 | [154-table-of-contents](02-anthropic-vacancies/154-table-of-contents.md) | 1.7 | 🔴 Очень сложный | 365 | 67 | 5.4 |
 | [05-four-integration-paths](nautilus/ingit-cowork-en/05-four-integration-paths.md) | 1.8 | 🔴 Очень сложный | 676 | 70 | 9.7 |
+| [DIGEST_AUTO](DIGEST_AUTO.md) | 2.1 | 🔴 Очень сложный | 293 | 41 | 7.1 |
 | [README](autofilled/README.md) | 2.1 | 🔴 Очень сложный | 46 | 11 | 4.2 |
 | [307-abstract](02-anthropic-vacancies/307-abstract.md) | 2.2 | 🔴 Очень сложный | 749 | 74 | 10.1 |
 | [CROSS_SECTION](CROSS_SECTION.md) | 2.2 | 🔴 Очень сложный | 162 | 65 | 2.5 |
-| [DIGEST](DIGEST.md) | 2.2 | 🔴 Очень сложный | 221 | 22 | 10.0 |
 | [10-what-not-solved](nautilus/infrastructure-layer-b-en/10-what-not-solved.md) | 2.2 | 🔴 Очень сложный | 300 | 42 | 7.1 |
 | [03-ingit-provides](nautilus/ingit-cowork-en/03-ingit-provides.md) | 2.2 | 🔴 Очень сложный | 826 | 74 | 11.2 |
 | [03-ingit-provides](obsidian/nautilus/ingit-cowork-en/03-ingit-provides.md) | 2.2 | 🔴 Очень сложный | 785 | 66 | 11.9 |
 | [139-2-the-double-triangle-architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 2.3 | 🔴 Очень сложный | 731 | 68 | 10.8 |
-| [METRICS](METRICS.md) | 2.3 | 🔴 Очень сложный | 133 | 20 | 6.7 |
 | [svyazi](autofilled/components/svyazi.md) | 2.5 | 🔴 Очень сложный | 196 | 49 | 4.0 |
-| [README](nautilus/community-discussions/habr-article-1-reaction/README.md) | 2.5 | 🔴 Очень сложный | 41 | 10 | 4.1 |
 | [5-browser-agents-headless](habr-unique-projects/software-pairs/5-browser-agents-headless.md) | 2.6 | 🔴 Очень сложный | 492 | 47 | 10.5 |
 | [01-why-single-triangle-incomplete](obsidian/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md) | 2.8 | 🔴 Очень сложный | 567 | 48 | 11.8 |
 | [lorenzo](autofilled/components/lorenzo.md) | 2.9 | 🔴 Очень сложный | 196 | 49 | 4.0 |
 | [223-12-closing](02-anthropic-vacancies/223-12-closing.md) | 3.0 | 🔴 Очень сложный | 850 | 91 | 9.3 |
-| [README](nautilus/representative-agent-layer-en/README.md) | 3.0 | 🔴 Очень сложный | 128 | 36 | 3.6 |
-| [README](obsidian/nautilus/review-methodology/README.md) | 3.0 | 🔴 Очень сложный | 136 | 39 | 3.5 |
 | [181-12-closing](02-anthropic-vacancies/181-12-closing.md) | 3.1 | 🔴 Очень сложный | 497 | 57 | 8.7 |
-| [README](obsidian/lorenzo-agent/naming/README.md) | 3.2 | 🔴 Очень сложный | 37 | 8 | 4.6 |
 | [02-twenty-one-teachers-pattern](obsidian/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md) | 3.3 | 🔴 Очень сложный | 744 | 61 | 12.2 |
 | [09-what-industry-will-build](obsidian/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md) | 3.4 | 🔴 Очень сложный | 310 | 39 | 7.9 |
-| [README](anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | 3.5 | 🔴 Очень сложный | 85 | 20 | 4.2 |
 | [138-1-why-single-triangle-models-are-incomple](obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | 3.6 | 🔴 Очень сложный | 594 | 42 | 14.1 |
-| [mega-stack](templates/mega-stack.md) | 3.6 | 🔴 Очень сложный | 206 | 30 | 6.9 |
 | [02-twenty-one-teachers-pattern](nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md) | 3.9 | 🔴 Очень сложный | 768 | 68 | 11.3 |
+| [README](obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md) | 3.9 | 🔴 Очень сложный | 34 | 9 | 3.8 |
 | [00-question-lorenzo-codename](lorenzo-agent/naming/00-question-lorenzo-codename.md) | 4.0 | 🔴 Очень сложный | 286 | 33 | 8.7 |
 | [08-recursive-insight](nautilus/infrastructure-layer-b-en/08-recursive-insight.md) | 4.0 | 🔴 Очень сложный | 393 | 46 | 8.5 |
 | [CHANGELOG](obsidian/CHANGELOG.md) | 4.0 | 🔴 Очень сложный | 2090 | 107 | 19.5 |
-| [README](obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md) | 4.0 | 🔴 Очень сложный | 111 | 29 | 3.8 |
 | [311-3-what-ingit-provides-that-cowork-lacks](obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) | 4.1 | 🔴 Очень сложный | 880 | 70 | 12.6 |
-| [README](nautilus/community-discussions/habr-article-2-reaction/README.md) | 4.3 | 🔴 Очень сложный | 40 | 11 | 3.6 |
+| [README](technology-combinations/mega-stacks/README.md) | 4.2 | 🔴 Очень сложный | 101 | 25 | 4.0 |
+| [README](lorenzo-agent/README.md) | 4.3 | 🔴 Очень сложный | 212 | 57 | 3.7 |
 | [01-why-single-triangle-incomplete](nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md) | 4.4 | 🔴 Очень сложный | 595 | 56 | 10.6 |
+| [README](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | 4.4 | 🔴 Очень сложный | 84 | 17 | 4.9 |
 | [210-abstract](02-anthropic-vacancies/210-abstract.md) | 4.5 | 🔴 Очень сложный | 733 | 73 | 10.0 |
 | [09-what-industry-will-build](nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md) | 4.5 | 🔴 Очень сложный | 328 | 47 | 7.0 |
 | [276-the-two-layer-stack-as-it-exists](obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) | 4.5 | 🔴 Очень сложный | 661 | 28 | 23.6 |
-| [README](anthropic-vacancies/beneficial-deployments-concept/README.md) | 4.6 | 🔴 Очень сложный | 141 | 34 | 4.1 |
 | [309-1-the-cowork-discovery-and-why-it-changes](obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) | 4.6 | 🔴 Очень сложный | 734 | 70 | 10.5 |
 | [05-why-not-built](obsidian/nautilus/infrastructure-layer-b-en/05-why-not-built.md) | 4.7 | 🔴 Очень сложный | 371 | 42 | 8.8 |
 | [04-enrichment](meta-scripting/04-enrichment.md) | 4.8 | 🔴 Очень сложный | 273 | 29 | 9.4 |
-| [README](obsidian/lorenzo-agent/specification/README.md) | 4.8 | 🔴 Очень сложный | 101 | 29 | 3.5 |
 | [356-твой-workflow](02-anthropic-vacancies/356-твой-workflow.md) | 4.9 | 🔴 Очень сложный | 377 | 39 | 9.7 |
+| [CONCEPT_GRAPH](CONCEPT_GRAPH.md) | 4.9 | 🔴 Очень сложный | 133 | 17 | 7.8 |
+| [README](obsidian/nautilus/community-discussions/agent-changes-reality/README.md) | 4.9 | 🔴 Очень сложный | 46 | 9 | 5.1 |
 | [65-readme-md](02-anthropic-vacancies/65-readme-md.md) | 5.0 | 🔴 Очень сложный | 328 | 53 | 6.2 |
 | [5-tinyml-mcp-skills](habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) | 5.1 | 🔴 Очень сложный | 284 | 30 | 9.5 |
 | [313-5-four-integration-paths-in-order-of-acce](obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) | 5.1 | 🔴 Очень сложный | 815 | 71 | 11.5 |
-| [README](contacts/README.md) | 5.3 | 🔴 Очень сложный | 112 | 40 | 2.8 |
-| [README](habr-unique-projects/extra-examples/README.md) | 5.6 | 🔴 Очень сложный | 156 | 36 | 4.3 |
-| [README](obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md) | 5.6 | 🔴 Очень сложный | 15 | 4 | 3.8 |
+| [README](nautilus/npp-v1-0/README.md) | 5.6 | 🔴 Очень сложный | 165 | 51 | 3.2 |
+| [README](obsidian/anthropic-vacancies/clusters/README.md) | 5.6 | 🔴 Очень сложный | 142 | 42 | 3.4 |
 | [255-2-the-twenty-one-teachers-pattern](02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) | 5.7 | 🔴 Очень сложный | 1061 | 99 | 10.7 |
 | [35-passports-info1-md](02-anthropic-vacancies/35-passports-info1-md.md) | 5.7 | 🔴 Очень сложный | 320 | 69 | 4.6 |
+| [README](nautilus/okwf-concept/README.md) | 6.0 | 🔴 Очень сложный | 133 | 37 | 3.6 |
 | [3-adversarial-multi-ide](habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) | 6.1 | 🔴 Очень сложный | 364 | 41 | 8.9 |
 | [03-dsl-ast](obsidian/technology-combinations/mega-stacks/03-dsl-ast.md) | 6.5 | 🔴 Очень сложный | 150 | 19 | 7.9 |
 | [275-why-this-document-exists](obsidian/02-anthropic-vacancies/275-why-this-document-exists.md) | 6.6 | 🔴 Очень сложный | 575 | 30 | 19.2 |
@@ -2314,173 +2334,143 @@ _Обновлено: 2026-05-11_
 | [311-3-what-ingit-provides-that-cowork-lacks](02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) | 6.8 | 🔴 Очень сложный | 927 | 82 | 11.3 |
 | [nautilus](autofilled/components/nautilus.md) | 6.8 | 🔴 Очень сложный | 196 | 49 | 4.0 |
 | [05-why-not-built](nautilus/infrastructure-layer-b-en/05-why-not-built.md) | 6.9 | 🔴 Очень сложный | 388 | 50 | 7.8 |
-| [README](anthropic-vacancies/clusters/README.md) | 7.0 | 🔴 Очень сложный | 136 | 42 | 3.2 |
 | [02-cowork-provides](nautilus/ingit-cowork-en/02-cowork-provides.md) | 7.1 | 🔴 Очень сложный | 642 | 66 | 9.7 |
-| [README](obsidian/habr-unique-projects/final-ensembles/README.md) | 7.1 | 🔴 Очень сложный | 32 | 8 | 4.0 |
-| [README](lorenzo-agent/specification/README.md) | 7.2 | 🔴 Очень сложный | 127 | 34 | 3.7 |
-| [README](nautilus/community-discussions/agent-changes-reality/README.md) | 7.2 | 🔴 Очень сложный | 53 | 11 | 4.8 |
+| [README](obsidian/nautilus/double-triangle-architecture/README.md) | 7.3 | 🔴 Очень сложный | 139 | 34 | 4.1 |
 | [04-whats-missing-layer-b](obsidian/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md) | 7.3 | 🔴 Очень сложный | 452 | 47 | 9.6 |
+| [README](obsidian/nautilus/ingit-cowork-en/README.md) | 7.3 | 🔴 Очень сложный | 119 | 30 | 4.0 |
 | [04-whats-missing-layer-b](nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md) | 7.4 | 🔴 Очень сложный | 478 | 56 | 8.5 |
 | [README](02-anthropic-vacancies/README.md) | 7.5 | 🔴 Очень сложный | 3233 | 720 | 4.5 |
+| [README](technology-combinations/combinations/README.md) | 7.5 | 🔴 Очень сложный | 497 | 84 | 5.9 |
+| [README](ai-collaborations/continuation/README.md) | 7.6 | 🔴 Очень сложный | 162 | 37 | 4.4 |
 | [284-practical-recommendations-for-the-current](obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) | 7.7 | 🔴 Очень сложный | 693 | 49 | 14.1 |
 | [282-what-industry-will-likely-build](02-anthropic-vacancies/282-what-industry-will-likely-build.md) | 7.8 | 🔴 Очень сложный | 714 | 74 | 9.6 |
+| [README](nautilus/npp-humanitarian-extension/README.md) | 7.8 | 🔴 Очень сложный | 156 | 29 | 5.4 |
 | [309-1-the-cowork-discovery-and-why-it-changes](02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) | 7.9 | 🔴 Очень сложный | 763 | 82 | 9.3 |
+| [README](obsidian/habr-unique-projects/final-ensembles/README.md) | 8.0 | 🔴 Очень сложный | 57 | 13 | 4.4 |
 | [313-5-four-integration-paths-in-order-of-acce](02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) | 8.1 | 🔴 Очень сложный | 831 | 79 | 10.5 |
-| [README](obsidian/nautilus/community-discussions/agent-changes-reality/README.md) | 8.1 | 🔴 Очень сложный | 21 | 4 | 5.2 |
-| [06-refined-ingit-scope](obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) | 8.1 | 🔴 Очень сложный | 402 | 35 | 11.5 |
 | [266-13-closing](02-anthropic-vacancies/266-13-closing.md) | 8.2 | 🔴 Очень сложный | 722 | 82 | 8.8 |
-| [README](obsidian/nautilus/infrastructure-layer-b-ru/README.md) | 8.2 | 🔴 Очень сложный | 93 | 31 | 3.0 |
 | [138-1-why-single-triangle-models-are-incomple](02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | 8.3 | 🔴 Очень сложный | 645 | 55 | 11.7 |
+| [README](nautilus/infrastructure-layer-b-ru/README.md) | 8.3 | 🔴 Очень сложный | 120 | 38 | 3.2 |
 | [314-6-refined-ingit-scope-with-cowork-in-mind](obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) | 8.3 | 🔴 Очень сложный | 602 | 42 | 14.3 |
 | [125-readme-mcp-md-инструкция-по-установке](02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) | 8.4 | 🔴 Очень сложный | 393 | 67 | 5.9 |
+| [README](obsidian/nautilus/community-discussions/habr-article-1-reaction/README.md) | 8.7 | 🔴 Очень сложный | 42 | 9 | 4.7 |
 | [278-why-this-hasn-t-been-built](obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) | 8.9 | 🔴 Очень сложный | 593 | 43 | 13.8 |
-| [README](obsidian/anthropic-vacancies/clusters/README.md) | 8.9 | 🔴 Очень сложный | 116 | 37 | 3.1 |
 | [310-2-what-cowork-provides-that-ingit-doesn-t](obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) | 9.3 | 🔴 Очень сложный | 746 | 57 | 13.1 |
-| [README](nautilus/ingit-cowork-en/README.md) | 9.4 | 🔴 Очень сложный | 123 | 30 | 4.1 |
-| [BADGES](BADGES.md) | 9.5 | 🔴 Очень сложный | 64 | 15 | 4.3 |
-| [README](svyazi-2-0/outreach/README.md) | 9.8 | 🔴 Очень сложный | 53 | 14 | 3.8 |
-| [README](technology-combinations/combinations/README.md) | 10.0 | 🔴 Очень сложный | 485 | 80 | 6.1 |
+| [README](obsidian/lorenzo-agent/specification/README.md) | 9.5 | 🔴 Очень сложный | 133 | 34 | 3.9 |
+| [06-refined-ingit-scope](obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) | 10.0 | 🔴 Очень сложный | 463 | 40 | 11.6 |
 | [281-the-recursive-insight](02-anthropic-vacancies/281-the-recursive-insight.md) | 10.2 | 🔴 Очень сложный | 654 | 73 | 9.0 |
+| [README](obsidian/svyazi-2-0/outreach/README.md) | 10.3 | 🔴 Очень сложный | 47 | 12 | 3.9 |
 | [286-acknowledgments](02-anthropic-vacancies/286-acknowledgments.md) | 10.4 | 🔴 Очень сложный | 629 | 62 | 10.1 |
-| [README](lorenzo-agent/README.md) | 10.5 | 🔴 Очень сложный | 200 | 53 | 3.8 |
-| [README](obsidian/nautilus/community-discussions/habr-article-1-reaction/README.md) | 10.6 | 🔴 Очень сложный | 19 | 4 | 4.8 |
 | [314-6-refined-ingit-scope-with-cowork-in-mind](02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) | 10.8 | 🔴 Очень сложный | 625 | 51 | 12.3 |
+| [README](obsidian/technology-combinations/combinations/README.md) | 11.0 | 🔴 Очень сложный | 495 | 80 | 6.2 |
 | [06-refined-ingit-scope](nautilus/ingit-cowork-en/06-refined-ingit-scope.md) | 11.3 | 🔴 Очень сложный | 428 | 42 | 10.2 |
 | [CONSISTENCY](obsidian/CONSISTENCY.md) | 11.4 | 🔴 Очень сложный | 294 | 24 | 12.2 |
 | [277-what-s-missing-layer-b](obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md) | 11.5 | 🔴 Очень сложный | 786 | 45 | 17.5 |
-| [README](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | 11.6 | 🔴 Очень сложный | 43 | 10 | 4.3 |
-| [README](obsidian/nautilus/ingit-cowork-en/README.md) | 11.6 | 🔴 Очень сложный | 91 | 25 | 3.6 |
-| [VOCABULARY](VOCABULARY.md) | 11.7 | 🔴 Очень сложный | 250 | 60 | 4.2 |
+| [README](anthropic-vacancies/nautilus-vs-camel/README.md) | 11.7 | 🔴 Очень сложный | 152 | 29 | 5.2 |
 | [03-dsl-ast](technology-combinations/mega-stacks/03-dsl-ast.md) | 11.7 | 🔴 Очень сложный | 169 | 29 | 5.8 |
+| [README](nautilus/composite-skills-agents/README.md) | 11.8 | 🔴 Очень сложный | 151 | 38 | 4.0 |
 | [358-твоя-relationship-с-другими-ai](02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) | 11.9 | 🔴 Очень сложный | 357 | 32 | 11.2 |
-| [README](obsidian/nautilus/composite-skills-agents/README.md) | 12.0 | 🔴 Очень сложный | 107 | 31 | 3.5 |
-| [README](obsidian/contacts/README.md) | 12.1 | 🔴 Очень сложный | 104 | 38 | 2.7 |
 | [03-two-layer-stack](obsidian/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) | 12.1 | 🔴 Очень сложный | 365 | 30 | 12.2 |
 | [07-practical-first-steps](nautilus/ingit-cowork-en/07-practical-first-steps.md) | 12.2 | 🔴 Очень сложный | 416 | 56 | 7.4 |
-| [CHANGELOG](CHANGELOG.md) | 12.3 | 🔴 Очень сложный | 2854 | 158 | 18.1 |
-| [README](obsidian/habr-unique-projects/extra-examples/README.md) | 12.3 | 🔴 Очень сложный | 128 | 31 | 4.1 |
+| [README](obsidian/contacts/README.md) | 12.3 | 🔴 Очень сложный | 105 | 38 | 2.8 |
+| [CHANGELOG](CHANGELOG.md) | 12.4 | 🔴 Очень сложный | 2877 | 160 | 18.0 |
+| [README](nautilus/professional-colleague-agents-en/README.md) | 12.5 | 🔴 Очень сложный | 143 | 38 | 3.8 |
 | [283-what-this-document-doesn-t-solve](obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) | 12.5 | 🔴 Очень сложный | 504 | 27 | 18.7 |
-| [README](obsidian/technology-combinations/combinations/README.md) | 12.5 | 🔴 Очень сложный | 443 | 75 | 5.9 |
 | [310-2-what-cowork-provides-that-ingit-doesn-t](02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) | 12.7 | 🔴 Очень сложный | 775 | 68 | 11.4 |
-| [README](obsidian/nautilus/double-triangle-architecture/README.md) | 12.7 | 🔴 Очень сложный | 103 | 29 | 3.6 |
-| [README](obsidian/lorenzo-agent/README.md) | 12.9 | 🔴 Очень сложный | 173 | 48 | 3.6 |
-| [README](obsidian/nautilus/professional-colleague-agents-en/README.md) | 13.1 | 🔴 Очень сложный | 104 | 31 | 3.4 |
+| [README](obsidian/nautilus/infrastructure-layer-b-ru/README.md) | 13.0 | 🔴 Очень сложный | 119 | 36 | 3.3 |
+| [README](obsidian/habr-unique-projects/extra-examples/README.md) | 13.1 | 🔴 Очень сложный | 166 | 36 | 4.6 |
 | [07-practical-first-steps](obsidian/nautilus/ingit-cowork-en/07-practical-first-steps.md) | 13.4 | 🔴 Очень сложный | 397 | 50 | 7.9 |
-| [README](meta-scripting/README.md) | 13.7 | 🔴 Очень сложный | 61 | 20 | 3.0 |
+| [README](processing-guide/README.md) | 13.4 | 🔴 Очень сложный | 100 | 33 | 3.0 |
 | [211-table-of-contents](02-anthropic-vacancies/211-table-of-contents.md) | 13.8 | 🔴 Очень сложный | 651 | 88 | 7.4 |
-| [README](nautilus/infrastructure-layer-b-ru/README.md) | 13.8 | 🔴 Очень сложный | 115 | 36 | 3.2 |
-| [README](nautilus/npp-v1-0/README.md) | 13.9 | 🔴 Очень сложный | 153 | 48 | 3.2 |
-| [README](obsidian/svyazi-2-0/outreach/README.md) | 13.9 | 🔴 Очень сложный | 21 | 6 | 3.5 |
 | [README](obsidian/README.md) | 14.4 | 🔴 Очень сложный | 347 | 68 | 5.1 |
+| [README](anthropic-vacancies/mmorpg-for-programmers/README.md) | 14.6 | 🔴 Очень сложный | 134 | 29 | 4.6 |
 | [353-что-ты-не-можешь-делать-вообще](02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) | 14.7 | 🔴 Очень сложный | 440 | 40 | 11.0 |
-| [README](nautilus/supply-demand/README.md) | 14.7 | 🔴 Очень сложный | 51 | 11 | 4.6 |
 | [315-7-practical-first-steps-this-month](obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) | 14.8 | 🔴 Очень сложный | 474 | 48 | 9.9 |
-| [README](svyazi-2-0/ensembles/README.md) | 14.9 | 🔴 Очень сложный | 104 | 26 | 4.0 |
+| [README](obsidian/habr-unique-projects/deep-pairs/README.md) | 14.8 | 🔴 Очень сложный | 109 | 26 | 4.2 |
+| [README](habr-unique-projects/software-pairs/README.md) | 15.2 | 🔴 Очень сложный | 105 | 27 | 3.9 |
+| [README](obsidian/nautilus/okwf-concept/README.md) | 15.2 | 🔴 Очень сложный | 112 | 32 | 3.5 |
+| [README](obsidian/ai-collaborations/ensembles/README.md) | 15.4 | 🔴 Очень сложный | 130 | 28 | 4.6 |
 | [01-missing-middle-layer](nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md) | 15.5 | 🔴 Очень сложный | 360 | 42 | 8.6 |
 | [02-why-document-exists](nautilus/infrastructure-layer-b-en/02-why-document-exists.md) | 15.5 | 🔴 Очень сложный | 360 | 42 | 8.6 |
 | [308-table-of-contents](obsidian/02-anthropic-vacancies/308-table-of-contents.md) | 15.5 | 🔴 Очень сложный | 519 | 36 | 14.4 |
 | [CITATION_INDEX](obsidian/CITATION_INDEX.md) | 15.5 | 🔴 Очень сложный | 518 | 71 | 7.3 |
-| [README](nautilus/double-triangle-architecture/README.md) | 15.8 | 🔴 Очень сложный | 139 | 34 | 4.1 |
+| [README](obsidian/nautilus/supply-demand/README.md) | 15.6 | 🔴 Очень сложный | 45 | 9 | 5.0 |
 | [07-specific-case](nautilus/infrastructure-layer-b-en/07-specific-case.md) | 15.8 | 🔴 Очень сложный | 663 | 77 | 8.6 |
+| [README](obsidian/lorenzo-agent/README.md) | 16.0 | 🔴 Очень сложный | 199 | 53 | 3.8 |
 | [279-existing-approximations](02-anthropic-vacancies/279-existing-approximations.md) | 16.1 | 🔴 Очень сложный | 685 | 45 | 15.2 |
-| [README](nautilus/composite-skills-agents/README.md) | 16.1 | 🔴 Очень сложный | 146 | 36 | 4.1 |
 | [280-the-specific-case-in-front-of-us](obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) | 16.1 | 🔴 Очень сложный | 979 | 70 | 14.0 |
 | [03-two-layer-stack](nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) | 16.2 | 🔴 Очень сложный | 398 | 39 | 10.2 |
+| [README](obsidian/nautilus/npp-v1-0/README.md) | 16.2 | 🔴 Очень сложный | 153 | 48 | 3.2 |
+| [README](obsidian/nautilus/composite-skills-agents/README.md) | 16.4 | 🔴 Очень сложный | 143 | 36 | 4.0 |
 | [07-specific-case](obsidian/nautilus/infrastructure-layer-b-en/07-specific-case.md) | 16.6 | 🔴 Очень сложный | 634 | 68 | 9.3 |
+| [README](obsidian/nautilus/professional-colleague-agents-en/README.md) | 16.6 | 🔴 Очень сложный | 132 | 36 | 3.7 |
 | [CONSISTENCY](CONSISTENCY.md) | 16.7 | 🔴 Очень сложный | 124 | 19 | 6.5 |
-| [README](svyazi-2-0/security/README.md) | 16.8 | 🔴 Очень сложный | 49 | 14 | 3.5 |
 | [169-table-of-contents](02-anthropic-vacancies/169-table-of-contents.md) | 16.9 | 🔴 Очень сложный | 381 | 64 | 6.0 |
-| [README](obsidian/nautilus/npp-v1-0/README.md) | 16.9 | 🔴 Очень сложный | 135 | 43 | 3.1 |
+| [VOCABULARY](VOCABULARY.md) | 16.9 | 🔴 Очень сложный | 253 | 64 | 4.0 |
 | [VOCABULARY](obsidian/VOCABULARY.md) | 17.1 | 🔴 Очень сложный | 245 | 58 | 4.2 |
-| [CITATION_INDEX](CITATION_INDEX.md) | 17.2 | 🔴 Очень сложный | 515 | 70 | 7.4 |
-| [README](nautilus/professional-colleague-agents-en/README.md) | 17.2 | 🔴 Очень сложный | 138 | 36 | 3.8 |
 | [45-passports-pro2-md](02-anthropic-vacancies/45-passports-pro2-md.md) | 17.3 | 🔴 Очень сложный | 288 | 61 | 4.7 |
-| [README](habr-unique-projects/deep-pairs/README.md) | 17.5 | 🔴 Очень сложный | 106 | 26 | 4.1 |
 | [253-table-of-contents](02-anthropic-vacancies/253-table-of-contents.md) | 17.6 | 🔴 Очень сложный | 492 | 75 | 6.6 |
-| [README](processing-guide/README.md) | 17.7 | 🔴 Очень сложный | 101 | 32 | 3.2 |
-| [README](svyazi-2-0/architecture/README.md) | 17.8 | 🔴 Очень сложный | 84 | 23 | 3.7 |
-| [NAMED_ENTITIES](NAMED_ENTITIES.md) | 18.6 | 🔴 Очень сложный | 389 | 39 | 10.0 |
+| [README](obsidian/svyazi-2-0/security/README.md) | 18.5 | 🔴 Очень сложный | 38 | 11 | 3.5 |
 | [55-passports-meta-md](02-anthropic-vacancies/55-passports-meta-md.md) | 18.8 | 🔴 Очень сложный | 289 | 61 | 4.7 |
 | [315-7-practical-first-steps-this-month](02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) | 18.9 | 🔴 Очень сложный | 538 | 60 | 9.0 |
-| [README](obsidian/ai-collaborations/ensembles/README.md) | 19.1 | 🔴 Очень сложный | 94 | 23 | 4.1 |
-| [README](obsidian/anthropic-vacancies/extra-collaborator-findings/README.md) | 19.8 | 🔴 Очень сложный | 73 | 19 | 3.8 |
-| [README](ai-collaborations/ensembles/README.md) | 19.9 | 🔴 Очень сложный | 120 | 28 | 4.3 |
-| [README](obsidian/habr-unique-projects/deep-pairs/README.md) | 20.0 | 🔴 Очень сложный | 80 | 21 | 3.8 |
-| [README](anthropic-vacancies/extra-collaborator-findings/README.md) | 20.6 | 🔴 Очень сложный | 99 | 24 | 4.1 |
-| [README](obsidian/nautilus/okwf-concept/README.md) | 20.6 | 🔴 Очень сложный | 86 | 27 | 3.2 |
-| [README](nautilus/okwf-concept/README.md) | 20.7 | 🔴 Очень сложный | 114 | 32 | 3.6 |
+| [CITATION_INDEX](CITATION_INDEX.md) | 19.5 | 🔴 Очень сложный | 520 | 75 | 6.9 |
+| [README](obsidian/anthropic-vacancies/extra-collaborator-findings/README.md) | 19.7 | 🔴 Очень сложный | 107 | 24 | 4.5 |
+| [README](habr-unique-projects/hardware-pairs/README.md) | 20.0 | 🔴 Очень сложный | 116 | 31 | 3.7 |
+| [README](obsidian/svyazi-2-0/ensembles/README.md) | 20.3 | 🔴 Очень сложный | 110 | 26 | 4.2 |
 | [NAMED_ENTITIES](obsidian/NAMED_ENTITIES.md) | 20.7 | 🔴 Очень сложный | 370 | 35 | 10.6 |
-| [EMPTY_SECTIONS](EMPTY_SECTIONS.md) | 21.1 | 🔴 Очень сложный | 17194 | 3023 | 5.7 |
-| [README](obsidian/svyazi-2-0/ensembles/README.md) | 21.1 | 🔴 Очень сложный | 80 | 21 | 3.8 |
-| [README](svyazi-2-0/limitations/README.md) | 21.5 | 🔴 Очень сложный | 48 | 13 | 3.7 |
+| [README](obsidian/lorenzo-agent/phased-deployment/README.md) | 20.9 | 🔴 Очень сложный | 114 | 28 | 4.1 |
+| [README](nautilus/professional-colleague-agents-ru/README.md) | 21.0 | 🔴 Очень сложный | 128 | 38 | 3.4 |
+| [NAMED_ENTITIES](NAMED_ENTITIES.md) | 21.1 | 🔴 Очень сложный | 390 | 43 | 9.1 |
+| [EMPTY_SECTIONS](EMPTY_SECTIONS.md) | 21.3 | 🔴 Очень сложный | 17404 | 3071 | 5.7 |
 | [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) | 21.7 | 🔴 Очень сложный | 7738 | 1340 | 5.8 |
 | [284-practical-recommendations-for-the-current](02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) | 22.0 | 🔴 Очень сложный | 785 | 93 | 8.4 |
-| [README](lorenzo-agent/phased-deployment/README.md) | 22.0 | 🔴 Очень сложный | 108 | 28 | 3.9 |
-| [README](obsidian/nautilus/professional-colleague-agents-ru/README.md) | 22.0 | 🔴 Очень сложный | 94 | 31 | 3.0 |
-| [README](obsidian/nautilus/privacy-federation/README.md) | 22.9 | 🔴 Очень сложный | 66 | 15 | 4.4 |
-| [README](nautilus/privacy-federation/README.md) | 23.1 | 🔴 Очень сложный | 97 | 20 | 4.8 |
+| [README](obsidian/processing-guide/README.md) | 22.4 | 🔴 Очень сложный | 81 | 30 | 2.7 |
+| [PRIORITIES](PRIORITIES.md) | 22.8 | 🔴 Очень сложный | 646 | 143 | 4.5 |
+| [README](obsidian/anthropic-vacancies/profile-mapping/03-integral-final/README.md) | 22.9 | 🔴 Очень сложный | 86 | 18 | 4.8 |
+| [README](obsidian/svyazi-2-0/limitations/README.md) | 22.9 | 🔴 Очень сложный | 47 | 12 | 3.9 |
 | [278-why-this-hasn-t-been-built](02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) | 23.5 | 🔴 Очень сложный | 676 | 84 | 8.0 |
-| [README](obsidian/lorenzo-agent/phased-deployment/README.md) | 23.9 | 🔴 Очень сложный | 84 | 23 | 3.7 |
-| [README](nautilus/composite-skills-agents-companion-mentors/README.md) | 24.0 | 🔴 Очень сложный | 73 | 17 | 4.3 |
-| [README](obsidian/nautilus/supply-demand/README.md) | 24.1 | 🔴 Очень сложный | 20 | 4 | 5.0 |
-| [README](obsidian/processing-guide/README.md) | 24.1 | 🔴 Очень сложный | 70 | 27 | 2.6 |
-| [README](anthropic-vacancies/profile-mapping/03-integral-final/README.md) | 24.2 | 🔴 Очень сложный | 82 | 20 | 4.1 |
+| [README](anthropic-vacancies/ai-managed-virtual-company/README.md) | 23.7 | 🔴 Очень сложный | 148 | 36 | 4.1 |
+| [README](nautilus/npp-v1-1/README.md) | 23.9 | 🔴 Очень сложный | 175 | 57 | 3.1 |
 | [276-the-two-layer-stack-as-it-exists](02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) | 24.3 | 🔴 Очень сложный | 758 | 70 | 10.8 |
-| [README](obsidian/nautilus/npp-humanitarian-extension/README.md) | 24.7 | 🔴 Очень сложный | 87 | 17 | 5.1 |
-| [PRIORITIES](PRIORITIES.md) | 25.1 | 🔴 Очень сложный | 619 | 135 | 4.6 |
-| [README](obsidian/svyazi-2-0/security/README.md) | 25.5 | 🔴 Очень сложный | 19 | 6 | 3.2 |
+| [README](obsidian/nautilus/privacy-federation/README.md) | 25.1 | 🔴 Очень сложный | 107 | 20 | 5.3 |
 | [275-why-this-document-exists](02-anthropic-vacancies/275-why-this-document-exists.md) | 25.6 | 🔴 Очень сложный | 663 | 70 | 9.5 |
 | [277-what-s-missing-layer-b](02-anthropic-vacancies/277-what-s-missing-layer-b.md) | 25.6 | 🔴 Очень сложный | 895 | 86 | 10.4 |
 | [280-the-specific-case-in-front-of-us](02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) | 25.7 | 🔴 Очень сложный | 1087 | 119 | 9.1 |
-| [README](obsidian/svyazi-2-0/limitations/README.md) | 26.0 | 🔴 Очень сложный | 21 | 6 | 3.5 |
-| [README](nautilus/professional-colleague-agents-ru/README.md) | 26.6 | 🔴 Очень сложный | 124 | 36 | 3.4 |
-| [README](obsidian/svyazi-2-0/architecture/README.md) | 26.8 | 🔴 Очень сложный | 47 | 13 | 3.6 |
-| [README](nautilus/npp-v1-1/README.md) | 28.0 | 🔴 Очень сложный | 170 | 55 | 3.1 |
-| [README](ai-collaborations/continuation/README.md) | 28.1 | 🔴 Очень сложный | 137 | 30 | 4.6 |
-| [README](habr-unique-projects/key-findings/README.md) | 28.7 | 🔴 Очень сложный | 80 | 22 | 3.6 |
-| [README](obsidian/ai-collaborations/continuation/README.md) | 29.3 | 🔴 Очень сложный | 103 | 25 | 4.1 |
-| [README](obsidian/anthropic-vacancies/profile-mapping/03-integral-final/README.md) | 29.3 | 🔴 Очень сложный | 42 | 10 | 4.2 |
-| [README](technology-combinations/synthesis-tables/README.md) | 29.6 | 🔴 Очень сложный | 48 | 18 | 2.7 |
-| [README](nautilus/npp-humanitarian-extension/README.md) | 29.7 | 🔴 Очень сложный | 129 | 22 | 5.9 |
-| [README](obsidian/habr-unique-projects/key-findings/README.md) | 30.1 | 🟠 Сложный | 42 | 12 | 3.5 |
-| [README](glossary/README.md) | 30.3 | 🟠 Сложный | 51 | 13 | 3.9 |
+| [README](obsidian/svyazi-2-0/architecture/README.md) | 25.7 | 🔴 Очень сложный | 61 | 17 | 3.6 |
+| [README](obsidian/meta-scripting/README.md) | 25.8 | 🔴 Очень сложный | 57 | 20 | 2.9 |
+| [README](obsidian/nautilus/professional-colleague-agents-ru/README.md) | 26.4 | 🔴 Очень сложный | 118 | 36 | 3.3 |
+| [README](obsidian/technology-combinations/mega-stacks/README.md) | 26.7 | 🔴 Очень сложный | 52 | 12 | 4.3 |
+| [README](obsidian/anthropic-vacancies/nautilus-vs-camel/README.md) | 27.0 | 🔴 Очень сложный | 137 | 22 | 6.2 |
+| [README](obsidian/anthropic-vacancies/ai-managed-virtual-company/README.md) | 29.6 | 🔴 Очень сложный | 136 | 32 | 4.2 |
+| [STALENESS](STALENESS.md) | 30.0 | 🔴 Очень сложный | 146 | 11 | 13.3 |
+| [README](obsidian/nautilus/npp-v1-1/README.md) | 30.0 | 🟠 Сложный | 169 | 55 | 3.1 |
+| [README](obsidian/technology-combinations/synthesis-tables/README.md) | 30.2 | 🟠 Сложный | 54 | 20 | 2.7 |
 | [README](README.md) | 30.5 | 🟠 Сложный | 396 | 109 | 3.6 |
 | [283-what-this-document-doesn-t-solve](02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) | 30.6 | 🟠 Сложный | 581 | 64 | 9.1 |
+| [README](obsidian/nautilus/npp-humanitarian-extension/README.md) | 30.6 | 🟠 Сложный | 139 | 22 | 6.3 |
 | [308-table-of-contents](02-anthropic-vacancies/308-table-of-contents.md) | 30.9 | 🟠 Сложный | 604 | 81 | 7.5 |
-| [README](obsidian/anthropic-vacancies/ai-managed-virtual-company/README.md) | 31.3 | 🟠 Сложный | 106 | 27 | 3.9 |
-| [README](obsidian/nautilus/npp-v1-1/README.md) | 32.3 | 🟠 Сложный | 151 | 50 | 3.0 |
-| [README](obsidian/anthropic-vacancies/nautilus-vs-camel/README.md) | 32.4 | 🟠 Сложный | 87 | 17 | 5.1 |
-| [README](anthropic-vacancies/nautilus-vs-camel/README.md) | 32.5 | 🟠 Сложный | 125 | 22 | 5.7 |
-| [STALENESS](STALENESS.md) | 33.4 | 🟠 Сложный | 150 | 12 | 12.5 |
-| [README](technology-combinations/mega-stacks/README.md) | 34.5 | 🟠 Сложный | 75 | 18 | 4.2 |
-| [README](anthropic-vacancies/ai-managed-virtual-company/README.md) | 34.6 | 🟠 Сложный | 136 | 32 | 4.2 |
-| [COMPARE](COMPARE.md) | 36.0 | 🟠 Сложный | 105 | 11 | 9.5 |
-| [README](obsidian/nautilus/composite-skills-agents-companion-mentors/README.md) | 37.0 | 🟠 Сложный | 39 | 8 | 4.9 |
-| [README](obsidian/anthropic-vacancies/mmorpg-for-programmers/README.md) | 37.7 | 🟠 Сложный | 75 | 17 | 4.4 |
-| [README](obsidian/meta-scripting/README.md) | 38.1 | 🟠 Сложный | 28 | 11 | 2.5 |
-| [README](anthropic-vacancies/mmorpg-for-programmers/README.md) | 38.2 | 🟠 Сложный | 107 | 22 | 4.9 |
-| [README](svyazi-2-0/prototype/README.md) | 38.3 | 🟠 Сложный | 41 | 12 | 3.4 |
-| [README](obsidian/nautilus/infrastructure-layer-b-en/README.md) | 39.1 | 🟠 Сложный | 117 | 33 | 3.5 |
+| [README](obsidian/habr-unique-projects/key-findings/README.md) | 31.0 | 🟠 Сложный | 60 | 16 | 3.8 |
+| [README](svyazi-2-0/components/README.md) | 32.1 | 🟠 Сложный | 163 | 48 | 3.4 |
+| [README](obsidian/glossary/README.md) | 33.2 | 🟠 Сложный | 48 | 11 | 4.4 |
+| [README](obsidian/nautilus/composite-skills-agents-companion-mentors/README.md) | 33.4 | 🟠 Сложный | 78 | 15 | 5.2 |
+| [README](obsidian/ai-collaborations/continuation/README.md) | 35.3 | 🟠 Сложный | 141 | 30 | 4.7 |
+| [COMPARE](COMPARE.md) | 37.5 | 🟠 Сложный | 101 | 11 | 9.2 |
+| [README](nautilus/infrastructure-layer-b-en/README.md) | 37.8 | 🟠 Сложный | 150 | 40 | 3.8 |
+| [README](templates/README.md) | 38.2 | 🟠 Сложный | 192 | 58 | 3.3 |
 | [README](autofilled/components/README.md) | 39.2 | 🟠 Сложный | 72 | 23 | 3.1 |
+| [README](obsidian/anthropic-vacancies/mmorpg-for-programmers/README.md) | 40.2 | 🟠 Сложный | 117 | 22 | 5.3 |
 | [README](obsidian/svyazi-2-0/components/README.md) | 42.1 | 🟠 Сложный | 129 | 39 | 3.3 |
-| [README](svyazi-2-0/components/README.md) | 42.6 | 🟠 Сложный | 151 | 45 | 3.4 |
-| [README](templates/README.md) | 42.7 | 🟠 Сложный | 182 | 56 | 3.2 |
-| [README](nautilus/infrastructure-layer-b-en/README.md) | 43.1 | 🟠 Сложный | 145 | 38 | 3.8 |
-| [README](obsidian/technology-combinations/mega-stacks/README.md) | 43.3 | 🟠 Сложный | 34 | 8 | 4.2 |
-| [README](obsidian/technology-combinations/synthesis-tables/README.md) | 44.3 | 🟠 Сложный | 28 | 12 | 2.3 |
-| [README](obsidian/templates/README.md) | 44.4 | 🟠 Сложный | 177 | 55 | 3.2 |
+| [README](obsidian/nautilus/infrastructure-layer-b-en/README.md) | 43.9 | 🟠 Сложный | 149 | 38 | 3.9 |
+| [README](obsidian/templates/README.md) | 44.3 | 🟠 Сложный | 179 | 55 | 3.3 |
 | [LANGUAGE_STATS](obsidian/LANGUAGE_STATS.md) | 44.5 | 🟠 Сложный | 414 | 10 | 41.4 |
-| [README](obsidian/glossary/README.md) | 44.8 | 🟠 Сложный | 23 | 6 | 3.8 |
 | [README](obsidian/autofilled/components/README.md) | 47.1 | 🟠 Сложный | 60 | 19 | 3.2 |
-| [README](habr-unique-projects/software-pairs/README.md) | 49.7 | 🟠 Сложный | 79 | 20 | 4.0 |
-| [README](habr-unique-projects/hardware-pairs/README.md) | 51.7 | 🟡 Средний | 90 | 24 | 3.8 |
-| [README](obsidian/habr-unique-projects/hardware-pairs/README.md) | 52.1 | 🟡 Средний | 66 | 19 | 3.5 |
-| [LANGUAGE_STATS](LANGUAGE_STATS.md) | 53.3 | 🟡 Средний | 404 | 22 | 18.4 |
+| [README](obsidian/habr-unique-projects/hardware-pairs/README.md) | 49.5 | 🟠 Сложный | 76 | 21 | 3.6 |
+| [README](obsidian/svyazi-2-0/prototype/README.md) | 51.4 | 🟡 Средний | 39 | 11 | 3.5 |
 | [LINK_PREVIEW](LINK_PREVIEW.md) | 56.0 | 🟡 Средний | 467 | 121 | 3.9 |
-| [README](obsidian/habr-unique-projects/software-pairs/README.md) | 56.8 | 🟡 Средний | 66 | 17 | 3.9 |
-| [README](obsidian/svyazi-2-0/prototype/README.md) | 64.0 | 🟡 Средний | 17 | 5 | 3.4 |
+| [LANGUAGE_STATS](LANGUAGE_STATS.md) | 57.2 | 🟡 Средний | 380 | 19 | 20.0 |
+| [README](obsidian/habr-unique-projects/software-pairs/README.md) | 66.2 | 🟡 Средний | 104 | 22 | 4.7 |
 
-## Самые сложные тексты (2412) — рекомендуется упростить
+## Самые сложные тексты (2422) — рекомендуется упростить
 
 - [00-intro-part2](01-svyazi/00-intro-part2.md) — FRE 0, среднее 7.0 слов/предложение
 - [01-executive-summary](01-svyazi/01-executive-summary.md) — FRE 0, среднее 14.6 слов/предложение
@@ -2493,85 +2483,6 @@ _Обновлено: 2026-05-11_
 - [09-architectural-gaps](01-svyazi/09-architectural-gaps.md) — FRE 0, среднее 20.7 слов/предложение
 - [10-second-order-ensembles](01-svyazi/10-second-order-ensembles.md) — FRE 0, среднее 14.8 слов/предложение
 
-
-## Использование
-```bash
-# Запуск генератора
-python scripts/improve_readability.py
-```
-```bash
-# Пример 2: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 3: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 4: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 5: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 6: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 7: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 8: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 9: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 10: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 11: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 12: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 13: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 14: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 15: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 16: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 17: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 18: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-```bash
-# Пример 19: фильтрация результатов
-python scripts/improve_readability.py --section 01-svyazi
-```
-
 <!-- see-also -->
 
 ---
@@ -2583,18 +2494,81 @@ python scripts/improve_readability.py --section 01-svyazi
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 
 
-<!-- backlinks -->
 
----
-
-**Кто ссылается на этот документ (1232):**
-- [00-intro-part2](01-svyazi/00-intro-part2.md)
-- [02-methodology](01-svyazi/02-methodology.md)
-- [06-security-privacy](01-svyazi/06-security-privacy.md)
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
-- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [192-2-исторические-прецеденты-агенты-как-цивилизационн](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
-- _...ещё 1224_
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_readability.py
+```
+```bash
+# Вариант 2
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 12
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 13
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 14
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 15
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 16
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 17
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 18
+python scripts/improve_readability.py --dry-run
+```
+```bash
+# Вариант 19
+python scripts/improve_readability.py --dry-run
+```

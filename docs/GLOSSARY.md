@@ -70,3 +70,14 @@
 # Запуск
 python scripts/improve_glossary.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](MINDMAP.md)
+- [TAGS](TAGS.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [ENTITIES](ENTITIES.md)
+

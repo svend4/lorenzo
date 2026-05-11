@@ -190,3 +190,14 @@ graph TD
 - [READING_TIME](READING_TIME.md)
 - _...ещё 10_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [15-glossary](nautilus/npp-v1-0/15-glossary.md)
+- [11-relevance-ranking](nautilus/npp-v1-1/11-relevance-ranking.md)
+- [10-query-result](nautilus/npp-v1-0/10-query-result.md)
+

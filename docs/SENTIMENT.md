@@ -94,3 +94,14 @@ python scripts/improve_sentiment.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEATMAP](HEATMAP.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [ORPHANS](ORPHANS.md)
+- [TAGS](TAGS.md)
+

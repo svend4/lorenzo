@@ -1,20 +1,5 @@
 # Q&A: processing-guide
 
-> [!NOTE]
-> Раздел `QA` автоматически формируется из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Автоматически сгенерировано по 11 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, AI Factory, Yodoca, NGT Memory, MemNet
-
----
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, architecture, anthropic, collaboration -->
-
-
-
-
 _Автоматически сгенерировано по 11 файлам раздела._
 
 ## Какие системы памяти описаны в этом разделе?
@@ -88,23 +73,3 @@ _Не найдено в этом файле._
 ## Какие роли наиболее релевантны для профиля svend4?
 
 _Не найдено в этом файле._
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](../OUTLINE.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [README](README.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_qa.py
-```

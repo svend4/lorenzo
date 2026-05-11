@@ -538,3 +538,14 @@ python scripts/improve_word_freq.py --dry-run
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [SENTIMENT](SENTIMENT.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [CONSISTENCY](CONSISTENCY.md)
+

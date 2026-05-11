@@ -1854,3 +1854,14 @@ python scripts/improve_action_items.py --dry-run
 - [Оценка](SCORING.md)
 - [Теги](TAGS.md)
 - [Задачи](ACTION_ITEMS.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPTS](CONCEPTS.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

@@ -307,3 +307,12 @@ _...ещё 1032 записей в этой категории_
 # Запуск
 python scripts/improve_decisions.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [PROGRESS](PROGRESS.md)
+

@@ -132,3 +132,14 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 - [READING_TIME](READING_TIME.md)
 - _...ещё 4_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [INDEX](INDEX.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [PROGRESS](PROGRESS.md)
+

@@ -95,3 +95,14 @@ python scripts/improve_density.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEATMAP](HEATMAP.md)
+- [MISSING](MISSING.md)
+- [ORPHANS](ORPHANS.md)
+- [ALERTS](ALERTS.md)
+

@@ -95,3 +95,14 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 - [SENTIMENT](SENTIMENT.md)
 - [TABLES](TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TAGS](TAGS.md)
+- [STATS](STATS.md)
+- [COVERAGE](COVERAGE.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+

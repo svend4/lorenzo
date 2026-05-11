@@ -85,3 +85,14 @@ _█ = активная работа, ░ = ожидание_
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [PROGRESS](PROGRESS.md)
+- [SCORING](SCORING.md)
+- [COVERAGE](COVERAGE.md)
+

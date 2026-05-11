@@ -16195,3 +16195,14 @@ python scripts/improve_outline.py --dry-run
 # Вариант 3
 python scripts/improve_outline.py --dry-run
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [SEARCH](SEARCH.md)
+

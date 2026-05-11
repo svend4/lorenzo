@@ -1062,3 +1062,14 @@ python scripts/improve_language_stats.py --dry-run
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+

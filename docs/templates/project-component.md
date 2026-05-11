@@ -1,13 +1,9 @@
 # [Название компонента]
 
 > [!NOTE]
-> Раздел `project-component` автоматически формируется из данных репозитория.
+> Раздел `project-component` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-
-<!-- summary -->
-> `project-component` — раздел документации проекта Lorenzo.
-
 
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
@@ -56,19 +52,3 @@ python scripts/improve_project_component.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [REGISTRY](../REGISTRY.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [research-summary](../autofilled/research-summary.md)
-- [README](README.md)
-- [agent-spec](agent-spec.md)
-- _...ещё 2_
-

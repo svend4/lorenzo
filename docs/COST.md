@@ -119,3 +119,14 @@ _Минимальный сценарий: open source + личное время 
 # Запуск
 python scripts/improve_cost.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [SCORING](SCORING.md)
+- [ONBOARDING](ONBOARDING.md)
+- [GLOSSARY](GLOSSARY.md)
+

@@ -138,3 +138,14 @@ _Курированных рисков: 10 · Из документов: 15_
 - [READABILITY](READABILITY.md)
 - _...ещё 5_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-methodology](01-svyazi/02-methodology.md)
+- [privacy](svyazi-2-0/security/privacy.md)
+- [02-методика-и-рамка-отбора](04-ai-collaborations/02-методика-и-рамка-отбора.md)
+- [security-routing-plane](svyazi-2-0/components/security-routing-plane.md)
+

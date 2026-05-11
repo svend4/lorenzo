@@ -137,6 +137,7 @@ GROUPS = {
         "improve_report.py",
         "improve_registry.py",          # единый реестр всех артефактов
         "improve_skill_dashboard.py",   # статистика использования скилов
+        "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "export": [
         # Экспорт
@@ -167,6 +168,7 @@ GROUPS = {
         "improve_changelog_auto.py",    # автоматический changelog из git-истории
         "improve_digest_weekly.py",     # еженедельный дайджест изменений
         "improve_dependency_map.py",    # карта зависимостей скриптов → DEPENDENCY_MAP.md
+        "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "textwork": [
         # Работа с текстом: рубрикация, слияние, сравнение
@@ -225,6 +227,7 @@ GROUPS = {
         "improve_kpi_snapshot.py",      # снапшот KPI → docs/KPI_HISTORY.md
         "improve_index_master.py",      # главный навигационный хаб → INDEX.md
         "improve_audit_db.py",          # SQLite audit log всех событий → audit.db
+        "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "mcp": [
         # MCP-инструменты и тесты

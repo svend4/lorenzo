@@ -377,3 +377,14 @@ _...и ещё 1320 пар._
 # Запуск детектора дублей
 python scripts/improve_dedup.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [WORD_FREQ](WORD_FREQ.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [self-aware-mcp](svyazi-2-0/components/self-aware-mcp.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+

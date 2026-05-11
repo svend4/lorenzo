@@ -153,3 +153,14 @@ _Карта сгенерирована автоматически: 2026-05-11_
 - [TABLES](TABLES.md)
 - [QA](svyazi-2-0/QA.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [STATS](STATS.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [HEALTH](HEALTH.md)
+- [QA](svyazi-2-0/QA.md)
+
