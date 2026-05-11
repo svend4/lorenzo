@@ -7553,3 +7553,14 @@ _Смотрите также:_
 * [READING_TIME|READING_TIME.md]
 * [READABILITY|READABILITY.md]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_paragraph_quality.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_paragraph_quality.py --dry-run
+{code}

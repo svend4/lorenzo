@@ -1,5 +1,10 @@
 # Тематические пробелы (Content Gaps)
 
+> [!NOTE]
+> Раздел `CONTENT_GAPS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Найдено пробелов: **916** (мин. упоминаний: 3)
 **Проекты:** Svyazi
@@ -368,3 +373,10 @@ _Обновлено: 2026-05-11_
 - [SPELLCHECK](SPELLCHECK.md)
 - [TABLES](TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_content_gaps.py
+```

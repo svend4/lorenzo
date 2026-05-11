@@ -12,6 +12,11 @@ date: 2026-05-11
 
 h1. CHANGELOG
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{CHANGELOG}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 
 Всего коммитов: _261_  
@@ -577,3 +582,18 @@ _Кто ссылается на этот документ (10):_
 * [[SCRIPT_EVAL_REPORT]]
 * _...ещё 2_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_changelog.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_changelog.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 3
+python scripts/improve_changelog.py --dry-run
+{code}

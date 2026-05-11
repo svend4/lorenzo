@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 10:00:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 10:04:40 GMT</lastBuildDate>
+    <item>
+      <title>chore: regenerate auto-generated docs artifacts</title>
+      <link>https://github.com/svend4/lorenzo/commit/02c362fe5ed5dc803302d7dd29ba25089ab5f7d7</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/02c362fe5ed5dc803302d7dd29ba25089ab5f7d7</guid>
+      <pubDate>Mon, 11 May 2026 10:01:19 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: regenerate auto-generated docs artifacts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/AUTHORS.md">docs/AUTHORS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CODE_BLOCKS.md">docs/CODE_BLOCKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li></ul><p>Коммит: <code>02c362fe</code></p>]]></description>
+    </item>
     <item>
       <title>chore: regenerate auto-generated docs artifacts</title>
       <link>https://github.com/svend4/lorenzo/commit/7e4ee06b3583d293a186c3d0ccbc04867fa47d49</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/8e0325866314e53abc896370d1ac1964ac8c5a45</guid>
       <pubDate>Mon, 11 May 2026 08:35:38 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: авто-перегенерация дашбордов после v1.0.0 + check_published</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>8e032586</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)</title>
-      <link>https://github.com/svend4/lorenzo/commit/657ca79e6f64e036cf97fd1d06121d144946c0d6</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/657ca79e6f64e036cf97fd1d06121d144946c0d6</guid>
-      <pubDate>Mon, 11 May 2026 08:31:17 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>657ca79e</code></p>]]></description>
     </item>
   </channel>
 </rss>

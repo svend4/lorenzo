@@ -5,6 +5,19 @@
 
 h1. Глоссарий понятий
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{CONCEPTS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{CONCEPTS}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Определения извлечены автоматически из документов._
 
 _Извлечено понятий:_ 1185  (из 4306 совпадений)
@@ -4908,3 +4921,38 @@ _Ясный спрос_
 : Автор лично нуждается в этом  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат|02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md]_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_concepts.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_concepts.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 3
+python scripts/improve_concepts.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 4
+python scripts/improve_concepts.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 5
+python scripts/improve_concepts.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 6
+python scripts/improve_concepts.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 7
+python scripts/improve_concepts.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 8
+python scripts/improve_concepts.py --dry-run
+{code}

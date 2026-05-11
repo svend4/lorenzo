@@ -7556,3 +7556,14 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [[READING_TIME]]
 - [[READABILITY]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_paragraph_quality.py
+```
+```bash
+# Вариант 2
+python scripts/improve_paragraph_quality.py --dry-run
+```

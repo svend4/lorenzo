@@ -199,3 +199,10 @@ _Кто ссылается на этот документ (14):_
 * [OUTLINE|OUTLINE.md]
 * _...ещё 6_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_narrative.py
+{code}

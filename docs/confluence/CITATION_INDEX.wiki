@@ -6,28 +6,6 @@
 h1. Индекс цитирования URL
 
 
-h2. Содержание
-
-* [Топ доменов|#топ-доменов]
-* [Наиболее цитируемые URL|#наиболее-цитируемые-url]
-* [Детали топ-10|#детали-топ-10]
-  * [{{https://github.com/svend4/nautilus/issues}}|#httpsgithubcomsvend4nautilusissues]
-  * [{{https://github.com/svend4/nautilus}}|#httpsgithubcomsvend4nautilus]
-  * [{{https://github.com/svend4/ingit}}|#httpsgithubcomsvend4ingit]
-  * [{{https://github.com/svend4/pro2}}|#httpsgithubcomsvend4pro2]
-  * [{{https://habr.com/ru/articles/1006622/}}|#httpshabrcomruarticles1006622]
-  * [{{https://habr.com/ru/companies/airi/articles/1000720/}}|#httpshabrcomrucompaniesairiarticles1000720]
-  * [{{https://github.com/AnastasiyaW/knowledge-space}}|#httpsgithubcomanastasiyawknowledge-space]
-  * [{{https://habr.com/ru/companies/airi/articles/855128/}}|#httpshabrcomrucompaniesairiarticles855128]
-  * [{{https://habr.com/ru/articles/1007122/}}|#httpshabrcomruarticles1007122]
-  * [{{https://github.com/mcp}}|#httpsgithubcommcp]
-* [Использование|#использование]
-* [Смотрите также|#смотрите-также]
-
-----
-
-
-
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{CITATION_INDEX}} формируется автоматически из данных репозитория.{quote}
@@ -42,31 +20,31 @@ h2. Содержание
 
 _Обновлено: 2026-05-11_
 
-Уникальных URL: _229_ | Отфильтровано (≥1): _229_
+Уникальных URL: _209_ | Отфильтровано (≥1): _209_
 
 h2. Топ доменов
 
 || Домен || URL || Авторитетность ||
-|| `github.com` || 98 || ⭐⭐⭐⭐⭐ ||
-|| `habr.com` || 54 || ⭐⭐⭐⭐ ||
-|| `3dnews.ru` || 13 || ⭐ ||
-|| `` || 9 || ⭐ ||
+|| `github.com` || 62 || ⭐⭐⭐⭐⭐ ||
+|| `habr.com` || 53 || ⭐⭐⭐⭐ ||
+|| `localhost:8083` || 16 || ⭐ ||
+|| `3dnews.ru` || 12 || ⭐ ||
+|| `` || 12 || ⭐ ||
 || `img.shields.io` || 7 || ⭐ ||
-|| `localhost:8083` || 7 || ⭐ ||
 || `claude.ai` || 6 || ⭐ ||
-|| `api.github.com` || 4 || ⭐⭐⭐⭐⭐ ||
-|| `forum.obsidian.md` || 3 || ⭐ ||
+|| `api.github.com` || 3 || ⭐⭐⭐⭐⭐ ||
 || `claude.com` || 2 || ⭐ ||
+|| `support.claude.com` || 2 || ⭐ ||
 || `creativecommons.org` || 2 || ⭐ ||
+|| `activitypub.rocks` || 2 || ⭐ ||
 || `datatracker.ietf.org` || 2 || ⭐ ||
+|| `forum.obsidian.md` || 2 || ⭐ ||
+|| `nautilus-okwf.org` || 2 || ⭐ ||
 || `fontanka.ru` || 1 || ⭐ ||
-|| `eb.hypothes.is` || 1 || ⭐ ||
 || `discourse.org` || 1 || ⭐ ||
-|| `support.claude.com` || 1 || ⭐ ||
+|| `eb.hypothes.is` || 1 || ⭐ ||
 || `fossil-scm.org` || 1 || ⭐ ||
 || `happyin.space` || 1 || ⭐ ||
-|| `install.sh` || 1 || ⭐ ||
-|| `activitypub.rocks` || 1 || ⭐ ||
 
 h2. Наиболее цитируемые URL
 
@@ -77,50 +55,50 @@ h2. Наиболее цитируемые URL
 || `https://github.com/svend4/pro2` || 16 || ⭐⭐⭐⭐⭐ || `github.com` ||
 || `https://habr.com/ru/articles/1006622/` || 16 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/companies/airi/articles/1000720/` || 16 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://github.com/AnastasiyaW/knowledge-space` || 12 || ⭐⭐⭐⭐⭐ || `github.com` ||
-|| `https://habr.com/ru/companies/airi/articles/855128/` || 14 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1007122/` || 14 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/companies/airi/articles/855128/` || 14 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://github.com/mcp` || 10 || ⭐⭐⭐⭐⭐ || `github.com` ||
+|| `https://github.com/AnastasiyaW/knowledge-space` || 10 || ⭐⭐⭐⭐⭐ || `github.com` ||
 || `https://github.com/svend4/info1` || 10 || ⭐⭐⭐⭐⭐ || `github.com` ||
+|| `https://habr.com/ru/companies/yandex/articles/1019928/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1017200/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/983684/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/companies/yoomoney/articles/1012870/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1027210/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/495554/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/companies/yoomoney/articles/1012870/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/companies/yandex/articles/1019928/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/983684/` || 12 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://github.com/svend4/data70` || 8 || ⭐⭐⭐⭐⭐ || `github.com` ||
 || `https://github.com/svend4/meta` || 8 || ⭐⭐⭐⭐⭐ || `github.com` ||
-|| `https://habr.com/ru/articles/1009608/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1006602/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1020598/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/955798/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1027724/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1010198/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/938626/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1020860/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/companies/surfstudio/articles/943108/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1014366/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1009958/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1027878/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1002138/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1024884/comments/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1019588/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1023446/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/996144/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/975414/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1009538/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1027658/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1016096/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1010198/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1009958/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1027382/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1024634/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/893356/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1014366/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1019588/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1016096/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/996144/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/1005776/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
-|| `https://habr.com/ru/articles/1010478/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/companies/teamly/articles/1024062/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/938626/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/975414/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/955798/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1024634/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1024884/comments/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1006602/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1002138/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/companies/surfstudio/articles/943108/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/893356/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1023446/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1027658/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1009538/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1027724/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1010478/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1009608/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
 || `https://habr.com/ru/articles/943498/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://habr.com/ru/articles/1020860/` || 10 || ⭐⭐⭐⭐ || `habr.com` ||
+|| `https://github.com/VitalyOborin/yodoca` || 8 || ⭐⭐⭐⭐⭐ || `github.com` ||
 || `https://github.com/settings/tokens` || 6 || ⭐⭐⭐⭐⭐ || `github.com` ||
 || `https://github.com/svend4/ingit/issues` || 6 || ⭐⭐⭐⭐⭐ || `github.com` ||
-|| `https://github.com/anthropics/mcp` || 6 || ⭐⭐⭐⭐⭐ || `github.com` ||
 
 h2. Детали топ-10
 
@@ -190,16 +168,16 @@ h3. {{https://habr.com/ru/companies/airi/articles/1000720/}}
 * {{docs/TABLES.md}}
 * ... и ещё 11
 
-h3. {{https://github.com/AnastasiyaW/knowledge-space}}
+h3. {{https://habr.com/ru/articles/1007122/}}
 
-Цитируется в 12 файлах, авторитетность: 5
+Цитируется в 14 файлах, авторитетность: 4
 
-* {{docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md}}
-* {{docs/DEPENDABOT.md}}
-* {{docs/ENTITIES.md}}
-* {{docs/LINKS.md}}
+* {{docs/04-ai-collaborations/00-intro.md}}
+* {{docs/05-habr-projects/memory/memnet.md}}
 * {{docs/TABLES.md}}
-* ... и ещё 7
+* {{docs/ai-collaborations/source-projects.md}}
+* {{docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md}}
+* ... и ещё 9
 
 h3. {{https://habr.com/ru/companies/airi/articles/855128/}}
 
@@ -212,17 +190,6 @@ h3. {{https://habr.com/ru/companies/airi/articles/855128/}}
 * {{docs/ai-collaborations/candidates/01-three-key-candidates.md}}
 * ... и ещё 9
 
-h3. {{https://habr.com/ru/articles/1007122/}}
-
-Цитируется в 14 файлах, авторитетность: 4
-
-* {{docs/04-ai-collaborations/00-intro.md}}
-* {{docs/05-habr-projects/memory/memnet.md}}
-* {{docs/TABLES.md}}
-* {{docs/ai-collaborations/source-projects.md}}
-* {{docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md}}
-* ... и ещё 9
-
 h3. {{https://github.com/mcp}}
 
 Цитируется в 10 файлах, авторитетность: 5
@@ -232,6 +199,17 @@ h3. {{https://github.com/mcp}}
 * {{docs/02-anthropic-vacancies/67-о-проекте.md}}
 * {{docs/02-anthropic-vacancies/68-about.md}}
 * {{docs/TABLES.md}}
+* ... и ещё 5
+
+h3. {{https://github.com/AnastasiyaW/knowledge-space}}
+
+Цитируется в 10 файлах, авторитетность: 5
+
+* {{docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md}}
+* {{docs/DEPENDABOT.md}}
+* {{docs/ENTITIES.md}}
+* {{docs/TABLES.md}}
+* {{docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md}}
 * ... и ещё 5
 
 
@@ -248,40 +226,3 @@ h2. Смотрите также
 * [Здоровье|HEALTH.md]
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
-
-
-
-----
-
-_Кто ссылается на этот документ (9):_
-* [HEALTH|HEALTH.md]
-* [LINK_PREVIEW|LINK_PREVIEW.md]
-* [METRICS|METRICS.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [SPELLCHECK|SPELLCHECK.md]
-* _...ещё 1_
-
-
-
-
-----
-
-_Похожие документы:_
-* [CITATION_INDEX|obsidian/CITATION_INDEX.md] (сходство 0.96)
-* [LINK_PREVIEW|LINK_PREVIEW.md] (сходство 0.31)
-* [BACKLINKS|obsidian/BACKLINKS.md] (сходство 0.26)
-
-
-
-
-----
-
-_Смотрите также:_
-* [KEYWORD_INDEX|KEYWORD_INDEX.md]
-* [NAMED_ENTITIES|NAMED_ENTITIES.md]
-* [READING_LIST|READING_LIST.md]
-* [CROSS_SECTION|CROSS_SECTION.md]
-

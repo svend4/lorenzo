@@ -1,5 +1,12 @@
 # Сеть проектов и авторов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `NETWORK` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Андрей (kksudo)** → **Svyazi** (158), **Lorenzo** (122), **AgentFS** (119), **Yodoca** (117), **NGT** (111), **knowledge-space** (99), **CardIndex** (90), **SENTINEL** (82)
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -97,3 +104,10 @@
 - [READABILITY](READABILITY.md)
 - _...ещё 4_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_network.py
+```

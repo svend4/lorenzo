@@ -7,6 +7,19 @@ date: 2026-05-11
 
 # Частотный анализ слов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `WORD_FREQ` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: word-freq, docs -->
+
+
+<!-- summary -->
+> `WORD_FREQ` — раздел документации проекта Lorenzo.
+
+
 **Всего слов (очищенных):** 1,703,746
 
 ## Глобальный топ-50 слов
@@ -532,3 +545,24 @@ _(Слова, характерные только для этого раздел
 **svyazi-2-0:** view, turn, search, svyazi, citeturn, memory, rag, поиска, research, components, name, граф
 **technology-combinations:** legal, combinations, stack, code, репозитория, event, tables, multi, time, technology, mega, новых
 **templates:** entry, templates, search, репозитория, registry, readability, reading, time, раздел, граф, концептов, tables
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_word_freq.py
+```
+```bash
+# Вариант 2
+python scripts/improve_word_freq.py --dry-run
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]
+- [[CONTACTS|Контакты]]
+- [[SCORING|Оценка]]

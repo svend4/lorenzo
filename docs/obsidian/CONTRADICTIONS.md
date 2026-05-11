@@ -482,3 +482,10 @@ python scripts/improve_contradictions.py
 - [[TOPIC_MODEL]]
 - [[08-conclusions]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_contradictions.py
+```

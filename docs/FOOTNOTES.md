@@ -1,5 +1,12 @@
 # Сноски и определения терминов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Обновлено файлов:** 0  **Вставлено сносок:** 0
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl

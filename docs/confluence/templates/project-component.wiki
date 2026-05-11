@@ -5,6 +5,11 @@
 
 h1. [Название компонента]
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{project-component}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 
 
@@ -53,3 +58,10 @@ _Кто ссылается на этот документ (10):_
 * [agent-spec|agent-spec.md]
 * _...ещё 2_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_project_component.py
+{code}

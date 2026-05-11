@@ -1155,3 +1155,10 @@ python scripts/improve_language_stats.py --dry-run
 - [SEARCH](SEARCH.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_language_stats.py
+```

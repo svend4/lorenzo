@@ -12,6 +12,17 @@ date: 2026-05-11
 
 h1. Action Items, риски и решения
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{ACTION_ITEMS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{ACTION_ITEMS}} — раздел документации проекта Lorenzo.{quote}
+
+
 Автоматически извлечено из всех документов.
 
 _Всего элементов:_ 3522
@@ -1702,7 +1713,44 @@ h2. 📬 Контактные действия (315)
   _→ 12-onboarding-paths_
 * anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
-* {{adapters/<format>.py}}, наследуясь от `[[01-интегральный-анализ-профиля-svend4|B  
+* {{adapters/<format>.py}}, наследуясь от `[[README|[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
 
 _(225 дублей скрыто)_
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_action_items.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_action_items.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 3
+python scripts/improve_action_items.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 4
+python scripts/improve_action_items.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 5
+python scripts/improve_action_items.py --dry-run
+{code}
+
+h2. Смотрите также
+* [Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+* [[DECISIONS|Решения]]
+* [[CONTACTS|Контакты]]
+* [[SCORING|Оценка]]
+* [[TAGS|Теги]]
+* [[ACTION_ITEMS|Задачи]]
+* [[TIMELINE|Хронология]]
+* [[OUTLINE|Структура]]

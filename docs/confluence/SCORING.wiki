@@ -6,6 +6,13 @@
 h1. Оценка готовности проекта (Go/No-Go)
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCORING}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}1. _[вес 5]_ Слишком много сломанных ссылок{quote}
 
 ----
@@ -84,3 +91,10 @@ _Кто ссылается на этот документ (20):_
 * [METRICS|METRICS.md]
 * _...ещё 12_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_scoring.py
+{code}

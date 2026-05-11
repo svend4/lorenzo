@@ -7991,3 +7991,18 @@ python scripts/improve_empty_sections.py --dry-run
 - [SEARCH](SEARCH.md)
 - [READING_TIME](READING_TIME.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_empty_sections.py
+```
+```bash
+# Вариант 2
+python scripts/improve_empty_sections.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_empty_sections.py --dry-run
+```

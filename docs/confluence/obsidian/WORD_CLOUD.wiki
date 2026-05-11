@@ -15,6 +15,11 @@ date: 2026-05-11
 
 h1. Word Cloud
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{WORD_CLOUD}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}Визуализация 80 самых частых слов репозитория.{quote}
 _Проекты:_ Svyazi
@@ -68,3 +73,10 @@ _Кто ссылается на этот документ (12):_
 * [[READABILITY]]
 * _...ещё 4_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_word_cloud.py
+{code}

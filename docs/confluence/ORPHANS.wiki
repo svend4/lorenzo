@@ -5,6 +5,13 @@
 
 h1. Изолированные документы (Orphans)
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{ORPHANS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
 
 {quote}_Найдено:_ 0 файлов без входящих ссылок из 2178 проверено.{quote}
 
@@ -52,3 +59,10 @@ _Кто ссылается на этот документ (8):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_orphans.py
+{code}

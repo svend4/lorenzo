@@ -1,5 +1,18 @@
 # Именованные сущности
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `ENTITIES` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: entities, docs -->
+
+
+<!-- summary -->
+> `ENTITIES` — раздел документации проекта Lorenzo.
+
+
 **Файлов просмотрено:** 2476
 
 
@@ -129,3 +142,10 @@
 | Svyazi ↔ Rufler | 191 |
 | Lorenzo ↔ ingit | 189 |
 | NGT ↔ CardIndex | 189 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_entities.py
+```

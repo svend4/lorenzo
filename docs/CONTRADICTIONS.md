@@ -473,3 +473,10 @@ python scripts/improve_contradictions.py
 - [TOPIC_MODEL](TOPIC_MODEL.md)
 - [08-conclusions](01-svyazi/08-conclusions.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_contradictions.py
+```

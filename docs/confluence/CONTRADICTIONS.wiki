@@ -478,3 +478,10 @@ _Смотрите также:_
 * [TOPIC_MODEL|TOPIC_MODEL.md]
 * [08-conclusions|01-svyazi/08-conclusions.md]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_contradictions.py
+{code}

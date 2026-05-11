@@ -12,6 +12,19 @@ date: 2026-05-11
 
 h1. Частотный анализ слов
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{WORD_FREQ}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{WORD_FREQ}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Всего слов (очищенных):_ 1,703,746
 
 h2. Глобальный топ-50 слов
@@ -514,3 +527,24 @@ _root:_ сложный
 _svyazi-2-0:_ view, turn, search, svyazi, citeturn, memory, rag, поиска, research, components, name, граф
 _technology-combinations:_ legal, combinations, stack, code, репозитория, event, tables, multi, time, technology, mega, новых
 _templates:_ entry, templates, search, репозитория, registry, readability, reading, time, раздел, граф, концептов, tables
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_word_freq.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_word_freq.py --dry-run
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+* [[DECISIONS|Решения]]
+* [[CONTACTS|Контакты]]
+* [[SCORING|Оценка]]

@@ -12,6 +12,11 @@ date: 2026-05-11
 
 h1. Индекс «Смотрите также»
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SEE_ALSO}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Файлов с блоком See Also:_ 1133{quote}
 _Проекты:_ Svyazi
@@ -72,3 +77,10 @@ _Кто ссылается на этот документ (13):_
 * [[README]]
 * _...ещё 5_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_see_also.py
+{code}

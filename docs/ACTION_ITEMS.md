@@ -1,5 +1,16 @@
 # Action Items, риски и решения
 
+> [!NOTE]
+> Раздел `ACTION_ITEMS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: action-items, docs -->
+
+
+<!-- summary -->
+> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
+
+
 Автоматически извлечено из всех документов.
 
 **Всего элементов:** 3522
@@ -1694,3 +1705,40 @@ _(23 дублей скрыто)_
   _→ 87-12-onboarding-paths-normative_
 
 _(225 дублей скрыто)_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_action_items.py
+```
+```bash
+# Вариант 2
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_action_items.py --dry-run
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)
+- [Теги](TAGS.md)
+- [Задачи](ACTION_ITEMS.md)
+- [Хронология](TIMELINE.md)
+- [Структура](OUTLINE.md)

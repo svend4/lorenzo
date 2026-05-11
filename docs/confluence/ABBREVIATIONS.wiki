@@ -6,6 +6,8 @@
 h1. Словарь аббревиатур и сокращений
 
 
+
+
 {quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ SENTINEL, LiteLLM, Auto AI Router
 
@@ -193,3 +195,10 @@ _Кто ссылается на этот документ (10):_
 * [SEARCH|SEARCH.md]
 * _...ещё 2_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_abbreviations.py
+{code}

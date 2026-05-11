@@ -7,6 +7,11 @@ date: 2026-05-11
 
 # Часто задаваемые вопросы (FAQ)
 
+> [!NOTE]
+> Раздел `FAQ` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Извлечено: 251 вопросов и ответов_
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, agent-memory-mcp
@@ -292,3 +297,10 @@ _→ [[200-10-открытые-вопросы]]_
 - [[QUESTIONS]]
 - _...ещё 10_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_faq.py
+```

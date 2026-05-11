@@ -1,20 +1,5 @@
 # Автодайджест изменений
 
-<!-- toc -->
-## Содержание
-
-- [Сводка](#сводка)
-- [Активность по секциям](#активность-по-секциям)
-- [Последние коммиты](#последние-коммиты)
-- [Новые файлы](#новые-файлы)
-- [Изменённые файлы](#изменённые-файлы)
-- [Ключевые слова изменений](#ключевые-слова-изменений)
-- [Новые концепты](#новые-концепты)
-- [Использование](#использование)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -36,17 +21,17 @@ _Период: 2026-05-04 — 2026-05-11 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **105** |
+| Коммитов | **118** |
 | Новых файлов | **20** |
 | Изменённых файлов | **20** |
-| Слов добавлено | **+6,093,209** |
-| Слов удалено | **−2,828,316** |
+| Слов добавлено | **+6,197,330** |
+| Слов удалено | **−2,866,545** |
 
 ## Активность по секциям
 
 | Секция | Изменений |
 |--------|-----------|
-| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 1644 |
+| `root` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 1663 |
 | `obsidian` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 379 |
 | `nautilus` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 255 |
 | `Anthropic` | ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 225 |
@@ -57,44 +42,37 @@ _Период: 2026-05-04 — 2026-05-11 (7 дней)_
 
 ## Последние коммиты
 
-- `2026-05-11` [779808d5] chore: обновление COMPLEXITY.md и SENTIMENT.md
-- `2026-05-11` [0515207f] test: +25 тестов — test_index_update.py; обновление docs/ и README.md
-- `2026-05-11` [a5b93b95] chore: обновление CONCEPTS.md и ENTITIES.md
-- `2026-05-11` [56694311] chore: обновление QUESTIONS.md
-- `2026-05-11` [04a47cc0] chore: обновление ACTION_ITEMS.md и DECISIONS.md
-- `2026-05-11` [619729e1] chore: обновление DENSITY.md и HEATMAP.md
-- `2026-05-11` [4489b806] chore: авто-обновление docs/ после improve_run_all --smart
-- `2026-05-11` [b3b6c5db] test: +44 теста — test_progress_sync.py + test_semantic_search.py
-- `2026-05-11` [07739d9c] chore: обновление зеркальных файлов obsidian/confluence
-- `2026-05-11` [63e1280e] feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты
+- `2026-05-11` [02c362fe] chore: regenerate auto-generated docs artifacts
+- `2026-05-11` [351a135d] test: add 74 tests for improve_contact_status, improve_kpi_snapshot, i
+- `2026-05-11` [7e4ee06b] chore: regenerate auto-generated docs artifacts
+- `2026-05-11` [2b05200b] test: add 95 tests for improve_export_csv, improve_scoring, improve_wo
+- `2026-05-11` [0623cb16] chore: regenerate auto-generated docs artifacts
+- `2026-05-11` [e734762d] test: add 52 tests for improve_watcher, improve_self, improve_card_ind
+- `2026-05-11` [7ff328ed] chore: regenerate all auto-generated docs artifacts after smart pipeli
+- `2026-05-11` [4a6e7a87] chore: update auto-generated docs artifacts
+- `2026-05-11` [a345c19d] test: add 95 tests for improve_llm_qa, improve_abstract, improve_bench
+- `2026-05-11` [cda0f08a] test: +54 теста — test_status_badges.py + test_autofill.py; итого 394
 
 ## Новые файлы
 
-- `test_index_update.py` — `root`
-- `test_progress_sync.py` — `root`
-- `test_semantic_search.py` — `root`
-- `test_search.py` — `root`
-- [`QA.md`](letters/QA.md) — `letters`
-- `test_precision_eval.py` — `root`
-- [`PRECISION_EVAL.md`](PRECISION_EVAL.md) — `PRECISION_EVAL.md`
-- `improve_precision_eval.py` — `Скрипты`
-- `test_ann_index.py` — `root`
-- `test_gateway.py` — `root`
-- `improve_ann_index.py` — `Скрипты`
-- `review_queue.py` — `Скрипты`
-- [`GATEWAY.md`](GATEWAY.md) — `GATEWAY.md`
-- `gateway.py` — `Скрипты`
-- [`DEMO.md`](DEMO.md) — `DEMO.md`
+- `test_complexity.py` — `root`
+- `test_contact_status.py` — `root`
+- `test_kpi_snapshot.py` — `root`
+- `test_export_csv.py` — `root`
+- `test_scoring.py` — `root`
+- `test_workflow_run.py` — `root`
+- `test_card_index.py` — `root`
+- `test_self.py` — `root`
+- `test_watcher.py` — `root`
+- `test_abstract.py` — `root`
+- `test_benchmark.py` — `root`
+- `test_llm_qa.py` — `root`
+- `test_autofill.py` — `root`
+- `test_status_badges.py` — `root`
+- `test_metrics.py` — `root`
 
 ## Изменённые файлы
 
-- [`COMPLEXITY.md`](COMPLEXITY.md)
-- [`SENTIMENT.md`](SENTIMENT.md)
-- `CHANGELOG.md`
-- `README.md`
-- [`QA.md`](01-svyazi/QA.md)
-- [`QA.md`](04-ai-collaborations/QA.md)
-- [`QA.md`](05-habr-projects/QA.md)
 - [`ABBREVIATIONS.md`](ABBREVIATIONS.md)
 - [`ACTION_ITEMS.md`](ACTION_ITEMS.md)
 - [`ALERTS.md`](ALERTS.md)
@@ -102,27 +80,34 @@ _Период: 2026-05-04 — 2026-05-11 (7 дней)_
 - [`BACKLINKS.md`](BACKLINKS.md)
 - [`BROKEN_LINKS.md`](BROKEN_LINKS.md)
 - [`CHANGELOG.md`](CHANGELOG.md)
-- [`CHANGELOG_AUTO.md`](CHANGELOG_AUTO.md)
+- [`CLUSTERS.md`](CLUSTERS.md)
+- [`CODE_BLOCKS.md`](CODE_BLOCKS.md)
+- [`COMPARE.md`](COMPARE.md)
+- [`COMPLEXITY.md`](COMPLEXITY.md)
+- [`CONCEPTS.md`](CONCEPTS.md)
+- [`CONTACTS.md`](CONTACTS.md)
+- [`CONTACT_PRIORITY.md`](CONTACT_PRIORITY.md)
+- [`CONTENT_GAPS.md`](CONTENT_GAPS.md)
 
 ## Ключевые слова изменений
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +124311 | −81093 |
-| `vacancies` | +101119 | −66942 |
-| `nautilus` | +67783 | −24163 |
-| `obsidian` | +54126 | −9469 |
-| `использование` | +51852 | −160 |
-| `agent` | +49808 | −21213 |
-| `документ` | +48571 | −4276 |
-| `проблем` | +41378 | −7604 |
-| `heading` | +38357 | −8975 |
-| `svyazi` | +36866 | −21414 |
-| `readme` | +36616 | −8647 |
-| `также` | +34916 | −6399 |
-| `смотрите` | +34879 | −6085 |
-| `поиск` | +33395 | −1733 |
-| `быстро` | +32777 | −10079 |
+| `anthropic` | +119394 | −81568 |
+| `vacancies` | +93008 | −67084 |
+| `nautilus` | +70589 | −24442 |
+| `obsidian` | +54638 | −9503 |
+| `agent` | +50633 | −21401 |
+| `документ` | +48684 | −4485 |
+| `использование` | +43747 | −169 |
+| `readme` | +41997 | −8742 |
+| `heading` | +38974 | −8984 |
+| `svyazi` | +37702 | −21753 |
+| `смотрите` | +35877 | −6134 |
+| `также` | +35837 | −6448 |
+| `документы` | +34813 | −8594 |
+| `code` | +34219 | −9774 |
+| `быстро` | +33785 | −10078 |
 
 ## Новые концепты
 
@@ -140,40 +125,3 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 # Запуск
 python scripts/improve_digest_auto.py
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (21):**
-- [LINK_PREVIEW](LINK_PREVIEW.md)
-- [METRICS](METRICS.md)
-- [OUTLINE](OUTLINE.md)
-- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 13_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) (сходство 0.91)
-- [DIGEST](DIGEST.md) (сходство 0.35)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.35)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [DIGEST](DIGEST.md)
-- [STALENESS](STALENESS.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
-

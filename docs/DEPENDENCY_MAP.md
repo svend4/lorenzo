@@ -1,16 +1,5 @@
 # Карта зависимостей скриптов
 
-<!-- toc -->
-## Содержание
-
-- [Зависимости](#зависимости)
-- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
-- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -229,40 +218,3 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [CHANGELOG](CHANGELOG.md)
-- [HEALTH](HEALTH.md)
-- [INDEX](INDEX.md)
-- [METRICS](METRICS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 2_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) (сходство 0.99)
-- [README](README.md) (сходство 0.25)
-- [README](obsidian/README.md) (сходство 0.25)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [INDEX](INDEX.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [STALENESS](STALENESS.md)
-

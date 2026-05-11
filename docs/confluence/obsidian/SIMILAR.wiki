@@ -16,6 +16,8 @@ date: 2026-05-11
 h1. Похожие документы
 
 
+
+
 {quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 _Проекты:_ Svyazi
 
@@ -89,3 +91,17 @@ h3. processing-guide
 h3. svyazi-2-0
 
 * {{projects-map.md}} ↔ {{projects-map.md}} (0.995)
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_similar.py
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]

@@ -5,6 +5,13 @@
 
 h1. templates
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
 _Файлов:_ 23
 
 h2. Содержание
@@ -52,3 +59,10 @@ _Кто ссылается на этот документ (24):_
 * [contradiction-record|contradiction-record.md]
 * _...ещё 16_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_readme.py
+{code}

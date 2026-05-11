@@ -6,6 +6,13 @@
 h1. Дайджест изменений
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{DIGEST}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}> chore: regenerate auto-generated docs artifacts{quote}
 
 ----
@@ -69,3 +76,10 @@ _Кто ссылается на этот документ (7):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_digest.py
+{code}

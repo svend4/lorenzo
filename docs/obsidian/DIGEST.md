@@ -7,6 +7,13 @@ date: 2026-05-11
 
 # Дайджест изменений
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `DIGEST` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > chore: regenerate auto-generated docs artifacts
 
@@ -73,3 +80,10 @@ _Обновлено: 2026-05-11_
 - [[SEARCH]]
 - [[TABLES]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_digest.py
+```

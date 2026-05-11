@@ -26,30 +26,30 @@ _Период: последние 7 дней (с 2026-05-04)_
 
 | Метрика | Значение |
 |---------|---------|
-| Коммитов за неделю | **105** |
-| Новых файлов | **1712** |
-| Изменённых файлов | **2873** |
+| Коммитов за неделю | **118** |
+| Новых файлов | **1731** |
+| Изменённых файлов | **2874** |
 | Всего MD файлов | **2482** |
-| Всего слов | **3,023,865** |
+| Всего слов | **2,950,150** |
 
 ## Коммиты
 
 ```
+02c362f chore: regenerate auto-generated docs artifacts
+351a135 test: add 74 tests for improve_contact_status, improve_kpi_snapshot, improve_complexity
+7e4ee06 chore: regenerate auto-generated docs artifacts
+2b05200 test: add 95 tests for improve_export_csv, improve_scoring, improve_workflow_run
+0623cb1 chore: regenerate auto-generated docs artifacts
+e734762 test: add 52 tests for improve_watcher, improve_self, improve_card_index
+7ff328e chore: regenerate all auto-generated docs artifacts after smart pipeline run
+4a6e7a8 chore: update auto-generated docs artifacts
+a345c19 test: add 95 tests for improve_llm_qa, improve_abstract, improve_benchmark
+cda0f08 test: +54 теста — test_status_badges.py + test_autofill.py; итого 394
+c34d758 test: +54 теста — test_metrics.py + test_migrate_contacts.py; итого 340
+3c00c35 test: +51 тест — test_embedding_index.py + test_badges.py; итого 286
+a833ea0 test: +27 тестов — test_passage_retrieval.py; итого 235 тестов
 779808d chore: обновление COMPLEXITY.md и SENTIMENT.md
 0515207 test: +25 тестов — test_index_update.py; обновление docs/ и README.md
-a5b93b9 chore: обновление CONCEPTS.md и ENTITIES.md
-5669431 chore: обновление QUESTIONS.md
-04a47cc chore: обновление ACTION_ITEMS.md и DECISIONS.md
-619729e chore: обновление DENSITY.md и HEATMAP.md
-4489b80 chore: авто-обновление docs/ после improve_run_all --smart
-b3b6c5d test: +44 теста — test_progress_sync.py + test_semantic_search.py
-07739d9 chore: обновление зеркальных файлов obsidian/confluence
-63e1280 feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты
-8e03258 chore: авто-перегенерация дашбордов после v1.0.0 + check_published
-657ca79 feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)
-0bf1542 feat: /api/status — core_cards фильтрация noise-секций
-f5ebc62 docs: обновление README.md и GATEWAY.md
-9cb118a chore: авто-перегенерация дашбордов после Hit Rate@10 1.000
 ```
 
 ## Новые документы
@@ -84,7 +84,7 @@ f5ebc62 docs: обновление README.md и GATEWAY.md
 | `obsidian/` | 524 |
 | `02-anthropic-vacancies/` | 357 |
 | `nautilus/` | 255 |
-| `docs/` | 131 |
+| `docs/` | 132 |
 | `anthropic-vacancies/` | 111 |
 | `scripts/` | 72 |
 | `lorenzo-agent/` | 62 |
@@ -110,7 +110,7 @@ f5ebc62 docs: обновление README.md и GATEWAY.md
 
 ---
 
-_Сгенерировано: 2026-05-11 09:03_
+_Сгенерировано: 2026-05-11 10:02_
 
 ## Смотрите также
 - [[README|Главная]]
@@ -118,40 +118,3 @@ _Сгенерировано: 2026-05-11 09:03_
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [[BROKEN_LINKS]]
-- [[HEALTH]]
-- [[INDEX]]
-- [[LINK_PREVIEW]]
-- [[METRICS]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[DIGEST_WEEKLY]] (сходство 0.93)
-- [[DIGEST_AUTO]] (сходство 0.35)
-- [[METRICS]] (сходство 0.32)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[DIGEST_AUTO]]
-- [[METRICS]]
-- [[CROSS_SECTION]]
-- [[KPI_HISTORY]]
-

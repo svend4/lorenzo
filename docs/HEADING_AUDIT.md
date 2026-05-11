@@ -7372,3 +7372,14 @@ python scripts/improve_heading_audit.py --dry-run
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_heading_audit.py
+```
+```bash
+# Вариант 2
+python scripts/improve_heading_audit.py --dry-run
+```

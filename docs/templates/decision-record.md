@@ -1,5 +1,10 @@
 # ADR: [Название решения]
 
+> [!NOTE]
+> Раздел `decision-record` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -49,3 +54,10 @@ _Дата: 2026-05-11_
 - [experiment-log](experiment-log.md)
 - _...ещё 6_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_decision_record.py
+```

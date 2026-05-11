@@ -6,6 +6,8 @@
 h1. Кластеры тематически близких файлов
 
 
+
+
 {quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ Svyazi, AgentFS, Yodoca, Wikontic
 
@@ -472,3 +474,10 @@ _Кто ссылается на этот документ (17):_
 * [INDEX|INDEX.md]
 * _...ещё 9_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_clusters.py
+{code}

@@ -1,11 +1,19 @@
 ---
 title: "Числовые KPI и метрики"
 tags:
+  - kpi
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Числовые KPI и метрики
+<!-- tags: kpi, docs -->
+
+
+<!-- summary -->
+> `KPI` — раздел документации проекта Lorenzo.
+
 
 _Извлечено: **3498** числовых показателей из документов_
 
@@ -196,3 +204,23 @@ _Извлечено: **3498** числовых показателей из до�
 | **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
 | **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
 | _...ещё 158_ | | |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_kpi.py
+```
+```bash
+# Вариант 2
+python scripts/improve_kpi.py --dry-run
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]
+- [[CONTACTS|Контакты]]

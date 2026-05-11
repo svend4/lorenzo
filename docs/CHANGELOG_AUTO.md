@@ -1,18 +1,5 @@
 # Changelog (авто)
 
-<!-- toc -->
-## Содержание
-
-- [Статистика коммитов](#статистика-коммитов)
-- [История изменений](#история-изменений)
-  - [2026-05](#2026-05)
-  - [2026-04](#2026-04)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -32,12 +19,12 @@ _Сгенерировано из 200 коммитов git-истории._
 
 | Тип | Название | Кол-во |
 |-----|---------|--------|
-| `feat` | ✨ Новые возможности | 66 |
-| `fix` | 🐛 Исправления | 34 |
-| `docs` | 📝 Документация | 23 |
-| `chore` | 🔧 Технические задачи | 61 |
-| `test` | ✅ Тесты | 2 |
-| `other` | 📌 Прочее | 14 |
+| `feat` | ✨ Новые возможности | 63 |
+| `fix` | 🐛 Исправления | 33 |
+| `docs` | 📝 Документация | 21 |
+| `chore` | 🔧 Технические задачи | 64 |
+| `test` | ✅ Тесты | 10 |
+| `other` | 📌 Прочее | 9 |
 
 ## История изменений
 
@@ -80,7 +67,7 @@ _Сгенерировано из 200 коммитов git-истории._
 - improve collab_finder quality and TF-IDF index `9e1f8eed`
 - Collaboration Finder + TF-IDF semantic index + GitHub Actions schedule `e4e61656`
 - incremental CardStore, better type detection, recipe --since, fix OSError `96e0eab4`
-- card envelope library, CardIndex CLI, fix recipe dry-run + history `95929faf`
+- card envelope library, card index CLI, fix recipe dry-run + history `95929faf`
 - implement E-K roadmap items — recipe system, BM25 MCP, prototype spec, code generator `9b4e71ac`
 - implement improve_self.py --batch and add REPL search script `f069f299`
 - (scripts) complete run_all coverage + --dry-run for all red scripts `cdb6ccce`
@@ -126,6 +113,11 @@ _Сгенерировано из 200 коммитов git-истории._
 
 **🔧 Технические задачи**
 
+- regenerate auto-generated docs artifacts `02c362fe`
+- regenerate auto-generated docs artifacts `7e4ee06b`
+- regenerate auto-generated docs artifacts `0623cb16`
+- regenerate all auto-generated docs artifacts after smart pipeline run `7ff328ed`
+- update auto-generated docs artifacts `4a6e7a87`
 - обновление COMPLEXITY.md и SENTIMENT.md `779808d5`
 - обновление CONCEPTS.md и ENTITIES.md `a5b93b95`
 - обновление QUESTIONS.md `56694311`
@@ -149,7 +141,7 @@ _Сгенерировано из 200 коммитов git-истории._
 - update generated docs after reports pipeline run `089b157f`
 - add docs/bad_links.json (broken link skip-list, 25 long paths) `c70da065`
 - update SCORING.md and BROKEN_LINKS.md after link fixes `f149cf4b`
-- update recipe_history.json after CardIndex dry-run `c6b29dac`
+- update recipe_history.json after card-index dry-run `c6b29dac`
 - update BROKEN_LINKS.md after broken_links fix `16d1f6b3`
 - update reports group outputs after background run `bc4135dd`
 - update generated docs and scripts after evaluation session `d5b430f6`
@@ -159,6 +151,14 @@ _Сгенерировано из 200 коммитов git-истории._
 
 **✅ Тесты**
 
+- add 74 tests for improve_contact_status, improve_kpi_snapshot, improve_complexity `351a135d`
+- add 95 tests for improve_export_csv, improve_scoring, improve_workflow_run `2b05200b`
+- add 52 tests for improve_watcher, improve_self, improve_card_index `e734762d`
+- add 95 tests for improve_llm_qa, improve_abstract, improve_benchmark `a345c19d`
+- +54 теста — test_status_badges.py + test_autofill.py; итого 394 `cda0f08a`
+- +54 теста — test_metrics.py + test_migrate_contacts.py; итого 340 `c34d758c`
+- +51 тест — test_embedding_index.py + test_badges.py; итого 286 `3c00c354`
+- +27 тестов — test_passage_retrieval.py; итого 235 тестов `a833ea0b`
 - +25 тестов — test_index_update.py; обновление docs/ и README.md `0515207f`
 - +44 теста — test_progress_sync.py + test_semantic_search.py `b3b6c5db`
 
@@ -194,9 +194,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - improve_reading_list.py — BM25-список чтения по теме `19398486`
 - ещё 3 скрипта + применить TOC/абстракты ко всей базе знаний `a8455926`
 - run all script groups, apply TOC/abstracts/crosslinks, rebuild search index `898c42a0`
-- add component matrix, KPI history tracker, fix run_all coverage `69562b02`
-- добавить 8 скриптов группы nlpplus — расширенный NLP-анализ `4bcc9739`
-- add risk register, auto-changelog, master index; fix run_all missing scripts `59617c5d`
 
 **🐛 Исправления**
 
@@ -207,7 +204,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - остановить деструктивные авто-обновления от GitHub Actions бота `ee0b767e`
 - fix crosslink root cause (relative paths), map all 125 scripts in dependency map `ed3fa81f`
 - fix 8607 broken internal links, improve health score formula `52179ba5`
-- fix update-docs CI job failures `42f561dd`
 
 **📝 Документация**
 
@@ -228,8 +224,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - auto-update via improve_run_all [skip ci] `f63f1a9f`
 - auto-update via improve_run_all [skip ci] `039a4a2a`
 - auto-update via improve_run_all [skip ci] `dfc530a0`
-- auto-update via improve_run_all [skip ci] `f73c58f7`
-- auto-update via improve_run_all [skip ci] `8e689b3d`
 
 **🔧 Технические задачи**
 
@@ -262,8 +256,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - refresh executive report `12dea45c`
 - синхронизировать сгенерированные отчёты и docs `64358a84`
 - sync PROGRESS.md after content scripts commit `afe64e18`
-- sync PROGRESS.md after nlpplus scripts commit `78f4f118`
-- sync CONTRADICTIONS.md (background task output) `89d3e8fb`
 
 **📌 Прочее**
 
@@ -274,11 +266,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - Extract Hermes Agent comparison and re-prioritization `7822b130`
 - Extract AI-managed virtual company and MMORPG-for-programmers analyses `e965e1cd`
 - Extract Anthropic outreach concept, collaborator findings, reading paths `088f3f16`
-- Extract Lorenzo specification questions and phased deployment `9d9d2fee`
-- Extract Three-Phase Review Methodology and operationalized Lorenzo `047d6c06`
-- Extract Lorenzo agent prompt and 4 more DHLab papers `5a34f469`
-- Extract Nautilus Portal Protocol RFC and companion papers `cbe83e6e`
-- Add profile-mapping, glossary, source-projects index `b552bcfc`
 
 ---
 
@@ -301,40 +288,3 @@ python scripts/improve_changelog_auto.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (12):**
-- [CHANGELOG](CHANGELOG.md)
-- [CONTACTS](CONTACTS.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [HEALTH](HEALTH.md)
-- [INDEX](INDEX.md)
-- [METRICS](METRICS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- _...ещё 4_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 0.99)
-- [CHANGELOG](CHANGELOG.md) (сходство 0.57)
-- [CHANGELOG](obsidian/CHANGELOG.md) (сходство 0.57)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CHANGELOG](CHANGELOG.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-

@@ -6,6 +6,11 @@ date: 2026-05-11
 ---
 
 # CHANGELOG
+
+> [!NOTE]
+> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
 
 
@@ -572,3 +577,18 @@ date: 2026-05-11
 - [[SCRIPT_EVAL_REPORT]]
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog.py
+```
+```bash
+# Вариант 2
+python scripts/improve_changelog.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_changelog.py --dry-run
+```

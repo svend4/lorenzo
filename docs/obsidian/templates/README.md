@@ -1,11 +1,20 @@
 ---
 title: "templates"
 tags:
+  - readme
+  - docs
   - templates
 date: 2026-05-11
 ---
 
 # templates
+
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
 
 **Файлов:** 23
 
@@ -54,3 +63,10 @@ date: 2026-05-11
 - [[contradiction-record]]
 - _...ещё 16_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

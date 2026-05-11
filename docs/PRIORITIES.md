@@ -1,5 +1,18 @@
 # Приоритеты файлов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `PRIORITIES` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: priorities, docs -->
+
+
+<!-- summary -->
+> `PRIORITIES` — раздел документации проекта Lorenzo.
+
+
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
 **Всего файлов:** 2243
@@ -862,3 +875,24 @@
 | `docs/obsidian/nautilus/community-discussions/voiceless-contributors/01-response.md` | 10.65 |
 | `docs/obsidian/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` | 0.31 |
 | `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` | 0.31 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_priorities.py
+```
+```bash
+# Вариант 2
+python scripts/improve_priorities.py --dry-run
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)

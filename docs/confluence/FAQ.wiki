@@ -5,6 +5,11 @@
 
 h1. Часто задаваемые вопросы (FAQ)
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{FAQ}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Извлечено: 251 вопросов и ответов_{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, agent-memory-mcp
@@ -290,3 +295,10 @@ _Кто ссылается на этот документ (18):_
 * [QUESTIONS|QUESTIONS.md]
 * _...ещё 10_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_faq.py
+{code}

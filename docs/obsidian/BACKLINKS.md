@@ -1,11 +1,26 @@
 ---
 title: "Индекс обратных ссылок"
 tags:
+  - backlinks
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Индекс обратных ссылок
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `BACKLINKS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: backlinks, docs -->
+
+
+<!-- summary -->
+> `BACKLINKS` — раздел документации проекта Lorenzo.
+
 
 **Файлов с входящими ссылками:** 2715
 
@@ -72,3 +87,17 @@ date: 2026-05-11
 | **svyazi-2-0** | 703 | 699 |
 | **technology-combinations** | 662 | 609 |
 | **templates** | 224 | 221 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_backlinks.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]

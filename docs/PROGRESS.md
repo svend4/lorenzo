@@ -1,5 +1,12 @@
 # Прогресс MVP
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `PROGRESS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 **Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory

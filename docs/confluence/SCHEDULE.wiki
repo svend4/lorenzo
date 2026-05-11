@@ -6,6 +6,13 @@
 h1. Расписание проекта
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 

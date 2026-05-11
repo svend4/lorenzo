@@ -487,3 +487,10 @@ _Смотрите также:_
 * [[TOPIC_MODEL]]
 * [[08-conclusions]]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_contradictions.py
+{code}

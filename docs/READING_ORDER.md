@@ -1,5 +1,10 @@
 # Рекомендуемый порядок чтения
 
+> [!NOTE]
+> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
@@ -465,3 +470,22 @@
 - [SEARCH](SEARCH.md)
 - _...ещё 4_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_reading_order.py
+```
+```bash
+# Вариант 2
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_reading_order.py --dry-run
+```

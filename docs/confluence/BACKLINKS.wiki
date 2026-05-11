@@ -5,6 +5,19 @@
 
 h1. Индекс обратных ссылок
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{BACKLINKS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{BACKLINKS}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Файлов с входящими ссылками:_ 2715
 
 h2. Топ-30 самых цитируемых документов
@@ -68,3 +81,17 @@ h2. Ссылки по разделам
 || **svyazi-2-0** || 703 || 699 ||
 || **technology-combinations** || 662 || 609 ||
 || **templates** || 224 || 221 ||
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_backlinks.py
+{code}
+
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]

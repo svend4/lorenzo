@@ -1,5 +1,7 @@
 # Карта пробелов знаний
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -81,3 +83,10 @@
 - [READABILITY](READABILITY.md)
 - _...ещё 5_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_missing.py
+```

@@ -5,6 +5,19 @@
 
 h1. Именованные сущности
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{ENTITIES}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{ENTITIES}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Файлов просмотрено:_ 2476
 
 
@@ -128,3 +141,10 @@ h2. Ко-встречаемость проектов (топ пары)
 || Svyazi ↔ Rufler || 191 ||
 || Lorenzo ↔ ingit || 189 ||
 || NGT ↔ CardIndex || 189 ||
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_entities.py
+{code}

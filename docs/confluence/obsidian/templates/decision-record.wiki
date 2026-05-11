@@ -14,6 +14,11 @@ date: 2026-05-11
 
 h1. ADR: [Название решения]
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{decision-record}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 
 
@@ -62,3 +67,10 @@ _Кто ссылается на этот документ (14):_
 * [[experiment-log]]
 * _...ещё 6_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_decision_record.py
+{code}

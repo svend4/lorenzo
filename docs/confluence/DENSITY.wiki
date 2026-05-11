@@ -5,6 +5,19 @@
 
 h1. Карта плотности тем
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{DENSITY}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{DENSITY}} — раздел документации проекта Lorenzo.{quote}
+
+
 Количество упоминаний каждой темы в каждом разделе.
 
 || Тема || 01-svyazi || 02-vacancies || 03-tech || 04-collab || 05-habr || root || Итого ||
@@ -70,3 +83,17 @@ h2. Где сосредоточена каждая тема
 || Комбинации || `root` || 96% ||
 || Habr || `root` || 93% ||
 || Контакты || `root` || 92% ||
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_density.py
+{code}
+
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]

@@ -1,5 +1,10 @@
 # Часто задаваемые вопросы (FAQ)
 
+> [!NOTE]
+> Раздел `FAQ` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Извлечено: 251 вопросов и ответов_
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, agent-memory-mcp
@@ -285,3 +290,10 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 - [QUESTIONS](QUESTIONS.md)
 - _...ещё 10_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_faq.py
+```
