@@ -1,5 +1,16 @@
 # 02-reanalysis
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 5
 
 ## Содержание
@@ -35,3 +46,13 @@
 - [README](../../../nautilus/community-discussions/agent-changes-reality/README.md) (сходство 0.48)
 - [README](../../../habr-unique-projects/analogues/README.md) (сходство 0.48)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «02-reanalysis». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

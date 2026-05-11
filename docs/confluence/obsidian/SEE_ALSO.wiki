@@ -12,6 +12,11 @@ date: 2026-05-11
 
 h1. Индекс «Смотрите также»
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SEE_ALSO}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Файлов с блоком See Also:_ 1140{quote}
 _Проекты:_ Svyazi
@@ -56,3 +61,26 @@ h2. Ключевые связи
 * [[104-appendix-c-references]] → [[122-глоссарий]], [[105-review-methodology-md]], [[103-appendix-b-change-log]], [[64-for-the-curious-philosophy]]
 * [[105-review-methodology-md]] → [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[229-профессиональные-коллеги-агенты]], [[125-readme-mcp-md-инструкция-по-установке]], [[03-portal-protocol-md]]
 * [[106-tl-dr]] → [[00-tldr]], [[70-зачем-две-версии-параллельно]], [[190-содержание]], [[132-planned-v0-2-0]]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [[04-abstract]]
+* [[70-зачем-две-версии-параллельно]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+* _...ещё 1_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_see_also.py
+{code}

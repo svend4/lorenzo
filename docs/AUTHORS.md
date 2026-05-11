@@ -1,5 +1,16 @@
 # Авторы и коллаборации
 
+> [!NOTE]
+> Раздел `AUTHORS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: authors, docs -->
+
+
+<!-- summary -->
+> `AUTHORS` — раздел документации проекта Lorenzo.
+
+
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
@@ -44,3 +55,10 @@
 - [TABLES](TABLES.md)
 - [README](contacts/README.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_authors.py
+```

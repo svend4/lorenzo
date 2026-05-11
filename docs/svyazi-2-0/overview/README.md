@@ -1,5 +1,16 @@
 # overview
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
@@ -33,3 +44,13 @@
 - [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.61)
 - [README](../../habr-unique-projects/analogues/README.md) (сходство 0.58)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «overview». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

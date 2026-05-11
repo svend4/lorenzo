@@ -1,86 +1,26 @@
 ---
 title: "Глоссарий понятий"
 tags:
+  - concepts
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Глоссарий понятий
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+<!-- toc-auto -->
 
----
-
-<!-- toc -->
-## Содержание
-
-- [A](#a)
-- [B](#b)
-- [C](#c)
-- [D](#d)
-- [E](#e)
-- [F](#f)
-- [G](#g)
-- [H](#h)
-- [I](#i)
-- [J](#j)
-- [K](#k)
-- [L](#l)
-- [M](#m)
-- [N](#n)
-- [O](#o)
-- [P](#p)
-- [Q](#q)
-- [R](#r)
-- [S](#s)
-- [T](#t)
-- [U](#u)
-- [V](#v)
-- [W](#w)
-- [Y](#y)
-- [Z](#z)
-- [А](#а)
-- [Б](#б)
-- [В](#в)
-- [Г](#г)
-- [Д](#д)
-- [Е](#е)
-- [З](#з)
-- [И](#и)
-- [Й](#й)
-- [К](#к)
-- [Л](#л)
-- [М](#м)
-- [Н](#н)
-- [О](#о)
-- [П](#п)
-- [Р](#р)
-- [С](#с)
-- [Т](#т)
-- [У](#у)
-- [Ф](#ф)
-- [Ц](#ц)
-- [Ч](#ч)
-- [Ш](#ш)
-- [Щ](#щ)
-- [Ы](#ы)
-- [Э](#э)
-- [Ю](#ю)
-- [Я](#я)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `CONCEPTS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: concepts, docs -->
+
+
+<!-- summary -->
+> `CONCEPTS` — раздел документации проекта Lorenzo.
+
 
 _Определения извлечены автоматически из документов._
 
@@ -4953,24 +4893,37 @@ _Определения извлечены автоматически из до�
   _→ [[239-8-пилотное-предложение-sgb-колega-адвокат]]_
 
 
-<!-- see-also -->
 
----
-
-**Смотрите также:**
-- [[TABLES]]
-- [[01-интегральный-анализ-профиля-svend4]]
-- [[ACTION_ITEMS]]
-- [[OUTLINE]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_concepts.py
+```
+```bash
+# Вариант 2
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_concepts.py --dry-run
+```

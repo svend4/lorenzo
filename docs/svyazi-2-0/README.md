@@ -1,5 +1,16 @@
 # svyazi-2-0
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 1
 
 ## Содержание
@@ -41,3 +52,13 @@
 - [README](prototype/README.md) (сходство 0.45)
 - [README](../ai-collaborations/README.md) (сходство 0.45)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «svyazi-2-0». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

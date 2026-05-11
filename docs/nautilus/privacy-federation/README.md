@@ -1,5 +1,16 @@
 # privacy-federation
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 5
 
 ## Содержание
@@ -34,3 +45,13 @@
 - [README](../multi-tier-architecture/README.md) (сходство 0.50)
 - [README](../community-discussions/voiceless-contributors/README.md) (сходство 0.48)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «privacy-federation». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

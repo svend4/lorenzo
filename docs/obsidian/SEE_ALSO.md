@@ -7,6 +7,11 @@ date: 2026-05-11
 
 # Индекс «Смотрите также»
 
+> [!NOTE]
+> Раздел `SEE_ALSO` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Файлов с блоком See Also:** 1140
 **Проекты:** Svyazi
@@ -56,9 +61,21 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (9):**
+- [[04-abstract]]
+- [[70-зачем-две-версии-параллельно]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_see_also.py
+```

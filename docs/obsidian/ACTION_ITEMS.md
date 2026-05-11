@@ -7,24 +7,20 @@ date: 2026-05-11
 
 # Action Items, риски и решения
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `ACTION_ITEMS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: action-items, docs -->
+
+
+<!-- summary -->
+> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
+
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3436
+**Всего элементов:** 3474
 
 
 ## ➡️ Следующие шаги (364)
@@ -254,7 +250,7 @@ date: 2026-05-11
 
 _(253 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1051)
+## ✅ Решения и рекомендации (1065)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -468,14 +464,10 @@ _(253 дублей скрыто)_
   _→ CONTENT_GAPS_
 - создать документы  
   _→ CONTENT_GAPS_
-- (extractor / reviewer / publisher) - `decision` — `approved` | `rejected` | `deferred` - `reason` — текстовое обоснование - `evidence_refs` — ссылки н  
-  _→ DUPLICATES_
 - (5 сл., строка 27)  
   _→ EMPTY_SECTIONS_
 - go / no-go** _`docs`, `automation`_  
   _→ GITHUB_ISSUES_
-- создать документы - Детали по топ-20 пробелам - `MH | `CONTENT_GAPS` |  
-  _→ KPI_
 - Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
   _→ OUTLINE_
 - Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
@@ -490,8 +482,6 @@ _(253 дублей скрыто)_
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- упростить](#самые-сложные-тексты-2414-рекомендуется-упростить)  
-  _→ READABILITY_
 - Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |  
   _→ READING_ORDER_
 - boundary | 7 |  
@@ -500,31 +490,33 @@ _(253 дублей скрыто)_
   _→ REGISTRY_
 - замена на HTTPS._  
   _→ SENTINEL_
-- × Auto A](technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | 304 |  
+- × Auto A](technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | 322 |  
   _→ SITEMAP_
 - автоматическое, по правилу - Наша методология: разрешение ручное, через правила 1-5 В security и public policy используется структура red vs blue : од  
   _→ SUMMARIES_
 - через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.  
   _→ SUMMARIES_
-- boundary](#462-decision-boundary)  
+- boundary](#477-decision-boundary)  
   _→ TABLES_
 - boundary](#4-decision-boundary)  
   _→ TABLES_
-- Framework — When to Buil]] | 555 | — |  
+- Framework — When to Buil]] | 602 | — |  
   _→ TABLES_
-- Tree for InGit Adopters]] | 348 | — |  
+- Tree for InGit Adopters]] | 415 | — |  
   _→ TABLES_
-- × Auto A]] | 187 |  
+- × Auto A]] | 304 |  
+  _→ TABLES_
+- 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `04-ai-collaborations/00-intro.md` |  
+  _→ TABLES_
+- 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |  
   _→ TABLES_
 - | Суд | Дата | Релевантность |  
   _→ TABLES_
-- создать документы](#25-рекомендуется-создать-документы)  
+- создать документы](#24-рекомендуется-создать-документы)  
   _→ TABLES_
 - упростить |  
   _→ TABLES_
-- 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `04-ai-collaborations/00-intro.md` |  
-  _→ TIMELINE_
-- 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |  
+- 2019 года, после изменений 2024 года примен | `TABLES.md` |  
   _→ TIMELINE_
 - как связь между людьми» — или это  
   _→ spbmolot_
@@ -568,14 +560,8 @@ _(253 дублей скрыто)_
   _→ OUTLINE_
 - × Auto AI Router]]  
   _→ OUTLINE_
-- Framework — When to Buil]] | 602 | — |  
-  _→ READING_ORDER_
-- Tree for InGit Adopters]] | 415 | — |  
-  _→ READING_ORDER_
-- × Auto A]] | 304 |  
+- × Auto A]] | 322 |  
   _→ SITEMAP_
-- × Auto A]] | 302 |  
-  _→ TABLES_
 - две-уровневая публикация"  
   _→ 02-two-tier-publication_
 - — Map-Reduce:**  
@@ -607,9 +593,9 @@ _(253 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(876 дублей скрыто)_
+_(895 дублей скрыто)_
 
-## ⚠️ Риски (1293)
+## ⚠️ Риски (1309)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1093,11 +1079,9 @@ _(876 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - агентов? (5 сл., строка 28)  
   _→ EMPTY_SECTIONS_
-- агентов?](#qa-meta-scripting-note---какие-инструменты-обеспечивают-безопасность-агентов)  
-  _→ FAQ_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
-- | ██ 5.8 | 0.5 | 0.3 | ▓▓ 3.9 | 0.3 |  
+- | ██ 6.0 | 0.5 | 0.3 | ▓▓ 4.0 | 0.3 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
@@ -1153,7 +1137,7 @@ _(876 дублей скрыто)_
   _→ SIMILAR_PASSAGES_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
-- [Название]](templates/risk-entry.md) | 353 |  
+- [Название]](templates/risk-entry.md) | 371 |  
   _→ SITEMAP_
 - и приватность](01-svyazi/06-security-privacy.md) | 941 |  
   _→ SITEMAP_
@@ -1161,15 +1145,17 @@ _(876 дублей скрыто)_
   _→ SITEMAP_
 - склеиват](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) | 3395 |  
   _→ SITEMAP_
-- склеивать](svyazi-2-0/limitations/do-not-glue.md) | 411 |  
+- склеивать](svyazi-2-0/limitations/do-not-glue.md) | 429 |  
   _→ SITEMAP_
 - того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid  
   _→ SUMMARIES_
-- algorithm, update methodology |  
+- Analysis]] | 775 | — |  
   _→ TABLES_
-- Analysis]] | 757 | — |  
+- [Название]](templates/risk-entry.md) | 353 |  
   _→ TABLES_
-- [Название]](docs/templates/risk-entry.md) | 221 |  
+- и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `02-anthropic-vacancies/150-appendix-c-version-histor  
+  _→ TABLES_
+- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `01-svyazi/07-mvp-planning.md` |  
   _→ TABLES_
 - | Severity | Митигация |  
   _→ TABLES_
@@ -1177,44 +1163,30 @@ _(876 дублей скрыто)_
   _→ TABLES_
 - идентифицирован | [Имя] |  
   _→ TABLES_
-- | `root` | 86% |  
+- и allowlist для MCP | 0 |  
   _→ TABLES_
-- и allowlist для MCP | 2 |  
+- и приватность]] | 941 | — |  
   _→ TABLES_
-- (3) +6 | Mvp (11), Архитектура (44), Безопасность (2) +6 |  
+- и приватность]] | 941 |  
   _→ TABLES_
-- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+- и приватность]] | 952 |  
   _→ TABLES_
-- | `root` | 90% |  
-  _→ TABLES_
-- и приватность](01-svyazi/06-security-privacy.md) | 937 | — |  
-  _→ TABLES_
-- и приватность <!-- toc --> ## Содержание - Contents - [[06-security-privacy|Безопасность, приватность и б… |  
-  _→ TABLES_
-- и приватность]] | 937 |  
-  _→ TABLES_
-- (4) +7 | Contents, Mvp (10), Архитектура (61) +6 |  
+- (4) +8 | Mvp (10), Архитектура (61), Безопасность (3) +7 |  
   _→ TABLES_
 - и приватность, Использование +4 | — |  
   _→ TABLES_
-- склеивать в один релиз]] | 250 |  
+- и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
-- склеивать, выводы |  
+- склеивать в один релиз]] | 334 |  
   _→ TABLES_
-- скл]] | 3274 | — |  
+- скл]] | 3395 | — |  
   _→ TABLES_
-- склеиват]] | 3274 |  
+- склеиват]] | 3395 |  
   _→ TABLES_
-- склеивать]] | 343 |  
+- склеивать]] | 411 |  
   _→ TABLES_
-- склеивать](svyazi-2-0/limitations/do-not-glue.md) | 409 |  
+- склеивать](svyazi-2-0/limitations/do-not-glue.md) | 411 |  
   _→ TABLES_
-- и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `02-anthropic-vacancies/150-appendix-c-version-histor  
-  _→ TIMELINE_
-- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `01-svyazi/07-mvp-planning.md` |  
-  _→ TIMELINE_
-- (4) +8 | Mvp (10), Архитектура (61), Безопасность (3) +7 |  
-  _→ VERSION_DIFF_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 - склеивать в один релиз"  
@@ -1257,34 +1229,10 @@ _(876 дублей скрыто)_
   _→ OUTLINE_
 - склеивать]]  
   _→ OUTLINE_
-- Analysis]] | 775 | — |  
-  _→ READING_ORDER_
-- и приватность]] | 941 | — |  
-  _→ READING_ORDER_
-- скл]] | 3395 | — |  
-  _→ READING_ORDER_
-- и приватность]] | 941 |  
+- склеивать в один релиз]] | 352 |  
   _→ SITEMAP_
-- и приватность]] | 952 |  
+- склеивать]] | 429 |  
   _→ SITEMAP_
-- склеивать в один релиз]] | 334 |  
-  _→ SITEMAP_
-- склеиват]] | 3395 |  
-  _→ SITEMAP_
-- склеивать]] | 411 |  
-  _→ SITEMAP_
-- и приватность]] | 937 | — |  
-  _→ TABLES_
-- и приватность]] | 937 |  
-  _→ TABLES_
-- склеивать в один релиз]] | 332 |  
-  _→ TABLES_
-- скл]] | 3391 | — |  
-  _→ TABLES_
-- склеиват]] | 3391 |  
-  _→ TABLES_
-- склеивать]] | 409 |  
-  _→ TABLES_
 - и бюджетный execution plane для агентных систем.  
   _→ security-routing-plane_
 - склеивать».  
@@ -1306,9 +1254,9 @@ _(876 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(946 дублей скрыто)_
+_(981 дублей скрыто)_
 
-## 🚫 Ограничения (378)
+## 🚫 Ограничения (384)
 
 - и лицензии  
   _→ 14-limitations_
@@ -1476,23 +1424,23 @@ _(946 дублей скрыто)_
   _→ SITEMAP_
 - и открытые вопросы_  
   _→ SUMMARIES_
-- и открытые вопросы]] | 447 | — |  
+- и лицензии]] | 765 | — |  
   _→ TABLES_
-- текущей версии (0.1.0-draft)]] | 197 | — |  
+- и открытые вопросы]] | 544 | — |  
   _→ TABLES_
-- и открытые вопросы]] | 447 |  
+- текущей версии (0.1.0-draft)]] | 304 | — |  
   _→ TABLES_
-- текущей версии (0.1.0-draft)]] | 197 |  
+- и лицензии]] | 765 |  
   _→ TABLES_
-- и открытые вопросы]] | 464 |  
+- и открытые вопросы]] | 544 |  
+  _→ TABLES_
+- текущей версии (0.1.0-draft)]] | 304 |  
+  _→ TABLES_
+- и лицензии]] | 776 |  
+  _→ TABLES_
+- и открытые вопросы]] | 561 |  
   _→ TABLES_
 - при коммерческом использовании |  
-  _→ TABLES_
-- и лицензии](01-svyazi/14-limitations.md) | 761 | — |  
-  _→ TABLES_
-- и лицензии](01-svyazi/14-limitations.md) | 761 |  
-  _→ TABLES_
-- и лицензии](obsidian/01-svyazi/14-limitations.md) | 761 |  
   _→ TABLES_
 - и лицензии +4 | — |  
   _→ TABLES_
@@ -1534,42 +1482,12 @@ _(946 дублей скрыто)_
   _→ OUTLINE_
 - (честно)]]  
   _→ OUTLINE_
-- и лицензии]] | 765 | — |  
-  _→ READING_ORDER_
-- и открытые вопросы]] | 544 | — |  
-  _→ READING_ORDER_
-- текущей версии (0.1.0-draft)]] | 304 | — |  
-  _→ READING_ORDER_
-- и лицензии]] | 765 |  
-  _→ SITEMAP_
-- и открытые вопросы]] | 544 |  
-  _→ SITEMAP_
-- текущей версии (0.1.0-draft)]] | 304 |  
-  _→ SITEMAP_
-- и лицензии]] | 776 |  
-  _→ SITEMAP_
-- и открытые вопросы]] | 561 |  
-  _→ SITEMAP_
-- и лицензии]] | 761 | — |  
-  _→ TABLES_
-- и открытые вопросы]] | 540 | — |  
-  _→ TABLES_
-- текущей версии (0.1.0-draft)]] | 302 | — |  
-  _→ TABLES_
-- и лицензии]] | 761 |  
-  _→ TABLES_
-- и открытые вопросы]] | 540 |  
-  _→ TABLES_
-- текущей версии (0.1.0-draft)]] | 302 |  
-  _→ TABLES_
-- и открытые вопросы]] | 546 |  
-  _→ TABLES_
 - - [Риск 1]  
   _→ ensemble_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(249 дублей скрыто)_
+_(270 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (38)
 
@@ -1593,7 +1511,7 @@ _(249 дублей скрыто)_
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **141**  
+- меток: **108**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1606,7 +1524,7 @@ _(249 дублей скрыто)_
 
 _(23 дублей скрыто)_
 
-## 📬 Контактные действия (312)
+## 📬 Контактные действия (314)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1764,12 +1682,12 @@ _(23 дублей скрыто)_
   _→ SCHEDULE_
 - первое сообщение автору OSS-проекта | "напиши письмо автору", "составь запрос на  
   _→ TABLES_
+- PORTAL-PROTOCOL-H | `02-anthropic-vacancies/133-обратная-связь.md` |  
+  _→ TABLES_
 - резюме | 🟡 (TextRank) | ✅ (связный текст) |  
   _→ TABLES_
 - первое сообщение автору OSS-проекта  
   _→ TASKS_INDEX_
-- PORTAL-PROTOCOL-H | `02-anthropic-vacancies/133-обратная-связь.md` |  
-  _→ TIMELINE_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
@@ -1786,29 +1704,44 @@ _(23 дублей скрыто)_
   _→ 12-onboarding-paths_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
-- `adapters/<format>.py`, наследуясь от `[[CONCEPTS|[01-интегральный-анализ-профиля-svend4|B  
+- `adapters/<format>.py`, наследуясь от `[[README|[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
 
-_(222 дублей скрыто)_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONCEPTS]]
-- [[SEARCH]]
-- [[READABILITY]]
-- [[READING_TIME]]
+_(224 дублей скрыто)_
 
 
-<!-- backlinks -->
+## Использование
+```bash
+# Запуск
+python scripts/improve_action_items.py
+```
+```bash
+# Вариант 2
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_action_items.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_action_items.py --dry-run
+```
 
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+## Смотрите также
+- [Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]
+- [[CONTACTS|Контакты]]
+- [[SCORING|Оценка]]
+- [[TAGS|Теги]]
+- [[ACTION_ITEMS|Задачи]]
+- [[TIMELINE|Хронология]]
+- [[OUTLINE|Структура]]

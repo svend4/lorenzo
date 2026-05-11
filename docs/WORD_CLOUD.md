@@ -1,5 +1,10 @@
 # Word Cloud
 
+> [!NOTE]
+> Раздел `WORD_CLOUD` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Визуализация 80 самых частых слов репозитория.
 **Проекты:** Svyazi
@@ -54,3 +59,10 @@
 - [README](README.md)
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_word_cloud.py
+```

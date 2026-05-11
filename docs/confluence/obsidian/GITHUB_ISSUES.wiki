@@ -809,3 +809,10 @@ _Смотрите также:_
 * [[CROSS_SECTION]]
 * [[DIGEST_WEEKLY]]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_github_issues.py
+{code}

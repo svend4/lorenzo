@@ -13,6 +13,8 @@ date: 2026-05-11
 h1. Словарь аббревиатур и сокращений
 
 
+
+
 {quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ SENTINEL, LiteLLM, Auto AI Router
 
@@ -195,3 +197,30 @@ _Смотрите также:_
 * [[TABLES]]
 * [[133-обратная-связь]]
 
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [[03-карта-найденных-проектов-и-паттернов]]
+* [[INDEX]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+* _...ещё 1_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_abbreviations.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_abbreviations.py --dry-run
+{code}

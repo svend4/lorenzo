@@ -1,5 +1,16 @@
 # multi-tier-architecture
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 2
 
 ## Содержание
@@ -30,3 +41,13 @@
 - [README](../community-discussions/voiceless-contributors/README.md) (сходство 0.64)
 - [README](../community-discussions/practical-observations/README.md) (сходство 0.64)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «multi-tier-architecture». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

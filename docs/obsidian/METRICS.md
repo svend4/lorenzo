@@ -116,10 +116,14 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 
 ---
 
-**Кто ссылается на этот документ (5):**
-- [METRICS](../METRICS.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (34):**
+- [[BROKEN_LINKS]]
+- [[CHANGELOG_AUTO]]
+- [[CITATION_INDEX]]
+- [[CONCEPT_GRAPH]]
+- [[CONTRADICTIONS]]
+- [[CROSS_SECTION]]
+- [[DEPENDENCY_MAP]]
+- [[DIGEST_AUTO]]
+- _...ещё 26_
 

@@ -7,6 +7,13 @@ date: 2026-05-11
 
 # Майндмап репозитория Lorenzo
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `MINDMAP` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > knowledge-space[knowledge-space]
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -131,9 +138,14 @@ flowchart LR
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (9):**
+- [[04-sozialrecht-domain]]
+- [[GRAPH]]
+- [[NETWORK]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 1_
 

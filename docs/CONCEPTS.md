@@ -1,79 +1,17 @@
 # Глоссарий понятий
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+<!-- toc-auto -->
 
----
-
-<!-- toc -->
-## Содержание
-
-- [A](#a)
-- [B](#b)
-- [C](#c)
-- [D](#d)
-- [E](#e)
-- [F](#f)
-- [G](#g)
-- [H](#h)
-- [I](#i)
-- [J](#j)
-- [K](#k)
-- [L](#l)
-- [M](#m)
-- [N](#n)
-- [O](#o)
-- [P](#p)
-- [Q](#q)
-- [R](#r)
-- [S](#s)
-- [T](#t)
-- [U](#u)
-- [V](#v)
-- [W](#w)
-- [Y](#y)
-- [Z](#z)
-- [А](#а)
-- [Б](#б)
-- [В](#в)
-- [Г](#г)
-- [Д](#д)
-- [Е](#е)
-- [З](#з)
-- [И](#и)
-- [Й](#й)
-- [К](#к)
-- [Л](#л)
-- [М](#м)
-- [Н](#н)
-- [О](#о)
-- [П](#п)
-- [Р](#р)
-- [С](#с)
-- [Т](#т)
-- [У](#у)
-- [Ф](#ф)
-- [Ц](#ц)
-- [Ч](#ч)
-- [Ш](#ш)
-- [Щ](#щ)
-- [Ы](#ы)
-- [Э](#э)
-- [Ю](#ю)
-- [Я](#я)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `CONCEPTS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: concepts, docs -->
+
+
+<!-- summary -->
+> `CONCEPTS` — раздел документации проекта Lorenzo.
+
 
 _Определения извлечены автоматически из документов._
 
@@ -4983,29 +4921,37 @@ _Определения извлечены автоматически из до�
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
 
 
-<!-- see-also -->
 
----
-
-**Смотрите также:**
-- [TABLES](TABLES.md)
-- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [ACTION_ITEMS](ACTION_ITEMS.md)
-- [OUTLINE](OUTLINE.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (95):**
-- [02-methodology](01-svyazi/02-methodology.md)
-- [12-roadmap](01-svyazi/12-roadmap.md)
-- [14-limitations](01-svyazi/14-limitations.md)
-- [00-intro](02-anthropic-vacancies/00-intro.md)
-- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
-- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- _...ещё 87_
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_concepts.py
+```
+```bash
+# Вариант 2
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_concepts.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_concepts.py --dry-run
+```

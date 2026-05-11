@@ -6,6 +6,13 @@
 h1. Граф связей проектов
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{GRAPH}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}Рёбра = совместные упоминания в одном файле (≥ 2 раз).{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
@@ -655,4 +662,20 @@ _Смотрите также:_
 * [MINDMAP|MINDMAP.md]
 * [GLOSSARY|GLOSSARY.md]
 * [ENTITIES|ENTITIES.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
+* [DEPENDABOT|DEPENDABOT.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [MINDMAP|MINDMAP.md]
+* [NETWORK|NETWORK.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* _...ещё 3_
 

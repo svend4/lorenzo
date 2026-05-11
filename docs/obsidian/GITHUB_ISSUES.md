@@ -804,3 +804,10 @@ python scripts/improve_github_issues.py
 - [[CROSS_SECTION]]
 - [[DIGEST_WEEKLY]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_github_issues.py
+```

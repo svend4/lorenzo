@@ -100,9 +100,14 @@ _Обновлено: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (36):**
+- [[BROKEN_LINKS]]
+- [[CHANGELOG_AUTO]]
+- [[CITATION_INDEX]]
+- [[CONCEPT_GRAPH]]
+- [[CONTRADICTIONS]]
+- [[CROSS_SECTION]]
+- [[DEPENDENCY_MAP]]
+- [[DIGEST_WEEKLY]]
+- _...ещё 28_
 

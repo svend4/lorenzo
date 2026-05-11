@@ -10,6 +10,17 @@ date: 2026-05-11
 ---
 
 # Оценка готовности проекта (Go/No-Go)
+
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `SCORING` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> `SCORING` — раздел документации проекта Lorenzo.
+
 <!-- tags: security, architecture, roadmap, collaboration -->
 
 
@@ -75,9 +86,21 @@ _Дата: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (20):**
+- [[CROSS_SECTION]]
+- [[DENSITY]]
+- [[EMPTY_SECTIONS]]
+- [[GITHUB_ISSUES]]
+- [[HEALTH]]
+- [[HEATMAP]]
+- [[INDEX]]
+- [[LANGUAGE_STATS]]
+- _...ещё 12_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_scoring.py
+```

@@ -8,25 +8,16 @@ date: 2026-05-11
 
 # Хронология и временные маркеры
 
-<!-- toc -->
-## Содержание
+<!-- toc-auto -->
 
-- [Точная дата (9314)](#точная-дата-9314)
-- [Год (106)](#год-106)
-- [Квартал (18)](#квартал-18)
-- [Месяц+год (325)](#месяцгод-325)
-- [Период (18)](#период-18)
-- [Фаза (946)](#фаза-946)
-- [Длительность (605)](#длительность-605)
-- [Версия (2021)](#версия-2021)
-
----
+<!-- summary -->
+> `TIMELINE` — раздел документации проекта Lorenzo.
 
 
-Всего временных меток: **13353**
+Всего временных меток: **15481**
 
 
-## Точная дата (9314)
+## Точная дата (9654)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
@@ -60,9 +51,9 @@ date: 2026-05-11
 | `2026-04-26` | 026 **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude **Li | `02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` |
 | `2026-04-26` | а **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:** svend4 **Редакторская работа:** Claude **Лицензи | `02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` |
 | `2026-04-19` | review:** Claude (ассистирующий анализ, 2026-04-19) **Previous version:** [PORTAL-PROTOCOL.md v1.0](https:// | `02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` |
-| ... | _ещё 9284 записей_ | |
+| ... | _ещё 9624 записей_ | |
 
-## Год (106)
+## Год (414)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
@@ -86,38 +77,38 @@ date: 2026-05-11
 | `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: | `04-ai-collaborations/01-executive-summary.md` |
 | `2026 год` | гим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо | `04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` |
 | `2024 год` | «это решение 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |
-| `2024 год` | 00-intro_ - 2019 года, после изменений 2024 года применяется иначе»); _→ 00-intro_ - заслуживает своего | `ACTION_ITEMS.md` |
+| `2024 год` | 00-intro_ - 2019 года, после изменений 2024 года применяется иначе»); _→ 00-intro_ - Record (ADR): конт | `ACTION_ITEMS.md` |
 | `2026 год` | tes / / `2026-04-26` / 8 / dates / / `в 2026 году` / 7 / dates / / `марта 2026` / 6 / dates / / `март 2026` | `NAMED_ENTITIES.md` |
 | `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : ing | `SUMMARIES.md` |
-| `2026 год` | es / / `2026/04/25` / 10 / dates / / `в 2026 году` / 8 / dates / / `март 2026` / 7 / dates / / `2026-05-03` | `TABLES.md` |
+| `2026 год` | tes / / `2026-04-26` / 8 / dates / / `в 2026 году` / 7 / dates / / `марта 2026` / 6 / dates / / `март 2026` | `TABLES.md` |
+| `2025 год` | ic-vacancies/203-благодарности.md` / / `2025 год` / Кириллом Дьологом сервис «Обучай» летом 2025 года. К апр | `TABLES.md` |
+| `2027 год` | ic-vacancies/244-благодарности.md` / / `2027 год` / к функциональности Projects через 2026-2027 годы. **GitH | `TABLES.md` |
+| `2024 год` | anthropic-vacancies/69-section.md` / / `2024 год` / «это решение 2019 года, после изменений 2024 года примен | `TABLES.md` |
 | `2026 год` | гим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо | `ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` |
 | `2026 год` | arch + model routing. Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных р | `ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md` |
 | `2026 год` | от Nous Research, выпущенный 25 февраля 2026 года, MIT лицензия. К 23 апреля 2026 (несколько дней назад) — в | `anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md` |
-| `2024 год` | «это решение 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные об | `habr-unique-projects/final-ensembles/2-autoresearch-legal.md` |
-| `2026 год` | стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: | `lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` |
-| `2025 год` | Кириллом Дьологом сервис «Обучай» летом 2025 года. К апрелю 2026 — 93 тысячи пользователей за семь месяцев. | `nautilus/community-discussions/habr-article-2-reaction/01-response.md` |
-| ... | _ещё 76 записей_ | |
+| ... | _ещё 384 записей_ | |
 
-## Квартал (18)
+## Квартал (130)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
 | `Q1 2026` | tes / / `феврале 2025` / 3 / dates / / `Q1 2026` / 3 / dates / / `февраля 2026` / 3 / dates / / `май 2025` | `NAMED_ENTITIES.md` |
 | `Q2 2024` | dates / / `март 2024` / 2 / dates / / `Q2 2024` / 2 / dates / / `май 2026` / 2 / dates / / `2025-11-12` / | `NAMED_ENTITIES.md` |
 | `Q2 2024` | Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - | `SCRIPTS_CATALOG.md` |
-| `Q1 2026` | tes / / `февраль 2026` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / | `TABLES.md` |
-| `Q2 2024` | / dates / / `2024-01` / 3 / dates / / `Q2 2024` / 3 / dates / / `2025-11-12` / 3 / dates / / `2024-06-15` | `TABLES.md` |
+| `Q1 2026` | tes / / `феврале 2025` / 3 / dates / / `Q1 2026` / 3 / dates / / `февраля 2026` / 3 / dates / / `май 2025` | `TABLES.md` |
+| `Q2 2024` | dates / / `март 2024` / 2 / dates / / `Q2 2024` / 2 / dates / / `май 2026` / 2 / dates / / `2025-11-12` / | `TABLES.md` |
 | `Q1 2026` | tes / / `феврале 2025` / 3 / dates / / `Q1 2026` / 3 / dates / / `февраля 2026` / 3 / dates / / `май 2025` | `obsidian/NAMED_ENTITIES.md` |
 | `Q2 2024` | dates / / `март 2024` / 2 / dates / / `Q2 2024` / 2 / dates / / `май 2026` / 2 / dates / / `2025-11-12` / | `obsidian/NAMED_ENTITIES.md` |
 | `Q2 2024` | Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - | `obsidian/SCRIPTS_CATALOG.md` |
-| `Q1 2026` | tes / / `февраль 2026` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / | `obsidian/TABLES.md` |
-| `Q2 2024` | / dates / / `2024-01` / 3 / dates / / `Q2 2024` / 3 / dates / / `2025-11-12` / 3 / dates / / `2024-06-15` | `obsidian/TABLES.md` |
+| `Q1 2026` | tes / / `феврале 2025` / 3 / dates / / `Q1 2026` / 3 / dates / / `февраля 2026` / 3 / dates / / `май 2025` | `obsidian/TABLES.md` |
+| `Q2 2024` | dates / / `март 2024` / 2 / dates / / `Q2 2024` / 2 / dates / / `май 2026` / 2 / dates / / `2025-11-12` / | `obsidian/TABLES.md` |
 | `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `obsidian/processing-guide/05-analysis.md` |
 | `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `obsidian/processing-guide/PROCESSING_GUIDE.md` |
 | `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `processing-guide/05-analysis.md` |
 | `Q1 2026` | on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p | `processing-guide/PROCESSING_GUIDE.md` |
 
-## Месяц+год (325)
+## Месяц+год (739)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
@@ -151,24 +142,26 @@ date: 2026-05-11
 | `апрель 2026` | uthor working projects , недавние (март-апрель 2026), MIT licenses, directly applicable к нашей стек. Они предс | `02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` |
 | `апрель 2026` | *Объём:** 74 документа (по состоянию на апрель 2026) --- <!-- tags: anthropic --> > [!TIP] > Обзорный докумен | `02-anthropic-vacancies/38-content-overview.md` |
 | `декабрь 2025` | summary --> > **Создан:** [? уточнить — декабрь 2025, если совпадает с волной --- <!-- tags: memory, anthropic, | `02-anthropic-vacancies/43-history.md` |
-| ... | _ещё 295 записей_ | |
+| ... | _ещё 709 записей_ | |
 
-## Период (18)
+## Период (114)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `01-svyazi/01-executive-summary.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `04-ai-collaborations/01-executive-summary.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : | `SUMMARIES.md` |
+| `первые месяцы 2026` | `2026 год` / стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `TABLES.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/01-svyazi/01-executive-summary.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/04-ai-collaborations/01-executive-summary.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для Svyazi‑2.0 : | `obsidian/SUMMARIES.md` |
+| `первые месяцы 2026` | `2026 год` / стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/TABLES.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `obsidian/svyazi-2-0/overview/executive-summary.md` |
 | `первые месяцы 2026` | ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 | `svyazi-2-0/overview/executive-summary.md` |
 
-## Фаза (946)
+## Фаза (1224)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
@@ -202,9 +195,9 @@ date: 2026-05-11
 | `Phase 0` | ](#9-phased-rollout-strategy) - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1 | `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` |
 | `Phase 1` | ase-0-foundation-months-1-12) - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-dom | `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` |
 | `Phase 2` | gle-domain-maturation-year-2) - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansio | `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` |
-| ... | _ещё 916 записей_ | |
+| ... | _ещё 1194 записей_ | |
 
-## Длительность (605)
+## Длительность (851)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
@@ -238,9 +231,9 @@ date: 2026-05-11
 | `6-12 месяце` | end, AI integration, design, product) - 6-12 месяцев до viable MVP - $500K-1.5M первого года - И главное — clea | `02-anthropic-vacancies/272-appendix-d-connection-diagram.md` |
 | `1-2 недели` | уже это позволяют (нужно проверить), то 1-2 недели для создания template. > 🔧 **Подход:** Часть 2 (Project Man | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
 | `10-16 месяце` | ompose, документацию, план реализации в 10-16 месяцев, technological stack уже выбран (Python 3.11, FastAPI, pyg | `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` |
-| ... | _ещё 575 записей_ | |
+| ... | _ещё 821 записей_ | |
 
-## Версия (2021)
+## Версия (2355)
 
 | Маркер | Контекст | Файл |
 |--------|----------|------|
@@ -274,7 +267,7 @@ date: 2026-05-11
 | `v1.1` | -b-change-log.md) - PORTAL-PROTOCOL.md v1.1 - [README-MCP.md— инструкци | `02-anthropic-vacancies/105-review-methodology-md.md` |
 | `v3.0` | l header 7. Добавить changelog-запись: «v3.0 consolidated from A (branch X) and B (branch Y) on YYYY | `02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` |
 | `v1.1` | еграция с Nautilus Portal Protocol NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процесс для | `02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` |
-| ... | _ещё 1991 записей_ | |
+| ... | _ещё 2325 записей_ | |
 
 <!-- backlinks -->
 
@@ -286,19 +279,8 @@ date: 2026-05-11
 - [[24-12-versioning-policy]]
 - [[34-appendix-b-change-log]]
 - [[64-for-the-curious-philosophy]]
-- [[ACTION_ITEMS]]
 - [[EMPTY_SECTIONS]]
-- [[HEADING_AUDIT]]
-- _...ещё 10_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[SOURCE_MAP]]
 - [[KPI]]
-- [[READING_ORDER]]
-- [[TABLES]]
+- [[LANGUAGE_STATS]]
+- _...ещё 10_
 

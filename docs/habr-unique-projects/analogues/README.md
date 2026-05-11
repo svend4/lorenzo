@@ -1,5 +1,16 @@
 # analogues
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 2
 
 ## Содержание
@@ -30,3 +41,13 @@
 - [README](../../ai-collaborations/candidates/README.md) (сходство 0.67)
 - [README](../../obsidian/habr-unique-projects/analogues/README.md) (сходство 0.65)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «analogues». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

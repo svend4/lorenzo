@@ -1,4 +1,10 @@
 # contacts
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 16
 
@@ -46,3 +52,10 @@
 - [README](../letters/README.md) (сходство 0.51)
 - [AUTHORS](../AUTHORS.md) (сходство 0.50)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -1,5 +1,16 @@
 # outreach
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 3
 
 ## Содержание
@@ -32,3 +43,13 @@
 - [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.54)
 - [README](../prototype/README.md) (сходство 0.54)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «outreach». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

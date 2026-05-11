@@ -1,5 +1,16 @@
 # mega-stacks
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
@@ -33,3 +44,13 @@
 - [README](../synthesis-tables/README.md) (сходство 0.52)
 - [README](../../svyazi-2-0/prototype/README.md) (сходство 0.52)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «mega-stacks». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

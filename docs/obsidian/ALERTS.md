@@ -48,9 +48,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (8):**
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_LIST]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 

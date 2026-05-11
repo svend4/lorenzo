@@ -9,6 +9,11 @@ date: 2026-05-11
 
 # ADR: [Название решения]
 
+> [!NOTE]
+> Раздел `decision-record` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -47,9 +52,21 @@ _Дата: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (14):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[REGISTRY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[README]]
+- [[contradiction-record]]
+- [[experiment-log]]
+- _...ещё 6_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_decision_record.py
+```

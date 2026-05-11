@@ -14,6 +14,11 @@ date: 2026-05-11
 
 h1. Word Cloud
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{WORD_CLOUD}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}Визуализация 80 самых частых слов репозитория.{quote}
 _Проекты:_ Svyazi
@@ -51,3 +56,26 @@ h2. Топ-20 слов
 || 18 || **сходство** || 7,088 ||
 || 19 || **agents** || 6,462 ||
 || 20 || **cowork** || 6,316 ||
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[304-ingit-as-cowork-native-workspace-substrate-md]]
+* [[321-appendix-a-decision-tree-for-ingit-adopters]]
+* [[INDEX]]
+* [[LLM_SUMMARIES]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* _...ещё 2_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_word_cloud.py
+{code}

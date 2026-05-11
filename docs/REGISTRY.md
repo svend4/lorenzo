@@ -1,5 +1,18 @@
 # REGISTRY — реестр артефактов Lorenzo
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `REGISTRY` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: registry, docs -->
+
+
+<!-- summary -->
+> `REGISTRY` — раздел документации проекта Lorenzo.
+
+
 _Обновлено: 2026-05-11_
 
 ## Сводка
@@ -174,19 +187,3 @@ python scripts/improve_task_codegen.py
 # Реестр артефактов (этот файл)
 python scripts/improve_registry.py
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (23):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [agent-spec](templates/agent-spec.md)
-- [contradiction-record](templates/contradiction-record.md)
-- _...ещё 15_
-

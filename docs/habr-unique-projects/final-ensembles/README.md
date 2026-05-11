@@ -1,5 +1,16 @@
 # final-ensembles
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
@@ -32,3 +43,13 @@
 - [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.60)
 - [README](../../technology-combinations/research-reports/README.md) (сходство 0.50)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «final-ensembles». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

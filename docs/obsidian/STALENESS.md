@@ -10,6 +10,13 @@ date: 2026-05-11
 
 # Отчёт об устаревших документах
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `STALENESS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Порог: 30 дней. Обновлено: 2026-05-11_
 
@@ -73,9 +80,12 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (7):**
+- [[CONSISTENCY]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[SPELLCHECK]]
+- [[TABLES]]
 

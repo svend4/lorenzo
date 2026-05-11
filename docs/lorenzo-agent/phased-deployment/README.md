@@ -1,5 +1,16 @@
 # phased-deployment
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 9
 
 ## Содержание
@@ -39,3 +50,10 @@
 - [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.40)
 - [README](../../svyazi-2-0/overview/README.md) (сходство 0.37)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

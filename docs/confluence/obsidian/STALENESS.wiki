@@ -16,6 +16,13 @@ date: 2026-05-11
 h1. Отчёт об устаревших документах
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{STALENESS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Порог: 30 дней. Обновлено: 2026-05-11_{quote}
 
 ----
@@ -71,3 +78,17 @@ python scripts/improve_tags.py
 # Обогатить короткие файлы через LLM
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (7):_
+* [[CONSISTENCY]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[SPELLCHECK]]
+* [[TABLES]]
+

@@ -1,4 +1,6 @@
 # processing-guide
+<!-- tags: readme, docs -->
+
 
 **Файлов:** 12
 
@@ -42,3 +44,10 @@
 - [README](../svyazi-2-0/overview/README.md) (сходство 0.47)
 - [README](../technology-combinations/synthesis-tables/README.md) (сходство 0.47)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

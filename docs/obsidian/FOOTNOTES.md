@@ -7,6 +7,13 @@ date: 2026-05-11
 
 # Сноски и определения терминов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Обновлено файлов:** 3  **Вставлено сносок:** 13
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
@@ -66,9 +73,14 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[08-conclusions]]
+- [[EMPTY_SECTIONS]]
+- [[INDEX]]
+- [[ONBOARDING]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 3_
 

@@ -1,11 +1,20 @@
 ---
 title: "Изолированные документы (Orphans)"
 tags:
+  - orphans
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Изолированные документы (Orphans)
+
+> [!NOTE]
+> Раздел `ORPHANS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: orphans, docs -->
+
 
 <!-- summary -->
 > **Найдено:** 0 файлов без входящих ссылок из 2178 проверено.
@@ -37,9 +46,20 @@ _Эти документы не связаны с остальными — их 
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (8):**
+- [[CODE_BLOCKS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_orphans.py
+```

@@ -5,6 +5,12 @@
 
 h1. contacts
 
+
+
+
+{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Файлов:_ 16
 
 h2. Содержание
@@ -51,3 +57,10 @@ _Похожие документы:_
 * [README|../letters/README.md] (сходство 0.51)
 * [AUTHORS|../AUTHORS.md] (сходство 0.50)
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_readme.py
+{code}

@@ -19,6 +19,13 @@ date: 2026-05-11
 h1. Сравнение с предыдущим коммитом
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{COMPARE}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Файлов было:_ 1478  _стало:_ 2482{quote}
 
 ----
@@ -111,3 +118,24 @@ h2. Изменившиеся файлы (217) — топ по Δ слов
 || `ALERTS.md` || 176 || 79 || -97 ||
 || `decision-record.md` || 181 || 84 || -97 ||
 || `README.md` || 140 || 44 || -96 ||
+
+
+
+----
+
+_Кто ссылается на этот документ (7):_
+* [[NAMED_ENTITIES]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_compare.py
+{code}

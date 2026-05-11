@@ -2187,9 +2187,14 @@ interface Adapter {
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[CONTENT_GAPS]]
+- [[NAMED_ENTITIES]]
+- [[ONBOARDING]]
+- [[OUTLINE]]
+- [[PARAGRAPH_QUALITY]]
+- [[PASSIVE_VOICE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 3_
 

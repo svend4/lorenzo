@@ -2179,3 +2179,19 @@ interface Adapter {
   ingest(data: Document): void;
 }
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [CONTENT_GAPS|CONTENT_GAPS.md]
+* [NAMED_ENTITIES|NAMED_ENTITIES.md]
+* [ONBOARDING|ONBOARDING.md]
+* [OUTLINE|OUTLINE.md]
+* [PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* _...ещё 3_
+

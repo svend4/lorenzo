@@ -37051,9 +37051,673 @@ _Файл: `docs/templates/weekly-digest.md` | 4 колонок, 4 строк_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (451):**
+- [[00-intro-part2]]
+- [[03-component-catalog]]
+- [[06-security-privacy]]
+- [[QA]]
+- [[00-intro]]
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[02-общий-план-развития-nautilus-portal-protocol]]
+- [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
+- _...ещё 443_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_tables.py
+```
+```bash
+# Вариант 2
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 12
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 13
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 14
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 15
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 16
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 17
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 18
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 19
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 20
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 21
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 22
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 23
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 24
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 25
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 26
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 27
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 28
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 29
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 30
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 31
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 32
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 33
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 34
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 35
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 36
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 37
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 38
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 39
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 40
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 41
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 42
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 43
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 44
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 45
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 46
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 47
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 48
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 49
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 50
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 51
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 52
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 53
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 54
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 55
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 56
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 57
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 58
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 59
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 60
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 61
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 62
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 63
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 64
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 65
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 66
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 67
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 68
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 69
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 70
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 71
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 72
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 73
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 74
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 75
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 76
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 77
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 78
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 79
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 80
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 81
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 82
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 83
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 84
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 85
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 86
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 87
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 88
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 89
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 90
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 91
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 92
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 93
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 94
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 95
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 96
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 97
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 98
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 99
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 100
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 101
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 102
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 103
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 104
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 105
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 106
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 107
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 108
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 109
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 110
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 111
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 112
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 113
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 114
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 115
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 116
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 117
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 118
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 119
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 120
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 121
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 122
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 123
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 124
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 125
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 126
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 127
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 128
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 129
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 130
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 131
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 132
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 133
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 134
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 135
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 136
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 137
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 138
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 139
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 140
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 141
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 142
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 143
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 144
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 145
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 146
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 147
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 148
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 149
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 150
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 151
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 152
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 153
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 154
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 155
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 156
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 157
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 158
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 159
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 160
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 161
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 162
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 163
+python scripts/improve_tables.py --dry-run
+```
+```bash
+# Вариант 164
+python scripts/improve_tables.py --dry-run
+```

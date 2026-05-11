@@ -1,5 +1,16 @@
 # hermes-comparison
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 14
 
 ## Содержание
@@ -44,3 +55,10 @@
 - [README](../../nautilus/composite-skills-agents-companion-mentors/README.md) (сходство 0.35)
 - [README](../../nautilus/privacy-federation/README.md) (сходство 0.33)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

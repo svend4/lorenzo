@@ -1,5 +1,10 @@
 # Аудит заголовков
 
+> [!NOTE]
+> Раздел `HEADING_AUDIT` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Файлов с проблемами: **1199** из 1237
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
@@ -7256,3 +7261,34 @@ _секция: 1_
 - [READABILITY](READABILITY.md)
 - _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_heading_audit.py
+```
+```bash
+# Вариант 2
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_heading_audit.py --dry-run
+```

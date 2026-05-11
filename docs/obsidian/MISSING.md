@@ -7,6 +7,8 @@ date: 2026-05-11
 
 # Карта пробелов знаний
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -77,10 +79,21 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (5):**
-- [CONSISTENCY](../CONSISTENCY.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (15):**
+- [[08-conclusions]]
+- [[07-выводы]]
+- [[README]]
+- [[CODE_BLOCKS]]
+- [[CONSISTENCY]]
+- [[DENSITY]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_missing.py
+```

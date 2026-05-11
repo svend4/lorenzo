@@ -6,11 +6,24 @@
 ----
 title: "Бейджи репозитория"
 tags:
+  * readme
+  * docs
   * badges
 date: 2026-05-11
 ----
 
 h1. Бейджи репозитория
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
+
 
 Автоматически генерируются скриптом {{improve_badges.py}}.
 
@@ -35,3 +48,21 @@ h2. Использование в README
 ![license](license.svg)
 ![branch](branch.svg)
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [[BADGES]]
+* [[DEPENDABOT]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[QA]]
+
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.

@@ -18,6 +18,17 @@ h1. Оценка готовности проекта (Go/No-Go)
 
 
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCORING}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+{quote}{{SCORING}} — раздел документации проекта Lorenzo.{quote}
+
+
+
+
 _Дата: 2026-05-11_
 
 h2. Итог: _164/164_ (100%) — 🟢 GO
@@ -70,3 +81,26 @@ h2. Приоритетные действия (0 незакрытых)
 
 h2. ✅ Проект готов к запуску MVP!
 
+
+
+
+----
+
+_Кто ссылается на этот документ (20):_
+* [[CROSS_SECTION]]
+* [[DENSITY]]
+* [[EMPTY_SECTIONS]]
+* [[GITHUB_ISSUES]]
+* [[HEALTH]]
+* [[HEATMAP]]
+* [[INDEX]]
+* [[LANGUAGE_STATS]]
+* _...ещё 12_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_scoring.py
+{code}

@@ -6,6 +6,8 @@
 h1. Карта пробелов знаний
 
 
+
+
 {quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
@@ -69,3 +71,26 @@ _Смотрите также:_
 * [ENTITIES|ENTITIES.md]
 * [GLOSSARY|GLOSSARY.md]
 
+
+
+
+----
+
+_Кто ссылается на этот документ (15):_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [07-выводы|04-ai-collaborations/07-выводы.md]
+* [README|04-ai-collaborations/README.md]
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [CONSISTENCY|CONSISTENCY.md]
+* [DENSITY|DENSITY.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* _...ещё 7_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_missing.py
+{code}

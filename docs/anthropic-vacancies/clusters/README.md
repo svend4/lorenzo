@@ -1,5 +1,16 @@
 # Кластеры вакансий
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 16
 
 ## Содержание
@@ -46,3 +57,10 @@
 - [README](../../svyazi-2-0/security/README.md) (сходство 0.34)
 - [overview](../overview.md) (сходство 0.34)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

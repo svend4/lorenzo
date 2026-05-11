@@ -2186,3 +2186,19 @@ interface Adapter {
   ingest(data: Document): void;
 }
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [[CONTENT_GAPS]]
+* [[NAMED_ENTITIES]]
+* [[ONBOARDING]]
+* [[OUTLINE]]
+* [[PARAGRAPH_QUALITY]]
+* [[PASSIVE_VOICE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* _...ещё 3_
+

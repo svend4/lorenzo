@@ -1,5 +1,7 @@
 # Словарь аббревиатур и сокращений
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** SENTINEL, LiteLLM, Auto AI Router
@@ -201,3 +203,14 @@
 - [TABLES](TABLES.md)
 - _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_abbreviations.py
+```
+```bash
+# Вариант 2
+python scripts/improve_abbreviations.py --dry-run
+```

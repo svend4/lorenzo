@@ -1,5 +1,16 @@
 # beneficial-deployments-concept
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 12
 
 ## Содержание
@@ -42,3 +53,10 @@
 - [README](../../svyazi-2-0/prototype/README.md) (сходство 0.38)
 - [README](../../meta-scripting/README.md) (сходство 0.37)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

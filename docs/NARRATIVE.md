@@ -194,3 +194,10 @@ _Полная дорожная карта: [01-svyazi/12-roadmap.md](01-svyazi/1
 - [INDEX](INDEX.md)
 - _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_narrative.py
+```

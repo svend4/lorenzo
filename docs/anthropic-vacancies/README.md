@@ -1,4 +1,10 @@
 # anthropic-vacancies
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 4
 
@@ -46,3 +52,10 @@
 - [README](../svyazi-2-0/overview/README.md) (сходство 0.33)
 - [README](../obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.31)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

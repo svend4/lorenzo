@@ -1,39 +1,26 @@
 ---
 title: "Именованные сущности"
 tags:
+  - entities
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Именованные сущности
 
-<!-- summary -->
-> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Люди и авторы (7)](#люди-и-авторы-7)
-- [Проекты (22)](#проекты-22)
-- [Организации (9)](#организации-9)
-- [Технологии и стандарты (24)](#технологии-и-стандарты-24)
-- [GitHub репозитории (15)](#github-репозитории-15)
-- [Ко-встречаемость проектов (топ пары)](#ко-встречаемость-проектов-топ-пары)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, collaboration -->
-
-
-
+<!-- toc-auto -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `ENTITIES` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: entities, docs -->
+
+
+<!-- summary -->
+> `ENTITIES` — раздел документации проекта Lorenzo.
+
 
 **Файлов просмотрено:** 2476
 
@@ -42,38 +29,38 @@ date: 2026-05-11
 
 | Имя | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Lorenzo** | 9965 | 908 |
-| **svend4** | 3337 | 493 |
-| **kksudo** | 914 | 187 |
-| **spbmolot** | 800 | 171 |
-| **Андрей** | 285 | 82 |
+| **Lorenzo** | 10084 | 879 |
+| **svend4** | 3374 | 495 |
+| **kksudo** | 957 | 195 |
+| **spbmolot** | 832 | 171 |
+| **Андрей** | 289 | 84 |
 | **Виталий** | 121 | 58 |
-| **Антропик** | 81 | 34 |
+| **Антропик** | 79 | 34 |
 
 ## Проекты (22)
 
 | Проект | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Nautilus** | 22574 | 1152 |
-| **Svyazi** | 12352 | 702 |
-| **Lorenzo** | 9965 | 908 |
-| **Cowork** | 7476 | 407 |
-| **ingit** | 7199 | 362 |
-| **SGB** | 3245 | 457 |
-| **Yodoca** | 2453 | 341 |
-| **AgentFS** | 2112 | 262 |
-| **NGT** | 1958 | 353 |
-| **CardIndex** | 1894 | 297 |
-| **knowledge-space** | 1817 | 248 |
-| **MemNet** | 1386 | 282 |
-| **mclaude** | 1269 | 212 |
-| **Rufler** | 1251 | 210 |
-| **LiteParse** | 1132 | 192 |
-| **SENTINEL** | 772 | 171 |
-| **agent-memory-mcp** | 693 | 140 |
-| **AI Factory** | 675 | 149 |
-| **Wikontic** | 631 | 121 |
-| **Firecrawl** | 256 | 41 |
+| **Nautilus** | 22402 | 1125 |
+| **Svyazi** | 12445 | 685 |
+| **Lorenzo** | 10084 | 879 |
+| **Cowork** | 7462 | 409 |
+| **ingit** | 7119 | 360 |
+| **SGB** | 3268 | 460 |
+| **Yodoca** | 2450 | 339 |
+| **AgentFS** | 2162 | 264 |
+| **NGT** | 1965 | 353 |
+| **CardIndex** | 1917 | 294 |
+| **knowledge-space** | 1882 | 246 |
+| **MemNet** | 1392 | 280 |
+| **mclaude** | 1293 | 213 |
+| **Rufler** | 1260 | 209 |
+| **LiteParse** | 1170 | 193 |
+| **SENTINEL** | 829 | 172 |
+| **agent-memory-mcp** | 716 | 141 |
+| **AI Factory** | 688 | 149 |
+| **Wikontic** | 642 | 119 |
+| **Firecrawl** | 258 | 41 |
 | **Shield** | 72 | 22 |
 | **MCP Tool Search** | 36 | 14 |
 
@@ -81,40 +68,40 @@ date: 2026-05-11
 
 | Организация | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Anthropic** | 39925 | 1737 |
-| **Obsidian** | 17545 | 983 |
-| **Claude** | 8455 | 1525 |
-| **Habr** | 8353 | 639 |
-| **GitHub** | 4959 | 608 |
-| **Хабр** | 1523 | 326 |
-| **OpenAI** | 238 | 114 |
-| **Google** | 204 | 84 |
+| **Anthropic** | 39074 | 1734 |
+| **Obsidian** | 19167 | 957 |
+| **Claude** | 8593 | 1523 |
+| **Habr** | 8176 | 624 |
+| **GitHub** | 4965 | 610 |
+| **Хабр** | 1575 | 326 |
+| **OpenAI** | 246 | 114 |
+| **Google** | 202 | 84 |
 | **ChatGPT** | 172 | 98 |
 
 ## Технологии и стандарты (24)
 
 | Технология | Упоминаний | Файлов |
 |---------|------------|--------|
-| **MCP** | 7535 | 781 |
-| **RAG** | 6266 | 777 |
-| **MIT** | 4574 | 727 |
-| **Python** | 4362 | 2099 |
-| **LLM** | 3985 | 534 |
-| **JSON** | 1945 | 288 |
-| **REST** | 989 | 310 |
-| **CRDT** | 853 | 140 |
-| **YAML** | 684 | 238 |
-| **Rust** | 414 | 174 |
-| **SQLite** | 298 | 102 |
-| **BSL** | 293 | 109 |
+| **MCP** | 7513 | 774 |
+| **RAG** | 6290 | 781 |
+| **MIT** | 4593 | 727 |
+| **LLM** | 4010 | 538 |
+| **Python** | 3953 | 2060 |
+| **JSON** | 1949 | 290 |
+| **REST** | 982 | 310 |
+| **CRDT** | 849 | 140 |
+| **YAML** | 690 | 236 |
+| **Rust** | 415 | 174 |
+| **SQLite** | 322 | 102 |
+| **BSL** | 303 | 111 |
 | **Apache** | 289 | 126 |
-| **TF-IDF** | 275 | 70 |
-| **Mermaid** | 168 | 66 |
-| **FAISS** | 111 | 35 |
+| **TF-IDF** | 287 | 70 |
+| **Mermaid** | 164 | 66 |
+| **FAISS** | 115 | 35 |
 | **PostgreSQL** | 110 | 58 |
-| **TypeScript** | 77 | 35 |
 | **LangChain** | 73 | 45 |
-| **FastAPI** | 36 | 18 |
+| **TypeScript** | 72 | 34 |
+| **FastAPI** | 52 | 18 |
 | **WebSocket** | 34 | 20 |
 | **JWT** | 20 | 12 |
 | **GraphQL** | 16 | 10 |
@@ -124,66 +111,50 @@ date: 2026-05-11
 
 | Репозиторий | Упоминаний |
 |-------------|------------|
-| [https://github.com/svend4/nautilus](https://github.com/svend4/nautilus) | 74 |
-| [https://github.com/svend4/ingit](https://github.com/svend4/ingit) | 27 |
+| [https://github.com/svend4/nautilus](https://github.com/svend4/nautilus) | 72 |
+| [https://github.com/svend4/ingit](https://github.com/svend4/ingit) | 25 |
 | [https://github.com/svend4/pro2](https://github.com/svend4/pro2) | 19 |
-| [https://github.com/svend4/info1](https://github.com/svend4/info1) | 17 |
-| [https://github.com/svend4/meta](https://github.com/svend4/meta) | 15 |
+| [https://github.com/svend4/info1](https://github.com/svend4/info1) | 15 |
+| [https://github.com/svend4/meta](https://github.com/svend4/meta) | 13 |
 | [https://github.com/AnastasiyaW/knowledge-space](https://github.com/AnastasiyaW/knowledge-space) | 13 |
-| [https://github.com/svend4/data70](https://github.com/svend4/data70) | 11 |
+| [https://github.com/svend4/data70](https://github.com/svend4/data70) | 9 |
 | [https://github.com/camel-ai/camel](https://github.com/camel-ai/camel) | 9 |
 | [https://github.com/anthropics/mcp](https://github.com/anthropics/mcp) | 9 |
 | [https://github.com/kksudo/agentfs](https://github.com/kksudo/agentfs) | 9 |
 | [https://github.com/settings/tokens](https://github.com/settings/tokens) | 7 |
-| [https://github.com/svend4/info7](https://github.com/svend4/info7) | 7 |
-| [https://github.com/svend4/info40](https://github.com/svend4/info40) | 7 |
 | [https://github.com/spbmolot/ngt-memory](https://github.com/spbmolot/ngt-memory) | 7 |
 | [https://github.com/VitalyOborin/yodoca](https://github.com/VitalyOborin/yodoca) | 7 |
+| [https://github.com/svend4/info40](https://github.com/svend4/info40) | 5 |
+| [https://github.com/svend4/info7](https://github.com/svend4/info7) | 5 |
 
 ## Ко-встречаемость проектов (топ пары)
 
 | Пара | Общих файлов |
 |------|-------------|
-| Nautilus ↔ Lorenzo | 345 |
-| Svyazi ↔ Lorenzo | 342 |
-| Cowork ↔ ingit | 323 |
-| Nautilus ↔ Cowork | 302 |
-| Nautilus ↔ SGB | 296 |
-| Svyazi ↔ Yodoca | 292 |
+| Nautilus ↔ Lorenzo | 328 |
+| Svyazi ↔ Lorenzo | 324 |
+| Cowork ↔ ingit | 321 |
+| Nautilus ↔ Cowork | 301 |
+| Nautilus ↔ SGB | 297 |
+| Svyazi ↔ Yodoca | 290 |
 | Svyazi ↔ NGT | 268 |
-| Nautilus ↔ ingit | 264 |
+| Nautilus ↔ ingit | 261 |
 | Yodoca ↔ NGT | 257 |
-| Svyazi ↔ CardIndex | 247 |
-| Svyazi ↔ AgentFS | 228 |
-| Svyazi ↔ knowledge-space | 201 |
+| Svyazi ↔ CardIndex | 243 |
+| Svyazi ↔ AgentFS | 229 |
+| Lorenzo ↔ SGB | 199 |
 | Yodoca ↔ AgentFS | 199 |
 | AgentFS ↔ NGT | 199 |
-| Lorenzo ↔ SGB | 198 |
-| Svyazi ↔ mclaude | 195 |
-| Svyazi ↔ Rufler | 194 |
-| NGT ↔ CardIndex | 192 |
-| AgentFS ↔ knowledge-space | 187 |
-| Svyazi ↔ LiteParse | 181 |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[NETWORK]]
-- [[.md]]
-- [[DEPENDABOT]]
-- [[GLOSSARY]]
+| Svyazi ↔ knowledge-space | 198 |
+| Svyazi ↔ mclaude | 196 |
+| Svyazi ↔ Rufler | 193 |
+| NGT ↔ CardIndex | 190 |
+| AgentFS ↔ knowledge-space | 185 |
+| Lorenzo ↔ Cowork | 182 |
 
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (5):**
-- [PRECISION_EVAL](../PRECISION_EVAL.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_entities.py
+```

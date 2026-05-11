@@ -1,4 +1,10 @@
 # representative-agent-layer-en
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
@@ -43,3 +49,10 @@
 - [README](../professional-colleague-agents-en/README.md) (сходство 0.42)
 - [README](../composite-skills-agents/README.md) (сходство 0.41)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

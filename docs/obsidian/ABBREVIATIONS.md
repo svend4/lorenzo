@@ -7,6 +7,8 @@ date: 2026-05-11
 
 # Словарь аббревиатур и сокращений
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** SENTINEL, LiteLLM, Auto AI Router
@@ -197,9 +199,25 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (9):**
+- [[03-карта-найденных-проектов-и-паттернов]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_abbreviations.py
+```
+```bash
+# Вариант 2
+python scripts/improve_abbreviations.py --dry-run
+```

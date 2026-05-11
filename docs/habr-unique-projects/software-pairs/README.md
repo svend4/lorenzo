@@ -1,5 +1,16 @@
 # software-pairs
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 6
 
 ## Содержание
@@ -33,3 +44,13 @@
 - [README](../../nautilus/composite-skills-agents-companion-mentors/README.md) (сходство 0.44)
 - [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.43)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «software-pairs». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

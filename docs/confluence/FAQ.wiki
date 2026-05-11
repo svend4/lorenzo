@@ -264,3 +264,26 @@ h3. 10.4. Социальные Вопросы Снизят ли представ
 
 _→ [200-10-открытые-вопросы|02-anthropic-vacancies/200-10-открытые-вопросы.md]_
 
+
+
+
+----
+
+_Кто ссылается на этот документ (18):_
+* [116-9-checklist-применения-методологии|02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
+* [200-10-открытые-вопросы|02-anthropic-vacancies/200-10-открытые-вопросы.md]
+* [memnet|05-habr-projects/memory/memnet.md]
+* [CONCEPTS|CONCEPTS.md]
+* [INDEX|INDEX.md]
+* [ONBOARDING|ONBOARDING.md]
+* [OUTLINE|OUTLINE.md]
+* [QUESTIONS|QUESTIONS.md]
+* _...ещё 10_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_faq.py
+{code}

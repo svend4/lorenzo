@@ -1,4 +1,10 @@
 # composite-skills-agents
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
@@ -43,3 +49,10 @@
 - [README](../professional-colleague-agents-en/README.md) (сходство 0.43)
 - [README](../representative-agent-layer-en/README.md) (сходство 0.41)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

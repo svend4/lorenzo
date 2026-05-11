@@ -6,13 +6,16 @@
 h1. Прогресс MVP
 
 
-{quote}_Обновлено: 2026-05-11 (improve_progress_sync.py)_{quote}
-_Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
 
-----
-
+{quote}[!NOTE]{quote}
+{quote}Раздел {{PROGRESS}} формируется автоматически из данных репозитория.{quote}
 
 
+
+
+
+
+{quote}{{PROGRESS}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
@@ -75,4 +78,20 @@ h2. Связанные документы
 * [Health Dashboard|HEALTH.md]
 * [MVP Planning|01-svyazi/07-mvp-planning.md]
 
+
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [07-mvp-planning|01-svyazi/07-mvp-planning.md]
+* [116-9-checklist-применения-методологии|02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [DECISIONS|DECISIONS.md]
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* _...ещё 3_
 

@@ -1,11 +1,19 @@
 ---
 title: "contacts"
 tags:
+  - readme
+  - docs
   - contacts
 date: 2026-05-11
 ---
 
 # contacts
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 16
 
@@ -53,3 +61,10 @@ date: 2026-05-11
 - [[README]] (сходство 0.51)
 - [[AUTHORS]] (сходство 0.50)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

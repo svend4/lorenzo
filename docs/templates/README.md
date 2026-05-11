@@ -1,5 +1,12 @@
 # templates
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
 **Файлов:** 23
 
 ## Содержание
@@ -47,3 +54,10 @@
 - [contradiction-record](contradiction-record.md)
 - _...ещё 16_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

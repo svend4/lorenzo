@@ -14,6 +14,13 @@ date: 2026-05-11
 
 # Расписание проекта
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Дорожная карта с вехами и задачами по кварталам._
 **Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
@@ -81,9 +88,12 @@ _█ = активная работа, ░ = ожидание_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (7):**
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 

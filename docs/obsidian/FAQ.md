@@ -273,9 +273,21 @@ _→ [[200-10-открытые-вопросы]]_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (18):**
+- [[116-9-checklist-применения-методологии]]
+- [[200-10-открытые-вопросы]]
+- [[memnet]]
+- [[CONCEPTS]]
+- [[INDEX]]
+- [[ONBOARDING]]
+- [[OUTLINE]]
+- [[QUESTIONS]]
+- _...ещё 10_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_faq.py
+```

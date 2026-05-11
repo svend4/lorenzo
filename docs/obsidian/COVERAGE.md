@@ -13,6 +13,11 @@ date: 2026-05-11
 
 # Матрица покрытия документов
 
+> [!NOTE]
+> Раздел `COVERAGE` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Условные обозначения: ✅ есть  ⬜ отсутствует
 **Проекты:** Svyazi
@@ -70,8 +75,12 @@ python scripts/improve_autofill.py
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (7):**
+- [[HEATMAP]]
+- [[METRICS]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 

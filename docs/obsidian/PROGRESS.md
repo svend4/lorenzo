@@ -1,20 +1,25 @@
 ---
 title: "Прогресс MVP"
 tags:
+  - progress
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Прогресс MVP
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `PROGRESS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: progress, docs -->
+
+
 <!-- summary -->
-> _Обновлено: 2026-05-11 (improve_progress_sync.py)_
-**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
+> `PROGRESS` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
@@ -85,9 +90,14 @@ cat docs/contacts/anastasiyaw.md
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[07-mvp-planning]]
+- [[116-9-checklist-применения-методологии]]
+- [[CODE_BLOCKS]]
+- [[DECISIONS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 3_
 

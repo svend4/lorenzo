@@ -1,4 +1,10 @@
 # lorenzo-agent
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 22
 
@@ -60,3 +66,10 @@
 - [README](naming/README.md) (сходство 0.25)
 - [README](../obsidian/lorenzo-agent/naming/README.md) (сходство 0.24)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

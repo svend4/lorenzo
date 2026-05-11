@@ -9,6 +9,11 @@ date: 2026-05-11
 
 # [Название компонента]
 
+> [!NOTE]
+> Раздел `project-component` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -47,9 +52,21 @@ _Создано: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (10):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[REGISTRY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[research-summary]]
+- [[README]]
+- [[agent-spec]]
+- _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_project_component.py
+```

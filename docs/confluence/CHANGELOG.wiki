@@ -5,6 +5,11 @@
 
 h1. CHANGELOG
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{CHANGELOG}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 
 Всего коммитов: _250_  
@@ -532,3 +537,30 @@ h2.  (1 коммитов)
 h3. 🔧 Обслуживание
 
 * preview _- _doc_t_
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SCRIPT_EVAL_REPORT|SCRIPT_EVAL_REPORT.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 1_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_changelog.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_changelog.py --dry-run
+{code}

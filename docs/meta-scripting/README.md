@@ -1,4 +1,10 @@
 # meta-scripting
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 6
 
@@ -34,3 +40,13 @@
 - [README](../technology-combinations/synthesis-tables/README.md) (сходство 0.56)
 - [README](../nautilus/multi-tier-architecture/README.md) (сходство 0.52)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «meta-scripting». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

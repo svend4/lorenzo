@@ -1,5 +1,16 @@
 # Ансамбли проектов
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 8
 
 ## Содержание
@@ -38,3 +49,10 @@
 - [README](../../nautilus/community-discussions/agent-changes-reality/README.md) (сходство 0.37)
 - [README](../../ai-collaborations/candidates/README.md) (сходство 0.37)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

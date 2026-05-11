@@ -1,5 +1,7 @@
 # Похожие документы
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi
@@ -70,3 +72,17 @@
 ### svyazi-2-0
 
 - `projects-map.md` ↔ `projects-map.md` (0.995)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_similar.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

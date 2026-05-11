@@ -1,4 +1,10 @@
 # ingit-cowork-en
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 10
 
@@ -40,3 +46,10 @@
 - [README](../multi-tier-architecture/README.md) (сходство 0.38)
 - [README](../../autofilled/components/README.md) (сходство 0.37)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

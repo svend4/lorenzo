@@ -103,3 +103,10 @@
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_precision_eval.py
+```

@@ -20,6 +20,13 @@ date: 2026-05-11
 h1. Сеть проектов и авторов
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{NETWORK}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Андрей (kksudo)_ → _Svyazi_ (154), _AgentFS_ (123), _Lorenzo_ (122), _Yodoca_ (113), _NGT_ (107), _knowledge-space_ (105), _CardIndex_ (90), _mclaude_ (80){quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
@@ -98,3 +105,26 @@ _Смотрите также:_
 * [[MINDMAP]]
 * [[GLOSSARY]]
 
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [[354-существующий-landscape-collaborators-твоя-working-]]
+* [[CODE_BLOCKS]]
+* [[COMPONENT_MATRIX]]
+* [[ENTITIES]]
+* [[GRAPH]]
+* [[INDEX]]
+* [[MINDMAP]]
+* [[OUTLINE]]
+* _...ещё 5_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_network.py
+{code}

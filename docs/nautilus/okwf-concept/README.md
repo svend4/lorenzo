@@ -1,4 +1,10 @@
 # okwf-concept
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 11
 
@@ -41,3 +47,10 @@
 - [README](../../meta-scripting/README.md) (сходство 0.35)
 - [README](../../glossary/README.md) (сходство 0.34)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

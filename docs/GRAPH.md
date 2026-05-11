@@ -1,5 +1,12 @@
 # Граф связей проектов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `GRAPH` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

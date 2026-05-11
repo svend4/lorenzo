@@ -7,6 +7,8 @@ date: 2026-05-11
 
 # Кластеры тематически близких файлов
 
+<!-- toc-auto -->
+
 <!-- summary -->
 > > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
@@ -463,9 +465,21 @@ _...и ещё 135 малых кластеров (по 1-2 файла)_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (16):**
+- [[211-table-of-contents]]
+- [[307-abstract]]
+- [[308-table-of-contents]]
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[CONTENT_GAPS]]
+- [[INDEX]]
+- [[LANGUAGE_STATS]]
+- _...ещё 8_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_clusters.py
+```

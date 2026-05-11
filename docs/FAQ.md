@@ -275,3 +275,10 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 - [QUESTIONS](QUESTIONS.md)
 - _...ещё 10_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_faq.py
+```

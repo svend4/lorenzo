@@ -79,3 +79,17 @@ date: 2026-05-11
 ### svyazi-2-0
 
 - `projects-map.md` ↔ `projects-map.md` (0.995)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_similar.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]

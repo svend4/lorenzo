@@ -7,6 +7,13 @@ date: 2026-05-11
 
 # Граф связей проектов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `GRAPH` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -664,9 +671,14 @@ digraph lorenzo {
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[COMPONENT_MATRIX]]
+- [[DEPENDABOT]]
+- [[FOOTNOTES]]
+- [[MINDMAP]]
+- [[NETWORK]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 3_
 

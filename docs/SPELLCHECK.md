@@ -1,5 +1,12 @@
 # Отчёт орфографии
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `SPELLCHECK` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > python scripts/improve_spellcheck.py --fix
 **Проекты:** knowledge-space, MemNet

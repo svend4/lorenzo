@@ -1,4 +1,10 @@
 # double-triangle-architecture
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 12
 
@@ -42,3 +48,10 @@
 - [README](../../glossary/README.md) (сходство 0.33)
 - [README](../representative-agent-layer-en/README.md) (сходство 0.33)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

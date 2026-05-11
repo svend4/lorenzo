@@ -1,5 +1,16 @@
 # continuation
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 10
 
 ## Содержание
@@ -40,3 +51,10 @@
 - [README](../../svyazi-2-0/limitations/README.md) (сходство 0.38)
 - [README](../../svyazi-2-0/prototype/README.md) (сходство 0.35)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

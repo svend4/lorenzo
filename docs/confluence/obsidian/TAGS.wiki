@@ -6,11 +6,26 @@
 ----
 title: "Индекс тегов"
 tags:
+  * tags
+  * docs
   * general
 date: 2026-05-11
 ----
 
 h1. Индекс тегов
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{TAGS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{TAGS}} — раздел документации проекта Lorenzo.{quote}
+
 
 Каждый файл помечен тегами по темам автоматически.
 
@@ -302,3 +317,26 @@ h2. #self-improvement (40 файлов)
 * {{docs/QUESTIONS.md}}
 * {{docs/READING_ORDER.md}}
 * _...и ещё 20_
+
+
+
+----
+
+_Кто ссылается на этот документ (16):_
+* [[CONSISTENCY]]
+* [[CROSS_SECTION]]
+* [[EMPTY_SECTIONS]]
+* [[INDEX]]
+* [[LANGUAGE_STATS]]
+* [[LLM_SUMMARIES]]
+* [[MISSING]]
+* [[OUTLINE]]
+* _...ещё 8_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_tags.py
+{code}

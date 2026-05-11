@@ -1,5 +1,16 @@
 # ai-managed-virtual-company
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 11
 
 ## Содержание
@@ -41,3 +52,10 @@
 - [README](../mmorpg-for-programmers/README.md) (сходство 0.35)
 - [README](../../nautilus/supply-demand/README.md) (сходство 0.34)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -8,6 +8,11 @@ date: 2026-05-11
 
 # [Тема исследования]
 
+> [!NOTE]
+> Раздел `research-note` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary: Краткий итог исследования -->
 <!-- tags: исследование -->
 
@@ -43,10 +48,24 @@ _Создано: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (5):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
-- [research-summary](../../autofilled/research-summary.md)
+**Кто ссылается на этот документ (10):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[REGISTRY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[TASKS_INDEX]]
+- [[research-summary]]
+- [[README]]
+- _...ещё 2_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «[Тема исследования]». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_research_note.py
+```

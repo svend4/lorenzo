@@ -1,5 +1,16 @@
 # deep-pairs
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 8
 
 ## Содержание
@@ -38,3 +49,10 @@
 - [README](../../nautilus/multi-tier-architecture/README.md) (сходство 0.37)
 - [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.35)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

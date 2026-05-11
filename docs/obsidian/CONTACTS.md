@@ -7,6 +7,11 @@ date: 2026-05-11
 
 # Контакты и авторы
 
+> [!NOTE]
+> Раздел `CONTACTS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -121,9 +126,14 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (28):**
+- [[13-contacts]]
+- [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]]
+- [[CHANGELOG_AUTO]]
+- [[COMPONENT_MATRIX]]
+- [[CROSS_SECTION]]
+- [[EMPTY_SECTIONS]]
+- [[GITHUB_ISSUES]]
+- [[INDEX]]
+- _...ещё 20_
 

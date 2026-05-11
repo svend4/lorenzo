@@ -9,6 +9,11 @@ date: 2026-05-11
 
 # Word Cloud
 
+> [!NOTE]
+> Раздел `WORD_CLOUD` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Визуализация 80 самых частых слов репозитория.
 **Проекты:** Svyazi
@@ -52,10 +57,21 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (5):**
-- [LLM_SUMMARIES](../LLM_SUMMARIES.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (10):**
+- [[304-ingit-as-cowork-native-workspace-substrate-md]]
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[INDEX]]
+- [[LLM_SUMMARIES]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_word_cloud.py
+```
