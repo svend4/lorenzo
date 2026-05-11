@@ -1,82 +1,8 @@
 # Глоссарий понятий
 
-<!-- toc -->
-## Содержание
-
-- [A](#a)
-- [B](#b)
-- [C](#c)
-- [D](#d)
-- [E](#e)
-- [F](#f)
-- [G](#g)
-- [H](#h)
-- [I](#i)
-- [J](#j)
-- [K](#k)
-- [L](#l)
-- [M](#m)
-- [N](#n)
-- [O](#o)
-- [P](#p)
-- [Q](#q)
-- [R](#r)
-- [S](#s)
-- [T](#t)
-- [U](#u)
-- [V](#v)
-- [W](#w)
-- [Y](#y)
-- [Z](#z)
-- [А](#а)
-- [Б](#б)
-- [В](#в)
-- [Г](#г)
-- [Д](#д)
-- [Е](#е)
-- [З](#з)
-- [И](#и)
-- [Й](#й)
-- [К](#к)
-- [Л](#л)
-- [М](#м)
-- [Н](#н)
-- [О](#о)
-- [П](#п)
-- [Р](#р)
-- [С](#с)
-- [Т](#т)
-- [У](#у)
-- [Ф](#ф)
-- [Ц](#ц)
-- [Ч](#ч)
-- [Ш](#ш)
-- [Щ](#щ)
-- [Ы](#ы)
-- [Э](#э)
-- [Ю](#ю)
-- [Я](#я)
-- [Использование](#использование)
-
----
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `CONCEPTS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: concepts, docs -->
-
-
-<!-- summary -->
-> `CONCEPTS` — раздел документации проекта Lorenzo.
-
-
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 1187  (из 4309 совпадений)
+**Извлечено понятий:** 1186  (из 4310 совпадений)
 
 
 ## A
@@ -1211,7 +1137,7 @@ _Определения извлечены автоматически из до�
 
 **ic`, `semantic`, `procedural`, `working`)**
 : точная типизация, которой не хватает большинству memory-систем  
-  _→ [vitalysemenov](letters/vitalysemenov.md)_
+  _→ [DUPLICATES](DUPLICATES.md)_
 
 **Identification**
 : > «Здравствуйте, [имя]  
@@ -2370,10 +2296,6 @@ _Определения извлечены автоматически из до�
 
 
 ## S
-
-**s_on` граф задач + auto-objective prompts**
-: комбинация, которая устраняет самую трудоёмкую часть оркестрации: написание промптов для каждого агента и ручное управление порядком запуска  
-  _→ [DUPLICATES](DUPLICATES.md)_
 
 **Scenario**
 : Over time, agent decisions shape principal's  
@@ -4577,8 +4499,8 @@ _Определения извлечены автоматически из до�
   _→ [01-structural-comparison-code-vs-docs](nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md)_
 
 **станавливаются через тензорные разложения**
-: принципиально другой подход к проблеме «ложных связей»  
-  _→ [DUPLICATES](DUPLICATES.md)_
+: принципиально другой подход  
+  _→ [spbmolot](letters/spbmolot.md)_
 
 **Статус документа**
 : сравнительный промежуточный вариант  
@@ -4984,65 +4906,4 @@ _Определения извлечены автоматически из до�
 **Ясный спрос**
 : Автор лично нуждается в этом  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_concepts.py
-```
-```bash
-# Вариант 2
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 6
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 7
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 8
-python scripts/improve_concepts.py --dry-run
-```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (96):**
-- [02-methodology](01-svyazi/02-methodology.md)
-- [12-roadmap](01-svyazi/12-roadmap.md)
-- [14-limitations](01-svyazi/14-limitations.md)
-- [00-intro](02-anthropic-vacancies/00-intro.md)
-- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
-- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- _...ещё 88_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONCEPTS](obsidian/CONCEPTS.md) (сходство 1.00)
-- [TABLES](obsidian/TABLES.md) (сходство 0.27)
-- [TABLES](TABLES.md) (сходство 0.27)
 
