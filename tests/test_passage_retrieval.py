@@ -231,3 +231,40 @@ def test_bm25_search_on_real_passages():
     assert len(results) > 0
     assert any("yodoca" in r["source"].lower() for r in results), \
         f"yodoca not found in top-5: {[r['source'] for r in results]}"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_build_index_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "BUILD_INDEX_ONLY", True)
+    monkeypatch.setattr(mod, "QUERY", None)
+    index_path = tmp_path / "passages.json"
+    monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent paragraph here.", encoding="utf-8")
+    mod.main()
+    assert index_path.exists()
+
+
+def test_main_no_query_creates_index(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "BUILD_INDEX_ONLY", False)
+    monkeypatch.setattr(mod, "QUERY", None)
+    index_path = tmp_path / "passages.json"
+    monkeypatch.setattr(mod, "INDEX_PATH", index_path)
+    mod.main()
+    assert index_path.exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "BUILD_INDEX_ONLY", True)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "passages.json")
+    mod.main()

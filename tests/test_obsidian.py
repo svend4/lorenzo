@@ -121,3 +121,39 @@ def test_section_tag_strips_number_prefix(tmp_path, monkeypatch):
     f = section / "file.md"
     result = mod._section_tag(f)
     assert not result[0].isdigit()
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "IN_PLACE", False)
+    monkeypatch.setattr(mod, "OUT_DIR", tmp_path / "obsidian")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+
+
+def test_main_creates_obsidian_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "IN_PLACE", False)
+    obsidian_dir = tmp_path / "obsidian"
+    monkeypatch.setattr(mod, "OUT_DIR", obsidian_dir)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert obsidian_dir.exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "IN_PLACE", False)
+    monkeypatch.setattr(mod, "OUT_DIR", tmp_path / "obsidian")
+    mod.main()

@@ -107,3 +107,30 @@ def test_find_similar_has_required_keys():
         assert "source_b" in pair
         assert "text_a" in pair
         assert "text_b" in pair
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_similar_passages_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SIMILAR_PASSAGES.md").exists()
+
+
+def test_main_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "SIMILAR_PASSAGES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()

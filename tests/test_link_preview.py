@@ -61,3 +61,34 @@ def test_extract_urls_multiple():
 def test_extract_urls_empty():
     result = mod.extract_urls("no urls here")
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_empty_docs_creates_report(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "CACHE_FILE", tmp_path / "link_cache.json")
+    mod.main()
+    assert (tmp_path / "LINK_PREVIEW.md").exists()
+
+
+def test_main_no_urls_creates_report(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "CACHE_FILE", tmp_path / "link_cache.json")
+    (tmp_path / "doc.md").write_text("# Title\n\nNo links here.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "LINK_PREVIEW.md").exists()
+
+
+def test_main_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "CACHE_FILE", tmp_path / "link_cache.json")
+    mod.main()
+    text = (tmp_path / "LINK_PREVIEW.md").read_text(encoding="utf-8")
+    assert "# " in text

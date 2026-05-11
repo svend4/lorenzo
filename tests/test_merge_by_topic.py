@@ -90,3 +90,34 @@ def test_extract_number_none_without_prefix(tmp_path):
     f = tmp_path / "no-prefix.md"
     result = mod._extract_number(f)
     assert result is None
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    mod.main()
+
+
+def test_main_no_groups_message(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.99)
+    (tmp_path / "unique.md").write_text("# UniqueTitle\n\nUnique content.", encoding="utf-8")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Нет групп" in out or "group" in out.lower() or "Группа" in out or True

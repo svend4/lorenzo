@@ -71,3 +71,40 @@ def test_validate_manifest_clean():
         'trigger_phrases': ['hello'],
     }, None)
     assert errs == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+import importlib as _importlib
+import sys as _sys
+_sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent / "scripts"))
+_mod = _importlib.import_module("improve_task_codegen")
+
+
+def test_main_no_tasks_dir_returns_error(tmp_path, monkeypatch):
+    monkeypatch.setattr(_mod, "TASKS", tmp_path / "nonexistent-tasks")
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = _mod.main()
+    assert result == 1
+
+
+def test_main_list_no_tasks_no_crash(tmp_path, monkeypatch):
+    tasks_dir = tmp_path / "tasks"
+    tasks_dir.mkdir()
+    monkeypatch.setattr(_mod, "TASKS", tasks_dir)
+    monkeypatch.setattr(_mod, "DOCS", tmp_path)
+    monkeypatch.setattr(_mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    result = _mod.main()
+    assert result == 0
+
+
+def test_main_validate_no_tasks_no_crash(tmp_path, monkeypatch):
+    tasks_dir = tmp_path / "tasks"
+    tasks_dir.mkdir()
+    monkeypatch.setattr(_mod, "TASKS", tasks_dir)
+    monkeypatch.setattr(_mod, "DOCS", tmp_path)
+    monkeypatch.setattr(_mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--validate"])
+    result = _mod.main()
+    assert result == 0

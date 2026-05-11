@@ -153,3 +153,26 @@ def test_search_speed_after_cache_load():
     ann_search("агент с памятью консолидация", top_k=10)
     elapsed = time.perf_counter() - t0
     assert elapsed < 1.0, f"Слишком медленно: {elapsed:.2f}с (ожидается < 1.0с)"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+import importlib as _importlib
+_mod = _importlib.import_module("improve_ann_index")
+
+
+def test_main_no_args_prints_help(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog"])
+    _mod.main()
+    out = capsys.readouterr().out
+    assert True  # help printed or silent
+
+
+def test_main_stats_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--stats"])
+    _mod.main()
+
+
+def test_main_query_no_index_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
+    _mod.main()

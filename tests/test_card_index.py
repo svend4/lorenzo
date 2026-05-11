@@ -124,3 +124,26 @@ def test_file_mtime_iso_differs_between_files(tmp_path):
     f2 = tmp_path / "f2.md"
     f2.write_text("v2", encoding="utf-8")
     assert mod._file_mtime_iso(f1) <= mod._file_mtime_iso(f2)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_stats_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--stats"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    mod.main()
+
+
+def test_main_build_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--build", "--dry-run"])
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+
+
+def test_main_search_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--search", "agent"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    mod.main()
