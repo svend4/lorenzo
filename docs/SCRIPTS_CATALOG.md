@@ -1595,13 +1595,3 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 
 **Флаги:** `--history`, `--output`, `--parallel`, `--resume`, `--task`
 
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [SCRIPTS_CATALOG](obsidian/SCRIPTS_CATALOG.md) (сходство 0.92)
-- [PROCESSING_GUIDE](obsidian/processing-guide/PROCESSING_GUIDE.md) (сходство 0.22)
-- [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md) (сходство 0.21)
-

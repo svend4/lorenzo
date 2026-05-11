@@ -18,7 +18,7 @@ _Сгенерировано автоматически: 2026-05-11_
 
 **Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-05-11.
 
-База содержит **1244 документов** объёмом **1,493,650 слов** в **23 секциях**. Здоровье репозитория: **90/100**, средний балл документов: **95.9/100/100**, словарное богатство (STTR): **0.621**.
+База содержит **1244 документов** объёмом **1,499,816 слов** в **23 секциях**. Здоровье репозитория: **90/100**, средний балл документов: **95.9/100/100**, словарное богатство (STTR): **0.621**.
 
 Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
 
@@ -29,7 +29,7 @@ _Сгенерировано автоматически: 2026-05-11_
 | Метрика | Значение |
 |---------|----------|
 | Документов | **1244** |
-| Слов | **1,493,650** |
+| Слов | **1,499,816** |
 | Секций | **23** |
 | Здоровье репо | **90/100** |
 | Средний балл | **95.9/100/100** |
@@ -39,7 +39,7 @@ _Сгенерировано автоматически: 2026-05-11_
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **obsidian** | 1238 | 1,447,519 |
+| **obsidian** | 1238 | 1,453,261 |
 | **Anthropic Vacancies** | 357 | 341,828 |
 | **nautilus** | 255 | 176,913 |
 | **anthropic-vacancies** | 111 | 47,082 |
@@ -52,14 +52,14 @@ _Сгенерировано автоматически: 2026-05-11_
 | **Habr Projects** | 16 | 14,869 |
 | **Svyazi 2.0** | 16 | 13,360 |
 | **ai-collaborations** | 31 | 12,182 |
-| **Templates** | 24 | 7,844 |
+| **Templates** | 24 | 7,664 |
 | **Contacts** | 17 | 5,044 |
 | **Tech Combinations** | 7 | 3,815 |
 | **letters** | 10 | 3,618 |
 | **meta-scripting** | 7 | 3,344 |
 | **autofilled** | 13 | 2,904 |
 | **glossary** | 4 | 2,692 |
-| **badges** | 1 | 131 |
+| **badges** | 1 | 73 |
 
 ## Ключевые проекты
 
@@ -67,14 +67,14 @@ _Авторы и проекты из CONTACTS.md:_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 132 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 82 | — |
-| **Cutcode** | AIF Handoff | orchestration | 74 | — |
-| **Dmitriila** | SENTINEL | security | 65 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 133 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 83 | — |
+| **Cutcode** | AIF Handoff | orchestration | 71 | — |
+| **Dmitriila** | SENTINEL | security | 63 | — |
 | **MiXaiLL76** | Auto AI Router | security | 61 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 42 | — |
-| **VitalyOborin** | Yodoca | memory | 110 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 85 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 41 | — |
+| **VitalyOborin** | Yodoca | memory | 107 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 81 | — |
 
 ## Ключевые сущности
 

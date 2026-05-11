@@ -6,13 +6,6 @@
 h1. Расписание проекта
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
 {quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
@@ -78,22 +71,14 @@ h2. Текущий статус
 
 ----
 
-_Кто ссылается на этот документ (7):_
+_Кто ссылается на этот документ (9):_
+* [DENSITY|DENSITY.md]
+* [DEPENDABOT|DEPENDABOT.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-
-
-
-
-----
-
-_Похожие документы:_
-* [SCHEDULE|obsidian/SCHEDULE.md] (сходство 0.97)
-* [MINDMAP|MINDMAP.md] (сходство 0.27)
-* [MINDMAP|obsidian/MINDMAP.md] (сходство 0.27)
+* _...ещё 1_
 

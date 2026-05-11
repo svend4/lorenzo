@@ -7,40 +7,35 @@ date: 2026-05-11
 
 # Авторы и коллаборации
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 135 |
-| **Antipozitive** | 85 |
+| **AnastasiyaW** | 133 |
+| **Antipozitive** | 83 |
 | **BerriAI** | 22 |
 | **Cutcode** | 71 |
 | **Dmitriila** | 63 |
-| **MiXaiLL76** | 59 |
+| **MiXaiLL76** | 61 |
 | **Sonia_Black** | 41 |
 | **VitaliySemenov** | 33 |
-| **VitalyOborin** | 109 |
+| **VitalyOborin** | 107 |
 | **VladSpace** | 81 |
 | **akazant** | 18 |
 | **akzhankalimatov** | 14 |
 | **andrey_chuyan** | 33 |
 | **iximy** | 18 |
-| **kksudo** | 195 |
+| **kksudo** | 193 |
 | **lee-to** | 22 |
 | **lib4u** | 30 |
 | **moshael** | 26 |
-| **nlaik** | 83 |
-| **spbmolot** | 175 |
+| **nlaik** | 81 |
+| **spbmolot** | 173 |
 | **tagir_analyzes** | 29 |
 | **vpakspace** | 16 |
-| **zodigancode** | 95 |
-| **Андрей Чуян** | 76 |
-| **Виталий Оборин** | 20 |
+| **zodigancode** | 93 |
+| **Андрей Чуян** | 72 |
+| **Виталий Оборин** | 18 |
 
 <!-- backlinks -->
 
@@ -56,14 +51,4 @@ date: 2026-05-11
 - [[SEARCH]]
 - [[TABLES]]
 - _...ещё 1_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[AUTHORS]] (сходство 0.70)
-- [[README]] (сходство 0.39)
-- [[README]] (сходство 0.39)
 

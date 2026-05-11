@@ -1,5 +1,15 @@
 # Словарь аббревиатур и сокращений
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** SENTINEL, LiteLLM, Auto AI Router
+
+---
+<!-- tags: rag, security, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -163,4 +173,20 @@
 - [TABLES](TABLES.md)
 - [VERSION_DIFF](VERSION_DIFF.md)
 - [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [03-карта-найденных-проектов-и-паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 2_
 

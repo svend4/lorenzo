@@ -5,14 +5,9 @@
 
 h1. Глоссарий понятий
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
-
-
-
 _Определения извлечены автоматически из документов._
 
-_Извлечено понятий:_ 1185  (из 4303 совпадений)
+_Извлечено понятий:_ 1185  (из 4306 совпадений)
 
 
 h2. A
@@ -273,8 +268,8 @@ _Bounding boxes_
   _→ [research-docs-liteparse|05-habr-projects/knowledge/research-docs-liteparse.md]_
 
 _Bounding boxes на страницах PDF_
-: принципиально другой уровень доверия к  
-  _→ [nlaik|letters/nlaik.md]_
+: принципиально другой уровень доверия к ответу агента  
+  _→ [DUPLICATES|DUPLICATES.md]_
 
 _Bridge_
 : декларативное описание моста между концепциями  
@@ -1147,7 +1142,7 @@ _iant C concept document с Lorenzo central_
 
 _ic{{, }}semantic{{, }}procedural{{, }}working`)_
 : точная типизация, которой не хватает большинству memory-систем  
-  _→ [vitalysemenov|letters/vitalysemenov.md]_
+  _→ [DUPLICATES|DUPLICATES.md]_
 
 _Identification_
 : > «Здравствуйте, [имя]  

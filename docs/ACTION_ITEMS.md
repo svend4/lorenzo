@@ -1,16 +1,11 @@
 # Action Items, риски и решения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3597
+**Всего элементов:** 3522
 
 
-## ➡️ Следующие шаги (374)
+## ➡️ Следующие шаги (368)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -184,12 +179,6 @@
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
-- — call? [S]  
-  _→ QUESTIONS_
-- — call? [Твоя коммуникация в outreach]  
-  _→ QUESTIONS_
-- набора узкоспециализированных под-аге [Содержание]  
-  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
@@ -241,9 +230,9 @@
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(260 дублей скрыто)_
+_(257 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1072)
+## ✅ Решения и рекомендации (1071)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -461,8 +450,6 @@ _(260 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - go / no-go** _`docs`, `automation`_  
   _→ GITHUB_ISSUES_
-- создать документы - Детали по топ-20 пробелам - `MH | `CONTENT_GAPS` |  
-  _→ KPI_
 - Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
   _→ OUTLINE_
 - Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
@@ -477,8 +464,6 @@ _(260 дублей скрыто)_
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- упростить](#самые-сложные-тексты-2471-рекомендуется-упростить)  
-  _→ READABILITY_
 - Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |  
   _→ READING_ORDER_
 - boundary | 7 |  
@@ -497,7 +482,7 @@ _(260 дублей скрыто)_
   _→ SUMMARIES_
 - оба риска реальны, приоритезация зависит от цели проекта. ✅ Результат: Расхождение в концептуальных выводах Правило 5 Гипотетический пример: Разрешени  
   _→ SUMMARIES_
-- boundary](#477-decision-boundary)  
+- boundary](#479-decision-boundary)  
   _→ TABLES_
 - boundary](#4-decision-boundary)  
   _→ TABLES_
@@ -505,22 +490,22 @@ _(260 дублей скрыто)_
   _→ TABLES_
 - Tree for InGit Adopters]] | 415 | — |  
   _→ TABLES_
-- × Auto A]] | 304 |  
+- × Auto A]] | 322 |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `04-ai-collaborations/00-intro.md` |  
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |  
   _→ TABLES_
+- 2019 года, после изменений 2024 года примен | `TABLES.md` |  
+  _→ TABLES_
 - | Суд | Дата | Релевантность |  
   _→ TABLES_
-- создать документы](#24-рекомендуется-создать-документы)  
+- создать документы](#25-рекомендуется-создать-документы)  
   _→ TABLES_
-- упростить |  
+- создать документы - Детали по топ-20 пробелам - `MH | `CONTENT_GAPS` |  
   _→ TABLES_
-- 2019 года, после изменений 2024 года примен | `TABLES.md` |  
-  _→ TIMELINE_
 - упростить | Contents, Вариант 10, Вариант 11 +20 |  
-  _→ VERSION_DIFF_
+  _→ TABLES_
 - как связь между людьми» — или это  
   _→ spbmolot_
 - две уровневая"  
@@ -563,8 +548,6 @@ _(260 дублей скрыто)_
   _→ OUTLINE_
 - × Auto AI Router]]  
   _→ OUTLINE_
-- × Auto A]] | 322 |  
-  _→ SITEMAP_
 - две-уровневая публикация"  
   _→ 02-two-tier-publication_
 - — Map-Reduce:**  
@@ -596,9 +579,9 @@ _(260 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(897 дублей скрыто)_
+_(899 дублей скрыто)_
 
-## ⚠️ Риски (1389)
+## ⚠️ Риски (1348)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1082,7 +1065,9 @@ _(897 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - агентов? (5 сл., строка 19)  
   _→ EMPTY_SECTIONS_
-- и allowlist для MCP | 2 |  
+- агентов?](#qa-meta-scripting-note---какие-инструменты-обеспечивают-безопасность-агентов)  
+  _→ FAQ_
+- и allowlist для MCP | 0 |  
   _→ FOOTNOTES_
 - | ██ 6.0 | 0.5 | 0.3 | ▓▓ 4.0 | 0.3 |  
   _→ HEATMAP_
@@ -1118,26 +1103,6 @@ _(897 дублей скрыто)_
   _→ PRECISION_EVAL_
 - | Вероятность | Митигация |  
   _→ PROTOTYPE_SPEC_
-- Почему это важно Снижение риска [6. План прототипа и возможные контакты]  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н [5.  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска [План прототипа и возможные контакты]  
-  _→ QUESTIONS_
-- Двусмысленность Ответственности]  
-  _→ QUESTIONS_
-- Coordinator Bias]  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска [Contents]  
-  _→ QUESTIONS_
-- Нарушения Конфиденциальности]  
-  _→ QUESTIONS_
-- агентов?, Q&A: svyazi-2-0 - Основной раздел - Содержание [📝 Изменённые файлы (944)]  
-  _→ QUESTIONS_
-- агентов? [Q&A: meta-scripting]  
-  _→ QUESTIONS_
-- склеивать]  
-  _→ QUESTIONS_
 - Analysis](02-anthropic-vacancies/162-8-risk-analysis.md) | 775 | — |  
   _→ READING_ORDER_
 - и приватность](01-svyazi/06-security-privacy.md) | 941 | — |  
@@ -1178,8 +1143,6 @@ _(897 дублей скрыто)_
   _→ SUMMARIES_
 - Analysis]] | 775 | — |  
   _→ TABLES_
-- [Название]](templates/risk-entry.md) | 353 |  
-  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `02-anthropic-vacancies/150-appendix-c-version-histor  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `01-svyazi/07-mvp-planning.md` |  
@@ -1190,34 +1153,26 @@ _(897 дублей скрыто)_
   _→ TABLES_
 - идентифицирован | [Имя] |  
   _→ TABLES_
-- и allowlist для MCP | 0 |  
+- и allowlist для MCP | 2 |  
   _→ TABLES_
 - и приватность]] | 941 | — |  
-  _→ TABLES_
-- и приватность ## Contents - Содержание - [Безопасность, приватно… |  
   _→ TABLES_
 - и приватность]] | 941 |  
   _→ TABLES_
 - и приватность]] | 952 |  
   _→ TABLES_
-- (4) +8 | Mvp (10), Архитектура (61), Безопасность (3) +7 |  
-  _→ TABLES_
-- и приватность, Использование +4 | — |  
+- агентов?, Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью? +2 |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
-- склеивать в один релиз]] | 334 |  
+- склеивать в один релиз]] | 352 |  
   _→ TABLES_
 - скл]] | 3395 | — |  
   _→ TABLES_
 - склеиват]] | 3395 |  
   _→ TABLES_
-- склеивать]] | 411 |  
+- склеивать]] | 429 |  
   _→ TABLES_
-- склеивать](svyazi-2-0/limitations/do-not-glue.md) | 411 |  
-  _→ TABLES_
-- агентов?, Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью? +2 |  
-  _→ VERSION_DIFF_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 - склеивать в один релиз"  
@@ -1260,10 +1215,6 @@ _(897 дублей скрыто)_
   _→ OUTLINE_
 - склеивать]]  
   _→ OUTLINE_
-- склеивать в один релиз]] | 352 |  
-  _→ SITEMAP_
-- склеивать]] | 429 |  
-  _→ SITEMAP_
 - и бюджетный execution plane для агентных систем.  
   _→ security-routing-plane_
 - склеивать».  
@@ -1285,9 +1236,9 @@ _(897 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(1047 дублей скрыто)_
+_(1022 дублей скрыто)_
 
-## 🚫 Ограничения (388)
+## 🚫 Ограничения (382)
 
 - и лицензии  
   _→ 14-limitations_
@@ -1443,8 +1394,6 @@ _(1047 дублей скрыто)_
   _→ OUTLINE_
 - (честно)](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-честноan  
   _→ OUTLINE_
-- Git [Итог]  
-  _→ QUESTIONS_
 - и лицензии](01-svyazi/14-limitations.md) | 765 | — |  
   _→ READING_ORDER_
 - ### ⚠️ 1. 137 из 159 скриптов без --dry-run  
@@ -1480,8 +1429,6 @@ _(1047 дублей скрыто)_
 - и открытые вопросы]] | 561 |  
   _→ TABLES_
 - при коммерческом использовании |  
-  _→ TABLES_
-- и лицензии +4 | — |  
   _→ TABLES_
 - агента. Документы раздела описывают все аспекты поведения Lorenzo: от языкового профиля до антипаттернов и эскалации.  
   _→ 00-intro_
@@ -1526,9 +1473,9 @@ _(1047 дублей скрыто)_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(270 дублей скрыто)_
+_(266 дублей скрыто)_
 
-## 📋 Задачи (TODO) (52)
+## 📋 Задачи (TODO) (38)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1546,21 +1493,11 @@ _(270 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- ⭐ To Do — задача к выполнению 51 [107. Contents]  
-  _→ QUESTIONS_
-- из docs/. [extract (9)]  
-  _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 40 [Словарь аббревиатур и сокращений]  
-  _→ QUESTIONS_
-- во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
-  _→ QUESTIONS_
-- [12.4. Path D — Auto-Scanner]  
-  _→ QUESTIONS_
 - из docs/. | |  
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **108**  
+- меток: **109**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1571,9 +1508,9 @@ _(270 дублей скрыто)_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(32 дублей скрыто)_
+_(23 дублей скрыто)_
 
-## 📬 Контактные действия (322)
+## 📬 Контактные действия (315)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1719,10 +1656,6 @@ _(32 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [129. Топ авторов по приоритету]  
-  _→ QUESTIONS_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
-  _→ QUESTIONS_
 - первое сообщение автору проекта. |  
   _→ REGISTRY_
 - первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
@@ -1760,15 +1693,4 @@ _(32 дублей скрыто)_
 - `adapters/<format>.py`, наследуясь от `[[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
 
-_(230 дублей скрыто)_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONCEPTS](CONCEPTS.md)
-- [SEARCH](SEARCH.md)
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-
+_(225 дублей скрыто)_

@@ -5,11 +5,6 @@
 
 h1. [Тема исследования]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{research-note}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -55,24 +50,4 @@ _Кто ссылается на этот документ (10):_
 * [research-summary|../autofilled/research-summary.md]
 * [README|README.md]
 * _...ещё 2_
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «[Тема исследования]». Формируется автоматически.
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_research_note.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [research-note|../obsidian/templates/research-note.md] (сходство 0.93)
-* [research-summary|../obsidian/autofilled/research-summary.md] (сходство 0.45)
-* [research-summary|../autofilled/research-summary.md] (сходство 0.44)
 

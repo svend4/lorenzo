@@ -15,15 +15,8 @@ date: 2026-05-11
 
 # Приоритет контактов
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `CONTACT_PRIORITY` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> 1. **kksudo** (AgentFS, 194 упоминаний) → [[kksudo|открыть контакт]]
+> 1. **kksudo** (AgentFS, 193 упоминаний) → [[kksudo|открыть контакт]]
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
@@ -38,29 +31,29 @@ _Обновлено: 2026-05-11_
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 194 | 👁 Изучили | 593 |
-| 2 | **spbmolot** | NGT Memory | memory | 175 | 👁 Изучили | 536 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 132 | 👁 Изучили | 407 |
-| 4 | **VitalyOborin** | Yodoca | memory | 110 | 👁 Изучили | 341 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 193 | 👁 Изучили | 590 |
+| 2 | **spbmolot** | NGT Memory | memory | 173 | 👁 Изучили | 530 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 133 | 👁 Изучили | 410 |
+| 4 | **VitalyOborin** | Yodoca | memory | 107 | 👁 Изучили | 332 |
 | 5 | **zodigancode** | Rufler | orchestration | 93 | 👁 Изучили | 288 |
-| 6 | **VladSpace** | Graph RAG | rag | 85 | ⬜ Не начато | 259 |
-| 7 | **Antipozitive** | MemNet | memory | 82 | 👁 Изучили | 257 |
-| 8 | **nlaik** | LiteParse / research-docs | rag | 82 | 👁 Изучили | 255 |
-| 9 | **Cutcode** | AIF Handoff | orchestration | 74 | ⬜ Не начато | 226 |
-| 10 | **Dmitriila** | SENTINEL | security | 65 | ⬜ Не начато | 197 |
+| 6 | **Antipozitive** | MemNet | memory | 83 | 👁 Изучили | 260 |
+| 7 | **nlaik** | LiteParse / research-docs | rag | 81 | 👁 Изучили | 252 |
+| 8 | **VladSpace** | Graph RAG | rag | 81 | ⬜ Не начато | 247 |
+| 9 | **Cutcode** | AIF Handoff | orchestration | 71 | ⬜ Не начато | 217 |
+| 10 | **Dmitriila** | SENTINEL | security | 63 | ⬜ Не начато | 191 |
 | 11 | **MiXaiLL76** | Auto AI Router | security | 61 | ⬜ Не начато | 185 |
-| 12 | **Sonia_Black** | knowledge-space | knowledge | 42 | ⬜ Не начато | 132 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 41 | ⬜ Не начато | 129 |
 | 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | ⬜ Не начато | 101 |
 | 14 | **tagir_analyzes** | Legal RAG | rag | 29 | ⬜ Не начато | 91 |
-| 15 | **lee-to** | AI Factory | orchestration | 23 | ⬜ Не начато | 73 |
+| 15 | **lee-to** | AI Factory | orchestration | 22 | ⬜ Не начато | 70 |
 
 ## Рекомендуемые следующие шаги
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 194 упоминаний) → [[kksudo|открыть контакт]]
-1. **spbmolot** (NGT Memory, 175 упоминаний) → [[spbmolot|открыть контакт]]
-1. **AnastasiyaW** (knowledge-space, mclaude, 132 упоминаний) → [[anastasiyaw|открыть контакт]]
+1. **kksudo** (AgentFS, 193 упоминаний) → [[kksudo|открыть контакт]]
+1. **spbmolot** (NGT Memory, 173 упоминаний) → [[spbmolot|открыть контакт]]
+1. **AnastasiyaW** (knowledge-space, mclaude, 133 упоминаний) → [[anastasiyaw|открыть контакт]]
 
 ## Формула расчёта балла
 
@@ -86,14 +79,4 @@ _Чем выше балл — тем важнее написать первым.
 - [[READING_TIME]]
 - [[README]]
 - _...ещё 6_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[CONTACT_PRIORITY]] (сходство 0.96)
-- [[MINDMAP]] (сходство 0.36)
-- [[MINDMAP]] (сходство 0.36)
 

@@ -33,3 +33,19 @@
 
 ---
 _Создано: 2026-05-11_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [agent-spec](agent-spec.md)
+- _...ещё 2_
+

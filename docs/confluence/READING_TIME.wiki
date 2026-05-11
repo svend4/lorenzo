@@ -2615,3 +2615,14 @@ _Похожие документы:_
 * [READING_TIME|obsidian/READING_TIME.md] (сходство 0.97)
 * [SEARCH|SEARCH.md] (сходство 0.96)
 
+
+
+
+----
+
+_Смотрите также:_
+* [READABILITY|READABILITY.md]
+* [SEARCH|SEARCH.md]
+* [SOURCE_MAP|SOURCE_MAP.md]
+* [LANGUAGE_STATS|LANGUAGE_STATS.md]
+

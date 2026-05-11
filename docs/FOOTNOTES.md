@@ -1,5 +1,15 @@
 # Сноски и определения терминов
 
+<!-- summary -->
+> **Обновлено файлов:** 0  **Вставлено сносок:** 0
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
+
+
+
+
 **Обновлено файлов:** 0  **Вставлено сносок:** 0
 
 ## Словарь сносок
@@ -43,4 +53,20 @@
 - [08-conclusions](01-svyazi/08-conclusions.md)
 - [07-выводы](04-ai-collaborations/07-выводы.md)
 - [GRAPH](GRAPH.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [INDEX](INDEX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
 

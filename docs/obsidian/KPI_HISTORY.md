@@ -86,3 +86,14 @@ _Запускать регулярно для получения трендов.
 - [[SKILL_DASHBOARD]] (сходство 0.42)
 - [[SKILL_DASHBOARD]] (сходство 0.40)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[PASSIVE_VOICE]]
+- [[CONCEPT_GRAPH]]
+- [[DIGEST_WEEKLY]]
+- [[WORD_CLOUD]]
+

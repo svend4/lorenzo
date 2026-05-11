@@ -5,11 +5,6 @@
 
 h1. Контакт: [Имя / Проект]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{contact-outreach}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -54,23 +49,14 @@ _Создано: 2026-05-11_
 
 ----
 
-_Кто ссылается на этот документ (8):_
+_Кто ссылается на этот документ (9):_
 * [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
 * [REGISTRY|../REGISTRY.md]
 * [SEARCH|../SEARCH.md]
 * [TABLES|../TABLES.md]
 * [TASKS_INDEX|../TASKS_INDEX.md]
 * [research-summary|../autofilled/research-summary.md]
 * [README|README.md]
-* [meeting-notes|meeting-notes.md]
-
-
-
-
-----
-
-_Похожие документы:_
-* [contact-outreach|../obsidian/templates/contact-outreach.md] (сходство 0.94)
-* [tagir-analyzes|../contacts/tagir-analyzes.md] (сходство 0.40)
-* [tagir-analyzes|../obsidian/contacts/tagir-analyzes.md] (сходство 0.40)
+* _...ещё 1_
 

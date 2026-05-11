@@ -6,70 +6,49 @@
 |--------|---------------------|
 | **AI Factory** | 151 |
 | **AIF Handoff** | 64 |
-| **AgentFS** | 268 |
-| **Auto AI Router** | 135 |
+| **AgentFS** | 266 |
+| **Auto AI Router** | 137 |
 | **AutoResearch** | 128 |
-| **Automerge** | 82 |
+| **Automerge** | 78 |
 | **CardIndex** | 300 |
 | **Firecrawl** | 43 |
 | **Graph RAG** | 105 |
 | **Hybrid RAG** | 103 |
-| **Legal RAG** | 111 |
-| **LiteLLM** | 97 |
+| **Legal RAG** | 107 |
+| **LiteLLM** | 99 |
 | **LiteParse** | 195 |
 | **MemNet** | 286 |
-| **Memory OS** | 97 |
-| **NGT Memory** | 223 |
+| **Memory OS** | 95 |
+| **NGT Memory** | 221 |
 | **OpenWhispr** | 39 |
 | **RLM-Toolkit** | 20 |
-| **Rufler** | 213 |
-| **SENTINEL** | 194 |
+| **Rufler** | 211 |
+| **SENTINEL** | 191 |
 | **Self-Aware MCP** | 44 |
-| **Sequential** | 233 |
-| **Svyazi** | 747 |
+| **Sequential** | 231 |
+| **Svyazi** | 743 |
 | **Tool Search** | 105 |
 | **Whisper** | 55 |
 | **Wikontic** | 121 |
-| **Yjs** | 98 |
-| **Yodoca** | 345 |
+| **Yjs** | 94 |
+| **Yodoca** | 343 |
 | **Yttri** | 39 |
 | **agent-memory-mcp** | 145 |
-| **knowledge-space** | 249 |
-| **mclaude** | 217 |
+| **knowledge-space** | 247 |
+| **mclaude** | 215 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (53):**
+**Кто ссылается на этот документ (43):**
 - [03-local-first](03-technology-combinations/03-local-first.md)
 - [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
-- [ACTION_ITEMS](ACTION_ITEMS.md)
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
-- [COMPLEXITY](COMPLEXITY.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- _...ещё 45_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [GLOSSARY](obsidian/GLOSSARY.md) (сходство 0.65)
-- [MINDMAP](MINDMAP.md) (сходство 0.35)
-- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.32)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [MINDMAP](MINDMAP.md)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [authors-by-name](glossary/authors-by-name.md)
-- [NETWORK](NETWORK.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- _...ещё 35_
 

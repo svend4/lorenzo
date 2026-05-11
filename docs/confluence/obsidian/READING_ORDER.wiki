@@ -12,11 +12,6 @@ date: 2026-05-11
 
 h1. Рекомендуемый порядок чтения
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{READING_ORDER}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 {quote}От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).{quote}
 _Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
@@ -470,43 +465,14 @@ h3. 🔬 Полное исследование (1 день)
 
 ----
 
-_Кто ссылается на этот документ (11):_
+_Кто ссылается на этот документ (12):_
 * [[README]]
 * [[CLUSTERS]]
 * [[CONTENT_GAPS]]
-* [[KPI]]
 * [[OUTLINE]]
 * [[READABILITY]]
 * [[READING_TIME]]
 * [[README]]
-* _...ещё 3_
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_reading_order.py
-{code}
-{code:language=bash}
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [[READING_ORDER]] (сходство 1.00)
-* [[README]] (сходство 0.74)
-* [[README]] (сходство 0.74)
+* [[SEARCH]]
+* _...ещё 4_
 

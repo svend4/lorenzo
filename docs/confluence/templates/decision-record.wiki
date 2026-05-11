@@ -5,11 +5,6 @@
 
 h1. ADR: [Название решения]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{decision-record}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -57,21 +52,4 @@ _Кто ссылается на этот документ (14):_
 * [contradiction-record|contradiction-record.md]
 * [experiment-log|experiment-log.md]
 * _...ещё 6_
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_decision_record.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [decision-record|../obsidian/templates/decision-record.md] (сходство 0.95)
-* [ensemble|ensemble.md] (сходство 0.30)
-* [ensemble|../obsidian/templates/ensemble.md] (сходство 0.30)
 

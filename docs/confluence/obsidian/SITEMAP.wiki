@@ -12,11 +12,6 @@ date: 2026-05-11
 
 h1. Карта репозитория Lorenzo
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
-
-
-
 
 {quote}- [Мета-документы|#мета-документы]{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -89,138 +84,138 @@ h2. Навигация
 h2. Мета-документы
 
 || Документ || Описание || Слов ||
-|| [[ABBREVIATIONS || ABBREVIATIONS.md]] || — || 1953 ||
-|| [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 9419 ||
-|| [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 9402 ||
+|| [[ABBREVIATIONS || ABBREVIATIONS.md]] || — || 1845 ||
+|| [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 9409 ||
+|| [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 9408 ||
 || [[ALERTS || ALERTS.md]] || — || 79 ||
-|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 216 ||
-|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 197 ||
+|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 221 ||
+|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 218 ||
 || [[AUTOFILLED || AUTOFILLED.md]] || — || 322 ||
 || [[BACKLINKS || BACKLINKS.md]] || — || 570 ||
 || [[BADGES || BADGES.md]] || — || 129 ||
-|| [[BROKEN_LINKS || BROKEN_LINKS.md]] || Сломанные ссылки (26) || 561 ||
-|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 3880 ||
-|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 3669 ||
-|| [[CHANGELOG_AUTO || CHANGELOG_AUTO.md]] || — || 2141 ||
-|| [[CITATION_INDEX || CITATION_INDEX.md]] || — || 1049 ||
+|| [[BROKEN_LINKS || BROKEN_LINKS.md]] || Сломанные ссылки (26) || 959 ||
+|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 4044 ||
+|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 3979 ||
+|| [[CHANGELOG_AUTO || CHANGELOG_AUTO.md]] || — || 2050 ||
+|| [[CITATION_INDEX || CITATION_INDEX.md]] || — || 1015 ||
 || [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1704 ||
-|| [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1686 ||
+|| [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1702 ||
 || [[CODE_BLOCKS || CODE_BLOCKS.md]] || — || 5325 ||
-|| [[CODE_BLOCKS || CODE_BLOCKS.md]] || — || 6532 ||
+|| [[CODE_BLOCKS || CODE_BLOCKS.md]] || — || 5335 ||
 || [[COLLAB_SUGGESTIONS || COLLAB_SUGGESTIONS.md]] || — || 702 ||
 || [[COMPARE || COMPARE.md]] || Сравнение с предыдущим коммитом || 477 ||
-|| [[COMPARE || COMPARE.md]] || Сравнение с предыдущим коммитом || 448 ||
+|| [[COMPARE || COMPARE.md]] || Сравнение с предыдущим коммитом || 593 ||
 || [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 605 ||
-|| [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 584 ||
-|| [[COMPONENT_MATRIX || COMPONENT_MATRIX.md]] || — || 1069 ||
-|| [[CONCEPTS || CONCEPTS.md]] || Глоссарий понятий (888) || 14989 ||
+|| [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 602 ||
+|| [[COMPONENT_MATRIX || COMPONENT_MATRIX.md]] || — || 958 ||
+|| [[CONCEPTS || CONCEPTS.md]] || Глоссарий понятий (888) || 14973 ||
 || [[CONCEPTS || CONCEPTS.md]] || Глоссарий понятий (888) || 14895 ||
-|| [[CONCEPT_GRAPH || CONCEPT_GRAPH.md]] || — || 781 ||
+|| [[CONCEPT_GRAPH || CONCEPT_GRAPH.md]] || — || 767 ||
 || [[CONSISTENCY || CONSISTENCY.md]] || — || 1032 ||
 || [[CONSISTENCY || CONSISTENCY.md]] || — || 1046 ||
 || [[CONTACTS || CONTACTS.md]] || Контакты (15 авторов) || 557 ||
-|| [[CONTACTS || CONTACTS.md]] || Контакты (15 авторов) || 683 ||
+|| [[CONTACTS || CONTACTS.md]] || Контакты (15 авторов) || 688 ||
 || [[CONTACT_PRIORITY || CONTACT_PRIORITY.md]] || — || 470 ||
 || [[CONTENT_GAPS || CONTENT_GAPS.md]] || — || 899 ||
-|| [[CONTRADICTIONS || CONTRADICTIONS.md]] || — || 2321 ||
-|| [[COST || COST.md]] || — || 633 ||
-|| [[COVERAGE || COVERAGE.md]] || — || 312 ||
+|| [[CONTRADICTIONS || CONTRADICTIONS.md]] || — || 2137 ||
+|| [[COST || COST.md]] || — || 649 ||
+|| [[COVERAGE || COVERAGE.md]] || — || 314 ||
 || [[CROSSREFS || CROSSREFS.md]] || Перекрёстные ссылки проектов || 654 ||
-|| [[CROSSREFS || CROSSREFS.md]] || Перекрёстные ссылки проектов || 648 ||
-|| [[CROSS_SECTION || CROSS_SECTION.md]] || — || 4218 ||
-|| [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2491 ||
-|| [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2495 ||
-|| [[DEMO || DEMO.md]] || — || 603 ||
+|| [[CROSSREFS || CROSSREFS.md]] || Перекрёстные ссылки проектов || 664 ||
+|| [[CROSS_SECTION || CROSS_SECTION.md]] || — || 4227 ||
+|| [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2614 ||
+|| [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2618 ||
+|| [[DEMO || DEMO.md]] || — || 627 ||
 || [[DENSITY || DENSITY.md]] || Карта плотности тем || 650 ||
-|| [[DENSITY || DENSITY.md]] || Карта плотности тем || 631 ||
-|| [[DEPENDABOT || DEPENDABOT.md]] || — || 233 ||
-|| [[DEPENDENCY_MAP || DEPENDENCY_MAP.md]] || — || 1237 ||
-|| [[DIGEST || DIGEST.md]] || — || 397 ||
-|| [[DIGEST_AUTO || DIGEST_AUTO.md]] || — || 632 ||
-|| [[DIGEST_WEEKLY || DIGEST_WEEKLY.md]] || — || 469 ||
-|| [[DUPLICATES || DUPLICATES.md]] || — || 2556 ||
-|| [[DUPLICATES || DUPLICATES.md]] || — || 2490 ||
-|| [[EMPTY_SECTIONS || EMPTY_SECTIONS.md]] || — || 44436 ||
+|| [[DENSITY || DENSITY.md]] || Карта плотности тем || 647 ||
+|| [[DEPENDABOT || DEPENDABOT.md]] || — || 225 ||
+|| [[DEPENDENCY_MAP || DEPENDENCY_MAP.md]] || — || 1230 ||
+|| [[DIGEST || DIGEST.md]] || — || 370 ||
+|| [[DIGEST_AUTO || DIGEST_AUTO.md]] || — || 541 ||
+|| [[DIGEST_WEEKLY || DIGEST_WEEKLY.md]] || — || 411 ||
+|| [[DUPLICATES || DUPLICATES.md]] || — || 2018 ||
+|| [[DUPLICATES || DUPLICATES.md]] || — || 2015 ||
+|| [[EMPTY_SECTIONS || EMPTY_SECTIONS.md]] || — || 37640 ||
 || [[ENTITIES || ENTITIES.md]] || Именованные сущности || 758 ||
-|| [[ENTITIES || ENTITIES.md]] || Именованные сущности || 738 ||
-|| [[FAQ || FAQ.md]] || — || 1413 ||
+|| [[ENTITIES || ENTITIES.md]] || Именованные сущности || 754 ||
+|| [[FAQ || FAQ.md]] || — || 1378 ||
 || [[FOOTNOTES || FOOTNOTES.md]] || — || 275 ||
-|| [[GATEWAY || GATEWAY.md]] || — || 1334 ||
-|| [[GITHUB_ISSUES || GITHUB_ISSUES.md]] || — || 4002 ||
+|| [[GATEWAY || GATEWAY.md]] || — || 1354 ||
+|| [[GITHUB_ISSUES || GITHUB_ISSUES.md]] || — || 3514 ||
 || [[GLOSSARY || GLOSSARY.md]] || Глоссарий проектов (33 записи) || 251 ||
 || [[GLOSSARY || GLOSSARY.md]] || Глоссарий проектов (33 записи) || 247 ||
 || [[GRAPH || GRAPH.md]] || Граф связей проектов || 2654 ||
-|| [[GRAPH || GRAPH.md]] || Граф связей проектов || 2772 ||
-|| [[HEADING_AUDIT || HEADING_AUDIT.md]] || — || 8616 ||
-|| [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 298 ||
-|| [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 304 ||
+|| [[GRAPH || GRAPH.md]] || Граф связей проектов || 2765 ||
+|| [[HEADING_AUDIT || HEADING_AUDIT.md]] || — || 13675 ||
+|| [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 327 ||
+|| [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 345 ||
 || [[HEATMAP || HEATMAP.md]] || — || 542 ||
-|| [[INDEX || INDEX.md]] || — || 694 ||
-|| [[KEYWORD_INDEX || KEYWORD_INDEX.md]] || — || 1151 ||
-|| [[KNOWLEDGE_MAP || KNOWLEDGE_MAP.md]] || — || 735 ||
-|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2807 ||
-|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2789 ||
-|| [[KPI_HISTORY || KPI_HISTORY.md]] || — || 287 ||
-|| [[LANGUAGE_STATS || LANGUAGE_STATS.md]] || — || 7888 ||
+|| [[INDEX || INDEX.md]] || — || 651 ||
+|| [[KEYWORD_INDEX || KEYWORD_INDEX.md]] || — || 1131 ||
+|| [[KNOWLEDGE_MAP || KNOWLEDGE_MAP.md]] || — || 717 ||
+|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2765 ||
+|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2763 ||
+|| [[KPI_HISTORY || KPI_HISTORY.md]] || — || 267 ||
+|| [[LANGUAGE_STATS || LANGUAGE_STATS.md]] || — || 8024 ||
 || [[LINKS || LINKS.md]] || Внешние ссылки || 1089 ||
-|| [[LINKS || LINKS.md]] || Внешние ссылки || 1072 ||
-|| [[LINK_PREVIEW || LINK_PREVIEW.md]] || — || 1972 ||
+|| [[LINKS || LINKS.md]] || Внешние ссылки || 1085 ||
+|| [[LINK_PREVIEW || LINK_PREVIEW.md]] || — || 2712 ||
 || [[LLM_SUMMARIES || LLM_SUMMARIES.md]] || — || 386 ||
-|| [[MCP_DASHBOARD || MCP_DASHBOARD.md]] || — || 138 ||
+|| [[MCP_DASHBOARD || MCP_DASHBOARD.md]] || — || 44 ||
 || [[METHODOLOGY || METHODOLOGY.md]] || — || 1070 ||
-|| [[METRICS || METRICS.md]] || — || 430 ||
+|| [[METRICS || METRICS.md]] || — || 459 ||
 || [[MINDMAP || MINDMAP.md]] || Майндмап в Mermaid || 242 ||
 || [[MINDMAP || MINDMAP.md]] || Майндмап в Mermaid || 346 ||
 || [[MISSING || MISSING.md]] || Пробелы знаний || 450 ||
-|| [[MISSING || MISSING.md]] || Пробелы знаний || 560 ||
-|| [[NAMED_ENTITIES || NAMED_ENTITIES.md]] || — || 1877 ||
+|| [[MISSING || MISSING.md]] || Пробелы знаний || 447 ||
+|| [[NAMED_ENTITIES || NAMED_ENTITIES.md]] || — || 1761 ||
 || [[NARRATIVE || NARRATIVE.md]] || — || 1055 ||
 || [[NETWORK || NETWORK.md]] || — || 413 ||
-|| [[ONBOARDING || ONBOARDING.md]] || — || 614 ||
-|| [[ORPHANS || ORPHANS.md]] || — || 82 ||
-|| [[OUTLINE || OUTLINE.md]] || — || 47467 ||
-|| [[PARAGRAPH_QUALITY || PARAGRAPH_QUALITY.md]] || — || 22488 ||
-|| [[PASSIVE_VOICE || PASSIVE_VOICE.md]] || — || 502 ||
-|| [[PRECISION_EVAL || PRECISION_EVAL.md]] || — || 533 ||
-|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3446 ||
-|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3426 ||
-|| [[PROGRESS || PROGRESS.md]] || — || 341 ||
+|| [[ONBOARDING || ONBOARDING.md]] || — || 552 ||
+|| [[ORPHANS || ORPHANS.md]] || — || 90 ||
+|| [[OUTLINE || OUTLINE.md]] || — || 47499 ||
+|| [[PARAGRAPH_QUALITY || PARAGRAPH_QUALITY.md]] || — || 17535 ||
+|| [[PASSIVE_VOICE || PASSIVE_VOICE.md]] || — || 483 ||
+|| [[PRECISION_EVAL || PRECISION_EVAL.md]] || — || 575 ||
+|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3444 ||
+|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3440 ||
+|| [[PROGRESS || PROGRESS.md]] || — || 356 ||
 || [[PROTOTYPE_SPEC || PROTOTYPE_SPEC.md]] || — || 1676 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 302 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 305 ||
 || [[QA || QA.md]] || Вопросы и ответы || 422 ||
 || [[QA || QA.md]] || Вопросы и ответы || 190 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 359 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 362 ||
 || [[QA || QA.md]] || Вопросы и ответы || 290 ||
 || [[QA || QA.md]] || Вопросы и ответы || 3313 ||
 || [[QA || QA.md]] || Вопросы и ответы || 468 ||
 || [[QA || QA.md]] || Вопросы и ответы || 131 ||
 || [[QA || QA.md]] || Вопросы и ответы || 146 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 216 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 302 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 234 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 305 ||
 || [[QA || QA.md]] || Вопросы и ответы || 148 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 303 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 329 ||
 || [[QA || QA.md]] || Вопросы и ответы || 452 ||
 || [[QA || QA.md]] || Вопросы и ответы || 208 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 344 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 272 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 386 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 312 ||
 || [[QA || QA.md]] || Вопросы и ответы || 3343 ||
 || [[QA || QA.md]] || Вопросы и ответы || 484 ||
 || [[QA || QA.md]] || Вопросы и ответы || 145 ||
 || [[QA || QA.md]] || Вопросы и ответы || 158 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 234 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 326 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 252 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 329 ||
 || [[QA || QA.md]] || Вопросы и ответы || 162 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 338 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 341 ||
 || [[QA || QA.md]] || Вопросы и ответы || 489 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 312 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 315 ||
 || [[QA || QA.md]] || Вопросы и ответы || 473 ||
-|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1844 ||
-|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1822 ||
-|| [[READABILITY || READABILITY.md]] || — || 37354 ||
-|| [[READING_LIST || READING_LIST.md]] || — || 367 ||
+|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1836 ||
+|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1832 ||
+|| [[READABILITY || READABILITY.md]] || — || 37360 ||
+|| [[READING_LIST || READING_LIST.md]] || — || 639 ||
 || [[READING_ORDER || READING_ORDER.md]] || Рекомендуемый порядок чтения || 6041 ||
-|| [[READING_ORDER || READING_ORDER.md]] || Рекомендуемый порядок чтения || 6211 ||
-|| [[READING_TIME || READING_TIME.md]] || — || 27197 ||
+|| [[READING_ORDER || READING_ORDER.md]] || Рекомендуемый порядок чтения || 6214 ||
+|| [[READING_TIME || READING_TIME.md]] || — || 27646 ||
 || [[README || README.md]] || Главная страница и навигация || 424 ||
 || [[README || README.md]] || Главная страница и навигация || 2345 ||
 || [[README || README.md]] || Главная страница и навигация || 326 ||
@@ -229,77 +224,77 @@ h2. Мета-документы
 || [[README || README.md]] || Главная страница и навигация || 344 ||
 || [[README || README.md]] || Главная страница и навигация || 370 ||
 || [[README || README.md]] || Главная страница и навигация || 883 ||
-|| [[README || README.md]] || Главная страница и навигация || 86 ||
-|| [[README || README.md]] || Главная страница и навигация || 68 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 118 ||
 || [[README || README.md]] || Главная страница и навигация || 349 ||
-|| [[README || README.md]] || Главная страница и навигация || 113 ||
-|| [[README || README.md]] || Главная страница и навигация || 108 ||
+|| [[README || README.md]] || Главная страница и навигация || 149 ||
+|| [[README || README.md]] || Главная страница и навигация || 144 ||
 || [[README || README.md]] || Главная страница и навигация || 430 ||
 || [[README || README.md]] || Главная страница и навигация || 353 ||
-|| [[README || README.md]] || Главная страница и навигация || 115 ||
-|| [[README || README.md]] || Главная страница и навигация || 119 ||
-|| [[README || README.md]] || Главная страница и навигация || 125 ||
-|| [[README || README.md]] || Главная страница и навигация || 150 ||
-|| [[README || README.md]] || Главная страница и навигация || 95 ||
+|| [[README || README.md]] || Главная страница и навигация || 138 ||
+|| [[README || README.md]] || Главная страница и навигация || 155 ||
+|| [[README || README.md]] || Главная страница и навигация || 161 ||
+|| [[README || README.md]] || Главная страница и навигация || 186 ||
+|| [[README || README.md]] || Главная страница и навигация || 145 ||
+|| [[README || README.md]] || Главная страница и навигация || 173 ||
+|| [[README || README.md]] || Главная страница и навигация || 139 ||
+|| [[README || README.md]] || Главная страница и навигация || 124 ||
+|| [[README || README.md]] || Главная страница и навигация || 139 ||
 || [[README || README.md]] || Главная страница и навигация || 137 ||
-|| [[README || README.md]] || Главная страница и навигация || 89 ||
-|| [[README || README.md]] || Главная страница и навигация || 74 ||
-|| [[README || README.md]] || Главная страница и навигация || 89 ||
-|| [[README || README.md]] || Главная страница и навигация || 101 ||
-|| [[README || README.md]] || Главная страница и навигация || 83 ||
-|| [[README || README.md]] || Главная страница и навигация || 83 ||
+|| [[README || README.md]] || Главная страница и навигация || 133 ||
+|| [[README || README.md]] || Главная страница и навигация || 133 ||
 || [[README || README.md]] || Главная страница и навигация || 350 ||
 || [[README || README.md]] || Главная страница и навигация || 65 ||
 || [[README || README.md]] || Главная страница и навигация || 113 ||
 || [[README || README.md]] || Главная страница и навигация || 44 ||
-|| [[README || README.md]] || Главная страница и навигация || 118 ||
-|| [[README || README.md]] || Главная страница и навигация || 65 ||
+|| [[README || README.md]] || Главная страница и навигация || 141 ||
+|| [[README || README.md]] || Главная страница и навигация || 102 ||
 || [[README || README.md]] || Главная страница и навигация || 358 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
-|| [[README || README.md]] || Главная страница и навигация || 101 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 137 ||
 || [[README || README.md]] || Главная страница и навигация || 345 ||
-|| [[README || README.md]] || Главная страница и навигация || 131 ||
-|| [[README || README.md]] || Главная страница и навигация || 72 ||
-|| [[README || README.md]] || Главная страница и навигация || 95 ||
-|| [[README || README.md]] || Главная страница и навигация || 89 ||
+|| [[README || README.md]] || Главная страница и навигация || 167 ||
+|| [[README || README.md]] || Главная страница и навигация || 122 ||
+|| [[README || README.md]] || Главная страница и навигация || 145 ||
+|| [[README || README.md]] || Главная страница и навигация || 139 ||
 || [[README || README.md]] || Главная страница и навигация || 344 ||
-|| [[README || README.md]] || Главная страница и навигация || 82 ||
-|| [[README || README.md]] || Главная страница и навигация || 106 ||
-|| [[README || README.md]] || Главная страница и навигация || 206 ||
-|| [[README || README.md]] || Главная страница и навигация || 77 ||
-|| [[README || README.md]] || Главная страница и навигация || 92 ||
-|| [[README || README.md]] || Главная страница и навигация || 107 ||
-|| [[README || README.md]] || Главная страница и навигация || 58 ||
-|| [[README || README.md]] || Главная страница и навигация || 125 ||
-|| [[README || README.md]] || Главная страница и навигация || 80 ||
+|| [[README || README.md]] || Главная страница и навигация || 132 ||
+|| [[README || README.md]] || Главная страница и навигация || 129 ||
+|| [[README || README.md]] || Главная страница и навигация || 229 ||
+|| [[README || README.md]] || Главная страница и навигация || 127 ||
+|| [[README || README.md]] || Главная страница и навигация || 142 ||
+|| [[README || README.md]] || Главная страница и навигация || 143 ||
+|| [[README || README.md]] || Главная страница и навигация || 108 ||
+|| [[README || README.md]] || Главная страница и навигация || 161 ||
+|| [[README || README.md]] || Главная страница и навигация || 117 ||
 || [[README || README.md]] || Главная страница и навигация || 621 ||
 || [[README || README.md]] || Главная страница и навигация || 352 ||
-|| [[README || README.md]] || Главная страница и навигация || 59 ||
-|| [[README || README.md]] || Главная страница и навигация || 58 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
-|| [[README || README.md]] || Главная страница и навигация || 58 ||
-|| [[README || README.md]] || Главная страница и навигация || 120 ||
-|| [[README || README.md]] || Главная страница и навигация || 72 ||
-|| [[README || README.md]] || Главная страница и навигация || 117 ||
-|| [[README || README.md]] || Главная страница и навигация || 135 ||
-|| [[README || README.md]] || Главная страница и навигация || 129 ||
-|| [[README || README.md]] || Главная страница и навигация || 105 ||
-|| [[README || README.md]] || Главная страница и навигация || 105 ||
-|| [[README || README.md]] || Главная страница и навигация || 57 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
-|| [[README || README.md]] || Главная страница и навигация || 89 ||
-|| [[README || README.md]] || Главная страница и навигация || 167 ||
-|| [[README || README.md]] || Главная страница и навигация || 190 ||
-|| [[README || README.md]] || Главная страница и навигация || 111 ||
-|| [[README || README.md]] || Главная страница и навигация || 80 ||
-|| [[README || README.md]] || Главная страница и навигация || 121 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 108 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 108 ||
+|| [[README || README.md]] || Главная страница и навигация || 143 ||
 || [[README || README.md]] || Главная страница и навигация || 122 ||
-|| [[README || README.md]] || Главная страница и навигация || 125 ||
-|| [[README || README.md]] || Главная страница и навигация || 124 ||
-|| [[README || README.md]] || Главная страница и навигация || 155 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
+|| [[README || README.md]] || Главная страница и навигация || 140 ||
+|| [[README || README.md]] || Главная страница и навигация || 158 ||
+|| [[README || README.md]] || Главная страница и навигация || 152 ||
+|| [[README || README.md]] || Главная страница и навигация || 128 ||
+|| [[README || README.md]] || Главная страница и навигация || 128 ||
+|| [[README || README.md]] || Главная страница и навигация || 108 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 139 ||
+|| [[README || README.md]] || Главная страница и навигация || 203 ||
+|| [[README || README.md]] || Главная страница и навигация || 213 ||
+|| [[README || README.md]] || Главная страница и навигация || 134 ||
+|| [[README || README.md]] || Главная страница и навигация || 130 ||
+|| [[README || README.md]] || Главная страница и навигация || 144 ||
+|| [[README || README.md]] || Главная страница и навигация || 145 ||
+|| [[README || README.md]] || Главная страница и навигация || 148 ||
+|| [[README || README.md]] || Главная страница и навигация || 147 ||
+|| [[README || README.md]] || Главная страница и навигация || 191 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
 || [[README || README.md]] || Главная страница и навигация || 442 ||
 || [[README || README.md]] || Главная страница и навигация || 2373 ||
 || [[README || README.md]] || Главная страница и навигация || 339 ||
@@ -308,148 +303,148 @@ h2. Мета-документы
 || [[README || README.md]] || Главная страница и навигация || 354 ||
 || [[README || README.md]] || Главная страница и навигация || 380 ||
 || [[README || README.md]] || Главная страница и навигация || 898 ||
-|| [[README || README.md]] || Главная страница и навигация || 95 ||
-|| [[README || README.md]] || Главная страница и навигация || 77 ||
+|| [[README || README.md]] || Главная страница и навигация || 136 ||
+|| [[README || README.md]] || Главная страница и навигация || 131 ||
 || [[README || README.md]] || Главная страница и навигация || 370 ||
-|| [[README || README.md]] || Главная страница и навигация || 122 ||
-|| [[README || README.md]] || Главная страница и навигация || 118 ||
+|| [[README || README.md]] || Главная страница и навигация || 162 ||
+|| [[README || README.md]] || Главная страница и навигация || 158 ||
 || [[README || README.md]] || Главная страница и навигация || 442 ||
 || [[README || README.md]] || Главная страница и навигация || 374 ||
-|| [[README || README.md]] || Главная страница и навигация || 124 ||
-|| [[README || README.md]] || Главная страница и навигация || 128 ||
-|| [[README || README.md]] || Главная страница и навигация || 134 ||
-|| [[README || README.md]] || Главная страница и навигация || 160 ||
-|| [[README || README.md]] || Главная страница и навигация || 104 ||
+|| [[README || README.md]] || Главная страница и навигация || 151 ||
+|| [[README || README.md]] || Главная страница и навигация || 168 ||
+|| [[README || README.md]] || Главная страница и навигация || 174 ||
+|| [[README || README.md]] || Главная страница и навигация || 200 ||
+|| [[README || README.md]] || Главная страница и навигация || 158 ||
+|| [[README || README.md]] || Главная страница и навигация || 186 ||
+|| [[README || README.md]] || Главная страница и навигация || 152 ||
+|| [[README || README.md]] || Главная страница и навигация || 137 ||
+|| [[README || README.md]] || Главная страница и навигация || 152 ||
+|| [[README || README.md]] || Главная страница и навигация || 150 ||
 || [[README || README.md]] || Главная страница и навигация || 146 ||
-|| [[README || README.md]] || Главная страница и навигация || 98 ||
-|| [[README || README.md]] || Главная страница и навигация || 83 ||
-|| [[README || README.md]] || Главная страница и навигация || 98 ||
-|| [[README || README.md]] || Главная страница и навигация || 110 ||
-|| [[README || README.md]] || Главная страница и навигация || 92 ||
-|| [[README || README.md]] || Главная страница и навигация || 92 ||
+|| [[README || README.md]] || Главная страница и навигация || 146 ||
 || [[README || README.md]] || Главная страница и навигация || 372 ||
 || [[README || README.md]] || Главная страница и навигация || 74 ||
 || [[README || README.md]] || Главная страница и навигация || 122 ||
+|| [[README || README.md]] || Главная страница и навигация || 145 ||
 || [[README || README.md]] || Главная страница и навигация || 154 ||
-|| [[README || README.md]] || Главная страница и навигация || 127 ||
-|| [[README || README.md]] || Главная страница и навигация || 74 ||
-|| [[README || README.md]] || Главная страница и навигация || 379 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 110 ||
-|| [[README || README.md]] || Главная страница и навигация || 367 ||
-|| [[README || README.md]] || Главная страница и навигация || 140 ||
-|| [[README || README.md]] || Главная страница и навигация || 81 ||
-|| [[README || README.md]] || Главная страница и навигация || 104 ||
-|| [[README || README.md]] || Главная страница и навигация || 98 ||
-|| [[README || README.md]] || Главная страница и навигация || 367 ||
-|| [[README || README.md]] || Главная страница и навигация || 91 ||
 || [[README || README.md]] || Главная страница и навигация || 115 ||
-|| [[README || README.md]] || Главная страница и навигация || 215 ||
-|| [[README || README.md]] || Главная страница и навигация || 86 ||
-|| [[README || README.md]] || Главная страница и навигация || 101 ||
-|| [[README || README.md]] || Главная страница и навигация || 116 ||
-|| [[README || README.md]] || Главная страница и навигация || 67 ||
-|| [[README || README.md]] || Главная страница и навигация || 134 ||
-|| [[README || README.md]] || Главная страница и навигация || 89 ||
+|| [[README || README.md]] || Главная страница и навигация || 379 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 150 ||
+|| [[README || README.md]] || Главная страница и навигация || 367 ||
+|| [[README || README.md]] || Главная страница и навигация || 180 ||
+|| [[README || README.md]] || Главная страница и навигация || 135 ||
+|| [[README || README.md]] || Главная страница и навигация || 158 ||
+|| [[README || README.md]] || Главная страница и навигация || 152 ||
+|| [[README || README.md]] || Главная страница и навигация || 367 ||
+|| [[README || README.md]] || Главная страница и навигация || 145 ||
+|| [[README || README.md]] || Главная страница и навигация || 142 ||
+|| [[README || README.md]] || Главная страница и навигация || 242 ||
+|| [[README || README.md]] || Главная страница и навигация || 140 ||
+|| [[README || README.md]] || Главная страница и навигация || 155 ||
+|| [[README || README.md]] || Главная страница и навигация || 156 ||
+|| [[README || README.md]] || Главная страница и навигация || 121 ||
+|| [[README || README.md]] || Главная страница и навигация || 174 ||
+|| [[README || README.md]] || Главная страница и навигация || 130 ||
 || [[README || README.md]] || Главная страница и навигация || 642 ||
 || [[README || README.md]] || Главная страница и навигация || 374 ||
-|| [[README || README.md]] || Главная страница и навигация || 68 ||
-|| [[README || README.md]] || Главная страница и навигация || 67 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 67 ||
-|| [[README || README.md]] || Главная страница и навигация || 129 ||
-|| [[README || README.md]] || Главная страница и навигация || 81 ||
-|| [[README || README.md]] || Главная страница и навигация || 126 ||
-|| [[README || README.md]] || Главная страница и навигация || 144 ||
-|| [[README || README.md]] || Главная страница и навигация || 138 ||
-|| [[README || README.md]] || Главная страница и навигация || 114 ||
-|| [[README || README.md]] || Главная страница и навигация || 114 ||
-|| [[README || README.md]] || Главная страница и навигация || 66 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 98 ||
-|| [[README || README.md]] || Главная страница и навигация || 176 ||
-|| [[README || README.md]] || Главная страница и навигация || 199 ||
-|| [[README || README.md]] || Главная страница и навигация || 120 ||
-|| [[README || README.md]] || Главная страница и навигация || 89 ||
-|| [[README || README.md]] || Главная страница и навигация || 130 ||
-|| [[README || README.md]] || Главная страница и навигация || 131 ||
-|| [[README || README.md]] || Главная страница и навигация || 134 ||
-|| [[README || README.md]] || Главная страница и навигация || 133 ||
-|| [[README || README.md]] || Главная страница и навигация || 164 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 125 ||
-|| [[README || README.md]] || Главная страница и навигация || 100 ||
-|| [[README || README.md]] || Главная страница и навигация || 103 ||
-|| [[README || README.md]] || Главная страница и навигация || 176 ||
-|| [[README || README.md]] || Главная страница и навигация || 112 ||
-|| [[README || README.md]] || Главная страница и навигация || 75 ||
-|| [[README || README.md]] || Главная страница и навигация || 77 ||
-|| [[README || README.md]] || Главная страница и навигация || 83 ||
-|| [[README || README.md]] || Главная страница и навигация || 74 ||
-|| [[README || README.md]] || Главная страница и навигация || 77 ||
-|| [[README || README.md]] || Главная страница и навигация || 384 ||
-|| [[README || README.md]] || Главная страница и навигация || 272 ||
-|| [[README || README.md]] || Главная страница и навигация || 83 ||
-|| [[README || README.md]] || Главная страница и навигация || 371 ||
-|| [[README || README.md]] || Главная страница и навигация || 69 ||
-|| [[README || README.md]] || Главная страница и навигация || 91 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 121 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 121 ||
+|| [[README || README.md]] || Главная страница и навигация || 156 ||
+|| [[README || README.md]] || Главная страница и навигация || 135 ||
+|| [[README || README.md]] || Главная страница и навигация || 153 ||
+|| [[README || README.md]] || Главная страница и навигация || 171 ||
 || [[README || README.md]] || Главная страница и навигация || 165 ||
+|| [[README || README.md]] || Главная страница и навигация || 141 ||
+|| [[README || README.md]] || Главная страница и навигация || 141 ||
+|| [[README || README.md]] || Главная страница и навигация || 121 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 152 ||
+|| [[README || README.md]] || Главная страница и навигация || 216 ||
+|| [[README || README.md]] || Главная страница и навигация || 226 ||
+|| [[README || README.md]] || Главная страница и навигация || 147 ||
+|| [[README || README.md]] || Главная страница и навигация || 143 ||
+|| [[README || README.md]] || Главная страница и навигация || 157 ||
+|| [[README || README.md]] || Главная страница и навигация || 158 ||
+|| [[README || README.md]] || Главная страница и навигация || 161 ||
+|| [[README || README.md]] || Главная страница и навигация || 160 ||
+|| [[README || README.md]] || Главная страница и навигация || 204 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 142 ||
+|| [[README || README.md]] || Главная страница и навигация || 154 ||
+|| [[README || README.md]] || Главная страница и навигация || 144 ||
+|| [[README || README.md]] || Главная страница и навигация || 216 ||
+|| [[README || README.md]] || Главная страница и навигация || 152 ||
+|| [[README || README.md]] || Главная страница и навигация || 129 ||
+|| [[README || README.md]] || Главная страница и навигация || 131 ||
+|| [[README || README.md]] || Главная страница и навигация || 137 ||
+|| [[README || README.md]] || Главная страница и навигация || 115 ||
+|| [[README || README.md]] || Главная страница и навигация || 131 ||
+|| [[README || README.md]] || Главная страница и навигация || 384 ||
+|| [[README || README.md]] || Главная страница и навигация || 312 ||
+|| [[README || README.md]] || Главная страница и навигация || 137 ||
+|| [[README || README.md]] || Главная страница и навигация || 371 ||
+|| [[README || README.md]] || Главная страница и навигация || 123 ||
+|| [[README || README.md]] || Главная страница и навигация || 145 ||
+|| [[README || README.md]] || Главная страница и навигация || 165 ||
+|| [[README || README.md]] || Главная страница и навигация || 129 ||
+|| [[README || README.md]] || Главная страница и навигация || 141 ||
+|| [[README || README.md]] || Главная страница и навигация || 131 ||
+|| [[README || README.md]] || Главная страница и навигация || 203 ||
+|| [[README || README.md]] || Главная страница и навигация || 138 ||
 || [[README || README.md]] || Главная страница и навигация || 116 ||
-|| [[README || README.md]] || Главная страница и навигация || 91 ||
-|| [[README || README.md]] || Главная страница и навигация || 94 ||
-|| [[README || README.md]] || Главная страница и навигация || 167 ||
+|| [[README || README.md]] || Главная страница и навигация || 118 ||
+|| [[README || README.md]] || Главная страница и навигация || 124 ||
 || [[README || README.md]] || Главная страница и навигация || 102 ||
-|| [[README || README.md]] || Главная страница и навигация || 66 ||
-|| [[README || README.md]] || Главная страница и навигация || 68 ||
-|| [[README || README.md]] || Главная страница и навигация || 74 ||
-|| [[README || README.md]] || Главная страница и навигация || 65 ||
-|| [[README || README.md]] || Главная страница и навигация || 68 ||
+|| [[README || README.md]] || Главная страница и навигация || 118 ||
 || [[README || README.md]] || Главная страница и навигация || 363 ||
-|| [[README || README.md]] || Главная страница и навигация || 263 ||
-|| [[README || README.md]] || Главная страница и навигация || 74 ||
+|| [[README || README.md]] || Главная страница и навигация || 299 ||
+|| [[README || README.md]] || Главная страница и навигация || 124 ||
 || [[README || README.md]] || Главная страница и навигация || 351 ||
-|| [[README || README.md]] || Главная страница и навигация || 60 ||
+|| [[README || README.md]] || Главная страница и навигация || 110 ||
+|| [[README || README.md]] || Главная страница и навигация || 132 ||
 || [[README || README.md]] || Главная страница и навигация || 82 ||
-|| [[README || README.md]] || Главная страница и навигация || 82 ||
-|| [[REGISTRY || REGISTRY.md]] || — || 1341 ||
-|| [[REPORT || REPORT.md]] || — || 939 ||
-|| [[RISK_REGISTER || RISK_REGISTER.md]] || — || 1074 ||
+|| [[REGISTRY || REGISTRY.md]] || — || 1445 ||
+|| [[REPORT || REPORT.md]] || — || 984 ||
+|| [[RISK_REGISTER || RISK_REGISTER.md]] || — || 977 ||
 || [[SCHEDULE || SCHEDULE.md]] || — || 374 ||
-|| [[SCORING || SCORING.md]] || — || 353 ||
-|| [[SCRIPTS_CATALOG || SCRIPTS_CATALOG.md]] || — || 7730 ||
+|| [[SCORING || SCORING.md]] || — || 407 ||
+|| [[SCRIPTS_CATALOG || SCRIPTS_CATALOG.md]] || — || 7748 ||
 || [[SCRIPT_EVAL_REPORT || SCRIPT_EVAL_REPORT.md]] || — || 2969 ||
-|| [[SEARCH || SEARCH.md]] || Поисковый индекс || 22769 ||
+|| [[SEARCH || SEARCH.md]] || Поисковый индекс || 23073 ||
 || [[SEARCH_RESULTS || SEARCH_RESULTS.md]] || — || 344 ||
 || [[SEE_ALSO || SEE_ALSO.md]] || — || 220 ||
 || [[SENTIMENT || SENTIMENT.md]] || — || 587 ||
-|| [[SENTINEL || SENTINEL.md]] || — || 342 ||
-|| [[SIMILAR || SIMILAR.md]] || Похожие документы (937 пар) || 258 ||
-|| [[SIMILAR || SIMILAR.md]] || Похожие документы (937 пар) || 252 ||
-|| [[SIMILAR_PASSAGES || SIMILAR_PASSAGES.md]] || — || 1829 ||
-|| [[SKILL_DASHBOARD || SKILL_DASHBOARD.md]] || — || 127 ||
-|| [[SOURCE_MAP || SOURCE_MAP.md]] || — || 12466 ||
-|| [[SPELLCHECK || SPELLCHECK.md]] || — || 395 ||
-|| [[STALENESS || STALENESS.md]] || — || 468 ||
+|| [[SENTINEL || SENTINEL.md]] || — || 350 ||
+|| [[SIMILAR || SIMILAR.md]] || Похожие документы (937 пар) || 270 ||
+|| [[SIMILAR || SIMILAR.md]] || Похожие документы (937 пар) || 280 ||
+|| [[SIMILAR_PASSAGES || SIMILAR_PASSAGES.md]] || — || 1570 ||
+|| [[SKILL_DASHBOARD || SKILL_DASHBOARD.md]] || — || 140 ||
+|| [[SOURCE_MAP || SOURCE_MAP.md]] || — || 12422 ||
+|| [[SPELLCHECK || SPELLCHECK.md]] || — || 402 ||
+|| [[STALENESS || STALENESS.md]] || — || 389 ||
 || [[STATS || STATS.md]] || Детальная статистика || 698 ||
-|| [[STATS || STATS.md]] || Детальная статистика || 787 ||
-|| [[SUMMARIES || SUMMARIES.md]] || — || 3863 ||
-|| [[TABLES || TABLES.md]] || — || 346254 ||
-|| [[TABLES || TABLES.md]] || — || 307990 ||
-|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 335 ||
-|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 315 ||
-|| [[TASKS_INDEX || TASKS_INDEX.md]] || — || 956 ||
-|| [[TECH_RADAR || TECH_RADAR.md]] || — || 675 ||
-|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4784 ||
-|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4784 ||
-|| [[TOPIC_MODEL || TOPIC_MODEL.md]] || — || 1102 ||
+|| [[STATS || STATS.md]] || Детальная статистика || 803 ||
+|| [[SUMMARIES || SUMMARIES.md]] || — || 5461 ||
+|| [[TABLES || TABLES.md]] || — || 328225 ||
+|| [[TABLES || TABLES.md]] || — || 328224 ||
+|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 215 ||
+|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 211 ||
+|| [[TASKS_INDEX || TASKS_INDEX.md]] || — || 1090 ||
+|| [[TECH_RADAR || TECH_RADAR.md]] || — || 652 ||
+|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4832 ||
+|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4832 ||
+|| [[TOPIC_MODEL || TOPIC_MODEL.md]] || — || 1103 ||
 || [[VALIDATION || VALIDATION.md]] || — || 254 ||
-|| [[VERSION_DIFF || VERSION_DIFF.md]] || — || 20626 ||
-|| [[VOCABULARY || VOCABULARY.md]] || — || 1052 ||
+|| [[VERSION_DIFF || VERSION_DIFF.md]] || — || 9658 ||
+|| [[VOCABULARY || VOCABULARY.md]] || — || 1022 ||
 || [[WORD_CLOUD || WORD_CLOUD.md]] || — || 162 ||
-|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3325 ||
-|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3304 ||
+|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3324 ||
+|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3321 ||
 || [[reading-paths || reading-paths.md]] || — || 692 ||
 
 h2. Svyazi 2.0 — Архитектура системы
@@ -587,7 +582,7 @@ _{{docs/ai-collaborations/}} — 23 файлов_
 || 1 || [[01-three-key-candidates || Три ключевых кандидата: K2-18, Wikontic, NGT Memor]] || 437 ||
 || 2 || [[02-related-projects-context || Смежные проекты в контексте]] || 351 ||
 || 3 || [[03-synthesis-hebbian-collaboration-graph || Синтез: хеббовский граф людей-навыков-идей]] || 351 ||
-|| 4 || [[01-shared-memory-between-agents || Общая память между агентами (CoAlly + ансамбль F)]] || 506 ||
+|| 4 || [[01-shared-memory-between-agents || Общая память между агентами (CoAlly + ансамбль F)]] || 519 ||
 || 5 || [[02-agentops-trace-envelope || AgentOps и Trace Envelope (ансамбль G)]] || 482 ||
 || 6 || [[03-a2a-vs-mcp-protocols || A2A vs MCP, ансамбль H — MCP/A2A Review Fabric]] || 424 ||
 || 7 || [[04-memory-firewall-vs-prompt-worms || Memory Firewall против prompt worms (ансамбль I)]] || 351 ||
@@ -597,7 +592,7 @@ _{{docs/ai-collaborations/}} — 23 файлов_
 || 11 || [[08-commercialization-three-paths || Коммерциализация: три направления]] || 351 ||
 || 12 || [[09-do-not-glue || Что пока не стоит склеивать в один релиз]] || 352 ||
 || 13 || [[10-architecture-rfc || Следующий артефакт: Svyazi 2.0 Architecture RFC]] || 354 ||
-|| 14 || [[1-agentic-knowledge-os || Ансамбль 1 — Agentic Knowledge OS]] || 511 ||
+|| 14 || [[1-agentic-knowledge-os || Ансамбль 1 — Agentic Knowledge OS]] || 524 ||
 || 15 || [[2-distributed-agent-workshop || Ансамбль 2 — Distributed Agent Workshop]] || 491 ||
 || 16 || [[3-forensic-rag || Ансамбль 3 — Forensic RAG]] || 491 ||
 || 17 || [[4-web-to-knowledge-pipeline || Ансамбль 4 — Web-to-Knowledge Pipeline]] || 411 ||
@@ -717,7 +712,7 @@ h2. habr-unique-projects
 _{{docs/habr-unique-projects/}} — 46 файлов_
 
 || # || Документ || Слов ||
-|| 1 || [[01-three-direct-analogues || Три прямых аналога Svyazi: K2-18, Wikontic, NGT Me]] || 503 ||
+|| 1 || [[01-three-direct-analogues || Три прямых аналога Svyazi: K2-18, Wikontic, NGT Me]] || 523 ||
 || 2 || [[02-related-projects || Смежные проекты]] || 450 ||
 || 3 || [[1-llm-gateway || Пара 1 — LLM-gateway × Self-hosted фронт + локальн]] || 386 ||
 || 4 || [[2-document-rag || Пара 2 — Парсинг документов × локальный RAG]] || 437 ||
@@ -812,7 +807,7 @@ _{{docs/lorenzo-agent/}} — 55 файлов_
 || 27 || [[01-pluses-1-7 || Плюсы 1–7: feasibility, flywheel, independent valu]] || 589 ||
 || 28 || [[02-minuses-1-10 || Минусы 1–10: integration сложность, lifecycle risk]] || 825 ||
 || 29 || [[03-honest-opinion || Моё честное мнение: что реально и что НЕ реально]] || 348 ||
-|| 30 || [[04-recommendations || Рекомендации: принять архитектуру как direction, н]] || 514 ||
+|| 30 || [[04-recommendations || Рекомендации: принять архитектуру как direction, н]] || 527 ||
 || 31 || [[05-anchor-node-habr-scout || Anchor-узел: Habr Scout как первый шаг]] || 676 ||
 || 32 || [[06-conclusion-deserves-attention || Вывод: документ deserves serious attention]] || 642 ||
 || 33 || [[00-overview || Поэтапная структура активностей Lorenzo — обзор]] || 347 ||
@@ -842,7 +837,7 @@ _{{docs/meta-scripting/}} — 5 файлов_
 || # || Документ || Слов ||
 || 1 || [[01-concept || Метаскриптинг — Часть 1: Концепция]] || 599 ||
 || 2 || [[02-architecture || Метаскриптинг — Часть 2: Архитектура]] || 662 ||
-|| 3 || [[03-catalog || Метаскриптинг — Часть 3: Автокаталог скриптов]] || 511 ||
+|| 3 || [[03-catalog || Метаскриптинг — Часть 3: Автокаталог скриптов]] || 547 ||
 || 4 || [[04-enrichment || Метаскриптинг — Часть 4: Обогащение скриптов]] || 656 ||
 || 5 || [[05-synthesis || Метаскриптинг — Часть 5: Синтез новых скриптов]] || 615 ||
 
@@ -1114,13 +1109,3 @@ _{{docs/templates/}} — 23 файлов_
 || 21 || [Tech Radar: [Название]](templates/tech-radar-entry.md) || 363 ||
 || 22 || [[имя нового шаблона]](templates/template-of-templates.md) || 382 ||
 || 23 || [Еженедельный дайджест: [период]](templates/weekly-digest.md) || 367 ||
-
-
-
-----
-
-_Похожие документы:_
-* [[SITEMAP]] (сходство 0.96)
-* [[SEARCH]] (сходство 0.50)
-* [[READABILITY]] (сходство 0.49)
-

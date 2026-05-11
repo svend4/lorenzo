@@ -12,10 +12,10 @@ date: 2026-05-11
 ## Содержание
 
 - [[agent-spec|agent-spec.md]] — ---
-- [[contact-outreach|contact-outreach.md]] — > [!NOTE]
+- [[contact-outreach|contact-outreach.md]] — <!-- summary: Шаблон для связи с автором X -->
 - [[contradiction-record|contradiction-record.md]] — ---
-- [[decision-record|decision-record.md]] — > [!NOTE]
-- [[ensemble|ensemble.md]] — > [!NOTE]
+- [[decision-record|decision-record.md]] — <!-- summary: Решение о X -->
+- [[ensemble|ensemble.md]] — <!-- summary: Ансамбль из X компонентов для Y задачи -->
 - [[experiment-log|experiment-log.md]] — ---
 - [[faq-entry|faq-entry.md]] — ---
 - [[glossary-entry|glossary-entry.md]] — ---
@@ -23,10 +23,10 @@ date: 2026-05-11
 - [[legal-case|legal-case.md]] — ---
 - [[meeting-notes|meeting-notes.md]] — ---
 - [[mega-stack|mega-stack.md]] — ---
-- [[project-component|project-component.md]] — > [!NOTE]
+- [[project-component|project-component.md]] — <!-- summary: Краткое описание в 1-2 предложениях -->
 - [[protocol-spec|protocol-spec.md]] — ---
 - [[prototype-mvp|prototype-mvp.md]] — ---
-- [[research-note|research-note.md]] — > [!NOTE]
+- [[research-note|research-note.md]] — <!-- summary: Краткий итог исследования -->
 - [[retrospective|retrospective.md]] — ---
 - [[rfc|rfc.md]] — ---
 - [[risk-entry|risk-entry.md]] — ---
@@ -43,7 +43,7 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (29):**
+**Кто ссылается на этот документ (24):**
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
@@ -51,16 +51,6 @@ date: 2026-05-11
 - [[TABLES]]
 - [[research-summary]]
 - [[agent-spec]]
-- [[contact-outreach]]
-- _...ещё 21_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[README]] (сходство 0.88)
-- [[README]] (сходство 0.23)
-- [[README]] (сходство 0.22)
+- [[contradiction-record]]
+- _...ещё 16_
 

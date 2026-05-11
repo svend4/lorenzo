@@ -262,3 +262,14 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [[README]] (сходство 0.25)
 - [[README]] (сходство 0.25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CHANGELOG_AUTO]]
+- [[INDEX]]
+- [[DIGEST_WEEKLY]]
+- [[STALENESS]]
+

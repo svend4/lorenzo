@@ -471,3 +471,14 @@ python scripts/improve_contradictions.py
 - [[SIMILAR_PASSAGES]] (сходство 0.19)
 - [[SIMILAR_PASSAGES]] (сходство 0.19)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SIMILAR_PASSAGES]]
+- [[DIGEST_WEEKLY]]
+- [[TOPIC_MODEL]]
+- [[08-conclusions]]
+

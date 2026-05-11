@@ -99,3 +99,16 @@ python scripts/improve_sentinel_check.py --section 05-habr-projects
 - [BROKEN_LINKS](BROKEN_LINKS.md)
 - [security-routing-plane](svyazi-2-0/components/security-routing-plane.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [DEMO](DEMO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

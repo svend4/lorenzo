@@ -9,11 +9,6 @@ date: 2026-05-11
 
 # ADR: [Название решения]
 
-> [!NOTE]
-> Раздел `decision-record` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -62,21 +57,4 @@ _Дата: 2026-05-11_
 - [[contradiction-record]]
 - [[experiment-log]]
 - _...ещё 6_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_decision_record.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[decision-record]] (сходство 0.95)
-- [[ensemble]] (сходство 0.30)
-- [[ensemble]] (сходство 0.30)
 

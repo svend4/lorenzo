@@ -1,5 +1,44 @@
 # Тематические пробелы (Content Gaps)
 
+<!-- summary -->
+> Найдено пробелов: **916** (мин. упоминаний: 3)
+**Проекты:** Svyazi
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Рекомендуется создать документы](#рекомендуется-создать-документы)
+- [Детали по топ-20 пробелам](#детали-по-топ-20-пробелам)
+  - [`MHTML` (1016 файлов)](#mhtml-1016-файлов)
+  - [`NPP` (155 файлов)](#npp-155-файлов)
+  - [`GDPR` (125 файлов)](#gdpr-125-файлов)
+  - [`MUST` (112 файлов)](#must-112-файлов)
+  - [`BSL` (96 файлов)](#bsl-96-файлов)
+  - [`HEALTH` (89 файлов)](#health-89-файлов)
+  - [`PDF` (80 файлов)](#pdf-80-файлов)
+  - [`SHOULD` (80 файлов)](#should-80-файлов)
+  - [`IDF` (76 файлов)](#idf-76-файлов)
+  - [`PII` (70 файлов)](#pii-70-файлов)
+  - [`XII` (63 файлов)](#xii-63-файлов)
+  - [`BSG` (60 файлов)](#bsg-60-файлов)
+  - [`AIF` (58 файлов)](#aif-58-файлов)
+  - [`URL` (58 файлов)](#url-58-файлов)
+  - [`KSV` (54 файлов)](#ksv-54-файлов)
+  - [`LinkedIn` (52 файлов)](#linkedin-52-файлов)
+  - [`MAY` (52 файлов)](#may-52-файлов)
+  - [`RSS` (52 файлов)](#rss-52-файлов)
+  - [`YiJing` (48 файлов)](#yijing-48-файлов)
+  - [`HMP` (48 файлов)](#hmp-48-файлов)
+
+---
+
+<!-- tags: orchestration, security, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-11_
 
 Найдено пробелов: **916** (мин. упоминаний: 3)
@@ -313,4 +352,19 @@ _Обновлено: 2026-05-11_
 - [CODE_BLOCKS](CODE_BLOCKS.md)
 - [READING_ORDER](READING_ORDER.md)
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [TABLES](TABLES.md)
 

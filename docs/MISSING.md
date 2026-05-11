@@ -1,5 +1,15 @@
 # Карта пробелов знаний
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement -->
+
+
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -54,4 +64,20 @@
 - [TAGS](TAGS.md)
 - [ENTITIES](ENTITIES.md)
 - [GLOSSARY](GLOSSARY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [README](04-ai-collaborations/README.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [DENSITY](DENSITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 5_
 

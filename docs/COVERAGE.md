@@ -1,10 +1,5 @@
 # Матрица покрытия документов
 
-> [!NOTE]
-> Раздел `COVERAGE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > Условные обозначения: ✅ есть  ⬜ отсутствует
 **Проекты:** Svyazi
@@ -70,25 +65,4 @@ python scripts/improve_autofill.py
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [COVERAGE](obsidian/COVERAGE.md) (сходство 0.97)
-- [HEATMAP](obsidian/HEATMAP.md) (сходство 0.27)
-- [README](svyazi-2-0/overview/README.md) (сходство 0.27)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [SCORING](SCORING.md)
-- [WORD_CLOUD](WORD_CLOUD.md)
 

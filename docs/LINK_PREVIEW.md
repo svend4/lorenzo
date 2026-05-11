@@ -1,5 +1,15 @@
 # Статус внешних ссылок
 
+<!-- summary -->
+> Всего URL: **466** | ✅ Работают: **189** | 🔄 Редиректы: **0** | ❌ Недоступны: **277**
+**Проекты:** AgentFS, knowledge-space, Yodoca, MemNet
+
+---
+<!-- tags: memory, rag, orchestration, knowledge, architecture, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-11_
 
 Всего URL: **466** | ✅ Работают: **189** | 🔄 Редиректы: **0** | ❌ Недоступны: **277**
@@ -350,4 +360,19 @@ _Обновлено: 2026-05-11_
 - [CITATION_INDEX](CITATION_INDEX.md)
 - [CONTACTS](CONTACTS.md)
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

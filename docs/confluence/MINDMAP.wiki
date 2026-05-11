@@ -6,13 +6,6 @@
 h1. Майндмап репозитория Lorenzo
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{MINDMAP}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
 {quote}knowledge-space[knowledge-space]{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
@@ -145,14 +138,4 @@ _Кто ссылается на этот документ (9):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
-
-
-
-
-----
-
-_Похожие документы:_
-* [MINDMAP|obsidian/MINDMAP.md] (сходство 0.94)
-* [GRAPH|GRAPH.md] (сходство 0.49)
-* [GRAPH|obsidian/GRAPH.md] (сходство 0.47)
 

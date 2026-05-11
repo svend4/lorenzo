@@ -5,6 +5,16 @@
 
 h1. Словарь аббревиатур и сокращений
 
+
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+_Проекты:_ SENTINEL, LiteLLM, Auto AI Router
+
+----
+
+
+
+
+
 {quote}[!TIP]{quote}
 {quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
@@ -156,3 +166,30 @@ h2. Самые часто используемые
 || **RU** || 1077 — _«был создан», «является», «используется», «осуществляется» -_ ||
 || **MIT** || 972 — _Massachusetts Institute of Technology License — разрешительн_ ||
 || **MVP** || 883 — _Minimum Viable Product — минимально жизнеспособный продукт_ ||
+
+
+
+----
+
+_Смотрите также:_
+* [SITEMAP|SITEMAP.md]
+* [TABLES|TABLES.md]
+* [VERSION_DIFF|VERSION_DIFF.md]
+* [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [03-карта-найденных-проектов-и-паттернов|04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 2_
+

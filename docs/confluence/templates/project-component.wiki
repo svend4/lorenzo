@@ -5,11 +5,6 @@
 
 h1. [Название компонента]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{project-component}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -57,21 +52,4 @@ _Кто ссылается на этот документ (10):_
 * [README|README.md]
 * [agent-spec|agent-spec.md]
 * _...ещё 2_
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_project_component.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [project-component|../obsidian/templates/project-component.md] (сходство 0.95)
-* [contact-outreach|contact-outreach.md] (сходство 0.32)
-* [ensemble|ensemble.md] (сходство 0.32)
 

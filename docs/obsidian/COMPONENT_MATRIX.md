@@ -140,3 +140,14 @@ python scripts/improve_component_matrix.py
 - [[DENSITY]] (сходство 0.27)
 - [[DENSITY]] (сходство 0.27)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_WEEKLY]]
+- [[TECH_RADAR]]
+- [[CONCEPT_GRAPH]]
+- [[CROSS_SECTION]]
+

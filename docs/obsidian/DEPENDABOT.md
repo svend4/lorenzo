@@ -78,3 +78,14 @@ python scripts/improve_dependabot.py --check-pypi
 - [[README]] (сходство 0.31)
 - [[README]] (сходство 0.29)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONTACT_PRIORITY]]
+- [[WORD_CLOUD]]
+- [[SCHEDULE]]
+- [[CONCEPT_GRAPH]]
+

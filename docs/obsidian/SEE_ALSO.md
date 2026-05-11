@@ -7,13 +7,8 @@ date: 2026-05-11
 
 # Индекс «Смотрите также»
 
-> [!NOTE]
-> Раздел `SEE_ALSO` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> **Файлов с блоком See Also:** 1140
+> **Файлов с блоком See Also:** 1133
 **Проекты:** Svyazi
 
 ---
@@ -22,7 +17,7 @@ date: 2026-05-11
 
 
 
-**Файлов с блоком See Also:** 1140
+**Файлов с блоком See Also:** 1133
 
 ## Ключевые связи
 
@@ -33,17 +28,17 @@ date: 2026-05-11
 - [[04-ensembles-overview]] → [[04-приоритетные-ансамбли]], [[D-voice-first-mesh]], [[C-multi-agent-factory]], [[A-collaboration-os]]
 - [[06-security-privacy]] → [[06-безопасность-приватность-и-бюджетный-роутинг]], [[default-policy]], [[budget-routing]], [[07-mvp-planning]]
 - [[07-mvp-planning]] → [[09-architectural-gaps]], [[11-integration-contracts]], [[12-roadmap]]
-- [[08-conclusions]] → [[07-выводы]], [[conclusions]], [[01-executive-summary]], [[SIMILAR_PASSAGES]]
+- [[08-conclusions]] → [[07-выводы]], [[conclusions]], [[01-executive-summary]], [[08-что-это-продолжение-добавляет]]
 - [[09-architectural-gaps]] → [[11-integration-contracts]], [[06-security-privacy]], [[07-mvp-planning]]
 - [[10-second-order-ensembles]] → [[10-новые-ансамбли-следующего-шага]], [[G-federated-local-graph]], [[F-evidence-backed-intake]], [[H-research-to-product-flywheel]]
 - [[11-integration-contracts]] → [[11-интеграционный-контракт-который-стоит-зафиксироват]], [[integration-spec]], [[09-архитектурные-зазоры-которые-важнее-новых-инструме]], [[09-architectural-gaps]]
 - [[12-roadmap]] → [[12-дорожная-карта-прототипа-следующей-итерации]], [[roadmap]], [[14-limitations]], [[08-conclusions]]
 - [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[CONTACTS]], [[07-mvp-planning]]
 - [[14-limitations]] → [[do-not-glue]], [[conclusions]], [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]], [[license-tree]]
-- [[QA]] → [[KNOWLEDGE_MAP]], [[CONCEPT_GRAPH]], [[review-record]], [[SEARCH_RESULTS]]
+- [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[CONCEPT_GRAPH]]
 - [[00-intro]] → [[288-appendix-position-in-series-visualization]], [[12-blagodarnosti-ssylki]], [[188-ai-опосредованное-представительство-для-недопредст]], [[11-dhlab-documents]]
 - [[01-интегральный-анализ-профиля-svend4]] → [[00-question-innovations-transitions]], [[CONCEPTS]], [[TABLES]], [[ACTION_ITEMS]]
-- [[02-общий-план-развития-nautilus-portal-protocol]] → [[67-о-проекте]], [[TIMELINE]], [[22-glossary]], [[133-обратная-связь]]
+- [[02-общий-план-развития-nautilus-portal-protocol]] → [[SUMMARIES]], [[67-о-проекте]], [[TIMELINE]], [[22-glossary]]
 - [[03-portal-protocol-md]] → [[73-portal-protocol-md-v1-1]], [[152-ai-coordinated-infrastructure-for-distributed-expe]], [[35-passports-info1-md]], [[105-review-methodology-md]]
 - [[04-abstract]] → [[74-abstract]], [[00-abstract-status]], [[05-0-status-of-this-document]], [[70-зачем-две-версии-параллельно]]
 - [[05-0-status-of-this-document]] → [[75-0-status-of-this-document]], [[42-author-contact]], [[25-13-reference-implementation]], [[24-12-versioning-policy]]
@@ -61,31 +56,14 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (13):**
 - [[04-abstract]]
 - [[70-зачем-две-версии-параллельно]]
+- [[KNOWLEDGE_MAP]]
+- [[NAMED_ENTITIES]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
-- [[SEARCH]]
-- [[TABLES]]
-- _...ещё 1_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_see_also.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[SEE_ALSO]] (сходство 0.95)
-- [[BACKLINKS]] (сходство 0.27)
-- [[BACKLINKS]] (сходство 0.26)
+- _...ещё 5_
 

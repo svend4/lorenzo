@@ -6,11 +6,21 @@
 ----
 title: "Callout-блоки"
 tags:
+  * ingestion
   * general
 date: 2026-05-11
 ----
 
 h1. Callout-блоки
+
+
+{quote}Добавлено _25_ callout-блоков в документы.{quote}
+
+----
+
+
+
+
 
 Добавлено _25_ callout-блоков в документы.
 
@@ -37,3 +47,19 @@ h2. Пример синтаксиса
 {code}
 
 _Поддерживается в GitHub Markdown с 2023 года._
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[DIGEST_AUTO]]
+* [[EMPTY_SECTIONS]]
+* [[INDEX]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_LIST]]
+* [[READING_TIME]]
+* [[README]]
+* _...ещё 2_
+

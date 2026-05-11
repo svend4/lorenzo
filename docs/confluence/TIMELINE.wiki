@@ -5,10 +5,10 @@
 
 h1. Хронология и временные маркеры
 
-Всего временных меток: _15505_
+Всего временных меток: _15423_
 
 
-h2. Точная дата (9624)
+h2. Точная дата (9576)
 
 || Маркер || Контекст || Файл ||
 || `2026-04-19` || pendix-b-change-log) - v1.1.0-draft (2026-04-19) - [v1.0.0-draft (2026-04 earlie || `02-anthropic-vacancies/103-appendix-b-change-log.md` ||
@@ -41,9 +41,9 @@ h2. Точная дата (9624)
 || `2026-04-26` || 026 **Version:** 1.0.0-draft **Date:** 2026-04-26 **Author:** svend4 **Editorial collaboration:** Claude **Li || `02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` ||
 || `2026-04-26` || а **Версия:** 1.0.0-черновик **Дата:** 2026-04-26 **Автор:** svend4 **Редакторская работа:** Claude **Лицензи || `02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md` ||
 || `2026-04-19` || review:** Claude (ассистирующий анализ, 2026-04-19) **Previous version:** [PORTAL-PROTOCOL.md v1.0](https:// || `02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` ||
-|| ... || _ещё 9594 записей_ ||  ||
+|| ... || _ещё 9546 записей_ ||  ||
 
-h2. Год (418)
+h2. Год (440)
 
 || Маркер || Контекст || Файл ||
 || `2026 год` || стыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0**: || `01-svyazi/01-executive-summary.md` ||
@@ -68,15 +68,15 @@ h2. Год (418)
 || `2024 год` || «это решение 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о || `05-habr-projects/memory/memnet.md` ||
 || `2024 год` || 00-intro_ - 2019 года, после изменений 2024 года применяется иначе»); _→ 00-intro_ - Record (ADR): конт || `ACTION_ITEMS.md` ||
 || `2026 год` || ates / / `март 2026` / 7 / dates / / `в 2026 году` / 7 / dates / / `марта 2026` / 6 / dates / / `апреле 2026 || `NAMED_ENTITIES.md` ||
-|| `2026 год` || оторые не т [Статус] - Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных р || `QUESTIONS.md` ||
 || `2026 год` || стыковать, то на Хабре за первые месяцы 2026 года уже слож… - 02-methodology.md 02-methodology.md — Поиск вё || `SUMMARIES.md` ||
-|| `2026 год` || tes / / `2026-04-26` / 8 / dates / / `в 2026 году` / 7 / dates / / `марта 2026` / 6 / dates / / `март 2026` || `TABLES.md` ||
+|| `2026 год` || ates / / `март 2026` / 7 / dates / / `в 2026 году` / 7 / dates / / `марта 2026` / 6 / dates / / `апреле 2026 || `TABLES.md` ||
 || `2025 год` || ic-vacancies/203-благодарности.md` / / `2025 год` / Кириллом Дьологом сервис «Обучай» летом 2025 года. К апр || `TABLES.md` ||
 || `2027 год` || ic-vacancies/244-благодарности.md` / / `2027 год` / к функциональности Projects через 2026-2027 годы. **GitH || `TABLES.md` ||
 || `2024 год` || anthropic-vacancies/69-section.md` / / `2024 год` / «это решение 2019 года, после изменений 2024 года примен || `TABLES.md` ||
 || `2026 год` || гим агентом”. Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с бо || `ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` ||
 || `2026 год` || arch + model routing. Статья про SVM в 2026 году даёт важный анти-хайповый кубик: для персонализированных р || `ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md` ||
-|| ... || _ещё 388 записей_ ||  ||
+|| `2026 год` || от Nous Research, выпущенный 25 февраля 2026 года, MIT лицензия. К 23 апреля 2026 (несколько дней назад) — в || `anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md` ||
+|| ... || _ещё 410 записей_ ||  ||
 
 h2. Квартал (130)
 
@@ -84,13 +84,13 @@ h2. Квартал (130)
 || `Q1 2026` || dates / / `2026-04-22` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / || `NAMED_ENTITIES.md` ||
 || `Q2 2024` || dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `феврале 20 || `NAMED_ENTITIES.md` ||
 || `Q2 2024` || Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - || `SCRIPTS_CATALOG.md` ||
-|| `Q1 2026` || tes / / `феврале 2025` / 3 / dates / / `Q1 2026` / 3 / dates / / `февраля 2026` / 3 / dates / / `май 2025` || `TABLES.md` ||
-|| `Q2 2024` || dates / / `март 2024` / 2 / dates / / `Q2 2024` / 2 / dates / / `май 2026` / 2 / dates / / `2025-11-12` / || `TABLES.md` ||
+|| `Q1 2026` || dates / / `2026-04-22` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / || `TABLES.md` ||
+|| `Q2 2024` || dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `феврале 20 || `TABLES.md` ||
 || `Q1 2026` || dates / / `2026-04-22` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / || `obsidian/NAMED_ENTITIES.md` ||
 || `Q2 2024` || dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `феврале 20 || `obsidian/NAMED_ENTITIES.md` ||
 || `Q2 2024` || Конкретные даты: 2024-03-15, март 2024, Q2 2024 - Относительные: «через 3 месяца», «в следующем квартале» - || `obsidian/SCRIPTS_CATALOG.md` ||
-|| `Q1 2026` || tes / / `феврале 2025` / 3 / dates / / `Q1 2026` / 3 / dates / / `февраля 2026` / 3 / dates / / `май 2025` || `obsidian/TABLES.md` ||
-|| `Q2 2024` || dates / / `март 2024` / 2 / dates / / `Q2 2024` / 2 / dates / / `май 2026` / 2 / dates / / `2025-11-12` / || `obsidian/TABLES.md` ||
+|| `Q1 2026` || dates / / `2026-04-22` / 4 / dates / / `Q1 2026` / 4 / dates / / `декабрь 2024` / 3 / dates / / `2024-01` / || `obsidian/TABLES.md` ||
+|| `Q2 2024` || dates / / `2024-03-15` / 3 / dates / / `Q2 2024` / 3 / dates / / `февраля 2026` / 3 / dates / / `феврале 20 || `obsidian/TABLES.md` ||
 || `Q1 2026` || on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p || `obsidian/processing-guide/05-analysis.md` ||
 || `Q1 2026` || on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p || `obsidian/processing-guide/PROCESSING_GUIDE.md` ||
 || `Q1 2026` || on, SQLite, MCP, BM25 - **Даты:** 2024, Q1 2026, апрель 2026 - **URL:** github.com/…, habr.com/… ```bash p || `processing-guide/05-analysis.md` ||
@@ -131,7 +131,7 @@ h2. Месяц+год (737)
 || `декабрь 2025` || summary --> > **Создан:** [? уточнить — декабрь 2025, если совпадает с волной --- <!-- tags: memory, anthropic, || `02-anthropic-vacancies/43-history.md` ||
 || ... || _ещё 707 записей_ ||  ||
 
-h2. Период (110)
+h2. Период (122)
 
 || Маркер || Контекст || Файл ||
 || `первые месяцы 2026` || ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 || `01-svyazi/01-executive-summary.md` ||
@@ -147,7 +147,7 @@ h2. Период (110)
 || `первые месяцы 2026` || ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 || `obsidian/svyazi-2-0/overview/executive-summary.md` ||
 || `первые месяцы 2026` || ак их можно состыковать, то на Хабре за первые месяцы 2026 года уже сложился почти полный конструктор для **Svyazi‑2.0 || `svyazi-2-0/overview/executive-summary.md` ||
 
-h2. Фаза (1252)
+h2. Фаза (1220)
 
 || Маркер || Контекст || Файл ||
 || `Фаза 1` || еет smoke-test: завершена или нет. #### Фаза 1 — Спецификация (неделя 1) Deliverables: - PORTAL-PROTOCOL.m || `02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` ||
@@ -180,9 +180,9 @@ h2. Фаза (1252)
 || `Phase 0` || ](#9-phased-rollout-strategy) - [9.1. Phase 0 — Foundation (Months 1-12)](#91-phase-0-foundation-months-1 || `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` ||
 || `Phase 1` || ase-0-foundation-months-1-12) - [9.2. Phase 1 — Single Domain Maturation (Year 2)](#92-phase-1-single-dom || `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` ||
 || `Phase 2` || gle-domain-maturation-year-2) - [9.3. Phase 2 — Domain Expansion (Years 3-4)](#93-phase-2-domain-expansio || `02-anthropic-vacancies/178-9-phased-rollout-strategy.md` ||
-|| ... || _ещё 1222 записей_ ||  ||
+|| ... || _ещё 1190 записей_ ||  ||
 
-h2. Длительность (863)
+h2. Длительность (845)
 
 || Маркер || Контекст || Файл ||
 || `2–3 дня` || uth и трассируемый lifecycle карточки / 2–3 дня / / Ingest и память / LLM[^llm] extraction + нормализация + || `01-svyazi/07-mvp-planning.md` ||
@@ -215,9 +215,9 @@ h2. Длительность (863)
 || `6-12 месяце` || end, AI integration, design, product) - 6-12 месяцев до viable MVP - $500K-1.5M первого года - И главное — clea || `02-anthropic-vacancies/272-appendix-d-connection-diagram.md` ||
 || `1-2 недели` || уже это позволяют (нужно проверить), то 1-2 недели для создания template. > 🔧 **Подход:** Часть 2 (Project Man || `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` ||
 || `10-16 месяце` || ompose, документацию, план реализации в 10-16 месяцев, technological stack уже выбран (Python 3.11, FastAPI, pyg || `02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` ||
-|| ... || _ещё 833 записей_ ||  ||
+|| ... || _ещё 815 записей_ ||  ||
 
-h2. Версия (2371)
+h2. Версия (2353)
 
 || Маркер || Контекст || Файл ||
 || `версия 0.1.5` || 3view4turn27view0 / Рабочий прототип, версия 0.1.5; “рабочая, но не финальная”. citeturn33view7 / **Очень в || `01-svyazi/03-component-catalog.md` ||
@@ -250,20 +250,20 @@ h2. Версия (2371)
 || `v1.1` || -b-change-log.md) - PORTAL-PROTOCOL.md v1.1 - [README-MCP.md— инструкци || `02-anthropic-vacancies/105-review-methodology-md.md` ||
 || `v3.0` || l header 7. Добавить changelog-запись: «v3.0 consolidated from A (branch X) and B (branch Y) on YYYY || `02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` ||
 || `v1.1` || еграция с Nautilus Portal Protocol NPP v1.1 §17.3 «Breaking Changes Process» упоминает RFC-процесс для || `02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` ||
-|| ... || _ещё 2341 записей_ ||  ||
+|| ... || _ещё 2323 записей_ ||  ||
 
 
 
 ----
 
-_Кто ссылается на этот документ (21):_
+_Кто ссылается на этот документ (19):_
 * [03-component-catalog|01-svyazi/03-component-catalog.md]
 * [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]
 * [24-12-versioning-policy|02-anthropic-vacancies/24-12-versioning-policy.md]
 * [34-appendix-b-change-log|02-anthropic-vacancies/34-appendix-b-change-log.md]
 * [64-for-the-curious-philosophy|02-anthropic-vacancies/64-for-the-curious-philosophy.md]
-* [ACTION_ITEMS|ACTION_ITEMS.md]
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
 * [HEADING_AUDIT|HEADING_AUDIT.md]
-* _...ещё 13_
+* [KPI|KPI.md]
+* _...ещё 11_
 

@@ -509,3 +509,14 @@ python scripts/improve_named_entities.py
 - [[BACKLINKS]] (сходство 0.25)
 - [[SEE_ALSO]] (сходство 0.25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_WEEKLY]]
+- [[CITATION_INDEX]]
+- [[COMPARE]]
+- [[KEYWORD_INDEX]]
+

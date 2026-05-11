@@ -2618,3 +2618,14 @@ python scripts/improve_reading_time.py --dry-run
 - [[READING_TIME]] (сходство 0.97)
 - [[SEARCH]] (сходство 0.96)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[READABILITY]]
+- [[SEARCH]]
+- [[SOURCE_MAP]]
+- [[LANGUAGE_STATS]]
+

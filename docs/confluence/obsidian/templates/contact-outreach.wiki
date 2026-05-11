@@ -14,11 +14,6 @@ date: 2026-05-11
 
 h1. Контакт: [Имя / Проект]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{contact-outreach}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -63,23 +58,14 @@ _Создано: 2026-05-11_
 
 ----
 
-_Кто ссылается на этот документ (8):_
+_Кто ссылается на этот документ (9):_
 * [[READABILITY]]
+* [[READING_TIME]]
 * [[REGISTRY]]
 * [[SEARCH]]
 * [[TABLES]]
 * [[TASKS_INDEX]]
 * [[research-summary]]
 * [[README]]
-* [[meeting-notes]]
-
-
-
-
-----
-
-_Похожие документы:_
-* [[contact-outreach]] (сходство 0.94)
-* [[tagir-analyzes]] (сходство 0.40)
-* [[tagir-analyzes]] (сходство 0.40)
+* _...ещё 1_
 

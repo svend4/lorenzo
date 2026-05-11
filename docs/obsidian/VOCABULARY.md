@@ -164,3 +164,14 @@ python scripts/improve_vocabulary.py
 - [[COMPLEXITY]] (сходство 0.22)
 - [[COMPLEXITY]] (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[PASSIVE_VOICE]]
+- [[CONCEPT_GRAPH]]
+- [[KEYWORD_INDEX]]
+- [[CITATION_INDEX]]
+

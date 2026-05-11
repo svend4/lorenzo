@@ -6,16 +6,13 @@
 h1. Прогресс MVP
 
 
+{quote}_Обновлено: 2026-05-11 (improve_progress_sync.py)_{quote}
+_Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{PROGRESS}} формируется автоматически из данных репозитория.{quote}
-
-
-
+----
 
 
 
-{quote}{{PROGRESS}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
@@ -42,7 +39,7 @@ h2. Состояние компонентов
 || Контакты авторов || ⚠️ 16 файлов, не отправлено || 16 файлов в docs/contacts/ ||
 || LLM-обогащение || ⬜ не запущено || pip install anthropic && python scripts/improve_llm_enrich.py ||
 || Скрипты обработки || ✅ 166 скриптов || 5 LLM-скриптов, MCP=✅ ||
-|| DIGEST.md || ✅ 5 секций || python scripts/improve_llm_summary.py ||
+|| DIGEST.md || ✅ 4 секций || python scripts/improve_llm_summary.py ||
 || Claude Skills || ✅ 28 скиллов || track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine ||
 
 h2. Метрики качества
@@ -50,7 +47,7 @@ h2. Метрики качества
 || Метрика || Балл || Статус ||
 || Здоровье репо (HEALTH) || 100.0/100 || 🟢 ||
 || Качество доков (METRICS) || 95.9/100 || 🟢 ||
-|| Go/No-Go (SCORING) || 100.0/100 || 🟢 ||
+|| Go/No-Go (SCORING) || 96.0/100 || 🟢 ||
 
 h2. Следующий шаг
 
@@ -82,10 +79,6 @@ h2. Связанные документы
 
 
 
-
-
-
-
 ----
 
 _Кто ссылается на этот документ (11):_
@@ -98,14 +91,4 @@ _Кто ссылается на этот документ (11):_
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * _...ещё 3_
-
-
-
-
-----
-
-_Похожие документы:_
-* [PROGRESS|obsidian/PROGRESS.md] (сходство 0.97)
-* [KEYWORD_INDEX|obsidian/KEYWORD_INDEX.md] (сходство 0.22)
-* [KEYWORD_INDEX|KEYWORD_INDEX.md] (сходство 0.20)
 

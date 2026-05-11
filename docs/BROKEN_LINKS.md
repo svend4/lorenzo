@@ -1,5 +1,17 @@
 # Сломанные внутренние ссылки
 
+<!-- toc -->
+## Содержание
+
+- [Содержание](#содержание)
+- [Общие показатели](#общие-показатели)
+- [Внешние URL (452 уникальных)](#внешние-url-452-уникальных)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- summary -->
 > Сломанных ссылок: **74**, пропущено: 0
 
@@ -154,4 +166,20 @@ python scripts/improve_broken_links.py --fix
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [HEALTH](HEALTH.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [METRICS](METRICS.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- _...ещё 5_
 

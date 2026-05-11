@@ -1,5 +1,15 @@
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -440,4 +450,20 @@ _...и ещё 135 малых кластеров (по 1-2 файла)_
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (17):**
+- [211-table-of-contents](02-anthropic-vacancies/211-table-of-contents.md)
+- [307-abstract](02-anthropic-vacancies/307-abstract.md)
+- [308-table-of-contents](02-anthropic-vacancies/308-table-of-contents.md)
+- [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [INDEX](INDEX.md)
+- _...ещё 9_
 

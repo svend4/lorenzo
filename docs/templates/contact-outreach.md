@@ -40,3 +40,19 @@
 
 ---
 _Создано: 2026-05-11_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [TASKS_INDEX](../TASKS_INDEX.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- _...ещё 1_
+

@@ -153,3 +153,14 @@ _Radar обновляется вручную при существенных и�
 - [[COMPONENT_MATRIX]] (сходство 0.25)
 - [[COMPONENT_MATRIX]] (сходство 0.21)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[COMPONENT_MATRIX]]
+- [[ONBOARDING]]
+- [[CONCEPT_GRAPH]]
+- [[KEYWORD_INDEX]]
+

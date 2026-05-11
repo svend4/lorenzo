@@ -207,3 +207,14 @@ graph TD
 - [[KEYWORD_INDEX]] (сходство 0.42)
 - [[CROSS_SECTION]] (сходство 0.40)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CROSS_SECTION]]
+- [[KEYWORD_INDEX]]
+- [[KPI_HISTORY]]
+- [[15-glossary]]
+

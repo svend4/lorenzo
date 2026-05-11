@@ -1052,3 +1052,14 @@ _Похожие документы:_
 * [[READABILITY]] (сходство 0.64)
 * [[READING_TIME]] (сходство 0.64)
 
+
+
+
+----
+
+_Смотрите также:_
+* [[READING_TIME]]
+* [[READABILITY]]
+* [[LANGUAGE_STATS]]
+* [[SEARCH]]
+

@@ -1,11 +1,21 @@
 ---
 title: "Callout-блоки"
 tags:
+  - ingestion
   - general
 date: 2026-05-11
 ---
 
 # Callout-блоки
+
+<!-- summary -->
+> Добавлено **25** callout-блоков в документы.
+
+---
+<!-- tags: ingestion -->
+
+
+
 
 Добавлено **25** callout-блоков в документы.
 
@@ -33,3 +43,19 @@ date: 2026-05-11
 ```
 
 _Поддерживается в GitHub Markdown с 2023 года._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[DIGEST_AUTO]]
+- [[EMPTY_SECTIONS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_LIST]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 2_
+

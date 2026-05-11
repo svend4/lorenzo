@@ -1,5 +1,14 @@
 # Сравнение с предыдущим коммитом
 
+<!-- summary -->
+> **Файлов было:** 1478  **стало:** 2482
+
+---
+<!-- tags: memory, orchestration, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 **Файлов было:** 1478  **стало:** 2482  
 **Слов было:** 2,194,383  **стало:** 2,940,147  **Δ:** +745,764
 
@@ -85,3 +94,17 @@ _...и ещё 964_
 | `READING_ORDER.md` | 6185 | 6041 | -144 |
 | `WORD_FREQ.md` | 3464 | 3324 | -140 |
 | `NETWORK.md` | 530 | 413 | -117 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -1048,3 +1048,14 @@ python scripts/improve_version_diff.py --dry-run
 - [[READABILITY]] (сходство 0.64)
 - [[READING_TIME]] (сходство 0.64)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[READING_TIME]]
+- [[READABILITY]]
+- [[LANGUAGE_STATS]]
+- [[SEARCH]]
+

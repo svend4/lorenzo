@@ -140,3 +140,14 @@ _Похожие документы:_
 * [DIGEST_AUTO|DIGEST_AUTO.md] (сходство 0.35)
 * [METRICS|METRICS.md] (сходство 0.32)
 
+
+
+
+----
+
+_Смотрите также:_
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [METRICS|METRICS.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+* [KPI_HISTORY|KPI_HISTORY.md]
+

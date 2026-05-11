@@ -46,3 +46,19 @@ output:
 
 ---
 _Создано: 2026-05-11_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- [298-что-этот-документ-не-решает](../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+- _...ещё 3_
+

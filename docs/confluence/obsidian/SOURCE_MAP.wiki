@@ -1876,3 +1876,14 @@ _Похожие документы:_
 * [[READING_TIME]] (сходство 0.81)
 * [[READABILITY]] (сходство 0.81)
 
+
+
+
+----
+
+_Смотрите также:_
+* [[READING_TIME]]
+* [[READABILITY]]
+* [[SEARCH]]
+* [[LANGUAGE_STATS]]
+

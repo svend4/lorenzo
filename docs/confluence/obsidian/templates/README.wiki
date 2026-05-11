@@ -17,10 +17,10 @@ _Файлов:_ 23
 h2. Содержание
 
 * [[agent-spec|agent-spec.md]] — ---
-* [[contact-outreach|contact-outreach.md]] — > [!NOTE]
+* [[contact-outreach|contact-outreach.md]] — 
 * [[contradiction-record|contradiction-record.md]] — ---
-* [[decision-record|decision-record.md]] — > [!NOTE]
-* [[ensemble|ensemble.md]] — > [!NOTE]
+* [[decision-record|decision-record.md]] — 
+* [[ensemble|ensemble.md]] — 
 * [[experiment-log|experiment-log.md]] — ---
 * [[faq-entry|faq-entry.md]] — ---
 * [[glossary-entry|glossary-entry.md]] — ---
@@ -28,10 +28,10 @@ h2. Содержание
 * [[legal-case|legal-case.md]] — ---
 * [[meeting-notes|meeting-notes.md]] — ---
 * [[mega-stack|mega-stack.md]] — ---
-* [[project-component|project-component.md]] — > [!NOTE]
+* [[project-component|project-component.md]] — 
 * [[protocol-spec|protocol-spec.md]] — ---
 * [[prototype-mvp|prototype-mvp.md]] — ---
-* [[research-note|research-note.md]] — > [!NOTE]
+* [[research-note|research-note.md]] — 
 * [[retrospective|retrospective.md]] — ---
 * [[rfc|rfc.md]] — ---
 * [[risk-entry|risk-entry.md]] — ---
@@ -48,7 +48,7 @@ h2. Подразделы
 
 ----
 
-_Кто ссылается на этот документ (29):_
+_Кто ссылается на этот документ (24):_
 * [[OUTLINE]]
 * [[READABILITY]]
 * [[READING_TIME]]
@@ -56,16 +56,6 @@ _Кто ссылается на этот документ (29):_
 * [[TABLES]]
 * [[research-summary]]
 * [[agent-spec]]
-* [[contact-outreach]]
-* _...ещё 21_
-
-
-
-
-----
-
-_Похожие документы:_
-* [[README]] (сходство 0.88)
-* [[README]] (сходство 0.23)
-* [[README]] (сходство 0.22)
+* [[contradiction-record]]
+* _...ещё 16_
 

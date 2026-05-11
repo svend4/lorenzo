@@ -2522,3 +2522,19 @@ _Обновлено: 2026-05-11_
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (686):**
+- [00-intro-part2](01-svyazi/00-intro-part2.md)
+- [02-methodology](01-svyazi/02-methodology.md)
+- [06-security-privacy](01-svyazi/06-security-privacy.md)
+- [QA](01-svyazi/QA.md)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
+- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
+- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
+- _...ещё 678_
+

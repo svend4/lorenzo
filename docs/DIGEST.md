@@ -1,5 +1,14 @@
 # Дайджест изменений
 
+<!-- summary -->
+> > chore: regenerate auto-generated docs artifacts
+
+---
+<!-- tags: rag, self-improvement -->
+
+
+
+
 _Обновлено: 2026-05-11_
 
 ## Последний коммит
@@ -43,3 +52,17 @@ _Обновлено: 2026-05-11_
 | Документов `.md` | **2482** |
 | Скриптов обработки | **166** |
 | Последнее обновление | **2026-05-11** |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

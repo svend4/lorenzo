@@ -221,3 +221,14 @@ python scripts/improve_topic_model.py
 - [[BACKLINKS]] (сходство 0.23)
 - [[SEE_ALSO]] (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CLUSTERS]]
+- [[READING_ORDER]]
+- [[LANGUAGE_STATS]]
+- [[DIGEST_WEEKLY]]
+

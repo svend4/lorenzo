@@ -1,4 +1,6 @@
 # CHANGELOG
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
+
 
 Всего коммитов: **261**  
 Статистика: 🔧 chore: 96 | ✨ feat: 81 | 🐛 fix: 36 | 📝 docs: 25 | ⚡ improve: 15 | 🧪 test: 8
@@ -547,3 +549,19 @@
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
+- _...ещё 2_
+

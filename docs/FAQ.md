@@ -1,5 +1,62 @@
 # Часто задаваемые вопросы (FAQ)
 
+<!-- summary -->
+> _Извлечено: 251 вопросов и ответов_
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Yodoca, agent-memory-mcp
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Архитектура](#архитектура)
+  - [Что такое MCP?](#что-такое-mcp)
+  - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
+  - [Какой вариант резонирует?](#какой-вариант-резонирует)
+  - [Что это такое?](#что-это-такое)
+  - [Q&A: 02-anthropic-vacancies > > !NOTE - Какие 5 архитектурных зазоров выделены в исследовании?](#qa-02-anthropic-vacancies-note---какие-5-архитектурных-зазоров-выделены-в-исследовании)
+  - [Q&A: 04-ai-collaborations > > !NOTE - Как реализован forensic RAG с доказуемостью?](#qa-04-ai-collaborations-note---как-реализован-forensic-rag-с-доказуемостью)
+  - [Q&A: meta-scripting > > !NOTE - Какие инструменты обеспечивают безопасность агентов?](#qa-meta-scripting-note---какие-инструменты-обеспечивают-безопасность-агентов)
+  - [Принимаем эту architecture как Lorenzo vision (с моими caveats)?](#принимаем-эту-architecture-как-lorenzo-vision-с-моими-caveats)
+- [MVP/Запуск](#mvpзапуск)
+  - [С чего начать?](#с-чего-начать)
+  - [Q&A: anthropic-vacancies > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qa-anthropic-vacancies-note---какие-кластеры-найма-выделены-у-anthropic)
+  - [Q&A: contacts > > !NOTE - Какие системы памяти описаны в этом разделе?](#qa-contacts-note---какие-системы-памяти-описаны-в-этом-разделе)
+  - [[[QA|Q&A: anthropic-vacancies]] > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qaqa-anthropic-vacancies-note---какие-кластеры-найма-выделены-у-anthropic)
+  - [[[QA|Q&A: contacts]] > > !NOTE - Какие системы памяти описаны в этом разделе?](#qaqa-contacts-note---какие-системы-памяти-описаны-в-этом-разделе)
+- [Компоненты](#компоненты)
+  - [Какова лицензия проекта?](#какова-лицензия-проекта)
+  - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
+  - [Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?](#открытые-вопросы-1-есть-ли-публичная-документация-по-memory-os-bi-temporal-facts-gardener-loop)
+  - [Q&A: lorenzo-agent > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qa-lorenzo-agent-note---какие-кластеры-найма-выделены-у-anthropic)
+  - [[[QA|Q&A: lorenzo-agent]] > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qaqa-lorenzo-agent-note---какие-кластеры-найма-выделены-у-anthropic)
+- [Интеграция](#интеграция)
+  - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
+  - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
+  - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
+  - [Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?](#набор-вопросов-4-ваши-ресурсы-4a-бюджет-для-setup-500-1500-одноразово)
+  - [Why "Nautilus"?](#why-nautilus)
+  - [Did creator approve final attribution?](#did-creator-approve-final-attribution)
+- [Лицензия](#лицензия)
+  - [Question 5: Каковы limits Lorenzo's authority?](#question-5-каковы-limits-lorenzos-authority)
+  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
+- [Общее](#общее)
+  - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
+  - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
+  - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
+  - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
+  - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
+  - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
+  - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
+  - [10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?](#104-социальные-вопросы-снизят-ли-представительские-агенты-или-увеличат-неравенство)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
 _Извлечено: 251 вопросов и ответов_
 
 
@@ -211,4 +268,20 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 Что происходит с профессиями, в настоящее время предоставляющими представительские услуги (юристы, агенты, посредники), когда AI-агенты становятся распространёнными? Какие новые социальные динамики возникают, когда большинство взаимодействий включают опосредование агентами? Как мы сохраняем прямую человеческую связь в мире опосредованной коммуникации?
 
 _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [memnet](05-habr-projects/memory/memnet.md)
+- [CONCEPTS](CONCEPTS.md)
+- [INDEX](INDEX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [QUESTIONS](QUESTIONS.md)
+- _...ещё 10_
 

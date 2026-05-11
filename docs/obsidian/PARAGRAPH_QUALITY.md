@@ -7545,3 +7545,14 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [[HEADING_AUDIT]] (сходство 0.97)
 - [[HEADING_AUDIT]] (сходство 0.97)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[HEADING_AUDIT]]
+- [[EMPTY_SECTIONS]]
+- [[READING_TIME]]
+- [[READABILITY]]
+

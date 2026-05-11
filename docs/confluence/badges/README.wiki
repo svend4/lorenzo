@@ -5,17 +5,6 @@
 
 h1. Бейджи репозитория
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-
-
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
-
-
 Автоматически генерируются скриптом {{improve_badges.py}}.
 
 h2. Текущие бейджи
@@ -44,26 +33,14 @@ h2. Использование в README
 
 ----
 
-_Кто ссылается на этот документ (8):_
+_Кто ссылается на этот документ (9):_
 * [BADGES|../BADGES.md]
 * [DEPENDABOT|../DEPENDABOT.md]
 * [OUTLINE|../OUTLINE.md]
 * [READABILITY|../READABILITY.md]
 * [READING_TIME|../READING_TIME.md]
 * [SEARCH|../SEARCH.md]
+* [SKILL_DASHBOARD|../SKILL_DASHBOARD.md]
 * [TABLES|../TABLES.md]
-* [QA|../anthropic-vacancies/QA.md]
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.
-
-
-
-----
-
-_Похожие документы:_
-* [README|../obsidian/badges/README.md] (сходство 0.92)
-* [README|../obsidian/svyazi-2-0/limitations/README.md] (сходство 0.56)
-* [README|../obsidian/technology-combinations/synthesis-tables/README.md] (сходство 0.53)
+* _...ещё 1_
 

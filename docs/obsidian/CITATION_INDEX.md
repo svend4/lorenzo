@@ -278,3 +278,14 @@ python scripts/improve_citation_index.py
 - [[LINK_PREVIEW]] (сходство 0.31)
 - [[BACKLINKS]] (сходство 0.26)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[KEYWORD_INDEX]]
+- [[NAMED_ENTITIES]]
+- [[READING_LIST]]
+- [[CROSS_SECTION]]
+

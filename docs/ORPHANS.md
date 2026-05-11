@@ -1,5 +1,12 @@
 # Изолированные документы (Orphans)
 
+<!-- summary -->
+> **Найдено:** 0 файлов без входящих ссылок из 2178 проверено.
+
+---
+
+
+
 **Найдено:** 0 файлов без входящих ссылок из 2178 проверено.
 
 _Эти документы не связаны с остальными — их легко потерять._
@@ -25,4 +32,19 @@ _Эти документы не связаны с остальными — их 
 
 **Смотрите также:**
 - [STALENESS](STALENESS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

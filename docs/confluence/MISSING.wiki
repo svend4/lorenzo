@@ -5,6 +5,16 @@
 
 h1. Карта пробелов знаний
 
+
+{quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+----
+
+
+
+
+
 {quote}[!NOTE]{quote}
 {quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
@@ -48,3 +58,30 @@ h2. Итог
 h2. Рекомендации
 
 Темы со статусом ❌ или ⚠️ нужно дополнить отдельными документами.
+
+
+
+----
+
+_Смотрите также:_
+* [CONSISTENCY|CONSISTENCY.md]
+* [TAGS|TAGS.md]
+* [ENTITIES|ENTITIES.md]
+* [GLOSSARY|GLOSSARY.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [07-выводы|04-ai-collaborations/07-выводы.md]
+* [README|04-ai-collaborations/README.md]
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [CONSISTENCY|CONSISTENCY.md]
+* [DENSITY|DENSITY.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* _...ещё 5_
+

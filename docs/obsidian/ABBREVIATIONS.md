@@ -7,6 +7,16 @@ date: 2026-05-11
 
 # Словарь аббревиатур и сокращений
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** SENTINEL, LiteLLM, Auto AI Router
+
+---
+<!-- tags: rag, security, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -160,3 +170,30 @@ date: 2026-05-11
 | **RU** | 1077 — _«был создан», «является», «используется», «осуществляется» -_ |
 | **MIT** | 972 — _Massachusetts Institute of Technology License — разрешительн_ |
 | **MVP** | 883 — _Minimum Viable Product — минимально жизнеспособный продукт_ |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SITEMAP]]
+- [[TABLES]]
+- [[VERSION_DIFF]]
+- [[133-обратная-связь]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [[03-карта-найденных-проектов-и-паттернов]]
+- [[DIGEST_AUTO]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 2_
+

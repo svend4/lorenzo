@@ -188,3 +188,14 @@ _Индекс сгенерирован автоматически · 2482 док
 - [[ONBOARDING]] (сходство 0.23)
 - [[ONBOARDING]] (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[ONBOARDING]]
+- [[CROSS_SECTION]]
+- [[DEPENDENCY_MAP]]
+- [[LLM_SUMMARIES]]
+

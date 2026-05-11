@@ -23,3 +23,19 @@
 ![license](license.svg)
 ![branch](branch.svg)
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [BADGES](../BADGES.md)
+- [DEPENDABOT](../DEPENDABOT.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [SKILL_DASHBOARD](../SKILL_DASHBOARD.md)
+- [TABLES](../TABLES.md)
+- _...ещё 1_
+

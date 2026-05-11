@@ -7,6 +7,16 @@ date: 2026-05-11
 
 # Карта пробелов знаний
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, self-improvement -->
+
+
+
+
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
@@ -51,3 +61,30 @@ date: 2026-05-11
 ## Рекомендации
 
 Темы со статусом ❌ или ⚠️ нужно дополнить отдельными документами.
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONSISTENCY]]
+- [[TAGS]]
+- [[ENTITIES]]
+- [[GLOSSARY]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [[08-conclusions]]
+- [[07-выводы]]
+- [[README]]
+- [[CODE_BLOCKS]]
+- [[CONSISTENCY]]
+- [[DENSITY]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 5_
+

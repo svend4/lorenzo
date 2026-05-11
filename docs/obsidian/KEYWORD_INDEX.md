@@ -217,3 +217,14 @@ python scripts/improve_keyword_index.py
 - [[CONCEPT_GRAPH]] (сходство 0.37)
 - [[CONCEPT_GRAPH]] (сходство 0.37)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONCEPT_GRAPH]]
+- [[CROSS_SECTION]]
+- [[08-personal-multi-agent-hub]]
+- [[10-query-result]]
+

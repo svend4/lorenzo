@@ -177,3 +177,14 @@ _Курированных рисков: 10 · Из документов: 15_
 - [[02-methodology]] (сходство 0.15)
 - [[02-methodology]] (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[privacy]]
+- [[02-methodology]]
+- [[security-routing-plane]]
+- [[COMPONENT_MATRIX]]
+

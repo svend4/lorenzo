@@ -5,11 +5,6 @@
 
 h1. Матрица покрытия документов
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{COVERAGE}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 {quote}Условные обозначения: ✅ есть  ⬜ отсутствует{quote}
 _Проекты:_ Svyazi
@@ -74,14 +69,4 @@ _Кто ссылается на этот документ (7):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
-
-
-
-
-----
-
-_Похожие документы:_
-* [COVERAGE|obsidian/COVERAGE.md] (сходство 0.97)
-* [HEATMAP|obsidian/HEATMAP.md] (сходство 0.27)
-* [README|svyazi-2-0/overview/README.md] (сходство 0.27)
 

@@ -220,3 +220,14 @@ _Похожие документы:_
 * [[CONCEPT_GRAPH]] (сходство 0.37)
 * [[CONCEPT_GRAPH]] (сходство 0.37)
 
+
+
+
+----
+
+_Смотрите также:_
+* [[CONCEPT_GRAPH]]
+* [[CROSS_SECTION]]
+* [[08-personal-multi-agent-hub]]
+* [[10-query-result]]
+

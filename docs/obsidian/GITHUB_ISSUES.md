@@ -692,3 +692,14 @@ python scripts/improve_github_issues.py
 - [[10-checklist]] (сходство 0.23)
 - [[10-checklist]] (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-checklist]]
+- [[116-9-checklist-применения-методологии]]
+- [[CROSS_SECTION]]
+- [[DEPENDENCY_MAP]]
+

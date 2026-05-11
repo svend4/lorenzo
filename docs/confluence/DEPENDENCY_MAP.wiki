@@ -259,3 +259,14 @@ _Похожие документы:_
 * [README|README.md] (сходство 0.25)
 * [README|obsidian/README.md] (сходство 0.25)
 
+
+
+
+----
+
+_Смотрите также:_
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [INDEX|INDEX.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [STALENESS|STALENESS.md]
+

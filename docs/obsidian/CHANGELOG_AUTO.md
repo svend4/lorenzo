@@ -334,3 +334,14 @@ python scripts/improve_changelog_auto.py
 - [[CHANGELOG]] (сходство 0.57)
 - [[CHANGELOG]] (сходство 0.57)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CHANGELOG]]
+- [[DEPENDENCY_MAP]]
+- [[VERSION_DIFF]]
+- [[LANGUAGE_STATS]]
+

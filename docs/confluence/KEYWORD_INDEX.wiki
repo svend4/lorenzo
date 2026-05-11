@@ -213,3 +213,14 @@ _Похожие документы:_
 * [CONCEPT_GRAPH|CONCEPT_GRAPH.md] (сходство 0.37)
 * [CONCEPT_GRAPH|obsidian/CONCEPT_GRAPH.md] (сходство 0.37)
 
+
+
+
+----
+
+_Смотрите также:_
+* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+* [08-personal-multi-agent-hub|habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md]
+* [10-query-result|nautilus/npp-v1-0/10-query-result.md]
+
