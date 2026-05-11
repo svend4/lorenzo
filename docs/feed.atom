@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T13:37:36+00:00</updated>
+  <updated>2026-05-11T13:59:39+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/2690e4620dee4107e7c82fe6a5904a6ed4d00088</id>
+    <title>chore: update auto-generated docs after test suite run</title>
+    <link href="https://github.com/svend4/lorenzo/commit/2690e4620dee4107e7c82fe6a5904a6ed4d00088"/>
+    <updated>2026-05-11T13:38:48+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: update auto-generated docs after test suite run</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPONENT_MATRIX.md">docs/COMPONENT_MATRIX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/EMPTY_SECTIONS.md">docs/EMPTY_SECTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEADING_AUDIT.md">docs/HEADING_AUDIT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/INDEX.md">docs/INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KEYWORD_INDEX.md">docs/KEYWORD_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KNOWLEDGE_MAP.md">docs/KNOWLEDGE_MAP.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KPI_HISTORY.md">docs/KPI_HISTORY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/LANGUAGE_STATS.md">docs/LANGUAGE_STATS.md</a></li></ul><p>Коммит: <code>2690e462</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/de184071bcf8604870667a0dd40d8193be0c3efb</id>
     <title>chore: regenerate auto-generated docs artifacts</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/07739d9ca7c375f41bef5be23b74b51b005fc657"/>
     <updated>2026-05-11T08:42:05+00:00</updated>
     <content type="html"><![CDATA[<p><strong>chore: обновление зеркальных файлов obsidian/confluence</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>07739d9c</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/63e1280e0e84c7b6454204ab83cf54586645755a</id>
-    <title>feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты</title>
-    <link href="https://github.com/svend4/lorenzo/commit/63e1280e0e84c7b6454204ab83cf54586645755a"/>
-    <updated>2026-05-11T08:41:37+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>63e1280e</code></p>]]></content>
   </entry>
 </feed>
