@@ -1,4 +1,10 @@
 # representative-agent-layer-ru
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
@@ -33,3 +39,10 @@
 - [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
 - _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

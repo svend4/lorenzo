@@ -1,5 +1,12 @@
 # Дайджест изменений
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `DIGEST` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > feat: автоматизация всех критериев benchmark в prototype_demo.py
 **Проекты:** SENTINEL
@@ -66,3 +73,10 @@ _Обновлено: 2026-05-11_
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_digest.py
+```

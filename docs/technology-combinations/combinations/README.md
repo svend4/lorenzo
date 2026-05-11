@@ -1,5 +1,16 @@
 # combinations
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 35
 
 ## Содержание
@@ -55,3 +66,10 @@
 - [03-crdt-local-first-svyazi-cardindex](03-crdt-local-first-svyazi-cardindex.md)
 - _...ещё 25_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

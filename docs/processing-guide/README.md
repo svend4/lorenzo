@@ -1,4 +1,6 @@
 # processing-guide
+<!-- tags: readme, docs -->
+
 
 **Файлов:** 12
 
@@ -32,3 +34,10 @@
 - [04-structuring](04-structuring.md)
 - _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

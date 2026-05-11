@@ -1,4 +1,10 @@
 # composite-skills-agents
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
@@ -33,3 +39,10 @@
 - [05-configuration-ensembles](05-configuration-ensembles.md)
 - _...ещё 5_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

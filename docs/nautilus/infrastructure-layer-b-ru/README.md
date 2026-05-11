@@ -1,4 +1,10 @@
 # infrastructure-layer-b-ru
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
@@ -33,3 +39,10 @@
 - [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
 - _...ещё 7_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

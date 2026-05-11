@@ -1,5 +1,16 @@
 # contacts
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 16
 
 ## Содержание
@@ -36,3 +47,10 @@
 - [antipozitive](antipozitive.md)
 - _...ещё 12_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

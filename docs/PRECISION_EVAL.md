@@ -1,5 +1,12 @@
 # Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `PRECISION_EVAL` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Автоматическая оценка качества hybrid_search(). Hit Rate@10 = **0.750** (≥ порог 0.70).
 
@@ -57,3 +64,16 @@
 - **Без ручной разметки:** обновляется автоматически при каждом запуске.
 
 *Сгенерировано: 2026-05-11 07:08*
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_precision_eval.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

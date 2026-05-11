@@ -1,5 +1,16 @@
 # software-pairs
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 6
 
 ## Содержание
@@ -23,3 +34,13 @@
 - [TABLES](../../TABLES.md)
 - [5-browser-agents-headless](5-browser-agents-headless.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «software-pairs». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

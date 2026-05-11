@@ -1,5 +1,12 @@
 # Q&A: 02-anthropic-vacancies
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 355 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
@@ -116,3 +123,10 @@ _Автоматически сгенерировано по 355 файлам р�
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

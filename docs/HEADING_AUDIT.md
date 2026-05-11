@@ -8514,3 +8514,18 @@ python scripts/improve_heading_audit.py --dry-run
 - [SUMMARIES](SUMMARIES.md)
 - _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_heading_audit.py
+```
+```bash
+# Вариант 2
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_heading_audit.py --dry-run
+```

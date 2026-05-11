@@ -1,5 +1,16 @@
 # nautilus-vs-camel
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 6
 
 ## Содержание
@@ -26,3 +37,13 @@
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - _...ещё 1_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «nautilus-vs-camel». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -1,5 +1,16 @@
 # operationalized
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 7
 
 ## Содержание
@@ -26,3 +37,13 @@
 - [03-honest-opinion](03-honest-opinion.md)
 - [reading-paths](../../reading-paths.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «operationalized». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

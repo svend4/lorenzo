@@ -1,5 +1,10 @@
 # Q&A: 03-technology-combinations
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 5 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space
@@ -56,3 +61,10 @@ _Не найдено в этом файле._
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

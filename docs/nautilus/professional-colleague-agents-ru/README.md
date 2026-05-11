@@ -1,4 +1,10 @@
 # professional-colleague-agents-ru
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 13
 
@@ -33,3 +39,10 @@
 - [03-keys-obuchay](03-keys-obuchay.md)
 - _...ещё 8_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

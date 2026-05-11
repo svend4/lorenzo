@@ -1,4 +1,10 @@
 # okwf-concept
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 11
 
@@ -31,3 +37,13 @@
 - [02-target-populations](02-target-populations.md)
 - _...ещё 6_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «okwf-concept». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

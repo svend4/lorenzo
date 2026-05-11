@@ -1,4 +1,10 @@
 # double-triangle-architecture
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 12
 
@@ -32,3 +38,13 @@
 - [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
 - _...ещё 8_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «double-triangle-architecture». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

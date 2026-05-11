@@ -16333,3 +16333,18 @@ python scripts/improve_outline.py --dry-run
 - [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
 - _...ещё 553_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_outline.py
+```
+```bash
+# Вариант 2
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_outline.py --dry-run
+```

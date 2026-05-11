@@ -8769,3 +8769,18 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [README](README.md)
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_paragraph_quality.py
+```
+```bash
+# Вариант 2
+python scripts/improve_paragraph_quality.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_paragraph_quality.py --dry-run
+```

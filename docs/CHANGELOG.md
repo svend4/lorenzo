@@ -1,4 +1,9 @@
 # CHANGELOG
+
+> [!NOTE]
+> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
 
 
@@ -494,3 +499,14 @@
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog.py
+```
+```bash
+# Вариант 2
+python scripts/improve_changelog.py --dry-run
+```

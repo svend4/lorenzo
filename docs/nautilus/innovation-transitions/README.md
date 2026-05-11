@@ -1,4 +1,10 @@
 # innovation-transitions
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 2
 
@@ -19,3 +25,13 @@
 - [TABLES](../../TABLES.md)
 - [01-response](01-response.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «innovation-transitions». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -9268,3 +9268,18 @@ python scripts/improve_empty_sections.py --dry-run
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_empty_sections.py
+```
+```bash
+# Вариант 2
+python scripts/improve_empty_sections.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_empty_sections.py --dry-run
+```

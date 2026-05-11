@@ -1,5 +1,16 @@
 # specification
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 12
 
 ## Содержание
@@ -32,3 +43,10 @@
 - [10-q10-funding-model](10-q10-funding-model.md)
 - _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

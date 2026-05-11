@@ -1,4 +1,10 @@
 # infrastructure-layer-b-en
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 14
 
@@ -34,3 +40,10 @@
 - [09-what-industry-will-build](09-what-industry-will-build.md)
 - _...ещё 4_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

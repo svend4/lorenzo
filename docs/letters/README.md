@@ -1,5 +1,16 @@
 # letters
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 9
 
 ## Содержание
@@ -13,3 +24,13 @@
 - [vitalyoborin.md](vitalyoborin.md) — <!-- toc-auto -->
 - [vitalysemenov.md](vitalysemenov.md) — <!-- toc-auto -->
 - [zodigancode.md](zodigancode.md) — <!-- toc-auto -->
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «letters». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

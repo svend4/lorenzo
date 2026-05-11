@@ -1,5 +1,16 @@
 # hermes-comparison
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 14
 
 ## Содержание
@@ -34,3 +45,10 @@
 - [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
 - _...ещё 5_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

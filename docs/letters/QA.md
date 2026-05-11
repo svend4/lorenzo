@@ -1,5 +1,10 @@
 # Q&A: letters
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 8 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, Yodoca, NGT Memory
@@ -55,3 +60,17 @@ _Автоматически сгенерировано по 8 файлам ра�
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **state**
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)

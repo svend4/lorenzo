@@ -1,5 +1,10 @@
 # Оценка стоимости MVP
 
+> [!NOTE]
+> Раздел `COST` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Ориентировочные цифры на основе документации проекта._
 **Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
@@ -107,3 +112,10 @@ _Минимальный сценарий: open source + личное время 
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_cost.py
+```

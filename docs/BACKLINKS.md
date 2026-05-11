@@ -1,5 +1,18 @@
 # Индекс обратных ссылок
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `BACKLINKS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: backlinks, docs -->
+
+
+<!-- summary -->
+> `BACKLINKS` — раздел документации проекта Lorenzo.
+
+
 **Файлов с входящими ссылками:** 2695
 
 ## Топ-30 самых цитируемых документов
@@ -65,3 +78,17 @@
 | **svyazi-2-0** | 671 | 526 |
 | **technology-combinations** | 641 | 483 |
 | **templates** | 206 | 189 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_backlinks.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

@@ -1,5 +1,16 @@
 # naming
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
@@ -24,3 +35,13 @@
 - [02-naming-rationale-lorenzo-medici](02-naming-rationale-lorenzo-medici.md)
 - _...ещё 1_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «naming». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

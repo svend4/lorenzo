@@ -1,5 +1,16 @@
 # lorenzo-agent
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 22
 
 ## Содержание
@@ -50,3 +61,10 @@
 - [04-komu-ty-sluzhish](04-komu-ty-sluzhish.md)
 - _...ещё 11_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

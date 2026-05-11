@@ -1,5 +1,10 @@
 # Q&A: 05-habr-projects
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 12 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory, MemNet, agent-memory-mcp
@@ -72,3 +77,10 @@ _Не найдено в этом файле._
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

@@ -1,5 +1,16 @@
 # ai-managed-virtual-company
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 11
 
 ## Содержание
@@ -31,3 +42,10 @@
 - [06-angel-vs-demon-duality](06-angel-vs-demon-duality.md)
 - _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

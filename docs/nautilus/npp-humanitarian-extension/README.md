@@ -1,5 +1,16 @@
 # npp-humanitarian-extension
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 6
 
 ## Содержание
@@ -26,3 +37,13 @@
 - [02-mcp-claude-desktop-use-cases](02-mcp-claude-desktop-use-cases.md)
 - _...ещё 3_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «npp-humanitarian-extension». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

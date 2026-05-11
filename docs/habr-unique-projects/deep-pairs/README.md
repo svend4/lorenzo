@@ -1,5 +1,16 @@
 # deep-pairs
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 8
 
 ## Содержание
@@ -28,3 +39,13 @@
 - [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md)
 - _...ещё 2_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «deep-pairs». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

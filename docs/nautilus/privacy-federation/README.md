@@ -1,5 +1,16 @@
 # privacy-federation
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 5
 
 ## Содержание
@@ -24,3 +35,13 @@
 - [01-what-to-anonymize-german-standard](01-what-to-anonymize-german-standard.md)
 - [04-what-i-can-do-now](04-what-i-can-do-now.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «privacy-federation». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

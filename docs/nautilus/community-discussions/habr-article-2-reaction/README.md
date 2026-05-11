@@ -1,5 +1,16 @@
 # habr-article-2-reaction
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 2
 
 ## Содержание
@@ -20,3 +31,13 @@
 - [00-question-habr-2](00-question-habr-2.md)
 - [01-response](01-response.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «habr-article-2-reaction». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

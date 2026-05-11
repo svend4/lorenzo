@@ -1,5 +1,10 @@
 # Q&A: processing-guide
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 11 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, AI Factory, Yodoca, NGT Memory, MemNet
@@ -96,3 +101,10 @@ _Не найдено в этом файле._
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

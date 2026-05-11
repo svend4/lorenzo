@@ -1,4 +1,10 @@
 # meta-scripting
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 6
 
@@ -23,3 +29,13 @@
 - [TABLES](../TABLES.md)
 - [04-enrichment](04-enrichment.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «meta-scripting». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

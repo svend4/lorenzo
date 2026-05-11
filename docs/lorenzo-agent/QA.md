@@ -1,5 +1,10 @@
 # Q&A: lorenzo-agent
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 55 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
@@ -92,3 +97,10 @@ _Не найдено в этом файле._
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

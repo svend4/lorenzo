@@ -1,5 +1,10 @@
 # Q&A: contacts
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 15 файлам раздела._
 **Проекты:** Yodoca, NGT Memory, MemNet, agent-memory-mcp
@@ -37,3 +42,13 @@ _Автоматически сгенерировано по 15 файлам ра
 - [VERSION_DIFF](../VERSION_DIFF.md)
 - [README](README.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Q&A: contacts». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

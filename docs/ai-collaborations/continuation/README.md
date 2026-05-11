@@ -1,5 +1,16 @@
 # continuation
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 10
 
 ## Содержание
@@ -30,3 +41,13 @@
 - [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md)
 - _...ещё 4_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «continuation». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

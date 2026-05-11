@@ -1,5 +1,16 @@
 # review-methodology
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 17
 
 ## Содержание
@@ -37,3 +48,10 @@
 - [03-consolidation-principles](03-consolidation-principles.md)
 - _...ещё 11_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

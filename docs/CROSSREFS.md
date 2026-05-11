@@ -1,5 +1,18 @@
 # Перекрёстные ссылки
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CROSSREFS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: crossrefs, docs -->
+
+
+<!-- summary -->
+> `CROSSREFS` — раздел документации проекта Lorenzo.
+
+
 ## Проекты → файлы
 
 Для каждого проекта — в каких файлах он упоминается.
@@ -63,3 +76,17 @@
 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 25 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +19 |
 | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 25 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +19 |
 | `docs/01-svyazi/04-ensembles-overview.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_crossrefs.py
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

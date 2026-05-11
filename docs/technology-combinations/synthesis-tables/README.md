@@ -1,5 +1,16 @@
 # synthesis-tables
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 6
 
 ## Содержание
@@ -23,3 +34,13 @@
 - [TABLES](../../TABLES.md)
 - [01-08-summary](01-08-summary.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «synthesis-tables». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

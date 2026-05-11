@@ -1,5 +1,16 @@
 # composite-skills-agents-companion-mentors
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
@@ -22,3 +33,13 @@
 - [00-question-multiple-mentors](00-question-multiple-mentors.md)
 - [03-the-spectrum](03-the-spectrum.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «composite-skills-agents-companion-mentors». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

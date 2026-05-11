@@ -1,5 +1,10 @@
 # Контакты и авторы
 
+> [!NOTE]
+> Раздел `CONTACTS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

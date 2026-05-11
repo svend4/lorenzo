@@ -1,4 +1,10 @@
 # ingit-cowork-ru
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 10
 
@@ -30,3 +36,13 @@
 - [03-chto-ingit-obespechivaet](03-chto-ingit-obespechivaet.md)
 - _...ещё 7_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ingit-cowork-ru». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -1,4 +1,10 @@
 # agent-changes-reality
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 2
 
@@ -20,3 +26,13 @@
 - [00-question-agent-changes-reality](00-question-agent-changes-reality.md)
 - [01-response-en](01-response-en.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «agent-changes-reality». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

@@ -1,5 +1,16 @@
 # mmorpg-for-programmers
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 6
 
 ## Содержание
@@ -26,3 +37,13 @@
 - [02-existing-niche](02-existing-niche.md)
 - _...ещё 4_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «mmorpg-for-programmers». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

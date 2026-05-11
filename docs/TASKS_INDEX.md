@@ -1,5 +1,18 @@
 # Каталог задач (TASKS_INDEX)
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `TASKS_INDEX` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: tasks-index, docs -->
+
+
+<!-- summary -->
+> `TASKS_INDEX` — раздел документации проекта Lorenzo.
+
+
 _Обновлено: 2026-05-11_
 
 **Всего задач:** 13
@@ -300,3 +313,10 @@ _Обновлено: 2026-05-11_
 - [prototype-mvp](templates/prototype-mvp.md)
 - [rfc](templates/rfc.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_tasks_index.py
+```

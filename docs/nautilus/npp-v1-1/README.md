@@ -1,4 +1,10 @@
 # npp-v1-1
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 23
 
@@ -43,3 +49,10 @@
 - [02-terminology](02-terminology.md)
 - _...ещё 17_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

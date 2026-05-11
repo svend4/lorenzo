@@ -1,5 +1,10 @@
 # Глобальный Q&A
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Вопросы и ответы по всем разделам монорепозитория.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -851,3 +856,14 @@ _Не найдено в этом файле._
 - [README](README.md)
 - _...ещё 6_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+```bash
+# Вариант 2
+python scripts/improve_qa.py --dry-run
+```

@@ -1,5 +1,16 @@
 # 03-integral-final
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 5
 
 ## Содержание
@@ -25,3 +36,13 @@
 - [03-partial-fit-honesty](03-partial-fit-honesty.md)
 - _...ещё 1_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «03-integral-final». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

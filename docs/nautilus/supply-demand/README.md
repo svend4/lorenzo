@@ -1,5 +1,16 @@
 # supply-demand
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 2
 
 ## Содержание
@@ -20,3 +31,13 @@
 - [00-question-supply-demand](00-question-supply-demand.md)
 - [01-three-related-themes](01-three-related-themes.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «supply-demand». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

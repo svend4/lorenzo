@@ -1,5 +1,10 @@
 # Q&A: 01-svyazi
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 14 файлам раздела._
 **Проекты:** Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL, LiteLLM, Auto AI Router
@@ -72,3 +77,10 @@ _Автоматически сгенерировано по 14 файлам ра
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

@@ -1,4 +1,10 @@
 # templates
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 23
 
@@ -47,3 +53,10 @@
 - [contradiction-record](contradiction-record.md)
 - _...ещё 16_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

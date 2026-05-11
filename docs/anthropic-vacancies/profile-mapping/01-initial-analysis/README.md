@@ -1,5 +1,16 @@
 # 01-initial-analysis
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 8
 
 ## Содержание
@@ -28,3 +39,13 @@
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 - _...ещё 2_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «01-initial-analysis». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

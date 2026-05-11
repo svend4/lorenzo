@@ -1,5 +1,10 @@
 # Q&A: 04-ai-collaborations
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Автоматически сгенерировано по 15 файлам раздела._
 **Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
@@ -84,3 +89,10 @@ _Автоматически сгенерировано по 15 файлам ра
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```

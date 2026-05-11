@@ -1,5 +1,16 @@
 # extra-examples
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 13
 
 ## Содержание
@@ -33,3 +44,10 @@
 - [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
 - _...ещё 1_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

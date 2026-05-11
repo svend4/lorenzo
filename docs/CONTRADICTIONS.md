@@ -490,3 +490,10 @@ python scripts/improve_contradictions.py
 - [SEARCH](SEARCH.md)
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_contradictions.py
+```

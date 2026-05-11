@@ -1,5 +1,16 @@
 # nautilus-pro2-analysis
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
 **Файлов:** 4
 
 ## Содержание
@@ -23,3 +34,13 @@
 - [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
 - [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «nautilus-pro2-analysis». Формируется автоматически.
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```
