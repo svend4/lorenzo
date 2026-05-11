@@ -98,3 +98,41 @@ def test_heat_char_light_for_above_20():
 def test_heat_char_max_equals_value():
     result = mod.heat_char(10.0, 10.0)  # ratio = 1.0 >= 0.8
     assert result == "██"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def _setup_heatmap(tmp_path, monkeypatch):
+    """Create a minimal section so heatmap doesn't fail on empty max()."""
+    sec = tmp_path / "test-section"
+    sec.mkdir(exist_ok=True)
+    (sec / "doc.md").write_text("# AgentFS\n\nагент память svyazi memory.", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTIONS", ["test-section"])
+
+
+def test_main_creates_heatmap_md(tmp_path, monkeypatch):
+    _setup_heatmap(tmp_path, monkeypatch)
+    mod.main()
+    assert (tmp_path / "HEATMAP.md").exists()
+
+
+def test_main_heatmap_has_content(tmp_path, monkeypatch):
+    _setup_heatmap(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "HEATMAP.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_heatmap_starts_with_heading(tmp_path, monkeypatch):
+    _setup_heatmap(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "HEATMAP.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
+
+
+def test_main_heatmap_with_section(tmp_path, monkeypatch):
+    _setup_heatmap(tmp_path, monkeypatch)
+    mod.main()
+    assert (tmp_path / "HEATMAP.md").exists()

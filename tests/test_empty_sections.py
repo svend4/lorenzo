@@ -86,3 +86,45 @@ def test_parse_sections_skips_code_in_word_count():
     if result:
         # Code block content should not count or be minimal
         assert isinstance(result[0]["content_words"], int)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_empty_sections_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "FILL", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\n## Section A\n\nContent here.\n## Empty\n\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "EMPTY_SECTIONS.md").exists()
+
+
+def test_main_empty_sections_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "FILL", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\n## Section\n\nContent.\n", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "EMPTY_SECTIONS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "FILL", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "EMPTY_SECTIONS.md").exists()
+
+
+def test_main_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "FILL", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "EMPTY_SECTIONS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

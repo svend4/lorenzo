@@ -66,3 +66,47 @@ def test_status_steps_dict_exists():
     assert isinstance(mod.STATUS_STEPS, dict)
     assert "agreed" in mod.STATUS_STEPS
     assert "none" not in mod.STATUS_STEPS or True
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+CONTACTS_TABLE = (
+    "| Автор | Проект | Слой | Упоминаний |\n"
+    "|-------|--------|------|------------|\n"
+    "| kksudo | AgentFS | knowledge | 5 |\n"
+    "| spbmolot | NGT Memory | memory | 3 |\n"
+)
+
+
+def test_main_creates_contact_priority_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "CONTACTS.md").write_text(CONTACTS_TABLE, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CONTACT_PRIORITY.md").exists()
+
+
+def test_main_contact_priority_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "CONTACTS.md").write_text(CONTACTS_TABLE, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CONTACT_PRIORITY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_no_contacts_md_no_output(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    captured = capsys.readouterr()
+    assert not (tmp_path / "CONTACT_PRIORITY.md").exists() or "CONTACTS.md" in captured.out
+
+
+def test_main_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "CONTACTS.md").write_text(CONTACTS_TABLE, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CONTACT_PRIORITY.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

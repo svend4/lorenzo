@@ -158,3 +158,38 @@ def test_truncate_exact_limit_not_cut():
     text = "A" * 200
     result = mod._truncate(text, max_len=200)
     assert not result.endswith("…")
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_duplicates_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc1.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    (tmp_path / "doc2.md").write_text("# Yodoca\n\nMemory consolidation agent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "DUPLICATES.md").exists()
+
+
+def test_main_duplicates_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc1.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "DUPLICATES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DUPLICATES.md").exists()
+
+
+def test_main_duplicates_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DUPLICATES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
