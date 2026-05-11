@@ -205,7 +205,7 @@ network_scope: offline | internal | internet
 - [x] Гибридный поиск: 0.6×TF-IDF + 0.4×BM25 + граф-бонус — `improve_collab_finder.py`
 - [x] Evidence Envelope — `utils_card_envelope.py::Evidence Envelope`
 - [x] Review Queue UI — `scripts/review_queue.py` (Streamlit: одобрение/отклонение/defer + Review Record §3.5)
-- [ ] hnswlib ANN-граф — _запланировано (раскомментировать в requirements.txt)_
+- [x] hnswlib ANN-граф — `scripts/improve_ann_index.py` (HNSW, 37× speedup, двухстадийный ANN+rerank, интегрирован в gateway `mode=ann`)
 
 **Результат:** Precision@5 ≥ 0.7 для проектных запросов. **Критерий выполнен.**
 

@@ -22,10 +22,10 @@ anthropic>=0.40.0          # Claude API: llm_enrich, llm_summary, llm_qa, llm_co
 # ── Stage 5: MCP-сервер (mcp_server.py) ──────────────────────
 mcp>=1.0.0                 # Model Context Protocol SDK (Claude Desktop интеграция)
 
-# ── Stage 6: Семантический поиск (планируется) ────────────────
-# Итерация 1 из PROTOTYPE_SPEC.md: hybrid BM25 + embedding search
-# hnswlib>=0.8.0            # ANN-граф для векторного поиска (MIT, без сервера, <10MB)
-# numpy>=1.26.0             # вектора для hnswlib
+# ── Stage 6: ANN-поиск (improve_ann_index.py) ────────────────
+# HNSW-индекс для ускоренного векторного поиска (37× vs линейный TF-IDF)
+hnswlib>=0.8.0             # ANN-граф HNSW (MIT, без сервера, pure C++)
+numpy>=1.26.0              # вектора для random projection + hnswlib
 
 # ── Экспорт ────────────────────────────────────────────────────
 # EPUB (improve_epub.py): apt install pandoc (не pip)

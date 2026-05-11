@@ -57,6 +57,14 @@ except ImportError:
     print("Установите зависимости: pip install fastapi uvicorn pydantic")
     sys.exit(1)
 
+# ANN-поиск через hnswlib (опционально — если индекс построен)
+try:
+    sys.path.insert(0, str(Path(__file__).parent))
+    from improve_ann_index import ann_search as _ann_search
+    _ANN_AVAILABLE = True
+except Exception:
+    _ANN_AVAILABLE = False
+
 ROOT    = Path(__file__).parent.parent
 DOCS    = ROOT / "docs"
 SCRIPTS = ROOT / "scripts"
@@ -452,7 +460,7 @@ class ChatRequest(BaseModel):
 class AskRequest(BaseModel):
     query:  str
     top_k:  int = 10
-    mode:   str = "hybrid"
+    mode:   str = "hybrid"    # hybrid | ann | tfidf | bm25
 
 
 class CardRequest(BaseModel):
@@ -594,24 +602,37 @@ async def status():
         "sections":       sections,
         "tools":          [t["function"]["name"] for t in TOOLS],
         "llm_enabled":    bool(os.environ.get("ANTHROPIC_API_KEY")),
+        "ann_enabled":    _ANN_AVAILABLE,
+        "search_modes":   ["hybrid", "ann"] if _ANN_AVAILABLE else ["hybrid"],
     }
 
 
 @app.post("/api/ask")
 async def ask(req: AskRequest):
-    """Прямой RAG-запрос. Возвращает результаты + контекст + опционально LLM-ответ."""
+    """Прямой RAG-запрос. Возвращает результаты + контекст + опционально LLM-ответ.
+
+    mode=hybrid (по умолч.) — BM25 + TF-IDF, ~210мс, Recall 1.0
+    mode=ann               — HNSW + точный re-rank, ~5мс, Recall 0.42 (нужен --build)
+    """
     t0 = time.time()
-    results = hybrid_search(req.query, req.top_k)
+    if req.mode == "ann" and _ANN_AVAILABLE:
+        results = _ann_search(req.query, req.top_k)
+        search_mode = "ann"
+    else:
+        results = hybrid_search(req.query, req.top_k)
+        search_mode = "hybrid"
     context = "\n\n".join(
         f"### {r.get('title', r.get('path'))}\n{r.get('summary') or (r.get('content') or '')[:500]}"
         for r in results
     )
     answer = _llm_answer(req.query, context) or context
     return {
-        "query":      req.query,
-        "answer":     answer,
-        "results":    results,
-        "latency_s":  round(time.time() - t0, 3),
+        "query":       req.query,
+        "answer":      answer,
+        "results":     results,
+        "search_mode": search_mode,
+        "ann_available": _ANN_AVAILABLE,
+        "latency_s":   round(time.time() - t0, 3),
     }
 
 
