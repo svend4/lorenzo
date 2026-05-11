@@ -1,5 +1,10 @@
 # Индекс тегов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 Каждый файл помечен тегами по темам автоматически.
 
 
@@ -103,4 +108,15 @@
 - [TAGS](obsidian/TAGS.md) (сходство 0.59)
 - [MINDMAP](MINDMAP.md) (сходство 0.19)
 - [MINDMAP](obsidian/MINDMAP.md) (сходство 0.18)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [.md](autofilled/components/.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [57-native-format](02-anthropic-vacancies/57-native-format.md)
 

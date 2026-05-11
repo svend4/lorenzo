@@ -1,19 +1,7 @@
 # Сломанные внутренние ссылки
 
-<!-- toc -->
-## Содержание
-
-- [Содержание](#содержание)
-- [Общие показатели](#общие-показатели)
-- [Внешние URL (456 уникальных)](#внешние-url-456-уникальных)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- summary -->
-> Сломанных ссылок: **20**, пропущено: 0
+> Сломанных ссылок: **74**, пропущено: 0
 
 <!-- tags: quality, links, validation, broken-links -->
 
@@ -27,11 +15,11 @@
 - [Смотрите также](#смотрите-также)
 
 > [!WARNING]
-> Найдено 20 сломанных ссылок — требуют исправления.
+> Найдено 74 сломанных ссылок — требуют исправления.
 
 <!-- alert-added -->
 
-**Найдено:** 20 проблем, 0 пропущено (длинный путь)
+**Найдено:** 74 проблем, 0 пропущено (длинный путь)
 
 
 Скрипт `improve_broken_links.py` проверяет все внутренние ссылки в папке `docs/`, исключая автоматически генерируемые разделы: `obsidian/`, `confluence/`, `templates/` и `autofilled/`. Проверяются ссылки на файлы (существование пути) и якоря (существование заголовка). Ссылки с путём длиннее 240 символов пропускаются из-за ограничений операционной системы и сохраняются в `bad_links.json`.
@@ -45,7 +33,7 @@
 ## Общие показатели
 
 - Проверено файлов: большинство `.md` в `docs/`
-- Сломанных ссылок: **20**
+- Сломанных ссылок: **74**
 - Пропущено (длинный путь): **0**
 - Внешние URL не проверяются (список формируется без запросов)
 
@@ -69,10 +57,42 @@
 | `docs/05-habr-projects/knowledge/rufler.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
 | `docs/05-habr-projects/memory/agent-memory-mcp.md` | Описание | `#описание` | якорь не найден |
 | `docs/05-habr-projects/memory/agent-memory-mcp.md` | Ключевые компоненты | `#ключевые-компоненты` | якорь не найден |
-| `docs/TABLES.md` | @handle | `templates/ссылка` | файл не существует |
-| `docs/contacts/vitalysemenov.md` | Шаблон первого сообщения | `#шаблон-первого-сообщения` | якорь не найден |
+| `docs/READING_LIST.md` | Все таблицы репозитория | `docs/TABLES.md` | файл не существует |
+| `docs/READING_LIST.md` | Outline базы знаний | `docs/OUTLINE.md` | файл не существует |
+| `docs/READING_LIST.md` | Читаемость документов (Flesch- | `docs/READABILITY.md` | файл не существует |
+| `docs/READING_LIST.md` | Время чтения документов | `docs/READING_TIME.md` | файл не существует |
+| `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
+| `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
+| `docs/READING_LIST.md` | Обратная связь | `docs/02-anthropic-vacancies/133-обратная` | файл не существует |
+| `docs/READING_LIST.md` | Глоссарий понятий | `docs/CONCEPTS.md` | файл не существует |
+| `docs/READING_LIST.md` | Карта происхождения текстов | `docs/SOURCE_MAP.md` | файл не существует |
+| `docs/READING_LIST.md` | Введение | `docs/04-ai-collaborations/00-intro.md` | файл не существует |
+| `docs/READING_LIST.md` | Что такое Вариант C — Concept  | `docs/02-anthropic-vacancies/342-что-тако` | файл не существует |
+| `docs/READING_LIST.md` | Карта репозитория Lorenzo | `docs/SITEMAP.md` | файл не существует |
+| `docs/READING_LIST.md` | Diff базы знаний между версиям | `docs/VERSION_DIFF.md` | файл не существует |
+| `docs/READING_LIST.md` | Claude hat geantwortet: Хорошо | `docs/nautilus/community-discussions/agen` | файл не существует |
+| `docs/READING_LIST.md` | ⬡ | `docs/02-anthropic-vacancies/69-section.m` | файл не существует |
+| `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
+| `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
+| `docs/READING_LIST.md` | Обратная связь | `docs/02-anthropic-vacancies/133-обратная` | файл не существует |
+| `docs/READING_LIST.md` | Что такое Вариант C — Concept  | `docs/02-anthropic-vacancies/342-что-тако` | файл не существует |
+| `docs/READING_LIST.md` | ⬡ | `docs/02-anthropic-vacancies/69-section.m` | файл не существует |
+| `docs/READING_LIST.md` | Введение | `docs/04-ai-collaborations/00-intro.md` | файл не существует |
+| `docs/READING_LIST.md` | Глоссарий понятий | `docs/CONCEPTS.md` | файл не существует |
+| `docs/READING_LIST.md` | Outline базы знаний | `docs/OUTLINE.md` | файл не существует |
+| `docs/READING_LIST.md` | Читаемость документов (Flesch- | `docs/READABILITY.md` | файл не существует |
+| `docs/READING_LIST.md` | Время чтения документов | `docs/READING_TIME.md` | файл не существует |
+| `docs/READING_LIST.md` | Карта репозитория Lorenzo | `docs/SITEMAP.md` | файл не существует |
+| `docs/READING_LIST.md` | Карта происхождения текстов | `docs/SOURCE_MAP.md` | файл не существует |
+| `docs/READING_LIST.md` | Все таблицы репозитория | `docs/TABLES.md` | файл не существует |
+| `docs/READING_LIST.md` | Diff базы знаний между версиям | `docs/VERSION_DIFF.md` | файл не существует |
+| `docs/READING_LIST.md` | Claude hat geantwortet: Хорошо | `docs/nautilus/community-discussions/agen` | файл не существует |
+| `docs/SENTINEL.md` | HTTP без TLS | `#http-без-tls` | якорь не найден |
+| `docs/TABLES.md` | @handle | `obsidian/templates/ссылка` | файл не существует |
 
-## Внешние URL (456 уникальных)
+_...и ещё 24 проблем_
+
+## Внешние URL (452 уникальных)
 
 _Внешние ссылки не проверяются автоматически — требуют ручной проверки._
 
@@ -130,34 +150,8 @@ python scripts/improve_broken_links.py --fix
 ---
 
 **Смотрите также:**
-- [HEALTH](HEALTH.md)
-- [METRICS](METRICS.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [03-component-catalog](01-svyazi/03-component-catalog.md)
-- [HEALTH](HEALTH.md)
-- [METRICS](METRICS.md)
-- [READABILITY](READABILITY.md)
 - [READING_LIST](READING_LIST.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 2_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.20)
-- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.19)
-- [METRICS](METRICS.md) (сходство 0.18)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 

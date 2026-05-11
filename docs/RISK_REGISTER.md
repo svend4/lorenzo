@@ -170,3 +170,14 @@ _Курированных рисков: 10 · Из документов: 15_
 - [02-methodology](01-svyazi/02-methodology.md) (сходство 0.15)
 - [02-methodology](obsidian/01-svyazi/02-methodology.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [privacy](svyazi-2-0/security/privacy.md)
+- [02-methodology](01-svyazi/02-methodology.md)
+- [security-routing-plane](svyazi-2-0/components/security-routing-plane.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

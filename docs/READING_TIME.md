@@ -2611,3 +2611,14 @@ python scripts/improve_reading_time.py --dry-run
 - [READING_TIME](obsidian/READING_TIME.md) (сходство 0.97)
 - [SEARCH](SEARCH.md) (сходство 0.96)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

@@ -2529,3 +2529,14 @@
 - [READABILITY](READABILITY.md) (сходство 0.96)
 - [READING_TIME](obsidian/READING_TIME.md) (сходство 0.93)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

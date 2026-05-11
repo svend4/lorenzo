@@ -1,5 +1,10 @@
 # Приоритеты файлов
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
 **Всего файлов:** 2243
@@ -871,4 +876,15 @@
 - [PRIORITIES](obsidian/PRIORITIES.md) (сходство 0.91)
 - [VERSION_DIFF](VERSION_DIFF.md) (сходство 0.38)
 - [VERSION_DIFF](obsidian/VERSION_DIFF.md) (сходство 0.38)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
 

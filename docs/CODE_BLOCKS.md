@@ -1,172 +1,16 @@
 # Code-блоки репозитория
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
-
-- [📊 Диаграммы Mermaid (46)](#диаграммы-mermaid-46)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
-  - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
-  - [Новые ансамбли следующего шага](#новые-ансамбли-следующего-шага)
-  - [Диаграмма](#диаграмма)
-  - [Граф связей](#граф-связей)
-  - [Содержание](#содержание)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-  - [Приоритетные ансамбли](#приоритетные-ансамбли)
-- [🐍 Python (204)](#python-204)
-  - [portal-mcp.py](#portal-mcppy)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
-  - [6.2. `describe()` — Required for Level 1+](#62-describe-required-for-level-1)
-  - [7. PortalEntry Structure](#7-portalentry-structure)
-  - [10. QueryResult Structure](#10-queryresult-structure)
-  - [A.2. Minimal Adapter](#a2-minimal-adapter)
-  - [6.1. BaseAdapter Contract](#61-baseadapter-contract)
-  - [6.3. `describe()` — Required](#63-describe-required)
-  - [7. PortalEntry Structure](#7-portalentry-structure)
-  - [7.2. Q6 Metadata](#72-q6-metadata)
-  - [8.4. Q6-Neighbors (Hamming Distance)](#84-q6-neighbors-hamming-distance)
-  - [9.2. Consensus Structure](#92-consensus-structure)
-  - [9.4. Algorithm](#94-algorithm)
-  - [11.1. Scoring Formula](#111-scoring-formula)
-  - [14.1. Required SDK Methods](#141-required-sdk-methods)
-- [📋 YAML (38)](#yaml-38)
-  - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
-  - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
-  - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
-  - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-се)
-  - [Пример структуры задачи (Rufler DSL)](#пример-структуры-задачи-rufler-dsl)
-  - [Appendix B: Sub-Agent Registry Schema (Sketch)](#appendix-b-sub-agent-registry-schema-sketch)
-  - [Appendix C: Configuration Template Example](#appendix-c-configuration-template-example)
-  - [Appendix C: Sample InGit MCP Server Tool Specifications](#appendix-c-sample-ingit-mcp-server-tool-specifications)
-  - [Приложение C: Образец Спецификаций Инструментов InGit MCP Се](#приложение-c-образец-спецификаций-инструментов-ingit-mcp-се)
-  - [Пример структуры задачи (Rufler DSL)](#пример-структуры-задачи-rufler-dsl)
-  - [Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
-  - [pre-commit install](#pre-commit-install)
-  - [Ступень 3: GitHub Actions CI/CD — .github/workflows/docs.yml](#ступень-3-github-actions-cicd-githubworkflowsdocsyml)
-  - [pre-commit install](#pre-commit-install)
-  - [Контракт взаимодействия](#контракт-взаимодействия)
-- [💻 Bash / Shell (2634)](#bash-shell-2634)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-  - [Использование](#использование)
-- [📦 JSON (82)](#json-82)
-  - [3.2. Schema](#32-schema)
-  - [Конфигурация для Claude Desktop](#конфигурация-для-claude-desktop)
-  - [Содержимое](#содержимое)
-  - [5.2. Pattern Library Architecture](#52-pattern-library-architecture)
-  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
-  - [Подключить свой репозиторий](#подключить-свой-репозиторий)
-  - [Connect Your Repository](#connect-your-repository)
-  - [3.2. Schema](#32-schema)
-  - [13.3. Response Schemas](#133-response-schemas)
-  - [13.3. Response Schemas](#133-response-schemas)
-  - [13.3. Response Schemas](#133-response-schemas)
-  - [13.6. Error Responses](#136-error-responses)
-  - [A.1. Minimal `nautilus.json`](#a1-minimal-nautilusjson)
-  - [`GET /api/health`](#get-apihealth)
-  - [`GET /api/benchmark`](#get-apibenchmark)
-- [📝 Без языка (547)](#без-языка-547)
-  - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
-  - [Оставшиеся 53 репозитория — как получить список](#оставшиеся-53-репозитория-как-получить-список)
-  - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
-  - [Чтобы я мог сделать конкретный code-level анализ](#чтобы-я-мог-сделать-конкретный-code-level-анализ)
-  - [Что сделать прямо сейчас](#что-сделать-прямо-сейчас)
-  - [Как правильно прислать код](#как-правильно-прислать-код)
-  - [Что на самом деле ускоряет работу](#что-на-самом-деле-ускоряет-работу)
-  - [Финальная честная рекомендация](#финальная-честная-рекомендация)
-  - [Возвращаемся к опции C](#возвращаемся-к-опции-c)
-  - [Что изменилось со времени embedded-версии](#что-изменилось-со-времени-embedded-версии)
-  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
-  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
-  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
-  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
-  - [Что нужно для MCP-обёртки опции C](#что-нужно-для-mcp-обёртки-опции-c)
-- [markdown (116)](#markdown-116)
-  - [PORTAL-PROTOCOL.md](#portal-protocolmd)
-- [Похожие документы](#похожие-документы)
-- [Использование](#использование)
-  - [4.2. Recommended Structure](#42-recommended-structure)
-- [Essence](#essence)
-- [Объём](#объём)
-- [Q6-отображение](#q6-отображение)
-- [Похожие документы](#похожие-документы)
-- [Использование](#использование)
-  - [REVIEW_METHODOLOGY.md](#review_methodologymd)
-- [Похожие документы](#похожие-документы)
-- [Использование](#использование)
-  - [2.4. Заголовок транзитного состояния](#24-заголовок-транзитного-состояния)
-  - [Q6-покрытие](#q6-покрытие)
-  - [Appendix A: Шаблон для header warning](#appendix-a-шаблон-для-header-warning)
-  - [B.1. Расхождение в числе строк кода](#b1-расхождение-в-числе-строк-кода)
-  - [README-MCP.md— инструкция по установке](#readme-mcpmd-инструкция-по-установке)
-- [Похожие документы](#похожие-документы)
-- [Использование](#использование)
-  - [THE DOUBLE-TRIANGLE ARCHITECTURE.md](#the-double-triangle-architecturemd)
-- [Похожие документы](#похожие-документы)
-- [Упоминается в](#упоминается-в)
-  - [OPEN KNOWLEDGE WORK FOUNDATION.md](#open-knowledge-work-foundationmd)
-- [Похожие документы](#похожие-документы)
-- [Упоминается в](#упоминается-в)
-  - [REPRESENTATIVE AGENT LAYER.md](#representative-agent-layermd)
-- [Похожие документы](#похожие-документы)
-- [Упоминается в](#упоминается-в)
-  - [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](#слой-представительских-агентовmd)
-- [Похожие документы](#похожие-документы)
-- [Упоминается в](#упоминается-в)
-  - [PROFESSIONAL COLLEAGUE AGENTS.md](#professional-colleague-agentsmd)
-- [Похожие документы](#похожие-документы)
-- [Упоминается в](#упоминается-в)
-  - [Типология AI-агентов на стороне принципала и обоснование про](#типология-ai-агентов-на-стороне-принципала-и-обоснование-про)
-- [Похожие документы](#похожие-документы)
-  - [COMPOSITE SKILLS AGENT.md](#composite-skills-agentmd)
-- [Похожие документы](#похожие-документы)
-- [Упоминается в](#упоминается-в)
-- [typescript (2)](#typescript-2)
-  - [6. Adapter Interface](#6-adapter-interface)
-  - [6. Adapter Interface](#6-adapter-interface)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
 
-**Всего блоков:** 3669
+**Всего блоков:** 3803
 
 | Язык | Блоков |
 |------|--------|
-| 💻 Bash / Shell | 2634 |
-| 📝 Без языка | 547 |
+| 💻 Bash / Shell | 2766 |
+| 📝 Без языка | 549 |
 | 🐍 Python | 204 |
 | markdown | 116 |
 | 📦 JSON | 82 |
@@ -303,38 +147,37 @@ _`docs/CONCEPT_GRAPH.md` | 101 строк_
 
 ```mermaid
 graph TD
-    документ["документ\n(948)"]
-    смотрите["смотрите\n(712)"]
-    также["также\n(708)"]
-    использование["использование\n(658)"]
-    anthropic["anthropic\n(630)"]
-    связанные["связанные\n(557)"]
-    note["note\n(551)"]
-    репозитория("репозитория\n(496)")
-    ссылки["ссылки\n(468)"]
-    claude["claude\n(467)"]
-    основе["основе\n(436)"]
-    создан["создан\n(435)"]
-    исследования["исследования\n(426)"]
-    источник["источник\n(401)"]
-    ведут["ведут\n(397)"]
-    материалы["материалы\n(388)"]
-    auto["auto\n(377)"]
-    этот["этот\n(364)"]
-    mhtml["mhtml\n(358)"]
-    раздел["раздел\n(355)"]
-    lorenzo["lorenzo\n(344)"]
-    снимок["снимок\n(344)"]
-    документы["документы\n(331)"]
+    документ["документ\n(937)"]
+    сходство["сходство\n(746)"]
+    смотрите["смотрите\n(687)"]
+    также["также\n(683)"]
+    использование["использование\n(637)"]
+    anthropic["anthropic\n(633)"]
+    связанные["связанные\n(546)"]
+    note["note\n(546)"]
+    репозитория("репозитория\n(468)")
+    ссылки["ссылки\n(452)"]
+    документы["документы\n(451)"]
+    создан["создан\n(427)"]
+    основе["основе\n(423)"]
+    claude["claude\n(422)"]
+    исследования["исследования\n(413)"]
+    auto["auto\n(384)"]
+    ведут["ведут\n(381)"]
+    этот["этот\n(372)"]
+    материалы["материалы\n(367)"]
+    источник["источник\n(365)"]
+    agent{{"agent\n(345)"}}
+    lorenzo["lorenzo\n(322)"]
+    mhtml["mhtml\n(320)"]
     ссылается["ссылается\n(312)"]
-    agent{{"agent\n(307)"}}
-    корень["корень\n(293)"]
- 
+    readme["readme\n(309)"]
+    раздел["раздел\n(303)
 # ... (обрезано)
 ```
 
 ### Граф связей
-_`docs/CROSS_SECTION.md` | 190 строк_
+_`docs/CROSS_SECTION.md` | 191 строк_
 
 ```mermaid
 graph LR
@@ -357,7 +200,7 @@ graph LR
     processing_guide["processing-guide"]
     svyazi_2_0["svyazi-2-0"]
     technology_combinations["technology-combinations"]
-    01_svyazi -- 13% --> 02_anthropic_vacancies
+    01_svyazi -- 12% --> 02_anthropic_vacancies
     01_svyazi -- 16% --> 03_technology_combinations
     01_svyazi
 # ... (обрезано)
@@ -1245,7 +1088,7 @@ output:
 
 _...и ещё 23 блоков этого языка_
 
-## 💻 Bash / Shell (2634)
+## 💻 Bash / Shell (2766)
 
 
 ### Использование
@@ -1365,7 +1208,7 @@ _`docs/02-anthropic-vacancies/00-intro.md` | 1 строк_
 python scripts/improve_semantic_search.py --query "Введение"
 ```
 
-_...и ещё 2619 блоков этого языка_
+_...и ещё 2751 блоков этого языка_
 
 ## 📦 JSON (82)
 
@@ -1649,7 +1492,7 @@ _`docs/GATEWAY.md` | 10 строк_
 
 _...и ещё 67 блоков этого языка_
 
-## 📝 Без языка (547)
+## 📝 Без языка (549)
 
 
 ### Оставшиеся 53 репозитория — как получить список
@@ -1774,7 +1617,7 @@ _`docs/02-anthropic-vacancies/01-интегральный-анализ-проф�
 https://raw.githubusercontent.com/svend4/nautilus/main/glyph_adapter.py
 ```
 
-_...и ещё 532 блоков этого языка_
+_...и ещё 534 блоков этого языка_
 
 ## markdown (116)
 
@@ -2175,19 +2018,3 @@ interface Adapter {
   ingest(data: Document): void;
 }
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- [ONBOARDING](ONBOARDING.md)
-- [OUTLINE](OUTLINE.md)
-- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-- [PASSIVE_VOICE](PASSIVE_VOICE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- _...ещё 3_
-

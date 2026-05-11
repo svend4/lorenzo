@@ -1,82 +1,13 @@
 # Глоссарий понятий
 
-<!-- toc -->
-## Содержание
-
-- [A](#a)
-- [B](#b)
-- [C](#c)
-- [D](#d)
-- [E](#e)
-- [F](#f)
-- [G](#g)
-- [H](#h)
-- [I](#i)
-- [J](#j)
-- [K](#k)
-- [L](#l)
-- [M](#m)
-- [N](#n)
-- [O](#o)
-- [P](#p)
-- [Q](#q)
-- [R](#r)
-- [S](#s)
-- [T](#t)
-- [U](#u)
-- [V](#v)
-- [W](#w)
-- [Y](#y)
-- [Z](#z)
-- [А](#а)
-- [Б](#б)
-- [В](#в)
-- [Г](#г)
-- [Д](#д)
-- [Е](#е)
-- [З](#з)
-- [И](#и)
-- [Й](#й)
-- [К](#к)
-- [Л](#л)
-- [М](#м)
-- [Н](#н)
-- [О](#о)
-- [П](#п)
-- [Р](#р)
-- [С](#с)
-- [Т](#т)
-- [У](#у)
-- [Ф](#ф)
-- [Ц](#ц)
-- [Ч](#ч)
-- [Ш](#ш)
-- [Щ](#щ)
-- [Ы](#ы)
-- [Э](#э)
-- [Ю](#ю)
-- [Я](#я)
-- [Использование](#использование)
-
----
-
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `CONCEPTS` формируется автоматически из данных репозитория.
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: concepts, docs -->
-
-
-<!-- summary -->
-> `CONCEPTS` — раздел документации проекта Lorenzo.
-
 
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 1186  (из 4310 совпадений)
+**Извлечено понятий:** 1185  (из 4303 совпадений)
 
 
 ## A
@@ -1211,7 +1142,7 @@ _Определения извлечены автоматически из до�
 
 **ic`, `semantic`, `procedural`, `working`)**
 : точная типизация, которой не хватает большинству memory-систем  
-  _→ [DUPLICATES](DUPLICATES.md)_
+  _→ [vitalysemenov](letters/vitalysemenov.md)_
 
 **Identification**
 : > «Здравствуйте, [имя]  
@@ -1548,6 +1479,10 @@ _Определения извлечены автоматически из до�
 **MCP server management**
 : Rufler управляет запуском/остановкой MCP-серверов для агентов  
   _→ [rufler](05-habr-projects/knowledge/rufler.md)_
+
+**md использует MCP как protocol**
+: современный и правильный выбор  
+  _→ [SUMMARIES](SUMMARIES.md)_
 
 **md)**
 : вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
@@ -2654,10 +2589,6 @@ _Определения извлечены автоматически из до�
 : orchestrator of the lower  
   _→ [262-9-integration-with-okwf-infrastructure](02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md)_
 
-**The Double-Triangle Architecture**
-: framework awaiting --- - 8  
-  _→ [SUMMARIES](SUMMARIES.md)_
-
 **The pattern library**
 : **glue** that binds the upper and  
   _→ [142-5-pattern-library-as-bridge-between-triangles](02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md)_
@@ -2899,10 +2830,6 @@ _Определения извлечены автоматически из до�
 : - No automatic validation (Cowork might create invalid YAML)  
   _→ [313-5-four-integration-paths-in-order-of-accessibility](02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md)_
 
-**which we argue**
-: correct architectural primitive for the next generation of AI-managed knowledge work  
-  _→ [SUMMARIES](SUMMARIES.md)_
-
 **who**
 : principal, who are counterparties, what  
   _→ [173-4-ten-domains-of-application](02-anthropic-vacancies/173-4-ten-domains-of-application.md)_
@@ -3132,7 +3059,7 @@ _Определения извлечены автоматически из до�
 
 **ваш nautilus использует MCP как protocol**
 : современный и правильный выбор  
-  _→ [SUMMARIES](SUMMARIES.md)_
+  _→ [03-nautilus-B-meta-orchestrator](anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md)_
 
 **Ваш scenario**
 : next evolution того, что мы делаем сейчас  
@@ -4982,63 +4909,13 @@ _Определения извлечены автоматически из до�
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
 
 
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_concepts.py
-```
-```bash
-# Вариант 2
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 6
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 7
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 8
-python scripts/improve_concepts.py --dry-run
-```
-
-<!-- backlinks -->
+<!-- see-also -->
 
 ---
 
-**Кто ссылается на этот документ (94):**
-- [02-methodology](01-svyazi/02-methodology.md)
-- [12-roadmap](01-svyazi/12-roadmap.md)
-- [14-limitations](01-svyazi/14-limitations.md)
-- [00-intro](02-anthropic-vacancies/00-intro.md)
+**Смотрите также:**
+- [TABLES](TABLES.md)
 - [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md)
-- [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
-- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- _...ещё 86_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONCEPTS](obsidian/CONCEPTS.md) (сходство 1.00)
-- [TABLES](obsidian/TABLES.md) (сходство 0.27)
-- [TABLES](TABLES.md) (сходство 0.27)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [OUTLINE](OUTLINE.md)
 

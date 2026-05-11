@@ -1867,3 +1867,14 @@ python scripts/improve_source_map.py --dry-run
 - [READING_TIME](READING_TIME.md) (сходство 0.81)
 - [READABILITY](READABILITY.md) (сходство 0.81)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

@@ -502,3 +502,14 @@ python scripts/improve_named_entities.py
 - [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.25)
 - [SEE_ALSO](SEE_ALSO.md) (сходство 0.25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [COMPARE](COMPARE.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+

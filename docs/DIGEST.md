@@ -1,56 +1,40 @@
 # Дайджест изменений
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `DIGEST` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> > chore: обновление CONCEPTS.md и ENTITIES.md
-
----
-<!-- tags: roadmap -->
-
-
-
-
 _Обновлено: 2026-05-11_
 
 ## Последний коммит
 
-**2026-05-11** — `a5b93b95`
-> chore: обновление CONCEPTS.md и ENTITIES.md
+**2026-05-11** — `0623cb16`
+> chore: regenerate auto-generated docs artifacts
 
-Изменено файлов: **2** (+76 / -275 строк)
+Изменено файлов: **335** (+19295 / -16103 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **6**
-- Добавлено строк: **+141**
-- Удалено строк: **-618**
+- Изменено файлов: **342**
+- Добавлено строк: **+20443**
+- Удалено строк: **-16104**
 - Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
+| 2026-05-11 | `0623cb16` | chore: regenerate auto-generated docs artifacts |
+| 2026-05-11 | `e734762d` | test: add 52 tests for improve_watcher, improve_self, improve_card_ind |
+| 2026-05-11 | `7ff328ed` | chore: regenerate all auto-generated docs artifacts after smart pipeli |
+| 2026-05-11 | `4a6e7a87` | chore: update auto-generated docs artifacts |
+| 2026-05-11 | `a345c19d` | test: add 95 tests for improve_llm_qa, improve_abstract, improve_bench |
+| 2026-05-11 | `cda0f08a` | test: +54 теста — test_status_badges.py + test_autofill.py; итого 394 |
+| 2026-05-11 | `c34d758c` | test: +54 теста — test_metrics.py + test_migrate_contacts.py; итого 34 |
+| 2026-05-11 | `3c00c354` | test: +51 тест — test_embedding_index.py + test_badges.py; итого 286 |
+| 2026-05-11 | `a833ea0b` | test: +27 тестов — test_passage_retrieval.py; итого 235 тестов |
+| 2026-05-11 | `779808d5` | chore: обновление COMPLEXITY.md и SENTIMENT.md |
+| 2026-05-11 | `0515207f` | test: +25 тестов — test_index_update.py; обновление docs/ и README.md |
 | 2026-05-11 | `a5b93b95` | chore: обновление CONCEPTS.md и ENTITIES.md |
 | 2026-05-11 | `56694311` | chore: обновление QUESTIONS.md |
 | 2026-05-11 | `04a47cc0` | chore: обновление ACTION_ITEMS.md и DECISIONS.md |
 | 2026-05-11 | `619729e1` | chore: обновление DENSITY.md и HEATMAP.md |
-| 2026-05-11 | `4489b806` | chore: авто-обновление docs/ после improve_run_all --smart |
-| 2026-05-11 | `b3b6c5db` | test: +44 теста — test_progress_sync.py + test_semantic_search.py |
-| 2026-05-11 | `07739d9c` | chore: обновление зеркальных файлов obsidian/confluence |
-| 2026-05-11 | `63e1280e` | feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты |
-| 2026-05-11 | `8e032586` | chore: авто-перегенерация дашбордов после v1.0.0 + check_published |
-| 2026-05-11 | `657ca79e` | feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0) |
-| 2026-05-11 | `0bf15429` | feat: /api/status — core_cards фильтрация noise-секций |
-| 2026-05-11 | `f5ebc628` | docs: обновление README.md и GATEWAY.md |
-| 2026-05-11 | `9cb118ab` | chore: авто-перегенерация дашбордов после Hit Rate@10 1.000 |
-| 2026-05-11 | `b5efba6c` | feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска |
-| 2026-05-11 | `39796fb2` | feat: POST /api/collabs endpoint + tests/test_search.py (16 тестов) |
 
 ## Текущее состояние репозитория
 
@@ -59,33 +43,3 @@ _Обновлено: 2026-05-11_
 | Документов `.md` | **2482** |
 | Скриптов обработки | **166** |
 | Последнее обновление | **2026-05-11** |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_digest.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [DIGEST](obsidian/DIGEST.md) (сходство 0.97)
-- [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) (сходство 0.36)
-- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.35)
-

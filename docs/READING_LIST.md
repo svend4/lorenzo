@@ -138,3 +138,14 @@ python scripts/improve_reading_list.py
 - [README](anthropic-vacancies/profile-mapping/02-reanalysis/README.md) (сходство 0.28)
 - [README](nautilus/community-discussions/habr-article-1-reaction/README.md) (сходство 0.27)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+

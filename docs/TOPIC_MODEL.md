@@ -214,3 +214,14 @@ python scripts/improve_topic_model.py
 - [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.23)
 - [SEE_ALSO](SEE_ALSO.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](CLUSTERS.md)
+- [READING_ORDER](READING_ORDER.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

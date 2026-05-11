@@ -69,3 +69,14 @@ python scripts/improve_dependabot.py --check-pypi
 - [README](badges/README.md) (сходство 0.31)
 - [README](obsidian/badges/README.md) (сходство 0.29)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
+- [SCHEDULE](SCHEDULE.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+

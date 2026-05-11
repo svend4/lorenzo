@@ -5,20 +5,6 @@
 
 h1. Изолированные документы (Orphans)
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{ORPHANS}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-
-
-{quote}_Найдено:_ 0 файлов без входящих ссылок из 2178 проверено.{quote}
-
-----
-
-
-
 _Найдено:_ 0 файлов без входящих ссылок из 2178 проверено.
 
 _Эти документы не связаны с остальными — их легко потерять._
@@ -36,35 +22,3 @@ h2. Рекомендации
 2. Проверить, не являются ли они дублями других файлов
 3. Крупные изолированные файлы (>100 слов) — добавить в READING_ORDER.md
 4. Мелкие (<50 слов) — рассмотреть для удаления или слияния
-
-
-
-----
-
-_Кто ссылается на этот документ (8):_
-* [CODE_BLOCKS|CODE_BLOCKS.md]
-* [INDEX|INDEX.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_orphans.py
-{code}
-
-
-
-----
-
-_Похожие документы:_
-* [ORPHANS|obsidian/ORPHANS.md] (сходство 0.95)
-* [README|obsidian/technology-combinations/synthesis-tables/README.md] (сходство 0.31)
-* [README|obsidian/svyazi-2-0/limitations/README.md] (сходство 0.31)
-

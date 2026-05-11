@@ -79,3 +79,14 @@ _Запускать регулярно для получения трендов.
 - [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.42)
 - [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.40)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
+

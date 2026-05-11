@@ -151,3 +151,14 @@ python scripts/improve_digest_auto.py
 - [DIGEST](DIGEST.md) (сходство 0.35)
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.35)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [DIGEST](DIGEST.md)
+- [STALENESS](STALENESS.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+

@@ -155,3 +155,14 @@ python scripts/improve_vocabulary.py
 - [COMPLEXITY](obsidian/COMPLEXITY.md) (сходство 0.22)
 - [COMPLEXITY](COMPLEXITY.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+

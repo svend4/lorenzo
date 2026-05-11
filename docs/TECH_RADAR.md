@@ -146,3 +146,14 @@ _Radar обновляется вручную при существенных и�
 - [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) (сходство 0.25)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md) (сходство 0.21)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+

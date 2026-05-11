@@ -7361,3 +7361,14 @@ python scripts/improve_heading_audit.py --dry-run
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) (сходство 0.97)
 - [PARAGRAPH_QUALITY](obsidian/PARAGRAPH_QUALITY.md) (сходство 0.97)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

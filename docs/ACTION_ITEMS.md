@@ -1,37 +1,16 @@
 # Action Items, риски и решения
 
-<!-- toc -->
-## Содержание
-
-- [➡️ Следующие шаги (364)](#следующие-шаги-364)
-- [✅ Решения и рекомендации (1065)](#решения-и-рекомендации-1065)
-- [⚠️ Риски (1309)](#риски-1309)
-- [🚫 Ограничения (384)](#ограничения-384)
-- [📋 Задачи (TODO) (38)](#задачи-todo-38)
-- [📬 Контактные действия (314)](#контактные-действия-314)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
-> [!NOTE]
-> Раздел `ACTION_ITEMS` формируется автоматически из данных репозитория.
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: action-items, docs -->
-
-
-<!-- summary -->
-> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
-
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3474
+**Всего элементов:** 3597
 
 
-## ➡️ Следующие шаги (364)
+## ➡️ Следующие шаги (374)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -197,7 +176,7 @@
   _→ EMPTY_SECTIONS_
 - после извлечения (14 сл., строка 135)  
   _→ EMPTY_SECTIONS_
-- (13 сл., строка 60)  
+- (13 сл., строка 39)  
   _→ EMPTY_SECTIONS_
 - - Приоритет 1: kksudo (AgentFS, 13 упоминаний)  
   _→ OUTLINE_
@@ -205,6 +184,12 @@
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
+- — call? [S]  
+  _→ QUESTIONS_
+- — call? [Твоя коммуникация в outreach]  
+  _→ QUESTIONS_
+- набора узкоспециализированных под-аге [Содержание]  
+  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
@@ -256,9 +241,9 @@
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(253 дублей скрыто)_
+_(260 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1065)
+## ✅ Решения и рекомендации (1072)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -476,6 +461,8 @@ _(253 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - go / no-go** _`docs`, `automation`_  
   _→ GITHUB_ISSUES_
+- создать документы - Детали по топ-20 пробелам - `MH | `CONTENT_GAPS` |  
+  _→ KPI_
 - Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
   _→ OUTLINE_
 - Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
@@ -490,6 +477,8 @@ _(253 дублей скрыто)_
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
+- упростить](#самые-сложные-тексты-2471-рекомендуется-упростить)  
+  _→ READABILITY_
 - Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |  
   _→ READING_ORDER_
 - boundary | 7 |  
@@ -500,9 +489,13 @@ _(253 дублей скрыто)_
   _→ SENTINEL_
 - × Auto A](technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) | 322 |  
   _→ SITEMAP_
+- , проекта , версии , метрика , count !IMPORTANT Ключевой документ для понимания архитектуры. Два независимых анализа пришли к разным выводам: --- Два  
+  _→ SUMMARIES_
+- для early-stage проекта, приоритет средний Текущее решение автора : ваше решение + обоснование 1.  
+  _→ SUMMARIES_
 - автоматическое, по правилу - Наша методология: разрешение ручное, через правила 1-5 В security и public policy используется структура red vs blue : од  
   _→ SUMMARIES_
-- через Правило 2 §3.1 : Финальная запись : Правило: итоговое число — точное, верифицированное , не среднее между A и B. Из IMPLEMENTATION STAGE PART 1.  
+- оба риска реальны, приоритезация зависит от цели проекта. ✅ Результат: Расхождение в концептуальных выводах Правило 5 Гипотетический пример: Разрешени  
   _→ SUMMARIES_
 - boundary](#477-decision-boundary)  
   _→ TABLES_
@@ -526,6 +519,8 @@ _(253 дублей скрыто)_
   _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `TABLES.md` |  
   _→ TIMELINE_
+- упростить | Contents, Вариант 10, Вариант 11 +20 |  
+  _→ VERSION_DIFF_
 - как связь между людьми» — или это  
   _→ spbmolot_
 - две уровневая"  
@@ -601,9 +596,9 @@ _(253 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(895 дублей скрыто)_
+_(897 дублей скрыто)_
 
-## ⚠️ Риски (1309)
+## ⚠️ Риски (1389)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1059,17 +1054,19 @@ _(895 дублей скрыто)_
   _→ CHANGELOG_
 - algorithm, update methodology `a5de89d7`  
   _→ CHANGELOG_AUTO_
-- (17 файлов)  
-  _→ CLUSTERS_
 - mitigations**  
   _→ CONCEPTS_
 - и allowlist для MCP ^rufler: OSS-проект: оркестратор AI-агентов ^svyazi: Главный проект: экосистема AI-компонен  
   _→ CONTRADICTIONS_
 - и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ (3) -  
   _→ CONTRADICTIONS_
+- и allowlist для MCP ^svyazi: Главный проект: эк  
+  _→ CONTRADICTIONS_
 - | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 - mitigation для каждой. Полезно для grant  
+  _→ DECISIONS_
+- | |------|----------|------| | `docs/obsidian/02-anthropic-vaca  
   _→ DECISIONS_
 - собирать вс  
   _→ DECISIONS_
@@ -1079,13 +1076,11 @@ _(895 дублей скрыто)_
   _→ DEMO_
 - | `root` | 91% |  
   _→ DENSITY_
-- | |------|----------|------| | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-` | BSL | Business Source License — не открытая, коммерчес  
-  _→ DUPLICATES_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
 - Analysis (0 сл., строка 34)  
   _→ EMPTY_SECTIONS_
-- агентов? (5 сл., строка 28)  
+- агентов? (5 сл., строка 19)  
   _→ EMPTY_SECTIONS_
 - и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
@@ -1123,6 +1118,26 @@ _(895 дублей скрыто)_
   _→ PRECISION_EVAL_
 - | Вероятность | Митигация |  
   _→ PROTOTYPE_SPEC_
+- Почему это важно Снижение риска [6. План прототипа и возможные контакты]  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н [5.  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска [План прототипа и возможные контакты]  
+  _→ QUESTIONS_
+- Двусмысленность Ответственности]  
+  _→ QUESTIONS_
+- Coordinator Bias]  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска [Contents]  
+  _→ QUESTIONS_
+- Нарушения Конфиденциальности]  
+  _→ QUESTIONS_
+- агентов?, Q&A: svyazi-2-0 - Основной раздел - Содержание [📝 Изменённые файлы (944)]  
+  _→ QUESTIONS_
+- агентов? [Q&A: meta-scripting]  
+  _→ QUESTIONS_
+- склеивать]  
+  _→ QUESTIONS_
 - Analysis](02-anthropic-vacancies/162-8-risk-analysis.md) | 775 | — |  
   _→ READING_ORDER_
 - и приватность](01-svyazi/06-security-privacy.md) | 941 | — |  
@@ -1135,15 +1150,13 @@ _(895 дублей скрыто)_
   _→ RISK_REGISTER_
 - и allowlist для MCP [^rufler]: OSS-проект: оркестратор AI-аген… |  
   _→ RISK_REGISTER_
-- и приватность ## Contents - Содержание - [Безопасность, приватно… |  
+- и приватность <!-- toc-auto --> ## Contents - Содержание - [Безопасность, приватно… |  
   _→ RISK_REGISTER_
 - и PII описаны | ✅ | 8 |  
   _→ SCORING_
 - тестировать любую цепочку.  
   _→ SCRIPT_EVAL_REPORT_
-- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н  
-  _→ SIMILAR_PASSAGES_
-- собирать все сраз  
+- --- --- --- --- --- Evidence-first core Из любого suggestions можн  
   _→ SIMILAR_PASSAGES_
 - [Название]](templates/risk-entry.md) | 371 |  
   _→ SITEMAP_
@@ -1155,7 +1168,13 @@ _(895 дублей скрыто)_
   _→ SITEMAP_
 - склеивать](svyazi-2-0/limitations/do-not-glue.md) | 429 |  
   _→ SITEMAP_
-- того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse, Legal RAG ^rag , Hybrid  
+- того, что через две недели Проекты: Svyazi ^svyazi , CardIndex ^cardindex , AgentFS ^agentfs , mclaude, AI Factory, LiteParse 01-executive-summary.md  
+  _→ SUMMARIES_
+- и приватность_  
+  _→ SUMMARIES_
+- , бюджетный , роутинг , нужен !WARNING Документ описывает ограничения, риски или требования безопасности. Для Svyazi ^svyazi ‑2.0 безопасная архитекту  
+  _→ SUMMARIES_
+- и allowlist для MCP ^svyazi : Главный проект: экосистема AI-компонентов  
   _→ SUMMARIES_
 - Analysis]] | 775 | — |  
   _→ TABLES_
@@ -1174,6 +1193,8 @@ _(895 дублей скрыто)_
 - и allowlist для MCP | 0 |  
   _→ TABLES_
 - и приватность]] | 941 | — |  
+  _→ TABLES_
+- и приватность ## Contents - Содержание - [Безопасность, приватно… |  
   _→ TABLES_
 - и приватность]] | 941 |  
   _→ TABLES_
@@ -1195,6 +1216,8 @@ _(895 дублей скрыто)_
   _→ TABLES_
 - склеивать](svyazi-2-0/limitations/do-not-glue.md) | 411 |  
   _→ TABLES_
+- агентов?, Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью? +2 |  
+  _→ VERSION_DIFF_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 - склеивать в один релиз"  
@@ -1262,9 +1285,9 @@ _(895 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(981 дублей скрыто)_
+_(1047 дублей скрыто)_
 
-## 🚫 Ограничения (384)
+## 🚫 Ограничения (388)
 
 - и лицензии  
   _→ 14-limitations_
@@ -1420,16 +1443,24 @@ _(981 дублей скрыто)_
   _→ OUTLINE_
 - (честно)](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-честноan  
   _→ OUTLINE_
+- Git [Итог]  
+  _→ QUESTIONS_
 - и лицензии](01-svyazi/14-limitations.md) | 765 | — |  
   _→ READING_ORDER_
 - ### ⚠️ 1. 137 из 159 скриптов без --dry-run  
   _→ SCRIPT_EVAL_REPORT_
+- пропускной способности. Человеческая когнитивная способность ограничена. Глубокая техническая работа, научные иссл  
+  _→ SIMILAR_PASSAGES_
 - и лицензии](01-svyazi/14-limitations.md) | 765 |  
   _→ SITEMAP_
 - и лицензии](obsidian/01-svyazi/14-limitations.md) | 776 |  
   _→ SITEMAP_
 - и открытые вопросы](obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 561 |  
   _→ SITEMAP_
+- и лицензии_  
+  _→ SUMMARIES_
+- , лицензии !WARNING Документ описывает ограничения, риски или требования безопасности. Svyazi ^svyazi как базовый паттерн остаётся авторским закрытым  
+  _→ SUMMARIES_
 - и открытые вопросы_  
   _→ SUMMARIES_
 - и лицензии]] | 765 | — |  
@@ -1497,7 +1528,7 @@ _(981 дублей скрыто)_
 
 _(270 дублей скрыто)_
 
-## 📋 Задачи (TODO) (38)
+## 📋 Задачи (TODO) (52)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1515,6 +1546,16 @@ _(270 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
+- ⭐ To Do — задача к выполнению 51 [107. Contents]  
+  _→ QUESTIONS_
+- из docs/. [extract (9)]  
+  _→ QUESTIONS_
+- ⭐ To Do — задача к выполнению 40 [Словарь аббревиатур и сокращений]  
+  _→ QUESTIONS_
+- во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
+  _→ QUESTIONS_
+- [12.4. Path D — Auto-Scanner]  
+  _→ QUESTIONS_
 - из docs/. | |  
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
@@ -1530,9 +1571,9 @@ _(270 дублей скрыто)_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(23 дублей скрыто)_
+_(32 дублей скрыто)_
 
-## 📬 Контактные действия (314)
+## 📬 Контактные действия (322)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1678,6 +1719,10 @@ _(23 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [129. Топ авторов по приоритету]  
+  _→ QUESTIONS_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
+  _→ QUESTIONS_
 - первое сообщение автору проекта. |  
   _→ REGISTRY_
 - первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
@@ -1715,67 +1760,15 @@ _(23 дублей скрыто)_
 - `adapters/<format>.py`, наследуясь от `[[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
 
-_(224 дублей скрыто)_
+_(230 дублей скрыто)_
 
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_action_items.py
-```
-```bash
-# Вариант 2
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_action_items.py --dry-run
-```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-- [Решения](DECISIONS.md)
-- [Контакты](CONTACTS.md)
-- [Оценка](SCORING.md)
-- [Теги](TAGS.md)
-- [Задачи](ACTION_ITEMS.md)
-- [Хронология](TIMELINE.md)
-- [Структура](OUTLINE.md)
-
-<!-- backlinks -->
+<!-- see-also -->
 
 ---
 
-**Кто ссылается на этот документ (35):**
-- [03-component-catalog](01-svyazi/03-component-catalog.md)
-- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
-- [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
-- [165-closing](02-anthropic-vacancies/165-closing.md)
-- [207-приложение-c-образцы-случаев-использования-в-детал](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
-- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
-- [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
-- _...ещё 27_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ACTION_ITEMS](obsidian/ACTION_ITEMS.md) (сходство 1.00)
-- [QUESTIONS](QUESTIONS.md) (сходство 0.23)
-- [QUESTIONS](obsidian/QUESTIONS.md) (сходство 0.23)
+**Смотрите также:**
+- [CONCEPTS](CONCEPTS.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
 

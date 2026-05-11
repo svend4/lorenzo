@@ -1,14 +1,7 @@
 # CHANGELOG
 
-> [!NOTE]
-> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
-
-
-Всего коммитов: **250**  
-Статистика: 🔧 chore: 92 | ✨ feat: 81 | 🐛 fix: 36 | 📝 docs: 25 | ⚡ improve: 15 | 🧪 test: 1
+Всего коммитов: **261**  
+Статистика: 🔧 chore: 96 | ✨ feat: 81 | 🐛 fix: 36 | 📝 docs: 25 | ⚡ improve: 15 | 🧪 test: 8
 
 
 ## semantic (1 коммитов)
@@ -23,10 +16,18 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (45 коммитов)
+## 2026-05-11 (56 коммитов)
 
 ### 🔧 Обслуживание
 
+- regenerate auto-generated docs artifacts _0623cb16_
+  > Bulk update of reports, indexes, exports, Obsidian/Confluence mirrors,
+- regenerate all auto-generated docs artifacts after smart pipeline run _7ff328ed_
+  > Updates to analysis reports, search indexes, chunks, Obsidian/Confluence exports,
+- update auto-generated docs artifacts _4a6e7a87_
+  > Regenerated search_index.json, export.csv, RSS/Atom feeds, and HTML export
+- обновление COMPLEXITY.md и SENTIMENT.md _779808d5_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - обновление CONCEPTS.md и ENTITIES.md _a5b93b95_
   > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
 - обновление QUESTIONS.md _56694311_
@@ -121,6 +122,20 @@
   > - Fix improve_timeline.py: strip markdown links from context text, use DOCS-relative paths
 ### 🧪 Тесты
 
+- add 52 tests for improve_watcher, improve_self, improve_card_index _e734762d_
+  > - test_watcher.py (20 tests): should_run cooldown logic, handle_change RULES
+- add 95 tests for improve_llm_qa, improve_abstract, improve_benchmark _a345c19d_
+  > - test_llm_qa.py (47 tests): tokenize_query, score_doc, find_relevant,
+- +54 теста — test_status_badges.py + test_autofill.py; итого 394 _cda0f08a_
+  > test_status_badges.py (37 тестов):
+- +54 теста — test_metrics.py + test_migrate_contacts.py; итого 340 _c34d758c_
+  > test_metrics.py (28 тестов):
+- +51 тест — test_embedding_index.py + test_badges.py; итого 286 _3c00c354_
+  > test_embedding_index.py (29 тестов):
+- +27 тестов — test_passage_retrieval.py; итого 235 тестов _a833ea0b_
+  > test_passage_retrieval.py (27 тестов):
+- +25 тестов — test_index_update.py; обновление docs/ и README.md _0515207f_
+  > test_index_update.py (25 тестов):
 - +44 теста — test_progress_sync.py + test_semantic_search.py _b3b6c5db_
   > test_progress_sync.py (24 теста):
 
@@ -532,40 +547,3 @@
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_changelog.py
-```
-```bash
-# Вариант 2
-python scripts/improve_changelog.py --dry-run
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CHANGELOG](obsidian/CHANGELOG.md) (сходство 1.00)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.57)
-- [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 0.57)
-

@@ -1,31 +1,5 @@
 # Рекомендуемый порядок чтения
 
-> [!NOTE]
-> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Маршруты по целям](#маршруты-по-целям)
-  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
-  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
-  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
@@ -454,48 +428,3 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [README](02-anthropic-vacancies/README.md)
-- [CLUSTERS](CLUSTERS.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [KPI](KPI.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 3_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_reading_order.py
-```
-```bash
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [READING_ORDER](obsidian/READING_ORDER.md) (сходство 1.00)
-- [README](02-anthropic-vacancies/README.md) (сходство 0.74)
-- [README](obsidian/02-anthropic-vacancies/README.md) (сходство 0.74)
-

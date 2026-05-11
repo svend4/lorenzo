@@ -327,3 +327,14 @@ python scripts/improve_changelog_auto.py
 - [CHANGELOG](CHANGELOG.md) (сходство 0.57)
 - [CHANGELOG](obsidian/CHANGELOG.md) (сходство 0.57)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG](CHANGELOG.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

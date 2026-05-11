@@ -1,22 +1,13 @@
 # Callout-блоки
 
-<!-- summary -->
-> Добавлено **36** callout-блоков в документы.
-
----
-<!-- tags: ingestion -->
-
-
-
-
-Добавлено **36** callout-блоков в документы.
+Добавлено **25** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
 |-----|------------|------------|
-| `[!NOTE]` | 11 | Нейтральная заметка |
-| `[!TIP]` | 19 | Практический совет |
-| `[!WARNING]` | 4 | Предупреждение о риске |
-| `[!IMPORTANT]` | 2 | Ключевой документ |
+| `[!NOTE]` | 7 | Нейтральная заметка |
+| `[!TIP]` | 13 | Практический совет |
+| `[!WARNING]` | 5 | Предупреждение о риске |
+| `[!IMPORTANT]` | 0 | Ключевой документ |
 
 ## Пример синтаксиса
 
@@ -35,28 +26,3 @@
 ```
 
 _Поддерживается в GitHub Markdown с 2023 года._
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ALERTS](obsidian/ALERTS.md) (сходство 0.93)
-- [README](obsidian/processing-guide/README.md) (сходство 0.29)
-- [README](processing-guide/README.md) (сходство 0.27)
-

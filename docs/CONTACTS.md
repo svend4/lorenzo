@@ -1,48 +1,22 @@
 # Контакты и авторы
 
-> [!NOTE]
-> Раздел `CONTACTS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Ключевые авторы проектов](#ключевые-авторы-проектов)
-- [GitHub репозитории](#github-репозитории)
-- [Email адреса](#email-адреса)
-- [Шаблон первого сообщения](#шаблон-первого-сообщения)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 ## Ключевые авторы проектов
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 132 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 82 | — |
-| **Cutcode** | AIF Handoff | orchestration | 74 | — |
-| **Dmitriila** | SENTINEL | security | 65 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 133 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 83 | — |
+| **Cutcode** | AIF Handoff | orchestration | 71 | — |
+| **Dmitriila** | SENTINEL | security | 63 | — |
 | **MiXaiLL76** | Auto AI Router | security | 61 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 42 | — |
-| **VitalyOborin** | Yodoca | memory | 110 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 85 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 41 | — |
+| **VitalyOborin** | Yodoca | memory | 107 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 81 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
-| **kksudo** | AgentFS | knowledge/filesystem | 194 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
-| **lee-to** | AI Factory | orchestration | 23 | — |
-| **nlaik** | LiteParse / research-docs | rag | 82 | — |
-| **spbmolot** | NGT Memory | memory | 175 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **kksudo** | AgentFS | knowledge/filesystem | 193 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
+| **lee-to** | AI Factory | orchestration | 22 | — |
+| **nlaik** | LiteParse / research-docs | rag | 81 | — |
+| **spbmolot** | NGT Memory | memory | 173 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
 | **tagir_analyzes** | Legal RAG | rag | 29 | — |
 | **zodigancode** | Rufler | orchestration | 93 | — |
 
@@ -70,26 +44,26 @@
 | `github.com/github.com/kagvi13/HMP` | 2 |
 | `github.com/github.com/kagvi13/HMP.` | 4 |
 | `github.com/github.com/kksudo` | 7 |
-| `github.com/github.com/kksudo/agentfs` | 11 |
+| `github.com/github.com/kksudo/agentfs` | 9 |
 | `github.com/github.com/lib4u/rufler` | 4 |
 | `github.com/github.com/mcp` | 15 |
 | `github.com/github.com/nlaik` | 7 |
 | `github.com/github.com/ruvnet/ruflo` | 4 |
-| `github.com/github.com/settings/tokens` | 9 |
+| `github.com/github.com/settings/tokens` | 11 |
 | `github.com/github.com/spbmolot` | 7 |
 | `github.com/github.com/spbmolot/ngt-memory` | 9 |
 | `github.com/github.com/svend4` | 9 |
-| `github.com/github.com/svend4/data70` | 13 |
-| `github.com/github.com/svend4/info1` | 25 |
-| `github.com/github.com/svend4/info40` | 9 |
-| `github.com/github.com/svend4/info7` | 9 |
-| `github.com/github.com/svend4/ingit` | 29 |
+| `github.com/github.com/svend4/data70` | 11 |
+| `github.com/github.com/svend4/info1` | 23 |
+| `github.com/github.com/svend4/info40` | 7 |
+| `github.com/github.com/svend4/info7` | 7 |
+| `github.com/github.com/svend4/ingit` | 27 |
 | `github.com/github.com/svend4/lorenzo` | 4 |
-| `github.com/github.com/svend4/meta` | 23 |
-| `github.com/github.com/svend4/n` | 3 |
-| `github.com/github.com/svend4/nautilus` | 116 |
+| `github.com/github.com/svend4/meta` | 19 |
+| `github.com/github.com/svend4/n` | 4 |
+| `github.com/github.com/svend4/nautilus` | 114 |
 | `github.com/github.com/svend4/nautilus.` | 4 |
-| `github.com/github.com/svend4/nautilus.git` | 7 |
+| `github.com/github.com/svend4/nautilus.git` | 5 |
 | `github.com/github.com/svend4/pro2` | 25 |
 | `github.com/github.com/tagir` | 5 |
 | `github.com/github.com/tree` | 2 |
@@ -114,29 +88,3 @@
 Если интересно — пришлю одностраничную схему интеграции.
 Если нет — спасибо за публикацию, она уже повлияла на архитектуру.
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (28):**
-- [13-contacts](01-svyazi/13-contacts.md)
-- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [GITHUB_ISSUES](GITHUB_ISSUES.md)
-- [INDEX](INDEX.md)
-- _...ещё 20_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONTACTS](obsidian/CONTACTS.md) (сходство 0.98)
-- [narrow-questions](svyazi-2-0/outreach/narrow-questions.md) (сходство 0.29)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md) (сходство 0.29)
-

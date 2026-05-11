@@ -16556,3 +16556,14 @@ python scripts/improve_outline.py --dry-run
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md) (сходство 0.48)
 - [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) (сходство 0.48)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [TABLES](TABLES.md)
+

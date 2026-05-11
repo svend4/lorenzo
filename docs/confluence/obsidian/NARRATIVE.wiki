@@ -20,6 +20,11 @@ date: 2026-05-11
 
 h1. Нарратив проекта Lorenzo
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
 
 {quote}_Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._{quote}
 _Проекты:_ Svyazi, AgentFS, AI Factory, LiteParse, Yodoca, NGT Memory

@@ -1,33 +1,5 @@
 # Оценка стоимости MVP
 
-> [!NOTE]
-> Раздел `COST` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Ориентировочные цифры на основе документации проекта._
-**Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Итого](#итого)
-- [По компонентам](#по-компонентам)
-- [По ролям](#по-ролям)
-- [Сценарии](#сценарии)
-- [Временные оценки из документов](#временные-оценки-из-документов)
-- [Допущения](#допущения)
-
----
-
-<!-- tags: memory, orchestration, security, knowledge, architecture, roadmap, collaboration -->
-
-
-
-
 _Ориентировочные цифры на основе документации проекта._
 
 ## Итого
@@ -99,34 +71,3 @@ _Минимальный сценарий: open source + личное время 
 - Open Source компоненты: бесплатны
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_cost.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [COST](obsidian/COST.md) (сходство 0.98)
-- [SCHEDULE](SCHEDULE.md) (сходство 0.19)
-- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.19)
-

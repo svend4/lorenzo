@@ -347,3 +347,14 @@ python scripts/improve_similar_passages.py
 - [CONTRADICTIONS](CONTRADICTIONS.md) (сходство 0.19)
 - [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) (сходство 0.19)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [VOCABULARY](VOCABULARY.md)
+

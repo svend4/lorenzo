@@ -165,3 +165,14 @@ _Карта сгенерирована автоматически: 2026-05-11_
 - [QA](03-technology-combinations/QA.md) (сходство 0.35)
 - [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.34)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [QA](svyazi-2-0/QA.md)
+- [HEALTH](HEALTH.md)
+

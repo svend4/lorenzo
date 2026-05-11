@@ -62,3 +62,14 @@
 - [MINDMAP](MINDMAP.md) (сходство 0.35)
 - [MINDMAP](obsidian/MINDMAP.md) (сходство 0.32)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](MINDMAP.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [NETWORK](NETWORK.md)
+

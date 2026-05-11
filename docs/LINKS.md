@@ -1,5 +1,10 @@
 # Индекс ссылок
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 Всего уникальных URL: 466
 
 | URL | Найден в файлах |
@@ -229,4 +234,15 @@
 - [LINKS](obsidian/LINKS.md) (сходство 0.85)
 - [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.44)
 - [README](contacts/README.md) (сходство 0.18)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [sonia-black](contacts/sonia-black.md)
+- [AUTHORS](AUTHORS.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
 

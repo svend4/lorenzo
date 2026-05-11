@@ -1,10 +1,5 @@
 # Ансамбль: [Название]
 
-> [!NOTE]
-> Раздел `ensemble` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -51,29 +46,3 @@ output:
 
 ---
 _Создано: 2026-05-11_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (11):**
-- [119-appendix-b-примеры-расхождений-и-их-разрешения](../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md)
-- [298-что-этот-документ-не-решает](../02-anthropic-vacancies/298-что-этот-документ-не-решает.md)
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [REGISTRY](../REGISTRY.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [README](README.md)
-- _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ensemble](../obsidian/templates/ensemble.md) (сходство 0.91)
-- [project-component](project-component.md) (сходство 0.32)
-- [project-component](../obsidian/templates/project-component.md) (сходство 0.31)
-

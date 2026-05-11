@@ -1,22 +1,5 @@
 # Расписание проекта
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Дорожная карта с вехами и задачами по кварталам._
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
-
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
-
-
 _Дорожная карта с вехами и задачами по кварталам._
 
 ## Ключевые вехи
@@ -69,27 +52,3 @@ _█ = активная работа, ░ = ожидание_
 - Вех выполнено: **3/10** (30%)
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.97)
-- [MINDMAP](MINDMAP.md) (сходство 0.27)
-- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.27)
-

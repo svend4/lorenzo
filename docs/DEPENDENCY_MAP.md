@@ -255,3 +255,14 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [README](README.md) (сходство 0.25)
 - [README](obsidian/README.md) (сходство 0.25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [INDEX](INDEX.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [STALENESS](STALENESS.md)
+

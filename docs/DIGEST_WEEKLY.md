@@ -137,3 +137,14 @@ _Сгенерировано: 2026-05-11 09:03_
 - [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.35)
 - [METRICS](METRICS.md) (сходство 0.32)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [METRICS](METRICS.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+

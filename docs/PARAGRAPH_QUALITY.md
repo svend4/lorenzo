@@ -7538,3 +7538,14 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [HEADING_AUDIT](HEADING_AUDIT.md) (сходство 0.97)
 - [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) (сходство 0.97)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

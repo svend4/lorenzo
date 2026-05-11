@@ -89,3 +89,14 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 - [ORPHANS](ORPHANS.md) (сходство 0.25)
 - [README](obsidian/svyazi-2-0/outreach/README.md) (сходство 0.25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [WORD_CLOUD](WORD_CLOUD.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [COVERAGE](COVERAGE.md)
+

@@ -89,3 +89,14 @@ python scripts/improve_passive_voice.py
 - [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.34)
 - [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.33)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

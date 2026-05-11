@@ -1,5 +1,10 @@
 # Отчёт о дублировании
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 Порог сходства: **0.5**  
 Точных дублей: **0**  
 Похожих пар: **977**
@@ -348,4 +353,15 @@ _...и ещё 947 пар._
 - [DUPLICATES](obsidian/DUPLICATES.md) (сходство 0.32)
 - [PRECISION_EVAL](obsidian/PRECISION_EVAL.md) (сходство 0.19)
 - [PRECISION_EVAL](PRECISION_EVAL.md) (сходство 0.19)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PRECISION_EVAL](PRECISION_EVAL.md)
+- [QA](svyazi-2-0/QA.md)
+- [00-tldr](nautilus/review-methodology/00-tldr.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
 

@@ -1,5 +1,10 @@
 # Авторы и коллаборации
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
@@ -54,4 +59,15 @@
 - [AUTHORS](obsidian/AUTHORS.md) (сходство 0.70)
 - [README](obsidian/contacts/README.md) (сходство 0.39)
 - [README](contacts/README.md) (сходство 0.39)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [.md](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
 

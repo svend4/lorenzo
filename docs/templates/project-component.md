@@ -1,10 +1,5 @@
 # [Название компонента]
 
-> [!NOTE]
-> Раздел `project-component` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -38,36 +33,3 @@
 
 ---
 _Создано: 2026-05-11_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [REGISTRY](../REGISTRY.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-- [research-summary](../autofilled/research-summary.md)
-- [README](README.md)
-- [agent-spec](agent-spec.md)
-- _...ещё 2_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_project_component.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [project-component](../obsidian/templates/project-component.md) (сходство 0.95)
-- [contact-outreach](contact-outreach.md) (сходство 0.32)
-- [ensemble](ensemble.md) (сходство 0.32)
-

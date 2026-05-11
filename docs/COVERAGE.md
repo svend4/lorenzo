@@ -81,3 +81,14 @@ python scripts/improve_autofill.py
 - [HEATMAP](obsidian/HEATMAP.md) (сходство 0.27)
 - [README](svyazi-2-0/overview/README.md) (сходство 0.27)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [SCORING](SCORING.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
+

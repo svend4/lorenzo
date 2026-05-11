@@ -1,22 +1,5 @@
 # Майндмап репозитория Lorenzo
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `MINDMAP` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> knowledge-space[knowledge-space]
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 ## Структура разделов
 
 ```mermaid
@@ -68,7 +51,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge-space[knowledge-space]
+    knowledge_space[knowledge space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -92,14 +75,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge-space
+  AgentFS -->|reference| knowledge_space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improvement| AutoResearch
+  Rufler -->|self-improve| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```
@@ -125,30 +108,4 @@ flowchart LR
 - [NETWORK](NETWORK.md)
 - [GRAPH](GRAPH.md)
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
-- [GRAPH](GRAPH.md)
-- [NETWORK](NETWORK.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.94)
-- [GRAPH](GRAPH.md) (сходство 0.49)
-- [GRAPH](obsidian/GRAPH.md) (сходство 0.47)
 

@@ -6,91 +6,20 @@
 ----
 title: "Глоссарий понятий"
 tags:
-  * concepts
-  * docs
   * general
 date: 2026-05-11
 ----
 
 h1. Глоссарий понятий
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
-h2. Содержание
-
-* [A|#a]
-* [B|#b]
-* [C|#c]
-* [D|#d]
-* [E|#e]
-* [F|#f]
-* [G|#g]
-* [H|#h]
-* [I|#i]
-* [J|#j]
-* [K|#k]
-* [L|#l]
-* [M|#m]
-* [N|#n]
-* [O|#o]
-* [P|#p]
-* [Q|#q]
-* [R|#r]
-* [S|#s]
-* [T|#t]
-* [U|#u]
-* [V|#v]
-* [W|#w]
-* [Y|#y]
-* [Z|#z]
-* [А|#а]
-* [Б|#б]
-* [В|#в]
-* [Г|#г]
-* [Д|#д]
-* [Е|#е]
-* [З|#з]
-* [И|#и]
-* [Й|#й]
-* [К|#к]
-* [Л|#л]
-* [М|#м]
-* [Н|#н]
-* [О|#о]
-* [П|#п]
-* [Р|#р]
-* [С|#с]
-* [Т|#т]
-* [У|#у]
-* [Ф|#ф]
-* [Ц|#ц]
-* [Ч|#ч]
-* [Ш|#ш]
-* [Щ|#щ]
-* [Ы|#ы]
-* [Э|#э]
-* [Ю|#ю]
-* [Я|#я]
-* [Использование|#использование]
-
-----
-
-
-
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{CONCEPTS}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-
-
-{quote}{{CONCEPTS}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Определения извлечены автоматически из документов._
 
-_Извлечено понятий:_ 1186  (из 4310 совпадений)
+_Извлечено понятий:_ 1185  (из 4303 совпадений)
 
 
 h2. A
@@ -1209,7 +1138,7 @@ _iant C concept document с Lorenzo central_
 
 _ic{{, }}semantic{{, }}procedural{{, }}working`)_
 : точная типизация, которой не хватает большинству memory-систем  
-  _→ [[DUPLICATES]]_
+  _→ [[vitalysemenov]]_
 
 _Identification_
 : > «Здравствуйте, [имя]  
@@ -1540,6 +1469,10 @@ _MCP (Model Context Protocol)_
 _MCP server management_
 : Rufler управляет запуском/остановкой MCP-серверов для агентов  
   _→ [[rufler]]_
+
+_md использует MCP как protocol_
+: современный и правильный выбор  
+  _→ [[SUMMARIES]]_
 
 _md)_
 : вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
@@ -2642,10 +2575,6 @@ _The composite agent itself_
 : orchestrator of the lower  
   _→ [[262-9-integration-with-okwf-infrastructure]]_
 
-_The Double-Triangle Architecture_
-: framework awaiting --- - 8  
-  _→ [[SUMMARIES]]_
-
 _The pattern library_
 : _glue_ that binds the upper and  
   _→ [[142-5-pattern-library-as-bridge-between-triangles]]_
@@ -2885,10 +2814,6 @@ _What's missing_
 : - No automatic validation (Cowork might create invalid YAML)  
   _→ [[313-5-four-integration-paths-in-order-of-accessibility]]_
 
-_which we argue_
-: correct architectural primitive for the next generation of AI-managed knowledge work  
-  _→ [[SUMMARIES]]_
-
 _who_
 : principal, who are counterparties, what  
   _→ [[173-4-ten-domains-of-application]]_
@@ -3116,7 +3041,7 @@ _Ваш deployment process_
 
 _ваш nautilus использует MCP как protocol_
 : современный и правильный выбор  
-  _→ [[SUMMARIES]]_
+  _→ [[03-nautilus-B-meta-orchestrator]]_
 
 _Ваш scenario_
 : next evolution того, что мы делаем сейчас  
@@ -4957,65 +4882,4 @@ _явного state machine_
 _Ясный спрос_
 : Автор лично нуждается в этом  
   _→ [[239-8-пилотное-предложение-sgb-колega-адвокат]]_
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_concepts.py
-{code}
-{code:language=bash}
-# Вариант 2
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 3
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 4
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 5
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 6
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 7
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 8
-python scripts/improve_concepts.py --dry-run
-{code}
-
-
-
-----
-
-_Кто ссылается на этот документ (94):_
-* [[02-methodology]]
-* [[12-roadmap]]
-* [[14-limitations]]
-* [[00-intro]]
-* [[01-интегральный-анализ-профиля-svend4]]
-* [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
-* [[112-5-связь-с-существующими-методологиями]]
-* [[115-8-ограничения-и-открытые-вопросы]]
-* _...ещё 86_
-
-
-
-
-----
-
-_Похожие документы:_
-* [[CONCEPTS]] (сходство 1.00)
-* [[TABLES]] (сходство 0.27)
-* [[TABLES]] (сходство 0.27)
 

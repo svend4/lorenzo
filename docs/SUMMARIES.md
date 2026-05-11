@@ -427,3 +427,14 @@ python scripts/improve_summaries.py --dry-run
 - [READING_ORDER](READING_ORDER.md) (сходство 0.22)
 - [READING_ORDER](obsidian/READING_ORDER.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_ORDER](READING_ORDER.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [SITEMAP](SITEMAP.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+

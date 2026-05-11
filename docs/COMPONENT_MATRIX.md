@@ -133,3 +133,14 @@ python scripts/improve_component_matrix.py
 - [DENSITY](obsidian/DENSITY.md) (сходство 0.27)
 - [DENSITY](DENSITY.md) (сходство 0.27)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+

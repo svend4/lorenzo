@@ -5,6 +5,11 @@
 
 h1. Карта репозитория Lorenzo
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
 
 {quote}- [Мета-документы|#мета-документы]{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse

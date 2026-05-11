@@ -200,3 +200,14 @@ graph TD
 - [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) (сходство 0.42)
 - [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.40)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [15-glossary](nautilus/npp-v1-0/15-glossary.md)
+

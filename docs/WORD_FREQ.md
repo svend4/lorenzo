@@ -1,5 +1,10 @@
 # Частотный анализ слов
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Всего слов (очищенных):** 1,765,795
 
 ## Глобальный топ-50 слов
@@ -525,3 +530,14 @@ _(Слова, характерные только для этого раздел
 **svyazi-2-0:** view, turn, search, svyazi, citeturn, memory, rag, поиска, research, components, name, граф
 **technology-combinations:** legal, combinations, stack, code, репозитория, event, tables, multi, time, technology, mega, новых
 **templates:** entry, сходство, репозитория, templates, раздел, search, registry, readability, граф, концептов, reading, time
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [privacy](svyazi-2-0/security/privacy.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+

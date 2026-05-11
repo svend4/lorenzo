@@ -1,25 +1,8 @@
 # Отчёт орфографии
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `SPELLCHECK` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> python scripts/improve_spellcheck.py --fix
-**Проекты:** knowledge-space, MemNet
-
----
-<!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improvement, collaboration -->
-
-
-
-
 _Обновлено: 2026-05-11_
 
-Файлов с проблемами: **50**
+Файлов с проблемами: **51**
 
 ## Найденные проблемы
 
@@ -147,6 +130,10 @@ _Обновлено: 2026-05-11_
 
 - ❌ `проверяет` → `проверяет`
 
+### `docs/obsidian/ACTION_ITEMS.md`
+
+- ❌ `проверяет` → `проверяет`
+
 ### `docs/obsidian/GITHUB_ISSUES.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -238,30 +225,7 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 **Смотрите также:**
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [STALENESS](STALENESS.md)
+- [READING_LIST](READING_LIST.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
-- [LINK_PREVIEW](LINK_PREVIEW.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (6):**
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [LINK_PREVIEW](LINK_PREVIEW.md)
-- [READABILITY](READABILITY.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [README](habr-unique-projects/deep-pairs/README.md) (сходство 0.24)
-- [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.24)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md) (сходство 0.24)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
 
