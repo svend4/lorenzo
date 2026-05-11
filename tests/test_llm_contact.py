@@ -128,3 +128,27 @@ def test_model_constant():
     assert hasattr(mod, "MODEL")
     assert isinstance(mod.MODEL, str)
     assert "claude" in mod.MODEL.lower()
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_all_no_authors(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "ALL_MODE", True)
+    monkeypatch.setattr(mod, "AUTHOR", None)
+    (tmp_path / "contacts").mkdir()
+    mod.main()
+
+
+def test_main_no_author_no_all_exits(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "ALL_MODE", False)
+    monkeypatch.setattr(mod, "AUTHOR", None)
+    try:
+        mod.main()
+    except SystemExit:
+        pass

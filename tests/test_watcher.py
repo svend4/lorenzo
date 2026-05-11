@@ -146,3 +146,23 @@ def test_run_script_updates_last_run(tmp_path, monkeypatch):
         mock_run.return_value = MagicMock(returncode=0)
         mod.run_script("dummy_test_script.py")
         assert "dummy_test_script.py" in mod._last_run
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_once_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "run_script", lambda script: None)
+    monkeypatch.setattr("sys.argv", ["prog", "--once"])
+    mod.main()
+
+
+def test_main_once_calls_run_script(tmp_path, monkeypatch):
+    called = []
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "run_script", lambda s: called.append(s))
+    monkeypatch.setattr("sys.argv", ["prog", "--once"])
+    mod.main()
+    assert len(called) > 0

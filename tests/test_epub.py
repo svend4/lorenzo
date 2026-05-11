@@ -72,3 +72,34 @@ def test_title_attribute():
     assert hasattr(mod, "TITLE")
     assert isinstance(mod.TITLE, str)
     assert len(mod.TITLE) > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_check_only_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CHECK_ONLY", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+
+
+def test_main_no_pandoc_check_returns(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CHECK_ONLY", True)
+    monkeypatch.setattr(mod, "_check_pandoc", lambda: False)
+    mod.main()
+
+
+def test_main_pandoc_found_check_returns(tmp_path, monkeypatch, capsys):
+    import subprocess as _sp
+    from unittest.mock import MagicMock, patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CHECK_ONLY", True)
+    monkeypatch.setattr(mod, "_check_pandoc", lambda: True)
+    fake_result = MagicMock()
+    fake_result.stdout = "pandoc 3.0\n"
+    with patch("subprocess.run", return_value=fake_result):
+        mod.main()

@@ -129,3 +129,40 @@ def test_sections_constant():
 def test_out_dir_attribute():
     assert hasattr(mod, "OUT_DIR")
     assert isinstance(mod.OUT_DIR, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTIONS", [])
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "FORCE", False)
+    mod.main()
+
+
+def test_main_dry_run_with_file(tmp_path, monkeypatch):
+    doc = tmp_path / "doc.md"
+    doc.write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTIONS", [])
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", doc)
+    monkeypatch.setattr(mod, "FORCE", False)
+    mod.main()
+
+
+def test_main_dry_run_empty_sections(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTIONS", ["nonexistent-section"])
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "FORCE", False)
+    mod.main()

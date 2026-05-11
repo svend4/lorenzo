@@ -119,3 +119,22 @@ def test_read_score_existing_file(tmp_path, monkeypatch):
     (docs / "METRICS.md").write_text("Средний балл: **82.5/100**", encoding="utf-8")
     result = mod._read_score("METRICS.md")
     assert result == 82.5
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Lorenzo" in out or "DRY" in out
+
+
+def test_main_group_filter_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--group", "reports", "--dry-run"])
+    mod.main()
+
+
+def test_main_list_scripts_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run", "--fast"])
+    mod.main()

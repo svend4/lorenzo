@@ -234,3 +234,26 @@ def test_list_tasks_returns_stems(monkeypatch, tmp_path):
 def test_list_tasks_returns_list(monkeypatch, tmp_path):
     monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
     assert isinstance(mod.list_tasks(), list)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_list_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_no_task_returns_error(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_missing_task_id_graceful(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "TASKS_GENERATED", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "nonexistent-task", "--dry-run"])
+    result = mod.main()
+    assert result in (0, 1)

@@ -142,3 +142,22 @@ def test_has_dry_run_flag_with_dry_run(tmp_path):
     f.write_text('parser.add_argument("--dry-run")\n', encoding="utf-8")
     result = mod._has_dry_run_flag(f)
     assert result is True
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_list_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert True  # just verify no exception
+
+
+def test_main_find_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--find", "качество"])
+    mod.main()
+
+
+def test_main_info_no_crash(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--info", "nonexistent-recipe"])
+    mod.main()

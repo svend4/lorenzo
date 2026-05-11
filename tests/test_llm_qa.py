@@ -350,3 +350,27 @@ def test_extract_questions_ignores_short_lines(tmp_path):
     # Short questions (≤10 chars after strip) should be skipped
     for q in result:
         assert len(q) > 10
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_clear_cache_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", True)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    mod.main()
+
+
+def test_main_dry_run_no_index_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLEAR_CACHE", False)
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "qa_cache.json")
+    monkeypatch.setattr(mod, "INDEX_PATH", tmp_path / "search_index.json")
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "NO_CACHE", True)
+    monkeypatch.setattr(mod, "SAVE", False)
+    monkeypatch.setattr(mod, "load_index", lambda: [])
+    mod.main()

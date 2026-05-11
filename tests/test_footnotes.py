@@ -89,3 +89,30 @@ def test_add_footnotes_multiple_terms():
         text, {"MCP": "Model Context Protocol", "RAG": "Retrieval-Augmented Generation"}
     )
     assert count >= 0  # May or may not find depending on word boundaries
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "KEY_SECTIONS", [])
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    mod.main()
+
+
+def test_main_creates_footnotes_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "KEY_SECTIONS", [])
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    assert (tmp_path / "FOOTNOTES.md").exists()
+
+
+def test_main_empty_sections_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "KEY_SECTIONS", ["nonexistent-section"])
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()

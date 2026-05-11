@@ -66,3 +66,25 @@ def test_reduce_prompt_has_format():
 def test_min_words_reasonable():
     # Should be between 100 and 1000
     assert 100 <= mod.MIN_WORDS <= 1000
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    mod.main()
+
+
+def test_main_dry_run_with_file(tmp_path, monkeypatch):
+    doc = tmp_path / "doc.md"
+    doc.write_text("# AgentFS\n\n" + "Content. " * 30, encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
+    mod.main()

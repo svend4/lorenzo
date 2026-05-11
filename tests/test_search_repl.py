@@ -168,3 +168,35 @@ def test_skip_files_constant():
     assert hasattr(mod, "SKIP_FILES")
     assert isinstance(mod.SKIP_FILES, set)
     assert "SUMMARIES.md" in mod.SKIP_FILES
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_query_bm25_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "PASSAGES_JSON", tmp_path / "passages.json")
+    monkeypatch.setattr(mod, "SEARCH_INDEX", tmp_path / "search_index.json")
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgent memory system.", encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent", "--mode", "bm25"])
+    mod.main()
+
+
+def test_main_query_full_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "PASSAGES_JSON", tmp_path / "passages.json")
+    monkeypatch.setattr(mod, "SEARCH_INDEX", tmp_path / "search_index.json")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "title", "--mode", "full"])
+    mod.main()
+
+
+def test_main_index_rebuild_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "PASSAGES_JSON", tmp_path / "passages.json")
+    monkeypatch.setattr(mod, "SEARCH_INDEX", tmp_path / "search_index.json")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--index", "--query", "title"])
+    mod.main()

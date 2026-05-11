@@ -142,3 +142,26 @@ def test_topological_order_parallel_group():
 def test_runs_log_attribute():
     assert hasattr(mod, "RUNS_LOG")
     assert isinstance(mod.RUNS_LOG, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_list_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.json")
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_no_task_returns_error(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.json")
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_history_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.json")
+    monkeypatch.setattr("sys.argv", ["prog", "--history"])
+    result = mod.main()
+    assert result == 0

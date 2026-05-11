@@ -75,3 +75,17 @@ def test_scripts_path_attribute():
 def test_root_path_attribute():
     assert hasattr(mod, "ROOT")
     assert isinstance(mod.ROOT, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_crash_empty_servers(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "SERVERS", [])
+    mod.main()
+
+
+def test_main_failed_import_counts(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "SERVERS", [("nonexistent_mcp_module", [("tool", {})])])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "import" in out.lower() or "❌" in out

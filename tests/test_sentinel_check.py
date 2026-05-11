@@ -123,3 +123,33 @@ def test_scan_http_urls_ignores_https(tmp_path, monkeypatch):
     f.write_text("See https://example.com for details.", encoding="utf-8")
     result = mod._scan_http_urls(tmp_path)
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_sentinel_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "SECTION", "")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SENTINEL.md").exists()
+
+
+def test_main_sentinel_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "SECTION", "")
+    mod.main()
+    text = (tmp_path / "SENTINEL.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "SECTION", "")
+    mod.main()

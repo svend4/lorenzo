@@ -206,3 +206,31 @@ def test_group_by_month_key_format():
     commits = [{"sha": "abc", "date": "2025-06-15", "type": "feat", "scope": "", "msg": "a"}]
     result = mod.group_by_month(commits)
     assert "2025-06" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_changelog_auto_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "git", lambda *args: "")
+    mod.main()
+    assert (tmp_path / "CHANGELOG_AUTO.md").exists()
+
+
+def test_main_changelog_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "git", lambda *args: "")
+    mod.main()
+    text = (tmp_path / "CHANGELOG_AUTO.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_with_commits_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    fake_log = "abc123|||2026-05-01 10:00:00 +0000|||feat: add new feature"
+    monkeypatch.setattr(mod, "git", lambda *args: fake_log)
+    mod.main()
+    assert (tmp_path / "CHANGELOG_AUTO.md").exists()
