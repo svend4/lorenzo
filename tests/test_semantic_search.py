@@ -133,3 +133,33 @@ def test_search_hybrid_agentfs_in_top5():
     results = mod.search_hybrid("AgentFS Obsidian vault filesystem агент", top=5)
     paths = [r.get("path", "") for r in results]
     assert any("agentfs" in p for p in paths), f"agentfs not in top-5: {paths}"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_hybrid_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    monkeypatch.setattr(mod, "PASSAGES", tmp_path / "passages.json")
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
+    mod.main()
+
+
+def test_main_bm25_mode_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    monkeypatch.setattr(mod, "PASSAGES", tmp_path / "passages.json")
+    (tmp_path / "doc.md").write_text("# Title\n\nAgent memory content.", encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent", "--mode", "bm25"])
+    mod.main()
+
+
+def test_main_json_output_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    monkeypatch.setattr(mod, "PASSAGES", tmp_path / "passages.json")
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "test", "--json"])
+    mod.main()

@@ -191,3 +191,38 @@ def test_load_groups_missing_runner(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
     result = mod.load_groups()
     assert result == {}
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_catalog_md(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "improve_test.py").write_text('"""Test script."""\n\ndef main():\n    pass\n', encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    mod.main()
+    assert (tmp_path / "SCRIPTS_CATALOG.md").exists()
+
+
+def test_main_catalog_has_content(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    (scripts_dir / "improve_test.py").write_text('"""Test script."""\n', encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    mod.main()
+    text = (tmp_path / "SCRIPTS_CATALOG.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_scripts_dir(tmp_path, monkeypatch):
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    mod.main()
+    assert (tmp_path / "SCRIPTS_CATALOG.md").exists()

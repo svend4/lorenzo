@@ -129,3 +129,22 @@ def test_name_cluster_contains_top_word():
     }
     result = mod._name_cluster(["f1"], tfidf)
     assert "agent" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_topic_model_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "TOPIC_MODEL.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "TOPIC_MODEL.md").exists()

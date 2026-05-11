@@ -80,3 +80,20 @@ def test_make_mindmap_has_icons():
     # Icons are present in SECTION_ICONS
     for icon in mod.SECTION_ICONS.values():
         assert icon in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_mindmap_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "MINDMAP.md").exists()
+
+
+def test_main_mindmap_has_mermaid(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "MINDMAP.md").read_text(encoding="utf-8")
+    assert "mermaid" in text

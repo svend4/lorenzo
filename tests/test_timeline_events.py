@@ -94,3 +94,22 @@ def test_extract_events_missing_file(tmp_path, monkeypatch):
     f = tmp_path / "missing.md"
     result = mod.extract_events(f)
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_timeline_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\n2026-05-01: Launch event.\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "TIMELINE.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "TIMELINE.md").exists()

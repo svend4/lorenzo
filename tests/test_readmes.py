@@ -100,3 +100,24 @@ def test_make_readme_content_includes_filenames(tmp_path, monkeypatch):
     mod.make_readme(folder)
     content = (folder / "README.md").read_text(encoding="utf-8")
     assert "doc1.md" in content
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_readmes(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    subdir = tmp_path / "01-svyazi"
+    subdir.mkdir()
+    (subdir / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    (tmp_path / "index.md").write_text("# Index\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "README.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "README.md").exists()

@@ -85,3 +85,37 @@ def test_split_into_segments_respects_target():
     text = "## Section\n\n" + ("word " * 100) + "\n\n## Other\n\n" + ("word " * 100)
     result = mod._split_into_segments(text, target_size=20)
     assert len(result) >= 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    mod.main()
+
+
+def test_main_no_large_files_message(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    (tmp_path / "doc.md").write_text("# Title\n\nShort content.", encoding="utf-8")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Нет файлов" in out or "Файлов" in out
+
+
+def test_main_large_file_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "MAX_WORDS", 10)
+    (tmp_path / "big.md").write_text(
+        "# Title\n\n## Section\n\n" + "word " * 50 + "\n\n## Other\n\n" + "word " * 50,
+        encoding="utf-8"
+    )
+    mod.main()

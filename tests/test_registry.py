@@ -216,3 +216,34 @@ def test_collect_contacts_uses_stem_when_no_frontmatter(tmp_path, monkeypatch):
     contact.write_text("# Contact\nNo frontmatter here.", encoding="utf-8")
     result = mod.collect_contacts()
     assert result[0]["author"] == "someone"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_registry_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "OUT", tmp_path / "REGISTRY.md")
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "TEMPLATES", tmp_path / "templates")
+    monkeypatch.setattr(mod, "SKILLS", tmp_path / ".claude" / "skills")
+    monkeypatch.setattr(mod, "TASKS_GEN", tmp_path / "tasks" / "_generated")
+    monkeypatch.setattr(mod, "MCP_CONFIG", tmp_path / "mcp.json")
+    monkeypatch.setattr(mod, "CONTACTS", tmp_path / "contacts")
+    mod.main()
+    assert (tmp_path / "REGISTRY.md").exists()
+
+
+def test_main_registry_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "OUT", tmp_path / "REGISTRY.md")
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "TEMPLATES", tmp_path / "templates")
+    monkeypatch.setattr(mod, "SKILLS", tmp_path / ".claude" / "skills")
+    monkeypatch.setattr(mod, "TASKS_GEN", tmp_path / "tasks" / "_generated")
+    monkeypatch.setattr(mod, "MCP_CONFIG", tmp_path / "mcp.json")
+    monkeypatch.setattr(mod, "CONTACTS", tmp_path / "contacts")
+    mod.main()
+    text = (tmp_path / "REGISTRY.md").read_text(encoding="utf-8")
+    assert "# " in text

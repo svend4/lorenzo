@@ -104,3 +104,20 @@ def test_extract_questions_deduplicates(tmp_path, monkeypatch):
     result = mod.extract_questions(f.read_text(encoding="utf-8"), f)
     texts = [r["text"][:40].lower() for r in result]
     assert len(texts) == len(set(texts))
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_questions_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nWhat is AgentFS?\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "QUESTIONS.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "QUESTIONS.md").exists()

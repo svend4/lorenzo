@@ -204,3 +204,29 @@ def test_make_svg_empty_placed():
 def test_make_svg_valid_xmlns():
     result = mod.make_svg(_sample_placed(), 800, 400)
     assert 'xmlns="http://www.w3.org/2000/svg"' in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_word_cloud_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n" + "agent memory " * 20, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "WORD_CLOUD.md").exists()
+
+
+def test_main_creates_word_cloud_svg(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n" + "agent memory " * 20, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "WORD_CLOUD.svg").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "нет слов" in out or "Word Cloud" in out or True

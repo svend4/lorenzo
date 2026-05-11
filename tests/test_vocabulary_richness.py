@@ -125,3 +125,21 @@ def test_grade_high_is_rich():
 def test_grade_low_is_poor():
     result = mod._grade(0.30)
     assert "бедный" in result.lower()
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_vocabulary_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\n" + "word " * 50, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "VOCABULARY.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()  # returns early when no data — no file created

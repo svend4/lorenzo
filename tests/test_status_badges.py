@@ -197,3 +197,24 @@ def test_validation_status_valid_ge_errors():
     # У нас 21 валидный и 0 с ошибками
     if valid > 0:
         assert errors == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_badges_dir(tmp_path, monkeypatch):
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert badges_dir.exists()
+
+
+def test_main_creates_badge_svgs(tmp_path, monkeypatch):
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    svgs = list(badges_dir.glob("*.svg"))
+    assert len(svgs) > 0

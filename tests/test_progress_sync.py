@@ -212,3 +212,24 @@ def test_build_progress_md_has_required_sections():
     assert "# Прогресс MVP" in md
     assert "## Ключевые этапы" in md
     assert "## Состояние компонентов" in md
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "PROGRESS_PATH", tmp_path / "PROGRESS.md")
+    mod.main()
+
+
+def test_main_creates_progress_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS", tmp_path / "scripts")
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "PROGRESS_PATH", tmp_path / "PROGRESS.md")
+    mod.main()
+    assert (tmp_path / "PROGRESS.md").exists()

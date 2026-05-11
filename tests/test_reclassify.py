@@ -99,3 +99,37 @@ def test_safe_folder_name_no_special_chars():
 def test_safe_folder_name_max_40():
     result = mod._safe_folder_name("very long cluster name that exceeds forty characters here")
     assert len(result) <= 40
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    mod.main()
+
+
+def test_main_few_files_message(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "мало" in out or "Файлов" in out
+
+
+def test_main_with_content_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    for i in range(5):
+        (tmp_path / f"doc{i}.md").write_text(
+            f"# Title {i}\n\n" + f"Content word{i} text {i}. " * 20,
+            encoding="utf-8"
+        )
+    mod.main()

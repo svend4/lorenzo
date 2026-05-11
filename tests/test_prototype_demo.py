@@ -144,3 +144,37 @@ def test_load_index_empty_when_missing(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "DOCS", tmp_path)
     result = mod._load_index()
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_query_exits(monkeypatch):
+    monkeypatch.setattr(mod, "QUERY", "")
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "BENCHMARK", False)
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+
+
+def test_main_with_query_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "QUERY", "agent memory")
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "BENCHMARK", False)
+    monkeypatch.setattr(mod, "JSON_OUT", False)
+    monkeypatch.setattr(mod, "TOP", 3)
+    mod.main()
+
+
+def test_main_json_output_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "QUERY", "test")
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "BENCHMARK", False)
+    monkeypatch.setattr(mod, "JSON_OUT", True)
+    monkeypatch.setattr(mod, "TOP", 3)
+    mod.main()

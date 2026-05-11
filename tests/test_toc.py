@@ -130,3 +130,23 @@ def test_add_toc_idempotent(tmp_path):
     second = mod.add_toc(f)
     assert first is True
     assert second is False  # Already has marker
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_adds_toc_to_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "MIN_WORDS", 5)
+    sections = "\n\n".join(f"## Section {i}\n\nContent here." for i in range(5))
+    content = f"# Title\n\n{sections}\n"
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "doc.md").read_text(encoding="utf-8")
+    assert "<!-- toc -->" in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()

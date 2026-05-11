@@ -127,3 +127,33 @@ def test_build_atom_starts_with_xml():
 def test_build_atom_has_feed_tag():
     result = mod.build_atom([])
     assert "<feed" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_rss_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "_get_commits", lambda: [])
+    mod.main()
+    assert (tmp_path / "feed.rss").exists()
+
+
+def test_main_creates_atom_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "_get_commits", lambda: [])
+    mod.main()
+    assert (tmp_path / "feed.atom").exists()
+
+
+def test_main_with_commits_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "_get_commits", lambda: [{
+        "hash": "abc123", "full_hash": "abc123def456", "author": "test@test.com",
+        "timestamp": 1746100000, "date": "2026-05-01",
+        "subject": "feat: test commit", "files": ["docs/doc.md"]
+    }])
+    mod.main()
+    assert (tmp_path / "feed.rss").exists()
