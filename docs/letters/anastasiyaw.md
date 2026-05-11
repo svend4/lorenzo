@@ -1,6 +1,12 @@
 # Письмо: AnastasiyaW / knowledge-space + mclaude
 
 <!-- toc-auto -->
+## Contents
+
+- [Письмо](#письмо)
+- [Использование](#использование)
+
+
 
 <!-- summary -->
 > Открытое письмо автору knowledge-space и mclaude — карточной базы знаний и системы координации параллельных Claude-агентов.

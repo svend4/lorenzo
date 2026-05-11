@@ -6,6 +6,7 @@
 - [Bridging the Gap Between Profession-Wide and Individual-Unique](#bridging-the-gap-between-profession-wide-and-individual-unique)
 - [Использование](#использование)
 
+
 <!-- summary -->
 > Bridging the Gap Between Profession-Wide and Individual-Unique
 

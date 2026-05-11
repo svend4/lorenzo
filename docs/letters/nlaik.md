@@ -1,6 +1,12 @@
 # Письмо: nlaik / LiteParse + research-docs
 
 <!-- toc-auto -->
+## Contents
+
+- [Письмо](#письмо)
+- [Использование](#использование)
+
+
 
 <!-- summary -->
 > Открытое письмо автору LiteParse и research-docs — системы Forensic Document QA с визуальными цитатами и пространственным разбором PDF.

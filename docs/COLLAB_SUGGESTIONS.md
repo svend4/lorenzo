@@ -5,7 +5,8 @@
 
 - [1. Wikontic: семантический граф](#1-wikontic-семантический-граф)
 - [2. NGT[^ngt] Memory: ассоциативный граф](#2-ngtngt-memory-ассоциативный-граф)
-- [3. Yodoca](#3-yodoca)
+- [3. knowledge-space](#3-knowledge-space)
+- [4. MemNet / memory-is-all-you-need](#4-memnet-memory-is-all-you-need)
 - [Следующие шаги](#следующие-шаги)
 
 
@@ -16,20 +17,20 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «агент с памятью консолидация граф знаний»
-> **Дата:** 2026-05-11 04:43  **Кандидатов:** 3
+> Автоматический поиск партнёрских проектов для: «локальная база знаний агент память граф»
+> **Дата:** 2026-05-11 04:55  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Запрос:** агент с памятью консолидация граф знаний
+**Запрос:** локальная база знаний агент память граф
 
 ---
 
 ## 1. Wikontic: семантический граф
 
-**Релевантность:** `0.489`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.451`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
@@ -52,7 +53,7 @@
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «агент с памятью консолидация граф знаний»
+**Тема:** Коллаборация по теме «локальная база знаний агент память граф»
 
 Привет, VitalyOborin!
 
@@ -80,7 +81,7 @@ Lorenzo / svend4
 
 ## 2. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.277`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.369`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
 
@@ -103,7 +104,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «агент с памятью консолидация граф знаний»
+**Тема:** Коллаборация по теме «локальная база знаний агент память граф»
 
 Привет, spbmolot!
 
@@ -129,54 +130,45 @@ Lorenzo / svend4
 
 ---
 
-## 3. Yodoca
+## 3. knowledge-space
 
-**Релевантность:** `0.147`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.186`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
+**Документ:** [`docs/svyazi-2-0/components/knowledge-space.md`](svyazi-2-0/components/knowledge-space.md)
 
-**Теги:** memory, ingestion, architecture, self-improvement, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
+**Теги:** knowledge, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
 
-> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
+> Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+
+**Автор:** контакт не найден в docs/contacts/
+
+---
+
+## 4. MemNet / memory-is-all-you-need
+
+**Релевантность:** `0.171`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/svyazi-2-0/components/memnet.md`](svyazi-2-0/components/memnet.md)
+
+**Теги:** memory, ingestion, architecture, roadmap, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, Rufler, Yodoca
+
+> Исследовательская активная память для трансформеров.
 
 **Связан с:**
   - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
 
-**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
-
-```
-**Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «агент с памятью консолидация граф знаний»
-
-Привет, VitalyOborin!
-
-Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
+**Автор:** контакт не найден в docs/contacts/
 
 ---
 
@@ -194,7 +186,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "агент с памятью консолидация граф знаний"
+   python scripts/improve_collab_finder.py --query "локальная база знаний агент память граф"
    ```
 
-_Сгенерировано: 2026-05-11 04:43  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-11 04:55  |  Алгоритм: TF-IDF + BM25 + граф_
