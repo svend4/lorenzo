@@ -1,18 +1,10 @@
 # Дайджест изменений
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `DIGEST` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> > feat: автоматизация всех критериев benchmark в prototype_demo.py
-**Проекты:** SENTINEL
+> > chore: обновление CONCEPTS.md и ENTITIES.md
 
 ---
-<!-- tags: security, roadmap, self-improvement -->
+<!-- tags: roadmap -->
 
 
 
@@ -21,43 +13,43 @@ _Обновлено: 2026-05-11_
 
 ## Последний коммит
 
-**2026-05-11** — `e77ffcb8`
-> feat: автоматизация всех критериев benchmark в prototype_demo.py
+**2026-05-11** — `a5b93b95`
+> chore: обновление CONCEPTS.md и ENTITIES.md
 
-Изменено файлов: **5** (+479 / -415 строк)
+Изменено файлов: **2** (+76 / -275 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **1582**
-- Добавлено строк: **+436507**
-- Удалено строк: **-180847**
+- Изменено файлов: **6**
+- Добавлено строк: **+141**
+- Удалено строк: **-618**
 - Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
-| 2026-05-11 | `e77ffcb8` | feat: автоматизация всех критериев benchmark в prototype_demo.py |
-| 2026-05-11 | `4b5b08cb` | chore: авто-перегенерация derived-файлов после rebuild search_index.js |
-| 2026-05-11 | `049d3303` | docs: обновлён README.md для публикации MVP |
-| 2026-05-11 | `b9d3e3b8` | feat: улучшение качества поиска + CI fix для gateway/ANN тестов |
-| 2026-05-11 | `48553442` | chore: обновление авто-генерируемых дашбордов после новых файлов |
-| 2026-05-11 | `f3d00e22` | feat: тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS |
-| 2026-05-11 | `bd974316` | feat: hnswlib ANN-граф — ускоренный векторный поиск 37× (Итерация 1 за |
-| 2026-05-11 | `2655a8cb` | chore: update SCORING.md auto-generated dashboard |
-| 2026-05-11 | `e31c908a` | feat: Review Queue UI + gateway write-back fix + Iteration 4 |
-| 2026-05-11 | `f754e78b` | feat: Lorenzo Gateway — OpenAI-compatible HTTP API для обогащения корп |
-| 2026-05-11 | `dc3c1dfc` | chore: linter adjustments to letters and DEMO.md |
-| 2026-05-11 | `645d38b5` | feat: working prototype Knowledge OS — prototype_demo.py |
-| 2026-05-11 | `deef911d` | feat: protect PROGRESS.md manual sections + update search/deeptext |
-| 2026-05-11 | `62b5e192` | feat: SENTINEL security check + contact statuses + progress 55% |
-| 2026-05-11 | `defa92c5` | chore: update auto-generated dashboards |
+| 2026-05-11 | `a5b93b95` | chore: обновление CONCEPTS.md и ENTITIES.md |
+| 2026-05-11 | `56694311` | chore: обновление QUESTIONS.md |
+| 2026-05-11 | `04a47cc0` | chore: обновление ACTION_ITEMS.md и DECISIONS.md |
+| 2026-05-11 | `619729e1` | chore: обновление DENSITY.md и HEATMAP.md |
+| 2026-05-11 | `4489b806` | chore: авто-обновление docs/ после improve_run_all --smart |
+| 2026-05-11 | `b3b6c5db` | test: +44 теста — test_progress_sync.py + test_semantic_search.py |
+| 2026-05-11 | `07739d9c` | chore: обновление зеркальных файлов obsidian/confluence |
+| 2026-05-11 | `63e1280e` | feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты |
+| 2026-05-11 | `8e032586` | chore: авто-перегенерация дашбордов после v1.0.0 + check_published |
+| 2026-05-11 | `657ca79e` | feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0) |
+| 2026-05-11 | `0bf15429` | feat: /api/status — core_cards фильтрация noise-секций |
+| 2026-05-11 | `f5ebc628` | docs: обновление README.md и GATEWAY.md |
+| 2026-05-11 | `9cb118ab` | chore: авто-перегенерация дашбордов после Hit Rate@10 1.000 |
+| 2026-05-11 | `b5efba6c` | feat: Hit Rate@10 0.750 → 1.000 — улучшение качества поиска |
+| 2026-05-11 | `39796fb2` | feat: POST /api/collabs endpoint + tests/test_search.py (16 тестов) |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **2481** |
+| Документов `.md` | **2482** |
 | Скриптов обработки | **166** |
 | Последнее обновление | **2026-05-11** |
 
@@ -72,21 +64,4 @@ _Обновлено: 2026-05-11_
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_digest.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [DIGEST](obsidian/DIGEST.md) (сходство 0.98)
-- [KPI_HISTORY](KPI_HISTORY.md) (сходство 0.21)
-- [KPI_HISTORY](obsidian/KPI_HISTORY.md) (сходство 0.20)
 

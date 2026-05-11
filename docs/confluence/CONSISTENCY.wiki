@@ -305,3 +305,13 @@ _Кто ссылается на этот документ (8):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [CONSISTENCY|obsidian/CONSISTENCY.md] (сходство 0.97)
+* [MISSING|MISSING.md] (сходство 0.33)
+* [MISSING|obsidian/MISSING.md] (сходство 0.33)
+

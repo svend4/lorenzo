@@ -208,3 +208,14 @@ graph TD
 - [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.41)
 - [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.40)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+

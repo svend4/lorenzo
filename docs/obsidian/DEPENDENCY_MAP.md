@@ -261,7 +261,18 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 ---
 
 **Похожие документы:**
-- [DEPENDENCY_MAP](../DEPENDENCY_MAP.md) (сходство 0.99)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.26)
-- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md) (сходство 0.26)
+- [[DEPENDENCY_MAP]] (сходство 0.99)
+- [[CHANGELOG_AUTO]] (сходство 0.26)
+- [[CHANGELOG_AUTO]] (сходство 0.26)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CHANGELOG_AUTO]]
+- [[INDEX]]
+- [[DIGEST_AUTO]]
+- [[CHANGELOG]]
 

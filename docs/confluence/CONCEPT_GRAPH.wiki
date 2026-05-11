@@ -202,3 +202,24 @@ _Кто ссылается на этот документ (15):_
 * [SEARCH|SEARCH.md]
 * _...ещё 7_
 
+
+
+
+----
+
+_Похожие документы:_
+* [CONCEPT_GRAPH|obsidian/CONCEPT_GRAPH.md] (сходство 0.96)
+* [SKILL_DASHBOARD|SKILL_DASHBOARD.md] (сходство 0.41)
+* [MCP_DASHBOARD|MCP_DASHBOARD.md] (сходство 0.40)
+
+
+
+
+----
+
+_Смотрите также:_
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+* [KEYWORD_INDEX|KEYWORD_INDEX.md]
+* [KPI_HISTORY|KPI_HISTORY.md]
+

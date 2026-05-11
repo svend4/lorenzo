@@ -1,31 +1,20 @@
 ---
 title: "Майндмап репозитория Lorenzo"
 tags:
-  - mindmap
-  - docs
   - general
 date: 2026-05-11
 ---
 
 # Майндмап репозитория Lorenzo
 
-<!-- toc-auto -->
-## Contents
-
-- [Структура разделов](#структура-разделов)
-- [Поток данных между проектами](#поток-данных-между-проектами)
-- [Легенда](#легенда)
-
-
-> [!NOTE]
-> Раздел `MINDMAP` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: mindmap, docs -->
-
-
 <!-- summary -->
-> `MINDMAP` — раздел документации проекта Lorenzo.
+> knowledge-space[knowledge-space]
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 ## Структура разделов
@@ -134,32 +123,17 @@ flowchart LR
 **Смотрите также:**
 - [[GLOSSARY]]
 - [[NETWORK]]
-- [[CONTACT_PRIORITY]]
 - [[GRAPH]]
+- [[CONTACT_PRIORITY]]
 
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
-- [[04-sozialrecht-domain]]
-- [[GRAPH]]
-- [[NETWORK]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- _...ещё 1_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [MINDMAP](../MINDMAP.md) (сходство 0.93)
-- [GRAPH](GRAPH.md) (сходство 0.51)
-- [GRAPH](../GRAPH.md) (сходство 0.48)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

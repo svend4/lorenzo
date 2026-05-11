@@ -258,3 +258,14 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.26)
 - [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 0.26)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [INDEX](INDEX.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [CHANGELOG](CHANGELOG.md)
+

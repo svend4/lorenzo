@@ -1131,3 +1131,14 @@ python scripts/improve_language_stats.py --dry-run
 - [READING_TIME](obsidian/READING_TIME.md) (сходство 0.81)
 - [READABILITY](READABILITY.md) (сходство 0.79)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+

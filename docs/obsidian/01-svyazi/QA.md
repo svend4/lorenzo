@@ -21,7 +21,7 @@ date: 2026-05-11
 
 <!-- summary -->
 > _Автоматически сгенерировано по 14 файлам раздела._
-**Проекты:** Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL, LiteLLM, Auto AI Router
+**Проекты:** Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel], LiteLLM, Auto AI Router
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
@@ -104,7 +104,18 @@ python scripts/improve_qa.py
 ---
 
 **Похожие документы:**
-- [QA](../../01-svyazi/QA.md) (сходство 0.99)
-- [QA](../04-ai-collaborations/QA.md) (сходство 0.86)
-- [QA](../../04-ai-collaborations/QA.md) (сходство 0.84)
+- [[QA]] (сходство 0.99)
+- [[QA]] (сходство 0.85)
+- [[QA]] (сходство 0.84)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

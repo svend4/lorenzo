@@ -9,11 +9,6 @@ date: 2026-05-11
 
 # Ансамбль: [Название]
 
-> [!NOTE]
-> Раздел `ensemble` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -61,35 +56,13 @@ output:
 ---
 _Создано: 2026-05-11_
 
-## Смотрите также
-- [[README|Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (11):**
-- [[119-appendix-b-примеры-расхождений-и-их-разрешения]]
-- [[298-что-этот-документ-не-решает]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[README]]
-- _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ensemble](../../templates/ensemble.md) (сходство 0.93)
-- [project-component](project-component.md) (сходство 0.41)
-- [project-component](../../templates/project-component.md) (сходство 0.38)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
 

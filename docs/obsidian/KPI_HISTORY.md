@@ -92,7 +92,18 @@ _Запускать регулярно для получения трендов.
 ---
 
 **Похожие документы:**
-- [KPI_HISTORY](../KPI_HISTORY.md) (сходство 0.94)
-- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.46)
-- [PASSIVE_VOICE](PASSIVE_VOICE.md) (сходство 0.43)
+- [[KPI_HISTORY]] (сходство 0.94)
+- [[MCP_DASHBOARD]] (сходство 0.46)
+- [[MCP_DASHBOARD]] (сходство 0.44)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[PASSIVE_VOICE]]
+- [[CONCEPT_GRAPH]]
+- [[DIGEST_WEEKLY]]
+- [[CROSS_SECTION]]
 

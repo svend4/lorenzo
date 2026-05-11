@@ -7,23 +7,27 @@ date: 2026-05-11
 
 # Action Items, риски и решения
 
-> [!NOTE]
-> Раздел `ACTION_ITEMS` формируется автоматически из данных репозитория.
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: action-items, docs -->
-
-
-<!-- summary -->
-> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
-
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3515
+**Всего элементов:** 3436
 
 
-## ➡️ Следующие шаги (370)
+## ➡️ Следующие шаги (364)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -197,12 +201,6 @@ date: 2026-05-11
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
-- — call? [S]  
-  _→ QUESTIONS_
-- — call? [Твоя коммуникация в outreach]  
-  _→ QUESTIONS_
-- набора узкоспециализированных под-аге [Содержание]  
-  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
@@ -254,9 +252,9 @@ date: 2026-05-11
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(256 дублей скрыто)_
+_(253 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1050)
+## ✅ Решения и рекомендации (1051)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -460,7 +458,7 @@ _(256 дублей скрыто)_
   _→ 00-intro_
 - 2019 года, после изменений 2024 года применяется иначе»);  
   _→ 00-intro_
-- заслуживает своего ADR**  
+- Record (ADR): контекст → варианты → решение → последствия  
   _→ CONCEPTS_
 - tree для разрешения расхождений в §3  
   _→ CONCEPTS_
@@ -476,6 +474,8 @@ _(256 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - go / no-go** _`docs`, `automation`_  
   _→ GITHUB_ISSUES_
+- создать документы - Детали по топ-20 пробелам - `MH | `CONTENT_GAPS` |  
+  _→ KPI_
 - Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
   _→ OUTLINE_
 - Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
@@ -526,8 +526,6 @@ _(256 дублей скрыто)_
   _→ TIMELINE_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |  
   _→ TIMELINE_
-- Record (ADR): контекст → варианты → решение → последствия  
-  _→ VALIDATION_
 - как связь между людьми» — или это  
   _→ spbmolot_
 - две уровневая"  
@@ -578,12 +576,6 @@ _(256 дублей скрыто)_
   _→ SITEMAP_
 - × Auto A]] | 302 |  
   _→ TABLES_
-- Суд Дата Релевантность ---------------  
-  _→ TIMELINE_
-- Суд Дата Релевантность ------------------------  
-  _→ TIMELINE_
-- Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
-  _→ TIMELINE_
 - две-уровневая публикация"  
   _→ 02-two-tier-publication_
 - — Map-Reduce:**  
@@ -615,9 +607,9 @@ _(256 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(872 дублей скрыто)_
+_(876 дублей скрыто)_
 
-## ⚠️ Риски (1345)
+## ⚠️ Риски (1293)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1073,9 +1065,7 @@ _(872 дублей скрыто)_
   _→ CHANGELOG_
 - algorithm, update methodology `a5de89d7`  
   _→ CHANGELOG_AUTO_
-- (6 файлов)](#кластер-27-содержание-противодействия-меры-риск-6-файлов)  
-  _→ CLUSTERS_
-- (6 файлов)  
+- (17 файлов)  
   _→ CLUSTERS_
 - mitigations**  
   _→ CONCEPTS_
@@ -1087,11 +1077,9 @@ _(872 дублей скрыто)_
   _→ COST_
 - mitigation для каждой. Полезно для grant  
   _→ DECISIONS_
-- (4)](#безопасность-4)  
-  _→ DECISIONS_
 - собирать вс  
   _→ DECISIONS_
-- склеивать в один релиз ## Contents -  
+- склеивать в один релиз <!-- toc-auto --> ## Contents -  
   _→ DECISIONS_
 - данных | 0.916s | 5 |  
   _→ DEMO_
@@ -1143,26 +1131,6 @@ _(872 дублей скрыто)_
   _→ PRECISION_EVAL_
 - | Вероятность | Митигация |  
   _→ PROTOTYPE_SPEC_
-- Почему это важно Снижение риска [6. План прототипа и возможные контакты]  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н [5.  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска [План прототипа и возможные контакты]  
-  _→ QUESTIONS_
-- Двусмысленность Ответственности]  
-  _→ QUESTIONS_
-- Coordinator Bias]  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска [Contents]  
-  _→ QUESTIONS_
-- Нарушения Конфиденциальности]  
-  _→ QUESTIONS_
-- агентов? [Contents]  
-  _→ QUESTIONS_
-- агентов? [Q&A: meta-scripting]  
-  _→ QUESTIONS_
-- склеивать]  
-  _→ QUESTIONS_
 - Analysis](02-anthropic-vacancies/162-8-risk-analysis.md) | 775 | — |  
   _→ READING_ORDER_
 - и приватность](01-svyazi/06-security-privacy.md) | 941 | — |  
@@ -1181,6 +1149,8 @@ _(872 дублей скрыто)_
   _→ SCORING_
 - тестировать любую цепочку.  
   _→ SCRIPT_EVAL_REPORT_
+- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н  
+  _→ SIMILAR_PASSAGES_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
 - [Название]](templates/risk-entry.md) | 353 |  
@@ -1269,8 +1239,6 @@ _(872 дублей скрыто)_
   _→ 161-7-phased-rollout-plan_
 - склеивать"  
   _→ 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать_
-- | ██ 5.7 | 0.5 | 0.3 | ▓▓ 3.8 | 0.3 |  
-  _→ HEATMAP_
 - Analysis]]](#8-risk-analysis02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
 - Analysis]]](#8-risk-analysisnautilusokwf-concept08-risk-analysismd)  
@@ -1317,8 +1285,6 @@ _(872 дублей скрыто)_
   _→ TABLES_
 - склеивать]] | 409 |  
   _→ TABLES_
-- склеивать_  
-  _→ TIMELINE_
 - и бюджетный execution plane для агентных систем.  
   _→ security-routing-plane_
 - склеивать».  
@@ -1340,9 +1306,9 @@ _(872 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(985 дублей скрыто)_
+_(946 дублей скрыто)_
 
-## 🚫 Ограничения (380)
+## 🚫 Ограничения (378)
 
 - и лицензии  
   _→ 14-limitations_
@@ -1498,8 +1464,6 @@ _(985 дублей скрыто)_
   _→ OUTLINE_
 - (честно)](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-честноan  
   _→ OUTLINE_
-- Git [Итог]  
-  _→ QUESTIONS_
 - и лицензии](01-svyazi/14-limitations.md) | 765 | — |  
   _→ READING_ORDER_
 - ### ⚠️ 1. 137 из 159 скриптов без --dry-run  
@@ -1605,9 +1569,9 @@ _(985 дублей скрыто)_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(250 дублей скрыто)_
+_(249 дублей скрыто)_
 
-## 📋 Задачи (TODO) (52)
+## 📋 Задачи (TODO) (38)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1625,16 +1589,6 @@ _(250 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- ⭐ To Do — задача к выполнению 31 [107. Contents]  
-  _→ QUESTIONS_
-- из docs/. [extract (9)]  
-  _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 51 [Contents]  
-  _→ QUESTIONS_
-- во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
-  _→ QUESTIONS_
-- [12.4. Path D — Auto-Scanner]  
-  _→ QUESTIONS_
 - из docs/. | |  
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
@@ -1650,9 +1604,9 @@ _(250 дублей скрыто)_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(32 дублей скрыто)_
+_(23 дублей скрыто)_
 
-## 📬 Контактные действия (318)
+## 📬 Контактные действия (312)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1798,10 +1752,6 @@ _(32 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [226. Скрипты по группам]  
-  _→ QUESTIONS_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
-  _→ QUESTIONS_
 - первое сообщение автору проекта. |  
   _→ REGISTRY_
 - первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
@@ -1836,71 +1786,29 @@ _(32 дублей скрыто)_
   _→ 12-onboarding-paths_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
-- `adapters/<format>.py`, наследуясь от `[[README|[01-интегральный-анализ-профиля-svend4|B  
+- `adapters/<format>.py`, наследуясь от `[[CONCEPTS|[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется Ключевые  
-  _→ TIMELINE_
 
-_(225 дублей скрыто)_
+_(222 дублей скрыто)_
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_action_items.py
-```
-```bash
-# Вариант 2
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_action_items.py --dry-run
-```
+---
 
-## Смотрите также
-- [Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
-- [[DECISIONS|Решения]]
-- [[CONTACTS|Контакты]]
-- [[SCORING|Оценка]]
-- [[TAGS|Теги]]
-- [[ACTION_ITEMS|Задачи]]
-- [[TIMELINE|Хронология]]
+**Смотрите также:**
+- [CONCEPTS]]
+- [[SEARCH]]
+- [[READABILITY]]
+- [[READING_TIME]]
+
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (34):**
-- [[03-component-catalog]]
-- [[01-интегральный-анализ-профиля-svend4]]
-- [[115-8-ограничения-и-открытые-вопросы]]
-- [[133-обратная-связь]]
-- [[165-closing]]
-- [[207-приложение-c-образцы-случаев-использования-в-детал]]
-- [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]]
-- [[272-appendix-d-connection-diagram]]
-- _...ещё 26_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 1.00)
-- [CONCEPTS](../CONCEPTS.md) (сходство 0.22)
-- [CONCEPTS](CONCEPTS.md) (сходство 0.22)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

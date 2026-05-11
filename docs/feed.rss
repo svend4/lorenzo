@@ -5,7 +5,49 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 08:47:52 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 08:56:38 GMT</lastBuildDate>
+    <item>
+      <title>chore: обновление CONCEPTS.md и ENTITIES.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/a5b93b950f659200c4b7fd9561797e4c244c3ab9</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/a5b93b950f659200c4b7fd9561797e4c244c3ab9</guid>
+      <pubDate>Mon, 11 May 2026 08:53:16 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: обновление CONCEPTS.md и ENTITIES.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPTS.md">docs/CONCEPTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ENTITIES.md">docs/ENTITIES.md</a></li></ul><p>Коммит: <code>a5b93b95</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: обновление QUESTIONS.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/566943117525a474b271593f0ab26cd7d35eeb2c</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/566943117525a474b271593f0ab26cd7d35eeb2c</guid>
+      <pubDate>Mon, 11 May 2026 08:50:10 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: обновление QUESTIONS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/KPI.md">docs/KPI.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/QUESTIONS.md">docs/QUESTIONS.md</a></li></ul><p>Коммит: <code>56694311</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: обновление ACTION_ITEMS.md и DECISIONS.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/04a47cc0a568e4f9c11a4db05764ac606d151189</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/04a47cc0a568e4f9c11a4db05764ac606d151189</guid>
+      <pubDate>Mon, 11 May 2026 08:50:03 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: обновление ACTION_ITEMS.md и DECISIONS.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DECISIONS.md">docs/DECISIONS.md</a></li></ul><p>Коммит: <code>04a47cc0</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: обновление DENSITY.md и HEATMAP.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/619729e1598b9bb37299c766923deca392fec22a</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/619729e1598b9bb37299c766923deca392fec22a</guid>
+      <pubDate>Mon, 11 May 2026 08:49:56 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: обновление DENSITY.md и HEATMAP.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DENSITY.md">docs/DENSITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEATMAP.md">docs/HEATMAP.md</a></li></ul><p>Коммит: <code>619729e1</code></p>]]></description>
+    </item>
+    <item>
+      <title>chore: авто-обновление docs/ после improve_run_all --smart</title>
+      <link>https://github.com/svend4/lorenzo/commit/4489b80674a54eb69093c6595ac61fd94834c865</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4489b80674a54eb69093c6595ac61fd94834c865</guid>
+      <pubDate>Mon, 11 May 2026 08:49:41 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: авто-обновление docs/ после improve_run_all --smart</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/16-history.md">docs/02-anthropic-vacancies/16-history.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md">docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md">docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/README.md">docs/02-anthropic-vacancies/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/README.md">docs/03-technology-combinations/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/QA.md">docs/04-ai-collaborations/QA.md</a></li></ul><p>Коммит: <code>4489b806</code></p>]]></description>
+    </item>
+    <item>
+      <title>test: +44 теста — test_progress_sync.py + test_semantic_search.py</title>
+      <link>https://github.com/svend4/lorenzo/commit/b3b6c5db50e6493e7c18b94ed23a865e0334c58c</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b3b6c5db50e6493e7c18b94ed23a865e0334c58c</guid>
+      <pubDate>Mon, 11 May 2026 08:48:55 GMT</pubDate>
+      <description><![CDATA[<p><strong>test: +44 теста — test_progress_sync.py + test_semantic_search.py</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>b3b6c5db</code></p>]]></description>
+    </item>
     <item>
       <title>chore: обновление зеркальных файлов obsidian/confluence</title>
       <link>https://github.com/svend4/lorenzo/commit/07739d9ca7c375f41bef5be23b74b51b005fc657</link>
@@ -103,48 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/ba60a3ce44e70c50f32db7d4ff44b7e1e1b423a1</guid>
       <pubDate>Mon, 11 May 2026 07:35:39 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: авто-перегенерация дашбордов после обновления search_index.json</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/211-table-of-contents.md">docs/02-anthropic-vacancies/211-table-of-contents.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/308-table-of-contents.md">docs/02-anthropic-vacancies/308-table-of-contents.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/QA.md">docs/02-anthropic-vacancies/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/03-technology-combinations/QA.md">docs/03-technology-combinations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/04-ai-collaborations/QA.md">docs/04-ai-collaborations/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ABBREVIATIONS.md">docs/ABBREVIATIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ACTION_ITEMS.md">docs/ACTION_ITEMS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li></ul><p>Коммит: <code>ba60a3ce</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: обновление каталогов скриптов и реестра артефактов</title>
-      <link>https://github.com/svend4/lorenzo/commit/6d6ef3d7725e3b35d723bddc51dee81a0a1090bc</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/6d6ef3d7725e3b35d723bddc51dee81a0a1090bc</guid>
-      <pubDate>Mon, 11 May 2026 07:35:24 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: обновление каталогов скриптов и реестра артефактов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TASKS_INDEX.md">docs/TASKS_INDEX.md</a></li></ul><p>Коммит: <code>6d6ef3d7</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: автоматизация всех критериев benchmark в prototype_demo.py</title>
-      <link>https://github.com/svend4/lorenzo/commit/e77ffcb82bcf179348587d0171004cf95529e4f8</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e77ffcb82bcf179348587d0171004cf95529e4f8</guid>
-      <pubDate>Mon, 11 May 2026 07:23:48 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: автоматизация всех критериев benchmark в prototype_demo.py</strong></p><p>Коммит: <code>e77ffcb8</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: авто-перегенерация derived-файлов после rebuild search_index.json</title>
-      <link>https://github.com/svend4/lorenzo/commit/4b5b08cbd07bfc1a0eb0d50911b736ae8a62c450</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4b5b08cbd07bfc1a0eb0d50911b736ae8a62c450</guid>
-      <pubDate>Mon, 11 May 2026 07:11:36 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: авто-перегенерация derived-файлов после rebuild search_index.json</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/VALIDATION.md">docs/VALIDATION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/00-intro-part2.md">docs/obsidian/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/01-executive-summary.md">docs/obsidian/01-svyazi/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/02-methodology.md">docs/obsidian/01-svyazi/02-methodology.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/03-component-catalog.md">docs/obsidian/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/04-ensembles-overview.md">docs/obsidian/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/06-security-privacy.md">docs/obsidian/01-svyazi/06-security-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/07-mvp-planning.md">docs/obsidian/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/01-svyazi/08-conclusions.md">docs/obsidian/01-svyazi/08-conclusions.md</a></li></ul><p>Коммит: <code>4b5b08cb</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: улучшение качества поиска + CI fix для gateway/ANN тестов</title>
-      <link>https://github.com/svend4/lorenzo/commit/b9d3e3b883cf08a55c8a006a46b9262c7ac2ef1e</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/b9d3e3b883cf08a55c8a006a46b9262c7ac2ef1e</guid>
-      <pubDate>Mon, 11 May 2026 07:09:52 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: улучшение качества поиска + CI fix для gateway/ANN тестов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li></ul><p>Коммит: <code>b9d3e3b8</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: обновление авто-генерируемых дашбордов после новых файлов</title>
-      <link>https://github.com/svend4/lorenzo/commit/4855344250aad179fb770b86acb0dd3dcca00dc5</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/4855344250aad179fb770b86acb0dd3dcca00dc5</guid>
-      <pubDate>Mon, 11 May 2026 06:59:16 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: обновление авто-генерируемых дашбордов после новых файлов</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTENT_GAPS.md">docs/CONTENT_GAPS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCORING.md">docs/SCORING.md</a></li></ul><p>Коммит: <code>48553442</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS 63%</title>
-      <link>https://github.com/svend4/lorenzo/commit/f3d00e2249b0d3eb910113756fb5dc0d79c2f2cc</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f3d00e2249b0d3eb910113756fb5dc0d79c2f2cc</guid>
-      <pubDate>Mon, 11 May 2026 06:58:50 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS 63%</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>f3d00e22</code></p>]]></description>
     </item>
   </channel>
 </rss>

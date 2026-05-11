@@ -50,7 +50,7 @@ python scripts/improve_semantic_search.py --query "Комбинирование 
 ---
 
 **Похожие документы:**
-- [README](../../03-technology-combinations/README.md) (сходство 0.98)
-- [SEARCH_RESULTS](../SEARCH_RESULTS.md) (сходство 0.45)
-- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.44)
+- [[README]] (сходство 0.98)
+- [[SEARCH_RESULTS]] (сходство 0.44)
+- [[SEARCH_RESULTS]] (сходство 0.43)
 

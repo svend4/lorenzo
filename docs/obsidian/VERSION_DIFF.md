@@ -1578,7 +1578,18 @@ python scripts/improve_version_diff.py --dry-run
 ---
 
 **Похожие документы:**
-- [VERSION_DIFF](../VERSION_DIFF.md) (сходство 1.00)
-- [READABILITY](../READABILITY.md) (сходство 0.67)
-- [READING_TIME](../READING_TIME.md) (сходство 0.67)
+- [[VERSION_DIFF]] (сходство 1.00)
+- [[READABILITY]] (сходство 0.67)
+- [[READING_TIME]] (сходство 0.67)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[READING_TIME]]
+- [[READABILITY]]
+- [[HEADING_AUDIT]]
+- [[LANGUAGE_STATS]]
 

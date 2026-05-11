@@ -26,7 +26,7 @@ h1. Q&A: 01-svyazi
 
 
 {quote}_Автоматически сгенерировано по 14 файлам раздела._{quote}
-_Проекты:_ Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL, LiteLLM, Auto AI Router
+_Проекты:_ Svyazi[^svyazi], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel], LiteLLM, Auto AI Router
 
 ----
 
@@ -103,3 +103,24 @@ h2. Использование
 # Запуск
 python scripts/improve_qa.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[QA]] (сходство 0.99)
+* [[QA]] (сходство 0.85)
+* [[QA]] (сходство 0.84)
+
+
+
+
+
+----
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^svyazi]: Главный проект: экосистема AI-компонентов

@@ -73,3 +73,13 @@ h2. Использование
 # Запуск
 python scripts/improve_qa.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [QA|../obsidian/03-technology-combinations/QA.md] (сходство 0.97)
+* [QA|../processing-guide/QA.md] (сходство 0.51)
+* [QA|../lorenzo-agent/QA.md] (сходство 0.50)
+

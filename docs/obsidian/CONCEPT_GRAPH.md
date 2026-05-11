@@ -211,7 +211,18 @@ graph TD
 ---
 
 **Похожие документы:**
-- [CONCEPT_GRAPH](../CONCEPT_GRAPH.md) (сходство 0.96)
-- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.42)
-- [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.41)
+- [[CONCEPT_GRAPH]] (сходство 0.96)
+- [[SKILL_DASHBOARD]] (сходство 0.41)
+- [[MCP_DASHBOARD]] (сходство 0.40)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[PASSIVE_VOICE]]
+- [[CROSS_SECTION]]
+- [[KEYWORD_INDEX]]
+- [[KPI_HISTORY]]
 

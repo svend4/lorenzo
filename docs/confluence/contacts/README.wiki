@@ -41,3 +41,13 @@ _Кто ссылается на этот документ (21):_
 * [andrey-chuyan|andrey-chuyan.md]
 * _...ещё 13_
 
+
+
+
+----
+
+_Похожие документы:_
+* [README|../obsidian/contacts/README.md] (сходство 0.89)
+* [README|../letters/README.md] (сходство 0.51)
+* [AUTHORS|../AUTHORS.md] (сходство 0.50)
+

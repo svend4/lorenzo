@@ -1,5 +1,20 @@
 # Action Items, риски и решения
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Автоматически извлечено из всех документов.
 
 **Всего элементов:** 3436
@@ -1768,3 +1783,30 @@ _(23 дублей скрыто)_
   _→ 87-12-onboarding-paths-normative_
 
 _(222 дублей скрыто)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPTS](CONCEPTS.md)
+- [SEARCH](SEARCH.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (31):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [115-8-ограничения-и-открытые-вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)
+- [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md)
+- [165-closing](02-anthropic-vacancies/165-closing.md)
+- [207-приложение-c-образцы-случаев-использования-в-детал](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)
+- [272-appendix-d-connection-diagram](02-anthropic-vacancies/272-appendix-d-connection-diagram.md)
+- _...ещё 23_
+

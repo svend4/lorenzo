@@ -199,7 +199,18 @@ _Индекс сгенерирован автоматически · 2451 док
 ---
 
 **Похожие документы:**
-- [INDEX](../INDEX.md) (сходство 0.97)
-- [ONBOARDING](ONBOARDING.md) (сходство 0.23)
-- [ONBOARDING](../ONBOARDING.md) (сходство 0.22)
+- [[INDEX]] (сходство 0.97)
+- [[ONBOARDING]] (сходство 0.24)
+- [[ONBOARDING]] (сходство 0.24)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[ONBOARDING]]
+- [[CROSS_SECTION]]
+- [[DEPENDENCY_MAP]]
+- [[DIGEST_WEEKLY]]
 

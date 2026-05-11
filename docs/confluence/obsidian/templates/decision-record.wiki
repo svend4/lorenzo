@@ -14,11 +14,6 @@ date: 2026-05-11
 
 h1. ADR: [Название решения]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{decision-record}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -51,36 +46,3 @@ h2. Последствия
 
 ----
 _Дата: 2026-05-11_
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_decision_record.py
-{code}
-
-h2. Смотрите также
-* [[README|Главная]]
-* [[METRICS|Метрики]]
-* [[HEALTH|Здоровье]]
-* [[GLOSSARY|Глоссарий]]
-* [[ENTITIES|Сущности]]
-
-
-
-----
-
-_Кто ссылается на этот документ (14):_
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[REGISTRY]]
-* [[SEARCH]]
-* [[TABLES]]
-* [[README]]
-* [[contradiction-record]]
-* [[experiment-log]]
-* _...ещё 6_
-

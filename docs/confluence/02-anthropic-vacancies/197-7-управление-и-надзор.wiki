@@ -147,3 +147,13 @@ _Кто ссылается на этот документ (9):_
 * [TABLES|../TABLES.md]
 * _...ещё 1_
 
+
+
+
+----
+
+_Похожие документы:_
+* [197-7-управление-и-надзор|../obsidian/02-anthropic-vacancies/197-7-управление-и-надзор.md] (сходство 0.97)
+* [07-upravlenie-nadzor|../obsidian/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md] (сходство 0.87)
+* [07-upravlenie-nadzor|../nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md] (сходство 0.87)
+

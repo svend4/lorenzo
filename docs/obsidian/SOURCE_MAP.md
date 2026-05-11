@@ -1889,7 +1889,18 @@ python scripts/improve_source_map.py --dry-run
 ---
 
 **Похожие документы:**
-- [SOURCE_MAP](../SOURCE_MAP.md) (сходство 1.00)
-- [READING_TIME](../READING_TIME.md) (сходство 0.81)
-- [READABILITY](../READABILITY.md) (сходство 0.81)
+- [[SOURCE_MAP]] (сходство 1.00)
+- [[READING_TIME]] (сходство 0.81)
+- [[READABILITY]] (сходство 0.81)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[HEADING_AUDIT]]
+- [[READING_TIME]]
+- [[READABILITY]]
+- [[SEARCH]]
 

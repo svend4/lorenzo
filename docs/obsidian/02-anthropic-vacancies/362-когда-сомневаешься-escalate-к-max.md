@@ -76,7 +76,7 @@ python scripts/improve_semantic_search.py --query "Когда сомневаеш
 ---
 
 **Похожие документы:**
-- [362-когда-сомневаешься-escalate-к-max](../../02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.96)
-- [18-escalate-to-max](../lorenzo-agent/18-escalate-to-max.md) (сходство 0.63)
-- [18-escalate-to-max](../../lorenzo-agent/18-escalate-to-max.md) (сходство 0.62)
+- [[362-когда-сомневаешься-escalate-к-max]] (сходство 0.96)
+- [[18-escalate-to-max]] (сходство 0.63)
+- [[18-escalate-to-max]] (сходство 0.62)
 

@@ -157,3 +157,14 @@ _Radar обновляется вручную при существенных и�
 - [FOOTNOTES](FOOTNOTES.md) (сходство 0.22)
 - [ONBOARDING](ONBOARDING.md) (сходство 0.21)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+

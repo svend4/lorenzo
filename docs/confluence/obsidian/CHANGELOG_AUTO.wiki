@@ -337,3 +337,24 @@ _Кто ссылается на этот документ (7):_
 * [[SEARCH]]
 * [[TABLES]]
 
+
+
+
+----
+
+_Похожие документы:_
+* [[CHANGELOG_AUTO]] (сходство 1.00)
+* [[CHANGELOG]] (сходство 0.61)
+* [[CHANGELOG]] (сходство 0.61)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[CHANGELOG]]
+* [[DEPENDENCY_MAP]]
+* [[VERSION_DIFF]]
+* [[LANGUAGE_STATS]]
+

@@ -185,3 +185,24 @@ _Кто ссылается на этот документ (11):_
 * [README|README.md]
 * _...ещё 3_
 
+
+
+
+----
+
+_Похожие документы:_
+* [INDEX|obsidian/INDEX.md] (сходство 0.97)
+* [ONBOARDING|ONBOARDING.md] (сходство 0.24)
+* [ONBOARDING|obsidian/ONBOARDING.md] (сходство 0.24)
+
+
+
+
+----
+
+_Смотрите также:_
+* [ONBOARDING|ONBOARDING.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+

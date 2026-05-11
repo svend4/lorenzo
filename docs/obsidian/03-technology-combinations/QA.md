@@ -85,7 +85,7 @@ python scripts/improve_qa.py
 ---
 
 **Похожие документы:**
-- [QA](../../03-technology-combinations/QA.md) (сходство 0.97)
-- [QA](../processing-guide/QA.md) (сходство 0.52)
-- [QA](../lorenzo-agent/QA.md) (сходство 0.51)
+- [[QA]] (сходство 0.97)
+- [[QA]] (сходство 0.51)
+- [[QA]] (сходство 0.50)
 

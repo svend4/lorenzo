@@ -75,3 +75,14 @@ python scripts/improve_dependabot.py --check-pypi
 - [GRAPH](GRAPH.md) (сходство 0.33)
 - [README](badges/README.md) (сходство 0.32)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+

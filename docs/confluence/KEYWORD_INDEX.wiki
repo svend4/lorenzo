@@ -212,3 +212,24 @@ _Кто ссылается на этот документ (12):_
 * [READABILITY|READABILITY.md]
 * _...ещё 4_
 
+
+
+
+----
+
+_Похожие документы:_
+* [KEYWORD_INDEX|obsidian/KEYWORD_INDEX.md] (сходство 0.98)
+* [CONCEPT_GRAPH|CONCEPT_GRAPH.md] (сходство 0.38)
+* [CONCEPT_GRAPH|obsidian/CONCEPT_GRAPH.md] (сходство 0.37)
+
+
+
+
+----
+
+_Смотрите также:_
+* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+* [08-personal-multi-agent-hub|habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md]
+* [10-query-result|nautilus/npp-v1-0/10-query-result.md]
+

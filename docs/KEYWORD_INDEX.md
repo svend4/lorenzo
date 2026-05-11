@@ -219,3 +219,14 @@ python scripts/improve_keyword_index.py
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.38)
 - [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.37)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [08-personal-multi-agent-hub](habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md)
+- [10-query-result](nautilus/npp-v1-0/10-query-result.md)
+

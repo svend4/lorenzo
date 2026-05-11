@@ -1,12 +1,5 @@
 # Расписание проекта
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Дорожная карта с вехами и задачами по кварталам._
 **Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
@@ -82,14 +75,4 @@ _█ = активная работа, ░ = ожидание_
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.97)
-- [MINDMAP](MINDMAP.md) (сходство 0.26)
-- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.26)
 

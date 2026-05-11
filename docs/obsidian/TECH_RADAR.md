@@ -160,7 +160,18 @@ _Radar обновляется вручную при существенных и�
 ---
 
 **Похожие документы:**
-- [TECH_RADAR](../TECH_RADAR.md) (сходство 0.99)
-- [FOOTNOTES](FOOTNOTES.md) (сходство 0.22)
-- [ONBOARDING](ONBOARDING.md) (сходство 0.22)
+- [[TECH_RADAR]] (сходство 0.99)
+- [[FOOTNOTES]] (сходство 0.22)
+- [[ONBOARDING]] (сходство 0.21)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[ONBOARDING]]
+- [[CONCEPT_GRAPH]]
+- [[DIGEST_WEEKLY]]
+- [[KEYWORD_INDEX]]
 

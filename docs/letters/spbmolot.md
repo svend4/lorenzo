@@ -1,5 +1,10 @@
 # Письмо: spbmolot / NGT Memory
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -95,4 +100,15 @@ python scripts/improve_spbmolot.py
 - [spbmolot](../obsidian/letters/spbmolot.md) (сходство 0.98)
 - [antipozitive](antipozitive.md) (сходство 0.28)
 - [antipozitive](../obsidian/letters/antipozitive.md) (сходство 0.27)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [antipozitive](antipozitive.md)
+- [kksudo](kksudo.md)
+- [vitalyoborin](vitalyoborin.md)
+- [nlaik](nlaik.md)
 

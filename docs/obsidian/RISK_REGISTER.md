@@ -194,7 +194,18 @@ _Курированных рисков: 10 · Из документов: 15_
 ---
 
 **Похожие документы:**
-- [RISK_REGISTER](../RISK_REGISTER.md) (сходство 0.98)
-- [02-methodology](01-svyazi/02-methodology.md) (сходство 0.15)
-- [02-methodology](../01-svyazi/02-methodology.md) (сходство 0.15)
+- [[RISK_REGISTER]] (сходство 0.98)
+- [[02-methodology]] (сходство 0.15)
+- [[02-methodology]] (сходство 0.15)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[privacy]]
+- [[02-methodology]]
+- [[security-routing-plane]]
+- [[LLM_SUMMARIES]]
 

@@ -21,7 +21,7 @@ date: 2026-05-11
 
 <!-- summary -->
 > _Автоматически сгенерировано по 15 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
+**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Legal RAG[^rag], Hybrid RAG, Graph RAG, SENTINEL[^sentinel]
 
 ---
 <!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
@@ -116,7 +116,22 @@ python scripts/improve_qa.py
 ---
 
 **Похожие документы:**
-- [QA](../../04-ai-collaborations/QA.md) (сходство 0.99)
-- [QA](../01-svyazi/QA.md) (сходство 0.86)
-- [QA](../../01-svyazi/QA.md) (сходство 0.84)
+- [[QA]] (сходство 0.99)
+- [[QA]] (сходство 0.85)
+- [[QA]] (сходство 0.84)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^rag]: Retrieval-Augmented Generation — генерация с поиском
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^sentinel]: OSS-проект: безопасность и allowlist для MCP
+
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

@@ -1,5 +1,33 @@
 # Именованные сущности
 
+<!-- summary -->
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Люди и авторы (7)](#люди-и-авторы-7)
+- [Проекты (22)](#проекты-22)
+- [Организации (9)](#организации-9)
+- [Технологии и стандарты (24)](#технологии-и-стандарты-24)
+- [GitHub репозитории (15)](#github-репозитории-15)
+- [Ко-встречаемость проектов (топ пары)](#ко-встречаемость-проектов-топ-пары)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, anthropic, collaboration -->
+
+
+
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Файлов просмотрено:** 2476
 
 
@@ -129,3 +157,30 @@
 | NGT ↔ CardIndex | 192 |
 | AgentFS ↔ knowledge-space | 187 |
 | Svyazi ↔ LiteParse | 181 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [NETWORK](NETWORK.md)
+- [.md](autofilled/components/.md)
+- [DEPENDABOT](DEPENDABOT.md)
+- [GLOSSARY](GLOSSARY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (35):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- _...ещё 27_
+

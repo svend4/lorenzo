@@ -158,3 +158,24 @@ _Кто ссылается на этот документ (7):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [VOCABULARY|obsidian/VOCABULARY.md] (сходство 0.98)
+* [PASSIVE_VOICE|PASSIVE_VOICE.md] (сходство 0.24)
+* [PASSIVE_VOICE|obsidian/PASSIVE_VOICE.md] (сходство 0.24)
+
+
+
+
+----
+
+_Смотрите также:_
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [CITATION_INDEX|CITATION_INDEX.md]
+* [KPI_HISTORY|KPI_HISTORY.md]
+

@@ -38,7 +38,7 @@ date: 2026-05-11
 ---
 
 **Похожие документы:**
-- [README](../../autofilled/README.md) (сходство 0.68)
-- [README](../glossary/README.md) (сходство 0.61)
-- [README](../technology-combinations/research-reports/README.md) (сходство 0.58)
+- [[README]] (сходство 0.68)
+- [[README]] (сходство 0.62)
+- [[README]] (сходство 0.52)
 

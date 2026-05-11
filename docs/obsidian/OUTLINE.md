@@ -16363,7 +16363,18 @@ python scripts/improve_outline.py --dry-run
 ---
 
 **Похожие документы:**
-- [OUTLINE](../OUTLINE.md) (сходство 1.00)
-- [EMPTY_SECTIONS](EMPTY_SECTIONS.md) (сходство 0.48)
-- [EMPTY_SECTIONS](../EMPTY_SECTIONS.md) (сходство 0.48)
+- [[OUTLINE]] (сходство 1.00)
+- [[EMPTY_SECTIONS]] (сходство 0.48)
+- [[EMPTY_SECTIONS]] (сходство 0.48)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[EMPTY_SECTIONS]]
+- [[PARAGRAPH_QUALITY]]
+- [[SEARCH]]
+- [[TABLES]]
 

@@ -1,11 +1,17 @@
 ---
 title: "Оценка готовности проекта (Go/No-Go)"
 tags:
+  - security
+  - architecture
+  - roadmap
+  - collaboration
   - general
 date: 2026-05-11
 ---
 
 # Оценка готовности проекта (Go/No-Go)
+<!-- tags: security, architecture, roadmap, collaboration -->
+
 
 _Дата: 2026-05-11_
 
@@ -65,12 +71,13 @@ _Дата: 2026-05-11_
 ## ✅ Проект готов к запуску MVP!
 
 
-<!-- similar-docs -->
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [SCORING](../SCORING.md) (сходство 0.79)
-- [COVERAGE](COVERAGE.md) (сходство 0.23)
-- [COVERAGE](../COVERAGE.md) (сходство 0.21)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

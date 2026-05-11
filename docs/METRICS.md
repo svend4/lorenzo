@@ -89,3 +89,30 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.29)
 - [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.29)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [HEALTH](HEALTH.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [COVERAGE](COVERAGE.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (34):**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- _...ещё 26_
+

@@ -113,3 +113,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "Lorenzo"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [svyazi|svyazi.md] (сходство 1.00)
+* [svend4|svend4.md] (сходство 1.00)
+* [sgb|sgb.md] (сходство 1.00)
+

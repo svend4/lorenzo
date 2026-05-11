@@ -339,7 +339,18 @@ python scripts/improve_changelog_auto.py --dry-run
 ---
 
 **Похожие документы:**
-- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md) (сходство 1.00)
-- [CHANGELOG](CHANGELOG.md) (сходство 0.61)
-- [CHANGELOG](../CHANGELOG.md) (сходство 0.61)
+- [[CHANGELOG_AUTO]] (сходство 1.00)
+- [[CHANGELOG]] (сходство 0.61)
+- [[CHANGELOG]] (сходство 0.61)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CHANGELOG]]
+- [[DEPENDENCY_MAP]]
+- [[VERSION_DIFF]]
+- [[LANGUAGE_STATS]]
 

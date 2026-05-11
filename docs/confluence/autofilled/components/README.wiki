@@ -35,3 +35,13 @@ _Кто ссылается на этот документ (16):_
 * [cowork|cowork.md]
 * _...ещё 8_
 
+
+
+
+----
+
+_Похожие документы:_
+* [README|../../obsidian/autofilled/components/README.md] (сходство 0.85)
+* [README|../README.md] (сходство 0.62)
+* [README|../../glossary/README.md] (сходство 0.50)
+

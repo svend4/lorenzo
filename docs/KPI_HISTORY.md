@@ -89,3 +89,14 @@ _Запускать регулярно для получения трендов.
 - [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.46)
 - [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.44)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+

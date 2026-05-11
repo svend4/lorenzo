@@ -1,24 +1,16 @@
 # Сноски и определения терминов
 
-<!-- toc-auto -->
-## Contents
-
-- [Словарь сносок](#словарь-сносок)
-- [Как это работает](#как-это-работает)
-
-
-> [!NOTE]
-> Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: footnotes, docs -->
-
-
 <!-- summary -->
-> `FOOTNOTES` — раздел документации проекта Lorenzo.
+> **Обновлено файлов:** 3  **Вставлено сносок:** 13
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
 
 
-**Обновлено файлов:** 3  **Вставлено сносок:** 8
+
+
+**Обновлено файлов:** 3  **Вставлено сносок:** 13
 
 ## Словарь сносок
 
@@ -32,14 +24,14 @@
 | **Jaccard** | Коэффициент схожести множеств (0–1) | 0 |
 | **LLM** | Large Language Model — большая языковая модель | 0 |
 | **MCP** | Model Context Protocol — протокол для AI-инструментов | 0 |
-| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 0 |
+| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 1 |
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 0 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 2 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 1 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
-| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
+| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 1 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
 
 ## Как это работает
@@ -58,33 +50,23 @@
 
 **Смотрите также:**
 - [01-executive-summary](04-ai-collaborations/01-executive-summary.md)
-- [TECH_RADAR](TECH_RADAR.md)
-- [ONBOARDING](ONBOARDING.md)
 - [08-conclusions](01-svyazi/08-conclusions.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [GRAPH](GRAPH.md)
 
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (11):**
 - [08-conclusions](01-svyazi/08-conclusions.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [INDEX](INDEX.md)
+- [ONBOARDING](ONBOARDING.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [FOOTNOTES](obsidian/FOOTNOTES.md) (сходство 0.97)
-- [GRAPH](GRAPH.md) (сходство 0.25)
-- [GRAPH](obsidian/GRAPH.md) (сходство 0.24)
+- _...ещё 3_
 

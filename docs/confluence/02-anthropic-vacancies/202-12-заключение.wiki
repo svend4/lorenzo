@@ -84,3 +84,13 @@ h2. Кто ссылается на этот документ (5)
 * [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md]
 * [README|README.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [202-12-заключение|../obsidian/02-anthropic-vacancies/202-12-заключение.md] (сходство 0.98)
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|305-a-practical-path-to-layer-b-through-symbiotic-inte.md] (сходство 0.21)
+* [305-a-practical-path-to-layer-b-through-symbiotic-inte|../obsidian/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md] (сходство 0.21)
+

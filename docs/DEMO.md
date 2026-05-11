@@ -166,3 +166,28 @@ python scripts/prototype_demo.py --query "ваш запрос"
 - [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md) (сходство 0.15)
 - [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [PRECISION_EVAL](PRECISION_EVAL.md)
+- [GATEWAY](GATEWAY.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](CONCEPTS.md)
+- [GATEWAY](GATEWAY.md)
+- [PRECISION_EVAL](PRECISION_EVAL.md)
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [SENTINEL](SENTINEL.md)
+- [TABLES](TABLES.md)
+

@@ -12,7 +12,7 @@ h1. Q&A: 05-habr-projects
 
 
 {quote}_Автоматически сгенерировано по 12 файлам раздела._{quote}
-_Проекты:_ CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory, MemNet, agent-memory-mcp
+_Проекты:_ CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
 
 ----
 
@@ -89,3 +89,28 @@ h2. Использование
 # Запуск
 python scripts/improve_qa.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [QA|../obsidian/05-habr-projects/QA.md] (сходство 0.98)
+* [QA|../lorenzo-agent/QA.md] (сходство 0.66)
+* [QA|../obsidian/lorenzo-agent/QA.md] (сходство 0.66)
+
+
+
+
+
+----
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

@@ -2530,3 +2530,14 @@
 - [READABILITY](READABILITY.md) (сходство 0.95)
 - [READING_TIME](obsidian/READING_TIME.md) (сходство 0.93)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+

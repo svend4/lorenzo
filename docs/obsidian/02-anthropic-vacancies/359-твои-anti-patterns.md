@@ -78,7 +78,7 @@ python scripts/improve_semantic_search.py --query "Твои anti patterns"
 ---
 
 **Похожие документы:**
-- [359-твои-anti-patterns](../../02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.97)
-- [15-anti-patterns](../lorenzo-agent/15-anti-patterns.md) (сходство 0.69)
-- [15-anti-patterns](../../lorenzo-agent/15-anti-patterns.md) (сходство 0.69)
+- [[359-твои-anti-patterns]] (сходство 0.97)
+- [[15-anti-patterns]] (сходство 0.69)
+- [[15-anti-patterns]] (сходство 0.69)
 

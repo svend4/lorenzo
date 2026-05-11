@@ -7,6 +7,53 @@ date: 2026-05-11
 
 # Частотный анализ слов
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Глобальный топ-50 слов](#глобальный-топ-50-слов)
+- [Топ-15 слов по разделам](#топ-15-слов-по-разделам)
+  - [01-svyazi (10,980 слов)](#01-svyazi-10980-слов)
+  - [02-anthropic-vacancies (198,828 слов)](#02-anthropic-vacancies-198828-слов)
+  - [03-technology-combinations (2,702 слов)](#03-technology-combinations-2702-слов)
+  - [04-ai-collaborations (22,320 слов)](#04-ai-collaborations-22320-слов)
+  - [05-habr-projects (10,678 слов)](#05-habr-projects-10678-слов)
+  - [ai-collaborations (8,750 слов)](#ai-collaborations-8750-слов)
+  - [anthropic-vacancies (33,135 слов)](#anthropic-vacancies-33135-слов)
+  - [autofilled (1,715 слов)](#autofilled-1715-слов)
+  - [badges (96 слов)](#badges-96-слов)
+  - [contacts (2,735 слов)](#contacts-2735-слов)
+  - [glossary (3,094 слов)](#glossary-3094-слов)
+  - [habr-unique-projects (13,894 слов)](#habr-unique-projects-13894-слов)
+  - [letters (2,118 слов)](#letters-2118-слов)
+  - [lorenzo-agent (19,968 слов)](#lorenzo-agent-19968-слов)
+  - [meta-scripting (1,340 слов)](#meta-scripting-1340-слов)
+  - [nautilus (124,210 слов)](#nautilus-124210-слов)
+  - [obsidian (857,421 слов)](#obsidian-857421-слов)
+  - [processing-guide (8,411 слов)](#processing-guide-8411-слов)
+  - [root (430,849 слов)](#root-430849-слов)
+  - [svyazi-2-0 (14,723 слов)](#svyazi-2-0-14723-слов)
+  - [technology-combinations (14,393 слов)](#technology-combinations-14393-слов)
+  - [templates (4,120 слов)](#templates-4120-слов)
+- [Уникальные слова разделов](#уникальные-слова-разделов)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 **Всего слов (очищенных):** 1,786,480
 
 ## Глобальный топ-50 слов
@@ -532,3 +579,25 @@ _(Слова, характерные только для этого раздел
 **svyazi-2-0:** view, turn, search, citeturn, memory, поиска, репозитория, rag, name, research, граф, концептов
 **technology-combinations:** legal, репозитория, code, stack, новых, event, time, multi, поиска, combinations, технологий, tables
 **templates:** репозитория, раздел, search, registry, readability, граф, концептов, reading, time, tables, поиска, note
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[KEYWORD_INDEX]]
+- [[CROSS_SECTION]]
+- [[privacy]]
+- [[12-appendix-a-header-warning]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

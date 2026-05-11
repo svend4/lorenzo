@@ -214,3 +214,14 @@ python scripts/improve_topic_model.py
 - [PRIORITIES](obsidian/PRIORITIES.md) (сходство 0.26)
 - [SOURCE_MAP](SOURCE_MAP.md) (сходство 0.25)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](CLUSTERS.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [PRIORITIES](PRIORITIES.md)
+

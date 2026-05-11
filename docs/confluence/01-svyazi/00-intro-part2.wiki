@@ -73,3 +73,13 @@ _Смотрите также:_
 * [12-technical-program-management|../anthropic-vacancies/clusters/12-technical-program-management.md]
 * [03-similarity-3-mcp-support|../anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [00-intro-part2|../obsidian/01-svyazi/00-intro-part2.md] (сходство 0.94)
+* [SEARCH_RESULTS|../SEARCH_RESULTS.md] (сходство 0.45)
+* [SEARCH_RESULTS|../obsidian/SEARCH_RESULTS.md] (сходство 0.44)
+

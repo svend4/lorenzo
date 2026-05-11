@@ -6,13 +6,17 @@
 ----
 title: "Глоссарий понятий"
 tags:
-  * concepts
-  * docs
   * general
 date: 2026-05-11
 ----
 
 h1. Глоссарий понятий
+
+
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+----
 
 
 h2. Содержание
@@ -70,27 +74,22 @@ h2. Содержание
 * [Э|#э]
 * [Ю|#ю]
 * [Я|#я]
-* [Использование|#использование]
 
 ----
 
 
 
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{CONCEPTS}} формируется автоматически из данных репозитория.{quote}
 
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
-
-
-
-{quote}{{CONCEPTS}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Определения извлечены автоматически из документов._
 
-_Извлечено понятий:_ 1187  (из 4309 совпадений)
+_Извлечено понятий:_ 1186  (из 4310 совпадений)
 
 
 h2. A
@@ -1209,7 +1208,7 @@ _iant C concept document с Lorenzo central_
 
 _ic{{, }}semantic{{, }}procedural{{, }}working`)_
 : точная типизация, которой не хватает большинству memory-систем  
-  _→ [[vitalysemenov]]_
+  _→ [[DUPLICATES]]_
 
 _Identification_
 : > «Здравствуйте, [имя]  
@@ -2361,10 +2360,6 @@ _Rufler_
 
 
 h2. S
-
-_s_on` граф задач + auto-objective prompts_
-: комбинация, которая устраняет самую трудоёмкую часть оркестрации: написание промптов для каждого агента и ручное управление порядком запуска  
-  _→ [[DUPLICATES]]_
 
 _Scenario_
 : Over time, agent decisions shape principal's  
@@ -4555,8 +4550,8 @@ _Ссылка "§ 90 SGB XII" в тексте решения_
   _→ [[01-structural-comparison-code-vs-docs]]_
 
 _станавливаются через тензорные разложения_
-: принципиально другой подход к проблеме «ложных связей»  
-  _→ [[DUPLICATES]]_
+: принципиально другой подход  
+  _→ [[spbmolot]]_
 
 _Статус документа_
 : сравнительный промежуточный вариант  
@@ -4964,52 +4959,12 @@ _Ясный спрос_
 
 
 
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_concepts.py
-{code}
-{code:language=bash}
-# Вариант 2
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 3
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 4
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 5
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 6
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 7
-python scripts/improve_concepts.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 8
-python scripts/improve_concepts.py --dry-run
-{code}
-
-
 
 ----
 
-_Кто ссылается на этот документ (96):_
-* [[02-methodology]]
-* [[12-roadmap]]
-* [[14-limitations]]
-* [[00-intro]]
+_Смотрите также:_
+* [[TABLES]]
 * [[01-интегральный-анализ-профиля-svend4]]
-* [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
-* [[112-5-связь-с-существующими-методологиями]]
-* [[115-8-ограничения-и-открытые-вопросы]]
-* _...ещё 88_
+* [[ACTION_ITEMS]]
+* [[OUTLINE]]
 

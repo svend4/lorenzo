@@ -8795,3 +8795,24 @@ python scripts/improve_paragraph_quality.py --dry-run
 # Вариант 3
 python scripts/improve_paragraph_quality.py --dry-run
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[PARAGRAPH_QUALITY]] (сходство 1.00)
+* [[HEADING_AUDIT]] (сходство 0.97)
+* [[HEADING_AUDIT]] (сходство 0.97)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[EMPTY_SECTIONS]]
+* [[HEADING_AUDIT]]
+* [[READING_TIME]]
+* [[READABILITY]]
+

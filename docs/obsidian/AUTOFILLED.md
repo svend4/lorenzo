@@ -129,7 +129,7 @@ _Документ индексирован в поисковой базе реп
 ---
 
 **Похожие документы:**
-- [AUTOFILLED](../AUTOFILLED.md) (сходство 0.97)
-- [svyazi](autofilled/components/svyazi.md) (сходство 0.50)
-- [svend4](autofilled/components/svend4.md) (сходство 0.50)
+- [[AUTOFILLED]] (сходство 0.97)
+- [[svyazi]] (сходство 0.49)
+- [[svend4]] (сходство 0.49)
 

@@ -82,3 +82,24 @@ _Кто ссылается на этот документ (9):_
 * [QA|svyazi-2-0/QA.md]
 * _...ещё 1_
 
+
+
+
+----
+
+_Похожие документы:_
+* [KPI_HISTORY|obsidian/KPI_HISTORY.md] (сходство 0.94)
+* [MCP_DASHBOARD|MCP_DASHBOARD.md] (сходство 0.46)
+* [MCP_DASHBOARD|obsidian/MCP_DASHBOARD.md] (сходство 0.44)
+
+
+
+
+----
+
+_Смотрите также:_
+* [PASSIVE_VOICE|PASSIVE_VOICE.md]
+* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+

@@ -5,11 +5,6 @@
 
 h1. Контакт: [Имя / Проект]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{contact-outreach}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -49,18 +44,3 @@ h2. Открытые вопросы для обсуждения
 
 ----
 _Создано: 2026-05-11_
-
-
-
-----
-
-_Кто ссылается на этот документ (8):_
-* [READABILITY|../READABILITY.md]
-* [REGISTRY|../REGISTRY.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-* [TASKS_INDEX|../TASKS_INDEX.md]
-* [research-summary|../autofilled/research-summary.md]
-* [README|README.md]
-* [meeting-notes|meeting-notes.md]
-

@@ -9,11 +9,6 @@ date: 2026-05-11
 
 # Контакт: [Имя / Проект]
 
-> [!NOTE]
-> Раздел `contact-outreach` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Шаблон для связи с автором X -->
 <!-- tags: контакты, команда -->
 
@@ -59,23 +54,9 @@ _Создано: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (8):**
-- [[READABILITY]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[TASKS_INDEX]]
-- [[research-summary]]
-- [[README]]
-- [[meeting-notes]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [contact-outreach](../../templates/contact-outreach.md) (сходство 0.94)
-- [tagir-analyzes](../contacts/tagir-analyzes.md) (сходство 0.42)
-- [nlaik](../contacts/nlaik.md) (сходство 0.41)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
 

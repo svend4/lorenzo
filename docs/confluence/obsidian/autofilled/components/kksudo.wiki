@@ -121,3 +121,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "kksudo"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[kksudo]] (сходство 0.96)
+* [[spbmolot]] (сходство 0.89)
+* [[spbmolot]] (сходство 0.85)
+

@@ -6,16 +6,11 @@ date: 2026-05-11
 ---
 
 # CHANGELOG
-
-> [!NOTE]
-> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
 <!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
 
 
-Всего коммитов: **227**  
-Статистика: 🔧 chore: 79 | ✨ feat: 74 | 🐛 fix: 35 | 📝 docs: 24 | ⚡ improve: 15
+Всего коммитов: **250**  
+Статистика: 🔧 chore: 92 | ✨ feat: 81 | 🐛 fix: 36 | 📝 docs: 25 | ⚡ improve: 15 | 🧪 test: 1
 
 
 ## semantic (1 коммитов)
@@ -30,10 +25,36 @@ date: 2026-05-11
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (22 коммитов)
+## 2026-05-11 (45 коммитов)
 
 ### 🔧 Обслуживание
 
+- обновление CONCEPTS.md и ENTITIES.md _a5b93b95_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- обновление QUESTIONS.md _56694311_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- обновление ACTION_ITEMS.md и DECISIONS.md _04a47cc0_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- обновление DENSITY.md и HEATMAP.md _619729e1_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- авто-обновление docs/ после improve_run_all --smart _4489b806_
+  > Скрипты добавили похожие документы (similar-docs), обновили
+- обновление зеркальных файлов obsidian/confluence _07739d9c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- авто-перегенерация дашбордов после v1.0.0 + check_published _8e032586_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- авто-перегенерация дашбордов после Hit Rate@10 1.000 _9cb118ab_
+  > PRECISION_EVAL.md обновлён (20/20, MRR 0.603), PROGRESS.md пересобран,
+- обновление каталогов после gateway.py + тестов _7ffc3e02_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- авто-перегенерация зеркал obsidian/ confluence/ и индексов _80bb9e42_
+  > Обновлены зеркала после изменений gateway.py, progress_sync, test-файлов.
+- авто-перегенерация дашбордов после fix template validation _b9d16368_
+  > Обновлены: QA.md, CONTACTS.md, COVERAGE.md, BACKLINKS.md, TIMELINE.md,
+- авто-перегенерация дашбордов после обновления search_index.json _ba60a3ce_
+  > Обновление: HEADING_AUDIT.md, OUTLINE.md, PARAGRAPH_QUALITY.md, QUESTIONS.md,
+- обновление каталогов скриптов и реестра артефактов _6d6ef3d7_
+  > Регенерация после добавления tests/test_precision_eval.py и изменений в prototype_demo.py.
 - авто-перегенерация derived-файлов после rebuild search_index.json _4b5b08cb_
   > Обновлены производные файлы:
 - обновление авто-генерируемых дашбордов после новых файлов _48553442_
@@ -50,10 +71,25 @@ date: 2026-05-11
   > - Regenerated QA files, dashboards, and report outputs
 ### 📝 Документация
 
+- обновление README.md и GATEWAY.md _f5ebc628_
 - обновлён README.md для публикации MVP _049d3303_
   > - Описание Knowledge OS: архитектура, компоненты, быстрый старт
 ### ✨ Новые функции
 
+- POST /api/search — лёгкий поиск без LLM-синтеза + тесты _63e1280e_
+  > - Новый эндпоинт POST /api/search: hybrid_search() → {results, count, latency_s}
+- PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0) _657ca79e_
+  > - check_published() детектирует git-теги v* для milestone "Опубликован MVP"
+- /api/status — core_cards фильтрация noise-секций _0bf15429_
+  > Добавлен _NOISE_SECTIONS frozenset (obsidian, confluence, autofilled и др.)
+- Hit Rate@10 0.750 → 1.000 — улучшение качества поиска _b5efba6c_
+  > Проблема: PROTOTYPE_SPEC.md и 02-anthropic-vacancies/README.md индексировались
+- POST /api/collabs endpoint + tests/test_search.py (16 тестов) _39796fb2_
+  > gateway.py:
+- GET /api/benchmark endpoint + ускорение тестов _20c60b4c_
+  > gateway.py: новый эндпоинт GET /api/benchmark
+- автодетектирование milestone прототипа и тестирования в PROGRESS.md _82c7db84_
+  > improve_progress_sync.py:
 - автоматизация всех критериев benchmark в prototype_demo.py _e77ffcb8_
   > - Collab quality ≥ 3/5: авто-проверка по known-projects (результат 5/5 ✅)
 - улучшение качества поиска + CI fix для gateway/ANN тестов _b9d3e3b8_
@@ -77,12 +113,18 @@ date: 2026-05-11
   > - Create scripts/improve_quality_patch.py: idempotent quality element injector
 ### 🐛 Исправления
 
+- валидация шаблонов — 12 файлов с frontmatter ошибками _785f998a_
+  > Контакты (6): projects: "str" → projects: [array]
 - stabilize quality score 100/100 + 0 broken links _7741b0dd_
   > - Создан improve_quality_patch.py — идемпотентный патч качества, добавлен
 - restore 100.0/100 and 0 broken links after second pipeline run _728700c0_
   > - Fix improve_scripts_catalog.py: escape markdown links in docstring descriptions
 - restore 100.0/100 quality score and 0 broken links after pipeline run _c02dda87_
   > - Fix improve_timeline.py: strip markdown links from context text, use DOCS-relative paths
+### 🧪 Тесты
+
+- +44 теста — test_progress_sync.py + test_semantic_search.py _b3b6c5db_
+  > test_progress_sync.py (24 теста):
 
 ## 2026-05-10 (58 коммитов)
 
@@ -497,33 +539,10 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (7):**
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SCRIPT_EVAL_REPORT]]
-- [[SEARCH]]
-- [[TABLES]]
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_changelog.py
-```
-```bash
-# Вариант 2
-python scripts/improve_changelog.py --dry-run
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CHANGELOG](../CHANGELOG.md) (сходство 1.00)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.61)
-- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md) (сходство 0.61)
+**Кто ссылается на этот документ (5):**
+- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

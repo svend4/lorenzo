@@ -6,22 +6,13 @@
 h1. Майндмап репозитория Lorenzo
 
 
-h2. Contents
+{quote}knowledge-space[knowledge-space]{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
-* [Структура разделов|#структура-разделов]
-* [Поток данных между проектами|#поток-данных-между-проектами]
-* [Легенда|#легенда]
-
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{MINDMAP}} формируется автоматически из данных репозитория.{quote}
+----
 
 
 
-
-
-
-{quote}{{MINDMAP}} — раздел документации проекта Lorenzo.{quote}
 
 
 h2. Структура разделов
@@ -129,22 +120,6 @@ h2. Легенда
 _Смотрите также:_
 * [GLOSSARY|GLOSSARY.md]
 * [NETWORK|NETWORK.md]
+* [GRAPH|GRAPH.md]
 * [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
-* [GRAPH|GRAPH.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (9):_
-* [04-sozialrecht-domain|03-technology-combinations/04-sozialrecht-domain.md]
-* [GRAPH|GRAPH.md]
-* [NETWORK|NETWORK.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* _...ещё 1_
 

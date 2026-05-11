@@ -1,10 +1,5 @@
 # Оценка стоимости MVP
 
-> [!NOTE]
-> Раздел `COST` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Ориентировочные цифры на основе документации проекта._
 **Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
@@ -90,6 +85,7 @@ _Минимальный сценарий: open source + личное время 
 | `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [N… | 72 |
 | `DECISIONS` | document — структурированный план на 12-18 месяцев, который … | 72 |
 | `TABLES` | 65-развёрнутый-анал` | Макс) и part-time, реальный timeline … | 72 |
+| `01-response` | есяцев) → maybe eventual formalization как RFC or standard (… | 72 |
 
 ## Допущения
 
@@ -111,21 +107,4 @@ _Минимальный сценарий: open source + личное время 
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_cost.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [COST](obsidian/COST.md) (сходство 0.98)
-- [SCHEDULE](SCHEDULE.md) (сходство 0.20)
-- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.20)
 

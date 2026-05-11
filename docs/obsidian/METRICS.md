@@ -96,7 +96,30 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 ---
 
 **Похожие документы:**
-- [METRICS](../METRICS.md) (сходство 0.97)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.30)
-- [DIGEST_WEEKLY](../DIGEST_WEEKLY.md) (сходство 0.29)
+- [[METRICS]] (сходство 0.97)
+- [[DIGEST_WEEKLY]] (сходство 0.29)
+- [[DIGEST_WEEKLY]] (сходство 0.29)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_WEEKLY]]
+- [[HEALTH]]
+- [[LLM_SUMMARIES]]
+- [[COVERAGE]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [METRICS](../METRICS.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

@@ -105,3 +105,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "Антропик"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[.md]] (сходство 0.96)
+* [[svyazi]] (сходство 0.83)
+* [[svend4]] (сходство 0.83)
+

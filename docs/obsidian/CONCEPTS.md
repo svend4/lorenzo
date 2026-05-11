@@ -1,13 +1,17 @@
 ---
 title: "Глоссарий понятий"
 tags:
-  - concepts
-  - docs
   - general
 date: 2026-05-11
 ---
 
 # Глоссарий понятий
+
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
 
 <!-- toc -->
 ## Содержание
@@ -65,27 +69,22 @@ date: 2026-05-11
 - [Э](#э)
 - [Ю](#ю)
 - [Я](#я)
-- [Использование](#использование)
 
 ---
 
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
-<!-- toc-auto -->
 
-> [!NOTE]
-> Раздел `CONCEPTS` формируется автоматически из данных репозитория.
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: concepts, docs -->
-
-
-<!-- summary -->
-> `CONCEPTS` — раздел документации проекта Lorenzo.
-
 
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 1187  (из 4309 совпадений)
+**Извлечено понятий:** 1186  (из 4310 совпадений)
 
 
 ## A
@@ -1204,7 +1203,7 @@ _Определения извлечены автоматически из до�
 
 **ic`, `semantic`, `procedural`, `working`)**
 : точная типизация, которой не хватает большинству memory-систем  
-  _→ [[vitalysemenov]]_
+  _→ [[DUPLICATES]]_
 
 **Identification**
 : > «Здравствуйте, [имя]  
@@ -2356,10 +2355,6 @@ _Определения извлечены автоматически из до�
 
 
 ## S
-
-**s_on` граф задач + auto-objective prompts**
-: комбинация, которая устраняет самую трудоёмкую часть оркестрации: написание промптов для каждого агента и ручное управление порядком запуска  
-  _→ [[DUPLICATES]]_
 
 **Scenario**
 : Over time, agent decisions shape principal's  
@@ -4550,8 +4545,8 @@ _Определения извлечены автоматически из до�
   _→ [[01-structural-comparison-code-vs-docs]]_
 
 **станавливаются через тензорные разложения**
-: принципиально другой подход к проблеме «ложных связей»  
-  _→ [[DUPLICATES]]_
+: принципиально другой подход  
+  _→ [[spbmolot]]_
 
 **Статус документа**
 : сравнительный промежуточный вариант  
@@ -4958,63 +4953,24 @@ _Определения извлечены автоматически из до�
   _→ [[239-8-пилотное-предложение-sgb-колega-адвокат]]_
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_concepts.py
-```
-```bash
-# Вариант 2
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 6
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 7
-python scripts/improve_concepts.py --dry-run
-```
-```bash
-# Вариант 8
-python scripts/improve_concepts.py --dry-run
-```
+---
+
+**Смотрите также:**
+- [[TABLES]]
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[ACTION_ITEMS]]
+- [[OUTLINE]]
+
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (96):**
-- [[02-methodology]]
-- [[12-roadmap]]
-- [[14-limitations]]
-- [[00-intro]]
-- [[01-интегральный-анализ-профиля-svend4]]
-- [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
-- [[112-5-связь-с-существующими-методологиями]]
-- [[115-8-ограничения-и-открытые-вопросы]]
-- _...ещё 88_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONCEPTS](../CONCEPTS.md) (сходство 1.00)
-- [TABLES](TABLES.md) (сходство 0.27)
-- [TABLES](../TABLES.md) (сходство 0.27)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

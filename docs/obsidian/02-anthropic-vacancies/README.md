@@ -415,7 +415,7 @@ python scripts/improve_semantic_search.py --query "Вакансии Anthropic А
 ---
 
 **Похожие документы:**
-- [README](../../02-anthropic-vacancies/README.md) (сходство 1.00)
-- [READING_ORDER](../READING_ORDER.md) (сходство 0.74)
-- [READING_ORDER](../../READING_ORDER.md) (сходство 0.74)
+- [[README]] (сходство 1.00)
+- [[READING_ORDER]] (сходство 0.74)
+- [[READING_ORDER]] (сходство 0.73)
 

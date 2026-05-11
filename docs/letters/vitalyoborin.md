@@ -1,5 +1,10 @@
 # Письмо: VitalyOborin / Yodoca + Wikontic
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -97,4 +102,15 @@ python scripts/improve_vitalyoborin.py
 - [vitalyoborin](../obsidian/letters/vitalyoborin.md) (сходство 0.98)
 - [anastasiyaw](anastasiyaw.md) (сходство 0.28)
 - [anastasiyaw](../obsidian/letters/anastasiyaw.md) (сходство 0.27)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [anastasiyaw](anastasiyaw.md)
+- [vitalysemenov](vitalysemenov.md)
+- [antipozitive](antipozitive.md)
+- [zodigancode](zodigancode.md)
 

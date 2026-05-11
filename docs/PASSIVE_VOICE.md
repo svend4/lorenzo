@@ -1,5 +1,17 @@
 # Пассивный залог и канцеляризмы
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Корпусная статистика](#корпусная-статистика)
+- [Топ файлов по доле пассива](#топ-файлов-по-доле-пассива)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -96,4 +108,15 @@ python scripts/improve_passive_voice.py
 - [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) (сходство 0.96)
 - [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.46)
 - [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.45)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KPI_HISTORY](KPI_HISTORY.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
 

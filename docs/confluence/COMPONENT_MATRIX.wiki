@@ -148,3 +148,13 @@ h2. Кто ссылается на этот документ (3)
 * [TABLES|TABLES.md]
 * [TECH_RADAR|TECH_RADAR.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [COMPONENT_MATRIX|obsidian/COMPONENT_MATRIX.md] (сходство 0.97)
+* [spbmolot|autofilled/components/spbmolot.md] (сходство 0.21)
+* [ONBOARDING|ONBOARDING.md] (сходство 0.21)
+

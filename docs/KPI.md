@@ -1,5 +1,35 @@
 # Числовые KPI и метрики
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, AgentFS, Auto AI Router, Whisper
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Количество (583)](#количество-583)
+- [Проценты (386)](#проценты-386)
+- [Время (565)](#время-565)
+- [Стоимость (962)](#стоимость-962)
+- [Размер (90)](#размер-90)
+- [Версия (797)](#версия-797)
+- [Рейтинг (106)](#рейтинг-106)
+- [Этап (216)](#этап-216)
+
+---
+
+<!-- tags: memory, rag, knowledge, ingestion, local-first, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 _Извлечено: **3705** числовых показателей из документов_
 
 
@@ -191,3 +221,28 @@ _Извлечено: **3705** числовых показателей из до�
 | **15** | 3125f_ - extend gitignore + regenerate badges/exports after Sprint 15-17 _3ca737 | `CHANGELOG` |
 | **12** | t 15-17 _3ca737f2_ - regenerate badges + auto-exports after Sprint 12-14 _25de4e | `CHANGELOG` |
 | _...ещё 196_ | | |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TIMELINE](TIMELINE.md)
+- [TABLES](TABLES.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
+- [READING_ORDER](READING_ORDER.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

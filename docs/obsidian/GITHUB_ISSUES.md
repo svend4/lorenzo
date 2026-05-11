@@ -789,7 +789,18 @@ python scripts/improve_github_issues.py
 ---
 
 **Похожие документы:**
-- [GITHUB_ISSUES](../GITHUB_ISSUES.md) (сходство 0.99)
-- [10-checklist](nautilus/review-methodology/10-checklist.md) (сходство 0.22)
-- [10-checklist](../nautilus/review-methodology/10-checklist.md) (сходство 0.22)
+- [[GITHUB_ISSUES]] (сходство 0.99)
+- [[10-checklist]] (сходство 0.22)
+- [[10-checklist]] (сходство 0.21)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[10-checklist]]
+- [[116-9-checklist-применения-методологии]]
+- [[CROSS_SECTION]]
+- [[DIGEST_WEEKLY]]
 

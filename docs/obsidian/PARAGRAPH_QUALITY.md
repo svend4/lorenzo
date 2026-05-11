@@ -8797,7 +8797,18 @@ python scripts/improve_paragraph_quality.py --dry-run
 ---
 
 **Похожие документы:**
-- [PARAGRAPH_QUALITY](../PARAGRAPH_QUALITY.md) (сходство 1.00)
-- [HEADING_AUDIT](HEADING_AUDIT.md) (сходство 0.97)
-- [HEADING_AUDIT](../HEADING_AUDIT.md) (сходство 0.97)
+- [[PARAGRAPH_QUALITY]] (сходство 1.00)
+- [[HEADING_AUDIT]] (сходство 0.97)
+- [[HEADING_AUDIT]] (сходство 0.97)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[EMPTY_SECTIONS]]
+- [[HEADING_AUDIT]]
+- [[READING_TIME]]
+- [[READABILITY]]
 

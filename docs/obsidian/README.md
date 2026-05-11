@@ -177,7 +177,7 @@ python scripts/improve_semantic_search.py --query "docs"
 ---
 
 **Похожие документы:**
-- [README](../README.md) (сходство 0.98)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md) (сходство 0.26)
-- [DEPENDENCY_MAP](../DEPENDENCY_MAP.md) (сходство 0.25)
+- [[README]] (сходство 0.98)
+- [[DEPENDENCY_MAP]] (сходство 0.25)
+- [[DEPENDENCY_MAP]] (сходство 0.25)
 

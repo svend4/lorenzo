@@ -171,7 +171,18 @@ python scripts/improve_vocabulary.py
 ---
 
 **Похожие документы:**
-- [VOCABULARY](../VOCABULARY.md) (сходство 0.98)
-- [PASSIVE_VOICE](PASSIVE_VOICE.md) (сходство 0.25)
-- [COMPLEXITY](COMPLEXITY.md) (сходство 0.24)
+- [[VOCABULARY]] (сходство 0.98)
+- [[PASSIVE_VOICE]] (сходство 0.24)
+- [[PASSIVE_VOICE]] (сходство 0.24)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[PASSIVE_VOICE]]
+- [[DIGEST_WEEKLY]]
+- [[CITATION_INDEX]]
+- [[KPI_HISTORY]]
 

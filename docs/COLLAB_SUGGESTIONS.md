@@ -226,3 +226,14 @@ _Сгенерировано: 2026-05-11 04:55  |  Алгоритм: TF-IDF + BM2
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md) (сходство 0.25)
 - [CONTACT_PRIORITY](obsidian/CONTACT_PRIORITY.md) (сходство 0.24)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [DEPENDABOT](DEPENDABOT.md)
+- [wikontic](05-habr-projects/knowledge/wikontic.md)
+- [sonia-black](contacts/sonia-black.md)
+

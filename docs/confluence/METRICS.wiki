@@ -81,3 +81,24 @@ h2. Смотрите также
 * [BROKEN_LINKS|BROKEN_LINKS.md] — состояние внутренних ссылок
 * [VALIDATION|VALIDATION.md] — валидация структуры
 * [SCORING|SCORING.md] — готовность к запуску (Go/No-Go)
+
+
+
+----
+
+_Похожие документы:_
+* [METRICS|obsidian/METRICS.md] (сходство 0.97)
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md] (сходство 0.29)
+* [DIGEST_WEEKLY|obsidian/DIGEST_WEEKLY.md] (сходство 0.29)
+
+
+
+
+----
+
+_Смотрите также:_
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [HEALTH|HEALTH.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [COVERAGE|COVERAGE.md]
+

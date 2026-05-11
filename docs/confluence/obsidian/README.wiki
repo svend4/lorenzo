@@ -176,3 +176,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "docs"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 0.98)
+* [[DEPENDENCY_MAP]] (сходство 0.25)
+* [[DEPENDENCY_MAP]] (сходство 0.25)
+

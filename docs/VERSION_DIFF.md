@@ -1575,3 +1575,14 @@ python scripts/improve_version_diff.py --dry-run
 - [READABILITY](READABILITY.md) (сходство 0.67)
 - [READING_TIME](READING_TIME.md) (сходство 0.67)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

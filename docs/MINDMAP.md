@@ -1,22 +1,13 @@
 # Майндмап репозитория Lorenzo
 
-<!-- toc-auto -->
-## Contents
-
-- [Структура разделов](#структура-разделов)
-- [Поток данных между проектами](#поток-данных-между-проектами)
-- [Легенда](#легенда)
-
-
-> [!NOTE]
-> Раздел `MINDMAP` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: mindmap, docs -->
-
-
 <!-- summary -->
-> `MINDMAP` — раздел документации проекта Lorenzo.
+> knowledge-space[knowledge-space]
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 ## Структура разделов
@@ -125,8 +116,8 @@ flowchart LR
 **Смотрите также:**
 - [GLOSSARY](GLOSSARY.md)
 - [NETWORK](NETWORK.md)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 - [GRAPH](GRAPH.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 
 
 <!-- backlinks -->
@@ -143,14 +134,4 @@ flowchart LR
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.93)
-- [GRAPH](GRAPH.md) (сходство 0.48)
-- [GRAPH](obsidian/GRAPH.md) (сходство 0.47)
 

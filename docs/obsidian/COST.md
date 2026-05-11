@@ -14,11 +14,6 @@ date: 2026-05-11
 
 # Оценка стоимости MVP
 
-> [!NOTE]
-> Раздел `COST` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > _Ориентировочные цифры на основе документации проекта._
 **Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
@@ -101,9 +96,10 @@ _Минимальный сценарий: open source + личное время 
 | `343-lorenzo-catalyst` | рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс… | 72 |
 | `365-развёрнутый-анал` | eam. С solo developer (Макс) и part-time, реальный timeline … | 72 |
 | `ACTION_ITEMS` | обратная-связь_ - 5: Burnout. Проект 12-18 месяцев для singl… | 72 |
-| `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [[INDEX|N… | 72 |
+| `CONCEPTS` | инимально жизнеспособный прототип за 12-18 месяцев     _→ [N… | 72 |
 | `DECISIONS` | document — структурированный план на 12-18 месяцев, который … | 72 |
 | `TABLES` | 65-развёрнутый-анал` | Макс) и part-time, реальный timeline … | 72 |
+| `01-response` | есяцев) → maybe eventual formalization как RFC or standard (… | 72 |
 
 ## Допущения
 
@@ -117,29 +113,9 @@ _Минимальный сценарий: open source + личное время 
 
 ---
 
-**Кто ссылается на этот документ (7):**
-- [INDEX]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- [[TABLES]]
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_cost.py
-```
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [COST](../COST.md) (сходство 0.98)
-- [SCHEDULE](SCHEDULE.md) (сходство 0.21)
-- [DENSITY](DENSITY.md) (сходство 0.20)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

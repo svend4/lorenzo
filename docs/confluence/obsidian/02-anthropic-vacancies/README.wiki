@@ -414,3 +414,13 @@ python scripts/improve_semantic_search.py --query "Вакансии Anthropic А
 # Альтернативный поиск (BM25)
 python scripts/improve_semantic_search.py --query "Вакансии Anthropic Анализ по кластерам" --mode bm25
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[README]] (сходство 1.00)
+* [[READING_ORDER]] (сходство 0.74)
+* [[READING_ORDER]] (сходство 0.73)
+

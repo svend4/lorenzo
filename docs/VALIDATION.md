@@ -34,12 +34,18 @@ _Обновлено: 2026-05-11_
 - **tech-radar-entry** — Запись Tech Radar: квадрант, кольцо, обоснование
 - **weekly-digest** — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план
 
-<!-- similar-docs -->
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [VALIDATION](obsidian/VALIDATION.md) (сходство 0.91)
-- [REGISTRY](REGISTRY.md) (сходство 0.35)
-- [REGISTRY](obsidian/REGISTRY.md) (сходство 0.34)
+**Кто ссылается на этот документ (12):**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 4_
 

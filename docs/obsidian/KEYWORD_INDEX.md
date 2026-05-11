@@ -222,7 +222,18 @@ python scripts/improve_keyword_index.py
 ---
 
 **Похожие документы:**
-- [KEYWORD_INDEX](../KEYWORD_INDEX.md) (сходство 0.98)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.39)
-- [CONCEPT_GRAPH](../CONCEPT_GRAPH.md) (сходство 0.37)
+- [[KEYWORD_INDEX]] (сходство 0.98)
+- [[CONCEPT_GRAPH]] (сходство 0.38)
+- [[CONCEPT_GRAPH]] (сходство 0.37)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONCEPT_GRAPH]]
+- [[CROSS_SECTION]]
+- [[08-personal-multi-agent-hub]]
+- [[10-query-result]]
 

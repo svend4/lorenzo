@@ -97,7 +97,7 @@ _Документ индексирован в поисковой базе реп
 ---
 
 **Похожие документы:**
-- [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.96)
-- [13-outreach-communication](../lorenzo-agent/13-outreach-communication.md) (сходство 0.83)
-- [13-outreach-communication](../../lorenzo-agent/13-outreach-communication.md) (сходство 0.82)
+- [[357-твоя-коммуникация-в-outreach]] (сходство 0.96)
+- [[13-outreach-communication]] (сходство 0.83)
+- [[13-outreach-communication]] (сходство 0.82)
 

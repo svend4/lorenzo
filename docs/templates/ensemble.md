@@ -1,10 +1,5 @@
 # Ансамбль: [Название]
 
-> [!NOTE]
-> Раздел `ensemble` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Ансамбль из X компонентов для Y задачи -->
 <!-- tags: ансамбль, архитектура -->
 
@@ -52,13 +47,6 @@ output:
 ---
 _Создано: 2026-05-11_
 
-## Смотрите также
-- [Главная](../README.md)
-- [Метрики](../METRICS.md)
-- [Здоровье](../HEALTH.md)
-- [Глоссарий](../GLOSSARY.md)
-- [Сущности](../ENTITIES.md)
-
 <!-- backlinks -->
 
 ---
@@ -73,14 +61,4 @@ _Создано: 2026-05-11_
 - [TABLES](../TABLES.md)
 - [README](README.md)
 - _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [ensemble](../obsidian/templates/ensemble.md) (сходство 0.93)
-- [project-component](project-component.md) (сходство 0.38)
-- [project-component](../obsidian/templates/project-component.md) (сходство 0.37)
 

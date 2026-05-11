@@ -123,7 +123,7 @@ python scripts/improve_semantic_search.py --query "SGB"
 ---
 
 **Похожие документы:**
-- [svyazi](svyazi.md) (сходство 1.00)
-- [svend4](svend4.md) (сходство 1.00)
-- [nautilus](nautilus.md) (сходство 1.00)
+- [[svyazi]] (сходство 1.00)
+- [[svend4]] (сходство 1.00)
+- [[nautilus]] (сходство 1.00)
 

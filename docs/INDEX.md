@@ -194,3 +194,14 @@ _Индекс сгенерирован автоматически · 2451 док
 - [ONBOARDING](ONBOARDING.md) (сходство 0.24)
 - [ONBOARDING](obsidian/ONBOARDING.md) (сходство 0.24)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

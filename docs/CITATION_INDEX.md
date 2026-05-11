@@ -288,3 +288,14 @@ python scripts/improve_citation_index.py
 - [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.27)
 - [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.27)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+

@@ -382,3 +382,14 @@ python scripts/improve_cross_section.py --dry-run
 - [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.39)
 - [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.38)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

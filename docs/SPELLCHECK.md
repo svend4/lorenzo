@@ -1,21 +1,18 @@
 # Отчёт орфографии
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `SPELLCHECK` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: spellcheck, docs -->
-
-
 <!-- summary -->
-> `SPELLCHECK` — раздел документации проекта Lorenzo.
+> python scripts/improve_spellcheck.py --fix
+**Проекты:** knowledge-space, MemNet
+
+---
+<!-- tags: memory, orchestration, security, knowledge, architecture, anthropic, self-improvement, collaboration -->
+
+
 
 
 _Обновлено: 2026-05-11_
 
-Файлов с проблемами: **51**
+Файлов с проблемами: **50**
 
 ## Найденные проблемы
 
@@ -143,10 +140,6 @@ _Обновлено: 2026-05-11_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/ACTION_ITEMS.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/obsidian/GITHUB_ISSUES.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -237,29 +230,21 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 ---
 
 **Смотрите также:**
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
 - [STALENESS](STALENESS.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
 
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (4):**
+**Кто ссылается на этот документ (6):**
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [LINK_PREVIEW](LINK_PREVIEW.md)
 - [READABILITY](READABILITY.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CITATION_INDEX](CITATION_INDEX.md) (сходство 0.24)
-- [CITATION_INDEX](obsidian/CITATION_INDEX.md) (сходство 0.24)
-- [STALENESS](STALENESS.md) (сходство 0.23)
 

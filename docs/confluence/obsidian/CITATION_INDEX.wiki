@@ -288,3 +288,24 @@ _Кто ссылается на этот документ (7):_
 * [[SPELLCHECK]]
 * [[TABLES]]
 
+
+
+
+----
+
+_Похожие документы:_
+* [[CITATION_INDEX]] (сходство 0.98)
+* [[BACKLINKS]] (сходство 0.27)
+* [[LINK_PREVIEW]] (сходство 0.27)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[KEYWORD_INDEX]]
+* [[DIGEST_WEEKLY]]
+* [[NAMED_ENTITIES]]
+* [[CROSS_SECTION]]
+

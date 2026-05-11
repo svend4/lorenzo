@@ -208,3 +208,24 @@ _Кто ссылается на этот документ (5):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [TOPIC_MODEL|obsidian/TOPIC_MODEL.md] (сходство 0.99)
+* [PRIORITIES|obsidian/PRIORITIES.md] (сходство 0.26)
+* [SOURCE_MAP|SOURCE_MAP.md] (сходство 0.25)
+
+
+
+
+----
+
+_Смотрите также:_
+* [CLUSTERS|CLUSTERS.md]
+* [SOURCE_MAP|SOURCE_MAP.md]
+* [LANGUAGE_STATS|LANGUAGE_STATS.md]
+* [PRIORITIES|PRIORITIES.md]
+

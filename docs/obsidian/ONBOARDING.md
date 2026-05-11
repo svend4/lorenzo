@@ -174,7 +174,18 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 ---
 
 **Похожие документы:**
-- [ONBOARDING](../ONBOARDING.md) (сходство 0.98)
-- [INDEX](../INDEX.md) (сходство 0.24)
-- [INDEX](INDEX.md) (сходство 0.23)
+- [[ONBOARDING]] (сходство 0.98)
+- [[INDEX]] (сходство 0.24)
+- [[INDEX]] (сходство 0.22)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[INDEX]]
+- [[TECH_RADAR]]
+- [[COMPONENT_MATRIX]]
+- [[DIGEST_WEEKLY]]
 

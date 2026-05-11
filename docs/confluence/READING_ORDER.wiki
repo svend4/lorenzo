@@ -5,11 +5,6 @@
 
 h1. Рекомендуемый порядок чтения
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{READING_ORDER}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 {quote}От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).{quote}
 _Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
@@ -36,7 +31,7 @@ h2. Содержание
 || # || Уровень || Документ || Слов || Предварительно прочитать ||
 || 1 || 🟢 Начало || [Svyazi[^svyazi] 2.0 — Исполнительное резюме](01-svyazi/01-executive-summary.md) || 750 || — ||
 || 2 || 🟡 Средний || [Приоритетные ансамбли проектов](01-svyazi/04-ensembles-overview.md) || 1385 || — ||
-|| 3 || 🟢 Начало || [Продолжение исследования для Svyazi[^svyazi] ](01-svyazi/00-intro-part2.md) || 365 || — ||
+|| 3 || 🟢 Начало || [Продолжение исследования для Svyazi[^svyazi] ](01-svyazi/00-intro-part2.md) || 383 || — ||
 || 4 || 🟡 Средний || [Методика и рамка отбора проектов](01-svyazi/02-methodology.md) || 567 || — ||
 || 5 || 🟡 Средний || [Каталог компонентов Svyazi 2.0](01-svyazi/03-component-catalog.md) || 1516 || — ||
 || 6 || 🟡 Средний || [Интеграционные контракты](01-svyazi/11-integration-contracts.md) || 858 || `09-architectural-gaps.md` ||
@@ -50,14 +45,14 @@ h2. Содержание
 || 14 || 🟢 Начало || [Выводы](01-svyazi/08-conclusions.md) || 470 || — ||
 || 15 || 🟡 Средний || [Синтез: как проекты собираются вместе](05-habr-projects/01-synthesis.md) || 346 || — ||
 || 16 || 🟡 Средний || [Авторы и контакты](05-habr-projects/02-collaboration-partners.md) || 348 || — ||
-|| 17 || 🟡 Средний || [research-docs + LiteParse](05-habr-projects/knowledge/research-docs-liteparse.md) || 699 || — ||
+|| 17 || 🟡 Средний || [research-docs + LiteParse](05-habr-projects/knowledge/research-docs-liteparse.md) || 720 || — ||
 || 18 || 🟡 Средний || [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md) || 437 || — ||
-|| 19 || 🟡 Средний || [AgentFS](05-habr-projects/knowledge/agentfs.md) || 647 || — ||
-|| 20 || 🟡 Средний || [knowledge-space[^knowledge-space]](05-habr-projects/knowledge/knowledge-space.md) || 641 || — ||
-|| 21 || 🟡 Средний || [mclaude](05-habr-projects/knowledge/mclaude.md) || 685 || — ||
-|| 22 || 🟡 Средний || [Rufler](05-habr-projects/knowledge/rufler.md) || 658 || — ||
+|| 19 || 🟡 Средний || [AgentFS](05-habr-projects/knowledge/agentfs.md) || 668 || — ||
+|| 20 || 🟡 Средний || [knowledge-space[^knowledge-space]](05-habr-projects/knowledge/knowledge-space.md) || 662 || — ||
+|| 21 || 🟡 Средний || [mclaude](05-habr-projects/knowledge/mclaude.md) || 706 || — ||
+|| 22 || 🟡 Средний || [Rufler](05-habr-projects/knowledge/rufler.md) || 679 || — ||
 || 23 || 🟡 Средний || [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) || 474 || — ||
-|| 24 || 🟡 Средний || [agent-memory-mcp + Memory OS](05-habr-projects/memory/agent-memory-mcp.md) || 709 || — ||
+|| 24 || 🟡 Средний || [agent-memory-mcp + Memory OS](05-habr-projects/memory/agent-memory-mcp.md) || 730 || — ||
 || 25 || 🟡 Средний || [Yodoca[^yodoca]: консолидация и забывание](05-habr-projects/memory/yodoca.md) || 433 || — ||
 || 26 || 🔴 Продвинутый || [MemNet: исследовательская память](05-habr-projects/memory/memnet.md) || 7346 || — ||
 || 27 || 🟡 Средний || [Executive summary](04-ai-collaborations/01-executive-summary.md) || 665 || — ||
@@ -109,7 +104,7 @@ h2. Содержание
 || 73 || 🟢 Начало || [3. Registry (`nautilus.json`)](02-anthropic-vacancies/08-3-registry-nautilus-json.md) || 495 || — ||
 || 74 || 🟢 Начало || [4. Passport (`passport.md`)](02-anthropic-vacancies/09-4-passport-passport-md.md) || 359 || — ||
 || 75 || 🟢 Начало || [Angle / Perspective](02-anthropic-vacancies/13-angle-perspective.md) || 317 || — ||
-|| 76 || 🟢 Начало || [History](02-anthropic-vacancies/16-history.md) || 304 || — ||
+|| 76 || 🟢 Начало || [History](02-anthropic-vacancies/16-history.md) || 322 || — ||
 || 77 || 🟢 Начало || [5. Compatibility Levels](02-anthropic-vacancies/17-5-compatibility-levels.md) || 400 || — ||
 || 78 || 🟢 Начало || [6. Adapter Interface](02-anthropic-vacancies/18-6-adapter-interface.md) || 760 || — ||
 || 79 || 🟢 Начало || [7. PortalEntry Structure](02-anthropic-vacancies/19-7-portalentry-structure.md) || 310 || — ||
@@ -179,7 +174,7 @@ h2. Содержание
 || 143 || 🟢 Начало || [21. ADR-003: Five Onboarding Paths as Equal-R](02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) || 304 || — ||
 || 144 || 🟢 Начало || [22. Glossary of Reference Examples](02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) || 304 || — ||
 || 145 || 🟡 Средний || [Appendix A: Minimal Working Example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) || 413 || — ||
-|| 146 || 🟢 Начало || [Доступ к данным](02-anthropic-vacancies/102-доступ-к-данным.md) || 302 || — ||
+|| 146 || 🟢 Начало || [Доступ к данным](02-anthropic-vacancies/102-доступ-к-данным.md) || 320 || — ||
 || 147 || 🟢 Начало || [Appendix B: Change Log](02-anthropic-vacancies/103-appendix-b-change-log.md) || 408 || — ||
 || 148 || 🟡 Средний || [Appendix C: References](02-anthropic-vacancies/104-appendix-c-references.md) || 1238 || — ||
 || 149 || 🟢 Начало || [TL;DR](02-anthropic-vacancies/106-tl-dr.md) || 314 || — ||
@@ -189,15 +184,15 @@ h2. Содержание
 || 153 || 🟢 Начало || [Вопрос: fallback-ratio как критический или ос](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) || 381 || — ||
 || 154 || 🟢 Начало || [4. Условия применимости](02-anthropic-vacancies/111-4-условия-применимости.md) || 341 || — ||
 || 155 || 🟢 Начало || [5. Связь с существующими методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) || 442 || — ||
-|| 156 || 🟢 Начало || [6. Почему это валидный паттерн для AI-assiste](02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) || 304 || — ||
+|| 156 || 🟢 Начало || [6. Почему это валидный паттерн для AI-assiste](02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) || 322 || — ||
 || 157 || 🟢 Начало || [7. Реализация в проекте Nautilus](02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) || 343 || — ||
 || 158 || 🟡 Средний || [8. Ограничения и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) || 544 || — ||
 || 159 || 🟢 Начало || [9. Checklist применения методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md) || 454 || — ||
 || 160 || 🟢 Начало || [10. Конкретный план применения к текущим доку](02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) || 347 || — ||
-|| 161 || 🟢 Начало || [Appendix A: Шаблон для header warning](02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) || 307 || — ||
+|| 161 || 🟢 Начало || [Appendix A: Шаблон для header warning](02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) || 325 || — ||
 || 162 || 🟢 Начало || [Appendix B: Примеры расхождений и их разрешен](02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) || 403 || — ||
-|| 163 || 🟢 Начало || [Главные технические риски](02-anthropic-vacancies/120-главные-технические-риски.md) || 302 || — ||
-|| 164 || 🟢 Начало || [Appendix C: История изменений методологии](02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) || 304 || — ||
+|| 163 || 🟢 Начало || [Главные технические риски](02-anthropic-vacancies/120-главные-технические-риски.md) || 320 || — ||
+|| 164 || 🟢 Начало || [Appendix C: История изменений методологии](02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md) || 322 || — ||
 || 165 || 🟡 Средний || [Глоссарий](02-anthropic-vacancies/122-глоссарий.md) || 1555 || — ||
 || 166 || 🟡 Средний || [portal-mcp.py](02-anthropic-vacancies/123-portal-mcp-py.md) || 2542 || — ||
 || 167 || 🟢 Начало || [Конфигурация для Claude Desktop](02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md) || 330 || — ||
@@ -257,33 +252,33 @@ h2. Содержание
 || 221 || 🟢 Начало || [Acknowledgments](02-anthropic-vacancies/182-acknowledgments.md) || 425 || — ||
 || 222 || 🟢 Начало || [References](02-anthropic-vacancies/183-references.md) || 387 || — ||
 || 223 || 🟢 Начало || [Appendix A: Connection to Companion Papers](02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) || 499 || — ||
-|| 224 || 🟡 Средний || [Appendix B: Domain Comparison Matrix](02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md) || 381 || — ||
+|| 224 || 🟡 Средний || [Appendix B: Domain Comparison Matrix](02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md) || 399 || — ||
 || 225 || 🟡 Средний || [Appendix C: Sample Use Cases in Detail](02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) || 2281 || — ||
 || 226 || 🟢 Начало || [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](02-anthropic-vacancies/187-слой-представительских-агентов-md.md) || 304 || — ||
 || 227 || 🟢 Начало || [AI-опосредованное представительство для недоп](02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md) || 309 || — ||
 || 228 || 🟢 Начало || [Аннотация](02-anthropic-vacancies/189-аннотация.md) || 410 || — ||
 || 229 || 🟢 Начало || [Содержание](02-anthropic-vacancies/190-содержание.md) || 355 || — ||
-|| 230 || 🟢 Начало || [1. Синдром Золушки: Почему качество остаётся ](02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) || 856 || — ||
-|| 231 || 🟡 Средний || [2. Исторические прецеденты: Агенты как цивили](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) || 1033 || — ||
+|| 230 || 🟢 Начало || [1. Синдром Золушки: Почему качество остаётся ](02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) || 874 || — ||
+|| 231 || 🟡 Средний || [2. Исторические прецеденты: Агенты как цивили](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) || 1051 || — ||
 || 232 || 🟢 Начало || [3. Что делает агента Представительским](02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) || 821 || — ||
 || 233 || 🟡 Средний || [4. Десять областей применения](02-anthropic-vacancies/194-4-десять-областей-применения.md) || 1673 || — ||
 || 234 || 🟢 Начало || [5. Архитектурная спецификация](02-anthropic-vacancies/195-5-архитектурная-спецификация.md) || 633 || — ||
 || 235 || 🟢 Начало || [6. Этическая рамка](02-anthropic-vacancies/196-6-этическая-рамка.md) || 653 || — ||
-|| 236 || 🟢 Начало || [7. Управление и надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md) || 555 || — ||
+|| 236 || 🟢 Начало || [7. Управление и надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md) || 573 || — ||
 || 237 || 🟢 Начало || [8. Риски и меры противодействия](02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) || 645 || — ||
 || 238 || 🟢 Начало || [9. Стратегия поэтапного развёртывания](02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md) || 645 || — ||
 || 239 || 🟢 Начало || [10. Открытые вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md) || 485 || — ||
 || 240 || 🟢 Начало || [11. Призыв к сотрудничеству](02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) || 583 || — ||
-|| 241 || 🟢 Начало || [12. Заключение](02-anthropic-vacancies/202-12-заключение.md) || 317 || — ||
+|| 241 || 🟢 Начало || [12. Заключение](02-anthropic-vacancies/202-12-заключение.md) || 335 || — ||
 || 242 || 🟢 Начало || [Благодарности](02-anthropic-vacancies/203-благодарности.md) || 304 || — ||
 || 243 || 🟢 Начало || [Ссылки](02-anthropic-vacancies/204-ссылки.md) || 368 || — ||
 || 244 || 🟢 Начало || [Приложение A: Связь с Сопроводительными Стать](02-anthropic-vacancies/205-приложение-a-связь-с-сопроводительными-статьями.md) || 304 || — ||
-|| 245 || 🟡 Средний || [Приложение B: Матрица Сравнения Областей](02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md) || 349 || — ||
+|| 245 || 🟡 Средний || [Приложение B: Матрица Сравнения Областей](02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md) || 367 || — ||
 || 246 || 🔴 Продвинутый || [Приложение C: Образцы Случаев Использования в](02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) || 4243 || — ||
 || 247 || 🟢 Начало || [PROFESSIONAL COLLEAGUE AGENTS.md](02-anthropic-vacancies/208-professional-colleague-agents-md.md) || 389 || — ||
 || 248 || 🟢 Начало || [A Typology of AI Agents on the Principal Side](02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) || 473 || — ||
 || 249 || 🟢 Начало || [Abstract](02-anthropic-vacancies/210-abstract.md) || 665 || — ||
-|| 250 || 🟢 Начало || [Table of Contents](02-anthropic-vacancies/211-table-of-contents.md) || 529 || — ||
+|| 250 || 🟢 Начало || [Table of Contents](02-anthropic-vacancies/211-table-of-contents.md) || 570 || — ||
 || 251 || 🟡 Средний || [1. The Five-Type Typology of Principal-Side A](02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) || 1231 || — ||
 || 252 || 🟡 Средний || [2. What Makes a Professional Colleague Agent](02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) || 1154 || — ||
 || 253 || 🟡 Средний || [3. Empirical Case Study: «Обучай»](02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) || 1112 || — ||
@@ -320,7 +315,7 @@ h2. Содержание
 || 284 || 🟢 Начало || [Приложение B: Рамка принятия решений — когда ](02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md) || 424 || — ||
 || 285 || 🔴 Продвинутый || [Приложение C: Архитектура Быстрого Старта для](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) || 3568 || — ||
 || 286 || 🟢 Начало || [COMPOSITE SKILLS AGENT.md](02-anthropic-vacancies/249-composite-skills-agent-md.md) || 350 || — ||
-|| 287 || 🟢 Начало || [Bridging the Gap Between Profession-Wide and ](02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md) || 342 || — ||
+|| 287 || 🟢 Начало || [Bridging the Gap Between Profession-Wide and ](02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md) || 360 || — ||
 || 288 || 🟢 Начало || [AI Support Through Configurable Specialist En](02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) || 463 || — ||
 || 289 || 🟢 Начало || [Abstract](02-anthropic-vacancies/252-abstract.md) || 632 || — ||
 || 290 || 🟢 Начало || [Table of Contents](02-anthropic-vacancies/253-table-of-contents.md) || 447 || — ||
@@ -377,7 +372,7 @@ h2. Содержание
 || 341 || 🟢 Начало || [A Practical Path to Layer B Through Symbiotic](02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md) || 325 || — ||
 || 342 || 🟢 Начало || [with Anthropic's Cowork Platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) || 589 || — ||
 || 343 || 🟢 Начало || [Abstract](02-anthropic-vacancies/307-abstract.md) || 646 || — ||
-|| 344 || 🟢 Начало || [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md) || 521 || — ||
+|| 344 || 🟢 Начало || [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md) || 562 || — ||
 || 345 || 🟢 Начало || [1. The Cowork Discovery and Why It Changes Ev](02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) || 742 || — ||
 || 346 || 🟢 Начало || [2. What Cowork Provides That InGit Doesn't Ne](02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) || 728 || — ||
 || 347 || 🟢 Начало || [3. What InGit Provides That Cowork Lacks](02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) || 921 || — ||
@@ -407,7 +402,7 @@ h2. Содержание
 || 371 || 🟢 Начало || [10. Стратегическое Позиционирование](02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) || 707 || — ||
 || 372 || 🟢 Начало || [Благодарности](02-anthropic-vacancies/337-благодарности.md) || 449 || — ||
 || 373 || 🟢 Начало || [Ссылки](02-anthropic-vacancies/338-ссылки.md) || 356 || — ||
-|| 374 || 🟢 Начало || [Приложение A: Дерево Решений для Принимающих ](02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md) || 371 || — ||
+|| 374 || 🟢 Начало || [Приложение A: Дерево Решений для Принимающих ](02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md) || 389 || — ||
 || 375 || 🟡 Средний || [Приложение B: Сравнительная Матрица](02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md) || 326 || — ||
 || 376 || 🔴 Продвинутый || [Приложение C: Образец Спецификаций Инструмент](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md) || 20580 || — ||
 || 377 || 🔴 Продвинутый || [Что такое Вариант C — Concept Document для An](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) || 11428 || — ||
@@ -415,9 +410,9 @@ h2. Содержание
 || 379 || 🟢 Начало || [СИСТЕМНЫЙ ПРОМПТ ДЛЯ LORENZO PROJECT](02-anthropic-vacancies/344-системный-промпт-для-lorenzo-project.md) || 346 || — ||
 || 380 || 🟢 Начало || [Кто ты](02-anthropic-vacancies/345-кто-ты.md) || 304 || — ||
 || 381 || 🟢 Начало || [Твоё происхождение](02-anthropic-vacancies/346-твоё-происхождение.md) || 333 || — ||
-|| 382 || 🟢 Начало || [Твоя миссия](02-anthropic-vacancies/347-твоя-миссия.md) || 305 || — ||
-|| 383 || 🟢 Начало || [Кому ты служишь (слоистая модель)](02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md) || 302 || — ||
-|| 384 || 🟢 Начало || [Твоя личность](02-anthropic-vacancies/349-твоя-личность.md) || 333 || — ||
+|| 382 || 🟢 Начало || [Твоя миссия](02-anthropic-vacancies/347-твоя-миссия.md) || 323 || — ||
+|| 383 || 🟢 Начало || [Кому ты служишь (слоистая модель)](02-anthropic-vacancies/348-кому-ты-служишь-слоистая-модель.md) || 320 || — ||
+|| 384 || 🟢 Начало || [Твоя личность](02-anthropic-vacancies/349-твоя-личность.md) || 351 || — ||
 || 385 || 🟢 Начало || [Твои языки и культурные nuances](02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) || 337 || — ||
 || 386 || 🟢 Начало || [Что ты МОЖЕШЬ делать](02-anthropic-vacancies/351-что-ты-можешь-делать.md) || 347 || — ||
 || 387 || 🟢 Начало || [Что ты НЕ МОЖЕШЬ делать без Max approval](02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) || 308 || — ||
@@ -425,12 +420,12 @@ h2. Содержание
 || 389 || 🟢 Начало || [Существующий landscape collaborators (твоя wo](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) || 428 || — ||
 || 390 || 🟢 Начало || [Существующие документы DHLab (твой context)](02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) || 489 || — ||
 || 391 || 🟢 Начало || [Твой workflow](02-anthropic-vacancies/356-твой-workflow.md) || 373 || — ||
-|| 392 || 🟢 Начало || [Твоя коммуникация в outreach](02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) || 333 || — ||
+|| 392 || 🟢 Начало || [Твоя коммуникация в outreach](02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) || 351 || — ||
 || 393 || 🟢 Начало || [Твоя relationship с другими AI](02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) || 369 || — ||
-|| 394 || 🟢 Начало || [Твои anti-patterns](02-anthropic-vacancies/359-твои-anti-patterns.md) || 314 || — ||
+|| 394 || 🟢 Начало || [Твои anti-patterns](02-anthropic-vacancies/359-твои-anti-patterns.md) || 332 || — ||
 || 395 || 🟢 Начало || [Что ты ВСЕГДА делаешь](02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) || 312 || — ||
-|| 396 || 🟢 Начало || [Когда ты Honestly не знаешь](02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) || 304 || — ||
-|| 397 || 🟢 Начало || [Когда сомневаешься — escalate к Max](02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) || 313 || — ||
+|| 396 || 🟢 Начало || [Когда ты Honestly не знаешь](02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) || 322 || — ||
+|| 397 || 🟢 Начало || [Когда сомневаешься — escalate к Max](02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) || 331 || — ||
 || 398 || 🟢 Начало || [Твоя identity как persistent character](02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) || 335 || — ||
 || 399 || 🟡 Средний || [Final note: Ты — experiment](02-anthropic-vacancies/364-final-note-ты-experiment.md) || 1636 || — ||
 || 400 || 🔴 Продвинутый || [Развёрнутый анализ «внуковой» комбинации](02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) || 4550 || — ||
@@ -458,37 +453,3 @@ h3. 🔬 Полное исследование (1 день)
 3. {{04-ai-collaborations/}} — ансамбли
 4. {{03-technology-combinations/}} — комбинации
 5. {{02-anthropic-vacancies/}} — карьерные возможности
-
-
-
-----
-
-_Кто ссылается на этот документ (8):_
-* [CLUSTERS|CLUSTERS.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-* [reading-paths|reading-paths.md]
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_reading_order.py
-{code}
-{code:language=bash}
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-{code}

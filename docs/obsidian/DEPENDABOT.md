@@ -80,7 +80,18 @@ python scripts/improve_dependabot.py --check-pypi
 ---
 
 **Похожие документы:**
-- [DEPENDABOT](../DEPENDABOT.md) (сходство 0.96)
-- [GRAPH](GRAPH.md) (сходство 0.35)
-- [README](badges/README.md) (сходство 0.33)
+- [[DEPENDABOT]] (сходство 0.96)
+- [[GRAPH]] (сходство 0.33)
+- [[README]] (сходство 0.32)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONTACT_PRIORITY]]
+- [[CONCEPT_GRAPH]]
+- [[KPI_HISTORY]]
+- [[PASSIVE_VOICE]]
 

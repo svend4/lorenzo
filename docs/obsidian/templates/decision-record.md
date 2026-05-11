@@ -9,11 +9,6 @@ date: 2026-05-11
 
 # ADR: [Название решения]
 
-> [!NOTE]
-> Раздел `decision-record` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -48,45 +43,13 @@ date: 2026-05-11
 ---
 _Дата: 2026-05-11_
 
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_decision_record.py
-```
-
-## Смотрите также
-- [[README|Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (14):**
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[README]]
-- [[contradiction-record]]
-- [[experiment-log]]
-- _...ещё 6_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [decision-record](../../templates/decision-record.md) (сходство 0.96)
-- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.44)
-- [SKILL_DASHBOARD](../SKILL_DASHBOARD.md) (сходство 0.42)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
 

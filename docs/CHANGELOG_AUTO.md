@@ -336,3 +336,14 @@ python scripts/improve_changelog_auto.py --dry-run
 - [CHANGELOG](CHANGELOG.md) (сходство 0.61)
 - [CHANGELOG](obsidian/CHANGELOG.md) (сходство 0.61)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG](CHANGELOG.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

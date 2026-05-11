@@ -1338,5 +1338,550 @@
     "checked": "2026-05-10T20:33:02.784919",
     "status": 200,
     "title": "Web Standards | W3C"
+  },
+  "http://localhost:8000`": {
+    "checked": "2026-05-11T08:53:59.807955",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000``": {
+    "checked": "2026-05-11T08:53:59.808766",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000```": {
+    "checked": "2026-05-11T08:53:59.808831",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000````": {
+    "checked": "2026-05-11T08:53:59.808884",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8000`````": {
+    "checked": "2026-05-11T08:53:59.808937",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080`": {
+    "checked": "2026-05-11T08:53:59.809019",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080``": {
+    "checked": "2026-05-11T08:53:59.809066",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080```": {
+    "checked": "2026-05-11T08:53:59.809112",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080````": {
+    "checked": "2026-05-11T08:53:59.809179",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8080`````": {
+    "checked": "2026-05-11T08:53:59.809221",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/ask": {
+    "checked": "2026-05-11T08:53:59.809261",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/benchmark": {
+    "checked": "2026-05-11T08:53:59.811162",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/cards": {
+    "checked": "2026-05-11T08:53:59.811471",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/collabs": {
+    "checked": "2026-05-11T08:53:59.811629",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/health": {
+    "checked": "2026-05-11T08:53:59.811999",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/api/search": {
+    "checked": "2026-05-11T08:53:59.812187",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/docs": {
+    "checked": "2026-05-11T08:53:59.812305",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1": {
+    "checked": "2026-05-11T08:53:59.812415",
+    "status": 0,
+    "title": ""
+  },
+  "http://localhost:8083/v1/chat/completions": {
+    "checked": "2026-05-11T08:53:59.812515",
+    "status": 0,
+    "title": ""
+  },
+  "https://...install.sh`": {
+    "checked": "2026-05-11T08:53:59.812651",
+    "status": 0,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-content-overview|anthropic": {
+    "checked": "2026-05-11T08:53:59.836181",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthropic": {
+    "checked": "2026-05-11T08:54:06.672950",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic": {
+    "checked": "2026-05-11T08:54:07.841522",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[[README|anthropic": {
+    "checked": "2026-05-11T08:54:08.094758",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-[anthropic`": {
+    "checked": "2026-05-11T08:54:08.337167",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe`": {
+    "checked": "2026-05-11T08:54:08.592417",
+    "status": 404,
+    "title": ""
+  },
+  "https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr`": {
+    "checked": "2026-05-11T08:54:08.819540",
+    "status": 404,
+    "title": ""
+  },
+  "https://activitypub.rocks/`": {
+    "checked": "2026-05-11T08:54:09.072275",
+    "status": 404,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner`": {
+    "checked": "2026-05-11T08:54:13.294002",
+    "status": 403,
+    "title": ""
+  },
+  "https://api.github.com/users/svend4/repos?per_page=100&sort=updated`": {
+    "checked": "2026-05-11T08:54:13.473815",
+    "status": 403,
+    "title": ""
+  },
+  "https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv`": {
+    "checked": "2026-05-11T08:54:13.552684",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz`": {
+    "checked": "2026-05-11T08:54:13.840824",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW`": {
+    "checked": "2026-05-11T08:54:14.391409",
+    "status": 200,
+    "title": "Claude Code"
+  },
+  "https://claude.com/product/cowork`": {
+    "checked": "2026-05-11T08:54:14.535024",
+    "status": 404,
+    "title": ""
+  },
+  "https://creativecommons.org/licenses/by/4.0/`": {
+    "checked": "2026-05-11T08:54:14.806491",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker.ietf.org/doc/html/rfc2119`": {
+    "checked": "2026-05-11T08:54:15.778276",
+    "status": 404,
+    "title": ""
+  },
+  "https://datatracker`": {
+    "checked": "2026-05-11T08:54:16.514502",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|[obsidian`": {
+    "checked": "2026-05-11T08:54:16.535801",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[03-component-catalog|obsidian`": {
+    "checked": "2026-05-11T08:54:16.536104",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[12-content-overview|[03-component-catalog|obsidian`": {
+    "checked": "2026-05-11T08:54:16.536131",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|[obsidian`": {
+    "checked": "2026-05-11T08:54:16.536159",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[[BROKEN_LINKS|obsidian`": {
+    "checked": "2026-05-11T08:54:16.536193",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.[obsidian`": {
+    "checked": "2026-05-11T08:54:16.536228",
+    "status": 0,
+    "title": ""
+  },
+  "https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a`": {
+    "checked": "2026-05-11T08:54:16.536262",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.`": {
+    "checked": "2026-05-11T08:54:22.198820",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space`,`": {
+    "checked": "2026-05-11T08:54:22.220259",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW/knowledge-space``": {
+    "checked": "2026-05-11T08:54:22.410079",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/AnastasiyaW``": {
+    "checked": "2026-05-11T08:54:22.709732",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Antipozitive``": {
+    "checked": "2026-05-11T08:54:22.909027",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Cutcode``": {
+    "checked": "2026-05-11T08:54:23.101200",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Dmitriila``": {
+    "checked": "2026-05-11T08:54:23.278159",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/MiXaiLL76``": {
+    "checked": "2026-05-11T08:54:23.474181",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/Sonia_Black``": {
+    "checked": "2026-05-11T08:54:23.660199",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin/yodoca``": {
+    "checked": "2026-05-11T08:54:23.876244",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VitalyOborin``": {
+    "checked": "2026-05-11T08:54:24.082921",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/VladSpace``": {
+    "checked": "2026-05-11T08:54:24.275766",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/andrey_chuyan``": {
+    "checked": "2026-05-11T08:54:24.462048",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/anthropics/mcp``": {
+    "checked": "2026-05-11T08:54:24.656753",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/camel-ai/camel``": {
+    "checked": "2026-05-11T08:54:24.836800",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo/agentfs``": {
+    "checked": "2026-05-11T08:54:25.028014",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/kksudo``": {
+    "checked": "2026-05-11T08:54:25.259777",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp`,`": {
+    "checked": "2026-05-11T08:54:25.441600",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/mcp``": {
+    "checked": "2026-05-11T08:54:25.642528",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/nlaik``": {
+    "checked": "2026-05-11T08:54:25.846162",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/settings/tokens``": {
+    "checked": "2026-05-11T08:54:26.040056",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/ngt-memory``": {
+    "checked": "2026-05-11T08:54:26.235757",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/spbmolot/…`": {
+    "checked": "2026-05-11T08:54:26.446301",
+    "status": 0,
+    "title": ""
+  },
+  "https://github.com/spbmolot``": {
+    "checked": "2026-05-11T08:54:26.466993",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/``": {
+    "checked": "2026-05-11T08:54:26.723929",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/data70``": {
+    "checked": "2026-05-11T08:54:26.956591",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1`,`": {
+    "checked": "2026-05-11T08:54:27.157991",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info1``": {
+    "checked": "2026-05-11T08:54:27.348117",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info40``": {
+    "checked": "2026-05-11T08:54:27.548231",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/info7``": {
+    "checked": "2026-05-11T08:54:27.754556",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit/issues``": {
+    "checked": "2026-05-11T08:54:27.925475",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/ingit``": {
+    "checked": "2026-05-11T08:54:28.164675",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta`,": {
+    "checked": "2026-05-11T08:54:28.369319",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/meta``": {
+    "checked": "2026-05-11T08:54:28.551696",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus.git``": {
+    "checked": "2026-05-11T08:54:28.719234",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes`": {
+    "checked": "2026-05-11T08:54:28.821600",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/INTEGRATION.md`": {
+    "checked": "2026-05-11T08:54:29.280340",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md``": {
+    "checked": "2026-05-11T08:54:29.663468",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL``": {
+    "checked": "2026-05-11T08:54:30.052877",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/README.md`": {
+    "checked": "2026-05-11T08:54:30.420169",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md``": {
+    "checked": "2026-05-11T08:54:30.787745",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/STATUS.md`": {
+    "checked": "2026-05-11T08:54:31.263104",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE`": {
+    "checked": "2026-05-11T08:54:31.611091",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...``": {
+    "checked": "2026-05-11T08:54:32.000607",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md`": {
+    "checked": "2026-05-11T08:54:32.412381",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/branches``": {
+    "checked": "2026-05-11T08:54:33.081768",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/commits/main``": {
+    "checked": "2026-05-11T08:54:33.310934",
+    "status": 200,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/issues``": {
+    "checked": "2026-05-11T08:54:34.028502",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f1`": {
+    "checked": "2026-05-11T08:54:34.236618",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/adapters`": {
+    "checked": "2026-05-11T08:54:34.508975",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus/tree/main/passports`": {
+    "checked": "2026-05-11T08:54:34.899804",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/nautilus``": {
+    "checked": "2026-05-11T08:54:35.456687",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/blob/main/nautilus/README.md``": {
+    "checked": "2026-05-11T08:54:35.655149",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...``": {
+    "checked": "2026-05-11T08:54:36.299956",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2/tree/main/nautilus``": {
+    "checked": "2026-05-11T08:54:36.538980",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/svend4/pro2``": {
+    "checked": "2026-05-11T08:54:36.910134",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/tagir_analyzes``": {
+    "checked": "2026-05-11T08:54:37.107266",
+    "status": 404,
+    "title": ""
+  },
+  "https://github.com/zodigancode``": {
+    "checked": "2026-05-11T08:54:37.286904",
+    "status": 404,
+    "title": ""
+  },
+  "https://github`": {
+    "checked": "2026-05-11T08:54:37.478473",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.`": {
+    "checked": "2026-05-11T08:54:37.501400",
+    "status": 0,
+    "title": ""
+  },
+  "https://habr.com/ru/articles/955798/``": {
+    "checked": "2026-05-11T08:54:37.523075",
+    "status": 503,
+    "title": ""
+  },
+  "https://img.shields.io/badge/scripts-163-blue": {
+    "checked": "2026-05-11T08:54:40.369176",
+    "status": 200,
+    "title": ""
+  },
+  "https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7`": {
+    "checked": "2026-05-11T08:54:41.481799",
+    "status": 0,
+    "title": ""
+  },
+  "https://support.claude.com/en/collections/13345190-cowork`": {
+    "checked": "2026-05-11T08:54:41.932571",
+    "status": 404,
+    "title": ""
+  },
+  "https://www.`": {
+    "checked": "2026-05-11T08:54:42.332237",
+    "status": 0,
+    "title": ""
   }
 }

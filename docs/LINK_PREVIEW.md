@@ -1,129 +1,206 @@
 # Статус внешних ссылок
 
-<!-- toc-auto -->
-## Contents
-
-- [Содержание](#содержание)
-- [Содержание](#содержание-1)
-- [❌ Недоступные ссылки (79)](#недоступные-ссылки-79)
-- [✅ Работающие ссылки (189)](#работающие-ссылки-189)
-- [Использование](#использование)
-
-
-<!-- toc -->
-## Содержание
-
-- [Содержание](#содержание)
-- [❌ Недоступные ссылки (79)](#недоступные-ссылки-79)
-- [✅ Работающие ссылки (189)](#работающие-ссылки-189)
-- [Использование](#использование)
+<!-- summary -->
+> Всего URL: **372** | ✅ Работают: **189** | 🔄 Редиректы: **0** | ❌ Недоступны: **183**
+**Проекты:** AgentFS, knowledge-space, Yodoca, MemNet
 
 ---
+<!-- tags: memory, rag, orchestration, knowledge, architecture, anthropic, self-improvement, collaboration -->
 
 
-## Содержание
-
-- Основной раздел
 
 
-<!-- summary -->
-> Статус внешних ссылок — документ базы знаний репозитория Lorenzo.
+_Обновлено: 2026-05-11_
 
-<!-- tags: docs, reference, lorenzo -->
+Всего URL: **372** | ✅ Работают: **189** | 🔄 Редиректы: **0** | ❌ Недоступны: **183**
 
-
-> [!TIP]
-> Документ содержит практические рекомендации и лучшие практики.
-
-<!-- alert-added -->
-
-_Обновлено: 2026-05-10_
-
-Всего URL: **268** | ✅ Работают: **189** | 🔄 Редиректы: **0** | ❌ Недоступны: **79**
-
-## ❌ Недоступные ссылки (79)
+## ❌ Недоступные ссылки (183)
 
 | URL | Статус | Файлы |
 |-----|--------|-------|
-| `http://localhost:8000` | timeout | `docs/02-anthropic-vacancies/67-о-проекте.md`, `docs/02-anthropic-vacancies/68-about.md` +11 |
+| `http://localhost:8000` | timeout | `docs/02-anthropic-vacancies/67-о-проекте.md`, `docs/02-anthropic-vacancies/68-about.md` +9 |
+| `http://localhost:8000`` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +5 |
+| `http://localhost:8000``` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +4 |
+| `http://localhost:8000```` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +4 |
+| `http://localhost:8000````` | timeout | `docs/BROKEN_LINKS.md`, `docs/DECISIONS.md` +8 |
+| `http://localhost:8000`````` | timeout | `docs/BROKEN_LINKS.md`, `docs/DECISIONS.md` +8 |
 | `http://localhost:8080` | timeout | `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md`, `docs/BROKEN_LINKS.md` +9 |
+| `http://localhost:8080`` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +5 |
+| `http://localhost:8080``` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +4 |
+| `http://localhost:8080```` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +4 |
+| `http://localhost:8080````` | timeout | `docs/BROKEN_LINKS.md`, `docs/DECISIONS.md` +8 |
+| `http://localhost:8080`````` | timeout | `docs/BROKEN_LINKS.md`, `docs/DECISIONS.md` +8 |
+| `http://localhost:8083/api/ask` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/api/benchmark` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/api/cards` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/api/collabs` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/api/health` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/api/search` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/docs` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/v1` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
+| `http://localhost:8083/v1/chat/completions` | timeout | `docs/BROKEN_LINKS.md`, `docs/GATEWAY.md` +4 |
 | `https://...install.sh` | timeout | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`, `docs/BROKEN_LINKS.md` +5 |
-| `https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
-| `https://datatracker` | timeout | `docs/ABBREVIATIONS.md`, `docs/BROKEN_LINKS.md` +5 |
-| `https://forum.[[03-component-catalog|[obsidian` | timeout | `docs/BROKEN_LINKS.md` |
-| `https://forum.[[03-component-catalog|obsidian` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +4 |
-| `https://forum.[[12-content-overview|[03-component-catalog|obsidian` | timeout | `docs/BROKEN_LINKS.md`, `docs/obsidian/LINKS.md` |
-| `https://forum.[[BROKEN_LINKS|[obsidian` | timeout | `docs/BROKEN_LINKS.md` |
-| `https://forum.[[BROKEN_LINKS|obsidian` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
-| `https://forum.[obsidian` | timeout | `docs/04-ai-collaborations/00-intro.md`, `docs/05-habr-projects/memory/memnet.md` +5 |
-| `https://github` | timeout | `docs/BROKEN_LINKS.md`, `docs/CONCEPTS.md` +4 |
+| `https://...install.sh`` | timeout | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
+| `https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://datatracker` | timeout | `docs/ABBREVIATIONS.md`, `docs/LINKS.md` +4 |
+| `https://datatracker`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[03-component-catalog|[obsidian` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[03-component-catalog|[obsidian`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[03-component-catalog|obsidian` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +4 |
+| `https://forum.[[03-component-catalog|obsidian`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[12-content-overview|[03-component-catalog|obsidian` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[12-content-overview|[03-component-catalog|obsidian`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[BROKEN_LINKS|[obsidian` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[BROKEN_LINKS|[obsidian`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[BROKEN_LINKS|obsidian` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[[BROKEN_LINKS|obsidian`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.[obsidian` | timeout | `docs/04-ai-collaborations/00-intro.md`, `docs/05-habr-projects/memory/memnet.md` +4 |
+| `https://forum.[obsidian`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github` | timeout | `docs/CONCEPTS.md`, `docs/LINKS.md` +3 |
 | `https://github.` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +8 |
-| `https://github.com/spbmolot/…` | timeout | `docs/DUPLICATES.md`, `docs/LINKS.md` +4 |
-| `https://habr.` | timeout | `docs/04-ai-collaborations/00-intro.md`, `docs/LINKS.md` +12 |
+| `https://github.`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/spbmolot/…` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/spbmolot/…`` | timeout | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github`` | timeout | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://habr.` | timeout | `docs/04-ai-collaborations/00-intro.md`, `docs/OUTLINE.md` +10 |
+| `https://habr.`` | timeout | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
 | `https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7` | timeout | `docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md`, `docs/obsidian/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` |
+| `https://nautilus-okwf.org/sub-agents/sgb-ix-paragraph-78-24-7`` | timeout | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
 | `https://www.` | timeout | `docs/OUTLINE.md`, `docs/SITEMAP.md` +8 |
-| `https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner` | 403 | `docs/02-anthropic-vacancies/00-intro.md`, `docs/BROKEN_LINKS.md` +7 |
-| `https://habr.com/ru/articles/955798/` | 403 | `docs/04-ai-collaborations/00-intro.md`, `docs/05-habr-projects/memory/memnet.md` +10 |
-| `https://3dnews.ru/1140248/glava-[anthropic` | 404 | `docs/BROKEN_LINKS.md` |
-| `https://github.com/AnastasiyaW/knowledge-space`` | 404 | `docs/BROKEN_LINKS.md`, `docs/CITATION_INDEX.md` +5 |
+| `https://www.`` | timeout | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner` | 403 | `docs/02-anthropic-vacancies/00-intro.md`, `docs/CODE_BLOCKS.md` +6 |
+| `https://api.github.com/users/svend4/repos?per_page=100&sort=updated&type=owner`` | 403 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://api.github.com/users/svend4/repos?per_page=100&sort=updated`` | 403 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://habr.com/ru/articles/955798/` | 403 | `docs/04-ai-collaborations/00-intro.md`, `docs/05-habr-projects/memory/memnet.md` +8 |
+| `https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-c` | 404 | `docs/BROKEN_LINKS.md`, `docs/TABLES.md` +1 |
+| `https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthr` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +1 |
+| `https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +2 |
+| `https://3dnews.ru/1140248/glava-[[README|anthropic` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
+| `https://3dnews.ru/1140248/glava-[anthropic` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +2 |
+| `https://3dnews.ru/1140248/glava-[anthropic`` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
+| `https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe`` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
+| `https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://activitypub.rocks/`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://claude.com/product/cowork`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://creativecommons.org/licenses/by/4.0/`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://datatracker.ietf.org/doc/html/rfc2119`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://forum.obsidian.md/t/new-plugin-llm-wiki-turn-your-vault-into-a`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/AnastasiyaW/knowledge-space`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
 | `https://github.com/AnastasiyaW/knowledge-space`,` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://github.com/AnastasiyaW`` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
-| `https://github.com/Antipozitive` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +5 |
-| `https://github.com/Antipozitive`` | 404 | `docs/BROKEN_LINKS.md`, `docs/LINKS.md` +3 |
+| `https://github.com/AnastasiyaW/knowledge-space`,`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/AnastasiyaW/knowledge-space``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/AnastasiyaW`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/AnastasiyaW``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/Antipozitive` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
+| `https://github.com/Antipozitive`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/Antipozitive``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/Cutcode`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/Cutcode``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/Dmitriila` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
 | `https://github.com/Dmitriila`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/Dmitriila``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/MiXaiLL76`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/MiXaiLL76``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/Sonia_Black` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
 | `https://github.com/Sonia_Black`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://github.com/VitalyOborin/yodoca`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/Sonia_Black``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/VitalyOborin/yodoca`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/VitalyOborin/yodoca``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/VitalyOborin`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/VitalyOborin``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/VladSpace` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
 | `https://github.com/VladSpace`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/VladSpace``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/andrey_chuyan` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
 | `https://github.com/andrey_chuyan`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/andrey_chuyan``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/anthropics/mcp` | 404 | `docs/02-anthropic-vacancies/68-about.md`, `docs/ENTITIES.md` +6 |
-| `https://github.com/anthropics/mcp`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/anthropics/mcp`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/anthropics/mcp``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/camel-ai/camel`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/camel-ai/camel``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/kksudo/agentfs`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/kksudo/agentfs``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/kksudo`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/kksudo``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/mcp`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
 | `https://github.com/mcp`,` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/mcp`,`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/mcp``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/nlaik`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://github.com/settings/tokens`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/nlaik``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/settings/tokens`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/settings/tokens``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/spbmolot/ngt-memory` | 404 | `docs/DEPENDABOT.md`, `docs/ENTITIES.md` +6 |
 | `https://github.com/spbmolot/ngt-memory`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/spbmolot/ngt-memory``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/spbmolot`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/spbmolot``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/data70`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/svend4/data70``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/info1`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
 | `https://github.com/svend4/info1`,` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/info1`,`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/info1``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/info40`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/info40``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/info7`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/info7``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/ingit/issues`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/svend4/ingit/issues``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/ingit`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/svend4/ingit``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/meta`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/svend4/meta`,` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
+| `https://github.com/svend4/meta``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus.git`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus.git``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/claude/review-nautilus-changes`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/INTEGRATION.md`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL` | 404 | `docs/LINKS.md`, `docs/SOURCE_MAP.md` +4 |
 | `https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL.md``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/PORTAL-PROTOCOL``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/README.md`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md` | 404 | `docs/02-anthropic-vacancies/147-references.md`, `docs/LINKS.md` +4 |
 | `https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/REVIEW_METHODOLOGY.md``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/STATUS.md`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/docs/IMPLEMENTATION_STAGE`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0...``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md` | 404 | `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md`, `docs/LINKS.md` +4 |
+| `https://github.com/svend4/nautilus/blob/main/docs/PORTAL-PROTOCOL-v1.0.md`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/branches`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus/branches``` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
 | `https://github.com/svend4/nautilus/issues`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
-| `https://github.com/svend4/nautilus`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
-| `https://github.com/svend4/pro2/blob/main/nautilus/README.md`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
-| `https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://github.com/svend4/pro2/tree/main/nautilus`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://github.com/svend4/pro2`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
-| `https://github.com/tagir_analyzes` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
-| `https://github.com/tagir_analyzes`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://github.com/zodigancode` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +4 |
-| `https://github.com/zodigancode`` | 404 | `docs/LINKS.md`, `docs/TABLES.md` +2 |
-| `https://habr.com/ru/articles/955798/`` | 404 | `docs/CITATION_INDEX.md`, `docs/LINKS.md` +4 |
+| `https://github.com/svend4/nautilus/issues``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f1`` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/nautilus/tree/main/adapters`` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/nautilus/tree/main/passports`` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/nautilus`` | 404 | `docs/CITATION_INDEX.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/nautilus``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2/blob/main/nautilus/README.md`` | 404 | `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2/blob/main/nautilus/README.md``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...`` | 404 | `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2/tree/6637d1299af963db66485aa5599346d41b...``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2/tree/main/nautilus`` | 404 | `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2/tree/main/nautilus``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/svend4/pro2`` | 404 | `docs/CITATION_INDEX.md`, `docs/TABLES.md` +2 |
+| `https://github.com/svend4/pro2``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/tagir_analyzes` | 404 | `docs/TABLES.md`, `docs/contacts/tagir-analyzes.md` +2 |
+| `https://github.com/tagir_analyzes`` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/tagir_analyzes``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/zodigancode` | 404 | `docs/TABLES.md`, `docs/contacts/zodigancode.md` +2 |
+| `https://github.com/zodigancode`` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://github.com/zodigancode``` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://habr.com/ru/articles/955798/`` | 404 | `docs/CITATION_INDEX.md`, `docs/TABLES.md` +2 |
 | `https://support.claude.com/en/collections/13345190-cowork` | 404 | `docs/02-anthropic-vacancies/320-references.md`, `docs/02-anthropic-vacancies/338-ссылки.md` +2 |
+| `https://support.claude.com/en/collections/13345190-cowork`` | 404 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
+| `https://habr.com/ru/articles/955798/``` | 503 | `docs/TABLES.md`, `docs/obsidian/TABLES.md` |
 
 ## ✅ Работающие ссылки (189)
 
@@ -133,8 +210,11 @@ _Обновлено: 2026-05-10_
 | `https://activitypub.rocks/` | ActivityPub Rocks! |
 | `https://api.github.com/users/svend4/repos?per_page=100&sort=updated` | — |
 | `https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv` | Claude Code |
+| `https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv`` | Claude Code |
 | `https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz` | Claude Code |
+| `https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz`` | Claude Code |
 | `https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW` | Claude Code |
+| `https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW`` | Claude Code |
 | `https://claude.com/product/cowork` | Cowork: Claude Code power for knowledge work | Claude by Ant |
 | `https://creativecommons.org/licenses/by/4.0/` | Deed - Attribution 4.0 International - Creative Commons |
 | `https://datatracker.ietf.org/doc/html/rfc2119` | RFC 2119 - Key words for use in RFCs to Indicate Requirement |
@@ -174,11 +254,8 @@ _Обновлено: 2026-05-10_
 | `https://github.com/svend4/nautilus/branches` | — |
 | `https://github.com/svend4/nautilus/commits/main` | — |
 | `https://github.com/svend4/nautilus/commits/main`` | — |
+| `https://github.com/svend4/nautilus/commits/main``` | — |
 | `https://github.com/svend4/nautilus/issues` | — |
-| `https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f1` | — |
-| `https://github.com/svend4/nautilus/tree/main/adapters` | — |
-| `https://github.com/svend4/nautilus/tree/main/passports` | — |
-| `https://github.com/svend4/pro2` | — |
 
 <!-- see-also -->
 
@@ -187,37 +264,21 @@ _Обновлено: 2026-05-10_
 **Смотрите также:**
 - [LINKS](LINKS.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [SPELLCHECK](SPELLCHECK.md)
 
-
-
-## Использование
-
-```bash
-python scripts/improve_run_all.py --group reports
-```
-
-```bash
-python scripts/improve_semantic_search.py --query "LINK_PREVIEW"
-```
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (3):**
+**Кто ссылается на этот документ (8):**
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [SPELLCHECK](SPELLCHECK.md)
 - [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [LINKS](obsidian/LINKS.md) (сходство 0.51)
-- [LINKS](LINKS.md) (сходство 0.48)
-- [CITATION_INDEX](CITATION_INDEX.md) (сходство 0.27)
 

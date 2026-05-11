@@ -1,5 +1,10 @@
 # Письмо: AnastasiyaW / knowledge-space + mclaude
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -96,4 +101,15 @@ python scripts/improve_anastasiyaw.py
 - [anastasiyaw](../obsidian/letters/anastasiyaw.md) (сходство 0.98)
 - [vitalyoborin](vitalyoborin.md) (сходство 0.28)
 - [vitalyoborin](../obsidian/letters/vitalyoborin.md) (сходство 0.27)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vitalyoborin](vitalyoborin.md)
+- [vitalysemenov](vitalysemenov.md)
+- [zodigancode](zodigancode.md)
+- [antipozitive](antipozitive.md)
 

@@ -252,3 +252,24 @@ _Кто ссылается на этот документ (7):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [DEPENDENCY_MAP|obsidian/DEPENDENCY_MAP.md] (сходство 0.99)
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md] (сходство 0.26)
+* [CHANGELOG_AUTO|obsidian/CHANGELOG_AUTO.md] (сходство 0.26)
+
+
+
+
+----
+
+_Смотрите также:_
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [INDEX|INDEX.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [CHANGELOG|CHANGELOG.md]
+

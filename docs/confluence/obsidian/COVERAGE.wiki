@@ -18,11 +18,6 @@ date: 2026-05-11
 
 h1. Матрица покрытия документов
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{COVERAGE}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 {quote}Условные обозначения: ✅ есть  ⬜ отсутствует{quote}
 _Проекты:_ Svyazi
@@ -74,16 +69,3 @@ python scripts/improve_backlinks.py
 # Заполнить блок ## Статус в проектных файлах
 python scripts/improve_autofill.py
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (6):_
-* [[HEATMAP]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* [[SEARCH]]
-* [[TABLES]]
-

@@ -507,3 +507,14 @@ python scripts/improve_contradictions.py
 - [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) (сходство 0.21)
 - [SIMILAR_PASSAGES](obsidian/SIMILAR_PASSAGES.md) (сходство 0.21)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+

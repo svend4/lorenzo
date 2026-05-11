@@ -1,5 +1,10 @@
 # Письмо: VitaliySemenov / agent-memory-mcp
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -98,4 +103,15 @@ python scripts/improve_vitalysemenov.py
 - [vitalysemenov](../obsidian/letters/vitalysemenov.md) (сходство 0.98)
 - [vitalyoborin](vitalyoborin.md) (сходство 0.27)
 - [anastasiyaw](anastasiyaw.md) (сходство 0.27)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vitalyoborin](vitalyoborin.md)
+- [anastasiyaw](anastasiyaw.md)
+- [zodigancode](zodigancode.md)
+- [kksudo](kksudo.md)
 

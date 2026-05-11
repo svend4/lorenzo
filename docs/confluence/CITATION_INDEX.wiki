@@ -281,3 +281,24 @@ _Кто ссылается на этот документ (7):_
 * [SPELLCHECK|SPELLCHECK.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [CITATION_INDEX|obsidian/CITATION_INDEX.md] (сходство 0.98)
+* [BACKLINKS|obsidian/BACKLINKS.md] (сходство 0.27)
+* [LINK_PREVIEW|LINK_PREVIEW.md] (сходство 0.27)
+
+
+
+
+----
+
+_Смотрите также:_
+* [KEYWORD_INDEX|KEYWORD_INDEX.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [NAMED_ENTITIES|NAMED_ENTITIES.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+

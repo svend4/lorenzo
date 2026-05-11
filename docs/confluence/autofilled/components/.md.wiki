@@ -96,3 +96,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "Антропик"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [.md|../../obsidian/autofilled/components/.md] (сходство 0.96)
+* [svyazi|svyazi.md] (сходство 0.83)
+* [svend4|svend4.md] (сходство 0.83)
+

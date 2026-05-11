@@ -291,7 +291,18 @@ python scripts/improve_citation_index.py
 ---
 
 **Похожие документы:**
-- [CITATION_INDEX](../CITATION_INDEX.md) (сходство 0.98)
-- [BACKLINKS](BACKLINKS.md) (сходство 0.28)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md) (сходство 0.27)
+- [[CITATION_INDEX]] (сходство 0.98)
+- [[BACKLINKS]] (сходство 0.27)
+- [[LINK_PREVIEW]] (сходство 0.27)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[KEYWORD_INDEX]]
+- [[DIGEST_WEEKLY]]
+- [[NAMED_ENTITIES]]
+- [[CROSS_SECTION]]
 

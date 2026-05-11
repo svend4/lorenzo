@@ -126,3 +126,13 @@ h2. Кто ссылается на этот документ (3)
 * [README|README.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [LLM_SUMMARIES|obsidian/LLM_SUMMARIES.md] (сходство 0.98)
+* [WORD_CLOUD|WORD_CLOUD.md] (сходство 0.28)
+* [WORD_CLOUD|obsidian/WORD_CLOUD.md] (сходство 0.27)
+

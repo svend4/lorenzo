@@ -1,5 +1,30 @@
 # Тепловая карта тем
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Числовые значения (‰)](#числовые-значения)
+- [Доминирующие темы по разделам](#доминирующие-темы-по-разделам)
+- [Концентрация тем](#концентрация-тем)
+
+---
+
+<!-- tags: rag, orchestration, security, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Плотность упоминаний каждой темы по разделам (‰ — на тысячу слов).
 
 ```
@@ -62,3 +87,30 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 | **Habr/Проекты** | `05-habr-projects` | 17.8‰ |
 | **Контакты/Команда** | `05-habr-projects` | 6.5‰ |
 | **Интеграция/API** | `05-habr-projects` | 9.4‰ |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](DENSITY.md)
+- [COVERAGE](COVERAGE.md)
+- [SCORING](SCORING.md)
+- [ONBOARDING](ONBOARDING.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [DENSITY](DENSITY.md)
+- [INDEX](INDEX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+

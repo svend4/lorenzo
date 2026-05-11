@@ -419,3 +419,26 @@ _Файл: `scripts/gateway.py` · Версия: 1.0.0 · Дата: 2026-05-11_
 - [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) (сходство 0.16)
 - [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md) (сходство 0.15)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [DEMO](DEMO.md)
+- [08-export](processing-guide/08-export.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [CONCEPTS](CONCEPTS.md)
+- [DEMO](DEMO.md)
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -1,4 +1,6 @@
 # Оценка готовности проекта (Go/No-Go)
+<!-- tags: security, architecture, roadmap, collaboration -->
+
 
 _Дата: 2026-05-11_
 
@@ -58,12 +60,18 @@ _Дата: 2026-05-11_
 ## ✅ Проект готов к запуску MVP!
 
 
-<!-- similar-docs -->
+<!-- backlinks -->
 
 ---
 
-**Похожие документы:**
-- [SCORING](obsidian/SCORING.md) (сходство 0.79)
-- [TAGS](TAGS.md) (сходство 0.17)
-- [COVERAGE](COVERAGE.md) (сходство 0.16)
+**Кто ссылается на этот документ (20):**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DENSITY](DENSITY.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [GITHUB_ISSUES](GITHUB_ISSUES.md)
+- [HEALTH](HEALTH.md)
+- [HEATMAP](HEATMAP.md)
+- [INDEX](INDEX.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- _...ещё 12_
 

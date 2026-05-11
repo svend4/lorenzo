@@ -134,7 +134,7 @@ python scripts/improve_semantic_search.py --query "AI саммари разде�
 ---
 
 **Похожие документы:**
-- [LLM_SUMMARIES](../LLM_SUMMARIES.md) (сходство 0.98)
-- [WORD_CLOUD](WORD_CLOUD.md) (сходство 0.29)
-- [WORD_CLOUD](../WORD_CLOUD.md) (сходство 0.27)
+- [[LLM_SUMMARIES]] (сходство 0.98)
+- [[WORD_CLOUD]] (сходство 0.28)
+- [[WORD_CLOUD]] (сходство 0.27)
 

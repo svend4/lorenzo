@@ -121,7 +121,7 @@ python scripts/improve_semantic_search.py --query "spbmolot"
 ---
 
 **Похожие документы:**
-- [spbmolot](../../../autofilled/components/spbmolot.md) (сходство 0.96)
-- [kksudo](kksudo.md) (сходство 0.89)
-- [kksudo](../../../autofilled/components/kksudo.md) (сходство 0.85)
+- [[spbmolot]] (сходство 0.96)
+- [[kksudo]] (сходство 0.89)
+- [[kksudo]] (сходство 0.85)
 

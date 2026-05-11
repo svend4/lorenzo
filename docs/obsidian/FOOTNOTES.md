@@ -1,33 +1,23 @@
 ---
 title: "Сноски и определения терминов"
 tags:
-  - footnotes
-  - docs
   - general
 date: 2026-05-11
 ---
 
 # Сноски и определения терминов
 
-<!-- toc-auto -->
-## Contents
-
-- [Словарь сносок](#словарь-сносок)
-- [Как это работает](#как-это-работает)
-
-
-> [!NOTE]
-> Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: footnotes, docs -->
-
-
 <!-- summary -->
-> `FOOTNOTES` — раздел документации проекта Lorenzo.
+> **Обновлено файлов:** 3  **Вставлено сносок:** 13
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, self-improvement -->
 
 
-**Обновлено файлов:** 3  **Вставлено сносок:** 8
+
+
+**Обновлено файлов:** 3  **Вставлено сносок:** 13
 
 ## Словарь сносок
 
@@ -41,14 +31,14 @@ date: 2026-05-11
 | **Jaccard** | Коэффициент схожести множеств (0–1) | 0 |
 | **LLM** | Large Language Model — большая языковая модель | 0 |
 | **MCP** | Model Context Protocol — протокол для AI-инструментов | 0 |
-| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 0 |
+| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 1 |
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 0 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 2 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 1 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
-| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
+| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 1 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
 
 ## Как это работает
@@ -67,33 +57,18 @@ date: 2026-05-11
 
 **Смотрите также:**
 - [[01-executive-summary]]
-- [[TECH_RADAR]]
-- [[ONBOARDING]]
 - [[08-conclusions]]
+- [[07-выводы]]
+- [[GRAPH]]
 
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
-- [[08-conclusions]]
-- [[EMPTY_SECTIONS]]
-- [[INDEX]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- _...ещё 1_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [FOOTNOTES](../FOOTNOTES.md) (сходство 0.97)
-- [GRAPH](GRAPH.md) (сходство 0.26)
-- [GRAPH](../GRAPH.md) (сходство 0.25)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

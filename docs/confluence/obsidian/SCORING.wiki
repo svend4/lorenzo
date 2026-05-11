@@ -6,11 +6,17 @@
 ----
 title: "Оценка готовности проекта (Go/No-Go)"
 tags:
+  * security
+  * architecture
+  * roadmap
+  * collaboration
   * general
 date: 2026-05-11
 ----
 
 h1. Оценка готовности проекта (Go/No-Go)
+
+
 
 _Дата: 2026-05-11_
 

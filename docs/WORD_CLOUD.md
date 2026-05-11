@@ -1,30 +1,11 @@
 # Word Cloud
 
-<!-- toc-auto -->
-## Contents
-
-- [Топ-20 слов](#топ-20-слов)
-- [Похожие документы](#похожие-документы)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-- [Кто ссылается на этот документ (6)](#кто-ссылается-на-этот-документ-6)
-
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > Визуализация 80 самых частых слов репозитория.
 **Проекты:** Svyazi
 
 ---
 <!-- tags: ingestion, anthropic -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
 
 
 
@@ -37,64 +18,39 @@
 
 | # | Слово | Частота |
 |---|-------|---------|
-| 1 | **anthropic** | 5,050 |
-| 2 | **vacancies** | 4,506 |
-| 3 | **agent** | 1,422 |
-| 4 | **turn** | 1,376 |
-| 5 | **svyazi** | 1,039 |
-| 6 | **сходство** | 1,007 |
-| 7 | **view** | 973 |
-| 8 | **cowork** | 926 |
-| 9 | **nautilus** | 912 |
-| 10 | **appendix** | 822 |
-| 11 | **ingit** | 776 |
-| 12 | **agents** | 701 |
-| 13 | **knowledge** | 691 |
-| 14 | **portal** | 659 |
-| 15 | **protocol** | 617 |
-| 16 | **search** | 604 |
-| 17 | **document** | 599 |
-| 18 | **memory** | 591 |
-| 19 | **lorenzo** | 557 |
-| 20 | **claude** | 556 |
-
-<!-- similar-docs -->
-
----
-
-## Похожие документы
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.30)
-- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md) (сходство 0.20)
-- [304-ingit-as-cowork-native-workspace-substrate-md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md) (сходство 0.19)
-
-
-<!-- see-also -->
-
----
-
-## Использование
-
-```bash
-# Поиск по теме документа
-python scripts/improve_semantic_search.py --query "Word Cloud"
-```
-
-## Смотрите также
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
-- [65-readme-md](02-anthropic-vacancies/65-readme-md.md)
-- [305-a-practical-path-to-layer-b-through-symbiotic-inte](02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
-
+| 1 | **anthropic** | 32,618 |
+| 2 | **vacancies** | 25,890 |
+| 3 | **проблем** | 19,724 |
+| 4 | **nautilus** | 16,059 |
+| 5 | **obsidian** | 15,296 |
+| 6 | **использование** | 14,908 |
+| 7 | **agent** | 14,902 |
+| 8 | **документ** | 12,493 |
+| 9 | **readme** | 11,679 |
+| 10 | **смотрите** | 10,379 |
+| 11 | **svyazi** | 9,962 |
+| 12 | **документы** | 8,789 |
+| 13 | **lorenzo** | 8,206 |
+| 14 | **поиск** | 7,825 |
+| 15 | **contents** | 7,811 |
+| 16 | **этот** | 7,299 |
+| 17 | **appendix** | 7,267 |
+| 18 | **сходство** | 7,088 |
+| 19 | **agents** | 6,462 |
+| 20 | **cowork** | 6,316 |
 
 <!-- backlinks -->
 
 ---
 
-## Кто ссылается на этот документ (6)
+**Кто ссылается на этот документ (10):**
 - [304-ingit-as-cowork-native-workspace-substrate-md](02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [321-appendix-a-decision-tree-for-ingit-adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)
 - [INDEX](INDEX.md)
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [TABLES](TABLES.md)
+- _...ещё 2_
 

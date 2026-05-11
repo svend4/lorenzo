@@ -511,3 +511,24 @@ h2. Использование
 # Запуск
 python scripts/improve_contradictions.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[CONTRADICTIONS]] (сходство 0.99)
+* [[SIMILAR_PASSAGES]] (сходство 0.21)
+* [[SIMILAR_PASSAGES]] (сходство 0.21)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[SIMILAR_PASSAGES]]
+* [[DIGEST_WEEKLY]]
+* [[NAMED_ENTITIES]]
+* [[KEYWORD_INDEX]]
+

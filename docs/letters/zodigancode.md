@@ -1,5 +1,10 @@
 # Письмо: zodigancode / Rufler
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -98,4 +103,15 @@ python scripts/improve_zodigancode.py
 - [zodigancode](../obsidian/letters/zodigancode.md) (сходство 0.98)
 - [anastasiyaw](anastasiyaw.md) (сходство 0.23)
 - [anastasiyaw](../obsidian/letters/anastasiyaw.md) (сходство 0.22)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [anastasiyaw](anastasiyaw.md)
+- [vitalysemenov](vitalysemenov.md)
+- [vitalyoborin](vitalyoborin.md)
+- [antipozitive](antipozitive.md)
 

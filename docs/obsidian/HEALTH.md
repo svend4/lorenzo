@@ -85,3 +85,24 @@ _Обновлено: 2026-05-11_
 - [[BROKEN_LINKS]] — состояние внутренних ссылок
 - [[VALIDATION]] — валидация структуры
 - [[SCORING]] — готовность к запуску (Go/No-Go)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[VALIDATION]]
+- [[METRICS]]
+- [[REPORT]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

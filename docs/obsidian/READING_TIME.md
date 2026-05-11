@@ -2580,7 +2580,18 @@ python scripts/improve_reading_time.py --dry-run
 ---
 
 **Похожие документы:**
-- [READING_TIME](../READING_TIME.md) (сходство 0.97)
-- [READABILITY](../READABILITY.md) (сходство 0.95)
-- [SEARCH](../SEARCH.md) (сходство 0.93)
+- [[READABILITY]] (сходство 0.98)
+- [[READING_TIME]] (сходство 0.97)
+- [[SEARCH]] (сходство 0.95)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[READABILITY]]
+- [[SEARCH]]
+- [[HEADING_AUDIT]]
+- [[SOURCE_MAP]]
 

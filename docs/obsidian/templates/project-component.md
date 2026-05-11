@@ -9,11 +9,6 @@ date: 2026-05-11
 
 # [Название компонента]
 
-> [!NOTE]
-> Раздел `project-component` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Краткое описание в 1-2 предложениях -->
 <!-- tags: архитектура, проект -->
 
@@ -48,42 +43,13 @@ date: 2026-05-11
 ---
 _Создано: 2026-05-11_
 
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_project_component.py
-```
-
-## Смотрите также
-- [[README|Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (10):**
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[research-summary]]
-- [[README]]
-- [[agent-spec]]
-- _...ещё 2_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [project-component](../../templates/project-component.md) (сходство 0.95)
-- [ensemble](ensemble.md) (сходство 0.41)
-- [ensemble](../../templates/ensemble.md) (сходство 0.37)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
 

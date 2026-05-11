@@ -84,7 +84,7 @@ python scripts/improve_semantic_search.py --query "Svyazi 2.0 архитекту
 ---
 
 **Похожие документы:**
-- [00-intro-part2](../../01-svyazi/00-intro-part2.md) (сходство 0.94)
-- [SEARCH_RESULTS](../SEARCH_RESULTS.md) (сходство 0.46)
-- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.45)
+- [[00-intro-part2]] (сходство 0.94)
+- [[SEARCH_RESULTS]] (сходство 0.45)
+- [[SEARCH_RESULTS]] (сходство 0.44)
 

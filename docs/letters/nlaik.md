@@ -1,5 +1,10 @@
 # Письмо: nlaik / LiteParse + research-docs
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -94,4 +99,15 @@ python scripts/improve_nlaik.py
 - [nlaik](../obsidian/letters/nlaik.md) (сходство 0.98)
 - [spbmolot](spbmolot.md) (сходство 0.23)
 - [vitalyoborin](vitalyoborin.md) (сходство 0.22)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [spbmolot](spbmolot.md)
+- [kksudo](kksudo.md)
+- [vitalyoborin](vitalyoborin.md)
+- [anastasiyaw](anastasiyaw.md)
 

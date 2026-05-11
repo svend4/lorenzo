@@ -1,10 +1,5 @@
 # Контакты и авторы
 
-> [!NOTE]
-> Раздел `CONTACTS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -30,21 +25,21 @@
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 129 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 81 | — |
-| **Cutcode** | AIF Handoff | orchestration | 79 | — |
-| **Dmitriila** | SENTINEL | security | 69 | — |
-| **MiXaiLL76** | Auto AI Router | security | 63 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 43 | — |
-| **VitalyOborin** | Yodoca | memory | 103 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 89 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 132 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 82 | — |
+| **Cutcode** | AIF Handoff | orchestration | 74 | — |
+| **Dmitriila** | SENTINEL | security | 65 | — |
+| **MiXaiLL76** | Auto AI Router | security | 61 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 42 | — |
+| **VitalyOborin** | Yodoca | memory | 110 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 85 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
 | **kksudo** | AgentFS | knowledge/filesystem | 194 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
-| **lee-to** | AI Factory | orchestration | 24 | — |
-| **nlaik** | LiteParse / research-docs | rag | 81 | — |
-| **spbmolot** | NGT Memory | memory | 166 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **lee-to** | AI Factory | orchestration | 23 | — |
+| **nlaik** | LiteParse / research-docs | rag | 82 | — |
+| **spbmolot** | NGT Memory | memory | 175 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
 | **tagir_analyzes** | Legal RAG | rag | 29 | — |
-| **zodigancode** | Rufler | orchestration | 91 | — |
+| **zodigancode** | Rufler | orchestration | 93 | — |
 
 ## GitHub репозитории
 
@@ -86,13 +81,14 @@
 | `github.com/github.com/svend4/ingit` | 29 |
 | `github.com/github.com/svend4/lorenzo` | 4 |
 | `github.com/github.com/svend4/meta` | 23 |
+| `github.com/github.com/svend4/n` | 3 |
 | `github.com/github.com/svend4/nautilus` | 116 |
 | `github.com/github.com/svend4/nautilus.` | 4 |
 | `github.com/github.com/svend4/nautilus.git` | 7 |
-| `github.com/github.com/svend4/pro2` | 27 |
+| `github.com/github.com/svend4/pro2` | 25 |
 | `github.com/github.com/tagir` | 5 |
 | `github.com/github.com/tree` | 2 |
-| `github.com/github.com/users/svend4` | 10 |
+| `github.com/github.com/users/svend4` | 9 |
 | `github.com/github.com/vuguzum/self-aware-mcp-server` | 12 |
 | `github.com/github.com/yjs/yjs` | 6 |
 | `github.com/github.com/zodigancode` | 5 |
@@ -118,24 +114,14 @@
 
 ---
 
-**Кто ссылается на этот документ (30):**
+**Кто ссылается на этот документ (28):**
 - [13-contacts](01-svyazi/13-contacts.md)
 - [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [ACTION_ITEMS](ACTION_ITEMS.md)
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
 - [CROSS_SECTION](CROSS_SECTION.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [GITHUB_ISSUES](GITHUB_ISSUES.md)
-- _...ещё 22_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [CONTACTS](obsidian/CONTACTS.md) (сходство 0.98)
-- [narrow-questions](svyazi-2-0/outreach/narrow-questions.md) (сходство 0.29)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md) (сходство 0.29)
+- [INDEX](INDEX.md)
+- _...ещё 20_
 

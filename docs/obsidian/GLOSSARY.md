@@ -7,6 +7,14 @@ date: 2026-05-11
 
 # Глоссарий проектов
 
+<!-- summary -->
+> Все проекты, упоминаемые в документах, с количеством файлов.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
+
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 | Проект | Упоминается в файлах |
@@ -65,7 +73,18 @@ date: 2026-05-11
 ---
 
 **Похожие документы:**
-- [GLOSSARY](../GLOSSARY.md) (сходство 0.71)
-- [MINDMAP](MINDMAP.md) (сходство 0.47)
-- [MINDMAP](../MINDMAP.md) (сходство 0.43)
+- [[GLOSSARY]] (сходство 0.71)
+- [[README]] (сходство 0.35)
+- [[README]] (сходство 0.35)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[MINDMAP]]
+- [[CONTACT_PRIORITY]]
+- [[authors-by-name]]
+- [[CONSISTENCY]]
 

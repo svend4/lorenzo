@@ -512,7 +512,18 @@ python scripts/improve_contradictions.py
 ---
 
 **Похожие документы:**
-- [CONTRADICTIONS](../CONTRADICTIONS.md) (сходство 0.99)
-- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) (сходство 0.22)
-- [SIMILAR_PASSAGES](../SIMILAR_PASSAGES.md) (сходство 0.21)
+- [[CONTRADICTIONS]] (сходство 0.99)
+- [[SIMILAR_PASSAGES]] (сходство 0.21)
+- [[SIMILAR_PASSAGES]] (сходство 0.21)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SIMILAR_PASSAGES]]
+- [[DIGEST_WEEKLY]]
+- [[NAMED_ENTITIES]]
+- [[KEYWORD_INDEX]]
 

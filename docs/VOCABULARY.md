@@ -166,3 +166,14 @@ python scripts/improve_vocabulary.py
 - [PASSIVE_VOICE](PASSIVE_VOICE.md) (сходство 0.24)
 - [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) (сходство 0.24)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [KPI_HISTORY](KPI_HISTORY.md)
+

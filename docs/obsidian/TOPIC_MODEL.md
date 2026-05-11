@@ -217,7 +217,18 @@ python scripts/improve_topic_model.py
 ---
 
 **Похожие документы:**
-- [TOPIC_MODEL](../TOPIC_MODEL.md) (сходство 0.99)
-- [PRIORITIES](PRIORITIES.md) (сходство 0.27)
-- [SOURCE_MAP](SOURCE_MAP.md) (сходство 0.25)
+- [[TOPIC_MODEL]] (сходство 0.99)
+- [[PRIORITIES]] (сходство 0.26)
+- [[SOURCE_MAP]] (сходство 0.25)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CLUSTERS]]
+- [[SOURCE_MAP]]
+- [[LANGUAGE_STATS]]
+- [[PRIORITIES]]
 

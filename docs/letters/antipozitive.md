@@ -1,5 +1,10 @@
 # Письмо: Antipozitive / MemNet
 
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -94,4 +99,15 @@ python scripts/improve_antipozitive.py
 - [antipozitive](../obsidian/letters/antipozitive.md) (сходство 0.98)
 - [spbmolot](spbmolot.md) (сходство 0.28)
 - [spbmolot](../obsidian/letters/spbmolot.md) (сходство 0.27)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [spbmolot](spbmolot.md)
+- [vitalyoborin](vitalyoborin.md)
+- [anastasiyaw](anastasiyaw.md)
+- [kksudo](kksudo.md)
 

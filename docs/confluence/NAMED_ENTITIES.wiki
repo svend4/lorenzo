@@ -527,3 +527,24 @@ _Кто ссылается на этот документ (9):_
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
 
+
+
+
+----
+
+_Похожие документы:_
+* [NAMED_ENTITIES|obsidian/NAMED_ENTITIES.md] (сходство 0.99)
+* [BACKLINKS|obsidian/BACKLINKS.md] (сходство 0.26)
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md] (сходство 0.26)
+
+
+
+
+----
+
+_Смотрите также:_
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [CITATION_INDEX|CITATION_INDEX.md]
+* [KEYWORD_INDEX|KEYWORD_INDEX.md]
+* [COMPARE|COMPARE.md]
+

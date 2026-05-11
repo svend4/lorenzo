@@ -178,3 +178,14 @@ python scripts/improve_digest_auto.py
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.34)
 - [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.33)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+

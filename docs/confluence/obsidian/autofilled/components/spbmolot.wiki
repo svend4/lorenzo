@@ -120,3 +120,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "spbmolot"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[spbmolot]] (сходство 0.96)
+* [[kksudo]] (сходство 0.89)
+* [[kksudo]] (сходство 0.85)
+

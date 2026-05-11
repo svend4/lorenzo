@@ -175,3 +175,14 @@ _Карта сгенерирована автоматически: 2026-05-11_
 - [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.33)
 - [CROSS_SECTION](obsidian/CROSS_SECTION.md) (сходство 0.32)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [QA](svyazi-2-0/QA.md)
+

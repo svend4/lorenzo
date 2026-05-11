@@ -540,7 +540,18 @@ python scripts/improve_named_entities.py
 ---
 
 **Похожие документы:**
-- [NAMED_ENTITIES](../NAMED_ENTITIES.md) (сходство 0.99)
-- [BACKLINKS](BACKLINKS.md) (сходство 0.27)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.27)
+- [[NAMED_ENTITIES]] (сходство 0.99)
+- [[BACKLINKS]] (сходство 0.26)
+- [[DIGEST_WEEKLY]] (сходство 0.26)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_WEEKLY]]
+- [[CITATION_INDEX]]
+- [[KEYWORD_INDEX]]
+- [[COMPARE]]
 

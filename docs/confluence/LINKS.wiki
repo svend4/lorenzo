@@ -5,6 +5,19 @@
 
 h1. Индекс ссылок
 
+
+{quote}> Документ содержит практические рекомендации и лучшие практики.{quote}
+_Проекты:_ AgentFS, knowledge-space, Yodoca
+
+----
+
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 Всего уникальных URL: 371
 
 || URL || Найден в файлах ||
@@ -223,4 +236,25 @@ _Кто ссылается на этот документ (9):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * _...ещё 1_
+
+
+
+
+----
+
+_Похожие документы:_
+* [LINKS|obsidian/LINKS.md] (сходство 0.85)
+* [LINK_PREVIEW|LINK_PREVIEW.md] (сходство 0.48)
+* [BROKEN_LINKS|BROKEN_LINKS.md] (сходство 0.22)
+
+
+
+
+----
+
+_Смотрите также:_
+* [LINK_PREVIEW|LINK_PREVIEW.md]
+* [CITATION_INDEX|CITATION_INDEX.md]
+* [sonia-black|contacts/sonia-black.md]
+* [AUTHORS|AUTHORS.md]
 

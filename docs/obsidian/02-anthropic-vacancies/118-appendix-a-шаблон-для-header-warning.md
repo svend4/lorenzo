@@ -92,7 +92,7 @@ transitional state:
 ---
 
 **Похожие документы:**
-- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.93)
-- [12-appendix-a-header-warning](../nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.65)
-- [348-кому-ты-служишь-слоистая-модель](348-кому-ты-служишь-слоистая-модель.md) (сходство 0.62)
+- [[118-appendix-a-шаблон-для-header-warning]] (сходство 0.93)
+- [[12-appendix-a-header-warning]] (сходство 0.64)
+- [[12-appendix-a-header-warning]] (сходство 0.61)
 

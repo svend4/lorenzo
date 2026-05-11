@@ -1,16 +1,5 @@
 # Бейджи репозитория
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 Автоматически генерируются скриптом `improve_badges.py`.
 
 ## Текущие бейджи
@@ -35,30 +24,17 @@
 ![branch](branch.svg)
 ```
 
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (5):**
+**Кто ссылается на этот документ (8):**
+- [BADGES](../BADGES.md)
+- [DEPENDABOT](../DEPENDABOT.md)
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [README](../obsidian/badges/README.md) (сходство 0.96)
-- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.53)
-- [MCP_DASHBOARD](../obsidian/MCP_DASHBOARD.md) (сходство 0.51)
+- [QA](../anthropic-vacancies/QA.md)
 

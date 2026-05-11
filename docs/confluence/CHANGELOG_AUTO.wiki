@@ -330,3 +330,24 @@ _Кто ссылается на этот документ (7):_
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [CHANGELOG_AUTO|obsidian/CHANGELOG_AUTO.md] (сходство 1.00)
+* [CHANGELOG|CHANGELOG.md] (сходство 0.61)
+* [CHANGELOG|obsidian/CHANGELOG.md] (сходство 0.61)
+
+
+
+
+----
+
+_Смотрите также:_
+* [CHANGELOG|CHANGELOG.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [VERSION_DIFF|VERSION_DIFF.md]
+* [LANGUAGE_STATS|LANGUAGE_STATS.md]
+

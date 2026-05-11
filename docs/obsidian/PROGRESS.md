@@ -12,7 +12,7 @@ date: 2026-05-11
 **Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
 
 ---
-<!-- tags: memory, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
 
 
 
@@ -42,7 +42,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 166 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
+| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
@@ -50,7 +50,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 100.0/100 | 🟢 |
-| Качество доков (METRICS) | 100.0/100 | 🟢 |
+| Качество доков (METRICS) | 95.9/100 | 🟢 |
 | Go/No-Go (SCORING) | 100.0/100 | 🟢 |
 
 ## Следующий шаг
@@ -81,32 +81,13 @@ cat docs/contacts/anastasiyaw.md
 
 <!-- auto-end -->
 
-
-
-
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (11):**
-- [[07-mvp-planning]]
-- [[116-9-checklist-применения-методологии]]
-- [[CODE_BLOCKS]]
-- [[DECISIONS]]
-- [[INDEX]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [PROGRESS](../PROGRESS.md) (сходство 0.97)
-- [SCHEDULE](SCHEDULE.md) (сходство 0.19)
-- [TASKS_INDEX](TASKS_INDEX.md) (сходство 0.17)
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

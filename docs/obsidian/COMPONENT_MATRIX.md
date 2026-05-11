@@ -160,7 +160,7 @@ python scripts/improve_semantic_search.py --query "Матрица компоне
 ---
 
 **Похожие документы:**
-- [COMPONENT_MATRIX](../COMPONENT_MATRIX.md) (сходство 0.97)
-- [NETWORK](NETWORK.md) (сходство 0.22)
-- [MINDMAP](MINDMAP.md) (сходство 0.22)
+- [[COMPONENT_MATRIX]] (сходство 0.97)
+- [[spbmolot]] (сходство 0.21)
+- [[ONBOARDING]] (сходство 0.21)
 

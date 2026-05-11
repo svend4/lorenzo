@@ -5,10 +5,10 @@
 ## Содержание
 
 - [agent-spec.md](agent-spec.md) — ---
-- [contact-outreach.md](contact-outreach.md) — > [!NOTE]
+- [contact-outreach.md](contact-outreach.md) — <!-- summary: Шаблон для связи с автором X -->
 - [contradiction-record.md](contradiction-record.md) — ---
-- [decision-record.md](decision-record.md) — > [!NOTE]
-- [ensemble.md](ensemble.md) — > [!NOTE]
+- [decision-record.md](decision-record.md) — <!-- summary: Решение о X -->
+- [ensemble.md](ensemble.md) — <!-- summary: Ансамбль из X компонентов для Y задачи -->
 - [experiment-log.md](experiment-log.md) — ---
 - [faq-entry.md](faq-entry.md) — ---
 - [glossary-entry.md](glossary-entry.md) — ---
@@ -16,10 +16,10 @@
 - [legal-case.md](legal-case.md) — ---
 - [meeting-notes.md](meeting-notes.md) — ---
 - [mega-stack.md](mega-stack.md) — ---
-- [project-component.md](project-component.md) — > [!NOTE]
+- [project-component.md](project-component.md) — <!-- summary: Краткое описание в 1-2 предложениях -->
 - [protocol-spec.md](protocol-spec.md) — ---
 - [prototype-mvp.md](prototype-mvp.md) — ---
-- [research-note.md](research-note.md) — > [!NOTE]
+- [research-note.md](research-note.md) — <!-- summary: Краткий итог исследования -->
 - [retrospective.md](retrospective.md) — ---
 - [rfc.md](rfc.md) — ---
 - [risk-entry.md](risk-entry.md) — ---
@@ -36,7 +36,7 @@
 
 ---
 
-**Кто ссылается на этот документ (29):**
+**Кто ссылается на этот документ (24):**
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
@@ -44,16 +44,6 @@
 - [TABLES](../TABLES.md)
 - [research-summary](../autofilled/research-summary.md)
 - [agent-spec](agent-spec.md)
-- [contact-outreach](contact-outreach.md)
-- _...ещё 21_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [README](../obsidian/templates/README.md) (сходство 0.88)
-- [README](../technology-combinations/mega-stacks/README.md) (сходство 0.27)
-- [README](../habr-unique-projects/final-ensembles/README.md) (сходство 0.26)
+- [contradiction-record](contradiction-record.md)
+- _...ещё 16_
 

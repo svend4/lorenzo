@@ -117,7 +117,7 @@ python scripts/improve_semantic_search.py --query "research summary svyazi"
 ---
 
 **Похожие документы:**
-- [research-summary](../../autofilled/research-summary.md) (сходство 0.95)
-- [research-note](../templates/research-note.md) (сходство 0.48)
-- [research-note](../../templates/research-note.md) (сходство 0.44)
+- [[research-summary]] (сходство 0.95)
+- [[research-note]] (сходство 0.45)
+- [[research-note]] (сходство 0.44)
 

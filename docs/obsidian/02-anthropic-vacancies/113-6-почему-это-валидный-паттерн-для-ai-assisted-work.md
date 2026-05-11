@@ -94,7 +94,7 @@ _Документ индексирован в поисковой базе реп
 ---
 
 **Похожие документы:**
-- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) (сходство 0.95)
-- [07-why-valid-for-ai](../nautilus/review-methodology/07-why-valid-for-ai.md) (сходство 0.77)
-- [07-why-valid-for-ai](../../nautilus/review-methodology/07-why-valid-for-ai.md) (сходство 0.77)
+- [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work]] (сходство 0.95)
+- [[07-why-valid-for-ai]] (сходство 0.78)
+- [[07-why-valid-for-ai]] (сходство 0.77)
 

@@ -147,7 +147,18 @@ _Сгенерировано: 2026-05-11 04:43_
 ---
 
 **Похожие документы:**
-- [DIGEST_WEEKLY](../DIGEST_WEEKLY.md) (сходство 0.98)
-- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.35)
-- [DIGEST_AUTO](../DIGEST_AUTO.md) (сходство 0.33)
+- [[DIGEST_WEEKLY]] (сходство 0.98)
+- [[DIGEST_AUTO]] (сходство 0.34)
+- [[DIGEST_AUTO]] (сходство 0.33)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_AUTO]]
+- [[KPI_HISTORY]]
+- [[PASSIVE_VOICE]]
+- [[CROSS_SECTION]]
 

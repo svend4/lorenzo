@@ -1,10 +1,5 @@
 # ADR: [Название решения]
 
-> [!NOTE]
-> Раздел `decision-record` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Решение о X -->
 <!-- tags: архитектура, решение -->
 
@@ -39,23 +34,6 @@
 ---
 _Дата: 2026-05-11_
 
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_decision_record.py
-```
-
-## Смотрите также
-- [Главная](../README.md)
-- [Метрики](../METRICS.md)
-- [Здоровье](../HEALTH.md)
-- [Глоссарий](../GLOSSARY.md)
-- [Сущности](../ENTITIES.md)
-
 <!-- backlinks -->
 
 ---
@@ -70,14 +48,4 @@ python scripts/improve_decision_record.py
 - [contradiction-record](contradiction-record.md)
 - [experiment-log](experiment-log.md)
 - _...ещё 6_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [decision-record](../obsidian/templates/decision-record.md) (сходство 0.96)
-- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.44)
-- [MCP_DASHBOARD](../obsidian/MCP_DASHBOARD.md) (сходство 0.42)
 

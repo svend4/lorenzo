@@ -890,7 +890,7 @@ python scripts/improve_qa.py --dry-run
 ---
 
 **Похожие документы:**
-- [QA](../QA.md) (сходство 0.99)
-- [QA](02-anthropic-vacancies/QA.md) (сходство 0.81)
-- [QA](../02-anthropic-vacancies/QA.md) (сходство 0.81)
+- [[QA]] (сходство 0.99)
+- [[QA]] (сходство 0.82)
+- [[QA]] (сходство 0.81)
 

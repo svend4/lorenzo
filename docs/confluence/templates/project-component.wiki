@@ -5,11 +5,6 @@
 
 h1. [Название компонента]
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{project-component}} формируется автоматически из данных репозитория.{quote}
-
-
-
 
 
 
@@ -42,33 +37,3 @@ h2. Контакты
 
 ----
 _Создано: 2026-05-11_
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_project_component.py
-{code}
-
-h2. Смотрите также
-* [Главная|../README.md]
-* [Метрики|../METRICS.md]
-* [Здоровье|../HEALTH.md]
-* [Глоссарий|../GLOSSARY.md]
-* [Сущности|../ENTITIES.md]
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [REGISTRY|../REGISTRY.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-* [research-summary|../autofilled/research-summary.md]
-* [README|README.md]
-* [agent-spec|agent-spec.md]
-* _...ещё 2_
-

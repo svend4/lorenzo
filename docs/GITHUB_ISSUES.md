@@ -786,3 +786,14 @@ python scripts/improve_github_issues.py
 - [10-checklist](nautilus/review-methodology/10-checklist.md) (сходство 0.22)
 - [10-checklist](obsidian/nautilus/review-methodology/10-checklist.md) (сходство 0.21)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [10-checklist](nautilus/review-methodology/10-checklist.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

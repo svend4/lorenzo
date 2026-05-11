@@ -1,4 +1,7 @@
 # Lorenzo — Knowledge OS для Svyazi 2.0
+<!-- badges -->
+![docs](docs.svg) ![words](words.svg) ![scripts](scripts.svg) ![health](health.svg) ![go/no-go](scoring.svg) ![license](license.svg) ![branch](branch.svg) 
+
 
 > Локальная community intelligence platform: поиск, хранение и коллаборация знаний.
 > Любой AI-агент подключается по OpenAI-протоколу.
@@ -146,7 +149,7 @@ pytest tests/ --ignore=tests/test_ann_index.py
 | 1 — Retrieval Loop | ✅ | BM25+TF-IDF+ANN, Review Queue UI |
 | 2 — Consolidation | ✅ | CI daily, SENTINEL, orphan rate 0% |
 | 3 — Collaboration Finder | ✅ | 9 проектных файлов, письма авторам |
-| 4 — Gateway & Enrichment | ✅ | OpenAI API, 133 теста, Hit Rate@10=1.00 |
+| 4 — Gateway & Enrichment | ✅ | OpenAI API, 208 тестов, Hit Rate@10=1.00 |
 
 ## Требования
 

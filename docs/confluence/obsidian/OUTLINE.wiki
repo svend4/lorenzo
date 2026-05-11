@@ -16362,3 +16362,24 @@ python scripts/improve_outline.py --dry-run
 # Вариант 3
 python scripts/improve_outline.py --dry-run
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[OUTLINE]] (сходство 1.00)
+* [[EMPTY_SECTIONS]] (сходство 0.48)
+* [[EMPTY_SECTIONS]] (сходство 0.48)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[EMPTY_SECTIONS]]
+* [[PARAGRAPH_QUALITY]]
+* [[SEARCH]]
+* [[TABLES]]
+

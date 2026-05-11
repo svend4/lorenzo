@@ -112,3 +112,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "kksudo"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [kksudo|../../obsidian/autofilled/components/kksudo.md] (сходство 0.96)
+* [spbmolot|spbmolot.md] (сходство 0.89)
+* [spbmolot|../../obsidian/autofilled/components/spbmolot.md] (сходство 0.85)
+

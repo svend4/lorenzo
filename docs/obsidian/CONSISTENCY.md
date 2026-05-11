@@ -316,7 +316,7 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ---
 
 **Похожие документы:**
-- [CONSISTENCY](../CONSISTENCY.md) (сходство 0.97)
-- [MISSING](MISSING.md) (сходство 0.35)
-- [MISSING](../MISSING.md) (сходство 0.33)
+- [[CONSISTENCY]] (сходство 0.97)
+- [[MISSING]] (сходство 0.33)
+- [[MISSING]] (сходство 0.33)
 

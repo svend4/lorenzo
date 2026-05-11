@@ -174,3 +174,19 @@ python scripts/improve_task_codegen.py
 # Реестр артефактов (этот файл)
 python scripts/improve_registry.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (23):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [agent-spec](templates/agent-spec.md)
+- [contradiction-record](templates/contradiction-record.md)
+- _...ещё 15_
+

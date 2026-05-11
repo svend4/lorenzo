@@ -135,3 +135,13 @@ h2. Использование
 # Запуск
 python scripts/improve_qa.py
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [QA|../obsidian/02-anthropic-vacancies/QA.md] (сходство 0.99)
+* [QA|../QA.md] (сходство 0.82)
+* [QA|../obsidian/QA.md] (сходство 0.81)
+

@@ -25,7 +25,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 166 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
+| DIGEST.md | ✅ 4 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
@@ -64,11 +64,6 @@ cat docs/contacts/anastasiyaw.md
 
 <!-- auto-end -->
 
-
-
-
-
-
 <!-- backlinks -->
 
 ---
@@ -83,14 +78,4 @@ cat docs/contacts/anastasiyaw.md
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - _...ещё 3_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [PROGRESS](obsidian/PROGRESS.md) (сходство 0.97)
-- [SCHEDULE](SCHEDULE.md) (сходство 0.17)
-- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.17)
 

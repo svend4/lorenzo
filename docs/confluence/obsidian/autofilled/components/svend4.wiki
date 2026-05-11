@@ -113,3 +113,13 @@ h2. Использование
 {code:language=bash}
 python scripts/improve_semantic_search.py --query "svend4"
 {code}
+
+
+
+----
+
+_Похожие документы:_
+* [[svyazi]] (сходство 1.00)
+* [[sgb]] (сходство 1.00)
+* [[nautilus]] (сходство 1.00)
+

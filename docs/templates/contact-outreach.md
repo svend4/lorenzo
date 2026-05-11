@@ -1,10 +1,5 @@
 # Контакт: [Имя / Проект]
 
-> [!NOTE]
-> Раздел `contact-outreach` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary: Шаблон для связи с автором X -->
 <!-- tags: контакты, команда -->
 
@@ -59,14 +54,4 @@ _Создано: 2026-05-11_
 - [research-summary](../autofilled/research-summary.md)
 - [README](README.md)
 - [meeting-notes](meeting-notes.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [contact-outreach](../obsidian/templates/contact-outreach.md) (сходство 0.94)
-- [tagir-analyzes](../contacts/tagir-analyzes.md) (сходство 0.40)
-- [tagir-analyzes](../obsidian/contacts/tagir-analyzes.md) (сходство 0.40)
 

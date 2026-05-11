@@ -169,3 +169,14 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 - [INDEX](INDEX.md) (сходство 0.24)
 - [INDEX](obsidian/INDEX.md) (сходство 0.22)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [INDEX](INDEX.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

@@ -5,6 +5,18 @@
 
 h1. Авторы и коллаборации
 
+
+{quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+----
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 Авторы проектов, упоминаемые в исследованиях.
 
 || Автор || Упоминается в файлах ||
@@ -46,4 +58,25 @@ _Кто ссылается на этот документ (7):_
 * [README|README.md]
 * [SEARCH|SEARCH.md]
 * [TABLES|TABLES.md]
+
+
+
+
+----
+
+_Похожие документы:_
+* [AUTHORS|obsidian/AUTHORS.md] (сходство 0.72)
+* [README|contacts/README.md] (сходство 0.50)
+* [README|obsidian/contacts/README.md] (сходство 0.46)
+
+
+
+
+----
+
+_Смотрите также:_
+* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
+* [authors-by-name|glossary/authors-by-name.md]
+* [.md|autofilled/components/.md]
+* [cowork|autofilled/components/cowork.md]
 

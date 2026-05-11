@@ -781,3 +781,24 @@ _Кто ссылается на этот документ (8):_
 * [TABLES|TABLES.md]
 * [10-checklist|nautilus/review-methodology/10-checklist.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [GITHUB_ISSUES|obsidian/GITHUB_ISSUES.md] (сходство 0.99)
+* [10-checklist|nautilus/review-methodology/10-checklist.md] (сходство 0.22)
+* [10-checklist|obsidian/nautilus/review-methodology/10-checklist.md] (сходство 0.21)
+
+
+
+
+----
+
+_Смотрите также:_
+* [10-checklist|nautilus/review-methodology/10-checklist.md]
+* [116-9-checklist-применения-методологии|02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
+* [CROSS_SECTION|CROSS_SECTION.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+

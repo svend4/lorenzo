@@ -537,3 +537,14 @@ python scripts/improve_named_entities.py
 - [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.26)
 - [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.26)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [COMPARE](COMPARE.md)
+

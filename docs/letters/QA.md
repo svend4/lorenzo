@@ -84,3 +84,14 @@ python scripts/improve_qa.py
 - [QA](../processing-guide/QA.md) (сходство 0.54)
 - [QA](../obsidian/processing-guide/QA.md) (сходство 0.53)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+

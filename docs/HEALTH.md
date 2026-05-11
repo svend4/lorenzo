@@ -74,3 +74,29 @@ _Обновлено: 2026-05-11_
 - [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VALIDATION](VALIDATION.md)
+- [METRICS](METRICS.md)
+- [REPORT](REPORT.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (36):**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- _...ещё 28_
+

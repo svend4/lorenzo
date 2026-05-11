@@ -219,3 +219,24 @@ _Кто ссылается на этот документ (12):_
 * [[READABILITY]]
 * _...ещё 4_
 
+
+
+
+----
+
+_Похожие документы:_
+* [[KEYWORD_INDEX]] (сходство 0.98)
+* [[CONCEPT_GRAPH]] (сходство 0.38)
+* [[CONCEPT_GRAPH]] (сходство 0.37)
+
+
+
+
+----
+
+_Смотрите также:_
+* [[CONCEPT_GRAPH]]
+* [[CROSS_SECTION]]
+* [[08-personal-multi-agent-hub]]
+* [[10-query-result]]
+

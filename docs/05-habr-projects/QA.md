@@ -7,7 +7,7 @@
 
 <!-- summary -->
 > _Автоматически сгенерировано по 12 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory, MemNet, agent-memory-mcp
+**Проекты:** CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space], Yodoca[^yodoca], NGT[^ngt] Memory, MemNet, agent-memory-mcp
 
 ---
 <!-- tags: memory, rag, knowledge, architecture, roadmap, collaboration -->
@@ -94,3 +94,18 @@ python scripts/improve_qa.py
 - [QA](../lorenzo-agent/QA.md) (сходство 0.66)
 - [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.66)
 
+
+
+<!-- footnotes-added -->
+
+---
+
+[^cardindex]: OSS-проект: индекс знаний на карточках (MIT)
+
+[^agentfs]: OSS-проект: файловая система для AI-агентов (MIT)
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

@@ -1,5 +1,10 @@
 # Письмо: kksudo / AgentFS
 
+> [!IMPORTANT]
+> Ключевой документ для понимания архитектуры. Рекомендуется прочитать в первую очередь.
+
+<!-- alert-added -->
+
 <!-- toc-auto -->
 ## Contents
 
@@ -97,4 +102,15 @@ python scripts/improve_kksudo.py
 - [kksudo](../obsidian/letters/kksudo.md) (сходство 0.99)
 - [vitalysemenov](vitalysemenov.md) (сходство 0.25)
 - [vitalysemenov](../obsidian/letters/vitalysemenov.md) (сходство 0.24)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [vitalysemenov](vitalysemenov.md)
+- [spbmolot](spbmolot.md)
+- [anastasiyaw](anastasiyaw.md)
+- [nlaik](nlaik.md)
 

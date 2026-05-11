@@ -1,5 +1,30 @@
 # Карта плотности тем
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, AI Factory, Rufler, Yodoca, SENTINEL
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Наиболее раскрытые темы](#наиболее-раскрытые-темы)
+- [Слабо раскрытые темы (0)](#слабо-раскрытые-темы-0)
+- [Где сосредоточена каждая тема](#где-сосредоточена-каждая-тема)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Количество упоминаний каждой темы в каждом разделе.
 
 | Тема | 01-svyazi | 02-vacancies | 03-tech | 04-collab | 05-habr | root | Итого |
@@ -68,3 +93,30 @@ _Все темы достаточно раскрыты_
 | Комбинации | `root` | 96% |
 | Habr | `root` | 93% |
 | Контакты | `root` | 92% |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEATMAP](HEATMAP.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [SCORING](SCORING.md)
+- [MISSING](MISSING.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [HEATMAP](HEATMAP.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

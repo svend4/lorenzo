@@ -108,3 +108,13 @@ _Кто ссылается на этот документ (6):_
 * [README|README.md]
 * [04-structuring|../processing-guide/04-structuring.md]
 
+
+
+
+----
+
+_Похожие документы:_
+* [research-summary|../obsidian/autofilled/research-summary.md] (сходство 0.95)
+* [research-note|../obsidian/templates/research-note.md] (сходство 0.45)
+* [research-note|../templates/research-note.md] (сходство 0.44)
+

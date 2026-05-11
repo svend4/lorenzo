@@ -148,3 +148,24 @@ _Кто ссылается на этот документ (12):_
 * [README|README.md]
 * _...ещё 4_
 
+
+
+
+----
+
+_Похожие документы:_
+* [TECH_RADAR|obsidian/TECH_RADAR.md] (сходство 0.99)
+* [FOOTNOTES|FOOTNOTES.md] (сходство 0.22)
+* [ONBOARDING|ONBOARDING.md] (сходство 0.21)
+
+
+
+
+----
+
+_Смотрите также:_
+* [ONBOARDING|ONBOARDING.md]
+* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
+* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
+* [KEYWORD_INDEX|KEYWORD_INDEX.md]
+
