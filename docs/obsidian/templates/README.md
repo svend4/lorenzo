@@ -32,14 +32,14 @@
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (25):**
 - [READABILITY](../../READABILITY.md)
 - [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
+- [agent-spec](agent-spec.md)
 - [contact-outreach](contact-outreach.md)
+- [contradiction-record](contradiction-record.md)
 - [decision-record](decision-record.md)
-- [ensemble](ensemble.md)
-- [project-component](project-component.md)
-- _...ещё 1_
+- _...ещё 17_
 

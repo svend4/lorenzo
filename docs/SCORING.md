@@ -3,14 +3,14 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Документ `SCORING` создаётся автоматически.
+> Раздел `SCORING` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: scoring, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `SCORING`.
+> `SCORING` — раздел документации проекта Lorenzo.
+
+<!-- tags: security, architecture, roadmap, collaboration -->
 
 
 _Дата: 2026-05-11_
@@ -71,16 +71,25 @@ _Дата: 2026-05-11_
 ## ✅ Проект готов к запуску MVP!
 
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (26):**
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [DENSITY](DENSITY.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [GITHUB_ISSUES](GITHUB_ISSUES.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [HEALTH](HEALTH.md)
+- [HEATMAP](HEATMAP.md)
+- [INDEX](INDEX.md)
+- _...ещё 18_
+
+
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_scoring.py
 ```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Дашборд](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)

@@ -3,21 +3,24 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Документ `COMPARE` создаётся автоматически.
+> Раздел `COMPARE` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: compare, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `COMPARE`.
+> **Файлов было:** 1464  **стало:** 2451
+
+---
+<!-- tags: memory, architecture, roadmap, anthropic, collaboration -->
 
 
-**Файлов было:** 1460  **стало:** 2451  
-**Слов было:** 1,634,718  **стало:** 2,691,304  **Δ:** +1,056,586
 
 
-## Новые файлы (991)
+**Файлов было:** 1464  **стало:** 2451  
+**Слов было:** 1,929,394  **стало:** 2,695,471  **Δ:** +766,077
+
+
+## Новые файлы (987)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19240 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3329 слов)
@@ -50,7 +53,7 @@
 - `docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md` (304 слов)
 - `docs/02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md` (307 слов)
 - `docs/02-anthropic-vacancies/189-аннотация.md` (408 слов)
-- `docs/02-anthropic-vacancies/190-содержание.md` (321 слов)
+- `docs/02-anthropic-vacancies/190-содержание.md` (324 слов)
 - `docs/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md` (856 слов)
 - `docs/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (1033 слов)
 - `docs/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md` (821 слов)
@@ -59,56 +62,63 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (653 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (551 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (645 слов)
-_...и ещё 951_
+_...и ещё 947_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (1125) — топ по Δ слов
+## Изменившиеся файлы (227) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `TABLES.md` | 119650 | 216501 | +96851 |
-| `TABLES.md` | 216471 | 300544 | +84073 |
-| `QUESTIONS.md` | 25666 | 1905 | -23761 |
-| `EMPTY_SECTIONS.md` | 16308 | 36094 | +19786 |
-| `VERSION_DIFF.md` | 5561 | 16894 | +11333 |
-| `READABILITY.md` | 26322 | 37071 | +10749 |
-| `READING_TIME.md` | 18724 | 26602 | +7878 |
-| `OUTLINE.md` | 39384 | 46816 | +7432 |
-| `READING_TIME.md` | 12452 | 18770 | +6318 |
-| `VERSION_DIFF.md` | 869 | 5613 | +4744 |
-| `OUTLINE.md` | 35021 | 39411 | +4390 |
-| `HEADING_AUDIT.md` | 9467 | 13531 | +4064 |
-| `SOURCE_MAP.md` | 9072 | 12419 | +3347 |
-| `SOURCE_MAP.md` | 6134 | 9099 | +2965 |
-| `QUESTIONS.md` | 23070 | 25686 | +2616 |
-| `TIMELINE.md` | 2188 | 4771 | +2583 |
-| `SITEMAP.md` | 7163 | 8502 | +1339 |
-| `GITHUB_ISSUES.md` | 1721 | 3017 | +1296 |
-| `CLUSTERS.md` | 1408 | 2675 | +1267 |
-| `QA.md` | 3227 | 1973 | -1254 |
-| `ACTION_ITEMS.md` | 8127 | 9331 | +1204 |
-| `PARAGRAPH_QUALITY.md` | 16078 | 17225 | +1147 |
-| `SITEMAP.md` | 8491 | 9437 | +946 |
-| `CONCEPTS.md` | 13271 | 14215 | +944 |
-| `CHANGELOG.md` | 1560 | 2500 | +940 |
-| `COVERAGE.md` | 1048 | 259 | -789 |
-| `PARAGRAPH_QUALITY.md` | 15333 | 16104 | +771 |
-| `CHANGELOG.md` | 2473 | 3203 | +730 |
-| `QA.md` | 1035 | 323 | -712 |
-| `GITHUB_ISSUES.md` | 2988 | 3679 | +691 |
+| `VERSION_DIFF.md` | 16832 | 23683 | +6851 |
+| `TABLES.md` | 295504 | 300551 | +5047 |
+| `QA.md` | 2476 | 1873 | -603 |
+| `EMPTY_SECTIONS.md` | 30544 | 31110 | +566 |
+| `CONTRADICTIONS.md` | 1151 | 1644 | +493 |
+| `QA.md` | 362 | 47 | -315 |
+| `QA.md` | 352 | 39 | -313 |
+| `OUTLINE.md` | 39935 | 40224 | +289 |
+| `QA.md` | 357 | 71 | -286 |
+| `MCP_DASHBOARD.md` | 363 | 110 | -253 |
+| `README.md` | 349 | 101 | -248 |
+| `README.md` | 345 | 101 | -244 |
+| `README.md` | 345 | 101 | -244 |
+| `README.md` | 345 | 101 | -244 |
+| `README.md` | 345 | 101 | -244 |
+| `README.md` | 345 | 101 | -244 |
+| `README.md` | 345 | 101 | -244 |
+| `QA.md` | 346 | 107 | -239 |
+| `ALERTS.md` | 357 | 118 | -239 |
+| `SKILL_DASHBOARD.md` | 363 | 125 | -238 |
+| `README.md` | 348 | 112 | -236 |
+| `README.md` | 343 | 107 | -236 |
+| `README.md` | 345 | 109 | -236 |
+| `README.md` | 345 | 111 | -234 |
+| `README.md` | 343 | 109 | -234 |
+| `README.md` | 346 | 113 | -233 |
+| `BADGES.md` | 350 | 119 | -231 |
+| `README.md` | 346 | 115 | -231 |
+| `README.md` | 352 | 121 | -231 |
+| `README.md` | 356 | 127 | -229 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
 
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_compare.py
 ```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Дашборд](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)

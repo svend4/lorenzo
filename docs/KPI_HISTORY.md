@@ -54,3 +54,19 @@ _Запускать регулярно для получения трендов.
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SEE_ALSO](SEE_ALSO.md)
+- [TABLES](TABLES.md)
+- _...ещё 2_
+

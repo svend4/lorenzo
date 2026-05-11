@@ -3,7 +3,7 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `DIGEST` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
 
@@ -21,16 +21,16 @@ _Обновлено: 2026-05-11_
 
 ## Последний коммит
 
-**2026-05-10** — `447e84d3`
+**2026-05-11** — `c02dda87`
 > fix: restore 100.0/100 quality score and 0 broken links after pipeline run
 
-Изменено файлов: **1352** (+154831 / -87041 строк)
+Изменено файлов: **254** (+22966 / -22069 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **1792**
-- Добавлено строк: **+167084**
-- Удалено строк: **-88128**
+- Изменено файлов: **1730**
+- Добавлено строк: **+166552**
+- Удалено строк: **-89621**
 - Новых md-файлов: **4**
 
 ## Новые документы
@@ -51,6 +51,7 @@ _Обновлено: 2026-05-11_
 
 | Дата | Hash | Описание |
 |------|------|---------|
+| 2026-05-11 | `c02dda87` | fix: restore 100.0/100 quality score and 0 broken links after pipeline |
 | 2026-05-10 | `447e84d3` | fix: restore 100.0/100 quality score and 0 broken links after pipeline |
 | 2026-05-10 | `cf9ebcce` | feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link |
 | 2026-05-10 | `82d3705e` | feat: improve doc quality score from 84.6 → 86.5/100 |
@@ -65,7 +66,6 @@ _Обновлено: 2026-05-11_
 | 2026-05-10 | `be5892e3` | fix: health 91→94, fix MISSING.md emoji counting in improve_health.py |
 | 2026-05-10 | `38e7dec4` | fix: reduce broken links 512→209, health 89→91 |
 | 2026-05-10 | `f720e48b` | fix: reduce broken links 779→512, health 87→89 |
-| 2026-05-10 | `32d55e7b` | fix: generate relative links in COLLAB_SUGGESTIONS.md |
 
 ## Текущее состояние репозитория
 
@@ -92,17 +92,6 @@ _Обновлено: 2026-05-11_
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_digest.py
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [READING_LIST](READING_LIST.md)
-- [STALENESS](STALENESS.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-

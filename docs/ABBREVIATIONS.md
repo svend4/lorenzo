@@ -175,3 +175,18 @@ python scripts/improve_abbreviations.py
 - [TABLES](TABLES.md)
 - [03-component-catalog](01-svyazi/03-component-catalog.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [03-карта-найденных-проектов-и-паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -83,3 +83,18 @@ python scripts/improve_report.py      # этот отчёт
 ---
 
 _Отчёт сгенерирован автоматически · 2026-05-11_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

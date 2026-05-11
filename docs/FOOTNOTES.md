@@ -64,3 +64,18 @@
 - [07-выводы](04-ai-collaborations/07-выводы.md)
 - [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

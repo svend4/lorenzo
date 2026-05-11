@@ -4,11 +4,15 @@
 > Раздел `QA` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: qa, docs -->
-
 
 <!-- summary -->
-> `QA` — раздел документации проекта Lorenzo.
+> _Автоматически сгенерировано по 55 файлам раздела._
+**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, NGT Memory
+
+---
+<!-- tags: memory, rag, knowledge, architecture, roadmap, anthropic, collaboration -->
+
+
 
 
 _Автоматически сгенерировано по 55 файлам раздела._
@@ -81,16 +85,22 @@ _Не найдено в этом файле._
 
 Упоминаются: **episod**, **семантич**, **fact**, **proposal**
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+
+
 
 ## Использование
 ```bash
 # Запуск
 python scripts/improve_qa.py
 ```
-
-## Смотрите также
-- [Главная](../README.md)
-- [Метрики](../METRICS.md)
-- [Здоровье](../HEALTH.md)
-- [Глоссарий](../GLOSSARY.md)
-- [Сущности](../ENTITIES.md)

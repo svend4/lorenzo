@@ -1,4 +1,6 @@
 # Q&A: obsidian
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
 
 _Автоматически сгенерировано по 1116 файлам раздела._
 
@@ -24,7 +26,7 @@ _Автоматически сгенерировано по 1116 файлам р
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -52,7 +54,7 @@ _Автоматически сгенерировано по 1116 файлам р
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -93,3 +95,14 @@ _Автоматически сгенерировано по 1116 файлам р
 ## Как работает spec-driven подход в AI Factory?
 
 Упоминаются: **spec**, **patch**, **skill**, **self-learning**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

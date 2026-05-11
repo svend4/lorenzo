@@ -1,5 +1,36 @@
 # Тематические пробелы (Content Gaps)
 
+<!-- toc -->
+## Содержание
+
+- [Рекомендуется создать документы](#рекомендуется-создать-документы)
+- [Детали по топ-20 пробелам](#детали-по-топ-20-пробелам)
+  - [`MHTML` (1018 файлов)](#mhtml-1018-файлов)
+  - [`NPP` (153 файлов)](#npp-153-файлов)
+  - [`GDPR` (123 файлов)](#gdpr-123-файлов)
+  - [`MUST` (112 файлов)](#must-112-файлов)
+  - [`BSL` (89 файлов)](#bsl-89-файлов)
+  - [`SHOULD` (80 файлов)](#should-80-файлов)
+  - [`IDF` (78 файлов)](#idf-78-файлов)
+  - [`PDF` (72 файлов)](#pdf-72-файлов)
+  - [`XII` (63 файлов)](#xii-63-файлов)
+  - [`PII` (61 файлов)](#pii-61-файлов)
+  - [`BSG` (60 файлов)](#bsg-60-файлов)
+  - [`URL` (58 файлов)](#url-58-файлов)
+  - [`AIF` (57 файлов)](#aif-57-файлов)
+  - [`LinkedIn` (54 файлов)](#linkedin-54-файлов)
+  - [`KSV` (54 файлов)](#ksv-54-файлов)
+  - [`HEALTH` (53 файлов)](#health-53-файлов)
+  - [`MAY` (52 файлов)](#may-52-файлов)
+  - [`RSS` (52 файлов)](#rss-52-файлов)
+  - [`HMP` (50 файлов)](#hmp-50-файлов)
+  - [`YiJing` (48 файлов)](#yijing-48-файлов)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 <!-- tags: content-gaps, docs, analysis, svyazi -->
@@ -340,4 +371,17 @@ python scripts/improve_content_gaps.py
 - [READING_ORDER](READING_ORDER.md)
 - [CODE_BLOCKS](CODE_BLOCKS.md)
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

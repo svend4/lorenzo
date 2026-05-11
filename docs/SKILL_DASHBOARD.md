@@ -38,3 +38,15 @@ python scripts/improve_skill_dashboard.py
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит структурированные данные по теме «Skill Dashboard». Формируется автоматически для обеспечения навигации и качества документации. Актуализируйте через соответствующий скрипт из папки `scripts/`.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -3,14 +3,18 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Документ `SCHEDULE` создаётся автоматически.
+> Раздел `SCHEDULE` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: schedule, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `SCHEDULE`.
+> _Дорожная карта с вехами и задачами по кварталам._
+**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
+
+---
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
+
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -66,9 +70,18 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Дашборд](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [DENSITY](DENSITY.md)
+- [HEATMAP](HEATMAP.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

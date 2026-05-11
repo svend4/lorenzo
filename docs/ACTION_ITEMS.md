@@ -1,19 +1,19 @@
 # Action Items, риски и решения
 
-<!-- tags: action-items, docs, analysis, svyazi -->
+> [!NOTE]
+> Раздел `ACTION_ITEMS` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: action-items, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `ACTION_ITEMS`. Содержит аналитику и структурированные данные по разделу.
+> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3465
+**Всего элементов:** 3478
 
 
 ## ➡️ Следующие шаги (361)
@@ -182,7 +182,7 @@
   _→ EMPTY_SECTIONS_
 - после извлечения (14 сл., строка 135)  
   _→ EMPTY_SECTIONS_
-- (13 сл., строка 39)  
+- (13 сл., строка 50)  
   _→ EMPTY_SECTIONS_
 - - Приоритет 1: kksudo (AgentFS, 13 упоминаний)  
   _→ OUTLINE_
@@ -226,6 +226,8 @@
   _→ 03-the-spectrum_
 - ваш repo имеет defensible meta-layer: для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режим  
   _→ 16-glossary_
+- (13 сл., строка 39)  
+  _→ EMPTY_SECTIONS_
 - набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]  
   _→ QUESTIONS_
 - после извлечения](#следующий-шаг-после-извлечения)  
@@ -249,9 +251,9 @@
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(246 дублей скрыто)_
+_(245 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1063)
+## ✅ Решения и рекомендации (1066)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -485,7 +487,7 @@ _(246 дублей скрыто)_
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- упростить](#самые-сложные-тексты-2411-рекомендуется-упростить)  
+- упростить](#самые-сложные-тексты-2412-рекомендуется-упростить)  
   _→ READABILITY_
 - Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |  
   _→ READING_ORDER_
@@ -507,12 +509,16 @@ _(246 дублей скрыто)_
   _→ TABLES_
 - | Суд | Дата | Релевантность |  
   _→ TABLES_
+- 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `04-ai-collaborations/00-intro.md` |  
+  _→ TABLES_
+- 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |  
+  _→ TABLES_
 - упростить | Самые сложные тексты (1709) — рекомендуется упростить |  
   _→ TABLES_
-- 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
+- 2019 года, после изменений 2024 года примен | `TABLES.md` |  
   _→ TIMELINE_
-- 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |  
-  _→ TIMELINE_
+- упростить +1 | Самые сложные тексты (1709) — рекомендуется упростить |  
+  _→ VERSION_DIFF_
 - две уровневая"  
   _→ 02-two-tier-publication_
 - позиционировать как research database, не как legal service. «Вот как типичный case структурируется» — OK. «Вот что вам лично делать» — не OK без юрид  
@@ -612,9 +618,9 @@ _(246 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(884 дублей скрыто)_
+_(885 дублей скрыто)_
 
-## ⚠️ Риски (1303)
+## ⚠️ Риски (1313)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1074,6 +1080,10 @@ _(884 дублей скрыто)_
   _→ CLUSTERS_
 - mitigations**  
   _→ CONCEPTS_
+- и allowlist для MCP ^rufler: OSS-проект: оркестратор AI-агентов ^svyazi: Главный проект: экосистема AI-компонен  
+  _→ CONTRADICTIONS_
+- и allowlist для MCP ^svyazi: Главный проект: экосистема AI-компонентов --- Кто ссылается на этот документ (3) -  
+  _→ CONTRADICTIONS_
 - | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 - mitigation для каждой. Полезно для grant  
@@ -1082,7 +1092,7 @@ _(884 дублей скрыто)_
   _→ DECISIONS_
 - склеивать в один релиз <!-- toc-auto --> ## Contents -  
   _→ DECISIONS_
-- | `root` | 89% |  
+- | `root` | 90% |  
   _→ DENSITY_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
@@ -1090,7 +1100,7 @@ _(884 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - агентов? (5 сл., строка 5)  
   _→ EMPTY_SECTIONS_
-- и allowlist для MCP | 1 |  
+- и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
 - | ██ 5.8 | 0.5 | 0.3 | ▓▓ 3.9 | 0.3 |  
   _→ HEATMAP_
@@ -1162,7 +1172,7 @@ _(884 дублей скрыто)_
   _→ SCRIPT_EVAL_REPORT_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
-- [Название]](templates/risk-entry.md) | 343 |  
+- [Название]](templates/risk-entry.md) | 353 |  
   _→ SITEMAP_
 - и приватность](01-svyazi/06-security-privacy.md) | 937 |  
   _→ SITEMAP_
@@ -1186,13 +1196,21 @@ _(884 дублей скрыто)_
   _→ TABLES_
 - идентифицирован | [Имя] |  
   _→ TABLES_
-- | `root` | 86% |  
+- [Название]](templates/risk-entry.md) | 343 |  
   _→ TABLES_
-- и allowlist для MCP | 2 |  
+- и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `02-anthropic-vacancies/150-appendix-c-version-histor  
+  _→ TABLES_
+- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `01-svyazi/07-mvp-planning.md` |  
+  _→ TABLES_
+- | `root` | 86% |  
   _→ TABLES_
 - (3) +6 | Mvp (11), Архитектура (44), Безопасность (2) +6 |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
+  _→ TABLES_
+- | `root` | 89% |  
+  _→ TABLES_
+- и allowlist для MCP | 1 |  
   _→ TABLES_
 - и приватность, Использование +3 | — |  
   _→ TABLES_
@@ -1206,10 +1224,10 @@ _(884 дублей скрыто)_
   _→ TABLES_
 - склеивать]] | 343 |  
   _→ TABLES_
-- и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
-  _→ TIMELINE_
-- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
-  _→ TIMELINE_
+- (4) +6 | Mvp (10), Архитектура (61), Безопасность (3) +5 |  
+  _→ VERSION_DIFF_
+- и приватность, Использование +4 | — |  
+  _→ VERSION_DIFF_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 - склеивать в один релиз"  
@@ -1305,7 +1323,7 @@ _(884 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(959 дублей скрыто)_
+_(963 дублей скрыто)_
 
 ## 🚫 Ограничения (371)
 
@@ -1441,7 +1459,7 @@ _(959 дублей скрыто)_
   _→ DECISIONS_
 - (6 сл., строка 25)  
   _→ EMPTY_SECTIONS_
-- и открытые вопросы (0 сл., строка 37)  
+- и открытые вопросы (0 сл., строка 52)  
   _→ EMPTY_SECTIONS_
 - и открытые вопросы (0 сл., строка 29)  
   _→ EMPTY_SECTIONS_
@@ -1455,9 +1473,9 @@ _(959 дублей скрыто)_
   _→ OUTLINE_
 - и лицензии](01-svyazi/14-limitations.md)  
   _→ OUTLINE_
-- и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
-  _→ OUTLINE_
 - текущей версии (0.1.0-draft)(#ограничения-текущей-версии-010-draft)  
+  _→ OUTLINE_
+- и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
   _→ OUTLINE_
 - - MVP-шаги  
   _→ OUTLINE_
@@ -1473,7 +1491,7 @@ _(959 дублей скрыто)_
   _→ SITEMAP_
 - и лицензии](obsidian/01-svyazi/14-limitations.md) | 761 |  
   _→ SITEMAP_
-- и открытые вопросы](obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 507 |  
+- и открытые вопросы](obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 546 |  
   _→ SITEMAP_
 - и открытые вопросы_  
   _→ SUMMARIES_
@@ -1493,6 +1511,8 @@ _(959 дублей скрыто)_
   _→ TABLES_
 - - `docs/01-svyazi/QA.md` — упоминаются, envelope, evidence, какие  
   _→ TOPIC_MODEL_
+- и лицензии +4 | — |  
+  _→ VERSION_DIFF_
 - агента. Документы раздела описывают все аспекты поведения Lorenzo: от языкового профиля до антипаттернов и эскалации.  
   _→ 00-intro_
 - Habr Scout: Habr articles often hype или incomplete; need quality filter  
@@ -1550,7 +1570,7 @@ _(959 дублей скрыто)_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(251 дублей скрыто)_
+_(250 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (51)
 
@@ -1574,7 +1594,7 @@ _(251 дублей скрыто)_
   _→ QUESTIONS_
 - из docs/. [extract (9)]  
   _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 50 [Словарь аббревиатур и сокращений]  
+- ⭐ To Do — задача к выполнению 52 [Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
 - во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
   _→ QUESTIONS_
@@ -1584,7 +1604,7 @@ _(251 дублей скрыто)_
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **139**  
+- меток: **138**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1753,8 +1773,6 @@ _(28 дублей скрыто)_
   _→ QUESTIONS_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
   _→ QUESTIONS_
-- авторами компонентов? [Какова лицензия проекта?]  
-  _→ QUESTIONS_
 - первое сообщение автору проекта. |  
   _→ REGISTRY_
 - первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
@@ -1771,10 +1789,10 @@ _(28 дублей скрыто)_
   _→ TABLES_
 - резюме | 🟡 (TextRank) | ✅ (связный текст) |  
   _→ TABLES_
+- PORTAL-PROTOCOL-H | `02-anthropic-vacancies/133-обратная-связь.md` |  
+  _→ TABLES_
 - первое сообщение автору OSS-проекта  
   _→ TASKS_INDEX_
-- PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
-  _→ TIMELINE_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
@@ -1797,52 +1815,42 @@ _(28 дублей скрыто)_
   _→ CONTACT_PRIORITY_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [182. Все документы]  
   _→ QUESTIONS_
+- авторами компонентов? [Какова лицензия проекта?]  
+  _→ QUESTIONS_
 
 _(220 дублей скрыто)_
 
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_action_items.py
 ```
 ```bash
-# Пример 2: фильтрация результатов
-python scripts/improve_action_items.py --section 01-svyazi
+# Вариант 2
+python scripts/improve_action_items.py --dry-run
 ```
 ```bash
-# Пример 3: фильтрация результатов
-python scripts/improve_action_items.py --section 01-svyazi
+# Вариант 3
+python scripts/improve_action_items.py --dry-run
 ```
 ```bash
-# Пример 4: фильтрация результатов
-python scripts/improve_action_items.py --section 01-svyazi
+# Вариант 4
+python scripts/improve_action_items.py --dry-run
 ```
 ```bash
-# Пример 5: фильтрация результатов
-python scripts/improve_action_items.py --section 01-svyazi
+# Вариант 5
+python scripts/improve_action_items.py --dry-run
 ```
 
 ## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
-- [Ключевые решения](DECISIONS.md)
-- [Контакты авторов](CONTACTS.md)
-- [Оценка готовности](SCORING.md)
-- [Теги документов](TAGS.md)
-- [Хронология](TIMELINE.md)
-- [Структура репозитория](OUTLINE.md)
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONCEPTS](CONCEPTS.md)
-- [SEARCH](SEARCH.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)
+- [Теги](TAGS.md)
+- [Задачи](ACTION_ITEMS.md)

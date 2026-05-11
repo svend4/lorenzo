@@ -4,11 +4,15 @@
 > Раздел `QA` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: qa, docs -->
-
 
 <!-- summary -->
-> `QA` — раздел документации проекта Lorenzo.
+> _Автоматически сгенерировано по 12 файлам раздела._
+**Проекты:** CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory, MemNet, agent-memory-mcp
+
+---
+<!-- tags: memory, rag, knowledge, architecture, roadmap, collaboration -->
+
+
 
 
 _Автоматически сгенерировано по 12 файлам раздела._
@@ -51,7 +55,7 @@ _Автоматически сгенерировано по 12 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **evidence envelope**, **memory write**
+Упоминаются: **Evidence Envelope**, **memory write**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -61,17 +65,18 @@ _Автоматически сгенерировано по 12 файлам ра
 
 _Не найдено в этом файле._
 
-## Как реализован forensic RAG с доказуемостью?
+<!-- backlinks -->
 
-Упоминаются: **liteparse**, **bounding box**, **evidence**
+---
 
-## Что такое Evidence Envelope и зачем он нужен?
+**Кто ссылается на этот документ (6):**
+- [README](README.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 
-Упоминаются: **evidence envelope**, **page**, **span**
-
-## Какие RAG-подходы сравниваются в документах?
-
-Упоминаются: **Hybrid RAG**, **LiteParse**
 
 
 ## Использование
@@ -79,10 +84,3 @@ _Не найдено в этом файле._
 # Запуск
 python scripts/improve_qa.py
 ```
-
-## Смотрите также
-- [Главная](../README.md)
-- [Метрики](../METRICS.md)
-- [Здоровье](../HEALTH.md)
-- [Глоссарий](../GLOSSARY.md)
-- [Сущности](../ENTITIES.md)

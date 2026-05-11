@@ -1,8 +1,6 @@
 # Каталог скриптов
+<!-- tags: scripts-catalog, docs -->
 
-<!-- toc-auto -->
-
-<!-- tags: scripts-catalog, docs, analysis, svyazi -->
 
 _Обновлено: 2026-05-11_
 
@@ -1018,7 +1016,7 @@ Stage 3b: map-reduce для документов любого размера. А
 
 **готовит docs/ для импорта в Obsidian.**
 
-Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет `[Text](../path/file.md)` → `[[file]]` (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)
+Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет `[Text](../path/file.md)` → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)
 
 **Флаги:** `--dry-run`, `--in-place`, `--section`
 
@@ -1567,31 +1565,30 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_scripts_catalog.py
 ```
 ```bash
-# Пример 2: фильтрация результатов
-python scripts/improve_scripts_catalog.py --section 01-svyazi
+# Вариант 2
+python scripts/improve_scripts_catalog.py --dry-run
 ```
 ```bash
-# Пример 3: фильтрация результатов
-python scripts/improve_scripts_catalog.py --section 01-svyazi
+# Вариант 3
+python scripts/improve_scripts_catalog.py --dry-run
 ```
 ```bash
-# Пример 4: фильтрация результатов
-python scripts/improve_scripts_catalog.py --section 01-svyazi
+# Вариант 4
+python scripts/improve_scripts_catalog.py --dry-run
 ```
 
 ## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
-- [Ключевые решения](DECISIONS.md)
-- [Контакты авторов](CONTACTS.md)
-- [Оценка готовности](SCORING.md)
-- [Теги документов](TAGS.md)
-- [Задачи и действия](ACTION_ITEMS.md)
-- [Хронология](TIMELINE.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)
+- [Теги](TAGS.md)
+- [Задачи](ACTION_ITEMS.md)

@@ -2,16 +2,16 @@
 
 <!-- toc-auto -->
 
-<!-- tags: crossrefs, docs, analysis, svyazi -->
+> [!NOTE]
+> Раздел `CROSSREFS` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: crossrefs, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `CROSSREFS`. Содержит аналитику и структурированные данные по разделу.
+> `CROSSREFS` — раздел документации проекта Lorenzo.
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 ## Проекты → файлы
 
@@ -19,10 +19,10 @@
 
 | Проект | Файлов | Где упоминается |
 |--------|--------|-----------------|
-| **AI Factory** | 146 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +143 |
+| **AI Factory** | 147 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +144 |
 | **AIF Handoff** | 59 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +56 |
-| **AgentFS** | 241 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +238 |
-| **Auto AI Router** | 127 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +124 |
+| **AgentFS** | 240 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +237 |
+| **Auto AI Router** | 128 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +125 |
 | **AutoResearch** | 120 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +117 |
 | **Automerge** | 75 | `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/10-second-order-ensembles.md` +72 |
 | **CardIndex** | 291 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +288 |
@@ -32,21 +32,21 @@
 | **Legal RAG** | 102 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +99 |
 | **LiteLLM** | 93 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +90 |
 | **LiteParse** | 169 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md`, `docs/01-svyazi/03-component-catalog.md` +166 |
-| **MemNet** | 260 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/02-anthropic-vacancies/00-intro.md` +257 |
-| **Memory OS** | 84 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +81 |
+| **MemNet** | 261 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/02-anthropic-vacancies/00-intro.md` +258 |
+| **Memory OS** | 85 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +82 |
 | **NGT Memory** | 203 | `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/07-mvp-planning.md` +200 |
 | **RLM-Toolkit** | 18 | `docs/01-svyazi/01-executive-summary.md`, `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`, `docs/04-ai-collaborations/00-intro.md` +15 |
-| **Rufler** | 181 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +178 |
-| **SENTINEL** | 147 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +144 |
+| **Rufler** | 182 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +179 |
+| **SENTINEL** | 148 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +145 |
 | **Sequential** | 228 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +225 |
 | **Svyazi** | 597 | `docs/01-svyazi/00-intro-part2.md`, `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/02-methodology.md` +594 |
 | **Tool Search** | 97 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +94 |
 | **Whisper** | 51 | `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/14-limitations.md` +48 |
 | **Wikontic** | 105 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md`, `docs/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md`, `docs/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md` +102 |
 | **Yjs** | 91 | `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/10-second-order-ensembles.md` +88 |
-| **Yodoca** | 311 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +308 |
+| **Yodoca** | 310 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +307 |
 | **Yttri** | 36 | `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/14-limitations.md` +33 |
-| **agent-memory-mcp** | 108 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +105 |
+| **agent-memory-mcp** | 107 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/06-security-privacy.md` +104 |
 | **knowledge-space** | 219 | `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md`, `docs/01-svyazi/07-mvp-planning.md` +216 |
 | **mclaude** | 195 | `docs/01-svyazi/01-executive-summary.md`, `docs/01-svyazi/03-component-catalog.md`, `docs/01-svyazi/04-ensembles-overview.md` +192 |
 
@@ -80,13 +80,13 @@
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_crossrefs.py
 ```
 
 ## Смотрите также
-- [Главная страница](README.md)
-- [Метрики качества](METRICS.md)
-- [Дашборд здоровья](HEALTH.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
-- [Именованные сущности](ENTITIES.md)
+- [Сущности](ENTITIES.md)

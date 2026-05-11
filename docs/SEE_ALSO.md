@@ -52,3 +52,19 @@
 # Запуск генератора
 python scripts/improve_see_also.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [04-abstract](02-anthropic-vacancies/04-abstract.md)
+- [70-зачем-две-версии-параллельно](02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- _...ещё 1_
+

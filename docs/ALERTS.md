@@ -39,3 +39,18 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [Дашборд здоровья](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Именованные сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -1,16 +1,29 @@
 # Рекомендуемый порядок чтения
 
-<!-- toc-auto -->
-
 > [!NOTE]
-> Документ `READING_ORDER` создаётся автоматически. Запустите скрипт для обновления.
+> Раздел `READING_ORDER` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: reading_order, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `READING_ORDER`.
+> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Маршруты по целям](#маршруты-по-целям)
+  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
+  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
+  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -245,7 +258,7 @@
 | 226 | 🟢 Начало | [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md](02-anthropic-vacancies/187-слой-представительских-агентов-md.md) | 304 | — |
 | 227 | 🟢 Начало | [AI-опосредованное представительство для недоп](02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md) | 307 | — |
 | 228 | 🟢 Начало | [Аннотация](02-anthropic-vacancies/189-аннотация.md) | 408 | — |
-| 229 | 🟢 Начало | [Содержание](02-anthropic-vacancies/190-содержание.md) | 321 | — |
+| 229 | 🟢 Начало | [Содержание](02-anthropic-vacancies/190-содержание.md) | 324 | — |
 | 230 | 🟢 Начало | [1. Синдром Золушки: Почему качество остаётся ](02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) | 856 | — |
 | 231 | 🟡 Средний | [2. Исторические прецеденты: Агенты как цивили](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) | 1033 | — |
 | 232 | 🟢 Начало | [3. Что делает агента Представительским](02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) | 821 | — |
@@ -284,7 +297,7 @@
 | 265 | 🟢 Начало | [Appendix B: Decision Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |
 | 266 | 🟢 Начало | [ПРОФЕССИОНАЛЬНЫЕ КОЛЛЕГИ-АГЕНТЫ](02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md) | 413 | — |
 | 267 | 🟢 Начало | [Аннотация](02-anthropic-vacancies/230-аннотация.md) | 576 | — |
-| 268 | 🟢 Начало | [Содержание](02-anthropic-vacancies/231-содержание.md) | 378 | — |
+| 268 | 🟢 Начало | [Содержание](02-anthropic-vacancies/231-содержание.md) | 381 | — |
 | 269 | 🟡 Средний | [1. Типология из пяти типов агентов на стороне](02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md) | 1081 | — |
 | 270 | 🟢 Начало | [2. Что делает агента Профессиональным Коллего](02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md) | 992 | — |
 | 271 | 🟡 Средний | [3. Эмпирический кейс: «Обучай»](02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) | 902 | — |
@@ -377,7 +390,7 @@
 | 358 | 🟡 Средний | [Appendix C: Sample InGit MCP Server Tool Spec](02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md) | 1785 | — |
 | 359 | 🟢 Начало | [INGIT КАК COWORK-ИНТЕГРИРОВАННАЯ ПОДЛОЖКА РАБ](02-anthropic-vacancies/324-ingit-как-cowork-интегрированная-подложка-рабочего.md) | 625 | — |
 | 360 | 🟢 Начало | [Аннотация](02-anthropic-vacancies/325-аннотация.md) | 413 | — |
-| 361 | 🟢 Начало | [Содержание](02-anthropic-vacancies/326-содержание.md) | 399 | — |
+| 361 | 🟢 Начало | [Содержание](02-anthropic-vacancies/326-содержание.md) | 402 | — |
 | 362 | 🟢 Начало | [1. Открытие Cowork и почему это меняет всё](02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) | 705 | — |
 | 363 | 🟢 Начало | [2. Что Cowork обеспечивает, что InGit не нужн](02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) | 792 | — |
 | 364 | 🟡 Средний | [3. Что InGit обеспечивает, чего Cowork не хва](02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) | 1093 | — |
@@ -442,21 +455,37 @@
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [CLUSTERS](CLUSTERS.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [REPORT](REPORT.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 2_
+
+
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_reading_order.py
 ```
 ```bash
 # Вариант 2
-python scripts/improve_reading_order.py --section 01-svyazi
+python scripts/improve_reading_order.py --dry-run
 ```
 ```bash
 # Вариант 3
-python scripts/improve_reading_order.py --section 01-svyazi
+python scripts/improve_reading_order.py --dry-run
 ```
 ```bash
 # Вариант 4
-python scripts/improve_reading_order.py --section 01-svyazi
+python scripts/improve_reading_order.py --dry-run
 ```

@@ -24,7 +24,7 @@
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
 - [READABILITY](../../READABILITY.md)
 - [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
@@ -33,4 +33,5 @@
 - [nlaik](nlaik.md)
 - [sonia-black](sonia-black.md)
 - [tagir-analyzes](tagir-analyzes.md)
+- _...ещё 1_
 

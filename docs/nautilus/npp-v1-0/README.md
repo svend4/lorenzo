@@ -33,7 +33,7 @@
 - [15-glossary.md](15-glossary.md) — <!-- toc-auto -->
 - [16-appendix-a-minimal-working-example.md](16-appendix-a-minimal-working-example.md) — <!-- toc-auto -->
 - [17-appendix-b-change-log.md](17-appendix-b-change-log.md) — <!-- toc-auto -->
-- [18-comment-on-document.md](18-comment-on-document.md) — <!-- toc-auto -->
+- [18-comment-on-document.md](18-comment-on-document.md) — <!-- toc -->
 
 <!-- backlinks -->
 

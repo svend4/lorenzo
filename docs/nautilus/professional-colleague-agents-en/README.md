@@ -10,7 +10,7 @@
 
 ## Содержание
 
-- [00-abstract.md](00-abstract.md) — <!-- toc-auto -->
+- [00-abstract.md](00-abstract.md) — <!-- toc -->
 - [01-five-type-typology.md](01-five-type-typology.md) — > [!NOTE]
 - [02-what-makes-pca.md](02-what-makes-pca.md) — > [!NOTE]
 - [03-empirical-case-obuchay.md](03-empirical-case-obuchay.md) — > [!NOTE]

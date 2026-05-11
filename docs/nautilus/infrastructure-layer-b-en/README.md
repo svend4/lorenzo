@@ -14,7 +14,7 @@
 - [01-missing-middle-layer.md](01-missing-middle-layer.md) — <!-- toc-auto -->
 - [02-why-document-exists.md](02-why-document-exists.md) — <!-- toc-auto -->
 - [03-two-layer-stack.md](03-two-layer-stack.md) — <!-- toc-auto -->
-- [04-whats-missing-layer-b.md](04-whats-missing-layer-b.md) — <!-- toc-auto -->
+- [04-whats-missing-layer-b.md](04-whats-missing-layer-b.md) — <!-- toc -->
 - [05-why-not-built.md](05-why-not-built.md) — <!-- toc-auto -->
 - [06-existing-approximations.md](06-existing-approximations.md) — <!-- toc -->
 - [07-specific-case.md](07-specific-case.md) — > [!NOTE]

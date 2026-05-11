@@ -1,21 +1,15 @@
 # Глоссарий понятий
 
-<!-- toc-auto -->
-
-<!-- tags: concepts, docs, analysis, svyazi -->
-
-
-<!-- summary -->
-> Автоматически сгенерированный документ: `CONCEPTS`. Содержит аналитику и структурированные данные по разделу.
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Документ `CONCEPTS.md` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: concepts, definitions, knowledge, glossary -->
+
 
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 1150  (из 4251 совпадений)
+**Извлечено понятий:** 1151  (из 4252 совпадений)
 
 
 ## A
@@ -23,6 +17,10 @@ _Определения извлечены автоматически из до�
 **a coherent composite agent This**
 : **Composite Skills Agent** pattern  
   _→ [254-1-why-the-binary-view-is-incomplete](02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)_
+
+**A nautilus shell**
+: **spiral of nested chambers**, each larger than the last but built on the same geometry  
+  _→ [FAQ](FAQ.md)_
 
 **A2A protocol**
 : [A2A vs MCP, ансамбль H](  
@@ -4775,50 +4773,4 @@ _Определения извлечены автоматически из до�
 **Ясный спрос**
 : Автор лично нуждается в этом  
   _→ [239-8-пилотное-предложение-sgb-колega-адвокат](02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md)_
-
-
-
-## Использование
-```bash
-# Запуск генератора
-python scripts/improve_concepts.py
-```
-```bash
-# Пример 2: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-```bash
-# Пример 3: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-```bash
-# Пример 4: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-```bash
-# Пример 5: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-```bash
-# Пример 6: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-```bash
-# Пример 7: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-```bash
-# Пример 8: фильтрация результатов
-python scripts/improve_concepts.py --section 01-svyazi
-```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [TABLES](TABLES.md)
-- [ACTION_ITEMS](ACTION_ITEMS.md)
-- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
-- [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 

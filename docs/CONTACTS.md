@@ -1,32 +1,45 @@
 # Контакты и авторы
 
-<!-- toc-auto -->
-
 > [!NOTE]
-> Документ `CONTACTS` создаётся автоматически. Запустите скрипт для обновления.
+> Раздел `CONTACTS` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: contacts, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `CONTACTS`.
+> Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [Ключевые авторы проектов](#ключевые-авторы-проектов)
+- [GitHub репозитории](#github-репозитории)
+- [Email адреса](#email-адреса)
+- [Шаблон первого сообщения](#шаблон-первого-сообщения)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 ## Ключевые авторы проектов
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 110 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 112 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
 | **Antipozitive** | MemNet | memory | 68 | — |
 | **Cutcode** | AIF Handoff | orchestration | 78 | — |
 | **Dmitriila** | SENTINEL | security | 68 | — |
 | **MiXaiLL76** | Auto AI Router | security | 61 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 40 | — |
-| **VitalyOborin** | Yodoca | memory | 86 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VitalyOborin** | Yodoca | memory | 87 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
 | **VladSpace** | Graph RAG | rag | 85 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
-| **kksudo** | AgentFS | knowledge/filesystem | 177 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
+| **kksudo** | AgentFS | knowledge/filesystem | 178 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
 | **lee-to** | AI Factory | orchestration | 23 | — |
 | **nlaik** | LiteParse / research-docs | rag | 63 | — |
 | **spbmolot** | NGT Memory | memory | 154 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
@@ -64,7 +77,7 @@
 | `github.com/github.com/ruvnet/ruflo` | 4 |
 | `github.com/github.com/settings/tokens` | 10 |
 | `github.com/github.com/spbmolot` | 8 |
-| `github.com/github.com/spbmolot/ngt-memory` | 10 |
+| `github.com/github.com/spbmolot/ngt-memory` | 9 |
 | `github.com/github.com/svend4` | 9 |
 | `github.com/github.com/svend4/data70` | 13 |
 | `github.com/github.com/svend4/info1` | 25 |
@@ -72,8 +85,7 @@
 | `github.com/github.com/svend4/info7` | 9 |
 | `github.com/github.com/svend4/ingit` | 29 |
 | `github.com/github.com/svend4/lorenzo` | 4 |
-| `github.com/github.com/svend4/meta` | 22 |
-| `github.com/github.com/svend4/n` | 2 |
+| `github.com/github.com/svend4/meta` | 23 |
 | `github.com/github.com/svend4/nautilus` | 118 |
 | `github.com/github.com/svend4/nautilus.` | 5 |
 | `github.com/github.com/svend4/nautilus.git` | 7 |
@@ -102,9 +114,18 @@
 Если нет — спасибо за публикацию, она уже повлияла на архитектуру.
 ```
 
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Дашборд](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (37):**
+- [13-contacts](01-svyazi/13-contacts.md)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DUPLICATES](DUPLICATES.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [GITHUB_ISSUES](GITHUB_ISSUES.md)
+- _...ещё 29_
+

@@ -1,5 +1,35 @@
 # Согласованность терминов
 
+<!-- toc -->
+## Содержание
+
+- [Детали по файлам](#детали-по-файлам)
+  - [`knowledgespace` → должно быть `knowledge-space`](#knowledgespace-должно-быть-knowledge-space)
+  - [`knowledge space` → должно быть `knowledge-space`](#knowledge-space-должно-быть-knowledge-space)
+  - [`knowledge_space` → должно быть `knowledge-space`](#knowledge_space-должно-быть-knowledge-space)
+  - [`Card Index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`card index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`card-index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`AI-Factory` → должно быть `AI Factory`](#ai-factory-должно-быть-ai-factory)
+  - [`NGT-Memory` → должно быть `NGT Memory`](#ngt-memory-должно-быть-ngt-memory)
+  - [`LiteParser` → должно быть `LiteParse`](#liteparser-должно-быть-liteparse)
+  - [`Auto-AI-Router` → должно быть `Auto AI Router`](#auto-ai-router-должно-быть-auto-ai-router)
+  - [`local first` → должно быть `local-first`](#local-first-должно-быть-local-first)
+  - [`localfirst` → должно быть `local-first`](#localfirst-должно-быть-local-first)
+  - [`Local First` → должно быть `local-first`](#local-first-должно-быть-local-first)
+  - [`agent memory mcp` → должно быть `agent-memory-mcp`](#agent-memory-mcp-должно-быть-agent-memory-mcp)
+  - [`self-improve` → должно быть `self-improvement`](#self-improve-должно-быть-self-improvement)
+  - [`selfimprovement` → должно быть `self-improvement`](#selfimprovement-должно-быть-self-improvement)
+  - [`Svyazi-2.0` → должно быть `Svyazi 2.0`](#svyazi-20-должно-быть-svyazi-20)
+  - [`Evidence-Envelope` → должно быть `Evidence Envelope`](#evidence-envelope-должно-быть-evidence-envelope)
+  - [`EvidenceEnvelope` → должно быть `Evidence Envelope`](#evidenceenvelope-должно-быть-evidence-envelope)
+  - [`Card-Envelope` → должно быть `Card Envelope`](#card-envelope-должно-быть-card-envelope)
+- [Как исправить](#как-исправить)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 <!-- tags: consistency, docs, analysis, svyazi -->
@@ -233,4 +263,20 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [MISSING](MISSING.md)
 - [STALENESS](STALENESS.md)
 - [STATS](STATS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- _...ещё 1_
 

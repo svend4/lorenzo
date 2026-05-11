@@ -15,7 +15,7 @@
 
 ## Содержание
 
-- [00-question-two-nautiluses.md](00-question-two-nautiluses.md) — <!-- toc-auto -->
+- [00-question-two-nautiluses.md](00-question-two-nautiluses.md) — <!-- toc -->
 - [01-shell-metaphor-two-projections.md](01-shell-metaphor-two-projections.md) — <!-- toc-auto -->
 - [02-nautilus-A-pro2-meta.md](02-nautilus-A-pro2-meta.md) — <!-- toc -->
 - [03-nautilus-B-meta-orchestrator.md](03-nautilus-B-meta-orchestrator.md) — <!-- toc -->
@@ -36,7 +36,7 @@
 
 
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит структурированную информацию по теме «nautilus-pro2-analysis». Создан автоматически из исходных данных проекта. Для подробностей обратитесь к главной документации.
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «nautilus-pro2-analysis». Формируется автоматически.
 
 
 ## Использование

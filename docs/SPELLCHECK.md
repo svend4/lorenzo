@@ -249,3 +249,15 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 - [PRIORITIES](PRIORITIES.md)
 - [CONSISTENCY](CONSISTENCY.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

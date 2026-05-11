@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **205**  
-Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 32 | 📝 docs: 23 | ⚡ improve: 15
+Всего коммитов: **206**  
+Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 33 | 📝 docs: 23 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -15,6 +15,13 @@
 ### 🔧 Обслуживание
 
 - csv: bulk export _  --expo_
+
+## 2026-05-11 (1 коммитов)
+
+### 🐛 Исправления
+
+- restore 100.0/100 quality score and 0 broken links after pipeline run _c02dda87_
+  > - Fix improve_timeline.py: strip markdown links from context text, use DOCS-relative paths
 
 ## 2026-05-10 (58 коммитов)
 

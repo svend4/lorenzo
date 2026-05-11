@@ -1,5 +1,16 @@
 # Карта пробелов знаний
 
+<!-- toc -->
+## Содержание
+
+- [Итог](#итог)
+- [Рекомендации](#рекомендации)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 <!-- tags: missing, docs, analysis, svyazi -->
@@ -76,4 +87,20 @@ python scripts/improve_missing.py
 - [TAGS](TAGS.md)
 - [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 - [ENTITIES](ENTITIES.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [08-conclusions](01-svyazi/08-conclusions.md)
+- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [README](04-ai-collaborations/README.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- _...ещё 6_
 

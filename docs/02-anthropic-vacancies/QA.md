@@ -6,11 +6,15 @@
 > Раздел `QA` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: qa, docs -->
-
 
 <!-- summary -->
-> `QA` — раздел документации проекта Lorenzo.
+> _Автоматически сгенерировано по 355 файлам раздела._
+**Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -21,7 +25,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Какие кластеры найма выделены у Anthropic?
 
@@ -53,7 +57,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -107,16 +111,22 @@ _Автоматически сгенерировано по 355 файлам р�
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [README](README.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+
+
 
 ## Использование
 ```bash
 # Запуск
 python scripts/improve_qa.py
 ```
-
-## Смотрите также
-- [Главная](../README.md)
-- [Метрики](../METRICS.md)
-- [Здоровье](../HEALTH.md)
-- [Глоссарий](../GLOSSARY.md)
-- [Сущности](../ENTITIES.md)

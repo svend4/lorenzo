@@ -3,14 +3,18 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Документ `CONTACT_PRIORITY` создаётся автоматически.
+> Раздел `CONTACT_PRIORITY` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: contact-priority, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `CONTACT_PRIORITY`.
+> 1. **kksudo** (AgentFS, 178 упоминаний) → [открыть контакт](contacts/kksudo.md)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
+
+
 
 
 _Обновлено: 2026-05-11_
@@ -19,10 +23,10 @@ _Обновлено: 2026-05-11_
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 177 | 👁 Изучили | 542 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 178 | 👁 Изучили | 545 |
 | 2 | **spbmolot** | NGT Memory | memory | 154 | 👁 Изучили | 473 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 110 | ⬜ Не начато | 336 |
-| 4 | **VitalyOborin** | Yodoca | memory | 86 | ⬜ Не начато | 264 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 112 | ⬜ Не начато | 342 |
+| 4 | **VitalyOborin** | Yodoca | memory | 87 | ⬜ Не начато | 267 |
 | 5 | **VladSpace** | Graph RAG | rag | 85 | ⬜ Не начато | 259 |
 | 6 | **zodigancode** | Rufler | orchestration | 81 | ⬜ Не начато | 247 |
 | 7 | **Cutcode** | AIF Handoff | orchestration | 78 | ⬜ Не начато | 238 |
@@ -39,9 +43,9 @@ _Обновлено: 2026-05-11_
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 177 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **kksudo** (AgentFS, 178 упоминаний) → [открыть контакт](contacts/kksudo.md)
 1. **spbmolot** (NGT Memory, 154 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 110 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 112 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 
@@ -52,3 +56,19 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 ```
 
 _Чем выше балл — тем важнее написать первым._
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [ENTITIES](ENTITIES.md)
+- [MINDMAP](MINDMAP.md)
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 5_
+

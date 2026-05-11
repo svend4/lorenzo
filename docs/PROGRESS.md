@@ -1,14 +1,20 @@
 # Прогресс MVP
 
+<!-- toc-auto -->
+
 > [!NOTE]
-> Документ `PROGRESS` создаётся автоматически.
+> Раздел `PROGRESS` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: progress, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `PROGRESS`.
+> _Обновлено: 2026-05-11 (improve_progress_sync.py)_
+**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
+
+---
+<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 
 
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
@@ -36,7 +42,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 162 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
+| DIGEST.md | ✅ 5 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
@@ -44,7 +50,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 100.0/100 | 🟢 |
-| Качество доков (METRICS) | 95.5/100 | 🟢 |
+| Качество доков (METRICS) | 100.0/100 | 🟢 |
 | Go/No-Go (SCORING) | 100.0/100 | 🟢 |
 
 ## Следующий шаг
@@ -72,3 +78,19 @@ cat docs/contacts/anastasiyaw.md
 - [Go/No-Go Scoring](SCORING.md)
 - [Health Dashboard](HEALTH.md)
 - [MVP Planning](01-svyazi/07-mvp-planning.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [DECISIONS](DECISIONS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+

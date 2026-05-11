@@ -1,5 +1,17 @@
 # Diff базы знаний между версиями
 
+<!-- toc -->
+## Содержание
+
+- [✅ Новые файлы (4)](#новые-файлы-4)
+- [📝 Изменённые файлы (1460)](#изменённые-файлы-1460)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -93,7 +105,7 @@ _Обновлено: 2026-05-11_
 | `docs/01-svyazi/00-intro-part2.md` | +373 | Использование, Продолжение исследования для Svyazi[^svyazi] 2.0, Смотрите также +1 | Продолжение исследования для Svyazi 2.0 |
 | `docs/VALIDATION.md` | -371 | Contents, Смотрите также, ✅ Заголовки H1 +1 | Заголовки H1, Пустые/короткие файлы |
 | `docs/obsidian/COVERAGE.md` | -370 | Полное покрытие — 16 файлов | Contents, Полное покрытие — 0 файлов, Содержание +1 |
-| `docs/obsidian/CONSISTENCY.md` | +360 | `Card Index` → должно быть `CardIndex`, `CardEnvelope` → должно быть `Card Envelope`, `LiteParser` → должно быть `LiteParse` +4 | — |
+| `docs/obsidian/CONSISTENCY.md` | +360 | `CardIndex` → должно быть `CardIndex`, `CardEnvelope` → должно быть `Card Envelope`, `LiteParser` → должно быть `LiteParse` +4 | — |
 | `docs/obsidian/01-svyazi/QA.md` | +356 | Contents, Использование, Поиск по теме документа | — |
 | `docs/obsidian/03-technology-combinations/QA.md` | +352 | Использование, Какие вопросы лучше задавать авторам при первом контакте?, Кто ключевые авторы проектов для контакта? +1 | — |
 | `docs/obsidian/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | -349 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
@@ -202,7 +214,7 @@ _Обновлено: 2026-05-11_
 | `docs/habr-unique-projects/extra-examples/README.md` | +244 | Использование | — |
 | `docs/SEARCH_RESULTS.md` | +243 | Contents, Использование, Смотрите также | — |
 | `docs/nautilus/review-methodology/15-appendix-c-history.md` | +243 | Contents, Использование, Поиск по теме документа +1 | — |
-| `docs/CONSISTENCY.md` | +242 | `EvidenceEnvelope` → должно быть `Evidence Envelope`, `Local First` → должно быть `local-first`, `agent memory mcp` → должно быть `agent-memory-mcp` +3 | `CardEnvelope` → должно быть `Card Envelope` |
+| `docs/CONSISTENCY.md` | +242 | `Evidence Envelope` → должно быть `Evidence Envelope`, `Local First` → должно быть `local-first`, `agent memory mcp` → должно быть `agent-memory-mcp` +3 | `CardEnvelope` → должно быть `Card Envelope` |
 | `docs/anthropic-vacancies/clusters/15-public-benefit.md` | +242 | Contents, Использование, Поиск по теме документа +1 | — |
 | `docs/anthropic-vacancies/hermes-comparison/README.md` | +242 | Использование | — |
 | `docs/anthropic-vacancies/clusters/11-legal.md` | +240 | Contents, Использование, Поиск по теме документа +1 | — |
@@ -253,7 +265,7 @@ _Обновлено: 2026-05-11_
 | `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | +203 | Кто ссылается на этот документ (5), Похожие документы, Смотрите также | Contents |
 | `docs/ACTION_ITEMS.md` | +203 | Инструменты обработки, Связанные документы, ⚠️ Риски (1296) +5 | ⚠️ Риски (954), ✅ Решения и рекомендации (493), ➡️ Следующие шаги (273) +3 |
 | `docs/lorenzo-agent/18-escalate-to-max.md` | +203 | Contents, Использование, Поиск по теме документа +1 | — |
-| `docs/05-habr-projects/knowledge/knowledge-space.md` | +202 | Contents, knowledge-space[^knowledge_space], Использование +2 | knowledge-space |
+| `docs/05-habr-projects/knowledge/knowledge-space.md` | +202 | Contents, knowledge-space[^knowledge-space], Использование +2 | knowledge-space |
 | `docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md` | +202 | Contents, Использование, Поиск по теме документа +1 | — |
 | `docs/nautilus/representative-agent-layer-ru/00-abstract.md` | +199 | Использование, Поиск по теме документа, Смотрите также | — |
 | `docs/obsidian/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` | -199 | Contents, Использование, Кто ссылается на этот документ (14) +3 | — |
@@ -1084,7 +1096,7 @@ _Обновлено: 2026-05-11_
 | `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` | -51 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | Contents |
 | `docs/LLM_SUMMARIES.md` | +51 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +1 | — |
 | `docs/PROGRESS.md` | +51 | Содержание | — |
-| `docs/SCRIPT_EVAL_REPORT.md` | +51 | 3.2 CardIndex (improve_card_index.py), Смотрите также, Сценка Б: Работа с CardIndex | 3.2 Card Index (improve_card_index.py), Сценка Б: Работа с Card Index |
+| `docs/SCRIPT_EVAL_REPORT.md` | +51 | 3.2 CardIndex (improve_card_index.py), Смотрите также, Сценка Б: Работа с CardIndex | 3.2 CardIndex (improve_card_index.py), Сценка Б: Работа с CardIndex |
 | `docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
 | `docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md` | +51 | Contents, Использование, Поиск по теме документа +2 | — |
 | `docs/nautilus/professional-colleague-agents-en/12-closing.md` | +51 | Использование, Поиск по теме документа | — |
@@ -1582,3 +1594,19 @@ python scripts/improve_version_diff.py --section 01-svyazi
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [yodoca](05-habr-projects/memory/yodoca.md)
+- [AUTOFILLED](AUTOFILLED.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [PRIORITIES](PRIORITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

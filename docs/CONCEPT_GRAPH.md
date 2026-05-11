@@ -1,5 +1,15 @@
 # Граф концептов базы знаний
 
+<!-- toc -->
+## Содержание
+
+- [Диаграмма](#диаграмма)
+- [Топ концептов по связям](#топ-концептов-по-связям)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -164,3 +174,19 @@ graph TD
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (18):**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 10_
+

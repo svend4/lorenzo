@@ -1,5 +1,47 @@
 # Часто задаваемые вопросы (FAQ)
 
+<!-- toc -->
+## Содержание
+
+- [Архитектура](#архитектура)
+  - [Что такое MCP?](#что-такое-mcp)
+  - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
+  - [Какой вариант резонирует?](#какой-вариант-резонирует)
+  - [Содержание - Содержание - Что это такое?](#содержание---содержание---что-это-такое)
+  - [Что это такое?](#что-это-такое)
+  - [Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью?](#qa-svyazi-2-0---основной-раздел---содержание---как-реализован-forensic-rag-с-доказуемостью)
+  - [Принимаем эту architecture как Lorenzo vision (с моими caveats)?](#принимаем-эту-architecture-как-lorenzo-vision-с-моими-caveats)
+  - [Содержание - Contents - Что это такое?](#содержание---contents---что-это-такое)
+- [MVP/Запуск](#mvpзапуск)
+  - [С чего начать?](#с-чего-начать)
+- [Компоненты](#компоненты)
+  - [Какова лицензия проекта?](#какова-лицензия-проекта)
+  - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
+  - [Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?](#открытые-вопросы-1-есть-ли-публичная-документация-по-memory-os-bi-temporal-facts-gardener-loop)
+- [Интеграция](#интеграция)
+  - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
+  - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
+  - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
+  - [Набор вопросов 4: Ваши ресурсы 4a) Бюджет для setup (€500-1500 одноразово)?](#набор-вопросов-4-ваши-ресурсы-4a-бюджет-для-setup-500-1500-одноразово)
+  - [Why "Nautilus"?](#why-nautilus)
+  - [Did creator approve final attribution?](#did-creator-approve-final-attribution)
+- [Лицензия](#лицензия)
+  - [Question 5: Каковы limits Lorenzo's authority?](#question-5-каковы-limits-lorenzos-authority)
+  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
+- [Общее](#общее)
+  - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
+  - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
+  - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
+  - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
+  - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
+  - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
+  - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
+  - [10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?](#104-социальные-вопросы-снизят-ли-представительские-агенты-или-увеличат-неравенство)
+- [Использование](#использование)
+
+---
+
+
 > [!NOTE]
 > Документ `FAQ` создаётся автоматически.
 
@@ -194,3 +236,19 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 # Запуск генератора
 python scripts/improve_faq.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [116-9-checklist-применения-методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md)
+- [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md)
+- [memnet](05-habr-projects/memory/memnet.md)
+- [CONCEPTS](CONCEPTS.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 8_
+

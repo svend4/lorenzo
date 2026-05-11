@@ -2,16 +2,16 @@
 
 <!-- toc-auto -->
 
-<!-- tags: tags, docs, analysis, svyazi -->
+> [!NOTE]
+> Раздел `TAGS` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: tags, docs -->
 
 
 <!-- summary -->
-> Автоматически сгенерированный документ: `TAGS`. Содержит аналитику и структурированные данные по разделу.
+> `TAGS` — раздел документации проекта Lorenzo.
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
 
 Каждый файл помечен тегами по темам автоматически.
 
@@ -148,11 +148,10 @@
 - `docs/obsidian/QA.md`
 - `docs/processing-guide/QA.md`
 
-## #orchestration (11 файлов)
+## #orchestration (10 файлов)
 
 - `docs/02-anthropic-vacancies/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
 - `docs/CONTACTS.md`
 - `docs/CONTACT_PRIORITY.md`
 - `docs/COST.md`
@@ -162,7 +161,7 @@
 - `docs/obsidian/QA.md`
 - `docs/processing-guide/QA.md`
 
-## #rag (17 файлов)
+## #rag (16 файлов)
 
 - `docs/01-svyazi/QA.md`
 - `docs/02-anthropic-vacancies/QA.md`
@@ -170,7 +169,6 @@
 - `docs/04-ai-collaborations/QA.md`
 - `docs/05-habr-projects/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
 - `docs/CONTACTS.md`
 - `docs/CONTACT_PRIORITY.md`
 - `docs/DIGEST.md`
@@ -231,32 +229,21 @@
 
 ---
 
-**Кто ссылается на этот документ (21):**
+**Кто ссылается на этот документ (17):**
 - [ACTION_ITEMS](ACTION_ITEMS.md)
 - [CONSISTENCY](CONSISTENCY.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
 - [INDEX](INDEX.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- _...ещё 13_
+- [MISSING](MISSING.md)
+- [OUTLINE](OUTLINE.md)
+- _...ещё 9_
 
 
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_tags.py
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [STALENESS](STALENESS.md)
-- [STATS](STATS.md)
-- [CONSISTENCY](CONSISTENCY.md)
-- [HEALTH](HEALTH.md)
-

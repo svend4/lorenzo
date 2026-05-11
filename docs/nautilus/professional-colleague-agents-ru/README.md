@@ -10,7 +10,7 @@
 
 ## Содержание
 
-- [00-abstract.md](00-abstract.md) — > [!NOTE]
+- [00-abstract.md](00-abstract.md) — <!-- toc-auto -->
 - [01-pyat-tipov.md](01-pyat-tipov.md) — > [!IMPORTANT]
 - [02-chto-delaet-pka.md](02-chto-delaet-pka.md) — > [!TIP]
 - [03-keys-obuchay.md](03-keys-obuchay.md) — > [!NOTE]

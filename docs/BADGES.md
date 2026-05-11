@@ -12,8 +12,6 @@
 
 _Обновлено: 2026-05-11_
 
-Badges reflect the current state of the repository. Generated automatically by `improve_badges.py` from repository metadata. Refresh badges before publishing or sharing the README.
-
 
 ## Превью
 
@@ -48,3 +46,6 @@ Badges reflect the current state of the repository. Generated automatically by `
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Status Badges». Формируется автоматически.

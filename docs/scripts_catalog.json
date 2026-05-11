@@ -878,7 +878,7 @@
   {
     "name": "improve_obsidian.py",
     "summary": "готовит docs/ для импорта в Obsidian.",
-    "description": "Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет [Text](../path/file.md) → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)",
+    "description": "Преобразования: 1. Добавляет YAML frontmatter (title, tags, date) если нет 2. Заменяет `[Text](../path/file.md)` → [[file]] (wikilinks) 3. Создаёт docs/obsidian/ с готовыми файлами (не перезаписывает оригиналы)",
     "flags": [
       "--dry-run",
       "--in-place",

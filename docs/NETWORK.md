@@ -98,3 +98,19 @@ python scripts/improve_network.py
 - [MINDMAP](MINDMAP.md)
 - [GLOSSARY](GLOSSARY.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (14):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [ENTITIES](ENTITIES.md)
+- [GRAPH](GRAPH.md)
+- [INDEX](INDEX.md)
+- [MINDMAP](MINDMAP.md)
+- _...ещё 6_
+

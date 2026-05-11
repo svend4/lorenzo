@@ -1,14 +1,18 @@
 # Матрица покрытия документов
 
 > [!NOTE]
-> Документ `COVERAGE` создаётся автоматически.
+> Раздел `COVERAGE` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: coverage, docs, analysis -->
-
 
 <!-- summary -->
-> Автоматически сформированный документ: `COVERAGE`.
+> Условные обозначения: ✅ есть  ⬜ отсутствует
+**Проекты:** Svyazi
+
+---
+<!-- tags: security, ingestion, architecture, roadmap, anthropic, collaboration -->
+
+
 
 
 _Обновлено: 2026-05-11_
@@ -54,9 +58,15 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 ```
 
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Дашборд](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [HEATMAP](HEATMAP.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
