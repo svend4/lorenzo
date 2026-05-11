@@ -1,29 +1,17 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
 <!-- toc-auto -->
-## Contents
 
-- [Что это такое?](#что-это-такое)
-- [Первые 30 минут](#первые-30-минут)
-- [Структура документации](#структура-документации)
-- [Ключевые документы](#ключевые-документы)
-- [Скрипты автоматизации](#скрипты-автоматизации)
-- [Архитектура компонентов](#архитектура-компонентов)
-- [Как внести вклад](#как-внести-вклад)
-- [Контакты](#контакты)
+> [!NOTE]
+> Раздел `ONBOARDING` формируется автоматически из данных репозитория.
 
-
+<!-- alert-added -->
 <!-- tags: onboarding, docs -->
 
 
 <!-- summary -->
 > `ONBOARDING` — раздел документации проекта Lorenzo.
 
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
 
 _Руководство для новых участников проекта._
 
@@ -55,15 +43,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 413 файлов, 400,173 слов_
+_Всего: 413 файлов, 401,388 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,246 |
-| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 340,655 |
-| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,783 |
-| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,823 |
-| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,666 |
+| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,370 |
+| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 341,436 |
+| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,835 |
+| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,978 |
+| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,769 |
 
 ## Ключевые документы
 
@@ -127,15 +115,4 @@ python scripts/improve_watcher.py
 
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [INDEX](INDEX.md)
-- [HEATMAP](HEATMAP.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
 

@@ -35,6 +35,3 @@ python scripts/improve_skill_dashboard.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Skill Dashboard». Формируется автоматически.

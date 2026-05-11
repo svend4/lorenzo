@@ -1,27 +1,17 @@
 # Tech Radar — Svyazi 2.0
 
 <!-- toc-auto -->
-## Contents
 
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
+> [!NOTE]
+> Раздел `TECH_RADAR` формируется автоматически из данных репозитория.
 
-
+<!-- alert-added -->
 <!-- tags: tech-radar, docs -->
 
 
 <!-- summary -->
 > `TECH_RADAR` — раздел документации проекта Lorenzo.
 
-
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
 
@@ -110,13 +100,9 @@ _Не рекомендуем для новых проектов. Использ�
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [ONBOARDING](ONBOARDING.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [RISK_REGISTER](RISK_REGISTER.md)
-- [WORD_FREQ](WORD_FREQ.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
