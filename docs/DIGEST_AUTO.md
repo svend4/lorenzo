@@ -33,11 +33,11 @@ _Период: 2026-05-04 — 2026-05-11 (7 дней)_
 
 | Метрика | Значение |
 |---------|----------|
-| Коммитов | **62** |
+| Коммитов | **66** |
 | Новых файлов | **20** |
 | Изменённых файлов | **20** |
-| Слов добавлено | **+1,744,945** |
-| Слов удалено | **−919,105** |
+| Слов добавлено | **+1,720,964** |
+| Слов удалено | **−919,806** |
 
 ## Активность по секциям
 
@@ -54,72 +54,72 @@ _Период: 2026-05-04 — 2026-05-11 (7 дней)_
 
 ## Последние коммиты
 
+- `2026-05-11` [defa92c5] chore: update auto-generated dashboards
+- `2026-05-11` [c601257d] feat: add open letter drafts for 8 project authors
+- `2026-05-11` [f5d46f4c] chore: update auto-generated docs after reports pipeline run
+- `2026-05-11` [7741b0dd] fix: stabilize quality score 100/100 + 0 broken links
 - `2026-05-11` [089b157f] chore: update generated docs after reports pipeline run
 - `2026-05-11` [81af4bf5] feat: add improve_quality_patch.py to prevent score regression after p
 - `2026-05-11` [728700c0] fix: restore 100.0/100 and 0 broken links after second pipeline run
 - `2026-05-11` [c02dda87] fix: restore 100.0/100 quality score and 0 broken links after pipeline
 - `2026-05-10` [447e84d3] fix: restore 100.0/100 quality score and 0 broken links after pipeline
 - `2026-05-10` [cf9ebcce] feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link
-- `2026-05-10` [82d3705e] feat: improve doc quality score from 84.6 → 86.5/100
-- `2026-05-10` [a469b340] fix: remove 61 broken internal links (dangling #contents anchors + SEA
-- `2026-05-10` [88511476] feat: quality metrics 83.5→84.6/100, fix duplicate TOCs, add 680 callo
-- `2026-05-10` [043b81e0] feat: quality metrics 82.3→83.5/100, callout coverage 35%→95%
 
 ## Новые файлы
 
+- [`README.md`](letters/README.md) — `letters`
+- [`anastasiyaw.md`](letters/anastasiyaw.md) — `letters`
+- [`antipozitive.md`](letters/antipozitive.md) — `letters`
+- [`kksudo.md`](letters/kksudo.md) — `letters`
+- [`nlaik.md`](letters/nlaik.md) — `letters`
+- [`spbmolot.md`](letters/spbmolot.md) — `letters`
+- [`vitalyoborin.md`](letters/vitalyoborin.md) — `letters`
+- [`vitalysemenov.md`](letters/vitalysemenov.md) — `letters`
+- [`zodigancode.md`](letters/zodigancode.md) — `letters`
 - `improve_quality_patch.py` — `Скрипты`
 - [`LINK_PREVIEW.md`](LINK_PREVIEW.md) — `LINK_PREVIEW.md`
 - [`QA.md`](ai-collaborations/QA.md) — `ai-collaborations`
 - [`QA.md`](contacts/QA.md) — `Контакты`
 - [`link_cache.json`](link_cache.json) — `link_cache.json`
 - [`QA.md`](svyazi-2-0/QA.md) — `svyazi-2-0`
-- [`bad_links.json`](bad_links.json) — `bad_links.json`
-- `35a15f08a6f8fbb9.json` — `root`
-- `d3e7a0405f0e2d12.json` — `root`
-- [`research-docs-liteparse.md`](05-habr-projects/knowledge/research-docs-liteparse.md) — `Хабр-проекты`
-- [`rufler.md`](05-habr-projects/knowledge/rufler.md) — `Хабр-проекты`
-- `87fac45fc526db53.json` — `root`
-- [`mclaude.md`](05-habr-projects/knowledge/mclaude.md) — `Хабр-проекты`
-- `55bf4b0498b6556b.json` — `root`
-- `9307fc75b6d6965d.json` — `root`
 
 ## Изменённые файлы
 
-- `CHANGELOG.md`
-- [`QA.md`](01-svyazi/QA.md)
-- [`QA.md`](05-habr-projects/QA.md)
-- [`CHANGELOG.md`](CHANGELOG.md)
-- [`CITATION_INDEX.md`](CITATION_INDEX.md)
-- [`COMPARE.md`](COMPARE.md)
-- [`CONTACTS.md`](CONTACTS.md)
-- [`CONTACT_PRIORITY.md`](CONTACT_PRIORITY.md)
-- [`COST.md`](COST.md)
-- [`COVERAGE.md`](COVERAGE.md)
-- [`DEPENDABOT.md`](DEPENDABOT.md)
-- [`DIGEST.md`](DIGEST.md)
-- [`GITHUB_ISSUES.md`](GITHUB_ISSUES.md)
-- [`HEALTH.md`](HEALTH.md)
+- [`EMPTY_SECTIONS.md`](EMPTY_SECTIONS.md)
+- [`MCP_DASHBOARD.md`](MCP_DASHBOARD.md)
+- [`SKILL_DASHBOARD.md`](SKILL_DASHBOARD.md)
 - [`METRICS.md`](METRICS.md)
+- [`CONCEPT_GRAPH.md`](CONCEPT_GRAPH.md)
+- [`CONTRADICTIONS.md`](CONTRADICTIONS.md)
+- [`HEADING_AUDIT.md`](HEADING_AUDIT.md)
+- [`INDEX.md`](INDEX.md)
+- [`KNOWLEDGE_MAP.md`](KNOWLEDGE_MAP.md)
+- [`KPI_HISTORY.md`](KPI_HISTORY.md)
+- [`LANGUAGE_STATS.md`](LANGUAGE_STATS.md)
+- [`NAMED_ENTITIES.md`](NAMED_ENTITIES.md)
+- [`ONBOARDING.md`](ONBOARDING.md)
+- [`PARAGRAPH_QUALITY.md`](PARAGRAPH_QUALITY.md)
+- [`PASSIVE_VOICE.md`](PASSIVE_VOICE.md)
 
 ## Ключевые слова изменений
 
 | Слово | Добавлено | Удалено |
 |-------|-----------|---------|
-| `anthropic` | +46554 | −30542 |
-| `vacancies` | +36344 | −24259 |
-| `nautilus` | +24066 | −7611 |
-| `obsidian` | +19113 | −7753 |
-| `agent` | +15352 | −6817 |
-| `документ` | +15047 | −1922 |
-| `svyazi` | +13357 | −9928 |
-| `проблем` | +10783 | −2668 |
-| `также` | +10396 | −2620 |
-| `смотрите` | +10349 | −2549 |
-| `source` | +10244 | −1702 |
-| `text` | +9658 | −2624 |
-| `claude` | +9433 | −5251 |
-| `readme` | +9421 | −2907 |
-| `lorenzo` | +9418 | −3817 |
+| `anthropic` | +43851 | −30553 |
+| `vacancies` | +33683 | −24276 |
+| `nautilus` | +23168 | −7606 |
+| `obsidian` | +19347 | −7873 |
+| `документ` | +14985 | −1914 |
+| `agent` | +14790 | −6799 |
+| `svyazi` | +13191 | −9962 |
+| `также` | +10674 | −2622 |
+| `смотрите` | +10620 | −2552 |
+| `source` | +10242 | −1706 |
+| `text` | +9655 | −2624 |
+| `lorenzo` | +9387 | −3803 |
+| `readme` | +9380 | −2902 |
+| `claude` | +9325 | −5256 |
+| `документы` | +8942 | −4416 |
 
 ## Новые концепты
 

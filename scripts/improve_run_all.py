@@ -96,6 +96,7 @@ GROUPS = {
         "improve_readability_v2.py",
         "improve_content_gaps.py",
         "improve_link_preview.py",        # статус внешних ссылок (slow — HTTP)
+        "improve_sentinel_check.py",      # SENTINEL security audit
     ],
     "graph": [
         # Граф и визуализация

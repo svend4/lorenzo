@@ -1,40 +1,35 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
+<!-- toc-auto -->
+## Contents
+
+- [1. Wikontic: семантический граф](#1-wikontic-семантический-граф)
+- [2. NGT[^ngt] Memory: ассоциативный граф](#2-ngtngt-memory-ассоциативный-граф)
+- [3. Yodoca](#3-yodoca)
+- [Следующие шаги](#следующие-шаги)
+
+
+
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `COLLAB_SUGGESTIONS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «агент с памятью консолидация»
-> **Дата:** 2026-05-10 17:37  **Кандидатов:** 3
+> Автоматический поиск партнёрских проектов для: «агент с памятью консолидация граф знаний»
+> **Дата:** 2026-05-11 04:43  **Кандидатов:** 3
 
 ---
-
-<!-- toc -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Содержание
-
-- [1. Wikontic: семантический граф](#1-wikontic-семантический-граф)
-- [2. Yodoca](#2-yodoca)
-- [3. NGT[^ngt] Memory: ассоциативный граф](#3-ngtngt-memory-ассоциативный-граф)
-- [Следующие шаги](#следующие-шаги)
-
----
-
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Запрос:** агент с памятью консолидация
+**Запрос:** агент с памятью консолидация граф знаний
 
 ---
 
 ## 1. Wikontic: семантический граф
 
-**Релевантность:** `0.439`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.489`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
@@ -57,7 +52,7 @@
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «агент с памятью консолидация»
+**Тема:** Коллаборация по теме «агент с памятью консолидация граф знаний»
 
 Привет, VitalyOborin!
 
@@ -83,9 +78,60 @@ Lorenzo / svend4
 
 ---
 
-## 2. Yodoca
+## 2. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.428`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.277`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
+
+> ассоциативные связи в персистентной памяти LLM
+
+**Связан с:**
+  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+
+```
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «агент с памятью консолидация граф знаний»
+
+Привет, spbmolot!
+
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 3. Yodoca
+
+**Релевантность:** `0.147`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
 
@@ -108,7 +154,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «агент с памятью консолидация»
+**Тема:** Коллаборация по теме «агент с памятью консолидация граф знаний»
 
 Привет, VitalyOborin!
 
@@ -121,57 +167,6 @@ Lorenzo / svend4
 
 **Конкретные вопросы:**
 - Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 3. NGT[^ngt] Memory: ассоциативный граф
-
-**Релевантность:** `0.254`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
-
-**Теги:** memory, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
-
-> ассоциативные связи в персистентной памяти LLM
-
-**Связан с:**
-  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - docs/05-habr-projects/memory/agent-memory-[mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
-
-**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → spbmolot</summary>
-
-```
-**Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «агент с памятью консолидация»
-
-Привет, spbmolot!
-
-Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -199,29 +194,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "агент с памятью консолидация"
+   python scripts/improve_collab_finder.py --query "агент с памятью консолидация граф знаний"
    ```
 
-_Сгенерировано: 2026-05-10 17:37  |  Алгоритм: TF-IDF + BM25 + граф_
-
-<!-- see-also -->
-
----
-
-## Смотрите также
-- [yodoca](svyazi-2-0/components/yodoca.md)
-- [wikontic](05-habr-projects/knowledge/wikontic.md)
-- [NETWORK](NETWORK.md)
-- [ngt-memory](svyazi-2-0/components/ngt-memory.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [SEARCH](SEARCH.md)
-
+_Сгенерировано: 2026-05-11 04:43  |  Алгоритм: TF-IDF + BM25 + граф_

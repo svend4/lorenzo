@@ -119,6 +119,7 @@
   - [6. Adapter Interface](#6-adapter-interface)
   - [6. Adapter Interface](#6-adapter-interface-1)
 
+
 <!-- tags: code-blocks, docs -->
 
 

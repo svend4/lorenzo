@@ -469,7 +469,8 @@ def _parse_since(since_str: str) -> str | None:
     m = re.match(r'^(\d+)d$', since_str)
     if m:
         days = int(m.group(1))
-        dt = datetime.now() - __import__('datetime').timedelta(days=days)
+        from datetime import timedelta
+        dt = datetime.now() - timedelta(days=days)
         return dt.strftime("%Y-%m-%dT%H:%M:%S")
     # Дата: "2026-04-01" или "2026-04-01T10:00"
     for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%dT%H:%M", "%Y-%m-%d"):

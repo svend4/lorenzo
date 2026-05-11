@@ -40,14 +40,22 @@
 ✅ Все внутренние ссылки рабочие!
 
 
-## Внешние URL (341 уникальных)
+## Внешние URL (349 уникальных)
 
 _Внешние ссылки не проверяются автоматически — требуют ручной проверки._
 
 - http://localhost:8000
 - http://localhost:8000`
+- http://localhost:8000``
+- http://localhost:8000```
+- http://localhost:8000````
+- http://localhost:8000`````
 - http://localhost:8080
 - http://localhost:8080`
+- http://localhost:8080``
+- http://localhost:8080```
+- http://localhost:8080````
+- http://localhost:8080`````
 - https://...install.sh
 - https://...install.sh`
 - https://3dnews.ru/1140248/glava-[anthropic
@@ -66,14 +74,6 @@ _Внешние ссылки не проверяются автоматичес�
 - https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv`
 - https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz
 - https://claude.ai/code/session_01Dz4rhQWcqu2afRsJ5LqHpz`
-- https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW
-- https://claude.ai/code/session_01R8BfHH65xW6pXJw2RvvLiW`
-- https://claude.com/product/cowork
-- https://claude.com/product/cowork`
-- https://creativecommons.org/licenses/by/4.0/
-- https://creativecommons.org/licenses/by/4.0/`
-- https://datatracker
-- https://datatracker.ietf.org/doc/html/rfc2119
 
 ## Использование
 

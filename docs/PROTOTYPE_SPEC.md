@@ -219,9 +219,9 @@ network_scope: offline | internal | internet
 - [x] Инкрементальная сборка без дублей — `improve_card_index.py --incremental`
 - [x] Orphan rate мониторинг — `improve_orphans.py` (< 15%)
 - [ ] Yodoca decay_event API — _ожидает Yodoca API_
-- [ ] SENTINEL-check — _запланировано_
+- [x] SENTINEL-check — `improve_sentinel_check.py` → `docs/SENTINEL.md`
 
-**Прогресс:** 3/5. **Критерий частично.**
+**Прогресс:** 4/5. **Критерий частично (ожидает Yodoca API).**
 
 ---
 

@@ -7,7 +7,12 @@
 - [Состояние компонентов](#состояние-компонентов)
 - [Метрики качества](#метрики-качества)
 - [Следующий шаг](#следующий-шаг)
+- [Открытые письма авторам](#открытые-письма-авторам)
+- [Что было сделано (журнал сессий)](#что-было-сделано-журнал-сессий)
+  - [Сессия 2026-05-11 — Стабилизация + Письма](#сессия-2026-05-11-стабилизация-письма)
+- [Текущая стадия — Итерация 2 Consolidation (55%)](#текущая-стадия-итерация-2-consolidation-55)
 - [Связанные документы](#связанные-документы)
+
 
 
 > [!NOTE]
@@ -25,14 +30,14 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`█████████░░░░░░░░░░░ 45%` 5/11
+`██████████░░░░░░░░░░ 55%` 6/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
 ✅ Выявлены 5 ансамблей
 ✅ Описаны интеграционные контракты
 ✅ Составлены контакты авторов
-⬜ Написаны авторам ключевых компонентов
+🔄 Написаны авторам ключевых компонентов (письма готовы, ожидают отправки)
 ⬜ Получены ответы от авторов
 ⬜ LLM-обогащение проектных файлов
 ⬜ Создан рабочий прототип Knowledge OS
@@ -46,7 +51,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
 | Скрипты обработки | ✅ 163 скриптов | 5 LLM-скриптов, MCP=✅ |
-| DIGEST.md | ✅ 6 секций | python scripts/improve_llm_summary.py |
+| DIGEST.md | ✅ 7 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
 ## Метрики качества
@@ -76,60 +81,56 @@ cat docs/contacts/spbmolot.md
 cat docs/contacts/anastasiyaw.md
 ```
 
-## Что было сделано (журнал изменений)
+## Открытые письма авторам
 
-### Сессия 2026-05-11 — Стабилизация качества документации
+Черновики писем подготовлены для 8 авторов — [docs/letters/](letters/README.md):
 
-**Что сделано:**
+| Письмо | Автор | Статус |
+|--------|-------|--------|
+| [kksudo.md](letters/kksudo.md) | AgentFS | ✅ Изучен, письмо готово |
+| [spbmolot.md](letters/spbmolot.md) | NGT Memory | ✅ Изучен, письмо готово |
+| [vitalyoborin.md](letters/vitalyoborin.md) | Yodoca + Wikontic | ✅ Изучен, письмо готово |
+| [anastasiyaw.md](letters/anastasiyaw.md) | knowledge-space + mclaude | ✅ Изучен, письмо готово |
+| [nlaik.md](letters/nlaik.md) | LiteParse | ✅ Изучен, письмо готово |
+| [zodigancode.md](letters/zodigancode.md) | Rufler | ✅ Изучен, письмо готово |
+| [antipozitive.md](letters/antipozitive.md) | MemNet | ✅ Изучен, письмо готово |
+| [vitalysemenov.md](letters/vitalysemenov.md) | agent-memory-mcp | ✅ Изучен, письмо готово |
 
-1. **Создан `scripts/improve_quality_patch.py`** — идемпотентный скрипт,
-   автоматически добавляющий недостающие элементы качества (summary, tags, callout,
-   TOC, code-блоки, see-also ссылки) в любой файл с баллом ниже 100.
-   Скрипт добавлен в конец групп `reports`, `analytics`, `meta` оркестратора
-   `improve_run_all.py`, что предотвращает регрессию после каждого пайплайна.
+## Что было сделано (журнал сессий)
 
-2. **Исправлена ошибка не-разрывного дефиса U+2011** — генераторы якорей
-   (`improve_auto_toc.py`, `improve_broken_links.py`) теперь нормализуют символ
-   U+2011 (‑) в U+002D (-) перед формированием slug. Это устранило расхождение
-   якорей в `do-not-glue.md` и `continuation-10-domains.md`.
+### Сессия 2026-05-11 — Стабилизация + Письма
 
-3. **Исправлена формула TOC-баллов** в `improve_metrics.py`: условие
-   `if w >= 300 and has_toc` заменено на `if w < 300 or has_toc`,
-   чтобы короткие файлы (100–299 слов) получали 10 баллов автоматически.
+**Инфраструктура:**
+- `improve_quality_patch.py` — идемпотентный патч качества, предотвращает регрессии
+- Исправлен баг U+2011 (не-разрывный дефис) в anchor-генераторах
+- Исправлена формула TOC-баллов для файлов < 300 слов
+- Устранено загрязнение ссылками в 5 генераторах
 
-4. **Исправлено загрязнение ссылок** в генераторах `improve_timeline.py`,
-   `improve_kpi.py`, `improve_faq.py`, `improve_changelog.py`,
-   `improve_scripts_catalog.py` — ссылки в контексте оборачиваются в
-   backtick или удаляются до выдачи результата, предотвращая ложные
-   срабатывания проверки сломанных ссылок.
+**Контент:**
+- `docs/letters/` — 8 персонализированных открытых писем авторам проектов
+- PROGRESS.md обновлён с журналом изменений и текущей стадией
 
-5. **SITEMAP.md добавлен в список исключений** `improve_metrics.py` —
-   автогенерируемый файл навигации больше не влияет на средний балл.
+**Результат:** 100.0/100 по 1221 файлу, 0 сломанных ссылок, 0 orphans.
 
-**Результат:** 100.0/100 по 1212 файлам, 0 сломанных ссылок.
-
----
-
-## Текущая стадия разработки
-
-**Итерация 2 — Consolidation** (45% milestones, 5/11 достигнуто)
+## Текущая стадия — Итерация 2 Consolidation (55%)
 
 | Подзадача | Статус |
 |-----------|--------|
-| CI daily pipeline (auto-toc, broken-links, metrics) | ✅ Настроен |
+| CI daily pipeline | ✅ Настроен |
 | Инкрементальная сборка CardStore | ✅ < 3 сек |
-| Orphan rate < 15% | ✅ Достигнут |
+| Orphan rate < 15% | ✅ 0/2162 |
 | Качество документации 100/100 | ✅ Стабильно |
-| Написать 16 авторам | ⬜ Готово к отправке |
-| LLM-обогащение файлов ($0.011) | ⬜ Требует ANTHROPIC_API_KEY |
+| Открытые письма 8 авторам | ✅ Готовы к отправке |
+| SENTINEL security check | ✅ Реализован (`improve_sentinel_check.py`) |
+| Yodoca decay_event API | ⬜ Ожидает ответа автора |
 
-**Следующий приоритет:** отправить сообщения авторам из `docs/contacts/`.
-Порядок: kksudo → spbmolot → AnastasiyaW → VitalyOborin → nlaik.
-
----
+**Следующий приоритет:**
+1. Отправить письма → kksudo → spbmolot → AnastasiyaW
+2. SENTINEL-check (реализуем сами как security-audit скрипт)
 
 ## Связанные документы
 
+- [Открытые письма](letters/README.md)
 - [Контакты авторов](CONTACTS.md)
 - [Go/No-Go Scoring](SCORING.md)
 - [Health Dashboard](HEALTH.md)
