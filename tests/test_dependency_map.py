@@ -57,3 +57,29 @@ def test_dependency_map_health_depends_on_metrics():
 def test_docs_path_attribute():
     assert hasattr(mod, "DOCS")
     assert isinstance(mod.DOCS, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_dependency_map_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DEPENDENCY_MAP.md").exists()
+
+
+def test_main_dependency_map_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DEPENDENCY_MAP.md").read_text(encoding="utf-8")
+    assert "improve_" in text
+    assert "search_index" in text.lower() or "DEPENDENCY" in text
+
+
+def test_main_dependency_map_is_markdown(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DEPENDENCY_MAP.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

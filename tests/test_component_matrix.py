@@ -85,3 +85,38 @@ def test_matrix_values_are_valid_symbols():
     for comp, row in mod.MATRIX.items():
         for val in row:
             assert val in valid, f"Invalid value {val!r} in matrix for {comp}"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_component_matrix_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "COMPONENT_MATRIX.md").exists()
+
+
+def test_main_component_matrix_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "COMPONENT_MATRIX.md").read_text(encoding="utf-8")
+    assert "Матрица компонентов" in text
+    assert "AgentFS" in text
+    assert "CardIndex" in text
+
+
+def test_main_component_matrix_has_features_table(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "COMPONENT_MATRIX.md").read_text(encoding="utf-8")
+    assert "Покрытие возможностей" in text
+
+
+def test_main_component_matrix_has_ensembles(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "COMPONENT_MATRIX.md").read_text(encoding="utf-8")
+    assert "Knowledge OS" in text

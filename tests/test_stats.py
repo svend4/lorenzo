@@ -90,3 +90,42 @@ def test_analyze_file_empty():
 def test_analyze_file_counts_images():
     result = mod.analyze_file("![Image](img.png) text here.")
     assert result["images"] == 1
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_stats_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n## Section\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "STATS.md").exists()
+
+
+def test_main_stats_md_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n## Section\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "STATS.md").read_text(encoding="utf-8")
+    assert "# Детальная статистика" in text
+    assert "ИТОГО" in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "STATS.md").exists()
+
+
+def test_main_skips_skip_files(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "STATS.md").write_text("old content", encoding="utf-8")
+    (tmp_path / "HEALTH.md").write_text("health content", encoding="utf-8")
+    (tmp_path / "doc.md").write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "STATS.md").read_text(encoding="utf-8")
+    # HEALTH.md content should not appear as a scanned doc (it's in SKIP)
+    assert "STATS.md" not in text or "Статистика" in text

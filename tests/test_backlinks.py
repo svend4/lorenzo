@@ -79,3 +79,42 @@ def test_extract_links_missing_target(tmp_path, monkeypatch):
     source.write_text("# Source\n", encoding="utf-8")
     result = mod.extract_links("[Link](nonexistent.md)", source)
     assert len(result) == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_backlinks_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    (tmp_path / "doc1.md").write_text("# Doc1\n\nContent.", encoding="utf-8")
+    (tmp_path / "doc2.md").write_text("# Doc2\n\n[Link](doc1.md)", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "BACKLINKS.md").exists()
+
+
+def test_main_backlinks_md_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    (tmp_path / "doc.md").write_text("# Doc\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "BACKLINKS.md").read_text(encoding="utf-8")
+    assert "Индекс обратных ссылок" in text
+
+
+def test_main_dry_run_no_output(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(sys, "argv", ["prog", "--dry-run"])
+    (tmp_path / "doc.md").write_text("# Doc\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert not (tmp_path / "BACKLINKS.md").exists()
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(sys, "argv", ["prog"])
+    mod.main()
+    assert (tmp_path / "BACKLINKS.md").exists()

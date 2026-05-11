@@ -105,3 +105,40 @@ def test_jaccard_partial_overlap():
     result = mod.jaccard(a, b)
     # intersection = {agent}, union = {agent, memory, search}
     assert abs(result - 1/3) < 1e-9
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_similar_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc1.md").write_text("# AgentFS\n\nAgent file system memory.", encoding="utf-8")
+    (tmp_path / "doc2.md").write_text("# Yodoca\n\nMemory consolidation agent.", encoding="utf-8")
+    (tmp_path / "doc3.md").write_text("# NGT\n\nAssociative graph memory.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SIMILAR.md").exists()
+
+
+def test_main_similar_md_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc1.md").write_text("# AgentFS\n\nAgent file system memory.", encoding="utf-8")
+    (tmp_path / "doc2.md").write_text("# Yodoca\n\nMemory consolidation agent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SIMILAR.md").read_text(encoding="utf-8")
+    assert "Похожие документы" in text or "doc" in text.lower()
+
+
+def test_main_single_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "only.md").write_text("# Only doc\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SIMILAR.md").exists()
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "SIMILAR.md").exists()
