@@ -117,3 +117,44 @@ def test_search_no_match():
     index = {"agent": [{"file": "file1.md", "section": "root", "count": 5, "tf": 0.1}]}
     result = mod.search(index, "xyznomatch")
     assert len(result) == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_keyword_index_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    mod.main()
+    assert (tmp_path / "KEYWORD_INDEX.md").exists()
+
+
+def test_main_keyword_index_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgent memory system.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "KEYWORD_INDEX.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    mod.main()
+    assert (tmp_path / "KEYWORD_INDEX.md").exists()
+
+
+def test_main_keyword_index_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    mod.main()
+    text = (tmp_path / "KEYWORD_INDEX.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

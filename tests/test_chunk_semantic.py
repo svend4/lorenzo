@@ -133,3 +133,36 @@ def test_chunk_file_entries_have_keys(tmp_path, monkeypatch):
         assert "source" in chunk
         assert "text" in chunk
         assert "word_count" in chunk
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_chunks_dir(tmp_path, monkeypatch):
+    chunks_dir = tmp_path / "chunks"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "OUTPUT_DIR", chunks_dir)
+    mod.main()
+    assert chunks_dir.exists()
+
+
+def test_main_creates_all_chunks_jsonl(tmp_path, monkeypatch):
+    chunks_dir = tmp_path / "chunks"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "OUTPUT_DIR", chunks_dir)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent about memory.", encoding="utf-8")
+    mod.main()
+    assert (chunks_dir / "all_chunks.jsonl").exists()
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    chunks_dir = tmp_path / "chunks"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "OUTPUT_DIR", chunks_dir)
+    mod.main()  # no files → creates empty all_chunks.jsonl
+    assert (chunks_dir / "all_chunks.jsonl").exists()

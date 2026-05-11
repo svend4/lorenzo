@@ -139,3 +139,28 @@ def test_css_constant():
 def test_docs_path_attribute():
     assert hasattr(mod, "DOCS")
     assert isinstance(mod.DOCS, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_index_html(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "index.html").exists()
+
+
+def test_main_html_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "index.html").read_text(encoding="utf-8")
+    assert "<html" in text or "<!DOCTYPE" in text or "AgentFS" in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "index.html").exists()

@@ -210,3 +210,28 @@ def test_get_section_returns_string(monkeypatch, tmp_path):
     path = tmp_path / "some" / "file.md"
     result = mod.get_section(path)
     assert isinstance(result, str)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_export_csv(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "export.csv").exists()
+
+
+def test_main_export_csv_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "export.csv").read_text(encoding="utf-8")
+    assert len(text) > 0
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "export.csv").exists()

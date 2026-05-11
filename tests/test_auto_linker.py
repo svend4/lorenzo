@@ -146,3 +146,34 @@ def test_process_file_skips_code_blocks(tmp_path, monkeypatch):
     new_text, count = mod.process_file(f, entity_map)
     # Code blocks should not be linked
     assert "```" in new_text
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgentFS memory agent.", encoding="utf-8")
+    mod.main()  # dry-run → must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()  # no files → must not raise
+
+
+def test_main_apply_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "APPLY", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent about memory.", encoding="utf-8")
+    mod.main()  # apply → must not raise

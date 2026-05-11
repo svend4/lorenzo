@@ -122,3 +122,39 @@ def test_extract_summary_skips_short_sentences():
     # Should skip very short sentences (< 5 words)
     if result:
         assert len(result.split()) >= 5
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_alerts_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    assert (tmp_path / "ALERTS.md").exists()
+
+
+def test_main_alerts_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "ALERTS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_dry_run_no_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    mod.main()  # dry-run → no ALERTS.md written, must not raise
+
+
+def test_main_alerts_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    text = (tmp_path / "ALERTS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

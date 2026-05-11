@@ -152,3 +152,39 @@ def test_rewrite_links_no_links_unchanged():
     source = ROOT / "docs" / "file.md"
     result = mod.rewrite_links(table, source)
     assert result == table
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_tables_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "TABLES.md").exists()
+
+
+def test_main_tables_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n| Col1 | Col2 |\n|------|------|\n| A | B |\n",
+        encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "TABLES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "TABLES.md").exists()
+
+
+def test_main_tables_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "TABLES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

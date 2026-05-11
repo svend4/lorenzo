@@ -162,3 +162,29 @@ def test_get_h2_sections_strips_content():
 def test_get_h2_sections_empty_text():
     result = mod.get_h2_sections("")
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_export_json(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "export_full.json").exists()
+
+
+def test_main_json_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    import json
+    data = json.loads((tmp_path / "export_full.json").read_text(encoding="utf-8"))
+    assert isinstance(data, (dict, list))
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "export_full.json").exists()
