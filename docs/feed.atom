@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T13:59:39+00:00</updated>
+  <updated>2026-05-11T14:26:24+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/1d63000a0099eb0144a177b13e1bfa58c61d76be</id>
+    <title>chore: update auto-generated feed and search index</title>
+    <link href="https://github.com/svend4/lorenzo/commit/1d63000a0099eb0144a177b13e1bfa58c61d76be"/>
+    <updated>2026-05-11T14:00:39+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: update auto-generated feed and search index</strong></p><p>Коммит: <code>1d63000a</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/2690e4620dee4107e7c82fe6a5904a6ed4d00088</id>
     <title>chore: update auto-generated docs after test suite run</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/b3b6c5db50e6493e7c18b94ed23a865e0334c58c"/>
     <updated>2026-05-11T08:48:55+00:00</updated>
     <content type="html"><![CDATA[<p><strong>test: +44 теста — test_progress_sync.py + test_semantic_search.py</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>b3b6c5db</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/07739d9ca7c375f41bef5be23b74b51b005fc657</id>
-    <title>chore: обновление зеркальных файлов obsidian/confluence</title>
-    <link href="https://github.com/svend4/lorenzo/commit/07739d9ca7c375f41bef5be23b74b51b005fc657"/>
-    <updated>2026-05-11T08:42:05+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>chore: обновление зеркальных файлов obsidian/confluence</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>07739d9c</code></p>]]></content>
   </entry>
 </feed>
