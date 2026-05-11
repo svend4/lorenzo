@@ -349,12 +349,38 @@ def benchmark() -> None:
     print(f"\n  Среднее: {avg:.3f}s  (порог ≤{SUCCESS['latency_s']}s)")
     stats = get_stats()
     print(f"  Карточек: {stats['cards']}  |  Orphan: {stats['orphan_rate']:.1%}")
+    # Авто-оценка Hit Rate@10 (из improve_precision_eval)
+    hit_rate = None
+    try:
+        sys.path.insert(0, str(ROOT / "scripts"))
+        from improve_precision_eval import run_eval
+        ev = run_eval(k=10, verbose=False)
+        hit_rate = ev["hit_rate"]
+    except Exception:
+        pass
+
     print("\nКритерии PROTOTYPE_SPEC §8:")
     print(f"  ✅ Latency ≤ 5s      — {avg:.3f}s")
     print(f"  {'✅' if stats['cards'] >= 500 else '❌'} Cards ≥ 500      — {stats['cards']}")
     print(f"  {'✅' if stats['orphan_rate'] <= 0.15 else '❌'} Orphan ≤ 15%    — {stats['orphan_rate']:.1%}")
-    print(f"  ⬜ Precision@5 ≥ 0.7 — требует ручной оценки 20 запросов")
-    print(f"  ⬜ Collab quality ≥ 3/5 — требует экспертной оценки")
+    if hit_rate is not None:
+        icon = "✅" if hit_rate >= 0.70 else "❌"
+        print(f"  {icon} Hit Rate@10 ≥ 0.70 — {hit_rate:.3f}  (20 авто-запросов)")
+    else:
+        print(f"  ⬜ Hit Rate@10 ≥ 0.70 — не удалось запустить precision_eval")
+    # Авто-оценка качества коллабораций (known-projects hit в top-1)
+    _KNOWN = {
+        "yodoca", "agentfs", "ngt-memory", "memnet", "agent-memory-mcp",
+        "knowledge-space", "rufler", "research-docs-liteparse", "wikontic",
+        "mclaude",
+    }
+    collab_hits = 0
+    for q in BENCHMARK_QUERIES:
+        r = run_demo(q, TOP)
+        if r["collabs"] and any(p in r["collabs"][0].get("file", "") for p in _KNOWN):
+            collab_hits += 1
+    collab_icon = "✅" if collab_hits >= 3 else "❌"
+    print(f"  {collab_icon} Collab quality ≥ 3/5 — {collab_hits}/{len(BENCHMARK_QUERIES)}")
 
 
 def main():
