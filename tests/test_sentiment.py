@@ -106,3 +106,37 @@ def test_tone_label_optimistic_equal():
     # Exactly pos == neg*2 + 1
     result = mod.tone_label(11, 5, 2, 1, 100)
     assert "оптимистичный" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_sentiment_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nОтличная архитектура! Быстрый поиск.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SENTIMENT.md").exists()
+
+
+def test_main_sentiment_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nПроблема памяти решена.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SENTIMENT.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "SENTIMENT.md").exists()
+
+
+def test_main_sentiment_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "SENTIMENT.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

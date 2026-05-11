@@ -94,3 +94,37 @@ def test_normalize_url_no_change():
     url = "https://github.com/user/repo"
     result = mod._normalize_url(url)
     assert result == url
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_citation_index_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nSee https://github.com/user/repo for more.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CITATION_INDEX.md").exists()
+
+
+def test_main_citation_index_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nSee https://github.com/user/repo for details.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CITATION_INDEX.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CITATION_INDEX.md").exists()
+
+
+def test_main_citation_index_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CITATION_INDEX.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

@@ -94,3 +94,37 @@ def test_collect_all_links_empty_list(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "ROOT", tmp_path)
     result = mod.collect_all_links([])
     assert result == set()
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_orphans_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "ORPHANS.md").exists()
+
+
+def test_main_orphans_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "ORPHANS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ORPHANS.md").exists()
+
+
+def test_main_orphans_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "ORPHANS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
