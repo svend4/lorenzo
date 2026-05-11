@@ -1,11 +1,24 @@
 ---
 title: "Outline базы знаний"
 tags:
+  - outline
+  - docs
   - general
 date: 2026-05-11
 ---
 
 # Outline базы знаний
+
+> [!NOTE]
+> Раздел `OUTLINE` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: outline, docs -->
+
+
+<!-- summary -->
+> `OUTLINE` — раздел документации проекта Lorenzo.
+
 
 _Обновлено: 2026-05-11_
 
@@ -15158,3 +15171,90 @@ _Слов: 367_
 - [[162-8-risk-analysis|`162-8-risk-analysis`]]
 - _... ещё 20_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_outline.py
+```
+```bash
+# Вариант 2
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 12
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 13
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 14
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 15
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 16
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 17
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 18
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 19
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 20
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 21
+python scripts/improve_outline.py --dry-run
+```

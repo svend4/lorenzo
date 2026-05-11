@@ -1,18 +1,5 @@
 # Богатство словаря документов
 
-<!-- toc -->
-## Содержание
-
-- [Корпусная статистика](#корпусная-статистика)
-- [Топ файлов по богатству словаря (STTR)](#топ-файлов-по-богатству-словаря-sttr)
-- [Файлы с бедным словарём (требуют доработки)](#файлы-с-бедным-словарём-требуют-доработки)
-- [Справка по метрикам](#справка-по-метрикам)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -28,7 +15,7 @@
 
 _Обновлено: 2026-05-11_
 
-Файлов: **1236** | Токенов: **1,098,035** | Уникальных: **334,376**
+Файлов: **1236** | Токенов: **1,063,704** | Уникальных: **333,494**
 
 ## Корпусная статистика
 
@@ -44,11 +31,11 @@ _Обновлено: 2026-05-11_
 
 | Файл | STTR | TTR | Hapax% | Lex.Density | Токенов |
 |------|------|-----|--------|-------------|---------|
-| `ABBREVIATIONS.md` | 0.912 | 0.674 | 74% | 0.865 | 1152 |
+| `ABBREVIATIONS.md` | 0.904 | 0.699 | 74% | 0.859 | 1101 |
 | `VALIDATION.md` | 0.880 | 0.838 | 87% | 0.948 | 210 |
 | `04-desyat-oblastey.md` | 0.876 | 0.555 | 70% | 0.910 | 1493 |
 | `189-аннотация.md` | 0.873 | 0.600 | 62% | 0.831 | 355 |
-| `ENTITIES.md` | 0.870 | 0.635 | 80% | 0.975 | 159 |
+| `ENTITIES.md` | 0.870 | 0.639 | 80% | 0.975 | 158 |
 | `02-final-ranking.md` | 0.860 | 0.636 | 75% | 0.822 | 687 |
 | `kksudo.md` | 0.860 | 0.690 | 80% | 0.837 | 361 |
 | `00-question-innovations-transitions.md` | 0.860 | 0.515 | 69% | 0.828 | 2790 |
@@ -79,14 +66,14 @@ _Обновлено: 2026-05-11_
 
 | Файл | STTR | Оценка | Токенов |
 |------|------|--------|---------|
-| `LINK_PREVIEW.md` | 0.162 | 🔴 Очень бедный | 921 |
+| `LINK_PREVIEW.md` | 0.129 | 🔴 Очень бедный | 1186 |
 | `28-appendix-a-minimal-working-example.md` | 0.250 | 🔴 Очень бедный | 240 |
 | `CONSISTENCY.md` | 0.268 | 🔴 Очень бедный | 1197 |
-| `READABILITY.md` | 0.297 | 🔴 Очень бедный | 27670 |
-| `PRIORITIES.md` | 0.301 | 🔴 Очень бедный | 4120 |
+| `READABILITY.md` | 0.297 | 🔴 Очень бедный | 27676 |
+| `PRIORITIES.md` | 0.298 | 🔴 Очень бедный | 4117 |
 | `DEPENDENCY_MAP.md` | 0.305 | 🔴 Очень бедный | 1405 |
 | `CROSSREFS.md` | 0.306 | 🔴 Очень бедный | 849 |
-| `SIMILAR.md` | 0.315 | 🔴 Очень бедный | 200 |
+| `SIMILAR.md` | 0.310 | 🔴 Очень бедный | 225 |
 | `305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | 0.315 | 🔴 Очень бедный | 424 |
 | `41-compatibility-level.md` | 0.317 | 🔴 Очень бедный | 363 |
 | `35-passports-info1-md.md` | 0.317 | 🔴 Очень бедный | 320 |
@@ -96,19 +83,19 @@ _Обновлено: 2026-05-11_
 | `98-appendix-a-minimal-working-example.md` | 0.330 | 🔴 Очень бедный | 312 |
 | `57-native-format.md` | 0.330 | 🔴 Очень бедный | 282 |
 | `45-passports-pro2-md.md` | 0.330 | 🔴 Очень бедный | 288 |
-| `SEE_ALSO.md` | 0.334 | 🔴 Очень бедный | 1179 |
+| `SEE_ALSO.md` | 0.336 | 🔴 Очень бедный | 1185 |
 | `61-compatibility-level.md` | 0.337 | 🔴 Очень бедный | 309 |
 | `42-author-contact.md` | 0.338 | 🔴 Очень бедный | 477 |
 | `README.md` | 0.340 | 🔴 Очень бедный | 119 |
 | `05-0-status-of-this-document.md` | 0.340 | 🔴 Очень бедный | 467 |
-| `HEADING_AUDIT.md` | 0.343 | 🔴 Очень бедный | 28848 |
+| `HEADING_AUDIT.md` | 0.342 | 🔴 Очень бедный | 29001 |
 | `65-readme-md.md` | 0.343 | 🔴 Очень бедный | 328 |
 | `62-author-contact.md` | 0.345 | 🔴 Очень бедный | 419 |
+| `TAGS.md` | 0.349 | 🔴 Очень бедный | 873 |
 | `22-10-queryresult-structure.md` | 0.350 | 🔴 Очень бедный | 512 |
 | `169-table-of-contents.md` | 0.350 | 🔴 Очень бедный | 422 |
-| `READING_TIME.md` | 0.352 | 🔴 Очень бедный | 27595 |
+| `READING_TIME.md` | 0.352 | 🔴 Очень бедный | 27607 |
 | `152-ai-coordinated-infrastructure-for-distributed-expe.md` | 0.352 | 🔴 Очень бедный | 498 |
-| `STALENESS.md` | 0.355 | 🔴 Очень бедный | 234 |
 
 ## Справка по метрикам
 
@@ -131,38 +118,3 @@ python scripts/improve_vocabulary.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [CONCEPTS](CONCEPTS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [VOCABULARY](obsidian/VOCABULARY.md) (сходство 0.97)
-- [COMPLEXITY](obsidian/COMPLEXITY.md) (сходство 0.22)
-- [COMPLEXITY](COMPLEXITY.md) (сходство 0.22)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [PASSIVE_VOICE](PASSIVE_VOICE.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-

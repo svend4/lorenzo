@@ -15,7 +15,7 @@
 
 _Обновлено: 2026-05-11_
 
-Файлов: **1067** | Средний пассив: **1.4%** (🟢 Активный стиль)
+Файлов: **1066** | Средний пассив: **1.4%** (🟢 Активный стиль)
 
 ## Корпусная статистика
 
@@ -23,7 +23,7 @@ _Обновлено: 2026-05-11_
 |---------|----------|
 | Средний % пассива | 1.4% |
 | Всего канцеляризмов | 101 |
-| Всего номинализаций | 20991 |
+| Всего номинализаций | 18496 |
 | Оценка | 🟢 Активный стиль |
 
 ## Топ файлов по доле пассива
@@ -35,7 +35,7 @@ _Обновлено: 2026-05-11_
 | `README.md` | 40% | 🔴 Преимущественно пассив | 2 | 0 | 0 |
 | `README.md` | 40% | 🔴 Преимущественно пассив | 2 | 0 | 0 |
 | `ABBREVIATIONS.md` | 38% | 🔴 Преимущественно пассив | 1 | 2 | 1 |
-| `MCP_DASHBOARD.md` | 33% | 🔴 Преимущественно пассив | 3 | 0 | 0 |
+| `MCP_DASHBOARD.md` | 33% | 🔴 Преимущественно пассив | 2 | 0 | 0 |
 | `SKILL_DASHBOARD.md` | 29% | 🟠 Много пассива | 2 | 0 | 0 |
 | `301-благодарности.md` | 25% | 🟠 Много пассива | 3 | 0 | 0 |
 | `327-1-открытие-cowork-и-почему-это-меняет-всё.md` | 21% | 🟠 Много пассива | 8 | 0 | 2 |
@@ -64,39 +64,3 @@ python scripts/improve_passive_voice.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- [15-appendix-c-history](nautilus/review-methodology/15-appendix-c-history.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) (сходство 0.92)
-- [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.34)
-- [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.33)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [KPI_HISTORY](KPI_HISTORY.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-

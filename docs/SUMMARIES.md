@@ -1,64 +1,5 @@
 # Резюме документов (TextRank)
 
-<!-- toc -->
-## Содержание
-
-- [`docs/01-svyazi/00-intro-part2.md`](#docs01-svyazi00-intro-part2md)
-- [`docs/01-svyazi/01-executive-summary.md`](#docs01-svyazi01-executive-summarymd)
-- [`docs/01-svyazi/02-methodology.md`](#docs01-svyazi02-methodologymd)
-- [`docs/01-svyazi/03-component-catalog.md`](#docs01-svyazi03-component-catalogmd)
-- [`docs/01-svyazi/04-ensembles-overview.md`](#docs01-svyazi04-ensembles-overviewmd)
-- [`docs/01-svyazi/06-security-privacy.md`](#docs01-svyazi06-security-privacymd)
-- [`docs/01-svyazi/07-mvp-planning.md`](#docs01-svyazi07-mvp-planningmd)
-- [`docs/01-svyazi/08-conclusions.md`](#docs01-svyazi08-conclusionsmd)
-- [`docs/01-svyazi/09-architectural-gaps.md`](#docs01-svyazi09-architectural-gapsmd)
-- [`docs/01-svyazi/10-second-order-ensembles.md`](#docs01-svyazi10-second-order-ensemblesmd)
-- [`docs/01-svyazi/11-integration-contracts.md`](#docs01-svyazi11-integration-contractsmd)
-- [`docs/01-svyazi/12-roadmap.md`](#docs01-svyazi12-roadmapmd)
-- [`docs/01-svyazi/13-contacts.md`](#docs01-svyazi13-contactsmd)
-- [`docs/01-svyazi/14-limitations.md`](#docs01-svyazi14-limitationsmd)
-- [`docs/01-svyazi/QA.md`](#docs01-svyaziqamd)
-- [`docs/01-svyazi/README.md`](#docs01-svyazireadmemd)
-- [`docs/02-anthropic-vacancies/00-intro.md`](#docs02-anthropic-vacancies00-intromd)
-- [`docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`](#docs02-anthropic-vacancies01-интегральный-анализ-профиля-svend4md)
-- [`docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`](#docs02-anthropic-vacancies02-общий-план-развития-nautilus-portal-protocolmd)
-- [`docs/02-anthropic-vacancies/03-portal-protocol-md.md`](#docs02-anthropic-vacancies03-portal-protocol-mdmd)
-- [`docs/02-anthropic-vacancies/04-abstract.md`](#docs02-anthropic-vacancies04-abstractmd)
-- [`docs/02-anthropic-vacancies/05-0-status-of-this-document.md`](#docs02-anthropic-vacancies05-0-status-of-this-documentmd)
-- [`docs/02-anthropic-vacancies/06-1-introduction.md`](#docs02-anthropic-vacancies06-1-introductionmd)
-- [`docs/02-anthropic-vacancies/07-2-terminology.md`](#docs02-anthropic-vacancies07-2-terminologymd)
-- [`docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md`](#docs02-anthropic-vacancies08-3-registry-nautilus-jsonmd)
-- [`docs/02-anthropic-vacancies/09-4-passport-passport-md.md`](#docs02-anthropic-vacancies09-4-passport-passport-mdmd)
-- [`docs/02-anthropic-vacancies/102-доступ-к-данным.md`](#docs02-anthropic-vacancies102-доступ-к-даннымmd)
-- [`docs/02-anthropic-vacancies/103-appendix-b-change-log.md`](#docs02-anthropic-vacancies103-appendix-b-change-logmd)
-- [`docs/02-anthropic-vacancies/104-appendix-c-references.md`](#docs02-anthropic-vacancies104-appendix-c-referencesmd)
-- [`docs/02-anthropic-vacancies/105-review-methodology-md.md`](#docs02-anthropic-vacancies105-review-methodology-mdmd)
-- [`docs/02-anthropic-vacancies/106-tl-dr.md`](#docs02-anthropic-vacancies106-tl-drmd)
-- [`docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md`](#docs02-anthropic-vacancies107-1-контекст-и-мотивацияmd)
-- [`docs/02-anthropic-vacancies/108-2-формальный-workflow.md`](#docs02-anthropic-vacancies108-2-формальный-workflowmd)
-- [`docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`](#docs02-anthropic-vacancies109-3-принципы-консолидации-фаза-cmd)
-- [`docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`](#docs02-anthropic-vacancies110-вопрос-fallback-ratio-как-критический-или-осмысленmd)
-- [`docs/02-anthropic-vacancies/111-4-условия-применимости.md`](#docs02-anthropic-vacancies111-4-условия-применимостиmd)
-- [`docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md`](#docs02-anthropic-vacancies112-5-связь-с-существующими-методологиямиmd)
-- [`docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md`](#docs02-anthropic-vacancies113-6-почему-это-валидный-паттерн-для-ai-assisted-workmd)
-- [`docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`](#docs02-anthropic-vacancies114-7-реализация-в-проекте-nautilusmd)
-- [`docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`](#docs02-anthropic-vacancies115-8-ограничения-и-открытые-вопросыmd)
-- [`docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md`](#docs02-anthropic-vacancies116-9-checklist-применения-методологииmd)
-- [`docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md`](#docs02-anthropic-vacancies117-10-конкретный-план-применения-к-текущим-документамmd)
-- [`docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md`](#docs02-anthropic-vacancies118-appendix-a-шаблон-для-header-warningmd)
-- [`docs/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md`](#docs02-anthropic-vacancies119-appendix-b-примеры-расхождений-и-их-разрешенияmd)
-- [`docs/02-anthropic-vacancies/12-content-overview.md`](#docs02-anthropic-vacancies12-content-overviewmd)
-- [`docs/02-anthropic-vacancies/120-главные-технические-риски.md`](#docs02-anthropic-vacancies120-главные-технические-рискиmd)
-- [`docs/02-anthropic-vacancies/121-appendix-c-история-изменений-методологии.md`](#docs02-anthropic-vacancies121-appendix-c-история-изменений-методологииmd)
-- [`docs/02-anthropic-vacancies/122-глоссарий.md`](#docs02-anthropic-vacancies122-глоссарийmd)
-- [`docs/02-anthropic-vacancies/123-portal-mcp-py.md`](#docs02-anthropic-vacancies123-portal-mcp-pymd)
-- [`docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md`](#docs02-anthropic-vacancies124-конфигурация-для-claude-desktopmd)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -74,7 +15,7 @@
 
 _Обновлено: 2026-05-11_
 
-Файлов: **1097** | Предложений: **3** на документ
+Файлов: **1101** | Предложений: **3** на документ
 
 ## `docs/01-svyazi/00-intro-part2.md`
 
@@ -403,38 +344,3 @@ python scripts/improve_summaries.py --dry-run
 - [Оценка](SCORING.md)
 - [Теги](TAGS.md)
 - [Задачи](ACTION_ITEMS.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [CONCEPTS](CONCEPTS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [SUMMARIES](obsidian/SUMMARIES.md) (сходство 1.00)
-- [READING_ORDER](READING_ORDER.md) (сходство 0.22)
-- [READING_ORDER](obsidian/READING_ORDER.md) (сходство 0.22)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [READING_ORDER](READING_ORDER.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-- [SITEMAP](SITEMAP.md)
-- [SOURCE_MAP](SOURCE_MAP.md)
-

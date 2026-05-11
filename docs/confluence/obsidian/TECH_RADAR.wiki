@@ -13,20 +13,6 @@ date: 2026-05-11
 h1. Tech Radar — Svyazi 2.0
 
 
-h2. Содержание
-
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
-* [Смотрите также|#смотрите-также]
-
-----
-
-
-
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{TECH_RADAR}} формируется автоматически из данных репозитория.{quote}
@@ -128,40 +114,3 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [[CONCEPTS]]
-* [[INDEX]]
-* [[OUTLINE]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* [[SEARCH]]
-* [[TABLES]]
-* _...ещё 2_
-
-
-
-
-----
-
-_Похожие документы:_
-* [[TECH_RADAR]] (сходство 0.97)
-* [[COMPONENT_MATRIX]] (сходство 0.25)
-* [[COMPONENT_MATRIX]] (сходство 0.21)
-
-
-
-
-----
-
-_Смотрите также:_
-* [[COMPONENT_MATRIX]]
-* [[ONBOARDING]]
-* [[CONCEPT_GRAPH]]
-* [[KEYWORD_INDEX]]
-

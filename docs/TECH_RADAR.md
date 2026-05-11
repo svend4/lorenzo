@@ -1,19 +1,5 @@
 # Tech Radar — Svyazi 2.0
 
-<!-- toc -->
-## Содержание
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -120,40 +106,3 @@ _Radar обновляется вручную при существенных и�
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [CONCEPTS](CONCEPTS.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- _...ещё 2_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [TECH_RADAR](obsidian/TECH_RADAR.md) (сходство 0.97)
-- [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) (сходство 0.25)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md) (сходство 0.21)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [ONBOARDING](ONBOARDING.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
-

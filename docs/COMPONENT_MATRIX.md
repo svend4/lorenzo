@@ -1,18 +1,5 @@
 # Матрица компонентов Svyazi 2.0
 
-<!-- toc -->
-## Содержание
-
-- [Матрица возможностей](#матрица-возможностей)
-- [Покрытие возможностей](#покрытие-возможностей)
-- [Каталог компонентов](#каталог-компонентов)
-- [Рекомендуемые ансамбли](#рекомендуемые-ансамбли)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -68,7 +55,7 @@ _Совместимость и возможности 14 компонентов 
 
 | Компонент | Лицензия | Статус | Репозиторий |
 |-----------|----------|--------|-------------|
-| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/CardIndex` |
+| **CardIndex** | 🟢 MIT | 🟢 stable | `kksudo/card-index` |
 | **AgentFS** | 🟢 MIT | 🟢 stable | `kksudo/agentfs` |
 | **Yodoca** | 🟢 Apache 2.0 | 🔵 active | `spbmolot/yodoca` |
 | **NGT-memory** | 🟠 BSL 1.1 | 🔵 active | — |
@@ -107,40 +94,3 @@ python scripts/improve_component_matrix.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (17):**
-- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
-- [10-second-order-ensembles](01-svyazi/10-second-order-ensembles.md)
-- [04-приоритетные-ансамбли](04-ai-collaborations/04-приоритетные-ансамбли.md)
-- [05-план-прототипа-и-возможные-контакты](04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md)
-- [07-выводы](04-ai-collaborations/07-выводы.md)
-- [10-новые-ансамбли-следующего-шага](04-ai-collaborations/10-новые-ансамбли-следующего-шага.md)
-- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md)
-- [CONTACTS](CONTACTS.md)
-- _...ещё 9_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) (сходство 0.80)
-- [DENSITY](obsidian/DENSITY.md) (сходство 0.27)
-- [DENSITY](DENSITY.md) (сходство 0.27)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [TECH_RADAR](TECH_RADAR.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-

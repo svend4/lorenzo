@@ -6,11 +6,24 @@
 ----
 title: "Outline базы знаний"
 tags:
+  * outline
+  * docs
   * general
 date: 2026-05-11
 ----
 
 h1. Outline базы знаний
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{OUTLINE}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{OUTLINE}} — раздел документации проекта Lorenzo.{quote}
+
 
 _Обновлено: 2026-05-11_
 
@@ -15163,3 +15176,90 @@ h3. Анализ (25 документов)
 * [[162-8-risk-analysis|{{162-8-risk-analysis}}]]
 * _... ещё 20_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_outline.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 3
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 4
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 5
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 6
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 7
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 8
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 9
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 10
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 11
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 12
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 13
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 14
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 15
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 16
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 17
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 18
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 19
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 20
+python scripts/improve_outline.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 21
+python scripts/improve_outline.py --dry-run
+{code}
