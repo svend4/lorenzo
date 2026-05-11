@@ -3,12 +3,13 @@ template: project-component
 version: "1.0"
 author: "kksudo"
 author_handle: "@kksudo"
-projects: ["AgentFS[^agentfs]"]
+component: AgentFS
+projects: [AgentFS]
 layer: knowledge
 license: MIT
-maturity: working-prototype-v0.1.5
+maturity: alpha
 priority: 1
-tags: agentfs, [obsidian, filesystem, agent, knowledge, persistent-state, security]
+tags: [agentfs, obsidian, filesystem, agent, knowledge, persistent-state, security]
 ---
 <!-- autofill-status -->
 ## Статус
@@ -69,13 +70,13 @@ _Обновлено: 2026-05-10_
 | Maturity | Рабочий прототип; «рабочая, но не финальная» |
 | Слой в Svyazi | knowledge / filesystem |
 
-## Описание
+## Что это
 
 AgentFS превращает Obsidian-vault в операционную систему для AI-агентов с единым `.agentos/`-ядром. Агент получает постоянный персистентный state, скомпилированные конфиги, политики безопасности и CLI-инструменты (`doctor`, `triage`, `compile`) для самодиагностики.
 
 Это лучший кандидат на файловое ядро Svyazi 2.0: он уже знает, как организовать знания в структуру, понятную агентам, при этом оставаясь совместимым с Obsidian (человекочитаемый vault).
 
-## Ключевые компоненты
+## Ключевые особенности
 
 - **`.agentos/` ядро** — единая точка входа для всех агентских операций над vault
 - **Compile-to-native configs** — преобразование YAML-конфигов в нативные форматы окружения

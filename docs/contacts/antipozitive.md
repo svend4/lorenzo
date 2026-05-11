@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "Antipozitive"
 author_handle: "@Antipozitive"
-projects: "Svyazi", "[MemNet"]
+projects: [Svyazi, MemNet]
 platform: GitHub
 status: not_started
 priority: 3

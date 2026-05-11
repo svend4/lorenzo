@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "nlaik"
 author_handle: "@nlaik"
-projects: "Svyazi", "[LiteParse"]
+projects: [Svyazi, LiteParse]
 platform: GitHub
 status: not_started
 priority: 3

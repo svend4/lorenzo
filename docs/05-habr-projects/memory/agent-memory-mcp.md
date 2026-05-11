@@ -3,12 +3,13 @@ template: project-component
 version: "1.0"
 author: "VitaliySemenov"
 author_handle: "@moshael"
-projects: "agent-memory-[mcp", "Memory OS"]
+component: agent-memory-mcp
+projects: [agent-memory-mcp, Memory OS]
 layer: memory
-license: unspecified
-maturity: working-oss
+license: Unknown
+maturity: alpha
 priority: 2
-tags: memory, mcp, typed-memory, [sqlite, agent, bi-temporal]
+tags: [memory, mcp, typed-memory, sqlite, agent, bi-temporal]
 ---
 <!-- autofill-status -->
 
@@ -72,13 +73,13 @@ _Обновлено: 2026-05-10_
 | Maturity | agent-memory-mcp — рабочий OSS; Memory OS — концепт |
 | Слой в Svyazi | memory |
 
-## Описание
+## Что это
 
 `agent-memory-mcp` — типизированный MCP-сервер памяти для AI-агентов с поддержкой четырёх типов записей: `episodic`, `semantic`, `procedural`, `working`. Хранение на SQLite + WAL обеспечивает локальную, GDPR-safe, offline-capable работу. Включает поиск по репо и документам, а также path guard для управления доступом.
 
 `Memory OS` — более амбициозная концепция поверх agent-memory-mcp: онтология знаний, gardener-loop (автоматическое поддержание качества памяти), bi-temporal факты (время события + время записи), planner/scout/synthesizer агентный стек.
 
-## Ключевые компоненты
+## Ключевые особенности
 
 - **SQLite + WAL** — локальное хранение, offline-capable, GDPR-safe
 - **Typed memories** — episodic, semantic, procedural, working

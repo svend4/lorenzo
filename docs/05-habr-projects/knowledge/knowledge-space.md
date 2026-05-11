@@ -3,10 +3,11 @@ template: project-component
 version: "1.0"
 author: "AnastasiyaW"
 author_handle: "@Sonia_Black"
-projects: "[knowledge-space"]
+component: knowledge-space
+projects: [knowledge-space]
 layer: knowledge
 license: MIT
-maturity: active-oss
+maturity: beta
 priority: 2
 tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
 ---
@@ -88,13 +89,13 @@ _Обновлено: 2026-05-10_
 | Maturity | Активный OSS, база растёт почти ежедневно |
 | Слой в Svyazi | knowledge |
 
-## Описание
+## Что это
 
 knowledge-space — это agent-first референсная база знаний: 785+ плотных карточек по 26 доменам, выращенная из реальных research-сессий автора. Ключевой принцип: карточки написаны «для агентов, не людей» — каждая содержит максимум структурированной информации в минимуме текста, gotchas (подводные камни) и wiki-links на связанные концепты.
 
 База включает `research/inbox/` — поток необработанных исследовательских заметок, которые постепенно превращаются в нормализованные карточки знаний. Это реализует принцип episodic → semantic conversion из PROTOTYPE_SPEC.
 
-## Ключевые компоненты
+## Ключевые особенности
 
 - **Dense reference cards** — плотные карточки: минимум воды, максимум фактов
 - **Gotchas** — явно помеченные подводные камни и типичные ошибки

@@ -3,12 +3,13 @@ template: project-component
 version: "1.0"
 author: "zodigancode"
 author_handle: "@zodigancode"
-projects: ["Rufler[^rufler]"]
+component: Rufler
+projects: [Rufler]
 layer: orchestration
 license: MIT
-maturity: active-oss
+maturity: beta
 priority: 2
-tags: rufler, yaml, orchestration, agent-swarm, [claude-code, declarative, mcp, token-accounting]
+tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
 ---
 <!-- autofill-status -->
 
@@ -88,13 +89,13 @@ _Обновлено: 2026-05-10_
 | Maturity | Активный OSS |
 | Слой в Svyazi | orchestration |
 
-## Описание
+## Что это
 
 Rufler — декларативный YAML-слой для запуска автономного роя Claude Code-агентов. Вместо написания кода оркестрации разработчик описывает задачи в YAML-файле: зависимости между задачами (`depends_on`), автоматическую генерацию целей для агентов (`auto-objective prompts`), управление жизненным циклом (`pause/resume`), учёт токенов (`token accounting`) и управление MCP[^mcp]-серверами.
 
 Ключевое отличие от mclaude: Rufler работает как декларативный конфигурационный слой (описал → запустил), mclaude — как протокол координации уже запущенных агентов.
 
-## Ключевые компоненты
+## Ключевые особенности
 
 - **`depends_on`** — граф зависимостей задач: агент B запускается только после завершения агента A
 - **Auto-objective prompts** — Rufler сам формирует цель задачи из YAML-описания, не нужно писать промпт вручную

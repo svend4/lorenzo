@@ -3,12 +3,13 @@ template: project-component
 version: "1.0"
 author: "AnastasiyaW"
 author_handle: "@AnastasiyaW"
-projects: ["mclaude"]
+component: mclaude
+projects: [mclaude]
 layer: orchestration
 license: MIT
-maturity: active-oss
+maturity: beta
 priority: 2
-tags: mclaude, multi-agent, orchestration, [claude-code, locks, handoffs, mailbox, parallel]
+tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
 ---
 <!-- autofill-status -->
 
@@ -90,13 +91,13 @@ _Обновлено: 2026-05-10_
 | Maturity | Активный OSS |
 | Слой в Svyazi | orchestration / coordination |
 
-## Описание
+## Что это
 
 mclaude — система координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом. Решает задачу «многоголового агента»: несколько Claude-экземпляров могут одновременно работать над разными частями проекта без конфликтов и потерь контекста.
 
 Ключевой механизм: `locks` (взаимные исключения для файлов/задач), `handoffs` (передача контекста между сессиями), `mailbox` (асинхронные сообщения между агентами), `shared project memory` (общее состояние проекта).
 
-## Ключевые компоненты
+## Ключевые особенности
 
 - **Locks** — мьютексы для файлов и задач: предотвращают конфликты параллельных агентов
 - **Handoffs** — структурированная передача контекста от агента к агенту

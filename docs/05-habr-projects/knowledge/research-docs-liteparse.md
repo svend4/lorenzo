@@ -3,12 +3,13 @@ template: project-component
 version: "1.0"
 author: "nlaik"
 author_handle: "@nlaik"
-projects: "research-docs", "[LiteParse"]
+component: LiteParse
+projects: [research-docs, LiteParse]
 layer: ingestion
 license: Apache-2.0
-maturity: active-oss
+maturity: beta
 priority: 2
-tags: liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, [html-report, evidence]
+tags: [liteparse, pdf, forensic-qa, bounding-boxes, visual-grounding, spatial-parsing, html-report, evidence]
 ---
 <!-- autofill-status -->
 
@@ -72,13 +73,13 @@ _Обновлено: 2026-05-10_
 | Maturity | Активный OSS |
 | Слой в Svyazi | ingestion / evidence |
 
-## Описание
+## Что это
 
 research-docs + LiteParse — система Forensic Document QA: вместо стандартного "ответить на вопрос по PDF" она создаёт HTML-отчёт с визуальными цитатами и `bounding boxes` на страницах исходного документа. Каждый факт в ответе привязан к конкретной области конкретной страницы — это visual grounding.
 
 LiteParse — локальный парсер документов с `spatial text parsing`: он не просто извлекает текст, но сохраняет координаты каждого слова на странице. Это позволяет строить visually-anchored ответы, которых обычным RAG-системам не хватает.
 
-## Ключевые компоненты
+## Ключевые особенности
 
 - **Spatial text parsing** — разбор PDF с сохранением координат (x, y, w, h) каждого слова
 - **Bounding boxes** — визуальная привязка цитат к областям на страницах документа

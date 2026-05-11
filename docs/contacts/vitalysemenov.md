@@ -3,7 +3,7 @@ template: contact-outreach
 version: "1.0"
 author: "VitaliySemenov"
 author_handle: "@moshael"
-projects: "agent-memory-[mcp", "Memory OS"]
+projects: [agent-memory-mcp, Memory OS]
 platform: GitHub
 status: not_started
 priority: 2
@@ -47,6 +47,10 @@ tags: [контакты, команда]
 | Упомянут в файлах | docs/svyazi-2-0/components/agent-memory-mcp.md |
 | Статус | not_started |
 
+## Статус связи
+
+_Контакт ещё не установлен. Приоритет: 2 (высокий)._
+
 ## Проект: agent-memory-mcp
 
 Typed memory MCP-сервер с типами: `episodic`, `semantic`, `procedural`, `working`.  
@@ -63,7 +67,7 @@ Typed memory MCP-сервер с типами: `episodic`, `semantic`, `procedur
 2. Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)?
 3. Открыты к интеграционным PR для Svyazi 2.0?
 
-## Шаблон первого сообщения
+## Первое сообщение
 
 ```
 **Кому:** VitaliySemenov (@moshael)
