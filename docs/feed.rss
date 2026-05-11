@@ -5,7 +5,28 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 08:25:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 08:33:31 GMT</lastBuildDate>
+    <item>
+      <title>feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)</title>
+      <link>https://github.com/svend4/lorenzo/commit/657ca79e6f64e036cf97fd1d06121d144946c0d6</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/657ca79e6f64e036cf97fd1d06121d144946c0d6</guid>
+      <pubDate>Mon, 11 May 2026 08:31:17 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>657ca79e</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: /api/status — core_cards фильтрация noise-секций</title>
+      <link>https://github.com/svend4/lorenzo/commit/0bf15429c8d95b4a280a4f10b64ebdbc802da8b0</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/0bf15429c8d95b4a280a4f10b64ebdbc802da8b0</guid>
+      <pubDate>Mon, 11 May 2026 08:30:32 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: /api/status — core_cards фильтрация noise-секций</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>0bf15429</code></p>]]></description>
+    </item>
+    <item>
+      <title>docs: обновление README.md и GATEWAY.md</title>
+      <link>https://github.com/svend4/lorenzo/commit/f5ebc6286f974f7e1025c0f3c4edda71d3cd948d</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f5ebc6286f974f7e1025c0f3c4edda71d3cd948d</guid>
+      <pubDate>Mon, 11 May 2026 08:27:07 GMT</pubDate>
+      <description><![CDATA[<p><strong>docs: обновление README.md и GATEWAY.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li></ul><p>Коммит: <code>f5ebc628</code></p>]]></description>
+    </item>
     <item>
       <title>chore: авто-перегенерация дашбордов после Hit Rate@10 1.000</title>
       <link>https://github.com/svend4/lorenzo/commit/9cb118ab31c6b16cd5e88f606fc1789b9bdbb867</link>
@@ -124,27 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e31c908a84470ac3f45494f401c8fe5b2d7c44f3</guid>
       <pubDate>Mon, 11 May 2026 06:25:41 GMT</pubDate>
       <description><![CDATA[<p><strong>feat: Review Queue UI + gateway write-back fix + Iteration 4</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROTOTYPE_SPEC.md">docs/PROTOTYPE_SPEC.md</a></li></ul><p>Коммит: <code>e31c908a</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: Lorenzo Gateway — OpenAI-compatible HTTP API для обогащения корпуса</title>
-      <link>https://github.com/svend4/lorenzo/commit/f754e78bf688c9fd2b8b55ad75fcb1ee7b82b5f9</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f754e78bf688c9fd2b8b55ad75fcb1ee7b82b5f9</guid>
-      <pubDate>Mon, 11 May 2026 05:59:47 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Lorenzo Gateway — OpenAI-compatible HTTP API для обогащения корпуса</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li></ul><p>Коммит: <code>f754e78b</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: linter adjustments to letters and DEMO.md</title>
-      <link>https://github.com/svend4/lorenzo/commit/dc3c1dfcf0333564fbc3e8c78eb9cd9a36079714</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/dc3c1dfcf0333564fbc3e8c78eb9cd9a36079714</guid>
-      <pubDate>Mon, 11 May 2026 05:35:43 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: linter adjustments to letters and DEMO.md</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PARAGRAPH_QUALITY.md">docs/PARAGRAPH_QUALITY.md</a></li></ul><p>Коммит: <code>dc3c1dfc</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: working prototype Knowledge OS — prototype_demo.py</title>
-      <link>https://github.com/svend4/lorenzo/commit/645d38b50b101856e567b84dfa6593d248b9f230</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/645d38b50b101856e567b84dfa6593d248b9f230</guid>
-      <pubDate>Mon, 11 May 2026 04:58:38 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: working prototype Knowledge OS — prototype_demo.py</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md">docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG_AUTO.md">docs/CHANGELOG_AUTO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEMO.md">docs/DEMO.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEPENDENCY_MAP.md">docs/DEPENDENCY_MAP.md</a></li></ul><p>Коммит: <code>645d38b5</code></p>]]></description>
     </item>
   </channel>
 </rss>

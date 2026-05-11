@@ -5457,7 +5457,7 @@
     "summary": "Минимальные поля.",
     "words": 24,
     "content": "Минимальные поля. --- title: Minimal Test Card date: 2026-05-11 tags: source: gateway --- Minimal Test Card Минимальные поля. --- Добавлено через Lorenzo Gateway: 2026-05-11",
-    "updated": "2026-05-11T08:24:47"
+    "updated": "2026-05-11T08:33:17"
   },
   {
     "path": "docs/05-habr-projects/01-synthesis.md",
@@ -6539,10 +6539,10 @@
     "title": "Прогресс MVP",
     "section": "root",
     "tags": [],
-    "summary": "Прогресс MVP Обновлено: 2026-05-11 (improve progress sync.py) Ключевые этапы (Milestones) █████████████░░░░░░░ 64% 7/11 ✅ Определена архитектура Svyazi 2.0 ✅ Составлен каталог 20+ компонентов ✅ Выявле",
+    "summary": "Прогресс MVP Обновлено: 2026-05-11 (improve progress sync.py) Ключевые этапы (Milestones) ███████████████░░░░░ 73% 8/11 ✅ Определена архитектура Svyazi 2.0 ✅ Составлен каталог 20+ компонентов ✅ Выявле",
     "words": 193,
-    "content": "Прогресс MVP Обновлено: 2026-05-11 (improve progress sync.py) Ключевые этапы (Milestones) █████████████░░░░░░░ 64% 7/11 ✅ Определена архитектура Svyazi 2.0 ✅ Составлен каталог 20+ компонентов ✅ Выявлены 5 ансамблей ✅ Описаны интеграционные контракты ✅ Составлены контакты авторов ⬜ Написаны авторам ключевых компонентов ⬜ Получены ответы от авторов ⬜ LLM-обогащение проектных файлов ✅ Создан рабочий прототип Knowledge OS ✅ Пройдено тестирование ансамбля ⬜ Опубликован MVP на GitHub Состояние компонентов Компонент Статус Детали ----------- -------- -------- Контакты авторов ⚠️ 16 файлов, не отправлено 16 файлов в docs/contacts/ LLM-обогащение ⬜ не запущено pip install anthropic && python scripts/improve llm enrich.py Скрипты обработки ✅ 166 скриптов 5 LLM-скриптов, MCP=✅ DIGEST.md ✅ 5 секций python scripts/improve llm summary.py Claude Skills ✅ 28 скиллов track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine Метрики качества Метрика Балл Статус --------- ------ -------- Здоровье репо (HEALTH) 100.0/100 🟢 Качество доков (METRICS) 100.0/100 🟢 Go/No-Go (SCORING) 100.0/100 🟢 Следующий шаг ➡️ Написаны авторам ключевых компонентов Написали: 0/16 Контактные файлы готовы. Откройте и отправьте: Связанные документы --- Кто ссылается на этот документ (11): - ...ещё 3",
-    "updated": "2026-05-11T08:24:47"
+    "content": "Прогресс MVP Обновлено: 2026-05-11 (improve progress sync.py) Ключевые этапы (Milestones) ███████████████░░░░░ 73% 8/11 ✅ Определена архитектура Svyazi 2.0 ✅ Составлен каталог 20+ компонентов ✅ Выявлены 5 ансамблей ✅ Описаны интеграционные контракты ✅ Составлены контакты авторов ⬜ Написаны авторам ключевых компонентов ⬜ Получены ответы от авторов ⬜ LLM-обогащение проектных файлов ✅ Создан рабочий прототип Knowledge OS ✅ Пройдено тестирование ансамбля ✅ Опубликован MVP на GitHub Состояние компонентов Компонент Статус Детали ----------- -------- -------- Контакты авторов ⚠️ 16 файлов, не отправлено 16 файлов в docs/contacts/ LLM-обогащение ⬜ не запущено pip install anthropic && python scripts/improve llm enrich.py Скрипты обработки ✅ 166 скриптов 5 LLM-скриптов, MCP=✅ DIGEST.md ✅ 5 секций python scripts/improve llm summary.py Claude Skills ✅ 28 скиллов track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine Метрики качества Метрика Балл Статус --------- ------ -------- Здоровье репо (HEALTH) 100.0/100 🟢 Качество доков (METRICS) 100.0/100 🟢 Go/No-Go (SCORING) 100.0/100 🟢 Следующий шаг ➡️ Написаны авторам ключевых компонентов Написали: 0/16 Контактные файлы готовы. Откройте и отправьте: Связанные документы --- Кто ссылается на этот документ (11): - ...ещё 3",
+    "updated": "2026-05-11T08:33:17"
   },
   {
     "path": "docs/PROTOTYPE_SPEC.md",
