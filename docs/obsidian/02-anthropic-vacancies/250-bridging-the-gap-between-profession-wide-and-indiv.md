@@ -4,10 +4,18 @@ tags:
   - documentation
   - overview
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Bridging the Gap Between Profession-Wide and Individual-Unique 
+
+<!-- toc-auto -->
+## Contents
+
+- [Bridging the Gap Between Profession-Wide and Individual-Unique](#bridging-the-gap-between-profession-wide-and-individual-unique)
+- [Использование](#использование)
+
+
 <!-- summary -->
 > Bridging the Gap Between Profession-Wide and Individual-Unique
 
@@ -17,12 +25,6 @@ date: 2026-05-10
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-
-<!-- toc-auto -->
-## Contents
-
-- [Bridging the Gap Between Profession-Wide and Individual-Unique](#bridging-the-gap-between-profession-wide-and-individual-unique)
-
 
 ## Bridging the Gap Between Profession-Wide and Individual-Unique
 
@@ -40,9 +42,21 @@ python scripts/improve_semantic_search.py --query "Bridging the Gap Between Prof
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (5):**
+- [[README]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[SEARCH]]
+- [[TABLES]]
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SEARCH_RESULTS]]
+- [[13-communications]]
+- [[12-technical-program-management]]
+- [[15-public-benefit]]
 

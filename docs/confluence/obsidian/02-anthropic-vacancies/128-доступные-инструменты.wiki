@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/128-доступные-инструменты.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,10 +8,29 @@ title: "Доступные инструменты"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Доступные инструменты
+
+
+h2. Contents
+
+* [Доступные инструменты|#доступные-инструменты]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (7)|#кто-ссылается-на-этот-документ-7]
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
 
 
 {quote}После успешной интеграции Claude Desktop получает доступ к 7 tools:{quote}
@@ -39,21 +58,27 @@ h2. Доступные инструменты
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[129-примеры-запросов-в-claude]] (сходство 0.21)
-* [[91-16-mcp-extension-informative]] (сходство 0.18)
-* [[88-13-rest-api-contract-normative-for-portals]] (сходство 0.12)
+* 91-16-[[91-16-mcp-extension-informative|mcp-extension-informative]] (сходство 0.18)
+* 88-13-[[88-13-rest-api-contract-normative-for-portals|rest-api-contract-normative-for-portals]] (сходство 0.12)
 
 
 
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Доступные инструменты"
+{code}
+
+h2. Смотрите также
 * [[129-примеры-запросов-в-claude]]
-* [[91-16-mcp-extension-informative]]
+* 91-16-[[91-16-mcp-extension-informative|mcp-extension-informative]]
 * [[103-appendix-b-change-log]]
-* [[88-13-rest-api-contract-normative-for-portals]]
+* 88-13-[[88-13-rest-api-contract-normative-for-portals|rest-api-contract-normative-for-portals]]
 
 
 h2. Упоминается в
@@ -86,3 +111,17 @@ h2. Связанные документы
 * [[93-18-reference-implementation|18. Reference Implementation]] _21%_
 * [[104-appendix-c-references|Appendix C: References]] _17%_
 * [[89-14-sdk-contract-informative|14. SDK Contract (Informative)]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (7)
+* [[103-appendix-b-change-log]]
+* [[104-appendix-c-references]]
+* [[129-примеры-запросов-в-claude]]
+* [[131-ограничения-текущей-версии-0-1-0-draft]]
+* 91-16-[[91-16-mcp-extension-informative|mcp-extension-informative]]
+* [[93-18-reference-implementation]]
+* [[README]]
+

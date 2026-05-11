@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. 13. REST API Contract (Normative for Portals)
@@ -18,7 +18,6 @@ h1. 13. REST API Contract (Normative for Portals)
 
 h2. Содержание
 
-* [Contents|#contents]
 * [13. REST API Contract (Normative for Portals)|#13-rest-api-contract-normative-for-portals]
   * [13.1. Required Endpoints|#131-required-endpoints]
   * [13.2. Recommended Endpoints|#132-recommended-endpoints]
@@ -28,28 +27,6 @@ h2. Содержание
   * [13.6. Error Responses|#136-error-responses]
 
 ----
-
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ REST API Contract (Normative for Portals) Contents - 13.{quote}
-{quote}🔧 _Подход:_ Error Responses(136-error-responses) !IMPORTANT Ключевой документ для понимания архитектуры.{quote}
-{quote}✅ _Результат:_ Это обеспечивает interoperability между порталами и внешними клиентами (SDK, web UI, MCP wrappers).{quote}
-{quote}🏷️ _Ключевые слова:_ {{endpoints}}, {{response}}, {{anthropic}}, {{vacancies}}, {{security}}, {{considerations}}, {{openapi}}, {{error}}{quote}
->
-
-
-
-h2. Contents
-
-* [13. REST API Contract (Normative for Portals)|#13-rest-api-contract-normative-for-portals]
-  * [13.1. Required Endpoints|#131-required-endpoints]
-  * [13.2. Recommended Endpoints|#132-recommended-endpoints]
-  * [13.3. Response Schemas|#133-response-schemas]
-  * [13.4. CORS|#134-cors]
-  * [13.5. OpenAPI Specification|#135-openapi-specification]
-  * [13.6. Error Responses|#136-error-responses]
 
 
 {quote}[!IMPORTANT]{quote}
@@ -189,7 +166,7 @@ h3. 13.6. Error Responses
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[128-доступные-инструменты]] (сходство 0.12)
 * [[90-15-security-considerations]] (сходство 0.11)
 
@@ -198,9 +175,21 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[90-15-security-considerations]]
 * [[23-11-security-considerations]]
 * [[128-доступные-инструменты]]
 * [[82-7-portalentry-structure]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (5)
+* [[128-доступные-инструменты]]
+* [[18-6-adapter-interface]]
+* [[23-11-security-considerations]]
+* [[90-15-security-considerations]]
+* [[README]]
 

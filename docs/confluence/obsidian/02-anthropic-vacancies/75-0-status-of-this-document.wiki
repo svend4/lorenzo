@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/75-0-status-of-this-document.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,11 +8,34 @@ title: "0. Status of This Document"
 tags:
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. 0. Status of This Document
 
+
+h2. Contents
+
+* [0. Status of This Document|#0-status-of-this-document]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (11)|#кто-ссылается-на-этот-документ-11]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Этот документ — рабочий черновик Nautilus Portal Protocol v1.1. До{quote}
 
@@ -41,7 +64,7 @@ _Обратная совместимость с v1.0_: все v1.0-адапте�
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[05-0-status-of-this-document]] (сходство 0.55)
 * [[03-portal-protocol-md]] (сходство 0.16)
 * [[42-author-contact]] (сходство 0.15)
@@ -51,7 +74,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "0 Status of This Document"
+{code}
+
+h2. Смотрите также
 * [[05-0-status-of-this-document]]
 * [[42-author-contact]]
 * [[62-author-contact]]
@@ -97,3 +126,19 @@ h2. Связанные документы
 * [[24-12-versioning-policy|12. Versioning Policy]] _29%_
 * [[48-content-overview|Content Overview]] _29%_
 * [[53-history|History]] _29%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[03-portal-protocol-md]]
+* [[05-0-status-of-this-document]]
+* [[129-примеры-запросов-в-claude]]
+* [[164-10-appendices]]
+* [[24-12-versioning-policy]]
+* [[25-13-reference-implementation]]
+* [[42-author-contact]]
+* [[53-history]]
+* _...ещё 3_
+

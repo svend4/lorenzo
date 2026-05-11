@@ -1,64 +1,51 @@
 ---
 title: "Бейджи репозитория"
 tags:
+  - readme
+  - docs
   - badges
-  - status
-  - documentation
-  - quality
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Бейджи репозитория
 
-<!-- toc-auto -->
-## Содержание
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
 
 
 <!-- summary -->
-> Бейджи репозитория
+> `README` — раздел документации проекта Lorenzo.
 
-<!-- tags: badges, status, documentation, quality -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
-Раздел посвящён бейджам и статусным индикаторам. Включает 14 связанных материалов. Для поиска по этому разделу используйте инструменты семантического поиска репозитория Lorenzo. Каждый документ структурирован согласно стандартам базы знаний: summary, теги, ссылки, callout.
 
 Автоматически генерируются скриптом `improve_badges.py`.
 
 ## Текущие бейджи
 
-![docs](docs.svg) — `docs/badges/docs.svg`
-![words](words.svg) — `docs/badges/words.svg`
-![scripts](scripts.svg) — `docs/badges/scripts.svg`
-![health](health.svg) — `docs/badges/health.svg`
-![go/no-go](scoring.svg) — `docs/badges/scoring.svg`
-![license](license.svg) — `docs/badges/license.svg`
-![branch](branch.svg) — `docs/badges/branch.svg`
+![docs](docs.svg) — `docs.svg`
+![words](words.svg) — `words.svg`
+![scripts](scripts.svg) — `scripts.svg`
+![health](health.svg) — `health.svg`
+![go/no-go](scoring.svg) — `scoring.svg`
+![license](license.svg) — `license.svg`
+![branch](branch.svg) — `branch.svg`
 
 ## Использование в README
 
 ```markdown
-![docs](docs/badges/docs.svg)
-![words](docs/badges/words.svg)
-![scripts](docs/badges/scripts.svg)
-![health](docs/badges/health.svg)
-![go/no-go](docs/badges/scoring.svg)
-![license](docs/badges/license.svg)
-![branch](docs/badges/branch.svg)
+![docs](docs.svg)
+![words](words.svg)
+![scripts](scripts.svg)
+![health](health.svg)
+![go/no-go](scoring.svg)
+![license](license.svg)
+![branch](branch.svg)
 ```
 
-Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов.
 
-<!-- backlinks -->
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.
 
----
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
-
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.

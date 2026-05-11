@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix B: Примеры расхождений и их разрешения
@@ -131,9 +131,14 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (12):**
+- [[116-9-checklist-применения-методологии]]
+- [[189-аннотация]]
+- [[298-что-этот-документ-не-решает]]
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 4_
 

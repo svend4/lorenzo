@@ -1,9 +1,14 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/03-technology-combinations/05-benchmarks.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Бенчмарки и производительность
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -15,6 +20,10 @@ h1. Бенчмарки и производительность
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}Все ревьюеры работают параллельно, не последовательно → экономия времени. Результаты мержатся в финальный отчёт.{quote}
 _Проекты:_ Svyazi, Yodoca
@@ -113,7 +122,7 @@ h4. Дети:
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [02-knowledge-graphs|02-knowledge-graphs.md] (сходство 0.14)
 * [03-local-first|03-local-first.md] (сходство 0.11)
 
@@ -122,7 +131,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Бенчмарки и производительность"
+{code}
+
+h2. Смотрите также
 * [02-knowledge-graphs|02-knowledge-graphs.md]
 * [03-local-first|03-local-first.md]
 * [WORD_FREQ|../WORD_FREQ.md]
@@ -150,3 +165,13 @@ h2. Связанные документы
 * [Агентные системы и роутинг|01-agent-routing.md] _21%_
 * [Графы знаний и Legal AI|02-knowledge-graphs.md] _21%_
 * [Приоритеты файлов|../PRIORITIES.md] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (3)
+* [01-agent-routing|01-agent-routing.md]
+* [03-local-first|03-local-first.md]
+* [README|README.md]
+

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/150-appendix-c-version-history.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Appendix C: Version History
@@ -220,7 +220,7 @@ python
 @dataclass
 class Annotation:
     id: str                     # "annot:uuid"
-    target: str                 # id of [PortalEntry|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md] being annotated
+    target: str                 # id of [PortalEntry|01-интегральный-анализ-профиля-svend4.md] being annotated
     author: str                 # Node name или assistant id
     content: str                # annotation text
     visibility: str             # "private" | "team" | "public"
@@ -559,7 +559,7 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [165-closing](165-closing.md) (сходство 0.18)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.17)
 - [CONCEPTS](../CONCEPTS.md) (сходство 0.16)
@@ -569,7 +569,28 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 
 ---
 
-**Смотрите также:**
+## Использование
+
+{code}
+python scripts/improve_semantic_search.py --query "Appendix C Version History"
+{code}
+
+{code}
+h1. Поиск (bm25)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode bm25 --top 5
+{code}
+
+{code}
+h1. Поиск (semantic)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode semantic --top 10
+{code}
+
+{code}
+h1. Поиск (full)
+python scripts/improve_semantic_search.py --query "Appendix C Version History" --mode full --top 15
+{code}
+
+## Смотрите также
 - [165-closing](165-closing.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [CONCEPTS](../CONCEPTS.md)
@@ -610,3 +631,19 @@ Not three separate ideas. Одна идея с multiple levels of abstraction :
 - [Appendix D: Connection Diagram](272-appendix-d-connection-diagram.md) _17%_
 - [The Recursive Insight](281-the-recursive-insight.md) _17%_
 - [Appendix: Position in Series Visualization](288-appendix-position-in-series-visualization.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [133-обратная-связь](133-обратная-связь.md)
+- [141-4-nautilus-portal-as-reference-substrate](141-4-nautilus-portal-as-reference-substrate.md)
+- [145-8-call-to-action](145-8-call-to-action.md)
+- [165-closing](165-closing.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [272-appendix-d-connection-diagram](272-appendix-d-connection-diagram.md)
+- [281-the-recursive-insight](281-the-recursive-insight.md)
+- [288-appendix-position-in-series-visualization](288-appendix-position-in-series-visualization.md)
+- _...ещё 4_
+

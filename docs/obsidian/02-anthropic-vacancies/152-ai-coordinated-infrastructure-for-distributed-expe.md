@@ -3,7 +3,7 @@ title: "AI-Coordinated Infrastructure for Distributed Expert Contribution"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
@@ -13,6 +13,7 @@ date: 2026-05-10
 
 - [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

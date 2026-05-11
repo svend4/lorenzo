@@ -7,7 +7,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 11. Security Considerations
@@ -20,6 +20,7 @@ date: 2026-05-10
   - [11.2. Private Repositories](#112-private-repositories)
   - [11.3. MCP Exposure](#113-mcp-exposure)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

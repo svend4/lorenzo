@@ -5,7 +5,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # References
@@ -22,6 +22,7 @@ date: 2026-05-10
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
 

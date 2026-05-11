@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # References
@@ -20,6 +20,7 @@ date: 2026-05-10
   - [AI in Professional Practice](#ai-in-professional-practice)
   - [Related Architecture](#related-architecture)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (8)](#кто-ссылается-на-этот-документ-8)
 

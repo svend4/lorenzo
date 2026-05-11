@@ -3,7 +3,7 @@ title: "Appendix B: Domain Comparison Matrix"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix B: Domain Comparison Matrix
@@ -14,6 +14,7 @@ date: 2026-05-10
 - [Appendix B: Domain Comparison Matrix](#appendix-b-domain-comparison-matrix)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Связанные документы](#связанные-документы)
 - [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)

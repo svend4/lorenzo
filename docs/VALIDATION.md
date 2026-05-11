@@ -1,114 +1,112 @@
-# Валидация структуры репозитория
+# Валидация шаблонов
 
-<!-- summary -->
-> Ошибок: **0**, предупреждений: **0**, пройдено: **29**
+_Обновлено: 2026-05-11_
 
-<!-- tags: quality, validation, structure, health -->
+**Загружено схем:** 22
 
-> [!TIP]
-> Структура репозитория валидна.
+**Документов с frontmatter:** 21
 
-<!-- alert-added -->
+**Валидно:** 9 | **С ошибками:** 12 | **Без шаблона:** 2411
 
-<!-- toc-auto -->
-## Contents
 
-- [Сводка](#сводка)
-- [Итог](#итог)
-- [Смотрите также](#смотрите-также)
+## Ошибки по файлам
 
-**Ошибок:** 0  **Предупреждений:** 0  **Пройдено:** 29
 
-## Сводка
+### `docs/05-habr-projects/knowledge/agentfs.md`
 
-| Проверка | Статус | Проблем |
-|----------|--------|---------|
-| Разделы и README | ✅ | 0 |
-| Мета-файлы | ✅ | 0 |
-| Пустые/короткие файлы | ✅ | 0 |
-| Именование файлов | ✅ | 10 |
-| Заголовки H1 | ✅ | 0 |
-| Внутренние ссылки | ✅ | 15 |
+- отсутствует обязательное поле 'component'
+- maturity: значение 'working-prototype-v0.1.5' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
+- tags: тип str не соответствует array
+- отсутствует обязательная секция '## Что это'
+- отсутствует обязательная секция '## Ключевые особенности'
 
-## ✅ Разделы и README
+### `docs/05-habr-projects/knowledge/knowledge-space.md`
 
-_Всё в порядке_
+- отсутствует обязательное поле 'component'
+- maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
+- отсутствует обязательная секция '## Что это'
+- отсутствует обязательная секция '## Ключевые особенности'
 
-## ✅ Мета-файлы
+### `docs/05-habr-projects/knowledge/mclaude.md`
 
-_Всё в порядке_
+- отсутствует обязательное поле 'component'
+- maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
+- tags: тип str не соответствует array
+- отсутствует обязательная секция '## Что это'
+- отсутствует обязательная секция '## Ключевые особенности'
 
-## ✅ Пустые/короткие файлы
+### `docs/05-habr-projects/knowledge/research-docs-liteparse.md`
 
-_Всё в порядке_
+- отсутствует обязательное поле 'component'
+- maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
+- tags: тип str не соответствует array
+- отсутствует обязательная секция '## Что это'
+- отсутствует обязательная секция '## Ключевые особенности'
 
-## Именование файлов
+### `docs/05-habr-projects/knowledge/rufler.md`
 
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md`
-- ℹ️ Длинное кириллическое имя: `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md`
+- отсутствует обязательное поле 'component'
+- maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
+- tags: тип str не соответствует array
+- отсутствует обязательная секция '## Что это'
+- отсутствует обязательная секция '## Ключевые особенности'
 
-## ✅ Заголовки H1
+### `docs/05-habr-projects/memory/agent-memory-mcp.md`
 
-_Всё в порядке_
+- отсутствует обязательное поле 'component'
+- license: значение 'unspecified' не в enum ['MIT', 'Apache-2.0', 'BSL', 'BSD-3-Clause', 'GPL-3.0', 'LGPL-3.0', 'MPL-2.0', 'Proprietary', 'Unknown']
+- maturity: значение 'working-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
+- tags: тип str не соответствует array
+- отсутствует обязательная секция '## Что это'
+- отсутствует обязательная секция '## Ключевые особенности'
 
-## Внутренние ссылки
+### `docs/contacts/anastasiyaw.md`
 
-- 🔗 Сломана ссылка в `docs/CODE_BLOCKS.md`: `./REVIEW_METHODOLOGY.md`
-- 🔗 Сломана ссылка в `docs/DECISIONS.md`: `../docs/05-habr-projects/mem  
-  _→ 01-интегральный-анализ-профиля-svend4_
+- projects: тип str не соответствует array
 
-- явно проставить relationship в metadata . Создать файл pro2/nautilus/PROVENANCE.md , где будет написано одной фразой: «This directory contains the routing/orchestration component of YiJing-Transformer  
-  _→ 01-интегральный-анализ-профиля-svend4_
+### `docs/contacts/andrey-chuyan.md`
 
-- 9-to-5 office + GdB 70 + intensity вашего производства`
-- 🔗 Сломана ссылка в `docs/QUESTIONS.md`: `docs/02-anthropic]
-- What Cowork Provides That InGit Doesn't Need to Build (docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md`
-- 🔗 Сломана ссылка в `docs/QUESTIONS.md`: `docs/nautilus/okwf-concept/10-appendices.md]
--`
-- 🔗 Сломана ссылка в `docs/RISK_REGISTER.md`: `docs/04-ai-collaborations/0… |
-| `06-security-privacy` | cs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md`
-- 🔗 Сломана ссылка в `docs/SCRIPTS_CATALOG.md`: `../path/file.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `02-extraction.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `03-chunking.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `04-structuring.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `05-analysis.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `06-search.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `07-llm.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `08-export.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `09-automation.md`
-- 🔗 Сломана ссылка в `docs/TABLES.md`: `10-future.md`
+- projects: тип str не соответствует array
 
-## Итог
+### `docs/contacts/antipozitive.md`
 
-✅ **Репозиторий прошёл все проверки!**
+- projects: тип str не соответствует array
 
-## Смотрите также
+### `docs/contacts/nlaik.md`
 
-- [HEALTH](HEALTH.md) — общее здоровье репозитория
-- [METRICS](METRICS.md) — метрики качества документов
-- [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
-- [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
+- projects: тип str не соответствует array
 
-<!-- backlinks -->
+### `docs/contacts/sonia-black.md`
 
----
+- projects: тип str не соответствует array
 
-**Кто ссылается на этот документ (12):**
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [HEALTH](HEALTH.md)
-- [INDEX](INDEX.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [METRICS](METRICS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- _...ещё 4_
+### `docs/contacts/vitalysemenov.md`
 
+- projects: тип str не соответствует array
+- отсутствует обязательная секция '## Статус связи'
+- отсутствует обязательная секция '## Первое сообщение'
+
+## Шаблоны
+
+- **agent-spec** — Спецификация AI-агента: тип, принципал, скилы, tools, память, decision boundary
+- **contact-outreach** — Контактный файл автора OSS-проекта: профиль, статус связи, первое сообщение
+- **contradiction-record** — Запись о противоречии между двумя источниками
+- **decision-record** — Architecture Decision Record (ADR): контекст → варианты → решение → последствия
+- **ensemble** — Описание ансамбля компонентов: задача, состав, контракт, риски, MVP
+- **experiment-log** — Журнал эксперимента: гипотеза, метод, журнал, результат, выводы
+- **faq-entry** — FAQ-запись: вопрос, краткий и подробный ответ
+- **glossary-entry** — Глоссарная статья: определение, происхождение, синонимы, примеры
+- **kpi-snapshot** — Снапшот KPI с деталями метрик и трендом
+- **legal-case** — Юридический кейс: Aktenzeichen, стороны, хронология, нормы, прецеденты
+- **meeting-notes** — Протокол встречи: повестка, обсуждение, решения, action items
+- **mega-stack** — Полный технологический стек для класса задач со всеми слоями
+- **project-component** — Карточка компонента: что это, особенности, статус, интеграция с экосистемой
+- **protocol-spec** — Спецификация протокола в стиле IETF / Nautilus NPP
+- **prototype-mvp** — План MVP с фазами, метриками успеха, рисками
+- **research-note** — Свободная заметка-исследование: контекст, находки, источники, открытые вопросы
+- **retrospective** — Ретроспектива: что хорошо, что плохо, action items
+- **rfc** — Request for Comments — формальная спецификация в стиле IETF/Nautilus NPP
+- **risk-entry** — Запись риска: вероятность, влияние, митигация
+- **tech-pair** — Пара технологий с описанием синергии
+- **tech-radar-entry** — Запись Tech Radar: квадрант, кольцо, обоснование
+- **weekly-digest** — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план

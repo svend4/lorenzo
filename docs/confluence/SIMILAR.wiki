@@ -1,9 +1,43 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SIMILAR.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Похожие документы
+
+
+h2. Contents
+
+* [Топ-20 самых похожих пар|#топ-20-самых-похожих-пар]
+* [По разделам|#по-разделам]
+  * [02-anthropic-vacancies|#02-anthropic-vacancies]
+  * [04-ai-collaborations|#04-ai-collaborations]
+  * [05-habr-projects|#05-habr-projects]
+  * [contacts|#contacts]
+  * [root|#root]
+  * [templates|#templates]
+* [Использование|#использование]
+
+
+  * 02-[anthropic-vacancies|#02-anthropic-vacancies]
+  * [04-ai-collaborations|#04-ai-collaborations]
+  * [05-habr-projects|#05-habr-projects]
+  * [contacts|#contacts]
+  * [root|#root]
+  * [templates|#templates]
+  * 02-[anthropic-vacancies|#02-anthropic-vacancies]
+  * [04-ai-collaborations|#04-ai-collaborations]
+  * [05-habr-projects|#05-habr-projects]
+  * [contacts|#contacts]
+  * [root|#root]
+  * [templates|#templates]
+  * 02-[anthropic-vacancies|#02-anthropic-vacancies]
+  * [04-ai-collaborations|#04-ai-collaborations]
+  * [05-habr-projects|#05-habr-projects]
+  * [contacts|#contacts]
+  * [root|#root]
+  * [templates|#templates]
+
 
 {quote}[!TIP]{quote}
 {quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
@@ -15,8 +49,6 @@ h1. Похожие документы
 _Проекты:_ MemNet
 
 ----
-
-
 
 
 
@@ -92,3 +124,9 @@ h3. templates
 * {{contact-outreach.md}} ↔ {{nlaik.md}} (0.600)
 * {{contact-outreach.md}} ↔ {{sonia-black.md}} (0.579)
 * {{contact-outreach.md}} ↔ {{vladspace.md}} (0.574)
+
+h2. Использование
+
+{code:language=bash}
+python scripts/improve_similar.py
+{code}

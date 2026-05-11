@@ -3,7 +3,7 @@ title: "References"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # References
@@ -18,6 +18,7 @@ date: 2026-05-10
   - [Modern AI Ethics](#modern-ai-ethics)
   - [Companion Documents](#companion-documents)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (10)](#кто-ссылается-на-этот-документ-10)
 

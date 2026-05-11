@@ -1,50 +1,36 @@
 ---
 title: "Часто задаваемые вопросы (FAQ)"
 tags:
-  - memory
-  - rag
-  - orchestration
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - anthropic
-  - collaboration
+  - faq
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Часто задаваемые вопросы (FAQ)
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Извлечено: 177 вопросов и ответов_
-**Проекты:** Svyazi, AgentFS, knowledge-space, Yodoca, MemNet
-
----
-
-<!-- toc -->
-## Содержание
+<!-- toc-auto -->
+## Contents
 
 - [Архитектура](#архитектура)
   - [Что такое MCP?](#что-такое-mcp)
   - [Каков статус готовности MVP?](#каков-статус-готовности-mvp)
   - [Какой вариант резонирует?](#какой-вариант-резонирует)
   - [Что это такое?](#что-это-такое)
-  - [Принимаем эту architecture как Lorenzo vision (с моими caveats)?](#принимаем-эту-architecture-как-lorenzo-vision-с-моими-caveats)
+  - [Q&A: 02-anthropic-vacancies > > !NOTE - Какие 5 архитектурных зазоров выделены в исследовании?](#qa-02-anthropic-vacancies-note---какие-5-архитектурных-зазоров-выделены-в-исследовании)
+  - [Q&A: 04-ai-collaborations > > !NOTE - Как реализован forensic RAG с доказуемостью?](#qa-04-ai-collaborations-note---как-реализован-forensic-rag-с-доказуемостью)
+  - [Q&A: meta-scripting > > !NOTE - Какие инструменты обеспечивают безопасность агентов?](#qa-meta-scripting-note---какие-инструменты-обеспечивают-безопасность-агентов)
+  - [Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью?](#qa-svyazi-2-0---основной-раздел---содержание---как-реализован-forensic-rag-с-доказуемостью)
 - [MVP/Запуск](#mvpзапуск)
   - [С чего начать?](#с-чего-начать)
-  - [Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?](#сейчас-для-этой-конкретной-сессии-с-семью-документами-что-вы-хотите-сделать)
+  - [Q&A: anthropic-vacancies > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qa-anthropic-vacancies-note---какие-кластеры-найма-выделены-у-anthropic)
+  - [Q&A: contacts > > !NOTE - Какие системы памяти описаны в этом разделе?](#qa-contacts-note---какие-системы-памяти-описаны-в-этом-разделе)
 - [Компоненты](#компоненты)
   - [Какова лицензия проекта?](#какова-лицензия-проекта)
   - [Как связаться с авторами компонентов?](#как-связаться-с-авторами-компонентов)
+  - [Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?](#открытые-вопросы-1-есть-ли-публичная-документация-по-memory-os-bi-temporal-facts-gardener-loop)
+  - [Q&A: lorenzo-agent > > !NOTE - Какие кластеры найма выделены у Anthropic?](#qa-lorenzo-agent-note---какие-кластеры-найма-выделены-у-anthropic)
 - [Интеграция](#интеграция)
-  - [Какой направление приоритетно?](#какой-направление-приоритетно)
   - [Это реализуется существующими tools?](#это-реализуется-существующими-tools)
   - [Является ли наш Nautilus Portal Protocol still valuable? Или HMP makes it redundant?](#является-ли-наш-nautilus-portal-protocol-still-valuable-или-hmp-makes-it-redundant)
   - [Question Set 4: Your resources 4a) Budget для setup (€500-1500 одноразовый)?](#question-set-4-your-resources-4a-budget-для-setup-500-1500-одноразовый)
@@ -52,26 +38,32 @@ date: 2026-05-10
   - [Why "Nautilus"?](#why-nautilus)
   - [Did creator approve final attribution?](#did-creator-approve-final-attribution)
 - [Лицензия](#лицензия)
-  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
   - [Question 5: Каковы limits Lorenzo's authority?](#question-5-каковы-limits-lorenzos-authority)
+  - [Какой подход resonates? Integration в OKWF document, или separate short paper?](#какой-подход-resonates-integration-в-okwf-document-или-separate-short-paper)
 - [Общее](#общее)
   - [Что такое Svyazi 2.0?](#что-такое-svyazi-20)
   - [9.1. Перед началом (Pre-Phase A) - [ ] Документ действительно критически важен (см. §4.1)?](#91-перед-началом-pre-phase-a---документ-действительно-критически-важен-см-41)
-  - [Что из этого feels aligned с вашими current capabilities и interest?](#что-из-этого-feels-aligned-с-вашими-current-capabilities-и-interest)
   - [10.3. Legal Questions What's the legal status of agent communications?](#103-legal-questions-whats-the-legal-status-of-agent-communications)
   - [10.4. Social Questions Will representative agents reduce or increase inequality?](#104-social-questions-will-representative-agents-reduce-or-increase-inequality)
   - [How do we ensure access for those who cannot pay?](#how-do-we-ensure-access-for-those-who-cannot-pay)
   - [What's the legal status of agent communications?](#whats-the-legal-status-of-agent-communications)
   - [10.3. Правовые Вопросы Каков правовой статус коммуникаций агента? Они обязательны для принципала?](#103-правовые-вопросы-каков-правовой-статус-коммуникаций-агента-они-обязательны-для-принципала)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
+  - [10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?](#104-социальные-вопросы-снизят-ли-представительские-агенты-или-увеличат-неравенство)
+- [Использование](#использование)
 
 
+> [!NOTE]
+> Раздел `FAQ` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: faq, docs -->
 
 
-_Извлечено: 177 вопросов и ответов_
+<!-- summary -->
+> `FAQ` — раздел документации проекта Lorenzo.
+
+
+_Извлечено: 247 вопросов и ответов_
 
 
 ## Архитектура
@@ -92,15 +84,33 @@ _→ [[248-приложение-c-архитектура-быстрого-ста
 
 ### Что это такое?
 
-**Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **96% 🟢 GO** (документация и архитектура).
+**Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **100% 🟢 GO** (документация и архитектура).
 
 _→ [[ONBOARDING]]_
 
-### Принимаем эту architecture как Lorenzo vision (с моими caveats)?
+### Q&A: 02-anthropic-vacancies > > !NOTE - Какие 5 архитектурных зазоров выделены в исследовании?
 
-Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
+- Что входит в интеграционный контракт между слоями? - Какие кластеры найма выделены у Anthropic? - Какие роли наиболее релевантны для профиля svend4? - Кто ключевые авторы проектов для контакта? - Какие вопросы лучше задавать авторам при первом контакте? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? _... ещё 18 разделов_ _Слов: 375_
 
-_→ [[06-conclusion-deserves-attention]]_
+_→ [[OUTLINE]]_
+
+### Q&A: 04-ai-collaborations > > !NOTE - Как реализован forensic RAG с доказуемостью?
+
+- Что такое Evidence Envelope и зачем он нужен? - Какие RAG-подходы сравниваются в документах? - Какие 5 архитектурных зазоров выделены в исследовании? - Что входит в интеграционный контракт между слоями? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? - Кто ключевые авторы проектов для контакта? _... ещё 10 разделов_ _Слов: 275_
+
+_→ [[OUTLINE]]_
+
+### Q&A: meta-scripting > > !NOTE - Какие инструменты обеспечивают безопасность агентов?
+
+- Какова политика доступа по умолчанию (tool classes)? - Как организован бюджетный роутинг между моделями? - Какие 5 архитектурных зазоров выделены в исследовании? - Что входит в интеграционный контракт между слоями? - Использование - Запуск - Смотрите также _Слов: 135_
+
+_→ [[OUTLINE]]_
+
+### Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью?
+
+- Что такое Evidence Envelope и зачем он нужен? - Какие RAG-подходы сравниваются в документах? - Как работает AgentFS и что такое .agentos? - Что такое knowledge-space и для кого он предназначен? - Как CardIndex хранит и версионирует карточки? - Какие 5 архитектурных зазоров выделены в исследовании? _... ещё 2 разделов_ _Слов: 387_
+
+_→ [[OUTLINE]]_
 
 
 ## MVP/Запуск
@@ -109,11 +119,17 @@ _→ [[06-conclusion-deserves-attention]]_
 
 Начните с Executive Summary (docs/01-svyazi/01-executive-summary.md), затем MVP Planning (07-mvp-planning.md) и Roadmap (12-roadmap.md).
 
-### Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать?
+### Q&A: anthropic-vacancies > > !NOTE - Какие кластеры найма выделены у Anthropic?
 
-Вариант 1. Закрыть сессию, commitнуть все семь документов в Nautilus repository, начать использовать GitHub Discussions для дальнейших observations и refinements. Pragmatic compromise.
+- Какие роли наиболее релевантны для профиля svend4? - Использование - Запуск - Смотрите также _Слов: 103_
 
-_→ [[272-appendix-d-connection-diagram]]_
+_→ [[OUTLINE]]_
+
+### Q&A: contacts > > !NOTE - Какие системы памяти описаны в этом разделе?
+
+- Как происходит консолидация и забывание в памяти агентов? - Какова разница между эпизодической и семантической памятью? - Использование - Запуск - Смотрите также _Слов: 111_
+
+_→ [[OUTLINE]]_
 
 
 ## Компоненты
@@ -126,14 +142,20 @@ _→ [[272-appendix-d-connection-diagram]]_
 
 Контакты в docs/CONTACTS.md. Авторы: kksudo (Андрей) — AgentFS, spbmolot (Виталий) — ряд Habr-проектов. Используйте шаблон docs/templates/contact-outreach.md.
 
+### Открытые вопросы 1. Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)?
+
+2. Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? 3. Как memory write API взаимодействует с внешними источниками? 4. Планируется ли поддержка batch-ingestion из документов?
+
+_→ [[agent-memory-mcp]]_
+
+### Q&A: lorenzo-agent > > !NOTE - Какие кластеры найма выделены у Anthropic?
+
+- Какие роли наиболее релевантны для профиля svend4? - Каковы этапы MVP и их оценка по времени? - Что входит в первую итерацию прототипа? - Кто ключевые авторы проектов для контакта? - Какие вопросы лучше задавать авторам при первом контакте? - Как работает AgentFS и что такое .agentos? - Что такое knowledge-space и для кого он предназначен? _... ещё 12 разделов_ _Слов: 256_
+
+_→ [[OUTLINE]]_
+
 
 ## Интеграция
-
-### Какой направление приоритетно?
-
-Хорошо. Пишу portal-mcp.py — MCP wrapper над Nautilus Portal. Это обёртка, которая экспонирует движок портала как tools для LLM через Model Context Protocol.
-
-_→ [[122-глоссарий]]_
 
 ### Это реализуется существующими tools?
 
@@ -161,7 +183,7 @@ _→ [[343-lorenzo-catalyst-agent-глубокая-проработка-спец
 
 ### Why "Nautilus"?
 
-A [[memnet|nautilus]] shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
+A nautilus shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
 _→ [[68-about]]_
 
@@ -174,17 +196,17 @@ _→ [[11-difficulties-and-recommendations]]_
 
 ## Лицензия
 
-### Какой подход resonates? Integration в OKWF document, или separate short paper?
-
-И еще один thoughtful вопрос для consideration: в вашем личном случае , как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ва
-
-_→ [[165-closing]]_
-
 ### Question 5: Каковы limits Lorenzo's authority?
 
 Critical question для ethical design.
 
 _→ [[05-q5-authority-limits]]_
+
+### Какой подход resonates? Integration в OKWF document, или separate short paper?
+
+И еще один thoughtful вопрос для consideration: в вашем личном случае, как retired engineer / disabled expert / researcher with limited public presence — personal AI agent уже существенно меняет вашу daily реальность? Или это в основном concept о других people? Если первое, конкретные примеры из ваш
+
+_→ [[01-response]]_
 
 
 ## Общее
@@ -198,12 +220,6 @@ Svyazi 2.0 — это экосистема из 20+ взаимосвязанны
 - [ ] Есть время на Фазу C в течение 2 недель? - [ ] Две ветки будут работать на **полностью независимых** prompts (не «продолжи вариант A»)?
 
 _→ [[116-9-checklist-применения-методологии]]_
-
-### Что из этого feels aligned с вашими current capabilities и interest?
-
-И один дополнительный вопрос, который поможет calibrate: когда вы говорите о «гнезде для больших птиц», вы видите себя в роли:
-
-_→ [[150-appendix-c-version-history]]_
 
 ### 10.3. Legal Questions What's the legal status of agent communications?
 
@@ -235,31 +251,16 @@ _→ [[179-10-open-questions]]_
 
 _→ [[200-10-открытые-вопросы]]_
 
+### 10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?
 
-<!-- see-also -->
+Что происходит с профессиями, в настоящее время предоставляющими представительские услуги (юристы, агенты, посредники), когда AI-агенты становятся распространёнными? Какие новые социальные динамики возникают, когда большинство взаимодействий включают опосредование агентами? Как мы сохраняем прямую человеческую связь в мире опосредованной коммуникации?
 
----
+_→ [[200-10-открытые-вопросы]]_
+
 
 
 ## Использование
-
 ```bash
+# Запуск
 python scripts/improve_faq.py
 ```
-
-## Смотрите также
-- [[179-10-open-questions]]
-- [[10-open-questions]]
-- [[CLUSTERS]]
-- [[SEARCH]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-

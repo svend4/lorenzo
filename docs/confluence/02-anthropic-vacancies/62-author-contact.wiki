@@ -1,10 +1,33 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/62-author-contact.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Author & Contact
 
+
+h2. Contents
+
+* [Author & Contact|#author-contact]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (16)|#кто-ссылается-на-этот-документ-16]
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+
+{quote}[!TIP]{quote}
+{quote}Обзорный документ. Рекомендуется читать перед погружением в детали.{quote}
 
 {quote}_Контакт:_ Issues в {{github.com/svend4/meta}}{quote}
 
@@ -30,7 +53,7 @@ _Лицензия:_
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [52-author-contact|52-author-contact.md] (сходство 0.37)
 * [42-author-contact|42-author-contact.md] (сходство 0.37)
 * [03-portal-protocol-md|03-portal-protocol-md.md] (сходство 0.15)
@@ -40,7 +63,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Author Contact"
+{code}
+
+h2. Смотрите также
 * [42-author-contact|42-author-contact.md]
 * [52-author-contact|52-author-contact.md]
 * [25-13-reference-implementation|25-13-reference-implementation.md]
@@ -92,3 +121,19 @@ h2. Связанные документы
 * [12. Versioning Policy|24-12-versioning-policy.md] _29%_
 * [passports/info1.md|35-passports-info1-md.md] _29%_
 * [Author & Contact|52-author-contact.md] _29%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (16)
+* [03-portal-protocol-md|03-portal-protocol-md.md]
+* [05-0-status-of-this-document|05-0-status-of-this-document.md]
+* [16-history|16-history.md]
+* [24-12-versioning-policy|24-12-versioning-policy.md]
+* [25-13-reference-implementation|25-13-reference-implementation.md]
+* [338-ссылки|338-ссылки.md]
+* 35-passports-[info1-md|35-passports-info1-md.md]
+* [353-что-ты-не-можешь-делать-вообще|353-что-ты-не-можешь-делать-вообще.md]
+* _...ещё 8_
+

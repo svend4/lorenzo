@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,10 +8,15 @@ title: "3. What Makes a Representative Agent"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. 3. What Makes a Representative Agent
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -22,6 +27,10 @@ h1. 3. What Makes a Representative Agent
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}A Representative Agent is distinct from existing AI categories.{quote}
 
@@ -156,7 +165,7 @@ and 7.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[174-5-architectural-specification]] (сходство 0.20)
 * [[212-1-the-five-type-typology-of-principal-side-agents]] (сходство 0.15)
 * [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.13)
@@ -166,7 +175,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "3 What Makes a Representative Agent"
+{code}
+
+h2. Смотрите также
 * [[174-5-architectural-specification]]
 * [[212-1-the-five-type-typology-of-principal-side-agents]]
 * [[213-2-what-makes-a-professional-colleague-agent]]
@@ -212,3 +227,19 @@ h2. Связанные документы
 * [[179-10-open-questions|10. Open Questions]] _25%_
 * [[259-6-coordination-and-disagreement-resolution|6. Coordination and Disagreement Resolution]] _25%_
 * [[264-11-open-questions|11. Open Questions]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [[171-2-historical-precedents-agents-as-civilizational-i]]
+* [[174-5-architectural-specification]]
+* [[211-table-of-contents]]
+* [[212-1-the-five-type-typology-of-principal-side-agents]]
+* [[213-2-what-makes-a-professional-colleague-agent]]
+* [[220-9-relationship-to-other-agent-types]]
+* [[256-3-what-makes-a-composite-skills-agent]]
+* [[258-5-configuration-how-principals-build-their-ensembl]]
+* _...ещё 2_
+

@@ -1,31 +1,13 @@
 ---
 title: "Сеть проектов и авторов"
 tags:
-  - memory
-  - rag
-  - orchestration
-  - security
-  - knowledge
-  - ingestion
-  - collaboration
+  - network
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Сеть проектов и авторов
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Топ-20 ко-упоминаемых пар](#топ-20-ко-упоминаемых-пар)
-- [Центральность узлов (влиятельность)](#центральность-узлов-влиятельность)
-- [Авторы ↔ Проекты](#авторы-проекты)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
 
 <!-- toc-auto -->
 ## Contents
@@ -33,26 +15,18 @@ date: 2026-05-10
 - [Топ-20 ко-упоминаемых пар](#топ-20-ко-упоминаемых-пар)
 - [Центральность узлов (влиятельность)](#центральность-узлов-влиятельность)
 - [Авторы ↔ Проекты](#авторы-проекты)
-- [Смотрите также](#смотрите-также)
+- [Использование](#использование)
 
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `NETWORK` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: network, docs -->
+
 
 <!-- summary -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-> **Андрей (kksudo)** → **Svyazi** (116), **AgentFS** (84), **Yodoca** (81), **NGT** (80), **knowledge-space** (76), **Lorenzo** (75), **CardIndex** (68), **ingit** (62)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, collaboration -->
-
-
+> `NETWORK` — раздел документации проекта Lorenzo.
 
 
 **Узлов:** 20  **Связей:** 190
@@ -61,85 +35,75 @@ date: 2026-05-10
 
 | Пара | Общих файлов |
 |------|-------------|
-| **Cowork** ↔ **ingit** | 273 |
-| **Svyazi** ↔ **Yodoca** | 198 |
-| **Svyazi** ↔ **NGT** | 196 |
-| **Yodoca** ↔ **NGT** | 185 |
-| **Svyazi** ↔ **CardIndex** | 183 |
-| **Svyazi** ↔ **AgentFS** | 157 |
-| **AgentFS** ↔ **NGT** | 147 |
-| **CardIndex** ↔ **NGT** | 145 |
-| **AgentFS** ↔ **Yodoca** | 143 |
-| **Svyazi** ↔ **knowledge-space** | 138 |
-| **Svyazi** ↔ **Lorenzo** | 138 |
-| **CardIndex** ↔ **AgentFS** | 137 |
-| **CardIndex** ↔ **Yodoca** | 136 |
-| **Svyazi** ↔ **MemNet** | 131 |
-| **Svyazi** ↔ **mclaude** | 131 |
-| **Cowork** ↔ **Lorenzo (svend4)** | 130 |
-| **Svyazi** ↔ **Rufler** | 127 |
-| **AgentFS** ↔ **knowledge-space** | 126 |
-| **NGT** ↔ **knowledge-space** | 125 |
-| **ingit** ↔ **Lorenzo (svend4)** | 124 |
+| **Cowork** ↔ **ingit** | 325 |
+| **Svyazi** ↔ **Lorenzo** | 296 |
+| **Svyazi** ↔ **Yodoca** | 271 |
+| **Svyazi** ↔ **NGT** | 249 |
+| **Svyazi** ↔ **CardIndex** | 241 |
+| **Yodoca** ↔ **NGT** | 236 |
+| **Svyazi** ↔ **AgentFS** | 211 |
+| **AgentFS** ↔ **Yodoca** | 188 |
+| **Svyazi** ↔ **knowledge-space** | 184 |
+| **Svyazi** ↔ **mclaude** | 181 |
+| **AgentFS** ↔ **NGT** | 181 |
+| **CardIndex** ↔ **NGT** | 180 |
+| **Lorenzo** ↔ **ingit** | 175 |
+| **CardIndex** ↔ **Yodoca** | 174 |
+| **Svyazi** ↔ **Rufler** | 173 |
+| **Lorenzo** ↔ **Cowork** | 171 |
+| **AgentFS** ↔ **knowledge-space** | 169 |
+| **Svyazi** ↔ **MemNet** | 168 |
+| **CardIndex** ↔ **AgentFS** | 167 |
+| **Lorenzo** ↔ **Lorenzo (svend4)** | 164 |
 
 ## Центральность узлов (влиятельность)
 
 | Узел | Балл центральности | Тип |
 |------|--------------------|-----|
-| **Svyazi** | 2392 | 📦 Проект |
-| **NGT** | 1945 | 📦 Проект |
-| **Yodoca** | 1872 | 📦 Проект |
-| **CardIndex** | 1724 | 📦 Проект |
-| **AgentFS** | 1702 | 📦 Проект |
-| **knowledge-space** | 1553 | 📦 Проект |
-| **Rufler** | 1404 | 📦 Проект |
-| **mclaude** | 1385 | 📦 Проект |
-| **LiteParse** | 1344 | 📦 Проект |
-| **MemNet** | 1344 | 📦 Проект |
-| **Lorenzo** | 1263 | 📦 Проект |
-| **SENTINEL** | 1225 | 📦 Проект |
-| **Андрей (kksudo)** | 1224 | 👤 Автор |
-| **AI Factory** | 1205 | 📦 Проект |
-| **Lorenzo (svend4)** | 1204 | 👤 Автор |
-| **ingit** | 1195 | 📦 Проект |
-| **Cowork** | 1176 | 📦 Проект |
-| **Виталий (spbmolot)** | 1073 | 👤 Автор |
-| **Wikontic** | 715 | 📦 Проект |
-| **Firecrawl** | 347 | 📦 Проект |
+| **Svyazi** | 3143 | 📦 Проект |
+| **Yodoca** | 2442 | 📦 Проект |
+| **NGT** | 2404 | 📦 Проект |
+| **Lorenzo** | 2222 | 📦 Проект |
+| **AgentFS** | 2209 | 📦 Проект |
+| **CardIndex** | 2145 | 📦 Проект |
+| **knowledge-space** | 2023 | 📦 Проект |
+| **mclaude** | 1844 | 📦 Проект |
+| **Rufler** | 1830 | 📦 Проект |
+| **MemNet** | 1699 | 📦 Проект |
+| **LiteParse** | 1688 | 📦 Проект |
+| **Андрей (kksudo)** | 1535 | 👤 Автор |
+| **Cowork** | 1422 | 📦 Проект |
+| **Lorenzo (svend4)** | 1401 | 👤 Автор |
+| **SENTINEL** | 1390 | 📦 Проект |
+| **ingit** | 1385 | 📦 Проект |
+| **AI Factory** | 1382 | 📦 Проект |
+| **Виталий (spbmolot)** | 1307 | 👤 Автор |
+| **Wikontic** | 983 | 📦 Проект |
+| **Firecrawl** | 394 | 📦 Проект |
 
 ## Авторы ↔ Проекты
 
-**Андрей (kksudo)** → **Svyazi** (116), **AgentFS** (84), **Yodoca** (81), **NGT** (80), **knowledge-space** (76), **Lorenzo** (75), **CardIndex** (68), **ingit** (62)
+**Андрей (kksudo)** → **Svyazi** (146), **AgentFS** (116), **Lorenzo** (115), **Yodoca** (109), **NGT** (97), **knowledge-space** (96), **CardIndex** (88), **mclaude** (75)
 
-**Виталий (spbmolot)** → **Svyazi** (111), **NGT** (70), **Yodoca** (69), **knowledge-space** (67), **AgentFS** (66), **Lorenzo** (64), **CardIndex** (57), **ingit** (54)
+**Виталий (spbmolot)** → **Svyazi** (132), **Lorenzo** (102), **Yodoca** (87), **NGT** (84), **AgentFS** (82), **knowledge-space** (80), **CardIndex** (73), **mclaude** (61)
 
-**Lorenzo (svend4)** → **Cowork** (130), **ingit** (124), **MemNet** (118), **Svyazi** (116), **Lorenzo** (87), **NGT** (68), **CardIndex** (62), **Yodoca** (59)
+**Lorenzo (svend4)** → **Lorenzo** (164), **Cowork** (146), **ingit** (132), **Svyazi** (124), **MemNet** (115), **NGT** (76), **CardIndex** (74), **Yodoca** (68)
 
 
 <!-- see-also -->
 
 ---
 
-
-## Использование
-
-```bash
-python scripts/improve_network.py
-```
-
-## Смотрите также
+**Смотрите также:**
 - [[GRAPH]]
 - [[ENTITIES]]
-- [[GLOSSARY]]
 - [[MINDMAP]]
+- [[GLOSSARY]]
 
 
-<!-- backlinks -->
 
----
-
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-
+## Использование
+```bash
+# Запуск
+python scripts/improve_network.py
+```

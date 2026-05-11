@@ -1,16 +1,23 @@
 ---
-title: "Продолжение исследования для Svyazi 2.0"
+title: "Продолжение исследования для Svyazi[^svyazi] 2.0"
 tags:
   - svyazi
   - architecture
   - research
   - continuation
-date: 2026-05-10
+date: 2026-05-11
 ---
 
-# Продолжение исследования для Svyazi 2.0
+# Продолжение исследования для Svyazi[^svyazi] 2.0
 
 <!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Смотрите также](#смотрите-также)
+- [Использование](#использование)
+
+
 ## Содержание
 
 
@@ -45,8 +52,29 @@ python scripts/improve_semantic_search.py --query "Svyazi 2.0 архитекту
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (6):**
+- [[11-integration-contracts]]
+- [[README]]
+- [[11-интеграционный-контракт-который-стоит-зафиксироват]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[TABLES]]
+
+
+
+<!-- footnotes-added -->
+
+---
+
+[^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SEARCH_RESULTS]]
+- [[13-communications]]
+- [[12-technical-program-management]]
+- [[03-similarity-3-mcp-support]]
 

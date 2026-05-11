@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Practical Recommendations for the Current Project

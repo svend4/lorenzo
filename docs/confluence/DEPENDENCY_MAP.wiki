@@ -1,22 +1,33 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/DEPENDENCY_MAP.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Карта зависимостей скриптов
 
 
-{quote}_Что каждый {{improve_*.py}} производит и от чего зависит._{quote}
+h2. Contents
 
-----
+* [Зависимости|#зависимости]
+* [Скрипты без карты зависимостей|#скрипты-без-карты-зависимостей]
+* [Порядок запуска (рекомендуемый)|#порядок-запуска-рекомендуемый]
+* [Смотрите также|#смотрите-также]
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{DEPENDENCY_MAP}} формируется автоматически из данных репозитория.{quote}
 
 
 
+
+
+
+{quote}{{DEPENDENCY_MAP}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Что каждый {{improve_*.py}} производит и от чего зависит._
 
-_Скриптов в карте:_ 126 · _Всего в репо:_ 125
+_Скриптов в карте:_ 126 · _Всего в репо:_ 163
 
 h2. Зависимости
 
@@ -148,6 +159,49 @@ h2. Зависимости
 || `improve_word_cloud.py` || `docs/WORD_CLOUD.svg`, `docs/WORD_CLOUD.md` || `docs/WORD_FREQ.md` ||
 || `improve_word_freq.py` || `docs/WORD_FREQ.md` || `docs/**/*.md` ||
 
+h2. Скрипты без карты зависимостей
+
+_Существуют в репо, но не добавлены в карту:_
+
+* {{improve_audit_db.py}}
+* {{improve_auto_linker.py}}
+* {{improve_card_index.py}}
+* {{improve_collab_finder.py}}
+* {{improve_cross_section.py}}
+* {{improve_digest_auto.py}}
+* {{improve_embedding_index.py}}
+* {{improve_empty_sections.py}}
+* {{improve_export_report.py}}
+* {{improve_faceted_search.py}}
+* {{improve_gap_filler.py}}
+* {{improve_heading_audit.py}}
+* {{improve_knowledge_map.py}}
+* {{improve_language_split.py}}
+* {{improve_mcp_dashboard.py}}
+* {{improve_mcp_test.py}}
+* {{improve_migrate_contacts.py}}
+* {{improve_passive_voice.py}}
+* {{improve_quality_patch.py}}
+* {{improve_question_extractor.py}}
+* {{improve_reading_list.py}}
+* {{improve_recipe.py}}
+* {{improve_registry.py}}
+* {{improve_scripts_catalog.py}}
+* {{improve_search_repl.py}}
+* {{improve_self.py}}
+* {{improve_semantic_search.py}}
+* {{improve_similar_passages.py}}
+* {{improve_skill_dashboard.py}}
+* {{improve_status_badges.py}}
+* {{improve_task_codegen.py}}
+* {{improve_template_init.py}}
+* {{improve_template_integrity.py}}
+* {{improve_template_migrate.py}}
+* {{improve_textrank.py}}
+* {{improve_validate_templates.py}}
+* {{improve_workflow_run.py}}
+* {{improve_workflow_v2.py}}
+
 h2. Порядок запуска (рекомендуемый)
 
 {code}
@@ -165,20 +219,10 @@ h2. Порядок запуска (рекомендуемый)
 _Используй {{python scripts/improve_run_all.py}} для автоматического порядка._
 
 
-h2. Упоминается в
-
-* [Changelog (авто)|CHANGELOG_AUTO.md]
-* [docs|README.md]
-* [Все таблицы репозитория|TABLES.md]
-* [Индекс документации — Lorenzo / Svyazi 2.0|INDEX.md]
-* [Карта репозитория Lorenzo|SITEMAP.md]
-
-
-h2. Связанные документы
-
-* [CHANGELOG|CHANGELOG.md] _25%_
-* [docs|README.md] _25%_
-* [Индекс тегов|TAGS.md] _21%_
-* [Changelog (авто)|CHANGELOG_AUTO.md] _17%_
-* [Прогресс MVP|PROGRESS.md] _17%_
-* [Бейджи репозитория|badges/README.md] _15%_
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]
+* [Решения|DECISIONS.md]

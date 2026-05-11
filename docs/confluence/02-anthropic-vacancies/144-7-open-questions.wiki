@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/144-7-open-questions.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. 7. Open Questions
@@ -166,7 +166,7 @@ requires research.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md] (сходство 0.16)
 * [140-3-three-inter-layer-protocols|140-3-three-inter-layer-protocols.md] (сходство 0.15)
 * [145-8-call-to-action|145-8-call-to-action.md] (сходство 0.15)
@@ -176,7 +176,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Open Questions"
+{code}
+
+h2. Смотрите также
 * [158-4-proposed-infrastructure|158-4-proposed-infrastructure.md]
 * [145-8-call-to-action|145-8-call-to-action.md]
 * [140-3-three-inter-layer-protocols|140-3-three-inter-layer-protocols.md]
@@ -220,3 +226,19 @@ h2. Связанные документы
 * [4. Nautilus Portal as Reference Substrate|141-4-nautilus-portal-as-reference-substrate.md] _21%_
 * [5. Pattern Library as Bridge Between Triangles|142-5-pattern-library-as-bridge-between-triangles.md] _21%_
 * [6. Four Deployment Domains|143-6-four-deployment-domains.md] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [134-the-double-triangle-architecture-md|134-the-double-triangle-architecture-md.md]
+* [140-3-three-inter-layer-protocols|140-3-three-inter-layer-protocols.md]
+* 141-4-[nautilus-portal-as-reference-substrate|141-4-nautilus-portal-as-reference-substrate.md]
+* [142-5-pattern-library-as-bridge-between-triangles|142-5-pattern-library-as-bridge-between-triangles.md]
+* [143-6-four-deployment-domains|143-6-four-deployment-domains.md]
+* [145-8-call-to-action|145-8-call-to-action.md]
+* [148-appendix-a-glossary|148-appendix-a-glossary.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* _...ещё 1_
+

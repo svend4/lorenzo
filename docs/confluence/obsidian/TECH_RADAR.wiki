@@ -1,45 +1,16 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/TECH_RADAR.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
 title: "Tech Radar — Svyazi 2.0"
 tags:
   * general
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Tech Radar — Svyazi 2.0
-
-{quote}[!WARNING]{quote}
-{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
-
-
-
-
-{quote}_Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
-----
-
-
-h2. Содержание
-
-* [Contents|#contents]
-* [Обзор|#обзор]
-* [🟢 ADOPT|#adopt]
-* [🔵 TRIAL|#trial]
-* [🟡 ASSESS|#assess]
-* [🔴 HOLD|#hold]
-* [Методология|#методология]
-
-----
-
-
-
-
-
 
 
 h2. Contents
@@ -50,6 +21,18 @@ h2. Contents
 * [🟡 ASSESS|#assess]
 * [🔴 HOLD|#hold]
 * [Методология|#методология]
+* [Смотрите также|#смотрите-также]
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{TECH_RADAR}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{TECH_RADAR}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -135,21 +118,9 @@ h2. Методология
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
-
-
-----
-
-_Смотрите также:_
-* [[ONBOARDING]]
-* [[COMPONENT_MATRIX]]
-* [[WORD_FREQ]]
-* [[RISK_REGISTER]]
-
-
-h2. Упоминается в
-
-* [[README|docs]]
-* [[TABLES|Все таблицы репозитория]]
-* [[CONCEPTS|Глоссарий понятий]]
-* [[INDEX|Индекс документации — Lorenzo / Svyazi 2.0]]
-* [[SITEMAP|Карта репозитория Lorenzo]]
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]

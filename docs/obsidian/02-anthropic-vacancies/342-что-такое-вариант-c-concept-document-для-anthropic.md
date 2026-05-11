@@ -2,7 +2,7 @@
 title: "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments

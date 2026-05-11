@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/279-existing-approximations.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * architecture
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Existing Approximations
@@ -23,7 +23,6 @@ h1. Existing Approximations
 
 h2. Содержание
 
-* [Contents|#contents]
 * [Existing Approximations|#existing-approximations]
   * [Anthropic Projects|#anthropic-projects]
   * [GitHub Discussions|#github-discussions]
@@ -42,17 +41,6 @@ h2. Содержание
 {quote}✅ _Результат:_ Anthropic Projects Provides persistent context across multiple chats grouped around a topic.{quote}
 {quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{layer}}, {{vacancies}}, {{existing}}, {{github}}, {{discussions}}, {{tools}}, {{projects}}{quote}
 >
-
-
-
-h2. Contents
-
-* [Existing Approximations|#existing-approximations]
-  * [Anthropic Projects|#anthropic-projects]
-  * [GitHub Discussions|#github-discussions]
-  * [Notion / Obsidian / Roam|#notion-[obsidian](../docs/01-svyazi/03-component-catalog.md]-roam)
-  * [Discourse / phpBB-style forums|#discourse-phpbb-style-forums]
-  * [Combination workflows|#combination-workflows]
 
 
 
@@ -150,7 +138,7 @@ problem.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[276-the-two-layer-stack-as-it-exists]] (сходство 0.19)
 * [[309-1-the-cowork-discovery-and-why-it-changes-everythi]] (сходство 0.16)
 * [[280-the-specific-case-in-front-of-us]] (сходство 0.16)
@@ -160,9 +148,31 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Existing Approximations"
+{code}
+
+h2. Смотрите также
 * [[276-the-two-layer-stack-as-it-exists]]
 * [[277-what-s-missing-layer-b]]
 * [[280-the-specific-case-in-front-of-us]]
 * [[309-1-the-cowork-discovery-and-why-it-changes-everythi]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [[275-why-this-document-exists]]
+* [[276-the-two-layer-stack-as-it-exists]]
+* [[277-what-s-missing-layer-b]]
+* [[278-why-this-hasn-t-been-built]]
+* [[280-the-specific-case-in-front-of-us]]
+* [[281-the-recursive-insight]]
+* [[282-what-industry-will-likely-build]]
+* [[284-practical-recommendations-for-the-current-project]]
+* _...ещё 1_
 

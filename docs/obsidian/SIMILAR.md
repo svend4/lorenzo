@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Похожие документы
@@ -24,6 +24,7 @@ date: 2026-05-10
   - [contacts](#contacts)
   - [root](#root)
   - [templates](#templates)
+- [Использование](#использование)
 
 
   - 02-[anthropic-vacancies](#02-anthropic-vacancies)

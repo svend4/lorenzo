@@ -3,7 +3,7 @@ title: "Вакансии Anthropic — Анализ по кластерам"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Вакансии Anthropic — Анализ по кластерам

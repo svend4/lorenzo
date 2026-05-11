@@ -2,24 +2,13 @@
 title: "Tech Radar — Svyazi 2.0"
 tags:
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Tech Radar — Svyazi 2.0
 
-> [!WARNING]
-> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Tool Search
-
----
-
-<!-- toc -->
-## Содержание
+<!-- toc-auto -->
+## Contents
 
 - [Обзор](#обзор)
 - [🟢 ADOPT](#adopt)
@@ -27,12 +16,18 @@ date: 2026-05-10
 - [🟡 ASSESS](#assess)
 - [🔴 HOLD](#hold)
 - [Методология](#методология)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, anthropic, collaboration -->
+- [Смотрите также](#смотрите-также)
 
 
+> [!NOTE]
+> Раздел `TECH_RADAR` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: tech-radar, docs -->
+
+
+<!-- summary -->
+> `TECH_RADAR` — раздел документации проекта Lorenzo.
 
 
 _Оценка технологий и компонентов экосистемы по методологии ThoughtWorks._
@@ -122,23 +117,9 @@ _Не рекомендуем для новых проектов. Использ�
 _Radar обновляется вручную при существенных изменениях экосистемы._
 
 
-<!-- see-also -->
-
----
-
 ## Смотрите также
-- [[ONBOARDING]]
-- [[COMPONENT_MATRIX]]
-- [[FOOTNOTES]]
-- [[license-tree]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]

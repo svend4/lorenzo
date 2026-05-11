@@ -2,7 +2,7 @@
 title: "Appendix C: Version History"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix C: Version History

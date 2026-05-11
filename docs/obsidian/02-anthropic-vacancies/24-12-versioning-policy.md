@@ -3,7 +3,7 @@ title: "12. Versioning Policy"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 12. Versioning Policy
@@ -16,6 +16,7 @@ date: 2026-05-10
   - [12.2. Version in Registry](#122-version-in-registry)
   - [12.3. Breaking Changes Process](#123-breaking-changes-process)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

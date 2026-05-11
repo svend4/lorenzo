@@ -1,9 +1,14 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/155-1-problem-statement.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. 1. Problem Statement
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -15,6 +20,10 @@ h1. 1. Problem Statement
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}The AI industry in 2026 exhibits an apparent paradox. Frontier{quote}
 
@@ -47,7 +56,7 @@ April 2026:
 * _Anthropic_: 440 open positions, primarily senior roles at 
   $320K–$405K compensation
 * _OpenAI_: estimated 600+ open positions
-* _Google [DeepMind|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]_: estimated 400+ open positions
+* _Google [DeepMind|01-интегральный-анализ-профиля-svend4.md]_: estimated 400+ open positions
 * _Mistral, Cohere, Inflection, xAI_: collectively 1000+ open 
   positions
 
@@ -131,7 +140,7 @@ coordinated action now.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [153-executive-summary|153-executive-summary.md] (сходство 0.17)
 * [156-2-target-populations|156-2-target-populations.md] (сходство 0.16)
 * [163-9-call-for-partnership|163-9-call-for-partnership.md] (сходство 0.15)
@@ -141,7 +150,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "1 Problem Statement"
+{code}
+
+h2. Смотрите также
 * [153-executive-summary|153-executive-summary.md]
 * [156-2-target-populations|156-2-target-populations.md]
 * [163-9-call-for-partnership|163-9-call-for-partnership.md]
@@ -177,3 +192,19 @@ h2. Связанные документы
 * [8. Pilot Proposal: SGB Advocate Colleague|219-8-pilot-proposal-sgb-advocate-colleague.md] _17%_
 * [INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md|273-infrastructure-for-ai-collaborative-intellectual-w.md] _17%_
 * [The Recursive Insight|281-the-recursive-insight.md] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [151-open-knowledge-work-foundation-md|151-open-knowledge-work-foundation-md.md]
+* [153-executive-summary|153-executive-summary.md]
+* [154-table-of-contents|154-table-of-contents.md]
+* [156-2-target-populations|156-2-target-populations.md]
+* [157-3-why-existing-solutions-fail|157-3-why-existing-solutions-fail.md]
+* [219-8-pilot-proposal-sgb-advocate-colleague|219-8-pilot-proposal-sgb-advocate-colleague.md]
+* [273-infrastructure-for-ai-collaborative-intellectual-w|273-infrastructure-for-ai-collaborative-intellectual-w.md]
+* [281-the-recursive-insight|281-the-recursive-insight.md]
+* _...ещё 1_
+

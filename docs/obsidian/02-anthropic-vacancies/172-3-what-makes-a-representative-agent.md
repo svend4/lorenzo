@@ -3,7 +3,7 @@ title: "3. What Makes a Representative Agent"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 3. What Makes a Representative Agent

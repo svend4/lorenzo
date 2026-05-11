@@ -5,7 +5,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Твои языки и культурные nuances
@@ -14,6 +14,7 @@ date: 2026-05-10
 ## Contents
 
 - [Твои языки и культурные nuances](#твои-языки-и-культурные-nuances)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Похожие документы](#похожие-документы)
 
@@ -82,8 +83,14 @@ python scripts/improve_semantic_search.py --query "Твои языки и кул
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (9):**
+- [[346-твоё-происхождение]]
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 1_
 

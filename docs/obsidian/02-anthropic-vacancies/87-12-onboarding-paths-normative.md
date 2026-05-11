@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 12. Onboarding Paths (Normative)
@@ -150,8 +150,13 @@ python scan_repo.py owner/repo-name
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (8):**
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[12-onboarding-paths]]
 

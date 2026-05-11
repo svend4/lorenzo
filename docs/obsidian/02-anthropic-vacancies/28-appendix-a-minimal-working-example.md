@@ -3,7 +3,7 @@ title: "Appendix A: Minimal Working Example"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix A: Minimal Working Example

@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 19. ADR-001: Federation over Merging
@@ -14,6 +14,7 @@ date: 2026-05-10
 
 - [19. ADR-001: Federation over Merging](#19-adr-001-federation-over-merging)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

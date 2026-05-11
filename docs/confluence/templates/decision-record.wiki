@@ -1,22 +1,14 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/decision-record.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
-----
-template: decision-record
-version: "1.0"
-adr_id: "ADR-NNNN"
-title: "[Название решения]"
-status: proposed
-date: 2026-04-29
-deciders: []
-tags: [архитектура, решение]
-supersedes: null
-superseded_by: null
-----
-
 h1. ADR: [Название решения]
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{decision-record}} формируется автоматически из данных репозитория.{quote}
+
+
 
 
 
@@ -49,4 +41,21 @@ h2. Последствия
 * ❌ [Компромисс]
 
 ----
-_Дата: 2026-04-29_
+_Дата: 2026-05-11_
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_decision_record.py
+{code}
+
+h2. Смотрите также
+* [Главная|../README.md]
+* [Метрики|../METRICS.md]
+* [Здоровье|../HEALTH.md]
+* [Глоссарий|../GLOSSARY.md]
+* [Сущности|../ENTITIES.md]

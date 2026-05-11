@@ -3,7 +3,7 @@ title: "Appendix B: Summary of Contributions"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix B: Summary of Contributions
@@ -14,6 +14,7 @@ date: 2026-05-10
 - [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
 - [Author & Contact](#author-contact)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

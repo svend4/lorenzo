@@ -2,7 +2,7 @@
 title: "Технический stack (Svyazi 2.0 foundation)"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Технический stack (Svyazi 2.0 foundation)

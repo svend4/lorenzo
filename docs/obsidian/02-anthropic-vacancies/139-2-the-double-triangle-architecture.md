@@ -3,7 +3,7 @@ title: "2. The Double-Triangle Architecture"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 2. The Double-Triangle Architecture

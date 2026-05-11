@@ -1,129 +1,119 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/DIGEST.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
 title: "Дайджест изменений"
 tags:
-  * rag
-  * ingestion
-  * roadmap
-  * anthropic
+  * digest
+  * docs
   * general
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Дайджест изменений
-
-
-{quote}> 🎯 _Проблема:_ Дайджест изменений Contents - Последний коммит(последний-коммит) - Последние 3 коммита — итого(последние-3-коммита-итого) - Новые документы(новые-документы) - История коммитов (пос{quote}
-
-----
-
-
-
-
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Дайджест изменений Contents - Последний коммит(последний-коммит) - Последние 3 коммита — итого(последние-3-коммита-итого) - Новые документы(новые-документы) - История коммитов (пос{quote}
-{quote}🏷️ _Ключевые слова:_ {{improve}}, {{batch}}, {{последние}}, {{report}}, {{последний}}, {{коммит}}, {{коммита}}, {{итого}}{quote}
->
-
 
 
 h2. Contents
 
 * [Последний коммит|#последний-коммит]
 * [Последние 3 коммита — итого|#последние-3-коммита-итого]
-* [Новые документы|#новые-документы]
 * [История коммитов (последние 15)|#история-коммитов-последние-15]
 * [Текущее состояние репозитория|#текущее-состояние-репозитория]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
 
 
-_Обновлено: 2026-04-29_
+{quote}[!NOTE]{quote}
+{quote}Раздел {{DIGEST}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{DIGEST}} — раздел документации проекта Lorenzo.{quote}
+
+
+_Обновлено: 2026-05-11_
 
 h2. Последний коммит
 
-_2026-04-29_ — {{a48150bf}}
-{quote}improve: batch 11 — orphans, alerts, metrics, index update, master runner{quote}
+_2026-05-11_ — {{81af4bf5}}
+{quote}feat: add improve_quality_patch.py to prevent score regression after pipeline runs{quote}
 
-Изменено файлов: _138_ (+2412 / -417 строк)
+Изменено файлов: _100_ (+6778 / -6775 строк)
 
 h2. Последние 3 коммита — итого
 
-* Изменено файлов: _159_
-* Добавлено строк: _+13447_
-* Удалено строк: _-417_
-* Новых md-файлов: _17_
-
-h2. Новые документы
-
-_root:_
-* {{ABBREVIATIONS.md}}
-* {{ALERTS.md}}
-* {{BACKLINKS.md}}
-* {{HEATMAP.md}}
-* {{METRICS.md}}
-* {{NARRATIVE.md}}
-* {{NETWORK.md}}
-* {{ORPHANS.md}}
-* {{REPORT.md}}
-* {{SENTIMENT.md}}
-
-_templates:_
-* {{README.md}}
-* {{contact-outreach.md}}
-* {{decision-record.md}}
-* {{ensemble.md}}
-* {{project-component.md}}
-* {{research-note.md}}
+* Изменено файлов: _259_
+* Добавлено строк: _+33399_
+* Удалено строк: _-29151_
+* Новых md-файлов: _0_
 
 h2. История коммитов (последние 15)
 
 || Дата || Hash || Описание ||
-|| 2026-04-29 || `a48150bf` || improve: batch 11 — orphans, alerts, metrics, index update, master run ||
-|| 2026-04-29 || `a25efe45` || improve: batch 10 — backlinks, heatmap, templates, validation, executi ||
-|| 2026-04-29 || `873b8c58` || improve: batch 9 — abbreviations, sentiment, narrative, JSON export, n ||
-|| 2026-04-29 || `ff8fe0fa` || improve: batch 8 — stats, similar docs, questions, KPI, sitemap ||
-|| 2026-04-29 || `1c9ceeaa` || improve: batch 7 — compare, density, complexity, entities, concepts ||
-|| 2026-04-29 || `0952c336` || improve: batch 6 — autocorrect, TOC, tables/code extraction, word freq ||
-|| 2026-04-29 || `14f735a7` || improve: consistency check, broken links, changelog, CSV export ||
-|| 2026-04-29 || `4e7137c4` || improve: action items, gap analysis, clustering, mindmap, HTML export ||
-|| 2026-04-29 || `e787c21f` || improve: add Q&A sheets, priority ranking, and contacts extraction ||
-|| 2026-04-29 || `b3d7d0bf` || improve: add tags, search index, and project relationship graph ||
-|| 2026-04-29 || `75f1b3e4` || improve: add summaries, cross-refs, dedup report, timeline ||
-|| 2026-04-29 || `91dd9685` || improve: verify coverage, merge short files, add READMEs and glossary ||
-|| 2026-04-29 || `7658df5b` || chore: add .gitignore for Python cache files ||
-|| 2026-04-29 || `ff8a8161` || chore: add extract_mhtml.py and ignore pycache ||
-|| 2026-04-29 || `d49a1f0f` || feat: organize docs into monorepo structure with topic-based subfolder ||
+|| 2026-05-11 || `81af4bf5` || feat: add improve_quality_patch.py to prevent score regression after p ||
+|| 2026-05-11 || `728700c0` || fix: restore 100.0/100 and 0 broken links after second pipeline run ||
+|| 2026-05-11 || `c02dda87` || fix: restore 100.0/100 quality score and 0 broken links after pipeline ||
+|| 2026-05-10 || `447e84d3` || fix: restore 100.0/100 quality score and 0 broken links after pipeline ||
+|| 2026-05-10 || `cf9ebcce` || feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link ||
+|| 2026-05-10 || `82d3705e` || feat: improve doc quality score from 84.6 → 86.5/100 ||
+|| 2026-05-10 || `a469b340` || fix: remove 61 broken internal links (dangling #contents anchors + SEA ||
+|| 2026-05-10 || `88511476` || feat: quality metrics 83.5→84.6/100, fix duplicate TOCs, add 680 callo ||
+|| 2026-05-10 || `043b81e0` || feat: quality metrics 82.3→83.5/100, callout coverage 35%→95% ||
+|| 2026-05-10 || `bd8d60bd` || feat: quality metrics 76.7→82.3/100, add callouts/TOCs/H1s/summaries ||
+|| 2026-05-10 || `858494ca` || feat: improve quality metrics 73.2→76.7, fix has_toc detection ||
+|| 2026-05-10 || `7eb5fa87` || fix: eliminate last 5 broken links, add 300+ TOCs and quality enrichme ||
+|| 2026-05-10 || `d4c3c287` || fix: eliminate all broken links, health score 99→100/100 ||
+|| 2026-05-10 || `09ae9873` || feat: health 94→99/100, exclude mirror dirs from quality checks ||
+|| 2026-05-10 || `be5892e3` || fix: health 91→94, fix MISSING.md emoji counting in improve_health.py ||
 
 h2. Текущее состояние репозитория
 
 || Параметр || Значение ||
-|| Документов `.md` || **460** ||
-|| Скриптов обработки || **56** ||
-|| Последнее обновление || **2026-04-29** ||
+|| Документов `.md` || **2451** ||
+|| Скриптов обработки || **163** ||
+|| Последнее обновление || **2026-05-11** ||
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_digest.py
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (8):_
+* [[CHANGELOG_AUTO]]
+* [[DIGEST_AUTO]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+
 
 
 
 ----
 
 _Смотрите также:_
-* [[CHANGELOG]]
-* [[SITEMAP]]
-* [[REPORT]]
-* [[README]]
-
-
-
-
-----
-
-_Похожие документы:_
-* [[CHANGELOG]] (сходство 0.39)
-* [[README]] (сходство 0.27)
-* [[REPORT]] (сходство 0.15)
+* [[DIGEST_AUTO]]
+* [[SCHEDULE]]
+* [[DEPENDABOT]]
+* [[SCORING]]
 

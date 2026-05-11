@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/122-глоссарий.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Глоссарий
@@ -92,7 +92,7 @@ Header warning в Appendix A — это то, что можно копи-пас�
 Рекомендую следующий минимальный workflow для интеграции в репо:
 Первое — создать REVIEW_METHODOLOGY.md в корне репо (не в docs/ , потому что это применимо ко всему проекту, не к специфической области). Commit: docs: add REVIEW_METHODOLOGY for three-phase review process .
 Второе — в каждый из четырёх IMPLEMENTATION_STAGE_PART_*.md добавить header warning из Appendix A с реальными названиями веток ( claude/review-nautilus-changes-tdywx и claude/project-implementation-stage-CzylE ) и deadline Фазы C (рекомендую 2 недели от сегодня).
-Третье — в README.md в разделе «Документация» добавить одну строку: [REVIEW_METHODOLOGY.md](./REVIEW_METHODOLOGY.md) — о трёхфазной методологии review .
+Третье — в README.md в разделе «Документация» добавить одну строку: [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) — о трёхфазной методологии review .
 Это займёт 15–20 минут, и после этого ваш repo имеет defensible meta-layer : для любого внешнего человека видно, что вы работаете в осмысленной парадигме, а не в хаотичном AI-assisted режиме.
 ### Итог трёх артефактов
 У вас теперь есть полный набор для внешней видимости Nautilus:
@@ -126,7 +126,7 @@ Header warning в Appendix A — это то, что можно копи-пас�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [104-appendix-c-references](104-appendix-c-references.md) (сходство 0.16)
 - [72-расписание-фазы-3](72-расписание-фазы-3.md) (сходство 0.15)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md) (сходство 0.12)
@@ -136,7 +136,13 @@ Header warning в Appendix A — это то, что можно копи-пас�
 
 ---
 
-**Смотрите также:**
+## Использование
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Глоссарий"
+{code}
+
+## Смотрите также
 - [72-расписание-фазы-3](72-расписание-фазы-3.md)
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [108-2-формальный-workflow](108-2-формальный-workflow.md)
@@ -185,3 +191,19 @@ Header warning в Appendix A — это то, что можно копи-пас�
 - [Appendix C: References](104-appendix-c-references.md) _25%_
 - [Appendix B: Change Log](34-appendix-b-change-log.md) _25%_
 - [For the Curious: Philosophy](64-for-the-curious-philosophy.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (11)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [124-конфигурация-для-claude-desktop](124-конфигурация-для-claude-desktop.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [34-appendix-b-change-log](34-appendix-b-change-log.md)
+- [64-for-the-curious-philosophy](64-for-the-curious-philosophy.md)
+- [67-о-проекте](67-о-проекте.md)
+- _...ещё 3_
+

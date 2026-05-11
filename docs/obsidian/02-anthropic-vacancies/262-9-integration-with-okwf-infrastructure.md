@@ -5,7 +5,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 9. Integration with OKWF Infrastructure

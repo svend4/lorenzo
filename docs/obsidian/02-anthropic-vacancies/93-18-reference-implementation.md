@@ -4,7 +4,7 @@ tags:
   - rag
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 18. Reference Implementation
@@ -15,6 +15,7 @@ date: 2026-05-10
 - [18. Reference Implementation](#18-reference-implementation)
   - [18.1. Current Reference Implementation Metrics](#181-current-reference-implementation-metrics)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

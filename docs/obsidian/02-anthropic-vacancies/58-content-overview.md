@@ -3,7 +3,7 @@ title: "Content Overview"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Content Overview
@@ -12,6 +12,7 @@ date: 2026-05-10
 ## Contents
 
 - [Content Overview](#content-overview)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Похожие документы](#похожие-документы)
 
@@ -90,8 +91,13 @@ python scripts/improve_semantic_search.py --query "Content Overview"
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (8):**
+- [[38-content-overview]]
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
 

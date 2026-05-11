@@ -4,7 +4,7 @@ tags:
   - контакты
   - команда
   - contacts
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Контакт: nlaik / LiteParse / research-docs
@@ -49,7 +49,7 @@ date: 2026-05-10
 
 ## Статус связи
 
-- [ ] Изучили профиль
+- [x] Изучили профиль
 - [ ] Написали первое сообщение
 - [ ] Получили ответ
 - [ ] Договорились о сотрудничестве
@@ -101,9 +101,14 @@ _Документ индексирован в поисковой базе реп
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [README](README.md)
+**Кто ссылается на этот документ (12):**
+- [[research-docs-liteparse]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[README]]
+- [[andrey-chuyan]]
+- _...ещё 4_
 

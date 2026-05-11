@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/autofilled/components/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
 title: "components"
 tags:
   * autofilled
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. components
@@ -26,3 +26,19 @@ h2. Содержание
 * [[spbmolot|spbmolot.md]] — 
 * [[svend4|svend4.md]] — 
 * [[svyazi|svyazi.md]] — 
+
+
+
+----
+
+_Кто ссылается на этот документ (16):_
+* [[AUTOFILLED]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+* [.md|.md]
+* [[cowork]]
+* _...ещё 8_
+

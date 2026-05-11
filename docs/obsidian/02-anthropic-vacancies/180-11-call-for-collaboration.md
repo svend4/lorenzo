@@ -3,10 +3,28 @@ title: "11. Call for Collaboration"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 11. Call for Collaboration
+
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [11. Call for Collaboration](#11-call-for-collaboration)
+  - [11.1. For AI Researchers](#111-for-ai-researchers)
+  - [11.2. For Social Service Organizations](#112-for-social-service-organizations)
+  - [11.3. For Disability Rights Organizations](#113-for-disability-rights-organizations)
+  - [11.4. For Foundation Funders](#114-for-foundation-funders)
+  - [11.5. For Policymakers](#115-for-policymakers)
+  - [11.6. For Potential Principals](#116-for-potential-principals)
+  - [11.7. For Critics](#117-for-critics)
+- [Похожие документы](#похожие-документы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
+
 
 <!-- toc -->
 ## Содержание
@@ -26,22 +44,6 @@ date: 2026-05-10
 - [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [11. Call for Collaboration](#11-call-for-collaboration)
-  - [11.1. For AI Researchers](#111-for-ai-researchers)
-  - [11.2. For Social Service Organizations](#112-for-social-service-organizations)
-  - [11.3. For Disability Rights Organizations](#113-for-disability-rights-organizations)
-  - [11.4. For Foundation Funders](#114-for-foundation-funders)
-  - [11.5. For Policymakers](#115-for-policymakers)
-  - [11.6. For Potential Principals](#116-for-potential-principals)
-  - [11.7. For Critics](#117-for-critics)
-- [Похожие документы](#похожие-документы)
-- [Смотрите также](#смотрите-также)
-- [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)
 
 
 > [!NOTE]

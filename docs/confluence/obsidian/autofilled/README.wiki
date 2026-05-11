@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/autofilled/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
 title: "autofilled"
 tags:
   * autofilled
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. autofilled
@@ -21,3 +21,19 @@ h2. Содержание
 h2. Подразделы
 
 * [components/|components/] — components
+
+
+
+----
+
+_Кто ссылается на этот документ (15):_
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[.md]]
+* [[cowork]]
+* [[ingit]]
+* [[kksudo]]
+* _...ещё 7_
+

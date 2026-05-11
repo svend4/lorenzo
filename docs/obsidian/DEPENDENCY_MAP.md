@@ -2,42 +2,34 @@
 title: "Карта зависимостей скриптов"
 tags:
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Карта зависимостей скриптов
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> _Что каждый `improve_*.py` производит и от чего зависит._
-
----
-
-<!-- toc -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Содержание
+<!-- toc-auto -->
+## Contents
 
 - [Зависимости](#зависимости)
 - [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
 - [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-
----
-
-<!-- tags: rag, orchestration, ingestion, local-first, roadmap, anthropic, self-improvement -->
+- [Смотрите также](#смотрите-также)
 
 
+> [!NOTE]
+> Раздел `DEPENDENCY_MAP` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: dependency-map, docs -->
+
+
+<!-- summary -->
+> `DEPENDENCY_MAP` — раздел документации проекта Lorenzo.
 
 
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 126 · **Всего в репо:** 157
+**Скриптов в карте:** 126 · **Всего в репо:** 163
 
 ## Зависимости
 
@@ -176,8 +168,11 @@ _Существуют в репо, но не добавлены в карту:_
 
 - `improve_audit_db.py`
 - `improve_auto_linker.py`
+- `improve_card_index.py`
+- `improve_collab_finder.py`
 - `improve_cross_section.py`
 - `improve_digest_auto.py`
+- `improve_embedding_index.py`
 - `improve_empty_sections.py`
 - `improve_export_report.py`
 - `improve_faceted_search.py`
@@ -189,12 +184,15 @@ _Существуют в репо, но не добавлены в карту:_
 - `improve_mcp_test.py`
 - `improve_migrate_contacts.py`
 - `improve_passive_voice.py`
+- `improve_quality_patch.py`
 - `improve_question_extractor.py`
 - `improve_reading_list.py`
+- `improve_recipe.py`
 - `improve_registry.py`
 - `improve_scripts_catalog.py`
 - `improve_search_repl.py`
 - `improve_self.py`
+- `improve_semantic_search.py`
 - `improve_similar_passages.py`
 - `improve_skill_dashboard.py`
 - `improve_status_badges.py`
@@ -224,24 +222,10 @@ _Существуют в репо, но не добавлены в карту:_
 _Используй `python scripts/improve_run_all.py` для автоматического порядка._
 
 
-<!-- backlinks -->
-
----
-
-## Кто ссылается на этот документ (4)
-- [[CHANGELOG_AUTO]]
-- [[INDEX]]
-- [[README]]
-- [[TABLES]]
-
-
-<!-- see-also -->
-
----
-
 ## Смотрите также
-- [[CHANGELOG_AUTO]]
-- [[CHANGELOG]]
-- [[TAGS]]
-- [[VERSION_DIFF]]
-
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]

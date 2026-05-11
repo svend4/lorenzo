@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * roadmap
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. 6. Four Deployment Domains
@@ -173,7 +173,7 @@ exist.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[158-4-proposed-infrastructure]] (сходство 0.18)
 * [[145-8-call-to-action]] (сходство 0.17)
 * [[164-10-appendices]] (сходство 0.15)
@@ -183,7 +183,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
+{code}
+
+h2. Смотрите также
 * [[158-4-proposed-infrastructure]]
 * [[145-8-call-to-action]]
 * [[164-10-appendices]]
@@ -225,3 +231,19 @@ h2. Связанные документы
 * [[262-9-integration-with-okwf-infrastructure|9. Integration with OKWF Infrastructure]] _21%_
 * [[134-the-double-triangle-architecture-md|THE DOUBLE-TRIANGLE ARCHITECTURE.md]] _18%_
 * [[136-abstract|Abstract]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[134-the-double-triangle-architecture-md]]
+* [[136-abstract]]
+* [[142-5-pattern-library-as-bridge-between-triangles]]
+* [[144-7-open-questions]]
+* [[145-8-call-to-action]]
+* [[148-appendix-a-glossary]]
+* [[164-10-appendices]]
+* [[218-7-application-domains]]
+* _...ещё 3_
+

@@ -2,7 +2,7 @@
 title: "2. The Twenty-One Teachers Pattern"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 2. The Twenty-One Teachers Pattern

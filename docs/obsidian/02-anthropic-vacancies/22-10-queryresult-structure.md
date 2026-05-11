@@ -3,27 +3,10 @@ title: "10. QueryResult Structure"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 10. QueryResult Structure
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [10. QueryResult Structure](#10-queryresult-structure)
-  - [10.1. Serialization](#101-serialization)
-- [Похожие документы](#похожие-документы)
-- [Смотрите также](#смотрите-также)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-- [Кто ссылается на этот документ (11)](#кто-ссылается-на-этот-документ-11)
-
----
-
 
 <!-- toc-auto -->
 ## Contents

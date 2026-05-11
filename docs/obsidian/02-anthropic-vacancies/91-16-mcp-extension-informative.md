@@ -3,7 +3,7 @@ title: "16. MCP Extension (Informative)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 16. MCP Extension (Informative)
@@ -13,6 +13,7 @@ date: 2026-05-10
 
 - [16. MCP Extension (Informative)](#16-mcp-extension-informative)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

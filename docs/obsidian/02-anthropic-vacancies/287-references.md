@@ -3,7 +3,7 @@ title: "References"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # References
@@ -17,6 +17,7 @@ date: 2026-05-10
   - [AI Collaboration Infrastructure](#ai-collaboration-infrastructure)
   - [Earlier Companion Documents in This Series](#earlier-companion-documents-in-this-series)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
 

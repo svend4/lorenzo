@@ -5,10 +5,12 @@ tags:
   - index
   - overview
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # docs
+
+<!-- toc-auto -->
 
 
 <!-- tags: meta, index, overview -->

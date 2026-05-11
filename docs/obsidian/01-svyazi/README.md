@@ -4,10 +4,12 @@ tags:
   - svyazi
   - architecture
   - overview
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Svyazi[^svyazi] 2.0 — Архитектура и исследование
+
+<!-- toc-auto -->
 
 
 <!-- summary -->
@@ -70,9 +72,14 @@ python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Архит�
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (13):**
+- [[00-intro-part2]]
+- [[03-component-catalog]]
+- [[07-mvp-planning]]
+- [[09-architectural-gaps]]
+- [[10-second-order-ensembles]]
+- [[11-integration-contracts]]
+- [[README]]
+- [[INDEX]]
+- _...ещё 5_
 

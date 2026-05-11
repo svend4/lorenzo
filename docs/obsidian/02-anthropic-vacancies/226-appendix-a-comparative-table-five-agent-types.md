@@ -3,7 +3,7 @@ title: "Appendix A: Comparative Table — Five Agent Types"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix A: Comparative Table — Five Agent Types

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/268-references.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -10,21 +10,18 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. References
 
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources for Composite Architecture(foundational-sources-for-composite-architecture) - Pattern of Composite Mastery(patte{quote}
-{quote}🏷️ _Ключевые слова:_ {{architecture}}, {{anthropic}}, {{vacancies}}, {{references}}, {{composite}}, {{svend}}, {{companion}}, {{press}}{quote}
->
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
-h2. Contents
+
+h2. Содержание
 
 * [References|#references]
   * [Foundational Sources for Composite Architecture|#foundational-sources-for-composite-architecture]
@@ -32,6 +29,8 @@ h2. Contents
   * [Multi-Agent Coordination|#multi-agent-coordination]
   * [Practical Examples|#practical-examples]
   * [Companion Documents in This Series|#companion-documents-in-this-series]
+
+----
 
 
 
@@ -97,7 +96,7 @@ h3. Companion Documents in This Series
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[251-ai-support-through-configurable-specialist-ensembl]] (сходство 0.20)
 * [[274-the-missing-middle-layer-between-chat-and-code]] (сходство 0.18)
 * [[225-references]] (сходство 0.18)
@@ -107,9 +106,31 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+{code}
+
+h2. Смотрите также
 * [[251-ai-support-through-configurable-specialist-ensembl]]
 * [[274-the-missing-middle-layer-between-chat-and-code]]
 * [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
 * [[184-appendix-a-connection-to-companion-papers]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[137-table-of-contents]]
+* [[146-acknowledgments]]
+* [[167-ai-mediated-representation-for-underrepresented-ex]]
+* [[184-appendix-a-connection-to-companion-papers]]
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+* [[267-acknowledgments]]
+* [[274-the-missing-middle-layer-between-chat-and-code]]
+* _...ещё 3_
 

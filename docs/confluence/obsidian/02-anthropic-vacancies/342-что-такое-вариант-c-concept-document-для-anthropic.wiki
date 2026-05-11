@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
 title: "Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments"
 tags:
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Что такое Вариант C — Concept Document для Anthropic Beneficial Deployments
@@ -71,13 +71,13 @@ h2. Содержание
   * [Результаты последнего поиска — что нашлось и что не нашлось|#результаты-последнего-поиска-что-нашлось-и-что-не-нашлось]
   * [Naming: «Лоренцо ИИ Агент» под «DHLab / Dream Hub»|#naming-лоренцо-ии-агент-под-dhlab-dream-hub]
   * [Implications для документации|#implications-для-документации]
-  * [Lorenzo specifically: что нужно specifиcate|#[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md]-specifically-что-нужно-specifиcate)
+  * [Lorenzo specifically: что нужно specifиcate|#lorenzo-specifically-что-нужно-specifиcate]
   * [Что я думаю practical wise|#что-я-думаю-practical-wise]
   * [Что Anthropic specifically может найти interesting|#что-anthropic-specifically-может-найти-interesting]
   * [Вопрос к вам|#вопрос-к-вам]
   * [Какие следующие шаги предлагаю|#какие-следующие-шаги-предлагаю]
   * [Какиевариантыдля следующего шага|#какиевариантыдля-следующего-шага]
-  * [Fundamental questions для Lorenzo|#fundamental-questions-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md])
+  * [Fundamental questions для Lorenzo|#fundamental-questions-для-lorenzo]
   * [Где сейчас сложности|#где-сейчас-сложности]
   * [Reframe based on these difficulties|#reframe-based-on-these-difficulties]
   * [Предлагаемая структура Document 10|#предлагаемая-структура-document-10]
@@ -1395,7 +1395,7 @@ _[Запрос]_ Переведите на русский текст вверх�
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[CONCEPTS]] (сходство 0.19)
 * [[365-развёрнутый-анализ-внуковой-комбинации]] (сходство 0.19)
 * [[341-приложение-c-образец-спецификаций-инструментов-ing]] (сходство 0.18)
@@ -1405,7 +1405,7 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Смотрите также
 * [[365-развёрнутый-анализ-внуковой-комбинации]]
 * [[CONCEPTS]]
 * [[341-приложение-c-образец-спецификаций-инструментов-ing]]
@@ -1436,3 +1436,18 @@ h2. Связанные документы
 * [[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|Lorenzo Catalyst Agent — глубокая проработка спецификации (русская версия)]] _25%_
 * [[150-appendix-c-version-history|Appendix C: Version History]] _17%_
 * [[ACTION_ITEMS|Action Items, риски и решения]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (8)
+* [[150-appendix-c-version-history]]
+* [[165-closing]]
+* [[186-appendix-c-sample-use-cases-in-detail]]
+* [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+* 343-[[343-lorenzo-catalyst-agent-глубокая-проработка-специфи|lorenzo-catalyst-agent-глубокая-проработка-специфи]]
+* [[364-final-note-ты-experiment]]
+* [[365-развёрнутый-анализ-внуковой-комбинации]]
+* [[README]]
+

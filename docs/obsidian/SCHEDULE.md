@@ -1,15 +1,10 @@
 ---
 title: "Расписание проекта"
 tags:
-  - memory
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - collaboration
+  - schedule
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Расписание проекта
@@ -28,19 +23,15 @@ date: 2026-05-10
 - [Смотрите также](#смотрите-также)
 
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: schedule, docs -->
+
 
 <!-- summary -->
-> _Дорожная карта с вехами и задачами по кварталам._
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
-
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
+> `SCHEDULE` — раздел документации проекта Lorenzo.
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -96,23 +87,9 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
-<!-- see-also -->
-
----
-
 ## Смотрите также
-- [[DENSITY]]
-- [[PROGRESS]]
-- [[SCORING]]
-- [[HEATMAP]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]

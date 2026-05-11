@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -9,10 +9,15 @@ tags:
   * rag
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. 4. Architecture of Professional Colleague Agents
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -24,6 +29,10 @@ h1. 4. Architecture of Professional Colleague Agents
 >
 
 
+
+
+{quote}[!IMPORTANT]{quote}
+{quote}Нормативный документ. Описывает контракты и архитектурные решения.{quote}
 
 {quote}A Professional Colleague Agent has three distinct internal{quote}
 
@@ -195,7 +204,7 @@ workflow.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[257-4-the-sub-agent-registry]] (сходство 0.15)
 * [[217-6-risks-specific-to-this-category]] (сходство 0.15)
 * [[213-2-what-makes-a-professional-colleague-agent]] (сходство 0.14)
@@ -205,7 +214,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "4 Architecture of Professional"
+{code}
+
+h2. Смотрите также
 * [[257-4-the-sub-agent-registry]]
 * [[217-6-risks-specific-to-this-category]]
 * [[213-2-what-makes-a-professional-colleague-agent]]
@@ -249,3 +264,19 @@ h2. Связанные документы
 * [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _25%_
 * [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _25%_
 * [[214-3-empirical-case-study-обучай|3. Empirical Case Study: «Обучай»]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[151-open-knowledge-work-foundation-md]]
+* [[208-professional-colleague-agents-md]]
+* [[213-2-what-makes-a-professional-colleague-agent]]
+* [[214-3-empirical-case-study-обучай]]
+* [[216-5-the-economics-of-profession-wide-replication]]
+* [[217-6-risks-specific-to-this-category]]
+* [[219-8-pilot-proposal-sgb-advocate-colleague]]
+* [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+* _...ещё 3_
+

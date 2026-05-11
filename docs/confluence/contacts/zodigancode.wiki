@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/zodigancode.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -19,20 +19,28 @@ tags: [контакты, команда]
 h1. Контакт: zodigancode / Rufler
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, Rufler
-
-----
-
-
-
-
 h2. Contents
 
 * [Профиль|#профиль]
 * [Статус связи|#статус-связи]
 * [Первое сообщение|#первое-сообщение]
 * [Открытые вопросы|#открытые-вопросы]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (3)|#кто-ссылается-на-этот-документ-3]
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}- [Статус связи|#статус-связи]{quote}
+_Проекты:_ Svyazi, Rufler
+
+----
+
 
 
 
@@ -50,7 +58,7 @@ h2. Профиль
 
 h2. Статус связи
 
-* [ ] Изучили профиль
+* [x] Изучили профиль
 * [ ] Написали первое сообщение
 * [ ] Получили ответ
 * [ ] Договорились о сотрудничестве
@@ -80,19 +88,30 @@ _Создано автоматически: 2026-04-29_
 
 ----
 
-_Похожие документы:_
-* [cutcode|docs/contacts/cutcode.md] (сходство 0.90)
-* [vladspace|docs/contacts/vladspace.md] (сходство 0.88)
-* [tagir-analyzes|docs/contacts/tagir-analyzes.md] (сходство 0.86)
+h2. Похожие документы
+* [cutcode|cutcode.md] (сходство 0.90)
+* [vladspace|vladspace.md] (сходство 0.88)
+* [tagir-analyzes|tagir-analyzes.md] (сходство 0.86)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [cutcode|docs/contacts/cutcode.md]
-* [tagir-analyzes|docs/contacts/tagir-analyzes.md]
-* [vladspace|docs/contacts/vladspace.md]
-* [dmitriila|docs/contacts/dmitriila.md]
+h2. Смотрите также
+* [cutcode|cutcode.md]
+* [tagir-analyzes|tagir-analyzes.md]
+* [vladspace|vladspace.md]
+* [dmitriila|dmitriila.md]
 
+
+
+
+----
+
+h2. Кто ссылается на этот документ (3)
+* [kksudo|../autofilled/components/kksudo.md]
+* [spbmolot|../autofilled/components/spbmolot.md]
+* [README|README.md]
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._

@@ -3,7 +3,7 @@ title: "A Formal Model for Human-AI Collaboration in Distributed Knowledge Work"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # A Formal Model for Human-AI Collaboration in Distributed Knowledge Work
@@ -13,6 +13,7 @@ date: 2026-05-10
 
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

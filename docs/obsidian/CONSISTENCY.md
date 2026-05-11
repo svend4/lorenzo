@@ -1,169 +1,220 @@
 ---
 title: "Согласованность терминов"
 tags:
+  - consistency
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Согласованность терминов
+
+<!-- toc-auto -->
+## Contents
+
+- [Детали по файлам](#детали-по-файлам)
+  - [knowledge space → должно быть knowledge-space](#knowledge-space-должно-быть-knowledge-space)
+  - [knowledge_space → должно быть knowledge-space](#knowledge_space-должно-быть-knowledge-space)
+  - [knowledgespace → должно быть knowledge-space](#knowledgespace-должно-быть-knowledge-space)
+  - [Card Index → должно быть CardIndex](#card-index-должно-быть-cardindex)
+  - [card index → должно быть CardIndex](#card-index-должно-быть-cardindex-1)
+  - [card-index → должно быть CardIndex](#card-index-должно-быть-cardindex-2)
+  - [AI-Factory → должно быть AI Factory](#ai-factory-должно-быть-ai-factory)
+  - [NGT-Memory → должно быть NGT Memory](#ngt-memory-должно-быть-ngt-memory)
+  - [LiteParser → должно быть LiteParse](#liteparser-должно-быть-liteparse)
+  - [Auto-AI-Router → должно быть Auto AI Router](#auto-ai-router-должно-быть-auto-ai-router)
+  - [local first → должно быть local-first](#local-first-должно-быть-local-first)
+  - [localfirst → должно быть local-first](#localfirst-должно-быть-local-first)
+  - [Local First → должно быть local-first](#local-first-должно-быть-local-first-1)
+  - [agent memory mcp → должно быть agent-memory-mcp](#agent-memory-mcp-должно-быть-agent-memory-mcp)
+  - [self-improve → должно быть self-improvement](#self-improve-должно-быть-self-improvement)
+  - [selfimprovement → должно быть self-improvement](#selfimprovement-должно-быть-self-improvement)
+  - [Svyazi-2.0 → должно быть Svyazi 2.0](#svyazi-20-должно-быть-svyazi-20)
+  - [Evidence-Envelope → должно быть Evidence Envelope](#evidence-envelope-должно-быть-evidence-envelope)
+  - [EvidenceEnvelope → должно быть Evidence Envelope](#evidenceenvelope-должно-быть-evidence-envelope)
+  - [Card-Envelope → должно быть Card Envelope](#card-envelope-должно-быть-card-envelope)
+- [Как исправить](#как-исправить)
+
+
+<!-- tags: consistency, docs -->
+
+
+<!-- summary -->
+> `CONSISTENCY` — раздел документации проекта Lorenzo.
+
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
-<!-- summary -->
-> Анализ различных написаний одних и тех же терминов.
-**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, Auto AI Router
-
----
-
-<!-- toc -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-## Содержание
-
-- [Детали по файлам](#детали-по-файлам)
-  - `knowledgespace` → должно быть `[knowledge-space`](#knowledgespace-должно-быть-knowledge-space)
-  - `knowledge space` → должно быть `[knowledge-space`](#knowledge-space-должно-быть-knowledge-space)
-  - `knowledge_space` → должно быть `[knowledge-space`](#knowledge_space-должно-быть-knowledge-space)
-  - `card-index` → должно быть `[CardIndex`](#card-index-должно-быть-cardindex)
-  - `Card Index` → должно быть `[CardIndex`](#card-index-должно-быть-cardindex)
-  - `card index` → должно быть `[CardIndex`](#card-index-должно-быть-cardindex)
-  - [`AI-Factory` → должно быть `AI Factory`](#ai-factory-должно-быть-ai-factory)
-  - [`NGT-Memory` → должно быть `NGT Memory`](#ngt-memory-должно-быть-ngt-memory)
-  - `LiteParser` → должно быть `[LiteParse`](#liteparser-должно-быть-liteparse)
-  - [`Auto-AI-Router` → должно быть `Auto AI Router`](#auto-ai-router-должно-быть-auto-ai-router)
-  - [`localfirst` → должно быть `local-first`](#localfirst-должно-быть-local-first)
-  - [`self-improve` → должно быть `self-improvement`](#self-improve-должно-быть-self-improvement)
-  - [`Svyazi-2.0` → должно быть `Svyazi 2.0`](#svyazi-20-должно-быть-svyazi-20)
-  - [`Evidence-Envelope` → должно быть `Evidence Envelope`](#evidence-envelope-должно-быть-evidence-envelope)
-  - [`Card-Envelope` → должно быть `Card Envelope`](#card-envelope-должно-быть-card-envelope)
-  - [`CardEnvelope` → должно быть `Card Envelope`](#cardenvelope-должно-быть-card-envelope)
-- [Как исправить](#как-исправить)
-
----
-
-<!-- tags: memory, rag, orchestration, knowledge, ingestion, local-first, architecture, anthropic, self-improve -->
-
-
-
-
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 34 |
+| **knowledge-space** | `knowledge-space` | `knowledge_space` | 5 |
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 26 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
-| **CardIndex** | `CardIndex` | `card-index` | 2 |
-| **CardIndex** | `CardIndex` | `Card Index` | 1 |
-| **CardIndex** | `CardIndex` | `card index` | 1 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 26 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 75 |
-| **LiteParse** | `LiteParse` | `LiteParser` | 3 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 23 |
-| **local-first** | `local-first` | `localfirst` | 5 |
-| **self-improvement** | `self-improvement` | `self-improve` | 241 |
+| **CardIndex** | `CardIndex` | `Card Index` | 6 |
+| **CardIndex** | `CardIndex` | `card index` | 6 |
+| **CardIndex** | `CardIndex` | `card-index` | 4 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 48 |
+| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 99 |
+| **LiteParse** | `LiteParse` | `LiteParser` | 5 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 40 |
+| **local-first** | `local-first` | `local first` | 7 |
+| **local-first** | `local-first` | `localfirst` | 7 |
+| **local-first** | `local-first` | `Local First` | 7 |
+| **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 7 |
+| **self-improvement** | `self-improvement` | `self-improve` | 313 |
+| **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 24 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 19 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 2 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 47 |
+| **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 36 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 21 |
 
-**Всего несогласованных написаний: 464**
+**Всего несогласованных написаний: 709**
 
 
 ## Детали по файлам
 
+
+### `knowledge space` → должно быть `knowledge-space`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/OUTLINE.md`
+- `docs/CONCEPTS.md`
+- _...и ещё 29_
+
+### `knowledge_space` → должно быть `knowledge-space`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/obsidian/CONSISTENCY.md`
+- `docs/05-habr-projects/knowledge/README.md`
 
 ### `knowledgespace` → должно быть `knowledge-space`
 
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/obsidian/EMPTY_SECTIONS.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/TABLES.md`
 - _...и ещё 1_
 
-### `knowledge space` → должно быть `knowledge-space`
+### `Card Index` → должно быть `CardIndex`
 
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/CONCEPTS.md`
-- `docs/SITEMAP.md`
-- `docs/obsidian/QUESTIONS.md`
-- _...и ещё 21_
-
-### `knowledge_space` → должно быть `knowledge-space`
-
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
+- `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
+- _...и ещё 1_
+
+### `card index` → должно быть `CardIndex`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/CHANGELOG.md`
+- `docs/obsidian/CONSISTENCY.md`
+- _...и ещё 1_
 
 ### `card-index` → должно быть `CardIndex`
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-
-### `Card Index` → должно быть `CardIndex`
-
 - `docs/CHANGELOG.md`
-
-### `card index` → должно быть `CardIndex`
-
-- `docs/CHANGELOG.md`
+- `docs/obsidian/CONSISTENCY.md`
 
 ### `AI-Factory` → должно быть `AI Factory`
 
+- `docs/COLLAB_SUGGESTIONS.md`
 - `docs/LANGUAGE_STATS.md`
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
-- `docs/PARAGRAPH_QUALITY.md`
-- _...и ещё 21_
+- `docs/READING_TIME.md`
+- _...и ещё 43_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
+
+- `docs/COLLAB_SUGGESTIONS.md`
+- `docs/LANGUAGE_STATS.md`
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- `docs/READING_TIME.md`
+- _...и ещё 94_
+
+### `LiteParser` → должно быть `LiteParse`
+
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/CONSISTENCY.md`
+- `docs/obsidian/TABLES.md`
+
+### `Auto-AI-Router` → должно быть `Auto AI Router`
 
 - `docs/LANGUAGE_STATS.md`
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/TABLES.md`
-- _...и ещё 70_
+- _...и ещё 35_
 
-### `LiteParser` → должно быть `LiteParse`
+### `local first` → должно быть `local-first`
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/obsidian/OUTLINE.md`
-
-### `Auto-AI-Router` → должно быть `Auto AI Router`
-
-- `docs/LANGUAGE_STATS.md`
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
-- `docs/SPELLCHECK.md`
-- `docs/ACTION_ITEMS.md`
-- _...и ещё 18_
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md`
+- `docs/obsidian/03-technology-combinations/03-local-first.md`
+- _...и ещё 2_
 
 ### `localfirst` → должно быть `local-first`
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/OUTLINE.md`
 - `docs/obsidian/CONSISTENCY.md`
 - `docs/obsidian/TABLES.md`
-- `docs/obsidian/OUTLINE.md`
+- _...и ещё 2_
+
+### `Local First` → должно быть `local-first`
+
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md`
+- `docs/obsidian/03-technology-combinations/03-local-first.md`
+- _...и ещё 2_
+
+### `agent memory mcp` → должно быть `agent-memory-mcp`
+
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/VERSION_DIFF.md`
+- `docs/svyazi-2-0/components/agent-memory-mcp.md`
+- `docs/obsidian/svyazi-2-0/components/agent-memory-mcp.md`
+- _...и ещё 2_
 
 ### `self-improve` → должно быть `self-improvement`
 
-- `docs/PASSIVE_VOICE.md`
+- `docs/COLLAB_SUGGESTIONS.md`
 - `docs/READING_LIST.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/FOOTNOTES.md`
-- `docs/EMPTY_SECTIONS.md`
-- _...и ещё 236_
+- `docs/CONSISTENCY.md`
+- `docs/PROTOTYPE_SPEC.md`
+- `docs/TABLES.md`
+- _...и ещё 308_
+
+### `selfimprovement` → должно быть `self-improvement`
+
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -178,24 +229,24 @@ date: 2026-05-10
 
 - `docs/READING_LIST.md`
 - `docs/LANGUAGE_STATS.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
-- `docs/PROTOTYPE_SPEC.md`
+- `docs/READING_TIME.md`
+- _...и ещё 42_
+
+### `EvidenceEnvelope` → должно быть `Evidence Envelope`
+
+- `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- _...и ещё 19_
 
 ### `Card-Envelope` → должно быть `Card Envelope`
 
 - `docs/LANGUAGE_STATS.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
+- `docs/READING_TIME.md`
 - `docs/PROTOTYPE_SPEC.md`
-- `docs/TABLES.md`
-- `docs/PARAGRAPH_QUALITY.md`
-- _...и ещё 14_
-
-### `CardEnvelope` → должно быть `Card Envelope`
-
-- `docs/TABLES.md`
-- `docs/SCRIPTS_CATALOG.md`
+- _...и ещё 31_
 
 ## Как исправить
 
@@ -208,20 +259,9 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 
 ---
 
-## Смотрите также
+**Смотрите также:**
 - [[MISSING]]
 - [[TAGS]]
-- [[GLOSSARY]]
 - [[STATS]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+- [[STALENESS]]
 

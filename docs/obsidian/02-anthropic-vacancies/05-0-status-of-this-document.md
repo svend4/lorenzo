@@ -3,7 +3,7 @@ title: "0. Status of This Document"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 0. Status of This Document
@@ -13,6 +13,7 @@ date: 2026-05-10
 
 - [0. Status of This Document](#0-status-of-this-document)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

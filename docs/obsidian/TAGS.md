@@ -1,11 +1,10 @@
 ---
 title: "Индекс тегов"
 tags:
-  - meta
   - tags
-  - index
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Индекс тегов
@@ -13,14 +12,26 @@ date: 2026-05-10
 <!-- toc-auto -->
 ## Contents
 
-- [#anthropic (2 файлов)](#anthropic-2-файлов)
-- [#architecture (1 файлов)](#architecture-1-файлов)
-- [#collaboration (2 файлов)](#collaboration-2-файлов)
-- [#ingestion (2 файлов)](#ingestion-2-файлов)
-- [#knowledge (1 файлов)](#knowledge-1-файлов)
-- [#memory (1 файлов)](#memory-1-файлов)
-- [#roadmap (1 файлов)](#roadmap-1-файлов)
-- [Смотрите также](#смотрите-также)
+- [#anthropic (9 файлов)](#anthropic-9-файлов)
+- [#architecture (6 файлов)](#architecture-6-файлов)
+- [#collaboration (9 файлов)](#collaboration-9-файлов)
+- [#ingestion (9 файлов)](#ingestion-9-файлов)
+- [#knowledge (5 файлов)](#knowledge-5-файлов)
+- [#local-first (3 файлов)](#local-first-3-файлов)
+- [#memory (5 файлов)](#memory-5-файлов)
+- [#orchestration (6 файлов)](#orchestration-6-файлов)
+- [#rag (7 файлов)](#rag-7-файлов)
+- [#roadmap (6 файлов)](#roadmap-6-файлов)
+- [#security (5 файлов)](#security-5-файлов)
+- [#self-improvement (4 файлов)](#self-improvement-4-файлов)
+- [Использование](#использование)
+
+
+<!-- tags: tags, docs -->
+
+
+<!-- summary -->
+> `TAGS` — раздел документации проекта Lorenzo.
 
 
 > [!NOTE]
@@ -28,99 +39,149 @@ date: 2026-05-10
 
 <!-- alert-added -->
 
-
-<!-- summary -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-> Индекс тегов: каждый файл помечен тегами по темам автоматически.
-
-<!-- tags: meta, tags, index -->
-
-- #[anthropic (2 файлов)](#anthropic-2-файлов)
-- [#architecture (1 файлов)](#architecture-1-файлов)
-- [#collaboration (2 файлов)](#collaboration-2-файлов)
-- [#ingestion (2 файлов)](#ingestion-2-файлов)
-- [#knowledge (1 файлов)](#knowledge-1-файлов)
-- [#memory (1 файлов)](#memory-1-файлов)
-- [#roadmap (1 файлов)](#roadmap-1-файлов)
-- #[anthropic (2 файлов)](#anthropic-2-файлов)
-- [#architecture (1 файлов)](#architecture-1-файлов)
-- [#collaboration (2 файлов)](#collaboration-2-файлов)
-- [#ingestion (2 файлов)](#ingestion-2-файлов)
-- [#knowledge (1 файлов)](#knowledge-1-файлов)
-- [#memory (1 файлов)](#memory-1-файлов)
-- [#roadmap (1 файлов)](#roadmap-1-файлов)
-- #[anthropic (2 файлов)](#anthropic-2-файлов)
-- [#architecture (1 файлов)](#architecture-1-файлов)
-- [#collaboration (2 файлов)](#collaboration-2-файлов)
-- [#ingestion (2 файлов)](#ingestion-2-файлов)
-- [#knowledge (1 файлов)](#knowledge-1-файлов)
-- [#memory (1 файлов)](#memory-1-файлов)
-- [#roadmap (1 файлов)](#roadmap-1-файлов)
-
-
 Каждый файл помечен тегами по темам автоматически.
 
 
-## #anthropic (2 файлов)
+## #anthropic (9 файлов)
 
-- `docs/BROKEN_LINKS.md`
-- `docs/METRICS.md`
+- `docs/CHANGELOG.md`
+- `docs/COVERAGE.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/STALENESS.md`
+- `docs/STATS.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-## #architecture (1 файлов)
+## #architecture (6 файлов)
 
-- `docs/METRICS.md`
+- `docs/CHANGELOG.md`
+- `docs/COVERAGE.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-## #collaboration (2 файлов)
+## #collaboration (9 файлов)
 
-- `docs/BROKEN_LINKS.md`
-- `docs/METRICS.md`
+- `docs/CHANGELOG.md`
+- `docs/COVERAGE.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/STALENESS.md`
+- `docs/STATS.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-## #ingestion (2 файлов)
+## #ingestion (9 файлов)
 
-- `docs/ALERTS.md`
-- `docs/METRICS.md`
+- `docs/CHANGELOG.md`
+- `docs/COVERAGE.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/STALENESS.md`
+- `docs/STATS.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-## #knowledge (1 файлов)
+## #knowledge (5 файлов)
 
-- `docs/BROKEN_LINKS.md`
+- `docs/CHANGELOG.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-## #memory (1 файлов)
+## #local-first (3 файлов)
 
-- `docs/METRICS.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
 
-## #roadmap (1 файлов)
+## #memory (5 файлов)
 
-- `docs/METRICS.md`
+- `docs/CHANGELOG.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-<!-- see-also -->
+## #orchestration (6 файлов)
 
----
+- `docs/CHANGELOG.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
+## #rag (7 файлов)
 
-## Использование
+- `docs/CHANGELOG.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/STATS.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-```bash
-python scripts/improve_tags.py
-```
+## #roadmap (6 файлов)
 
-## Смотрите также
-- [[CONCEPT_GRAPH]]
-- [[COVERAGE]]
-- [[DEPENDABOT]]
-- [[KPI_HISTORY]]
+- `docs/CHANGELOG.md`
+- `docs/COVERAGE.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+## #security (5 файлов)
+
+- `docs/COVERAGE.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
+
+## #self-improvement (4 файлов)
+
+- `docs/CHANGELOG.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (15):**
+- [[ACTION_ITEMS]]
+- [[CONSISTENCY]]
+- [[DEPENDENCY_MAP]]
+- [[EMPTY_SECTIONS]]
+- [[INDEX]]
+- [[LLM_SUMMARIES]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 7_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONSISTENCY]]
+- [[STATS]]
+- [[COVERAGE]]
+- [[STALENESS]]
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_tags.py
+```

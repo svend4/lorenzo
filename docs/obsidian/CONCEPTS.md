@@ -1,20 +1,16 @@
 ---
 title: "Глоссарий понятий"
 tags:
+  - concepts
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Глоссарий понятий
 
-<!-- summary -->
-> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
+<!-- toc-auto -->
+## Contents
 
 - [A](#a)
 - [B](#b)
@@ -61,22 +57,22 @@ date: 2026-05-10
 - [Т](#т)
 - [У](#у)
 - [Ф](#ф)
-- [Х](#х)
 - [Ц](#ц)
 - [Ч](#ч)
 - [Ш](#ш)
 - [Щ](#щ)
 - [Ы](#ы)
-- [Ь](#ь)
 - [Э](#э)
 - [Ю](#ю)
 - [Я](#я)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+- [Использование](#использование)
 
 
+<!-- tags: concepts, docs -->
+
+
+<!-- summary -->
+> `CONCEPTS` — раздел документации проекта Lorenzo.
 
 
 > [!TIP]
@@ -86,7 +82,7 @@ date: 2026-05-10
 
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 1102  (из 3180 совпадений)
+**Извлечено понятий:** 1151  (из 4252 совпадений)
 
 
 ## A
@@ -95,9 +91,12 @@ _Определения извлечены автоматически из до�
 : **Composite Skills Agent** pattern  
   _→ [[254-1-why-the-binary-view-is-incomplete]]_
 
+**A nautilus shell**
+: **spiral of nested chambers**, each larger than the last but built on the same geometry  
+  _→ [[FAQ]]_
+
 **A2A protocol**
-: A2A vs MCP, ансамбль H
-  _→ [[components-by-name]]_
+: [[components-by-name|A2A vs MCP, ансамбль H]]_
 
 **About Nautilus**
 : **federation protocol** and reference implementation  
@@ -141,7 +140,7 @@ _Определения извлечены автоматически из до�
 
 **ADR-001, ADR-002, ADR-003**
 : formal записи ваших архитектурных решений с обоснованиями  
-  _→ [[104-appendix-c-references]]_
+  _→ [[22-glossary]]_
 
 **Adversarial awareness**
 : Operates in environments where  
@@ -155,25 +154,34 @@ _Определения извлечены автоматически из до�
 : Monitor opportunities, prepare  
   _→ [[173-4-ten-domains-of-application]]_
 
-**Agent-pool**
-: Distributed Agent Workshop
+**Agent-first дизайн**
+: структура оптимизирована для LLM[^llm]-чтения, не для людей  
+  _→ [[knowledge-space]]_
+
+**agent-memory-mcp**
+: карточка · Memory Write Policy  
   _→ [[components-by-name]]_
 
-**agent-spec**
-: Спецификация AI-агента: тип, принципал, скилы, tools, память, decision boundary  
-  _→ [[VALIDATION]]_
+**Agent-pool**
+: [[components-by-name|Distributed Agent Workshop]]_
+
+**AgentFS**
+: карточка · Ансамбль A · Ансамбль G · Cross‑Agent Memory Bus · Agentic Knowledge OS  
+  _→ [[components-by-name]]_
 
 **agentic intelligence layer**
 : persistent memory, multi-step task execution, MCP integration,  
   _→ [[307-abstract]]_
 
 **Agent‑Bridge**
-: Agent Orchestration Stack (комбо 9)
-  _→ [[components-by-name]]_
+: [[components-by-name|Agent Orchestration Stack (комбо 9)]]_
 
 **Agent‑first knowledge retrieval**
-: [[03-component-catalog|knowledge-space]] снижает стоимость «ориентации в проекте», потому что хранит не туториалы, а уже очищенные reference‑карты с граблями и рабочими паттернами  
-  _→ [[04-ensembles-overview]]_
+: [[04-ensembles-overview|knowledge-space]]_
+
+**AI Factory + AIF Handoff**
+: карточка · Ансамбль C · Ансамбль H · Distributed Agent Workshop  
+  _→ [[components-by-name]]_
 
 **AI safety harms**
 : narrower perspective pool in AI  
@@ -182,10 +190,6 @@ _Определения извлечены автоматически из до�
 **al) к Professional Colleagues (practical)**
 : natural progression сложности и concreteness  
   _→ [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]_
-
-**Aligned incentive structure**
-: agent succeeds when client succeeds (commission) 3  
-  _→ [[DUPLICATES]]_
 
 **Aligned values**
 : Serves vulnerable populations; mission-fit  
@@ -196,28 +200,31 @@ _Определения извлечены автоматически из до�
   _→ [[94-19-adr-001-federation-over-merging]]_
 
 **Annotations + branching**
-: infrastructure features , которые нужны, чтобы такая distributed работа не распадалась на хаос  
-  _→ [[150-appendix-c-version-history]]_
+: infrastructure features, которые нужны, чтобы такая distributed работа не распадалась на хаос  
+  _→ [[01-three-related-themes]]_
 
 **Anthropic**
 : 440 open positions, primarily senior roles at  
   _→ [[155-1-problem-statement]]_
 
 **Anthropic 440 вакансий**
-: демонстрация market gap : существующая infrastructure не может обработать existing talent  
-  _→ [[150-appendix-c-version-history]]_
+: демонстрация market gap: существующая infrastructure не может обработать existing talent  
+  _→ [[01-three-related-themes]]_
 
 **Anthropic Beneficial Deployments**
 : команда внутри Anthropic, которая фокусируется на helping AI deployments в high-impact areas  
   _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_
 
 **Anthropic Skills**
-: Self‑Aware MCP + Skills + CodeWiki
-  _→ [[components-by-name]]_
+: [[components-by-name|Self‑Aware MCP + Skills + CodeWiki]]_
 
 **Anthropomorphizing self**
 : «I feel excited», «I dream of» (вместо: «my mission orients toward», «my workflow includes»)  
   _→ [[359-твои-anti-patterns]]_
+
+**Apache 2.0**
+: прямая коммерческая интеграция  
+  _→ [[research-docs-liteparse]]_
 
 **Application to OKWF**
 : - Each contributor = Node with personal AI assistants (lower  
@@ -265,7 +272,7 @@ _Определения извлечены автоматически из до�
 
 **astructure for invisible quality experts»**
 : о visibility и agency  
-  _→ [[165-closing]]_
+  _→ [[01-response]]_
 
 **at geantwortet: Правильно разграничиваете**
 : две разные архитектурные концепции, которые объединяет только метафора «Наутилус» (раковина как вложенная спиральная структура)  
@@ -284,12 +291,19 @@ _Определения извлечены автоматически из до�
   _→ [[00-intro]]_
 
 **Auto AI Router**
-: Security + routing plane
-  _→ [[components-by-name]]_
+: [[components-by-name|Security + routing plane]]_
+
+**Auto-objective prompts**
+: Rufler сам формирует цель задачи из YAML-описания, не нужно писать промпт вручную  
+  _→ [[rufler]]_
 
 **AutoAdapter**
 : любой repo с nautilus  
   _→ [[22-glossary]]_
+
+**AutoResearch**
+: карточка · Ансамбль C · Ансамбль H · AutoResearch для legal · [[7-autoresearch-distributed|AutoResearch × Distributed Roy (deep pair 7)]  
+  _→ [[components-by-name]]_
 
 
 ## B
@@ -298,9 +312,12 @@ _Определения извлечены автоматически из до�
 : именно про применение Claude к общественно-полезным задачам в здравоохранении, образовании, госсекторе и социальных сервисах  
   _→ [[00-intro]]_
 
+**Bi-temporal facts**
+: время события + время записи (Memory OS)  
+  _→ [[agent-memory-mcp]]_
+
 **Biome / Ruff / uv**
-: Continuation 10 domains
-  _→ [[components-by-name]]_
+: [[components-by-name|Continuation 10 domains]]_
 
 **BM25 (Best Match 25)**
 : стандарт информационного поиска  
@@ -309,6 +326,10 @@ _Определения извлечены автоматически из до�
 **Boundary issue**
 : When does helping (Type 1) become acting  
   _→ [[220-9-relationship-to-other-agent-types]]_
+
+**Bounding boxes**
+: визуальная привязка цитат к областям на страницах документа  
+  _→ [[research-docs-liteparse]]_
 
 **Bridge**
 : декларативное описание моста между концепциями  
@@ -347,8 +368,7 @@ _Определения извлечены автоматически из до�
   _→ [[359-твои-anti-patterns]]_
 
 **ByteRover**
-: Supplementary infrastructure
-  _→ [[components-by-name]]_
+: [[components-by-name|Supplementary infrastructure]]_
 
 
 ## C
@@ -361,9 +381,17 @@ _Определения извлечены автоматически из до�
 : active execution framework  
   _→ [[01-passive-vs-active-roles]]_
 
+**CardEnvelope**
+: правильная абстракция  
+  _→ [[SCRIPT_EVAL_REPORT]]_
+
 **CardIndex**
 : единственный источник правды о состоянии каждой карточки» — у Андрея это центральный компонент с состояниями pending/processed/error/updated, версионированием, историей хешей  
-  _→ 01-[[01-claude-response|claude-response]]_
+  _→ [[01-claude-response]]_
+
+**CardStore не заполнен полностью**
+: 7 карточек вместо 1623  
+  _→ [[SCRIPT_EVAL_REPORT]]_
 
 **Case law**
 : - BSG decisions (federal social court)  
@@ -386,8 +414,7 @@ _Определения извлечены автоматически из до�
   _→ [[257-4-the-sub-agent-registry]]_
 
 **Changed**
-: `is_fallback` field added to PortalEntry
-  _→ [[103-appendix-b-change-log]]_
+: `is_fallback` field added to [[103-appendix-b-change-log|PortalEntry]]_
 
 **Characteristics**
 : - Decades of domain expertise  
@@ -413,6 +440,10 @@ _Определения извлечены автоматически из до�
 : Naming conventions (passport by format, not by repo)  
   _→ [[103-appendix-b-change-log]]_
 
+**Claude Code**
+: Комбинация 5 · Adversarial × Multi‑IDE (deep pair 3)  
+  _→ [[components-by-name]]_
+
 **claude/skills/`**
 : инструкции для Claude **когда** использовать какой инструмент:  
   _→ [[09-automation]]_
@@ -421,9 +452,12 @@ _Определения извлечены автоматически из до�
 : Author personally needs this  
   _→ [[219-8-pilot-proposal-sgb-advocate-colleague]]_
 
+**ClickHouse**
+: Комбинация 20 · Комбинация 21 · Комбинация 33 · [[components-by-name|[04-event-sourcing-consensus|Mega‑Stack 4  
+  _→ [components-by-name]]_
+
 **CoAlly**
-: Cross‑Agent Memory Bus
-  _→ [[components-by-name]]_
+: [[components-by-name|Cross‑Agent Memory Bus]]_
 
 **CoAlly team**
 : Distributed shared memory для multi-agent teams  
@@ -442,16 +476,15 @@ _Определения извлечены автоматически из до�
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
 **CodeWiki**
-: Self‑Aware MCP + Skills + CodeWiki
-  _→ [[components-by-name]]_
+: [[components-by-name|Self‑Aware MCP + Skills + CodeWiki]]_
 
 **com, Oyster**
 : текущие решения, но они expensive (10-15% markup) и bureaucratic  
   _→ [[01-three-related-themes]]_
 
 **com, Upwork, Toptal, Braintrust, Mercor**
-: биржи , оптимизированные для transactional работы  
-  _→ [[150-appendix-c-version-history]]_
+: биржи, оптимизированные для transactional работы  
+  _→ [[01-completing-loop]]_
 
 **com/svend4?tab=security-log**
 : security log вашего аккаунта  
@@ -497,6 +530,14 @@ _Определения извлечены автоматически из до�
 : целое число от 0 до 3, характеризующее  
   _→ [[07-2-terminology]]_
 
+**Compile CLI**
+: аналог `improve_card_index  
+  _→ [[agentfs]]_
+
+**Compile-to-native configs**
+: преобразование YAML-конфигов в нативные форматы окружения  
+  _→ [[agentfs]]_
+
 **Compliance tracking**
 : Agent flags upcoming reviews,  
   _→ [[186-appendix-c-sample-use-cases-in-detail]]_
@@ -521,9 +562,17 @@ _Определения извлечены автоматически из до�
 : следующий шаг от одного агента к ансамблю агентов  
   _→ [[README]]_
 
+**Concept loop**
+: цикл обновления концептов  
+  _→ [[agent-memory-mcp]]_
+
 **Concrete example**
 : A social worker in Diakonie or  
   _→ [[173-4-ten-domains-of-application]]_
+
+**Conductor**
+: Комбинация 8 · Комбинация 9  
+  _→ [[components-by-name]]_
 
 **Configuration management**
 : low per-principal cost  
@@ -538,16 +587,8 @@ _Определения извлечены автоматически из до�
   _→ [[07-2-terminology]]_
 
 **Contact for discussion**
-: [[03-component-catalog|author's [GitHub]] issues, email  
-  _→ [[164-10-appendices]]_
-
-**contact-outreach**
-: Контактный файл автора OSS-проекта: профиль, статус связи, первое сообщение  
-  _→ [[VALIDATION]]_
-
-**contradiction-record**
-: Запись о противоречии между двумя источниками  
-  _→ [[VALIDATION]]_
+: author's [[164-10-appendices|GitHub issues, email  
+  _→ [164-10-appendices]]_
 
 **Contribution bonuses**
 : measurable high-impact work  
@@ -601,6 +642,14 @@ _Определения извлечены автоматически из до�
 : multiple read models from single event stream  
   _→ [[04-event-sourcing-consensus]]_
 
+**Crawl4AI**
+: Комбинация 7 · Комбинация 15 · Комбинация 18 · Комбинация 21  
+  _→ [[components-by-name]]_
+
+**CRDT (Yjs / Automerge)**
+: Yjs + Automerge · Ансамбль D · Ансамбль G · Комбинация 3 · Комбинация 11 · [[components-by-name|[3-crdt-self-hosted|CRDT × Self‑  
+  _→ [components-by-name]]_
+
 **Critical caveat**
 : Must be paired with human advocate  
   _→ [[173-4-ten-domains-of-application]]_
@@ -626,7 +675,7 @@ _Определения извлечены автоматически из до�
 
 **d as proto-Representative-Agent для тебя,**
 : evidence that approach works  
-  _→ [[186-appendix-c-sample-use-cases-in-detail]]_
+  _→ [[01-response-en]]_
 
 **Daily briefing**
 : Agent provides Stefan with morning  
@@ -640,10 +689,6 @@ _Определения извлечены автоматически из до�
 : pgvector, Turso, DuckDB  
   _→ [[continuation-10-domains]]_
 
-**decision-record**
-: Architecture Decision Record (ADR): контекст → варианты → решение → последствия  
-  _→ [[VALIDATION]]_
-
 **Defensive posture**
 : Justifying existence, apologizing for being AI  
   _→ [[359-твои-anti-patterns]]_
@@ -651,6 +696,14 @@ _Определения извлечены автоматически из до�
 **Deliverables**
 : - Folder structure conventions (already in repository)  
   _→ [[314-6-refined-ingit-scope-with-cowork-in-mind]]_
+
+**Dense cards**
+: идеальный формат для TF-IDF[^tf_idf] векторизации: высокая информационная плотность  
+  _→ [[knowledge-space]]_
+
+**Dense reference cards**
+: плотные карточки: минимум воды, максимум фактов  
+  _→ [[knowledge-space]]_
 
 **Design choice 1**
 : Generate, do not publish  
@@ -684,6 +737,14 @@ _Определения извлечены автоматически из до�
 : peer review by qualified practitioners  
   _→ [[257-4-the-sub-agent-registry]]_
 
+**Docling**
+: Комбинация 7 · Комбинация 10 · Комбинация 15 · AutoResearch legal  
+  _→ [[components-by-name]]_
+
+**Doctor / Triage / Compile CLI**
+: самодиагностика и управление агентской файловой системой  
+  _→ [[agentfs]]_
+
 **Document 10 (Lorenzo Specification) сразу**
 : самое substantive next step  
   _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_
@@ -713,8 +774,7 @@ _Определения извлечены автоматически из до�
   _→ [[186-appendix-c-sample-use-cases-in-detail]]_
 
 **DuckDB / Turso / pgvector**
-: Continuation 10 domains
-  _→ [[components-by-name]]_
+: [[components-by-name|Continuation 10 domains]]_
 
 
 ## E
@@ -730,6 +790,10 @@ _Определения извлечены автоматически из до�
 **Easy decline path**
 : > «Если это не interesting вам или timing not right — просто игнорируйте это сообщение, no offence taken  
   _→ [[357-твоя-коммуникация-в-outreach]]_
+
+**Ebbinghaus decay**
+: yodoca · Memory Write Policy · Комбинация 15 · Habr key‑findings — Yodoca  
+  _→ [[components-by-name]]_
 
 **Ecosystem**
 : набор репозиториев, участвующих в одной федерации  
@@ -763,10 +827,6 @@ _Определения извлечены автоматически из до�
 : Project welcomes Mariya as advisor  
   _→ [[186-appendix-c-sample-use-cases-in-detail]]_
 
-**ensemble**
-: Описание ансамбля компонентов: задача, состав, контракт, риски, MVP  
-  _→ [[VALIDATION]]_
-
 **ensemble methods**
 : несколько моделей → voting  
   _→ [[112-5-связь-с-существующими-методологиями]]_
@@ -788,8 +848,8 @@ _Определения извлечены автоматически из до�
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
 **Event Sourcing**
-: complete audit trail, time‑travel queries  
-  _→ [[04-event-sourcing-consensus]]_
+: Комбинация 31 · [[components-by-name|[04-event-sourcing-consensus|Mega‑Stack 4  
+  _→ [components-by-name]]_
 
 **Evidence Envelope**
 : стандарт, по которому любой вывод системы можно обратно привязать к странице, координате, фрагменту текста или истории изменения  
@@ -812,8 +872,7 @@ _Определения извлечены автоматически из до�
   _→ [[156-2-target-populations]]_
 
 **Examples**
-: ChatGPT, Claude, Cursor, GitHub
-  _→ [[212-1-the-five-type-typology-of-principal-side-agents]]_
+: ChatGPT, Claude, Cursor, [[212-1-the-five-type-typology-of-principal-side-agents|GitHub]]_
 
 **Excessive caveats**
 : Disclaimers что smother every statement  
@@ -839,10 +898,6 @@ _Определения извлечены автоматически из до�
 : LinkedIn, Upwork, Toptal — but these  
   _→ [[173-4-ten-domains-of-application]]_
 
-**experiment-log**
-: Журнал эксперимента: гипотеза, метод, журнал, результат, выводы  
-  _→ [[VALIDATION]]_
-
 **Extensions required for OKWF**
 : - Agent registry (AI assistants and meta-agents as first-class  
   _→ [[158-4-proposed-infrastructure]]_
@@ -860,8 +915,7 @@ _Определения извлечены автоматически из до�
   _→ [[256-3-what-makes-a-composite-skills-agent]]_
 
 **Extropic / Normal Computing (TSU)**
-: Hardware pair 2 — TSU × MoME
-  _→ [[components-by-name]]_
+: [[components-by-name|Hardware pair 2 — TSU × MoME]]_
 
 
 ## F
@@ -881,10 +935,6 @@ _Определения извлечены автоматически из до�
 **Family harms**
 : reduced contribution to household economics,  
   _→ [[155-1-problem-statement]]_
-
-**faq-entry**
-: FAQ-запись: вопрос, краткий и подробный ответ  
-  _→ [[VALIDATION]]_
 
 **Fault tolerance**
 : no single point of failure  
@@ -952,7 +1002,7 @@ _Определения извлечены автоматически из до�
 
 **Foundation model, которую мы обсуждаем**
 : infrastructure, в которой вы бы thrive  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-completing-loop]]_
 
 **Foundation-friendly economics**
 : Modest budget viable;  
@@ -977,6 +1027,10 @@ _Определения извлечены автоматически из до�
 
 ## G
 
+**Gardener-loop**
+: автоматическое поддержание и очистка памяти  
+  _→ [[agent-memory-mcp]]_
+
 **Generic compliments**
 : «Amazing work!», «Incredible insight!»  
   _→ [[359-твои-anti-patterns]]_
@@ -993,12 +1047,7 @@ _Определения извлечены автоматически из до�
   _→ [[01-strategic-significance]]_
 
 **GitHubTopicAdapter**
-: discovery по GitHub
-  _→ [[97-22-glossary-of-reference-examples]]_
-
-**glossary-entry**
-: Глоссарная статья: определение, происхождение, синонимы, примеры  
-  _→ [[VALIDATION]]_
+: discovery по [[97-22-glossary-of-reference-examples|GitHub]]_
 
 **Goal**
 : InGit becomes usable as Cowork substrate  
@@ -1012,6 +1061,14 @@ _Определения извлечены автоматически из до�
 : established corporate philanthropy  
   _→ [[163-9-call-for-partnership]]_
 
+**Gotchas**
+: явно помеченные подводные камни и типичные ошибки  
+  _→ [[knowledge-space]]_
+
+**Gotchas как факты**
+: CardEnvelope(type="fact") для явных ограничений и предупреждений  
+  _→ [[knowledge-space]]_
+
 **Graduated participation model**
 : entry at any capacity,  
   _→ [[153-executive-summary]]_
@@ -1019,6 +1076,10 @@ _Определения извлечены автоматически из до�
 **Graduation structure**
 : - Level 0: Onboarding quests (2-4 weeks)  
   _→ [[158-4-proposed-infrastructure]]_
+
+**Graph RAG**
+: карточка · Ансамбль B · Комбинация 4 · Комбинация 22 · Комбинация 27 · [[components-by-name|  
+  _→ [components-by-name]]_
 
 **Guild councils**
 : Each guild has elected 3-person council  
@@ -1035,6 +1096,10 @@ _Определения извлечены автоматически из до�
 
 ## H
 
+**Handoffs**
+: структурированная передача контекста от агента к агенту  
+  _→ [[mclaude]]_
+
 **Hapax%**
 : доля слов, встречающихся ровно 1 раз  
   _→ [[VOCABULARY]]_
@@ -1045,7 +1110,7 @@ _Определения извлечены автоматически из до�
 
 **Header warning в Appendix A**
 : то, что можно копи-пастить  
-  _→ [[122-глоссарий]]_
+  _→ [[16-glossary]]_
 
 **Health Score 82/100**
 : хорошо, но неясно по какому алгоритму  
@@ -1071,9 +1136,17 @@ _Определения извлечены автоматически из до�
 : humans в management roles  
   _→ [[133-обратная-связь]]_
 
+**HTML evidence report**
+: финальный отчёт как интерактивный HTML с встроенными страницами  
+  _→ [[research-docs-liteparse]]_
+
+**HTML отчёт**
+: human-readable артефакт для ревью перед ApprovalMode("review") в SkillPolicy  
+  _→ [[research-docs-liteparse]]_
+
 **Hybrid RAG**
-: legal texts + code + statistics  
-  _→ [[03-dsl-ast]]_
+: карточка · Ансамбль B · Document RAG (deep pair 2)  
+  _→ [[components-by-name]]_
 
 **Hype language**
 : «AI revolutionizes everything», «paradigm shift», «game-changer»  
@@ -1108,7 +1181,7 @@ _Определения извлечены автоматически из до�
 
 **implementation meeting its requirements"**
 : сильный сигнал технической зрелости для reviewers  
-  _→ [[104-appendix-c-references]]_
+  _→ [[22-glossary]]_
 
 **Implication : «Habr Scout»**
 : только русскоязычный layer  
@@ -1117,6 +1190,10 @@ _Определения извлечены автоматически из до�
 **Implication: «Habr Scout»**
 : только русскоязычный layer  
   _→ [[02-minuses-1-10]]_
+
+**improve_self.py**
+: самоаудит + кодогенерация = мощная пара  
+  _→ [[SCRIPT_EVAL_REPORT]]_
 
 **Individual harms**
 : loss of professional identity, social  
@@ -1137,10 +1214,6 @@ _Определения извлечены автоматически из до�
 **InGit + Cowork**
 : практическая интеграция с продуктом Anthropic Cowork  
   _→ [[README]]_
-
-**InGit's contribution здесь**
-: structured Git workflows (Git hooks, validation, encryption)  
-  _→ [[303-приложение-визуализация-позиции-в-серии]]_
 
 **Inheritance bridge**
 : Link from private instance to public  
@@ -1168,14 +1241,10 @@ _Определения извлечены автоматически из до�
 
 **itecture (из нашего вчерашнего документа)**
 : архитектурная форма принципа «divide and coordinate»:  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-completing-loop]]_
 
 
 ## J
-
-**json )**
-: open item, который легко заметить  
-  _→ [[104-appendix-c-references]]_
 
 **json)**
 : open item, который легко заметить  
@@ -1189,8 +1258,7 @@ _Определения извлечены автоматически из до�
   _→ [[00-intro]]_
 
 **K2-18 (Романов)**
-: Three direct analogues
-  _→ [[components-by-name]]_
+: [[components-by-name|Three direct analogues]]_
 
 **Keep and focus on**
 : - File structure conventions  
@@ -1200,21 +1268,24 @@ _Определения извлечены автоматически из до�
 : - Establish legal entity (non-profit foundation in Germany or  
   _→ [[161-7-phased-rollout-plan]]_
 
+**Knowledge Graph Kit**
+: Related projects · Related projects context  
+  _→ [[components-by-name]]_
+
 **Knowledge lookup**
 : - Relevant SGB statutes (IX, XII primarily)  
   _→ [[219-8-pilot-proposal-sgb-advocate-colleague]]_
 
 **Knowledge organization**
-: Structuring CardIndex
-  _→ [[351-что-ты-можешь-делать]]_
+: Structuring [[351-что-ты-можешь-делать|CardIndex]]_
+
+**knowledge-space**
+: agent-first референсная база знаний: 785+ плотных карточек по 26 доменам, выращенная из реальных research-сессий автора  
+  _→ [[knowledge-space]]_
 
 **Konstantin Chukavin (Обучай)**
 : Profession-wide AI deployment example  
   _→ [[354-существующий-landscape-collaborators-твоя-working-]]_
-
-**kpi-snapshot**
-: Снапшот KPI с деталями метрик и трендом  
-  _→ [[VALIDATION]]_
 
 
 ## L
@@ -1224,12 +1295,10 @@ _Определения извлечены автоматически из до�
   _→ [[266-13-closing]]_
 
 **Langfuse / TraceDebugger**
-: AgentOps + Trace Envelope
-  _→ [[components-by-name]]_
+: [[components-by-name|AgentOps + Trace Envelope]]_
 
 **LangGraph**
-: vs Notion/Mem/AFFiNE/LangGraph
-  _→ [[components-by-name]]_
+: [[components-by-name|vs Notion/Mem/AFFiNE/LangGraph]]_
 
 **Large Language Models**
 : Foundation for natural language  
@@ -1240,7 +1309,7 @@ _Определения извлечены автоматически из до�
   _→ [[366-технический-stack-svyazi-2-0-foundation]]_
 
 **Layer 2 — Knowledge**
-: [[03-component-catalog|knowledge-space]] (Анастасия, MIT)  
+: knowledge-space (Анастасия, MIT)  
   _→ [[366-технический-stack-svyazi-2-0-foundation]]_
 
 **Layer 3 — Kernel**
@@ -1279,9 +1348,9 @@ _Определения извлечены автоматически из до�
 : non‑programmers write legal automation  
   _→ [[03-dsl-ast]]_
 
-**legal-case**
-: Юридический кейс: Aktenzeichen, стороны, хронология, нормы, прецеденты  
-  _→ [[VALIDATION]]_
+**Legal RAG**
+: карточка · Ансамбль B · Commercialization B  
+  _→ [[components-by-name]]_
 
 **legal-sgb-toolkit**
 : и запускаете пилот: живую команду 3-5 фрилансеров, с двухуровневой AI-оркестрацией (мета-агент на Claude Opus, суб-агенты на Claude Sonnet, MCP для shared context, LangGraph или CrewAI как caркас)  
@@ -1300,12 +1369,19 @@ _Определения извлечены автоматически из до�
   _→ [[171-2-historical-precedents-agents-as-civilizational-i]]_
 
 **LiteLLM**
-: Security + routing plane
-  _→ [[components-by-name]]_
+: [[components-by-name|Security + routing plane]]_
 
 **LiteLLM — claimed MIT**
 : actually well-known, можно verify  
   _→ [[365-развёрнутый-анализ-внуковой-комбинации]]_
+
+**LiteParse / research-docs**
+: карточка · Ансамбль B · Ансамбль F · Forensic RAG (ai‑collab)  
+  _→ [[components-by-name]]_
+
+**LlamaIndex интеграция**
+: совместим с экосистемой Jerry Liu  
+  _→ [[research-docs-liteparse]]_
 
 **Local autonomy**
 : каждый репо остаётся полностью функциональным без  
@@ -1314,6 +1390,10 @@ _Определения извлечены автоматически из до�
 **Lock-in**
 : данные становятся заложниками платформы  
   _→ [[06-1-introduction]]_
+
+**Locks**
+: мьютексы для файлов и задач: предотвращают конфликты параллельных агентов  
+  _→ [[mclaude]]_
 
 **logs auditable by practitioner This**
 : starting sketch, not a complete specification  
@@ -1346,9 +1426,12 @@ _Определения извлечены автоматически из до�
 
 ## M
 
+**Mailbox**
+: асинхронный обмен сообщениями между сессиями  
+  _→ [[mclaude]]_
+
 **Mamba (SSM)**
-: Hardware pair 1 — Neuromorphic × SSM
-  _→ [[components-by-name]]_
+: [[components-by-name|Hardware pair 1 — Neuromorphic × SSM]]_
 
 **man agency и dignity in AI-augmented work**
 : valuable contribution независимо от того, какие конкретные предложения survive scrutiny  
@@ -1382,6 +1465,22 @@ _Определения извлечены автоматически из до�
 : Rapid deployment in 2024-2026  
   _→ [[218-7-application-domains]]_
 
+**mclaude**
+: координации нескольких параллельных сессий Claude Code и других coding-агентов над одним проектом  
+  _→ [[mclaude]]_
+
+**mclaude]]**
+: координации агентов (Rufler: запуск; mclaude: координация)  
+  _→ [[rufler]]_
+
+**MCP (Model Context Protocol)**
+: Self‑Aware MCP · A2A vs MCP · Hardware pair 5 · PKM × MCP · Self‑aware MCP × Specs  
+  _→ [[components-by-name]]_
+
+**MCP server management**
+: Rufler управляет запуском/остановкой MCP-серверов для агентов  
+  _→ [[rufler]]_
+
 **md)**
 : вложенная иерархическая координация : один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
@@ -1414,25 +1513,25 @@ _Определения извлечены автоматически из до�
 : - OKWF foundation provides EoR-equivalent services  
   _→ [[158-4-proposed-infrastructure]]_
 
-**meeting-notes**
-: Протокол встречи: повестка, обсуждение, решения, action items  
-  _→ [[VALIDATION]]_
-
-**meeting-notes****
-: встречи: повестка, обсуждение, решения, action items  
-  _→ [[VALIDATION]]_
-
 **Meeting‑to‑graph pipeline**
 : Yttri уже мыслит встречу как workspace с транскрипцией, summary и связями; Svyazi‑2  
   _→ [[04-ensembles-overview]]_
 
-**mega-stack**
-: Полный технологический стек для класса задач со всеми слоями  
-  _→ [[VALIDATION]]_
+**MemNet**
+: карточка · Habr key‑findings — MemNet  
+  _→ [[components-by-name]]_
 
 **memnet|nautilus]]**
 : папка внутри pro2 , а не отдельный самостоятельный проект  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
+
+**Memory consolidation**
+: консолидация памяти между сессиями агента  
+  _→ [[agentfs]]_
+
+**Memory OS**
+: карточка · Card Envelope · Memory Write Policy · Agentic Knowledge OS  
+  _→ [[components-by-name]]_
 
 **meta**
 : 256 CA-правил, гексаграммы, символьный угол  
@@ -1458,6 +1557,14 @@ _Определения извлечены автоматически из до�
 : collectively 1000+ open  
   _→ [[155-1-problem-statement]]_
 
+**MIT**
+: прямая интеграция без ограничений  
+  _→ [[mclaude]]_
+
+**MIT лицензия**
+: прямая интеграция без юридических рисков  
+  _→ [[agentfs]]_
+
 **Mitigation**
 : - Periodic explicit review of agent influence  
   _→ [[177-8-risks-and-mitigations]]_
@@ -1473,6 +1580,14 @@ _Определения извлечены автоматически из до�
 **Mozilla**
 : commitment to open source and inclusive tech  
   _→ [[163-9-call-for-partnership]]_
+
+**Multi-format docs**
+: PDF, DOCX, изображения, таблицы  
+  _→ [[research-docs-liteparse]]_
+
+**Multi-session turn-taking****
+: очерёдности: кто работает сейчас, кто ждёт  
+  _→ [[mclaude]]_
 
 **Multilingual work**
 : Translating, localizing, cultural-adapting communications  
@@ -1541,6 +1656,10 @@ _Определения извлечены автоматически из до�
 : Q6 as normative concept (section 8, ADR-002)  
   _→ [[103-appendix-b-change-log]]_
 
+**NGT Memory**
+: карточка · Ансамбль A · Ансамбль G · Three key candidates  
+  _→ [[components-by-name]]_
+
 **NGT Memory автор**
 : Hebbian associative graph  
   _→ [[354-существующий-landscape-collaborators-твоя-working-]]_
@@ -1572,13 +1691,13 @@ _Определения извлечены автоматически из до�
 : vault с wikilinks и YAML frontmatter  
   _→ [[08-export]]_
 
-**ObsidianAdapter**
-: локальный Obsidian vault ([[wikilinks]])  
-  _→ [[97-22-glossary-of-reference-examples]]_
+**Obsidian-совместимость**
+: vault остаётся читаемым для людей  
+  _→ [[agentfs]]_
 
-**omises (Projects + GitHub + organic flow)**
-: реалистично best you can do until industry catches up  
-  _→ [[272-appendix-d-connection-diagram]]_
+**ObsidianAdapter**
+: локальный Obsidian vault (wikilinks)  
+  _→ [[97-22-glossary-of-reference-examples]]_
 
 **on 1 : Составить Часть I (Видение) сейчас**
 : долгосрочная артикуляция, относительно независимая от вопросов capacity  
@@ -1588,6 +1707,10 @@ _Определения извлечены автоматически из до�
 : один из пяти стандартных способов подключения  
   _→ [[77-2-terminology]]_
 
+**Ontology**
+: концептуальная онтология знаний (Memory OS)  
+  _→ [[agent-memory-mcp]]_
+
 **Open Knowledge Work Foundation**
 : six-layer infrastructure proposal  
   _→ [[355-существующие-документы-dhlab-твой-context]]_
@@ -1595,6 +1718,10 @@ _Определения извлечены автоматически из до�
 **OpenAI**
 : estimated 600+ open positions  
   _→ [[155-1-problem-statement]]_
+
+**OpenClaude**
+: Комбинация 6 · Комбинация 14 · Tmux Village × OpenClaw · [[components-by-name|[04-memory-firewall-vs-prompt-worms|Memory Fire  
+  _→ [components-by-name]]_
 
 **Option Delegate**
 : попросить третьего Claude-agent сделать  
@@ -1651,21 +1778,28 @@ _Определения извлечены автоматически из до�
 : AI Factory накапливает патчи и умеет эволюционно обновлять skills по повторяющимся классам ошибок  
   _→ [[04-ensembles-overview]]_
 
+**Path guard**
+: управление доступом к файловым путям  
+  _→ [[agent-memory-mcp]]_
+
 **Pattern library**
 : Two-tier knowledge structure with public  
   _→ [[148-appendix-a-glossary]]_
-
-**pattern library с contribution bridges**
-: более formalized version того же механизма  
-  _→ [[165-closing]]_
 
 **Pattern recognition**
 : Идентифицировать architectural patterns, philosophical alignments, complementarities  
   _→ [[351-что-ты-можешь-делать]]_
 
+**Pause / Resume**
+: приостановка и возобновление роя без потери состояния  
+  _→ [[rufler]]_
+
+**Paxos / Raft**
+: Комбинация 32 · Комбинация 34 · [[components-by-name|[04-event-sourcing-consensus|Mega‑Stack 4  
+  _→ [components-by-name]]_
+
 **PDA-бот (Possibility-Driven Architecture)**
-: Habr key‑findings — PDA
-  _→ [[components-by-name]]_
+: [[components-by-name|Habr key‑findings — PDA]]_
 
 **Persistence**
 : Professional context persists across sessions  
@@ -1678,6 +1812,10 @@ _Определения извлечены автоматически из до�
 **Persistent operation**
 : Runs continuously, not session-based  
   _→ [[172-3-what-makes-a-representative-agent]]_
+
+**Persistent state**
+: агент сохраняет состояние между сессиями в структурированном виде  
+  _→ [[agentfs]]_
 
 **Personal expertise**
 : Author has direct experience and  
@@ -1743,6 +1881,10 @@ _Определения извлечены автоматически из до�
 : - Each advocate has InGit Project for their case work  
   _→ [[316-8-implications-for-nautilus-and-okwf]]_
 
+**Planner / scout / synthesizer**
+: агентный стек (Memory OS)  
+  _→ [[agent-memory-mcp]]_
+
 **Platform Level**
 : System-wide policies for all agents  
   _→ [[176-7-governance-and-oversight]]_
@@ -1762,6 +1904,10 @@ _Определения извлечены автоматически из до�
 **Positive**
 : - Low barrier to entry: существующие Repos подключаются без  
   _→ [[94-19-adr-001-federation-over-merging]]_
+
+**PostgreSQL 18 async**
+: Комбинация 11 · Комбинация 20  
+  _→ [[components-by-name]]_
 
 **Practical pilot**
 : This is the SGB Advocate Colleague case  
@@ -1847,21 +1993,17 @@ _Определения извлечены автоматически из до�
 : репо может быть подключён на уровне 0  
   _→ [[06-1-introduction]]_
 
-**Project**
-: папка для чатов , не forum для развития идей  
-  _→ [[272-appendix-d-connection-diagram]]_
-
 **Project bonuses**
 : €500-5000/project for specific deliverables  
   _→ [[158-4-proposed-infrastructure]]_
 
-**project-component**
-: Карточка компонента: что это, особенности, статус, интеграция с экосистемой  
-  _→ [[VALIDATION]]_
-
 **Projects**
 : collaborative engagements, не transactions  
   _→ [[01-three-related-themes]]_
+
+**Prompt Worms / OpenClaw audit**
+: Memory Firewall · Default policy  
+  _→ [[components-by-name]]_
 
 **Proposed engagement structure**
 : - 3-year commitment at €1-1  
@@ -1895,14 +2037,6 @@ _Определения извлечены автоматически из до�
 : semver-версия NPP, объявляемая в  
   _→ [[07-2-terminology]]_
 
-**protocol-spec**
-: Спецификация протокола в стиле IETF / Nautilus NPP  
-  _→ [[VALIDATION]]_
-
-**prototype-mvp**
-: План MVP с фазами, метриками успеха, рисками  
-  _→ [[VALIDATION]]_
-
 **Provalled approach + lesson learned**
 : сам по себе publishable result, если правильно оформить  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
@@ -1922,6 +2056,10 @@ _Определения извлечены автоматически из до�
 **Public pattern library с antipatterns**
 : collective memory of the profession  
   _→ [[01-strategic-significance]]_
+
+**Pydantic**
+: Комбинация 25 · Комбинация 28 · [[components-by-name|[03-dsl-ast|Mega‑Stack 3  
+  _→ [components-by-name]]_
 
 **Pydantic everywhere**
 : type‑safe legal workflows  
@@ -1993,10 +2131,6 @@ _Определения извлечены автоматически из до�
 : Build a sub-agent registry covering  
   _→ [[262-9-integration-with-okwf-infrastructure]]_
 
-**Registry**
-: файл `[[memnet|nautilus]]  
-  _→ [[07-2-terminology]]_
-
 **Relational capital scales**
 : AI can monitor thousands  
   _→ [[171-2-historical-precedents-agents-as-civilizational-i]]_
@@ -2021,6 +2155,10 @@ _Определения извлечены автоматически из до�
 : One product serves all users  
   _→ [[212-1-the-five-type-typology-of-principal-side-agents]]_
 
+**Repo / doc search**
+: поиск по репозиторию и документам  
+  _→ [[agent-memory-mcp]]_
+
 **Representative Agent Layer**
 : Cinderella Syndrome, vulnerable populations  
   _→ [[355-существующие-документы-dhlab-твой-context]]_
@@ -2037,21 +2175,17 @@ _Определения извлечены автоматически из до�
 : literature review and synthesis  
   _→ [[158-4-proposed-infrastructure]]_
 
+**research-docs + LiteParse**
+: Forensic Document QA: вместо стандартного "ответить на вопрос по PDF" она создаёт HTML-отчёт с визуальными цитатами и `bounding boxes` на страницах исходного документа  
+  _→ [[research-docs-liteparse]]_
+
 **Research-docs от LlamaIndex/LiteParse**
 : Claude Code skill, который берёт папку с PDF/DOCX/PPTX/XLSX/изображениями, парсит документы и создаёт HTML-отчёт с цитатами и bounding box’ами прямо на странице PDF  
   _→ [[00-intro]]_
 
-**research-note**
-: Свободная заметка-исследование: контекст, находки, источники, открытые вопросы  
-  _→ [[VALIDATION]]_
-
 **Resource matching**
 : When city announces new home-meal  
   _→ [[186-appendix-c-sample-use-cases-in-detail]]_
-
-**retrospective**
-: Ретроспектива: что хорошо, что плохо, action items  
-  _→ [[VALIDATION]]_
 
 **Return on investment for Anthropic**
 : - Talent pipeline that current hiring pipeline cannot reach  
@@ -2077,10 +2211,6 @@ _Определения извлечены автоматически из до�
 : Original Document 6 estimate was  
   _→ [[316-8-implications-for-nautilus-and-okwf]]_
 
-**rfc**
-: Request for Comments — формальная спецификация в стиле IETF/Nautilus NPP  
-  _→ [[VALIDATION]]_
-
 **Risk**
 : Confusion about when to use which  
   _→ [[220-9-relationship-to-other-agent-types]]_
@@ -2092,10 +2222,6 @@ _Определения извлечены автоматически из до�
 **Risk sources**
 : - Employment law reclassifying contributors as employees  
   _→ [[162-8-risk-analysis]]_
-
-**risk-entry**
-: Запись риска: вероятность, влияние, митигация  
-  _→ [[VALIDATION]]_
 
 **rk effects работают против первых игроков**
 : без критической массы бесполезна  
@@ -2128,6 +2254,10 @@ _Определения извлечены автоматически из до�
 **RSS/Atom**
 : фид изменений для подписчиков  
   _→ [[08-export]]_
+
+**Rufler**
+: карточка · Ансамбль C · Distributed Agent Workshop  
+  _→ [[components-by-name]]_
 
 
 ## S
@@ -2184,13 +2314,20 @@ _Определения извлечены автоматически из до�
 : Disability rights advocates in NGOs (Sozialverband  
   _→ [[219-8-pilot-proposal-sgb-advocate-colleague]]_
 
+**Security policies**
+: политики доступа к файлам и директориям  
+  _→ [[agentfs]]_
+
+**Self-Aware MCP**
+: карточка · Ансамбль F · Ансамбль G · Self-aware MCP × Specs  
+  _→ [[components-by-name]]_
+
 **Semantic**
 : `pro2` смотрит на мир через **структуру значений**  
   _→ [[49-angle-perspective]]_
 
 **SENTINEL**
-: Security + routing plane
-  _→ [[components-by-name]]_
+: [[components-by-name|Security + routing plane]]_
 
 **Sequencing**
 : Professional Colleague Agents are higher-readiness  
@@ -2199,6 +2336,10 @@ _Определения извлечены автоматически из до�
 **Setup**
 : Mariya completes 90-minute conversational  
   _→ [[186-appendix-c-sample-use-cases-in-detail]]_
+
+**Shared project memory**
+: общая память проекта (задачи, прогресс, решения)  
+  _→ [[mclaude]]_
 
 **shell**
 : **spiral of nested chambers**, each larger  
@@ -2217,8 +2358,7 @@ _Определения извлечены автоматически из до�
   _→ [[156-2-target-populations]]_
 
 **Skate**
-: Distributed Agent Workshop
-  _→ [[components-by-name]]_
+: [[components-by-name|Distributed Agent Workshop]]_
 
 **social_law + analysis_05_recommendations**
 : буквально исходный материал для их research agenda  
@@ -2231,6 +2371,10 @@ _Определения извлечены автоматически из до�
 **Societal Level**
 : Regulatory frameworks at national/EU  
   _→ [[176-7-governance-and-oversight]]_
+
+**Spatial text parsing**
+: разбор PDF с сохранением координат (x, y, w, h) каждого слова  
+  _→ [[research-docs-liteparse]]_
 
 **Specialization**
 : Deep, single profession  
@@ -2250,11 +2394,15 @@ _Определения извлечены автоматически из до�
 
 **specification и не product documentation**
 : meta-документ о процессе  
-  _→ [[122-глоссарий]]_
+  _→ [[16-glossary]]_
 
 **SpiceDB**
 : 5 мс p95, миллионы QPS  
   _→ [[continuation-10-domains]]_
+
+**SQLite + WAL**
+: локальное хранение, offline-capable, GDPR-safe  
+  _→ [[agent-memory-mcp]]_
 
 **Staff Software Engineer, Inference**
 : CUDA/TPU kernel-уровень, низкоуровневые оптимизации по latency и throughput в миллисекундах  
@@ -2324,13 +2472,13 @@ _Определения извлечены автоматически из до�
 : - €2-3M committed funding  
   _→ [[161-7-phased-rollout-plan]]_
 
+**Svyazi**
+: карточка · во всех ансамблях A‑H · Комбинация 1 · Комбинация 3 · Комбинация 18  
+  _→ [[components-by-name]]_
+
 **Svyazi 2.0**
 : экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных  
   _→ [[FAQ]]_
-
-**Svyazi 2.0 — Knowledge Base Report**
-: аналитический обзор базы знаний, сгенерированный автоматически 2026-04-29  
-  _→ [[REPORT]]_
 
 **Svyazi‑2.0**
 : ingestion и нормализация профи  
@@ -2355,14 +2503,6 @@ _Определения извлечены автоматически из до�
 : Anthropic Beneficial Deployments team  
   _→ [[164-10-appendices]]_
 
-**tech-pair**
-: Пара технологий с описанием синергии  
-  _→ [[VALIDATION]]_
-
-**tech-radar-entry**
-: Запись Tech Radar: квадрант, кольцо, обоснование  
-  _→ [[VALIDATION]]_
-
 **Technical Writing Guild**
 : software documentation,  
   _→ [[158-4-proposed-infrastructure]]_
@@ -2376,8 +2516,7 @@ _Определения извлечены автоматически из до�
   _→ [[113-6-почему-это-валидный-паттерн-для-ai-assisted-work]]_
 
 **tg-chat-analyser**
-: Supplementary infrastructure
-  _→ [[components-by-name]]_
+: [[components-by-name|Supplementary infrastructure]]_
 
 **The combinatorial value**
 : central economic insight: a  
@@ -2451,21 +2590,28 @@ _Определения извлечены автоматически из до�
 : - Initial outreach: next 30 days (author can draft warm  
   _→ [[164-10-appendices]]_
 
+**TimescaleDB**
+: Комбинация 11 · [[components-by-name|[01-legal-ai-stack|Mega‑Stack 1  
+  _→ [components-by-name]]_
+
 **ting Lorenzo Vision (Part I) сразу сейчас**
 : substantive content что useful regardless of Phase 1 decisions  
   _→ [[342-что-такое-вариант-c-concept-document-для-anthropic]]_
 
 **tion matching через deep-profile analysis**
 : neither свидание, neither hiring, neither networking  
-  _→ [[165-closing]]_
+  _→ [[01-response]]_
+
+**Token accounting**
+: учёт и ограничение потребления токенов на задачу и на весь рой  
+  _→ [[rufler]]_
 
 **toml**
 : формализация «от чего мой проект зависит»  
   _→ [[01-strategic-significance]]_
 
 **Tool Search**
-: Security + routing plane
-  _→ [[components-by-name]]_
+: [[components-by-name|Security + routing plane]]_
 
 **Topologически полезен**
 : локальная соседство (hamming distance  
@@ -2492,8 +2638,7 @@ _Определения извлечены автоматически из до�
   _→ [[continuation-10-domains]]_
 
 **txt**
-: ограничение GitHub
-  _→ [[00-intro]]_
+: ограничение [[00-intro|GitHub]]_
 
 **Type 1**
 : One agent design serves all practitioners of a  
@@ -2502,6 +2647,10 @@ _Определения извлечены автоматически из до�
 **Type 4**
 : One agent serves one principal, with deep individual  
   _→ [[254-1-why-the-binary-view-is-incomplete]]_
+
+**Typed memories**
+: episodic, semantic, procedural, working  
+  _→ [[agent-memory-mcp]]_
 
 **Typical configurations**
 : A jazz pianist who teaches has  
@@ -2557,16 +2706,16 @@ _Определения извлечены автоматически из до�
 : прыжок через несколько этапов  
   _→ [[01-response]]_
 
+**Visual citations**
+: в HTML-отчёте каждая цитата показывает выделенный фрагмент страницы  
+  _→ [[research-docs-liteparse]]_
+
 
 ## W
 
 **Web interface, CLI format output**
 : implementation details reference portal, не нормативные  
-  _→ [[34-appendix-b-change-log]]_
-
-**weekly-digest**
-: Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план  
-  _→ [[VALIDATION]]_
+  _→ [[18-comment-on-document]]_
 
 **What**
 : minimum AI capability for this architecture?**  
@@ -2587,10 +2736,6 @@ _Определения извлечены автоматически из до�
 **What it provides**
 : - Federated knowledge storage across heterogeneous formats  
   _→ [[158-4-proposed-infrastructure]]_
-
-**What matches**
-: architecture where: - Many narrow-specialist sub-agents exist, each built once - Sub-agents are shared across all practitioners who need that specialization - Each principal conf…  
-  _→ [[DUPLICATES]]_
 
 **What we ask**
 : - Core partnership funding commitment (€1-3M over 3 years)  
@@ -2621,8 +2766,8 @@ _Определения извлечены автоматически из до�
   _→ [[SUMMARIES]]_
 
 **who**
-: partner, what role makes sense, what timeline, what compensation, what risks  
-  _→ [[165-closing]]_
+: principal, who are counterparties, what  
+  _→ [[173-4-ten-domains-of-application]]_
 
 **Why Anthropic specifically**
 : - Public Benefit Corporation structure aligns with foundation  
@@ -2656,24 +2801,34 @@ _Определения извлечены автоматически из до�
 : просто потенциация одного синапса до порога выявляемости  
   _→ [[00-intro]]_
 
+**Wiki-links**
+: двойные скобки для связей между концептами  
+  _→ [[knowledge-space]]_
+
 **Wikontic**
-: Three direct analogues
-  _→ [[components-by-name]]_
+: [[components-by-name|Three direct analogues]]_
 
 
 ## Y
+
+**YAML DSL**
+: минималистичный язык описания агентных пайплайнов  
+  _→ [[rufler]]_
 
 **yazi + AgentFS + NGT/Yodoca + LiteParse****
 : даёт уже полезный MVP  
   _→ [[conclusions]]_
 
 **YDB / Tarantool DB 3.0**
-: Sozialrecht report
-  _→ [[components-by-name]]_
+: [[components-by-name|Sozialrecht report]]_
 
 **YiJing-Transformer research**
 : код, эксперименты, model weights  
   _→ [[48-content-overview]]_
+
+**Yodoca**
+: карточка · Ансамбль A · Ансамбль F · Habr key‑findings — Yodoca · Комбинация 7 · [[components-by-name|[15-self-consolidating-legal-corpus|Комбинация  
+  _→ [components-by-name]]_
 
 **you're an AI talking к individual humans**
 : требует carefulness)  
@@ -2685,6 +2840,10 @@ _Определения извлечены автоматически из до�
 **Zero external dependencies**
 : reference implementation не зависит  
   _→ [[76-1-introduction]]_
+
+**ZINC inference engine (Zig/Vulkan)**
+: Комбинация 6 · Hardware pair 3  
+  _→ [[components-by-name]]_
 
 
 ## А
@@ -2727,7 +2886,7 @@ _Определения извлечены автоматически из до�
 
 **Анонимизация собственного активного кейса**
 : эмоционально тяжёлая процедура  
-  _→ [[ACTION_ITEMS]]_
+  _→ [[03-what-this-gives-technically]]_
 
 **Ансамбли**
 : синергетические сборки для конкретных задач  
@@ -2852,8 +3011,8 @@ _Определения извлечены автоматически из до�
   _→ [[00-intro]]_
 
 **Ваш собственный profile**
-: perfect example target contributor :  
-  _→ [[150-appendix-c-version-history]]_
+: perfect example target contributor:  
+  _→ [[01-completing-loop]]_
 
 **Ваш тезис**
 : тезис про самого себя, только экстраполированный на индустриальный уровень  
@@ -2869,7 +3028,7 @@ _Определения извлечены автоматически из до�
 
 **Ваша OKWF**
 : distributed work platform для qualified contributors  
-  _→ [[165-closing]]_
+  _→ [[01-claude-response]]_
 
 **Ваша формулировка**
 : в явном виде непокрытая ниша  
@@ -2877,7 +3036,7 @@ _Определения извлечены автоматически из до�
 
 **ваших документов (769 vs 415 строк тестов**
 : реальное расхождение из Part 1)  
-  _→ [[122-глоссарий]]_
+  _→ [[16-glossary]]_
 
 **Векторный поиск**
 : embeddings + cosine similarity:  
@@ -2902,6 +3061,10 @@ _Определения извлечены автоматически из до�
 **Внешнее взаимодействие**
 : Общается со сторонами за пределами принципала  
   _→ [[193-3-что-делает-агента-представительским]]_
+
+**Внешний knowledge layer**
+: knowledge-space как upstream источник карточек для CardStore  
+  _→ [[knowledge-space]]_
 
 **Внешний аудит**
 : Независимая проверка практик платформы  
@@ -2949,7 +3112,7 @@ _Определения извлечены автоматически из до�
 
 **Вы заметили принцип divide and coordinate**
 : буквально кибернетика (Wiener, Ashby, Beer)  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-completing-loop]]_
 
 **Вызов интеграции**
 : Слой C (интерфейсный слой)  
@@ -3000,7 +3163,7 @@ _Определения извлечены автоматически из до�
 
 **Группа специалистов + AI-кураторы**
 : architectural solution для этого gap, которое в принципе работоспособно с текущими AI-capabilities  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-three-related-themes]]_
 
 
 ## Д
@@ -3102,8 +3265,7 @@ _Определения извлечены автоматически из до�
   _→ [[79-4-passport-passport-md]]_
 
 **Дочкина (Sequential протокол)**
-: AutoResearch + Sequential
-  _→ [[components-by-name]]_
+: [[components-by-name|AutoResearch + Sequential]]_
 
 **дублирования кода и документации**
 : разумно, когда каждая  
@@ -3112,13 +3274,17 @@ _Определения извлечены автоматически из до�
 
 ## Е
 
+**е значимое решение заслуживает своего ADR**
+: помогает команде понять контекст и не повторять отклонённые варианты  
+  _→ [[decision-record]]_
+
 **е каждый игрок (квест, гильдия, компания)**
 : репозиторий со своим native форматом, а movement через игровой мир — это federated queries через портал  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
 **е писать blog post или academic paper, §6**
 : основа thesis statement  
-  _→ [[122-глоссарий]]_
+  _→ [[16-glossary]]_
 
 **е подробно разбирали в предыдущих ответах**
 : ChatGPT-корпус 1105 разговоров за 15 месяцев + аналитические markdown'ы  
@@ -3126,11 +3292,11 @@ _Определения извлечены автоматически из до�
 
 **е профессиональное агентство, не брачное»**
 : точная характеристика того, что Свйази делает и чего нет в массовом рынке  
-  _→ [[165-closing]]_
+  _→ [[01-response]]_
 
 **е: pattern library с contribution bridges**
 : более formalized version того же механизма  
-  _→ 01-[[01-claude-response|claude-response]]_
+  _→ [[01-claude-response]]_
 
 **Единый тип карточки**
 : должен хранить и «человека», и «проект», и «эпизод», и «документ», и «слабую гипотезу»  
@@ -3144,13 +3310,8 @@ _Определения извлечены автоматически из до�
 : автоматическая система, которая ищет в публичных и полупубличных местах строки, соответствующие паттерну github_pat_*  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
-**елам документов, делать ответвления мысли**
-: искусственно для GitHub  
-  _→ [[272-appendix-d-connection-diagram]]_
-
 **епо hex-проектов, граф Q6 (гексаграммы)»)**
-: backbone для pro2
-  _→ [[00-intro]]_
+: backbone для [[00-intro|pro2]]_
 
 **есколько детей, превосходящих в обучении»**
 : здесь работает буквально потому, что технологии в парах не из одной семьи: Mamba — это математика, нейроморфы — физика; TSU — физика, MoME — математика; ZINC — software, гибридная архитектура — алгоритм; RISC-V — кремний, privacy — право; TinyML — embedded, MCP — протокол  
@@ -3195,7 +3356,7 @@ _Определения извлечены автоматически из до�
 
 ## З
 
-**Затем [`npp-v1-1/`](nautilus/npp-v1-1/)**
+**Затем [`npp-v1-1/`](npp-v1-1/)**
 : формальный протокол, на который ссылаются остальные  
   _→ [[README]]_
 
@@ -3224,15 +3385,15 @@ _Определения извлечены автоматически из до�
 
 **И pro2, и nautilus**
 : вложенная иерархическая координация: один общий уровень, знающий о нескольких подчинённых уровнях, каждый из которых имеет свою компетенцию  
-  _→ 03-[[03-nautilus-B-meta-orchestrator|nautilus-B-meta-orchestrator]]_
+  _→ [[03-nautilus-B-meta-orchestrator]]_
 
 **И ваш пример с компьютерной игрой**
 : операционализация на детском уровне всего этого комплекса  
-  _→ [[165-closing]]_
+  _→ [[01-response]]_
 
 **И одновременно**
 : infrastructure, которую вы способны помочь построить  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-completing-loop]]_
 
 **И паттерн что вас интересует**
 : collaboration matching через AI (Wi-Fi инженер + петербургский разработчик нашли друг друга через систему и начали open-source проект по радиопланированию)  
@@ -3274,6 +3435,10 @@ _Определения извлечены автоматически из до�
 : необычное : Go + template + MIT  
   _→ [[00-intro]]_
 
+**Индивидуальная уникальность**
+: то, что выделяет конкретного специалиста среди равных: редкий стек, нестандартный опыт, авторские методы  
+  _→ [[250-bridging-the-gap-between-profession-wide-and-indiv]]_
+
 **Индивидуальный уровень**
 : Каждые отношения принципал-агент управляются ясным контрактом  
   _→ [[197-7-управление-и-надзор]]_
@@ -3304,7 +3469,7 @@ _Определения извлечены автоматически из до�
 
 **использованием proto-Representative-Agent**
 : self-confirming evidence  
-  _→ [[186-appendix-c-sample-use-cases-in-detail]]_
+  _→ [[01-response-en]]_
 
 **использовать токены**
 : значит, что вам нужно использовать их аккуратнее, чем обычному разработчику  
@@ -3334,7 +3499,7 @@ _Определения извлечены автоматически из до�
 
 **к π, это заслуживает отдельной публикации**
 : потенциальная эмпирическая закономерность, похожая на golden ratio в optimization  
-  _→ 02-[[02-nautilus-A-pro2-meta|nautilus-A-pro2-meta]]_
+  _→ [[02-nautilus-A-pro2-meta]]_
 
 **Каждая «камера»**
 : экспертный слой в MoE, вложенный в более общую структуру  
@@ -3369,8 +3534,7 @@ _Определения извлечены автоматически из до�
   _→ [[107-1-контекст-и-мотивация]]_
 
 **Качество**
-: зависит от index в nautilus
-  _→ [[87-12-onboarding-paths-normative]]_
+: зависит от index в [[87-12-onboarding-paths-normative|nautilus]]_
 
 **кетинг, нетворкинг, построение нарратива)**
 : в значительной степени **некоррелированные черты**  
@@ -3386,7 +3550,7 @@ _Определения извлечены автоматически из до�
 
 **Когда меняется промпт**
 : breaking change с migration strategy  
-  _→ [[165-closing]]_
+  _→ [[01-claude-response]]_
 
 **Команда**
 : распределённые авторы на Хабре и GitHub  
@@ -3487,6 +3651,10 @@ _Определения извлечены автоматически из до�
 : аттракторы или устойчивые паттерны динамики CA-правил)  
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
+**Локальный парсер**
+: всё работает офлайн, без внешних API  
+  _→ [[research-docs-liteparse]]_
+
 **льные независимые версии одного документа**
 : было бы пустой тратой времени  
   _→ [[72-расписание-фазы-3]]_
@@ -3523,8 +3691,7 @@ _Определения извлечены автоматически из до�
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
 **методологическое измерение**
-: отвечает на вопрос «как это делать», в отличие от `pro2
-  _→ [[36-essence]]_
+: отвечает на вопрос «как это делать», в отличие от `[[36-essence|pro2]]_
 
 **Механика**
 : Агенты обычно берут 10-20% комиссии от заработка клиента  
@@ -3544,7 +3711,7 @@ _Определения извлечены автоматически из до�
 
 **Может быть, придумывая это имя**
 : часть ценного contribution  
-  _→ [[165-closing]]_
+  _→ [[01-response]]_
 
 **Мой кейс**
 : instance паттерна X»  
@@ -3568,6 +3735,10 @@ _Определения извлечены автоматически из до�
 **Навигации**
 : человек не читает монолит  
   _→ [[03-chunking]]_
+
+**найти ответ, но и показать откуда он взят**
+: критический компонент  
+  _→ [[research-docs-liteparse]]_
 
 **Накопленный реляционный капитал**
 : ценность агента приходит от сети, не только от транзакционного навыка  
@@ -3595,7 +3766,7 @@ _Определения извлечены автоматически из до�
 
 **Не буду fetch all sources**
 : займёт огромное количество контекста  
-  _→ [[364-final-note-ты-experiment]]_
+  _→ [[00-overview-grandchild-combination]]_
 
 **не знают про команду**
 : каждый работает изолированно со своим человеком  
@@ -3609,7 +3780,7 @@ _Определения извлечены автоматически из до�
 : defensible moat для такого проекта, которого не будет у обычных legal-tech стартапов  
   _→ [[04-grant-opportunities]]_
 
-**ните с [`okwf-concept/`](nautilus/okwf-concept/)****
+**ните с [`okwf-concept/`](okwf-concept/)****
 : foundational concept document, фон для всех остальных  
   _→ [[README]]_
 
@@ -3623,11 +3794,11 @@ _Определения извлечены автоматически из до�
 
 **Но LangGraph**
 : runtime, а не доменная система  
-  _→ 07-vs-[[07-vs-notion-mem-affine-langgraph|notion-mem-affine-langgraph]]_
+  _→ [[07-vs-notion-mem-affine-langgraph]]_
 
 **Но Notion AI**
 : прежде всего workspace search + productivity AI  
-  _→ 07-vs-[[07-vs-notion-mem-affine-langgraph|notion-mem-affine-langgraph]]_
+  _→ [[07-vs-notion-mem-affine-langgraph]]_
 
 **Но есть нюанс: skills в Hermes**
 : generally functional capabilities (web search, code execution, file operations, etc  
@@ -3655,7 +3826,7 @@ _Определения извлечены автоматически из до�
 
 **нули progression «from simple to complex»**
 : и есть game design 101  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-completing-loop]]_
 
 **нцепция MMORPG-for-programmers с AI-слоем**
 : integration point для минимум 4 ваших top-10 проектов  
@@ -3768,9 +3939,13 @@ _Определения извлечены автоматически из до�
 : Агент отмечает предстоящие пересмотры, требуемые сроки отчётности  
   _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
 
+**Офлайн**
+: соответствует принципу local-first в Svyazi (GDPR-safe)  
+  _→ [[research-docs-liteparse]]_
+
 **Очень важная находка**
-: та самая Анастасия Бутова ( AnastasiyaW )! Та же автор, что и Happyin Knowledge Space (785 статей в 26 доменах)  
-  _→ [[364-final-note-ты-experiment]]_
+: та самая Анастасия Бутова (AnastasiyaW)! Та же автор, что и Happyin Knowledge Space (785 статей в 26 доменах)  
+  _→ [[00-overview-grandchild-combination]]_
 
 **Очень высокая**
 : лучший слой для nightly consolidation и controlled forgetting  
@@ -3813,11 +3988,11 @@ _Определения извлечены автоматически из до�
 
 **персон будет людей, и сколько агентов AI»**
 : критически важный foundational principle  
-  _→ [[150-appendix-c-version-history]]_
+  _→ [[01-completing-loop]]_
 
 **Пишу отдельный standalone paper**
-: существенное расширение мысли , и оно действительно заслуживает своего документа, не растворённого в OKWF concept  
-  _→ [[165-closing]]_
+: существенное расширение мысли, и оно действительно заслуживает своего документа, не растворённого в OKWF concept  
+  _→ [[01-response-en]]_
 
 **Плюсы**
 : полностью автоматически  
@@ -3936,16 +4111,15 @@ _Определения извлечены автоматически из до�
   _→ [[234-3-эмпирический-кейс-обучай]]_
 
 **Примеры**
-: ChatGPT, Claude, Cursor, GitHub
-  _→ [[232-1-типология-из-пяти-типов-агентов-на-стороне-принц]]_
+: ChatGPT, Claude, Cursor, [[232-1-типология-из-пяти-типов-агентов-на-стороне-принц|GitHub]]_
 
 **Примеры запросов**
 : 3-5 query-string, дающих хорошие результаты  
   _→ [[79-4-passport-passport-md]]_
 
 **Принимать экзамен**
-: уже не помощь учителю , а самостоятельное действие AI-сотрудника в делегированной зоне  
-  _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
+: уже не помощь учителю, а самостоятельное действие AI-сотрудника в делегированной зоне  
+  _→ [[01-response]]_
 
 **Принцип 1 — Полномочия Принципала**
 : Окончательные полномочия по всем последовательным решениям остаются у принципала  
@@ -3985,7 +4159,7 @@ _Определения извлечены автоматически из до�
 
 **Профессиональные Коллеги**
 : путь наименьшего сопротивления для развёртывания AI в обществе  
-  _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
+  _→ [[01-response]]_
 
 **Процедурное отслеживание**
 : Агент поддерживает осведомлённость о каждой открытой процедуре, каждом сроке  
@@ -3998,6 +4172,10 @@ _Определения извлечены автоматически из до�
 **Процедурные стандарты**
 : - Процедурные конвенции Sozialgericht  
   _→ [[239-8-пилотное-предложение-sgb-колega-адвокат]]_
+
+**Прямая интеграция**
+: AgentFS как файловое ядро + CardStore поверх него — агент работает с vault как с базой знаний  
+  _→ [[agentfs]]_
 
 **Публичный аудит**
 : Отчёты о прозрачности по совокупному поведению  
@@ -4029,10 +4207,6 @@ _Определения извлечены автоматически из до�
 **Результат**
 : Мария вкладывает 8 часов/неделю как советник  
   _→ [[207-приложение-c-образцы-случаев-использования-в-детал]]_
-
-**Результаты**
-: черновики, требующие проверки и принятия практикующим, не окончательные продукты  
-  _→ [[DUPLICATES]]_
 
 **Рекомендация**
 : **Сделайте это сейчас**  
@@ -4072,7 +4246,7 @@ _Определения извлечены автоматически из до�
 
 **рхитектуре: трёхфазная methodology review**
 : именно механизм обратной связи  
-  _→ 01-[[01-claude-response|claude-response]]_
+  _→ [[01-claude-response]]_
 
 **рёх траекторий, первый публичный артефакт**
 : всё тот же universal-file-storage-mcp, потому что он является технологическим доказательством того, что вы способны довести идею до работающего инструмента  
@@ -4111,7 +4285,7 @@ _Определения извлечены автоматически из до�
 
 **Свйази**
 : networking platform для professional community  
-  _→ [[165-closing]]_
+  _→ [[01-claude-response]]_
 
 **Свяжи (Svyazi) от Андрея Чуяна**
 : которая помогает участникам сообщества находить друг друга через структурированные профили  
@@ -4131,10 +4305,6 @@ _Определения извлечены автоматически из до�
 **Семантически богат**
 : 64 гексаграммы И-Цзин имеют ≈3000-летнюю  
   _→ [[54-for-the-curious-philosophy]]_
-
-**серьёзной intellectual collaboration с AI**
-: major unsolved problem в индустрии  
-  _→ [[272-appendix-d-connection-diagram]]_
 
 **Синергетические комбинации**
 : конкретные архитектуры для немецкого Sozialrecht (SGB)  
@@ -4158,7 +4328,7 @@ _Определения извлечены автоматически из до�
 
 **сли позже станет ясно, что glyph-адаптеры**
 : обобщённый концепт (мета-адаптер над native-адаптерами), это попадёт в v1  
-  _→ [[34-appendix-b-change-log]]_
+  _→ [[18-comment-on-document]]_
 
 **Слой A — база профессиональных знаний**
 : сердце Профессионального Коллеги-Агента  
@@ -4284,10 +4454,6 @@ _Определения извлечены автоматически из до�
 : вызов MCP с конкретным skill'ом  
   _→ [[00-intro]]_
 
-**сё ещё linear — каждый чат внутри Project**
-: отдельный chat thread  
-  _→ [[272-appendix-d-connection-diagram]]_
-
 
 ## Т
 
@@ -4340,8 +4506,8 @@ _Определения извлечены автоматически из до�
   _→ [[01-strategic-significance]]_
 
 **То, что нужно**
-: positioning и partnership strategy :  
-  _→ [[150-appendix-c-version-history]]_
+: positioning и partnership strategy:  
+  _→ [[01-completing-loop]]_
 
 **Тогда название папки**
 : имя архитектурного паттерна, а не имя проекта  
@@ -4352,8 +4518,7 @@ _Определения извлечены автоматически из до�
   _→ [[349-твоя-личность]]_
 
 **Требования**
-: - Только запись в `nautilus
-  _→ [[80-5-compatibility-levels]]_
+: - Только запись в `[[80-5-compatibility-levels|nautilus]]_
 
 **Третичные**
 : Самопредставляющиеся затронутые  
@@ -4366,6 +4531,10 @@ _Определения извлечены автоматически из до�
 **Триада углов не случайна**
 : классическая семиотическая  
   _→ [[67-о-проекте]]_
+
+**Трёхуровневый поиск**
+: каждый уровень нужен для разных сценариев  
+  _→ [[SCRIPT_EVAL_REPORT]]_
 
 **ттерн, который стоит явно документировать**
 : уже сама по себе компактная история одной идеи за 2 месяца, готовая для блога или README  
@@ -4458,13 +4627,6 @@ _Определения извлечены автоматически из до�
   _→ [[194-4-десять-областей-применения]]_
 
 
-## Х
-
-**хитектуре : трёхфазная methodology review**
-: именно механизм обратной связи  
-  _→ [[165-closing]]_
-
-
 ## Ц
 
 **Цель**
@@ -4552,13 +4714,6 @@ _Определения извлечены автоматически из до�
   _→ [[00-intro]]_
 
 
-## Ь
-
-**ь документов за extended dialogue session**
-: unusual intellectual achievement  
-  _→ [[272-appendix-d-connection-diagram]]_
-
-
 ## Э
 
 **эксперимент**
@@ -4603,15 +4758,11 @@ _Определения извлечены автоматически из до�
 
 **Это не новый documents**
 : revision OKWF concept document с этими insights integrated  
-  _→ [[165-closing]]_
-
-**Это не новый тип наравне с другими**
-: уточнение пробела между Type 1 и Type 4  
-  _→ [[272-appendix-d-connection-diagram]]_
+  _→ [[01-response]]_
 
 **Это не просто похожий паттерн**
 : один и тот же inversion of control: AI делает экзегезу (понимание смысла), детерминированный код делает выкладку (структурирование результата)  
-  _→ 01-[[01-claude-response|claude-response]]_
+  _→ [[01-claude-response]]_
 
 **Это не просто расширение**
 : второй контур применения, возможно более коммерчески значимый, чем первый  
@@ -4630,8 +4781,8 @@ _Определения извлечены автоматически из до�
   _→ [[01-интегральный-анализ-профиля-svend4]]_
 
 **Это уже не просто подбор статей**
-: **машина технологической селекции и сборки проектов**  
-  _→ [[364-final-note-ты-experiment]]_
+: > машина технологической селекции и сборки проектов  
+  _→ [[365-развёрнутый-анализ-внуковой-комбинации]]_
 
 **Это устанавливает, что collaboration**
 : genuine invitation, а не rhetorical device  
@@ -4664,77 +4815,44 @@ _Определения извлечены автоматически из до�
 
 ---
 
-## Смотрите также
+**Смотрите также:**
 - [[TABLES]]
 - [[ACTION_ITEMS]]
 - [[01-интегральный-анализ-профиля-svend4]]
-- [[342-что-такое-вариант-c-concept-document-для-anthropic]]
+- [[EMPTY_SECTIONS]]
+
+
 
 ## Использование
-
 ```bash
+# Запуск
 python scripts/improve_concepts.py
 ```
-
 ```bash
-# Только раздел 05-habr-projects
-python scripts/improve_concepts.py --section 05-habr-projects
+# Вариант 2
+python scripts/improve_concepts.py --dry-run
 ```
-
 ```bash
-# Только раздел 01-svyazi
-python scripts/improve_concepts.py --section 01-svyazi
+# Вариант 3
+python scripts/improve_concepts.py --dry-run
 ```
-
 ```bash
-# Только раздел 04-ai-collaborations
-python scripts/improve_concepts.py --section 04-ai-collaborations
+# Вариант 4
+python scripts/improve_concepts.py --dry-run
 ```
-
 ```bash
-# Найти понятия по шаблону
-python scripts/improve_concepts.py --pattern "агент"
+# Вариант 5
+python scripts/improve_concepts.py --dry-run
 ```
-
 ```bash
-# Сохранить в формате JSON
-python scripts/improve_concepts.py --json
+# Вариант 6
+python scripts/improve_concepts.py --dry-run
 ```
-
 ```bash
-# Показать топ-50 понятий
-python scripts/improve_concepts.py --top 50
+# Вариант 7
+python scripts/improve_concepts.py --dry-run
 ```
-
 ```bash
-# Показать сводную статистику
-python scripts/improve_concepts.py --stats
+# Вариант 8
+python scripts/improve_concepts.py --dry-run
 ```
-
-```bash
-# Все разделы, детальный вывод
-python scripts/improve_concepts.py --verbose
-```
-
-```bash
-# Обновить и сразу проверить метрики
-python scripts/improve_concepts.py && python scripts/improve_metrics.py
-```
-
-
-## Смотрите также
-
-- [[HEALTH]] — общее здоровье репозитория
-- [[METRICS]] — метрики качества документов
-- [[BROKEN_LINKS]] — проверка ссылок
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-

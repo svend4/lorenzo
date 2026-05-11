@@ -1,9 +1,20 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/187-слой-представительских-агентов-md.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
+
+
+h2. Contents
+
+* [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md|#слой-представительских-агентовmd]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}- [166-representative-agent-layer-md|166-representative-agent-layer-md.md] (сходство 0.33){quote}
@@ -11,6 +22,10 @@ h1. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -23,7 +38,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.33)
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md) (сходство 0.25)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md) (сходство 0.17)
@@ -69,9 +84,32 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ md"
+{code}
+
+## Смотрите также
 - [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
 - [305-a-practical-path-to-layer-b-through-symbiotic-inte](305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [12-content-overview](12-content-overview.md)
+- [13-angle-perspective](13-angle-perspective.md)
+- [132-planned-v0-2-0](132-planned-v0-2-0.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [168-abstract](168-abstract.md)
+- [174-5-architectural-specification](174-5-architectural-specification.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- _...ещё 4_
 

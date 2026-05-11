@@ -3,7 +3,7 @@ title: "9. Checklist применения методологии"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 9. Checklist применения методологии
@@ -16,6 +16,7 @@ date: 2026-05-10
   - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
   - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
   - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Похожие документы](#похожие-документы)
 
@@ -112,9 +113,14 @@ python scripts/improve_semantic_search.py --query "9 Checklist применен�
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (13):**
+- [[107-1-контекст-и-мотивация]]
+- [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
+- [[115-8-ограничения-и-открытые-вопросы]]
+- [[119-appendix-b-примеры-расхождений-и-их-разрешения]]
+- [[README]]
+- [[FAQ]]
+- [[GITHUB_ISSUES]]
+- [[OUTLINE]]
+- _...ещё 5_
 

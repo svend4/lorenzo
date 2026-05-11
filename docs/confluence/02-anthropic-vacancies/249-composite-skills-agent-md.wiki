@@ -1,14 +1,29 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/249-composite-skills-agent-md.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. COMPOSITE SKILLS AGENT.md
 
 
+h2. Contents
+
+* [COMPOSITE SKILLS AGENT.md|#composite-skills-agentmd]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}- [166-representative-agent-layer-md|166-representative-agent-layer-md.md] (сходство 0.25){quote}
 
 ----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -23,7 +38,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [166-representative-agent-layer-md](166-representative-agent-layer-md.md) (сходство 0.25)
 - [344-системный-промпт-для-lorenzo-project](344-системный-промпт-для-lorenzo-project.md) (сходство 0.20)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md) (сходство 0.14)
@@ -77,9 +92,31 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "COMPOSITE SKILLS AGENT md"
+{code}
+
+## Смотрите также
 - [304-ingit-as-cowork-native-workspace-substrate-md](304-ingit-as-cowork-native-workspace-substrate-md.md)
 - [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
 - [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
 - [273-infrastructure-for-ai-collaborative-intellectual-w](273-infrastructure-for-ai-collaborative-intellectual-w.md)
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (21)
+- [12-content-overview](12-content-overview.md)
+- [134-the-double-triangle-architecture-md](134-the-double-triangle-architecture-md.md)
+- [151-open-knowledge-work-foundation-md](151-open-knowledge-work-foundation-md.md)
+- [166-representative-agent-layer-md](166-representative-agent-layer-md.md)
+- [186-appendix-c-sample-use-cases-in-detail](186-appendix-c-sample-use-cases-in-detail.md)
+- [187-слой-представительских-агентов-md](187-слой-представительских-агентов-md.md)
+- [208-professional-colleague-agents-md](208-professional-colleague-agents-md.md)
+- [210-abstract](210-abstract.md)
+- _...ещё 13_
 

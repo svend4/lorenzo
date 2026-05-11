@@ -3,7 +3,7 @@ title: "[Тема исследования]"
 tags:
   - исследование
   - autofilled
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # [Тема исследования]
@@ -20,6 +20,7 @@ date: 2026-05-10
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
 - [Упоминается в](#упоминается-в)
+- [Использование](#использование)
 
 
 > [!NOTE]
@@ -102,9 +103,11 @@ python scripts/improve_semantic_search.py --query "research summary svyazi"
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [README](README.md)
+**Кто ссылается на этот документ (6):**
+- [[AUTOFILLED]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[README]]
+- [[04-structuring]]
 

@@ -2,7 +2,7 @@
 title: "9. Relationship to Other Agent Types"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 9. Relationship to Other Agent Types

@@ -1,14 +1,37 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/190-содержание.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Содержание
 
 
+h2. Contents
+
+* [Содержание|#содержание]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (16)|#кто-ссылается-на-этот-документ-16]
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
 {quote}1. _Синдром Золушки: Почему качество остаётся невидимым_{quote}
 
 ----
+
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит важные предупреждения и ограничения.{quote}
 
 
 
@@ -34,7 +57,7 @@ h2. Содержание
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [231-содержание|231-содержание.md] (сходство 0.18)
 * [326-содержание|326-содержание.md] (сходство 0.12)
 
@@ -43,7 +66,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Содержание"
+{code}
+
+h2. Смотрите также
 * [231-содержание|231-содержание.md]
 * [326-содержание|326-содержание.md]
 * [105-review-methodology-md|105-review-methodology-md.md]
@@ -76,7 +105,7 @@ h2. Связанные документы
 * [Содержание|326-содержание.md] _37%_
 * [Appendix A: Minimal Working Example|28-appendix-a-minimal-working-example.md] _33%_
 * [For the Curious: Philosophy|44-for-the-curious-philosophy.md] _33%_
-* [portal-mcp.py|123-portal-mcp-py.md] _29%_
+* portal-[mcp.py|123-portal-mcp-py.md] _29%_
 * [REVIEW_METHODOLOGY.md|105-review-methodology-md.md] _25%_
 * [Compatibility Level|41-compatibility-level.md] _25%_
 * [For the Curious: Philosophy|54-for-the-curious-philosophy.md] _25%_
@@ -89,4 +118,20 @@ h2. Связанные документы
 * [Compatibility Level|41-compatibility-level.md] _29%_
 * [History|63-history.md] _29%_
 * [REVIEW_METHODOLOGY.md|105-review-methodology-md.md] _25%_
-* [portal-mcp.py|123-portal-mcp-py.md] _25%_
+* portal-[mcp.py|123-portal-mcp-py.md] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (16)
+* [105-review-methodology-md|105-review-methodology-md.md]
+* 123-portal-[mcp-py|123-portal-mcp-py.md]
+* 127-подключение-к-[claude-desktop|127-подключение-к-claude-desktop.md]
+* [149-appendix-b-summary-of-contributions|149-appendix-b-summary-of-contributions.md]
+* [154-table-of-contents|154-table-of-contents.md]
+* [169-table-of-contents|169-table-of-contents.md]
+* [202-12-заключение|202-12-заключение.md]
+* [231-содержание|231-содержание.md]
+* _...ещё 8_
+

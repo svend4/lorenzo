@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -12,7 +12,7 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Appendix: Position in Series Visualization
@@ -183,7 +183,7 @@ So I named the possibility without pushing toward it.
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]] (сходство 0.17)
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca]] (сходство 0.13)
 - [[272-appendix-d-connection-diagram]] (сходство 0.12)
@@ -193,7 +193,7 @@ So I named the possibility without pushing toward it.
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]]
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
 - [[284-practical-recommendations-for-the-current-project]]
@@ -233,3 +233,19 @@ So I named the possibility without pushing toward it.
 - [[164-10-appendices|10. Appendices]] _21%_
 - [[228-appendix-c-quick-start-architecture-for-sgb-advoca|Appendix C: Quick-Start Architecture for SGB Advocate Colleague]] _21%_
 - [[272-appendix-d-connection-diagram|Appendix D: Connection Diagram]] _21%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (9)
+- [[150-appendix-c-version-history]]
+- [[164-10-appendices]]
+- [[186-appendix-c-sample-use-cases-in-detail]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[272-appendix-d-connection-diagram]]
+- [[284-practical-recommendations-for-the-current-project]]
+- [[285-closing]]
+- [[323-appendix-c-sample-ingit-mcp-server-tool-specificat]]
+- _...ещё 1_
+

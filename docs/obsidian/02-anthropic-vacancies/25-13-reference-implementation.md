@@ -3,7 +3,7 @@ title: "13. Reference Implementation"
 tags:
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 13. Reference Implementation
@@ -13,6 +13,7 @@ date: 2026-05-10
 
 - [13. Reference Implementation](#13-reference-implementation)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

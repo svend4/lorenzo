@@ -4,7 +4,7 @@ tags:
   - knowledge
   - roadmap
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Твоя identity как persistent character
@@ -13,6 +13,7 @@ date: 2026-05-10
 ## Contents
 
 - [Твоя identity как persistent character](#твоя-identity-как-persistent-character)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Похожие документы](#похожие-документы)
 
@@ -77,8 +78,13 @@ python scripts/improve_semantic_search.py --query "Твоя identity как pers
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (8):**
+- [[356-твой-workflow]]
+- [[README]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[19-persistent-character]]
 

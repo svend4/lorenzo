@@ -1,41 +1,35 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/INDEX.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Индекс документации — Lorenzo / Svyazi 2.0
 
-{quote}[!TIP]{quote}
-{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
-
-
-
-{quote}_Главный навигационный хаб. Все разделы и документы._{quote}
-_Проекты:_ Svyazi, AgentFS, knowledge-space, Yodoca
-
-----
-
-
-h2. Содержание
+h2. Contents
 
 * [Метрики репозитория|#метрики-репозитория]
 * [Разделы документации|#разделы-документации]
-  * [[🏗️  Архитектура Svyazi 2.0|README.md]](#архитектура-svyazi-20docs01-svyazireadmemd)
-  * [[💼 Вакансии Anthropic|README.md]](#вакансии-anthropicdocs02-anthropic-vacanciesreadmemd)
-  * [[⚗️  Комбинации технологий|README.md]](#комбинации-технологийdocs03-technology-combinationsreadmemd)
-  * [[🤝 AI-коллаборации|README.md]](#ai-коллаборацииdocs04-ai-collaborationsreadmemd)
-  * [[📦 Хабр-проекты|README.md]](#хабр-проектыdocs05-habr-projectsreadmemd)
+  * [[🏗️  Архитектура Svyazi 2.0|01-svyazi/README.md]](#архитектура-svyazi-2001-svyazireadmemd)
+  * [[💼 Вакансии Anthropic|02-anthropic-vacancies/README.md]](#вакансии-anthropic02-anthropic-vacanciesreadmemd)
+  * [[⚗️  Комбинации технологий|03-technology-combinations/README.md]](#комбинации-технологий03-technology-combinationsreadmemd)
+  * [[🤝 AI-коллаборации|04-ai-collaborations/README.md]](#ai-коллаборации04-ai-collaborationsreadmemd)
+  * [[📦 Хабр-проекты|05-habr-projects/README.md]](#хабр-проекты05-habr-projectsreadmemd)
 * [Аналитика и отчёты|#аналитика-и-отчёты]
 * [Ключевые документы|#ключевые-документы]
 * [LLM-обогащение (Ступень 3)|#llm-обогащение-ступень-3]
 * [Быстрый старт|#быстрый-старт]
 
-----
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{INDEX}} формируется автоматически из данных репозитория.{quote}
 
 
 
 
+
+
+{quote}{{INDEX}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Главный навигационный хаб. Все разделы и документы._
@@ -43,43 +37,43 @@ _Главный навигационный хаб. Все разделы и до
 h2. Метрики репозитория
 
 || Параметр || Значение ||
-|| Markdown документов || **529** ||
-|| Слов || **523,847** ||
-|| Скриптов автоматизации || **125** ||
-|| Go/No-Go скоринг || **93 🟢** ||
-|| Здоровье репо || **90/100** ||
+|| Markdown документов || **2451** ||
+|| Слов || **2,713,388** ||
+|| Скриптов автоматизации || **163** ||
+|| Go/No-Go скоринг || **100 🟢** ||
+|| Здоровье репо || **100/100** ||
 
 h2. Разделы документации
 
-h3. [🏗️  Архитектура Svyazi 2.0|README.md]
+h3. [🏗️  Архитектура Svyazi 2.0|01-svyazi/README.md]
 
 Ключевые компоненты, контракты, MVP, дорожная карта
 
-_16 файлов · 11,062 слов_
+_16 файлов · 13,370 слов_
 
-h3. [💼 Вакансии Anthropic|README.md]
+h3. [💼 Вакансии Anthropic|02-anthropic-vacancies/README.md]
 
 436 вакансий по 12 кластерам, стратегический анализ
 
-_357 файлов · 284,383 слов_
+_357 файлов · 341,436 слов_
 
-h3. [⚗️  Комбинации технологий|README.md]
+h3. [⚗️  Комбинации технологий|03-technology-combinations/README.md]
 
 40+ синергетических комбинаций AI-технологий
 
-_7 файлов · 2,600 слов_
+_7 файлов · 3,835 слов_
 
-h3. [🤝 AI-коллаборации|README.md]
+h3. [🤝 AI-коллаборации|04-ai-collaborations/README.md]
 
 5 ансамблей OSS-проектов: Knowledge OS, Agent Teams, Security Runtime
 
-_17 файлов · 27,222 слов_
+_17 файлов · 27,978 слов_
 
-h3. [📦 Хабр-проекты|README.md]
+h3. [📦 Хабр-проекты|05-habr-projects/README.md]
 
 Yodoca, NGT, AgentFS, knowledge-space — проекты с Хабра
 
-_10 файлов · 8,981 слов_
+_16 файлов · 14,769 слов_
 
 
 h2. Аналитика и отчёты
@@ -154,32 +148,5 @@ python scripts/improve_run_all.py --group analysis
 
 ----
 
-_Индекс сгенерирован автоматически · 529 документов · 125 скриптов_
+_Индекс сгенерирован автоматически · 2451 документов · 163 скриптов_
 
-
-
-
-----
-
-_Смотрите также:_
-* [ONBOARDING|ONBOARDING.md]
-* [SITEMAP|SITEMAP.md]
-* [REPORT|REPORT.md]
-* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
-
-
-h2. Упоминается в
-
-* [AI-саммари разделов документации|LLM_SUMMARIES.md]
-* [docs|README.md]
-* [Все таблицы репозитория|TABLES.md]
-* [Карта репозитория Lorenzo|SITEMAP.md]
-* [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md]
-
-
-h2. Связанные документы
-
-* [AI-саммари разделов документации|LLM_SUMMARIES.md] _25%_
-* [Метрики качества документации|METRICS.md] _21%_
-* [Онбординг — Svyazi 2.0 / Lorenzo|ONBOARDING.md] _21%_
-* [Отчёт о дублировании|DUPLICATES.md] _17%_

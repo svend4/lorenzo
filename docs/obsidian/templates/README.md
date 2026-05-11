@@ -1,45 +1,46 @@
-# templates
-
-**Файлов:** 23
-
-## Содержание
-
-- [agent-spec.md](agent-spec.md) — ---
-- [contact-outreach.md](contact-outreach.md) — ---
-- [contradiction-record.md](contradiction-record.md) — ---
-- [decision-record.md](decision-record.md) — ---
-- [ensemble.md](ensemble.md) — ---
-- [experiment-log.md](experiment-log.md) — ---
-- [faq-entry.md](faq-entry.md) — ---
-- [glossary-entry.md](glossary-entry.md) — ---
-- [kpi-snapshot.md](kpi-snapshot.md) — ---
-- [legal-case.md](legal-case.md) — ---
-- [meeting-notes.md](meeting-notes.md) — ---
-- [mega-stack.md](mega-stack.md) — ---
-- [project-component.md](project-component.md) — ---
-- [protocol-spec.md](protocol-spec.md) — ---
-- [prototype-mvp.md](prototype-mvp.md) — ---
-- [research-note.md](research-note.md) — ---
-- [retrospective.md](retrospective.md) — ---
-- [rfc.md](rfc.md) — ---
-- [risk-entry.md](risk-entry.md) — ---
-- [tech-pair.md](tech-pair.md) — ---
-- [tech-radar-entry.md](tech-radar-entry.md) — ---
-- [template-of-templates.md](template-of-templates.md) — ---
-- [weekly-digest.md](weekly-digest.md) — ---
-
-<!-- backlinks -->
-
+---
+title: "Шаблоны документов"
+tags:
+  - readme
+  - docs
+  - templates
+date: 2026-05-11
 ---
 
-**Кто ссылается на этот документ (25):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
-- [agent-spec](agent-spec.md)
-- [contact-outreach](contact-outreach.md)
-- [contradiction-record](contradiction-record.md)
-- [decision-record](decision-record.md)
-- _...ещё 17_
+# Шаблоны документов
 
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+
+_Создано: 2026-05-11_
+
+Готовые заготовки для создания новых документов в репозитории.
+
+## Доступные шаблоны
+
+| Шаблон | Назначение |
+|--------|------------|
+| [[project-component|project-component.md]] | Описание отдельного OSS-компонента |
+| [[ensemble|ensemble.md]] | Ансамбль из нескольких компонентов |
+| [[research-note|research-note.md]] | Заметка об исследовании/анализе |
+| [[decision-record|decision-record.md]] | Архитектурное решение (ADR) |
+| [[contact-outreach|contact-outreach.md]] | Шаблон контакта с автором |
+
+## Использование
+
+```bash
+# Скопируйте нужный шаблон в нужную папку
+cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
+# Затем откройте и заполните поля в [квадратных скобках]
+```
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Шаблоны документов». Формируется автоматически.

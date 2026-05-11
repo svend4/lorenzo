@@ -2,7 +2,7 @@
 title: "Svyazi[^svyazi] 2.0 — Исполнительное резюме"
 tags:
   - svyazi
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Svyazi[^svyazi] 2.0 — Исполнительное резюме
@@ -134,8 +134,14 @@ python scripts/improve_semantic_search.py --query "Svyazi svyazi 2 0 Испол�
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (44):**
+- [[00-intro-part2]]
+- [[02-methodology]]
+- [[04-ensembles-overview]]
+- [[08-conclusions]]
+- [[09-architectural-gaps]]
+- [[10-second-order-ensembles]]
+- [[11-integration-contracts]]
+- [[13-contacts]]
+- _...ещё 36_
 

@@ -1,9 +1,28 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/MINDMAP.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Майндмап репозитория Lorenzo
+
+
+h2. Contents
+
+* [Структура разделов|#структура-разделов]
+* [Поток данных между проектами|#поток-данных-между-проектами]
+* [Легенда|#легенда]
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{MINDMAP}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{MINDMAP}} — раздел документации проекта Lorenzo.{quote}
+
 
 h2. Структура разделов
 
@@ -108,8 +127,8 @@ h2. Легенда
 ----
 
 _Смотрите также:_
-* [GLOSSARY|docs/GLOSSARY.md]
-* [CONTACT_PRIORITY|docs/CONTACT_PRIORITY.md]
-* [GRAPH|docs/GRAPH.md]
-* [NETWORK|docs/NETWORK.md]
+* [GLOSSARY|GLOSSARY.md]
+* [NETWORK|NETWORK.md]
+* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
+* [GRAPH|GRAPH.md]
 

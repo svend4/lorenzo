@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/275-why-this-document-exists.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -10,11 +10,32 @@ tags:
   * architecture
   * roadmap
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Why This Document Exists
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+h2. Содержание
+
+* [Why This Document Exists|#why-this-document-exists]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Абстракт_ (авто){quote}
 >
@@ -73,7 +94,7 @@ This document explores that observation.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[276-the-two-layer-stack-as-it-exists]] (сходство 0.18)
 * [[286-acknowledgments]] (сходство 0.16)
 * [[279-existing-approximations]] (сходство 0.14)
@@ -83,7 +104,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Why This Document Exists"
+{code}
+
+h2. Смотрите также
 * [[286-acknowledgments]]
 * [[276-the-two-layer-stack-as-it-exists]]
 * [[283-what-this-document-doesn-t-solve]]
@@ -126,3 +153,19 @@ h2. Связанные документы
 * [[287-references|References]] _29%_
 * [[319-acknowledgments|Acknowledgments]] _29%_
 * [[267-acknowledgments|Acknowledgments]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (12)
+* [[267-acknowledgments]]
+* [[276-the-two-layer-stack-as-it-exists]]
+* [[277-what-s-missing-layer-b]]
+* [[278-why-this-hasn-t-been-built]]
+* [[280-the-specific-case-in-front-of-us]]
+* [[283-what-this-document-doesn-t-solve]]
+* [[284-practical-recommendations-for-the-current-project]]
+* [[285-closing]]
+* _...ещё 4_
+

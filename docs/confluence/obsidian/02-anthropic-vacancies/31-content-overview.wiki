@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/31-content-overview.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,11 +8,34 @@ title: "Content Overview"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Content Overview
 
+
+h2. Contents
+
+* [Content Overview|#content-overview]
+* [Похожие документы|#похожие-документы]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (11)|#кто-ссылается-на-этот-документ-11]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!TIP]{quote}
+{quote}Раздел содержит несколько документов. Используйте содержание для навигации.{quote}
 
 {quote}~200 заметок, темы: software engineering, philosophy, music.{quote}
 
@@ -29,7 +52,7 @@ h2. Content Overview
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[12-content-overview]] (сходство 0.21)
 
 
@@ -71,9 +94,33 @@ h2. Связанные документы
 
 ----
 
-_Смотрите также:_
+h2. Использование
+
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Content Overview"
+{code}
+
+h2. Смотрите также
 * [[12-content-overview]]
 * [[151-open-knowledge-work-foundation-md]]
 * [[273-infrastructure-for-ai-collaborative-intellectual-w]]
-* [[304-ingit-as-cowork-native-workspace-substrate-md]]
+* 304-[[304-ingit-as-cowork-native-workspace-substrate-md|ingit-as-cowork-native-workspace-substrate-md]]
 
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[12-content-overview]]
+* [[13-angle-perspective]]
+* [[134-the-double-triangle-architecture-md]]
+* [[150-appendix-c-version-history]]
+* [[151-open-knowledge-work-foundation-md]]
+* [[208-professional-colleague-agents-md]]
+* [[249-composite-skills-agent-md]]
+* [[273-infrastructure-for-ai-collaborative-intellectual-w]]
+* _...ещё 3_
+
+_Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._

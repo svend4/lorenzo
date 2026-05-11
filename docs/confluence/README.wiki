@@ -1,30 +1,35 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/README.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. docs
 
-_Файлов:_ 103
+
+
+
+
+
+_Файлов:_ 106
 
 h2. Содержание
 
 * [ABBREVIATIONS.md|ABBREVIATIONS.md] — > [!TIP]
 * [ACTION_ITEMS.md|ACTION_ITEMS.md] — Автоматически извлечено из всех документов.
-* [ALERTS.md|ALERTS.md] — Добавлено _43_ callout-блоков в документы.
+* [ALERTS.md|ALERTS.md] — Добавлено _72_ callout-блоков в документы.
 * [AUTHORS.md|AUTHORS.md] — Авторы проектов, упоминаемые в исследованиях.
 * [AUTOFILLED.md|AUTOFILLED.md] — 
 * [BACKLINKS.md|BACKLINKS.md] — 
 * [BADGES.md|BADGES.md] — _Обновлено: 2026-04-29_
-* [BROKEN_LINKS.md|BROKEN_LINKS.md] — > [!TIP]
-* [CHANGELOG.md|CHANGELOG.md] — Всего коммитов: _101_
+* [BROKEN_LINKS.md|BROKEN_LINKS.md] — > [!WARNING]
+* [CHANGELOG.md|CHANGELOG.md] — Всего коммитов: _54_
 * [CHANGELOG_AUTO.md|CHANGELOG_AUTO.md] — 
 * [CITATION_INDEX.md|CITATION_INDEX.md] — _Обновлено: 2026-04-29_
 * [CLUSTERS.md|CLUSTERS.md] — > [!TIP]
 * [CODE_BLOCKS.md|CODE_BLOCKS.md] — > [!TIP]
-* [COMPARE.md|COMPARE.md] — _Файлов было:_ 1049  _стало:_ 1194
-* [COMPLEXITY.md|COMPLEXITY.md] — > [!WARNING]
-* [COMPONENT_MATRIX.md|COMPONENT_MATRIX.md] — 
+* [COMPARE.md|COMPARE.md] — _Файлов было:_ 763  _стало:_ 1053
+* [COMPLEXITY.md|COMPLEXITY.md] — _Файлов проанализировано:_ 1038
+* [COMPONENT_MATRIX.md|COMPONENT_MATRIX.md] — > [!TIP]
 * [CONCEPTS.md|CONCEPTS.md] — > [!TIP]
 * [CONCEPT_GRAPH.md|CONCEPT_GRAPH.md] — _Обновлено: 2026-04-29_
 * [CONSISTENCY.md|CONSISTENCY.md] — Анализ различных написаний одних и тех же терминов.
@@ -32,27 +37,27 @@ h2. Содержание
 * [CONTACT_PRIORITY.md|CONTACT_PRIORITY.md] — _Обновлено: 2026-04-29_
 * [CONTENT_GAPS.md|CONTENT_GAPS.md] — _Обновлено: 2026-04-29_
 * [CONTRADICTIONS.md|CONTRADICTIONS.md] — _Обновлено: 2026-04-29_
-* [COST.md|COST.md] — _Ориентировочные цифры на основе документации проекта._
-* [COVERAGE.md|COVERAGE.md] — _Обновлено: 2026-04-29_
+* [COST.md|COST.md] — 
+* [COVERAGE.md|COVERAGE.md] — 
 * [CROSSREFS.md|CROSSREFS.md] — > [!TIP]
 * [CROSS_SECTION.md|CROSS_SECTION.md] — 
-* [DECISIONS.md|DECISIONS.md] — Автоматически извлечено из всех документов: _395 записей_
+* [DECISIONS.md|DECISIONS.md] — Автоматически извлечено из всех документов: _451 записей_
 * [DENSITY.md|DENSITY.md] — > [!TIP]
 * [DEPENDABOT.md|DEPENDABOT.md] — _Обновлено: 2026-04-29_
-* [DEPENDENCY_MAP.md|DEPENDENCY_MAP.md] — 
+* [DEPENDENCY_MAP.md|DEPENDENCY_MAP.md] — _Что каждый {{improve_*.py}} производит и от чего зависит._
 * [DIGEST.md|DIGEST.md] — 
 * [DIGEST_AUTO.md|DIGEST_AUTO.md] — _Период: 2026-04-22 — 2026-04-29 (7 дней)_
 * [DIGEST_WEEKLY.md|DIGEST_WEEKLY.md] — _Период: последние 7 дней (с 2026-04-22)_
-* [DUPLICATES.md|DUPLICATES.md] — > [!WARNING]
+* [DUPLICATES.md|DUPLICATES.md] — > [!TIP]
 * [EMPTY_SECTIONS.md|EMPTY_SECTIONS.md] — _Обновлено: 2026-04-29_
 * [ENTITIES.md|ENTITIES.md] — _Файлов просмотрено:_ 1191
 * [FAQ.md|FAQ.md] — _Извлечено: 125 вопросов и ответов_
-* [FOOTNOTES.md|FOOTNOTES.md] — _Обновлено файлов:_ 4  _Вставлено сносок:_ 14
+* [FOOTNOTES.md|FOOTNOTES.md] — _Обновлено файлов:_ 4  _Вставлено сносок:_ 15
 * [GITHUB_ISSUES.md|GITHUB_ISSUES.md] — _Обновлено: 2026-04-29_
 * [GLOSSARY.md|GLOSSARY.md] — Все проекты, упоминаемые в документах, с количеством файлов.
 * [GRAPH.md|GRAPH.md] — Рёбра = совместные упоминания в одном файле (≥ 2 раз).
 * [HEADING_AUDIT.md|HEADING_AUDIT.md] — _Обновлено: 2026-04-29_
-* [HEALTH.md|HEALTH.md] — _Обновлено: 2026-04-29_
+* [HEALTH.md|HEALTH.md] — _Обновлено: 2026-05-10_
 * [HEATMAP.md|HEATMAP.md] — > [!TIP]
 * [INDEX.md|INDEX.md] — > [!TIP]
 * [KEYWORD_INDEX.md|KEYWORD_INDEX.md] — 
@@ -60,10 +65,11 @@ h2. Содержание
 * [KPI.md|KPI.md] — > [!TIP]
 * [KPI_HISTORY.md|KPI_HISTORY.md] — 
 * [LANGUAGE_STATS.md|LANGUAGE_STATS.md] — _Обновлено: 2026-04-29_
-* [LINKS.md|LINKS.md] — Всего уникальных URL: 232
+* [LINKS.md|LINKS.md] — > [!TIP]
 * [LLM_SUMMARIES.md|LLM_SUMMARIES.md] — 
 * [MCP_DASHBOARD.md|MCP_DASHBOARD.md] — _Обновлено: 2026-04-29_
-* [METRICS.md|METRICS.md] — _Файлов:_ 1174  _Средний балл:_ 71.2/100
+* [METHODOLOGY.md|METHODOLOGY.md] — > Принципы: скрипты работают _по вызову_, под контролем человека или Claude.
+* [METRICS.md|METRICS.md] — _Файлов:_ 1714  _Средний балл:_ 69.6/100
 * [MINDMAP.md|MINDMAP.md] — ```mermaid
 * [MISSING.md|MISSING.md] — Анализ покрытия ключевых тем и проектов в docs/.
 * [NAMED_ENTITIES.md|NAMED_ENTITIES.md] — _Обновлено: 2026-04-29_
@@ -76,6 +82,7 @@ h2. Содержание
 * [PASSIVE_VOICE.md|PASSIVE_VOICE.md] — _Обновлено: 2026-04-29_
 * [PRIORITIES.md|PRIORITIES.md] — > [!TIP]
 * [PROGRESS.md|PROGRESS.md] — _Обновлено: 2026-04-29 (improve_progress_sync.py)_
+* [PROTOTYPE_SPEC.md|PROTOTYPE_SPEC.md] — > _Версия:_ 1.0 · _Дата:_ 2026-05-10 · _Статус:_ Draft
 * [QA.md|QA.md] — Вопросы и ответы по всем разделам монорепозитория.
 * [QUESTIONS.md|QUESTIONS.md] — _Обновлено: 2026-04-29_
 * [READABILITY.md|READABILITY.md] — _Обновлено: 2026-04-29_
@@ -85,13 +92,13 @@ h2. Содержание
 * [REGISTRY.md|REGISTRY.md] — _Обновлено: 2026-04-29_
 * [REPORT.md|REPORT.md] — _Сгенерировано автоматически: 2026-04-29_
 * [RISK_REGISTER.md|RISK_REGISTER.md] — > [!TIP]
-* [SCHEDULE.md|SCHEDULE.md] — _Дорожная карта с вехами и задачами по кварталам._
-* [SCORING.md|SCORING.md] — _Дата: 2026-04-29_
+* [SCHEDULE.md|SCHEDULE.md] — 
+* [SCORING.md|SCORING.md] — 
 * [SCRIPTS_CATALOG.md|SCRIPTS_CATALOG.md] — _Обновлено: 2026-04-29_
 * [SEARCH.md|SEARCH.md] — > [!TIP]
-* [SEARCH_RESULTS.md|SEARCH_RESULTS.md] — 
-* [SEE_ALSO.md|SEE_ALSO.md] — _Файлов с блоком See Also:_ 1066
-* [SENTIMENT.md|SENTIMENT.md] — _Файлов проанализировано:_ 1035
+* [SEARCH_RESULTS.md|SEARCH_RESULTS.md] — _Обновлено: 2026-05-10_
+* [SEE_ALSO.md|SEE_ALSO.md] — _Файлов с блоком See Also:_ 514
+* [SENTIMENT.md|SENTIMENT.md] — > [!WARNING]
 * [SIMILAR.md|SIMILAR.md] — > [!TIP]
 * [SIMILAR_PASSAGES.md|SIMILAR_PASSAGES.md] — > [!TIP]
 * [SITEMAP.md|SITEMAP.md] — _Обновлено: 2026-04-29_
@@ -99,24 +106,25 @@ h2. Содержание
 * [SOURCE_MAP.md|SOURCE_MAP.md] — _Обновлено: 2026-04-29_
 * [SPELLCHECK.md|SPELLCHECK.md] — _Обновлено: 2026-04-29_
 * [STALENESS.md|STALENESS.md] — _Порог: 30 дней. Обновлено: 2026-04-29_
-* [STATS.md|STATS.md] — _Разделов:_ 18  _Файлов:_ 1191  _Слов:_ 944,409  _Символов:_ 8,448,352
+* [STATS.md|STATS.md] — _Разделов:_ 11  _Файлов:_ 1047  _Слов:_ 1,199,279  _Символов:_ 10,227,651
 * [SUMMARIES.md|SUMMARIES.md] — > [!TIP]
 * [TABLES.md|TABLES.md] — > [!TIP]
 * [TAGS.md|TAGS.md] — Каждый файл помечен тегами по темам автоматически.
 * [TASKS_INDEX.md|TASKS_INDEX.md] — _Обновлено: 2026-04-29_
 * [TECH_RADAR.md|TECH_RADAR.md] — > [!WARNING]
 * [TIMELINE.md|TIMELINE.md] — _Обновлено: 2026-04-29_
-* [VALIDATION.md|VALIDATION.md] — _Ошибок:_ 0  _Предупреждений:_ 42  _Пройдено:_ 27
+* [TOPIC_MODEL.md|TOPIC_MODEL.md] — > [!WARNING]
+* [VALIDATION.md|VALIDATION.md] — _Ошибок:_ 0  _Предупреждений:_ 29  _Пройдено:_ 27
 * [VERSION_DIFF.md|VERSION_DIFF.md] — _Обновлено: 2026-04-29_
 * [VOCABULARY.md|VOCABULARY.md] — _Обновлено: 2026-04-29_
 * [WORD_CLOUD.md|WORD_CLOUD.md] — 
-* [WORD_FREQ.md|WORD_FREQ.md] — _Всего слов (очищенных):_ 662,341
+* [WORD_FREQ.md|WORD_FREQ.md] — > [!WARNING]
 * [reading-paths.md|reading-paths.md] — > [!TIP]
 
 h2. Подразделы
 
-* [01-svyazi/|01-svyazi/] — Svyazi 2.0 — Архитектура и исследование
-* [02-anthropic-vacancies/|02-anthropic-vacancies/] — Вакансии Anthropic — Анализ по кластерам
+* 01-[svyazi/|01-svyazi/] — Svyazi 2.0 — Архитектура и исследование
+* 02-[anthropic-vacancies/|02-anthropic-vacancies/] — Вакансии Anthropic — Анализ по кластерам
 * [03-technology-combinations/|03-technology-combinations/] — Комбинирование технологий для новых свойств
 * [04-ai-collaborations/|04-ai-collaborations/] — Поиск AI-коллабораций
 * [05-habr-projects/|05-habr-projects/] — Уникальные проекты с Хабра
@@ -125,11 +133,36 @@ h2. Подразделы
 * [autofilled/|autofilled/] — autofilled
 * [badges/|badges/] — badges
 * [chunks/|chunks/] — chunks
+* [confluence/|confluence/] — confluence
 * [contacts/|contacts/] — contacts
 * [glossary/|glossary/] — glossary
 * [habr-unique-projects/|habr-unique-projects/] — habr-unique-projects
 * [lorenzo-agent/|lorenzo-agent/] — lorenzo-agent
+* [meta-scripting/|meta-scripting/] — meta-scripting
 * [nautilus/|nautilus/] — nautilus
+* [obsidian/|obsidian/] — obsidian
+* [processing-guide/|processing-guide/] — processing-guide
 * [svyazi-2-0/|svyazi-2-0/] — svyazi-2-0
 * [technology-combinations/|technology-combinations/] — technology-combinations
 * [templates/|templates/] — templates
+
+
+
+----
+
+h2. Кто ссылается на этот документ (226)
+* [00-intro|02-anthropic-vacancies/00-intro.md]
+* [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]
+* [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]
+* [03-portal-protocol-md|02-anthropic-vacancies/03-portal-protocol-md.md]
+* [04-abstract|02-anthropic-vacancies/04-abstract.md]
+* [05-0-status-of-this-document|02-anthropic-vacancies/05-0-status-of-this-document.md]
+* [09-4-passport-passport-md|02-anthropic-vacancies/09-4-passport-passport-md.md]
+* [102-доступ-к-данным|02-anthropic-vacancies/102-доступ-к-данным.md]
+* _...ещё 218_
+
+h2. Использование
+
+{code:language=bash}
+python scripts/improve_semantic_search.py --query "docs"
+{code}

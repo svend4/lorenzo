@@ -3,7 +3,7 @@ title: "4. Passport (`passport.md`)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 4. Passport (`passport.md`)
@@ -125,8 +125,14 @@ Portal SHOULD предоставлять команду валидации:
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (9):**
+- [[09-4-passport-passport-md]]
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 1_
 

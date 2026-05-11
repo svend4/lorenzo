@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/sonia-black.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,7 +8,7 @@ template: contact-outreach
 version: "1.0"
 author: "Sonia_Black"
 author_handle: "@Sonia_Black"
-projects: ["Svyazi", "knowledge-space"]
+projects: "Svyazi", "[knowledge-space"]
 platform: GitHub
 status: not_started
 priority: 3
@@ -17,6 +17,17 @@ last_contact: null
 tags: [контакты, команда]
 ----
 h1. Контакт: Sonia_Black / knowledge-space
+
+
+h2. Contents
+
+* [Профиль|#профиль]
+* [Статус связи|#статус-связи]
+* [Первое сообщение|#первое-сообщение]
+* [Открытые вопросы|#открытые-вопросы]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+
 
 {quote}[!TIP]{quote}
 {quote}Документ содержит практические рекомендации и лучшие практики.{quote}
@@ -29,15 +40,6 @@ _Проекты:_ Svyazi, knowledge-space
 
 ----
 
-
-
-
-h2. Contents
-
-* [Профиль|#профиль]
-* [Статус связи|#статус-связи]
-* [Первое сообщение|#первое-сообщение]
-* [Открытые вопросы|#открытые-вопросы]
 
 
 
@@ -85,19 +87,36 @@ _Создано автоматически: 2026-04-29_
 
 ----
 
-_Похожие документы:_
-* [vladspace|docs/contacts/vladspace.md] (сходство 0.80)
-* [nlaik|docs/contacts/nlaik.md] (сходство 0.79)
-* [antipozitive|docs/contacts/antipozitive.md] (сходство 0.79)
+h2. Похожие документы
+* [vladspace|vladspace.md] (сходство 0.80)
+* [nlaik|nlaik.md] (сходство 0.79)
+* [antipozitive|antipozitive.md] (сходство 0.79)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [antipozitive|docs/contacts/antipozitive.md]
-* [nlaik|docs/contacts/nlaik.md]
-* [spbmolot|docs/contacts/spbmolot.md]
-* [andrey-chuyan|docs/contacts/andrey-chuyan.md]
+h2. Смотрите также
+* [antipozitive|antipozitive.md]
+* [nlaik|nlaik.md]
+* [spbmolot|spbmolot.md]
+* [andrey-chuyan|andrey-chuyan.md]
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [knowledge-space|../05-habr-projects/knowledge/knowledge-space.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [README|README.md]
+* [anastasiyaw|anastasiyaw.md]
+* _...ещё 5_
 

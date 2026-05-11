@@ -7,10 +7,16 @@ tags:
   - knowledge
   - collaboration
   - habr-projects
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Уникальные проекты с Хабра
+
+<!-- toc-auto -->
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 <!-- summary: Каталог уникальных OSS-проектов с Хабра в слоях memory и knowledge -->
 <!-- tags: projects, habr, memory, knowledge, collaboration -->
 

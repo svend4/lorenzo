@@ -8,7 +8,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Существующий landscape collaborators (твоя working knowledge)
@@ -17,6 +17,7 @@ date: 2026-05-10
 ## Contents
 
 - [Существующий landscape collaborators (твоя working knowledge)](#существующий-landscape-collaborators-твоя-working-knowledge)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Похожие документы](#похожие-документы)
 - [Кто ссылается на этот документ (4)](#кто-ссылается-на-этот-документ-4)

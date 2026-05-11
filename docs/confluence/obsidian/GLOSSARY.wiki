@@ -1,52 +1,81 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/GLOSSARY.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
 title: "Глоссарий проектов"
 tags:
+  * glossary
+  * docs
   * general
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Глоссарий проектов
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{GLOSSARY}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{GLOSSARY}} — раздел документации проекта Lorenzo.{quote}
+
+
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 || Проект || Упоминается в файлах ||
-|| **AI Factory** || 74 ||
-|| **AIF Handoff** || 30 ||
-|| **AgentFS** || 101 ||
-|| **Auto AI Router** || 65 ||
-|| **AutoResearch** || 66 ||
-|| **Automerge** || 38 ||
-|| **CardIndex** || 139 ||
-|| **Firecrawl** || 22 ||
-|| **Graph RAG** || 47 ||
-|| **Hybrid RAG** || 51 ||
-|| **Legal RAG** || 51 ||
-|| **LiteLLM** || 49 ||
-|| **LiteParse** || 80 ||
-|| **MemNet** || 141 ||
-|| **Memory OS** || 38 ||
-|| **NGT Memory** || 95 ||
-|| **OpenWhispr** || 21 ||
-|| **RLM-Toolkit** || 11 ||
-|| **Rufler** || 86 ||
-|| **SENTINEL** || 69 ||
-|| **Self-Aware MCP** || 21 ||
-|| **Sequential** || 119 ||
-|| **Svyazi** || 315 ||
-|| **Tool Search** || 50 ||
-|| **Whisper** || 24 ||
-|| **Wikontic** || 51 ||
-|| **Yjs** || 47 ||
-|| **Yodoca** || 142 ||
-|| **Yttri** || 19 ||
-|| **agent-memory-mcp** || 39 ||
-|| **knowledge-space** || 103 ||
-|| **mclaude** || 90 ||
+|| **AI Factory** || 152 ||
+|| **AIF Handoff** || 64 ||
+|| **AgentFS** || 251 ||
+|| **Auto AI Router** || 134 ||
+|| **AutoResearch** || 130 ||
+|| **Automerge** || 79 ||
+|| **CardIndex** || 298 ||
+|| **Firecrawl** || 45 ||
+|| **Graph RAG** || 102 ||
+|| **Hybrid RAG** || 104 ||
+|| **Legal RAG** || 107 ||
+|| **LiteLLM** || 98 ||
+|| **LiteParse** || 181 ||
+|| **MemNet** || 274 ||
+|| **Memory OS** || 91 ||
+|| **NGT Memory** || 211 ||
+|| **OpenWhispr** || 41 ||
+|| **RLM-Toolkit** || 22 ||
+|| **Rufler** || 191 ||
+|| **SENTINEL** || 155 ||
+|| **Self-Aware MCP** || 43 ||
+|| **Sequential** || 238 ||
+|| **Svyazi** || 632 ||
+|| **Tool Search** || 104 ||
+|| **Whisper** || 55 ||
+|| **Wikontic** || 117 ||
+|| **Yjs** || 95 ||
+|| **Yodoca** || 325 ||
+|| **Yttri** || 40 ||
+|| **agent-memory-mcp** || 115 ||
+|| **knowledge-space** || 232 ||
+|| **mclaude** || 203 ||
+
+
+
+----
+
+_Кто ссылается на этот документ (68):_
+* [[QA]]
+* [[QA]]
+* [[03-local-first]]
+* [[04-sozialrecht-domain]]
+* [[QA]]
+* [[QA]]
+* [[QA]]
+* [[ACTION_ITEMS]]
+* _...ещё 60_
+
 
 
 
@@ -54,7 +83,14 @@ h1. Глоссарий проектов
 
 _Смотрите также:_
 * [[MINDMAP]]
-* [[GRAPH]]
 * [[NETWORK]]
-* [[CONTACT_PRIORITY]]
+* [[GRAPH]]
+* [[authors-by-name]]
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_glossary.py
+{code}

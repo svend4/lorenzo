@@ -1,117 +1,247 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/CONSISTENCY.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Согласованность терминов
 
+
+h2. Contents
+
+* [Детали по файлам|#детали-по-файлам]
+  * [knowledge space → должно быть knowledge-space|#knowledge-space-должно-быть-knowledge-space]
+  * [knowledge_space → должно быть knowledge-space|#knowledge_space-должно-быть-knowledge-space]
+  * [knowledgespace → должно быть knowledge-space|#knowledgespace-должно-быть-knowledge-space]
+  * [Card Index → должно быть CardIndex|#card-index-должно-быть-cardindex]
+  * [card index → должно быть CardIndex|#card-index-должно-быть-cardindex-1]
+  * [card-index → должно быть CardIndex|#card-index-должно-быть-cardindex-2]
+  * [AI-Factory → должно быть AI Factory|#ai-factory-должно-быть-ai-factory]
+  * [NGT-Memory → должно быть NGT Memory|#ngt-memory-должно-быть-ngt-memory]
+  * [LiteParser → должно быть LiteParse|#liteparser-должно-быть-liteparse]
+  * [Auto-AI-Router → должно быть Auto AI Router|#auto-ai-router-должно-быть-auto-ai-router]
+  * [local first → должно быть local-first|#local-first-должно-быть-local-first]
+  * [localfirst → должно быть local-first|#localfirst-должно-быть-local-first]
+  * [Local First → должно быть local-first|#local-first-должно-быть-local-first-1]
+  * [agent memory mcp → должно быть agent-memory-mcp|#agent-memory-mcp-должно-быть-agent-memory-mcp]
+  * [self-improve → должно быть self-improvement|#self-improve-должно-быть-self-improvement]
+  * [selfimprovement → должно быть self-improvement|#selfimprovement-должно-быть-self-improvement]
+  * [Svyazi-2.0 → должно быть Svyazi 2.0|#svyazi-20-должно-быть-svyazi-20]
+  * [Evidence-Envelope → должно быть Evidence Envelope|#evidence-envelope-должно-быть-evidence-envelope]
+  * [EvidenceEnvelope → должно быть Evidence Envelope|#evidenceenvelope-должно-быть-evidence-envelope]
+  * [Card-Envelope → должно быть Card Envelope|#card-envelope-должно-быть-card-envelope]
+* [Как исправить|#как-исправить]
+
+
+
+
+
+
+{quote}{{CONSISTENCY}} — раздел документации проекта Lorenzo.{quote}
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
 Анализ различных написаний одних и тех же терминов.
 
 || Термин || Канонично || Вариант || Файлов ||
-|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 3 ||
-|| **knowledge-space** || `knowledge-space` || `knowledge space` || 16 ||
-|| **knowledge-space** || `knowledge-space` || `knowledge_space` || 2 ||
-|| **AI Factory** || `AI Factory` || `AI-Factory` || 21 ||
-|| **NGT Memory** || `NGT Memory` || `NGT-Memory` || 38 ||
-|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 18 ||
-|| **local-first** || `local-first` || `localfirst` || 3 ||
-|| **self-improvement** || `self-improvement` || `self-improve` || 155 ||
-|| **Svyazi 2.0** || `Svyazi 2.0` || `Svyazi-2.0` || 4 ||
-|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 17 ||
-|| **Card Envelope** || `Card Envelope` || `Card-Envelope` || 14 ||
+|| **knowledge-space** || `knowledge-space` || `knowledge space` || 34 ||
+|| **knowledge-space** || `knowledge-space` || `knowledge_space` || 5 ||
+|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 6 ||
+|| **CardIndex** || `CardIndex` || `Card Index` || 6 ||
+|| **CardIndex** || `CardIndex` || `card index` || 6 ||
+|| **CardIndex** || `CardIndex` || `card-index` || 4 ||
+|| **AI Factory** || `AI Factory` || `AI-Factory` || 48 ||
+|| **NGT Memory** || `NGT Memory` || `NGT-Memory` || 99 ||
+|| **LiteParse** || `LiteParse` || `LiteParser` || 5 ||
+|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 40 ||
+|| **local-first** || `local-first` || `local first` || 7 ||
+|| **local-first** || `local-first` || `localfirst` || 7 ||
+|| **local-first** || `local-first` || `Local First` || 7 ||
+|| **agent-memory-mcp** || `agent-memory-mcp` || `agent memory mcp` || 7 ||
+|| **self-improvement** || `self-improvement` || `self-improve` || 313 ||
+|| **self-improvement** || `self-improvement` || `selfimprovement` || 2 ||
+|| **Svyazi 2.0** || `Svyazi 2.0` || `Svyazi-2.0` || 7 ||
+|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 47 ||
+|| **evidence envelope** || `Evidence Envelope` || `EvidenceEnvelope` || 2 ||
+|| **Card Envelope** || `Card Envelope` || `Card-Envelope` || 36 ||
+|| **Card Envelope** || `Card Envelope` || `CardEnvelope` || 21 ||
 
-_Всего несогласованных написаний: 291_
+_Всего несогласованных написаний: 709_
 
 
 h2. Детали по файлам
 
 
-h3. {{knowledgespace}} → должно быть {{knowledge-space}}
-
-* {{docs/EMPTY_SECTIONS.md}}
-* {{docs/TABLES.md}}
-* {{docs/CONSISTENCY.md}}
-
 h3. {{knowledge space}} → должно быть {{knowledge-space}}
 
-* {{docs/TABLES.md}}
-* {{docs/SITEMAP.md}}
-* {{docs/CONCEPTS.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
 * {{docs/OUTLINE.md}}
-* _...и ещё 11_
+* {{docs/CONCEPTS.md}}
+* _...и ещё 29_
 
 h3. {{knowledge_space}} → должно быть {{knowledge-space}}
 
-* {{docs/TABLES.md}}
+* {{docs/EMPTY_SECTIONS.md}}
 * {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* {{docs/05-habr-projects/knowledge/README.md}}
+
+h3. {{knowledgespace}} → должно быть {{knowledge-space}}
+
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/obsidian/EMPTY_SECTIONS.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* _...и ещё 1_
+
+h3. {{Card Index}} → должно быть {{CardIndex}}
+
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/CHANGELOG.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* _...и ещё 1_
+
+h3. {{card index}} → должно быть {{CardIndex}}
+
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/CHANGELOG.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* _...и ещё 1_
+
+h3. {{card-index}} → должно быть {{CardIndex}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/CHANGELOG.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
 
 h3. {{AI-Factory}} → должно быть {{AI Factory}}
 
-* {{docs/PARAGRAPH_QUALITY.md}}
-* {{docs/QA.md}}
-* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/COLLAB_SUGGESTIONS.md}}
 * {{docs/LANGUAGE_STATS.md}}
-* {{docs/TABLES.md}}
-* _...и ещё 16_
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/READING_TIME.md}}
+* _...и ещё 43_
 
 h3. {{NGT-Memory}} → должно быть {{NGT Memory}}
 
-* {{docs/CONTACTS.md}}
-* {{docs/FAQ.md}}
-* {{docs/PARAGRAPH_QUALITY.md}}
-* {{docs/DEPENDABOT.md}}
+* {{docs/COLLAB_SUGGESTIONS.md}}
+* {{docs/LANGUAGE_STATS.md}}
 * {{docs/EMPTY_SECTIONS.md}}
-* _...и ещё 33_
+* {{docs/CONSISTENCY.md}}
+* {{docs/READING_TIME.md}}
+* _...и ещё 94_
+
+h3. {{LiteParser}} → должно быть {{LiteParse}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/VERSION_DIFF.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* {{docs/obsidian/TABLES.md}}
 
 h3. {{Auto-AI-Router}} → должно быть {{Auto AI Router}}
 
-* {{docs/PARAGRAPH_QUALITY.md}}
-* {{docs/SPELLCHECK.md}}
 * {{docs/LANGUAGE_STATS.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/READING_TIME.md}}
 * {{docs/TABLES.md}}
-* {{docs/SITEMAP.md}}
-* _...и ещё 13_
+* _...и ещё 35_
+
+h3. {{local first}} → должно быть {{local-first}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/VERSION_DIFF.md}}
+* {{docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md}}
+* {{docs/obsidian/03-technology-combinations/03-local-first.md}}
+* _...и ещё 2_
 
 h3. {{localfirst}} → должно быть {{local-first}}
 
-* {{docs/TABLES.md}}
 * {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
 * {{docs/OUTLINE.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* {{docs/obsidian/TABLES.md}}
+* _...и ещё 2_
+
+h3. {{Local First}} → должно быть {{local-first}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/VERSION_DIFF.md}}
+* {{docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md}}
+* {{docs/obsidian/03-technology-combinations/03-local-first.md}}
+* _...и ещё 2_
+
+h3. {{agent memory mcp}} → должно быть {{agent-memory-mcp}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
+* {{docs/VERSION_DIFF.md}}
+* {{docs/svyazi-2-0/components/agent-memory-mcp.md}}
+* {{docs/obsidian/svyazi-2-0/components/agent-memory-mcp.md}}
+* _...и ещё 2_
 
 h3. {{self-improve}} → должно быть {{self-improvement}}
 
+* {{docs/COLLAB_SUGGESTIONS.md}}
 * {{docs/READING_LIST.md}}
-* {{docs/CONTACTS.md}}
-* {{docs/PARAGRAPH_QUALITY.md}}
-* {{docs/LLM_SUMMARIES.md}}
-* {{docs/SPELLCHECK.md}}
-* _...и ещё 150_
+* {{docs/CONSISTENCY.md}}
+* {{docs/PROTOTYPE_SPEC.md}}
+* {{docs/TABLES.md}}
+* _...и ещё 308_
+
+h3. {{selfimprovement}} → должно быть {{self-improvement}}
+
+* {{docs/CONSISTENCY.md}}
+* {{docs/TABLES.md}}
 
 h3. {{Svyazi-2.0}} → должно быть {{Svyazi 2.0}}
 
-* {{docs/TABLES.md}}
 * {{docs/CONSISTENCY.md}}
-* {{docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
-* {{docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
+* {{docs/TABLES.md}}
+* {{docs/obsidian/CONSISTENCY.md}}
+* {{docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
+* {{docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
+* _...и ещё 2_
 
 h3. {{Evidence-Envelope}} → должно быть {{Evidence Envelope}}
 
 * {{docs/READING_LIST.md}}
-* {{docs/PARAGRAPH_QUALITY.md}}
-* {{docs/QA.md}}
 * {{docs/LANGUAGE_STATS.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
+* {{docs/READING_TIME.md}}
+* _...и ещё 42_
+
+h3. {{EvidenceEnvelope}} → должно быть {{Evidence Envelope}}
+
+* {{docs/CONSISTENCY.md}}
 * {{docs/TABLES.md}}
-* _...и ещё 12_
 
 h3. {{Card-Envelope}} → должно быть {{Card Envelope}}
 
-* {{docs/PARAGRAPH_QUALITY.md}}
 * {{docs/LANGUAGE_STATS.md}}
-* {{docs/TABLES.md}}
-* {{docs/SITEMAP.md}}
+* {{docs/EMPTY_SECTIONS.md}}
+* {{docs/CONSISTENCY.md}}
 * {{docs/READING_TIME.md}}
-* _...и ещё 9_
+* {{docs/PROTOTYPE_SPEC.md}}
+* _...и ещё 31_
 
 h2. Как исправить
 
@@ -125,8 +255,8 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ----
 
 _Смотрите также:_
-* [MISSING|docs/MISSING.md]
-* [TAGS|docs/TAGS.md]
-* [STATS|docs/STATS.md]
-* [VERSION_DIFF|docs/VERSION_DIFF.md]
+* [MISSING|MISSING.md]
+* [TAGS|TAGS.md]
+* [STATS|STATS.md]
+* [STALENESS|STALENESS.md]
 

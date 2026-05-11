@@ -4,7 +4,7 @@ tags:
   - контакты
   - команда
   - contacts
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Контакт: tagir_analyzes / Legal RAG
@@ -101,9 +101,14 @@ _Документ индексирован в поисковой базе реп
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [README](README.md)
+**Кто ссылается на этот документ (14):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[kksudo]]
+- [[README]]
+- [[cutcode]]
+- _...ещё 6_
 

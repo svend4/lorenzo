@@ -1,21 +1,17 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/179-10-open-questions.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. 10. Open Questions
 
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Open Questions(10-open-questions) - 10.1.{quote}
-{quote}✅ _Результат:_ What are appropriate trust hierarchies between principal-owned and platform-provided agents?{quote}
-{quote}🏷️ _Ключевые слова:_ {{questions}}, {{agents}}, {{anthropic}}, {{vacancies}}, {{agent}}, {{closing}}, {{economic}}, {{legal}}{quote}
->
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
-h2. Contents
+
+h2. Содержание
 
 * [10. Open Questions|#10-open-questions]
   * [10.1. Technical Questions|#101-technical-questions]
@@ -23,6 +19,8 @@ h2. Contents
   * [10.3. Legal Questions|#103-legal-questions]
   * [10.4. Social Questions|#104-social-questions]
   * [10.5. Philosophical Questions|#105-philosophical-questions]
+
+----
 
 
 
@@ -121,19 +119,41 @@ of whether ethical frameworks keep pace.
 
 ----
 
-_Похожие документы:_
-* [177-8-risks-and-mitigations|docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md] (сходство 0.14)
-* [264-11-open-questions|docs/02-anthropic-vacancies/264-11-open-questions.md] (сходство 0.13)
-* [181-12-closing|docs/02-anthropic-vacancies/181-12-closing.md] (сходство 0.12)
+h2. Похожие документы
+* [177-8-risks-and-mitigations|177-8-risks-and-mitigations.md] (сходство 0.14)
+* [264-11-open-questions|264-11-open-questions.md] (сходство 0.13)
+* [181-12-closing|181-12-closing.md] (сходство 0.12)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [177-8-risks-and-mitigations|docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md]
-* [181-12-closing|docs/02-anthropic-vacancies/181-12-closing.md]
-* [264-11-open-questions|docs/02-anthropic-vacancies/264-11-open-questions.md]
-* [223-12-closing|docs/02-anthropic-vacancies/223-12-closing.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "10 Open Questions"
+{code}
+
+h2. Смотрите также
+* [177-8-risks-and-mitigations|177-8-risks-and-mitigations.md]
+* [181-12-closing|181-12-closing.md]
+* [264-11-open-questions|264-11-open-questions.md]
+* [223-12-closing|223-12-closing.md]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [170-1-the-cinderella-syndrome-why-quality-stays-invisi|170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]
+* [172-3-what-makes-a-representative-agent|172-3-what-makes-a-representative-agent.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [181-12-closing|181-12-closing.md]
+* [186-appendix-c-sample-use-cases-in-detail|186-appendix-c-sample-use-cases-in-detail.md]
+* [223-12-closing|223-12-closing.md]
+* [256-3-what-makes-a-composite-skills-agent|256-3-what-makes-a-composite-skills-agent.md]
+* [258-5-configuration-how-principals-build-their-ensembl|258-5-configuration-how-principals-build-their-ensembl.md]
+* _...ещё 3_
 

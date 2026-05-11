@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Развёрнутый анализ «внуковой» комбинации
@@ -22,7 +22,7 @@ h1. Развёрнутый анализ «внуковой» комбинаци�
 
 
 {quote}Я проверил две ключевые ссылки и могу подтвердить, что:{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, [knowledge-space|../docs/01-svyazi/03-component-catalog.md], mclaude, AI Factory, Rufler, LiteParse
+_Проекты:_ Svyazi, CardIndex, AgentFS, [knowledge-space|../01-svyazi/03-component-catalog.md], mclaude, AI Factory, Rufler, LiteParse
 
 ----
 
@@ -37,7 +37,7 @@ h2. Содержание
   * [Минусы и риски этой архитектуры|#минусы-и-риски-этой-архитектуры]
   * [Моё honest mnение|#моё-honest-mnение]
   * [Мои рекомендации|#мои-рекомендации]
-  * [Strategic implication для Lorenzo specification|#strategic-implication-для-[lorenzo](../docs/02-anthropic-vacancies/249-composite-skills-agent-md.md]-specification)
+  * [Strategic implication для Lorenzo specification|#strategic-implication-для-lorenzo-specification]
   * [Final мнение|#final-мнение]
   * [Конкретные next steps|#конкретные-next-steps]
   * [Вопросы к вам|#вопросы-к-вам]
@@ -110,7 +110,7 @@ h4. Плюс 4: Aligns с Lorenzo mission
 Это not just adjacent — это the implementation of Lorenzo concept.
 h4. Плюс 5: Existing collaborators поддерживают часть стека
 Из наших Tier 1:
-* Анастасия Бутова — mclaude + [knowledge-space|../docs/01-svyazi/03-component-catalog.md] (2 узла из 6)
+* Анастасия Бутова — mclaude + [knowledge-space|../01-svyazi/03-component-catalog.md] (2 узла из 6)
 * Чуян (Свяжи) — extraction pattern (узел 2)
 * Виталий (Graph cognitive memory) — мог быть kernel для Knowledge OS (узел 3)
 * kagvi13 (HMP) — federation layer (cross-cutting)
@@ -150,7 +150,7 @@ Components имеют разные licenses:
 * mclaude — MIT
 * Rufler — не указано (probably MIT)
 * ruflo — MIT
-* [knowledge-space|../docs/01-svyazi/03-component-catalog.md] — MIT
+* [knowledge-space|../01-svyazi/03-component-catalog.md] — MIT
 * Свяжи — closed
 * HMP — нужно проверить
 Issue : Свяжи closed-source. Использование Свяжи pattern requires either:
@@ -167,7 +167,7 @@ h4. Минус 4: «Машина технологической селекции
 Risk : Premature claims of capability, then reality disappoints.
 h4. Минус 5: Competing platforms emerging
 Каждый из эти компоненты — part of broader trend :
-* Многие multi-agent frameworks (Eigent, OpenHands, MetaGPT, [AutoGen|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md])
+* Многие multi-agent frameworks (Eigent, OpenHands, MetaGPT, [AutoGen|01-интегральный-анализ-профиля-svend4.md])
 * Многие knowledge bases (Mem0, Letta, Graphiti, Letta)
 * Многие RAG systems (LangChain, LlamaIndex, Haystack)
 * Многие security layers (LLM Guard, Garak, Lakera)
@@ -180,7 +180,7 @@ Habr — mostly Russian-speaking community . Будут пропущены:
 * Chinese AI scene
 * ResearchGate, Medium, Substack
 Implication : «Habr Scout» — это только русскоязычный layer . Real Lorenzo нужен multi-source scout .
-Mitigation : Extend Scout architecture к ArXiv, [GitHub|../docs/01-svyazi/03-component-catalog.md], Reddit, Hacker News. Это adds complexity but maintains comprehensiveness.
+Mitigation : Extend Scout architecture к ArXiv, [GitHub|../01-svyazi/03-component-catalog.md], Reddit, Hacker News. Это adds complexity but maintains comprehensiveness.
 h4. Минус 7: Каждый узел has known limitations
 * Habr Scout : Habr articles often hype или incomplete; need quality filter
 * Свяжи extraction : Closed-source, может быть not reproducible exactly
@@ -194,7 +194,7 @@ h4. Минус 8: Бюджет of complexity
 * 6+ services running concurrently
 * Multiple databases (vector, graph, SQL)
 * Multiple language runtimes
-* [DevOps|../docs/05-habr-projects/memory/memnet.md] complexity
+* [DevOps|../05-habr-projects/memory/memnet.md] complexity
 * Monitoring complexity
 Operating cost estimate: €500-2000/month для full stack vs €100-500 для simpler approach.
 h4. Минус 9: «Real first project» tension
@@ -292,7 +292,7 @@ h4. Рекомендация 8:Verifyоставшиеся sources
 * AgentFS (1020604) — узел 3
 * Memory OS (1021948) — узел 3
 * agent-pool (1014502) — узел 4
-* [LiteParse|../docs/01-svyazi/01-executive-summary.md] research-docs (1021098) — узел 5
+* [LiteParse|../01-svyazi/01-executive-summary.md] research-docs (1021098) — узел 5
 * Hybrid RAG (1005776) — узел 5
 * Graph RAG 96.7% (1003064) — узел 5
 * SENTINEL (996896) — узел 6
@@ -379,7 +379,7 @@ h3. Ключевые новые компоненты, которых не был
 3. AI Factory + AIF Handoff (lee-to / Cutcode) — MIT
 * Spec-driven multi-agent framework
 * Self-learning patches
-* [WebSocket|../docs/01-svyazi/03-component-catalog.md] Kanban
+* [WebSocket|../01-svyazi/03-component-catalog.md] Kanban
 * v2.x, активный OSS
 * Это готовый orchestrator для build/moderation contours
 4. Self-Aware MCP (akazant) — MIT
@@ -400,7 +400,7 @@ h3. Ключевые новые компоненты, которых не был
 * CRDT sync layer
 * Local-first multi-device
 * Battle-tested, активный OSS
-8. Voice stack — Handy, [OpenWhispr|../docs/01-svyazi/03-component-catalog.md], GigaAM, Yttri
+8. Voice stack — Handy, [OpenWhispr|../01-svyazi/03-component-catalog.md], GigaAM, Yttri
 * Local speech-to-text → LLM workflow
 * Privacy-by-design input layer
 h3. Критический анализ — что в этом документе сильно
@@ -472,7 +472,7 @@ h4. Слабость 3: Нет comparison с western stack
 Документ — это Habr-centric view . Не upомянуто:
 * LangChain / LangGraph (massive ecosystem)
 * LlamaIndex (overlap с research-docs)
-* [AutoGen|../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md] (Microsoft multi-agent)
+* [AutoGen|01-интегральный-анализ-профиля-svend4.md] (Microsoft multi-agent)
 * CrewAI (multi-agent framework)
 * Pydantic AI
 * Letta (formerly MemGPT)
@@ -525,7 +525,7 @@ Mission Layer должен address:
 * Long-term sustainability model
 h4. Рекомендация 3: Adopt MVP recommendation
 Документ предлагает specific MVP :
-1. Svyazi-style ingest + [CardIndex|../docs/01-svyazi/01-executive-summary.md]
+1. Svyazi-style ingest + [CardIndex|../01-svyazi/01-executive-summary.md]
 2. AgentFS-style file kernel
 3. NGT Memory OR Yodoca for memory
 4. research-docs/LiteParse for evidence
@@ -542,7 +542,7 @@ h4. Рекомендация 5: Verify ключевые claims
 * AgentFS (MIT, v0.1.5) — critical для kernel
 * AI Factory (MIT, v2.x) — critical для orchestration
 * mclaude (MIT) — already verified ✓
-* [knowledge-space|../docs/01-svyazi/03-component-catalog.md] (MIT) — already verified ✓
+* [knowledge-space|../01-svyazi/03-component-catalog.md] (MIT) — already verified ✓
 Я могу verify эти в following turns.
 h4. Рекомендация 6: Build на этой foundation
 Update Lorenzo системный промпт с reference к этой architecture. Specifically:
@@ -554,7 +554,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md) (сходство 0.19)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.19)
 - [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.16)
@@ -564,7 +564,7 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [364-final-note-ты-experiment](364-final-note-ты-experiment.md)
@@ -592,3 +592,17 @@ markdown
 - [Appendix C: Quick-Start Architecture for SGB Advocate Colleague](228-appendix-c-quick-start-architecture-for-sgb-advoca.md) _17%_
 - [Final note: Ты — experiment](364-final-note-ты-experiment.md) _17%_
 - [Технический stack (Svyazi 2.0 foundation)](366-технический-stack-svyazi-2-0-foundation.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [215-4-architecture-of-professional-colleague-agents](215-4-architecture-of-professional-colleague-agents.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [364-final-note-ты-experiment](364-final-note-ты-experiment.md)
+- [366-технический-stack-svyazi-2-0-foundation](366-технический-stack-svyazi-2-0-foundation.md)
+- [README](README.md)
+

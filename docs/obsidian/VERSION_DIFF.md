@@ -2,667 +2,1544 @@
 title: "Diff базы знаний между версиями"
 tags:
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Diff базы знаний между версиями
 
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [✅ Новые файлы (7)](#новые-файлы-7)
-- [📝 Изменённые файлы (565)](#изменённые-файлы-565)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 ## Contents
 
-- [✅ Новые файлы (7)](#новые-файлы-7)
-- [📝 Изменённые файлы (565)](#изменённые-файлы-565)
+- [✅ Новые файлы (13)](#новые-файлы-13)
+- [📝 Изменённые файлы (1418)](#изменённые-файлы-1418)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
+- [Смотрите также](#смотрите-также-1)
 
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `VERSION_DIFF` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: version-diff, docs -->
+
 
 <!-- summary -->
-> **HEAD~10** (`40e69e7`) → **HEAD** (`696550f`)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+> `VERSION_DIFF` — раздел документации проекта Lorenzo.
 
 
+_Обновлено: 2026-05-11_
+
+**HEAD~10** (`82d3705`) → **HEAD** (`defa92c`)
+
+Изменено файлов: **1431** | Добавлено слов: **+310525** | Удалено слов: **-101460**
 
 
-_Обновлено: 2026-05-10_
+## ✅ Новые файлы (13)
 
-**HEAD~10** (`40e69e7`) → **HEAD** (`696550f`)
+- `docs/LINK_PREVIEW.md` (+1497 слов)
+- `docs/svyazi-2-0/QA.md` (+491 слов)
+- `docs/ai-collaborations/QA.md` (+486 слов)
+- `docs/letters/anastasiyaw.md` (+345 слов)
+- `docs/letters/vitalysemenov.md` (+340 слов)
+- `docs/letters/kksudo.md` (+332 слов)
+- `docs/letters/spbmolot.md` (+322 слов)
+- `docs/letters/zodigancode.md` (+311 слов)
+- `docs/letters/vitalyoborin.md` (+305 слов)
+- `docs/letters/nlaik.md` (+303 слов)
+- `docs/letters/README.md` (+302 слов)
+- `docs/letters/antipozitive.md` (+274 слов)
+- `docs/contacts/QA.md` (+150 слов)
 
-Изменено файлов: **572** | Добавлено слов: **+130614** | Удалено слов: **-6842**
-
-
-## ✅ Новые файлы (7)
-
-- `docs/PROTOTYPE_SPEC.md` (+806 слов)
-- `docs/meta-scripting/02-architecture.md` (+277 слов)
-- `docs/meta-scripting/05-synthesis.md` (+272 слов)
-- `docs/meta-scripting/04-enrichment.md` (+240 слов)
-- `docs/meta-scripting/01-concept.md` (+209 слов)
-- `docs/meta-scripting/03-catalog.md` (+112 слов)
-- `docs/meta-scripting/README.md` (+68 слов)
-
-## 📝 Изменённые файлы (565)
+## 📝 Изменённые файлы (1418)
 
 | Файл | Δ слов | Добавленные темы | Удалённые темы |
 |------|--------|------------------|----------------|
-| `docs/obsidian/PARAGRAPH_QUALITY.md` | +17102 | Содержание | — |
-| `docs/obsidian/OUTLINE.md` | +15475 | — | — |
-| `docs/HEADING_AUDIT.md` | +11771 | Содержание | — |
-| `docs/PARAGRAPH_QUALITY.md` | +10945 | Содержание | — |
-| `docs/OUTLINE.md` | +9577 | — | — |
-| `docs/QUESTIONS.md` | -5050 | Mvp/сроки (42), Архитектура (47), Интеграция (31) +5 | `00-intro.md` (5), `00-intro.md` (6), `00-question-innovations-transitions.md` (12) +104 |
-| `docs/obsidian/QUESTIONS.md` | +3874 | Содержание | — |
-| `docs/CONCEPTS.md` | +3315 | — | — |
-| `docs/TABLES.md` | +3259 | Содержание | — |
-| `docs/EMPTY_SECTIONS.md` | +3224 | Содержание | — |
-| `docs/obsidian/TABLES.md` | +2454 | Содержание | — |
-| `docs/PRIORITIES.md` | +2379 | 02-reanalysis, 03-integral-final, agent-changes-reality +60 | — |
-| `docs/TIMELINE.md` | +2082 | Версия (1732), Год (247), Длительность (582) +6 | 2020 (3 упоминаний), 2021 (3 упоминаний), 2022 (12 упоминаний) +8 |
-| `docs/QA.md` | +1565 | Содержание | — |
-| `docs/obsidian/QA.md` | +1441 | Содержание | — |
-| `docs/processing-guide/PROCESSING_GUIDE.md` | +1285 | — | — |
-| `docs/DUPLICATES.md` | -1113 | 100% — `docs/COST.md` vs `docs/obsidian/COST.md`, 100% — `docs/GITHUB_ISSUES.md` vs `docs/obsidian/GITHUB_ISSUES.md`, 100% — `docs/KPI_HISTORY.md` vs `docs/obsidian/KPI_HISTORY.md` +20 | 100% — `docs/COVERAGE.md` vs `docs/obsidian/COVERAGE.md`, 100% — `docs/TECH_RADAR.md` vs `docs/obsidian/TECH_RADAR.md`, 100% — `docs/obsidian/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` vs `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` +19 |
-| `docs/ACTION_ITEMS.md` | +950 | ⚠️ Риски (961), ✅ Решения и рекомендации (489), ➡️ Следующие шаги (272) +3 | ⚠️ Риски (680), ✅ Решения и рекомендации (351), ➡️ Следующие шаги (197) +3 |
-| `docs/obsidian/DUPLICATES.md` | +946 | Содержание | — |
-| `docs/CODE_BLOCKS.md` | +850 | Содержание | — |
-| `docs/obsidian/CODE_BLOCKS.md` | +821 | Содержание | — |
-| `docs/obsidian/FAQ.md` | +380 | Содержание | — |
-| `docs/FAQ.md` | +378 | Содержание | — |
-| `docs/obsidian/PRIORITIES.md` | +354 | Содержание | — |
-| `docs/GITHUB_ISSUES.md` | +328 | Содержание | — |
-| `docs/WORD_FREQ.md` | +328 | 01-svyazi (9,857 слов), 02-anthropic-vacancies (211,049 слов), 03-technology-combinations (2,505 слов) +18 | 01-svyazi (10,711 слов), 02-anthropic-vacancies (194,969 слов), 03-technology-combinations (2,091 слов) +8 |
-| `docs/obsidian/02-anthropic-vacancies/QA.md` | +327 | Содержание | — |
-| `docs/obsidian/GITHUB_ISSUES.md` | +317 | Содержание | — |
-| `docs/02-anthropic-vacancies/QA.md` | +315 | Содержание | — |
-| `docs/obsidian/README.md` | -311 | obsidian | docs |
-| `docs/BACKLINKS.md` | +310 | — | Содержание |
-| `docs/processing-guide/05-analysis.md` | +272 | Содержание | — |
-| `docs/CONTRADICTIONS.md` | +266 | Содержание | — |
-| `docs/04-ai-collaborations/README.md` | +265 | — | — |
-| `docs/01-svyazi/README.md` | +237 | — | — |
-| `docs/METHODOLOGY.md` | +236 | Содержание, 🔴 КРАСНЫЕ — модифицируют входные файлы in-place (6 скриптов), 🟡 ЖЁЛТЫЕ — пишут в выделенный файл-отчёт (~141 скрипт) +1 | Правило: сначала dry-run, потом apply, 🔴 КРАСНЫЕ — перезаписывают секции целиком (только по явной задаче), 🟡 ЖЁЛТЫЕ — изменяют файлы в docs/ (сначала --dry-run) +1 |
-| `docs/DECISIONS.md` | +231 | Mvp (10), Архитектура (61), Безопасность (3) +6 | Mvp (11), Архитектура (44), Безопасность (2) +6 |
-| `docs/processing-guide/10-future.md` | +231 | Содержание | — |
-| `docs/README.md` | +227 | — | — |
-| `docs/TAGS.md` | -210 | #anthropic (108 файлов), #architecture (113 файлов), #collaboration (123 файлов) +9 | #anthropic (55 файлов), #architecture (48 файлов), #architecture (57 файлов) +13 |
-| `docs/processing-guide/06-search.md` | +204 | Содержание | — |
-| `docs/obsidian/CONTRADICTIONS.md` | +198 | Содержание | — |
-| `docs/SCRIPTS_CATALOG.md` | +183 | `improve_audit_db.py` _(группа: meta)_, `improve_changelog_auto.py` _(группа: analytics)_, `improve_component_matrix.py` _(группа: meta)_ +31 | `improve_audit_db.py` _(группа: без группы)_, `improve_changelog_auto.py` _(группа: без группы)_, `improve_component_matrix.py` _(группа: без группы)_ +25 |
-| `docs/processing-guide/07-llm.md` | +173 | Содержание | — |
-| `docs/KPI.md` | +159 | Версия (636), Время (443), Количество (428) +5 | Версия (442), Время (318), Количество (321) +5 |
-| `docs/processing-guide/04-structuring.md` | +152 | — | — |
-| `docs/processing-guide/08-export.md` | +152 | Содержание | — |
-| `docs/processing-guide/09-automation.md` | +150 | Содержание | — |
-| `docs/processing-guide/03-chunking.md` | +149 | Содержание | — |
-| `docs/02-anthropic-vacancies/319-acknowledgments.md` | +145 | Содержание | — |
-| `docs/02-anthropic-vacancies/275-why-this-document-exists.md` | +143 | Содержание | — |
-| `docs/CONTENT_GAPS.md` | +141 | Содержание | — |
-| `docs/02-anthropic-vacancies/307-abstract.md` | +135 | Содержание | — |
-| `docs/02-anthropic-vacancies/286-acknowledgments.md` | +133 | — | — |
-| `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | +132 | Содержание | — |
-| `docs/NAMED_ENTITIES.md` | +132 | Содержание | — |
-| `docs/CITATION_INDEX.md` | +129 | Содержание | — |
-| `docs/02-anthropic-vacancies/210-abstract.md` | +125 | Содержание | — |
-| `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` | +125 | — | — |
-| `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` | +125 | — | — |
-| `docs/02-anthropic-vacancies/279-existing-approximations.md` | +125 | — | — |
-| `docs/ABBREVIATIONS.md` | +125 | — | — |
-| `docs/02-anthropic-vacancies/153-executive-summary.md` | +123 | Содержание | — |
-| `docs/02-anthropic-vacancies/165-closing.md` | +123 | — | — |
-| `docs/02-anthropic-vacancies/168-abstract.md` | +123 | Содержание | — |
-| `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | +123 | — | — |
-| `docs/02-anthropic-vacancies/182-acknowledgments.md` | +123 | — | — |
-| `docs/02-anthropic-vacancies/281-the-recursive-insight.md` | +123 | Содержание | — |
-| `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` | +123 | — | — |
-| `docs/obsidian/WORD_FREQ.md` | +122 | Содержание | — |
-| `docs/02-anthropic-vacancies/218-7-application-domains.md` | +121 | — | — |
-| `docs/02-anthropic-vacancies/268-references.md` | +121 | — | — |
-| `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | +121 | — | — |
-| `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` | +121 | — | — |
-| `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | +121 | — | — |
-| `docs/02-anthropic-vacancies/287-references.md` | +121 | — | — |
-| `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` | +119 | — | — |
-| `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | +119 | — | — |
-| `docs/02-anthropic-vacancies/146-acknowledgments.md` | +117 | — | — |
-| `docs/02-anthropic-vacancies/211-table-of-contents.md` | +117 | — | — |
-| `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` | +117 | — | — |
-| `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | +117 | — | — |
-| `docs/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` | +117 | — | — |
-| `docs/obsidian/NAMED_ENTITIES.md` | +117 | Содержание | — |
-| `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` | +116 | — | — |
-| `docs/02-anthropic-vacancies/13-angle-perspective.md` | +115 | — | — |
-| `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | +115 | — | — |
-| `docs/02-anthropic-vacancies/264-11-open-questions.md` | +115 | — | — |
-| `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` | +115 | — | — |
-| `docs/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | +114 | — | — |
-| `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | +113 | — | — |
-| `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` | +113 | — | — |
-| `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` | +113 | — | — |
-| `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` | +113 | — | — |
-| `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` | +113 | — | — |
-| `docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md` | +113 | — | — |
-| `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | +112 | — | — |
-| `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/221-10-open-questions.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/224-acknowledgments.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` | +111 | — | — |
-| `docs/02-anthropic-vacancies/12-content-overview.md` | +109 | — | — |
-| `docs/02-anthropic-vacancies/137-table-of-contents.md` | +109 | — | — |
-| `docs/02-anthropic-vacancies/179-10-open-questions.md` | +109 | — | — |
-| `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | +109 | — | — |
-| `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` | +109 | — | — |
-| `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | +107 | — | — |
-| `docs/02-anthropic-vacancies/183-references.md` | +107 | — | — |
-| `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` | +107 | — | — |
-| `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | +107 | — | — |
-| `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` | +107 | — | — |
-| `docs/02-anthropic-vacancies/52-author-contact.md` | +107 | — | — |
-| `docs/DEPENDENCY_MAP.md` | +107 | Скрипты без карты зависимостей | Связанные документы, Упоминается в |
-| `docs/processing-guide/02-extraction.md` | +107 | Содержание | — |
-| `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | +105 | — | — |
-| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | +105 | — | — |
-| `docs/02-anthropic-vacancies/252-abstract.md` | +105 | Содержание | — |
-| `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` | +105 | — | — |
-| `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` | +105 | — | — |
-| `docs/02-anthropic-vacancies/225-references.md` | +104 | — | — |
-| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | +104 | — | — |
-| `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` | +104 | — | — |
-| `docs/02-anthropic-vacancies/136-abstract.md` | +103 | — | — |
-| `docs/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | +103 | — | — |
-| `docs/02-anthropic-vacancies/223-12-closing.md` | +103 | — | — |
-| `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` | +103 | — | — |
-| `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` | +103 | — | — |
-| `docs/02-anthropic-vacancies/31-content-overview.md` | +103 | — | — |
-| `docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` | +102 | — | — |
-| `docs/02-anthropic-vacancies/144-7-open-questions.md` | +101 | — | — |
-| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | +101 | — | — |
-| `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` | +101 | — | — |
-| `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | +99 | — | — |
-| `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` | +99 | — | — |
-| `docs/02-anthropic-vacancies/155-1-problem-statement.md` | +99 | — | — |
-| `docs/02-anthropic-vacancies/174-5-architectural-specification.md` | +99 | — | — |
-| `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | +97 | — | — |
-| `docs/02-anthropic-vacancies/181-12-closing.md` | +97 | — | — |
-| `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` | +97 | — | — |
-| `docs/02-anthropic-vacancies/253-table-of-contents.md` | +97 | — | — |
-| `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` | +97 | — | — |
-| `docs/obsidian/CONCEPTS.md` | +97 | Содержание | — |
-| `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/169-table-of-contents.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/285-closing.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/42-author-contact.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/65-readme-md.md` | +95 | — | — |
-| `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | +93 | — | — |
-| `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | +93 | — | — |
-| `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | +93 | — | — |
-| `docs/02-anthropic-vacancies/267-acknowledgments.md` | +93 | — | — |
-| `docs/CONTACTS.md` | +93 | Содержание | — |
-| `docs/02-anthropic-vacancies/04-abstract.md` | +91 | — | — |
-| `docs/02-anthropic-vacancies/164-10-appendices.md` | +91 | — | — |
-| `docs/02-anthropic-vacancies/308-table-of-contents.md` | +91 | — | — |
-| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | +91 | — | — |
-| `docs/obsidian/SITEMAP.md` | +91 | Содержание | — |
-| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | +89 | — | — |
-| `docs/02-anthropic-vacancies/147-references.md` | +89 | — | — |
-| `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | +89 | — | — |
-| `docs/02-anthropic-vacancies/README.md` | +89 | — | — |
-| `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` | +88 | — | — |
-| `docs/obsidian/CITATION_INDEX.md` | +88 | Содержание | — |
-| `docs/02-anthropic-vacancies/154-table-of-contents.md` | +87 | — | — |
-| `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | +87 | — | — |
-| `docs/02-anthropic-vacancies/92-17-versioning-policy.md` | +87 | — | — |
-| `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` | +86 | — | — |
-| `docs/02-anthropic-vacancies/175-6-ethical-framework.md` | +86 | — | — |
-| `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` | +86 | — | — |
-| `docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md` | +86 | — | — |
-| `docs/02-anthropic-vacancies/123-portal-mcp-py.md` | +85 | — | — |
-| `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | +85 | — | — |
-| `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` | +85 | — | — |
-| `docs/02-anthropic-vacancies/24-12-versioning-policy.md` | +85 | — | — |
-| `docs/02-anthropic-vacancies/320-references.md` | +85 | — | — |
-| `docs/02-anthropic-vacancies/93-18-reference-implementation.md` | +85 | — | — |
-| `docs/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | +85 | — | — |
-| `docs/05-habr-projects/memory/README.md` | +85 | — | — |
-| `docs/KEYWORD_INDEX.md` | +84 | — | — |
-| `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | +83 | — | — |
-| `docs/02-anthropic-vacancies/145-8-call-to-action.md` | +83 | — | — |
-| `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | +83 | — | — |
-| `docs/02-anthropic-vacancies/48-content-overview.md` | +83 | — | — |
-| `docs/02-anthropic-vacancies/62-author-contact.md` | +83 | — | — |
-| `docs/02-anthropic-vacancies/69-section.md` | +83 | — | — |
-| `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` | +82 | — | — |
-| `docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md` | +82 | — | — |
-| `docs/SITEMAP.md` | +82 | Содержание | — |
-| `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` | +81 | — | — |
-| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | +81 | — | — |
-| `docs/02-anthropic-vacancies/68-about.md` | +81 | — | — |
-| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | +80 | — | — |
-| `docs/01-svyazi/QA.md` | +79 | — | — |
-| `docs/02-anthropic-vacancies/105-review-methodology-md.md` | +79 | — | — |
-| `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` | +79 | — | — |
-| `docs/02-anthropic-vacancies/22-10-queryresult-structure.md` | +79 | — | — |
-| `docs/02-anthropic-vacancies/266-13-closing.md` | +79 | — | — |
-| `docs/02-anthropic-vacancies/43-history.md` | +79 | — | — |
-| `docs/CLUSTERS.md` | +79 | — | — |
-| `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` | +78 | — | — |
-| `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` | +78 | — | — |
-| `docs/02-anthropic-vacancies/60-bridges.md` | +78 | — | — |
-| `docs/02-anthropic-vacancies/36-essence.md` | +77 | — | — |
-| `docs/02-anthropic-vacancies/41-compatibility-level.md` | +77 | — | — |
-| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | +77 | — | — |
-| `docs/02-anthropic-vacancies/46-essence.md` | +77 | — | — |
-| `docs/02-anthropic-vacancies/63-history.md` | +77 | — | — |
-| `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` | +77 | — | — |
-| `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | +77 | — | — |
-| `docs/TASKS_INDEX.md` | +76 | Содержание | — |
-| `docs/02-anthropic-vacancies/35-passports-info1-md.md` | +75 | — | — |
-| `docs/02-anthropic-vacancies/37-native-format.md` | +75 | — | — |
-| `docs/02-anthropic-vacancies/156-2-target-populations.md` | +74 | — | — |
-| `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | +74 | — | — |
-| `docs/02-anthropic-vacancies/27-15-glossary-of-examples.md` | +74 | — | — |
-| `docs/02-anthropic-vacancies/53-history.md` | +74 | — | — |
-| `docs/02-anthropic-vacancies/86-11-relevance-ranking.md` | +74 | — | — |
-| `docs/02-anthropic-vacancies/49-angle-perspective.md` | +73 | — | — |
-| `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | +70 | — | — |
-| `docs/02-anthropic-vacancies/47-native-format.md` | +70 | — | — |
-| `docs/02-anthropic-vacancies/82-7-portalentry-structure.md` | +70 | — | — |
-| `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` | +68 | — | — |
-| `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` | +68 | — | — |
-| `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | +68 | — | — |
-| `docs/02-anthropic-vacancies/40-bridges.md` | +68 | — | — |
-| `docs/02-anthropic-vacancies/74-abstract.md` | +68 | — | — |
-| `docs/templates/README.md` | +68 | templates, Подразделы, Содержание | Доступные шаблоны, Затем откройте и заполните поля в [квадратных скобках], Использование +2 |
-| `docs/05-habr-projects/README.md` | +67 | — | — |
-| `docs/REPORT.md` | +67 | — | — |
-| `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` | +66 | — | — |
-| `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` | +66 | — | — |
-| `docs/02-anthropic-vacancies/59-angle-perspective.md` | +66 | — | — |
-| `docs/READING_TIME.md` | +65 | Содержание | — |
-| `docs/02-anthropic-vacancies/39-angle-perspective.md` | +64 | — | — |
-| `docs/02-anthropic-vacancies/81-6-adapter-interface.md` | +64 | — | — |
-| `docs/obsidian/autofilled/components/.md` | +63 | — | — |
-| `docs/02-anthropic-vacancies/06-1-introduction.md` | +62 | — | — |
-| `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` | +62 | — | — |
-| `docs/02-anthropic-vacancies/83-8-q6-space-normative.md` | +62 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/18-6-adapter-interface.md` | +62 | Содержание | — |
-| `docs/02-anthropic-vacancies/51-compatibility-level.md` | +60 | — | — |
-| `docs/02-anthropic-vacancies/61-compatibility-level.md` | +60 | — | — |
-| `docs/02-anthropic-vacancies/77-2-terminology.md` | +60 | — | — |
-| `docs/WORD_CLOUD.md` | +60 | — | — |
-| `docs/02-anthropic-vacancies/56-essence.md` | +58 | — | — |
-| `docs/VERSION_DIFF.md` | +58 | — | — |
-| `docs/SOURCE_MAP.md` | +57 | Содержание | — |
-| `docs/obsidian/REPORT.md` | +57 | — | — |
-| `docs/02-anthropic-vacancies/19-7-portalentry-structure.md` | +56 | — | — |
-| `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | +56 | — | — |
-| `docs/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` | +56 | — | — |
-| `docs/02-anthropic-vacancies/45-passports-pro2-md.md` | +56 | — | — |
-| `docs/02-anthropic-vacancies/55-passports-meta-md.md` | +56 | — | — |
-| `docs/NETWORK.md` | +55 | — | — |
-| `docs/02-anthropic-vacancies/106-tl-dr.md` | +54 | — | — |
-| `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` | +54 | — | — |
-| `docs/02-anthropic-vacancies/50-bridges.md` | +54 | — | — |
-| `docs/autofilled/README.md` | +54 | — | — |
-| `docs/MISSING.md` | +53 | — | — |
-| `docs/READING_ORDER.md` | +53 | Содержание | — |
-| `docs/autofilled/components/README.md` | +53 | — | — |
-| `docs/02-anthropic-vacancies/07-2-terminology.md` | +52 | — | — |
-| `docs/02-anthropic-vacancies/57-native-format.md` | +52 | — | — |
-| `docs/COST.md` | +52 | Содержание | — |
-| `docs/AUTOFILLED.md` | +51 | — | — |
-| `docs/GRAPH.md` | +51 | — | — |
-| `docs/KNOWLEDGE_MAP.md` | +51 | Содержание | — |
-| `docs/SEE_ALSO.md` | +51 | — | — |
-| `docs/STATS.md` | +51 | Содержание | — |
-| `docs/autofilled/components/.md` | +51 | — | — |
-| `docs/autofilled/components/svend4.md` | +51 | — | — |
-| `docs/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` | +50 | — | — |
-| `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` | +50 | — | — |
-| `docs/autofilled/components/cowork.md` | +50 | — | — |
-| `docs/autofilled/components/ingit.md` | +50 | — | — |
-| `docs/autofilled/components/kksudo.md` | +50 | — | — |
-| `docs/autofilled/components/lorenzo.md` | +50 | — | — |
-| `docs/autofilled/components/nautilus.md` | +50 | — | — |
-| `docs/autofilled/components/sgb.md` | +50 | — | — |
-| `docs/autofilled/components/spbmolot.md` | +50 | — | — |
-| `docs/autofilled/components/svyazi.md` | +50 | — | — |
-| `docs/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | +48 | — | — |
-| `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` | +48 | — | — |
-| `docs/04-ai-collaborations/QA.md` | +48 | — | — |
-| `docs/VOCABULARY.md` | +48 | Содержание | — |
-| `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` | +46 | — | — |
-| `docs/02-anthropic-vacancies/159-5-economic-model.md` | +46 | — | — |
-| `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` | +46 | — | — |
-| `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` | +46 | — | — |
-| `docs/HEALTH.md` | +46 | Общий балл: **84/100** 🟡 | Общий балл: **77/100** 🟡 |
-| `docs/LINKS.md` | -46 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/90-15-security-considerations.md` | +46 | Содержание | — |
-| `docs/02-anthropic-vacancies/16-history.md` | +44 | — | — |
-| `docs/02-anthropic-vacancies/18-6-adapter-interface.md` | +44 | — | — |
-| `docs/02-anthropic-vacancies/85-10-query-flow.md` | +44 | — | — |
-| `docs/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | +44 | — | — |
-| `docs/03-technology-combinations/03-local-first.md` | +44 | Содержание | — |
-| `docs/FOOTNOTES.md` | +44 | — | — |
-| `docs/METRICS.md` | +44 | Документы, требующие улучшения (55) | Документы, требующие улучшения (15) |
-| `docs/READABILITY.md` | +43 | — | — |
-| `docs/SEARCH.md` | +43 | — | — |
-| `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | +42 | — | — |
-| `docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` | +42 | — | — |
-| `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` | +42 | — | — |
-| `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` | +42 | — | — |
-| `docs/ONBOARDING.md` | +42 | — | — |
-| `docs/obsidian/VOCABULARY.md` | +42 | Содержание | — |
-| `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` | +42 | — | — |
-| `docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md` | +42 | — | — |
-| `docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md` | +42 | — | — |
-| `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | +42 | — | — |
-| `docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md` | +42 | — | — |
-| `docs/04-ai-collaborations/00-intro.md` | +40 | — | — |
-| `docs/05-habr-projects/memory/yodoca.md` | +40 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md` | +40 | Содержание | — |
-| `docs/COVERAGE.md` | +39 | Содержание | — |
-| `docs/PROGRESS.md` | +39 | — | — |
-| `docs/TECH_RADAR.md` | +39 | — | — |
-| `docs/obsidian/ACTION_ITEMS.md` | +39 | Содержание | — |
-| `docs/02-anthropic-vacancies/23-11-security-considerations.md` | +38 | — | — |
-| `docs/02-anthropic-vacancies/76-1-introduction.md` | +38 | — | — |
-| `docs/03-technology-combinations/04-sozialrecht-domain.md` | +38 | — | — |
-| `docs/CHANGELOG.md` | +38 | — | — |
-| `docs/INDEX.md` | +38 | — | — |
-| `docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md` | +38 | — | — |
-| `docs/habr-unique-projects/key-findings/01-yodoca.md` | +38 | — | — |
-| `docs/habr-unique-projects/key-findings/02-memnet.md` | +38 | — | — |
-| `docs/habr-unique-projects/key-findings/04-dochkina-sequential.md` | +38 | — | — |
-| `docs/LANGUAGE_STATS.md` | +37 | Содержание | — |
-| `docs/ai-collaborations/candidates/01-three-key-candidates.md` | +37 | — | — |
-| `docs/obsidian/CONTACTS.md` | +37 | Содержание | — |
-| `docs/obsidian/COVERAGE.md` | +37 | Содержание | — |
-| `docs/02-anthropic-vacancies/00-intro.md` | +36 | — | — |
-| `docs/02-anthropic-vacancies/21-9-query-flow.md` | +36 | — | — |
-| `docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md` | +36 | — | — |
-| `docs/02-anthropic-vacancies/38-content-overview.md` | +36 | — | — |
-| `docs/02-anthropic-vacancies/90-15-security-considerations.md` | +36 | — | — |
-| `docs/05-habr-projects/01-synthesis.md` | +36 | — | — |
-| `docs/REGISTRY.md` | +36 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | +36 | Содержание | — |
-| `docs/obsidian/READING_ORDER.md` | +36 | Содержание | — |
-| `docs/processing-guide/README.md` | +36 | processing-guide | Быстрый старт, Единый документ, Запустить всё разом (умный режим) +3 |
-| `docs/01-svyazi/03-component-catalog.md` | +35 | — | — |
-| `docs/CROSSREFS.md` | +35 | — | — |
-| `docs/NARRATIVE.md` | +35 | — | — |
-| `docs/obsidian/SOURCE_MAP.md` | +35 | Содержание | — |
-| `docs/svyazi-2-0/components/autoresearch-sequential.md` | +35 | — | — |
-| `docs/svyazi-2-0/components/legal-rag.md` | +35 | — | — |
-| `docs/svyazi-2-0/components/memnet.md` | +35 | — | — |
-| `docs/svyazi-2-0/components/ngt-memory.md` | +35 | — | — |
-| `docs/svyazi-2-0/components/security-routing-plane.md` | +35 | — | — |
-| `docs/svyazi-2-0/components/svyazi.md` | +35 | — | — |
-| `docs/svyazi-2-0/components/yodoca.md` | +35 | — | — |
-| `docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md` | +35 | — | — |
-| `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` | +34 | — | — |
-| `docs/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` | +34 | — | — |
-| `docs/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | +34 | — | — |
-| `docs/03-technology-combinations/02-knowledge-graphs.md` | +34 | — | — |
-| `docs/05-habr-projects/memory/ngt-memory.md` | +34 | — | — |
-| `docs/VALIDATION.md` | +34 | — | — |
-| `docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md` | +34 | — | — |
-| `docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md` | +34 | — | — |
-| `docs/obsidian/COST.md` | +34 | Содержание | — |
-| `docs/svyazi-2-0/architecture/card-envelope.md` | +34 | — | — |
-| `docs/svyazi-2-0/architecture/memory-write-policy.md` | +34 | — | — |
-| `docs/svyazi-2-0/architecture/skill-tool-policy.md` | +34 | — | — |
-| `docs/CONSISTENCY.md` | +33 | — | — |
-| `docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md` | +33 | — | — |
-| `docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md` | +33 | — | — |
-| `docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md` | +33 | — | — |
-| `docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md` | +33 | — | — |
-| `docs/obsidian/DENSITY.md` | +33 | Содержание | — |
-| `docs/obsidian/templates/README.md` | -33 | templates, Содержание | Доступные шаблоны, Затем откройте и заполните поля в [квадратных скобках], Использование +2 |
-| `docs/technology-combinations/combinations/13-legal-document-transpiler.md` | +33 | — | — |
-| `docs/02-anthropic-vacancies/84-9-consensus-algorithm.md` | +32 | — | — |
-| `docs/05-habr-projects/02-collaboration-partners.md` | +32 | — | — |
-| `docs/habr-unique-projects/analogues/01-three-direct-analogues.md` | +32 | — | — |
-| `docs/habr-unique-projects/analogues/02-related-projects.md` | +32 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | +32 | Содержание | — |
-| `docs/CONCEPT_GRAPH.md` | +31 | — | — |
-| `docs/MINDMAP.md` | +31 | — | — |
-| `docs/RISK_REGISTER.md` | +31 | — | — |
-| `docs/obsidian/KPI.md` | +31 | Содержание | — |
-| `docs/obsidian/READING_TIME.md` | +31 | Содержание | — |
-| `docs/obsidian/SENTIMENT.md` | +31 | Содержание | — |
-| `docs/technology-combinations/synthesis-tables/01-08-summary.md` | +31 | — | — |
-| `docs/01-svyazi/07-mvp-planning.md` | +30 | — | — |
-| `docs/04-ai-collaborations/01-executive-summary.md` | +30 | — | — |
-| `docs/anthropic-vacancies/clusters/02-sales.md` | +30 | — | — |
-| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md` | +30 | — | — |
-| `docs/anthropic-vacancies/signals.md` | +30 | — | — |
-| `docs/contacts/vitalyoborin.md` | +30 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | +30 | Содержание | — |
-| `docs/obsidian/DIGEST.md` | +30 | Содержание | — |
-| `docs/svyazi-2-0/components/agent-memory-mcp.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/agentfs.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/ai-factory.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/graph-rag.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/hybrid-rag.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/knowledge-space.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/mclaude.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/research-docs-liteparse.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/rufler.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/self-aware-mcp.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/voice-stack.md` | +30 | — | — |
-| `docs/svyazi-2-0/components/yjs-automerge.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/09-agent-orchestration-stack.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/22-russian-international-oss-stack.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md` | +30 | — | — |
-| `docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md` | +30 | — | — |
-| `docs/CONTACT_PRIORITY.md` | +29 | — | — |
-| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md` | +29 | — | — |
-| `docs/contacts/anastasiyaw.md` | +29 | — | — |
-| `docs/glossary/concepts.md` | +29 | — | — |
-| `docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md` | +29 | — | — |
-| `docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md` | +29 | — | — |
-| `docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md` | +29 | — | — |
-| `docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md` | +29 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | +29 | Содержание | — |
-| `docs/svyazi-2-0/architecture/integration-spec.md` | +29 | — | — |
-| `docs/technology-combinations/mega-stacks/01-legal-ai-stack.md` | +29 | — | — |
-| `docs/technology-combinations/mega-stacks/03-dsl-ast.md` | +29 | — | — |
-| `docs/technology-combinations/mega-stacks/04-event-sourcing-consensus.md` | +29 | — | — |
-| `docs/01-svyazi/09-architectural-gaps.md` | +28 | — | — |
-| `docs/01-svyazi/11-integration-contracts.md` | +28 | — | — |
-| `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` | +28 | — | — |
-| `docs/02-anthropic-vacancies/20-8-consensus-algorithm.md` | +28 | — | — |
-| `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` | +28 | — | — |
-| `docs/03-technology-combinations/05-benchmarks.md` | +28 | — | — |
-| `docs/03-technology-combinations/README.md` | +28 | — | — |
-| `docs/habr-unique-projects/final-ensembles/4-summary-authors.md` | +28 | — | — |
-| `docs/lorenzo-agent/QA.md` | +28 | — | — |
-| `docs/templates/contact-outreach.md` | +28 | — | — |
-| `docs/05-habr-projects/memory/memnet.md` | +27 | — | — |
-| `docs/SCORING.md` | +27 | — | — |
-| `docs/ai-collaborations/continuation/02-agentops-trace-envelope.md` | +27 | — | — |
-| `docs/ai-collaborations/ensembles/3-forensic-rag.md` | +27 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | +27 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` | +27 | Содержание | — |
-| `docs/obsidian/COMPLEXITY.md` | +27 | Содержание | — |
-| `docs/obsidian/HEATMAP.md` | +27 | Содержание | — |
-| `docs/obsidian/STATS.md` | +27 | Содержание | — |
-| `docs/03-technology-combinations/01-agent-routing.md` | +26 | — | — |
-| `docs/05-habr-projects/knowledge/README.md` | +26 | — | — |
-| `docs/05-habr-projects/knowledge/wikontic.md` | +26 | — | — |
-| `docs/ALERTS.md` | +26 | — | — |
-| `docs/GLOSSARY.md` | +26 | — | — |
-| `docs/ORPHANS.md` | +26 | — | — |
-| `docs/SCHEDULE.md` | +26 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/275-why-this-document-exists.md` | +26 | Содержание | — |
-| `docs/svyazi-2-0/ensembles/G-federated-local-graph.md` | +26 | — | — |
-| `docs/svyazi-2-0/security/default-policy.md` | +26 | — | — |
-| `docs/DIGEST_WEEKLY.md` | +25 | — | — |
-| `docs/svyazi-2-0/architecture/evidence-envelope.md` | +25 | — | — |
-| `docs/svyazi-2-0/architecture/review-record.md` | +25 | — | — |
-| `docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md` | +24 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md` | +24 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/281-the-recursive-insight.md` | +24 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/319-acknowledgments.md` | +24 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/76-1-introduction.md` | +24 | Содержание | — |
-| `docs/svyazi-2-0/overview/projects-map.md` | +24 | — | — |
-| `docs/contacts/andrey-chuyan.md` | +23 | — | — |
-| `docs/contacts/cutcode.md` | +23 | — | — |
-| `docs/contacts/dmitriila.md` | +23 | — | — |
-| `docs/contacts/kksudo.md` | +23 | — | — |
-| `docs/contacts/mixaill76.md` | +23 | — | — |
-| `docs/contacts/spbmolot.md` | +23 | — | — |
-| `docs/contacts/vladspace.md` | +23 | — | — |
-| `docs/contacts/zodigancode.md` | +23 | — | — |
-| `docs/processing-guide/01-overview.md` | +23 | — | — |
-| `docs/01-svyazi/10-second-order-ensembles.md` | +22 | — | — |
-| `docs/DEPENDABOT.md` | +22 | — | — |
-| `docs/obsidian/01-svyazi/02-methodology.md` | +22 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/153-executive-summary.md` | +22 | Содержание | — |
-| `docs/templates/project-component.md` | +22 | — | — |
-| `docs/03-technology-combinations/QA.md` | +21 | — | — |
-| `docs/KPI_HISTORY.md` | +21 | — | — |
-| `docs/SPELLCHECK.md` | +21 | — | — |
-| `docs/templates/prototype-mvp.md` | +21 | — | — |
-| `docs/templates/research-note.md` | +21 | — | — |
-| `docs/templates/rfc.md` | +21 | — | — |
-| `docs/COMPONENT_MATRIX.md` | +20 | — | — |
-| `docs/DIGEST.md` | +20 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/136-abstract.md` | +20 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/168-abstract.md` | +20 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/210-abstract.md` | +20 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/223-12-closing.md` | +20 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/252-abstract.md` | +20 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/266-13-closing.md` | +20 | Содержание | — |
-| `docs/obsidian/02-anthropic-vacancies/307-abstract.md` | +20 | Содержание | — |
-| `docs/obsidian/TIMELINE.md` | +20 | Содержание | — |
-| `docs/BROKEN_LINKS.md` | +18 | — | — |
-| `docs/CHANGELOG_AUTO.md` | +18 | — | — |
-| `docs/LLM_SUMMARIES.md` | +18 | — | — |
-| `docs/obsidian/03-technology-combinations/03-local-first.md` | +18 | Содержание | — |
-| `docs/obsidian/DEPENDENCY_MAP.md` | +18 | Содержание | — |
-| `docs/COMPLEXITY.md` | +15 | — | — |
-| `docs/SEARCH_RESULTS.md` | -15 | — | — |
-| `docs/obsidian/MINDMAP.md` | +15 | — | — |
-| `docs/DENSITY.md` | -14 | — | — |
-| `docs/HEATMAP.md` | -14 | — | — |
-| `docs/contacts/README.md` | -14 | — | — |
-| `docs/PASSIVE_VOICE.md` | +12 | — | — |
-| `docs/obsidian/CONSISTENCY.md` | +12 | — | — |
-| `docs/obsidian/GRAPH.md` | +12 | — | — |
-| `docs/obsidian/MISSING.md` | +12 | — | — |
-| `docs/05-habr-projects/QA.md` | -11 | Что такое knowledge-space[^knowledge-space] и для кого он предназначен? | Что такое knowledge-space[^knowledge-space] и для кого он предназначен? |
-| `docs/COMPARE.md` | +11 | — | — |
-| `docs/STALENESS.md` | +11 | — | — |
-| `docs/anthropic-vacancies/QA.md` | +11 | — | — |
-| `docs/obsidian/ABBREVIATIONS.md` | +11 | — | — |
-| `docs/obsidian/FOOTNOTES.md` | +11 | — | — |
-| `docs/obsidian/NARRATIVE.md` | +11 | — | — |
-| `docs/DIGEST_AUTO.md` | +10 | — | — |
-| `docs/obsidian/PROGRESS.md` | +10 | — | — |
-| `docs/obsidian/CHANGELOG.md` | +9 | — | — |
-| `docs/obsidian/CONTACT_PRIORITY.md` | +9 | — | — |
-| `docs/obsidian/SEE_ALSO.md` | +9 | — | — |
-| `docs/obsidian/contacts/README.md` | +9 | — | — |
-| `docs/obsidian/01-svyazi/QA.md` | +8 | — | — |
-| `docs/obsidian/04-ai-collaborations/QA.md` | +8 | — | — |
-| `docs/obsidian/NETWORK.md` | +8 | — | — |
-| `docs/obsidian/SCHEDULE.md` | +8 | — | — |
-| `docs/obsidian/COMPARE.md` | +7 | — | — |
-| `docs/obsidian/METRICS.md` | +7 | — | — |
-| `docs/obsidian/DEPENDABOT.md` | +6 | — | — |
-| `docs/obsidian/VERSION_DIFF.md` | +6 | — | — |
-| `docs/obsidian/autofilled/components/README.md` | -6 | — | — |
-| `docs/obsidian/03-technology-combinations/QA.md` | +5 | — | — |
-| `docs/obsidian/05-habr-projects/QA.md` | +5 | Что такое knowledge-space[^knowledge-space] и для кого он предназначен? | Что такое knowledge-space[^knowledge-space] и для кого он предназначен? |
-| `docs/obsidian/CONCEPT_GRAPH.md` | +5 | — | — |
-| `docs/obsidian/SCORING.md` | +5 | — | — |
-| `docs/obsidian/STALENESS.md` | +5 | — | — |
-| `docs/obsidian/VALIDATION.md` | +5 | — | — |
-| `docs/obsidian/autofilled/README.md` | -5 | — | — |
-| `docs/obsidian/HEALTH.md` | +4 | — | — |
-| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | +2 | — | — |
-| `docs/obsidian/ALERTS.md` | +2 | — | — |
-| `docs/obsidian/DIGEST_WEEKLY.md` | +2 | — | — |
-| `docs/SENTIMENT.md` | +1 | — | — |
-| `docs/AUTHORS.md` | 0 | — | — |
-| `docs/BADGES.md` | 0 | — | — |
-| `docs/ENTITIES.md` | 0 | — | — |
-
-<!-- see-also -->
-
----
+| `docs/TABLES.md` | +75762 | 05-habr-projects (22 таблиц), 1. Contents, 1. Сводная таблица зазоров +841 | 05-habr-projects (16 таблиц), 1. Roadmap на 6–12 месяцев, 1. Авторы — алфавитный список +479 |
+| `docs/obsidian/TABLES.md` | +69908 | 05-habr-projects (16 таблиц), 1. Доступные шаблоны, 1. Как это называется +583 | 05-habr-projects (6 таблиц), 1. Скилы агента, 10. Детальные метрики +249 |
+| `docs/OUTLINE.md` | -17634 | [[QA|Q&A: ai-collaborations]], [[QA|Q&A: contacts]], [[QA|Q&A: svyazi-2-0]] +44 | [[REPORT|Executive Report: Репозиторий Lorenzo]], [[README|Svyazi 2.0 — тематический индекс]], [[09-architectural-gaps|Архитектурные зазоры, которые важнее новых инструментов]] +20 |
+| `docs/VERSION_DIFF.md` | +17189 | Вариант 10, Вариант 11, Вариант 12 +12 | ✅ Новые файлы (7), 📝 Изменённые файлы (565) |
+| `docs/PARAGRAPH_QUALITY.md` | -16634 | `docs/01-svyazi/00-intro-part2.md` (9 проблем), `docs/01-svyazi/01-executive-summary.md` (23 проблем), `docs/01-svyazi/02-methodology.md` (17 проблем) +1172 | `docs/01-svyazi/01-executive-summary.md` (26 проблем), `docs/01-svyazi/02-methodology.md` (14 проблем), `docs/01-svyazi/03-component-catalog.md` (14 проблем) +1143 |
+| `docs/READING_TIME.md` | +8937 | Вариант 10, Вариант 11, Вариант 12 +13 | Самые длинные документы (77) |
+| `docs/READABILITY.md` | +8611 | Вариант 10, Вариант 11, Вариант 12 +18 | Самые сложные тексты (1713) — рекомендуется упростить |
+| `docs/HEADING_AUDIT.md` | -8184 | `docs/01-svyazi/00-intro-part2.md` (2 проблем), `docs/01-svyazi/02-methodology.md` (2 проблем), `docs/01-svyazi/03-component-catalog.md` (2 проблем) +1041 | `docs/01-svyazi/00-intro-part2.md` (1 проблем), `docs/01-svyazi/03-component-catalog.md` (1 проблем), `docs/01-svyazi/06-security-privacy.md` (1 проблем) +694 |
+| `docs/QUESTIONS.md` | -6623 | `01-missing-middle-layer.md` (1), `01-why-single-triangle-incomplete.md` (5), `01-zachem-dokument.md` (1) +65 | `01-why-single-triangle-incomplete.md` (3), `04-fallback-ratio-question.md` (2), `04-pochemu-ne-postroeno.md` (2) +64 |
+| `docs/obsidian/OUTLINE.md` | +5805 | Ai Collaborations, Anthropic Vacancies, Autofilled +86 | [ADR: [Название решения]](docs/templates/decision-record.md), [FAQ: [Вопрос]](docs/templates/faq-entry.md), [KPI Snapshot: [дата]](docs/templates/kpi-snapshot.md) +55 |
+| `docs/02-anthropic-vacancies/165-closing.md` | -5756 | Использование, Поиск (bm25), Поиск (full) +1 | — |
+| `docs/EMPTY_SECTIONS.md` | +5725 | `.md` (4 из 8), `00-abstract-status.md` (1 из 5), `00-abstract.md` (1 из 4) +1099 | `.md` (2 из 4), `00-intro.md` (4 из 58), `01-agent-routing.md` (1 из 4) +531 |
+| `docs/obsidian/02-anthropic-vacancies/165-closing.md` | -5697 | Использование, Кто ссылается на этот документ (9), Поиск (bm25) +4 | — |
+| `docs/SOURCE_MAP.md` | +4505 | Вариант 2, Вариант 3, Вариант 4 +7 | Содержание, 🔗 Файлы с внешними ссылками (157), 🤖 Авто-импортированные файлы (1252) |
+| `docs/02-anthropic-vacancies/150-appendix-c-version-history.md` | -4079 | Использование, Поиск (bm25), Поиск (full) +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md` | -4029 | Использование, Кто ссылается на этот документ (12), Поиск (bm25) +4 | — |
+| `docs/obsidian/VERSION_DIFF.md` | +3672 | Contents, Diff за последние 7 коммитов, Использование +5 | 📝 Изменённые файлы (59) |
+| `docs/obsidian/QUESTIONS.md` | +3522 | `03-catalog.md` (1), `03-chunking.md` (5), `03-portal-protocol-md.md` (1) +103 | `104-appendix-c-references.md` (3), `114-7-реализация-в-проекте-nautilus.md` (2), `142-5-pattern-library-as-bridge-between-triangles.md` (3) +38 |
+| `docs/obsidian/SOURCE_MAP.md` | +3454 | Использование, Карта по авторам коммитов, Обновить карту и сразу открыть результат +5 | 🔗 Файлы с внешними ссылками (97), 🤖 Авто-импортированные файлы (846) |
+| `docs/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` | -3202 | BM25 поиск, Использование, семантический поиск | — |
+| `docs/obsidian/02-anthropic-vacancies/272-appendix-d-connection-diagram.md` | -3157 | BM25 поиск, Использование, Кто ссылается на этот документ (13) +3 | — |
+| `docs/DUPLICATES.md` | -2148 | 100% — `docs/04-ai-collaborations/QA.md` vs `docs/02-anthropic-vacancies/QA.md`, 100% — `docs/04-ai-collaborations/QA.md` vs `docs/03-technology-combinations/QA.md`, 100% — `docs/CROSS_SECTION.md` vs `docs/obsidian/CROSS_SECTION.md` +24 | 100% — `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` vs `docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md`, 100% — `docs/DEPENDABOT.md` vs `docs/obsidian/DEPENDABOT.md`, 100% — `docs/TECH_RADAR.md` vs `docs/obsidian/TECH_RADAR.md` +25 |
+| `docs/obsidian/CLUSTERS.md` | +1912 | Contents, Использование, Кто ссылается на этот документ (9) +2 | — |
+| `docs/obsidian/READING_TIME.md` | -1699 | Contents, Самые длинные документы (77) | Самые длинные документы (42) |
+| `docs/SCRIPTS_CATALOG.md` | -1409 | `improve_collab_finder.py` _(группа: без группы)_, `improve_embedding_index.py` _(группа: без группы)_, `improve_quality_patch.py` _(группа: meta)_ +9 | meta (7), Содержание, без группы (18) |
+| `docs/obsidian/GITHUB_ISSUES.md` | +1116 | `docs/PROTOTYPE_SPEC.md` (16 задач), `docs/meta-scripting/01-concept.md` (1 задач), `docs/obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (18 задач) +26 | — |
+| `docs/SITEMAP.md` | +1108 | Contents | Смотрите также, Содержание |
+| `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | -1066 | Альтернативный поиск (BM25), Использование, Поиск по теме документа | — |
+| `docs/CHANGELOG.md` | +1017 | 2026-05-10 (58 коммитов), 2026-05-11 (4 коммитов), Вариант 2 +2 | 2026-05-10 (11 коммитов) |
+| `docs/obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md` | -998 | Альтернативный поиск (BM25), Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/DECISIONS.md` | -964 | Mvp (16), Архитектура (82), Безопасность (4) +8 | Mvp (10), Архитектура (61), Безопасность (3) +7 |
+| `docs/CONCEPTS.md` | +963 | Contents, Вариант 2, Вариант 3 +7 | Смотрите также, Содержание, Х +1 |
+| `docs/obsidian/CHANGELOG.md` | +924 | $.STEP.ou (1 коммитов), 2026-04-29 (141 коммитов), 2026-05-10 (11 коммитов) +7 | 2026-04-29 (100 коммитов) |
+| `docs/obsidian/ACTION_ITEMS.md` | +888 | Использование, Обновить список задач, Риски и решения +9 | ⚠️ Риски (593), ✅ Решения и рекомендации (275), ➡️ Следующие шаги (150) +3 |
+| `docs/02-anthropic-vacancies/QA.md` | -822 | Запуск, Использование, Смотрите также | — |
+| `docs/obsidian/SITEMAP.md` | +822 | meta-scripting, obsidian, processing-guide +6 | — |
+| `docs/obsidian/02-anthropic-vacancies/QA.md` | +804 | Использование, Поиск по теме документа | — |
+| `docs/SEE_ALSO.md` | +741 | Запуск, Использование | Смотрите также |
+| `docs/obsidian/CONCEPTS.md` | +723 | Все разделы, детальный вывод, Использование, Найти понятия по шаблону +8 | — |
+| `docs/obsidian/04-ai-collaborations/QA.md` | +718 | Contents, Использование, Какие кластеры найма выделены у Anthropic? +3 | — |
+| `docs/obsidian/PARAGRAPH_QUALITY.md` | +693 | `docs/01-svyazi/03-component-catalog.md` (14 проблем), `docs/01-svyazi/07-mvp-planning.md` (23 проблем), `docs/01-svyazi/09-architectural-gaps.md` (19 проблем) +551 | `docs/01-svyazi/03-component-catalog.md` (12 проблем), `docs/01-svyazi/07-mvp-planning.md` (21 проблем), `docs/01-svyazi/09-architectural-gaps.md` (18 проблем) +514 |
+| `docs/02-anthropic-vacancies/104-appendix-c-references.md` | -690 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/DUPLICATES.md` | -674 | 100% — `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` vs `docs/obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md`, 100% — `docs/CHANGELOG_AUTO.md` vs `docs/obsidian/CHANGELOG_AUTO.md`, 100% — `docs/DEPENDABOT.md` vs `docs/obsidian/DEPENDABOT.md` +30 | 100% — `docs/02-anthropic-vacancies/16-history.md` vs `docs/nautilus/npp-v1-0/04-passport.md`, 67% — `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` vs `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md`, 67% — `docs/02-anthropic-vacancies/292-что-отсутствует-слой-b.md` vs `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md` +27 |
+| `docs/lorenzo-agent/QA.md` | -670 | Запуск, Использование, Смотрите также | — |
+| `docs/obsidian/TAGS.md` | -625 | #anthropic (2 файлов), #architecture (1 файлов), #collaboration (2 файлов) +7 | #anthropic (56 файлов), #architecture (57 файлов), #collaboration (65 файлов) +9 |
+| `docs/obsidian/02-anthropic-vacancies/104-appendix-c-references.md` | -619 | Использование, Кто ссылается на этот документ (15), Поиск по теме документа +2 | — |
+| `docs/GITHUB_ISSUES.md` | +567 | Contents, `docs/PROTOTYPE_SPEC.md` (5 задач), `docs/STATS.md` (1 задач) +16 | `docs/PROTOTYPE_SPEC.md` (16 задач), Содержание |
+| `docs/obsidian/05-habr-projects/QA.md` | +544 | Использование, Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos? +5 | Как CardIndex[^cardindex] хранит и версионирует карточки?, Как работает AgentFS[^agentfs] и что такое .agentos?, Что такое knowledge-space[^knowledge-space] и для кого он предназначен? |
+| `docs/README.md` | -542 | Использование | — |
+| `docs/PRIORITIES.md` | +490 | Contents, Вариант 2, Запуск +1 | Смотрите также, Содержание |
+| `docs/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | -476 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/QA.md` | -463 | Запуск, Использование, Смотрите также | Как реализован forensic RAG с доказуемостью?, Какие 5 архитектурных зазоров выделены в исследовании?, Какие RAG-подходы сравниваются в документах? +4 |
+| `docs/02-anthropic-vacancies/34-appendix-b-change-log.md` | -459 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/BACKLINKS.md` | +440 | Contents, Использование, Содержание | — |
+| `docs/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | -432 | Использование, Поиск по теме документа | — |
+| `docs/ACTION_ITEMS.md` | +425 | Contents, Вариант 2, Вариант 3 +10 | Содержание, ⚠️ Риски (954), ✅ Решения и рекомендации (493) +4 |
+| `docs/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | -412 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/34-appendix-b-change-log.md` | -411 | Использование, Кто ссылается на этот документ (13), Поиск по теме документа +2 | — |
+| `docs/FAQ.md` | +395 | 10.4. Социальные Вопросы Снизят ли представительские агенты или увеличат неравенство?, Contents, Q&A: 02-anthropic-vacancies > > !NOTE - Какие 5 архитектурных зазоров выделены в исследовании? +9 | Какой направление приоритетно?, Принимаем эту architecture как Lorenzo vision (с моими caveats)?, Сейчас, для этой конкретной сессии с семью документами, что вы хотите сделать? +3 |
+| `docs/VALIDATION.md` | -385 | ✅ Заголовки H1, ✅ Пустые/короткие файлы | Заголовки H1, Пустые/короткие файлы |
+| `docs/01-svyazi/00-intro-part2.md` | +382 | Contents, Использование, Продолжение исследования для Svyazi[^svyazi] 2.0 +2 | Продолжение исследования для Svyazi 2.0 |
+| `docs/05-habr-projects/QA.md` | -378 | Запуск, Использование, Как происходит консолидация и забывание в памяти агентов? +3 | Какие кластеры найма выделены у Anthropic?, Какие роли наиболее релевантны для профиля svend4? |
+| `docs/obsidian/VALIDATION.md` | +375 | Contents, Валидация структуры репозитория, Внутренние ссылки +9 | Валидация шаблонов, Шаблоны |
+| `docs/obsidian/REPORT.md` | -374 | Executive Report: Репозиторий Lorenzo, Аналитические инструменты, Извлечённые знания +4 | Executive Summary, LLM Q&A (требует ANTHROPIC_API_KEY), Svyazi 2.0 — Knowledge Base Report +12 |
+| `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | -373 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` | -372 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/COVERAGE.md` | -368 | Полное покрытие — 16 файлов | Contents, Полное покрытие — 0 файлов, Содержание +1 |
+| `docs/obsidian/CONSISTENCY.md` | +360 | `Card Index` → должно быть `CardIndex`, `CardEnvelope` → должно быть `Card Envelope`, `LiteParser` → должно быть `LiteParse` +4 | — |
+| `docs/obsidian/01-svyazi/QA.md` | +356 | Contents, Использование, Поиск по теме документа | — |
+| `docs/obsidian/03-technology-combinations/QA.md` | +352 | Использование, Какие вопросы лучше задавать авторам при первом контакте?, Кто ключевые авторы проектов для контакта? +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | -349 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md` | -340 | Contents, Использование, Кто ссылается на этот документ (27) +3 | — |
+| `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` | -328 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/166-representative-agent-layer-md.md` | -317 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/208-professional-colleague-agents-md.md` | -306 | Contents, Использование, Кто ссылается на этот документ (25) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | +305 | Contents, Использование | — |
+| `docs/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` | -302 | Использование, Поиск по теме документа | — |
+| `docs/03-technology-combinations/QA.md` | -302 | Запуск, Использование, Смотрите также | Какие вопросы лучше задавать авторам при первом контакте?, Кто ключевые авторы проектов для контакта? |
+| `docs/obsidian/04-ai-collaborations/README.md` | +301 | Использование, Подразделы, Похожие документы | — |
+| `docs/02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md` | +294 | Использование | — |
+| `docs/obsidian/01-svyazi/00-intro-part2.md` | +292 | Использование, Смотрите также, Содержание | — |
+| `docs/obsidian/ORPHANS.md` | +283 | Contents, obsidian (396 изолированных), root (2 изолированных) +3 | autofilled (1 изолированных) |
+| `docs/LANGUAGE_STATS.md` | +277 | Вариант 2, Вариант 3, Вариант 4 +2 | Содержание |
+| `docs/obsidian/01-svyazi/README.md` | +276 | Использование, Подразделы, Похожие документы | — |
+| `docs/processing-guide/QA.md` | -275 | Запуск, Использование | — |
+| `docs/ai-collaborations/channels/README.md` | +268 | Использование, Смотрите также, Содержание | — |
+| `docs/ai-collaborations/strategy/README.md` | +268 | Использование, Смотрите також, Содержание | — |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md` | +267 | Использование | — |
+| `docs/habr-unique-projects/search-strategy/README.md` | +264 | Использование, Смотрите также, Содержание | — |
+| `docs/habr-unique-projects/evaluation/README.md` | +262 | Использование, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | -258 | Contents, Использование, Кто ссылается на этот документ (20) +3 | — |
+| `docs/obsidian/ALERTS.md` | +258 | Contents | — |
+| `docs/CONTRADICTIONS.md` | -256 | 10. 🔢 Числовое — 44.0 vs 3.0 (уверенность: 0.8), 11. 🔢 Числовое — 3.0 vs 13.0 (уверенность: 0.8), 12. 🔢 Числовое — 4.0 vs 7.0 (уверенность: 0.8) +23 | 10. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8), 11. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8), 12. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8) +22 |
+| `docs/obsidian/badges/README.md` | +256 | Содержание | Связанные документы |
+| `docs/nautilus/npp-v1-0/17-appendix-b-change-log.md` | +253 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/05-habr-projects/knowledge/README.md` | +252 | Использование, Кто ссылается на этот документ (3), Похожие документы | — |
+| `docs/obsidian/02-anthropic-vacancies/249-composite-skills-agent-md.md` | -250 | Contents, Использование, Кто ссылается на этот документ (21) +3 | — |
+| `docs/obsidian/templates/research-note.md` | +249 | Использование, Смотрите также, Содержание | — |
+| `docs/lorenzo-agent/00-intro.md` | +246 | Contents, Использование, Смотрите также +1 | — |
+| `docs/obsidian/05-habr-projects/README.md` | +239 | Использование, Кто ссылается на этот документ (3), Похожие документы | — |
+| `docs/obsidian/03-technology-combinations/README.md` | +236 | Использование, Кто ссылается на этот документ (3) | — |
+| `docs/obsidian/templates/decision-record.md` | +236 | Использование, Смотрите также, Содержание | — |
+| `docs/technology-combinations/properties/README.md` | +234 | Смотрите также, Содержание | — |
+| `docs/anthropic-vacancies/clusters/13-communications.md` | +232 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/16-people.md` | +230 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/05-habr-projects/memory/README.md` | +228 | Использование, Кто ссылается на этот документ (3), Похожие документы | — |
+| `docs/CONSISTENCY.md` | +226 | Contents, `EvidenceEnvelope` → должно быть `Evidence Envelope`, `Local First` → должно быть `local-first` +3 | `CardEnvelope` → должно быть `Card Envelope`, Смотрите также, Содержание |
+| `docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md` | +226 | Contents, Кто ссылается на этот документ (11), Похожие документы +2 | — |
+| `docs/anthropic-vacancies/clusters/15-public-benefit.md` | +224 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/14-public-policy.md` | +222 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/12-technical-program-management.md` | +220 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/memory/README.md` | +219 | Использование | — |
+| `docs/ORPHANS.md` | -219 | Запуск, Использование | obsidian (396 изолированных), root (2 изолированных), templates (1 изолированных) +1 |
+| `docs/obsidian/templates/ensemble.md` | +218 | Смотрите также, Содержание | — |
+| `docs/QA.md` | -216 | Contents, Запуск, Использование +2 | Содержание |
+| `docs/SEARCH_RESULTS.md` | +216 | Использование | — |
+| `docs/04-ai-collaborations/QA.md` | -215 | Запуск, Использование, Смотрите также | Какие кластеры найма выделены у Anthropic?, Какие роли наиболее релевантны для профиля svend4? |
+| `docs/anthropic-vacancies/clusters/04-security.md` | +215 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/09-product-management-support-ops.md` | +214 | Использование, Поиск по теме документа | — |
+| `docs/templates/glossary-entry.md` | +214 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/obsidian/templates/contact-outreach.md` | +213 | Содержание | — |
+| `docs/anthropic-vacancies/clusters/11-legal.md` | +211 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/templates/project-component.md` | +211 | Использование, Смотрите также, Содержание +1 | — |
+| `docs/svyazi-2-0/security/privacy.md` | +208 | Использование, Поиск по теме документа | — |
+| `docs/STALENESS.md` | -207 | Без метаданных (нет summary или тегов) — 228 файлов, Короткие (< 100 слов, заготовки) — 5 файлов | Без метаданных (нет summary или тегов) — 239 файлов, Короткие (< 100 слов, заготовки) — 34 файлов |
+| `docs/nautilus/npp-v1-0/13-reference-implementation.md` | +207 | Использование, Поиск по теме документа | — |
+| `docs/CODE_BLOCKS.md` | -205 | # Essence, COMPOSITE SKILLS AGENT.md, Contents +32 | ## Essence, 1. Установить MCP SDK, 10.1. IMPLEMENTATION_STAGE_PART_[1-4].md +46 |
+| `docs/obsidian/02-anthropic-vacancies/166-representative-agent-layer-md.md` | -204 | Contents, Использование, Кто ссылается на этот документ (13) +3 | — |
+| `docs/nautilus/community-discussions/README.md` | +203 | Использование, Содержание | — |
+| `docs/nautilus/review-methodology/15-appendix-c-history.md` | +202 | Использование, Поиск по теме документа | — |
+| `docs/PROGRESS.md` | +200 | Сессия 2026-05-11 — Стабилизация качества документации, Текущая стадия разработки, Что было сделано (журнал изменений) | Смотрите также |
+| `docs/nautilus/review-methodology/14-main-technical-risks.md` | +200 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` | -199 | Contents, Использование, Кто ссылается на этот документ (14) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/27-15-glossary-of-examples.md` | +198 | Contents, Использование, Кто ссылается на этот документ (8) +3 | — |
+| `docs/anthropic-vacancies/clusters/10-compute.md` | +196 | Использование, Поиск по теме документа | — |
+| `docs/03-technology-combinations/README.md` | +195 | Использование | — |
+| `docs/templates/faq-entry.md` | +192 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/anthropic-vacancies/clusters/08-safeguards-trust-safety.md` | +190 | Использование, Поиск по теме документа | — |
+| `docs/TAGS.md` | +186 | #anthropic (9 файлов), #architecture (6 файлов), #collaboration (9 файлов) +11 | #anthropic (2 файлов), #architecture (1 файлов), #collaboration (2 файлов) +5 |
+| `docs/anthropic-vacancies/clusters/05-marketing-brand.md` | +186 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/00-abstract.md` | +186 | Contents, Использование, Поиск по теме документа | — |
+| `docs/obsidian/PRIORITIES.md` | +186 | meta-scripting, obsidian, processing-guide +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` | +185 | Contents, Использование, Кто ссылается на этот документ (15) +4 | — |
+| `docs/anthropic-vacancies/clusters/03-finance.md` | +183 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/06-engineering-design-product.md` | +183 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md` | +183 | Использование, Поиск по теме документа | — |
+| `docs/BROKEN_LINKS.md` | +180 | Автоматическое исправление битых ссылок, Внешние URL (341 уникальных), Использование +2 | Внешние URL (256 уникальных) |
+| `docs/obsidian/DEPENDABOT.md` | +180 | Contents, Смотрите также | — |
+| `docs/obsidian/KPI.md` | +180 | Версия (636), Время (444), Использование +8 | Версия (390), Время (278), Количество (242) +5 |
+| `docs/obsidian/KPI_HISTORY.md` | +179 | Contents, Использование, История +1 | — |
+| `docs/habr-unique-projects/final-ensembles/3-discovery-research.md` | +178 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md` | +178 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/273-infrastructure-for-ai-collaborative-intellectual-w.md` | -178 | Contents, Использование, Кто ссылается на этот документ (14) +3 | — |
+| `docs/RISK_REGISTER.md` | -177 | — | Смотрите также, Содержание |
+| `docs/templates/retrospective.md` | +176 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/obsidian/02-anthropic-vacancies/43-history.md` | +175 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/46-essence.md` | +174 | Contents, Использование, Кто ссылается на этот документ (9) +3 | — |
+| `docs/01-svyazi/QA.md` | -173 | Запуск, Использование, Смотрите также | Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos?, Что такое knowledge-space и для кого он предназначен? |
+| `docs/05-habr-projects/README.md` | +173 | Использование | — |
+| `docs/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md` | +173 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/WORD_FREQ.md` | +172 | 01-svyazi (9,780 слов), 02-anthropic-vacancies (210,677 слов), 03-technology-combinations (2,418 слов) +19 | 01-svyazi (9,321 слов), 02-anthropic-vacancies (165,798 слов), 03-technology-combinations (2,140 слов) +13 |
+| `docs/templates/meeting-notes.md` | +172 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md` | +171 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/RISK_REGISTER.md` | -171 | Смотрите также | Contents, Упоминается в |
+| `docs/obsidian/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` | +170 | Contents, Использование, Кто ссылается на этот документ (9) +4 | — |
+| `docs/obsidian/02-anthropic-vacancies/36-essence.md` | +168 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/58-content-overview.md` | +168 | Contents, Использование, Поиск по теме документа +2 | — |
+| `docs/anthropic-vacancies/clusters/01-ai-research-engineering.md` | +166 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md` | +166 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md` | +166 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/17-honestly-ne-znaesh.md` | +166 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/282-what-industry-will-likely-build.md` | +166 | Contents, Использование, Кто ссылается на этот документ (10) +4 | — |
+| `docs/05-habr-projects/knowledge/README.md` | +164 | Использование | — |
+| `docs/lorenzo-agent/18-escalate-to-max.md` | +164 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` | +162 | Contents, Использование, Кто ссылается на этот документ (14) +4 | — |
+| `docs/obsidian/02-anthropic-vacancies/60-bridges.md` | +162 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md` | +161 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/obsidian/CONTRADICTIONS.md` | +161 | 1. 🔢 Числовое — 9.0 vs 4.0 (уверенность: 0.8), 10. 🔢 Числовое — 68.0 vs 4.0 (уверенность: 0.8), 11. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8) +30 | 1. 🔢 Числовое — 4.0 vs 9.0 (уверенность: 0.8), 10. 🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8), 11. 🔢 Числовое — 8.0 vs 58.0 (уверенность: 0.8) +27 |
+| `docs/lorenzo-agent/16-vsegda-delaesh.md` | +160 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/286-acknowledgments.md` | +160 | Contents, Использование, Кто ссылается на этот документ (17) +4 | — |
+| `docs/obsidian/CODE_BLOCKS.md` | +160 | .github/workflows/docs.yml (сгенерирован improve_ci_config.py), .pre-commit-config.yaml, 3.1 Card Envelope +11 | 1. Frontmatter (YAML), 7. PortalEntry, ID с регулярным выражением +13 |
+| `docs/technology-combinations/README.md` | +160 | Использование, Содержание | — |
+| `docs/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md` | +158 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md` | +158 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/methodology.md` | +155 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md` | +154 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/58-content-overview.md` | +153 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/38-content-overview.md` | +152 | Contents, Использование, Кто ссылается на этот документ (4) +3 | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md` | +150 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/56-essence.md` | +150 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/lorenzo-agent/phased-deployment/06-level-5-full-network.md` | +149 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/templates/README.md` | +149 | — | — |
+| `docs/templates/contradiction-record.md` | +148 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/technology-combinations/synthesis-tables/15-19-extended.md` | +147 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/12-multi-agent-observability-stack.md` | +144 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md` | +143 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/10-query-result.md` | +143 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | +143 | Contents, Использование, Кто ссылается на этот документ (17) +3 | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md` | +142 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md` | +142 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/16-mcp-extension.md` | +142 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/181-12-closing.md` | +142 | Contents, Использование, Кто ссылается на этот документ (11) +4 | — |
+| `docs/obsidian/02-anthropic-vacancies/48-content-overview.md` | +142 | Contents, Использование, Кто ссылается на этот документ (14) +3 | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md` | +141 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/04-komu-ty-sluzhish.md` | +141 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/285-closing.md` | +141 | Contents, Использование, Кто ссылается на этот документ (11) +4 | — |
+| `docs/obsidian/AUTHORS.md` | +141 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/obsidian/DEPENDENCY_MAP.md` | +141 | Кто ссылается на этот документ (4), Скрипты без карты зависимостей, Смотрите также | Связанные документы, Упоминается в |
+| `docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md` | +140 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md` | +140 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/09-voobshche-nelzya.md` | +140 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md` | +140 | Использование, Поиск по теме документа | — |
+| `docs/templates/experiment-log.md` | +140 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/nautilus/professional-colleague-agents-ru/00-abstract.md` | +139 | Contents, Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` | +137 | Кто ссылается на этот документ (31), Похожие документы, Смотрите также | — |
+| `docs/lorenzo-agent/03-tvoya-missiya.md` | +136 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` | +136 | — | — |
+| `docs/05-habr-projects/knowledge/mclaude.md` | +135 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md` | +135 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md` | +134 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/01-kto-ty.md` | +134 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/00-abstract.md` | +134 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/obsidian/KEYWORD_INDEX.md` | +134 | Contents, Использование, Кто ссылается на этот документ (7) +3 | — |
+| `docs/ai-collaborations/continuation/10-architecture-rfc.md` | +132 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md` | +132 | Использование, Поиск по теме документа | — |
+| `docs/templates/weekly-digest.md` | +132 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/anthropic-vacancies/profile-mapping/README.md` | +131 | Использование, Содержание | — |
+| `docs/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md` | +131 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/architecture/review-record.md` | +129 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/hybrid-rag.md` | +129 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/mclaude.md` | +129 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/rufler.md` | +129 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/knowledge/knowledge-space.md` | +128 | knowledge-space[^knowledge-space], Использование, Поиск по теме документа +1 | knowledge-space |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md` | +128 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md` | +128 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/146-acknowledgments.md` | +128 | Contents, Использование, Кто ссылается на этот документ (14) +4 | — |
+| `docs/obsidian/02-anthropic-vacancies/50-bridges.md` | +128 | Использование, Кто ссылается на этот документ (6), Поиск по теме документа +2 | — |
+| `docs/DIGEST_AUTO.md` | -127 | Запуск, Использование | Смотрите также |
+| `docs/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md` | +127 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/scenarios/00-question-scenario.md` | +127 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/09-call-for-partnership.md` | +126 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md` | +126 | Кто ссылается на этот документ (17), Похожие документы, Смотрите также | — |
+| `docs/lorenzo-agent/07-chto-mozhesh.md` | +125 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | +125 | Contents, Использование, Кто ссылается на этот документ (13) +3 | — |
+| `docs/obsidian/NETWORK.md` | +125 | Contents, Использование, Смотрите также +1 | — |
+| `docs/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md` | +124 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` | +124 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md` | +124 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/08-bez-max-approval.md` | +124 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/40-bridges.md` | +124 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/04-section-4-sgb-pilot.md` | +122 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/00-overview.md` | +122 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md` | +121 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/README.md` | -121 | Использование, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | +121 | Contents, Использование, Кто ссылается на этот документ (12) +3 | — |
+| `docs/nautilus/representative-agent-layer-en/08-risks-mitigations.md` | +120 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/12-content-overview.md` | +120 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` | +120 | Contents, Использование, Кто ссылается на этот документ (16) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | +120 | Contents, Использование, Кто ссылается на этот документ (13) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/31-content-overview.md` | +120 | Contents, Использование, Кто ссылается на этот документ (11) +3 | — |
+| `docs/02-anthropic-vacancies/27-15-glossary-of-examples.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/01-level-0-manual.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md` | +119 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/review-methodology/00-tldr.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | +119 | Contents, Использование, Кто ссылается на этот документ (8) +3 | — |
+| `docs/svyazi-2-0/components/agentfs.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/ai-factory.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/graph-rag.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/knowledge-space.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/legal-rag.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/svyazi.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/yjs-automerge.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/yodoca.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/23-security-first-code-review-pipeline.md` | +119 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md` | +118 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | +118 | Contents, Использование, Кто ссылается на этот документ (16) +3 | — |
+| `docs/05-habr-projects/knowledge/rufler.md` | +117 | Содержание | — |
+| `docs/lorenzo-agent/20-experiment.md` | +117 | Использование, Поиск по теме документа | — |
+| `docs/templates/risk-entry.md` | +117 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/habr-unique-projects/final-ensembles/1-one-person-one-company.md` | +116 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/05-0-status-of-this-document.md` | +116 | Contents, Использование, Кто ссылается на этот документ (20) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/180-11-call-for-collaboration.md` | +116 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/320-references.md` | +116 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/AUTOFILLED.md` | +116 | Contents, Использование, Кто ссылается на этот документ (12) +2 | — |
+| `docs/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md` | +115 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/09-federated-platform.md` | +115 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/multi-tier-architecture/00-question-multi-tier.md` | +115 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/18-6-adapter-interface.md` | +115 | Кто ссылается на этот документ (5), Похожие документы, Смотрите также | Contents |
+| `docs/lorenzo-agent/15-anti-patterns.md` | +114 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/11-open-questions.md` | +114 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/78-3-registry-nautilus-json.md` | +114 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | Contents |
+| `docs/INDEX.md` | -113 | — | Смотрите также, Содержание |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md` | +113 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md` | +113 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/03-technology-combinations/04-sozialrecht-domain.md` | +113 | Contents, Кто ссылается на этот документ (3), Похожие документы +1 | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md` | +112 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/09-phased-rollout.md` | +112 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md` | +111 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/07-progression-logic.md` | +111 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/02-tvoyo-proishozhdenie.md` | +110 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/19-persistent-character.md` | +110 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/04-abstract.md` | +110 | Contents, Использование, Кто ссылается на этот документ (19) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md` | +110 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md` | +110 | Кто ссылается на этот документ (7), Похожие документы, Смотрите также | — |
+| `docs/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md` | +108 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/09-acknowledgments.md` | +108 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md` | +108 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/13-angle-perspective.md` | +108 | Contents, Использование, Кто ссылается на этот документ (14) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | +108 | Кто ссылается на этот документ (9), Похожие документы, Смотрите также | — |
+| `docs/obsidian/MISSING.md` | +108 | Contents, Использование, Смотрите также +1 | — |
+| `docs/02-anthropic-vacancies/60-bridges.md` | +107 | Использование, Поиск по теме документа | — |
+| `docs/BACKLINKS.md` | -107 | Запуск, Использование, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/224-acknowledgments.md` | +107 | Contents, Использование, Кто ссылается на этот документ (12) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/42-author-contact.md` | +107 | Contents, Использование, Кто ссылается на этот документ (21) +3 | — |
+| `docs/svyazi-2-0/components/autoresearch-sequential.md` | +107 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/ngt-memory.md` | +107 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/research-docs-liteparse.md` | +107 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md` | +107 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/synthesis-tables/09-14-extended.md` | +107 | Использование, Поиск по теме документа | — |
+| `docs/templates/kpi-snapshot.md` | +107 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/obsidian/DECISIONS.md` | +106 | Contents, Mvp (10), Архитектура (61) +10 | Mvp (6), Архитектура (37), Безопасность (2) +6 |
+| `docs/LINKS.md` | +105 | Запуск, Использование | Contents, Кто ссылается на этот документ (4), Смотрите также |
+| `docs/NAMED_ENTITIES.md` | -105 | `2026-04-19` (17 файлов), `2026-04-29` (44 файлов), `2026-04` (84 файлов) +24 | `2026-04-19` (19 файлов), `2026-04-29` (46 файлов), `2026-04` (92 файлов) +23 |
+| `docs/obsidian/02-anthropic-vacancies/25-13-reference-implementation.md` | +105 | Contents, Использование, Кто ссылается на этот документ (20) +3 | — |
+| `docs/obsidian/COMPARE.md` | +105 | Contents, Изменившиеся файлы (570) — топ по Δ слов, Использование +3 | Изменившиеся файлы (63) — топ по Δ слов, Новые файлы (145) |
+| `docs/obsidian/NARRATIVE.md` | +105 | Использование, Смотрите также, Содержание | — |
+| `docs/obsidian/01-svyazi/03-component-catalog.md` | +104 | Contents, Использование, Каталог компонентов Svyazi 2.0 +5 | — |
+| `docs/obsidian/02-anthropic-vacancies/93-18-reference-implementation.md` | +104 | Contents, Использование, Кто ссылается на этот документ (19) +3 | — |
+| `docs/technology-combinations/combinations/README.md` | +104 | Запуск, Использование | — |
+| `docs/obsidian/CONTACT_PRIORITY.md` | +103 | Contents, Смотрите также | — |
+| `docs/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md` | +102 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/12-onboarding-paths.md` | +102 | Содержание | — |
+| `docs/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md` | +102 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/52-author-contact.md` | +102 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/obsidian/STALENESS.md` | +102 | Contents, Без метаданных (нет summary или тегов) — 239 файлов, Короткие (< 100 слов, заготовки) — 34 файлов +2 | Без метаданных (нет summary или тегов) — 169 файлов, Короткие (< 100 слов, заготовки) — 89 файлов |
+| `docs/nautilus/representative-agent-layer-en/06-ethical-framework.md` | +101 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/01-svyazi/11-integration-contracts.md` | +101 | Contents, Интеграционные контракты, Использование +5 | — |
+| `docs/obsidian/GRAPH.md` | +101 | Contents, Смотрите также, Содержание | — |
+| `docs/01-svyazi/14-limitations.md` | +100 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/ai-collaborations/candidates/02-related-projects-context.md` | +100 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` | +100 | Contents, Кто ссылается на этот документ (8), Похожие документы +1 | — |
+| `docs/05-habr-projects/memory/agent-memory-mcp.md` | +99 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/01-svyazi/14-limitations.md` | +99 | Contents, Использование, Ограничения и лицензии +4 | — |
+| `docs/lorenzo-agent/operationalized/03-honest-opinion.md` | +98 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/14-sdk.md` | +98 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` | +98 | Contents, Использование, Кто ссылается на этот документ (12) +3 | — |
+| `docs/obsidian/ABBREVIATIONS.md` | +98 | Contents, Использование, Смотрите также +1 | — |
+| `docs/obsidian/CONCEPT_GRAPH.md` | +98 | Contents, Смотрите также, Содержание | — |
+| `docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md` | +98 | Использование, Поиск по теме документа | — |
+| `docs/templates/tech-radar-entry.md` | +98 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/02-anthropic-vacancies/38-content-overview.md` | +97 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/43-history.md` | +97 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/46-essence.md` | +97 | Использование, Поиск по теме документа | — |
+| `docs/NARRATIVE.md` | -97 | Contents, Запуск, Использование | Смотрите также, Содержание |
+| `docs/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md` | +97 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/14-other-ai-relationships.md` | +97 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/63-history.md` | +97 | Contents, Использование, Кто ссылается на этот документ (11) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/41-compatibility-level.md` | +96 | Contents, Использование, Кто ссылается на этот документ (14) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/75-0-status-of-this-document.md` | +96 | Contents, Использование, Кто ссылается на этот документ (11) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` | +96 | Contents, Использование, Кто ссылается на этот документ (5) +3 | — |
+| `docs/technology-combinations/synthesis-tables/20-24-final.md` | +96 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/08-q8-other-ai-relationships.md` | +95 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/74-abstract.md` | +95 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/132-planned-v0-2-0.md` | +94 | Contents, Использование, Кто ссылается на этот документ (17) +3 | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md` | +93 | Использование, Поиск по теме документа | — |
+| `docs/contacts/sonia-black.md` | +93 | — | — |
+| `docs/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md` | +93 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-humanitarian-extension/README.md` | +93 | Запуск, Использование | — |
+| `docs/obsidian/01-svyazi/09-architectural-gaps.md` | +93 | Contents, Архитектурные зазоры, Использование +5 | — |
+| `docs/obsidian/02-anthropic-vacancies/307-abstract.md` | +93 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/62-author-contact.md` | +93 | Contents, Использование, Кто ссылается на этот документ (16) +3 | — |
+| `docs/obsidian/METRICS.md` | -93 | Документы, требующие улучшения (0), Использование, Обновить метрики и проверить здоровье репозитория +1 | Документы, требующие улучшения (18) |
+| `docs/nautilus/infrastructure-layer-b-en/06-existing-approximations.md` | +92 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/npp-v1-0/12-versioning-policy.md` | +92 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md` | +92 | — | — |
+| `docs/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md` | +92 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/synthesis-tables/25-30-extended.md` | +92 | — | — |
+| `docs/02-anthropic-vacancies/36-essence.md` | +91 | Использование, Поиск по теме документа | — |
+| `docs/contacts/antipozitive.md` | +91 | — | — |
+| `docs/meta-scripting/01-concept.md` | +91 | Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/103-appendix-b-change-log.md` | +91 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/37-native-format.md` | +91 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/59-angle-perspective.md` | +91 | Contents, Использование, Кто ссылается на этот документ (7) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` | +91 | Contents, Использование, Кто ссылается на этот документ (4) +3 | — |
+| `docs/obsidian/05-habr-projects/memory/ngt-memory.md` | +91 | Contents, Использование, Кто ссылается на этот документ (4) +3 | — |
+| `docs/obsidian/DIGEST_WEEKLY.md` | +91 | Contents, Кто ссылается на этот документ (3), Смотрите также | — |
+| `docs/svyazi-2-0/components/self-aware-mcp.md` | +91 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/components/voice-stack.md` | +91 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md` | +90 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md` | +90 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/SCORING.md` | -90 | Итог: **164/164** (100%) — 🟢 GO, Приоритетные действия (0 незакрытых), Риски — 26/26 (100%) 🟢 GO | Contents, Итог: **159/164** (96%) — 🟢 GO, Приоритетные действия (1 незакрытых) +1 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/README.md` | +89 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/182-acknowledgments.md` | +89 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/24-12-versioning-policy.md` | +89 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/91-16-mcp-extension-informative.md` | +89 | Contents, Использование, Кто ссылается на этот документ (8) +3 | — |
+| `docs/KNOWLEDGE_MAP.md` | -88 | — | Смотрите также, Содержание |
+| `docs/ai-collaborations/continuation/README.md` | +88 | Запуск, Использование | — |
+| `docs/lorenzo-agent/specification/00-context-fundamental-questions.md` | +88 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/community-discussions/agent-changes-reality/README.md` | +88 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-1/11-relevance-ranking.md` | +88 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` | +88 | Contents, Использование, Кто ссылается на этот документ (3) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/319-acknowledgments.md` | +88 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/53-history.md` | +88 | Contents, Использование, Кто ссылается на этот документ (8) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md` | +88 | Кто ссылается на этот документ (7), Похожие документы, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | -88 | Похожие документы, Смотрите также | Contents |
+| `docs/obsidian/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` | +88 | Contents, Использование, Кто ссылается на этот документ (3) +3 | — |
+| `docs/obsidian/SIMILAR.md` | +88 | Contents, Использование | — |
+| `docs/templates/README.md` | -88 | Доступные шаблоны, Затем откройте и заполните поля в [квадратных скобках], Использование +2 | templates, Подразделы, Содержание |
+| `docs/SEARCH.md` | +87 | BM25 поиск, Гибридный поиск, Использование +8 | — |
+| `docs/contacts/nlaik.md` | +87 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/39-angle-perspective.md` | +87 | Contents, Использование, Кто ссылается на этот документ (7) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/47-native-format.md` | +87 | Contents, Кто ссылается на этот документ (8), Похожие документы +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/49-angle-perspective.md` | +87 | Contents, Использование, Кто ссылается на этот документ (9) +3 | — |
+| `docs/CONTENT_GAPS.md` | -86 | `AIF` (57 файлов), `BSG` (62 файлов), `BSL` (89 файлов) +19 | `AIF` (49 файлов), `BSG` (45 файлов), `BSL` (81 файлов) +19 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md` | +86 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/11-dhlab-documents.md` | +86 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md` | +86 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/09-query-flow.md` | +86 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/270-appendix-b-sub-agent-registry-schema-sketch.md` | +86 | Contents, Кто ссылается на этот документ (4), Похожие документы +1 | — |
+| `docs/obsidian/contacts/tagir-analyzes.md` | +86 | Похожие документы, Смотрите также | — |
+| `docs/lorenzo-agent/specification/06-q6-accountability.md` | +85 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/07-q7-success-metrics.md` | +85 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md` | +85 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | +85 | Кто ссылается на этот документ (5), Похожие документы, Смотрите также +1 | Contents |
+| `docs/obsidian/02-anthropic-vacancies/287-references.md` | +85 | Использование, Кто ссылается на этот документ (13), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` | +85 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/51-compatibility-level.md` | +85 | Contents, Использование, Кто ссылается на этот документ (7) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/61-compatibility-level.md` | +85 | Contents, Использование, Кто ссылается на этот документ (7) +3 | — |
+| `docs/nautilus/review-methodology/07-why-valid-for-ai.md` | +84 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/continuation/06-metrics-tree.md` | +83 | Использование, Поиск по теме документа | — |
+| `docs/contacts/tagir-analyzes.md` | +83 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/106-tl-dr.md` | +83 | Contents, Использование, Кто ссылается на этот документ (5) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` | +83 | Contents, Кто ссылается на этот документ (3), Похожие документы +1 | — |
+| `docs/obsidian/contacts/antipozitive.md` | +83 | Похожие документы, Смотрите также | — |
+| `docs/obsidian/contacts/sonia-black.md` | +83 | Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/ensembles/README.md` | +83 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | +82 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md` | +82 | Запуск, Использование | — |
+| `docs/nautilus/privacy-federation/README.md` | +82 | Запуск, Использование | — |
+| `docs/obsidian/01-svyazi/07-mvp-planning.md` | +82 | Contents, Использование, Кто ссылается на этот документ (5) +5 | — |
+| `docs/obsidian/01-svyazi/10-second-order-ensembles.md` | +82 | Contents, Ансамбли следующего шага, Кто ссылается на этот документ (3) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | +82 | Contents, Использование, Кто ссылается на этот документ (5) +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/57-native-format.md` | +82 | Contents, Кто ссылается на этот документ (6), Похожие документы +1 | — |
+| `docs/obsidian/GLOSSARY.md` | +82 | Contents, Использование, Кто ссылается на этот документ (4) +1 | — |
+| `docs/obsidian/PROGRESS.md` | +82 | Contents, Смотрите также | — |
+| `docs/01-svyazi/04-ensembles-overview.md` | +81 | Содержание | — |
+| `docs/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md` | +81 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/05-habr-projects/knowledge/agentfs.md` | +81 | Использование, Поиск по теме документа | — |
+| `docs/ONBOARDING.md` | -81 | — | Contents, Смотрите также |
+| `docs/ai-collaborations/ensembles/README.md` | +81 | Запуск, Использование | — |
+| `docs/nautilus/multi-tier-architecture/README.md` | +81 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | +81 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +3 | — |
+| `docs/obsidian/MINDMAP.md` | +81 | Contents, Смотрите также | — |
+| `docs/01-svyazi/02-methodology.md` | +80 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | +80 | Запуск, Использование | — |
+| `docs/nautilus/infrastructure-layer-b-en/10-what-not-solved.md` | +80 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md` | +80 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/07-portal-entry.md` | +80 | — | — |
+| `docs/nautilus/supply-demand/README.md` | +80 | Запуск, Использование | — |
+| `docs/obsidian/01-svyazi/06-security-privacy.md` | +80 | Contents, Безопасность и приватность, Использование +4 | — |
+| `docs/obsidian/SEE_ALSO.md` | +80 | Contents, Использование, Смотрите также | — |
+| `docs/02-anthropic-vacancies/56-essence.md` | +79 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md` | +79 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/clusters/02-sales.md` | +79 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md` | +79 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/naming/README.md` | +79 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/267-acknowledgments.md` | +79 | Использование, Кто ссылается на этот документ (18), Поиск по теме документа +3 | — |
+| `docs/obsidian/05-habr-projects/01-synthesis.md` | +79 | Contents, Использование, Кто ссылается на этот документ (4) +3 | — |
+| `docs/02-anthropic-vacancies/50-bridges.md` | +78 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` | -78 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/README.md` | +78 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-1/03-registry.md` | +78 | Содержание | — |
+| `docs/02-anthropic-vacancies/180-11-call-for-collaboration.md` | +77 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/05-habr-projects/knowledge/research-docs-liteparse.md` | +77 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/candidates/README.md` | +77 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/hermes-comparison/README.md` | +77 | Запуск, Использование | — |
+| `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` | +77 | Запуск, Использование | — |
+| `docs/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md` | +77 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/20-adr-002-q6-first-class.md` | +77 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/transmission-box/README.md` | +77 | Запуск, Использование | — |
+| `docs/obsidian/01-svyazi/12-roadmap.md` | +77 | Contents, Дорожная карта прототипа, Использование +4 | — |
+| `docs/01-svyazi/12-roadmap.md` | +76 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` | +76 | Запуск, Использование | — |
+| `docs/svyazi-2-0/limitations/README.md` | +76 | Запуск, Использование | — |
+| `docs/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md` | +75 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/community-discussions/practical-observations/README.md` | +75 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md` | +75 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/WORD_CLOUD.md` | +75 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/technology-combinations/mega-stacks/README.md` | +75 | Запуск, Использование | — |
+| `docs/01-svyazi/06-security-privacy.md` | +74 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/PASSIVE_VOICE.md` | -74 | Запуск, Использование | Contents |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/README.md` | +74 | Запуск, Использование | — |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/README.md` | +74 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/147-references.md` | +74 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | +74 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/TIMELINE.md` | +73 | 2020 (8 упоминаний), 2021 (4 упоминаний), 2022 (14 упоминаний) +8 | 2020 (4 упоминаний), 2021 (2 упоминаний), 2022 (12 упоминаний) +6 |
+| `docs/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md` | +73 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/05-hw-nl2workflow.md` | +73 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/04-level-3-medium-active.md` | +73 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/README.md` | +73 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-1/17-versioning-policy.md` | +73 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/privacy-federation/02-two-tier-publication.md` | +73 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/privacy-federation/03-what-this-gives-technically.md` | +73 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/183-references.md` | +73 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/contacts/nlaik.md` | +73 | Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/README.md` | -73 | svyazi-2-0, Запуск, Использование +2 | Svyazi 2.0 — тематический индекс, Источник, Подпапки |
+| `docs/technology-combinations/synthesis-tables/31-35-final.md` | +73 | — | — |
+| `docs/02-anthropic-vacancies/40-bridges.md` | +72 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md` | +72 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` | +72 | Запуск, Использование | — |
+| `docs/habr-unique-projects/extra-examples/README.md` | +72 | Запуск, Использование | — |
+| `docs/lorenzo-agent/06-yazyki-kultura.md` | +72 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/06-governance-ethics.md` | +72 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/01-svyazi/04-ensembles-overview.md` | +72 | Contents, Похожие документы, Приоритетные ансамбли проектов +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` | +72 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | +72 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/318-10-strategic-positioning.md` | +72 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | — |
+| `docs/svyazi-2-0/components/agent-memory-mcp.md` | +72 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/ensembles/D-voice-first-mesh.md` | +72 | — | — |
+| `docs/svyazi-2-0/prototype/README.md` | +72 | Запуск, Использование | — |
+| `docs/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md` | +72 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md` | +71 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md` | +71 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/double-triangle-architecture/00-abstract.md` | +71 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/supply-demand/00-question-supply-demand.md` | +71 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/211-table-of-contents.md` | +71 | Использование, Кто ссылается на этот документ (20), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` | +71 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/225-references.md` | +71 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | +71 | Использование, Кто ссылается на этот документ (16), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/275-why-this-document-exists.md` | +71 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +2 | — |
+| `docs/obsidian/SENTIMENT.md` | +71 | Использование, Смотрите также | — |
+| `docs/nautilus/innovation-transitions/README.md` | +70 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` | +70 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` | +70 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md` | -70 | Кто ссылается на этот документ (5), Похожие документы, Смотрите также | Contents |
+| `docs/obsidian/COST.md` | -70 | Использование, Смотрите также | Contents |
+| `docs/technology-combinations/combinations/24-mega-integration-full-stack.md` | +70 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/03-technology-combinations/04-sozialrecht-domain.md` | +69 | — | — |
+| `docs/nautilus/community-discussions/voiceless-contributors/README.md` | +69 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/136-abstract.md` | +69 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | +69 | Использование, Кто ссылается на этот документ (15), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` | +69 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md` | -69 | Кто ссылается на этот документ (5), Похожие документы, Смотрите также | Contents |
+| `docs/01-svyazi/13-contacts.md` | +68 | Использование, Поиск по теме документа | — |
+| `docs/MCP_DASHBOARD.md` | +68 | Запуск, Использование, Смотрите также | — |
+| `docs/SPELLCHECK.md` | +68 | `docs/obsidian/METHODOLOGY.md`, `docs/obsidian/SCRIPTS_CATALOG.md`, `docs/obsidian/TABLES.md` +12 | `docs/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md`, `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md`, `docs/02-anthropic-vacancies/364-final-note-ты-experiment.md` +5 |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` | +68 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md` | +68 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/double-triangle-architecture/README.md` | +68 | Запуск, Использование | — |
+| `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` | +68 | Альтернативный поиск (BM25), Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/README.md` | +68 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-1/01-introduction.md` | +68 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/07-2-terminology.md` | +68 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` | +68 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` | +68 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | +68 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/03-technology-combinations/01-agent-routing.md` | +68 | Contents, Использование, Кто ссылается на этот документ (3) +3 | — |
+| `docs/obsidian/contacts/dmitriila.md` | +68 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/obsidian/contacts/zodigancode.md` | +68 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/ensembles/H-research-to-product-flywheel.md` | +68 | — | — |
+| `docs/svyazi-2-0/outreach/README.md` | +68 | Запуск, Использование | — |
+| `docs/svyazi-2-0/outreach/message-template.md` | +68 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/19-multi-agent-observability-platform.md` | +68 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/README.md` | +67 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md` | +67 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/habr-unique-projects/deep-pairs/README.md` | +67 | Запуск, Использование | — |
+| `docs/nautilus/composite-skills-agents-companion-mentors/README.md` | +67 | Запуск, Использование | — |
+| `docs/nautilus/review-methodology/README.md` | +67 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/137-table-of-contents.md` | +67 | Использование, Кто ссылается на этот документ (15), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | +67 | Contents, Использование, Кто ссылается на этот документ (11) +3 | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md` | +66 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md` | +66 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md` | +66 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/README.md` | +66 | Запуск, Использование | — |
+| `docs/lorenzo-agent/operationalized/README.md` | +66 | Запуск, Использование | — |
+| `docs/nautilus/infrastructure-layer-b-en/00-intro.md` | +66 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/innovation-transitions/01-response.md` | +66 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/16-history.md` | +66 | Contents, Использование, Кто ссылается на этот документ (4) +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | +66 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` | +66 | Использование, Кто ссылается на этот документ (16), Поиск по теме документа +2 | — |
+| `docs/obsidian/04-ai-collaborations/00-intro.md` | +66 | Contents, Использование, Кто ссылается на этот документ (4) +3 | — |
+| `docs/svyazi-2-0/overview/README.md` | +66 | Запуск, Использование | — |
+| `docs/02-anthropic-vacancies/48-content-overview.md` | +65 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md` | +65 | Использование, Поиск по теме документа | — |
+| `docs/glossary/README.md` | +65 | Запуск, Использование | — |
+| `docs/habr-unique-projects/analogues/README.md` | +65 | Запуск, Использование | — |
+| `docs/nautilus/ingit-cowork-ru/README.md` | +65 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-0/11-security-considerations.md` | +65 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/210-abstract.md` | +65 | Использование, Кто ссылается на этот документ (18), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | +65 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/308-table-of-contents.md` | +65 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | +65 | Contents, Использование, Кто ссылается на этот документ (12) +3 | — |
+| `docs/obsidian/CONTACTS.md` | +65 | Смотрите также | — |
+| `docs/obsidian/FOOTNOTES.md` | +65 | Contents, Смотрите также | — |
+| `docs/obsidian/README.md` | -65 | docs, Использование, Кто ссылается на этот документ (226) | obsidian |
+| `docs/obsidian/STATS.md` | +65 | Использование, Смотрите также | — |
+| `docs/obsidian/contacts/cutcode.md` | +65 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/components/README.md` | +65 | Запуск, Использование | — |
+| `docs/technology-combinations/research-reports/README.md` | +65 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md` | +64 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/habr-unique-projects/hardware-pairs/README.md` | +64 | Запуск, Использование | — |
+| `docs/lorenzo-agent/specification/03-q3-what-lorenzo-does.md` | +64 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/00-abstract.md` | +64 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/review-methodology/11-application-plan-current-docs.md` | +64 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/168-abstract.md` | +64 | Использование, Кто ссылается на этот документ (19), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/223-12-closing.md` | +64 | Использование, Кто ссылается на этот документ (18), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | +64 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/FAQ.md` | +64 | Использование, Смотрите также | — |
+| `docs/obsidian/ONBOARDING.md` | +64 | Contents, Смотрите также | — |
+| `docs/svyazi-2-0/outreach/first-contacts.md` | +64 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/security/README.md` | +64 | Запуск, Использование | — |
+| `docs/templates/rfc.md` | +64 | Содержание | — |
+| `docs/lorenzo-agent/12-workflow.md` | +63 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/13-outreach-communication.md` | +63 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/05-q5-authority-limits.md` | +63 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md` | +63 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/ingit-cowork-en/README.md` | +63 | Запуск, Использование | — |
+| `docs/nautilus/npp-v1-1/18-reference-implementation.md` | +63 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/17-5-compatibility-levels.md` | +63 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md` | +63 | Кто ссылается на этот документ (14), Похожие документы, Смотрите также | — |
+| `docs/obsidian/autofilled/components/cowork.md` | +63 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/obsidian/autofilled/components/ingit.md` | +63 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/obsidian/autofilled/components/lorenzo.md` | +63 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/obsidian/autofilled/components/nautilus.md` | +63 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/obsidian/autofilled/components/sgb.md` | +63 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/obsidian/autofilled/components/svyazi.md` | +63 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/processing-guide/01-overview.md` | +63 | Содержание | — |
+| `docs/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md` | +62 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/npp-humanitarian-extension/04-grant-opportunities.md` | +62 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/okwf-concept/00-abstract.md` | +62 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/okwf-concept/04-proposed-infrastructure.md` | +62 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/155-1-problem-statement.md` | +62 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | +62 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md` | +62 | Contents, Кто ссылается на этот документ (6), Похожие документы +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/281-the-recursive-insight.md` | +62 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/READING_ORDER.md` | +62 | Использование, Поиск (bm25), Поиск (full) +2 | — |
+| `docs/obsidian/autofilled/components/svend4.md` | +62 | Contents, Использование, Кто ссылается на этот документ (10) +1 | — |
+| `docs/technology-combinations/combinations/13-legal-document-transpiler.md` | +62 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md` | +62 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md` | +61 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/habr-unique-projects/key-findings/README.md` | +61 | Запуск, Использование | — |
+| `docs/lorenzo-agent/operationalized/00-overview-grandchild-combination.md` | +61 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/21-9-query-flow.md` | +61 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/253-table-of-contents.md` | +61 | Использование, Кто ссылается на этот документ (13), Поиск по теме документа +2 | — |
+| `docs/obsidian/contacts/vladspace.md` | +61 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/templates/tech-pair.md` | +61 | Содержание | — |
+| `docs/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md` | +60 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md` | +60 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/clusters/README.md` | +60 | Запуск, Использование | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md` | +60 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/naming/03-dhlab-umbrella.md` | +60 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md` | +60 | Использование, Поиск по теме документа | — |
+| `docs/meta-scripting/README.md` | +60 | Запуск, Использование | — |
+| `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` | +60 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/privacy-federation/00-question-anonymization.md` | +60 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/transmission-box/00-question-mountain-to-person.md` | +60 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/154-table-of-contents.md` | +60 | Использование, Кто ссылается на этот документ (18), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/169-table-of-contents.md` | +60 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` | +60 | Использование, Кто ссылается на этот документ (18), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/222-11-call-for-collaboration.md` | +60 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | — |
+| `docs/obsidian/CROSSREFS.md` | +60 | Contents, Использование | — |
+| `docs/obsidian/LLM_SUMMARIES.md` | +60 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +1 | — |
+| `docs/svyazi-2-0/architecture/README.md` | +60 | Запуск, Использование | — |
+| `docs/technology-combinations/research-reports/sozialrecht-35-combinations.md` | +60 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md` | +59 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md` | +59 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` | +59 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/glossary/authors-by-name.md` | +59 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md` | +59 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md` | +59 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/npp-v1-1/README.md` | +59 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/174-5-architectural-specification.md` | +59 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/68-about.md` | +59 | Кто ссылается на этот документ (10), Похожие документы, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md` | +59 | Использование, Кто ссылается на этот документ (5), Поиск по теме документа +2 | — |
+| `docs/obsidian/CITATION_INDEX.md` | +59 | `https://github.com/svend4/meta`, `https://habr.com/ru/companies/airi/articles/1000720/`, Использование +1 | `https://habr.com/ru/articles/1007122/`, `https://habr.com/ru/articles/495554/` |
+| `docs/obsidian/HEALTH.md` | +59 | Общий балл: **100/100** 🟢, Смотрите также | Общий балл: **77/100** 🟡 |
+| `docs/obsidian/autofilled/components/kksudo.md` | +59 | Contents, Использование, Кто ссылается на этот документ (12) | — |
+| `docs/obsidian/autofilled/components/spbmolot.md` | +59 | Contents, Использование, Кто ссылается на этот документ (12) | — |
+| `docs/ABBREVIATIONS.md` | +58 | Запуск, Использование | Смотрите также |
+| `docs/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md` | +58 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md` | +58 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md` | +58 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md` | +58 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/lorenzo-agent/specification/11-difficulties-and-recommendations.md` | +58 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/community-discussions/practical-observations/00-question-practical.md` | +58 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md` | +58 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/infrastructure-layer-b-en/README.md` | +58 | Запуск, Использование | — |
+| `docs/nautilus/transmission-box/01-completing-loop.md` | +58 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/153-executive-summary.md` | +58 | Использование, Кто ссылается на этот документ (14), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/164-10-appendices.md` | +58 | Использование, Кто ссылается на этот документ (13), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/85-10-query-flow.md` | +58 | Использование, Кто ссылается на этот документ (5), Поиск по теме документа +2 | — |
+| `docs/obsidian/05-habr-projects/02-collaboration-partners.md` | +58 | Contents, Использование, Кто ссылается на этот документ (4) +3 | — |
+| `docs/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md` | +57 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/multi-tier-architecture/01-strategic-significance.md` | +57 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/okwf-concept/README.md` | +57 | Запуск, Использование | — |
+| `docs/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md` | +57 | Использование, Поиск (bm25), Поиск (full) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | +57 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/77-2-terminology.md` | +57 | Использование, Кто ссылается на этот документ (6), Поиск по теме документа +3 | — |
+| `docs/obsidian/COMPLEXITY.md` | +57 | Использование, Смотрите также | — |
+| `docs/svyazi-2-0/architecture/skill-tool-policy.md` | +57 | Использование, Поиск по теме документа | — |
+| `docs/04-ai-collaborations/README.md` | +56 | Использование | — |
+| `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | +56 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/ai-collaborations/ensembles/1-agentic-knowledge-os.md` | +56 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md` | +56 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/npp-v1-0/00-abstract-status.md` | +56 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/06-1-introduction.md` | +56 | Использование, Кто ссылается на этот документ (5), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/92-17-versioning-policy.md` | +56 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/processing-guide/PROCESSING_GUIDE.md` | +56 | — | — |
+| `docs/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md` | +56 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md` | +56 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/02-anthropic-vacancies/282-what-industry-will-likely-build.md` | +55 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md` | +55 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/scenarios/README.md` | +55 | Запуск, Использование | — |
+| `docs/nautilus/supply-demand/01-three-related-themes.md` | +55 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/obsidian/01-svyazi/08-conclusions.md` | +55 | Contents, Использование, Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/252-abstract.md` | +55 | Использование, Кто ссылается на этот документ (18), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` | +55 | Использование, Кто ссылается на этот документ (6), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md` | +55 | Кто ссылается на этот документ (4), Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/architecture/memory-write-policy.md` | +55 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/ensembles/B-forensic-rag.md` | +55 | — | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md` | +54 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/contacts/mixaill76.md` | +54 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/ensembles/C-multi-agent-factory.md` | +54 | — | — |
+| `docs/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md` | +53 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/final-ensembles/2-autoresearch-legal.md` | +53 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/final-ensembles/README.md` | +53 | Запуск, Использование | — |
+| `docs/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md` | +53 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/10-collaborators-landscape.md` | +53 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/operationalized/02-minuses-1-10.md` | +53 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/ingit-cowork-en/10-strategic-positioning.md` | +53 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/123-portal-mcp-py.md` | +53 | Использование, Кто ссылается на этот документ (21), Поиск по теме документа +2 | — |
+| `docs/obsidian/05-habr-projects/knowledge/wikontic.md` | +53 | Contents, Использование, Кто ссылается на этот документ (3) +3 | — |
+| `docs/obsidian/DENSITY.md` | +53 | Использование, Смотрите также | — |
+| `docs/01-svyazi/08-conclusions.md` | +52 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/operationalized/01-pluses-1-7.md` | +52 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/266-13-closing.md` | +52 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +2 | — |
+| `docs/obsidian/05-habr-projects/memory/yodoca.md` | +52 | Contents, Использование, Кто ссылается на этот документ (5) +3 | — |
+| `docs/obsidian/contacts/kksudo.md` | +52 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/svyazi-2-0/ensembles/E-execution-plane.md` | +52 | — | — |
+| `docs/technology-combinations/combinations/11-hybrid-crdt-sql-database.md` | +52 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/137-table-of-contents.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/02-anthropic-vacancies/154-table-of-contents.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/02-anthropic-vacancies/169-table-of-contents.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/02-anthropic-vacancies/211-table-of-contents.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/02-anthropic-vacancies/253-table-of-contents.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/02-anthropic-vacancies/308-table-of-contents.md` | +51 | Contents, Использование, Поиск по теме документа +1 | — |
+| `docs/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | +51 | — | — |
+| `docs/ai-collaborations/ensembles/2-distributed-agent-workshop.md` | +51 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md` | +51 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md` | +51 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/habr-unique-projects/software-pairs/3-crdt-self-hosted.md` | +51 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/software-pairs/4-speech-to-text-llm.md` | +51 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/software-pairs/README.md` | +51 | Запуск, Использование | — |
+| `docs/nautilus/composite-skills-agents/README.md` | +51 | Запуск, Использование | — |
+| `docs/nautilus/infrastructure-layer-b-en/12-closing.md` | +51 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/README.md` | +51 | Запуск, Использование | — |
+| `docs/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md` | +51 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/04-ten-domains.md` | +51 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/03-consolidation-principles.md` | +51 | Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/156-2-target-populations.md` | +51 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` | +51 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/technology-combinations/mega-stacks/02-ultimate-legal-ai.md` | +51 | — | — |
+| `docs/templates/legal-case.md` | +51 | Использование, Содержание, Создать новый документ из шаблона | — |
+| `docs/01-svyazi/README.md` | +50 | Использование | — |
+| `docs/ai-collaborations/ensembles/5-agent-firewall.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/ensembles/9-ambient-team-agent.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/00-context.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/13-reprioritization.md` | +50 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md` | +50 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` | +50 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/lorenzo-agent/specification/04-q4-character.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md` | +50 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md` | +50 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/DIGEST.md` | -50 | Использование, Кто ссылается на этот документ (3), Смотрите также | Содержание |
+| `docs/obsidian/VOCABULARY.md` | +50 | Использование, Смотрите также | — |
+| `docs/obsidian/autofilled/research-summary.md` | +50 | Использование, Смотрите также | — |
+| `docs/svyazi-2-0/overview/methodology.md` | +50 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/03-portal-protocol-md.md` | -49 | Использование, Поиск по теме документа | — |
+| `docs/SKILL_DASHBOARD.md` | +49 | Запуск, Использование, Смотрите также | — |
+| `docs/STATS.md` | -49 | Contents | Смотрите также, Содержание |
+| `docs/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md` | +49 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md` | +49 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md` | +49 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/02-double-triangle-architecture.md` | +49 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | +49 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/218-7-application-domains.md` | +49 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | +49 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/02-anthropic-vacancies/86-11-relevance-ranking.md` | +48 | — | — |
+| `docs/ai-collaborations/continuation/05-roadmap-6-12-months.md` | +48 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md` | +48 | Использование, Поиск по теме документа | — |
+| `docs/glossary/components-by-name.md` | +48 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md` | +48 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md` | +48 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md` | +48 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md` | +48 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/15-glossary.md` | +48 | — | — |
+| `docs/nautilus/professional-colleague-agents-en/README.md` | +48 | Запуск, Использование | — |
+| `docs/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md` | +48 | — | — |
+| `docs/nautilus/review-methodology/02-formal-workflow.md` | +48 | — | — |
+| `docs/svyazi-2-0/ensembles/F-evidence-backed-intake.md` | +48 | — | — |
+| `docs/technology-combinations/synthesis-tables/README.md` | +48 | Запуск, Использование | — |
+| `docs/02-anthropic-vacancies/146-acknowledgments.md` | +47 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/02-anthropic-vacancies/285-closing.md` | +47 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/DEPENDABOT.md` | -47 | — | Смотрите также |
+| `docs/KEYWORD_INDEX.md` | +47 | Использование, Содержание | — |
+| `docs/ai-collaborations/ensembles/6-continuous-eval-loop.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/1-llm-gateway.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/5-voice-local-memory.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/11-call-for-collaboration.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md` | +47 | Кто ссылается на этот документ (20), Похожие документы, Смотрите также | — |
+| `docs/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md` | +47 | Использование, Поиск по теме документа | — |
+| `docs/CONCEPT_GRAPH.md` | -46 | — | Contents |
+| `docs/ai-collaborations/ensembles/7-domain-agent-app-factory.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/10-profession-specific-workflows.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md` | +46 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/infrastructure-layer-b-en/08-recursive-insight.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-en/03-ingit-provides.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/02-what-makes-pca.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/05-architectural-specification.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/README.md` | +46 | Запуск, Использование | — |
+| `docs/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/README.md` | +46 | Запуск, Использование | — |
+| `docs/obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md` | +46 | Кто ссылается на этот документ (9), Похожие документы, Смотрите также | — |
+| `docs/processing-guide/README.md` | +46 | Запуск, Использование | — |
+| `docs/technology-combinations/combinations/09-agent-orchestration-stack.md` | +46 | Использование, Поиск по теме документа | — |
+| `docs/CONTACT_PRIORITY.md` | -45 | — | Смотрите также |
+| `docs/PROTOTYPE_SPEC.md` | +45 | — | — |
+| `docs/ai-collaborations/continuation/01-shared-memory-between-agents.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/01-coally.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/2-document-rag.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/software-pairs/6-metaphor.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/naming/00-question-lorenzo-codename.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/08-seven-domains.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/12-call-for-collaboration.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/README.md` | +45 | Запуск, Использование | — |
+| `docs/nautilus/representative-agent-layer-en/12-closing.md` | +45 | Альтернативный поиск (BM25), Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/16-glossary.md` | +45 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md` | +45 | Использование, Кто ссылается на этот документ (5), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/261-8-seven-domains-of-application.md` | +45 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/ENTITIES.md` | +45 | Использование, Смотрите также | — |
+| `docs/svyazi-2-0/components/memnet.md` | +45 | Использование, Поиск (bm25), Поиск (full) +2 | — |
+| `docs/svyazi-2-0/limitations/conclusions.md` | +45 | Использование, Поиск по теме документа | — |
+| `docs/templates/mega-stack.md` | +45 | Использование, Создать новый документ из шаблона | — |
+| `docs/01-svyazi/01-executive-summary.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/AUTOFILLED.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/source-projects.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/00-question-habr-examples.md` | +44 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/lorenzo-agent/scenarios/01-response.md` | +44 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/README.md` | +44 | Использование | — |
+| `docs/nautilus/community-discussions/habr-article-2-reaction/01-response.md` | +44 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-en/07-specific-case.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-en/02-cowork-provides.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/10-checklist.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/144-7-open-questions.md` | +44 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | +44 | Кто ссылается на этот документ (8), Похожие документы, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md` | +44 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/README.md` | +44 | Альтернативный поиск (BM25), Использование, Кто ссылается на этот документ (210) +2 | — |
+| `docs/obsidian/04-ai-collaborations/01-executive-summary.md` | +44 | Contents, Использование, Кто ссылается на этот документ (4) +4 | — |
+| `docs/svyazi-2-0/ensembles/A-collaboration-os.md` | +44 | — | — |
+| `docs/svyazi-2-0/prototype/mvp-plan.md` | +44 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/README.md` | +43 | Запуск, Использование | — |
+| `docs/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/00-intro.md` | +43 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/18-comment-on-document.md` | +43 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/npp-v1-1/07-portal-entry.md` | +43 | — | — |
+| `docs/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` | +43 | Использование, Кто ссылается на этот документ (16), Поиск по теме документа +2 | — |
+| `docs/reading-paths.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/overview/executive-summary.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/34-distributed-event-store-with-paxos.md` | +43 | Использование, Поиск по теме документа | — |
+| `docs/templates/protocol-spec.md` | +43 | — | — |
+| `docs/TECH_RADAR.md` | -42 | — | Содержание |
+| `docs/VOCABULARY.md` | -42 | Запуск, Использование | Содержание |
+| `docs/ai-collaborations/continuation/08-commercialization-three-paths.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/05-tvoya-lichnost.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/operationalized/04-recommendations.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` | +42 | Использование | — |
+| `docs/nautilus/composite-skills-agents/07-economics-combinatorial.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/06-four-deployment-domains.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/07-phased-rollout.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/10-appendices.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/03-portal-protocol-md.md` | +42 | Contents, Использование, Кто ссылается на этот документ (22) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | +42 | Использование, Кто ссылается на этот документ (13), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/20-8-consensus-algorithm.md` | +42 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/23-11-security-considerations.md` | +42 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` | +42 | Использование, Поиск по теме документа, Похожие документы +1 | — |
+| `docs/svyazi-2-0/architecture/card-envelope.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/limitations/license-tree.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/research-reports/continuation-10-domains.md` | +42 | Использование, Поиск по теме документа | — |
+| `docs/01-svyazi/09-architectural-gaps.md` | +41 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/01-svyazi/11-integration-contracts.md` | +41 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/anthropic-vacancies/README.md` | +41 | Запуск, Использование | — |
+| `docs/habr-unique-projects/hardware-pairs/7-metaphor.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/phased-deployment/08-current-session-poc.md` | +41 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/community-discussions/practical-observations/01-response.md` | +41 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/nautilus/community-discussions/voiceless-contributors/01-response.md` | +41 | Альтернативный поиск (BM25), Использование, Поиск по теме документа +1 | — |
+| `docs/nautilus/double-triangle-architecture/07-open-questions.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/09-riski-voprosy.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/05-economic-model.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/01-five-type-typology.md` | +41 | — | — |
+| `docs/nautilus/representative-agent-layer-en/10-open-questions.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/01-svyazi/02-methodology.md` | +41 | Использование, Поиск по теме документа, Похожие документы +1 | — |
+| `docs/obsidian/01-svyazi/13-contacts.md` | +41 | Использование, Контактная стратегия, Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md` | +41 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` | +41 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/contacts/README.md` | +41 | — | — |
+| `docs/svyazi-2-0/prototype/risks.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/security/budget-routing.md` | +41 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/65-readme-md.md` | -40 | Использование, Поиск по теме документа | — |
+| `docs/BADGES.md` | +40 | — | — |
+| `docs/MINDMAP.md` | -40 | — | Смотрите также |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/03-what-makes-csa.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/09-okwf-integration.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/13-closing.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/08-call-to-action.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md` | +40 | — | — |
+| `docs/nautilus/npp-v1-1/22-glossary.md` | +40 | — | — |
+| `docs/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/08-implementation-nautilus.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` | +40 | Использование, Кто ссылается на этот документ (17), Поиск по теме документа +2 | — |
+| `docs/obsidian/HEATMAP.md` | +40 | Смотрите также | — |
+| `docs/svyazi-2-0/prototype/roadmap.md` | +40 | Использование, Поиск по теме документа | — |
+| `docs/01-svyazi/03-component-catalog.md` | +39 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/01-svyazi/07-mvp-planning.md` | +39 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/KPI_HISTORY.md` | -39 | Тренды (последние снапшоты) | Contents |
+| `docs/NETWORK.md` | -39 | Запуск, Использование | Смотрите также |
+| `docs/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md` | +39 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md` | +39 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/12-concrete-next-step.md` | +39 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/04-passport.md` | +39 | — | — |
+| `docs/nautilus/npp-v1-1/06-adapter-interface.md` | +39 | — | — |
+| `docs/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md` | +39 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/03-technology-combinations/02-knowledge-graphs.md` | +39 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +3 | — |
+| `docs/obsidian/contacts/anastasiyaw.md` | +39 | Кто ссылается на этот документ (4), Похожие документы, Смотрите также | — |
+| `docs/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/35-passports-info1-md.md` | -38 | Использование, Поиск по теме документа | — |
+| `docs/GRAPH.md` | -38 | — | Смотрите также |
+| `docs/anthropic-vacancies/overview.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/01-q1-what-lorenzo-is.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-en/06-refined-ingit-scope.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/02-terminology.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/09-limitations-open-questions.md` | +38 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` | +38 | Использование, Кто ссылается на этот документ (5), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md` | +38 | Похожие документы, Смотрите также | — |
+| `docs/obsidian/NAMED_ENTITIES.md` | +38 | `2026-04-29` (46 файлов), `2026-04` (92 файлов), `2026-05` (33 файлов) +26 | `2026-04-26` (12 файлов), `2026-04-29` (51 файлов), `2026-04` (123 файлов) +24 |
+| `docs/02-anthropic-vacancies/79-4-passport-passport-md.md` | +37 | — | — |
+| `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | +37 | — | — |
+| `docs/TASKS_INDEX.md` | +37 | Использование | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md` | +37 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md` | +37 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md` | +37 | BM25 поиск, Использование, Семантический поиск с расширенным результатом | — |
+| `docs/obsidian/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` | +37 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/55-passports-meta-md.md` | +37 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/76-1-introduction.md` | -37 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | Contents |
+| `docs/svyazi-2-0/overview/continuation-intro.md` | +37 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/105-review-methodology-md.md` | -36 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/04-sub-agent-registry.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/10-query-flow.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/02-target-populations.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md` | +36 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/04-fallback-ratio-question.md` | +36 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/105-review-methodology-md.md` | +36 | Contents, Использование, Кто ссылается на этот документ (21) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` | +36 | Кто ссылается на этот документ (8), Похожие документы, Смотрите также | — |
+| `docs/obsidian/03-technology-combinations/05-benchmarks.md` | +36 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +2 | — |
+| `docs/templates/agent-spec.md` | +36 | Использование, Создать новый документ из шаблона | — |
+| `docs/04-ai-collaborations/01-executive-summary.md` | +35 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/SIMILAR_PASSAGES.md` | +35 | Использование | — |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md` | +35 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/specification/10-q10-funding-model.md` | +35 | Использование, Поиск по теме документа | — |
+| `docs/meta-scripting/QA.md` | +35 | Запуск, Использование, Смотрите также | — |
+| `docs/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md` | +35 | — | — |
+| `docs/nautilus/npp-v1-0/05-compatibility-levels.md` | +35 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/09-consensus-algorithm.md` | +35 | — | — |
+| `docs/nautilus/okwf-concept/01-problem-statement.md` | +35 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md` | +35 | Использование, Кто ссылается на этот документ (6), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/65-readme-md.md` | +35 | Contents, Использование, Кто ссылается на этот документ (9) +3 | — |
+| `docs/obsidian/03-technology-combinations/03-local-first.md` | +35 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +2 | — |
+| `docs/obsidian/contacts/andrey-chuyan.md` | +35 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/templates/decision-record.md` | +35 | Запуск, Использование, Смотрите также | — |
+| `docs/ai-collaborations/continuation/09-do-not-glue.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/06-coordination-disagreement.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/10-risks.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-en/01-cowork-discovery.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/00-abstract-status.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/privacy-federation/04-what-i-can-do-now.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/05-ekonomika.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/08-riski-mery.md` | +34 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/13-appendix-b-examples.md` | +34 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` | +34 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +3 | Contents |
+| `docs/obsidian/LINKS.md` | +34 | Contents, Использование, Кто ссылается на этот документ (4) +1 | — |
+| `docs/SUMMARIES.md` | +33 | Использование, Применить резюме прямо в файлы + только раздел habr-projects | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md` | +33 | Использование, Поиск по теме документа | — |
+| `docs/contacts/vitalysemenov.md` | +33 | — | — |
+| `docs/meta-scripting/02-architecture.md` | +33 | — | — |
+| `docs/meta-scripting/03-catalog.md` | +33 | — | — |
+| `docs/meta-scripting/05-synthesis.md` | +33 | — | — |
+| `docs/nautilus/ingit-cowork-en/07-practical-first-steps.md` | +33 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md` | +33 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/08-consensus-algorithm.md` | +33 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/15-security.md` | +33 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md` | +33 | Кто ссылается на этот документ (8), Похожие документы, Смотрите также | — |
+| `docs/obsidian/02-anthropic-vacancies/69-section.md` | +33 | Кто ссылается на этот документ (9), Похожие документы, Смотрите также | — |
+| `docs/01-svyazi/10-second-order-ensembles.md` | +32 | Содержание | — |
+| `docs/MISSING.md` | -32 | Запуск, Использование | Смотрите также |
+| `docs/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/meta-scripting/04-enrichment.md` | +32 | — | — |
+| `docs/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/composite-skills-agents/05-configuration-ensembles.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/05-economics-replication.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/07-application-domains.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/06-riski.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md` | +32 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | +32 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/02-anthropic-vacancies/45-passports-pro2-md.md` | +32 | Contents, Использование, Кто ссылается на этот документ (6) +3 | — |
+| `docs/04-ai-collaborations/00-intro.md` | +31 | Использование, Содержание | — |
+| `docs/METHODOLOGY.md` | +31 | — | — |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/autofilled/research-summary.md` | +31 | Использование | — |
+| `docs/contacts/dmitriila.md` | +31 | — | — |
+| `docs/contacts/zodigancode.md` | +31 | — | — |
+| `docs/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/07-governance-oversight.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md` | +31 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/35-passports-info1-md.md` | +31 | Contents, Использование, Кто ссылается на этот документ (10) +3 | — |
+| `docs/svyazi-2-0/limitations/do-not-glue.md` | +31 | Использование, Поиск по теме документа | — |
+| `docs/KPI.md` | -30 | Contents, Вариант 2, Версия (777) +9 | Версия (636), Время (444), Количество (432) +7 |
+| `docs/REGISTRY.md` | -30 | — | Содержание |
+| `docs/contacts/README.md` | +30 | Запуск, Использование | — |
+| `docs/nautilus/double-triangle-architecture/11-glossary.md` | +30 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-en/05-four-integration-paths.md` | +30 | — | — |
+| `docs/nautilus/professional-colleague-agents-ru/04-arkhitektura.md` | +30 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` | +30 | Использование, Кто ссылается на этот документ (6), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/145-8-call-to-action.md` | +30 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +2 | — |
+| `docs/svyazi-2-0/architecture/gaps.md` | +30 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md` | +30 | Использование, Поиск по теме документа | — |
+| `docs/templates/template-of-templates.md` | +30 | — | — |
+| `docs/02-anthropic-vacancies/09-4-passport-passport-md.md` | -29 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/45-passports-pro2-md.md` | -29 | Использование, Поиск по теме документа | — |
+| `docs/ALERTS.md` | +29 | Смотрите также | — |
+| `docs/FOOTNOTES.md` | -29 | — | Смотрите также |
+| `docs/READING_LIST.md` | +29 | Использование | — |
+| `docs/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/lorenzo-agent/naming/01-search-results-not-found.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/double-triangle-architecture/10-references.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/02-terminology.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/05-compatibility-levels.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/03-why-existing-fail.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/02-historical-precedents.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/05-conditions-of-applicability.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/INDEX.md` | -29 | Смотрите также | Связанные документы, Упоминается в |
+| `docs/svyazi-2-0/outreach/narrow-questions.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/22-russian-international-oss-stack.md` | +29 | Использование, Поиск по теме документа | — |
+| `docs/METRICS.md` | -28 | Использование, Обновить метрики и проверить здоровье репозитория | — |
+| `docs/contacts/cutcode.md` | +28 | — | — |
+| `docs/nautilus/ingit-cowork-en/04-symbiotic-architecture.md` | +28 | — | — |
+| `docs/nautilus/npp-v1-1/04-passport.md` | +28 | — | — |
+| `docs/nautilus/npp-v1-1/13-rest-api.md` | +28 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/73-portal-protocol-md-v1-1.md` | +28 | Contents, Использование, Кто ссылается на этот документ (13) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/90-15-security-considerations.md` | -28 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/contacts/spbmolot.md` | +28 | Кто ссылается на этот документ (3), Похожие документы, Смотрите также | — |
+| `docs/obsidian/contacts/vitalyoborin.md` | +28 | Кто ссылается на этот документ (4), Похожие документы, Смотрите также | — |
+| `docs/nautilus/professional-colleague-agents-en/04-architecture.md` | +27 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/06-risks.md` | +27 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/12-closing.md` | +27 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/268-references.md` | +27 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +3 | Contents |
+| `docs/obsidian/02-anthropic-vacancies/81-6-adapter-interface.md` | +27 | Кто ссылается на этот документ (7), Похожие документы, Смотрите также +1 | Contents |
+| `docs/CROSS_SECTION.md` | +26 | — | — |
+| `docs/ai-collaborations/fast-tracks/README.md` | +26 | Использование | — |
+| `docs/nautilus/double-triangle-architecture/05-pattern-library-bridge.md` | +26 | — | — |
+| `docs/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md` | +26 | — | — |
+| `docs/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md` | +26 | — | — |
+| `docs/nautilus/npp-v1-0/01-introduction.md` | +26 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/10-open-questions.md` | +26 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md` | +26 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/review-methodology/06-relation-existing-methodologies.md` | +26 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/163-9-call-for-partnership.md` | -26 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | Contents |
+| `docs/02-anthropic-vacancies/55-passports-meta-md.md` | -25 | Использование, Поиск по теме документа | — |
+| `docs/READING_ORDER.md` | +25 | Contents, Вариант 2, Вариант 3 +3 | Смотрите также, Содержание |
+| `docs/SENTIMENT.md` | -25 | Contents, Запуск, Использование | Смотрите также, Содержание |
+| `docs/autofilled/components/README.md` | +25 | — | — |
+| `docs/glossary/concepts.md` | +25 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/svyazi-2-0/overview/projects-map.md` | +25 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md` | +25 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/technology-combinations/combinations/14-local-first-agent-development-environment.md` | +25 | Использование, Поиск по теме документа, Содержание | — |
+| `docs/COMPLEXITY.md` | -24 | Contents, Запуск, Использование | Смотрите также, Содержание |
+| `docs/DIGEST.md` | -24 | Запуск, Использование | Кто ссылается на этот документ (3), Новые документы |
+| `docs/ENTITIES.md` | -24 | Contents, Запуск, Использование | Смотрите также, Содержание |
+| `docs/TOPIC_MODEL.md` | +24 | Использование | — |
+| `docs/contacts/vladspace.md` | +24 | — | — |
+| `docs/nautilus/ingit-cowork-en/09-risks-open-questions.md` | +24 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/okwf-concept/08-risk-analysis.md` | +24 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md` | +24 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-0/03-registry.md` | +23 | — | — |
+| `docs/nautilus/npp-v1-0/06-adapter-interface.md` | +23 | — | — |
+| `docs/nautilus/npp-v1-1/08-q6-space.md` | +23 | — | — |
+| `docs/nautilus/review-methodology/01-context-motivation.md` | +23 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/179-10-open-questions.md` | +23 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +3 | Contents |
+| `docs/obsidian/CHANGELOG_AUTO.md` | +23 | Использование, Кто ссылается на этот документ (3), Смотрите также | Contents |
+| `docs/svyazi-2-0/components/security-routing-plane.md` | +23 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | +22 | Использование, Кто ссылается на этот документ (5), Поиск по теме документа +2 | — |
+| `docs/obsidian/05-habr-projects/memory/memnet.md` | +22 | Использование, Кто ссылается на этот документ (4), Поиск (bm25) +4 | — |
+| `docs/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md` | +22 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/mega-stacks/01-legal-ai-stack.md` | +22 | — | — |
+| `docs/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` | +21 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/221-10-open-questions.md` | +21 | Использование, Кто ссылается на этот документ (12), Поиск по теме документа +3 | Contents |
+| `docs/obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md` | +21 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +3 | Contents |
+| `docs/obsidian/TECH_RADAR.md` | -21 | Смотрите также | Contents, Упоминается в |
+| `docs/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md` | +21 | Использование, Поиск по теме документа | — |
+| `docs/COLLAB_SUGGESTIONS.md` | +20 | — | — |
+| `docs/CONTACTS.md` | -20 | Contents | Содержание |
+| `docs/DIGEST_WEEKLY.md` | +20 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/175-6-ethical-framework.md` | -20 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/autofilled/README.md` | +20 | — | — |
+| `docs/obsidian/autofilled/components/README.md` | +20 | — | — |
+| `docs/DENSITY.md` | -19 | Contents, Запуск, Использование | Смотрите также, Содержание |
+| `docs/SCHEDULE.md` | -19 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md` | -19 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | Contents |
+| `docs/02-anthropic-vacancies/16-history.md` | +18 | Использование, Поиск по теме документа | — |
+| `docs/autofilled/README.md` | +18 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/279-existing-approximations.md` | +18 | Использование, Кто ссылается на этот документ (9), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/TOPIC_MODEL.md` | +18 | Использование, Смотрите также | — |
+| `docs/02-anthropic-vacancies/12-content-overview.md` | +17 | Использование, Поиск по теме документа | — |
+| `docs/contacts/mixaill76.md` | +17 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/162-8-risk-analysis.md` | +17 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | — |
+| `docs/obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md` | -17 | Использование, Кто ссылается на этот документ (7), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/02-anthropic-vacancies/264-11-open-questions.md` | -17 | Использование, Кто ссылается на этот документ (10), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/TIMELINE.md` | -17 | 2021 (2 упоминаний), 2024 (51 упоминаний), 2026 (475 упоминаний) +3 | 2021 (3 упоминаний), 2024 (46 упоминаний), 2026 (457 упоминаний) |
+| `docs/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md` | +17 | Использование, Поиск по теме документа | — |
+| `docs/templates/research-note.md` | +17 | Запуск, Использование | — |
+| `docs/habr-unique-projects/key-findings/02-memnet.md` | +16 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/00-intro.md` | +16 | Использование, Кто ссылается на этот документ (3), Поиск (bm25) +3 | — |
+| `docs/obsidian/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` | -16 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | Contents |
+| `docs/technology-combinations/combinations/15-self-consolidating-legal-corpus.md` | +16 | Использование, Поиск по теме документа | — |
+| `docs/CITATION_INDEX.md` | -15 | Contents, `https://habr.com/ru/articles/1007122/`, Запуск +1 | `https://github.com/svend4/meta`, Содержание |
+| `docs/REPORT.md` | -15 | — | — |
+| `docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md` | +15 | Использование, Поиск по теме документа | — |
+| `docs/SCRIPT_EVAL_REPORT.md` | +14 | 3.2 CardIndex (improve_card_index.py), Сценка Б: Работа с CardIndex | 3.2 Card Index (improve_card_index.py), Сценка Б: Работа с Card Index |
+| `docs/02-anthropic-vacancies/31-content-overview.md` | +13 | Использование, Поиск по теме документа | — |
+| `docs/obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md` | +13 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | — |
+| `docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md` | +13 | Использование, Поиск по теме документа | — |
+| `docs/badges/README.md` | +12 | — | — |
+| `docs/obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md` | -12 | Использование, Кто ссылается на этот документ (6), Поиск по теме документа +3 | Contents |
+| `docs/AUTHORS.md` | +11 | Запуск, Использование | Contents, Смотрите также |
+| `docs/COVERAGE.md` | -11 | Полное покрытие — 21 файлов | Полное покрытие — 1 файлов, Файлы с низким покрытием (< 3 признаков) — 3 файлов |
+| `docs/obsidian/01-svyazi/01-executive-summary.md` | -11 | Использование, Поиск по теме документа, Похожие документы | Contents |
+| `docs/obsidian/QA.md` | -11 | — | — |
+| `docs/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md` | +11 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/mega-stacks/03-dsl-ast.md` | +11 | — | — |
+| `docs/02-anthropic-vacancies/28-appendix-a-minimal-working-example.md` | +10 | — | — |
+| `docs/CROSSREFS.md` | +10 | Запуск, Использование, Смотрите также | — |
+| `docs/HEATMAP.md` | -10 | Contents | Смотрите также, Содержание |
+| `docs/obsidian/02-anthropic-vacancies/159-5-economic-model.md` | -10 | Использование, Кто ссылается на этот документ (4), Поиск по теме документа +2 | Contents |
+| `docs/templates/prototype-mvp.md` | +10 | Использование, Создать новый документ из шаблона | — |
+| `docs/obsidian/SCHEDULE.md` | +9 | Смотрите также | — |
+| `docs/SCORING.md` | -8 | Запуск, Использование | — |
+| `docs/contacts/andrey-chuyan.md` | +8 | — | — |
+| `docs/obsidian/COMPONENT_MATRIX.md` | -8 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +1 | Contents |
+| `docs/processing-guide/04-structuring.md` | +6 | — | — |
+| `docs/WORD_FREQ.md` | +5 | 01-svyazi (10,937 слов), 02-anthropic-vacancies (198,105 слов), 03-technology-combinations (2,706 слов) +22 | 01-svyazi (9,780 слов), 02-anthropic-vacancies (210,677 слов), 03-technology-combinations (2,418 слов) +20 |
+| `docs/obsidian/autofilled/components/.md` | -5 | Contents, Использование, Кто ссылается на этот документ (12) +1 | — |
+| `docs/obsidian/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md` | +4 | Кто ссылается на этот документ (4), Похожие документы, Смотрите также | Contents |
+| `docs/templates/ensemble.md` | -4 | — | — |
+| `docs/02-anthropic-vacancies/04-abstract.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/05-0-status-of-this-document.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/06-1-introduction.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/07-2-terminology.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/103-appendix-b-change-log.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/106-tl-dr.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/13-angle-perspective.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/147-references.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/181-12-closing.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/182-acknowledgments.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/183-references.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/21-9-query-flow.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/222-11-call-for-collaboration.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/224-acknowledgments.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/225-references.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/23-11-security-considerations.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/24-12-versioning-policy.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/286-acknowledgments.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/287-references.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/320-references.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/37-native-format.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/39-angle-perspective.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/41-compatibility-level.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/42-author-contact.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/49-angle-perspective.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/51-compatibility-level.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/52-author-contact.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/53-history.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/59-angle-perspective.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/61-compatibility-level.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/62-author-contact.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/63-history.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/74-abstract.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/75-0-status-of-this-document.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/80-5-compatibility-levels.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/85-10-query-flow.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/91-16-mcp-extension-informative.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/92-17-versioning-policy.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/93-18-reference-implementation.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/03-technology-combinations/01-agent-routing.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/01-synthesis.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/02-collaboration-partners.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/knowledge/wikontic.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/memory/ngt-memory.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/memory/yodoca.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/CLUSTERS.md` | +3 | Использование, Обновить кластеры и сразу проверить здоровье репозитория | — |
+| `docs/COST.md` | -3 | Contents, Запуск, Использование | Содержание |
+| `docs/LLM_SUMMARIES.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/SIMILAR.md` | +3 | Использование | — |
+| `docs/WORD_CLOUD.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/candidates/01-three-key-candidates.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/continuation/02-agentops-trace-envelope.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/ai-collaborations/ensembles/3-forensic-rag.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/anthropic-vacancies/signals.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/autofilled/components/.md` | +3 | Использование | — |
+| `docs/autofilled/components/cowork.md` | +3 | Использование | — |
+| `docs/autofilled/components/ingit.md` | +3 | Использование | — |
+| `docs/autofilled/components/kksudo.md` | +3 | Использование | — |
+| `docs/autofilled/components/lorenzo.md` | +3 | Использование | — |
+| `docs/autofilled/components/nautilus.md` | +3 | Использование | — |
+| `docs/autofilled/components/sgb.md` | +3 | Использование | — |
+| `docs/autofilled/components/spbmolot.md` | +3 | Использование | — |
+| `docs/autofilled/components/svend4.md` | +3 | Использование | — |
+| `docs/autofilled/components/svyazi.md` | +3 | Использование | — |
+| `docs/habr-unique-projects/analogues/01-three-direct-analogues.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/analogues/02-related-projects.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/final-ensembles/4-summary-authors.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/hardware-pairs/2-tsu-mome.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/hardware-pairs/4-riscv-privacy.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/key-findings/01-yodoca.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/key-findings/04-dochkina-sequential.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/habr-unique-projects/key-findings/05-supplementary-infrastructure.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/architecture/evidence-envelope.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/architecture/integration-spec.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/svyazi-2-0/security/default-policy.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/25-legal-dsl-code-transpiler.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/combinations/31-event-sourced-legal-document-history.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/technology-combinations/synthesis-tables/01-08-summary.md` | +3 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/44-for-the-curious-philosophy.md` | -2 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/54-for-the-curious-philosophy.md` | -2 | Использование, Поиск по теме документа | — |
+| `docs/COMPARE.md` | -2 | Запуск, Изменившиеся файлы (173) — топ по Δ слов, Использование +1 | Изменившиеся файлы (570) — топ по Δ слов, Новые файлы (293) |
+| `docs/templates/contact-outreach.md` | +2 | — | — |
+| `docs/02-anthropic-vacancies/00-intro.md` | +1 | Использование, Поиск (bm25), Поиск (full) +1 | — |
+| `docs/02-anthropic-vacancies/123-portal-mcp-py.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/136-abstract.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/143-6-four-deployment-domains.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/144-7-open-questions.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/145-8-call-to-action.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/148-appendix-a-glossary.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/153-executive-summary.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/155-1-problem-statement.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/156-2-target-populations.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/158-4-proposed-infrastructure.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/159-5-economic-model.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/160-6-governance-and-ethics.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/162-8-risk-analysis.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/163-9-call-for-partnership.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/164-10-appendices.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/168-abstract.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/174-5-architectural-specification.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/175-6-ethical-framework.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/176-7-governance-and-oversight.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/179-10-open-questions.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/210-abstract.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/218-7-application-domains.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/221-10-open-questions.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/223-12-closing.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/252-abstract.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/257-4-the-sub-agent-registry.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/261-8-seven-domains-of-application.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/264-11-open-questions.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/265-12-call-for-collaboration.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/266-13-closing.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/267-acknowledgments.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/268-references.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/275-why-this-document-exists.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/279-existing-approximations.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/281-the-recursive-insight.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/307-abstract.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/319-acknowledgments.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/76-1-introduction.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/77-2-terminology.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/90-15-security-considerations.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/02-anthropic-vacancies/README.md` | +1 | Альтернативный поиск (BM25), Использование, Поиск по теме документа | — |
+| `docs/03-technology-combinations/02-knowledge-graphs.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/03-technology-combinations/03-local-first.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/03-technology-combinations/05-benchmarks.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/05-habr-projects/memory/memnet.md` | +1 | Использование, Поиск (bm25), Поиск (full) +1 | — |
+| `docs/CHANGELOG_AUTO.md` | +1 | Использование | — |
+| `docs/COMPONENT_MATRIX.md` | +1 | Использование, Поиск по теме документа | — |
+| `docs/GLOSSARY.md` | -1 | Запуск, Использование | Contents, Кто ссылается на этот документ (4), Смотрите также |
+| `docs/obsidian/02-anthropic-vacancies/160-6-governance-and-ethics.md` | -1 | Использование, Кто ссылается на этот документ (3), Поиск по теме документа +2 | Contents |
+| `docs/obsidian/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md` | +1 | Использование, Кто ссылается на этот документ (13), Поиск по теме документа +2 | Contents |
+| `docs/templates/project-component.md` | -1 | Запуск, Использование | — |
+| `docs/HEALTH.md` | 0 | — | — |
 
 
 ## Использование
-
 ```bash
+# Запуск
 python scripts/improve_version_diff.py
 ```
-
 ```bash
-# Diff за последние 7 коммитов
-python scripts/improve_version_diff.py --last 7
+# Вариант 2
+python scripts/improve_version_diff.py --dry-run
 ```
-
 ```bash
-# Сравнить конкретные ревизии
-python scripts/improve_version_diff.py --from HEAD~5 --to HEAD
+# Вариант 3
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_version_diff.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_version_diff.py --dry-run
 ```
 
 ## Смотрите также
-- [[SEARCH]]
-- [[LANGUAGE_STATS]]
-- [[READING_TIME]]
-- [[READABILITY]]
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]
+- [[CONTACTS|Контакты]]
+- [[SCORING|Оценка]]
+- [[TAGS|Теги]]
+- [[ACTION_ITEMS|Задачи]]
+- [[TIMELINE|Хронология]]
+- [[OUTLINE|Структура]]
 
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+- [[DECISIONS|Решения]]
+- [[CONTACTS|Контакты]]

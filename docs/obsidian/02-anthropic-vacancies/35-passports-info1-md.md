@@ -4,7 +4,7 @@ tags:
   - rag
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # passports/info1.md

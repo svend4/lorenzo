@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера
@@ -22,17 +22,17 @@ h1. Приложение C: Образец Спецификаций Инстру
 
 
 {quote}Для справки, вот детальные спецификации для{quote}
-_Проекты:_ Svyazi, CardIndex, [knowledge-space|../docs/01-svyazi/03-component-catalog.md], Graph RAG, NGT Memory, Wikontic
+_Проекты:_ Svyazi, CardIndex, [knowledge-space|../01-svyazi/03-component-catalog.md], Graph RAG, NGT Memory, Wikontic
 
 ----
 
 
 h2. Содержание
 
-* [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера|#приложение-c-образец-спецификаций-инструментов-[ingit](../docs/02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]-mcp-сервера)
+* [Приложение C: Образец Спецификаций Инструментов InGit MCP Сервера|#приложение-c-образец-спецификаций-инструментов-ingit-mcp-сервера]
   * [Краткие заметки к переводу|#краткие-заметки-к-переводу]
   * [Что такое Hermes Agent|#что-такое-hermes-agent]
-  * [Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)|#чем-hermes-похож-на-нашу-архитектуру-ingit-cowork-[nautilus](../docs/05-habr-projects/memory/memnet.md])
+  * [Чем Hermes похож на нашу архитектуру (InGit + Cowork + Nautilus)|#чем-hermes-похож-на-нашу-архитектуру-ingit-cowork-nautilus]
   * [Чем Hermes отличается — где наши документы добавляют value|#чем-hermes-отличается-где-наши-документы-добавляют-value]
   * [Плюсы Hermes (vs наша гипотетическая архитектура)|#плюсы-hermes-vs-наша-гипотетическая-архитектура]
   * [Минусы Hermes (где наша архитектура добавляет ценность)|#минусы-hermes-где-наша-архитектура-добавляет-ценность]
@@ -61,7 +61,7 @@ h2. Содержание
   * [Общая характеристика трёх репозиториев|#общая-характеристика-трёх-репозиториев]
   * [Что интересного и полезного в info40|#что-интересного-и-полезного-в-info40]
   * [Что интересного и полезного в info7|#что-интересного-и-полезного-в-info7]
-  * [Что интересного и полезного в info1|#что-интересного-и-полезного-в-[info1](../docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md])
+  * [Что интересного и полезного в info1|#что-интересного-и-полезного-в-info1]
   * [Integrated Analysis — что эти три together предлагают|#integrated-analysis-что-эти-три-together-предлагают]
   * [Где эти repositories valuable beyond their actual code|#где-эти-repositories-valuable-beyond-their-actual-code]
   * [Application к Cowork+InGit и других связок|#application-к-coworkingit-и-других-связок]
@@ -1996,7 +1996,7 @@ Web durchsucht
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.19)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.18)
 - [ACTION_ITEMS](../ACTION_ITEMS.md) (сходство 0.16)
@@ -2006,7 +2006,7 @@ Web durchsucht
 
 ---
 
-**Смотрите также:**
+## Смотрите также
 - [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
 - [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
 - [ACTION_ITEMS](../ACTION_ITEMS.md)
@@ -2038,3 +2038,17 @@ Web durchsucht
 - [8. Implications for Nautilus and OKWF](316-8-implications-for-nautilus-and-okwf.md) _17%_
 - [Вакансии Anthropic — Анализ по кластерам](../README.md) _17%_
 - [Кластеры тематически близких файлов](../CLUSTERS.md) _17%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (7)
+- [165-closing](165-closing.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [303-приложение-визуализация-позиции-в-серии](303-приложение-визуализация-позиции-в-серии.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](342-что-такое-вариант-c-concept-document-для-anthropic.md)
+- [364-final-note-ты-experiment](364-final-note-ты-experiment.md)
+- [365-развёрнутый-анализ-внуковой-комбинации](365-развёрнутый-анализ-внуковой-комбинации.md)
+- [README](README.md)
+

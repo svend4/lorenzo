@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/contacts/vladspace.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -19,20 +19,28 @@ tags: [контакты, команда]
 h1. Контакт: VladSpace / Graph RAG
 
 
-{quote}- [Статус связи|#статус-связи]{quote}
-_Проекты:_ Svyazi, Graph RAG
-
-----
-
-
-
-
 h2. Contents
 
 * [Профиль|#профиль]
 * [Статус связи|#статус-связи]
 * [Первое сообщение|#первое-сообщение]
 * [Открытые вопросы|#открытые-вопросы]
+* [Похожие документы|#похожие-документы]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (3)|#кто-ссылается-на-этот-документ-3]
+
+
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
+
+{quote}- [Статус связи|#статус-связи]{quote}
+_Проекты:_ Svyazi, Graph RAG
+
+----
+
 
 
 
@@ -80,19 +88,30 @@ _Создано автоматически: 2026-04-29_
 
 ----
 
-_Похожие документы:_
-* [zodigancode|docs/contacts/zodigancode.md] (сходство 0.88)
-* [tagir-analyzes|docs/contacts/tagir-analyzes.md] (сходство 0.88)
-* [mixaill76|docs/contacts/mixaill76.md] (сходство 0.88)
+h2. Похожие документы
+* [zodigancode|zodigancode.md] (сходство 0.88)
+* [tagir-analyzes|tagir-analyzes.md] (сходство 0.88)
+* [mixaill76|mixaill76.md] (сходство 0.88)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [tagir-analyzes|docs/contacts/tagir-analyzes.md]
-* [cutcode|docs/contacts/cutcode.md]
-* [zodigancode|docs/contacts/zodigancode.md]
-* [dmitriila|docs/contacts/dmitriila.md]
+h2. Смотрите также
+* [tagir-analyzes|tagir-analyzes.md]
+* [cutcode|cutcode.md]
+* [zodigancode|zodigancode.md]
+* [dmitriila|dmitriila.md]
 
+
+
+
+----
+
+h2. Кто ссылается на этот документ (3)
+* [kksudo|../autofilled/components/kksudo.md]
+* [spbmolot|../autofilled/components/spbmolot.md]
+* [README|README.md]
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._

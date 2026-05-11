@@ -1,116 +1,110 @@
 ---
 title: "Индекс обратных ссылок"
 tags:
+  - backlinks
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Индекс обратных ссылок
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Топ-30 самых цитируемых документов](#топ-30-самых-цитируемых-документов)
-- [Ссылки по разделам](#ссылки-по-разделам)
-- [Использование](#использование)
-
----
-
 
 <!-- toc-auto -->
 ## Contents
 
 - [Топ-30 самых цитируемых документов](#топ-30-самых-цитируемых-документов)
 - [Ссылки по разделам](#ссылки-по-разделам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
 
 
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+<!-- tags: backlinks, docs -->
+
+
+<!-- summary -->
+> `BACKLINKS` — раздел документации проекта Lorenzo.
+
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
 <!-- alert-added -->
 
-<!-- summary -->
-> **Файлов с входящими ссылками:** 1786
-**Проекты:** Svyazi
-
----
-<!-- tags: ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-
-
-
-
-**Файлов с входящими ссылками:** 1786
+**Файлов с входящими ссылками:** 2686
 
 ## Топ-30 самых цитируемых документов
 
 | Документ | Входящих ссылок | Ссылающиеся файлы |
 |----------|----------------|-------------------|
-| `README` | 226 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `03-portal-protocol-md.md` +222 |
-| `README` | 210 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `03-portal-protocol-md.md` +206 |
-| `28-appendix-a-minimal-working-examp` | 31 | `03-portal-protocol-md.md`, `04-abstract.md`, `09-4-passport-passport-md.md`, `103-appendix-b-change-log.md` +27 |
-| `151-open-knowledge-work-foundation-` | 27 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `135-a-formal-model-for-human-ai-collaboration-in-distr.md` +23 |
-| `208-professional-colleague-agents-m` | 25 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `136-abstract.md` +21 |
-| `03-portal-protocol-md` | 22 | `05-0-status-of-this-document.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md`, `125-readme-mcp-md-инструкция-по-установке.md` +18 |
-| `TABLES` | 21 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `AUTOFILLED.md` +17 |
-| `42-author-contact` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +17 |
-| `123-portal-mcp-py` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `105-review-methodology-md.md`, `125-readme-mcp-md-инструкция-по-установке.md` +17 |
-| `105-review-methodology-md` | 21 | `03-portal-protocol-md.md`, `04-abstract.md`, `106-tl-dr.md`, `122-глоссарий.md` +17 |
-| `249-composite-skills-agent-md` | 21 | `12-content-overview.md`, `134-the-double-triangle-architecture-md.md`, `151-open-knowledge-work-foundation-md.md`, `166-representative-agent-layer-md.md` +17 |
-| `125-readme-mcp-md-инструкция-по-уст` | 20 | `02-общий-план-развития-nautilus-portal-protocol.md`, `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +16 |
-| `25-13-reference-implementation` | 20 | `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `104-appendix-c-references.md`, `122-глоссарий.md` +16 |
-| `05-0-status-of-this-document` | 20 | `03-portal-protocol-md.md`, `04-abstract.md`, `125-readme-mcp-md-инструкция-по-установке.md`, `129-примеры-запросов-в-claude.md` +16 |
-| `134-the-double-triangle-architectur` | 20 | `12-content-overview.md`, `13-angle-perspective.md`, `143-6-four-deployment-domains.md`, `144-7-open-questions.md` +16 |
-| `211-table-of-contents` | 20 | `149-appendix-b-summary-of-contributions.md`, `169-table-of-contents.md`, `172-3-what-makes-a-representative-agent.md`, `182-acknowledgments.md` +16 |
-| `228-appendix-c-quick-start-architec` | 20 | `151-open-knowledge-work-foundation-md.md`, `186-appendix-c-sample-use-cases-in-detail.md`, `208-professional-colleague-agents-md.md`, `210-abstract.md` +16 |
-| `93-18-reference-implementation` | 19 | `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `103-appendix-b-change-log.md`, `104-appendix-c-references.md` +15 |
-| `04-abstract` | 19 | `05-0-status-of-this-document.md`, `09-4-passport-passport-md.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md` +15 |
-| `168-abstract` | 19 | `134-the-double-triangle-architecture-md.md`, `145-8-call-to-action.md`, `166-representative-agent-layer-md.md`, `170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` +15 |
-| `154-table-of-contents` | 18 | `127-подключение-к-claude-desktop.md`, `132-planned-v0-2-0.md`, `137-table-of-contents.md`, `149-appendix-b-summary-of-contributions.md` +14 |
-| `219-8-pilot-proposal-sgb-advocate-c` | 18 | `143-6-four-deployment-domains.md`, `151-open-knowledge-work-foundation-md.md`, `155-1-problem-statement.md`, `161-7-phased-rollout-plan.md` +14 |
-| `267-acknowledgments` | 18 | `146-acknowledgments.md`, `168-abstract.md`, `182-acknowledgments.md`, `184-appendix-a-connection-to-companion-papers.md` +14 |
-| `252-abstract` | 18 | `151-open-knowledge-work-foundation-md.md`, `168-abstract.md`, `208-professional-colleague-agents-md.md`, `210-abstract.md` +14 |
-| `210-abstract` | 18 | `151-open-knowledge-work-foundation-md.md`, `168-abstract.md`, `172-3-what-makes-a-representative-agent.md`, `181-12-closing.md` +14 |
-| `223-12-closing` | 18 | `151-open-knowledge-work-foundation-md.md`, `168-abstract.md`, `171-2-historical-precedents-agents-as-civilizational-i.md`, `181-12-closing.md` +14 |
-| `SITEMAP` | 18 | `03-local-first.md`, `AUTOFILLED.md`, `CHANGELOG_AUTO.md`, `COMPONENT_MATRIX.md` +14 |
-| `98-appendix-a-minimal-working-examp` | 17 | `03-portal-protocol-md.md`, `04-abstract.md`, `09-4-passport-passport-md.md`, `105-review-methodology-md.md` +13 |
-| `132-planned-v0-2-0` | 17 | `04-abstract.md`, `09-4-passport-passport-md.md`, `123-portal-mcp-py.md`, `127-подключение-к-claude-desktop.md` +13 |
-| `262-9-integration-with-okwf-infrast` | 17 | `134-the-double-triangle-architecture-md.md`, `143-6-four-deployment-domains.md`, `145-8-call-to-action.md`, `148-appendix-a-glossary.md` +13 |
+| `READABILITY` | 1249 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +1245 |
+| `READING_TIME` | 1224 | `02-methodology.md`, `06-security-privacy.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`, `112-5-связь-с-существующими-методологиями.md` +1220 |
+| `TABLES` | 952 | `00-intro-part2.md`, `03-component-catalog.md`, `06-security-privacy.md`, `00-intro.md` +948 |
+| `SEARCH` | 693 | `02-methodology.md`, `06-security-privacy.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md`, `112-5-связь-с-существующими-методологиями.md` +689 |
+| `OUTLINE` | 574 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `08-conclusions.md` +570 |
+| `README` | 334 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `03-portal-protocol-md.md` +330 |
+| `README` | 297 | `QA.md`, `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md` +293 |
+| `CONCEPTS` | 107 | `02-methodology.md`, `12-roadmap.md`, `14-limitations.md`, `00-intro.md` +103 |
+| `components-by-name` | 102 | `OUTLINE.md`, `READABILITY.md`, `READING_TIME.md`, `SEARCH.md` +98 |
+| `03-component-catalog` | 78 | `04-ensembles-overview.md`, `07-mvp-planning.md`, `09-architectural-gaps.md`, `10-second-order-ensembles.md` +74 |
+| `01-интегральный-анализ-профиля-sven` | 73 | `00-intro.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `07-2-terminology.md`, `103-appendix-b-change-log.md` +69 |
+| `HEALTH` | 68 | `QA.md`, `QA.md`, `QA.md`, `QA.md` +64 |
+| `GLOSSARY` | 68 | `QA.md`, `QA.md`, `03-local-first.md`, `04-sozialrecht-domain.md` +64 |
+| `METRICS` | 65 | `QA.md`, `QA.md`, `QA.md`, `QA.md` +61 |
+| `ENTITIES` | 63 | `QA.md`, `354-существующий-landscape-collaborators-твоя-working-.md`, `QA.md`, `QA.md` +59 |
+| `306-with-anthropic-s-cowork-platfor` | 59 | `00-intro.md`, `137-table-of-contents.md`, `146-acknowledgments.md`, `147-references.md` +55 |
+| `memnet` | 59 | `00-intro.md`, `01-интегральный-анализ-профиля-svend4.md`, `02-общий-план-развития-nautilus-portal-protocol.md`, `07-2-terminology.md` +55 |
+| `concepts` | 48 | `OUTLINE.md`, `READABILITY.md`, `READING_TIME.md`, `SEARCH.md` +44 |
+| `01-executive-summary` | 45 | `00-intro-part2.md`, `02-methodology.md`, `04-ensembles-overview.md`, `08-conclusions.md` +41 |
+| `28-appendix-a-minimal-working-examp` | 43 | `03-portal-protocol-md.md`, `04-abstract.md`, `09-4-passport-passport-md.md`, `103-appendix-b-change-log.md` +39 |
+| `authors-by-name` | 42 | `DUPLICATES.md`, `OUTLINE.md`, `READABILITY.md`, `READING_TIME.md` +38 |
+| `105-review-methodology-md` | 38 | `03-portal-protocol-md.md`, `04-abstract.md`, `106-tl-dr.md`, `108-2-формальный-workflow.md` +34 |
+| `151-open-knowledge-work-foundation-` | 38 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `135-a-formal-model-for-human-ai-collaboration-in-distr.md` +34 |
+| `25-13-reference-implementation` | 37 | `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `104-appendix-c-references.md`, `122-глоссарий.md` +33 |
+| `03-portal-protocol-md` | 37 | `05-0-status-of-this-document.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md`, `125-readme-mcp-md-инструкция-по-установке.md` +33 |
+| `42-author-contact` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +31 |
+| `123-portal-mcp-py` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `105-review-methodology-md.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +31 |
+| `04-abstract` | 34 | `05-0-status-of-this-document.md`, `09-4-passport-passport-md.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md` +30 |
+| `208-professional-colleague-agents-m` | 34 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `136-abstract.md` +30 |
+| `CONTACTS` | 33 | `13-contacts.md`, `13-контактная-стратегия-и-узкие-вопросы-для-авторов.md`, `ACTION_ITEMS.md`, `CHANGELOG.md` +29 |
 
 ## Ссылки по разделам
 
 | Раздел | Входящих | Исходящих |
 |--------|----------|-----------|
-| **.claude** | 28 | 0 |
-| **01-svyazi** | 35 | 32 |
-| **02-anthropic-vacancies** | 3197 | 3460 |
-| **03-technology-combinations** | 20 | 30 |
-| **04-ai-collaborations** | 53 | 20 |
-| **05-habr-projects** | 36 | 36 |
-| **ai-collaborations** | 46 | 29 |
-| **anthropic-vacancies** | 146 | 129 |
-| **autofilled** | 142 | 170 |
-| **badges** | 0 | 0 |
-| **contacts** | 37 | 14 |
-| **glossary** | 8 | 172 |
-| **habr-unique-projects** | 110 | 58 |
-| **lorenzo-agent** | 68 | 73 |
-| **meta-scripting** | 10 | 10 |
-| **nautilus** | 274 | 260 |
-| **obsidian** | 520 | 132 |
-| **processing-guide** | 32 | 38 |
-| **root** | 650 | 886 |
+| **.claude** | 56 | 0 |
+| **01-svyazi** | 381 | 176 |
+| **02-anthropic-vacancies** | 7068 | 4919 |
+| **03-technology-combinations** | 85 | 52 |
+| **04-ai-collaborations** | 284 | 173 |
+| **05-habr-projects** | 262 | 145 |
+| **ai-collaborations** | 319 | 288 |
+| **anthropic-vacancies** | 1251 | 1104 |
+| **autofilled** | 217 | 177 |
+| **badges** | 12 | 7 |
+| **contacts** | 230 | 168 |
+| **glossary** | 199 | 200 |
+| **habr-unique-projects** | 629 | 507 |
+| **lorenzo-agent** | 639 | 641 |
+| **meta-scripting** | 65 | 66 |
+| **nautilus** | 2548 | 2470 |
+| **obsidian** | 5527 | 3325 |
+| **processing-guide** | 158 | 112 |
+| **root** | 6553 | 12276 |
 | **scripts** | 2 | 0 |
-| **svyazi-2-0** | 148 | 65 |
-| **technology-combinations** | 132 | 96 |
-| **templates** | 53 | 37 |
+| **svyazi-2-0** | 672 | 526 |
+| **technology-combinations** | 641 | 483 |
+| **templates** | 206 | 189 |
+
 
 ## Использование
-
 ```bash
+# Запуск
 python scripts/improve_backlinks.py
 ```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]

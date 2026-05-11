@@ -4,33 +4,17 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix A: Connection to Companion Papers
-
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
-- [Похожие документы](#похожие-документы)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-- [Упоминается в](#упоминается-в)
-- [Упоминается в](#упоминается-в)
-- [Связанные документы](#связанные-документы)
-- [Связанные документы](#связанные-документы)
-- [Кто ссылается на этот документ (14)](#кто-ссылается-на-этот-документ-14)
-
----
-
 
 <!-- toc-auto -->
 ## Contents
 
 - [Appendix A: Connection to Companion Papers](#appendix-a-connection-to-companion-papers)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

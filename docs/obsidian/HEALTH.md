@@ -6,13 +6,13 @@ tags:
   - metrics
   - documentation
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Health Dashboard
 
 <!-- summary -->
-> Балл здоровья репозитория: **100/100** — файлов: 1750, слов: 1,985,171
+> Балл здоровья репозитория: **100/100** — файлов: 2463, слов: 2,738,055
 
 <!-- tags: health, quality, metrics, documentation -->
 
@@ -21,7 +21,7 @@ date: 2026-05-10
 
 <!-- alert-added -->
 
-_Обновлено: 2026-05-10_
+_Обновлено: 2026-05-11_
 
 ## Общий балл: **100/100** 🟢
 
@@ -37,8 +37,8 @@ _Обновлено: 2026-05-10_
 
 ## Структура репозитория
 
-**Файлов:** 1750  
-**Слов:** 1,985,171
+**Файлов:** 2463  
+**Слов:** 2,738,055
 
 | Раздел | Файлов |
 |--------|--------|
@@ -47,32 +47,33 @@ _Обновлено: 2026-05-10_
 | 03-technology-combinations | 7 |
 | 04-ai-collaborations | 17 |
 | 05-habr-projects | 16 |
-| ai-collaborations | 30 |
+| ai-collaborations | 31 |
 | anthropic-vacancies | 111 |
 | autofilled | 13 |
 | badges | 1 |
-| contacts | 16 |
+| contacts | 17 |
 | glossary | 4 |
 | habr-unique-projects | 56 |
+| letters | 9 |
 | lorenzo-agent | 62 |
 | meta-scripting | 7 |
 | nautilus | 255 |
-| obsidian | 524 |
+| obsidian | 1221 |
 | processing-guide | 13 |
-| root | 109 |
-| svyazi-2-0 | 59 |
+| root | 113 |
+| svyazi-2-0 | 60 |
 | technology-combinations | 53 |
 | templates | 24 |
 
 ## Action Items
 
-Извлечено действий: **2263**  
+Извлечено действий: **3443**  
 Пробелов знаний: **0**  
 Сломанных ссылок: **0**
 
 ## Скрипты обработки
 
-Скриптов в `scripts/`: **189**
+Скриптов в `scripts/`: **195**
 
 ## Рекомендации
 
@@ -84,14 +85,3 @@ _Обновлено: 2026-05-10_
 - [[BROKEN_LINKS]] — состояние внутренних ссылок
 - [[VALIDATION]] — валидация структуры
 - [[SCORING]] — готовность к запуску (Go/No-Go)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-

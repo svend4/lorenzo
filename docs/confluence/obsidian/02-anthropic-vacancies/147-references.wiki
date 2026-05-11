@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/147-references.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -10,19 +10,10 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. References
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa{quote}
-{quote}🔧 _Подход:_ "Architectural Styles and the Design of Network-based Software Architectures".{quote}
-{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{references}}, {{protocol}}, {{portal}}, {{vacancies}}, {{svend}}, {{human}}, {{nautilus}}{quote}
->
-
 
 
 h2. Contents
@@ -35,6 +26,24 @@ h2. Contents
   * [Related Architectures|#related-architectures]
   * [Pattern Libraries|#pattern-libraries]
   * [Primary Reference|#primary-reference]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (11)|#кто-ссылается-на-этот-документ-11]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Multi-Agent Systems(multi-agent-systems) - Protocols and Federation(protocols-and-federa{quote}
+{quote}🔧 _Подход:_ "Architectural Styles and the Design of Network-based Software Architectures".{quote}
+{quote}🏷️ _Ключевые слова:_ {{anthropic}}, {{references}}, {{protocol}}, {{portal}}, {{vacancies}}, {{svend}}, {{human}}, {{nautilus}}{quote}
+>
 
 
 
@@ -95,19 +104,41 @@ h3. Primary Reference
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[268-references]] (сходство 0.12)
 * [[73-portal-protocol-md-v1-1]] (сходство 0.12)
-* [[306-with-anthropic-s-cowork-platform]] (сходство 0.11)
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]] (сходство 0.11)
 
 
 
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+{code}
+
+h2. Смотрите также
 * [[73-portal-protocol-md-v1-1]]
 * [[320-references]]
 * [[268-references]]
 * [[338-ссылки]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [[104-appendix-c-references]]
+* [[140-3-three-inter-layer-protocols]]
+* [[148-appendix-a-glossary]]
+* [[152-ai-coordinated-infrastructure-for-distributed-expe]]
+* [[25-13-reference-implementation]]
+* 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
+* [[320-references]]
+* [[338-ссылки]]
+* _...ещё 3_
 

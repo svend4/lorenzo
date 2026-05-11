@@ -1,9 +1,35 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. План прототипа и возможные контакты
+
+
+h2. Contents
+
+* [Содержание|#содержание]
+* [Статус|#статус]
+* [План прототипа и возможные контакты|#план-прототипа-и-возможные-контакты]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (5)|#кто-ссылается-на-этот-документ-5]
+
+
+
+h2. Содержание
+
+* [Contents|#contents]
+* [Статус|#статус]
+* [План прототипа и возможные контакты|#план-прототипа-и-возможные-контакты]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (5)|#кто-ссылается-на-этот-документ-5]
+
+----
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -35,7 +61,7 @@ _Обновлено: 2026-04-29_
 
 
 {quote}Наиболее рациональный прототип — _не собирать всё сразу_, а доказать одну центральную способность: *система находит и объясняет кандидатные коллаборации по свободным описаниям, документам и речевым {quote}
-_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space|../docs/01-svyazi/03-component-catalog.md][^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
+_Проекты:_ Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs], [knowledge-space|../01-svyazi/03-component-catalog.md][^knowledge-space], mclaude, AI Factory, Rufler[^rufler], LiteParse
 
 ----
 
@@ -76,7 +102,7 @@ _Первые контакты, которые имеют наибольший �
 || **Sonia_Black / AnastasiyaW** || Закрывает сразу два слоя: knowledge-space и multi-session coordination через mclaude. citeturn33view3turn20view2turn37search0 || Комментарии к статьям; issues/discussions в репозиториях knowledge-space и mclaude. citeturn33view0turn37search0 || Публичный прямой контакт **не найден**. ||
 || **kksudo** ||
 .agentos/
-и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub|../docs/01-svyazi/03-component-catalog.md] issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт _не найден_. |
+и compile‑to‑runtime политики. citeturn33view4turn27view0 | Комментарии к статье и [GitHub|../01-svyazi/03-component-catalog.md] issues в AgentFS. citeturn33view7turn27view0 | Публичный прямой контакт _не найден_. |
 || **VitalyOborin** || Сильнейший кандидат на consolidator/forgetting‑слой. citeturn21view0turn21view1turn18search1 || Комментарии к статье Yodoca и GitHub issues/discussions в repo. citeturn38view7turn18search1 || Публичный прямой контакт **не найден**. ||
 || **spbmolot** || Нужен для ассоциативной памяти и очень дешёвого memory retrieval с graph‑подтягиванием слабых связей. citeturn22view4turn22view5 || Комментарии к статье NGT Memory и GitHub repository. citeturn22view5turn32search2 || Публичный прямой контакт **не найден**. ||
 
@@ -101,21 +127,27 @@ _Шаблон первого сообщения_
 
 ----
 
-_Похожие документы:_
-* [07-mvp-planning|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/07-mvp-planning.md) (сходство 1.00)
-* [09-архитектурные-зазоры-которые-важнее-новых-инструме|docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md] (сходство 0.15)
-* [09-architectural-gaps|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/09-architectural-gaps.md) (сходство 0.15)
+h2. Похожие документы
+* [07-mvp-planning|../01-svyazi/07-mvp-planning.md] (сходство 1.00)
+* [09-архитектурные-зазоры-которые-важнее-новых-инструме|09-архитектурные-зазоры-которые-важнее-новых-инструме.md] (сходство 0.15)
+* [09-architectural-gaps|../01-svyazi/09-architectural-gaps.md] (сходство 0.15)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [07-mvp-planning|docs/01-[svyazi](../docs/01-svyazi/00-intro-part2.md]/07-mvp-planning.md)
-* [NARRATIVE|docs/NARRATIVE.md]
-* [01-executive-summary|docs/04-ai-collaborations/01-executive-summary.md]
-* [09-архитектурные-зазоры-которые-важнее-новых-инструме|docs/04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "План прототипа и возможные контакты"
+{code}
+
+h2. Смотрите также
+* [07-mvp-planning|../01-svyazi/07-mvp-planning.md]
+* [NARRATIVE|../NARRATIVE.md]
+* [01-executive-summary|01-executive-summary.md]
+* [09-архитектурные-зазоры-которые-важнее-новых-инструме|09-архитектурные-зазоры-которые-важнее-новых-инструме.md]
 
 
 
@@ -148,3 +180,15 @@ _Смотрите также:_
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^bsl]: Business Source License — коммерческая лицензия с открытым кодом
+
+
+
+----
+
+h2. Кто ссылается на этот документ (5)
+* [13-contacts|../01-svyazi/13-contacts.md]
+* [README|README.md]
+* [COMPONENT_MATRIX|../COMPONENT_MATRIX.md]
+* [RISK_REGISTER|../RISK_REGISTER.md]
+* [TABLES|../TABLES.md]
+

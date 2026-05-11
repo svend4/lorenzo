@@ -1,8 +1,10 @@
 ---
 title: "Сноски и определения терминов"
 tags:
+  - footnotes
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Сноски и определения терминов
@@ -12,25 +14,20 @@ date: 2026-05-10
 
 - [Словарь сносок](#словарь-сносок)
 - [Как это работает](#как-это-работает)
-- [Смотрите также](#смотрите-также)
 
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: footnotes, docs -->
+
 
 <!-- summary -->
-> **Обновлено файлов:** 3  **Вставлено сносок:** 11
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, Yodoca, SENTINEL, Firecrawl
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, roadmap, self-improvement -->
+> `FOOTNOTES` — раздел документации проекта Lorenzo.
 
 
-
-
-**Обновлено файлов:** 3  **Вставлено сносок:** 11
+**Обновлено файлов:** 3  **Вставлено сносок:** 8
 
 ## Словарь сносок
 
@@ -48,8 +45,8 @@ date: 2026-05-10
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 2 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 1 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 0 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
 | **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
@@ -68,19 +65,9 @@ date: 2026-05-10
 
 ---
 
-## Смотрите также
-- [[08-conclusions]]
+**Смотрите также:**
 - [[01-executive-summary]]
-- [[07-выводы]]
-- [[07-mvp-planning]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
+- [[TECH_RADAR]]
+- [[ONBOARDING]]
+- [[08-conclusions]]
 

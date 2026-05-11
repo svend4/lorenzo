@@ -4,7 +4,7 @@ tags:
   - orchestration
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 8. Импликации для Nautilus и OKWF

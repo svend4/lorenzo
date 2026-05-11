@@ -2,7 +2,7 @@
 title: "Appendix C: Quick-Start Architecture for SGB Advocate Colleague"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix C: Quick-Start Architecture for SGB Advocate Colleague

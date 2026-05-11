@@ -3,7 +3,7 @@ title: "Acknowledgments"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Acknowledgments
@@ -13,6 +13,7 @@ date: 2026-05-10
 
 - [Acknowledgments](#acknowledgments)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

@@ -3,7 +3,7 @@ title: "Appendix B: Decision Framework — When to Build Type 1 First"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Appendix B: Decision Framework — When to Build Type 1 First

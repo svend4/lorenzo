@@ -2,7 +2,7 @@
 title: "Контактная стратегия"
 tags:
   - svyazi
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Контактная стратегия
@@ -158,9 +158,14 @@ python scripts/improve_semantic_search.py --query "Контактная стра
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (18):**
+- [[07-mvp-planning]]
+- [[09-architectural-gaps]]
+- [[10-second-order-ensembles]]
+- [[11-integration-contracts]]
+- [[README]]
+- [[04-приоритетные-ансамбли]]
+- [[05-план-прототипа-и-возможные-контакты]]
+- [[09-архитектурные-зазоры-которые-важнее-новых-инструме]]
+- _...ещё 10_
 

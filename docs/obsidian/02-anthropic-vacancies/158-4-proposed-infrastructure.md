@@ -6,7 +6,7 @@ tags:
   - roadmap
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 4. Proposed Infrastructure

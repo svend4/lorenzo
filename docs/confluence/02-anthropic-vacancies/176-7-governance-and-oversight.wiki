@@ -1,22 +1,17 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/176-7-governance-and-oversight.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. 7. Governance and Oversight
 
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ Governance and Oversight(7-governance-and-oversight) - 7.1.{quote}
-{quote}🔧 _Подход:_ Includes ethical commitments, technical standards, dispute resolution, transparency requirements.{quote}
-{quote}✅ _Результат:_ Foundation-Based Governance A foundation model (such as OKWF) is well-positioned to provide governance because: - Mission alignment: Foundation accountable to beneficiaries, not sh{quote}
-{quote}🏷️ _Ключевые слова:_ {{governance}}, {{audit}}, {{agent}}, {{level}}, {{foundation}}, {{anthropic}}, {{vacancies}}, {{platform}}{quote}
->
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
-h2. Contents
+
+h2. Содержание
 
 * [7. Governance and Oversight|#7-governance-and-oversight]
   * [7.1. Three Levels of Governance|#71-three-levels-of-governance]
@@ -24,6 +19,8 @@ h2. Contents
   * [7.3. Dispute Resolution|#73-dispute-resolution]
   * [7.4. Vulnerable Population Protection|#74-vulnerable-population-protection]
   * [7.5. Foundation-Based Governance|#75-foundation-based-governance]
+
+----
 
 
 
@@ -123,19 +120,38 @@ by mission-driven foundations.
 
 ----
 
-_Похожие документы:_
-* [175-6-ethical-framework|docs/02-anthropic-vacancies/175-6-ethical-framework.md] (сходство 0.15)
-* [174-5-architectural-specification|docs/02-anthropic-vacancies/174-5-architectural-specification.md] (сходство 0.13)
-* [178-9-phased-rollout-strategy|docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md] (сходство 0.11)
+h2. Похожие документы
+* [175-6-ethical-framework|175-6-ethical-framework.md] (сходство 0.15)
+* [174-5-architectural-specification|174-5-architectural-specification.md] (сходство 0.13)
+* [178-9-phased-rollout-strategy|178-9-phased-rollout-strategy.md] (сходство 0.11)
 
 
 
 
 ----
 
-_Смотрите также:_
-* [175-6-ethical-framework|docs/02-anthropic-vacancies/175-6-ethical-framework.md]
-* [174-5-architectural-specification|docs/02-anthropic-vacancies/174-5-architectural-specification.md]
-* [178-9-phased-rollout-strategy|docs/02-anthropic-vacancies/178-9-phased-rollout-strategy.md]
-* [177-8-risks-and-mitigations|docs/02-anthropic-vacancies/177-8-risks-and-mitigations.md]
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
+{code}
+
+h2. Смотрите также
+* [175-6-ethical-framework|175-6-ethical-framework.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [178-9-phased-rollout-strategy|178-9-phased-rollout-strategy.md]
+* [177-8-risks-and-mitigations|177-8-risks-and-mitigations.md]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (6)
+* [144-7-open-questions|144-7-open-questions.md]
+* [172-3-what-makes-a-representative-agent|172-3-what-makes-a-representative-agent.md]
+* [174-5-architectural-specification|174-5-architectural-specification.md]
+* [186-appendix-c-sample-use-cases-in-detail|186-appendix-c-sample-use-cases-in-detail.md]
+* [212-1-the-five-type-typology-of-principal-side-agents|212-1-the-five-type-typology-of-principal-side-agents.md]
+* [README|README.md]
 

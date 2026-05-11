@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/61-compatibility-level.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -9,11 +9,34 @@ tags:
   * anthropic
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Compatibility Level
 
+
+h2. Contents
+
+* [Compatibility Level|#compatibility-level]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (7)|#кто-ссылается-на-этот-документ-7]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}_Текущий уровень: 3 (Interactive / Bridged)_{quote}
 
@@ -39,7 +62,7 @@ _Текущий уровень: 3 (Interactive / Bridged)_
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[51-compatibility-level]] (сходство 0.67)
 * [[41-compatibility-level]] (сходство 0.44)
 * [[60-bridges]] (сходство 0.22)
@@ -49,7 +72,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Compatibility Level"
+{code}
+
+h2. Смотрите также
 * [[51-compatibility-level]]
 * [[41-compatibility-level]]
 * [[60-bridges]]
@@ -93,3 +122,17 @@ h2. Связанные документы
 * [[17-5-compatibility-levels|5. Compatibility Levels]] _21%_
 * [[50-bridges|Bridges]] _21%_
 * [[07-2-terminology|2. Terminology]] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (7)
+* [[132-planned-v0-2-0]]
+* [[37-native-format]]
+* [[41-compatibility-level]]
+* [[47-native-format]]
+* [[51-compatibility-level]]
+* [[57-native-format]]
+* [[README]]
+

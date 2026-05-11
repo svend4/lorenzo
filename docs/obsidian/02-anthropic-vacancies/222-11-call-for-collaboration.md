@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 11. Call for Collaboration
@@ -21,6 +21,7 @@ date: 2026-05-10
   - [11.6. For Researchers](#116-for-researchers)
   - [11.7. For Policy Stakeholders](#117-for-policy-stakeholders)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (7)](#кто-ссылается-на-этот-документ-7)
 

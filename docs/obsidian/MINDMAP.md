@@ -1,8 +1,10 @@
 ---
 title: "Майндмап репозитория Lorenzo"
 tags:
+  - mindmap
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Майндмап репозитория Lorenzo
@@ -13,26 +15,17 @@ date: 2026-05-10
 - [Структура разделов](#структура-разделов)
 - [Поток данных между проектами](#поток-данных-между-проектами)
 - [Легенда](#легенда)
-- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+> Раздел `MINDMAP` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: mindmap, docs -->
+
 
 <!-- summary -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-> knowledge-space[knowledge-space]
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
+> `MINDMAP` — раздел документации проекта Lorenzo.
 
 
 ## Структура разделов
@@ -86,7 +79,7 @@ flowchart LR
   end
   subgraph KNOWLEDGE
     AgentFS[AgentFS]
-    knowledge-space[knowledge-space]
+    knowledge_space[knowledge space]
   end
   subgraph MEMORY
     Yodoca[Yodoca]
@@ -110,14 +103,14 @@ flowchart LR
   end
   Svyazi -->|ingest→index| CardIndex
   CardIndex -->|storage| AgentFS
-  AgentFS -->|reference| knowledge-space
+  AgentFS -->|reference| knowledge_space
   Yodoca -->|consolidation| NGT_Memory
   NGT_Memory -->|recall→discovery| Svyazi
   LiteParse -->|evidence| Legal_RAG
   Legal_RAG -->|proof→card| CardIndex
   mclaude -->|coordination| AI_Factory
   AI_Factory -->|orchestration| Rufler
-  Rufler -->|self-improvement| AutoResearch
+  Rufler -->|self-improve| AutoResearch
   LiteLLM -->|gateway→guard| SENTINEL
   Tool_Search -->|lazy-load| LiteLLM
 ```
@@ -138,20 +131,9 @@ flowchart LR
 
 ---
 
-## Смотрите также
+**Смотрите также:**
 - [[GLOSSARY]]
+- [[NETWORK]]
 - [[CONTACT_PRIORITY]]
 - [[GRAPH]]
-- [[NETWORK]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
 

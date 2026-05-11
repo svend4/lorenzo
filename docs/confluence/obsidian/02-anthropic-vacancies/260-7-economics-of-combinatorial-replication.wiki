@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -11,10 +11,15 @@ tags:
   * roadmap
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. 7. Economics of Combinatorial Replication
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}_Абстракт_ (авто){quote}
@@ -26,6 +31,10 @@ h1. 7. Economics of Combinatorial Replication
 >
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 {quote}The economics of Composite Skills Agents differ from both{quote}
 
@@ -185,7 +194,7 @@ funding or modest practitioner contribution.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[262-9-integration-with-okwf-infrastructure]] (сходство 0.21)
 * [[216-5-the-economics-of-profession-wide-replication]] (сходство 0.20)
 * [[257-4-the-sub-agent-registry]] (сходство 0.19)
@@ -195,7 +204,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial Replication"
+{code}
+
+h2. Смотрите также
 * [[262-9-integration-with-okwf-infrastructure]]
 * [[216-5-the-economics-of-profession-wide-replication]]
 * [[257-4-the-sub-agent-registry]]
@@ -231,3 +246,18 @@ h2. Связанные документы
 * [[254-1-why-the-binary-view-is-incomplete|1. Why the Binary View Is Incomplete]] _21%_
 * [[256-3-what-makes-a-composite-skills-agent|3. What Makes a Composite Skills Agent]] _21%_
 * [[264-11-open-questions|11. Open Questions]] _21%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (8)
+* [[216-5-the-economics-of-profession-wide-replication]]
+* [[219-8-pilot-proposal-sgb-advocate-colleague]]
+* [[254-1-why-the-binary-view-is-incomplete]]
+* [[256-3-what-makes-a-composite-skills-agent]]
+* [[257-4-the-sub-agent-registry]]
+* [[258-5-configuration-how-principals-build-their-ensembl]]
+* [[263-10-risks-specific-to-composite-architectures]]
+* [[README]]
+

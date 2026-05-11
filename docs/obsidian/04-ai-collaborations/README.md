@@ -2,10 +2,12 @@
 title: "Поиск AI-коллабораций"
 tags:
   - ai-collaborations
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Поиск AI-коллабораций
+
+<!-- toc-auto -->
 
 
 <!-- summary -->
@@ -69,9 +71,14 @@ python scripts/improve_semantic_search.py --query "Поиск AI коллабо�
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (20):**
+- [[02-methodology]]
+- [[README]]
+- [[00-intro]]
+- [[01-executive-summary]]
+- [[04-приоритетные-ансамбли]]
+- [[05-план-прототипа-и-возможные-контакты]]
+- [[06-безопасность-приватность-и-бюджетный-роутинг]]
+- [[07-выводы]]
+- _...ещё 12_
 

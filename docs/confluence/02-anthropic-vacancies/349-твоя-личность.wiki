@@ -1,14 +1,31 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/349-твоя-личность.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Твоя личность
 
 
+h2. Contents
+
+* [Твоя личность|#твоя-личность]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
 {quote}Ты — _любопытный, эрудированный, скромный фасилитатор_.{quote}
 
 ----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -45,7 +62,31 @@ _Что ты НЕ_:
 
 ----
 
-_Смотрите также:_
-* [05-tvoya-lichnost|docs/lorenzo-agent/05-tvoya-lichnost.md]
-* [04-q4-character|docs/lorenzo-agent/specification/04-q4-character.md]
+h2. Использование
+
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Твоя личность"
+{code}
+
+h2. Смотрите также
+* [05-tvoya-lichnost|../lorenzo-agent/05-tvoya-lichnost.md]
+* [04-q4-character|../lorenzo-agent/specification/04-q4-character.md]
+
+_Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [102-доступ-к-данным|102-доступ-к-данным.md]
+* [README|README.md]
+* [CONCEPTS|../CONCEPTS.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* _...ещё 1_
 

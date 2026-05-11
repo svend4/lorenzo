@@ -2,7 +2,7 @@
 title: "6. Risks Specific to this Category"
 tags:
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 6. Risks Specific to this Category

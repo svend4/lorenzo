@@ -1,9 +1,33 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/181-12-closing.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. 12. Closing
+
+
+h2. Contents
+
+* [12. Closing|#12-closing]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (11)|#кто-ссылается-на-этот-документ-11]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -60,7 +84,7 @@ in walking it.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [223-12-closing|223-12-closing.md] (сходство 0.15)
 * [266-13-closing|266-13-closing.md] (сходство 0.12)
 * [179-10-open-questions|179-10-open-questions.md] (сходство 0.12)
@@ -70,7 +94,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "12 Closing"
+{code}
+
+h2. Смотрите также
 * [223-12-closing|223-12-closing.md]
 * [179-10-open-questions|179-10-open-questions.md]
 * [266-13-closing|266-13-closing.md]
@@ -104,3 +134,19 @@ h2. Связанные документы
 * [Executive Summary|153-executive-summary.md] _17%_
 * [Abstract|168-abstract.md] _17%_
 * [Abstract|210-abstract.md] _17%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (11)
+* [135-a-formal-model-for-human-ai-collaboration-in-distr|135-a-formal-model-for-human-ai-collaboration-in-distr.md]
+* [151-open-knowledge-work-foundation-md|151-open-knowledge-work-foundation-md.md]
+* [153-executive-summary|153-executive-summary.md]
+* [168-abstract|168-abstract.md]
+* [169-table-of-contents|169-table-of-contents.md]
+* [170-1-the-cinderella-syndrome-why-quality-stays-invisi|170-1-the-cinderella-syndrome-why-quality-stays-invisi.md]
+* [210-abstract|210-abstract.md]
+* [223-12-closing|223-12-closing.md]
+* _...ещё 3_
+

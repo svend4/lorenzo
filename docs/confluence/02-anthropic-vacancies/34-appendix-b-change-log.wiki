@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/34-appendix-b-change-log.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 h1. Appendix B: Change Log
@@ -87,7 +87,7 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [104-appendix-c-references](104-appendix-c-references.md) (сходство 0.13)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md) (сходство 0.12)
 - [64-for-the-curious-philosophy](64-for-the-curious-philosophy.md) (сходство 0.11)
@@ -97,7 +97,13 @@ Appendix A с minimal working example — это критично. Внешни�
 
 ---
 
-**Смотрите также:**
+## Использование
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix B Change Log"
+{code}
+
+## Смотрите также
 - [104-appendix-c-references](104-appendix-c-references.md)
 - [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
 - [78-3-registry-nautilus-json](78-3-registry-nautilus-json.md)
@@ -142,3 +148,19 @@ Appendix A с minimal working example — это критично. Внешни�
 - [Appendix C: References](104-appendix-c-references.md) _25%_
 - [REVIEW_METHODOLOGY.md](105-review-methodology-md.md) _25%_
 - [Глоссарий](122-глоссарий.md) _25%_
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (13)
+- [02-общий-план-развития-nautilus-portal-protocol](02-общий-план-развития-nautilus-portal-protocol.md)
+- [04-abstract](04-abstract.md)
+- [103-appendix-b-change-log](103-appendix-b-change-log.md)
+- [104-appendix-c-references](104-appendix-c-references.md)
+- [105-review-methodology-md](105-review-methodology-md.md)
+- [122-глоссарий](122-глоссарий.md)
+- [125-readme-mcp-md-инструкция-по-установке](125-readme-mcp-md-инструкция-по-установке.md)
+- [338-ссылки](338-ссылки.md)
+- _...ещё 5_
+

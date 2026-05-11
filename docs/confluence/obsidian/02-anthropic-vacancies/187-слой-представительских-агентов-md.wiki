@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,10 +8,21 @@ title: "СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
+
+
+h2. Contents
+
+* [СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md|#слой-представительских-агентовmd]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
 
 
 {quote}- [[166-representative-agent-layer-md]] (сходство 0.33){quote}
@@ -19,6 +30,10 @@ h1. СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ.md
 ----
 
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -31,7 +46,7 @@ markdown
 
 ---
 
-**Похожие документы:**
+## Похожие документы
 - [[166-representative-agent-layer-md]] (сходство 0.33)
 - [[134-the-double-triangle-architecture-md]] (сходство 0.25)
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte]] (сходство 0.17)
@@ -77,9 +92,32 @@ markdown
 
 ---
 
-**Смотрите также:**
+## Использование
+
+{code}
+h1. Поиск по теме документа
+python scripts/improve_semantic_search.py --query "СЛОЙ ПРЕДСТАВИТЕЛЬСКИХ АГЕНТОВ md"
+{code}
+
+## Смотрите также
 - [[134-the-double-triangle-architecture-md]]
 - [[166-representative-agent-layer-md]]
 - [[305-a-practical-path-to-layer-b-through-symbiotic-inte]]
 - [[344-системный-промпт-для-lorenzo-project]]
+
+
+<!-- backlinks -->
+
+---
+
+## Кто ссылается на этот документ (12)
+- [[12-content-overview]]
+- [[13-angle-perspective]]
+- [[132-planned-v0-2-0]]
+- [[134-the-double-triangle-architecture-md]]
+- [[166-representative-agent-layer-md]]
+- [[168-abstract]]
+- [[174-5-architectural-specification]]
+- [[208-professional-colleague-agents-md]]
+- _...ещё 4_
 

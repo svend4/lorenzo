@@ -3,7 +3,7 @@ title: "17. Versioning Policy"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 17. Versioning Policy
@@ -17,6 +17,7 @@ date: 2026-05-10
   - [17.3. Breaking Changes Process](#173-breaking-changes-process)
   - [17.4. Deprecation Policy](#174-deprecation-policy)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 

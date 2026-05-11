@@ -5,7 +5,7 @@ tags:
   - communication
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Твоя коммуникация в outreach
@@ -14,6 +14,7 @@ date: 2026-05-10
 ## Contents
 
 - [Твоя коммуникация в outreach](#твоя-коммуникация-в-outreach)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 
@@ -79,8 +80,14 @@ _Документ индексирован в поисковой базе реп
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
+**Кто ссылается на этот документ (10):**
+- [[356-твой-workflow]]
+- [[README]]
+- [[CONCEPTS]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- _...ещё 2_
 

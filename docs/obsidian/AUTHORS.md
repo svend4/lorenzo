@@ -1,19 +1,18 @@
 ---
 title: "Авторы и коллаборации"
 tags:
-  - meta
   - authors
-  - contacts
+  - docs
   - general
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Авторы и коллаборации
+<!-- tags: authors, docs -->
 
-<!-- toc-auto -->
-## Contents
 
-- [Смотрите также](#смотрите-также)
+<!-- summary -->
+> `AUTHORS` — раздел документации проекта Lorenzo.
 
 
 > [!NOTE]
@@ -21,76 +20,63 @@ date: 2026-05-10
 
 <!-- alert-added -->
 
-
-<!-- tags: meta, authors, contacts -->
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-
-<!-- summary -->
-> Авторы проектов, упоминаемые в исследованиях.
-
----
-
-
-
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 90 |
-| **Antipozitive** | 61 |
-| **BerriAI** | 19 |
-| **Cutcode** | 70 |
-| **Dmitriila** | 65 |
-| **MiXaiLL76** | 57 |
-| **Sonia_Black** | 33 |
-| **VitaliySemenov** | 12 |
-| **VitalyOborin** | 74 |
-| **VladSpace** | 83 |
-| **akazant** | 16 |
-| **akzhankalimatov** | 12 |
-| **andrey_chuyan** | 29 |
-| **iximy** | 13 |
-| **kksudo** | 137 |
-| **lee-to** | 19 |
-| **lib4u** | 23 |
-| **moshael** | 16 |
-| **nlaik** | 52 |
-| **spbmolot** | 130 |
-| **tagir_analyzes** | 27 |
-| **vpakspace** | 12 |
-| **zodigancode** | 70 |
-| **Андрей Чуян** | 58 |
-| **Виталий Оборин** | 16 |
-
-<!-- see-also -->
-
----
-
-## Использование
-
-```bash
-# Поиск по теме документа
-python scripts/improve_semantic_search.py --query "Авторы и коллаборации"
-```
-
-## Смотрите также
-- [[CONTACT_PRIORITY]]
-- [[authors-by-name]]
-- [[LINKS]]
-- [[CONTACTS]]
-
-Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+| **AnastasiyaW** | 112 |
+| **Antipozitive** | 69 |
+| **BerriAI** | 23 |
+| **Cutcode** | 79 |
+| **Dmitriila** | 69 |
+| **MiXaiLL76** | 62 |
+| **Sonia_Black** | 41 |
+| **VitaliySemenov** | 27 |
+| **VitalyOborin** | 87 |
+| **VladSpace** | 86 |
+| **akazant** | 20 |
+| **akzhankalimatov** | 16 |
+| **andrey_chuyan** | 33 |
+| **iximy** | 17 |
+| **kksudo** | 176 |
+| **lee-to** | 23 |
+| **lib4u** | 32 |
+| **moshael** | 26 |
+| **nlaik** | 63 |
+| **spbmolot** | 153 |
+| **tagir_analyzes** | 30 |
+| **vpakspace** | 16 |
+| **zodigancode** | 81 |
+| **Андрей Чуян** | 73 |
+| **Виталий Оборин** | 17 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (6):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CONTACT_PRIORITY]]
+- [[authors-by-name]]
+- [[.md]]
+- [[cowork]]
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_authors.py
+```

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/183-references.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,19 +8,10 @@ title: "References"
 tags:
   * collaboration
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. References
-
-
-{quote}_Абстракт_ (авто){quote}
->
-{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac{quote}
-{quote}🔧 _Подход:_ "Designing Organizations for an Information-Rich World".{quote}
-{quote}🏷️ _Ключевые слова:_ {{references}}, {{principal}}, {{anthropic}}, {{vacancies}}, {{theory}}, {{disability}}, {{ethics}}, {{ссылки}}{quote}
->
-
 
 
 h2. Contents
@@ -31,6 +22,24 @@ h2. Contents
   * [Disability and Access|#disability-and-access]
   * [Modern AI Ethics|#modern-ai-ethics]
   * [Companion Documents|#companion-documents]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Кто ссылается на этот документ (10)|#кто-ссылается-на-этот-документ-10]
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}_Абстракт_ (авто){quote}
+>
+{quote}🎯 _Проблема:_ References Contents - References(references) - Foundational Sources(foundational-sources) - Principal-Agent Theory(principal-agent-theory) - Disability and Access(disability-and-ac{quote}
+{quote}🔧 _Подход:_ "Designing Organizations for an Information-Rich World".{quote}
+{quote}🏷️ _Ключевые слова:_ {{references}}, {{principal}}, {{anthropic}}, {{vacancies}}, {{theory}}, {{disability}}, {{ethics}}, {{ссылки}}{quote}
+>
 
 
 
@@ -91,7 +100,7 @@ h3. Companion Documents
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[204-ссылки]] (сходство 0.24)
 * [[225-references]] (сходство 0.22)
 * [[209-a-typology-of-ai-agents-on-the-principal-side-and-]] (сходство 0.17)
@@ -101,9 +110,31 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "References"
+{code}
+
+h2. Смотрите также
 * [[204-ссылки]]
 * [[225-references]]
 * [[251-ai-support-through-configurable-specialist-ensembl]]
 * [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+
+
+
+
+----
+
+h2. Кто ссылается на этот документ (10)
+* [[146-acknowledgments]]
+* [[167-ai-mediated-representation-for-underrepresented-ex]]
+* [[182-acknowledgments]]
+* [[184-appendix-a-connection-to-companion-papers]]
+* [[209-a-typology-of-ai-agents-on-the-principal-side-and-]]
+* [[211-table-of-contents]]
+* [[224-acknowledgments]]
+* [[251-ai-support-through-configurable-specialist-ensembl]]
+* _...ещё 2_
 

@@ -6,7 +6,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # 5. Compatibility Levels
@@ -20,6 +20,7 @@ date: 2026-05-10
   - [Level 2 — Linked](#level-2-linked)
   - [Level 3 — Interactive](#level-3-interactive)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (5)](#кто-ссылается-на-этот-документ-5)
 

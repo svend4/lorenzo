@@ -4,7 +4,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # AI Support Through Configurable Specialist Ensembles
@@ -14,6 +14,7 @@ date: 2026-05-10
 
 - [AI Support Through Configurable Specialist Ensembles](#ai-support-through-configurable-specialist-ensembles)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

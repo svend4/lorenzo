@@ -3,7 +3,7 @@ title: "A Practical Path to Layer B Through Symbiotic Integration"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # A Practical Path to Layer B Through Symbiotic Integration
@@ -17,6 +17,7 @@ date: 2026-05-10
 - [Упоминается в](#упоминается-в-1)
 - [Связанные документы](#связанные-документы)
 - [Связанные документы](#связанные-документы-1)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (13)](#кто-ссылается-на-этот-документ-13)
 

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/269-appendix-a-the-six-type-taxonomy-updated.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,10 +8,52 @@ title: "Appendix A: The Six-Type Taxonomy (Updated)"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Appendix A: The Six-Type Taxonomy (Updated)
+
+
+h2. Contents
+
+* [Содержание|#содержание]
+* [Appendix A: The Six-Type Taxonomy (Updated)|#appendix-a-the-six-type-taxonomy-updated]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в-1]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы-1]
+* [Кто ссылается на этот документ (9)|#кто-ссылается-на-этот-документ-9]
+
+
+
+h2. Содержание
+
+* [Contents|#contents]
+* [Appendix A: The Six-Type Taxonomy (Updated)|#appendix-a-the-six-type-taxonomy-updated]
+* [Похожие документы|#похожие-документы]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+* [Кто ссылается на этот документ (9)|#кто-ссылается-на-этот-документ-9]
+
+----
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -58,7 +100,7 @@ how skilled practice actually structures itself.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[226-appendix-a-comparative-table-five-agent-types]] (сходство 0.31)
 * [[252-abstract]] (сходство 0.14)
 * [[227-appendix-b-decision-framework-when-to-build-type-1]] (сходство 0.13)
@@ -68,7 +110,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Appendix A The Six Type Taxonomy Updated"
+{code}
+
+h2. Смотрите также
 * [[226-appendix-a-comparative-table-five-agent-types]]
 * [[227-appendix-b-decision-framework-when-to-build-type-1]]
 * [[211-table-of-contents]]
@@ -106,3 +154,19 @@ h2. Связанные документы
 * [[223-12-closing|12. Closing]] _29%_
 * [[210-abstract|Abstract]] _25%_
 * [[213-2-what-makes-a-professional-colleague-agent|2. What Makes a Professional Colleague Agent]] _25%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (9)
+* [[210-abstract]]
+* [[211-table-of-contents]]
+* [[212-1-the-five-type-typology-of-principal-side-agents]]
+* [[213-2-what-makes-a-professional-colleague-agent]]
+* [[220-9-relationship-to-other-agent-types]]
+* [[223-12-closing]]
+* [[227-appendix-b-decision-framework-when-to-build-type-1]]
+* [[252-abstract]]
+* _...ещё 1_
+

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/252-abstract.md}}
-Дата: 2026-04-29
+Дата: 2026-05-11
 {info}
 
 ----
@@ -8,10 +8,31 @@ title: "Abstract"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-04-29
+date: 2026-05-11
 ----
 
 h1. Abstract
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+h2. Содержание
+
+* [Abstract|#abstract]
+* [Упоминается в|#упоминается-в]
+* [Упоминается в|#упоминается-в]
+* [Связанные документы|#связанные-документы]
+* [Связанные документы|#связанные-документы]
+
+----
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -76,7 +97,7 @@ in skilled work.
 
 ----
 
-_Похожие документы:_
+h2. Похожие документы
 * [[254-1-why-the-binary-view-is-incomplete]] (сходство 0.25)
 * [[267-acknowledgments]] (сходство 0.24)
 * [[266-13-closing]] (сходство 0.20)
@@ -86,7 +107,13 @@ _Похожие документы:_
 
 ----
 
-_Смотрите также:_
+h2. Использование
+{code:language=bash}
+# Поиск по теме документа
+python scripts/improve_semantic_search.py --query "Abstract"
+{code}
+
+h2. Смотрите также
 * [[254-1-why-the-binary-view-is-incomplete]]
 * [[267-acknowledgments]]
 * [[266-13-closing]]
@@ -133,3 +160,19 @@ h2. Связанные документы
 * [[208-professional-colleague-agents-md|PROFESSIONAL COLLEAGUE AGENTS.md]] _29%_
 * [[249-composite-skills-agent-md|COMPOSITE SKILLS AGENT.md]] _29%_
 * [[253-table-of-contents|Table of Contents]] _29%_
+
+
+
+----
+
+h2. Кто ссылается на этот документ (18)
+* [[151-open-knowledge-work-foundation-md]]
+* [[168-abstract]]
+* [[208-professional-colleague-agents-md]]
+* [[210-abstract]]
+* [[214-3-empirical-case-study-обучай]]
+* [[223-12-closing]]
+* [[249-composite-skills-agent-md]]
+* [[253-table-of-contents]]
+* _...ещё 10_
+

@@ -2,20 +2,26 @@
 title: "Системы памяти"
 tags:
   - habr-projects
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # Системы памяти
-<!-- summary: Проекты слоя memory: agent-memory-mcp, MemNet, NGT Memory, Yodoca -->
+
+<!-- toc-auto -->
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
+<!-- summary: Проекты слоя memory: agent-memory-mcp, MemNet, NGT[^ngt] Memory, Yodoca[^yodoca] -->
 <!-- tags: memory, agent-memory-mcp, memnet, ngt-memory, yodoca -->
 
 **Файлов:** 4
 
 ## Содержание
 
-- [[agent-memory-mcp|agent-memory-mcp.md]] — agent-memory-mcp + Memory OS — VitaliySemenov/@moshael — типизированный MCP-сервер памяти (episodic/semantic/procedural/working, SQLite+WAL)
+- [[agent-memory-mcp|agent-memory-mcp.md]] — agent-memory-mcp + Memory OS — VitaliySemenov/@moshael — типизированный MCP[^mcp]-сервер памяти (episodic/semantic/procedural/working, SQLite+WAL)
 - [[memnet|memnet.md]] — MemNet — «Memory Is All You Need» https://habr.com/ru/articles/983684/ Здесь автор делает то же самое, что NGT Memory из…
-- [[ngt-memory|ngt-memory.md]] — ассоциативные связи в персистентной памяти LLM — хеббовский граф, BSL 1.1
+- [[ngt-memory|ngt-memory.md]] — ассоциативные связи в персистентной памяти LLM[^llm] — хеббовский граф, BSL[^bsl] 1.1
 - [[yodoca|yodoca.md]] — Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не прост…
 
 <!-- similar-docs -->
@@ -47,3 +53,18 @@ python scripts/improve_semantic_search.py --query "Системы памяти" 
 ```
 
 Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25. Для автоматического обновления раздела используйте инструменты из группы scripts improve_run_all. Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации через граф концептов. Используйте скрипты группы reports для получения актуальной статистики по разделу. Рекомендуется начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисковый индекс репозитория Lorenzo. Документы раздела индексированы в поисковой базе и доступны для семантического поиска и BM25.
+
+
+<!-- footnotes-added -->
+
+---
+
+[^mcp]: Model Context Protocol — протокол для AI-инструментов
+
+[^llm]: Large Language Model — большая языковая модель
+
+[^yodoca]: OSS-проект: система памяти с консолидацией (Apache 2.0)
+
+[^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
+
+[^bsl]: Business Source License — коммерческая лицензия с открытым кодом

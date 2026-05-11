@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - anthropic-vacancies
-date: 2026-05-10
+date: 2026-05-11
 ---
 
 # What This Document Doesn't Solve
@@ -14,6 +14,7 @@ date: 2026-05-10
 
 - [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)
