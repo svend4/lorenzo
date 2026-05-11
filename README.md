@@ -7,7 +7,7 @@
 
 **Lorenzo** — монорепозиторий исследований и готовый Knowledge OS для проекта **Svyazi 2.0**:
 - **2480 документов** в `docs/` (карточки проектов, анализ вакансий, технические синергии)
-- **Гибридный поиск** (BM25 + TF-IDF + hnswlib ANN), Hit Rate@10 = 0.75
+- **Гибридный поиск** (BM25 + TF-IDF + hnswlib ANN), Hit Rate@10 = 1.00
 - **OpenAI-compatible API** — любой агент подключается без настройки
 - **MCP-сервер** — интеграция с Claude Desktop и другими MCP-клиентами
 - **165 скриптов** для построения и обслуживания базы знаний
@@ -28,7 +28,15 @@ curl -X POST http://localhost:8083/api/ask \
      -H "Content-Type: application/json" \
      -d '{"query": "агент с памятью консолидация", "top_k": 5}'
 
-# 4. Или через OpenAI Python SDK
+# 4. Поиск коллабораций напрямую
+curl -X POST http://localhost:8083/api/collabs \
+     -H "Content-Type: application/json" \
+     -d '{"query": "YAML агент оркестрация", "top_k": 3}'
+
+# 5. Проверить все критерии PROTOTYPE_SPEC §8
+curl http://localhost:8083/api/benchmark
+
+# 6. Или через OpenAI Python SDK
 python -c "
 from openai import OpenAI
 client = OpenAI(base_url='http://localhost:8083/v1', api_key='not-needed')
@@ -50,9 +58,11 @@ Lorenzo Gateway (FastAPI, порт 8083)
   ├── Intent router + 5 инструментов (function calling)
   ├── hybrid_search() = 0.6×TF-IDF + 0.4×BM25
   ├── ANN-поиск (hnswlib HNSW, 37× speedup, опционально)
+  ├── POST /api/collabs  → find_collabs() (Jaccard + BM25)
+  ├── GET  /api/benchmark → критерии PROTOTYPE_SPEC §8
   └── write-back: POST /api/cards → .md файл в docs/
         │
-   search_index.json (2480 документов)
+   search_index.json (2482 документа)
    passages.json (13 291 абзацев)
         │
    docs/ (markdown карточки)
@@ -81,7 +91,7 @@ Lorenzo Gateway (FastAPI, порт 8083)
 | `scripts/improve_ann_index.py` | hnswlib HNSW ANN-индекс (37× speedup vs линейный TF-IDF) |
 | `scripts/improve_collab_finder.py` | Поиск кандидатов на коллаборацию |
 | `scripts/improve_semantic_search.py` | Unified CLI поиск (BM25 / TF-IDF / hybrid) |
-| `scripts/improve_precision_eval.py` | Авто-оценка Hit Rate@10 (0.75 ≥ 0.70 ✅) |
+| `scripts/improve_precision_eval.py` | Авто-оценка Hit Rate@10 (1.00 ≥ 0.70 ✅) |
 | `scripts/improve_run_all.py` | Оркестратор: --smart / --group / --parallel |
 
 ## Запуск компонентов
@@ -130,7 +140,7 @@ pytest tests/ --ignore=tests/test_ann_index.py
 | 1 — Retrieval Loop | ✅ | BM25+TF-IDF+ANN, Review Queue UI |
 | 2 — Consolidation | ✅ | CI daily, SENTINEL, orphan rate 0% |
 | 3 — Collaboration Finder | ✅ | 9 проектных файлов, письма авторам |
-| 4 — Gateway & Enrichment | ✅ | OpenAI API, 43 теста, Hit Rate@10=0.75 |
+| 4 — Gateway & Enrichment | ✅ | OpenAI API, 133 теста, Hit Rate@10=1.00 |
 
 ## Требования
 

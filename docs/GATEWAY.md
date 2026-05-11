@@ -11,7 +11,9 @@
 - [Эндпоинты](#эндпоинты)
   - [`GET /api/health`](#get-apihealth)
   - [`GET /api/status`](#get-apistatus)
+  - [`GET /api/benchmark`](#get-apibenchmark)
   - [`POST /api/ask`](#post-apiask)
+  - [`POST /api/collabs`](#post-apicollabs)
   - [`POST /api/cards`](#post-apicards)
   - [`POST /v1/chat/completions`](#post-v1chatcompletions)
   - [`GET /v1/models`](#get-v1models)
@@ -50,7 +52,7 @@
 - [Режим обогащения](#режим-обогащения)
 
 <!-- summary -->
-> OpenAI-совместимый HTTP-шлюз к базе знаний Lorenzo. Любой AI-агент подключается по стандартному протоколу и может читать корпус (2461 карточка) или обогащать его новыми карточками.
+> OpenAI-совместимый HTTP-шлюз к базе знаний Lorenzo. Любой AI-агент подключается по стандартному протоколу и может читать корпус (2482 карточки) или обогащать его новыми карточками.
 
 <!-- tags: gateway, openai-compatible, api, rag, function-calling, enrichment -->
 
@@ -74,7 +76,7 @@
 | Аспект | Lorenzo Gateway | DAF-gateway |
 |--------|----------------|-------------|
 | Поиск | `hybrid_search()` — наш BM25+TF-IDF | `docstoolkit.rag` — внешняя библиотека |
-| Данные | `search_index.json` (2461 карточек) | собственный корпус DAF |
+| Данные | `search_index.json` (2482 карточек) | собственный корпус DAF |
 | Офлайн | ✅ полностью | ❌ требует Redis |
 | Docker | ❌ не нужен | ✅ docker-compose |
 | Зависимости | `fastapi`, `uvicorn` | FastAPI + Redis + Docker |
@@ -110,7 +112,7 @@
           ┌──────────┴──────────┐
           │                     │
    search_index.json       passages.json
-   (2461 карточек)         (13291 абзацев)
+   (2482 карточек)         (13291 абзацев)
           │
      docs/ (markdown)
 ```
@@ -166,6 +168,24 @@ python scripts/gateway.py --reload
 ### `GET /api/status`
 Детальная статистика корпуса.
 
+### `GET /api/benchmark`
+Все 5 критериев успеха PROTOTYPE_SPEC §8 одним запросом.
+```bash
+curl http://localhost:8083/api/benchmark
+```
+```json
+{
+  "criteria": {
+    "latency_s":   {"value": 0.21, "threshold": "≤5.0s", "pass": true},
+    "cards":       {"value": 2482, "threshold": "≥500",  "pass": true},
+    "orphan_rate": {"value": 0.0,  "threshold": "≤0.15", "pass": true},
+    "hit_rate_10": {"value": 1.0,  "threshold": "≥0.70", "pass": true}
+  },
+  "all_pass": true,
+  "spec": "PROTOTYPE_SPEC §8"
+}
+```
+
 ### `POST /api/ask`
 Прямой RAG-запрос без OpenAI-совместимости.
 ```bash
@@ -179,6 +199,25 @@ curl -X POST http://localhost:8083/api/ask \
   "answer": "...",
   "results": [...],
   "latency_s": 0.8
+}
+```
+
+### `POST /api/collabs`
+Прямой поиск кандидатов на коллаборацию без chat-слоя.
+```bash
+curl -X POST http://localhost:8083/api/collabs \
+     -H "Content-Type: application/json" \
+     -d '{"query": "YAML декларативный оркестратор агентов", "top_k": 3}'
+```
+```json
+{
+  "query": "YAML декларативный оркестратор агентов",
+  "results": [
+    {"title": "Rufler", "file": "docs/05-habr-projects/knowledge/rufler.md",
+     "score": 0.042, "author": "zodigancode", "has_letter": false}
+  ],
+  "count": 3,
+  "latency_s": 0.003
 }
 ```
 
