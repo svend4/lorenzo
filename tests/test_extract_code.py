@@ -113,3 +113,37 @@ def test_extract_blocks_multiple_blocks(tmp_path, monkeypatch):
     )
     result = mod.extract_blocks(text, f)
     assert len(result) == 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_code_blocks_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n```python\nprint('hello')\n```\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CODE_BLOCKS.md").exists()
+
+
+def test_main_code_blocks_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n```python\nprint('hello')\n```\n", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CODE_BLOCKS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CODE_BLOCKS.md").exists()
+
+
+def test_main_code_blocks_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CODE_BLOCKS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
