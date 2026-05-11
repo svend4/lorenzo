@@ -30,6 +30,11 @@ mcp>=1.0.0                 # Model Context Protocol SDK (Claude Desktop инте
 # ── Экспорт ────────────────────────────────────────────────────
 # EPUB (improve_epub.py): apt install pandoc (не pip)
 
+# ── Stage 7: HTTP Gateway (scripts/gateway.py) ───────────────
+# OpenAI-compatible REST API для подключения любых AI-агентов
+fastapi>=0.111.0           # HTTP-фреймворк
+uvicorn[standard]>=0.29.0  # ASGI-сервер
+
 # ── Опционально ────────────────────────────────────────────────
 # pillow>=10.0.0            # SVG word cloud (improve_word_cloud.py)
 # streamlit>=1.35.0         # Web UI для CardStore (планируется)
@@ -38,3 +43,4 @@ mcp>=1.0.0                 # Model Context Protocol SDK (Claude Desktop инте
 # pip install beautifulsoup4 lxml
 # pip install anthropic          # + ANTHROPIC_API_KEY для LLM
 # pip install mcp                # + Claude Desktop для MCP
+# pip install fastapi uvicorn    # + gateway.py для HTTP API
