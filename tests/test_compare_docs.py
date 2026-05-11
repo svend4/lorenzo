@@ -266,3 +266,36 @@ def test_format_comparison_has_filenames(tmp_path):
 
     text = "\n".join(result)
     assert "doc_a.md" in text or "doc_b.md" in text
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_batch_creates_compare_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "OUT_FILE", None)
+    (tmp_path / "a.md").write_text("# AgentFS\n\nMemory agent system.", encoding="utf-8")
+    (tmp_path / "b.md").write_text("# Yodoca\n\nMemory consolidation.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "COMPARE.md").exists()
+
+
+def test_main_batch_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "OUT_FILE", None)
+    mod.main()
+    assert (tmp_path / "COMPARE.md").exists()
+
+
+def test_main_no_batch_no_files_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", False)
+    monkeypatch.setattr(mod, "FILE_A", None)
+    monkeypatch.setattr(mod, "FILE_B", None)
+    mod.main()  # prints usage, must not raise

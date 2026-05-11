@@ -123,3 +123,35 @@ def test_get_section_counts_skips_nonexistent_sections(tmp_path, monkeypatch):
     (tmp_path / "01-svyazi" / "test.md").write_text("# T", encoding="utf-8")
     result = mod.get_section_counts()
     assert "02-anthropic-vacancies" not in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_report_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "REPORT.md").exists()
+
+
+def test_main_report_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "REPORT.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "REPORT.md").exists()
+
+
+def test_main_report_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "REPORT.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

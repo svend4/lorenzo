@@ -81,3 +81,35 @@ def test_make_ascii_radar_has_hold_section():
     result = mod.make_ascii_radar(mod.RADAR)
     text = "\n".join(result)
     assert "HOLD" in text
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_tech_radar_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "TECH_RADAR.md").exists()
+
+
+def test_main_tech_radar_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "TECH_RADAR.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "TECH_RADAR.md").exists()
+
+
+def test_main_tech_radar_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "TECH_RADAR.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

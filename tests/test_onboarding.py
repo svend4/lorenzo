@@ -116,3 +116,36 @@ def test_get_script_count_with_mock(tmp_path, monkeypatch):
     (scripts / "other.py").write_text("", encoding="utf-8")
     result = mod.get_script_count()
     assert result == 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_onboarding_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "SCORING.md").write_text("Балл: **96**/100", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "ONBOARDING.md").exists()
+
+
+def test_main_onboarding_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "ONBOARDING.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ONBOARDING.md").exists()
+
+
+def test_main_onboarding_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "ONBOARDING.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

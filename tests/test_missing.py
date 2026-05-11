@@ -95,3 +95,36 @@ def test_measure_coverage_multiple_files(tmp_path, monkeypatch):
     (tmp_path / "b.md").write_text("Rufler mentioned again", encoding="utf-8")
     result = mod.measure_coverage("Rufler")
     assert len(result["files"]) == 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_missing_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "MISSING.md").exists()
+
+
+def test_main_missing_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nAgentFS and Yodoca.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "MISSING.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "MISSING.md").exists()
+
+
+def test_main_missing_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "MISSING.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

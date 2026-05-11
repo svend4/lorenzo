@@ -103,3 +103,36 @@ def test_get_top_terms_default_n_is_5():
     text = "CardIndex AgentFS Svyazi MVP agent memory rag security roadmap license"
     result = mod.get_top_terms(text)
     assert len(result) <= 5
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def _prio_setup(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    for i, (name, content) in enumerate([
+        ("agentfs.md", "# AgentFS\n\nAgentFS is a knowledge filesystem for AI agents. " * 3),
+        ("yodoca.md", "# Yodoca\n\nYodoca provides memory consolidation with decay. " * 3),
+        ("ngt-memory.md", "# NGT Memory\n\nNGT Memory builds associative graph memory. " * 3),
+    ]):
+        (tmp_path / name).write_text(content, encoding="utf-8")
+
+
+def test_main_creates_priorities_md(tmp_path, monkeypatch):
+    _prio_setup(tmp_path, monkeypatch)
+    mod.main()
+    assert (tmp_path / "PRIORITIES.md").exists()
+
+
+def test_main_priorities_has_content(tmp_path, monkeypatch):
+    _prio_setup(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "PRIORITIES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_priorities_starts_with_heading(tmp_path, monkeypatch):
+    _prio_setup(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "PRIORITIES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
