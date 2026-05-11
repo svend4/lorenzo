@@ -117,3 +117,38 @@ def test_cross_concepts_has_required_keys():
         assert "sections" in entry
         assert "n_secs" in entry
         assert "avg_score" in entry
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_cross_section_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CROSS_SECTION.md").exists()
+
+
+def test_main_cross_section_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CROSS_SECTION.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_cross_section_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CROSS_SECTION.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
+
+
+def test_main_with_subdirs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    sec = tmp_path / "section-a"
+    sec.mkdir()
+    (sec / "doc.md").write_text("# AgentFS\n\nAgent memory architecture search.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CROSS_SECTION.md").exists()

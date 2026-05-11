@@ -132,3 +132,37 @@ def test_section_label_dashes_to_spaces(tmp_path):
     section = tmp_path / "my-section"
     result = mod._section_label(section)
     assert "-" not in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_outline_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\n## Section\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "OUTLINE.md").exists()
+
+
+def test_main_outline_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\n## Section\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "OUTLINE.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "OUTLINE.md").exists()
+
+
+def test_main_outline_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "OUTLINE.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

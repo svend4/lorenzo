@@ -110,3 +110,61 @@ def test_verdict_medium_similarity():
 def test_verdict_low_similarity():
     result = mod._verdict(0.2)
     assert "Умеренное" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_duplicate_across_md_internal(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", True)
+    monkeypatch.setattr(mod, "OTHER_DIR", None)
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    sec_a = tmp_path / "sec-a"
+    sec_b = tmp_path / "sec-b"
+    sec_a.mkdir()
+    sec_b.mkdir()
+    (sec_a / "doc1.md").write_text("# AgentFS\n\nAgent memory architecture.", encoding="utf-8")
+    (sec_b / "doc2.md").write_text("# Yodoca\n\nMemory consolidation agent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "DUPLICATE_ACROSS.md").exists()
+
+
+def test_main_creates_duplicate_across_md_other_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", False)
+    monkeypatch.setattr(mod, "OTHER_DIR", tmp_path)
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc1.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "DUPLICATE_ACROSS.md").exists()
+
+
+def test_main_duplicate_across_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", True)
+    monkeypatch.setattr(mod, "OTHER_DIR", None)
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    sec = tmp_path / "sec-x"
+    sec.mkdir()
+    (sec / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "DUPLICATE_ACROSS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_no_flags_prints_usage(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", False)
+    monkeypatch.setattr(mod, "OTHER_DIR", None)
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    captured = capsys.readouterr()
+    assert "Использование" in captured.out or "--internal" in captured.out
