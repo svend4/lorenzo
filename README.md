@@ -1,90 +1,156 @@
-# lorenzo — монорепозиторий
+# Lorenzo — Knowledge OS для Svyazi 2.0
 
-info
+> Локальная community intelligence platform: поиск, хранение и коллаборация знаний.
+> Любой AI-агент подключается по OpenAI-протоколу.
 
-Это монорепозиторий с исследованиями, заметками и материалами по проекту **Svyazi 2.0** и смежным темам. Главные исходные документы остаются в корне без изменений; их содержимое продублировано и разбито на маленькие тематические документы внутри `docs/`, организованных по папкам и подпапкам.
+## Что это
 
-## Структура
+**Lorenzo** — монорепозиторий исследований и готовый Knowledge OS для проекта **Svyazi 2.0**:
+- **2480 документов** в `docs/` (карточки проектов, анализ вакансий, технические синергии)
+- **Гибридный поиск** (BM25 + TF-IDF + hnswlib ANN), Hit Rate@10 = 0.75
+- **OpenAI-compatible API** — любой агент подключается без настройки
+- **MCP-сервер** — интеграция с Claude Desktop и другими MCP-клиентами
+- **165 скриптов** для построения и обслуживания базы знаний
+
+## Быстрый старт
+
+```bash
+# 1. Установить зависимости
+pip install fastapi uvicorn streamlit hnswlib numpy
+
+# 2. Запустить HTTP gateway
+python scripts/gateway.py
+# → http://localhost:8083/docs (Swagger UI)
+# → http://localhost:8083/api/health
+
+# 3. Поиск по базе знаний
+curl -X POST http://localhost:8083/api/ask \
+     -H "Content-Type: application/json" \
+     -d '{"query": "агент с памятью консолидация", "top_k": 5}'
+
+# 4. Или через OpenAI Python SDK
+python -c "
+from openai import OpenAI
+client = OpenAI(base_url='http://localhost:8083/v1', api_key='not-needed')
+r = client.chat.completions.create(
+    model='lorenzo-gateway',
+    messages=[{'role': 'user', 'content': 'Что такое Yodoca?'}]
+)
+print(r.choices[0].message.content)
+"
+```
+
+## Архитектура
 
 ```
-lorenzo/
-├── README.md                              # этот файл
-├── deep-research-report (1).md            # ОРИГИНАЛ — не изменён
-├── deep-research-report (2).md            # ОРИГИНАЛ — не изменён
-├── deep-research-report (3).md            # ОРИГИНАЛ — не изменён
-├── deep-research-report (4).md            # ОРИГИНАЛ — не изменён
-├── Вакансии в Anthropic ...               # ОРИГИНАЛ MHTML — не изменён
-├── Комбинирование технологий ...          # ОРИГИНАЛ MHTML — не изменён
-├── Поиск коллабораций AI проектов         # ОРИГИНАЛ MHTML — не изменён
-├── Поиск уникальных проектов на Хабре ... # ОРИГИНАЛ MHTML — не изменён
-├── docs/                                  # разделённые тематические документы
-│   ├── svyazi-2-0/                        # основная тема: проект Svyazi 2.0
-│   │   ├── overview/                      # обзор и методика
-│   │   ├── components/                    # отдельные проекты-кирпичики
-│   │   ├── ensembles/                     # ансамбли и их новые свойства
-│   │   ├── architecture/                  # интеграционные контракты
-│   │   ├── prototype/                     # MVP, риски, дорожная карта
-│   │   ├── security/                      # безопасность, приватность, бюджет
-│   │   ├── outreach/                      # контактная стратегия
-│   │   └── limitations/                   # лицензии и ограничения
-│   ├── anthropic-vacancies/               # вакансии Anthropic по кластерам + маппинг профиля
-│   ├── nautilus/                          # NPP v1.1 RFC + 8 companion papers (OKWF, RAL, PCA, CSA, Double-Triangle, Layer-B, InGit+Cowork)
-│   ├── lorenzo-agent/                     # системный промпт Lorenzo Catalyst Agent (источник имени репо)
-│   ├── technology-combinations/           # комбинирование технологий
-│   ├── ai-collaborations/                 # поиск коллабораций AI проектов
-│   ├── habr-unique-projects/              # уникальные проекты на Хабре
-│   └── glossary/                          # кросс-ссылочный словарь компонентов/авторов/понятий
-├── packages/                              # workspace-пакеты (зарезервировано)
-└── sources/                               # индексы исходных документов
+Любой AI-клиент (Claude Desktop / Cursor / GPT / агент)
+        │  POST /v1/chat/completions  (OpenAI API)
+        ▼
+Lorenzo Gateway (FastAPI, порт 8083)
+  ├── Intent router + 5 инструментов (function calling)
+  ├── hybrid_search() = 0.6×TF-IDF + 0.4×BM25
+  ├── ANN-поиск (hnswlib HNSW, 37× speedup, опционально)
+  └── write-back: POST /api/cards → .md файл в docs/
+        │
+   search_index.json (2480 документов)
+   passages.json (13 291 абзацев)
+        │
+   docs/ (markdown карточки)
 ```
 
-## Принцип
+## Структура docs/
 
-1. **Ничего не удалено.** Все исходные документы в корне сохранены as-is.
-2. **Разделено, а не сжато.** Содержимое исходных документов перенесено в маленькие тематические файлы — каждый файл посвящён одной теме или подтеме.
-3. **Папки по темам, подпапки по подтемам.** Каждая большая тема имеет свою папку, внутри неё — подпапки для подтем.
-4. **Индексы (`README.md`) в каждой папке.** Всегда понятно, что внутри и как навигировать.
+| Раздел | Описание | Файлов |
+|--------|----------|--------|
+| [01-svyazi](docs/01-svyazi/) | Архитектура Svyazi 2.0: компоненты, ансамбли, MVP | 16 |
+| [02-anthropic-vacancies](docs/02-anthropic-vacancies/) | Анализ 436 вакансий Anthropic по 12 кластерам | 356 |
+| [03-technology-combinations](docs/03-technology-combinations/) | 40+ синергий технологий (hardware, agents, local-first) | 50 |
+| [04-ai-collaborations](docs/04-ai-collaborations/) | 5 ансамблей OSS-проектов для Svyazi | 12 |
+| [05-habr-projects](docs/05-habr-projects/) | 9 богатых карточек: Yodoca, AgentFS, MemNet, Rufler и др. | 20 |
+| [PROTOTYPE_SPEC.md](docs/PROTOTYPE_SPEC.md) | Спецификация прототипа: 4 контракта + 4 итерации | — |
+| [GATEWAY.md](docs/GATEWAY.md) | Документация Lorenzo Gateway | — |
+| [CONTACTS.md](docs/CONTACTS.md) | 8 авторов проектов, письма готовы | — |
 
-## Точка входа
+## Ключевые скрипты
 
-- Если хотите понять **что такое Lorenzo** (по которому назван этот репозиторий) — [docs/lorenzo-agent/README.md](docs/lorenzo-agent/README.md).
-- Если вы изучаете **Svyazi 2.0** — начните с [docs/svyazi-2-0/README.md](docs/svyazi-2-0/README.md).
-- Если ищете **компонент по имени** — [docs/glossary/components-by-name.md](docs/glossary/components-by-name.md).
-- Если интересуют **архитектурные специфики Nautilus / DHLab** — [docs/nautilus/README.md](docs/nautilus/README.md).
-- Если нужно **разобрать карьерные опции** — [docs/anthropic-vacancies/profile-mapping/README.md](docs/anthropic-vacancies/profile-mapping/README.md).
-- Если интересуют **другие темы** — см. соответствующую подпапку в `docs/`.
-- Если нужны **исходные документы** — см. [sources/README.md](sources/README.md) или сами файлы в корне.
-# Lorenzo — Монорепозиторий исследований
-<!-- badges -->
-![docs](docs/badges/docs.svg) ![words](docs/badges/words.svg) ![scripts](docs/badges/scripts.svg) ![health](docs/badges/health.svg) ![go/no-go](docs/badges/scoring.svg) ![license](docs/badges/license.svg) ![branch](docs/badges/branch.svg) 
+| Скрипт | Назначение |
+|--------|-----------|
+| `scripts/gateway.py` | OpenAI-compatible HTTP API (FastAPI, порт 8083) |
+| `scripts/mcp_server.py` | MCP-сервер с 11 инструментами (для Claude Desktop) |
+| `scripts/review_queue.py` | Streamlit UI: одобрение/отклонение карточек |
+| `scripts/improve_ann_index.py` | hnswlib HNSW ANN-индекс (37× speedup vs линейный TF-IDF) |
+| `scripts/improve_collab_finder.py` | Поиск кандидатов на коллаборацию |
+| `scripts/improve_semantic_search.py` | Unified CLI поиск (BM25 / TF-IDF / hybrid) |
+| `scripts/improve_precision_eval.py` | Авто-оценка Hit Rate@10 (0.75 ≥ 0.70 ✅) |
+| `scripts/improve_run_all.py` | Оркестратор: --smart / --group / --parallel |
 
+## Запуск компонентов
 
-Организованные документы по темам. Исходные файлы сохранены в корне репозитория.
+```bash
+# HTTP Gateway
+python scripts/gateway.py [--port 9000] [--reload]
 
-## Разделы
+# MCP-сервер (stdio, для Claude Desktop)
+python scripts/mcp_server.py
 
-| Раздел | Описание |
-|--------|----------|
-| [01-svyazi](docs/01-svyazi/) | Svyazi 2.0: архитектура, компоненты, ансамбли, MVP |
-| [02-anthropic-vacancies](docs/02-anthropic-vacancies/) | Анализ 436 вакансий Anthropic по 12 кластерам |
-| [03-technology-combinations](docs/03-technology-combinations/) | 40+ синергетических комбинаций технологий |
-| [04-ai-collaborations](docs/04-ai-collaborations/) | 5 ансамблей OSS-проектов для Svyazi |
-| [05-habr-projects](docs/05-habr-projects/) | Проекты на Хабре: память, граф знаний, коллаборации |
+# Review Queue UI
+streamlit run scripts/review_queue.py   # → http://localhost:8501
 
-## Исходные файлы
+# ANN-индекс (нужен один раз)
+python scripts/improve_ann_index.py --build
 
-- `deep-research-report (1).md` — исходник для 01-svyazi (часть 1)
-- `deep-research-report (2).md` — дубликат отчёта 1
-- `deep-research-report (3).md` — исходник для 01-svyazi (часть 2)
-- `deep-research-report (4).md` — дубликат отчёта 3
-- `Вакансии в Anthropic по кластерам - Claude` — MHTML для 02-anthropic-vacancies
-- `Комбинирование технологий для новых свойств - Claude` — MHTML для 03-technology-combinations
-- `Поиск коллабораций AI проектов` — MHTML для 04-ai-collaborations
-- `Поиск уникальных проектов на Хабре для совместной разработки - Claude` — MHTML для 05-habr-projects
-- `Поиск уникальных проектов на Хабре для совместной разработки - Claude (1)` — дубликат
+# Поиск из CLI
+python scripts/improve_semantic_search.py --query "агент память консолидация"
+python scripts/improve_collab_finder.py --query "typed memory sqlite mcp"
 
-## Скрипты
+# Тесты
+pip install -r requirements-test.txt
+pytest tests/ --ignore=tests/test_ann_index.py
+```
 
-- `scripts/organize_docs.py` — главный скрипт (этот файл)
-- `scripts/extract_mhtml.py` — парсер MHTML → Markdown
-- `scripts/part*.py` — модули по темам
+## Проекты в базе знаний
+
+| Проект | Слой | Автор (Хабр) |
+|--------|------|-------------|
+| [Yodoca](docs/05-habr-projects/memory/yodoca.md) | memory/consolidation | VitalyOborin |
+| [NGT Memory](docs/05-habr-projects/memory/ngt-memory.md) | memory/graph | spbmolot |
+| [MemNet](docs/05-habr-projects/memory/memnet.md) | memory/research | Antipozitive |
+| [agent-memory-mcp](docs/05-habr-projects/memory/agent-memory-mcp.md) | memory/MCP | VitaliySemenov |
+| [AgentFS](docs/05-habr-projects/knowledge/agentfs.md) | knowledge/filesystem | kksudo |
+| [knowledge-space](docs/05-habr-projects/knowledge/knowledge-space.md) | knowledge/cards | AnastasiyaW |
+| [Rufler](docs/05-habr-projects/knowledge/rufler.md) | orchestration/YAML | zodigancode |
+| [LiteParse](docs/05-habr-projects/knowledge/research-docs-liteparse.md) | ingestion/evidence | nlaik |
+| [Wikontic](docs/05-habr-projects/knowledge/wikontic.md) | knowledge/graph | VitalyOborin |
+
+## Статус итераций (PROTOTYPE_SPEC)
+
+| Итерация | Статус | Артефакты |
+|----------|--------|-----------|
+| 0 — Вертикальный срез | ✅ | 1632 карточки, MCP 11 инструментов |
+| 1 — Retrieval Loop | ✅ | BM25+TF-IDF+ANN, Review Queue UI |
+| 2 — Consolidation | ✅ | CI daily, SENTINEL, orphan rate 0% |
+| 3 — Collaboration Finder | ✅ | 9 проектных файлов, письма авторам |
+| 4 — Gateway & Enrichment | ✅ | OpenAI API, 43 теста, Hit Rate@10=0.75 |
+
+## Требования
+
+```bash
+# Минимум (поиск из CLI — только стандартная библиотека Python 3.11+)
+python scripts/improve_semantic_search.py --query "..."
+
+# HTTP Gateway
+pip install fastapi uvicorn pydantic
+
+# ANN-поиск
+pip install hnswlib numpy
+
+# Review Queue UI
+pip install streamlit
+
+# Тесты
+pip install -r requirements-test.txt
+```
+
+---
+
+_Документация: [docs/GATEWAY.md](docs/GATEWAY.md) · [docs/PROTOTYPE_SPEC.md](docs/PROTOTYPE_SPEC.md) · [docs/PROGRESS.md](docs/PROGRESS.md)_
