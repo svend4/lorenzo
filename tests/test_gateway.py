@@ -86,6 +86,48 @@ def test_status_tools_list():
     assert "find_collabs" in tools
     assert "get_contacts" in tools
 
+
+def test_status_core_cards_present():
+    r = client.get("/api/status")
+    data = r.json()
+    assert "core_cards" in data
+    assert data["core_cards"] > 0
+
+
+def test_status_core_le_total():
+    r = client.get("/api/status")
+    data = r.json()
+    assert data["core_cards"] <= data["total_cards"]
+
+# ── /api/search ──────────────────────────────────────────────────────────────
+
+def test_search_returns_results():
+    r = client.post("/api/search", json={"query": "агент память", "top_k": 3})
+    assert r.status_code == 200
+    data = r.json()
+    assert "results" in data
+    assert isinstance(data["results"], list)
+
+
+def test_search_has_count_field():
+    r = client.post("/api/search", json={"query": "Yodoca", "top_k": 5})
+    data = r.json()
+    assert "count" in data
+    assert data["count"] == len(data["results"])
+
+
+def test_search_has_latency():
+    r = client.post("/api/search", json={"query": "граф знаний", "top_k": 3})
+    data = r.json()
+    assert "latency_s" in data
+    assert data["latency_s"] < 10.0
+
+
+def test_search_no_answer_field():
+    r = client.post("/api/search", json={"query": "RAG retrieval", "top_k": 3})
+    data = r.json()
+    assert "answer" not in data   # лёгкий эндпоинт — без LLM-синтеза
+
 # ── /v1/models ───────────────────────────────────────────────────────────────
 
 def test_models_list():

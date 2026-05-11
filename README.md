@@ -23,20 +23,25 @@ python scripts/gateway.py
 # → http://localhost:8083/docs (Swagger UI)
 # → http://localhost:8083/api/health
 
-# 3. Поиск по базе знаний
+# 3. Быстрый поиск (только results, без LLM-синтеза)
+curl -X POST http://localhost:8083/api/search \
+     -H "Content-Type: application/json" \
+     -d '{"query": "агент с памятью консолидация", "top_k": 5}'
+
+# 4. RAG-поиск с контекстом
 curl -X POST http://localhost:8083/api/ask \
      -H "Content-Type: application/json" \
      -d '{"query": "агент с памятью консолидация", "top_k": 5}'
 
-# 4. Поиск коллабораций напрямую
+# 6. Поиск коллабораций напрямую
 curl -X POST http://localhost:8083/api/collabs \
      -H "Content-Type: application/json" \
      -d '{"query": "YAML агент оркестрация", "top_k": 3}'
 
-# 5. Проверить все критерии PROTOTYPE_SPEC §8
+# 7. Проверить все критерии PROTOTYPE_SPEC §8
 curl http://localhost:8083/api/benchmark
 
-# 6. Или через OpenAI Python SDK
+# 8. Или через OpenAI Python SDK
 python -c "
 from openai import OpenAI
 client = OpenAI(base_url='http://localhost:8083/v1', api_key='not-needed')
@@ -58,6 +63,7 @@ Lorenzo Gateway (FastAPI, порт 8083)
   ├── Intent router + 5 инструментов (function calling)
   ├── hybrid_search() = 0.6×TF-IDF + 0.4×BM25
   ├── ANN-поиск (hnswlib HNSW, 37× speedup, опционально)
+  ├── POST /api/search   → лёгкий поиск (results only, без LLM)
   ├── POST /api/collabs  → find_collabs() (Jaccard + BM25)
   ├── GET  /api/benchmark → критерии PROTOTYPE_SPEC §8
   └── write-back: POST /api/cards → .md файл в docs/

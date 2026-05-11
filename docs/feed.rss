@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 08:33:31 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 08:40:49 GMT</lastBuildDate>
+    <item>
+      <title>chore: авто-перегенерация дашбордов после v1.0.0 + check_published</title>
+      <link>https://github.com/svend4/lorenzo/commit/8e0325866314e53abc896370d1ac1964ac8c5a45</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/8e0325866314e53abc896370d1ac1964ac8c5a45</guid>
+      <pubDate>Mon, 11 May 2026 08:35:38 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: авто-перегенерация дашбордов после v1.0.0 + check_published</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>8e032586</code></p>]]></description>
+    </item>
     <item>
       <title>feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)</title>
       <link>https://github.com/svend4/lorenzo/commit/657ca79e6f64e036cf97fd1d06121d144946c0d6</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2655a8cbeaa6d7ff20c257762356478884b015e1</guid>
       <pubDate>Mon, 11 May 2026 06:26:07 GMT</pubDate>
       <description><![CDATA[<p><strong>chore: update SCORING.md auto-generated dashboard</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCORING.md">docs/SCORING.md</a></li></ul><p>Коммит: <code>2655a8cb</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: Review Queue UI + gateway write-back fix + Iteration 4</title>
-      <link>https://github.com/svend4/lorenzo/commit/e31c908a84470ac3f45494f401c8fe5b2d7c44f3</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/e31c908a84470ac3f45494f401c8fe5b2d7c44f3</guid>
-      <pubDate>Mon, 11 May 2026 06:25:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: Review Queue UI + gateway write-back fix + Iteration 4</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROTOTYPE_SPEC.md">docs/PROTOTYPE_SPEC.md</a></li></ul><p>Коммит: <code>e31c908a</code></p>]]></description>
     </item>
   </channel>
 </rss>

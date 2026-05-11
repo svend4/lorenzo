@@ -695,6 +695,23 @@ async def ask(req: AskRequest):
     }
 
 
+@app.post("/api/search")
+async def search_endpoint(req: AskRequest):
+    """Лёгкий поиск — только список результатов без LLM-синтеза.
+
+    Быстрее /api/ask: нет LLM-вызова, нет контекстной сборки.
+    Подходит для автодополнения и инкрементального UI.
+    """
+    t0      = time.time()
+    results = hybrid_search(req.query, req.top_k)
+    return {
+        "query":     req.query,
+        "results":   results,
+        "count":     len(results),
+        "latency_s": round(time.time() - t0, 3),
+    }
+
+
 @app.post("/api/collabs")
 async def collabs_endpoint(req: CollabRequest):
     """Поиск кандидатов коллаборации по запросу.

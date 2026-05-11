@@ -13,6 +13,7 @@
   - [`GET /api/status`](#get-apistatus)
   - [`GET /api/benchmark`](#get-apibenchmark)
   - [`POST /api/ask`](#post-apiask)
+  - [`POST /api/search`](#post-apisearch)
   - [`POST /api/collabs`](#post-apicollabs)
   - [`POST /api/cards`](#post-apicards)
   - [`POST /v1/chat/completions`](#post-v1chatcompletions)
@@ -45,7 +46,7 @@
 - [Сравнение с DAF-gateway](#сравнение-с-daf-gateway)
 - [Архитектура](#архитектура)
 - [Запуск](#запуск)
-- [Эндпоинты](#эндпоинты)
+- [Эндпоинты](#эндпоинты) (`/api/health`, `/api/status`, `/api/benchmark`, `/api/ask`, `/api/search`, `/api/collabs`, `/api/cards`, `/v1/chat/completions`)
 - [Инструменты (function calling)](#инструменты-function-calling)
 - [Примеры использования](#примеры-использования)
 - [Подключение AI-клиентов](#подключение-ai-клиентов)
@@ -199,6 +200,23 @@ curl -X POST http://localhost:8083/api/ask \
   "answer": "...",
   "results": [...],
   "latency_s": 0.8
+}
+```
+
+### `POST /api/search`
+Лёгкий поиск — только список результатов, без LLM-синтеза и контекста.
+Подходит для автодополнения и быстрого UI.
+```bash
+curl -X POST http://localhost:8083/api/search \
+     -H "Content-Type: application/json" \
+     -d '{"query": "агент память консолидация", "top_k": 5}'
+```
+```json
+{
+  "query": "агент память консолидация",
+  "results": [...],
+  "count": 5,
+  "latency_s": 0.12
 }
 ```
 
