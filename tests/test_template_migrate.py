@@ -192,3 +192,34 @@ def test_suggest_migrations_valid_doc(tmp_path):
     }
     result = mod.suggest_migrations(f, schema)
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_schemas_returns_one(tmp_path, monkeypatch):
+    import importlib as _il
+    import sys as _sys
+    vt = _il.import_module("improve_validate_templates")
+    monkeypatch.setattr(vt, "SCHEMAS_DIR", tmp_path / "nonexistent-schemas")
+    monkeypatch.setattr(vt, "DOCS", tmp_path)
+    monkeypatch.setattr(vt, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--all", "--dry-run"])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_no_template_arg_returns_one(tmp_path, monkeypatch):
+    import importlib as _il
+    vt = _il.import_module("improve_validate_templates")
+    schemas_dir = tmp_path / "_schemas"
+    schemas_dir.mkdir(parents=True)
+    (schemas_dir / "note.json").write_text(
+        '{"template":"note","properties":{"title":{"type":"string"}},"required":["title"]}',
+        encoding="utf-8"
+    )
+    monkeypatch.setattr(vt, "SCHEMAS_DIR", schemas_dir)
+    monkeypatch.setattr(vt, "DOCS", tmp_path)
+    monkeypatch.setattr(vt, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    result = mod.main()
+    assert result == 1

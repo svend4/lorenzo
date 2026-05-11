@@ -228,3 +228,28 @@ def test_check_broken_internal_empty_dir(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "ROOT", tmp_path.parent)
     result = mod.check_broken_internal()
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_validation_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "VALIDATION.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+
+
+def test_main_with_doc_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    subdir = tmp_path / "01-svyazi"
+    subdir.mkdir()
+    (subdir / "doc.md").write_text("# Title\n\nContent.\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "VALIDATION.md").exists()

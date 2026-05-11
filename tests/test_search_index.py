@@ -121,3 +121,28 @@ def test_build_index_multiple_files(tmp_path, monkeypatch):
         (tmp_path / f"doc{i}.md").write_text(f"# Doc {i}\n\n" + "content word " * 20, encoding="utf-8")
     result = mod.build_index()
     assert len(result) == 3
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_search_index_json(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n" + "word " * 20, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "search_index.json").exists()
+
+
+def test_main_creates_search_index_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n" + "word " * 20, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SEARCH.md").exists()
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "search_index.json").exists()

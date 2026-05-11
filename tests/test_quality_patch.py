@@ -131,3 +131,18 @@ def test_toc_markers_constant():
     assert hasattr(mod, "TOC_MARKERS")
     assert isinstance(mod.TOC_MARKERS, tuple)
     assert any("toc" in m.lower() for m in mod.TOC_MARKERS)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    mod.main()
+
+
+def test_main_patches_files(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent.\n", encoding="utf-8")
+    mod.main()
+    assert f.exists()

@@ -8,6 +8,11 @@ from improve_validate_templates import (
     load_schemas,
 )
 
+import importlib as _importlib
+import sys as _sys
+_sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent.parent / "scripts"))
+_mod = _importlib.import_module("improve_validate_templates")
+
 
 def test_parse_yaml_simple_scalars():
     text = """
@@ -142,3 +147,43 @@ tags: [test]
     path.unlink()
     # Должны быть errors про missing sections
     assert any('секция' in e for e in errs)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_schemas_returns_one(tmp_path, monkeypatch):
+    monkeypatch.setattr(_mod, "SCHEMAS_DIR", tmp_path / "nonexistent-schemas")
+    monkeypatch.setattr(_mod, "DOCS", tmp_path)
+    monkeypatch.setattr(_mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = _mod.main()
+    assert result == 1
+
+
+def test_main_with_schemas_no_crash(tmp_path, monkeypatch):
+    schemas_dir = tmp_path / "_schemas"
+    schemas_dir.mkdir(parents=True)
+    (schemas_dir / "note.json").write_text(
+        '{"template":"note","properties":{"title":{"type":"string"}},"required":["title"]}',
+        encoding="utf-8"
+    )
+    monkeypatch.setattr(_mod, "SCHEMAS_DIR", schemas_dir)
+    monkeypatch.setattr(_mod, "DOCS", tmp_path)
+    monkeypatch.setattr(_mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    _mod.main()
+
+
+def test_main_report_creates_validation_md(tmp_path, monkeypatch):
+    schemas_dir = tmp_path / "_schemas"
+    schemas_dir.mkdir(parents=True)
+    (schemas_dir / "note.json").write_text(
+        '{"template":"note","properties":{"title":{"type":"string"}},"required":["title"]}',
+        encoding="utf-8"
+    )
+    monkeypatch.setattr(_mod, "SCHEMAS_DIR", schemas_dir)
+    monkeypatch.setattr(_mod, "DOCS", tmp_path)
+    monkeypatch.setattr(_mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--report"])
+    _mod.main()
+    assert (tmp_path / "VALIDATION.md").exists()

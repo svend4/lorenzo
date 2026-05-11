@@ -37,3 +37,35 @@ def test_pass_flag_consistent(eval_result):
 def test_hits_consistent_with_n_queries(eval_result):
     assert 0 <= eval_result["hits"] <= eval_result["n_queries"]
     assert abs(eval_result["hit_rate"] - eval_result["hits"] / eval_result["n_queries"]) < 1e-9
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_json_output_no_crash(monkeypatch, capsys):
+    import importlib as _il
+    _mod = _il.import_module("improve_precision_eval")
+    fake_ev = {
+        "k": 10, "hit_rate": 0.9, "hits": 9, "n_queries": 10,
+        "mean_mrr": 0.85, "avg_latency_s": 0.01, "pass": True, "details": [],
+    }
+    monkeypatch.setattr(_mod, "run_eval", lambda k=10, verbose=False: fake_ev)
+    monkeypatch.setattr(_mod, "_save_md", lambda ev: None)
+    monkeypatch.setattr("sys.argv", ["prog", "--json"])
+    _mod.main()
+    out = capsys.readouterr().out
+    assert "hit_rate" in out
+
+
+def test_main_normal_output_no_crash(monkeypatch, capsys):
+    import importlib as _il
+    _mod = _il.import_module("improve_precision_eval")
+    fake_ev = {
+        "k": 10, "hit_rate": 0.9, "hits": 9, "n_queries": 10,
+        "mean_mrr": 0.85, "avg_latency_s": 0.01, "pass": True, "details": [],
+    }
+    monkeypatch.setattr(_mod, "run_eval", lambda k=10, verbose=False: fake_ev)
+    monkeypatch.setattr(_mod, "_save_md", lambda ev: None)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    _mod.main()
+    out = capsys.readouterr().out
+    assert "Hit Rate" in out

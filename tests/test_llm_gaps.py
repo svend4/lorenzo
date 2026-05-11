@@ -79,3 +79,31 @@ def test_docs_attribute():
 def test_root_attribute():
     assert hasattr(mod, "ROOT")
     assert isinstance(mod.ROOT, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_llm_gaps_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "call_claude_gaps", lambda *a: None)
+    mod.main()
+    assert (tmp_path / "LLM_GAPS.md").exists()
+
+
+def test_main_with_api_response(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "call_claude_gaps", lambda *a: "## Gaps\n- gap 1")
+    mod.main()
+    content = (tmp_path / "LLM_GAPS.md").read_text(encoding="utf-8")
+    assert "gap 1" in content
+
+
+def test_main_no_api_fallback(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "call_claude_gaps", lambda *a: None)
+    mod.main()
+    content = (tmp_path / "LLM_GAPS.md").read_text(encoding="utf-8")
+    assert "API" in content

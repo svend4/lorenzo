@@ -195,3 +195,33 @@ def test_ensure_required_sections_all_present_no_change():
 def test_ensure_required_sections_returns_string():
     result = mod.ensure_required_sections("# Contact\n\nSome text.")
     assert isinstance(result, str)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_contacts_dir_returns_one(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "CONTACTS", tmp_path / "nonexistent-contacts")
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_empty_contacts_no_crash(tmp_path, monkeypatch):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS", contacts)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = mod.main()
+    assert result is None or result == 0
+
+
+def test_main_dry_run_does_not_write(tmp_path, monkeypatch):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    f = contacts / "kksudo.md"
+    f.write_text("## Профиль\n\nSome content.\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "CONTACTS", contacts)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    content = f.read_text(encoding="utf-8")
+    assert "---" not in content

@@ -85,3 +85,34 @@ def test_check_title_match_no_frontmatter():
     text = "# Title\n\nContent without frontmatter.\n"
     result = mod.check_title_match(text)
     assert result == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_no_templates_dir_returns_one(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "TEMPLATES", tmp_path / "nonexistent-templates")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_empty_templates_no_crash(tmp_path, monkeypatch):
+    templates = tmp_path / "templates"
+    templates.mkdir()
+    monkeypatch.setattr(mod, "TEMPLATES", templates)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    result = mod.main()
+    assert result is None or result == 0
+
+
+def test_main_with_clean_template(tmp_path, monkeypatch):
+    templates = tmp_path / "templates"
+    templates.mkdir()
+    f = templates / "note.md"
+    f.write_text("---\ntitle: Note\n---\n\n# Note\n\nContent.\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "TEMPLATES", templates)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
