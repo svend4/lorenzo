@@ -12,6 +12,7 @@
   - [10.6. Transition Costs](#106-transition-costs)
   - [10.7. Profession-Wide Effects](#107-profession-wide-effects)
   - [10.8. Appropriate Resistance](#108-appropriate-resistance)
+- [Использование](#использование)
 
 
 > [!NOTE]

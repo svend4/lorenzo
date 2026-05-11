@@ -4,6 +4,7 @@
 ## Contents
 
 - [Appendix B: Change Log](#appendix-b-change-log)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

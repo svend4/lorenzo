@@ -1,6 +1,12 @@
 # Сноски и определения терминов
 
 <!-- toc-auto -->
+## Contents
+
+- [Словарь сносок](#словарь-сносок)
+- [Как это работает](#как-это-работает)
+
+
 
 > [!NOTE]
 > Раздел `FOOTNOTES` формируется автоматически из данных репозитория.
@@ -13,7 +19,7 @@
 > `FOOTNOTES` — раздел документации проекта Lorenzo.
 
 
-**Обновлено файлов:** 3  **Вставлено сносок:** 13
+**Обновлено файлов:** 3  **Вставлено сносок:** 8
 
 ## Словарь сносок
 
@@ -27,14 +33,14 @@
 | **Jaccard** | Коэффициент схожести множеств (0–1) | 0 |
 | **LLM** | Large Language Model — большая языковая модель | 0 |
 | **MCP** | Model Context Protocol — протокол для AI-инструментов | 0 |
-| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 1 |
+| **NGT** | OSS-проект: ассоциативный граф памяти (BSL 1.1) | 0 |
 | **PII** | Personally Identifiable Information — персональные данные | 0 |
 | **RAG** | Retrieval-Augmented Generation — генерация с поиском | 2 |
 | **Rufler** | OSS-проект: оркестратор AI-агентов | 0 |
-| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 2 |
-| **Svyazi** | Главный проект: экосистема AI-компонентов | 1 |
+| **SENTINEL** | OSS-проект: безопасность и allowlist для MCP | 0 |
+| **Svyazi** | Главный проект: экосистема AI-компонентов | 0 |
 | **TF-IDF** | Term Frequency–Inverse Document Frequency — метрика важности термина | 0 |
-| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 1 |
+| **Yodoca** | OSS-проект: система памяти с консолидацией (Apache 2.0) | 0 |
 | **knowledge-space** | OSS-проект: база знаний 785+ карточек (MIT) | 0 |
 
 ## Как это работает
@@ -53,7 +59,7 @@
 
 **Смотрите также:**
 - [01-executive-summary](04-ai-collaborations/01-executive-summary.md)
-- [08-conclusions](01-svyazi/08-conclusions.md)
-- [07-выводы](04-ai-collaborations/07-выводы.md)
+- [TECH_RADAR](TECH_RADAR.md)
 - [ONBOARDING](ONBOARDING.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
 

@@ -1,6 +1,14 @@
 # Отчёт об устаревших документах
 
 <!-- toc-auto -->
+## Contents
+
+- [Без метаданных (нет summary или тегов) — 228 файлов](#без-метаданных-нет-summary-или-тегов-228-файлов)
+- [Короткие (< 100 слов, заготовки) — 5 файлов](#короткие-100-слов-заготовки-5-файлов)
+- [Рекомендуемые действия](#рекомендуемые-действия)
+- [Смотрите также](#смотрите-также)
+
+
 
 > [!NOTE]
 > Раздел `STALENESS` формируется автоматически из данных репозитория.
@@ -15,57 +23,42 @@
 
 _Порог: 30 дней. Обновлено: 2026-05-11_
 
-Найдено проблем: **134** файлов
+Найдено проблем: **233** файлов
 
-## Без метаданных (нет summary или тегов) — 90 файлов
+## Без метаданных (нет summary или тегов) — 228 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/autofilled/README.md` | 48 | нет summary, нет тегов, короткий (48 слов) |
 | `docs/obsidian/SCORING.md` | 226 | нет summary |
-| `docs/CHANGELOG.md` | 3063 | нет тегов |
+| `docs/01-svyazi/QA.md` | 208 | нет summary, нет тегов |
+| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
+| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
+| `docs/05-habr-projects/QA.md` | 168 | нет summary, нет тегов |
+| `docs/ABBREVIATIONS.md` | 1301 | нет summary, нет тегов |
+| `docs/ACTION_ITEMS.md` | 6836 | нет summary, нет тегов |
+| `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
+| `docs/AUTHORS.md` | 117 | нет summary, нет тегов |
+| `docs/BACKLINKS.md` | 411 | нет summary, нет тегов |
+| `docs/CHANGELOG.md` | 3103 | нет тегов |
+| `docs/CODE_BLOCKS.md` | 5081 | нет summary, нет тегов |
 | `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/CONTACTS.md` | 316 | нет summary, нет тегов |
-| `docs/COST.md` | 344 | нет summary, нет тегов |
-| `docs/PROGRESS.md` | 219 | нет summary, нет тегов |
-| `docs/QA.md` | 2107 | нет summary, нет тегов |
-| `docs/READING_ORDER.md` | 4042 | нет summary, нет тегов |
-| `docs/SCHEDULE.md` | 212 | нет summary, нет тегов |
-| `docs/SCORING.md` | 198 | нет summary, нет тегов |
-| `docs/SITEMAP.md` | 6630 | нет summary, нет тегов |
-| `docs/STATS.md` | 355 | нет summary, нет тегов |
-| `docs/autofilled/components/README.md` | 78 | нет summary, нет тегов, короткий (78 слов) |
-| `docs/obsidian/QA.md` | 385 | нет summary, нет тегов |
-| `docs/obsidian/ai-collaborations/README.md` | 57 | нет summary, нет тегов, короткий (57 слов) |
-| `docs/obsidian/ai-collaborations/candidates/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
-| `docs/obsidian/ai-collaborations/continuation/README.md` | 88 | нет summary, нет тегов, короткий (88 слов) |
-| `docs/obsidian/ai-collaborations/ensembles/README.md` | 84 | нет summary, нет тегов, короткий (84 слов) |
-| `docs/obsidian/anthropic-vacancies/README.md` | 96 | нет summary, нет тегов, короткий (96 слов) |
+| `docs/COMPLEXITY.md` | 343 | нет summary, нет тегов |
+| `docs/CONCEPTS.md` | 15746 | нет summary, нет тегов |
+| `docs/CONCEPT_GRAPH.md` | 612 | нет summary, нет тегов |
+| `docs/CONSISTENCY.md` | 541 | нет summary, нет тегов |
+| `docs/CONTACTS.md` | 314 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 44 файлов
+## Короткие (< 100 слов, заготовки) — 5 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/ai-collaborations/README.md` | 98 |
-| `docs/ai-collaborations/candidates/README.md` | 80 |
-| `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | 99 |
-| `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | 95 |
-| `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` | 84 |
-| `docs/anthropic-vacancies/nautilus-vs-camel/README.md` | 95 |
-| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` | 91 |
-| `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` | 91 |
-| `docs/badges/README.md` | 98 |
-| `docs/glossary/README.md` | 91 |
-| `docs/habr-unique-projects/analogues/README.md` | 91 |
-| `docs/habr-unique-projects/final-ensembles/README.md` | 81 |
-| `docs/habr-unique-projects/hardware-pairs/README.md` | 99 |
-| `docs/habr-unique-projects/key-findings/README.md` | 95 |
-| `docs/habr-unique-projects/software-pairs/README.md` | 86 |
-| `docs/lorenzo-agent/naming/README.md` | 87 |
-| `docs/lorenzo-agent/operationalized/README.md` | 96 |
-| `docs/lorenzo-agent/scenarios/README.md` | 88 |
-| `docs/meta-scripting/README.md` | 87 |
-| `docs/nautilus/community-discussions/agent-changes-reality/README.md` | 91 |
+| `docs/templates/contact-outreach.md` | 81 |
+| `docs/templates/decision-record.md` | 53 |
+| `docs/templates/ensemble.md` | 81 |
+| `docs/templates/project-component.md` | 69 |
+| `docs/templates/research-note.md` | 51 |
 
 ## Рекомендуемые действия
 

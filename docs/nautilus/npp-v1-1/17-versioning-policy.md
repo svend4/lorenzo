@@ -8,6 +8,7 @@
   - [17.2. Version in Registry](#172-version-in-registry)
   - [17.3. Breaking Changes Process](#173-breaking-changes-process)
   - [17.4. Deprecation Policy](#174-deprecation-policy)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

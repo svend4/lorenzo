@@ -5,6 +5,7 @@
 
 - [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

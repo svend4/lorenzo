@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **208**  
-Статистика: 🔧 chore: 72 | ✨ feat: 64 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
+Всего коммитов: **209**  
+Статистика: 🔧 chore: 73 | ✨ feat: 64 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -16,8 +16,12 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (3 коммитов)
+## 2026-05-11 (4 коммитов)
 
+### 🔧 Обслуживание
+
+- update generated docs after reports pipeline run _089b157f_
+  > - Regenerated QA files, dashboards, and report outputs
 ### ✨ Новые функции
 
 - add improve_quality_patch.py to prevent score regression after pipeline runs _81af4bf5_

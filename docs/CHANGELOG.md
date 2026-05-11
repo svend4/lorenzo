@@ -1,12 +1,47 @@
 # CHANGELOG
 
+<!-- toc-auto -->
+## Contents
+
+- [semantic (1 коммитов)](#semantic-1-коммитов)
+  - [🔧 Обслуживание](#обслуживание)
+- [md (1 коммитов)](#md-1-коммитов)
+  - [🔧 Обслуживание](#обслуживание-1)
+- [2026-05-11 (4 коммитов)](#2026-05-11-4-коммитов)
+  - [🔧 Обслуживание](#обслуживание-2)
+  - [✨ Новые функции](#новые-функции)
+  - [🐛 Исправления](#исправления)
+- [2026-05-10 (58 коммитов)](#2026-05-10-58-коммитов)
+  - [🔧 Обслуживание](#обслуживание-3)
+  - [📝 Документация](#документация)
+  - [✨ Новые функции](#новые-функции-1)
+  - [🐛 Исправления](#исправления-1)
+  - [⚡ Улучшения](#улучшения)
+- [2026-04-29 (141 коммитов)](#2026-04-29-141-коммитов)
+  - [🔧 Обслуживание](#обслуживание-4)
+  - [📝 Документация](#документация-1)
+  - [✨ Новые функции](#новые-функции-2)
+  - [🐛 Исправления](#исправления-2)
+  - [⚡ Улучшения](#улучшения-1)
+- [skip  (1 коммитов)](#skip-1-коммитов)
+  - [🔧 Обслуживание](#обслуживание-5)
+- [22 скила  (1 коммитов)](#22-скила-1-коммитов)
+  - [🔧 Обслуживание](#обслуживание-6)
+- [$.STEP.ou (1 коммитов)](#stepou-1-коммитов)
+  - [🔧 Обслуживание](#обслуживание-7)
+- [(1 коммитов)](#1-коммитов)
+  - [🔧 Обслуживание](#обслуживание-8)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 > [!NOTE]
 > Раздел `CHANGELOG` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 
-Всего коммитов: **208**  
-Статистика: 🔧 chore: 72 | ✨ feat: 64 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
+Всего коммитов: **209**  
+Статистика: 🔧 chore: 73 | ✨ feat: 64 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -21,8 +56,12 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (3 коммитов)
+## 2026-05-11 (4 коммитов)
 
+### 🔧 Обслуживание
+
+- update generated docs after reports pipeline run _089b157f_
+  > - Regenerated QA files, dashboards, and report outputs
 ### ✨ Новые функции
 
 - add improve_quality_patch.py to prevent score regression after pipeline runs _81af4bf5_
@@ -76,8 +115,7 @@
 - quality metrics 76.7→82.3/100, add callouts/TOCs/H1s/summaries _bd8d60bd_
   > - Bulk-add contextual callouts to 568+32 files (callout coverage 35%→83%)
 - improve quality metrics 73.2→76.7, fix has_toc detection _858494ca_
-  > - improve_metrics.py: fix has_toc() to recognize ## Contents and <!-- toc-auto -->
-- health 94→99/100, exclude mirror dirs from quality checks _09ae9873_
+  > - improve_metrics.py: fix has_toc() to recognize ## Contents and - health 94→99/100, exclude mirror dirs from quality checks _09ae9873_
   > - improve_broken_links.py: skip obsidian/ and confluence/ mirror dirs
 - add cross-links between project files to build knowledge graph edges _6b86d7ae_
   > Add 'Смотрите также' sections with relative Markdown links in all 8 new

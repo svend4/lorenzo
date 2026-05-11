@@ -1,6 +1,16 @@
 # AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations
 
 <!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 ## Содержание
 
 - Основной раздел

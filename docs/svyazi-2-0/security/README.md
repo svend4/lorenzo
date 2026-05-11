@@ -1,7 +1,7 @@
 # security
 
 > [!NOTE]
-> Раздел `README` автоматически формируется из данных репозитория.
+> Раздел `README` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 <!-- tags: readme, docs -->
@@ -23,9 +23,10 @@
 
 ---
 
-**Кто ссылается на этот документ (7):**
+**Кто ссылается на этот документ (8):**
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 - [budget-routing](budget-routing.md)
@@ -42,6 +43,3 @@
 # Запуск
 python scripts/improve_readme.py
 ```
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит структурированные данные по теме «security». Формируется автоматически для обеспечения навигации и качества документации.

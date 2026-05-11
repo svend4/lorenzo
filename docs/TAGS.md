@@ -1,11 +1,22 @@
 # Индекс тегов
 
 <!-- toc-auto -->
+## Contents
 
-> [!NOTE]
-> Раздел `TAGS` автоматически формируется из данных репозитория.
+- [#anthropic (9 файлов)](#anthropic-9-файлов)
+- [#architecture (6 файлов)](#architecture-6-файлов)
+- [#collaboration (9 файлов)](#collaboration-9-файлов)
+- [#ingestion (9 файлов)](#ingestion-9-файлов)
+- [#knowledge (5 файлов)](#knowledge-5-файлов)
+- [#local-first (3 файлов)](#local-first-3-файлов)
+- [#memory (5 файлов)](#memory-5-файлов)
+- [#orchestration (6 файлов)](#orchestration-6-файлов)
+- [#rag (7 файлов)](#rag-7-файлов)
+- [#roadmap (6 файлов)](#roadmap-6-файлов)
+- [#security (5 файлов)](#security-5-файлов)
+- [#self-improvement (4 файлов)](#self-improvement-4-файлов)
+- [Использование](#использование)
 
-<!-- alert-added -->
 <!-- tags: tags, docs -->
 
 
@@ -13,232 +24,149 @@
 > `TAGS` — раздел документации проекта Lorenzo.
 
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 Каждый файл помечен тегами по темам автоматически.
 
 
-## #anthropic (15 файлов)
+## #anthropic (9 файлов)
 
-- `docs/02-anthropic-vacancies/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONTACTS.md`
 - `docs/COVERAGE.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
 - `docs/STALENESS.md`
 - `docs/STATS.md`
-- `docs/anthropic-vacancies/QA.md`
-- `docs/lorenzo-agent/QA.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
-- `docs/processing-guide/QA.md`
 
-## #architecture (21 файлов)
+## #architecture (6 файлов)
 
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/03-technology-combinations/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
 - `docs/COVERAGE.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
-- `docs/lorenzo-agent/QA.md`
-- `docs/meta-scripting/QA.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
-- _...и ещё 1_
 
-## #collaboration (22 файлов)
+## #collaboration (9 файлов)
 
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
 - `docs/COVERAGE.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
 - `docs/STALENESS.md`
 - `docs/STATS.md`
-- `docs/anthropic-vacancies/QA.md`
-- `docs/lorenzo-agent/QA.md`
-- _...и ещё 2_
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
 
-## #ingestion (18 файлов)
+## #ingestion (9 файлов)
 
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/03-technology-combinations/QA.md`
-- `docs/04-ai-collaborations/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
 - `docs/COVERAGE.md`
-- `docs/DIGEST.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
 - `docs/STALENESS.md`
 - `docs/STATS.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
-- `docs/processing-guide/QA.md`
 
-## #knowledge (17 файлов)
+## #knowledge (5 файлов)
 
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/03-technology-combinations/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
-- `docs/lorenzo-agent/QA.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
-- `docs/processing-guide/QA.md`
 
 ## #local-first (3 файлов)
 
-- `docs/CONTACTS.md`
-- `docs/READING_ORDER.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
 
-## #memory (16 файлов)
+## #memory (5 файлов)
 
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/05-habr-projects/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
-- `docs/contacts/QA.md`
-- `docs/lorenzo-agent/QA.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
-- `docs/processing-guide/QA.md`
 
-## #orchestration (10 файлов)
+## #orchestration (6 файлов)
 
-- `docs/02-anthropic-vacancies/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
-- `docs/processing-guide/QA.md`
 
-## #rag (16 файлов)
+## #rag (7 файлов)
 
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/03-technology-combinations/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
 - `docs/CHANGELOG.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/DIGEST.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
+- `docs/DIGEST_AUTO.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
 - `docs/STATS.md`
-- `docs/lorenzo-agent/QA.md`
-- `docs/obsidian/QA.md`
-- `docs/processing-guide/QA.md`
-
-## #roadmap (17 файлов)
-
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/05-habr-projects/QA.md`
-- `docs/CHANGELOG.md`
-- `docs/COMPARE.md`
-- `docs/CONTACTS.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/PROGRESS.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
-- `docs/SITEMAP.md`
-- `docs/lorenzo-agent/QA.md`
+- `docs/VERSION_DIFF.md`
 - `docs/obsidian/QA.md`
 
-## #security (14 файлов)
-
-- `docs/01-svyazi/QA.md`
-- `docs/02-anthropic-vacancies/QA.md`
-- `docs/04-ai-collaborations/QA.md`
-- `docs/CONTACTS.md`
-- `docs/CONTACT_PRIORITY.md`
-- `docs/COST.md`
-- `docs/COVERAGE.md`
-- `docs/QA.md`
-- `docs/READING_ORDER.md`
-- `docs/SCHEDULE.md`
-- `docs/SCORING.md`
-- `docs/SITEMAP.md`
-- `docs/meta-scripting/QA.md`
-- `docs/obsidian/QA.md`
-
-## #self-improvement (5 файлов)
+## #roadmap (6 файлов)
 
 - `docs/CHANGELOG.md`
-- `docs/CONTACTS.md`
-- `docs/PROGRESS.md`
-- `docs/READING_ORDER.md`
+- `docs/COVERAGE.md`
+- `docs/OUTLINE.md`
 - `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
+
+## #security (5 файлов)
+
+- `docs/COVERAGE.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
+- `docs/obsidian/QA.md`
+
+## #self-improvement (4 файлов)
+
+- `docs/CHANGELOG.md`
+- `docs/OUTLINE.md`
+- `docs/SITEMAP.md`
+- `docs/VERSION_DIFF.md`
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (17):**
+**Кто ссылается на этот документ (15):**
 - [ACTION_ITEMS](ACTION_ITEMS.md)
 - [CONSISTENCY](CONSISTENCY.md)
 - [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [INDEX](INDEX.md)
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [MISSING](MISSING.md)
 - [OUTLINE](OUTLINE.md)
-- _...ещё 9_
+- [READABILITY](READABILITY.md)
+- _...ещё 7_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONSISTENCY](CONSISTENCY.md)
+- [STATS](STATS.md)
+- [COVERAGE](COVERAGE.md)
+- [STALENESS](STALENESS.md)
 
 
 
@@ -247,14 +175,3 @@
 # Запуск
 python scripts/improve_tags.py
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [STALENESS](STALENESS.md)
-- [GLOSSARY](GLOSSARY.md)
-- [STATS](STATS.md)
-- [SENTIMENT](SENTIMENT.md)
-

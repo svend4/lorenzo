@@ -8,6 +8,7 @@
   - [9.2. Во время Фазы A и B](#92-во-время-фазы-a-и-b)
   - [9.3. После merge to main (Transitional State)](#93-после-merge-to-main-transitional-state)
   - [9.4. Фаза C — Consolidation](#94-фаза-c-consolidation)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

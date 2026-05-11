@@ -6,6 +6,7 @@
 - [Appendix B: Summary of Contributions](#appendix-b-summary-of-contributions)
 - [Author & Contact](#author-contact)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

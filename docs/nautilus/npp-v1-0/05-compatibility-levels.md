@@ -8,6 +8,7 @@
   - [Level 1 — Readable](#level-1-readable)
   - [Level 2 — Queryable](#level-2-queryable)
   - [Level 3 — Interactive / Bridged](#level-3-interactive-bridged)
+- [Использование](#использование)
 
 
 > [!NOTE]

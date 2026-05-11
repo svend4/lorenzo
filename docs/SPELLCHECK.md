@@ -232,20 +232,13 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 Известных пар опечатка→исправление: **31**
 
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [SENTIMENT](SENTIMENT.md)
-- [HEATMAP](HEATMAP.md)
-- [CONSISTENCY](CONSISTENCY.md)
+- [STALENESS](STALENESS.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
 

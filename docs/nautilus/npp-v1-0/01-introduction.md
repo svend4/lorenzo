@@ -8,6 +8,7 @@
   - [1.2. Design Goals](#12-design-goals)
   - [1.3. Non-Goals](#13-non-goals)
   - [1.4. Terminology](#14-terminology)
+- [Использование](#использование)
 
 
 > [!NOTE]

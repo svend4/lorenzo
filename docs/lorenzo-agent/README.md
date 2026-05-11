@@ -1,9 +1,4 @@
 # lorenzo-agent
-
-> [!NOTE]
-> Раздел `README` автоматически формируется из данных репозитория.
-
-<!-- alert-added -->
 <!-- tags: readme, docs -->
 
 
@@ -36,7 +31,7 @@
 - [18-escalate-to-max.md](18-escalate-to-max.md) — <!-- toc-auto -->
 - [19-persistent-character.md](19-persistent-character.md) — <!-- toc-auto -->
 - [20-experiment.md](20-experiment.md) — <!-- toc-auto -->
-- [QA.md](QA.md) — _Автоматически сгенерировано по 55 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 
 ## Подразделы
 

@@ -1,5 +1,14 @@
 # Вывод: документ deserves serious attention
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Executive summary](#executive-summary)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 <!-- toc -->
 ## Содержание
 
@@ -9,13 +18,6 @@
 - [Смотрите также](#смотрите-также)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Executive summary](#executive-summary)
-- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]

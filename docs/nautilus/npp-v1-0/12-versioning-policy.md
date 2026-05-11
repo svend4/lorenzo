@@ -7,6 +7,7 @@
   - [12.1. Semver](#121-semver)
   - [12.2. Version in Registry](#122-version-in-registry)
   - [12.3. Breaking Changes Process](#123-breaking-changes-process)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

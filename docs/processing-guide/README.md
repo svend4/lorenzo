@@ -17,7 +17,7 @@
 - [09-automation.md](09-automation.md) — > [!WARNING]
 - [10-future.md](10-future.md) — > [!NOTE]
 - [PROCESSING_GUIDE.md](PROCESSING_GUIDE.md) — <!-- summary -->
-- [QA.md](QA.md) — _Автоматически сгенерировано по 11 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 
 <!-- backlinks -->
 
@@ -34,6 +34,9 @@
 - [04-structuring](04-structuring.md)
 - _...ещё 7_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «processing-guide». Формируется автоматически.
 
 
 ## Использование

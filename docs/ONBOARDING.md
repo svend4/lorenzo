@@ -1,17 +1,29 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
 <!-- toc-auto -->
+## Contents
 
-> [!NOTE]
-> Раздел `ONBOARDING` автоматически формируется из данных репозитория.
+- [Что это такое?](#что-это-такое)
+- [Первые 30 минут](#первые-30-минут)
+- [Структура документации](#структура-документации)
+- [Ключевые документы](#ключевые-документы)
+- [Скрипты автоматизации](#скрипты-автоматизации)
+- [Архитектура компонентов](#архитектура-компонентов)
+- [Как внести вклад](#как-внести-вклад)
+- [Контакты](#контакты)
 
-<!-- alert-added -->
+
 <!-- tags: onboarding, docs -->
 
 
 <!-- summary -->
 > `ONBOARDING` — раздел документации проекта Lorenzo.
 
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 
 _Руководство для новых участников проекта._
 
@@ -43,15 +55,15 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 413 файлов, 399,832 слов_
+_Всего: 413 файлов, 400,173 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
-| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,212 |
-| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 340,572 |
-| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,709 |
-| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,749 |
-| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,590 |
+| [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,246 |
+| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 340,655 |
+| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,783 |
+| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,823 |
+| [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,666 |
 
 ## Ключевые документы
 
@@ -68,7 +80,7 @@ _Всего: 413 файлов, 399,832 слов_
 
 ## Скрипты автоматизации
 
-В репо 162 скриптов `improve_*.py` для автоматического обновления документации.
+В репо 163 скриптов `improve_*.py` для автоматического обновления документации.
 
 ```bash
 # Все скрипты быстро
@@ -117,29 +129,13 @@ _Этот документ генерируется скриптом `improve_on
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
 
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (12):**
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [FAQ](FAQ.md)
-- [INDEX](INDEX.md)
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- _...ещё 4_
-
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [INDEX](INDEX.md)
-- [TECH_RADAR](TECH_RADAR.md)
 - [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
-- [PROGRESS](PROGRESS.md)
+- [INDEX](INDEX.md)
+- [HEATMAP](HEATMAP.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
 

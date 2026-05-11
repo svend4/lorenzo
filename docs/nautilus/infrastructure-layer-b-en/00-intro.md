@@ -4,6 +4,7 @@
 ## Contents
 
 - [The Missing Middle Layer Between Chat and Code](#the-missing-middle-layer-between-chat-and-code)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

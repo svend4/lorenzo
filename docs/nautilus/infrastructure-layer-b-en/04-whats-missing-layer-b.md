@@ -1,5 +1,14 @@
 # What's Missing — Layer B
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [What's Missing — Layer B](#whats-missing-layer-b)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 <!-- toc -->
 ## Содержание
 
@@ -9,13 +18,6 @@
 - [Смотрите также](#смотрите-также)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [What's Missing — Layer B](#whats-missing-layer-b)
-- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]

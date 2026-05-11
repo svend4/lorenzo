@@ -1,7 +1,7 @@
 # Карта происхождения текстов
 
-<!-- toc -->
-## Содержание
+<!-- toc-auto -->
+## Contents
 
 - [Категории](#категории)
 - [Авторы](#авторы)
@@ -9,23 +9,19 @@
 - [🔗 Файлы с внешними ссылками (198)](#файлы-с-внешними-ссылками-198)
 - [Использование](#использование)
 - [Смотрите также](#смотрите-также)
-- [Смотрите также](#смотрите-также)
-
----
 
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Документ `SOURCE_MAP` создаётся автоматически.
-
-<!-- alert-added -->
-<!-- tags: source-map, docs, analysis -->
+<!-- tags: source-map, docs -->
 
 
 <!-- summary -->
-> Автоматически сформированный документ: `SOURCE_MAP`.
+> `SOURCE_MAP` — раздел документации проекта Lorenzo.
 
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 
 _Обновлено: 2026-05-11_
 
@@ -180,7 +176,6 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/02-anthropic-vacancies/89-14-sdk-contract-informative.md` | 320 | 2026-04-29 |
 | `docs/obsidian/anthropic-vacancies/clusters/02-sales.md` | 320 | — |
 | `docs/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md` | 320 | 2026-04-29 |
-| `docs/02-anthropic-vacancies/190-содержание.md` | 321 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/61-compatibility-level.md` | 321 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md` | 321 | 2026-04-29 |
 | `docs/obsidian/technology-combinations/combinations/13-legal-document-transpiler.md` | 321 | — |
@@ -200,6 +195,7 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md` | 323 | — |
 | `docs/obsidian/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md` | 323 | — |
 | `docs/obsidian/technology-combinations/combinations/34-distributed-event-store-with-paxos.md` | 323 | — |
+| `docs/02-anthropic-vacancies/190-содержание.md` | 324 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md` | 324 | 2026-04-29 |
 | `docs/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md` | 324 | 2026-04-29 |
 | `docs/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md` | 324 | 2026-04-29 |
@@ -260,7 +256,6 @@ _Обновлено: 2026-05-11_
 | `docs/02-anthropic-vacancies/302-ссылки.md` | 329 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/51-compatibility-level.md` | 329 | 2026-04-29 |
 | `docs/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md` | 329 | 2026-04-29 |
-| `docs/nautilus/representative-agent-layer-ru/00-abstract.md` | 329 | 2026-04-29 |
 | `docs/nautilus/review-methodology/14-main-technical-risks.md` | 329 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/130-отладка.md` | 329 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/124-конфигурация-для-claude-desktop.md` | 330 | 2026-04-29 |
@@ -317,7 +312,6 @@ _Обновлено: 2026-05-11_
 | `docs/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md` | 331 | 2026-04-29 |
 | `docs/nautilus/multi-tier-architecture/00-question-multi-tier.md` | 331 | 2026-04-29 |
 | `docs/nautilus/npp-v1-1/11-relevance-ranking.md` | 331 | 2026-04-29 |
-| `docs/nautilus/professional-colleague-agents-ru/00-abstract.md` | 331 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md` | 331 | 2026-04-29 |
 | `docs/obsidian/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md` | 331 | — |
 | `docs/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md` | 331 | 2026-04-29 |
@@ -337,6 +331,7 @@ _Обновлено: 2026-05-11_
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md` | 332 | 2026-04-29 |
 | `docs/habr-unique-projects/key-findings/01-yodoca.md` | 332 | 2026-04-29 |
 | `docs/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md` | 332 | 2026-04-29 |
+| `docs/nautilus/representative-agent-layer-ru/00-abstract.md` | 332 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/190-содержание.md` | 332 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/340-приложение-b-сравнительная-матрица.md` | 332 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/349-твоя-личность.md` | 332 | 2026-04-29 |
@@ -379,6 +374,7 @@ _Обновлено: 2026-05-11_
 | `docs/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md` | 334 | 2026-04-29 |
 | `docs/lorenzo-agent/05-tvoya-lichnost.md` | 334 | 2026-04-29 |
 | `docs/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md` | 334 | 2026-04-29 |
+| `docs/nautilus/professional-colleague-agents-ru/00-abstract.md` | 334 | 2026-04-29 |
 | `docs/nautilus/review-methodology/12-appendix-a-header-warning.md` | 334 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/127-подключение-к-claude-desktop.md` | 334 | 2026-04-29 |
 | `docs/obsidian/anthropic-vacancies/clusters/12-technical-program-management.md` | 334 | — |
@@ -710,7 +706,6 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/02-anthropic-vacancies/137-table-of-contents.md` | 376 | 2026-04-29 |
 | `docs/lorenzo-agent/specification/04-q4-character.md` | 377 | 2026-04-29 |
 | `docs/nautilus/npp-v1-1/04-passport.md` | 377 | 2026-04-29 |
-| `docs/02-anthropic-vacancies/231-содержание.md` | 378 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/20-8-consensus-algorithm.md` | 378 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md` | 379 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/204-ссылки.md` | 379 | 2026-04-29 |
@@ -719,6 +714,7 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/lorenzo-agent/specification/04-q4-character.md` | 379 | — |
 | `docs/obsidian/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | 380 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` | 381 | 2026-04-29 |
+| `docs/02-anthropic-vacancies/231-содержание.md` | 381 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md` | 381 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | 382 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/271-appendix-c-configuration-template-example.md` | 382 | 2026-04-29 |
@@ -775,13 +771,13 @@ _Обновлено: 2026-05-11_
 | `docs/nautilus/npp-v1-0/01-introduction.md` | 398 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/244-благодарности.md` | 398 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/245-ссылки.md` | 398 | 2026-04-29 |
-| `docs/02-anthropic-vacancies/326-содержание.md` | 399 | 2026-04-29 |
 | `docs/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md` | 399 | 2026-04-29 |
 | `docs/nautilus/privacy-federation/04-what-i-can-do-now.md` | 399 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/25-13-reference-implementation.md` | 401 | 2026-04-29 |
 | `docs/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md` | 401 | 2026-04-29 |
 | `docs/nautilus/npp-v1-1/05-compatibility-levels.md` | 401 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/26-14-adr-001-federation-over-merging.md` | 402 | 2026-04-29 |
+| `docs/02-anthropic-vacancies/326-содержание.md` | 402 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md` | 402 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/52-author-contact.md` | 402 | 2026-04-29 |
 | `docs/obsidian/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md` | 402 | — |
@@ -1046,29 +1042,26 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md` | 499 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md` | 499 | 2026-04-29 |
 | `docs/obsidian/nautilus/representative-agent-layer-ru/07-upravlenie-nadzor.md` | 499 | — |
-| `docs/obsidian/nautilus/representative-agent-layer-en/00-abstract.md` | 500 | — |
-| `docs/obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md` | 504 | — |
-| `docs/obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md` | 504 | — |
-| `docs/obsidian/nautilus/representative-agent-layer-en/11-call-for-collaboration.md` | 504 | — |
 | `docs/obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md` | 505 | 2026-04-29 |
-| `docs/obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md` | 505 | — |
-| `docs/obsidian/nautilus/double-triangle-architecture/00-abstract.md` | 506 | — |
 | `docs/obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md` | 508 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/76-1-introduction.md` | 510 | 2026-04-29 |
 | `docs/obsidian/04-ai-collaborations/08-что-это-продолжение-добавляет.md` | 510 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/90-15-security-considerations.md` | 511 | 2026-04-29 |
-| `docs/obsidian/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | 512 | — |
-| `docs/obsidian/lorenzo-agent/operationalized/04-recommendations.md` | 513 | — |
 | `docs/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | 515 | 2026-04-29 |
 | `docs/nautilus/npp-v1-0/18-comment-on-document.md` | 516 | 2026-04-29 |
+| `docs/obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md` | 518 | — |
 | `docs/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | 520 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | 521 | 2026-04-29 |
+| `docs/obsidian/ai-collaborations/continuation/07-vs-notion-mem-affine-langgraph.md` | 525 | — |
+| `docs/obsidian/lorenzo-agent/operationalized/04-recommendations.md` | 526 | — |
+| `docs/obsidian/nautilus/representative-agent-layer-en/00-abstract.md` | 526 | — |
 | `docs/obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md` | 527 | 2026-04-29 |
 | `docs/obsidian/habr-unique-projects/analogues/01-three-direct-analogues.md` | 527 | — |
 | `docs/obsidian/02-anthropic-vacancies/90-15-security-considerations.md` | 532 | 2026-04-29 |
 | `docs/obsidian/nautilus/npp-v1-0/18-comment-on-document.md` | 532 | — |
 | `docs/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md` | 533 | 2026-04-29 |
 | `docs/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md` | 533 | 2026-04-29 |
+| `docs/obsidian/nautilus/double-triangle-architecture/00-abstract.md` | 534 | — |
 | `docs/obsidian/02-anthropic-vacancies/286-acknowledgments.md` | 537 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/226-appendix-a-comparative-table-five-agent-types.md` | 538 | 2026-04-29 |
 | `docs/habr-unique-projects/extra-examples/00-question-habr-examples.md` | 539 | 2026-04-29 |
@@ -1078,6 +1071,7 @@ _Обновлено: 2026-05-11_
 | `docs/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md` | 545 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md` | 545 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` | 546 | 2026-04-29 |
+| `docs/obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md` | 546 | — |
 | `docs/nautilus/review-methodology/03-consolidation-principles.md` | 547 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` | 547 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/181-12-closing.md` | 547 | 2026-04-29 |
@@ -1095,7 +1089,9 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/nautilus/supply-demand/00-question-supply-demand.md` | 555 | — |
 | `docs/obsidian/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md` | 557 | 2026-04-29 |
 | `docs/obsidian/nautilus/professional-colleague-agents-en/00-abstract.md` | 557 | — |
+| `docs/obsidian/nautilus/representative-agent-layer-en/11-call-for-collaboration.md` | 557 | — |
 | `docs/processing-guide/01-overview.md` | 557 | 2026-04-29 |
+| `docs/obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md` | 559 | — |
 | `docs/obsidian/nautilus/npp-v1-1/13-rest-api.md` | 560 | — |
 | `docs/obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md` | 560 | — |
 | `docs/02-anthropic-vacancies/294-существующие-приближения.md` | 562 | 2026-04-29 |
@@ -1353,7 +1349,6 @@ _Обновлено: 2026-05-11_
 | `docs/nautilus/composite-skills-agents/01-why-binary-incomplete.md` | 718 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md` | 718 | 2026-04-29 |
 | `docs/obsidian/nautilus/double-triangle-architecture/06-four-deployment-domains.md` | 718 | — |
-| `docs/processing-guide/04-structuring.md` | 718 | 2026-04-29 |
 | `docs/nautilus/okwf-concept/02-target-populations.md` | 719 | 2026-04-29 |
 | `docs/obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` | 719 | 2026-04-29 |
 | `docs/obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md` | 719 | — |
@@ -1367,6 +1362,7 @@ _Обновлено: 2026-05-11_
 | `docs/obsidian/nautilus/okwf-concept/02-target-populations.md` | 726 | — |
 | `docs/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md` | 727 | 2026-04-29 |
 | `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` | 728 | 2026-04-29 |
+| `docs/processing-guide/04-structuring.md` | 728 | 2026-04-29 |
 | `docs/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md` | 730 | 2026-04-29 |
 | `docs/obsidian/nautilus/composite-skills-agents/01-why-binary-incomplete.md` | 730 | — |
 | `docs/nautilus/okwf-concept/03-why-existing-fail.md` | 732 | 2026-04-29 |
@@ -1799,41 +1795,52 @@ _Обновлено: 2026-05-11_
 - `docs/02-anthropic-vacancies/319-acknowledgments.md` — https://github.com/svend4/ingit
 - `docs/02-anthropic-vacancies/320-references.md` — https://github.com/svend4/ingit
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+
+
 
 ## Использование
 ```bash
-# Запуск генератора
+# Запуск
 python scripts/improve_source_map.py
 ```
 ```bash
 # Вариант 2
-python scripts/improve_source_map.py --section 01-svyazi
+python scripts/improve_source_map.py --dry-run
 ```
 ```bash
 # Вариант 3
-python scripts/improve_source_map.py --section 01-svyazi
+python scripts/improve_source_map.py --dry-run
 ```
 ```bash
 # Вариант 4
-python scripts/improve_source_map.py --section 01-svyazi
+python scripts/improve_source_map.py --dry-run
 ```
 ```bash
 # Вариант 5
-python scripts/improve_source_map.py --section 01-svyazi
+python scripts/improve_source_map.py --dry-run
 ```
 ```bash
 # Вариант 6
-python scripts/improve_source_map.py --section 01-svyazi
+python scripts/improve_source_map.py --dry-run
 ```
 ```bash
 # Вариант 7
-python scripts/improve_source_map.py --section 01-svyazi
+python scripts/improve_source_map.py --dry-run
 ```
 
 ## Смотрите также
 - [Главная](README.md)
 - [Метрики](METRICS.md)
-- [Дашборд](HEALTH.md)
+- [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
@@ -1843,36 +1850,3 @@ python scripts/improve_source_map.py --section 01-svyazi
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [307-abstract](02-anthropic-vacancies/307-abstract.md)
-- [CLUSTERS](CLUSTERS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-- [SEARCH](SEARCH.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-

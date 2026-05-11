@@ -5,6 +5,7 @@
 
 - [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

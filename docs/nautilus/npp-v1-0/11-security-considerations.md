@@ -7,6 +7,7 @@
   - [11.1. Untrusted Adapters](#111-untrusted-adapters)
   - [11.2. Private Repositories](#112-private-repositories)
   - [11.3. MCP Exposure](#113-mcp-exposure)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

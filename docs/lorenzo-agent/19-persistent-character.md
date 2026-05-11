@@ -4,6 +4,7 @@
 ## Contents
 
 - [Твоя identity как persistent character](#твоя-identity-как-persistent-character)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

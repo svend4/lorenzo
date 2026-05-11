@@ -1,5 +1,12 @@
 # Индекс «Смотрите также»
 
+<!-- toc-auto -->
+## Contents
+
+- [Ключевые связи](#ключевые-связи)
+- [Использование](#использование)
+
+
 > [!NOTE]
 > Раздел `SEE_ALSO` формируется автоматически из данных репозитория.
 
@@ -11,7 +18,7 @@
 > `SEE_ALSO` — раздел документации проекта Lorenzo.
 
 
-**Файлов с блоком See Also:** 1119
+**Файлов с блоком See Also:** 1117
 
 ## Ключевые связи
 
@@ -29,10 +36,10 @@
 - [12-roadmap](01-svyazi/12-roadmap.md) → [12-дорожная-карта-прототипа-следующей-итерации](04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md), [roadmap](svyazi-2-0/prototype/roadmap.md), [14-limitations](01-svyazi/14-limitations.md), [08-conclusions](01-svyazi/08-conclusions.md)
 - [13-contacts](01-svyazi/13-contacts.md) → [13-контактная-стратегия-и-узкие-вопросы-для-авторов](04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md), [narrow-questions](svyazi-2-0/outreach/narrow-questions.md), [07-mvp-planning](01-svyazi/07-mvp-planning.md), [NARRATIVE](NARRATIVE.md)
 - [14-limitations](01-svyazi/14-limitations.md) → [do-not-glue](svyazi-2-0/limitations/do-not-glue.md), [conclusions](svyazi-2-0/limitations/conclusions.md), [14-ограничения-лицензии-и-что-пока-лучше-не-склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md), [license-tree](svyazi-2-0/limitations/license-tree.md)
-- [QA](svyazi-2-0/QA.md) → [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md), [SEARCH_RESULTS](SEARCH_RESULTS.md), [review-record](svyazi-2-0/architecture/review-record.md), [privacy](svyazi-2-0/security/privacy.md)
+- [QA](svyazi-2-0/QA.md) → [SEARCH_RESULTS](SEARCH_RESULTS.md), [review-record](svyazi-2-0/architecture/review-record.md), [privacy](svyazi-2-0/security/privacy.md), [363-твоя-identity-как-persistent-character](02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md)
 - [00-intro](nautilus/infrastructure-layer-b-ru/00-intro.md) → [288-appendix-position-in-series-visualization](02-anthropic-vacancies/288-appendix-position-in-series-visualization.md), [188-ai-опосредованное-представительство-для-недопредст](02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md), [12-blagodarnosti-ssylki](nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md), [11-dhlab-documents](lorenzo-agent/11-dhlab-documents.md)
 - [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) → [00-question-innovations-transitions](nautilus/innovation-transitions/00-question-innovations-transitions.md), [CONCEPTS](CONCEPTS.md), [TABLES](TABLES.md), [ACTION_ITEMS](ACTION_ITEMS.md)
-- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) → [67-о-проекте](02-anthropic-vacancies/67-о-проекте.md), [TIMELINE](TIMELINE.md), [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md), [22-glossary](nautilus/npp-v1-1/22-glossary.md)
+- [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) → [67-о-проекте](02-anthropic-vacancies/67-о-проекте.md), [133-обратная-связь](02-anthropic-vacancies/133-обратная-связь.md), [22-glossary](nautilus/npp-v1-1/22-glossary.md), [01-strategic-significance](nautilus/multi-tier-architecture/01-strategic-significance.md)
 - [03-portal-protocol-md](02-anthropic-vacancies/03-portal-protocol-md.md) → [73-portal-protocol-md-v1-1](02-anthropic-vacancies/73-portal-protocol-md-v1-1.md), [152-ai-coordinated-infrastructure-for-distributed-expe](02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md), [35-passports-info1-md](02-anthropic-vacancies/35-passports-info1-md.md), [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md)
 - [04-abstract](02-anthropic-vacancies/04-abstract.md) → [74-abstract](02-anthropic-vacancies/74-abstract.md), [00-abstract-status](nautilus/npp-v1-1/00-abstract-status.md), [05-0-status-of-this-document](02-anthropic-vacancies/05-0-status-of-this-document.md), [70-зачем-две-версии-параллельно](02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
 - [05-0-status-of-this-document](02-anthropic-vacancies/05-0-status-of-this-document.md) → [75-0-status-of-this-document](02-anthropic-vacancies/75-0-status-of-this-document.md), [42-author-contact](02-anthropic-vacancies/42-author-contact.md), [25-13-reference-implementation](02-anthropic-vacancies/25-13-reference-implementation.md), [24-12-versioning-policy](02-anthropic-vacancies/24-12-versioning-policy.md)

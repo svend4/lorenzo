@@ -1,9 +1,17 @@
 # Action Items, риски и решения
 
-> [!NOTE]
-> Раздел `ACTION_ITEMS` автоматически формируется из данных репозитория.
+<!-- toc-auto -->
+## Contents
 
-<!-- alert-added -->
+- [➡️ Следующие шаги (358)](#следующие-шаги-358)
+- [✅ Решения и рекомендации (1066)](#решения-и-рекомендации-1066)
+- [⚠️ Риски (1293)](#риски-1293)
+- [🚫 Ограничения (371)](#ограничения-371)
+- [📋 Задачи (TODO) (44)](#задачи-todo-44)
+- [📬 Контактные действия (311)](#контактные-действия-311)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
 <!-- tags: action-items, docs -->
 
 
@@ -11,12 +19,17 @@
 > `ACTION_ITEMS` — раздел документации проекта Lorenzo.
 
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3478
+**Всего элементов:** 3443
 
 
-## ➡️ Следующие шаги (361)
+## ➡️ Следующие шаги (358)
 
 - минимального прототипа из пяти компонентов:  
   _→ 01-executive-summary_
@@ -190,12 +203,6 @@
   _→ OUTLINE_
 - ➡️ **Написаны авторам ключевых компонентов**  
   _→ PROGRESS_
-- — call? [S]  
-  _→ QUESTIONS_
-- — call? [Твоя коммуникация в outreach]  
-  _→ QUESTIONS_
-- набора узкоспециализированных под-аге [Contents]  
-  _→ QUESTIONS_
 - минимальным ансамблем: Svyazi + CardIndex + AgentFS  
   _→ RISK_REGISTER_
 - — не искать ещё двадцать новых проектов , а собрать второй, более строгий слой поверх уже найденных: Card Envelope, Evidence Envelope, Memory Write Po  
@@ -212,7 +219,7 @@
   _→ 09-do-not-glue_
 - рекомендация: попробовать Hermes на ваш Termux setup. Compare с Cowork. Decide which serves your actual workflow better. Adjust documents accordingly.  
   _→ 13-reprioritization_
-- <!-- toc-auto -->  
+-   
   _→ 12-concrete-next-step_
 - Приоритет 1: Reach out к Андрею Чуяну. Comment on Habr article или direct message. Проверить interest в discussion.  
   _→ 12-concrete-next-step_
@@ -228,6 +235,10 @@
   _→ 16-glossary_
 - (13 сл., строка 39)  
   _→ EMPTY_SECTIONS_
+- — call? [S]  
+  _→ QUESTIONS_
+- — call? [Твоя коммуникация в outreach]  
+  _→ QUESTIONS_
 - набора узкоспециализированных под-аге [Какой под-агент (или какие) должны её обработать]  
   _→ QUESTIONS_
 - после извлечения](#следующий-шаг-после-извлечения)  
@@ -251,7 +262,7 @@
 - validation Bescheid parsing:  
   _→ 30-mega-stack-3-0-with-dsl-ast_
 
-_(245 дублей скрыто)_
+_(243 дублей скрыто)_
 
 ## ✅ Решения и рекомендации (1066)
 
@@ -487,7 +498,7 @@ _(245 дублей скрыто)_
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
-- упростить](#самые-сложные-тексты-2412-рекомендуется-упростить)  
+- упростить](#самые-сложные-тексты-2422-рекомендуется-упростить)  
   _→ READABILITY_
 - Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |  
   _→ READING_ORDER_
@@ -513,11 +524,17 @@ _(245 дублей скрыто)_
   _→ TABLES_
 - 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `05-habr-projects/memory/memnet.md` |  
   _→ TABLES_
-- упростить | Самые сложные тексты (1709) — рекомендуется упростить |  
-  _→ TABLES_
 - 2019 года, после изменений 2024 года примен | `TABLES.md` |  
-  _→ TIMELINE_
+  _→ TABLES_
 - упростить +1 | Самые сложные тексты (1709) — рекомендуется упростить |  
+  _→ TABLES_
+- Суд Дата Релевантность ---------------  
+  _→ TIMELINE_
+- Суд Дата Релевантность ------------------------  
+  _→ TIMELINE_
+- Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
+  _→ TIMELINE_
+- упростить |  
   _→ VERSION_DIFF_
 - две уровневая"  
   _→ 02-two-tier-publication_
@@ -579,10 +596,6 @@ _(245 дублей скрыто)_
   _→ TABLES_
 - создать документы](#31-рекомендуется-создать-документы)  
   _→ TABLES_
-- Суд Дата Релевантность ------------------------  
-  _→ TIMELINE_
-- Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
-  _→ TIMELINE_
 - исправить.  
   _→ VALIDATION_
 - две-уровневая публикация"  
@@ -618,9 +631,9 @@ _(245 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(885 дублей скрыто)_
+_(884 дублей скрыто)_
 
-## ⚠️ Риски (1313)
+## ⚠️ Риски (1293)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1090,7 +1103,7 @@ _(885 дублей скрыто)_
   _→ DECISIONS_
 - собирать вс  
   _→ DECISIONS_
-- склеивать в один релиз <!-- toc-auto --> ## Contents -  
+- склеивать в один релиз  ## Contents -  
   _→ DECISIONS_
 - | `root` | 90% |  
   _→ DENSITY_
@@ -1102,7 +1115,7 @@ _(885 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - и allowlist для MCP | 2 |  
   _→ FOOTNOTES_
-- | ██ 5.8 | 0.5 | 0.3 | ▓▓ 3.9 | 0.3 |  
+- | ██ 5.7 | 0.5 | 0.3 | ▓▓ 3.8 | 0.3 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
@@ -1134,24 +1147,6 @@ _(885 дублей скрыто)_
   _→ OUTLINE_
 - | Вероятность | Митигация |  
   _→ PROTOTYPE_SPEC_
-- Почему это важно Снижение риска [6. План прототипа и возможные контакты]  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н [5.  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска [План прототипа и возможные контакты]  
-  _→ QUESTIONS_
-- Двусмысленность Ответственности]  
-  _→ QUESTIONS_
-- Coordinator Bias]  
-  _→ QUESTIONS_
-- Почему это важно Снижение риска [Contents]  
-  _→ QUESTIONS_
-- Нарушения Конфиденциальности]  
-  _→ QUESTIONS_
-- агентов? [Q&A: meta-scripting]  
-  _→ QUESTIONS_
-- склеивать]  
-  _→ QUESTIONS_
 - Analysis](02-anthropic-vacancies/162-8-risk-analysis.md) | 775 | — |  
   _→ READING_ORDER_
 - и приватность](01-svyazi/06-security-privacy.md) | 937 | — |  
@@ -1170,6 +1165,8 @@ _(885 дублей скрыто)_
   _→ SCORING_
 - тестировать любую цепочку.  
   _→ SCRIPT_EVAL_REPORT_
+- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н  
+  _→ SIMILAR_PASSAGES_
 - собирать все сраз  
   _→ SIMILAR_PASSAGES_
 - [Название]](templates/risk-entry.md) | 353 |  
@@ -1196,8 +1193,6 @@ _(885 дублей скрыто)_
   _→ TABLES_
 - идентифицирован | [Имя] |  
   _→ TABLES_
-- [Название]](templates/risk-entry.md) | 343 |  
-  _→ TABLES_
 - и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `02-anthropic-vacancies/150-appendix-c-version-histor  
   _→ TABLES_
 - ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `01-svyazi/07-mvp-planning.md` |  
@@ -1208,11 +1203,9 @@ _(885 дублей скрыто)_
   _→ TABLES_
 - и бюджетный execution plane для агентных систем. | SENTINEL micro‑model swarm; LiteLLM unified API; Auto AI Router on Go; Tool Search lazy MCP loading  
   _→ TABLES_
-- | `root` | 89% |  
+- (4) +6 | Mvp (10), Архитектура (61), Безопасность (3) +5 |  
   _→ TABLES_
-- и allowlist для MCP | 1 |  
-  _→ TABLES_
-- и приватность, Использование +3 | — |  
+- и приватность, Использование +4 | — |  
   _→ TABLES_
 - склеивать в один релиз]] | 250 |  
   _→ TABLES_
@@ -1224,9 +1217,7 @@ _(885 дублей скрыто)_
   _→ TABLES_
 - склеивать]] | 343 |  
   _→ TABLES_
-- (4) +6 | Mvp (10), Архитектура (61), Безопасность (3) +5 |  
-  _→ VERSION_DIFF_
-- и приватность, Использование +4 | — |  
+- (4) +7 | Contents, Mvp (10), Архитектура (61) +6 |  
   _→ VERSION_DIFF_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
@@ -1282,13 +1273,27 @@ _(885 дублей скрыто)_
   _→ OUTLINE_
 - склеивать]]  
   _→ OUTLINE_
+- Почему это важно Снижение риска [6. План прототипа и возможные контакты]  
+  _→ QUESTIONS_
+- Почему это важно Снижение риска [План прототипа и возможные контакты]  
+  _→ QUESTIONS_
+- Двусмысленность Ответственности]  
+  _→ QUESTIONS_
+- Coordinator Bias]  
+  _→ QUESTIONS_
 - Почему это важно Снижение риска … [Упоминания рисков в документах]  
   _→ QUESTIONS_
 - Почему это важно Снижение риска [Ключевые риски и как их закрывать]  
   _→ QUESTIONS_
+- Нарушения Конфиденциальности]  
+  _→ QUESTIONS_
 - агентов? [Какие RAG-подходы сравниваются в документах?]  
   _→ QUESTIONS_
 - агентов? [Глобальный Q&A]  
+  _→ QUESTIONS_
+- агентов? [Q&A: meta-scripting]  
+  _→ QUESTIONS_
+- склеивать]  
   _→ QUESTIONS_
 - 5: Burnout. Проект … | 60 |  
   _→ TABLES_
@@ -1301,6 +1306,8 @@ _(885 дублей скрыто)_
 - [Название]](templates/risk-entry.md) | 221 |  
   _→ TABLES_
 - | `root` | 79% |  
+  _→ TABLES_
+- и allowlist для MCP | 1 |  
   _→ TABLES_
 - и бюджетный execution plane для агентных систем.  
   _→ security-routing-plane_
@@ -1323,7 +1330,7 @@ _(885 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(963 дублей скрыто)_
+_(946 дублей скрыто)_
 
 ## 🚫 Ограничения (371)
 
@@ -1481,8 +1488,6 @@ _(963 дублей скрыто)_
   _→ OUTLINE_
 - (честно)](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-честноan  
   _→ OUTLINE_
-- Git [Итог]  
-  _→ QUESTIONS_
 - и лицензии](01-svyazi/14-limitations.md) | 761 | — |  
   _→ READING_ORDER_
 - ### ⚠️ 1. 137 из 159 скриптов без --dry-run  
@@ -1507,12 +1512,10 @@ _(963 дублей скрыто)_
   _→ TABLES_
 - при коммерческом использовании |  
   _→ TABLES_
-- и лицензии +3 | — |  
+- и лицензии +4 | — |  
   _→ TABLES_
 - - `docs/01-svyazi/QA.md` — упоминаются, envelope, evidence, какие  
   _→ TOPIC_MODEL_
-- и лицензии +4 | — |  
-  _→ VERSION_DIFF_
 - агента. Документы раздела описывают все аспекты поведения Lorenzo: от языкового профиля до антипаттернов и эскалации.  
   _→ 00-intro_
 - Habr Scout: Habr articles often hype или incomplete; need quality filter  
@@ -1555,6 +1558,8 @@ _(963 дублей скрыто)_
   _→ OUTLINE_
 - (честно)]]  
   _→ OUTLINE_
+- Git [Итог]  
+  _→ QUESTIONS_
 - текущей версии (0.1.0-draft)]] [[2.]  
   _→ QUESTIONS_
 - текущей версии (0.1.0-draft)]  
@@ -1570,9 +1575,9 @@ _(963 дублей скрыто)_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(250 дублей скрыто)_
+_(251 дублей скрыто)_
 
-## 📋 Задачи (TODO) (51)
+## 📋 Задачи (TODO) (44)
 
 - во ВСЕ оставшиеся публичные репо:  
   _→ 00-intro_
@@ -1590,21 +1595,11 @@ _(250 дублей скрыто)_
   _→ 69-section_
 - и уточнить Q6-маппинг вручную.  
   _→ 87-12-onboarding-paths-normative_
-- ⭐ To Do — задача к выполнению 31 [107. Contents]  
-  _→ QUESTIONS_
-- из docs/. [extract (9)]  
-  _→ QUESTIONS_
-- ⭐ To Do — задача к выполнению 52 [Словарь аббревиатур и сокращений]  
-  _→ QUESTIONS_
-- во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
-  _→ QUESTIONS_
-- [12.4. Path D — Auto-Scanner]  
-  _→ QUESTIONS_
 - из docs/. | |  
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **138**  
+- меток: **128**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1612,7 +1607,13 @@ _(250 дублей скрыто)_
   _→ 01-concept_
 - ⭐ To Do — задача к выполнению 14 [91. Словарь аббревиатур и сокращений]  
   _→ QUESTIONS_
+- из docs/. [extract (9)]  
+  _→ QUESTIONS_
 - ⭐ To Do — задача к выполнению 31 [Словарь аббревиатур и сокращений]  
+  _→ QUESTIONS_
+- во ВСЕ оставшиеся публичные репо: [Что делать с оставшимися 50]  
+  _→ QUESTIONS_
+- [12.4. Path D — Auto-Scanner]  
   _→ QUESTIONS_
 - меток: **95**  
   _→ STATS_
@@ -1621,9 +1622,9 @@ _(250 дублей скрыто)_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(28 дублей скрыто)_
+_(23 дублей скрыто)_
 
-## 📬 Контактные действия (316)
+## 📬 Контактные действия (311)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1769,18 +1770,12 @@ _(28 дублей скрыто)_
   _→ FAQ_
 - авторами компонентов?  
   _→ FAQ_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [226. Скрипты по группам]  
-  _→ QUESTIONS_
-- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
-  _→ QUESTIONS_
 - первое сообщение автору проекта. |  
   _→ REGISTRY_
 - первое сообщение автору OSS-проекта | `lorenzo-contacts` | `write_contact` | `co  
   _→ REGISTRY_
 - N приоритетными контактами. |  
   _→ REGISTRY_
-- авторами компонентов → CONTACTS.md  
-  _→ REPORT_
 - авторам AgentFS, Yodoca, NGT | ⬜ Планируется |  
   _→ SCHEDULE_
 - авторам AgentFS, Yodoca, NGT**  
@@ -1815,10 +1810,25 @@ _(28 дублей скрыто)_
   _→ CONTACT_PRIORITY_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [182. Все документы]  
   _→ QUESTIONS_
+- авторам AgentFS, Yodoca, NGT ⬜ Планируется [Ключевые вехи]  
+  _→ QUESTIONS_
 - авторами компонентов? [Какова лицензия проекта?]  
   _→ QUESTIONS_
+- авторами компонентов → CONTACTS.md  
+  _→ REPORT_
 
-_(220 дублей скрыто)_
+_(216 дублей скрыто)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [SEARCH](SEARCH.md)
+- [READING_TIME](READING_TIME.md)
+
 
 
 ## Использование
@@ -1851,17 +1861,3 @@ python scripts/improve_action_items.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
-- [Оценка](SCORING.md)
-- [Теги](TAGS.md)
-- [Задачи](ACTION_ITEMS.md)
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONCEPTS](CONCEPTS.md)
-- [SEARCH](SEARCH.md)
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-

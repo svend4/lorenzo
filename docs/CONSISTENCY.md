@@ -1,6 +1,32 @@
 # Согласованность терминов
 
 <!-- toc-auto -->
+## Contents
+
+- [Детали по файлам](#детали-по-файлам)
+  - [knowledge space → должно быть knowledge-space](#knowledge-space-должно-быть-knowledge-space)
+  - [knowledge_space → должно быть knowledge-space](#knowledge_space-должно-быть-knowledge-space)
+  - [knowledgespace → должно быть knowledge-space](#knowledgespace-должно-быть-knowledge-space)
+  - [Card Index → должно быть CardIndex](#card-index-должно-быть-cardindex)
+  - [card index → должно быть CardIndex](#card-index-должно-быть-cardindex-1)
+  - [card-index → должно быть CardIndex](#card-index-должно-быть-cardindex-2)
+  - [AI-Factory → должно быть AI Factory](#ai-factory-должно-быть-ai-factory)
+  - [NGT-Memory → должно быть NGT Memory](#ngt-memory-должно-быть-ngt-memory)
+  - [LiteParser → должно быть LiteParse](#liteparser-должно-быть-liteparse)
+  - [Auto-AI-Router → должно быть Auto AI Router](#auto-ai-router-должно-быть-auto-ai-router)
+  - [local first → должно быть local-first](#local-first-должно-быть-local-first)
+  - [localfirst → должно быть local-first](#localfirst-должно-быть-local-first)
+  - [Local First → должно быть local-first](#local-first-должно-быть-local-first-1)
+  - [agent memory mcp → должно быть agent-memory-mcp](#agent-memory-mcp-должно-быть-agent-memory-mcp)
+  - [self-improve → должно быть self-improvement](#self-improve-должно-быть-self-improvement)
+  - [selfimprovement → должно быть self-improvement](#selfimprovement-должно-быть-self-improvement)
+  - [Svyazi-2.0 → должно быть Svyazi 2.0](#svyazi-20-должно-быть-svyazi-20)
+  - [Evidence-Envelope → должно быть Evidence Envelope](#evidence-envelope-должно-быть-evidence-envelope)
+  - [EvidenceEnvelope → должно быть Evidence Envelope](#evidenceenvelope-должно-быть-evidence-envelope)
+  - [Card-Envelope → должно быть Card Envelope](#card-envelope-должно-быть-card-envelope)
+- [Как исправить](#как-исправить)
+
+
 <!-- tags: consistency, docs -->
 
 
@@ -17,33 +43,50 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
+| **knowledge-space** | `knowledge-space` | `knowledge space` | 34 |
+| **knowledge-space** | `knowledge-space` | `knowledge_space` | 5 |
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 33 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
-| **CardIndex** | `CardIndex` | `Card Index` | 5 |
-| **CardIndex** | `CardIndex` | `card index` | 5 |
+| **CardIndex** | `CardIndex` | `Card Index` | 6 |
+| **CardIndex** | `CardIndex` | `card index` | 6 |
 | **CardIndex** | `CardIndex` | `card-index` | 4 |
 | **AI Factory** | `AI Factory` | `AI-Factory` | 48 |
 | **NGT Memory** | `NGT Memory` | `NGT-Memory` | 99 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 5 |
 | **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 40 |
 | **local-first** | `local-first` | `local first` | 7 |
-| **local-first** | `local-first` | `localfirst` | 8 |
+| **local-first** | `local-first` | `localfirst` | 7 |
 | **local-first** | `local-first` | `Local First` | 7 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 7 |
-| **self-improvement** | `self-improvement` | `self-improve` | 314 |
-| **self-improvement** | `self-improvement` | `selfimprovement` | 3 |
+| **self-improvement** | `self-improvement` | `self-improve` | 313 |
+| **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 47 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 36 |
 | **Card Envelope** | `Card Envelope` | `CardEnvelope` | 21 |
 
-**Всего несогласованных написаний: 708**
+**Всего несогласованных написаний: 709**
 
 
 ## Детали по файлам
 
+
+### `knowledge space` → должно быть `knowledge-space`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/OUTLINE.md`
+- `docs/CONCEPTS.md`
+- _...и ещё 29_
+
+### `knowledge_space` → должно быть `knowledge-space`
+
+- `docs/EMPTY_SECTIONS.md`
+- `docs/CONSISTENCY.md`
+- `docs/TABLES.md`
+- `docs/obsidian/CONSISTENCY.md`
+- `docs/05-habr-projects/knowledge/README.md`
 
 ### `knowledgespace` → должно быть `knowledge-space`
 
@@ -54,37 +97,23 @@
 - `docs/obsidian/CONSISTENCY.md`
 - _...и ещё 1_
 
-### `knowledge space` → должно быть `knowledge-space`
-
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
-- `docs/OUTLINE.md`
-- `docs/CONCEPTS.md`
-- `docs/SITEMAP.md`
-- _...и ещё 28_
-
-### `knowledge_space` → должно быть `knowledge-space`
-
-- `docs/CONSISTENCY.md`
-- `docs/TABLES.md`
-- `docs/obsidian/CONSISTENCY.md`
-- `docs/05-habr-projects/knowledge/README.md`
-
 ### `Card Index` → должно быть `CardIndex`
 
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
+- _...и ещё 1_
 
 ### `card index` → должно быть `CardIndex`
 
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/CHANGELOG.md`
 - `docs/obsidian/CONSISTENCY.md`
-- `docs/obsidian/CHANGELOG.md`
+- _...и ещё 1_
 
 ### `card-index` → должно быть `CardIndex`
 
@@ -142,9 +171,9 @@
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/OUTLINE.md`
-- `docs/svyazi-2-0/limitations/do-not-glue.md`
 - `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 3_
+- `docs/obsidian/TABLES.md`
+- _...и ещё 2_
 
 ### `Local First` → должно быть `local-first`
 
@@ -171,13 +200,12 @@
 - `docs/CONSISTENCY.md`
 - `docs/PROTOTYPE_SPEC.md`
 - `docs/TABLES.md`
-- _...и ещё 309_
+- _...и ещё 308_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
-- `docs/svyazi-2-0/limitations/do-not-glue.md`
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -218,20 +246,13 @@
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
 
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
 - [MISSING](MISSING.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
 - [TAGS](TAGS.md)
 - [STATS](STATS.md)
+- [STALENESS](STALENESS.md)
 

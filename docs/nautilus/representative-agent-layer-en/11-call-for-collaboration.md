@@ -11,6 +11,7 @@
   - [11.5. For Policymakers](#115-for-policymakers)
   - [11.6. For Potential Principals](#116-for-potential-principals)
   - [11.7. For Critics](#117-for-critics)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

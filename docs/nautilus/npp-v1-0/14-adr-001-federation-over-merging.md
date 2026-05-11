@@ -4,6 +4,7 @@
 ## Contents
 
 - [14. ADR-001: Federation over Merging](#14-adr-001-federation-over-merging)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

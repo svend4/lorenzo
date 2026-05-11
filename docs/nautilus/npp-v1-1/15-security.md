@@ -9,6 +9,7 @@
   - [15.3. MCP Exposure](#153-mcp-exposure)
   - [15.4. Rate Limiting](#154-rate-limiting)
   - [15.5. Supply Chain](#155-supply-chain)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

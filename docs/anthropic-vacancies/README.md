@@ -1,9 +1,4 @@
 # anthropic-vacancies
-
-> [!NOTE]
-> Раздел `README` автоматически формируется из данных репозитория.
-
-<!-- alert-added -->
 <!-- tags: readme, docs -->
 
 
@@ -15,7 +10,7 @@
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 97 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 - [methodology.md](methodology.md) — <!-- toc-auto -->
 - [overview.md](overview.md) — <!-- toc-auto -->
 - [signals.md](signals.md) — <!-- toc-auto -->

@@ -1,6 +1,16 @@
 # AI-Coordinated Infrastructure for Distributed Expert Contribution
 
 <!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
+- [Executive Summary](#executive-summary)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 ## Содержание
 
 - Основной раздел

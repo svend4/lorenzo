@@ -4,6 +4,7 @@
 ## Contents
 
 - [What This Document Doesn't Solve](#what-this-document-doesnt-solve)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

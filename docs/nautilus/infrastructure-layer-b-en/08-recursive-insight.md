@@ -4,6 +4,7 @@
 ## Contents
 
 - [The Recursive Insight](#the-recursive-insight)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

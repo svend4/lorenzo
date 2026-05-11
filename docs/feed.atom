@@ -3,8 +3,15 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-11T04:15:12+00:00</updated>
+  <updated>2026-05-11T04:22:24+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/089b157f55ad1f37b92d333d6d33bc7f874f1edf</id>
+    <title>chore: update generated docs after reports pipeline run</title>
+    <link href="https://github.com/svend4/lorenzo/commit/089b157f55ad1f37b92d333d6d33bc7f874f1edf"/>
+    <updated>2026-05-11T04:15:26+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: update generated docs after reports pipeline run</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/QA.md">docs/01-svyazi/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CHANGELOG.md">docs/CHANGELOG.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CITATION_INDEX.md">docs/CITATION_INDEX.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACTS.md">docs/CONTACTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTACT_PRIORITY.md">docs/CONTACT_PRIORITY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COST.md">docs/COST.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COVERAGE.md">docs/COVERAGE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DEPENDABOT.md">docs/DEPENDABOT.md</a></li></ul><p>Коммит: <code>089b157f</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/81af4bf5ae7db77f003d8cef804954aea548e7a5</id>
     <title>feat: add improve_quality_patch.py to prevent score regression after pipeline runs</title>
@@ -137,12 +144,5 @@
     <link href="https://github.com/svend4/lorenzo/commit/e8cc1b60c7e28ae77989200245f64a0e450701ac"/>
     <updated>2026-05-10T17:33:03+00:00</updated>
     <content type="html"><![CDATA[<p><strong>improve: 05-habr-projects 65→72/100 — 100% summary+tags coverage</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/QA.md">docs/05-habr-projects/QA.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/README.md">docs/05-habr-projects/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/knowledge/README.md">docs/05-habr-projects/knowledge/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/memory/README.md">docs/05-habr-projects/memory/README.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/METRICS.md">docs/METRICS.md</a></li></ul><p>Коммит: <code>e8cc1b60</code></p>]]></content>
-  </entry>
-  <entry>
-    <id>https://github.com/svend4/lorenzo/commit/43c99b25cdda6488b98695b2814487eeac1a098c</id>
-    <title>fix: fill missing status sections in 3 project files + autofill path fix</title>
-    <link href="https://github.com/svend4/lorenzo/commit/43c99b25cdda6488b98695b2814487eeac1a098c"/>
-    <updated>2026-05-10T17:31:48+00:00</updated>
-    <content type="html"><![CDATA[<p><strong>fix: fill missing status sections in 3 project files + autofill path fix</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/knowledge/research-docs-liteparse.md">docs/05-habr-projects/knowledge/research-docs-liteparse.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/knowledge/wikontic.md">docs/05-habr-projects/knowledge/wikontic.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/05-habr-projects/memory/agent-memory-mcp.md">docs/05-habr-projects/memory/agent-memory-mcp.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COLLAB_SUGGESTIONS.md">docs/COLLAB_SUGGESTIONS.md</a></li></ul><p>Коммит: <code>43c99b25</code></p>]]></content>
   </entry>
 </feed>

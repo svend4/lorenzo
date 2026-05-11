@@ -59,6 +59,7 @@ TOC_MARKER = "<!-- toc-auto -->"
 def _slug(heading: str) -> str:
     """GitHub-совместимый якорь из заголовка."""
     s = heading.lower().strip()
+    s = s.replace('‑', '-')  # non-breaking hyphen → regular hyphen
     s = re.sub(r'[^\w\s-]', '', s)
     s = re.sub(r'\s+', '-', s)
     return s.strip('-')

@@ -1,5 +1,19 @@
 # Existing Approximations
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Existing Approximations](#existing-approximations)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
+  - [Combination workflows](#combination-workflows)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 <!-- toc -->
 ## Содержание
 
@@ -14,18 +28,6 @@
 - [Смотрите также](#смотрите-также)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Existing Approximations](#existing-approximations)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-style forums](#discourse-phpbb-style-forums)
-  - [Combination workflows](#combination-workflows)
-- [Смотрите также](#смотрите-также)
 
 
 > [!NOTE]

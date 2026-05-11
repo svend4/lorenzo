@@ -1,9 +1,4 @@
 # contacts
-
-> [!NOTE]
-> Раздел `README` автоматически формируется из данных репозитория.
-
-<!-- alert-added -->
 <!-- tags: readme, docs -->
 
 
@@ -15,7 +10,7 @@
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 15 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 - [anastasiyaw.md](anastasiyaw.md) — ---
 - [andrey-chuyan.md](andrey-chuyan.md) — ---
 - [antipozitive.md](antipozitive.md) — ---

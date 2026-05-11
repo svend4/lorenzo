@@ -8,6 +8,7 @@
   - [10.2. Parallelism](#102-parallelism)
   - [10.3. Error Handling](#103-error-handling)
   - [10.4. Timeout Behavior](#104-timeout-behavior)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

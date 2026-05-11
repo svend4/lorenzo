@@ -4,6 +4,7 @@
 ## Contents
 
 - [21. ADR-003: Five Onboarding Paths as Equal-Rank](#21-adr-003-five-onboarding-paths-as-equal-rank)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

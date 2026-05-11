@@ -1,17 +1,28 @@
 # Именованные сущности
 
 <!-- toc-auto -->
+## Contents
 
-> [!NOTE]
-> Документ `ENTITIES.md` автоматически формируется из данных репозитория.
+- [Люди и авторы (7)](#люди-и-авторы-7)
+- [Проекты (22)](#проекты-22)
+- [Организации (9)](#организации-9)
+- [Технологии и стандарты (24)](#технологии-и-стандарты-24)
+- [GitHub репозитории (15)](#github-репозитории-15)
+- [Ко-встречаемость проектов (топ пары)](#ко-встречаемость-проектов-топ-пары)
+- [Использование](#использование)
 
-<!-- alert-added -->
-<!-- tags: entities, ner, projects, authors, technologies -->
+
+<!-- tags: entities, docs -->
 
 
 <!-- summary -->
-> Именованные сущности из документации репозитория: проекты, авторы, технологии.
+> `ENTITIES` — раздел документации проекта Lorenzo.
 
+
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
 
 **Файлов просмотрено:** 2445
 
@@ -20,11 +31,11 @@
 
 | Имя | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Lorenzo** | 8271 | 844 |
-| **svend4** | 3204 | 491 |
-| **kksudo** | 756 | 173 |
-| **spbmolot** | 641 | 149 |
-| **Андрей** | 283 | 86 |
+| **Lorenzo** | 8049 | 858 |
+| **svend4** | 3176 | 491 |
+| **kksudo** | 742 | 173 |
+| **spbmolot** | 628 | 149 |
+| **Андрей** | 284 | 87 |
 | **Виталий** | 120 | 59 |
 | **Антропик** | 82 | 35 |
 
@@ -32,25 +43,25 @@
 
 | Проект | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Nautilus** | 18374 | 958 |
-| **Svyazi** | 10535 | 627 |
-| **Lorenzo** | 8271 | 844 |
-| **Cowork** | 6975 | 412 |
-| **ingit** | 6571 | 366 |
-| **SGB** | 2976 | 455 |
-| **Yodoca** | 2190 | 320 |
-| **AgentFS** | 1942 | 246 |
-| **CardIndex** | 1828 | 293 |
-| **NGT** | 1783 | 334 |
-| **knowledge-space** | 1602 | 227 |
-| **MemNet** | 1240 | 270 |
-| **mclaude** | 1072 | 198 |
-| **Rufler** | 1019 | 187 |
-| **LiteParse** | 963 | 176 |
-| **AI Factory** | 658 | 149 |
-| **SENTINEL** | 652 | 150 |
-| **Wikontic** | 578 | 113 |
-| **agent-memory-mcp** | 497 | 111 |
+| **Nautilus** | 17212 | 959 |
+| **Svyazi** | 9969 | 627 |
+| **Lorenzo** | 8049 | 858 |
+| **Cowork** | 6789 | 413 |
+| **ingit** | 6389 | 366 |
+| **SGB** | 2923 | 455 |
+| **Yodoca** | 2163 | 321 |
+| **AgentFS** | 1923 | 247 |
+| **CardIndex** | 1825 | 294 |
+| **NGT** | 1769 | 335 |
+| **knowledge-space** | 1581 | 228 |
+| **MemNet** | 1219 | 270 |
+| **mclaude** | 1059 | 199 |
+| **Rufler** | 1004 | 187 |
+| **LiteParse** | 948 | 176 |
+| **AI Factory** | 654 | 148 |
+| **SENTINEL** | 649 | 151 |
+| **Wikontic** | 573 | 113 |
+| **agent-memory-mcp** | 483 | 111 |
 | **Firecrawl** | 253 | 41 |
 | **Shield** | 81 | 23 |
 | **MCP Tool Search** | 36 | 14 |
@@ -59,41 +70,41 @@
 
 | Организация | Упоминаний | Файлов |
 |---------|------------|--------|
-| **Anthropic** | 35267 | 1700 |
-| **Obsidian** | 13045 | 241 |
-| **Claude** | 8254 | 1502 |
-| **Habr** | 6702 | 545 |
-| **GitHub** | 4659 | 586 |
-| **Хабр** | 1482 | 322 |
-| **Google** | 202 | 85 |
-| **OpenAI** | 187 | 104 |
+| **Anthropic** | 33423 | 1700 |
+| **Obsidian** | 13433 | 242 |
+| **Claude** | 8167 | 1503 |
+| **Habr** | 6381 | 545 |
+| **GitHub** | 4648 | 589 |
+| **Хабр** | 1468 | 321 |
+| **Google** | 202 | 86 |
+| **OpenAI** | 185 | 104 |
 | **ChatGPT** | 171 | 98 |
 
 ## Технологии и стандарты (24)
 
 | Технология | Упоминаний | Файлов |
 |---------|------------|--------|
-| **MCP** | 6648 | 737 |
-| **RAG** | 5823 | 772 |
-| **MIT** | 4207 | 719 |
-| **Python** | 4032 | 2068 |
-| **LLM** | 3555 | 522 |
-| **JSON** | 1825 | 284 |
-| **REST** | 917 | 304 |
-| **CRDT** | 718 | 137 |
-| **YAML** | 651 | 227 |
-| **Rust** | 374 | 168 |
-| **SQLite** | 281 | 94 |
+| **MCP** | 6541 | 737 |
+| **RAG** | 5749 | 772 |
+| **MIT** | 4143 | 718 |
+| **Python** | 3979 | 2073 |
+| **LLM** | 3493 | 522 |
+| **JSON** | 1811 | 283 |
+| **REST** | 907 | 303 |
+| **CRDT** | 703 | 138 |
+| **YAML** | 653 | 227 |
+| **Rust** | 368 | 168 |
+| **SQLite** | 278 | 94 |
 | **Apache** | 273 | 120 |
-| **BSL** | 271 | 104 |
-| **TF-IDF** | 232 | 59 |
-| **Mermaid** | 163 | 66 |
-| **PostgreSQL** | 108 | 58 |
+| **BSL** | 273 | 104 |
+| **TF-IDF** | 231 | 58 |
+| **Mermaid** | 164 | 67 |
+| **PostgreSQL** | 109 | 59 |
 | **FAISS** | 106 | 35 |
 | **LangChain** | 73 | 45 |
 | **TypeScript** | 72 | 35 |
 | **WebSocket** | 34 | 20 |
-| **FastAPI** | 22 | 11 |
+| **FastAPI** | 21 | 10 |
 | **JWT** | 20 | 12 |
 | **GraphQL** | 16 | 10 |
 | **OAuth** | 10 | 6 |
@@ -123,32 +134,25 @@
 | Пара | Общих файлов |
 |------|-------------|
 | Cowork ↔ ingit | 327 |
-| Svyazi ↔ Lorenzo | 299 |
-| Nautilus ↔ Lorenzo | 294 |
+| Svyazi ↔ Lorenzo | 305 |
+| Nautilus ↔ Lorenzo | 296 |
 | Nautilus ↔ Cowork | 290 |
-| Svyazi ↔ Yodoca | 272 |
+| Svyazi ↔ Yodoca | 274 |
 | Nautilus ↔ SGB | 268 |
 | Nautilus ↔ ingit | 255 |
-| Svyazi ↔ NGT | 251 |
-| Svyazi ↔ CardIndex | 243 |
-| Yodoca ↔ NGT | 238 |
-| Svyazi ↔ AgentFS | 213 |
-| Yodoca ↔ AgentFS | 189 |
+| Svyazi ↔ NGT | 253 |
+| Svyazi ↔ CardIndex | 244 |
+| Yodoca ↔ NGT | 239 |
+| Svyazi ↔ AgentFS | 214 |
+| Yodoca ↔ AgentFS | 191 |
 | Svyazi ↔ knowledge-space | 187 |
-| Lorenzo ↔ SGB | 186 |
-| Svyazi ↔ mclaude | 183 |
-| AgentFS ↔ NGT | 183 |
-| CardIndex ↔ NGT | 182 |
-| Lorenzo ↔ ingit | 176 |
-| Yodoca ↔ CardIndex | 176 |
+| Lorenzo ↔ SGB | 185 |
+| Svyazi ↔ mclaude | 184 |
+| AgentFS ↔ NGT | 184 |
+| CardIndex ↔ NGT | 183 |
+| Lorenzo ↔ ingit | 177 |
+| Yodoca ↔ CardIndex | 177 |
 | Svyazi ↔ Rufler | 175 |
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_entities.py
-```
 
 <!-- see-also -->
 
@@ -157,6 +161,13 @@ python scripts/improve_entities.py
 **Смотрите также:**
 - [NETWORK](NETWORK.md)
 - [GLOSSARY](GLOSSARY.md)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [.md](autofilled/components/.md)
+- [cowork](autofilled/components/cowork.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_entities.py
+```

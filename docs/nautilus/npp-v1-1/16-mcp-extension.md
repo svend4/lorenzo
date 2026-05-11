@@ -4,6 +4,7 @@
 ## Contents
 
 - [16. MCP Extension (Informative)](#16-mcp-extension-informative)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

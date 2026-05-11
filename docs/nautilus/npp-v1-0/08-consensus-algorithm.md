@@ -9,6 +9,7 @@
   - [8.3. Consensus Categories](#83-consensus-categories)
   - [8.4. Coverage Ratio](#84-coverage-ratio)
   - [8.5. Future Extensions (v2.0+)](#85-future-extensions-v20)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

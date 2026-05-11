@@ -1,17 +1,105 @@
 # Приоритеты файлов
 
 <!-- toc-auto -->
+## Contents
 
-> [!NOTE]
-> Раздел `PRIORITIES` автоматически формируется из данных репозитория.
+- [Топ-50 самых важных файлов](#топ-50-самых-важных-файлов)
+- [Топ-5 по каждому разделу](#топ-5-по-каждому-разделу)
+  - [01-initial-analysis](#01-initial-analysis)
+  - [01-svyazi](#01-svyazi)
+  - [02-anthropic-vacancies](#02-anthropic-vacancies)
+  - [02-reanalysis](#02-reanalysis)
+  - [03-integral-final](#03-integral-final)
+  - [03-technology-combinations](#03-technology-combinations)
+  - [04-ai-collaborations](#04-ai-collaborations)
+  - [05-habr-projects](#05-habr-projects)
+  - [agent-changes-reality](#agent-changes-reality)
+  - [ai-collaborations](#ai-collaborations)
+  - [ai-managed-virtual-company](#ai-managed-virtual-company)
+  - [analogues](#analogues)
+  - [anthropic-vacancies](#anthropic-vacancies)
+  - [architecture](#architecture)
+  - [autofilled](#autofilled)
+  - [beneficial-deployments-concept](#beneficial-deployments-concept)
+  - [candidates](#candidates)
+  - [clusters](#clusters)
+  - [combinations](#combinations)
+  - [components](#components)
+  - [composite-skills-agents](#composite-skills-agents)
+  - [composite-skills-agents-companion-mentors](#composite-skills-agents-companion-mentors)
+  - [contacts](#contacts)
+  - [continuation](#continuation)
+  - [deep-pairs](#deep-pairs)
+  - [docs](#docs)
+  - [double-triangle-architecture](#double-triangle-architecture)
+  - [ensembles](#ensembles)
+  - [extra-collaborator-findings](#extra-collaborator-findings)
+  - [extra-examples](#extra-examples)
+  - [final-ensembles](#final-ensembles)
+  - [glossary](#glossary)
+  - [habr-article-1-reaction](#habr-article-1-reaction)
+  - [habr-article-2-reaction](#habr-article-2-reaction)
+  - [hardware-pairs](#hardware-pairs)
+  - [hermes-comparison](#hermes-comparison)
+  - [infrastructure-layer-b-en](#infrastructure-layer-b-en)
+  - [infrastructure-layer-b-ru](#infrastructure-layer-b-ru)
+  - [ingit-cowork-en](#ingit-cowork-en)
+  - [ingit-cowork-ru](#ingit-cowork-ru)
+  - [innovation-transitions](#innovation-transitions)
+  - [key-findings](#key-findings)
+  - [knowledge](#knowledge)
+  - [limitations](#limitations)
+  - [lorenzo-agent](#lorenzo-agent)
+  - [mega-stacks](#mega-stacks)
+  - [memory](#memory)
+  - [meta-scripting](#meta-scripting)
+  - [mmorpg-for-programmers](#mmorpg-for-programmers)
+  - [multi-tier-architecture](#multi-tier-architecture)
+  - [naming](#naming)
+  - [nautilus-pro2-analysis](#nautilus-pro2-analysis)
+  - [nautilus-vs-camel](#nautilus-vs-camel)
+  - [npp-humanitarian-extension](#npp-humanitarian-extension)
+  - [npp-v1-0](#npp-v1-0)
+  - [npp-v1-1](#npp-v1-1)
+  - [obsidian](#obsidian)
+  - [okwf-concept](#okwf-concept)
+  - [operationalized](#operationalized)
+  - [outreach](#outreach)
+  - [overview](#overview)
+  - [phased-deployment](#phased-deployment)
+  - [practical-observations](#practical-observations)
+  - [privacy-federation](#privacy-federation)
+  - [processing-guide](#processing-guide)
+  - [professional-colleague-agents-en](#professional-colleague-agents-en)
+  - [professional-colleague-agents-ru](#professional-colleague-agents-ru)
+  - [prototype](#prototype)
+  - [representative-agent-layer-en](#representative-agent-layer-en)
+  - [representative-agent-layer-ru](#representative-agent-layer-ru)
+  - [research-reports](#research-reports)
+  - [review-methodology](#review-methodology)
+  - [scenarios](#scenarios)
+  - [security](#security)
+  - [software-pairs](#software-pairs)
+  - [specification](#specification)
+  - [supply-demand](#supply-demand)
+  - [synthesis-tables](#synthesis-tables)
+  - [templates](#templates)
+  - [transmission-box](#transmission-box)
+  - [voiceless-contributors](#voiceless-contributors)
+- [Использование](#использование)
 
-<!-- alert-added -->
+
 <!-- tags: priorities, docs -->
 
 
 <!-- summary -->
 > `PRIORITIES` — раздел документации проекта Lorenzo.
 
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 
 Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).
 
@@ -21,56 +109,56 @@
 
 | # | Файл | Score | Слов | Ключевые термины |
 |---|------|-------|------|-----------------|
-| 1 | `docs/TABLES.md` | **1195.62** | 300586 | agent, Svyazi, memory, rag, MIT |
+| 1 | `docs/TABLES.md` | **1182.38** | 307018 | agent, Svyazi, memory, rag, MIT |
 | 2 | `docs/obsidian/TABLES.md` | **847.11** | 216501 | agent, Svyazi, memory, rag, MIT |
-| 3 | `docs/OUTLINE.md` | **287.2** | 47045 | agent, Svyazi, memory, security, rag |
+| 3 | `docs/OUTLINE.md` | **284.36** | 47149 | agent, Svyazi, memory, security, rag |
 | 4 | `docs/obsidian/OUTLINE.md` | **210.36** | 39411 | agent, Svyazi, memory, rag, security |
-| 5 | `docs/HEADING_AUDIT.md` | **174.29** | 13611 | agent, Svyazi, memory, security, MIT |
-| 6 | `docs/PARAGRAPH_QUALITY.md` | **171.13** | 17201 | agent, Svyazi, memory, rag, security |
+| 5 | `docs/HEADING_AUDIT.md` | **174.46** | 13641 | agent, Svyazi, memory, security, MIT |
+| 6 | `docs/PARAGRAPH_QUALITY.md` | **171.3** | 17231 | agent, Svyazi, memory, rag, security |
 | 7 | `docs/obsidian/PARAGRAPH_QUALITY.md` | **169.4** | 16104 | agent, Svyazi, memory, rag, security |
-| 8 | `docs/READABILITY.md` | **147.12** | 37119 | agent, Svyazi, memory, security, rag |
-| 9 | `docs/READING_TIME.md` | **142.36** | 26698 | agent, Svyazi, memory, security, rag |
-| 10 | `docs/CONCEPTS.md` | **104.34** | 14809 | agent, Svyazi, memory, MIT, LiteParse |
-| 11 | `docs/QUESTIONS.md` | **101.55** | 23474 | agent, Svyazi, rag, memory, AgentFS |
-| 12 | `docs/obsidian/QUESTIONS.md` | **99.86** | 25686 | agent, Svyazi, rag, memory, MIT |
-| 13 | `docs/SITEMAP.md` | **95.85** | 9407 | agent, Svyazi, memory, rag, security |
-| 14 | `docs/obsidian/HEADING_AUDIT.md` | **93.79** | 9493 | agent, Svyazi, security, MIT, rag |
-| 15 | `docs/VERSION_DIFF.md` | **87.45** | 23734 | agent, Svyazi, memory, security, MIT |
-| 16 | `docs/EMPTY_SECTIONS.md` | **72.97** | 36714 | agent, rag, memory, Svyazi, security |
-| 17 | `docs/SUMMARIES.md` | **72.16** | 3863 | Svyazi, agent, rag, memory, AgentFS |
-| 18 | `docs/obsidian/SUMMARIES.md` | **72.16** | 3864 | Svyazi, agent, rag, memory, AgentFS |
-| 19 | `docs/04-ai-collaborations/00-intro.md` | **70.8** | 11503 | Svyazi, rag, memory, agent, локальн |
-| 20 | `docs/glossary/components-by-name.md` | **68.05** | 1189 | Svyazi, agent, memory, rag, Yodoca |
-| 21 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **64.64** | 20580 | agent, memory, MIT, rag, NGT Memory |
-| 22 | `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **64.33** | 20596 | agent, memory, MIT, rag, NGT Memory |
-| 23 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **62.98** | 3391 | Svyazi, memory, evidence, agent, rag |
-| 24 | `docs/obsidian/04-ai-collaborations/00-intro.md` | **57.53** | 11512 | rag, agent, локальн, memory, Svyazi |
-| 25 | `docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **56.82** | 3394 | memory, evidence, Svyazi, agent, rag |
-| 26 | `docs/SOURCE_MAP.md` | **56.65** | 12409 | agent, Svyazi, security, MIT, memory |
-| 27 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **54.8** | 3958 | agent, Svyazi, memory, MIT, evidence |
-| 28 | `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **52.97** | 3971 | agent, memory, Svyazi, MIT, evidence |
-| 29 | `docs/ACTION_ITEMS.md` | **49.03** | 9689 | MIT, agent, Svyazi, rag, AgentFS |
-| 30 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **46.66** | 4550 | agent, MIT, Svyazi, rag, mclaude |
-| 31 | `docs/obsidian/CONCEPTS.md` | **46.64** | 14215 | agent, MIT, Svyazi, rag, memory |
-| 32 | `docs/obsidian/SITEMAP.md` | **44.87** | 8502 | agent, Svyazi, memory, rag, local-first |
+| 8 | `docs/READABILITY.md` | **142.01** | 37075 | agent, Svyazi, memory, security, rag |
+| 9 | `docs/READING_TIME.md` | **140.14** | 27003 | agent, Svyazi, memory, security, rag |
+| 10 | `docs/CONCEPTS.md` | **101.54** | 14800 | agent, Svyazi, memory, MIT, LiteParse |
+| 11 | `docs/obsidian/QUESTIONS.md` | **99.86** | 25686 | agent, Svyazi, rag, memory, MIT |
+| 12 | `docs/SITEMAP.md` | **95.85** | 9407 | agent, Svyazi, memory, rag, security |
+| 13 | `docs/obsidian/HEADING_AUDIT.md` | **93.79** | 9493 | agent, Svyazi, security, MIT, rag |
+| 14 | `docs/VERSION_DIFF.md` | **88.81** | 23817 | agent, Svyazi, memory, security, rag |
+| 15 | `docs/EMPTY_SECTIONS.md` | **73.15** | 36752 | agent, rag, memory, Svyazi, security |
+| 16 | `docs/SUMMARIES.md` | **72.16** | 3863 | Svyazi, agent, rag, memory, AgentFS |
+| 17 | `docs/obsidian/SUMMARIES.md` | **72.16** | 3864 | Svyazi, agent, rag, memory, AgentFS |
+| 18 | `docs/04-ai-collaborations/00-intro.md` | **70.8** | 11503 | Svyazi, rag, memory, agent, локальн |
+| 19 | `docs/glossary/components-by-name.md` | **68.05** | 1189 | Svyazi, agent, memory, rag, Yodoca |
+| 20 | `docs/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **64.64** | 20580 | agent, memory, MIT, rag, NGT Memory |
+| 21 | `docs/obsidian/02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md` | **64.33** | 20596 | agent, memory, MIT, rag, NGT Memory |
+| 22 | `docs/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **62.98** | 3391 | Svyazi, memory, evidence, agent, rag |
+| 23 | `docs/obsidian/04-ai-collaborations/00-intro.md` | **57.53** | 11512 | rag, agent, локальн, memory, Svyazi |
+| 24 | `docs/obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | **56.82** | 3394 | memory, evidence, Svyazi, agent, rag |
+| 25 | `docs/SOURCE_MAP.md` | **56.64** | 12423 | agent, Svyazi, security, MIT, memory |
+| 26 | `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **54.8** | 3958 | agent, Svyazi, memory, MIT, evidence |
+| 27 | `docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md` | **52.97** | 3971 | agent, memory, Svyazi, MIT, evidence |
+| 28 | `docs/ACTION_ITEMS.md` | **48.22** | 9773 | MIT, agent, Svyazi, rag, AgentFS |
+| 29 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **46.66** | 4550 | agent, MIT, Svyazi, rag, mclaude |
+| 30 | `docs/obsidian/CONCEPTS.md` | **46.64** | 14215 | agent, MIT, Svyazi, rag, memory |
+| 31 | `docs/obsidian/SITEMAP.md` | **44.87** | 8502 | agent, Svyazi, memory, rag, local-first |
+| 32 | `docs/CODE_BLOCKS.md` | **42.98** | 6013 | agent, Svyazi, MIT, rag, Rufler |
 | 33 | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | **42.84** | 4562 | agent, MIT, rag, Svyazi, mclaude |
-| 34 | `docs/CODE_BLOCKS.md` | **42.74** | 6025 | agent, Svyazi, MIT, Rufler, rag |
-| 35 | `docs/SIMILAR_PASSAGES.md` | **42.6** | 1829 | Svyazi, MVP, архитектурный зазор, agent, AgentFS |
-| 36 | `docs/obsidian/EMPTY_SECTIONS.md` | **42.57** | 16333 | agent, rag, security, MIT, Svyazi |
-| 37 | `docs/CONSISTENCY.md` | **42.55** | 888 | memory, local-first, evidence, knowledge-space, CardIndex |
-| 38 | `docs/obsidian/SIMILAR_PASSAGES.md` | **42.19** | 1831 | Svyazi, MVP, архитектурный зазор, agent, AgentFS |
-| 39 | `docs/obsidian/DECISIONS.md` | **39.68** | 2662 | Svyazi, agent, AgentFS, rag, MVP |
-| 40 | `docs/obsidian/ACTION_ITEMS.md` | **39.49** | 9331 | agent, MIT, Svyazi, AgentFS, rag |
-| 41 | `docs/PROTOTYPE_SPEC.md` | **39.1** | 1462 | Yodoca, agent, memory, Svyazi, MVP |
-| 42 | `docs/obsidian/PROTOTYPE_SPEC.md` | **38.55** | 1462 | Yodoca, agent, memory, Svyazi, MVP |
-| 43 | `docs/glossary/authors-by-name.md` | **38.52** | 592 | Svyazi, memory, agent, rag, security |
-| 44 | `docs/obsidian/glossary/components-by-name.md` | **38.38** | 1195 | agent, memory, rag, Yodoca, AutoResearch |
-| 45 | `docs/obsidian/SOURCE_MAP.md` | **38.17** | 9099 | agent, Svyazi, security, MIT, memory |
-| 46 | `docs/DECISIONS.md` | **37.37** | 2472 | Svyazi, agent, MIT, AgentFS, rag |
-| 47 | `docs/05-habr-projects/memory/memnet.md` | **37.29** | 7346 | локальн, Svyazi, memory, rag, Yodoca |
-| 48 | `docs/obsidian/NAMED_ENTITIES.md` | **36.74** | 1731 | Svyazi, MVP, rag, Yodoca, security |
+| 34 | `docs/SIMILAR_PASSAGES.md` | **42.6** | 1829 | Svyazi, MVP, архитектурный зазор, agent, AgentFS |
+| 35 | `docs/obsidian/EMPTY_SECTIONS.md` | **42.57** | 16333 | agent, rag, security, MIT, Svyazi |
+| 36 | `docs/obsidian/SIMILAR_PASSAGES.md` | **42.19** | 1831 | Svyazi, MVP, архитектурный зазор, agent, AgentFS |
+| 37 | `docs/CONSISTENCY.md` | **41.73** | 879 | memory, local-first, evidence, knowledge-space, CardIndex |
+| 38 | `docs/obsidian/DECISIONS.md` | **39.68** | 2662 | Svyazi, agent, AgentFS, rag, MVP |
+| 39 | `docs/obsidian/ACTION_ITEMS.md` | **39.49** | 9331 | agent, MIT, Svyazi, AgentFS, rag |
+| 40 | `docs/PROTOTYPE_SPEC.md` | **39.1** | 1462 | Yodoca, agent, memory, Svyazi, MVP |
+| 41 | `docs/obsidian/PROTOTYPE_SPEC.md` | **38.55** | 1462 | Yodoca, agent, memory, Svyazi, MVP |
+| 42 | `docs/glossary/authors-by-name.md` | **38.52** | 592 | Svyazi, memory, agent, rag, security |
+| 43 | `docs/obsidian/glossary/components-by-name.md` | **38.38** | 1195 | agent, memory, rag, Yodoca, AutoResearch |
+| 44 | `docs/obsidian/SOURCE_MAP.md` | **38.17** | 9099 | agent, Svyazi, security, MIT, memory |
+| 45 | `docs/DECISIONS.md` | **37.37** | 2471 | Svyazi, agent, MIT, AgentFS, rag |
+| 46 | `docs/05-habr-projects/memory/memnet.md` | **37.29** | 7346 | локальн, Svyazi, memory, rag, Yodoca |
+| 47 | `docs/obsidian/NAMED_ENTITIES.md` | **36.74** | 1731 | Svyazi, MVP, rag, Yodoca, security |
+| 48 | `docs/SEE_ALSO.md` | **36.58** | 285 | Svyazi, MVP, MIT, security, roadmap |
 | 49 | `docs/obsidian/MINDMAP.md` | **36.17** | 349 | rag, memory, CardIndex, knowledge-space, agent |
-| 50 | `docs/NAMED_ENTITIES.md` | **35.56** | 1723 | Svyazi, MVP, security, Yodoca, rag |
+| 50 | `docs/NAMED_ENTITIES.md` | **35.52** | 1737 | Svyazi, MVP, security, Yodoca, rag |
 
 ## Топ-5 по каждому разделу
 
@@ -320,11 +408,11 @@
 
 | Файл | Score |
 |------|-------|
-| `docs/TABLES.md` | 1195.62 |
-| `docs/OUTLINE.md` | 287.2 |
-| `docs/HEADING_AUDIT.md` | 174.29 |
-| `docs/PARAGRAPH_QUALITY.md` | 171.13 |
-| `docs/READABILITY.md` | 147.12 |
+| `docs/TABLES.md` | 1182.38 |
+| `docs/OUTLINE.md` | 284.36 |
+| `docs/HEADING_AUDIT.md` | 174.46 |
+| `docs/PARAGRAPH_QUALITY.md` | 171.3 |
+| `docs/READABILITY.md` | 142.01 |
 
 ### double-triangle-architecture
 
@@ -846,7 +934,7 @@
 | `docs/obsidian/templates/prototype-mvp.md` | 4.16 |
 | `docs/templates/mega-stack.md` | 3.32 |
 | `docs/obsidian/templates/mega-stack.md` | 2.19 |
-| `docs/templates/project-component.md` | 1.55 |
+| `docs/templates/project-component.md` | 1.56 |
 
 ### transmission-box
 
@@ -866,6 +954,17 @@
 | `docs/obsidian/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` | 0.31 |
 | `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` | 0.31 |
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+
+
 
 ## Использование
 ```bash
@@ -876,24 +975,3 @@ python scripts/improve_priorities.py
 # Вариант 2
 python scripts/improve_priorities.py --dry-run
 ```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-- [Решения](DECISIONS.md)
-- [Контакты](CONTACTS.md)
-- [Оценка](SCORING.md)
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-

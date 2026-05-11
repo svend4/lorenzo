@@ -1,6 +1,15 @@
 # Контакты и авторы
 
 <!-- toc-auto -->
+## Contents
+
+- [Ключевые авторы проектов](#ключевые-авторы-проектов)
+- [GitHub репозитории](#github-репозитории)
+- [Email адреса](#email-адреса)
+- [Шаблон первого сообщения](#шаблон-первого-сообщения)
+- [Смотрите также](#смотрите-также)
+
+
 
 > [!NOTE]
 > Раздел `CONTACTS` формируется автоматически из данных репозитория.
@@ -73,7 +82,6 @@
 | `github.com/github.com/svend4/ingit` | 29 |
 | `github.com/github.com/svend4/lorenzo` | 4 |
 | `github.com/github.com/svend4/meta` | 23 |
-| `github.com/github.com/svend4/n` | 2 |
 | `github.com/github.com/svend4/nautilus` | 118 |
 | `github.com/github.com/svend4/nautilus.` | 5 |
 | `github.com/github.com/svend4/nautilus.git` | 7 |

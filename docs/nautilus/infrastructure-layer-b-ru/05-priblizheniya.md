@@ -1,5 +1,19 @@
 # Существующие приближения
 
+<!-- toc-auto -->
+## Contents
+
+- [Содержание](#содержание)
+- [Существующие приближения](#существующие-приближения)
+  - [Anthropic Projects](#anthropic-projects)
+  - [GitHub Discussions](#github-discussions)
+  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
+  - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
+  - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 <!-- toc -->
 ## Содержание
 
@@ -14,18 +28,6 @@
 - [Смотрите также](#смотрите-также)
 
 ---
-
-
-<!-- toc-auto -->
-## Contents
-
-- [Существующие приближения](#существующие-приближения)
-  - [Anthropic Projects](#anthropic-projects)
-  - [GitHub Discussions](#github-discussions)
-  - [Notion / Obsidian / Roam](#notion-obsidian-roam)
-  - [Discourse / phpBB-стиль форумы](#discourse-phpbb-стиль-форумы)
-  - [Комбинированные рабочие процессы](#комбинированные-рабочие-процессы)
-- [Смотрите также](#смотрите-также)
 
 
 > [!WARNING]

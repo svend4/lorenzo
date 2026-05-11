@@ -4,6 +4,7 @@
 ## Contents
 
 - [Final note: Ты — experiment](#final-note-ты-experiment)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

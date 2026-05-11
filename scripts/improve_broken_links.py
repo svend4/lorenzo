@@ -38,6 +38,7 @@ MAX_PATH_LEN = 240
 def anchor_from_heading(heading: str) -> str:
     """GitHub-style якорь из заголовка."""
     h = heading.lower().strip()
+    h = h.replace('‑', '-')  # non-breaking hyphen → regular hyphen
     h = re.sub(r'[^\w\s\-]', '', h)
     h = re.sub(r'\s+', '-', h)
     return '#' + h.strip('-')

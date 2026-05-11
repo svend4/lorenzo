@@ -11,6 +11,7 @@
   - [Related Architectures](#related-architectures)
   - [Pattern Libraries](#pattern-libraries)
   - [Primary Reference](#primary-reference)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

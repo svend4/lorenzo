@@ -1,6 +1,16 @@
 # Дайджест изменений
 
 <!-- toc-auto -->
+## Contents
+
+- [Последний коммит](#последний-коммит)
+- [Последние 3 коммита — итого](#последние-3-коммита-итого)
+- [История коммитов (последние 15)](#история-коммитов-последние-15)
+- [Текущее состояние репозитория](#текущее-состояние-репозитория)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 
 > [!NOTE]
 > Раздел `DIGEST` формируется автоматически из данных репозитория.
@@ -70,3 +80,29 @@ python scripts/improve_digest.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [SCHEDULE](SCHEDULE.md)
+- [DEPENDABOT](DEPENDABOT.md)
+- [SCORING](SCORING.md)
+

@@ -1,7 +1,7 @@
 # extra-collaborator-findings
 
 > [!NOTE]
-> Раздел `README` автоматически формируется из данных репозитория.
+> Раздел `README` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 <!-- tags: readme, docs -->

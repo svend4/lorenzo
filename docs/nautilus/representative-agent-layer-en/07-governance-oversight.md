@@ -9,6 +9,7 @@
   - [7.3. Dispute Resolution](#73-dispute-resolution)
   - [7.4. Vulnerable Population Protection](#74-vulnerable-population-protection)
   - [7.5. Foundation-Based Governance](#75-foundation-based-governance)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
 

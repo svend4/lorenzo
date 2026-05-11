@@ -5,6 +5,7 @@
 
 - [AI-Coordinated Infrastructure for Distributed Expert Contribution](#ai-coordinated-infrastructure-for-distributed-expert-contribution)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

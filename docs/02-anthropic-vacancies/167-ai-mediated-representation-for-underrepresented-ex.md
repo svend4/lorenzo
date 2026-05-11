@@ -5,6 +5,7 @@
 
 - [AI-Mediated Representation for Underrepresented Experts and Vulnerable Populations](#ai-mediated-representation-for-underrepresented-experts-and-vulnerable-populations)
 - [Похожие документы](#похожие-документы)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Упоминается в](#упоминается-в)
 - [Упоминается в](#упоминается-в-1)

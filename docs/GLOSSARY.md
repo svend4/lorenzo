@@ -1,7 +1,7 @@
 # Глоссарий проектов
 
 > [!NOTE]
-> Раздел `GLOSSARY` автоматически формируется из данных репозитория.
+> Раздел `GLOSSARY` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 <!-- tags: glossary, docs -->
@@ -15,53 +15,64 @@
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 153 |
-| **AIF Handoff** | 63 |
-| **AgentFS** | 250 |
-| **Auto AI Router** | 132 |
+| **AI Factory** | 152 |
+| **AIF Handoff** | 64 |
+| **AgentFS** | 251 |
+| **Auto AI Router** | 134 |
 | **AutoResearch** | 130 |
-| **Automerge** | 81 |
-| **CardIndex** | 297 |
+| **Automerge** | 79 |
+| **CardIndex** | 298 |
 | **Firecrawl** | 45 |
-| **Graph RAG** | 101 |
+| **Graph RAG** | 102 |
 | **Hybrid RAG** | 104 |
-| **Legal RAG** | 108 |
-| **LiteLLM** | 97 |
-| **LiteParse** | 179 |
-| **MemNet** | 273 |
-| **Memory OS** | 93 |
+| **Legal RAG** | 107 |
+| **LiteLLM** | 98 |
+| **LiteParse** | 181 |
+| **MemNet** | 274 |
+| **Memory OS** | 91 |
 | **NGT Memory** | 211 |
 | **OpenWhispr** | 41 |
 | **RLM-Toolkit** | 22 |
-| **Rufler** | 192 |
-| **SENTINEL** | 154 |
+| **Rufler** | 191 |
+| **SENTINEL** | 155 |
 | **Self-Aware MCP** | 43 |
 | **Sequential** | 238 |
-| **Svyazi** | 635 |
-| **Tool Search** | 103 |
+| **Svyazi** | 632 |
+| **Tool Search** | 104 |
 | **Whisper** | 55 |
 | **Wikontic** | 117 |
-| **Yjs** | 97 |
-| **Yodoca** | 324 |
+| **Yjs** | 95 |
+| **Yodoca** | 325 |
 | **Yttri** | 40 |
 | **agent-memory-mcp** | 115 |
-| **knowledge-space** | 231 |
+| **knowledge-space** | 232 |
 | **mclaude** | 203 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (51):**
+**Кто ссылается на этот документ (68):**
+- [QA](01-svyazi/QA.md)
+- [QA](02-anthropic-vacancies/QA.md)
 - [03-local-first](03-technology-combinations/03-local-first.md)
 - [04-sozialrecht-domain](03-technology-combinations/04-sozialrecht-domain.md)
+- [QA](03-technology-combinations/QA.md)
+- [QA](04-ai-collaborations/QA.md)
+- [QA](05-habr-projects/QA.md)
 - [ACTION_ITEMS](ACTION_ITEMS.md)
-- [ALERTS](ALERTS.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [COMPLEXITY](COMPLEXITY.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [CONSISTENCY](CONSISTENCY.md)
-- _...ещё 43_
+- _...ещё 60_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](MINDMAP.md)
+- [NETWORK](NETWORK.md)
+- [GRAPH](GRAPH.md)
+- [authors-by-name](glossary/authors-by-name.md)
 
 
 
@@ -70,14 +81,3 @@
 # Запуск
 python scripts/improve_glossary.py
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [MINDMAP](MINDMAP.md)
-- [TAGS](TAGS.md)
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [ENTITIES](ENTITIES.md)
-

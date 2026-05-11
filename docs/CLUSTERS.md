@@ -33,6 +33,7 @@
 - [Кластер 28 — angle-perspective, essence, смотрит, anthropic-vacancies (5 файлов)](#кластер-28-angle-perspective-essence-смотрит-anthropic-vacancies-5-файлов)
 - [Кластер 29 — target-populations, populations, problem-statement, target (5 файлов)](#кластер-29-target-populations-populations-problem-statement-target-5-файлов)
 - [Кластер 30 — contributor, phase, phase-, foundation (5 файлов)](#кластер-30-contributor-phase-phase--foundation-5-файлов)
+- [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 - [Кто ссылается на этот документ (9)](#кто-ссылается-на-этот-документ-9)
 

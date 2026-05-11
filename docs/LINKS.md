@@ -1,11 +1,6 @@
 # Индекс ссылок
 
 <!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `LINKS` автоматически формируется из данных репозитория.
-
-<!-- alert-added -->
 <!-- tags: links, docs -->
 
 
@@ -13,7 +8,12 @@
 > `LINKS` — раздел документации проекта Lorenzo.
 
 
-Всего уникальных URL: 355
+> [!TIP]
+> Документ содержит практические рекомендации и лучшие практики.
+
+<!-- alert-added -->
+
+Всего уникальных URL: 356
 
 | URL | Найден в файлах |
 |-----|-----------------|
@@ -157,7 +157,7 @@
 | https://github.com/svend4/ingit`` | 3 |
 | https://github.com/svend4/meta | 12 |
 | https://github.com/svend4/meta` | 8 |
-| https://github.com/svend4/meta`, | 1 |
+| https://github.com/svend4/meta`, | 3 |
 | https://github.com/svend4/meta`` | 3 |
 | https://github.com/svend4/nautilus | 32 |
 | https://github.com/svend4/nautilus.git | 6 |
@@ -222,24 +222,17 @@
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (10):**
 - [12-content-overview](02-anthropic-vacancies/12-content-overview.md)
 - [31-content-overview](02-anthropic-vacancies/31-content-overview.md)
 - [LINK_PREVIEW](LINK_PREVIEW.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
+- _...ещё 2_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_links.py
-```
 
 <!-- see-also -->
 
@@ -248,6 +241,13 @@ python scripts/improve_links.py
 **Смотрите также:**
 - [LINK_PREVIEW](LINK_PREVIEW.md)
 - [BROKEN_LINKS](BROKEN_LINKS.md)
-- [AUTHORS](AUTHORS.md)
 - [CITATION_INDEX](CITATION_INDEX.md)
+- [sonia-black](contacts/sonia-black.md)
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_links.py
+```

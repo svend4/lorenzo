@@ -1,7 +1,7 @@
 # synthesis-tables
 
 > [!NOTE]
-> Раздел `README` автоматически формируется из данных репозитория.
+> Раздел `README` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
 <!-- tags: readme, docs -->
@@ -26,9 +26,10 @@
 
 ---
 
-**Кто ссылается на этот документ (5):**
+**Кто ссылается на этот документ (6):**
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 - [01-08-summary](01-08-summary.md)

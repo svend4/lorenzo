@@ -1,6 +1,25 @@
 # Индекс цитирования URL
 
 <!-- toc-auto -->
+## Contents
+
+- [Топ доменов](#топ-доменов)
+- [Наиболее цитируемые URL](#наиболее-цитируемые-url)
+- [Детали топ-10](#детали-топ-10)
+  - [https://github.com/svend4/nautilus/issues](#httpsgithubcomsvend4nautilusissues)
+  - [https://github.com/svend4/nautilus](#httpsgithubcomsvend4nautilus)
+  - [https://github.com/svend4/ingit](#httpsgithubcomsvend4ingit)
+  - [https://github.com/svend4/pro2](#httpsgithubcomsvend4pro2)
+  - [https://habr.com/ru/articles/1006622/](#httpshabrcomruarticles1006622)
+  - [https://habr.com/ru/companies/airi/articles/1000720/](#httpshabrcomrucompaniesairiarticles1000720)
+  - [https://github.com/mcp](#httpsgithubcommcp)
+  - [https://github.com/AnastasiyaW/knowledge-space](#httpsgithubcomanastasiyawknowledge-space)
+  - [https://github.com/svend4/info1](#httpsgithubcomsvend4info1)
+  - [https://habr.com/ru/articles/1007122/](#httpshabrcomruarticles1007122)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+
 
 > [!NOTE]
 > Раздел `CITATION_INDEX` формируется автоматически из данных репозитория.
@@ -15,7 +34,7 @@
 
 _Обновлено: 2026-05-11_
 
-Уникальных URL: **203** | Отфильтровано (≥1): **203**
+Уникальных URL: **204** | Отфильтровано (≥1): **204**
 
 ## Топ доменов
 
@@ -23,15 +42,15 @@ _Обновлено: 2026-05-11_
 |-------|-----|----------------|
 | `github.com` | 103 | ⭐⭐⭐⭐⭐ |
 | `habr.com` | 54 | ⭐⭐⭐⭐ |
-| `img.shields.io` | 7 | ⭐ |
+| `img.shields.io` | 8 | ⭐ |
 | `` | 6 | ⭐ |
 | `3dnews.ru` | 5 | ⭐ |
 | `claude.ai` | 3 | ⭐ |
 | `api.github.com` | 2 | ⭐⭐⭐⭐⭐ |
 | `forum.obsidian.md` | 2 | ⭐ |
 | `fontanka.ru` | 1 | ⭐ |
-| `discourse.org` | 1 | ⭐ |
 | `eb.hypothes.is` | 1 | ⭐ |
+| `discourse.org` | 1 | ⭐ |
 | `claude.com` | 1 | ⭐ |
 | `fossil-scm.org` | 1 | ⭐ |
 | `support.claude.com` | 1 | ⭐ |
@@ -39,8 +58,8 @@ _Обновлено: 2026-05-11_
 | `install.sh` | 1 | ⭐ |
 | `creativecommons.org` | 1 | ⭐ |
 | `solidproject.org` | 1 | ⭐ |
-| `3.org` | 1 | ⭐ |
 | `activitypub.rocks` | 1 | ⭐ |
+| `3.org` | 1 | ⭐ |
 
 ## Наиболее цитируемые URL
 
@@ -59,40 +78,40 @@ _Обновлено: 2026-05-11_
 | `https://habr.com/ru/companies/airi/articles/855128/` | 14 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/495554/` | 13 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://github.com/svend4/meta` | 10 | ⭐⭐⭐⭐⭐ | `github.com` |
+| `https://habr.com/ru/articles/1017200/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/companies/yandex/articles/1019928/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/companies/yoomoney/articles/1012870/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1027210/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/983684/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1017200/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/companies/yoomoney/articles/1012870/` | 12 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1016096/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1027724/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1019588/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1023446/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1010198/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1024884/comments/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/893356/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1009608/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1020860/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1027382/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/893356/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/943498/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1020860/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1019588/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1009608/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1027724/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1010198/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1016096/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1024884/comments/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1023446/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1005776/` | 11 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://github.com/svend4/data70` | 8 | ⭐⭐⭐⭐⭐ | `github.com` |
-| `https://habr.com/ru/articles/1020598/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1009958/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/996144/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1024634/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/938626/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1002138/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/975414/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1009538/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1027878/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1010478/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1027658/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/1014366/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1002138/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/companies/teamly/articles/1024062/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1027658/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1027878/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1024634/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1014366/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/companies/surfstudio/articles/943108/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
-| `https://habr.com/ru/articles/955798/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1009958/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/996144/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/938626/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1020598/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://habr.com/ru/articles/1006602/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/955798/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
+| `https://habr.com/ru/articles/1010478/` | 10 | ⭐⭐⭐⭐ | `habr.com` |
 | `https://github.com/kksudo/agentfs` | 8 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/svend4/ingit/issues` | 7 | ⭐⭐⭐⭐⭐ | `github.com` |
 | `https://github.com/anthropics/mcp` | 7 | ⭐⭐⭐⭐⭐ | `github.com` |
