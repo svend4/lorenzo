@@ -7494,3 +7494,14 @@ python scripts/improve_paragraph_quality.py --dry-run
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_paragraph_quality.py
+```
+```bash
+# Вариант 2
+python scripts/improve_paragraph_quality.py --dry-run
+```
