@@ -1,41 +1,6 @@
 # Каталог задач (TASKS_INDEX)
 
-<!-- summary -->
-> Каталог задач из YAML-файлов: пайплайны, зависимости и статусы выполнения.
-
-<!-- toc -->
-## Содержание
-
-- [По MCP-серверу](#по-mcp-серверу)
-  - [lorenzo-contacts (1)](#lorenzo-contacts-1)
-  - [lorenzo-graph (4)](#lorenzo-graph-4)
-  - [lorenzo-runner (5)](#lorenzo-runner-5)
-  - [lorenzo-search (3)](#lorenzo-search-3)
-- [Подробно](#подробно)
-  - [`audit-corpus`](#audit-corpus)
-  - [`compare`](#compare)
-  - [`daily-routine`](#daily-routine)
-  - [`find-contradictions`](#find-contradictions)
-  - [`find-gaps`](#find-gaps)
-  - [`generate-rfc`](#generate-rfc)
-  - [`plan-mvp`](#plan-mvp)
-  - [`search`](#search)
-  - [`summarize`](#summarize)
-  - [`synthesize`](#synthesize)
-  - [`track-decisions`](#track-decisions)
-  - [`weekly-review`](#weekly-review)
-  - [`write-contact`](#write-contact)
-
----
-
-<!-- tags: architecture, roadmap, self-improvement, collaboration -->
-
-> [!TIP]
-> Обзорный документ. Рекомендуется читать перед погружением в детали.
-
-
-
-_Обновлено: 2026-04-29_
+_Обновлено: 2026-05-11_
 
 **Всего задач:** 13
 
@@ -320,11 +285,6 @@ _Обновлено: 2026-04-29_
 **Связанные скилы:** write-contact, propose-collaboration, status
 **Связанные шаблоны:** contact-outreach
 
-## Использование
-
-```bash
-python scripts/improve_semantic_search.py --query "Каталог задач TASKS_INDEX"
-```
 
 <!-- backlinks -->
 

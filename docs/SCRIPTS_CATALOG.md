@@ -1,10 +1,8 @@
 # Каталог скриптов
-<!-- tags: scripts-catalog, docs -->
-
 
 _Обновлено: 2026-05-11_
 
-**Всего скриптов:** 162
+**Всего скриптов:** 165
 
 
 ## По группам
@@ -171,7 +169,7 @@ _Обновлено: 2026-05-11_
 | `improve_similar_passages.py` | поиск похожих абзацев между файлами (TF-IDF cosine). | `--min-sim`, `--min-words`, `--section`, `--top` |
 | `improve_textrank.py` | извлекательное резюме через TextRank (без LLM). | `--apply`, `--query`, `--section`, `--sentences` |
 
-### quality (13)
+### quality (14)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
@@ -184,6 +182,7 @@ _Обновлено: 2026-05-11_
 | `improve_missing.py` | находит темы/проекты упомянутые в документах |  |
 | `improve_orphans.py` | находит документы без входящих ссылок (orphan docs). |  |
 | `improve_readability_v2.py` | индекс читаемости текстов. | `--section` |
+| `improve_sentinel_check.py` | SENTINEL security audit для Svyazi 2.0. | `--section`, `--strict` |
 | `improve_spellcheck.py` | проверка орфографии в docs/. | `--fix`, `--section` |
 | `improve_template_integrity.py` | проверка целостности шаблонов. | `--dry-run`, `--fix`, `--strict` |
 | `improve_validate.py` | валидация структуры репозитория. |  |
@@ -241,10 +240,11 @@ _Обновлено: 2026-05-11_
 | `improve_source_map.py` | строит карту происхождения текстов. | `--authors`, `--format`, `--section`, `--show-imported` |
 | `improve_subtopic_fill.py` | дополняет файлы-заглушки контентом из базы знаний. | `--apply`, `--dry-run`, `--min-words`, `--section` |
 
-### без группы (21)
+### без группы (23)
 
 | Скрипт | Описание | Флаги |
 |--------|----------|-------|
+| `improve_ann_index.py` | ANN-граф на основе hnswlib для ускоренного векторного поиска. | `--benchmark`, `--build`, `--query`, `--stats`, `--top` |
 | `improve_card_index.py` | CLI для управления CardEnvelope-карточками. | `--approve`, `--build`, `--decay`, `--dry-run`, `--export`, `--fmt`, … |
 | `improve_collab_finder.py` | Collaboration Finder для Svyazi 2.0. | `--dry-run`, `--file`, `--out`, `--query`, `--top`, `--type` |
 | `improve_contact_status.py` | обновляет статус контакта в docs/contacts/<slug>.md. | `--agreed`, `--author`, `--list`, `--messaged`, `--note`, `--replied`, … |
@@ -254,6 +254,7 @@ _Обновлено: 2026-05-11_
 | `improve_llm_gaps.py` | семантический поиск пробелов через Claude API. |  |
 | `improve_llm_qa.py` | ответы на вопросы по всей базе знаний Lorenzo через Claude API. | `--batch`, `--clear-cache`, `--dry-run`, `--no-cache`, `--question`, `--save` |
 | `improve_llm_summary.py` | каскадная суммаризация больших документов через Claude API. | `--dry-run`, `--file`, `--section` |
+| `improve_precision_eval.py` | автоматическая оценка Hit Rate@K. | `--json`, `--k`, `--verbose` |
 | `improve_recipe.py` | умная система рецептов: последовательности скриптов под конкретную цель. | `--add`, `--delete`, `--desc`, `--dry-run`, `--find`, `--info`, … |
 | `improve_run_all.py` | мастер-скрипт для запуска всех improve_*.py. | `--changed`, `--dry-run`, `--fast`, `--group`, `--only`, `--parallel`, … |
 | `improve_search_repl.py` | интерактивный поисковый терминал (REPL). | `--index`, `--query` |
@@ -298,6 +299,15 @@ _Обновлено: 2026-05-11_
 **добавляет GitHub Markdown callout-блоки в ключевые файлы.**
 
 Форматы: > [!NOTE], > [!WARNING], > [!TIP], > [!IMPORTANT]. Анализирует содержимое и вставляет подходящий callout в начало файла.
+
+
+### `improve_ann_index.py` _(группа: без группы)_
+
+**ANN-граф на основе hnswlib для ускоренного векторного поиска.**
+
+Строит HNSW-индекс (Hierarchical Navigable Small World) поверх TF-IDF векторов из search_index.json. Замена линейного O(N·D) скана на двухстадийный поиск: Стадия 1: HNSW ANN — O(log N), 0.5мс — быстрый отбор кандидатов Стадия 2: точный TF-IDF только по кандидатам — ещё 2мс Итого:    ~2.5мс вместо ~210мс  → ускорение 80-100×  |  Recall@10 ≥ 0.85
+
+**Флаги:** `--benchmark`, `--build`, `--query`, `--stats`, `--top`
 
 
 ### `improve_audit_db.py` _(группа: meta)_
@@ -1081,6 +1091,15 @@ Stage 3b: map-reduce для документов любого размера. А
 **Флаги:** `--dry-run`, `--install`
 
 
+### `improve_precision_eval.py` _(группа: без группы)_
+
+**автоматическая оценка Hit Rate@K.**
+
+Закрывает метрику из PROTOTYPE_SPEC §8: «Retrieval Hit Rate@10 ≥ 0.70» (≥ 70% запросов находят релевантный документ в топ-10). Методология — pseudo-relevance evaluation без ручной разметки: 1. 20 эталонных запросов с известными релевантными документами. 2. Запуск hybrid_search() с фильтром шумовых документов.
+
+**Флаги:** `--json`, `--k`, `--verbose`
+
+
 ### `improve_priorities.py` _(группа: analysis)_
 
 **ранжирует файлы по важности через TF-IDF.**
@@ -1288,6 +1307,15 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 **тональный анализ документов.**
 
 Оценивает: оптимизм, скептицизм, срочность, неопределённость. Создаёт docs/SENTIMENT.md.
+
+
+### `improve_sentinel_check.py` _(группа: quality)_
+
+**SENTINEL security audit для Svyazi 2.0.**
+
+Проверяет репозиторий на: 1. PII-утечки (email, телефоны, API-ключи в docs/) 2. Небезопасные паттерны в скриптах (shell injection, hardcoded secrets) 3. Лицензионные конфликты (BSL/proprietary vs MIT/Apache в одном ансамбле) 4. Орфанные credentials (файлы .env, *.key, *.pem)
+
+**Флаги:** `--section`, `--strict`
 
 
 ### `improve_similar.py` _(группа: analysis)_
@@ -1567,35 +1595,3 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 
 **Флаги:** `--history`, `--output`, `--parallel`, `--resume`, `--task`
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_scripts_catalog.py
-```
-```bash
-# Вариант 2
-python scripts/improve_scripts_catalog.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_scripts_catalog.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_scripts_catalog.py --dry-run
-```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-- [Решения](DECISIONS.md)
-- [Контакты](CONTACTS.md)
-- [Оценка](SCORING.md)
-- [Теги](TAGS.md)
-- [Задачи](ACTION_ITEMS.md)
-- [Хронология](TIMELINE.md)

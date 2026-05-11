@@ -33,6 +33,19 @@
     "group": "quality"
   },
   {
+    "name": "improve_ann_index.py",
+    "summary": "ANN-граф на основе hnswlib для ускоренного векторного поиска.",
+    "description": "Строит HNSW-индекс (Hierarchical Navigable Small World) поверх TF-IDF векторов из search_index.json. Замена линейного O(N·D) скана на двухстадийный поиск: Стадия 1: HNSW ANN — O(log N), 0.5мс — быстрый отбор кандидатов Стадия 2: точный TF-IDF только по кандидатам — ещё 2мс Итого:    ~2.5мс вместо ~210мс  → ускорение 80-100×  |  Recall@10 ≥ 0.85",
+    "flags": [
+      "--benchmark",
+      "--build",
+      "--query",
+      "--stats",
+      "--top"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_audit_db.py",
     "summary": "SQLite audit log для всех событий системы.",
     "description": "Собирает 4 типа событий из jsonl-файлов в единую SQLite БД: - mcp_calls (.claude/mcp_calls.jsonl) - workflow_runs (.claude/workflow_runs.jsonl) - skill_metrics (.claude/skill_metrics.jsonl) - llm_cache (.claude/llm_cache.jsonl)",
@@ -957,6 +970,17 @@
     "group": "cicd"
   },
   {
+    "name": "improve_precision_eval.py",
+    "summary": "автоматическая оценка Hit Rate@K.",
+    "description": "Закрывает метрику из PROTOTYPE_SPEC §8: «Retrieval Hit Rate@10 ≥ 0.70» (≥ 70% запросов находят релевантный документ в топ-10). Методология — pseudo-relevance evaluation без ручной разметки: 1. 20 эталонных запросов с известными релевантными документами. 2. Запуск hybrid_search() с фильтром шумовых документов.",
+    "flags": [
+      "--json",
+      "--k",
+      "--verbose"
+    ],
+    "group": "без группы"
+  },
+  {
     "name": "improve_priorities.py",
     "summary": "ранжирует файлы по важности через TF-IDF.",
     "description": "Ключевые термины = названия проектов + архитектурные понятия. Создаёт docs/PRIORITIES.md.",
@@ -1207,6 +1231,16 @@
     "description": "Оценивает: оптимизм, скептицизм, срочность, неопределённость. Создаёт docs/SENTIMENT.md.",
     "flags": [],
     "group": "analysis"
+  },
+  {
+    "name": "improve_sentinel_check.py",
+    "summary": "SENTINEL security audit для Svyazi 2.0.",
+    "description": "Проверяет репозиторий на: 1. PII-утечки (email, телефоны, API-ключи в docs/) 2. Небезопасные паттерны в скриптах (shell injection, hardcoded secrets) 3. Лицензионные конфликты (BSL/proprietary vs MIT/Apache в одном ансамбле) 4. Орфанные credentials (файлы .env, *.key, *.pem)",
+    "flags": [
+      "--section",
+      "--strict"
+    ],
+    "group": "quality"
   },
   {
     "name": "improve_similar.py",
