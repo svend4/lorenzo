@@ -139,12 +139,47 @@ def check_skills() -> dict:
     return {"total": len(names), "names": names}
 
 
+def check_prototype() -> dict:
+    """Проверяет готовность прототипа Knowledge OS."""
+    demo    = SCRIPTS / "prototype_demo.py"
+    gateway = SCRIPTS / "gateway.py"
+    prec    = DOCS / "PRECISION_EVAL.md"
+    hit_rate = None
+    if prec.exists():
+        m = re.search(r'Hit Rate@10\s*\|\s*\*\*([\d.]+)\*\*', prec.read_text(encoding="utf-8"))
+        if m:
+            hit_rate = float(m.group(1))
+    return {
+        "demo_exists":    demo.exists(),
+        "gateway_exists": gateway.exists(),
+        "hit_rate":       hit_rate,
+        "ready": demo.exists() and gateway.exists() and hit_rate is not None and hit_rate >= 0.70,
+    }
+
+
+def check_testing() -> dict:
+    """Проверяет наличие тестового покрытия."""
+    tests_dir = ROOT / "tests"
+    prec      = DOCS / "PRECISION_EVAL.md"
+    n_tests   = len(list(tests_dir.glob("test_*.py"))) if tests_dir.exists() else 0
+    hit_pass  = False
+    if prec.exists():
+        hit_pass = "✅ PASS" in prec.read_text(encoding="utf-8")
+    return {
+        "n_test_files": n_tests,
+        "hit_rate_pass": hit_pass,
+        "ready": n_tests >= 5 and hit_pass,
+    }
+
+
 # ---------------------------------------------------------------------------
 # Вычисление статуса milestone
 # ---------------------------------------------------------------------------
 
 def compute_milestones(contacts: dict, enriched: dict, arch: dict,
-                       scripts: dict, digest: dict) -> list[dict]:
+                       scripts: dict, digest: dict,
+                       prototype: dict | None = None,
+                       testing: dict | None = None) -> list[dict]:
     """Возвращает список milestone с реальным статусом."""
     return [
         {
@@ -189,13 +224,21 @@ def compute_milestones(contacts: dict, enriched: dict, arch: dict,
         },
         {
             "title": "Создан рабочий прототип Knowledge OS",
-            "done":  False,
-            "detail": "Следующий этап после контактов",
+            "done":  (prototype or {}).get("ready", False),
+            "detail": (
+                f"gateway.py + prototype_demo.py, Hit Rate@10={prototype['hit_rate']:.3f} ✅"
+                if prototype and prototype.get("ready")
+                else "scripts/gateway.py + prototype_demo.py + Hit Rate@10 ≥ 0.70"
+            ),
         },
         {
             "title": "Пройдено тестирование ансамбля",
-            "done":  False,
-            "detail": "После прототипа",
+            "done":  (testing or {}).get("ready", False),
+            "detail": (
+                f"{testing['n_test_files']} тестовых файлов, Hit Rate@10 PASS ✅"
+                if testing and testing.get("ready")
+                else "tests/ ≥ 5 файлов + Hit Rate@10 PASS"
+            ),
         },
         {
             "title": "Опубликован MVP на GitHub",
@@ -380,6 +423,8 @@ def main():
     scores    = check_quality_scores()
     digest    = check_digest()
     skills    = check_skills()
+    prototype = check_prototype()
+    testing   = check_testing()
 
     print(f"  Контакты:   {contacts['total']} файлов "
           f"(написали: {contacts['messaged']}, ответили: {contacts['replied']})")
@@ -389,7 +434,8 @@ def main():
           f"metrics={scores.get('metrics')}, scoring={scores.get('scoring')}")
     print()
 
-    milestones = compute_milestones(contacts, enriched, arch, scripts, digest)
+    milestones = compute_milestones(contacts, enriched, arch, scripts, digest,
+                                    prototype=prototype, testing=testing)
     done = sum(1 for m in milestones if m["done"])
     print(f"Milestones: {done}/{len(milestones)}")
     for m in milestones:
