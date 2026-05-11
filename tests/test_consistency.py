@@ -61,3 +61,38 @@ def test_find_variants_empty_when_canonical(tmp_path, monkeypatch):
 def test_canonical_maps_term_groups():
     for key in mod.CANONICAL:
         assert key in mod.TERM_VARIANTS or True  # some may be aliases
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_consistency_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CONSISTENCY.md").exists()
+
+
+def test_main_consistency_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nAgentFS and agentfs are both used here.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "CONSISTENCY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CONSISTENCY.md").exists()
+
+
+def test_main_consistency_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CONSISTENCY.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

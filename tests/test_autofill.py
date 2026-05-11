@@ -178,3 +178,32 @@ def test_find_contact_for_project_returns_none_if_missing():
 
 def test_find_contact_for_project_empty_list():
     assert mod.find_contact_for_project("AgentFS", []) is None
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # empty CONTACTS.md / ENTITIES.md → must not raise
+
+
+def test_main_with_contacts_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    (tmp_path / "CONTACTS.md").write_text(
+        "| Автор | Проект | Слой | Файл |\n"
+        "|-------|--------|------|------|\n"
+        "| kksudo | AgentFS | knowledge | docs/agentfs.md |\n",
+        encoding="utf-8"
+    )
+    mod.main()  # must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # must not raise

@@ -144,3 +144,38 @@ def test_extract_decisions_category_is_set(tmp_path, monkeypatch):
     result = mod.extract_decisions(text, f)
     for item in result:
         assert len(item["category"]) > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_decisions_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DECISIONS.md").exists()
+
+
+def test_main_decisions_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nрекомендуется использовать BM25 для поиска данных.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "DECISIONS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DECISIONS.md").exists()
+
+
+def test_main_decisions_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DECISIONS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

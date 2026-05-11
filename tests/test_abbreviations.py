@@ -110,3 +110,38 @@ def test_count_usage_word_boundary():
 def test_count_usage_case_sensitive():
     result = mod.count_usage("api is not the same as API.", "API")
     assert result == 1
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_abbreviations_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ABBREVIATIONS.md").exists()
+
+
+def test_main_abbreviations_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nAPI — интерфейс программирования приложений для систем.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "ABBREVIATIONS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ABBREVIATIONS.md").exists()
+
+
+def test_main_abbreviations_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "ABBREVIATIONS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

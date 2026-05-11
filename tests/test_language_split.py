@@ -90,3 +90,46 @@ def test_split_paragraphs_english_goes_to_en():
 def test_lang_stats_ratios_sum_to_at_most_one():
     result = mod._lang_stats("Mixed текст with some английские words")
     assert result["ru_ratio"] + result["en_ratio"] <= 1.0 + 0.01
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_language_stats_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "SPLIT_MODE", False)
+    mod.main()
+    assert (tmp_path / "LANGUAGE_STATS.md").exists()
+
+
+def test_main_language_stats_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "SPLIT_MODE", False)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nAgentFS is a great knowledge system.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "LANGUAGE_STATS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "SPLIT_MODE", False)
+    mod.main()
+    assert (tmp_path / "LANGUAGE_STATS.md").exists()
+
+
+def test_main_language_stats_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "SPLIT_MODE", False)
+    mod.main()
+    text = (tmp_path / "LANGUAGE_STATS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

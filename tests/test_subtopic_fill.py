@@ -82,3 +82,36 @@ def test_extract_best_paragraph_finds_relevant():
     query_words = {"agent", "memory", "system"}
     result = mod._extract_best_paragraph(text, query_words)
     assert len(result) > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # no stubs → returns early, must not raise
+
+
+def test_main_with_stub_file_dry_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    (tmp_path / "stub.md").write_text("# Short stub\n\nBrief.", encoding="utf-8")
+    (tmp_path / "full.md").write_text(
+        "# Full Doc\n\n" + "Content about agent memory systems. " * 50, encoding="utf-8"
+    )
+    mod.main()  # must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # must not raise

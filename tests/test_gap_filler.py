@@ -135,3 +135,36 @@ def test_min_content_is_int():
     assert hasattr(mod, "MIN_CONTENT")
     assert isinstance(mod.MIN_CONTENT, int)
     assert mod.MIN_CONTENT > 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # dry-run → no output file, must not raise
+
+
+def test_main_dry_run_with_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n## Empty Section\n\n## Another Empty Section\n",
+        encoding="utf-8"
+    )
+    mod.main()  # must not raise
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # must not raise

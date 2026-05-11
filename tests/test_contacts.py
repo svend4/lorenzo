@@ -104,3 +104,38 @@ def test_find_author_mentions_multiple():
     )
     assert "kksudo" in result
     assert "VitalyOborin" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_contacts_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CONTACTS.md").exists()
+
+
+def test_main_contacts_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# AgentFS\n\nkksudo: https://github.com/kksudo/agentfs", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "CONTACTS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CONTACTS.md").exists()
+
+
+def test_main_contacts_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CONTACTS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

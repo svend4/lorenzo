@@ -142,3 +142,38 @@ def test_build_counts_empty_texts():
     assert result == []
 
 
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_entities_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ENTITIES.md").exists()
+
+
+def test_main_entities_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nAgentFS is used here.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "ENTITIES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ENTITIES.md").exists()
+
+
+def test_main_entities_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "ENTITIES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
+
+

@@ -148,3 +148,50 @@ def test_check_links_http_links_skipped(tmp_path, monkeypatch):
     source.write_text("See [External](https://example.com) here.", encoding="utf-8")
     broken, ok = mod.check_links(source, {})
     assert broken == []
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_broken_links_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION", "")
+    monkeypatch.setattr(mod, "FIX", False)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    mod.main()
+    assert (tmp_path / "BROKEN_LINKS.md").exists()
+
+
+def test_main_broken_links_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION", "")
+    monkeypatch.setattr(mod, "FIX", False)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\nSee [internal](other.md) here.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "BROKEN_LINKS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION", "")
+    monkeypatch.setattr(mod, "FIX", False)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    mod.main()
+    assert (tmp_path / "BROKEN_LINKS.md").exists()
+
+
+def test_main_broken_links_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION", "")
+    monkeypatch.setattr(mod, "FIX", False)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    mod.main()
+    text = (tmp_path / "BROKEN_LINKS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

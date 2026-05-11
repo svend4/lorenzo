@@ -102,3 +102,53 @@ def test_passive_en_pattern_matches():
 def test_cliche_pattern_matches():
     text = "В рамках данного проекта выполняется анализ."
     assert mod.CLICHE_RU.search(text) is not None
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+_PASSIVE_DOC = """\
+# Title
+
+Система используется для обработки данных агента в режиме реального времени.
+Данные реализованы в виде графа знаний системы агентов и документов.
+Компоненты разрабатываются командой в рамках данного проекта системы.
+Функция выполняется автоматически при поступлении запроса к системе.
+Результаты передаются в базу данных для хранения архивных записей.
+Модуль применяется для анализа текстовых документов базы знаний агентов.
+"""
+
+
+def _pv_setup(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "VERBOSE", False)
+    (tmp_path / "doc.md").write_text(_PASSIVE_DOC, encoding="utf-8")
+
+
+def test_main_creates_passive_voice_md(tmp_path, monkeypatch):
+    _pv_setup(tmp_path, monkeypatch)
+    mod.main()
+    assert (tmp_path / "PASSIVE_VOICE.md").exists()
+
+
+def test_main_passive_voice_has_content(tmp_path, monkeypatch):
+    _pv_setup(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "PASSIVE_VOICE.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "VERBOSE", False)
+    mod.main()  # no files → returns early, must not raise
+
+
+def test_main_passive_voice_starts_with_heading(tmp_path, monkeypatch):
+    _pv_setup(tmp_path, monkeypatch)
+    mod.main()
+    text = (tmp_path / "PASSIVE_VOICE.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
