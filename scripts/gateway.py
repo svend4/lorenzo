@@ -469,6 +469,11 @@ class CardRequest(BaseModel):
     section: str       = "04-ai-collaborations"
     tags:    list[str] = []
 
+
+class CollabRequest(BaseModel):
+    query: str
+    top_k: int = 5
+
 # ── Вспомогательные функции ─────────────────────────────────────────────────
 
 def _extract_user_text(messages: list[Message]) -> str:
@@ -673,6 +678,23 @@ async def ask(req: AskRequest):
         "search_mode": search_mode,
         "ann_available": _ANN_AVAILABLE,
         "latency_s":   round(time.time() - t0, 3),
+    }
+
+
+@app.post("/api/collabs")
+async def collabs_endpoint(req: CollabRequest):
+    """Поиск кандидатов коллаборации по запросу.
+
+    Возвращает отсортированный список проектов из docs/05-habr-projects/
+    с Jaccard-similarity score, автором и наличием письма.
+    """
+    t0      = time.time()
+    results = find_collabs(req.query, req.top_k)
+    return {
+        "query":     req.query,
+        "results":   results,
+        "count":     len(results),
+        "latency_s": round(time.time() - t0, 3),
     }
 
 
