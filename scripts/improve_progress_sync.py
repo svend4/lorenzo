@@ -356,6 +356,8 @@ def build_progress_md(
         "- [Health Dashboard](HEALTH.md)",
         "- [MVP Planning](01-svyazi/07-mvp-planning.md)",
         "",
+        "<!-- auto-end -->",
+        "",
     ]
 
     return "\n".join(lines)
@@ -404,7 +406,19 @@ def main():
         print("...")
         return
 
-    PROGRESS_PATH.write_text(new_content, encoding="utf-8")
+    # Сохраняем ручные секции после маркера <!-- auto-end -->
+    manual_suffix = ""
+    if PROGRESS_PATH.exists():
+        existing = PROGRESS_PATH.read_text(encoding="utf-8")
+        marker = "<!-- auto-end -->"
+        if marker in existing:
+            manual_suffix = existing.split(marker, 1)[1]
+
+    final_content = new_content
+    if manual_suffix.strip():
+        final_content = new_content.rstrip() + "\n" + manual_suffix
+
+    PROGRESS_PATH.write_text(final_content, encoding="utf-8")
     print(f"✅ {PROGRESS_PATH.relative_to(ROOT)} обновлён")
     print(f"   Следующий шаг: {next((m['title'] for m in milestones if not m['done']), 'Всё готово!')}")
 

@@ -1,21 +1,6 @@
 # Хронологическая лента событий
 
 <!-- toc-auto -->
-## Contents
-
-- [2020 (8 упоминаний)](#2020-8-упоминаний)
-- [2021 (4 упоминаний)](#2021-4-упоминаний)
-- [2022 (14 упоминаний)](#2022-14-упоминаний)
-- [2023 (12 упоминаний)](#2023-12-упоминаний)
-- [2024 (43 упоминаний)](#2024-43-упоминаний)
-- [2025 (39 упоминаний)](#2025-39-упоминаний)
-- [2026 (443 упоминаний)](#2026-443-упоминаний)
-- [2027 (2 упоминаний)](#2027-2-упоминаний)
-- [2028 (2 упоминаний)](#2028-2-упоминаний)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
-
 
 > [!NOTE]
 > Раздел `TIMELINE` формируется автоматически из данных репозитория.
@@ -30,10 +15,10 @@
 
 _Обновлено: 2026-05-11_
 
-Период: **2020–2030** | Событий: **567**
+Период: **2020–2030** | Событий: **593**
 
 
-## 2020 (8 упоминаний)
+## 2020 (7 упоминаний)
 
 - 🔔 **2020-01-01** · _Pipeline_  
   ClickHouse stores for analytics Schema CREATE TABLE decisions ( aktenzeichen String, court String, decisiondate Date, pa  
@@ -46,10 +31,6 @@ _Обновлено: 2026-05-11_
 - 🔔 **2020** · _209. 📝 Изменённые файлы (1460)_  
   Детальные метрики +249 docs/QUESTIONS.md -25578 Mvp/сроки (56), Архитектура (59), Запуск +8 00-abstract.md (1), 00-conte  
   `TABLES.md`
-
-- 🔔 **2020** · _📝 Изменённые файлы (1460)_  
-  Детальные метрики +249 docs/QUESTIONS.md -25578 Mvp/сроки (56), Архитектура (59), Запуск +8 00-abstract.md (1), 00-conte  
-  `VERSION_DIFF.md`
 
 - 📌 **2020** · _Multi-Agent Systems_  
   (2020).  
@@ -68,7 +49,7 @@ _Обновлено: 2026-05-11_
   `10-references.md`
 
 
-## 2021 (4 упоминаний)
+## 2021 (3 упоминаний)
 
 - 🔔 **2021** · _Ответ по существу_  
   Плюсы и минусы как бизнес Плюсы : - Огромный underserved рынок — нет прямых конкурентов, пустое пространство - Естествен  
@@ -78,16 +59,12 @@ _Обновлено: 2026-05-11_
   🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8) +25 docs/nautilus/double-triangle-architecture/11-glossary.md +30 Использован  
   `TABLES.md`
 
-- 🔔 **2021** · _📝 Изменённые файлы (1460)_  
-  🔢 Числовое — 8.0 vs 4.0 (уверенность: 0.8) +25 docs/REGISTRY.md -30 — Содержание docs/nautilus/double-triangle-architect  
-  `VERSION_DIFF.md`
-
 - 🔔 **2021** · _Содержание_  
   Минусы: 5-7 лет до устойчивой монетизации (это не 18-месячный стартап) $10-50M минимум capital requirements для нормальн  
   `05-minuses-as-business.md`
 
 
-## 2022 (14 упоминаний)
+## 2022 (15 упоминаний)
 
 - 📌 **2022** · _1.3. The Rising Urgency_  
   When Copilot produced autocomplete in 2022, misalignment with team context was minor.  
@@ -112,6 +89,10 @@ _Обновлено: 2026-05-11_
 - 📌 **2022** · _Contents_  
   Тема 01-svyazi 02-vacancies 03-tech 04-collab 05-habr root Итого -------------------------------------------------------  
   `DENSITY.md`
+
+- 📌 **2022** · _`REPORT.md` (6)_  
+  Открытые вопросы - ...ещё 1 TIMELINE.md (6) - - 📌 2022 · Why This Hasn't Been Built 2022 (14 упоминаний) - - 📌 2022 · По  
+  `QUESTIONS.md`
 
 - 📌 **2022** · _472. П_  
   Прецеденты Файл: docs/obsidian/templates/legal-case.md 4 колонок, 1 строк Решение Суд Дата Релевантность ---------------  
@@ -146,7 +127,7 @@ _Обновлено: 2026-05-11_
   `legal-case.md`
 
 
-## 2023 (12 упоминаний)
+## 2023 (14 упоминаний)
 
 - 📌 **2023** · _1.1. The Current Landscape_  
   This paradigm has rapidly matured over 2023–2026 and is now mainstream.  
@@ -176,6 +157,14 @@ _Обновлено: 2026-05-11_
   Узлов: 20 Связей: 190 Топ-20 ко-упоминаемых пар Пара Общих файлов ------------------- Cowork ↔ ingit 325 Svyazi ↔ Lorenz  
   `NETWORK.md`
 
+- 📌 **2023** · _`TIMELINE.md` (6)_  
+  2023 (12 упоминаний) - ...ещё 1 05-polymath-project-tao-comparison.md (6) - Вверху цитата того чтобы написали интересно   
+  `QUESTIONS.md`
+
+- 📌 **2023** · _`08-current-session-poc.md` (3)_  
+  Содержание 01-response.md (3) - Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavior» — 25   
+  `QUESTIONS.md`
+
 - 📌 **2023** · _Содержание_  
   На Generative agents в Stanford research Помните 2023 Stanford «Generative Agents: Interactive Simulacra of Human Behavi  
   `01-response.md`
@@ -197,7 +186,7 @@ _Обновлено: 2026-05-11_
   `01-three-related-themes.md`
 
 
-## 2024 (43 упоминаний)
+## 2024 (45 упоминаний)
 
 - 🔔 **2024-01-01** · _Конфигурация: см. R_  
   README-MCP.md python FORMATTYPESHUMANITIES = Законодательные "lawsection", статья закона (§ 90 SGB XII) "lawparagraph",   
@@ -230,6 +219,10 @@ _Обновлено: 2026-05-11_
 - 🔔 **2024** · _Стоимость (964)_  
   Grant 159-5-economic-model ...ещё 944 Размер (90) Значение Контекст Источник ----------------------------- 80 y‑слое: Au  
   `KPI.md`
+
+- 🔔 **2024** · _`01-otkrytie-cowork.md` (3)_  
+  Открытие Cowork и почему это меняет всё - Открытие Cowork и почему это меняет всё 1. 02-mcp-claude-desktop-use-cases.md   
+  `QUESTIONS.md`
 
 - 🔔 **2024** · _Contents_  
   Дорожная карта с вехами и задачами по кварталам. Ключевые вехи Срок Веха Статус -------------------- 2024-Q4 ✅ Исследова  
@@ -275,14 +268,10 @@ _Обновлено: 2026-05-11_
   Это похоже на tree-structured routing (как в Mixture-of-Depths от Google DeepMind 2024, или Switch Transformer от Google  
   `01-интегральный-анализ-профиля-svend4.md`
 
-- 📌 **2024** · _Где это стоит среди существующих систем_  
-  Model Context Protocol (MCP) Anthropic, 2024 — протокол для интеграции LLM с external tools.  
-  `01-интегральный-анализ-профиля-svend4.md`
-
-_...ещё 23 упоминаний в 2024_
+_...ещё 25 упоминаний в 2024_
 
 
-## 2025 (39 упоминаний)
+## 2025 (44 упоминаний)
 
 - 🔔 **2025** · _Пришлите страницу 3_  
   svend4 1 follower · 0 following Achievements Achievement: Quickdraw Achievement: Pair Extraordinaire Achievement: Pull S  
@@ -307,6 +296,14 @@ _...ещё 23 упоминаний в 2024_
 - 🔔 **2025** · _S_  
   written response к specific question?» → 357-твоя-коммуникация-в-outreach(02-anthropic-vacancies/357-твоя-коммуникация-в  
   `CONCEPTS.md`
+
+- 🔔 **2025** · _`TABLES.md` (22)_  
+  Скрипты по группам - 2025-Q3 ⬜ Прототип ансамбля (Svyazi + CardIndex) ⬜ Планируется 226.  
+  `QUESTIONS.md`
+
+- 🔔 **2025** · _`TABLES.md` (22)_  
+  Скрипты по группам - ...ещё 17 SCHEDULE.md (7) - 2025-Q1 ⬜ Написать авторам AgentFS, Yodoca, NGT ⬜ Планируется Ключевые   
+  `QUESTIONS.md`
 
 - 🔔 **2025** · _11. 3.3. D_  
   Deployment Trajectory Файл: docs/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md 2 колонок, 3 строк Date Sta  
@@ -356,18 +353,10 @@ _...ещё 23 упоминаний в 2024_
   Андрей независимо реализовал то, о чём в феврале 2025 публикуют academic papers.  
   `01-response.md`
 
-- 📌 **2025-05** · _Содержание_  
-  Категория 4: Personal LLM team building (статья Mandelbro в Medium, май 2025) Что делает: автор описывает, как он «нанял  
-  `01-response.md`
-
-- 📌 **2025** · _Кластер 3: AI / Agents / Novel architectures (≈13 репо)_  
-  prima.cpp — новый проект для распределённого inference на heterogeneous домашних устройствах, ко-написанный весной 2025.  
-  `00-intro.md`
-
-_...ещё 19 упоминаний в 2025_
+_...ещё 24 упоминаний в 2025_
 
 
-## 2026 (443 упоминаний)
+## 2026 (460 упоминаний)
 
 - 🔔 **2026-01** · _History_  
   дата первого коммита Ключевые этапы: - Формирование Q6-концептуальной базы - Embedded-версия Nautilus Portal в подпапке   
@@ -441,15 +430,15 @@ _...ещё 19 упоминаний в 2025_
   Linux Foundation в апреле 2026 года объявила, что A2A стал production‑ready open standard с более чем 150 организациями   
   `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md`
 
-- 🔔 **2026-04-01** · _Changelog (авто)_  
-  Содержание - Статистика коммитов(статистика-коммитов) - История изменений(история-изменений) - 2026-04(2026-04) --- Сген  
-  `CHANGELOG_AUTO.md`
-
 - 🔔 **2026-04** · _14. 3.3. Т_  
   Траектория развёртывания Файл: docs/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md 2 колонок, 3 строк Дата Ста  
   `TABLES.md`
 
-_...ещё 423 упоминаний в 2026_
+- 🔔 **2026-04** · _17. 3.3. Т_  
+  Траектория развёртывания Файл: docs/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md 2 колонок, 3 строк Дата  
+  `TABLES.md`
+
+_...ещё 440 упоминаний в 2026_
 
 
 ## 2027 (2 упоминаний)
@@ -463,11 +452,15 @@ _...ещё 423 упоминаний в 2026_
   `03-revised-anthropic-mapping.md`
 
 
-## 2028 (2 упоминаний)
+## 2028 (3 упоминаний)
 
 - 📌 **2028** · _Применение к Synthesis A: Professional Community Matching_  
   Building в 2028 risks being late to wave.  
   `342-что-такое-вариант-c-concept-document-для-anthropic.md`
+
+- 📌 **2028** · _Тема 1: turn, cowork, view (2043 документов)_  
+  и ещё 2028 документов Тема 2: концептов, раздела, memory (141 документов) Ключевые слова: концептов, граф, раздела, поис  
+  `TOPIC_MODEL.md`
 
 - 📌 **2028** · _Contents_  
   Building в 2028 risks being late to wave.  

@@ -1,19 +1,6 @@
 # Прогресс MVP
 
 <!-- toc-auto -->
-## Contents
-
-- [Ключевые этапы (Milestones)](#ключевые-этапы-milestones)
-- [Состояние компонентов](#состояние-компонентов)
-- [Метрики качества](#метрики-качества)
-- [Следующий шаг](#следующий-шаг)
-- [Открытые письма авторам](#открытые-письма-авторам)
-- [Что было сделано (журнал сессий)](#что-было-сделано-журнал-сессий)
-  - [Сессия 2026-05-11 — Стабилизация + Письма](#сессия-2026-05-11-стабилизация-письма)
-- [Текущая стадия — Итерация 2 Consolidation (55%)](#текущая-стадия-итерация-2-consolidation-55)
-- [Связанные документы](#связанные-документы)
-
-
 
 > [!NOTE]
 > Раздел `PROGRESS` формируется автоматически из данных репозитория.
@@ -30,14 +17,14 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`██████████░░░░░░░░░░ 55%` 6/11
+`█████████░░░░░░░░░░░ 45%` 5/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
 ✅ Выявлены 5 ансамблей
 ✅ Описаны интеграционные контракты
 ✅ Составлены контакты авторов
-🔄 Написаны авторам ключевых компонентов (письма готовы, ожидают отправки)
+⬜ Написаны авторам ключевых компонентов
 ⬜ Получены ответы от авторов
 ⬜ LLM-обогащение проектных файлов
 ⬜ Создан рабочий прототип Knowledge OS
@@ -50,7 +37,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 |-----------|--------|--------|
 | Контакты авторов | ⚠️ 16 файлов, не отправлено | 16 файлов в docs/contacts/ |
 | LLM-обогащение | ⬜ не запущено | pip install anthropic && python scripts/improve_llm_enrich.py |
-| Скрипты обработки | ✅ 163 скриптов | 5 LLM-скриптов, MCP=✅ |
+| Скрипты обработки | ✅ 164 скриптов | 5 LLM-скриптов, MCP=✅ |
 | DIGEST.md | ✅ 7 секций | python scripts/improve_llm_summary.py |
 | Claude Skills | ✅ 28 скиллов | track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine |
 
@@ -80,6 +67,16 @@ cat docs/contacts/spbmolot.md
 # Приоритет 3: AnastasiyaW (knowledge-space, 11 упоминаний)
 cat docs/contacts/anastasiyaw.md
 ```
+
+## Связанные документы
+
+- [Контакты авторов](CONTACTS.md)
+- [Go/No-Go Scoring](SCORING.md)
+- [Health Dashboard](HEALTH.md)
+- [MVP Planning](01-svyazi/07-mvp-planning.md)
+
+<!-- auto-end -->
+
 
 ## Открытые письма авторам
 
@@ -112,6 +109,19 @@ cat docs/contacts/anastasiyaw.md
 
 **Результат:** 100.0/100 по 1221 файлу, 0 сломанных ссылок, 0 orphans.
 
+### Сессия 2026-05-11 — SENTINEL + Контакты + Защита PROGRESS.md
+
+**Инфраструктура:**
+- `improve_sentinel_check.py` — SENTINEL security audit: PII, unsafe code, credentials,
+  HTTP-ссылки, лицензионные риски. Итог: 0 критических проблем. Добавлен в группу `quality`.
+- `improve_progress_sync.py` — добавлена защита ручных секций через маркер `<!-- auto-end -->`.
+  Теперь скрипт сохраняет журнал и текущую стадию при каждом запуске.
+- `improve_recipe.py` — исправлен `__import__('datetime')` → корректный import.
+
+**Контакты:**
+- 8 авторов отмечены как `studied` (письмо готово).
+- PROTOTYPE_SPEC: SENTINEL-check ✅ (Итерация 2: 4/5 задач).
+
 ## Текущая стадия — Итерация 2 Consolidation (55%)
 
 | Подзадача | Статус |
@@ -125,8 +135,9 @@ cat docs/contacts/anastasiyaw.md
 | Yodoca decay_event API | ⬜ Ожидает ответа автора |
 
 **Следующий приоритет:**
-1. Отправить письма → kksudo → spbmolot → AnastasiyaW
-2. SENTINEL-check (реализуем сами как security-audit скрипт)
+1. Отправить письма → kksudo → spbmolot → AnastasiyaW → VitalyOborin → nlaik
+2. LLM-обогащение проектных файлов (`ANTHROPIC_API_KEY`)
+3. Рабочий прототип Knowledge OS (Итерация → Итерация 3)
 
 ## Связанные документы
 
