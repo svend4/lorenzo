@@ -85,3 +85,14 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 - [[BROKEN_LINKS]] — состояние внутренних ссылок
 - [[VALIDATION]] — валидация структуры
 - [[SCORING]] — готовность к запуску (Go/No-Go)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

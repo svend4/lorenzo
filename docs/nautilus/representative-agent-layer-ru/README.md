@@ -1,10 +1,4 @@
 # representative-agent-layer-ru
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
@@ -16,10 +10,10 @@
 - [03-chto-delaet-predstavitelskim.md](03-chto-delaet-predstavitelskim.md) — > [!TIP]
 - [04-desyat-oblastey.md](04-desyat-oblastey.md) — > [!WARNING]
 - [05-arkhitekturnaya-spetsifikatsiya.md](05-arkhitekturnaya-spetsifikatsiya.md) — > [!NOTE]
-- [06-eticheskaya-ramka.md](06-eticheskaya-ramka.md) — <!-- toc -->
+- [06-eticheskaya-ramka.md](06-eticheskaya-ramka.md) — <!-- toc-auto -->
 - [07-upravlenie-nadzor.md](07-upravlenie-nadzor.md) — <!-- toc-auto -->
 - [08-riski-mery.md](08-riski-mery.md) — > [!WARNING]
-- [09-strategiya-razvyortyvaniya.md](09-strategiya-razvyortyvaniya.md) — <!-- toc -->
+- [09-strategiya-razvyortyvaniya.md](09-strategiya-razvyortyvaniya.md) — <!-- toc-auto -->
 - [10-otkrytye-voprosy.md](10-otkrytye-voprosy.md) — <!-- toc-auto -->
 - [11-prizyv-k-sotrudnichestvu.md](11-prizyv-k-sotrudnichestvu.md) — <!-- toc-auto -->
 - [12-zaklyuchenie.md](12-zaklyuchenie.md) — > [!TIP]
@@ -39,10 +33,3 @@
 - [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
 - _...ещё 7_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

@@ -1,16 +1,5 @@
 # hermes-comparison
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 14
 
 ## Содержание
@@ -28,7 +17,7 @@
 - [10-difference-5-tool-vs-mission-drift.md](10-difference-5-tool-vs-mission-drift.md) — <!-- toc-auto -->
 - [11-pluses-of-hermes.md](11-pluses-of-hermes.md) — <!-- toc-auto -->
 - [12-minuses-of-hermes.md](12-minuses-of-hermes.md) — <!-- toc-auto -->
-- [13-reprioritization.md](13-reprioritization.md) — <!-- toc -->
+- [13-reprioritization.md](13-reprioritization.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -45,10 +34,3 @@
 - [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
 - _...ещё 5_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

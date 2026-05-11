@@ -1,5 +1,21 @@
 # Тематическое моделирование (TF-IDF)
 
+<!-- toc -->
+## Содержание
+
+- [Тема 1: turn, cowork, view (2043 документов)](#тема-1-turn-cowork-view-2043-документов)
+- [Тема 2: концептов, раздела, memory (141 документов)](#тема-2-концептов-раздела-memory-141-документов)
+- [Тема 4: acknowledgments, principal, type (128 документов)](#тема-4-acknowledgments-principal-type-128-документов)
+- [Тема 6: informative, normative, portals (50 документов)](#тема-6-informative-normative-portals-50-документов)
+- [Тема 3: phase, option, months (44 документов)](#тема-3-phase-option-months-44-документов)
+- [Тема 5: question, response, transitions (43 документов)](#тема-5-question-response-transitions-43-документов)
+- [Топ уникальных слов по темам](#топ-уникальных-слов-по-темам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -176,3 +192,15 @@ python scripts/improve_topic_model.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

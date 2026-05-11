@@ -1,10 +1,4 @@
 # architecture
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 7
 
@@ -33,13 +27,3 @@
 - [gaps](gaps.md)
 - _...ещё 4_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «architecture». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

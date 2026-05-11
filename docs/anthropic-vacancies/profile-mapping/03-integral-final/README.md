@@ -1,25 +1,14 @@
 # 03-integral-final
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 5
 
 ## Содержание
 
 - [01-three-archetypes.md](01-three-archetypes.md) — <!-- toc-auto -->
-- [02-final-ranking.md](02-final-ranking.md) — <!-- toc -->
+- [02-final-ranking.md](02-final-ranking.md) — <!-- toc-auto -->
 - [03-partial-fit-honesty.md](03-partial-fit-honesty.md) — <!-- toc-auto -->
-- [04-stronger-paths-outside-anthropic.md](04-stronger-paths-outside-anthropic.md) — <!-- toc -->
-- [05-platform-not-position.md](05-platform-not-position.md) — <!-- toc -->
+- [04-stronger-paths-outside-anthropic.md](04-stronger-paths-outside-anthropic.md) — <!-- toc-auto -->
+- [05-platform-not-position.md](05-platform-not-position.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -36,13 +25,3 @@
 - [03-partial-fit-honesty](03-partial-fit-honesty.md)
 - _...ещё 1_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «03-integral-final». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

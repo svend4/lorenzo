@@ -1,5 +1,20 @@
 # Именованные сущности
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Люди и авторы (7)](#люди-и-авторы-7)
+- [Проекты (22)](#проекты-22)
+- [Организации (9)](#организации-9)
+- [Технологии и стандарты (24)](#технологии-и-стандарты-24)
+- [GitHub репозитории (15)](#github-репозитории-15)
+- [Ко-встречаемость проектов (топ пары)](#ко-встречаемость-проектов-топ-пары)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -171,3 +186,19 @@
 # Запуск
 python scripts/improve_entities.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (42):**
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- _...ещё 34_
+

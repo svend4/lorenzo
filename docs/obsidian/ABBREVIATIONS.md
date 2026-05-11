@@ -9,6 +9,16 @@ date: 2026-05-11
 
 # Словарь аббревиатур и сокращений
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Самые часто используемые](#самые-часто-используемые)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -194,3 +204,14 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_abbreviations.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

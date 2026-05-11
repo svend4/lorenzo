@@ -1,16 +1,5 @@
 # phased-deployment
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 9
 
 ## Содержание
@@ -23,7 +12,7 @@
 - [05-level-4-extended-mature.md](05-level-4-extended-mature.md) — <!-- toc-auto -->
 - [06-level-5-full-network.md](06-level-5-full-network.md) — <!-- toc-auto -->
 - [07-progression-logic.md](07-progression-logic.md) — <!-- toc-auto -->
-- [08-current-session-poc.md](08-current-session-poc.md) — <!-- toc -->
+- [08-current-session-poc.md](08-current-session-poc.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -40,13 +29,3 @@
 - [08-current-session-poc](08-current-session-poc.md)
 - _...ещё 1_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «phased-deployment». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

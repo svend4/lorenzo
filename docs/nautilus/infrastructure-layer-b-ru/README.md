@@ -1,21 +1,15 @@
 # infrastructure-layer-b-ru
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
 ## Содержание
 
-- [00-intro.md](00-intro.md) — <!-- toc -->
+- [00-intro.md](00-intro.md) — <!-- toc-auto -->
 - [01-zachem-dokument.md](01-zachem-dokument.md) — <!-- toc-auto -->
 - [02-dvukhsloynyy-stek.md](02-dvukhsloynyy-stek.md) — <!-- toc-auto -->
 - [03-otsutstvuet-sloy-b.md](03-otsutstvuet-sloy-b.md) — <!-- toc-auto -->
 - [04-pochemu-ne-postroeno.md](04-pochemu-ne-postroeno.md) — <!-- toc-auto -->
-- [05-priblizheniya.md](05-priblizheniya.md) — <!-- toc -->
+- [05-priblizheniya.md](05-priblizheniya.md) — <!-- toc-auto -->
 - [06-konkretnyy-sluchay.md](06-konkretnyy-sluchay.md) — > [!WARNING]
 - [07-rekursivnoe-prozrenie.md](07-rekursivnoe-prozrenie.md) — <!-- toc-auto -->
 - [08-promyshlennost-postroit.md](08-promyshlennost-postroit.md) — <!-- toc-auto -->
@@ -39,10 +33,3 @@
 - [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
 - _...ещё 7_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

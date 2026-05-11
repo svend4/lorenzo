@@ -75,3 +75,13 @@ _Связанный контакт: [contacts/antipozitive.md](../contacts/antip
 # Запуск
 python scripts/improve_antipozitive.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

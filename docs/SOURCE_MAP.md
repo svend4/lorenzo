@@ -1,5 +1,20 @@
 # Карта происхождения текстов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Категории](#категории)
+- [Авторы](#авторы)
+- [🤖 Авто-импортированные файлы (1722)](#авто-импортированные-файлы-1722)
+- [🔗 Файлы с внешними ссылками (198)](#файлы-с-внешними-ссылками-198)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -1846,3 +1861,18 @@ python scripts/improve_source_map.py --dry-run
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [307-abstract](02-anthropic-vacancies/307-abstract.md)
+- [CLUSTERS](CLUSTERS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

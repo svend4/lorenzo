@@ -6,105 +6,53 @@
 h1. Дайджест изменений
 
 
-h2. Contents
+{quote}> feat: автоматизация всех критериев benchmark в prototype_demo.py{quote}
+_Проекты:_ SENTINEL
 
-* [Последний коммит|#последний-коммит]
-* [Последние 3 коммита — итого|#последние-3-коммита-итого]
-* [История коммитов (последние 15)|#история-коммитов-последние-15]
-* [Текущее состояние репозитория|#текущее-состояние-репозитория]
-* [Использование|#использование]
-* [Смотрите также|#смотрите-также]
-
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{DIGEST}} формируется автоматически из данных репозитория.{quote}
+----
 
 
 
-
-
-
-{quote}{{DIGEST}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Обновлено: 2026-05-11_
 
 h2. Последний коммит
 
-_2026-05-11_ — {{81af4bf5}}
-{quote}feat: add improve_quality_patch.py to prevent score regression after pipeline runs{quote}
+_2026-05-11_ — {{e77ffcb8}}
+{quote}feat: автоматизация всех критериев benchmark в prototype_demo.py{quote}
 
-Изменено файлов: _100_ (+6778 / -6775 строк)
+Изменено файлов: _5_ (+479 / -415 строк)
 
 h2. Последние 3 коммита — итого
 
-* Изменено файлов: _259_
-* Добавлено строк: _+33399_
-* Удалено строк: _-29151_
+* Изменено файлов: _1582_
+* Добавлено строк: _+436507_
+* Удалено строк: _-180847_
 * Новых md-файлов: _0_
 
 h2. История коммитов (последние 15)
 
 || Дата || Hash || Описание ||
-|| 2026-05-11 || `81af4bf5` || feat: add improve_quality_patch.py to prevent score regression after p ||
-|| 2026-05-11 || `728700c0` || fix: restore 100.0/100 and 0 broken links after second pipeline run ||
-|| 2026-05-11 || `c02dda87` || fix: restore 100.0/100 quality score and 0 broken links after pipeline ||
-|| 2026-05-10 || `447e84d3` || fix: restore 100.0/100 quality score and 0 broken links after pipeline ||
-|| 2026-05-10 || `cf9ebcce` || feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link ||
-|| 2026-05-10 || `82d3705e` || feat: improve doc quality score from 84.6 → 86.5/100 ||
-|| 2026-05-10 || `a469b340` || fix: remove 61 broken internal links (dangling #contents anchors + SEA ||
-|| 2026-05-10 || `88511476` || feat: quality metrics 83.5→84.6/100, fix duplicate TOCs, add 680 callo ||
-|| 2026-05-10 || `043b81e0` || feat: quality metrics 82.3→83.5/100, callout coverage 35%→95% ||
-|| 2026-05-10 || `bd8d60bd` || feat: quality metrics 76.7→82.3/100, add callouts/TOCs/H1s/summaries ||
-|| 2026-05-10 || `858494ca` || feat: improve quality metrics 73.2→76.7, fix has_toc detection ||
-|| 2026-05-10 || `7eb5fa87` || fix: eliminate last 5 broken links, add 300+ TOCs and quality enrichme ||
-|| 2026-05-10 || `d4c3c287` || fix: eliminate all broken links, health score 99→100/100 ||
-|| 2026-05-10 || `09ae9873` || feat: health 94→99/100, exclude mirror dirs from quality checks ||
-|| 2026-05-10 || `be5892e3` || fix: health 91→94, fix MISSING.md emoji counting in improve_health.py ||
+|| 2026-05-11 || `e77ffcb8` || feat: автоматизация всех критериев benchmark в prototype_demo.py ||
+|| 2026-05-11 || `4b5b08cb` || chore: авто-перегенерация derived-файлов после rebuild search_index.js ||
+|| 2026-05-11 || `049d3303` || docs: обновлён README.md для публикации MVP ||
+|| 2026-05-11 || `b9d3e3b8` || feat: улучшение качества поиска + CI fix для gateway/ANN тестов ||
+|| 2026-05-11 || `48553442` || chore: обновление авто-генерируемых дашбордов после новых файлов ||
+|| 2026-05-11 || `f3d00e22` || feat: тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS ||
+|| 2026-05-11 || `bd974316` || feat: hnswlib ANN-граф — ускоренный векторный поиск 37× (Итерация 1 за ||
+|| 2026-05-11 || `2655a8cb` || chore: update SCORING.md auto-generated dashboard ||
+|| 2026-05-11 || `e31c908a` || feat: Review Queue UI + gateway write-back fix + Iteration 4 ||
+|| 2026-05-11 || `f754e78b` || feat: Lorenzo Gateway — OpenAI-compatible HTTP API для обогащения корп ||
+|| 2026-05-11 || `dc3c1dfc` || chore: linter adjustments to letters and DEMO.md ||
+|| 2026-05-11 || `645d38b5` || feat: working prototype Knowledge OS — prototype_demo.py ||
+|| 2026-05-11 || `deef911d` || feat: protect PROGRESS.md manual sections + update search/deeptext ||
+|| 2026-05-11 || `62b5e192` || feat: SENTINEL security check + contact statuses + progress 55% ||
+|| 2026-05-11 || `defa92c5` || chore: update auto-generated dashboards ||
 
 h2. Текущее состояние репозитория
 
 || Параметр || Значение ||
-|| Документов `.md` || **2451** ||
-|| Скриптов обработки || **163** ||
+|| Документов `.md` || **2481** ||
+|| Скриптов обработки || **166** ||
 || Последнее обновление || **2026-05-11** ||
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_digest.py
-{code}
-
-h2. Смотрите также
-* [Главная|README.md]
-* [Метрики|METRICS.md]
-* [Здоровье|HEALTH.md]
-* [Глоссарий|GLOSSARY.md]
-* [Сущности|ENTITIES.md]
-
-
-
-----
-
-_Кто ссылается на этот документ (8):_
-* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
-* [DIGEST_AUTO|DIGEST_AUTO.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-
-
-
-
-----
-
-_Смотрите также:_
-* [DIGEST_AUTO|DIGEST_AUTO.md]
-* [SCHEDULE|SCHEDULE.md]
-* [DEPENDABOT|DEPENDABOT.md]
-* [SCORING|SCORING.md]
-

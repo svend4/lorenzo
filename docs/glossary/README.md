@@ -1,18 +1,12 @@
 # glossary
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 3
 
 ## Содержание
 
-- [authors-by-name.md](authors-by-name.md) — <!-- toc -->
+- [authors-by-name.md](authors-by-name.md) — <!-- toc-auto -->
 - [components-by-name.md](components-by-name.md) — > [!NOTE]
-- [concepts.md](concepts.md) — <!-- toc -->
+- [concepts.md](concepts.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -27,19 +21,3 @@
 - [authors-by-name](authors-by-name.md)
 - [concepts](concepts.md)
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «glossary». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «glossary». Формируется автоматически.
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «glossary». Формируется автоматически.

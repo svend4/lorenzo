@@ -53,3 +53,14 @@ _Создано: 2026-05-11_
 # Запуск
 python scripts/improve_research_note.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+

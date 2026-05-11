@@ -15,6 +15,45 @@ date: 2026-05-11
 h1. Отчёт о дублировании
 
 
+h2. Содержание
+
+* [Contents|#contents]
+* [Похожие файлы (Jaccard ≥ 0.5)|#похожие-файлы-jaccard-05]
+  * [100% — {{docs/SEARCH_RESULTS.md}} vs {{docs/obsidian/SEARCH_RESULTS.md}}|#100-docssearch_resultsmd-vs-docsobsidiansearch_resultsmd]
+  * [100% — {{docs/SIMILAR.md}} vs {{docs/obsidian/SIMILAR.md}}|#100-docssimilarmd-vs-docsobsidiansimilarmd]
+  * [100% — {{docs/DIGEST_WEEKLY.md}} vs {{docs/obsidian/DIGEST_WEEKLY.md}}|#100-docsdigest_weeklymd-vs-docsobsidiandigest_weeklymd]
+  * [100% — {{docs/DEPENDENCY_MAP.md}} vs {{docs/obsidian/DEPENDENCY_MAP.md}}|#100-docsdependency_mapmd-vs-docsobsidiandependency_mapmd]
+  * [100% — {{docs/CROSS_SECTION.md}} vs {{docs/obsidian/CROSS_SECTION.md}}|#100-docscross_sectionmd-vs-docsobsidiancross_sectionmd]
+  * [100% — {{docs/CHANGELOG_AUTO.md}} vs {{docs/obsidian/CHANGELOG_AUTO.md}}|#100-docschangelog_automd-vs-docsobsidianchangelog_automd]
+  * [100% — {{docs/TOPIC_MODEL.md}} vs {{docs/obsidian/TOPIC_MODEL.md}}|#100-docstopic_modelmd-vs-docsobsidiantopic_modelmd]
+  * [100% — {{docs/svyazi-2-0/components/ai-factory.md}} vs {{docs/obsidian/svyazi-2-0/components/ai-factory.md}}|#100-docssvyazi-2-0componentsai-factorymd-vs-docsobsidiansvyazi-2-0componentsai-factorymd]
+  * [100% — {{docs/svyazi-2-0/components/research-docs-liteparse.md}} vs {{docs/obsidian/svyazi-2-0/components/research-docs-liteparse.md}}|#100-docssvyazi-2-0componentsresearch-docs-liteparsemd-vs-docsobsidiansvyazi-2-0componentsresearch-docs-liteparsemd]
+  * [100% — {{docs/svyazi-2-0/components/agentfs.md}} vs {{docs/obsidian/svyazi-2-0/components/agentfs.md}}|#100-docssvyazi-2-0componentsagentfsmd-vs-docsobsidiansvyazi-2-0componentsagentfsmd]
+  * [100% — {{docs/svyazi-2-0/components/hybrid-rag.md}} vs {{docs/obsidian/svyazi-2-0/components/hybrid-rag.md}}|#100-docssvyazi-2-0componentshybrid-ragmd-vs-docsobsidiansvyazi-2-0componentshybrid-ragmd]
+  * [100% — {{docs/svyazi-2-0/components/self-aware-mcp.md}} vs {{docs/obsidian/svyazi-2-0/components/self-aware-mcp.md}}|#100-docssvyazi-2-0componentsself-aware-mcpmd-vs-docsobsidiansvyazi-2-0componentsself-aware-mcpmd]
+  * [100% — {{docs/svyazi-2-0/components/knowledge-space.md}} vs {{docs/obsidian/svyazi-2-0/components/knowledge-space.md}}|#100-docssvyazi-2-0componentsknowledge-spacemd-vs-docsobsidiansvyazi-2-0componentsknowledge-spacemd]
+  * [100% — {{docs/svyazi-2-0/components/agent-memory-mcp.md}} vs {{docs/obsidian/svyazi-2-0/components/agent-memory-mcp.md}}|#100-docssvyazi-2-0componentsagent-memory-mcpmd-vs-docsobsidiansvyazi-2-0componentsagent-memory-mcpmd]
+  * [100% — {{docs/svyazi-2-0/components/graph-rag.md}} vs {{docs/obsidian/svyazi-2-0/components/graph-rag.md}}|#100-docssvyazi-2-0componentsgraph-ragmd-vs-docsobsidiansvyazi-2-0componentsgraph-ragmd]
+  * [100% — {{docs/svyazi-2-0/components/mclaude.md}} vs {{docs/obsidian/svyazi-2-0/components/mclaude.md}}|#100-docssvyazi-2-0componentsmclaudemd-vs-docsobsidiansvyazi-2-0componentsmclaudemd]
+  * [100% — {{docs/svyazi-2-0/components/voice-stack.md}} vs {{docs/obsidian/svyazi-2-0/components/voice-stack.md}}|#100-docssvyazi-2-0componentsvoice-stackmd-vs-docsobsidiansvyazi-2-0componentsvoice-stackmd]
+  * [100% — {{docs/svyazi-2-0/components/yjs-automerge.md}} vs {{docs/obsidian/svyazi-2-0/components/yjs-automerge.md}}|#100-docssvyazi-2-0componentsyjs-automergemd-vs-docsobsidiansvyazi-2-0componentsyjs-automergemd]
+  * [100% — {{docs/svyazi-2-0/components/rufler.md}} vs {{docs/obsidian/svyazi-2-0/components/rufler.md}}|#100-docssvyazi-2-0componentsruflermd-vs-docsobsidiansvyazi-2-0componentsruflermd]
+  * [100% — {{docs/svyazi-2-0/architecture/review-record.md}} vs {{docs/obsidian/svyazi-2-0/architecture/review-record.md}}|#100-docssvyazi-2-0architecturereview-recordmd-vs-docsobsidiansvyazi-2-0architecturereview-recordmd]
+  * [100% — {{docs/04-ai-collaborations/QA.md}} vs {{docs/03-technology-combinations/QA.md}}|#100-docs04-ai-collaborationsqamd-vs-docs03-technology-combinationsqamd]
+  * [100% — {{docs/04-ai-collaborations/QA.md}} vs {{docs/02-anthropic-vacancies/QA.md}}|#100-docs04-ai-collaborationsqamd-vs-docs02-anthropic-vacanciesqamd]
+  * [100% — {{docs/obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md}} vs {{docs/obsidian/templates/weekly-digest.md}}|#100-docsobsidiantechnology-combinationscombinations12-multi-agent-observability-stackmd-vs-docsobsidiantemplatesweekly-digestmd]
+  * [100% — {{docs/obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md}} vs {{docs/obsidian/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md}}|#100-docsobsidiantechnology-combinationscombinations12-multi-agent-observability-stackmd-vs-docsobsidiannautilusnpp-humanitarian-extension03-what-doesnt-exist-on-marketmd]
+  * [100% — {{docs/obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md}} vs {{docs/obsidian/nautilus/review-methodology/00-tldr.md}}|#100-docsobsidiantechnology-combinationscombinations12-multi-agent-observability-stackmd-vs-docsobsidiannautilusreview-methodology00-tldrmd]
+  * [100% — {{docs/obsidian/technology-combinations/properties/README.md}} vs {{docs/technology-combinations/properties/README.md}}|#100-docsobsidiantechnology-combinationspropertiesreadmemd-vs-docstechnology-combinationspropertiesreadmemd]
+  * [100% — {{docs/obsidian/lorenzo-agent/specification/03-q3-what-lorenzo-does.md}} vs {{docs/obsidian/lorenzo-agent/specification/05-q5-authority-limits.md}}|#100-docsobsidianlorenzo-agentspecification03-q3-what-lorenzo-doesmd-vs-docsobsidianlorenzo-agentspecification05-q5-authority-limitsmd]
+  * [100% — {{docs/obsidian/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md}} vs {{docs/obsidian/lorenzo-agent/phased-deployment/04-level-3-medium-active.md}}|#100-docsobsidianlorenzo-agentphased-deployment02-level-1-minimal-zeromd-vs-docsobsidianlorenzo-agentphased-deployment04-level-3-medium-activemd]
+  * [100% — {{docs/obsidian/lorenzo-agent/phased-deployment/07-progression-logic.md}} vs {{docs/obsidian/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md}}|#100-docsobsidianlorenzo-agentphased-deployment07-progression-logicmd-vs-docsobsidianlorenzo-agentphased-deployment05-level-4-extended-maturemd]
+  * [100% — {{docs/obsidian/processing-guide/06-search.md}} vs {{docs/processing-guide/06-search.md}}|#100-docsobsidianprocessing-guide06-searchmd-vs-docsprocessing-guide06-searchmd]
+
+----
+
+
+
 h2. Contents
 
 * [Похожие файлы (Jaccard ≥ 0.5)|#похожие-файлы-jaccard-05]

@@ -1,16 +1,10 @@
 # contacts
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 16
 
 ## Содержание
 
-- [QA.md](QA.md) — > [!NOTE]
+- [QA.md](QA.md) — _Автоматически сгенерировано по 15 файлам раздела._
 - [anastasiyaw.md](anastasiyaw.md) — ---
 - [andrey-chuyan.md](andrey-chuyan.md) — ---
 - [antipozitive.md](antipozitive.md) — ---
@@ -42,10 +36,3 @@
 - [antipozitive](antipozitive.md)
 - _...ещё 12_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

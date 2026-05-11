@@ -6,7 +6,7 @@ _Обновлено: 2026-05-11_
 
 **Документов с frontmatter:** 21
 
-**Валидно:** 9 | **С ошибками:** 12 | **Без шаблона:** 2411
+**Валидно:** 9 | **С ошибками:** 12 | **Без шаблона:** 2412
 
 
 ## Ошибки по файлам
@@ -110,3 +110,19 @@ _Обновлено: 2026-05-11_
 - **tech-pair** — Пара технологий с описанием синергии
 - **tech-radar-entry** — Запись Tech Radar: квадрант, кольцо, обоснование
 - **weekly-digest** — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 3_
+

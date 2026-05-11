@@ -78,3 +78,13 @@ _Связанный контакт: [contacts/kksudo.md](../contacts/kksudo.md)_
 # Запуск
 python scripts/improve_kksudo.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

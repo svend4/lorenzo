@@ -1,25 +1,16 @@
 ---
 title: "Оценка готовности проекта (Go/No-Go)"
 tags:
-  - scoring
-  - docs
+  - security
+  - architecture
+  - roadmap
+  - collaboration
   - general
 date: 2026-05-11
 ---
 
 # Оценка готовности проекта (Go/No-Go)
-
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `SCORING` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: scoring, docs -->
-
-
-<!-- summary -->
-> `SCORING` — раздел документации проекта Lorenzo.
+<!-- tags: security, architecture, roadmap, collaboration -->
 
 
 _Дата: 2026-05-11_
@@ -80,16 +71,13 @@ _Дата: 2026-05-11_
 ## ✅ Проект готов к запуску MVP!
 
 
+<!-- backlinks -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_scoring.py
-```
+---
 
-## Смотрите также
-- [[README|Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

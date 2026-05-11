@@ -79,3 +79,13 @@ _Связанный контакт: [contacts/zodigancode.md](../contacts/zodiga
 # Запуск
 python scripts/improve_zodigancode.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

@@ -1,10 +1,4 @@
 # composite-skills-agents
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
@@ -20,7 +14,7 @@
 - [08-seven-domains.md](08-seven-domains.md) — > [!TIP]
 - [09-okwf-integration.md](09-okwf-integration.md) — > [!TIP]
 - [10-risks.md](10-risks.md) — > [!TIP]
-- [11-open-questions.md](11-open-questions.md) — <!-- toc -->
+- [11-open-questions.md](11-open-questions.md) — <!-- toc-auto -->
 - [12-call-for-collaboration.md](12-call-for-collaboration.md) — <!-- toc-auto -->
 - [13-closing.md](13-closing.md) — > [!NOTE]
 
@@ -39,10 +33,3 @@
 - [05-configuration-ensembles](05-configuration-ensembles.md)
 - _...ещё 5_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

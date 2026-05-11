@@ -1,5 +1,19 @@
 # Языковой состав документов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Распределение](#распределение)
+- [Файлы с неожиданным языком](#файлы-с-неожиданным-языком)
+- [Смешанные файлы (MIX)](#смешанные-файлы-mix)
+- [По секциям](#по-секциям)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -1091,3 +1105,19 @@ python scripts/improve_language_stats.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CLUSTERS](CLUSTERS.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [PRIORITIES](PRIORITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

@@ -11,6 +11,26 @@ _Сгенерировано автоматически: 2026-05-11_
 
 ---
 
+<!-- toc -->
+## Содержание
+
+- [Содержание](#содержание)
+- [Executive Summary](#executive-summary)
+- [Корпус документов](#корпус-документов)
+  - [Общая статистика](#общая-статистика)
+  - [По секциям](#по-секциям)
+- [Ключевые проекты](#ключевые-проекты)
+- [Ключевые сущности](#ключевые-сущности)
+- [Архитектурные решения](#архитектурные-решения)
+- [Открытые вопросы](#открытые-вопросы)
+- [Рекомендуемое чтение](#рекомендуемое-чтение)
+- [Быстрый старт](#быстрый-старт)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
 ## Содержание
 
 1. [Executive Summary](#executive-summary)
@@ -151,4 +171,15 @@ python scripts/improve_llm_qa.py --question "Что такое NGT Memory?"
 ```
 
 _Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-05-11)_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

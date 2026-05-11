@@ -1,5 +1,20 @@
 # Tech Radar — Svyazi 2.0
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Обзор](#обзор)
+- [🟢 ADOPT](#adopt)
+- [🔵 TRIAL](#trial)
+- [🟡 ASSESS](#assess)
+- [🔴 HOLD](#hold)
+- [Методология](#методология)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -116,3 +131,19 @@ _Radar обновляется вручную при существенных и�
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [CONCEPTS](CONCEPTS.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 4_
+

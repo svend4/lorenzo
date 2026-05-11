@@ -1,16 +1,5 @@
 # extra-collaborator-findings
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 7
 
 ## Содержание
@@ -38,13 +27,3 @@
 - [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
 - _...ещё 2_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «extra-collaborator-findings». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

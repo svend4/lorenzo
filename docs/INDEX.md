@@ -1,5 +1,24 @@
 # Индекс документации — Lorenzo / Svyazi 2.0
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Метрики репозитория](#метрики-репозитория)
+- [Разделы документации](#разделы-документации)
+  - [[🏗️  Архитектура Svyazi 2.0](01-svyazi/README.md)](#архитектура-svyazi-2001-svyazireadmemd)
+  - [[💼 Вакансии Anthropic](02-anthropic-vacancies/README.md)](#вакансии-anthropic02-anthropic-vacanciesreadmemd)
+  - [[⚗️  Комбинации технологий](03-technology-combinations/README.md)](#комбинации-технологий03-technology-combinationsreadmemd)
+  - [[🤝 AI-коллаборации](04-ai-collaborations/README.md)](#ai-коллаборации04-ai-collaborationsreadmemd)
+  - [[📦 Хабр-проекты](05-habr-projects/README.md)](#хабр-проекты05-habr-projectsreadmemd)
+- [Аналитика и отчёты](#аналитика-и-отчёты)
+- [Ключевые документы](#ключевые-документы)
+- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
+- [Быстрый старт](#быстрый-старт)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -148,4 +167,20 @@ python scripts/improve_run_all.py --group analysis
 ---
 
 _Индекс сгенерирован автоматически · 2451 документов · 163 скриптов_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [README](01-svyazi/README.md)
+- [CLUSTERS](CLUSTERS.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
 

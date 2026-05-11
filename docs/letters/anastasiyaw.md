@@ -77,3 +77,13 @@ _Связанный контакт: [contacts/anastasiyaw.md](../contacts/anasta
 # Запуск
 python scripts/improve_anastasiyaw.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

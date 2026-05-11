@@ -1,21 +1,10 @@
 # extra-examples
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 13
 
 ## Содержание
 
-- [00-question-habr-examples.md](00-question-habr-examples.md) — <!-- toc -->
+- [00-question-habr-examples.md](00-question-habr-examples.md) — <!-- toc-auto -->
 - [01-svyazi-andrey-chuyan.md](01-svyazi-andrey-chuyan.md) — <!-- toc-auto -->
 - [02-vshe-scientific-networking.md](02-vshe-scientific-networking.md) — <!-- toc-auto -->
 - [03-brainbox-multi-ai-hub.md](03-brainbox-multi-ai-hub.md) — <!-- toc-auto -->
@@ -44,10 +33,3 @@
 - [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
 - _...ещё 1_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

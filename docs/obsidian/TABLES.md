@@ -5021,19 +5021,19 @@ _Файл: `docs/obsidian/CONSISTENCY.md` | 4 колонок, 16 строк_
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 26 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
-| **CardIndex** | `CardIndex` | `card-index` | 2 |
-| **CardIndex** | `CardIndex` | `Card Index` | 1 |
-| **CardIndex** | `CardIndex` | `card index` | 1 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 26 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 75 |
+| **knowledge-space** | `knowledge-space` | `knowledge-space` | 26 |
+| **knowledge-space** | `knowledge-space` | `knowledge-space` | 3 |
+| **CardIndex** | `CardIndex` | `CardIndex` | 2 |
+| **CardIndex** | `CardIndex` | `CardIndex` | 1 |
+| **CardIndex** | `CardIndex` | `CardIndex` | 1 |
+| **AI Factory** | `AI Factory` | `AI Factory` | 26 |
+| **NGT Memory** | `NGT Memory` | `NGT Memory` | 75 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 3 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 23 |
+| **Auto AI Router** | `Auto AI Router` | `Auto AI Router` | 23 |
 | **local-first** | `local-first` | `localfirst` | 5 |
-| **self-improvement** | `self-improvement` | `self-improve` | 241 |
-| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 24 |
+| **self-improvement** | `self-improvement` | `self-improvement` | 241 |
+| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi 2.0` | 7 |
+| **Evidence Envelope** | `Evidence Envelope` | `Evidence Envelope` | 24 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 19 |
 | **Card Envelope** | `Card Envelope` | `CardEnvelope` | 2 |
 
@@ -17908,24 +17908,24 @@ _Файл: `docs/CONSISTENCY.md` | 4 колонок, 21 строк_
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
 | **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
-| **knowledge-space** | `knowledge-space` | `knowledge space` | 33 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
-| **CardIndex** | `CardIndex` | `Card Index` | 5 |
-| **CardIndex** | `CardIndex` | `card index` | 5 |
-| **CardIndex** | `CardIndex` | `card-index` | 4 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 48 |
-| **NGT Memory** | `NGT Memory` | `NGT-Memory` | 99 |
+| **knowledge-space** | `knowledge-space` | `knowledge-space` | 33 |
+| **knowledge-space** | `knowledge-space` | `knowledge-space` | 4 |
+| **CardIndex** | `CardIndex` | `CardIndex` | 5 |
+| **CardIndex** | `CardIndex` | `CardIndex` | 5 |
+| **CardIndex** | `CardIndex` | `CardIndex` | 4 |
+| **AI Factory** | `AI Factory` | `AI Factory` | 48 |
+| **NGT Memory** | `NGT Memory` | `NGT Memory` | 99 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 5 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 40 |
-| **local-first** | `local-first` | `local first` | 7 |
+| **Auto AI Router** | `Auto AI Router` | `Auto AI Router` | 40 |
+| **local-first** | `local-first` | `local-first` | 7 |
 | **local-first** | `local-first` | `localfirst` | 8 |
 | **local-first** | `local-first` | `Local First` | 7 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 7 |
-| **self-improvement** | `self-improvement` | `self-improve` | 314 |
-| **self-improvement** | `self-improvement` | `selfimprovement` | 3 |
-| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 47 |
-| **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
+| **self-improvement** | `self-improvement` | `self-improvement` | 314 |
+| **self-improvement** | `self-improvement` | `self-improvement` | 3 |
+| **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi 2.0` | 7 |
+| **Evidence Envelope** | `Evidence Envelope` | `Evidence Envelope` | 47 |
+| **Evidence Envelope** | `Evidence Envelope` | `Evidence Envelope` | 2 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 36 |
 | **Card Envelope** | `Card Envelope` | `CardEnvelope` | 21 |
 
@@ -34135,3 +34135,14 @@ python scripts/improve_tables.py
 # Вариант 2
 python scripts/improve_tables.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

@@ -1,16 +1,5 @@
 # hardware-pairs
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 7
 
 ## Содержание
@@ -38,13 +27,3 @@
 - [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md)
 - _...ещё 3_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «hardware-pairs». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

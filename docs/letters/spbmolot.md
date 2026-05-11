@@ -76,3 +76,13 @@ _Связанный контакт: [contacts/spbmolot.md](../contacts/spbmolot.
 # Запуск
 python scripts/improve_spbmolot.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

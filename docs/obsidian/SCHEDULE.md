@@ -1,37 +1,27 @@
 ---
 title: "Расписание проекта"
 tags:
-  - schedule
-  - docs
+  - memory
+  - security
+  - knowledge
+  - ingestion
+  - architecture
+  - roadmap
+  - collaboration
   - general
 date: 2026-05-11
 ---
 
 # Расписание проекта
 
-<!-- toc-auto -->
-## Contents
-
-- [Ключевые вехи](#ключевые-вехи)
-- [Gantt-диаграмма](#gantt-диаграмма)
-- [Задачи по фазам](#задачи-по-фазам)
-  - [Исследование](#исследование)
-  - [Архитектура](#архитектура)
-  - [Контакты](#контакты)
-  - [MVP](#mvp)
-- [Текущий статус](#текущий-статус)
-- [Смотрите также](#смотрите-также)
-
-
-> [!NOTE]
-> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: schedule, docs -->
-
-
 <!-- summary -->
-> `SCHEDULE` — раздел документации проекта Lorenzo.
+> _Дорожная карта с вехами и задачами по кварталам._
+**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
+
+---
+<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
+
+
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -87,9 +77,13 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
-## Смотрите также
-- [[README|Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

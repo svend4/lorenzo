@@ -7,6 +7,18 @@ date: 2026-05-11
 
 # Время чтения документов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Все документы](#все-документы)
+- [Самые длинные документы (92)](#самые-длинные-документы-92)
+- [По категориям](#по-категориям)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -2546,3 +2558,13 @@ python scripts/improve_reading_time.py --dry-run
 # Вариант 14
 python scripts/improve_reading_time.py --dry-run
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

@@ -74,3 +74,19 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 - [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (42):**
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- _...ещё 34_
+

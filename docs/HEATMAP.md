@@ -1,5 +1,16 @@
 # Тепловая карта тем
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Числовые значения (‰)](#числовые-значения)
+- [Доминирующие темы по разделам](#доминирующие-темы-по-разделам)
+- [Концентрация тем](#концентрация-тем)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -92,4 +103,20 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 - [ONBOARDING](ONBOARDING.md)
 - [COVERAGE](COVERAGE.md)
 - [STATS](STATS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [DENSITY](DENSITY.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
 

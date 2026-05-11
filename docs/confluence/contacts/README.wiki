@@ -5,17 +5,11 @@
 
 h1. contacts
 
-
-
-
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
-
-
 _Файлов:_ 16
 
 h2. Содержание
 
-* [QA.md|QA.md] — > [!NOTE]
+* [QA.md|QA.md] — _Автоматически сгенерировано по 15 файлам раздела._
 * [anastasiyaw.md|anastasiyaw.md] — ---
 * [andrey-chuyan.md|andrey-chuyan.md] — ---
 * [antipozitive.md|antipozitive.md] — ---
@@ -31,26 +25,3 @@ h2. Содержание
 * [vitalysemenov.md|vitalysemenov.md] — ---
 * [vladspace.md|vladspace.md] — ---
 * [zodigancode.md|zodigancode.md] — ---
-
-
-
-----
-
-_Кто ссылается на этот документ (20):_
-* [OUTLINE|../OUTLINE.md]
-* [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-* [anastasiyaw|anastasiyaw.md]
-* [andrey-chuyan|andrey-chuyan.md]
-* [antipozitive|antipozitive.md]
-* _...ещё 12_
-
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_readme.py
-{code}

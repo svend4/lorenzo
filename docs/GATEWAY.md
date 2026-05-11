@@ -1,5 +1,36 @@
 # Lorenzo Gateway
 
+<!-- toc -->
+## Содержание
+
+- [Содержание](#содержание)
+- [Что это](#что-это)
+- [Сравнение с DAF-gateway](#сравнение-с-daf-gateway)
+- [Архитектура](#архитектура)
+- [Запуск](#запуск)
+- [Эндпоинты](#эндпоинты)
+  - [`GET /api/health`](#get-apihealth)
+  - [`GET /api/status`](#get-apistatus)
+  - [`POST /api/ask`](#post-apiask)
+  - [`POST /api/cards`](#post-apicards)
+  - [`POST /v1/chat/completions`](#post-v1chatcompletions)
+  - [`GET /v1/models`](#get-v1models)
+- [Инструменты (function calling)](#инструменты-function-calling)
+- [Примеры использования](#примеры-использования)
+  - [Простой поиск](#простой-поиск)
+  - [Поиск коллаборации](#поиск-коллаборации)
+  - [Обогащение корпуса через chat](#обогащение-корпуса-через-chat)
+  - [Python-клиент (openai SDK)](#python-клиент-openai-sdk)
+  - [С function calling](#с-function-calling)
+- [Подключение AI-клиентов](#подключение-ai-клиентов)
+  - [Claude Desktop](#claude-desktop)
+  - [Cursor / Continue / Cody](#cursor-continue-cody)
+  - [Другой агент (Python)](#другой-агент-python)
+- [Режим обогащения](#режим-обогащения)
+
+---
+
+
 > [!NOTE]
 > Раздел `GATEWAY` формируется автоматически из данных репозитория.
 

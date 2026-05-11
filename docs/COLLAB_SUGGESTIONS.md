@@ -1,5 +1,18 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [1. Wikontic: семантический граф](#1-wikontic-семантический-граф)
+- [2. NGT[^ngt] Memory: ассоциативный граф](#2-ngtngt-memory-ассоциативный-граф)
+- [3. knowledge-space](#3-knowledge-space)
+- [4. MemNet / memory-is-all-you-need](#4-memnet-memory-is-all-you-need)
+- [Следующие шаги](#следующие-шаги)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -190,3 +203,16 @@ Lorenzo / svend4
    ```
 
 _Сгенерировано: 2026-05-11 04:55  |  Алгоритм: TF-IDF + BM25 + граф_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (6):**
+- [agent-memory-mcp](05-habr-projects/memory/agent-memory-mcp.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

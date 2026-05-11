@@ -1,16 +1,10 @@
 # anthropic-vacancies
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 4
 
 ## Содержание
 
-- [QA.md](QA.md) — > [!NOTE]
+- [QA.md](QA.md) — _Автоматически сгенерировано по 97 файлам раздела._
 - [methodology.md](methodology.md) — <!-- toc-auto -->
 - [overview.md](overview.md) — <!-- toc-auto -->
 - [signals.md](signals.md) — <!-- toc-auto -->
@@ -41,13 +35,3 @@
 - [overview](overview.md)
 - [signals](signals.md)
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «anthropic-vacancies». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

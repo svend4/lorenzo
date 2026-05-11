@@ -1,16 +1,5 @@
 # candidates
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 3
 
 ## Содержание
@@ -33,13 +22,3 @@
 - [02-related-projects-context](02-related-projects-context.md)
 - [03-synthesis-hebbian-collaboration-graph](03-synthesis-hebbian-collaboration-graph.md)
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «candidates». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

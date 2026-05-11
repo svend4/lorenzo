@@ -1,5 +1,19 @@
 # Abstract — The Double-Triangle Architecture
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Содержание](#содержание)
+- [A Formal Model for Human-AI Collaboration in Distributed Knowledge Work](#a-formal-model-for-human-ai-collaboration-in-distributed-knowledge-work)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 

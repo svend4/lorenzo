@@ -1,16 +1,5 @@
 # research-reports
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 2
 
 ## Содержание
@@ -31,16 +20,3 @@
 - [continuation-10-domains](continuation-10-domains.md)
 - [sozialrecht-35-combinations](sozialrecht-35-combinations.md)
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «research-reports». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «research-reports». Формируется автоматически.

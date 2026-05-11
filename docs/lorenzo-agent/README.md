@@ -1,10 +1,4 @@
 # lorenzo-agent
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 22
 
@@ -31,7 +25,7 @@
 - [18-escalate-to-max.md](18-escalate-to-max.md) — <!-- toc-auto -->
 - [19-persistent-character.md](19-persistent-character.md) — <!-- toc-auto -->
 - [20-experiment.md](20-experiment.md) — <!-- toc-auto -->
-- [QA.md](QA.md) — > [!NOTE]
+- [QA.md](QA.md) — _Автоматически сгенерировано по 55 файлам раздела._
 
 ## Подразделы
 
@@ -56,10 +50,3 @@
 - [04-komu-ty-sluzhish](04-komu-ty-sluzhish.md)
 - _...ещё 11_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

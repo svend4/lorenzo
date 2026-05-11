@@ -1,10 +1,4 @@
 # professional-colleague-agents-ru
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
@@ -22,7 +16,7 @@
 - [09-svyaz-s-drugimi.md](09-svyaz-s-drugimi.md) — > [!WARNING]
 - [10-otkrytye-voprosy.md](10-otkrytye-voprosy.md) — <!-- toc-auto -->
 - [11-prizyv-k-sotrudnichestvu.md](11-prizyv-k-sotrudnichestvu.md) — <!-- toc-auto -->
-- [12-zaklyuchenie.md](12-zaklyuchenie.md) — <!-- toc -->
+- [12-zaklyuchenie.md](12-zaklyuchenie.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -39,10 +33,3 @@
 - [03-keys-obuchay](03-keys-obuchay.md)
 - _...ещё 8_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

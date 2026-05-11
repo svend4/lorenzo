@@ -1,10 +1,4 @@
 # infrastructure-layer-b-en
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 14
 
@@ -14,9 +8,9 @@
 - [01-missing-middle-layer.md](01-missing-middle-layer.md) — <!-- toc-auto -->
 - [02-why-document-exists.md](02-why-document-exists.md) — <!-- toc-auto -->
 - [03-two-layer-stack.md](03-two-layer-stack.md) — <!-- toc-auto -->
-- [04-whats-missing-layer-b.md](04-whats-missing-layer-b.md) — <!-- toc -->
+- [04-whats-missing-layer-b.md](04-whats-missing-layer-b.md) — <!-- toc-auto -->
 - [05-why-not-built.md](05-why-not-built.md) — <!-- toc-auto -->
-- [06-existing-approximations.md](06-existing-approximations.md) — <!-- toc -->
+- [06-existing-approximations.md](06-existing-approximations.md) — <!-- toc-auto -->
 - [07-specific-case.md](07-specific-case.md) — > [!NOTE]
 - [08-recursive-insight.md](08-recursive-insight.md) — <!-- toc-auto -->
 - [09-what-industry-will-build.md](09-what-industry-will-build.md) — <!-- toc-auto -->
@@ -40,10 +34,3 @@
 - [09-what-industry-will-build](09-what-industry-will-build.md)
 - _...ещё 4_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

@@ -1,10 +1,4 @@
 # okwf-concept
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 11
 
@@ -16,10 +10,10 @@
 - [03-why-existing-fail.md](03-why-existing-fail.md) — > [!NOTE]
 - [04-proposed-infrastructure.md](04-proposed-infrastructure.md) — > [!TIP]
 - [05-economic-model.md](05-economic-model.md) — > [!TIP]
-- [06-governance-ethics.md](06-governance-ethics.md) — <!-- toc -->
+- [06-governance-ethics.md](06-governance-ethics.md) — <!-- toc-auto -->
 - [07-phased-rollout.md](07-phased-rollout.md) — > [!NOTE]
 - [08-risk-analysis.md](08-risk-analysis.md) — > [!TIP]
-- [09-call-for-partnership.md](09-call-for-partnership.md) — <!-- toc -->
+- [09-call-for-partnership.md](09-call-for-partnership.md) — <!-- toc-auto -->
 - [10-appendices.md](10-appendices.md) — > [!NOTE]
 
 <!-- backlinks -->
@@ -37,13 +31,3 @@
 - [02-target-populations](02-target-populations.md)
 - _...ещё 6_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «okwf-concept». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

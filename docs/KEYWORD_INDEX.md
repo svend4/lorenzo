@@ -1,5 +1,17 @@
 # Инвертированный индекс ключевых слов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Топ слов по охвату файлов](#топ-слов-по-охвату-файлов)
+- [Топ биграмм (устойчивые словосочетания)](#топ-биграмм-устойчивые-словосочетания)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -181,3 +193,19 @@ python scripts/improve_keyword_index.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [04-abstract](02-anthropic-vacancies/04-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 4_
+

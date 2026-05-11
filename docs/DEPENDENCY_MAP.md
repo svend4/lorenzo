@@ -1,5 +1,17 @@
 # Карта зависимостей скриптов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Зависимости](#зависимости)
+- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
+- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -222,3 +234,17 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

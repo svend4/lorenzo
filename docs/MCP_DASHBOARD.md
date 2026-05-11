@@ -35,3 +35,15 @@ python scripts/improve_mcp_dashboard.py
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «MCP Dashboard». Формируется автоматически.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [TABLES](TABLES.md)
+

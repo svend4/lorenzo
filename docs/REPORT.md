@@ -18,7 +18,7 @@ _Сгенерировано автоматически: 2026-05-11_
 
 **Svyazi 2.0 — Knowledge Base Report** — аналитический обзор базы знаний, сгенерированный автоматически 2026-05-11.
 
-База содержит **1243 документов** объёмом **1,471,828 слов** в **23 секциях**. Здоровье репозитория: **90/100**, средний балл документов: **100.0/100/100**, словарное богатство (STTR): **0.628**.
+База содержит **1244 документов** объёмом **1,493,738 слов** в **23 секциях**. Здоровье репозитория: **90/100**, средний балл документов: **100.0/100/100**, словарное богатство (STTR): **0.628**.
 
 Цель базы знаний — поддержка разработки **Svyazi 2.0**, community intelligence platform, объединяющей лучшие OSS-проекты с Хабра в единую архитектуру Knowledge OS.
 
@@ -28,8 +28,8 @@ _Сгенерировано автоматически: 2026-05-11_
 
 | Метрика | Значение |
 |---------|----------|
-| Документов | **1243** |
-| Слов | **1,471,828** |
+| Документов | **1244** |
+| Слов | **1,493,738** |
 | Секций | **23** |
 | Здоровье репо | **90/100** |
 | Средний балл | **100.0/100/100** |
@@ -39,26 +39,26 @@ _Сгенерировано автоматически: 2026-05-11_
 
 | Секция | Файлов | Слов |
 |--------|--------|------|
-| **obsidian** | 1237 | 1,434,880 |
-| **Anthropic Vacancies** | 357 | 341,436 |
-| **nautilus** | 255 | 172,062 |
-| **anthropic-vacancies** | 111 | 45,124 |
-| **AI Collaborations** | 17 | 27,978 |
-| **lorenzo-agent** | 62 | 27,676 |
-| **svyazi-2-0** | 60 | 19,692 |
-| **habr-unique-projects** | 56 | 18,966 |
-| **technology-combinations** | 53 | 18,645 |
-| **processing-guide** | 13 | 17,401 |
-| **Habr Projects** | 16 | 14,769 |
-| **Svyazi 2.0** | 16 | 13,370 |
-| **ai-collaborations** | 31 | 11,627 |
-| **Templates** | 24 | 7,312 |
-| **Contacts** | 17 | 4,999 |
-| **Tech Combinations** | 7 | 3,835 |
-| **meta-scripting** | 7 | 3,246 |
-| **letters** | 9 | 3,119 |
-| **autofilled** | 13 | 2,670 |
-| **glossary** | 4 | 2,648 |
+| **obsidian** | 1238 | 1,456,517 |
+| **Anthropic Vacancies** | 357 | 341,317 |
+| **nautilus** | 255 | 170,297 |
+| **anthropic-vacancies** | 111 | 44,182 |
+| **AI Collaborations** | 17 | 27,837 |
+| **lorenzo-agent** | 62 | 27,084 |
+| **svyazi-2-0** | 60 | 19,000 |
+| **habr-unique-projects** | 56 | 18,430 |
+| **technology-combinations** | 53 | 18,344 |
+| **processing-guide** | 13 | 17,182 |
+| **Habr Projects** | 16 | 14,642 |
+| **Svyazi 2.0** | 16 | 13,255 |
+| **ai-collaborations** | 31 | 11,331 |
+| **Templates** | 24 | 7,296 |
+| **Contacts** | 17 | 4,873 |
+| **Tech Combinations** | 7 | 3,736 |
+| **meta-scripting** | 7 | 3,082 |
+| **letters** | 10 | 2,976 |
+| **autofilled** | 13 | 2,612 |
+| **glossary** | 4 | 2,559 |
 | **badges** | 1 | 102 |
 
 ## Ключевые проекты
@@ -67,14 +67,14 @@ _Авторы и проекты из CONTACTS.md:_
 
 | Автор | Проект | Слой | Приоритет |
 |-------|--------|------|-----------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 111 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 68 | — |
-| **Cutcode** | AIF Handoff | orchestration | 78 | — |
-| **Dmitriila** | SENTINEL | security | 68 | — |
-| **MiXaiLL76** | Auto AI Router | security | 61 | — |
-| **Sonia_Black** | knowledge-space | knowledge | 40 | — |
-| **VitalyOborin** | Yodoca | memory | 86 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
-| **VladSpace** | Graph RAG | rag | 85 | — |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 129 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **Antipozitive** | MemNet | memory | 81 | — |
+| **Cutcode** | AIF Handoff | orchestration | 79 | — |
+| **Dmitriila** | SENTINEL | security | 69 | — |
+| **MiXaiLL76** | Auto AI Router | security | 63 | — |
+| **Sonia_Black** | knowledge-space | knowledge | 43 | — |
+| **VitalyOborin** | Yodoca | memory | 103 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VladSpace** | Graph RAG | rag | 89 | — |
 
 ## Ключевые сущности
 
@@ -144,4 +144,20 @@ python scripts/improve_llm_qa.py --question "Что такое NGT Memory?"
 ```
 
 _Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-05-11)_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- _...ещё 1_
 

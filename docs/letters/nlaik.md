@@ -75,3 +75,13 @@ _Связанный контакт: [contacts/nlaik.md](../contacts/nlaik.md)_
 # Запуск
 python scripts/improve_nlaik.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

@@ -78,3 +78,13 @@ _Связанный контакт: [contacts/vitalyoborin.md](../contacts/vital
 # Запуск
 python scripts/improve_vitalyoborin.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [README](README.md)
+

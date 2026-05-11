@@ -1,5 +1,19 @@
 # Кросс-секционный анализ
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Матрица сходства секций](#матрица-сходства-секций)
+- [Граф связей](#граф-связей)
+- [Топ-40 кросс-секционных концептов](#топ-40-кросс-секционных-концептов)
+- [Детальная карта концептов](#детальная-карта-концептов)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -344,3 +358,17 @@ python scripts/improve_cross_section.py --dry-run
 - [Контакты](CONTACTS.md)
 - [Оценка](SCORING.md)
 - [Теги](TAGS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [DUPLICATES](DUPLICATES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

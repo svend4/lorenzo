@@ -1,16 +1,5 @@
 # specification
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 12
 
 ## Содержание
@@ -26,7 +15,7 @@
 - [08-q8-other-ai-relationships.md](08-q8-other-ai-relationships.md) — <!-- toc-auto -->
 - [09-q9-geographic-linguistic-scope.md](09-q9-geographic-linguistic-scope.md) — <!-- toc-auto -->
 - [10-q10-funding-model.md](10-q10-funding-model.md) — <!-- toc-auto -->
-- [11-difficulties-and-recommendations.md](11-difficulties-and-recommendations.md) — <!-- toc -->
+- [11-difficulties-and-recommendations.md](11-difficulties-and-recommendations.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -43,10 +32,3 @@
 - [10-q10-funding-model](10-q10-funding-model.md)
 - _...ещё 1_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

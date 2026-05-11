@@ -1,7 +1,7 @@
 # Health Dashboard
 
 <!-- summary -->
-> Балл здоровья репозитория: **100/100** — файлов: 2463, слов: 2,738,055
+> Балл здоровья репозитория: **100/100** — файлов: 2481, слов: 2,901,516
 
 <!-- tags: health, quality, metrics, documentation -->
 
@@ -26,8 +26,8 @@ _Обновлено: 2026-05-11_
 
 ## Структура репозитория
 
-**Файлов:** 2463  
-**Слов:** 2,738,055
+**Файлов:** 2481  
+**Слов:** 2,901,516
 
 | Раздел | Файлов |
 |--------|--------|
@@ -43,13 +43,13 @@ _Обновлено: 2026-05-11_
 | contacts | 17 |
 | glossary | 4 |
 | habr-unique-projects | 56 |
-| letters | 9 |
+| letters | 10 |
 | lorenzo-agent | 62 |
 | meta-scripting | 7 |
 | nautilus | 255 |
-| obsidian | 1221 |
+| obsidian | 1237 |
 | processing-guide | 13 |
-| root | 113 |
+| root | 114 |
 | svyazi-2-0 | 60 |
 | technology-combinations | 53 |
 | templates | 24 |
@@ -62,7 +62,7 @@ _Обновлено: 2026-05-11_
 
 ## Скрипты обработки
 
-Скриптов в `scripts/`: **195**
+Скриптов в `scripts/`: **196**
 
 ## Рекомендации
 
@@ -74,3 +74,19 @@ _Обновлено: 2026-05-11_
 - [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (44):**
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [ALERTS](ALERTS.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [CONTENT_GAPS](CONTENT_GAPS.md)
+- [CONTRADICTIONS](CONTRADICTIONS.md)
+- _...ещё 36_
+

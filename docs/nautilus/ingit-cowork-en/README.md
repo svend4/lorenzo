@@ -1,10 +1,4 @@
 # ingit-cowork-en
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 10
 
@@ -36,13 +30,3 @@
 - [05-four-integration-paths](05-four-integration-paths.md)
 - _...ещё 4_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ingit-cowork-en». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

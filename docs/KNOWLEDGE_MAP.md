@@ -1,5 +1,20 @@
 # Карта базы знаний Lorenzo
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Корпус](#корпус)
+- [Метрики качества](#метрики-качества)
+- [По секциям](#по-секциям)
+- [Ключевые концепты](#ключевые-концепты)
+- [Топ сущностей](#топ-сущностей)
+- [Открытые вопросы](#открытые-вопросы)
+- [Быстрые команды](#быстрые-команды)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -133,4 +148,20 @@ python scripts/improve_run_all.py --group nlpplus
 ```
 
 _Карта сгенерирована автоматически: 2026-05-11_
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [SENTIMENT](SENTIMENT.md)
+- [TABLES](TABLES.md)
+- _...ещё 1_
 

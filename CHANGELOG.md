@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **209**  
-Статистика: 🔧 chore: 73 | ✨ feat: 64 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
+Всего коммитов: **227**  
+Статистика: 🔧 chore: 79 | ✨ feat: 74 | 🐛 fix: 35 | 📝 docs: 24 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -16,18 +16,55 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (4 коммитов)
+## 2026-05-11 (22 коммитов)
 
 ### 🔧 Обслуживание
 
+- авто-перегенерация derived-файлов после rebuild search_index.json _4b5b08cb_
+  > Обновлены производные файлы:
+- обновление авто-генерируемых дашбордов после новых файлов _48553442_
+  > HEALTH.md: 2460 → 2463 файлов, 2,716,936 → 2,738,055 слов
+- update SCORING.md auto-generated dashboard _2655a8cb_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- linter adjustments to letters and DEMO.md _dc3c1dfc_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- update auto-generated dashboards _defa92c5_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- update auto-generated docs after reports pipeline run _f5d46f4c_
+  > Обновлены 25 файлов после запуска группы reports:
 - update generated docs after reports pipeline run _089b157f_
   > - Regenerated QA files, dashboards, and report outputs
+### 📝 Документация
+
+- обновлён README.md для публикации MVP _049d3303_
+  > - Описание Knowledge OS: архитектура, компоненты, быстрый старт
 ### ✨ Новые функции
 
+- автоматизация всех критериев benchmark в prototype_demo.py _e77ffcb8_
+  > - Collab quality ≥ 3/5: авто-проверка по known-projects (результат 5/5 ✅)
+- улучшение качества поиска + CI fix для gateway/ANN тестов _b9d3e3b8_
+  > Поиск (search index):
+- тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS 63% _f3d00e22_
+  > Новые файлы:
+- hnswlib ANN-граф — ускоренный векторный поиск 37× (Итерация 1 завершена) _bd974316_
+  > scripts/improve_ann_index.py:
+- Review Queue UI + gateway write-back fix + Iteration 4 _e31c908a_
+  > Review Queue UI (scripts/review_queue.py):
+- Lorenzo Gateway — OpenAI-compatible HTTP API для обогащения корпуса _f754e78b_
+  > Реализован универсальный HTTP-шлюз к базе знаний Svyazi 2.0:
+- working prototype Knowledge OS — prototype_demo.py _645d38b5_
+  > - scripts/prototype_demo.py — полный цикл Knowledge OS:
+- protect PROGRESS.md manual sections + update search/deeptext _deef911d_
+  > - improve_progress_sync.py: добавлена защита ручных секций через маркер
+- SENTINEL security check + contact statuses + progress 55% _62b5e192_
+- add open letter drafts for 8 project authors _c601257d_
+  > docs/letters/ — новая директория с открытыми письмами:
 - add improve_quality_patch.py to prevent score regression after pipeline runs _81af4bf5_
   > - Create scripts/improve_quality_patch.py: idempotent quality element injector
 ### 🐛 Исправления
 
+- stabilize quality score 100/100 + 0 broken links _7741b0dd_
+  > - Создан improve_quality_patch.py — идемпотентный патч качества, добавлен
 - restore 100.0/100 and 0 broken links after second pipeline run _728700c0_
   > - Fix improve_scripts_catalog.py: escape markdown links in docstring descriptions
 - restore 100.0/100 quality score and 0 broken links after pipeline run _c02dda87_

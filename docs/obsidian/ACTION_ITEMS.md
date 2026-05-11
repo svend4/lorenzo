@@ -1869,3 +1869,15 @@ python scripts/improve_action_items.py --dry-run
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
 - [[CONTACTS|Контакты]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [CONCEPTS](../CONCEPTS.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

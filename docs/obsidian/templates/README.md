@@ -1,46 +1,51 @@
 ---
-title: "Шаблоны документов"
+title: "templates"
 tags:
-  - readme
-  - docs
   - templates
 date: 2026-05-11
 ---
 
-# Шаблоны документов
+# templates
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
+**Файлов:** 23
 
-<!-- alert-added -->
-<!-- tags: readme, docs -->
+## Содержание
 
+- [[agent-spec|agent-spec.md]] — ---
+- [[contact-outreach|contact-outreach.md]] — > [!NOTE]
+- [[contradiction-record|contradiction-record.md]] — ---
+- [[decision-record|decision-record.md]] — > [!NOTE]
+- [[ensemble|ensemble.md]] — > [!NOTE]
+- [[experiment-log|experiment-log.md]] — ---
+- [[faq-entry|faq-entry.md]] — ---
+- [[glossary-entry|glossary-entry.md]] — ---
+- [[kpi-snapshot|kpi-snapshot.md]] — ---
+- [[legal-case|legal-case.md]] — ---
+- [[meeting-notes|meeting-notes.md]] — ---
+- [[mega-stack|mega-stack.md]] — ---
+- [[project-component|project-component.md]] — > [!NOTE]
+- [[protocol-spec|protocol-spec.md]] — ---
+- [[prototype-mvp|prototype-mvp.md]] — ---
+- [[research-note|research-note.md]] — > [!NOTE]
+- [[retrospective|retrospective.md]] — ---
+- [[rfc|rfc.md]] — ---
+- [[risk-entry|risk-entry.md]] — ---
+- [[tech-pair|tech-pair.md]] — ---
+- [[tech-radar-entry|tech-radar-entry.md]] — ---
+- [[template-of-templates|template-of-templates.md]] — ---
+- [[weekly-digest|weekly-digest.md]] — ---
 
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
+## Подразделы
 
+- [_schemas/](_schemas/) — _schemas
 
-_Создано: 2026-05-11_
+<!-- backlinks -->
 
-Готовые заготовки для создания новых документов в репозитории.
+---
 
-## Доступные шаблоны
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
 
-| Шаблон | Назначение |
-|--------|------------|
-| [[project-component|project-component.md]] | Описание отдельного OSS-компонента |
-| [[ensemble|ensemble.md]] | Ансамбль из нескольких компонентов |
-| [[research-note|research-note.md]] | Заметка об исследовании/анализе |
-| [[decision-record|decision-record.md]] | Архитектурное решение (ADR) |
-| [[contact-outreach|contact-outreach.md]] | Шаблон контакта с автором |
-
-## Использование
-
-```bash
-# Скопируйте нужный шаблон в нужную папку
-cp docs/templates/project-component.md docs/05-habr-projects/memory/new-project.md
-# Затем откройте и заполните поля в [квадратных скобках]
-```
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Шаблоны документов». Формируется автоматически.

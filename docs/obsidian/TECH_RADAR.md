@@ -7,6 +7,21 @@ date: 2026-05-11
 
 # Tech Radar — Svyazi 2.0
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Обзор](#обзор)
+- [🟢 ADOPT](#adopt)
+- [🔵 TRIAL](#trial)
+- [🟡 ASSESS](#assess)
+- [🔴 HOLD](#hold)
+- [Методология](#методология)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -123,3 +138,14 @@ _Radar обновляется вручную при существенных и�
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

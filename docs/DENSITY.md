@@ -1,5 +1,17 @@
 # Карта плотности тем
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Наиболее раскрытые темы](#наиболее-раскрытые-темы)
+- [Слабо раскрытые темы (0)](#слабо-раскрытые-темы-0)
+- [Где сосредоточена каждая тема](#где-сосредоточена-каждая-тема)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -107,3 +119,18 @@ _Все темы достаточно раскрыты_
 # Запуск
 python scripts/improve_density.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [HEATMAP](HEATMAP.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

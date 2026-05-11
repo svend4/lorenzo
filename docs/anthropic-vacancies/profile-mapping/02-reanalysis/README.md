@@ -1,16 +1,5 @@
 # 02-reanalysis
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 5
 
 ## Содержание
@@ -36,13 +25,3 @@
 - [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
 - _...ещё 1_
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «02-reanalysis». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

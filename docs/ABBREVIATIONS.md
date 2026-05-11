@@ -1,5 +1,15 @@
 # Словарь аббревиатур и сокращений
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Самые часто используемые](#самые-часто-используемые)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -185,3 +195,18 @@
 # Запуск
 python scripts/improve_abbreviations.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [03-карта-найденных-проектов-и-паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md)
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

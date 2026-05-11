@@ -1,10 +1,4 @@
 # representative-agent-layer-en
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
@@ -16,10 +10,10 @@
 - [03-what-makes-representative-agent.md](03-what-makes-representative-agent.md) — > [!NOTE]
 - [04-ten-domains.md](04-ten-domains.md) — > [!TIP]
 - [05-architectural-specification.md](05-architectural-specification.md) — > [!NOTE]
-- [06-ethical-framework.md](06-ethical-framework.md) — <!-- toc -->
+- [06-ethical-framework.md](06-ethical-framework.md) — <!-- toc-auto -->
 - [07-governance-oversight.md](07-governance-oversight.md) — <!-- toc-auto -->
-- [08-risks-mitigations.md](08-risks-mitigations.md) — <!-- toc -->
-- [09-phased-rollout.md](09-phased-rollout.md) — <!-- toc -->
+- [08-risks-mitigations.md](08-risks-mitigations.md) — <!-- toc-auto -->
+- [09-phased-rollout.md](09-phased-rollout.md) — <!-- toc-auto -->
 - [10-open-questions.md](10-open-questions.md) — <!-- toc-auto -->
 - [11-call-for-collaboration.md](11-call-for-collaboration.md) — <!-- toc-auto -->
 - [12-closing.md](12-closing.md) — > [!TIP]
@@ -39,10 +33,3 @@
 - [02-historical-precedents](02-historical-precedents.md)
 - _...ещё 7_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

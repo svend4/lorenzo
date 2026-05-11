@@ -1,16 +1,5 @@
 # npp-v1-0
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 19
 
 ## Содержание
@@ -33,7 +22,7 @@
 - [15-glossary.md](15-glossary.md) — <!-- toc-auto -->
 - [16-appendix-a-minimal-working-example.md](16-appendix-a-minimal-working-example.md) — <!-- toc-auto -->
 - [17-appendix-b-change-log.md](17-appendix-b-change-log.md) — <!-- toc-auto -->
-- [18-comment-on-document.md](18-comment-on-document.md) — <!-- toc -->
+- [18-comment-on-document.md](18-comment-on-document.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
@@ -50,10 +39,3 @@
 - [02-terminology](02-terminology.md)
 - _...ещё 12_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

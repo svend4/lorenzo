@@ -1,16 +1,5 @@
 # software-pairs
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 6
 
 ## Содержание
@@ -19,7 +8,7 @@
 - [2-pkm-mcp-skills.md](2-pkm-mcp-skills.md) — <!-- toc-auto -->
 - [3-crdt-self-hosted.md](3-crdt-self-hosted.md) — <!-- toc-auto -->
 - [4-speech-to-text-llm.md](4-speech-to-text-llm.md) — <!-- toc-auto -->
-- [5-browser-agents-headless.md](5-browser-agents-headless.md) — <!-- toc -->
+- [5-browser-agents-headless.md](5-browser-agents-headless.md) — <!-- toc-auto -->
 - [6-metaphor.md](6-metaphor.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
@@ -34,13 +23,3 @@
 - [TABLES](../../TABLES.md)
 - [5-browser-agents-headless](5-browser-agents-headless.md)
 
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «software-pairs». Формируется автоматически.
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

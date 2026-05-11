@@ -1,5 +1,18 @@
 # Diff базы знаний между версиями
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [✅ Новые файлы (13)](#новые-файлы-13)
+- [📝 Изменённые файлы (1418)](#изменённые-файлы-1418)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -115,7 +128,7 @@ _Обновлено: 2026-05-11_
 | `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` | -373 | Использование, Поиск по теме документа | — |
 | `docs/02-anthropic-vacancies/249-composite-skills-agent-md.md` | -372 | Использование, Поиск по теме документа | — |
 | `docs/obsidian/COVERAGE.md` | -368 | Полное покрытие — 16 файлов | Contents, Полное покрытие — 0 файлов, Содержание +1 |
-| `docs/obsidian/CONSISTENCY.md` | +360 | `Card Index` → должно быть `CardIndex`, `CardEnvelope` → должно быть `Card Envelope`, `LiteParser` → должно быть `LiteParse` +4 | — |
+| `docs/obsidian/CONSISTENCY.md` | +360 | `CardIndex` → должно быть `CardIndex`, `CardEnvelope` → должно быть `Card Envelope`, `LiteParser` → должно быть `LiteParse` +4 | — |
 | `docs/obsidian/01-svyazi/QA.md` | +356 | Contents, Использование, Поиск по теме документа | — |
 | `docs/obsidian/03-technology-combinations/QA.md` | +352 | Использование, Какие вопросы лучше задавать авторам при первом контакте?, Кто ключевые авторы проектов для контакта? +1 | — |
 | `docs/obsidian/02-anthropic-vacancies/64-for-the-curious-philosophy.md` | -349 | Использование, Кто ссылается на этот документ (11), Поиск по теме документа +2 | — |
@@ -154,7 +167,7 @@ _Обновлено: 2026-05-11_
 | `docs/anthropic-vacancies/clusters/13-communications.md` | +232 | Использование, Поиск по теме документа | — |
 | `docs/anthropic-vacancies/clusters/16-people.md` | +230 | Использование, Поиск по теме документа | — |
 | `docs/obsidian/05-habr-projects/memory/README.md` | +228 | Использование, Кто ссылается на этот документ (3), Похожие документы | — |
-| `docs/CONSISTENCY.md` | +226 | Contents, `EvidenceEnvelope` → должно быть `Evidence Envelope`, `Local First` → должно быть `local-first` +3 | `CardEnvelope` → должно быть `Card Envelope`, Смотрите также, Содержание |
+| `docs/CONSISTENCY.md` | +226 | Contents, `Evidence Envelope` → должно быть `Evidence Envelope`, `Local First` → должно быть `local-first` +3 | `CardEnvelope` → должно быть `Card Envelope`, Смотрите также, Содержание |
 | `docs/obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md` | +226 | Contents, Кто ссылается на этот документ (11), Похожие документы +2 | — |
 | `docs/anthropic-vacancies/clusters/15-public-benefit.md` | +224 | Использование, Поиск по теме документа | — |
 | `docs/anthropic-vacancies/clusters/14-public-policy.md` | +222 | Использование, Поиск по теме документа | — |
@@ -1237,7 +1250,7 @@ _Обновлено: 2026-05-11_
 | `docs/CITATION_INDEX.md` | -15 | Contents, `https://habr.com/ru/articles/1007122/`, Запуск +1 | `https://github.com/svend4/meta`, Содержание |
 | `docs/REPORT.md` | -15 | — | — |
 | `docs/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md` | +15 | Использование, Поиск по теме документа | — |
-| `docs/SCRIPT_EVAL_REPORT.md` | +14 | 3.2 CardIndex (improve_card_index.py), Сценка Б: Работа с CardIndex | 3.2 Card Index (improve_card_index.py), Сценка Б: Работа с Card Index |
+| `docs/SCRIPT_EVAL_REPORT.md` | +14 | 3.2 CardIndex (improve_card_index.py), Сценка Б: Работа с CardIndex | 3.2 CardIndex (improve_card_index.py), Сценка Б: Работа с CardIndex |
 | `docs/02-anthropic-vacancies/31-content-overview.md` | +13 | Использование, Поиск по теме документа | — |
 | `docs/obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md` | +13 | Использование, Кто ссылается на этот документ (8), Поиск по теме документа +2 | — |
 | `docs/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md` | +13 | Использование, Поиск по теме документа | — |
@@ -1536,3 +1549,19 @@ python scripts/improve_version_diff.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [yodoca](05-habr-projects/memory/yodoca.md)
+- [ABBREVIATIONS](ABBREVIATIONS.md)
+- [AUTOFILLED](AUTOFILLED.md)
+- [PRIORITIES](PRIORITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

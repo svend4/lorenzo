@@ -45,3 +45,18 @@
 
 ---
 _Создано: 2026-05-11_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [READABILITY](../READABILITY.md)
+- [REGISTRY](../REGISTRY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+- [TASKS_INDEX](../TASKS_INDEX.md)
+- [research-summary](../autofilled/research-summary.md)
+- [README](README.md)
+- [meeting-notes](meeting-notes.md)
+

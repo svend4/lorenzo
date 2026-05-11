@@ -1,51 +1,41 @@
 # Авторы и коллаборации
-<!-- tags: authors, docs -->
-
-
-<!-- summary -->
-> `AUTHORS` — раздел документации проекта Lorenzo.
-
-
-> [!NOTE]
-> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
-
-<!-- alert-added -->
 
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 112 |
-| **Antipozitive** | 69 |
-| **BerriAI** | 23 |
+| **AnastasiyaW** | 129 |
+| **Antipozitive** | 79 |
+| **BerriAI** | 22 |
 | **Cutcode** | 79 |
 | **Dmitriila** | 69 |
-| **MiXaiLL76** | 62 |
-| **Sonia_Black** | 41 |
-| **VitaliySemenov** | 27 |
-| **VitalyOborin** | 87 |
-| **VladSpace** | 86 |
+| **MiXaiLL76** | 63 |
+| **Sonia_Black** | 43 |
+| **VitaliySemenov** | 33 |
+| **VitalyOborin** | 101 |
+| **VladSpace** | 89 |
 | **akazant** | 20 |
 | **akzhankalimatov** | 16 |
 | **andrey_chuyan** | 33 |
-| **iximy** | 17 |
-| **kksudo** | 176 |
-| **lee-to** | 23 |
+| **iximy** | 18 |
+| **kksudo** | 193 |
+| **lee-to** | 24 |
 | **lib4u** | 32 |
 | **moshael** | 26 |
-| **nlaik** | 63 |
-| **spbmolot** | 153 |
-| **tagir_analyzes** | 30 |
+| **nlaik** | 79 |
+| **spbmolot** | 167 |
+| **tagir_analyzes** | 29 |
 | **vpakspace** | 16 |
-| **zodigancode** | 81 |
-| **Андрей Чуян** | 73 |
-| **Виталий Оборин** | 17 |
+| **zodigancode** | 89 |
+| **Андрей Чуян** | 72 |
+| **Виталий Оборин** | 18 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (6):**
+**Кто ссылается на этот документ (7):**
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
@@ -53,21 +43,3 @@
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [authors-by-name](glossary/authors-by-name.md)
-- [.md](autofilled/components/.md)
-- [cowork](autofilled/components/cowork.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_authors.py
-```

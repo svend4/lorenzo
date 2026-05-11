@@ -9,6 +9,36 @@ date: 2026-05-11
 
 # Согласованность терминов
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Детали по файлам](#детали-по-файлам)
+  - [`knowledge space` → должно быть `knowledge-space`](#knowledge-space-должно-быть-knowledge-space)
+  - [`knowledge_space` → должно быть `knowledge-space`](#knowledge_space-должно-быть-knowledge-space)
+  - [`knowledgespace` → должно быть `knowledge-space`](#knowledgespace-должно-быть-knowledge-space)
+  - [`Card Index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`card index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`card-index` → должно быть `CardIndex`](#card-index-должно-быть-cardindex)
+  - [`AI-Factory` → должно быть `AI Factory`](#ai-factory-должно-быть-ai-factory)
+  - [`NGT-Memory` → должно быть `NGT Memory`](#ngt-memory-должно-быть-ngt-memory)
+  - [`LiteParser` → должно быть `LiteParse`](#liteparser-должно-быть-liteparse)
+  - [`Auto-AI-Router` → должно быть `Auto AI Router`](#auto-ai-router-должно-быть-auto-ai-router)
+  - [`local first` → должно быть `local-first`](#local-first-должно-быть-local-first)
+  - [`localfirst` → должно быть `local-first`](#localfirst-должно-быть-local-first)
+  - [`Local First` → должно быть `local-first`](#local-first-должно-быть-local-first)
+  - [`agent memory mcp` → должно быть `agent-memory-mcp`](#agent-memory-mcp-должно-быть-agent-memory-mcp)
+  - [`self-improve` → должно быть `self-improvement`](#self-improve-должно-быть-self-improvement)
+  - [`selfimprovement` → должно быть `self-improvement`](#selfimprovement-должно-быть-self-improvement)
+  - [`Svyazi-2.0` → должно быть `Svyazi 2.0`](#svyazi-20-должно-быть-svyazi-20)
+  - [`Evidence-Envelope` → должно быть `Evidence Envelope`](#evidence-envelope-должно-быть-evidence-envelope)
+  - [`EvidenceEnvelope` → должно быть `Evidence Envelope`](#evidenceenvelope-должно-быть-evidence-envelope)
+  - [`Card-Envelope` → должно быть `Card Envelope`](#card-envelope-должно-быть-card-envelope)
+- [Как исправить](#как-исправить)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -264,4 +294,15 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [[TAGS]]
 - [[STATS]]
 - [[STALENESS]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
 

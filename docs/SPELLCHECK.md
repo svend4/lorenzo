@@ -242,3 +242,14 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 - [LLM_SUMMARIES](LLM_SUMMARIES.md)
 - [CONTENT_GAPS](CONTENT_GAPS.md)
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

@@ -442,6 +442,7 @@
   <url><loc>docs/CROSSREFS.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/CROSS_SECTION.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/DECISIONS.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/DEMO.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/DENSITY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/DEPENDABOT.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/DEPENDENCY_MAP.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -453,6 +454,7 @@
   <url><loc>docs/ENTITIES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/FAQ.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/FOOTNOTES.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/GATEWAY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/GITHUB_ISSUES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/GLOSSARY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/GRAPH.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -481,6 +483,7 @@
   <url><loc>docs/OUTLINE.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/PARAGRAPH_QUALITY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/PASSIVE_VOICE.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/PRECISION_EVAL.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/PRIORITIES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/PROGRESS.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/PROTOTYPE_SPEC.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -502,6 +505,7 @@
   <url><loc>docs/SEARCH_RESULTS.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/SEE_ALSO.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/SENTIMENT.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/SENTINEL.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/SIMILAR.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/SIMILAR_PASSAGES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/SKILL_DASHBOARD.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -754,6 +758,16 @@
   <url><loc>docs/habr-unique-projects/software-pairs/5-browser-agents-headless.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/habr-unique-projects/software-pairs/6-metaphor.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/habr-unique-projects/software-pairs/README.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/QA.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/README.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/anastasiyaw.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/antipozitive.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/kksudo.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/nlaik.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/spbmolot.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/vitalyoborin.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/vitalysemenov.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/letters/zodigancode.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/lorenzo-agent/00-intro.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/lorenzo-agent/01-kto-ty.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/lorenzo-agent/02-tvoyo-proishozhdenie.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1518,6 +1532,7 @@
   <url><loc>docs/obsidian/CROSSREFS.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/CROSS_SECTION.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/DECISIONS.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/DEMO.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/DENSITY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/DEPENDABOT.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/DEPENDENCY_MAP.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1529,6 +1544,7 @@
   <url><loc>docs/obsidian/ENTITIES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/FAQ.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/FOOTNOTES.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/GATEWAY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/GITHUB_ISSUES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/GLOSSARY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/GRAPH.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1556,6 +1572,7 @@
   <url><loc>docs/obsidian/OUTLINE.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/PARAGRAPH_QUALITY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/PASSIVE_VOICE.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/PRECISION_EVAL.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/PRIORITIES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/PROGRESS.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/PROTOTYPE_SPEC.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1575,6 +1592,7 @@
   <url><loc>docs/obsidian/SEARCH_RESULTS.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/SEE_ALSO.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/SENTIMENT.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/SENTINEL.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/SIMILAR.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/SIMILAR_PASSAGES.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/SKILL_DASHBOARD.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1593,6 +1611,7 @@
   <url><loc>docs/obsidian/VOCABULARY.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/WORD_CLOUD.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/WORD_FREQ.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/ai-collaborations/QA.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/ai-collaborations/README.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/ai-collaborations/candidates/01-three-key-candidates.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/ai-collaborations/candidates/02-related-projects-context.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1748,6 +1767,7 @@
   <url><loc>docs/obsidian/autofilled/components/svyazi.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/autofilled/research-summary.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/badges/README.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/contacts/QA.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/contacts/README.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/contacts/anastasiyaw.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/contacts/andrey-chuyan.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -1824,6 +1844,15 @@
   <url><loc>docs/obsidian/habr-unique-projects/software-pairs/5-browser-agents-headless.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/habr-unique-projects/software-pairs/6-metaphor.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/habr-unique-projects/software-pairs/README.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/README.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/anastasiyaw.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/antipozitive.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/kksudo.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/nlaik.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/spbmolot.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/vitalyoborin.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/vitalysemenov.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/letters/zodigancode.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/lorenzo-agent/00-intro.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/lorenzo-agent/01-kto-ty.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/lorenzo-agent/02-tvoyo-proishozhdenie.md</loc><lastmod>2026-05-11</lastmod></url>
@@ -2162,6 +2191,7 @@
   <url><loc>docs/obsidian/processing-guide/QA.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/processing-guide/README.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/reading-paths.md</loc><lastmod>2026-05-11</lastmod></url>
+  <url><loc>docs/obsidian/svyazi-2-0/QA.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/svyazi-2-0/README.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/svyazi-2-0/architecture/README.md</loc><lastmod>2026-05-11</lastmod></url>
   <url><loc>docs/obsidian/svyazi-2-0/architecture/card-envelope.md</loc><lastmod>2026-05-11</lastmod></url>
