@@ -1,5 +1,15 @@
 # Чем Svyazi 2.0 отличается от Notion AI / Mem / AFFiNE / LangGraph
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 

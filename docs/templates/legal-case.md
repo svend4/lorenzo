@@ -12,6 +12,10 @@ tags: [legal, case]
 
 # Юридический кейс: [Aktenzeichen]
 
+<!-- summary -->
+> `legal-case` — раздел документации проекта Lorenzo.
+
+
 <!-- toc-auto -->
 ## Содержание
 

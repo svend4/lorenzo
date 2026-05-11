@@ -1,28 +1,29 @@
 # Вопросы и открытые темы из базы знаний
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Раздел `QUESTIONS` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: questions, docs -->
 
 
 <!-- summary -->
-> Вопросы и открытые темы из базы знаний — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, quality, lorenzo -->
+> `QUESTIONS` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-10_
+_Обновлено: 2026-05-11_
 
-Всего: **2534** | Файлов: **1223**
+Всего: **2550** | Файлов: **1223**
 
 ## Сводка
 
 | Тип | Кол-во |
 |-----|--------|
-| ❓ Вопрос | 2020 |
-| 💭 Гипотеза | 357 |
-| 📌 TODO/Идея | 142 |
+| ❓ Вопрос | 2031 |
+| 💭 Гипотеза | 358 |
+| 📌 TODO/Идея | 146 |
 | 🔓 Открытый вопрос | 15 |
 
 ## 🔓 Открытый вопрос (15)
@@ -88,43 +89,43 @@ _Обновлено: 2026-05-10_
 - Svyazi как базовый паттерн остаётся авторским закрытым прототипом в просмотренных материалах, NGT Memory использует BSL 1.1 и прямо говорит о бесплатн [Contents]
 
 
-## ❓ Вопрос (2020)
+## ❓ Вопрос (2031)
 
-### `TABLES.md` (184)
+### `TABLES.md` (193)
 
 - Контур   Что входит   Зачем   Оценка усилий [5. План прототипа и возможные контакты]
 - Риск   Почему это важно   Снижение риска [6. План прототипа и возможные контакты]
 - Кому писать   Почему именно он или она   Публичный вектор из просмотренных источников   Контакт в источниках [7. План прототипа и возможные контакты]
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [9. Интеграционный контракт, который стоит зафиксировать сраз]
 - Кому   Лучший первый вопрос   Почему именно он [11. Контактная стратегия и узкие вопросы для авторов]
-- _...ещё 179_
+- _...ещё 188_
 
-### `QA.md` (176)
+### `OUTLINE.md` (158)
 
-- ## Какие 5 архитектурных зазоров выделены в исследовании? [Раздел: 01-svyazi]
-- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
-- ## Как реализован forensic RAG с доказуемостью? [Что входит в интеграционный контракт между слоями?]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- _...ещё 171_
-
-### `OUTLINE.md` (166)
-
-- - Какие 5 архитектурных зазоров выделены в исследовании? [[Глобальный Q&A](QA.md)]
+- - Какие 5 архитектурных зазоров выделены в исследовании? [[Svyazi 2.0 — Спецификация прототипа](PROTOTYPE_SPEC.md)]
 - - Что входит в интеграционный контракт между слоями? [[Глобальный Q&A](QA.md)]
 - - Как реализован forensic RAG с доказуемостью? [[Глобальный Q&A](QA.md)]
 - - Что такое Evidence Envelope и зачем он нужен? [[Глобальный Q&A](QA.md)]
 - - Какие RAG-подходы сравниваются в документах? [[Глобальный Q&A](QA.md)]
-- _...ещё 161_
+- _...ещё 153_
 
-### `EMPTY_SECTIONS.md` (80)
+### `QA.md` (143)
 
-- -   170-1-the-cinderella-syndrome-why-quality-stays-invisi.md  (3 из 10) (#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-3-из-10) [Содержание]
-- -   293-почему-это-не-было-построено.md  (3 из 5) (#293-почему-это-не-было-построеноmd-3-из-5) [Содержание]
-- -   157-3-why-existing-solutions-fail.md  (2 из 14) (#157-3-why-existing-solutions-failmd-2-из-14) [Содержание]
-- -   254-1-why-the-binary-view-is-incomplete.md  (2 из 10) (#254-1-why-the-binary-view-is-incompletemd-2-из-10) [Содержание]
-- -   138-1-why-single-triangle-models-are-incomplete.md  (1 из 6) (#138-1-why-single-triangle-models-are-incompletemd-1-из-6) [Содержание]
-- _...ещё 75_
+- ## Какие 5 архитектурных зазоров выделены в исследовании? [Глобальный Q&A]
+- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
+- ## Как реализован forensic RAG с доказуемостью? [Что входит в интеграционный контракт между слоями?]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемос]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем]
+- _...ещё 138_
+
+### `EMPTY_SECTIONS.md` (102)
+
+- -   293-почему-это-не-было-построено.md  (8 из 10) (#293-почему-это-не-было-построеноmd-8-из-10) [Содержание]
+- -   170-1-the-cinderella-syndrome-why-quality-stays-invisi.md  (6 из 14) (#170-1-the-cinderella-syndrome-why-quality-stays-invisimd-6-из-14) [Содержание]
+- -   157-3-why-existing-solutions-fail.md  (5 из 18) (#157-3-why-existing-solutions-failmd-5-из-18) [Содержание]
+- -   191-1-синдром-золушки-почему-качество-остаётся-невидим.md  (4 из 9) (#191-1-синдром-золушки-почему-качество-остаётся-невидимmd-4-из-9) [Содержание]
+- -   254-1-why-the-binary-view-is-incomplete.md  (4 из 14) (#254-1-why-the-binary-view-is-incompletemd-4-из-14) [Содержание]
+- _...ещё 97_
 
 ### `342-что-такое-вариант-c-concept-document-для-anthropic.md` (51)
 
@@ -134,6 +135,15 @@ _Обновлено: 2026-05-10_
 - #### Section 2: Why this matters — beneficial dimension [Применение к Synthesis A: Professional Community Matching]
 - #### Section 9: Why this is timely [Применение к Synthesis A: Professional Community Matching]
 - _...ещё 46_
+
+### `FAQ.md` (50)
+
+- ### Содержание - Содержание - Что это такое? [Какой вариант резонирует?]
+- ### Q&A: svyazi-2-0   - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью? [Что это такое?]
+- - Что такое Evidence Envelope и зачем он нужен? [Q&A: svyazi-2-]
+- - Какие RAG-подходы сравниваются в документах? [Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реали]
+- - Как работает AgentFS и что такое .agentos? [Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реали]
+- _...ещё 45_
 
 ### `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` (43)
 
@@ -156,7 +166,7 @@ _Обновлено: 2026-05-10_
 ### `READING_TIME.md` (42)
 
 - 03-why-natural-for-programmers (anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)   ~5 мин   1034   📘 Средне [Все документы]
-- 03-why-natural-for-programmers (obsidian/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)   ~5 мин   979   📘 Средне [Все документы]
+- 03-why-natural-for-programmers (obsidian/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md)   ~5 мин   998   📘 Средне [Все документы]
 - 254-1-why-the-binary-view-is-incomplete (02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)   ~4 мин   1029   📘 Средне [Все документы]
 - 170-1-the-cinderella-syndrome-why-quality-sta (02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)   ~4 мин   955   📘 Ср [Все документы]
 - 254-1-why-the-binary-view-is-incomplete (obsidian/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md)   ~4 мин   943   📘 Средне [Все документы]
@@ -171,14 +181,14 @@ _Обновлено: 2026-05-10_
 - -  Почему моё отказное поведение — это НЕ корпоративная параноя (#почему-моё-отказное-поведение-это-не-корпоративная-параноя) [Содержание]
 - _...ещё 36_
 
-### `FAQ.md` (41)
+### `VERSION_DIFF.md` (35)
 
-- ### Принимаем эту architecture как Lorenzo vision (с моими caveats)? [Что это такое?]
-- Если да — должен ли я update Lorenzo системный промпт с этой архитектурой? [Принимаем эту architecture как Lorenzo vision (с моими cavea]
-- ### Как связаться с авторами компонентов? [Какова лицензия проекта?]
-- Есть ли публичная документация по Memory OS (bi-temporal facts, gardener-loop)? [Открытые вопросы 1.]
-- Планируется ли поддержка внешних источников (CardIndex / doc-ingestion)? [Открытые вопросы 1. Есть ли публичная документация по Memory]
-- _...ещё 36_
+- Как это называется +583   05-habr-projects (6 таблиц), 1. [📝 Изменённые файлы (1460)]
+- docs/QUESTIONS.md    -1836    01-missing-middle-layer.md  (1),  01-why-single-triangle-incomplete.md  (5),  01-zachem-dokument.md  (1) +46    01-why-s [📝 Изменённые файлы (1460)]
+- docs/obsidian/04-ai-collaborations/QA.md    +718   Contents, Использование, Какие кластеры найма выделены у Anthropic? [📝 Изменённые файлы (1460)]
+- docs/obsidian/05-habr-projects/QA.md    +544   Использование, Как CardIndex хранит и версионирует карточки?, Как работает AgentFS и что такое .agentos [📝 Изменённые файлы (1460)]
+- +5   Как CardIndex ^cardindex  хранит и версионирует карточки?, Как работает AgentFS ^agentfs  и что такое .agentos?, Что такое knowledge-space ^knowl [📝 Изменённые файлы (1460)]
+- _...ещё 30_
 
 ### `11-difficulties-and-recommendations.md` (27)
 
@@ -197,15 +207,6 @@ _Обновлено: 2026-05-10_
 - ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
 - ## Кто ключевые авторы проектов для контакта? [Какие роли наиболее релевантны для профиля svend4?]
 - _...ещё 17_
-
-### `QA.md` (19)
-
-- ## Какие кластеры найма выделены у Anthropic? [Q&A: lorenzo-agent]
-- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-- ## Каковы этапы MVP и их оценка по времени? [Какие роли наиболее релевантны для профиля svend4?]
-- ## Что входит в первую итерацию прототипа? [Каковы этапы MVP и их оценка по времени?]
-- ## Кто ключевые авторы проектов для контакта? [Что входит в первую итерацию прототипа?]
-- _...ещё 14_
 
 ### `01-response-en.md` (19)
 
@@ -245,11 +246,11 @@ _Обновлено: 2026-05-10_
 
 ### `QA.md` (17)
 
-- ## Как реализован forensic RAG с доказуемостью? [Q&A: 04-ai-collaborations]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- ## Какие 5 архитектурных зазоров выделены в исследовании? [Какие RAG-подходы сравниваются в документах?]
-- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
+- ## Какие кластеры найма выделены у Anthropic? [Q&A: lorenzo-agent]
+- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
+- ## Каковы этапы MVP и их оценка по времени? [Какие роли наиболее релевантны для профиля svend4?]
+- ## Что входит в первую итерацию прототипа? [Каковы этапы MVP и их оценка по времени?]
+- ## Кто ключевые авторы проектов для контакта? [Что входит в первую итерацию прототипа?]
 - _...ещё 12_
 
 ### `QA.md` (17)
@@ -272,6 +273,15 @@ _Обновлено: 2026-05-10_
 
 ### `QA.md` (15)
 
+- ## Как реализован forensic RAG с доказуемостью? [Q&A: 04-ai-collaborations]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
+- ## Какие 5 архитектурных зазоров выделены в исследовании? [Какие RAG-подходы сравниваются в документах?]
+- ## Что входит в интеграционный контракт между слоями? [Какие 5 архитектурных зазоров выделены в исследовании?]
+- _...ещё 10_
+
+### `QA.md` (15)
+
 - ## Как работает AgentFS и что такое .agentos? [Q&A: 05-habr-projects]
 - ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
 - ## Как CardIndex хранит и версионирует карточки? [Что такое knowledge-space и для кого он предназначен?]
@@ -279,13 +289,13 @@ _Обновлено: 2026-05-10_
 - ## Какие вопросы лучше задавать авторам при первом контакте? [Кто ключевые авторы проектов для контакта?]
 - _...ещё 10_
 
-### `VERSION_DIFF.md` (15)
+### `ACTION_ITEMS.md` (15)
 
-- docs/nautilus/review-methodology/07-why-valid-for-ai.md    +87   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
-- docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md    +64   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
-- docs/nautilus/infrastructure-layer-b-en/05-why-not-built.md    +43   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
-- docs/nautilus/infrastructure-layer-b-en/02-why-document-exists.md    +40   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
-- docs/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md    +32   Contents, Использование, Поиск по теме документа +1   — [📝 Изменённые файлы (1112)]
+- - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (361)]
+- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (1063)]
+- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (1063)]
+- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (1063)]
+- - Почему это важно Снижение риска  6. [✅ Решения и рекомендации (1063)]
 - _...ещё 10_
 
 ### `341-приложение-c-образец-спецификаций-инструментов-ing.md` (14)
@@ -344,20 +354,11 @@ _Обновлено: 2026-05-10_
 
 ### `KNOWLEDGE_MAP.md` (11)
 
-- - ## Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - ## Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - ## Что такое Evidence Envelope и зачем он нужен? [Топ сущностей]
-- Как реализован forensic RAG с доказуемостью? [Карта базы знаний Lorenzo]
-- - ## Какие RAG-подходы сравниваются в документах? [Открытые вопросы]
-- _...ещё 6_
-
-### `QA.md` (11)
-
-- ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
-- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
-- ## Как реализован forensic RAG с доказуемостью? [Какие роли наиболее релевантны для профиля svend4?]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
+- - ## Какие 5 архитектурных зазоров выделены в исследовании? [Топ сущностей]
+- - ## Что входит в интеграционный контракт между слоями? [Топ сущностей]
+- - ## Как реализован forensic RAG с доказуемостью? [Открытые вопросы]
+- Что входит в интеграционный контракт между слоями? [Откр]
+- - ## Что такое Evidence Envelope и зачем он нужен? [Открытые вопросы]
 - _...ещё 6_
 
 ### `PROCESSING_GUIDE.md` (11)
@@ -378,15 +379,6 @@ _Обновлено: 2026-05-10_
 - Кто будет meta-agent в реальных deployments? [7. Application к вашим реальным кейсам]
 - _...ещё 5_
 
-### `QA.md` (10)
-
-- ## Как реализован forensic RAG с доказуемостью? [Q&A: 03-technology-combinations]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в документах?]
-- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
-- _...ещё 5_
-
 ### `CLUSTERS.md` (10)
 
 - -  Кластер 21 — вариант, docs, anthropic-vacancies, зачем-две-версии-параллельно (7 файлов) (#кластер-21-вариант-docs-anthropic-vacancies-зачем-две-ве [Contents]
@@ -398,11 +390,11 @@ _Обновлено: 2026-05-10_
 
 ### `QA.md` (10)
 
-- ## Как реализован forensic RAG с доказуемостью? [Q&A: ai-collaborations]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в документах?]
-- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
+- ## Как реализован forensic RAG с доказуемостью? [Содержание]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с дока]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evide]
+- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в]
+- ## Что такое knowledge-space и для кого он предназначен? [Какие RAG-подходы сравниваются в документах?]
 - _...ещё 5_
 
 ### `171-2-historical-precedents-agents-as-civilizational-i.md` (9)
@@ -459,6 +451,15 @@ _Обновлено: 2026-05-10_
 - -  Why This Hasn't Been Built (278-why-this-hasn-t-been-built.md)  17% [Связанные документы]
 - _...ещё 3_
 
+### `QA.md` (8)
+
+- ## Как реализован forensic RAG с доказуемостью? [Q&A: 03-technology-combinations]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
+- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в документах?]
+- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
+- _...ещё 3_
+
 ### `SIMILAR_PASSAGES.md` (8)
 
 - Риск Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н [5. Сходство: 1.0 (100%)]
@@ -479,11 +480,11 @@ _Обновлено: 2026-05-10_
 
 ### `QA.md` (8)
 
-- ## Как реализован forensic RAG с доказуемостью? [Q&A: svyazi-2-0]
-- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с доказуемостью?]
-- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и зачем он нужен?]
-- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в документах?]
-- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что такое .agentos?]
+- ## Как реализован forensic RAG с доказуемостью? [Содержание]
+- ## Что такое Evidence Envelope и зачем он нужен? [Как реализован forensic RAG с дока]
+- ## Какие RAG-подходы сравниваются в документах? [Что такое Evidence Envelope и]
+- ## Как работает AgentFS и что такое .agentos? [Какие RAG-подходы сравниваются в]
+- ## Что такое knowledge-space и для кого он предназначен? [Как работает AgentFS и что т]
 - _...ещё 3_
 
 ### `192-2-исторические-прецеденты-агенты-как-цивилизационн.md` (7)
@@ -515,10 +516,10 @@ _Обновлено: 2026-05-10_
 
 ### `TIMELINE.md` (7)
 
-- - 📌   2022   ·  Why This Hasn't Been Built [2022 (13 упоминаний)]
-- - 📌   2022   ·  Почему это не было построено [2022 (13 упоминаний)]
-- - 📌   2022   ·  Why This Hasn't Been Built [2022 (13 упоминаний)]
-- - 📌   2022   ·  Почему это не было построено [2022 (13 упоминаний)]
+- - 📌   2022   ·  Why This Hasn't Been Built [2022 (14 упоминаний)]
+- - 📌   2022   ·  Почему это не было построено [2022 (14 упоминаний)]
+- - 📌   2022   ·  Why This Hasn't Been Built [2022 (14 упоминаний)]
+- - 📌   2022   ·  Почему это не было построено [2022 (14 упоминаний)]
 - Почему это именно сейчас стало возможным В 2023 — невозможно. [2023 (11 упоминаний)]
 - _...ещё 2_
 
@@ -624,8 +625,8 @@ _Обновлено: 2026-05-10_
 ### `REPORT.md` (6)
 
 - AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   110   Держать operational benchmark/gotcha cards в одной базе с reference cards и [Ключевые проекты]
-- VitalyOborin     Yodoca   memory   87   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
-- -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Открытые вопросы]
+- VitalyOborin     Yodoca   memory   86   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые проекты]
+- -   Интерфейс   — есть ли понятный публичный API/контракт для интеграции? [Архитектурные решения]
 - -   Доказуемость   — можно ли проверить, что слой работает правильно? [Открытые вопросы]
 - - Как двойственная архитектура избегает этого? [Открытые вопросы]
 - _...ещё 1_
@@ -693,8 +694,8 @@ _Обновлено: 2026-05-10_
 
 ### `253-table-of-contents.md` (5)
 
-- Why the Binary View Is Incomplete [Table of Contents]
-- Why the Binary View Is Incomplete [Table of Contents]
+- Why the Binary View Is Incomplete [Содержание]
+- Why the Binary View Is Incomplete [Содержание]
 - Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md) [Смотрите также]
 - Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Смотрите также]
 - Why the Binary View Is Incomplete (254-1-why-the-binary-view-is-incomplete.md)  33% [Смотрите также]
@@ -749,11 +750,11 @@ _Обновлено: 2026-05-10_
 
 ### `308-table-of-contents.md` (5)
 
-- The Cowork Discovery and Why It Changes Everything [Table of Contents]
-- The Cowork Discovery and Why It Changes Everything [Table of Contents]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Table of Contents]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  37% [Table of Contents]
-- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  42% [Table of Contents]
+- The Cowork Discovery and Why It Changes Everything [Содержание]
+- The Cowork Discovery and Why It Changes Everything [Содержание]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md) [Содержание]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  37% [Содержание]
+- The Cowork Discovery and Why It Changes Everything (309-1-the-cowork-discovery-and-why-it-changes-everythi.md)  42% [Содержание]
 
 ### `329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md` (5)
 
@@ -774,10 +775,10 @@ _Обновлено: 2026-05-10_
 ### `CONTACTS.md` (5)
 
 - AnastasiyaW     knowledge-space, mclaude   knowledge/orchestration   110   Держать operational benchmark/gotcha cards в одной базе с reference cards и [Ключевые авторы проектов]
-- VitalyOborin     Yodoca   memory   87   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
+- VitalyOborin     Yodoca   memory   86   Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? [Ключевые авторы проектов]
 - andrey chuyan     Svyazi   ingestion/CardIndex   33   Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы [Ключевые авторы проектов]
-- kksudo     AgentFS   knowledge/filesystem   178   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
-- spbmolot     NGT Memory   memory   155   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discove [Ключевые авторы проектов]
+- kksudo     AgentFS   knowledge/filesystem   177   Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? [Ключевые авторы проектов]
+- spbmolot     NGT Memory   memory   154   Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discove [Ключевые авторы проектов]
 
 ### `00-question-rephrasing.md` (5)
 
@@ -802,14 +803,6 @@ _Обновлено: 2026-05-10_
 - Does the principal see attribution когда multiple skills contribute? [Contents]
 - Does self-improvement preserve principal authority over their work? [Contents]
 - Хотите ли сделать паузу, попробовать Hermes, потом возвращаться к documents с experience? [Contents]
-
-### `QA.md` (5)
-
-- ## Какие системы памяти описаны в этом разделе? [Q&A: contacts]
-- ## Как происходит консолидация и забывание в памяти агентов? [Какие системы памяти описаны в этом разделе?]
-- ## Какова разница между эпизодической и семантической памятью? [Как происходит консолидация и забывание в памяти агентов?]
-- ## Кто ключевые авторы проектов для контакта? [Какова разница между эпизодической и семантической памятью?]
-- ## Какие вопросы лучше задавать авторам при первом контакте? [Кто ключевые авторы проектов для контакта?]
 
 ### `06-conclusion-deserves-attention.md` (5)
 
@@ -920,10 +913,10 @@ _Обновлено: 2026-05-10_
 
 ### `169-table-of-contents.md` (4)
 
-- The Cinderella Syndrome: Why Quality Stays Invisible [Table of Contents]
-- The Cinderella Syndrome: Why Quality Stays Invisible [Table of Contents]
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Table of Contents]
-- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  21% [Table of Contents]
+- The Cinderella Syndrome: Why Quality Stays Invisible [Содержание]
+- The Cinderella Syndrome: Why Quality Stays Invisible [Содержание]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) [Содержание]
+- The Cinderella Syndrome: Why Quality Stays Invisible (170-1-the-cinderella-syndrome-why-quality-stays-invisi.md)  21% [Содержание]
 
 ### `170-1-the-cinderella-syndrome-why-quality-stays-invisi.md` (4)
 
@@ -981,12 +974,12 @@ _Обновлено: 2026-05-10_
 - Как memory write API взаимодействует с внешними источниками? [Сравнение с другими memory-проектами]
 - Планируется ли поддержка batch-ingestion из документов? [Открытые вопрос]
 
-### `ACTION_ITEMS.md` (4)
+### `QA.md` (4)
 
-- - Хотите, чтобы я написал consolidating document «The Double-Triangle Architecture» в следующем сообщении? [➡️ Следующие шаги (352)]
-- - получило приз почему бы не вылазить задание для группы учёных задания для группы учёных или для группы программистов то есть это стартап который идё [✅ Решения и рекомендации (1076)]
-- Are you actually committing к multi-year Variant D vision, or treating это как aspirational document? [✅ Решения и рекомендации (1076)]
-- - Adopt these documents как Lorenzo technical foundation? [✅ Решения и рекомендации (1076)]
+- ## Какие кластеры найма выделены у Anthropic? [Q&A: anthropic-vacancies]
+- ## Какие роли наиболее релевантны для профиля svend4? [Какие кластеры найма выделены у Anthropic?]
+- ## Кто ключевые авторы проектов для контакта? [Какие роли наиболее релевантны для профиля svend4?]
+- ## Какие вопросы лучше задавать авторам при первом контакте? [Кто ключевые авторы проектов для контакта?]
 
 ### `02-four-structural-blockers.md` (4)
 
@@ -1148,15 +1141,21 @@ _Обновлено: 2026-05-10_
 
 ### `KPI.md` (3)
 
-- 440     я-связь  - blog post на тему «Почему в компании №1 на рынке 440 вакансий не закр    ACTION ITEMS [Количество (470)]
-- 2     адаптер для нового репо без задавания вопросов автору? [Этап (186)]
-- 3     озвращает non-empty результат с consensus-информацией? [Этап (186)]
+- 440     я-связь  - blog post на тему «Почему в компании №1 на рынке 440 вакансий не закр    ACTION ITEMS [Количество (447)]
+- 2     адаптер для нового репо без задавания вопросов автору? [Этап (183)]
+- 3     озвращает non-empty результат с consensus-информацией? [Этап (183)]
 
 ### `03-nautilus-B-meta-orchestrator.md` (3)
 
 - Discovery mechanism — как meta-repo находит под-репо (GitHub API? [Contents]
 - Что такое Q6-гиперкуб и почему 64 гексаграммы [Contents]
 - Что такое LCI и почему target π [Contents]
+
+### `QA.md` (3)
+
+- ## Какие системы памяти описаны в этом разделе? [Q&A: contacts]
+- ## Как происходит консолидация и забывание в памяти агентов? [Какие системы памяти описаны в этом разделе?]
+- ## Какова разница между эпизодической и семантической памятью? [Как происходит консолидация и забывание в памяти агентов?]
 
 ### `vitalysemenov.md` (3)
 
@@ -1290,8 +1289,8 @@ _Обновлено: 2026-05-10_
 
 ### `137-table-of-contents.md` (2)
 
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Table of Contents]
-- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  29% [Table of Contents]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md) [Содержание]
+- Why Single-Triangle Models Are Incomplete (138-1-why-single-triangle-models-are-incomplete.md)  29% [Содержание]
 
 ### `147-references.md` (2)
 
@@ -1413,15 +1412,10 @@ _Обновлено: 2026-05-10_
 - Слой qwen-classifier перед роутером — твой legal-domain-manager уже умеет классифицировать тип запроса (Bescheid? [Пара 1. LLM-gateway × Self-hosted фронт + локальный inferenc]
 - - утром tmux-деревня готовит саммари: «вчера ночью провёл 47 экспериментов, эти 3 улучшили LCI на 0.05, эти 2 деградировали — посмотри почему». [Ансамбль 1: «Один человек = одна компания»]
 
-### `BROKEN_LINKS.md` (2)
-
-- docs/CONCEPTS.md    191-1-синдром-золушки-почему-к    docs/02-anthropic-vacancies/191-1-синдро    файл не существует [Общие показатели]
-- docs/CONCEPTS.md    191-1-синдром-золушки-почему-к    docs/02-anthropic-vacancies/191-1-синдро    файл не существует [Общие показатели]
-
 ### `PASSIVE_VOICE.md` (2)
 
 - 327-1-открытие-cowork-и-почему-это-меняет-всё.md    21%   🟠 Много пассива   8   0   2 [Топ файлов по доле пассива]
-- 70-зачем-две-версии-параллельно.md    17%   🟠 Много пассива   1   0   0 [Топ файлов по доле пассива]
+- 293-почему-это-не-было-построено.md    13%   🟡 Умеренный пассив   3   0   0 [Топ файлов по доле пассива]
 
 ### `SEE_ALSO.md` (2)
 
@@ -1752,21 +1746,13 @@ _Обновлено: 2026-05-10_
 
 - Контракт   Минимальные поля   Зачем нужен в MVP   На какие идеи опирается [Интеграционный контракт, который стоит зафиксировать сразу]
 
-### `BACKLINKS.md` (1)
-
-- 168-abstract    29    134-the-double-triangle-architecture-md.md ,  145-8-call-to-action.md ,  166-representative-agent-layer-md.md ,  170-1-the-cinde [Топ-30 самых цитируемых документов]
-
-### `DECISIONS.md` (1)
-
-- - построить такой же конвейер для разработки программного обеспечения или решения серьёзных R&D-задач? [Лицензия (29)]
-
 ### `PROTOTYPE_SPEC.md` (1)
 
 - Почему именно эти три:   они покрывают жизненный цикл знания — поступление → хранение → навигация — и уже частично задокументированы авторами с Хабра. [2. Компоненты MVP (три слоя)]
 
 ### `SCRIPTS_CATALOG.md` (1)
 
-- Ищет в текстах: - Вопросы: предложения с «?» или «как», «почему», «зачем», «что если» - Гипотезы: «возможно», «предположим», «скорее всего», «вероятно [`improve_question_extractor.py` _(группа: nlpplus)_]
+- Ищет в текстах: - Вопросы: предложения с «?» или «как», «почему», «зачем», «что если» - Гипотезы: «возможно», «предположим», «скорее всего», «вероятно [`improve_question_extracto]
 
 ### `VALIDATION.md` (1)
 
@@ -2093,7 +2079,7 @@ _Обновлено: 2026-05-10_
 - Эмерджентное свойство — почему пара важнее суммы. [Что A делает лучше из-за B]
 
 
-## 📌 TODO/Идея (142)
+## 📌 TODO/Идея (146)
 
 ### `TABLES.md` (23)
 
@@ -2140,17 +2126,24 @@ _Обновлено: 2026-05-10_
 
 ### `308-table-of-contents.md` (4)
 
-- What Cowork Provides That InGit Doesn't Need to Build [Table of Contents]
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Table of Contents]
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  37% [Table of Contents]
-- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  29% [Table of Contents]
+- What Cowork Provides That InGit Doesn't Need to Build [Table of]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [Table of]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  37% [Table of]
+- What Cowork Provides That InGit Doesn't Need to Build (310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md)  29% [Table of]
+
+### `ACTION_ITEMS.md` (4)
+
+- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  226. [⚠️ Риски (1303)]
+- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  Ключевые вехи [⚠️ Риски (1303)]
+- - авторам AgentFS, Yodoca, NGT   ⬜ Планируется [⚠️ Риски (1303)]
+- - авторам AgentFS, Yodoca, NGT ⬜ Планируется  182. [⚠️ Риски (1303)]
 
 ### `OUTLINE.md` (4)
 
-- What Cowork Provides That InGit Doesn't Need to Build (02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [[2.]
-- What Cowork Provides That InGit Doesn't Need to Build [[2.]
-- What Cowork Provides That InGit Doesn't Need to Build (nautilus/ingit-cowork-en/02-cowork-provides.md) [[2.]
-- What Cowork Provides That InGit Doesn't Need to Build [[2.]
+- What Cowork Provides That InGit Doesn't Need to Build (02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) [[Content Overview](02-anthropic-vacancies/31-content-overvie]
+- What Cowork Provides That InGit Doesn't Need to Build [[Content Overview](02-anthropic-vacancies/31-content-overvie]
+- What Cowork Provides That InGit Doesn't Need to Build (nautilus/ingit-cowork-en/02-cowork-provides.md) [[Content Overview](02-anthropic-vacancies/31-content-overvie]
+- What Cowork Provides That InGit Doesn't Need to Build [[Content Overview](02-anthropic-vacancies/31-content-overvie]
 
 ### `02-cowork-provides.md` (4)
 
@@ -2328,7 +2321,7 @@ _Обновлено: 2026-05-10_
 
 ### `ABBREVIATIONS.md` (1)
 
-- TODO   ⭐   To Do — задача к выполнению   50 [Словарь аббревиатур и сокращений]
+- TODO   ⭐   To Do — задача к выполнению   52 [Словарь аббревиатур и сокращений]
 
 ### `SUMMARIES.md` (1)
 
@@ -2427,7 +2420,7 @@ _Обновлено: 2026-05-10_
 - Из этих линий следует, что «записать что‑то в память» никогда не должно быть одной неразличимой операцией. [Contents]
 
 
-## 💭 Гипотеза (357)
+## 💭 Гипотеза (358)
 
 ### `01-интегральный-анализ-профиля-svend4.md` (21)
 
@@ -2479,7 +2472,7 @@ _Обновлено: 2026-05-10_
 - : пути внутри pro2 с дублированным префиксом svend4/ , которых, скорее всего, не существует [P]
 - : репо может быть подключён на уровне 0 [P]
 - : - No automatic validation (Cowork might create invalid YAML) [W]
-- : может быть organizing concept который ties everything together: Variant D (federated knowledge marketplace) реализуется через Catalyst Agent, которы [В]
+- : может быть organizing concept который ties everything together: Variant D (federated knowledge marketplace) реализуется через Catalyst Agent, которы [Б]
 - : третий слой той же концепции, возможно, aggregator уровнем выше [М]
 - _...ещё 3_
 
@@ -2568,7 +2561,7 @@ _Обновлено: 2026-05-10_
 
 - ###  Что промышленность вероятно построит (02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) [[Рекурсивное прозрение](02-anthropic-vacancies/296-рекурсивн]
 - ###  Что промышленность вероятно построит (nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) [[Рекурсивное прозрение](02-anthropic-vacancies/296-рекурсивн]
-- ###  Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да… (nautilus/privacy-federation/00-question-anonymization.md) [[10. Appendices](nautilus/okwf-concept/10-appendi]
+- ###  Du hast gesagt: Насчёт приватности Я думаю что возможно удалять только личные да… (nautilus/privacy-federation/00-question-anonymization.md) [[9. Call for Partnership](nautilus/okwf-concept/09-call-for-]
 - ###  Du hast gesagt: Того если гора не идёт человеку может быть этот человек пойдёт к… (nautilus/transmission-box/00-question-mountain-to-person.md) [[Claude hat geantwortet: Очень богатый вопрос — три разных, ]
 
 ### `13-reprioritization.md` (4)
@@ -3027,15 +3020,19 @@ _Обновлено: 2026-05-10_
 
 ### `ACTION_ITEMS.md` (1)
 
-- - is probably practical experimentation — start using Cowork+InGit for actual work, see what works, refine based on experience. [➡️ Следующие шаги (352)]
+- - is probably practical experimentation — start using Cowork+InGit for actual work, see what works, refine based on experience. [➡️ Следующие шаги (361)]
 
 ### `COST.md` (1)
 
 - 343-lorenzo-catalyst    рудоёмкий процесс подачи - Может быть 6-18 месяцев до финанс…   72 [Временные оценки из документов]
 
+### `EMPTY_SECTIONS.md` (1)
+
+- -   297-что-промышленность-вероятно-построит.md  (3 из 6) (#297-что-промышленность-вероятно-построитmd-3-из-6) [Содержание]
+
 ### `KPI.md` (1)
 
-- 4-6     ner (может быть Anthropic или Mistral). [Время (558)]
+- 4-6     ner (может быть Anthropic или Mistral). [Время (557)]
 
 ### `READING_ORDER.md` (1)
 
@@ -3275,64 +3272,66 @@ _Обновлено: 2026-05-10_
 
 
 
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
-
-
-## Инструменты обработки
-
+## Использование
 ```bash
-python scripts/improve_run_all.py --fast
+# Запуск
+python scripts/improve_questions.py
+```
+```bash
+# Вариант 2
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 6
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 7
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 8
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 9
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 10
+python scripts/improve_questions.py --dry-run
+```
+```bash
+# Вариант 11
+python scripts/improve_questions.py --dry-run
 ```
 
-```bash
-python scripts/improve_run_all.py --group reports
-```
+## Смотрите также
 
-```bash
-python scripts/improve_semantic_search.py --query "Lorenzo"
-```
-
-```bash
-python scripts/improve_collab_finder.py --query "проект"
-```
-
-```bash
-python scripts/improve_run_all.py --group analysis
-```
-
-```bash
-python scripts/improve_run_all.py --group quality
-```
-
-```bash
-python scripts/improve_broken_links.py
-```
-
-```bash
-python scripts/improve_metrics.py
-```
-
-```bash
-python scripts/improve_health.py
-```
-
-```bash
-python scripts/improve_run_all.py --group deeptext
-```
-
-```bash
-python scripts/improve_run_all.py --group nlpplus
-```
-
-```bash
-python scripts/improve_run_all.py --group export
-```
-
-
-
-## Связанные документы
-
-[README](README.md) · [GLOSSARY](GLOSSARY.md) · [CONTACTS](CONTACTS.md) · [TIMELINE](TIMELINE.md) · [TAGS](TAGS.md) · [SEARCH](SEARCH.md) · [HEALTH](HEALTH.md) · [METRICS](METRICS.md) · [INDEX](INDEX.md) · [FAQ](FAQ.md) · [DECISIONS](DECISIONS.md) · [ACTION_ITEMS](ACTION_ITEMS.md) · [QUESTIONS](QUESTIONS.md) · [KPI](KPI.md) · [PRIORITIES](PRIORITIES.md) · [CLUSTERS](CLUSTERS.md) · [READING_ORDER](READING_ORDER.md) · [CONCEPTS](CONCEPTS.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Задачи](ACTION_ITEMS.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)

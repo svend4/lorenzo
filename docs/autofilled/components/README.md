@@ -19,14 +19,14 @@
 
 ---
 
-**Кто ссылается на этот документ (15):**
+**Кто ссылается на этот документ (16):**
 - [AUTOFILLED](../../AUTOFILLED.md)
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
+- [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 - [.md](.md)
 - [cowork](cowork.md)
-- [ingit](ingit.md)
-- _...ещё 7_
+- _...ещё 8_
 

@@ -27,7 +27,7 @@ tags: [knowledge-space, reference, cards, agent-first, wiki, domains, research]
 
 _Обновлено: 2026-05-10_
 
-# knowledge-space[^knowledge_space]
+# knowledge-space[^knowledge-space]
 
 <!-- toc -->
 ## Содержание
@@ -163,6 +163,6 @@ _Создано: 2026-05-10_
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина

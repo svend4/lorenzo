@@ -1,5 +1,16 @@
 # Статус внешних ссылок
 
+<!-- toc -->
+## Содержание
+
+- [Содержание](#содержание)
+- [❌ Недоступные ссылки (79)](#недоступные-ссылки-79)
+- [✅ Работающие ссылки (189)](#работающие-ссылки-189)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Содержание
 
@@ -181,3 +192,13 @@ python scripts/improve_run_all.py --group reports
 ```bash
 python scripts/improve_semantic_search.py --query "LINK_PREVIEW"
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [TABLES](TABLES.md)
+

@@ -1,41 +1,42 @@
 # Аудит заголовков
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Раздел `HEADING_AUDIT` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: heading-audit, docs -->
 
 
 <!-- summary -->
-> Аудит заголовков — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, quality, lorenzo -->
+> `HEADING_AUDIT` — раздел документации проекта Lorenzo.
 
 
-_Обновлено: 2026-05-10_
+_Обновлено: 2026-05-11_
 
-Файлов с проблемами: **1196** из 1223
+Файлов с проблемами: **1206** из 1223
 
 ## Типы проблем
 
 | Тип | Кол-во |
 |-----|--------|
-| 🕳️  Пустая секция | 3522 |
-| ♊ Дублирующийся заголовок | 1096 |
+| 🕳️  Пустая секция | 3594 |
+| ♊ Дублирующийся заголовок | 1111 |
 | 📏 Длинный заголовок | 4 |
 | 🪜 Пропущен уровень | 5 |
-| ❌ Несколько H1 | 74 |
+| ❌ Несколько H1 | 75 |
 
 ## По файлам
 
-### `docs/EMPTY_SECTIONS.md` (265 проблем)
+### `docs/EMPTY_SECTIONS.md` (369 проблем)
 
-_секция: 260, заголовок: 5_
+_секция: 356, заголовок: 13_
 
 
-### `docs/QA.md` (212 проблем)
+### `docs/QA.md` (177 проблем)
 
-_секция: 189, заголовок: 23_
+_секция: 154, заголовок: 23_
 
 
 ### `docs/CODE_BLOCKS.md` (127 проблем)
@@ -43,9 +44,9 @@ _секция: 189, заголовок: 23_
 _секция: 108, заголовок: 19_
 
 
-### `docs/SPELLCHECK.md` (52 проблем)
+### `docs/SPELLCHECK.md` (53 проблем)
 
-_секция: 52_
+_секция: 53_
 
 
 ### `docs/TABLES.md` (49 проблем)
@@ -63,19 +64,19 @@ _секция: 29, заголовок: 2_
 _секция: 23_
 
 
-### `docs/lorenzo-agent/QA.md` (21 проблем)
+### `docs/CHANGELOG.md` (20 проблем)
 
-_секция: 21_
-
-
-### `docs/CHANGELOG.md` (19 проблем)
-
-_секция: 14, заголовок: 5_
+_секция: 15, заголовок: 5_
 
 
 ### `docs/processing-guide/QA.md` (19 проблем)
 
 _секция: 19_
+
+
+### `docs/lorenzo-agent/QA.md` (18 проблем)
+
+_секция: 18_
 
 
 ### `docs/templates/protocol-spec.md` (18 проблем)
@@ -86,11 +87,6 @@ _секция: 18_
 ### `docs/templates/rfc.md` (18 проблем)
 
 _секция: 18_
-
-
-### `docs/04-ai-collaborations/QA.md` (17 проблем)
-
-_секция: 17_
 
 
 ### `docs/05-habr-projects/QA.md` (16 проблем)
@@ -104,6 +100,11 @@ _секция: 16_
 
 
 ### `docs/01-svyazi/QA.md` (15 проблем)
+
+_секция: 15_
+
+
+### `docs/04-ai-collaborations/QA.md` (15 проблем)
 
 _секция: 15_
 
@@ -138,7 +139,7 @@ _секция: 6, заголовок: 5, H1: 1_
 _секция: 8, заголовок: 4_
 
 
-### `docs/anthropic-vacancies/QA.md` (12 проблем)
+### `docs/GITHUB_ISSUES.md` (12 проблем)
 
 _секция: 12_
 
@@ -151,16 +152,6 @@ _секция: 6, заголовок: 4, H1: 1_
 ### `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` (11 проблем)
 
 _секция: 8, заголовок: 3_
-
-
-### `docs/03-technology-combinations/QA.md` (11 проблем)
-
-_секция: 11_
-
-
-### `docs/GITHUB_ISSUES.md` (11 проблем)
-
-_секция: 11_
 
 
 ### `docs/SCRIPT_EVAL_REPORT.md` (11 проблем)
@@ -221,6 +212,16 @@ _секция: 4, заголовок: 4, H1: 1_
 ### `docs/02-anthropic-vacancies/293-почему-это-не-было-построено.md` (9 проблем)
 
 _секция: 6, заголовок: 3_
+
+
+### `docs/03-technology-combinations/QA.md` (9 проблем)
+
+_секция: 9_
+
+
+### `docs/CONSISTENCY.md` (9 проблем)
+
+_секция: 7, заголовок: 2_
 
 
 ### `docs/nautilus/community-discussions/agent-changes-reality/01-response-en.md` (9 проблем)
@@ -304,11 +305,6 @@ _секция: 5, заголовок: 3_
 
 
 ### `docs/05-habr-projects/01-synthesis.md` (8 проблем)
-
-_секция: 6, заголовок: 2_
-
-
-### `docs/CONSISTENCY.md` (8 проблем)
 
 _секция: 6, заголовок: 2_
 
@@ -428,11 +424,6 @@ _секция: 5, уровень: 1, заголовок: 1_
 _секция: 7_
 
 
-### `docs/SCHEDULE.md` (7 проблем)
-
-_секция: 7_
-
-
 ### `docs/autofilled/research-summary.md` (7 проблем)
 
 _секция: 6, заголовок: 1_
@@ -499,6 +490,11 @@ _секция: 3, заголовок: 3_
 
 
 ### `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` (6 проблем)
+
+_секция: 3, заголовок: 3_
+
+
+### `docs/02-anthropic-vacancies/154-table-of-contents.md` (6 проблем)
 
 _секция: 3, заголовок: 3_
 
@@ -623,7 +619,7 @@ _секция: 4, заголовок: 2_
 _секция: 4, заголовок: 2_
 
 
-### `docs/contacts/QA.md` (6 проблем)
+### `docs/SCHEDULE.md` (6 проблем)
 
 _секция: 6_
 
@@ -636,6 +632,11 @@ _секция: 6_
 ### `docs/nautilus/npp-v1-0/15-glossary.md` (6 проблем)
 
 _секция: 5, заголовок: 1_
+
+
+### `docs/nautilus/professional-colleague-agents-en/00-abstract.md` (6 проблем)
+
+_секция: 3, заголовок: 2, H1: 1_
 
 
 ### `docs/nautilus/representative-agent-layer-en/12-closing.md` (6 проблем)
@@ -738,6 +739,11 @@ _секция: 3, H1: 1, заголовок: 1_
 _заголовок: 3, секция: 2_
 
 
+### `docs/02-anthropic-vacancies/137-table-of-contents.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
 ### `docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md` (5 проблем)
 
 _секция: 2, заголовок: 2, H1: 1_
@@ -764,11 +770,6 @@ _секция: 3, H1: 1, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` (5 проблем)
-
-_заголовок: 3, секция: 2_
-
-
-### `docs/02-anthropic-vacancies/154-table-of-contents.md` (5 проблем)
 
 _заголовок: 3, секция: 2_
 
@@ -809,6 +810,11 @@ _секция: 3, H1: 1, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
+### `docs/02-anthropic-vacancies/169-table-of-contents.md` (5 проблем)
 
 _заголовок: 3, секция: 2_
 
@@ -893,6 +899,11 @@ _секция: 3, H1: 1, заголовок: 1_
 _заголовок: 3, секция: 2_
 
 
+### `docs/02-anthropic-vacancies/211-table-of-contents.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
 ### `docs/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md` (5 проблем)
 
 _заголовок: 3, секция: 2_
@@ -958,6 +969,11 @@ _заголовок: 3, секция: 2_
 _заголовок: 3, секция: 2_
 
 
+### `docs/02-anthropic-vacancies/253-table-of-contents.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
+
+
 ### `docs/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md` (5 проблем)
 
 _заголовок: 3, секция: 2_
@@ -1016,6 +1032,11 @@ _заголовок: 3, секция: 2_
 ### `docs/02-anthropic-vacancies/304-ingit-as-cowork-native-workspace-substrate-md.md` (5 проблем)
 
 _секция: 3, H1: 1, заголовок: 1_
+
+
+### `docs/02-anthropic-vacancies/308-table-of-contents.md` (5 проблем)
+
+_заголовок: 3, секция: 2_
 
 
 ### `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` (5 проблем)
@@ -1158,6 +1179,11 @@ _заголовок: 3, секция: 2_
 _секция: 5_
 
 
+### `docs/anthropic-vacancies/QA.md` (5 проблем)
+
+_секция: 5_
+
+
 ### `docs/autofilled/components/.md` (5 проблем)
 
 _секция: 4, заголовок: 1_
@@ -1228,6 +1254,16 @@ _секция: 3, H1: 1, заголовок: 1_
 _секция: 4, заголовок: 1_
 
 
+### `docs/nautilus/okwf-concept/00-abstract.md` (5 проблем)
+
+_секция: 3, H1: 1, заголовок: 1_
+
+
+### `docs/nautilus/representative-agent-layer-en/00-abstract.md` (5 проблем)
+
+_секция: 3, H1: 1, заголовок: 1_
+
+
 ### `docs/processing-guide/07-llm.md` (5 проблем)
 
 _секция: 5_
@@ -1288,11 +1324,6 @@ _секция: 3, заголовок: 1_
 _заголовок: 3, секция: 1_
 
 
-### `docs/02-anthropic-vacancies/137-table-of-contents.md` (4 проблем)
-
-_заголовок: 3, секция: 1_
-
-
 ### `docs/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md` (4 проблем)
 
 _заголовок: 3, секция: 1_
@@ -1344,11 +1375,6 @@ _секция: 3, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/168-abstract.md` (4 проблем)
-
-_заголовок: 3, секция: 1_
-
-
-### `docs/02-anthropic-vacancies/169-table-of-contents.md` (4 проблем)
 
 _заголовок: 3, секция: 1_
 
@@ -1419,11 +1445,6 @@ _секция: 3, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/210-abstract.md` (4 проблем)
-
-_заголовок: 3, секция: 1_
-
-
-### `docs/02-anthropic-vacancies/211-table-of-contents.md` (4 проблем)
 
 _заголовок: 3, секция: 1_
 
@@ -1499,11 +1520,6 @@ _секция: 3, заголовок: 1_
 
 
 ### `docs/02-anthropic-vacancies/252-abstract.md` (4 проблем)
-
-_заголовок: 3, секция: 1_
-
-
-### `docs/02-anthropic-vacancies/253-table-of-contents.md` (4 проблем)
 
 _заголовок: 3, секция: 1_
 
@@ -1624,11 +1640,6 @@ _заголовок: 3, секция: 1_
 
 
 ### `docs/02-anthropic-vacancies/307-abstract.md` (4 проблем)
-
-_заголовок: 3, секция: 1_
-
-
-### `docs/02-anthropic-vacancies/308-table-of-contents.md` (4 проблем)
 
 _заголовок: 3, секция: 1_
 
@@ -1863,7 +1874,22 @@ _секция: 4_
 _секция: 4_
 
 
+### `docs/HEALTH.md` (4 проблем)
+
+_секция: 4_
+
+
+### `docs/INDEX.md` (4 проблем)
+
+_секция: 3, заголовок: 1_
+
+
 ### `docs/LLM_SUMMARIES.md` (4 проблем)
+
+_секция: 3, заголовок: 1_
+
+
+### `docs/ONBOARDING.md` (4 проблем)
 
 _секция: 3, заголовок: 1_
 
@@ -1874,6 +1900,11 @@ _секция: 4_
 
 
 ### `docs/SIMILAR.md` (4 проблем)
+
+_секция: 4_
+
+
+### `docs/contacts/QA.md` (4 проблем)
 
 _секция: 4_
 
@@ -1901,6 +1932,11 @@ _секция: 3, заголовок: 1_
 ### `docs/nautilus/composite-skills-agents/13-closing.md` (4 проблем)
 
 _секция: 3, заголовок: 1_
+
+
+### `docs/nautilus/double-triangle-architecture/00-abstract.md` (4 проблем)
+
+_секция: 3, H1: 1_
 
 
 ### `docs/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md` (4 проблем)
@@ -1993,29 +2029,14 @@ _секция: 3, заголовок: 1_
 _секция: 3, заголовок: 1_
 
 
-### `docs/nautilus/okwf-concept/00-abstract.md` (4 проблем)
-
-_секция: 2, H1: 1, заголовок: 1_
-
-
 ### `docs/nautilus/okwf-concept/06-governance-ethics.md` (4 проблем)
 
 _секция: 3, заголовок: 1_
 
 
-### `docs/nautilus/professional-colleague-agents-en/00-abstract.md` (4 проблем)
-
-_секция: 2, H1: 1, заголовок: 1_
-
-
 ### `docs/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md` (4 проблем)
 
 _секция: 3, заголовок: 1_
-
-
-### `docs/nautilus/representative-agent-layer-en/00-abstract.md` (4 проблем)
-
-_секция: 2, H1: 1, заголовок: 1_
 
 
 ### `docs/nautilus/representative-agent-layer-en/07-governance-oversight.md` (4 проблем)
@@ -2473,27 +2494,17 @@ _секция: 3_
 _секция: 2, заголовок: 1_
 
 
-### `docs/CONTACTS.md` (3 проблем)
+### `docs/DUPLICATES.md` (3 проблем)
 
-_секция: 3_
-
-
-### `docs/CONTACT_PRIORITY.md` (3 проблем)
-
-_секция: 3_
+_секция: 2, H1: 1_
 
 
-### `docs/HEALTH.md` (3 проблем)
+### `docs/LANGUAGE_STATS.md` (3 проблем)
 
-_секция: 3_
-
-
-### `docs/MINDMAP.md` (3 проблем)
-
-_секция: 3_
+_секция: 2, заголовок: 1_
 
 
-### `docs/ONBOARDING.md` (3 проблем)
+### `docs/ORPHANS.md` (3 проблем)
 
 _секция: 3_
 
@@ -2508,7 +2519,12 @@ _секция: 3_
 _секция: 3_
 
 
-### `docs/REPORT.md` (3 проблем)
+### `docs/READING_ORDER.md` (3 проблем)
+
+_секция: 3_
+
+
+### `docs/RISK_REGISTER.md` (3 проблем)
 
 _секция: 3_
 
@@ -2516,6 +2532,11 @@ _секция: 3_
 ### `docs/SCRIPTS_CATALOG.md` (3 проблем)
 
 _секция: 3_
+
+
+### `docs/TECH_RADAR.md` (3 проблем)
+
+_секция: 2, заголовок: 1_
 
 
 ### `docs/ai-collaborations/candidates/01-three-key-candidates.md` (3 проблем)
@@ -2781,11 +2802,6 @@ _секция: 2, заголовок: 1_
 ### `docs/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md` (3 проблем)
 
 _секция: 2, заголовок: 1_
-
-
-### `docs/nautilus/double-triangle-architecture/00-abstract.md` (3 проблем)
-
-_секция: 2, H1: 1_
 
 
 ### `docs/nautilus/double-triangle-architecture/09-acknowledgments.md` (3 проблем)
@@ -3478,12 +3494,32 @@ _секция: 2_
 _секция: 2_
 
 
+### `docs/COMPARE.md` (2 проблем)
+
+_секция: 2_
+
+
 ### `docs/CONCEPTS.md` (2 проблем)
 
 _секция: 2_
 
 
-### `docs/COVERAGE.md` (2 проблем)
+### `docs/CONTACTS.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/CONTACT_PRIORITY.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/CONTENT_GAPS.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/DENSITY.md` (2 проблем)
 
 _секция: 2_
 
@@ -3493,37 +3529,27 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/INDEX.md` (2 проблем)
+### `docs/KNOWLEDGE_MAP.md` (2 проблем)
+
+_секция: 1, заголовок: 1_
+
+
+### `docs/LINK_PREVIEW.md` (2 проблем)
+
+_секция: 1, заголовок: 1_
+
+
+### `docs/MINDMAP.md` (2 проблем)
 
 _секция: 2_
 
 
-### `docs/KPI_HISTORY.md` (2 проблем)
+### `docs/PRIORITIES.md` (2 проблем)
 
 _секция: 2_
 
 
-### `docs/ORPHANS.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/PASSIVE_VOICE.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/READING_ORDER.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/REGISTRY.md` (2 проблем)
-
-_секция: 2_
-
-
-### `docs/RISK_REGISTER.md` (2 проблем)
+### `docs/REPORT.md` (2 проблем)
 
 _секция: 2_
 
@@ -3538,17 +3564,17 @@ _секция: 2_
 _секция: 2_
 
 
-### `docs/STALENESS.md` (2 проблем)
-
-_секция: 2_
-
-
 ### `docs/TASKS_INDEX.md` (2 проблем)
 
 _секция: 2_
 
 
 ### `docs/WORD_CLOUD.md` (2 проблем)
+
+_секция: 2_
+
+
+### `docs/WORD_FREQ.md` (2 проблем)
 
 _секция: 2_
 
@@ -5343,7 +5369,17 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/ACTION_ITEMS.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/ALERTS.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/BACKLINKS.md` (1 проблем)
 
 _секция: 1_
 
@@ -5353,7 +5389,7 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/COMPARE.md` (1 проблем)
+### `docs/COMPLEXITY.md` (1 проблем)
 
 _секция: 1_
 
@@ -5363,12 +5399,17 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/CONTENT_GAPS.md` (1 проблем)
+### `docs/COST.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/COST.md` (1 проблем)
+### `docs/COVERAGE.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/CROSSREFS.md` (1 проблем)
 
 _секция: 1_
 
@@ -5383,16 +5424,6 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/DENSITY.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/DEPENDABOT.md` (1 проблем)
-
-_секция: 1_
-
-
 ### `docs/DEPENDENCY_MAP.md` (1 проблем)
 
 _секция: 1_
@@ -5403,22 +5434,17 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/DUPLICATES.md` (1 проблем)
+### `docs/GRAPH.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/FOOTNOTES.md` (1 проблем)
+### `docs/KPI.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/KNOWLEDGE_MAP.md` (1 проблем)
-
-_секция: 1_
-
-
-### `docs/LANGUAGE_STATS.md` (1 проблем)
+### `docs/KPI_HISTORY.md` (1 проблем)
 
 _секция: 1_
 
@@ -5433,6 +5459,11 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/MISSING.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/NAMED_ENTITIES.md` (1 проблем)
 
 _секция: 1_
@@ -5443,17 +5474,22 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/PRIORITIES.md` (1 проблем)
+### `docs/PASSIVE_VOICE.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/PROGRESS.md` (1 проблем)
+### `docs/QUESTIONS.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/README.md` (1 проблем)
+### `docs/READING_TIME.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/REGISTRY.md` (1 проблем)
 
 _секция: 1_
 
@@ -5463,7 +5499,17 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/SENTIMENT.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/SITEMAP.md` (1 проблем)
+
+_секция: 1_
+
+
+### `docs/SKILL_DASHBOARD.md` (1 проблем)
 
 _секция: 1_
 
@@ -5473,12 +5519,17 @@ _секция: 1_
 _секция: 1_
 
 
+### `docs/STALENESS.md` (1 проблем)
+
+_секция: 1_
+
+
 ### `docs/STATS.md` (1 проблем)
 
 _секция: 1_
 
 
-### `docs/TECH_RADAR.md` (1 проблем)
+### `docs/TAGS.md` (1 проблем)
 
 _секция: 1_
 
@@ -5493,7 +5544,7 @@ _секция: 1_
 _секция: 1_
 
 
-### `docs/WORD_FREQ.md` (1 проблем)
+### `docs/VERSION_DIFF.md` (1 проблем)
 
 _секция: 1_
 
@@ -6010,40 +6061,39 @@ _секция: 1_
 
 
 
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
-
-
-## Инструменты обработки
-
+## Использование
 ```bash
-python scripts/improve_run_all.py --fast
+# Запуск
+python scripts/improve_heading_audit.py
+```
+```bash
+# Вариант 2
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_heading_audit.py --dry-run
+```
+```bash
+# Вариант 5
+python scripts/improve_heading_audit.py --dry-run
 ```
 
-```bash
-python scripts/improve_run_all.py --group reports
-```
+## Смотрите также
 
-```bash
-python scripts/improve_semantic_search.py --query "Lorenzo"
-```
-
-```bash
-python scripts/improve_collab_finder.py --query "проект"
-```
-
-```bash
-python scripts/improve_run_all.py --group analysis
-```
-
-```bash
-python scripts/improve_run_all.py --group quality
-```
-
-
-
-## Связанные документы
-
-[README](README.md) · [GLOSSARY](GLOSSARY.md) · [CONTACTS](CONTACTS.md) · [TIMELINE](TIMELINE.md) · [TAGS](TAGS.md) · [SEARCH](SEARCH.md) · [HEALTH](HEALTH.md) · [METRICS](METRICS.md) · [INDEX](INDEX.md) · [FAQ](FAQ.md) · [DECISIONS](DECISIONS.md) · [ACTION_ITEMS](ACTION_ITEMS.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)

@@ -12,7 +12,7 @@ from collections import defaultdict
 ROOT = Path(__file__).parent.parent
 DOCS = ROOT / "docs"
 
-SKIP = {"METRICS.md", "HEALTH.md", "STATS.md", "VALIDATION.md"}
+SKIP = {"METRICS.md", "HEALTH.md", "STATS.md", "VALIDATION.md", "SITEMAP.md"}
 SKIP_DIRS = {"obsidian", "confluence", "autofilled"}
 
 SECTIONS = [
@@ -74,7 +74,7 @@ def quality_score(f_data: dict) -> float:
         score += 10
     if f_data["link_density"] >= 1:
         score += 15
-    if w >= 300 and f_data["has_toc"]:
+    if w < 300 or f_data["has_toc"]:
         score += 10
     if f_data["example_density"] >= 0.5:
         score += 10

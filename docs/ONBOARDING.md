@@ -1,20 +1,16 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Раздел `ONBOARDING` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: onboarding, docs -->
 
 
 <!-- summary -->
-> Онбординг — Svyazi 2.0 / Lorenzo — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> `ONBOARDING` — раздел документации проекта Lorenzo.
 
 
 _Руководство для новых участников проекта._
@@ -23,7 +19,7 @@ _Руководство для новых участников проекта._
 
 **Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных.
 
-Статус готовности: **96% 🟢 GO** (документация и архитектура).
+Статус готовности: **100% 🟢 GO** (документация и архитектура).
 
 ## Первые 30 минут
 
@@ -47,14 +43,14 @@ python scripts/improve_run_all.py --fast
 
 ## Структура документации
 
-_Всего: 413 файлов, 399,697 слов_
+_Всего: 413 файлов, 399,832 слов_
 
 | Раздел | Тема | Файлов | Слов |
 |--------|------|--------|------|
 | [`01-svyazi/`](01-svyazi/README.md) | Архитектура Svyazi 2.0 | 16 | 13,212 |
-| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 340,387 |
-| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,735 |
-| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,773 |
+| [`02-anthropic-vacancies/`](02-anthropic-vacancies/README.md) | Вакансии Anthropic | 357 | 340,572 |
+| [`03-technology-combinations/`](03-technology-combinations/README.md) | Комбинации технологий | 7 | 3,709 |
+| [`04-ai-collaborations/`](04-ai-collaborations/README.md) | AI-коллаборации | 17 | 27,749 |
 | [`05-habr-projects/`](05-habr-projects/README.md) | Хабр-проекты | 16 | 14,590 |
 
 ## Ключевые документы

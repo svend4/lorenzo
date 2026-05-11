@@ -1,16 +1,12 @@
 # Нарратив проекта Lorenzo
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+<!-- tags: narrative, docs, analysis, svyazi -->
 
 
 <!-- summary -->
-> Нарратив проекта Lorenzo — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
+> Автоматически сгенерированный документ: `NARRATIVE`. Содержит аналитику и структурированные данные по разделу.
 
 _Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._
 
@@ -153,11 +149,18 @@ _Полная дорожная карта: [01-svyazi/12-roadmap.md](01-svyazi/1
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск генератора
+python scripts/improve_narrative.py
 ```
 
-```bash
-python scripts/improve_semantic_search.py --query "NARRATIVE"
-```
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [13-contacts](01-svyazi/13-contacts.md)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md)
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [08-conclusions](01-svyazi/08-conclusions.md)
+

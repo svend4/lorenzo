@@ -1,16 +1,12 @@
 # Согласованность терминов
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+<!-- tags: consistency, docs, analysis, svyazi -->
 
 
 <!-- summary -->
-> Согласованность терминов — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
+> Автоматически сгенерированный документ: `CONSISTENCY`. Содержит аналитику и структурированные данные по разделу.
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -21,29 +17,29 @@
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 7 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 33 |
-| **knowledge-space** | `knowledge-space` | `knowledge_space` | 3 |
+| **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
 | **CardIndex** | `CardIndex` | `Card Index` | 5 |
 | **CardIndex** | `CardIndex` | `card index` | 5 |
 | **CardIndex** | `CardIndex` | `card-index` | 4 |
-| **AI Factory** | `AI Factory` | `AI-Factory` | 49 |
+| **AI Factory** | `AI Factory` | `AI-Factory` | 48 |
 | **NGT Memory** | `NGT Memory` | `NGT-Memory` | 100 |
 | **LiteParse** | `LiteParse` | `LiteParser` | 4 |
-| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 39 |
+| **Auto AI Router** | `Auto AI Router` | `Auto-AI-Router` | 40 |
 | **local-first** | `local-first` | `local first` | 6 |
 | **local-first** | `local-first` | `localfirst` | 8 |
 | **local-first** | `local-first` | `Local First` | 6 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 6 |
-| **self-improvement** | `self-improvement` | `self-improve` | 335 |
-| **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
+| **self-improvement** | `self-improvement` | `self-improve` | 314 |
+| **self-improvement** | `self-improvement` | `selfimprovement` | 3 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 7 |
-| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 45 |
+| **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 47 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
-| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 35 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 21 |
+| **Card Envelope** | `Card Envelope` | `Card-Envelope` | 36 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 20 |
 
-**Всего несогласованных написаний: 721**
+**Всего несогласованных написаний: 705**
 
 
 ## Детали по файлам
@@ -54,9 +50,9 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/OUTLINE.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
-- `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 1_
+- _...и ещё 2_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -72,6 +68,7 @@
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
 - `docs/obsidian/CONSISTENCY.md`
+- `docs/05-habr-projects/knowledge/README.md`
 
 ### `Card Index` → должно быть `CardIndex`
 
@@ -103,7 +100,7 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- _...и ещё 44_
+- _...и ещё 43_
 
 ### `NGT-Memory` → должно быть `NGT Memory`
 
@@ -124,11 +121,11 @@
 ### `Auto-AI-Router` → должно быть `Auto AI Router`
 
 - `docs/LANGUAGE_STATS.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/TABLES.md`
-- `docs/PARAGRAPH_QUALITY.md`
-- _...и ещё 34_
+- _...и ещё 35_
 
 ### `local first` → должно быть `local-first`
 
@@ -169,16 +166,17 @@
 ### `self-improve` → должно быть `self-improvement`
 
 - `docs/COLLAB_SUGGESTIONS.md`
-- `docs/PASSIVE_VOICE.md`
 - `docs/READING_LIST.md`
-- `docs/LANGUAGE_STATS.md`
-- `docs/FOOTNOTES.md`
-- _...и ещё 330_
+- `docs/CONSISTENCY.md`
+- `docs/PROTOTYPE_SPEC.md`
+- `docs/TABLES.md`
+- _...и ещё 309_
 
 ### `selfimprovement` → должно быть `self-improvement`
 
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/svyazi-2-0/limitations/do-not-glue.md`
 
 ### `Svyazi-2.0` → должно быть `Svyazi 2.0`
 
@@ -193,10 +191,10 @@
 
 - `docs/READING_LIST.md`
 - `docs/LANGUAGE_STATS.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
-- `docs/PROTOTYPE_SPEC.md`
-- _...и ещё 40_
+- _...и ещё 42_
 
 ### `EvidenceEnvelope` → должно быть `Evidence Envelope`
 
@@ -206,11 +204,11 @@
 ### `Card-Envelope` → должно быть `Card Envelope`
 
 - `docs/LANGUAGE_STATS.md`
+- `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/READING_TIME.md`
 - `docs/PROTOTYPE_SPEC.md`
-- `docs/TABLES.md`
-- _...и ещё 30_
+- _...и ещё 31_
 
 ## Как исправить
 
@@ -219,13 +217,20 @@
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
 
+## Смотрите также
+- [Главная страница](README.md)
+- [Метрики качества](METRICS.md)
+- [Дашборд здоровья](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Именованные сущности](ENTITIES.md)
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [MISSING](MISSING.md)
 - [TAGS](TAGS.md)
-- [STATS](STATS.md)
+- [MISSING](MISSING.md)
 - [STALENESS](STALENESS.md)
+- [STATS](STATS.md)
 

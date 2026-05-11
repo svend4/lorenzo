@@ -67,7 +67,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > tags: [rufler, yaml, orchestration, agent-swarm, claude-code, declarative, mcp, token-accounting]
-**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, Rufler, agent-memory-mcp
+**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, Rufler, agent-memory-mcp
 
 ---
 
@@ -170,4 +170,4 @@ _Создано: 2026-05-10_
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

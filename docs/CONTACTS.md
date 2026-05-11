@@ -1,20 +1,16 @@
 # Контакты и авторы
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Документ `CONTACTS` создаётся автоматически. Запустите скрипт для обновления.
+
+<!-- alert-added -->
+<!-- tags: contacts, docs, analysis -->
 
 
 <!-- summary -->
-> Контакты и авторы — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> Автоматически сформированный документ: `CONTACTS`.
 
 
 ## Ключевые авторы проектов
@@ -22,20 +18,20 @@
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 110 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
-| **Antipozitive** | MemNet | memory | 66 | — |
+| **Antipozitive** | MemNet | memory | 68 | — |
 | **Cutcode** | AIF Handoff | orchestration | 78 | — |
-| **Dmitriila** | SENTINEL | security | 69 | — |
-| **MiXaiLL76** | Auto AI Router | security | 62 | — |
+| **Dmitriila** | SENTINEL | security | 68 | — |
+| **MiXaiLL76** | Auto AI Router | security | 61 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 40 | — |
-| **VitalyOborin** | Yodoca | memory | 87 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VitalyOborin** | Yodoca | memory | 86 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
 | **VladSpace** | Graph RAG | rag | 85 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
-| **kksudo** | AgentFS | knowledge/filesystem | 178 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
+| **kksudo** | AgentFS | knowledge/filesystem | 177 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
 | **lee-to** | AI Factory | orchestration | 23 | — |
-| **nlaik** | LiteParse / research-docs | rag | 62 | — |
-| **spbmolot** | NGT Memory | memory | 155 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
-| **tagir_analyzes** | Legal RAG | rag | 31 | — |
-| **zodigancode** | Rufler | orchestration | 82 | — |
+| **nlaik** | LiteParse / research-docs | rag | 63 | — |
+| **spbmolot** | NGT Memory | memory | 154 | Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? |
+| **tagir_analyzes** | Legal RAG | rag | 30 | — |
+| **zodigancode** | Rufler | orchestration | 81 | — |
 
 ## GitHub репозитории
 
@@ -50,10 +46,10 @@
 | `github.com/github.com/NicholasSpisak/second-brain` | 6 |
 | `github.com/github.com/Sonia` | 7 |
 | `github.com/github.com/VitalyOborin` | 7 |
-| `github.com/github.com/VitalyOborin/yodoca` | 11 |
+| `github.com/github.com/VitalyOborin/yodoca` | 10 |
 | `github.com/github.com/VladSpace` | 7 |
 | `github.com/github.com/andrey` | 7 |
-| `github.com/github.com/anthropics/mcp` | 9 |
+| `github.com/github.com/anthropics/mcp` | 10 |
 | `github.com/github.com/artur-gavronchuk/tg-chat-analyser` | 10 |
 | `github.com/github.com/camel-ai/camel` | 11 |
 | `github.com/github.com/dementev-dev/adversarial-review` | 10 |
@@ -61,12 +57,12 @@
 | `github.com/github.com/kagvi13/HMP` | 2 |
 | `github.com/github.com/kagvi13/HMP.` | 4 |
 | `github.com/github.com/kksudo` | 7 |
-| `github.com/github.com/kksudo/agentfs` | 13 |
+| `github.com/github.com/kksudo/agentfs` | 12 |
 | `github.com/github.com/lib4u/rufler` | 4 |
 | `github.com/github.com/mcp` | 15 |
 | `github.com/github.com/nlaik` | 7 |
 | `github.com/github.com/ruvnet/ruflo` | 4 |
-| `github.com/github.com/settings/tokens` | 11 |
+| `github.com/github.com/settings/tokens` | 10 |
 | `github.com/github.com/spbmolot` | 8 |
 | `github.com/github.com/spbmolot/ngt-memory` | 10 |
 | `github.com/github.com/svend4` | 9 |
@@ -76,18 +72,18 @@
 | `github.com/github.com/svend4/info7` | 9 |
 | `github.com/github.com/svend4/ingit` | 29 |
 | `github.com/github.com/svend4/lorenzo` | 4 |
-| `github.com/github.com/svend4/meta` | 23 |
+| `github.com/github.com/svend4/meta` | 22 |
 | `github.com/github.com/svend4/n` | 2 |
-| `github.com/github.com/svend4/nautilus` | 119 |
-| `github.com/github.com/svend4/nautilus.` | 6 |
+| `github.com/github.com/svend4/nautilus` | 118 |
+| `github.com/github.com/svend4/nautilus.` | 5 |
 | `github.com/github.com/svend4/nautilus.git` | 7 |
 | `github.com/github.com/svend4/pro2` | 27 |
-| `github.com/github.com/tagir` | 7 |
+| `github.com/github.com/tagir` | 6 |
 | `github.com/github.com/tree` | 2 |
 | `github.com/github.com/users/svend4` | 10 |
 | `github.com/github.com/vuguzum/self-aware-mcp-server` | 12 |
 | `github.com/github.com/yjs/yjs` | 6 |
-| `github.com/github.com/zodigancode` | 7 |
+| `github.com/github.com/zodigancode` | 6 |
 
 ## Email адреса
 
@@ -106,5 +102,9 @@
 Если нет — спасибо за публикацию, она уже повлияла на архитектуру.
 ```
 
-
-_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md)_
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

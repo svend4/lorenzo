@@ -1,10 +1,6 @@
 # Дайджест изменений
 
 <!-- toc-auto -->
-## Содержание
-
-- Основной раздел
-
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -12,34 +8,50 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken links
+> > fix: restore 100.0/100 quality score and 0 broken links after pipeline run
+**Проекты:** Svyazi
 
 ---
-<!-- tags: rag, collaboration -->
+<!-- tags: rag, ingestion -->
 
 
 
 
-_Обновлено: 2026-05-10_
+_Обновлено: 2026-05-11_
 
 ## Последний коммит
 
-**2026-05-10** — `cf9ebcce`
-> feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken links
+**2026-05-10** — `447e84d3`
+> fix: restore 100.0/100 quality score and 0 broken links after pipeline run
 
-Изменено файлов: **1090** (+8268 / -24 строк)
+Изменено файлов: **1352** (+154831 / -87041 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **1273**
-- Добавлено строк: **+35064**
-- Удалено строк: **-28851**
-- Новых md-файлов: **0**
+- Изменено файлов: **1792**
+- Добавлено строк: **+167084**
+- Удалено строк: **-88128**
+- Новых md-файлов: **4**
+
+## Новые документы
+
+**ai-collaborations:**
+- `QA.md`
+
+**contacts:**
+- `QA.md`
+
+**root:**
+- `LINK_PREVIEW.md`
+
+**svyazi-2-0:**
+- `QA.md`
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
+| 2026-05-10 | `447e84d3` | fix: restore 100.0/100 quality score and 0 broken links after pipeline |
 | 2026-05-10 | `cf9ebcce` | feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link |
 | 2026-05-10 | `82d3705e` | feat: improve doc quality score from 84.6 → 86.5/100 |
 | 2026-05-10 | `a469b340` | fix: remove 61 broken internal links (dangling #contents anchors + SEA |
@@ -54,23 +66,21 @@ _Обновлено: 2026-05-10_
 | 2026-05-10 | `38e7dec4` | fix: reduce broken links 512→209, health 89→91 |
 | 2026-05-10 | `f720e48b` | fix: reduce broken links 779→512, health 87→89 |
 | 2026-05-10 | `32d55e7b` | fix: generate relative links in COLLAB_SUGGESTIONS.md |
-| 2026-05-10 | `e8cc1b60` | improve: 05-habr-projects 65→72/100 — 100% summary+tags coverage |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
-| Документов `.md` | **2450** |
+| Документов `.md` | **2451** |
 | Скриптов обработки | **162** |
-| Последнее обновление | **2026-05-10** |
+| Последнее обновление | **2026-05-11** |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (7):**
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
@@ -79,24 +89,20 @@ _Обновлено: 2026-05-10_
 - [TABLES](TABLES.md)
 
 
+
+## Использование
+```bash
+# Запуск генератора
+python scripts/improve_digest.py
+```
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [STALENESS](STALENESS.md)
+- [DIGEST_AUTO](DIGEST_AUTO.md)
 - [READING_LIST](READING_LIST.md)
-- [KPI_HISTORY](KPI_HISTORY.md)
+- [STALENESS](STALENESS.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 
-
-
-## Использование
-
-```bash
-python scripts/improve_run_all.py --group reports
-```
-
-```bash
-python scripts/improve_semantic_search.py --query "DIGEST"
-```

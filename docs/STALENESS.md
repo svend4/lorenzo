@@ -1,55 +1,52 @@
 # Отчёт об устаревших документах
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Документ `STALENESS` создаётся автоматически.
+
+<!-- alert-added -->
+<!-- tags: staleness, docs, analysis -->
 
 
 <!-- summary -->
-> Отчёт об устаревших документах — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> Автоматически сформированный документ: `STALENESS`.
 
 
-_Порог: 30 дней. Обновлено: 2026-05-10_
+_Порог: 30 дней. Обновлено: 2026-05-11_
 
-Найдено проблем: **215** файлов
+Найдено проблем: **181** файлов
 
-## Без метаданных (нет summary или тегов) — 210 файлов
+## Без метаданных (нет summary или тегов) — 175 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/01-svyazi/QA.md` | 257 | нет summary, нет тегов |
 | `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
-| `docs/03-technology-combinations/QA.md` | 124 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/QA.md` | 282 | нет summary, нет тегов |
+| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
+| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
 | `docs/05-habr-projects/QA.md` | 206 | нет summary, нет тегов |
-| `docs/ABBREVIATIONS.md` | 1273 | нет summary, нет тегов |
-| `docs/ACTION_ITEMS.md` | 2957 | нет summary, нет тегов |
-| `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
-| `docs/AUTHORS.md` | 120 | нет summary, нет тегов |
-| `docs/BACKLINKS.md` | 412 | нет summary, нет тегов |
-| `docs/CHANGELOG.md` | 2990 | нет тегов |
-| `docs/CODE_BLOCKS.md` | 5086 | нет summary, нет тегов |
+| `docs/CHANGELOG.md` | 3014 | нет тегов |
 | `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/COMPLEXITY.md` | 343 | нет summary, нет тегов |
-| `docs/CONCEPTS.md` | 15918 | нет summary, нет тегов |
-| `docs/CONSISTENCY.md` | 527 | нет summary, нет тегов |
 | `docs/CONTACTS.md` | 316 | нет summary, нет тегов |
-| `docs/CONTENT_GAPS.md` | 674 | нет summary, нет тегов |
 | `docs/COST.md` | 344 | нет summary, нет тегов |
-| `docs/CROSSREFS.md` | 502 | нет summary, нет тегов |
+| `docs/FAQ.md` | 867 | нет summary, нет тегов |
+| `docs/PROGRESS.md` | 219 | нет summary, нет тегов |
+| `docs/QA.md` | 2107 | нет summary, нет тегов |
+| `docs/READING_ORDER.md` | 4042 | нет summary, нет тегов |
+| `docs/SCHEDULE.md` | 212 | нет summary, нет тегов |
+| `docs/SCORING.md` | 198 | нет summary, нет тегов |
+| `docs/SEE_ALSO.md` | 365 | нет summary, нет тегов |
+| `docs/SITEMAP.md` | 6630 | нет summary, нет тегов |
+| `docs/STATS.md` | 355 | нет summary, нет тегов |
+| `docs/ai-collaborations/README.md` | 70 | нет summary, нет тегов, короткий (70 слов) |
+| `docs/ai-collaborations/candidates/README.md` | 47 | нет summary, нет тегов, короткий (47 слов) |
 
-## Короткие (< 100 слов, заготовки) — 5 файлов
+## Короткие (< 100 слов, заготовки) — 6 файлов
 
 | Файл | Слов |
 |------|------|
+| `docs/ALERTS.md` | 83 |
 | `docs/templates/contact-outreach.md` | 81 |
 | `docs/templates/decision-record.md` | 53 |
 | `docs/templates/ensemble.md` | 81 |
@@ -67,5 +64,9 @@ python scripts/improve_tags.py
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
 
-
-_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md)_
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

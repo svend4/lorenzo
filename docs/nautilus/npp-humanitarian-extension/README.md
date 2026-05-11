@@ -1,14 +1,14 @@
 # npp-humanitarian-extension
 
-<!-- summary -->
-> npp-humanitarian-extension — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
 > [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+> Раздел `README` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
 
 
 **Файлов:** 6
@@ -16,34 +16,34 @@
 ## Содержание
 
 - [00-question-can-it-apply-to-docs.md](00-question-can-it-apply-to-docs.md) — <!-- toc-auto -->
-- [01-structural-comparison-code-vs-docs.md](01-structural-comparison-code-vs-docs.md) — <!-- toc-auto -->
+- [01-structural-comparison-code-vs-docs.md](01-structural-comparison-code-vs-docs.md) — <!-- toc -->
 - [02-mcp-claude-desktop-use-cases.md](02-mcp-claude-desktop-use-cases.md) — <!-- toc-auto -->
 - [03-what-doesnt-exist-on-market.md](03-what-doesnt-exist-on-market.md) — <!-- toc-auto -->
-- [04-grant-opportunities.md](04-grant-opportunities.md) — <!-- toc-auto -->
+- [04-grant-opportunities.md](04-grant-opportunities.md) — <!-- toc -->
 - [05-which-combination-more-valuable.md](05-which-combination-more-valuable.md) — <!-- toc-auto -->
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (5):**
+**Кто ссылается на этот документ (11):**
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
 - [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
+- [00-question-can-it-apply-to-docs](00-question-can-it-apply-to-docs.md)
+- [01-structural-comparison-code-vs-docs](01-structural-comparison-code-vs-docs.md)
+- [02-mcp-claude-desktop-use-cases](02-mcp-claude-desktop-use-cases.md)
+- _...ещё 3_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит структурированную информацию по теме «npp-humanitarian-extension». Создан автоматически из исходных данных проекта. Для подробностей обратитесь к главной документации.
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск
+python scripts/improve_readme.py
 ```
-
-```bash
-python scripts/improve_semantic_search.py --query "README"
-```
-
-
-Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo.

@@ -1,12 +1,10 @@
 # Каталог скриптов
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+<!-- tags: scripts-catalog, docs, analysis, svyazi -->
 
-
-_Обновлено: 2026-05-10_
+_Обновлено: 2026-05-11_
 
 **Всего скриптов:** 161
 
@@ -1566,33 +1564,34 @@ Combines three ranking signals in one CLI: 1. TF-IDF cosine  — card-level sema
 **Флаги:** `--history`, `--output`, `--parallel`, `--resume`, `--task`
 
 
-<!-- tags: docs, reference, quality, lorenzo -->
 
-
-## Инструменты обработки
-
+## Использование
 ```bash
-python scripts/improve_run_all.py --fast
+# Запуск генератора
+python scripts/improve_scripts_catalog.py
+```
+```bash
+# Пример 2: фильтрация результатов
+python scripts/improve_scripts_catalog.py --section 01-svyazi
+```
+```bash
+# Пример 3: фильтрация результатов
+python scripts/improve_scripts_catalog.py --section 01-svyazi
+```
+```bash
+# Пример 4: фильтрация результатов
+python scripts/improve_scripts_catalog.py --section 01-svyazi
 ```
 
-```bash
-python scripts/improve_run_all.py --group reports
-```
-
-```bash
-python scripts/improve_semantic_search.py --query "Lorenzo"
-```
-
-```bash
-python scripts/improve_collab_finder.py --query "проект"
-```
-
-```bash
-python scripts/improve_run_all.py --group analysis
-```
-
-
-
-## Связанные документы
-
-[README](README.md) · [GLOSSARY](GLOSSARY.md) · [CONTACTS](CONTACTS.md) · [TIMELINE](TIMELINE.md) · [TAGS](TAGS.md) · [SEARCH](SEARCH.md) · [HEALTH](HEALTH.md) · [METRICS](METRICS.md) · [INDEX](INDEX.md) · [FAQ](FAQ.md)
+## Смотрите также
+- [Главная страница](README.md)
+- [Метрики качества](METRICS.md)
+- [Дашборд здоровья](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Именованные сущности](ENTITIES.md)
+- [Ключевые решения](DECISIONS.md)
+- [Контакты авторов](CONTACTS.md)
+- [Оценка готовности](SCORING.md)
+- [Теги документов](TAGS.md)
+- [Задачи и действия](ACTION_ITEMS.md)
+- [Хронология](TIMELINE.md)

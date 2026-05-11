@@ -1,23 +1,17 @@
 # Часто задаваемые вопросы (FAQ)
 
-<!-- toc-auto -->
-## Содержание
+> [!NOTE]
+> Документ `FAQ` создаётся автоматически.
 
-- Основной раздел
+<!-- alert-added -->
+<!-- tags: faq, docs, analysis -->
 
 
 <!-- summary -->
-> Часто задаваемые вопросы (FAQ) — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> Автоматически сформированный документ: `FAQ`.
 
 
-_Извлечено: 238 вопросов и ответов_
+_Извлечено: 241 вопросов и ответов_
 
 
 ## Архитектура
@@ -36,17 +30,35 @@ Model Context Protocol — открытый протокол Anthropic для в
 
 _→ [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md)_
 
+### Содержание - Содержание - Что это такое?
+
+- Первые 30 минут - Структура документации - Ключевые документы - Скрипты автоматизации - Архитектура компонентов - Как внести вклад - Контакты --- <!-- toc-auto -->
+
+_→ [ONBOARDING](ONBOARDING.md)_
+
 ### Что это такое?
 
 **Svyazi 2.0** — экосистема из 20+ взаимосвязанных OSS-проектов для построения AI-систем с долгосрочной памятью, оркестрацией агентов и безопасной обработкой данных. Статус готовности: **96% 🟢 GO** (документация и архитектура).
 
 _→ [ONBOARDING](ONBOARDING.md)_
 
+### Q&A: svyazi-2-0 > - Основной раздел - Содержание - Как реализован forensic RAG с доказуемостью?
+
+- Что такое Evidence Envelope и зачем он нужен? - Какие RAG-подходы сравниваются в документах? - Как работает AgentFS и что такое .agentos? - Что такое knowledge-space и для кого он предназначен? - Как CardIndex хранит и версионирует карточки? - Какие 5 архитектурных зазоров выделены в исследовании? _... ещё 2 разделов_ _Слов: 387_
+
+_→ [OUTLINE](OUTLINE.md)_
+
 ### Принимаем эту architecture как Lorenzo vision (с моими caveats)?
 
 Если да — должен ли я update Lorenzo системный промпт с этой архитектурой?
 
 _→ [06-conclusion-deserves-attention](lorenzo-agent/operationalized/06-conclusion-deserves-attention.md)_
+
+### Содержание - Contents - Что это такое?
+
+- Первые 30 минут - Структура документации - Ключевые документы - Скрипты автоматизации - Архитектура компонентов - Как внести вклад - Контакты - Смотрите также --- <!-- toc-auto -->
+
+_→ [ONBOARDING](obsidian/ONBOARDING.md)_
 
 
 ## MVP/Запуск
@@ -101,7 +113,7 @@ _→ [343-lorenzo-catalyst-agent-глубокая-проработка-спец�
 
 ### Why "Nautilus"?
 
-A [nautilus](svyazi-2-0/components/memnet.md) shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
+A nautilus shell is a **spiral of nested chambers**, each larger than the last but built on the same geometry. This is *fractal scaling with preserved proportion*. Nautilus Protocol embodies the same pattern: repos nested inside an ecosystem, each self-contained yet connected by the same protocol, the same geometry of bridges.
 
 _→ [68-about](02-anthropic-vacancies/68-about.md)_
 
@@ -178,11 +190,7 @@ _→ [200-10-открытые-вопросы](02-anthropic-vacancies/200-10-от
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
-```
-
-```bash
-python scripts/improve_semantic_search.py --query "FAQ"
+# Запуск генератора
+python scripts/improve_faq.py
 ```

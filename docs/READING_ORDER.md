@@ -1,15 +1,16 @@
 # Рекомендуемый порядок чтения
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Документ `READING_ORDER` создаётся автоматически. Запустите скрипт для обновления.
+
+<!-- alert-added -->
+<!-- tags: reading_order, docs, analysis -->
 
 
 <!-- summary -->
-> Рекомендуемый порядок чтения — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, quality, lorenzo -->
+> Автоматически сформированный документ: `READING_ORDER`.
 
 
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -35,7 +36,7 @@
 | 17 | 🟡 Средний | [research-docs + LiteParse](05-habr-projects/knowledge/research-docs-liteparse.md) | 699 | — |
 | 18 | 🟡 Средний | [Wikontic: семантический граф](05-habr-projects/knowledge/wikontic.md) | 435 | — |
 | 19 | 🟡 Средний | [AgentFS](05-habr-projects/knowledge/agentfs.md) | 647 | — |
-| 20 | 🟡 Средний | [knowledge-space[^knowledge_space]](05-habr-projects/knowledge/knowledge-space.md) | 637 | — |
+| 20 | 🟡 Средний | [knowledge-space[^knowledge-space]](05-habr-projects/knowledge/knowledge-space.md) | 637 | — |
 | 21 | 🟡 Средний | [mclaude](05-habr-projects/knowledge/mclaude.md) | 681 | — |
 | 22 | 🟡 Средний | [Rufler](05-habr-projects/knowledge/rufler.md) | 656 | — |
 | 23 | 🟡 Средний | [NGT[^ngt] Memory: ассоциативный граф](05-habr-projects/memory/ngt-memory.md) | 472 | — |
@@ -173,7 +174,7 @@
 | 155 | 🟢 Начало | [5. Связь с существующими методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) | 440 | — |
 | 156 | 🟢 Начало | [6. Почему это валидный паттерн для AI-assiste](02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) | 302 | — |
 | 157 | 🟢 Начало | [7. Реализация в проекте Nautilus](02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) | 341 | — |
-| 158 | 🟡 Средний | [8. Ограничения и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 501 | — |
+| 158 | 🟡 Средний | [8. Ограничения и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) | 540 | — |
 | 159 | 🟢 Начало | [9. Checklist применения методологии](02-anthropic-vacancies/116-9-checklist-применения-методологии.md) | 452 | — |
 | 160 | 🟢 Начало | [10. Конкретный план применения к текущим доку](02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) | 347 | — |
 | 161 | 🟢 Начало | [Appendix A: Шаблон для header warning](02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) | 307 | — |
@@ -193,7 +194,7 @@
 | 175 | 🔴 Продвинутый | [Обратная связь](02-anthropic-vacancies/133-обратная-связь.md) | 17102 | — |
 | 176 | 🟢 Начало | [A Formal Model for Human-AI Collaboration in ](02-anthropic-vacancies/135-a-formal-model-for-human-ai-collaboration-in-distr.md) | 382 | — |
 | 177 | 🟢 Начало | [Abstract](02-anthropic-vacancies/136-abstract.md) | 676 | — |
-| 178 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/137-table-of-contents.md) | 363 | — |
+| 178 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/137-table-of-contents.md) | 371 | — |
 | 179 | 🟢 Начало | [1. Why Single-Triangle Models Are Incomplete](02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | 633 | — |
 | 180 | 🟡 Средний | [3. Three Inter-Layer Protocols](02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) | 1068 | — |
 | 181 | 🟢 Начало | [4. Nautilus Portal as Reference Substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) | 965 | — |
@@ -208,7 +209,7 @@
 | 190 | 🔴 Продвинутый | [Appendix C: Version History](02-anthropic-vacancies/150-appendix-c-version-history.md) | 8670 | — |
 | 191 | 🟢 Начало | [OPEN KNOWLEDGE WORK FOUNDATION.md](02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) | 431 | — |
 | 192 | 🟢 Начало | [AI-Coordinated Infrastructure for Distributed](02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) | 353 | — |
-| 193 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/154-table-of-contents.md) | 322 | — |
+| 193 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/154-table-of-contents.md) | 330 | — |
 | 194 | 🟢 Начало | [1. Problem Statement](02-anthropic-vacancies/155-1-problem-statement.md) | 837 | — |
 | 195 | 🟢 Начало | [2. Target Populations](02-anthropic-vacancies/156-2-target-populations.md) | 866 | — |
 | 196 | 🟢 Начало | [3. Why Existing Solutions Fail](02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) | 851 | — |
@@ -223,7 +224,7 @@
 | 205 | 🟢 Начало | [REPRESENTATIVE AGENT LAYER.md](02-anthropic-vacancies/166-representative-agent-layer-md.md) | 323 | — |
 | 206 | 🟢 Начало | [AI-Mediated Representation for Underrepresent](02-anthropic-vacancies/167-ai-mediated-representation-for-underrepresented-ex.md) | 474 | — |
 | 207 | 🟢 Начало | [Abstract](02-anthropic-vacancies/168-abstract.md) | 623 | — |
-| 208 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/169-table-of-contents.md) | 333 | — |
+| 208 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/169-table-of-contents.md) | 341 | — |
 | 209 | 🟡 Средний | [1. The Cinderella Syndrome: Why Quality Stays](02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) | 1005 | — |
 | 210 | 🟡 Средний | [2. Historical Precedents: Agents as Civilizat](02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) | 1157 | — |
 | 211 | 🟢 Начало | [3. What Makes a Representative Agent](02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) | 958 | — |
@@ -251,11 +252,11 @@
 | 233 | 🟡 Средний | [4. Десять областей применения](02-anthropic-vacancies/194-4-десять-областей-применения.md) | 1673 | — |
 | 234 | 🟢 Начало | [5. Архитектурная спецификация](02-anthropic-vacancies/195-5-архитектурная-спецификация.md) | 633 | — |
 | 235 | 🟢 Начало | [6. Этическая рамка](02-anthropic-vacancies/196-6-этическая-рамка.md) | 653 | — |
-| 236 | 🟢 Начало | [7. Управление и надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md) | 508 | — |
+| 236 | 🟢 Начало | [7. Управление и надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md) | 551 | — |
 | 237 | 🟢 Начало | [8. Риски и меры противодействия](02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) | 645 | — |
 | 238 | 🟢 Начало | [9. Стратегия поэтапного развёртывания](02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md) | 645 | — |
 | 239 | 🟢 Начало | [10. Открытые вопросы](02-anthropic-vacancies/200-10-открытые-вопросы.md) | 483 | — |
-| 240 | 🟢 Начало | [11. Призыв к сотрудничеству](02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) | 524 | — |
+| 240 | 🟢 Начало | [11. Призыв к сотрудничеству](02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) | 579 | — |
 | 241 | 🟢 Начало | [12. Заключение](02-anthropic-vacancies/202-12-заключение.md) | 315 | — |
 | 242 | 🟢 Начало | [Благодарности](02-anthropic-vacancies/203-благодарности.md) | 302 | — |
 | 243 | 🟢 Начало | [Ссылки](02-anthropic-vacancies/204-ссылки.md) | 366 | — |
@@ -265,7 +266,7 @@
 | 247 | 🟢 Начало | [PROFESSIONAL COLLEAGUE AGENTS.md](02-anthropic-vacancies/208-professional-colleague-agents-md.md) | 389 | — |
 | 248 | 🟢 Начало | [A Typology of AI Agents on the Principal Side](02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) | 471 | — |
 | 249 | 🟢 Начало | [Abstract](02-anthropic-vacancies/210-abstract.md) | 665 | — |
-| 250 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/211-table-of-contents.md) | 486 | — |
+| 250 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/211-table-of-contents.md) | 494 | — |
 | 251 | 🟡 Средний | [1. The Five-Type Typology of Principal-Side A](02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) | 1231 | — |
 | 252 | 🟡 Средний | [2. What Makes a Professional Colleague Agent](02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) | 1154 | — |
 | 253 | 🟡 Средний | [3. Empirical Case Study: «Обучай»](02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) | 1112 | — |
@@ -305,7 +306,7 @@
 | 287 | 🟢 Начало | [Bridging the Gap Between Profession-Wide and ](02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md) | 340 | — |
 | 288 | 🟢 Начало | [AI Support Through Configurable Specialist En](02-anthropic-vacancies/251-ai-support-through-configurable-specialist-ensembl.md) | 461 | — |
 | 289 | 🟢 Начало | [Abstract](02-anthropic-vacancies/252-abstract.md) | 632 | — |
-| 290 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/253-table-of-contents.md) | 404 | — |
+| 290 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/253-table-of-contents.md) | 412 | — |
 | 291 | 🟢 Начало | [1. Why the Binary View Is Incomplete](02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) | 975 | — |
 | 292 | 🟡 Средний | [2. The Twenty-One Teachers Pattern](02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) | 1045 | — |
 | 293 | 🟡 Средний | [3. What Makes a Composite Skills Agent](02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) | 1235 | — |
@@ -359,7 +360,7 @@
 | 341 | 🟢 Начало | [A Practical Path to Layer B Through Symbiotic](02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md) | 323 | — |
 | 342 | 🟢 Начало | [with Anthropic's Cowork Platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md) | 589 | — |
 | 343 | 🟢 Начало | [Abstract](02-anthropic-vacancies/307-abstract.md) | 646 | — |
-| 344 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md) | 478 | — |
+| 344 | 🟢 Начало | [Table of Contents](02-anthropic-vacancies/308-table-of-contents.md) | 486 | — |
 | 345 | 🟢 Начало | [1. The Cowork Discovery and Why It Changes Ev](02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) | 742 | — |
 | 346 | 🟢 Начало | [2. What Cowork Provides That InGit Doesn't Ne](02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) | 728 | — |
 | 347 | 🟢 Начало | [3. What InGit Provides That Cowork Lacks](02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) | 921 | — |
@@ -442,31 +443,20 @@
 5. `02-anthropic-vacancies/` — карьерные возможности
 
 
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
-
-
-## Инструменты обработки
-
+## Использование
 ```bash
-python scripts/improve_run_all.py --fast
+# Запуск генератора
+python scripts/improve_reading_order.py
 ```
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Вариант 2
+python scripts/improve_reading_order.py --section 01-svyazi
 ```
-
 ```bash
-python scripts/improve_semantic_search.py --query "Lorenzo"
+# Вариант 3
+python scripts/improve_reading_order.py --section 01-svyazi
 ```
-
 ```bash
-python scripts/improve_collab_finder.py --query "проект"
+# Вариант 4
+python scripts/improve_reading_order.py --section 01-svyazi
 ```
-
-```bash
-python scripts/improve_run_all.py --group analysis
-```
-

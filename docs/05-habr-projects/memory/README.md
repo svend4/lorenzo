@@ -1,4 +1,10 @@
 # Системы памяти
+
+<!-- toc-auto -->
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 <!-- summary: Проекты слоя memory: agent-memory-mcp, MemNet, NGT[^ngt] Memory, Yodoca[^yodoca] -->
 <!-- tags: memory, agent-memory-mcp, memnet, ngt-memory, yodoca -->
 

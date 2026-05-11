@@ -1,50 +1,49 @@
 # mmorpg-for-programmers
 
-<!-- summary -->
-> mmorpg-for-programmers — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
 > [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+> Раздел `README` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
 
 
 **Файлов:** 6
 
 ## Содержание
 
-- [00-question-mmorpg-for-programmers.md](00-question-mmorpg-for-programmers.md) — <!-- toc-auto -->
+- [00-question-mmorpg-for-programmers.md](00-question-mmorpg-for-programmers.md) — <!-- toc -->
 - [01-why-stronger-than-it-looks.md](01-why-stronger-than-it-looks.md) — <!-- toc-auto -->
 - [02-existing-niche.md](02-existing-niche.md) — <!-- toc-auto -->
-- [03-why-natural-for-programmers.md](03-why-natural-for-programmers.md) — <!-- toc-auto -->
+- [03-why-natural-for-programmers.md](03-why-natural-for-programmers.md) — <!-- toc -->
 - [04-pluses-as-business.md](04-pluses-as-business.md) — <!-- toc-auto -->
-- [05-minuses-as-business.md](05-minuses-as-business.md) — <!-- toc-auto -->
+- [05-minuses-as-business.md](05-minuses-as-business.md) — <!-- toc -->
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (6):**
+**Кто ссылается на этот документ (12):**
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
 - [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
-- [reading-paths](../../reading-paths.md)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
+- [02-existing-niche](02-existing-niche.md)
+- _...ещё 4_
 
+
+
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит структурированную информацию по теме «mmorpg-for-programmers». Создан автоматически из исходных данных проекта. Для подробностей обратитесь к главной документации.
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск
+python scripts/improve_readme.py
 ```
-
-```bash
-python scripts/improve_semantic_search.py --query "README"
-```
-
-
-Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo.

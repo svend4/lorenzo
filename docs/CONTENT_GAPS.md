@@ -1,25 +1,21 @@
 # Тематические пробелы (Content Gaps)
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
-
-
-<!-- summary -->
-> Тематические пробелы (Content Gaps) — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
+<!-- tags: content-gaps, docs, analysis, svyazi -->
 > [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+> Документ `CONTENT_GAPS` автоматически формируется из данных репозитория. Для актуализации запустите соответствующий скрипт.
 
 <!-- alert-added -->
 
 
-_Обновлено: 2026-05-10_
 
-Найдено пробелов: **922** (мин. упоминаний: 3)
+<!-- summary -->
+> Автоматически сгенерированный документ: `CONTENT_GAPS`. Содержит аналитику и структурированные данные по разделу.
+
+_Обновлено: 2026-05-11_
+
+Найдено пробелов: **895** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -27,72 +23,72 @@ _Обновлено: 2026-05-10_
 
 | Концепция | Упоминаний | Рекомендуемая папка |
 |-----------|-----------|-------------------|
-| `MHTML` | 1014 | `docs/obsidian/` |
-| `NPP` | 151 | `docs/obsidian/` |
+| `MHTML` | 1018 | `docs/obsidian/` |
+| `NPP` | 153 | `docs/obsidian/` |
 | `GDPR` | 123 | `docs/obsidian/` |
 | `MUST` | 112 | `docs/obsidian/` |
-| `BSL` | 90 | `docs/obsidian/` |
+| `BSL` | 89 | `docs/obsidian/` |
 | `SHOULD` | 80 | `docs/obsidian/` |
-| `PDF` | 71 | `docs/obsidian/` |
-| `IDF` | 66 | `docs/obsidian/` |
+| `IDF` | 78 | `docs/obsidian/` |
+| `PDF` | 72 | `docs/obsidian/` |
 | `XII` | 63 | `docs/obsidian/` |
-| `PII` | 60 | `docs/obsidian/` |
+| `PII` | 61 | `docs/obsidian/` |
 | `BSG` | 60 | `docs/obsidian/` |
+| `URL` | 58 | `docs/obsidian/` |
 | `AIF` | 57 | `docs/obsidian/` |
-| `URL` | 57 | `docs/obsidian/` |
+| `LinkedIn` | 54 | `docs/obsidian/` |
 | `KSV` | 54 | `docs/obsidian/` |
-| `HEALTH` | 54 | `docs/obsidian/` |
-| `LinkedIn` | 53 | `docs/obsidian/` |
+| `HEALTH` | 53 | `docs/obsidian/` |
 | `MAY` | 52 | `docs/obsidian/` |
 | `RSS` | 52 | `docs/obsidian/` |
 | `HMP` | 50 | `docs/obsidian/` |
-| `YiJing` | 47 | `docs/obsidian/` |
+| `YiJing` | 48 | `docs/obsidian/` |
+| `RLM` | 46 | `docs/obsidian/` |
 | `HIPAA` | 46 | `docs/obsidian/` |
-| `RLM` | 45 | `docs/obsidian/` |
-| `EMEA` | 44 | `docs/obsidian/` |
+| `EMEA` | 45 | `docs/obsidian/` |
 | `AutoGen` | 44 | `docs/obsidian/` |
-| `EIC` | 37 | `docs/obsidian/` |
+| `EIC` | 38 | `docs/obsidian/` |
 | `OpenWhispr` | 36 | `docs/obsidian/` |
 | `LCI` | 35 | `docs/obsidian/` |
+| `AIRI` | 35 | `docs/obsidian/` |
 | `CodeWiki` | 34 | `docs/obsidian/` |
+| `BaseAdapter` | 34 | `docs/obsidian/` |
+| `DOCX` | 34 | `docs/obsidian/` |
 | `LangChain` | 34 | `docs/obsidian/` |
-| `AIRI` | 34 | `docs/obsidian/` |
-| `BaseAdapter` | 33 | `docs/obsidian/` |
-| `DOCX` | 33 | `docs/obsidian/` |
-| `DeepSeek` | 31 | `docs/obsidian/` |
-| `FAISS` | 30 | `docs/obsidian/` |
+| `DeepSeek` | 32 | `docs/obsidian/` |
 | `ChatDev` | 30 | `docs/obsidian/` |
+| `FAISS` | 29 | `docs/obsidian/` |
 | `III` | 29 | `docs/obsidian/` |
 | `CRM` | 26 | `docs/obsidian/` |
 | `IBM` | 26 | `docs/obsidian/` |
 | `NNNN` | 26 | `docs/obsidian/` |
-| `Composite Skills Agents` | 26 | `docs/nautilus/` |
+| `Composite Skills Agents` | 26 | `docs/obsidian/` |
 | `Professional Colleague Agents (EN)` | 26 | `docs/nautilus/` |
 | `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/nautilus/` |
 | `Representative Agent Layer (EN)` | 26 | `docs/nautilus/` |
-| `Representative Agent Layer (RU)` | 26 | `docs/nautilus/` |
-| `SGG` | 25 | `docs/obsidian/` |
+| `Representative Agent Layer (RU)` | 26 | `docs/obsidian/` |
+| `VitaliySemenov` | 25 | `docs/obsidian/` |
 | `STDP` | 24 | `docs/obsidian/` |
 | `TypeScript` | 24 | `docs/obsidian/` |
-| `HTTP` | 24 | `docs/obsidian/` |
-| `ArXiv` | 24 | `docs/obsidian/` |
+| `GPU` | 24 | `docs/obsidian/` |
+| `CSV` | 24 | `docs/obsidian/` |
 | `RDF` | 24 | `docs/obsidian/` |
 
 ## Детали по топ-20 пробелам
 
-### `MHTML` (1014 файлов)
+### `MHTML` (1018 файлов)
 
 Упоминается в:
 - `docs/ABBREVIATIONS.md`
 - `docs/CHANGELOG.md`
-- `docs/OUTLINE.md`
-- `docs/TABLES.md`
-- `docs/ai-collaborations/candidates/01-three-key-candidates.md`
-- ... и ещё 1009 файлах
+- `docs/CONCEPTS.md`
+- `docs/DUPLICATES.md`
+- `docs/KPI.md`
+- ... и ещё 1013 файлах
 
 Создать: `docs/obsidian/mhtml.md`
 
-### `NPP` (151 файлов)
+### `NPP` (153 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/04-abstract.md`
@@ -100,7 +96,7 @@ _Обновлено: 2026-05-10_
 - `docs/02-anthropic-vacancies/07-2-terminology.md`
 - `docs/02-anthropic-vacancies/104-appendix-c-references.md`
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md`
-- ... и ещё 146 файлах
+- ... и ещё 148 файлах
 
 Создать: `docs/obsidian/npp.md`
 
@@ -128,7 +124,7 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/must.md`
 
-### `BSL` (90 файлов)
+### `BSL` (89 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
@@ -136,7 +132,7 @@ _Обновлено: 2026-05-10_
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/08-conclusions.md`
-- ... и ещё 85 файлах
+- ... и ещё 84 файлах
 
 Создать: `docs/obsidian/bsl.md`
 
@@ -152,19 +148,7 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/should.md`
 
-### `PDF` (71 файлов)
-
-Упоминается в:
-- `docs/01-svyazi/03-component-catalog.md`
-- `docs/01-svyazi/10-second-order-ensembles.md`
-- `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
-- `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
-- `docs/03-technology-combinations/05-benchmarks.md`
-- ... и ещё 66 файлах
-
-Создать: `docs/obsidian/pdf.md`
-
-### `IDF` (66 файлов)
+### `IDF` (78 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -172,9 +156,21 @@ _Обновлено: 2026-05-10_
 - `docs/02-anthropic-vacancies/86-11-relevance-ranking.md`
 - `docs/04-ai-collaborations/00-intro.md`
 - `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- ... и ещё 61 файлах
+- ... и ещё 73 файлах
 
 Создать: `docs/obsidian/idf.md`
+
+### `PDF` (72 файлов)
+
+Упоминается в:
+- `docs/01-svyazi/03-component-catalog.md`
+- `docs/01-svyazi/10-second-order-ensembles.md`
+- `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
+- `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
+- `docs/03-technology-combinations/05-benchmarks.md`
+- ... и ещё 67 файлах
+
+Создать: `docs/obsidian/pdf.md`
 
 ### `XII` (63 файлов)
 
@@ -188,7 +184,7 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/xii.md`
 
-### `PII` (60 файлов)
+### `PII` (61 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/06-security-privacy.md`
@@ -196,7 +192,7 @@ _Обновлено: 2026-05-10_
 - `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
-- ... и ещё 55 файлах
+- ... и ещё 56 файлах
 
 Создать: `docs/obsidian/pii.md`
 
@@ -212,6 +208,18 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/bsg.md`
 
+### `URL` (58 файлов)
+
+Упоминается в:
+- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
+- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
+- `docs/02-anthropic-vacancies/145-8-call-to-action.md`
+- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md`
+- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
+- ... и ещё 53 файлах
+
+Создать: `docs/obsidian/url.md`
+
 ### `AIF` (57 файлов)
 
 Упоминается в:
@@ -224,17 +232,17 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/aif.md`
 
-### `URL` (57 файлов)
+### `LinkedIn` (54 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
-- `docs/02-anthropic-vacancies/145-8-call-to-action.md`
-- `docs/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md`
-- `docs/02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md`
-- ... и ещё 52 файлах
+- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
+- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
+- `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md`
+- `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md`
+- ... и ещё 49 файлах
 
-Создать: `docs/obsidian/url.md`
+Создать: `docs/obsidian/linkedin.md`
 
 ### `KSV` (54 файлов)
 
@@ -248,29 +256,17 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/ksv.md`
 
-### `HEALTH` (54 файлов)
+### `HEALTH` (53 файлов)
 
 Упоминается в:
 - `docs/CHANGELOG.md`
 - `docs/CHANGELOG_AUTO.md`
 - `docs/EMPTY_SECTIONS.md`
+- `docs/HEADING_AUDIT.md`
 - `docs/INDEX.md`
-- `docs/KNOWLEDGE_MAP.md`
-- ... и ещё 49 файлах
-
-Создать: `docs/obsidian/health.md`
-
-### `LinkedIn` (53 файлов)
-
-Упоминается в:
-- `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md`
-- `docs/02-anthropic-vacancies/161-7-phased-rollout-plan.md`
-- `docs/02-anthropic-vacancies/162-8-risk-analysis.md`
-- `docs/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md`
-- `docs/02-anthropic-vacancies/173-4-ten-domains-of-application.md`
 - ... и ещё 48 файлах
 
-Создать: `docs/obsidian/linkedin.md`
+Создать: `docs/obsidian/health.md`
 
 ### `MAY` (52 файлов)
 
@@ -308,7 +304,7 @@ _Обновлено: 2026-05-10_
 
 Создать: `docs/obsidian/hmp.md`
 
-### `YiJing` (47 файлов)
+### `YiJing` (48 файлов)
 
 Упоминается в:
 - `docs/02-anthropic-vacancies/00-intro.md`
@@ -316,10 +312,24 @@ _Обновлено: 2026-05-10_
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md`
 - `docs/02-anthropic-vacancies/46-essence.md`
 - `docs/02-anthropic-vacancies/48-content-overview.md`
-- ... и ещё 42 файлах
+- ... и ещё 43 файлах
 
 Создать: `docs/obsidian/yijing.md`
 
+
+
+## Использование
+```bash
+# Запуск генератора
+python scripts/improve_content_gaps.py
+```
+
+## Смотрите также
+- [Главная страница](README.md)
+- [Метрики качества](METRICS.md)
+- [Дашборд здоровья](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Именованные сущности](ENTITIES.md)
 
 <!-- see-also -->
 
@@ -331,14 +341,3 @@ _Обновлено: 2026-05-10_
 - [CODE_BLOCKS](CODE_BLOCKS.md)
 - [NAMED_ENTITIES](NAMED_ENTITIES.md)
 
-
-
-## Использование
-
-```bash
-python scripts/improve_run_all.py --group reports
-```
-
-```bash
-python scripts/improve_semantic_search.py --query "CONTENT_GAPS"
-```

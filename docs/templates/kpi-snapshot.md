@@ -10,6 +10,10 @@ tags: [kpi, метрики, снапшот]
 
 # KPI Snapshot: [дата]
 
+<!-- summary -->
+> `kpi-snapshot` — раздел документации проекта Lorenzo.
+
+
 <!-- toc-auto -->
 ## Содержание
 

@@ -1,23 +1,19 @@
 # GitHub Issues — список задач
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Документ `GITHUB_ISSUES` создаётся автоматически.
+
+<!-- alert-added -->
+<!-- tags: github-issues, docs, analysis -->
 
 
 <!-- summary -->
-> GitHub Issues — список задач — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> Автоматически сформированный документ: `GITHUB_ISSUES`.
 
 
-_Обновлено: 2026-05-10_
+_Обновлено: 2026-05-11_
 
 Найдено задач: **311**
 
@@ -75,7 +71,7 @@ _Обновлено: 2026-05-10_
 
 ## `docs/STATS.md` (1 задач)
 
-- [ ] **меток: 129**  _`docs`, `automation`_
+- [ ] **меток: 128**  _`docs`, `automation`_
 
 ## `docs/TABLES.md` (1 задач)
 
@@ -580,17 +576,17 @@ python scripts/improve_github_issues.py --create --label docs,automation
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск генератора
+python scripts/improve_github_issues.py
 ```
 
-```bash
-python scripts/improve_semantic_search.py --query "GITHUB_ISSUES"
-```
-
-
-_Смотрите также: [README](README.md) · [GLOSSARY](GLOSSARY.md) · [CONTACTS](CONTACTS.md)_
-
-
-_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md) · [Индекс](INDEX.md) · [FAQ](FAQ.md)_
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)

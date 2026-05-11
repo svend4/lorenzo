@@ -13,6 +13,10 @@ tags: [tech-radar, оценка-технологий]
 
 # Tech Radar: [Название]
 
+<!-- summary -->
+> `tech-radar-entry` — раздел документации проекта Lorenzo.
+
+
 <!-- toc-auto -->
 ## Содержание
 

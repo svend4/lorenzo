@@ -1,24 +1,20 @@
 # Сравнение с предыдущим коммитом
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Документ `COMPARE` создаётся автоматически.
+
+<!-- alert-added -->
+<!-- tags: compare, docs, analysis -->
 
 
 <!-- summary -->
-> Сравнение с предыдущим коммитом — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> Автоматически сформированный документ: `COMPARE`.
 
 
 **Файлов было:** 1460  **стало:** 2451  
-**Слов было:** 1,579,073  **стало:** 2,598,869  **Δ:** +1,019,796
+**Слов было:** 1,634,718  **стало:** 2,691,304  **Δ:** +1,056,586
 
 
 ## Новые файлы (991)
@@ -34,7 +30,7 @@
 - `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` (440 слов)
 - `docs/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` (302 слов)
 - `docs/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md` (341 слов)
-- `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` (501 слов)
+- `docs/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md` (540 слов)
 - `docs/02-anthropic-vacancies/116-9-checklist-применения-методологии.md` (452 слов)
 - `docs/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md` (347 слов)
 - `docs/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md` (307 слов)
@@ -61,58 +57,58 @@
 - `docs/02-anthropic-vacancies/194-4-десять-областей-применения.md` (1673 слов)
 - `docs/02-anthropic-vacancies/195-5-архитектурная-спецификация.md` (633 слов)
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (653 слов)
-- `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (508 слов)
+- `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (551 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (645 слов)
 _...и ещё 951_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (1417) — топ по Δ слов
+## Изменившиеся файлы (1125) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
 | `TABLES.md` | 119650 | 216501 | +96851 |
-| `TABLES.md` | 216471 | 275425 | +58954 |
-| `QUESTIONS.md` | 25666 | 1854 | -23812 |
-| `READABILITY.md` | 26322 | 36860 | +10538 |
-| `READING_TIME.md` | 12452 | 18754 | +6302 |
+| `TABLES.md` | 216471 | 300544 | +84073 |
+| `QUESTIONS.md` | 25666 | 1905 | -23761 |
+| `EMPTY_SECTIONS.md` | 16308 | 36094 | +19786 |
+| `VERSION_DIFF.md` | 5561 | 16894 | +11333 |
+| `READABILITY.md` | 26322 | 37071 | +10749 |
+| `READING_TIME.md` | 18724 | 26602 | +7878 |
+| `OUTLINE.md` | 39384 | 46816 | +7432 |
+| `READING_TIME.md` | 12452 | 18770 | +6318 |
 | `VERSION_DIFF.md` | 869 | 5613 | +4744 |
 | `OUTLINE.md` | 35021 | 39411 | +4390 |
+| `HEADING_AUDIT.md` | 9467 | 13531 | +4064 |
+| `SOURCE_MAP.md` | 9072 | 12419 | +3347 |
 | `SOURCE_MAP.md` | 6134 | 9099 | +2965 |
-| `TIMELINE.md` | 2167 | 4785 | +2618 |
 | `QUESTIONS.md` | 23070 | 25686 | +2616 |
+| `TIMELINE.md` | 2188 | 4771 | +2583 |
 | `SITEMAP.md` | 7163 | 8502 | +1339 |
 | `GITHUB_ISSUES.md` | 1721 | 3017 | +1296 |
 | `CLUSTERS.md` | 1408 | 2675 | +1267 |
+| `QA.md` | 3227 | 1973 | -1254 |
 | `ACTION_ITEMS.md` | 8127 | 9331 | +1204 |
-| `SITEMAP.md` | 8443 | 9430 | +987 |
+| `PARAGRAPH_QUALITY.md` | 16078 | 17225 | +1147 |
+| `SITEMAP.md` | 8491 | 9437 | +946 |
 | `CONCEPTS.md` | 13271 | 14215 | +944 |
 | `CHANGELOG.md` | 1560 | 2500 | +940 |
-| `QA.md` | 3206 | 2414 | -792 |
 | `COVERAGE.md` | 1048 | 259 | -789 |
 | `PARAGRAPH_QUALITY.md` | 15333 | 16104 | +771 |
-| `BROKEN_LINKS.md` | 136 | 887 | +751 |
-| `CHANGELOG.md` | 2448 | 3178 | +730 |
-| `QA.md` | 1018 | 323 | -695 |
-| `CODE_BLOCKS.md` | 5313 | 5929 | +616 |
-| `REPORT.md` | 984 | 383 | -601 |
-| `CONCEPTS.md` | 14072 | 14628 | +556 |
-| `QA.md` | 776 | 239 | -537 |
-| `DUPLICATES.md` | 2663 | 2138 | -525 |
-| `SCRIPTS_CATALOG.md` | 8013 | 7493 | -520 |
-| `CODE_BLOCKS.md` | 5901 | 5395 | -506 |
+| `CHANGELOG.md` | 2473 | 3203 | +730 |
+| `QA.md` | 1035 | 323 | -712 |
+| `GITHUB_ISSUES.md` | 2988 | 3679 | +691 |
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск генератора
+python scripts/improve_compare.py
 ```
 
-```bash
-python scripts/improve_semantic_search.py --query "COMPARE"
-```
-
-
-_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md)_
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

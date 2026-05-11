@@ -1,14 +1,14 @@
 # review-methodology
 
-<!-- summary -->
-> review-methodology — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
 > [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+> Раздел `README` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
 
 
 **Файлов:** 17
@@ -18,7 +18,7 @@
 - [00-tldr.md](00-tldr.md) — <!-- toc-auto -->
 - [01-context-motivation.md](01-context-motivation.md) — <!-- toc-auto -->
 - [02-formal-workflow.md](02-formal-workflow.md) — <!-- toc-auto -->
-- [03-consolidation-principles.md](03-consolidation-principles.md) — <!-- toc-auto -->
+- [03-consolidation-principles.md](03-consolidation-principles.md) — <!-- toc -->
 - [04-fallback-ratio-question.md](04-fallback-ratio-question.md) — <!-- toc-auto -->
 - [05-conditions-of-applicability.md](05-conditions-of-applicability.md) — <!-- toc-auto -->
 - [06-relation-existing-methodologies.md](06-relation-existing-methodologies.md) — <!-- toc-auto -->
@@ -31,31 +31,27 @@
 - [13-appendix-b-examples.md](13-appendix-b-examples.md) — <!-- toc-auto -->
 - [14-main-technical-risks.md](14-main-technical-risks.md) — <!-- toc-auto -->
 - [15-appendix-c-history.md](15-appendix-c-history.md) — <!-- toc-auto -->
-- [16-glossary.md](16-glossary.md) — <!-- toc-auto -->
+- [16-glossary.md](16-glossary.md) — <!-- toc -->
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (6):**
+**Кто ссылается на этот документ (19):**
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
 - [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
-- [reading-paths](../../reading-paths.md)
+- [00-tldr](00-tldr.md)
+- [01-context-motivation](01-context-motivation.md)
+- [03-consolidation-principles](03-consolidation-principles.md)
+- _...ещё 11_
 
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск
+python scripts/improve_readme.py
 ```
-
-```bash
-python scripts/improve_semantic_search.py --query "README"
-```
-
-
-Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации.

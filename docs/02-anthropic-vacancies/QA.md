@@ -1,20 +1,16 @@
 # Q&A: 02-anthropic-vacancies
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Раздел `QA` автоматически формируется из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
 
 
 <!-- summary -->
-> Q&A: 02-anthropic-vacancies — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: anthropic, analysis, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> `QA` — раздел документации проекта Lorenzo.
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -113,14 +109,14 @@ _Автоматически сгенерировано по 355 файлам р�
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск
+python scripts/improve_qa.py
 ```
 
-```bash
-python scripts/improve_semantic_search.py --query "QA"
-```
-
-
-_Смотрите также: [README](../README.md) · [Глоссарий](../GLOSSARY.md) · [Контакты](../CONTACTS.md)_
+## Смотрите также
+- [Главная](../README.md)
+- [Метрики](../METRICS.md)
+- [Здоровье](../HEALTH.md)
+- [Глоссарий](../GLOSSARY.md)
+- [Сущности](../ENTITIES.md)

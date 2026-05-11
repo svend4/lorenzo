@@ -113,8 +113,9 @@ def main():
             for c in type_commits:
                 lines.append(f"- {c['desc']} _{c['sha']}_")
                 if c["body"] and len(c["body"]) > 10:
-                    # Первая строка тела
+                    # Первая строка тела (без markdown-ссылок)
                     body_line = c["body"].split('\n')[0][:100]
+                    body_line = re.sub(r'\[([^\]]+)\]\([^)]*\)', r'`\1`', body_line)
                     lines.append(f"  > {body_line}")
 
     # Записываем в docs/ и в корень

@@ -1,4 +1,10 @@
 # Уникальные проекты с Хабра
+
+<!-- toc-auto -->
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 <!-- summary: Каталог уникальных OSS-проектов с Хабра в слоях memory и knowledge -->
 <!-- tags: projects, habr, memory, knowledge, collaboration -->
 

@@ -36,7 +36,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > projects: ["research-docs", "LiteParse"]
-**Проекты:** Svyazi[^svyazi], AgentFS[^agentfs], knowledge-space[^knowledge_space], LiteParse, Yodoca[^yodoca], agent-memory-mcp
+**Проекты:** Svyazi[^svyazi], AgentFS[^agentfs], knowledge-space[^knowledge-space], LiteParse, Yodoca[^yodoca], agent-memory-mcp
 
 ---
 
@@ -156,4 +156,4 @@ _Создано: 2026-05-10_
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

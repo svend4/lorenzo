@@ -1,16 +1,8 @@
 # Отчёт о дублировании
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
-
-
-<!-- summary -->
-> Отчёт о дублировании — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
+<!-- tags: duplicates, docs, analysis, svyazi -->
 
 > [!NOTE]
 > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
@@ -19,55 +11,18 @@
 
 Порог сходства: **0.5**  
 Точных дублей: **0**  
-Похожих пар: **1405**
+Похожих пар: **1346**
 
 ## Похожие файлы (Jaccard ≥ 0.5)
-
-### 100% — `docs/SKILL_DASHBOARD.md` vs `docs/obsidian/SKILL_DASHBOARD.md`
-
-**Общих абзацев:** 2  
-**Примеры совпадений:**
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
-> Skill Dashboard отображает статистику использования скилов: частоту вызовов, средние оценки, тренды по времени. Данные накапливаются в `.claude/skill_metrics.jsonl` по мере работы с системой. Скилы ох…
-
----
-
-### 100% — `docs/DEPENDABOT.md` vs `docs/obsidian/DEPENDABOT.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> | Пакет | Мин. версия | Последняя (PyPI) | Статус | Используется в | |-------|------------|-----------------|--------|----------------| | `anthropic` | `0.25.0` | `—` | — | `scripts/improve_llm_*.py` …
-
-> | Проект | Репозиторий | Статус | |--------|------------|--------| | AgentFS | https://github.com/kksudo/agentfs | — | | NGT Memory | https://github.com/spbmolot/ngt-memory | — | | Yodoca | https://gi…
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
----
 
 ### 100% — `docs/SEARCH_RESULTS.md` vs `docs/obsidian/SEARCH_RESULTS.md`
 
 **Общих абзацев:** 2  
 **Примеры совпадений:**
 
-> | # | Файл | Оценка | Дата | |---|------|--------|------| | 1 | `CONCEPTS.md` | 116.0 | 2026-05-10 | | 2 | `TABLES.md` | 88.0 | 2026-05-10 | | 3 | `PRIORITIES.md` | 84.0 | 2026-05-10 | | 4 | `342-что-…
-
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
----
-
-### 100% — `docs/SCRIPT_EVAL_REPORT.md` vs `docs/obsidian/SCRIPT_EVAL_REPORT.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> ### ✅ 3. CardEnvelope — общий язык данных Любой документ превращается в `CardEnvelope` с единым форматом: `card_id`, `card_type`, `state`, `edges`, `payload`. Это основа для интеграции Yodoca, AgentFS…
-
-> ───────────────────────────────────────────────────   # GENERATED — проверить перед использованием   """   improve_tech_frequency.py — Анализ частоты упоминания технологий.   Читает:  docs/**/*.md   П…
-
-> | Команда | Результат | Детали | |---------|-----------|--------| | `--build --dry-run` | 1623 карточки (весь docs/) | 2527 рёбер | | `--build --section 05-habr-projects` | 7 карточек | 30 рёбер (до д…
+> | # | Файл | Оценка | Дата | |---|------|--------|------| | 1 | `CONCEPTS.md` | 116.0 | 2026-05-10 | | 2 | `TABLES.md` | 88.0 | 2026-05-10 | | 3 | `PRIORITIES.md` | 84.0 | 2026-05-10 | | 4 | `342-что-…
 
 ---
 
@@ -76,22 +31,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
+> | Сходство | Файл A | Файл B | |----------|--------|--------| | 1.000 | `273-infrastructure-for-ai-collaborative-intellectual-w.md` | `151-open-knowledge-work-foundation-md.md` | | 0.965 | `03-карта-н…
+
 > - 02-anthropic-vacancies   - 04-ai-collaborations   - 05-habr-projects   - contacts   - root   - templates   - 02-anthropic-vacancies   - 04-ai-collaborations   - 05-habr-projects   - contacts   - roo…
 
 > - Топ-20 самых похожих пар - По разделам   - 02-anthropic-vacancies   - 04-ai-collaborations   - 05-habr-projects   - contacts   - root   - templates
-
-> - `zodigancode.md` ↔ `cutcode.md` (0.905) - `mixaill76.md` ↔ `dmitriila.md` (0.905) - `zodigancode.md` ↔ `vladspace.md` (0.881) - `vladspace.md` ↔ `tagir-analyzes.md` (0.881) - `vladspace.md` ↔ `mixai…
-
----
-
-### 100% — `docs/MCP_DASHBOARD.md` vs `docs/obsidian/MCP_DASHBOARD.md`
-
-**Общих абзацев:** 2  
-**Примеры совпадений:**
-
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
-> MCP Dashboard отображает статистику использования MCP-серверов: какие инструменты вызывались, с какой частотой, какой процент вызовов завершился ошибкой. Данные накапливаются в лог-файлах при работе с…
 
 ---
 
@@ -111,9 +55,9 @@
 
 > ``` 1. structure  →  2. index  →  3. analysis  →  4. extract          ↓                                          ↓     5. quality  ←────────────────────────────  данные          ↓     6. graph  →  7. …
 
-> | Скрипт | Производит | Зависит от | |--------|-----------|-----------| | `improve_abbreviations.py` | `docs/ABBREVIATIONS.md` | `docs/**/*.md` | | `improve_abstract.py` | `docs/**/*.md (абстракты)` |…
-
 > - `improve_audit_db.py` - `improve_auto_linker.py` - `improve_cross_section.py` - `improve_digest_auto.py` - `improve_empty_sections.py` - `improve_export_report.py` - `improve_faceted_search.py` - `i…
+
+> | Скрипт | Производит | Зависит от | |--------|-----------|-----------| | `improve_abbreviations.py` | `docs/ABBREVIATIONS.md` | `docs/**/*.md` | | `improve_abstract.py` | `docs/**/*.md (абстракты)` |…
 
 ---
 
@@ -122,11 +66,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
+> - Матрица сходства секций - Граф связей - Топ-40 кросс-секционных концептов - Детальная карта концептов
+
 > | Концепт | Svyazi 2.0 | Anthropic | Технологии | AI-ансамбл | Хабр-проек | Контакты | |---------|------|------|------|------|------|------| | `svyazi` | **20.388** | **1.193** | **15.888** | **17.134…
 
 > ```mermaid graph LR     01_svyazi["Svyazi 2.0"]     02_anthropic_vacancies["Anthropic"]     03_technology_combinations["Технологии"]     04_ai_collaborations["AI-ансамбли"]     05_habr_projects["Хабр-…
-
-> | Секция | Svyazi 2.0 | Anthropic | Технологии | AI-ансамбли | Хабр-проекты | Контакты | |--------|------|------|------|------|------|------| | `Svyazi 2.0` | **—** | 0.09 ░░░░░ | 0.16 █░░░░ | 0.94 ██…
 
 ---
 
@@ -135,11 +79,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - sync CONTRADICTIONS.md (background task output) `89d3e8fb` - sync CONTRADICTIONS.md after contradiction_check fix `6b81ffed` - update mcp.json description wording `4e52a185` - sync PROGRESS.md after…
-
 > | Тип | Название | Кол-во | |-----|---------|--------| | `feat` | ✨ Новые возможности | 17 | | `fix` | 🐛 Исправления | 3 | | `docs` | 📝 Документация | 2 | | `chore` | 🔧 Технические задачи | 10 | | `ot…
 
-> - add component matrix, KPI history tracker, fix run_all coverage `69562b02` - add risk register, auto-changelog, master index; fix run_all missing scripts `59617c5d` - add tech radar, onboarding guid…
+> - batch 13 — badges, FAQ, schedule, cost estimate, footnotes `7aee1dba` - batch 12 — digest, progress, see-also, scoring, word cloud `04a64831` - batch 11 — orphans, alerts, metrics, index update, mas…
+
+> - sync CONTRADICTIONS.md (background task output) `89d3e8fb` - sync CONTRADICTIONS.md after contradiction_check fix `6b81ffed` - update mcp.json description wording `4e52a185` - sync PROGRESS.md after…
 
 ---
 
@@ -148,11 +92,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> **Документы:** - `docs/02-anthropic-vacancies/132-planned-v0-2-0.md` — compatibility, debugging, http, planned - `docs/02-anthropic-vacancies/17-5-compatibility-levels.md` — compatibility, level, repo…
+> **Документы:** - `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — triangle, double, представительских, architecture - `docs/02-anthropic-vacancies/146-acknowledgments.md` — a…
 
 > **Документы:** - `docs/AUTOFILLED.md` — autofilled, components, данными, scoring - `docs/BACKLINKS.md` — входящих, ссылок, ссылками, самых - `docs/CHANGELOG.md` — files, improve, items, coverage - `do…
 
-> **Документы:** - `docs/02-anthropic-vacancies/134-the-double-triangle-architecture-md.md` — triangle, double, представительских, architecture - `docs/02-anthropic-vacancies/146-acknowledgments.md` — a…
+> **Документы:** - `docs/01-svyazi/01-executive-summary.md` — svyazi, подобный, agentfs, проект - `docs/01-svyazi/02-methodology.md` — отбора, методика, рамка, первичный - `docs/01-svyazi/03-component-c…
 
 ---
 
@@ -161,9 +105,9 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - **Автор:** lee-to / Cutcode - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9 - **Лицензия:** **MIT**. citeturn29search0turn29search9 - **Maturity:** активный OSS, релизы v2.x;…
-
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+
+> - **Автор:** lee-to / Cutcode - **Источник:** Хабр + GitHub citeturn20view3turn29search0turn29search9 - **Лицензия:** **MIT**. citeturn29search0turn29search9 - **Maturity:** активный OSS, релизы v2.x;…
 
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
 
@@ -189,9 +133,9 @@
 
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
-> - **Автор:** kksudo - **Источник:** Хабр + GitHub citeturn33view4turn33view7turn27view0 - **Лицензия:** **MIT**. citeturn33view4turn27view0 - **Maturity:** рабочий прототип, версия 0.1.5; «рабочая, но…
-
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
+
+> - **Автор:** kksudo - **Источник:** Хабр + GitHub citeturn33view4turn33view7turn27view0 - **Лицензия:** **MIT**. citeturn33view4turn27view0 - **Maturity:** рабочий прототип, версия 0.1.5; «рабочая, но…
 
 ---
 
@@ -200,11 +144,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
 
 > - **Автор:** iximy - **Источник:** Хабр citeturn34view2 - **Лицензия:** неуточнено. citeturn34view2 - **Maturity:** практический implementation guide; публичный код в статье не акцентирован. citeturn3…
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -215,9 +159,9 @@
 
 > - **Авторы:** akazant / akzhankalimatov / AnastasiyaW - **Источник:** Хабр + repo/marketplace + Хабр/репо citeturn20view12turn30search1turn20view15turn12search2turn37search7 - **Лицензия:** Self‑Aware…
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -228,9 +172,9 @@
 
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
-> - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
-
 > - **Автор:** Sonia_Black / AnastasiyaW - **Источник:** Хабр + GitHub citeturn33view0turn33view2turn37search1 - **Лицензия:** **MIT**. citeturn33view0turn37search1 - **Maturity:** активный OSS, база ра…
+
+> - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
 
 ---
 
@@ -239,11 +183,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
 > - **Автор:** VitaliySemenov / moshael - **Источник:** Хабр + GitHub + Хабр citeturn20view16turn15search3turn39view3 - **Лицензия:** для `agent-memory-mcp` — неуточнено; для Memory OS — неуточнено. cit…
 
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -252,9 +196,9 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - **Автор:** VladSpace / vpakspace - **Источник:** Хабр + GitHub citeturn34view3turn40search2 - **Лицензия:** неуточнено. citeturn34view3turn40search2 - **Maturity:** активный публичный repo / product…
-
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+
+> - **Автор:** VladSpace / vpakspace - **Источник:** Хабр + GitHub citeturn34view3turn40search2 - **Лицензия:** неуточнено. citeturn34view3turn40search2 - **Maturity:** активный публичный repo / product…
 
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
 
@@ -265,11 +209,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
 
 > - **Автор:** AnastasiyaW - **Источник:** Хабр + GitHub citeturn20view2turn37search0 - **Лицензия:** **MIT**. citeturn37search0 - **Maturity:** активный OSS. citeturn37search0 - **Релевантность к Svyaz…
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -280,9 +224,9 @@
 
 > - **Авторы:** atatchin / askid / обзоры Handy / OpenWhispr - **Источник:** Хабр citeturn21view10turn21view11turn21view12turn35search0 - **Лицензия:** смешанная картина; для Yttri лицензия в просмотрен…
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -291,11 +235,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> - **Авторы:** Kevin Jahns / Automerge team - **Источник:** документация и репо citeturn11search0turn11search7turn11search13turn11search1turn11search11turn11search23 - **Лицензия:** **MIT**. citeturn11…
-
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
+
+> - **Авторы:** Kevin Jahns / Automerge team - **Источник:** документация и репо citeturn11search0turn11search7turn11search13turn11search1turn11search11turn11search23 - **Лицензия:** **MIT**. citeturn11…
 
 ---
 
@@ -304,11 +248,11 @@
 **Общих абзацев:** 3  
 **Примеры совпадений:**
 
-> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
 > - Описание - Ключевые компоненты и паттерны - Смотрите также - Кто ссылается на этот документ (3)
 
 > - **Автор:** zodigancode / lib4u - **Источник:** Хабр + repo/DEV citeturn20view4turn21view8turn32search0 - **Лицензия:** **MIT**. citeturn32search0 - **Maturity:** активный OSS. citeturn32search0 - **…
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
 
 ---
 
@@ -320,19 +264,6 @@
 > - `reviewer_role` — какая роль выносила решение (extractor / reviewer / publisher) - `decision` — `approved` | `rejected` | `deferred` - `reason` — текстовое обоснование - `evidence_refs` — ссылки на …
 
 > Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
-
----
-
-### 100% — `docs/badges/README.md` vs `docs/obsidian/badges/README.md`
-
-**Общих абзацев:** 3  
-**Примеры совпадений:**
-
-> !docs — `docs/badges/docs.svg` !words — `docs/badges/words.svg` !scripts — `docs/badges/scripts.svg` !health — `docs/badges/health.svg` !go/no-go — `docs/badges/scoring.svg` !license — `docs/badges/li…
-
-> Раздел посвящён бейджам и статусным индикаторам. Включает 14 связанных материалов. Для поиска по этому разделу используйте инструменты семантического поиска репозитория Lorenzo. Каждый документ структ…
-
-> ```markdown !docs !words !scripts !health !go/no-go !license !branch ```
 
 ---
 
@@ -381,17 +312,84 @@
 
 ---
 
-_...и ещё 1375 пар._
+### 100% — `docs/obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md` vs `docs/obsidian/nautilus/review-methodology/00-tldr.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+
+---
+
+### 100% — `docs/obsidian/technology-combinations/properties/README.md` vs `docs/technology-combinations/properties/README.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+
+> Один файл — одно свойство, которое возникает только при комбинировании нескольких технологий. Эмерджентные свойства нельзя получить от одного компонента изолированно — они появляются исключительно на …
+
+---
+
+### 100% — `docs/obsidian/lorenzo-agent/specification/03-q3-what-lorenzo-does.md` vs `docs/obsidian/lorenzo-agent/specification/05-q5-authority-limits.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> <!-- summary --> > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, к…
+
+> > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — Direction E: refining Lorenzo before strategic decisions. Это процесс, который привёл к фин…
+
+---
+
+### 100% — `docs/obsidian/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md` vs `docs/obsidian/lorenzo-agent/phased-deployment/04-level-3-medium-active.md`
+
+**Общих абзацев:** 1  
+**Примеры совпадений:**
+
+> <!-- summary --> > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценном…
+
+---
+
+### 100% — `docs/obsidian/lorenzo-agent/phased-deployment/07-progression-logic.md` vs `docs/obsidian/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md`
+
+**Общих абзацев:** 2  
+**Примеры совпадений:**
+
+> <!-- summary --> > > Источник: MHTML‑снимок `Вакансии в Anthropic по кластерам - Claude` (корень репозитория). Раздел диалога — пятиуровневая phased deployment Lorenzo (от ручного режима к полноценном…
+
+> Документ индексирован в базе знаний репозитория. Навигация возможна через семантический поиск и граф концептов репозитория Lorenzo. Материал доступен для семантического поиска, BM25-поиска и навигации…
+
+---
+
+_...и ещё 1316 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
+
+
+## Использование
+```bash
+# Запуск генератора
+python scripts/improve_duplicates.py
+```
+
+## Смотрите также
+- [Главная страница](README.md)
+- [Метрики качества](METRICS.md)
+- [Дашборд здоровья](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Именованные сущности](ENTITIES.md)
+- [Ключевые решения](DECISIONS.md)
+- [Контакты авторов](CONTACTS.md)
 
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
-- [DEPENDABOT](DEPENDABOT.md)
-- [SEARCH_RESULTS](SEARCH_RESULTS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
 - [WORD_FREQ](WORD_FREQ.md)
-- [KPI_HISTORY](KPI_HISTORY.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [self-aware-mcp](svyazi-2-0/components/self-aware-mcp.md)
 

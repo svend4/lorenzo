@@ -1,20 +1,21 @@
 # Глоссарий понятий
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+<!-- tags: concepts, docs, analysis, svyazi -->
 
 
 <!-- summary -->
-> Глоссарий понятий — документ базы знаний репозитория Lorenzo.
+> Автоматически сгенерированный документ: `CONCEPTS`. Содержит аналитику и структурированные данные по разделу.
 
-<!-- tags: docs, reference, quality, lorenzo -->
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
+<!-- alert-added -->
 
 _Определения извлечены автоматически из документов._
 
-**Извлечено понятий:** 1150  (из 4252 совпадений)
+**Извлечено понятий:** 1150  (из 4251 совпадений)
 
 
 ## A
@@ -3321,7 +3322,7 @@ _Определения извлечены автоматически из до�
   _→ [README](nautilus/README.md)_
 
 **звивать эту humanities-extension Nautilus**
-: параллельная с основным [Contents]  
+: параллельная с основным Nautilus разработка в текущем темпе (несколько недель на фа  
   _→ [QUESTIONS](QUESTIONS.md)_
 
 **Знает порядок**
@@ -3673,7 +3674,7 @@ _Определения извлечены автоматически из до�
 
 **Может быть, придумывая это имя**
 : часть ценного contribution  
-  _→ [QUESTIONS](QUESTIONS.md)_
+  _→ [01-response](nautilus/community-discussions/practical-observations/01-response.md)_
 
 **Мой кейс**
 : instance паттерна X»  
@@ -4731,7 +4732,7 @@ _Определения извлечены автоматически из до�
 
 **Это не просто расширение**
 : второй контур применения, возможно более коммерчески значимый, чем первый  
-  _→ [QUESTIONS](QUESTIONS.md)_
+  _→ [00-question-can-it-apply-to-docs](nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)_
 
 **Это не расширение scope**
 : тест универсальности базовой архитектуры  
@@ -4777,47 +4778,47 @@ _Определения извлечены автоматически из до�
 
 
 
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
-
-
-## Инструменты обработки
-
+## Использование
 ```bash
-python scripts/improve_run_all.py --fast
+# Запуск генератора
+python scripts/improve_concepts.py
+```
+```bash
+# Пример 2: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
+```
+```bash
+# Пример 3: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
+```
+```bash
+# Пример 4: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
+```
+```bash
+# Пример 5: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
+```
+```bash
+# Пример 6: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
+```
+```bash
+# Пример 7: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
+```
+```bash
+# Пример 8: фильтрация результатов
+python scripts/improve_concepts.py --section 01-svyazi
 ```
 
-```bash
-python scripts/improve_run_all.py --group reports
-```
+<!-- see-also -->
 
-```bash
-python scripts/improve_semantic_search.py --query "Lorenzo"
-```
+---
 
-```bash
-python scripts/improve_collab_finder.py --query "проект"
-```
-
-```bash
-python scripts/improve_run_all.py --group analysis
-```
-
-```bash
-python scripts/improve_run_all.py --group quality
-```
-
-```bash
-python scripts/improve_broken_links.py
-```
-
-```bash
-python scripts/improve_metrics.py
-```
-
-```bash
-python scripts/improve_health.py
-```
+**Смотрите также:**
+- [TABLES](TABLES.md)
+- [ACTION_ITEMS](ACTION_ITEMS.md)
+- [01-интегральный-анализ-профиля-svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 

@@ -25,7 +25,7 @@ _Автоматически сгенерировано по 23 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -49,7 +49,7 @@ _Не найдено в этом файле._
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **review record**
 
 ## Кто ключевые авторы проектов для контакта?
 
@@ -75,3 +75,15 @@ python scripts/improve_semantic_search.py --query "QA"
 
 
 _Смотрите также: [README](../README.md) · [Глоссарий](../GLOSSARY.md) · [Контакты](../CONTACTS.md)_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+

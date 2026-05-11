@@ -19,8 +19,9 @@
 
 ---
 
-**Кто ссылается на этот документ (3):**
+**Кто ссылается на этот документ (4):**
 - [READABILITY](../../../READABILITY.md)
+- [READING_TIME](../../../READING_TIME.md)
 - [SEARCH](../../../SEARCH.md)
 - [TABLES](../../../TABLES.md)
 

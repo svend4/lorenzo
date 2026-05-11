@@ -1,14 +1,14 @@
 # hermes-comparison
 
-<!-- summary -->
-> hermes-comparison — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
 > [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
+> Раздел `README` автоматически формируется из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
 
 
 **Файлов:** 14
@@ -28,31 +28,27 @@
 - [10-difference-5-tool-vs-mission-drift.md](10-difference-5-tool-vs-mission-drift.md) — <!-- toc-auto -->
 - [11-pluses-of-hermes.md](11-pluses-of-hermes.md) — <!-- toc-auto -->
 - [12-minuses-of-hermes.md](12-minuses-of-hermes.md) — <!-- toc-auto -->
-- [13-reprioritization.md](13-reprioritization.md) — <!-- toc-auto -->
+- [13-reprioritization.md](13-reprioritization.md) — <!-- toc -->
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (6):**
+**Кто ссылается на этот документ (13):**
 - [OUTLINE](../../OUTLINE.md)
 - [READABILITY](../../READABILITY.md)
 - [READING_TIME](../../READING_TIME.md)
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
-- [reading-paths](../../reading-paths.md)
+- [00-question-what-is-hermes](00-question-what-is-hermes.md)
+- [01-similarity-1-composite-skills](01-similarity-1-composite-skills.md)
+- [06-difference-1-structured-substrate-missing](06-difference-1-structured-substrate-missing.md)
+- _...ещё 5_
 
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск
+python scripts/improve_readme.py
 ```
-
-```bash
-python scripts/improve_semantic_search.py --query "README"
-```
-
-
-Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo. Навигация осуществляется через семантический поиск и граф концептов. Информация актуальна и регулярно обновляется скриптами обработки. Все данные доступны через MCP-сервер с 11 инструментами поиска. Репозиторий содержит результаты исследований проектов для Svyazi 2.0. Документация структурирована по тематическим разделам для удобной навигации. Поиск по содержимому поддерживается через BM25 и TF-IDF индексы. Документ индексирован в базе знаний репозитория Lorenzo.

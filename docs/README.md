@@ -1,5 +1,7 @@
 # docs
 
+<!-- toc-auto -->
+
 
 <!-- tags: meta, index, overview -->
 

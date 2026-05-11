@@ -1,14 +1,19 @@
 # Action Items, риски и решения
 
+<!-- tags: action-items, docs, analysis, svyazi -->
+
+
 <!-- summary -->
-> Action Items, риски и решения — документ базы знаний репозитория Lorenzo.
+> Автоматически сгенерированный документ: `ACTION_ITEMS`. Содержит аналитику и структурированные данные по разделу.
 
-<!-- tags: docs, reference, quality, lorenzo -->
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
+<!-- alert-added -->
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3441
+**Всего элементов:** 3465
 
 
 ## ➡️ Следующие шаги (361)
@@ -246,7 +251,7 @@
 
 _(246 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1055)
+## ✅ Решения и рекомендации (1063)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -456,6 +461,8 @@ _(246 дублей скрыто)_
   _→ CONCEPTS_
 - + обоснование]  
   _→ CONCEPTS_
+- создать документы](#рекомендуется-создать-документы)  
+  _→ CONTENT_GAPS_
 - создать документы  
   _→ CONTENT_GAPS_
 - (extractor / reviewer / publisher) - `decision` — `approved` | `rejected` | `deferred` - `reason` — текстовое обоснование - `evidence_refs` — ссылки н  
@@ -464,20 +471,22 @@ _(246 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - go / no-go** _`docs`, `automation`_  
   _→ GITHUB_ISSUES_
-- Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)  
+- Framework — When to Build Type 1 First](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md)](#appendix-b-decision-framew  
   _→ OUTLINE_
-- Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)  
+- Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md)](#appendix-a-decision-tree-for-ingit-adopters02-an  
+  _→ OUTLINE_
+- две-уровневая публикация](nautilus/privacy-federation/02-two-tier-publication.md)](#архитектурное-решение-две-уровневая-публикацияnautilusprivacy-fede  
+  _→ OUTLINE_
+- × Auto AI Router](technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)](#комбинация-2-мультиагентный-хаос-решение-a  
   _→ OUTLINE_
 - Tree for InGit Adopters(#appendix-a-decision-tree-for-ingit-adopters)  
-  _→ OUTLINE_
-- две-уровневая публикация](nautilus/privacy-federation/02-two-tier-publication.md)  
-  _→ OUTLINE_
-- × Auto AI Router](technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md)  
   _→ OUTLINE_
 - _... ещё 4 разделов_  
   _→ OUTLINE_
 - - Последствия  
   _→ OUTLINE_
+- упростить](#самые-сложные-тексты-2411-рекомендуется-упростить)  
+  _→ READABILITY_
 - Framework — When to Buil](02-anthropic-vacancies/227-appendix-b-decision-framework-when-to-build-type-1.md) | 602 | — |  
   _→ READING_ORDER_
 - boundary | 7 |  
@@ -500,11 +509,9 @@ _(246 дублей скрыто)_
   _→ TABLES_
 - упростить | Самые сложные тексты (1709) — рекомендуется упростить |  
   _→ TABLES_
-- Суд Дата Релевантность ---------------  
+- 2019 года, после изменений 2024 года применяется иначе»); Stability Engine блокирует ложные обо | `docs/04-ai-collaborations/00-intro.md` |  
   _→ TIMELINE_
-- Суд Дата Релевантность ------------------------  
-  _→ TIMELINE_
-- Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
+- 2019 года, после изменений 2024 года применяется иначе»); - Stability Engine блокирует ложные о | `docs/05-habr-projects/memory/memnet.md` |  
   _→ TIMELINE_
 - две уровневая"  
   _→ 02-two-tier-publication_
@@ -566,6 +573,10 @@ _(246 дублей скрыто)_
   _→ TABLES_
 - создать документы](#31-рекомендуется-создать-документы)  
   _→ TABLES_
+- Суд Дата Релевантность ------------------------  
+  _→ TIMELINE_
+- Суд Дата Релевантность ----------------------------------- BSG B 14 AS 1/22 R BSG 20  
+  _→ TIMELINE_
 - исправить.  
   _→ VALIDATION_
 - две-уровневая публикация"  
@@ -601,9 +612,9 @@ _(246 дублей скрыто)_
 - 1] — см. ADR-NNNN  
   _→ weekly-digest_
 
-_(879 дублей скрыто)_
+_(884 дублей скрыто)_
 
-## ⚠️ Риски (1296)
+## ⚠️ Риски (1303)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1071,8 +1082,6 @@ _(879 дублей скрыто)_
   _→ DECISIONS_
 - склеивать в один релиз <!-- toc-auto --> ## Contents -  
   _→ DECISIONS_
-- склеивать](svyazi-2-0/limitations/do-not-glue.md) > > !WARNING - Оркестрация — выбрать один spine - Voice/local‑first me  
-  _→ DECISIONS_
 - | `root` | 89% |  
   _→ DENSITY_
 - Analysis (0 сл., строка 41)  
@@ -1083,23 +1092,33 @@ _(879 дублей скрыто)_
   _→ EMPTY_SECTIONS_
 - и allowlist для MCP | 1 |  
   _→ FOOTNOTES_
-- | ██ 5.7 | 0.5 | 0.3 | ▓▓ 3.9 | 0.3 |  
+- | ██ 5.8 | 0.5 | 0.3 | ▓▓ 3.9 | 0.3 |  
   _→ HEATMAP_
 - 💼 **Anthropic Vacancies**  
   _→ MINDMAP_
+- Analysis](02-anthropic-vacancies/162-8-risk-analysis.md)](#8-risk-analysis02-anthropic-vacancies162-8-risk-analysismd)  
+  _→ OUTLINE_
+- Analysis](nautilus/okwf-concept/08-risk-analysis.md)](#8-risk-analysisnautilusokwf-concept08-risk-analysismd)  
+  _→ OUTLINE_
+- [Название]](templates/risk-entry.md)](#риск-названиеtemplatesrisk-entrymd)  
+  _→ OUTLINE_
 - Analysis](02-anthropic-vacancies/162-8-risk-analysis.md)  
   _→ OUTLINE_
 - Analysis](nautilus/okwf-concept/08-risk-analysis.md)  
   _→ OUTLINE_
 - [Название]](templates/risk-entry.md)  
   _→ OUTLINE_
+- и приватность](01-svyazi/06-security-privacy.md)](#безопасность-и-приватность01-svyazi06-security-privacymd)  
+  _→ OUTLINE_
 - и приватность](01-svyazi/06-security-privacy.md)  
   _→ OUTLINE_
 - метаскрипт не меняет чужой код без --apply  
   _→ OUTLINE_
-- склеивать в один релиз](ai-collaborations/continuation/09-do-not-glue.md)  
+- склеивать в один релиз](ai-collaborations/continuation/09-do-not-glue.md)](#что-пока-не-стоит-склеивать-в-один-релизai-c  
   _→ OUTLINE_
-- склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)  
+- склеивать](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md)](#ограничения-лицензии-и-что-п  
+  _→ OUTLINE_
+- склеивать](svyazi-2-0/limitations/do-not-glue.md)](#что-пока-лучше-не-склеиватьsvyazi-2-0limitationsdo-not-gluemd)  
   _→ OUTLINE_
 - склеивать](svyazi-2-0/limitations/do-not-glue.md)  
   _→ OUTLINE_
@@ -1135,7 +1154,7 @@ _(879 дублей скрыто)_
   _→ RISK_REGISTER_
 - и allowlist для MCP [^rufler]: OSS-проект: оркестратор AI-аген… |  
   _→ RISK_REGISTER_
-- и приватность <!-- toc --> ## Содержание - Contents - [Безопасность, при… |  
+- и приватность <!-- toc --> ## Содержание - Contents - [Безопасность, приватность и б… |  
   _→ RISK_REGISTER_
 - и PII описаны | ✅ | 8 |  
   _→ SCORING_
@@ -1187,6 +1206,10 @@ _(879 дублей скрыто)_
   _→ TABLES_
 - склеивать]] | 343 |  
   _→ TABLES_
+- и maximizes learning. #### Phase 1 — Information work (months 1-6) Simple journalism / researc | `docs/02-anthropic-vacancies/150-appendix-c-version-h  
+  _→ TIMELINE_
+- ложных связей и утечек / 1–2 дня / **Итого**: реалистичный MVP — **12–18 инженерных дней** | `docs/01-svyazi/07-mvp-planning.md` |  
+  _→ TIMELINE_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 - склеивать в один релиз"  
@@ -1230,8 +1253,6 @@ _(879 дублей скрыто)_
 - Analysis]]](#8-risk-analysis02-anthropic-vacancies162-8-risk-analysismd)  
   _→ OUTLINE_
 - Analysis]]](#8-risk-analysisnautilusokwf-concept08-risk-analysismd)  
-  _→ OUTLINE_
-- [Название]](templates/risk-entry.md)](#риск-названиеtemplatesrisk-entrymd)  
   _→ OUTLINE_
 - склеивать в один релиз]]](#что-пока-не-стоит-склеивать-в-один-релизai-collaborationscontinuation09-do-not-gluemd)  
   _→ OUTLINE_
@@ -1284,9 +1305,9 @@ _(879 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(957 дублей скрыто)_
+_(959 дублей скрыто)_
 
-## 🚫 Ограничения (363)
+## 🚫 Ограничения (371)
 
 - и лицензии  
   _→ 14-limitations_
@@ -1416,27 +1437,31 @@ _(957 дублей скрыто)_
   _→ rufler_
 - исчезают**  
   _→ CONCEPTS_
+- - license-tree - 14-ограничения-лицензии-и-что-пока-лучше-не-склеивать - [[conclusions]  
+  _→ DECISIONS_
 - (6 сл., строка 25)  
   _→ EMPTY_SECTIONS_
 - и открытые вопросы (0 сл., строка 37)  
   _→ EMPTY_SECTIONS_
 - и открытые вопросы (0 сл., строка 29)  
   _→ EMPTY_SECTIONS_
-- и лицензии](01-svyazi/14-limitations.md)  
+- и лицензии](01-svyazi/14-limitations.md)](#ограничения-и-лицензии01-svyazi14-limitationsmd)  
   _→ OUTLINE_
-- и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)  
+- и открытые вопросы](02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md)](#8-ограничения-и-открытые-вопросы02-anthropic-vacancies115-8-огра  
+  _→ OUTLINE_
+- текущей версии (0.1.0-draft)](02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)](#ограничения-текущей-версии-010-draft02-anthropic  
+  _→ OUTLINE_
+- и открытые вопросы](nautilus/review-methodology/09-limitations-open-questions.md)](#8-ограничения-и-открытые-вопросыnautilusreview-methodology09-limit  
+  _→ OUTLINE_
+- и лицензии](01-svyazi/14-limitations.md)  
   _→ OUTLINE_
 - и открытые вопросы(#8-ограничения-и-открытые-вопросы)  
   _→ OUTLINE_
-- текущей версии (0.1.0-draft)](02-anthropic-vacancies/131-ограничения-текущей-версии-0-1-0-draft.md)  
-  _→ OUTLINE_
 - текущей версии (0.1.0-draft)(#ограничения-текущей-версии-010-draft)  
-  _→ OUTLINE_
-- и открытые вопросы](nautilus/review-methodology/09-limitations-open-questions.md)  
   _→ OUTLINE_
 - - MVP-шаги  
   _→ OUTLINE_
-- (честно)](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)  
+- (честно)](anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md)](#что-не-подходит-честноan  
   _→ OUTLINE_
 - Git [Итог]  
   _→ QUESTIONS_
@@ -1525,7 +1550,7 @@ _(957 дублей скрыто)_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(245 дублей скрыто)_
+_(251 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (51)
 
@@ -1559,7 +1584,7 @@ _(245 дублей скрыто)_
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **129**  
+- меток: **139**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
@@ -1578,7 +1603,7 @@ _(245 дублей скрыто)_
 
 _(28 дублей скрыто)_
 
-## 📬 Контактные действия (315)
+## 📬 Контактные действия (316)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1708,6 +1733,8 @@ _(28 дублей скрыто)_
   _→ 00-intro_
 - первым (ещё не контактировали)  
   _→ CONTACT_PRIORITY_
+- nautilus/README.md отдельно от корневого README pro2 . Минимум 1 страница, объяс  
+  _→ DECISIONS_
 - abstract arxiv paper (1 страница) - Опция 2: identify конкретную grant call с de  
   _→ DECISIONS_
 - vision paper, где вы связываете data7, info40, infom, meta2, daten1 и тезис про  
@@ -1716,8 +1743,8 @@ _(28 дублей скрыто)_
   _→ DECISIONS_
 - PORTAL-PROTOCOL-HUMANITIES-EXTENSION.md. Formal specification extension к NPP v1  
   _→ DECISIONS_
-- nautilus/README.md отдельно от корневого README pro2 . Минимум 1 стра  
-  _→ DECISIONS_
+- авторами компонентов?](#как-связаться-с-авторами-компонентов)  
+  _→ FAQ_
 - авторами и реализовать прототип Knowledge OS.  
   _→ FAQ_
 - авторами компонентов?  
@@ -1746,6 +1773,8 @@ _(28 дублей скрыто)_
   _→ TABLES_
 - первое сообщение автору OSS-проекта  
   _→ TASKS_INDEX_
+- PORTAL-PROTOCOL-H | `docs/02-anthropic-vacancies/133-обратная-связь.md` |  
+  _→ TIMELINE_
 - technical thesis paper на 15-20 страниц, формализующий вашу идею. Без этого арте  
   _→ 10-three-entry-points_
 - vision paper на 10-15 страниц. «MMORPG as Professional Work Infrastructure: A Th  
@@ -1766,48 +1795,54 @@ _(28 дублей скрыто)_
   _→ 87-12-onboarding-paths-normative_
 - первым (ещё не контактировали)](#написать-первым-ещё-не-контактировали)  
   _→ CONTACT_PRIORITY_
-- авторами компонентов?](#как-связаться-с-авторами-компонентов)  
-  _→ FAQ_
 - авторам AgentFS, Yodoca, NGT ⬜ Планируется [182. Все документы]  
   _→ QUESTIONS_
 
 _(220 дублей скрыто)_
 
 
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
-
-
-## Инструменты обработки
-
+## Использование
 ```bash
-python scripts/improve_run_all.py --fast
+# Запуск генератора
+python scripts/improve_action_items.py
+```
+```bash
+# Пример 2: фильтрация результатов
+python scripts/improve_action_items.py --section 01-svyazi
+```
+```bash
+# Пример 3: фильтрация результатов
+python scripts/improve_action_items.py --section 01-svyazi
+```
+```bash
+# Пример 4: фильтрация результатов
+python scripts/improve_action_items.py --section 01-svyazi
+```
+```bash
+# Пример 5: фильтрация результатов
+python scripts/improve_action_items.py --section 01-svyazi
 ```
 
-```bash
-python scripts/improve_run_all.py --group reports
-```
+## Смотрите также
+- [Главная страница](README.md)
+- [Метрики качества](METRICS.md)
+- [Дашборд здоровья](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Именованные сущности](ENTITIES.md)
+- [Ключевые решения](DECISIONS.md)
+- [Контакты авторов](CONTACTS.md)
+- [Оценка готовности](SCORING.md)
+- [Теги документов](TAGS.md)
+- [Хронология](TIMELINE.md)
+- [Структура репозитория](OUTLINE.md)
 
-```bash
-python scripts/improve_semantic_search.py --query "Lorenzo"
-```
+<!-- see-also -->
 
-```bash
-python scripts/improve_collab_finder.py --query "проект"
-```
+---
 
-```bash
-python scripts/improve_run_all.py --group analysis
-```
+**Смотрите также:**
+- [CONCEPTS](CONCEPTS.md)
+- [SEARCH](SEARCH.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
 
-```bash
-python scripts/improve_run_all.py --group quality
-```
-
-
-
-## Связанные документы
-
-[README](README.md) · [GLOSSARY](GLOSSARY.md) · [CONTACTS](CONTACTS.md) · [TIMELINE](TIMELINE.md) · [TAGS](TAGS.md) · [SEARCH](SEARCH.md) · [HEALTH](HEALTH.md) · [METRICS](METRICS.md)

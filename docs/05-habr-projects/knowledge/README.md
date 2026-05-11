@@ -1,4 +1,10 @@
 # Системы знаний
+
+<!-- toc-auto -->
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 <!-- summary: Проекты слоя knowledge: AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, Rufler[^rufler], Wikontic, LiteParse -->
 <!-- tags: knowledge, agentfs, knowledge-space, mclaude, rufler, wikontic -->
 

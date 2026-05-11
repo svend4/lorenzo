@@ -68,7 +68,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > tags: [mclaude, multi-agent, orchestration, claude-code, locks, handoffs, mailbox, parallel]
-**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge_space], mclaude, AI Factory, Rufler[^rufler], Yodoca[^yodoca], agent-memory-mcp
+**Проекты:** Svyazi, AgentFS[^agentfs], knowledge-space[^knowledge-space], mclaude, AI Factory, Rufler[^rufler], Yodoca[^yodoca], agent-memory-mcp
 
 ---
 
@@ -175,4 +175,4 @@ _Создано: 2026-05-10_
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

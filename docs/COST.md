@@ -1,20 +1,16 @@
 # Оценка стоимости MVP
 
 <!-- toc-auto -->
-## Содержание
 
-- Основной раздел
+> [!NOTE]
+> Документ `COST` создаётся автоматически.
+
+<!-- alert-added -->
+<!-- tags: cost, docs, analysis -->
 
 
 <!-- summary -->
-> Оценка стоимости MVP — документ базы знаний репозитория Lorenzo.
-
-<!-- tags: docs, reference, lorenzo -->
-
-> [!NOTE]
-> Документ содержит структурированную информацию из базы знаний репозитория Lorenzo.
-
-<!-- alert-added -->
+> Автоматически сформированный документ: `COST`.
 
 
 _Ориентировочные цифры на основе документации проекта._
@@ -91,14 +87,14 @@ _Минимальный сценарий: open source + личное время 
 
 
 ## Использование
-
 ```bash
-python scripts/improve_run_all.py --group reports
+# Запуск генератора
+python scripts/improve_cost.py
 ```
 
-```bash
-python scripts/improve_semantic_search.py --query "COST"
-```
-
-
-_Смотрите также: [README](README.md) · [Глоссарий](GLOSSARY.md) · [Контакты](CONTACTS.md)_
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Дашборд](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

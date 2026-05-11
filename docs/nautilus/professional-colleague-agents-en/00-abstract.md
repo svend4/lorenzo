@@ -1,5 +1,18 @@
 # Professional Colleague Agents
 
+<!-- toc -->
+## Содержание
+
+- [Содержание](#содержание)
+- [A Typology of AI Agents on the Principal Side and the Case for Profession-Specific Co-Workers](#a-typology-of-ai-agents-on-the-principal-side-and-the-case-for-profession-specific-co-workers)
+- [Abstract](#abstract)
+- [Table of Contents](#table-of-contents)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 ## Содержание
 

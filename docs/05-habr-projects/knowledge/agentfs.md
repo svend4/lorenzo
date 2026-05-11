@@ -32,7 +32,7 @@ _Обновлено: 2026-05-10_
 
 <!-- summary -->
 > maturity: working-prototype-v0.1.5
-**Проекты:** Svyazi[^svyazi], AgentFS, knowledge-space[^knowledge_space], mclaude, agent-memory-mcp, Wikontic
+**Проекты:** Svyazi[^svyazi], AgentFS, knowledge-space[^knowledge-space], mclaude, agent-memory-mcp, Wikontic
 
 ---
 
@@ -155,4 +155,4 @@ _Создано: 2026-05-10_
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
-[^knowledge_space]: OSS-проект: база знаний 785+ карточек (MIT)
+[^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)

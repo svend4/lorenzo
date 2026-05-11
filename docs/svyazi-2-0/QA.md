@@ -25,7 +25,7 @@ _Автоматически сгенерировано по 50 файлам ра
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -49,7 +49,7 @@ _Автоматически сгенерировано по 50 файлам ра
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 
 ## Использование
@@ -67,3 +67,28 @@ python scripts/improve_semantic_search.py --query "QA"
 
 
 _Смотрите также: [README](../README.md) · [Глоссарий](../GLOSSARY.md) · [Контакты](../CONTACTS.md)_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [MISSING](../MISSING.md)
+- [OUTLINE](../OUTLINE.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEE_ALSO](../SEE_ALSO.md)
+- [TABLES](../TABLES.md)
+- [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KPI_HISTORY](../KPI_HISTORY.md)
+- [DEPENDABOT](../DEPENDABOT.md)
+- [KNOWLEDGE_MAP](../KNOWLEDGE_MAP.md)
+- [CONCEPT_GRAPH](../CONCEPT_GRAPH.md)
+

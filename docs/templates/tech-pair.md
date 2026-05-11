@@ -13,6 +13,10 @@ tags: [pair, синергия, habr]
 
 # Tech Pair: [A] × [B]
 
+<!-- summary -->
+> `tech-pair` — раздел документации проекта Lorenzo.
+
+
 <!-- toc-auto -->
 ## Содержание
 

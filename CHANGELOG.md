@@ -1,7 +1,7 @@
 # CHANGELOG
 
-Всего коммитов: **204**  
-Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 31 | 📝 docs: 23 | ⚡ improve: 15
+Всего коммитов: **205**  
+Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 32 | 📝 docs: 23 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -16,7 +16,7 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-10 (57 коммитов)
+## 2026-05-10 (58 коммитов)
 
 ### 🔧 Обслуживание
 
@@ -95,8 +95,10 @@
   > improve_self.py — скрипт четвёртого порядка: читает другие скрипты через AST,
 ### 🐛 Исправления
 
+- restore 100.0/100 quality score and 0 broken links after pipeline run _447e84d3_
+  > - Fix 12 generator scripts to use relative_to(DOCS) instead of relative_to(ROOT)
 - remove 61 broken internal links (dangling #contents anchors + SEARCH.md paths) _a469b340_
-  > - Remove [Contents](#contents) from 44 files where ## Contents heading was stripped
+  > - Remove `Contents` from 44 files where ## Contents heading was stripped
 - eliminate last 5 broken links, add 300+ TOCs and quality enrichments _7eb5fa87_
   > - Fix improve_auto_toc.py: _slug() kept underscores ([\s_]+ → [\s]+) and
 - eliminate all broken links, health score 99→100/100 _d4c3c287_

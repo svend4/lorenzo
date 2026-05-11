@@ -41,10 +41,16 @@ KPI_PATTERNS = [
 ]
 
 
+def strip_links(text: str) -> str:
+    """Remove markdown links, leaving only link text."""
+    return re.sub(r'\[([^\]]+)\]\([^)]*\)', r'\1', text)
+
+
 def extract_kpis(text: str, filepath: Path) -> list[dict]:
     # Убираем code-блоки
     text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
     text = re.sub(r'<!--.*?-->', '', text, flags=re.DOTALL)
+    text = strip_links(text)
 
     items = []
     seen: set = set()
@@ -65,7 +71,7 @@ def extract_kpis(text: str, filepath: Path) -> list[dict]:
                 "category": category,
                 "value":    value,
                 "context":  context[:160],
-                "file":     str(filepath.relative_to(ROOT)),
+                "file":     str(filepath.relative_to(DOCS)),
             })
     return items
 

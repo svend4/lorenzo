@@ -58,9 +58,15 @@ CURATED_FAQ = [
 ]
 
 
+def strip_links(text: str) -> str:
+    """Remove markdown links, leaving only link text."""
+    return re.sub(r'\[([^\]]+)\]\([^)]+\)', r'\1', text)
+
+
 def extract_qa(text: str) -> list[tuple[str, str]]:
-    # Убираем code-блоки
+    # Убираем code-блоки и ссылки из контекста
     text = re.sub(r'```.*?```', '', text, flags=re.DOTALL)
+    text = strip_links(text)
     pairs = []
     seen: set = set()
 

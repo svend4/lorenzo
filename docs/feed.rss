@@ -5,7 +5,14 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Sun, 10 May 2026 20:37:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 03:59:21 GMT</lastBuildDate>
+    <item>
+      <title>fix: restore 100.0/100 quality score and 0 broken links after pipeline run</title>
+      <link>https://github.com/svend4/lorenzo/commit/447e84d3f7c3ae755031c1bf7967f6cee634b984</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/447e84d3f7c3ae755031c1bf7967f6cee634b984</guid>
+      <pubDate>Sun, 10 May 2026 20:58:44 GMT</pubDate>
+      <description><![CDATA[<p><strong>fix: restore 100.0/100 quality score and 0 broken links after pipeline run</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/00-intro-part2.md">docs/01-svyazi/00-intro-part2.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/01-executive-summary.md">docs/01-svyazi/01-executive-summary.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/02-methodology.md">docs/01-svyazi/02-methodology.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/03-component-catalog.md">docs/01-svyazi/03-component-catalog.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/04-ensembles-overview.md">docs/01-svyazi/04-ensembles-overview.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/06-security-privacy.md">docs/01-svyazi/06-security-privacy.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/07-mvp-planning.md">docs/01-svyazi/07-mvp-planning.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/08-conclusions.md">docs/01-svyazi/08-conclusions.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/09-architectural-gaps.md">docs/01-svyazi/09-architectural-gaps.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/01-svyazi/10-second-order-ensembles.md">docs/01-svyazi/10-second-order-ensembles.md</a></li></ul><p>Коммит: <code>447e84d3</code></p>]]></description>
+    </item>
     <item>
       <title>feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken links</title>
       <link>https://github.com/svend4/lorenzo/commit/cf9ebcce2e42a40725a8fd8ed39939deeda2012c</link>
@@ -138,13 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/421206a711bd518b03a21a5ae4adaaa567baf1ba</guid>
       <pubDate>Sun, 10 May 2026 17:26:43 GMT</pubDate>
       <description><![CDATA[<p><strong>fix: processing-guide contact path + MVP link, update BROKEN_LINKS</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/04-structuring.md">docs/processing-guide/04-structuring.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/processing-guide/PROCESSING_GUIDE.md">docs/processing-guide/PROCESSING_GUIDE.md</a></li></ul><p>Коммит: <code>421206a7</code></p>]]></description>
-    </item>
-    <item>
-      <title>fix: further reduce broken links — nautilus nested brackets + TABLES.md paths</title>
-      <link>https://github.com/svend4/lorenzo/commit/cb9acdb6de02cd9b8aec9c625a779df186092b2c</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/cb9acdb6de02cd9b8aec9c625a779df186092b2c</guid>
-      <pubDate>Sun, 10 May 2026 17:25:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>fix: further reduce broken links — nautilus nested brackets + TABLES.md paths</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/02-anthropic-vacancies/69-section.md">docs/02-anthropic-vacancies/69-section.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BROKEN_LINKS.md">docs/BROKEN_LINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/HEALTH.md">docs/HEALTH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/TABLES.md">docs/TABLES.md</a></li></ul><p>Коммит: <code>cb9acdb6</code></p>]]></description>
     </item>
   </channel>
 </rss>
