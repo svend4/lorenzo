@@ -126,3 +126,33 @@ def test_read_metric_real_health_file():
     # Должен найти число вида **100/100**
     assert result != "?" or True   # не падать если формат изменился
     assert isinstance(result, str)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_badges_dir(tmp_path, monkeypatch):
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    mod.main()
+    assert badges_dir.exists()
+
+
+def test_main_creates_readme_in_badges(tmp_path, monkeypatch):
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    mod.main()
+    assert (badges_dir / "README.md").exists()
+
+
+def test_main_creates_svg_files(tmp_path, monkeypatch):
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    mod.main()
+    svgs = list(badges_dir.glob("*.svg"))
+    assert len(svgs) > 0

@@ -145,3 +145,37 @@ def test_extract_dates_strips_newlines_from_context(tmp_path, monkeypatch):
     result = mod.extract_dates(text, f)
     for entry in result:
         assert "\n" not in entry["context"]
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_timeline_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nВ 2025-Q1 запланировано развертывание.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "TIMELINE.md").exists()
+
+
+def test_main_timeline_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nВ 2025 году запуск MVP.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "TIMELINE.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "TIMELINE.md").exists()
+
+
+def test_main_timeline_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "TIMELINE.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

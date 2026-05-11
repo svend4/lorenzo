@@ -120,3 +120,37 @@ def test_extract_items_next_step(tmp_path, monkeypatch):
     )
     kinds = [item["kind"] for item in result]
     assert "next_step" in kinds
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_action_items_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nТребуется: реализовать поиск.\nТОДО: добавить тесты.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "ACTION_ITEMS.md").exists()
+
+
+def test_main_action_items_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nТребуется: реализовать.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "ACTION_ITEMS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "ACTION_ITEMS.md").exists()
+
+
+def test_main_action_items_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "ACTION_ITEMS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

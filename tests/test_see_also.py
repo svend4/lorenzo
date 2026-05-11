@@ -220,3 +220,41 @@ def test_build_see_also_block_empty_related():
     result = mod.build_see_also_block([])
     assert mod.MARKER in result
     assert "Смотрите также" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_see_also_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    (tmp_path / "doc1.md").write_text("# AgentFS\n\nContent memory agent.", encoding="utf-8")
+    (tmp_path / "doc2.md").write_text("# Yodoca\n\nMemory consolidation.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SEE_ALSO.md").exists()
+
+
+def test_main_dry_run_no_output(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert not (tmp_path / "SEE_ALSO.md").exists()
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    assert (tmp_path / "SEE_ALSO.md").exists()
+
+
+def test_main_see_also_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    text = (tmp_path / "SEE_ALSO.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
