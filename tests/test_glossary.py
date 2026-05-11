@@ -108,3 +108,38 @@ def test_find_mentions_multiple_files(tmp_path, monkeypatch):
     (tmp_path / "b.md").write_text("AgentFS there", encoding="utf-8")
     result = mod.find_mentions("", ["AgentFS"])
     assert len(result["AgentFS"]) == 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_make_glossary_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.make_glossary()
+    assert (tmp_path / "GLOSSARY.md").exists()
+
+
+def test_make_authors_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.make_authors()
+    assert (tmp_path / "AUTHORS.md").exists()
+
+
+def test_make_glossary_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.make_glossary()
+    text = (tmp_path / "GLOSSARY.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_make_url_index_creates_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nSee https://github.com/user/repo here.", encoding="utf-8")
+    mod.make_url_index()
+    assert (tmp_path / "LINKS.md").exists()

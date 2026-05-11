@@ -66,3 +66,37 @@ def test_section_of_root():
 def test_section_of_nested_docs():
     result = mod._section_of("docs/05-habr-projects/memory/yodoca.md")
     assert result == "05-habr-projects"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_digest_auto_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "DIGEST_AUTO.md").exists()
+
+
+def test_main_digest_auto_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "DIGEST_AUTO.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DIGEST_AUTO.md").exists()
+
+
+def test_main_digest_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DIGEST_AUTO.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

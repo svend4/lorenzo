@@ -196,3 +196,28 @@ def test_count_md_in_section_ignores_non_md(monkeypatch, tmp_path):
     (section / "data.json").write_text("{}", encoding="utf-8")
     (section / "image.png").write_text("x", encoding="utf-8")
     assert mod.count_md_in_section("01-svyazi") == 1
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_scoring_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "SCORING.md").exists()
+
+
+def test_main_scoring_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "SCORING.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_scoring_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "SCORING.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

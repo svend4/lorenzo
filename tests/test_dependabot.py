@@ -70,3 +70,28 @@ def test_extract_version_mentions_multiple():
     text = "anthropic==0.25.0 fastapi>=0.100.0 pydantic==2.0.0"
     result = mod._extract_version_mentions(text)
     assert len(result) >= 2
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_dependabot_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DEPENDABOT.md").exists()
+
+
+def test_main_dependabot_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DEPENDABOT.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_dependabot_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DEPENDABOT.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
