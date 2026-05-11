@@ -3,54 +3,38 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Раздел `DIGEST` автоматически формируется из данных репозитория.
+> Раздел `DIGEST` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: digest, docs -->
+
 
 <!-- summary -->
-> > fix: restore 100.0/100 quality score and 0 broken links after pipeline run
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, ingestion -->
-
-
+> `DIGEST` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-11_
 
 ## Последний коммит
 
-**2026-05-11** — `c02dda87`
-> fix: restore 100.0/100 quality score and 0 broken links after pipeline run
+**2026-05-11** — `81af4bf5`
+> feat: add improve_quality_patch.py to prevent score regression after pipeline runs
 
-Изменено файлов: **254** (+22966 / -22069 строк)
+Изменено файлов: **100** (+6778 / -6775 строк)
 
 ## Последние 3 коммита — итого
 
-- Изменено файлов: **1730**
-- Добавлено строк: **+166552**
-- Удалено строк: **-89621**
-- Новых md-файлов: **4**
-
-## Новые документы
-
-**ai-collaborations:**
-- `QA.md`
-
-**contacts:**
-- `QA.md`
-
-**root:**
-- `LINK_PREVIEW.md`
-
-**svyazi-2-0:**
-- `QA.md`
+- Изменено файлов: **259**
+- Добавлено строк: **+33399**
+- Удалено строк: **-29151**
+- Новых md-файлов: **0**
 
 ## История коммитов (последние 15)
 
 | Дата | Hash | Описание |
 |------|------|---------|
+| 2026-05-11 | `81af4bf5` | feat: add improve_quality_patch.py to prevent score regression after p |
+| 2026-05-11 | `728700c0` | fix: restore 100.0/100 and 0 broken links after second pipeline run |
 | 2026-05-11 | `c02dda87` | fix: restore 100.0/100 quality score and 0 broken links after pipeline |
 | 2026-05-10 | `447e84d3` | fix: restore 100.0/100 quality score and 0 broken links after pipeline |
 | 2026-05-10 | `cf9ebcce` | feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken link |
@@ -64,30 +48,14 @@ _Обновлено: 2026-05-11_
 | 2026-05-10 | `d4c3c287` | fix: eliminate all broken links, health score 99→100/100 |
 | 2026-05-10 | `09ae9873` | feat: health 94→99/100, exclude mirror dirs from quality checks |
 | 2026-05-10 | `be5892e3` | fix: health 91→94, fix MISSING.md emoji counting in improve_health.py |
-| 2026-05-10 | `38e7dec4` | fix: reduce broken links 512→209, health 89→91 |
-| 2026-05-10 | `f720e48b` | fix: reduce broken links 779→512, health 87→89 |
 
 ## Текущее состояние репозитория
 
 | Параметр | Значение |
 |----------|---------|
 | Документов `.md` | **2451** |
-| Скриптов обработки | **162** |
+| Скриптов обработки | **163** |
 | Последнее обновление | **2026-05-11** |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
 
 
 ## Использование
@@ -96,13 +64,9 @@ _Обновлено: 2026-05-11_
 python scripts/improve_digest.py
 ```
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [KPI_HISTORY](KPI_HISTORY.md)
-- [READING_LIST](READING_LIST.md)
-- [PASSIVE_VOICE](PASSIVE_VOICE.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

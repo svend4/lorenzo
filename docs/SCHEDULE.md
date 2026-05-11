@@ -1,20 +1,14 @@
 # Расписание проекта
 
-<!-- toc-auto -->
-
 > [!NOTE]
-> Раздел `SCHEDULE` автоматически формируется из данных репозитория.
+> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: schedule, docs -->
+
 
 <!-- summary -->
-> _Дорожная карта с вехами и задачами по кварталам._
-**Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
-
----
-<!-- tags: memory, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
+> `SCHEDULE` — раздел документации проекта Lorenzo.
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -70,29 +64,9 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [DENSITY](DENSITY.md)
-- [HEATMAP](HEATMAP.md)
-- [INDEX](INDEX.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [PROGRESS](PROGRESS.md)
-- [SCORING](SCORING.md)
-- [COVERAGE](COVERAGE.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

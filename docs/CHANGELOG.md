@@ -1,7 +1,12 @@
 # CHANGELOG
 
-Всего коммитов: **207**  
-Статистика: 🔧 chore: 72 | ✨ feat: 63 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
+> [!NOTE]
+> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
+Всего коммитов: **208**  
+Статистика: 🔧 chore: 72 | ✨ feat: 64 | 🐛 fix: 34 | 📝 docs: 23 | ⚡ improve: 15
 
 
 ## semantic (1 коммитов)
@@ -16,8 +21,12 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (2 коммитов)
+## 2026-05-11 (3 коммитов)
 
+### ✨ Новые функции
+
+- add improve_quality_patch.py to prevent score regression after pipeline runs _81af4bf5_
+  > - Create scripts/improve_quality_patch.py: idempotent quality element injector
 ### 🐛 Исправления
 
 - restore 100.0/100 and 0 broken links after second pipeline run _728700c0_
@@ -433,3 +442,24 @@
 ### 🔧 Обслуживание
 
 - preview _- _doc_t_
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog.py
+```
+```bash
+# Вариант 2
+python scripts/improve_changelog.py --dry-run
+```
+
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)
+- [Решения](DECISIONS.md)
+- [Контакты](CONTACTS.md)
+- [Оценка](SCORING.md)

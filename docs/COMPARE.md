@@ -3,21 +3,18 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Раздел `COMPARE` автоматически формируется из данных репозитория.
+> Раздел `COMPARE` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: compare, docs -->
+
 
 <!-- summary -->
-> **Файлов было:** 1464  **стало:** 2451
-
----
-<!-- tags: memory, architecture, roadmap, anthropic, collaboration -->
-
-
+> `COMPARE` — раздел документации проекта Lorenzo.
 
 
 **Файлов было:** 1464  **стало:** 2451  
-**Слов было:** 1,929,394  **стало:** 2,695,471  **Δ:** +766,077
+**Слов было:** 1,933,601  **стало:** 2,709,293  **Δ:** +775,692
 
 
 ## Новые файлы (987)
@@ -67,54 +64,40 @@ _...и ещё 947_
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (227) — топ по Δ слов
+## Изменившиеся файлы (96) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `VERSION_DIFF.md` | 16832 | 23683 | +6851 |
-| `TABLES.md` | 295504 | 300551 | +5047 |
-| `QA.md` | 2476 | 1873 | -603 |
-| `EMPTY_SECTIONS.md` | 30544 | 31110 | +566 |
-| `CONTRADICTIONS.md` | 1151 | 1644 | +493 |
-| `QA.md` | 362 | 47 | -315 |
-| `QA.md` | 352 | 39 | -313 |
-| `OUTLINE.md` | 39935 | 40224 | +289 |
-| `QA.md` | 357 | 71 | -286 |
-| `MCP_DASHBOARD.md` | 363 | 110 | -253 |
-| `README.md` | 349 | 101 | -248 |
-| `README.md` | 345 | 101 | -244 |
-| `README.md` | 345 | 101 | -244 |
-| `README.md` | 345 | 101 | -244 |
-| `README.md` | 345 | 101 | -244 |
-| `README.md` | 345 | 101 | -244 |
-| `README.md` | 345 | 101 | -244 |
-| `QA.md` | 346 | 107 | -239 |
-| `ALERTS.md` | 357 | 118 | -239 |
-| `SKILL_DASHBOARD.md` | 363 | 125 | -238 |
-| `README.md` | 348 | 112 | -236 |
-| `README.md` | 343 | 107 | -236 |
-| `README.md` | 345 | 109 | -236 |
-| `README.md` | 345 | 111 | -234 |
-| `README.md` | 343 | 109 | -234 |
-| `README.md` | 346 | 113 | -233 |
-| `BADGES.md` | 350 | 119 | -231 |
-| `README.md` | 346 | 115 | -231 |
-| `README.md` | 352 | 121 | -231 |
-| `README.md` | 356 | 127 | -229 |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [COMPLEXITY](COMPLEXITY.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
+| `TABLES.md` | 300586 | 306983 | +6397 |
+| `QA.md` | 3075 | 1873 | -1202 |
+| `CODE_BLOCKS.md` | 6025 | 5404 | -621 |
+| `REPORT.md` | 354 | 932 | +578 |
+| `GITHUB_ISSUES.md` | 3645 | 3240 | -405 |
+| `FAQ.md` | 1354 | 1029 | -325 |
+| `CONSISTENCY.md` | 888 | 699 | -189 |
+| `CONTENT_GAPS.md` | 1090 | 938 | -152 |
+| `READING_ORDER.md` | 6185 | 6041 | -144 |
+| `SKILL_DASHBOARD.md` | 145 | 21 | -124 |
+| `NARRATIVE.md` | 1195 | 1081 | -114 |
+| `CONTACTS.md` | 654 | 557 | -97 |
+| `SITEMAP.md` | 9407 | 9310 | -97 |
+| `READABILITY.md` | 37119 | 37027 | -92 |
+| `CONCEPTS.md` | 14566 | 14657 | +91 |
+| `REGISTRY.md` | 1427 | 1341 | -86 |
+| `QA.md` | 404 | 323 | -81 |
+| `COST.md` | 601 | 520 | -81 |
+| `GRAPH.md` | 2766 | 2686 | -80 |
+| `QA.md` | 305 | 226 | -79 |
+| `CONTACT_PRIORITY.md` | 443 | 364 | -79 |
+| `QA.md` | 261 | 183 | -78 |
+| `QA.md` | 124 | 47 | -77 |
+| `QA.md` | 284 | 207 | -77 |
+| `SCHEDULE.md` | 347 | 271 | -76 |
+| `QA.md` | 294 | 219 | -75 |
+| `QA.md` | 113 | 39 | -74 |
+| `QA.md` | 232 | 160 | -72 |
+| `PROGRESS.md` | 331 | 261 | -70 |
+| `SCORING.md` | 375 | 305 | -70 |
 
 
 ## Использование
@@ -123,13 +106,9 @@ _...и ещё 947_
 python scripts/improve_compare.py
 ```
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [190-содержание](02-anthropic-vacancies/190-содержание.md)
-- [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

@@ -1,14 +1,14 @@
 # Мониторинг зависимостей
 
 > [!NOTE]
-> Документ `DEPENDABOT` создаётся автоматически.
+> Раздел `DEPENDABOT` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
-<!-- tags: dependabot, docs, analysis -->
+<!-- tags: dependabot, docs -->
 
 
 <!-- summary -->
-> Автоматически сформированный документ: `DEPENDABOT`.
+> `DEPENDABOT` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-11_
@@ -43,28 +43,3 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [SEE_ALSO](SEE_ALSO.md)
-- [TABLES](TABLES.md)
-- [QA](svyazi-2-0/QA.md)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
-- [CROSS_SECTION](CROSS_SECTION.md)
-- [AUTHORS](AUTHORS.md)
-- [.md](autofilled/components/.md)
-

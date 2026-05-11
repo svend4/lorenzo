@@ -3,73 +3,69 @@
 <!-- toc-auto -->
 
 > [!NOTE]
-> Раздел `STALENESS` автоматически формируется из данных репозитория.
+> Раздел `STALENESS` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: staleness, docs -->
+
 
 <!-- summary -->
-> _Порог: 30 дней. Обновлено: 2026-05-11_
-**Проекты:** Svyazi
-
----
-<!-- tags: ingestion, anthropic, collaboration -->
-
-
+> `STALENESS` — раздел документации проекта Lorenzo.
 
 
 _Порог: 30 дней. Обновлено: 2026-05-11_
 
-Найдено проблем: **125** файлов
+Найдено проблем: **134** файлов
 
-## Без метаданных (нет summary или тегов) — 100 файлов
+## Без метаданных (нет summary или тегов) — 90 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
 | `docs/autofilled/README.md` | 48 | нет summary, нет тегов, короткий (48 слов) |
-| `docs/obsidian/QA.md` | 385 | нет summary, нет тегов |
 | `docs/obsidian/SCORING.md` | 226 | нет summary |
-| `docs/01-svyazi/QA.md` | 208 | нет summary, нет тегов |
-| `docs/02-anthropic-vacancies/QA.md` | 362 | нет summary, нет тегов |
-| `docs/03-technology-combinations/QA.md` | 100 | нет summary, нет тегов |
-| `docs/04-ai-collaborations/QA.md` | 258 | нет summary, нет тегов |
-| `docs/05-habr-projects/QA.md` | 168 | нет summary, нет тегов |
-| `docs/CHANGELOG.md` | 3042 | нет тегов |
+| `docs/CHANGELOG.md` | 3063 | нет тегов |
 | `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/CONTACTS.md` | 314 | нет summary, нет тегов |
-| `docs/COST.md` | 332 | нет summary, нет тегов |
-| `docs/DIGEST.md` | 257 | нет summary, нет тегов |
+| `docs/CONTACTS.md` | 316 | нет summary, нет тегов |
+| `docs/COST.md` | 344 | нет summary, нет тегов |
 | `docs/PROGRESS.md` | 219 | нет summary, нет тегов |
-| `docs/QA.md` | 1999 | нет summary, нет тегов |
+| `docs/QA.md` | 2107 | нет summary, нет тегов |
 | `docs/READING_ORDER.md` | 4042 | нет summary, нет тегов |
 | `docs/SCHEDULE.md` | 212 | нет summary, нет тегов |
 | `docs/SCORING.md` | 198 | нет summary, нет тегов |
 | `docs/SITEMAP.md` | 6630 | нет summary, нет тегов |
 | `docs/STATS.md` | 355 | нет summary, нет тегов |
+| `docs/autofilled/components/README.md` | 78 | нет summary, нет тегов, короткий (78 слов) |
+| `docs/obsidian/QA.md` | 385 | нет summary, нет тегов |
+| `docs/obsidian/ai-collaborations/README.md` | 57 | нет summary, нет тегов, короткий (57 слов) |
+| `docs/obsidian/ai-collaborations/candidates/README.md` | 38 | нет summary, нет тегов, короткий (38 слов) |
+| `docs/obsidian/ai-collaborations/continuation/README.md` | 88 | нет summary, нет тегов, короткий (88 слов) |
+| `docs/obsidian/ai-collaborations/ensembles/README.md` | 84 | нет summary, нет тегов, короткий (84 слов) |
+| `docs/obsidian/anthropic-vacancies/README.md` | 96 | нет summary, нет тегов, короткий (96 слов) |
 
-## Короткие (< 100 слов, заготовки) — 25 файлов
+## Короткие (< 100 слов, заготовки) — 44 файлов
 
 | Файл | Слов |
 |------|------|
-| `docs/ALERTS.md` | 83 |
-| `docs/MCP_DASHBOARD.md` | 97 |
-| `docs/ai-collaborations/candidates/README.md` | 91 |
-| `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` | 95 |
-| `docs/habr-unique-projects/analogues/README.md` | 81 |
-| `docs/habr-unique-projects/final-ensembles/README.md` | 92 |
-| `docs/habr-unique-projects/software-pairs/README.md` | 97 |
-| `docs/lorenzo-agent/naming/README.md` | 98 |
-| `docs/meta-scripting/README.md` | 98 |
-| `docs/nautilus/community-discussions/habr-article-2-reaction/README.md` | 81 |
-| `docs/nautilus/community-discussions/practical-observations/README.md` | 81 |
-| `docs/nautilus/composite-skills-agents-companion-mentors/README.md` | 92 |
-| `docs/nautilus/multi-tier-architecture/README.md` | 81 |
-| `docs/nautilus/privacy-federation/README.md` | 99 |
-| `docs/nautilus/supply-demand/README.md` | 81 |
-| `docs/nautilus/transmission-box/README.md` | 81 |
-| `docs/svyazi-2-0/limitations/README.md` | 85 |
-| `docs/svyazi-2-0/outreach/README.md` | 88 |
-| `docs/svyazi-2-0/overview/README.md` | 92 |
-| `docs/svyazi-2-0/security/README.md` | 88 |
+| `docs/ai-collaborations/README.md` | 98 |
+| `docs/ai-collaborations/candidates/README.md` | 80 |
+| `docs/anthropic-vacancies/extra-collaborator-findings/README.md` | 99 |
+| `docs/anthropic-vacancies/mmorpg-for-programmers/README.md` | 95 |
+| `docs/anthropic-vacancies/nautilus-pro2-analysis/README.md` | 84 |
+| `docs/anthropic-vacancies/nautilus-vs-camel/README.md` | 95 |
+| `docs/anthropic-vacancies/profile-mapping/02-reanalysis/README.md` | 91 |
+| `docs/anthropic-vacancies/profile-mapping/03-integral-final/README.md` | 91 |
+| `docs/badges/README.md` | 98 |
+| `docs/glossary/README.md` | 91 |
+| `docs/habr-unique-projects/analogues/README.md` | 91 |
+| `docs/habr-unique-projects/final-ensembles/README.md` | 81 |
+| `docs/habr-unique-projects/hardware-pairs/README.md` | 99 |
+| `docs/habr-unique-projects/key-findings/README.md` | 95 |
+| `docs/habr-unique-projects/software-pairs/README.md` | 86 |
+| `docs/lorenzo-agent/naming/README.md` | 87 |
+| `docs/lorenzo-agent/operationalized/README.md` | 96 |
+| `docs/lorenzo-agent/scenarios/README.md` | 88 |
+| `docs/meta-scripting/README.md` | 87 |
+| `docs/nautilus/community-discussions/agent-changes-reality/README.md` | 91 |
 
 ## Рекомендуемые действия
 
@@ -82,27 +78,9 @@ python scripts/improve_tags.py
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
 
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [CONSISTENCY](CONSISTENCY.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [SENTIMENT](SENTIMENT.md)
-- [TABLES](TABLES.md)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [TAGS](TAGS.md)
-- [STATS](STATS.md)
-- [COVERAGE](COVERAGE.md)
-- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-
+## Смотрите также
+- [Главная](README.md)
+- [Метрики](METRICS.md)
+- [Здоровье](HEALTH.md)
+- [Глоссарий](GLOSSARY.md)
+- [Сущности](ENTITIES.md)

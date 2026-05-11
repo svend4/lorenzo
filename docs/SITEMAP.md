@@ -1,48 +1,5 @@
 # Карта репозитория Lorenzo
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> - [Мета-документы](#мета-документы)
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Навигация](#навигация)
-- [Мета-документы](#мета-документы)
-- [Svyazi 2.0 — Архитектура системы](#svyazi-20-архитектура-системы)
-- [Вакансии Anthropic — 436 позиций](#вакансии-anthropic-436-позиций)
-- [Комбинации технологий](#комбинации-технологий)
-- [AI Коллаборации — ансамбли проектов](#ai-коллаборации-ансамбли-проектов)
-- [Хабр-проекты — память и граф](#хабр-проекты-память-и-граф)
-- [ai-collaborations](#ai-collaborations)
-- [anthropic-vacancies](#anthropic-vacancies)
-- [autofilled](#autofilled)
-- [contacts](#contacts)
-- [glossary](#glossary)
-- [habr-unique-projects](#habr-unique-projects)
-- [lorenzo-agent](#lorenzo-agent)
-- [meta-scripting](#meta-scripting)
-- [nautilus](#nautilus)
-- [obsidian](#obsidian)
-- [processing-guide](#processing-guide)
-- [svyazi-2-0](#svyazi-2-0)
-- [technology-combinations](#technology-combinations)
-- [templates](#templates)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 _Обновлено: 2026-05-11_
 
 **Всего файлов:** 2449
@@ -76,99 +33,99 @@ _Обновлено: 2026-05-11_
 
 | Документ | Описание | Слов |
 |----------|----------|------|
-| [ABBREVIATIONS.md](ABBREVIATIONS.md) | — | 1852 |
-| [ACTION_ITEMS.md](ACTION_ITEMS.md) | Задачи и риски (490) | 9660 |
+| [ABBREVIATIONS.md](ABBREVIATIONS.md) | — | 1844 |
+| [ACTION_ITEMS.md](ACTION_ITEMS.md) | Задачи и риски (490) | 9744 |
 | [ACTION_ITEMS.md](obsidian/ACTION_ITEMS.md) | Задачи и риски (490) | 9331 |
-| [ALERTS.md](ALERTS.md) | — | 118 |
-| [AUTHORS.md](AUTHORS.md) | Авторы и контакты | 229 |
+| [ALERTS.md](ALERTS.md) | — | 135 |
+| [AUTHORS.md](AUTHORS.md) | Авторы и контакты | 216 |
 | [AUTHORS.md](obsidian/AUTHORS.md) | Авторы и контакты | 337 |
 | [AUTOFILLED.md](AUTOFILLED.md) | — | 302 |
-| [BACKLINKS.md](BACKLINKS.md) | — | 596 |
-| [BADGES.md](BADGES.md) | — | 119 |
+| [BACKLINKS.md](BACKLINKS.md) | — | 579 |
+| [BADGES.md](BADGES.md) | — | 111 |
 | [BROKEN_LINKS.md](BROKEN_LINKS.md) | Сломанные ссылки (26) | 307 |
-| [CHANGELOG.md](CHANGELOG.md) | История изменений | 3236 |
+| [CHANGELOG.md](CHANGELOG.md) | История изменений | 3281 |
 | [CHANGELOG.md](obsidian/CHANGELOG.md) | История изменений | 2500 |
 | [CHANGELOG_AUTO.md](CHANGELOG_AUTO.md) | — | 703 |
-| [CITATION_INDEX.md](CITATION_INDEX.md) | — | 910 |
+| [CITATION_INDEX.md](CITATION_INDEX.md) | — | 989 |
 | [CLUSTERS.md](CLUSTERS.md) | Кластеры (384 → 120 групп) | 2647 |
 | [CLUSTERS.md](obsidian/CLUSTERS.md) | Кластеры (384 → 120 групп) | 2675 |
-| [CODE_BLOCKS.md](CODE_BLOCKS.md) | — | 5421 |
+| [CODE_BLOCKS.md](CODE_BLOCKS.md) | — | 5404 |
 | [CODE_BLOCKS.md](obsidian/CODE_BLOCKS.md) | — | 5929 |
 | [COLLAB_SUGGESTIONS.md](COLLAB_SUGGESTIONS.md) | — | 716 |
 | [COMPARE.md](COMPARE.md) | Сравнение с предыдущим коммитом | 477 |
 | [COMPARE.md](obsidian/COMPARE.md) | Сравнение с предыдущим коммитом | 635 |
-| [COMPLEXITY.md](COMPLEXITY.md) | Оценка читаемости | 656 |
+| [COMPLEXITY.md](COMPLEXITY.md) | Оценка читаемости | 639 |
 | [COMPLEXITY.md](obsidian/COMPLEXITY.md) | Оценка читаемости | 688 |
 | [COMPONENT_MATRIX.md](COMPONENT_MATRIX.md) | — | 1051 |
-| [CONCEPTS.md](CONCEPTS.md) | Глоссарий понятий (888) | 14666 |
+| [CONCEPTS.md](CONCEPTS.md) | Глоссарий понятий (888) | 14657 |
 | [CONCEPTS.md](obsidian/CONCEPTS.md) | Глоссарий понятий (888) | 14215 |
-| [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) | — | 690 |
-| [CONSISTENCY.md](CONSISTENCY.md) | — | 708 |
+| [CONCEPT_GRAPH.md](CONCEPT_GRAPH.md) | — | 749 |
+| [CONSISTENCY.md](CONSISTENCY.md) | — | 699 |
 | [CONSISTENCY.md](obsidian/CONSISTENCY.md) | — | 710 |
-| [CONTACTS.md](CONTACTS.md) | Контакты (15 авторов) | 552 |
+| [CONTACTS.md](CONTACTS.md) | Контакты (15 авторов) | 557 |
 | [CONTACTS.md](obsidian/CONTACTS.md) | Контакты (15 авторов) | 670 |
-| [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) | — | 391 |
-| [CONTENT_GAPS.md](CONTENT_GAPS.md) | — | 968 |
-| [CONTRADICTIONS.md](CONTRADICTIONS.md) | — | 1644 |
-| [COST.md](COST.md) | — | 569 |
-| [COVERAGE.md](COVERAGE.md) | — | 260 |
-| [CROSSREFS.md](CROSSREFS.md) | Перекрёстные ссылки проектов | 705 |
+| [CONTACT_PRIORITY.md](CONTACT_PRIORITY.md) | — | 364 |
+| [CONTENT_GAPS.md](CONTENT_GAPS.md) | — | 938 |
+| [CONTRADICTIONS.md](CONTRADICTIONS.md) | — | 2009 |
+| [COST.md](COST.md) | — | 520 |
+| [COVERAGE.md](COVERAGE.md) | — | 223 |
+| [CROSSREFS.md](CROSSREFS.md) | Перекрёстные ссылки проектов | 690 |
 | [CROSSREFS.md](obsidian/CROSSREFS.md) | Перекрёстные ссылки проектов | 714 |
 | [CROSS_SECTION.md](CROSS_SECTION.md) | — | 1308 |
-| [DECISIONS.md](DECISIONS.md) | Ключевые решения (150) | 2472 |
+| [DECISIONS.md](DECISIONS.md) | Ключевые решения (150) | 2471 |
 | [DECISIONS.md](obsidian/DECISIONS.md) | Ключевые решения (150) | 2662 |
-| [DENSITY.md](DENSITY.md) | Карта плотности тем | 701 |
+| [DENSITY.md](DENSITY.md) | Карта плотности тем | 686 |
 | [DENSITY.md](obsidian/DENSITY.md) | Карта плотности тем | 764 |
-| [DEPENDABOT.md](DEPENDABOT.md) | — | 160 |
+| [DEPENDABOT.md](DEPENDABOT.md) | — | 198 |
 | [DEPENDENCY_MAP.md](DEPENDENCY_MAP.md) | — | 1188 |
-| [DIGEST.md](DIGEST.md) | — | 423 |
-| [DIGEST_AUTO.md](DIGEST_AUTO.md) | — | 512 |
+| [DIGEST.md](DIGEST.md) | — | 424 |
+| [DIGEST_AUTO.md](DIGEST_AUTO.md) | — | 585 |
 | [DIGEST_WEEKLY.md](DIGEST_WEEKLY.md) | — | 302 |
-| [DUPLICATES.md](DUPLICATES.md) | — | 2073 |
+| [DUPLICATES.md](DUPLICATES.md) | — | 2031 |
 | [DUPLICATES.md](obsidian/DUPLICATES.md) | — | 2715 |
-| [EMPTY_SECTIONS.md](EMPTY_SECTIONS.md) | — | 31110 |
-| [ENTITIES.md](ENTITIES.md) | Именованные сущности | 792 |
+| [EMPTY_SECTIONS.md](EMPTY_SECTIONS.md) | — | 36752 |
+| [ENTITIES.md](ENTITIES.md) | Именованные сущности | 786 |
 | [ENTITIES.md](obsidian/ENTITIES.md) | Именованные сущности | 869 |
-| [FAQ.md](FAQ.md) | — | 1062 |
-| [FOOTNOTES.md](FOOTNOTES.md) | — | 335 |
-| [GITHUB_ISSUES.md](GITHUB_ISSUES.md) | — | 3295 |
-| [GLOSSARY.md](GLOSSARY.md) | Глоссарий проектов (33 записи) | 282 |
+| [FAQ.md](FAQ.md) | — | 1029 |
+| [FOOTNOTES.md](FOOTNOTES.md) | — | 306 |
+| [GITHUB_ISSUES.md](GITHUB_ISSUES.md) | — | 3240 |
+| [GLOSSARY.md](GLOSSARY.md) | Глоссарий проектов (33 записи) | 269 |
 | [GLOSSARY.md](obsidian/GLOSSARY.md) | Глоссарий проектов (33 записи) | 318 |
-| [GRAPH.md](GRAPH.md) | Граф связей проектов | 2721 |
+| [GRAPH.md](GRAPH.md) | Граф связей проектов | 2686 |
 | [GRAPH.md](obsidian/GRAPH.md) | Граф связей проектов | 2784 |
-| [HEADING_AUDIT.md](HEADING_AUDIT.md) | — | 8746 |
+| [HEADING_AUDIT.md](HEADING_AUDIT.md) | — | 13641 |
 | [HEALTH.md](HEALTH.md) | Дашборд здоровья (75/100) | 281 |
 | [HEALTH.md](obsidian/HEALTH.md) | Дашборд здоровья (75/100) | 317 |
-| [HEATMAP.md](HEATMAP.md) | — | 585 |
-| [INDEX.md](INDEX.md) | — | 545 |
+| [HEATMAP.md](HEATMAP.md) | — | 571 |
+| [INDEX.md](INDEX.md) | — | 633 |
 | [KEYWORD_INDEX.md](KEYWORD_INDEX.md) | — | 1258 |
-| [KNOWLEDGE_MAP.md](KNOWLEDGE_MAP.md) | — | 639 |
-| [KPI.md](KPI.md) | Числовые KPI (737 показателей) | 2882 |
+| [KNOWLEDGE_MAP.md](KNOWLEDGE_MAP.md) | — | 705 |
+| [KPI.md](KPI.md) | Числовые KPI (737 показателей) | 2859 |
 | [KPI.md](obsidian/KPI.md) | Числовые KPI (737 показателей) | 2853 |
-| [KPI_HISTORY.md](KPI_HISTORY.md) | — | 209 |
-| [LANGUAGE_STATS.md](LANGUAGE_STATS.md) | — | 7471 |
-| [LINKS.md](LINKS.md) | Внешние ссылки | 1105 |
+| [KPI_HISTORY.md](KPI_HISTORY.md) | — | 252 |
+| [LANGUAGE_STATS.md](LANGUAGE_STATS.md) | — | 7536 |
+| [LINKS.md](LINKS.md) | Внешние ссылки | 1097 |
 | [LINKS.md](obsidian/LINKS.md) | Внешние ссылки | 1122 |
 | [LINK_PREVIEW.md](LINK_PREVIEW.md) | — | 1141 |
 | [LLM_SUMMARIES.md](LLM_SUMMARIES.md) | — | 366 |
-| [MCP_DASHBOARD.md](MCP_DASHBOARD.md) | — | 110 |
+| [MCP_DASHBOARD.md](MCP_DASHBOARD.md) | — | 132 |
 | [METHODOLOGY.md](METHODOLOGY.md) | — | 1052 |
 | [METRICS.md](METRICS.md) | — | 348 |
-| [MINDMAP.md](MINDMAP.md) | Майндмап в Mermaid | 299 |
+| [MINDMAP.md](MINDMAP.md) | Майндмап в Mermaid | 270 |
 | [MINDMAP.md](obsidian/MINDMAP.md) | Майндмап в Mermaid | 349 |
-| [MISSING.md](MISSING.md) | Пробелы знаний | 501 |
+| [MISSING.md](MISSING.md) | Пробелы знаний | 489 |
 | [MISSING.md](obsidian/MISSING.md) | Пробелы знаний | 563 |
-| [NAMED_ENTITIES.md](NAMED_ENTITIES.md) | — | 1562 |
-| [NARRATIVE.md](NARRATIVE.md) | — | 1089 |
-| [NETWORK.md](NETWORK.md) | — | 481 |
-| [ONBOARDING.md](ONBOARDING.md) | — | 491 |
-| [ORPHANS.md](ORPHANS.md) | — | 158 |
-| [OUTLINE.md](OUTLINE.md) | — | 40224 |
-| [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) | — | 12262 |
-| [PASSIVE_VOICE.md](PASSIVE_VOICE.md) | — | 425 |
-| [PRIORITIES.md](PRIORITIES.md) | Приоритеты (TF-IDF) | 3470 |
+| [NAMED_ENTITIES.md](NAMED_ENTITIES.md) | — | 1737 |
+| [NARRATIVE.md](NARRATIVE.md) | — | 1081 |
+| [NETWORK.md](NETWORK.md) | — | 452 |
+| [ONBOARDING.md](ONBOARDING.md) | — | 534 |
+| [ORPHANS.md](ORPHANS.md) | — | 161 |
+| [OUTLINE.md](OUTLINE.md) | — | 47083 |
+| [PARAGRAPH_QUALITY.md](PARAGRAPH_QUALITY.md) | — | 17231 |
+| [PASSIVE_VOICE.md](PASSIVE_VOICE.md) | — | 465 |
+| [PRIORITIES.md](PRIORITIES.md) | Приоритеты (TF-IDF) | 3449 |
 | [PRIORITIES.md](obsidian/PRIORITIES.md) | Приоритеты (TF-IDF) | 3424 |
-| [PROGRESS.md](PROGRESS.md) | — | 285 |
+| [PROGRESS.md](PROGRESS.md) | — | 261 |
 | [PROTOTYPE_SPEC.md](PROTOTYPE_SPEC.md) | — | 1462 |
 | [QA.md](01-svyazi/QA.md) | Вопросы и ответы | 183 |
 | [QA.md](02-anthropic-vacancies/QA.md) | Вопросы и ответы | 323 |
@@ -193,13 +150,13 @@ _Обновлено: 2026-05-11_
 | [QA.md](obsidian/processing-guide/QA.md) | Вопросы и ответы | 797 |
 | [QA.md](processing-guide/QA.md) | Вопросы и ответы | 219 |
 | [QA.md](svyazi-2-0/QA.md) | Вопросы и ответы | 387 |
-| [QUESTIONS.md](QUESTIONS.md) | Открытые вопросы (484) | 21612 |
+| [QUESTIONS.md](QUESTIONS.md) | Открытые вопросы (484) | 1904 |
 | [QUESTIONS.md](obsidian/QUESTIONS.md) | Открытые вопросы (484) | 25686 |
-| [READABILITY.md](READABILITY.md) | — | 37071 |
+| [READABILITY.md](READABILITY.md) | — | 37027 |
 | [READING_LIST.md](READING_LIST.md) | — | 365 |
 | [READING_ORDER.md](READING_ORDER.md) | Рекомендуемый порядок чтения | 6041 |
 | [READING_ORDER.md](obsidian/READING_ORDER.md) | Рекомендуемый порядок чтения | 6121 |
-| [READING_TIME.md](READING_TIME.md) | — | 26650 |
+| [READING_TIME.md](READING_TIME.md) | — | 26712 |
 | [README.md](01-svyazi/README.md) | Главная страница и навигация | 424 |
 | [README.md](02-anthropic-vacancies/README.md) | Главная страница и навигация | 2276 |
 | [README.md](03-technology-combinations/README.md) | Главная страница и навигация | 308 |
@@ -208,76 +165,76 @@ _Обновлено: 2026-05-11_
 | [README.md](05-habr-projects/knowledge/README.md) | Главная страница и навигация | 344 |
 | [README.md](05-habr-projects/memory/README.md) | Главная страница и навигация | 370 |
 | [README.md](README.md) | Главная страница и навигация | 865 |
-| [README.md](ai-collaborations/README.md) | Главная страница и навигация | 114 |
-| [README.md](ai-collaborations/candidates/README.md) | Главная страница и навигация | 111 |
+| [README.md](ai-collaborations/README.md) | Главная страница и навигация | 105 |
+| [README.md](ai-collaborations/candidates/README.md) | Главная страница и навигация | 100 |
 | [README.md](ai-collaborations/channels/README.md) | Главная страница и навигация | 331 |
-| [README.md](ai-collaborations/continuation/README.md) | Главная страница и навигация | 156 |
-| [README.md](ai-collaborations/ensembles/README.md) | Главная страница и навигация | 152 |
+| [README.md](ai-collaborations/continuation/README.md) | Главная страница и навигация | 145 |
+| [README.md](ai-collaborations/ensembles/README.md) | Главная страница и навигация | 141 |
 | [README.md](ai-collaborations/fast-tracks/README.md) | Главная страница и навигация | 412 |
 | [README.md](ai-collaborations/strategy/README.md) | Главная страница и навигация | 335 |
-| [README.md](anthropic-vacancies/README.md) | Главная страница и навигация | 159 |
+| [README.md](anthropic-vacancies/README.md) | Главная страница и навигация | 148 |
 | [README.md](anthropic-vacancies/ai-managed-virtual-company/README.md) | Главная страница и навигация | 137 |
 | [README.md](anthropic-vacancies/beneficial-deployments-concept/README.md) | Главная страница и навигация | 143 |
 | [README.md](anthropic-vacancies/clusters/README.md) | Главная страница и навигация | 168 |
-| [README.md](anthropic-vacancies/extra-collaborator-findings/README.md) | Главная страница и навигация | 138 |
+| [README.md](anthropic-vacancies/extra-collaborator-findings/README.md) | Главная страница и навигация | 127 |
 | [README.md](anthropic-vacancies/hermes-comparison/README.md) | Главная страница и навигация | 155 |
-| [README.md](anthropic-vacancies/mmorpg-for-programmers/README.md) | Главная страница и навигация | 132 |
-| [README.md](anthropic-vacancies/nautilus-pro2-analysis/README.md) | Главная страница и навигация | 117 |
-| [README.md](anthropic-vacancies/nautilus-vs-camel/README.md) | Главная страница и навигация | 132 |
-| [README.md](anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | Главная страница и навигация | 144 |
-| [README.md](anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | Главная страница и навигация | 126 |
-| [README.md](anthropic-vacancies/profile-mapping/03-integral-final/README.md) | Главная страница и навигация | 126 |
+| [README.md](anthropic-vacancies/mmorpg-for-programmers/README.md) | Главная страница и навигация | 121 |
+| [README.md](anthropic-vacancies/nautilus-pro2-analysis/README.md) | Главная страница и навигация | 106 |
+| [README.md](anthropic-vacancies/nautilus-vs-camel/README.md) | Главная страница и навигация | 121 |
+| [README.md](anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | Главная страница и навигация | 133 |
+| [README.md](anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | Главная страница и навигация | 115 |
+| [README.md](anthropic-vacancies/profile-mapping/03-integral-final/README.md) | Главная страница и навигация | 115 |
 | [README.md](anthropic-vacancies/profile-mapping/README.md) | Главная страница и навигация | 332 |
 | [README.md](autofilled/README.md) | Главная страница и навигация | 47 |
 | [README.md](autofilled/components/README.md) | Главная страница и навигация | 95 |
-| [README.md](badges/README.md) | Главная страница и навигация | 127 |
+| [README.md](badges/README.md) | Главная страница и навигация | 87 |
 | [README.md](contacts/README.md) | Главная страница и навигация | 140 |
-| [README.md](glossary/README.md) | Главная страница и навигация | 121 |
+| [README.md](glossary/README.md) | Главная страница и навигация | 105 |
 | [README.md](habr-unique-projects/README.md) | Главная страница и навигация | 340 |
-| [README.md](habr-unique-projects/analogues/README.md) | Главная страница и навигация | 101 |
-| [README.md](habr-unique-projects/deep-pairs/README.md) | Главная страница и навигация | 144 |
+| [README.md](habr-unique-projects/analogues/README.md) | Главная страница и навигация | 111 |
+| [README.md](habr-unique-projects/deep-pairs/README.md) | Главная страница и навигация | 133 |
 | [README.md](habr-unique-projects/evaluation/README.md) | Главная страница и навигация | 327 |
 | [README.md](habr-unique-projects/extra-examples/README.md) | Главная страница и навигация | 149 |
-| [README.md](habr-unique-projects/final-ensembles/README.md) | Главная страница и навигация | 115 |
-| [README.md](habr-unique-projects/hardware-pairs/README.md) | Главная страница и навигация | 138 |
-| [README.md](habr-unique-projects/key-findings/README.md) | Главная страница и навигация | 132 |
+| [README.md](habr-unique-projects/final-ensembles/README.md) | Главная страница и навигация | 104 |
+| [README.md](habr-unique-projects/hardware-pairs/README.md) | Главная страница и навигация | 127 |
+| [README.md](habr-unique-projects/key-findings/README.md) | Главная страница и навигация | 121 |
 | [README.md](habr-unique-projects/search-strategy/README.md) | Главная страница и навигация | 326 |
-| [README.md](habr-unique-projects/software-pairs/README.md) | Главная страница и навигация | 125 |
+| [README.md](habr-unique-projects/software-pairs/README.md) | Главная страница и навигация | 114 |
 | [README.md](lorenzo-agent/README.md) | Главная страница и навигация | 228 |
-| [README.md](lorenzo-agent/naming/README.md) | Главная страница и навигация | 120 |
-| [README.md](lorenzo-agent/operationalized/README.md) | Главная страница и навигация | 135 |
-| [README.md](lorenzo-agent/phased-deployment/README.md) | Главная страница и навигация | 150 |
-| [README.md](lorenzo-agent/scenarios/README.md) | Главная страница и навигация | 127 |
+| [README.md](lorenzo-agent/naming/README.md) | Главная страница и навигация | 109 |
+| [README.md](lorenzo-agent/operationalized/README.md) | Главная страница и навигация | 124 |
+| [README.md](lorenzo-agent/phased-deployment/README.md) | Главная страница и навигация | 139 |
+| [README.md](lorenzo-agent/scenarios/README.md) | Главная страница и навигация | 109 |
 | [README.md](lorenzo-agent/specification/README.md) | Главная страница и навигация | 143 |
-| [README.md](meta-scripting/README.md) | Главная страница и навигация | 112 |
+| [README.md](meta-scripting/README.md) | Главная страница и навигация | 101 |
 | [README.md](nautilus/README.md) | Главная страница и навигация | 603 |
 | [README.md](nautilus/community-discussions/README.md) | Главная страница и навигация | 334 |
-| [README.md](nautilus/community-discussions/agent-changes-reality/README.md) | Главная страница и навигация | 115 |
-| [README.md](nautilus/community-discussions/habr-article-1-reaction/README.md) | Главная страница и навигация | 127 |
-| [README.md](nautilus/community-discussions/habr-article-2-reaction/README.md) | Главная страница и навигация | 101 |
-| [README.md](nautilus/community-discussions/practical-observations/README.md) | Главная страница и навигация | 101 |
-| [README.md](nautilus/community-discussions/voiceless-contributors/README.md) | Главная страница и навигация | 127 |
+| [README.md](nautilus/community-discussions/agent-changes-reality/README.md) | Главная страница и навигация | 103 |
+| [README.md](nautilus/community-discussions/habr-article-1-reaction/README.md) | Главная страница и навигация | 109 |
+| [README.md](nautilus/community-discussions/habr-article-2-reaction/README.md) | Главная страница и навигация | 111 |
+| [README.md](nautilus/community-discussions/practical-observations/README.md) | Главная страница и навигация | 111 |
+| [README.md](nautilus/community-discussions/voiceless-contributors/README.md) | Главная страница и навигация | 109 |
 | [README.md](nautilus/composite-skills-agents/README.md) | Главная страница и навигация | 125 |
-| [README.md](nautilus/composite-skills-agents-companion-mentors/README.md) | Главная страница и навигация | 115 |
-| [README.md](nautilus/double-triangle-architecture/README.md) | Главная страница и навигация | 147 |
+| [README.md](nautilus/composite-skills-agents-companion-mentors/README.md) | Главная страница и навигация | 104 |
+| [README.md](nautilus/double-triangle-architecture/README.md) | Главная страница и навигация | 136 |
 | [README.md](nautilus/infrastructure-layer-b-en/README.md) | Главная страница и навигация | 140 |
 | [README.md](nautilus/infrastructure-layer-b-ru/README.md) | Главная страница и навигация | 134 |
-| [README.md](nautilus/ingit-cowork-en/README.md) | Главная страница и навигация | 135 |
-| [README.md](nautilus/ingit-cowork-ru/README.md) | Главная страница и навигация | 135 |
-| [README.md](nautilus/innovation-transitions/README.md) | Главная страница и навигация | 113 |
-| [README.md](nautilus/multi-tier-architecture/README.md) | Главная страница и навигация | 101 |
-| [README.md](nautilus/npp-humanitarian-extension/README.md) | Главная страница и навигация | 132 |
+| [README.md](nautilus/ingit-cowork-en/README.md) | Главная страница и навигация | 124 |
+| [README.md](nautilus/ingit-cowork-ru/README.md) | Главная страница и навигация | 124 |
+| [README.md](nautilus/innovation-transitions/README.md) | Главная страница и навигация | 102 |
+| [README.md](nautilus/multi-tier-architecture/README.md) | Главная страница и навигация | 111 |
+| [README.md](nautilus/npp-humanitarian-extension/README.md) | Главная страница и навигация | 121 |
 | [README.md](nautilus/npp-v1-0/README.md) | Главная страница и навигация | 185 |
 | [README.md](nautilus/npp-v1-1/README.md) | Главная страница и навигация | 195 |
-| [README.md](nautilus/okwf-concept/README.md) | Главная страница и навигация | 141 |
-| [README.md](nautilus/privacy-federation/README.md) | Главная страница и навигация | 123 |
+| [README.md](nautilus/okwf-concept/README.md) | Главная страница и навигация | 130 |
+| [README.md](nautilus/privacy-federation/README.md) | Главная страница и навигация | 112 |
 | [README.md](nautilus/professional-colleague-agents-en/README.md) | Главная страница и навигация | 126 |
-| [README.md](nautilus/professional-colleague-agents-ru/README.md) | Главная страница и навигация | 126 |
+| [README.md](nautilus/professional-colleague-agents-ru/README.md) | Главная страница и навигация | 127 |
 | [README.md](nautilus/representative-agent-layer-en/README.md) | Главная страница и навигация | 130 |
-| [README.md](nautilus/representative-agent-layer-ru/README.md) | Главная страница и навигация | 128 |
+| [README.md](nautilus/representative-agent-layer-ru/README.md) | Главная страница и навигация | 129 |
 | [README.md](nautilus/review-methodology/README.md) | Главная страница и навигация | 173 |
-| [README.md](nautilus/supply-demand/README.md) | Главная страница и навигация | 101 |
-| [README.md](nautilus/transmission-box/README.md) | Главная страница и навигация | 101 |
+| [README.md](nautilus/supply-demand/README.md) | Главная страница и навигация | 113 |
+| [README.md](nautilus/transmission-box/README.md) | Главная страница и навигация | 113 |
 | [README.md](obsidian/01-svyazi/README.md) | Главная страница и навигация | 428 |
 | [README.md](obsidian/02-anthropic-vacancies/README.md) | Главная страница и навигация | 2292 |
 | [README.md](obsidian/03-technology-combinations/README.md) | Главная страница и навигация | 318 |
@@ -286,145 +243,145 @@ _Обновлено: 2026-05-11_
 | [README.md](obsidian/05-habr-projects/knowledge/README.md) | Главная страница и навигация | 319 |
 | [README.md](obsidian/05-habr-projects/memory/README.md) | Главная страница и навигация | 322 |
 | [README.md](obsidian/README.md) | Главная страница и навигация | 877 |
-| [README.md](obsidian/ai-collaborations/README.md) | Главная страница и навигация | 37 |
-| [README.md](obsidian/ai-collaborations/candidates/README.md) | Главная страница и навигация | 18 |
+| [README.md](obsidian/ai-collaborations/README.md) | Главная страница и навигация | 53 |
+| [README.md](obsidian/ai-collaborations/candidates/README.md) | Главная страница и навигация | 36 |
 | [README.md](obsidian/ai-collaborations/channels/README.md) | Главная страница и навигация | 348 |
-| [README.md](obsidian/ai-collaborations/continuation/README.md) | Главная страница и навигация | 62 |
-| [README.md](obsidian/ai-collaborations/ensembles/README.md) | Главная страница и навигация | 59 |
+| [README.md](obsidian/ai-collaborations/continuation/README.md) | Главная страница и навигация | 75 |
+| [README.md](obsidian/ai-collaborations/ensembles/README.md) | Главная страница и навигация | 72 |
 | [README.md](obsidian/ai-collaborations/fast-tracks/README.md) | Главная страница и навигация | 420 |
 | [README.md](obsidian/ai-collaborations/strategy/README.md) | Главная страница и навигация | 352 |
-| [README.md](obsidian/anthropic-vacancies/README.md) | Главная страница и навигация | 77 |
-| [README.md](obsidian/anthropic-vacancies/ai-managed-virtual-company/README.md) | Главная страница и навигация | 66 |
-| [README.md](obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md) | Главная страница и навигация | 70 |
-| [README.md](obsidian/anthropic-vacancies/clusters/README.md) | Главная страница и навигация | 87 |
-| [README.md](obsidian/anthropic-vacancies/extra-collaborator-findings/README.md) | Главная страница и навигация | 50 |
-| [README.md](obsidian/anthropic-vacancies/hermes-comparison/README.md) | Главная страница и навигация | 78 |
-| [README.md](obsidian/anthropic-vacancies/mmorpg-for-programmers/README.md) | Главная страница и навигация | 46 |
-| [README.md](obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) | Главная страница и навигация | 22 |
-| [README.md](obsidian/anthropic-vacancies/nautilus-vs-camel/README.md) | Главная страница и навигация | 46 |
-| [README.md](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | Главная страница и навигация | 54 |
-| [README.md](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | Главная страница и навигация | 26 |
-| [README.md](obsidian/anthropic-vacancies/profile-mapping/03-integral-final/README.md) | Главная страница и навигация | 26 |
+| [README.md](obsidian/anthropic-vacancies/README.md) | Главная страница и навигация | 83 |
+| [README.md](obsidian/anthropic-vacancies/ai-managed-virtual-company/README.md) | Главная страница и навигация | 79 |
+| [README.md](obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md) | Главная страница и навигация | 83 |
+| [README.md](obsidian/anthropic-vacancies/clusters/README.md) | Главная страница и навигация | 100 |
+| [README.md](obsidian/anthropic-vacancies/extra-collaborator-findings/README.md) | Главная страница и навигация | 63 |
+| [README.md](obsidian/anthropic-vacancies/hermes-comparison/README.md) | Главная страница и навигация | 91 |
+| [README.md](obsidian/anthropic-vacancies/mmorpg-for-programmers/README.md) | Главная страница и навигация | 59 |
+| [README.md](obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) | Главная страница и навигация | 44 |
+| [README.md](obsidian/anthropic-vacancies/nautilus-vs-camel/README.md) | Главная страница и навигация | 59 |
+| [README.md](obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) | Главная страница и навигация | 67 |
+| [README.md](obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/README.md) | Главная страница и навигация | 48 |
+| [README.md](obsidian/anthropic-vacancies/profile-mapping/03-integral-final/README.md) | Главная страница и навигация | 50 |
 | [README.md](obsidian/anthropic-vacancies/profile-mapping/README.md) | Главная страница и навигация | 350 |
 | [README.md](obsidian/autofilled/README.md) | Главная страница и навигация | 34 |
 | [README.md](obsidian/autofilled/components/README.md) | Главная страница и навигация | 64 |
 | [README.md](obsidian/badges/README.md) | Главная страница и навигация | 341 |
-| [README.md](obsidian/contacts/README.md) | Главная страница и навигация | 92 |
-| [README.md](obsidian/glossary/README.md) | Главная страница и навигация | 18 |
+| [README.md](obsidian/contacts/README.md) | Главная страница и навигация | 95 |
+| [README.md](obsidian/glossary/README.md) | Главная страница и навигация | 36 |
 | [README.md](obsidian/habr-unique-projects/README.md) | Главная страница и навигация | 351 |
 | [README.md](obsidian/habr-unique-projects/analogues/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/habr-unique-projects/deep-pairs/README.md) | Главная страница и навигация | 54 |
+| [README.md](obsidian/habr-unique-projects/deep-pairs/README.md) | Главная страница и навигация | 64 |
 | [README.md](obsidian/habr-unique-projects/evaluation/README.md) | Главная страница и навигация | 345 |
-| [README.md](obsidian/habr-unique-projects/extra-examples/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/habr-unique-projects/final-ensembles/README.md) | Главная страница и навигация | 22 |
-| [README.md](obsidian/habr-unique-projects/hardware-pairs/README.md) | Главная страница и навигация | 50 |
-| [README.md](obsidian/habr-unique-projects/key-findings/README.md) | Главная страница и навигация | 30 |
+| [README.md](obsidian/habr-unique-projects/extra-examples/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/habr-unique-projects/final-ensembles/README.md) | Главная страница и навигация | 40 |
+| [README.md](obsidian/habr-unique-projects/hardware-pairs/README.md) | Главная страница и навигация | 54 |
+| [README.md](obsidian/habr-unique-projects/key-findings/README.md) | Главная страница и навигация | 46 |
 | [README.md](obsidian/habr-unique-projects/search-strategy/README.md) | Главная страница и навигация | 347 |
-| [README.md](obsidian/habr-unique-projects/software-pairs/README.md) | Главная страница и навигация | 46 |
-| [README.md](obsidian/lorenzo-agent/README.md) | Главная страница и навигация | 132 |
-| [README.md](obsidian/lorenzo-agent/naming/README.md) | Главная страница и навигация | 22 |
-| [README.md](obsidian/lorenzo-agent/operationalized/README.md) | Главная страница и навигация | 34 |
-| [README.md](obsidian/lorenzo-agent/phased-deployment/README.md) | Главная страница и навигация | 58 |
-| [README.md](obsidian/lorenzo-agent/scenarios/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/lorenzo-agent/specification/README.md) | Главная страница и навигация | 70 |
-| [README.md](obsidian/meta-scripting/README.md) | Главная страница и навигация | 30 |
+| [README.md](obsidian/habr-unique-projects/software-pairs/README.md) | Главная страница и навигация | 59 |
+| [README.md](obsidian/lorenzo-agent/README.md) | Главная страница и навигация | 145 |
+| [README.md](obsidian/lorenzo-agent/naming/README.md) | Главная страница и навигация | 44 |
+| [README.md](obsidian/lorenzo-agent/operationalized/README.md) | Главная страница и навигация | 63 |
+| [README.md](obsidian/lorenzo-agent/phased-deployment/README.md) | Главная страница и навигация | 71 |
+| [README.md](obsidian/lorenzo-agent/scenarios/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/lorenzo-agent/specification/README.md) | Главная страница и навигация | 83 |
+| [README.md](obsidian/meta-scripting/README.md) | Главная страница и навигация | 56 |
 | [README.md](obsidian/nautilus/README.md) | Главная страница и навигация | 611 |
 | [README.md](obsidian/nautilus/community-discussions/README.md) | Главная страница и навигация | 352 |
-| [README.md](obsidian/nautilus/community-discussions/agent-changes-reality/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/community-discussions/habr-article-1-reaction/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/community-discussions/practical-observations/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/community-discussions/voiceless-contributors/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/composite-skills-agents/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/nautilus/composite-skills-agents-companion-mentors/README.md) | Главная страница и навигация | 22 |
-| [README.md](obsidian/nautilus/double-triangle-architecture/README.md) | Главная страница и навигация | 70 |
-| [README.md](obsidian/nautilus/infrastructure-layer-b-en/README.md) | Главная страница и навигация | 78 |
-| [README.md](obsidian/nautilus/infrastructure-layer-b-ru/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/nautilus/ingit-cowork-en/README.md) | Главная страница и навигация | 62 |
-| [README.md](obsidian/nautilus/ingit-cowork-ru/README.md) | Главная страница и навигация | 62 |
-| [README.md](obsidian/nautilus/innovation-transitions/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/multi-tier-architecture/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/npp-humanitarian-extension/README.md) | Главная страница и навигация | 46 |
-| [README.md](obsidian/nautilus/npp-v1-0/README.md) | Главная страница и навигация | 98 |
-| [README.md](obsidian/nautilus/npp-v1-1/README.md) | Главная страница и навигация | 114 |
-| [README.md](obsidian/nautilus/okwf-concept/README.md) | Главная страница и навигация | 66 |
-| [README.md](obsidian/nautilus/privacy-federation/README.md) | Главная страница и навигация | 42 |
-| [README.md](obsidian/nautilus/professional-colleague-agents-en/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/nautilus/professional-colleague-agents-ru/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/nautilus/representative-agent-layer-en/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/nautilus/representative-agent-layer-ru/README.md) | Главная страница и навигация | 74 |
-| [README.md](obsidian/nautilus/review-methodology/README.md) | Главная страница и навигация | 90 |
-| [README.md](obsidian/nautilus/supply-demand/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/nautilus/transmission-box/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/processing-guide/README.md) | Главная страница и навигация | 70 |
+| [README.md](obsidian/nautilus/community-discussions/agent-changes-reality/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/community-discussions/habr-article-1-reaction/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/community-discussions/practical-observations/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/community-discussions/voiceless-contributors/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/composite-skills-agents/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/nautilus/composite-skills-agents-companion-mentors/README.md) | Главная страница и навигация | 44 |
+| [README.md](obsidian/nautilus/double-triangle-architecture/README.md) | Главная страница и навигация | 83 |
+| [README.md](obsidian/nautilus/infrastructure-layer-b-en/README.md) | Главная страница и навигация | 91 |
+| [README.md](obsidian/nautilus/infrastructure-layer-b-ru/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/nautilus/ingit-cowork-en/README.md) | Главная страница и навигация | 75 |
+| [README.md](obsidian/nautilus/ingit-cowork-ru/README.md) | Главная страница и навигация | 75 |
+| [README.md](obsidian/nautilus/innovation-transitions/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/multi-tier-architecture/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/npp-humanitarian-extension/README.md) | Главная страница и навигация | 59 |
+| [README.md](obsidian/nautilus/npp-v1-0/README.md) | Главная страница и навигация | 111 |
+| [README.md](obsidian/nautilus/npp-v1-1/README.md) | Главная страница и навигация | 127 |
+| [README.md](obsidian/nautilus/okwf-concept/README.md) | Главная страница и навигация | 79 |
+| [README.md](obsidian/nautilus/privacy-federation/README.md) | Главная страница и навигация | 52 |
+| [README.md](obsidian/nautilus/professional-colleague-agents-en/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/nautilus/professional-colleague-agents-ru/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/nautilus/representative-agent-layer-en/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/nautilus/representative-agent-layer-ru/README.md) | Главная страница и навигация | 87 |
+| [README.md](obsidian/nautilus/review-methodology/README.md) | Главная страница и навигация | 103 |
+| [README.md](obsidian/nautilus/supply-demand/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/nautilus/transmission-box/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/processing-guide/README.md) | Главная страница и навигация | 76 |
 | [README.md](obsidian/svyazi-2-0/README.md) | Главная страница и навигация | 344 |
-| [README.md](obsidian/svyazi-2-0/architecture/README.md) | Главная страница и навигация | 34 |
+| [README.md](obsidian/svyazi-2-0/architecture/README.md) | Главная страница и навигация | 50 |
 | [README.md](obsidian/svyazi-2-0/components/README.md) | Главная страница и навигация | 98 |
-| [README.md](obsidian/svyazi-2-0/ensembles/README.md) | Главная страница и навигация | 55 |
-| [README.md](obsidian/svyazi-2-0/limitations/README.md) | Главная страница и навигация | 18 |
-| [README.md](obsidian/svyazi-2-0/outreach/README.md) | Главная страница и навигация | 18 |
-| [README.md](obsidian/svyazi-2-0/overview/README.md) | Главная страница и навигация | 22 |
-| [README.md](obsidian/svyazi-2-0/prototype/README.md) | Главная страница и навигация | 18 |
-| [README.md](obsidian/svyazi-2-0/security/README.md) | Главная страница и навигация | 18 |
+| [README.md](obsidian/svyazi-2-0/ensembles/README.md) | Главная страница и навигация | 68 |
+| [README.md](obsidian/svyazi-2-0/limitations/README.md) | Главная страница и навигация | 38 |
+| [README.md](obsidian/svyazi-2-0/outreach/README.md) | Главная страница и навигация | 38 |
+| [README.md](obsidian/svyazi-2-0/overview/README.md) | Главная страница и навигация | 42 |
+| [README.md](obsidian/svyazi-2-0/prototype/README.md) | Главная страница и навигация | 38 |
+| [README.md](obsidian/svyazi-2-0/security/README.md) | Главная страница и навигация | 36 |
 | [README.md](obsidian/technology-combinations/README.md) | Главная страница и навигация | 353 |
-| [README.md](obsidian/technology-combinations/combinations/README.md) | Главная страница и навигация | 162 |
-| [README.md](obsidian/technology-combinations/mega-stacks/README.md) | Главная страница и навигация | 22 |
+| [README.md](obsidian/technology-combinations/combinations/README.md) | Главная страница и навигация | 175 |
+| [README.md](obsidian/technology-combinations/mega-stacks/README.md) | Главная страница и навигация | 38 |
 | [README.md](obsidian/technology-combinations/properties/README.md) | Главная страница и навигация | 351 |
-| [README.md](obsidian/technology-combinations/research-reports/README.md) | Главная страница и навигация | 14 |
-| [README.md](obsidian/technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 30 |
+| [README.md](obsidian/technology-combinations/research-reports/README.md) | Главная страница и навигация | 32 |
+| [README.md](obsidian/technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 54 |
 | [README.md](obsidian/templates/README.md) | Главная страница и навигация | 127 |
-| [README.md](processing-guide/README.md) | Главная страница и навигация | 123 |
-| [README.md](svyazi-2-0/README.md) | Главная страница и навигация | 130 |
-| [README.md](svyazi-2-0/architecture/README.md) | Главная страница и навигация | 124 |
+| [README.md](processing-guide/README.md) | Главная страница и навигация | 115 |
+| [README.md](svyazi-2-0/README.md) | Главная страница и навигация | 121 |
+| [README.md](svyazi-2-0/architecture/README.md) | Главная страница и навигация | 113 |
 | [README.md](svyazi-2-0/components/README.md) | Главная страница и навигация | 185 |
-| [README.md](svyazi-2-0/ensembles/README.md) | Главная страница и навигация | 146 |
-| [README.md](svyazi-2-0/limitations/README.md) | Главная страница и навигация | 107 |
-| [README.md](svyazi-2-0/outreach/README.md) | Главная страница и навигация | 109 |
-| [README.md](svyazi-2-0/overview/README.md) | Главная страница и навигация | 115 |
-| [README.md](svyazi-2-0/prototype/README.md) | Главная страница и навигация | 121 |
-| [README.md](svyazi-2-0/security/README.md) | Главная страница и навигация | 109 |
+| [README.md](svyazi-2-0/ensembles/README.md) | Главная страница и навигация | 135 |
+| [README.md](svyazi-2-0/limitations/README.md) | Главная страница и навигация | 117 |
+| [README.md](svyazi-2-0/outreach/README.md) | Главная страница и навигация | 100 |
+| [README.md](svyazi-2-0/overview/README.md) | Главная страница и навигация | 106 |
+| [README.md](svyazi-2-0/prototype/README.md) | Главная страница и навигация | 103 |
+| [README.md](svyazi-2-0/security/README.md) | Главная страница и навигация | 119 |
 | [README.md](technology-combinations/README.md) | Главная страница и навигация | 345 |
 | [README.md](technology-combinations/combinations/README.md) | Главная страница и навигация | 281 |
-| [README.md](technology-combinations/mega-stacks/README.md) | Главная страница и навигация | 117 |
+| [README.md](technology-combinations/mega-stacks/README.md) | Главная страница и навигация | 106 |
 | [README.md](technology-combinations/properties/README.md) | Главная страница и навигация | 333 |
-| [README.md](technology-combinations/research-reports/README.md) | Главная страница и навигация | 101 |
-| [README.md](technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 123 |
-| [README.md](templates/README.md) | Главная страница и навигация | 136 |
-| [REGISTRY.md](REGISTRY.md) | — | 1372 |
-| [REPORT.md](REPORT.md) | — | 328 |
-| [RISK_REGISTER.md](RISK_REGISTER.md) | — | 820 |
-| [SCHEDULE.md](SCHEDULE.md) | — | 311 |
-| [SCORING.md](SCORING.md) | — | 354 |
-| [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) | — | 7580 |
+| [README.md](technology-combinations/research-reports/README.md) | Главная страница и навигация | 111 |
+| [README.md](technology-combinations/synthesis-tables/README.md) | Главная страница и навигация | 112 |
+| [README.md](templates/README.md) | Главная страница и навигация | 125 |
+| [REGISTRY.md](REGISTRY.md) | — | 1341 |
+| [REPORT.md](REPORT.md) | — | 932 |
+| [RISK_REGISTER.md](RISK_REGISTER.md) | — | 863 |
+| [SCHEDULE.md](SCHEDULE.md) | — | 271 |
+| [SCORING.md](SCORING.md) | — | 305 |
+| [SCRIPTS_CATALOG.md](SCRIPTS_CATALOG.md) | — | 7553 |
 | [SCRIPT_EVAL_REPORT.md](SCRIPT_EVAL_REPORT.md) | — | 2951 |
 | [SEARCH.md](SEARCH.md) | Поисковый индекс | 16205 |
 | [SEARCH_RESULTS.md](SEARCH_RESULTS.md) | — | 324 |
-| [SEE_ALSO.md](SEE_ALSO.md) | — | 257 |
-| [SENTIMENT.md](SENTIMENT.md) | — | 624 |
+| [SEE_ALSO.md](SEE_ALSO.md) | — | 256 |
+| [SENTIMENT.md](SENTIMENT.md) | — | 609 |
 | [SIMILAR.md](SIMILAR.md) | Похожие документы (937 пар) | 408 |
 | [SIMILAR.md](obsidian/SIMILAR.md) | Похожие документы (937 пар) | 430 |
 | [SIMILAR_PASSAGES.md](SIMILAR_PASSAGES.md) | — | 1829 |
-| [SKILL_DASHBOARD.md](SKILL_DASHBOARD.md) | — | 125 |
-| [SOURCE_MAP.md](SOURCE_MAP.md) | — | 12353 |
-| [SPELLCHECK.md](SPELLCHECK.md) | — | 462 |
-| [STALENESS.md](STALENESS.md) | — | 349 |
+| [SKILL_DASHBOARD.md](SKILL_DASHBOARD.md) | — | 21 |
+| [SOURCE_MAP.md](SOURCE_MAP.md) | — | 12423 |
+| [SPELLCHECK.md](SPELLCHECK.md) | — | 446 |
+| [STALENESS.md](STALENESS.md) | — | 392 |
 | [STATS.md](STATS.md) | Детальная статистика | 681 |
 | [STATS.md](obsidian/STATS.md) | Детальная статистика | 796 |
 | [SUMMARIES.md](SUMMARIES.md) | — | 3863 |
-| [TABLES.md](TABLES.md) | — | 300551 |
+| [TABLES.md](TABLES.md) | — | 306983 |
 | [TABLES.md](obsidian/TABLES.md) | — | 216501 |
-| [TAGS.md](TAGS.md) | Теги (316 файлов, 12 тем) | 505 |
+| [TAGS.md](TAGS.md) | Теги (316 файлов, 12 тем) | 490 |
 | [TAGS.md](obsidian/TAGS.md) | Теги (316 файлов, 12 тем) | 336 |
 | [TASKS_INDEX.md](TASKS_INDEX.md) | — | 1072 |
-| [TECH_RADAR.md](TECH_RADAR.md) | — | 566 |
-| [TIMELINE.md](TIMELINE.md) | Временная шкала (800 маркеров) | 2147 |
+| [TECH_RADAR.md](TECH_RADAR.md) | — | 634 |
+| [TIMELINE.md](TIMELINE.md) | Временная шкала (800 маркеров) | 4816 |
 | [TIMELINE.md](obsidian/TIMELINE.md) | Временная шкала (800 маркеров) | 2223 |
 | [TOPIC_MODEL.md](TOPIC_MODEL.md) | — | 1078 |
 | [VALIDATION.md](VALIDATION.md) | — | 424 |
-| [VERSION_DIFF.md](VERSION_DIFF.md) | — | 23683 |
-| [VOCABULARY.md](VOCABULARY.md) | — | 934 |
+| [VERSION_DIFF.md](VERSION_DIFF.md) | — | 23748 |
+| [VOCABULARY.md](VOCABULARY.md) | — | 1006 |
 | [WORD_CLOUD.md](WORD_CLOUD.md) | — | 301 |
-| [WORD_FREQ.md](WORD_FREQ.md) | Частотный анализ слов | 3267 |
+| [WORD_FREQ.md](WORD_FREQ.md) | Частотный анализ слов | 3244 |
 | [WORD_FREQ.md](obsidian/WORD_FREQ.md) | Частотный анализ слов | 3382 |
 | [reading-paths.md](reading-paths.md) | — | 674 |
 
@@ -1073,10 +1030,10 @@ _`docs/templates/` — 23 файлов_
 | # | Документ | Слов |
 |---|----------|------|
 | 1 | [Спецификация агента: [Название]](templates/agent-spec.md) | 420 |
-| 2 | [Контакт: [Имя / Проект]](templates/contact-outreach.md) | 142 |
+| 2 | [Контакт: [Имя / Проект]](templates/contact-outreach.md) | 132 |
 | 3 | [Противоречие: [Название]](templates/contradiction-record.md) | 346 |
-| 4 | [ADR: [Название решения]](templates/decision-record.md) | 155 |
-| 5 | [Ансамбль: [Название]](templates/ensemble.md) | 148 |
+| 4 | [ADR: [Название решения]](templates/decision-record.md) | 134 |
+| 5 | [Ансамбль: [Название]](templates/ensemble.md) | 138 |
 | 6 | [Эксперимент: [Название]](templates/experiment-log.md) | 347 |
 | 7 | [FAQ: [Вопрос]](templates/faq-entry.md) | 348 |
 | 8 | [[Термин]](templates/glossary-entry.md) | 350 |
@@ -1084,10 +1041,10 @@ _`docs/templates/` — 23 файлов_
 | 10 | [Юридический кейс: [Aktenzeichen]](templates/legal-case.md) | 354 |
 | 11 | [Встреча: [Тема]](templates/meeting-notes.md) | 344 |
 | 12 | [Mega-stack: [Название]](templates/mega-stack.md) | 410 |
-| 13 | [[Название компонента]](templates/project-component.md) | 146 |
+| 13 | [[Название компонента]](templates/project-component.md) | 136 |
 | 14 | [[Название протокола]](templates/protocol-spec.md) | 413 |
 | 15 | [MVP: [Название]](templates/prototype-mvp.md) | 427 |
-| 16 | [[Тема исследования]](templates/research-note.md) | 123 |
+| 16 | [[Тема исследования]](templates/research-note.md) | 102 |
 | 17 | [Ретроспектива: [период]](templates/retrospective.md) | 355 |
 | 18 | [RFC NNNN: [Название]](templates/rfc.md) | 323 |
 | 19 | [Риск: [Название]](templates/risk-entry.md) | 353 |
@@ -1095,14 +1052,3 @@ _`docs/templates/` — 23 файлов_
 | 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 345 |
 | 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 364 |
 | 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 349 |
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [SEARCH](SEARCH.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [LANGUAGE_STATS](LANGUAGE_STATS.md)
-
