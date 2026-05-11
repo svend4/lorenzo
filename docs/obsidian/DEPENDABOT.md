@@ -9,14 +9,6 @@ date: 2026-05-11
 
 # Мониторинг зависимостей
 
-<!-- toc-auto -->
-## Contents
-
-- [Python-зависимости](#python-зависимости)
-- [OSS-проекты (Svyazi 2.0)](#oss-проекты-svyazi-20)
-- [Автоматизация](#автоматизация)
-
-
 > [!NOTE]
 > Раздел `DEPENDABOT` формируется автоматически из данных репозитория.
 
@@ -60,38 +52,3 @@ python scripts/improve_dependabot.py --check-pypi
 
 После `--generate-config` Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[QA]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[DEPENDABOT]] (сходство 0.96)
-- [[GRAPH]] (сходство 0.33)
-- [[README]] (сходство 0.32)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CONTACT_PRIORITY]]
-- [[CONCEPT_GRAPH]]
-- [[KPI_HISTORY]]
-- [[PASSIVE_VOICE]]
-

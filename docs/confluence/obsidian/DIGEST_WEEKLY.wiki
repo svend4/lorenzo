@@ -13,15 +13,6 @@ date: 2026-05-11
 h1. Еженедельный дайджест — 2026-05-11
 
 
-h2. Contents
-
-* [Итого|#итого]
-* [Коммиты|#коммиты]
-* [Новые документы|#новые-документы]
-* [Активность по разделам|#активность-по-разделам]
-* [Изменённые документы|#изменённые-документы]
-* [Смотрите также|#смотрите-также]
-
 
 {quote}[!NOTE]{quote}
 {quote}Раздел {{DIGEST_WEEKLY}} формируется автоматически из данных репозитория.{quote}
@@ -39,30 +30,30 @@ _Период: последние 7 дней (с 2026-05-04)_
 h2. Итого
 
 || Метрика || Значение ||
-|| Коммитов за неделю || **66** ||
-|| Новых файлов || **1680** ||
-|| Изменённых файлов || **1808** ||
-|| Всего MD файлов || **2460** ||
-|| Всего слов || **2,716,781** ||
+|| Коммитов за неделю || **105** ||
+|| Новых файлов || **1712** ||
+|| Изменённых файлов || **2873** ||
+|| Всего MD файлов || **2482** ||
+|| Всего слов || **3,023,865** ||
 
 h2. Коммиты
 
 {code}
-defa92c chore: update auto-generated dashboards
-c601257 feat: add open letter drafts for 8 project authors
-f5d46f4 chore: update auto-generated docs after reports pipeline run
-7741b0d fix: stabilize quality score 100/100 + 0 broken links
-089b157 chore: update generated docs after reports pipeline run
-81af4bf feat: add improve_quality_patch.py to prevent score regression after pipeline runs
-728700c fix: restore 100.0/100 and 0 broken links after second pipeline run
-c02dda8 fix: restore 100.0/100 quality score and 0 broken links after pipeline run
-447e84d fix: restore 100.0/100 quality score and 0 broken links after pipeline run
-cf9ebcc feat: raise doc quality score from 96.3 → 100.0/100 with 0 broken links
-82d3705 feat: improve doc quality score from 84.6 → 86.5/100
-a469b34 fix: remove 61 broken internal links (dangling #contents anchors + SEARCH.md paths)
-8851147 feat: quality metrics 83.5→84.6/100, fix duplicate TOCs, add 680 callouts
-043b81e feat: quality metrics 82.3→83.5/100, callout coverage 35%→95%
-bd8d60b feat: quality metrics 76.7→82.3/100, add callouts/TOCs/H1s/summaries
+779808d chore: обновление COMPLEXITY.md и SENTIMENT.md
+0515207 test: +25 тестов — test_index_update.py; обновление docs/ и README.md
+a5b93b9 chore: обновление CONCEPTS.md и ENTITIES.md
+5669431 chore: обновление QUESTIONS.md
+04a47cc chore: обновление ACTION_ITEMS.md и DECISIONS.md
+619729e chore: обновление DENSITY.md и HEATMAP.md
+4489b80 chore: авто-обновление docs/ после improve_run_all --smart
+b3b6c5d test: +44 теста — test_progress_sync.py + test_semantic_search.py
+07739d9 chore: обновление зеркальных файлов obsidian/confluence
+63e1280 feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты
+8e03258 chore: авто-перегенерация дашбордов после v1.0.0 + check_published
+657ca79 feat: PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0)
+0bf1542 feat: /api/status — core_cards фильтрация noise-секций
+f5ebc62 docs: обновление README.md и GATEWAY.md
+9cb118a chore: авто-перегенерация дашбордов после Hit Rate@10 1.000
 {code}
 
 h2. Новые документы
@@ -74,38 +65,39 @@ h2. Новые документы
 * {{docs/05-habr-projects/knowledge/rufler.md}}
 * {{docs/05-habr-projects/memory/agent-memory-mcp.md}}
 * {{docs/COLLAB_SUGGESTIONS.md}}
+* {{docs/DEMO.md}}
+* {{docs/GATEWAY.md}}
 * {{docs/LINK_PREVIEW.md}}
 * {{docs/METHODOLOGY.md}}
+* {{docs/PRECISION_EVAL.md}}
 * {{docs/PROTOTYPE_SPEC.md}}
 * {{docs/SCRIPT_EVAL_REPORT.md}}
+* {{docs/SENTINEL.md}}
 * {{docs/ai-collaborations/QA.md}}
 * {{docs/contacts/QA.md}}
 * {{docs/contacts/vitalysemenov.md}}
+* {{docs/letters/QA.md}}
 * {{docs/letters/README.md}}
-* {{docs/letters/anastasiyaw.md}}
-* {{docs/letters/antipozitive.md}}
-* {{docs/letters/kksudo.md}}
-* {{docs/letters/nlaik.md}}
-* {{docs/letters/spbmolot.md}}
 
 h2. Активность по разделам
 
 || Раздел || Изменений ||
 || `cards/` || 1635 ||
+|| `confluence/` || 1048 ||
 || `obsidian/` || 524 ||
 || `02-anthropic-vacancies/` || 357 ||
 || `nautilus/` || 255 ||
-|| `docs/` || 124 ||
+|| `docs/` || 131 ||
 || `anthropic-vacancies/` || 111 ||
-|| `scripts/` || 64 ||
+|| `scripts/` || 72 ||
 || `lorenzo-agent/` || 62 ||
 || `svyazi-2-0/` || 60 ||
-|| `habr-unique-projects/` || 56 ||
 
 h2. Изменённые документы
 
 * {{CHANGELOG.md}}
 * {{CLAUDE.md}}
+* {{README.md}}
 * {{docs/01-svyazi/00-intro-part2.md}}
 * {{docs/01-svyazi/01-executive-summary.md}}
 * {{docs/01-svyazi/02-methodology.md}}
@@ -118,11 +110,10 @@ h2. Изменённые документы
 * {{docs/01-svyazi/10-second-order-ensembles.md}}
 * {{docs/01-svyazi/11-integration-contracts.md}}
 * {{docs/01-svyazi/12-roadmap.md}}
-* {{docs/01-svyazi/13-contacts.md}}
 
 ----
 
-_Сгенерировано: 2026-05-11 04:43_
+_Сгенерировано: 2026-05-11 09:03_
 
 h2. Смотрите также
 * [[README|Главная]]
@@ -130,38 +121,3 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
-
-
-
-----
-
-_Кто ссылается на этот документ (7):_
-* [[INDEX]]
-* [[OUTLINE]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* [[SEARCH]]
-* [[TABLES]]
-
-
-
-
-----
-
-_Похожие документы:_
-* [[DIGEST_WEEKLY]] (сходство 0.98)
-* [[DIGEST_AUTO]] (сходство 0.34)
-* [[DIGEST_AUTO]] (сходство 0.33)
-
-
-
-
-----
-
-_Смотрите также:_
-* [[DIGEST_AUTO]]
-* [[KPI_HISTORY]]
-* [[PASSIVE_VOICE]]
-* [[CROSS_SECTION]]
-

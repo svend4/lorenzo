@@ -36726,3 +36726,10 @@ python scripts/improve_tables.py --dry-run
 # Вариант 164
 python scripts/improve_tables.py --dry-run
 {code}
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_tables.py
+{code}

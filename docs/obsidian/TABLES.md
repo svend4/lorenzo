@@ -37721,3 +37721,10 @@ python scripts/improve_tables.py --dry-run
 # Вариант 164
 python scripts/improve_tables.py --dry-run
 ```
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_tables.py
+```

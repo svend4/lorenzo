@@ -7,26 +7,7 @@ date: 2026-05-11
 
 # Карта зависимостей скриптов
 
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Зависимости](#зависимости)
-- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
-- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
-## Contents
-
-- [Зависимости](#зависимости)
-- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
-- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
-- [Смотрите также](#смотрите-также)
-
 
 > [!NOTE]
 > Раздел `DEPENDENCY_MAP` формируется автоматически из данных репозитория.
@@ -41,7 +22,7 @@ date: 2026-05-11
 
 _Что каждый `improve_*.py` производит и от чего зависит._
 
-**Скриптов в карте:** 126 · **Всего в репо:** 163
+**Скриптов в карте:** 126 · **Всего в репо:** 166
 
 ## Зависимости
 
@@ -178,6 +159,7 @@ _Что каждый `improve_*.py` производит и от чего зав
 
 _Существуют в репо, но не добавлены в карту:_
 
+- `improve_ann_index.py`
 - `improve_audit_db.py`
 - `improve_auto_linker.py`
 - `improve_card_index.py`
@@ -196,6 +178,7 @@ _Существуют в репо, но не добавлены в карту:_
 - `improve_mcp_test.py`
 - `improve_migrate_contacts.py`
 - `improve_passive_voice.py`
+- `improve_precision_eval.py`
 - `improve_quality_patch.py`
 - `improve_question_extractor.py`
 - `improve_reading_list.py`
@@ -205,6 +188,7 @@ _Существуют в репо, но не добавлены в карту:_
 - `improve_search_repl.py`
 - `improve_self.py`
 - `improve_semantic_search.py`
+- `improve_sentinel_check.py`
 - `improve_similar_passages.py`
 - `improve_skill_dashboard.py`
 - `improve_status_badges.py`
@@ -241,38 +225,3 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [[INDEX]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- [[TABLES]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[DEPENDENCY_MAP]] (сходство 0.99)
-- [[CHANGELOG_AUTO]] (сходство 0.26)
-- [[CHANGELOG_AUTO]] (сходство 0.26)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CHANGELOG_AUTO]]
-- [[INDEX]]
-- [[DIGEST_AUTO]]
-- [[CHANGELOG]]
-

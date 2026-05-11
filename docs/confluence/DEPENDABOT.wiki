@@ -5,14 +5,6 @@
 
 h1. Мониторинг зависимостей
 
-
-h2. Contents
-
-* [Python-зависимости|#python-зависимости]
-* [OSS-проекты (Svyazi 2.0)|#oss-проекты-svyazi-20]
-* [Автоматизация|#автоматизация]
-
-
 {quote}[!NOTE]{quote}
 {quote}Раздел {{DEPENDABOT}} формируется автоматически из данных репозитория.{quote}
 
@@ -54,38 +46,3 @@ python scripts/improve_dependabot.py --check-pypi
 
 После {{--generate-config}} Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
-
-
-
-----
-
-_Кто ссылается на этот документ (7):_
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-* [QA|svyazi-2-0/QA.md]
-
-
-
-
-----
-
-_Похожие документы:_
-* [DEPENDABOT|obsidian/DEPENDABOT.md] (сходство 0.96)
-* [GRAPH|GRAPH.md] (сходство 0.33)
-* [README|badges/README.md] (сходство 0.32)
-
-
-
-
-----
-
-_Смотрите также:_
-* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
-* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
-* [KPI_HISTORY|KPI_HISTORY.md]
-* [PASSIVE_VOICE|PASSIVE_VOICE.md]
-

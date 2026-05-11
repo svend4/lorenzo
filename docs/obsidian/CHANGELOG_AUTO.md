@@ -7,30 +7,7 @@ date: 2026-05-11
 
 # Changelog (авто)
 
-<!-- toc -->
-## Содержание
-
-- [Contents](#contents)
-- [Статистика коммитов](#статистика-коммитов)
-- [История изменений](#история-изменений)
-  - [2026-05](#2026-05)
-  - [2026-04](#2026-04)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
-## Contents
-
-- [Статистика коммитов](#статистика-коммитов)
-- [История изменений](#история-изменений)
-  - [2026-05](#2026-05)
-  - [2026-04](#2026-04)
-- [Использование](#использование)
-- [Смотрите также](#смотрите-также)
-
 
 > [!NOTE]
 > Раздел `CHANGELOG_AUTO` формируется автоматически из данных репозитория.
@@ -49,11 +26,12 @@ _Сгенерировано из 200 коммитов git-истории._
 
 | Тип | Название | Кол-во |
 |-----|---------|--------|
-| `feat` | ✨ Новые возможности | 64 |
-| `fix` | 🐛 Исправления | 35 |
+| `feat` | ✨ Новые возможности | 66 |
+| `fix` | 🐛 Исправления | 34 |
 | `docs` | 📝 Документация | 23 |
-| `chore` | 🔧 Технические задачи | 50 |
-| `other` | 📌 Прочее | 28 |
+| `chore` | 🔧 Технические задачи | 61 |
+| `test` | ✅ Тесты | 2 |
+| `other` | 📌 Прочее | 14 |
 
 ## История изменений
 
@@ -62,6 +40,22 @@ _Сгенерировано из 200 коммитов git-истории._
 
 **✨ Новые возможности**
 
+- POST /api/search — лёгкий поиск без LLM-синтеза + тесты `63e1280e`
+- PROGRESS.md 7/11 → 8/11 — MVP опубликован (git tag v1.0.0) `657ca79e`
+- /api/status — core_cards фильтрация noise-секций `0bf15429`
+- Hit Rate@10 0.750 → 1.000 — улучшение качества поиска `b5efba6c`
+- POST /api/collabs endpoint + tests/test_search.py (16 тестов) `39796fb2`
+- GET /api/benchmark endpoint + ускорение тестов `20c60b4c`
+- автодетектирование milestone прототипа и тестирования в PROGRESS.md `82c7db84`
+- автоматизация всех критериев benchmark в prototype_demo.py `e77ffcb8`
+- улучшение качества поиска + CI fix для gateway/ANN тестов `b9d3e3b8`
+- тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS 63% `f3d00e22`
+- hnswlib ANN-граф — ускоренный векторный поиск 37× (Итерация 1 завершена) `bd974316`
+- Review Queue UI + gateway write-back fix + Iteration 4 `e31c908a`
+- Lorenzo Gateway — OpenAI-compatible HTTP API для обогащения корпуса `f754e78b`
+- working prototype Knowledge OS — prototype_demo.py `645d38b5`
+- protect PROGRESS.md manual sections + update search/deeptext `deef911d`
+- SENTINEL security check + contact statuses + progress 55% `62b5e192`
 - add open letter drafts for 8 project authors `c601257d`
 - add improve_quality_patch.py to prevent score regression after pipeline runs `81af4bf5`
 - raise doc quality score from 96.3 → 100.0/100 with 0 broken links `cf9ebcce`
@@ -80,7 +74,7 @@ _Сгенерировано из 200 коммитов git-истории._
 - improve collab_finder quality and TF-IDF index `9e1f8eed`
 - Collaboration Finder + TF-IDF semantic index + GitHub Actions schedule `e4e61656`
 - incremental CardStore, better type detection, recipe --since, fix OSError `96e0eab4`
-- card envelope library, CardIndex CLI, fix recipe dry-run + history `95929faf`
+- card envelope library, card index CLI, fix recipe dry-run + history `95929faf`
 - implement E-K roadmap items — recipe system, BM25 MCP, prototype spec, code generator `9b4e71ac`
 - implement improve_self.py --batch and add REPL search script `f069f299`
 - (scripts) complete run_all coverage + --dry-run for all red scripts `cdb6ccce`
@@ -90,6 +84,7 @@ _Сгенерировано из 200 коммитов git-истории._
 
 **🐛 Исправления**
 
+- валидация шаблонов — 12 файлов с frontmatter ошибками `785f998a`
 - stabilize quality score 100/100 + 0 broken links `7741b0dd`
 - restore 100.0/100 and 0 broken links after second pipeline run `728700c0`
 - restore 100.0/100 quality score and 0 broken links after pipeline run `c02dda87`
@@ -118,23 +113,48 @@ _Сгенерировано из 200 коммитов git-истории._
 
 **📝 Документация**
 
+- обновление README.md и GATEWAY.md `f5ebc628`
+- обновлён README.md для публикации MVP `049d3303`
 - update CLAUDE.md to reflect current system state `80dba2ab`
 - add SCRIPT_EVAL_REPORT.md — live test results, before/after, analysis `75e2e913`
 
 **🔧 Технические задачи**
 
+- обновление COMPLEXITY.md и SENTIMENT.md `779808d5`
+- обновление CONCEPTS.md и ENTITIES.md `a5b93b95`
+- обновление QUESTIONS.md `56694311`
+- обновление ACTION_ITEMS.md и DECISIONS.md `04a47cc0`
+- обновление DENSITY.md и HEATMAP.md `619729e1`
+- авто-обновление docs/ после improve_run_all --smart `4489b806`
+- обновление зеркальных файлов obsidian/confluence `07739d9c`
+- авто-перегенерация дашбордов после v1.0.0 + check_published `8e032586`
+- авто-перегенерация дашбордов после Hit Rate@10 1.000 `9cb118ab`
+- обновление каталогов после gateway.py + тестов `7ffc3e02`
+- авто-перегенерация зеркал obsidian/ confluence/ и индексов `80bb9e42`
+- авто-перегенерация дашбордов после fix template validation `b9d16368`
+- авто-перегенерация дашбордов после обновления search_index.json `ba60a3ce`
+- обновление каталогов скриптов и реестра артефактов `6d6ef3d7`
+- авто-перегенерация derived-файлов после rebuild search_index.json `4b5b08cb`
+- обновление авто-генерируемых дашбордов после новых файлов `48553442`
+- update SCORING.md auto-generated dashboard `2655a8cb`
+- linter adjustments to letters and DEMO.md `dc3c1dfc`
 - update auto-generated dashboards `defa92c5`
 - update auto-generated docs after reports pipeline run `f5d46f4c`
 - update generated docs after reports pipeline run `089b157f`
 - add docs/bad_links.json (broken link skip-list, 25 long paths) `c70da065`
 - update SCORING.md and BROKEN_LINKS.md after link fixes `f149cf4b`
-- update recipe_history.json after CardIndex dry-run `c6b29dac`
+- update recipe_history.json after card-index dry-run `c6b29dac`
 - update BROKEN_LINKS.md after broken_links fix `16d1f6b3`
 - update reports group outputs after background run `bc4135dd`
 - update generated docs and scripts after evaluation session `d5b430f6`
 - update generated docs — auto-enrichment, TOC, summaries, meta-scripting `696550ff`
 - update generated indexes and dashboards `3ac7b575`
 - отключить автоматические коммиты бота, добавить METHODOLOGY.md `40e69e77`
+
+**✅ Тесты**
+
+- +25 тестов — test_index_update.py; обновление docs/ и README.md `0515207f`
+- +44 теста — test_progress_sync.py + test_semantic_search.py `b3b6c5db`
 
 **📌 Прочее**
 
@@ -171,20 +191,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - add component matrix, KPI history tracker, fix run_all coverage `69562b02`
 - добавить 8 скриптов группы nlpplus — расширенный NLP-анализ `4bcc9739`
 - add risk register, auto-changelog, master index; fix run_all missing scripts `59617c5d`
-- add tech radar, onboarding guide, dependency map, meta group in run_all `4ddee95e`
-- add autonomous watcher (Ступень 6), CI workflow, LLM section summaries `1f3fe74a`
-- add CLAUDE.md, weekly digest script, enrich group in run_all `469dbced`
-- add LLM integration (Ступень 3), skills (Ступень 4), MCP server (Ступень 5) `00a25f78`
-- добавить 12 скриптов глубокой обработки текста (группа deeptext) `6cbd49c7`
-- add 9 text-processing scripts (textwork group) for large-scale knowledge management `bfe2bdda`
-- add 16 new improve_* scripts across quality/export/cicd/analytics groups `f8464fe2`
-- 13 улучшений — search fix, parallel/report/only, watch, priority, bulk, coverage, staleness, autofix, qa history, llm co `3d29c06c`
-- 4 улучшения — кэш QA, --save, dedup с текстом дублей, --only, MCP contact status `77613be2`
-- 4 улучшения — contact_status CLI, --changed флаг, нормализация поискового индекса, post-commit хук `58003258`
-- add improve skill — universal improvement workflow for Lorenzo `6e576a81`
-- implement 3 improvements + fix question truncation `a32f556b`
-- implement stages 0-5 of the script→skill→plugin hierarchy `612e585b`
-- add improve_autofill.py — fills templates from existing script outputs `d946c3b3`
 
 **🐛 Исправления**
 
@@ -196,8 +202,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - fix crosslink root cause (relative paths), map all 125 scripts in dependency map `ed3fa81f`
 - fix 8607 broken internal links, improve health score formula `52179ba5`
 - fix update-docs CI job failures `42f561dd`
-- исправить ошибки в deeptext скриптах, добавить выходные файлы `4755dd94`
-- search engine bug — 356/460 docs had empty 'content' field `f873e5fc`
 
 **📝 Документация**
 
@@ -220,8 +224,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - auto-update via improve_run_all [skip ci] `dfc530a0`
 - auto-update via improve_run_all [skip ci] `f73c58f7`
 - auto-update via improve_run_all [skip ci] `8e689b3d`
-- sync PROGRESS.md `4e217f2b`
-- sync PROGRESS.md after adding 16 new scripts `4d237951`
 
 **🔧 Технические задачи**
 
@@ -256,13 +258,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - sync PROGRESS.md after content scripts commit `afe64e18`
 - sync PROGRESS.md after nlpplus scripts commit `78f4f118`
 - sync CONTRADICTIONS.md (background task output) `89d3e8fb`
-- sync CONTRADICTIONS.md after contradiction_check fix `6b81ffed`
-- update mcp.json description wording `4e52a185`
-- sync PROGRESS.md after deeptext scripts commit `1d552d4e`
-- sync PROGRESS.md after session `53bfdbd8`
-- sync generated docs (CONTACTS, HEALTH, METRICS) `5571b369`
-- add CLAUDE.md, requirements.txt, .claude/settings.json `cfdcd4e8`
-- commit README.md with SVG badges from batch 13 `be9de469`
 
 **📌 Прочее**
 
@@ -278,20 +273,6 @@ _Сгенерировано из 200 коммитов git-истории._
 - Extract Lorenzo agent prompt and 4 more DHLab papers `5a34f469`
 - Extract Nautilus Portal Protocol RFC and companion papers `cbe83e6e`
 - Add profile-mapping, glossary, source-projects index `b552bcfc`
-- Extract MHTML content into topic docs `4b567b23`
-- batch 13 — badges, FAQ, schedule, cost estimate, footnotes `7aee1dba`
-- batch 12 — digest, progress, see-also, scoring, word cloud `04a64831`
-- batch 11 — orphans, alerts, metrics, index update, master runner `a48150bf`
-- batch 10 — backlinks, heatmap, templates, validation, executive report `a25efe45`
-- batch 9 — abbreviations, sentiment, narrative, JSON export, network `873b8c58`
-- batch 8 — stats, similar docs, questions, KPI, sitemap `ff8fe0fa`
-- batch 7 — compare, density, complexity, entities, concepts `1c9ceeaa`
-- batch 6 — autocorrect, TOC, tables/code extraction, word freq, health dashboard, reading order, decisions `0952c336`
-- consistency check, broken links, changelog, CSV export `14f735a7`
-- action items, gap analysis, clustering, mindmap, HTML export `4e7137c4`
-- add Q&A sheets, priority ranking, and contacts extraction `e787c21f`
-- add tags, search index, and project relationship graph `b3d7d0bf`
-- add summaries, cross-refs, dedup report, timeline `75f1b3e4`
 
 ---
 
@@ -306,10 +287,6 @@ _Ручной changelog: `docs/CHANGELOG.md` (если существует)._
 # Запуск
 python scripts/improve_changelog_auto.py
 ```
-```bash
-# Вариант 2
-python scripts/improve_changelog_auto.py --dry-run
-```
 
 ## Смотрите также
 - [[README|Главная]]
@@ -318,39 +295,3 @@ python scripts/improve_changelog_auto.py --dry-run
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
-- [[CONTACTS|Контакты]]
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [[INDEX]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- [[TABLES]]
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [[CHANGELOG_AUTO]] (сходство 1.00)
-- [[CHANGELOG]] (сходство 0.61)
-- [[CHANGELOG]] (сходство 0.61)
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[CHANGELOG]]
-- [[DEPENDENCY_MAP]]
-- [[VERSION_DIFF]]
-- [[LANGUAGE_STATS]]
-
