@@ -33,7 +33,7 @@ _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 100.0/100 | 🟢 |
-| Качество доков (METRICS) | 100.0/100 | 🟢 |
+| Качество доков (METRICS) | 95.9/100 | 🟢 |
 | Go/No-Go (SCORING) | 100.0/100 | 🟢 |
 
 ## Следующий шаг
@@ -68,6 +68,7 @@ cat docs/contacts/anastasiyaw.md
 
 
 
+
 <!-- backlinks -->
 
 ---
@@ -82,4 +83,14 @@ cat docs/contacts/anastasiyaw.md
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROGRESS](obsidian/PROGRESS.md) (сходство 0.97)
+- [SCHEDULE](SCHEDULE.md) (сходство 0.17)
+- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.17)
 
