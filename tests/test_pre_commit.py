@@ -64,3 +64,41 @@ def test_today_is_string():
 def test_root_is_path():
     assert hasattr(mod, "ROOT")
     assert isinstance(mod.ROOT, Path)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_pre_commit_yaml(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "INSTALL", False)
+    mod.main()
+    assert (tmp_path / ".pre-commit-config.yaml").exists()
+
+
+def test_main_yaml_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "INSTALL", False)
+    mod.main()
+    text = (tmp_path / ".pre-commit-config.yaml").read_text(encoding="utf-8")
+    assert "repos:" in text or "hooks:" in text
+
+
+def test_main_dry_run_no_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "INSTALL", False)
+    mod.main()
+    assert not (tmp_path / ".pre-commit-config.yaml").exists()
+
+
+def test_main_updates_gitignore(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "INSTALL", False)
+    gitignore = tmp_path / ".gitignore"
+    gitignore.write_text("# existing\n*.pyc\n", encoding="utf-8")
+    mod.main()
+    content = gitignore.read_text(encoding="utf-8")
+    assert ".pre-commit-cache" in content

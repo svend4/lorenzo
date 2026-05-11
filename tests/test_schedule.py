@@ -59,3 +59,37 @@ def test_gantt_bar_single_quarter():
     assert result[3] == "█"
     assert result[:3] == "░░░"
     assert result[4:] == "░░░░"
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_schedule_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nQ1 2025 task planning.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SCHEDULE.md").exists()
+
+
+def test_main_schedule_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nQ1 2025 task planning.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SCHEDULE.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "SCHEDULE.md").exists()
+
+
+def test_main_schedule_has_milestones(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "SCHEDULE.md").read_text(encoding="utf-8")
+    assert "Milestone" in text or "Статус" in text or "%" in text or "Веха" in text

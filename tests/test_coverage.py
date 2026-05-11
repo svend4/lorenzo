@@ -94,3 +94,45 @@ def test_word_count_excludes_comments():
     result_clean = mod._word_count("word")
     result_with_comment = mod._word_count("<!-- comment with words --> word")
     assert result_clean == result_with_comment
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_coverage_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "TARGET_SECTIONS", ["docs"])
+    sec = tmp_path / "docs"
+    sec.mkdir()
+    (sec / "doc.md").write_text("# Title\n\nContent here.\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "COVERAGE.md").exists()
+
+
+def test_main_coverage_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "TARGET_SECTIONS", ["docs"])
+    sec = tmp_path / "docs"
+    sec.mkdir()
+    (sec / "doc.md").write_text("# Title\n\nContent here.\n", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "COVERAGE.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_sections(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "TARGET_SECTIONS", [])
+    mod.main()
+    assert (tmp_path / "COVERAGE.md").exists()
+
+
+def test_main_coverage_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "TARGET_SECTIONS", [])
+    mod.main()
+    text = (tmp_path / "COVERAGE.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

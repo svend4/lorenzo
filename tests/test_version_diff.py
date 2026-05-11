@@ -83,3 +83,28 @@ def test_changed_docs_files_only_md():
     result = mod._changed_docs_files("HEAD~5", "HEAD")
     for f in result:
         assert f.endswith(".md")
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_version_diff_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "VERSION_DIFF.md").exists()
+
+
+def test_main_version_diff_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "VERSION_DIFF.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_version_diff_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "VERSION_DIFF.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
