@@ -149,7 +149,7 @@ pytest tests/ --ignore=tests/test_ann_index.py
 | 1 — Retrieval Loop | ✅ | BM25+TF-IDF+ANN, Review Queue UI |
 | 2 — Consolidation | ✅ | CI daily, SENTINEL, orphan rate 0% |
 | 3 — Collaboration Finder | ✅ | 9 проектных файлов, письма авторам |
-| 4 — Gateway & Enrichment | ✅ | OpenAI API, 780 тестов, Hit Rate@10=1.00 |
+| 4 — Gateway & Enrichment | ✅ | OpenAI API, 950 тестов, Hit Rate@10=1.00 |
 
 ## Требования
 
