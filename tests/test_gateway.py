@@ -273,3 +273,25 @@ def test_chat_with_tool_calls_returns_tool_calls():
     choice = r.json()["choices"][0]
     assert choice["finish_reason"] == "tool_calls"
     assert choice["message"]["tool_calls"] is not None
+
+
+def test_benchmark_status_ok():
+    r = client.get("/api/benchmark")
+    assert r.status_code == 200
+
+
+def test_benchmark_has_required_criteria():
+    r = client.get("/api/benchmark")
+    body = r.json()
+    assert "criteria" in body
+    assert "all_pass" in body
+    for key in ("latency_s", "cards", "orphan_rate", "hit_rate_10"):
+        assert key in body["criteria"], f"Missing criterion: {key}"
+
+
+def test_benchmark_all_pass():
+    r = client.get("/api/benchmark")
+    body = r.json()
+    assert body["all_pass"] is True, (
+        f"PROTOTYPE_SPEC §8 criteria not all passing: {body['criteria']}"
+    )
