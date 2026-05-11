@@ -104,6 +104,40 @@ def test_categorize_launch_phase():
     assert result == "Фаза 5: Запуск"
 
 
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_progress_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n- [x] Task done\n- [ ] Task todo\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "PROGRESS.md").exists()
+
+
+def test_main_progress_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\n- [x] Task done\n- [ ] Task todo\n", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "PROGRESS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "PROGRESS.md").exists()
+
+
+def test_main_progress_has_milestones(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "PROGRESS.md").read_text(encoding="utf-8")
+    assert "Milestone" in text or "MVP" in text or "Итого" in text or "%" in text
+
+
 def test_categorize_unknown_returns_general():
     result = mod.categorize("нет ключевых слов совсем тут")
     assert result == "Общее"

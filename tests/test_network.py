@@ -68,3 +68,37 @@ def test_all_nodes_includes_authors():
 def test_all_nodes_includes_projects():
     for proj in mod.PROJECTS:
         assert proj in mod.ALL_NODES
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_network_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nkksudo builds AgentFS memory.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "NETWORK.md").exists()
+
+
+def test_main_creates_dot_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgentFS and Svyazi together.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "network.dot").exists()
+
+
+def test_main_network_md_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nkksudo AgentFS Svyazi memory.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "NETWORK.md").read_text(encoding="utf-8")
+    assert "Сеть" in text or "сеть" in text or "Авторы" in text or "Узлов" in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "NETWORK.md").exists()

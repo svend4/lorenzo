@@ -66,3 +66,45 @@ def test_docs_yml_uses_checkout_action():
 def test_gh_dir_path_is_github_workflows():
     assert ".github" in str(mod.GH_DIR)
     assert "workflows" in str(mod.GH_DIR)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_docs_yml(tmp_path, monkeypatch):
+    gh_dir = tmp_path / ".github" / "workflows"
+    monkeypatch.setattr(mod, "GH_DIR", gh_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "MINIMAL", False)
+    mod.main()
+    assert (gh_dir / "docs.yml").exists()
+
+
+def test_main_creates_docs_check_yml(tmp_path, monkeypatch):
+    gh_dir = tmp_path / ".github" / "workflows"
+    monkeypatch.setattr(mod, "GH_DIR", gh_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "MINIMAL", False)
+    mod.main()
+    assert (gh_dir / "docs_check.yml").exists()
+
+
+def test_main_minimal_creates_minimal_yml(tmp_path, monkeypatch):
+    gh_dir = tmp_path / ".github" / "workflows"
+    monkeypatch.setattr(mod, "GH_DIR", gh_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "MINIMAL", True)
+    mod.main()
+    assert (gh_dir / "docs_check_minimal.yml").exists()
+
+
+def test_main_dry_run_does_not_write(tmp_path, monkeypatch):
+    gh_dir = tmp_path / ".github" / "workflows"
+    monkeypatch.setattr(mod, "GH_DIR", gh_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "MINIMAL", False)
+    mod.main()
+    assert not gh_dir.exists()

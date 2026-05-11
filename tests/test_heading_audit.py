@@ -79,3 +79,41 @@ def test_parse_headings_skips_code():
     titles = [h["title"] for h in result]
     assert "Fake Heading" not in titles
     assert "Real Heading" in titles
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_heading_audit_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\n## Section A\n\nContent.\n## Section B\n\nMore.\n", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "HEADING_AUDIT.md").exists()
+
+
+def test_main_heading_audit_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    (tmp_path / "doc.md").write_text("# Title\n\n## Section\n\nContent.\n", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "HEADING_AUDIT.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert (tmp_path / "HEADING_AUDIT.md").exists()
+
+
+def test_main_heading_audit_starts_with_hash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    text = (tmp_path / "HEADING_AUDIT.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

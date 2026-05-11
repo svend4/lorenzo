@@ -132,3 +132,38 @@ def test_make_bar_proportional():
     short = mod.make_bar(2, 10, width=20)
     long_ = mod.make_bar(8, 10, width=20)
     assert short.count("█") < long_.count("█")
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_word_freq_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nагент память граф архитектура поиск.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "WORD_FREQ.md").exists()
+
+
+def test_main_word_freq_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nагент агент память граф архитектура.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "WORD_FREQ.md").read_text(encoding="utf-8")
+    assert "# Частотный анализ слов" in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "WORD_FREQ.md").exists()
+
+
+def test_main_word_freq_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Doc\n\nContent words here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "WORD_FREQ.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

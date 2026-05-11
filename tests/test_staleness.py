@@ -97,3 +97,37 @@ def test_word_count_excludes_html_comments():
 def test_word_count_multiline():
     result = mod._word_count("one\ntwo\nthree")
     assert result >= 3
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_staleness_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent here.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "STALENESS.md").exists()
+
+
+def test_main_staleness_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Title\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "STALENESS.md").read_text(encoding="utf-8")
+    assert "# Отчёт об устаревших документах" in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "STALENESS.md").exists()
+
+
+def test_main_staleness_has_recommendations(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "STALENESS.md").read_text(encoding="utf-8")
+    assert "Рекомендуемые действия" in text

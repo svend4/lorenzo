@@ -100,3 +100,37 @@ def test_make_bar_contains_blocks_and_empty():
     result = mod.make_bar(5, 10, width=10)
     # Should have some filled and some empty
     assert "█" in result or "░" in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_density_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgentFS memory agent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "DENSITY.md").exists()
+
+
+def test_main_density_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nAgentFS memory agent svyazi.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "DENSITY.md").read_text(encoding="utf-8")
+    assert "# Карта плотности тем" in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "DENSITY.md").exists()
+
+
+def test_main_density_md_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "DENSITY.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

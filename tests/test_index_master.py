@@ -80,3 +80,39 @@ def test_meta_docs_contains_health():
 def test_meta_docs_contains_contacts():
     filenames = [m[0] for m in mod.META_DOCS]
     assert "CONTACTS.md" in filenames
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_index_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "INDEX.md").exists()
+
+
+def test_main_index_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "INDEX.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_index_md_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "INDEX.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
+
+
+def test_main_index_with_section_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    sec = tmp_path / "01-svyazi"
+    sec.mkdir()
+    (sec / "README.md").write_text("# Svyazi\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "INDEX.md").read_text(encoding="utf-8")
+    assert "INDEX.md" not in text or "# " in text

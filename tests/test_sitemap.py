@@ -118,3 +118,37 @@ def test_get_word_count_missing_file_returns_zero(tmp_path):
     f = tmp_path / "nonexistent.md"
     result = mod.get_word_count(f)
     assert result == 0
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_sitemap_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "SITEMAP.md").exists()
+
+
+def test_main_creates_sitemap_xml(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "sitemap.xml").exists()
+
+
+def test_main_sitemap_md_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent here.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SITEMAP.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "SITEMAP.md").exists()
