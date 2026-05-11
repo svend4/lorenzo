@@ -66,9 +66,14 @@ python scripts/improve_project_component.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (10):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[REGISTRY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[research-summary]]
+- [[README]]
+- [[agent-spec]]
+- _...ещё 2_
 

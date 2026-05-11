@@ -145,3 +145,19 @@ h2. Контакты
 _Этот документ генерируется скриптом {{improve_onboarding.py}}._
 _Для AI-ассистента: читай {{CLAUDE.md}} для понимания структуры репо._
 
+
+
+
+----
+
+_Кто ссылается на этот документ (16):_
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
+* [DENSITY|DENSITY.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [FAQ|FAQ.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [HEATMAP|HEATMAP.md]
+* [INDEX|INDEX.md]
+* _...ещё 8_
+

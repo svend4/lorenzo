@@ -72,9 +72,14 @@ _Создано: 2026-05-11_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[119-appendix-b-примеры-расхождений-и-их-разрешения]]
+- [[298-что-этот-документ-не-решает]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[REGISTRY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[README]]
+- _...ещё 3_
 

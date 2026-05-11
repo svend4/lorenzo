@@ -112,9 +112,14 @@ python scripts/improve_network.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (13):**
+- [[354-существующий-landscape-collaborators-твоя-working-]]
+- [[CODE_BLOCKS]]
+- [[COMPONENT_MATRIX]]
+- [[ENTITIES]]
+- [[GRAPH]]
+- [[INDEX]]
+- [[MINDMAP]]
+- [[OUTLINE]]
+- _...ещё 5_
 

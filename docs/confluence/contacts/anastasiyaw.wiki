@@ -8,7 +8,7 @@ template: contact-outreach
 version: "1.0"
 author: "AnastasiyaW"
 author_handle: "@AnastasiyaW"
-projects: "Svyazi", "[knowledge-space", "mclaude"]
+projects: [Svyazi, knowledge-space, mclaude]
 platform: GitHub
 status: not_started
 priority: 3

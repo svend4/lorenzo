@@ -300,9 +300,13 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (8):**
+- [[354-существующий-landscape-collaborators-твоя-working-]]
+- [[MISSING]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 

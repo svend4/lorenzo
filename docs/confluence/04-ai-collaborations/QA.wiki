@@ -5,6 +5,11 @@
 
 h1. Q&A: 04-ai-collaborations
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Автоматически сгенерировано по 15 файлам раздела._{quote}
 _Проекты:_ CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
@@ -76,3 +81,23 @@ h2. Что такое knowledge-space и для кого он предназна
 h2. Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [README|README.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}

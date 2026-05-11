@@ -8757,3 +8757,34 @@ python scripts/improve_paragraph_quality.py
 # Вариант 2
 python scripts/improve_paragraph_quality.py --dry-run
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [321-appendix-a-decision-tree-for-ingit-adopters|02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md]
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [OUTLINE|OUTLINE.md]
+* [PRIORITIES|PRIORITIES.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 2_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_paragraph_quality.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_paragraph_quality.py --dry-run
+{code}
+{code:language=bash}
+# Вариант 3
+python scripts/improve_paragraph_quality.py --dry-run
+{code}

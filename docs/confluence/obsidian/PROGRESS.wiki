@@ -12,21 +12,11 @@ date: 2026-05-11
 
 h1. Прогресс MVP
 
-
-{quote}_Обновлено: 2026-05-11 (improve_progress_sync.py)_{quote}
-_Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
-
-----
-
-
-
-
-
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 h2. Ключевые этапы (Milestones)
 
-{{█████████░░░░░░░░░░░ 45%}} 5/11
+{{█████████████░░░░░░░ 64%}} 7/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -36,8 +26,8 @@ h2. Ключевые этапы (Milestones)
 ⬜ Написаны авторам ключевых компонентов
 ⬜ Получены ответы от авторов
 ⬜ LLM-обогащение проектных файлов
-⬜ Создан рабочий прототип Knowledge OS
-⬜ Пройдено тестирование ансамбля
+✅ Создан рабочий прототип Knowledge OS
+✅ Пройдено тестирование ансамбля
 ⬜ Опубликован MVP на GitHub
 
 h2. Состояние компонентов
@@ -46,7 +36,7 @@ h2. Состояние компонентов
 || Контакты авторов || ⚠️ 16 файлов, не отправлено || 16 файлов в docs/contacts/ ||
 || LLM-обогащение || ⬜ не запущено || pip install anthropic && python scripts/improve_llm_enrich.py ||
 || Скрипты обработки || ✅ 166 скриптов || 5 LLM-скриптов, MCP=✅ ||
-|| DIGEST.md || ✅ 4 секций || python scripts/improve_llm_summary.py ||
+|| DIGEST.md || ✅ 5 секций || python scripts/improve_llm_summary.py ||
 || Claude Skills || ✅ 28 скиллов || track-decisions, new-research, review-docs, search, dispatch, status, evaluate-tech, compare, synthesize, find-gaps, summarize, outreach-day, propose-mega-stack, evaluate-skill, find-cinderella, skill-router, weekly-review, plan-mvp, write-contact, improve, propose-collaboration, find-contradictions, audit-corpus, review-architecture, generate-rfc, design-ensemble, analyze-project, daily-routine ||
 
 h2. Метрики качества
@@ -82,4 +72,21 @@ h2. Связанные документы
 * [[HEALTH|Health Dashboard]]
 * [[07-mvp-planning|MVP Planning]]
 
+
+
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [[07-mvp-planning]]
+* [[116-9-checklist-применения-методологии]]
+* [[CODE_BLOCKS]]
+* [[DECISIONS]]
+* [[INDEX]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* _...ещё 3_
 

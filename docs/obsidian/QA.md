@@ -17,6 +17,11 @@ date: 2026-05-11
 
 # Глобальный Q&A
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Вопросы и ответы по всем разделам монорепозитория.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -857,9 +862,25 @@ _Не найдено в этом файле._
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (14):**
+- [[09-architectural-gaps]]
+- [[09-архитектурные-зазоры-которые-важнее-новых-инструме]]
+- [[KNOWLEDGE_MAP]]
+- [[OUTLINE]]
+- [[QUESTIONS]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 6_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+```bash
+# Вариант 2
+python scripts/improve_qa.py --dry-run
+```

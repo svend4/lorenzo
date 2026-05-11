@@ -216,9 +216,14 @@ python scripts/improve_narrative.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (16):**
+- [[12-roadmap]]
+- [[05-план-прототипа-и-возможные-контакты]]
+- [[12-дорожная-карта-прототипа-следующей-итерации]]
+- [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]]
+- [[CODE_BLOCKS]]
+- [[COMPONENT_MATRIX]]
+- [[CONCEPTS]]
+- [[INDEX]]
+- _...ещё 8_
 

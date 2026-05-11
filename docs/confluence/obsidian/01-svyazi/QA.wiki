@@ -19,6 +19,11 @@ date: 2026-05-11
 
 h1. Q&A: 01-svyazi
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Автоматически сгенерировано по 14 файлам раздела._{quote}
 _Проекты:_ Svyazi, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL, LiteLLM, Auto AI Router
@@ -78,3 +83,23 @@ h2. Кто ключевые авторы проектов для контакт�
 h2. Какие вопросы лучше задавать авторам при первом контакте?
 
 Упоминаются: _первый вопрос_, _архитектурный_, _шаблон_, _контакт_
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [[README]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}

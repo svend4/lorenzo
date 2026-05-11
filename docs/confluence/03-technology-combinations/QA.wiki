@@ -5,6 +5,11 @@
 
 h1. Q&A: 03-technology-combinations
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Автоматически сгенерировано по 5 файлам раздела._{quote}
 _Проекты:_ CardIndex, AgentFS, knowledge-space
@@ -48,3 +53,23 @@ _Не найдено в этом файле._
 h2. Что входит в интеграционный контракт между слоями?
 
 _Не найдено в этом файле._
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [README|README.md]
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}

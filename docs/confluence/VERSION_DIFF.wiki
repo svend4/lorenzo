@@ -1553,3 +1553,19 @@ h2. Смотрите также
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
 * [Контакты|CONTACTS.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [yodoca|05-habr-projects/memory/yodoca.md]
+* [ABBREVIATIONS|ABBREVIATIONS.md]
+* [AUTOFILLED|AUTOFILLED.md]
+* [PRIORITIES|PRIORITIES.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 1_
+

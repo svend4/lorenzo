@@ -8765,9 +8765,29 @@ python scripts/improve_paragraph_quality.py --dry-run
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (10):**
+- [[321-appendix-a-decision-tree-for-ingit-adopters]]
+- [[CODE_BLOCKS]]
+- [[DIGEST_AUTO]]
+- [[OUTLINE]]
+- [[PRIORITIES]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_paragraph_quality.py
+```
+```bash
+# Вариант 2
+python scripts/improve_paragraph_quality.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_paragraph_quality.py --dry-run
+```

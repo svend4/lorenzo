@@ -143,9 +143,14 @@ _Radar обновляется вручную при существенных и�
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (12):**
+- [[COMPONENT_MATRIX]]
+- [[CONCEPTS]]
+- [[FOOTNOTES]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 4_
 

@@ -18,6 +18,11 @@ date: 2026-05-11
 
 h1. Q&A: 05-habr-projects
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Автоматически сгенерировано по 12 файлам раздела._{quote}
 _Проекты:_ CardIndex, AgentFS, knowledge-space, Yodoca, NGT Memory, MemNet, agent-memory-mcp
@@ -77,3 +82,23 @@ h2. Каковы этапы MVP и их оценка по времени?
 h2. Что входит в первую итерацию прототипа?
 
 _Не найдено в этом файле._
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [[README]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}

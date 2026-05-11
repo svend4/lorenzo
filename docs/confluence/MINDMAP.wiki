@@ -132,3 +132,19 @@ _Смотрите также:_
 * [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
 * [GRAPH|GRAPH.md]
 
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [04-sozialrecht-domain|03-technology-combinations/04-sozialrecht-domain.md]
+* [GRAPH|GRAPH.md]
+* [NETWORK|NETWORK.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 1_
+

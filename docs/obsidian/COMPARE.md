@@ -12,6 +12,13 @@ date: 2026-05-11
 
 # Сравнение с предыдущим коммитом
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `COMPARE` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Файлов было:** 1477  **стало:** 2481
 
@@ -98,9 +105,19 @@ _...и ещё 964_
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (7):**
+- [[COMPLEXITY]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_compare.py
+```

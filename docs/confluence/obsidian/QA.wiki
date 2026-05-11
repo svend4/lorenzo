@@ -22,6 +22,11 @@ date: 2026-05-11
 
 h1. Глобальный Q&A
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}Вопросы и ответы по всем разделам монорепозитория.{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -857,3 +862,30 @@ h2. Какие кластеры найма выделены у Anthropic?
 h2. Какие роли наиболее релевантны для профиля svend4?
 
 _Не найдено в этом файле._
+
+
+
+----
+
+_Кто ссылается на этот документ (14):_
+* [[09-architectural-gaps]]
+* [[09-архитектурные-зазоры-которые-важнее-новых-инструме]]
+* [[KNOWLEDGE_MAP]]
+* [[OUTLINE]]
+* [[QUESTIONS]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* _...ещё 6_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+{code:language=bash}
+# Вариант 2
+python scripts/improve_qa.py --dry-run
+{code}

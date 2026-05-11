@@ -182,9 +182,14 @@ _Индекс сгенерирован автоматически · 2451 док
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[README]]
+- [[CLUSTERS]]
+- [[DIGEST_AUTO]]
+- [[LLM_SUMMARIES]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- _...ещё 3_
 

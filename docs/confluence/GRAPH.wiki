@@ -674,3 +674,19 @@ _Смотрите также:_
 * [GLOSSARY|GLOSSARY.md]
 * [ENTITIES|ENTITIES.md]
 
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
+* [MINDMAP|MINDMAP.md]
+* [NETWORK|NETWORK.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 1_
+

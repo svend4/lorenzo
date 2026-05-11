@@ -65,3 +65,19 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[REGISTRY]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[research-summary]]
+* [[README]]
+* [[agent-spec]]
+* _...ещё 2_
+

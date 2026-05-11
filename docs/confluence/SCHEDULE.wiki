@@ -6,6 +6,13 @@
 h1. Расписание проекта
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
@@ -66,3 +73,17 @@ h2. Текущий статус
 * Вех выполнено: _3/10_ (30%)
 * Текущая фаза: _Контакты с авторами_
 * Следующая веха: _⬜ Написать авторам AgentFS, Yodoca, NGT_
+
+
+
+----
+
+_Кто ссылается на этот документ (7):_
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+

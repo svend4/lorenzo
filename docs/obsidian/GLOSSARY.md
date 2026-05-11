@@ -24,64 +24,53 @@ date: 2026-05-11
 
 | Проект | Упоминается в файлах |
 |--------|---------------------|
-| **AI Factory** | 152 |
-| **AIF Handoff** | 64 |
-| **AgentFS** | 251 |
-| **Auto AI Router** | 134 |
-| **AutoResearch** | 130 |
-| **Automerge** | 79 |
-| **CardIndex** | 298 |
+| **AI Factory** | 153 |
+| **AIF Handoff** | 66 |
+| **AgentFS** | 265 |
+| **Auto AI Router** | 135 |
+| **AutoResearch** | 128 |
+| **Automerge** | 84 |
+| **CardIndex** | 302 |
 | **Firecrawl** | 45 |
-| **Graph RAG** | 102 |
-| **Hybrid RAG** | 104 |
-| **Legal RAG** | 107 |
-| **LiteLLM** | 98 |
-| **LiteParse** | 181 |
-| **MemNet** | 274 |
-| **Memory OS** | 91 |
-| **NGT Memory** | 211 |
+| **Graph RAG** | 105 |
+| **Hybrid RAG** | 103 |
+| **Legal RAG** | 111 |
+| **LiteLLM** | 97 |
+| **LiteParse** | 196 |
+| **MemNet** | 284 |
+| **Memory OS** | 97 |
+| **NGT Memory** | 225 |
 | **OpenWhispr** | 41 |
 | **RLM-Toolkit** | 22 |
-| **Rufler** | 191 |
-| **SENTINEL** | 155 |
-| **Self-Aware MCP** | 43 |
-| **Sequential** | 238 |
-| **Svyazi** | 632 |
-| **Tool Search** | 104 |
+| **Rufler** | 212 |
+| **SENTINEL** | 169 |
+| **Self-Aware MCP** | 44 |
+| **Sequential** | 235 |
+| **Svyazi** | 669 |
+| **Tool Search** | 103 |
 | **Whisper** | 55 |
-| **Wikontic** | 117 |
-| **Yjs** | 95 |
-| **Yodoca** | 325 |
-| **Yttri** | 40 |
-| **agent-memory-mcp** | 115 |
-| **knowledge-space** | 232 |
-| **mclaude** | 203 |
+| **Wikontic** | 121 |
+| **Yjs** | 100 |
+| **Yodoca** | 345 |
+| **Yttri** | 41 |
+| **agent-memory-mcp** | 146 |
+| **knowledge-space** | 254 |
+| **mclaude** | 218 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (68):**
-- [[QA]]
-- [[QA]]
+**Кто ссылается на этот документ (47):**
 - [[03-local-first]]
 - [[04-sozialrecht-domain]]
-- [[QA]]
-- [[QA]]
-- [[QA]]
 - [[ACTION_ITEMS]]
-- _...ещё 60_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[MINDMAP]]
-- [[NETWORK]]
-- [[GRAPH]]
-- [[authors-by-name]]
+- [[ALERTS]]
+- [[CHANGELOG_AUTO]]
+- [[CITATION_INDEX]]
+- [[CONCEPT_GRAPH]]
+- [[CONTENT_GAPS]]
+- _...ещё 39_
 
 
 

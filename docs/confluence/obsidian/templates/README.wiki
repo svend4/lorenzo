@@ -6,11 +6,19 @@
 ----
 title: "templates"
 tags:
+  * readme
+  * docs
   * templates
 date: 2026-05-11
 ----
 
 h1. templates
+
+
+
+
+{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
+
 
 _Файлов:_ 23
 
@@ -43,3 +51,26 @@ h2. Содержание
 h2. Подразделы
 
 * [_schemas/|_schemas/] — _schemas
+
+
+
+----
+
+_Кто ссылается на этот документ (24):_
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[research-summary]]
+* [[agent-spec]]
+* [[contradiction-record]]
+* _...ещё 16_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_readme.py
+{code}

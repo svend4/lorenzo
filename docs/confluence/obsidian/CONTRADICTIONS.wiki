@@ -488,3 +488,26 @@ h2. Смотрите также
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
 * [[DECISIONS|Решения]]
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[08-conclusions]]
+* [[08-что-это-продолжение-добавляет]]
+* [[DIGEST_AUTO]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* _...ещё 2_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_contradictions.py
+{code}

@@ -205,9 +205,14 @@ python scripts/improve_keyword_index.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (12):**
+- [[04-abstract]]
+- [[141-4-nautilus-portal-as-reference-substrate]]
+- [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+- [[306-with-anthropic-s-cowork-platform]]
+- [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+- [[354-существующий-landscape-collaborators-твоя-working-]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 4_
 

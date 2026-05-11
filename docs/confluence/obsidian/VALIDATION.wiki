@@ -18,85 +18,8 @@ _Загружено схем:_ 22
 
 _Документов с frontmatter:_ 21
 
-_Валидно:_ 9 | _С ошибками:_ 12 | _Без шаблона:_ 2412
+_Валидно:_ 21 | _С ошибками:_ 0 | _Без шаблона:_ 2413
 
-
-h2. Ошибки по файлам
-
-
-h3. {{docs/05-habr-projects/knowledge/agentfs.md}}
-
-* отсутствует обязательное поле 'component'
-* maturity: значение 'working-prototype-v0.1.5' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
-* tags: тип str не соответствует array
-* отсутствует обязательная секция '## Что это'
-* отсутствует обязательная секция '## Ключевые особенности'
-
-h3. {{docs/05-habr-projects/knowledge/knowledge-space.md}}
-
-* отсутствует обязательное поле 'component'
-* maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
-* отсутствует обязательная секция '## Что это'
-* отсутствует обязательная секция '## Ключевые особенности'
-
-h3. {{docs/05-habr-projects/knowledge/mclaude.md}}
-
-* отсутствует обязательное поле 'component'
-* maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
-* tags: тип str не соответствует array
-* отсутствует обязательная секция '## Что это'
-* отсутствует обязательная секция '## Ключевые особенности'
-
-h3. {{docs/05-habr-projects/knowledge/research-docs-liteparse.md}}
-
-* отсутствует обязательное поле 'component'
-* maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
-* tags: тип str не соответствует array
-* отсутствует обязательная секция '## Что это'
-* отсутствует обязательная секция '## Ключевые особенности'
-
-h3. {{docs/05-habr-projects/knowledge/rufler.md}}
-
-* отсутствует обязательное поле 'component'
-* maturity: значение 'active-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
-* tags: тип str не соответствует array
-* отсутствует обязательная секция '## Что это'
-* отсутствует обязательная секция '## Ключевые особенности'
-
-h3. {{docs/05-habr-projects/memory/agent-memory-mcp.md}}
-
-* отсутствует обязательное поле 'component'
-* license: значение 'unspecified' не в enum ['MIT', 'Apache-2.0', 'BSL', 'BSD-3-Clause', 'GPL-3.0', 'LGPL-3.0', 'MPL-2.0', 'Proprietary', 'Unknown']
-* maturity: значение 'working-oss' не в enum ['experimental', 'alpha', 'beta', 'stable', 'mature']
-* tags: тип str не соответствует array
-* отсутствует обязательная секция '## Что это'
-* отсутствует обязательная секция '## Ключевые особенности'
-
-h3. {{docs/contacts/anastasiyaw.md}}
-
-* projects: тип str не соответствует array
-
-h3. {{docs/contacts/andrey-chuyan.md}}
-
-* projects: тип str не соответствует array
-
-h3. {{docs/contacts/antipozitive.md}}
-
-* projects: тип str не соответствует array
-
-h3. {{docs/contacts/nlaik.md}}
-
-* projects: тип str не соответствует array
-
-h3. {{docs/contacts/sonia-black.md}}
-
-* projects: тип str не соответствует array
-
-h3. {{docs/contacts/vitalysemenov.md}}
-
-* projects: тип str не соответствует array
-* отсутствует обязательная секция '## Статус связи'
-* отсутствует обязательная секция '## Первое сообщение'
 
 h2. Шаблоны
 

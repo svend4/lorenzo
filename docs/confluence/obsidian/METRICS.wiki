@@ -87,3 +87,19 @@ h2. Смотрите также
 * [[BROKEN_LINKS]] — состояние внутренних ссылок
 * [[VALIDATION]] — валидация структуры
 * [[SCORING]] — готовность к запуску (Go/No-Go)
+
+
+
+----
+
+_Кто ссылается на этот документ (42):_
+* [[ACTION_ITEMS]]
+* [[ALERTS]]
+* [[BROKEN_LINKS]]
+* [[CHANGELOG_AUTO]]
+* [[CITATION_INDEX]]
+* [[CONCEPT_GRAPH]]
+* [[CONTENT_GAPS]]
+* [[CONTRADICTIONS]]
+* _...ещё 34_
+

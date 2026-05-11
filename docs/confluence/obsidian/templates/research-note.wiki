@@ -58,3 +58,19 @@ h2. Использование
 # Запуск
 python scripts/improve_research_note.py
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[REGISTRY]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[TASKS_INDEX]]
+* [[README]]
+* [[experiment-log]]
+* _...ещё 1_
+

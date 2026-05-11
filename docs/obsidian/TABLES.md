@@ -34140,9 +34140,14 @@ python scripts/improve_tables.py --dry-run
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (352):**
+- [[00-intro-part2]]
+- [[03-component-catalog]]
+- [[06-security-privacy]]
+- [[00-intro]]
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[02-общий-план-развития-nautilus-portal-protocol]]
+- [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
+- [[112-5-связь-с-существующими-методологиями]]
+- _...ещё 344_
 

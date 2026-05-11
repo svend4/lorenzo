@@ -2302,3 +2302,16 @@ interface Adapter {
   ingest(data: Document): void;
 }
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* [[SEARCH]]
+* [[TABLES]]
+

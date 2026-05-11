@@ -523,9 +523,14 @@ python scripts/improve_named_entities.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (9):**
+- [[CODE_BLOCKS]]
+- [[DIGEST_AUTO]]
+- [[LINK_PREVIEW]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 1_
 

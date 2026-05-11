@@ -488,9 +488,21 @@ python scripts/improve_contradictions.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (10):**
+- [[08-conclusions]]
+- [[08-что-это-продолжение-добавляет]]
+- [[DIGEST_AUTO]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_contradictions.py
+```

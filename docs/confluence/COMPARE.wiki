@@ -6,6 +6,13 @@
 h1. Сравнение с предыдущим коммитом
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{COMPARE}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Файлов было:_ 1477  _стало:_ 2481{quote}
 
 ----
@@ -85,3 +92,24 @@ h2. Изменившиеся файлы (17) — топ по Δ слов
 || `CONTACTS.md` || 615 || 552 || -63 ||
 || `STATS.md` || 699 || 698 || -1 ||
 || `HEALTH.md` || 286 || 286 || +0 ||
+
+
+
+----
+
+_Кто ссылается на этот документ (7):_
+* [COMPLEXITY|COMPLEXITY.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_compare.py
+{code}

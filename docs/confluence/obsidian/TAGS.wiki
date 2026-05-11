@@ -6,11 +6,26 @@
 ----
 title: "Индекс тегов"
 tags:
+  * tags
+  * docs
   * general
 date: 2026-05-11
 ----
 
 h1. Индекс тегов
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{TAGS}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{TAGS}} — раздел документации проекта Lorenzo.{quote}
+
 
 Каждый файл помечен тегами по темам автоматически.
 
@@ -267,3 +282,26 @@ h2. #self-improvement (10 файлов)
 * {{docs/obsidian/CHANGELOG.md}}
 * {{docs/obsidian/REPORT.md}}
 * {{docs/obsidian/SITEMAP.md}}
+
+
+
+----
+
+_Кто ссылается на этот документ (18):_
+* [[CONSISTENCY]]
+* [[CROSS_SECTION]]
+* [[EMPTY_SECTIONS]]
+* [[HEADING_AUDIT]]
+* [[INDEX]]
+* [[LANGUAGE_STATS]]
+* [[LLM_SUMMARIES]]
+* [[MISSING]]
+* _...ещё 10_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_tags.py
+{code}

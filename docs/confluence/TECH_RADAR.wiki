@@ -132,3 +132,19 @@ h2. Смотрите также
 * [Здоровье|HEALTH.md]
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [COMPONENT_MATRIX|COMPONENT_MATRIX.md]
+* [CONCEPTS|CONCEPTS.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 4_
+

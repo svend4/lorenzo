@@ -5,6 +5,17 @@
 
 h1. contacts
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
+
+
 _Файлов:_ 16
 
 h2. Содержание
@@ -25,3 +36,26 @@ h2. Содержание
 * [vitalysemenov.md|vitalysemenov.md] — ---
 * [vladspace.md|vladspace.md] — ---
 * [zodigancode.md|zodigancode.md] — ---
+
+
+
+----
+
+_Кто ссылается на этот документ (20):_
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [anastasiyaw|anastasiyaw.md]
+* [andrey-chuyan|andrey-chuyan.md]
+* [antipozitive|antipozitive.md]
+* _...ещё 12_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_readme.py
+{code}

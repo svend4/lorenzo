@@ -169,3 +169,19 @@ python scripts/improve_run_all.py --group analysis
 
 _Индекс сгенерирован автоматически · 2451 документов · 163 скриптов_
 
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [README|01-svyazi/README.md]
+* [CLUSTERS|CLUSTERS.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 3_
+

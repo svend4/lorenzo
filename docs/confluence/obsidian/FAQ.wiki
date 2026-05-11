@@ -315,3 +315,19 @@ h2. Использование
 # Запуск
 python scripts/improve_faq.py
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (16):_
+* [[116-9-checklist-применения-методологии]]
+* [[200-10-открытые-вопросы]]
+* [[memnet]]
+* [[CONCEPTS]]
+* [[INDEX]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* _...ещё 8_
+

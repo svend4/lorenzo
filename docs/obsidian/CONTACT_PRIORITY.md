@@ -15,6 +15,13 @@ date: 2026-05-11
 
 # Приоритет контактов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CONTACT_PRIORITY` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > 1. **kksudo** (AgentFS, 194 упоминаний) → [[kksudo|открыть контакт]]
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
@@ -69,9 +76,14 @@ _Чем выше балл — тем важнее написать первым.
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (11):**
+- [[MINDMAP]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[anastasiyaw]]
+- _...ещё 3_
 

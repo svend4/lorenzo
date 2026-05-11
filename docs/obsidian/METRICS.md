@@ -90,9 +90,14 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (42):**
+- [[ACTION_ITEMS]]
+- [[ALERTS]]
+- [[BROKEN_LINKS]]
+- [[CHANGELOG_AUTO]]
+- [[CITATION_INDEX]]
+- [[CONCEPT_GRAPH]]
+- [[CONTENT_GAPS]]
+- [[CONTRADICTIONS]]
+- _...ещё 34_
 

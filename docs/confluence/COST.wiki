@@ -5,6 +5,11 @@
 
 h1. Оценка стоимости MVP
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{COST}} формируется автоматически из данных репозитория.{quote}
+
+
+
 
 {quote}_Ориентировочные цифры на основе документации проекта._{quote}
 _Проекты:_ CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
@@ -93,3 +98,24 @@ h2. Допущения
 * Open Source компоненты: бесплатны
 * Сервера и инфраструктура: не включены (~$200-500/мес)
 * Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
+
+
+
+----
+
+_Кто ссылается на этот документ (7):_
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_cost.py
+{code}

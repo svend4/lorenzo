@@ -91,9 +91,14 @@ python scripts/improve_missing.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (15):**
+- [[08-conclusions]]
+- [[07-выводы]]
+- [[README]]
+- [[CODE_BLOCKS]]
+- [[CONSISTENCY]]
+- [[DENSITY]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- _...ещё 7_
 

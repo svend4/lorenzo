@@ -16331,9 +16331,29 @@ python scripts/improve_outline.py --dry-run
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (561):**
+- [[00-intro-part2]]
+- [[02-methodology]]
+- [[06-security-privacy]]
+- [[08-conclusions]]
+- [[12-roadmap]]
+- [[14-limitations]]
+- [[110-вопрос-fallback-ratio-как-критический-или-осмыслен]]
+- [[112-5-связь-с-существующими-методологиями]]
+- _...ещё 553_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_outline.py
+```
+```bash
+# Вариант 2
+python scripts/improve_outline.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_outline.py --dry-run
+```

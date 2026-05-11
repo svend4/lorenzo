@@ -14,3 +14,19 @@ h2. Содержание
 h2. Подразделы
 
 * [components/|components/] — components
+
+
+
+----
+
+_Кто ссылается на этот документ (15):_
+* [OUTLINE|../OUTLINE.md]
+* [READABILITY|../READABILITY.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [.md|components/.md]
+* [cowork|components/cowork.md]
+* [ingit|components/ingit.md]
+* [kksudo|components/kksudo.md]
+* _...ещё 7_
+

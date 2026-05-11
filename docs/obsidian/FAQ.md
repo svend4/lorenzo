@@ -315,9 +315,14 @@ python scripts/improve_faq.py
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (16):**
+- [[116-9-checklist-применения-методологии]]
+- [[200-10-открытые-вопросы]]
+- [[memnet]]
+- [[CONCEPTS]]
+- [[INDEX]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 8_
 

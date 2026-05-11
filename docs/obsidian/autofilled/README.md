@@ -21,8 +21,14 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (3):**
-- [READABILITY](../../READABILITY.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (15):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[.md]]
+- [[cowork]]
+- [[ingit]]
+- [[kksudo]]
+- _...ещё 7_
 

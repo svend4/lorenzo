@@ -511,3 +511,19 @@ h2. Смотрите также
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [LINK_PREVIEW|LINK_PREVIEW.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 1_
+

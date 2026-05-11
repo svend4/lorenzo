@@ -479,3 +479,26 @@ h2. Смотрите также
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [08-что-это-продолжение-добавляет|04-ai-collaborations/08-что-это-продолжение-добавляет.md]
+* [DIGEST_AUTO|DIGEST_AUTO.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* _...ещё 2_
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_contradictions.py
+{code}

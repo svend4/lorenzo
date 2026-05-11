@@ -203,3 +203,19 @@ h2. Смотрите также
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
 * [[DECISIONS|Решения]]
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [[04-abstract]]
+* [[141-4-nautilus-portal-as-reference-substrate]]
+* [[228-appendix-c-quick-start-architecture-for-sgb-advoca]]
+* [[306-with-anthropic-s-cowork-platform]]
+* [[341-приложение-c-образец-спецификаций-инструментов-ing]]
+* [[354-существующий-landscape-collaborators-твоя-working-]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* _...ещё 4_
+

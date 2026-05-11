@@ -90,3 +90,19 @@ h2. Использование
 # Запуск
 python scripts/improve_missing.py
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (15):_
+* [[08-conclusions]]
+* [[07-выводы]]
+* [[README]]
+* [[CODE_BLOCKS]]
+* [[CONSISTENCY]]
+* [[DENSITY]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* _...ещё 7_
+

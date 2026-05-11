@@ -1,11 +1,24 @@
 ---
 title: "contacts"
 tags:
+  - readme
+  - docs
   - contacts
 date: 2026-05-11
 ---
 
 # contacts
+
+> [!NOTE]
+> Раздел `README` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: readme, docs -->
+
+
+<!-- summary -->
+> `README` — раздел документации проекта Lorenzo.
+
 
 **Файлов:** 16
 
@@ -32,9 +45,21 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (20):**
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[anastasiyaw]]
+- [[andrey-chuyan]]
+- [[antipozitive]]
+- _...ещё 12_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_readme.py
+```

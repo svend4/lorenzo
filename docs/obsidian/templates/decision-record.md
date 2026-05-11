@@ -69,10 +69,14 @@ python scripts/improve_decision_record.py
 
 ---
 
-**Кто ссылается на этот документ (5):**
-- [CONCEPTS](../../CONCEPTS.md)
-- [READABILITY](../../READABILITY.md)
-- [READING_TIME](../../READING_TIME.md)
-- [SEARCH](../../SEARCH.md)
-- [TABLES](../../TABLES.md)
+**Кто ссылается на этот документ (14):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[REGISTRY]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[README]]
+- [[contradiction-record]]
+- [[experiment-log]]
+- _...ещё 6_
 

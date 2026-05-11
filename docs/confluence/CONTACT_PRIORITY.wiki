@@ -6,6 +6,13 @@
 h1. Приоритет контактов
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{CONTACT_PRIORITY}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}1. _kksudo_ (AgentFS, 194 упоминаний) → [открыть контакт|contacts/kksudo.md]{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
@@ -53,3 +60,19 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 {code}
 
 _Чем выше балл — тем важнее написать первым._
+
+
+
+----
+
+_Кто ссылается на этот документ (11):_
+* [MINDMAP|MINDMAP.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+* [anastasiyaw|contacts/anastasiyaw.md]
+* _...ещё 3_
+

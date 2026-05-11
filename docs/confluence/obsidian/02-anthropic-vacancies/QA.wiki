@@ -23,6 +23,13 @@ date: 2026-05-11
 h1. Q&A: 02-anthropic-vacancies
 
 
+
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
 {quote}_Автоматически сгенерировано по 355 файлам раздела._{quote}
 _Проекты:_ CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
 
@@ -125,3 +132,23 @@ h2. Что такое knowledge-space и для кого он предназна
 h2. Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [[README]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}

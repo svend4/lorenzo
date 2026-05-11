@@ -194,9 +194,14 @@ graph TD
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (15):**
+- [[DIGEST_AUTO]]
+- [[LLM_SUMMARIES]]
+- [[OUTLINE]]
+- [[READABILITY]]
+- [[READING_LIST]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 7_
 

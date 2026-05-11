@@ -1561,9 +1561,14 @@ python scripts/improve_version_diff.py --dry-run
 
 ---
 
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
+**Кто ссылается на этот документ (9):**
+- [[yodoca]]
+- [[ABBREVIATIONS]]
+- [[AUTOFILLED]]
+- [[PRIORITIES]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 1_
 

@@ -1,7 +1,7 @@
 # Health Dashboard
 
 <!-- summary -->
-> Балл здоровья репозитория: **100/100** — файлов: 2481, слов: 2,901,516
+> Балл здоровья репозитория: **100/100** — файлов: 2482, слов: 2,921,755
 
 <!-- tags: health, quality, metrics, documentation -->
 
@@ -26,8 +26,8 @@ _Обновлено: 2026-05-11_
 
 ## Структура репозитория
 
-**Файлов:** 2481  
-**Слов:** 2,901,516
+**Файлов:** 2482  
+**Слов:** 2,921,755
 
 | Раздел | Файлов |
 |--------|--------|
@@ -47,7 +47,7 @@ _Обновлено: 2026-05-11_
 | lorenzo-agent | 62 |
 | meta-scripting | 7 |
 | nautilus | 255 |
-| obsidian | 1237 |
+| obsidian | 1238 |
 | processing-guide | 13 |
 | root | 114 |
 | svyazi-2-0 | 60 |
@@ -56,7 +56,7 @@ _Обновлено: 2026-05-11_
 
 ## Action Items
 
-Извлечено действий: **3443**  
+Извлечено действий: **3515**  
 Пробелов знаний: **0**  
 Сломанных ссылок: **0**
 
@@ -74,19 +74,3 @@ _Обновлено: 2026-05-11_
 - [BROKEN_LINKS](BROKEN_LINKS.md) — состояние внутренних ссылок
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (44):**
-- [ACTION_ITEMS](ACTION_ITEMS.md)
-- [ALERTS](ALERTS.md)
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [CONTRADICTIONS](CONTRADICTIONS.md)
-- _...ещё 36_
-
