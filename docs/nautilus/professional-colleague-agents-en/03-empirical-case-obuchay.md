@@ -205,3 +205,13 @@ python scripts/improve_semantic_search.py --query "3 Empirical Case Study Обу
 - [02-what-makes-pca](02-what-makes-pca.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-empirical-case-obuchay](../../obsidian/nautilus/professional-colleague-agents-en/03-empirical-case-obuchay.md) (сходство 0.99)
+- [214-3-empirical-case-study-обучай](../../obsidian/02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.87)
+- [214-3-empirical-case-study-обучай](../../02-anthropic-vacancies/214-3-empirical-case-study-обучай.md) (сходство 0.87)
+

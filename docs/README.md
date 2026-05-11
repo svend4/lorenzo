@@ -161,3 +161,13 @@
 ```bash
 python scripts/improve_semantic_search.py --query "docs"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](obsidian/README.md) (сходство 0.98)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md) (сходство 0.25)
+- [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) (сходство 0.25)
+

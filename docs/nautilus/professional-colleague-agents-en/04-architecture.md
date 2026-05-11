@@ -207,3 +207,13 @@ python scripts/improve_semantic_search.py --query "4 Architecture of Professiona
 - [06-risks](06-risks.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-architecture](../../obsidian/nautilus/professional-colleague-agents-en/04-architecture.md) (сходство 0.99)
+- [215-4-architecture-of-professional-colleague-agents](../../02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.86)
+- [215-4-architecture-of-professional-colleague-agents](../../obsidian/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) (сходство 0.86)
+

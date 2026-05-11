@@ -252,3 +252,13 @@ Copilot, Claude Code.
 - [README](README.md)
 - [03-chto-delaet-predstavitelskim](../representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-pyat-tipov](../../obsidian/nautilus/professional-colleague-agents-ru/01-pyat-tipov.md) (сходство 0.98)
+- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](../../obsidian/02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md) (сходство 0.85)
+- [232-1-типология-из-пяти-типов-агентов-на-стороне-принц](../../02-anthropic-vacancies/232-1-типология-из-пяти-типов-агентов-на-стороне-принц.md) (сходство 0.85)
+

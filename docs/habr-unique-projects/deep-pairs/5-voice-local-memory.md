@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Пара 5 Голосовой
 - [2-document-rag](2-document-rag.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [5-voice-local-memory](../../obsidian/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.95)
+- [4-speech-to-text-llm](../software-pairs/4-speech-to-text-llm.md) (сходство 0.45)
+- [4-speech-to-text-llm](../../obsidian/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.44)
+

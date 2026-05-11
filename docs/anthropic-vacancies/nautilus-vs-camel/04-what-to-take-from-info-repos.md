@@ -187,3 +187,13 @@ python scripts/improve_semantic_search.py --query "Что брать из info r
 - [05-what-to-do-right-now](05-what-to-do-right-now.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-what-to-take-from-info-repos](../../obsidian/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.99)
+- [02-what-info-repos-contain](02-what-info-repos-contain.md) (сходство 0.29)
+- [02-what-info-repos-contain](../../obsidian/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.29)
+

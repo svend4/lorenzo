@@ -248,3 +248,13 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) (сходство 0.99)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.26)
+- [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 0.26)
+

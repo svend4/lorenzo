@@ -108,3 +108,13 @@ python scripts/improve_semantic_search.py --query "8 Ограничения и �
 - [06-relation-existing-methodologies](06-relation-existing-methodologies.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-limitations-open-questions](../../obsidian/nautilus/review-methodology/09-limitations-open-questions.md) (сходство 0.98)
+- [115-8-ограничения-и-открытые-вопросы](../../02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.80)
+- [115-8-ограничения-и-открытые-вопросы](../../obsidian/02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md) (сходство 0.80)
+

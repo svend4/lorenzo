@@ -97,3 +97,13 @@ _█ = активная работа, ░ = ожидание_
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCHEDULE](../SCHEDULE.md) (сходство 0.97)
+- [MINDMAP](MINDMAP.md) (сходство 0.28)
+- [DENSITY](DENSITY.md) (сходство 0.26)
+

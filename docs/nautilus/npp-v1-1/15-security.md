@@ -116,3 +116,13 @@ python scripts/improve_semantic_search.py --query "15 Security Considerations"
 - [11-security-considerations](../npp-v1-0/11-security-considerations.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-security](../../obsidian/nautilus/npp-v1-1/15-security.md) (сходство 0.98)
+- [90-15-security-considerations](../../obsidian/02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.64)
+- [90-15-security-considerations](../../02-anthropic-vacancies/90-15-security-considerations.md) (сходство 0.64)
+

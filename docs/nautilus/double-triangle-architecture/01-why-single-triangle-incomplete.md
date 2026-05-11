@@ -143,3 +143,13 @@ python scripts/improve_semantic_search.py --query "1 Why Single Triangle Models 
 - [03-three-inter-layer-protocols](03-three-inter-layer-protocols.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-why-single-triangle-incomplete](../../obsidian/nautilus/double-triangle-architecture/01-why-single-triangle-incomplete.md) (сходство 0.98)
+- [138-1-why-single-triangle-models-are-incomplete](../../02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.83)
+- [138-1-why-single-triangle-models-are-incomplete](../../obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) (сходство 0.82)
+

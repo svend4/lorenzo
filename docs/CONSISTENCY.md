@@ -301,3 +301,13 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONSISTENCY](obsidian/CONSISTENCY.md) (сходство 0.97)
+- [MISSING](MISSING.md) (сходство 0.33)
+- [MISSING](obsidian/MISSING.md) (сходство 0.33)
+

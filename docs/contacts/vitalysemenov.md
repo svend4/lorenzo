@@ -119,3 +119,13 @@ _Контакт ещё не установлен_
 - [SEARCH](../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [vitalysemenov](../obsidian/contacts/vitalysemenov.md) (сходство 0.86)
+- [tagir-analyzes](tagir-analyzes.md) (сходство 0.39)
+- [nlaik](nlaik.md) (сходство 0.37)
+

@@ -148,3 +148,13 @@ python scripts/improve_semantic_search.py --query "6 Этическая рамк
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-eticheskaya-ramka](../../obsidian/nautilus/representative-agent-layer-ru/06-eticheskaya-ramka.md) (сходство 0.99)
+- [196-6-этическая-рамка](../../obsidian/02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.85)
+- [196-6-этическая-рамка](../../02-anthropic-vacancies/196-6-этическая-рамка.md) (сходство 0.85)
+

@@ -198,3 +198,13 @@ python scripts/improve_semantic_search.py --query "7 Economics of Combinatorial 
 - [09-okwf-integration](09-okwf-integration.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-economics-combinatorial](../../obsidian/nautilus/composite-skills-agents/07-economics-combinatorial.md) (сходство 0.99)
+- [260-7-economics-of-combinatorial-replication](../../02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.87)
+- [260-7-economics-of-combinatorial-replication](../../obsidian/02-anthropic-vacancies/260-7-economics-of-combinatorial-replication.md) (сходство 0.87)
+

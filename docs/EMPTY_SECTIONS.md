@@ -9283,3 +9283,13 @@ python scripts/improve_empty_sections.py --dry-run
 # Вариант 3
 python scripts/improve_empty_sections.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) (сходство 1.00)
+- [HEADING_AUDIT](HEADING_AUDIT.md) (сходство 0.65)
+- [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) (сходство 0.65)
+

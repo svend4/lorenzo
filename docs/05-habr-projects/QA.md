@@ -84,3 +84,13 @@ _Не найдено в этом файле._
 # Запуск
 python scripts/improve_qa.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/05-habr-projects/QA.md) (сходство 0.98)
+- [QA](../lorenzo-agent/QA.md) (сходство 0.66)
+- [QA](../obsidian/lorenzo-agent/QA.md) (сходство 0.66)
+

@@ -130,3 +130,13 @@ python scripts/improve_semantic_search.py --query "6 Refined InGit Scope with Co
 - [07-practical-first-steps](07-practical-first-steps.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-refined-ingit-scope](../../obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) (сходство 0.98)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](../../02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.78)
+- [314-6-refined-ingit-scope-with-cowork-in-mind](../../obsidian/02-anthropic-vacancies/314-6-refined-ingit-scope-with-cowork-in-mind.md) (сходство 0.77)
+

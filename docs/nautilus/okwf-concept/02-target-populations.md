@@ -177,3 +177,13 @@ python scripts/improve_semantic_search.py --query "2 Target Populations"
 - [03-why-existing-fail](03-why-existing-fail.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-target-populations](../../obsidian/nautilus/okwf-concept/02-target-populations.md) (сходство 0.99)
+- [156-2-target-populations](../../02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.87)
+- [156-2-target-populations](../../obsidian/02-anthropic-vacancies/156-2-target-populations.md) (сходство 0.87)
+

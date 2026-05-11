@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Почему эта идея 
 - [05-minuses-as-business](05-minuses-as-business.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-why-stronger-than-it-looks](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.99)
+- [02-existing-niche](02-existing-niche.md) (сходство 0.18)
+- [02-existing-niche](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.18)
+

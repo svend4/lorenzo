@@ -1121,3 +1121,13 @@ python scripts/improve_language_stats.py --dry-run
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LANGUAGE_STATS](obsidian/LANGUAGE_STATS.md) (сходство 1.00)
+- [READING_TIME](obsidian/READING_TIME.md) (сходство 0.81)
+- [READABILITY](READABILITY.md) (сходство 0.79)
+

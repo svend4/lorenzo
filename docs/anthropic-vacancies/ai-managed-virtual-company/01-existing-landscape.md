@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Что уже существ�
 - [07-current-implementations](07-current-implementations.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-existing-landscape](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.99)
+- [07-current-implementations](07-current-implementations.md) (сходство 0.26)
+- [07-current-implementations](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.26)
+

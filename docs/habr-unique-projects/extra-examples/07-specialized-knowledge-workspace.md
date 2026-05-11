@@ -83,3 +83,13 @@ _Документ индексирован в поисковой базе реп
 - [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-specialized-knowledge-workspace](../../obsidian/habr-unique-projects/extra-examples/07-specialized-knowledge-workspace.md) (сходство 0.97)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md) (сходство 0.41)
+- [08-personal-multi-agent-hub](../../obsidian/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.41)
+

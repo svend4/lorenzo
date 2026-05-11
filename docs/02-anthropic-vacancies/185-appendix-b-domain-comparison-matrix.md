@@ -93,3 +93,13 @@ python scripts/improve_semantic_search.py --query "Appendix B Domain Comparison 
 - [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [185-appendix-b-domain-comparison-matrix](../obsidian/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md) (сходство 0.97)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](339-приложение-a-дерево-решений-для-принимающих-ingit.md) (сходство 0.55)
+- [339-приложение-a-дерево-решений-для-принимающих-ingit](../obsidian/02-anthropic-vacancies/339-приложение-a-дерево-решений-для-принимающих-ingit.md) (сходство 0.53)
+

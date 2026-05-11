@@ -129,3 +129,13 @@ python scripts/improve_semantic_search.py --query "What s Missing Layer B"
 - [08-recursive-insight](08-recursive-insight.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-whats-missing-layer-b](../../obsidian/nautilus/infrastructure-layer-b-en/04-whats-missing-layer-b.md) (сходство 0.98)
+- [277-what-s-missing-layer-b](../../02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.78)
+- [277-what-s-missing-layer-b](../../obsidian/02-anthropic-vacancies/277-what-s-missing-layer-b.md) (сходство 0.77)
+

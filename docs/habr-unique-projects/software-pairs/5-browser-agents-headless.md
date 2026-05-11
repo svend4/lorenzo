@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Пара 5 Browser agents hea
 - [1-workflow-llm-mcp](1-workflow-llm-mcp.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [5-browser-agents-headless](../../obsidian/habr-unique-projects/software-pairs/5-browser-agents-headless.md) (сходство 0.98)
+- [1-workflow-llm-mcp](1-workflow-llm-mcp.md) (сходство 0.21)
+- [1-workflow-llm-mcp](../../obsidian/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.20)
+

@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Yodoca главная нах�
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-yodoca](../../obsidian/habr-unique-projects/key-findings/01-yodoca.md) (сходство 0.97)
+- [yodoca](../../05-habr-projects/memory/yodoca.md) (сходство 0.23)
+- [02-memnet](02-memnet.md) (сходство 0.23)
+

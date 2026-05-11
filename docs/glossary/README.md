@@ -1,10 +1,4 @@
 # glossary
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 3
 
@@ -28,12 +22,12 @@
 - [concepts](concepts.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «glossary». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../obsidian/glossary/README.md) (сходство 0.73)
+- [README](../technology-combinations/synthesis-tables/README.md) (сходство 0.57)
+- [README](../svyazi-2-0/prototype/README.md) (сходство 0.57)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

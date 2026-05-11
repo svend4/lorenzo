@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Сводная таблица
 - [16-adversarial-multi-agent-code-review](../combinations/16-adversarial-multi-agent-code-review.md)
 - _...ещё 9_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-19-extended](../../obsidian/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.97)
+- [12-multi-agent-observability-stack](../combinations/12-multi-agent-observability-stack.md) (сходство 0.49)
+- [12-multi-agent-observability-stack](../../obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.48)
+

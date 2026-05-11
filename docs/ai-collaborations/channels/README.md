@@ -42,3 +42,13 @@ python scripts/improve_semantic_search.py --query "каналы первого �
 - [TABLES](../../TABLES.md)
 - [README](../strategy/README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/ai-collaborations/channels/README.md) (сходство 0.98)
+- [README](../strategy/README.md) (сходство 0.54)
+- [README](../../obsidian/ai-collaborations/strategy/README.md) (сходство 0.53)
+

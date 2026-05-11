@@ -111,3 +111,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 28 Pydan
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 
 _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [28-pydantic-enforced-legal-workflows](../../obsidian/technology-combinations/combinations/28-pydantic-enforced-legal-workflows.md) (сходство 0.96)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.37)
+- [10-legal-document-intelligence-pipeline](../../obsidian/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.36)
+

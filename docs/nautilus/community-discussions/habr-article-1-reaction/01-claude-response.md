@@ -326,3 +326,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Про
 - [01-response](../practical-observations/01-response.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-claude-response](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/01-claude-response.md) (сходство 0.99)
+- [01-strategic-significance](../../multi-tier-architecture/01-strategic-significance.md) (сходство 0.16)
+- [01-strategic-significance](../../../obsidian/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.15)
+

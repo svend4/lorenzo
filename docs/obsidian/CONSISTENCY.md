@@ -310,3 +310,13 @@ find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONSISTENCY](../CONSISTENCY.md) (сходство 0.97)
+- [MISSING](MISSING.md) (сходство 0.35)
+- [MISSING](../MISSING.md) (сходство 0.33)
+

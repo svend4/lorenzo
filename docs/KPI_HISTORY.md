@@ -79,3 +79,13 @@ _Запускать регулярно для получения трендов.
 - [QA](svyazi-2-0/QA.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI_HISTORY](obsidian/KPI_HISTORY.md) (сходство 0.94)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.46)
+- [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.44)
+

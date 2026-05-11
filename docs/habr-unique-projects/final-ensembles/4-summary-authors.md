@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Сводный список �
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-summary-authors](../../obsidian/habr-unique-projects/final-ensembles/4-summary-authors.md) (сходство 0.96)
+- [README](../README.md) (сходство 0.28)
+- [README](../../obsidian/habr-unique-projects/README.md) (сходство 0.28)
+

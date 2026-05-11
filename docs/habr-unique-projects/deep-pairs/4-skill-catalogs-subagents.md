@@ -66,3 +66,13 @@ python scripts/improve_semantic_search.py --query "Пара 4 Скилл кат�
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-skill-catalogs-subagents](../../obsidian/habr-unique-projects/deep-pairs/4-skill-catalogs-subagents.md) (сходство 0.96)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md) (сходство 0.24)
+- [3-adversarial-multi-ide](3-adversarial-multi-ide.md) (сходство 0.24)
+

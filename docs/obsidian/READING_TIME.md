@@ -2574,3 +2574,13 @@ python scripts/improve_reading_time.py --dry-run
 - [[197-7-управление-и-надзор]]
 - _...ещё 540_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_TIME](../READING_TIME.md) (сходство 0.97)
+- [READABILITY](../READABILITY.md) (сходство 0.95)
+- [SEARCH](../SEARCH.md) (сходство 0.93)
+

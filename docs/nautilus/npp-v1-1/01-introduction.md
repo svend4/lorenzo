@@ -152,3 +152,13 @@ python scripts/improve_semantic_search.py --query "1 Introduction Motivation Des
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-introduction](../../obsidian/nautilus/npp-v1-1/01-introduction.md) (сходство 0.99)
+- [76-1-introduction](../../obsidian/02-anthropic-vacancies/76-1-introduction.md) (сходство 0.85)
+- [76-1-introduction](../../02-anthropic-vacancies/76-1-introduction.md) (сходство 0.83)
+

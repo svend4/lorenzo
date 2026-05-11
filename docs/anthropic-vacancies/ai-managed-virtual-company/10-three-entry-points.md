@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Три точки входа 
 - [07-current-implementations](07-current-implementations.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-three-entry-points](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.97)
+- [04-what-to-do](04-what-to-do.md) (сходство 0.24)
+- [04-what-to-do](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md) (сходство 0.23)
+

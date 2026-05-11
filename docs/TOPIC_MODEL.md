@@ -204,3 +204,13 @@ python scripts/improve_topic_model.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TOPIC_MODEL](obsidian/TOPIC_MODEL.md) (сходство 0.99)
+- [PRIORITIES](obsidian/PRIORITIES.md) (сходство 0.26)
+- [SOURCE_MAP](SOURCE_MAP.md) (сходство 0.25)
+

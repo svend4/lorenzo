@@ -171,3 +171,13 @@ python scripts/improve_semantic_search.py --query "6 Ethical Framework"
 - [08-risks-mitigations](08-risks-mitigations.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-ethical-framework](../../obsidian/nautilus/representative-agent-layer-en/06-ethical-framework.md) (сходство 0.98)
+- [175-6-ethical-framework](../../02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.85)
+- [175-6-ethical-framework](../../obsidian/02-anthropic-vacancies/175-6-ethical-framework.md) (сходство 0.84)
+

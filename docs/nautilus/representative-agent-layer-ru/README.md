@@ -1,10 +1,4 @@
 # representative-agent-layer-ru
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
@@ -40,9 +34,12 @@
 - _...ещё 7_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/nautilus/representative-agent-layer-ru/README.md) (сходство 0.89)
+- [README](../professional-colleague-agents-ru/README.md) (сходство 0.41)
+- [README](../../obsidian/nautilus/professional-colleague-agents-ru/README.md) (сходство 0.37)
+

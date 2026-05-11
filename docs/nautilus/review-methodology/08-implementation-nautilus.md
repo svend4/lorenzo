@@ -108,3 +108,13 @@ python scripts/improve_semantic_search.py --query "7 Реализация в п�
 - [11-application-plan-current-docs](11-application-plan-current-docs.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-implementation-nautilus](../../obsidian/nautilus/review-methodology/08-implementation-nautilus.md) (сходство 0.98)
+- [114-7-реализация-в-проекте-nautilus](../../obsidian/02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.68)
+- [114-7-реализация-в-проекте-nautilus](../../02-anthropic-vacancies/114-7-реализация-в-проекте-nautilus.md) (сходство 0.66)
+

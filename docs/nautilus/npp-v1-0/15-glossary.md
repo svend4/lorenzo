@@ -165,3 +165,13 @@ example_user, example@email.com
 - [10-query-result](10-query-result.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-glossary](../../obsidian/nautilus/npp-v1-0/15-glossary.md) (сходство 0.96)
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.40)
+- [13-reference-implementation](13-reference-implementation.md) (сходство 0.39)
+

@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Пара 2 Local first PKM Ob
 - [5-browser-agents-headless](5-browser-agents-headless.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-pkm-mcp-skills](../../obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md) (сходство 0.96)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md) (сходство 0.22)
+- [2-document-rag](../deep-pairs/2-document-rag.md) (сходство 0.22)
+

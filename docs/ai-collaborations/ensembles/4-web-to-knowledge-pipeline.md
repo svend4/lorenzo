@@ -87,3 +87,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 4 Web to Kno
 - [9-ambient-team-agent](9-ambient-team-agent.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-web-to-knowledge-pipeline](../../obsidian/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md) (сходство 0.99)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.22)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.21)
+

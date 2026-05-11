@@ -510,3 +510,13 @@ python scripts/improve_changelog.py
 # Вариант 2
 python scripts/improve_changelog.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG](obsidian/CHANGELOG.md) (сходство 1.00)
+- [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 0.61)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.61)
+

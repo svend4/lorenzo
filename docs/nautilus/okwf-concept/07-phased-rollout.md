@@ -178,3 +178,13 @@ python scripts/improve_semantic_search.py --query "7 Phased Rollout Plan"
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-phased-rollout](../../obsidian/nautilus/okwf-concept/07-phased-rollout.md) (сходство 0.98)
+- [161-7-phased-rollout-plan](../../02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.86)
+- [161-7-phased-rollout-plan](../../obsidian/02-anthropic-vacancies/161-7-phased-rollout-plan.md) (сходство 0.86)
+

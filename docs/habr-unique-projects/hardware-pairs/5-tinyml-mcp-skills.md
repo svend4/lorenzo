@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Пара 5 TinyML Edge AI MCP
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [5-tinyml-mcp-skills](../../obsidian/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.95)
+- [4-riscv-privacy](4-riscv-privacy.md) (сходство 0.23)
+- [4-riscv-privacy](../../obsidian/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.22)
+

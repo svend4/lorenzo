@@ -150,3 +150,13 @@ python scripts/improve_semantic_search.py --query "Abstract The Double Triangle"
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract](../../obsidian/nautilus/double-triangle-architecture/00-abstract.md) (сходство 0.99)
+- [136-abstract](../../obsidian/02-anthropic-vacancies/136-abstract.md) (сходство 0.79)
+- [136-abstract](../../02-anthropic-vacancies/136-abstract.md) (сходство 0.79)
+

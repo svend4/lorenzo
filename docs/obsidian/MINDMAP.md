@@ -153,3 +153,13 @@ flowchart LR
 - [[SEARCH]]
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](../MINDMAP.md) (сходство 0.93)
+- [GRAPH](GRAPH.md) (сходство 0.51)
+- [GRAPH](../GRAPH.md) (сходство 0.48)
+

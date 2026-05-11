@@ -192,3 +192,13 @@ Cowork — удобство, не авторитет.
 - [09-riski-voprosy](09-riski-voprosy.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-simbioticheskaya-arkhitektura](../../obsidian/nautilus/ingit-cowork-ru/04-simbioticheskaya-arkhitektura.md) (сходство 0.98)
+- [330-4-симбиотическая-архитектура](../../02-anthropic-vacancies/330-4-симбиотическая-архитектура.md) (сходство 0.82)
+- [330-4-симбиотическая-архитектура](../../obsidian/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md) (сходство 0.81)
+

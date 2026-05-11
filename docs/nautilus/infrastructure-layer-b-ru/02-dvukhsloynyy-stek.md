@@ -120,3 +120,13 @@ python scripts/improve_semantic_search.py --query "Двухслойный сте
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-dvukhsloynyy-stek](../../obsidian/nautilus/infrastructure-layer-b-ru/02-dvukhsloynyy-stek.md) (сходство 0.98)
+- [291-двухслойный-стек-как-он-существует](../../02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) (сходство 0.72)
+- [291-двухслойный-стек-как-он-существует](../../obsidian/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) (сходство 0.71)
+

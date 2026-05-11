@@ -347,3 +347,13 @@ network_scope: offline | internal | internet
 - [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) (сходство 0.99)
+- [11-integration-contracts](01-svyazi/11-integration-contracts.md) (сходство 0.18)
+- [11-интеграционный-контракт-который-стоит-зафиксироват](obsidian/04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) (сходство 0.18)
+

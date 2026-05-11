@@ -87,3 +87,13 @@ python scripts/improve_semantic_search.py --query "Обзор 436 открыты
 - [signals](signals.md)
 - [reading-paths](../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [overview](../obsidian/anthropic-vacancies/overview.md) (сходство 0.97)
+- [README](clusters/README.md) (сходство 0.34)
+- [README](../obsidian/anthropic-vacancies/clusters/README.md) (сходство 0.34)
+

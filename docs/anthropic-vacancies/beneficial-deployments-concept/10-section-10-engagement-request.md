@@ -101,3 +101,13 @@ _Документ индексирован в поисковой базе реп
 - [11-not-and-format](11-not-and-format.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-section-10-engagement-request](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.98)
+- [11-not-and-format](11-not-and-format.md) (сходство 0.49)
+- [11-not-and-format](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.48)
+

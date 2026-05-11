@@ -61,3 +61,13 @@ python scripts/improve_semantic_search.py --query "Engineering Design Product 22
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-engineering-design-product](../../obsidian/anthropic-vacancies/clusters/06-engineering-design-product.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.68)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.67)
+

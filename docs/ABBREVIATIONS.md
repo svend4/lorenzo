@@ -210,3 +210,13 @@ python scripts/improve_abbreviations.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ABBREVIATIONS](obsidian/ABBREVIATIONS.md) (сходство 0.99)
+- [VERSION_DIFF](obsidian/VERSION_DIFF.md) (сходство 0.12)
+- [SITEMAP](SITEMAP.md) (сходство 0.12)
+

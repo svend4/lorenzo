@@ -61,3 +61,13 @@ python scripts/improve_semantic_search.py --query "Software Engineering Infrastr
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-software-engineering-infrastructure](../../obsidian/anthropic-vacancies/clusters/07-software-engineering-infrastructure.md) (сходство 0.98)
+- [12-technical-program-management](12-technical-program-management.md) (сходство 0.64)
+- [12-technical-program-management](../../obsidian/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.63)
+

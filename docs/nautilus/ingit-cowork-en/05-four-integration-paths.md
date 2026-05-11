@@ -207,3 +207,13 @@ defers complex decisions until evidence is available.
 - [07-practical-first-steps](07-practical-first-steps.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-four-integration-paths](../../obsidian/nautilus/ingit-cowork-en/05-four-integration-paths.md) (сходство 0.99)
+- [313-5-four-integration-paths-in-order-of-accessibility](../../02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.85)
+- [313-5-four-integration-paths-in-order-of-accessibility](../../obsidian/02-anthropic-vacancies/313-5-four-integration-paths-in-order-of-accessibility.md) (сходство 0.84)
+

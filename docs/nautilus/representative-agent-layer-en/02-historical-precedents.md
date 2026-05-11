@@ -231,3 +231,13 @@ python scripts/improve_semantic_search.py --query "2 Historical Precedents Agent
 - [01-cinderella-syndrome](01-cinderella-syndrome.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-historical-precedents](../../obsidian/nautilus/representative-agent-layer-en/02-historical-precedents.md) (сходство 0.98)
+- [171-2-historical-precedents-agents-as-civilizational-i](../../02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.85)
+- [171-2-historical-precedents-agents-as-civilizational-i](../../obsidian/02-anthropic-vacancies/171-2-historical-precedents-agents-as-civilizational-i.md) (сходство 0.85)
+

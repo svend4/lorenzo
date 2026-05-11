@@ -5,12 +5,6 @@
 
 h1. templates
 
-
-
-
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
-
-
 _Файлов:_ 23
 
 h2. Содержание
@@ -47,7 +41,7 @@ h2. Подразделы
 
 ----
 
-_Кто ссылается на этот документ (24):_
+_Кто ссылается на этот документ (29):_
 * [OUTLINE|../OUTLINE.md]
 * [READABILITY|../READABILITY.md]
 * [READING_TIME|../READING_TIME.md]
@@ -55,13 +49,6 @@ _Кто ссылается на этот документ (24):_
 * [TABLES|../TABLES.md]
 * [research-summary|../autofilled/research-summary.md]
 * [agent-spec|agent-spec.md]
-* [contradiction-record|contradiction-record.md]
-* _...ещё 16_
+* [contact-outreach|contact-outreach.md]
+* _...ещё 21_
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_readme.py
-{code}

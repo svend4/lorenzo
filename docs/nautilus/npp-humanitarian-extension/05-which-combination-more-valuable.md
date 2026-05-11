@@ -65,3 +65,13 @@ python scripts/improve_semantic_search.py --query "Что из этого сей
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-which-combination-more-valuable](../../obsidian/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.96)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md) (сходство 0.54)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.54)
+

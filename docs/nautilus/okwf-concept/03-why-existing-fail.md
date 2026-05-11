@@ -202,3 +202,13 @@ python scripts/improve_semantic_search.py --query "3 Why Existing Solutions Fail
 - [02-target-populations](02-target-populations.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-why-existing-fail](../../obsidian/nautilus/okwf-concept/03-why-existing-fail.md) (сходство 0.99)
+- [157-3-why-existing-solutions-fail](../../02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.88)
+- [157-3-why-existing-solutions-fail](../../obsidian/02-anthropic-vacancies/157-3-why-existing-solutions-fail.md) (сходство 0.88)
+

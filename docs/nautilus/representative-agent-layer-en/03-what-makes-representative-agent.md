@@ -170,3 +170,13 @@ python scripts/improve_semantic_search.py --query "3 What Makes a Representative
 - [05-architectural-specification](05-architectural-specification.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-what-makes-representative-agent](../../obsidian/nautilus/representative-agent-layer-en/03-what-makes-representative-agent.md) (сходство 0.98)
+- [172-3-what-makes-a-representative-agent](../../02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.82)
+- [172-3-what-makes-a-representative-agent](../../obsidian/02-anthropic-vacancies/172-3-what-makes-a-representative-agent.md) (сходство 0.82)
+

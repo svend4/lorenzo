@@ -105,3 +105,13 @@ _Материал доступен для поиска._ _Индексирова
 - [05-hw-nl2workflow](05-hw-nl2workflow.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-brainbox-multi-ai-hub](../../obsidian/habr-unique-projects/extra-examples/03-brainbox-multi-ai-hub.md) (сходство 0.98)
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.31)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md) (сходство 0.30)
+

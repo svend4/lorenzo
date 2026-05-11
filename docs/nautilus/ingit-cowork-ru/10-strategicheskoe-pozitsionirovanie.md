@@ -218,3 +218,13 @@ python scripts/improve_semantic_search.py --query "10 Стратегическо
 - [08-implikatsii-nautilus-okwf](08-implikatsii-nautilus-okwf.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-strategicheskoe-pozitsionirovanie](../../obsidian/nautilus/ingit-cowork-ru/10-strategicheskoe-pozitsionirovanie.md) (сходство 0.99)
+- [336-10-стратегическое-позиционирование](../../obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.81)
+- [336-10-стратегическое-позиционирование](../../02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) (сходство 0.81)
+

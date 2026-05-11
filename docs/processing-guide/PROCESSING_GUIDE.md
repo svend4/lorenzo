@@ -2302,3 +2302,13 @@ for qa in load_json("docs/qa_cache.json"):
 - [SEARCH](../SEARCH.md)
 - _...ещё 12_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROCESSING_GUIDE](../obsidian/processing-guide/PROCESSING_GUIDE.md) (сходство 1.00)
+- [SCRIPTS_CATALOG](../obsidian/SCRIPTS_CATALOG.md) (сходство 0.22)
+- [SCRIPTS_CATALOG](../SCRIPTS_CATALOG.md) (сходство 0.21)
+

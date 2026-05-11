@@ -124,3 +124,13 @@ python scripts/improve_semantic_search.py --query "AI ассистент с Mem0
 - [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-mem0-letta-graphiti](../../obsidian/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.97)
+- [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md) (сходство 0.39)
+- [06-final-tier-ranking](06-final-tier-ranking.md) (сходство 0.38)
+

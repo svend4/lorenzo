@@ -269,3 +269,13 @@ _Документ обновляется вручную при изменени�
 - [TABLES](TABLES.md)
 - [05-synthesis](meta-scripting/05-synthesis.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [METHODOLOGY](obsidian/METHODOLOGY.md) (сходство 0.97)
+- [05-synthesis](obsidian/meta-scripting/05-synthesis.md) (сходство 0.15)
+- [04-enrichment](meta-scripting/04-enrichment.md) (сходство 0.14)
+

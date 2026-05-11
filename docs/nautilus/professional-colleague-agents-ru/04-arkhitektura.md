@@ -249,3 +249,13 @@ python scripts/improve_semantic_search.py --query "4 Архитектура Пр
 - [06-riski](06-riski.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-arkhitektura](../../obsidian/nautilus/professional-colleague-agents-ru/04-arkhitektura.md) (сходство 0.99)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../obsidian/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.86)
+- [235-4-архитектура-профессиональных-коллег-агентов](../../02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) (сходство 0.86)
+

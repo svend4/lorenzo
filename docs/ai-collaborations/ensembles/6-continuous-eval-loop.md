@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 6 Continuous
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [6-continuous-eval-loop](../../obsidian/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.99)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md) (сходство 0.22)
+- [8-budget-aware-intelligence-stack](../../obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.22)
+

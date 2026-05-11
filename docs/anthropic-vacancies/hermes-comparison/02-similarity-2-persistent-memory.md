@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Сходство 2 Persistent
 - [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-similarity-2-persistent-memory](../../obsidian/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) (сходство 0.98)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.62)
+- [03-similarity-3-mcp-support](../../obsidian/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.61)
+

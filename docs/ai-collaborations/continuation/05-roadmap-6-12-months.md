@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Roadmap на 6 12 месяц�
 - [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-roadmap-6-12-months](../../obsidian/ai-collaborations/continuation/05-roadmap-6-12-months.md) (сходство 0.99)
+- [10-architecture-rfc](../../obsidian/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.22)
+- [10-architecture-rfc](10-architecture-rfc.md) (сходство 0.21)
+

@@ -74,3 +74,13 @@ python scripts/improve_semantic_search.py --query "Когда сомневаеш
 - [15-anti-patterns](15-anti-patterns.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [18-escalate-to-max](../obsidian/lorenzo-agent/18-escalate-to-max.md) (сходство 0.98)
+- [362-когда-сомневаешься-escalate-к-max](../02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.63)
+- [362-когда-сомневаешься-escalate-к-max](../obsidian/02-anthropic-vacancies/362-когда-сомневаешься-escalate-к-max.md) (сходство 0.62)
+

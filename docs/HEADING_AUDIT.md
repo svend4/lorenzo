@@ -8529,3 +8529,13 @@ python scripts/improve_heading_audit.py --dry-run
 # Вариант 3
 python scripts/improve_heading_audit.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) (сходство 1.00)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) (сходство 0.97)
+- [PARAGRAPH_QUALITY](obsidian/PARAGRAPH_QUALITY.md) (сходство 0.97)
+

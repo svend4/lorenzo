@@ -391,3 +391,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Про
 - [TABLES](../../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-response](../../../obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.99)
+- [12-zaklyuchenie](../../representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.62)
+- [12-zaklyuchenie](../../../obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 0.62)
+

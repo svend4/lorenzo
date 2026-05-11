@@ -116,3 +116,13 @@ python scripts/improve_semantic_search.py --query "Abstract Status of This Docum
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract-status](../../obsidian/nautilus/npp-v1-1/00-abstract-status.md) (сходство 0.97)
+- [74-abstract](../../obsidian/02-anthropic-vacancies/74-abstract.md) (сходство 0.60)
+- [74-abstract](../../02-anthropic-vacancies/74-abstract.md) (сходство 0.59)
+

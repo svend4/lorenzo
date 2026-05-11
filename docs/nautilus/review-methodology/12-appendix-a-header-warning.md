@@ -79,3 +79,13 @@ transitional state:
 - [09-ne-reshaet](../infrastructure-layer-b-ru/09-ne-reshaet.md)
 - _...ещё 9_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-appendix-a-header-warning](../../obsidian/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.91)
+- [118-appendix-a-шаблон-для-header-warning](../../02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.61)
+- [118-appendix-a-шаблон-для-header-warning](../../obsidian/02-anthropic-vacancies/118-appendix-a-шаблон-для-header-warning.md) (сходство 0.60)
+

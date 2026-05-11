@@ -170,3 +170,13 @@ placed where infrastructure considerations naturally fit.
 - [00-intro](00-intro.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-acknowledgments-refs](../../obsidian/nautilus/infrastructure-layer-b-en/13-acknowledgments-refs.md) (сходство 0.99)
+- [287-references](../../02-anthropic-vacancies/287-references.md) (сходство 0.46)
+- [287-references](../../obsidian/02-anthropic-vacancies/287-references.md) (сходство 0.46)
+

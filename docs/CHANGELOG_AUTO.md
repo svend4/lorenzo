@@ -326,3 +326,13 @@ python scripts/improve_changelog_auto.py --dry-run
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) (сходство 1.00)
+- [CHANGELOG](CHANGELOG.md) (сходство 0.61)
+- [CHANGELOG](obsidian/CHANGELOG.md) (сходство 0.61)
+

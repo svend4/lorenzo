@@ -123,3 +123,13 @@ python scripts/improve_network.py
 - [[OUTLINE]]
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NETWORK](../NETWORK.md) (сходство 0.94)
+- [GRAPH](GRAPH.md) (сходство 0.48)
+- [GRAPH](../GRAPH.md) (сходство 0.45)
+

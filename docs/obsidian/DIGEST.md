@@ -87,3 +87,13 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_digest.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST](../DIGEST.md) (сходство 0.98)
+- [KPI_HISTORY](KPI_HISTORY.md) (сходство 0.22)
+- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.21)
+

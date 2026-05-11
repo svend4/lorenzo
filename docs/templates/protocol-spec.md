@@ -183,3 +183,13 @@ _Создано: 2026-04-29_
 - [agent-spec](agent-spec.md)
 - [rfc](rfc.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [protocol-spec](../obsidian/templates/protocol-spec.md) (сходство 0.94)
+- [rfc](rfc.md) (сходство 0.31)
+- [rfc](../obsidian/templates/rfc.md) (сходство 0.29)
+

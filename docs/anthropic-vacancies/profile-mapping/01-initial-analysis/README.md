@@ -1,16 +1,5 @@
 # 01-initial-analysis
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 8
 
 ## Содержание
@@ -40,12 +29,12 @@
 - _...ещё 2_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «01-initial-analysis». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/README.md) (сходство 0.86)
+- [README](../../../nautilus/community-discussions/practical-observations/README.md) (сходство 0.35)
+- [README](../../../technology-combinations/research-reports/README.md) (сходство 0.33)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

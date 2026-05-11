@@ -79,3 +79,13 @@ _Документ доступен для семантического поис�
 - [H-research-to-product-flywheel](H-research-to-product-flywheel.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [C-multi-agent-factory](../../obsidian/svyazi-2-0/ensembles/C-multi-agent-factory.md) (сходство 0.97)
+- [H-research-to-product-flywheel](H-research-to-product-flywheel.md) (сходство 0.28)
+- [H-research-to-product-flywheel](../../obsidian/svyazi-2-0/ensembles/H-research-to-product-flywheel.md) (сходство 0.27)
+

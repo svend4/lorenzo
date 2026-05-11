@@ -81,3 +81,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Самый и�
 - [01-response](01-response.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-voiceless](../../../obsidian/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md) (сходство 0.96)
+- [05-platform-not-position](../../../anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.17)
+- [05-platform-not-position](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.17)
+

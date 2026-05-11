@@ -172,3 +172,13 @@ python scripts/improve_semantic_search.py --query "2 What Cowork Provides That I
 - [05-four-integration-paths](05-four-integration-paths.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-cowork-provides](../../obsidian/nautilus/ingit-cowork-en/02-cowork-provides.md) (сходство 0.98)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.79)
+- [310-2-what-cowork-provides-that-ingit-doesn-t-need-to-](../../obsidian/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md) (сходство 0.79)
+

@@ -97,3 +97,13 @@ python scripts/improve_semantic_search.py --query "11 Призыв к сотру
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-prizyv-k-sotrudnichestvu](../../obsidian/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.98)
+- [201-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.80)
+- [201-11-призыв-к-сотрудничеству](../../obsidian/02-anthropic-vacancies/201-11-призыв-к-сотрудничеству.md) (сходство 0.80)
+

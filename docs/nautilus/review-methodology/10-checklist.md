@@ -97,3 +97,13 @@ python scripts/improve_semantic_search.py --query "9 Checklist применен�
 - [03-consolidation-principles](03-consolidation-principles.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-checklist](../../obsidian/nautilus/review-methodology/10-checklist.md) (сходство 0.98)
+- [116-9-checklist-применения-методологии](../../obsidian/02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.67)
+- [116-9-checklist-применения-методологии](../../02-anthropic-vacancies/116-9-checklist-применения-методологии.md) (сходство 0.67)
+

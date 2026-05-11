@@ -25,3 +25,13 @@
 - [kksudo](components/kksudo.md)
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/autofilled/README.md) (сходство 0.68)
+- [README](components/README.md) (сходство 0.62)
+- [README](../obsidian/autofilled/components/README.md) (сходство 0.52)
+

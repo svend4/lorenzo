@@ -169,3 +169,13 @@ _Создано: 2026-05-10_
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
 
 [^tf_idf]: Term Frequency–Inverse Document Frequency — метрика важности термина
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [knowledge-space](../../obsidian/05-habr-projects/knowledge/knowledge-space.md) (сходство 0.95)
+- [agentfs](agentfs.md) (сходство 0.28)
+- [mclaude](mclaude.md) (сходство 0.28)
+

@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Что уже существ�
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-existing-niche](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/02-existing-niche.md) (сходство 0.99)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md) (сходство 0.18)
+- [01-why-stronger-than-it-looks](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.18)
+

@@ -74,3 +74,13 @@ python scripts/improve_qa.py
 - [Здоровье](../HEALTH.md)
 - [Глоссарий](../GLOSSARY.md)
 - [Сущности](../ENTITIES.md)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/letters/QA.md) (сходство 0.98)
+- [QA](../processing-guide/QA.md) (сходство 0.54)
+- [QA](../obsidian/processing-guide/QA.md) (сходство 0.53)
+

@@ -171,3 +171,13 @@ python scripts/improve_semantic_search.py --query "2 The Twenty One Teachers Pat
 - [08-seven-domains](08-seven-domains.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-twenty-one-teachers-pattern](../../obsidian/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md) (сходство 0.99)
+- [255-2-the-twenty-one-teachers-pattern](../../02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.85)
+- [255-2-the-twenty-one-teachers-pattern](../../obsidian/02-anthropic-vacancies/255-2-the-twenty-one-teachers-pattern.md) (сходство 0.84)
+

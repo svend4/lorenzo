@@ -216,3 +216,13 @@ _Сгенерировано: 2026-05-11 04:55  |  Алгоритм: TF-IDF + BM2
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COLLAB_SUGGESTIONS](obsidian/COLLAB_SUGGESTIONS.md) (сходство 0.98)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md) (сходство 0.25)
+- [CONTACT_PRIORITY](obsidian/CONTACT_PRIORITY.md) (сходство 0.24)
+

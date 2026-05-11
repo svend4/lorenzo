@@ -372,3 +372,13 @@ python scripts/improve_cross_section.py --dry-run
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CROSS_SECTION](obsidian/CROSS_SECTION.md) (сходство 0.98)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.39)
+- [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.38)
+

@@ -147,3 +147,13 @@ python scripts/improve_semantic_search.py --query "7 Практические п
 - [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-prakticheskie-shagi](../../obsidian/nautilus/ingit-cowork-ru/07-prakticheskie-shagi.md) (сходство 0.97)
+- [333-7-практические-первые-шаги-в-этом-месяце](../../obsidian/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md) (сходство 0.73)
+- [333-7-практические-первые-шаги-в-этом-месяце](../../02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md) (сходство 0.73)
+

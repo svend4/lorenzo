@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Различие 2 Domain spe
 - [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-difference-2-domain-specialization](../../obsidian/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.98)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md) (сходство 0.56)
+- [09-difference-4-institutional-vision](../../obsidian/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.55)
+

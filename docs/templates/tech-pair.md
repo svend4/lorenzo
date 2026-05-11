@@ -143,3 +143,13 @@ _Создано: 2026-04-29_
 - [README](README.md)
 - [project-component](project-component.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [tech-pair](../obsidian/templates/tech-pair.md) (сходство 0.91)
+- [tech-radar-entry](tech-radar-entry.md) (сходство 0.27)
+- [mega-stack](mega-stack.md) (сходство 0.27)
+

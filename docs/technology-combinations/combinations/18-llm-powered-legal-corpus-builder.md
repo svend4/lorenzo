@@ -112,3 +112,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 18 LLM P
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
 _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [18-llm-powered-legal-corpus-builder](../../obsidian/technology-combinations/combinations/18-llm-powered-legal-corpus-builder.md) (сходство 0.96)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.46)
+- [10-legal-document-intelligence-pipeline](../../obsidian/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.43)
+

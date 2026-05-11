@@ -165,3 +165,13 @@ _Карта сгенерирована автоматически: 2026-05-11_
 - [TABLES](TABLES.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KNOWLEDGE_MAP](obsidian/KNOWLEDGE_MAP.md) (сходство 0.98)
+- [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.33)
+- [CROSS_SECTION](obsidian/CROSS_SECTION.md) (сходство 0.32)
+

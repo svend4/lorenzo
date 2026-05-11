@@ -117,3 +117,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 21 Legal
 - [README](README.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [21-legal-corpus-analytics-at-scale](../../obsidian/technology-combinations/combinations/21-legal-corpus-analytics-at-scale.md) (сходство 0.96)
+- [18-llm-powered-legal-corpus-builder](18-llm-powered-legal-corpus-builder.md) (сходство 0.35)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.34)
+

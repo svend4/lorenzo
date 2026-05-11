@@ -1,10 +1,4 @@
 # templates
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 23
 
@@ -42,7 +36,7 @@
 
 ---
 
-**Кто ссылается на этот документ (24):**
+**Кто ссылается на этот документ (29):**
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
@@ -50,13 +44,16 @@
 - [TABLES](../TABLES.md)
 - [research-summary](../autofilled/research-summary.md)
 - [agent-spec](agent-spec.md)
-- [contradiction-record](contradiction-record.md)
-- _...ещё 16_
+- [contact-outreach](contact-outreach.md)
+- _...ещё 21_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../obsidian/templates/README.md) (сходство 0.88)
+- [README](../technology-combinations/mega-stacks/README.md) (сходство 0.27)
+- [README](../habr-unique-projects/final-ensembles/README.md) (сходство 0.26)
+

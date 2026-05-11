@@ -149,3 +149,13 @@ python scripts/improve_semantic_search.py --query "5 Economic Model"
 - [09-call-for-partnership](09-call-for-partnership.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-economic-model](../../obsidian/nautilus/okwf-concept/05-economic-model.md) (сходство 0.98)
+- [159-5-economic-model](../../02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.84)
+- [159-5-economic-model](../../obsidian/02-anthropic-vacancies/159-5-economic-model.md) (сходство 0.84)
+

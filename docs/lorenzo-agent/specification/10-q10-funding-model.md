@@ -130,3 +130,13 @@ python scripts/improve_semantic_search.py --query "Question 10 Funding model Opt
 - [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-q10-funding-model](../../obsidian/lorenzo-agent/specification/10-q10-funding-model.md) (сходство 0.98)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md) (сходство 0.32)
+- [09-q9-geographic-linguistic-scope](../../obsidian/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.31)
+

@@ -118,3 +118,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это
 - [03-the-spectrum](03-the-spectrum.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-yogi-metaphor](../../obsidian/nautilus/composite-skills-agents-companion-mentors/01-yogi-metaphor.md) (сходство 0.99)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.19)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.19)
+

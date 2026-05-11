@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "ВШЭ научный нет�
 - [04-claude-subagents-patterns](04-claude-subagents-patterns.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-vshe-scientific-networking](../../obsidian/habr-unique-projects/extra-examples/02-vshe-scientific-networking.md) (сходство 0.97)
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.50)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md) (сходство 0.50)
+

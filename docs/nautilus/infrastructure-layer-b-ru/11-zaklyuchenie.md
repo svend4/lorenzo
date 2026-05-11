@@ -103,3 +103,13 @@ _Документ индексирован в поисковой базе реп
 - [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-zaklyuchenie](../../obsidian/nautilus/infrastructure-layer-b-ru/11-zaklyuchenie.md) (сходство 0.98)
+- [300-заключение](../../02-anthropic-vacancies/300-заключение.md) (сходство 0.71)
+- [300-заключение](../../obsidian/02-anthropic-vacancies/300-заключение.md) (сходство 0.70)
+

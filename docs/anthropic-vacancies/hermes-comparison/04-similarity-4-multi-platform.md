@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Сходство 4 Multi plat
 - [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.96)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.61)
+- [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md) (сходство 0.60)
+

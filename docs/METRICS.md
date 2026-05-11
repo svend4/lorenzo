@@ -1,7 +1,7 @@
 # Метрики качества документации
 
 <!-- summary -->
-> Средний балл: **100.0/100** по 1223 документам
+> Средний балл: **95.9/100** по 1226 документам
 
 <!-- tags: quality, metrics, documentation, coverage -->
 
@@ -10,18 +10,18 @@
 
 <!-- alert-added -->
 
-**Файлов:** 1223  **Средний балл:** 100.0/100
+**Файлов:** 1226  **Средний балл:** 95.9/100
 
 ## Качество по разделам
 
 | Раздел | Балл | Ссылок/1K слов | Код-блоков/1K | % с summary | % с тегами |
 |--------|------|----------------|--------------|-------------|------------|
-| **01-svyazi** | 100 | 35.3 | 1.8 | 100% | 100% |
+| **01-svyazi** | 100 | 33.1 | 1.8 | 100% | 100% |
 | **02-anthropic-vacancies** | 100 | 70.6 | 2.3 | 100% | 100% |
-| **03-technology-combinations** | 100 | 40.8 | 2.9 | 100% | 100% |
-| **04-ai-collaborations** | 100 | 31.4 | 1.3 | 100% | 100% |
-| **05-habr-projects** | 100 | 48.0 | 2.1 | 100% | 100% |
-| **root** | 100 | 39.8 | 2.6 | 100% | 100% |
+| **03-technology-combinations** | 100 | 36.4 | 3.1 | 100% | 100% |
+| **04-ai-collaborations** | 99 | 29.3 | 1.3 | 100% | 100% |
+| **05-habr-projects** | 100 | 45.8 | 2.2 | 100% | 100% |
+| **root** | 92 | 45.3 | 2.4 | 86% | 89% |
 
 ## Топ-15 лучших документов
 
@@ -41,20 +41,25 @@
 | `12-roadmap` | 100 | 840 |
 | `13-contacts` | 100 | 1080 |
 | `14-limitations` | 100 | 765 |
-| `QA` | 100 | 333 |
+| `QA` | 100 | 261 |
 
-## Документы, требующие улучшения (0)
+## Документы, требующие улучшения (5)
 
 | Документ | Балл | Что отсутствует |
 |----------|------|----------------|
+| `BACKLINKS` | 30 | summary, tags, TOC, callout |
+| `CLUSTERS` | 30 | summary, tags, TOC, callout |
+| `CROSSREFS` | 30 | summary, tags, TOC, callout |
+| `PRIORITIES` | 30 | summary, tags, TOC, callout |
+| `WORD_FREQ` | 30 | summary, tags, TOC, callout |
 
 ## Общие показатели
 
-- Файлов с `<!-- summary -->`: **100.0%**
-- Файлов с тегами: **100.0%**
-- Файлов с оглавлением: **99.0%**
-- Файлов с callout: **100.0%**
-- Средний балл качества: **100.0/100**
+- Файлов с `<!-- summary -->`: **92.8%**
+- Файлов с тегами: **93.0%**
+- Файлов с оглавлением: **97.1%**
+- Файлов с callout: **94.7%**
+- Средний балл качества: **95.9/100**
 
 ## Использование
 
@@ -75,18 +80,12 @@ python scripts/improve_metrics.py && python scripts/improve_health.py
 - [VALIDATION](VALIDATION.md) — валидация структуры
 - [SCORING](SCORING.md) — готовность к запуску (Go/No-Go)
 
-<!-- backlinks -->
+<!-- similar-docs -->
 
 ---
 
-**Кто ссылается на этот документ (42):**
-- [ACTION_ITEMS](ACTION_ITEMS.md)
-- [ALERTS](ALERTS.md)
-- [BROKEN_LINKS](BROKEN_LINKS.md)
-- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [CONTRADICTIONS](CONTRADICTIONS.md)
-- _...ещё 34_
+**Похожие документы:**
+- [METRICS](obsidian/METRICS.md) (сходство 0.97)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.29)
+- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.29)
 

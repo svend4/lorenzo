@@ -185,3 +185,13 @@ Onboarding Path C (self-declaring repo).
 - [12-onboarding-paths](12-onboarding-paths.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-registry](../../obsidian/nautilus/npp-v1-1/03-registry.md) (сходство 0.98)
+- [78-3-registry-nautilus-json](../../obsidian/02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.79)
+- [78-3-registry-nautilus-json](../../02-anthropic-vacancies/78-3-registry-nautilus-json.md) (сходство 0.79)
+

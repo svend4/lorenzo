@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Когда ты Honestly не
 - [02-tvoyo-proishozhdenie](02-tvoyo-proishozhdenie.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-honestly-ne-znaesh](../obsidian/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.98)
+- [18-escalate-to-max](18-escalate-to-max.md) (сходство 0.60)
+- [361-когда-ты-honestly-не-знаешь](../02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.59)
+

@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt https habr"
 - [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md)
 - _...ещё 18_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-habr-link](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.92)
+- [17-appendix-b-change-log](../../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.68)
+- [17-appendix-b-change-log](../../npp-v1-0/17-appendix-b-change-log.md) (сходство 0.68)
+

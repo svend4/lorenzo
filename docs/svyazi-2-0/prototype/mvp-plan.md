@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "План MVP прототип
 - [executive-summary](../overview/executive-summary.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [mvp-plan](../../obsidian/svyazi-2-0/prototype/mvp-plan.md) (сходство 0.97)
+- [05-план-прототипа-и-возможные-контакты](../../obsidian/04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
+- [05-план-прототипа-и-возможные-контакты](../../04-ai-collaborations/05-план-прототипа-и-возможные-контакты.md) (сходство 0.32)
+

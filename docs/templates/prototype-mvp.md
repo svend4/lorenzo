@@ -151,3 +151,13 @@ python scripts/improve_template_init.py --template prototype-mvp --output docs/n
 - [TASKS_INDEX](../TASKS_INDEX.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [prototype-mvp](../obsidian/templates/prototype-mvp.md) (сходство 0.92)
+- [mega-stack](mega-stack.md) (сходство 0.23)
+- [mega-stack](../obsidian/templates/mega-stack.md) (сходство 0.23)
+

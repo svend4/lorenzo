@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Интегральный по
 - [01-profile-five-layers](../01-initial-analysis/01-profile-five-layers.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-three-archetypes](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/01-three-archetypes.md) (сходство 0.98)
+- [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.19)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.19)
+

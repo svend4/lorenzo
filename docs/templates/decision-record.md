@@ -71,3 +71,13 @@ python scripts/improve_decision_record.py
 - [experiment-log](experiment-log.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [decision-record](../obsidian/templates/decision-record.md) (сходство 0.96)
+- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.44)
+- [MCP_DASHBOARD](../obsidian/MCP_DASHBOARD.md) (сходство 0.42)
+

@@ -130,3 +130,13 @@ Implementation SHOULD выдавать warning (но не отклонять), �
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-registry](../../obsidian/nautilus/npp-v1-0/03-registry.md) (сходство 0.99)
+- [08-3-registry-nautilus-json](../../obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.74)
+- [08-3-registry-nautilus-json](../../02-anthropic-vacancies/08-3-registry-nautilus-json.md) (сходство 0.73)
+

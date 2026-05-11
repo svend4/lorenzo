@@ -95,3 +95,13 @@ _Материал доступен для семантического поис�
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-passport](../../obsidian/nautilus/npp-v1-0/04-passport.md) (сходство 0.98)
+- [09-4-passport-passport-md](../../02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.37)
+- [09-4-passport-passport-md](../../obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md) (сходство 0.36)
+

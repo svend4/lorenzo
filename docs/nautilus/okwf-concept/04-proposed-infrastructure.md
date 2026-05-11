@@ -261,3 +261,13 @@ python scripts/improve_semantic_search.py --query "4 Proposed Infrastructure"
 - [07-open-questions](../double-triangle-architecture/07-open-questions.md)
 - _...ещё 9_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-proposed-infrastructure](../../obsidian/nautilus/okwf-concept/04-proposed-infrastructure.md) (сходство 0.99)
+- [158-4-proposed-infrastructure](../../obsidian/02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.90)
+- [158-4-proposed-infrastructure](../../02-anthropic-vacancies/158-4-proposed-infrastructure.md) (сходство 0.90)
+

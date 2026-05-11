@@ -84,3 +84,13 @@ python scripts/improve_semantic_search.py --query "Моё честное мне�
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-honest-opinion](../../obsidian/lorenzo-agent/operationalized/03-honest-opinion.md) (сходство 0.93)
+- [06-section-6-proposer-role](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md) (сходство 0.42)
+- [06-section-6-proposer-role](../../anthropic-vacancies/beneficial-deployments-concept/06-section-6-proposer-role.md) (сходство 0.42)
+

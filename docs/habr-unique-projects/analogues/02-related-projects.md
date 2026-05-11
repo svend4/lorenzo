@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Смежные проекты
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-related-projects](../../obsidian/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.98)
+- [02-related-projects-context](../../obsidian/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.57)
+- [02-related-projects-context](../../ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.57)
+

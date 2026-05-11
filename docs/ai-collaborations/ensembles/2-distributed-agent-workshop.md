@@ -94,3 +94,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 2 Distribute
 - [6-continuous-eval-loop](6-continuous-eval-loop.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-distributed-agent-workshop](../../obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md) (сходство 0.99)
+- [1-agentic-knowledge-os](1-agentic-knowledge-os.md) (сходство 0.22)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.22)
+

@@ -118,3 +118,13 @@ is_fallback=False
 - [06-adapter-interface](06-adapter-interface.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-portal-entry](../../obsidian/nautilus/npp-v1-1/07-portal-entry.md) (сходство 0.98)
+- [82-7-portalentry-structure](../../obsidian/02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.64)
+- [82-7-portalentry-structure](../../02-anthropic-vacancies/82-7-portalentry-structure.md) (сходство 0.63)
+

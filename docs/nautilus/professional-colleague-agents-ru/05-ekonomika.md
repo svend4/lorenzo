@@ -216,3 +216,13 @@ python scripts/improve_semantic_search.py --query "5 Экономика тира
 - [08-pilot-sgb-kolega](08-pilot-sgb-kolega.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-ekonomika](../../obsidian/nautilus/professional-colleague-agents-ru/05-ekonomika.md) (сходство 0.99)
+- [236-5-экономика-тиражирования-по-профессии](../../02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.87)
+- [236-5-экономика-тиражирования-по-профессии](../../obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) (сходство 0.86)
+

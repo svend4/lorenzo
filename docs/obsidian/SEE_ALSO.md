@@ -82,3 +82,13 @@ python scripts/improve_see_also.py
 - [[TABLES]]
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](../SEE_ALSO.md) (сходство 0.94)
+- [BACKLINKS](BACKLINKS.md) (сходство 0.29)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md) (сходство 0.26)
+

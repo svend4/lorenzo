@@ -216,3 +216,13 @@ python scripts/improve_keyword_index.py
 - [[READABILITY]]
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KEYWORD_INDEX](../KEYWORD_INDEX.md) (сходство 0.98)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.39)
+- [CONCEPT_GRAPH](../CONCEPT_GRAPH.md) (сходство 0.37)
+

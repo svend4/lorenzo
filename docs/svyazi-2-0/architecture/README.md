@@ -1,10 +1,4 @@
 # architecture
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 7
 
@@ -34,12 +28,12 @@
 - _...ещё 4_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «architecture». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/svyazi-2-0/architecture/README.md) (сходство 0.84)
+- [README](../security/README.md) (сходство 0.44)
+- [README](../../nautilus/multi-tier-architecture/README.md) (сходство 0.44)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "Final note Ты experiment"
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [20-experiment](../obsidian/lorenzo-agent/20-experiment.md) (сходство 0.99)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md) (сходство 0.55)
+- [17-honestly-ne-znaesh](../obsidian/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.55)
+

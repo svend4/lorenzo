@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Бонус родитель I
 - [2-tsu-mome](2-tsu-mome.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [6-bonus-rram-memristor](../../obsidian/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.97)
+- [7-metaphor](7-metaphor.md) (сходство 0.54)
+- [7-metaphor](../../obsidian/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.53)
+

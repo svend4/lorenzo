@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Виктория Дочкин
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-dochkina-sequential](../../obsidian/habr-unique-projects/key-findings/04-dochkina-sequential.md) (сходство 0.96)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md) (сходство 0.27)
+- [05-supplementary-infrastructure](../../obsidian/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.26)
+

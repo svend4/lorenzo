@@ -122,3 +122,13 @@ python scripts/improve_template_init.py --template experiment-log --output docs/
 - [README](README.md)
 - [prototype-mvp](prototype-mvp.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [experiment-log](../obsidian/templates/experiment-log.md) (сходство 0.90)
+- [meeting-notes](../obsidian/templates/meeting-notes.md) (сходство 0.46)
+- [meeting-notes](meeting-notes.md) (сходство 0.46)
+

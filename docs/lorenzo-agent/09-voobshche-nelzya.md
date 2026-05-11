@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Что ты НЕ МОЖЕШЬ
 - [08-bez-max-approval](08-bez-max-approval.md)
 - _...ещё 9_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-voobshche-nelzya](../obsidian/lorenzo-agent/09-voobshche-nelzya.md) (сходство 0.98)
+- [16-vsegda-delaesh](16-vsegda-delaesh.md) (сходство 0.58)
+- [16-vsegda-delaesh](../obsidian/lorenzo-agent/16-vsegda-delaesh.md) (сходство 0.57)
+

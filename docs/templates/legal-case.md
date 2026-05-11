@@ -135,3 +135,13 @@ python scripts/improve_template_init.py --template legal-case --output docs/new-
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [legal-case](../obsidian/templates/legal-case.md) (сходство 0.93)
+- [meeting-notes](meeting-notes.md) (сходство 0.23)
+- [meeting-notes](../obsidian/templates/meeting-notes.md) (сходство 0.22)
+

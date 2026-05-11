@@ -98,3 +98,13 @@ python scripts/improve_semantic_search.py --query "Вопрос разделит
 - [09-minuses-and-risks](09-minuses-and-risks.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-rephrasing](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) (сходство 0.98)
+- [05-platform-not-position](../profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.47)
+- [05-platform-not-position](../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.47)
+

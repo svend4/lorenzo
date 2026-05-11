@@ -74,3 +74,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Насчёт �
 - [02-two-tier-publication](02-two-tier-publication.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-anonymization](../../obsidian/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.97)
+- [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md) (сходство 0.23)
+- [00-question-can-it-apply-to-docs](../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) (сходство 0.22)
+

@@ -99,3 +99,13 @@ python scripts/improve_template_init.py --template glossary-entry --output docs/
 - [README](README.md)
 - [faq-entry](faq-entry.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [glossary-entry](../obsidian/templates/glossary-entry.md) (сходство 0.90)
+- [faq-entry](faq-entry.md) (сходство 0.56)
+- [faq-entry](../obsidian/templates/faq-entry.md) (сходство 0.56)
+

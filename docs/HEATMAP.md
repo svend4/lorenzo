@@ -1,5 +1,16 @@
 # Тепловая карта тем
 
+<!-- toc -->
+## Содержание
+
+- [Числовые значения (‰)](#числовые-значения)
+- [Доминирующие темы по разделам](#доминирующие-темы-по-разделам)
+- [Концентрация тем](#концентрация-тем)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -82,3 +93,29 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [COVERAGE](COVERAGE.md)
+- [INDEX](INDEX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [HEATMAP](obsidian/HEATMAP.md) (сходство 0.88)
+- [DENSITY](DENSITY.md) (сходство 0.45)
+- [DENSITY](obsidian/DENSITY.md) (сходство 0.43)
+

@@ -1,16 +1,5 @@
 # review-methodology
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 17
 
 ## Содержание
@@ -49,9 +38,12 @@
 - _...ещё 11_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/nautilus/review-methodology/README.md) (сходство 0.92)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.29)
+- [README](../innovation-transitions/README.md) (сходство 0.28)
+

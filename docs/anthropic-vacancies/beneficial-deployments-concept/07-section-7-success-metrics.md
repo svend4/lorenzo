@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Section 7 Success metrics"
 - [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-section-7-success-metrics](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.98)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md) (сходство 0.55)
+- [09-section-9-timeliness](09-section-9-timeliness.md) (сходство 0.55)
+

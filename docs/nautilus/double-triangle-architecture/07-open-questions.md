@@ -181,3 +181,13 @@ python scripts/improve_semantic_search.py --query "7 Open Questions"
 - [08-call-to-action](08-call-to-action.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-open-questions](../../obsidian/nautilus/double-triangle-architecture/07-open-questions.md) (сходство 0.98)
+- [144-7-open-questions](../../02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.88)
+- [144-7-open-questions](../../obsidian/02-anthropic-vacancies/144-7-open-questions.md) (сходство 0.87)
+

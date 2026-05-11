@@ -165,3 +165,13 @@ python scripts/extract_mhtml.py "Вакансии в Anthropic - Claude" output.
 - [WORD_FREQ](../WORD_FREQ.md)
 - [08-export](08-export.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-extraction](../obsidian/processing-guide/02-extraction.md) (сходство 0.99)
+- [PROCESSING_GUIDE](../obsidian/processing-guide/PROCESSING_GUIDE.md) (сходство 0.17)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md) (сходство 0.17)
+

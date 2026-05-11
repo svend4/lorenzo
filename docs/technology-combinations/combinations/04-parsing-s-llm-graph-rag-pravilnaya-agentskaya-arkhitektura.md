@@ -85,3 +85,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 4 Пар
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](../../obsidian/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.96)
+- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.36)
+- [07-crawl4ai-docling-yodoca-consolidator](../../obsidian/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.35)
+

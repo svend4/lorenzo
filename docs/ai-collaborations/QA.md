@@ -103,3 +103,13 @@ _Смотрите также: [README](../README.md) · [Глоссарий](../
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/ai-collaborations/QA.md) (сходство 0.99)
+- [QA](../svyazi-2-0/QA.md) (сходство 0.80)
+- [QA](../obsidian/svyazi-2-0/QA.md) (сходство 0.79)
+

@@ -140,3 +140,13 @@ python scripts/improve_template_init.py --template agent-spec --output docs/new-
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [agent-spec](../obsidian/templates/agent-spec.md) (сходство 0.93)
+- [mega-stack](mega-stack.md) (сходство 0.20)
+- [mega-stack](../obsidian/templates/mega-stack.md) (сходство 0.19)
+

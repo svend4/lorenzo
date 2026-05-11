@@ -222,3 +222,13 @@ python scripts/improve_semantic_search.py --query "8 Seven Domains of Applicatio
 - [README](README.md)
 - [07-application-domains](../professional-colleague-agents-en/07-application-domains.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-seven-domains](../../obsidian/nautilus/composite-skills-agents/08-seven-domains.md) (сходство 0.99)
+- [261-8-seven-domains-of-application](../../02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.89)
+- [261-8-seven-domains-of-application](../../obsidian/02-anthropic-vacancies/261-8-seven-domains-of-application.md) (сходство 0.88)
+

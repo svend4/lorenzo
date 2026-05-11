@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Пара 7 AutoResearch ци�
 - [README](README.md)
 - [2-autoresearch-legal](../final-ensembles/2-autoresearch-legal.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [7-autoresearch-distributed](../../obsidian/habr-unique-projects/deep-pairs/7-autoresearch-distributed.md) (сходство 0.94)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.22)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../obsidian/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.21)
+

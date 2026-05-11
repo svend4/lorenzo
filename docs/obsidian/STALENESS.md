@@ -106,3 +106,13 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 - [[SPELLCHECK]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [STALENESS](../STALENESS.md) (сходство 0.97)
+- [COVERAGE](COVERAGE.md) (сходство 0.26)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md) (сходство 0.25)
+

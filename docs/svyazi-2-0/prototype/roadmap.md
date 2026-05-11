@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Дорожная карта �
 - [reading-paths](../../reading-paths.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [roadmap](../../obsidian/svyazi-2-0/prototype/roadmap.md) (сходство 0.99)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.78)
+- [12-дорожная-карта-прототипа-следующей-итерации](../../obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) (сходство 0.78)
+

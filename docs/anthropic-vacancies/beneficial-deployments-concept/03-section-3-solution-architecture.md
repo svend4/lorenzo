@@ -82,3 +82,13 @@ python scripts/improve_semantic_search.py --query "Section 3 Proposed solution"
 - [09-section-9-timeliness](09-section-9-timeliness.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-section-3-solution-architecture](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.98)
+- [09-section-9-timeliness](09-section-9-timeliness.md) (сходство 0.53)
+- [06-section-6-proposer-role](06-section-6-proposer-role.md) (сходство 0.53)
+

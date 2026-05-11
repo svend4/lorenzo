@@ -59,3 +59,13 @@ python scripts/improve_semantic_search.py --query "Product Management Support Op
 - [05-marketing-brand](05-marketing-brand.md)
 - _...ещё 12_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-product-management-support-ops](../../obsidian/anthropic-vacancies/clusters/09-product-management-support-ops.md) (сходство 0.97)
+- [13-communications](13-communications.md) (сходство 0.80)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.78)
+

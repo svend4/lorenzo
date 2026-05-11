@@ -80,3 +80,13 @@ python scripts/improve_orphans.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ORPHANS](../ORPHANS.md) (сходство 0.96)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.51)
+- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.47)
+

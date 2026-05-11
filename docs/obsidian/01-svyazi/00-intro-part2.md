@@ -78,3 +78,13 @@ python scripts/improve_semantic_search.py --query "Svyazi 2.0 архитекту
 - [[12-technical-program-management]]
 - [[03-similarity-3-mcp-support]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-intro-part2](../../01-svyazi/00-intro-part2.md) (сходство 0.94)
+- [SEARCH_RESULTS](../SEARCH_RESULTS.md) (сходство 0.46)
+- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.45)
+

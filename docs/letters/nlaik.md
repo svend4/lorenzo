@@ -85,3 +85,13 @@ python scripts/improve_nlaik.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [nlaik](../obsidian/letters/nlaik.md) (сходство 0.98)
+- [spbmolot](spbmolot.md) (сходство 0.23)
+- [vitalyoborin](vitalyoborin.md) (сходство 0.22)
+

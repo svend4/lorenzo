@@ -260,3 +260,13 @@ python scripts/improve_semantic_search.py --query "8 Pilot Proposal SGB Advocate
 - [README](README.md)
 - [09-phased-rollout](../representative-agent-layer-en/09-phased-rollout.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-pilot-sgb-advocate](../../obsidian/nautilus/professional-colleague-agents-en/08-pilot-sgb-advocate.md) (сходство 0.98)
+- [219-8-pilot-proposal-sgb-advocate-colleague](../../02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.86)
+- [219-8-pilot-proposal-sgb-advocate-colleague](../../obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) (сходство 0.86)
+

@@ -63,3 +63,13 @@ python scripts/improve_semantic_search.py --query "habr unique projects поис
 - [4-summary-authors](final-ensembles/4-summary-authors.md)
 - [README](search-strategy/README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/habr-unique-projects/README.md) (сходство 0.99)
+- [4-summary-authors](../obsidian/habr-unique-projects/final-ensembles/4-summary-authors.md) (сходство 0.28)
+- [4-summary-authors](final-ensembles/4-summary-authors.md) (сходство 0.28)
+

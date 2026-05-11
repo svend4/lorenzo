@@ -118,3 +118,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [26-ast-based-code-analysis-for-legal-automation](../../obsidian/technology-combinations/combinations/26-ast-based-code-analysis-for-legal-automation.md) (сходство 0.97)
+- [29-meta-programmatic-legal-template-generator](29-meta-programmatic-legal-template-generator.md) (сходство 0.36)
+- [29-meta-programmatic-legal-template-generator](../../obsidian/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.35)
+

@@ -186,3 +186,13 @@ python scripts/improve_semantic_search.py --query "6 Coordination and Disagreeme
 - [03-what-makes-csa](03-what-makes-csa.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-coordination-disagreement](../../obsidian/nautilus/composite-skills-agents/06-coordination-disagreement.md) (сходство 0.99)
+- [259-6-coordination-and-disagreement-resolution](../../02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.84)
+- [259-6-coordination-and-disagreement-resolution](../../obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) (сходство 0.84)
+

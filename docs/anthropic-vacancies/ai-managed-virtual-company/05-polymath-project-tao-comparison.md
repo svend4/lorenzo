@@ -126,3 +126,13 @@ python scripts/improve_semantic_search.py --query "Сравнение с Terence
 - [06-angel-vs-demon-duality](06-angel-vs-demon-duality.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-polymath-project-tao-comparison](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.99)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.41)
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.41)
+

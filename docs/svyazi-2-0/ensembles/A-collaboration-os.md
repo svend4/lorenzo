@@ -78,3 +78,13 @@ _Документ индексирован в базе знаний репози
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [A-collaboration-os](../../obsidian/svyazi-2-0/ensembles/A-collaboration-os.md) (сходство 0.97)
+- [E-execution-plane](E-execution-plane.md) (сходство 0.24)
+- [H-research-to-product-flywheel](H-research-to-product-flywheel.md) (сходство 0.24)
+

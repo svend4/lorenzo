@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 9 Agent 
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска, BM25 и навигации через граф связей репозитория._ _Индексировано в поисковой базе репозитория Lorenzo._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-agent-orchestration-stack](../../obsidian/technology-combinations/combinations/09-agent-orchestration-stack.md) (сходство 0.97)
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.31)
+- [09-14-extended](../../obsidian/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.30)
+

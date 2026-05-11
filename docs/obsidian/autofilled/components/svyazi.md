@@ -117,3 +117,13 @@ _Компонент экосистемы Svyazi 2.0_
 ```bash
 python scripts/improve_semantic_search.py --query "Svyazi"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [svend4](svend4.md) (сходство 1.00)
+- [sgb](sgb.md) (сходство 1.00)
+- [nautilus](nautilus.md) (сходство 1.00)
+

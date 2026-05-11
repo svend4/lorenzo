@@ -147,3 +147,13 @@ python scripts/improve_semantic_search.py --query "Матрица компоне
 - [TABLES](TABLES.md)
 - [TECH_RADAR](TECH_RADAR.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) (сходство 0.97)
+- [spbmolot](autofilled/components/spbmolot.md) (сходство 0.21)
+- [ONBOARDING](ONBOARDING.md) (сходство 0.21)
+

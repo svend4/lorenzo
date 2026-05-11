@@ -181,3 +181,13 @@ python scripts/improve_semantic_search.py --query "Какой под агент 
 - [02-what-was-missing-in-paper-6](02-what-was-missing-in-paper-6.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-the-spectrum](../../obsidian/nautilus/composite-skills-agents-companion-mentors/03-the-spectrum.md) (сходство 0.99)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.36)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.36)
+

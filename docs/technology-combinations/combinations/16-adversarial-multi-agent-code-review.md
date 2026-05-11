@@ -109,3 +109,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 16 Adver
 - [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-adversarial-multi-agent-code-review](../../obsidian/technology-combinations/combinations/16-adversarial-multi-agent-code-review.md) (сходство 0.97)
+- [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md) (сходство 0.30)
+- [23-security-first-code-review-pipeline](../../obsidian/technology-combinations/combinations/23-security-first-code-review-pipeline.md) (сходство 0.29)
+

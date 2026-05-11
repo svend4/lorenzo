@@ -82,3 +82,13 @@ python scripts/improve_sentinel_check.py --strict
 python scripts/improve_sentinel_check.py --section 05-habr-projects
 ```
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SENTINEL](obsidian/SENTINEL.md) (сходство 0.96)
+- [security-routing-plane](svyazi-2-0/components/security-routing-plane.md) (сходство 0.10)
+- [security-routing-plane](obsidian/svyazi-2-0/components/security-routing-plane.md) (сходство 0.10)
+

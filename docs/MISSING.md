@@ -1,5 +1,16 @@
 # Карта пробелов знаний
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Итог](#итог)
+- [Рекомендации](#рекомендации)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -92,4 +103,14 @@ python scripts/improve_missing.py
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - _...ещё 7_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MISSING](obsidian/MISSING.md) (сходство 0.97)
+- [CONSISTENCY](CONSISTENCY.md) (сходство 0.33)
+- [CONSISTENCY](obsidian/CONSISTENCY.md) (сходство 0.33)
 

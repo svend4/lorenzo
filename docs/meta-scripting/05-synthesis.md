@@ -176,3 +176,13 @@ scripts/
 - [02-architecture](02-architecture.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-synthesis](../obsidian/meta-scripting/05-synthesis.md) (сходство 0.98)
+- [02-architecture](02-architecture.md) (сходство 0.23)
+- [02-architecture](../obsidian/meta-scripting/02-architecture.md) (сходство 0.23)
+

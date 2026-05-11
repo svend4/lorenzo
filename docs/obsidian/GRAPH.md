@@ -695,3 +695,13 @@ digraph lorenzo {
 - [[SEARCH]]
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GRAPH](../GRAPH.md) (сходство 0.95)
+- [MINDMAP](MINDMAP.md) (сходство 0.51)
+- [NETWORK](NETWORK.md) (сходство 0.48)
+

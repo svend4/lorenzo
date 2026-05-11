@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt А под ка
 - [01-response](01-response.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-scenario](../../obsidian/lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.93)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.56)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.56)
+

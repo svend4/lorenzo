@@ -89,3 +89,13 @@ python scripts/improve_semantic_search.py --query "Логика прогресс
 - [06-level-5-full-network](06-level-5-full-network.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-progression-logic](../../obsidian/lorenzo-agent/phased-deployment/07-progression-logic.md) (сходство 0.98)
+- [01-level-0-manual](01-level-0-manual.md) (сходство 0.48)
+- [01-level-0-manual](../../obsidian/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.47)
+

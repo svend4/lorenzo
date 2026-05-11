@@ -130,3 +130,13 @@ _Автоматически сгенерировано по 355 файлам р�
 # Запуск
 python scripts/improve_qa.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/02-anthropic-vacancies/QA.md) (сходство 0.99)
+- [QA](../QA.md) (сходство 0.82)
+- [QA](../obsidian/QA.md) (сходство 0.81)
+

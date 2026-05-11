@@ -217,3 +217,13 @@ if __name__ == "__main__":
 - [03-catalog](03-catalog.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-enrichment](../obsidian/meta-scripting/04-enrichment.md) (сходство 0.94)
+- [03-catalog](03-catalog.md) (сходство 0.20)
+- [READING_LIST](../READING_LIST.md) (сходство 0.20)
+

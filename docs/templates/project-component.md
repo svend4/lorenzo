@@ -68,3 +68,13 @@ python scripts/improve_project_component.py
 - [agent-spec](agent-spec.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [project-component](../obsidian/templates/project-component.md) (сходство 0.95)
+- [ensemble](ensemble.md) (сходство 0.38)
+- [ensemble](../obsidian/templates/ensemble.md) (сходство 0.38)
+

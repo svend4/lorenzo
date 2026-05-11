@@ -156,3 +156,13 @@ python scripts/prototype_demo.py --query "агент файловая систе
 ```bash
 python scripts/prototype_demo.py --query "ваш запрос"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DEMO](obsidian/DEMO.md) (сходство 0.98)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md) (сходство 0.15)
+- [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) (сходство 0.15)
+

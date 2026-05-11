@@ -120,3 +120,13 @@ python scripts/improve_semantic_search.py --query "5 Связь с сущест�
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-relation-existing-methodologies](../../obsidian/nautilus/review-methodology/06-relation-existing-methodologies.md) (сходство 0.98)
+- [112-5-связь-с-существующими-методологиями](../../obsidian/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) (сходство 0.80)
+- [112-5-связь-с-существующими-методологиями](../../02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) (сходство 0.80)
+

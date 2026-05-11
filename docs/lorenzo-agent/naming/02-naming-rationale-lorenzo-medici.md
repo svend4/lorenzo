@@ -346,3 +346,13 @@ python scripts/improve_semantic_search.py --query "Что взять agent contr
 - [03-dhlab-umbrella](03-dhlab-umbrella.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-naming-rationale-lorenzo-medici](../../obsidian/lorenzo-agent/naming/02-naming-rationale-lorenzo-medici.md) (сходство 0.99)
+- [03-dhlab-umbrella](03-dhlab-umbrella.md) (сходство 0.24)
+- [03-dhlab-umbrella](../../obsidian/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.24)
+

@@ -32,3 +32,13 @@ date: 2026-05-11
 - [[kksudo]]
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../autofilled/README.md) (сходство 0.68)
+- [README](../glossary/README.md) (сходство 0.61)
+- [README](../technology-combinations/research-reports/README.md) (сходство 0.58)
+

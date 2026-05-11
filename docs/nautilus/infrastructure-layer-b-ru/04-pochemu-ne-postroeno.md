@@ -114,3 +114,13 @@ python scripts/improve_semantic_search.py --query "Почему это не бы
 - [11-zaklyuchenie](11-zaklyuchenie.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-pochemu-ne-postroeno](../../obsidian/nautilus/infrastructure-layer-b-ru/04-pochemu-ne-postroeno.md) (сходство 0.98)
+- [293-почему-это-не-было-построено](../../02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.81)
+- [293-почему-это-не-было-построено](../../obsidian/02-anthropic-vacancies/293-почему-это-не-было-построено.md) (сходство 0.80)
+

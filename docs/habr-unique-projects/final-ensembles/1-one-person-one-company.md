@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 1 Один �
 - [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [1-one-person-one-company](../../obsidian/habr-unique-projects/final-ensembles/1-one-person-one-company.md) (сходство 0.95)
+- [3-discovery-research](3-discovery-research.md) (сходство 0.43)
+- [3-discovery-research](../../obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.41)
+

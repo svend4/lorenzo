@@ -96,3 +96,13 @@ python scripts/improve_semantic_search.py --query "What Industry Will Likely Bui
 - [08-recursive-insight](08-recursive-insight.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-what-industry-will-build](../../obsidian/nautilus/infrastructure-layer-b-en/09-what-industry-will-build.md) (сходство 0.97)
+- [282-what-industry-will-likely-build](../../02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.72)
+- [282-what-industry-will-likely-build](../../obsidian/02-anthropic-vacancies/282-what-industry-will-likely-build.md) (сходство 0.71)
+

@@ -1,16 +1,5 @@
 # continuation
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 10
 
 ## Содержание
@@ -42,12 +31,12 @@
 - _...ещё 4_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «continuation». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/ai-collaborations/continuation/README.md) (сходство 0.88)
+- [README](../../svyazi-2-0/limitations/README.md) (сходство 0.38)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.35)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

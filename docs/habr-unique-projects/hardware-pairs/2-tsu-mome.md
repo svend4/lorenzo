@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Пара 2 Термодина
 - [README](README.md)
 - [README](../../nautilus/README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-tsu-mome](../../obsidian/habr-unique-projects/hardware-pairs/2-tsu-mome.md) (сходство 0.96)
+- [02-memnet](../key-findings/02-memnet.md) (сходство 0.23)
+- [02-memnet](../../obsidian/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.22)
+

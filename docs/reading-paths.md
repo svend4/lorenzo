@@ -150,3 +150,13 @@ python scripts/improve_semantic_search.py --query "Reading paths рекомен�
 - [signals](anthropic-vacancies/signals.md)
 - _...ещё 9_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [reading-paths](obsidian/reading-paths.md) (сходство 0.99)
+- [PRIORITIES](obsidian/PRIORITIES.md) (сходство 0.20)
+- [PRIORITIES](PRIORITIES.md) (сходство 0.19)
+

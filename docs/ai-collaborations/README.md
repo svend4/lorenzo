@@ -1,10 +1,4 @@
 # ai-collaborations
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 2
 
@@ -36,12 +30,12 @@
 - [source-projects](source-projects.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ai-collaborations». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../obsidian/ai-collaborations/README.md) (сходство 0.80)
+- [README](../svyazi-2-0/overview/README.md) (сходство 0.47)
+- [README](../habr-unique-projects/analogues/README.md) (сходство 0.45)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

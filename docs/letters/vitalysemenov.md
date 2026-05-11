@@ -89,3 +89,13 @@ python scripts/improve_vitalysemenov.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [vitalysemenov](../obsidian/letters/vitalysemenov.md) (сходство 0.98)
+- [vitalyoborin](vitalyoborin.md) (сходство 0.27)
+- [anastasiyaw](anastasiyaw.md) (сходство 0.27)
+

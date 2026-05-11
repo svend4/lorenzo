@@ -1,10 +1,4 @@
 # npp-v1-1
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 23
 
@@ -50,9 +44,12 @@
 - _...ещё 17_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/nautilus/npp-v1-1/README.md) (сходство 0.91)
+- [README](../npp-v1-0/README.md) (сходство 0.66)
+- [README](../../obsidian/nautilus/npp-v1-0/README.md) (сходство 0.60)
+

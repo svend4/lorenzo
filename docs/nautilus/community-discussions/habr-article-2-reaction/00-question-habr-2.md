@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt https www"
 - [00-question-can-it-apply-to-docs](../../npp-humanitarian-extension/00-question-can-it-apply-to-docs.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-habr-2](../../../obsidian/nautilus/community-discussions/habr-article-2-reaction/00-question-habr-2.md) (сходство 0.95)
+- [00-question-habr-link](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.52)
+- [00-question-habr-link](../habr-article-1-reaction/00-question-habr-link.md) (сходство 0.50)
+

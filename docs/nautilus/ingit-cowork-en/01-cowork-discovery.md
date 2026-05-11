@@ -155,3 +155,13 @@ python scripts/improve_semantic_search.py --query "1 The Cowork Discovery and Wh
 - [10-strategic-positioning](10-strategic-positioning.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-cowork-discovery](../../obsidian/nautilus/ingit-cowork-en/01-cowork-discovery.md) (сходство 0.99)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.87)
+- [309-1-the-cowork-discovery-and-why-it-changes-everythi](../../obsidian/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md) (сходство 0.87)
+

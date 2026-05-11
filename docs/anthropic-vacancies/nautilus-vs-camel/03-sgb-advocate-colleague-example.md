@@ -114,3 +114,13 @@ python scripts/improve_semantic_search.py --query "Конкретный прим
 - [05-what-to-do-right-now](05-what-to-do-right-now.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-sgb-advocate-colleague-example](../../obsidian/anthropic-vacancies/nautilus-vs-camel/03-sgb-advocate-colleague-example.md) (сходство 0.95)
+- [08-personal-multi-agent-hub](../../obsidian/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.30)
+- [08-personal-multi-agent-hub](../../habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.29)
+

@@ -116,3 +116,13 @@ _Документ индексирован в поисковой базе реп
 - [01-q1-what-lorenzo-is](01-q1-what-lorenzo-is.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-q5-authority-limits](../../obsidian/lorenzo-agent/specification/05-q5-authority-limits.md) (сходство 0.97)
+- [08-bez-max-approval](../08-bez-max-approval.md) (сходство 0.32)
+- [08-bez-max-approval](../../obsidian/lorenzo-agent/08-bez-max-approval.md) (сходство 0.31)
+

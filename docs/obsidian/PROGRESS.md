@@ -7,6 +7,16 @@ date: 2026-05-11
 
 # Прогресс MVP
 
+<!-- summary -->
+> _Обновлено: 2026-05-11 (improve_progress_sync.py)_
+**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
+
+---
+<!-- tags: memory, orchestration, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
@@ -89,4 +99,14 @@ cat docs/contacts/anastasiyaw.md
 - [[READABILITY]]
 - [[READING_TIME]]
 - _...ещё 3_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PROGRESS](../PROGRESS.md) (сходство 0.97)
+- [SCHEDULE](SCHEDULE.md) (сходство 0.19)
+- [TASKS_INDEX](TASKS_INDEX.md) (сходство 0.17)
 

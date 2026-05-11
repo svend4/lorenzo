@@ -218,3 +218,13 @@ python scripts/improve_semantic_search.py --query "Компоненты алфа
 - [02-agentops-trace-envelope](../ai-collaborations/continuation/02-agentops-trace-envelope.md)
 - _...ещё 75_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [components-by-name](../obsidian/glossary/components-by-name.md) (сходство 0.95)
+- [authors-by-name](authors-by-name.md) (сходство 0.28)
+- [README](../obsidian/technology-combinations/combinations/README.md) (сходство 0.28)
+

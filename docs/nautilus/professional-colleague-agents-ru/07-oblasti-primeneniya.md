@@ -263,3 +263,13 @@ python scripts/improve_semantic_search.py --query "7 Области примен
 - [README](README.md)
 - [04-desyat-oblastey](../representative-agent-layer-ru/04-desyat-oblastey.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-oblasti-primeneniya](../../obsidian/nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md) (сходство 0.98)
+- [238-7-области-применения](../../obsidian/02-anthropic-vacancies/238-7-области-применения.md) (сходство 0.90)
+- [238-7-области-применения](../../02-anthropic-vacancies/238-7-области-применения.md) (сходство 0.90)
+

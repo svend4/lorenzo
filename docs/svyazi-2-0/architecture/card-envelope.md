@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Card Envelope"
 - [integration-spec](integration-spec.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [card-envelope](../../obsidian/svyazi-2-0/architecture/card-envelope.md) (сходство 0.97)
+- [memory-write-policy](memory-write-policy.md) (сходство 0.34)
+- [memory-write-policy](../../obsidian/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.33)
+

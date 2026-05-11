@@ -90,3 +90,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 10 Legal
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-legal-document-intelligence-pipeline](../../obsidian/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.96)
+- [04-sozialrecht-domain](../../obsidian/03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.49)
+- [04-sozialrecht-domain](../../03-technology-combinations/04-sozialrecht-domain.md) (сходство 0.48)
+

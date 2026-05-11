@@ -65,3 +65,13 @@ python scripts/improve_semantic_search.py --query "Три ключевых ка�
 - [components-by-name](../../glossary/components-by-name.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-three-key-candidates](../../obsidian/ai-collaborations/candidates/01-three-key-candidates.md) (сходство 0.97)
+- [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.70)
+- [01-three-direct-analogues](../../obsidian/habr-unique-projects/analogues/01-three-direct-analogues.md) (сходство 0.69)
+

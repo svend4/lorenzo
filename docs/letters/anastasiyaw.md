@@ -87,3 +87,13 @@ python scripts/improve_anastasiyaw.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [anastasiyaw](../obsidian/letters/anastasiyaw.md) (сходство 0.98)
+- [vitalyoborin](vitalyoborin.md) (сходство 0.28)
+- [vitalyoborin](../obsidian/letters/vitalyoborin.md) (сходство 0.27)
+

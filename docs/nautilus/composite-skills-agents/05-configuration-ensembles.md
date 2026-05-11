@@ -179,3 +179,13 @@ python scripts/improve_semantic_search.py --query "5 Configuration How Principal
 - [06-coordination-disagreement](06-coordination-disagreement.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-configuration-ensembles](../../obsidian/nautilus/composite-skills-agents/05-configuration-ensembles.md) (сходство 0.99)
+- [258-5-configuration-how-principals-build-their-ensembl](../../02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.84)
+- [258-5-configuration-how-principals-build-their-ensembl](../../obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) (сходство 0.84)
+

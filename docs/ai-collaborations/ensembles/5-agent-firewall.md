@@ -89,3 +89,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 5 Agent Fire
 - [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [5-agent-firewall](../../obsidian/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.98)
+- [04-memory-firewall-vs-prompt-worms](../continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.21)
+- [04-memory-firewall-vs-prompt-worms](../../obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.21)
+

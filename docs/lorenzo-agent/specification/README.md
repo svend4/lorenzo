@@ -1,16 +1,5 @@
 # specification
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 12
 
 ## Содержание
@@ -44,9 +33,12 @@
 - _...ещё 1_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/lorenzo-agent/specification/README.md) (сходство 0.88)
+- [README](../../svyazi-2-0/outreach/README.md) (сходство 0.33)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.32)
+

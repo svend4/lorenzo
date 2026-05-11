@@ -86,3 +86,13 @@ python scripts/improve_semantic_search.py --query "Что этот докуме�
 - [11-zaklyuchenie](11-zaklyuchenie.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-ne-reshaet](../../obsidian/nautilus/infrastructure-layer-b-ru/09-ne-reshaet.md) (сходство 0.97)
+- [298-что-этот-документ-не-решает](../../obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.73)
+- [298-что-этот-документ-не-решает](../../02-anthropic-vacancies/298-что-этот-документ-не-решает.md) (сходство 0.73)
+

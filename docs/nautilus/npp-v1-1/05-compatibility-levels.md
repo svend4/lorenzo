@@ -119,3 +119,13 @@ python scripts/improve_semantic_search.py --query "5 Compatibility Levels"
 - [02-terminology](02-terminology.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-compatibility-levels](../../obsidian/nautilus/npp-v1-1/05-compatibility-levels.md) (сходство 0.98)
+- [80-5-compatibility-levels](../../obsidian/02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.76)
+- [80-5-compatibility-levels](../../02-anthropic-vacancies/80-5-compatibility-levels.md) (сходство 0.75)
+

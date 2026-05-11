@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Что НЕ подходит 
 - [07-unique-niche-eu-legal-infra](07-unique-niche-eu-legal-infra.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-not-applicable-roles](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/06-not-applicable-roles.md) (сходство 0.94)
+- [00-question-habr-link](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.48)
+- [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.47)
+

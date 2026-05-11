@@ -90,3 +90,13 @@ _Документ индексирован в поисковой базе реп
 - [03-consolidation-principles](03-consolidation-principles.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-fallback-ratio-question](../../obsidian/nautilus/review-methodology/04-fallback-ratio-question.md) (сходство 0.98)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.72)
+- [110-вопрос-fallback-ratio-как-критический-или-осмыслен](../../obsidian/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) (сходство 0.71)
+

@@ -60,3 +60,13 @@ _Создано: 2026-05-11_
 - [README](README.md)
 - [meeting-notes](meeting-notes.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contact-outreach](../obsidian/templates/contact-outreach.md) (сходство 0.94)
+- [tagir-analyzes](../contacts/tagir-analyzes.md) (сходство 0.40)
+- [tagir-analyzes](../obsidian/contacts/tagir-analyzes.md) (сходство 0.40)
+

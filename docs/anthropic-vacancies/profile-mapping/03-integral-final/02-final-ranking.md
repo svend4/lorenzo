@@ -90,3 +90,13 @@ python scripts/improve_semantic_search.py --query "Финальное ранжи
 - [README](README.md)
 - [reading-paths](../../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-final-ranking](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/02-final-ranking.md) (сходство 0.99)
+- [02-three-overlapping-identities](../02-reanalysis/02-three-overlapping-identities.md) (сходство 0.16)
+- [02-three-overlapping-identities](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.16)
+

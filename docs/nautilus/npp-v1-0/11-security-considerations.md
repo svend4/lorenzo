@@ -94,3 +94,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [15-security](../npp-v1-1/15-security.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-security-considerations](../../obsidian/nautilus/npp-v1-0/11-security-considerations.md) (сходство 0.98)
+- [15-security](../npp-v1-1/15-security.md) (сходство 0.64)
+- [15-security](../../obsidian/nautilus/npp-v1-1/15-security.md) (сходство 0.62)
+

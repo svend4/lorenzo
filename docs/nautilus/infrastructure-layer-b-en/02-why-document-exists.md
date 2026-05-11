@@ -96,3 +96,13 @@ python scripts/improve_semantic_search.py --query "Why This Document Exists"
 - [05-why-not-built](05-why-not-built.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-missing-middle-layer](01-missing-middle-layer.md) (сходство 0.99)
+- [02-why-document-exists](../../obsidian/nautilus/infrastructure-layer-b-en/02-why-document-exists.md) (сходство 0.98)
+- [01-missing-middle-layer](../../obsidian/nautilus/infrastructure-layer-b-en/01-missing-middle-layer.md) (сходство 0.97)
+

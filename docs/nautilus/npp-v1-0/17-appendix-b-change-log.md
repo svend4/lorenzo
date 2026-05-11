@@ -66,3 +66,13 @@ python scripts/improve_semantic_search.py --query "Appendix B Change Log"
 - [03-partial-fit-honesty](../../anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md)
 - _...ещё 21_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.88)
+- [13-reference-implementation](13-reference-implementation.md) (сходство 0.78)
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.70)
+

@@ -87,3 +87,13 @@ python scripts/improve_passive_voice.py
 - [TABLES](TABLES.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) (сходство 0.96)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.46)
+- [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.45)
+

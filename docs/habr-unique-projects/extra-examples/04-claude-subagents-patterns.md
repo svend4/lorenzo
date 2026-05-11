@@ -81,3 +81,13 @@ python scripts/improve_semantic_search.py --query "Claude subagents patterns"
 - [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.94)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.52)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.50)
+

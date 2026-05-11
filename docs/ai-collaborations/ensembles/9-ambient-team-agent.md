@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 9 Ambient Te
 - [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.98)
+- [7-domain-agent-app-factory](7-domain-agent-app-factory.md) (сходство 0.24)
+- [7-domain-agent-app-factory](../../obsidian/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.24)
+

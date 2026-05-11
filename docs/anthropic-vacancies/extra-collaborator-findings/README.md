@@ -1,16 +1,5 @@
 # extra-collaborator-findings
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 7
 
 ## Содержание
@@ -39,12 +28,12 @@
 - _...ещё 2_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «extra-collaborator-findings». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/anthropic-vacancies/extra-collaborator-findings/README.md) (сходство 0.84)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.39)
+- [README](../../nautilus/multi-tier-architecture/README.md) (сходство 0.37)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

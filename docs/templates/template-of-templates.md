@@ -159,3 +159,13 @@ _Создано: 2026-04-29_
 - [SEARCH](../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [template-of-templates](../obsidian/templates/template-of-templates.md) (сходство 0.95)
+- [legal-case](legal-case.md) (сходство 0.20)
+- [glossary-entry](glossary-entry.md) (сходство 0.19)
+

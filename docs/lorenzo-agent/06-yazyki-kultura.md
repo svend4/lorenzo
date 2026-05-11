@@ -78,3 +78,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [09-q9-geographic-linguistic-scope](specification/09-q9-geographic-linguistic-scope.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-yazyki-kultura](../obsidian/lorenzo-agent/06-yazyki-kultura.md) (сходство 0.97)
+- [350-твои-языки-и-культурные-nuances](../obsidian/02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.62)
+- [350-твои-языки-и-культурные-nuances](../02-anthropic-vacancies/350-твои-языки-и-культурные-nuances.md) (сходство 0.62)
+

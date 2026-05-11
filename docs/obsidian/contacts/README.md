@@ -1,30 +1,17 @@
 ---
 title: "contacts"
 tags:
-  - readme
-  - docs
   - contacts
 date: 2026-05-11
 ---
 
 # contacts
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 16
 
 ## Содержание
 
-- [[QA|QA.md]] — _Автоматически сгенерировано по 15 файлам раздела._
+- [[QA|QA.md]] — > [!NOTE]
 - [[anastasiyaw|anastasiyaw.md]] — ---
 - [[andrey-chuyan|andrey-chuyan.md]] — ---
 - [[antipozitive|antipozitive.md]] — ---
@@ -45,21 +32,24 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (20):**
+**Кто ссылается на этот документ (21):**
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[SEARCH]]
 - [[TABLES]]
+- [[QA]]
 - [[anastasiyaw]]
 - [[andrey-chuyan]]
-- [[antipozitive]]
-- _...ещё 12_
+- _...ещё 13_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../contacts/README.md) (сходство 0.89)
+- [README](../../letters/README.md) (сходство 0.49)
+- [AUTHORS](../../AUTHORS.md) (сходство 0.46)
+

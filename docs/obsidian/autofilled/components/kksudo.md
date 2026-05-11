@@ -116,3 +116,13 @@ _Компонент экосистемы Svyazi 2.0_
 ```bash
 python scripts/improve_semantic_search.py --query "kksudo"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kksudo](../../../autofilled/components/kksudo.md) (сходство 0.96)
+- [spbmolot](spbmolot.md) (сходство 0.89)
+- [spbmolot](../../../autofilled/components/spbmolot.md) (сходство 0.85)
+

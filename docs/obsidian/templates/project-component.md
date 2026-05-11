@@ -77,3 +77,13 @@ python scripts/improve_project_component.py
 - [[agent-spec]]
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [project-component](../../templates/project-component.md) (сходство 0.95)
+- [ensemble](ensemble.md) (сходство 0.41)
+- [ensemble](../../templates/ensemble.md) (сходство 0.37)
+

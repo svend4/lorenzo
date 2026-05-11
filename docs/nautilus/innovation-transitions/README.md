@@ -1,10 +1,4 @@
 # innovation-transitions
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 2
 
@@ -26,12 +20,12 @@
 - [01-response](01-response.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «innovation-transitions». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../community-discussions/voiceless-contributors/README.md) (сходство 0.71)
+- [README](../community-discussions/practical-observations/README.md) (сходство 0.71)
+- [README](../../lorenzo-agent/scenarios/README.md) (сходство 0.71)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

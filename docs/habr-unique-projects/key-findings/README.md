@@ -1,16 +1,5 @@
 # key-findings
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 6
 
 ## Содержание
@@ -38,12 +27,12 @@
 - _...ещё 2_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «key-findings». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/habr-unique-projects/key-findings/README.md) (сходство 0.76)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.48)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.48)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

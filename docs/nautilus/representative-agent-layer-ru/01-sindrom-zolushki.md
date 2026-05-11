@@ -110,3 +110,13 @@ python scripts/improve_semantic_search.py --query "1 Синдром Золушк
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-sindrom-zolushki](../../obsidian/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md) (сходство 0.98)
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) (сходство 0.86)
+- [191-1-синдром-золушки-почему-качество-остаётся-невидим](../../obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) (сходство 0.86)
+

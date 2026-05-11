@@ -867,3 +867,13 @@ python scripts/improve_qa.py
 # Вариант 2
 python scripts/improve_qa.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](obsidian/QA.md) (сходство 0.99)
+- [QA](02-anthropic-vacancies/QA.md) (сходство 0.82)
+- [QA](obsidian/02-anthropic-vacancies/QA.md) (сходство 0.81)
+

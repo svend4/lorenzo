@@ -59,3 +59,13 @@ python scripts/improve_semantic_search.py --query "Public Policy 5 ролей"
 - [08-safeguards-trust-safety](08-safeguards-trust-safety.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-public-policy](../../obsidian/anthropic-vacancies/clusters/14-public-policy.md) (сходство 0.97)
+- [13-communications](13-communications.md) (сходство 0.79)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.77)
+

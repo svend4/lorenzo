@@ -82,3 +82,13 @@ _Документ индексирован в поисковой базе реп
 - [03-brainbox-multi-ai-hub](03-brainbox-multi-ai-hub.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-svyazi-andrey-chuyan](../../obsidian/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.97)
+- [04-claude-subagents-patterns](../../obsidian/habr-unique-projects/extra-examples/04-claude-subagents-patterns.md) (сходство 0.31)
+- [04-claude-subagents-patterns](04-claude-subagents-patterns.md) (сходство 0.31)
+

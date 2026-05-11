@@ -580,3 +580,13 @@ python scripts/improve_semantic_search.py --query "12 Заключение" --mo
 - [04-desyat-oblastey](04-desyat-oblastey.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-zaklyuchenie](../../obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) (сходство 1.00)
+- [01-response](../community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.62)
+- [01-response](../../obsidian/nautilus/community-discussions/habr-article-2-reaction/01-response.md) (сходство 0.62)
+

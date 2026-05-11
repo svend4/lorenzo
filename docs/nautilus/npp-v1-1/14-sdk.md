@@ -88,3 +88,13 @@ _Документ индексирован в поисковой базе реп
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-sdk](../../obsidian/nautilus/npp-v1-1/14-sdk.md) (сходство 0.97)
+- [89-14-sdk-contract-informative](../../obsidian/02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.57)
+- [89-14-sdk-contract-informative](../../02-anthropic-vacancies/89-14-sdk-contract-informative.md) (сходство 0.56)
+

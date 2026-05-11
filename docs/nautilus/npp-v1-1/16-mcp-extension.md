@@ -79,3 +79,13 @@ python scripts/improve_semantic_search.py --query "16 MCP Extension Informative"
 - [06-adapter-interface](06-adapter-interface.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-mcp-extension](../../obsidian/nautilus/npp-v1-1/16-mcp-extension.md) (сходство 0.97)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.56)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.56)
+

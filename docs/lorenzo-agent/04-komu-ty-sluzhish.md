@@ -78,3 +78,13 @@ python scripts/improve_semantic_search.py --query "Кому ты служишь 
 - [README](README.md)
 - [reading-paths](../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-komu-ty-sluzhish](../obsidian/lorenzo-agent/04-komu-ty-sluzhish.md) (сходство 0.98)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md) (сходство 0.52)
+- [17-honestly-ne-znaesh](../obsidian/lorenzo-agent/17-honestly-ne-znaesh.md) (сходство 0.51)
+

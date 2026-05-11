@@ -129,3 +129,13 @@
 - [GITHUB_ISSUES](GITHUB_ISSUES.md)
 - _...ещё 22_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACTS](obsidian/CONTACTS.md) (сходство 0.98)
+- [narrow-questions](svyazi-2-0/outreach/narrow-questions.md) (сходство 0.29)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md) (сходство 0.29)
+

@@ -157,3 +157,13 @@ python scripts/improve_semantic_search.py --query "1 Why the Binary View Is Inco
 - [03-what-makes-csa](03-what-makes-csa.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-why-binary-incomplete](../../obsidian/nautilus/composite-skills-agents/01-why-binary-incomplete.md) (сходство 0.98)
+- [254-1-why-the-binary-view-is-incomplete](../../02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.79)
+- [254-1-why-the-binary-view-is-incomplete](../../obsidian/02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) (сходство 0.78)
+

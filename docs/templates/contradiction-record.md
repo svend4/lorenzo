@@ -113,3 +113,13 @@ python scripts/improve_template_init.py --template contradiction-record --output
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [contradiction-record](../obsidian/templates/contradiction-record.md) (сходство 0.92)
+- [glossary-entry](../obsidian/templates/glossary-entry.md) (сходство 0.50)
+- [glossary-entry](glossary-entry.md) (сходство 0.49)
+

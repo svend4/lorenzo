@@ -131,3 +131,13 @@ python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
 - [10-open-questions](10-open-questions.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-call-for-collaboration](../../obsidian/nautilus/representative-agent-layer-en/11-call-for-collaboration.md) (сходство 0.97)
+- [180-11-call-for-collaboration](../../02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.83)
+- [180-11-call-for-collaboration](../../obsidian/02-anthropic-vacancies/180-11-call-for-collaboration.md) (сходство 0.82)
+

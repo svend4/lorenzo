@@ -111,3 +111,13 @@ _Документ индексирован в поисковой базе реп
 - [26-ast-based-code-analysis-for-legal-automation](26-ast-based-code-analysis-for-legal-automation.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [29-meta-programmatic-legal-template-generator](../../obsidian/technology-combinations/combinations/29-meta-programmatic-legal-template-generator.md) (сходство 0.97)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.38)
+- [25-30-extended](../synthesis-tables/25-30-extended.md) (сходство 0.38)
+

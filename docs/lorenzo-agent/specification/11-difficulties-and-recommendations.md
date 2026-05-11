@@ -398,3 +398,13 @@ python scripts/improve_semantic_search.py --query "Сложности и рек�
 - [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-difficulties-and-recommendations](../../obsidian/lorenzo-agent/specification/11-difficulties-and-recommendations.md) (сходство 0.99)
+- [03-dhlab-umbrella](../naming/03-dhlab-umbrella.md) (сходство 0.24)
+- [03-dhlab-umbrella](../../obsidian/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.24)
+

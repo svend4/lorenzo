@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Что такое части�
 - [04-stronger-paths-outside-anthropic](04-stronger-paths-outside-anthropic.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-partial-fit-honesty](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/03-partial-fit-honesty.md) (сходство 0.94)
+- [17-appendix-b-change-log](../../../nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.45)
+- [00-question-habr-link](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.44)
+

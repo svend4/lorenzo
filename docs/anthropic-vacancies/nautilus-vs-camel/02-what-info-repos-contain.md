@@ -278,3 +278,13 @@ python scripts/improve_semantic_search.py --query "Что у нас есть в 
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-what-info-repos-contain](../../obsidian/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md) (сходство 0.99)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md) (сходство 0.29)
+- [04-what-to-take-from-info-repos](../../obsidian/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.29)
+

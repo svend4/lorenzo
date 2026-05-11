@@ -83,3 +83,13 @@ _█ = активная работа, ░ = ожидание_
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCHEDULE](obsidian/SCHEDULE.md) (сходство 0.97)
+- [MINDMAP](MINDMAP.md) (сходство 0.26)
+- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.26)
+

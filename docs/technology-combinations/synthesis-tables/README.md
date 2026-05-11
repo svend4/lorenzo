@@ -1,16 +1,5 @@
 # synthesis-tables
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 6
 
 ## Содержание
@@ -35,12 +24,12 @@
 - [01-08-summary](01-08-summary.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «synthesis-tables». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/technology-combinations/synthesis-tables/README.md) (сходство 0.73)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.62)
+- [README](../../nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.62)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

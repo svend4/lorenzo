@@ -555,3 +555,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Оче
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-response](../../obsidian/lorenzo-agent/scenarios/01-response.md) (сходство 0.99)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../obsidian/02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.37)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md) (сходство 0.37)
+

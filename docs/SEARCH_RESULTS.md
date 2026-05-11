@@ -59,3 +59,13 @@ python scripts/improve_faceted_search.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEARCH_RESULTS](obsidian/SEARCH_RESULTS.md) (сходство 0.97)
+- [13-communications](anthropic-vacancies/clusters/13-communications.md) (сходство 0.58)
+- [00-question-habr-link](obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.57)
+

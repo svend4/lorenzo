@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 2 AutoResear
 - [README](README.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-autoresearch-legal](../../obsidian/habr-unique-projects/final-ensembles/2-autoresearch-legal.md) (сходство 0.93)
+- [3-discovery-research](3-discovery-research.md) (сходство 0.28)
+- [3-discovery-research](../../obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.27)
+

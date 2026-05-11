@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Источник данных
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-supplementary-infrastructure](../../obsidian/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.96)
+- [06-svyazi-2-0-block-map](06-svyazi-2-0-block-map.md) (сходство 0.31)
+- [06-svyazi-2-0-block-map](../../obsidian/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) (сходство 0.30)
+

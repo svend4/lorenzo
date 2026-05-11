@@ -97,3 +97,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 32 Conse
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
 _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [32-consensus-based-multi-agent-coordination](../../obsidian/technology-combinations/combinations/32-consensus-based-multi-agent-coordination.md) (сходство 0.95)
+- [04-event-sourcing-consensus](../mega-stacks/04-event-sourcing-consensus.md) (сходство 0.33)
+- [04-event-sourcing-consensus](../../obsidian/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.31)
+

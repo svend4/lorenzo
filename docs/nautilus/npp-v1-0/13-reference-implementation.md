@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "13 Reference Implementation"
 - [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - _...ещё 10_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.91)
+- [17-appendix-b-change-log](17-appendix-b-change-log.md) (сходство 0.78)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.72)
+

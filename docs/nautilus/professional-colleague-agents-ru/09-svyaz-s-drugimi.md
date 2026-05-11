@@ -191,3 +191,13 @@ python scripts/improve_semantic_search.py --query "9 Связь с другим�
 - [05-ekonomika](05-ekonomika.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-svyaz-s-drugimi](../../obsidian/nautilus/professional-colleague-agents-ru/09-svyaz-s-drugimi.md) (сходство 0.97)
+- [240-9-связь-с-другими-типами-агентов](../../02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.83)
+- [240-9-связь-с-другими-типами-агентов](../../obsidian/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) (сходство 0.83)
+

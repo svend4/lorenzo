@@ -93,3 +93,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 6 OpenCl
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ доступен для семантического поиска и навигации._ _Доступен поиск._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](../../obsidian/technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md) (сходство 0.94)
+- [02-knowledge-graphs](../../obsidian/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.30)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md) (сходство 0.30)
+

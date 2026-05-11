@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Marketing Brand 23 роли"
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-marketing-brand](../../obsidian/anthropic-vacancies/clusters/05-marketing-brand.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.69)
+- [16-people](16-people.md) (сходство 0.68)
+

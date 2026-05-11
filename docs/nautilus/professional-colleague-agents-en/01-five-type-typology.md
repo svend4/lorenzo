@@ -233,3 +233,13 @@ ethical, and economic framework.
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-five-type-typology](../../obsidian/nautilus/professional-colleague-agents-en/01-five-type-typology.md) (сходство 0.99)
+- [212-1-the-five-type-typology-of-principal-side-agents](../../obsidian/02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.84)
+- [212-1-the-five-type-typology-of-principal-side-agents](../../02-anthropic-vacancies/212-1-the-five-type-typology-of-principal-side-agents.md) (сходство 0.84)
+

@@ -127,3 +127,13 @@ python scripts/improve_semantic_search.py --query "3 Что делает аге�
 - [05-arkhitekturnaya-spetsifikatsiya](05-arkhitekturnaya-spetsifikatsiya.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-chto-delaet-predstavitelskim](../../obsidian/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md) (сходство 0.98)
+- [193-3-что-делает-агента-представительским](../../02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) (сходство 0.81)
+- [193-3-что-делает-агента-представительским](../../obsidian/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) (сходство 0.81)
+

@@ -108,3 +108,13 @@ _Документ индексирован в поисковой базе реп
 - [05-level-4-extended-mature](05-level-4-extended-mature.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-level-3-medium-active](../../obsidian/lorenzo-agent/phased-deployment/04-level-3-medium-active.md) (сходство 0.98)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md) (сходство 0.40)
+- [03-level-2-basic-lite](../../obsidian/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.39)
+

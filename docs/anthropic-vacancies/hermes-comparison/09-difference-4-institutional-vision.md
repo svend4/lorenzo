@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Различие 4 Institutio
 - [08-difference-3-federation-missing](08-difference-3-federation-missing.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-difference-4-institutional-vision](../../obsidian/anthropic-vacancies/hermes-comparison/09-difference-4-institutional-vision.md) (сходство 0.98)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md) (сходство 0.60)
+- [02-similarity-2-persistent-memory](../../obsidian/anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md) (сходство 0.59)
+

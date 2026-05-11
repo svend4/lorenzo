@@ -2604,3 +2604,13 @@ python scripts/improve_readability.py --dry-run
 - [192-2-исторические-прецеденты-агенты-как-цивилизационн](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
 - _...ещё 556_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READING_TIME](READING_TIME.md) (сходство 0.98)
+- [SEARCH](SEARCH.md) (сходство 0.95)
+- [READING_TIME](obsidian/READING_TIME.md) (сходство 0.95)
+

@@ -5,7 +5,21 @@
     <link>https://github.com/svend4/lorenzo</link>
     <description>Автоматический фид изменений документации Svyazi 2.0</description>
     <language>ru</language>
-    <lastBuildDate>Mon, 11 May 2026 08:40:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 08:47:52 GMT</lastBuildDate>
+    <item>
+      <title>chore: обновление зеркальных файлов obsidian/confluence</title>
+      <link>https://github.com/svend4/lorenzo/commit/07739d9ca7c375f41bef5be23b74b51b005fc657</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/07739d9ca7c375f41bef5be23b74b51b005fc657</guid>
+      <pubDate>Mon, 11 May 2026 08:42:05 GMT</pubDate>
+      <description><![CDATA[<p><strong>chore: обновление зеркальных файлов obsidian/confluence</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/PROGRESS.md">docs/obsidian/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/obsidian/REPORT.md">docs/obsidian/REPORT.md</a></li></ul><p>Коммит: <code>07739d9c</code></p>]]></description>
+    </item>
+    <item>
+      <title>feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты</title>
+      <link>https://github.com/svend4/lorenzo/commit/63e1280e0e84c7b6454204ab83cf54586645755a</link>
+      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/63e1280e0e84c7b6454204ab83cf54586645755a</guid>
+      <pubDate>Mon, 11 May 2026 08:41:37 GMT</pubDate>
+      <description><![CDATA[<p><strong>feat: POST /api/search — лёгкий поиск без LLM-синтеза + тесты</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REPORT.md">docs/REPORT.md</a></li></ul><p>Коммит: <code>63e1280e</code></p>]]></description>
+    </item>
     <item>
       <title>chore: авто-перегенерация дашбордов после v1.0.0 + check_published</title>
       <link>https://github.com/svend4/lorenzo/commit/8e0325866314e53abc896370d1ac1964ac8c5a45</link>
@@ -131,20 +145,6 @@
       <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/f3d00e2249b0d3eb910113756fb5dc0d79c2f2cc</guid>
       <pubDate>Mon, 11 May 2026 06:58:50 GMT</pubDate>
       <description><![CDATA[<p><strong>feat: тесты gateway/ANN + Precision Eval (Hit Rate@10=0.75) + PROGRESS 63%</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/GATEWAY.md">docs/GATEWAY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROGRESS.md">docs/PROGRESS.md</a></li></ul><p>Коммит: <code>f3d00e22</code></p>]]></description>
-    </item>
-    <item>
-      <title>feat: hnswlib ANN-граф — ускоренный векторный поиск 37× (Итерация 1 завершена)</title>
-      <link>https://github.com/svend4/lorenzo/commit/bd9743166fbf6e242be9d8281ffee87ce2603c9d</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/bd9743166fbf6e242be9d8281ffee87ce2603c9d</guid>
-      <pubDate>Mon, 11 May 2026 06:35:41 GMT</pubDate>
-      <description><![CDATA[<p><strong>feat: hnswlib ANN-граф — ускоренный векторный поиск 37× (Итерация 1 завершена)</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PROTOTYPE_SPEC.md">docs/PROTOTYPE_SPEC.md</a></li></ul><p>Коммит: <code>bd974316</code></p>]]></description>
-    </item>
-    <item>
-      <title>chore: update SCORING.md auto-generated dashboard</title>
-      <link>https://github.com/svend4/lorenzo/commit/2655a8cbeaa6d7ff20c257762356478884b015e1</link>
-      <guid isPermaLink="true">https://github.com/svend4/lorenzo/commit/2655a8cbeaa6d7ff20c257762356478884b015e1</guid>
-      <pubDate>Mon, 11 May 2026 06:26:07 GMT</pubDate>
-      <description><![CDATA[<p><strong>chore: update SCORING.md auto-generated dashboard</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCORING.md">docs/SCORING.md</a></li></ul><p>Коммит: <code>2655a8cb</code></p>]]></description>
     </item>
   </channel>
 </rss>

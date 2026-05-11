@@ -78,3 +78,13 @@ python scripts/improve_semantic_search.py --query "Acknowledgments"
 - [10-references](10-references.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-acknowledgments](../../obsidian/nautilus/double-triangle-architecture/09-acknowledgments.md) (сходство 0.97)
+- [146-acknowledgments](../../obsidian/02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.50)
+- [146-acknowledgments](../../02-anthropic-vacancies/146-acknowledgments.md) (сходство 0.50)
+

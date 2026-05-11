@@ -171,3 +171,13 @@ date: 2026-05-11
 ```bash
 python scripts/improve_semantic_search.py --query "docs"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../README.md) (сходство 0.98)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md) (сходство 0.26)
+- [DEPENDENCY_MAP](../DEPENDENCY_MAP.md) (сходство 0.25)
+

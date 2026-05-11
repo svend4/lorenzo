@@ -9,6 +9,17 @@ date: 2026-05-11
 
 # Карта пробелов знаний
 
+<!-- toc -->
+## Содержание
+
+- [Contents](#contents)
+- [Итог](#итог)
+- [Рекомендации](#рекомендации)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 ## Contents
 
@@ -101,4 +112,14 @@ python scripts/improve_missing.py
 - [[OUTLINE]]
 - [[READABILITY]]
 - _...ещё 7_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MISSING](../MISSING.md) (сходство 0.97)
+- [CONSISTENCY](CONSISTENCY.md) (сходство 0.35)
+- [CONSISTENCY](../CONSISTENCY.md) (сходство 0.33)
 

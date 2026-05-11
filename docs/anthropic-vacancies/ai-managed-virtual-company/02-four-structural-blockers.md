@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Четыре структур
 - [09-minuses-and-risks](09-minuses-and-risks.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-four-structural-blockers](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/02-four-structural-blockers.md) (сходство 0.99)
+- [08-pluses-of-model](08-pluses-of-model.md) (сходство 0.21)
+- [08-pluses-of-model](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.21)
+

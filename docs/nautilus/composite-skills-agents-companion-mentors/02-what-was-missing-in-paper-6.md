@@ -176,3 +176,13 @@ python scripts/improve_semantic_search.py --query "Это не Тип 1 пото
 - [01-yogi-metaphor](01-yogi-metaphor.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-what-was-missing-in-paper-6](../../obsidian/nautilus/composite-skills-agents-companion-mentors/02-what-was-missing-in-paper-6.md) (сходство 0.98)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.35)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.35)
+

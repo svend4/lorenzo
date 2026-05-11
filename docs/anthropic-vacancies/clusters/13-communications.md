@@ -59,3 +59,13 @@ python scripts/improve_semantic_search.py --query "Communications 5 ролей"
 - [04-security](04-security.md)
 - _...ещё 14_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.97)
+- [15-public-benefit](15-public-benefit.md) (сходство 0.81)
+- [16-people](16-people.md) (сходство 0.80)
+

@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 27 Hybri
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 
 _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [27-hybrid-rag-with-ast-chunked-code](../../obsidian/technology-combinations/combinations/27-hybrid-rag-with-ast-chunked-code.md) (сходство 0.93)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.35)
+- [03-dsl-ast](../mega-stacks/03-dsl-ast.md) (сходство 0.34)
+

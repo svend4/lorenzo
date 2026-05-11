@@ -1,16 +1,5 @@
 # extra-examples
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 13
 
 ## Содержание
@@ -45,9 +34,12 @@
 - _...ещё 1_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/habr-unique-projects/extra-examples/README.md) (сходство 0.88)
+- [README](../../nautilus/community-discussions/habr-article-1-reaction/README.md) (сходство 0.32)
+- [README](../../nautilus/community-discussions/habr-article-2-reaction/README.md) (сходство 0.31)
+

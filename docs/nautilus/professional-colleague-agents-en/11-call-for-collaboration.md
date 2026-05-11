@@ -111,3 +111,13 @@ python scripts/improve_semantic_search.py --query "11 Call for Collaboration"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-call-for-collaboration](../../obsidian/nautilus/professional-colleague-agents-en/11-call-for-collaboration.md) (сходство 0.98)
+- [222-11-call-for-collaboration](../../02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.80)
+- [222-11-call-for-collaboration](../../obsidian/02-anthropic-vacancies/222-11-call-for-collaboration.md) (сходство 0.79)
+

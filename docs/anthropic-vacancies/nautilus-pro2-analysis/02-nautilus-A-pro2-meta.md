@@ -154,3 +154,13 @@ python scripts/improve_semantic_search.py --query "Наутилус A pro2 meta 
 - [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-nautilus-A-pro2-meta](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/02-nautilus-A-pro2-meta.md) (сходство 1.00)
+- [00-question-two-nautiluses](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.14)
+- [00-question-two-nautiluses](00-question-two-nautiluses.md) (сходство 0.14)
+

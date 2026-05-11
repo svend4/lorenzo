@@ -101,3 +101,13 @@ python scripts/improve_semantic_search.py --query "Что такое Hermes Agen
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-what-is-hermes](../../obsidian/anthropic-vacancies/hermes-comparison/00-question-what-is-hermes.md) (сходство 0.99)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.26)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md) (сходство 0.26)
+

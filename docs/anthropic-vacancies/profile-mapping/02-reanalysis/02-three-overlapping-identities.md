@@ -66,3 +66,13 @@ python scripts/improve_semantic_search.py --query "Три наложенные �
 - [README](README.md)
 - [02-final-ranking](../03-integral-final/02-final-ranking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-three-overlapping-identities](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/02-three-overlapping-identities.md) (сходство 0.97)
+- [15-public-benefit](../../clusters/15-public-benefit.md) (сходство 0.21)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md) (сходство 0.21)
+

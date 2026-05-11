@@ -218,3 +218,13 @@ python scripts/improve_narrative.py
 - [INDEX](INDEX.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NARRATIVE](obsidian/NARRATIVE.md) (сходство 0.98)
+- [13-contacts](01-svyazi/13-contacts.md) (сходство 0.21)
+- [13-contacts](obsidian/01-svyazi/13-contacts.md) (сходство 0.21)
+

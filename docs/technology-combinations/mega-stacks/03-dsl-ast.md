@@ -83,3 +83,13 @@
 - [README](README.md)
 
 _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-dsl-ast](../../obsidian/technology-combinations/mega-stacks/03-dsl-ast.md) (сходство 0.93)
+- [25-30-extended](../synthesis-tables/25-30-extended.md) (сходство 0.40)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.39)
+

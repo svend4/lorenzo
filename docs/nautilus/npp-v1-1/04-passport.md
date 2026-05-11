@@ -111,3 +111,13 @@ Portal SHOULD предоставлять команду валидации:
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-passport](../../obsidian/nautilus/npp-v1-1/04-passport.md) (сходство 0.98)
+- [79-4-passport-passport-md](../../obsidian/02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.77)
+- [79-4-passport-passport-md](../../02-anthropic-vacancies/79-4-passport-passport-md.md) (сходство 0.77)
+

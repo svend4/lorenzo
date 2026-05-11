@@ -219,3 +219,13 @@ python scripts/improve_abbreviations.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ABBREVIATIONS](../ABBREVIATIONS.md) (сходство 0.99)
+- [VERSION_DIFF](VERSION_DIFF.md) (сходство 0.12)
+- [SITEMAP](SITEMAP.md) (сходство 0.12)
+

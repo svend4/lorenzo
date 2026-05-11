@@ -102,3 +102,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 22 Russi
 - [20-24-final](../synthesis-tables/20-24-final.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория и доступен для поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [22-russian-international-oss-stack](../../obsidian/technology-combinations/combinations/22-russian-international-oss-stack.md) (сходство 0.95)
+- [20-24-final](../synthesis-tables/20-24-final.md) (сходство 0.33)
+- [20-24-final](../../obsidian/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.33)
+

@@ -95,3 +95,13 @@ _Для поиска доступен._
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-conditions-of-applicability](../../obsidian/nautilus/review-methodology/05-conditions-of-applicability.md) (сходство 0.98)
+- [111-4-условия-применимости](../../02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.67)
+- [111-4-условия-применимости](../../obsidian/02-anthropic-vacancies/111-4-условия-применимости.md) (сходство 0.67)
+

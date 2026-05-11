@@ -85,3 +85,13 @@ python scripts/improve_antipozitive.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [antipozitive](../obsidian/letters/antipozitive.md) (сходство 0.98)
+- [spbmolot](spbmolot.md) (сходство 0.28)
+- [spbmolot](../obsidian/letters/spbmolot.md) (сходство 0.27)
+

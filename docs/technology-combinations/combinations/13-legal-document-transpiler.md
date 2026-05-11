@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 13 Legal
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-legal-document-transpiler](../../obsidian/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.94)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.40)
+- [10-legal-document-intelligence-pipeline](../../obsidian/technology-combinations/combinations/10-legal-document-intelligence-pipeline.md) (сходство 0.38)
+

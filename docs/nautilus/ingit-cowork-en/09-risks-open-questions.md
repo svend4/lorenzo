@@ -152,3 +152,13 @@ python scripts/improve_semantic_search.py --query "9 Risks and Open Questions"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-risks-open-questions](../../obsidian/nautilus/ingit-cowork-en/09-risks-open-questions.md) (сходство 0.99)
+- [317-9-risks-and-open-questions](../../obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.85)
+- [317-9-risks-and-open-questions](../../02-anthropic-vacancies/317-9-risks-and-open-questions.md) (сходство 0.85)
+

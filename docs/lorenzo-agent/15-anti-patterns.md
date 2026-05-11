@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Твои anti patterns"
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-anti-patterns](../obsidian/lorenzo-agent/15-anti-patterns.md) (сходство 0.98)
+- [359-твои-anti-patterns](../02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.69)
+- [359-твои-anti-patterns](../obsidian/02-anthropic-vacancies/359-твои-anti-patterns.md) (сходство 0.69)
+

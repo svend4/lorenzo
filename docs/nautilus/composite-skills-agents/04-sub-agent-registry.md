@@ -189,3 +189,13 @@ python scripts/improve_semantic_search.py --query "4 The Sub Agent Registry"
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-sub-agent-registry](../../obsidian/nautilus/composite-skills-agents/04-sub-agent-registry.md) (сходство 0.99)
+- [257-4-the-sub-agent-registry](../../02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.84)
+- [257-4-the-sub-agent-registry](../../obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) (сходство 0.83)
+

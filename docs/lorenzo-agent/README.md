@@ -1,16 +1,5 @@
 # lorenzo-agent
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 22
 
 ## Содержание
@@ -36,7 +25,7 @@
 - [18-escalate-to-max.md](18-escalate-to-max.md) — <!-- toc-auto -->
 - [19-persistent-character.md](19-persistent-character.md) — <!-- toc-auto -->
 - [20-experiment.md](20-experiment.md) — <!-- toc-auto -->
-- [QA.md](QA.md) — _Автоматически сгенерировано по 55 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 
 ## Подразделы
 
@@ -50,7 +39,7 @@
 
 ---
 
-**Кто ссылается на этот документ (19):**
+**Кто ссылается на этот документ (20):**
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
@@ -59,12 +48,15 @@
 - [00-intro](00-intro.md)
 - [02-tvoyo-proishozhdenie](02-tvoyo-proishozhdenie.md)
 - [04-komu-ty-sluzhish](04-komu-ty-sluzhish.md)
-- _...ещё 11_
+- _...ещё 12_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../obsidian/lorenzo-agent/README.md) (сходство 0.93)
+- [README](naming/README.md) (сходство 0.25)
+- [README](../obsidian/lorenzo-agent/naming/README.md) (сходство 0.24)
+

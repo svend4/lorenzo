@@ -113,3 +113,13 @@ _Документ индексирован в поисковой базе реп
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-q6-accountability](../../obsidian/lorenzo-agent/specification/06-q6-accountability.md) (сходство 0.98)
+- [07-q7-success-metrics](07-q7-success-metrics.md) (сходство 0.33)
+- [07-q7-success-metrics](../../obsidian/lorenzo-agent/specification/07-q7-success-metrics.md) (сходство 0.33)
+

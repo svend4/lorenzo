@@ -74,3 +74,13 @@ _Документ индексирован в поисковой базе реп
 - [C-multi-agent-factory](C-multi-agent-factory.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [H-research-to-product-flywheel](../../obsidian/svyazi-2-0/ensembles/H-research-to-product-flywheel.md) (сходство 0.97)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md) (сходство 0.29)
+- [10-second-order-ensembles](../../obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.28)
+

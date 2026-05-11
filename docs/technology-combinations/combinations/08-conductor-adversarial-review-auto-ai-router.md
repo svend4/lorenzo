@@ -178,3 +178,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 8 Conduc
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-conductor-adversarial-review-auto-ai-router](../../obsidian/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.98)
+- [05-benchmarks](../../obsidian/03-technology-combinations/05-benchmarks.md) (сходство 0.65)
+- [05-benchmarks](../../03-technology-combinations/05-benchmarks.md) (сходство 0.65)
+

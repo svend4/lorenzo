@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Сводка профиля �
 - [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
 - [concepts](../../../glossary/concepts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-profile-five-layers](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/01-profile-five-layers.md) (сходство 0.97)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md) (сходство 0.21)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.21)
+

@@ -352,3 +352,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Отл
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-response](../../obsidian/nautilus/innovation-transitions/01-response.md) (сходство 0.99)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.19)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.19)
+

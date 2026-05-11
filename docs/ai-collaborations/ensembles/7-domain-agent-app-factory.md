@@ -89,3 +89,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 7 Domain Age
 - [3-forensic-rag](3-forensic-rag.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [7-domain-agent-app-factory](../../obsidian/ai-collaborations/ensembles/7-domain-agent-app-factory.md) (сходство 0.99)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.24)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.24)
+

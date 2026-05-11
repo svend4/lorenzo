@@ -382,3 +382,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Оче
 - [README](README.md)
 - [01-completing-loop](../transmission-box/01-completing-loop.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-three-related-themes](../../obsidian/nautilus/supply-demand/01-three-related-themes.md) (сходство 0.99)
+- [01-completing-loop](../transmission-box/01-completing-loop.md) (сходство 0.19)
+- [01-completing-loop](../../obsidian/nautilus/transmission-box/01-completing-loop.md) (сходство 0.19)
+

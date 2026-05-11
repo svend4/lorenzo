@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Кто ты"
 - [03-tvoya-missiya](03-tvoya-missiya.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-kto-ty](../obsidian/lorenzo-agent/01-kto-ty.md) (сходство 0.98)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md) (сходство 0.55)
+- [00-intro](00-intro.md) (сходство 0.54)
+

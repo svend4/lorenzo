@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 7 Crawl4
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-crawl4ai-docling-yodoca-consolidator](../../obsidian/technology-combinations/combinations/07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.97)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.36)
+- [04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura](../../obsidian/technology-combinations/combinations/04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md) (сходство 0.35)
+

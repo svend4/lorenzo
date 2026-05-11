@@ -65,3 +65,13 @@ python scripts/improve_semantic_search.py --query "Различие 3 Federated 
 - [01-passive-vs-active-roles](../nautilus-vs-camel/01-passive-vs-active-roles.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-difference-3-federation-missing](../../obsidian/anthropic-vacancies/hermes-comparison/08-difference-3-federation-missing.md) (сходство 0.97)
+- [09-difference-4-institutional-vision](09-difference-4-institutional-vision.md) (сходство 0.52)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.51)
+

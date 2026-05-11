@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Сходство 3 MCP suppor
 - [05-similarity-5-self-hosting-privacy](05-similarity-5-self-hosting-privacy.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-similarity-3-mcp-support](../../obsidian/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.98)
+- [02-similarity-2-persistent-memory](02-similarity-2-persistent-memory.md) (сходство 0.62)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.61)
+

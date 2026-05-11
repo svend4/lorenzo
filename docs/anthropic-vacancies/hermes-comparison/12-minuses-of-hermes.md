@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Минусы Hermes где н
 - [13-reprioritization](13-reprioritization.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-minuses-of-hermes](../../obsidian/anthropic-vacancies/hermes-comparison/12-minuses-of-hermes.md) (сходство 0.98)
+- [10-difference-5-tool-vs-mission-drift](10-difference-5-tool-vs-mission-drift.md) (сходство 0.28)
+- [10-difference-5-tool-vs-mission-drift](../../obsidian/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.28)
+

@@ -93,3 +93,13 @@ _Документ индексирован в поисковой базе реп
 - [06-platform-for-professional-communities](06-platform-for-professional-communities.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-hw-nl2workflow](../../obsidian/habr-unique-projects/extra-examples/05-hw-nl2workflow.md) (сходство 0.98)
+- [08-personal-multi-agent-hub](../../obsidian/habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md) (сходство 0.32)
+- [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md) (сходство 0.32)
+

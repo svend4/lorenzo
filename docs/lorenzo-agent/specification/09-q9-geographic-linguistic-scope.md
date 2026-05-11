@@ -109,3 +109,13 @@ _Документ индексирован в поисковой базе реп
 - [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-q9-geographic-linguistic-scope](../../obsidian/lorenzo-agent/specification/09-q9-geographic-linguistic-scope.md) (сходство 0.98)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md) (сходство 0.37)
+- [08-q8-other-ai-relationships](../../obsidian/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.37)
+

@@ -106,3 +106,13 @@ _Компонент экосистемы Svyazi 2.0_
 ```bash
 python scripts/improve_semantic_search.py --query "spbmolot"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [spbmolot](../../obsidian/autofilled/components/spbmolot.md) (сходство 0.96)
+- [kksudo](kksudo.md) (сходство 0.89)
+- [kksudo](../../obsidian/autofilled/components/kksudo.md) (сходство 0.85)
+

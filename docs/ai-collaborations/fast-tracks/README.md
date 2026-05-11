@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "Пять быстрых св�
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/ai-collaborations/fast-tracks/README.md) (сходство 0.97)
+- [00-overview-grandchild-combination](../../lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.22)
+- [00-overview-grandchild-combination](../../obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.21)
+

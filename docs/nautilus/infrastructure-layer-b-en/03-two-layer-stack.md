@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "The Two Layer Stack As It Exi
 - [04-whats-missing-layer-b](04-whats-missing-layer-b.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-two-layer-stack](../../obsidian/nautilus/infrastructure-layer-b-en/03-two-layer-stack.md) (сходство 0.98)
+- [276-the-two-layer-stack-as-it-exists](../../02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.73)
+- [276-the-two-layer-stack-as-it-exists](../../obsidian/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md) (сходство 0.73)
+

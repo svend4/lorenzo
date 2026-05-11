@@ -91,3 +91,13 @@ _Документ индексирован в поисковой базе реп
 - [00-intro](00-intro.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-closing](../../obsidian/nautilus/infrastructure-layer-b-en/12-closing.md) (сходство 0.98)
+- [285-closing](../../02-anthropic-vacancies/285-closing.md) (сходство 0.70)
+- [285-closing](../../obsidian/02-anthropic-vacancies/285-closing.md) (сходство 0.69)
+

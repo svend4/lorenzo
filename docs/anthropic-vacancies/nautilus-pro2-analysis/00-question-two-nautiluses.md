@@ -92,3 +92,13 @@ python scripts/improve_semantic_search.py --query "Вопрос два Наут�
 - [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-two-nautiluses](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/00-question-two-nautiluses.md) (сходство 0.98)
+- [01-shell-metaphor-two-projections](01-shell-metaphor-two-projections.md) (сходство 0.25)
+- [01-shell-metaphor-two-projections](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) (сходство 0.25)
+

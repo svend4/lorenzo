@@ -193,3 +193,13 @@ python scripts/improve_semantic_search.py --query "10 Risks Specific to Composit
 - [README](README.md)
 - [06-risks](../professional-colleague-agents-en/06-risks.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-risks](../../obsidian/nautilus/composite-skills-agents/10-risks.md) (сходство 0.99)
+- [263-10-risks-specific-to-composite-architectures](../../02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) (сходство 0.85)
+- [263-10-risks-specific-to-composite-architectures](../../obsidian/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) (сходство 0.85)
+

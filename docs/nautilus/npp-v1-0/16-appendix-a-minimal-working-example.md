@@ -113,3 +113,13 @@ example_user, example@email.com
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-appendix-a-minimal-working-example](../../obsidian/nautilus/npp-v1-0/16-appendix-a-minimal-working-example.md) (сходство 0.99)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.50)
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.47)
+

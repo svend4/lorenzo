@@ -65,3 +65,13 @@ python scripts/improve_semantic_search.py --query "Уникальная ниша
 - [01-three-archetypes](../03-integral-final/01-three-archetypes.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-unique-niche-eu-legal-infra](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md) (сходство 0.96)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md) (сходство 0.42)
+- [03-secondary-beneficial-deployments](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.41)
+

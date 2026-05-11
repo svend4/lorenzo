@@ -176,3 +176,13 @@ state. Cowork memory is convenience, not authority.
 - [03-ingit-provides](03-ingit-provides.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-symbiotic-architecture](../../obsidian/nautilus/ingit-cowork-en/04-symbiotic-architecture.md) (сходство 0.98)
+- [312-4-the-symbiotic-architecture](../../02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.85)
+- [312-4-the-symbiotic-architecture](../../obsidian/02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) (сходство 0.84)
+

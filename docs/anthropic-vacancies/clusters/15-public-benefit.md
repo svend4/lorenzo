@@ -59,3 +59,13 @@ python scripts/improve_semantic_search.py --query "Public Benefit 4 роли"
 - [05-marketing-brand](05-marketing-brand.md)
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-public-benefit](../../obsidian/anthropic-vacancies/clusters/15-public-benefit.md) (сходство 0.97)
+- [13-communications](13-communications.md) (сходство 0.81)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.79)
+

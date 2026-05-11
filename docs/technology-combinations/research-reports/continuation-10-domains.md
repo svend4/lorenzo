@@ -113,3 +113,13 @@ python scripts/improve_semantic_search.py --query "Research Report Continuation 
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [continuation-10-domains](../../obsidian/technology-combinations/research-reports/continuation-10-domains.md) (сходство 0.97)
+- [sozialrecht-35-combinations](sozialrecht-35-combinations.md) (сходство 0.32)
+- [sozialrecht-35-combinations](../../obsidian/technology-combinations/research-reports/sozialrecht-35-combinations.md) (сходство 0.30)
+

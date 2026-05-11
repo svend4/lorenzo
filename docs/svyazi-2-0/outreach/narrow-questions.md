@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Узкие вопросы д�
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [narrow-questions](../../obsidian/svyazi-2-0/outreach/narrow-questions.md) (сходство 0.99)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](../../obsidian/04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) (сходство 0.43)
+- [13-контактная-стратегия-и-узкие-вопросы-для-авторов](../../04-ai-collaborations/13-контактная-стратегия-и-узкие-вопросы-для-авторов.md) (сходство 0.43)
+

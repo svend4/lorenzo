@@ -147,3 +147,13 @@ python scripts/improve_semantic_search.py --query "10 Open Questions"
 - [11-call-for-collaboration](11-call-for-collaboration.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-open-questions](../../obsidian/nautilus/representative-agent-layer-en/10-open-questions.md) (сходство 0.97)
+- [179-10-open-questions](../../obsidian/02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.81)
+- [179-10-open-questions](../../02-anthropic-vacancies/179-10-open-questions.md) (сходство 0.81)
+

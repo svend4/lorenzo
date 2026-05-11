@@ -103,3 +103,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 33 Event
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
 _Документ индексирован в поисковой базе и доступен для поиска._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [33-event-sourcing-cqrs-clickhouse-analytics](../../obsidian/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.95)
+- [31-event-sourced-legal-document-history](31-event-sourced-legal-document-history.md) (сходство 0.46)
+- [31-event-sourced-legal-document-history](../../obsidian/technology-combinations/combinations/31-event-sourced-legal-document-history.md) (сходство 0.44)
+

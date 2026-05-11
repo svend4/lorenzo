@@ -103,3 +103,13 @@ python scripts/improve_semantic_search.py --query "Why This Hasn t Been Built"
 - [12-closing](12-closing.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-why-not-built](../../obsidian/nautilus/infrastructure-layer-b-en/05-why-not-built.md) (сходство 0.98)
+- [278-why-this-hasn-t-been-built](../../02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.78)
+- [278-why-this-hasn-t-been-built](../../obsidian/02-anthropic-vacancies/278-why-this-hasn-t-been-built.md) (сходство 0.77)
+

@@ -173,3 +173,13 @@ _Создано: 2026-05-10_
 [^svyazi]: Главный проект: экосистема AI-компонентов
 
 [^knowledge-space]: OSS-проект: база знаний 785+ карточек (MIT)
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [rufler](../../obsidian/05-habr-projects/knowledge/rufler.md) (сходство 0.94)
+- [mclaude](mclaude.md) (сходство 0.37)
+- [mclaude](../../obsidian/05-habr-projects/knowledge/mclaude.md) (сходство 0.34)
+

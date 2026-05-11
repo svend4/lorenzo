@@ -89,3 +89,13 @@ python scripts/improve_semantic_search.py --query "Что с этим делат
 - [README](README.md)
 - [05-minuses-as-business](../mmorpg-for-programmers/05-minuses-as-business.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-what-to-do](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/04-what-to-do.md) (сходство 0.97)
+- [10-three-entry-points](10-three-entry-points.md) (сходство 0.24)
+- [10-three-entry-points](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.23)
+

@@ -628,3 +628,13 @@ BM25 — точный, но не понимает синонимы. «Агент
 - [READING_TIME](READING_TIME.md)
 - [SEARCH](SEARCH.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SCRIPT_EVAL_REPORT](obsidian/SCRIPT_EVAL_REPORT.md) (сходство 1.00)
+- [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md) (сходство 0.14)
+- [PROCESSING_GUIDE](obsidian/processing-guide/PROCESSING_GUIDE.md) (сходство 0.14)
+

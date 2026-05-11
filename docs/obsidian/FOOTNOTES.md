@@ -87,3 +87,13 @@ date: 2026-05-11
 - [[SEARCH]]
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FOOTNOTES](../FOOTNOTES.md) (сходство 0.97)
+- [GRAPH](GRAPH.md) (сходство 0.26)
+- [GRAPH](../GRAPH.md) (сходство 0.25)
+

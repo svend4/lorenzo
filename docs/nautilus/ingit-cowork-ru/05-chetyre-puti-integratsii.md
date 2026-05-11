@@ -234,3 +234,13 @@ API доступно
 - [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-chetyre-puti-integratsii](../../obsidian/nautilus/ingit-cowork-ru/05-chetyre-puti-integratsii.md) (сходство 0.99)
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](../../02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) (сходство 0.87)
+- [331-5-четыре-пути-интеграции-в-порядке-доступности](../../obsidian/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) (сходство 0.87)
+

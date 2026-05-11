@@ -184,3 +184,13 @@ python scripts/improve_semantic_search.py --query "5 The Economics of Profession
 - [07-economics-combinatorial](../composite-skills-agents/07-economics-combinatorial.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-economics-replication](../../obsidian/nautilus/professional-colleague-agents-en/05-economics-replication.md) (сходство 0.98)
+- [216-5-the-economics-of-profession-wide-replication](../../02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.84)
+- [216-5-the-economics-of-profession-wide-replication](../../obsidian/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md) (сходство 0.83)
+

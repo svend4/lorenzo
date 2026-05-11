@@ -209,3 +209,13 @@ python scripts/improve_keyword_index.py
 - [READABILITY](READABILITY.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) (сходство 0.98)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md) (сходство 0.38)
+- [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.37)
+

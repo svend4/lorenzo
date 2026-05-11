@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "Happyin Knowledge Space Ан�
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-happyin-knowledge-space](../../obsidian/anthropic-vacancies/extra-collaborator-findings/03-happyin-knowledge-space.md) (сходство 0.98)
+- [04-mem0-letta-graphiti](../../obsidian/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.25)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md) (сходство 0.25)
+

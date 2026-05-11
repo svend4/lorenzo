@@ -1,5 +1,17 @@
 # Карта плотности тем
 
+<!-- toc -->
+## Содержание
+
+- [Наиболее раскрытые темы](#наиболее-раскрытые-темы)
+- [Слабо раскрытые темы (0)](#слабо-раскрытые-темы-0)
+- [Где сосредоточена каждая тема](#где-сосредоточена-каждая-тема)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -95,3 +107,29 @@ python scripts/improve_density.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [MISSING](MISSING.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DENSITY](obsidian/DENSITY.md) (сходство 0.90)
+- [HEATMAP](HEATMAP.md) (сходство 0.45)
+- [HEATMAP](obsidian/HEATMAP.md) (сходство 0.44)
+

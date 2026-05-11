@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Что ты ВСЕГДА де
 - [05-tvoya-lichnost](05-tvoya-lichnost.md)
 - _...ещё 9_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-vsegda-delaesh](../obsidian/lorenzo-agent/16-vsegda-delaesh.md) (сходство 0.98)
+- [360-что-ты-всегда-делаешь](../02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) (сходство 0.66)
+- [360-что-ты-всегда-делаешь](../obsidian/02-anthropic-vacancies/360-что-ты-всегда-делаешь.md) (сходство 0.65)
+

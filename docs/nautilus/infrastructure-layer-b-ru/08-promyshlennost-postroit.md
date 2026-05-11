@@ -108,3 +108,13 @@ python scripts/improve_semantic_search.py --query "Что промышленно
 - [README](README.md)
 - [09-riski-voprosy](../ingit-cowork-ru/09-riski-voprosy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-promyshlennost-postroit](../../obsidian/nautilus/infrastructure-layer-b-ru/08-promyshlennost-postroit.md) (сходство 0.97)
+- [297-что-промышленность-вероятно-построит](../../obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.70)
+- [297-что-промышленность-вероятно-построит](../../02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) (сходство 0.69)
+

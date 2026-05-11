@@ -326,3 +326,13 @@ python scripts/improve_faq.py
 - [[READING_TIME]]
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FAQ](../FAQ.md) (сходство 0.98)
+- [QA](QA.md) (сходство 0.21)
+- [QA](../QA.md) (сходство 0.21)
+

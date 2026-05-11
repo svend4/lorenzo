@@ -123,3 +123,13 @@ python scripts/improve_semantic_search.py --query "Почему именно д�
 - [05-minuses-as-business](05-minuses-as-business.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-why-natural-for-programmers](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/03-why-natural-for-programmers.md) (сходство 0.99)
+- [00-question-mmorpg-for-programmers](00-question-mmorpg-for-programmers.md) (сходство 0.14)
+- [00-question-mmorpg-for-programmers](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.13)
+

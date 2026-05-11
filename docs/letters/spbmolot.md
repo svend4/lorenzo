@@ -86,3 +86,13 @@ python scripts/improve_spbmolot.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [spbmolot](../obsidian/letters/spbmolot.md) (сходство 0.98)
+- [antipozitive](antipozitive.md) (сходство 0.28)
+- [antipozitive](../obsidian/letters/antipozitive.md) (сходство 0.27)
+

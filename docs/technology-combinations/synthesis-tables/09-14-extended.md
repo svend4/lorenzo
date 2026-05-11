@@ -71,3 +71,13 @@ _Документ индексирован в поисковой базе реп
 - [11-hybrid-crdt-sql-database](../combinations/11-hybrid-crdt-sql-database.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-14-extended](../../obsidian/technology-combinations/synthesis-tables/09-14-extended.md) (сходство 0.96)
+- [15-19-extended](15-19-extended.md) (сходство 0.48)
+- [15-19-extended](../../obsidian/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.46)
+

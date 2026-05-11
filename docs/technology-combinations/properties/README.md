@@ -58,3 +58,13 @@
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/technology-combinations/properties/README.md) (сходство 0.98)
+- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.53)
+- [SEARCH_RESULTS](../../obsidian/SEARCH_RESULTS.md) (сходство 0.51)
+

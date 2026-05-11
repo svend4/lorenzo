@@ -122,3 +122,13 @@ python scripts/improve_semantic_search.py --query "10 Open Questions"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-open-questions](../../obsidian/nautilus/professional-colleague-agents-en/10-open-questions.md) (сходство 0.98)
+- [221-10-open-questions](../../02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.81)
+- [221-10-open-questions](../../obsidian/02-anthropic-vacancies/221-10-open-questions.md) (сходство 0.80)
+

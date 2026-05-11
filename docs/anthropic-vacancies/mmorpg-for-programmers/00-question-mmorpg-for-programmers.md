@@ -96,3 +96,13 @@ python scripts/improve_semantic_search.py --query "Вопрос MMORPG RPG пе�
 - [02-existing-niche](02-existing-niche.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-mmorpg-for-programmers](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/00-question-mmorpg-for-programmers.md) (сходство 0.98)
+- [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md) (сходство 0.17)
+- [01-why-stronger-than-it-looks](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/01-why-stronger-than-it-looks.md) (сходство 0.17)
+

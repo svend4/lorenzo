@@ -85,3 +85,13 @@ python scripts/improve_semantic_search.py --query "Existing infrastructure stack
 - [06-final-tier-ranking](06-final-tier-ranking.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-existing-infrastructure-stack](../../obsidian/anthropic-vacancies/extra-collaborator-findings/05-existing-infrastructure-stack.md) (сходство 0.93)
+- [04-similarity-4-multi-platform](../hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.48)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.47)
+

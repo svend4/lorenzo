@@ -149,3 +149,13 @@ target interface и native-форматами как adaptees»
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-consolidation-principles](../../obsidian/nautilus/review-methodology/03-consolidation-principles.md) (сходство 0.98)
+- [109-3-принципы-консолидации-фаза-c](../../02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) (сходство 0.71)
+- [109-3-принципы-консолидации-фаза-c](../../obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) (сходство 0.70)
+

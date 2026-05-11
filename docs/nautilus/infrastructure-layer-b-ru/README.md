@@ -1,10 +1,4 @@
 # infrastructure-layer-b-ru
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
@@ -40,9 +34,12 @@
 - _...ещё 7_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/nautilus/infrastructure-layer-b-ru/README.md) (сходство 0.88)
+- [README](../../meta-scripting/README.md) (сходство 0.33)
+- [README](../innovation-transitions/README.md) (сходство 0.33)
+

@@ -110,3 +110,13 @@ _Документ индексирован в поисковой базе реп
 - [07-q7-success-metrics](07-q7-success-metrics.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-q2-whom-lorenzo-serves](../../obsidian/lorenzo-agent/specification/02-q2-whom-lorenzo-serves.md) (сходство 0.98)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md) (сходство 0.34)
+- [09-q9-geographic-linguistic-scope](09-q9-geographic-linguistic-scope.md) (сходство 0.34)
+

@@ -154,3 +154,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 30 MEGA 
 - [continuation-10-domains](../research-reports/continuation-10-domains.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [30-mega-stack-3-0-with-dsl-ast](../../obsidian/technology-combinations/combinations/30-mega-stack-3-0-with-dsl-ast.md) (сходство 0.98)
+- [25-30-extended](../synthesis-tables/25-30-extended.md) (сходство 0.41)
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.40)
+

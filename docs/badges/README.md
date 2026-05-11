@@ -52,3 +52,13 @@
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/badges/README.md) (сходство 0.96)
+- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.53)
+- [MCP_DASHBOARD](../obsidian/MCP_DASHBOARD.md) (сходство 0.51)
+

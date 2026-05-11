@@ -99,3 +99,13 @@ _Документ индексирован в поисковой базе реп
 - [07-chto-mozhesh](07-chto-mozhesh.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-workflow](../obsidian/lorenzo-agent/12-workflow.md) (сходство 0.98)
+- [356-твой-workflow](../obsidian/02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.65)
+- [356-твой-workflow](../02-anthropic-vacancies/356-твой-workflow.md) (сходство 0.65)
+

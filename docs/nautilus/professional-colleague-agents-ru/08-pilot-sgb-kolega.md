@@ -297,3 +297,13 @@ python scripts/improve_semantic_search.py --query "8 Пилотное предл
 - [07-oblasti-primeneniya](07-oblasti-primeneniya.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-pilot-sgb-kolega](../../obsidian/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) (сходство 0.99)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) (сходство 0.90)
+- [239-8-пилотное-предложение-sgb-колega-адвокат](../../obsidian/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) (сходство 0.89)
+

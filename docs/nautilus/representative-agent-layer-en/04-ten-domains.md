@@ -380,3 +380,13 @@ python scripts/improve_semantic_search.py --query "4 Ten Domains of Application"
 - [02-historical-precedents](02-historical-precedents.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-ten-domains](../../obsidian/nautilus/representative-agent-layer-en/04-ten-domains.md) (сходство 0.99)
+- [173-4-ten-domains-of-application](../../02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.93)
+- [173-4-ten-domains-of-application](../../obsidian/02-anthropic-vacancies/173-4-ten-domains-of-application.md) (сходство 0.93)
+

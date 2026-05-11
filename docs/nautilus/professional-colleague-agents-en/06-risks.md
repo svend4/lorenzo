@@ -268,3 +268,13 @@ python scripts/improve_semantic_search.py --query "6 Risks Specific to this Cate
 - [04-architecture](04-architecture.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-risks](../../obsidian/nautilus/professional-colleague-agents-en/06-risks.md) (сходство 0.99)
+- [217-6-risks-specific-to-this-category](../../02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.90)
+- [217-6-risks-specific-to-this-category](../../obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) (сходство 0.90)
+

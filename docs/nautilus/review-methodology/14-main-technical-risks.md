@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Главные техниче
 - [15-appendix-c-history](15-appendix-c-history.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-main-technical-risks](../../obsidian/nautilus/review-methodology/14-main-technical-risks.md) (сходство 0.95)
+- [120-главные-технические-риски](../../02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.65)
+- [120-главные-технические-риски](../../obsidian/02-anthropic-vacancies/120-главные-технические-риски.md) (сходство 0.64)
+

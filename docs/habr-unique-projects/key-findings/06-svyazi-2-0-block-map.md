@@ -78,3 +78,13 @@ python scripts/improve_semantic_search.py --query "Синтез блок кар�
 - [7-metaphor](../hardware-pairs/7-metaphor.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-svyazi-2-0-block-map](../../obsidian/habr-unique-projects/key-findings/06-svyazi-2-0-block-map.md) (сходство 0.96)
+- [05-supplementary-infrastructure](05-supplementary-infrastructure.md) (сходство 0.31)
+- [05-supplementary-infrastructure](../../obsidian/habr-unique-projects/key-findings/05-supplementary-infrastructure.md) (сходство 0.30)
+

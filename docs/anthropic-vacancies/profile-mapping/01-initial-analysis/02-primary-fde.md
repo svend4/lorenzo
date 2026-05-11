@@ -60,3 +60,13 @@ python scripts/improve_semantic_search.py --query "Primary match Forward Deploye
 - [components-by-name](../../../glossary/components-by-name.md)
 - [concepts](../../../glossary/concepts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-primary-fde](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/02-primary-fde.md) (сходство 0.98)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md) (сходство 0.19)
+- [03-secondary-beneficial-deployments](03-secondary-beneficial-deployments.md) (сходство 0.19)
+

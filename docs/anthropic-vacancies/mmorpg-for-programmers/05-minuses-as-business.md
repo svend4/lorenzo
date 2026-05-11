@@ -103,3 +103,13 @@ python scripts/improve_semantic_search.py --query "Минусы и риски к
 - [01-why-stronger-than-it-looks](01-why-stronger-than-it-looks.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-minuses-as-business](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md) (сходство 0.98)
+- [10-three-entry-points](../ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.15)
+- [10-three-entry-points](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/10-three-entry-points.md) (сходство 0.15)
+

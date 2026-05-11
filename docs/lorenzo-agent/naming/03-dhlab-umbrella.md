@@ -442,3 +442,13 @@ python scripts/improve_semantic_search.py --query "LAYER 7 Coordination engine"
 - [08-current-session-poc](../phased-deployment/08-current-session-poc.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-dhlab-umbrella](../../obsidian/lorenzo-agent/naming/03-dhlab-umbrella.md) (сходство 0.99)
+- [02-naming-rationale-lorenzo-medici](02-naming-rationale-lorenzo-medici.md) (сходство 0.24)
+- [11-difficulties-and-recommendations](../specification/11-difficulties-and-recommendations.md) (сходство 0.24)
+

@@ -85,3 +85,13 @@ category (сначала full, затем partial, затем singular).
 - [11-security-considerations](11-security-considerations.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-query-result](../../obsidian/nautilus/npp-v1-0/10-query-result.md) (сходство 0.98)
+- [13-reference-implementation](../../obsidian/nautilus/npp-v1-0/13-reference-implementation.md) (сходство 0.66)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.66)
+

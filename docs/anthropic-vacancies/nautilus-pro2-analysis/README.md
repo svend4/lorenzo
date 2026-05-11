@@ -1,16 +1,5 @@
 # nautilus-pro2-analysis
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 4
 
 ## Содержание
@@ -35,12 +24,12 @@
 - [03-nautilus-B-meta-orchestrator](03-nautilus-B-meta-orchestrator.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «nautilus-pro2-analysis». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.78)
+- [README](../../nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.56)
+- [README](../../nautilus/community-discussions/practical-observations/README.md) (сходство 0.56)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

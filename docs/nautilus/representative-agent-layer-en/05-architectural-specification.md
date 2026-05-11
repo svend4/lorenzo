@@ -180,3 +180,13 @@ python scripts/improve_semantic_search.py --query "5 Architectural Specification
 - [08-risks-mitigations](08-risks-mitigations.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-architectural-specification](../../obsidian/nautilus/representative-agent-layer-en/05-architectural-specification.md) (сходство 0.99)
+- [174-5-architectural-specification](../../02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.85)
+- [174-5-architectural-specification](../../obsidian/02-anthropic-vacancies/174-5-architectural-specification.md) (сходство 0.84)
+

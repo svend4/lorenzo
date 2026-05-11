@@ -166,3 +166,13 @@ python scripts/improve_semantic_search.py --query "00 Intro"
 - [12-blagodarnosti-ssylki](12-blagodarnosti-ssylki.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-intro](../../obsidian/nautilus/infrastructure-layer-b-ru/00-intro.md) (сходство 0.99)
+- [288-appendix-position-in-series-visualization](../../02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.39)
+- [288-appendix-position-in-series-visualization](../../obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) (сходство 0.39)
+

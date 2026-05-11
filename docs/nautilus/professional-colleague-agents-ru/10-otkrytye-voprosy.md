@@ -138,3 +138,13 @@ python scripts/improve_semantic_search.py --query "10 Открытые вопр�
 - [00-abstract](00-abstract.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-otkrytye-voprosy](../../obsidian/nautilus/professional-colleague-agents-ru/10-otkrytye-voprosy.md) (сходство 0.99)
+- [241-10-открытые-вопросы](../../02-anthropic-vacancies/241-10-открытые-вопросы.md) (сходство 0.85)
+- [241-10-открытые-вопросы](../../obsidian/02-anthropic-vacancies/241-10-открытые-вопросы.md) (сходство 0.84)
+

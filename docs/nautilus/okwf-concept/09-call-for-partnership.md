@@ -170,3 +170,13 @@ python scripts/improve_semantic_search.py --query "9 Call for Partnership"
 - [06-governance-ethics](06-governance-ethics.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-call-for-partnership](../../obsidian/nautilus/okwf-concept/09-call-for-partnership.md) (сходство 0.98)
+- [163-9-call-for-partnership](../../02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.85)
+- [163-9-call-for-partnership](../../obsidian/02-anthropic-vacancies/163-9-call-for-partnership.md) (сходство 0.84)
+

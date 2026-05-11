@@ -97,3 +97,13 @@ _Материал доступен для семантического поис�
 - [33-event-sourcing-cqrs-clickhouse-analytics](../combinations/33-event-sourcing-cqrs-clickhouse-analytics.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [31-35-final](../../obsidian/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.97)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.49)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.48)
+

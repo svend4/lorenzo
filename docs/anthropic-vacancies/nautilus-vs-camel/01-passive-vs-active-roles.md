@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Пассивный vs акт�
 - [05-what-to-do-right-now](05-what-to-do-right-now.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-passive-vs-active-roles](../../obsidian/anthropic-vacancies/nautilus-vs-camel/01-passive-vs-active-roles.md) (сходство 0.97)
+- [17-appendix-b-change-log](../../obsidian/nautilus/npp-v1-0/17-appendix-b-change-log.md) (сходство 0.45)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.45)
+

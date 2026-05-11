@@ -43,3 +43,13 @@ python scripts/improve_semantic_search.py --query "community discussions обс�
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/nautilus/community-discussions/README.md) (сходство 0.98)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.49)
+- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.49)
+

@@ -80,3 +80,13 @@ _Документ индексирован в поисковой базе реп
 - [10-q10-funding-model](10-q10-funding-model.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-context-fundamental-questions](../../obsidian/lorenzo-agent/specification/00-context-fundamental-questions.md) (сходство 0.94)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md) (сходство 0.37)
+- [08-q8-other-ai-relationships](../../obsidian/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.36)
+

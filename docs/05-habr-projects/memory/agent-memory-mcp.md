@@ -169,3 +169,13 @@ _Создано: 2026-05-10_
 [^ngt]: OSS-проект: ассоциативный граф памяти (BSL 1.1)
 
 [^svyazi]: Главный проект: экосистема AI-компонентов
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [agent-memory-mcp](../../obsidian/05-habr-projects/memory/agent-memory-mcp.md) (сходство 0.94)
+- [mclaude](../knowledge/mclaude.md) (сходство 0.27)
+- [agentfs](../knowledge/agentfs.md) (сходство 0.27)
+

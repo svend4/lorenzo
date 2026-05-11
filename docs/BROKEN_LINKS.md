@@ -108,3 +108,13 @@ python scripts/improve_broken_links.py --fix
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LINKS](obsidian/LINKS.md) (сходство 0.25)
+- [LINKS](LINKS.md) (сходство 0.22)
+- [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.18)
+

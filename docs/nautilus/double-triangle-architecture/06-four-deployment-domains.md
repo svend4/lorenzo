@@ -182,3 +182,13 @@ python scripts/improve_semantic_search.py --query "6 Four Deployment Domains"
 - [04-proposed-infrastructure](../okwf-concept/04-proposed-infrastructure.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-four-deployment-domains](../../obsidian/nautilus/double-triangle-architecture/06-four-deployment-domains.md) (сходство 0.98)
+- [143-6-four-deployment-domains](../../obsidian/02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.83)
+- [143-6-four-deployment-domains](../../02-anthropic-vacancies/143-6-four-deployment-domains.md) (сходство 0.83)
+

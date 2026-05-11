@@ -193,3 +193,13 @@ python scripts/improve_semantic_search.py --query "8 Risk Analysis"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-risk-analysis](../../obsidian/nautilus/okwf-concept/08-risk-analysis.md) (сходство 0.99)
+- [162-8-risk-analysis](../../02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.88)
+- [162-8-risk-analysis](../../obsidian/02-anthropic-vacancies/162-8-risk-analysis.md) (сходство 0.88)
+

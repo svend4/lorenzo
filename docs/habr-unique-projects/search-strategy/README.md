@@ -42,3 +42,13 @@ python scripts/improve_semantic_search.py --query "поиск проектов �
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/habr-unique-projects/search-strategy/README.md) (сходство 0.98)
+- [README](../evaluation/README.md) (сходство 0.52)
+- [README](../../obsidian/habr-unique-projects/evaluation/README.md) (сходство 0.51)
+

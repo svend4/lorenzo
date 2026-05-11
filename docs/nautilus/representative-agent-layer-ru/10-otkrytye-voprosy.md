@@ -121,3 +121,13 @@ python scripts/improve_semantic_search.py --query "10 Открытые вопр�
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-otkrytye-voprosy](../../obsidian/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) (сходство 0.98)
+- [200-10-открытые-вопросы](../../02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.81)
+- [200-10-открытые-вопросы](../../obsidian/02-anthropic-vacancies/200-10-открытые-вопросы.md) (сходство 0.81)
+

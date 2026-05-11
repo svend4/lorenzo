@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Memory Write Policy"
 - [integration-spec](integration-spec.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [memory-write-policy](../../obsidian/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.97)
+- [card-envelope](card-envelope.md) (сходство 0.34)
+- [skill-tool-policy](skill-tool-policy.md) (сходство 0.34)
+

@@ -106,3 +106,13 @@ python scripts/improve_semantic_search.py --query "Авторы алфавитн
 - [README](README.md)
 - _...ещё 32_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [authors-by-name](../obsidian/glossary/authors-by-name.md) (сходство 0.96)
+- [components-by-name](components-by-name.md) (сходство 0.28)
+- [components-by-name](../obsidian/glossary/components-by-name.md) (сходство 0.27)
+

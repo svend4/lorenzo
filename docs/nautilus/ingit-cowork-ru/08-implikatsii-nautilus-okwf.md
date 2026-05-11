@@ -185,3 +185,13 @@ python scripts/improve_semantic_search.py --query "8 Импликации для
 - [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-implikatsii-nautilus-okwf](../../obsidian/nautilus/ingit-cowork-ru/08-implikatsii-nautilus-okwf.md) (сходство 0.99)
+- [334-8-импликации-для-nautilus-и-okwf](../../02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) (сходство 0.85)
+- [334-8-импликации-для-nautilus-и-okwf](../../obsidian/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) (сходство 0.84)
+

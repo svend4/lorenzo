@@ -1,16 +1,5 @@
 # security
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 3
 
 ## Содержание
@@ -34,12 +23,12 @@
 - [privacy](privacy.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «security». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/svyazi-2-0/security/README.md) (сходство 0.70)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.57)
+- [README](../prototype/README.md) (сходство 0.57)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

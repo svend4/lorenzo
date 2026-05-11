@@ -1,16 +1,5 @@
 # mmorpg-for-programmers
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 6
 
 ## Содержание
@@ -38,12 +27,12 @@
 - _...ещё 4_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «mmorpg-for-programmers». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/README.md) (сходство 0.80)
+- [README](../../nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.50)
+- [README](../../nautilus/community-discussions/practical-observations/README.md) (сходство 0.50)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

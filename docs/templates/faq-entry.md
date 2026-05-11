@@ -97,3 +97,13 @@ python scripts/improve_template_init.py --template faq-entry --output docs/new-d
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [faq-entry](../obsidian/templates/faq-entry.md) (сходство 0.90)
+- [glossary-entry](glossary-entry.md) (сходство 0.56)
+- [glossary-entry](../obsidian/templates/glossary-entry.md) (сходство 0.55)
+

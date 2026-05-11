@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Что не существу�
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-what-doesnt-exist-on-market](../../obsidian/nautilus/npp-humanitarian-extension/03-what-doesnt-exist-on-market.md) (сходство 0.94)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.45)
+- [05-which-combination-more-valuable](../../obsidian/nautilus/npp-humanitarian-extension/05-which-combination-more-valuable.md) (сходство 0.45)
+

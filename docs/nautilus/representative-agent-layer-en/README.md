@@ -1,16 +1,10 @@
 # representative-agent-layer-en
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 13
 
 ## Содержание
 
-- [00-abstract.md](00-abstract.md) — <!-- toc-auto -->
+- [00-abstract.md](00-abstract.md) — <!-- toc -->
 - [01-cinderella-syndrome.md](01-cinderella-syndrome.md) — > [!NOTE]
 - [02-historical-precedents.md](02-historical-precedents.md) — > [!NOTE]
 - [03-what-makes-representative-agent.md](03-what-makes-representative-agent.md) — > [!NOTE]
@@ -40,9 +34,12 @@
 - _...ещё 7_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/nautilus/representative-agent-layer-en/README.md) (сходство 0.89)
+- [README](../professional-colleague-agents-en/README.md) (сходство 0.42)
+- [README](../composite-skills-agents/README.md) (сходство 0.41)
+

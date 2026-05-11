@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "Evidence Envelope"
 - [README](README.md)
 - [integration-spec](integration-spec.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [evidence-envelope](../../obsidian/svyazi-2-0/architecture/evidence-envelope.md) (сходство 0.97)
+- [READING_LIST](../../READING_LIST.md) (сходство 0.27)
+- [READING_LIST](../../obsidian/READING_LIST.md) (сходство 0.27)
+

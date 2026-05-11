@@ -85,3 +85,13 @@ python scripts/improve_semantic_search.py --query "CoAlly distributed shared mem
 - [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-coally](../../obsidian/anthropic-vacancies/extra-collaborator-findings/01-coally.md) (сходство 0.97)
+- [04-mem0-letta-graphiti](../../obsidian/anthropic-vacancies/extra-collaborator-findings/04-mem0-letta-graphiti.md) (сходство 0.22)
+- [04-mem0-letta-graphiti](04-mem0-letta-graphiti.md) (сходство 0.21)
+

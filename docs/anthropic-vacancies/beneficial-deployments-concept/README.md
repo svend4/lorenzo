@@ -1,16 +1,5 @@
 # beneficial-deployments-concept
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 12
 
 ## Содержание
@@ -44,9 +33,12 @@
 - _...ещё 1_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md) (сходство 0.87)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.38)
+- [README](../../meta-scripting/README.md) (сходство 0.37)
+

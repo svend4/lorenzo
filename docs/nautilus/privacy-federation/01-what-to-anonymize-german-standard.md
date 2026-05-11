@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Что именно анон�
 - [00-question-anonymization](00-question-anonymization.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-what-to-anonymize-german-standard](../../obsidian/nautilus/privacy-federation/01-what-to-anonymize-german-standard.md) (сходство 0.96)
+- [00-question-anonymization](00-question-anonymization.md) (сходство 0.20)
+- [00-question-anonymization](../../obsidian/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.20)
+

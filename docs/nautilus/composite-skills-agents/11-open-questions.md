@@ -168,3 +168,13 @@ python scripts/improve_semantic_search.py --query "11 Open Questions"
 - [10-risks](10-risks.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-open-questions](../../obsidian/nautilus/composite-skills-agents/11-open-questions.md) (сходство 0.98)
+- [264-11-open-questions](../../02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.82)
+- [264-11-open-questions](../../obsidian/02-anthropic-vacancies/264-11-open-questions.md) (сходство 0.82)
+

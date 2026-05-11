@@ -71,3 +71,13 @@ _Документ индексирован в поисковой базе реп
 - [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-camel-vs-nautilus](../../obsidian/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.92)
+- [00-question-multi-tier](../../nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.38)
+- [00-question-multi-tier](../../obsidian/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.34)
+

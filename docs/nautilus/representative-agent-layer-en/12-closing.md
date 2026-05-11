@@ -519,3 +519,13 @@ python scripts/improve_semantic_search.py --query "12 Closing" --mode bm25
 - [04-ten-domains](04-ten-domains.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-closing](../../obsidian/nautilus/representative-agent-layer-en/12-closing.md) (сходство 0.99)
+- [01-response-en](../community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.45)
+- [01-response-en](../../obsidian/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.45)
+

@@ -68,3 +68,13 @@ _Не найдено в этом файле._
 # Запуск
 python scripts/improve_qa.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/03-technology-combinations/QA.md) (сходство 0.97)
+- [QA](../processing-guide/QA.md) (сходство 0.51)
+- [QA](../lorenzo-agent/QA.md) (сходство 0.50)
+

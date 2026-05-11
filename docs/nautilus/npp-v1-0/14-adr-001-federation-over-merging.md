@@ -92,3 +92,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-adr-001-federation-over-merging](../../obsidian/nautilus/npp-v1-0/14-adr-001-federation-over-merging.md) (сходство 0.98)
+- [19-adr-001-federation-over-merging](../npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.80)
+- [19-adr-001-federation-over-merging](../../obsidian/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.78)
+

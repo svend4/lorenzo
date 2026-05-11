@@ -83,3 +83,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [04-q4-character](specification/04-q4-character.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-outreach-communication](../obsidian/lorenzo-agent/13-outreach-communication.md) (сходство 0.97)
+- [357-твоя-коммуникация-в-outreach](../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.83)
+- [357-твоя-коммуникация-в-outreach](../obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.82)
+

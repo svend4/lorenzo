@@ -65,3 +65,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ALERTS](obsidian/ALERTS.md) (сходство 0.96)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.49)
+- [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.47)
+

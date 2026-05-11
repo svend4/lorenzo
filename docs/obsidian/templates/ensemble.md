@@ -83,3 +83,13 @@ _Создано: 2026-05-11_
 - [[README]]
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ensemble](../../templates/ensemble.md) (сходство 0.93)
+- [project-component](project-component.md) (сходство 0.41)
+- [project-component](../../templates/project-component.md) (сходство 0.38)
+

@@ -72,3 +72,13 @@ _Документ индексирован в поисковой базе реп
 - [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-similarity-1-composite-skills](../../obsidian/anthropic-vacancies/hermes-comparison/01-similarity-1-composite-skills.md) (сходство 0.98)
+- [07-difference-2-domain-specialization](07-difference-2-domain-specialization.md) (сходство 0.40)
+- [07-difference-2-domain-specialization](../../obsidian/anthropic-vacancies/hermes-comparison/07-difference-2-domain-specialization.md) (сходство 0.40)
+

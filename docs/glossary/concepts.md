@@ -97,3 +97,13 @@ python scripts/improve_semantic_search.py --query "Ключевые поняти
 - [reading-paths](../reading-paths.md)
 - [glossary-entry](../templates/glossary-entry.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [concepts](../obsidian/glossary/concepts.md) (сходство 0.94)
+- [components-by-name](components-by-name.md) (сходство 0.21)
+- [components-by-name](../obsidian/glossary/components-by-name.md) (сходство 0.19)
+

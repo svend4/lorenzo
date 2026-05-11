@@ -118,3 +118,13 @@ python scripts/improve_semantic_search.py --query "Практические ре
 - [06-konkretnyy-sluchay](06-konkretnyy-sluchay.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-rekomendatsii](../../obsidian/nautilus/infrastructure-layer-b-ru/10-rekomendatsii.md) (сходство 0.98)
+- [299-практические-рекомендации-для-текущего-проекта](../../obsidian/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) (сходство 0.75)
+- [299-практические-рекомендации-для-текущего-проекта](../../02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) (сходство 0.74)
+

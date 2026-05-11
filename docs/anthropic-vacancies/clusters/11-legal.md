@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Legal 13 ролей"
 - [overview](../overview.md)
 - [07-unique-niche-eu-legal-infra](../profile-mapping/01-initial-analysis/07-unique-niche-eu-legal-infra.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-legal](../../obsidian/anthropic-vacancies/clusters/11-legal.md) (сходство 0.95)
+- [12-technical-program-management](12-technical-program-management.md) (сходство 0.65)
+- [13-communications](13-communications.md) (сходство 0.64)
+

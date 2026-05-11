@@ -89,3 +89,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [17-versioning-policy](../npp-v1-1/17-versioning-policy.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-versioning-policy](../../obsidian/nautilus/npp-v1-0/12-versioning-policy.md) (сходство 0.97)
+- [24-12-versioning-policy](../../02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.60)
+- [24-12-versioning-policy](../../obsidian/02-anthropic-vacancies/24-12-versioning-policy.md) (сходство 0.60)
+

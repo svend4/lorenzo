@@ -73,3 +73,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-related-projects-context](../../obsidian/ai-collaborations/candidates/02-related-projects-context.md) (сходство 0.96)
+- [02-related-projects](../../obsidian/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.58)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md) (сходство 0.57)
+

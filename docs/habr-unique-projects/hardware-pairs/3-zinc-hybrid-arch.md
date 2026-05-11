@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Пара 3 ZINC inference eng
 - [README](README.md)
 - [README](../../nautilus/README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-zinc-hybrid-arch](../../obsidian/habr-unique-projects/hardware-pairs/3-zinc-hybrid-arch.md) (сходство 0.95)
+- [4-riscv-privacy](4-riscv-privacy.md) (сходство 0.23)
+- [06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-](../../technology-combinations/combinations/06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md) (сходство 0.22)
+

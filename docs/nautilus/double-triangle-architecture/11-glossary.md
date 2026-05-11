@@ -268,3 +268,13 @@ python scripts/improve_semantic_search.py --query "Appendix A Glossary"
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-glossary](../../obsidian/nautilus/double-triangle-architecture/11-glossary.md) (сходство 0.99)
+- [148-appendix-a-glossary](../../02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
+- [148-appendix-a-glossary](../../obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md) (сходство 0.17)
+

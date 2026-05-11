@@ -74,3 +74,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ALERTS](../ALERTS.md) (сходство 0.96)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.51)
+- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.47)
+

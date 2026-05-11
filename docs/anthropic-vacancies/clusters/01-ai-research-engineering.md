@@ -63,3 +63,13 @@ python scripts/improve_semantic_search.py --query "AI Research Engineering 68 р
 - [overview](../overview.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-ai-research-engineering](../../obsidian/anthropic-vacancies/clusters/01-ai-research-engineering.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.62)
+- [12-technical-program-management](12-technical-program-management.md) (сходство 0.61)
+

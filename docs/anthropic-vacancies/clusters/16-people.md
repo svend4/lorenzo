@@ -59,3 +59,13 @@ python scripts/improve_semantic_search.py --query "People 3 роли"
 - [05-marketing-brand](05-marketing-brand.md)
 - _...ещё 11_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-people](../../obsidian/anthropic-vacancies/clusters/16-people.md) (сходство 0.97)
+- [13-communications](13-communications.md) (сходство 0.80)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.78)
+

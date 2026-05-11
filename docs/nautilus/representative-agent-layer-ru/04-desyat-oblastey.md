@@ -237,3 +237,13 @@ python scripts/improve_semantic_search.py --query "4 Десять областе
 - [02-istoricheskie-pretsedenty](02-istoricheskie-pretsedenty.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-desyat-oblastey](../../obsidian/nautilus/representative-agent-layer-ru/04-desyat-oblastey.md) (сходство 0.99)
+- [194-4-десять-областей-применения](../../obsidian/02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.94)
+- [194-4-десять-областей-применения](../../02-anthropic-vacancies/194-4-десять-областей-применения.md) (сходство 0.94)
+

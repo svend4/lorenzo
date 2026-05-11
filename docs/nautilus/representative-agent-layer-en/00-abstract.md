@@ -149,3 +149,13 @@ python scripts/improve_semantic_search.py --query "AI Mediated Representation fo
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract](../../obsidian/nautilus/representative-agent-layer-en/00-abstract.md) (сходство 0.99)
+- [168-abstract](../../obsidian/02-anthropic-vacancies/168-abstract.md) (сходство 0.67)
+- [168-abstract](../../02-anthropic-vacancies/168-abstract.md) (сходство 0.67)
+

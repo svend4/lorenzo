@@ -109,3 +109,13 @@ python scripts/improve_semantic_search.py --query "References"
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-references](../../obsidian/nautilus/double-triangle-architecture/10-references.md) (сходство 0.97)
+- [147-references](../../02-anthropic-vacancies/147-references.md) (сходство 0.71)
+- [147-references](../../obsidian/02-anthropic-vacancies/147-references.md) (сходство 0.70)
+

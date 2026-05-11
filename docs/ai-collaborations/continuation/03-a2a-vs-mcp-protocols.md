@@ -93,3 +93,13 @@ python scripts/improve_semantic_search.py --query "A2A vs MCP ансамбль H
 - [07-vs-notion-mem-affine-langgraph](07-vs-notion-mem-affine-langgraph.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-a2a-vs-mcp-protocols](../../obsidian/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.99)
+- [04-memory-firewall-vs-prompt-worms](../../obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.21)
+- [04-memory-firewall-vs-prompt-worms](04-memory-firewall-vs-prompt-worms.md) (сходство 0.20)
+

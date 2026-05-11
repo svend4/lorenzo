@@ -74,3 +74,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 3 Discovery 
 - [1-one-person-one-company](1-one-person-one-company.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-discovery-research](../../obsidian/habr-unique-projects/final-ensembles/3-discovery-research.md) (сходство 0.95)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.46)
+- [12-technical-program-management](../../anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.45)
+

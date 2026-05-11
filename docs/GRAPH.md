@@ -686,3 +686,13 @@ digraph lorenzo {
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GRAPH](obsidian/GRAPH.md) (сходство 0.95)
+- [MINDMAP](MINDMAP.md) (сходство 0.48)
+- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.48)
+

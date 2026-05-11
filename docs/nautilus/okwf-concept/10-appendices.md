@@ -169,3 +169,13 @@ python scripts/improve_semantic_search.py --query "10 Appendices"
 - [09-call-for-partnership](09-call-for-partnership.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-appendices](../../obsidian/nautilus/okwf-concept/10-appendices.md) (сходство 0.98)
+- [164-10-appendices](../../02-anthropic-vacancies/164-10-appendices.md) (сходство 0.74)
+- [164-10-appendices](../../obsidian/02-anthropic-vacancies/164-10-appendices.md) (сходство 0.74)
+

@@ -120,3 +120,13 @@ python scripts/improve_template_init.py --template tech-radar-entry --output doc
 - [README](README.md)
 - [mega-stack](mega-stack.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [tech-radar-entry](../obsidian/templates/tech-radar-entry.md) (сходство 0.91)
+- [glossary-entry](glossary-entry.md) (сходство 0.39)
+- [faq-entry](faq-entry.md) (сходство 0.38)
+

@@ -205,3 +205,13 @@ graph TD
 - [[SEARCH]]
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPT_GRAPH](../CONCEPT_GRAPH.md) (сходство 0.96)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.42)
+- [CROSS_SECTION](CROSS_SECTION.md) (сходство 0.41)
+

@@ -74,3 +74,13 @@ python scripts/improve_semantic_search.py --query "Различие 1 Струк
 - [08-difference-3-federation-missing](08-difference-3-federation-missing.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-difference-1-structured-substrate-missing](../../obsidian/anthropic-vacancies/hermes-comparison/06-difference-1-structured-substrate-missing.md) (сходство 0.98)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.55)
+- [03-similarity-3-mcp-support](../../obsidian/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.54)
+

@@ -146,3 +146,13 @@ python scripts/improve_semantic_search.py --query "7 Governance and Oversight"
 - [06-ethical-framework](06-ethical-framework.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-governance-oversight](../../obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md) (сходство 0.98)
+- [176-7-governance-and-oversight](../../obsidian/02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.83)
+- [176-7-governance-and-oversight](../../02-anthropic-vacancies/176-7-governance-and-oversight.md) (сходство 0.83)
+

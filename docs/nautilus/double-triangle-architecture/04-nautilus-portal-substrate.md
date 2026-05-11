@@ -158,3 +158,13 @@ python scripts/improve_semantic_search.py --query "4 Nautilus Portal as Referenc
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-nautilus-portal-substrate](../../obsidian/nautilus/double-triangle-architecture/04-nautilus-portal-substrate.md) (сходство 0.98)
+- [141-4-nautilus-portal-as-reference-substrate](../../02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.79)
+- [141-4-nautilus-portal-as-reference-substrate](../../obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) (сходство 0.78)
+

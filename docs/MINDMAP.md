@@ -144,3 +144,13 @@ flowchart LR
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MINDMAP](obsidian/MINDMAP.md) (сходство 0.93)
+- [GRAPH](GRAPH.md) (сходство 0.48)
+- [GRAPH](obsidian/GRAPH.md) (сходство 0.47)
+

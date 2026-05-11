@@ -177,3 +177,13 @@ python scripts/improve_semantic_search.py --query "1 The Cinderella Syndrome Why
 - [02-historical-precedents](02-historical-precedents.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-cinderella-syndrome](../../obsidian/nautilus/representative-agent-layer-en/01-cinderella-syndrome.md) (сходство 0.98)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.88)
+- [170-1-the-cinderella-syndrome-why-quality-stays-invisi](../../obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) (сходство 0.88)
+

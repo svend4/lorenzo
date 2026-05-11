@@ -255,3 +255,13 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DEPENDENCY_MAP](../DEPENDENCY_MAP.md) (сходство 0.99)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md) (сходство 0.26)
+- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md) (сходство 0.26)
+

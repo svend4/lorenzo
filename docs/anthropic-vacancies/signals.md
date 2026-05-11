@@ -82,3 +82,13 @@ python scripts/improve_semantic_search.py --query "Сигналы что гов�
 - [overview](overview.md)
 - [reading-paths](../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [signals](../obsidian/anthropic-vacancies/signals.md) (сходство 0.97)
+- [02-sales](clusters/02-sales.md) (сходство 0.32)
+- [02-sales](../obsidian/anthropic-vacancies/clusters/02-sales.md) (сходство 0.31)
+

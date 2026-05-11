@@ -194,3 +194,13 @@ python scripts/improve_semantic_search.py --query "12 Заключение" --mo
 - [00-abstract](00-abstract.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-zaklyuchenie](../../obsidian/nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md) (сходство 0.99)
+- [243-12-заключение](../../02-anthropic-vacancies/243-12-заключение.md) (сходство 0.53)
+- [243-12-заключение](../../obsidian/02-anthropic-vacancies/243-12-заключение.md) (сходство 0.53)
+

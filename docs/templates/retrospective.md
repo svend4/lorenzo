@@ -102,3 +102,13 @@ python scripts/improve_template_init.py --template retrospective --output docs/n
 - [kpi-snapshot](kpi-snapshot.md)
 - [weekly-digest](weekly-digest.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [retrospective](../obsidian/templates/retrospective.md) (сходство 0.93)
+- [meeting-notes](meeting-notes.md) (сходство 0.53)
+- [meeting-notes](../obsidian/templates/meeting-notes.md) (сходство 0.52)
+

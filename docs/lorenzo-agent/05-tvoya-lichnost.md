@@ -87,3 +87,13 @@ python scripts/improve_semantic_search.py --query "Твоя личность"
 - [README](README.md)
 - [04-q4-character](specification/04-q4-character.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-tvoya-lichnost](../obsidian/lorenzo-agent/05-tvoya-lichnost.md) (сходство 0.97)
+- [349-твоя-личность](../02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.80)
+- [349-твоя-личность](../obsidian/02-anthropic-vacancies/349-твоя-личность.md) (сходство 0.79)
+

@@ -103,3 +103,13 @@ _Документ доступен для семантического поис�
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-level-1-minimal-zero](../../obsidian/lorenzo-agent/phased-deployment/02-level-1-minimal-zero.md) (сходство 0.99)
+- [03-level-2-basic-lite](../../obsidian/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.33)
+- [03-level-2-basic-lite](03-level-2-basic-lite.md) (сходство 0.33)
+

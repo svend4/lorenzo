@@ -75,3 +75,13 @@ flowchart LR
 - [D-voice-first-mesh](D-voice-first-mesh.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [F-evidence-backed-intake](../../obsidian/svyazi-2-0/ensembles/F-evidence-backed-intake.md) (сходство 0.98)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md) (сходство 0.32)
+- [10-second-order-ensembles](../../obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.32)
+

@@ -92,3 +92,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 5 Source
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе репозитория Lorenzo и доступен для семантического поиска._ _Доступен семантический поиск._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy](../../obsidian/technology-combinations/combinations/05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md) (сходство 0.97)
+- [02-knowledge-graphs](../../obsidian/03-technology-combinations/02-knowledge-graphs.md) (сходство 0.32)
+- [02-knowledge-graphs](../../03-technology-combinations/02-knowledge-graphs.md) (сходство 0.31)
+

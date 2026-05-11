@@ -170,3 +170,13 @@ python scripts/improve_semantic_search.py --query "9 Relationship to Other Agent
 - [03-empirical-case-obuchay](03-empirical-case-obuchay.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-relationship-other-agents](../../obsidian/nautilus/professional-colleague-agents-en/09-relationship-other-agents.md) (сходство 0.98)
+- [220-9-relationship-to-other-agent-types](../../02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.83)
+- [220-9-relationship-to-other-agent-types](../../obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) (сходство 0.82)
+

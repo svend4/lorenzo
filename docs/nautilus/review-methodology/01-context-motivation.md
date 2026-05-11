@@ -103,3 +103,13 @@ third agent с явным контекстом обоих) создаёт фин
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-context-motivation](../../obsidian/nautilus/review-methodology/01-context-motivation.md) (сходство 0.98)
+- [107-1-контекст-и-мотивация](../../02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.82)
+- [107-1-контекст-и-мотивация](../../obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) (сходство 0.81)
+

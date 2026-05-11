@@ -1,16 +1,5 @@
 # combinations
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 35
 
 ## Содержание
@@ -67,9 +56,12 @@
 - _...ещё 25_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/technology-combinations/combinations/README.md) (сходство 0.95)
+- [components-by-name](../../obsidian/glossary/components-by-name.md) (сходство 0.28)
+- [components-by-name](../../glossary/components-by-name.md) (сходство 0.28)
+

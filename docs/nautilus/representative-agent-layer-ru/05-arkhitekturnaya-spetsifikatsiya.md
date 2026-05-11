@@ -125,3 +125,13 @@ python scripts/improve_semantic_search.py --query "5 Архитектурная 
 - [06-eticheskaya-ramka](06-eticheskaya-ramka.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-arkhitekturnaya-spetsifikatsiya](../../obsidian/nautilus/representative-agent-layer-ru/05-arkhitekturnaya-spetsifikatsiya.md) (сходство 0.99)
+- [195-5-архитектурная-спецификация](../../02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.84)
+- [195-5-архитектурная-спецификация](../../obsidian/02-anthropic-vacancies/195-5-архитектурная-спецификация.md) (сходство 0.84)
+

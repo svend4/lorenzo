@@ -209,3 +209,13 @@ python scripts/improve_semantic_search.py --query "3 What Makes a Composite Skil
 - [11-open-questions](11-open-questions.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-what-makes-csa](../../obsidian/nautilus/composite-skills-agents/03-what-makes-csa.md) (сходство 0.99)
+- [256-3-what-makes-a-composite-skills-agent](../../02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.86)
+- [256-3-what-makes-a-composite-skills-agent](../../obsidian/02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) (сходство 0.86)
+

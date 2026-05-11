@@ -71,3 +71,13 @@ _Индексировано в поисковой базе репозитори�
 - [01-search-results-not-found](01-search-results-not-found.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-lorenzo-codename](../../obsidian/lorenzo-agent/naming/00-question-lorenzo-codename.md) (сходство 0.93)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.32)
+- [00-question-agent-changes-reality](../../nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.30)
+

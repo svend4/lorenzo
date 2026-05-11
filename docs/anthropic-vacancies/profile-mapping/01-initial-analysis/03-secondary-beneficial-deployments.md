@@ -65,3 +65,13 @@ python scripts/improve_semantic_search.py --query "Secondary match Applied AI En
 - [05-quaternary-developer-education](05-quaternary-developer-education.md)
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-secondary-beneficial-deployments](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/03-secondary-beneficial-deployments.md) (сходство 0.98)
+- [00-question-habr-link](../../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.43)
+- [00-question-habr-link](../../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.43)
+

@@ -83,3 +83,13 @@
 - [README](README.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в базе знаний репозитория Lorenzo._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-legal-ai-stack](../../obsidian/technology-combinations/mega-stacks/01-legal-ai-stack.md) (сходство 0.95)
+- [02-ultimate-legal-ai](02-ultimate-legal-ai.md) (сходство 0.40)
+- [09-14-extended](../synthesis-tables/09-14-extended.md) (сходство 0.40)
+

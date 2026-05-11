@@ -102,3 +102,13 @@ python scripts/improve_semantic_search.py --query "Три варианта A sta
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-three-variants-A-B-C](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B-C.md) (сходство 0.99)
+- [07-current-implementations](07-current-implementations.md) (сходство 0.18)
+- [07-current-implementations](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.18)
+

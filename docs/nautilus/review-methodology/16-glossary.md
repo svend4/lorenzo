@@ -170,3 +170,13 @@ python scripts/improve_semantic_search.py --query "Глоссарий"
 - [22-glossary](../npp-v1-1/22-glossary.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [16-glossary](../../obsidian/nautilus/review-methodology/16-glossary.md) (сходство 0.99)
+- [122-глоссарий](../../obsidian/02-anthropic-vacancies/122-глоссарий.md) (сходство 0.19)
+- [122-глоссарий](../../02-anthropic-vacancies/122-глоссарий.md) (сходство 0.19)
+

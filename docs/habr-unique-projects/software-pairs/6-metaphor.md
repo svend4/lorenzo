@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Метафора в твое�
 - [7-metaphor](../hardware-pairs/7-metaphor.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [6-metaphor](../../obsidian/habr-unique-projects/software-pairs/6-metaphor.md) (сходство 0.94)
+- [7-metaphor](../hardware-pairs/7-metaphor.md) (сходство 0.23)
+- [4-speech-to-text-llm](4-speech-to-text-llm.md) (сходство 0.22)
+

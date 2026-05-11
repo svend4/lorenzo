@@ -102,3 +102,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 31 Event
 - [README](README.md)
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [31-event-sourced-legal-document-history](../../obsidian/technology-combinations/combinations/31-event-sourced-legal-document-history.md) (сходство 0.96)
+- [33-event-sourcing-cqrs-clickhouse-analytics](33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.46)
+- [33-event-sourcing-cqrs-clickhouse-analytics](../../obsidian/technology-combinations/combinations/33-event-sourcing-cqrs-clickhouse-analytics.md) (сходство 0.44)
+

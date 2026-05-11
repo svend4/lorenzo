@@ -114,3 +114,13 @@ python scripts/improve_semantic_search.py --query "8 Consensus Algorithm v1 0 st
 - [README](README.md)
 - [09-consensus-algorithm](../npp-v1-1/09-consensus-algorithm.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-consensus-algorithm](../../obsidian/nautilus/npp-v1-0/08-consensus-algorithm.md) (сходство 0.99)
+- [20-8-consensus-algorithm](../../02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.68)
+- [20-8-consensus-algorithm](../../obsidian/02-anthropic-vacancies/20-8-consensus-algorithm.md) (сходство 0.68)
+

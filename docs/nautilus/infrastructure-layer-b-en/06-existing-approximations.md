@@ -164,3 +164,13 @@ python scripts/improve_semantic_search.py --query "Existing Approximations"
 - [05-why-not-built](05-why-not-built.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-existing-approximations](../../obsidian/nautilus/infrastructure-layer-b-en/06-existing-approximations.md) (сходство 0.98)
+- [279-existing-approximations](../../02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.72)
+- [279-existing-approximations](../../obsidian/02-anthropic-vacancies/279-existing-approximations.md) (сходство 0.72)
+

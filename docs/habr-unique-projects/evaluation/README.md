@@ -40,3 +40,13 @@ python scripts/improve_semantic_search.py --query "evaluation оценка ун�
 - [TABLES](../../TABLES.md)
 - [README](../search-strategy/README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/habr-unique-projects/evaluation/README.md) (сходство 0.96)
+- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.53)
+- [SEARCH_RESULTS](../../obsidian/SEARCH_RESULTS.md) (сходство 0.52)
+

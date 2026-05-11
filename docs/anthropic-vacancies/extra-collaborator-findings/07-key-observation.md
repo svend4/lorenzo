@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Ключевое наблюд
 - [03-happyin-knowledge-space](03-happyin-knowledge-space.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-key-observation](../../obsidian/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.95)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.43)
+- [00-question-habr-link](../../nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.42)
+

@@ -120,3 +120,13 @@ python scripts/improve_semantic_search.py --query "Результаты посл
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-search-results-not-found](../../obsidian/lorenzo-agent/naming/01-search-results-not-found.md) (сходство 0.92)
+- [00-question-lorenzo-codename](00-question-lorenzo-codename.md) (сходство 0.23)
+- [00-question-lorenzo-codename](../../obsidian/lorenzo-agent/naming/00-question-lorenzo-codename.md) (сходство 0.23)
+

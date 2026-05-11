@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Твоё происхожде
 - [06-yazyki-kultura](06-yazyki-kultura.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-tvoyo-proishozhdenie](../obsidian/lorenzo-agent/02-tvoyo-proishozhdenie.md) (сходство 0.98)
+- [346-твоё-происхождение](../obsidian/02-anthropic-vacancies/346-твоё-происхождение.md) (сходство 0.74)
+- [346-твоё-происхождение](../02-anthropic-vacancies/346-твоё-происхождение.md) (сходство 0.74)
+

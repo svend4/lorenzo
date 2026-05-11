@@ -1,16 +1,5 @@
 # components
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 19
 
 ## Содержание
@@ -51,9 +40,12 @@
 - _...ещё 17_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/svyazi-2-0/components/README.md) (сходство 0.89)
+- [README](../../habr-unique-projects/key-findings/README.md) (сходство 0.35)
+- [GLOSSARY](../../GLOSSARY.md) (сходство 0.35)
+

@@ -48,3 +48,13 @@ python scripts/improve_semantic_search.py --query "profile mapping маппин�
 - [SEARCH](../../SEARCH.md)
 - [TABLES](../../TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/anthropic-vacancies/profile-mapping/README.md) (сходство 0.98)
+- [15-public-benefit](../clusters/15-public-benefit.md) (сходство 0.35)
+- [13-communications](../clusters/13-communications.md) (сходство 0.34)
+

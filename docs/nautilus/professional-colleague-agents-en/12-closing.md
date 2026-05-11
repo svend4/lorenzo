@@ -136,3 +136,13 @@ python scripts/improve_semantic_search.py --query "12 Closing"
 - [00-abstract](00-abstract.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-closing](../../obsidian/nautilus/professional-colleague-agents-en/12-closing.md) (сходство 0.99)
+- [223-12-closing](../../02-anthropic-vacancies/223-12-closing.md) (сходство 0.58)
+- [223-12-closing](../../obsidian/02-anthropic-vacancies/223-12-closing.md) (сходство 0.57)
+

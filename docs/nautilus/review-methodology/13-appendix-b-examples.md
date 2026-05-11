@@ -112,3 +112,13 @@ $ find tests -name "*.py" | xargs wc -l | tail -1
 - [10-checklist](10-checklist.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-appendix-b-examples](../../obsidian/nautilus/review-methodology/13-appendix-b-examples.md) (сходство 0.94)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../../obsidian/02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.62)
+- [119-appendix-b-примеры-расхождений-и-их-разрешения](../../02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) (сходство 0.61)
+

@@ -249,3 +249,13 @@ python scripts/improve_footnotes.py      # глоссарий-сноски
 - [research-summary](../autofilled/research-summary.md)
 - [ONBOARDING](../ONBOARDING.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-structuring](../obsidian/processing-guide/04-structuring.md) (сходство 0.97)
+- [research-summary](../autofilled/research-summary.md) (сходство 0.17)
+- [research-summary](../obsidian/autofilled/research-summary.md) (сходство 0.16)
+

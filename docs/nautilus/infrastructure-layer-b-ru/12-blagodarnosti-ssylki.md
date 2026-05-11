@@ -208,3 +208,13 @@ Knowledge Work*
 - [00-intro](00-intro.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-blagodarnosti-ssylki](../../obsidian/nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md) (сходство 0.99)
+- [302-ссылки](../../02-anthropic-vacancies/302-ссылки.md) (сходство 0.32)
+- [302-ссылки](../../obsidian/02-anthropic-vacancies/302-ссылки.md) (сходство 0.32)
+

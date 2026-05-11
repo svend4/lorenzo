@@ -92,3 +92,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 3 CRDT l
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-crdt-local-first-svyazi-cardindex](../../obsidian/technology-combinations/combinations/03-crdt-local-first-svyazi-cardindex.md) (сходство 0.95)
+- [03-local-first](../../obsidian/03-technology-combinations/03-local-first.md) (сходство 0.40)
+- [03-local-first](../../03-technology-combinations/03-local-first.md) (сходство 0.40)
+

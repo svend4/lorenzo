@@ -82,3 +82,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Вопрос �
 - [README](README.md)
 - [00-question-anonymization](../privacy-federation/00-question-anonymization.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-can-it-apply-to-docs](../../obsidian/nautilus/npp-humanitarian-extension/00-question-can-it-apply-to-docs.md) (сходство 0.94)
+- [00-question-multi-tier](../multi-tier-architecture/00-question-multi-tier.md) (сходство 0.23)
+- [05-which-combination-more-valuable](05-which-combination-more-valuable.md) (сходство 0.23)
+

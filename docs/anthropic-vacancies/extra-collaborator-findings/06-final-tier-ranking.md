@@ -98,3 +98,13 @@ _Индексировано в поисковой базе репозитори�
 - [05-existing-infrastructure-stack](05-existing-infrastructure-stack.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-final-tier-ranking](../../obsidian/anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md) (сходство 0.99)
+- [10-collaborators-landscape](../../obsidian/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.48)
+- [10-collaborators-landscape](../../lorenzo-agent/10-collaborators-landscape.md) (сходство 0.47)
+

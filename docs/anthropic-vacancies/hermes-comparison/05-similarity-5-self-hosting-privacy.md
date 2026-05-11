@@ -69,3 +69,13 @@ python scripts/improve_semantic_search.py --query "Сходство 5 Self hosti
 - [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-similarity-5-self-hosting-privacy](../../obsidian/anthropic-vacancies/hermes-comparison/05-similarity-5-self-hosting-privacy.md) (сходство 0.98)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.61)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.60)
+

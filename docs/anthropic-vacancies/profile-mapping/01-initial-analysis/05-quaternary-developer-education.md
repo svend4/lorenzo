@@ -81,3 +81,13 @@ _Документ индексирован в поисковой базе реп
 - [04-tertiary-research-engineer-agents](04-tertiary-research-engineer-agents.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.98)
+- [08-practical-ranking](08-practical-ranking.md) (сходство 0.34)
+- [08-practical-ranking](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.34)
+

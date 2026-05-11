@@ -111,3 +111,13 @@ python scripts/improve_semantic_search.py --query "research summary svyazi"
 - [[README]]
 - [[04-structuring]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [research-summary](../../autofilled/research-summary.md) (сходство 0.95)
+- [research-note](../templates/research-note.md) (сходство 0.48)
+- [research-note](../../templates/research-note.md) (сходство 0.44)
+

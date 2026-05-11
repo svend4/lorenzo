@@ -87,3 +87,13 @@ _Чем выше балл — тем важнее написать первым.
 - [[anastasiyaw]]
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACT_PRIORITY](../CONTACT_PRIORITY.md) (сходство 0.96)
+- [MINDMAP](MINDMAP.md) (сходство 0.40)
+- [MINDMAP](../MINDMAP.md) (сходство 0.37)
+

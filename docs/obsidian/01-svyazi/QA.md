@@ -98,3 +98,13 @@ _Автоматически сгенерировано по 14 файлам ра
 # Запуск
 python scripts/improve_qa.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../../01-svyazi/QA.md) (сходство 0.99)
+- [QA](../04-ai-collaborations/QA.md) (сходство 0.86)
+- [QA](../../04-ai-collaborations/QA.md) (сходство 0.84)
+

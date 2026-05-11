@@ -249,3 +249,13 @@ answer = llm.complete(f"На основе контекста:\n{context}\n\nВо
 - [10-future](10-future.md)
 - [03-chunking](03-chunking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-llm](../obsidian/processing-guide/07-llm.md) (сходство 0.99)
+- [10-future](10-future.md) (сходство 0.17)
+- [10-future](../obsidian/processing-guide/10-future.md) (сходство 0.17)
+

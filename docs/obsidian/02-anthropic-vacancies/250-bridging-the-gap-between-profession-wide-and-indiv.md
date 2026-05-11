@@ -60,3 +60,13 @@ python scripts/improve_semantic_search.py --query "Bridging the Gap Between Prof
 - [[12-technical-program-management]]
 - [[15-public-benefit]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [250-bridging-the-gap-between-profession-wide-and-indiv](../../02-anthropic-vacancies/250-bridging-the-gap-between-profession-wide-and-indiv.md) (сходство 0.98)
+- [13-communications](../anthropic-vacancies/clusters/13-communications.md) (сходство 0.49)
+- [SEARCH_RESULTS](../SEARCH_RESULTS.md) (сходство 0.48)
+

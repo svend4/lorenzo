@@ -133,3 +133,13 @@ _Минимальный сценарий: open source + личное время 
 # Запуск
 python scripts/improve_cost.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COST](../COST.md) (сходство 0.98)
+- [SCHEDULE](SCHEDULE.md) (сходство 0.21)
+- [DENSITY](DENSITY.md) (сходство 0.20)
+

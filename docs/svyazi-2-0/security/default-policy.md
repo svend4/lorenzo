@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Что стоит зафик�
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [default-policy](../../obsidian/svyazi-2-0/security/default-policy.md) (сходство 0.97)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md) (сходство 0.44)
+- [06-security-privacy](../../obsidian/01-svyazi/06-security-privacy.md) (сходство 0.44)
+

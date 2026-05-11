@@ -150,3 +150,13 @@ python scripts/improve_template_init.py --template mega-stack --output docs/new-
 - [prototype-mvp](prototype-mvp.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [mega-stack](../obsidian/templates/mega-stack.md) (сходство 0.88)
+- [tech-pair](tech-pair.md) (сходство 0.27)
+- [tech-pair](../obsidian/templates/tech-pair.md) (сходство 0.25)
+

@@ -102,3 +102,13 @@ python scripts/improve_semantic_search.py --query "Минусы и риски"
 - [05-polymath-project-tao-comparison](05-polymath-project-tao-comparison.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-minuses-and-risks](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md) (сходство 0.99)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.30)
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.30)
+

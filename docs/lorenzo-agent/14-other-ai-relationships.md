@@ -81,3 +81,13 @@ _Документ индексирован в поисковой базе реп
 - [09-voobshche-nelzya](09-voobshche-nelzya.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-other-ai-relationships](../obsidian/lorenzo-agent/14-other-ai-relationships.md) (сходство 0.96)
+- [358-твоя-relationship-с-другими-ai](../02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) (сходство 0.58)
+- [358-твоя-relationship-с-другими-ai](../obsidian/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) (сходство 0.58)
+

@@ -130,3 +130,13 @@ python scripts/improve_semantic_search.py --query "Рекомендации пр
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-recommendations](../../obsidian/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.99)
+- [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md) (сходство 0.59)
+- [05-anchor-node-habr-scout](../../obsidian/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.59)
+

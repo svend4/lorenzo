@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Пара 4 Speech to text л�
 - [3-discovery-research](../final-ensembles/3-discovery-research.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-speech-to-text-llm](../../obsidian/habr-unique-projects/software-pairs/4-speech-to-text-llm.md) (сходство 0.95)
+- [5-voice-local-memory](../deep-pairs/5-voice-local-memory.md) (сходство 0.45)
+- [5-voice-local-memory](../../obsidian/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.44)
+

@@ -102,3 +102,13 @@ _Документ индексирован в поисковой базе реп
 - [14-sdk](14-sdk.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-relevance-ranking](../../obsidian/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.97)
+- [86-11-relevance-ranking](../../02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.63)
+- [86-11-relevance-ranking](../../obsidian/02-anthropic-vacancies/86-11-relevance-ranking.md) (сходство 0.63)
+

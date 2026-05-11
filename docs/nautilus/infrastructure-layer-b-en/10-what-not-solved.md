@@ -87,3 +87,13 @@ _Документ индексирован в поисковой базе реп
 - [02-why-document-exists](02-why-document-exists.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-what-not-solved](../../obsidian/nautilus/infrastructure-layer-b-en/10-what-not-solved.md) (сходство 0.98)
+- [283-what-this-document-doesn-t-solve](../../02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.59)
+- [283-what-this-document-doesn-t-solve](../../obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) (сходство 0.59)
+

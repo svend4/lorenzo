@@ -151,3 +151,13 @@ python scripts/improve_semantic_search.py --query "Плюсы 1 7 feasibility fl
 - [04-recommendations](04-recommendations.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-pluses-1-7](../../obsidian/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.99)
+- [04-recommendations](04-recommendations.md) (сходство 0.24)
+- [04-recommendations](../../obsidian/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.23)
+

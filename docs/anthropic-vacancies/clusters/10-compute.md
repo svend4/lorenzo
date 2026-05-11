@@ -61,3 +61,13 @@ python scripts/improve_semantic_search.py --query "Compute 13 ролей"
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-compute](../../obsidian/anthropic-vacancies/clusters/10-compute.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.66)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.64)
+

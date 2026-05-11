@@ -172,3 +172,13 @@ python scripts/improve_semantic_search.py --query "Source projects все Хаб
 - [components-by-name](../glossary/components-by-name.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [source-projects](../obsidian/ai-collaborations/source-projects.md) (сходство 0.97)
+- [authors-by-name](../glossary/authors-by-name.md) (сходство 0.27)
+- [authors-by-name](../obsidian/glossary/authors-by-name.md) (сходство 0.26)
+

@@ -375,3 +375,13 @@ python scripts/improve_content_gaps.py
 - [SPELLCHECK](SPELLCHECK.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.29)
+- [COMPLEXITY](COMPLEXITY.md) (сходство 0.26)
+- [COMPLEXITY](obsidian/COMPLEXITY.md) (сходство 0.25)
+

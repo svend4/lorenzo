@@ -87,3 +87,13 @@ python scripts/improve_semantic_search.py --query "Карта найденных
 - [README](README.md)
 - [methodology](methodology.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [projects-map](../../obsidian/svyazi-2-0/overview/projects-map.md) (сходство 0.99)
+- [03-component-catalog](../../01-svyazi/03-component-catalog.md) (сходство 0.90)
+- [03-карта-найденных-проектов-и-паттернов](../../04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) (сходство 0.90)
+

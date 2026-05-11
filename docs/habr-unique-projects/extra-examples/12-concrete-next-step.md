@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Конкретный next ste
 - [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-concrete-next-step](../../obsidian/habr-unique-projects/extra-examples/12-concrete-next-step.md) (сходство 0.99)
+- [11-concrete-potential-collaborator](11-concrete-potential-collaborator.md) (сходство 0.26)
+- [11-concrete-potential-collaborator](../../obsidian/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) (сходство 0.25)
+

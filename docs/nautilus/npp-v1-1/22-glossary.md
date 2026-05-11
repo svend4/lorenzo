@@ -355,3 +355,13 @@ markdown
 - [README](README.md)
 - [16-glossary](../review-methodology/16-glossary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [22-glossary](../../obsidian/nautilus/npp-v1-1/22-glossary.md) (сходство 0.99)
+- [104-appendix-c-references](../../02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.22)
+- [104-appendix-c-references](../../obsidian/02-anthropic-vacancies/104-appendix-c-references.md) (сходство 0.22)
+

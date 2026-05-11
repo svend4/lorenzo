@@ -159,3 +159,13 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 - [INDEX](INDEX.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ONBOARDING](obsidian/ONBOARDING.md) (сходство 0.98)
+- [INDEX](INDEX.md) (сходство 0.24)
+- [INDEX](obsidian/INDEX.md) (сходство 0.22)
+

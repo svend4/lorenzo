@@ -285,3 +285,13 @@ python scripts/improve_citation_index.py
 - [[SPELLCHECK]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CITATION_INDEX](../CITATION_INDEX.md) (сходство 0.98)
+- [BACKLINKS](BACKLINKS.md) (сходство 0.28)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md) (сходство 0.27)
+

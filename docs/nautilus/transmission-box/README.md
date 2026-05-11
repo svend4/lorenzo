@@ -1,16 +1,5 @@
 # transmission-box
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 2
 
 ## Содержание
@@ -32,12 +21,12 @@
 - [01-completing-loop](01-completing-loop.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «transmission-box». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/nautilus/transmission-box/README.md) (сходство 0.70)
+- [README](../community-discussions/voiceless-contributors/README.md) (сходство 0.64)
+- [README](../community-discussions/practical-observations/README.md) (сходство 0.64)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

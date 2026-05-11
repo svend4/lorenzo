@@ -1,21 +1,10 @@
 # anthropic-vacancies
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 4
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 97 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 - [methodology.md](methodology.md) — <!-- toc-auto -->
 - [overview.md](overview.md) — <!-- toc-auto -->
 - [signals.md](signals.md) — <!-- toc-auto -->
@@ -36,23 +25,24 @@
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
+- [QA](QA.md)
 - [methodology](methodology.md)
 - [overview](overview.md)
-- [signals](signals.md)
+- _...ещё 1_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «anthropic-vacancies». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../obsidian/anthropic-vacancies/README.md) (сходство 0.91)
+- [README](../svyazi-2-0/overview/README.md) (сходство 0.33)
+- [README](../obsidian/anthropic-vacancies/nautilus-pro2-analysis/README.md) (сходство 0.31)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

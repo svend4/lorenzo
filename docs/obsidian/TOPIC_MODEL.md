@@ -211,3 +211,13 @@ python scripts/improve_topic_model.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TOPIC_MODEL](../TOPIC_MODEL.md) (сходство 0.99)
+- [PRIORITIES](PRIORITIES.md) (сходство 0.27)
+- [SOURCE_MAP](SOURCE_MAP.md) (сходство 0.25)
+

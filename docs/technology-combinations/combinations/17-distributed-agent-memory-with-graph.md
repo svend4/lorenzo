@@ -102,3 +102,13 @@ _Документ индексирован в поисковой базе реп
 - [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-distributed-agent-memory-with-graph](../../obsidian/technology-combinations/combinations/17-distributed-agent-memory-with-graph.md) (сходство 0.96)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md) (сходство 0.33)
+- [11-hybrid-crdt-sql-database](../../obsidian/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.32)
+

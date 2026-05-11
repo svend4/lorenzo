@@ -783,3 +783,13 @@ python scripts/improve_github_issues.py
 - [[TABLES]]
 - [[10-checklist]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GITHUB_ISSUES](../GITHUB_ISSUES.md) (сходство 0.99)
+- [10-checklist](nautilus/review-methodology/10-checklist.md) (сходство 0.22)
+- [10-checklist](../nautilus/review-methodology/10-checklist.md) (сходство 0.22)
+

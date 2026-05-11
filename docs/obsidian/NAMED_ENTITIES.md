@@ -534,3 +534,13 @@ python scripts/improve_named_entities.py
 - [[SEARCH]]
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NAMED_ENTITIES](../NAMED_ENTITIES.md) (сходство 0.99)
+- [BACKLINKS](BACKLINKS.md) (сходство 0.27)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.27)
+

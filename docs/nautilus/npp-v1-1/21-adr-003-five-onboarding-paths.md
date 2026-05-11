@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "21 ADR 003 Five Onboarding Pa
 - [20-adr-002-q6-first-class](20-adr-002-q6-first-class.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [21-adr-003-five-onboarding-paths](../../obsidian/nautilus/npp-v1-1/21-adr-003-five-onboarding-paths.md) (сходство 0.98)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.62)
+- [96-21-adr-003-five-onboarding-paths-as-equal-rank](../../obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) (сходство 0.61)
+

@@ -166,3 +166,13 @@ efficiently between levels.
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-pattern-library-bridge](../../obsidian/nautilus/double-triangle-architecture/05-pattern-library-bridge.md) (сходство 0.98)
+- [142-5-pattern-library-as-bridge-between-triangles](../../02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.83)
+- [142-5-pattern-library-as-bridge-between-triangles](../../obsidian/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) (сходство 0.83)
+

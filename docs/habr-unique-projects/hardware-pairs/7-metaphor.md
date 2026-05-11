@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Метафора двое р�
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [7-metaphor](../../obsidian/habr-unique-projects/hardware-pairs/7-metaphor.md) (сходство 0.96)
+- [6-bonus-rram-memristor](6-bonus-rram-memristor.md) (сходство 0.54)
+- [6-bonus-rram-memristor](../../obsidian/habr-unique-projects/hardware-pairs/6-bonus-rram-memristor.md) (сходство 0.53)
+

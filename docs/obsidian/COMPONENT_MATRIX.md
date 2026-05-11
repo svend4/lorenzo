@@ -154,3 +154,13 @@ python scripts/improve_semantic_search.py --query "Матрица компоне
 - [[TABLES]]
 - [[TECH_RADAR]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [COMPONENT_MATRIX](../COMPONENT_MATRIX.md) (сходство 0.97)
+- [NETWORK](NETWORK.md) (сходство 0.22)
+- [MINDMAP](MINDMAP.md) (сходство 0.22)
+

@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Пара 4 RISC V privacy by 
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [4-riscv-privacy](../../obsidian/habr-unique-projects/hardware-pairs/4-riscv-privacy.md) (сходство 0.96)
+- [3-crdt-self-hosted](../software-pairs/3-crdt-self-hosted.md) (сходство 0.24)
+- [3-zinc-hybrid-arch](3-zinc-hybrid-arch.md) (сходство 0.23)
+

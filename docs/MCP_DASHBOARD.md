@@ -47,3 +47,13 @@ python scripts/improve_mcp_dashboard.py
 - [README](README.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.94)
+- [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.70)
+- [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.62)
+

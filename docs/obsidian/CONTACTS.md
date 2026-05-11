@@ -136,3 +136,13 @@ date: 2026-05-11
 - [[GITHUB_ISSUES]]
 - _...ещё 22_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTACTS](../CONTACTS.md) (сходство 0.98)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md) (сходство 0.30)
+- [narrow-questions](svyazi-2-0/outreach/narrow-questions.md) (сходство 0.30)
+

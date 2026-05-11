@@ -513,3 +513,13 @@ for qa in load_json("docs/qa_cache.json"):
 - [05-analysis](05-analysis.md)
 - [06-search](06-search.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-future](../obsidian/processing-guide/10-future.md) (сходство 0.99)
+- [PROCESSING_GUIDE](../obsidian/processing-guide/PROCESSING_GUIDE.md) (сходство 0.21)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md) (сходство 0.21)
+

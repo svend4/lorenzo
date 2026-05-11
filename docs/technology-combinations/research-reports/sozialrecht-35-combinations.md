@@ -81,3 +81,13 @@ _Документ доступен для семантического поис�
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [sozialrecht-35-combinations](../../obsidian/technology-combinations/research-reports/sozialrecht-35-combinations.md) (сходство 0.96)
+- [continuation-10-domains](continuation-10-domains.md) (сходство 0.32)
+- [continuation-10-domains](../../obsidian/technology-combinations/research-reports/continuation-10-domains.md) (сходство 0.31)
+

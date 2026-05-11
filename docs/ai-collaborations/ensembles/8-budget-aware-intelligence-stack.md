@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 8 Budget Awa
 - [4-web-to-knowledge-pipeline](4-web-to-knowledge-pipeline.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [8-budget-aware-intelligence-stack](../../obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.98)
+- [6-continuous-eval-loop](6-continuous-eval-loop.md) (сходство 0.22)
+- [6-continuous-eval-loop](../../obsidian/ai-collaborations/ensembles/6-continuous-eval-loop.md) (сходство 0.22)
+

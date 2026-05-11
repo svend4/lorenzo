@@ -317,3 +317,13 @@ python scripts/improve_faq.py
 - [READING_TIME](READING_TIME.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FAQ](obsidian/FAQ.md) (сходство 0.98)
+- [QA](QA.md) (сходство 0.21)
+- [QA](obsidian/QA.md) (сходство 0.21)
+

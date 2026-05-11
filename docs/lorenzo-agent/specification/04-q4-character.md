@@ -94,3 +94,13 @@ python scripts/improve_semantic_search.py --query "Question 4 Каков Lorenzo
 - [13-outreach-communication](../13-outreach-communication.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-q4-character](../../obsidian/lorenzo-agent/specification/04-q4-character.md) (сходство 0.98)
+- [13-outreach-communication](../13-outreach-communication.md) (сходство 0.28)
+- [13-outreach-communication](../../obsidian/lorenzo-agent/13-outreach-communication.md) (сходство 0.28)
+

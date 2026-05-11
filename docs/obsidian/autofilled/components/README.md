@@ -37,3 +37,13 @@ date: 2026-05-11
 - [[cowork]]
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../../autofilled/components/README.md) (сходство 0.85)
+- [README](../README.md) (сходство 0.54)
+- [README](../../../autofilled/README.md) (сходство 0.52)
+

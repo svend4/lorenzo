@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Твоя identity как pers
 - [05-tvoya-lichnost](05-tvoya-lichnost.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [19-persistent-character](../obsidian/lorenzo-agent/19-persistent-character.md) (сходство 0.99)
+- [363-твоя-identity-как-persistent-character](../obsidian/02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.77)
+- [363-твоя-identity-как-persistent-character](../02-anthropic-vacancies/363-твоя-identity-как-persistent-character.md) (сходство 0.75)
+

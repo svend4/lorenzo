@@ -34142,3 +34142,13 @@ python scripts/improve_tables.py --dry-run
 - [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
 - _...ещё 344_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TABLES](obsidian/TABLES.md) (сходство 1.00)
+- [OUTLINE](obsidian/OUTLINE.md) (сходство 0.31)
+- [OUTLINE](OUTLINE.md) (сходство 0.31)
+

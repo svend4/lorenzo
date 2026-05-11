@@ -107,3 +107,13 @@ python scripts/improve_semantic_search.py --query "Уровень 4 Расшир
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-level-4-extended-mature](../../obsidian/lorenzo-agent/phased-deployment/05-level-4-extended-mature.md) (сходство 0.98)
+- [06-level-5-full-network](06-level-5-full-network.md) (сходство 0.47)
+- [06-level-5-full-network](../../obsidian/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.47)
+

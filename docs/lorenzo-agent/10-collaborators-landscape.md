@@ -86,3 +86,13 @@ python scripts/improve_semantic_search.py --query "Существующий land
 - [06-final-tier-ranking](../anthropic-vacancies/extra-collaborator-findings/06-final-tier-ranking.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-collaborators-landscape](../obsidian/lorenzo-agent/10-collaborators-landscape.md) (сходство 0.95)
+- [354-существующий-landscape-collaborators-твоя-working-](../obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.73)
+- [354-существующий-landscape-collaborators-твоя-working-](../02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) (сходство 0.73)
+

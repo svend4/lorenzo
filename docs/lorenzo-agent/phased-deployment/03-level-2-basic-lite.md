@@ -107,3 +107,13 @@ _Документ индексирован в поисковой базе реп
 - [04-level-3-medium-active](04-level-3-medium-active.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-level-2-basic-lite](../../obsidian/lorenzo-agent/phased-deployment/03-level-2-basic-lite.md) (сходство 0.98)
+- [04-level-3-medium-active](04-level-3-medium-active.md) (сходство 0.40)
+- [04-level-3-medium-active](../../obsidian/lorenzo-agent/phased-deployment/04-level-3-medium-active.md) (сходство 0.39)
+

@@ -99,3 +99,13 @@ python scripts/improve_semantic_search.py --query "Комментарий диз
 - [README](README.md)
 - [22-glossary](../npp-v1-1/22-glossary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [18-comment-on-document](../../obsidian/nautilus/npp-v1-0/18-comment-on-document.md) (сходство 0.99)
+- [34-appendix-b-change-log](../../02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.25)
+- [34-appendix-b-change-log](../../obsidian/02-anthropic-vacancies/34-appendix-b-change-log.md) (сходство 0.25)
+

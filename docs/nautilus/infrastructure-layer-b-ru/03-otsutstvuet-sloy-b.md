@@ -132,3 +132,13 @@ python scripts/improve_semantic_search.py --query "Что отсутствует
 - [02-dvukhsloynyy-stek](02-dvukhsloynyy-stek.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-otsutstvuet-sloy-b](../../obsidian/nautilus/infrastructure-layer-b-ru/03-otsutstvuet-sloy-b.md) (сходство 0.98)
+- [292-что-отсутствует-слой-b](../../02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.79)
+- [292-что-отсутствует-слой-b](../../obsidian/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) (сходство 0.78)
+

@@ -1565,3 +1565,13 @@ python scripts/improve_version_diff.py --dry-run
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VERSION_DIFF](obsidian/VERSION_DIFF.md) (сходство 1.00)
+- [READABILITY](READABILITY.md) (сходство 0.67)
+- [READING_TIME](READING_TIME.md) (сходство 0.67)
+

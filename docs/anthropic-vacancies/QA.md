@@ -46,3 +46,13 @@ _Автоматически сгенерировано по 97 файлам ра
 # Запуск
 python scripts/improve_qa.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/anthropic-vacancies/QA.md) (сходство 0.97)
+- [README](../badges/README.md) (сходство 0.42)
+- [README](../obsidian/badges/README.md) (сходство 0.41)
+

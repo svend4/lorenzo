@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Пара 1 LLM gateway Self h
 - [6-tmux-village-openclaw](6-tmux-village-openclaw.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [1-llm-gateway](../../obsidian/habr-unique-projects/deep-pairs/1-llm-gateway.md) (сходство 0.95)
+- [6-tmux-village-openclaw](6-tmux-village-openclaw.md) (сходство 0.23)
+- [6-tmux-village-openclaw](../../obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.22)
+

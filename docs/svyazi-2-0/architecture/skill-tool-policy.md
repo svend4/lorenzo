@@ -69,3 +69,13 @@ python scripts/improve_semantic_search.py --query "Skill and Tool Policy"
 - [integration-spec](integration-spec.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал индексирован и доступен для поиска, BM25 и навигации через граф концептов._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [skill-tool-policy](../../obsidian/svyazi-2-0/architecture/skill-tool-policy.md) (сходство 0.97)
+- [memory-write-policy](memory-write-policy.md) (сходство 0.34)
+- [memory-write-policy](../../obsidian/svyazi-2-0/architecture/memory-write-policy.md) (сходство 0.33)
+

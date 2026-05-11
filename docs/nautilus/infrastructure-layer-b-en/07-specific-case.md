@@ -148,3 +148,13 @@ python scripts/improve_semantic_search.py --query "The Specific Case in Front of
 - [11-practical-recommendations](11-practical-recommendations.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-specific-case](../../obsidian/nautilus/infrastructure-layer-b-en/07-specific-case.md) (сходство 0.99)
+- [280-the-specific-case-in-front-of-us](../../02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.81)
+- [280-the-specific-case-in-front-of-us](../../obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) (сходство 0.81)
+

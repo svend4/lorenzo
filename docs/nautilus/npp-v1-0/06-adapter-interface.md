@@ -118,3 +118,13 @@ string description концепта entry в терминах target_repo, ил�
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-adapter-interface](../../obsidian/nautilus/npp-v1-0/06-adapter-interface.md) (сходство 0.98)
+- [18-6-adapter-interface](../../02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.67)
+- [18-6-adapter-interface](../../obsidian/02-anthropic-vacancies/18-6-adapter-interface.md) (сходство 0.66)
+

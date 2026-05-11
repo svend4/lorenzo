@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "Уровень 0 Ручной
 - [03-level-2-basic-lite](03-level-2-basic-lite.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-level-0-manual](../../obsidian/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.98)
+- [06-level-5-full-network](06-level-5-full-network.md) (сходство 0.53)
+- [06-level-5-full-network](../../obsidian/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.53)
+

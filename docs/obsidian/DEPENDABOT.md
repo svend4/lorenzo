@@ -74,3 +74,13 @@ python scripts/improve_dependabot.py --check-pypi
 - [[TABLES]]
 - [[QA]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DEPENDABOT](../DEPENDABOT.md) (сходство 0.96)
+- [GRAPH](GRAPH.md) (сходство 0.35)
+- [README](badges/README.md) (сходство 0.33)
+

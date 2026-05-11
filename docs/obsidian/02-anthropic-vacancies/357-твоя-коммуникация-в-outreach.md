@@ -91,3 +91,13 @@ _Документ индексирован в поисковой базе реп
 - [[TABLES]]
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [357-твоя-коммуникация-в-outreach](../../02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) (сходство 0.96)
+- [13-outreach-communication](../lorenzo-agent/13-outreach-communication.md) (сходство 0.83)
+- [13-outreach-communication](../../lorenzo-agent/13-outreach-communication.md) (сходство 0.82)
+

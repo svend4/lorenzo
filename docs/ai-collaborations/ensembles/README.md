@@ -1,16 +1,5 @@
 # Ансамбли проектов
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 9
 
 ## Содержание
@@ -41,12 +30,12 @@
 - _...ещё 1_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Ансамбли проектов». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/ai-collaborations/ensembles/README.md) (сходство 0.87)
+- [README](../../nautilus/community-discussions/agent-changes-reality/README.md) (сходство 0.37)
+- [README](../../svyazi-2-0/ensembles/README.md) (сходство 0.36)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

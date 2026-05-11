@@ -60,3 +60,13 @@ python scripts/improve_semantic_search.py --query "Приватность local-
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [privacy](../../obsidian/svyazi-2-0/security/privacy.md) (сходство 0.96)
+- [SEARCH_RESULTS](../../SEARCH_RESULTS.md) (сходство 0.39)
+- [361-когда-ты-honestly-не-знаешь](../../02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md) (сходство 0.39)
+

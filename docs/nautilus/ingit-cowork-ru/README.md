@@ -1,10 +1,4 @@
 # ingit-cowork-ru
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 10
 
@@ -37,12 +31,12 @@
 - _...ещё 7_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ingit-cowork-ru». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/nautilus/ingit-cowork-ru/README.md) (сходство 0.90)
+- [README](../../autofilled/components/README.md) (сходство 0.36)
+- [README](../professional-colleague-agents-ru/README.md) (сходство 0.35)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

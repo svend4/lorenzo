@@ -35,3 +35,27 @@ python scripts/improve_skill_dashboard.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) (сходство 0.90)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.70)
+- [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.67)
+

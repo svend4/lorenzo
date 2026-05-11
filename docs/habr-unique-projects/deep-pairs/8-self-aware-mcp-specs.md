@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Пара 8 Self aware MCP Spe
 - [components-by-name](../../glossary/components-by-name.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [8-self-aware-mcp-specs](../../obsidian/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.96)
+- [03-pda-llm-as-periphery](../key-findings/03-pda-llm-as-periphery.md) (сходство 0.24)
+- [03-pda-llm-as-periphery](../../obsidian/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.23)
+

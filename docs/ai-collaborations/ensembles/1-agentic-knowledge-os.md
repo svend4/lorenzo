@@ -90,3 +90,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 1 Agentic Kn
 - [2-distributed-agent-workshop](2-distributed-agent-workshop.md)
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [1-agentic-knowledge-os](../../obsidian/ai-collaborations/ensembles/1-agentic-knowledge-os.md) (сходство 0.98)
+- [9-ambient-team-agent](9-ambient-team-agent.md) (сходство 0.23)
+- [9-ambient-team-agent](../../obsidian/ai-collaborations/ensembles/9-ambient-team-agent.md) (сходство 0.23)
+

@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Того ес�
 - [00-question-supply-demand](../supply-demand/00-question-supply-demand.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-mountain-to-person](../../obsidian/nautilus/transmission-box/00-question-mountain-to-person.md) (сходство 0.96)
+- [00-question-supply-demand](../supply-demand/00-question-supply-demand.md) (сходство 0.17)
+- [00-question-supply-demand](../../obsidian/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.16)
+

@@ -134,3 +134,13 @@ implementations SHOULD, но не MUST, придерживаться strict typi
 - [15-security](15-security.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-adapter-interface](../../obsidian/nautilus/npp-v1-1/06-adapter-interface.md) (сходство 0.98)
+- [81-6-adapter-interface](../../obsidian/02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.68)
+- [81-6-adapter-interface](../../02-anthropic-vacancies/81-6-adapter-interface.md) (сходство 0.67)
+

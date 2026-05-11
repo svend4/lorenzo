@@ -81,3 +81,13 @@ _Документ индексирован в поисковой базе реп
 - [22-russian-international-oss-stack](../combinations/22-russian-international-oss-stack.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [20-24-final](../../obsidian/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.98)
+- [24-mega-integration-full-stack](../combinations/24-mega-integration-full-stack.md) (сходство 0.43)
+- [24-mega-integration-full-stack](../../obsidian/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.43)
+

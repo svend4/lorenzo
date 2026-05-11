@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Что ты НЕ МОЖЕШЬ
 - [16-vsegda-delaesh](16-vsegda-delaesh.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-bez-max-approval](../obsidian/lorenzo-agent/08-bez-max-approval.md) (сходство 0.97)
+- [352-что-ты-не-можешь-делать-без-max-approval](../02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) (сходство 0.67)
+- [352-что-ты-не-можешь-делать-без-max-approval](../obsidian/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) (сходство 0.66)
+

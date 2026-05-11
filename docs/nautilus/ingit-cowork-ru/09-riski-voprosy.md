@@ -183,3 +183,13 @@ python scripts/improve_semantic_search.py --query "9 Риски и Открыт�
 - [10-strategicheskoe-pozitsionirovanie](10-strategicheskoe-pozitsionirovanie.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-riski-voprosy](../../obsidian/nautilus/ingit-cowork-ru/09-riski-voprosy.md) (сходство 0.98)
+- [335-9-риски-и-открытые-вопросы](../../02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.85)
+- [335-9-риски-и-открытые-вопросы](../../obsidian/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) (сходство 0.85)
+

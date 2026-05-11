@@ -65,3 +65,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-tertiary-research-engineer-agents](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/04-tertiary-research-engineer-agents.md) (сходство 0.98)
+- [05-quaternary-developer-education](05-quaternary-developer-education.md) (сходство 0.32)
+- [05-quaternary-developer-education](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.32)
+

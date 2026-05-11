@@ -96,3 +96,13 @@ _Документ индексирован в поисковой базе реп
 - [08-implementation-nautilus](08-implementation-nautilus.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-application-plan-current-docs](../../obsidian/nautilus/review-methodology/11-application-plan-current-docs.md) (сходство 0.98)
+- [117-10-конкретный-план-применения-к-текущим-документам](../../02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.57)
+- [117-10-конкретный-план-применения-к-текущим-документам](../../obsidian/02-anthropic-vacancies/117-10-конкретный-план-применения-к-текущим-документам.md) (сходство 0.56)
+

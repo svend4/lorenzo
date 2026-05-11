@@ -106,3 +106,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 20 Hybri
 - [README](README.md)
 - [20-24-final](../synthesis-tables/20-24-final.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [20-hybrid-olap-oltp-with-real-time-sync](../../obsidian/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md) (сходство 0.95)
+- [11-hybrid-crdt-sql-database](11-hybrid-crdt-sql-database.md) (сходство 0.41)
+- [11-hybrid-crdt-sql-database](../../obsidian/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.38)
+

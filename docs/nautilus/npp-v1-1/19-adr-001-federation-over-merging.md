@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "19 ADR 001 Federation over Me
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [19-adr-001-federation-over-merging](../../obsidian/nautilus/npp-v1-1/19-adr-001-federation-over-merging.md) (сходство 0.98)
+- [94-19-adr-001-federation-over-merging](../../02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.82)
+- [94-19-adr-001-federation-over-merging](../../obsidian/02-anthropic-vacancies/94-19-adr-001-federation-over-merging.md) (сходство 0.82)
+

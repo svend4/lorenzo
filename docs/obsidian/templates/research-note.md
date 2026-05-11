@@ -69,3 +69,13 @@ python scripts/improve_research_note.py
 - [[experiment-log]]
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [research-note](../../templates/research-note.md) (сходство 0.95)
+- [research-summary](../autofilled/research-summary.md) (сходство 0.48)
+- [research-summary](../../autofilled/research-summary.md) (сходство 0.45)
+

@@ -331,3 +331,13 @@ python scripts/improve_semantic_search.py --query "6 Риски специфич
 - [04-arkhitektura](04-arkhitektura.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-riski](../../obsidian/nautilus/professional-colleague-agents-ru/06-riski.md) (сходство 0.99)
+- [237-6-риски-специфичные-для-этой-категории](../../obsidian/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.92)
+- [237-6-риски-специфичные-для-этой-категории](../../02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) (сходство 0.92)
+

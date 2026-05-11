@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Horizon Europe Cluster 3 Civi
 - [03-what-this-gives-technically](../privacy-federation/03-what-this-gives-technically.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-grant-opportunities](../../obsidian/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.99)
+- [04-what-i-can-do-now](../privacy-federation/04-what-i-can-do-now.md) (сходство 0.23)
+- [04-what-i-can-do-now](../../obsidian/nautilus/privacy-federation/04-what-i-can-do-now.md) (сходство 0.23)
+

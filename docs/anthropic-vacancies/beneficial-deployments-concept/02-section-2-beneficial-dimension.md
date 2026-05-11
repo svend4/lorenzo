@@ -80,3 +80,13 @@ python scripts/improve_semantic_search.py --query "Section 2 Why this matters be
 - [07-section-7-success-metrics](07-section-7-success-metrics.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-section-2-beneficial-dimension](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md) (сходство 0.98)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md) (сходство 0.55)
+- [07-section-7-success-metrics](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.55)
+

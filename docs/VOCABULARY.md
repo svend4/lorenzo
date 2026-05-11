@@ -156,3 +156,13 @@ python scripts/improve_vocabulary.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VOCABULARY](obsidian/VOCABULARY.md) (сходство 0.98)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md) (сходство 0.24)
+- [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) (сходство 0.24)
+

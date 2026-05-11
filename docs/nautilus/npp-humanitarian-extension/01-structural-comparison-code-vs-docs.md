@@ -317,3 +317,13 @@ python scripts/improve_semantic_search.py --query "Структурное сра
 - [README](README.md)
 - [02-two-tier-publication](../privacy-federation/02-two-tier-publication.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-structural-comparison-code-vs-docs](../../obsidian/nautilus/npp-humanitarian-extension/01-structural-comparison-code-vs-docs.md) (сходство 0.99)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.20)
+

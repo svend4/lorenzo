@@ -82,3 +82,13 @@ python scripts/improve_semantic_search.py --query "Security routing plane"
 - [README](README.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория._ _Доступен поиск._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [security-routing-plane](../../obsidian/svyazi-2-0/components/security-routing-plane.md) (сходство 0.97)
+- [E-execution-plane](../ensembles/E-execution-plane.md) (сходство 0.30)
+- [E-execution-plane](../../obsidian/svyazi-2-0/ensembles/E-execution-plane.md) (сходство 0.29)
+

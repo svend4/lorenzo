@@ -162,3 +162,13 @@ python scripts/improve_semantic_search.py --query "8 Implications for Nautilus a
 - [05-what-to-do-right-now](../../anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-implications-nautilus-okwf](../../obsidian/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.97)
+- [316-8-implications-for-nautilus-and-okwf](../../02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.76)
+- [316-8-implications-for-nautilus-and-okwf](../../obsidian/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) (сходство 0.76)
+

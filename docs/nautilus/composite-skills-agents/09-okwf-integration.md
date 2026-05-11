@@ -180,3 +180,13 @@ python scripts/improve_semantic_search.py --query "9 Integration with OKWF Infra
 - [10-risks](10-risks.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-okwf-integration](../../obsidian/nautilus/composite-skills-agents/09-okwf-integration.md) (сходство 0.99)
+- [262-9-integration-with-okwf-infrastructure](../../obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.84)
+- [262-9-integration-with-okwf-infrastructure](../../02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) (сходство 0.84)
+

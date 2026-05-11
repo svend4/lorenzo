@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Различие 5 Дрифт
 - [11-pluses-of-hermes](11-pluses-of-hermes.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-difference-5-tool-vs-mission-drift](../../obsidian/anthropic-vacancies/hermes-comparison/10-difference-5-tool-vs-mission-drift.md) (сходство 0.98)
+- [03-similarity-3-mcp-support](03-similarity-3-mcp-support.md) (сходство 0.58)
+- [03-similarity-3-mcp-support](../../obsidian/anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md) (сходство 0.57)
+

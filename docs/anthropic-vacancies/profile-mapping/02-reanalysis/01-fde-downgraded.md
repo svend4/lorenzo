@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Коррекция FDE пон
 - [concepts](../../../glossary/concepts.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-fde-downgraded](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/01-fde-downgraded.md) (сходство 0.96)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md) (сходство 0.24)
+- [05-quaternary-developer-education](../01-initial-analysis/05-quaternary-developer-education.md) (сходство 0.24)
+

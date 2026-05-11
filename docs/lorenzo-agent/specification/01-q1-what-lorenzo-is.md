@@ -124,3 +124,13 @@ python scripts/improve_semantic_search.py --query "Question 1 Что Lorenzo ф�
 - [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-q1-what-lorenzo-is](../../obsidian/lorenzo-agent/specification/01-q1-what-lorenzo-is.md) (сходство 0.99)
+- [08-q8-other-ai-relationships](08-q8-other-ai-relationships.md) (сходство 0.28)
+- [06-q6-accountability](../../obsidian/lorenzo-agent/specification/06-q6-accountability.md) (сходство 0.28)
+

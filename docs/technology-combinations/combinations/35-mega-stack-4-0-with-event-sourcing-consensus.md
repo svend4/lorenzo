@@ -171,3 +171,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 35 MEGA 
 - [32-consensus-based-multi-agent-coordination](32-consensus-based-multi-agent-coordination.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.98)
+- [31-35-final](../synthesis-tables/31-35-final.md) (сходство 0.49)
+- [31-35-final](../../obsidian/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.48)
+

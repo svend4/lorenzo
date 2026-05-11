@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Что пока лучше н
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [do-not-glue](../../obsidian/svyazi-2-0/limitations/do-not-glue.md) (сходство 0.99)
+- [14-limitations](../../01-svyazi/14-limitations.md) (сходство 0.49)
+- [14-limitations](../../obsidian/01-svyazi/14-limitations.md) (сходство 0.49)
+

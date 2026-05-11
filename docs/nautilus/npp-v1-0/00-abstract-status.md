@@ -84,3 +84,13 @@ _Документ индексирован в поисковой базе реп
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract-status](../../obsidian/nautilus/npp-v1-0/00-abstract-status.md) (сходство 0.99)
+- [04-abstract](../../obsidian/02-anthropic-vacancies/04-abstract.md) (сходство 0.49)
+- [04-abstract](../../02-anthropic-vacancies/04-abstract.md) (сходство 0.49)
+

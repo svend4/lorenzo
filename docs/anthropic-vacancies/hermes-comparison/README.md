@@ -1,16 +1,5 @@
 # hermes-comparison
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 14
 
 ## Содержание
@@ -46,9 +35,12 @@
 - _...ещё 5_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../obsidian/anthropic-vacancies/hermes-comparison/README.md) (сходство 0.88)
+- [README](../../nautilus/composite-skills-agents-companion-mentors/README.md) (сходство 0.35)
+- [README](../../nautilus/privacy-federation/README.md) (сходство 0.33)
+

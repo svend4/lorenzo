@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Спрос р�
 - [README](README.md)
 - [00-question-mountain-to-person](../transmission-box/00-question-mountain-to-person.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-supply-demand](../../obsidian/nautilus/supply-demand/00-question-supply-demand.md) (сходство 0.93)
+- [00-question-scenario](../../lorenzo-agent/scenarios/00-question-scenario.md) (сходство 0.20)
+- [00-question-agent-changes-reality](../community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.20)
+

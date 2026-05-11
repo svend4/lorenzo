@@ -80,3 +80,13 @@ _Документ доступен для семантического поис�
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [E-execution-plane](../../obsidian/svyazi-2-0/ensembles/E-execution-plane.md) (сходство 0.97)
+- [security-routing-plane](../components/security-routing-plane.md) (сходство 0.30)
+- [security-routing-plane](../../obsidian/svyazi-2-0/components/security-routing-plane.md) (сходство 0.29)
+

@@ -86,3 +86,13 @@ _Документ индексирован в поисковой базе реп
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-why-valid-for-ai](../../obsidian/nautilus/review-methodology/07-why-valid-for-ai.md) (сходство 0.98)
+- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) (сходство 0.78)
+- [113-6-почему-это-валидный-паттерн-для-ai-assisted-work](../../obsidian/02-anthropic-vacancies/113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md) (сходство 0.77)
+

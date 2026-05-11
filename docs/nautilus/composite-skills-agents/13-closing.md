@@ -173,3 +173,13 @@ python scripts/improve_semantic_search.py --query "13 Closing"
 - [09-okwf-integration](09-okwf-integration.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-closing](../../obsidian/nautilus/composite-skills-agents/13-closing.md) (сходство 0.99)
+- [266-13-closing](../../02-anthropic-vacancies/266-13-closing.md) (сходство 0.60)
+- [266-13-closing](../../obsidian/02-anthropic-vacancies/266-13-closing.md) (сходство 0.60)
+

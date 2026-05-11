@@ -76,3 +76,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [10-references](../nautilus/double-triangle-architecture/10-references.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-dhlab-documents](../obsidian/lorenzo-agent/11-dhlab-documents.md) (сходство 0.96)
+- [355-существующие-документы-dhlab-твой-context](../02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.57)
+- [355-существующие-документы-dhlab-твой-context](../obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) (сходство 0.57)
+

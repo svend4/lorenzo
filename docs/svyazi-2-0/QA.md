@@ -106,3 +106,13 @@ _Смотрите также: [README](../README.md) · [Глоссарий](../
 - [KNOWLEDGE_MAP](../KNOWLEDGE_MAP.md)
 - [CONCEPT_GRAPH](../CONCEPT_GRAPH.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../obsidian/svyazi-2-0/QA.md) (сходство 0.99)
+- [QA](../ai-collaborations/QA.md) (сходство 0.80)
+- [QA](../obsidian/ai-collaborations/QA.md) (сходство 0.79)
+

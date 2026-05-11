@@ -94,3 +94,13 @@ python scripts/improve_semantic_search.py --query "AgentOps и Trace Envelope а
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-agentops-trace-envelope](../../obsidian/ai-collaborations/continuation/02-agentops-trace-envelope.md) (сходство 0.98)
+- [8-budget-aware-intelligence-stack](../../obsidian/ai-collaborations/ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.20)
+- [8-budget-aware-intelligence-stack](../ensembles/8-budget-aware-intelligence-stack.md) (сходство 0.19)
+

@@ -181,3 +181,13 @@ python scripts/improve_semantic_search.py --query "Архитектурное р
 - [03-what-this-gives-technically](03-what-this-gives-technically.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-two-tier-publication](../../obsidian/nautilus/privacy-federation/02-two-tier-publication.md) (сходство 0.99)
+- [00-question-anonymization](00-question-anonymization.md) (сходство 0.17)
+- [00-question-anonymization](../../obsidian/nautilus/privacy-federation/00-question-anonymization.md) (сходство 0.17)
+

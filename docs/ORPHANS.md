@@ -71,3 +71,13 @@ python scripts/improve_orphans.py
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [ORPHANS](obsidian/ORPHANS.md) (сходство 0.96)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.49)
+- [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) (сходство 0.47)
+

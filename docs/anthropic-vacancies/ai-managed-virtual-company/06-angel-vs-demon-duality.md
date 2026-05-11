@@ -88,3 +88,13 @@ python scripts/improve_semantic_search.py --query "Почему двойстве
 - [README](README.md)
 - [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-angel-vs-demon-duality](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/06-angel-vs-demon-duality.md) (сходство 0.98)
+- [00-question-innovations-transitions](../../nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.23)
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 0.23)
+

@@ -192,3 +192,13 @@ python scripts/improve_self.py --enrich --apply     # применяет
 - [01-concept](01-concept.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-architecture](../obsidian/meta-scripting/02-architecture.md) (сходство 0.96)
+- [05-synthesis](05-synthesis.md) (сходство 0.23)
+- [03-catalog](03-catalog.md) (сходство 0.23)
+

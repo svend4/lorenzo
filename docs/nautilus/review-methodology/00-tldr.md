@@ -82,3 +82,13 @@ python scripts/improve_semantic_search.py --query "TL DR Трёхфазная м
 - [01-context-motivation](01-context-motivation.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-tldr](../../obsidian/nautilus/review-methodology/00-tldr.md) (сходство 0.98)
+- [12-appendix-a-header-warning](../../obsidian/nautilus/review-methodology/12-appendix-a-header-warning.md) (сходство 0.49)
+- [12-appendix-a-header-warning](12-appendix-a-header-warning.md) (сходство 0.48)
+

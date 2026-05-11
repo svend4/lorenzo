@@ -164,3 +164,13 @@ python scripts/improve_self.py --catalog --query "group:none"
 - [01-concept](01-concept.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-catalog](../obsidian/meta-scripting/03-catalog.md) (сходство 0.96)
+- [02-architecture](02-architecture.md) (сходство 0.23)
+- [02-architecture](../obsidian/meta-scripting/02-architecture.md) (сходство 0.22)
+

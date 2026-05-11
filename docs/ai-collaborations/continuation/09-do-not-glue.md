@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Что пока не стои
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-do-not-glue](../../obsidian/ai-collaborations/continuation/09-do-not-glue.md) (сходство 0.98)
+- [10-architecture-rfc](10-architecture-rfc.md) (сходство 0.21)
+- [06-metrics-tree](06-metrics-tree.md) (сходство 0.21)
+

@@ -253,3 +253,13 @@ python scripts/mcp_server.py  # stdio режим
 - [01-overview](01-overview.md)
 - [10-future](10-future.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-export](../obsidian/processing-guide/08-export.md) (сходство 0.99)
+- [01-overview](01-overview.md) (сходство 0.17)
+- [01-overview](../obsidian/processing-guide/01-overview.md) (сходство 0.17)
+

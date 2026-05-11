@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Пара 3 CRDT синхро�
 - [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-crdt-self-hosted](../../obsidian/habr-unique-projects/software-pairs/3-crdt-self-hosted.md) (сходство 0.95)
+- [4-riscv-privacy](../hardware-pairs/4-riscv-privacy.md) (сходство 0.24)
+- [6-metaphor](6-metaphor.md) (сходство 0.22)
+

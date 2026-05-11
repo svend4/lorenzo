@@ -1,21 +1,10 @@
 # contacts
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 16
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 15 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 - [anastasiyaw.md](anastasiyaw.md) — ---
 - [andrey-chuyan.md](andrey-chuyan.md) — ---
 - [antipozitive.md](antipozitive.md) — ---
@@ -36,21 +25,24 @@
 
 ---
 
-**Кто ссылается на этот документ (20):**
+**Кто ссылается на этот документ (21):**
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
 - [SEARCH](../SEARCH.md)
 - [TABLES](../TABLES.md)
+- [QA](QA.md)
 - [anastasiyaw](anastasiyaw.md)
 - [andrey-chuyan](andrey-chuyan.md)
-- [antipozitive](antipozitive.md)
-- _...ещё 12_
+- _...ещё 13_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../obsidian/contacts/README.md) (сходство 0.89)
+- [README](../letters/README.md) (сходство 0.51)
+- [AUTHORS](../AUTHORS.md) (сходство 0.50)
+

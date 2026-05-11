@@ -154,3 +154,13 @@ _Radar обновляется вручную при существенных и�
 - [[README]]
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TECH_RADAR](../TECH_RADAR.md) (сходство 0.99)
+- [FOOTNOTES](FOOTNOTES.md) (сходство 0.22)
+- [ONBOARDING](ONBOARDING.md) (сходство 0.22)
+

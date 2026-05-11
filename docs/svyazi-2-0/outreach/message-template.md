@@ -76,3 +76,13 @@ _Документ индексирован в поисковой базе реп
 - [first-contacts](first-contacts.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [message-template](../../obsidian/svyazi-2-0/outreach/message-template.md) (сходство 0.98)
+- [first-contacts](first-contacts.md) (сходство 0.29)
+- [first-contacts](../../obsidian/svyazi-2-0/outreach/first-contacts.md) (сходство 0.28)
+

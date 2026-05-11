@@ -102,3 +102,13 @@ python scripts/improve_semantic_search.py --query "Почему этот док�
 - [09-ne-reshaet](09-ne-reshaet.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-zachem-dokument](../../obsidian/nautilus/infrastructure-layer-b-ru/01-zachem-dokument.md) (сходство 0.98)
+- [290-почему-этот-документ-существует](../../02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.74)
+- [290-почему-этот-документ-существует](../../obsidian/02-anthropic-vacancies/290-почему-этот-документ-существует.md) (сходство 0.73)
+

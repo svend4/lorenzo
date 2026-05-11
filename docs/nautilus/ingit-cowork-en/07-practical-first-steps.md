@@ -132,3 +132,13 @@ python scripts/improve_semantic_search.py --query "7 Practical First Steps This 
 - [05-four-integration-paths](05-four-integration-paths.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-practical-first-steps](../../obsidian/nautilus/ingit-cowork-en/07-practical-first-steps.md) (сходство 0.97)
+- [315-7-practical-first-steps-this-month](../../02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.80)
+- [315-7-practical-first-steps-this-month](../../obsidian/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md) (сходство 0.79)
+

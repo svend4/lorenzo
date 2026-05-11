@@ -80,3 +80,13 @@ _Документ индексирован в поисковой базе реп
 - [10-architecture-rfc](10-architecture-rfc.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-metrics-tree](../../obsidian/ai-collaborations/continuation/06-metrics-tree.md) (сходство 0.98)
+- [10-architecture-rfc](10-architecture-rfc.md) (сходство 0.32)
+- [10-architecture-rfc](../../obsidian/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.31)
+

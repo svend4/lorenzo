@@ -1,16 +1,5 @@
 # operationalized
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 7
 
 ## Содержание
@@ -38,12 +27,12 @@
 - [reading-paths](../../reading-paths.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «operationalized». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/lorenzo-agent/operationalized/README.md) (сходство 0.80)
+- [README](../../nautilus/community-discussions/habr-article-2-reaction/README.md) (сходство 0.41)
+- [README](../../svyazi-2-0/overview/README.md) (сходство 0.39)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

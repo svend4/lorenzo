@@ -150,3 +150,13 @@ python scripts/improve_semantic_search.py --query "Professional Colleague Agents
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract](../../obsidian/nautilus/professional-colleague-agents-en/00-abstract.md) (сходство 0.99)
+- [210-abstract](../../obsidian/02-anthropic-vacancies/210-abstract.md) (сходство 0.72)
+- [210-abstract](../../02-anthropic-vacancies/210-abstract.md) (сходство 0.72)
+

@@ -90,3 +90,13 @@ _Документ индексирован в поисковой базе реп
 - [21-adr-003-five-onboarding-paths](21-adr-003-five-onboarding-paths.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [20-adr-002-q6-first-class](../../obsidian/nautilus/npp-v1-1/20-adr-002-q6-first-class.md) (сходство 0.98)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](../../02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.66)
+- [95-20-adr-002-q6-as-first-class-protocol-concept](../../obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) (сходство 0.66)
+

@@ -224,3 +224,13 @@ python scripts/improve_semantic_search.py --query "7 Application Domains"
 - [08-seven-domains](../composite-skills-agents/08-seven-domains.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-application-domains](../../obsidian/nautilus/professional-colleague-agents-en/07-application-domains.md) (сходство 0.97)
+- [218-7-application-domains](../../02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.86)
+- [218-7-application-domains](../../obsidian/02-anthropic-vacancies/218-7-application-domains.md) (сходство 0.86)
+

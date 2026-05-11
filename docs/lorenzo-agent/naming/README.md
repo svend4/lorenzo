@@ -1,16 +1,5 @@
 # naming
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 4
 
 ## Содержание
@@ -36,12 +25,12 @@
 - _...ещё 1_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «naming». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/lorenzo-agent/naming/README.md) (сходство 0.81)
+- [README](../../nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.54)
+- [README](../../nautilus/community-discussions/practical-observations/README.md) (сходство 0.54)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

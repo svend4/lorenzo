@@ -1,16 +1,5 @@
 # composite-skills-agents-companion-mentors
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 4
 
 ## Содержание
@@ -34,12 +23,12 @@
 - [03-the-spectrum](03-the-spectrum.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «composite-skills-agents-companion-mentors». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/nautilus/composite-skills-agents-companion-mentors/README.md) (сходство 0.83)
+- [README](../community-discussions/voiceless-contributors/README.md) (сходство 0.48)
+- [README](../community-discussions/practical-observations/README.md) (сходство 0.48)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

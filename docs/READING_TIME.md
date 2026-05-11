@@ -2567,3 +2567,13 @@ python scripts/improve_reading_time.py --dry-run
 - [197-7-управление-и-надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md)
 - _...ещё 540_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [READABILITY](READABILITY.md) (сходство 0.98)
+- [READING_TIME](obsidian/READING_TIME.md) (сходство 0.97)
+- [SEARCH](SEARCH.md) (сходство 0.95)
+

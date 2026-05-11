@@ -117,3 +117,13 @@ python scripts/improve_semantic_search.py --query "Вопрос ещё прим�
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-habr-examples](../../obsidian/habr-unique-projects/extra-examples/00-question-habr-examples.md) (сходство 0.98)
+- [01-svyazi-andrey-chuyan](../../obsidian/habr-unique-projects/extra-examples/01-svyazi-andrey-chuyan.md) (сходство 0.22)
+- [01-svyazi-andrey-chuyan](01-svyazi-andrey-chuyan.md) (сходство 0.21)
+

@@ -108,3 +108,13 @@ _Компонент экосистемы Svyazi 2.0_
 ```bash
 python scripts/improve_semantic_search.py --query "svend4"
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [svyazi](svyazi.md) (сходство 1.00)
+- [sgb](sgb.md) (сходство 1.00)
+- [nautilus](nautilus.md) (сходство 1.00)
+

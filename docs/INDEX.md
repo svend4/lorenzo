@@ -184,3 +184,13 @@ _Индекс сгенерирован автоматически · 2451 док
 - [README](README.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [INDEX](obsidian/INDEX.md) (сходство 0.97)
+- [ONBOARDING](ONBOARDING.md) (сходство 0.24)
+- [ONBOARDING](obsidian/ONBOARDING.md) (сходство 0.24)
+

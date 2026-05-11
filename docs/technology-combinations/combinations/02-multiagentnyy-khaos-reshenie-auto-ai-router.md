@@ -83,3 +83,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 2 Мул
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для анализа._ _Документ доступен для семантического поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-multiagentnyy-khaos-reshenie-auto-ai-router](../../obsidian/technology-combinations/combinations/02-multiagentnyy-khaos-reshenie-auto-ai-router.md) (сходство 0.94)
+- [03-local-first](../../03-technology-combinations/03-local-first.md) (сходство 0.31)
+- [03-local-first](../../obsidian/03-technology-combinations/03-local-first.md) (сходство 0.30)
+

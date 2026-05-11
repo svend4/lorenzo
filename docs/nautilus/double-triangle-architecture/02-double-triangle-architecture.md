@@ -166,3 +166,13 @@ large organizations (Star(n)) without protocol changes.
 - [04-nautilus-portal-substrate](04-nautilus-portal-substrate.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-double-triangle-architecture](../../obsidian/nautilus/double-triangle-architecture/02-double-triangle-architecture.md) (сходство 0.99)
+- [139-2-the-double-triangle-architecture](../../obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.79)
+- [139-2-the-double-triangle-architecture](../../02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) (сходство 0.78)
+

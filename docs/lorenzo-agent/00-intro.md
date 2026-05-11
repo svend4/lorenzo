@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Lorenzo Catalyst Agent DHLab"
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-intro](../obsidian/lorenzo-agent/00-intro.md) (сходство 0.98)
+- [00-question-habr-link](../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.58)
+- [17-honestly-ne-znaesh](17-honestly-ne-znaesh.md) (сходство 0.57)
+

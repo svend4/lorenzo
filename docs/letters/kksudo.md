@@ -88,3 +88,13 @@ python scripts/improve_kksudo.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kksudo](../obsidian/letters/kksudo.md) (сходство 0.99)
+- [vitalysemenov](vitalysemenov.md) (сходство 0.25)
+- [vitalysemenov](../obsidian/letters/vitalysemenov.md) (сходство 0.24)
+

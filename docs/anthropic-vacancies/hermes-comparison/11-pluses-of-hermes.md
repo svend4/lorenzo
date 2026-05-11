@@ -78,3 +78,13 @@ _Документ индексирован в поисковой базе реп
 - [12-minuses-of-hermes](12-minuses-of-hermes.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-pluses-of-hermes](../../obsidian/anthropic-vacancies/hermes-comparison/11-pluses-of-hermes.md) (сходство 0.98)
+- [04-similarity-4-multi-platform](../../obsidian/anthropic-vacancies/hermes-comparison/04-similarity-4-multi-platform.md) (сходство 0.36)
+- [04-similarity-4-multi-platform](04-similarity-4-multi-platform.md) (сходство 0.36)
+

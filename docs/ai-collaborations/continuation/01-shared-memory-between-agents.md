@@ -74,3 +74,13 @@ python scripts/improve_semantic_search.py --query "Общая память ме�
 - [2-distributed-agent-workshop](../ensembles/2-distributed-agent-workshop.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-shared-memory-between-agents](../../obsidian/ai-collaborations/continuation/01-shared-memory-between-agents.md) (сходство 0.99)
+- [03-a2a-vs-mcp-protocols](03-a2a-vs-mcp-protocols.md) (сходство 0.20)
+- [03-a2a-vs-mcp-protocols](../../obsidian/ai-collaborations/continuation/03-a2a-vs-mcp-protocols.md) (сходство 0.19)
+

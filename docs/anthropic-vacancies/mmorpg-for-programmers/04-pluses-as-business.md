@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Плюсы как бизне�
 - [02-existing-niche](02-existing-niche.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-pluses-as-business](../../obsidian/anthropic-vacancies/mmorpg-for-programmers/04-pluses-as-business.md) (сходство 0.94)
+- [15-appendix-c-history](../../nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.49)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.48)
+

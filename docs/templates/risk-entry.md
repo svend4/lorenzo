@@ -114,3 +114,13 @@ python scripts/improve_template_init.py --template risk-entry --output docs/new-
 - [TABLES](../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [risk-entry](../obsidian/templates/risk-entry.md) (сходство 0.91)
+- [glossary-entry](glossary-entry.md) (сходство 0.37)
+- [contradiction-record](contradiction-record.md) (сходство 0.37)
+

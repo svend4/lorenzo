@@ -149,3 +149,13 @@ python scripts/improve_semantic_search.py --query "8 Риски и меры пр
 - [10-otkrytye-voprosy](10-otkrytye-voprosy.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-riski-mery](../../obsidian/nautilus/representative-agent-layer-ru/08-riski-mery.md) (сходство 0.99)
+- [198-8-риски-и-меры-противодействия](../../obsidian/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.84)
+- [198-8-риски-и-меры-противодействия](../../02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md) (сходство 0.84)
+

@@ -232,3 +232,13 @@ python scripts/improve_semantic_search.py --query "3 Эмпирический к
 - [02-chto-delaet-pka](02-chto-delaet-pka.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-keys-obuchay](../../obsidian/nautilus/professional-colleague-agents-ru/03-keys-obuchay.md) (сходство 0.99)
+- [234-3-эмпирический-кейс-обучай](../../02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.86)
+- [234-3-эмпирический-кейс-обучай](../../obsidian/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) (сходство 0.86)
+

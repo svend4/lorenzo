@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "Твоя миссия"
 - [07-chto-mozhesh](07-chto-mozhesh.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-tvoya-missiya](../obsidian/lorenzo-agent/03-tvoya-missiya.md) (сходство 0.98)
+- [347-твоя-миссия](../02-anthropic-vacancies/347-твоя-миссия.md) (сходство 0.66)
+- [347-твоя-миссия](../obsidian/02-anthropic-vacancies/347-твоя-миссия.md) (сходство 0.65)
+

@@ -138,3 +138,13 @@ python scripts/improve_semantic_search.py --query "AI Coordinated Infrastructure
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract](../../obsidian/nautilus/okwf-concept/00-abstract.md) (сходство 0.99)
+- [153-executive-summary](../../obsidian/02-anthropic-vacancies/153-executive-summary.md) (сходство 0.70)
+- [153-executive-summary](../../02-anthropic-vacancies/153-executive-summary.md) (сходство 0.70)
+

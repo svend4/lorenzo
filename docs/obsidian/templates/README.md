@@ -1,19 +1,11 @@
 ---
 title: "templates"
 tags:
-  - readme
-  - docs
   - templates
 date: 2026-05-11
 ---
 
 # templates
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 23
 
@@ -51,7 +43,7 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (24):**
+**Кто ссылается на этот документ (29):**
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
@@ -59,13 +51,16 @@ date: 2026-05-11
 - [[TABLES]]
 - [[research-summary]]
 - [[agent-spec]]
-- [[contradiction-record]]
-- _...ещё 16_
+- [[contact-outreach]]
+- _...ещё 21_
 
 
+<!-- similar-docs -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+---
+
+**Похожие документы:**
+- [README](../../templates/README.md) (сходство 0.88)
+- [README](../technology-combinations/mega-stacks/README.md) (сходство 0.30)
+- [README](../svyazi-2-0/README.md) (сходство 0.29)
+

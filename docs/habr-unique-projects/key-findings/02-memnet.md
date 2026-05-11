@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "MemNet нейроархите
 - [README](README.md)
 
 _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-memnet](../../obsidian/habr-unique-projects/key-findings/02-memnet.md) (сходство 0.95)
+- [memnet](../../svyazi-2-0/components/memnet.md) (сходство 0.27)
+- [memnet](../../obsidian/svyazi-2-0/components/memnet.md) (сходство 0.26)
+

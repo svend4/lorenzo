@@ -181,3 +181,13 @@ python scripts/improve_semantic_search.py --query "8 Call to Action"
 - [07-open-questions](07-open-questions.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-call-to-action](../../obsidian/nautilus/double-triangle-architecture/08-call-to-action.md) (сходство 0.99)
+- [145-8-call-to-action](../../02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.86)
+- [145-8-call-to-action](../../obsidian/02-anthropic-vacancies/145-8-call-to-action.md) (сходство 0.86)
+

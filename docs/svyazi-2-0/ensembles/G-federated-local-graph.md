@@ -70,3 +70,13 @@ flowchart LR
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [G-federated-local-graph](../../obsidian/svyazi-2-0/ensembles/G-federated-local-graph.md) (сходство 0.98)
+- [10-second-order-ensembles](../../01-svyazi/10-second-order-ensembles.md) (сходство 0.36)
+- [10-second-order-ensembles](../../obsidian/01-svyazi/10-second-order-ensembles.md) (сходство 0.36)
+

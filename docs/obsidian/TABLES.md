@@ -34151,3 +34151,13 @@ python scripts/improve_tables.py --dry-run
 - [[112-5-связь-с-существующими-методологиями]]
 - _...ещё 344_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [TABLES](../TABLES.md) (сходство 1.00)
+- [OUTLINE](OUTLINE.md) (сходство 0.31)
+- [OUTLINE](../OUTLINE.md) (сходство 0.31)
+

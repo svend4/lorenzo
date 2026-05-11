@@ -232,3 +232,13 @@ python scripts/improve_semantic_search.py --query "Что это даёт тех
 - [02-two-tier-publication](02-two-tier-publication.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-what-this-gives-technically](../../obsidian/nautilus/privacy-federation/03-what-this-gives-technically.md) (сходство 0.99)
+- [02-two-tier-publication](02-two-tier-publication.md) (сходство 0.16)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.16)
+

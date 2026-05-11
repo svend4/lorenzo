@@ -66,3 +66,13 @@ _Материал индексирован и доступен для поиск
 - [01-response](01-response.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-practical](../../../obsidian/nautilus/community-discussions/practical-observations/00-question-practical.md) (сходство 0.95)
+- [00-question-agent-changes-reality](../agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.34)
+- [00-question-agent-changes-reality](../../../obsidian/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.32)
+

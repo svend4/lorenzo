@@ -221,3 +221,13 @@ for chunk in chunks:
 - [09-automation](09-automation.md)
 - [PROCESSING_GUIDE](PROCESSING_GUIDE.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-chunking](../obsidian/processing-guide/03-chunking.md) (сходство 0.99)
+- [01-overview](01-overview.md) (сходство 0.18)
+- [01-overview](../obsidian/processing-guide/01-overview.md) (сходство 0.18)
+

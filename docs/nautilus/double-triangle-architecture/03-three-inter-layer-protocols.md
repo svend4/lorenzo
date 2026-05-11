@@ -187,3 +187,13 @@ python scripts/improve_semantic_search.py --query "3 Three Inter Layer Protocols
 - [02-double-triangle-architecture](02-double-triangle-architecture.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-three-inter-layer-protocols](../../obsidian/nautilus/double-triangle-architecture/03-three-inter-layer-protocols.md) (сходство 0.99)
+- [140-3-three-inter-layer-protocols](../../obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.87)
+- [140-3-three-inter-layer-protocols](../../02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) (сходство 0.87)
+

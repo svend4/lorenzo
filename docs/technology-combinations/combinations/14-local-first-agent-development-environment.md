@@ -168,3 +168,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 14 local
 - [01-legal-ai-stack](../mega-stacks/01-legal-ai-stack.md)
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [14-local-first-agent-development-environment](../../obsidian/technology-combinations/combinations/14-local-first-agent-development-environment.md) (сходство 0.97)
+- [19-multi-agent-observability-platform](19-multi-agent-observability-platform.md) (сходство 0.35)
+- [19-multi-agent-observability-platform](../../obsidian/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.35)
+

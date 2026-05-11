@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Section 8 Risks mitigations"
 - [04-section-4-sgb-pilot](04-section-4-sgb-pilot.md)
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-section-8-risks-mitigations](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) (сходство 0.98)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md) (сходство 0.48)
+- [09-section-9-timeliness](09-section-9-timeliness.md) (сходство 0.48)
+

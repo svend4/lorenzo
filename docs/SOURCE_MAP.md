@@ -1876,3 +1876,13 @@ python scripts/improve_source_map.py --dry-run
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SOURCE_MAP](obsidian/SOURCE_MAP.md) (сходство 1.00)
+- [READING_TIME](READING_TIME.md) (сходство 0.81)
+- [READABILITY](READABILITY.md) (сходство 0.81)
+

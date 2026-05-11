@@ -92,3 +92,13 @@ _Документ индексирован в поисковой базе реп
 - [14-sdk](14-sdk.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [18-reference-implementation](../../obsidian/nautilus/npp-v1-1/18-reference-implementation.md) (сходство 0.97)
+- [93-18-reference-implementation](../../obsidian/02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.58)
+- [93-18-reference-implementation](../../02-anthropic-vacancies/93-18-reference-implementation.md) (сходство 0.57)
+

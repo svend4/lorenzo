@@ -197,3 +197,13 @@ python scripts/improve_semantic_search.py --query "10 Strategic Positioning"
 - [09-risks-open-questions](09-risks-open-questions.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-strategic-positioning](../../obsidian/nautilus/ingit-cowork-en/10-strategic-positioning.md) (сходство 0.98)
+- [318-10-strategic-positioning](../../obsidian/02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.82)
+- [318-10-strategic-positioning](../../02-anthropic-vacancies/318-10-strategic-positioning.md) (сходство 0.82)
+

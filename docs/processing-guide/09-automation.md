@@ -281,3 +281,13 @@ Skills в `.claude/skills/` — это инструкции для Claude **ко
 - [WORD_FREQ](../WORD_FREQ.md)
 - [03-chunking](03-chunking.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-automation](../obsidian/processing-guide/09-automation.md) (сходство 0.99)
+- [01-overview](01-overview.md) (сходство 0.17)
+- [01-overview](../obsidian/processing-guide/01-overview.md) (сходство 0.17)
+

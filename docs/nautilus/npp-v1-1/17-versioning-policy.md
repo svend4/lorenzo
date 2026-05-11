@@ -98,3 +98,13 @@ _Документ индексирован в поисковой базе реп
 - [13-rest-api](13-rest-api.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [17-versioning-policy](../../obsidian/nautilus/npp-v1-1/17-versioning-policy.md) (сходство 0.98)
+- [92-17-versioning-policy](../../02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.64)
+- [92-17-versioning-policy](../../obsidian/02-anthropic-vacancies/92-17-versioning-policy.md) (сходство 0.63)
+

@@ -80,3 +80,13 @@ _Документ доступен для семантического поис�
 - [F-evidence-backed-intake](F-evidence-backed-intake.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [B-forensic-rag](../../obsidian/svyazi-2-0/ensembles/B-forensic-rag.md) (сходство 0.97)
+- [F-evidence-backed-intake](F-evidence-backed-intake.md) (сходство 0.25)
+- [F-evidence-backed-intake](../../obsidian/svyazi-2-0/ensembles/F-evidence-backed-intake.md) (сходство 0.24)
+

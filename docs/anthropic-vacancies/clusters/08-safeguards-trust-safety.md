@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Safeguards Trust Safety 21 р
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-safeguards-trust-safety](../../obsidian/anthropic-vacancies/clusters/08-safeguards-trust-safety.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.69)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.67)
+

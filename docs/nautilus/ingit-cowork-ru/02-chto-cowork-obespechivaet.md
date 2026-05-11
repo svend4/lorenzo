@@ -195,3 +195,13 @@ python scripts/improve_semantic_search.py --query "2 Что Cowork обеспе�
 - [06-utochnyonnyy-obyom-ingit](06-utochnyonnyy-obyom-ingit.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-chto-cowork-obespechivaet](../../obsidian/nautilus/ingit-cowork-ru/02-chto-cowork-obespechivaet.md) (сходство 0.99)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.84)
+- [328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи](../../obsidian/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) (сходство 0.83)
+

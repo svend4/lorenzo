@@ -129,3 +129,13 @@ return list(visited.keys())
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-q6-space](../../obsidian/nautilus/npp-v1-1/08-q6-space.md) (сходство 0.98)
+- [83-8-q6-space-normative](../../obsidian/02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.75)
+- [83-8-q6-space-normative](../../02-anthropic-vacancies/83-8-q6-space-normative.md) (сходство 0.75)
+

@@ -173,3 +173,13 @@ Portal MUST предоставлять `openapi.yaml` в корне репо, с
 - [08-q6-space](08-q6-space.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-rest-api](../../obsidian/nautilus/npp-v1-1/13-rest-api.md) (сходство 0.98)
+- [88-13-rest-api-contract-normative-for-portals](../../obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.75)
+- [88-13-rest-api-contract-normative-for-portals](../../02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) (сходство 0.75)
+

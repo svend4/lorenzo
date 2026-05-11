@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Пересмотренный 
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-revised-anthropic-mapping](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.96)
+- [05-reality-check-distribution-gap](05-reality-check-distribution-gap.md) (сходство 0.26)
+- [05-reality-check-distribution-gap](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.25)
+

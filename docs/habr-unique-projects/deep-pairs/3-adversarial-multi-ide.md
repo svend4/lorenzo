@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "Пара 3 Adversarial agents
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-adversarial-multi-ide](../../obsidian/habr-unique-projects/deep-pairs/3-adversarial-multi-ide.md) (сходство 0.96)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md) (сходство 0.24)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md) (сходство 0.23)
+

@@ -177,3 +177,13 @@ python scripts/improve_semantic_search.py --query "6 Governance and Ethics"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-governance-ethics](../../obsidian/nautilus/okwf-concept/06-governance-ethics.md) (сходство 0.98)
+- [160-6-governance-and-ethics](../../02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.86)
+- [160-6-governance-and-ethics](../../obsidian/02-anthropic-vacancies/160-6-governance-and-ethics.md) (сходство 0.85)
+

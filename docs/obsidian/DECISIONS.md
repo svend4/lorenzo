@@ -310,3 +310,13 @@ _...ещё 62 записей в этой категории_
 
 _...ещё 1014 записей в этой категории_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DECISIONS](../DECISIONS.md) (сходство 1.00)
+- [03-nautilus-B-meta-orchestrator](anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) (сходство 0.16)
+- [03-nautilus-B-meta-orchestrator](../anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md) (сходство 0.16)
+

@@ -884,3 +884,13 @@ python scripts/improve_qa.py
 # Вариант 2
 python scripts/improve_qa.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [QA](../QA.md) (сходство 0.99)
+- [QA](02-anthropic-vacancies/QA.md) (сходство 0.81)
+- [QA](../02-anthropic-vacancies/QA.md) (сходство 0.81)
+

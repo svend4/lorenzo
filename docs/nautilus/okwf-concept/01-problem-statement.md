@@ -154,3 +154,13 @@ python scripts/improve_semantic_search.py --query "1 Problem Statement"
 - [02-target-populations](02-target-populations.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-problem-statement](../../obsidian/nautilus/okwf-concept/01-problem-statement.md) (сходство 0.99)
+- [155-1-problem-statement](../../02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.86)
+- [155-1-problem-statement](../../obsidian/02-anthropic-vacancies/155-1-problem-statement.md) (сходство 0.86)
+

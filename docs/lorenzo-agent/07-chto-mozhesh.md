@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Что ты МОЖЕШЬ де
 - [12-workflow](12-workflow.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-chto-mozhesh](../obsidian/lorenzo-agent/07-chto-mozhesh.md) (сходство 0.98)
+- [351-что-ты-можешь-делать](../obsidian/02-anthropic-vacancies/351-что-ты-можешь-делать.md) (сходство 0.53)
+- [351-что-ты-можешь-делать](../02-anthropic-vacancies/351-что-ты-можешь-делать.md) (сходство 0.53)
+

@@ -92,3 +92,13 @@ python scripts/improve_semantic_search.py --query "Что я бы посовет
 - [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-what-to-do-right-now](../../obsidian/anthropic-vacancies/nautilus-vs-camel/05-what-to-do-right-now.md) (сходство 0.97)
+- [04-what-to-take-from-info-repos](04-what-to-take-from-info-repos.md) (сходство 0.23)
+- [04-what-to-take-from-info-repos](../../obsidian/anthropic-vacancies/nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.23)
+

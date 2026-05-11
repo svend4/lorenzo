@@ -212,3 +212,13 @@ python scripts/improve_semantic_search.py --query "Что мы можем дел
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-current-session-poc](../../obsidian/lorenzo-agent/phased-deployment/08-current-session-poc.md) (сходство 0.99)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../obsidian/02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
+- [343-lorenzo-catalyst-agent-глубокая-проработка-специфи](../../02-anthropic-vacancies/343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md) (сходство 0.18)
+

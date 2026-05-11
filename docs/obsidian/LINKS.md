@@ -1,54 +1,43 @@
 ---
 title: "Индекс ссылок"
 tags:
-  - links
-  - docs
   - general
 date: 2026-05-11
 ---
 
 # Индекс ссылок
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `LINKS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: links, docs -->
-
-
-<!-- summary -->
-> `LINKS` — раздел документации проекта Lorenzo.
-
-
-Всего уникальных URL: 367
+Всего уникальных URL: 371
 
 | URL | Найден в файлах |
 |-----|-----------------|
 | http://localhost:8000 | 11 |
 | http://localhost:8000` | 8 |
-| http://localhost:8000`` | 3 |
-| http://localhost:8000``` | 3 |
-| http://localhost:8000```` | 3 |
-| http://localhost:8000````` | 3 |
+| http://localhost:8000`` | 5 |
+| http://localhost:8000``` | 5 |
+| http://localhost:8000```` | 9 |
+| http://localhost:8000````` | 9 |
 | http://localhost:8080 | 11 |
 | http://localhost:8080` | 8 |
-| http://localhost:8080`` | 3 |
-| http://localhost:8080``` | 3 |
-| http://localhost:8080```` | 3 |
-| http://localhost:8080````` | 3 |
-| http://localhost:8083/api/ask | 2 |
-| http://localhost:8083/api/cards | 2 |
-| http://localhost:8083/api/health | 2 |
-| http://localhost:8083/docs | 2 |
-| http://localhost:8083/v1 | 2 |
-| http://localhost:8083/v1/chat/completions | 2 |
+| http://localhost:8080`` | 5 |
+| http://localhost:8080``` | 5 |
+| http://localhost:8080```` | 9 |
+| http://localhost:8080````` | 9 |
+| http://localhost:8083/api/ask | 4 |
+| http://localhost:8083/api/benchmark | 2 |
+| http://localhost:8083/api/cards | 4 |
+| http://localhost:8083/api/collabs | 2 |
+| http://localhost:8083/api/health | 4 |
+| http://localhost:8083/api/search | 2 |
+| http://localhost:8083/docs | 4 |
+| http://localhost:8083/v1 | 4 |
+| http://localhost:8083/v1/chat/completions | 6 |
 | https://...install.sh | 7 |
 | https://...install.sh` | 6 |
-| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|anthropic | 1 |
-| https://3dnews.ru/1140248/glava-[[README|anthropic | 1 |
-| https://3dnews.ru/1140248/glava-[anthropic | 3 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|[12-content-overview|[12-content-overview|anthropic | 1 |
+| https://3dnews.ru/1140248/glava-[[12-content-overview|anthropic | 1 |
+| https://3dnews.ru/1140248/glava-[[README|anthropic | 3 |
+| https://3dnews.ru/1140248/glava-[anthropic | 4 |
 | https://3dnews.ru/1140248/glava-[anthropic` | 6 |
 | https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhe` | 6 |
 | https://3dnews.ru/1140248/glava-anthropic-predryok-ischeznovenie-inzhenernykh-pr` | 6 |
@@ -222,10 +211,6 @@ date: 2026-05-11
 | https://github.com/svend4/nautilus/commits/main`` | 5 |
 | https://github.com/svend4/nautilus/issues | 52 |
 | https://github.com/svend4/nautilus/issues` | 7 |
-| https://github.com/svend4/nautilus/issues`` | 5 |
-| https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f12eb443ca50/docs | 6 |
-| https://github.com/svend4/nautilus/tree/abfa80e853594454bae03e95ba09f1` | 5 |
-| https://github.com/svend4/nautilus/tree/main/adapters | 6 |
 
 <!-- backlinks -->
 
@@ -241,4 +226,14 @@ date: 2026-05-11
 - [[README]]
 - [[SEARCH]]
 - _...ещё 1_
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LINKS](../LINKS.md) (сходство 0.85)
+- [LINK_PREVIEW](../LINK_PREVIEW.md) (сходство 0.51)
+- [CITATION_INDEX](CITATION_INDEX.md) (сходство 0.26)
 

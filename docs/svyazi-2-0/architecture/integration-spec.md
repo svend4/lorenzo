@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Интеграционная 
 - [README](README.md)
 - [README](../../technology-combinations/README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [integration-spec](../../obsidian/svyazi-2-0/architecture/integration-spec.md) (сходство 0.96)
+- [11-integration-contracts](../../01-svyazi/11-integration-contracts.md) (сходство 0.39)
+- [11-integration-contracts](../../obsidian/01-svyazi/11-integration-contracts.md) (сходство 0.39)
+

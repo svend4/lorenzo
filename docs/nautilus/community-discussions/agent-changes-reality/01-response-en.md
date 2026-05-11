@@ -2020,3 +2020,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Хор
 - [01-cinderella-syndrome](../../representative-agent-layer-en/01-cinderella-syndrome.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-response-en](../../../obsidian/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 1.00)
+- [12-closing](../../representative-agent-layer-en/12-closing.md) (сходство 0.45)
+- [12-closing](../../../obsidian/nautilus/representative-agent-layer-en/12-closing.md) (сходство 0.45)
+

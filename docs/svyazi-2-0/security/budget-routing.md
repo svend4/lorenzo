@@ -79,3 +79,13 @@ python scripts/improve_semantic_search.py --query "Практичный бюдж
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [budget-routing](../../obsidian/svyazi-2-0/security/budget-routing.md) (сходство 0.98)
+- [06-security-privacy](../../01-svyazi/06-security-privacy.md) (сходство 0.39)
+- [06-security-privacy](../../obsidian/01-svyazi/06-security-privacy.md) (сходство 0.39)
+

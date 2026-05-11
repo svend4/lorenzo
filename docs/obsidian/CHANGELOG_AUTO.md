@@ -333,3 +333,13 @@ python scripts/improve_changelog_auto.py --dry-run
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md) (сходство 1.00)
+- [CHANGELOG](CHANGELOG.md) (сходство 0.61)
+- [CHANGELOG](../CHANGELOG.md) (сходство 0.61)
+

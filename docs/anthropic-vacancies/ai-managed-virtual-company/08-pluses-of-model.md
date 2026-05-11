@@ -73,3 +73,13 @@ _Для поиска доступен._
 - [04-what-to-do](04-what-to-do.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-pluses-of-model](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/08-pluses-of-model.md) (сходство 0.98)
+- [07-current-implementations](07-current-implementations.md) (сходство 0.23)
+- [07-current-implementations](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.23)
+

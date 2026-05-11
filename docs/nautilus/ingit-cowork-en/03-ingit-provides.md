@@ -213,3 +213,13 @@ python scripts/improve_semantic_search.py --query "3 What InGit Provides That Co
 - [06-refined-ingit-scope](06-refined-ingit-scope.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-ingit-provides](../../obsidian/nautilus/ingit-cowork-en/03-ingit-provides.md) (сходство 0.99)
+- [311-3-what-ingit-provides-that-cowork-lacks](../../02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.89)
+- [311-3-what-ingit-provides-that-cowork-lacks](../../obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) (сходство 0.88)
+

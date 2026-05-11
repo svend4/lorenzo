@@ -122,3 +122,13 @@ python scripts/improve_semantic_search.py --query "11 Призыв к сотру
 - [00-abstract](00-abstract.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-prizyv-k-sotrudnichestvu](../../obsidian/nautilus/professional-colleague-agents-ru/11-prizyv-k-sotrudnichestvu.md) (сходство 0.98)
+- [242-11-призыв-к-сотрудничеству](../../02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md) (сходство 0.82)
+- [242-11-призыв-к-сотрудничеству](../../obsidian/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md) (сходство 0.81)
+

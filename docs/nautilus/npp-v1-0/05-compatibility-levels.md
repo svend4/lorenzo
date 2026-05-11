@@ -92,3 +92,13 @@ _Документ доступен для семантического поис�
 - [02-terminology](02-terminology.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-compatibility-levels](../../obsidian/nautilus/npp-v1-0/05-compatibility-levels.md) (сходство 0.98)
+- [17-5-compatibility-levels](../../obsidian/02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.67)
+- [17-5-compatibility-levels](../../02-anthropic-vacancies/17-5-compatibility-levels.md) (сходство 0.67)
+

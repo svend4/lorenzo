@@ -79,3 +79,13 @@ _Документ индексирован в поисковой базе реп
 - [08-personal-multi-agent-hub](08-personal-multi-agent-hub.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-platform-for-professional-communities](../../obsidian/habr-unique-projects/extra-examples/06-platform-for-professional-communities.md) (сходство 0.97)
+- [09-federated-platform](09-federated-platform.md) (сходство 0.42)
+- [09-federated-platform](../../obsidian/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.41)
+

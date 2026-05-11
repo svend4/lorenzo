@@ -58,3 +58,13 @@ python scripts/improve_semantic_search.py --query "Security 24 роли"
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-security](../../obsidian/anthropic-vacancies/clusters/04-security.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.69)
+- [16-people](16-people.md) (сходство 0.68)
+

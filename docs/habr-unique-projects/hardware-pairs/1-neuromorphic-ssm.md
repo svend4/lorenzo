@@ -69,3 +69,13 @@ python scripts/improve_semantic_search.py --query "Пара 1 Нейроморф
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [1-neuromorphic-ssm](../../obsidian/habr-unique-projects/hardware-pairs/1-neuromorphic-ssm.md) (сходство 0.97)
+- [5-tinyml-mcp-skills](5-tinyml-mcp-skills.md) (сходство 0.20)
+- [5-tinyml-mcp-skills](../../obsidian/habr-unique-projects/hardware-pairs/5-tinyml-mcp-skills.md) (сходство 0.19)
+

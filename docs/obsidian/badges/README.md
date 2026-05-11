@@ -61,3 +61,13 @@ date: 2026-05-11
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../badges/README.md) (сходство 0.96)
+- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.54)
+- [MCP_DASHBOARD](../../MCP_DASHBOARD.md) (сходство 0.52)
+

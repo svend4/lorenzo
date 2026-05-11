@@ -83,3 +83,13 @@ python scripts/improve_semantic_search.py --query "Архитектурные з
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [gaps](../../obsidian/svyazi-2-0/architecture/gaps.md) (сходство 0.99)
+- [09-architectural-gaps](../../01-svyazi/09-architectural-gaps.md) (сходство 0.76)
+- [09-architectural-gaps](../../obsidian/01-svyazi/09-architectural-gaps.md) (сходство 0.75)
+

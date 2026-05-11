@@ -236,3 +236,13 @@ python scripts/improve_semantic_search.py --query "Минусы 1 10 integration
 - [05-anchor-node-habr-scout](05-anchor-node-habr-scout.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-minuses-1-10](../../obsidian/lorenzo-agent/operationalized/02-minuses-1-10.md) (сходство 0.99)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.28)
+- [365-развёрнутый-анализ-внуковой-комбинации](../../02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md) (сходство 0.28)
+

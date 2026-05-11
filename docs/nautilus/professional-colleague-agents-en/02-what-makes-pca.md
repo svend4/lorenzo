@@ -191,3 +191,13 @@ python scripts/improve_semantic_search.py --query "2 What Makes a Professional C
 - [09-relationship-other-agents](09-relationship-other-agents.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-what-makes-pca](../../obsidian/nautilus/professional-colleague-agents-en/02-what-makes-pca.md) (сходство 0.99)
+- [213-2-what-makes-a-professional-colleague-agent](../../02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.84)
+- [213-2-what-makes-a-professional-colleague-agent](../../obsidian/02-anthropic-vacancies/213-2-what-makes-a-professional-colleague-agent.md) (сходство 0.84)
+

@@ -132,3 +132,13 @@ python scripts/improve_semantic_search.py --query "12 Call for Collaboration"
 - [README](README.md)
 - [11-call-for-collaboration](../representative-agent-layer-en/11-call-for-collaboration.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-call-for-collaboration](../../obsidian/nautilus/composite-skills-agents/12-call-for-collaboration.md) (сходство 0.97)
+- [265-12-call-for-collaboration](../../02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.82)
+- [265-12-call-for-collaboration](../../obsidian/02-anthropic-vacancies/265-12-call-for-collaboration.md) (сходство 0.82)
+

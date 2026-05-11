@@ -93,3 +93,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 12 Multi
 - [23-security-first-code-review-pipeline](23-security-first-code-review-pipeline.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-multi-agent-observability-stack](../../obsidian/technology-combinations/combinations/12-multi-agent-observability-stack.md) (сходство 0.97)
+- [15-19-extended](../synthesis-tables/15-19-extended.md) (сходство 0.49)
+- [15-19-extended](../../obsidian/technology-combinations/synthesis-tables/15-19-extended.md) (сходство 0.48)
+

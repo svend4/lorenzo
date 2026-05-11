@@ -16348,3 +16348,13 @@ python scripts/improve_outline.py --dry-run
 # Вариант 3
 python scripts/improve_outline.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [OUTLINE](obsidian/OUTLINE.md) (сходство 1.00)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md) (сходство 0.48)
+- [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) (сходство 0.48)
+

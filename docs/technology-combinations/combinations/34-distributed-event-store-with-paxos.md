@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 34 Distr
 - [31-35-final](../synthesis-tables/31-35-final.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации через граф концептов._ _Материал доступен для поиска._ _Индексировано._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [34-distributed-event-store-with-paxos](../../obsidian/technology-combinations/combinations/34-distributed-event-store-with-paxos.md) (сходство 0.96)
+- [31-35-final](../../obsidian/technology-combinations/synthesis-tables/31-35-final.md) (сходство 0.34)
+- [31-35-final](../synthesis-tables/31-35-final.md) (сходство 0.33)
+

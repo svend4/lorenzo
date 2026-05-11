@@ -97,3 +97,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 23 Secur
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [23-security-first-code-review-pipeline](../../obsidian/technology-combinations/combinations/23-security-first-code-review-pipeline.md) (сходство 0.97)
+- [15-19-extended](../synthesis-tables/15-19-extended.md) (сходство 0.37)
+- [12-multi-agent-observability-stack](12-multi-agent-observability-stack.md) (сходство 0.37)
+

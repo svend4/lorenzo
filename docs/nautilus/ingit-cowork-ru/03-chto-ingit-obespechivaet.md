@@ -240,3 +240,13 @@ python scripts/improve_semantic_search.py --query "3 Что InGit обеспеч
 - [04-simbioticheskaya-arkhitektura](04-simbioticheskaya-arkhitektura.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-chto-ingit-obespechivaet](../../obsidian/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md) (сходство 0.99)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.83)
+- [329-3-что-ingit-обеспечивает-чего-cowork-не-хватает](../../obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) (сходство 0.83)
+

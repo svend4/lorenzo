@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Лицензионные ра
 - [README](../../habr-unique-projects/evaluation/README.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [license-tree](../../obsidian/svyazi-2-0/limitations/license-tree.md) (сходство 0.95)
+- [14-limitations](../../01-svyazi/14-limitations.md) (сходство 0.21)
+- [14-limitations](../../obsidian/01-svyazi/14-limitations.md) (сходство 0.21)
+

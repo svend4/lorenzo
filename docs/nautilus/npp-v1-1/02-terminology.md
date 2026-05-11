@@ -123,3 +123,13 @@ python scripts/improve_semantic_search.py --query "2 Terminology"
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-terminology](../../obsidian/nautilus/npp-v1-1/02-terminology.md) (сходство 0.99)
+- [77-2-terminology](../../obsidian/02-anthropic-vacancies/77-2-terminology.md) (сходство 0.81)
+- [77-2-terminology](../../02-anthropic-vacancies/77-2-terminology.md) (сходство 0.81)
+

@@ -278,3 +278,13 @@ python scripts/improve_citation_index.py
 - [SPELLCHECK](SPELLCHECK.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CITATION_INDEX](obsidian/CITATION_INDEX.md) (сходство 0.98)
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.27)
+- [LINK_PREVIEW](LINK_PREVIEW.md) (сходство 0.27)
+

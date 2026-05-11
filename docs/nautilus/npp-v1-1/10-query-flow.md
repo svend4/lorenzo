@@ -103,3 +103,13 @@ _Для поиска доступен._
 - [09-query-flow](../npp-v1-0/09-query-flow.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-query-flow](../../obsidian/nautilus/npp-v1-1/10-query-flow.md) (сходство 0.98)
+- [09-query-flow](../npp-v1-0/09-query-flow.md) (сходство 0.74)
+- [09-query-flow](../../obsidian/nautilus/npp-v1-0/09-query-flow.md) (сходство 0.72)
+

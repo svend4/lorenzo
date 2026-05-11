@@ -107,3 +107,13 @@
 - [19-multi-agent-observability-platform](../combinations/19-multi-agent-observability-platform.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-ultimate-legal-ai](../../obsidian/technology-combinations/mega-stacks/02-ultimate-legal-ai.md) (сходство 0.96)
+- [09-14-extended](../synthesis-tables/09-14-extended.md) (сходство 0.41)
+- [01-legal-ai-stack](01-legal-ai-stack.md) (сходство 0.40)
+

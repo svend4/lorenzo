@@ -92,3 +92,13 @@ python scripts/improve_semantic_search.py --query "Коммерциализац�
 - [README](README.md)
 - [components-by-name](../../glossary/components-by-name.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-commercialization-three-paths](../../obsidian/ai-collaborations/continuation/08-commercialization-three-paths.md) (сходство 0.98)
+- [02-agentops-trace-envelope](02-agentops-trace-envelope.md) (сходство 0.19)
+- [02-agentops-trace-envelope](../../obsidian/ai-collaborations/continuation/02-agentops-trace-envelope.md) (сходство 0.19)
+

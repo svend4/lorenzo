@@ -198,3 +198,13 @@ graph TD
 - [SEARCH](SEARCH.md)
 - _...ещё 7_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) (сходство 0.96)
+- [SKILL_DASHBOARD](SKILL_DASHBOARD.md) (сходство 0.41)
+- [MCP_DASHBOARD](MCP_DASHBOARD.md) (сходство 0.40)
+

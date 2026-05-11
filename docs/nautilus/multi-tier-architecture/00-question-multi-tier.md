@@ -67,3 +67,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-multi-tier](../../obsidian/nautilus/multi-tier-architecture/00-question-multi-tier.md) (сходство 0.93)
+- [00-question-camel-vs-nautilus](../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.38)
+- [00-question-camel-vs-nautilus](../../obsidian/anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.34)
+

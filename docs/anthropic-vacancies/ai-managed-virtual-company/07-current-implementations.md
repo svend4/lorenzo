@@ -73,3 +73,13 @@ python scripts/improve_semantic_search.py --query "Что существует �
 - [03-three-variants-A-B-C](03-three-variants-A-B-C.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-current-implementations](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/07-current-implementations.md) (сходство 0.98)
+- [01-existing-landscape](01-existing-landscape.md) (сходство 0.26)
+- [01-existing-landscape](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md) (сходство 0.26)
+

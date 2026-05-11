@@ -60,3 +60,13 @@ python scripts/improve_semantic_search.py --query "Методика разбив
 - [README](README.md)
 - [signals](signals.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [methodology](../obsidian/anthropic-vacancies/methodology.md) (сходство 0.98)
+- [13-communications](clusters/13-communications.md) (сходство 0.48)
+- [13-communications](../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.48)
+

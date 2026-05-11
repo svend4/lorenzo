@@ -94,3 +94,13 @@ python scripts/improve_semantic_search.py --query "Контекст что та�
 - [11-not-and-format](11-not-and-format.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-context](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/00-context.md) (сходство 0.98)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md) (сходство 0.30)
+- [10-section-10-engagement-request](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.30)
+

@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Пара 2 Парсинг д�
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [2-document-rag](../../obsidian/habr-unique-projects/deep-pairs/2-document-rag.md) (сходство 0.96)
+- [5-voice-local-memory](5-voice-local-memory.md) (сходство 0.23)
+- [5-voice-local-memory](../../obsidian/habr-unique-projects/deep-pairs/5-voice-local-memory.md) (сходство 0.22)
+

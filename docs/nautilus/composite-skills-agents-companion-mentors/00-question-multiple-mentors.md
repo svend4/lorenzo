@@ -78,3 +78,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Важный �
 - [README](README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-multiple-mentors](../../obsidian/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md) (сходство 0.97)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.18)
+- [248-приложение-c-архитектура-быстрого-старта-для-sgb-а](../../02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) (сходство 0.18)
+

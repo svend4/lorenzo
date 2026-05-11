@@ -81,3 +81,13 @@ _Документ индексирован в поисковой базе реп
 - [28-pydantic-enforced-legal-workflows](../combinations/28-pydantic-enforced-legal-workflows.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-30-extended](../../obsidian/technology-combinations/synthesis-tables/25-30-extended.md) (сходство 0.96)
+- [20-24-final](20-24-final.md) (сходство 0.42)
+- [20-24-final](../../obsidian/technology-combinations/synthesis-tables/20-24-final.md) (сходство 0.41)
+

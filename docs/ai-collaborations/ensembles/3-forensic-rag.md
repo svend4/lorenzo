@@ -89,3 +89,13 @@ python scripts/improve_semantic_search.py --query "Ансамбль 3 Forensic R
 - [components-by-name](../../glossary/components-by-name.md)
 - [concepts](../../glossary/concepts.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [3-forensic-rag](../../obsidian/ai-collaborations/ensembles/3-forensic-rag.md) (сходство 0.98)
+- [B-forensic-rag](../../svyazi-2-0/ensembles/B-forensic-rag.md) (сходство 0.18)
+- [8-budget-aware-intelligence-stack](8-budget-aware-intelligence-stack.md) (сходство 0.18)
+

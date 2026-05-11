@@ -1,16 +1,5 @@
 # mega-stacks
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 4
 
 ## Содержание
@@ -35,12 +24,12 @@
 - [04-event-sourcing-consensus](04-event-sourcing-consensus.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «mega-stacks». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/technology-combinations/mega-stacks/README.md) (сходство 0.77)
+- [README](../synthesis-tables/README.md) (сходство 0.52)
+- [README](../../svyazi-2-0/prototype/README.md) (сходство 0.52)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

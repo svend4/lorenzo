@@ -72,3 +72,13 @@ _Документ индексирован в поисковой базе реп
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-portal-entry](../../obsidian/nautilus/npp-v1-0/07-portal-entry.md) (сходство 0.99)
+- [19-7-portalentry-structure](../../obsidian/02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.51)
+- [19-7-portalentry-structure](../../02-anthropic-vacancies/19-7-portalentry-structure.md) (сходство 0.51)
+

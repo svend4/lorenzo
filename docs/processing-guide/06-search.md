@@ -256,3 +256,13 @@ scores = cosine_similarity(query_vec, embeddings)
 - [05-analysis](05-analysis.md)
 - [10-future](10-future.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-search](../obsidian/processing-guide/06-search.md) (сходство 0.99)
+- [07-llm](07-llm.md) (сходство 0.15)
+- [07-llm](../obsidian/processing-guide/07-llm.md) (сходство 0.15)
+

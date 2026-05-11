@@ -85,3 +85,13 @@ python scripts/improve_semantic_search.py --query "Уровень 5 Полный
 - [01-level-0-manual](01-level-0-manual.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-level-5-full-network](../../obsidian/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.98)
+- [01-level-0-manual](01-level-0-manual.md) (сходство 0.53)
+- [01-level-0-manual](../../obsidian/lorenzo-agent/phased-deployment/01-level-0-manual.md) (сходство 0.53)
+

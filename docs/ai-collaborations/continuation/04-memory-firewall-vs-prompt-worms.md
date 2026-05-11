@@ -74,3 +74,13 @@ _Документ индексирован в базе знаний репози
 - [README](README.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-memory-firewall-vs-prompt-worms](../../obsidian/ai-collaborations/continuation/04-memory-firewall-vs-prompt-worms.md) (сходство 0.98)
+- [5-agent-firewall](../ensembles/5-agent-firewall.md) (сходство 0.21)
+- [5-agent-firewall](../../obsidian/ai-collaborations/ensembles/5-agent-firewall.md) (сходство 0.21)
+

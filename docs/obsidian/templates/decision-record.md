@@ -80,3 +80,13 @@ python scripts/improve_decision_record.py
 - [[experiment-log]]
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [decision-record](../../templates/decision-record.md) (сходство 0.96)
+- [MCP_DASHBOARD](../MCP_DASHBOARD.md) (сходство 0.44)
+- [SKILL_DASHBOARD](../SKILL_DASHBOARD.md) (сходство 0.42)
+

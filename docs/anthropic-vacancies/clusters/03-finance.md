@@ -61,3 +61,13 @@ python scripts/improve_semantic_search.py --query "Finance 36 ролей"
 - [README](README.md)
 - [overview](../overview.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-finance](../../obsidian/anthropic-vacancies/clusters/03-finance.md) (сходство 0.98)
+- [13-communications](13-communications.md) (сходство 0.65)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.64)
+

@@ -84,3 +84,13 @@ _Документ индексирован в поисковой базе реп
 - [11-not-and-format](11-not-and-format.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-section-5-role-of-anthropic](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/05-section-5-role-of-anthropic.md) (сходство 0.98)
+- [09-section-9-timeliness](09-section-9-timeliness.md) (сходство 0.30)
+- [09-section-9-timeliness](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.30)
+

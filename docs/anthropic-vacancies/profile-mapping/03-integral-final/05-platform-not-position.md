@@ -80,3 +80,13 @@ python scripts/improve_semantic_search.py --query "Финальный вывод
 - [00-question-multiple-mentors](../../../nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-platform-not-position](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md) (сходство 0.95)
+- [00-question-rephrasing](../../../obsidian/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md) (сходство 0.47)
+- [00-question-rephrasing](../../ai-managed-virtual-company/00-question-rephrasing.md) (сходство 0.47)
+

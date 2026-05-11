@@ -92,3 +92,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - [10-query-flow](../npp-v1-1/10-query-flow.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-query-flow](../../obsidian/nautilus/npp-v1-0/09-query-flow.md) (сходство 0.97)
+- [10-query-flow](../npp-v1-1/10-query-flow.md) (сходство 0.74)
+- [10-query-flow](../../obsidian/nautilus/npp-v1-1/10-query-flow.md) (сходство 0.72)
+

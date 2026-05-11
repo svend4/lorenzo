@@ -122,3 +122,13 @@ python scripts/improve_semantic_search.py --query "Что concept document NOT �
 - [10-section-10-engagement-request](10-section-10-engagement-request.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-not-and-format](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) (сходство 0.99)
+- [10-section-10-engagement-request](10-section-10-engagement-request.md) (сходство 0.49)
+- [10-section-10-engagement-request](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) (сходство 0.48)
+

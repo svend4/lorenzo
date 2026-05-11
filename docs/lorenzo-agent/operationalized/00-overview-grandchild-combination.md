@@ -129,3 +129,13 @@ python scripts/improve_semantic_search.py --query "Что такое внуко�
 - [01-pluses-1-7](01-pluses-1-7.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-overview-grandchild-combination](../../obsidian/lorenzo-agent/operationalized/00-overview-grandchild-combination.md) (сходство 0.97)
+- [01-pluses-1-7](01-pluses-1-7.md) (сходство 0.22)
+- [README](../../ai-collaborations/fast-tracks/README.md) (сходство 0.22)
+

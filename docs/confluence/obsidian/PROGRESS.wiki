@@ -12,6 +12,16 @@ date: 2026-05-11
 
 h1. Прогресс MVP
 
+
+{quote}_Обновлено: 2026-05-11 (improve_progress_sync.py)_{quote}
+_Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
+
+----
+
+
+
+
+
 _Обновлено: 2026-05-11 (improve_progress_sync.py)_
 
 h2. Ключевые этапы (Milestones)

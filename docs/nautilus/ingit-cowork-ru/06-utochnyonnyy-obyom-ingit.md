@@ -150,3 +150,13 @@ python scripts/improve_semantic_search.py --query "6 Уточнённый объ
 - [05-chetyre-puti-integratsii](05-chetyre-puti-integratsii.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-utochnyonnyy-obyom-ingit](../../obsidian/nautilus/ingit-cowork-ru/06-utochnyonnyy-obyom-ingit.md) (сходство 0.98)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.78)
+- [332-6-уточнённый-объём-ingit-с-учётом-cowork](../../obsidian/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) (сходство 0.77)
+

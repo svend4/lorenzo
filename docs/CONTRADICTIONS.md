@@ -497,3 +497,13 @@ python scripts/improve_contradictions.py
 # Запуск
 python scripts/improve_contradictions.py
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) (сходство 0.99)
+- [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) (сходство 0.21)
+- [SIMILAR_PASSAGES](obsidian/SIMILAR_PASSAGES.md) (сходство 0.21)
+

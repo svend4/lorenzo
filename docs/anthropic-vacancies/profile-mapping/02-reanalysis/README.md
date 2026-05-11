@@ -1,16 +1,5 @@
 # 02-reanalysis
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 5
 
 ## Содержание
@@ -37,12 +26,12 @@
 - _...ещё 1_
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «02-reanalysis». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/README.md) (сходство 0.83)
+- [README](../../../nautilus/community-discussions/agent-changes-reality/README.md) (сходство 0.48)
+- [README](../../../habr-unique-projects/analogues/README.md) (сходство 0.48)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

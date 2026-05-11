@@ -75,3 +75,13 @@ python scripts/improve_see_also.py
 - [TABLES](TABLES.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [SEE_ALSO](obsidian/SEE_ALSO.md) (сходство 0.94)
+- [BACKLINKS](obsidian/BACKLINKS.md) (сходство 0.29)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md) (сходство 0.26)
+

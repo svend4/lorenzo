@@ -64,3 +64,13 @@ python scripts/improve_semantic_search.py --query "Альтернативные 
 - [README](README.md)
 - [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-non-anthropic-paths](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/04-non-anthropic-paths.md) (сходство 0.97)
+- [04-stronger-paths-outside-anthropic](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.22)
+- [04-stronger-paths-outside-anthropic](../03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.22)
+

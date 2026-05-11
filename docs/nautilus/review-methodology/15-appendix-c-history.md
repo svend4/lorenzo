@@ -74,3 +74,13 @@ python scripts/improve_semantic_search.py --query "Appendix C История и�
 - [00-tldr](00-tldr.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-appendix-c-history](../../obsidian/nautilus/review-methodology/15-appendix-c-history.md) (сходство 0.91)
+- [17-appendix-b-change-log](../npp-v1-0/17-appendix-b-change-log.md) (сходство 0.63)
+- [00-question-habr-link](../community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.63)
+

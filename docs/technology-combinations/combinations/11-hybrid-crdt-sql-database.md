@@ -91,3 +91,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 11 Hybri
 - [09-14-extended](../synthesis-tables/09-14-extended.md)
 
 _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Документ индексирован в поисковой базе репозитория Lorenzo и доступен для семантического поиска._ _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-hybrid-crdt-sql-database](../../obsidian/technology-combinations/combinations/11-hybrid-crdt-sql-database.md) (сходство 0.95)
+- [20-hybrid-olap-oltp-with-real-time-sync](20-hybrid-olap-oltp-with-real-time-sync.md) (сходство 0.41)
+- [20-hybrid-olap-oltp-with-real-time-sync](../../obsidian/technology-combinations/combinations/20-hybrid-olap-oltp-with-real-time-sync.md) (сходство 0.38)
+

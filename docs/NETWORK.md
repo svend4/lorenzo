@@ -114,3 +114,13 @@ python scripts/improve_network.py
 - [OUTLINE](OUTLINE.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [NETWORK](obsidian/NETWORK.md) (сходство 0.94)
+- [GRAPH](GRAPH.md) (сходство 0.46)
+- [GRAPH](obsidian/GRAPH.md) (сходство 0.45)
+

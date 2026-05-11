@@ -89,3 +89,13 @@ python scripts/improve_zodigancode.py
 - [READING_TIME](../READING_TIME.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [zodigancode](../obsidian/letters/zodigancode.md) (сходство 0.98)
+- [anastasiyaw](anastasiyaw.md) (сходство 0.23)
+- [anastasiyaw](../obsidian/letters/anastasiyaw.md) (сходство 0.22)
+

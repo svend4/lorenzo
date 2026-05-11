@@ -8791,3 +8791,13 @@ python scripts/improve_paragraph_quality.py --dry-run
 # Вариант 3
 python scripts/improve_paragraph_quality.py --dry-run
 ```
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [PARAGRAPH_QUALITY](../PARAGRAPH_QUALITY.md) (сходство 1.00)
+- [HEADING_AUDIT](HEADING_AUDIT.md) (сходство 0.97)
+- [HEADING_AUDIT](../HEADING_AUDIT.md) (сходство 0.97)
+

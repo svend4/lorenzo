@@ -461,3 +461,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это
 - [README](README.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-strategic-significance](../../obsidian/nautilus/multi-tier-architecture/01-strategic-significance.md) (сходство 0.99)
+- [133-обратная-связь](../../02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
+- [133-обратная-связь](../../obsidian/02-anthropic-vacancies/133-обратная-связь.md) (сходство 0.18)
+

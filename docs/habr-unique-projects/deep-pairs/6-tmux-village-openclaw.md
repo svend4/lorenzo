@@ -71,3 +71,13 @@ python scripts/improve_semantic_search.py --query "Пара 6 Деревня а�
 - [3-adversarial-multi-ide](3-adversarial-multi-ide.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [6-tmux-village-openclaw](../../obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.96)
+- [4-skill-catalogs-subagents](4-skill-catalogs-subagents.md) (сходство 0.24)
+- [1-workflow-llm-mcp](../software-pairs/1-workflow-llm-mcp.md) (сходство 0.24)
+

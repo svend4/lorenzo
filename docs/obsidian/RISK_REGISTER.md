@@ -188,3 +188,13 @@ _Курированных рисков: 10 · Из документов: 15_
 - [[READABILITY]]
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [RISK_REGISTER](../RISK_REGISTER.md) (сходство 0.98)
+- [02-methodology](01-svyazi/02-methodology.md) (сходство 0.15)
+- [02-methodology](../01-svyazi/02-methodology.md) (сходство 0.15)
+

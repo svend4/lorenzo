@@ -164,3 +164,13 @@ python scripts/improve_semantic_search.py --query "9 Стратегия поэт
 - [11-prizyv-k-sotrudnichestvu](11-prizyv-k-sotrudnichestvu.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-strategiya-razvyortyvaniya](../../obsidian/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md) (сходство 0.97)
+- [199-9-стратегия-поэтапного-развёртывания](../../obsidian/02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md) (сходство 0.83)
+- [199-9-стратегия-поэтапного-развёртывания](../../02-anthropic-vacancies/199-9-стратегия-поэтапного-развёртывания.md) (сходство 0.83)
+

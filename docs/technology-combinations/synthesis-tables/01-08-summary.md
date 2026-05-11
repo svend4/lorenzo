@@ -90,3 +90,13 @@ python scripts/improve_semantic_search.py --query "Сводная таблица
 - [README](../README.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-08-summary](../../obsidian/technology-combinations/synthesis-tables/01-08-summary.md) (сходство 0.98)
+- [08-conductor-adversarial-review-auto-ai-router](../combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.47)
+- [08-conductor-adversarial-review-auto-ai-router](../../obsidian/technology-combinations/combinations/08-conductor-adversarial-review-auto-ai-router.md) (сходство 0.47)
+

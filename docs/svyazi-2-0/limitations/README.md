@@ -1,16 +1,5 @@
 # limitations
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 3
 
 ## Содержание
@@ -33,12 +22,12 @@
 - [do-not-glue](do-not-glue.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «limitations». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/svyazi-2-0/limitations/README.md) (сходство 0.68)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.59)
+- [README](../prototype/README.md) (сходство 0.59)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

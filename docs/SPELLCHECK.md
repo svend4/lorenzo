@@ -253,3 +253,13 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [CITATION_INDEX](CITATION_INDEX.md) (сходство 0.24)
+- [CITATION_INDEX](obsidian/CITATION_INDEX.md) (сходство 0.24)
+- [STALENESS](STALENESS.md) (сходство 0.23)
+

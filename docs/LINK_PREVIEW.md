@@ -211,3 +211,13 @@ python scripts/improve_semantic_search.py --query "LINK_PREVIEW"
 - [READING_TIME](READING_TIME.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LINKS](obsidian/LINKS.md) (сходство 0.51)
+- [LINKS](LINKS.md) (сходство 0.48)
+- [CITATION_INDEX](CITATION_INDEX.md) (сходство 0.27)
+

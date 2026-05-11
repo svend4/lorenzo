@@ -103,3 +103,13 @@ _Документ индексирован в поисковой базе реп
 - [02-q2-whom-lorenzo-serves](02-q2-whom-lorenzo-serves.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-q8-other-ai-relationships](../../obsidian/lorenzo-agent/specification/08-q8-other-ai-relationships.md) (сходство 0.98)
+- [14-other-ai-relationships](../../obsidian/lorenzo-agent/14-other-ai-relationships.md) (сходство 0.38)
+- [14-other-ai-relationships](../14-other-ai-relationships.md) (сходство 0.38)
+

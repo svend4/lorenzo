@@ -70,3 +70,13 @@ python scripts/improve_semantic_search.py --query "Что я могу сдела
 - [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-what-i-can-do-now](../../obsidian/nautilus/privacy-federation/04-what-i-can-do-now.md) (сходство 0.99)
+- [04-grant-opportunities](../../obsidian/nautilus/npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.23)
+- [04-grant-opportunities](../npp-humanitarian-extension/04-grant-opportunities.md) (сходство 0.23)
+

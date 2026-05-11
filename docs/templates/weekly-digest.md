@@ -109,3 +109,13 @@ python scripts/improve_template_init.py --template weekly-digest --output docs/n
 - [README](README.md)
 - [retrospective](retrospective.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [weekly-digest](../obsidian/templates/weekly-digest.md) (сходство 0.92)
+- [retrospective](retrospective.md) (сходство 0.52)
+- [retrospective](../obsidian/templates/retrospective.md) (сходство 0.50)
+

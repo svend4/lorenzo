@@ -190,3 +190,13 @@ python scripts/improve_semantic_search.py --query "8 Risks and Mitigations"
 - [10-open-questions](10-open-questions.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-risks-mitigations](../../obsidian/nautilus/representative-agent-layer-en/08-risks-mitigations.md) (сходство 0.99)
+- [177-8-risks-and-mitigations](../../02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.88)
+- [177-8-risks-and-mitigations](../../obsidian/02-anthropic-vacancies/177-8-risks-and-mitigations.md) (сходство 0.87)
+

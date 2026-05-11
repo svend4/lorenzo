@@ -141,3 +141,13 @@ _Сгенерировано: 2026-05-11 04:43_
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_WEEKLY](../DIGEST_WEEKLY.md) (сходство 0.98)
+- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.35)
+- [DIGEST_AUTO](../DIGEST_AUTO.md) (сходство 0.33)
+

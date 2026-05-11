@@ -75,3 +75,13 @@ python scripts/improve_semantic_search.py --query "Итоговые выводы
 - [README](README.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [conclusions](../../obsidian/svyazi-2-0/limitations/conclusions.md) (сходство 0.98)
+- [08-conclusions](../../01-svyazi/08-conclusions.md) (сходство 0.47)
+- [08-conclusions](../../obsidian/01-svyazi/08-conclusions.md) (сходство 0.47)
+

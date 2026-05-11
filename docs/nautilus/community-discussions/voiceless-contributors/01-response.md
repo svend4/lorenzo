@@ -311,3 +311,13 @@ python scripts/improve_semantic_search.py --query "Claude hat geantwortet Это
 - [TABLES](../../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-response](../../../obsidian/nautilus/community-discussions/voiceless-contributors/01-response.md) (сходство 0.99)
+- [01-response-en](../agent-changes-reality/01-response-en.md) (сходство 0.16)
+- [01-response-en](../../../obsidian/nautilus/community-discussions/agent-changes-reality/01-response-en.md) (сходство 0.16)
+

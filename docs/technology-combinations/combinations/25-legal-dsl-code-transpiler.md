@@ -132,3 +132,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 25 Legal
 - [README](README.md)
 - [25-30-extended](../synthesis-tables/25-30-extended.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [25-legal-dsl-code-transpiler](../../obsidian/technology-combinations/combinations/25-legal-dsl-code-transpiler.md) (сходство 0.95)
+- [13-legal-document-transpiler](13-legal-document-transpiler.md) (сходство 0.38)
+- [13-legal-document-transpiler](../../obsidian/technology-combinations/combinations/13-legal-document-transpiler.md) (сходство 0.36)
+

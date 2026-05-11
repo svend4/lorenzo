@@ -128,3 +128,13 @@ python scripts/improve_semantic_search.py --query "AI саммари разде�
 - [[README]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [LLM_SUMMARIES](../LLM_SUMMARIES.md) (сходство 0.98)
+- [WORD_CLOUD](WORD_CLOUD.md) (сходство 0.29)
+- [WORD_CLOUD](../WORD_CLOUD.md) (сходство 0.27)
+

@@ -217,3 +217,13 @@ python scripts/improve_semantic_search.py --query "Du hast gesagt Интерес
 - [09-minuses-and-risks](../../anthropic-vacancies/ai-managed-virtual-company/09-minuses-and-risks.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-innovations-transitions](../../obsidian/nautilus/innovation-transitions/00-question-innovations-transitions.md) (сходство 1.00)
+- [05-polymath-project-tao-comparison](../../anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.41)
+- [05-polymath-project-tao-comparison](../../obsidian/anthropic-vacancies/ai-managed-virtual-company/05-polymath-project-tao-comparison.md) (сходство 0.41)
+

@@ -182,3 +182,13 @@ python scripts/improve_semantic_search.py --query "Существующие пр
 - [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-priblizheniya](../../obsidian/nautilus/infrastructure-layer-b-ru/05-priblizheniya.md) (сходство 0.98)
+- [294-существующие-приближения](../../02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.76)
+- [294-существующие-приближения](../../obsidian/02-anthropic-vacancies/294-существующие-приближения.md) (сходство 0.76)
+

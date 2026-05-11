@@ -68,3 +68,13 @@ _Документ индексирован в поисковой базе и д�
 - [01-three-direct-analogues](../../habr-unique-projects/analogues/01-three-direct-analogues.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-synthesis-hebbian-collaboration-graph](../../obsidian/ai-collaborations/candidates/03-synthesis-hebbian-collaboration-graph.md) (сходство 0.97)
+- [02-related-projects](../../obsidian/habr-unique-projects/analogues/02-related-projects.md) (сходство 0.48)
+- [02-related-projects](../../habr-unique-projects/analogues/02-related-projects.md) (сходство 0.48)
+

@@ -140,3 +140,13 @@
 - [03-chunking](03-chunking.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-overview](../obsidian/processing-guide/01-overview.md) (сходство 0.99)
+- [03-chunking](03-chunking.md) (сходство 0.18)
+- [03-chunking](../obsidian/processing-guide/03-chunking.md) (сходство 0.18)
+

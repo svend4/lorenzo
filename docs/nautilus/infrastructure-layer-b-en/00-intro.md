@@ -86,3 +86,13 @@ _Документ индексирован в поисковой базе реп
 - [TABLES](../../TABLES.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-intro](../../obsidian/nautilus/infrastructure-layer-b-en/00-intro.md) (сходство 0.98)
+- [274-the-missing-middle-layer-between-chat-and-code](../../obsidian/02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.47)
+- [274-the-missing-middle-layer-between-chat-and-code](../../02-anthropic-vacancies/274-the-missing-middle-layer-between-chat-and-code.md) (сходство 0.47)
+

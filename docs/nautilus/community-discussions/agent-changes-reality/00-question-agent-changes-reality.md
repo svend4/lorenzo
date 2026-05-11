@@ -67,3 +67,13 @@ _Документ индексирован в поисковой базе реп
 - [00-question-practical](../practical-observations/00-question-practical.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-question-agent-changes-reality](../../../obsidian/nautilus/community-discussions/agent-changes-reality/00-question-agent-changes-reality.md) (сходство 0.93)
+- [00-question-camel-vs-nautilus](../../../anthropic-vacancies/nautilus-vs-camel/00-question-camel-vs-nautilus.md) (сходство 0.34)
+- [00-question-practical](../practical-observations/00-question-practical.md) (сходство 0.34)
+

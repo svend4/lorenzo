@@ -1,10 +1,4 @@
 # prototype
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 **Файлов:** 3
 
@@ -28,12 +22,12 @@
 - [roadmap](roadmap.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «prototype». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../../obsidian/svyazi-2-0/prototype/README.md) (сходство 0.67)
+- [README](../../technology-combinations/synthesis-tables/README.md) (сходство 0.62)
+- [README](../../nautilus/community-discussions/voiceless-contributors/README.md) (сходство 0.62)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

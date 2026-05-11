@@ -195,3 +195,13 @@ python scripts/improve_semantic_search.py --query "Переприоритиза�
 - [README](README.md)
 - [02-what-info-repos-contain](../nautilus-vs-camel/02-what-info-repos-contain.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [13-reprioritization](../../obsidian/anthropic-vacancies/hermes-comparison/13-reprioritization.md) (сходство 0.99)
+- [08-implications-nautilus-okwf](../../nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) (сходство 0.18)
+- [04-what-to-take-from-info-repos](../nautilus-vs-camel/04-what-to-take-from-info-repos.md) (сходство 0.18)
+

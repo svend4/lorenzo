@@ -62,3 +62,13 @@ python scripts/improve_semantic_search.py --query "Executive summary"
 - [conclusions](../limitations/conclusions.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [executive-summary](../../obsidian/svyazi-2-0/overview/executive-summary.md) (сходство 0.97)
+- [01-executive-summary](../../04-ai-collaborations/01-executive-summary.md) (сходство 0.70)
+- [01-executive-summary](../../obsidian/04-ai-collaborations/01-executive-summary.md) (сходство 0.70)
+

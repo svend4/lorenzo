@@ -66,3 +66,13 @@ _Документ индексирован в поисковой базе реп
 - [README](README.md)
 - _...ещё 6_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [first-contacts](../../obsidian/svyazi-2-0/outreach/first-contacts.md) (сходство 0.97)
+- [message-template](message-template.md) (сходство 0.29)
+- [message-template](../../obsidian/svyazi-2-0/outreach/message-template.md) (сходство 0.28)
+

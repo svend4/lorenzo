@@ -74,3 +74,13 @@ _Документ индексирован в поисковой базе реп
 - [G-federated-local-graph](G-federated-local-graph.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [D-voice-first-mesh](../../obsidian/svyazi-2-0/ensembles/D-voice-first-mesh.md) (сходство 0.98)
+- [04-ensembles-overview](../../01-svyazi/04-ensembles-overview.md) (сходство 0.23)
+- [04-ensembles-overview](../../obsidian/01-svyazi/04-ensembles-overview.md) (сходство 0.23)
+

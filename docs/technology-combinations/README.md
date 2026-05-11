@@ -63,3 +63,13 @@ python scripts/improve_semantic_search.py --query "technology combinations ко�
 - [README](properties/README.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/technology-combinations/README.md) (сходство 0.99)
+- [README](../03-technology-combinations/README.md) (сходство 0.35)
+- [README](properties/README.md) (сходство 0.35)
+

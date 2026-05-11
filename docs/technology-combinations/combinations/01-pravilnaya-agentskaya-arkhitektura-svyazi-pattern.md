@@ -90,3 +90,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 1 Пра
 - [README](README.md)
 - [01-08-summary](../synthesis-tables/01-08-summary.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern](../../obsidian/technology-combinations/combinations/01-pravilnaya-agentskaya-arkhitektura-svyazi-pattern.md) (сходство 0.97)
+- [01-agent-routing](../../03-technology-combinations/01-agent-routing.md) (сходство 0.54)
+- [01-agent-routing](../../obsidian/03-technology-combinations/01-agent-routing.md) (сходство 0.53)
+

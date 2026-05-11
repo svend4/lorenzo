@@ -72,3 +72,13 @@ python scripts/improve_semantic_search.py --query "Пара 1 Workflow авто�
 - [4-skill-catalogs-subagents](../deep-pairs/4-skill-catalogs-subagents.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [1-workflow-llm-mcp](../../obsidian/habr-unique-projects/software-pairs/1-workflow-llm-mcp.md) (сходство 0.96)
+- [6-tmux-village-openclaw](../deep-pairs/6-tmux-village-openclaw.md) (сходство 0.24)
+- [6-tmux-village-openclaw](../../obsidian/habr-unique-projects/deep-pairs/6-tmux-village-openclaw.md) (сходство 0.23)
+

@@ -59,3 +59,13 @@ python scripts/improve_semantic_search.py --query "Technical Program Management 
 - [07-software-engineering-infrastructure](07-software-engineering-infrastructure.md)
 - _...ещё 5_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-technical-program-management](../../obsidian/anthropic-vacancies/clusters/12-technical-program-management.md) (сходство 0.97)
+- [13-communications](13-communications.md) (сходство 0.74)
+- [13-communications](../../obsidian/anthropic-vacancies/clusters/13-communications.md) (сходство 0.72)
+

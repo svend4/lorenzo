@@ -30,3 +30,13 @@
 - [cowork](cowork.md)
 - _...ещё 8_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../../obsidian/autofilled/components/README.md) (сходство 0.85)
+- [README](../README.md) (сходство 0.62)
+- [README](../../glossary/README.md) (сходство 0.50)
+

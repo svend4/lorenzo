@@ -1,21 +1,10 @@
 # letters
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 9
 
 ## Содержание
 
-- [QA.md](QA.md) — _Автоматически сгенерировано по 8 файлам раздела._
+- [QA.md](QA.md) — > [!NOTE]
 - [anastasiyaw.md](anastasiyaw.md) — <!-- toc-auto -->
 - [antipozitive.md](antipozitive.md) — <!-- toc-auto -->
 - [kksudo.md](kksudo.md) — <!-- toc-auto -->
@@ -25,12 +14,28 @@
 - [vitalysemenov.md](vitalysemenov.md) — <!-- toc-auto -->
 - [zodigancode.md](zodigancode.md) — <!-- toc-auto -->
 
+<!-- backlinks -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «letters». Формируется автоматически.
+---
+
+**Кто ссылается на этот документ (11):**
+- [DIGEST_AUTO](../DIGEST_AUTO.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [anastasiyaw](anastasiyaw.md)
+- [antipozitive](antipozitive.md)
+- [kksudo](kksudo.md)
+- [nlaik](nlaik.md)
+- [spbmolot](spbmolot.md)
+- _...ещё 3_
 
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/letters/README.md) (сходство 0.54)
+- [README](../contacts/README.md) (сходство 0.51)
+- [README](../obsidian/contacts/README.md) (сходство 0.49)
+

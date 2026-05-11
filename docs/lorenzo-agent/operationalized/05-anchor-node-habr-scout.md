@@ -191,3 +191,13 @@ python scripts/improve_semantic_search.py --query "Anchor узел Habr Scout к
 - [04-recommendations](04-recommendations.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-anchor-node-habr-scout](../../obsidian/lorenzo-agent/operationalized/05-anchor-node-habr-scout.md) (сходство 0.99)
+- [04-recommendations](04-recommendations.md) (сходство 0.59)
+- [04-recommendations](../../obsidian/lorenzo-agent/operationalized/04-recommendations.md) (сходство 0.58)
+

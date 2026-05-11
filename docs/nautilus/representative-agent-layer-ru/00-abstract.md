@@ -76,3 +76,13 @@ python scripts/improve_semantic_search.py --query "Содержание"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract](../../obsidian/nautilus/representative-agent-layer-ru/00-abstract.md) (сходство 0.93)
+- [15-appendix-c-history](../review-methodology/15-appendix-c-history.md) (сходство 0.58)
+- [00-question-habr-link](../../obsidian/nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md) (сходство 0.55)
+

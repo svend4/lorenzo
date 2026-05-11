@@ -181,3 +181,13 @@ python scripts/improve_semantic_search.py --query "1 Открытие Cowork и 
 - [02-chto-cowork-obespechivaet](02-chto-cowork-obespechivaet.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-otkrytie-cowork](../../obsidian/nautilus/ingit-cowork-ru/01-otkrytie-cowork.md) (сходство 0.98)
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](../../02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.82)
+- [327-1-открытие-cowork-и-почему-это-меняет-всё](../../obsidian/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) (сходство 0.81)
+

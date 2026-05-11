@@ -78,3 +78,13 @@
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [FOOTNOTES](obsidian/FOOTNOTES.md) (сходство 0.97)
+- [GRAPH](GRAPH.md) (сходство 0.25)
+- [GRAPH](obsidian/GRAPH.md) (сходство 0.24)
+

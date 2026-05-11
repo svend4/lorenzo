@@ -124,3 +124,13 @@ python scripts/improve_semantic_search.py --query "Рекурсивное про
 - [11-zaklyuchenie](11-zaklyuchenie.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [07-rekursivnoe-prozrenie](../../obsidian/nautilus/infrastructure-layer-b-ru/07-rekursivnoe-prozrenie.md) (сходство 0.98)
+- [296-рекурсивное-прозрение](../../02-anthropic-vacancies/296-рекурсивное-прозрение.md) (сходство 0.76)
+- [296-рекурсивное-прозрение](../../obsidian/02-anthropic-vacancies/296-рекурсивное-прозрение.md) (сходство 0.75)
+

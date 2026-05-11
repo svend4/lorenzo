@@ -213,3 +213,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 19 Multi
 - [24-mega-integration-full-stack](24-mega-integration-full-stack.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [19-multi-agent-observability-platform](../../obsidian/technology-combinations/combinations/19-multi-agent-observability-platform.md) (сходство 0.99)
+- [24-mega-integration-full-stack](24-mega-integration-full-stack.md) (сходство 0.44)
+- [24-mega-integration-full-stack](../../obsidian/technology-combinations/combinations/24-mega-integration-full-stack.md) (сходство 0.43)
+

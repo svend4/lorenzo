@@ -102,3 +102,13 @@ python scripts/improve_template_init.py --template kpi-snapshot --output docs/ne
 - [README](README.md)
 - [retrospective](retrospective.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [kpi-snapshot](../obsidian/templates/kpi-snapshot.md) (сходство 0.94)
+- [retrospective](retrospective.md) (сходство 0.52)
+- [retrospective](../obsidian/templates/retrospective.md) (сходство 0.51)
+

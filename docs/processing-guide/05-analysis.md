@@ -309,3 +309,13 @@ python scripts/improve_version_diff.py --last 10
 - [10-future](10-future.md)
 - [07-llm](07-llm.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-analysis](../obsidian/processing-guide/05-analysis.md) (сходство 0.99)
+- [PROCESSING_GUIDE](../obsidian/processing-guide/PROCESSING_GUIDE.md) (сходство 0.21)
+- [PROCESSING_GUIDE](PROCESSING_GUIDE.md) (сходство 0.21)
+

@@ -86,3 +86,13 @@ python scripts/improve_semantic_search.py --query "Более сильные п�
 - [02-final-ranking](02-final-ranking.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-stronger-paths-outside-anthropic](../../../obsidian/anthropic-vacancies/profile-mapping/03-integral-final/04-stronger-paths-outside-anthropic.md) (сходство 0.98)
+- [04-non-anthropic-paths](../02-reanalysis/04-non-anthropic-paths.md) (сходство 0.22)
+- [03-revised-anthropic-mapping](../02-reanalysis/03-revised-anthropic-mapping.md) (сходство 0.22)
+

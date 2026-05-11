@@ -409,3 +409,13 @@ python scripts/improve_index_update.py --incremental  # обновить инд�
 ---
 
 _Файл: `scripts/gateway.py` · Версия: 1.0.0 · Дата: 2026-05-11_
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [GATEWAY](obsidian/GATEWAY.md) (сходство 0.99)
+- [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) (сходство 0.16)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md) (сходство 0.15)
+

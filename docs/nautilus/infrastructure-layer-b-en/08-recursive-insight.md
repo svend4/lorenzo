@@ -113,3 +113,13 @@ python scripts/improve_semantic_search.py --query "The Recursive Insight"
 - [12-closing](12-closing.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [08-recursive-insight](../../obsidian/nautilus/infrastructure-layer-b-en/08-recursive-insight.md) (сходство 0.98)
+- [281-the-recursive-insight](../../02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.71)
+- [281-the-recursive-insight](../../obsidian/02-anthropic-vacancies/281-the-recursive-insight.md) (сходство 0.71)
+

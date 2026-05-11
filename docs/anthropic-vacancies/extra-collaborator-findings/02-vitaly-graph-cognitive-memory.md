@@ -95,3 +95,13 @@ python scripts/improve_semantic_search.py --query "Графовая когнит
 - [07-key-observation](07-key-observation.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-vitaly-graph-cognitive-memory](../../obsidian/anthropic-vacancies/extra-collaborator-findings/02-vitaly-graph-cognitive-memory.md) (сходство 0.99)
+- [07-key-observation](../../obsidian/anthropic-vacancies/extra-collaborator-findings/07-key-observation.md) (сходство 0.20)
+- [01-coally](../../obsidian/anthropic-vacancies/extra-collaborator-findings/01-coally.md) (сходство 0.20)
+

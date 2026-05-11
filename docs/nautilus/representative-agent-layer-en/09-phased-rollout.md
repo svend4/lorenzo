@@ -182,3 +182,13 @@ python scripts/improve_semantic_search.py --query "9 Phased Rollout Strategy"
 - [11-call-for-collaboration](11-call-for-collaboration.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-phased-rollout](../../obsidian/nautilus/representative-agent-layer-en/09-phased-rollout.md) (сходство 0.97)
+- [178-9-phased-rollout-strategy](../../02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.85)
+- [178-9-phased-rollout-strategy](../../obsidian/02-anthropic-vacancies/178-9-phased-rollout-strategy.md) (сходство 0.84)
+

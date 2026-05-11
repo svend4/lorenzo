@@ -68,3 +68,13 @@ python scripts/improve_semantic_search.py --query "Раковина наутил
 - [02-nautilus-A-pro2-meta](02-nautilus-A-pro2-meta.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-shell-metaphor-two-projections](../../obsidian/anthropic-vacancies/nautilus-pro2-analysis/01-shell-metaphor-two-projections.md) (сходство 0.98)
+- [15-glossary](../../obsidian/nautilus/npp-v1-0/15-glossary.md) (сходство 0.26)
+- [15-glossary](../../nautilus/npp-v1-0/15-glossary.md) (сходство 0.26)
+

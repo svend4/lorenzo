@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Комбинация 15 Self 
 - [15-19-extended](../synthesis-tables/15-19-extended.md)
 
 _Материал доступен для семантического поиска, BM25 и навигации по графу._ _Для поиска доступен._
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [15-self-consolidating-legal-corpus](../../obsidian/technology-combinations/combinations/15-self-consolidating-legal-corpus.md) (сходство 0.96)
+- [10-legal-document-intelligence-pipeline](10-legal-document-intelligence-pipeline.md) (сходство 0.33)
+- [07-crawl4ai-docling-yodoca-consolidator](07-crawl4ai-docling-yodoca-consolidator.md) (сходство 0.32)
+

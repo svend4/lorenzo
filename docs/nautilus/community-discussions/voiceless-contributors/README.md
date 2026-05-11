@@ -1,16 +1,5 @@
 # voiceless-contributors
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
-
 **Файлов:** 2
 
 ## Содержание
@@ -31,12 +20,12 @@
 - [01-response](01-response.md)
 
 
+<!-- similar-docs -->
 
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «voiceless-contributors». Формируется автоматически.
+---
 
+**Похожие документы:**
+- [README](../practical-observations/README.md) (сходство 0.79)
+- [README](../../../lorenzo-agent/scenarios/README.md) (сходство 0.79)
+- [README](../habr-article-2-reaction/README.md) (сходство 0.75)
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

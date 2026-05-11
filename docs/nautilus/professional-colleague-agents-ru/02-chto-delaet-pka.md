@@ -218,3 +218,13 @@ python scripts/improve_semantic_search.py --query "2 Что делает аге�
 - [09-svyaz-s-drugimi](09-svyaz-s-drugimi.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-chto-delaet-pka](../../obsidian/nautilus/professional-colleague-agents-ru/02-chto-delaet-pka.md) (сходство 0.99)
+- [233-2-что-делает-агента-профессиональным-коллегой](../../02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md) (сходство 0.83)
+- [233-2-что-делает-агента-профессиональным-коллегой](../../obsidian/02-anthropic-vacancies/233-2-что-делает-агента-профессиональным-коллегой.md) (сходство 0.82)
+

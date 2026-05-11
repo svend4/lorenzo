@@ -165,3 +165,13 @@ python scripts/improve_vocabulary.py
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [VOCABULARY](../VOCABULARY.md) (сходство 0.98)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md) (сходство 0.25)
+- [COMPLEXITY](COMPLEXITY.md) (сходство 0.24)
+

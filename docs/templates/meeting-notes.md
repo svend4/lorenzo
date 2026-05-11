@@ -109,3 +109,13 @@ python scripts/improve_template_init.py --template meeting-notes --output docs/n
 - [README](README.md)
 - [weekly-digest](weekly-digest.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [meeting-notes](../obsidian/templates/meeting-notes.md) (сходство 0.93)
+- [retrospective](../obsidian/templates/retrospective.md) (сходство 0.53)
+- [retrospective](retrospective.md) (сходство 0.53)
+

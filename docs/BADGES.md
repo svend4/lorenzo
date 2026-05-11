@@ -49,3 +49,13 @@ _Обновлено: 2026-05-11_
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Status Badges». Формируется автоматически.
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [BADGES](obsidian/BADGES.md) (сходство 0.95)
+- [README](badges/README.md) (сходство 0.44)
+- [README](obsidian/badges/README.md) (сходство 0.43)
+

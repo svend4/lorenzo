@@ -160,3 +160,13 @@ python scripts/improve_semantic_search.py --query "2 Исторические п
 - [01-sindrom-zolushki](01-sindrom-zolushki.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-istoricheskie-pretsedenty](../../obsidian/nautilus/representative-agent-layer-ru/02-istoricheskie-pretsedenty.md) (сходство 0.99)
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](../../02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) (сходство 0.92)
+- [192-2-исторические-прецеденты-агенты-как-цивилизационн](../../obsidian/02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md) (сходство 0.92)
+

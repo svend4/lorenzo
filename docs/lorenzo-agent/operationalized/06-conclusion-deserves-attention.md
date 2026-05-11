@@ -173,3 +173,13 @@ python scripts/improve_semantic_search.py --query "Вывод документ d
 - [00-overview-grandchild-combination](00-overview-grandchild-combination.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-conclusion-deserves-attention](../../obsidian/lorenzo-agent/operationalized/06-conclusion-deserves-attention.md) (сходство 0.99)
+- [01-pluses-1-7](01-pluses-1-7.md) (сходство 0.22)
+- [01-pluses-1-7](../../obsidian/lorenzo-agent/operationalized/01-pluses-1-7.md) (сходство 0.22)
+

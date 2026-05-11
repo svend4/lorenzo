@@ -86,3 +86,13 @@ python scripts/improve_semantic_search.py --query "Содержание"
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-abstract](../../obsidian/nautilus/professional-colleague-agents-ru/00-abstract.md) (сходство 0.98)
+- [00-abstract](../../obsidian/nautilus/representative-agent-layer-ru/00-abstract.md) (сходство 0.48)
+- [00-abstract](../representative-agent-layer-ru/00-abstract.md) (сходство 0.48)
+

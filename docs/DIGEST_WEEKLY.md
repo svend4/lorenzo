@@ -134,3 +134,13 @@ _Сгенерировано: 2026-05-11 04:43_
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.98)
+- [DIGEST_AUTO](DIGEST_AUTO.md) (сходство 0.34)
+- [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) (сходство 0.33)
+

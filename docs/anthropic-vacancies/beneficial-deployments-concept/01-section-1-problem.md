@@ -79,3 +79,13 @@ python scripts/improve_semantic_search.py --query "Section 1 Problem statement C
 - [05-section-5-role-of-anthropic](05-section-5-role-of-anthropic.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-section-1-problem](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/01-section-1-problem.md) (сходство 0.98)
+- [02-section-2-beneficial-dimension](02-section-2-beneficial-dimension.md) (сходство 0.54)
+- [02-section-2-beneficial-dimension](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/02-section-2-beneficial-dimension.md) (сходство 0.53)
+

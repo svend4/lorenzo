@@ -85,3 +85,13 @@ python scripts/improve_semantic_search.py --query "nautilus Nautilus Portal Prot
 - [2-tsu-mome](../habr-unique-projects/hardware-pairs/2-tsu-mome.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [README](../obsidian/nautilus/README.md) (сходство 0.99)
+- [00-intro](infrastructure-layer-b-en/00-intro.md) (сходство 0.17)
+- [00-intro](../obsidian/nautilus/infrastructure-layer-b-en/00-intro.md) (сходство 0.17)
+

@@ -63,3 +63,13 @@ _Документ доступен для семантического поис�
 - [README](README.md)
 - [projects-map](projects-map.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [methodology](../../obsidian/svyazi-2-0/overview/methodology.md) (сходство 0.96)
+- [02-методика-и-рамка-отбора](../../04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.74)
+- [02-методика-и-рамка-отбора](../../obsidian/04-ai-collaborations/02-методика-и-рамка-отбора.md) (сходство 0.73)
+

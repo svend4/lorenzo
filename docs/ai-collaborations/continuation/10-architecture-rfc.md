@@ -84,3 +84,13 @@ python scripts/improve_semantic_search.py --query "Следующий артеф
 - [05-roadmap-6-12-months](05-roadmap-6-12-months.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-architecture-rfc](../../obsidian/ai-collaborations/continuation/10-architecture-rfc.md) (сходство 0.98)
+- [13-communications](../../anthropic-vacancies/clusters/13-communications.md) (сходство 0.36)
+- [03-section-3-solution-architecture](../../anthropic-vacancies/beneficial-deployments-concept/03-section-3-solution-architecture.md) (сходство 0.36)
+

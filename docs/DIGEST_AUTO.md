@@ -168,3 +168,13 @@ python scripts/improve_digest_auto.py
 - [01-concept](meta-scripting/01-concept.md)
 - _...ещё 1_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) (сходство 0.96)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md) (сходство 0.34)
+- [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) (сходство 0.33)
+

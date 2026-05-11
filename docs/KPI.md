@@ -1,4 +1,21 @@
 # Числовые KPI и метрики
+
+<!-- toc -->
+## Содержание
+
+- [Количество (547)](#количество-547)
+- [Проценты (385)](#проценты-385)
+- [Время (552)](#время-552)
+- [Стоимость (963)](#стоимость-963)
+- [Размер (91)](#размер-91)
+- [Версия (790)](#версия-790)
+- [Рейтинг (106)](#рейтинг-106)
+- [Этап (218)](#этап-218)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
 <!-- tags: kpi, docs -->
 
 
@@ -217,3 +234,27 @@ python scripts/improve_kpi.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [KPI](obsidian/KPI.md) (сходство 1.00)
+- [TIMELINE](obsidian/TIMELINE.md) (сходство 0.19)
+- [TIMELINE](TIMELINE.md) (сходство 0.18)
+

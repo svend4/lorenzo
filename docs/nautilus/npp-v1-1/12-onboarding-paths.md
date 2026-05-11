@@ -163,3 +163,13 @@ python scan_repo.py owner/repo-name
 - [README](README.md)
 - [reading-paths](../../reading-paths.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [12-onboarding-paths](../../obsidian/nautilus/npp-v1-1/12-onboarding-paths.md) (сходство 0.99)
+- [87-12-onboarding-paths-normative](../../obsidian/02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.85)
+- [87-12-onboarding-paths-normative](../../02-anthropic-vacancies/87-12-onboarding-paths-normative.md) (сходство 0.84)
+

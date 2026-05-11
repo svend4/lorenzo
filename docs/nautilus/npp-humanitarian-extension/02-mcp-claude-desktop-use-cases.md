@@ -75,3 +75,13 @@ _Документ индексирован в поисковой базе реп
 - [SEARCH](../../SEARCH.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-mcp-claude-desktop-use-cases](../../obsidian/nautilus/npp-humanitarian-extension/02-mcp-claude-desktop-use-cases.md) (сходство 0.96)
+- [11-relevance-ranking](../npp-v1-1/11-relevance-ranking.md) (сходство 0.27)
+- [11-relevance-ranking](../../obsidian/nautilus/npp-v1-1/11-relevance-ranking.md) (сходство 0.27)
+

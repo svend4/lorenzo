@@ -172,3 +172,13 @@ python scripts/improve_semantic_search.py --query "Конкретный случ
 - [08-promyshlennost-postroit](08-promyshlennost-postroit.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [06-konkretnyy-sluchay](../../obsidian/nautilus/infrastructure-layer-b-ru/06-konkretnyy-sluchay.md) (сходство 0.99)
+- [295-конкретный-случай-перед-нами](../../02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.84)
+- [295-конкретный-случай-перед-нами](../../obsidian/02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) (сходство 0.83)
+

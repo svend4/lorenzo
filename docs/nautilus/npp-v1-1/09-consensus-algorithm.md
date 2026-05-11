@@ -153,3 +153,13 @@ v2.0 MAY использовать:
 - [11-relevance-ranking](11-relevance-ranking.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-consensus-algorithm](../../obsidian/nautilus/npp-v1-1/09-consensus-algorithm.md) (сходство 0.97)
+- [84-9-consensus-algorithm](../../02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.73)
+- [84-9-consensus-algorithm](../../obsidian/02-anthropic-vacancies/84-9-consensus-algorithm.md) (сходство 0.72)
+

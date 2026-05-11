@@ -96,3 +96,13 @@
 - [reading-paths](../../reading-paths.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [04-event-sourcing-consensus](../../obsidian/technology-combinations/mega-stacks/04-event-sourcing-consensus.md) (сходство 0.93)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.41)
+- [35-mega-stack-4-0-with-event-sourcing-consensus](../../obsidian/technology-combinations/combinations/35-mega-stack-4-0-with-event-sourcing-consensus.md) (сходство 0.41)
+

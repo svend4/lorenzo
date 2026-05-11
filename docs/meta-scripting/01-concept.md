@@ -162,3 +162,13 @@ CLAUDE.md        →  описания скриптов   →  несоотве�
 - [03-catalog](03-catalog.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [01-concept](../obsidian/meta-scripting/01-concept.md) (сходство 0.96)
+- [04-enrichment](04-enrichment.md) (сходство 0.20)
+- [04-enrichment](../obsidian/meta-scripting/04-enrichment.md) (сходство 0.18)
+

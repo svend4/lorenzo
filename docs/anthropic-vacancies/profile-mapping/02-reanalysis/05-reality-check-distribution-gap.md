@@ -71,3 +71,13 @@ _Документ индексирован в базе знаний репози
 - [03-revised-anthropic-mapping](03-revised-anthropic-mapping.md)
 - _...ещё 3_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [05-reality-check-distribution-gap](../../../obsidian/anthropic-vacancies/profile-mapping/02-reanalysis/05-reality-check-distribution-gap.md) (сходство 0.98)
+- [08-practical-ranking](../01-initial-analysis/08-practical-ranking.md) (сходство 0.27)
+- [08-practical-ranking](../../../obsidian/anthropic-vacancies/profile-mapping/01-initial-analysis/08-practical-ranking.md) (сходство 0.27)
+

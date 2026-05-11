@@ -100,3 +100,13 @@ python scripts/improve_semantic_search.py --query "Profession specific workflows
 - [09-federated-platform](09-federated-platform.md)
 - _...ещё 2_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [10-profession-specific-workflows](../../obsidian/habr-unique-projects/extra-examples/10-profession-specific-workflows.md) (сходство 0.97)
+- [09-federated-platform](09-federated-platform.md) (сходство 0.29)
+- [09-federated-platform](../../obsidian/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.29)
+

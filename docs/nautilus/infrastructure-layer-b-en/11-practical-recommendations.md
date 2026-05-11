@@ -104,3 +104,13 @@ python scripts/improve_semantic_search.py --query "Practical Recommendations for
 - [README](README.md)
 - [07-practical-first-steps](../ingit-cowork-en/07-practical-first-steps.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-practical-recommendations](../../obsidian/nautilus/infrastructure-layer-b-en/11-practical-recommendations.md) (сходство 0.97)
+- [284-practical-recommendations-for-the-current-project](../../obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.71)
+- [284-practical-recommendations-for-the-current-project](../../02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) (сходство 0.70)
+

@@ -67,3 +67,13 @@ python scripts/improve_semantic_search.py --query "PDA бот LLM как пер�
 - [concepts](../../glossary/concepts.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [03-pda-llm-as-periphery](../../obsidian/habr-unique-projects/key-findings/03-pda-llm-as-periphery.md) (сходство 0.95)
+- [8-self-aware-mcp-specs](../deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.24)
+- [8-self-aware-mcp-specs](../../obsidian/habr-unique-projects/deep-pairs/8-self-aware-mcp-specs.md) (сходство 0.23)
+

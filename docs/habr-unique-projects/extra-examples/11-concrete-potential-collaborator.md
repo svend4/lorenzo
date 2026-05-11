@@ -89,3 +89,13 @@ python scripts/improve_semantic_search.py --query "Конкретный поте
 - [12-concrete-next-step](12-concrete-next-step.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [11-concrete-potential-collaborator](../../obsidian/habr-unique-projects/extra-examples/11-concrete-potential-collaborator.md) (сходство 0.95)
+- [09-federated-platform](09-federated-platform.md) (сходство 0.27)
+- [09-federated-platform](../../obsidian/habr-unique-projects/extra-examples/09-federated-platform.md) (сходство 0.27)
+

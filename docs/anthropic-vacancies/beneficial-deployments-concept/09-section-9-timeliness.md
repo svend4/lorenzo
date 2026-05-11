@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Section 9 Why this is timely"
 - [03-section-3-solution-architecture](03-section-3-solution-architecture.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [09-section-9-timeliness](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) (сходство 0.98)
+- [07-section-7-success-metrics](07-section-7-success-metrics.md) (сходство 0.55)
+- [07-section-7-success-metrics](../../obsidian/anthropic-vacancies/beneficial-deployments-concept/07-section-7-success-metrics.md) (сходство 0.54)
+

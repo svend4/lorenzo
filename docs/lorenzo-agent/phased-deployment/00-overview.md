@@ -77,3 +77,13 @@ python scripts/improve_semantic_search.py --query "Поэтапная струк
 - [07-progression-logic](07-progression-logic.md)
 - [README](README.md)
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [00-overview](../../obsidian/lorenzo-agent/phased-deployment/00-overview.md) (сходство 0.98)
+- [06-level-5-full-network](06-level-5-full-network.md) (сходство 0.43)
+- [06-level-5-full-network](../../obsidian/lorenzo-agent/phased-deployment/06-level-5-full-network.md) (сходство 0.43)
+

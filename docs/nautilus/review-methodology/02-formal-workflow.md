@@ -125,3 +125,13 @@ merge-conflict error. С заголовком — понимает осмысл�
 - [09-limitations-open-questions](09-limitations-open-questions.md)
 - _...ещё 4_
 
+
+<!-- similar-docs -->
+
+---
+
+**Похожие документы:**
+- [02-formal-workflow](../../obsidian/nautilus/review-methodology/02-formal-workflow.md) (сходство 0.96)
+- [108-2-формальный-workflow](../../obsidian/02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.73)
+- [108-2-формальный-workflow](../../02-anthropic-vacancies/108-2-формальный-workflow.md) (сходство 0.73)
+
