@@ -127,3 +127,39 @@ def test_get_summary_removes_markdown_links():
     text = "See [AgentFS](docs/agentfs.md) for knowledge storage."
     result = mod.get_summary(text)
     assert "docs/agentfs.md" not in result
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_narrative_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [])
+    mod.main()
+    assert (tmp_path / "NARRATIVE.md").exists()
+
+
+def test_main_narrative_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [])
+    mod.main()
+    text = (tmp_path / "NARRATIVE.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [])
+    mod.main()
+    assert (tmp_path / "NARRATIVE.md").exists()
+
+
+def test_main_narrative_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [])
+    mod.main()
+    text = (tmp_path / "NARRATIVE.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

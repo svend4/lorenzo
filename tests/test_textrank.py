@@ -225,3 +225,46 @@ def test_summarize_file_missing_file_returns_none(tmp_path, monkeypatch):
     f = tmp_path / "nonexistent.md"
     result = mod.summarize_file(f)
     assert result is None
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_summaries_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    mod.main()
+    assert (tmp_path / "SUMMARIES.md").exists()
+
+
+def test_main_summaries_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    (tmp_path / "doc.md").write_text(
+        "# AgentFS\n\nContent about knowledge storage system.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "SUMMARIES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    mod.main()
+    assert (tmp_path / "SUMMARIES.md").exists()
+
+
+def test_main_summaries_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    mod.main()
+    text = (tmp_path / "SUMMARIES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

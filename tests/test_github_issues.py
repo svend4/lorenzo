@@ -100,3 +100,47 @@ def test_extract_issues_skips_short_titles(tmp_path, monkeypatch):
     result = mod._extract_issues(f)
     titles = [r["title"] for r in result]
     assert not any(t == "Too short" for t in titles)
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_github_issues_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "CREATE", False)
+    mod.main()
+    assert (tmp_path / "GITHUB_ISSUES.md").exists()
+
+
+def test_main_github_issues_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "CREATE", False)
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n- [ ] Implement BM25 search for the knowledge base\n",
+        encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "GITHUB_ISSUES.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "CREATE", False)
+    mod.main()
+    assert (tmp_path / "GITHUB_ISSUES.md").exists()
+
+
+def test_main_github_issues_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "CREATE", False)
+    mod.main()
+    text = (tmp_path / "GITHUB_ISSUES.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

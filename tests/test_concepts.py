@@ -130,3 +130,38 @@ def test_extract_definitions_deduplicates_terms(tmp_path, monkeypatch):
     # Duplicates should be removed (same term key)
     agent_fs_count = sum(1 for t in terms if "AgentFS" in t)
     assert agent_fs_count <= 1
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_concepts_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CONCEPTS.md").exists()
+
+
+def test_main_concepts_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text(
+        "# AgentFS\n\nAgentFS — это файловая система для хранения знаний агента.", encoding="utf-8"
+    )
+    mod.main()
+    text = (tmp_path / "CONCEPTS.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_empty_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    assert (tmp_path / "CONCEPTS.md").exists()
+
+
+def test_main_concepts_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.main()
+    text = (tmp_path / "CONCEPTS.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")

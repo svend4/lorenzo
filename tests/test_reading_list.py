@@ -120,3 +120,45 @@ def test_search_returns_scored_results(tmp_path, monkeypatch):
     for r in result:
         assert "score" in r
         assert "read_min" in r
+
+
+# ── main ──────────────────────────────────────────────────────────────────────
+
+def test_main_creates_reading_list_md(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "READING_LIST.md").exists()
+
+
+def test_main_reading_list_has_content(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "READING_LIST.md").read_text(encoding="utf-8")
+    assert "# " in text
+
+
+def test_main_dry_run_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    mod.main()  # dry-run → returns early, must not raise
+
+
+def test_main_reading_list_starts_with_heading(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    (tmp_path / "doc.md").write_text("# AgentFS\n\nContent.", encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "READING_LIST.md").read_text(encoding="utf-8")
+    assert text.strip().startswith("#")
