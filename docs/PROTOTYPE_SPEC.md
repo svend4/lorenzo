@@ -6,7 +6,8 @@
 <!-- alert-added -->
 
 <!-- summary -->
-> > **Версия:** 1.0 · **Дата:** 2026-05-10 · **Статус:** Draft
+Спецификация прототипа Svyazi 2.0 — Knowledge OS. Компоненты: CardIndex (Card Envelope sha256 card_id payload), AgentFS, LiteParse (Evidence Envelope). Итерации: Retrieval Loop (BM25 + TF-IDF гибридный поиск passages hybrid search), Consolidation (Review Queue карточки proposal approved decay raw состояние), Gateway (OpenAI FastAPI function calling write-back обогащение), ANN HNSW hnswlib двухстадийный векторный поиск индекс 37× speedup. MCP инструменты stdio bm25_search карточка сервер search mcp_server.py. Успешные метрики §8: Precision Hit Rate@10 ≥ 0.70. Svyazi архитектура три слоя CardIndex knowledge AgentFS. Anthropic.
+**Версия:** 1.0 · **Дата:** 2026-05-10 · **Статус:** Draft
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, LiteParse, Legal RAG
 
 ---

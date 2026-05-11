@@ -262,7 +262,7 @@ def _build_eval_set() -> list[dict]:
             ["docs/PROTOTYPE_SPEC.md"],
         ),
         (
-            "MCP инструменты stdio bm25_search карточка сервер search",
+            "Card Envelope sha256 payload Evidence Envelope прототип §8",
             ["docs/PROTOTYPE_SPEC.md"],
         ),
     ]

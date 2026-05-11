@@ -1,5 +1,9 @@
 # Вакансии Anthropic — Анализ по кластерам
 
+<!-- summary -->
+Анализ 436 вакансий Anthropic по 12 кластерам. Карьерное картирование для профиля svend4: ML research, GTM, safety, product, inference infrastructure. Проект Nautilus — career roadmap, portal protocol, рекомендации. Кластеры: Research/ML, Trust & Safety, Product Engineering, Inference Infrastructure, Legal, HR.
+<!-- tags: anthropic, vacancies, career, ml, research, svend4, nautilus -->
+
 **Файлов:** 356
 
 ## Содержание
