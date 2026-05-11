@@ -1,0 +1,129 @@
+"""
+Тесты для scripts/improve_narrative.py.
+
+Покрытие:
+  - extract_narrative_points() — извлечение нарративных точек
+  - get_summary()              — краткое резюме текста
+"""
+
+import importlib
+import sys
+from pathlib import Path
+
+import pytest
+
+ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+mod = importlib.import_module("improve_narrative")
+
+
+# ── extract_narrative_points ──────────────────────────────────────────────────
+
+def test_extract_narrative_points_returns_list():
+    result = mod.extract_narrative_points("plain text without patterns")
+    assert isinstance(result, list)
+
+
+def test_extract_narrative_points_empty():
+    result = mod.extract_narrative_points("")
+    assert result == []
+
+
+def test_extract_narrative_points_finds_mvp():
+    result = mod.extract_narrative_points(
+        "mvp: создать поисковый движок на BM25 с поддержкой гибридного поиска"
+    )
+    assert len(result) > 0
+
+
+def test_extract_narrative_points_result_is_tuples():
+    result = mod.extract_narrative_points(
+        "mvp: создать поисковый движок на BM25 с поддержкой гибридного поиска"
+    )
+    for item in result:
+        assert isinstance(item, tuple)
+        assert len(item) == 2
+
+
+def test_extract_narrative_points_label_and_text():
+    result = mod.extract_narrative_points(
+        "mvp: создать поисковый движок на BM25 с поддержкой гибридного поиска"
+    )
+    for label, text in result:
+        assert isinstance(label, str)
+        assert isinstance(text, str)
+
+
+def test_extract_narrative_points_max_5():
+    text = " ".join([
+        "mvp: создать поисковый движок на BM25 с поддержкой гибридного поиска документов",
+        "цель: построить Knowledge OS для сообщества разработчиков Svyazi проекта",
+        "главный риск: потеря данных при обновлении индексного файла системы поиска",
+        "mvp: реализовать гибридный поиск с BM25 и TF-IDF для базы знаний документов",
+        "цель: организовать эффективный поиск по документам базы знаний проекта",
+        "написать команде разработчиков AgentFS о возможной интеграции с системой",
+    ])
+    result = mod.extract_narrative_points(text)
+    assert len(result) <= 5
+
+
+def test_extract_narrative_points_strips_code_blocks():
+    text = "```\nmvp: создать поисковый движок на BM25\n```\nPlain text."
+    result = mod.extract_narrative_points(text)
+    # Code block content should be stripped
+    texts = [text for _, text in result]
+    assert all("BM25" not in t for t in texts) or len(result) == 0
+
+
+def test_extract_narrative_points_finds_goal():
+    result = mod.extract_narrative_points(
+        "цель: построить локальную Knowledge OS для сообщества разработчиков проекта Svyazi"
+    )
+    labels = [label for label, _ in result]
+    if result:
+        assert "Цель" in " ".join(labels)
+
+
+# ── get_summary ───────────────────────────────────────────────────────────────
+
+def test_get_summary_returns_string():
+    result = mod.get_summary("# Title\n\nSome content here.")
+    assert isinstance(result, str)
+
+
+def test_get_summary_empty():
+    result = mod.get_summary("")
+    assert isinstance(result, str)
+
+
+def test_get_summary_removes_headings():
+    result = mod.get_summary("# Title\n## Section\n\nContent here.")
+    assert "# Title" not in result
+    assert "## Section" not in result
+
+
+def test_get_summary_truncates():
+    long_text = "word " * 200
+    result = mod.get_summary(long_text, max_words=10)
+    word_count = len(result.replace("…", "").split())
+    assert word_count <= 11
+
+
+def test_get_summary_adds_ellipsis_if_truncated():
+    long_text = "word " * 200
+    result = mod.get_summary(long_text, max_words=10)
+    if len(long_text.split()) > 10:
+        assert "…" in result
+
+
+def test_get_summary_strips_code_blocks():
+    text = "```python\ncode here\n```\nReal content."
+    result = mod.get_summary(text)
+    assert "code here" not in result
+
+
+def test_get_summary_removes_markdown_links():
+    text = "See [AgentFS](docs/agentfs.md) for knowledge storage."
+    result = mod.get_summary(text)
+    assert "docs/agentfs.md" not in result
