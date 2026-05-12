@@ -1,5 +1,10 @@
 # Индекс «Смотрите также»
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > **Файлов с блоком See Also:** 1071
 **Проекты:** Svyazi
@@ -42,3 +47,19 @@
 - [104-appendix-c-references](02-anthropic-vacancies/104-appendix-c-references.md) → [122-глоссарий](02-anthropic-vacancies/122-глоссарий.md), [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md), [103-appendix-b-change-log](02-anthropic-vacancies/103-appendix-b-change-log.md), [64-for-the-curious-philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md)
 - [105-review-methodology-md](02-anthropic-vacancies/105-review-methodology-md.md) → [229-профессиональные-коллеги-агенты](02-anthropic-vacancies/229-профессиональные-коллеги-агенты.md), [289-инфраструктура-для-ai-совместной-интеллектуальной-](02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md), [125-readme-mcp-md-инструкция-по-установке](02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md), [03-portal-protocol-md](02-anthropic-vacancies/03-portal-protocol-md.md)
 - [106-tl-dr](02-anthropic-vacancies/106-tl-dr.md) → [00-tldr](nautilus/review-methodology/00-tldr.md), [70-зачем-две-версии-параллельно](02-anthropic-vacancies/70-зачем-две-версии-параллельно.md), [190-содержание](02-anthropic-vacancies/190-содержание.md), [132-planned-v0-2-0](02-anthropic-vacancies/132-planned-v0-2-0.md)
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [04-abstract](02-anthropic-vacancies/04-abstract.md)
+- [70-зачем-две-версии-параллельно](02-anthropic-vacancies/70-зачем-две-версии-параллельно.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 2_
+

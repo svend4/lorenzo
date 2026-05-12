@@ -5,6 +5,11 @@
 
 h1. Отчёт о дублировании
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
 Порог сходства: _0.5_  
 Точных дублей: _0_  
 Похожих пар: _974_
@@ -356,3 +361,30 @@ _Примеры совпадений:_
 _...и ещё 944 пар._
 
 {quote}Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.{quote}
+
+
+
+----
+
+_Смотрите также:_
+* [nlaik|letters/nlaik.md]
+* [03-карта-найденных-проектов-и-паттернов|04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md]
+* [TOPIC_MODEL|TOPIC_MODEL.md]
+* [vitalysemenov|letters/vitalysemenov.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (18):_
+* [02-methodology|01-svyazi/02-methodology.md]
+* [197-7-управление-и-надзор|02-anthropic-vacancies/197-7-управление-и-надзор.md]
+* [02-методика-и-рамка-отбора|04-ai-collaborations/02-методика-и-рамка-отбора.md]
+* [CONCEPTS|CONCEPTS.md]
+* [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
+* [LLM_SUMMARIES|LLM_SUMMARIES.md]
+* [OUTLINE|OUTLINE.md]
+* [PRECISION_EVAL|PRECISION_EVAL.md]
+* _...ещё 10_
+

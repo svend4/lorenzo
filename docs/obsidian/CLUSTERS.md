@@ -432,3 +432,14 @@ date: 2026-05-12
 - _...и ещё 6 файлов_
 
 _...и ещё 136 малых кластеров (по 1-2 файла)_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

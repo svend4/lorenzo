@@ -358,3 +358,14 @@ date: 2026-05-12
 _...и ещё 944 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

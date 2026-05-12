@@ -155,3 +155,14 @@ python scripts/improve_llm_qa.py --question "Что такое NGT Memory?"
 
 _Отчёт сгенерирован автоматически скриптом `improve_export_report.py` (2026-05-12)_
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

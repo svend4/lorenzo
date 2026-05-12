@@ -1,16 +1,8 @@
 # Тематические пробелы (Content Gaps)
 
-<!-- summary -->
-> Найдено пробелов: **903** (мин. упоминаний: 3)
-**Проекты:** Svyazi
-
----
-
-
-
 _Обновлено: 2026-05-12_
 
-Найдено пробелов: **903** (мин. упоминаний: 3)
+Найдено пробелов: **905** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -22,12 +14,12 @@ _Обновлено: 2026-05-12_
 | `NPP` | 154 | `docs/obsidian/` |
 | `GDPR` | 124 | `docs/obsidian/` |
 | `MUST` | 110 | `docs/obsidian/` |
-| `BSL` | 98 | `docs/obsidian/` |
-| `PDF` | 80 | `docs/obsidian/` |
+| `BSL` | 96 | `docs/obsidian/` |
+| `PDF` | 82 | `docs/obsidian/` |
 | `SHOULD` | 80 | `docs/obsidian/` |
 | `HEALTH` | 79 | `docs/obsidian/` |
-| `IDF` | 78 | `docs/obsidian/` |
-| `PII` | 70 | `docs/obsidian/` |
+| `IDF` | 76 | `docs/obsidian/` |
+| `PII` | 68 | `docs/obsidian/` |
 | `XII` | 64 | `docs/obsidian/` |
 | `BSG` | 60 | `docs/obsidian/` |
 | `AIF` | 57 | `docs/obsidian/` |
@@ -38,19 +30,19 @@ _Обновлено: 2026-05-12_
 | `RSS` | 52 | `docs/obsidian/` |
 | `YiJing` | 48 | `docs/obsidian/` |
 | `HMP` | 48 | `docs/obsidian/` |
-| `EMEA` | 46 | `docs/obsidian/` |
 | `HIPAA` | 46 | `docs/obsidian/` |
+| `EMEA` | 46 | `docs/obsidian/` |
 | `AutoGen` | 44 | `docs/obsidian/` |
 | `RLM` | 42 | `docs/obsidian/` |
-| `HTTP` | 40 | `docs/obsidian/` |
+| `HTTP` | 38 | `docs/obsidian/` |
 | `EIC` | 38 | `docs/obsidian/` |
-| `OpenWhispr` | 34 | `docs/obsidian/` |
 | `CodeWiki` | 34 | `docs/obsidian/` |
+| `OpenWhispr` | 34 | `docs/obsidian/` |
 | `LCI` | 34 | `docs/obsidian/` |
 | `DOCX` | 34 | `docs/obsidian/` |
 | `LangChain` | 34 | `docs/obsidian/` |
-| `BaseAdapter` | 32 | `docs/obsidian/` |
 | `DeepSeek` | 32 | `docs/obsidian/` |
+| `BaseAdapter` | 32 | `docs/obsidian/` |
 | `AIRI` | 32 | `docs/obsidian/` |
 | `CardStore` | 32 | `docs/obsidian/` |
 | `FAISS` | 30 | `docs/obsidian/` |
@@ -58,16 +50,16 @@ _Обновлено: 2026-05-12_
 | `VitaliySemenov` | 28 | `docs/obsidian/` |
 | `III` | 28 | `docs/obsidian/` |
 | `IBM` | 26 | `docs/obsidian/` |
-| `Composite Skills Agents` | 26 | `docs/obsidian/` |
+| `Composite Skills Agents` | 26 | `docs/nautilus/` |
 | `Professional Colleague Agents (EN)` | 26 | `docs/obsidian/` |
 | `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/obsidian/` |
-| `Representative Agent Layer (EN)` | 26 | `docs/nautilus/` |
+| `Representative Agent Layer (EN)` | 26 | `docs/obsidian/` |
 | `Representative Agent Layer (RU)` | 26 | `docs/nautilus/` |
 | `NNNN` | 25 | `docs/obsidian/` |
 | `STDP` | 24 | `docs/obsidian/` |
 | `CRM` | 24 | `docs/obsidian/` |
-| `TypeScript` | 24 | `docs/obsidian/` |
 | `GPU` | 24 | `docs/obsidian/` |
+| `TypeScript` | 24 | `docs/obsidian/` |
 
 ## Детали по топ-20 пробелам
 
@@ -119,7 +111,7 @@ _Обновлено: 2026-05-12_
 
 Создать: `docs/obsidian/must.md`
 
-### `BSL` (98 файлов)
+### `BSL` (96 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/01-executive-summary.md`
@@ -127,11 +119,11 @@ _Обновлено: 2026-05-12_
 - `docs/01-svyazi/04-ensembles-overview.md`
 - `docs/01-svyazi/07-mvp-planning.md`
 - `docs/01-svyazi/08-conclusions.md`
-- ... и ещё 93 файлах
+- ... и ещё 91 файлах
 
 Создать: `docs/obsidian/bsl.md`
 
-### `PDF` (80 файлов)
+### `PDF` (82 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -139,7 +131,7 @@ _Обновлено: 2026-05-12_
 - `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
 - `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
 - `docs/03-technology-combinations/05-benchmarks.md`
-- ... и ещё 75 файлах
+- ... и ещё 77 файлах
 
 Создать: `docs/obsidian/pdf.md`
 
@@ -167,7 +159,7 @@ _Обновлено: 2026-05-12_
 
 Создать: `docs/obsidian/health.md`
 
-### `IDF` (78 файлов)
+### `IDF` (76 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -175,11 +167,11 @@ _Обновлено: 2026-05-12_
 - `docs/02-anthropic-vacancies/86-11-relevance-ranking.md`
 - `docs/04-ai-collaborations/00-intro.md`
 - `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md`
-- ... и ещё 73 файлах
+- ... и ещё 71 файлах
 
 Создать: `docs/obsidian/idf.md`
 
-### `PII` (70 файлов)
+### `PII` (68 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/06-security-privacy.md`
@@ -187,7 +179,7 @@ _Обновлено: 2026-05-12_
 - `docs/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md`
 - `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md`
 - `docs/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md`
-- ... и ещё 65 файлах
+- ... и ещё 63 файлах
 
 Создать: `docs/obsidian/pii.md`
 
@@ -310,15 +302,4 @@ _Обновлено: 2026-05-12_
 - ... и ещё 43 файлах
 
 Создать: `docs/obsidian/hmp.md`
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CLUSTERS](CLUSTERS.md)
-- [READING_ORDER](READING_ORDER.md)
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
 

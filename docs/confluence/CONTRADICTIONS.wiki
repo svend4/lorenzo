@@ -5,6 +5,19 @@
 
 h1. Противоречия в базе знаний
 
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
+{quote}Утверждений: _88182_ | Противоречий: _9003_{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, Rufler, LiteParse, NGT Memory, MemNet
+
+----
+
+
+
 _Обновлено: 2026-05-12_
 
 Утверждений: _88182_ | Противоречий: _9003_
@@ -372,4 +385,31 @@ _B:_ {{docs/habr-unique-projects/analogues/01-three-direct-analogues.md}}
 {quote}md) - 03-synthesis-hebbian-collaboration-graph({quote}
 
 ----
+
+
+
+
+----
+
+_Смотрите также:_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [PRIORITIES|PRIORITIES.md]
+* [FOOTNOTES|FOOTNOTES.md]
+* [01-executive-summary|04-ai-collaborations/01-executive-summary.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [08-что-это-продолжение-добавляет|04-ai-collaborations/08-что-это-продолжение-добавляет.md]
+* [HEALTH|HEALTH.md]
+* [METRICS|METRICS.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 4_
 

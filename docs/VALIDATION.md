@@ -33,3 +33,19 @@ _Обновлено: 2026-05-12_
 - **tech-pair** — Пара технологий с описанием синергии
 - **tech-radar-entry** — Запись Tech Radar: квадрант, кольцо, обоснование
 - **weekly-digest** — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [CONCEPTS](CONCEPTS.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 5_
+

@@ -1,5 +1,10 @@
 # История метрик KPI
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Последнее обновление: 2026-05-12 · Снапшотов в истории: 4_
 
@@ -43,4 +48,20 @@ Scripts   : ▲▲─  (current: 166)
 _История хранится в `docs/kpi_history.json`._
 
 _Запускать регулярно для получения трендов._
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [DIGEST](DIGEST.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [WORD_CLOUD](WORD_CLOUD.md)
+- [QA](svyazi-2-0/QA.md)
+- _...ещё 1_
 

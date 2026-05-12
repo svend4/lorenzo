@@ -30,3 +30,14 @@ date: 2026-05-12
 ![license](license.svg)
 ![branch](branch.svg)
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../../READABILITY.md)
+- [SEARCH](../../SEARCH.md)
+- [TABLES](../../TABLES.md)
+- [QA](../../anthropic-vacancies/QA.md)
+

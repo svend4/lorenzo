@@ -92,3 +92,14 @@ _...и ещё 978_
 | `COMPARE.md` | 489 | 507 | +18 |
 | `CONCEPT_GRAPH.md` | 658 | 676 | +18 |
 | `CONSISTENCY.md` | 640 | 658 | +18 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

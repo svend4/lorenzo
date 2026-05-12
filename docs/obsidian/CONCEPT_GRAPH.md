@@ -151,3 +151,14 @@ graph TD
 | `кластерам` | 205 | 4351 | other |
 | `auto` | 368 | 4188 | other |
 | `через` | 240 | 3976 | other |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

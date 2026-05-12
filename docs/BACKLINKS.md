@@ -1,13 +1,5 @@
 # Индекс обратных ссылок
 
-<!-- summary -->
-> **Файлов с входящими ссылками:** 2731
-**Проекты:** Svyazi, MemNet
-
----
-
-
-
 **Файлов с входящими ссылками:** 2731
 
 ## Топ-30 самых цитируемых документов
@@ -31,8 +23,8 @@
 | `01-executive-summary` | 45 | `00-intro-part2.md`, `02-methodology.md`, `04-ensembles-overview.md`, `08-conclusions.md` +41 |
 | `28-appendix-a-minimal-working-examp` | 43 | `03-portal-protocol-md.md`, `04-abstract.md`, `09-4-passport-passport-md.md`, `103-appendix-b-change-log.md` +39 |
 | `authors-by-name` | 43 | `AUTHORS.md`, `CONTACT_PRIORITY.md`, `OUTLINE.md`, `READABILITY.md` +39 |
-| `105-review-methodology-md` | 38 | `03-portal-protocol-md.md`, `04-abstract.md`, `106-tl-dr.md`, `108-2-формальный-workflow.md` +34 |
 | `25-13-reference-implementation` | 38 | `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `104-appendix-c-references.md`, `122-глоссарий.md` +34 |
+| `105-review-methodology-md` | 38 | `03-portal-protocol-md.md`, `04-abstract.md`, `106-tl-dr.md`, `108-2-формальный-workflow.md` +34 |
 | `151-open-knowledge-work-foundation-` | 38 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `135-a-formal-model-for-human-ai-collaboration-in-distr.md` +34 |
 | `03-portal-protocol-md` | 37 | `05-0-status-of-this-document.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md`, `125-readme-mcp-md-инструкция-по-установке.md` +33 |
 | `GLOSSARY` | 37 | `03-local-first.md`, `04-sozialrecht-domain.md`, `CHANGELOG_AUTO.md`, `CITATION_INDEX.md` +33 |
@@ -62,14 +54,14 @@
 | **contacts** | 242 | 183 |
 | **glossary** | 205 | 214 |
 | **habr-unique-projects** | 640 | 657 |
-| **letters** | 105 | 114 |
+| **letters** | 107 | 114 |
 | **lorenzo-agent** | 652 | 804 |
 | **meta-scripting** | 72 | 88 |
 | **nautilus** | 2630 | 3155 |
 | **obsidian** | 6538 | 170 |
 | **processing-guide** | 163 | 147 |
-| **root** | 5099 | 13347 |
+| **root** | 5098 | 13347 |
 | **scripts** | 2 | 0 |
-| **svyazi-2-0** | 702 | 699 |
+| **svyazi-2-0** | 701 | 699 |
 | **technology-combinations** | 662 | 609 |
 | **templates** | 231 | 267 |

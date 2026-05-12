@@ -1,13 +1,5 @@
 # Кластеры тематически близких файлов
 
-<!-- summary -->
-> Метод: TF-IDF + косинусное сходство (порог 0.15)
-**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
-
----
-
-
-
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
 Документов: 2249, кластеров: 166
 
@@ -26,7 +18,7 @@
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
 - _...и ещё 346 файлов_
 
-## Кластер 2 — turn, view, svyazi, agentfs (101 файлов)
+## Кластер 2 — turn, view, svyazi, agentfs (102 файлов)
 
 - `docs/01-svyazi/01-executive-summary.md` — _01-executive-summary_
 - `docs/01-svyazi/04-ensembles-overview.md` — _04-ensembles-overview_
@@ -38,7 +30,7 @@
 - `docs/01-svyazi/13-contacts.md` — _13-contacts_
 - `docs/04-ai-collaborations/00-intro.md` — _00-intro_
 - `docs/04-ai-collaborations/01-executive-summary.md` — _01-executive-summary_
-- _...и ещё 91 файлов_
+- _...и ещё 92 файлов_
 
 ## Кластер 3 — cowork, ingit, project, mcp (90 файлов)
 
@@ -166,7 +158,7 @@
 - `docs/lorenzo-agent/scenarios/01-response.md` — _01-response_
 - _...и ещё 36 файлов_
 
-## Кластер 12 — docs, проблем, anthropic-vacancies, localhost (43 файлов)
+## Кластер 12 — docs, проблем, anthropic-vacancies, localhost (42 файлов)
 
 - `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
 - `docs/COMPARE.md` — _COMPARE_
@@ -178,7 +170,7 @@
 - `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
 - `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
 - `docs/LINKS.md` — _LINKS_
-- _...и ещё 33 файлов_
+- _...и ещё 32 файлов_
 
 ## Кластер 13 — what, document, existing-approximations, layer (39 файлов)
 
@@ -433,14 +425,3 @@
 - _...и ещё 6 файлов_
 
 _...и ещё 136 малых кластеров (по 1-2 файла)_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [READING_ORDER](READING_ORDER.md)
-- [SOURCE_MAP](SOURCE_MAP.md)
-- [READING_TIME](READING_TIME.md)
-- [READABILITY](READABILITY.md)
-

@@ -1,5 +1,10 @@
 # Языковой состав документов
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > - [READING_TIME](READING_TIME.md)
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
@@ -1075,4 +1080,19 @@ _Обновлено: 2026-05-12_
 - [READABILITY](READABILITY.md)
 - [SEARCH](SEARCH.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [CHANGELOG](CHANGELOG.md)
+- [OUTLINE](OUTLINE.md)
+- [PRIORITIES](PRIORITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

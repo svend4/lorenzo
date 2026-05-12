@@ -23,7 +23,7 @@ h2. Кластер 1 — концептов, репозитория, поиск�
 * {{docs/02-anthropic-vacancies/346-твоё-происхождение.md}} — _346-твоё-происхождение_
 * _...и ещё 346 файлов_
 
-h2. Кластер 2 — turn, view, svyazi, agentfs (101 файлов)
+h2. Кластер 2 — turn, view, svyazi, agentfs (102 файлов)
 
 * {{docs/01-svyazi/01-executive-summary.md}} — _01-executive-summary_
 * {{docs/01-svyazi/04-ensembles-overview.md}} — _04-ensembles-overview_
@@ -35,7 +35,7 @@ h2. Кластер 2 — turn, view, svyazi, agentfs (101 файлов)
 * {{docs/01-svyazi/13-contacts.md}} — _13-contacts_
 * {{docs/04-ai-collaborations/00-intro.md}} — _00-intro_
 * {{docs/04-ai-collaborations/01-executive-summary.md}} — _01-executive-summary_
-* _...и ещё 91 файлов_
+* _...и ещё 92 файлов_
 
 h2. Кластер 3 — cowork, ingit, project, mcp (90 файлов)
 
@@ -163,7 +163,7 @@ h2. Кластер 11 — work, infrastructure, contributors, foundation (46 ф�
 * {{docs/lorenzo-agent/scenarios/01-response.md}} — _01-response_
 * _...и ещё 36 файлов_
 
-h2. Кластер 12 — docs, проблем, anthropic-vacancies, localhost (43 файлов)
+h2. Кластер 12 — docs, проблем, anthropic-vacancies, localhost (42 файлов)
 
 * {{docs/BROKEN_LINKS.md}} — _BROKEN_LINKS_
 * {{docs/COMPARE.md}} — _COMPARE_
@@ -175,7 +175,7 @@ h2. Кластер 12 — docs, проблем, anthropic-vacancies, localhost (
 * {{docs/GITHUB_ISSUES.md}} — _GITHUB_ISSUES_
 * {{docs/HEADING_AUDIT.md}} — _HEADING_AUDIT_
 * {{docs/LINKS.md}} — _LINKS_
-* _...и ещё 33 файлов_
+* _...и ещё 32 файлов_
 
 h2. Кластер 13 — what, document, existing-approximations, layer (39 файлов)
 

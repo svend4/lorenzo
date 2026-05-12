@@ -211,3 +211,14 @@ h2. Как исправить
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 {code}
+
+
+
+----
+
+_Кто ссылается на этот документ (4):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

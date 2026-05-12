@@ -380,3 +380,14 @@ _B:_ {{docs/habr-unique-projects/analogues/01-three-direct-analogues.md}}
 
 ----
 
+
+
+
+----
+
+_Кто ссылается на этот документ (4):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

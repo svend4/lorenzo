@@ -5,6 +5,19 @@
 
 h1. Инвертированный индекс ключевых слов
 
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}Уникальных слов: _28256_ | Биграмм: _44042_ | Файлов: _1239_{quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
 _Обновлено: 2026-05-12_
 
 Уникальных слов: _28256_ | Биграмм: _44042_ | Файлов: _1239_
@@ -148,3 +161,30 @@ h2. Топ биграмм (устойчивые словосочетания)
 || `семантического поиска` || 225 || 648 ||
 || `похожие документы` || 224 || 1252 ||
 || `документ индексирован` || 202 || 506 ||
+
+
+
+----
+
+_Смотрите также:_
+* [08-personal-multi-agent-hub|habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md]
+* [00-question-habr-link|nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+* [17-appendix-b-change-log|nautilus/npp-v1-0/17-appendix-b-change-log.md]
+* [00-abstract|nautilus/representative-agent-layer-ru/00-abstract.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (22):_
+* [04-abstract|02-anthropic-vacancies/04-abstract.md]
+* [141-4-nautilus-portal-as-reference-substrate|02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md]
+* [228-appendix-c-quick-start-architecture-for-sgb-advoca|02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md]
+* [306-with-anthropic-s-cowork-platform|02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md]
+* [341-приложение-c-образец-спецификаций-инструментов-ing|02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md]
+* [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]
+* [CITATION_INDEX|CITATION_INDEX.md]
+* [CONCEPT_GRAPH|CONCEPT_GRAPH.md]
+* _...ещё 14_
+
