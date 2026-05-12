@@ -49,9 +49,10 @@
 | Round 33 | ✅ Завершён | 4 | AI code agents v2, LLM data engineering, суверенный AI, red-teaming | `round-33/` |
 | Round 34 | ✅ Завершён | 4 | LLM DevSecOps, Multimodal doc v2, LLM evaluation, Edge AI | `round-34/` |
 | Round 35 | ✅ Завершён | 4 | LLM телеком, персонализация, AI образование v2, agent planning | `round-35/` |
-| Round 36 | 🔜 Следующий | — | LLM финансовый compliance, continuous fine-tuning, логистика AI, AI наука | — |
+| Round 36 | ✅ Завершён | 4 | LLM финансовый compliance, continuous adaptation, логистика AI, LLM для науки | `round-36/` |
+| Round 37 | 🔜 Следующий | — | LLM медиа, AI безопасность v2, LLM IoT/промышленность, LLM calibration | — |
 
-**Итого: 144 проекта, 74+ авторов**
+**Итого: 148 проектов, 76+ авторов**
 
 ## Шаблон раунда
 
