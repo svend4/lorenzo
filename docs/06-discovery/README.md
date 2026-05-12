@@ -30,9 +30,10 @@
 | Round 14 | ✅ Завершён | 4 | Context Engineering, DSPy, AI security, MarkItDown | `round-14/` |
 | Round 15 | ✅ Завершён | 4 | Code review AI, Text2SQL, fine-tuning, LLM security | `round-15/` |
 | Round 16 | ✅ Завершён | 4 | No-LangChain, monitoring LLM, GigaAM-v3 ASR, RAG eval | `round-16/` |
-| Round 17 | 🔜 Следующий | — | Reasoning agents, DBA-agent, knowledge graph, GTD AI | — |
+| Round 17 | ✅ Завершён | 4 | CoT research, LLM-Wiki, Knowledge Graph, LLM DBA | `round-17/` |
+| Round 18 | 🔜 Следующий | — | Agentic RAG, synthetic data, DevOps AI, RU embeddings | — |
 
-**Итого: 68 проектов, 36+ авторов**
+**Итого: 72 проекта, 38+ авторов**
 
 ## Шаблон раунда
 
