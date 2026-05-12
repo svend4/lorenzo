@@ -176,3 +176,70 @@ def test_main_stats_no_crash(monkeypatch, capsys):
 def test_main_query_no_index_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
     _mod.main()
+
+
+def test_doc_text_returns_string():
+    from improve_ann_index import _doc_text
+    d = {"title": "Test Title", "summary": "Summary text", "content": "Content", "tags": ["tag1"]}
+    result = _doc_text(d)
+    assert isinstance(result, str)
+    assert "Test Title" in result
+
+
+def test_doc_text_handles_missing_fields():
+    from improve_ann_index import _doc_text
+    result = _doc_text({})
+    assert isinstance(result, str)
+
+
+def test_doc_text_doubles_title():
+    from improve_ann_index import _doc_text
+    result = _doc_text({"title": "Agent"})
+    assert result.count("Agent") >= 2
+
+
+def test_build_vocab_returns_tuple():
+    from improve_ann_index import _build_vocab
+    # Need enough docs for df filter (3 <= c <= N*0.85) to pass
+    doc_template = {"title": "Agent Memory", "content": "agent memory knowledge system retrieval " * 5, "tags": []}
+    docs = [dict(doc_template) for _ in range(10)]
+    vocab_words, idf_sel, df = _build_vocab(docs)
+    assert isinstance(vocab_words, list)
+    assert isinstance(idf_sel, dict)
+    assert isinstance(df, dict)
+
+
+def test_exact_score_empty_inputs():
+    from improve_ann_index import _exact_score
+    assert _exact_score({}, {1: 0.5}) == 0.0
+    assert _exact_score({1: 0.5}, {}) == 0.0
+    assert _exact_score({}, {}) == 0.0
+
+
+def test_exact_score_identical_vectors():
+    from improve_ann_index import _exact_score
+    v = {0: 0.5, 1: 0.3, 2: 0.7}
+    result = _exact_score(v, v)
+    assert abs(result - 1.0) < 0.01
+
+
+def test_show_stats_no_meta_file(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(_mod, "META_FILE", tmp_path / "nonexistent.json")
+    _mod.show_stats()
+    out = capsys.readouterr().out
+    assert "не построен" in out or "build" in out.lower()
+
+
+def test_main_query_runs_with_results(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
+    fake_results = [{"path": "test.md", "title": "Test", "summary": "Summary", "_ann_score": 0.9}]
+    monkeypatch.setattr(_mod, "ann_search", lambda q, top_k=10: fake_results)
+    _mod.main()
+    out = capsys.readouterr().out
+    assert "Test" in out or "test.md" in out
+
+
+def test_main_benchmark_mocked(monkeypatch):
+    monkeypatch.setattr("sys.argv", ["prog", "--benchmark"])
+    monkeypatch.setattr(_mod, "benchmark", lambda: None)
+    _mod.main()

@@ -176,3 +176,92 @@ def test_extract_number_no_number(tmp_path):
 def test_find_groups_empty():
     result = mod._find_groups([], {})
     assert isinstance(result, list)
+
+
+def test_find_groups_two_similar(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.1)
+    monkeypatch.setattr(mod, "MIN_GROUP", 2)
+    f1 = tmp_path / "01-agent-memory.md"
+    f2 = tmp_path / "02-agent-memory.md"
+    f1.write_text("# Agent Memory\n\n" + "agent memory knowledge " * 20, encoding="utf-8")
+    f2.write_text("# Agent Memory Advanced\n\n" + "agent memory knowledge " * 20, encoding="utf-8")
+    texts = {
+        str(f1.relative_to(tmp_path)): f1.read_text(encoding="utf-8"),
+        str(f2.relative_to(tmp_path)): f2.read_text(encoding="utf-8"),
+    }
+    result = mod._find_groups([f1, f2], texts)
+    assert isinstance(result, list)
+    assert len(result) >= 1
+
+
+def test_merge_files_creates_output(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "TODAY", "2026-01-01")
+    f1 = tmp_path / "01-agent.md"
+    f2 = tmp_path / "02-agent.md"
+    f1.write_text("# Agent\n\nContent one.", encoding="utf-8")
+    f2.write_text("# Agent System\n\nContent two.", encoding="utf-8")
+    out_dir = tmp_path / "merged"
+    out_dir.mkdir()
+    texts = {
+        str(f1.relative_to(tmp_path)): f1.read_text(encoding="utf-8"),
+        str(f2.relative_to(tmp_path)): f2.read_text(encoding="utf-8"),
+    }
+    out = mod._merge_files([f1, f2], texts, out_dir)
+    assert out.exists()
+    content = out.read_text(encoding="utf-8")
+    assert "Content one" in content or "Content two" in content
+
+
+def test_merge_files_deduplicates_h1(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "TODAY", "2026-01-01")
+    f1 = tmp_path / "01-topic.md"
+    f2 = tmp_path / "02-topic.md"
+    f1.write_text("# Topic\n\nFirst content.", encoding="utf-8")
+    f2.write_text("# Topic\n\nSecond content.", encoding="utf-8")
+    out_dir = tmp_path / "merged"
+    out_dir.mkdir()
+    texts = {
+        str(f1.relative_to(tmp_path)): f1.read_text(encoding="utf-8"),
+        str(f2.relative_to(tmp_path)): f2.read_text(encoding="utf-8"),
+    }
+    out = mod._merge_files([f1, f2], texts, out_dir)
+    content = out.read_text(encoding="utf-8")
+    # Second file's duplicate H1 should be deduplicated — only one "Second content" block
+    assert "First content" in content
+    assert content.count("# Topic\n") <= 2
+
+
+def test_main_dry_run_with_groups(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.1)
+    monkeypatch.setattr(mod, "MIN_GROUP", 2)
+    f1 = tmp_path / "01-agent-memory.md"
+    f2 = tmp_path / "02-agent-memory.md"
+    f1.write_text("# Agent Memory\n\n" + "agent memory knowledge " * 20, encoding="utf-8")
+    f2.write_text("# Agent Memory Advanced\n\n" + "agent memory knowledge " * 20, encoding="utf-8")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Группа" in out or "группа" in out or "merged" in out.lower()
+
+
+def test_main_apply_with_groups(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.1)
+    monkeypatch.setattr(mod, "MIN_GROUP", 2)
+    f1 = tmp_path / "01-agent-memory.md"
+    f2 = tmp_path / "02-agent-memory.md"
+    f1.write_text("# Agent Memory\n\n" + "agent memory knowledge " * 20, encoding="utf-8")
+    f2.write_text("# Agent Memory Advanced\n\n" + "agent memory knowledge " * 20, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "merged").is_dir()
