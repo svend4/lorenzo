@@ -1,57 +1,57 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «локальный агент россии lorenzo нужен аналог сбора данных проектах ingestion laye»
-> **Дата:** 2026-05-12 06:43  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «socraticode сервер понимания кодовой базы меньше токенов вызовов быстрее сравнен»
+> **Дата:** 2026-05-12 06:56  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-07/projects/local-agent-russia.md`
+**Источник:** `docs/06-discovery/round-08/projects/socraticode.md`
 
-**Запрос:** локальный агент россии lorenzo нужен аналог сбора данных проектах ingestion layer паттерн search read memory digest есть svyazi discovery loop архитектура этого агента может стать основой improve auto источниками
+**Запрос:** socraticode сервер понимания кодовой базы меньше токенов вызовов быстрее сравнение агент тратит времени понимание кода логика tester убрать неэффективный слой получить экономию lorenzo скриптов scripts improve серверов карточки подключается claude code получает полную карту какие скрипты касаются сломается если изменить utils chunker
 
 ---
 
-## 1. Yodoca
+## 1. Rufler
 
-**Релевантность:** `0.446`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.408`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
+**Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
-**Теги:** memory, ingestion, architecture, self-improvement, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
+**Теги:** orchestration, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
 
-> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
+> Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
   - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
   - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
 
-**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
+**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/zodigancode.md`](contacts/zodigancode.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+<summary>📧 Шаблон первого сообщения → zodigancode</summary>
 
 ```
-**Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «локальный агент россии lorenzo нужен аналог сбора данных про»
+**Кому:** zodigancode (@zodigancode)
+**Тема:** Коллаборация по теме «socraticode сервер понимания кодовой базы меньше токенов выз»
 
-Привет, VitalyOborin!
+Привет, zodigancode!
 
-Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
+Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
+Особенно ценна идея: _Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
+- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -65,51 +65,30 @@ Lorenzo / svend4
 
 ---
 
-## 2. agent-memory-mcp + Memory OS
+## 2. mclaude
 
-**Релевантность:** `0.417`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.264`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/svyazi-2-0/components/agent-memory-mcp.md`](svyazi-2-0/components/agent-memory-mcp.md)
+**Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
 
-**Теги:** memory, ingestion, architecture, roadmap, collaboration
-**Упомянутые проекты:** Svyazi, Rufler, Yodoca, MemNet
+**Теги:** orchestration, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
 
-> Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts.
-
-**Связан с:**
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
-  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-
-**Автор:** контакт не найден в docs/contacts/
-
----
-
-## 3. MemNet / memory-is-all-you-need
-
-**Релевантность:** `0.411`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/svyazi-2-0/components/memnet.md`](svyazi-2-0/components/memnet.md)
-
-**Теги:** memory, ingestion, architecture, roadmap, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, Rufler, Yodoca
-
-> Исследовательская активная память для трансформеров.
+> Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом.
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
   - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
   - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
 
 **Автор:** контакт не найден в docs/contacts/
 
 ---
 
-## 4. Svyazi
+## 3. Svyazi
 
-**Релевантность:** `0.351`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.261`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -130,7 +109,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «локальный агент россии lorenzo нужен аналог сбора данных про»
+**Тема:** Коллаборация по теме «socraticode сервер понимания кодовой базы меньше токенов выз»
 
 Привет, kksudo!
 
@@ -141,6 +120,57 @@ Lorenzo / svend4
 
 **Конкретные вопросы:**
 - Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 4. NGT[^ngt] Memory: ассоциативный граф
+
+**Релевантность:** `0.083`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
+
+> ассоциативные связи в персистентной памяти LLM
+
+**Связан с:**
+  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+
+```
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «socraticode сервер понимания кодовой базы меньше токенов выз»
+
+Привет, spbmolot!
+
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -168,7 +198,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "локальный агент россии lorenzo нужен аналог сбора "
+   python scripts/improve_collab_finder.py --query "socraticode сервер понимания кодовой базы меньше т"
    ```
 
-_Сгенерировано: 2026-05-12 06:43  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 06:56  |  Алгоритм: TF-IDF + BM25 + граф_

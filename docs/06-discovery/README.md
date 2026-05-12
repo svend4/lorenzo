@@ -21,9 +21,10 @@
 | Round 05 | ✅ Завершён | 3 | Autonomous pipeline, Russian NLP | `round-05/` |
 | Round 06 | ✅ Завершён | 4 | Video AI, CLI agents, GitHub automation | `round-06/` |
 | Round 07 | ✅ Завершён | 4 | Multi-agent arch, agent safety, MCP pipeline | `round-07/` |
-| Round 08 | 🔜 Следующий | — | arXiv, federated AI, edu AI, PDF tools | — |
+| Round 08 | ✅ Завершён | 4 | Codebase MCP, scientific ingestion, edu AI | `round-08/` |
+| Round 09 | 🔜 Следующий | — | Federated AI, knowledge graphs, domain agents | — |
 
-**Итого: 32 проекта, 18+ авторов**
+**Итого: 36 проектов, 20+ авторов**
 
 ## Шаблон раунда
 
