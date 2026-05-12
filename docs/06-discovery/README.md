@@ -42,9 +42,10 @@
 | Round 26 | ✅ Завершён | 4 | CAVM аналитика, Finam LLM трейдинг, AI логистика, GenAI продукт | `round-26/` |
 | Round 27 | ✅ Завершён | 4 | LLM кибербезопасность, персональный AI с памятью, 5-фазный оркестратор, RAG тесты | `round-27/` |
 | Round 28 | ✅ Завершён | 4 | Volga streaming ML, мультимодальный VLM Сбер, LLM Judge кросс-модельный, Federated edge | `round-28/` |
-| Round 29 | 🔜 Следующий | — | Code gen качество, LLM для DBA, агентный мониторинг, RU-специфика LLM | — |
+| Round 29 | ✅ Завершён | 4 | Comprehension debt, Text2SQL X5, AI мета-мониторинг, Кириллица в LLM | `round-29/` |
+| Round 30 | 🔜 Следующий | — | Composable AI, AI документооборот, Synthetic data v2, Human-in-the-loop | — |
 
-**Итого: 116 проектов, 60+ авторов**
+**Итого: 120 проектов, 62+ авторов**
 
 ## Шаблон раунда
 
