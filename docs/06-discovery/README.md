@@ -32,9 +32,10 @@
 | Round 16 | ✅ Завершён | 4 | No-LangChain, monitoring LLM, GigaAM-v3 ASR, RAG eval | `round-16/` |
 | Round 17 | ✅ Завершён | 4 | CoT research, LLM-Wiki, Knowledge Graph, LLM DBA | `round-17/` |
 | Round 18 | ✅ Завершён | 4 | Agentic RAG, synthetic data, incident AI, RU embeddings | `round-18/` |
-| Round 19 | 🔜 Следующий | — | Multimodal RAG, local LLM enterprise, code gen AI, vector DB 2026 | — |
+| Round 19 | ✅ Завершён | 4 | Multimodal RAG (Docling), doc review AI, vector DB, LLM inference | `round-19/` |
+| Round 20 | 🔜 Следующий | — | Prompt-free models, AI testing, knowledge distillation 2026, streaming AI | — |
 
-**Итого: 76 проектов, 40+ авторов**
+**Итого: 80 проектов, 42+ авторов**
 
 ## Шаблон раунда
 

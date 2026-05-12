@@ -1,22 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «актуальных подходов обзор agentic современных стратегий ключевое отличие обычног»
-> **Дата:** 2026-05-12 11:16  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «выбираем векторную агентов большой обзор qdrant weaviate поддерживают режима lor»
+> **Дата:** 2026-05-12 11:35  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-18/projects/agentic-rag-10-approaches.md`
+**Источник:** `docs/06-discovery/round-19/projects/vector-db-big-overview.md`
 
-**Запрос:** актуальных подходов обзор agentic современных стратегий ключевое отличие обычного retrieval инструмент агента фиксированный этап пайплайна добавляет evaluator перед генерацией lorenzo сейчас использует advanced hybrid переход означает graphrag sberbank полный knowledge pipeline
+**Запрос:** выбираем векторную агентов большой обзор qdrant weaviate поддерживают режима lorenzo сейчас матрица памяти python процесса следующий embedded сервера встроен процесс lancedb альтернатива lance формат работает sqlite файл диске
 
 ---
 
 ## 1. Svyazi
 
-**Релевантность:** `0.423`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.429`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -37,7 +37,7 @@
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «актуальных подходов обзор agentic современных стратегий ключ»
+**Тема:** Коллаборация по теме «выбираем векторную агентов большой обзор qdrant weaviate под»
 
 Привет, kksudo!
 
@@ -61,65 +61,44 @@ Lorenzo / svend4
 
 ---
 
-## 2. knowledge-space
+## 2. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.404`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.312`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
-**Документ:** [`docs/svyazi-2-0/components/knowledge-space.md`](svyazi-2-0/components/knowledge-space.md)
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
 
-**Теги:** knowledge, ingestion, architecture, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
 
-> Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.
-
-**Связан с:**
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-
-**Автор:** контакт не найден в docs/contacts/
-
----
-
-## 3. AgentFS
-
-**Релевантность:** `0.370`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
-
-**Документ:** [`docs/svyazi-2-0/components/agentfs.md`](svyazi-2-0/components/agentfs.md)
-
-**Теги:** knowledge, ingestion, roadmap, collaboration
-**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
-
-> Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.
+> ассоциативные связи в персистентной памяти LLM
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
 
-**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → kksudo</summary>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
 
 ```
-**Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «актуальных подходов обзор agentic современных стратегий ключ»
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «выбираем векторную агентов большой обзор qdrant weaviate под»
 
-Привет, kksudo!
+Привет, spbmolot!
 
-Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром._
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -133,9 +112,9 @@ Lorenzo / svend4
 
 ---
 
-## 4. Rufler
+## 3. Rufler
 
-**Релевантность:** `0.350`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.227`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
@@ -158,7 +137,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** zodigancode (@zodigancode)
-**Тема:** Коллаборация по теме «актуальных подходов обзор agentic современных стратегий ключ»
+**Тема:** Коллаборация по теме «выбираем векторную агентов большой обзор qdrant weaviate под»
 
 Привет, zodigancode!
 
@@ -171,6 +150,65 @@ Lorenzo / svend4
 
 **Конкретные вопросы:**
 - Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 4. mclaude
+
+**Релевантность:** `0.221`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
+
+**Теги:** orchestration, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
+
+> Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+
+**Автор:** контакт не найден в docs/contacts/
+
+---
+
+## Следующие шаги
+
+1. Изучить топ-3 кандидата и выбрать приоритет
+2. Обновить статус контакта:
+   ```
+   python scripts/improve_contact_status.py --author <имя> --studied
+   ```
+3. Отправить сообщение по шаблону выше
+4. Обновить после ответа:
+   ```
+   python scripts/improve_contact_status.py --author <имя> --messaged
+   ```
+5. Повторить поиск с уточнённым запросом:
+   ```
+   python scripts/improve_collab_finder.py --query "выбираем векторную агентов большой обзор qdrant we"
+   ```
+
+_Сгенерировано: 2026-05-12 11:35  |  Алгоритм: TF-IDF + BM25 + граф_
+�тной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -198,7 +236,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "актуальных подходов обзор agentic современных стра"
+   python scripts/improve_collab_finder.py --query "desmond агент проверки документации альфа банк lor"
    ```
 
-_Сгенерировано: 2026-05-12 11:16  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 11:35  |  Алгоритм: TF-IDF + BM25 + граф_
