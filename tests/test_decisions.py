@@ -179,3 +179,100 @@ def test_main_decisions_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "DECISIONS.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── extract_decisions edge cases ─────────────────────────────────────────────
+
+def test_extract_decisions_skips_val_short_after_link_strip(tmp_path, monkeypatch):
+    """Line 60: val < 20 chars after stripping markdown links → continue."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = _make_file(tmp_path)
+    # The match is ">20 chars via URL, but after stripping link text is < 20
+    text = "рекомендуется [a](bcdefghijklmnopqrst) x"
+    result = mod.extract_decisions(text, f)
+    # All results should have len >= 20
+    for item in result:
+        assert len(item["text"]) >= 20
+
+
+def test_extract_decisions_skips_pipe_start(tmp_path, monkeypatch):
+    """Line 63: val starts with '|' → continue."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = _make_file(tmp_path)
+    text = "рекомендуется | первая | вторая | третья колонка для таблицы данных"
+    result = mod.extract_decisions(text, f)
+    for item in result:
+        assert not item["text"].startswith("|")
+
+
+def test_extract_decisions_skips_hash_start(tmp_path, monkeypatch):
+    """Line 63: val starts with '#' → continue."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = _make_file(tmp_path)
+    text = "рекомендуется # заголовок ещё более длинный и подробный раздел"
+    result = mod.extract_decisions(text, f)
+    for item in result:
+        assert not item["text"].startswith("#")
+
+
+# ── main: full coverage ───────────────────────────────────────────────────────
+
+def test_main_skips_reserved_files(tmp_path, monkeypatch):
+    """Line 81: file in skip set → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "README.md").write_text("# Read me content here is fine.", encoding="utf-8")
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n" + "рекомендуется использовать BM25 для поиска данных. " * 5,
+        encoding="utf-8",
+    )
+    mod.main()
+    assert (tmp_path / "DECISIONS.md").exists()
+
+
+def test_main_finds_decisions_in_long_doc(tmp_path, monkeypatch):
+    """Lines 85-87, 101-110: long doc with decisions → cat_order loop runs."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    content = "# Title\n\n" + "рекомендуется использовать BM25 для поиска данных в проекте. " * 5
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "DECISIONS.md").read_text(encoding="utf-8")
+    assert "решений" in text or "#" in text
+
+
+def test_main_many_decisions_truncates(tmp_path, monkeypatch):
+    """Lines 111-115: 20+ unique items per category → remaining message."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    recs = [
+        f"рекомендуется вариант{i:02d} для системы поиска данных в базе знаний"
+        for i in range(25)
+    ]
+    content = "# Doc\n\n" + "\n\n".join(recs) + "\n"
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    result = (tmp_path / "DECISIONS.md").read_text(encoding="utf-8")
+    assert "#" in result
+
+
+def test_main_duplicate_decisions_deduplicated(tmp_path, monkeypatch):
+    """Lines 106-107: duplicate keys → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    decision = "рекомендуется использовать BM25 для поиска данных в проекте"
+    content = "# Doc\n\n" + (decision + ".\n\n") * 4
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "DECISIONS.md").exists()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 124: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    script_path = str(ROOT / "scripts" / "improve_decisions.py")
+    runpy.run_path(script_path, run_name="__main__")

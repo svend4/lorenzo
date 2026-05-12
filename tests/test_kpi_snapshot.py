@@ -181,3 +181,61 @@ def test_main_updates_history_json(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "HISTORY_FILE", history_file)
     mod.main()
     assert history_file.exists()
+
+
+def test_read_metric_value_error_returns_default(monkeypatch, tmp_path):
+    """Lines 27-28: matched value is not parseable as int → default."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    (tmp_path / "FILE.md").write_text("Version: abc.def", encoding="utf-8")
+    # Pattern matches "abc" which can't be int
+    result = mod.read_metric("FILE.md", r"(\w+\.\w+)", default=99)
+    assert result == 99
+
+
+def test_main_with_history_shows_table(tmp_path, monkeypatch):
+    """Lines 113-135: history with > 1 entries shows History table."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    history_file = tmp_path / "kpi_history.json"
+    # Pre-populate history with 2 entries
+    history_data = [
+        {"date": "2026-01-01", "docs": 100, "words": 50000, "scripts": 150,
+         "scoring": 90, "health": 80, "kpis": 200, "questions": 30},
+        {"date": "2026-02-01", "docs": 120, "words": 60000, "scripts": 155,
+         "scoring": 92, "health": 82, "kpis": 220, "questions": 35},
+    ]
+    history_file.write_text(json.dumps(history_data), encoding="utf-8")
+    monkeypatch.setattr(mod, "HISTORY_FILE", history_file)
+    mod.main()
+    text = (tmp_path / "KPI_HISTORY.md").read_text(encoding="utf-8")
+    assert "История" in text
+
+
+def test_main_with_3_plus_history_shows_trends(tmp_path, monkeypatch):
+    """Lines 125-135: 3+ history entries → trend mini charts."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    history_file = tmp_path / "kpi_history.json"
+    history_data = [
+        {"date": "2026-01-01", "docs": 100, "words": 50000, "scripts": 150,
+         "scoring": 90, "health": 80, "kpis": 200, "questions": 30},
+        {"date": "2026-02-01", "docs": 120, "words": 60000, "scripts": 155,
+         "scoring": 92, "health": 82, "kpis": 220, "questions": 35},
+        {"date": "2026-03-01", "docs": 140, "words": 70000, "scripts": 160,
+         "scoring": 94, "health": 85, "kpis": 240, "questions": 40},
+    ]
+    history_file.write_text(json.dumps(history_data), encoding="utf-8")
+    monkeypatch.setattr(mod, "HISTORY_FILE", history_file)
+    mod.main()
+    text = (tmp_path / "KPI_HISTORY.md").read_text(encoding="utf-8")
+    assert "Тренды" in text or "▲" in text or "▼" in text or "─" in text
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 150: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "HISTORY_FILE", tmp_path / "kpi_history.json")
+    script_path = str(ROOT / "scripts" / "improve_kpi_snapshot.py")
+    runpy.run_path(script_path, run_name="__main__")

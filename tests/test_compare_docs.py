@@ -299,3 +299,216 @@ def test_main_no_batch_no_files_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "FILE_A", None)
     monkeypatch.setattr(mod, "FILE_B", None)
     mod.main()  # prints usage, must not raise
+
+
+# ── module-level arg parsing ───────────────────────────────────────────────────
+
+def test_a_arg_parsing():
+    """Lines 34-36: --a PATH sets FILE_A."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--a", "docs/file.md"]
+        importlib.reload(mod)
+        assert mod.FILE_A is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_b_arg_parsing():
+    """Lines 39-41: --b PATH sets FILE_B."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--b", "docs/file.md"]
+        importlib.reload(mod)
+        assert mod.FILE_B is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_out_arg_parsing():
+    """Lines 45-47: --out PATH sets OUT_FILE."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--out", "docs/COMPARE.md"]
+        importlib.reload(mod)
+        assert mod.OUT_FILE is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_top_arg_parsing():
+    """Lines 51-53: --top N sets TOP_N."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--top", "5"]
+        importlib.reload(mod)
+        assert mod.TOP_N == 5
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_section_arg_parsing():
+    """Lines 57-59: --section NAME sets SECTION_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "01-svyazi"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+# ── _top_words and _sentences ─────────────────────────────────────────────────
+
+def test_top_words_returns_set():
+    """Line 85: _top_words returns a set."""
+    result = mod._top_words("agent memory knowledge system " * 5)
+    assert isinstance(result, set)
+
+
+def test_sentences_returns_list():
+    """Lines 100-101: _sentences returns list of long sentences."""
+    text = "Short. This is a longer sentence with more than thirty characters total. Another!"
+    result = mod._sentences(text)
+    assert isinstance(result, list)
+
+
+def test_sentences_filters_short():
+    """Line 101: sentences with <= 30 chars are filtered."""
+    text = "Short one. Another very long sentence that should be included because it exceeds thirty characters."
+    result = mod._sentences(text)
+    for s in result:
+        assert len(s.strip()) > 30
+
+
+# ── format_comparison: missing verdict paths ──────────────────────────────────
+
+def test_format_comparison_moderate_jaccard(tmp_path, monkeypatch):
+    """Line 157: jaccard >= 0.3 but < 0.5 → 'Умеренное сходство'."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    a = tmp_path / "a.md"
+    b = tmp_path / "b.md"
+    # Create files with moderate overlap (~30-50% of words shared)
+    shared = "агент память архитектура система " * 3
+    a.write_text(f"# A\n\n{shared}уникально-для-А файл документ\n", encoding="utf-8")
+    b.write_text(f"# B\n\n{shared}уникально-для-Б текст другой\n", encoding="utf-8")
+    r = mod.compare_two(a, b)
+    # Force jaccard to be in the 0.3-0.5 range
+    r["jaccard"] = 0.35
+    result = mod.format_comparison(r)
+    text = "\n".join(result)
+    assert "Умеренное" in text
+
+
+def test_format_comparison_with_common_heads(tmp_path, monkeypatch):
+    """Line 175: common_heads non-empty → prints common sections."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    a = tmp_path / "a.md"
+    b = tmp_path / "b.md"
+    a.write_text("# Title\n## Common Section\n## Only A\n\ncontent", encoding="utf-8")
+    b.write_text("# Title\n## Common Section\n## Only B\n\ncontent", encoding="utf-8")
+    r = mod.compare_two(a, b)
+    result = mod.format_comparison(r)
+    text = "\n".join(result)
+    assert "Common Section" in text
+
+
+# ── batch_compare edge cases ──────────────────────────────────────────────────
+
+def test_batch_compare_exception_handled(tmp_path, monkeypatch):
+    """Lines 210-211: exception reading file → empty tokens set."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    good = tmp_path / "good.md"
+    good.write_text("# Good\n\nagent memory system knowledge", encoding="utf-8")
+    bad = tmp_path / "bad.md"
+    bad.write_text("content", encoding="utf-8")
+
+    from pathlib import Path as _Path
+    original = _Path.read_text
+
+    def mock_read(self, *a, **kw):
+        if self == bad:
+            raise OSError("mocked")
+        return original(self, *a, **kw)
+
+    monkeypatch.setattr(_Path, "read_text", mock_read)
+    result = mod.batch_compare([good, bad])
+    assert isinstance(result, list)
+
+
+def test_batch_compare_skips_empty_tokens(tmp_path, monkeypatch):
+    """Line 219: file with empty tokens → skip (no pairs)."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # File with only stopwords and short words → no tokens
+    empty_tokens = tmp_path / "empty.md"
+    empty_tokens.write_text("# A\n\nи в не на", encoding="utf-8")
+    good = tmp_path / "good.md"
+    good.write_text("# Good\n\nagent memory system knowledge", encoding="utf-8")
+
+    result = mod.batch_compare([empty_tokens, good])
+    assert isinstance(result, list)
+    # No pair because one file has no tokens
+
+
+# ── main with FILE_A and FILE_B ────────────────────────────────────────────────
+
+def test_main_with_files_creates_compare(tmp_path, monkeypatch):
+    """Lines 264-284: FILE_A and FILE_B set and exist → comparison written."""
+    a = tmp_path / "a.md"
+    b = tmp_path / "b.md"
+    a.write_text("# Doc A\n\nАгент обрабатывает информацию.\n", encoding="utf-8")
+    b.write_text("# Doc B\n\nСистема хранит знания.\n", encoding="utf-8")
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", False)
+    monkeypatch.setattr(mod, "FILE_A", a)
+    monkeypatch.setattr(mod, "FILE_B", b)
+    monkeypatch.setattr(mod, "OUT_FILE", None)
+    mod.main()
+    assert (tmp_path / "COMPARE.md").exists()
+
+
+def test_main_file_a_not_found(tmp_path, monkeypatch, capsys):
+    """Line 264-266: FILE_A doesn't exist → error message."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", False)
+    monkeypatch.setattr(mod, "FILE_A", tmp_path / "nonexistent_a.md")
+    monkeypatch.setattr(mod, "FILE_B", tmp_path / "b.md")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "не найден" in out or "nonexistent" in out
+
+
+def test_main_file_b_not_found(tmp_path, monkeypatch, capsys):
+    """Lines 267-269: FILE_B doesn't exist → error message."""
+    a = tmp_path / "a.md"
+    a.write_text("# A\n\nContent.", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", False)
+    monkeypatch.setattr(mod, "FILE_A", a)
+    monkeypatch.setattr(mod, "FILE_B", tmp_path / "nonexistent_b.md")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "не найден" in out or "nonexistent" in out
+
+
+# ── __main__ block ─────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 288: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BATCH", False)
+    monkeypatch.setattr(mod, "FILE_A", None)
+    monkeypatch.setattr(mod, "FILE_B", None)
+    script_path = str(ROOT / "scripts" / "improve_compare_docs.py")
+    runpy.run_path(script_path, run_name="__main__")

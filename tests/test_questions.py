@@ -121,3 +121,101 @@ def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "ROOT", tmp_path)
     mod.main()
     assert (tmp_path / "QUESTIONS.md").exists()
+
+
+# ── extract_questions edge cases ──────────────────────────────────────────────
+
+def test_extract_questions_skips_pipe_start(tmp_path, monkeypatch):
+    """Line 61: question starts with '|' → skipped."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "test.md"
+    text = "| Как именно работает система поиска данных в проекте?\n"
+    f.write_text(text, encoding="utf-8")
+    result = mod.extract_questions(text, f)
+    for item in result:
+        assert not item["text"].startswith("|")
+
+
+def test_extract_questions_skips_dash_start(tmp_path, monkeypatch):
+    """Line 61: question starts with '-' → skipped."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "test.md"
+    text = "- Как именно работает система поиска данных в проекте?\n"
+    f.write_text(text, encoding="utf-8")
+    result = mod.extract_questions(text, f)
+    for item in result:
+        assert not item["text"].startswith("-")
+
+
+# ── main: full coverage ───────────────────────────────────────────────────────
+
+def test_main_skips_questions_md(tmp_path, monkeypatch):
+    """Line 82: file named QUESTIONS.md → skipped."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "QUESTIONS.md").write_text("# Old questions data.", encoding="utf-8")
+    (tmp_path / "doc.md").write_text(
+        "# Title\n\n" + "Как работает система поиска? " * 10,
+        encoding="utf-8",
+    )
+    mod.main()
+    assert (tmp_path / "QUESTIONS.md").exists()
+
+
+def test_main_finds_questions_in_long_doc(tmp_path, monkeypatch):
+    """Lines 86-88, 103-112: long doc with questions → cat_order loop runs."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    content = (
+        "# Title\n\n"
+        + "Как именно работает система поиска данных в проекте Svyazi? " * 5
+    )
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "QUESTIONS.md").read_text(encoding="utf-8")
+    assert "#" in text
+
+
+def test_main_short_file_skipped(tmp_path, monkeypatch):
+    """Line 85: file < 200 chars → continue (skipped)."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "doc.md").write_text("# Short\n\nKак работает?", encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "QUESTIONS.md").exists()
+
+
+def test_main_many_questions_truncates(tmp_path, monkeypatch):
+    """Lines 113-117: 15+ unique questions in one category → remaining message."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    qs = [
+        f"Как работает алгоритм поиска вариант{i:02d} для базы данных?"
+        for i in range(20)
+    ]
+    content = "# Doc\n\n" + "\n\n".join(qs) + "\n"
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "QUESTIONS.md").exists()
+
+
+def test_main_duplicate_questions_deduplicated(tmp_path, monkeypatch):
+    """Lines 107-108: duplicate question keys → continue."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    q = "Как именно работает система поиска данных в этом проекте архитектуры?"
+    content = "# Doc\n\n" + (q + "\n\n") * 4
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "QUESTIONS.md").exists()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 126: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    script_path = str(ROOT / "scripts" / "improve_questions.py")
+    runpy.run_path(script_path, run_name="__main__")

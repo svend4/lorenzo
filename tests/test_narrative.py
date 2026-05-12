@@ -163,3 +163,68 @@ def test_main_narrative_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "NARRATIVE.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── main: with existing docs ──────────────────────────────────────────────────
+
+def test_main_with_narrative_docs_existing(tmp_path, monkeypatch):
+    """Lines 107-126: NARRATIVE_DOCS pointing to existing file."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # Create a chapter file
+    chapter_dir = tmp_path / "docs" / "chapter"
+    chapter_dir.mkdir(parents=True)
+    chapter_file = chapter_dir / "intro.md"
+    chapter_file.write_text(
+        "# Введение\n\nmvp: создать систему поиска данных для базы знаний.\n"
+        "цель: построить Knowledge OS для разработчиков проекта Svyazi.\n",
+        encoding="utf-8",
+    )
+    rel_path = "docs/chapter/intro.md"
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [rel_path])
+    monkeypatch.setattr(mod, "CHAPTER_TITLES", {rel_path: "Глава 1: Введение"})
+    mod.main()
+    text = (tmp_path / "NARRATIVE.md").read_text(encoding="utf-8")
+    assert "Глава 1" in text
+
+
+def test_main_with_narrative_docs_missing(tmp_path, monkeypatch):
+    """Lines 107-109: NARRATIVE_DOCS with non-existent file → skipped."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", ["docs/nonexistent.md"])
+    monkeypatch.setattr(mod, "CHAPTER_TITLES", {})
+    mod.main()
+    assert (tmp_path / "NARRATIVE.md").exists()
+
+
+def test_main_with_narrative_points(tmp_path, monkeypatch):
+    """Lines 119-122: chapter file with narrative points → written."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    chapter_dir = tmp_path / "docs" / "ch"
+    chapter_dir.mkdir(parents=True)
+    chapter_file = chapter_dir / "doc.md"
+    chapter_file.write_text(
+        "# Глава\n\nmvp: реализовать систему поиска документов для базы знаний агента.\n"
+        "главный риск: потеря данных при обновлении индексного файла системы поиска.\n",
+        encoding="utf-8",
+    )
+    rel_path = "docs/ch/doc.md"
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [rel_path])
+    monkeypatch.setattr(mod, "CHAPTER_TITLES", {rel_path: "Глава: Тест"})
+    mod.main()
+    text = (tmp_path / "NARRATIVE.md").read_text(encoding="utf-8")
+    assert "Глава: Тест" in text
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 147: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "NARRATIVE_DOCS", [])
+    script_path = str(ROOT / "scripts" / "improve_narrative.py")
+    runpy.run_path(script_path, run_name="__main__")

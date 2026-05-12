@@ -876,3 +876,20 @@ def test_main_batch_mode_via_argv(tmp_path, monkeypatch):
     with patch.object(mod.time, "sleep"):
         with patch.dict(sys.modules, {"anthropic": mock_anthropic}):
             mod.main()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 480: __main__ block."""
+    import runpy
+    from unittest.mock import patch
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--dry-run"]
+        monkeypatch.setattr(mod, "DOCS", tmp_path)
+        monkeypatch.setattr(mod, "ROOT", tmp_path)
+        script_path = str(ROOT / "scripts" / "improve_llm_qa.py")
+        runpy.run_path(script_path, run_name="__main__")
+    finally:
+        sys.argv = orig_argv
