@@ -166,3 +166,33 @@ def test_main_once_calls_run_script(tmp_path, monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--once"])
     mod.main()
     assert len(called) > 0
+
+
+def test_should_run_initially_true():
+    # Script that hasn't been run should return True
+    result = mod.should_run("nonexistent_new_script.py")
+    assert result is True
+
+
+def test_handle_change_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RULES", [])
+    f = tmp_path / "doc.md"
+    f.write_text("# Test", encoding="utf-8")
+    mod.handle_change(f)  # with empty RULES, no scripts to run
+
+
+def test_handle_change_triggers_script(tmp_path, monkeypatch):
+    called = []
+    monkeypatch.setattr(mod, "run_script", lambda s: called.append(s))
+    monkeypatch.setattr(mod, "RULES", [(lambda p: p.suffix == ".md", ["improve_test.py"])])
+    f = tmp_path / "doc.md"
+    f.write_text("# Test", encoding="utf-8")
+    mod.handle_change(f)
+    assert "improve_test.py" in called
+
+
+def test_run_once_no_crash(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "run_script", lambda s: None)
+    mod.run_once()

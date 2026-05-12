@@ -183,3 +183,53 @@ def test_main_report_only_with_history(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "BENCH_FILE", bench)
     monkeypatch.setattr(mod, "REPORT_ONLY", True)
     mod.main()  # must not raise
+
+
+def test_load_history_returns_dict_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "BENCH_FILE", tmp_path / "nonexistent.json")
+    result = mod.load_history()
+    assert isinstance(result, dict)
+    assert "runs" in result
+    assert "scripts" in result
+
+
+def test_save_history_creates_file(tmp_path, monkeypatch):
+    bench = tmp_path / "bench.json"
+    monkeypatch.setattr(mod, "BENCH_FILE", bench)
+    mod.save_history({"runs": [], "scripts": {}})
+    assert bench.exists()
+
+
+def test_trend_stable():
+    result = mod._trend([1.0, 1.05])
+    assert "стабильно" in result
+
+
+def test_trend_slower():
+    result = mod._trend([1.0, 2.5])
+    assert "медленнее" in result
+
+
+def test_trend_faster():
+    result = mod._trend([2.0, 1.0])
+    assert "быстрее" in result
+
+
+def test_trend_single_value():
+    result = mod._trend([1.0])
+    assert result == "—"
+
+
+def test_print_report_empty(capsys, tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "BENCH_FILE", tmp_path / "nonexistent.json")
+    mod.print_report({"runs": [], "scripts": {}})
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_get_scripts_to_bench_with_filter(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", "nonexistent_script")
+    (tmp_path / "nonexistent_script.py").write_text("print('ok')", encoding="utf-8")
+    result = mod._get_scripts_to_bench()
+    assert "nonexistent_script.py" in result
