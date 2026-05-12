@@ -52,9 +52,10 @@
 | Round 36 | ✅ Завершён | 4 | LLM финансовый compliance, continuous adaptation, логистика AI, LLM для науки | `round-36/` |
 | Round 37 | ✅ Завершён | 4 | LLM медиа, AI безопасность v2, LLM IoT/промышленность, LLM calibration | `round-37/` |
 | Round 38 | ✅ Завершён | 4 | LLM медицина v2, multiagent coordination, LLM observability, RAG v3 | `round-38/` |
-| Round 39 | 🔜 Следующий | — | LLM юридическая автоматизация v2, synthetic data, персонализация v2, AI testing | — |
+| Round 39 | ✅ Завершён | 4 | LLM юридическая авт. v2, synthetic data, персонализация v2, AI testing v2 | `round-39/` |
+| Round 40 | 🔜 Следующий | — | LLM строительство, structured output v2, образование v3, кибербезопасность v2 | — |
 
-**Итого: 156 проектов, 80+ авторов**
+**Итого: 160 проектов, 82+ авторов**
 
 ## Шаблон раунда
 

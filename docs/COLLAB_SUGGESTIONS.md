@@ -1,37 +1,67 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «agentic graph skeleton indexing vectorcypher pymangle datalog»
-> **Дата:** 2026-05-12 19:13  **Кандидатов:** 1
+> Автоматический поиск партнёрских проектов для: «анализ договорных рисков schema guided reasoning»
+> **Дата:** 2026-05-12 19:23  **Кандидатов:** 1
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-38/projects/agentic-graph-rag-skeleton-indexing-pymangle.md`
+**Источник:** `docs/06-discovery/round-39/projects/contract-risk-analysis-schema-guided-reasoning.md`
 
-**Запрос:** agentic graph skeleton indexing vectorcypher pymangle datalog
+**Запрос:** анализ договорных рисков schema guided reasoning
 
 ---
 
-## 1. research-docs + LiteParse
+## 1. Wikontic: семантический граф
 
-**Релевантность:** `0.424`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.400`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
-**Документ:** [`docs/svyazi-2-0/components/research-docs-liteparse.md`](svyazi-2-0/components/research-docs-liteparse.md)
+**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
-**Теги:** rag, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, LiteParse, Yodoca
+**Теги:** ingestion, collaboration
+**Упомянутые проекты:** Yodoca, Wikontic
 
-> Forensic document QA с HTML‑отчётом и bounding boxes на страницах PDF.
+> Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/graph-rag.md](svyazi-2-0/components/graph-rag.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/README.md](README.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/02-collaboration-partners.md](05-habr-projects/02-collaboration-partners.md) _references_
 
-**Автор:** контакт не найден в docs/contacts/
+**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+
+```
+**Кому:** VitalyOborin (@VitalyOborin)
+**Тема:** Коллаборация по теме «анализ договорных рисков schema guided reasoning»
+
+Привет, VitalyOborin!
+
+Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
 
 ---
 
@@ -49,7 +79,7 @@
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "agentic graph skeleton indexing vectorcypher pyman"
+   python scripts/improve_collab_finder.py --query "анализ договорных рисков schema guided reasoning"
    ```
 
-_Сгенерировано: 2026-05-12 19:13  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 19:23  |  Алгоритм: TF-IDF + BM25 + граф_
