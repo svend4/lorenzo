@@ -44,9 +44,8 @@ from pathlib import Path
 try:
     import numpy as np
     import hnswlib
-except ImportError:
-    print("Установите зависимости: pip install hnswlib numpy")
-    sys.exit(1)
+except ImportError as _e:
+    raise ImportError("Установите зависимости: pip install hnswlib numpy") from _e
 
 ROOT      = Path(__file__).parent.parent
 DOCS      = ROOT / "docs"
