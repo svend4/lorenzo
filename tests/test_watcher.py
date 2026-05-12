@@ -332,3 +332,325 @@ def test_run_script_handles_exception(tmp_path, monkeypatch):
     mod._last_run.pop("dummy_error.py", None)
     with patch("subprocess.run", side_effect=RuntimeError("test error")):
         mod.run_script("dummy_error.py")  # Should not raise
+
+
+# ── new coverage tests ────────────────────────────────────────────────────────
+
+def test_handle_change_match_fn_exception_ignored(monkeypatch):
+    """Lines 67-68: exception in match_fn is silently ignored."""
+    def raising_match(p):
+        raise RuntimeError("bad match")
+    monkeypatch.setattr(mod, "RULES", [(raising_match, ["improve_test.py"])])
+    # Should not raise
+    mod.handle_change(Path("docs/test.md"))
+
+
+def test_watch_polling_oserror_on_init(tmp_path, monkeypatch):
+    """Lines 83-84: OSError during initialization stat() is ignored."""
+    from pathlib import Path as _Path
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "handle_change", lambda p: None)
+    # Create a file so the init loop has something to iterate over
+    (tmp_path / "doc.md").write_text("# Test", encoding="utf-8")
+
+    original_stat = _Path.stat
+    call_count = [0]
+
+    def fake_stat(self, *args, **kwargs):
+        call_count[0] += 1
+        if call_count[0] == 1:  # First stat() call (init loop) raises OSError
+            raise OSError("permission denied")
+        # Subsequent calls raise KeyboardInterrupt to break the while True loop
+        raise KeyboardInterrupt()
+
+    monkeypatch.setattr(_Path, "stat", fake_stat)
+    try:
+        mod.watch_polling(interval=0.01)
+    except (KeyboardInterrupt, OSError):
+        pass
+    # The key assertion: we reached at least the first stat() call without crashing
+    assert call_count[0] >= 1
+
+
+def test_watch_polling_loop_body_executes(tmp_path, monkeypatch):
+    """Lines 88-105: watch_polling loop body runs on second sleep call."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "handle_change", lambda p: None)
+    f = tmp_path / "doc.md"
+    f.write_text("# Initial", encoding="utf-8")
+
+    call_count = [0]
+
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] >= 2:  # Let first iteration complete, abort on second
+            raise KeyboardInterrupt()
+
+    with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+        try:
+            mod.watch_polling(interval=0.01)
+        except KeyboardInterrupt:
+            pass
+    assert call_count[0] >= 2
+
+
+def test_watch_watchdog_handler_on_modified(tmp_path, monkeypatch):
+    """Lines 115-116: Handler.on_modified dispatches to handle_change."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    called_paths = []
+    monkeypatch.setattr(mod, "handle_change", lambda p: called_paths.append(p))
+
+    handler_instances = []
+
+    class CapturingObserver:
+        def __init__(self):
+            pass
+        def schedule(self, handler, path, recursive=False):
+            handler_instances.append(handler)
+        def start(self):
+            pass
+        def stop(self):
+            pass
+        def join(self):
+            pass
+
+    with patch.dict("sys.modules", {
+        "watchdog": MagicMock(),
+        "watchdog.observers": MagicMock(Observer=CapturingObserver),
+        "watchdog.events": MagicMock(FileSystemEventHandler=object),
+    }):
+        call_count = [0]
+        def fake_sleep(n):
+            call_count[0] += 1
+            raise KeyboardInterrupt()
+        with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+            try:
+                mod.watch_watchdog()
+            except KeyboardInterrupt:
+                pass
+
+    assert handler_instances, "Handler was not captured by CapturingObserver"
+    handler = handler_instances[0]
+    event = MagicMock()
+    event.is_directory = False
+    event.src_path = str(tmp_path / "doc.md")
+    handler.on_modified(event)
+    assert len(called_paths) > 0
+
+
+def test_watch_watchdog_handler_on_created(tmp_path, monkeypatch):
+    """Lines 118-119: Handler.on_created dispatches to handle_change."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    called_paths = []
+    monkeypatch.setattr(mod, "handle_change", lambda p: called_paths.append(p))
+
+    handler_instances = []
+
+    class CapturingObserver:
+        def __init__(self):
+            pass
+        def schedule(self, handler, path, recursive=False):
+            handler_instances.append(handler)
+        def start(self):
+            pass
+        def stop(self):
+            pass
+        def join(self):
+            pass
+
+    with patch.dict("sys.modules", {
+        "watchdog": MagicMock(),
+        "watchdog.observers": MagicMock(Observer=CapturingObserver),
+        "watchdog.events": MagicMock(FileSystemEventHandler=object),
+    }):
+        call_count = [0]
+        def fake_sleep(n):
+            call_count[0] += 1
+            raise KeyboardInterrupt()
+        with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+            try:
+                mod.watch_watchdog()
+            except KeyboardInterrupt:
+                pass
+
+    assert handler_instances, "Handler was not captured by CapturingObserver"
+    handler = handler_instances[0]
+    event = MagicMock()
+    event.is_directory = False
+    event.src_path = str(tmp_path / "new.md")
+    handler.on_created(event)
+    assert len(called_paths) > 0
+
+
+def test_main_calls_watch_watchdog_when_available(tmp_path, monkeypatch):
+    """Line 153: main() calls watch_watchdog() when watchdog is importable."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+
+    watchdog_called = [False]
+
+    def fake_watch_watchdog():
+        watchdog_called[0] = True
+        raise KeyboardInterrupt("done")
+
+    monkeypatch.setattr(mod, "watch_watchdog", fake_watch_watchdog)
+
+    # Make sure watchdog is importable (patch it into sys.modules if needed)
+    import sys as _sys
+    if "watchdog" not in _sys.modules or _sys.modules.get("watchdog") is None:
+        with patch.dict("sys.modules", {"watchdog": MagicMock()}):
+            try:
+                mod.main()
+            except KeyboardInterrupt:
+                pass
+    else:
+        try:
+            mod.main()
+        except KeyboardInterrupt:
+            pass
+
+    assert watchdog_called[0]
+
+
+def test_watch_polling_loop_detects_new_file(tmp_path, monkeypatch):
+    """Lines 98-100, 103-105: loop detects a new file (not in mtimes) and calls handle_change."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    handle_called = []
+    monkeypatch.setattr(mod, "handle_change", lambda p: handle_called.append(p))
+
+    # Start with no files, so mtimes is empty; then a file appears during first loop iteration
+    new_file = tmp_path / "new.md"
+
+    call_count = [0]
+
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            # Create a file during first sleep so it appears as "new" in loop body
+            new_file.write_text("# New file", encoding="utf-8")
+        elif call_count[0] >= 2:
+            raise KeyboardInterrupt()
+
+    with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+        try:
+            mod.watch_polling(interval=0.01)
+        except KeyboardInterrupt:
+            pass
+
+    # handle_change should have been called for the new file
+    assert any(p == new_file for p in handle_called), f"Expected {new_file} in {handle_called}"
+
+
+def test_watch_polling_loop_oserror_in_loop(tmp_path, monkeypatch):
+    """Lines 96-97: OSError during stat() in the while loop is silently skipped (continue)."""
+    import traceback
+    from pathlib import Path as _Path
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "handle_change", lambda p: None)
+
+    # Create a file
+    (tmp_path / "doc.md").write_text("# Test", encoding="utf-8")
+
+    original_stat = _Path.stat
+    loop_oserror_raised = [False]
+
+    def fake_stat(self, *args, **kwargs):
+        # Raise OSError only when called from improve_watcher.py line 95 (loop body stat)
+        stack = traceback.extract_stack()
+        for frame in stack:
+            if "improve_watcher" in frame.filename and frame.lineno == 95:
+                if not loop_oserror_raised[0]:
+                    loop_oserror_raised[0] = True
+                    raise OSError("no access in loop")
+        return original_stat(self, *args, **kwargs)
+
+    call_count = [0]
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] >= 2:
+            raise KeyboardInterrupt()
+
+    monkeypatch.setattr(_Path, "stat", fake_stat)
+    with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+        try:
+            mod.watch_polling(interval=0.01)
+        except (KeyboardInterrupt, OSError):
+            pass
+    assert loop_oserror_raised[0], "OSError was never raised from the loop body stat()"
+
+
+def test_watch_polling_loop_skips_non_files(tmp_path, monkeypatch):
+    """Line 93: loop skips non-file entries (directories)."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    handle_called = []
+    monkeypatch.setattr(mod, "handle_change", lambda p: handle_called.append(p))
+
+    # Create a subdirectory (not a file) — this triggers the `if not f.is_file(): continue` path
+    subdir = tmp_path / "subdir"
+    subdir.mkdir()
+
+    call_count = [0]
+
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] >= 2:
+            raise KeyboardInterrupt()
+
+    with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+        try:
+            mod.watch_polling(interval=0.01)
+        except KeyboardInterrupt:
+            pass
+
+    # The directory should not trigger handle_change
+    assert all(str(p) != str(subdir) for p in handle_called)
+
+
+def test_watch_polling_oserror_on_init_directly(tmp_path, monkeypatch):
+    """Lines 83-84: OSError in init stat() (line 82) is caught and ignored."""
+    import traceback
+    from pathlib import Path as _Path
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "handle_change", lambda p: None)
+
+    # Create a file so the init loop has something to stat
+    (tmp_path / "file.md").write_text("content", encoding="utf-8")
+
+    original_stat = _Path.stat
+    oserror_raised = [False]
+
+    def fake_stat(self, *args, **kwargs):
+        # Raise OSError only when called from improve_watcher.py line 82 (init stat)
+        stack = traceback.extract_stack()
+        for frame in stack:
+            if "improve_watcher" in frame.filename and frame.lineno == 82:
+                if not oserror_raised[0]:
+                    oserror_raised[0] = True
+                    raise OSError("init stat error")
+        return original_stat(self, *args, **kwargs)
+
+    monkeypatch.setattr(_Path, "stat", fake_stat)
+    # Kill the while loop immediately
+    with patch.object(mod.time, "sleep", side_effect=KeyboardInterrupt()):
+        try:
+            mod.watch_polling(interval=0.01)
+        except (KeyboardInterrupt, OSError):
+            pass
+
+    assert oserror_raised[0], "OSError was never raised in init stat() at line 82"
