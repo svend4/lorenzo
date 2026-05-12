@@ -33,9 +33,10 @@
 | Round 17 | ✅ Завершён | 4 | CoT research, LLM-Wiki, Knowledge Graph, LLM DBA | `round-17/` |
 | Round 18 | ✅ Завершён | 4 | Agentic RAG, synthetic data, incident AI, RU embeddings | `round-18/` |
 | Round 19 | ✅ Завершён | 4 | Multimodal RAG (Docling), doc review AI, vector DB, LLM inference | `round-19/` |
-| Round 20 | 🔜 Следующий | — | Prompt-free models, AI testing, knowledge distillation 2026, streaming AI | — |
+| Round 20 | ✅ Завершён | 4 | LLM unit tests, DeepSeek V3.2, Reasoning models, LLM economics | `round-20/` |
+| Round 21 | 🔜 Следующий | — | RU NLP LLM, product analytics AI, multi-agent patterns, privacy AI | — |
 
-**Итого: 80 проектов, 42+ авторов**
+**Итого: 84 проекта, 44+ авторов**
 
 ## Шаблон раунда
 
