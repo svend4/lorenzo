@@ -44,9 +44,10 @@
 | Round 28 | ✅ Завершён | 4 | Volga streaming ML, мультимодальный VLM Сбер, LLM Judge кросс-модельный, Federated edge | `round-28/` |
 | Round 29 | ✅ Завершён | 4 | Comprehension debt, Text2SQL X5, AI мета-мониторинг, Кириллица в LLM | `round-29/` |
 | Round 30 | ✅ Завершён | 4 | Coreness Flow composable, VLM vs IDP бенчмарк, синтетика граф-качество, HITL prod | `round-30/` |
-| Round 31 | 🔜 Следующий | — | LLM медицина, Conversational AI prod, AI DevOps, Explainable AI | — |
+| Round 31 | ✅ Завершён | 4 | DBRM медицина, Cognitive Memory SQLite, LLM+Terraform DevOps, XAI mechanistic | `round-31/` |
+| Round 32 | 🔜 Следующий | — | Enterprise RAG, LLM inference opt, финансовая аналитика, мультимодальный prod | — |
 
-**Итого: 124 проекта, 64+ авторов**
+**Итого: 128 проектов, 66+ авторов**
 
 ## Шаблон раунда
 
