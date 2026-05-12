@@ -29,9 +29,10 @@
 | Round 13 | ✅ Завершён | 4 | Observability, ADD, self-healing tests, OCR | `round-13/` |
 | Round 14 | ✅ Завершён | 4 | Context Engineering, DSPy, AI security, MarkItDown | `round-14/` |
 | Round 15 | ✅ Завершён | 4 | Code review AI, Text2SQL, fine-tuning, LLM security | `round-15/` |
-| Round 16 | 🔜 Следующий | — | Workflow without LangChain, infra AI, eval frameworks | — |
+| Round 16 | ✅ Завершён | 4 | No-LangChain, monitoring LLM, GigaAM-v3 ASR, RAG eval | `round-16/` |
+| Round 17 | 🔜 Следующий | — | Reasoning agents, DBA-agent, knowledge graph, GTD AI | — |
 
-**Итого: 64 проекта, 34+ авторов**
+**Итого: 68 проектов, 36+ авторов**
 
 ## Шаблон раунда
 
