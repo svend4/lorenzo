@@ -165,3 +165,145 @@ def test_main_history_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--history"])
     result = mod.main()
     assert result == 0
+
+
+def test_run_workflow_missing_task(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "load_task", lambda t: None)
+    with pytest.raises(FileNotFoundError):
+        mod.run_workflow("nonexistent-task", {})
+
+
+def test_run_workflow_empty_pipeline(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "load_task", lambda t: {"pipeline": []})
+    result = mod.run_workflow("empty-task", {})
+    assert result["status"] == "empty"
+
+
+def test_run_workflow_dry_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    task = {"pipeline": [{"print": "hello world"}]}
+    monkeypatch.setattr(mod, "load_task", lambda t: task)
+    result = mod.run_workflow("test-task", {}, dry_run=True)
+    assert isinstance(result, dict)
+    assert "steps" in result
+    assert len(result["steps"]) >= 1
+
+
+def test_print_result_ok(capsys):
+    r = {"id": "step1", "op": "print", "status": "ok", "duration_ms": 100, "attempts": []}
+    mod._print_result(r)
+    out = capsys.readouterr().out
+    assert "step1" in out
+
+
+def test_print_result_fail_with_error(capsys):
+    r = {
+        "id": "step1", "op": "run", "status": "fail", "duration_ms": 50,
+        "attempts": [{"attempt": 1, "status": "fail", "duration_ms": 50,
+                      "output_preview": "", "error": "Command failed here"}]
+    }
+    mod._print_result(r)
+    out = capsys.readouterr().out
+    assert "step1" in out
+
+
+def test_print_result_dry_run(capsys):
+    r = {"id": "step1", "op": "print", "status": "dry-run", "duration_ms": 0, "attempts": []}
+    mod._print_result(r)
+    out = capsys.readouterr().out
+    assert "step1" in out
+
+
+def test_summary_all_ok():
+    results = [{"status": "ok"}, {"status": "ok"}]
+    result = mod._summary(results)
+    assert isinstance(result, dict)
+    assert result["ok"] == 2
+    assert result["fail"] == 0
+
+
+def test_summary_with_fail():
+    results = [{"status": "ok"}, {"status": "fail"}]
+    result = mod._summary(results)
+    assert result["ok"] == 1
+    assert result["fail"] == 1
+
+
+def test_save_and_load_runs(tmp_path, monkeypatch):
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    record = {
+        "run_id": "abc123", "task_id": "test", "started": "2026-01-01",
+        "finished": "2026-01-01", "duration_ms": 100, "inputs": {},
+        "parallel": 1, "dry_run": False, "summary": {"ok": 1},
+        "steps": []
+    }
+    mod._save_run(record)
+    results = mod._load_runs()
+    assert len(results) >= 1
+    assert results[-1]["run_id"] == "abc123"
+
+
+def test_load_runs_empty_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "nonexistent.jsonl")
+    result = mod._load_runs()
+    assert result == []
+
+
+def test_load_runs_filter_by_task(tmp_path, monkeypatch):
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    mod._save_run({"run_id": "1", "task_id": "task-a", "started": "2026-01-01",
+                   "finished": "2026-01-01", "duration_ms": 0, "inputs": {},
+                   "parallel": 1, "dry_run": False, "summary": {}, "steps": []})
+    mod._save_run({"run_id": "2", "task_id": "task-b", "started": "2026-01-01",
+                   "finished": "2026-01-01", "duration_ms": 0, "inputs": {},
+                   "parallel": 1, "dry_run": False, "summary": {}, "steps": []})
+    results = mod._load_runs(task_id="task-a")
+    assert all(r["task_id"] == "task-a" for r in results)
+
+
+def test_cmd_history_empty(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "nonexistent.jsonl")
+    result = mod.cmd_history()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "Нет" in out or "no" in out.lower()
+
+
+def test_cmd_history_with_runs(tmp_path, monkeypatch, capsys):
+    runs_log = tmp_path / "runs.jsonl"
+    monkeypatch.setattr(mod, "RUNS_LOG", runs_log)
+    mod._save_run({"run_id": "test123", "task_id": "test-task", "started": "2026-01-01T10:00:00",
+                   "finished": "2026-01-01T10:00:01", "duration_ms": 100, "inputs": {},
+                   "parallel": 1, "dry_run": False, "summary": {"ok": 1}, "steps": []})
+    result = mod.cmd_history()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "test123" in out
+
+
+def test_main_with_task_dry_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "load_task", lambda t: {"pipeline": [{"print": "hello"}]})
+    monkeypatch.setattr("sys.argv", ["prog", "--task", "test-task", "--dry-run"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_run_workflow_parallel(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "RUNS_LOG", tmp_path / "runs.jsonl")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    task = {
+        "pipeline": [
+            {"id": "a", "print": "step a"},
+            {"id": "b", "print": "step b"},
+        ]
+    }
+    monkeypatch.setattr(mod, "load_task", lambda t: task)
+    result = mod.run_workflow("test-task", {}, dry_run=True, parallel=2)
+    assert len(result["steps"]) == 2
