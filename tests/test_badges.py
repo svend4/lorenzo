@@ -156,3 +156,40 @@ def test_main_creates_svg_files(tmp_path, monkeypatch):
     mod.main()
     svgs = list(badges_dir.glob("*.svg"))
     assert len(svgs) > 0
+
+
+def test_main_updates_readme_without_badge_marker(tmp_path, monkeypatch):
+    """Lines 111-125: README.md exists without <!-- badges --> → badges inserted."""
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    # Create README.md with H1 but no badge marker
+    (tmp_path / "README.md").write_text("# Lorenzo Project\n\nDescription here.\n", encoding="utf-8")
+    mod.main()
+    readme_text = (tmp_path / "README.md").read_text(encoding="utf-8")
+    assert "<!-- badges -->" in readme_text
+
+
+def test_main_readme_already_has_marker(tmp_path, monkeypatch):
+    """Lines 114: badge_marker already in README → skip insertion."""
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    original = "# Lorenzo Project\n\n<!-- badges -->\n\nDescription here.\n"
+    (tmp_path / "README.md").write_text(original, encoding="utf-8")
+    mod.main()
+    # Should not be modified (already has marker)
+    readme_text = (tmp_path / "README.md").read_text(encoding="utf-8")
+    assert readme_text.count("<!-- badges -->") == 1
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 149: __main__ block."""
+    import runpy
+    badges_dir = tmp_path / "badges"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "BADGES_DIR", badges_dir)
+    runpy.run_path(str(ROOT / "scripts" / "improve_badges.py"), run_name="__main__")

@@ -198,6 +198,173 @@ def test_main_no_args_shows_usage(tmp_path, monkeypatch, capsys):
     assert "Использование" in out or "author" in out.lower()
 
 
+# ── show_status: notes section ───────────────────────────────────────────────
+
+def test_show_status_with_notes(tmp_path, monkeypatch, capsys):
+    """Lines 101-103: file has ## Заметки section → printed."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "kksudo.md"
+    f.write_text(
+        _contact_text(studied=True) + "\n## Заметки\n\nNote text here.\n",
+        encoding="utf-8"
+    )
+    mod.show_status(f)
+    out = capsys.readouterr().out
+    assert "Note text here" in out
+
+
+# ── list_all_contacts: no dir ─────────────────────────────────────────────────
+
+def test_list_all_contacts_no_dir(tmp_path, monkeypatch, capsys):
+    """Lines 110-111: CONTACTS_DIR doesn't exist → error message."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path / "nonexistent")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.list_all_contacts()
+    out = capsys.readouterr().out
+    assert "не найден" in out or "autofill" in out
+
+
+# ── _apply_status_to_file ────────────────────────────────────────────────────
+
+def test_apply_status_sets_checkbox(tmp_path, monkeypatch):
+    """Lines 140-142: --studied in args → checkbox set, changed=True."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    f = tmp_path / "author.md"
+    f.write_text(_contact_text(), encoding="utf-8")
+    changed = mod._apply_status_to_file(f, ["--studied"])
+    assert changed is True
+    assert "[x]" in f.read_text(encoding="utf-8")
+
+
+def test_apply_status_adds_note(tmp_path, monkeypatch):
+    """Lines 145-150: --note in args → note added."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    f = tmp_path / "author.md"
+    f.write_text(_contact_text(), encoding="utf-8")
+    changed = mod._apply_status_to_file(f, ["--note", "Test note"])
+    assert changed is True
+    assert "Test note" in f.read_text(encoding="utf-8")
+
+
+def test_apply_status_no_change(tmp_path, monkeypatch):
+    """Line 153: no flags → changed=False, file not written."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    f = tmp_path / "author.md"
+    original = _contact_text()
+    f.write_text(original, encoding="utf-8")
+    changed = mod._apply_status_to_file(f, [])
+    assert changed is False
+
+
+# ── main: --author with various paths ────────────────────────────────────────
+
+def test_main_author_no_name_exits(tmp_path, monkeypatch, capsys):
+    """Lines 204-205: --author without name → error message."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--author"])
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+    out = capsys.readouterr().out
+    assert "нужно" in out or "имя" in out.lower() or "author" in out.lower()
+
+
+def test_main_author_not_found_exits(tmp_path, monkeypatch, capsys):
+    """Lines 217-219: author not found → error message."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--author", "nonexistent_xyz"])
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+    out = capsys.readouterr().out
+    assert "не найден" in out or "nonexistent" in out
+
+
+def test_main_author_direct_slug_match(tmp_path, monkeypatch):
+    """Line 215: direct slug file exists → path found."""
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    # Create file with slug name matching author query
+    (contacts / "kksudo.md").write_text(_contact_text(), encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--author", "kksudo"])
+    mod.main()  # should find file and show status
+
+
+def test_main_author_with_studied_flag(tmp_path, monkeypatch):
+    """Lines 221-229: --author --studied → file updated, progress sync attempted."""
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (contacts / "kksudo.md").write_text(_contact_text(), encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--author", "kksudo", "--studied"])
+    mod.main()
+    assert "[x]" in (contacts / "kksudo.md").read_text(encoding="utf-8")
+
+
+# ── main: --bulk ──────────────────────────────────────────────────────────────
+
+def test_main_bulk_updates_multiple(tmp_path, monkeypatch):
+    """Lines 176-195: --bulk updates multiple authors."""
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (contacts / "kksudo.md").write_text(_contact_text(), encoding="utf-8")
+    (contacts / "spbmolot.md").write_text(_contact_text(), encoding="utf-8")
+    monkeypatch.setattr("sys.argv", ["prog", "--bulk", "kksudo,spbmolot", "--studied"])
+    mod.main()
+    assert "[x]" in (contacts / "kksudo.md").read_text(encoding="utf-8")
+    assert "[x]" in (contacts / "spbmolot.md").read_text(encoding="utf-8")
+
+
+def test_main_bulk_skips_missing_author(tmp_path, monkeypatch, capsys):
+    """Lines 185-187: bulk author not found → skip with warning."""
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--bulk", "nonexistent_xyz", "--studied"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "не найден" in out or "пропускаем" in out
+
+
+# ── main: --author not provided ───────────────────────────────────────────────
+
+def test_main_no_author_flag_exits(tmp_path, monkeypatch, capsys):
+    """Lines 199-200: args provided but no --author → error."""
+    monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--studied"])  # no --author
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+    out = capsys.readouterr().out
+    assert "author" in out.lower() or "Укажите" in out
+
+
+# ── __main__ block ─────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 235: __main__ block."""
+    import runpy
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--list"])
+    runpy.run_path(str(ROOT / "scripts" / "improve_contact_status.py"), run_name="__main__")
+
+
 def test_main_author_not_found_exits(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "CONTACTS_DIR", tmp_path)
     monkeypatch.setattr(mod, "ROOT", tmp_path)
