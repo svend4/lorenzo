@@ -20,9 +20,10 @@
 | Round 04 | ✅ Завершён | 3 | Agent platform, MCP protocol | `round-04/` |
 | Round 05 | ✅ Завершён | 3 | Autonomous pipeline, Russian NLP | `round-05/` |
 | Round 06 | ✅ Завершён | 4 | Video AI, CLI agents, GitHub automation | `round-06/` |
-| Round 07 | 🔜 Следующий | — | arXiv, federated AI, education | — |
+| Round 07 | ✅ Завершён | 4 | Multi-agent arch, agent safety, MCP pipeline | `round-07/` |
+| Round 08 | 🔜 Следующий | — | arXiv, federated AI, edu AI, PDF tools | — |
 
-**Итого: 28 проектов, 18+ авторов**
+**Итого: 32 проекта, 18+ авторов**
 
 ## Шаблон раунда
 
