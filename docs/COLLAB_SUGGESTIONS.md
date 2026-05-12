@@ -1,22 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «practice ensemble юридический ассистент законы судебная практика lorenzo анализи»
-> **Дата:** 2026-05-12 13:29  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «логистике складской автоматизации глобальные тренды российская реальность lorenz»
+> **Дата:** 2026-05-12 13:48  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-25/projects/law-practice-ensemble-rag.md`
+**Источник:** `docs/06-discovery/round-26/projects/ai-logistics-russia-reality.md`
 
-**Запрос:** practice ensemble юридический ассистент законы судебная практика lorenzo анализирует документы docs legal паттерн
+**Запрос:** логистике складской автоматизации глобальные тренды российская реальность lorenzo knowledge логистика паттерн прагматичная лестница
 
 ---
 
 ## 1. Svyazi
 
-**Релевантность:** `0.451`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.447`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -37,7 +37,7 @@
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «practice ensemble юридический ассистент законы судебная прак»
+**Тема:** Коллаборация по теме «логистике складской автоматизации глобальные тренды российск»
 
 Привет, kksudo!
 
@@ -61,44 +61,65 @@ Lorenzo / svend4
 
 ---
 
-## 2. Wikontic: семантический граф
+## 2. knowledge-space
 
-**Релевантность:** `0.290`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.414`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
+**Документ:** [`docs/svyazi-2-0/components/knowledge-space.md`](svyazi-2-0/components/knowledge-space.md)
 
-**Теги:** ingestion, collaboration
-**Упомянутые проекты:** Yodoca, Wikontic
+**Теги:** knowledge, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
 
-> Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
+> Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.
 
 **Связан с:**
-  - [docs/README.md](README.md) _references_
-  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/02-collaboration-partners.md](05-habr-projects/02-collaboration-partners.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
 
-**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
+**Автор:** контакт не найден в docs/contacts/
+
+---
+
+## 3. AgentFS
+
+**Релевантность:** `0.378`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/agentfs.md`](svyazi-2-0/components/agentfs.md)
+
+**Теги:** knowledge, ingestion, roadmap, collaboration
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
+
+> Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+
+**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+<summary>📧 Шаблон первого сообщения → kksudo</summary>
 
 ```
-**Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «practice ensemble юридический ассистент законы судебная прак»
+**Кому:** kksudo (@kksudo)
+**Тема:** Коллаборация по теме «логистике складской автоматизации глобальные тренды российск»
 
-Привет, VitalyOborin!
+Привет, kksudo!
 
-Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
+Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https_
+Особенно ценна идея: _Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
+- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -112,65 +133,44 @@ Lorenzo / svend4
 
 ---
 
-## 3. research-docs + LiteParse
+## 4. Rufler
 
-**Релевантность:** `0.250`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.356`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/svyazi-2-0/components/research-docs-liteparse.md`](svyazi-2-0/components/research-docs-liteparse.md)
+**Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
-**Теги:** rag, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, LiteParse, Yodoca
+**Теги:** orchestration, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
 
-> Forensic document QA с HTML‑отчётом и bounding boxes на страницах PDF.
+> Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
   - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/graph-rag.md](svyazi-2-0/components/graph-rag.md) _references_
   - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
 
-**Автор:** контакт не найден в docs/contacts/
-
----
-
-## 4. NGT[^ngt] Memory: ассоциативный граф
-
-**Релевантность:** `0.186`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
-
-**Теги:** memory, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
-
-> ассоциативные связи в персистентной памяти LLM
-
-**Связан с:**
-  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
-
-**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/zodigancode.md`](contacts/zodigancode.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+<summary>📧 Шаблон первого сообщения → zodigancode</summary>
 
 ```
-**Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «practice ensemble юридический ассистент законы судебная прак»
+**Кому:** zodigancode (@zodigancode)
+**Тема:** Коллаборация по теме «логистике складской автоматизации глобальные тренды российск»
 
-Привет, spbmolot!
+Привет, zodigancode!
 
-Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+Особенно ценна идея: _Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
+- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -198,7 +198,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "practice ensemble юридический ассистент законы суд"
+   python scripts/improve_collab_finder.py --query "логистике складской автоматизации глобальные тренд"
    ```
 
-_Сгенерировано: 2026-05-12 13:29  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 13:48  |  Алгоритм: TF-IDF + BM25 + граф_

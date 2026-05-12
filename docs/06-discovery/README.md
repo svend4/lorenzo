@@ -39,9 +39,10 @@
 | Round 23 | ✅ Завершён | 4 | HR AI, Durable State агентов, RPA+AI Enterprise, Prompt Injection | `round-23/` |
 | Round 24 | ✅ Завершён | 4 | DevOps LLM fine-tuning, AIOps Sberbank, EdTech AI, Private LLM стек | `round-24/` |
 | Round 25 | ✅ Завершён | 4 | Юридический RAG, нормоконтроль LLM, AI-наука, визуальное тестирование | `round-25/` |
-| Round 26 | 🔜 Следующий | — | LLM финансы/BI, кастомные embeddings, Supply Chain AI, LLM как B2B SaaS | — |
+| Round 26 | ✅ Завершён | 4 | CAVM аналитика, Finam LLM трейдинг, AI логистика, GenAI продукт | `round-26/` |
+| Round 27 | 🔜 Следующий | — | LLM кибербезопасность, персональный AI, мультиагентное планирование, AI DevEx | — |
 
-**Итого: 104 проекта, 54+ авторов**
+**Итого: 108 проектов, 56+ авторов**
 
 ## Шаблон раунда
 
