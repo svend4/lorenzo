@@ -54,9 +54,10 @@
 | Round 38 | ✅ Завершён | 4 | LLM медицина v2, multiagent coordination, LLM observability, RAG v3 | `round-38/` |
 | Round 39 | ✅ Завершён | 4 | LLM юридическая авт. v2, synthetic data, персонализация v2, AI testing v2 | `round-39/` |
 | Round 40 | ✅ Завершён | 4 | LLM строительство, structured output v2, образование v3, кибербезопасность v2 | `round-40/` |
-| Round 41 | 🔜 Следующий | — | LLM агропромышленность, code generation v3, клиентский сервис v2, privacy-preserving LLM | — |
+| Round 41 | ✅ Завершён | 4 | Агро ML pipeline, SWE-MERA бенчмарк, Robovoice поддержка, Privacy LLM | `round-41/` |
+| Round 42 | 🔜 Следующий | — | LLM финтех v3, мультимодальные агенты v2, LLM DevOps/SRE v2, русскоязычные LLM v3 | — |
 
-**Итого: 164 проекта, 84+ авторов**
+**Итого: 168 проектов, 86+ авторов**
 
 ## Шаблон раунда
 
