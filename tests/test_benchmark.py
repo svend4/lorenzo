@@ -233,3 +233,86 @@ def test_get_scripts_to_bench_with_filter(tmp_path, monkeypatch):
     (tmp_path / "nonexistent_script.py").write_text("print('ok')", encoding="utf-8")
     result = mod._get_scripts_to_bench()
     assert "nonexistent_script.py" in result
+
+
+# ── _time_script ──────────────────────────────────────────────────────────────
+
+def test_time_script_returns_none_for_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
+    result = mod._time_script("nonexistent_xyz.py")
+    assert result is None
+
+
+def test_time_script_returns_float_for_success(tmp_path, monkeypatch):
+    from unittest.mock import patch, MagicMock
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    dummy = scripts_dir / "fast_script.py"
+    dummy.write_text("print('ok')", encoding="utf-8")
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    fake_result = MagicMock()
+    fake_result.returncode = 0
+    with patch("subprocess.run", return_value=fake_result):
+        result = mod._time_script("fast_script.py")
+    assert isinstance(result, float)
+
+
+def test_time_script_returns_none_on_failure(tmp_path, monkeypatch):
+    from unittest.mock import patch, MagicMock
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    failing = scripts_dir / "failing_script.py"
+    failing.write_text("import sys; sys.exit(1)", encoding="utf-8")
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    fake_result = MagicMock()
+    fake_result.returncode = 1
+    with patch("subprocess.run", return_value=fake_result):
+        result = mod._time_script("failing_script.py")
+    assert result is None
+
+
+# ── main() with script execution ──────────────────────────────────────────────
+
+def test_main_with_script_filter(tmp_path, monkeypatch, capsys):
+    from unittest.mock import patch, MagicMock
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    dummy = scripts_dir / "test_script.py"
+    dummy.write_text("print('ok')", encoding="utf-8")
+    bench = tmp_path / "benchmark.json"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    monkeypatch.setattr(mod, "BENCH_FILE", bench)
+    monkeypatch.setattr(mod, "REPORT_ONLY", False)
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", "test_script")
+    monkeypatch.setattr(mod, "GROUP_FILTER", None)
+    fake_result = MagicMock()
+    fake_result.returncode = 0
+    with patch("subprocess.run", return_value=fake_result):
+        mod.main()
+    out = capsys.readouterr().out
+    assert "test_script" in out
+
+
+def test_main_no_scripts_exits(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path / "no_scripts")
+    monkeypatch.setattr(mod, "BENCH_FILE", tmp_path / "benchmark.json")
+    monkeypatch.setattr(mod, "REPORT_ONLY", False)
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", None)
+    monkeypatch.setattr(mod, "GROUP_FILTER", None)
+    monkeypatch.setattr(mod, "_get_scripts_to_bench", lambda: [])
+    with pytest.raises(SystemExit):
+        mod.main()
+
+
+def test_get_scripts_no_filter_returns_list(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", None)
+    monkeypatch.setattr(mod, "GROUP_FILTER", None)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
+    result = mod._get_scripts_to_bench()
+    assert isinstance(result, list)

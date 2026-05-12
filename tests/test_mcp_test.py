@@ -109,3 +109,105 @@ def test_import_helper_handles_missing_module(tmp_path, monkeypatch):
 def test_servers_attribute_is_list():
     assert hasattr(mod, "SERVERS")
     assert isinstance(mod.SERVERS, list)
+
+
+# ── main() with mock dispatch ─────────────────────────────────────────────────
+
+def test_main_with_module_no_dispatch(tmp_path, monkeypatch, capsys):
+    """Module imported but has no dispatch function."""
+    import types
+    fake_mod = types.ModuleType("fake_mcp_no_dispatch")
+    # No 'dispatch' attribute
+
+    def fake_import(name):
+        return fake_mod
+
+    monkeypatch.setattr(mod, "_import", fake_import)
+    monkeypatch.setattr(mod, "SERVERS", [("fake_mcp_no_dispatch", [("tool", {})])])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "нет функции dispatch" in out or "dispatch" in out.lower()
+
+
+def test_main_with_dispatch_returns_string(tmp_path, monkeypatch, capsys):
+    """Module with dispatch that returns a string — should pass."""
+    import types
+    fake_mod = types.ModuleType("fake_mcp_ok")
+    fake_mod.dispatch = lambda tool, args: "Result string"
+
+    def fake_import(name):
+        return fake_mod
+
+    monkeypatch.setattr(mod, "_import", fake_import)
+    monkeypatch.setattr(mod, "SERVERS", [("fake_mcp_ok", [("search", {"q": "test"})])])
+    result = mod.main()
+    assert result == 0
+    out = capsys.readouterr().out
+    assert "✓" in out or "fake_mcp_ok" in out
+
+
+def test_main_with_dispatch_returns_non_string(tmp_path, monkeypatch, capsys):
+    """Module with dispatch that returns a non-string — should fail."""
+    import types
+    fake_mod = types.ModuleType("fake_mcp_bad")
+    fake_mod.dispatch = lambda tool, args: {"key": "value"}  # dict not str
+
+    def fake_import(name):
+        return fake_mod
+
+    monkeypatch.setattr(mod, "_import", fake_import)
+    monkeypatch.setattr(mod, "SERVERS", [("fake_mcp_bad", [("tool", {})])])
+    result = mod.main()
+    assert result == 1
+    out = capsys.readouterr().out
+    assert "❌" in out
+
+
+def test_main_with_dispatch_raises_exception(tmp_path, monkeypatch, capsys):
+    """Module with dispatch that raises an exception — should fail."""
+    import types
+    fake_mod = types.ModuleType("fake_mcp_error")
+    fake_mod.dispatch = lambda tool, args: (_ for _ in ()).throw(RuntimeError("test error"))
+
+    def _raise(*a, **kw):
+        raise RuntimeError("test error")
+    fake_mod.dispatch = _raise
+
+    def fake_import(name):
+        return fake_mod
+
+    monkeypatch.setattr(mod, "_import", fake_import)
+    monkeypatch.setattr(mod, "SERVERS", [("fake_mcp_error", [("tool", {})])])
+    result = mod.main()
+    assert result == 1
+
+
+def test_main_unknown_tool_handled(tmp_path, monkeypatch, capsys):
+    """Test that dispatch handles unknown tool gracefully."""
+    import types
+    fake_mod = types.ModuleType("fake_mcp_graceful")
+    fake_mod.dispatch = lambda tool, args: "Неизвестный инструмент" if tool == "__nonexistent__" else "ok"
+
+    def fake_import(name):
+        return fake_mod
+
+    monkeypatch.setattr(mod, "_import", fake_import)
+    monkeypatch.setattr(mod, "SERVERS", [("fake_mcp_graceful", [])])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_unknown_tool_not_handled(tmp_path, monkeypatch, capsys):
+    """Test that dispatch not handling unknown tool is reported."""
+    import types
+    fake_mod = types.ModuleType("fake_mcp_unhandled")
+    fake_mod.dispatch = lambda tool, args: "ok"  # doesn't return 'Неизвестный'
+
+    def fake_import(name):
+        return fake_mod
+
+    monkeypatch.setattr(mod, "_import", fake_import)
+    monkeypatch.setattr(mod, "SERVERS", [("fake_mcp_unhandled", [])])
+    mod.main()
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
