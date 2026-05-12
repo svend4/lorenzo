@@ -1,22 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «внутри оркестратора фазная структура воркеров meta agent skills library lorenzo »
-> **Дата:** 2026-05-12 15:08  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «judge кросс модельная оценка контента победить self preference bias lorenzo гене»
+> **Дата:** 2026-05-12 15:18  **Кандидатов:** 2
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-27/projects/orchestrator-5phase-multiagent.md`
+**Источник:** `docs/06-discovery/round-28/projects/llm-judge-cross-model-evaluation.md`
 
-**Запрос:** внутри оркестратора фазная структура воркеров meta agent skills library lorenzo имеет improve оркестратор паттерн
+**Запрос:** judge кросс модельная оценка контента победить self preference bias lorenzo генерирует контент summaries reports паттерн
 
 ---
 
 ## 1. Svyazi
 
-**Релевантность:** `0.454`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.436`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -37,7 +37,7 @@
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «внутри оркестратора фазная структура воркеров meta agent ski»
+**Тема:** Коллаборация по теме «judge кросс модельная оценка контента победить self preferen»
 
 Привет, kksudo!
 
@@ -61,65 +61,44 @@ Lorenzo / svend4
 
 ---
 
-## 2. agent-memory-mcp + Memory OS
+## 2. Yodoca
 
-**Релевантность:** `0.391`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.301`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
-**Документ:** [`docs/svyazi-2-0/components/agent-memory-mcp.md`](svyazi-2-0/components/agent-memory-mcp.md)
+**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
 
-**Теги:** memory, ingestion, architecture, roadmap, collaboration
-**Упомянутые проекты:** Svyazi, Rufler, Yodoca, MemNet
+**Теги:** memory, ingestion, architecture, self-improvement, collaboration
+**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
 
-> Typed memory MCP плюс более тяжёлая концепция Memory OS с онтологией, gardener‑loop и bi‑temporal facts.
+> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
   - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
 
-**Автор:** контакт не найден в docs/contacts/
-
----
-
-## 3. NGT[^ngt] Memory: ассоциативный граф
-
-**Релевантность:** `0.270`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
-
-**Теги:** memory, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
-
-> ассоциативные связи в персистентной памяти LLM
-
-**Связан с:**
-  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
-
-**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
 
 <details>
-<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
 
 ```
-**Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «внутри оркестратора фазная структура воркеров meta agent ski»
+**Кому:** VitalyOborin (@VitalyOborin)
+**Тема:** Коллаборация по теме «judge кросс модельная оценка контента победить self preferen»
 
-Привет, spbmolot!
+Привет, VitalyOborin!
 
-Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
 
 **Конкретные вопросы:**
-- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
+- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -130,27 +109,6 @@ Lorenzo / svend4
 ```
 
 </details>
-
----
-
-## 4. knowledge-space
-
-**Релевантность:** `0.221`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
-
-**Документ:** [`docs/svyazi-2-0/components/knowledge-space.md`](svyazi-2-0/components/knowledge-space.md)
-
-**Теги:** knowledge, ingestion, architecture, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
-
-> Agent‑first референсная база: 785+ карточек по 26 доменам, растущая из реальных research‑сессий.
-
-**Связан с:**
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-
-**Автор:** контакт не найден в docs/contacts/
 
 ---
 
@@ -168,7 +126,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "внутри оркестратора фазная структура воркеров meta"
+   python scripts/improve_collab_finder.py --query "judge кросс модельная оценка контента победить sel"
    ```
 
-_Сгенерировано: 2026-05-12 15:08  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 15:18  |  Алгоритм: TF-IDF + BM25 + граф_
