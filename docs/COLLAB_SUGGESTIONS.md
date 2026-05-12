@@ -1,35 +1,82 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «habrsearch semantic habr svyazi хранит документа search index json использует по»
-> **Дата:** 2026-05-12 06:11  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «self aware server четыре инструмента lorenzo сейчас работает временного простран»
+> **Дата:** 2026-05-12 06:17  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-03/projects/habr-search.md`
+**Источник:** `docs/06-discovery/round-04/projects/self-aware-mcp.md`
 
-**Запрос:** habrsearch semantic habr svyazi хранит документа search index json использует показывает добавить настоящий семантический поиск embeddings поверх корпуса через postgres pgvector chromadb pinecone внешних сервисов
+**Запрос:** self aware server четыре инструмента lorenzo сейчас работает временного пространственного контекста current time датирование документов дайджесты сегодня агенд изменилось прошлого запуска строки меняют качество взаимодействия агентом
 
 ---
 
-## 1. Wikontic: семантический граф
+## 1. Svyazi
 
-**Релевантность:** `0.431`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.429`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
-**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
+**Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
 **Теги:** ingestion, collaboration
-**Упомянутые проекты:** Yodoca, Wikontic
-
-> Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
+**Упомянутые проекты:** Svyazi
 
 **Связан с:**
-  - [docs/README.md](README.md) _references_
-  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/02-collaboration-partners.md](05-habr-projects/02-collaboration-partners.md) _references_
+  - [docs/autofilled/README.md](autofilled/README.md) _references_
+  - [docs/autofilled/components/cowork.md](autofilled/components/cowork.md) _references_
+  - [docs/autofilled/components/ingit.md](autofilled/components/ingit.md) _references_
+  - [docs/autofilled/components/kksudo.md](autofilled/components/kksudo.md) _references_
+
+**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → kksudo</summary>
+
+```
+**Кому:** kksudo (@kksudo)
+**Тема:** Коллаборация по теме «self aware server четыре инструмента lorenzo сейчас работает»
+
+Привет, kksudo!
+
+Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 2. Yodoca
+
+**Релевантность:** `0.300`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
+
+**Теги:** memory, ingestion, architecture, self-improvement, collaboration
+**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
+
+> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
 
 **Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
 **Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
@@ -39,13 +86,13 @@
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «habrsearch semantic habr svyazi хранит документа search inde»
+**Тема:** Коллаборация по теме «self aware server четыре инструмента lorenzo сейчас работает»
 
 Привет, VitalyOborin!
 
 Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https_
+Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
@@ -65,30 +112,60 @@ Lorenzo / svend4
 
 ---
 
-## 2. MemNet / memory-is-all-you-need
+## 3. Rufler
 
-**Релевантность:** `0.401`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.238`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/svyazi-2-0/components/memnet.md`](svyazi-2-0/components/memnet.md)
+**Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
-**Теги:** memory, ingestion, architecture, roadmap, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, Rufler, Yodoca
+**Теги:** orchestration, ingestion, architecture, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
 
-> Исследовательская активная память для трансформеров.
+> Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
   - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
 
-**Автор:** контакт не найден в docs/contacts/
+**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/zodigancode.md`](contacts/zodigancode.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → zodigancode</summary>
+
+```
+**Кому:** zodigancode (@zodigancode)
+**Тема:** Коллаборация по теме «self aware server четыре инструмента lorenzo сейчас работает»
+
+Привет, zodigancode!
+
+Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
 
 ---
 
-## 3. NGT[^ngt] Memory: ассоциативный граф
+## 4. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.388`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.139`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
 
@@ -111,7 +188,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «habrsearch semantic habr svyazi хранит документа search inde»
+**Тема:** Коллаборация по теме «self aware server четыре инструмента lorenzo сейчас работает»
 
 Привет, spbmolot!
 
@@ -137,27 +214,6 @@ Lorenzo / svend4
 
 ---
 
-## 4. mclaude
-
-**Релевантность:** `0.361`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
-
-**Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
-
-**Теги:** orchestration, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
-
-> Координация нескольких сессий Claude Code и других coding‑агентов над одним проектом.
-
-**Связан с:**
-  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
-  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
-  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-
-**Автор:** контакт не найден в docs/contacts/
-
----
-
 ## Следующие шаги
 
 1. Изучить топ-3 кандидата и выбрать приоритет
@@ -172,7 +228,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "habrsearch semantic habr svyazi хранит документа s"
+   python scripts/improve_collab_finder.py --query "self aware server четыре инструмента lorenzo сейча"
    ```
 
-_Сгенерировано: 2026-05-12 06:11  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 06:17  |  Алгоритм: TF-IDF + BM25 + граф_
