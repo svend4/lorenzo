@@ -1,120 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «построение агентов медицине dbrm иерархическая оценка lorenzo паттерн оценки кач»
-> **Дата:** 2026-05-12 17:11  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «обучение эмбеддингов github репозиториев персонализация backend»
+> **Дата:** 2026-05-12 18:18  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-31/projects/raft-medical-ai-agents-dbrm.md`
+**Источник:** `docs/06-discovery/round-35/projects/github-repo-embeddings-recommendation.md`
 
-**Запрос:** построение агентов медицине dbrm иерархическая оценка lorenzo паттерн оценки качества ответов
-
----
-
-## 1. Svyazi
-
-**Релевантность:** `0.446`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
-
-**Теги:** ingestion, collaboration
-**Упомянутые проекты:** Svyazi
-
-**Связан с:**
-  - [docs/autofilled/README.md](autofilled/README.md) _references_
-  - [docs/autofilled/components/cowork.md](autofilled/components/cowork.md) _references_
-  - [docs/autofilled/components/ingit.md](autofilled/components/ingit.md) _references_
-  - [docs/autofilled/components/kksudo.md](autofilled/components/kksudo.md) _references_
-
-**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → kksudo</summary>
-
-```
-**Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «построение агентов медицине dbrm иерархическая оценка lorenz»
-
-Привет, kksudo!
-
-Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
+**Запрос:** обучение эмбеддингов github репозиториев персонализация backend
 
 ---
 
-## 2. Rufler
+## 1. mclaude
 
-**Релевантность:** `0.229`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
-
-**Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
-
-**Теги:** orchestration, ingestion, architecture, collaboration
-**Упомянутые проекты:** Svyazi, knowledge-space, mclaude, Rufler
-
-> Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов.
-
-**Связан с:**
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
-  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
-
-**Автор:** zodigancode @zodigancode  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/zodigancode.md`](contacts/zodigancode.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → zodigancode</summary>
-
-```
-**Кому:** zodigancode (@zodigancode)
-**Тема:** Коллаборация по теме «построение агентов медицине dbrm иерархическая оценка lorenz»
-
-Привет, zodigancode!
-
-Изучила ваш проект **Svyazi, Rufler** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _Декларативный YAML‑слой для запуска автономного роя Claude Code‑агентов._
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 3. mclaude
-
-**Релевантность:** `0.223`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.407`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
 
@@ -133,9 +35,9 @@ Lorenzo / svend4
 
 ---
 
-## 4. AgentFS
+## 2. AgentFS
 
-**Релевантность:** `0.221`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.403`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/agentfs.md`](svyazi-2-0/components/agentfs.md)
 
@@ -158,7 +60,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «построение агентов медицине dbrm иерархическая оценка lorenz»
+**Тема:** Коллаборация по теме «обучение эмбеддингов github репозиториев персонализация back»
 
 Привет, kksudo!
 
@@ -184,6 +86,78 @@ Lorenzo / svend4
 
 ---
 
+## 3. Yodoca
+
+**Релевантность:** `0.399`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
+
+**Теги:** memory, ingestion, architecture, self-improvement, collaboration
+**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
+
+> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
+
+**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
+**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
+
+```
+**Кому:** VitalyOborin (@VitalyOborin)
+**Тема:** Коллаборация по теме «обучение эмбеддингов github репозиториев персонализация back»
+
+Привет, VitalyOborin!
+
+Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 4. MemNet / memory-is-all-you-need
+
+**Релевантность:** `0.387`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/svyazi-2-0/components/memnet.md`](svyazi-2-0/components/memnet.md)
+
+**Теги:** memory, ingestion, architecture, roadmap, collaboration
+**Упомянутые проекты:** Svyazi, knowledge-space, Rufler, Yodoca
+
+> Исследовательская активная память для трансформеров.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/rufler.md](svyazi-2-0/components/rufler.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+
+**Автор:** контакт не найден в docs/contacts/
+
+---
+
 ## Следующие шаги
 
 1. Изучить топ-3 кандидата и выбрать приоритет
@@ -198,7 +172,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "построение агентов медицине dbrm иерархическая оце"
+   python scripts/improve_collab_finder.py --query "обучение эмбеддингов github репозиториев персонали"
    ```
 
-_Сгенерировано: 2026-05-12 17:11  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 18:18  |  Алгоритм: TF-IDF + BM25 + граф_
