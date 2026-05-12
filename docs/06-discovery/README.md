@@ -36,9 +36,10 @@
 | Round 20 | ✅ Завершён | 4 | LLM unit tests, DeepSeek V3.2, Reasoning models, LLM economics | `round-20/` |
 | Round 21 | ✅ Завершён | 4 | Multi-agent case, A2A protocol, LLM privacy, RU classification | `round-21/` |
 | Round 22 | ✅ Завершён | 4 | Legal NLP, LLM AppSec, self-hosted AI, Graph RAG prod | `round-22/` |
-| Round 23 | 🔜 Следующий | — | LLM для HR/рекрутинга, Conversational AI, BPA, Prompt injection защита | — |
+| Round 23 | ✅ Завершён | 4 | HR AI, Durable State агентов, RPA+AI Enterprise, Prompt Injection | `round-23/` |
+| Round 24 | 🔜 Следующий | — | LLM EdTech, Multimodal AI prod, AI DevOps/SRE, Федеративное обучение | — |
 
-**Итого: 92 проекта, 48+ авторов**
+**Итого: 96 проектов, 50+ авторов**
 
 ## Шаблон раунда
 

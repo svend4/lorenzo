@@ -1,22 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «self hosted платформа полный стек ollama open webui docker lorenzo сейчас claude»
-> **Дата:** 2026-05-12 12:10  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «структурные инъекции агентов phantom framework tsinghua group lorenzo использует»
+> **Дата:** 2026-05-12 12:22  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-22/projects/self-hosted-ai-stack-docker.md`
+**Источник:** `docs/06-discovery/round-23/projects/structural-prompt-injection-phantom.md`
 
-**Запрос:** self hosted платформа полный стек ollama open webui docker lorenzo сейчас claude python скрипты автономный зависимости заменяет improve workflow визуального построения пайплайнов
+**Запрос:** структурные инъекции агентов phantom framework tsinghua group lorenzo использует improve enrich читают внешние документы
 
 ---
 
 ## 1. Svyazi
 
-**Релевантность:** `0.433`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.442`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -37,7 +37,7 @@
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «self hosted платформа полный стек ollama open webui docker l»
+**Тема:** Коллаборация по теме «структурные инъекции агентов phantom framework tsinghua grou»
 
 Привет, kksudo!
 
@@ -61,60 +61,9 @@ Lorenzo / svend4
 
 ---
 
-## 2. Yodoca
+## 2. Rufler
 
-**Релевантность:** `0.300`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
-
-**Теги:** memory, ingestion, architecture, self-improvement, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
-
-> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
-
-**Связан с:**
-  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
-
-**Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
-**Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → VitalyOborin</summary>
-
-```
-**Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «self hosted платформа полный стек ollama open webui docker l»
-
-Привет, VitalyOborin!
-
-Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 3. Rufler
-
-**Релевантность:** `0.224`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.229`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
@@ -137,7 +86,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** zodigancode (@zodigancode)
-**Тема:** Коллаборация по теме «self hosted платформа полный стек ollama open webui docker l»
+**Тема:** Коллаборация по теме «структурные инъекции агентов phantom framework tsinghua grou»
 
 Привет, zodigancode!
 
@@ -163,9 +112,9 @@ Lorenzo / svend4
 
 ---
 
-## 4. mclaude
+## 3. mclaude
 
-**Релевантность:** `0.218`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.223`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
 
@@ -184,6 +133,57 @@ Lorenzo / svend4
 
 ---
 
+## 4. AgentFS
+
+**Релевантность:** `0.220`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+
+**Документ:** [`docs/svyazi-2-0/components/agentfs.md`](svyazi-2-0/components/agentfs.md)
+
+**Теги:** knowledge, ingestion, roadmap, collaboration
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
+
+> Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.
+
+**Связан с:**
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
+
+**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → kksudo</summary>
+
+```
+**Кому:** kksudo (@kksudo)
+**Тема:** Коллаборация по теме «структурные инъекции агентов phantom framework tsinghua grou»
+
+Привет, kksudo!
+
+Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром._
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
 ## Следующие шаги
 
 1. Изучить топ-3 кандидата и выбрать приоритет
@@ -198,12 +198,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "self hosted платформа полный стек ollama open webu"
+   python scripts/improve_collab_finder.py --query "структурные инъекции агентов phantom framework tsi"
    ```
 
-_Сгенерировано: 2026-05-12 12:10  |  Алгоритм: TF-IDF + BM25 + граф_
- ```
-   python scripts/improve_collab_finder.py --query "graph production пайплайн научных статей дней позв"
-   ```
-
-_Сгенерировано: 2026-05-12 12:10  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 12:22  |  Алгоритм: TF-IDF + BM25 + граф_
