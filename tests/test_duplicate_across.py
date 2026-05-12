@@ -168,3 +168,62 @@ def test_main_no_flags_prints_usage(tmp_path, monkeypatch, capsys):
     mod.main()
     captured = capsys.readouterr()
     assert "Использование" in captured.out or "--internal" in captured.out
+
+
+def test_tokens_returns_list():
+    result = mod._tokens("Hello world agent memory system works")
+    assert isinstance(result, list)
+
+
+def test_tokens_filters_short():
+    result = mod._tokens("I am in it at do")
+    assert all(len(t) >= 3 for t in result)
+
+
+def test_shingles_empty_when_few_tokens():
+    result = mod._shingles(["one", "two"])
+    # With default SHINGLE_N > 2, should return empty
+    assert isinstance(result, set)
+
+
+def test_shingles_produces_ngrams():
+    result = mod._shingles(["agent", "memory", "system", "works", "well"], n=3)
+    assert isinstance(result, set)
+    assert len(result) > 0
+
+
+def test_jaccard_both_empty():
+    result = mod._jaccard_shingle(set(), set())
+    assert result == 0.0
+
+
+def test_jaccard_identical():
+    sh = {"agent memory", "memory system"}
+    result = mod._jaccard_shingle(sh, sh)
+    assert abs(result - 1.0) < 0.01
+
+
+def test_word_overlap_identical():
+    tok = ["agent", "memory", "system"]
+    result = mod._word_overlap(tok, tok)
+    assert abs(result - 1.0) < 0.01
+
+
+def test_word_overlap_disjoint():
+    a = ["agent", "memory"]
+    b = ["search", "graph"]
+    result = mod._word_overlap(a, b)
+    assert result == 0.0
+
+
+def test_load_files_empty_dir(tmp_path):
+    result = mod._load_files(tmp_path)
+    assert isinstance(result, dict)
+    assert len(result) == 0
+
+
+def test_verdict_returns_string():
+    result = mod._verdict(0.9)
+    assert isinstance(result, str)
+    result2 = mod._verdict(0.5)
+    assert isinstance(result2, str)

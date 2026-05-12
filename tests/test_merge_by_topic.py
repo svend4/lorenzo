@@ -121,3 +121,58 @@ def test_main_no_groups_message(tmp_path, monkeypatch, capsys):
     mod.main()
     out = capsys.readouterr().out
     assert "Нет групп" in out or "group" in out.lower() or "Группа" in out or True
+
+
+def test_title_words_returns_set(tmp_path):
+    f = tmp_path / "agent-memory-system.md"
+    f.write_text("# Content", encoding="utf-8")
+    result = mod._title_words(f)
+    assert isinstance(result, set)
+    assert "agent" in result or "memory" in result
+
+
+def test_heading_words_returns_set():
+    text = "# Agent Memory System\n\n## Integration Layer"
+    result = mod._heading_words(text)
+    assert isinstance(result, set)
+
+
+def test_jaccard_identical():
+    s = {"a", "b", "c"}
+    result = mod._jaccard(s, s)
+    assert abs(result - 1.0) < 0.01
+
+
+def test_jaccard_disjoint():
+    result = mod._jaccard({"a", "b"}, {"c", "d"})
+    assert result == 0.0
+
+
+def test_jaccard_empty():
+    result = mod._jaccard(set(), set())
+    assert result == 0.0
+
+
+def test_key_words_returns_set():
+    text = "# AgentFS\n\nAgent memory architecture knowledge search system works."
+    result = mod._key_words(text, n=5)
+    assert isinstance(result, set)
+    assert len(result) <= 5
+
+
+def test_extract_number_from_filename(tmp_path):
+    f = tmp_path / "03-integration.md"
+    result = mod._extract_number(f)
+    assert result == 3
+
+
+def test_extract_number_no_number(tmp_path):
+    f = tmp_path / "agentfs.md"
+    result = mod._extract_number(f)
+    assert result is None
+
+
+
+def test_find_groups_empty():
+    result = mod._find_groups([], {})
+    assert isinstance(result, list)

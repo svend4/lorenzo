@@ -100,3 +100,45 @@ def test_main_digest_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "DIGEST_AUTO.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+def test_tokenize_diff_returns_counters():
+    diff = "+added agent memory system\n-removed old text\n"
+    added, removed = mod._tokenize_diff(diff)
+    assert isinstance(added, __import__("collections").Counter)
+    assert "agent" in added or "memory" in added or "system" in added
+
+
+def test_tokenize_diff_empty():
+    added, removed = mod._tokenize_diff("")
+    assert len(added) == 0
+    assert len(removed) == 0
+
+
+def test_section_of_docs_path():
+    result = mod._section_of("docs/01-svyazi/doc.md")
+    assert result == "01-svyazi"
+
+
+def test_section_of_scripts_path():
+    result = mod._section_of("scripts/improve_test.py")
+    assert result == "scripts"
+
+
+def test_section_of_root():
+    result = mod._section_of("README.md")
+    assert result == "root"
+
+
+def test_commit_stats_returns_dict():
+    result = mod._commit_stats("2020-01-01")
+    assert isinstance(result, dict)
+    assert "total" in result
+    assert "commits" in result
+
+
+def test_file_stats_returns_dict():
+    result = mod._file_stats_from_log("2020-01-01")
+    assert isinstance(result, dict)
+    assert "added" in result
+    assert "modified" in result

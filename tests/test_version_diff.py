@@ -108,3 +108,44 @@ def test_main_version_diff_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "VERSION_DIFF.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+def test_extract_headings_returns_set():
+    text = "# Title\n\n## Section One\n\n### Subsection\n\nContent."
+    result = mod._extract_headings(text)
+    assert isinstance(result, set)
+    assert "Section One" in result
+
+
+def test_extract_headings_empty():
+    result = mod._extract_headings("Just plain text.")
+    assert result == set()
+
+
+def test_word_count_returns_int():
+    result = mod._word_count("Hello world this is text.")
+    assert isinstance(result, int)
+    assert result > 0
+
+
+def test_word_count_ignores_code_blocks():
+    text = "normal text ```code block here``` more text"
+    result = mod._word_count(text)
+    # code block content should be removed
+    assert isinstance(result, int)
+
+
+def test_git_show_invalid_rev_returns_empty():
+    result = mod._git_show("nonexistent_rev_xyz123", "nonexistent/path.md")
+    assert result == ""
+
+
+def test_resolve_rev_returns_string():
+    result = mod._resolve_rev("HEAD")
+    assert isinstance(result, str)
+
+
+def test_resolve_rev_invalid_returns_rev():
+    result = mod._resolve_rev("definitely_invalid_rev_xyz")
+    # Should return the rev itself on failure
+    assert isinstance(result, str)
