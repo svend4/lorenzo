@@ -1,22 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «text самопроверкой production tech qwen schema lorenzo имеет improve базе знаний»
-> **Дата:** 2026-05-12 15:28  **Кандидатов:** 2
+> Автоматический поиск партнёрских проектов для: «генерация синтетических данных граф анализ качества вместо bleu rouge lorenzo ге»
+> **Дата:** 2026-05-12 15:58  **Кандидатов:** 3
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-29/projects/x5tech-text2sql-self-refinement.md`
+**Источник:** `docs/06-discovery/round-30/projects/sberbank-synthetic-data-graph-quality.md`
 
-**Запрос:** text самопроверкой production tech qwen schema lorenzo имеет improve базе знаний паттерн
+**Запрос:** генерация синтетических данных граф анализ качества вместо bleu rouge lorenzo генерировать синтетические пары fine tuning
 
 ---
 
 ## 1. Svyazi
 
-**Релевантность:** `0.449`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.445`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -37,7 +37,7 @@
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «text самопроверкой production tech qwen schema lorenzo имеет»
+**Тема:** Коллаборация по теме «генерация синтетических данных граф анализ качества вместо b»
 
 Привет, kksudo!
 
@@ -61,9 +61,60 @@ Lorenzo / svend4
 
 ---
 
-## 2. Wikontic: семантический граф
+## 2. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.265`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.323`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
+
+> ассоциативные связи в персистентной памяти LLM
+
+**Связан с:**
+  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+
+```
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «генерация синтетических данных граф анализ качества вместо b»
+
+Привет, spbmolot!
+
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 3. Wikontic: семантический граф
+
+**Релевантность:** `0.300`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
@@ -86,7 +137,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «text самопроверкой production tech qwen schema lorenzo имеет»
+**Тема:** Коллаборация по теме «генерация синтетических данных граф анализ качества вместо b»
 
 Привет, VitalyOborin!
 
@@ -126,7 +177,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "text самопроверкой production tech qwen schema lor"
+   python scripts/improve_collab_finder.py --query "генерация синтетических данных граф анализ качеств"
    ```
 
-_Сгенерировано: 2026-05-12 15:28  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 15:58  |  Алгоритм: TF-IDF + BM25 + граф_
