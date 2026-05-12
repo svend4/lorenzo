@@ -37,9 +37,10 @@
 | Round 21 | ✅ Завершён | 4 | Multi-agent case, A2A protocol, LLM privacy, RU classification | `round-21/` |
 | Round 22 | ✅ Завершён | 4 | Legal NLP, LLM AppSec, self-hosted AI, Graph RAG prod | `round-22/` |
 | Round 23 | ✅ Завершён | 4 | HR AI, Durable State агентов, RPA+AI Enterprise, Prompt Injection | `round-23/` |
-| Round 24 | 🔜 Следующий | — | LLM EdTech, Multimodal AI prod, AI DevOps/SRE, Федеративное обучение | — |
+| Round 24 | ✅ Завершён | 4 | DevOps LLM fine-tuning, AIOps Sberbank, EdTech AI, Private LLM стек | `round-24/` |
+| Round 25 | 🔜 Следующий | — | LLM юриспруденция, AI для науки, Streaming AI, AI UI-тестирование | — |
 
-**Итого: 96 проектов, 50+ авторов**
+**Итого: 100 проектов, 52+ авторов**
 
 ## Шаблон раунда
 
