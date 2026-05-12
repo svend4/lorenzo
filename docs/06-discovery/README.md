@@ -40,9 +40,10 @@
 | Round 24 | ✅ Завершён | 4 | DevOps LLM fine-tuning, AIOps Sberbank, EdTech AI, Private LLM стек | `round-24/` |
 | Round 25 | ✅ Завершён | 4 | Юридический RAG, нормоконтроль LLM, AI-наука, визуальное тестирование | `round-25/` |
 | Round 26 | ✅ Завершён | 4 | CAVM аналитика, Finam LLM трейдинг, AI логистика, GenAI продукт | `round-26/` |
-| Round 27 | 🔜 Следующий | — | LLM кибербезопасность, персональный AI, мультиагентное планирование, AI DevEx | — |
+| Round 27 | ✅ Завершён | 4 | LLM кибербезопасность, персональный AI с памятью, 5-фазный оркестратор, RAG тесты | `round-27/` |
+| Round 28 | 🔜 Следующий | — | Streaming/real-time AI, Multimodal Agent, LLM Evaluation, Federated AI | — |
 
-**Итого: 108 проектов, 56+ авторов**
+**Итого: 112 проектов, 58+ авторов**
 
 ## Шаблон раунда
 
