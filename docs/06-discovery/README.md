@@ -35,9 +35,10 @@
 | Round 19 | ✅ Завершён | 4 | Multimodal RAG (Docling), doc review AI, vector DB, LLM inference | `round-19/` |
 | Round 20 | ✅ Завершён | 4 | LLM unit tests, DeepSeek V3.2, Reasoning models, LLM economics | `round-20/` |
 | Round 21 | ✅ Завершён | 4 | Multi-agent case, A2A protocol, LLM privacy, RU classification | `round-21/` |
-| Round 22 | 🔜 Следующий | — | Legal NLP, embeddings 2026, DevSecOps AI, self-hosted AI stack | — |
+| Round 22 | ✅ Завершён | 4 | Legal NLP, LLM AppSec, self-hosted AI, Graph RAG prod | `round-22/` |
+| Round 23 | 🔜 Следующий | — | LLM для HR/рекрутинга, Conversational AI, BPA, Prompt injection защита | — |
 
-**Итого: 88 проектов, 46+ авторов**
+**Итого: 92 проекта, 48+ авторов**
 
 ## Шаблон раунда
 
