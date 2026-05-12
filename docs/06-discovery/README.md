@@ -27,9 +27,10 @@
 | Round 11 | ✅ Завершён | 4 | Desktop agents, edge AI, voice embedded | `round-11/` |
 | Round 12 | ✅ Завершён | 4 | Data analytics AI, audio gen, vector DBs | `round-12/` |
 | Round 13 | ✅ Завершён | 4 | Observability, ADD, self-healing tests, OCR | `round-13/` |
-| Round 14 | 🔜 Следующий | — | Prompt engineering, code migration AI, multi-modal | — |
+| Round 14 | ✅ Завершён | 4 | Context Engineering, DSPy, AI security, MarkItDown | `round-14/` |
+| Round 15 | 🔜 Следующий | — | Text-to-SQL agents, streaming AI, fine-tuning | — |
 
-**Итого: 56 проектов, 30+ авторов**
+**Итого: 60 проектов, 32+ авторов**
 
 ## Шаблон раунда
 
