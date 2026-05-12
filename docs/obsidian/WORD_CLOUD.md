@@ -5,7 +5,7 @@ tags:
   - architecture
   - anthropic
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Word Cloud
@@ -76,3 +76,14 @@ date: 2026-05-11
 # Запуск
 python scripts/improve_word_cloud.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[.md]]
+- [[cowork]]
+- [[ingit]]
+- [[lorenzo]]
+

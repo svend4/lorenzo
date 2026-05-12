@@ -4,7 +4,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Appendix A: Connection to Companion Papers

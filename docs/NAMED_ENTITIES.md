@@ -1,5 +1,44 @@
 # Индекс именованных сущностей
 
+<!-- toc -->
+## Содержание
+
+- [👤 People (20)](#people-20)
+  - [`anthropic` (739 файлов)](#anthropic-739-файлов)
+  - [`claude` (459 файлов)](#claude-459-файлов)
+  - [`svend4` (194 файлов)](#svend4-194-файлов)
+  - [`kksudo` (79 файлов)](#kksudo-79-файлов)
+  - [`spbmolot` (73 файлов)](#spbmolot-73-файлов)
+- [📦 Projects (147)](#projects-147)
+  - [`obsidian` (808 файлов)](#obsidian-808-файлов)
+  - [`nautilus` (547 файлов)](#nautilus-547-файлов)
+  - [`lorenzo` (502 файлов)](#lorenzo-502-файлов)
+  - [`svyazi` (389 файлов)](#svyazi-389-файлов)
+  - [`GitHub` (261 файлов)](#github-261-файлов)
+- [⚙️ Tech (32)](#tech-32)
+  - [`mcp` (363 файлов)](#mcp-363-файлов)
+  - [`bm25` (261 файлов)](#bm25-261-файлов)
+  - [`llm` (215 файлов)](#llm-215-файлов)
+  - [`api` (186 файлов)](#api-186-файлов)
+  - [`rag` (167 файлов)](#rag-167-файлов)
+- [🏢 Orgs (8)](#orgs-8)
+  - [`вк` (298 файлов)](#вк-298-файлов)
+  - [`meta` (227 файлов)](#meta-227-файлов)
+  - [`mail` (71 файлов)](#mail-71-файлов)
+  - [`openai` (52 файлов)](#openai-52-файлов)
+  - [`google` (36 файлов)](#google-36-файлов)
+- [📅 Dates (42)](#dates-42)
+  - [`2026-04` (78 файлов)](#2026-04-78-файлов)
+  - [`2026-05` (62 файлов)](#2026-05-62-файлов)
+  - [`2026-04-29` (41 файлов)](#2026-04-29-41-файлов)
+  - [`апрель 2026` (18 файлов)](#апрель-2026-18-файлов)
+  - [`2026-04-19` (18 файлов)](#2026-04-19-18-файлов)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -437,3 +476,30 @@ python scripts/improve_named_entities.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [ENTITIES](ENTITIES.md)
+- [COMPLEXITY](COMPLEXITY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [COMPLEXITY](COMPLEXITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

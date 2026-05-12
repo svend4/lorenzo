@@ -1,9 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/VERSION_DIFF.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Diff базы знаний между версиями
+
+
+h2. Содержание
+
+* [📝 Изменённые файлы (184)|#изменённые-файлы-184]
+* [Использование|#использование]
+* [Смотрите также|#смотрите-также]
+
+----
+
 
 
 
@@ -232,3 +242,30 @@ h2. Смотрите также
 * [Сущности|ENTITIES.md]
 * [Решения|DECISIONS.md]
 * [Контакты|CONTACTS.md]
+
+
+
+----
+
+_Смотрите также:_
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [TAGS|TAGS.md]
+* [KEYWORD_INDEX|KEYWORD_INDEX.md]
+* [STALENESS|STALENESS.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [yodoca|05-habr-projects/memory/yodoca.md]
+* [ABBREVIATIONS|ABBREVIATIONS.md]
+* [AUTOFILLED|AUTOFILLED.md]
+* [CHANGELOG_AUTO|CHANGELOG_AUTO.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+* [INDEX|INDEX.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* _...ещё 5_
+

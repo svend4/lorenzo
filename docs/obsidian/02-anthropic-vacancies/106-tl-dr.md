@@ -3,7 +3,7 @@ title: "TL;DR"
 tags:
   - memory
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # TL;DR

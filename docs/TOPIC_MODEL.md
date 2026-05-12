@@ -1,5 +1,21 @@
 # Тематическое моделирование (TF-IDF)
 
+<!-- toc -->
+## Содержание
+
+- [Тема 1: cowork, ingit, turn (2042 документов)](#тема-1-cowork-ingit-turn-2042-документов)
+- [Тема 4: triangle, double, domain (123 документов)](#тема-4-triangle-double-domain-123-документов)
+- [Тема 2: memory, wikontic, yodoca (102 документов)](#тема-2-memory-wikontic-yodoca-102-документов)
+- [Тема 3: level, compatibility, bridges (83 документов)](#тема-3-level-compatibility-bridges-83-документов)
+- [Тема 6: federation, normative, merging (69 документов)](#тема-6-federation-normative-merging-69-документов)
+- [Тема 5: section, beneficial, metrics (53 документов)](#тема-5-section-beneficial-metrics-53-документов)
+- [Топ уникальных слов по темам](#топ-уникальных-слов-по-темам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -176,3 +192,26 @@ python scripts/improve_topic_model.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](CLUSTERS.md)
+- [READING_ORDER](READING_ORDER.md)
+- [PRIORITIES](PRIORITIES.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

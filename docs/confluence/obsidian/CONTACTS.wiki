@@ -1,24 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/CONTACTS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "Контакты и авторы"
 tags:
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Контакты и авторы
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{CONTACTS}} формируется автоматически из данных репозитория.{quote}
 
-
-
-
-{quote}Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.{quote}
+{quote}> Документ содержит практические рекомендации и лучшие практики.{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ----
@@ -38,57 +33,62 @@ h2. Содержание
 
 
 
+{quote}[!TIP]{quote}
+{quote}Документ содержит практические рекомендации и лучшие практики.{quote}
+
+
+
 h2. Ключевые авторы проектов
 
 || Автор || Проект || Слой || Упомянут в файлах || Первый вопрос ||
-|| **AnastasiyaW** || knowledge-space, mclaude || knowledge/orchestration || 133 || Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? ||
-|| **Antipozitive** || MemNet || memory || 83 || — ||
-|| **Cutcode** || AIF Handoff || orchestration || 71 || — ||
-|| **Dmitriila** || SENTINEL || security || 63 || — ||
-|| **MiXaiLL76** || Auto AI Router || security || 61 || — ||
-|| **Sonia_Black** || knowledge-space || knowledge || 41 || — ||
-|| **VitalyOborin** || Yodoca || memory || 107 || Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? ||
-|| **VladSpace** || Graph RAG || rag || 81 || — ||
-|| **andrey_chuyan** || Svyazi || ingestion/CardIndex || 33 || Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? ||
-|| **kksudo** || AgentFS || knowledge/filesystem || 193 || Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? ||
+|| **AnastasiyaW** || knowledge-space, mclaude || knowledge/orchestration || 128 || Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? ||
+|| **Antipozitive** || MemNet || memory || 78 || — ||
+|| **Cutcode** || AIF Handoff || orchestration || 68 || — ||
+|| **Dmitriila** || SENTINEL || security || 60 || — ||
+|| **MiXaiLL76** || Auto AI Router || security || 56 || — ||
+|| **Sonia_Black** || knowledge-space || knowledge || 38 || — ||
+|| **VitalyOborin** || Yodoca || memory || 104 || Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? ||
+|| **VladSpace** || Graph RAG || rag || 79 || — ||
+|| **andrey_chuyan** || Svyazi || ingestion/CardIndex || 31 || Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? ||
+|| **kksudo** || AgentFS || knowledge/filesystem || 190 || Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? ||
 || **lee-to** || AI Factory || orchestration || 22 || — ||
-|| **nlaik** || LiteParse / research-docs || rag || 81 || — ||
-|| **spbmolot** || NGT Memory || memory || 173 || Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? ||
+|| **nlaik** || LiteParse / research-docs || rag || 75 || — ||
+|| **spbmolot** || NGT Memory || memory || 169 || Где проходит практическая граница между полезной ассоциацией и ложной ко-активацией тем для community discovery? ||
 || **tagir_analyzes** || Legal RAG || rag || 29 || — ||
-|| **zodigancode** || Rufler || orchestration || 93 || — ||
+|| **zodigancode** || Rufler || orchestration || 91 || — ||
 
 h2. GitHub репозитории
 
 || Репозиторий || Упоминается в файлах ||
-|| `github.com/github.com/AnastasiyaW` || 7 ||
-|| `github.com/github.com/AnastasiyaW/knowledge-space` || 19 ||
-|| `github.com/github.com/Antipozitive` || 7 ||
-|| `github.com/github.com/Cutcode` || 7 ||
-|| `github.com/github.com/Dmitriila` || 7 ||
-|| `github.com/github.com/MiXaiLL76` || 7 ||
+|| `github.com/github.com/AnastasiyaW` || 5 ||
+|| `github.com/github.com/AnastasiyaW/knowledge-space` || 17 ||
+|| `github.com/github.com/Antipozitive` || 5 ||
+|| `github.com/github.com/Cutcode` || 5 ||
+|| `github.com/github.com/Dmitriila` || 5 ||
+|| `github.com/github.com/MiXaiLL76` || 5 ||
 || `github.com/github.com/NicholasSpisak/second-brain` || 6 ||
-|| `github.com/github.com/Sonia` || 7 ||
-|| `github.com/github.com/VitalyOborin` || 7 ||
+|| `github.com/github.com/Sonia` || 5 ||
+|| `github.com/github.com/VitalyOborin` || 5 ||
 || `github.com/github.com/VitalyOborin/yodoca` || 9 ||
-|| `github.com/github.com/VladSpace` || 7 ||
-|| `github.com/github.com/andrey` || 7 ||
-|| `github.com/github.com/anthropics/mcp` || 11 ||
+|| `github.com/github.com/VladSpace` || 5 ||
+|| `github.com/github.com/andrey` || 5 ||
+|| `github.com/github.com/anthropics/mcp` || 7 ||
 || `github.com/github.com/artur-gavronchuk/tg-chat-analyser` || 10 ||
-|| `github.com/github.com/camel-ai/camel` || 11 ||
+|| `github.com/github.com/camel-ai/camel` || 9 ||
 || `github.com/github.com/dementev-dev/adversarial-review` || 10 ||
 || `github.com/github.com/github` || 4 ||
 || `github.com/github.com/kagvi13/HMP` || 2 ||
 || `github.com/github.com/kagvi13/HMP.` || 4 ||
-|| `github.com/github.com/kksudo` || 7 ||
-|| `github.com/github.com/kksudo/agentfs` || 9 ||
+|| `github.com/github.com/kksudo` || 5 ||
+|| `github.com/github.com/kksudo/agentfs` || 7 ||
 || `github.com/github.com/lib4u/rufler` || 4 ||
-|| `github.com/github.com/mcp` || 15 ||
-|| `github.com/github.com/nlaik` || 7 ||
+|| `github.com/github.com/mcp` || 13 ||
+|| `github.com/github.com/nlaik` || 5 ||
 || `github.com/github.com/ruvnet/ruflo` || 4 ||
-|| `github.com/github.com/settings/tokens` || 11 ||
-|| `github.com/github.com/spbmolot` || 7 ||
-|| `github.com/github.com/spbmolot/ngt-memory` || 9 ||
-|| `github.com/github.com/svend4` || 9 ||
+|| `github.com/github.com/settings/tokens` || 9 ||
+|| `github.com/github.com/spbmolot` || 5 ||
+|| `github.com/github.com/spbmolot/ngt-memory` || 7 ||
+|| `github.com/github.com/svend4` || 7 ||
 || `github.com/github.com/svend4/data70` || 11 ||
 || `github.com/github.com/svend4/info1` || 23 ||
 || `github.com/github.com/svend4/info40` || 7 ||
@@ -129,14 +129,24 @@ h2. Шаблон первого сообщения
 
 ----
 
-_Кто ссылается на этот документ (31):_
+_Кто ссылается на этот документ (30):_
 * [[13-contacts]]
 * [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]]
-* [[CHANGELOG_AUTO]]
-* [[COMPONENT_MATRIX]]
-* [[CROSS_SECTION]]
+* [[AUTHORS]]
+* [[CONTACT_PRIORITY]]
 * [[EMPTY_SECTIONS]]
+* [[ENTITIES]]
 * [[GITHUB_ISSUES]]
 * [[HEADING_AUDIT]]
-* _...ещё 23_
+* _...ещё 22_
+
+
+
+
+----
+
+_Смотрите также:_
+* [[AUTHORS]]
+* [[NETWORK]]
+* [[PROGRESS]]
 

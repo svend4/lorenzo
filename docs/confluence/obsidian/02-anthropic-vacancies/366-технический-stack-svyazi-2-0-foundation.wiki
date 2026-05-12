@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/366-технический-stack-svyazi-2-0-foundation.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "Технический stack (Svyazi 2.0 foundation)"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Технический stack (Svyazi 2.0 foundation)

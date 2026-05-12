@@ -3,7 +3,7 @@ title: "README.md"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # README.md
@@ -126,3 +126,7 @@ python scripts/improve_semantic_search.py --query "README md"
 - _...ещё 1_
 
 _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+# English below ↓
+
+## English below ↓

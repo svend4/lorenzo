@@ -3,7 +3,7 @@ title: "16. MCP Extension (Informative)"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 16. MCP Extension (Informative)

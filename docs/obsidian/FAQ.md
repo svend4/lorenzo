@@ -2,7 +2,7 @@
 title: "Часто задаваемые вопросы (FAQ)"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Часто задаваемые вопросы (FAQ)
@@ -304,3 +304,14 @@ _→ [[200-10-открытые-вопросы]]_
 # Запуск
 python scripts/improve_faq.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[QUESTIONS]]
+- [[10-otkrytye-voprosy]]
+- [[10-open-questions]]
+- [[CLUSTERS]]
+

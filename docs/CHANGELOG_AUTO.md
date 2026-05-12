@@ -1,5 +1,18 @@
 # Changelog (авто)
 
+<!-- toc -->
+## Содержание
+
+- [Статистика коммитов](#статистика-коммитов)
+- [История изменений](#история-изменений)
+  - [2026-05](#2026-05)
+  - [2026-04](#2026-04)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -67,7 +80,7 @@ _Сгенерировано из 200 коммитов git-истории._
 - improve collab_finder quality and TF-IDF index `9e1f8eed`
 - Collaboration Finder + TF-IDF semantic index + GitHub Actions schedule `e4e61656`
 - incremental CardStore, better type detection, recipe --since, fix OSError `96e0eab4`
-- card envelope library, card index CLI, fix recipe dry-run + history `95929faf`
+- card envelope library, CardIndex CLI, fix recipe dry-run + history `95929faf`
 - implement E-K roadmap items — recipe system, BM25 MCP, prototype spec, code generator `9b4e71ac`
 - implement improve_self.py --batch and add REPL search script `f069f299`
 - (scripts) complete run_all coverage + --dry-run for all red scripts `cdb6ccce`
@@ -141,7 +154,7 @@ _Сгенерировано из 200 коммитов git-истории._
 - update generated docs after reports pipeline run `089b157f`
 - add docs/bad_links.json (broken link skip-list, 25 long paths) `c70da065`
 - update SCORING.md and BROKEN_LINKS.md after link fixes `f149cf4b`
-- update recipe_history.json after card-index dry-run `c6b29dac`
+- update recipe_history.json after CardIndex dry-run `c6b29dac`
 - update BROKEN_LINKS.md after broken_links fix `16d1f6b3`
 - update reports group outputs after background run `bc4135dd`
 - update generated docs and scripts after evaluation session `d5b430f6`
@@ -288,3 +301,30 @@ python scripts/improve_changelog_auto.py
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CHANGELOG](CHANGELOG.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [PRIORITIES](PRIORITIES.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 2_
+

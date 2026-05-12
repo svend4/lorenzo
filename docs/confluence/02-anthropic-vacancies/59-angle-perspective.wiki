@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/59-angle-perspective.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Angle / Perspective

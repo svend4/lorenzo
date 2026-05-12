@@ -2,7 +2,7 @@
 title: "Поиск AI-коллабораций"
 tags:
   - ai-collaborations
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Поиск AI-коллабораций

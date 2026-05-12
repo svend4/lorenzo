@@ -141,3 +141,7 @@ python scripts/improve_semantic_search.py --query "Appendix B Summary of Contrib
 - [308-table-of-contents](308-table-of-contents.md)
 - _...ещё 4_
 
+# Author & Contact
+
+## Author & Contact
+Кто поддерживает, как связаться.

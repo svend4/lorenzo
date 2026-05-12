@@ -3,7 +3,7 @@ title: "4. Passport (`passport.md`)"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 4. Passport (`passport.md`)
@@ -146,3 +146,19 @@ python scripts/improve_semantic_search.py --query "4 Passport passport md"
 - [[63-history]]
 - [[README]]
 
+# Essence
+
+## Essence
+Один абзац: что это, для кого, почему существует.
+
+# Объём
+
+## Объём
+
+- Единиц: 5 (demo)
+
+# Q6-отображение
+
+## Q6-отображение
+
+Не определено (Level 1).

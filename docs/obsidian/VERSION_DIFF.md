@@ -2,10 +2,20 @@
 title: "Diff базы знаний между версиями"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Diff базы знаний между версиями
+
+<!-- toc -->
+## Содержание
+
+- [📝 Изменённые файлы (184)](#изменённые-файлы-184)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
 
 <!-- toc-auto -->
 
@@ -235,3 +245,30 @@ python scripts/improve_version_diff.py --dry-run
 - [[ENTITIES|Сущности]]
 - [[DECISIONS|Решения]]
 - [[CONTACTS|Контакты]]
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DEPENDENCY_MAP]]
+- [[TAGS]]
+- [[KEYWORD_INDEX]]
+- [[STALENESS]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [[yodoca]]
+- [[ABBREVIATIONS]]
+- [[AUTOFILLED]]
+- [[CHANGELOG_AUTO]]
+- [[DEPENDENCY_MAP]]
+- [[INDEX]]
+- [[READABILITY]]
+- [[READING_TIME]]
+- _...ещё 5_
+

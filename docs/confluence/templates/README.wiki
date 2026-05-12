@@ -1,26 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/templates/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. templates
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
 
 _Файлов:_ 23
 
 h2. Содержание
 
 * [agent-spec.md|agent-spec.md] — ---
-* [contact-outreach.md|contact-outreach.md] — 
+* [contact-outreach.md|contact-outreach.md] — > [!NOTE]
 * [contradiction-record.md|contradiction-record.md] — ---
-* [decision-record.md|decision-record.md] — 
-* [ensemble.md|ensemble.md] — 
+* [decision-record.md|decision-record.md] — > [!NOTE]
+* [ensemble.md|ensemble.md] — > [!NOTE]
 * [experiment-log.md|experiment-log.md] — ---
 * [faq-entry.md|faq-entry.md] — ---
 * [glossary-entry.md|glossary-entry.md] — ---
@@ -28,10 +21,10 @@ h2. Содержание
 * [legal-case.md|legal-case.md] — ---
 * [meeting-notes.md|meeting-notes.md] — ---
 * [mega-stack.md|mega-stack.md] — ---
-* [project-component.md|project-component.md] — 
+* [project-component.md|project-component.md] — > [!NOTE]
 * [protocol-spec.md|protocol-spec.md] — ---
 * [prototype-mvp.md|prototype-mvp.md] — ---
-* [research-note.md|research-note.md] — 
+* [research-note.md|research-note.md] — > [!NOTE]
 * [retrospective.md|retrospective.md] — ---
 * [rfc.md|rfc.md] — ---
 * [risk-entry.md|risk-entry.md] — ---
@@ -48,7 +41,7 @@ h2. Подразделы
 
 ----
 
-_Кто ссылается на этот документ (24):_
+_Кто ссылается на этот документ (29):_
 * [OUTLINE|../OUTLINE.md]
 * [READABILITY|../READABILITY.md]
 * [READING_TIME|../READING_TIME.md]
@@ -56,13 +49,6 @@ _Кто ссылается на этот документ (24):_
 * [TABLES|../TABLES.md]
 * [research-summary|../autofilled/research-summary.md]
 * [agent-spec|agent-spec.md]
-* [contradiction-record|contradiction-record.md]
-* _...ещё 16_
+* [contact-outreach|contact-outreach.md]
+* _...ещё 21_
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_readme.py
-{code}

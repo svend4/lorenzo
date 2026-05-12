@@ -1,19 +1,12 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/PROGRESS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Прогресс MVP
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{PROGRESS}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-{quote}_Обновлено: 2026-05-11 (improve_progress_sync.py)_{quote}
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
 
 ----
@@ -22,7 +15,12 @@ _Проекты:_ Svyazi, AgentFS, knowledge-space, NGT Memory
 
 
 
-_Обновлено: 2026-05-11 (improve_progress_sync.py)_
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+_Обновлено: 2026-05-12 (improve_progress_sync.py)_
 
 h2. Ключевые этапы (Milestones)
 
@@ -88,14 +86,25 @@ h2. Связанные документы
 
 ----
 
-_Кто ссылается на этот документ (11):_
+_Смотрите также:_
+* [SCHEDULE|SCHEDULE.md]
+* [first-contacts|svyazi-2-0/outreach/first-contacts.md]
+* [DENSITY|DENSITY.md]
+* [INDEX|INDEX.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
 * [07-mvp-planning|01-svyazi/07-mvp-planning.md]
 * [116-9-checklist-применения-методологии|02-anthropic-vacancies/116-9-checklist-применения-методологии.md]
 * [CODE_BLOCKS|CODE_BLOCKS.md]
+* [CONTACTS|CONTACTS.md]
 * [DECISIONS|DECISIONS.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* _...ещё 3_
+* _...ещё 5_
 

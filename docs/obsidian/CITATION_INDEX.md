@@ -2,10 +2,32 @@
 title: "Индекс цитирования URL"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Индекс цитирования URL
+
+<!-- toc -->
+## Содержание
+
+- [Топ доменов](#топ-доменов)
+- [Наиболее цитируемые URL](#наиболее-цитируемые-url)
+- [Детали топ-10](#детали-топ-10)
+  - [`https://github.com/svend4/nautilus/issues`](#httpsgithubcomsvend4nautilusissues)
+  - [`https://github.com/svend4/nautilus`](#httpsgithubcomsvend4nautilus)
+  - [`https://github.com/svend4/ingit`](#httpsgithubcomsvend4ingit)
+  - [`https://github.com/svend4/pro2`](#httpsgithubcomsvend4pro2)
+  - [`https://habr.com/ru/articles/1006622/`](#httpshabrcomruarticles1006622)
+  - [`https://habr.com/ru/companies/airi/articles/1000720/`](#httpshabrcomrucompaniesairiarticles1000720)
+  - [`https://habr.com/ru/articles/1007122/`](#httpshabrcomruarticles1007122)
+  - [`https://habr.com/ru/companies/airi/articles/855128/`](#httpshabrcomrucompaniesairiarticles855128)
+  - [`https://github.com/mcp`](#httpsgithubcommcp)
+  - [`https://github.com/AnastasiyaW/knowledge-space`](#httpsgithubcomanastasiyawknowledge-space)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
 
 <!-- toc-auto -->
 
@@ -230,3 +252,30 @@ python scripts/improve_citation_index.py
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[LINK_PREVIEW]]
+- [[NAMED_ENTITIES]]
+- [[SPELLCHECK]]
+- [[KEYWORD_INDEX]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [[HEALTH]]
+- [[METRICS]]
+- [[NAMED_ENTITIES]]
+- [[READABILITY]]
+- [[READING_LIST]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- _...ещё 1_
+

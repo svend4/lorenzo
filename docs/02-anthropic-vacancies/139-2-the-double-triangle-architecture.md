@@ -189,3 +189,7 @@ large organizations (Star(n)) without protocol changes.
 - [148-appendix-a-glossary](148-appendix-a-glossary.md)
 - [README](README.md)
 
+# Bridges
+
+## Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.

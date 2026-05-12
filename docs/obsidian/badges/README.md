@@ -1,24 +1,11 @@
 ---
 title: "Бейджи репозитория"
 tags:
-  - readme
-  - docs
   - badges
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Бейджи репозитория
-
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
-<!-- summary -->
-> `README` — раздел документации проекта Lorenzo.
-
 
 Автоматически генерируются скриптом `improve_badges.py`.
 
@@ -43,22 +30,3 @@ date: 2026-05-11
 ![license](license.svg)
 ![branch](branch.svg)
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [[BADGES]]
-- [[DEPENDABOT]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[SEARCH]]
-- [[SKILL_DASHBOARD]]
-- [[TABLES]]
-- _...ещё 1_
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.

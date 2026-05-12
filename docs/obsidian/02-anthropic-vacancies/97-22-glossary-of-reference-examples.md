@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 22. Glossary of Reference Examples

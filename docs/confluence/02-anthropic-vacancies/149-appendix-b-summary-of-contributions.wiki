@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Appendix B: Summary of Contributions
@@ -146,3 +146,7 @@ h2. Кто ссылается на этот документ (12)
 * [308-table-of-contents|308-table-of-contents.md]
 * _...ещё 4_
 
+h1. Author & Contact
+
+h2. Author & Contact
+Кто поддерживает, как связаться.

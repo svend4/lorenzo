@@ -2,20 +2,13 @@
 title: "Прогресс MVP"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Прогресс MVP
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `PROGRESS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> _Обновлено: 2026-05-11 (improve_progress_sync.py)_
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
 
 ---
@@ -24,7 +17,12 @@ date: 2026-05-11
 
 
 
-_Обновлено: 2026-05-11 (improve_progress_sync.py)_
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+_Обновлено: 2026-05-12 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
@@ -88,18 +86,29 @@ cat docs/contacts/anastasiyaw.md
 
 <!-- auto-end -->
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[SCHEDULE]]
+- [[first-contacts]]
+- [[DENSITY]]
+- [[INDEX]]
+
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (11):**
+**Кто ссылается на этот документ (13):**
 - [[07-mvp-planning]]
 - [[116-9-checklist-применения-методологии]]
 - [[CODE_BLOCKS]]
+- [[CONTACTS]]
 - [[DECISIONS]]
 - [[INDEX]]
 - [[OUTLINE]]
 - [[READABILITY]]
-- [[READING_TIME]]
-- _...ещё 3_
+- _...ещё 5_
 

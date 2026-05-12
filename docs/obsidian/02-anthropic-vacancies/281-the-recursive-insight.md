@@ -3,7 +3,7 @@ title: "The Recursive Insight"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # The Recursive Insight

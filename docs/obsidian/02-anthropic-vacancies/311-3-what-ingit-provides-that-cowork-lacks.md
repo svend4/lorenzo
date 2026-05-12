@@ -2,7 +2,7 @@
 title: "3. What InGit Provides That Cowork Lacks"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 3. What InGit Provides That Cowork Lacks

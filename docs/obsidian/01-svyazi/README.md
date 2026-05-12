@@ -4,7 +4,7 @@ tags:
   - svyazi
   - architecture
   - overview
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Svyazi[^svyazi] 2.0 — Архитектура и исследование

@@ -138,3 +138,19 @@ python scripts/improve_semantic_search.py --query "4 Passport passport md"
 - [63-history](63-history.md)
 - [README](README.md)
 
+# Essence
+
+## Essence
+Один абзац: что это, для кого, почему существует.
+
+# Объём
+
+## Объём
+
+- Единиц: 5 (demo)
+
+# Q6-отображение
+
+## Q6-отображение
+
+Не определено (Level 1).

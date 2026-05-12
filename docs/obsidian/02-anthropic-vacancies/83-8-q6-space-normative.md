@@ -5,7 +5,7 @@ tags:
   - architecture
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 8. Q6 Space (Normative)

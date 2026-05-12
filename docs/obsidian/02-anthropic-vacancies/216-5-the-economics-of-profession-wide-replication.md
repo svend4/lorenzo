@@ -4,7 +4,7 @@ tags:
   - rag
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 5. The Economics of Profession-Wide Replication

@@ -2,7 +2,7 @@
 title: "3. Three Inter-Layer Protocols"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 3. Three Inter-Layer Protocols

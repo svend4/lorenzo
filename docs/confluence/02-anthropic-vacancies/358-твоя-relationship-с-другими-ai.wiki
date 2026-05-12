@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Твоя relationship с другими AI

@@ -1,17 +1,12 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/COST.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Оценка стоимости MVP
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{COST}} формируется автоматически из данных репозитория.{quote}
 
-
-
-
-{quote}_Ориентировочные цифры на основе документации проекта._{quote}
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
 
 ----
@@ -30,6 +25,11 @@ h2. Содержание
 
 
 
+
+
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -104,19 +104,25 @@ h2. Допущения
 
 ----
 
-_Кто ссылается на этот документ (7):_
+_Смотрите также:_
+* [SCHEDULE|SCHEDULE.md]
+* [SCORING|SCORING.md]
+* [DENSITY|DENSITY.md]
+* [mvp-plan|svyazi-2-0/prototype/mvp-plan.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [DENSITY|DENSITY.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
+* [SCORING|SCORING.md]
 * [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
+* _...ещё 1_
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_cost.py
-{code}

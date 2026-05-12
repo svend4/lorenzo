@@ -1,5 +1,24 @@
 # Список чтения
 
+<!-- toc -->
+## Содержание
+
+- [По секциям](#по-секциям)
+  - [`02-anthropic-vacancies` (6 докум., ~387 мин)](#02-anthropic-vacancies-6-докум-387-мин)
+  - [`04-ai-collaborations` (1 докум., ~53 мин)](#04-ai-collaborations-1-докум-53-мин)
+  - [`CONCEPTS.md` (1 докум., ~65 мин)](#conceptsmd-1-докум-65-мин)
+  - [`OUTLINE.md` (1 докум., ~183 мин)](#outlinemd-1-докум-183-мин)
+  - [`READABILITY.md` (1 докум., ~159 мин)](#readabilitymd-1-докум-159-мин)
+  - [`READING_TIME.md` (1 докум., ~117 мин)](#reading_timemd-1-докум-117-мин)
+  - [`SITEMAP.md` (1 докум., ~41 мин)](#sitemapmd-1-докум-41-мин)
+  - [`SOURCE_MAP.md` (1 докум., ~50 мин)](#source_mapmd-1-докум-50-мин)
+  - [`TABLES.md` (1 докум., ~1426 мин)](#tablesmd-1-докум-1426-мин)
+  - [`nautilus` (1 докум., ~39 мин)](#nautilus-1-докум-39-мин)
+- [Использование](#использование)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -89,3 +108,30 @@ _Обновлено: 2026-05-11_
 # Запуск
 python scripts/improve_reading_list.py
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [COMPLEXITY](COMPLEXITY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [COMPLEXITY](COMPLEXITY.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- [04-enrichment](meta-scripting/04-enrichment.md)
+- _...ещё 1_
+

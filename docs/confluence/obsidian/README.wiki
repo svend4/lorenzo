@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -10,7 +10,7 @@ tags:
   * index
   * overview
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. docs

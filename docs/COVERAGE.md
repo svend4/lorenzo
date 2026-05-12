@@ -1,7 +1,7 @@
 # Матрица покрытия документов
 
 > [!NOTE]
-> Раздел `COVERAGE` формируется автоматически из данных репозитория.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
@@ -15,7 +15,7 @@
 
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-12_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -58,15 +58,25 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 ```
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [HEATMAP](HEATMAP.md)
+- [SCORING](SCORING.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (7):**
-- [HEATMAP](HEATMAP.md)
+**Кто ссылается на этот документ (6):**
+- [CROSS_SECTION](CROSS_SECTION.md)
 - [METRICS](METRICS.md)
 - [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)

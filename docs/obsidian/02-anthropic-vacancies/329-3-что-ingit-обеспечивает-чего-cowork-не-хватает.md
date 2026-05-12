@@ -2,7 +2,7 @@
 title: "3. Что InGit обеспечивает, чего Cowork не хватает"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 3. Что InGit обеспечивает, чего Cowork не хватает
@@ -302,3 +302,10 @@ python scripts/improve_semantic_search.py --query "3 Что InGit обеспеч
 - [[326-содержание]]
 - [[README]]
 
+# Author
+
+## Author
+example_user, example@email.com
+```
+
+---

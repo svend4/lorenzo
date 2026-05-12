@@ -1,19 +1,12 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SCORING.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Оценка готовности проекта (Go/No-Go)
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{SCORING}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-{quote}1. _[вес 5]_ Слишком много сломанных ссылок{quote}
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 ----
 
@@ -21,7 +14,12 @@ h1. Оценка готовности проекта (Go/No-Go)
 
 
 
-_Дата: 2026-05-11_
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+_Дата: 2026-05-12_
 
 h2. Итог: _159/164_ (96%) — 🟢 GO
 
@@ -80,21 +78,25 @@ h2. ✅ Проект готов к запуску MVP!
 
 ----
 
-_Кто ссылается на этот документ (20):_
-* [CROSS_SECTION|CROSS_SECTION.md]
+_Смотрите также:_
+* [SCHEDULE|SCHEDULE.md]
+* [HEATMAP|HEATMAP.md]
+* [DENSITY|DENSITY.md]
+* [COST|COST.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (19):_
+* [COST|COST.md]
+* [COVERAGE|COVERAGE.md]
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
 * [GITHUB_ISSUES|GITHUB_ISSUES.md]
 * [HEADING_AUDIT|HEADING_AUDIT.md]
 * [HEALTH|HEALTH.md]
 * [INDEX|INDEX.md]
-* [LANGUAGE_STATS|LANGUAGE_STATS.md]
 * [METRICS|METRICS.md]
-* _...ещё 12_
+* _...ещё 11_
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_scoring.py
-{code}

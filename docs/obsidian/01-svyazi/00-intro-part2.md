@@ -5,7 +5,7 @@ tags:
   - architecture
   - research
   - continuation
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Продолжение исследования для Svyazi[^svyazi] 2.0

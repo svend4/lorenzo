@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "3. Что InGit обеспечивает, чего Cowork не хватает"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. 3. Что InGit обеспечивает, чего Cowork не хватает
@@ -307,3 +307,10 @@ python scripts/improve_semantic_search.py --query "3 Что InGit обеспеч
 - [[326-содержание]]
 - [[README]]
 
+# Author
+
+## Author
+example_user, example@email.com
+{code}
+
+----

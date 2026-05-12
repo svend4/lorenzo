@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * architecture
   * collaboration
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛЬНОЙ РАБОТЫ
@@ -163,3 +163,7 @@ python scripts/improve_semantic_search.py --query "ИНФРАСТРУКТУРА 
 - [[324-ingit-как-cowork-интегрированная-подложка-рабочего]]
 - [[README]]
 
+# Essence
+
+## Essence
+Персональная коллекция Markdown-заметок.

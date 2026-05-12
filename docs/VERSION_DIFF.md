@@ -1,5 +1,15 @@
 # Diff базы знаний между версиями
 
+<!-- toc -->
+## Содержание
+
+- [📝 Изменённые файлы (184)](#изменённые-файлы-184)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -228,3 +238,30 @@ python scripts/improve_version_diff.py --dry-run
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
 - [Контакты](CONTACTS.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [TAGS](TAGS.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [STALENESS](STALENESS.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [yodoca](05-habr-projects/memory/yodoca.md)
+- [ABBREVIATIONS](ABBREVIATIONS.md)
+- [AUTOFILLED](AUTOFILLED.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [INDEX](INDEX.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 5_
+

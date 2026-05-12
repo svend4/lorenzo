@@ -1,5 +1,27 @@
 # Индекс цитирования URL
 
+<!-- toc -->
+## Содержание
+
+- [Топ доменов](#топ-доменов)
+- [Наиболее цитируемые URL](#наиболее-цитируемые-url)
+- [Детали топ-10](#детали-топ-10)
+  - [`https://github.com/svend4/nautilus/issues`](#httpsgithubcomsvend4nautilusissues)
+  - [`https://github.com/svend4/nautilus`](#httpsgithubcomsvend4nautilus)
+  - [`https://github.com/svend4/ingit`](#httpsgithubcomsvend4ingit)
+  - [`https://github.com/svend4/pro2`](#httpsgithubcomsvend4pro2)
+  - [`https://habr.com/ru/articles/1006622/`](#httpshabrcomruarticles1006622)
+  - [`https://habr.com/ru/companies/airi/articles/1000720/`](#httpshabrcomrucompaniesairiarticles1000720)
+  - [`https://habr.com/ru/articles/1007122/`](#httpshabrcomruarticles1007122)
+  - [`https://habr.com/ru/companies/airi/articles/855128/`](#httpshabrcomrucompaniesairiarticles855128)
+  - [`https://github.com/mcp`](#httpsgithubcommcp)
+  - [`https://github.com/AnastasiyaW/knowledge-space`](#httpsgithubcomanastasiyawknowledge-space)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -223,3 +245,30 @@ python scripts/improve_citation_index.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LINK_PREVIEW](LINK_PREVIEW.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [HEALTH](HEALTH.md)
+- [METRICS](METRICS.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

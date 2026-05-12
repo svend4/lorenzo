@@ -2,7 +2,7 @@
 title: "1. Открытие Cowork и почему это меняет всё"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 1. Открытие Cowork и почему это меняет всё

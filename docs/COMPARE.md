@@ -1,33 +1,17 @@
 # Сравнение с предыдущим коммитом
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `COMPARE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> **Файлов было:** 1478  **стало:** 2482
-
----
-<!-- tags: memory, orchestration, architecture, roadmap, anthropic, collaboration -->
+**Файлов было:** 1478  **стало:** 2497  
+**Слов было:** 2,102,956  **стало:** 2,938,270  **Δ:** +835,314
 
 
-
-
-**Файлов было:** 1478  **стало:** 2482  
-**Слов было:** 2,194,383  **стало:** 2,940,147  **Δ:** +745,764
-
-
-## Новые файлы (1004)
+## Новые файлы (1019)
 
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` (19240 слов)
 - `docs/02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md` (3329 слов)
 - `docs/02-anthropic-vacancies/102-доступ-к-данным.md` (320 слов)
 - `docs/02-anthropic-vacancies/107-1-контекст-и-мотивация.md` (487 слов)
 - `docs/02-anthropic-vacancies/108-2-формальный-workflow.md` (443 слов)
-- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (700 слов)
+- `docs/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md` (711 слов)
 - `docs/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` (381 слов)
 - `docs/02-anthropic-vacancies/111-4-условия-применимости.md` (341 слов)
 - `docs/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md` (442 слов)
@@ -62,63 +46,42 @@
 - `docs/02-anthropic-vacancies/196-6-этическая-рамка.md` (653 слов)
 - `docs/02-anthropic-vacancies/197-7-управление-и-надзор.md` (573 слов)
 - `docs/02-anthropic-vacancies/198-8-риски-и-меры-противодействия.md` (645 слов)
-_...и ещё 964_
+_...и ещё 979_
 
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (183) — топ по Δ слов
+## Изменившиеся файлы (479) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `TABLES.md` | 352808 | 328224 | -24584 |
-| `TABLES.md` | 352795 | 328225 | -24570 |
-| `QUESTIONS.md` | 23648 | 1832 | -21816 |
-| `QUESTIONS.md` | 23629 | 1836 | -21793 |
-| `TIMELINE.md` | 2109 | 4832 | +2723 |
-| `TIMELINE.md` | 2124 | 4832 | +2708 |
-| `SCRIPTS_CATALOG.md` | 8549 | 7748 | -801 |
-| `LINK_PREVIEW.md` | 2050 | 2712 | +662 |
-| `CODE_BLOCKS.md` | 5973 | 5325 | -648 |
-| `CODE_BLOCKS.md` | 5983 | 5335 | -648 |
-| `FAQ.md` | 1790 | 1378 | -412 |
-| `BROKEN_LINKS.md` | 611 | 959 | +348 |
-| `ACTION_ITEMS.md` | 9144 | 9409 | +265 |
-| `ACTION_ITEMS.md` | 9157 | 9408 | +251 |
-| `PRIORITIES.md` | 3663 | 3440 | -223 |
-| `CONCEPTS.md` | 15108 | 14895 | -213 |
-| `PRIORITIES.md` | 3649 | 3444 | -205 |
-| `SEARCH.md` | 22868 | 23073 | +205 |
-| `ABBREVIATIONS.md` | 2046 | 1843 | -203 |
-| `DUPLICATES.md` | 2217 | 2015 | -202 |
-| `READABILITY.md` | 37557 | 37360 | -197 |
-| `CONCEPTS.md` | 15168 | 14973 | -195 |
-| `ABBREVIATIONS.md` | 2034 | 1845 | -189 |
-| `DUPLICATES.md` | 2202 | 2018 | -184 |
-| `CONTENT_GAPS.md` | 1061 | 899 | -162 |
-| `WORD_FREQ.md` | 3475 | 3321 | -154 |
-| `NARRATIVE.md` | 1206 | 1055 | -151 |
-| `READING_ORDER.md` | 6185 | 6041 | -144 |
-| `WORD_FREQ.md` | 3464 | 3324 | -140 |
-| `NETWORK.md` | 530 | 413 | -117 |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_compare.py
-```
+| `QUESTIONS.md` | 21644 | 1832 | -19812 |
+| `QUESTIONS.md` | 21625 | 1882 | -19743 |
+| `OUTLINE.md` | 40574 | 47483 | +6909 |
+| `OUTLINE.md` | 40589 | 47498 | +6909 |
+| `EMPTY_SECTIONS.md` | 31679 | 37649 | +5970 |
+| `SUMMARIES.md` | 5294 | 42 | -5252 |
+| `PARAGRAPH_QUALITY.md` | 12488 | 17500 | +5012 |
+| `PARAGRAPH_QUALITY.md` | 12498 | 17510 | +5012 |
+| `HEADING_AUDIT.md` | 8744 | 13632 | +4888 |
+| `TIMELINE.md` | 2143 | 4827 | +2684 |
+| `TIMELINE.md` | 2158 | 4841 | +2683 |
+| `CHANGELOG.md` | 4124 | 5757 | +1633 |
+| `CHANGELOG.md` | 4133 | 5766 | +1633 |
+| `REPORT.md` | 986 | 327 | -659 |
+| `REPORT.md` | 972 | 326 | -646 |
+| `LINK_PREVIEW.md` | 2790 | 3351 | +561 |
+| `CONSISTENCY.md` | 1046 | 658 | -388 |
+| `GITHUB_ISSUES.md` | 3129 | 3493 | +364 |
+| `GITHUB_ISSUES.md` | 3142 | 3506 | +364 |
+| `CONSISTENCY.md` | 1032 | 715 | -317 |
+| `READING_TIME.md` | 27586 | 27400 | -186 |
+| `SIMILAR_PASSAGES.md` | 1426 | 1606 | +180 |
+| `NAMED_ENTITIES.md` | 1569 | 1744 | +175 |
+| `NAMED_ENTITIES.md` | 1580 | 1755 | +175 |
+| `NARRATIVE.md` | 1233 | 1070 | -163 |
+| `READING_TIME.md` | 27575 | 27416 | -159 |
+| `CONCEPTS.md` | 15040 | 15197 | +157 |
+| `CONCEPTS.md` | 14980 | 15137 | +157 |
+| `RISK_REGISTER.md` | 817 | 959 | +142 |
+| `RISK_REGISTER.md` | 830 | 972 | +142 |

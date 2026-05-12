@@ -6,7 +6,7 @@ tags:
   - ingestion
   - architecture
   - technology-combinations
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Домен: немецкое социальное право

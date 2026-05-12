@@ -5,7 +5,7 @@ tags:
   - architecture
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Acknowledgments
@@ -184,3 +184,7 @@ python scripts/improve_semantic_search.py --query "Acknowledgments"
 - 306-with-[[306-with-anthropic-s-cowork-platform|anthropic-s-cowork-platform]]
 - _...ещё 3_
 
+# Angle / Perspective
+
+## Angle / Perspective
+Methodological: how-to и reflection.

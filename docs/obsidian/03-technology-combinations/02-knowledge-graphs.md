@@ -2,7 +2,7 @@
 title: "Графы знаний и Legal AI"
 tags:
   - technology-combinations
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Графы знаний и Legal AI

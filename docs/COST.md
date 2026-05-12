@@ -1,12 +1,7 @@
 # Оценка стоимости MVP
 
-> [!NOTE]
-> Раздел `COST` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> _Ориентировочные цифры на основе документации проекта._
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** CardIndex, AgentFS, Rufler, Yodoca, SENTINEL, Tool Search
 
 ---
@@ -27,6 +22,11 @@
 
 
 
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 
 _Ориентировочные цифры на основе документации проекта._
 
@@ -100,23 +100,29 @@ _Минимальный сценарий: open source + личное время 
 - Сервера и инфраструктура: не включены (~$200-500/мес)
 - Авторы OSS-компонентов могут участвовать добровольно → снижает бюджет
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SCHEDULE](SCHEDULE.md)
+- [SCORING](SCORING.md)
+- [DENSITY](DENSITY.md)
+- [mvp-plan](svyazi-2-0/prototype/mvp-plan.md)
+
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (7):**
+**Кто ссылается на этот документ (9):**
+- [DENSITY](DENSITY.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
+- [SCORING](SCORING.md)
 - [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- _...ещё 1_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_cost.py
-```

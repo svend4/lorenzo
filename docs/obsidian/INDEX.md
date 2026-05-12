@@ -4,10 +4,28 @@ tags:
   - index
   - docs
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Индекс документации — Lorenzo / Svyazi 2.0
+
+<!-- toc -->
+## Содержание
+
+- [Метрики репозитория](#метрики-репозитория)
+- [Разделы документации](#разделы-документации)
+  - [[README|[🏗️  Архитектура Svyazi 2.0]]](#архитектура-svyazi-2001-svyazireadmemd)
+  - [[README|[💼 Вакансии Anthropic]]](#вакансии-anthropic02-anthropic-vacanciesreadmemd)
+  - [[README|[⚗️  Комбинации технологий]]](#комбинации-технологий03-technology-combinationsreadmemd)
+  - [[README|[🤝 AI-коллаборации]]](#ai-коллаборации04-ai-collaborationsreadmemd)
+  - [[README|[📦 Хабр-проекты]]](#хабр-проекты05-habr-projectsreadmemd)
+- [Аналитика и отчёты](#аналитика-и-отчёты)
+- [Ключевые документы](#ключевые-документы)
+- [LLM-обогащение (Ступень 3)](#llm-обогащение-ступень-3)
+- [Быстрый старт](#быстрый-старт)
+
+---
+
 
 <!-- toc-auto -->
 
@@ -143,4 +161,31 @@ python scripts/improve_run_all.py --group analysis
 ---
 
 _Индекс сгенерирован автоматически · 2482 документов · 166 скриптов_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[ONBOARDING]]
+- [[VERSION_DIFF]]
+- [[DEPENDENCY_MAP]]
+- [[LLM_SUMMARIES]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (16):**
+- [[README]]
+- [[ABBREVIATIONS]]
+- [[DEPENDENCY_MAP]]
+- [[DIGEST_AUTO]]
+- [[FAQ]]
+- [[FOOTNOTES]]
+- [[LLM_SUMMARIES]]
+- [[NETWORK]]
+- _...ещё 8_
 

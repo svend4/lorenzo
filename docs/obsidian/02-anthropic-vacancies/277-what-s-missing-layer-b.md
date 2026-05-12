@@ -3,7 +3,7 @@ title: "What's Missing — Layer B"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # What's Missing — Layer B

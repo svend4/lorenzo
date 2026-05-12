@@ -1,9 +1,7 @@
 # Поисковый индекс
 
-<!-- toc-auto -->
-
 <!-- summary -->
-> Индекс **2481** документов, **2,412,392** слов
+> Индекс **2498** документов, **2,335,998** слов
 
 <!-- tags: search, index, knowledge-base, navigation -->
 
@@ -12,8 +10,8 @@
 
 <!-- alert-added -->
 
-**Файлов:** 2481  
-**Слов:** 2,412,392
+**Файлов:** 2498  
+**Слов:** 2,335,998
 
 ## Индекс документов
 
@@ -44,7 +42,7 @@
 | [06-1-introduction](02-anthropic-vacancies/06-1-introduction.md) | collaboration |  | 454 |
 | [07-2-terminology](02-anthropic-vacancies/07-2-terminology.md) | architecture, collaboration |  | 397 |
 | [08-3-registry-nautilus-json](02-anthropic-vacancies/08-3-registry-nautilus-json.md) | architecture |  | 549 |
-| [09-4-passport-passport-md](02-anthropic-vacancies/09-4-passport-passport-md.md) | anthropic |  | 359 |
+| [09-4-passport-passport-md](02-anthropic-vacancies/09-4-passport-passport-md.md) | anthropic |  | 381 |
 | [102-доступ-к-данным](02-anthropic-vacancies/102-доступ-к-данным.md) | anthropic |  | 318 |
 | [103-appendix-b-change-log](02-anthropic-vacancies/103-appendix-b-change-log.md) | rag, architecture |  | 434 |
 | [104-appendix-c-references](02-anthropic-vacancies/104-appendix-c-references.md) | memory, rag, ingestion |  | 1238 |
@@ -52,7 +50,7 @@
 | [106-tl-dr](02-anthropic-vacancies/106-tl-dr.md) | memory |  | 314 |
 | [107-1-контекст-и-мотивация](02-anthropic-vacancies/107-1-контекст-и-мотивация.md) | memory, roadmap, collaboration |  | 473 |
 | [108-2-формальный-workflow](02-anthropic-vacancies/108-2-формальный-workflow.md) | memory, architecture, roadmap |  | 403 |
-| [109-3-принципы-консолидации-фаза-c](02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) | memory, rag, roadmap |  | 680 |
+| [109-3-принципы-консолидации-фаза-c](02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) | memory, rag, roadmap |  | 690 |
 | [110-вопрос-fallback-ratio-как-критический-или](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) | memory, rag, collaboration |  | 362 |
 | [111-4-условия-применимости](02-anthropic-vacancies/111-4-условия-применимости.md) | memory, architecture, roadmap |  | 328 |
 | [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) | memory, rag |  | 435 |
@@ -84,7 +82,7 @@
 | [136-abstract](02-anthropic-vacancies/136-abstract.md) | rag, architecture |  | 683 |
 | [137-table-of-contents](02-anthropic-vacancies/137-table-of-contents.md) | architecture |  | 424 |
 | [138-1-why-single-triangle-models-are-incomple](02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | architecture, anthropic |  | 618 |
-| [139-2-the-double-triangle-architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | architecture |  | 763 |
+| [139-2-the-double-triangle-architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | architecture |  | 775 |
 | [140-3-three-inter-layer-protocols](02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) |  |  | 1064 |
 | [141-4-nautilus-portal-as-reference-substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) | rag, knowledge, architecture |  | 969 |
 | [142-5-pattern-library-as-bridge-between-trian](02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) | security, roadmap |  | 882 |
@@ -94,7 +92,7 @@
 | [146-acknowledgments](02-anthropic-vacancies/146-acknowledgments.md) | rag, roadmap, anthropic |  | 590 |
 | [147-references](02-anthropic-vacancies/147-references.md) | roadmap, anthropic, collaboration |  | 432 |
 | [148-appendix-a-glossary](02-anthropic-vacancies/148-appendix-a-glossary.md) | roadmap |  | 593 |
-| [149-appendix-b-summary-of-contributions](02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) | architecture |  | 445 |
+| [149-appendix-b-summary-of-contributions](02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) | architecture |  | 455 |
 | [150-appendix-c-version-history](02-anthropic-vacancies/150-appendix-c-version-history.md) |  |  | 8625 |
 | [151-open-knowledge-work-foundation-md](02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) | anthropic |  | 451 |
 | [152-ai-coordinated-infrastructure-for-distrib](02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) | collaboration |  | 363 |
@@ -247,7 +245,7 @@
 | [286-acknowledgments](02-anthropic-vacancies/286-acknowledgments.md) | architecture, anthropic |  | 505 |
 | [287-references](02-anthropic-vacancies/287-references.md) | anthropic |  | 353 |
 | [288-appendix-position-in-series-visualization](02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) | orchestration, architecture, roadmap |  | 1270 |
-| [289-инфраструктура-для-ai-совместной-интеллек](02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) | architecture, collaboration |  | 454 |
+| [289-инфраструктура-для-ai-совместной-интеллек](02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) | architecture, collaboration |  | 459 |
 | [290-почему-этот-документ-существует](02-anthropic-vacancies/290-почему-этот-документ-существует.md) | architecture, roadmap, collaboration |  | 383 |
 | [291-двухслойный-стек-как-он-существует](02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) | architecture, anthropic |  | 604 |
 | [292-что-отсутствует-слой-b](02-anthropic-vacancies/292-что-отсутствует-слой-b.md) | architecture |  | 614 |
@@ -257,7 +255,7 @@
 | [296-рекурсивное-прозрение](02-anthropic-vacancies/296-рекурсивное-прозрение.md) | orchestration, architecture, roadmap |  | 552 |
 | [297-что-промышленность-вероятно-построит](02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) | architecture, anthropic, collaboration |  | 362 |
 | [298-что-этот-документ-не-решает](02-anthropic-vacancies/298-что-этот-документ-не-решает.md) | architecture, collaboration |  | 325 |
-| [299-практические-рекомендации-для-текущего-пр](02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) | architecture, anthropic |  | 614 |
+| [299-практические-рекомендации-для-текущего-пр](02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) | architecture, anthropic |  | 623 |
 | [300-заключение](02-anthropic-vacancies/300-заключение.md) | architecture, collaboration |  | 294 |
 | [301-благодарности](02-anthropic-vacancies/301-благодарности.md) | architecture, collaboration |  | 479 |
 | [302-ссылки](02-anthropic-vacancies/302-ссылки.md) | anthropic |  | 324 |
@@ -278,7 +276,7 @@
 | [316-8-implications-for-nautilus-and-okwf](02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) | rag, architecture |  | 740 |
 | [317-9-risks-and-open-questions](02-anthropic-vacancies/317-9-risks-and-open-questions.md) |  |  | 618 |
 | [318-10-strategic-positioning](02-anthropic-vacancies/318-10-strategic-positioning.md) |  |  | 812 |
-| [319-acknowledgments](02-anthropic-vacancies/319-acknowledgments.md) | rag, architecture, collaboration |  | 668 |
+| [319-acknowledgments](02-anthropic-vacancies/319-acknowledgments.md) | rag, architecture, collaboration |  | 678 |
 | [320-references](02-anthropic-vacancies/320-references.md) | anthropic, collaboration |  | 374 |
 | [321-appendix-a-decision-tree-for-ingit-adopte](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) |  |  | 417 |
 | [322-appendix-b-comparison-matrix](02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) |  |  | 309 |
@@ -288,7 +286,7 @@
 | [326-содержание](02-anthropic-vacancies/326-содержание.md) | architecture |  | 457 |
 | [327-1-открытие-cowork-и-почему-это-меняет-всё](02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) |  |  | 691 |
 | [328-2-что-cowork-обеспечивает-что-ingit-не-ну](02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) | architecture, roadmap |  | 801 |
-| [329-3-что-ingit-обеспечивает-чего-cowork-не-х](02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) |  |  | 1085 |
+| [329-3-что-ingit-обеспечивает-чего-cowork-не-х](02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) |  |  | 1090 |
 | [330-4-симбиотическая-архитектура](02-anthropic-vacancies/330-4-симбиотическая-архитектура.md) | architecture, roadmap, collaboration |  | 705 |
 | [331-5-четыре-пути-интеграции-в-порядке-доступ](02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) | architecture, anthropic, collaboration |  | 825 |
 | [332-6-уточнённый-объём-ingit-с-учётом-cowork](02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) | architecture, roadmap |  | 625 |
@@ -357,7 +355,7 @@
 | [62-author-contact](02-anthropic-vacancies/62-author-contact.md) | collaboration |  | 394 |
 | [63-history](02-anthropic-vacancies/63-history.md) | architecture |  | 378 |
 | [64-for-the-curious-philosophy](02-anthropic-vacancies/64-for-the-curious-philosophy.md) | architecture, collaboration |  | 916 |
-| [65-readme-md](02-anthropic-vacancies/65-readme-md.md) | anthropic |  | 290 |
+| [65-readme-md](02-anthropic-vacancies/65-readme-md.md) | anthropic |  | 296 |
 | [67-о-проекте](02-anthropic-vacancies/67-о-проекте.md) | rag, architecture, collaboration |  | 1035 |
 | [68-about](02-anthropic-vacancies/68-about.md) | rag, architecture, anthropic |  | 959 |
 | [69-section](02-anthropic-vacancies/69-section.md) | memory, rag, security |  | 9519 |
@@ -389,7 +387,7 @@
 | [95-20-adr-002-q6-as-first-class-protocol-conc](02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) | anthropic, collaboration |  | 434 |
 | [96-21-adr-003-five-onboarding-paths-as-equal-](02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) | anthropic |  | 299 |
 | [97-22-glossary-of-reference-examples](02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) | knowledge, architecture, collaboration |  | 301 |
-| [98-appendix-a-minimal-working-example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | ingestion |  | 399 |
+| [98-appendix-a-minimal-working-example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | ingestion |  | 404 |
 | [QA](02-anthropic-vacancies/QA.md) | memory, rag, orchestration | CardIndex, AgentFS, knowledge-space | 436 |
 | [README](02-anthropic-vacancies/README.md) | anthropic, vacancies, career |  | 1644 |
 | [01-agent-routing](03-technology-combinations/01-agent-routing.md) |  | CardIndex, Auto AI Router | 432 |
@@ -416,6 +414,7 @@
 | [14-ограничения-лицензии-и-что-пока-лучше-не-с](04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 3406 |
 | [QA](04-ai-collaborations/QA.md) | rag, security, knowledge | CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space] | 383 |
 | [README](04-ai-collaborations/README.md) |  |  | 439 |
+| [test-card-message](04-ai-collaborations/test-card-message.md) |  |  | 30 |
 | [01-synthesis](05-habr-projects/01-synthesis.md) | architecture, roadmap |  | 334 |
 | [02-collaboration-partners](05-habr-projects/02-collaboration-partners.md) | knowledge, ingestion, collaboration | Svyazi[^svyazi] | 309 |
 | [QA](05-habr-projects/QA.md) | memory, rag, knowledge | CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space] | 291 |
@@ -432,118 +431,120 @@
 | [memnet](05-habr-projects/memory/memnet.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], Hybrid RAG[^rag] | 7358 |
 | [ngt-memory](05-habr-projects/memory/ngt-memory.md) | memory, ingestion, collaboration | Svyazi[^svyazi], NGT Memory | 440 |
 | [yodoca](05-habr-projects/memory/yodoca.md) | memory, ingestion, architecture | Svyazi, Yodoca | 417 |
-| [ABBREVIATIONS](ABBREVIATIONS.md) |  | SENTINEL, LiteLLM, Auto AI Router | 1430 |
-| [ACTION_ITEMS](ACTION_ITEMS.md) |  |  | 9188 |
-| [ALERTS](ALERTS.md) | ingestion |  | 87 |
+| [ABBREVIATIONS](ABBREVIATIONS.md) |  | SENTINEL, LiteLLM, Auto AI Router | 1360 |
+| [ACTION_ITEMS](ACTION_ITEMS.md) |  | Svyazi, CardIndex, AgentFS | 9311 |
+| [ALERTS](ALERTS.md) |  |  | 50 |
 | [AUTHORS](AUTHORS.md) |  |  | 66 |
 | [AUTOFILLED](AUTOFILLED.md) | ingestion, collaboration | Svyazi | 330 |
-| [BACKLINKS](BACKLINKS.md) | backlinks, docs |  | 461 |
-| [BADGES](BADGES.md) | badges, status, quality |  | 140 |
-| [BROKEN_LINKS](BROKEN_LINKS.md) |  |  | 516 |
-| [CHANGELOG](CHANGELOG.md) |  |  | 3692 |
-| [CHANGELOG_AUTO](CHANGELOG_AUTO.md) |  |  | 1951 |
-| [CITATION_INDEX](CITATION_INDEX.md) |  |  | 614 |
-| [CLUSTERS](CLUSTERS.md) |  | Svyazi, AgentFS, Yodoca | 1724 |
+| [BACKLINKS](BACKLINKS.md) |  | Svyazi, MemNet | 423 |
+| [BADGES](BADGES.md) | badges, status, quality |  | 115 |
+| [BROKEN_LINKS](BROKEN_LINKS.md) |  |  | 755 |
+| [CHANGELOG](CHANGELOG.md) |  |  | 5365 |
+| [CHANGELOG_AUTO](CHANGELOG_AUTO.md) |  |  | 1995 |
+| [CITATION_INDEX](CITATION_INDEX.md) |  |  | 663 |
+| [CLUSTERS](CLUSTERS.md) |  | Svyazi, AgentFS, Yodoca | 1682 |
 | [CODE_BLOCKS](CODE_BLOCKS.md) |  | Svyazi, CardIndex, AgentFS | 5951 |
 | [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md) | collaboration, projects, recommendations |  | 705 |
-| [COMPARE](COMPARE.md) | memory, orchestration, architecture |  | 397 |
-| [COMPLEXITY](COMPLEXITY.md) | complexity, docs |  | 383 |
-| [COMPONENT_MATRIX](COMPONENT_MATRIX.md) |  |  | 540 |
-| [CONCEPTS](CONCEPTS.md) | concepts, docs |  | 16451 |
-| [CONCEPT_GRAPH](CONCEPT_GRAPH.md) |  |  | 635 |
-| [CONSISTENCY](CONSISTENCY.md) | consistency, docs |  | 975 |
-| [CONTACTS](CONTACTS.md) |  | Svyazi, CardIndex, AgentFS | 403 |
-| [CONTACT_PRIORITY](CONTACT_PRIORITY.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 294 |
-| [CONTENT_GAPS](CONTENT_GAPS.md) |  | Svyazi | 856 |
-| [CONTRADICTIONS](CONTRADICTIONS.md) | contradictions, docs |  | 2116 |
-| [COST](COST.md) | memory, orchestration, security | CardIndex, AgentFS, Rufler | 317 |
-| [COVERAGE](COVERAGE.md) | security, ingestion, architecture | Svyazi | 212 |
-| [CROSSREFS](CROSSREFS.md) |  |  | 491 |
-| [CROSS_SECTION](CROSS_SECTION.md) |  |  | 3854 |
-| [DECISIONS](DECISIONS.md) | memory, rag, collaboration | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1841 |
+| [COMPARE](COMPARE.md) |  |  | 340 |
+| [COMPLEXITY](COMPLEXITY.md) |  | Rufler, MemNet | 407 |
+| [COMPONENT_MATRIX](COMPONENT_MATRIX.md) |  |  | 589 |
+| [CONCEPTS](CONCEPTS.md) | concepts, docs |  | 16485 |
+| [CONCEPT_GRAPH](CONCEPT_GRAPH.md) |  | Svyazi | 607 |
+| [CONSISTENCY](CONSISTENCY.md) |  |  | 499 |
+| [CONTACTS](CONTACTS.md) |  | Svyazi, CardIndex, AgentFS | 418 |
+| [CONTACT_PRIORITY](CONTACT_PRIORITY.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 312 |
+| [CONTENT_GAPS](CONTENT_GAPS.md) |  |  | 659 |
+| [CONTRADICTIONS](CONTRADICTIONS.md) |  |  | 1590 |
+| [COST](COST.md) | memory, orchestration, security | CardIndex, AgentFS, Rufler | 333 |
+| [COVERAGE](COVERAGE.md) | security, ingestion, architecture | Svyazi | 230 |
+| [CROSSREFS](CROSSREFS.md) |  | Svyazi, CardIndex, AgentFS | 522 |
+| [CROSS_SECTION](CROSS_SECTION.md) |  |  | 3766 |
+| [DECISIONS](DECISIONS.md) | memory, rag, collaboration | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1880 |
 | [DEMO](DEMO.md) |  |  | 525 |
-| [DENSITY](DENSITY.md) | density, docs |  | 377 |
-| [DEPENDABOT](DEPENDABOT.md) | dependabot, docs |  | 104 |
-| [DEPENDENCY_MAP](DEPENDENCY_MAP.md) |  |  | 889 |
-| [DIGEST](DIGEST.md) | roadmap |  | 242 |
-| [DIGEST_AUTO](DIGEST_AUTO.md) |  |  | 378 |
-| [DIGEST_WEEKLY](DIGEST_WEEKLY.md) |  |  | 280 |
-| [DUPLICATES](DUPLICATES.md) | duplicates, docs |  | 2063 |
-| [EMPTY_SECTIONS](EMPTY_SECTIONS.md) |  |  | 34377 |
-| [ENTITIES](ENTITIES.md) | entities, docs |  | 433 |
-| [FAQ](FAQ.md) | onboarding, docs |  | 1806 |
+| [DENSITY](DENSITY.md) |  | Svyazi, CardIndex, AgentFS | 412 |
+| [DEPENDABOT](DEPENDABOT.md) |  |  | 90 |
+| [DEPENDENCY_MAP](DEPENDENCY_MAP.md) |  |  | 938 |
+| [DIGEST](DIGEST.md) | rag, ingestion | Svyazi | 285 |
+| [DIGEST_AUTO](DIGEST_AUTO.md) |  |  | 384 |
+| [DIGEST_WEEKLY](DIGEST_WEEKLY.md) |  |  | 344 |
+| [DUPLICATES](DUPLICATES.md) |  |  | 1915 |
+| [EMPTY_SECTIONS](EMPTY_SECTIONS.md) |  |  | 34446 |
+| [ENTITIES](ENTITIES.md) |  | Svyazi, CardIndex, AgentFS | 491 |
+| [FAQ](FAQ.md) |  | Svyazi, CardIndex, AgentFS | 1828 |
 | [FOOTNOTES](FOOTNOTES.md) |  | Svyazi, CardIndex, AgentFS | 262 |
 | [GATEWAY](GATEWAY.md) |  |  | 1316 |
-| [GITHUB_ISSUES](GITHUB_ISSUES.md) |  |  | 3805 |
+| [GITHUB_ISSUES](GITHUB_ISSUES.md) |  |  | 3851 |
 | [GLOSSARY](GLOSSARY.md) |  |  | 91 |
 | [GRAPH](GRAPH.md) |  | Svyazi, CardIndex, AgentFS | 2918 |
-| [HEADING_AUDIT](HEADING_AUDIT.md) |  |  | 14796 |
+| [HEADING_AUDIT](HEADING_AUDIT.md) |  |  | 14812 |
 | [HEALTH](HEALTH.md) | health, quality, metrics |  | 218 |
-| [HEATMAP](HEATMAP.md) | heatmap, docs |  | 359 |
-| [INDEX](INDEX.md) | index, docs |  | 464 |
-| [KEYWORD_INDEX](KEYWORD_INDEX.md) |  |  | 529 |
-| [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md) |  |  | 415 |
-| [KPI](KPI.md) | kpi, docs |  | 2190 |
-| [KPI_HISTORY](KPI_HISTORY.md) |  |  | 141 |
-| [LANGUAGE_STATS](LANGUAGE_STATS.md) |  |  | 3535 |
-| [LINKS](LINKS.md) |  |  | 486 |
-| [LINK_PREVIEW](LINK_PREVIEW.md) |  | AgentFS, knowledge-space, Yodoca | 1360 |
+| [HEATMAP](HEATMAP.md) |  | Svyazi | 396 |
+| [INDEX](INDEX.md) | index, docs |  | 513 |
+| [KEYWORD_INDEX](KEYWORD_INDEX.md) | ingestion, architecture, anthropic | Svyazi | 500 |
+| [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md) |  |  | 464 |
+| [KPI](KPI.md) |  | Svyazi, AgentFS, Auto AI Router | 2178 |
+| [KPI_HISTORY](KPI_HISTORY.md) | anthropic |  | 151 |
+| [LANGUAGE_STATS](LANGUAGE_STATS.md) |  | Svyazi, CardIndex, AgentFS | 3487 |
+| [LINKS](LINKS.md) |  |  | 538 |
+| [LINK_PREVIEW](LINK_PREVIEW.md) |  | AgentFS, knowledge-space, Yodoca | 2199 |
+| [LLM_GAPS](LLM_GAPS.md) | architecture, anthropic |  | 89 |
 | [LLM_SUMMARIES](LLM_SUMMARIES.md) |  | Svyazi | 386 |
+| [MCP_DASHBOARD](MCP_DASHBOARD.md) |  |  | 21 |
 | [METHODOLOGY](METHODOLOGY.md) |  |  | 995 |
 | [METRICS](METRICS.md) | quality, metrics, documentation |  | 313 |
 | [MINDMAP](MINDMAP.md) |  | Svyazi, CardIndex, AgentFS | 297 |
-| [MISSING](MISSING.md) |  | Svyazi, CardIndex, AgentFS | 365 |
-| [NAMED_ENTITIES](NAMED_ENTITIES.md) |  |  | 1144 |
-| [NARRATIVE](NARRATIVE.md) | memory, rag, orchestration | Svyazi, AgentFS, AI Factory | 1170 |
+| [MISSING](MISSING.md) |  | Svyazi, CardIndex, AgentFS | 346 |
+| [NAMED_ENTITIES](NAMED_ENTITIES.md) |  |  | 1194 |
+| [NARRATIVE](NARRATIVE.md) | memory, rag, orchestration | Svyazi, AgentFS, AI Factory | 1172 |
 | [NETWORK](NETWORK.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 367 |
-| [ONBOARDING](ONBOARDING.md) | onboarding, docs |  | 374 |
-| [ORPHANS](ORPHANS.md) | orphans, docs |  | 131 |
-| [OUTLINE](OUTLINE.md) | outline, docs |  | 50330 |
-| [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) |  |  | 18678 |
-| [PASSIVE_VOICE](PASSIVE_VOICE.md) |  |  | 249 |
+| [ONBOARDING](ONBOARDING.md) | onboarding, docs |  | 467 |
+| [ORPHANS](ORPHANS.md) | orchestration |  | 124 |
+| [OUTLINE](OUTLINE.md) | outline, docs |  | 50385 |
+| [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md) |  |  | 18707 |
+| [PASSIVE_VOICE](PASSIVE_VOICE.md) |  |  | 298 |
 | [PRECISION_EVAL](PRECISION_EVAL.md) |  |  | 433 |
-| [PRIORITIES](PRIORITIES.md) | priorities, docs |  | 2077 |
-| [PROGRESS](PROGRESS.md) | progress, docs |  | 267 |
+| [PRIORITIES](PRIORITIES.md) |  | Svyazi, CardIndex, AgentFS | 2095 |
+| [PROGRESS](PROGRESS.md) |  | Svyazi, AgentFS, knowledge-space | 289 |
 | [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md) |  | Svyazi, CardIndex, AgentFS | 1505 |
 | [QA](QA.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 3738 |
-| [QUESTIONS](QUESTIONS.md) | questions, docs |  | 24176 |
-| [READABILITY](READABILITY.md) | quality, readability, metrics |  | 22632 |
-| [READING_LIST](READING_LIST.md) |  |  | 487 |
-| [READING_ORDER](READING_ORDER.md) |  | Svyazi, AgentFS, knowledge-space | 4162 |
-| [READING_TIME](READING_TIME.md) |  |  | 17641 |
+| [QUESTIONS](QUESTIONS.md) |  | Svyazi, CardIndex, AgentFS | 1883 |
+| [READABILITY](READABILITY.md) | quality, readability, metrics |  | 22628 |
+| [READING_LIST](READING_LIST.md) |  |  | 515 |
+| [READING_ORDER](READING_ORDER.md) |  | Svyazi, AgentFS, knowledge-space | 4123 |
+| [READING_TIME](READING_TIME.md) |  |  | 17559 |
 | [README](README.md) | meta, index, overview |  | 926 |
-| [REGISTRY](REGISTRY.md) | registry, docs |  | 992 |
-| [REPORT](REPORT.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 780 |
-| [RISK_REGISTER](RISK_REGISTER.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 748 |
-| [SCHEDULE](SCHEDULE.md) | memory, security, knowledge | Svyazi, CardIndex, AgentFS | 265 |
-| [SCORING](SCORING.md) | security, architecture, roadmap |  | 251 |
-| [SCRIPTS_CATALOG](SCRIPTS_CATALOG.md) |  |  | 8510 |
+| [REGISTRY](REGISTRY.md) |  |  | 1012 |
+| [REPORT](REPORT.md) |  |  | 227 |
+| [RISK_REGISTER](RISK_REGISTER.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 797 |
+| [SCHEDULE](SCHEDULE.md) | memory, security, knowledge | Svyazi, CardIndex, AgentFS | 283 |
+| [SCORING](SCORING.md) | security, architecture, roadmap |  | 279 |
+| [SCRIPTS_CATALOG](SCRIPTS_CATALOG.md) |  |  | 8443 |
 | [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md) |  |  | 2668 |
-| [SEARCH](SEARCH.md) |  |  | 13212 |
+| [SEARCH](SEARCH.md) |  |  | 13575 |
 | [SEARCH_RESULTS](SEARCH_RESULTS.md) | anthropic |  | 299 |
-| [SEE_ALSO](SEE_ALSO.md) |  | Svyazi | 421 |
-| [SENTIMENT](SENTIMENT.md) | sentiment, docs |  | 359 |
-| [SENTINEL](SENTINEL.md) | security, sentinel, privacy |  | 289 |
-| [SIMILAR](SIMILAR.md) | ingestion, collaboration | Svyazi | 199 |
-| [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) |  |  | 1467 |
-| [SITEMAP](SITEMAP.md) |  | Svyazi, CardIndex, AgentFS | 6891 |
-| [SKILL_DASHBOARD](SKILL_DASHBOARD.md) |  |  | 86 |
-| [SOURCE_MAP](SOURCE_MAP.md) |  |  | 5434 |
-| [SPELLCHECK](SPELLCHECK.md) |  | knowledge-space, MemNet | 381 |
-| [STALENESS](STALENESS.md) | orchestration, anthropic, collaboration |  | 237 |
-| [STATS](STATS.md) | rag, ingestion, anthropic | Svyazi | 429 |
-| [SUMMARIES](SUMMARIES.md) | summaries, docs |  | 5395 |
-| [TABLES](TABLES.md) | anthropic | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 124728 |
-| [TAGS](TAGS.md) |  |  | 125 |
-| [TASKS_INDEX](TASKS_INDEX.md) |  |  | 1006 |
-| [TECH_RADAR](TECH_RADAR.md) |  |  | 483 |
-| [TIMELINE](TIMELINE.md) | timeline, docs |  | 2097 |
-| [TOPIC_MODEL](TOPIC_MODEL.md) |  |  | 1061 |
-| [VALIDATION](VALIDATION.md) |  |  | 250 |
-| [VERSION_DIFF](VERSION_DIFF.md) |  |  | 4862 |
-| [VOCABULARY](VOCABULARY.md) | vocabulary, docs |  | 570 |
-| [WORD_CLOUD](WORD_CLOUD.md) | ingestion, anthropic | Svyazi | 135 |
-| [WORD_FREQ](WORD_FREQ.md) |  |  | 1856 |
+| [SEE_ALSO](SEE_ALSO.md) |  | Svyazi | 385 |
+| [SENTIMENT](SENTIMENT.md) |  | Svyazi | 305 |
+| [SENTINEL](SENTINEL.md) | security, sentinel, privacy |  | 318 |
+| [SIMILAR](SIMILAR.md) | ingestion, architecture, collaboration | Svyazi | 210 |
+| [SIMILAR_PASSAGES](SIMILAR_PASSAGES.md) |  |  | 1570 |
+| [SITEMAP](SITEMAP.md) |  | Svyazi, CardIndex, AgentFS | 6916 |
+| [SKILL_DASHBOARD](SKILL_DASHBOARD.md) |  |  | 111 |
+| [SOURCE_MAP](SOURCE_MAP.md) |  |  | 5480 |
+| [SPELLCHECK](SPELLCHECK.md) |  | knowledge-space, MemNet | 384 |
+| [STALENESS](STALENESS.md) |  | Svyazi | 279 |
+| [STATS](STATS.md) |  | Svyazi | 385 |
+| [SUMMARIES](SUMMARIES.md) |  | Svyazi, CardIndex, AgentFS | 5163 |
+| [TABLES](TABLES.md) | anthropic | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 107727 |
+| [TAGS](TAGS.md) |  |  | 476 |
+| [TASKS_INDEX](TASKS_INDEX.md) |  |  | 986 |
+| [TECH_RADAR](TECH_RADAR.md) |  |  | 532 |
+| [TIMELINE](TIMELINE.md) | anthropic |  | 3041 |
+| [TOPIC_MODEL](TOPIC_MODEL.md) |  |  | 1098 |
+| [VALIDATION](VALIDATION.md) | knowledge, architecture, roadmap |  | 250 |
+| [VERSION_DIFF](VERSION_DIFF.md) |  |  | 1933 |
+| [VOCABULARY](VOCABULARY.md) | vocabulary, docs |  | 613 |
+| [WORD_CLOUD](WORD_CLOUD.md) | ingestion, architecture, anthropic | Svyazi | 150 |
+| [WORD_FREQ](WORD_FREQ.md) |  | Svyazi, AgentFS, Yodoca | 1831 |
 | [QA](ai-collaborations/QA.md) | docs, reference, lorenzo |  | 483 |
 | [README](ai-collaborations/README.md) | readme, docs |  | 116 |
 | [01-three-key-candidates](ai-collaborations/candidates/01-three-key-candidates.md) | memory, ingestion, architecture | NGT Memory, Wikontic | 415 |
@@ -699,7 +700,7 @@
 | [svend4](autofilled/components/svend4.md) | ingestion, collaboration | Svyazi | 239 |
 | [svyazi](autofilled/components/svyazi.md) | ingestion, collaboration | Svyazi | 266 |
 | [research-summary](autofilled/research-summary.md) | исследование |  | 223 |
-| [README](badges/README.md) | readme, docs |  | 129 |
+| [README](badges/README.md) |  |  | 69 |
 | [QA](contacts/QA.md) | memory | Yodoca, NGT Memory, MemNet | 136 |
 | [README](contacts/README.md) | readme, docs |  | 147 |
 | [anastasiyaw](contacts/anastasiyaw.md) | контакты, команда | Svyazi, knowledge-space, mclaude | 261 |
@@ -1136,15 +1137,19 @@
 | [06-1-introduction](obsidian/02-anthropic-vacancies/06-1-introduction.md) | collaboration |  | 455 |
 | [07-2-terminology](obsidian/02-anthropic-vacancies/07-2-terminology.md) | architecture, collaboration |  | 409 |
 | [08-3-registry-nautilus-json](obsidian/02-anthropic-vacancies/08-3-registry-nautilus-json.md) | architecture |  | 556 |
-| [09-4-passport-passport-md](obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md) | anthropic |  | 360 |
+| [09-4-passport-passport-md](obsidian/02-anthropic-vacancies/09-4-passport-passport-md.md) | anthropic |  | 382 |
+| [10-essence](obsidian/02-anthropic-vacancies/10-essence.md) | anthropic |  | 19 |
+| [100-объём](obsidian/02-anthropic-vacancies/100-объём.md) | anthropic |  | 15 |
+| [101-q6-отображение](obsidian/02-anthropic-vacancies/101-q6-отображение.md) | anthropic |  | 15 |
 | [102-доступ-к-данным](obsidian/02-anthropic-vacancies/102-доступ-к-данным.md) | anthropic |  | 317 |
 | [103-appendix-b-change-log](obsidian/02-anthropic-vacancies/103-appendix-b-change-log.md) | rag, architecture |  | 439 |
 | [104-appendix-c-references](obsidian/02-anthropic-vacancies/104-appendix-c-references.md) | memory, rag, ingestion |  | 1248 |
 | [105-review-methodology-md](obsidian/02-anthropic-vacancies/105-review-methodology-md.md) | collaboration |  | 360 |
 | [106-tl-dr](obsidian/02-anthropic-vacancies/106-tl-dr.md) | memory |  | 313 |
-| [107-1-контекст-и-мотивация](obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) | memory, roadmap, collaboration |  | 482 |
+| [107-1-контекст-и-мотивация](obsidian/02-anthropic-vacancies/107-1-контекст-и-мотивация.md) | memory, roadmap, collaboration |  | 536 |
 | [108-2-формальный-workflow](obsidian/02-anthropic-vacancies/108-2-формальный-workflow.md) | memory, architecture, roadmap |  | 407 |
-| [109-3-принципы-консолидации-фаза-c](obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) | memory, rag, roadmap |  | 689 |
+| [109-3-принципы-консолидации-фаза-c](obsidian/02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) | memory, rag, roadmap |  | 699 |
+| [11-native-format](obsidian/02-anthropic-vacancies/11-native-format.md) | anthropic |  | 20 |
 | [110-вопрос-fallback-ratio-как-критический-или](obsidian/02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) | memory, rag, collaboration |  | 368 |
 | [111-4-условия-применимости](obsidian/02-anthropic-vacancies/111-4-условия-применимости.md) | memory, architecture, roadmap |  | 335 |
 | [112-5-связь-с-существующими-методологиями](obsidian/02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) | memory, rag |  | 440 |
@@ -1176,7 +1181,8 @@
 | [136-abstract](obsidian/02-anthropic-vacancies/136-abstract.md) | rag, architecture |  | 683 |
 | [137-table-of-contents](obsidian/02-anthropic-vacancies/137-table-of-contents.md) | architecture |  | 422 |
 | [138-1-why-single-triangle-models-are-incomple](obsidian/02-anthropic-vacancies/138-1-why-single-triangle-models-are-incomplete.md) | architecture, anthropic |  | 623 |
-| [139-2-the-double-triangle-architecture](obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | architecture |  | 767 |
+| [139-2-the-double-triangle-architecture](obsidian/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | architecture |  | 779 |
+| [14-bridges](obsidian/02-anthropic-vacancies/14-bridges.md) | anthropic |  | 21 |
 | [140-3-three-inter-layer-protocols](obsidian/02-anthropic-vacancies/140-3-three-inter-layer-protocols.md) |  |  | 1064 |
 | [141-4-nautilus-portal-as-reference-substrate](obsidian/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md) | rag, knowledge, architecture |  | 978 |
 | [142-5-pattern-library-as-bridge-between-trian](obsidian/02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) | security, roadmap |  | 887 |
@@ -1186,7 +1192,8 @@
 | [146-acknowledgments](obsidian/02-anthropic-vacancies/146-acknowledgments.md) | rag, roadmap, anthropic |  | 590 |
 | [147-references](obsidian/02-anthropic-vacancies/147-references.md) | roadmap, anthropic, collaboration |  | 434 |
 | [148-appendix-a-glossary](obsidian/02-anthropic-vacancies/148-appendix-a-glossary.md) | roadmap |  | 592 |
-| [149-appendix-b-summary-of-contributions](obsidian/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) | architecture |  | 445 |
+| [149-appendix-b-summary-of-contributions](obsidian/02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) | architecture |  | 455 |
+| [15-author-contact](obsidian/02-anthropic-vacancies/15-author-contact.md) | anthropic |  | 21 |
 | [150-appendix-c-version-history](obsidian/02-anthropic-vacancies/150-appendix-c-version-history.md) |  |  | 8622 |
 | [151-open-knowledge-work-foundation-md](obsidian/02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) | anthropic |  | 449 |
 | [152-ai-coordinated-infrastructure-for-distrib](obsidian/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) | collaboration |  | 364 |
@@ -1221,10 +1228,10 @@
 | [179-10-open-questions](obsidian/02-anthropic-vacancies/179-10-open-questions.md) | orchestration |  | 430 |
 | [18-6-adapter-interface](obsidian/02-anthropic-vacancies/18-6-adapter-interface.md) | ingestion, architecture, anthropic |  | 857 |
 | [180-11-call-for-collaboration](obsidian/02-anthropic-vacancies/180-11-call-for-collaboration.md) | ingestion |  | 604 |
-| [181-12-closing](obsidian/02-anthropic-vacancies/181-12-closing.md) | anthropic |  | 495 |
+| [181-12-closing](obsidian/02-anthropic-vacancies/181-12-closing.md) | anthropic |  | 549 |
 | [182-acknowledgments](obsidian/02-anthropic-vacancies/182-acknowledgments.md) | anthropic |  | 434 |
 | [183-references](obsidian/02-anthropic-vacancies/183-references.md) | collaboration |  | 389 |
-| [184-appendix-a-connection-to-companion-papers](obsidian/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) | architecture, anthropic |  | 521 |
+| [184-appendix-a-connection-to-companion-papers](obsidian/02-anthropic-vacancies/184-appendix-a-connection-to-companion-papers.md) | architecture, anthropic |  | 579 |
 | [185-appendix-b-domain-comparison-matrix](obsidian/02-anthropic-vacancies/185-appendix-b-domain-comparison-matrix.md) | anthropic |  | 338 |
 | [186-appendix-c-sample-use-cases-in-detail](obsidian/02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) | rag, ingestion, architecture |  | 2293 |
 | [187-слой-представительских-агентов-md](obsidian/02-anthropic-vacancies/187-слой-представительских-агентов-md.md) | architecture |  | 297 |
@@ -1251,7 +1258,7 @@
 | [206-приложение-b-матрица-сравнения-областей](obsidian/02-anthropic-vacancies/206-приложение-b-матрица-сравнения-областей.md) | anthropic |  | 298 |
 | [207-приложение-c-образцы-случаев-использовани](obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) | architecture, roadmap, collaboration |  | 4249 |
 | [208-professional-colleague-agents-md](obsidian/02-anthropic-vacancies/208-professional-colleague-agents-md.md) | architecture, anthropic |  | 398 |
-| [209-a-typology-of-ai-agents-on-the-principal-](obsidian/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) | architecture, collaboration |  | 510 |
+| [209-a-typology-of-ai-agents-on-the-principal-](obsidian/02-anthropic-vacancies/209-a-typology-of-ai-agents-on-the-principal-side-and-.md) | architecture, collaboration |  | 577 |
 | [21-9-query-flow](obsidian/02-anthropic-vacancies/21-9-query-flow.md) | anthropic |  | 410 |
 | [210-abstract](obsidian/02-anthropic-vacancies/210-abstract.md) | rag, architecture, roadmap |  | 671 |
 | [211-table-of-contents](obsidian/02-anthropic-vacancies/211-table-of-contents.md) | anthropic |  | 616 |
@@ -1263,7 +1270,7 @@
 | [217-6-risks-specific-to-this-category](obsidian/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md) |  |  | 1434 |
 | [218-7-application-domains](obsidian/02-anthropic-vacancies/218-7-application-domains.md) | ingestion, architecture |  | 900 |
 | [219-8-pilot-proposal-sgb-advocate-colleague](obsidian/02-anthropic-vacancies/219-8-pilot-proposal-sgb-advocate-colleague.md) | rag, architecture, roadmap |  | 1289 |
-| [22-10-queryresult-structure](obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md) | anthropic |  | 578 |
+| [22-10-queryresult-structure](obsidian/02-anthropic-vacancies/22-10-queryresult-structure.md) | anthropic |  | 634 |
 | [220-9-relationship-to-other-agent-types](obsidian/02-anthropic-vacancies/220-9-relationship-to-other-agent-types.md) |  |  | 979 |
 | [221-10-open-questions](obsidian/02-anthropic-vacancies/221-10-open-questions.md) | architecture, anthropic |  | 442 |
 | [222-11-call-for-collaboration](obsidian/02-anthropic-vacancies/222-11-call-for-collaboration.md) | rag, architecture |  | 451 |
@@ -1287,12 +1294,12 @@
 | [239-8-пилотное-предложение-sgb-колega-адвокат](obsidian/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) | rag, architecture, roadmap |  | 1170 |
 | [24-12-versioning-policy](obsidian/02-anthropic-vacancies/24-12-versioning-policy.md) | architecture |  | 448 |
 | [240-9-связь-с-другими-типами-агентов](obsidian/02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) | architecture, collaboration |  | 749 |
-| [241-10-открытые-вопросы](obsidian/02-anthropic-vacancies/241-10-открытые-вопросы.md) | collaboration |  | 486 |
+| [241-10-открытые-вопросы](obsidian/02-anthropic-vacancies/241-10-открытые-вопросы.md) | collaboration |  | 562 |
 | [242-11-призыв-к-сотрудничеству](obsidian/02-anthropic-vacancies/242-11-призыв-к-сотрудничеству.md) | architecture |  | 466 |
 | [243-12-заключение](obsidian/02-anthropic-vacancies/243-12-заключение.md) | architecture, roadmap |  | 622 |
 | [244-благодарности](obsidian/02-anthropic-vacancies/244-благодарности.md) | anthropic, collaboration |  | 399 |
 | [245-ссылки](obsidian/02-anthropic-vacancies/245-ссылки.md) | architecture, collaboration |  | 389 |
-| [246-приложение-a-сравнительная-таблица-пять-т](obsidian/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md) | anthropic |  | 387 |
+| [246-приложение-a-сравнительная-таблица-пять-т](obsidian/02-anthropic-vacancies/246-приложение-a-сравнительная-таблица-пять-типов-аген.md) | anthropic |  | 427 |
 | [247-приложение-b-рамка-принятия-решений-когда](obsidian/02-anthropic-vacancies/247-приложение-b-рамка-принятия-решений-когда-строить-.md) | architecture |  | 416 |
 | [248-приложение-c-архитектура-быстрого-старта-](obsidian/02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md) | orchestration, architecture, anthropic |  | 3568 |
 | [249-composite-skills-agent-md](obsidian/02-anthropic-vacancies/249-composite-skills-agent-md.md) | architecture, anthropic |  | 352 |
@@ -1333,13 +1340,14 @@
 | [280-the-specific-case-in-front-of-us](obsidian/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md) | rag, anthropic |  | 963 |
 | [281-the-recursive-insight](obsidian/02-anthropic-vacancies/281-the-recursive-insight.md) | architecture |  | 605 |
 | [282-what-industry-will-likely-build](obsidian/02-anthropic-vacancies/282-what-industry-will-likely-build.md) | architecture, anthropic |  | 658 |
-| [283-what-this-document-doesn-t-solve](obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) | architecture, roadmap |  | 495 |
+| [283-what-this-document-doesn-t-solve](obsidian/02-anthropic-vacancies/283-what-this-document-doesn-t-solve.md) | architecture, roadmap |  | 552 |
 | [284-practical-recommendations-for-the-current](obsidian/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md) | architecture, anthropic |  | 696 |
 | [285-closing](obsidian/02-anthropic-vacancies/285-closing.md) | rag, ingestion, architecture |  | 596 |
-| [286-acknowledgments](obsidian/02-anthropic-vacancies/286-acknowledgments.md) | architecture, anthropic |  | 503 |
+| [286-acknowledgments](obsidian/02-anthropic-vacancies/286-acknowledgments.md) | architecture, anthropic |  | 556 |
 | [287-references](obsidian/02-anthropic-vacancies/287-references.md) | anthropic |  | 351 |
 | [288-appendix-position-in-series-visualization](obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) | orchestration, architecture, roadmap |  | 1278 |
-| [289-инфраструктура-для-ai-совместной-интеллек](obsidian/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) | architecture, collaboration |  | 457 |
+| [289-инфраструктура-для-ai-совместной-интеллек](obsidian/02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) | architecture, collaboration |  | 462 |
+| [29-essence](obsidian/02-anthropic-vacancies/29-essence.md) | anthropic |  | 14 |
 | [290-почему-этот-документ-существует](obsidian/02-anthropic-vacancies/290-почему-этот-документ-существует.md) | architecture, roadmap, collaboration |  | 391 |
 | [291-двухслойный-стек-как-он-существует](obsidian/02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) | architecture, anthropic |  | 611 |
 | [292-что-отсутствует-слой-b](obsidian/02-anthropic-vacancies/292-что-отсутствует-слой-b.md) | architecture |  | 620 |
@@ -1349,7 +1357,8 @@
 | [296-рекурсивное-прозрение](obsidian/02-anthropic-vacancies/296-рекурсивное-прозрение.md) | orchestration, architecture, roadmap |  | 562 |
 | [297-что-промышленность-вероятно-построит](obsidian/02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) | architecture, anthropic, collaboration |  | 368 |
 | [298-что-этот-документ-не-решает](obsidian/02-anthropic-vacancies/298-что-этот-документ-не-решает.md) | architecture, collaboration |  | 327 |
-| [299-практические-рекомендации-для-текущего-пр](obsidian/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) | architecture, anthropic |  | 624 |
+| [299-практические-рекомендации-для-текущего-пр](obsidian/02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) | architecture, anthropic |  | 633 |
+| [30-native-format](obsidian/02-anthropic-vacancies/30-native-format.md) | anthropic |  | 19 |
 | [300-заключение](obsidian/02-anthropic-vacancies/300-заключение.md) | architecture, collaboration |  | 296 |
 | [301-благодарности](obsidian/02-anthropic-vacancies/301-благодарности.md) | architecture, collaboration |  | 478 |
 | [302-ссылки](obsidian/02-anthropic-vacancies/302-ссылки.md) | anthropic |  | 329 |
@@ -1370,7 +1379,8 @@
 | [316-8-implications-for-nautilus-and-okwf](obsidian/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) | rag, architecture |  | 748 |
 | [317-9-risks-and-open-questions](obsidian/02-anthropic-vacancies/317-9-risks-and-open-questions.md) |  |  | 629 |
 | [318-10-strategic-positioning](obsidian/02-anthropic-vacancies/318-10-strategic-positioning.md) |  |  | 817 |
-| [319-acknowledgments](obsidian/02-anthropic-vacancies/319-acknowledgments.md) | rag, architecture, collaboration |  | 671 |
+| [319-acknowledgments](obsidian/02-anthropic-vacancies/319-acknowledgments.md) | rag, architecture, collaboration |  | 681 |
+| [32-angle-perspective](obsidian/02-anthropic-vacancies/32-angle-perspective.md) | anthropic |  | 21 |
 | [320-references](obsidian/02-anthropic-vacancies/320-references.md) | anthropic, collaboration |  | 377 |
 | [321-appendix-a-decision-tree-for-ingit-adopte](obsidian/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) |  |  | 423 |
 | [322-appendix-b-comparison-matrix](obsidian/02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) |  |  | 317 |
@@ -1380,11 +1390,12 @@
 | [326-содержание](obsidian/02-anthropic-vacancies/326-содержание.md) | architecture |  | 455 |
 | [327-1-открытие-cowork-и-почему-это-меняет-всё](obsidian/02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) |  |  | 703 |
 | [328-2-что-cowork-обеспечивает-что-ingit-не-ну](obsidian/02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) | architecture, roadmap |  | 822 |
-| [329-3-что-ingit-обеспечивает-чего-cowork-не-х](obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) |  |  | 1091 |
+| [329-3-что-ingit-обеспечивает-чего-cowork-не-х](obsidian/02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) |  |  | 1096 |
+| [33-author](obsidian/02-anthropic-vacancies/33-author.md) | anthropic |  | 14 |
 | [330-4-симбиотическая-архитектура](obsidian/02-anthropic-vacancies/330-4-симбиотическая-архитектура.md) | architecture, roadmap, collaboration |  | 715 |
 | [331-5-четыре-пути-интеграции-в-порядке-доступ](obsidian/02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) | architecture, anthropic, collaboration |  | 842 |
 | [332-6-уточнённый-объём-ingit-с-учётом-cowork](obsidian/02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) | architecture, roadmap |  | 643 |
-| [333-7-практические-первые-шаги-в-этом-месяце](obsidian/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md) | architecture |  | 496 |
+| [333-7-практические-первые-шаги-в-этом-месяце](obsidian/02-anthropic-vacancies/333-7-практические-первые-шаги-в-этом-месяце.md) | architecture |  | 557 |
 | [334-8-импликации-для-nautilus-и-okwf](obsidian/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) | orchestration, architecture |  | 731 |
 | [335-9-риски-и-открытые-вопросы](obsidian/02-anthropic-vacancies/335-9-риски-и-открытые-вопросы.md) |  |  | 637 |
 | [336-10-стратегическое-позиционирование](obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) |  |  | 705 |
@@ -1408,7 +1419,7 @@
 | [352-что-ты-не-можешь-делать-без-max-approval](obsidian/02-anthropic-vacancies/352-что-ты-не-можешь-делать-без-max-approval.md) | anthropic |  | 306 |
 | [353-что-ты-не-можешь-делать-вообще](obsidian/02-anthropic-vacancies/353-что-ты-не-можешь-делать-вообще.md) | anthropic |  | 385 |
 | [354-существующий-landscape-collaborators-твоя](obsidian/02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md) | memory, knowledge, ingestion | CardIndex, [[03-component-catalog|knowledge-space]], NGT Memory | 439 |
-| [355-существующие-документы-dhlab-твой-context](obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) | architecture, roadmap |  | 508 |
+| [355-существующие-документы-dhlab-твой-context](obsidian/02-anthropic-vacancies/355-существующие-документы-dhlab-твой-context.md) | architecture, roadmap |  | 565 |
 | [356-твой-workflow](obsidian/02-anthropic-vacancies/356-твой-workflow.md) | knowledge | [[01-executive-summary|CardIndex]] | 369 |
 | [357-твоя-коммуникация-в-outreach](obsidian/02-anthropic-vacancies/357-твоя-коммуникация-в-outreach.md) | outreach, communication, collaboration |  | 345 |
 | [358-твоя-relationship-с-другими-ai](obsidian/02-anthropic-vacancies/358-твоя-relationship-с-другими-ai.md) | anthropic |  | 369 |
@@ -1449,7 +1460,8 @@
 | [62-author-contact](obsidian/02-anthropic-vacancies/62-author-contact.md) | collaboration |  | 393 |
 | [63-history](obsidian/02-anthropic-vacancies/63-history.md) | architecture |  | 377 |
 | [64-for-the-curious-philosophy](obsidian/02-anthropic-vacancies/64-for-the-curious-philosophy.md) | architecture, collaboration |  | 919 |
-| [65-readme-md](obsidian/02-anthropic-vacancies/65-readme-md.md) | anthropic |  | 286 |
+| [65-readme-md](obsidian/02-anthropic-vacancies/65-readme-md.md) | anthropic |  | 292 |
+| [66-english-below](obsidian/02-anthropic-vacancies/66-english-below.md) | anthropic |  | 17 |
 | [67-о-проекте](obsidian/02-anthropic-vacancies/67-о-проекте.md) | rag, architecture, collaboration |  | 1041 |
 | [68-about](obsidian/02-anthropic-vacancies/68-about.md) | rag, architecture, anthropic |  | 969 |
 | [69-section](obsidian/02-anthropic-vacancies/69-section.md) | memory, rag, security |  | 9534 |
@@ -1481,7 +1493,8 @@
 | [95-20-adr-002-q6-as-first-class-protocol-conc](obsidian/02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) | anthropic, collaboration |  | 444 |
 | [96-21-adr-003-five-onboarding-paths-as-equal-](obsidian/02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) | anthropic |  | 308 |
 | [97-22-glossary-of-reference-examples](obsidian/02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) | knowledge, architecture, collaboration |  | 317 |
-| [98-appendix-a-minimal-working-example](obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | ingestion |  | 399 |
+| [98-appendix-a-minimal-working-example](obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | ingestion |  | 404 |
+| [99-описание](obsidian/02-anthropic-vacancies/99-описание.md) | anthropic |  | 14 |
 | [QA](obsidian/02-anthropic-vacancies/QA.md) | memory, rag, orchestration | CardIndex, AgentFS, knowledge-space | 457 |
 | [README](obsidian/02-anthropic-vacancies/README.md) | anthropic, vacancies, career |  | 1662 |
 | [01-agent-routing](obsidian/03-technology-combinations/01-agent-routing.md) |  | [[01-executive-summary|CardIndex]], Auto AI Router | 437 |
@@ -1508,6 +1521,7 @@
 | [14-ограничения-лицензии-и-что-пока-лучше-не-с](obsidian/04-ai-collaborations/14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md) |  | Svyazi, CardIndex[^cardindex], AgentFS[^agentfs] | 3415 |
 | [QA](obsidian/04-ai-collaborations/QA.md) | rag, security, knowledge | CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space] | 398 |
 | [README](obsidian/04-ai-collaborations/README.md) |  |  | 438 |
+| [minimal-test-card](obsidian/04-ai-collaborations/minimal-test-card.md) |  |  | 24 |
 | [01-synthesis](obsidian/05-habr-projects/01-synthesis.md) | architecture, roadmap |  | 342 |
 | [02-collaboration-partners](obsidian/05-habr-projects/02-collaboration-partners.md) | knowledge, ingestion, collaboration | Svyazi[^svyazi] | 317 |
 | [QA](obsidian/05-habr-projects/QA.md) | memory, rag, knowledge | CardIndex[^cardindex], AgentFS[^agentfs], knowledge-space[^knowledge-space] | 304 |
@@ -1524,113 +1538,114 @@
 | [memnet](obsidian/05-habr-projects/memory/memnet.md) |  | Svyazi[^svyazi], [[01-executive-summary|CardIndex]][^cardindex], Hybrid RAG[^rag] | 7370 |
 | [ngt-memory](obsidian/05-habr-projects/memory/ngt-memory.md) | memory, ingestion, collaboration | Svyazi[^svyazi], NGT Memory | 454 |
 | [yodoca](obsidian/05-habr-projects/memory/yodoca.md) | memory, ingestion, architecture | Svyazi, Yodoca | 429 |
-| [ABBREVIATIONS](obsidian/ABBREVIATIONS.md) |  | SENTINEL, LiteLLM, Auto AI Router | 1430 |
-| [ACTION_ITEMS](obsidian/ACTION_ITEMS.md) |  |  | 9201 |
-| [ALERTS](obsidian/ALERTS.md) | ingestion |  | 90 |
-| [AUTHORS](obsidian/AUTHORS.md) | authors, docs |  | 123 |
+| [ABBREVIATIONS](obsidian/ABBREVIATIONS.md) |  | SENTINEL, LiteLLM, Auto AI Router | 1360 |
+| [ACTION_ITEMS](obsidian/ACTION_ITEMS.md) |  | Svyazi, CardIndex, AgentFS | 9313 |
+| [ALERTS](obsidian/ALERTS.md) | ingestion |  | 86 |
+| [AUTHORS](obsidian/AUTHORS.md) |  |  | 100 |
 | [AUTOFILLED](obsidian/AUTOFILLED.md) | ingestion, collaboration | Svyazi | 323 |
-| [BACKLINKS](obsidian/BACKLINKS.md) | backlinks, docs |  | 476 |
-| [BADGES](obsidian/BADGES.md) | badges, status, quality |  | 149 |
-| [CHANGELOG](obsidian/CHANGELOG.md) |  |  | 3693 |
-| [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) |  |  | 1961 |
-| [CITATION_INDEX](obsidian/CITATION_INDEX.md) |  |  | 625 |
-| [CLUSTERS](obsidian/CLUSTERS.md) |  | Svyazi, AgentFS, Yodoca | 1724 |
+| [BACKLINKS](obsidian/BACKLINKS.md) |  |  | 412 |
+| [BADGES](obsidian/BADGES.md) | badges, status, quality |  | 127 |
+| [CHANGELOG](obsidian/CHANGELOG.md) |  |  | 5362 |
+| [CHANGELOG_AUTO](obsidian/CHANGELOG_AUTO.md) |  |  | 1993 |
+| [CITATION_INDEX](obsidian/CITATION_INDEX.md) |  |  | 662 |
+| [CLUSTERS](obsidian/CLUSTERS.md) |  | Svyazi, AgentFS, Yodoca | 1719 |
 | [CODE_BLOCKS](obsidian/CODE_BLOCKS.md) |  | Svyazi, CardIndex, AgentFS | 5923 |
 | [COLLAB_SUGGESTIONS](obsidian/COLLAB_SUGGESTIONS.md) | collaboration, projects, recommendations |  | 713 |
-| [COMPARE](obsidian/COMPARE.md) | memory, orchestration, architecture |  | 414 |
-| [COMPLEXITY](obsidian/COMPLEXITY.md) | complexity, docs |  | 398 |
-| [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) |  |  | 552 |
-| [CONCEPTS](obsidian/CONCEPTS.md) | concepts, docs |  | 16402 |
-| [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) |  |  | 647 |
-| [CONSISTENCY](obsidian/CONSISTENCY.md) | consistency, docs |  | 974 |
-| [CONTACTS](obsidian/CONTACTS.md) |  | Svyazi, CardIndex, AgentFS | 406 |
-| [CONTACT_PRIORITY](obsidian/CONTACT_PRIORITY.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 312 |
-| [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) | contradictions, docs |  | 2132 |
-| [COST](obsidian/COST.md) | memory, orchestration, security | CardIndex, AgentFS, Rufler | 335 |
-| [COVERAGE](obsidian/COVERAGE.md) | security, ingestion, architecture | Svyazi | 228 |
-| [CROSSREFS](obsidian/CROSSREFS.md) | crossrefs, docs |  | 541 |
-| [CROSS_SECTION](obsidian/CROSS_SECTION.md) |  |  | 3864 |
-| [DECISIONS](obsidian/DECISIONS.md) | memory, rag, collaboration | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1859 |
+| [COMPARE](obsidian/COMPARE.md) | memory, rag, architecture |  | 421 |
+| [COMPLEXITY](obsidian/COMPLEXITY.md) |  | Rufler, MemNet | 406 |
+| [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) |  |  | 589 |
+| [CONCEPTS](obsidian/CONCEPTS.md) | concepts, docs |  | 16424 |
+| [CONCEPT_GRAPH](obsidian/CONCEPT_GRAPH.md) | ingestion, anthropic | Svyazi | 660 |
+| [CONSISTENCY](obsidian/CONSISTENCY.md) |  | Svyazi, CardIndex, knowledge-space | 767 |
+| [CONTACTS](obsidian/CONTACTS.md) |  | Svyazi, CardIndex, AgentFS | 418 |
+| [CONTACT_PRIORITY](obsidian/CONTACT_PRIORITY.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 326 |
+| [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) |  | Svyazi, CardIndex, AgentFS | 2020 |
+| [COST](obsidian/COST.md) | memory, orchestration, security | CardIndex, AgentFS, Rufler | 346 |
+| [COVERAGE](obsidian/COVERAGE.md) | security, ingestion, architecture | Svyazi | 242 |
+| [CROSSREFS](obsidian/CROSSREFS.md) |  |  | 501 |
+| [CROSS_SECTION](obsidian/CROSS_SECTION.md) | ingestion, anthropic, collaboration | Svyazi | 3868 |
+| [DECISIONS](obsidian/DECISIONS.md) | memory, rag, collaboration | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 1906 |
 | [DEMO](obsidian/DEMO.md) |  |  | 523 |
-| [DENSITY](obsidian/DENSITY.md) | density, docs |  | 392 |
-| [DEPENDABOT](obsidian/DEPENDABOT.md) | dependabot, docs |  | 118 |
-| [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) |  |  | 900 |
-| [DIGEST](obsidian/DIGEST.md) | roadmap |  | 248 |
-| [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) |  |  | 388 |
-| [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) |  |  | 292 |
-| [DUPLICATES](obsidian/DUPLICATES.md) | duplicates, docs |  | 2078 |
-| [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) |  |  | 34387 |
-| [ENTITIES](obsidian/ENTITIES.md) | entities, docs |  | 447 |
-| [FAQ](obsidian/FAQ.md) | onboarding, docs |  | 1814 |
+| [DENSITY](obsidian/DENSITY.md) |  | Svyazi, CardIndex, AgentFS | 411 |
+| [DEPENDABOT](obsidian/DEPENDABOT.md) | memory, knowledge, ingestion | Svyazi, AgentFS, knowledge-space | 169 |
+| [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) |  |  | 937 |
+| [DIGEST](obsidian/DIGEST.md) | rag, ingestion | Svyazi | 289 |
+| [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) | rag, ingestion, anthropic | Svyazi | 467 |
+| [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) |  |  | 344 |
+| [DUPLICATES](obsidian/DUPLICATES.md) |  |  | 1993 |
+| [EMPTY_SECTIONS](obsidian/EMPTY_SECTIONS.md) |  |  | 34444 |
+| [ENTITIES](obsidian/ENTITIES.md) |  | Svyazi, CardIndex, AgentFS | 489 |
+| [FAQ](obsidian/FAQ.md) |  | Svyazi, CardIndex, AgentFS | 1828 |
 | [FOOTNOTES](obsidian/FOOTNOTES.md) |  | Svyazi, CardIndex, AgentFS | 262 |
 | [GATEWAY](obsidian/GATEWAY.md) |  |  | 1314 |
-| [GITHUB_ISSUES](obsidian/GITHUB_ISSUES.md) |  |  | 3818 |
-| [GLOSSARY](obsidian/GLOSSARY.md) | glossary, docs |  | 150 |
+| [GITHUB_ISSUES](obsidian/GITHUB_ISSUES.md) |  |  | 3852 |
+| [GLOSSARY](obsidian/GLOSSARY.md) |  |  | 127 |
 | [GRAPH](obsidian/GRAPH.md) |  | Svyazi, CardIndex, AgentFS | 2917 |
-| [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) |  |  | 14806 |
+| [HEADING_AUDIT](obsidian/HEADING_AUDIT.md) |  |  | 14810 |
 | [HEALTH](obsidian/HEALTH.md) | health, quality, metrics |  | 221 |
-| [HEATMAP](obsidian/HEATMAP.md) | heatmap, docs |  | 374 |
-| [INDEX](obsidian/INDEX.md) | index, docs |  | 483 |
-| [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) |  |  | 541 |
-| [KNOWLEDGE_MAP](obsidian/KNOWLEDGE_MAP.md) |  |  | 427 |
-| [KPI](obsidian/KPI.md) | kpi, docs |  | 2206 |
-| [KPI_HISTORY](obsidian/KPI_HISTORY.md) |  |  | 152 |
-| [LANGUAGE_STATS](obsidian/LANGUAGE_STATS.md) |  |  | 3546 |
-| [LINKS](obsidian/LINKS.md) | links, docs |  | 537 |
+| [HEATMAP](obsidian/HEATMAP.md) |  | Svyazi | 395 |
+| [INDEX](obsidian/INDEX.md) | index, docs |  | 520 |
+| [KEYWORD_INDEX](obsidian/KEYWORD_INDEX.md) | ingestion, architecture, anthropic |  | 476 |
+| [KNOWLEDGE_MAP](obsidian/KNOWLEDGE_MAP.md) |  |  | 464 |
+| [KPI](obsidian/KPI.md) |  |  | 2150 |
+| [KPI_HISTORY](obsidian/KPI_HISTORY.md) |  |  | 127 |
+| [LANGUAGE_STATS](obsidian/LANGUAGE_STATS.md) |  |  | 3459 |
+| [LINKS](obsidian/LINKS.md) |  |  | 572 |
+| [LLM_GAPS](obsidian/LLM_GAPS.md) | architecture, anthropic |  | 68 |
 | [LLM_SUMMARIES](obsidian/LLM_SUMMARIES.md) |  | Svyazi | 387 |
-| [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) |  |  | 15 |
+| [MCP_DASHBOARD](obsidian/MCP_DASHBOARD.md) |  |  | 28 |
 | [METHODOLOGY](obsidian/METHODOLOGY.md) |  |  | 993 |
 | [METRICS](obsidian/METRICS.md) | quality, metrics, documentation |  | 313 |
 | [MINDMAP](obsidian/MINDMAP.md) |  | Svyazi, CardIndex, AgentFS | 296 |
-| [MISSING](obsidian/MISSING.md) |  | Svyazi, CardIndex, AgentFS | 364 |
-| [NAMED_ENTITIES](obsidian/NAMED_ENTITIES.md) |  |  | 1155 |
-| [NARRATIVE](obsidian/NARRATIVE.md) | memory, rag, orchestration | Svyazi, AgentFS, AI Factory | 1197 |
+| [MISSING](obsidian/MISSING.md) |  | Svyazi, CardIndex, AgentFS | 345 |
+| [NAMED_ENTITIES](obsidian/NAMED_ENTITIES.md) |  |  | 1193 |
+| [NARRATIVE](obsidian/NARRATIVE.md) | memory, rag, orchestration | Svyazi, AgentFS, AI Factory | 1199 |
 | [NETWORK](obsidian/NETWORK.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 381 |
-| [ONBOARDING](obsidian/ONBOARDING.md) | onboarding, docs |  | 392 |
-| [ORPHANS](obsidian/ORPHANS.md) | orphans, docs |  | 138 |
-| [OUTLINE](obsidian/OUTLINE.md) | outline, docs |  | 50329 |
-| [PARAGRAPH_QUALITY](obsidian/PARAGRAPH_QUALITY.md) |  |  | 18688 |
-| [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) |  |  | 261 |
+| [ONBOARDING](obsidian/ONBOARDING.md) | onboarding, docs |  | 473 |
+| [ORPHANS](obsidian/ORPHANS.md) | orchestration |  | 128 |
+| [OUTLINE](obsidian/OUTLINE.md) | outline, docs |  | 50372 |
+| [PARAGRAPH_QUALITY](obsidian/PARAGRAPH_QUALITY.md) |  |  | 18705 |
+| [PASSIVE_VOICE](obsidian/PASSIVE_VOICE.md) |  |  | 298 |
 | [PRECISION_EVAL](obsidian/PRECISION_EVAL.md) |  |  | 439 |
-| [PRIORITIES](obsidian/PRIORITIES.md) | priorities, docs |  | 2091 |
-| [PROGRESS](obsidian/PROGRESS.md) | progress, docs |  | 273 |
+| [PRIORITIES](obsidian/PRIORITIES.md) |  | Svyazi, CardIndex, AgentFS | 2093 |
+| [PROGRESS](obsidian/PROGRESS.md) |  | Svyazi, AgentFS, knowledge-space | 287 |
 | [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) |  | Svyazi, CardIndex, AgentFS | 1503 |
 | [QA](obsidian/QA.md) | memory, rag, orchestration | Svyazi, CardIndex, AgentFS | 3757 |
-| [QUESTIONS](obsidian/QUESTIONS.md) | questions, docs |  | 24195 |
-| [READING_LIST](obsidian/READING_LIST.md) |  |  | 497 |
-| [READING_ORDER](obsidian/READING_ORDER.md) |  | Svyazi, AgentFS, knowledge-space | 4162 |
-| [READING_TIME](obsidian/READING_TIME.md) |  |  | 15315 |
+| [QUESTIONS](obsidian/QUESTIONS.md) |  |  | 1854 |
+| [READING_LIST](obsidian/READING_LIST.md) |  |  | 513 |
+| [READING_ORDER](obsidian/READING_ORDER.md) |  |  | 4081 |
+| [READING_TIME](obsidian/READING_TIME.md) |  |  | 15219 |
 | [README](obsidian/README.md) | meta, index, overview |  | 930 |
-| [REGISTRY](obsidian/REGISTRY.md) | registry, docs |  | 1009 |
-| [REPORT](obsidian/REPORT.md) | report, docs | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 850 |
-| [RISK_REGISTER](obsidian/RISK_REGISTER.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 761 |
-| [SCHEDULE](obsidian/SCHEDULE.md) | memory, security, knowledge | Svyazi, CardIndex, AgentFS | 282 |
-| [SCORING](obsidian/SCORING.md) | security, architecture, roadmap |  | 263 |
-| [SCRIPTS_CATALOG](obsidian/SCRIPTS_CATALOG.md) |  |  | 8520 |
+| [REGISTRY](obsidian/REGISTRY.md) |  |  | 1017 |
+| [REPORT](obsidian/REPORT.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[^agentfs] | 859 |
+| [RISK_REGISTER](obsidian/RISK_REGISTER.md) |  | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 799 |
+| [SCHEDULE](obsidian/SCHEDULE.md) | memory, security, knowledge | Svyazi, CardIndex, AgentFS | 296 |
+| [SCORING](obsidian/SCORING.md) | security, architecture, roadmap |  | 287 |
+| [SCRIPTS_CATALOG](obsidian/SCRIPTS_CATALOG.md) |  |  | 8453 |
 | [SCRIPT_EVAL_REPORT](obsidian/SCRIPT_EVAL_REPORT.md) |  |  | 2670 |
 | [SEARCH_RESULTS](obsidian/SEARCH_RESULTS.md) | anthropic |  | 302 |
-| [SEE_ALSO](obsidian/SEE_ALSO.md) |  | Svyazi | 364 |
-| [SENTIMENT](obsidian/SENTIMENT.md) | sentiment, docs |  | 374 |
-| [SENTINEL](obsidian/SENTINEL.md) | security, sentinel, privacy |  | 303 |
-| [SIMILAR](obsidian/SIMILAR.md) | ingestion, collaboration | Svyazi | 213 |
-| [SIMILAR_PASSAGES](obsidian/SIMILAR_PASSAGES.md) |  |  | 1479 |
-| [SITEMAP](obsidian/SITEMAP.md) |  | Svyazi, CardIndex, AgentFS | 6884 |
-| [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) |  |  | 96 |
-| [SOURCE_MAP](obsidian/SOURCE_MAP.md) |  |  | 5445 |
-| [STALENESS](obsidian/STALENESS.md) | orchestration, anthropic, collaboration |  | 248 |
-| [STATS](obsidian/STATS.md) | rag, ingestion, anthropic | Svyazi | 440 |
-| [SUMMARIES](obsidian/SUMMARIES.md) | summaries, docs |  | 5410 |
-| [TABLES](obsidian/TABLES.md) | anthropic | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 124689 |
-| [TAGS](obsidian/TAGS.md) |  |  | 135 |
-| [TASKS_INDEX](obsidian/TASKS_INDEX.md) |  |  | 1009 |
-| [TECH_RADAR](obsidian/TECH_RADAR.md) |  |  | 496 |
-| [TIMELINE](obsidian/TIMELINE.md) | timeline, docs |  | 2113 |
-| [TOPIC_MODEL](obsidian/TOPIC_MODEL.md) |  |  | 1072 |
-| [VALIDATION](obsidian/VALIDATION.md) |  |  | 260 |
-| [VERSION_DIFF](obsidian/VERSION_DIFF.md) |  |  | 4875 |
-| [VOCABULARY](obsidian/VOCABULARY.md) | vocabulary, docs |  | 585 |
-| [WORD_CLOUD](obsidian/WORD_CLOUD.md) | ingestion, anthropic | Svyazi | 141 |
-| [WORD_FREQ](obsidian/WORD_FREQ.md) |  |  | 1867 |
+| [SEE_ALSO](obsidian/SEE_ALSO.md) |  | Svyazi | 362 |
+| [SENTIMENT](obsidian/SENTIMENT.md) | rag, ingestion, anthropic | Svyazi | 375 |
+| [SENTINEL](obsidian/SENTINEL.md) | security, sentinel, privacy |  | 329 |
+| [SIMILAR](obsidian/SIMILAR.md) | ingestion, architecture, collaboration | Svyazi | 226 |
+| [SIMILAR_PASSAGES](obsidian/SIMILAR_PASSAGES.md) |  |  | 1570 |
+| [SITEMAP](obsidian/SITEMAP.md) |  | Svyazi, CardIndex, AgentFS | 6905 |
+| [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) |  |  | 115 |
+| [SOURCE_MAP](obsidian/SOURCE_MAP.md) |  |  | 5479 |
+| [STALENESS](obsidian/STALENESS.md) |  | Svyazi | 281 |
+| [STATS](obsidian/STATS.md) | rag, ingestion, anthropic | Svyazi | 462 |
+| [SUMMARIES](obsidian/SUMMARIES.md) |  | Svyazi, CardIndex, AgentFS | 5410 |
+| [TABLES](obsidian/TABLES.md) | anthropic | Svyazi[^svyazi], CardIndex[^cardindex], AgentFS[… | | 107684 |
+| [TAGS](obsidian/TAGS.md) |  |  | 273 |
+| [TASKS_INDEX](obsidian/TASKS_INDEX.md) |  |  | 989 |
+| [TECH_RADAR](obsidian/TECH_RADAR.md) |  |  | 533 |
+| [TIMELINE](obsidian/TIMELINE.md) | anthropic |  | 3033 |
+| [TOPIC_MODEL](obsidian/TOPIC_MODEL.md) |  |  | 1100 |
+| [VALIDATION](obsidian/VALIDATION.md) | knowledge, architecture, roadmap |  | 260 |
+| [VERSION_DIFF](obsidian/VERSION_DIFF.md) |  |  | 1934 |
+| [VOCABULARY](obsidian/VOCABULARY.md) | vocabulary, docs |  | 617 |
+| [WORD_CLOUD](obsidian/WORD_CLOUD.md) | ingestion, architecture, anthropic | Svyazi | 154 |
+| [WORD_FREQ](obsidian/WORD_FREQ.md) |  |  | 1804 |
 | [QA](obsidian/ai-collaborations/QA.md) | docs, reference, lorenzo |  | 491 |
 | [README](obsidian/ai-collaborations/README.md) | readme, docs |  | 119 |
 | [01-three-key-candidates](obsidian/ai-collaborations/candidates/01-three-key-candidates.md) | memory, ingestion, architecture | NGT Memory, Wikontic | 427 |
@@ -1650,8 +1665,8 @@
 | [10-architecture-rfc](obsidian/ai-collaborations/continuation/10-architecture-rfc.md) | memory, rag, security | Svyazi | 345 |
 | [README](obsidian/ai-collaborations/continuation/README.md) | readme, docs |  | 117 |
 | [1-agentic-knowledge-os](obsidian/ai-collaborations/ensembles/1-agentic-knowledge-os.md) | memory, rag, knowledge | Svyazi, AgentFS, knowledge-space | 516 |
-| [2-distributed-agent-workshop](obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md) | orchestration, architecture, roadmap | AI Factory, Rufler | 479 |
-| [3-forensic-rag](obsidian/ai-collaborations/ensembles/3-forensic-rag.md) |  | LiteParse, Legal RAG, Hybrid RAG | 470 |
+| [2-distributed-agent-workshop](obsidian/ai-collaborations/ensembles/2-distributed-agent-workshop.md) | orchestration, architecture, roadmap | AI Factory, Rufler | 494 |
+| [3-forensic-rag](obsidian/ai-collaborations/ensembles/3-forensic-rag.md) |  | LiteParse, Legal RAG, Hybrid RAG | 494 |
 | [4-web-to-knowledge-pipeline](obsidian/ai-collaborations/ensembles/4-web-to-knowledge-pipeline.md) | knowledge, ingestion, architecture | Svyazi, knowledge-space, Firecrawl | 399 |
 | [5-agent-firewall](obsidian/ai-collaborations/ensembles/5-agent-firewall.md) |  | Svyazi, SENTINEL, Tool Search | 452 |
 | [6-continuous-eval-loop](obsidian/ai-collaborations/ensembles/6-continuous-eval-loop.md) |  | Svyazi, AI Factory | 410 |
@@ -1687,7 +1702,7 @@
 | [08-section-8-risks-mitigations](obsidian/anthropic-vacancies/beneficial-deployments-concept/08-section-8-risks-mitigations.md) |  |  | 336 |
 | [09-section-9-timeliness](obsidian/anthropic-vacancies/beneficial-deployments-concept/09-section-9-timeliness.md) | rag, architecture, anthropic |  | 339 |
 | [10-section-10-engagement-request](obsidian/anthropic-vacancies/beneficial-deployments-concept/10-section-10-engagement-request.md) | roadmap, anthropic |  | 335 |
-| [11-not-and-format](obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) | roadmap, anthropic |  | 483 |
+| [11-not-and-format](obsidian/anthropic-vacancies/beneficial-deployments-concept/11-not-and-format.md) | roadmap, anthropic |  | 498 |
 | [README](obsidian/anthropic-vacancies/beneficial-deployments-concept/README.md) | readme, docs |  | 125 |
 | [01-ai-research-engineering](obsidian/anthropic-vacancies/clusters/01-ai-research-engineering.md) | anthropic |  | 338 |
 | [02-sales](obsidian/anthropic-vacancies/clusters/02-sales.md) | anthropic |  | 310 |
@@ -1786,7 +1801,7 @@
 | [svend4](obsidian/autofilled/components/svend4.md) | ingestion, collaboration | Svyazi | 223 |
 | [svyazi](obsidian/autofilled/components/svyazi.md) | ingestion, collaboration | Svyazi | 244 |
 | [research-summary](obsidian/autofilled/research-summary.md) | исследование |  | 226 |
-| [README](obsidian/badges/README.md) | readme, docs |  | 135 |
+| [README](obsidian/badges/README.md) |  |  | 96 |
 | [QA](obsidian/contacts/QA.md) | memory | Yodoca, NGT Memory, MemNet | 138 |
 | [README](obsidian/contacts/README.md) | readme, docs |  | 149 |
 | [anastasiyaw](obsidian/contacts/anastasiyaw.md) | контакты, команда | Svyazi, knowledge-space, mclaude | 240 |
@@ -1971,7 +1986,7 @@
 | [09-okwf-integration](obsidian/nautilus/composite-skills-agents/09-okwf-integration.md) | rag, architecture, roadmap |  | 752 |
 | [10-risks](obsidian/nautilus/composite-skills-agents/10-risks.md) |  |  | 796 |
 | [11-open-questions](obsidian/nautilus/composite-skills-agents/11-open-questions.md) | rag, anthropic |  | 663 |
-| [12-call-for-collaboration](obsidian/nautilus/composite-skills-agents/12-call-for-collaboration.md) | rag, anthropic |  | 477 |
+| [12-call-for-collaboration](obsidian/nautilus/composite-skills-agents/12-call-for-collaboration.md) | rag, anthropic |  | 542 |
 | [13-closing](obsidian/nautilus/composite-skills-agents/13-closing.md) | rag, architecture, anthropic |  | 742 |
 | [README](obsidian/nautilus/composite-skills-agents/README.md) | readme, docs |  | 132 |
 | [00-question-multiple-mentors](obsidian/nautilus/composite-skills-agents-companion-mentors/00-question-multiple-mentors.md) | architecture, anthropic |  | 657 |
@@ -2027,7 +2042,7 @@
 | [04-symbiotic-architecture](obsidian/nautilus/ingit-cowork-en/04-symbiotic-architecture.md) |  |  | 626 |
 | [05-four-integration-paths](obsidian/nautilus/ingit-cowork-en/05-four-integration-paths.md) | rag, orchestration, architecture |  | 818 |
 | [06-refined-ingit-scope](obsidian/nautilus/ingit-cowork-en/06-refined-ingit-scope.md) | architecture, roadmap, anthropic |  | 586 |
-| [07-practical-first-steps](obsidian/nautilus/ingit-cowork-en/07-practical-first-steps.md) | anthropic |  | 500 |
+| [07-practical-first-steps](obsidian/nautilus/ingit-cowork-en/07-practical-first-steps.md) | anthropic |  | 552 |
 | [08-implications-nautilus-okwf](obsidian/nautilus/ingit-cowork-en/08-implications-nautilus-okwf.md) | rag, architecture, anthropic |  | 657 |
 | [09-risks-open-questions](obsidian/nautilus/ingit-cowork-en/09-risks-open-questions.md) |  |  | 593 |
 | [10-strategic-positioning](obsidian/nautilus/ingit-cowork-en/10-strategic-positioning.md) |  |  | 790 |
@@ -2062,7 +2077,7 @@
 | [03-registry](obsidian/nautilus/npp-v1-0/03-registry.md) | architecture, anthropic |  | 507 |
 | [04-passport](obsidian/nautilus/npp-v1-0/04-passport.md) | anthropic, collaboration |  | 328 |
 | [05-compatibility-levels](obsidian/nautilus/npp-v1-0/05-compatibility-levels.md) | anthropic |  | 342 |
-| [06-adapter-interface](obsidian/nautilus/npp-v1-0/06-adapter-interface.md) | anthropic |  | 511 |
+| [06-adapter-interface](obsidian/nautilus/npp-v1-0/06-adapter-interface.md) | anthropic |  | 560 |
 | [07-portal-entry](obsidian/nautilus/npp-v1-0/07-portal-entry.md) | anthropic |  | 323 |
 | [08-consensus-algorithm](obsidian/nautilus/npp-v1-0/08-consensus-algorithm.md) | rag, anthropic |  | 386 |
 | [09-query-flow](obsidian/nautilus/npp-v1-0/09-query-flow.md) | anthropic |  | 332 |
@@ -2084,7 +2099,7 @@
 | [05-compatibility-levels](obsidian/nautilus/npp-v1-1/05-compatibility-levels.md) | anthropic |  | 418 |
 | [06-adapter-interface](obsidian/nautilus/npp-v1-1/06-adapter-interface.md) | ingestion, anthropic |  | 472 |
 | [07-portal-entry](obsidian/nautilus/npp-v1-1/07-portal-entry.md) | ingestion, architecture, anthropic |  | 418 |
-| [08-q6-space](obsidian/nautilus/npp-v1-1/08-q6-space.md) | anthropic |  | 484 |
+| [08-q6-space](obsidian/nautilus/npp-v1-1/08-q6-space.md) | anthropic |  | 536 |
 | [09-consensus-algorithm](obsidian/nautilus/npp-v1-1/09-consensus-algorithm.md) | rag, anthropic |  | 431 |
 | [10-query-flow](obsidian/nautilus/npp-v1-1/10-query-flow.md) | anthropic |  | 333 |
 | [11-relevance-ranking](obsidian/nautilus/npp-v1-1/11-relevance-ranking.md) | anthropic |  | 332 |
@@ -2156,7 +2171,7 @@
 | [07-governance-oversight](obsidian/nautilus/representative-agent-layer-en/07-governance-oversight.md) | architecture, roadmap, anthropic |  | 572 |
 | [08-risks-mitigations](obsidian/nautilus/representative-agent-layer-en/08-risks-mitigations.md) |  |  | 730 |
 | [09-phased-rollout](obsidian/nautilus/representative-agent-layer-en/09-phased-rollout.md) | architecture, roadmap, anthropic |  | 718 |
-| [10-open-questions](obsidian/nautilus/representative-agent-layer-en/10-open-questions.md) | orchestration, architecture, anthropic |  | 480 |
+| [10-open-questions](obsidian/nautilus/representative-agent-layer-en/10-open-questions.md) | orchestration, architecture, anthropic |  | 531 |
 | [11-call-for-collaboration](obsidian/nautilus/representative-agent-layer-en/11-call-for-collaboration.md) | ingestion, architecture, anthropic |  | 581 |
 | [12-closing](obsidian/nautilus/representative-agent-layer-en/12-closing.md) | rag, ingestion, architecture |  | 2713 |
 | [README](obsidian/nautilus/representative-agent-layer-en/README.md) | readme, docs |  | 127 |
@@ -2171,12 +2186,12 @@
 | [08-riski-mery](obsidian/nautilus/representative-agent-layer-ru/08-riski-mery.md) | security, architecture, anthropic |  | 643 |
 | [09-strategiya-razvyortyvaniya](obsidian/nautilus/representative-agent-layer-ru/09-strategiya-razvyortyvaniya.md) | security, architecture, roadmap |  | 712 |
 | [10-otkrytye-voprosy](obsidian/nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md) | architecture, anthropic |  | 468 |
-| [11-prizyv-k-sotrudnichestvu](obsidian/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) | architecture, anthropic |  | 488 |
+| [11-prizyv-k-sotrudnichestvu](obsidian/nautilus/representative-agent-layer-ru/11-prizyv-k-sotrudnichestvu.md) | architecture, anthropic |  | 558 |
 | [12-zaklyuchenie](obsidian/nautilus/representative-agent-layer-ru/12-zaklyuchenie.md) | architecture, roadmap, anthropic |  | 4458 |
 | [README](obsidian/nautilus/representative-agent-layer-ru/README.md) | readme, docs |  | 128 |
 | [00-tldr](obsidian/nautilus/review-methodology/00-tldr.md) | memory, anthropic, collaboration |  | 337 |
 | [01-context-motivation](obsidian/nautilus/review-methodology/01-context-motivation.md) | memory, roadmap, anthropic |  | 442 |
-| [02-formal-workflow](obsidian/nautilus/review-methodology/02-formal-workflow.md) | memory, architecture, roadmap |  | 454 |
+| [02-formal-workflow](obsidian/nautilus/review-methodology/02-formal-workflow.md) | memory, architecture, roadmap |  | 499 |
 | [03-consolidation-principles](obsidian/nautilus/review-methodology/03-consolidation-principles.md) | memory, rag, roadmap |  | 550 |
 | [04-fallback-ratio-question](obsidian/nautilus/review-methodology/04-fallback-ratio-question.md) | memory, rag, anthropic |  | 330 |
 | [05-conditions-of-applicability](obsidian/nautilus/review-methodology/05-conditions-of-applicability.md) | memory, architecture, roadmap |  | 334 |
@@ -2318,16 +2333,16 @@
 | [README](obsidian/technology-combinations/research-reports/README.md) | readme, docs |  | 94 |
 | [continuation-10-domains](obsidian/technology-combinations/research-reports/continuation-10-domains.md) |  |  | 444 |
 | [sozialrecht-35-combinations](obsidian/technology-combinations/research-reports/sozialrecht-35-combinations.md) | rag, architecture |  | 341 |
-| [01-08-summary](obsidian/technology-combinations/synthesis-tables/01-08-summary.md) |  | Svyazi, CardIndex, Yodoca | 436 |
+| [01-08-summary](obsidian/technology-combinations/synthesis-tables/01-08-summary.md) |  | Svyazi, CardIndex, Yodoca | 476 |
 | [09-14-extended](obsidian/technology-combinations/synthesis-tables/09-14-extended.md) |  | Svyazi | 306 |
 | [15-19-extended](obsidian/technology-combinations/synthesis-tables/15-19-extended.md) |  | Svyazi | 308 |
 | [20-24-final](obsidian/technology-combinations/synthesis-tables/20-24-final.md) |  |  | 311 |
 | [25-30-extended](obsidian/technology-combinations/synthesis-tables/25-30-extended.md) | rag, orchestration |  | 312 |
 | [31-35-final](obsidian/technology-combinations/synthesis-tables/31-35-final.md) |  |  | 305 |
 | [README](obsidian/technology-combinations/synthesis-tables/README.md) | readme, docs |  | 108 |
-| [README](obsidian/templates/README.md) |  |  | 134 |
+| [README](obsidian/templates/README.md) |  |  | 119 |
 | [agent-spec](obsidian/templates/agent-spec.md) | агент, спецификация |  | 301 |
-| [contact-outreach](obsidian/templates/contact-outreach.md) | контакты, команда |  | 129 |
+| [contact-outreach](obsidian/templates/contact-outreach.md) | контакты, команда |  | 132 |
 | [contradiction-record](obsidian/templates/contradiction-record.md) | противоречие, аудит |  | 302 |
 | [decision-record](obsidian/templates/decision-record.md) | архитектура, решение |  | 108 |
 | [ensemble](obsidian/templates/ensemble.md) | ансамбль, архитектура |  | 130 |
@@ -2478,7 +2493,7 @@
 | [README](technology-combinations/synthesis-tables/README.md) | readme, docs |  | 104 |
 | [README](templates/README.md) |  |  | 125 |
 | [agent-spec](templates/agent-spec.md) | агент, спецификация |  | 319 |
-| [contact-outreach](templates/contact-outreach.md) | контакты, команда |  | 120 |
+| [contact-outreach](templates/contact-outreach.md) | контакты, команда |  | 123 |
 | [contradiction-record](templates/contradiction-record.md) | противоречие, аудит |  | 324 |
 | [decision-record](templates/decision-record.md) | архитектура, решение |  | 100 |
 | [ensemble](templates/ensemble.md) | ансамбль, архитектура |  | 123 |
@@ -2503,14 +2518,14 @@
 
 ## Статистика
 
-- Всего документов: **2481**
-- Всего слов: **2,412,392**
+- Всего документов: **2498**
+- Всего слов: **2,335,998**
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (659):**
+**Кто ссылается на этот документ (673):**
 - [02-methodology](01-svyazi/02-methodology.md)
 - [06-security-privacy](01-svyazi/06-security-privacy.md)
 - [QA](01-svyazi/QA.md)
@@ -2519,17 +2534,7 @@
 - [192-2-исторические-прецеденты-агенты-как-цивилизационн](02-anthropic-vacancies/192-2-исторические-прецеденты-агенты-как-цивилизационн.md)
 - [196-6-этическая-рамка](02-anthropic-vacancies/196-6-этическая-рамка.md)
 - [197-7-управление-и-надзор](02-anthropic-vacancies/197-7-управление-и-надзор.md)
-- _...ещё 651_
-
-
-<!-- similar-docs -->
-
----
-
-**Похожие документы:**
-- [READING_TIME](READING_TIME.md) (сходство 0.96)
-- [READABILITY](READABILITY.md) (сходство 0.96)
-- [READING_TIME](obsidian/READING_TIME.md) (сходство 0.93)
+- _...ещё 665_
 
 
 <!-- see-also -->
@@ -2537,59 +2542,8 @@
 ---
 
 **Смотрите также:**
-- [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
 - [SOURCE_MAP](SOURCE_MAP.md)
 - [LANGUAGE_STATS](LANGUAGE_STATS.md)
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_search.py
-```
-```bash
-# Вариант 2
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 6
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 7
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 8
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 9
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 10
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 11
-python scripts/improve_search.py --dry-run
-```
-```bash
-# Вариант 12
-python scripts/improve_search.py --dry-run
-```

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. 4. Nautilus Portal as Reference Substrate

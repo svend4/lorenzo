@@ -1,31 +1,5 @@
 # Рекомендуемый порядок чтения
 
-> [!NOTE]
-> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Маршруты по целям](#маршруты-по-целям)
-  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
-  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
-  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
-
-
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
@@ -80,7 +54,7 @@
 | 48 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/38-content-overview.md) | 304 | — |
 | 49 | 🔴 Продвинутый | [Интегральный анализ профиля svend4](02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md) | 19240 | — |
 | 50 | 🟢 Начало | [README-MCP.md— инструкция по установке](02-anthropic-vacancies/125-readme-mcp-md-инструкция-по-установке.md) | 345 | — |
-| 51 | 🟢 Начало | [README.md](02-anthropic-vacancies/65-readme-md.md) | 302 | — |
+| 51 | 🟢 Начало | [README.md](02-anthropic-vacancies/65-readme-md.md) | 310 | — |
 | 52 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/48-content-overview.md) | 304 | — |
 | 53 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/58-content-overview.md) | 336 | — |
 | 54 | 🟢 Начало | [Content Overview](02-anthropic-vacancies/12-content-overview.md) | 304 | — |
@@ -91,7 +65,7 @@
 | 59 | 🟢 Начало | [1. Introduction](02-anthropic-vacancies/06-1-introduction.md) | 451 | — |
 | 60 | 🔴 Продвинутый | [ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md) | 3329 | — |
 | 61 | 🟡 Средний | [4. Architecture of Professional Colleague Age](02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md) | 1170 | — |
-| 62 | 🟢 Начало | [2. The Double-Triangle Architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 782 | — |
+| 62 | 🟢 Начало | [2. The Double-Triangle Architecture](02-anthropic-vacancies/139-2-the-double-triangle-architecture.md) | 796 | — |
 | 63 | 🟡 Средний | [Appendix C: Quick-Start Architecture for SGB ](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md) | 2010 | — |
 | 64 | 🟢 Начало | [4. The Symbiotic Architecture](02-anthropic-vacancies/312-4-the-symbiotic-architecture.md) | 687 | — |
 | 65 | 🟢 Начало | [PORTAL-PROTOCOL.md](02-anthropic-vacancies/03-portal-protocol-md.md) | 398 | — |
@@ -103,7 +77,7 @@
 | 71 | 🟢 Начало | [15. Security Considerations](02-anthropic-vacancies/90-15-security-considerations.md) | 511 | — |
 | 72 | 🟢 Начало | [2. Terminology](02-anthropic-vacancies/07-2-terminology.md) | 393 | — |
 | 73 | 🟢 Начало | [3. Registry (`nautilus.json`)](02-anthropic-vacancies/08-3-registry-nautilus-json.md) | 495 | — |
-| 74 | 🟢 Начало | [4. Passport (`passport.md`)](02-anthropic-vacancies/09-4-passport-passport-md.md) | 359 | — |
+| 74 | 🟢 Начало | [4. Passport (`passport.md`)](02-anthropic-vacancies/09-4-passport-passport-md.md) | 387 | — |
 | 75 | 🟢 Начало | [Angle / Perspective](02-anthropic-vacancies/13-angle-perspective.md) | 317 | — |
 | 76 | 🟢 Начало | [History](02-anthropic-vacancies/16-history.md) | 322 | — |
 | 77 | 🟢 Начало | [5. Compatibility Levels](02-anthropic-vacancies/17-5-compatibility-levels.md) | 400 | — |
@@ -174,14 +148,14 @@
 | 142 | 🟢 Начало | [20. ADR-002: Q6 as First-Class Protocol Conce](02-anthropic-vacancies/95-20-adr-002-q6-as-first-class-protocol-concept.md) | 425 | — |
 | 143 | 🟢 Начало | [21. ADR-003: Five Onboarding Paths as Equal-R](02-anthropic-vacancies/96-21-adr-003-five-onboarding-paths-as-equal-rank.md) | 304 | — |
 | 144 | 🟢 Начало | [22. Glossary of Reference Examples](02-anthropic-vacancies/97-22-glossary-of-reference-examples.md) | 304 | — |
-| 145 | 🟡 Средний | [Appendix A: Minimal Working Example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | 413 | — |
+| 145 | 🟡 Средний | [Appendix A: Minimal Working Example](02-anthropic-vacancies/98-appendix-a-minimal-working-example.md) | 420 | — |
 | 146 | 🟢 Начало | [Доступ к данным](02-anthropic-vacancies/102-доступ-к-данным.md) | 320 | — |
 | 147 | 🟢 Начало | [Appendix B: Change Log](02-anthropic-vacancies/103-appendix-b-change-log.md) | 408 | — |
 | 148 | 🟡 Средний | [Appendix C: References](02-anthropic-vacancies/104-appendix-c-references.md) | 1238 | — |
 | 149 | 🟢 Начало | [TL;DR](02-anthropic-vacancies/106-tl-dr.md) | 314 | — |
 | 150 | 🟢 Начало | [1. Контекст и мотивация](02-anthropic-vacancies/107-1-контекст-и-мотивация.md) | 487 | — |
 | 151 | 🟡 Средний | [2. Формальный workflow](02-anthropic-vacancies/108-2-формальный-workflow.md) | 443 | — |
-| 152 | 🟢 Начало | [3. Принципы консолидации (Фаза C)](02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) | 700 | — |
+| 152 | 🟢 Начало | [3. Принципы консолидации (Фаза C)](02-anthropic-vacancies/109-3-принципы-консолидации-фаза-c.md) | 711 | — |
 | 153 | 🟢 Начало | [Вопрос: fallback-ratio как критический или ос](02-anthropic-vacancies/110-вопрос-fallback-ratio-как-критический-или-осмыслен.md) | 381 | — |
 | 154 | 🟢 Начало | [4. Условия применимости](02-anthropic-vacancies/111-4-условия-применимости.md) | 341 | — |
 | 155 | 🟢 Начало | [5. Связь с существующими методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md) | 442 | — |
@@ -218,7 +192,7 @@
 | 186 | 🟢 Начало | [Acknowledgments](02-anthropic-vacancies/146-acknowledgments.md) | 552 | — |
 | 187 | 🟢 Начало | [References](02-anthropic-vacancies/147-references.md) | 416 | — |
 | 188 | 🟢 Начало | [Appendix A: Glossary](02-anthropic-vacancies/148-appendix-a-glossary.md) | 566 | — |
-| 189 | 🟢 Начало | [Appendix B: Summary of Contributions](02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) | 434 | — |
+| 189 | 🟢 Начало | [Appendix B: Summary of Contributions](02-anthropic-vacancies/149-appendix-b-summary-of-contributions.md) | 446 | — |
 | 190 | 🔴 Продвинутый | [Appendix C: Version History](02-anthropic-vacancies/150-appendix-c-version-history.md) | 8670 | — |
 | 191 | 🟢 Начало | [OPEN KNOWLEDGE WORK FOUNDATION.md](02-anthropic-vacancies/151-open-knowledge-work-foundation-md.md) | 431 | — |
 | 192 | 🟢 Начало | [AI-Coordinated Infrastructure for Distributed](02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md) | 355 | — |
@@ -354,7 +328,7 @@
 | 322 | 🟢 Начало | [Acknowledgments](02-anthropic-vacancies/286-acknowledgments.md) | 489 | — |
 | 323 | 🟢 Начало | [References](02-anthropic-vacancies/287-references.md) | 357 | — |
 | 324 | 🟡 Средний | [Appendix: Position in Series Visualization](02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) | 1282 | — |
-| 325 | 🟢 Начало | [ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛ](02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) | 455 | — |
+| 325 | 🟢 Начало | [ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛ](02-anthropic-vacancies/289-инфраструктура-для-ai-совместной-интеллектуальной-.md) | 462 | — |
 | 326 | 🟢 Начало | [Почему этот документ существует](02-anthropic-vacancies/290-почему-этот-документ-существует.md) | 399 | — |
 | 327 | 🟢 Начало | [Двухслойный стек, как он существует](02-anthropic-vacancies/291-двухслойный-стек-как-он-существует.md) | 586 | — |
 | 328 | 🟢 Начало | [Что отсутствует — Слой B](02-anthropic-vacancies/292-что-отсутствует-слой-b.md) | 625 | — |
@@ -364,7 +338,7 @@
 | 332 | 🟢 Начало | [Рекурсивное прозрение](02-anthropic-vacancies/296-рекурсивное-прозрение.md) | 552 | — |
 | 333 | 🟢 Начало | [Что промышленность вероятно построит](02-anthropic-vacancies/297-что-промышленность-вероятно-построит.md) | 377 | — |
 | 334 | 🟢 Начало | [Что этот документ не решает](02-anthropic-vacancies/298-что-этот-документ-не-решает.md) | 336 | — |
-| 335 | 🟢 Начало | [Практические рекомендации для текущего проект](02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) | 600 | — |
+| 335 | 🟢 Начало | [Практические рекомендации для текущего проект](02-anthropic-vacancies/299-практические-рекомендации-для-текущего-проекта.md) | 611 | — |
 | 336 | 🟢 Начало | [Заключение](02-anthropic-vacancies/300-заключение.md) | 304 | — |
 | 337 | 🟢 Начало | [Благодарности](02-anthropic-vacancies/301-благодарности.md) | 460 | — |
 | 338 | 🟢 Начало | [Ссылки](02-anthropic-vacancies/302-ссылки.md) | 331 | — |
@@ -383,7 +357,7 @@
 | 351 | 🟢 Начало | [8. Implications for Nautilus and OKWF](02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md) | 740 | — |
 | 352 | 🟢 Начало | [9. Risks and Open Questions](02-anthropic-vacancies/317-9-risks-and-open-questions.md) | 623 | — |
 | 353 | 🟢 Начало | [10. Strategic Positioning](02-anthropic-vacancies/318-10-strategic-positioning.md) | 821 | — |
-| 354 | 🟢 Начало | [Acknowledgments](02-anthropic-vacancies/319-acknowledgments.md) | 664 | — |
+| 354 | 🟢 Начало | [Acknowledgments](02-anthropic-vacancies/319-acknowledgments.md) | 676 | — |
 | 355 | 🟢 Начало | [References](02-anthropic-vacancies/320-references.md) | 353 | — |
 | 356 | 🟢 Начало | [Appendix A: Decision Tree for InGit Adopters](02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md) | 415 | — |
 | 357 | 🟡 Средний | [Appendix B: Comparison Matrix](02-anthropic-vacancies/322-appendix-b-comparison-matrix.md) | 371 | — |
@@ -393,7 +367,7 @@
 | 361 | 🟢 Начало | [Содержание](02-anthropic-vacancies/326-содержание.md) | 433 | — |
 | 362 | 🟢 Начало | [1. Открытие Cowork и почему это меняет всё](02-anthropic-vacancies/327-1-открытие-cowork-и-почему-это-меняет-всё.md) | 705 | — |
 | 363 | 🟢 Начало | [2. Что Cowork обеспечивает, что InGit не нужн](02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) | 792 | — |
-| 364 | 🟡 Средний | [3. Что InGit обеспечивает, чего Cowork не хва](02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) | 1093 | — |
+| 364 | 🟡 Средний | [3. Что InGit обеспечивает, чего Cowork не хва](02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) | 1101 | — |
 | 365 | 🟢 Начало | [4. Симбиотическая Архитектура](02-anthropic-vacancies/330-4-симбиотическая-архитектура.md) | 704 | — |
 | 366 | 🟢 Начало | [5. Четыре пути интеграции в порядке доступнос](02-anthropic-vacancies/331-5-четыре-пути-интеграции-в-порядке-доступности.md) | 814 | — |
 | 367 | 🟢 Начало | [6. Уточнённый объём InGit с учётом Cowork](02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) | 592 | — |
@@ -454,38 +428,3 @@
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (12):**
-- [README](02-anthropic-vacancies/README.md)
-- [CLUSTERS](CLUSTERS.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 4_
-
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_reading_order.py
-```
-```bash
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-```

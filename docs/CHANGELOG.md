@@ -1,14 +1,14 @@
 # CHANGELOG
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improve, collaboration -->
 
-> [!NOTE]
-> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, self-improve, collaboration -->
 
-
-Всего коммитов: **261**  
-Статистика: 🔧 chore: 96 | ✨ feat: 81 | 🐛 fix: 36 | 📝 docs: 25 | ⚡ improve: 15 | 🧪 test: 8
+Всего коммитов: **371**  
+Статистика: 🔧 chore: 114 | 🧪 test: 94 | ✨ feat: 81 | 🐛 fix: 41 | 📝 docs: 25 | ⚡ improve: 15 | 🤖 ci: 1
 
 
 ## semantic (1 коммитов)
@@ -23,10 +23,141 @@
 
 - csv: bulk export _  --expo_
 
-## 2026-05-11 (56 коммитов)
+## 2026-05-12 (43 коммитов)
 
 ### 🔧 Обслуживание
 
+- regenerate catalogs to fix CI catalog-fresh check _fb97fe67_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+### 🤖 CI/CD
+
+- add --tb=short to pytest for better failure diagnostics _d3a371e4_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+### 🐛 Исправления
+
+- mock subprocess in tests that call long-running scripts _afc39fc3_
+  > test_mcp_watch_server.py::test_tool_trigger_recompute_returns_string was
+- don't re-raise ImportError when streamlit is missing in review_queue.py _2f2c40df_
+  > review_queue.py re-raised ImportError on missing streamlit, causing all
+- raise ImportError instead of sys.exit in improve_ann_index.py _85732f55_
+  > sys.exit(1) raises SystemExit (a BaseException, not Exception), so when
+- add lxml to requirements-test.txt for bs4 parser backend _36adaf29_
+  > extract_mhtml.py uses BeautifulSoup(html, 'lxml') internally. Adding lxml
+- add beautifulsoup4 to requirements-test.txt to fix CI unit test failures _13eafd65_
+  > extract_mhtml.py and verify_coverage.py import beautifulsoup4 at module
+### 🧪 Тесты
+
+- add coverage improvements + CI debug output _dfe8f85b_
+  > - test_abstract.py: 88% → 100% (arg parsing, read error, no-problem, no-H1, __main__)
+- boost coverage to 97-100% for 6 more scripts _d7701f57_
+  > - test_auto_linker.py: arg parsing, entity map filtering, exception paths, apply mode
+- boost coverage for 6 more scripts (97-100% each) _291778f3_
+  > - test_alerts.py: added 8 tests covering dry-run, callout insertion, __main__
+- boost coverage to 100% for 17 test modules _6f5d9dcb_
+  > Achieved 100% line coverage for:
+- increase coverage for 8 scripts with targeted new tests _0969df78_
+  > Adds tests for improve_cross_section, improve_crosslink_all,
+- improve_sentiment 65→100%, improve_see_also 63→98% coverage _084534a8_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- improve_summaries/dedup/digest_auto/language_split to 99-100% coverage _84e424aa_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- improve_reading_order 63→100% coverage (23 tests) _c6635c26_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- part4_svyazi 74→97%, utils_docignore 75→100% _67b48847_
+  > part4_svyazi: cover run() function calling process_report for both reports.
+- improve_validate_templates coverage 68→97% (45 tests) _51d8f1f3_
+  > Cover parse_yaml_simple block lists, empty values, _coerce_scalar
+- improve_watcher coverage 97→100% (40 tests) _1852368b_
+  > Cover OSError in init loop (83-84), OSError in poll loop (96-97),
+- improve_watcher coverage 75→97% (39 tests) _868ba803_
+  > Cover handle_change exception branch (67-68), watch_polling loop
+- improve_workflow_v2 coverage 79→99% (50 tests) _a4bfbe8b_
+  > Cover retry backoff (87-89), sequential fail-break (182-183),
+- improve_workflow_run coverage 59→99% (65 tests) _8bd95c8f_
+  > Cover all execute_step operations (read, read_glob, run_script,
+- improve_collab_finder coverage 97→99% (68 tests) _7fc67f44_
+  > Cover dedup replacement (line 305), stub-prefix wc penalty (293),
+- boost coverage for backlinks (74%→99%) and chunk_semantic (72%→99%) _495e7cb3_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for part5-8 and organize_docs (48-62%→90-100%) _1083a622_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for broken_links (71%→96%) _ed67cfed_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for autofill (66%→99%) _ddddc037_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for ann_index (59%→97%) _5e03dd08_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for llm_qa (55%→99%) _2c93eb1c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for link_preview (56%→91%) _f23b43f2_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for duplicate_across (54%→86%) _05450751_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for watch (41%→86%), benchmark (52%→90%), mcp_test (53%→93%) _2e2ce0d4_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- boost coverage for external_compare (45%→87%), embedding_index (53%→95%), version_diff (53%→90%) _ead46816_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add comprehensive tests for card_index (40%→90%), task_codegen (41%→87%), watcher (44%→75%) _97dd32ad_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for workflow_v2 (34% → 79%) _ce011fcb_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for collab_finder (35% → 68%) _a415f2e6_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add comprehensive helper tests for improve_recipe.py (34% → 90%) _f0e95be5_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for epub, merge_by_topic, search_repl, ann_index _ea8dce7f_
+  > - epub: build_epub success/failure, main() pandoc not found, no files, success/failure
+- add helper tests for benchmark and watcher _db39dd35_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add helper tests for llm_summary, llm_contact, llm_enrich _d0c2f10d_
+  > Covers collect_targets, load_digest, append_to_digest, find_contact_file,
+- add helper tests for template_migrate, external_compare, run_all, llm_qa _dee34e8c_
+  > Covers default_for_type, suggest_migrations, tokens, top_freq, extract_urls,
+- add helper tests for embedding_index, mcp_test, link_preview _9fc8a442_
+  > Covers tokenize, tf, idf, tfidf_vector, cosine_sim, extract_urls,
+- add helper function tests for version_diff, duplicate_across, digest_auto, merge_by_topic _e5b5efdc_
+  > Covers tokenize, shingle, jaccard, word_overlap, section_of, extract_headings,
+- add unit tests for helper functions (69% → 70%) _650644d4_
+  > Adds tests for: contact_status (show_status, list, bulk, apply),
+
+## 2026-05-11 (123 коммитов)
+
+### 🔧 Обслуживание
+
+- update generated docs (feed.rss, feed.atom, search_index.json) _54915d0f_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- tests: add main() coverage for 21 more scripts _5fc06db8_
+  > Covers: readability_v2, question_extractor, readmes, tags, questions,
+- tests: add main() coverage for 23 more scripts _e357378b_
+  > Covers: link_preview, passage_retrieval, card_index, similar_passages,
+- tests: add main() coverage for 15 more scripts _29fe122d_
+  > Covers: changelog_auto, footnotes, epub, mcp_test, search_repl,
+- tests: add main() coverage for 16 more scripts _1a2ba8b5_
+  > Adds main() integration tests for: audit_db, autocorrect, benchmark,
+- tests: add main() coverage for 8 more scripts (alerts, auto_linker, chunk_semantic, export_csv/html/json, extract_tables, keyword_index) _47827bbc_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- tests: add main() coverage for 8 more scripts (abstract, auto_toc, changelog, clusters, crossrefs, graph, faq, digest) _6f9e5ef8_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- tests: add main() coverage for 6 more scripts (onboarding, tech_radar, missing, priorities, report, compare_docs) _c2420df8_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- tests: add main() coverage for 6 more scripts (concepts, narrative, github_issues, reading_list, textrank, template_init) _12f0d435_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- tests: add main() coverage for 9 more scripts (reading_time, crosslink_all, kpi, metrics, risk_register, named_entity_index, paragraph_quality, content_gaps, summaries) _741872f3_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- tests: add main() coverage for 15 more scripts (cost, entities, decisions, abbreviations, consistency, qa, language_split, passive_voice, reading_order, contacts, broken_links, source_map, gap_filler, subtopic_fill, autofill) _91f83d3b_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- update auto-generated feed and search index _4bff9c73_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- update auto-generated feed and search index _1d63000a_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- update auto-generated docs after test suite run _2690e462_
+  > Regenerated indexes, exports, and derived docs updated as side-effect
+- regenerate auto-generated docs artifacts _de184071_
+  > Bulk update after test suite expanded to 780 tests.
+- regenerate auto-generated docs artifacts _02c362fe_
+  > Bulk update after test suite expanded to 710 tests.
+- regenerate auto-generated docs artifacts _7e4ee06b_
+  > Bulk update of all reports, indexes, exports, and Obsidian/Confluence mirrors
 - regenerate auto-generated docs artifacts _0623cb16_
   > Bulk update of reports, indexes, exports, Obsidian/Confluence mirrors,
 - regenerate all auto-generated docs artifacts after smart pipeline run _7ff328ed_
@@ -129,6 +260,106 @@
   > - Fix improve_timeline.py: strip markdown links from context text, use DOCS-relative paths
 ### 🧪 Тесты
 
+- add main() coverage tests for 9 more scripts (64% → 69%) _3421b22c_
+  > Adds main() integration tests for: llm_gaps, migrate_contacts,
+- add main() coverage tests for see_also, badges, timeline, action_items _0231672a_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add output-function tests for digest_auto, dependabot, knowledge_map, scoring, glossary _39837058_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for extract_code, health _402b7367_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for orphans, sentiment, citation_index _09717470_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for dedup, empty_sections, heatmap, contact_priority _8562acd2_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for outline, compare, cross_section, duplicate_across _d52c19bd_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for coverage, version_diff, schedule, pre_commit _1a3493f3_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for network, density, word_freq, staleness, index_master, sitemap, heading_audit, progress, ci_config _25f964ec_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add main() coverage tests for backlinks, similar, stats, component_matrix, dependency_map _1205c895_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- complete 100% script coverage — extract_mhtml, part1-8, all 11 mcp_*_server, organize_docs, review_queue _677e4c00_
+  > 3308 tests passing. Every script in scripts/ now has a matching test file.
+- add tests for verify_coverage, mcp_server _0001a624_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for utils_chunker, utils_docignore, utils_card_envelope, prototype_demo _349a2b01_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for external_compare, llm_contact, llm_enrich, llm_gaps, llm_summary, mcp_test _5dafa9a7_
+  > Completes 100% test coverage across all improve_*.py scripts (166 scripts, 161 test files).
+- add tests for workflow_v2, epub, export_html _17191000_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for mcp_dashboard, template_migrate, quality_patch, watch, search_repl, templates _78510f70_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for crosslink_all, sentinel_check, dependency_map _00441c14_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for collab_finder, component_matrix _4d9f51ed_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for audit_db, compare, readmes _de48a995_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for confluence, export_report, dependabot _ec7b6150_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for skill_dashboard, tech_radar, template_integrity, pre_commit _454643ae_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for gap_filler, github_issues, index_master _05179dbd_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for auto_linker, autocorrect, search_index, ci_config _81b035a0_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for faceted_search, knowledge_map, missing, orphans, merge_short, recipe, run_all _21d11cc8_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for question_extractor, subtopic_fill, link_preview, contact_priority _3485e19c_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for chunk_semantic, crossrefs, source_map, reclassify _d4098794_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for cross_section, merge_by_topic _ded2926e_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for text_segmenter, duplicate_across, consistency, contradiction_check _74ad1c01_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for citation_index, keyword_index, named_entity_index, timeline_events _85484d95_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for rss, digest_auto, reading_list, similar_passages _ed79c94a_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for mindmap, network, topic_model, version_diff, obsidian _a5f9279d_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for language_split, vocabulary_richness, paragraph_quality, passive_voice, questions _22a65741_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add tests for contacts, content_gaps, schedule, heading_audit _27cc05e1_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 65 tests for extract_code, empty_sections, stats, similar, reading_order _f4923fd6_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 33 tests for backlinks, alerts, footnotes _2299ba15_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 52 tests for kpi, cost, coverage, density _01228b4b_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 87 tests for outline, narrative, complexity, dedup _5ad126ae_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 73 tests for priorities, sentiment, heatmap, clusters _c59f12ae_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 104 tests for abbreviations, action_items, auto_toc, decisions, reading_time, staleness _ddf35fe0_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 136 tests for compare_docs, changelog_auto, timeline, textrank, summaries, sitemap _2c2d66ea_
+  > https://claude.ai/code/session_0179jSZDgmKgh9eLH72HRLuv
+- add 43 tests for concept_graph, digest_weekly, qa _b7b1a4d9_
+  > Coverage reaches 1322 tests across 55 test files (+3 files):
+- add 65 tests for health, faq, concepts, onboarding _358f9a03_
+  > Coverage reaches 1279 tests across 52 test files (+4 files):
+- add 56 tests for readability_v2, progress, report _811083f2_
+  > Coverage reaches 1214 tests across 48 test files (+3 files):
+- add 64 tests for toc, tags, spellcheck, word_freq _f3b8b68b_
+  > Coverage reaches 1158 tests across 45 test files (+4 files):
+- add 54 tests for glossary, export_json, broken_links _4c33aac9_
+  > Coverage reaches 1094 tests across 41 test files (+3 files):
+- add 90 tests for digest, graph, entities, changelog _8f2c11c8_
+  > Coverage reaches 1040 tests across 38 test files (+4 files):
+- add 170 tests for see_also, risk_register, word_cloud, validate, scripts_catalog, registry _1902534f_
+  > Coverage now reaches 950 tests across 34 test files (+6 files this batch):
+- add 70 tests for improve_dedup, improve_clusters, improve_extract_tables _69df582f_
+  > - test_dedup.py (22 tests): file_hash (MD5/whitespace-norm/deterministic),
+- add 74 tests for improve_contact_status, improve_kpi_snapshot, improve_complexity _351a135d_
+  > - test_contact_status.py (27 tests): get_current_status (all cases, case-insensitive),
+- add 95 tests for improve_export_csv, improve_scoring, improve_workflow_run _2b05200b_
+  > - test_export_csv.py (37 tests): get_title (H1/fallback/truncate), get_tags,
 - add 52 tests for improve_watcher, improve_self, improve_card_index _e734762d_
   > - test_watcher.py (20 tests): should_run cooldown logic, handle_change RULES
 - add 95 tests for improve_llm_qa, improve_abstract, improve_benchmark _a345c19d_
@@ -559,29 +790,24 @@
 
 ---
 
-**Кто ссылается на этот документ (10):**
+**Кто ссылается на этот документ (8):**
 - [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
-- _...ещё 2_
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_changelog.py
-```
-```bash
-# Вариант 2
-python scripts/improve_changelog.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_changelog.py --dry-run
-```
+---
+
+**Смотрите также:**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [SITEMAP](SITEMAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

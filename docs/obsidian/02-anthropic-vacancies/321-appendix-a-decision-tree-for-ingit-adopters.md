@@ -2,7 +2,7 @@
 title: "Appendix A: Decision Tree for InGit Adopters"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Appendix A: Decision Tree for InGit Adopters

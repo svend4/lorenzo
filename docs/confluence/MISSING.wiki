@@ -1,11 +1,9 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/MISSING.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Карта пробелов знаний
-
-
 
 
 {quote}> Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
@@ -25,29 +23,29 @@ _Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Facto
 Анализ покрытия ключевых тем и проектов в docs/.
 
 || Статус || Тема / Проект || Файлов || Слов || Минимум || Примеры файлов ||
-|| ✅ || **Svyazi** || 749 || 985927 || ≥5ф/2000сл || `COLLAB_SUGGESTIONS.md`, `WORD_FREQ.md` ||
-|| ✅ || **local-first** || 364 || 675023 || ≥2ф/300сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
-|| ✅ || **Yodoca** || 344 || 762122 || ≥2ф/300сл || `COLLAB_SUGGESTIONS.md`, `WORD_FREQ.md` ||
-|| ✅ || **CardIndex** || 300 || 729931 || ≥3ф/500сл || `COLLAB_SUGGESTIONS.md`, `SCHEDULE.md` ||
-|| ✅ || **self-improvement** || 280 || 31808 || ≥1ф/100сл || `FOOTNOTES.md`, `CONSISTENCY.md` ||
-|| ✅ || **AgentFS** || 266 || 680593 || ≥3ф/500сл || `WORD_FREQ.md`, `SCHEDULE.md` ||
-|| ✅ || **knowledge-space** || 248 || 722962 || ≥3ф/500сл || `COLLAB_SUGGESTIONS.md`, `LANGUAGE_STATS.md` ||
-|| ✅ || **NGT Memory** || 222 || 159233 || ≥2ф/300сл || `COLLAB_SUGGESTIONS.md`, `GLOSSARY.md` ||
-|| ✅ || **mclaude** || 216 || 621666 || ≥2ф/200сл || `COLLAB_SUGGESTIONS.md`, `LANGUAGE_STATS.md` ||
-|| ✅ || **Rufler** || 212 || 627373 || ≥2ф/200сл || `COLLAB_SUGGESTIONS.md`, `LANGUAGE_STATS.md` ||
-|| ✅ || **LiteParse** || 196 || 621596 || ≥2ф/300сл || `LANGUAGE_STATS.md`, `BROKEN_LINKS.md` ||
-|| ✅ || **SENTINEL** || 192 || 454354 || ≥2ф/200сл || `SCHEDULE.md`, `LANGUAGE_STATS.md` ||
-|| ✅ || **AI Factory** || 151 || 141933 || ≥2ф/200сл || `GLOSSARY.md`, `CONSISTENCY.md` ||
-|| ✅ || **CRDT** || 143 || 621684 || ≥1ф/100сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
-|| ✅ || **AutoResearch** || 128 || 551195 || ≥1ф/100сл || `LANGUAGE_STATS.md`, `EMPTY_SECTIONS.md` ||
-|| ✅ || **Evidence Envelope** || 115 || 132161 || ≥2ф/200сл || `EMPTY_SECTIONS.md`, `CONSISTENCY.md` ||
-|| ✅ || **Sozialrecht** || 92 || 619147 || ≥1ф/200сл || `LANGUAGE_STATS.md`, `EMPTY_SECTIONS.md` ||
-|| ✅ || **Card Envelope** || 78 || 127209 || ≥2ф/200сл || `CONSISTENCY.md`, `PROTOTYPE_SPEC.md` ||
-|| ✅ || **Memory Write Policy** || 47 || 43431 || ≥2ф/200сл || `QUESTIONS.md`, `PROTOTYPE_SPEC.md` ||
-|| ✅ || **Review Record** || 47 || 36099 || ≥1ф/100сл || `EMPTY_SECTIONS.md`, `PROTOTYPE_SPEC.md` ||
+|| ✅ || **Svyazi** || 749 || 954308 || ≥5ф/2000сл || `COLLAB_SUGGESTIONS.md`, `WORD_FREQ.md` ||
+|| ✅ || **local-first** || 376 || 634490 || ≥2ф/300сл || `WORD_FREQ.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **Yodoca** || 340 || 722755 || ≥2ф/300сл || `COLLAB_SUGGESTIONS.md`, `WORD_FREQ.md` ||
+|| ✅ || **self-improvement** || 302 || 36979 || ≥1ф/100сл || `QUESTIONS.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **CardIndex** || 298 || 695115 || ≥3ф/500сл || `COLLAB_SUGGESTIONS.md`, `SCHEDULE.md` ||
+|| ✅ || **AgentFS** || 263 || 640311 || ≥3ф/500сл || `WORD_FREQ.md`, `SCHEDULE.md` ||
+|| ✅ || **knowledge-space** || 246 || 684046 || ≥3ф/500сл || `COLLAB_SUGGESTIONS.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **NGT Memory** || 223 || 159137 || ≥2ф/300сл || `COLLAB_SUGGESTIONS.md`, `GLOSSARY.md` ||
+|| ✅ || **mclaude** || 215 || 583257 || ≥2ф/200сл || `COLLAB_SUGGESTIONS.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **Rufler** || 209 || 589504 || ≥2ф/200сл || `COLLAB_SUGGESTIONS.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **LiteParse** || 194 || 582357 || ≥2ф/300сл || `LANGUAGE_STATS.md`, `BROKEN_LINKS.md` ||
+|| ✅ || **SENTINEL** || 192 || 564932 || ≥2ф/200сл || `SCHEDULE.md`, `LANGUAGE_STATS.md` ||
+|| ✅ || **AI Factory** || 152 || 141449 || ≥2ф/200сл || `GLOSSARY.md`, `CONSISTENCY.md` ||
+|| ✅ || **CRDT** || 142 || 580947 || ≥1ф/100сл || `LANGUAGE_STATS.md`, `FOOTNOTES.md` ||
+|| ✅ || **AutoResearch** || 126 || 510930 || ≥1ф/100сл || `LANGUAGE_STATS.md`, `EMPTY_SECTIONS.md` ||
+|| ✅ || **Evidence Envelope** || 107 || 90580 || ≥2ф/200сл || `EMPTY_SECTIONS.md`, `CONSISTENCY.md` ||
+|| ✅ || **Sozialrecht** || 90 || 580642 || ≥1ф/200сл || `LANGUAGE_STATS.md`, `EMPTY_SECTIONS.md` ||
+|| ✅ || **Card Envelope** || 74 || 86192 || ≥2ф/200сл || `CONSISTENCY.md`, `PROTOTYPE_SPEC.md` ||
+|| ✅ || **Memory Write Policy** || 50 || 48625 || ≥2ф/200сл || `QUESTIONS.md`, `PROTOTYPE_SPEC.md` ||
+|| ✅ || **Review Record** || 48 || 36140 || ≥1ф/100сл || `EMPTY_SECTIONS.md`, `PROTOTYPE_SPEC.md` ||
 || ✅ || **privacy by design** || 46 || 37386 || ≥1ф/100сл || `TABLES.md`, `MISSING.md` ||
-|| ✅ || **бюджетный роутинг** || 37 || 65930 || ≥2ф/300сл || `EMPTY_SECTIONS.md`, `RISK_REGISTER.md` ||
-|| ✅ || **Skill Policy** || 31 || 10405 || ≥1ф/100сл || `TABLES.md`, `SUMMARIES.md` ||
+|| ✅ || **бюджетный роутинг** || 38 || 71473 || ≥2ф/300сл || `EMPTY_SECTIONS.md`, `RISK_REGISTER.md` ||
+|| ✅ || **Skill Policy** || 32 || 10446 || ≥1ф/100сл || `TABLES.md`, `SUMMARIES.md` ||
 || ✅ || **лицензия BSL** || 6 || 3930 || ≥1ф/50сл || `RISK_REGISTER.md`, `TABLES.md` ||
 || ✅ || **voice ingestion** || 4 || 2280 || ≥1ф/100сл || `TABLES.md`, `MISSING.md` ||
 
@@ -65,32 +63,25 @@ h2. Рекомендации
 
 ----
 
-_Смотрите также:_
-* [CONSISTENCY|CONSISTENCY.md]
-* [TAGS|TAGS.md]
-* [ENTITIES|ENTITIES.md]
-* [GLOSSARY|GLOSSARY.md]
+_Кто ссылается на этот документ (11):_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [07-выводы|04-ai-collaborations/07-выводы.md]
+* [README|04-ai-collaborations/README.md]
+* [CODE_BLOCKS|CODE_BLOCKS.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* _...ещё 3_
 
 
 
 
 ----
 
-_Кто ссылается на этот документ (13):_
-* [08-conclusions|01-svyazi/08-conclusions.md]
-* [07-выводы|04-ai-collaborations/07-выводы.md]
-* [README|04-ai-collaborations/README.md]
-* [CODE_BLOCKS|CODE_BLOCKS.md]
+_Смотрите также:_
 * [CONSISTENCY|CONSISTENCY.md]
-* [DENSITY|DENSITY.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* _...ещё 5_
+* [GRAPH|GRAPH.md]
+* [MINDMAP|MINDMAP.md]
+* [DEPENDABOT|DEPENDABOT.md]
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_missing.py
-{code}

@@ -3,7 +3,7 @@ title: "Что ты НЕ МОЖЕШЬ делать без Max approval"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Что ты НЕ МОЖЕШЬ делать без Max approval

@@ -1,14 +1,7 @@
 # Расписание проекта
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `SCHEDULE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> _Дорожная карта с вехами и задачами по кварталам._
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 **Проекты:** Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
 ---
@@ -16,6 +9,11 @@
 
 
 
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
 
 _Дорожная карта с вехами и задачами по кварталам._
 
@@ -70,18 +68,29 @@ _█ = активная работа, ░ = ожидание_
 - Текущая фаза: **Контакты с авторами**
 - Следующая веха: **⬜ Написать авторам AgentFS, Yodoca, NGT**
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](DENSITY.md)
+- [PROGRESS](PROGRESS.md)
+- [SCORING](SCORING.md)
+- [HEATMAP](HEATMAP.md)
+
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
-- [DENSITY](DENSITY.md)
-- [DEPENDABOT](DEPENDABOT.md)
+**Кто ссылается на этот документ (10):**
+- [COST](COST.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
+- [PROGRESS](PROGRESS.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
+- [SCORING](SCORING.md)
+- _...ещё 2_
 

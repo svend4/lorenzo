@@ -3,7 +3,7 @@ title: "Когда сомневаешься — escalate к Max"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Когда сомневаешься — escalate к Max

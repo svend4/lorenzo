@@ -1,16 +1,30 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/TECH_RADAR.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "Tech Radar — Svyazi 2.0"
 tags:
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Tech Radar — Svyazi 2.0
+
+
+h2. Содержание
+
+* [Обзор|#обзор]
+* [🟢 ADOPT|#adopt]
+* [🔵 TRIAL|#trial]
+* [🟡 ASSESS|#assess]
+* [🔴 HOLD|#hold]
+* [Методология|#методология]
+* [Смотрите также|#смотрите-также]
+
+----
+
 
 
 
@@ -114,3 +128,30 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Смотрите также:_
+* [[COMPONENT_MATRIX]]
+* [[ONBOARDING]]
+* [[DENSITY]]
+* [[FOOTNOTES]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (12):_
+* [[COMPONENT_MATRIX]]
+* [[CONCEPTS]]
+* [[INDEX]]
+* [[ONBOARDING]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[README]]
+* _...ещё 4_
+

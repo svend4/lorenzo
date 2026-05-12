@@ -1,51 +1,50 @@
 # Отчёт об устаревших документах
 
-<!-- toc-auto -->
-
 > [!NOTE]
-> Раздел `STALENESS` формируется автоматически из данных репозитория.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
 <!-- summary -->
-> _Порог: 30 дней. Обновлено: 2026-05-11_
+> _Порог: 30 дней. Обновлено: 2026-05-12_
+**Проекты:** Svyazi
 
 ---
-<!-- tags: orchestration, local-first, anthropic, collaboration -->
+<!-- tags: ingestion, local-first, collaboration -->
 
 
 
 
-_Порог: 30 дней. Обновлено: 2026-05-11_
+_Порог: 30 дней. Обновлено: 2026-05-12_
 
-Найдено проблем: **126** файлов
+Найдено проблем: **132** файлов
 
-## Без метаданных (нет summary или тегов) — 87 файлов
+## Без метаданных (нет summary или тегов) — 97 файлов
 
 | Файл | Слов | Проблемы |
 |------|------|---------|
-| `docs/ABBREVIATIONS.md` | 1304 | нет summary, нет тегов |
-| `docs/ACTION_ITEMS.md` | 9444 | нет summary, нет тегов |
-| `docs/ALERTS.md` | 50 | нет summary, нет тегов, короткий (50 слов) |
-| `docs/AUTHORS.md` | 144 | нет summary, нет тегов |
-| `docs/BACKLINKS.md` | 432 | нет summary, нет тегов |
-| `docs/CHANGELOG.md` | 3792 | нет тегов |
-| `docs/CLUSTERS.md` | 1669 | нет summary, нет тегов |
-| `docs/CODE_BLOCKS.md` | 5044 | нет summary, нет тегов |
+| `docs/ALERTS.md` | 81 | нет summary, нет тегов, короткий (81 слов) |
+| `docs/AUTHORS.md` | 100 | нет summary, нет тегов |
+| `docs/BACKLINKS.md` | 401 | нет summary, нет тегов |
+| `docs/CHANGELOG.md` | 5351 | нет тегов |
 | `docs/COMPARE.md` | 321 | нет summary, нет тегов |
-| `docs/COMPLEXITY.md` | 343 | нет summary, нет тегов |
-| `docs/CONCEPTS.md` | 16181 | нет summary, нет тегов |
-| `docs/CONTACTS.md` | 316 | нет summary, нет тегов |
-| `docs/CONTENT_GAPS.md` | 674 | нет summary, нет тегов |
+| `docs/CONCEPT_GRAPH.md` | 641 | нет тегов |
+| `docs/CONSISTENCY.md` | 533 | нет summary, нет тегов |
+| `docs/CONTACTS.md` | 350 | нет summary, нет тегов |
+| `docs/CONTENT_GAPS.md` | 687 | нет summary, нет тегов |
+| `docs/CONTRADICTIONS.md` | 1624 | нет summary, нет тегов |
 | `docs/COST.md` | 344 | нет summary, нет тегов |
-| `docs/CROSSREFS.md` | 502 | нет summary, нет тегов |
-| `docs/DENSITY.md` | 336 | нет summary, нет тегов |
-| `docs/DIGEST.md` | 200 | нет summary, нет тегов |
-| `docs/ENTITIES.md` | 397 | нет summary, нет тегов |
-| `docs/FAQ.md` | 1346 | нет summary, нет тегов |
-| `docs/FOOTNOTES.md` | 204 | нет summary, нет тегов |
+| `docs/CROSSREFS.md` | 522 | нет тегов |
+| `docs/CROSS_SECTION.md` | 3800 | нет summary, нет тегов |
+| `docs/DEPENDABOT.md` | 124 | нет summary, нет тегов |
+| `docs/DIGEST.md` | 229 | нет summary, нет тегов |
+| `docs/DIGEST_AUTO.md` | 418 | нет summary, нет тегов |
+| `docs/GLOSSARY.md` | 125 | нет summary, нет тегов |
+| `docs/KEYWORD_INDEX.md` | 498 | нет summary, нет тегов |
+| `docs/KPI.md` | 2096 | нет summary, нет тегов |
+| `docs/KPI_HISTORY.md` | 116 | нет summary, нет тегов |
 
-## Короткие (< 100 слов, заготовки) — 39 файлов
+## Короткие (< 100 слов, заготовки) — 35 файлов
 
 | Файл | Слов |
 |------|------|
@@ -64,11 +63,11 @@ _Порог: 30 дней. Обновлено: 2026-05-11_
 | `docs/nautilus/multi-tier-architecture/README.md` | 91 |
 | `docs/nautilus/supply-demand/README.md` | 91 |
 | `docs/nautilus/transmission-box/README.md` | 91 |
-| `docs/obsidian/glossary/README.md` | 91 |
-| `docs/obsidian/habr-unique-projects/analogues/README.md` | 94 |
-| `docs/obsidian/lorenzo-agent/scenarios/README.md` | 92 |
-| `docs/obsidian/nautilus/community-discussions/habr-article-1-reaction/README.md` | 92 |
-| `docs/obsidian/nautilus/community-discussions/habr-article-2-reaction/README.md` | 94 |
+| `docs/svyazi-2-0/limitations/README.md` | 95 |
+| `docs/svyazi-2-0/outreach/README.md` | 98 |
+| `docs/svyazi-2-0/prototype/README.md` | 88 |
+| `docs/svyazi-2-0/security/README.md` | 98 |
+| `docs/technology-combinations/research-reports/README.md` | 91 |
 
 ## Рекомендуемые действия
 
@@ -81,18 +80,27 @@ python scripts/improve_tags.py
 python scripts/improve_llm_enrich.py --section 05-habr-projects
 ```
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [TAGS](TAGS.md)
+- [SPELLCHECK](SPELLCHECK.md)
+- [HEALTH](HEALTH.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
-- [CONSISTENCY](CONSISTENCY.md)
-- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [ORPHANS](ORPHANS.md)
+**Кто ссылается на этот документ (7):**
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
-- _...ещё 1_
+- [TABLES](TABLES.md)
+- [TAGS](TAGS.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
 

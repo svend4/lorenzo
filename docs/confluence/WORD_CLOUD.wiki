@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/WORD_CLOUD.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Word Cloud
@@ -70,3 +70,14 @@ h2. Использование
 # Запуск
 python scripts/improve_word_cloud.py
 {code}
+
+
+
+----
+
+_Смотрите также:_
+* [.md|autofilled/components/.md]
+* [cowork|autofilled/components/cowork.md]
+* [ingit|autofilled/components/ingit.md]
+* [lorenzo|autofilled/components/lorenzo.md]
+

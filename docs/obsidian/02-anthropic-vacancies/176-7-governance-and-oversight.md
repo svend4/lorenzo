@@ -3,7 +3,7 @@ title: "7. Governance and Oversight"
 tags:
   - roadmap
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 7. Governance and Oversight

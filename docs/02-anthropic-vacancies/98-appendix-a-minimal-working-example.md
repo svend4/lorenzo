@@ -163,3 +163,8 @@ class MyNotesAdapter(BaseAdapter):
 - [22-10-queryresult-structure](22-10-queryresult-structure.md)
 - _...ещё 9_
 
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.

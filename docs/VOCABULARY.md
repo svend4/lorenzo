@@ -1,5 +1,18 @@
 # Богатство словаря документов
 
+<!-- toc -->
+## Содержание
+
+- [Корпусная статистика](#корпусная-статистика)
+- [Топ файлов по богатству словаря (STTR)](#топ-файлов-по-богатству-словаря-sttr)
+- [Файлы с бедным словарём (требуют доработки)](#файлы-с-бедным-словарём-требуют-доработки)
+- [Справка по метрикам](#справка-по-метрикам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -118,3 +131,28 @@ python scripts/improve_vocabulary.py
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COMPLEXITY](COMPLEXITY.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [25-13-reference-implementation](02-anthropic-vacancies/25-13-reference-implementation.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (7):**
+- [CONCEPTS](CONCEPTS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

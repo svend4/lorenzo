@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/65-readme-md.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "README.md"
 tags:
   * anthropic
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. README.md
@@ -131,3 +131,7 @@ python scripts/improve_semantic_search.py --query "README md"
 - _...ещё 1_
 
 _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+# English below ↓
+
+## English below ↓

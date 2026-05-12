@@ -4,7 +4,7 @@ tags:
   - knowledge
   - roadmap
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Твоя identity как persistent character

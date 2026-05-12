@@ -1,24 +1,41 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ACTION_ITEMS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Action Items, риски и решения
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{ACTION_ITEMS}} формируется автоматически из данных репозитория.{quote}
+
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+----
+
+
+h2. Содержание
+
+* [➡️ Следующие шаги (368)|#следующие-шаги-368]
+* [✅ Решения и рекомендации (1072)|#решения-и-рекомендации-1072]
+* [⚠️ Риски (1336)|#риски-1336]
+* [🚫 Ограничения (378)|#ограничения-378]
+* [📋 Задачи (TODO) (38)|#задачи-todo-38]
+* [📬 Контактные действия (313)|#контактные-действия-313]
+
+----
 
 
 
 
 
 
-{quote}{{ACTION_ITEMS}} — раздел документации проекта Lorenzo.{quote}
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
 
 
 Автоматически извлечено из всех документов.
 
-_Всего элементов:_ 3522
+_Всего элементов:_ 3505
 
 
 h2. ➡️ Следующие шаги (368)
@@ -187,7 +204,7 @@ h2. ➡️ Следующие шаги (368)
   _→ EMPTY_SECTIONS_
 * после извлечения (14 сл., строка 135)  
   _→ EMPTY_SECTIONS_
-* (13 сл., строка 39)  
+* (13 сл., строка 56)  
   _→ EMPTY_SECTIONS_
 * - Приоритет 1: kksudo (AgentFS, 13 упоминаний)  
   _→ OUTLINE_
@@ -248,7 +265,7 @@ h2. ➡️ Следующие шаги (368)
 
 _(257 дублей скрыто)_
 
-h2. ✅ Решения и рекомендации (1071)
+h2. ✅ Решения и рекомендации (1072)
 
 * начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -522,6 +539,8 @@ h2. ✅ Решения и рекомендации (1071)
   _→ TABLES_
 * упростить | Contents, Вариант 10, Вариант 11 +20 |  
   _→ TABLES_
+* упростить | Вариант 10, Вариант 11, Вариант 12 +18 |  
+  _→ VERSION_DIFF_
 * как связь между людьми» — или это  
   _→ spbmolot_
 * две уровневая"  
@@ -597,7 +616,7 @@ h2. ✅ Решения и рекомендации (1071)
 
 _(899 дублей скрыто)_
 
-h2. ⚠️ Риски (1348)
+h2. ⚠️ Риски (1336)
 
 * и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1061,11 +1080,11 @@ h2. ⚠️ Риски (1348)
   _→ CONTRADICTIONS_
 * и allowlist для MCP ^svyazi: Главный проект: эк  
   _→ CONTRADICTIONS_
+* и allowlist для MCP ^svyazi : Главный проект:  
+  _→ CONTRADICTIONS_
 * | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 * mitigation для каждой. Полезно для grant  
-  _→ DECISIONS_
-* | |------|----------|------| | `docs/obsidian/02-anthropic-vaca  
   _→ DECISIONS_
 * собирать вс  
   _→ DECISIONS_
@@ -1075,6 +1094,8 @@ h2. ⚠️ Риски (1348)
   _→ DEMO_
 * | {{root}} | 91% |  
   _→ DENSITY_
+* | |------|----------|------| | {{docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-}} | BSL | Business Source License — не открытая, коммерчес  
+  _→ DUPLICATES_
 * Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
 * Analysis (0 сл., строка 34)  
@@ -1137,7 +1158,7 @@ h2. ⚠️ Риски (1348)
   _→ SCORING_
 * тестировать любую цепочку.  
   _→ SCRIPT_EVAL_REPORT_
-* --- --- --- --- --- Evidence-first core Из любого suggestions можн  
+* Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н  
   _→ SIMILAR_PASSAGES_
 * [Название]](templates/risk-entry.md) | 371 |  
   _→ SITEMAP_
@@ -1189,6 +1210,8 @@ h2. ⚠️ Риски (1348)
   _→ TABLES_
 * склеивать]] | 429 |  
   _→ TABLES_
+* агентов?, Принимаем эту architecture как Lorenzo vision (с моими caveats)? | Contents - Что это такое?, Запуск, Использование +1 |  
+  _→ VERSION_DIFF_
 * проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 * склеивать в один релиз"  
@@ -1252,9 +1275,9 @@ h2. ⚠️ Риски (1348)
 * - [Антисценарий 1]  
   _→ tech-pair_
 
-_(1022 дублей скрыто)_
+_(1008 дублей скрыто)_
 
-h2. 🚫 Ограничения (382)
+h2. 🚫 Ограничения (378)
 
 * и лицензии  
   _→ 14-limitations_
@@ -1414,8 +1437,6 @@ h2. 🚫 Ограничения (382)
   _→ READING_ORDER_
 * ### ⚠️ 1. 137 из 159 скриптов без --dry-run  
   _→ SCRIPT_EVAL_REPORT_
-* пропускной способности. Человеческая когнитивная способность ограничена. Глубокая техническая работа, научные иссл  
-  _→ SIMILAR_PASSAGES_
 * и лицензии](01-svyazi/14-limitations.md) | 765 |  
   _→ SITEMAP_
 * и лицензии](obsidian/01-svyazi/14-limitations.md) | 776 |  
@@ -1489,7 +1510,7 @@ h2. 🚫 Ограничения (382)
 * ## 12. Compatibility  
   _→ protocol-spec_
 
-_(266 дублей скрыто)_
+_(263 дублей скрыто)_
 
 h2. 📋 Задачи (TODO) (38)
 
@@ -1513,20 +1534,22 @@ h2. 📋 Задачи (TODO) (38)
   _→ SCRIPTS_CATALOG_
 * из docs/.**  
   _→ SCRIPTS_CATALOG_
-* меток: _109_  
+* меток: _113_  
   _→ STATS_
 * Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
 * CLAUDE.md → описания скриптов → несоответствия  
   _→ 01-concept_
+* меток: _111_  
+  _→ STATS_
 * после решения  
   _→ review-record_
 * SGB Y — [пояснение]  
   _→ legal-case_
 
-_(23 дублей скрыто)_
+_(22 дублей скрыто)_
 
-h2. 📬 Контактные действия (315)
+h2. 📬 Контактные действия (313)
 
 * — _entity["people","Андрей Чуян","habr author"]_, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1709,41 +1732,31 @@ h2. 📬 Контактные действия (315)
 * {{adapters/<format>.py}}, наследуясь от `[[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
 
-_(225 дублей скрыто)_
+_(223 дублей скрыто)_
 
 
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_action_items.py
-{code}
-{code:language=bash}
-# Вариант 2
-python scripts/improve_action_items.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 3
-python scripts/improve_action_items.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 4
-python scripts/improve_action_items.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 5
-python scripts/improve_action_items.py --dry-run
-{code}
 
-h2. Смотрите также
-* [Главная|README.md]
-* [Метрики|METRICS.md]
-* [Здоровье|HEALTH.md]
-* [Глоссарий|GLOSSARY.md]
-* [Сущности|ENTITIES.md]
-* [Решения|DECISIONS.md]
-* [Контакты|CONTACTS.md]
-* [Оценка|SCORING.md]
-* [Теги|TAGS.md]
-* [Задачи|ACTION_ITEMS.md]
-* [Хронология|TIMELINE.md]
-* [Структура|OUTLINE.md]
+----
+
+_Кто ссылается на этот документ (29):_
+* [03-component-catalog|01-svyazi/03-component-catalog.md]
+* [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md]
+* [115-8-ограничения-и-открытые-вопросы|02-anthropic-vacancies/115-8-ограничения-и-открытые-вопросы.md]
+* [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]
+* [165-closing|02-anthropic-vacancies/165-closing.md]
+* [207-приложение-c-образцы-случаев-использования-в-детал|02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md]
+* [248-приложение-c-архитектура-быстрого-старта-для-sgb-а|02-anthropic-vacancies/248-приложение-c-архитектура-быстрого-старта-для-sgb-а.md]
+* [272-appendix-d-connection-diagram|02-anthropic-vacancies/272-appendix-d-connection-diagram.md]
+* _...ещё 21_
+
+
+
+
+----
+
+_Смотрите также:_
+* [CONCEPTS|CONCEPTS.md]
+* [SEARCH|SEARCH.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+

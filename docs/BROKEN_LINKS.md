@@ -5,7 +5,7 @@
 
 - [Содержание](#содержание)
 - [Общие показатели](#общие-показатели)
-- [Внешние URL (452 уникальных)](#внешние-url-452-уникальных)
+- [Внешние URL (595 уникальных)](#внешние-url-595-уникальных)
 - [Использование](#использование)
 - [Смотрите также](#смотрите-также)
 
@@ -13,7 +13,7 @@
 
 
 <!-- summary -->
-> Сломанных ссылок: **74**, пропущено: 0
+> Сломанных ссылок: **90**, пропущено: 0
 
 <!-- tags: quality, links, validation, broken-links -->
 
@@ -27,11 +27,11 @@
 - [Смотрите также](#смотрите-также)
 
 > [!WARNING]
-> Найдено 74 сломанных ссылок — требуют исправления.
+> Найдено 90 сломанных ссылок — требуют исправления.
 
 <!-- alert-added -->
 
-**Найдено:** 74 проблем, 0 пропущено (длинный путь)
+**Найдено:** 90 проблем, 0 пропущено (длинный путь)
 
 
 Скрипт `improve_broken_links.py` проверяет все внутренние ссылки в папке `docs/`, исключая автоматически генерируемые разделы: `obsidian/`, `confluence/`, `templates/` и `autofilled/`. Проверяются ссылки на файлы (существование пути) и якоря (существование заголовка). Ссылки с путём длиннее 240 символов пропускаются из-за ограничений операционной системы и сохраняются в `bad_links.json`.
@@ -45,7 +45,7 @@
 ## Общие показатели
 
 - Проверено файлов: большинство `.md` в `docs/`
-- Сломанных ссылок: **74**
+- Сломанных ссылок: **90**
 - Пропущено (длинный путь): **0**
 - Внешние URL не проверяются (список формируется без запросов)
 
@@ -81,14 +81,15 @@
 | `docs/READING_LIST.md` | Введение | `docs/04-ai-collaborations/00-intro.md` | файл не существует |
 | `docs/READING_LIST.md` | Что такое Вариант C — Concept  | `docs/02-anthropic-vacancies/342-что-тако` | файл не существует |
 | `docs/READING_LIST.md` | Карта репозитория Lorenzo | `docs/SITEMAP.md` | файл не существует |
-| `docs/READING_LIST.md` | Diff базы знаний между версиям | `docs/VERSION_DIFF.md` | файл не существует |
 | `docs/READING_LIST.md` | Claude hat geantwortet: Хорошо | `docs/nautilus/community-discussions/agen` | файл не существует |
 | `docs/READING_LIST.md` | ⬡ | `docs/02-anthropic-vacancies/69-section.m` | файл не существует |
+| `docs/READING_LIST.md` | Closing | `docs/02-anthropic-vacancies/165-closing.` | файл не существует |
 | `docs/READING_LIST.md` | Приложение C: Образец Специфик | `docs/02-anthropic-vacancies/341-приложен` | файл не существует |
 | `docs/READING_LIST.md` | Интегральный анализ профиля sv | `docs/02-anthropic-vacancies/01-интеграль` | файл не существует |
 | `docs/READING_LIST.md` | Обратная связь | `docs/02-anthropic-vacancies/133-обратная` | файл не существует |
 | `docs/READING_LIST.md` | Что такое Вариант C — Concept  | `docs/02-anthropic-vacancies/342-что-тако` | файл не существует |
 | `docs/READING_LIST.md` | ⬡ | `docs/02-anthropic-vacancies/69-section.m` | файл не существует |
+| `docs/READING_LIST.md` | Closing | `docs/02-anthropic-vacancies/165-closing.` | файл не существует |
 | `docs/READING_LIST.md` | Введение | `docs/04-ai-collaborations/00-intro.md` | файл не существует |
 | `docs/READING_LIST.md` | Глоссарий понятий | `docs/CONCEPTS.md` | файл не существует |
 | `docs/READING_LIST.md` | Outline базы знаний | `docs/OUTLINE.md` | файл не существует |
@@ -97,17 +98,17 @@
 | `docs/READING_LIST.md` | Карта репозитория Lorenzo | `docs/SITEMAP.md` | файл не существует |
 | `docs/READING_LIST.md` | Карта происхождения текстов | `docs/SOURCE_MAP.md` | файл не существует |
 | `docs/READING_LIST.md` | Все таблицы репозитория | `docs/TABLES.md` | файл не существует |
-| `docs/READING_LIST.md` | Diff базы знаний между версиям | `docs/VERSION_DIFF.md` | файл не существует |
 | `docs/READING_LIST.md` | Claude hat geantwortet: Хорошо | `docs/nautilus/community-discussions/agen` | файл не существует |
-| `docs/SENTINEL.md` | HTTP без TLS | `#http-без-tls` | якорь не найден |
-| `docs/TABLES.md` | @handle | `obsidian/templates/ссылка` | файл не существует |
+| `docs/READING_ORDER.md` | Essence | `02-anthropic-vacancies/10-essence.md` | файл не существует |
+| `docs/READING_ORDER.md` | Native Format | `02-anthropic-vacancies/11-native-format.` | файл не существует |
 
-_...и ещё 24 проблем_
+_...и ещё 40 проблем_
 
-## Внешние URL (452 уникальных)
+## Внешние URL (595 уникальных)
 
 _Внешние ссылки не проверяются автоматически — требуют ручной проверки._
 
+- http://localhost:8
 - http://localhost:8000
 - http://localhost:8000`
 - http://localhost:8000``
@@ -115,6 +116,8 @@ _Внешние ссылки не проверяются автоматичес�
 - http://localhost:8000````
 - http://localhost:8000`````
 - http://localhost:8000``````
+- http://localhost:8000```````
+- http://localhost:8000````````
 - http://localhost:8080
 - http://localhost:8080`
 - http://localhost:8080``
@@ -122,22 +125,19 @@ _Внешние ссылки не проверяются автоматичес�
 - http://localhost:8080````
 - http://localhost:8080`````
 - http://localhost:8080``````
+- http://localhost:8080```````
+- http://localhost:8080````````
 - http://localhost:8083/api/ask
 - http://localhost:8083/api/ask`
+- http://localhost:8083/api/ask``
+- http://localhost:8083/api/ask```
 - http://localhost:8083/api/benchmark
 - http://localhost:8083/api/benchmark`
+- http://localhost:8083/api/benchmark``
+- http://localhost:8083/api/benchmark```
 - http://localhost:8083/api/cards
 - http://localhost:8083/api/cards`
-- http://localhost:8083/api/collabs
-- http://localhost:8083/api/collabs`
-- http://localhost:8083/api/health
-- http://localhost:8083/api/health`
-- http://localhost:8083/api/search
-- http://localhost:8083/api/search`
-- http://localhost:8083/docs
-- http://localhost:8083/docs`
-- http://localhost:8083/v1
-- http://localhost:8083/v1/chat/completions
+- http://localhost:8083/api/cards``
 
 ## Использование
 
@@ -157,29 +157,29 @@ python scripts/improve_broken_links.py --fix
 - [METRICS](METRICS.md) — метрики качества документов
 - [VALIDATION](VALIDATION.md) — валидация структуры
 
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (10):**
+- [03-component-catalog](01-svyazi/03-component-catalog.md)
+- [HEALTH](HEALTH.md)
+- [METRICS](METRICS.md)
+- [READABILITY](READABILITY.md)
+- [READING_LIST](READING_LIST.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 2_
+
+
 <!-- see-also -->
 
 ---
 
 **Смотрите также:**
 - [READING_LIST](READING_LIST.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (13):**
-- [03-component-catalog](01-svyazi/03-component-catalog.md)
-- [DIGEST_AUTO](DIGEST_AUTO.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-- [HEALTH](HEALTH.md)
-- [KEYWORD_INDEX](KEYWORD_INDEX.md)
-- [METRICS](METRICS.md)
-- [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
-- _...ещё 5_
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
 

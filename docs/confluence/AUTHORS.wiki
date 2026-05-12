@@ -1,69 +1,74 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/AUTHORS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Авторы и коллаборации
 
 {quote}[!NOTE]{quote}
-{quote}Раздел {{AUTHORS}} формируется автоматически из данных репозитория.{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
 
+{quote}Авторы проектов, упоминаемые в исследованиях.{quote}
 
+----
 
-{quote}{{AUTHORS}} — раздел документации проекта Lorenzo.{quote}
 
 
 Авторы проектов, упоминаемые в исследованиях.
 
 || Автор || Упоминается в файлах ||
-|| **AnastasiyaW** || 133 ||
-|| **Antipozitive** || 83 ||
+|| **AnastasiyaW** || 130 ||
+|| **Antipozitive** || 79 ||
 || **BerriAI** || 22 ||
-|| **Cutcode** || 71 ||
-|| **Dmitriila** || 63 ||
-|| **MiXaiLL76** || 61 ||
-|| **Sonia_Black** || 41 ||
+|| **Cutcode** || 70 ||
+|| **Dmitriila** || 61 ||
+|| **MiXaiLL76** || 57 ||
+|| **Sonia_Black** || 39 ||
 || **VitaliySemenov** || 33 ||
-|| **VitalyOborin** || 107 ||
+|| **VitalyOborin** || 105 ||
 || **VladSpace** || 81 ||
 || **akazant** || 18 ||
 || **akzhankalimatov** || 14 ||
-|| **andrey_chuyan** || 33 ||
+|| **andrey_chuyan** || 31 ||
 || **iximy** || 18 ||
-|| **kksudo** || 193 ||
+|| **kksudo** || 192 ||
 || **lee-to** || 22 ||
 || **lib4u** || 30 ||
 || **moshael** || 26 ||
-|| **nlaik** || 81 ||
-|| **spbmolot** || 173 ||
+|| **nlaik** || 75 ||
+|| **spbmolot** || 169 ||
 || **tagir_analyzes** || 29 ||
 || **vpakspace** || 16 ||
-|| **zodigancode** || 93 ||
-|| **Андрей Чуян** || 72 ||
+|| **zodigancode** || 92 ||
+|| **Андрей Чуян** || 74 ||
 || **Виталий Оборин** || 18 ||
 
 
 
 ----
 
-_Кто ссылается на этот документ (9):_
-* [DIGEST_AUTO|DIGEST_AUTO.md]
+_Кто ссылается на этот документ (11):_
+* [CONTACTS|CONTACTS.md]
+* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
+* [LINKS|LINKS.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
-* [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-* _...ещё 1_
+* _...ещё 3_
 
 
 
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_authors.py
-{code}
+
+----
+
+_Смотрите также:_
+* [authors-by-name|glossary/authors-by-name.md]
+* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
+* [sonia-black|contacts/sonia-black.md]
+* [tagir-analyzes|contacts/tagir-analyzes.md]
+

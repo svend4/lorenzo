@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/QA.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -17,7 +17,7 @@ tags:
   * anthropic
   * collaboration
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Глобальный Q&A

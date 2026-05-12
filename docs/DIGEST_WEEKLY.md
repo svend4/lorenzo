@@ -111,3 +111,30 @@ _Сгенерировано: 2026-05-11 10:02_
 - [Здоровье](HEALTH.md)
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [METRICS](METRICS.md)
+- [DENSITY](DENSITY.md)
+- [HEATMAP](HEATMAP.md)
+- [SENTIMENT](SENTIMENT.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [DENSITY](DENSITY.md)
+- [HEALTH](HEALTH.md)
+- [HEATMAP](HEATMAP.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [NAMED_ENTITIES](NAMED_ENTITIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 5_
+

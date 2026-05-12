@@ -1,14 +1,7 @@
 # Приоритет контактов
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `CONTACT_PRIORITY` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-
 <!-- summary -->
-> 1. **kksudo** (AgentFS, 193 упоминаний) → [открыть контакт](contacts/kksudo.md)
+> > Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
 ---
@@ -17,25 +10,30 @@
 
 
 
-_Обновлено: 2026-05-11_
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
+_Обновлено: 2026-05-12_
 
 ## Топ авторов по приоритету
 
 | # | Автор | Проект | Слой | Упоминаний | Статус | Балл |
 |---|-------|--------|------|-----------|--------|------|
-| 1 | **kksudo** | AgentFS | knowledge/filesystem | 193 | 👁 Изучили | 590 |
-| 2 | **spbmolot** | NGT Memory | memory | 173 | 👁 Изучили | 530 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 133 | 👁 Изучили | 410 |
-| 4 | **VitalyOborin** | Yodoca | memory | 107 | 👁 Изучили | 332 |
-| 5 | **zodigancode** | Rufler | orchestration | 93 | 👁 Изучили | 288 |
-| 6 | **Antipozitive** | MemNet | memory | 83 | 👁 Изучили | 260 |
-| 7 | **nlaik** | LiteParse / research-docs | rag | 81 | 👁 Изучили | 252 |
-| 8 | **VladSpace** | Graph RAG | rag | 81 | ⬜ Не начато | 247 |
-| 9 | **Cutcode** | AIF Handoff | orchestration | 71 | ⬜ Не начато | 217 |
-| 10 | **Dmitriila** | SENTINEL | security | 63 | ⬜ Не начато | 191 |
-| 11 | **MiXaiLL76** | Auto AI Router | security | 61 | ⬜ Не начато | 185 |
-| 12 | **Sonia_Black** | knowledge-space | knowledge | 41 | ⬜ Не начато | 129 |
-| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 33 | ⬜ Не начато | 101 |
+| 1 | **kksudo** | AgentFS | knowledge/filesystem | 190 | 👁 Изучили | 581 |
+| 2 | **spbmolot** | NGT Memory | memory | 169 | 👁 Изучили | 518 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 128 | 👁 Изучили | 395 |
+| 4 | **VitalyOborin** | Yodoca | memory | 104 | 👁 Изучили | 323 |
+| 5 | **zodigancode** | Rufler | orchestration | 91 | 👁 Изучили | 282 |
+| 6 | **Antipozitive** | MemNet | memory | 78 | 👁 Изучили | 245 |
+| 7 | **VladSpace** | Graph RAG | rag | 79 | ⬜ Не начато | 241 |
+| 8 | **nlaik** | LiteParse / research-docs | rag | 75 | 👁 Изучили | 234 |
+| 9 | **Cutcode** | AIF Handoff | orchestration | 68 | ⬜ Не начато | 208 |
+| 10 | **Dmitriila** | SENTINEL | security | 60 | ⬜ Не начато | 182 |
+| 11 | **MiXaiLL76** | Auto AI Router | security | 56 | ⬜ Не начато | 170 |
+| 12 | **Sonia_Black** | knowledge-space | knowledge | 38 | ⬜ Не начато | 120 |
+| 13 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 31 | ⬜ Не начато | 95 |
 | 14 | **tagir_analyzes** | Legal RAG | rag | 29 | ⬜ Не начато | 91 |
 | 15 | **lee-to** | AI Factory | orchestration | 22 | ⬜ Не начато | 70 |
 
@@ -43,9 +41,9 @@ _Обновлено: 2026-05-11_
 
 ### Написать первым (ещё не контактировали)
 
-1. **kksudo** (AgentFS, 193 упоминаний) → [открыть контакт](contacts/kksudo.md)
-1. **spbmolot** (NGT Memory, 173 упоминаний) → [открыть контакт](contacts/spbmolot.md)
-1. **AnastasiyaW** (knowledge-space, mclaude, 133 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
+1. **kksudo** (AgentFS, 190 упоминаний) → [открыть контакт](contacts/kksudo.md)
+1. **spbmolot** (NGT Memory, 169 упоминаний) → [открыть контакт](contacts/spbmolot.md)
+1. **AnastasiyaW** (knowledge-space, mclaude, 128 упоминаний) → [открыть контакт](contacts/anastasiyaw.md)
 
 ## Формула расчёта балла
 
@@ -57,18 +55,29 @@ score = упоминания × 3 + (4 - шаг_статуса) × 5 + буст_
 
 _Чем выше балл — тем важнее написать первым._
 
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [AUTHORS](AUTHORS.md)
+- [CONTACTS](CONTACTS.md)
+- [authors-by-name](glossary/authors-by-name.md)
+- [NETWORK](NETWORK.md)
+
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (14):**
+**Кто ссылается на этот документ (17):**
+- [AUTHORS](AUTHORS.md)
 - [COLLAB_SUGGESTIONS](COLLAB_SUGGESTIONS.md)
+- [CONTACTS](CONTACTS.md)
 - [DEPENDABOT](DEPENDABOT.md)
+- [GLOSSARY](GLOSSARY.md)
 - [MINDMAP](MINDMAP.md)
 - [OUTLINE](OUTLINE.md)
 - [PRECISION_EVAL](PRECISION_EVAL.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 6_
+- _...ещё 9_
 

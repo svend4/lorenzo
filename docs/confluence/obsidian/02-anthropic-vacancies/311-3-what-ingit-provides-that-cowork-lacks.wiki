@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "3. What InGit Provides That Cowork Lacks"
 tags:
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. 3. What InGit Provides That Cowork Lacks

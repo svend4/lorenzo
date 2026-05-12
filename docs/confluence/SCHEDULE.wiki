@@ -1,24 +1,22 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/SCHEDULE.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Расписание проекта
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-{quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
 ----
 
 
+
+
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -78,14 +76,25 @@ h2. Текущий статус
 
 ----
 
-_Кто ссылается на этот документ (9):_
+_Смотрите также:_
 * [DENSITY|DENSITY.md]
-* [DEPENDABOT|DEPENDABOT.md]
+* [PROGRESS|PROGRESS.md]
+* [SCORING|SCORING.md]
+* [HEATMAP|HEATMAP.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [COST|COST.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
+* [PROGRESS|PROGRESS.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
-* [SEARCH|SEARCH.md]
-* _...ещё 1_
+* [SCORING|SCORING.md]
+* _...ещё 2_
 

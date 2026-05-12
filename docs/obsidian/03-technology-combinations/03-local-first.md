@@ -2,7 +2,7 @@
 title: "Local-first и P2P стек"
 tags:
   - technology-combinations
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Local-first и P2P стек

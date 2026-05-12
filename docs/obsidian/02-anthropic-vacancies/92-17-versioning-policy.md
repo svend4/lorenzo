@@ -3,7 +3,7 @@ title: "17. Versioning Policy"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 17. Versioning Policy

@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/DIGEST_WEEKLY.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Еженедельный дайджест — 2026-05-11
@@ -114,3 +114,30 @@ h2. Смотрите также
 * [Здоровье|HEALTH.md]
 * [Глоссарий|GLOSSARY.md]
 * [Сущности|ENTITIES.md]
+
+
+
+----
+
+_Смотрите также:_
+* [METRICS|METRICS.md]
+* [DENSITY|DENSITY.md]
+* [HEATMAP|HEATMAP.md]
+* [SENTIMENT|SENTIMENT.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [DENSITY|DENSITY.md]
+* [HEALTH|HEALTH.md]
+* [HEATMAP|HEATMAP.md]
+* [INDEX|INDEX.md]
+* [METRICS|METRICS.md]
+* [NAMED_ENTITIES|NAMED_ENTITIES.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* _...ещё 5_
+

@@ -3,7 +3,7 @@ title: "INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # INFRASTRUCTURE FOR AI-COLLABORATIVE INTELLECTUAL WORK.md

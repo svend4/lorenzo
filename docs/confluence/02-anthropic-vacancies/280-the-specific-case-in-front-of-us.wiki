@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/280-the-specific-case-in-front-of-us.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. The Specific Case in Front of Us

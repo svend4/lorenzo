@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/361-когда-ты-honestly-не-знаешь.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Когда ты Honestly не знаешь"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Когда ты Honestly не знаешь

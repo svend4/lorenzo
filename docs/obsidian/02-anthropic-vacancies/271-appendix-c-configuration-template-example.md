@@ -3,7 +3,7 @@ title: "Appendix C: Configuration Template Example"
 tags:
   - rag
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Appendix C: Configuration Template Example

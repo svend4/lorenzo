@@ -1,17 +1,29 @@
 # Тепловая карта тем
 
-<!-- toc-auto -->
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi
 
-> [!NOTE]
-> Раздел `HEATMAP` формируется автоматически из данных репозитория.
+---
+
+<!-- toc -->
+## Содержание
+
+- [Числовые значения (‰)](#числовые-значения)
+- [Доминирующие темы по разделам](#доминирующие-темы-по-разделам)
+- [Концентрация тем](#концентрация-тем)
+
+---
+
+<!-- tags: rag, orchestration, security, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: heatmap, docs -->
-
-
-<!-- summary -->
-> `HEATMAP` — раздел документации проекта Lorenzo.
-
 
 Плотность упоминаний каждой темы по разделам (‰ — на тысячу слов).
 
@@ -76,9 +88,29 @@ _██ = максимум, ▓▓ = высокое, ▒▒ = среднее, �
 | **Контакты/Команда** | `05-habr-projects` | 6.5‰ |
 | **Интеграция/API** | `05-habr-projects` | 9.3‰ |
 
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (12):**
+- [03-local-first](03-technology-combinations/03-local-first.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [INDEX](INDEX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [OUTLINE](OUTLINE.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [READABILITY](READABILITY.md)
+- _...ещё 4_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DENSITY](DENSITY.md)
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [ONBOARDING](ONBOARDING.md)
+- [STATS](STATS.md)
+

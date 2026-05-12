@@ -3,7 +3,7 @@ title: "Table of Contents"
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Table of Contents

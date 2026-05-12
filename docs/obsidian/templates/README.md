@@ -1,30 +1,21 @@
 ---
 title: "templates"
 tags:
-  - readme
-  - docs
   - templates
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # templates
-
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
 
 **Файлов:** 23
 
 ## Содержание
 
 - [[agent-spec|agent-spec.md]] — ---
-- [[contact-outreach|contact-outreach.md]] — <!-- summary: Шаблон для связи с автором X -->
+- [[contact-outreach|contact-outreach.md]] — > [!NOTE]
 - [[contradiction-record|contradiction-record.md]] — ---
-- [[decision-record|decision-record.md]] — <!-- summary: Решение о X -->
-- [[ensemble|ensemble.md]] — <!-- summary: Ансамбль из X компонентов для Y задачи -->
+- [[decision-record|decision-record.md]] — > [!NOTE]
+- [[ensemble|ensemble.md]] — > [!NOTE]
 - [[experiment-log|experiment-log.md]] — ---
 - [[faq-entry|faq-entry.md]] — ---
 - [[glossary-entry|glossary-entry.md]] — ---
@@ -32,10 +23,10 @@ date: 2026-05-11
 - [[legal-case|legal-case.md]] — ---
 - [[meeting-notes|meeting-notes.md]] — ---
 - [[mega-stack|mega-stack.md]] — ---
-- [[project-component|project-component.md]] — <!-- summary: Краткое описание в 1-2 предложениях -->
+- [[project-component|project-component.md]] — > [!NOTE]
 - [[protocol-spec|protocol-spec.md]] — ---
 - [[prototype-mvp|prototype-mvp.md]] — ---
-- [[research-note|research-note.md]] — <!-- summary: Краткий итог исследования -->
+- [[research-note|research-note.md]] — > [!NOTE]
 - [[retrospective|retrospective.md]] — ---
 - [[rfc|rfc.md]] — ---
 - [[risk-entry|risk-entry.md]] — ---
@@ -52,7 +43,7 @@ date: 2026-05-11
 
 ---
 
-**Кто ссылается на этот документ (24):**
+**Кто ссылается на этот документ (29):**
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
@@ -60,13 +51,6 @@ date: 2026-05-11
 - [[TABLES]]
 - [[research-summary]]
 - [[agent-spec]]
-- [[contradiction-record]]
-- _...ещё 16_
+- [[contact-outreach]]
+- _...ещё 21_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

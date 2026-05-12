@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/SCHEDULE.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -14,25 +14,23 @@ tags:
   * roadmap
   * collaboration
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Расписание проекта
 
 
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-{quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
+{quote}> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 _Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
 ----
 
 
+
+
+
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -92,14 +90,25 @@ h2. Текущий статус
 
 ----
 
-_Кто ссылается на этот документ (9):_
+_Смотрите также:_
 * [[DENSITY]]
-* [[DEPENDABOT]]
+* [[PROGRESS]]
+* [[SCORING]]
+* [[HEATMAP]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [[COST]]
 * [[INDEX]]
 * [[OUTLINE]]
+* [[PROGRESS]]
 * [[READABILITY]]
 * [[READING_TIME]]
 * [[README]]
-* [[SEARCH]]
-* _...ещё 1_
+* [[SCORING]]
+* _...ещё 2_
 

@@ -3,7 +3,7 @@ title: "6. Почему это валидный паттерн для AI-assiste
 tags:
   - anthropic
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 6. Почему это валидный паттерн для AI-assisted workflows

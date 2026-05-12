@@ -1,5 +1,20 @@
 # Онбординг — Svyazi 2.0 / Lorenzo
 
+<!-- toc -->
+## Содержание
+
+- [Что это такое?](#что-это-такое)
+- [Первые 30 минут](#первые-30-минут)
+- [Структура документации](#структура-документации)
+- [Ключевые документы](#ключевые-документы)
+- [Скрипты автоматизации](#скрипты-автоматизации)
+- [Архитектура компонентов](#архитектура-компонентов)
+- [Как внести вклад](#как-внести-вклад)
+- [Контакты](#контакты)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -115,4 +130,31 @@ python scripts/improve_watcher.py
 
 _Этот документ генерируется скриптом `improve_onboarding.py`._
 _Для AI-ассистента: читай `CLAUDE.md` для понимания структуры репо._
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [INDEX](INDEX.md)
+- [HEATMAP](HEATMAP.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [DENSITY](DENSITY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [FAQ](FAQ.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [INDEX](INDEX.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 5_
 

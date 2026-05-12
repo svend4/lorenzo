@@ -2,10 +2,26 @@
 title: "Тематическое моделирование (TF-IDF)"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Тематическое моделирование (TF-IDF)
+
+<!-- toc -->
+## Содержание
+
+- [Тема 1: cowork, ingit, turn (2042 документов)](#тема-1-cowork-ingit-turn-2042-документов)
+- [Тема 4: triangle, double, domain (123 документов)](#тема-4-triangle-double-domain-123-документов)
+- [Тема 2: memory, wikontic, yodoca (102 документов)](#тема-2-memory-wikontic-yodoca-102-документов)
+- [Тема 3: level, compatibility, bridges (83 документов)](#тема-3-level-compatibility-bridges-83-документов)
+- [Тема 6: federation, normative, merging (69 документов)](#тема-6-federation-normative-merging-69-документов)
+- [Тема 5: section, beneficial, metrics (53 документов)](#тема-5-section-beneficial-metrics-53-документов)
+- [Топ уникальных слов по темам](#топ-уникальных-слов-по-темам)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
 
 <!-- toc-auto -->
 
@@ -183,3 +199,26 @@ python scripts/improve_topic_model.py
 - [[HEALTH|Здоровье]]
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[CLUSTERS]]
+- [[READING_ORDER]]
+- [[PRIORITIES]]
+- [[DIGEST_WEEKLY]]
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[README]]
+- [[SEARCH]]
+- [[TABLES]]
+

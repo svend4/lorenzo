@@ -2,27 +2,25 @@
 title: "Индекс «Смотрите также»"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Индекс «Смотрите также»
 
-> [!NOTE]
-> Раздел `SEE_ALSO` формируется автоматически из данных репозитория.
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
 
 <!-- summary -->
-> **Файлов с блоком See Also:** 1133
+> **Файлов с блоком See Also:** 1072
 **Проекты:** Svyazi
 
 ---
-<!-- tags: rag, security, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
 
 
 
-
-**Файлов с блоком See Also:** 1133
+**Файлов с блоком See Also:** 1072
 
 ## Ключевые связи
 
@@ -38,9 +36,9 @@ date: 2026-05-11
 - [[10-second-order-ensembles]] → [[10-новые-ансамбли-следующего-шага]], [[G-federated-local-graph]], [[F-evidence-backed-intake]], [[H-research-to-product-flywheel]]
 - [[11-integration-contracts]] → [[11-интеграционный-контракт-который-стоит-зафиксироват]], [[integration-spec]], [[09-архитектурные-зазоры-которые-важнее-новых-инструме]], [[09-architectural-gaps]]
 - [[12-roadmap]] → [[12-дорожная-карта-прототипа-следующей-итерации]], [[roadmap]], [[14-limitations]], [[08-conclusions]]
-- [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[CONTACTS]], [[07-mvp-planning]]
+- [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[07-mvp-planning]], [[NARRATIVE]]
 - [[14-limitations]] → [[do-not-glue]], [[conclusions]], [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]], [[license-tree]]
-- [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[CONCEPT_GRAPH]]
+- [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[card-envelope]]
 - [[00-intro]] → [[288-appendix-position-in-series-visualization]], [[12-blagodarnosti-ssylki]], [[188-ai-опосредованное-представительство-для-недопредст]], [[11-dhlab-documents]]
 - [[01-интегральный-анализ-профиля-svend4]] → [[00-question-innovations-transitions]], [[CONCEPTS]], [[TABLES]], [[ACTION_ITEMS]]
 - [[02-общий-план-развития-nautilus-portal-protocol]] → [[SUMMARIES]], [[67-о-проекте]], [[TIMELINE]], [[22-glossary]]
@@ -50,32 +48,25 @@ date: 2026-05-11
 - [[06-1-introduction]] → [[76-1-introduction]], [[01-introduction]], [[26-14-adr-001-federation-over-merging]], [[94-19-adr-001-federation-over-merging]]
 - [[07-2-terminology]] → [[77-2-terminology]], [[02-terminology]], [[17-5-compatibility-levels]], [[80-5-compatibility-levels]]
 - [[08-3-registry-nautilus-json]] → [[78-3-registry-nautilus-json]], [[03-registry]], [[19-7-portalentry-structure]], [[82-7-portalentry-structure]]
-- [[09-4-passport-passport-md]] → [[41-compatibility-level]], [[22-10-queryresult-structure]], [[35-passports-info1-md]], [[127-подключение-к-claude-desktop]]
+- [[09-4-passport-passport-md]] → [[41-compatibility-level]], [[35-passports-info1-md]], [[22-10-queryresult-structure]], [[127-подключение-к-claude-desktop]]
 - [[102-доступ-к-данным]] → [[339-приложение-a-дерево-решений-для-принимающих-ingit]], [[121-appendix-c-история-изменений-методологии]], [[16-history]], [[185-appendix-b-domain-comparison-matrix]]
 - [[103-appendix-b-change-log]] → [[22-10-queryresult-structure]], [[41-compatibility-level]], [[25-13-reference-implementation]], [[93-18-reference-implementation]]
 - [[104-appendix-c-references]] → [[122-глоссарий]], [[105-review-methodology-md]], [[103-appendix-b-change-log]], [[64-for-the-curious-philosophy]]
-- [[105-review-methodology-md]] → [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[229-профессиональные-коллеги-агенты]], [[125-readme-mcp-md-инструкция-по-установке]], [[03-portal-protocol-md]]
+- [[105-review-methodology-md]] → [[229-профессиональные-коллеги-агенты]], [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[125-readme-mcp-md-инструкция-по-установке]], [[03-portal-protocol-md]]
 - [[106-tl-dr]] → [[00-tldr]], [[70-зачем-две-версии-параллельно]], [[190-содержание]], [[132-planned-v0-2-0]]
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (13):**
+**Кто ссылается на этот документ (10):**
 - [[04-abstract]]
 - [[70-зачем-две-версии-параллельно]]
 - [[KNOWLEDGE_MAP]]
-- [[NAMED_ENTITIES]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
-- _...ещё 5_
+- [[SEARCH]]
+- _...ещё 2_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_see_also.py
-```

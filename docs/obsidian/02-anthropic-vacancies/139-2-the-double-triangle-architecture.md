@@ -3,7 +3,7 @@ title: "2. The Double-Triangle Architecture"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 2. The Double-Triangle Architecture
@@ -197,3 +197,7 @@ large organizations (Star(n)) without protocol changes.
 - [[148-appendix-a-glossary]]
 - [[README]]
 
+# Bridges
+
+## Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.

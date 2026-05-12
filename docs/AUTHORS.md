@@ -1,65 +1,70 @@
 # Авторы и коллаборации
 
 > [!NOTE]
-> Раздел `AUTHORS` формируется автоматически из данных репозитория.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
-<!-- tags: authors, docs -->
-
 
 <!-- summary -->
-> `AUTHORS` — раздел документации проекта Lorenzo.
+> Авторы проектов, упоминаемые в исследованиях.
+
+---
+
 
 
 Авторы проектов, упоминаемые в исследованиях.
 
 | Автор | Упоминается в файлах |
 |-------|---------------------|
-| **AnastasiyaW** | 133 |
-| **Antipozitive** | 83 |
+| **AnastasiyaW** | 130 |
+| **Antipozitive** | 79 |
 | **BerriAI** | 22 |
-| **Cutcode** | 71 |
-| **Dmitriila** | 63 |
-| **MiXaiLL76** | 61 |
-| **Sonia_Black** | 41 |
+| **Cutcode** | 70 |
+| **Dmitriila** | 61 |
+| **MiXaiLL76** | 57 |
+| **Sonia_Black** | 39 |
 | **VitaliySemenov** | 33 |
-| **VitalyOborin** | 107 |
+| **VitalyOborin** | 105 |
 | **VladSpace** | 81 |
 | **akazant** | 18 |
 | **akzhankalimatov** | 14 |
-| **andrey_chuyan** | 33 |
+| **andrey_chuyan** | 31 |
 | **iximy** | 18 |
-| **kksudo** | 193 |
+| **kksudo** | 192 |
 | **lee-to** | 22 |
 | **lib4u** | 30 |
 | **moshael** | 26 |
-| **nlaik** | 81 |
-| **spbmolot** | 173 |
+| **nlaik** | 75 |
+| **spbmolot** | 169 |
 | **tagir_analyzes** | 29 |
 | **vpakspace** | 16 |
-| **zodigancode** | 93 |
-| **Андрей Чуян** | 72 |
+| **zodigancode** | 92 |
+| **Андрей Чуян** | 74 |
 | **Виталий Оборин** | 18 |
 
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
+**Кто ссылается на этот документ (11):**
+- [CONTACTS](CONTACTS.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [LINKS](LINKS.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- _...ещё 1_
+- _...ещё 3_
 
 
+<!-- see-also -->
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_authors.py
-```
+---
+
+**Смотрите также:**
+- [authors-by-name](glossary/authors-by-name.md)
+- [CONTACT_PRIORITY](CONTACT_PRIORITY.md)
+- [sonia-black](contacts/sonia-black.md)
+- [tagir-analyzes](contacts/tagir-analyzes.md)
+

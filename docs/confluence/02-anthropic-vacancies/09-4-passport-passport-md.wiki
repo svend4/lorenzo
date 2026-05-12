@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/09-4-passport-passport-md.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. 4. Passport ({{passport.md}})
@@ -143,3 +143,19 @@ python scripts/improve_semantic_search.py --query "4 Passport passport md"
 - [63-history](63-history.md)
 - [README](README.md)
 
+# Essence
+
+## Essence
+Один абзац: что это, для кого, почему существует.
+
+# Объём
+
+## Объём
+
+- Единиц: 5 (demo)
+
+# Q6-отображение
+
+## Q6-отображение
+
+Не определено (Level 1).

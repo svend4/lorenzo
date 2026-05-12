@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/316-8-implications-for-nautilus-and-okwf.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. 8. Implications for Nautilus and OKWF

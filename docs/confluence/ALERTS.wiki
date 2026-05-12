@@ -1,24 +1,15 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/ALERTS.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Callout-блоки
 
-
-{quote}Добавлено _25_ callout-блоков в документы.{quote}
-
-----
-
-
-
-
-
-Добавлено _25_ callout-блоков в документы.
+Добавлено _22_ callout-блоков в документы.
 
 || Тип || Количество || Назначение ||
-|| `[!NOTE]` || 7 || Нейтральная заметка ||
-|| `[!TIP]` || 13 || Практический совет ||
+|| `[!NOTE]` || 10 || Нейтральная заметка ||
+|| `[!TIP]` || 7 || Практический совет ||
 || `[!WARNING]` || 5 || Предупреждение о риске ||
 || `[!IMPORTANT]` || 0 || Ключевой документ ||
 
@@ -44,14 +35,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ----
 
-_Кто ссылается на этот документ (10):_
-* [DIGEST_AUTO|DIGEST_AUTO.md]
+_Кто ссылается на этот документ (8):_
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
-* [READING_LIST|READING_LIST.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
-* _...ещё 2_
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
 

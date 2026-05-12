@@ -1,21 +1,14 @@
 # templates
 
-> [!NOTE]
-> Раздел `README` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: readme, docs -->
-
-
 **Файлов:** 23
 
 ## Содержание
 
 - [agent-spec.md](agent-spec.md) — ---
-- [contact-outreach.md](contact-outreach.md) — <!-- summary: Шаблон для связи с автором X -->
+- [contact-outreach.md](contact-outreach.md) — > [!NOTE]
 - [contradiction-record.md](contradiction-record.md) — ---
-- [decision-record.md](decision-record.md) — <!-- summary: Решение о X -->
-- [ensemble.md](ensemble.md) — <!-- summary: Ансамбль из X компонентов для Y задачи -->
+- [decision-record.md](decision-record.md) — > [!NOTE]
+- [ensemble.md](ensemble.md) — > [!NOTE]
 - [experiment-log.md](experiment-log.md) — ---
 - [faq-entry.md](faq-entry.md) — ---
 - [glossary-entry.md](glossary-entry.md) — ---
@@ -23,10 +16,10 @@
 - [legal-case.md](legal-case.md) — ---
 - [meeting-notes.md](meeting-notes.md) — ---
 - [mega-stack.md](mega-stack.md) — ---
-- [project-component.md](project-component.md) — <!-- summary: Краткое описание в 1-2 предложениях -->
+- [project-component.md](project-component.md) — > [!NOTE]
 - [protocol-spec.md](protocol-spec.md) — ---
 - [prototype-mvp.md](prototype-mvp.md) — ---
-- [research-note.md](research-note.md) — <!-- summary: Краткий итог исследования -->
+- [research-note.md](research-note.md) — > [!NOTE]
 - [retrospective.md](retrospective.md) — ---
 - [rfc.md](rfc.md) — ---
 - [risk-entry.md](risk-entry.md) — ---
@@ -43,7 +36,7 @@
 
 ---
 
-**Кто ссылается на этот документ (24):**
+**Кто ссылается на этот документ (29):**
 - [OUTLINE](../OUTLINE.md)
 - [READABILITY](../READABILITY.md)
 - [READING_TIME](../READING_TIME.md)
@@ -51,13 +44,6 @@
 - [TABLES](../TABLES.md)
 - [research-summary](../autofilled/research-summary.md)
 - [agent-spec](agent-spec.md)
-- [contradiction-record](contradiction-record.md)
-- _...ещё 16_
+- [contact-outreach](contact-outreach.md)
+- _...ещё 21_
 
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_readme.py
-```

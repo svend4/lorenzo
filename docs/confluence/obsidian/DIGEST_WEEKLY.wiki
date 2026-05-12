@@ -1,13 +1,13 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/DIGEST_WEEKLY.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "Еженедельный дайджест — 2026-05-11"
 tags:
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Еженедельный дайджест — 2026-05-11
@@ -121,3 +121,30 @@ h2. Смотрите также
 * [[HEALTH|Здоровье]]
 * [[GLOSSARY|Глоссарий]]
 * [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Смотрите также:_
+* [[METRICS]]
+* [[DENSITY]]
+* [[HEATMAP]]
+* [[SENTIMENT]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (13):_
+* [[DENSITY]]
+* [[HEALTH]]
+* [[HEATMAP]]
+* [[INDEX]]
+* [[METRICS]]
+* [[NAMED_ENTITIES]]
+* [[OUTLINE]]
+* [[READABILITY]]
+* _...ещё 5_
+

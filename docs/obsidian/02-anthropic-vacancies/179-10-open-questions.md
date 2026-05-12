@@ -3,7 +3,7 @@ title: "10. Open Questions"
 tags:
   - orchestration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 10. Open Questions

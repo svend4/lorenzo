@@ -4,7 +4,7 @@ tags:
   - контакты
   - команда
   - contacts
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Контакт: Cutcode / AIF Handoff

@@ -3,7 +3,7 @@ title: "Appendix A: Minimal Working Example"
 tags:
   - ingestion
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Appendix A: Minimal Working Example
@@ -171,3 +171,8 @@ class MyNotesAdapter(BaseAdapter):
 - [[22-10-queryresult-structure]]
 - _...ещё 9_
 
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.

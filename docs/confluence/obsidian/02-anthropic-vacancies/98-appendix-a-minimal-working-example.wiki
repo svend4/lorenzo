@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/98-appendix-a-minimal-working-example.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "Appendix A: Minimal Working Example"
 tags:
   * ingestion
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Appendix A: Minimal Working Example
@@ -176,3 +176,8 @@ h3. A.3. Minimal Passport
 - [[22-10-queryresult-structure]]
 - _...ещё 9_
 
+# Описание
+
+## Описание
+
+Персональная коллекция Markdown-заметок.

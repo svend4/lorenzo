@@ -2,7 +2,7 @@
 title: "10. Strategic Positioning"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # 10. Strategic Positioning

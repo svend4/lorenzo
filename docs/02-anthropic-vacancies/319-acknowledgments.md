@@ -174,3 +174,7 @@ python scripts/improve_semantic_search.py --query "Acknowledgments"
 - 306-with-[anthropic-s-cowork-platform](306-with-anthropic-s-cowork-platform.md)
 - _...ещё 3_
 
+# Angle / Perspective
+
+## Angle / Perspective
+Methodological: how-to и reflection.

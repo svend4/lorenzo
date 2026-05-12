@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/03-technology-combinations/01-agent-routing.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. Агентные системы и роутинг

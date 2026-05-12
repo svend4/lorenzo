@@ -1,5 +1,16 @@
 # Карта зависимостей скриптов
 
+<!-- toc -->
+## Содержание
+
+- [Зависимости](#зависимости)
+- [Скрипты без карты зависимостей](#скрипты-без-карты-зависимостей)
+- [Порядок запуска (рекомендуемый)](#порядок-запуска-рекомендуемый)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -218,3 +229,30 @@ _Используй `python scripts/improve_run_all.py` для автомати�
 - [Глоссарий](GLOSSARY.md)
 - [Сущности](ENTITIES.md)
 - [Решения](DECISIONS.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VERSION_DIFF](VERSION_DIFF.md)
+- [TAGS](TAGS.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [INDEX](INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (11):**
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [HEALTH](HEALTH.md)
+- [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- _...ещё 3_
+

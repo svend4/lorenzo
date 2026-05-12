@@ -1,5 +1,18 @@
 # Карта происхождения текстов
 
+<!-- toc -->
+## Содержание
+
+- [Категории](#категории)
+- [Авторы](#авторы)
+- [🤖 Авто-импортированные файлы (1722)](#авто-импортированные-файлы-1722)
+- [🔗 Файлы с внешними ссылками (195)](#файлы-с-внешними-ссылками-195)
+- [Использование](#использование)
+- [Смотрите также](#смотрите-также)
+
+---
+
+
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -1829,3 +1842,29 @@ python scripts/improve_source_map.py --dry-run
 - [Задачи](ACTION_ITEMS.md)
 - [Хронология](TIMELINE.md)
 - [Структура](OUTLINE.md)
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [307-abstract](02-anthropic-vacancies/307-abstract.md)
+- [OUTLINE](OUTLINE.md)
+- [PRIORITIES](PRIORITIES.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+

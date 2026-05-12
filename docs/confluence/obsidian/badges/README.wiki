@@ -1,29 +1,16 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/badges/README.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "Бейджи репозитория"
 tags:
-  * readme
-  * docs
   * badges
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Бейджи репозитория
-
-{quote}[!NOTE]{quote}
-{quote}Раздел {{README}} формируется автоматически из данных репозитория.{quote}
-
-
-
-
-
-
-{quote}{{README}} — раздел документации проекта Lorenzo.{quote}
-
 
 Автоматически генерируются скриптом {{improve_badges.py}}.
 
@@ -48,22 +35,3 @@ h2. Использование в README
 ![license](license.svg)
 ![branch](branch.svg)
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (9):_
-* [[BADGES]]
-* [[DEPENDABOT]]
-* [[OUTLINE]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[SEARCH]]
-* [[SKILL_DASHBOARD]]
-* [[TABLES]]
-* _...ещё 1_
-
-
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Бейджи репозитория». Формируется автоматически.

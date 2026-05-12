@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/COVERAGE.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -13,13 +13,13 @@ tags:
   * anthropic
   * collaboration
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Матрица покрытия документов
 
 {quote}[!NOTE]{quote}
-{quote}Раздел {{COVERAGE}} формируется автоматически из данных репозитория.{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -33,7 +33,7 @@ _Проекты:_ Svyazi
 
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-12_
 
 Условные обозначения: ✅ есть  ⬜ отсутствует
 
@@ -79,11 +79,21 @@ python scripts/improve_autofill.py
 
 ----
 
-_Кто ссылается на этот документ (7):_
+_Смотрите также:_
+* [[LLM_SUMMARIES]]
 * [[HEATMAP]]
+* [[SCORING]]
+* [[CROSS_SECTION]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (6):_
+* [[CROSS_SECTION]]
 * [[METRICS]]
 * [[READABILITY]]
-* [[READING_TIME]]
 * [[README]]
 * [[SEARCH]]
 * [[TABLES]]

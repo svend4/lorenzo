@@ -2,25 +2,42 @@
 title: "Action Items, риски и решения"
 tags:
   - general
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Action Items, риски и решения
 
-> [!NOTE]
-> Раздел `ACTION_ITEMS` формируется автоматически из данных репозитория.
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+<!-- toc -->
+## Содержание
+
+- [➡️ Следующие шаги (368)](#следующие-шаги-368)
+- [✅ Решения и рекомендации (1072)](#решения-и-рекомендации-1072)
+- [⚠️ Риски (1336)](#риски-1336)
+- [🚫 Ограничения (378)](#ограничения-378)
+- [📋 Задачи (TODO) (38)](#задачи-todo-38)
+- [📬 Контактные действия (313)](#контактные-действия-313)
+
+---
+
+<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
+
+
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
 <!-- alert-added -->
-<!-- tags: action-items, docs -->
-
-
-<!-- summary -->
-> `ACTION_ITEMS` — раздел документации проекта Lorenzo.
-
 
 Автоматически извлечено из всех документов.
 
-**Всего элементов:** 3522
+**Всего элементов:** 3505
 
 
 ## ➡️ Следующие шаги (368)
@@ -189,7 +206,7 @@ date: 2026-05-11
   _→ EMPTY_SECTIONS_
 - после извлечения (14 сл., строка 135)  
   _→ EMPTY_SECTIONS_
-- (13 сл., строка 39)  
+- (13 сл., строка 56)  
   _→ EMPTY_SECTIONS_
 - - Приоритет 1: kksudo (AgentFS, 13 упоминаний)  
   _→ OUTLINE_
@@ -250,7 +267,7 @@ date: 2026-05-11
 
 _(257 дублей скрыто)_
 
-## ✅ Решения и рекомендации (1071)
+## ✅ Решения и рекомендации (1072)
 
 - начинать с основных документов раздела и переходить к деталям через внутренние ссылки. Все связанные документы доступны через граф концептов и поисков  
   _→ 00-intro-part2_
@@ -524,6 +541,8 @@ _(257 дублей скрыто)_
   _→ TABLES_
 - упростить | Contents, Вариант 10, Вариант 11 +20 |  
   _→ TABLES_
+- упростить | Вариант 10, Вариант 11, Вариант 12 +18 |  
+  _→ VERSION_DIFF_
 - как связь между людьми» — или это  
   _→ spbmolot_
 - две уровневая"  
@@ -599,7 +618,7 @@ _(257 дублей скрыто)_
 
 _(899 дублей скрыто)_
 
-## ⚠️ Риски (1348)
+## ⚠️ Риски (1336)
 
 - и allowlist для MCP  
   _→ 01-executive-summary_
@@ -1063,11 +1082,11 @@ _(899 дублей скрыто)_
   _→ CONTRADICTIONS_
 - и allowlist для MCP ^svyazi: Главный проект: эк  
   _→ CONTRADICTIONS_
+- и allowlist для MCP ^svyazi : Главный проект:  
+  _→ CONTRADICTIONS_
 - | Senior Python Dev | 2 | $6,800 |  
   _→ COST_
 - mitigation для каждой. Полезно для grant  
-  _→ DECISIONS_
-- | |------|----------|------| | `docs/obsidian/02-anthropic-vaca  
   _→ DECISIONS_
 - собирать вс  
   _→ DECISIONS_
@@ -1077,6 +1096,8 @@ _(899 дублей скрыто)_
   _→ DEMO_
 - | `root` | 91% |  
   _→ DENSITY_
+- | |------|----------|------| | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-` | BSL | Business Source License — не открытая, коммерчес  
+  _→ DUPLICATES_
 - Analysis (0 сл., строка 41)  
   _→ EMPTY_SECTIONS_
 - Analysis (0 сл., строка 34)  
@@ -1139,7 +1160,7 @@ _(899 дублей скрыто)_
   _→ SCORING_
 - тестировать любую цепочку.  
   _→ SCRIPT_EVAL_REPORT_
-- --- --- --- --- --- Evidence-first core Из любого suggestions можн  
+- Почему это важно Снижение риска --- --- --- Schema drift и самовольная “оптимизация” структуры моделью На extraction‑этапе сильная модель может н  
   _→ SIMILAR_PASSAGES_
 - [Название]](templates/risk-entry.md) | 371 |  
   _→ SITEMAP_
@@ -1191,6 +1212,8 @@ _(899 дублей скрыто)_
   _→ TABLES_
 - склеивать]] | 429 |  
   _→ TABLES_
+- агентов?, Принимаем эту architecture как Lorenzo vision (с моими caveats)? | Contents - Что это такое?, Запуск, Использование +1 |  
+  _→ VERSION_DIFF_
 - проблемы. Habr  
   _→ 04-memory-firewall-vs-prompt-worms_
 - склеивать в один релиз"  
@@ -1254,9 +1277,9 @@ _(899 дублей скрыто)_
 - - [Антисценарий 1]  
   _→ tech-pair_
 
-_(1022 дублей скрыто)_
+_(1008 дублей скрыто)_
 
-## 🚫 Ограничения (382)
+## 🚫 Ограничения (378)
 
 - и лицензии  
   _→ 14-limitations_
@@ -1416,8 +1439,6 @@ _(1022 дублей скрыто)_
   _→ READING_ORDER_
 - ### ⚠️ 1. 137 из 159 скриптов без --dry-run  
   _→ SCRIPT_EVAL_REPORT_
-- пропускной способности. Человеческая когнитивная способность ограничена. Глубокая техническая работа, научные иссл  
-  _→ SIMILAR_PASSAGES_
 - и лицензии](01-svyazi/14-limitations.md) | 765 |  
   _→ SITEMAP_
 - и лицензии](obsidian/01-svyazi/14-limitations.md) | 776 |  
@@ -1491,7 +1512,7 @@ _(1022 дублей скрыто)_
 - ## 12. Compatibility  
   _→ protocol-spec_
 
-_(266 дублей скрыто)_
+_(263 дублей скрыто)_
 
 ## 📋 Задачи (TODO) (38)
 
@@ -1515,20 +1536,22 @@ _(266 дублей скрыто)_
   _→ SCRIPTS_CATALOG_
 - из docs/.**  
   _→ SCRIPTS_CATALOG_
-- меток: **109**  
+- меток: **113**  
   _→ STATS_
 - Issue: Свяжи closed-source. Использование Свяжи pattern requires either:  
   _→ 02-minuses-1-10_
 - CLAUDE.md → описания скриптов → несоответствия  
   _→ 01-concept_
+- меток: **111**  
+  _→ STATS_
 - после решения  
   _→ review-record_
 - SGB Y — [пояснение]  
   _→ legal-case_
 
-_(23 дублей скрыто)_
+_(22 дублей скрыто)_
 
-## 📬 Контактные действия (315)
+## 📬 Контактные действия (313)
 
 - — **entity["people","Андрей Чуян","habr author"]**, потому что именно у него уже есть работающий кейс карт коллаборац  
   _→ 13-contacts_
@@ -1708,44 +1731,34 @@ _(23 дублей скрыто)_
   _→ 12-onboarding-paths_
 - anonymization_pipeline.py как reference implementation. Рабочий Python-модуль, р  
   _→ 04-what-i-can-do-now_
-- `adapters/<format>.py`, наследуясь от `[[README|[01-интегральный-анализ-профиля-svend4|B  
+- `adapters/<format>.py`, наследуясь от `[[03-component-catalog|[01-интегральный-анализ-профиля-svend4|B  
   _→ 87-12-onboarding-paths-normative_
 
-_(225 дублей скрыто)_
+_(223 дублей скрыто)_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (29):**
+- [03-component-catalog]]
+- [[01-интегральный-анализ-профиля-svend4]]
+- [[115-8-ограничения-и-открытые-вопросы]]
+- [[133-обратная-связь]]
+- [[165-closing]]
+- [[207-приложение-c-образцы-случаев-использования-в-детал]]
+- [[248-приложение-c-архитектура-быстрого-старта-для-sgb-а]]
+- [[272-appendix-d-connection-diagram]]
+- _...ещё 21_
 
 
-## Использование
-```bash
-# Запуск
-python scripts/improve_action_items.py
-```
-```bash
-# Вариант 2
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_action_items.py --dry-run
-```
-```bash
-# Вариант 5
-python scripts/improve_action_items.py --dry-run
-```
+<!-- see-also -->
 
-## Смотрите также
-- [Главная]]
-- [[METRICS|Метрики]]
-- [[HEALTH|Здоровье]]
-- [[GLOSSARY|Глоссарий]]
-- [[ENTITIES|Сущности]]
-- [[DECISIONS|Решения]]
-- [[CONTACTS|Контакты]]
-- [[SCORING|Оценка]]
-- [[TAGS|Теги]]
-- [[ACTION_ITEMS|Задачи]]
-- [[TIMELINE|Хронология]]
-- [[OUTLINE|Структура]]
+---
+
+**Смотрите также:**
+- [[CONCEPTS]]
+- [[SEARCH]]
+- [[READABILITY]]
+- [[READING_TIME]]
+

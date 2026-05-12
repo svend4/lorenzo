@@ -1,9 +1,7 @@
 # Отчёт орфографии
 
-<!-- toc-auto -->
-
 > [!NOTE]
-> Раздел `SPELLCHECK` формируется автоматически из данных репозитория.
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
 
 <!-- alert-added -->
 
@@ -17,9 +15,9 @@
 
 
 
-_Обновлено: 2026-05-11_
+_Обновлено: 2026-05-12_
 
-Файлов с проблемами: **51**
+Файлов с проблемами: **50**
 
 ## Найденные проблемы
 
@@ -147,10 +145,6 @@ _Обновлено: 2026-05-11_
 
 - ❌ `проверяет` → `проверяет`
 
-### `docs/obsidian/ACTION_ITEMS.md`
-
-- ❌ `проверяет` → `проверяет`
-
 ### `docs/obsidian/GITHUB_ISSUES.md`
 
 - ❌ `проверяет` → `проверяет`
@@ -236,17 +230,6 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 
 Известных пар опечатка→исправление: **31**
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [LLM_SUMMARIES](LLM_SUMMARIES.md)
-- [READING_LIST](READING_LIST.md)
-- [CITATION_INDEX](CITATION_INDEX.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-
-
 <!-- backlinks -->
 
 ---
@@ -254,8 +237,19 @@ python scripts/improve_spellcheck.py --fix --dry-run  # посмотреть п�
 **Кто ссылается на этот документ (6):**
 - [CITATION_INDEX](CITATION_INDEX.md)
 - [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
+- [READING_LIST](READING_LIST.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONSISTENCY](CONSISTENCY.md)
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
 

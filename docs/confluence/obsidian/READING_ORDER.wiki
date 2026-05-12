@@ -1,19 +1,19 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/READING_ORDER.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
 title: "Рекомендуемый порядок чтения"
 tags:
   * general
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Рекомендуемый порядок чтения
 
-{quote}[!NOTE]{quote}
-{quote}Раздел {{READING_ORDER}} формируется автоматически из данных репозитория.{quote}
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -22,19 +22,6 @@ h1. Рекомендуемый порядок чтения
 _Проекты:_ Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
 
 ----
-
-
-h2. Содержание
-
-* [Маршруты по целям|#маршруты-по-целям]
-  * [🚀 Быстрый старт (30 минут)|#быстрый-старт-30-минут]
-  * [🏗️ Архитектура (2 часа)|#архитектура-2-часа]
-  * [🔬 Полное исследование (1 день)|#полное-исследование-1-день]
-
-----
-
-
-
 
 
 
@@ -91,7 +78,7 @@ h2. Содержание
 || 48 || 🟢 Начало || [[38-content-overview || Content Overview]] || 304 || — ||
 || 49 || 🔴 Продвинутый || [[01-интегральный-анализ-профиля-svend4 || Интегральный анализ профиля svend4]] || 19240 || — ||
 || 50 || 🟢 Начало || [[125-readme-mcp-md-инструкция-по-установке || README-MCP.md— инструкция по установке]] || 345 || — ||
-|| 51 || 🟢 Начало || [[65-readme-md || README.md]] || 302 || — ||
+|| 51 || 🟢 Начало || [[65-readme-md || README.md]] || 310 || — ||
 || 52 || 🟢 Начало || [[48-content-overview || Content Overview]] || 304 || — ||
 || 53 || 🟢 Начало || [[58-content-overview || Content Overview]] || 336 || — ||
 || 54 || 🟢 Начало || [[12-content-overview || Content Overview]] || 304 || — ||
@@ -102,7 +89,7 @@ h2. Содержание
 || 59 || 🟢 Начало || [[06-1-introduction || 1. Introduction]] || 451 || — ||
 || 60 || 🔴 Продвинутый || [[02-общий-план-развития-nautilus-portal-protocol || ОБЩИЙ ПЛАН РАЗВИТИЯ NAUTILUS PORTAL PROTOCOL]] || 3329 || — ||
 || 61 || 🟡 Средний || [[215-4-architecture-of-professional-colleague-agents || 4. Architecture of Professional Colleague Age]] || 1170 || — ||
-|| 62 || 🟢 Начало || [[139-2-the-double-triangle-architecture || 2. The Double-Triangle Architecture]] || 782 || — ||
+|| 62 || 🟢 Начало || [[139-2-the-double-triangle-architecture || 2. The Double-Triangle Architecture]] || 796 || — ||
 || 63 || 🟡 Средний || [[228-appendix-c-quick-start-architecture-for-sgb-advoca || Appendix C: Quick-Start Architecture for SGB ]] || 2010 || — ||
 || 64 || 🟢 Начало || [[312-4-the-symbiotic-architecture || 4. The Symbiotic Architecture]] || 687 || — ||
 || 65 || 🟢 Начало || [[03-portal-protocol-md || PORTAL-PROTOCOL.md]] || 398 || — ||
@@ -114,7 +101,7 @@ h2. Содержание
 || 71 || 🟢 Начало || [[90-15-security-considerations || 15. Security Considerations]] || 511 || — ||
 || 72 || 🟢 Начало || [[07-2-terminology || 2. Terminology]] || 393 || — ||
 || 73 || 🟢 Начало || [[08-3-registry-nautilus-json || 3. Registry (`nautilus.json`)]] || 495 || — ||
-|| 74 || 🟢 Начало || [[09-4-passport-passport-md || 4. Passport (`passport.md`)]] || 359 || — ||
+|| 74 || 🟢 Начало || [[09-4-passport-passport-md || 4. Passport (`passport.md`)]] || 387 || — ||
 || 75 || 🟢 Начало || [[13-angle-perspective || Angle / Perspective]] || 317 || — ||
 || 76 || 🟢 Начало || [[16-history || History]] || 322 || — ||
 || 77 || 🟢 Начало || [[17-5-compatibility-levels || 5. Compatibility Levels]] || 400 || — ||
@@ -185,14 +172,14 @@ h2. Содержание
 || 142 || 🟢 Начало || [[95-20-adr-002-q6-as-first-class-protocol-concept || 20. ADR-002: Q6 as First-Class Protocol Conce]] || 425 || — ||
 || 143 || 🟢 Начало || [[96-21-adr-003-five-onboarding-paths-as-equal-rank || 21. ADR-003: Five Onboarding Paths as Equal-R]] || 304 || — ||
 || 144 || 🟢 Начало || [[97-22-glossary-of-reference-examples || 22. Glossary of Reference Examples]] || 304 || — ||
-|| 145 || 🟡 Средний || [[98-appendix-a-minimal-working-example || Appendix A: Minimal Working Example]] || 413 || — ||
+|| 145 || 🟡 Средний || [[98-appendix-a-minimal-working-example || Appendix A: Minimal Working Example]] || 420 || — ||
 || 146 || 🟢 Начало || [[102-доступ-к-данным || Доступ к данным]] || 320 || — ||
 || 147 || 🟢 Начало || [[103-appendix-b-change-log || Appendix B: Change Log]] || 408 || — ||
 || 148 || 🟡 Средний || [[104-appendix-c-references || Appendix C: References]] || 1238 || — ||
 || 149 || 🟢 Начало || [[106-tl-dr || TL;DR]] || 314 || — ||
 || 150 || 🟢 Начало || [[107-1-контекст-и-мотивация || 1. Контекст и мотивация]] || 487 || — ||
 || 151 || 🟡 Средний || [[108-2-формальный-workflow || 2. Формальный workflow]] || 443 || — ||
-|| 152 || 🟢 Начало || [[109-3-принципы-консолидации-фаза-c || 3. Принципы консолидации (Фаза C)]] || 700 || — ||
+|| 152 || 🟢 Начало || [[109-3-принципы-консолидации-фаза-c || 3. Принципы консолидации (Фаза C)]] || 711 || — ||
 || 153 || 🟢 Начало || [[110-вопрос-fallback-ratio-как-критический-или-осмыслен || Вопрос: fallback-ratio как критический или ос]] || 381 || — ||
 || 154 || 🟢 Начало || [[111-4-условия-применимости || 4. Условия применимости]] || 341 || — ||
 || 155 || 🟢 Начало || [[112-5-связь-с-существующими-методологиями || 5. Связь с существующими методологиями]] || 442 || — ||
@@ -229,7 +216,7 @@ h2. Содержание
 || 186 || 🟢 Начало || [[146-acknowledgments || Acknowledgments]] || 552 || — ||
 || 187 || 🟢 Начало || [[147-references || References]] || 416 || — ||
 || 188 || 🟢 Начало || [[148-appendix-a-glossary || Appendix A: Glossary]] || 566 || — ||
-|| 189 || 🟢 Начало || [[149-appendix-b-summary-of-contributions || Appendix B: Summary of Contributions]] || 434 || — ||
+|| 189 || 🟢 Начало || [[149-appendix-b-summary-of-contributions || Appendix B: Summary of Contributions]] || 446 || — ||
 || 190 || 🔴 Продвинутый || [[150-appendix-c-version-history || Appendix C: Version History]] || 8670 || — ||
 || 191 || 🟢 Начало || [[151-open-knowledge-work-foundation-md || OPEN KNOWLEDGE WORK FOUNDATION.md]] || 431 || — ||
 || 192 || 🟢 Начало || [[152-ai-coordinated-infrastructure-for-distributed-expe || AI-Coordinated Infrastructure for Distributed]] || 355 || — ||
@@ -365,7 +352,7 @@ h2. Содержание
 || 322 || 🟢 Начало || [[286-acknowledgments || Acknowledgments]] || 489 || — ||
 || 323 || 🟢 Начало || [[287-references || References]] || 357 || — ||
 || 324 || 🟡 Средний || [[288-appendix-position-in-series-visualization || Appendix: Position in Series Visualization]] || 1282 || — ||
-|| 325 || 🟢 Начало || [[289-инфраструктура-для-ai-совместной-интеллектуальной- || ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛ]] || 455 || — ||
+|| 325 || 🟢 Начало || [[289-инфраструктура-для-ai-совместной-интеллектуальной- || ИНФРАСТРУКТУРА ДЛЯ AI-СОВМЕСТНОЙ ИНТЕЛЛЕКТУАЛ]] || 462 || — ||
 || 326 || 🟢 Начало || [[290-почему-этот-документ-существует || Почему этот документ существует]] || 399 || — ||
 || 327 || 🟢 Начало || [[291-двухслойный-стек-как-он-существует || Двухслойный стек, как он существует]] || 586 || — ||
 || 328 || 🟢 Начало || [[292-что-отсутствует-слой-b || Что отсутствует — Слой B]] || 625 || — ||
@@ -375,7 +362,7 @@ h2. Содержание
 || 332 || 🟢 Начало || [[296-рекурсивное-прозрение || Рекурсивное прозрение]] || 552 || — ||
 || 333 || 🟢 Начало || [[297-что-промышленность-вероятно-построит || Что промышленность вероятно построит]] || 377 || — ||
 || 334 || 🟢 Начало || [[298-что-этот-документ-не-решает || Что этот документ не решает]] || 336 || — ||
-|| 335 || 🟢 Начало || [[299-практические-рекомендации-для-текущего-проекта || Практические рекомендации для текущего проект]] || 600 || — ||
+|| 335 || 🟢 Начало || [[299-практические-рекомендации-для-текущего-проекта || Практические рекомендации для текущего проект]] || 611 || — ||
 || 336 || 🟢 Начало || [[300-заключение || Заключение]] || 304 || — ||
 || 337 || 🟢 Начало || [[301-благодарности || Благодарности]] || 460 || — ||
 || 338 || 🟢 Начало || [[302-ссылки || Ссылки]] || 331 || — ||
@@ -394,7 +381,7 @@ h2. Содержание
 || 351 || 🟢 Начало || [[316-8-implications-for-nautilus-and-okwf || 8. Implications for Nautilus and OKWF]] || 740 || — ||
 || 352 || 🟢 Начало || [[317-9-risks-and-open-questions || 9. Risks and Open Questions]] || 623 || — ||
 || 353 || 🟢 Начало || [[318-10-strategic-positioning || 10. Strategic Positioning]] || 821 || — ||
-|| 354 || 🟢 Начало || [[319-acknowledgments || Acknowledgments]] || 664 || — ||
+|| 354 || 🟢 Начало || [[319-acknowledgments || Acknowledgments]] || 676 || — ||
 || 355 || 🟢 Начало || [[320-references || References]] || 353 || — ||
 || 356 || 🟢 Начало || [[321-appendix-a-decision-tree-for-ingit-adopters || Appendix A: Decision Tree for InGit Adopters]] || 415 || — ||
 || 357 || 🟡 Средний || [[322-appendix-b-comparison-matrix || Appendix B: Comparison Matrix]] || 371 || — ||
@@ -404,7 +391,7 @@ h2. Содержание
 || 361 || 🟢 Начало || [[326-содержание || Содержание]] || 433 || — ||
 || 362 || 🟢 Начало || [[327-1-открытие-cowork-и-почему-это-меняет-всё || 1. Открытие Cowork и почему это меняет всё]] || 705 || — ||
 || 363 || 🟢 Начало || [[328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи || 2. Что Cowork обеспечивает, что InGit не нужн]] || 792 || — ||
-|| 364 || 🟡 Средний || [[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает || 3. Что InGit обеспечивает, чего Cowork не хва]] || 1093 || — ||
+|| 364 || 🟡 Средний || [[329-3-что-ingit-обеспечивает-чего-cowork-не-хватает || 3. Что InGit обеспечивает, чего Cowork не хва]] || 1101 || — ||
 || 365 || 🟢 Начало || [[330-4-симбиотическая-архитектура || 4. Симбиотическая Архитектура]] || 704 || — ||
 || 366 || 🟢 Начало || [[331-5-четыре-пути-интеграции-в-порядке-доступности || 5. Четыре пути интеграции в порядке доступнос]] || 814 || — ||
 || 367 || 🟢 Начало || [[332-6-уточнённый-объём-ingit-с-учётом-cowork || 6. Уточнённый объём InGit с учётом Cowork]] || 592 || — ||
@@ -470,33 +457,25 @@ h3. 🔬 Полное исследование (1 день)
 
 ----
 
-_Кто ссылается на этот документ (12):_
+_Смотрите также:_
+* [[SOURCE_MAP]]
+* [[CLUSTERS]]
+* [[READING_TIME]]
+* [[READABILITY]]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (14):_
 * [[README]]
 * [[CLUSTERS]]
+* [[COMPARE]]
 * [[CONTENT_GAPS]]
 * [[OUTLINE]]
 * [[READABILITY]]
 * [[READING_TIME]]
 * [[README]]
-* [[SEARCH]]
-* _...ещё 4_
+* _...ещё 6_
 
-
-
-h2. Использование
-{code:language=bash}
-# Запуск
-python scripts/improve_reading_order.py
-{code}
-{code:language=bash}
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-{code}
-{code:language=bash}
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-{code}

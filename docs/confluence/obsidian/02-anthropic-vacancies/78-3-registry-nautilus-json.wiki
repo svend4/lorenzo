@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/02-anthropic-vacancies/78-3-registry-nautilus-json.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -8,7 +8,7 @@ title: "3. Registry ({{nautilus.json}})"
 tags:
   * architecture
   * anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. 3. Registry ({{nautilus.json}})

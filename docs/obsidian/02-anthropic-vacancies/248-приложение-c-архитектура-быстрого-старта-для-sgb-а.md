@@ -6,7 +6,7 @@ tags:
   - anthropic
   - collaboration
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Приложение C: Архитектура Быстрого Старта для SGB Адвоката-Коллеги

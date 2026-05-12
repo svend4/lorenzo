@@ -2,7 +2,7 @@
 title: "Appendix B: Comparison Matrix"
 tags:
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Appendix B: Comparison Matrix

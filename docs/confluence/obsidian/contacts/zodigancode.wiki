@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/obsidian/contacts/zodigancode.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 ----
@@ -9,7 +9,7 @@ tags:
   * контакты
   * команда
   * contacts
-date: 2026-05-11
+date: 2026-05-12
 ----
 
 h1. Контакт: zodigancode / Rufler

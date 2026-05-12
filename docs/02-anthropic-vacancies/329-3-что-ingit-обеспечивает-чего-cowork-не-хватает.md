@@ -295,3 +295,10 @@ python scripts/improve_semantic_search.py --query "3 Что InGit обеспеч
 - [326-содержание](326-содержание.md)
 - [README](README.md)
 
+# Author
+
+## Author
+example_user, example@email.com
+```
+
+---

@@ -4,7 +4,7 @@ tags:
   - architecture
   - roadmap
   - habr-projects
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Синтез: как проекты собираются вместе

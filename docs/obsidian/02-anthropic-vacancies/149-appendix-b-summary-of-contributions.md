@@ -3,7 +3,7 @@ title: "Appendix B: Summary of Contributions"
 tags:
   - architecture
   - anthropic-vacancies
-date: 2026-05-11
+date: 2026-05-12
 ---
 
 # Appendix B: Summary of Contributions
@@ -149,3 +149,7 @@ python scripts/improve_semantic_search.py --query "Appendix B Summary of Contrib
 - [[308-table-of-contents]]
 - _...ещё 4_
 
+# Author & Contact
+
+## Author & Contact
+Кто поддерживает, как связаться.

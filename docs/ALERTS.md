@@ -1,20 +1,11 @@
 # Callout-блоки
 
-<!-- summary -->
-> Добавлено **25** callout-блоков в документы.
-
----
-<!-- tags: ingestion -->
-
-
-
-
-Добавлено **25** callout-блоков в документы.
+Добавлено **22** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
 |-----|------------|------------|
-| `[!NOTE]` | 7 | Нейтральная заметка |
-| `[!TIP]` | 13 | Практический совет |
+| `[!NOTE]` | 10 | Нейтральная заметка |
+| `[!TIP]` | 7 | Практический совет |
 | `[!WARNING]` | 5 | Предупреждение о риске |
 | `[!IMPORTANT]` | 0 | Ключевой документ |
 
@@ -40,14 +31,13 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ---
 
-**Кто ссылается на этот документ (10):**
-- [DIGEST_AUTO](DIGEST_AUTO.md)
+**Кто ссылается на этот документ (8):**
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
-- [READING_LIST](READING_LIST.md)
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
-- _...ещё 2_
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
 

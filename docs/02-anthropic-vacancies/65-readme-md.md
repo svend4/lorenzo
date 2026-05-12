@@ -118,3 +118,7 @@ python scripts/improve_semantic_search.py --query "README md"
 - _...ещё 1_
 
 _Материал доступен для поиска в базе знаний репозитория._ _Для поиска доступен._
+
+# English below ↓
+
+## English below ↓

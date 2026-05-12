@@ -1,6 +1,6 @@
 {info:title=Источник}
 Сгенерировано из: {{docs/02-anthropic-vacancies/139-2-the-double-triangle-architecture.md}}
-Дата: 2026-05-11
+Дата: 2026-05-12
 {info}
 
 h1. 2. The Double-Triangle Architecture
@@ -194,3 +194,7 @@ h2. Кто ссылается на этот документ (8)
 * [148-appendix-a-glossary|148-appendix-a-glossary.md]
 * [README|README.md]
 
+h1. Bridges
+
+h2. Bridges
+Как концепты Repo соотносятся с концепциями других Repos в экосистеме.
