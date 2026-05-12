@@ -26,9 +26,10 @@
 | Round 10 | ✅ Завершён | 4 | Viral simulation, self-hosted stacks, Rust | `round-10/` |
 | Round 11 | ✅ Завершён | 4 | Desktop agents, edge AI, voice embedded | `round-11/` |
 | Round 12 | ✅ Завершён | 4 | Data analytics AI, audio gen, vector DBs | `round-12/` |
-| Round 13 | 🔜 Следующий | — | Observability AI, test gen, federated learning | — |
+| Round 13 | ✅ Завершён | 4 | Observability, ADD, self-healing tests, OCR | `round-13/` |
+| Round 14 | 🔜 Следующий | — | Prompt engineering, code migration AI, multi-modal | — |
 
-**Итого: 52 проекта, 28+ авторов**
+**Итого: 56 проектов, 30+ авторов**
 
 ## Шаблон раунда
 
