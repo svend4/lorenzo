@@ -177,3 +177,40 @@ def test_main_file_arg_missing_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "QUERY", None)
     monkeypatch.setattr(mod, "URL_ARG", "https://example.com")
     mod.main()
+
+
+def test_tokens_returns_set():
+    result = mod._tokens("Agent memory system works with knowledge.")
+    assert isinstance(result, set)
+    assert "agent" in result or "memory" in result
+
+
+def test_tokens_filters_short():
+    result = mod._tokens("I am in it at do")
+    assert all(len(t) >= 4 for t in result)
+
+
+def test_top_freq_returns_list():
+    result = mod._top_freq("agent memory agent search knowledge")
+    assert isinstance(result, list)
+    assert len(result) > 0
+    # agent should be most frequent
+    assert result[0][0] == "agent"
+
+
+def test_extract_urls_from_doc_finds_github():
+    text = "See https://github.com/user/repo for details."
+    result = mod._extract_urls_from_doc(text)
+    assert any("github.com" in u for u in result)
+
+
+def test_extract_urls_from_doc_no_urls():
+    text = "No links here."
+    result = mod._extract_urls_from_doc(text)
+    assert result == []
+
+
+def test_find_best_doc_returns_none_empty_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    result = mod._find_best_doc("agent memory")
+    assert result is None

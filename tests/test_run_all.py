@@ -138,3 +138,43 @@ def test_main_group_filter_no_crash(monkeypatch, capsys):
 def test_main_list_scripts_no_crash(monkeypatch, capsys):
     monkeypatch.setattr("sys.argv", ["prog", "--dry-run", "--fast"])
     mod.main()
+
+
+def test_parse_score_with_average():
+    result = mod._parse_score("**Средний балл:** 65.7/100")
+    assert abs(result - 65.7) < 0.01
+
+
+def test_parse_score_with_general():
+    result = mod._parse_score("Общий балл: **75/100**")
+    assert abs(result - 75.0) < 0.01
+
+
+def test_parse_score_fallback():
+    result = mod._parse_score("Score: 55/100")
+    assert abs(result - 55.0) < 0.01
+
+
+def test_parse_score_no_match():
+    result = mod._parse_score("No score here")
+    assert result is None
+
+
+def test_get_changed_groups_returns_list():
+    result = mod._get_changed_groups()
+    assert isinstance(result, list)
+
+
+def test_should_skip_smart_not_in_conditions():
+    skip, reason = mod.should_skip_smart("unknown_script.py", smart=True)
+    assert skip is False
+
+
+def test_main_smart_dry_run(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--smart", "--dry-run"])
+    mod.main()
+
+
+def test_main_changed_dry_run(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--changed", "--dry-run"])
+    mod.main()

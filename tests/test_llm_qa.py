@@ -374,3 +374,67 @@ def test_main_dry_run_no_index_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "SAVE", False)
     monkeypatch.setattr(mod, "load_index", lambda: [])
     mod.main()
+
+
+def test_tokenize_query_returns_list():
+    result = mod.tokenize_query("What is agent memory?")
+    assert isinstance(result, list)
+
+
+def test_tokenize_query_lowercases():
+    result = mod.tokenize_query("AGENT MEMORY")
+    assert all(t == t.lower() for t in result)
+
+
+def test_doc_text_returns_string():
+    doc = {"content": "main content", "preview": "preview", "tags": ["agent"]}
+    result = mod._doc_text(doc)
+    assert isinstance(result, str)
+    assert "main content" in result
+
+
+def test_score_doc_returns_float():
+    doc = {"content": "agent memory system works", "preview": "agent preview", "tags": []}
+    tokens = ["agent", "memory"]
+    result = mod.score_doc(doc, tokens)
+    assert isinstance(result, float)
+    assert result >= 0
+
+
+def test_find_relevant_returns_list():
+    docs = [
+        {"content": "agent memory system", "preview": "", "tags": ["agent"], "path": "doc1.md"},
+        {"content": "search graph knowledge", "preview": "", "tags": [], "path": "doc2.md"},
+    ]
+    result = mod.find_relevant("agent memory", docs, top_k=2)
+    assert isinstance(result, list)
+    assert len(result) <= 2
+
+
+def test_build_context_returns_string():
+    docs = [{"content": "Agent memory content", "path": "doc1.md", "preview": ""}]
+    result = mod.build_context(docs)
+    assert isinstance(result, str)
+
+
+def test_cache_key_returns_string():
+    result = mod._cache_key("What is agent memory?")
+    assert isinstance(result, str)
+    assert len(result) > 0
+
+
+def test_load_cache_returns_dict_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "CACHE_PATH", tmp_path / "nonexistent.json")
+    result = mod.load_cache()
+    assert isinstance(result, dict)
+
+
+def test_get_cached_returns_none_on_miss():
+    result = mod.get_cached("nonexistent question", {})
+    assert result is None
+
+
+def test_put_cached_stores_answer():
+    cache = {}
+    mod.put_cached("What is agent?", "An agent is a system.", cache)
+    assert len(cache) == 1

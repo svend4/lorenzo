@@ -223,3 +223,53 @@ def test_main_no_template_arg_returns_one(tmp_path, monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
     result = mod.main()
     assert result == 1
+
+
+def test_default_for_type_string():
+    result = mod.default_for_type({"type": "string"})
+    assert result == ""
+
+
+def test_default_for_type_integer():
+    result = mod.default_for_type({"type": "integer"})
+    assert isinstance(result, int)
+
+
+def test_default_for_type_array():
+    result = mod.default_for_type({"type": "array"})
+    assert result == []
+
+
+def test_default_for_type_boolean():
+    result = mod.default_for_type({"type": "boolean"})
+    assert result is False
+
+
+def test_default_for_type_enum():
+    result = mod.default_for_type({"enum": ["draft", "published"]})
+    assert result == "draft"
+
+
+def test_default_for_type_date():
+    result = mod.default_for_type({"type": "string", "format": "date"})
+    assert isinstance(result, str)
+    assert len(result) == 10  # YYYY-MM-DD
+
+
+def test_suggest_migrations_missing_required(tmp_path):
+    f = tmp_path / "doc.md"
+    f.write_text("---\ntitle: Test\n---\n\nContent.", encoding="utf-8")
+    schema = {
+        "properties": {"title": {"type": "string"}, "status": {"type": "string"}},
+        "required": ["title", "status"],
+    }
+    result = mod.suggest_migrations(f, schema)
+    add_ops = [s for s in result if s["type"] == "add" and s["field"] == "status"]
+    assert len(add_ops) == 1
+
+
+def test_suggest_migrations_no_frontmatter(tmp_path):
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nNo frontmatter.", encoding="utf-8")
+    result = mod.suggest_migrations(f, {})
+    assert result == []
