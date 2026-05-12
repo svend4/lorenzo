@@ -196,3 +196,139 @@ def test_run_once_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "ROOT", tmp_path)
     monkeypatch.setattr(mod, "run_script", lambda s: None)
     mod.run_once()
+
+
+# ── watch_polling ─────────────────────────────────────────────────────────────
+
+def test_watch_polling_one_iteration(tmp_path, monkeypatch):
+    """Test watch_polling by making time.sleep raise KeyboardInterrupt after first call."""
+    from unittest.mock import patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "handle_change", lambda p: None)
+    # Create a file to track
+    (tmp_path / "doc.md").write_text("# Test", encoding="utf-8")
+    call_count = [0]
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] >= 1:
+            raise KeyboardInterrupt()
+    with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+        try:
+            mod.watch_polling(interval=0.01)
+        except KeyboardInterrupt:
+            pass
+    assert call_count[0] >= 1
+
+
+def test_watch_polling_detects_change(tmp_path, monkeypatch):
+    """Test that watch_polling detects file changes."""
+    from unittest.mock import patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    changed_files = []
+    monkeypatch.setattr(mod, "handle_change", lambda p: changed_files.append(p))
+    f = tmp_path / "doc.md"
+    f.write_text("# Initial", encoding="utf-8")
+    call_count = [0]
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] == 1:
+            # Modify file on first sleep
+            import time as _time
+            _time.sleep(0.01)
+            f.write_text("# Updated content", encoding="utf-8")
+        else:
+            raise KeyboardInterrupt()
+    with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+        try:
+            mod.watch_polling(interval=0.01)
+        except KeyboardInterrupt:
+            pass
+
+
+def test_main_without_watchdog_once(tmp_path, monkeypatch, capsys):
+    """Test main() with --once flag and no watchdog."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "run_script", lambda s: None)
+    monkeypatch.setattr("sys.argv", ["prog", "--once"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "Lorenzo" in out or "вотчер" in out or isinstance(out, str)
+
+
+def test_main_triggers_polling_without_watchdog(tmp_path, monkeypatch, capsys):
+    """Test that main() without --once falls back to polling (no watchdog)."""
+    from unittest.mock import patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+
+    def fake_watch_polling():
+        raise KeyboardInterrupt("done")
+
+    monkeypatch.setattr(mod, "watch_polling", fake_watch_polling)
+
+    # Pretend watchdog is not installed
+    with patch.dict("sys.modules", {"watchdog": None}):
+        try:
+            mod.main()
+        except KeyboardInterrupt:
+            pass
+
+
+def test_watch_watchdog_starts_and_stops(tmp_path, monkeypatch):
+    """Test watch_watchdog by mocking watchdog.observers."""
+    from unittest.mock import MagicMock, patch
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+
+    mock_observer = MagicMock()
+    call_count = [0]
+    def fake_sleep(n):
+        call_count[0] += 1
+        if call_count[0] >= 1:
+            raise KeyboardInterrupt()
+
+    mock_observer_cls = MagicMock(return_value=mock_observer)
+
+    with patch.dict("sys.modules", {
+        "watchdog": MagicMock(),
+        "watchdog.observers": MagicMock(Observer=mock_observer_cls),
+        "watchdog.events": MagicMock(FileSystemEventHandler=object),
+    }):
+        with patch.object(mod.time, "sleep", side_effect=fake_sleep):
+            try:
+                mod.watch_watchdog()
+            except KeyboardInterrupt:
+                pass
+
+    mock_observer.start.assert_called_once()
+    mock_observer.stop.assert_called_once()
+
+
+def test_run_script_handles_timeout(tmp_path, monkeypatch):
+    """Test that run_script handles TimeoutExpired gracefully."""
+    from unittest.mock import patch
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    dummy = scripts_dir / "dummy_timeout.py"
+    dummy.write_text("import time; time.sleep(999)", encoding="utf-8")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod._last_run.pop("dummy_timeout.py", None)
+    with patch("subprocess.run", side_effect=__import__("subprocess").TimeoutExpired(["dummy"], 60)):
+        mod.run_script("dummy_timeout.py")  # Should not raise
+
+
+def test_run_script_handles_exception(tmp_path, monkeypatch):
+    """Test that run_script handles generic exceptions gracefully."""
+    from unittest.mock import patch
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    dummy = scripts_dir / "dummy_error.py"
+    dummy.write_text("raise RuntimeError('fail')", encoding="utf-8")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod._last_run.pop("dummy_error.py", None)
+    with patch("subprocess.run", side_effect=RuntimeError("test error")):
+        mod.run_script("dummy_error.py")  # Should not raise

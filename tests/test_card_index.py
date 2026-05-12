@@ -147,3 +147,260 @@ def test_main_search_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr("sys.argv", ["prog", "--search", "agent"])
     monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
     mod.main()
+
+
+# ── cmd_build helpers ─────────────────────────────────────────────────────────
+
+def _setup_cards(tmp_path):
+    """Create a small CardStore with one real card."""
+    sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
+    from utils_card_envelope import CardEnvelope, CardStore
+    cards_dir = tmp_path / "cards"
+    cards_dir.mkdir()
+    store = CardStore(cards_dir)
+    card = CardEnvelope(
+        card_id="sha256:test0001",
+        card_type="doc",
+        state="raw",
+        payload={"title": "Test Doc", "path": "test.md", "wc": 50, "tags": [], "summary": "A test document"},
+        edges=[],
+    )
+    store.put(card)
+    return cards_dir, store
+
+
+def test_cmd_build_dry_run(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "cards")
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent about agent memory.", encoding="utf-8")
+    mod.cmd_build(dry_run=True)
+    out = capsys.readouterr().out
+    assert "dry-run" in out or "Карточек" in out or "dry" in out.lower()
+
+
+def test_cmd_build_no_dry_run(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    cards_dir = tmp_path / "cards"
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent about agent memory.", encoding="utf-8")
+    mod.cmd_build(dry_run=False)
+    out = capsys.readouterr().out
+    assert "Записано" in out or "Карточек" in out
+
+
+def test_cmd_build_verbose(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    cards_dir = tmp_path / "cards"
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.cmd_build(dry_run=False, verbose=True)
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_build_incremental(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    cards_dir = tmp_path / "cards"
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent.", encoding="utf-8")
+    mod.cmd_build(dry_run=False, incremental=False)
+    mod.cmd_build(dry_run=False, incremental=True)
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_stats_with_cards(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_stats()
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_stats_empty_cards(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.cmd_stats()
+    out = capsys.readouterr().out
+    assert "пуст" in out or "CardStore" in out
+
+
+def test_cmd_search_with_cards(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_search("test doc")
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_search_no_results(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_search("xyzxyz_no_match_abcdef")
+    out = capsys.readouterr().out
+    assert "Ничего" in out or "не найдено" in out.lower()
+
+
+def test_cmd_search_no_cards(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.cmd_search("agent")
+    out = capsys.readouterr().out
+    assert "пуст" in out or "CardStore" in out
+
+
+def test_cmd_get_existing(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_get("sha256:test0001")
+    out = capsys.readouterr().out
+    assert "sha256:test0001" in out or "Test Doc" in out or "{" in out
+
+
+def test_cmd_get_partial_match(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_get("Test Doc")
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_get_not_found(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_get("nonexistent_card_id_xyz")
+    out = capsys.readouterr().out
+    assert "не найдена" in out or "not found" in out.lower() or "Найдено" in out or "Карточка" in out
+
+
+def test_cmd_link_dry_run(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_link("sha256:test0001", "docs/other.md", rel="references", dry_run=True)
+    out = capsys.readouterr().out
+    assert "dry-run" in out or "ребро" in out.lower() or "Добавлено" in out
+
+
+def test_cmd_link_not_found(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_link("nonexistent_xyz", "docs/other.md", dry_run=True)
+    out = capsys.readouterr().out
+    assert "не найдена" in out or "not found" in out.lower()
+
+
+def test_cmd_link_no_cards(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.cmd_link("any_id", "docs/other.md", dry_run=True)
+    out = capsys.readouterr().out
+    assert "пуст" in out or "CardStore" in out
+
+
+def test_cmd_approve_dry_run(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_approve("sha256:test0001", dry_run=True)
+    out = capsys.readouterr().out
+    assert "approved" in out or "dry-run" in out
+
+
+def test_cmd_approve_not_found(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_approve("nonexistent_xyz", dry_run=True)
+    out = capsys.readouterr().out
+    assert "не найдена" in out or "not found" in out.lower()
+
+
+def test_cmd_decay_dry_run(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    mod.cmd_decay("sha256:test0001", dry_run=True)
+    out = capsys.readouterr().out
+    assert "decayed" in out or "dry-run" in out
+
+
+def test_cmd_export_json(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.cmd_export(fmt="json")
+    out = capsys.readouterr().out
+    assert "Записано" in out or "json" in out.lower()
+
+
+def test_cmd_export_csv(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.cmd_export(fmt="csv")
+    out = capsys.readouterr().out
+    assert "Записано" in out or "csv" in out.lower()
+
+
+def test_cmd_export_md(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.cmd_export(fmt="md")
+    out = capsys.readouterr().out
+    assert "Записано" in out or "md" in out.lower()
+
+
+def test_cmd_export_invalid_fmt(tmp_path, monkeypatch, capsys):
+    cards_dir, _ = _setup_cards(tmp_path)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.cmd_export(fmt="xml")
+    out = capsys.readouterr().out
+    assert "Неизвестный" in out or "unknown" in out.lower()
+
+
+def test_cmd_export_no_cards_dir(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.cmd_export()
+    out = capsys.readouterr().out
+    assert "пуст" in out or "CardStore" in out
+
+
+def test_main_get_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--get", "nonexistent"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.main()
+
+
+def test_main_link_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--link", "from_id", "to.md", "--dry-run"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.main()
+
+
+def test_main_approve_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--approve", "some_id", "--dry-run"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.main()
+
+
+def test_main_decay_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--decay", "some_id", "--dry-run"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.main()
+
+
+def test_main_export_no_crash(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog", "--export", "--fmt", "csv"])
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    mod.main()
+
+
+def test_main_no_args_prints_help(monkeypatch, capsys):
+    monkeypatch.setattr("sys.argv", ["prog"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
