@@ -255,3 +255,59 @@ def test_main_query_no_index_no_crash(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
     monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
     mod.main()
+
+
+def test_tokenize_returns_list():
+    result = mod.tokenize("Hello world agent memory system")
+    assert isinstance(result, list)
+    assert all(isinstance(t, str) for t in result)
+
+
+def test_tokenize_lowercases():
+    result = mod.tokenize("AGENT MEMORY")
+    assert all(t == t.lower() for t in result)
+
+
+def test_compute_tf_returns_dict():
+    result = mod.compute_tf(["agent", "memory", "agent"])
+    assert isinstance(result, dict)
+    assert result["agent"] > result["memory"]
+
+
+def test_compute_tf_empty():
+    result = mod.compute_tf([])
+    assert result == {}
+
+
+def test_compute_idf_returns_dict():
+    docs = [["agent", "memory"], ["agent", "search"], ["graph", "knowledge"]]
+    vocab = {"agent", "memory", "search", "graph", "knowledge"}
+    result = mod.compute_idf(docs, vocab)
+    assert isinstance(result, dict)
+    assert "agent" in result
+
+
+def test_tfidf_vector_returns_dict():
+    tf = {"agent": 0.5, "memory": 0.3}
+    idf = {"agent": 1.5, "memory": 2.0}
+    result = mod.tfidf_vector(tf, idf)
+    assert isinstance(result, dict)
+    assert "agent" in result
+
+
+def test_cosine_sim_identical():
+    v = {"agent": 0.5, "memory": 0.3}
+    result = mod.cosine_sim(v, v)
+    assert abs(result - 1.0) < 0.01
+
+
+def test_cosine_sim_disjoint():
+    a = {"agent": 0.5}
+    b = {"memory": 0.3}
+    result = mod.cosine_sim(a, b)
+    assert result == 0.0
+
+
+def test_cosine_sim_empty():
+    result = mod.cosine_sim({}, {})
+    assert result == 0.0

@@ -92,3 +92,55 @@ def test_main_has_content(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "LINK_PREVIEW.md").read_text(encoding="utf-8")
     assert "# " in text
+
+
+def test_extract_urls_finds_https():
+    text = "See https://example.com for details."
+    result = mod.extract_urls(text)
+    assert "https://example.com" in result
+
+
+def test_extract_urls_no_urls():
+    text = "No links here."
+    result = mod.extract_urls(text)
+    assert result == []
+
+
+def test_is_fresh_no_checked():
+    result = mod._is_fresh({})
+    assert result is False
+
+
+def test_is_fresh_old_entry():
+    result = mod._is_fresh({"checked": "2020-01-01T00:00:00"})
+    assert result is False
+
+
+def test_is_fresh_recent_entry():
+    from datetime import datetime as _dt
+    result = mod._is_fresh({"checked": _dt.now().isoformat()})
+    assert result is True
+
+
+def test_load_cache_returns_dict_when_file_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "CACHE_FILE", tmp_path / "nonexistent.json")
+    monkeypatch.setattr(mod, "REFRESH", False)
+    result = mod.load_cache()
+    assert isinstance(result, dict)
+
+
+def test_load_cache_reads_existing(tmp_path, monkeypatch):
+    import json as _json
+    cache_file = tmp_path / "cache.json"
+    cache_file.write_text(_json.dumps({"https://ex.com": {"status": 200}}), encoding="utf-8")
+    monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
+    monkeypatch.setattr(mod, "REFRESH", False)
+    result = mod.load_cache()
+    assert "https://ex.com" in result
+
+
+def test_save_cache_creates_file(tmp_path, monkeypatch):
+    cache_file = tmp_path / "cache.json"
+    monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
+    mod.save_cache({"https://ex.com": {"status": 200}})
+    assert cache_file.exists()

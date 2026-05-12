@@ -89,3 +89,23 @@ def test_main_failed_import_counts(tmp_path, monkeypatch, capsys):
     mod.main()
     out = capsys.readouterr().out
     assert "import" in out.lower() or "❌" in out
+
+
+def test_main_returns_zero_when_all_pass(monkeypatch):
+    # Use empty server list — no failures, no passes, returns 0
+    monkeypatch.setattr(mod, "SERVERS", [])
+    result = mod.main()
+    assert result == 0
+
+
+def test_import_helper_handles_missing_module(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "SCRIPTS", tmp_path)
+    try:
+        mod._import("nonexistent_module_xyz")
+    except (FileNotFoundError, AttributeError, ImportError):
+        pass
+
+
+def test_servers_attribute_is_list():
+    assert hasattr(mod, "SERVERS")
+    assert isinstance(mod.SERVERS, list)
