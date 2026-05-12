@@ -316,3 +316,88 @@ def test_get_scripts_no_filter_returns_list(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
     result = mod._get_scripts_to_bench()
     assert isinstance(result, list)
+
+
+# ── arg parsing ────────────────────────────────────────────────────────────────
+
+def test_group_arg_parsing():
+    """Lines 28-30: --group sets GROUP_FILTER."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--group", "reports"]
+        importlib.reload(mod)
+        assert mod.GROUP_FILTER == "reports"
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+def test_script_arg_parsing():
+    """Lines 34-36: --script sets SCRIPT_FILTER."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--script", "improve_test.py"]
+        importlib.reload(mod)
+        assert mod.SCRIPT_FILTER == "improve_test.py"
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+def test_get_scripts_with_group_filter(tmp_path, monkeypatch):
+    """Line 80: GROUP_FILTER set → uses GROUPS.get."""
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", None)
+    monkeypatch.setattr(mod, "GROUP_FILTER", "reports")
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
+    result = mod._get_scripts_to_bench()
+    assert isinstance(result, list)
+
+
+def test_get_scripts_import_error(tmp_path, monkeypatch):
+    """Lines 76-77: ImportError when importing improve_run_all → return []."""
+    import builtins
+    real_import = builtins.__import__
+    def mock_import(name, *args, **kwargs):
+        if name == "improve_run_all":
+            raise ImportError("mock")
+        return real_import(name, *args, **kwargs)
+    monkeypatch.setattr(builtins, "__import__", mock_import)
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", None)
+    monkeypatch.setattr(mod, "GROUP_FILTER", None)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", tmp_path)
+    result = mod._get_scripts_to_bench()
+    assert result == []
+
+
+def test_main_elapsed_none_continues(tmp_path, monkeypatch, capsys):
+    """Lines 145-146: elapsed is None → print ❌ and continue."""
+    from unittest.mock import patch, MagicMock
+    scripts_dir = tmp_path / "scripts"
+    scripts_dir.mkdir()
+    dummy = scripts_dir / "fail_script.py"
+    dummy.write_text("import sys; sys.exit(1)", encoding="utf-8")
+    bench = tmp_path / "benchmark.json"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SCRIPTS_DIR", scripts_dir)
+    monkeypatch.setattr(mod, "BENCH_FILE", bench)
+    monkeypatch.setattr(mod, "REPORT_ONLY", False)
+    monkeypatch.setattr(mod, "SCRIPT_FILTER", "fail_script")
+    monkeypatch.setattr(mod, "GROUP_FILTER", None)
+    fake_result = MagicMock()
+    fake_result.returncode = 1  # non-zero → _time_script returns None
+    with patch("subprocess.run", return_value=fake_result):
+        mod.main()
+    out = capsys.readouterr().out
+    assert "❌" in out or "ошибка" in out
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 178: __main__ block (with --report to avoid subprocess calls)."""
+    import runpy
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--report"]  # REPORT_ONLY=True → no subprocess
+        runpy.run_path(str(ROOT / "scripts" / "improve_benchmark.py"), run_name="__main__")
+    finally:
+        sys.argv = orig
