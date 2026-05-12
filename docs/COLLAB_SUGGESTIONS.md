@@ -1,16 +1,16 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «анализ договорных рисков schema guided reasoning»
-> **Дата:** 2026-05-12 19:23  **Кандидатов:** 1
+> Автоматический поиск партнёрских проектов для: «opensearch анализ логов безопасности через codegen»
+> **Дата:** 2026-05-12 19:34  **Кандидатов:** 1
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-39/projects/contract-risk-analysis-schema-guided-reasoning.md`
+**Источник:** `docs/06-discovery/round-40/projects/kaspersky-llm-mcp-opensearch-log-analysis.md`
 
-**Запрос:** анализ договорных рисков schema guided reasoning
+**Запрос:** opensearch анализ логов безопасности через codegen
 
 ---
 
@@ -39,7 +39,7 @@
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «анализ договорных рисков schema guided reasoning»
+**Тема:** Коллаборация по теме «opensearch анализ логов безопасности через codegen»
 
 Привет, VitalyOborin!
 
@@ -79,7 +79,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "анализ договорных рисков schema guided reasoning"
+   python scripts/improve_collab_finder.py --query "opensearch анализ логов безопасности через codegen"
    ```
 
-_Сгенерировано: 2026-05-12 19:23  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 19:34  |  Алгоритм: TF-IDF + BM25 + граф_
