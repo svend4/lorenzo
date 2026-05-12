@@ -88,3 +88,52 @@ def test_main_dry_run_with_file(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "SECTION_FILTER", None)
     monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "DIGEST.md")
     mod.main()
+
+
+def test_collect_targets_empty_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "FILE_FILTER", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    result = mod.collect_targets()
+    assert isinstance(result, list)
+
+
+def test_collect_targets_with_file_filter(tmp_path, monkeypatch):
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\n" + "word " * 300, encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "FILE_FILTER", f)
+    result = mod.collect_targets()
+    assert f in result
+
+
+def test_collect_targets_file_filter_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "FILE_FILTER", tmp_path / "nonexistent.md")
+    result = mod.collect_targets()
+    assert result == []
+
+
+def test_load_digest_missing_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DIGEST_PATH", tmp_path / "nonexistent.md")
+    result = mod.load_digest()
+    assert result == {}
+
+
+def test_load_digest_with_existing(tmp_path, monkeypatch):
+    digest = tmp_path / "DIGEST.md"
+    digest.write_text(
+        "## Title\n_Файл: [doc.md](doc.md)_\n\nContent.\n",
+        encoding="utf-8"
+    )
+    monkeypatch.setattr(mod, "DIGEST_PATH", digest)
+    result = mod.load_digest()
+    assert "doc.md" in result
+
+
+def test_append_to_digest_creates_file(tmp_path, monkeypatch):
+    digest = tmp_path / "DIGEST.md"
+    monkeypatch.setattr(mod, "DIGEST_PATH", digest)
+    mod.append_to_digest("## New Section\n\nContent.\n")
+    assert digest.exists()
+    assert "New Section" in digest.read_text(encoding="utf-8")

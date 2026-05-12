@@ -152,3 +152,48 @@ def test_main_no_author_no_all_exits(tmp_path, monkeypatch):
         mod.main()
     except SystemExit:
         pass
+
+
+def test_find_contact_file_not_found(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    (tmp_path / "contacts").mkdir()
+    result = mod._find_contact_file("nonexistent_author_xyz")
+    assert result is None
+
+
+def test_find_contact_file_found(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    (contacts / "kksudo.md").write_text("# kksudo\n\nContent.", encoding="utf-8")
+    result = mod._find_contact_file("kksudo")
+    assert result is not None
+    assert result.name == "kksudo.md"
+
+
+def test_find_project_file_not_found(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    result = mod._find_project_file("nonexistent_project_xyz")
+    assert result is None
+
+
+def test_contact_is_messaged_true(tmp_path):
+    f = tmp_path / "contact.md"
+    f.write_text("## Статус\n\n- [x] Написали первое сообщение\n", encoding="utf-8")
+    result = mod._contact_is_messaged(f)
+    assert result is True
+
+
+def test_contact_is_messaged_false(tmp_path):
+    f = tmp_path / "contact.md"
+    f.write_text("## Статус\n\n- [ ] Написали первое сообщение\n", encoding="utf-8")
+    result = mod._contact_is_messaged(f)
+    assert result is False
+
+
+def test_build_prompt_returns_string(tmp_path):
+    f = tmp_path / "contact.md"
+    f.write_text("# Author\n\n## Профиль\n\nDeveloper.", encoding="utf-8")
+    result = mod.build_prompt(f, None)
+    assert isinstance(result, str)
+    assert len(result) > 50

@@ -166,3 +166,35 @@ def test_main_dry_run_empty_sections(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "FILE_FILTER", None)
     monkeypatch.setattr(mod, "FORCE", False)
     mod.main()
+
+
+def test_extract_facts_returns_dict(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "agentfs.md"
+    f.write_text("# AgentFS\n\n<!-- tags: memory, agent -->\n\nContent.", encoding="utf-8")
+    result = mod.extract_facts(f)
+    assert isinstance(result, dict)
+    assert "title" in result
+    assert "tags" in result
+    assert result["title"] == "AgentFS"
+
+
+def test_extract_facts_finds_tags(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\n<!-- tags: memory, search -->\n\nContent.", encoding="utf-8")
+    result = mod.extract_facts(f)
+    assert "memory" in result["tags"]
+    assert "search" in result["tags"]
+
+
+def test_build_enriched_returns_string(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    facts = {
+        "title": "AgentFS", "tags": ["memory"], "summary": "Agent filesystem.",
+        "projects": "Yodoca", "path": "docs/agentfs.md",
+        "chunks": [], "tokens": 100,
+    }
+    result = mod.build_enriched(facts, "## Content\n\nSome enriched content.")
+    assert isinstance(result, str)
+    assert "AgentFS" in result
