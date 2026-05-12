@@ -49,7 +49,15 @@ jobs:
         run: pip list | grep -E "pytest|fastapi|pydantic|beautifulsoup4|lxml|httpx|uvicorn"
 
       - name: Run tests/
-        run: python -m pytest tests/ -q --ignore=tests/test_ann_index.py --tb=short -p no:cacheprovider
+        run: python -m pytest tests/ -v --ignore=tests/test_ann_index.py --tb=short -p no:cacheprovider --timeout=120 2>&1 | tee /tmp/test_output.txt; exit ${PIPESTATUS[0]}
+
+      - name: Upload test output on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-output
+          path: /tmp/test_output.txt
+          retention-days: 7
 
       - name: Run docs-toolkit tests/
         run: python -m pytest docs-toolkit/tests/ -q --tb=short
