@@ -45,6 +45,9 @@ jobs:
       - name: Install test dependencies
         run: pip install -r requirements-test.txt --quiet
 
+      - name: Show installed packages
+        run: pip list | grep -E "pytest|fastapi|pydantic|beautifulsoup4|lxml|httpx|uvicorn"
+
       - name: Run tests/
         run: python -m pytest tests/ -q --ignore=tests/test_ann_index.py --tb=short -p no:cacheprovider
 
