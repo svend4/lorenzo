@@ -177,3 +177,98 @@ def test_main_empty_docs(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "FORMAT", "mermaid")
     mod.main()
     assert (tmp_path / "CONCEPT_GRAPH.md").exists()
+
+
+# ── arg parsing ────────────────────────────────────────────────────────────────
+
+def test_min_weight_arg_parsing():
+    """Lines 33-35: --min-weight N sets MIN_WEIGHT."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--min-weight", "5"]
+        importlib.reload(mod)
+        assert mod.MIN_WEIGHT == 5
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+def test_top_concepts_arg_parsing():
+    """Lines 38-40: --top-concepts N sets TOP_CONCEPTS."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--top-concepts", "20"]
+        importlib.reload(mod)
+        assert mod.TOP_CONCEPTS == 20
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+def test_format_arg_parsing():
+    """Lines 44-46: --format dot sets FORMAT."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--format", "dot"]
+        importlib.reload(mod)
+        assert mod.FORMAT == "dot"
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+def test_section_arg_parsing():
+    """Lines 50-52: --section sets SECTION_FILTER."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "01-svyazi"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+# ── build_graph: exception reading file ───────────────────────────────────────
+
+def test_build_graph_handles_read_error(tmp_path, monkeypatch):
+    """Lines 116-117: exception reading file → continue."""
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    bad = tmp_path / "bad.md"
+    bad.write_text("content", encoding="utf-8")
+    from pathlib import Path as _Path
+    orig_read = _Path.read_text
+    def mock_read(self, *a, **kw):
+        if self == bad:
+            raise OSError("mocked")
+        return orig_read(self, *a, **kw)
+    monkeypatch.setattr(_Path, "read_text", mock_read)
+    nodes, edges = mod.build_graph([bad])
+    assert isinstance(nodes, dict)
+
+
+# ── main: DOT format ────────────────────────────────────────────────────────
+
+def test_main_dot_format(tmp_path, monkeypatch):
+    """Lines 243-248, 253-257: FORMAT=dot → concept_graph.dot written."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FORMAT", "dot")
+    content = "agent memory knowledge system retrieval " * 10
+    (tmp_path / "doc.md").write_text("# Title\n\n" + content, encoding="utf-8")
+    mod.main()
+    assert (tmp_path / "CONCEPT_GRAPH.md").exists()
+    assert (tmp_path / "concept_graph.dot").exists()
+
+
+# ── __main__ block ─────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 282: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "FORMAT", "mermaid")
+    runpy.run_path(str(ROOT / "scripts" / "improve_concept_graph.py"), run_name="__main__")

@@ -141,3 +141,61 @@ def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "SECTION_FILTER", None)
     monkeypatch.setattr(mod, "OUT_DIR", tmp_path / "confluence")
     mod.main()
+
+
+# ── arg parsing ────────────────────────────────────────────────────────────────
+
+def test_section_arg_parsing():
+    """Lines 32-34: --section sets SECTION_FILTER."""
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "01-svyazi"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+    finally:
+        sys.argv = orig
+        importlib.reload(mod)
+
+
+# ── md_to_confluence: blockquote line ────────────────────────────────────────
+
+def test_md_to_confluence_blockquote(tmp_path, monkeypatch):
+    """Line 111: line starts with '> ' → {quote}...{quote}."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    source = tmp_path / "test.md"
+    source.write_text("", encoding="utf-8")
+    text = "> This is a blockquote.\n"
+    result = mod.md_to_confluence(text, source)
+    assert "{quote}" in result
+
+
+# ── main: DRY_RUN=False writes files, exception handling ─────────────────────
+
+def test_main_write_exception_handled(tmp_path, monkeypatch, capsys):
+    """Lines 155-156: exception in processing → error printed."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    out_dir = tmp_path / "confluence"
+    monkeypatch.setattr(mod, "OUT_DIR", out_dir)
+    f = tmp_path / "bad.md"
+    f.write_text("# Title\n\nContent.\n", encoding="utf-8")
+    # Mock md_to_confluence to raise
+    monkeypatch.setattr(mod, "md_to_confluence", lambda text, source: (_ for _ in ()).throw(ValueError("mock")))
+    mod.main()
+    out = capsys.readouterr().out
+    assert "❌" in out or "bad.md" in out
+
+
+# ── __main__ block ─────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 165: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "OUT_DIR", tmp_path / "confluence")
+    runpy.run_path(str(ROOT / "scripts" / "improve_confluence.py"), run_name="__main__")
