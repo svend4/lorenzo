@@ -321,11 +321,11 @@ def test_main_apply_writes_links(tmp_path, monkeypatch):
 # ── __main__ block ─────────────────────────────────────────────────────────────
 
 def test_main_block_via_runpy(tmp_path, monkeypatch):
-    """Line 245: __main__ block."""
+    """Line 245: __main__ block — use nonexistent section so zero files processed."""
     import runpy
-    monkeypatch.setattr(mod, "DOCS", tmp_path)
-    monkeypatch.setattr(mod, "ROOT", tmp_path)
-    monkeypatch.setattr(mod, "APPLY", False)
-    monkeypatch.setattr(mod, "DRY_RUN", True)
-    monkeypatch.setattr(mod, "SECTION_FILTER", None)
-    runpy.run_path(str(ROOT / "scripts" / "improve_auto_linker.py"), run_name="__main__")
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["improve_auto_linker.py", "--section", "_ci_empty_xyz_"]
+        runpy.run_path(str(ROOT / "scripts" / "improve_auto_linker.py"), run_name="__main__")
+    finally:
+        sys.argv = orig

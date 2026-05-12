@@ -456,12 +456,12 @@ def test_main_results_loop_written(tmp_path, monkeypatch):
 # ── __main__ block ─────────────────────────────────────────────────────────────
 
 def test_main_block_via_runpy(tmp_path, monkeypatch):
-    """Line 255: __main__ block."""
+    """Line 255: __main__ block — use nonexistent section so zero files processed."""
     import runpy
-    monkeypatch.setattr(mod, "DOCS", tmp_path)
-    monkeypatch.setattr(mod, "ROOT", tmp_path)
-    monkeypatch.setattr(mod, "SECTION_FILTER", None)
-    monkeypatch.setattr(mod, "APPLY", False)
-    monkeypatch.setattr(mod, "QUERY", None)
-    script_path = str(ROOT / "scripts" / "improve_textrank.py")
-    runpy.run_path(script_path, run_name="__main__")
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["improve_textrank.py", "--section", "_ci_empty_xyz_"]
+        script_path = str(ROOT / "scripts" / "improve_textrank.py")
+        runpy.run_path(script_path, run_name="__main__")
+    finally:
+        sys.argv = orig
