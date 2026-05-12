@@ -456,11 +456,13 @@ def test_main_results_loop_written(tmp_path, monkeypatch):
 # ── __main__ block ─────────────────────────────────────────────────────────────
 
 def test_main_block_via_runpy(tmp_path, monkeypatch):
-    """Line 255: __main__ block — use nonexistent section so zero files processed."""
+    """Line 255: __main__ block — mock rglob so zero files processed (fast)."""
+    from pathlib import Path
+    monkeypatch.setattr(Path, "rglob", lambda self, pattern: iter([]))
     import runpy
     orig = sys.argv[:]
     try:
-        sys.argv = ["improve_textrank.py", "--section", "_ci_empty_xyz_"]
+        sys.argv = ["improve_textrank.py"]
         script_path = str(ROOT / "scripts" / "improve_textrank.py")
         runpy.run_path(script_path, run_name="__main__")
     finally:
