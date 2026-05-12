@@ -25,9 +25,10 @@
 | Round 09 | ✅ Завершён | 4 | GraphRAG, decentralized AI, coding agent | `round-09/` |
 | Round 10 | ✅ Завершён | 4 | Viral simulation, self-hosted stacks, Rust | `round-10/` |
 | Round 11 | ✅ Завершён | 4 | Desktop agents, edge AI, voice embedded | `round-11/` |
-| Round 12 | 🔜 Следующий | — | Data analytics AI, audio gen, vector DBs | — |
+| Round 12 | ✅ Завершён | 4 | Data analytics AI, audio gen, vector DBs | `round-12/` |
+| Round 13 | 🔜 Следующий | — | Observability AI, test gen, federated learning | — |
 
-**Итого: 48 проектов, 26+ авторов**
+**Итого: 52 проекта, 28+ авторов**
 
 ## Шаблон раунда
 
