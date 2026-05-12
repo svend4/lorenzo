@@ -38,7 +38,8 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
+- [[DIGEST_AUTO]]
 - [[EMPTY_SECTIONS]]
 - [[INDEX]]
 - [[OUTLINE]]
@@ -46,5 +47,5 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [[READING_TIME]]
 - [[README]]
 - [[SEARCH]]
-- [[TABLES]]
+- _...ещё 1_
 

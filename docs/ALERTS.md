@@ -1,5 +1,12 @@
 # Callout-блоки
 
+<!-- summary -->
+> Добавлено **22** callout-блоков в документы.
+
+---
+
+
+
 Добавлено **22** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
@@ -31,7 +38,8 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
+- [DIGEST_AUTO](DIGEST_AUTO.md)
 - [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
 - [INDEX](INDEX.md)
 - [OUTLINE](OUTLINE.md)
@@ -39,5 +47,16 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [READING_TIME](READING_TIME.md)
 - [README](README.md)
 - [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- _...ещё 1_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ORPHANS](ORPHANS.md)
+- [STATS](STATS.md)
+- [AUTHORS](AUTHORS.md)
+- [LINKS](LINKS.md)
 

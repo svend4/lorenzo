@@ -11,14 +11,14 @@ h1. Индекс «Смотрите также»
 
 
 
-{quote}_Файлов с блоком See Also:_ 1072{quote}
+{quote}_Файлов с блоком See Also:_ 1071{quote}
 _Проекты:_ Svyazi
 
 ----
 
 
 
-_Файлов с блоком See Also:_ 1072
+_Файлов с блоком See Also:_ 1071
 
 h2. Ключевые связи
 
@@ -39,7 +39,7 @@ h2. Ключевые связи
 * [QA|svyazi-2-0/QA.md] → [KNOWLEDGE_MAP|KNOWLEDGE_MAP.md], [review-record|svyazi-2-0/architecture/review-record.md], [SEARCH_RESULTS|SEARCH_RESULTS.md], [card-envelope|svyazi-2-0/architecture/card-envelope.md]
 * [00-intro|nautilus/infrastructure-layer-b-ru/00-intro.md] → [288-appendix-position-in-series-visualization|02-anthropic-vacancies/288-appendix-position-in-series-visualization.md], [12-blagodarnosti-ssylki|nautilus/infrastructure-layer-b-ru/12-blagodarnosti-ssylki.md], [188-ai-опосредованное-представительство-для-недопредст|02-anthropic-vacancies/188-ai-опосредованное-представительство-для-недопредст.md], [11-dhlab-documents|lorenzo-agent/11-dhlab-documents.md]
 * [01-интегральный-анализ-профиля-svend4|02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md] → [00-question-innovations-transitions|nautilus/innovation-transitions/00-question-innovations-transitions.md], [CONCEPTS|CONCEPTS.md], [TABLES|TABLES.md], [ACTION_ITEMS|ACTION_ITEMS.md]
-* [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md] → [SUMMARIES|SUMMARIES.md], [67-о-проекте|02-anthropic-vacancies/67-о-проекте.md], [TIMELINE|TIMELINE.md], [22-glossary|nautilus/npp-v1-1/22-glossary.md]
+* [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md] → [67-о-проекте|02-anthropic-vacancies/67-о-проекте.md], [TIMELINE|TIMELINE.md], [22-glossary|nautilus/npp-v1-1/22-glossary.md], [133-обратная-связь|02-anthropic-vacancies/133-обратная-связь.md]
 * [03-portal-protocol-md|02-anthropic-vacancies/03-portal-protocol-md.md] → [73-portal-protocol-md-v1-1|02-anthropic-vacancies/73-portal-protocol-md-v1-1.md], [152-ai-coordinated-infrastructure-for-distributed-expe|02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md], [35-passports-info1-md|02-anthropic-vacancies/35-passports-info1-md.md], [105-review-methodology-md|02-anthropic-vacancies/105-review-methodology-md.md]
 * [04-abstract|02-anthropic-vacancies/04-abstract.md] → [74-abstract|02-anthropic-vacancies/74-abstract.md], [00-abstract-status|nautilus/npp-v1-1/00-abstract-status.md], [05-0-status-of-this-document|02-anthropic-vacancies/05-0-status-of-this-document.md], [70-зачем-две-версии-параллельно|02-anthropic-vacancies/70-зачем-две-версии-параллельно.md]
 * [05-0-status-of-this-document|02-anthropic-vacancies/05-0-status-of-this-document.md] → [75-0-status-of-this-document|02-anthropic-vacancies/75-0-status-of-this-document.md], [42-author-contact|02-anthropic-vacancies/42-author-contact.md], [25-13-reference-implementation|02-anthropic-vacancies/25-13-reference-implementation.md], [24-12-versioning-policy|02-anthropic-vacancies/24-12-versioning-policy.md]

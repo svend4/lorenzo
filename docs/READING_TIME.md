@@ -1,7 +1,7 @@
 # Время чтения документов
 
 <!-- summary -->
-> Документов: **2465** | Слов: **1,855,226** | Время базы: **174ч 35мин**
+> Документов: **2465** | Слов: **1,855,392** | Время базы: **174ч 36мин**
 
 <!-- tags: quality, reading-time, metrics, documentation -->
 
@@ -12,7 +12,7 @@
 
 _Обновлено: 2026-05-12_
 
-Документов: **2465** | Слов всего: **1,855,226** | Время чтения всей базы: **174ч 35мин**
+Документов: **2465** | Слов всего: **1,855,392** | Время чтения всей базы: **174ч 36мин**
 
 ## Все документы
 
@@ -49,8 +49,8 @@ _Обновлено: 2026-05-12_
 | [memnet](05-habr-projects/memory/memnet.md) | ~34 мин | 6761 | 📕 Очень долго |
 | [memnet](obsidian/05-habr-projects/memory/memnet.md) | ~33 мин | 6693 | 📕 Очень долго |
 | [CONCEPTS](obsidian/CONCEPTS.md) | ~27 мин | 5388 | 📕 Очень долго |
-| [SCRIPTS_CATALOG](SCRIPTS_CATALOG.md) | ~26 мин | 5652 | 📕 Очень долго |
-| [SCRIPTS_CATALOG](obsidian/SCRIPTS_CATALOG.md) | ~26 мин | 5637 | 📕 Очень долго |
+| [SCRIPTS_CATALOG](SCRIPTS_CATALOG.md) | ~26 мин | 5647 | 📕 Очень долго |
+| [SCRIPTS_CATALOG](obsidian/SCRIPTS_CATALOG.md) | ~26 мин | 5635 | 📕 Очень долго |
 | [SITEMAP](obsidian/SITEMAP.md) | ~25 мин | 5873 | 📕 Очень долго |
 | [LINKS](LINKS.md) | ~25 мин | 88 | 📕 Очень долго |
 | [LINKS](obsidian/LINKS.md) | ~25 мин | 59 | 📕 Очень долго |
@@ -134,7 +134,7 @@ _Обновлено: 2026-05-12_
 | [METHODOLOGY](obsidian/METHODOLOGY.md) | ~8 мин | 553 | 📙 Долго |
 | [04-ensembles-overview](01-svyazi/04-ensembles-overview.md) | ~8 мин | 1238 | 📙 Долго |
 | [GITHUB_ISSUES](obsidian/GITHUB_ISSUES.md) | ~8 мин | 1487 | 📙 Долго |
-| [QUESTIONS](obsidian/QUESTIONS.md) | ~8 мин | 1707 | 📙 Долго |
+| [QUESTIONS](obsidian/QUESTIONS.md) | ~8 мин | 1718 | 📙 Долго |
 | [08-export](obsidian/processing-guide/08-export.md) | ~8 мин | 465 | 📙 Долго |
 | [08-export](processing-guide/08-export.md) | ~8 мин | 475 | 📙 Долго |
 | [09-automation](processing-guide/09-automation.md) | ~7 мин | 426 | 📘 Средне |
@@ -151,8 +151,10 @@ _Обновлено: 2026-05-12_
 | [03-карта-найденных-проектов-и-паттернов](04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | ~7 мин | 1601 | 📘 Средне |
 | [207-приложение-c-образцы-случаев-использовани](obsidian/02-anthropic-vacancies/207-приложение-c-образцы-случаев-использования-в-детал.md) | ~7 мин | 1110 | 📘 Средне |
 | [03-component-catalog](01-svyazi/03-component-catalog.md) | ~7 мин | 1565 | 📘 Средне |
+| [DUPLICATES](DUPLICATES.md) | ~7 мин | 780 | 📘 Средне |
 | [SENTINEL](SENTINEL.md) | ~7 мин | 209 | 📘 Средне |
 | [03-карта-найденных-проектов-и-паттернов](obsidian/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md) | ~7 мин | 1565 | 📘 Средне |
+| [DUPLICATES](obsidian/DUPLICATES.md) | ~7 мин | 786 | 📘 Средне |
 | [PROTOTYPE_SPEC](obsidian/PROTOTYPE_SPEC.md) | ~7 мин | 970 | 📘 Средне |
 | [SENTINEL](obsidian/SENTINEL.md) | ~7 мин | 194 | 📘 Средне |
 | [173-4-ten-domains-of-application](02-anthropic-vacancies/173-4-ten-domains-of-application.md) | ~7 мин | 1697 | 📘 Средне |
@@ -194,11 +196,9 @@ _Обновлено: 2026-05-12_
 | [303-приложение-визуализация-позиции-в-серии](obsidian/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md) | ~5 мин | 769 | 📘 Средне |
 | [11-difficulties-and-recommendations](obsidian/lorenzo-agent/specification/11-difficulties-and-recommendations.md) | ~5 мин | 1304 | 📘 Средне |
 | [13-contacts](01-svyazi/13-contacts.md) | ~5 мин | 1164 | 📘 Средне |
-| [DUPLICATES](DUPLICATES.md) | ~5 мин | 570 | 📘 Средне |
 | [04-enrichment](meta-scripting/04-enrichment.md) | ~5 мин | 295 | 📘 Средне |
 | [06-riski](nautilus/professional-colleague-agents-ru/06-riski.md) | ~5 мин | 1107 | 📘 Средне |
 | [237-6-риски-специфичные-для-этой-категории](obsidian/02-anthropic-vacancies/237-6-риски-специфичные-для-этой-категории.md) | ~5 мин | 1084 | 📘 Средне |
-| [DUPLICATES](obsidian/DUPLICATES.md) | ~5 мин | 576 | 📘 Средне |
 | [template-of-templates](templates/template-of-templates.md) | ~5 мин | 189 | 📘 Средне |
 | [186-appendix-c-sample-use-cases-in-detail](02-anthropic-vacancies/186-appendix-c-sample-use-cases-in-detail.md) | ~5 мин | 1175 | 📘 Средне |
 | [256-3-what-makes-a-composite-skills-agent](02-anthropic-vacancies/256-3-what-makes-a-composite-skills-agent.md) | ~5 мин | 1299 | 📘 Средне |
@@ -267,7 +267,7 @@ _Обновлено: 2026-05-12_
 | [288-appendix-position-in-series-visualization](obsidian/02-anthropic-vacancies/288-appendix-position-in-series-visualization.md) | ~5 мин | 1063 | 📘 Средне |
 | [05-synthesis](obsidian/meta-scripting/05-synthesis.md) | ~5 мин | 334 | 📘 Средне |
 | [263-10-risks-specific-to-composite-architectu](02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) | ~5 мин | 1127 | 📘 Средне |
-| [SEE_ALSO](SEE_ALSO.md) | ~4 мин | 1186 | 📘 Средне |
+| [SEE_ALSO](SEE_ALSO.md) | ~4 мин | 1190 | 📘 Средне |
 | [VERSION_DIFF](VERSION_DIFF.md) | ~4 мин | 833 | 📘 Средне |
 | [239-8-пилотное-предложение-sgb-колega-адвокат](obsidian/02-anthropic-vacancies/239-8-пилотное-предложение-sgb-колega-адвокат.md) | ~4 мин | 910 | 📘 Средне |
 | [67-о-проекте](obsidian/02-anthropic-vacancies/67-о-проекте.md) | ~5 мин | 660 | 📘 Средне |
@@ -297,7 +297,6 @@ _Обновлено: 2026-05-12_
 | [254-1-why-the-binary-view-is-incomplete](02-anthropic-vacancies/254-1-why-the-binary-view-is-incomplete.md) | ~4 мин | 1029 | 📘 Средне |
 | [329-3-что-ingit-обеспечивает-чего-cowork-не-х](02-anthropic-vacancies/329-3-что-ingit-обеспечивает-чего-cowork-не-хватает.md) | ~4 мин | 765 | 📘 Средне |
 | [11-интеграционный-контракт-который-стоит-зафи](04-ai-collaborations/11-интеграционный-контракт-который-стоит-зафиксироват.md) | ~4 мин | 933 | 📘 Средне |
-| [REGISTRY](REGISTRY.md) | ~4 мин | 941 | 📘 Средне |
 | [257-4-the-sub-agent-registry](obsidian/02-anthropic-vacancies/257-4-the-sub-agent-registry.md) | ~4 мин | 1046 | 📘 Средне |
 | [259-6-coordination-and-disagreement-resolutio](obsidian/02-anthropic-vacancies/259-6-coordination-and-disagreement-resolution.md) | ~4 мин | 1028 | 📘 Средне |
 | [263-10-risks-specific-to-composite-architectu](obsidian/02-anthropic-vacancies/263-10-risks-specific-to-composite-architectures.md) | ~4 мин | 1034 | 📘 Средне |
@@ -312,6 +311,7 @@ _Обновлено: 2026-05-12_
 | [236-5-экономика-тиражирования-по-профессии](02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md) | ~4 мин | 826 | 📘 Средне |
 | [06-безопасность-приватность-и-бюджетный-роути](04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md) | ~4 мин | 883 | 📘 Средне |
 | [09-архитектурные-зазоры-которые-важнее-новых-](04-ai-collaborations/09-архитектурные-зазоры-которые-важнее-новых-инструме.md) | ~4 мин | 915 | 📘 Средне |
+| [REGISTRY](REGISTRY.md) | ~4 мин | 915 | 📘 Средне |
 | [13-reprioritization](anthropic-vacancies/hermes-comparison/13-reprioritization.md) | ~4 мин | 966 | 📘 Средне |
 | [08-pilot-sgb-kolega](nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) | ~4 мин | 853 | 📘 Средне |
 | [12-zaklyuchenie](nautilus/professional-colleague-agents-ru/12-zaklyuchenie.md) | ~4 мин | 531 | 📘 Средне |
@@ -338,7 +338,6 @@ _Обновлено: 2026-05-12_
 | [234-3-эмпирический-кейс-обучай](02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) | ~4 мин | 778 | 📘 Средне |
 | [328-2-что-cowork-обеспечивает-что-ingit-не-ну](02-anthropic-vacancies/328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md) | ~4 мин | 816 | 📘 Средне |
 | [05-benchmarks](03-technology-combinations/05-benchmarks.md) | ~4 мин | 852 | 📘 Средне |
-| [CONTRADICTIONS](CONTRADICTIONS.md) | ~4 мин | 962 | 📘 Средне |
 | [03-what-makes-csa](nautilus/composite-skills-agents/03-what-makes-csa.md) | ~4 мин | 954 | 📘 Средне |
 | [03-chto-ingit-obespechivaet](nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md) | ~4 мин | 814 | 📘 Средне |
 | [04-proposed-infrastructure](nautilus/okwf-concept/04-proposed-infrastructure.md) | ~4 мин | 975 | 📘 Средне |
@@ -349,7 +348,6 @@ _Обновлено: 2026-05-12_
 | [235-4-архитектура-профессиональных-коллег-аге](obsidian/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md) | ~4 мин | 790 | 📘 Средне |
 | [258-5-configuration-how-principals-build-thei](obsidian/02-anthropic-vacancies/258-5-configuration-how-principals-build-their-ensembl.md) | ~4 мин | 973 | 📘 Средне |
 | [68-about](obsidian/02-anthropic-vacancies/68-about.md) | ~4 мин | 702 | 📘 Средне |
-| [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) | ~4 мин | 969 | 📘 Средне |
 | [13-reprioritization](obsidian/anthropic-vacancies/hermes-comparison/13-reprioritization.md) | ~4 мин | 910 | 📘 Средне |
 | [08-pilot-sgb-kolega](obsidian/nautilus/professional-colleague-agents-ru/08-pilot-sgb-kolega.md) | ~4 мин | 804 | 📘 Средне |
 | [119-appendix-b-примеры-расхождений-и-их-разре](02-anthropic-vacancies/119-appendix-b-примеры-расхождений-и-их-разрешения.md) | ~4 мин | 269 | 📘 Средне |
@@ -381,7 +379,6 @@ _Обновлено: 2026-05-12_
 | [170-1-the-cinderella-syndrome-why-quality-sta](obsidian/02-anthropic-vacancies/170-1-the-cinderella-syndrome-why-quality-stays-invisi.md) | ~4 мин | 901 | 📘 Средне |
 | [234-3-эмпирический-кейс-обучай](obsidian/02-anthropic-vacancies/234-3-эмпирический-кейс-обучай.md) | ~4 мин | 740 | 📘 Средне |
 | [05-benchmarks](obsidian/03-technology-combinations/05-benchmarks.md) | ~4 мин | 822 | 📘 Средне |
-| [REGISTRY](obsidian/REGISTRY.md) | ~4 мин | 801 | 📘 Средне |
 | [08-seven-domains](obsidian/nautilus/composite-skills-agents/08-seven-domains.md) | ~4 мин | 927 | 📘 Средне |
 | [03-chto-ingit-obespechivaet](obsidian/nautilus/ingit-cowork-ru/03-chto-ingit-obespechivaet.md) | ~4 мин | 760 | 📘 Средне |
 | [04-proposed-infrastructure](obsidian/nautilus/okwf-concept/04-proposed-infrastructure.md) | ~4 мин | 912 | 📘 Средне |
@@ -401,6 +398,7 @@ _Обновлено: 2026-05-12_
 | [191-1-синдром-золушки-почему-качество-остаётс](obsidian/02-anthropic-vacancies/191-1-синдром-золушки-почему-качество-остаётся-невидим.md) | ~4 мин | 720 | 📘 Средне |
 | [193-3-что-делает-агента-представительским](obsidian/02-anthropic-vacancies/193-3-что-делает-агента-представительским.md) | ~4 мин | 730 | 📘 Средне |
 | [311-3-what-ingit-provides-that-cowork-lacks](obsidian/02-anthropic-vacancies/311-3-what-ingit-provides-that-cowork-lacks.md) | ~4 мин | 881 | 📘 Средне |
+| [CONTRADICTIONS](obsidian/CONTRADICTIONS.md) | ~4 мин | 890 | 📘 Средне |
 | [SOURCE_MAP](obsidian/SOURCE_MAP.md) | ~4 мин | 132 | 📘 Средне |
 | [03-what-makes-csa](obsidian/nautilus/composite-skills-agents/03-what-makes-csa.md) | ~4 мин | 899 | 📘 Средне |
 | [142-5-pattern-library-as-bridge-between-trian](02-anthropic-vacancies/142-5-pattern-library-as-bridge-between-triangles.md) | ~3 мин | 855 | 📘 Средне |
@@ -409,6 +407,7 @@ _Обновлено: 2026-05-12_
 | [240-9-связь-с-другими-типами-агентов](02-anthropic-vacancies/240-9-связь-с-другими-типами-агентов.md) | ~3 мин | 700 | 📘 Средне |
 | [295-конкретный-случай-перед-нами](02-anthropic-vacancies/295-конкретный-случай-перед-нами.md) | ~3 мин | 714 | 📘 Средне |
 | [318-10-strategic-positioning](02-anthropic-vacancies/318-10-strategic-positioning.md) | ~3 мин | 855 | 📘 Средне |
+| [CONTRADICTIONS](CONTRADICTIONS.md) | ~4 мин | 883 | 📘 Средне |
 | [03-ingit-provides](nautilus/ingit-cowork-en/03-ingit-provides.md) | ~4 мин | 872 | 📘 Средне |
 | [13-rest-api](nautilus/npp-v1-1/13-rest-api.md) | ~4 мин | 355 | 📘 Средне |
 | [07-oblasti-primeneniya](nautilus/professional-colleague-agents-ru/07-oblasti-primeneniya.md) | ~4 мин | 727 | 📘 Средне |
@@ -419,6 +418,7 @@ _Обновлено: 2026-05-12_
 | [72-расписание-фазы-3](obsidian/02-anthropic-vacancies/72-расписание-фазы-3.md) | ~3 мин | 724 | 📘 Средне |
 | [12-дорожная-карта-прототипа-следующей-итераци](obsidian/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md) | ~4 мин | 746 | 📘 Средне |
 | [NARRATIVE](obsidian/NARRATIVE.md) | ~3 мин | 824 | 📘 Средне |
+| [REGISTRY](obsidian/REGISTRY.md) | ~4 мин | 774 | 📘 Средне |
 | [02-double-triangle-architecture](obsidian/nautilus/double-triangle-architecture/02-double-triangle-architecture.md) | ~4 мин | 620 | 📘 Средне |
 | [01-sindrom-zolushki](obsidian/nautilus/representative-agent-layer-ru/01-sindrom-zolushki.md) | ~3 мин | 703 | 📘 Средне |
 | [13-appendix-b-examples](obsidian/nautilus/review-methodology/13-appendix-b-examples.md) | ~3 мин | 201 | 📘 Средне |
@@ -466,7 +466,6 @@ _Обновлено: 2026-05-12_
 | [336-10-стратегическое-позиционирование](02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) | ~3 мин | 659 | 📘 Средне |
 | [01-executive-summary](04-ai-collaborations/01-executive-summary.md) | ~3 мин | 696 | 📘 Средне |
 | [NARRATIVE](NARRATIVE.md) | ~3 мин | 775 | 📘 Средне |
-| [TASKS_INDEX](TASKS_INDEX.md) | ~3 мин | 816 | 📘 Средне |
 | [05-minuses-as-business](anthropic-vacancies/mmorpg-for-programmers/05-minuses-as-business.md) | ~3 мин | 701 | 📘 Средне |
 | [04-sub-agent-registry](nautilus/composite-skills-agents/04-sub-agent-registry.md) | ~3 мин | 802 | 📘 Средне |
 | [06-coordination-disagreement](nautilus/composite-skills-agents/06-coordination-disagreement.md) | ~3 мин | 795 | 📘 Средне |
@@ -509,7 +508,6 @@ _Обновлено: 2026-05-12_
 | [223-12-closing](obsidian/02-anthropic-vacancies/223-12-closing.md) | ~3 мин | 761 | 📘 Средне |
 | [262-9-integration-with-okwf-infrastructure](obsidian/02-anthropic-vacancies/262-9-integration-with-okwf-infrastructure.md) | ~3 мин | 765 | 📘 Средне |
 | [336-10-стратегическое-позиционирование](obsidian/02-anthropic-vacancies/336-10-стратегическое-позиционирование.md) | ~3 мин | 642 | 📘 Средне |
-| [TASKS_INDEX](obsidian/TASKS_INDEX.md) | ~3 мин | 796 | 📘 Средне |
 | [WORD_FREQ](obsidian/WORD_FREQ.md) | ~3 мин | 820 | 📘 Средне |
 | [02-minuses-1-10](obsidian/lorenzo-agent/operationalized/02-minuses-1-10.md) | ~3 мин | 726 | 📘 Средне |
 | [02-twenty-one-teachers-pattern](obsidian/nautilus/composite-skills-agents/02-twenty-one-teachers-pattern.md) | ~3 мин | 758 | 📘 Средне |
@@ -527,6 +525,7 @@ _Обновлено: 2026-05-12_
 | [319-acknowledgments](02-anthropic-vacancies/319-acknowledgments.md) | ~3 мин | 739 | 📘 Средне |
 | [332-6-уточнённый-объём-ingit-с-учётом-cowork](02-anthropic-vacancies/332-6-уточнённый-объём-ingit-с-учётом-cowork.md) | ~3 мин | 627 | 📘 Средне |
 | [RISK_REGISTER](RISK_REGISTER.md) | ~3 мин | 648 | 📘 Средне |
+| [TASKS_INDEX](TASKS_INDEX.md) | ~3 мин | 770 | 📘 Средне |
 | [authors-by-name](glossary/authors-by-name.md) | ~3 мин | 713 | 📘 Средне |
 | [05-configuration-ensembles](nautilus/composite-skills-agents/05-configuration-ensembles.md) | ~3 мин | 743 | 📘 Средне |
 | [09-okwf-integration](nautilus/composite-skills-agents/09-okwf-integration.md) | ~3 мин | 735 | 📘 Средне |
@@ -544,6 +543,7 @@ _Обновлено: 2026-05-12_
 | [334-8-импликации-для-nautilus-и-okwf](obsidian/02-anthropic-vacancies/334-8-импликации-для-nautilus-и-okwf.md) | ~3 мин | 632 | 📘 Средне |
 | [88-13-rest-api-contract-normative-for-portals](obsidian/02-anthropic-vacancies/88-13-rest-api-contract-normative-for-portals.md) | ~3 мин | 235 | 📘 Средне |
 | [01-executive-summary](obsidian/04-ai-collaborations/01-executive-summary.md) | ~3 мин | 661 | 📘 Средне |
+| [TASKS_INDEX](obsidian/TASKS_INDEX.md) | ~3 мин | 749 | 📘 Средне |
 | [04-sub-agent-registry](obsidian/nautilus/composite-skills-agents/04-sub-agent-registry.md) | ~3 мин | 748 | 📘 Средне |
 | [06-coordination-disagreement](obsidian/nautilus/composite-skills-agents/06-coordination-disagreement.md) | ~3 мин | 744 | 📘 Средне |
 | [10-risks](obsidian/nautilus/composite-skills-agents/10-risks.md) | ~3 мин | 732 | 📘 Средне |
@@ -1775,7 +1775,7 @@ _Обновлено: 2026-05-12_
 | [01-synthesis](obsidian/05-habr-projects/01-synthesis.md) | ~1 мин | 268 | 📗 Быстро |
 | [COMPONENT_MATRIX](obsidian/COMPONENT_MATRIX.md) | ~1 мин | 288 | 📗 Быстро |
 | [PRECISION_EVAL](obsidian/PRECISION_EVAL.md) | ~1 мин | 301 | 📗 Быстро |
-| [SEE_ALSO](obsidian/SEE_ALSO.md) | ~1 мин | 409 | 📗 Быстро |
+| [SEE_ALSO](obsidian/SEE_ALSO.md) | ~1 мин | 410 | 📗 Быстро |
 | [README](obsidian/ai-collaborations/channels/README.md) | ~1 мин | 279 | 📗 Быстро |
 | [06-metrics-tree](obsidian/ai-collaborations/continuation/06-metrics-tree.md) | ~1 мин | 276 | 📗 Быстро |
 | [09-do-not-glue](obsidian/ai-collaborations/continuation/09-do-not-glue.md) | ~1 мин | 283 | 📗 Быстро |
@@ -2318,7 +2318,7 @@ _Обновлено: 2026-05-12_
 | [README](obsidian/nautilus/review-methodology/README.md) | ~1 мин | 148 | 📗 Быстро |
 | [README](obsidian/svyazi-2-0/components/README.md) | ~1 мин | 139 | 📗 Быстро |
 | [README](svyazi-2-0/ensembles/README.md) | ~1 мин | 142 | 📗 Быстро |
-| [ALERTS](ALERTS.md) | ~1 мин | 56 | 📗 Быстро |
+| [ALERTS](ALERTS.md) | ~1 мин | 59 | 📗 Быстро |
 | [AUTHORS](AUTHORS.md) | ~1 мин | 118 | 📗 Быстро |
 | [BACKLINKS](BACKLINKS.md) | ~1 мин | 57 | 📗 Быстро |
 | [BADGES](BADGES.md) | ~1 мин | 66 | 📗 Быстро |
@@ -2329,7 +2329,7 @@ _Обновлено: 2026-05-12_
 | [COVERAGE](COVERAGE.md) | ~1 мин | 85 | 📗 Быстро |
 | [CROSS_SECTION](CROSS_SECTION.md) | ~1 мин | 97 | 📗 Быстро |
 | [DENSITY](DENSITY.md) | ~1 мин | 197 | 📗 Быстро |
-| [DIGEST_AUTO](DIGEST_AUTO.md) | ~1 мин | 180 | 📗 Быстро |
+| [DIGEST_AUTO](DIGEST_AUTO.md) | ~1 мин | 205 | 📗 Быстро |
 | [DIGEST_WEEKLY](DIGEST_WEEKLY.md) | ~1 мин | 105 | 📗 Быстро |
 | [GLOSSARY](GLOSSARY.md) | ~1 мин | 138 | 📗 Быстро |
 | [HEALTH](HEALTH.md) | ~1 мин | 173 | 📗 Быстро |
@@ -2340,7 +2340,7 @@ _Обновлено: 2026-05-12_
 | [SIMILAR](SIMILAR.md) | ~1 мин | 69 | 📗 Быстро |
 | [SKILL_DASHBOARD](SKILL_DASHBOARD.md) | ~1 мин | 102 | 📗 Быстро |
 | [SPELLCHECK](SPELLCHECK.md) | ~1 мин | 81 | 📗 Быстро |
-| [STATS](STATS.md) | ~1 мин | 125 | 📗 Быстро |
+| [STATS](STATS.md) | ~1 мин | 127 | 📗 Быстро |
 | [TAGS](TAGS.md) | ~1 мин | 124 | 📗 Быстро |
 | [VALIDATION](VALIDATION.md) | ~1 мин | 210 | 📗 Быстро |
 | [README](ai-collaborations/README.md) | ~1 мин | 110 | 📗 Быстро |
@@ -2380,7 +2380,7 @@ _Обновлено: 2026-05-12_
 | [DENSITY](obsidian/DENSITY.md) | ~1 мин | 177 | 📗 Быстро |
 | [DEPENDENCY_MAP](obsidian/DEPENDENCY_MAP.md) | ~1 мин | 112 | 📗 Быстро |
 | [DIGEST](obsidian/DIGEST.md) | ~1 мин | 239 | 📗 Быстро |
-| [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) | ~1 мин | 174 | 📗 Быстро |
+| [DIGEST_AUTO](obsidian/DIGEST_AUTO.md) | ~1 мин | 184 | 📗 Быстро |
 | [DIGEST_WEEKLY](obsidian/DIGEST_WEEKLY.md) | ~1 мин | 81 | 📗 Быстро |
 | [ENTITIES](obsidian/ENTITIES.md) | ~1 мин | 238 | 📗 Быстро |
 | [GLOSSARY](obsidian/GLOSSARY.md) | ~1 мин | 109 | 📗 Быстро |
@@ -2392,7 +2392,7 @@ _Обновлено: 2026-05-12_
 | [SENTIMENT](obsidian/SENTIMENT.md) | ~1 мин | 160 | 📗 Быстро |
 | [SIMILAR](obsidian/SIMILAR.md) | ~1 мин | 73 | 📗 Быстро |
 | [SKILL_DASHBOARD](obsidian/SKILL_DASHBOARD.md) | ~1 мин | 90 | 📗 Быстро |
-| [STATS](obsidian/STATS.md) | ~1 мин | 115 | 📗 Быстро |
+| [STATS](obsidian/STATS.md) | ~1 мин | 116 | 📗 Быстро |
 | [TAGS](obsidian/TAGS.md) | ~1 мин | 100 | 📗 Быстро |
 | [VALIDATION](obsidian/VALIDATION.md) | ~1 мин | 216 | 📗 Быстро |
 | [WORD_CLOUD](obsidian/WORD_CLOUD.md) | ~1 мин | 93 | 📗 Быстро |
@@ -2503,3 +2503,14 @@ _Обновлено: 2026-05-12_
 - 📘 Средне: 589 документов
 - 📙 Долго: 61 документов
 - 📕 Очень долго: 58 документов
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READABILITY](READABILITY.md)
+- [SEARCH](SEARCH.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+

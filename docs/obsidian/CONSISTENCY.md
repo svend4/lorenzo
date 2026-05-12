@@ -25,15 +25,15 @@ date: 2026-05-12
 | **local-first** | `local-first` | `localfirst` | 6 |
 | **local-first** | `local-first` | `Local First` | 8 |
 | **agent-memory-mcp** | `agent-memory-mcp` | `agent memory mcp` | 8 |
-| **self-improvement** | `self-improvement` | `self-improve` | 288 |
+| **self-improvement** | `self-improvement` | `self-improve` | 284 |
 | **self-improvement** | `self-improvement` | `selfimprovement` | 2 |
 | **Svyazi 2.0** | `Svyazi 2.0` | `Svyazi-2.0` | 6 |
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 44 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 35 |
 
-**Всего несогласованных написаний: 690**
+**Всего несогласованных написаний: 689**
 
 
 ## Детали по файлам
@@ -162,7 +162,7 @@ date: 2026-05-12
 - `docs/PROTOTYPE_SPEC.md`
 - `docs/TABLES.md`
 - `docs/SPELLCHECK.md`
-- _...и ещё 283_
+- _...и ещё 279_
 
 ### `selfimprovement` → должно быть `self-improvement`
 

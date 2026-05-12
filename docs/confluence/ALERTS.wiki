@@ -35,7 +35,8 @@ _Поддерживается в GitHub Markdown с 2023 года._
 
 ----
 
-_Кто ссылается на этот документ (8):_
+_Кто ссылается на этот документ (9):_
+* [DIGEST_AUTO|DIGEST_AUTO.md]
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
@@ -43,5 +44,5 @@ _Кто ссылается на этот документ (8):_
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
+* _...ещё 1_
 

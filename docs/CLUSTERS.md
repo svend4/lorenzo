@@ -1,10 +1,18 @@
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
+
+---
+
+
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2251, кластеров: 168
+Документов: 2249, кластеров: 166
 
 
-## Кластер 1 — концептов, репозитория, поиска, через (357 файлов)
+## Кластер 1 — концептов, репозитория, поиска, через (356 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -16,7 +24,7 @@
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 347 файлов_
+- _...и ещё 346 файлов_
 
 ## Кластер 2 — turn, view, svyazi, agentfs (101 файлов)
 
@@ -158,7 +166,7 @@
 - `docs/lorenzo-agent/scenarios/01-response.md` — _01-response_
 - _...и ещё 36 файлов_
 
-## Кластер 12 — docs, проблем, anthropic-vacancies, localhost (42 файлов)
+## Кластер 12 — docs, проблем, anthropic-vacancies, localhost (43 файлов)
 
 - `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
 - `docs/COMPARE.md` — _COMPARE_
@@ -170,7 +178,7 @@
 - `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
 - `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
 - `docs/LINKS.md` — _LINKS_
-- _...и ещё 32 файлов_
+- _...и ещё 33 файлов_
 
 ## Кластер 13 — what, document, existing-approximations, layer (39 файлов)
 
@@ -424,4 +432,15 @@
 - `docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` — _236-5-экономика-тиражирования-по-профессии_
 - _...и ещё 6 файлов_
 
-_...и ещё 138 малых кластеров (по 1-2 файла)_
+_...и ещё 136 малых кластеров (по 1-2 файла)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_ORDER](READING_ORDER.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [READING_TIME](READING_TIME.md)
+- [READABILITY](READABILITY.md)
+

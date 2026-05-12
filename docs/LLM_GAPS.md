@@ -1,5 +1,12 @@
 # LLM Gap Analysis — семантические пробелы
 
+<!-- summary -->
+> _Модель: claude-haiku-4-5 · Анализ структуры и связей документации_
+
+---
+
+
+
 _Модель: claude-haiku-4-5 · Анализ структуры и связей документации_
 
 _API недоступен. Запустите с ANTHROPIC_API_KEY._
@@ -16,4 +23,13 @@ _API недоступен. Запустите с ANTHROPIC_API_KEY._
 ---
 
 _Источник: docs/ (первые 60 файлов) + архитектурные документы_
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
 

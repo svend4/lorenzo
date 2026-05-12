@@ -13,14 +13,14 @@ date: 2026-05-12
 <!-- alert-added -->
 
 <!-- summary -->
-> **Файлов с блоком See Also:** 1072
+> **Файлов с блоком See Also:** 1071
 **Проекты:** Svyazi
 
 ---
 
 
 
-**Файлов с блоком See Also:** 1072
+**Файлов с блоком See Also:** 1071
 
 ## Ключевые связи
 
@@ -41,7 +41,7 @@ date: 2026-05-12
 - [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[card-envelope]]
 - [[00-intro]] → [[288-appendix-position-in-series-visualization]], [[12-blagodarnosti-ssylki]], [[188-ai-опосредованное-представительство-для-недопредст]], [[11-dhlab-documents]]
 - [[01-интегральный-анализ-профиля-svend4]] → [[00-question-innovations-transitions]], [[CONCEPTS]], [[TABLES]], [[ACTION_ITEMS]]
-- [[02-общий-план-развития-nautilus-portal-protocol]] → [[SUMMARIES]], [[67-о-проекте]], [[TIMELINE]], [[22-glossary]]
+- [[02-общий-план-развития-nautilus-portal-protocol]] → [[67-о-проекте]], [[TIMELINE]], [[22-glossary]], [[133-обратная-связь]]
 - [[03-portal-protocol-md]] → [[73-portal-protocol-md-v1-1]], [[152-ai-coordinated-infrastructure-for-distributed-expe]], [[35-passports-info1-md]], [[105-review-methodology-md]]
 - [[04-abstract]] → [[74-abstract]], [[00-abstract-status]], [[05-0-status-of-this-document]], [[70-зачем-две-версии-параллельно]]
 - [[05-0-status-of-this-document]] → [[75-0-status-of-this-document]], [[42-author-contact]], [[25-13-reference-implementation]], [[24-12-versioning-policy]]
