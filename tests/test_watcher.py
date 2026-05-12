@@ -654,3 +654,17 @@ def test_watch_polling_oserror_on_init_directly(tmp_path, monkeypatch):
             pass
 
     assert oserror_raised[0], "OSError was never raised in init stat() at line 82"
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 161: cover the `if __name__ == '__main__': main()` block via runpy."""
+    import runpy
+    monkeypatch.setattr("sys.argv", ["improve_watcher.py", "--once"])
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "run_script", lambda s: None)
+    # runpy.run_path executes the file as __main__, covering line 161
+    runpy.run_path(
+        str(ROOT / "scripts" / "improve_watcher.py"),
+        run_name="__main__",
+    )
