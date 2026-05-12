@@ -227,3 +227,145 @@ def test_verdict_returns_string():
     assert isinstance(result, str)
     result2 = mod._verdict(0.5)
     assert isinstance(result2, str)
+
+
+# ── _load_files ───────────────────────────────────────────────────────────────
+
+def test_load_files_with_md_files(tmp_path):
+    content = "agent memory " * 30
+    (tmp_path / "doc1.md").write_text(f"# Title\n\n{content}", encoding="utf-8")
+    (tmp_path / "doc2.md").write_text(f"# Other\n\n{content}", encoding="utf-8")
+    result = mod._load_files(tmp_path)
+    assert len(result) >= 1
+
+
+def test_load_files_skips_skip_files(tmp_path):
+    (tmp_path / "README.md").write_text("# README\n\n" + "word " * 50, encoding="utf-8")
+    result = mod._load_files(tmp_path)
+    assert not any("README.md" in k for k in result)
+
+
+def test_load_files_returns_dict_with_expected_keys(tmp_path):
+    content = "agent memory knowledge " * 20
+    (tmp_path / "doc.md").write_text(f"# Test\n\n{content}", encoding="utf-8")
+    result = mod._load_files(tmp_path)
+    if result:
+        v = next(iter(result.values()))
+        assert "path" in v
+        assert "tokens" in v
+        assert "shingles" in v
+        assert "words" in v
+
+
+# ── _find_duplicates ──────────────────────────────────────────────────────────
+
+def test_find_duplicates_no_duplicates(tmp_path, capsys):
+    content_a = "agent memory " * 30
+    content_b = "graph knowledge " * 30
+    fa = tmp_path / "doc_a.md"
+    fb = tmp_path / "doc_b.md"
+    tok_a = mod._tokens(content_a)
+    tok_b = mod._tokens(content_b)
+    ca = {"path": fa, "tokens": tok_a, "shingles": mod._shingles(tok_a), "words": 60}
+    cb = {"path": fb, "tokens": tok_b, "shingles": mod._shingles(tok_b), "words": 60}
+    pairs = mod._find_duplicates({str(fa): ca}, {str(fb): cb}, threshold=0.9)
+    assert isinstance(pairs, list)
+
+
+def test_find_duplicates_finds_similar(tmp_path, capsys):
+    content = "agent memory knowledge system retrieval " * 20
+    fa = tmp_path / "doc_a.md"
+    fb = tmp_path / "doc_b.md"
+    tok = mod._tokens(content)
+    ca = {"path": fa, "tokens": tok, "shingles": mod._shingles(tok), "words": 100}
+    cb = {"path": fb, "tokens": tok, "shingles": mod._shingles(tok), "words": 100}
+    pairs = mod._find_duplicates({str(fa): ca}, {str(fb): cb}, threshold=0.1)
+    assert len(pairs) >= 1
+    assert pairs[0]["combined"] >= 0.1
+
+
+# ── main() variants ───────────────────────────────────────────────────────────
+
+def test_main_other_dir_not_found(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", False)
+    monkeypatch.setattr(mod, "OTHER_DIR", tmp_path / "nonexistent_other")
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "не найдена" in out or "not found" in out.lower()
+
+
+def test_main_other_dir_with_files(tmp_path, monkeypatch, capsys):
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    other = tmp_path / "other"
+    other.mkdir()
+    content = "agent memory knowledge " * 20
+    (docs / "doc.md").write_text(f"# Doc\n\n{content}", encoding="utf-8")
+    (other / "other.md").write_text(f"# Other\n\ncompletely different topic graph " * 20, encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", docs)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", False)
+    monkeypatch.setattr(mod, "OTHER_DIR", other)
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.3)
+    mod.main()
+    out_file = docs / "DUPLICATE_ACROSS.md"
+    assert out_file.exists()
+
+
+def test_main_other_repo_not_found(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", False)
+    monkeypatch.setattr(mod, "OTHER_DIR", None)
+    monkeypatch.setattr(mod, "OTHER_REPO", tmp_path / "nonexistent_repo")
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "не найден" in out or "not found" in out.lower()
+
+
+def test_main_other_repo_with_docs(tmp_path, monkeypatch, capsys):
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    other_repo = tmp_path / "other_repo"
+    other_repo_docs = other_repo / "docs"
+    other_repo_docs.mkdir(parents=True)
+    content = "agent memory knowledge " * 20
+    (docs / "doc.md").write_text(f"# Doc\n\n{content}", encoding="utf-8")
+    (other_repo_docs / "other.md").write_text(f"# Other\n\nresearch graph system " * 20, encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", docs)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", False)
+    monkeypatch.setattr(mod, "OTHER_DIR", None)
+    monkeypatch.setattr(mod, "OTHER_REPO", other_repo)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.3)
+    mod.main()
+
+
+def test_main_internal_with_pairs(tmp_path, monkeypatch, capsys):
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    sec_a = docs / "sec-a"
+    sec_a.mkdir()
+    sec_b = docs / "sec-b"
+    sec_b.mkdir()
+    content = "agent memory knowledge system retrieval " * 15
+    (sec_a / "doc.md").write_text(f"# Doc A\n\n{content}", encoding="utf-8")
+    (sec_b / "doc.md").write_text(f"# Doc B\n\n{content}", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", docs)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "INTERNAL", True)
+    monkeypatch.setattr(mod, "OTHER_DIR", None)
+    monkeypatch.setattr(mod, "OTHER_REPO", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "THRESHOLD", 0.1)
+    mod.main()
+    out_file = docs / "DUPLICATE_ACROSS.md"
+    assert out_file.exists()
