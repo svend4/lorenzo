@@ -47,9 +47,10 @@
 | Round 31 | ✅ Завершён | 4 | DBRM медицина, Cognitive Memory SQLite, LLM+Terraform DevOps, XAI mechanistic | `round-31/` |
 | Round 32 | ✅ Завершён | 4 | Enterprise RAG (МТС), vLLM inference opt, FinPDF pipeline, Авито VLM | `round-32/` |
 | Round 33 | ✅ Завершён | 4 | AI code agents v2, LLM data engineering, суверенный AI, red-teaming | `round-33/` |
-| Round 34 | 🔜 Следующий | — | LLM DevSecOps, Multimodal doc v2, LLM evaluation, Edge AI | — |
+| Round 34 | ✅ Завершён | 4 | LLM DevSecOps, Multimodal doc v2, LLM evaluation, Edge AI | `round-34/` |
+| Round 35 | 🔜 Следующий | — | LLM телеком, персонализация, AI образование v2, agent planning | — |
 
-**Итого: 136 проектов, 70+ авторов**
+**Итого: 140 проектов, 72+ авторов**
 
 ## Шаблон раунда
 
