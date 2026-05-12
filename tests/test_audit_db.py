@@ -136,3 +136,64 @@ def test_main_top_tools_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "DB_PATH", claude_dir / "audit.sqlite")
     monkeypatch.setattr("sys.argv", ["prog", "--top-tools", "3"])
     mod.main()  # must not raise
+
+
+def _setup_audit(tmp_path, monkeypatch):
+    claude_dir = tmp_path / ".claude"
+    claude_dir.mkdir()
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CLAUDE_DIR", claude_dir)
+    monkeypatch.setattr(mod, "DB_PATH", claude_dir / "audit.sqlite")
+    return claude_dir
+
+
+def test_main_rebuild_no_crash(tmp_path, monkeypatch):
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--rebuild"])
+    result = mod.main()
+    assert result == 0
+
+
+def test_main_query_no_crash(tmp_path, monkeypatch):
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "SELECT 1"])
+    mod.main()
+
+
+def test_main_slow_calls_no_crash(tmp_path, monkeypatch):
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--slow-calls", "50"])
+    mod.main()
+
+
+def test_main_recent_no_crash(tmp_path, monkeypatch):
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--recent", "5"])
+    mod.main()
+
+
+def test_main_workflow_stats_no_crash(tmp_path, monkeypatch):
+    _setup_audit(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--workflow-stats"])
+    mod.main()
+
+
+def test_rebuild_with_mcp_log(tmp_path, monkeypatch):
+    import json as _json
+    claude_dir = _setup_audit(tmp_path, monkeypatch)
+    mcp_log = claude_dir / "mcp_calls.jsonl"
+    mcp_log.write_text(
+        _json.dumps({"ts": "2026-01-01T10:00:00", "server": "test",
+                     "tool": "search", "args": {}, "duration_ms": 50, "status": "ok"}) + "\n",
+        encoding="utf-8"
+    )
+    monkeypatch.setattr("sys.argv", ["prog", "--rebuild"])
+    mod.main()
+
+
+def test_get_db_creates_db(tmp_path, monkeypatch):
+    _setup_audit(tmp_path, monkeypatch)
+    conn = mod.get_db()
+    conn.close()
+    claude_dir = tmp_path / ".claude"
+    assert (claude_dir / "audit.sqlite").exists()

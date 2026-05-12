@@ -152,3 +152,74 @@ def test_main_with_subdirs(tmp_path, monkeypatch):
     (sec / "doc.md").write_text("# AgentFS\n\nAgent memory architecture search.", encoding="utf-8")
     mod.main()
     assert (tmp_path / "CROSS_SECTION.md").exists()
+
+
+def test_tokenize_returns_list():
+    result = mod._tokenize("Hello world agent memory system")
+    assert isinstance(result, list)
+
+
+def test_tokenize_removes_stopwords():
+    result = mod._tokenize("это и в на для agent memory")
+    # Short words and stopwords should be removed
+    assert all(len(t) >= 4 for t in result)
+
+
+def test_build_section_vectors_with_dirs(tmp_path, monkeypatch):
+    sec = tmp_path / "section-a"
+    sec.mkdir()
+    (sec / "doc.md").write_text("# Title\n\nAgent memory architecture search.", encoding="utf-8")
+    result = mod._build_section_vectors(tmp_path)
+    assert isinstance(result, dict)
+    assert "section-a" in result
+
+
+def test_tfidf_returns_dict():
+    from collections import Counter
+    vectors = {
+        "sec-a": Counter({"agent": 5, "memory": 3}),
+        "sec-b": Counter({"agent": 2, "search": 4}),
+    }
+    result = mod._tfidf(vectors)
+    assert "sec-a" in result
+    assert "sec-b" in result
+
+
+def test_cosine_same_vectors():
+    v = {"agent": 1.0, "memory": 2.0}
+    result = mod._cosine(v, v)
+    assert abs(result - 1.0) < 0.01
+
+
+def test_cosine_disjoint_vectors():
+    a = {"agent": 1.0}
+    b = {"memory": 1.0}
+    result = mod._cosine(a, b)
+    assert result == 0.0
+
+
+def test_cross_concepts_returns_list():
+    tfidf = {
+        "sec-a": {"agent": 0.5, "memory": 0.3},
+        "sec-b": {"agent": 0.4, "search": 0.2},
+    }
+    result = mod._cross_concepts(tfidf, top=5, min_secs=2)
+    assert isinstance(result, list)
+    # "agent" appears in both sections
+    terms = [r["term"] for r in result]
+    assert "agent" in terms
+
+
+def test_main_two_sections(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    for name in ("section-a", "section-b"):
+        sec = tmp_path / name
+        sec.mkdir()
+        (sec / "doc.md").write_text(
+            f"# {name}\n\nAgent memory architecture search knowledge.",
+            encoding="utf-8"
+        )
+    mod.main()
+    text = (tmp_path / "CROSS_SECTION.md").read_text(encoding="utf-8")
+    assert "section" in text.lower() or "#" in text

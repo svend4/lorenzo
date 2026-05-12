@@ -154,3 +154,42 @@ def test_main_action_items_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "ACTION_ITEMS.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+def test_extract_items_returns_list(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nTODO: implement this feature.\n", encoding="utf-8")
+    result = mod.extract_items(f.read_text(encoding="utf-8"), f)
+    assert isinstance(result, list)
+
+
+def test_extract_items_finds_todo(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    text = "# Title\n\nTODO: write unit tests for all modules.\n"
+    f.write_text(text, encoding="utf-8")
+    result = mod.extract_items(text, f)
+    todos = [i for i in result if i["kind"] == "todo"]
+    assert len(todos) > 0
+
+
+def test_extract_items_filters_short(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    text = "# Title\n\nTODO: fix.\n"
+    f.write_text(text, encoding="utf-8")
+    result = mod.extract_items(text, f)
+    # Short items (< 10 chars) should be filtered
+    for item in result:
+        assert len(item["text"]) >= 10
+
+
+def test_main_with_todos(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    content = "# Title\n\n" + "word " * 20 + "\n\nTODO: implement the main feature module.\n"
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "ACTION_ITEMS.md").read_text(encoding="utf-8")
+    assert "ACTION_ITEMS" in text or "Action" in text or "задач" in text.lower() or "#" in text

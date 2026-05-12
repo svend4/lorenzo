@@ -195,3 +195,79 @@ def test_main_broken_links_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "BROKEN_LINKS.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+def test_find_closest_file_found(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    (tmp_path / "target.md").write_text("# Target\n\nContent.", encoding="utf-8")
+    result = mod._find_closest_file("target.md")
+    assert result is not None
+    assert result.name == "target.md"
+
+
+def test_find_closest_file_not_found(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    result = mod._find_closest_file("nonexistent.md")
+    assert result is None
+
+
+def test_try_fix_link_with_anchor(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    (tmp_path / "real.md").write_text("# Real\n\nContent.", encoding="utf-8")
+    src = tmp_path / "source.md"
+    result = mod._try_fix_link(src, "real.md#section")
+    # Either returns a fix or None — just should not crash
+    assert result is None or isinstance(result, str)
+
+
+def test_fix_broken_links_empty_list(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nContent.", encoding="utf-8")
+    result = mod.fix_broken_links(f, [])
+    assert result == 0
+
+
+def test_fix_broken_links_dry_run(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    f = tmp_path / "source.md"
+    f.write_text("# Title\n\nSee [link](missing.md).", encoding="utf-8")
+    broken = [{"file": "source.md", "text": "link", "target": "missing.md",
+               "issue": "файл не существует"}]
+    result = mod.fix_broken_links(f, broken)
+    assert isinstance(result, int)
+
+
+def test_check_links_external_link_not_broken(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nSee [link](https://example.com).", encoding="utf-8")
+    broken, errors = mod.check_links(f, {})
+    assert all(b["target"] != "https://example.com" for b in broken)
+
+
+def test_check_links_broken_internal(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\nSee [link](missing.md).", encoding="utf-8")
+    broken, errors = mod.check_links(f, {})
+    assert len(broken) > 0
+    assert broken[0]["issue"] == "файл не существует"
+
+
+def test_build_anchor_map_with_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "SECTION", "")
+    f = tmp_path / "doc.md"
+    f.write_text("# Title\n\n## Section One\n\n## Section One\n", encoding="utf-8")
+    result = mod.build_anchor_map()
+    assert str(f) in result
+    anchors = result[str(f)]
+    assert any("section-one" in a for a in anchors)
+
+
+def test_safe_exists_returns_false_for_missing():
+    result = mod._safe_exists(Path("/nonexistent/path/that/does/not/exist.md"))
+    assert result is False

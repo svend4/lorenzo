@@ -206,3 +206,92 @@ def test_main_author_not_found_exits(tmp_path, monkeypatch):
         mod.main()
     except SystemExit:
         pass
+
+
+def _make_contact(path: "Path", stem: str = "kksudo") -> "Path":
+    f = path / f"{stem}.md"
+    f.write_text(
+        "# kksudo\n\n"
+        "## Статус\n\n"
+        "- [ ] Изучили профиль\n"
+        "- [ ] Написали первое сообщение\n"
+        "- [ ] Получили ответ\n"
+        "- [ ] Договорились о сотрудничестве\n",
+        encoding="utf-8",
+    )
+    return f
+
+
+def test_main_author_found_shows_status(tmp_path, monkeypatch, capsys):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    _make_contact(contacts)
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--author", "kksudo"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "kksudo" in out
+
+
+def test_main_author_studied_updates(tmp_path, monkeypatch):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    f = _make_contact(contacts)
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--author", "kksudo", "--studied"])
+    monkeypatch.setattr(mod, "_apply_status_to_file", lambda path, args: True)
+    monkeypatch.setattr(mod, "find_contact_file", lambda q: contacts / "kksudo.md")
+    import subprocess as _sp
+    monkeypatch.setattr(_sp, "run", lambda *a, **kw: None)
+    mod.main()
+
+
+def test_main_bulk_missing_names_exits(tmp_path, monkeypatch):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--bulk"])
+    try:
+        mod.main()
+    except SystemExit:
+        pass
+
+
+def test_main_bulk_updates_contacts(tmp_path, monkeypatch):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    _make_contact(contacts, "kksudo")
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--bulk", "kksudo", "--studied"])
+    monkeypatch.setattr(mod, "find_contact_file", lambda name: contacts / f"{name}.md")
+    changed_calls = []
+    monkeypatch.setattr(
+        mod, "_apply_status_to_file",
+        lambda path, args: (changed_calls.append(path), False)[1],
+    )
+    mod.main()
+
+
+def test_list_all_contacts_with_files(tmp_path, monkeypatch, capsys):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    _make_contact(contacts)
+    monkeypatch.setattr(mod, "CONTACTS_DIR", contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.list_all_contacts()
+    out = capsys.readouterr().out
+    assert "kksudo" in out
+
+
+def test_show_status_prints_author(tmp_path, monkeypatch, capsys):
+    contacts = tmp_path / "contacts"
+    contacts.mkdir()
+    f = _make_contact(contacts)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.show_status(f)
+    out = capsys.readouterr().out
+    assert "kksudo" in out

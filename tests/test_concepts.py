@@ -165,3 +165,46 @@ def test_main_concepts_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "CONCEPTS.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+def test_extract_definitions_basic(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    text = "# AgentFS\n\nAgentFS — это файловая система для агентов. Она хранит данные."
+    import pathlib as _pl
+    filepath = tmp_path / "test.md"
+    filepath.write_text(text, encoding="utf-8")
+    results = mod.extract_definitions(text, filepath)
+    assert isinstance(results, list)
+
+
+def test_extract_definitions_filters_short(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    text = "A — B. Long definition that should be included here for testing."
+    filepath = tmp_path / "test.md"
+    filepath.write_text(text, encoding="utf-8")
+    results = mod.extract_definitions(text, filepath)
+    # Short terms (< 3 chars) should be filtered
+    terms = [r["term"] for r in results]
+    assert "A" not in terms
+
+
+def test_main_with_definitions(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    content = "# AgentFS\n\n" + "word " * 60 + "\n\nAgentFS — это файловая система для агентов. Она хранит данные."
+    (tmp_path / "doc.md").write_text(content, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "CONCEPTS.md").read_text(encoding="utf-8")
+    assert isinstance(text, str)
+
+
+def test_clean_definition_strips_noise():
+    result = mod.clean_definition("это хорошее определение. Продолжение следует.")
+    assert isinstance(result, str)
+    assert len(result) > 0
+
+
+def test_clean_returns_string():
+    result = mod.clean("  Hello   World  ")
+    assert isinstance(result, str)
+    assert "Hello" in result
