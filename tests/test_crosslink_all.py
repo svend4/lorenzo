@@ -146,3 +146,165 @@ def test_main_empty_docs_no_crash(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "APPLY", False)
     monkeypatch.setattr(mod, "DRY_RUN", True)
     mod.main()  # must not raise
+
+
+# ── module-level arg parsing (requires reload) ────────────────────────────────
+
+def test_min_refs_arg_parsing():
+    """Lines 40-42: --min-refs N sets MIN_REFS."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--min-refs", "3"]
+        importlib.reload(mod)
+        assert mod.MIN_REFS == 3
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+def test_section_arg_parsing():
+    """Lines 46-48: --section NAME sets SECTION_FILTER."""
+    orig_argv = sys.argv[:]
+    try:
+        sys.argv = ["prog", "--section", "01-svyazi"]
+        importlib.reload(mod)
+        assert mod.SECTION_FILTER is not None
+        assert "01-svyazi" in str(mod.SECTION_FILTER)
+    finally:
+        sys.argv = orig_argv
+        importlib.reload(mod)
+
+
+# ── _extract_md_links exception handler ──────────────────────────────────────
+
+def test_extract_md_links_exception_handled(tmp_path, monkeypatch):
+    """Lines 76-77: exception during path resolution → path silently skipped."""
+    original_resolve = Path.resolve
+
+    def mock_resolve(self, strict=False):
+        if "badlink" in str(self):
+            raise OSError("mocked resolve error")
+        return original_resolve(self, strict=strict)
+
+    monkeypatch.setattr(Path, "resolve", mock_resolve)
+    source = tmp_path / "source.md"
+    result = mod._extract_md_links("[Bad](badlink.md)", source)
+    assert isinstance(result, set)
+    assert len(result) == 0
+
+
+# ── main with file-read exception ─────────────────────────────────────────────
+
+def test_main_file_read_exception_handled(tmp_path, monkeypatch):
+    """Lines 162-163: exception reading file → texts[f] = ''."""
+    bad_file = tmp_path / "bad.md"
+    bad_file.write_text("content here", encoding="utf-8")
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "KEYWORDS", False)
+
+    original_read = Path.read_text
+
+    def mock_read(self, *args, **kwargs):
+        if self == bad_file:
+            raise OSError("mocked error")
+        return original_read(self, *args, **kwargs)
+
+    monkeypatch.setattr(Path, "read_text", mock_read)
+    mod.main()  # should not crash
+
+
+# ── main with actual backlinks (lines 176, 198-232, 240-244) ─────────────────
+
+_LONG = "# Doc\n\n" + "word " * 25
+
+
+def test_main_with_backlinked_files(tmp_path, monkeypatch):
+    """Lines 176, 198-232: file B links to A → A gets backlink block."""
+    file_a = tmp_path / "target.md"
+    file_a.write_text(_LONG, encoding="utf-8")
+    file_b = tmp_path / "source.md"
+    file_b.write_text(_LONG + "\n\n[Target](target.md)", encoding="utf-8")
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "KEYWORDS", False)
+    monkeypatch.setattr(mod, "MIN_REFS", 1)
+    mod.main()
+
+
+def test_main_apply_writes_backlinks(tmp_path, monkeypatch):
+    """Line 232: APPLY=True writes modified file to disk."""
+    file_a = tmp_path / "target.md"
+    file_a.write_text(_LONG, encoding="utf-8")
+    file_b = tmp_path / "source.md"
+    file_b.write_text(_LONG + "\n\n[Target](target.md)", encoding="utf-8")
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", True)
+    monkeypatch.setattr(mod, "DRY_RUN", False)
+    monkeypatch.setattr(mod, "KEYWORDS", False)
+    monkeypatch.setattr(mod, "MIN_REFS", 1)
+    mod.main()
+    content = file_a.read_text(encoding="utf-8")
+    assert mod.BACKLINK_MARKER in content
+
+
+def test_main_top_cited_stats(tmp_path, monkeypatch):
+    """Lines 240-244: top-cited stats printed when backlinks exist."""
+    target = tmp_path / "popular.md"
+    target.write_text(_LONG, encoding="utf-8")
+    for i in range(3):
+        src = tmp_path / f"source{i}.md"
+        src.write_text(_LONG + "\n\n[Popular](popular.md)", encoding="utf-8")
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "KEYWORDS", False)
+    monkeypatch.setattr(mod, "MIN_REFS", 1)
+    mod.main()
+
+
+# ── main KEYWORDS mode ────────────────────────────────────────────────────────
+
+def test_main_keywords_mode(tmp_path, monkeypatch):
+    """Lines 143, 181-184, 204-211: KEYWORDS=True runs keyword computation."""
+    kw_text = "agent memory retrieval knowledge system architecture " * 5
+    (tmp_path / "doc_a.md").write_text("# Doc A\n\n" + kw_text, encoding="utf-8")
+    (tmp_path / "doc_b.md").write_text("# Doc B\n\n" + kw_text, encoding="utf-8")
+
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "KEYWORDS", True)
+    monkeypatch.setattr(mod, "MIN_REFS", 1)
+    mod.main()
+
+
+# ── __main__ block ────────────────────────────────────────────────────────────
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 251: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "APPLY", False)
+    monkeypatch.setattr(mod, "DRY_RUN", True)
+    monkeypatch.setattr(mod, "KEYWORDS", False)
+    script_path = str(ROOT / "scripts" / "improve_crosslink_all.py")
+    runpy.run_path(script_path, run_name="__main__")
