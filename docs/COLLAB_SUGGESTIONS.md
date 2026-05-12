@@ -1,69 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «rustsn rust через один самых сложных языков эксперимент насколько хорошо справля»
-> **Дата:** 2026-05-12 07:51  **Кандидатов:** 2
+> Автоматический поиск партнёрских проектов для: «orrin голосовой ассистент rockchip декодер rknn имеет жёсткое ограничение выходн»
+> **Дата:** 2026-05-12 08:00  **Кандидатов:** 2
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-10/projects/rustsn.md`
+**Источник:** `docs/06-discovery/round-11/projects/orrin-rockchip-voice.md`
 
-**Запрос:** rustsn rust через один самых сложных языков эксперимент насколько хорошо справляется этими ограничениями замкнутом цикле lorenzo пишет скрипты python если критические части поиск индексы переписать инструмент такой миграции ручного написания
-
----
-
-## 1. Svyazi
-
-**Релевантность:** `0.428`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
-
-**Теги:** ingestion, collaboration
-**Упомянутые проекты:** Svyazi
-
-**Связан с:**
-  - [docs/autofilled/README.md](autofilled/README.md) _references_
-  - [docs/autofilled/components/cowork.md](autofilled/components/cowork.md) _references_
-  - [docs/autofilled/components/ingit.md](autofilled/components/ingit.md) _references_
-  - [docs/autofilled/components/kksudo.md](autofilled/components/kksudo.md) _references_
-
-**Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → kksudo</summary>
-
-```
-**Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «rustsn rust через один самых сложных языков эксперимент наск»
-
-Привет, kksudo!
-
-Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, AgentFS решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
+**Запрос:** orrin голосовой ассистент rockchip декодер rknn имеет жёсткое ограничение выходного буфера бизнес требование ответ речь прерываний длинных текстах авторы решали задачу потокового синтеза речи рамках ограничений большинство найденных раундов проектов работают первый проект показывает путь дешёвому edge железу устройства orange radxa rock стоят дешевле
 
 ---
 
-## 2. Wikontic: семантический граф
+## 1. Wikontic: семантический граф
 
-**Релевантность:** `0.172`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.406`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
@@ -86,7 +39,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «rustsn rust через один самых сложных языков эксперимент наск»
+**Тема:** Коллаборация по теме «orrin голосовой ассистент rockchip декодер rknn имеет жёстко»
 
 Привет, VitalyOborin!
 
@@ -99,6 +52,57 @@ Lorenzo / svend4
 
 **Конкретные вопросы:**
 - Как Svyazi, Yodoca, Wikontic решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 2. NGT[^ngt] Memory: ассоциативный граф
+
+**Релевантность:** `0.315`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
+
+> ассоциативные связи в персистентной памяти LLM
+
+**Связан с:**
+  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+
+```
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «orrin голосовой ассистент rockchip декодер rknn имеет жёстко»
+
+Привет, spbmolot!
+
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -126,7 +130,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "rustsn rust через один самых сложных языков экспер"
+   python scripts/improve_collab_finder.py --query "orrin голосовой ассистент rockchip декодер rknn им"
    ```
 
-_Сгенерировано: 2026-05-12 07:51  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 08:00  |  Алгоритм: TF-IDF + BM25 + граф_

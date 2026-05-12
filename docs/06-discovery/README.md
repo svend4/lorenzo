@@ -24,9 +24,10 @@
 | Round 08 | ✅ Завершён | 4 | Codebase MCP, scientific ingestion, edu AI | `round-08/` |
 | Round 09 | ✅ Завершён | 4 | GraphRAG, decentralized AI, coding agent | `round-09/` |
 | Round 10 | ✅ Завершён | 4 | Viral simulation, self-hosted stacks, Rust | `round-10/` |
-| Round 11 | 🔜 Следующий | — | GTD agents, security, voice 2026, edge AI | — |
+| Round 11 | ✅ Завершён | 4 | Desktop agents, edge AI, voice embedded | `round-11/` |
+| Round 12 | 🔜 Следующий | — | Data analytics AI, audio gen, vector DBs | — |
 
-**Итого: 44 проекта, 24+ авторов**
+**Итого: 48 проектов, 26+ авторов**
 
 ## Шаблон раунда
 
