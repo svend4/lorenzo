@@ -124,3 +124,61 @@ def test_is_ignored_empty_patterns(tmp_path, monkeypatch):
     mod.load_patterns.cache_clear()
     assert mod.is_ignored("docs/anything.md", root=tmp_path) is False
     mod.load_patterns.cache_clear()
+
+
+def test_is_ignored_absolute_path_outside_root(tmp_path, monkeypatch):
+    """Lines 56-57: absolute path not under root → ValueError → False."""
+    import tempfile
+    other_root = Path(tempfile.mkdtemp())
+    docignore = tmp_path / ".docignore"
+    docignore.write_text("some/path.md\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCIGNORE", docignore)
+    mod.load_patterns.cache_clear()
+    # Absolute path not under tmp_path root → ValueError → returns False
+    abs_path = other_root / "some" / "path.md"
+    result = mod.is_ignored(abs_path, root=tmp_path)
+    assert result is False
+    mod.load_patterns.cache_clear()
+
+
+def test_is_ignored_recursive_glob_nested(tmp_path, monkeypatch):
+    """Lines 74-75: recursive glob matches nested paths via second fnmatch check."""
+    docignore = tmp_path / ".docignore"
+    # Pattern **/subdir/REPORT.md:
+    # tail = "subdir/REPORT.md", rel.name = "REPORT.md"
+    # First check: fnmatch("REPORT.md", "subdir/REPORT.md") → False
+    # Second check: fnmatch("docs/subdir/REPORT.md", "*/subdir/REPORT.md") → True
+    docignore.write_text("**/subdir/REPORT.md\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCIGNORE", docignore)
+    mod.load_patterns.cache_clear()
+    assert mod.is_ignored("docs/subdir/REPORT.md", root=tmp_path) is True
+    mod.load_patterns.cache_clear()
+
+
+def test_main_block_no_args(tmp_path, monkeypatch):
+    """Lines 93-99: __main__ block with no args prints usage."""
+    import runpy
+    docignore = tmp_path / ".docignore"
+    docignore.write_text("docs/REPORT.md\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCIGNORE", docignore)
+    mod.load_patterns.cache_clear()
+    monkeypatch.setattr("sys.argv", ["utils_docignore.py"])
+    script_path = str(ROOT / "scripts" / "utils_docignore.py")
+    try:
+        runpy.run_path(script_path, run_name="__main__")
+    except SystemExit:
+        pass
+    mod.load_patterns.cache_clear()
+
+
+def test_main_block_with_args(tmp_path, monkeypatch):
+    """Lines 100-102: __main__ block with path args."""
+    import runpy
+    docignore = tmp_path / ".docignore"
+    docignore.write_text("docs/REPORT.md\n", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCIGNORE", docignore)
+    mod.load_patterns.cache_clear()
+    monkeypatch.setattr("sys.argv", ["utils_docignore.py", "docs/REPORT.md", "docs/OTHER.md"])
+    script_path = str(ROOT / "scripts" / "utils_docignore.py")
+    runpy.run_path(script_path, run_name="__main__")
+    mod.load_patterns.cache_clear()

@@ -122,3 +122,42 @@ def test_process_report_partial_key_match(tmp_path, monkeypatch):
     mod.process_report(md, section_map, out_dir)
 
     assert (out_dir / "01-executive-summary.md").exists()
+
+
+# ── run ───────────────────────────────────────────────────────────────────────
+
+def test_run_calls_process_report(tmp_path, monkeypatch):
+    """Lines 55-64: run() calls process_report for both reports."""
+    import part1_utils
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(part1_utils, "ROOT", tmp_path)
+
+    # Create the out dir
+    out_dir = tmp_path / "01-svyazi"
+    out_dir.mkdir()
+
+    # Create fake report files
+    r1 = tmp_path / "deep-research-report (1).md"
+    r3 = tmp_path / "deep-research-report (3).md"
+    r1.write_text("# Report 1\n\n## Executive Summary\n\nContent.", encoding="utf-8")
+    r3.write_text("# Report 3\n\n## Roadmap\n\nContent.", encoding="utf-8")
+
+    called = []
+    monkeypatch.setattr(mod, "process_report",
+                        lambda md, mapping, out: called.append(md.name))
+    mod.run()
+    assert "deep-research-report (1).md" in called
+    assert "deep-research-report (3).md" in called
+
+
+def test_run_no_crash_missing_files(tmp_path, monkeypatch):
+    """run() should not crash when source files don't exist."""
+    import part1_utils
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(part1_utils, "ROOT", tmp_path)
+    (tmp_path / "01-svyazi").mkdir()
+    # No report files — process_report will just skip silently
+    monkeypatch.setattr(mod, "process_report", lambda md, mapping, out: None)
+    mod.run()  # Should not raise
