@@ -22,9 +22,10 @@
 | Round 06 | ✅ Завершён | 4 | Video AI, CLI agents, GitHub automation | `round-06/` |
 | Round 07 | ✅ Завершён | 4 | Multi-agent arch, agent safety, MCP pipeline | `round-07/` |
 | Round 08 | ✅ Завершён | 4 | Codebase MCP, scientific ingestion, edu AI | `round-08/` |
-| Round 09 | 🔜 Следующий | — | Federated AI, knowledge graphs, domain agents | — |
+| Round 09 | ✅ Завершён | 4 | GraphRAG, decentralized AI, coding agent | `round-09/` |
+| Round 10 | 🔜 Следующий | — | Rust tools, workflow engines, self-hosted RAG | — |
 
-**Итого: 36 проектов, 20+ авторов**
+**Итого: 40 проектов, 22+ авторов**
 
 ## Шаблон раунда
 

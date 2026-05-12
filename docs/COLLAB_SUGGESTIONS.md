@@ -1,22 +1,22 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «socraticode сервер понимания кодовой базы меньше токенов вызовов быстрее сравнен»
-> **Дата:** 2026-05-12 06:56  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «hypercortex mesh protocol будущее агентов децентрализованные сети оркестраторы п»
+> **Дата:** 2026-05-12 07:42  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-08/projects/socraticode.md`
+**Источник:** `docs/06-discovery/round-09/projects/hypercortex-hmp.md`
 
-**Запрос:** socraticode сервер понимания кодовой базы меньше токенов вызовов быстрее сравнение агент тратит времени понимание кода логика tester убрать неэффективный слой получить экономию lorenzo скриптов scripts improve серверов карточки подключается claude code получает полную карту какие скрипты касаются сломается если изменить utils chunker
+**Запрос:** hypercortex mesh protocol будущее агентов децентрализованные сети оркестраторы полностью переработанная спецификация несовместимая цель зрелая модель накопленных компромиссов раунды строятся вокруг паттерна оркестратор агенты альтернатива равноправны консенсус через голосование spof применимо долгосрочная архитектура svyazi когда нужна устойчивость сбоям
 
 ---
 
 ## 1. Rufler
 
-**Релевантность:** `0.408`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.419`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
@@ -39,7 +39,7 @@
 
 ```
 **Кому:** zodigancode (@zodigancode)
-**Тема:** Коллаборация по теме «socraticode сервер понимания кодовой базы меньше токенов выз»
+**Тема:** Коллаборация по теме «hypercortex mesh protocol будущее агентов децентрализованные»
 
 Привет, zodigancode!
 
@@ -67,7 +67,7 @@ Lorenzo / svend4
 
 ## 2. mclaude
 
-**Релевантность:** `0.264`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.411`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/mclaude.md`](svyazi-2-0/components/mclaude.md)
 
@@ -86,20 +86,22 @@ Lorenzo / svend4
 
 ---
 
-## 3. Svyazi
+## 3. AgentFS
 
-**Релевантность:** `0.261`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.408`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
-**Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
+**Документ:** [`docs/svyazi-2-0/components/agentfs.md`](svyazi-2-0/components/agentfs.md)
 
-**Теги:** ingestion, collaboration
-**Упомянутые проекты:** Svyazi
+**Теги:** knowledge, ingestion, roadmap, collaboration
+**Упомянутые проекты:** Svyazi, AgentFS, knowledge-space, mclaude
+
+> Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром.
 
 **Связан с:**
-  - [docs/autofilled/README.md](autofilled/README.md) _references_
-  - [docs/autofilled/components/cowork.md](autofilled/components/cowork.md) _references_
-  - [docs/autofilled/components/ingit.md](autofilled/components/ingit.md) _references_
-  - [docs/autofilled/components/kksudo.md](autofilled/components/kksudo.md) _references_
+  - [docs/svyazi-2-0/components/yodoca.md](svyazi-2-0/components/yodoca.md) _references_
+  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
+  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
+  - [docs/svyazi-2-0/components/knowledge-space.md](svyazi-2-0/components/knowledge-space.md) _references_
 
 **Автор:** kksudo @kksudo  |  GitHub  |  📖 `studied`
 **Контакт:** [`docs/contacts/kksudo.md`](contacts/kksudo.md)
@@ -109,11 +111,13 @@ Lorenzo / svend4
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «socraticode сервер понимания кодовой базы меньше токенов выз»
+**Тема:** Коллаборация по теме «hypercortex mesh protocol будущее агентов децентрализованные»
 
 Привет, kksudo!
 
 Изучил ваш проект **Svyazi, AgentFS** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _Превращает Obsidian‑vault в операционную систему для AI‑агентов с единым `.agentos/`‑ядром._
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
@@ -135,7 +139,7 @@ Lorenzo / svend4
 
 ## 4. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.083`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.330`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
 
@@ -158,7 +162,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «socraticode сервер понимания кодовой базы меньше токенов выз»
+**Тема:** Коллаборация по теме «hypercortex mesh protocol будущее агентов децентрализованные»
 
 Привет, spbmolot!
 
@@ -198,7 +202,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "socraticode сервер понимания кодовой базы меньше т"
+   python scripts/improve_collab_finder.py --query "hypercortex mesh protocol будущее агентов децентра"
    ```
 
-_Сгенерировано: 2026-05-12 06:56  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 07:42  |  Алгоритм: TF-IDF + BM25 + граф_
