@@ -180,3 +180,169 @@ def test_main_dry_run_no_file_written(tmp_path, monkeypatch):
     except SystemExit:
         pass
     assert not (tmp_path / "COLLAB.md").exists()
+
+
+def test_load_index_missing(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
+    result = mod._load_index()
+    assert result is None
+
+
+def test_load_index_returns_dict(tmp_path, monkeypatch):
+    import json
+    index_file = tmp_path / "embedding_index.json"
+    index_file.write_text(json.dumps({"vectors": {}, "vocab": [], "idf": {}}), encoding="utf-8")
+    monkeypatch.setattr(mod, "INDEX", index_file)
+    result = mod._load_index()
+    assert isinstance(result, dict)
+
+
+def test_load_contacts_empty_no_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    result = mod._load_contacts()
+    assert isinstance(result, dict)
+    assert len(result) == 0
+
+
+def test_load_contacts_with_contact_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    contacts_dir = tmp_path / "contacts"
+    contacts_dir.mkdir()
+    (contacts_dir / "kksudo.md").write_text(
+        '---\nauthor: "Konstantin"\nauthor_handle: "kksudo"\nplatform: github\n---\n# kksudo\n',
+        encoding="utf-8"
+    )
+    result = mod._load_contacts()
+    assert "kksudo" in result
+
+
+def test_read_contact_brief_returns_dict(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "kksudo.md"
+    f.write_text(
+        '---\nauthor: "Konstantin"\nauthor_handle: "kksudo"\nplatform: github\nstatus: active\n---\n# kksudo\n',
+        encoding="utf-8"
+    )
+    result = mod._read_contact_brief(f)
+    assert isinstance(result, dict)
+    assert "author" in result
+    assert result["author"] == "Konstantin"
+
+
+def test_read_contact_brief_missing_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "nonexistent.md"
+    result = mod._read_contact_brief(f)
+    assert result == {}
+
+
+def test_semantic_score_no_emb(monkeypatch):
+    monkeypatch.setattr(mod, "_HAVE_EMB", False)
+    result = mod._semantic_score({}, "card_id", {})
+    assert result == 0.0
+
+
+def test_semantic_score_no_index(monkeypatch):
+    monkeypatch.setattr(mod, "_HAVE_EMB", True)
+    result = mod._semantic_score({1: 0.5}, "card_id", None)
+    assert result == 0.0
+
+
+def test_find_contact_empty_contacts():
+    from unittest.mock import MagicMock
+    card = MagicMock()
+    card.payload = {"title": "AgentFS", "path": "docs/agentfs.md"}
+    card.edges = []
+    result = mod._find_contact(card, {})
+    assert result is None
+
+
+def test_find_candidates_no_cards_dir(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    result = mod.find_candidates("agent memory")
+    assert result == []
+
+
+def test_generate_message_returns_string():
+    from unittest.mock import MagicMock
+    card = MagicMock()
+    card.payload = {"title": "AgentFS", "summary": "File system for AI agents with knowledge."}
+    contact = {"author": "kksudo", "handle": "kksudo", "platform": "GitHub", "projects": ["AgentFS"]}
+    result = mod._generate_message(card, contact, "agent memory knowledge")
+    assert isinstance(result, str)
+    assert "kksudo" in result
+
+
+def test_generate_message_without_summary():
+    from unittest.mock import MagicMock
+    card = MagicMock()
+    card.payload = {"title": "AgentFS", "summary": ""}
+    contact = {"author": "Test", "handle": "", "platform": "GitHub", "projects": []}
+    result = mod._generate_message(card, contact, "test query")
+    assert isinstance(result, str)
+    assert len(result) > 0
+
+
+def test_format_report_returns_string(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    from unittest.mock import MagicMock
+    card = MagicMock()
+    card.payload = {"title": "AgentFS", "summary": "Test summary", "path": "test/agentfs.md",
+                    "wc": 100, "tags": []}
+    card.card_id = "test_id"
+    card.card_type = "project"
+    card.edges = []
+    candidates = [{"score": 0.8, "card": card}]
+    result = mod._format_report("agent memory", "", candidates, {})
+    assert isinstance(result, str)
+    assert "AgentFS" in result or "agent" in result.lower()
+
+
+def test_cmd_find_empty_cards_dir(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "index.json")
+    monkeypatch.setattr(mod, "OUT_MD", tmp_path / "COLLAB.md")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.cmd_find("agent memory")
+    out = capsys.readouterr().out
+    assert "CardStore" in out or "пуст" in out or "❌" in out
+
+
+def test_cmd_find_no_candidates(tmp_path, monkeypatch, capsys):
+    cards_dir = tmp_path / "cards"
+    cards_dir.mkdir()
+    (cards_dir / "fake.json").write_text('{}', encoding="utf-8")
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "index.json")
+    monkeypatch.setattr(mod, "OUT_MD", tmp_path / "COLLAB.md")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "find_candidates", lambda *a, **kw: [])
+    mod.cmd_find("agent memory")
+    out = capsys.readouterr().out
+    assert "Ничего" in out or "найден" in out.lower()
+
+
+def test_cmd_find_dry_run_with_candidates(tmp_path, monkeypatch, capsys):
+    from unittest.mock import MagicMock
+    cards_dir = tmp_path / "cards"
+    cards_dir.mkdir()
+    (cards_dir / "fake.json").write_text('{}', encoding="utf-8")
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "index.json")
+    monkeypatch.setattr(mod, "OUT_MD", tmp_path / "COLLAB.md")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    card = MagicMock()
+    card.payload = {"title": "AgentFS", "path": "agentfs.md"}
+    card.card_id = "test_id"
+    card.card_type = "project"
+    card.edges = []
+    fake_candidates = [{"score": 0.8, "card": card}]
+    monkeypatch.setattr(mod, "find_candidates", lambda *a, **kw: fake_candidates)
+    monkeypatch.setattr(mod, "_load_contacts", lambda: {})
+    monkeypatch.setattr(mod, "_find_contact", lambda *a, **kw: None)
+    monkeypatch.setattr(mod, "_read_contact_brief", lambda *a, **kw: {"author": "Test"})
+    mod.cmd_find("agent memory", dry_run=True)
+    out = capsys.readouterr().out
+    assert "dry-run" in out or "Найдено" in out or "AgentFS" in out
