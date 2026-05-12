@@ -45,9 +45,10 @@
 | Round 29 | ✅ Завершён | 4 | Comprehension debt, Text2SQL X5, AI мета-мониторинг, Кириллица в LLM | `round-29/` |
 | Round 30 | ✅ Завершён | 4 | Coreness Flow composable, VLM vs IDP бенчмарк, синтетика граф-качество, HITL prod | `round-30/` |
 | Round 31 | ✅ Завершён | 4 | DBRM медицина, Cognitive Memory SQLite, LLM+Terraform DevOps, XAI mechanistic | `round-31/` |
-| Round 32 | 🔜 Следующий | — | Enterprise RAG, LLM inference opt, финансовая аналитика, мультимодальный prod | — |
+| Round 32 | ✅ Завершён | 4 | Enterprise RAG (МТС), vLLM inference opt, FinPDF pipeline, Авито VLM | `round-32/` |
+| Round 33 | 🔜 Следующий | — | AI code agents v2, LLM data engineering, суверенный AI, red-teaming | — |
 
-**Итого: 128 проектов, 66+ авторов**
+**Итого: 132 проекта, 68+ авторов**
 
 ## Шаблон раунда
 
