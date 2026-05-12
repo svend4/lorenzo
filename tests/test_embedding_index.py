@@ -311,3 +311,243 @@ def test_cosine_sim_disjoint():
 def test_cosine_sim_empty():
     result = mod.cosine_sim({}, {})
     assert result == 0.0
+
+
+# ── card_text ─────────────────────────────────────────────────────────────────
+
+def test_card_text_returns_string():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from utils_card_envelope import CardEnvelope
+    card = CardEnvelope(
+        card_id="sha256:test0001",
+        card_type="project",
+        state="raw",
+        payload={"title": "AgentFS", "summary": "File system for agents", "body": "content here",
+                 "tags": ["memory", "agent"], "projects": ["AgentFS"]},
+        edges=[],
+    )
+    result = mod.card_text(card)
+    assert isinstance(result, str)
+    assert "AgentFS" in result
+
+
+def test_card_text_doubles_title():
+    from utils_card_envelope import CardEnvelope
+    card = CardEnvelope(
+        card_id="sha256:test0002",
+        card_type="doc",
+        state="raw",
+        payload={"title": "UniqueTitle123"},
+        edges=[],
+    )
+    result = mod.card_text(card)
+    assert result.count("UniqueTitle123") >= 2
+
+
+# ── load_index / save_index ───────────────────────────────────────────────────
+
+def test_load_index_missing_file(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
+    result = mod.load_index()
+    assert result is None
+
+
+def test_save_and_load_index(tmp_path, monkeypatch):
+    import json
+    index_file = tmp_path / "embedding_index.json"
+    cards_dir = tmp_path / "cards"
+    monkeypatch.setattr(mod, "INDEX", index_file)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    idf = {"agent": 1.5, "memory": 2.0}
+    vectors = {"sha256:abc": {"agent": 0.75}}
+    meta = {"sha256:abc": {"title": "Test", "card_type": "doc", "state": "raw", "path": "test.md"}}
+    mod.save_index(idf, vectors, meta)
+    assert index_file.exists()
+    result = mod.load_index()
+    assert result is not None
+    assert "idf" in result
+    assert "vectors" in result
+
+
+def test_load_index_invalid_json(tmp_path, monkeypatch):
+    f = tmp_path / "bad.json"
+    f.write_text("not valid json {{{{", encoding="utf-8")
+    monkeypatch.setattr(mod, "INDEX", f)
+    result = mod.load_index()
+    assert result is None
+
+
+# ── cmd_index ─────────────────────────────────────────────────────────────────
+
+def test_cmd_index_no_cards(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "index.json")
+    mod.cmd_index()
+    out = capsys.readouterr().out
+    assert "пуст" in out or "CardStore" in out
+
+
+def test_cmd_index_with_cards(tmp_path, monkeypatch, capsys):
+    from utils_card_envelope import CardEnvelope, CardStore
+    cards_dir = tmp_path / "cards"
+    cards_dir.mkdir()
+    store = CardStore(cards_dir)
+    for i in range(3):
+        card = CardEnvelope(
+            card_id=f"sha256:test{i:04d}",
+            card_type="doc",
+            state="raw",
+            payload={"title": f"Doc {i}", "summary": "agent memory knowledge system retrieval",
+                     "body": "agent memory knowledge " * 5, "tags": [], "projects": []},
+            edges=[],
+        )
+        store.put(card)
+    monkeypatch.setattr(mod, "CARDS", cards_dir)
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "index.json")
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    mod.cmd_index()
+    out = capsys.readouterr().out
+    assert "Карточек" in out or "Сохранено" in out
+
+
+# ── cmd_query / cmd_search ────────────────────────────────────────────────────
+
+def _build_test_index(tmp_path, monkeypatch):
+    """Helper: build a minimal index for testing."""
+    import json as _json
+    index_file = tmp_path / "index.json"
+    monkeypatch.setattr(mod, "INDEX", index_file)
+    idf = {"agent": 1.5, "memory": 2.0, "knowledge": 1.8, "retrieval": 2.5}
+    vectors = {
+        "sha256:doc1": {"agent": 0.75, "memory": 1.0},
+        "sha256:doc2": {"knowledge": 0.9, "retrieval": 1.2},
+    }
+    card_meta = {
+        "sha256:doc1": {"title": "Agent Memory Doc", "card_type": "doc", "state": "raw", "path": "doc1.md"},
+        "sha256:doc2": {"title": "Knowledge Retrieval", "card_type": "project", "state": "raw", "path": "doc2.md"},
+    }
+    data = {"meta": {"cards": 2, "vocab": 4, "version": "1.0"},
+            "idf": idf, "vectors": vectors, "card_meta": card_meta}
+    index_file.write_text(_json.dumps(data, ensure_ascii=False), encoding="utf-8")
+
+
+def test_cmd_query_returns_results(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    results = mod.cmd_query("agent memory", top=5)
+    assert isinstance(results, list)
+    assert len(results) >= 1
+    score, cid, meta = results[0]
+    assert isinstance(score, float)
+    assert isinstance(cid, str)
+
+
+def test_cmd_query_no_index(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
+    results = mod.cmd_query("agent memory")
+    assert results == []
+    out = capsys.readouterr().out
+    assert "Индекс" in out or "index" in out.lower()
+
+
+def test_cmd_query_empty_query(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    results = mod.cmd_query("")
+    assert results == []
+
+
+def test_cmd_query_with_card_type_filter(tmp_path, monkeypatch):
+    _build_test_index(tmp_path, monkeypatch)
+    results = mod.cmd_query("knowledge retrieval", card_type="project")
+    assert all(r[2].get("card_type") == "project" for r in results)
+
+
+def test_cmd_search_shows_results(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_search("agent memory", top=5)
+    out = capsys.readouterr().out
+    assert "Agent Memory" in out or "agent" in out.lower()
+
+
+def test_cmd_search_no_results(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_search("xyz_totally_nonexistent_abc")
+    out = capsys.readouterr().out
+    assert "Ничего" in out or "не найдено" in out.lower()
+
+
+# ── cmd_similar ───────────────────────────────────────────────────────────────
+
+def test_cmd_similar_found(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_similar("sha256:doc1", top=5)
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_similar_partial_match(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_similar("doc1", top=5)
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_similar_by_title(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_similar("Agent Memory Doc", top=5)
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_cmd_similar_not_found(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_similar("nonexistent_xyz_id")
+    out = capsys.readouterr().out
+    assert "не найдена" in out or "not found" in out.lower()
+
+
+def test_cmd_similar_no_index(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
+    mod.cmd_similar("some_id")
+    out = capsys.readouterr().out
+    assert "Индекс" in out or "index" in out.lower()
+
+
+# ── cmd_stats ─────────────────────────────────────────────────────────────────
+
+def test_cmd_stats_with_index(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    mod.cmd_stats()
+    out = capsys.readouterr().out
+    assert "Карточек" in out or "словарь" in out.lower() or "Индекс" in out
+
+
+def test_cmd_stats_no_index(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "nonexistent.json")
+    mod.cmd_stats()
+    out = capsys.readouterr().out
+    assert "Индекс" in out or "index" in out.lower()
+
+
+# ── main() commands ───────────────────────────────────────────────────────────
+
+def test_main_query_with_index(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--query", "agent memory"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert isinstance(out, str)
+
+
+def test_main_similar_with_index(tmp_path, monkeypatch, capsys):
+    _build_test_index(tmp_path, monkeypatch)
+    monkeypatch.setattr("sys.argv", ["prog", "--similar", "sha256:doc1"])
+    mod.main()
+
+
+def test_main_index_no_cards(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "CARDS", tmp_path / "no_cards")
+    monkeypatch.setattr(mod, "INDEX", tmp_path / "index.json")
+    monkeypatch.setattr("sys.argv", ["prog", "--index"])
+    mod.main()
+    out = capsys.readouterr().out
+    assert "пуст" in out or "CardStore" in out

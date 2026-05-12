@@ -214,3 +214,206 @@ def test_find_best_doc_returns_none_empty_dir(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "DOCS", tmp_path)
     result = mod._find_best_doc("agent memory")
     assert result is None
+
+
+# ── compare_with_url ──────────────────────────────────────────────────────────
+
+def test_compare_with_url_http_error(tmp_path, monkeypatch):
+    """Test compare_with_url when URL fetch fails."""
+    f = tmp_path / "doc.md"
+    f.write_text("# AgentFS\n\nAgent memory knowledge retrieval system.", encoding="utf-8")
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: "HTTP 404: Not Found")
+    result = mod.compare_with_url(f, "https://github.com/test/repo")
+    assert "error" in result
+
+
+def test_compare_with_url_network_error(tmp_path, monkeypatch):
+    """Test compare_with_url when fetch returns error string."""
+    f = tmp_path / "doc.md"
+    f.write_text("# Test\n\nContent here.", encoding="utf-8")
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: "Error: Connection refused")
+    result = mod.compare_with_url(f, "https://example.com")
+    assert "error" in result
+
+
+def test_compare_with_url_success(tmp_path, monkeypatch):
+    """Test compare_with_url with successful fetch."""
+    f = tmp_path / "doc.md"
+    f.write_text("# AgentFS\n\nAgent memory knowledge retrieval system.", encoding="utf-8")
+    fake_ext = "AgentFS is a file system for agents with memory and knowledge retrieval capabilities."
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: fake_ext)
+    result = mod.compare_with_url(f, "https://github.com/test/repo")
+    assert "error" not in result
+    assert "jaccard" in result
+    assert "common" in result
+    assert "only_doc" in result
+    assert "only_ext" in result
+    assert isinstance(result["jaccard"], float)
+
+
+def test_compare_with_url_file_not_readable(tmp_path, monkeypatch):
+    """Test compare_with_url when file can't be read."""
+    f = tmp_path / "nonexistent.md"
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: "Some content here")
+    result = mod.compare_with_url(f, "https://example.com")
+    assert "error" in result
+
+
+# ── format_result ─────────────────────────────────────────────────────────────
+
+def test_format_result_with_error():
+    r = {"error": "HTTP 404: Not Found", "url": "https://example.com"}
+    result = mod.format_result(r)
+    assert isinstance(result, list)
+    assert any("404" in s for s in result)
+
+
+def test_format_result_success(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Test", encoding="utf-8")
+    r = {
+        "doc_path": f,
+        "url": "https://github.com/test/repo",
+        "jaccard": 0.45,
+        "common": ["agent", "memory"],
+        "only_doc": ["unique"],
+        "only_ext": ["external"],
+        "missing_topics": ["missing"],
+        "ext_len": 100,
+        "doc_len": 200,
+    }
+    result = mod.format_result(r)
+    assert isinstance(result, list)
+    assert any("doc.md" in s for s in result)
+
+
+def test_format_result_no_common(tmp_path, monkeypatch):
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    f = tmp_path / "doc.md"
+    f.write_text("# Test", encoding="utf-8")
+    r = {
+        "doc_path": f,
+        "url": "https://github.com/test/repo",
+        "jaccard": 0.0,
+        "common": [],
+        "only_doc": [],
+        "only_ext": [],
+        "missing_topics": [],
+        "ext_len": 50,
+        "doc_len": 100,
+    }
+    result = mod.format_result(r)
+    assert isinstance(result, list)
+
+
+# ── _fetch_url ────────────────────────────────────────────────────────────────
+
+def test_fetch_url_http_error(monkeypatch):
+    """Test _fetch_url with HTTP error."""
+    import urllib.error
+    def fake_urlopen(req, timeout=None):
+        raise urllib.error.HTTPError("url", 404, "Not Found", {}, None)
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    result = mod._fetch_url("https://example.com/test")
+    assert "HTTP 404" in result
+
+
+def test_fetch_url_generic_error(monkeypatch):
+    """Test _fetch_url with generic exception."""
+    def fake_urlopen(req, timeout=None):
+        raise OSError("Connection refused")
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    result = mod._fetch_url("https://example.com/test")
+    assert "Error" in result
+
+
+def test_fetch_url_strips_html_tags(monkeypatch):
+    """Test _fetch_url returns plain text."""
+    from unittest.mock import MagicMock
+    fake_resp = MagicMock()
+    fake_resp.__enter__ = lambda s: s
+    fake_resp.__exit__ = MagicMock(return_value=False)
+    fake_resp.read.return_value = b"<html><body><p>Hello world agent</p></body></html>"
+    monkeypatch.setattr("urllib.request.urlopen", lambda req, timeout=None: fake_resp)
+    result = mod._fetch_url("https://example.com")
+    assert "<html>" not in result
+    assert "Hello" in result
+
+
+# ── main with compare ─────────────────────────────────────────────────────────
+
+def test_main_file_with_url_http_error(tmp_path, monkeypatch, capsys):
+    f = tmp_path / "doc.md"
+    f.write_text("# Test\n\nContent about agent memory.", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", False)
+    monkeypatch.setattr(mod, "FILE_ARG", f)
+    monkeypatch.setattr(mod, "URL_ARG", "https://example.com/test")
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: "Error: Connection refused")
+    mod.main()
+
+
+def test_main_file_with_url_success(tmp_path, monkeypatch, capsys):
+    f = tmp_path / "doc.md"
+    f.write_text("# Agent Memory\n\nAgent memory knowledge retrieval.", encoding="utf-8")
+    fake_ext = "Agent memory knowledge retrieval system capabilities."
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", False)
+    monkeypatch.setattr(mod, "FILE_ARG", f)
+    monkeypatch.setattr(mod, "URL_ARG", "https://github.com/test/repo")
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: fake_ext)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "wrote" in out or "сравнений" in out
+
+
+def test_main_query_with_url(tmp_path, monkeypatch, capsys):
+    f = tmp_path / "agentfs.md"
+    f.write_text("# AgentFS\n\nAgent file system memory knowledge.", encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", False)
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "URL_ARG", "https://github.com/test/repo")
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", "agentfs")
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: "AgentFS agent file system memory.")
+    mod.main()
+
+
+def test_main_query_no_doc_found(tmp_path, monkeypatch, capsys):
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", False)
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "URL_ARG", "https://github.com/test/repo")
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", "nonexistent_xyz_query")
+    mod.main()
+    out = capsys.readouterr().out
+    assert "не найден" in out or "not found" in out.lower()
+
+
+def test_main_auto_with_url_in_doc(tmp_path, monkeypatch, capsys):
+    f = tmp_path / "doc.md"
+    f.write_text(
+        "# Test Doc\n\nAgent memory knowledge system. See https://github.com/user/repo for details.",
+        encoding="utf-8"
+    )
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "AUTO", True)
+    monkeypatch.setattr(mod, "FILE_ARG", None)
+    monkeypatch.setattr(mod, "URL_ARG", None)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "QUERY", None)
+    monkeypatch.setattr(mod, "LIMIT", 1)
+    monkeypatch.setattr(mod, "_fetch_url", lambda url: "Agent file system memory.")
+    mod.main()
