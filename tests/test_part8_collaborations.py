@@ -80,3 +80,21 @@ def test_habr_keywords_displays_are_strings():
     for key, (fname, display) in mod.HABR_KEYWORDS.items():
         assert isinstance(display, str)
         assert len(display) > 0
+
+
+def test_run_calls_extract_and_split(monkeypatch, capsys):
+    """Lines 46-50: run() calls extract_and_split for both sections."""
+    call_count = [0]
+    def fake_extract(mhtml_path, keywords, out_dir):
+        call_count[0] += 1
+    monkeypatch.setattr(mod, "extract_and_split", fake_extract)
+    mod.run()
+    assert call_count[0] == 2  # called for both collab and habr
+
+
+def test_run_prints_headers(monkeypatch, capsys):
+    """Lines 47, 50: run() prints headers for each section."""
+    monkeypatch.setattr(mod, "extract_and_split", lambda *a: None)
+    mod.run()
+    out = capsys.readouterr().out
+    assert "AI Collaborations" in out or "Habr" in out or "---" in out

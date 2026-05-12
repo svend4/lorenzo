@@ -48,3 +48,21 @@ def test_keywords_displays_are_strings():
     for key, (fname, display) in mod.KEYWORDS.items():
         assert isinstance(display, str), f"Key {key!r}: display should be string"
         assert len(display) > 0
+
+
+def test_run_calls_extract_and_split(monkeypatch, capsys):
+    """Lines 26-28: run() calls extract_and_split with correct args."""
+    called = [False]
+    def fake_extract(mhtml_path, keywords, out_dir):
+        called[0] = True
+    monkeypatch.setattr(mod, "extract_and_split", fake_extract)
+    mod.run()
+    assert called[0]
+
+
+def test_run_prints_section_header(monkeypatch, capsys):
+    """Line 27: run() prints a header."""
+    monkeypatch.setattr(mod, "extract_and_split", lambda *a: None)
+    mod.run()
+    out = capsys.readouterr().out
+    assert "Anthropic" in out or "vacancies" in out.lower() or "---" in out

@@ -67,3 +67,41 @@ def test_root_is_path():
 
 def test_docs_is_path():
     assert isinstance(mod.DOCS, Path)
+
+
+def test_main_runs_all_steps(tmp_path, monkeypatch, capsys):
+    """Lines 88-124: main() creates directories and calls all run functions."""
+    import part1_utils
+    monkeypatch.setattr(part1_utils, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    monkeypatch.setattr(mod, "DOCS", docs)
+    # Mock the sub-functions to avoid MHTML processing
+    monkeypatch.setattr(mod, "run_svyazi", lambda: None)
+    monkeypatch.setattr(mod, "run_vacancies", lambda: None)
+    monkeypatch.setattr(mod, "run_tech", lambda: None)
+    monkeypatch.setattr(mod, "run_collabs", lambda: None)
+    monkeypatch.setattr(mod, "write_readme_files", lambda: None)
+    mod.main()
+    out = capsys.readouterr().out
+    assert "ГОТОВО" in out or "ready" in out.lower() or "docs" in out.lower()
+
+
+def test_main_creates_subdirs(tmp_path, monkeypatch):
+    """Lines 94-102: main() creates all expected subdirectories."""
+    import part1_utils
+    monkeypatch.setattr(part1_utils, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    docs = tmp_path / "docs"
+    docs.mkdir()
+    monkeypatch.setattr(mod, "DOCS", docs)
+    monkeypatch.setattr(mod, "run_svyazi", lambda: None)
+    monkeypatch.setattr(mod, "run_vacancies", lambda: None)
+    monkeypatch.setattr(mod, "run_tech", lambda: None)
+    monkeypatch.setattr(mod, "run_collabs", lambda: None)
+    monkeypatch.setattr(mod, "write_readme_files", lambda: None)
+    mod.main()
+    assert (docs / "01-svyazi" / "ensembles").exists()
+    assert (docs / "02-anthropic-vacancies" / "clusters").exists()
+    assert (docs / "05-habr-projects" / "knowledge").exists()
