@@ -85,13 +85,22 @@ Wikontic, Legal RAG, AgentFS, Rufler, mclaude
 
 | Проект | Автор | Ниша | Файл |
 |--------|-------|------|------|
-| | | | |
+| PocketCoder | @Chashchin-Dmitry | F — coding agent | `projects/pocketcoder.md` |
+| Ирина | @janvarev | D — голосовой интерфейс | `projects/irene-voice-assistant.md` |
+| Dedoc | @ispras (ИСП РАН) | B — парсинг документов | `projects/dedoc.md` |
+| Coreness Flow | @Vensus137 | F — YAML workflow | `projects/coreness-flow.md` |
+| XAI Agent | @SadSabrina | C — observability/XAI | `projects/xai-agent.md` |
+| Doka | неизвестен | A — local agent UI | `projects/doka-local-agent.md` |
 
-## Найденные комбинации с Round 01
+## Найденные комбинации с Round 01 (топ)
 
 | Новый проект | + Из Round 01 | Новое свойство |
 |-------------|---------------|----------------|
-| | | |
+| Ирина | agent-memory-mcp | Голосовой агент с постоянной памятью |
+| Dedoc | LiteParse (nlaik) | Двухступенчатый ingestion: структура + evidence |
+| Coreness Flow | Rufler | Declarative stack: event-runtime + YAML-DSL |
+| PocketCoder | AgentFS | Coding agent с файловой памятью |
+| XAI Agent | improve_collab_finder | Объяснимые рекомендации коллабораций |
 
 ## Итог раунда
 
