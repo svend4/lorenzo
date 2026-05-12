@@ -46,9 +46,10 @@
 | Round 30 | ✅ Завершён | 4 | Coreness Flow composable, VLM vs IDP бенчмарк, синтетика граф-качество, HITL prod | `round-30/` |
 | Round 31 | ✅ Завершён | 4 | DBRM медицина, Cognitive Memory SQLite, LLM+Terraform DevOps, XAI mechanistic | `round-31/` |
 | Round 32 | ✅ Завершён | 4 | Enterprise RAG (МТС), vLLM inference opt, FinPDF pipeline, Авито VLM | `round-32/` |
-| Round 33 | 🔜 Следующий | — | AI code agents v2, LLM data engineering, суверенный AI, red-teaming | — |
+| Round 33 | ✅ Завершён | 4 | AI code agents v2, LLM data engineering, суверенный AI, red-teaming | `round-33/` |
+| Round 34 | 🔜 Следующий | — | LLM DevSecOps, Multimodal doc v2, LLM evaluation, Edge AI | — |
 
-**Итого: 132 проекта, 68+ авторов**
+**Итого: 136 проектов, 70+ авторов**
 
 ## Шаблон раунда
 
