@@ -1,4 +1,4 @@
-name: Test & Validate  # v2: pytest-timeout, slow-test runpy fix
+name: Test & Validate  # v3: fix textrank-runpy timeout + progress-sync tags
 
 on:
   push:
