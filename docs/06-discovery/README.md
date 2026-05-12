@@ -12,10 +12,17 @@
 
 ## Раунды
 
-| Раунд | Статус | Проектов | Комбинаций | Папка |
-|-------|--------|----------|------------|-------|
-| Round 01 | ✅ Завершён | 9 проектов | 5 ансамблей | `docs/05-habr-projects/` + `habr-unique-projects/` |
-| Round 02 | 🔄 В процессе | — | — | `round-02/` |
+| Раунд | Статус | Проектов | Ключевая тема | Папка |
+|-------|--------|----------|---------------|-------|
+| Round 01 | ✅ Завершён | 9 | Memory + Knowledge | `docs/05-habr-projects/` |
+| Round 02 | ✅ Завершён | 6 | Voice, parsing, YAML | `round-02/` |
+| Round 03 | ✅ Завершён | 3 | Code review, fine-tuned LLM | `round-03/` |
+| Round 04 | ✅ Завершён | 3 | Agent platform, MCP protocol | `round-04/` |
+| Round 05 | ✅ Завершён | 3 | Autonomous pipeline, Russian NLP | `round-05/` |
+| Round 06 | ✅ Завершён | 4 | Video AI, CLI agents, GitHub automation | `round-06/` |
+| Round 07 | 🔜 Следующий | — | arXiv, federated AI, education | — |
+
+**Итого: 28 проектов, 18+ авторов**
 
 ## Шаблон раунда
 

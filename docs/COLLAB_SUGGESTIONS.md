@@ -1,22 +1,73 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «tester playwright токенов тест напрямую разница меняет взгляд высокочастотных за»
-> **Дата:** 2026-05-12 06:24  **Кандидатов:** 4
+> Автоматический поиск партнёрских проектов для: «devclaw saas pattern дней github issues декларативный интерфейс агентам структур»
+> **Дата:** 2026-05-12 06:36  **Кандидатов:** 4
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-05/projects/ai-web-tester.md`
+**Источник:** `docs/06-discovery/round-06/projects/devclaw-saas-pattern.md`
 
-**Запрос:** tester playwright токенов тест напрямую разница меняет взгляд высокочастотных задач слой антипаттерн lorenzo запускает improve скрипты через инструмент если аналогии некоторые вызовы дешевле делать архитектурный insight оптимизации токен затрат
+**Запрос:** devclaw saas pattern дней github issues декларативный интерфейс агентам структурированная задача агент читает выполняет самое trail spec решает уровне workflow lorenzo имеет improve паттерн исполнитель готовая архитектура автоматизации связи issue через
 
 ---
 
-## 1. Svyazi
+## 1. NGT[^ngt] Memory: ассоциативный граф
 
-**Релевантность:** `0.427`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.414`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+
+**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
+
+**Теги:** memory, ingestion, collaboration
+**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
+
+> ассоциативные связи в персистентной памяти LLM
+
+**Связан с:**
+  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
+  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
+
+**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
+**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
+
+<details>
+<summary>📧 Шаблон первого сообщения → spbmolot</summary>
+
+```
+**Кому:** spbmolot (@spbmolot)
+**Тема:** Коллаборация по теме «devclaw saas pattern дней github issues декларативный интерф»
+
+Привет, spbmolot!
+
+Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
+
+Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
+
+Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
+Хотел бы обсудить возможность интеграции или обмена опытом.
+
+**Конкретные вопросы:**
+- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
+- Есть ли API / адаптер для внешних систем?
+- Открыты к совместным PR или техническому обмену?
+
+Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
+
+С уважением,
+Lorenzo / svend4
+```
+
+</details>
+
+---
+
+## 2. Svyazi
+
+**Релевантность:** `0.395`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
 
 **Документ:** [`docs/autofilled/components/svyazi.md`](autofilled/components/svyazi.md)
 
@@ -37,7 +88,7 @@
 
 ```
 **Кому:** kksudo (@kksudo)
-**Тема:** Коллаборация по теме «tester playwright токенов тест напрямую разница меняет взгля»
+**Тема:** Коллаборация по теме «devclaw saas pattern дней github issues декларативный интерф»
 
 Привет, kksudo!
 
@@ -61,9 +112,9 @@ Lorenzo / svend4
 
 ---
 
-## 2. Wikontic: семантический граф
+## 3. Wikontic: семантический граф
 
-**Релевантность:** `0.277`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
+**Релевантность:** `0.353`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
 **Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
@@ -86,7 +137,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «tester playwright токенов тест напрямую разница меняет взгля»
+**Тема:** Коллаборация по теме «devclaw saas pattern дней github issues декларативный интерф»
 
 Привет, VitalyOborin!
 
@@ -112,9 +163,9 @@ Lorenzo / svend4
 
 ---
 
-## 3. Rufler
+## 4. Rufler
 
-**Релевантность:** `0.226`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
+**Релевантность:** `0.223`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 7
 
 **Документ:** [`docs/svyazi-2-0/components/rufler.md`](svyazi-2-0/components/rufler.md)
 
@@ -137,7 +188,7 @@ Lorenzo / svend4
 
 ```
 **Кому:** zodigancode (@zodigancode)
-**Тема:** Коллаборация по теме «tester playwright токенов тест напрямую разница меняет взгля»
+**Тема:** Коллаборация по теме «devclaw saas pattern дней github issues декларативный интерф»
 
 Привет, zodigancode!
 
@@ -150,57 +201,6 @@ Lorenzo / svend4
 
 **Конкретные вопросы:**
 - Как Svyazi, Rufler решает [_конкретный аспект из запроса_]?
-- Есть ли API / адаптер для внешних систем?
-- Открыты к совместным PR или техническому обмену?
-
-Репо: github.com/svend4/lorenzo | Документация: docs/PROTOTYPE_SPEC.md
-
-С уважением,
-Lorenzo / svend4
-```
-
-</details>
-
----
-
-## 4. NGT[^ngt] Memory: ассоциативный граф
-
-**Релевантность:** `0.139`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
-
-**Документ:** [`docs/05-habr-projects/memory/ngt-memory.md`](05-habr-projects/memory/ngt-memory.md)
-
-**Теги:** memory, ingestion, collaboration
-**Упомянутые проекты:** Svyazi, Yodoca, NGT Memory, MemNet
-
-> ассоциативные связи в персистентной памяти LLM
-
-**Связан с:**
-  - [docs/contacts/spbmolot.md](contacts/spbmolot.md) _references_
-  - [docs/05-habr-projects/knowledge/wikontic.md](05-habr-projects/knowledge/wikontic.md) _references_
-  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
-  - [docs/05-habr-projects/memory/agent-memory-mcp.md](05-habr-projects/memory/agent-memory-mcp.md) _references_
-
-**Автор:** spbmolot @spbmolot  |  GitHub  |  📖 `studied`
-**Контакт:** [`docs/contacts/spbmolot.md`](contacts/spbmolot.md)
-
-<details>
-<summary>📧 Шаблон первого сообщения → spbmolot</summary>
-
-```
-**Кому:** spbmolot (@spbmolot)
-**Тема:** Коллаборация по теме «tester playwright токенов тест напрямую разница меняет взгля»
-
-Привет, spbmolot!
-
-Изучил ваш проект **Svyazi, NGT Memory** и вижу сильную синергию с задачами, над которыми работаю.
-
-Особенно ценна идея: _ассоциативные связи в персистентной памяти LLM_
-
-Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
-Хотел бы обсудить возможность интеграции или обмена опытом.
-
-**Конкретные вопросы:**
-- Как Svyazi, NGT Memory решает [_конкретный аспект из запроса_]?
 - Есть ли API / адаптер для внешних систем?
 - Открыты к совместным PR или техническому обмену?
 
@@ -228,7 +228,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "tester playwright токенов тест напрямую разница ме"
+   python scripts/improve_collab_finder.py --query "devclaw saas pattern дней github issues декларатив"
    ```
 
-_Сгенерировано: 2026-05-12 06:24  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-12 06:36  |  Алгоритм: TF-IDF + BM25 + граф_
