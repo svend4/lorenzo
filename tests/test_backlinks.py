@@ -249,3 +249,16 @@ def test_main_many_sources_shows_ellipsis(tmp_path, monkeypatch):
     mod.main()
     content = target.read_text(encoding="utf-8")
     assert "ещё 1" in content  # 9 sources → 8 shown + "ещё 1"
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 136: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    orig = sys.argv[:]
+    try:
+        sys.argv = ["improve_backlinks.py"]
+        runpy.run_path(str(ROOT / "scripts" / "improve_backlinks.py"), run_name="__main__")
+    finally:
+        sys.argv = orig
