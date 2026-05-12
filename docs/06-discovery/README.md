@@ -28,9 +28,10 @@
 | Round 12 | ✅ Завершён | 4 | Data analytics AI, audio gen, vector DBs | `round-12/` |
 | Round 13 | ✅ Завершён | 4 | Observability, ADD, self-healing tests, OCR | `round-13/` |
 | Round 14 | ✅ Завершён | 4 | Context Engineering, DSPy, AI security, MarkItDown | `round-14/` |
-| Round 15 | 🔜 Следующий | — | Text-to-SQL agents, streaming AI, fine-tuning | — |
+| Round 15 | ✅ Завершён | 4 | Code review AI, Text2SQL, fine-tuning, LLM security | `round-15/` |
+| Round 16 | 🔜 Следующий | — | Workflow without LangChain, infra AI, eval frameworks | — |
 
-**Итого: 60 проектов, 32+ авторов**
+**Итого: 64 проекта, 34+ авторов**
 
 ## Шаблон раунда
 
