@@ -144,3 +144,175 @@ def test_save_cache_creates_file(tmp_path, monkeypatch):
     monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
     mod.save_cache({"https://ex.com": {"status": 200}})
     assert cache_file.exists()
+
+
+# ── check_url ─────────────────────────────────────────────────────────────────
+
+def test_check_url_uses_cache(monkeypatch):
+    from datetime import datetime as _dt
+    cache = {"https://cached.com": {"status": 200, "title": "Cached", "checked": _dt.now().isoformat()}}
+    result = mod.check_url("https://cached.com", cache)
+    assert result["status"] == 200
+    assert result["title"] == "Cached"
+
+
+def test_check_url_http_error(monkeypatch):
+    import urllib.error
+    def fake_urlopen(req, timeout=None):
+        raise urllib.error.HTTPError("url", 404, "Not Found", {}, None)
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    cache = {}
+    result = mod.check_url("https://notfound.example.com", cache)
+    assert result["status"] == 404
+
+
+def test_check_url_connection_error(monkeypatch):
+    def fake_urlopen(req, timeout=None):
+        raise OSError("Connection refused")
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    cache = {}
+    result = mod.check_url("https://unreachable.example.com", cache)
+    assert result["status"] == 0
+
+
+def test_check_url_stores_in_cache(monkeypatch):
+    import urllib.error
+    def fake_urlopen(req, timeout=None):
+        raise urllib.error.HTTPError("url", 500, "Server Error", {}, None)
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    cache = {}
+    mod.check_url("https://error.example.com", cache)
+    assert "https://error.example.com" in cache
+
+
+def test_check_url_success_fetches_title(monkeypatch):
+    from unittest.mock import MagicMock
+    fake_resp = MagicMock()
+    fake_resp.__enter__ = lambda s: s
+    fake_resp.__exit__ = MagicMock(return_value=False)
+    fake_resp.status = 200
+    fake_resp.headers = {"Content-Type": "text/html"}
+    fake_resp.read.return_value = b"<html><head><title>My Page Title</title></head><body></body></html>"
+    monkeypatch.setattr("urllib.request.urlopen", lambda req, timeout=None: fake_resp)
+    cache = {}
+    result = mod.check_url("https://success.example.com", cache)
+    assert result["status"] == 200
+    assert result.get("title") == "My Page Title"
+
+
+# ── _fetch_title ──────────────────────────────────────────────────────────────
+
+def test_fetch_title_returns_empty_on_error(monkeypatch):
+    def fake_urlopen(req, timeout=None):
+        raise OSError("no connection")
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    result = mod._fetch_title("https://error.example.com")
+    assert result == ""
+
+
+def test_fetch_title_non_html_content_type(monkeypatch):
+    from unittest.mock import MagicMock
+    fake_resp = MagicMock()
+    fake_resp.__enter__ = lambda s: s
+    fake_resp.__exit__ = MagicMock(return_value=False)
+    fake_resp.headers = {"Content-Type": "application/json"}
+    fake_resp.read.return_value = b'{"key": "value"}'
+    monkeypatch.setattr("urllib.request.urlopen", lambda req, timeout=None: fake_resp)
+    result = mod._fetch_title("https://example.com/api")
+    assert result == ""
+
+
+def test_fetch_title_no_title_tag(monkeypatch):
+    from unittest.mock import MagicMock
+    fake_resp = MagicMock()
+    fake_resp.__enter__ = lambda s: s
+    fake_resp.__exit__ = MagicMock(return_value=False)
+    fake_resp.headers = {"Content-Type": "text/html"}
+    fake_resp.read.return_value = b"<html><body>No title here</body></html>"
+    monkeypatch.setattr("urllib.request.urlopen", lambda req, timeout=None: fake_resp)
+    result = mod._fetch_title("https://example.com/notitle")
+    assert result == ""
+
+
+# ── main() ────────────────────────────────────────────────────────────────────
+
+def test_main_no_urls_in_docs(tmp_path, monkeypatch, capsys):
+    (tmp_path / "doc.md").write_text("# Test\n\nNo external URLs here.", encoding="utf-8")
+    cache_file = tmp_path / "cache.json"
+    out_file = tmp_path / "LINK_PREVIEW.md"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    mod.main()
+    assert out_file.exists()
+
+
+def test_main_with_cached_urls(tmp_path, monkeypatch, capsys):
+    import json as _json
+    from datetime import datetime as _dt
+    (tmp_path / "doc.md").write_text(
+        "# Test\n\nSee https://github.com/test/repo for details.",
+        encoding="utf-8"
+    )
+    cache_file = tmp_path / "cache.json"
+    cache_data = {
+        "https://github.com/test/repo": {
+            "status": 200, "title": "Test Repo", "checked": _dt.now().isoformat()
+        }
+    }
+    cache_file.write_text(_json.dumps(cache_data), encoding="utf-8")
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+    monkeypatch.setattr(mod, "REFRESH", False)
+    mod.main()
+    out_file = tmp_path / "LINK_PREVIEW.md"
+    assert out_file.exists()
+    content = out_file.read_text(encoding="utf-8")
+    assert "github.com" in content
+
+
+def test_main_with_broken_url(tmp_path, monkeypatch, capsys):
+    """Test main() with a URL that returns 404."""
+    import urllib.error
+    (tmp_path / "doc.md").write_text(
+        "# Test\n\nSee https://broken.example.com for details.",
+        encoding="utf-8"
+    )
+    cache_file = tmp_path / "cache.json"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+
+    def fake_urlopen(req, timeout=None):
+        raise urllib.error.HTTPError("url", 404, "Not Found", {}, None)
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    mod.main()
+    out_file = tmp_path / "LINK_PREVIEW.md"
+    assert out_file.exists()
+    content = out_file.read_text(encoding="utf-8")
+    assert "Недоступные" in content
+
+
+def test_main_with_redirect_url(tmp_path, monkeypatch, capsys):
+    """Test main() with a URL that returns 301."""
+    import urllib.error
+    (tmp_path / "doc.md").write_text(
+        "# Test\n\nSee https://redirect.example.com for details.",
+        encoding="utf-8"
+    )
+    cache_file = tmp_path / "cache.json"
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr(mod, "CACHE_FILE", cache_file)
+    monkeypatch.setattr(mod, "SECTION_FILTER", None)
+
+    def fake_urlopen(req, timeout=None):
+        raise urllib.error.HTTPError("url", 301, "Moved", {}, None)
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    mod.main()
+    out_file = tmp_path / "LINK_PREVIEW.md"
+    assert out_file.exists()
