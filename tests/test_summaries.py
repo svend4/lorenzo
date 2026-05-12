@@ -222,3 +222,121 @@ def test_main_apply_adds_summary(tmp_path, monkeypatch):
     mod.main()
     content = f.read_text(encoding="utf-8")
     assert "<!-- summary" in content or "# Title" in content
+
+
+# ── add_summary with long content (covers lines 53-78) ──────────────────────
+
+LONG_CONTENT = (
+    "# Project Overview\n\n"
+    "This is a comprehensive description of the AgentFS project that provides "
+    "file system operations for storing and retrieving agent knowledge. "
+    "It supports multiple storage backends and provides efficient indexing.\n"
+)
+
+
+def test_add_summary_long_file_no_snippet_returns_false(tmp_path):
+    """Lines 53-55: long file but only headings → no snippet → False."""
+    content = ("# Title\n## Sub\n### Sub2\n") * 10
+    f = tmp_path / "test.md"
+    f.write_text(content, encoding="utf-8")
+    result = mod.add_summary(f, dry_run=True)
+    assert result is False
+
+
+def test_add_summary_long_file_dry_run_true(tmp_path):
+    """Lines 53-78 (dry_run path): long file passes → returns True, not written."""
+    f = tmp_path / "test.md"
+    f.write_text(LONG_CONTENT, encoding="utf-8")
+    result = mod.add_summary(f, dry_run=True)
+    assert result is True
+    assert "<!-- summary -->" not in f.read_text(encoding="utf-8")
+
+
+def test_add_summary_long_file_writes(tmp_path):
+    """Lines 76-77: dry_run=False → file written."""
+    f = tmp_path / "test.md"
+    f.write_text(LONG_CONTENT, encoding="utf-8")
+    result = mod.add_summary(f, dry_run=False)
+    assert result is True
+    assert "<!-- summary -->" in f.read_text(encoding="utf-8")
+
+
+def test_add_summary_long_file_with_projects_includes_proj_line(tmp_path):
+    """Lines 58-59: file mentions known projects → Проекты: line added."""
+    content = (
+        "# AgentFS Overview\n\n"
+        "AgentFS provides file system operations for agent knowledge. "
+        "Yodoca handles memory consolidation. The Svyazi platform integrates "
+        "multiple components and subsystems efficiently.\n" * 2
+    )
+    f = tmp_path / "test.md"
+    f.write_text(content, encoding="utf-8")
+    mod.add_summary(f, dry_run=False)
+    text = f.read_text(encoding="utf-8")
+    assert "Проекты:" in text
+
+
+def test_main_readme_skipped(tmp_path, monkeypatch):
+    """Lines 97-99: README.md file is skipped."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    readme = tmp_path / "README.md"
+    readme.write_text(LONG_CONTENT, encoding="utf-8")
+    mod.main()
+    assert "<!-- summary -->" not in readme.read_text(encoding="utf-8")
+
+
+def test_main_dry_run_prints_update(tmp_path, monkeypatch, capsys):
+    """Lines 104-106: dry_run=True and file gets summary → prints [dry-run]."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog", "--dry-run"])
+    f = tmp_path / "doc.md"
+    f.write_text(LONG_CONTENT, encoding="utf-8")
+    mod.main()
+    captured = capsys.readouterr()
+    assert "dry-run" in captured.out
+
+
+def test_main_is_ignored_skipped(tmp_path, monkeypatch):
+    """Lines 101-102: is_ignored returns True → file skipped."""
+    import sys, types
+    mock_module = types.ModuleType("utils_docignore")
+    mock_module.is_ignored = lambda path, root=None: path.name == "ignored.md"
+    monkeypatch.setitem(sys.modules, "utils_docignore", mock_module)
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["prog"])
+    f = tmp_path / "ignored.md"
+    f.write_text(LONG_CONTENT, encoding="utf-8")
+    mod.main()
+    assert "<!-- summary -->" not in f.read_text(encoding="utf-8")
+
+
+def test_main_import_error_uses_fallback(tmp_path, monkeypatch):
+    """Lines 92-93: ImportError → fallback lambda used, no crash."""
+    import sys
+    sentinel = object()
+    orig = sys.modules.pop("utils_docignore", sentinel)
+    sys.modules["utils_docignore"] = None  # block the import
+    try:
+        monkeypatch.setattr(mod, "DOCS", tmp_path)
+        monkeypatch.setattr(mod, "ROOT", tmp_path)
+        monkeypatch.setattr("sys.argv", ["prog"])
+        mod.main()
+    finally:
+        if orig is sentinel:
+            sys.modules.pop("utils_docignore", None)
+        else:
+            sys.modules["utils_docignore"] = orig
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 118: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    monkeypatch.setattr("sys.argv", ["improve_summaries.py"])
+    script_path = str(ROOT / "scripts" / "improve_summaries.py")
+    runpy.run_path(script_path, run_name="__main__")
