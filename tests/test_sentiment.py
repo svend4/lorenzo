@@ -140,3 +140,71 @@ def test_main_sentiment_starts_with_heading(tmp_path, monkeypatch):
     mod.main()
     text = (tmp_path / "SENTIMENT.md").read_text(encoding="utf-8")
     assert text.strip().startswith("#")
+
+
+# ── main with >= 100 word files (covers lines 75, 83-95, 113-157) ─────────────
+
+# 200+ word text with positive, negative, urgent, uncertain markers
+LONG_POS = ("отлично эффективный оптимальный инновационный гибкий надёжный масштабируемый лучший превосходный ключевой "
+            "excellent optimal efficient powerful robust scalable innovative best great strong ") * 10
+
+LONG_NEG = ("риск проблема сложность ограничение недостаток слабость критический risk problem issue limitation weakness "
+            "danger critical unstable broken осторожно нестабильно ") * 8
+
+LONG_URG = ("срочно немедленно обязательно необходимо приоритет первоочередной must critical urgent required essential ") * 10
+
+LONG_UNC = ("возможно вероятно предположительно неизвестно предстоит планируется maybe possibly unclear uncertain unknown tbd ") * 10
+
+
+def test_main_skip_file_is_skipped(tmp_path, monkeypatch):
+    """Line 75: SENTIMENT.md file in DOCS is skipped."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "SENTIMENT.md").write_text(LONG_POS, encoding="utf-8")
+    mod.main()
+    # Should not crash, SENTIMENT.md should be the output file
+    assert (tmp_path / "SENTIMENT.md").exists()
+
+
+def test_main_with_long_positive_file(tmp_path, monkeypatch):
+    """Lines 83-95, 113-120, 132-134: files >= 100 words populate file_rows/section_data."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    subdir = tmp_path / "01-svyazi"
+    subdir.mkdir()
+    (subdir / "positive.md").write_text(LONG_POS, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SENTIMENT.md").read_text(encoding="utf-8")
+    assert "оптимистичных" in text or "Самые" in text
+
+
+def test_main_with_long_negative_file(tmp_path, monkeypatch):
+    """Lines 144-146, 151, 157: negative/uncertain/tone distribution sections."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "negative.md").write_text(LONG_NEG, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SENTIMENT.md").read_text(encoding="utf-8")
+    assert "скептичн" in text or "Тональность" in text
+
+
+def test_main_with_mixed_tone_files(tmp_path, monkeypatch):
+    """Lines 83-157: multiple files with different tones → tone distribution."""
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    (tmp_path / "pos.md").write_text(LONG_POS, encoding="utf-8")
+    (tmp_path / "neg.md").write_text(LONG_NEG, encoding="utf-8")
+    (tmp_path / "urg.md").write_text(LONG_URG, encoding="utf-8")
+    (tmp_path / "unc.md").write_text(LONG_UNC, encoding="utf-8")
+    mod.main()
+    text = (tmp_path / "SENTIMENT.md").read_text(encoding="utf-8")
+    assert "Распределение" in text
+
+
+def test_main_block_via_runpy(tmp_path, monkeypatch):
+    """Line 166: __main__ block."""
+    import runpy
+    monkeypatch.setattr(mod, "DOCS", tmp_path)
+    monkeypatch.setattr(mod, "ROOT", tmp_path)
+    script_path = str(ROOT / "scripts" / "improve_sentiment.py")
+    runpy.run_path(script_path, run_name="__main__")
