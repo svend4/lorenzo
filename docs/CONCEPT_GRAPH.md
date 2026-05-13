@@ -1,5 +1,13 @@
 # Граф концептов базы знаний
 
+<!-- summary -->
+> Концептов: **40** | Связей: **776** (мин. вес: 2)
+**Проекты:** Svyazi
+
+---
+
+
+
 _Обновлено: 2026-05-13_
 
 Концептов: **40** | Связей: **776** (мин. вес: 2)
@@ -38,11 +46,11 @@ graph TD
     nautilus["nautilus\n(281)"]
     svyazi("svyazi\n(271)")
     docs["docs\n(265)"]
-    через["через\n(242)"]
     summary["summary\n(242)"]
+    через["через\n(242)"]
     knowledge["knowledge\n(241)"]
-    search[["search\n(237)"]]
     поиска[["поиска\n(237)"]]
+    search[["search\n(236)"]]
     похожие["похожие\n(234)"]
     вакансии["вакансии\n(233)"]
     vacancies["vacancies\n(231)"]
@@ -125,7 +133,7 @@ graph TD
 | `создан` | 428 | 8165 | other |
 | `основе` | 424 | 8114 | other |
 | `репозитория` | 466 | 8101 | project |
-| `anthropic` | 632 | 8065 | other |
+| `anthropic` | 632 | 8064 | other |
 | `исследования` | 414 | 8001 | other |
 | `ведут` | 383 | 7600 | other |
 | `материалы` | 369 | 7360 | other |
@@ -144,3 +152,14 @@ graph TD
 | `корень` | 211 | 4251 | other |
 | `через` | 242 | 3921 | other |
 | `readme` | 320 | 3534 | other |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [KEYWORD_INDEX](KEYWORD_INDEX.md)
+- [28-appendix-a-minimal-working-example](02-anthropic-vacancies/28-appendix-a-minimal-working-example.md)
+- [14-other-ai-relationships](lorenzo-agent/14-other-ai-relationships.md)
+- [305-a-practical-path-to-layer-b-through-symbiotic-inte](02-anthropic-vacancies/305-a-practical-path-to-layer-b-through-symbiotic-inte.md)
+

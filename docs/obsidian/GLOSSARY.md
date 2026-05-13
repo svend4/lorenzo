@@ -1,11 +1,28 @@
 ---
 title: "Глоссарий проектов"
 tags:
+  - glossary
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # Глоссарий проектов
+
+> [!NOTE]
+> Раздел `GLOSSARY` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: glossary, docs -->
+
+
+<!-- summary -->
+> Все проекты, упоминаемые в документах, с количеством файлов.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
 
 Все проекты, упоминаемые в документах, с количеством файлов.
 
@@ -59,3 +76,21 @@ date: 2026-05-13
 - [[DIGEST_WEEKLY]]
 - _...ещё 27_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[MINDMAP]]
+- [[GRAPH]]
+- [[ENTITIES]]
+- [[NETWORK]]
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_glossary.py
+```

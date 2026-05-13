@@ -50,23 +50,7 @@ h2. Контакты
 * Статус связи: [не писали / написали / ответили]
 
 ----
-_Создано: 2026-05-11_
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[REGISTRY]]
-* [[SEARCH]]
-* [[TABLES]]
-* [[research-summary]]
-* [[README]]
-* [[agent-spec]]
-* _...ещё 2_
-
+_Создано: 2026-05-13_
 
 
 h2. Использование
@@ -74,3 +58,26 @@ h2. Использование
 # Запуск
 python scripts/improve_project_component.py
 {code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [[READABILITY]]
+* [[READING_TIME]]
+* [[SEARCH]]
+* [[TABLES]]
+* [[research-summary]]
+* [[README]]
+* [[agent-spec]]
+* [[mega-stack]]
+* _...ещё 1_
+

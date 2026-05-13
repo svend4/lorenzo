@@ -1,30 +1,25 @@
 # Языковой состав документов
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `LANGUAGE_STATS` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: language-stats, docs -->
-
-
 <!-- summary -->
-> `LANGUAGE_STATS` — раздел документации проекта Lorenzo.
+> - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
+
+---
+
 
 
 _Обновлено: 2026-05-13_
 
-Файлов: **1239**
+Файлов: **1247**
 
 ## Распределение
 
 | Язык | Файлов |
 |------|--------|
-| 🇷🇺 RU (≥80% кириллица) | 86 |
-| 🇬🇧 EN (≥80% латиница) | 269 |
-| 🔀 MIX | 883 |
-| ❓ OTHER | 1 |
+| 🇷🇺 RU (≥80% кириллица) | 83 |
+| 🇬🇧 EN (≥80% латиница) | 271 |
+| 🔀 MIX | 893 |
+| ❓ OTHER | 0 |
 
 ## Файлы с неожиданным языком
 
@@ -171,14 +166,15 @@ _Обновлено: 2026-05-13_
 | `249-composite-skills-agent-md.md` | 21% | 79% |
 | `31-event-sourced-legal-document-history.md` | 21% | 79% |
 | `203-благодарности.md` | 79% | 21% |
+| `CROSS_SECTION.md` | 21% | 79% |
 | `02-collaboration-partners.md` | 79% | 21% |
+| `NARRATIVE.md` | 79% | 21% |
 | `71-критерии-выбора-для-фазы-3.md` | 79% | 21% |
 | `README.md` | 21% | 79% |
 | `README.md` | 21% | 79% |
 | `04-pochemu-ne-postroeno.md` | 79% | 21% |
 | `README.md` | 21% | 79% |
 | `10-otkrytye-voprosy.md` | 79% | 21% |
-| `ensemble.md` | 79% | 21% |
 | `308-table-of-contents.md` | 21% | 79% |
 | `05-polymath-project-tao-comparison.md` | 79% | 21% |
 | `03-sgb-advocate-colleague-example.md` | 21% | 79% |
@@ -186,12 +182,10 @@ _Обновлено: 2026-05-13_
 | `04-what-to-take-from-info-repos.md` | 22% | 78% |
 | `328-2-что-cowork-обеспечивает-что-ingit-не-нужно-строи.md` | 78% | 22% |
 | `README.md` | 22% | 78% |
-| `QA.md` | 78% | 22% |
 | `20-hybrid-olap-oltp-with-real-time-sync.md` | 22% | 78% |
 | `README.md` | 78% | 22% |
 | `03-chunking.md` | 78% | 22% |
 | `31-35-final.md` | 22% | 78% |
-| `decision-record.md` | 78% | 22% |
 | `SIMILAR.md` | 22% | 78% |
 | `01-otkrytie-cowork.md` | 78% | 22% |
 | `GLOSSARY.md` | 22% | 78% |
@@ -206,6 +200,7 @@ _Обновлено: 2026-05-13_
 | `07-prakticheskie-shagi.md` | 77% | 23% |
 | `115-8-ограничения-и-открытые-вопросы.md` | 77% | 23% |
 | `119-appendix-b-примеры-расхождений-и-их-разрешения.md` | 77% | 23% |
+| `DIGEST_AUTO.md` | 23% | 77% |
 | `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 23% | 77% |
 | `334-8-импликации-для-nautilus-и-okwf.md` | 77% | 23% |
 | `18-llm-powered-legal-corpus-builder.md` | 23% | 77% |
@@ -214,11 +209,10 @@ _Обновлено: 2026-05-13_
 | `12-closing.md` | 23% | 77% |
 | `02-dvukhsloynyy-stek.md` | 77% | 23% |
 | `342-что-такое-вариант-c-concept-document-для-anthropic.md` | 23% | 77% |
-| `CROSS_SECTION.md` | 23% | 77% |
-| `SITEMAP.md` | 23% | 77% |
 | `README.md` | 23% | 77% |
 | `README.md` | 23% | 77% |
 | `25-13-reference-implementation.md` | 23% | 77% |
+| `SITEMAP.md` | 23% | 77% |
 | `01-интегральный-анализ-профиля-svend4.md` | 77% | 23% |
 | `106-tl-dr.md` | 77% | 23% |
 | `methodology.md` | 77% | 23% |
@@ -234,7 +228,6 @@ _Обновлено: 2026-05-13_
 | `206-приложение-b-матрица-сравнения-областей.md` | 76% | 24% |
 | `02-ultimate-legal-ai.md` | 24% | 76% |
 | `00-intro.md` | 24% | 76% |
-| `QA.md` | 76% | 24% |
 | `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | 76% | 24% |
 | `README.md` | 24% | 76% |
 | `00-question-mmorpg-for-programmers.md` | 76% | 24% |
@@ -242,27 +235,30 @@ _Обновлено: 2026-05-13_
 | `03-consolidation-principles.md` | 76% | 24% |
 | `26-ast-based-code-analysis-for-legal-automation.md` | 24% | 76% |
 | `42-author-contact.md` | 24% | 76% |
-| `SCORING.md` | 76% | 24% |
+| `MINDMAP.md` | 24% | 76% |
 | `01-q1-what-lorenzo-is.md` | 24% | 76% |
 | `01-zachem-dokument.md` | 76% | 24% |
 | `09-4-passport-passport-md.md` | 24% | 76% |
 | `05-platform-not-position.md` | 76% | 24% |
 | `04-event-sourcing-consensus.md` | 24% | 76% |
-| `READABILITY.md` | 24% | 76% |
 | `README.md` | 76% | 24% |
 | `01-context-motivation.md` | 76% | 24% |
 | `19-multi-agent-observability-platform.md` | 24% | 76% |
 | `332-6-уточнённый-объём-ingit-с-учётом-cowork.md` | 75% | 25% |
+| `READABILITY.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
 | `33-event-sourcing-cqrs-clickhouse-analytics.md` | 25% | 75% |
-| `READING_TIME.md` | 25% | 75% |
 | `28-pydantic-enforced-legal-workflows.md` | 25% | 75% |
+| `READING_TIME.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
 | `05-what-to-do-right-now.md` | 25% | 75% |
 | `04-simbioticheskaya-arkhitektura.md` | 75% | 25% |
 | `103-appendix-b-change-log.md` | 25% | 75% |
+| `03-INNOVATIVE.md` | 25% | 75% |
+| `04-NOVEL.md` | 25% | 75% |
 | `302-ссылки.md` | 75% | 25% |
+| `GRAPH.md` | 25% | 75% |
 | `38-content-overview.md` | 75% | 25% |
 | `13-rest-api.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
@@ -270,7 +266,6 @@ _Обновлено: 2026-05-13_
 | `README.md` | 25% | 75% |
 | `03-catalog.md` | 74% | 26% |
 | `README.md` | 26% | 74% |
-| `QA.md` | 74% | 26% |
 | `347-твоя-миссия.md` | 74% | 26% |
 | `00-question-supply-demand.md` | 74% | 26% |
 | `202-12-заключение.md` | 74% | 26% |
@@ -281,9 +276,7 @@ _Обновлено: 2026-05-13_
 | `104-appendix-c-references.md` | 26% | 74% |
 | `05-chetyre-puti-integratsii.md` | 74% | 26% |
 | `188-ai-опосредованное-представительство-для-недопредст.md` | 74% | 26% |
-| `QA.md` | 74% | 26% |
 | `README.md` | 26% | 74% |
-| `project-component.md` | 74% | 26% |
 | `02-nautilus-A-pro2-meta.md` | 74% | 26% |
 | `README.md` | 74% | 26% |
 | `24-mega-integration-full-stack.md` | 26% | 74% |
@@ -301,7 +294,6 @@ _Обновлено: 2026-05-13_
 | `09-riski-voprosy.md` | 73% | 27% |
 | `16-history.md` | 73% | 27% |
 | `README.md` | 27% | 73% |
-| `QUESTIONS.md` | 73% | 27% |
 | `WORD_CLOUD.md` | 27% | 73% |
 | `13-reprioritization.md` | 27% | 73% |
 | `ngt-memory.md` | 73% | 27% |
@@ -309,21 +301,19 @@ _Обновлено: 2026-05-13_
 | `10-collaborators-landscape.md` | 27% | 73% |
 | `116-9-checklist-применения-методологии.md` | 73% | 27% |
 | `20-24-final.md` | 27% | 73% |
-| `GRAPH.md` | 27% | 73% |
-| `SCHEDULE.md` | 73% | 27% |
 | `09-ne-reshaet.md` | 73% | 27% |
 | `93-18-reference-implementation.md` | 27% | 73% |
 | `spbmolot.md` | 73% | 27% |
 | `22-russian-international-oss-stack.md` | 27% | 73% |
+| `ENTITIES.md` | 28% | 72% |
 | `reading-paths.md` | 28% | 72% |
 | `27-hybrid-rag-with-ast-chunked-code.md` | 28% | 72% |
 | `25-30-extended.md` | 28% | 72% |
 | `METHODOLOGY.md` | 72% | 28% |
 | `00-abstract.md` | 72% | 27% |
-| `MINDMAP.md` | 28% | 72% |
-| `DIGEST_AUTO.md` | 28% | 72% |
-| `29-meta-programmatic-legal-template-generator.md` | 28% | 72% |
 | `SPELLCHECK.md` | 28% | 72% |
+| `MISSING.md` | 28% | 72% |
+| `29-meta-programmatic-legal-template-generator.md` | 28% | 72% |
 | `204-ссылки.md` | 72% | 28% |
 | `24-12-versioning-policy.md` | 28% | 72% |
 | `62-author-contact.md` | 28% | 72% |
@@ -339,7 +329,6 @@ _Обновлено: 2026-05-13_
 | `README.md` | 29% | 71% |
 | `31-content-overview.md` | 29% | 71% |
 | `361-когда-ты-honestly-не-знаешь.md` | 71% | 29% |
-| `MISSING.md` | 29% | 71% |
 | `289-инфраструктура-для-ai-совместной-интеллектуальной-.md` | 71% | 29% |
 | `54-for-the-curious-philosophy.md` | 29% | 71% |
 | `06-adapter-interface.md` | 29% | 71% |
@@ -357,7 +346,6 @@ _Обновлено: 2026-05-13_
 | `02-minuses-1-10.md` | 29% | 70% |
 | `22-10-queryresult-structure.md` | 30% | 70% |
 | `51-compatibility-level.md` | 30% | 70% |
-| `ENTITIES.md` | 30% | 70% |
 | `00-intro.md` | 70% | 30% |
 | `zodigancode.md` | 70% | 30% |
 | `10-future.md` | 70% | 30% |
@@ -366,16 +354,16 @@ _Обновлено: 2026-05-13_
 | `288-appendix-position-in-series-visualization.md` | 30% | 70% |
 | `90-15-security-considerations.md` | 30% | 70% |
 | `00-question-habr-examples.md` | 70% | 30% |
+| `QA.md` | 70% | 30% |
 | `61-compatibility-level.md` | 30% | 70% |
 | `65-readme-md.md` | 30% | 70% |
 | `02-методика-и-рамка-отбора.md` | 70% | 30% |
+| `02-MEDIUM.md` | 30% | 70% |
 | `00-context.md` | 30% | 70% |
 | `TABLES.md` | 30% | 70% |
 | `125-readme-mcp-md-инструкция-по-установке.md` | 30% | 70% |
 | `88-13-rest-api-contract-normative-for-portals.md` | 30% | 70% |
 | `09-q9-geographic-linguistic-scope.md` | 30% | 70% |
-| `SUMMARIES.md` | 70% | 30% |
-| `QA.md` | 70% | 30% |
 | `09-minuses-and-risks.md` | 70% | 30% |
 | `09-14-extended.md` | 30% | 70% |
 | `02-architecture.md` | 70% | 30% |
@@ -383,6 +371,7 @@ _Обновлено: 2026-05-13_
 | `concepts.md` | 31% | 69% |
 | `07-portal-entry.md` | 31% | 69% |
 | `AUTHORS.md` | 31% | 69% |
+| `STALENESS.md` | 31% | 69% |
 | `01-three-key-candidates.md` | 69% | 31% |
 | `7-metaphor.md` | 69% | 31% |
 | `README.md` | 31% | 69% |
@@ -396,16 +385,18 @@ _Обновлено: 2026-05-13_
 | `08-implikatsii-nautilus-okwf.md` | 69% | 31% |
 | `README.md` | 69% | 31% |
 | `memnet.md` | 69% | 31% |
+| `RISK_REGISTER.md` | 69% | 31% |
 | `08-promyshlennost-postroit.md` | 69% | 31% |
 | `03-nautilus-B-meta-orchestrator.md` | 69% | 31% |
 | `kksudo.md` | 31% | 69% |
 | `README.md` | 31% | 69% |
 | `README.md` | 31% | 69% |
-| `STALENESS.md` | 31% | 69% |
 | `nlaik.md` | 69% | 31% |
 | `README.md` | 31% | 69% |
 | `26-14-adr-001-federation-over-merging.md` | 31% | 69% |
+| `CODE_BLOCKS.md` | 31% | 69% |
 | `README.md` | 31% | 69% |
+| `NETWORK.md` | 32% | 68% |
 | `09-acknowledgments.md` | 32% | 68% |
 | `21-9-query-flow.md` | 32% | 68% |
 | `05-section-5-role-of-anthropic.md` | 32% | 68% |
@@ -413,27 +404,25 @@ _Обновлено: 2026-05-13_
 | `94-19-adr-001-federation-over-merging.md` | 32% | 68% |
 | `01-why-stronger-than-it-looks.md` | 68% | 32% |
 | `spbmolot.md` | 32% | 68% |
+| `QA.md` | 68% | 32% |
 | `README.md` | 32% | 68% |
 | `11-hybrid-crdt-sql-database.md` | 32% | 68% |
-| `CODE_BLOCKS.md` | 32% | 68% |
 | `README.md` | 68% | 32% |
 | `126-установка.md` | 68% | 32% |
 | `78-3-registry-nautilus-json.md` | 32% | 68% |
+| `READING_ORDER.md` | 32% | 68% |
 | `meeting-notes.md` | 68% | 32% |
 | `132-planned-v0-2-0.md` | 32% | 68% |
 | `187-слой-представительских-агентов-md.md` | 31% | 68% |
 | `272-appendix-d-connection-diagram.md` | 32% | 68% |
-| `READING_ORDER.md` | 32% | 68% |
 | `11-zaklyuchenie.md` | 68% | 32% |
 | `75-0-status-of-this-document.md` | 32% | 68% |
-| `RISK_REGISTER.md` | 68% | 32% |
 | `05-synthesis.md` | 68% | 32% |
 | `06-utochnyonnyy-obyom-ingit.md` | 68% | 32% |
 | `00-intro-part2.md` | 68% | 32% |
 | `95-20-adr-002-q6-as-first-class-protocol-concept.md` | 32% | 68% |
 | `03-q3-what-lorenzo-does.md` | 32% | 68% |
 | `07-q7-success-metrics.md` | 32% | 68% |
-| `COMPLEXITY.md` | 68% | 32% |
 | `00-question-two-nautiluses.md` | 68% | 32% |
 | `05-anchor-node-habr-scout.md` | 32% | 68% |
 | `README.md` | 32% | 68% |
@@ -455,6 +444,7 @@ _Обновлено: 2026-05-13_
 | `kksudo.md` | 67% | 33% |
 | `01-claude-response.md` | 67% | 33% |
 | `09-limitations-open-questions.md` | 67% | 33% |
+| `05-PRIORITIES.md` | 33% | 67% |
 | `06-q6-accountability.md` | 33% | 67% |
 | `10-second-order-ensembles.md` | 67% | 33% |
 | `12-roadmap.md` | 67% | 33% |
@@ -464,6 +454,7 @@ _Обновлено: 2026-05-13_
 | `12-дорожная-карта-прототипа-следующей-итерации.md` | 67% | 33% |
 | `BADGES.md` | 33% | 67% |
 | `16-people.md` | 67% | 33% |
+| `QA.md` | 67% | 33% |
 | `16-appendix-a-minimal-working-example.md` | 33% | 67% |
 | `102-доступ-к-данным.md` | 67% | 33% |
 | `354-существующий-landscape-collaborators-твоя-working-.md` | 33% | 67% |
@@ -472,17 +463,17 @@ _Обновлено: 2026-05-13_
 | `16-glossary.md` | 66% | 34% |
 | `6-metaphor.md` | 66% | 34% |
 | `experiment-log.md` | 66% | 34% |
-| `NETWORK.md` | 34% | 66% |
 | `README.md` | 34% | 66% |
 | `README.md` | 34% | 66% |
 | `150-appendix-c-version-history.md` | 34% | 66% |
 | `02-related-projects.md` | 66% | 34% |
 | `12-content-overview.md` | 34% | 66% |
 | `58-content-overview.md` | 66% | 34% |
-| `QA.md` | 66% | 34% |
+| `EMPTY_SECTIONS.md` | 66% | 34% |
 | `06-final-tier-ranking.md` | 34% | 66% |
 | `README.md` | 34% | 66% |
 | `mclaude.md` | 66% | 34% |
+| `ORPHANS.md` | 66% | 34% |
 | `30-mega-stack-3-0-with-dsl-ast.md` | 34% | 66% |
 | `121-appendix-c-история-изменений-методологии.md` | 66% | 34% |
 | `305-a-practical-path-to-layer-b-through-symbiotic-inte.md` | 34% | 66% |
@@ -502,12 +493,10 @@ _Обновлено: 2026-05-13_
 | `166-representative-agent-layer-md.md` | 35% | 65% |
 | `README.md` | 65% | 35% |
 | `LINKS.md` | 35% | 65% |
-| `QA.md` | 65% | 35% |
 | `PROCESSING_GUIDE.md` | 65% | 35% |
 | `glossary-entry.md` | 65% | 35% |
 | `08-q8-other-ai-relationships.md` | 35% | 65% |
 | `06-search.md` | 65% | 35% |
-| `VALIDATION.md` | 65% | 35% |
 | `11-concrete-potential-collaborator.md` | 34% | 65% |
 | `6-bonus-rram-memristor.md` | 65% | 35% |
 | `01-response.md` | 65% | 35% |
@@ -524,13 +513,13 @@ _Обновлено: 2026-05-13_
 | `07-llm.md` | 64% | 36% |
 | `README.md` | 36% | 64% |
 | `13-contacts.md` | 64% | 36% |
+| `QA.md` | 64% | 36% |
 | `15-security.md` | 36% | 64% |
 | `weekly-digest.md` | 64% | 36% |
 | `108-2-формальный-workflow.md` | 64% | 35% |
 | `03-finance.md` | 64% | 36% |
 | `13-communications.md` | 64% | 36% |
 | `23-11-security-considerations.md` | 36% | 64% |
-| `QA.md` | 64% | 36% |
 | `04-komu-ty-sluzhish.md` | 64% | 36% |
 | `79-4-passport-passport-md.md` | 36% | 64% |
 | `README.md` | 36% | 64% |
@@ -545,14 +534,15 @@ _Обновлено: 2026-05-13_
 | `113-6-почему-это-валидный-паттерн-для-ai-assisted-work.md` | 64% | 36% |
 | `02-four-structural-blockers.md` | 64% | 36% |
 | `23-security-first-code-review-pipeline.md` | 36% | 64% |
-| `ALERTS.md` | 64% | 36% |
 | `QA.md` | 64% | 36% |
 | `knowledge-space.md` | 64% | 36% |
 | `rufler.md` | 64% | 36% |
-| `QA.md` | 63% | 37% |
+| `METRICS.md` | 37% | 63% |
+| `SCORING.md` | 63% | 37% |
 | `10-compute.md` | 63% | 37% |
 | `04-mem0-letta-graphiti.md` | 37% | 63% |
 | `118-appendix-a-шаблон-для-header-warning.md` | 63% | 37% |
+| `00-CURRENT-STATE.md` | 37% | 63% |
 | `04-security.md` | 63% | 37% |
 | `02-memnet.md` | 63% | 37% |
 | `04-dochkina-sequential.md` | 63% | 37% |
@@ -574,21 +564,25 @@ _Обновлено: 2026-05-13_
 | `03-three-variants-A-B-C.md` | 63% | 37% |
 | `05-supplementary-infrastructure.md` | 63% | 37% |
 | `README.md` | 37% | 63% |
+| `TIMELINE.md` | 37% | 63% |
 | `01-fde-downgraded.md` | 63% | 37% |
 | `00-overview.md` | 63% | 37% |
 | `01-level-0-manual.md` | 63% | 37% |
 | `06-безопасность-приватность-и-бюджетный-роутинг.md` | 63% | 37% |
 | `07-выводы.md` | 63% | 37% |
+| `DENSITY.md` | 37% | 63% |
+| `QA.md` | 63% | 37% |
 | `vitalysemenov.md` | 63% | 37% |
 | `17-honestly-ne-znaesh.md` | 63% | 37% |
 | `00-question-can-it-apply-to-docs.md` | 63% | 37% |
+| `ensemble.md` | 63% | 37% |
 | `365-развёрнутый-анализ-внуковой-комбинации.md` | 37% | 62% |
+| `TECH_RADAR.md` | 62% | 38% |
 | `01-three-archetypes.md` | 62% | 38% |
 | `review-record.md` | 62% | 38% |
 | `03-component-catalog.md` | 38% | 62% |
 | `131-ограничения-текущей-версии-0-1-0-draft.md` | 62% | 38% |
 | `01-agent-routing.md` | 62% | 37% |
-| `TIMELINE.md` | 38% | 62% |
 | `15-public-benefit.md` | 62% | 38% |
 | `01-introduction.md` | 62% | 38% |
 | `03-registry.md` | 38% | 62% |
@@ -627,46 +621,55 @@ _Обновлено: 2026-05-13_
 | `risk-entry.md` | 62% | 38% |
 | `README.md` | 61% | 39% |
 | `105-review-methodology-md.md` | 39% | 61% |
+| `SCHEDULE.md` | 61% | 39% |
 | `4-skill-catalogs-subagents.md` | 61% | 39% |
+| `SUMMARIES.md` | 61% | 39% |
 | `02-vshe-scientific-networking.md` | 61% | 39% |
 | `16-vsegda-delaesh.md` | 61% | 39% |
 | `mega-stack.md` | 39% | 61% |
+| `WORD_FREQ.md` | 39% | 61% |
 | `07-software-engineering-infrastructure.md` | 61% | 39% |
 | `00-intro.md` | 61% | 39% |
+| `DECISIONS.md` | 61% | 39% |
 | `02-existing-niche.md` | 61% | 39% |
 | `message-template.md` | 61% | 39% |
 | `353-что-ты-не-можешь-делать-вообще.md` | 61% | 39% |
+| `COMPLEXITY.md` | 61% | 39% |
 | `09-federated-platform.md` | 39% | 61% |
 | `1-one-person-one-company.md` | 61% | 39% |
 | `46-essence.md` | 61% | 39% |
 | `128-доступные-инструменты.md` | 39% | 61% |
+| `QA.md` | 61% | 39% |
 | `05-minuses-as-business.md` | 61% | 39% |
 | `00-question-habr-2.md` | 61% | 39% |
 | `ngt-memory.md` | 61% | 39% |
 | `363-твоя-identity-как-persistent-character.md` | 61% | 39% |
+| `QA.md` | 61% | 39% |
 | `02-final-ranking.md` | 61% | 39% |
 | `00-question-scenario.md` | 61% | 39% |
 | `01-what-to-anonymize-german-standard.md` | 61% | 39% |
 | `59-angle-perspective.md` | 40% | 60% |
-| `DECISIONS.md` | 60% | 39% |
+| `INDEX.md` | 40% | 60% |
 | `12-concrete-next-step.md` | 40% | 60% |
 | `08-consensus-algorithm.md` | 40% | 60% |
 | `SIMILAR_PASSAGES.md` | 60% | 40% |
 | `06-engineering-design-product.md` | 60% | 40% |
 | `01-kto-ty.md` | 60% | 40% |
 | `37-native-format.md` | 40% | 60% |
+| `DEPENDABOT.md` | 40% | 60% |
 | `06-section-6-proposer-role.md` | 40% | 60% |
 | `ai-factory.md` | 60% | 40% |
 | `349-твоя-личность.md` | 60% | 40% |
 | `wikontic.md` | 60% | 40% |
-| `SKILL_DASHBOARD.md` | 60% | 40% |
+| `COMPARE.md` | 40% | 60% |
 | `01-existing-landscape.md` | 60% | 40% |
 | `12-technical-program-management.md` | 60% | 40% |
 | `02-primary-fde.md` | 60% | 40% |
 | `47-native-format.md` | 40% | 60% |
 | `08-что-это-продолжение-добавляет.md` | 60% | 40% |
+| `SENTINEL.md` | 40% | 60% |
 | `250-bridging-the-gap-between-profession-wide-and-indiv.md` | 60% | 40% |
-| `WORD_FREQ.md` | 40% | 60% |
+| `REGISTRY.md` | 40% | 60% |
 | `4-summary-authors.md` | 60% | 40% |
 | `18-comment-on-document.md` | 60% | 40% |
 | `124-конфигурация-для-claude-desktop.md` | 60% | 40% |
@@ -674,14 +677,14 @@ _Обновлено: 2026-05-13_
 | `.md` | 40% | 60% |
 | `07-progression-logic.md` | 60% | 40% |
 | `graph-rag.md` | 60% | 40% |
-| `TECH_RADAR.md` | 60% | 40% |
+| `CONTACT_PRIORITY.md` | 40% | 60% |
 | `04-what-to-do.md` | 60% | 40% |
 | `11-application-plan-current-docs.md` | 60% | 40% |
 | `190-содержание.md` | 40% | 60% |
-| `REGISTRY.md` | 40% | 60% |
 | `3-forensic-rag.md` | 60% | 40% |
 | `15-appendix-c-history.md` | 60% | 40% |
 | `05-план-прототипа-и-возможные-контакты.md` | 60% | 40% |
+| `PROGRESS.md` | 40% | 60% |
 | `08-pluses-of-model.md` | 60% | 40% |
 | `09-section-9-timeliness.md` | 40% | 60% |
 | `00-question-habr-link.md` | 60% | 40% |
@@ -689,28 +692,24 @@ _Обновлено: 2026-05-13_
 | `07-mvp-planning.md` | 59% | 41% |
 | `50-bridges.md` | 59% | 41% |
 | `01-synthesis.md` | 59% | 41% |
-| `INDEX.md` | 41% | 59% |
-| `MCP_DASHBOARD.md` | 59% | 41% |
+| `01-SIMPLE.md` | 40% | 59% |
 | `dmitriila.md` | 59% | 41% |
 | `05-which-combination-more-valuable.md` | 59% | 41% |
 | `10-query-flow.md` | 41% | 59% |
 | `yjs-automerge.md` | 59% | 41% |
 | `69-section.md` | 59% | 40% |
-| `REPORT.md` | 59% | 41% |
 | `08-section-8-risks-mitigations.md` | 41% | 59% |
 | `07-specialized-knowledge-workspace.md` | 41% | 59% |
 | `roadmap.md` | 59% | 41% |
 | `89-14-sdk-contract-informative.md` | 40% | 59% |
 | `09-product-management-support-ops.md` | 59% | 41% |
 | `04-q4-character.md` | 41% | 59% |
-| `README.md` | 59% | 41% |
 | `08-conclusions.md` | 59% | 41% |
 | `07-why-valid-for-ai.md` | 59% | 41% |
 | `76-1-introduction.md` | 59% | 41% |
 | `03-synthesis-hebbian-collaboration-graph.md` | 59% | 41% |
 | `01-response.md` | 59% | 41% |
 | `04-fallback-ratio-question.md` | 59% | 41% |
-| `COMPARE.md` | 41% | 59% |
 | `03-partial-fit-honesty.md` | 59% | 41% |
 | `cutcode.md` | 59% | 41% |
 | `06-conclusion-deserves-attention.md` | 41% | 59% |
@@ -735,6 +734,7 @@ _Обновлено: 2026-05-13_
 | `E-execution-plane.md` | 42% | 58% |
 | `20-adr-002-q6-first-class.md` | 42% | 58% |
 | `02-multiagentnyy-khaos-reshenie-auto-ai-router.md` | 58% | 42% |
+| `VALIDATION.md` | 58% | 42% |
 | `19-adr-001-federation-over-merging.md` | 42% | 58% |
 | `do-not-glue.md` | 58% | 42% |
 | `112-5-связь-с-существующими-методологиями.md` | 58% | 42% |
@@ -743,7 +743,8 @@ _Обновлено: 2026-05-13_
 | `08-bez-max-approval.md` | 58% | 42% |
 | `00-context-fundamental-questions.md` | 42% | 58% |
 | `18-reference-implementation.md` | 42% | 58% |
-| `DENSITY.md` | 42% | 58% |
+| `contact-outreach.md` | 58% | 42% |
+| `INFO_PROCESSING_METHODS.md` | 58% | 42% |
 | `04-pluses-as-business.md` | 58% | 42% |
 | `svend4.md` | 42% | 58% |
 | `10-checklist.md` | 58% | 42% |
@@ -752,23 +753,25 @@ _Обновлено: 2026-05-13_
 | `2-tsu-mome.md` | 58% | 42% |
 | `00-question-anonymization.md` | 58% | 42% |
 | `tech-radar-entry.md` | 58% | 42% |
+| `HEALTH.md` | 42% | 58% |
 | `03-revised-anthropic-mapping.md` | 42% | 58% |
 | `01-pluses-1-7.md` | 42% | 58% |
 | `326-содержание.md` | 42% | 58% |
 | `14-ограничения-лицензии-и-что-пока-лучше-не-склеивать.md` | 58% | 42% |
-| `SENTINEL.md` | 42% | 58% |
 | `07-unique-niche-eu-legal-infra.md` | 58% | 42% |
+| `QA.md` | 58% | 42% |
 | `09-voobshche-nelzya.md` | 58% | 42% |
 | `12-workflow.md` | 42% | 58% |
 | `18-escalate-to-max.md` | 58% | 42% |
 | `G-federated-local-graph.md` | 58% | 42% |
 | `01-svyazi-andrey-chuyan.md` | 57% | 42% |
+| `PRECISION_EVAL.md` | 43% | 57% |
 | `05-tvoya-lichnost.md` | 57% | 43% |
 | `00-question-multi-tier.md` | 57% | 43% |
+| `decision-record.md` | 57% | 43% |
 | `341-приложение-c-образец-спецификаций-инструментов-ing.md` | 43% | 57% |
 | `00-overview-grandchild-combination.md` | 57% | 43% |
 | `129-примеры-запросов-в-claude.md` | 43% | 57% |
-| `COST.md` | 57% | 43% |
 | `05-roadmap-6-12-months.md` | 43% | 57% |
 | `09-do-not-glue.md` | 57% | 43% |
 | `1-agentic-knowledge-os.md` | 57% | 43% |
@@ -779,7 +782,6 @@ _Обновлено: 2026-05-13_
 | `08-export.md` | 43% | 57% |
 | `legal-case.md` | 43% | 57% |
 | `96-21-adr-003-five-onboarding-paths-as-equal-rank.md` | 43% | 57% |
-| `METRICS.md` | 43% | 57% |
 | `vladspace.md` | 57% | 43% |
 | `1-workflow-llm-mcp.md` | 43% | 57% |
 | `00-question-lorenzo-codename.md` | 57% | 43% |
@@ -801,6 +803,7 @@ _Обновлено: 2026-05-13_
 | `09-agent-orchestration-stack.md` | 43% | 57% |
 | `01-profile-five-layers.md` | 56% | 44% |
 | `memory-write-policy.md` | 56% | 44% |
+| `research-note.md` | 56% | 44% |
 | `04-sozialrecht-domain.md` | 44% | 56% |
 | `03-a2a-vs-mcp-protocols.md` | 44% | 56% |
 | `kksudo.md` | 56% | 44% |
@@ -808,9 +811,11 @@ _Обновлено: 2026-05-13_
 | `14-adr-001-federation-over-merging.md` | 44% | 56% |
 | `63-history.md` | 44% | 56% |
 | `08-conductor-adversarial-review-auto-ai-router.md` | 56% | 44% |
+| `COVERAGE.md` | 44% | 56% |
 | `01-structural-comparison-code-vs-docs.md` | 56% | 44% |
 | `16-mcp-extension.md` | 44% | 56% |
 | `yodoca.md` | 56% | 44% |
+| `ALERTS.md` | 44% | 56% |
 | `antipozitive.md` | 56% | 44% |
 | `358-твоя-relationship-с-другими-ai.md` | 56% | 44% |
 | `03-similarity-3-mcp-support.md` | 56% | 44% |
@@ -819,15 +824,14 @@ _Обновлено: 2026-05-13_
 | `27-15-glossary-of-examples.md` | 56% | 44% |
 | `351-что-ты-можешь-делать.md` | 56% | 44% |
 | `40-bridges.md` | 56% | 44% |
-| `PROGRESS.md` | 44% | 56% |
 | `sozialrecht-35-combinations.md` | 44% | 56% |
 | `mclaude.md` | 56% | 44% |
 | `07-section-7-success-metrics.md` | 44% | 56% |
 | `11-dhlab-documents.md` | 44% | 56% |
-| `QA.md` | 56% | 44% |
 | `spbmolot.md` | 56% | 44% |
 | `13-outreach-communication.md` | 56% | 44% |
 | `skill-tool-policy.md` | 56% | 44% |
+| `CONTRADICTIONS.md` | 44% | 56% |
 | `02-vitaly-graph-cognitive-memory.md` | 56% | 44% |
 | `15-anti-patterns.md` | 44% | 56% |
 | `README.md` | 55% | 45% |
@@ -839,23 +843,18 @@ _Обновлено: 2026-05-13_
 | `06-difference-1-structured-substrate-missing.md` | 55% | 45% |
 | `signals.md` | 55% | 45% |
 | `mixaill76.md` | 55% | 45% |
-| `QA.md` | 55% | 45% |
 | `80-5-compatibility-levels.md` | 45% | 55% |
 | `01-executive-summary.md` | 55% | 45% |
 | `rufler.md` | 55% | 45% |
-| `KPI.md` | 55% | 45% |
 | `08-implementation-nautilus.md` | 55% | 45% |
 | `budget-routing.md` | 55% | 45% |
 | `91-16-mcp-extension-informative.md` | 45% | 55% |
-| `CONTACT_PRIORITY.md` | 45% | 55% |
-| `DEPENDABOT.md` | 45% | 55% |
 | `04-stronger-paths-outside-anthropic.md` | 45% | 55% |
 | `self-aware-mcp.md` | 55% | 45% |
 | `01-08-summary.md` | 45% | 55% |
 | `122-глоссарий.md` | 45% | 55% |
 | `84-9-consensus-algorithm.md` | 45% | 55% |
-| `FAQ.md` | 55% | 45% |
-| `PRECISION_EVAL.md` | 45% | 55% |
+| `GITHUB_ISSUES.md` | 45% | 55% |
 | `research-summary.md` | 55% | 45% |
 | `10-architecture-rfc.md` | 45% | 55% |
 | `01-ai-research-engineering.md` | 55% | 45% |
@@ -864,23 +863,21 @@ _Обновлено: 2026-05-13_
 | `08-current-session-poc.md` | 55% | 45% |
 | `01-legal-ai-stack.md` | 45% | 55% |
 | `04-ensembles-overview.md` | 55% | 45% |
+| `QA.md` | 55% | 45% |
 | `02-terminology.md` | 55% | 45% |
+| `project-component.md` | 55% | 45% |
 | `74-abstract.md` | 55% | 46% |
-| `HEATMAP.md` | 55% | 46% |
-| `QA.md` | 54% | 46% |
-| `TASKS_INDEX.md` | 54% | 46% |
-| `README.md` | 46% | 54% |
 | `01-introduction.md` | 54% | 46% |
 | `05-compatibility-levels.md` | 46% | 54% |
 | `20-8-consensus-algorithm.md` | 46% | 54% |
-| `EMPTY_SECTIONS.md` | 54% | 45% |
-| `GITHUB_ISSUES.md` | 46% | 54% |
 | `00-intro.md` | 54% | 46% |
 | `12-versioning-policy.md` | 46% | 54% |
 | `00-abstract-status.md` | 54% | 46% |
 | `continuation-10-domains.md` | 46% | 54% |
+| `README.md` | 46% | 54% |
 | `338-ссылки.md` | 46% | 54% |
 | `97-22-glossary-of-reference-examples.md` | 46% | 54% |
+| `TASKS_INDEX.md` | 54% | 46% |
 | `vitalyoborin.md` | 54% | 46% |
 | `11-security-considerations.md` | 46% | 54% |
 | `22-glossary.md` | 46% | 54% |
@@ -888,6 +885,7 @@ _Обновлено: 2026-05-13_
 | `60-bridges.md` | 54% | 46% |
 | `4-web-to-knowledge-pipeline.md` | 54% | 46% |
 | `06-relation-existing-methodologies.md` | 54% | 46% |
+| `FAQ.md` | 54% | 46% |
 | `08-commercialization-three-paths.md` | 54% | 46% |
 | `04-tertiary-research-engineer-agents.md` | 46% | 54% |
 | `tagir-analyzes.md` | 54% | 46% |
@@ -897,12 +895,15 @@ _Обновлено: 2026-05-13_
 | `F-evidence-backed-intake.md` | 54% | 46% |
 | `11-integration-contracts.md` | 54% | 46% |
 | `knowledge-space.md` | 54% | 46% |
-| `CONCEPT_GRAPH.md` | 54% | 46% |
+| `KPI.md` | 54% | 46% |
+| `README.md` | 46% | 54% |
 | `06-level-5-full-network.md` | 54% | 46% |
 | `mvp-plan.md` | 54% | 46% |
 | `andrey-chuyan.md` | 54% | 46% |
 | `D-voice-first-mesh.md` | 46% | 54% |
 | `03-local-first.md` | 54% | 46% |
+| `ABBREVIATIONS.md` | 46% | 54% |
+| `HEATMAP.md` | 46% | 54% |
 | `08-q6-space.md` | 46% | 54% |
 | `tech-pair.md` | 54% | 46% |
 | `5-agent-firewall.md` | 46% | 54% |
@@ -914,41 +915,44 @@ _Обновлено: 2026-05-13_
 | `README.md` | 53% | 47% |
 | `03-brainbox-multi-ai-hub.md` | 53% | 47% |
 | `06-openclaude-utyokshiy-claude-code-zinc-inference-engine-mome-.md` | 53% | 47% |
+| `BROKEN_LINKS.md` | 47% | 53% |
 | `00-question-what-is-hermes.md` | 53% | 47% |
 | `sonia-black.md` | 53% | 47% |
 | `rfc.md` | 53% | 47% |
 | `185-appendix-b-domain-comparison-matrix.md` | 53% | 47% |
-| `ABBREVIATIONS.md` | 47% | 53% |
-| `DUPLICATES.md` | 47% | 53% |
 | `first-contacts.md` | 47% | 53% |
 | `agent-spec.md` | 53% | 47% |
 | `364-final-note-ты-experiment.md` | 47% | 53% |
+| `QA.md` | 53% | 47% |
 | `04-level-3-medium-active.md` | 47% | 53% |
 | `64-for-the-curious-philosophy.md` | 47% | 53% |
 | `11-интеграционный-контракт-который-стоит-зафиксироват.md` | 53% | 47% |
-| `FOOTNOTES.md` | 53% | 47% |
+| `PASSIVE_VOICE.md` | 53% | 47% |
 | `01-three-related-themes.md` | 47% | 53% |
 | `05-benchmarks.md` | 53% | 47% |
 | `SCRIPTS_CATALOG.md` | 53% | 47% |
 | `07-key-observation.md` | 53% | 47% |
 | `14-other-ai-relationships.md` | 47% | 53% |
 | `11-relevance-ranking.md` | 47% | 53% |
-| `KNOWLEDGE_MAP.md` | 53% | 47% |
+| `FOOTNOTES.md` | 47% | 53% |
 | `9-ambient-team-agent.md` | 53% | 47% |
 | `04-similarity-4-multi-platform.md` | 53% | 47% |
 | `evidence-envelope.md` | 47% | 53% |
 | `70-зачем-две-версии-параллельно.md` | 47% | 53% |
 | `agentfs.md` | 53% | 47% |
+| `STATS.md` | 47% | 53% |
 | `04-claude-subagents-patterns.md` | 53% | 47% |
 | `card-envelope.md` | 53% | 47% |
 | `B-forensic-rag.md` | 47% | 53% |
 | `conclusions.md` | 53% | 47% |
 | `345-кто-ты.md` | 53% | 47% |
+| `CONCEPT_GRAPH.md` | 53% | 47% |
 | `PROTOTYPE_SPEC.md` | 47% | 53% |
 | `17-appendix-b-change-log.md` | 53% | 47% |
 | `02-three-overlapping-identities.md` | 52% | 48% |
 | `3-crdt-self-hosted.md` | 48% | 52% |
 | `template-of-templates.md` | 48% | 52% |
+| `DUPLICATES.md` | 48% | 52% |
 | `README.md` | 52% | 48% |
 | `05-quaternary-developer-education.md` | 48% | 52% |
 | `09-query-flow.md` | 48% | 52% |
@@ -964,21 +968,19 @@ _Обновлено: 2026-05-13_
 | `02-similarity-2-persistent-memory.md` | 52% | 48% |
 | `07-difference-2-domain-specialization.md` | 48% | 52% |
 | `04-what-i-can-do-now.md` | 52% | 48% |
-| `ONBOARDING.md` | 52% | 48% |
+| `MCP_DASHBOARD.md` | 48% | 52% |
+| `SKILL_DASHBOARD.md` | 48% | 52% |
 | `01-coally.md` | 52% | 48% |
 | `05-similarity-5-self-hosting-privacy.md` | 52% | 48% |
 | `08-practical-ranking.md` | 52% | 48% |
 | `nlaik.md` | 52% | 48% |
 | `133-обратная-связь.md` | 48% | 52% |
-| `HEALTH.md` | 52% | 48% |
 | `01-response.md` | 48% | 52% |
 | `01-strategic-significance.md` | 52% | 48% |
 | `02-formal-workflow.md` | 52% | 47% |
 | `01-overview.md` | 52% | 48% |
 | `359-твои-anti-patterns.md` | 52% | 48% |
 | `366-технический-stack-svyazi-2-0-foundation.md` | 48% | 52% |
-| `BROKEN_LINKS.md` | 48% | 52% |
-| `COVERAGE.md` | 48% | 52% |
 | `DEMO.md` | 52% | 48% |
 | `6-continuous-eval-loop.md` | 52% | 48% |
 | `05-existing-infrastructure-stack.md` | 48% | 52% |
@@ -989,33 +991,36 @@ _Обновлено: 2026-05-13_
 | `10-difference-5-tool-vs-mission-drift.md` | 48% | 52% |
 | `2-pkm-mcp-skills.md` | 48% | 52% |
 | `07-portal-entry.md` | 52% | 48% |
+| `QA.md` | 52% | 48% |
 | `130-отладка.md` | 52% | 48% |
 | `48-content-overview.md` | 48% | 52% |
 | `7-domain-agent-app-factory.md` | 48% | 52% |
 | `08-difference-3-federation-missing.md` | 48% | 52% |
 | `02-mcp-claude-desktop-use-cases.md` | 52% | 48% |
 | `H-research-to-product-flywheel.md` | 48% | 52% |
-| `STATS.md` | 52% | 48% |
 | `05-compatibility-levels.md` | 48% | 52% |
 | `77-2-terminology.md` | 52% | 48% |
-| `CONTRADICTIONS.md` | 48% | 52% |
 | `07-vs-notion-mem-affine-langgraph.md` | 48% | 52% |
 | `04-parsing-s-llm-graph-rag-pravilnaya-agentskaya-arkhitektura.md` | 48% | 52% |
 | `05-sourcecraft-cli-claude-code-sequential-protokol-dochkinoy.md` | 52% | 48% |
 | `ACTION_ITEMS.md` | 51% | 48% |
+| `SENTIMENT.md` | 51% | 49% |
 | `1-llm-gateway.md` | 51% | 48% |
 | `20-experiment.md` | 51% | 49% |
 | `02-agentops-trace-envelope.md` | 49% | 51% |
 | `5-voice-local-memory.md` | 48% | 51% |
 | `05-hw-nl2workflow.md` | 49% | 51% |
 | `agent-memory-mcp.md` | 49% | 51% |
+| `KNOWLEDGE_MAP.md` | 51% | 49% |
 | `3-adversarial-multi-ide.md` | 51% | 49% |
+| `QA.md` | 51% | 49% |
+| `COST.md` | 49% | 51% |
+| `ONBOARDING.md` | 49% | 51% |
 | `03-happyin-knowledge-space.md` | 51% | 49% |
 | `4-speech-to-text-llm.md` | 49% | 51% |
 | `05-level-4-extended-mature.md` | 49% | 51% |
 | `A-collaboration-os.md` | 49% | 51% |
 | `86-11-relevance-ranking.md` | 51% | 49% |
-| `PASSIVE_VOICE.md` | 51% | 49% |
 | `03-honest-opinion.md` | 49% | 51% |
 | `license-tree.md` | 51% | 49% |
 | `07-crawl4ai-docling-yodoca-consolidator.md` | 49% | 51% |
@@ -1025,13 +1030,13 @@ _Обновлено: 2026-05-13_
 | `02-two-tier-publication.md` | 49% | 51% |
 | `risks.md` | 51% | 49% |
 | `12-appendix-a-header-warning.md` | 50% | 50% |
-| `KPI_HISTORY.md` | 50% | 50% |
 | `LLM_SUMMARIES.md` | 50% | 50% |
+| `QUESTIONS.md` | 50% | 50% |
+| `REPORT.md` | 50% | 50% |
 | `03-level-2-basic-lite.md` | 50% | 50% |
 | `03-what-doesnt-exist-on-market.md` | 50% | 50% |
 | `303-приложение-визуализация-позиции-в-серии.md` | 50% | 50% |
 | `research-docs-liteparse.md` | 50% | 50% |
-| `SENTIMENT.md` | 50% | 50% |
 | `06-metrics-tree.md` | 50% | 50% |
 | `165-closing.md` | 50% | 50% |
 | `67-о-проекте.md` | 50% | 50% |
@@ -1051,10 +1056,11 @@ _Обновлено: 2026-05-13_
 | `03-technology-combinations` | 0 | 0 | 7 |
 | `04-ai-collaborations` | 1 | 0 | 16 |
 | `05-habr-projects` | 0 | 0 | 16 |
+| `ROADMAP` | 0 | 0 | 7 |
 | `ai-collaborations` | 0 | 2 | 29 |
 | `anthropic-vacancies` | 1 | 9 | 101 |
 | `autofilled` | 0 | 1 | 12 |
-| `badges` | 0 | 0 | 1 |
+| `badges` | 0 | 1 | 0 |
 | `contacts` | 0 | 1 | 16 |
 | `glossary` | 0 | 2 | 2 |
 | `habr-unique-projects` | 0 | 2 | 54 |
@@ -1063,54 +1069,18 @@ _Обновлено: 2026-05-13_
 | `meta-scripting` | 0 | 0 | 7 |
 | `nautilus` | 28 | 97 | 130 |
 | `processing-guide` | 0 | 1 | 12 |
-| `root` | 2 | 18 | 88 |
+| `root` | 1 | 19 | 90 |
 | `svyazi-2-0` | 0 | 2 | 58 |
 | `technology-combinations` | 0 | 5 | 48 |
-| `templates` | 2 | 0 | 22 |
+| `templates` | 0 | 0 | 24 |
 
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_language_stats.py
-```
-```bash
-# Вариант 2
-python scripts/improve_language_stats.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_language_stats.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_language_stats.py --dry-run
-```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-- [Решения](DECISIONS.md)
-- [Контакты](CONTACTS.md)
-- [Оценка](SCORING.md)
-- [Теги](TAGS.md)
-- [Задачи](ACTION_ITEMS.md)
-- [Хронология](TIMELINE.md)
-- [Структура](OUTLINE.md)
-
-<!-- backlinks -->
+<!-- see-also -->
 
 ---
 
-**Кто ссылается на этот документ (7):**
-- [OUTLINE](OUTLINE.md)
-- [PRIORITIES](PRIORITIES.md)
-- [READABILITY](READABILITY.md)
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
 - [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
+- [READABILITY](READABILITY.md)
 

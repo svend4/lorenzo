@@ -15262,3 +15262,14 @@ python scripts/improve_outline.py --dry-run
 - [112-5-связь-с-существующими-методологиями](02-anthropic-vacancies/112-5-связь-с-существующими-методологиями.md)
 - _...ещё 637_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [SEARCH](SEARCH.md)
+

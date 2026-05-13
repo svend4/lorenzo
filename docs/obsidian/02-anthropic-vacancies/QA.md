@@ -1,30 +1,25 @@
 ---
 title: "Q&A: 02-anthropic-vacancies"
 tags:
-  - memory
-  - rag
-  - orchestration
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - anthropic
-  - collaboration
+  - qa
+  - docs
   - anthropic-vacancies
 date: 2026-05-13
 ---
 
 # Q&A: 02-anthropic-vacancies
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
+
+
 <!-- summary -->
-> _Автоматически сгенерировано по 355 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse, Legal RAG
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, roadmap, anthropic, collaboration -->
-
-
+> `QA` — раздел документации проекта Lorenzo.
 
 
 _Автоматически сгенерировано по 355 файлам раздела._
@@ -120,6 +115,20 @@ _Автоматически сгенерировано по 355 файлам р�
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
 
 <!-- backlinks -->
 

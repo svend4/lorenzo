@@ -14,6 +14,13 @@ date: 2026-05-13
 h1. Дайджест изменений
 
 
+
+{quote}[!WARNING]{quote}
+{quote}Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.{quote}
+
+
+
+
 {quote}> fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass{quote}
 
 ----
@@ -76,3 +83,21 @@ _Кто ссылается на этот документ (6):_
 * [[SEARCH]]
 * [[TABLES]]
 
+
+
+
+----
+
+_Смотрите также:_
+* [[DIGEST_AUTO]]
+* [[CHANGELOG]]
+* [[KPI_HISTORY]]
+* [[ALERTS]]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_digest.py
+{code}

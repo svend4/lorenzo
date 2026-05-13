@@ -6,27 +6,23 @@
 ----
 title: "Q&A: 04-ai-collaborations"
 tags:
-  * rag
-  * security
-  * knowledge
-  * ingestion
-  * architecture
-  * roadmap
-  * collaboration
+  * qa
+  * docs
   * ai-collaborations
 date: 2026-05-13
 ----
 
 h1. Q&A: 04-ai-collaborations
 
-
-{quote}_Автоматически сгенерировано по 15 файлам раздела._{quote}
-_Проекты:_ CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
-
-----
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
 
 
 
+
+
+
+{quote}{{QA}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Автоматически сгенерировано по 15 файлам раздела._
@@ -90,6 +86,20 @@ h2. Что такое knowledge-space и для кого он предназна
 h2. Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: _cardindex_, _card_id_, _state_, _hash_, _dedup_
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
 
 
 

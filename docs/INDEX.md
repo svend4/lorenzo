@@ -151,3 +151,14 @@ _Индекс сгенерирован автоматически · 2484 док
 - [READABILITY](READABILITY.md)
 - _...ещё 6_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [ONBOARDING](ONBOARDING.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [LLM_SUMMARIES](LLM_SUMMARIES.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

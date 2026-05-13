@@ -1,5 +1,13 @@
 # Индекс обратных ссылок
 
+<!-- summary -->
+> **Файлов с входящими ссылками:** 2722
+**Проекты:** Svyazi, MemNet
+
+---
+
+
+
 **Файлов с входящими ссылками:** 2722
 
 ## Топ-30 самых цитируемых документов
@@ -32,8 +40,8 @@
 | `25-13-reference-implementation` | 37 | `03-portal-protocol-md.md`, `05-0-status-of-this-document.md`, `104-appendix-c-references.md`, `122-глоссарий.md` +33 |
 | `03-portal-protocol-md` | 37 | `05-0-status-of-this-document.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md`, `125-readme-mcp-md-инструкция-по-установке.md` +33 |
 | `ACTION_ITEMS` | 35 | `03-component-catalog.md`, `01-интегральный-анализ-профиля-svend4.md`, `115-8-ограничения-и-открытые-вопросы.md`, `133-обратная-связь.md` +31 |
-| `42-author-contact` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +31 |
 | `123-portal-mcp-py` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `105-review-methodology-md.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +31 |
+| `42-author-contact` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +31 |
 | `04-abstract` | 35 | `05-0-status-of-this-document.md`, `09-4-passport-passport-md.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md` +31 |
 | `reading-paths` | 35 | `OUTLINE.md`, `READABILITY.md`, `READING_TIME.md`, `README.md` +31 |
 

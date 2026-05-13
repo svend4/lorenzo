@@ -12,71 +12,32 @@ date: 2026-05-13
 
 h1. Согласованность терминов
 
-
-{quote}Анализ различных написаний одних и тех же терминов.{quote}
-_Проекты:_ Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
-
-----
-
-
-h2. Содержание
-
-* [Детали по файлам|#детали-по-файлам]
-  * [{{knowledgespace}} → должно быть {{knowledge-space}}|#knowledgespace-должно-быть-knowledge-space]
-  * [{{knowledge space}} → должно быть {{knowledge-space}}|#knowledge-space-должно-быть-knowledge-space]
-  * [{{knowledge_space}} → должно быть {{knowledge-space}}|#knowledge_space-должно-быть-knowledge-space]
-  * [{{Card Index}} → должно быть {{CardIndex}}|#card-index-должно-быть-cardindex]
-  * [{{card index}} → должно быть {{CardIndex}}|#card-index-должно-быть-cardindex]
-  * [{{card-index}} → должно быть {{CardIndex}}|#card-index-должно-быть-cardindex]
-  * [{{AI-Factory}} → должно быть {{AI Factory}}|#ai-factory-должно-быть-ai-factory]
-  * [{{NGT-Memory}} → должно быть {{NGT Memory}}|#ngt-memory-должно-быть-ngt-memory]
-  * [{{LiteParser}} → должно быть {{LiteParse}}|#liteparser-должно-быть-liteparse]
-  * [{{Auto-AI-Router}} → должно быть {{Auto AI Router}}|#auto-ai-router-должно-быть-auto-ai-router]
-  * [{{local first}} → должно быть {{local-first}}|#local-first-должно-быть-local-first]
-  * [{{localfirst}} → должно быть {{local-first}}|#localfirst-должно-быть-local-first]
-  * [{{Local First}} → должно быть {{local-first}}|#local-first-должно-быть-local-first]
-  * [{{agent memory mcp}} → должно быть {{agent-memory-mcp}}|#agent-memory-mcp-должно-быть-agent-memory-mcp]
-  * [{{self-improve}} → должно быть {{self-improvement}}|#self-improve-должно-быть-self-improvement]
-  * [{{selfimprovement}} → должно быть {{self-improvement}}|#selfimprovement-должно-быть-self-improvement]
-  * [{{Svyazi-2.0}} → должно быть {{Svyazi 2.0}}|#svyazi-20-должно-быть-svyazi-20]
-  * [{{Evidence-Envelope}} → должно быть {{Evidence Envelope}}|#evidence-envelope-должно-быть-evidence-envelope]
-  * [{{EvidenceEnvelope}} → должно быть {{Evidence Envelope}}|#evidenceenvelope-должно-быть-evidence-envelope]
-  * [{{Card-Envelope}} → должно быть {{Card Envelope}}|#card-envelope-должно-быть-card-envelope]
-* [Как исправить|#как-исправить]
-
-----
-
-
-
-
-
-
 Анализ различных написаний одних и тех же терминов.
 
 || Термин || Канонично || Вариант || Файлов ||
-|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 6 ||
+|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 7 ||
 || **knowledge-space** || `knowledge-space` || `knowledge space` || 32 ||
 || **knowledge-space** || `knowledge-space` || `knowledge_space` || 4 ||
-|| **CardIndex** || `CardIndex` || `Card Index` || 4 ||
-|| **CardIndex** || `CardIndex` || `card index` || 4 ||
-|| **CardIndex** || `CardIndex` || `card-index` || 4 ||
-|| **AI Factory** || `AI Factory` || `AI-Factory` || 44 ||
+|| **CardIndex** || `CardIndex` || `Card Index` || 2 ||
+|| **CardIndex** || `CardIndex` || `card index` || 2 ||
+|| **CardIndex** || `CardIndex` || `card-index` || 2 ||
+|| **AI Factory** || `AI Factory` || `AI-Factory` || 42 ||
 || **NGT Memory** || `NGT Memory` || `NGT-Memory` || 103 ||
 || **LiteParse** || `LiteParse` || `LiteParser` || 4 ||
-|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 43 ||
-|| **local-first** || `local-first` || `local first` || 8 ||
-|| **local-first** || `local-first` || `localfirst` || 6 ||
-|| **local-first** || `local-first` || `Local First` || 8 ||
-|| **agent-memory-mcp** || `agent-memory-mcp` || `agent memory mcp` || 8 ||
-|| **self-improvement** || `self-improvement` || `self-improve` || 284 ||
+|| **Auto AI Router** || `Auto AI Router` || `Auto-AI-Router` || 42 ||
+|| **local-first** || `local-first` || `local first` || 7 ||
+|| **local-first** || `local-first` || `localfirst` || 5 ||
+|| **local-first** || `local-first` || `Local First` || 7 ||
+|| **agent-memory-mcp** || `agent-memory-mcp` || `agent memory mcp` || 7 ||
+|| **self-improvement** || `self-improvement` || `self-improve` || 289 ||
 || **self-improvement** || `self-improvement` || `selfimprovement` || 2 ||
 || **Svyazi 2.0** || `Svyazi 2.0` || `Svyazi-2.0` || 6 ||
-|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 44 ||
+|| **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 41 ||
 || **evidence envelope** || `Evidence Envelope` || `EvidenceEnvelope` || 2 ||
 || **Card Envelope** || `Card Envelope` || `Card-Envelope` || 37 ||
-|| **Card Envelope** || `Card Envelope` || `CardEnvelope` || 34 ||
+|| **Card Envelope** || `Card Envelope` || `CardEnvelope` || 31 ||
 
-_Всего несогласованных написаний: 687_
+_Всего несогласованных написаний: 674_
 
 
 h2. Детали по файлам
@@ -89,7 +50,7 @@ h3. {{knowledgespace}} → должно быть {{knowledge-space}}
 * {{docs/TABLES.md}}
 * {{docs/obsidian/EMPTY_SECTIONS.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
-* _...и ещё 1_
+* _...и ещё 2_
 
 h3. {{knowledge space}} → должно быть {{knowledge-space}}
 
@@ -110,23 +71,17 @@ h3. {{knowledge_space}} → должно быть {{knowledge-space}}
 h3. {{Card Index}} → должно быть {{CardIndex}}
 
 * {{docs/CONSISTENCY.md}}
-* {{docs/CHANGELOG.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
-* {{docs/obsidian/CHANGELOG.md}}
 
 h3. {{card index}} → должно быть {{CardIndex}}
 
 * {{docs/CONSISTENCY.md}}
-* {{docs/CHANGELOG.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
-* {{docs/obsidian/CHANGELOG.md}}
 
 h3. {{card-index}} → должно быть {{CardIndex}}
 
 * {{docs/CONSISTENCY.md}}
-* {{docs/CHANGELOG.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
-* {{docs/obsidian/CHANGELOG.md}}
 
 h3. {{AI-Factory}} → должно быть {{AI Factory}}
 
@@ -135,7 +90,7 @@ h3. {{AI-Factory}} → должно быть {{AI Factory}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/READING_TIME.md}}
 * {{docs/TABLES.md}}
-* _...и ещё 39_
+* _...и ещё 37_
 
 h3. {{NGT-Memory}} → должно быть {{NGT Memory}}
 
@@ -155,12 +110,12 @@ h3. {{LiteParser}} → должно быть {{LiteParse}}
 
 h3. {{Auto-AI-Router}} → должно быть {{Auto AI Router}}
 
+* {{docs/QUESTIONS.md}}
 * {{docs/LANGUAGE_STATS.md}}
 * {{docs/EMPTY_SECTIONS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/READING_TIME.md}}
-* {{docs/TABLES.md}}
-* _...и ещё 38_
+* _...и ещё 37_
 
 h3. {{local first}} → должно быть {{local-first}}
 
@@ -168,17 +123,16 @@ h3. {{local first}} → должно быть {{local-first}}
 * {{docs/TABLES.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
 * {{docs/obsidian/TABLES.md}}
-* {{docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md}}
-* _...и ещё 3_
+* {{docs/obsidian/03-technology-combinations/03-local-first.md}}
+* _...и ещё 2_
 
 h3. {{localfirst}} → должно быть {{local-first}}
 
 * {{docs/CONSISTENCY.md}}
 * {{docs/TABLES.md}}
-* {{docs/OUTLINE.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
 * {{docs/obsidian/TABLES.md}}
-* _...и ещё 1_
+* {{docs/obsidian/OUTLINE.md}}
 
 h3. {{Local First}} → должно быть {{local-first}}
 
@@ -186,8 +140,8 @@ h3. {{Local First}} → должно быть {{local-first}}
 * {{docs/TABLES.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
 * {{docs/obsidian/TABLES.md}}
-* {{docs/obsidian/habr-unique-projects/software-pairs/2-pkm-mcp-skills.md}}
-* _...и ещё 3_
+* {{docs/obsidian/03-technology-combinations/03-local-first.md}}
+* _...и ещё 2_
 
 h3. {{agent memory mcp}} → должно быть {{agent-memory-mcp}}
 
@@ -196,16 +150,16 @@ h3. {{agent memory mcp}} → должно быть {{agent-memory-mcp}}
 * {{docs/svyazi-2-0/components/agent-memory-mcp.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
 * {{docs/obsidian/TABLES.md}}
-* _...и ещё 3_
+* _...и ещё 2_
 
 h3. {{self-improve}} → должно быть {{self-improvement}}
 
-* {{docs/FOOTNOTES.md}}
+* {{docs/QUESTIONS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/PROTOTYPE_SPEC.md}}
 * {{docs/TABLES.md}}
-* {{docs/SPELLCHECK.md}}
-* _...и ещё 279_
+* {{docs/METHODOLOGY.md}}
+* _...и ещё 284_
 
 h3. {{selfimprovement}} → должно быть {{self-improvement}}
 
@@ -228,7 +182,7 @@ h3. {{Evidence-Envelope}} → должно быть {{Evidence Envelope}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/READING_TIME.md}}
 * {{docs/PROTOTYPE_SPEC.md}}
-* _...и ещё 39_
+* _...и ещё 36_
 
 h3. {{EvidenceEnvelope}} → должно быть {{Evidence Envelope}}
 
@@ -237,11 +191,11 @@ h3. {{EvidenceEnvelope}} → должно быть {{Evidence Envelope}}
 
 h3. {{Card-Envelope}} → должно быть {{Card Envelope}}
 
+* {{docs/QUESTIONS.md}}
 * {{docs/LANGUAGE_STATS.md}}
 * {{docs/EMPTY_SECTIONS.md}}
 * {{docs/CONSISTENCY.md}}
 * {{docs/READING_TIME.md}}
-* {{docs/PROTOTYPE_SPEC.md}}
 * _...и ещё 32_
 
 h2. Как исправить
@@ -250,19 +204,3 @@ h2. Как исправить
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (9):_
-* [[354-существующий-landscape-collaborators-твоя-working-]]
-* [[MISSING]]
-* [[OUTLINE]]
-* [[READABILITY]]
-* [[READING_TIME]]
-* [[README]]
-* [[SEARCH]]
-* [[SPELLCHECK]]
-* _...ещё 1_
-

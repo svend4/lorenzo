@@ -141,3 +141,14 @@ _Карта сгенерирована автоматически: 2026-05-13_
 - [SEE_ALSO](SEE_ALSO.md)
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [HEALTH](HEALTH.md)
+- [READING_LIST](READING_LIST.md)
+- [STATS](STATS.md)
+

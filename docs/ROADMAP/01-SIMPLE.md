@@ -1,5 +1,13 @@
 # 01 — Простые улучшения (1-3 спринта каждое)
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Svyazi, AgentFS
+
+---
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -420,4 +428,15 @@ def recommendations_for(user: str, top_k: int = 10) -> list[tuple[str, float, st
 - [04-NOVEL](04-NOVEL.md)
 - [05-PRIORITIES](05-PRIORITIES.md)
 - [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-MEDIUM](02-MEDIUM.md)
+- [05-PRIORITIES](05-PRIORITIES.md)
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [04-NOVEL](04-NOVEL.md)
 

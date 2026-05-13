@@ -91,3 +91,13 @@ _Обновлено: 2026-05-13_
 - [BROKEN_LINKS](BROKEN_LINKS.md)
 - _...ещё 57_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [VALIDATION](VALIDATION.md)
+- [METRICS](METRICS.md)
+- [REPORT](REPORT.md)
+

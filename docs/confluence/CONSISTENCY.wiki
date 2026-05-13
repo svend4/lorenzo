@@ -5,11 +5,6 @@
 
 h1. Согласованность терминов
 
-{quote}[!NOTE]{quote}
-{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
-
-
-
 Анализ различных написаний одних и тех же терминов.
 
 || Термин || Канонично || Вариант || Файлов ||
@@ -33,9 +28,9 @@ h1. Согласованность терминов
 || **evidence envelope** || `Evidence Envelope` || `Evidence-Envelope` || 41 ||
 || **evidence envelope** || `Evidence Envelope` || `EvidenceEnvelope` || 2 ||
 || **Card Envelope** || `Card Envelope` || `Card-Envelope` || 37 ||
-|| **Card Envelope** || `Card Envelope` || `CardEnvelope` || 32 ||
+|| **Card Envelope** || `Card Envelope` || `CardEnvelope` || 31 ||
 
-_Всего несогласованных написаний: 675_
+_Всего несогласованных написаний: 674_
 
 
 h2. Детали по файлам
@@ -202,19 +197,3 @@ h2. Как исправить
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]
-* [MISSING|MISSING.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [STATS|STATS.md]
-* _...ещё 2_
-

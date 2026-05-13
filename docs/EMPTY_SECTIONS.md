@@ -6834,3 +6834,14 @@ python scripts/improve_empty_sections.py --dry-run
 - [TABLES](TABLES.md)
 - [TAGS](TAGS.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [SEARCH](SEARCH.md)
+- [READABILITY](READABILITY.md)
+

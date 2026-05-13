@@ -1,44 +1,38 @@
 ---
 title: "Контакты и авторы"
 tags:
+  - contacts
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # Контакты и авторы
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CONTACTS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: contacts, docs -->
+
+
 <!-- summary -->
-> Я собираю прототип Svyazi 2.0 — локальной community intelligence platform.
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Ключевые авторы проектов](#ключевые-авторы-проектов)
-- [GitHub репозитории](#github-репозитории)
-- [Email адреса](#email-адреса)
-- [Шаблон первого сообщения](#шаблон-первого-сообщения)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
+> `CONTACTS` — раздел документации проекта Lorenzo.
 
 
 ## Ключевые авторы проектов
 
 | Автор | Проект | Слой | Упомянут в файлах | Первый вопрос |
 |-------|--------|------|-------------------|---------------|
-| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 128 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
+| **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 126 | Держать operational benchmark/gotcha cards в одной базе с reference cards или отдельным слоем? |
 | **Antipozitive** | MemNet | memory | 78 | — |
 | **Cutcode** | AIF Handoff | orchestration | 68 | — |
 | **Dmitriila** | SENTINEL | security | 60 | — |
 | **MiXaiLL76** | Auto AI Router | security | 56 | — |
 | **Sonia_Black** | knowledge-space | knowledge | 38 | — |
-| **VitalyOborin** | Yodoca | memory | 104 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
+| **VitalyOborin** | Yodoca | memory | 102 | Что сильнее влияет на качество памяти: отдельный consolidator, decay или строгая типизация записей? |
 | **VladSpace** | Graph RAG | rag | 80 | — |
 | **andrey_chuyan** | Svyazi | ingestion/CardIndex | 31 | Стоит ли расширять CardIndex до person/project/episode/evidence или лучше держать разные индексы? |
 | **kksudo** | AgentFS | knowledge/filesystem | 189 | Что лучше класть в .agentos, а что выносить в machine-only state вне vault conventions? |
@@ -117,18 +111,25 @@ date: 2026-05-13
 Если нет — спасибо за публикацию, она уже повлияла на архитектуру.
 ```
 
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (27):**
+**Кто ссылается на этот документ (31):**
 - [[13-contacts]]
 - [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]]
+- [[ACTION_ITEMS]]
 - [[EMPTY_SECTIONS]]
-- [[ENTITIES]]
 - [[GITHUB_ISSUES]]
 - [[HEADING_AUDIT]]
 - [[INDEX]]
-- [[LINK_PREVIEW]]
-- _...ещё 19_
+- [[LANGUAGE_STATS]]
+- _...ещё 23_
 

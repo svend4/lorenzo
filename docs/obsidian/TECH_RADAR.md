@@ -7,20 +7,6 @@ date: 2026-05-13
 
 # Tech Radar — Svyazi 2.0
 
-<!-- toc -->
-## Содержание
-
-- [Обзор](#обзор)
-- [🟢 ADOPT](#adopt)
-- [🔵 TRIAL](#trial)
-- [🟡 ASSESS](#assess)
-- [🔴 HOLD](#hold)
-- [Методология](#методология)
-- [Смотрите также](#смотрите-также)
-
----
-
-
 <!-- toc-auto -->
 
 > [!NOTE]
@@ -128,29 +114,18 @@ _Radar обновляется вручную при существенных и�
 - [[GLOSSARY|Глоссарий]]
 - [[ENTITIES|Сущности]]
 
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[COMPONENT_MATRIX]]
-- [[ONBOARDING]]
-- [[DENSITY]]
-- [[FOOTNOTES]]
-
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (12):**
+**Кто ссылается на этот документ (11):**
 - [[COMPONENT_MATRIX]]
 - [[CONCEPTS]]
 - [[INDEX]]
-- [[ONBOARDING]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
-- _...ещё 4_
+- [[SEARCH]]
+- _...ещё 3_
 

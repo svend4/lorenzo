@@ -96,3 +96,14 @@ python scripts/improve_llm_enrich.py --section 05-habr-projects
 - [SEARCH](SEARCH.md)
 - [TABLES](TABLES.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COVERAGE](COVERAGE.md)
+- [SUMMARIES](SUMMARIES.md)
+- [PASSIVE_VOICE](PASSIVE_VOICE.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

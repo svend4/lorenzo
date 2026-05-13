@@ -8,6 +8,13 @@ date: 2026-05-13
 
 # Дайджест изменений
 
+<!-- toc-auto -->
+
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > > fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass
 
@@ -73,3 +80,21 @@ _Обновлено: 2026-05-13_
 - [[SEARCH]]
 - [[TABLES]]
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [[DIGEST_AUTO]]
+- [[CHANGELOG]]
+- [[KPI_HISTORY]]
+- [[ALERTS]]
+
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_digest.py
+```

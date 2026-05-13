@@ -30,14 +30,3 @@ date: 2026-05-13
 ![license](license.svg)
 ![branch](branch.svg)
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[SEARCH]]
-- [[TABLES]]
-

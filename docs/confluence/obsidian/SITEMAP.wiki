@@ -12,42 +12,8 @@ date: 2026-05-13
 
 h1. Карта репозитория Lorenzo
 
-
-{quote}- [Мета-документы|#мета-документы]{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
-----
-
-
-h2. Содержание
-
-* [Навигация|#навигация]
-* [Мета-документы|#мета-документы]
-* [Svyazi 2.0 — Архитектура системы|#svyazi-20-архитектура-системы]
-* [Вакансии Anthropic — 436 позиций|#вакансии-anthropic-436-позиций]
-* [Комбинации технологий|#комбинации-технологий]
-* [AI Коллаборации — ансамбли проектов|#ai-коллаборации-ансамбли-проектов]
-* [Хабр-проекты — память и граф|#хабр-проекты-память-и-граф]
-* [ai-collaborations|#ai-collaborations]
-* [anthropic-vacancies|#anthropic-vacancies]
-* [autofilled|#autofilled]
-* [contacts|#contacts]
-* [glossary|#glossary]
-* [habr-unique-projects|#habr-unique-projects]
-* [letters|#letters]
-* [lorenzo-agent|#lorenzo-agent]
-* [meta-scripting|#meta-scripting]
-* [nautilus|#nautilus]
-* [obsidian|#obsidian]
-* [processing-guide|#processing-guide]
-* [svyazi-2-0|#svyazi-2-0]
-* [technology-combinations|#technology-combinations]
-* [templates|#templates]
-
-----
-
-
-
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
 
 
 
@@ -84,139 +50,139 @@ h2. Навигация
 h2. Мета-документы
 
 || Документ || Описание || Слов ||
-|| [[ABBREVIATIONS || ABBREVIATIONS.md]] || — || 1918 ||
-|| [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 9272 ||
+|| [[ABBREVIATIONS || ABBREVIATIONS.md]] || — || 1847 ||
+|| [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 8945 ||
 || [[ACTION_ITEMS || ACTION_ITEMS.md]] || Задачи и риски (490) || 9285 ||
-|| [[ALERTS || ALERTS.md]] || — || 105 ||
-|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 213 ||
-|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 224 ||
+|| [[ALERTS || ALERTS.md]] || — || 79 ||
+|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 210 ||
+|| [[AUTHORS || AUTHORS.md]] || Авторы и контакты || 181 ||
 || [[AUTOFILLED || AUTOFILLED.md]] || — || 322 ||
-|| [[BACKLINKS || BACKLINKS.md]] || — || 534 ||
+|| [[BACKLINKS || BACKLINKS.md]] || — || 565 ||
 || [[BADGES || BADGES.md]] || — || 100 ||
-|| [[BROKEN_LINKS || BROKEN_LINKS.md]] || Сломанные ссылки (26) || 1000 ||
-|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 838 ||
-|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 5766 ||
+|| [[BROKEN_LINKS || BROKEN_LINKS.md]] || Сломанные ссылки (26) || 927 ||
+|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 890 ||
+|| [[CHANGELOG || CHANGELOG.md]] || История изменений || 903 ||
 || [[CHANGELOG_AUTO || CHANGELOG_AUTO.md]] || — || 2027 ||
 || [[CITATION_INDEX || CITATION_INDEX.md]] || — || 997 ||
-|| [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1674 ||
-|| [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1704 ||
-|| [[CODE_BLOCKS || CODE_BLOCKS.md]] || — || 5973 ||
+|| [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1765 ||
+|| [[CLUSTERS || CLUSTERS.md]] || Кластеры (384 → 120 групп) || 1747 ||
+|| [[CODE_BLOCKS || CODE_BLOCKS.md]] || — || 5332 ||
 || [[CODE_BLOCKS || CODE_BLOCKS.md]] || — || 5983 ||
 || [[COLLAB_SUGGESTIONS || COLLAB_SUGGESTIONS.md]] || — || 702 ||
 || [[COMPARE || COMPARE.md]] || Сравнение с предыдущим коммитом || 477 ||
-|| [[COMPARE || COMPARE.md]] || Сравнение с предыдущим коммитом || 507 ||
-|| [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 645 ||
-|| [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 656 ||
+|| [[COMPARE || COMPARE.md]] || Сравнение с предыдущим коммитом || 541 ||
+|| [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 616 ||
+|| [[COMPLEXITY || COMPLEXITY.md]] || Оценка читаемости || 684 ||
 || [[COMPONENT_MATRIX || COMPONENT_MATRIX.md]] || — || 940 ||
-|| [[CONCEPTS || CONCEPTS.md]] || Глоссарий понятий (888) || 15197 ||
+|| [[CONCEPTS || CONCEPTS.md]] || Глоссарий понятий (888) || 14963 ||
 || [[CONCEPTS || CONCEPTS.md]] || Глоссарий понятий (888) || 15137 ||
-|| [[CONCEPT_GRAPH || CONCEPT_GRAPH.md]] || — || 646 ||
-|| [[CONSISTENCY || CONSISTENCY.md]] || — || 630 ||
-|| [[CONSISTENCY || CONSISTENCY.md]] || — || 658 ||
+|| [[CONCEPT_GRAPH || CONCEPT_GRAPH.md]] || — || 725 ||
+|| [[CONSISTENCY || CONSISTENCY.md]] || — || 660 ||
+|| [[CONSISTENCY || CONSISTENCY.md]] || — || 856 ||
 || [[CONTACTS || CONTACTS.md]] || Контакты (15 авторов) || 557 ||
-|| [[CONTACTS || CONTACTS.md]] || Контакты (15 авторов) || 680 ||
-|| [[CONTACT_PRIORITY || CONTACT_PRIORITY.md]] || — || 455 ||
-|| [[CONTENT_GAPS || CONTENT_GAPS.md]] || — || 885 ||
-|| [[CONTRADICTIONS || CONTRADICTIONS.md]] || — || 1592 ||
-|| [[COST || COST.md]] || — || 636 ||
+|| [[CONTACTS || CONTACTS.md]] || Контакты (15 авторов) || 657 ||
+|| [[CONTACT_PRIORITY || CONTACT_PRIORITY.md]] || — || 452 ||
+|| [[CONTENT_GAPS || CONTENT_GAPS.md]] || — || 899 ||
+|| [[CONTRADICTIONS || CONTRADICTIONS.md]] || — || 1995 ||
+|| [[COST || COST.md]] || — || 628 ||
 || [[COVERAGE || COVERAGE.md]] || — || 297 ||
 || [[CROSSREFS || CROSSREFS.md]] || Перекрёстные ссылки проектов || 678 ||
-|| [[CROSSREFS || CROSSREFS.md]] || Перекрёстные ссылки проектов || 688 ||
-|| [[CROSS_SECTION || CROSS_SECTION.md]] || — || 4072 ||
-|| [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2575 ||
+|| [[CROSSREFS || CROSSREFS.md]] || Перекрёстные ссылки проектов || 648 ||
+|| [[CROSS_SECTION || CROSS_SECTION.md]] || — || 4169 ||
+|| [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2585 ||
 || [[DECISIONS || DECISIONS.md]] || Ключевые решения (150) || 2589 ||
 || [[DEMO || DEMO.md]] || — || 627 ||
-|| [[DENSITY || DENSITY.md]] || Карта плотности тем || 738 ||
+|| [[DENSITY || DENSITY.md]] || Карта плотности тем || 671 ||
 || [[DENSITY || DENSITY.md]] || Карта плотности тем || 749 ||
-|| [[DEPENDABOT || DEPENDABOT.md]] || — || 136 ||
+|| [[DEPENDABOT || DEPENDABOT.md]] || — || 218 ||
 || [[DEPENDENCY_MAP || DEPENDENCY_MAP.md]] || — || 1212 ||
-|| [[DIGEST || DIGEST.md]] || — || 385 ||
-|| [[DIGEST_AUTO || DIGEST_AUTO.md]] || — || 513 ||
+|| [[DIGEST || DIGEST.md]] || — || 381 ||
+|| [[DIGEST_AUTO || DIGEST_AUTO.md]] || — || 514 ||
 || [[DIGEST_WEEKLY || DIGEST_WEEKLY.md]] || — || 408 ||
-|| [[DUPLICATES || DUPLICATES.md]] || — || 2071 ||
-|| [[DUPLICATES || DUPLICATES.md]] || — || 2117 ||
+|| [[DUPLICATES || DUPLICATES.md]] || — || 2010 ||
+|| [[DUPLICATES || DUPLICATES.md]] || — || 2303 ||
 || [[EMPTY_SECTIONS || EMPTY_SECTIONS.md]] || — || 37649 ||
-|| [[ENTITIES || ENTITIES.md]] || Именованные сущности || 856 ||
+|| [[ENTITIES || ENTITIES.md]] || Именованные сущности || 758 ||
 || [[ENTITIES || ENTITIES.md]] || Именованные сущности || 866 ||
-|| [[FAQ || FAQ.md]] || — || 1821 ||
-|| [[FOOTNOTES || FOOTNOTES.md]] || — || 351 ||
+|| [[FAQ || FAQ.md]] || — || 1378 ||
+|| [[FOOTNOTES || FOOTNOTES.md]] || — || 275 ||
 || [[GATEWAY || GATEWAY.md]] || — || 1354 ||
 || [[GITHUB_ISSUES || GITHUB_ISSUES.md]] || — || 3493 ||
 || [[GLOSSARY || GLOSSARY.md]] || Глоссарий проектов (33 записи) || 256 ||
-|| [[GLOSSARY || GLOSSARY.md]] || Глоссарий проектов (33 записи) || 266 ||
-|| [[GRAPH || GRAPH.md]] || Граф связей проектов || 2736 ||
+|| [[GLOSSARY || GLOSSARY.md]] || Глоссарий проектов (33 записи) || 229 ||
+|| [[GRAPH || GRAPH.md]] || Граф связей проектов || 2654 ||
 || [[GRAPH || GRAPH.md]] || Граф связей проектов || 2747 ||
 || [[HEADING_AUDIT || HEADING_AUDIT.md]] || — || 13632 ||
 || [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 293 ||
-|| [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 345 ||
-|| [[HEATMAP || HEATMAP.md]] || — || 619 ||
+|| [[HEALTH || HEALTH.md]] || Дашборд здоровья (75/100) || 340 ||
+|| [[HEATMAP || HEATMAP.md]] || — || 560 ||
 || [[INDEX || INDEX.md]] || — || 633 ||
 || [[KEYWORD_INDEX || KEYWORD_INDEX.md]] || — || 1069 ||
 || [[KNOWLEDGE_MAP || KNOWLEDGE_MAP.md]] || — || 699 ||
-|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2812 ||
-|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2765 ||
-|| [[KPI_HISTORY || KPI_HISTORY.md]] || — || 252 ||
-|| [[LANGUAGE_STATS || LANGUAGE_STATS.md]] || — || 7909 ||
+|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2787 ||
+|| [[KPI || KPI.md]] || Числовые KPI (737 показателей) || 2794 ||
+|| [[KPI_HISTORY || KPI_HISTORY.md]] || — || 265 ||
+|| [[LANGUAGE_STATS || LANGUAGE_STATS.md]] || — || 7890 ||
 || [[LINKS || LINKS.md]] || Внешние ссылки || 1087 ||
-|| [[LINKS || LINKS.md]] || Внешние ссылки || 1097 ||
+|| [[LINKS || LINKS.md]] || Внешние ссылки || 1054 ||
 || [[LINK_PREVIEW || LINK_PREVIEW.md]] || — || 3351 ||
-|| [[LLM_GAPS || LLM_GAPS.md]] || — || 111 ||
+|| [[LLM_GAPS || LLM_GAPS.md]] || — || 115 ||
 || [[LLM_SUMMARIES || LLM_SUMMARIES.md]] || — || 386 ||
 || [[MCP_DASHBOARD || MCP_DASHBOARD.md]] || — || 22 ||
 || [[METHODOLOGY || METHODOLOGY.md]] || — || 1070 ||
-|| [[METRICS || METRICS.md]] || — || 459 ||
-|| [[MINDMAP || MINDMAP.md]] || Майндмап в Mermaid || 317 ||
+|| [[METRICS || METRICS.md]] || — || 392 ||
+|| [[MINDMAP || MINDMAP.md]] || Майндмап в Mermaid || 242 ||
 || [[MINDMAP || MINDMAP.md]] || Майндмап в Mermaid || 328 ||
-|| [[MISSING || MISSING.md]] || Пробелы знаний || 517 ||
+|| [[MISSING || MISSING.md]] || Пробелы знаний || 450 ||
 || [[MISSING || MISSING.md]] || Пробелы знаний || 528 ||
 || [[NAMED_ENTITIES || NAMED_ENTITIES.md]] || — || 1744 ||
-|| [[NARRATIVE || NARRATIVE.md]] || — || 1128 ||
-|| [[NETWORK || NETWORK.md]] || — || 530 ||
+|| [[NARRATIVE || NARRATIVE.md]] || — || 1055 ||
+|| [[NETWORK || NETWORK.md]] || — || 413 ||
 || [[ONBOARDING || ONBOARDING.md]] || — || 566 ||
-|| [[ORPHANS || ORPHANS.md]] || — || 134 ||
+|| [[ORPHANS || ORPHANS.md]] || — || 90 ||
 || [[OUTLINE || OUTLINE.md]] || — || 47483 ||
 || [[PARAGRAPH_QUALITY || PARAGRAPH_QUALITY.md]] || — || 17500 ||
 || [[PASSIVE_VOICE || PASSIVE_VOICE.md]] || — || 468 ||
-|| [[PRECISION_EVAL || PRECISION_EVAL.md]] || — || 575 ||
-|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3479 ||
-|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3489 ||
-|| [[PROGRESS || PROGRESS.md]] || — || 356 ||
+|| [[PRECISION_EVAL || PRECISION_EVAL.md]] || — || 515 ||
+|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3448 ||
+|| [[PRIORITIES || PRIORITIES.md]] || Приоритеты (TF-IDF) || 3683 ||
+|| [[PROGRESS || PROGRESS.md]] || — || 348 ||
 || [[PROTOTYPE_SPEC || PROTOTYPE_SPEC.md]] || — || 1676 ||
 || [[QA || QA.md]] || Вопросы и ответы || 225 ||
 || [[QA || QA.md]] || Вопросы и ответы || 323 ||
 || [[QA || QA.md]] || Вопросы и ответы || 107 ||
 || [[QA || QA.md]] || Вопросы и ответы || 226 ||
 || [[QA || QA.md]] || Вопросы и ответы || 196 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 2103 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 2126 ||
 || [[QA || QA.md]] || Вопросы и ответы || 468 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 61 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 84 ||
 || [[QA || QA.md]] || Вопросы и ответы || 47 ||
 || [[QA || QA.md]] || Вопросы и ответы || 135 ||
 || [[QA || QA.md]] || Вопросы и ответы || 207 ||
 || [[QA || QA.md]] || Вопросы и ответы || 71 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 329 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 452 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 208 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 386 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 312 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 304 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 410 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 169 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 305 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 271 ||
 || [[QA || QA.md]] || Вопросы и ответы || 336 ||
 || [[QA || QA.md]] || Вопросы и ответы || 484 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 145 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 158 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 252 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 329 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 162 ||
-|| [[QA || QA.md]] || Вопросы и ответы || 341 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 118 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 102 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 204 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 287 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 123 ||
+|| [[QA || QA.md]] || Вопросы и ответы || 299 ||
 || [[QA || QA.md]] || Вопросы и ответы || 489 ||
 || [[QA || QA.md]] || Вопросы и ответы || 219 ||
 || [[QA || QA.md]] || Вопросы и ответы || 473 ||
-|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1885 ||
-|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1895 ||
-|| [[READABILITY || READABILITY.md]] || — || 37597 ||
+|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1839 ||
+|| [[QUESTIONS || QUESTIONS.md]] || Открытые вопросы (484) || 1935 ||
+|| [[READABILITY || READABILITY.md]] || — || 37373 ||
 || [[READING_LIST || READING_LIST.md]] || — || 601 ||
 || [[READING_ORDER || READING_ORDER.md]] || Рекомендуемый порядок чтения || 6041 ||
-|| [[READING_ORDER || READING_ORDER.md]] || Рекомендуемый порядок чтения || 6139 ||
-|| [[READING_TIME || READING_TIME.md]] || — || 27381 ||
+|| [[READING_ORDER || READING_ORDER.md]] || Рекомендуемый порядок чтения || 6151 ||
+|| [[READING_TIME || READING_TIME.md]] || — || 27426 ||
 || [[README || README.md]] || Главная страница и навигация || 424 ||
 || [[README || README.md]] || Главная страница и навигация || 2345 ||
 || [[README || README.md]] || Главная страница и навигация || 326 ||
@@ -408,44 +374,44 @@ h2. Мета-документы
 || [[README || README.md]] || Главная страница и навигация || 351 ||
 || [[README || README.md]] || Главная страница и навигация || 110 ||
 || [[README || README.md]] || Главная страница и навигация || 132 ||
-|| [[README || README.md]] || Главная страница и навигация || 138 ||
+|| [[README || README.md]] || Главная страница и навигация || 82 ||
 || [[REGISTRY || REGISTRY.md]] || — || 1341 ||
-|| [[REPORT || REPORT.md]] || — || 326 ||
+|| [[REPORT || REPORT.md]] || — || 297 ||
 || [[RISK_REGISTER || RISK_REGISTER.md]] || — || 959 ||
-|| [[SCHEDULE || SCHEDULE.md]] || — || 364 ||
-|| [[SCORING || SCORING.md]] || — || 404 ||
-|| [[SCRIPTS_CATALOG || SCRIPTS_CATALOG.md]] || — || 7730 ||
+|| [[SCHEDULE || SCHEDULE.md]] || — || 356 ||
+|| [[SCORING || SCORING.md]] || — || 400 ||
+|| [[SCRIPTS_CATALOG || SCRIPTS_CATALOG.md]] || — || 7729 ||
 || [[SCRIPT_EVAL_REPORT || SCRIPT_EVAL_REPORT.md]] || — || 2969 ||
 || [[SEARCH || SEARCH.md]] || Поисковый индекс || 23204 ||
 || [[SEARCH_RESULTS || SEARCH_RESULTS.md]] || — || 344 ||
-|| [[SEE_ALSO || SEE_ALSO.md]] || — || 278 ||
-|| [[SENTIMENT || SENTIMENT.md]] || — || 598 ||
-|| [[SENTINEL || SENTINEL.md]] || — || 384 ||
+|| [[SEE_ALSO || SEE_ALSO.md]] || — || 220 ||
+|| [[SENTIMENT || SENTIMENT.md]] || — || 583 ||
+|| [[SENTINEL || SENTINEL.md]] || — || 374 ||
 || [[SIMILAR || SIMILAR.md]] || Похожие документы (937 пар) || 318 ||
 || [[SIMILAR || SIMILAR.md]] || Похожие документы (937 пар) || 334 ||
 || [[SIMILAR_PASSAGES || SIMILAR_PASSAGES.md]] || — || 1606 ||
 || [[SKILL_DASHBOARD || SKILL_DASHBOARD.md]] || — || 122 ||
 || [[SOURCE_MAP || SOURCE_MAP.md]] || — || 12404 ||
-|| [[SPELLCHECK || SPELLCHECK.md]] || — || 455 ||
-|| [[STALENESS || STALENESS.md]] || — || 444 ||
+|| [[SPELLCHECK || SPELLCHECK.md]] || — || 381 ||
+|| [[STALENESS || STALENESS.md]] || — || 437 ||
 || [[STATS || STATS.md]] || Детальная статистика || 698 ||
-|| [[STATS || STATS.md]] || Детальная статистика || 754 ||
-|| [[SUMMARIES || SUMMARIES.md]] || — || 35 ||
-|| [[TABLES || TABLES.md]] || — || 334302 ||
+|| [[STATS || STATS.md]] || Детальная статистика || 787 ||
+|| [[SUMMARIES || SUMMARIES.md]] || — || 13 ||
+|| [[TABLES || TABLES.md]] || — || 316150 ||
 || [[TABLES || TABLES.md]] || — || 334315 ||
-|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 661 ||
-|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 671 ||
+|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 659 ||
+|| [[TAGS || TAGS.md]] || Теги (316 файлов, 12 тем) || 625 ||
 || [[TASKS_INDEX || TASKS_INDEX.md]] || — || 956 ||
 || [[TECH_RADAR || TECH_RADAR.md]] || — || 634 ||
-|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4827 ||
-|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4841 ||
+|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4771 ||
+|| [[TIMELINE || TIMELINE.md]] || Временная шкала (800 маркеров) || 4771 ||
 || [[TOPIC_MODEL || TOPIC_MODEL.md]] || — || 1085 ||
-|| [[VALIDATION || VALIDATION.md]] || — || 283 ||
+|| [[VALIDATION || VALIDATION.md]] || — || 254 ||
 || [[VERSION_DIFF || VERSION_DIFF.md]] || — || 2861 ||
 || [[VOCABULARY || VOCABULARY.md]] || — || 1004 ||
 || [[WORD_CLOUD || WORD_CLOUD.md]] || — || 245 ||
-|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3357 ||
-|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3368 ||
+|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3327 ||
+|| [[WORD_FREQ || WORD_FREQ.md]] || Частотный анализ слов || 3488 ||
 || [[reading-paths || reading-paths.md]] || — || 692 ||
 
 h2. Svyazi 2.0 — Архитектура системы
@@ -1088,10 +1054,10 @@ _{{docs/templates/}} — 23 файлов_
 
 || # || Документ || Слов ||
 || 1 || [Спецификация агента: [Название]](templates/agent-spec.md) || 438 ||
-|| 2 || [Контакт: [Имя / Проект]](templates/contact-outreach.md) || 161 ||
+|| 2 || [Контакт: [Имя / Проект]](templates/contact-outreach.md) || 119 ||
 || 3 || [Противоречие: [Название]](templates/contradiction-record.md) || 364 ||
-|| 4 || [ADR: [Название решения]](templates/decision-record.md) || 134 ||
-|| 5 || [Ансамбль: [Название]](templates/ensemble.md) || 154 ||
+|| 4 || [ADR: [Название решения]](templates/decision-record.md) || 84 ||
+|| 5 || [Ансамбль: [Название]](templates/ensemble.md) || 112 ||
 || 6 || [Эксперимент: [Название]](templates/experiment-log.md) || 365 ||
 || 7 || [FAQ: [Вопрос]](templates/faq-entry.md) || 366 ||
 || 8 || [[Термин]](templates/glossary-entry.md) || 368 ||
@@ -1099,10 +1065,10 @@ _{{docs/templates/}} — 23 файлов_
 || 10 || [Юридический кейс: [Aktenzeichen]](templates/legal-case.md) || 372 ||
 || 11 || [Встреча: [Тема]](templates/meeting-notes.md) || 362 ||
 || 12 || [Mega-stack: [Название]](templates/mega-stack.md) || 428 ||
-|| 13 || [[Название компонента]](templates/project-component.md) || 152 ||
+|| 13 || [[Название компонента]](templates/project-component.md) || 102 ||
 || 14 || [[Название протокола]](templates/protocol-spec.md) || 431 ||
 || 15 || [MVP: [Название]](templates/prototype-mvp.md) || 445 ||
-|| 16 || [[Тема исследования]](templates/research-note.md) || 131 ||
+|| 16 || [[Тема исследования]](templates/research-note.md) || 66 ||
 || 17 || [Ретроспектива: [период]](templates/retrospective.md) || 373 ||
 || 18 || [RFC NNNN: [Название]](templates/rfc.md) || 341 ||
 || 19 || [Риск: [Название]](templates/risk-entry.md) || 371 ||

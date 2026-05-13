@@ -132,3 +132,14 @@ _Для AI-ассистента: читай `CLAUDE.md` для понимани�
 - [README](README.md)
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [INDEX](INDEX.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [TECH_RADAR](TECH_RADAR.md)
+- [PROGRESS](PROGRESS.md)
+

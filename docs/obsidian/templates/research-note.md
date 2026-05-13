@@ -42,23 +42,7 @@ date: 2026-05-13
 - [ ] [Действие 2]
 
 ---
-_Создано: 2026-05-11_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[TASKS_INDEX]]
-- [[research-summary]]
-- [[README]]
-- _...ещё 2_
-
+_Создано: 2026-05-13_
 
 
 Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «[Тема исследования]». Формируется автоматически.
@@ -69,3 +53,18 @@ _Создано: 2026-05-11_
 # Запуск
 python scripts/improve_research_note.py
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (8):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[research-summary]]
+- [[README]]
+- [[experiment-log]]
+- [[template-of-templates]]
+

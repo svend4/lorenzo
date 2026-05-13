@@ -1,16 +1,11 @@
 # Рекомендуемый порядок чтения
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: reading-order, docs -->
-
-
 <!-- summary -->
-> `READING_ORDER` — раздел документации проекта Lorenzo.
+> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
+**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
+
+---
+
 
 
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -442,37 +437,13 @@
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
 
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_reading_order.py
-```
-```bash
-# Вариант 2
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 3
-python scripts/improve_reading_order.py --dry-run
-```
-```bash
-# Вариант 4
-python scripts/improve_reading_order.py --dry-run
-```
-
-<!-- backlinks -->
+<!-- see-also -->
 
 ---
 
-**Кто ссылается на этот документ (12):**
-- [README](02-anthropic-vacancies/README.md)
-- [CLUSTERS](CLUSTERS.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [OUTLINE](OUTLINE.md)
+**Смотрите также:**
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [REPORT](REPORT.md)
-- _...ещё 4_
 

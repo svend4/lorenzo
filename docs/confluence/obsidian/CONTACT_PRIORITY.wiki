@@ -6,14 +6,6 @@
 ----
 title: "Приоритет контактов"
 tags:
-  * memory
-  * rag
-  * orchestration
-  * security
-  * knowledge
-  * ingestion
-  * architecture
-  * collaboration
   * general
 date: 2026-05-13
 ----
@@ -21,13 +13,16 @@ date: 2026-05-13
 h1. Приоритет контактов
 
 
-{quote}1. _kksudo_ (AgentFS, 189 упоминаний) → [[kksudo|открыть контакт]]{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
 
-----
-
+{quote}[!NOTE]{quote}
+{quote}Раздел {{CONTACT_PRIORITY}} формируется автоматически из данных репозитория.{quote}
 
 
+
+
+
+
+{quote}{{CONTACT_PRIORITY}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Обновлено: 2026-05-13_
@@ -37,8 +32,8 @@ h2. Топ авторов по приоритету
 || # || Автор || Проект || Слой || Упоминаний || Статус || Балл ||
 || 1 || **kksudo** || AgentFS || knowledge/filesystem || 189 || 👁 Изучили || 578 ||
 || 2 || **spbmolot** || NGT Memory || memory || 167 || 👁 Изучили || 512 ||
-|| 3 || **AnastasiyaW** || knowledge-space, mclaude || knowledge/orchestration || 128 || 👁 Изучили || 395 ||
-|| 4 || **VitalyOborin** || Yodoca || memory || 104 || 👁 Изучили || 323 ||
+|| 3 || **AnastasiyaW** || knowledge-space, mclaude || knowledge/orchestration || 126 || 👁 Изучили || 389 ||
+|| 4 || **VitalyOborin** || Yodoca || memory || 102 || 👁 Изучили || 317 ||
 || 5 || **zodigancode** || Rufler || orchestration || 91 || 👁 Изучили || 282 ||
 || 6 || **Antipozitive** || MemNet || memory || 78 || 👁 Изучили || 245 ||
 || 7 || **VladSpace** || Graph RAG || rag || 80 || ⬜ Не начато || 244 ||
@@ -57,7 +52,7 @@ h3. Написать первым (ещё не контактировали)
 
 1. _kksudo_ (AgentFS, 189 упоминаний) → [[kksudo|открыть контакт]]
 1. _spbmolot_ (NGT Memory, 167 упоминаний) → [[spbmolot|открыть контакт]]
-1. _AnastasiyaW_ (knowledge-space, mclaude, 128 упоминаний) → [[anastasiyaw|открыть контакт]]
+1. _AnastasiyaW_ (knowledge-space, mclaude, 126 упоминаний) → [[anastasiyaw|открыть контакт]]
 
 h2. Формула расчёта балла
 
@@ -73,14 +68,14 @@ _Чем выше балл — тем важнее написать первым.
 
 ----
 
-_Кто ссылается на этот документ (13):_
+_Кто ссылается на этот документ (15):_
+* [[AUTHORS]]
 * [[COLLAB_SUGGESTIONS]]
+* [[ENTITIES]]
 * [[MINDMAP]]
+* [[MISSING]]
 * [[OUTLINE]]
-* [[PRECISION_EVAL]]
 * [[READABILITY]]
 * [[READING_TIME]]
-* [[README]]
-* [[SEARCH]]
-* _...ещё 5_
+* _...ещё 7_
 

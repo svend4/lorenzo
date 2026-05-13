@@ -1,5 +1,12 @@
 # 05 — Приоритеты: что делать прямо сейчас
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+---
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -309,4 +316,15 @@ Self-RAG и Knowledge Graph дают reasoning differentiation без enormous r
 - [03-INNOVATIVE](03-INNOVATIVE.md)
 - [04-NOVEL](04-NOVEL.md)
 - [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [01-SIMPLE](01-SIMPLE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
 

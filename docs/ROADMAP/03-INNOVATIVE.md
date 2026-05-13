@@ -1,5 +1,13 @@
 # 03 — Инновационные направления (frontier research)
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** Yodoca
+
+---
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -837,4 +845,15 @@ def summarize_corpus(*, section: str = "", query: str = "",
 - [04-NOVEL](04-NOVEL.md)
 - [05-PRIORITIES](05-PRIORITIES.md)
 - [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [04-NOVEL](04-NOVEL.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
 

@@ -1,5 +1,13 @@
 # 02 — Средние улучшения (мейнстрим современного RAG)
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, AgentFS, Yodoca
+
+---
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -556,4 +564,15 @@ class ImageStore:
 - [04-NOVEL](04-NOVEL.md)
 - [05-PRIORITIES](05-PRIORITIES.md)
 - [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [04-NOVEL](04-NOVEL.md)
+- [00-CURRENT-STATE](00-CURRENT-STATE.md)
+- [01-SIMPLE](01-SIMPLE.md)
 

@@ -1,26 +1,23 @@
 ---
 title: "Q&A: 05-habr-projects"
 tags:
-  - memory
-  - rag
-  - knowledge
-  - architecture
-  - roadmap
-  - collaboration
+  - qa
+  - docs
   - habr-projects
 date: 2026-05-13
 ---
 
 # Q&A: 05-habr-projects
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
+
+
 <!-- summary -->
-> _Автоматически сгенерировано по 12 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Hybrid RAG, Yodoca, NGT Memory, MemNet
-
----
-<!-- tags: memory, rag, knowledge, architecture, roadmap, collaboration -->
-
-
+> `QA` — раздел документации проекта Lorenzo.
 
 
 _Автоматически сгенерировано по 12 файлам раздела._
@@ -84,6 +81,20 @@ _Не найдено в этом файле._
 ## Какие RAG-подходы сравниваются в документах?
 
 Упоминаются: **Hybrid RAG**, **LiteParse**
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
 
 <!-- backlinks -->
 

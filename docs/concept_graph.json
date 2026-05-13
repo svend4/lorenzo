@@ -181,13 +181,13 @@
       "category": "other"
     },
     {
-      "id": "через",
+      "id": "summary",
       "count": 242,
       "files": 242,
       "category": "other"
     },
     {
-      "id": "summary",
+      "id": "через",
       "count": 242,
       "files": 242,
       "category": "other"
@@ -199,15 +199,15 @@
       "category": "other"
     },
     {
-      "id": "search",
+      "id": "поиска",
       "count": 237,
       "files": 237,
       "category": "knowledge"
     },
     {
-      "id": "поиска",
-      "count": 237,
-      "files": 237,
+      "id": "search",
+      "count": 236,
+      "files": 236,
       "category": "knowledge"
     },
     {
@@ -255,7 +255,7 @@
     {
       "source": "anthropic",
       "target": "search",
-      "weight": 41
+      "weight": 40
     },
     {
       "source": "anthropic",
@@ -505,12 +505,12 @@
     {
       "source": "search",
       "target": "svyazi",
-      "weight": 105
+      "weight": 104
     },
     {
       "source": "search",
       "target": "vacancies",
-      "weight": 17
+      "weight": 16
     },
     {
       "source": "search",
@@ -1325,7 +1325,7 @@
     {
       "source": "knowledge",
       "target": "search",
-      "weight": 50
+      "weight": 49
     },
     {
       "source": "knowledge",
@@ -1435,7 +1435,7 @@
     {
       "source": "agent",
       "target": "search",
-      "weight": 57
+      "weight": 56
     },
     {
       "source": "agent",
@@ -1540,7 +1540,7 @@
     {
       "source": "docs",
       "target": "search",
-      "weight": 126
+      "weight": 125
     },
     {
       "source": "docs",

@@ -88,3 +88,14 @@ _█ = активная работа, ░ = ожидание_
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SUMMARIES](SUMMARIES.md)
+- [GRAPH](GRAPH.md)
+- [MINDMAP](MINDMAP.md)
+- [COVERAGE](COVERAGE.md)
+

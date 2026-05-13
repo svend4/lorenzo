@@ -102,3 +102,14 @@ python scripts/improve_scoring.py
 - [METRICS](METRICS.md)
 - _...ещё 12_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COVERAGE](COVERAGE.md)
+- [SCHEDULE](SCHEDULE.md)
+- [SUMMARIES](SUMMARIES.md)
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+

@@ -6130,3 +6130,14 @@ python scripts/improve_heading_audit.py --dry-run
 - [TABLES](TABLES.md)
 - [TAGS](TAGS.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [SEARCH](SEARCH.md)
+

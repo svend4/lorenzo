@@ -1,11 +1,30 @@
 ---
 title: "Перекрёстные ссылки"
 tags:
+  - crossrefs
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # Перекрёстные ссылки
+
+<!-- toc-auto -->
+<!-- tags: crossrefs, docs -->
+
+
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
+<!-- summary -->
+> Для каждого проекта — в каких файлах он упоминается.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
 
 ## Проекты → файлы
 
@@ -70,3 +89,17 @@ date: 2026-05-13
 | `docs/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 25 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +19 |
 | `docs/obsidian/02-anthropic-vacancies/365-развёрнутый-анализ-внуковой-комбинации.md` | 25 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +19 |
 | `docs/01-svyazi/04-ensembles-overview.md` | 24 | Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory +18 |
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_crossrefs.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]

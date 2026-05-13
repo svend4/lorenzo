@@ -1,5 +1,13 @@
 # 00 — Текущее состояние Lorenzo / Knowledge OS
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+**Проекты:** AgentFS, Yodoca, NGT Memory
+
+---
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -297,4 +305,15 @@ NPP протокол (Sprint 36): запрос распределяется по
 - [04-NOVEL](04-NOVEL.md)
 - [05-PRIORITIES](05-PRIORITIES.md)
 - [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [02-MEDIUM](02-MEDIUM.md)
+- [CHANGELOG_AUTO](../CHANGELOG_AUTO.md)
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [01-SIMPLE](01-SIMPLE.md)
 

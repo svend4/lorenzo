@@ -538,3 +538,14 @@ python scripts/improve_version_diff.py --dry-run
 - [README](README.md)
 - _...ещё 4_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](CLUSTERS.md)
+- [READING_ORDER](READING_ORDER.md)
+- [LANGUAGE_STATS](LANGUAGE_STATS.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+

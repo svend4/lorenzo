@@ -68,3 +68,14 @@ _Чем выше балл — тем важнее написать первым.
 - [READING_TIME](READING_TIME.md)
 - _...ещё 7_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MINDMAP](MINDMAP.md)
+- [GRAPH](GRAPH.md)
+- [CONTACTS](CONTACTS.md)
+- [NETWORK](NETWORK.md)
+

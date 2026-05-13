@@ -924,3 +924,14 @@ digest = personalized_digest(profile, recent_changes)
 | Противоречий найдено | CONTRADICTIONS.md | 9367 |
 | Пустых секций | EMPTY_SECTIONS.md | 1632 |
 | Уникальных концептов | concept_graph.json | ~500 узлов |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PROCESSING_GUIDE](processing-guide/PROCESSING_GUIDE.md)
+- [SCRIPT_EVAL_REPORT](SCRIPT_EVAL_REPORT.md)
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [EMPTY_SECTIONS](EMPTY_SECTIONS.md)
+

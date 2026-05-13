@@ -1,5 +1,12 @@
 # 04 — Никем не сделанные направления (true novelty)
 
+<!-- summary -->
+> > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+---
+
+
+
 > [!WARNING]
 > Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
 
@@ -916,4 +923,15 @@ class CoEvolutionLoop:
 - [03-INNOVATIVE](03-INNOVATIVE.md)
 - [05-PRIORITIES](05-PRIORITIES.md)
 - [README](README.md)
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [03-INNOVATIVE](03-INNOVATIVE.md)
+- [02-MEDIUM](02-MEDIUM.md)
+- [01-SIMPLE](01-SIMPLE.md)
+- [342-что-такое-вариант-c-concept-document-для-anthropic](../02-anthropic-vacancies/342-что-такое-вариант-c-concept-document-для-anthropic.md)
 

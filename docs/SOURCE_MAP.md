@@ -1850,3 +1850,14 @@ python scripts/improve_source_map.py --dry-run
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+

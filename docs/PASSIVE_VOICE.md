@@ -79,3 +79,14 @@ python scripts/improve_passive_voice.py
 - [TABLES](TABLES.md)
 - [15-appendix-c-history](nautilus/review-methodology/15-appendix-c-history.md)
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [SUMMARIES](SUMMARIES.md)
+- [STALENESS](STALENESS.md)
+- [COVERAGE](COVERAGE.md)
+- [ORPHANS](ORPHANS.md)
+

@@ -453,3 +453,14 @@ python scripts/improve_named_entities.py
 - [READING_TIME](READING_TIME.md)
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [ENTITIES](ENTITIES.md)
+

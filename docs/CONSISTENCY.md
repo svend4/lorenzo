@@ -1,5 +1,13 @@
 # Согласованность терминов
 
+<!-- summary -->
+> Анализ различных написаний одних и тех же терминов.
+**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
+
+---
+
+
+
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
@@ -24,9 +32,9 @@
 | **evidence envelope** | `Evidence Envelope` | `Evidence-Envelope` | 41 |
 | **evidence envelope** | `Evidence Envelope` | `EvidenceEnvelope` | 2 |
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 37 |
-| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
+| **Card Envelope** | `Card Envelope` | `CardEnvelope` | 31 |
 
-**Всего несогласованных написаний: 675**
+**Всего несогласованных написаний: 674**
 
 
 ## Детали по файлам
@@ -193,3 +201,14 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [MISSING](MISSING.md)
+- [TAGS](TAGS.md)
+- [STATS](STATS.md)
+- [SPELLCHECK](SPELLCHECK.md)
+

@@ -46,23 +46,7 @@ date: 2026-05-13
 - Статус связи: [не писали / написали / ответили]
 
 ---
-_Создано: 2026-05-11_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[research-summary]]
-- [[README]]
-- [[agent-spec]]
-- _...ещё 2_
-
+_Создано: 2026-05-13_
 
 
 ## Использование
@@ -70,3 +54,26 @@ _Создано: 2026-05-11_
 # Запуск
 python scripts/improve_project_component.py
 ```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[research-summary]]
+- [[README]]
+- [[agent-spec]]
+- [[mega-stack]]
+- _...ещё 1_
+

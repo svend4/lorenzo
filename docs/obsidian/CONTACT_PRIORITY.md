@@ -1,28 +1,23 @@
 ---
 title: "Приоритет контактов"
 tags:
-  - memory
-  - rag
-  - orchestration
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - collaboration
   - general
 date: 2026-05-13
 ---
 
 # Приоритет контактов
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CONTACT_PRIORITY` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: contact-priority, docs -->
+
+
 <!-- summary -->
-> 1. **kksudo** (AgentFS, 189 упоминаний) → [[kksudo|открыть контакт]]
-**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
-
----
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, architecture, collaboration -->
-
-
+> `CONTACT_PRIORITY` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-13_
@@ -33,8 +28,8 @@ _Обновлено: 2026-05-13_
 |---|-------|--------|------|-----------|--------|------|
 | 1 | **kksudo** | AgentFS | knowledge/filesystem | 189 | 👁 Изучили | 578 |
 | 2 | **spbmolot** | NGT Memory | memory | 167 | 👁 Изучили | 512 |
-| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 128 | 👁 Изучили | 395 |
-| 4 | **VitalyOborin** | Yodoca | memory | 104 | 👁 Изучили | 323 |
+| 3 | **AnastasiyaW** | knowledge-space, mclaude | knowledge/orchestration | 126 | 👁 Изучили | 389 |
+| 4 | **VitalyOborin** | Yodoca | memory | 102 | 👁 Изучили | 317 |
 | 5 | **zodigancode** | Rufler | orchestration | 91 | 👁 Изучили | 282 |
 | 6 | **Antipozitive** | MemNet | memory | 78 | 👁 Изучили | 245 |
 | 7 | **VladSpace** | Graph RAG | rag | 80 | ⬜ Не начато | 244 |
@@ -53,7 +48,7 @@ _Обновлено: 2026-05-13_
 
 1. **kksudo** (AgentFS, 189 упоминаний) → [[kksudo|открыть контакт]]
 1. **spbmolot** (NGT Memory, 167 упоминаний) → [[spbmolot|открыть контакт]]
-1. **AnastasiyaW** (knowledge-space, mclaude, 128 упоминаний) → [[anastasiyaw|открыть контакт]]
+1. **AnastasiyaW** (knowledge-space, mclaude, 126 упоминаний) → [[anastasiyaw|открыть контакт]]
 
 ## Формула расчёта балла
 
@@ -69,14 +64,14 @@ _Чем выше балл — тем важнее написать первым.
 
 ---
 
-**Кто ссылается на этот документ (13):**
+**Кто ссылается на этот документ (15):**
+- [[AUTHORS]]
 - [[COLLAB_SUGGESTIONS]]
+- [[ENTITIES]]
 - [[MINDMAP]]
+- [[MISSING]]
 - [[OUTLINE]]
-- [[PRECISION_EVAL]]
 - [[READABILITY]]
 - [[READING_TIME]]
-- [[README]]
-- [[SEARCH]]
-- _...ещё 5_
+- _...ещё 7_
 

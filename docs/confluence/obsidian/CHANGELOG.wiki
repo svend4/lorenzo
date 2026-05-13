@@ -6,6 +6,8 @@
 ----
 title: "CHANGELOG"
 tags:
+  * changelog
+  * docs
   * general
 date: 2026-05-13
 ----
@@ -13,25 +15,36 @@ date: 2026-05-13
 h1. CHANGELOG
 
 
-{quote}Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 5 | 🤖 ci: 4{quote}
-_Проекты:_ Svyazi
 
-----
-
+{quote}[!NOTE]{quote}
+{quote}Раздел {{CHANGELOG}} формируется автоматически из данных репозитория.{quote}
 
 
 
 
-Всего коммитов: _53_  
-Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 5 | 🤖 ci: 4
 
 
-h2. 2026-05-13 (3 коммитов)
+{quote}{{CHANGELOG}} — раздел документации проекта Lorenzo.{quote}
+
+
+Всего коммитов: _56_  
+Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 7 | 🤖 ci: 4 | ✨ feat: 1
+
+
+h2. 2026-05-13 (6 коммитов)
 
 h3. 🔧 Обслуживание
 
+* update catalog — precision_eval now in quality group _5a593f4a_
+  > https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7
+* bump version to 0.2.0 _83859499_
+  > Promotes unreleased features to 0.2.0:
 * update generated docs artifacts from local script runs _158b1749_
   > https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7
+h3. ✨ Новые функции
+
+* add improve_precision_eval.py to quality group in run_all _72b9d4b9_
+  > Retrieval Hit Rate@K evaluation should run alongside other quality checks
 h3. 🐛 Исправления
 
 * suppress PytestCollectionWarning for TestResult dataclass _d655c2aa_
@@ -151,16 +164,31 @@ h3. 🧪 Тесты
   > Covers default_for_type, suggest_migrations, tokens, top_freq, extract_urls,
 
 
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_changelog.py
+{code}
+
+h2. Смотрите также
+* [[README|Главная]]
+* [[METRICS|Метрики]]
+* [[HEALTH|Здоровье]]
+* [[GLOSSARY|Глоссарий]]
+* [[ENTITIES|Сущности]]
+
+
 
 ----
 
-_Кто ссылается на этот документ (8):_
+_Кто ссылается на этот документ (9):_
 * [[CHANGELOG_AUTO]]
+* [[DIGEST]]
 * [[OUTLINE]]
 * [[READABILITY]]
 * [[READING_TIME]]
 * [[README]]
 * [[SCRIPT_EVAL_REPORT]]
 * [[SEARCH]]
-* [[TABLES]]
+* _...ещё 1_
 

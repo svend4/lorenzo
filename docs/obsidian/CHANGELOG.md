@@ -1,32 +1,45 @@
 ---
 title: "CHANGELOG"
 tags:
+  - changelog
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # CHANGELOG
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `CHANGELOG` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: changelog, docs -->
+
+
 <!-- summary -->
-> Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 5 | 🤖 ci: 4
-**Проекты:** Svyazi
-
----
-<!-- tags: rag, orchestration, ingestion, self-improve -->
+> `CHANGELOG` — раздел документации проекта Lorenzo.
 
 
+Всего коммитов: **56**  
+Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 7 | 🤖 ci: 4 | ✨ feat: 1
 
 
-Всего коммитов: **53**  
-Статистика: 🧪 test: 34 | 🐛 fix: 10 | 🔧 chore: 5 | 🤖 ci: 4
-
-
-## 2026-05-13 (3 коммитов)
+## 2026-05-13 (6 коммитов)
 
 ### 🔧 Обслуживание
 
+- update catalog — precision_eval now in quality group _5a593f4a_
+  > https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7
+- bump version to 0.2.0 _83859499_
+  > Promotes unreleased features to 0.2.0:
 - update generated docs artifacts from local script runs _158b1749_
   > https://claude.ai/code/session_0152UNJd7SaxP8QSDGZZaFH7
+### ✨ Новые функции
+
+- add improve_precision_eval.py to quality group in run_all _72b9d4b9_
+  > Retrieval Hit Rate@K evaluation should run alongside other quality checks
 ### 🐛 Исправления
 
 - suppress PytestCollectionWarning for TestResult dataclass _d655c2aa_
@@ -145,17 +158,32 @@ date: 2026-05-13
 - add helper tests for template_migrate, external_compare, run_all, llm_qa _dee34e8c_
   > Covers default_for_type, suggest_migrations, tokens, top_freq, extract_urls,
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (8):**
+**Кто ссылается на этот документ (9):**
 - [[CHANGELOG_AUTO]]
+- [[DIGEST]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
 - [[SCRIPT_EVAL_REPORT]]
 - [[SEARCH]]
-- [[TABLES]]
+- _...ещё 1_
 

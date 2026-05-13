@@ -122,3 +122,14 @@ _Radar обновляется вручную при существенных и�
 - [SEARCH](SEARCH.md)
 - _...ещё 3_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [COMPONENT_MATRIX](COMPONENT_MATRIX.md)
+- [ONBOARDING](ONBOARDING.md)
+- [FOOTNOTES](FOOTNOTES.md)
+- [SCHEDULE](SCHEDULE.md)
+

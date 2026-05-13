@@ -248,3 +248,14 @@ python scripts/improve_faq.py
 - [READABILITY](READABILITY.md)
 - _...ещё 9_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [QUESTIONS](QUESTIONS.md)
+- [10-otkrytye-voprosy](nautilus/representative-agent-layer-ru/10-otkrytye-voprosy.md)
+- [10-open-questions](nautilus/representative-agent-layer-en/10-open-questions.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
+

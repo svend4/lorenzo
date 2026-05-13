@@ -335,3 +335,10 @@ python scripts/improve_changelog_auto.py
 - [[README]]
 - _...ещё 2_
 
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_changelog_auto.py
+```

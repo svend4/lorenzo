@@ -1,24 +1,23 @@
 ---
 title: "Q&A: 03-technology-combinations"
 tags:
-  - rag
-  - knowledge
-  - ingestion
-  - architecture
+  - qa
+  - docs
   - technology-combinations
 date: 2026-05-13
 ---
 
 # Q&A: 03-technology-combinations
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
+
+
 <!-- summary -->
-> _Автоматически сгенерировано по 5 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space
-
----
-<!-- tags: rag, knowledge, ingestion, architecture -->
-
-
+> `QA` — раздел документации проекта Lorenzo.
 
 
 _Автоматически сгенерировано по 5 файлам раздела._
@@ -54,6 +53,20 @@ _Не найдено в этом файле._
 ## Что входит в интеграционный контракт между слоями?
 
 _Не найдено в этом файле._
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
 
 <!-- backlinks -->
 

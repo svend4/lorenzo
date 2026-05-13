@@ -1,5 +1,13 @@
 # Карта репозитория Lorenzo
 
+<!-- summary -->
+> > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+**Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+---
+
+
+
 > [!TIP]
 > Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
 
@@ -1085,3 +1093,14 @@ _`docs/templates/` — 23 файлов_
 | 21 | [Tech Radar: [Название]](templates/tech-radar-entry.md) | 363 |
 | 22 | [[имя нового шаблона]](templates/template-of-templates.md) | 382 |
 | 23 | [Еженедельный дайджест: [период]](templates/weekly-digest.md) | 367 |
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+- [SEARCH](SEARCH.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [READABILITY](READABILITY.md)
+

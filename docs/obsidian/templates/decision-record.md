@@ -46,23 +46,10 @@ date: 2026-05-13
 - ❌ [Компромисс]
 
 ---
-_Дата: 2026-05-11_
+_Дата: 2026-05-13_
 
-<!-- backlinks -->
 
----
-
-**Кто ссылается на этот документ (14):**
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[REGISTRY]]
-- [[SEARCH]]
-- [[TABLES]]
-- [[README]]
-- [[contradiction-record]]
-- [[experiment-log]]
-- _...ещё 6_
-
+Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «ADR: [Название решения]». Формируется автоматически.
 
 
 ## Использование
@@ -70,3 +57,26 @@ _Дата: 2026-05-11_
 # Запуск
 python scripts/improve_decision_record.py
 ```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [[READABILITY]]
+- [[READING_TIME]]
+- [[SEARCH]]
+- [[TABLES]]
+- [[README]]
+- [[contradiction-record]]
+- [[experiment-log]]
+- [[legal-case]]
+- _...ещё 5_
+

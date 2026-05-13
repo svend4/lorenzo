@@ -1,27 +1,23 @@
 ---
 title: "Q&A: 04-ai-collaborations"
 tags:
-  - rag
-  - security
-  - knowledge
-  - ingestion
-  - architecture
-  - roadmap
-  - collaboration
+  - qa
+  - docs
   - ai-collaborations
 date: 2026-05-13
 ---
 
 # Q&A: 04-ai-collaborations
 
+> [!NOTE]
+> Раздел `QA` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: qa, docs -->
+
+
 <!-- summary -->
-> _Автоматически сгенерировано по 15 файлам раздела._
-**Проекты:** CardIndex, AgentFS, knowledge-space, LiteParse, Legal RAG, Hybrid RAG, Graph RAG, SENTINEL
-
----
-<!-- tags: rag, security, knowledge, ingestion, architecture, roadmap, collaboration -->
-
-
+> `QA` — раздел документации проекта Lorenzo.
 
 
 _Автоматически сгенерировано по 15 файлам раздела._
@@ -85,6 +81,20 @@ _Автоматически сгенерировано по 15 файлам ра
 ## Как CardIndex хранит и версионирует карточки?
 
 Упоминаются: **cardindex**, **card_id**, **state**, **hash**, **dedup**
+
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_qa.py
+```
+
+## Смотрите также
+- [[README|Главная]]
+- [[METRICS|Метрики]]
+- [[HEALTH|Здоровье]]
+- [[GLOSSARY|Глоссарий]]
+- [[ENTITIES|Сущности]]
 
 <!-- backlinks -->
 

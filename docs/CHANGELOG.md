@@ -178,3 +178,14 @@ python scripts/improve_changelog.py
 - [SEARCH](SEARCH.md)
 - _...ещё 1_
 
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [DEPENDENCY_MAP](DEPENDENCY_MAP.md)
+- [DIGEST](DIGEST.md)
+- [CHANGELOG_AUTO](CHANGELOG_AUTO.md)
+- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
+

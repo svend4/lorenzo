@@ -1,5 +1,13 @@
 # Кластеры тематически близких файлов
 
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
+
+---
+
+
+
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
 Документов: 2259, кластеров: 175
 
@@ -425,3 +433,14 @@
 - _...и ещё 8 файлов_
 
 _...и ещё 145 малых кластеров (по 1-2 файла)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_ORDER](READING_ORDER.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+

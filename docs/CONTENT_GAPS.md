@@ -1,5 +1,13 @@
 # Тематические пробелы (Content Gaps)
 
+<!-- summary -->
+> Найдено пробелов: **937** (мин. упоминаний: 3)
+**Проекты:** Svyazi
+
+---
+
+
+
 _Обновлено: 2026-05-13_
 
 Найдено пробелов: **937** (мин. упоминаний: 3)
@@ -44,8 +52,8 @@ _Обновлено: 2026-05-13_
 | `AIRI` | 33 | `docs/obsidian/` |
 | `BaseAdapter` | 32 | `docs/obsidian/` |
 | `FAISS` | 30 | `docs/obsidian/` |
-| `ChatDev` | 30 | `docs/obsidian/` |
 | `DeepSeek` | 30 | `docs/obsidian/` |
+| `ChatDev` | 30 | `docs/obsidian/` |
 | `CardStore` | 30 | `docs/obsidian/` |
 | `VitaliySemenov` | 29 | `docs/obsidian/` |
 | `III` | 28 | `docs/obsidian/` |
@@ -53,7 +61,7 @@ _Обновлено: 2026-05-13_
 | `IBM` | 26 | `docs/obsidian/` |
 | `Composite Skills Agents` | 26 | `docs/nautilus/` |
 | `Professional Colleague Agents (EN)` | 26 | `docs/nautilus/` |
-| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/obsidian/` |
+| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/nautilus/` |
 | `Representative Agent Layer (EN)` | 26 | `docs/obsidian/` |
 | `Representative Agent Layer (RU)` | 26 | `docs/obsidian/` |
 | `NNNN` | 25 | `docs/obsidian/` |
@@ -302,4 +310,15 @@ _Обновлено: 2026-05-13_
 - ... и ещё 43 файлах
 
 Создать: `docs/obsidian/yijing.md`
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](CLUSTERS.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [READING_ORDER](READING_ORDER.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
 

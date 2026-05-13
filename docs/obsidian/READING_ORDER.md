@@ -7,25 +7,17 @@ date: 2026-05-13
 
 # Рекомендуемый порядок чтения
 
+<!-- toc-auto -->
+
+> [!NOTE]
+> Раздел `READING_ORDER` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: reading-order, docs -->
+
+
 <!-- summary -->
-> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
-<!-- toc -->
-## Содержание
-
-- [Маршруты по целям](#маршруты-по-целям)
-  - [🚀 Быстрый старт (30 минут)](#быстрый-старт-30-минут)
-  - [🏗️ Архитектура (2 часа)](#архитектура-2-часа)
-  - [🔬 Полное исследование (1 день)](#полное-исследование-1-день)
-
----
-
-<!-- tags: memory, rag, orchestration, security, knowledge, ingestion, local-first, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
+> `READING_ORDER` — раздел документации проекта Lorenzo.
 
 
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
@@ -457,18 +449,37 @@ date: 2026-05-13
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_reading_order.py
+```
+```bash
+# Вариант 2
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 3
+python scripts/improve_reading_order.py --dry-run
+```
+```bash
+# Вариант 4
+python scripts/improve_reading_order.py --dry-run
+```
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (10):**
+**Кто ссылается на этот документ (12):**
 - [[README]]
+- [[CLUSTERS]]
+- [[CONTENT_GAPS]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
 - [[REPORT]]
-- [[SEARCH]]
-- [[TABLES]]
-- _...ещё 2_
+- _...ещё 4_
 

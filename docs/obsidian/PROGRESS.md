@@ -1,27 +1,30 @@
 ---
 title: "Прогресс MVP"
 tags:
+  - progress
+  - docs
   - general
 date: 2026-05-13
 ---
 
 # Прогресс MVP
 
+> [!NOTE]
+> Раздел `PROGRESS` формируется автоматически из данных репозитория.
+
+<!-- alert-added -->
+<!-- tags: progress, docs -->
+
+
 <!-- summary -->
-> _Обновлено: 2026-05-13 (improve_progress_sync.py)_
-**Проекты:** Svyazi, AgentFS, knowledge-space, NGT Memory
-
----
-<!-- tags: memory, knowledge, ingestion, architecture, roadmap, anthropic, self-improvement, collaboration -->
-
-
+> `PROGRESS` — раздел документации проекта Lorenzo.
 
 
 _Обновлено: 2026-05-13 (improve_progress_sync.py)_
 
 ## Ключевые этапы (Milestones)
 
-`█████████████░░░░░░░ 64%` 7/11
+`███████████░░░░░░░░░ 55%` 6/11
 
 ✅ Определена архитектура Svyazi 2.0
 ✅ Составлен каталог 20+ компонентов
@@ -31,7 +34,7 @@ _Обновлено: 2026-05-13 (improve_progress_sync.py)_
 ⬜ Написаны авторам ключевых компонентов
 ⬜ Получены ответы от авторов
 ⬜ LLM-обогащение проектных файлов
-✅ Создан рабочий прототип Knowledge OS
+⬜ Создан рабочий прототип Knowledge OS
 ✅ Пройдено тестирование ансамбля
 ⬜ Опубликован MVP на GitHub
 
@@ -50,7 +53,7 @@ _Обновлено: 2026-05-13 (improve_progress_sync.py)_
 | Метрика | Балл | Статус |
 |---------|------|--------|
 | Здоровье репо (HEALTH) | 99.0/100 | 🟢 |
-| Качество доков (METRICS) | 95.9/100 | 🟢 |
+| Качество доков (METRICS) | 97.9/100 | 🟢 |
 | Go/No-Go (SCORING) | 96.0/100 | 🟢 |
 
 ## Следующий шаг
@@ -85,14 +88,14 @@ cat docs/contacts/anastasiyaw.md
 
 ---
 
-**Кто ссылается на этот документ (10):**
+**Кто ссылается на этот документ (11):**
 - [[07-mvp-planning]]
 - [[116-9-checklist-применения-методологии]]
 - [[CODE_BLOCKS]]
+- [[DECISIONS]]
 - [[INDEX]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
-- [[README]]
-- _...ещё 2_
+- _...ещё 3_
 

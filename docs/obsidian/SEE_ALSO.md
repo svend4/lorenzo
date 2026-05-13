@@ -6,23 +6,19 @@ date: 2026-05-13
 ---
 
 # Индекс «Смотрите также»
-<!-- tags: rag, security, ingestion, local-first, architecture, roadmap, anthropic, collaboration -->
 
-
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+> [!NOTE]
+> Раздел `SEE_ALSO` формируется автоматически из данных репозитория.
 
 <!-- alert-added -->
+<!-- tags: see-also, docs -->
+
 
 <!-- summary -->
-> **Файлов с блоком See Also:** 1071
-**Проекты:** Svyazi
-
----
+> `SEE_ALSO` — раздел документации проекта Lorenzo.
 
 
-
-**Файлов с блоком See Also:** 1071
+**Файлов с блоком See Also:** 1076
 
 ## Ключевые связи
 
@@ -38,7 +34,7 @@ date: 2026-05-13
 - [[10-second-order-ensembles]] → [[10-новые-ансамбли-следующего-шага]], [[G-federated-local-graph]], [[F-evidence-backed-intake]], [[H-research-to-product-flywheel]]
 - [[11-integration-contracts]] → [[11-интеграционный-контракт-который-стоит-зафиксироват]], [[integration-spec]], [[09-архитектурные-зазоры-которые-важнее-новых-инструме]], [[09-architectural-gaps]]
 - [[12-roadmap]] → [[12-дорожная-карта-прототипа-следующей-итерации]], [[roadmap]], [[14-limitations]], [[08-conclusions]]
-- [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[07-mvp-planning]], [[NARRATIVE]]
+- [[13-contacts]] → [[13-контактная-стратегия-и-узкие-вопросы-для-авторов]], [[narrow-questions]], [[CONTACTS]], [[07-mvp-planning]]
 - [[14-limitations]] → [[do-not-glue]], [[conclusions]], [[14-ограничения-лицензии-и-что-пока-лучше-не-склеивать]], [[license-tree]]
 - [[QA]] → [[KNOWLEDGE_MAP]], [[review-record]], [[SEARCH_RESULTS]], [[card-envelope]]
 - [[00-intro]] → [[288-appendix-position-in-series-visualization]], [[12-blagodarnosti-ssylki]], [[188-ai-опосредованное-представительство-для-недопредст]], [[11-dhlab-documents]]
@@ -57,18 +53,25 @@ date: 2026-05-13
 - [[105-review-methodology-md]] → [[229-профессиональные-коллеги-агенты]], [[289-инфраструктура-для-ai-совместной-интеллектуальной-]], [[125-readme-mcp-md-инструкция-по-установке]], [[03-portal-protocol-md]]
 - [[106-tl-dr]] → [[00-tldr]], [[70-зачем-две-версии-параллельно]], [[190-содержание]], [[132-planned-v0-2-0]]
 
+
+## Использование
+```bash
+# Запуск
+python scripts/improve_see_also.py
+```
+
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (10):**
+**Кто ссылается на этот документ (9):**
 - [[04-abstract]]
 - [[70-зачем-две-версии-параллельно]]
-- [[KNOWLEDGE_MAP]]
 - [[OUTLINE]]
 - [[READABILITY]]
 - [[READING_TIME]]
 - [[README]]
 - [[SEARCH]]
-- _...ещё 2_
+- [[TABLES]]
+- _...ещё 1_
 
