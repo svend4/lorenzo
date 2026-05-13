@@ -380,3 +380,14 @@ _B:_ {{docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B
 
 ----
 
+
+
+
+----
+
+_Кто ссылается на этот документ (4):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

@@ -92,3 +92,14 @@ _...и ещё 369_
 | `LANGUAGE_STATS.md` | 6831 | 7963 | +1132 |
 | `LANGUAGE_STATS.md` | 6831 | 7917 | +1086 |
 | `PARAGRAPH_QUALITY.md` | 11544 | 12508 | +964 |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

@@ -42,3 +42,13 @@ python scripts/improve_dependabot.py --check-pypi
 
 После {{--generate-config}} Dependabot автоматически откроет PR
 при выходе новых версий зависимостей.
+
+
+
+----
+
+_Кто ссылается на этот документ (3):_
+* [READABILITY|../READABILITY.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+

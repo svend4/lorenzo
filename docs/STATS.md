@@ -1,5 +1,10 @@
 # Детальная статистика репозитория
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 **Разделов:** 23  **Файлов:** 2494  **Слов:** 2,875,334  **Символов:** 23,899,971
 
 ## Сводная таблица по разделам
@@ -65,3 +70,19 @@
 - Всего ссылок: **62484**
 - Выделений жирным: **40306**
 - TODO/FIXME меток: **109**
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (13):**
+- [CROSS_SECTION](CROSS_SECTION.md)
+- [INDEX](INDEX.md)
+- [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
+- [LINKS](LINKS.md)
+- [ORPHANS](ORPHANS.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- _...ещё 5_
+

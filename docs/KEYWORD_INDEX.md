@@ -1,5 +1,10 @@
 # Инвертированный индекс ключевых слов
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > Уникальных слов: **27227** | Биграмм: **41546** | Файлов: **1247**
 **Проекты:** Svyazi
@@ -163,4 +168,20 @@ _Обновлено: 2026-05-13_
 - [17-appendix-b-change-log](nautilus/npp-v1-0/17-appendix-b-change-log.md)
 - [00-question-habr-link](nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md)
 - [00-abstract](nautilus/representative-agent-layer-ru/00-abstract.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [04-abstract](02-anthropic-vacancies/04-abstract.md)
+- [141-4-nautilus-portal-as-reference-substrate](02-anthropic-vacancies/141-4-nautilus-portal-as-reference-substrate.md)
+- [228-appendix-c-quick-start-architecture-for-sgb-advoca](02-anthropic-vacancies/228-appendix-c-quick-start-architecture-for-sgb-advoca.md)
+- [306-with-anthropic-s-cowork-platform](02-anthropic-vacancies/306-with-anthropic-s-cowork-platform.md)
+- [341-приложение-c-образец-спецификаций-инструментов-ing](02-anthropic-vacancies/341-приложение-c-образец-спецификаций-инструментов-ing.md)
+- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
+- [CITATION_INDEX](CITATION_INDEX.md)
+- [CONCEPT_GRAPH](CONCEPT_GRAPH.md)
+- _...ещё 11_
 

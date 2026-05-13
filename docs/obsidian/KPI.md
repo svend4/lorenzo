@@ -201,3 +201,14 @@ _Извлечено: **3639** числовых показателей из до�
 | **15** | -изация новых слоёв, plugin system, web ingest `89f9dc93` - Sprint 15-17 — workf | `CHANGELOG_AUTO` |
 | **12** | — workflow v2, observability, embeddings, i18n `2265a4db` - Sprint 12-14 — bot-a | `CHANGELOG_AUTO` |
 | _...ещё 216_ | | |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

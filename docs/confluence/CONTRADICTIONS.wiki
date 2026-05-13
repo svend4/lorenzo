@@ -5,6 +5,19 @@
 
 h1. Противоречия в базе знаний
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+
+{quote}Утверждений: _81388_ | Противоречий: _9580_{quote}
+_Проекты:_ Svyazi, knowledge-space, Rufler, LiteParse, NGT Memory, MemNet, SENTINEL, Auto AI Router
+
+----
+
+
+
 _Обновлено: 2026-05-13_
 
 Утверждений: _81388_ | Противоречий: _9580_
@@ -372,4 +385,31 @@ _B:_ {{docs/anthropic-vacancies/ai-managed-virtual-company/03-three-variants-A-B
 {quote}Стратегический вывод для вас лично Учитывая всё, что я теперь знаю о вашем профиле — 70 репо с concepts-на-полке, analysis02topprojects с 10 готовыми {quote}
 
 ----
+
+
+
+
+----
+
+_Смотрите также:_
+* [PRIORITIES|PRIORITIES.md]
+* [SPELLCHECK|SPELLCHECK.md]
+* [TOPIC_MODEL|TOPIC_MODEL.md]
+* [WORD_FREQ|WORD_FREQ.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (10):_
+* [08-conclusions|01-svyazi/08-conclusions.md]
+* [08-что-это-продолжение-добавляет|04-ai-collaborations/08-что-это-продолжение-добавляет.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [SEARCH|SEARCH.md]
+* [SIMILAR_PASSAGES|SIMILAR_PASSAGES.md]
+* _...ещё 2_
 

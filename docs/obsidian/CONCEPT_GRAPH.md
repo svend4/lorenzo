@@ -151,3 +151,14 @@ graph TD
 | `корень` | 211 | 4250 | other |
 | `через` | 242 | 3922 | other |
 | `readme` | 319 | 3526 | other |
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

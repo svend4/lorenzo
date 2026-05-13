@@ -340,3 +340,15 @@ date: 2026-05-13
 _...и ещё 958 пар._
 
 > Файлы не удалялись автоматически. Проверьте вручную и удалите ненужные.
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (5):**
+- [CONCEPTS](../CONCEPTS.md)
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

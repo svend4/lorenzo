@@ -1,12 +1,5 @@
 # Callout-блоки
 
-<!-- summary -->
-> Добавлено **22** callout-блоков в документы.
-
----
-
-
-
 Добавлено **22** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
@@ -48,15 +41,4 @@ _Поддерживается в GitHub Markdown с 2023 года._
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
 - _...ещё 4_
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [WORD_CLOUD](WORD_CLOUD.md)
-- [SCHEDULE](SCHEDULE.md)
-- [GRAPH](GRAPH.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
 

@@ -5,6 +5,19 @@
 
 h1. Числовые KPI и метрики
 
+{quote}[!TIP]{quote}
+{quote}Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.{quote}
+
+
+
+
+{quote}_Извлечено: _3639_ числовых показателей из документов_{quote}
+_Проекты:_ Svyazi, AgentFS, Auto AI Router, Whisper
+
+----
+
+
+
 _Извлечено: _3639_ числовых показателей из документов_
 
 
@@ -191,3 +204,30 @@ h2. Этап (236)
 || **15** || -изация новых слоёв, plugin system, web ingest `89f9dc93` - Sprint 15-17 — workf || `CHANGELOG_AUTO` ||
 || **12** || — workflow v2, observability, embeddings, i18n `2265a4db` - Sprint 12-14 — bot-a || `CHANGELOG_AUTO` ||
 || _...ещё 216_ ||  ||  ||
+
+
+
+----
+
+_Смотрите также:_
+* [TABLES|TABLES.md]
+* [02-общий-план-развития-nautilus-portal-protocol|02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md]
+* [SITEMAP|SITEMAP.md]
+* [VERSION_DIFF|VERSION_DIFF.md]
+
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [INDEX|INDEX.md]
+* [OUTLINE|OUTLINE.md]
+* [READABILITY|READABILITY.md]
+* [READING_TIME|READING_TIME.md]
+* [README|README.md]
+* [REPORT|REPORT.md]
+* [SEARCH|SEARCH.md]
+* [TABLES|TABLES.md]
+* _...ещё 1_
+

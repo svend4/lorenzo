@@ -70,3 +70,19 @@ python scripts/improve_report.py      # этот отчёт
 ---
 
 _Отчёт сгенерирован автоматически · 2026-05-13_
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [07-mvp-planning](01-svyazi/07-mvp-planning.md)
+- [BROKEN_LINKS](BROKEN_LINKS.md)
+- [HEALTH](HEALTH.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- _...ещё 1_
+

@@ -1,18 +1,10 @@
 # Кластеры тематически близких файлов
 
-<!-- summary -->
-> Метод: TF-IDF + косинусное сходство (порог 0.15)
-**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
-
----
-
-
-
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2267, кластеров: 170
+Документов: 2266, кластеров: 172
 
 
-## Кластер 1 — концептов, поиска, репозитория, через (354 файлов)
+## Кластер 1 — концептов, поиска, репозитория, через (356 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -24,7 +16,7 @@
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 344 файлов_
+- _...и ещё 346 файлов_
 
 ## Кластер 2 — turn, view, svyazi, agentfs (98 файлов)
 
@@ -40,7 +32,7 @@
 - `docs/04-ai-collaborations/01-executive-summary.md` — _01-executive-summary_
 - _...и ещё 88 файлов_
 
-## Кластер 3 — cowork, ingit, project, mcp (90 файлов)
+## Кластер 3 — cowork, ingit, project, mcp (91 файлов)
 
 - `docs/02-anthropic-vacancies/303-приложение-визуализация-позиции-в-серии.md` — _303-приложение-визуализация-позиции-в-серии_
 - `docs/02-anthropic-vacancies/310-2-what-cowork-provides-that-ingit-doesn-t-need-to-.md` — _310-2-what-cowork-provides-that-ingit-doesn-t-need-to-_
@@ -52,7 +44,7 @@
 - `docs/02-anthropic-vacancies/317-9-risks-and-open-questions.md` — _317-9-risks-and-open-questions_
 - `docs/02-anthropic-vacancies/318-10-strategic-positioning.md` — _318-10-strategic-positioning_
 - `docs/02-anthropic-vacancies/321-appendix-a-decision-tree-for-ingit-adopters.md` — _321-appendix-a-decision-tree-for-ingit-adopters_
-- _...и ещё 80 файлов_
+- _...и ещё 81 файлов_
 
 ## Кластер 4 — agent, principal, professional, agents (67 файлов)
 
@@ -166,7 +158,7 @@
 - `docs/lorenzo-agent/scenarios/01-response.md` — _01-response_
 - _...и ещё 36 файлов_
 
-## Кластер 12 — what, document, existing-approximations, layer (40 файлов)
+## Кластер 12 — what, document, existing-approximations, layer (39 файлов)
 
 - `docs/02-anthropic-vacancies/276-the-two-layer-stack-as-it-exists.md` — _276-the-two-layer-stack-as-it-exists_
 - `docs/02-anthropic-vacancies/277-what-s-missing-layer-b.md` — _277-what-s-missing-layer-b_
@@ -178,7 +170,7 @@
 - `docs/02-anthropic-vacancies/284-practical-recommendations-for-the-current-project.md` — _284-practical-recommendations-for-the-current-project_
 - `docs/02-anthropic-vacancies/309-1-the-cowork-discovery-and-why-it-changes-everythi.md` — _309-1-the-cowork-discovery-and-why-it-changes-everythi_
 - `docs/02-anthropic-vacancies/315-7-practical-first-steps-this-month.md` — _315-7-practical-first-steps-this-month_
-- _...и ещё 30 файлов_
+- _...и ещё 29 файлов_
 
 ## Кластер 13 — str, consensus, portal, query-flow (37 файлов)
 
@@ -194,21 +186,7 @@
 - `docs/ROADMAP/04-NOVEL.md` — _04-NOVEL_
 - _...и ещё 27 файлов_
 
-## Кластер 14 — docs, anthropic-vacancies, localhost, http (37 файлов)
-
-- `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
-- `docs/COMPARE.md` — _COMPARE_
-- `docs/CONSISTENCY.md` — _CONSISTENCY_
-- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
-- `docs/COVERAGE.md` — _COVERAGE_
-- `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
-- `docs/DUPLICATES.md` — _DUPLICATES_
-- `docs/GATEWAY.md` — _GATEWAY_
-- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
-- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
-- _...и ещё 27 файлов_
-
-## Кластер 15 — info, camel, engineer, svend (36 файлов)
+## Кластер 14 — info, camel, engineer, svend (36 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md` — _00-intro_
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — _01-интегральный-анализ-профиля-svend4_
@@ -221,6 +199,20 @@
 - `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` — _03-nautilus-B-meta-orchestrator_
 - `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` — _02-what-info-repos-contain_
 - _...и ещё 26 файлов_
+
+## Кластер 15 — docs, anthropic-vacancies, localhost, http (35 файлов)
+
+- `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
+- `docs/COMPARE.md` — _COMPARE_
+- `docs/CONSISTENCY.md` — _CONSISTENCY_
+- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
+- `docs/COVERAGE.md` — _COVERAGE_
+- `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
+- `docs/GATEWAY.md` — _GATEWAY_
+- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
+- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
+- `docs/LINKS.md` — _LINKS_
+- _...и ещё 25 файлов_
 
 ## Кластер 16 — com, https, habr, articles (34 файлов)
 
@@ -320,7 +312,7 @@
 - `docs/nautilus/representative-agent-layer-ru/03-chto-delaet-predstavitelskim.md` — _03-chto-delaet-predstavitelskim_
 - _...и ещё 15 файлов_
 
-## Кластер 23 — professional, colleague, practitioners, agent (25 файлов)
+## Кластер 23 — professional, colleague, practitioners, sub-agent (25 файлов)
 
 - `docs/02-anthropic-vacancies/216-5-the-economics-of-profession-wide-replication.md` — _216-5-the-economics-of-profession-wide-replication_
 - `docs/02-anthropic-vacancies/217-6-risks-specific-to-this-category.md` — _217-6-risks-specific-to-this-category_
@@ -334,7 +326,7 @@
 - `docs/nautilus/professional-colleague-agents-en/06-risks.md` — _06-risks_
 - _...и ещё 15 файлов_
 
-## Кластер 24 — есть, company, virtual, ai-managed (25 файлов)
+## Кластер 24 — есть, company, virtual, ai-managed (24 файлов)
 
 - `docs/anthropic-vacancies/ai-managed-virtual-company/00-question-rephrasing.md` — _00-question-rephrasing_
 - `docs/anthropic-vacancies/ai-managed-virtual-company/01-existing-landscape.md` — _01-existing-landscape_
@@ -346,7 +338,7 @@
 - `docs/anthropic-vacancies/profile-mapping/03-integral-final/05-platform-not-position.md` — _05-platform-not-position_
 - `docs/nautilus/community-discussions/voiceless-contributors/00-question-voiceless.md` — _00-question-voiceless_
 - `docs/nautilus/innovation-transitions/00-question-innovations-transitions.md` — _00-question-innovations-transitions_
-- _...и ещё 15 файлов_
+- _...и ещё 14 файлов_
 
 ## Кластер 25 — двухслойный-стек-как-он-существует, что-отсутствует-слой-b, конкретный-случай-перед-нами, практические-рекомендации-для-текущего-проекта (22 файлов)
 
@@ -432,15 +424,4 @@
 - `docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` — _236-5-экономика-тиражирования-по-профессии_
 - _...и ещё 6 файлов_
 
-_...и ещё 140 малых кластеров (по 1-2 файла)_
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [READING_ORDER](READING_ORDER.md)
-- [SOURCE_MAP](SOURCE_MAP.md)
-- [HEADING_AUDIT](HEADING_AUDIT.md)
-- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
-
+_...и ещё 142 малых кластеров (по 1-2 файла)_

@@ -1,5 +1,10 @@
 # Автодайджест изменений
 
+> [!NOTE]
+> Документ создан на основе исследования. Ссылки ведут на связанные материалы.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Период: 2026-05-06 — 2026-05-13 (7 дней)_
 **Проекты:** Svyazi
@@ -105,4 +110,20 @@ _Дайджест сгенерирован автоматически: 2026-05-1
 - [DIGEST](DIGEST.md)
 - [KNOWLEDGE_MAP](KNOWLEDGE_MAP.md)
 - [KEYWORD_INDEX](KEYWORD_INDEX.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (19):**
+- [DIGEST](DIGEST.md)
+- [OUTLINE](OUTLINE.md)
+- [PROTOTYPE_SPEC](PROTOTYPE_SPEC.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- _...ещё 11_
 

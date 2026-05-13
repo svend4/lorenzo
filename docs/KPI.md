@@ -1,5 +1,10 @@
 # Числовые KPI и метрики
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 <!-- summary -->
 > _Извлечено: **3639** числовых показателей из документов_
 **Проекты:** Svyazi, AgentFS, Auto AI Router, Whisper
@@ -212,4 +217,20 @@ _Извлечено: **3639** числовых показателей из до�
 - [02-общий-план-развития-nautilus-portal-protocol](02-anthropic-vacancies/02-общий-план-развития-nautilus-portal-protocol.md)
 - [SITEMAP](SITEMAP.md)
 - [VERSION_DIFF](VERSION_DIFF.md)
+
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (9):**
+- [INDEX](INDEX.md)
+- [OUTLINE](OUTLINE.md)
+- [READABILITY](READABILITY.md)
+- [READING_TIME](READING_TIME.md)
+- [README](README.md)
+- [REPORT](REPORT.md)
+- [SEARCH](SEARCH.md)
+- [TABLES](TABLES.md)
+- _...ещё 1_
 

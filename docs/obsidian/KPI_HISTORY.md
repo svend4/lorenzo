@@ -45,3 +45,13 @@ _История хранится в `docs/kpi_history.json`._
 
 _Запускать регулярно для получения трендов._
 
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (3):**
+- [READABILITY](../READABILITY.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

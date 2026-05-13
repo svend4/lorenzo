@@ -199,3 +199,14 @@ date: 2026-05-13
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
+
+<!-- backlinks -->
+
+---
+
+**Кто ссылается на этот документ (4):**
+- [READABILITY](../READABILITY.md)
+- [READING_TIME](../READING_TIME.md)
+- [SEARCH](../SEARCH.md)
+- [TABLES](../TABLES.md)
+

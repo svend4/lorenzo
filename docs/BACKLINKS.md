@@ -1,20 +1,12 @@
 # Индекс обратных ссылок
 
-<!-- summary -->
-> **Файлов с входящими ссылками:** 2730
-**Проекты:** Svyazi, MemNet
-
----
-
-
-
 **Файлов с входящими ссылками:** 2730
 
 ## Топ-30 самых цитируемых документов
 
 | Документ | Входящих ссылок | Ссылающиеся файлы |
 |----------|----------------|-------------------|
-| `READABILITY` | 711 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `QA.md` +707 |
+| `READABILITY` | 710 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `QA.md` +706 |
 | `READING_TIME` | 689 | `02-methodology.md`, `06-security-privacy.md`, `QA.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +685 |
 | `OUTLINE` | 682 | `00-intro-part2.md`, `02-methodology.md`, `06-security-privacy.md`, `08-conclusions.md` +678 |
 | `SEARCH` | 674 | `02-methodology.md`, `06-security-privacy.md`, `QA.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +670 |
@@ -41,9 +33,9 @@
 | `03-portal-protocol-md` | 37 | `05-0-status-of-this-document.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md`, `125-readme-mcp-md-инструкция-по-установке.md` +33 |
 | `123-portal-mcp-py` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `105-review-methodology-md.md`, `110-вопрос-fallback-ratio-как-критический-или-осмыслен.md` +31 |
 | `42-author-contact` | 35 | `03-portal-protocol-md.md`, `04-abstract.md`, `05-0-status-of-this-document.md`, `105-review-methodology-md.md` +31 |
+| `ACTION_ITEMS` | 34 | `03-component-catalog.md`, `01-интегральный-анализ-профиля-svend4.md`, `115-8-ограничения-и-открытые-вопросы.md`, `133-обратная-связь.md` +30 |
 | `04-abstract` | 34 | `05-0-status-of-this-document.md`, `09-4-passport-passport-md.md`, `105-review-methodology-md.md`, `123-portal-mcp-py.md` +30 |
 | `208-professional-colleague-agents-m` | 34 | `12-content-overview.md`, `13-angle-perspective.md`, `134-the-double-triangle-architecture-md.md`, `136-abstract.md` +30 |
-| `reading-paths` | 34 | `OUTLINE.md`, `READABILITY.md`, `READING_TIME.md`, `README.md` +30 |
 
 ## Ссылки по разделам
 
@@ -63,14 +55,14 @@
 | **contacts** | 242 | 184 |
 | **glossary** | 204 | 214 |
 | **habr-unique-projects** | 640 | 657 |
-| **letters** | 105 | 113 |
+| **letters** | 108 | 113 |
 | **lorenzo-agent** | 649 | 806 |
 | **meta-scripting** | 72 | 90 |
-| **nautilus** | 2633 | 3155 |
-| **obsidian** | 6499 | 170 |
-| **processing-guide** | 163 | 149 |
-| **root** | 5208 | 13350 |
+| **nautilus** | 2632 | 3155 |
+| **obsidian** | 6498 | 170 |
+| **processing-guide** | 162 | 149 |
+| **root** | 5209 | 13350 |
 | **scripts** | 2 | 0 |
-| **svyazi-2-0** | 700 | 699 |
+| **svyazi-2-0** | 699 | 699 |
 | **technology-combinations** | 662 | 609 |
 | **templates** | 194 | 263 |
