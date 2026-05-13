@@ -3,8 +3,29 @@
   <title>Lorenzo / Svyazi 2.0 — обновления базы знаний</title>
   <link href="https://github.com/svend4/lorenzo"/>
   <id>https://github.com/svend4/lorenzo</id>
-  <updated>2026-05-13T10:51:17+00:00</updated>
+  <updated>2026-05-13T11:08:38+00:00</updated>
   <subtitle>Автоматический фид изменений документации Svyazi 2.0</subtitle>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/941327054270b1280e9b7cf884af757d55f476ca</id>
+    <title>chore: update generated docs artifacts</title>
+    <link href="https://github.com/svend4/lorenzo/commit/941327054270b1280e9b7cf884af757d55f476ca"/>
+    <updated>2026-05-13T11:06:19+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: update generated docs artifacts</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTENT_GAPS.md">docs/CONTENT_GAPS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DECISIONS.md">docs/DECISIONS.md</a></li></ul><p>Коммит: <code>94132705</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/39a04bc5aa75fc1d869761ffabb6c934bc43369a</id>
+    <title>chore: regenerate docs artifacts after pagerank/filter changes</title>
+    <link href="https://github.com/svend4/lorenzo/commit/39a04bc5aa75fc1d869761ffabb6c934bc43369a"/>
+    <updated>2026-05-13T11:05:39+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>chore: regenerate docs artifacts after pagerank/filter changes</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/ALERTS.md">docs/ALERTS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/BACKLINKS.md">docs/BACKLINKS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CLUSTERS.md">docs/CLUSTERS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/COMPARE.md">docs/COMPARE.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONCEPT_GRAPH.md">docs/CONCEPT_GRAPH.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONSISTENCY.md">docs/CONSISTENCY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTENT_GAPS.md">docs/CONTENT_GAPS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CONTRADICTIONS.md">docs/CONTRADICTIONS.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/CROSS_SECTION.md">docs/CROSS_SECTION.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/DECISIONS.md">docs/DECISIONS.md</a></li></ul><p>Коммит: <code>39a04bc5</code></p>]]></content>
+  </entry>
+  <entry>
+    <id>https://github.com/svend4/lorenzo/commit/1cb445d2cb5d18f0fdb664bc98a95832bb907657</id>
+    <title>feat(search): PageRank authority boost + obsidian/confluence mirror filter</title>
+    <link href="https://github.com/svend4/lorenzo/commit/1cb445d2cb5d18f0fdb664bc98a95832bb907657"/>
+    <updated>2026-05-13T11:05:32+00:00</updated>
+    <content type="html"><![CDATA[<p><strong>feat(search): PageRank authority boost + obsidian/confluence mirror filter</strong></p><p>Изменённые файлы:</p><ul><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/PRECISION_EVAL.md">docs/PRECISION_EVAL.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/REGISTRY.md">docs/REGISTRY.md</a></li><li><a href="https://github.com/svend4/lorenzo/blob/main/docs/SCRIPTS_CATALOG.md">docs/SCRIPTS_CATALOG.md</a></li></ul><p>Коммит: <code>1cb445d2</code></p>]]></content>
+  </entry>
   <entry>
     <id>https://github.com/svend4/lorenzo/commit/d9149526e0de0403ecc60da76e680ca07ef185f9</id>
     <title>chore: refresh generated docs artifacts</title>

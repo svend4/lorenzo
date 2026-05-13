@@ -1,15 +1,18 @@
 # Кластеры тематически близких файлов
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- summary -->
+> Метод: TF-IDF + косинусное сходство (порог 0.15)
+**Проекты:** Svyazi, AgentFS, Yodoca, Wikontic
 
-<!-- alert-added -->
+---
+
+
 
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2266, кластеров: 172
+Документов: 2266, кластеров: 171
 
 
-## Кластер 1 — концептов, поиска, репозитория, через (354 файлов)
+## Кластер 1 — концептов, поиска, репозитория, через (355 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -21,7 +24,7 @@
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 344 файлов_
+- _...и ещё 345 файлов_
 
 ## Кластер 2 — turn, view, svyazi, agentfs (98 файлов)
 
@@ -79,7 +82,7 @@
 - `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` — _152-ai-coordinated-infrastructure-for-distributed-expe_
 - _...и ещё 53 файлов_
 
-## Кластер 6 — turn, view, citeturn, svyazi (61 файлов)
+## Кластер 6 — turn, view, citeturn, cite (60 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md` — _03-component-catalog_
 - `docs/01-svyazi/06-security-privacy.md` — _06-security-privacy_
@@ -88,10 +91,10 @@
 - `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` — _03-карта-найденных-проектов-и-паттернов_
 - `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` — _06-безопасность-приватность-и-бюджетный-роутинг_
 - `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` — _12-дорожная-карта-прототипа-следующей-итерации_
-- `docs/CONTRADICTIONS.md` — _CONTRADICTIONS_
 - `docs/TOPIC_MODEL.md` — _TOPIC_MODEL_
 - `docs/WORD_FREQ.md` — _WORD_FREQ_
-- _...и ещё 51 файлов_
+- `docs/obsidian/01-svyazi/03-component-catalog.md` — _03-component-catalog_
+- _...и ещё 50 файлов_
 
 ## Кластер 7 — table-of-contents, double-triangle, table, triangle (60 файлов)
 
@@ -197,9 +200,9 @@
 - `docs/COMPARE.md` — _COMPARE_
 - `docs/CONSISTENCY.md` — _CONSISTENCY_
 - `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
+- `docs/CONTRADICTIONS.md` — _CONTRADICTIONS_
 - `docs/COVERAGE.md` — _COVERAGE_
 - `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
-- `docs/DUPLICATES.md` — _DUPLICATES_
 - `docs/GATEWAY.md` — _GATEWAY_
 - `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
 - `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
@@ -429,4 +432,15 @@
 - `docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` — _236-5-экономика-тиражирования-по-профессии_
 - _...и ещё 6 файлов_
 
-_...и ещё 142 малых кластеров (по 1-2 файла)_
+_...и ещё 141 малых кластеров (по 1-2 файла)_
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [READING_ORDER](READING_ORDER.md)
+- [SOURCE_MAP](SOURCE_MAP.md)
+- [HEADING_AUDIT](HEADING_AUDIT.md)
+- [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
+

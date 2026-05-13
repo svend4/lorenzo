@@ -1,10 +1,5 @@
 # Языковой состав документов
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 **Проекты:** Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca
@@ -21,9 +16,9 @@ _Обновлено: 2026-05-13_
 
 | Язык | Файлов |
 |------|--------|
-| 🇷🇺 RU (≥80% кириллица) | 83 |
+| 🇷🇺 RU (≥80% кириллица) | 84 |
 | 🇬🇧 EN (≥80% латиница) | 271 |
-| 🔀 MIX | 893 |
+| 🔀 MIX | 892 |
 | ❓ OTHER | 0 |
 
 ## Файлы с неожиданным языком
@@ -180,7 +175,6 @@ _Обновлено: 2026-05-13_
 | `README.md` | 21% | 79% |
 | `10-otkrytye-voprosy.md` | 79% | 21% |
 | `308-table-of-contents.md` | 21% | 79% |
-| `NARRATIVE.md` | 79% | 21% |
 | `05-polymath-project-tao-comparison.md` | 79% | 21% |
 | `03-sgb-advocate-colleague-example.md` | 21% | 79% |
 | `00-question-mountain-to-person.md` | 79% | 21% |
@@ -205,9 +199,9 @@ _Обновлено: 2026-05-13_
 | `07-prakticheskie-shagi.md` | 77% | 23% |
 | `115-8-ограничения-и-открытые-вопросы.md` | 77% | 23% |
 | `119-appendix-b-примеры-расхождений-и-их-разрешения.md` | 77% | 23% |
+| `LLM_GAPS.md` | 77% | 23% |
 | `323-appendix-c-sample-ingit-mcp-server-tool-specificat.md` | 23% | 77% |
 | `334-8-импликации-для-nautilus-и-okwf.md` | 77% | 23% |
-| `DIGEST_AUTO.md` | 23% | 77% |
 | `18-llm-powered-legal-corpus-builder.md` | 23% | 77% |
 | `348-кому-ты-служишь-слоистая-модель.md` | 77% | 23% |
 | `10-q10-funding-model.md` | 23% | 77% |
@@ -233,6 +227,7 @@ _Обновлено: 2026-05-13_
 | `206-приложение-b-матрица-сравнения-областей.md` | 76% | 24% |
 | `02-ultimate-legal-ai.md` | 24% | 76% |
 | `00-intro.md` | 24% | 76% |
+| `DIGEST_AUTO.md` | 24% | 76% |
 | `343-lorenzo-catalyst-agent-глубокая-проработка-специфи.md` | 76% | 24% |
 | `README.md` | 24% | 76% |
 | `00-question-mmorpg-for-programmers.md` | 76% | 24% |
@@ -253,8 +248,8 @@ _Обновлено: 2026-05-13_
 | `READABILITY.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
 | `33-event-sourcing-cqrs-clickhouse-analytics.md` | 25% | 75% |
-| `28-pydantic-enforced-legal-workflows.md` | 25% | 75% |
 | `READING_TIME.md` | 25% | 75% |
+| `28-pydantic-enforced-legal-workflows.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
 | `README.md` | 25% | 75% |
 | `05-what-to-do-right-now.md` | 25% | 75% |
@@ -281,6 +276,7 @@ _Обновлено: 2026-05-13_
 | `104-appendix-c-references.md` | 26% | 74% |
 | `05-chetyre-puti-integratsii.md` | 74% | 26% |
 | `188-ai-опосредованное-представительство-для-недопредст.md` | 74% | 26% |
+| `QUESTIONS.md` | 74% | 26% |
 | `README.md` | 26% | 74% |
 | `02-nautilus-A-pro2-meta.md` | 74% | 26% |
 | `README.md` | 74% | 26% |
@@ -311,7 +307,6 @@ _Обновлено: 2026-05-13_
 | `spbmolot.md` | 73% | 27% |
 | `22-russian-international-oss-stack.md` | 27% | 73% |
 | `ENTITIES.md` | 28% | 72% |
-| `QUESTIONS.md` | 72% | 28% |
 | `reading-paths.md` | 28% | 72% |
 | `27-hybrid-rag-with-ast-chunked-code.md` | 28% | 72% |
 | `25-30-extended.md` | 28% | 72% |
@@ -504,6 +499,7 @@ _Обновлено: 2026-05-13_
 | `glossary-entry.md` | 65% | 35% |
 | `08-q8-other-ai-relationships.md` | 35% | 65% |
 | `06-search.md` | 65% | 35% |
+| `VALIDATION.md` | 65% | 35% |
 | `11-concrete-potential-collaborator.md` | 34% | 65% |
 | `6-bonus-rram-memristor.md` | 65% | 35% |
 | `01-response.md` | 65% | 35% |
@@ -652,7 +648,6 @@ _Обновлено: 2026-05-13_
 | `363-твоя-identity-как-persistent-character.md` | 61% | 39% |
 | `QA.md` | 61% | 39% |
 | `02-final-ranking.md` | 61% | 39% |
-| `COMPARE.md` | 39% | 61% |
 | `00-question-scenario.md` | 61% | 39% |
 | `01-what-to-anonymize-german-standard.md` | 61% | 39% |
 | `59-angle-perspective.md` | 40% | 60% |
@@ -711,6 +706,7 @@ _Обновлено: 2026-05-13_
 | `09-product-management-support-ops.md` | 59% | 41% |
 | `04-q4-character.md` | 41% | 59% |
 | `08-conclusions.md` | 59% | 41% |
+| `REPORT.md` | 59% | 41% |
 | `07-why-valid-for-ai.md` | 59% | 41% |
 | `76-1-introduction.md` | 59% | 41% |
 | `03-synthesis-hebbian-collaboration-graph.md` | 59% | 41% |
@@ -741,7 +737,6 @@ _Обновлено: 2026-05-13_
 | `E-execution-plane.md` | 42% | 58% |
 | `20-adr-002-q6-first-class.md` | 42% | 58% |
 | `02-multiagentnyy-khaos-reshenie-auto-ai-router.md` | 58% | 42% |
-| `VALIDATION.md` | 58% | 42% |
 | `19-adr-001-federation-over-merging.md` | 42% | 58% |
 | `do-not-glue.md` | 58% | 42% |
 | `112-5-связь-с-существующими-методологиями.md` | 58% | 42% |
@@ -771,7 +766,6 @@ _Обновлено: 2026-05-13_
 | `G-federated-local-graph.md` | 58% | 42% |
 | `SCHEDULE.md` | 57% | 42% |
 | `01-svyazi-andrey-chuyan.md` | 57% | 42% |
-| `PRECISION_EVAL.md` | 43% | 57% |
 | `05-tvoya-lichnost.md` | 57% | 43% |
 | `00-question-multi-tier.md` | 57% | 43% |
 | `decision-record.md` | 57% | 43% |
@@ -798,13 +792,11 @@ _Обновлено: 2026-05-13_
 | `352-что-ты-не-можешь-делать-без-max-approval.md` | 57% | 43% |
 | `COMPONENT_MATRIX.md` | 43% | 57% |
 | `7-autoresearch-distributed.md` | 57% | 43% |
-| `CONTRADICTIONS.md` | 43% | 57% |
 | `07-current-implementations.md` | 57% | 43% |
 | `114-7-реализация-в-проекте-nautilus.md` | 57% | 43% |
 | `gaps.md` | 43% | 57% |
 | `voice-stack.md` | 57% | 43% |
 | `02-knowledge-graphs.md` | 57% | 43% |
-| `LLM_GAPS.md` | 57% | 43% |
 | `12-onboarding-paths.md` | 43% | 57% |
 | `21-adr-003-five-onboarding-paths.md` | 43% | 57% |
 | `02-extraction.md` | 57% | 43% |
@@ -819,6 +811,7 @@ _Обновлено: 2026-05-13_
 | `4-riscv-privacy.md` | 56% | 44% |
 | `14-adr-001-federation-over-merging.md` | 44% | 56% |
 | `63-history.md` | 44% | 56% |
+| `COMPARE.md` | 44% | 56% |
 | `08-conductor-adversarial-review-auto-ai-router.md` | 56% | 44% |
 | `01-structural-comparison-code-vs-docs.md` | 56% | 44% |
 | `16-mcp-extension.md` | 44% | 56% |
@@ -834,14 +827,17 @@ _Обновлено: 2026-05-13_
 | `40-bridges.md` | 56% | 44% |
 | `sozialrecht-35-combinations.md` | 44% | 56% |
 | `mclaude.md` | 56% | 44% |
+| `DUPLICATES.md` | 44% | 56% |
 | `07-section-7-success-metrics.md` | 44% | 56% |
 | `11-dhlab-documents.md` | 44% | 56% |
 | `spbmolot.md` | 56% | 44% |
+| `CONTRADICTIONS.md` | 44% | 56% |
 | `13-outreach-communication.md` | 56% | 44% |
 | `skill-tool-policy.md` | 56% | 44% |
 | `02-vitaly-graph-cognitive-memory.md` | 56% | 44% |
 | `15-anti-patterns.md` | 44% | 56% |
 | `README.md` | 55% | 45% |
+| `PRECISION_EVAL.md` | 45% | 55% |
 | `default-policy.md` | 55% | 45% |
 | `87-12-onboarding-paths-normative.md` | 45% | 55% |
 | `2-distributed-agent-workshop.md` | 55% | 45% |
@@ -873,7 +869,6 @@ _Обновлено: 2026-05-13_
 | `02-terminology.md` | 55% | 45% |
 | `project-component.md` | 55% | 45% |
 | `74-abstract.md` | 55% | 46% |
-| `DUPLICATES.md` | 46% | 54% |
 | `01-introduction.md` | 54% | 46% |
 | `05-compatibility-levels.md` | 46% | 54% |
 | `20-8-consensus-algorithm.md` | 46% | 54% |
@@ -940,7 +935,6 @@ _Обновлено: 2026-05-13_
 | `FAQ.md` | 53% | 47% |
 | `01-three-related-themes.md` | 47% | 53% |
 | `05-benchmarks.md` | 53% | 47% |
-| `SCRIPTS_CATALOG.md` | 53% | 47% |
 | `07-key-observation.md` | 53% | 47% |
 | `14-other-ai-relationships.md` | 47% | 53% |
 | `11-relevance-ranking.md` | 47% | 53% |
@@ -961,7 +955,7 @@ _Обновлено: 2026-05-13_
 | `02-three-overlapping-identities.md` | 52% | 48% |
 | `3-crdt-self-hosted.md` | 48% | 52% |
 | `template-of-templates.md` | 48% | 52% |
-| `REPORT.md` | 48% | 52% |
+| `SCRIPTS_CATALOG.md` | 52% | 48% |
 | `README.md` | 52% | 48% |
 | `05-quaternary-developer-education.md` | 48% | 52% |
 | `09-query-flow.md` | 48% | 52% |
@@ -1074,7 +1068,7 @@ _Обновлено: 2026-05-13_
 | `meta-scripting` | 0 | 0 | 7 |
 | `nautilus` | 28 | 97 | 130 |
 | `processing-guide` | 0 | 1 | 12 |
-| `root` | 1 | 19 | 90 |
+| `root` | 2 | 19 | 89 |
 | `svyazi-2-0` | 0 | 2 | 58 |
 | `technology-combinations` | 0 | 5 | 48 |
 | `templates` | 0 | 0 | 24 |
@@ -1088,20 +1082,4 @@ _Обновлено: 2026-05-13_
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 - [READING_TIME](READING_TIME.md)
 - [READABILITY](READABILITY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (10):**
-- [CONTACTS](CONTACTS.md)
-- [OUTLINE](OUTLINE.md)
-- [PRIORITIES](PRIORITIES.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SCORING](SCORING.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 2_
 

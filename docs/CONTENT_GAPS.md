@@ -1,9 +1,12 @@
 # Тематические пробелы (Content Gaps)
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+<!-- summary -->
+> Найдено пробелов: **908** (мин. упоминаний: 3)
+**Проекты:** Svyazi
 
-<!-- alert-added -->
+---
+
+
 
 _Обновлено: 2026-05-13_
 
@@ -22,7 +25,7 @@ _Обновлено: 2026-05-13_
 | `MUST` | 110 | `docs/obsidian/` |
 | `BSL` | 94 | `docs/obsidian/` |
 | `IDF` | 84 | `docs/obsidian/` |
-| `PDF` | 83 | `docs/obsidian/` |
+| `PDF` | 82 | `docs/obsidian/` |
 | `SHOULD` | 80 | `docs/obsidian/` |
 | `PII` | 68 | `docs/obsidian/` |
 | `XII` | 66 | `docs/obsidian/` |
@@ -55,11 +58,11 @@ _Обновлено: 2026-05-13_
 | `VitaliySemenov` | 29 | `docs/obsidian/` |
 | `III` | 28 | `docs/obsidian/` |
 | `IBM` | 26 | `docs/obsidian/` |
-| `Composite Skills Agents` | 26 | `docs/obsidian/` |
+| `Composite Skills Agents` | 26 | `docs/nautilus/` |
 | `Professional Colleague Agents (EN)` | 26 | `docs/nautilus/` |
-| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/obsidian/` |
+| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/nautilus/` |
 | `Representative Agent Layer (EN)` | 26 | `docs/obsidian/` |
-| `Representative Agent Layer (RU)` | 26 | `docs/obsidian/` |
+| `Representative Agent Layer (RU)` | 26 | `docs/nautilus/` |
 | `NNNN` | 25 | `docs/obsidian/` |
 | `STDP` | 24 | `docs/obsidian/` |
 | `CRM` | 24 | `docs/obsidian/` |
@@ -152,7 +155,7 @@ _Обновлено: 2026-05-13_
 
 Создать: `docs/obsidian/idf.md`
 
-### `PDF` (83 файлов)
+### `PDF` (82 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -160,7 +163,7 @@ _Обновлено: 2026-05-13_
 - `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
 - `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
 - `docs/03-technology-combinations/05-benchmarks.md`
-- ... и ещё 78 файлах
+- ... и ещё 77 файлах
 
 Создать: `docs/obsidian/pdf.md`
 
@@ -307,4 +310,15 @@ _Обновлено: 2026-05-13_
 - ... и ещё 43 файлах
 
 Создать: `docs/obsidian/yijing.md`
+
+
+<!-- see-also -->
+
+---
+
+**Смотрите также:**
+- [CLUSTERS](CLUSTERS.md)
+- [CODE_BLOCKS](CODE_BLOCKS.md)
+- [READING_ORDER](READING_ORDER.md)
+- [VERSION_DIFF](VERSION_DIFF.md)
 

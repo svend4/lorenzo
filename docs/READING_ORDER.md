@@ -1,10 +1,5 @@
 # Рекомендуемый порядок чтения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
 <!-- summary -->
 > От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 **Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
@@ -451,20 +446,4 @@
 - [HEADING_AUDIT](HEADING_AUDIT.md)
 - [PARAGRAPH_QUALITY](PARAGRAPH_QUALITY.md)
 - [CLUSTERS](CLUSTERS.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (14):**
-- [README](02-anthropic-vacancies/README.md)
-- [CLUSTERS](CLUSTERS.md)
-- [COMPARE](COMPARE.md)
-- [CONTENT_GAPS](CONTENT_GAPS.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- _...ещё 6_
 

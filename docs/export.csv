@@ -407,19 +407,19 @@ docs/05-habr-projects/memory/ngt-memory.md,05-habr-projects,ngt-memory.md,NGT[^n
 docs/05-habr-projects/memory/yodoca.md,05-habr-projects,yodoca.md,Yodoca[^yodoca]: консолидация и забывание,17,4027,"memory, ingestion, architecture, collaboration",Svyazi; Yodoca; Wikontic,"Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi[^svyazi] на уровне agentic memory",нет,да
 docs/ABBREVIATIONS.md,ABBREVIATIONS.md,ABBREVIATIONS.md,Словарь аббревиатур и сокращений,2,11317,"abbreviations, docs",SENTINEL; LiteLLM; Auto AI Router,`ABBREVIATIONS` — раздел документации проекта Lorenzo.,нет,да
 docs/ACTION_ITEMS.md,ACTION_ITEMS.md,ACTION_ITEMS.md,"Action Items, риски и решения",1659,85234,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,`ACTION_ITEMS` — раздел документации проекта Lorenzo.,да,да
-docs/ALERTS.md,ALERTS.md,ALERTS.md,Callout-блоки,8,789,,,,да,нет
+docs/ALERTS.md,ALERTS.md,ALERTS.md,Callout-блоки,8,787,,,,да,нет
 docs/AUTHORS.md,AUTHORS.md,AUTHORS.md,Авторы и коллаборации,4,1509,"authors, docs",,"Авторы проектов, упоминаемые в исследованиях.",нет,нет
 docs/AUTOFILLED.md,AUTOFILLED.md,AUTOFILLED.md,Автозаполненные шаблоны,68,3948,"ingestion, collaboration",Svyazi,[!NOTE],нет,нет
-docs/BACKLINKS.md,BACKLINKS.md,BACKLINKS.md,Индекс обратных ссылок,0,5182,,Svyazi; MemNet,,да,да
+docs/BACKLINKS.md,BACKLINKS.md,BACKLINKS.md,Индекс обратных ссылок,0,5106,,Svyazi; MemNet,,нет,да
 docs/BADGES.md,BADGES.md,BADGES.md,Status Badges,2,1695,"badges, status, quality, documentation",,"Бейджи статуса репозитория: тесты, шаблоны, скрипты, скилы",нет,нет
 docs/BROKEN_LINKS.md,BROKEN_LINKS.md,BROKEN_LINKS.md,Сломанные внутренние ссылки,25,8996,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse,"Сломанных ссылок: **80**, пропущено: 0",да,нет
 docs/CHANGELOG.md,CHANGELOG.md,CHANGELOG.md,CHANGELOG,8,8750,"changelog, docs",Svyazi,`CHANGELOG` — раздел документации проекта Lorenzo.,нет,нет
 docs/CHANGELOG_AUTO.md,CHANGELOG_AUTO.md,CHANGELOG_AUTO.md,Changelog (авто),17,15702,,CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; SENTINEL,`CHANGELOG_AUTO` — раздел документации проекта Lorenzo.,да,да
 docs/CITATION_INDEX.md,CITATION_INDEX.md,CITATION_INDEX.md,Индекс цитирования URL,46,8933,,knowledge-space; Yodoca; MemNet; Wikontic,`CITATION_INDEX` — раздел документации проекта Lorenzo.,нет,нет
-docs/CLUSTERS.md,CLUSTERS.md,CLUSTERS.md,Кластеры тематически близких файлов,9,31877,,Svyazi; AgentFS; Yodoca; Wikontic,,да,да
+docs/CLUSTERS.md,CLUSTERS.md,CLUSTERS.md,Кластеры тематически близких файлов,9,31924,,Svyazi; AgentFS; Yodoca; Wikontic,,да,да
 docs/CODE_BLOCKS.md,CODE_BLOCKS.md,CODE_BLOCKS.md,Code-блоки репозитория,1380,54701,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Yjs; Automerge,`CODE_BLOCKS` — раздел документации проекта Lorenzo.,да,да
 docs/COLLAB_SUGGESTIONS.md,COLLAB_SUGGESTIONS.md,COLLAB_SUGGESTIONS.md,Рекомендации по коллаборации (Collaboration Finder),101,7879,"collaboration, projects, recommendations, svyazi",Svyazi; CardIndex; knowledge-space; mclaude; Rufler; Yodoca; NGT Memory; MemNet; Wikontic,Автоматический поиск партнёрских проектов для: «локальная база знаний агент память граф»,нет,нет
-docs/COMPARE.md,COMPARE.md,COMPARE.md,Сравнение с предыдущим коммитом,3,4719,,,,да,нет
+docs/COMPARE.md,COMPARE.md,COMPARE.md,Сравнение с предыдущим коммитом,3,4057,,,,да,нет
 docs/COMPLEXITY.md,COMPLEXITY.md,COMPLEXITY.md,Оценка читаемости документов,2,4027,"complexity, docs",Rufler; MemNet,**Файлов проанализировано:** 2475,да,нет
 docs/COMPONENT_MATRIX.md,COMPONENT_MATRIX.md,COMPONENT_MATRIX.md,Матрица компонентов Svyazi 2.0,8,4965,,Svyazi; CardIndex; AgentFS; knowledge-space; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic; Firecrawl,`COMPONENT_MATRIX` — раздел документации проекта Lorenzo.,да,да
 docs/CONCEPTS.md,CONCEPTS.md,CONCEPTS.md,Глоссарий понятий,6531,210773,"concepts, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Yjs; Automerge,`CONCEPTS` — раздел документации проекта Lorenzo.,да,да
@@ -428,7 +428,7 @@ docs/CONSISTENCY.md,CONSISTENCY.md,CONSISTENCY.md,Согласованность
 docs/CONTACTS.md,CONTACTS.md,CONTACTS.md,Контакты и авторы,30,5079,"contacts, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; Yjs,`CONTACTS` — раздел документации проекта Lorenzo.,нет,нет
 docs/CONTACT_PRIORITY.md,CONTACT_PRIORITY.md,CONTACT_PRIORITY.md,Приоритет контактов,22,2642,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,`CONTACT_PRIORITY` — раздел документации проекта Lorenzo.,нет,нет
 docs/CONTENT_GAPS.md,CONTENT_GAPS.md,CONTENT_GAPS.md,Тематические пробелы (Content Gaps),64,10318,,Svyazi,,да,да
-docs/CONTRADICTIONS.md,CONTRADICTIONS.md,CONTRADICTIONS.md,Противоречия в базе знаний,3,12924,,Svyazi; knowledge-space; Rufler; LiteParse; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
+docs/CONTRADICTIONS.md,CONTRADICTIONS.md,CONTRADICTIONS.md,Противоречия в базе знаний,3,13189,,Svyazi; knowledge-space; Rufler; LiteParse; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
 docs/COST.md,COST.md,COST.md,Оценка стоимости MVP,12,3699,"cost, docs",CardIndex; AgentFS; Rufler; Yodoca; SENTINEL; Tool Search,`COST` — раздел документации проекта Lorenzo.,да,да
 docs/COVERAGE.md,COVERAGE.md,COVERAGE.md,Матрица покрытия документов,18,2483,"coverage, docs",Svyazi,`COVERAGE` — раздел документации проекта Lorenzo.,да,нет
 docs/CROSSREFS.md,CROSSREFS.md,CROSSREFS.md,Перекрёстные ссылки,12,8217,"crossrefs, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,Для каждого проекта — в каких файлах он упоминается.,нет,да
@@ -439,9 +439,9 @@ docs/DENSITY.md,DENSITY.md,DENSITY.md,Карта плотности тем,13,35
 docs/DEPENDABOT.md,DEPENDABOT.md,DEPENDABOT.md,Мониторинг зависимостей,12,1293,,Svyazi; AgentFS; knowledge-space; Yodoca; NGT Memory,,нет,нет
 docs/DEPENDENCY_MAP.md,DEPENDENCY_MAP.md,DEPENDENCY_MAP.md,Карта зависимостей скриптов,38,12044,,SENTINEL,`DEPENDENCY_MAP` — раздел документации проекта Lorenzo.,да,нет
 docs/DIGEST.md,DIGEST.md,DIGEST.md,Дайджест изменений,6,2759,rag,,> fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass,да,нет
-docs/DIGEST_AUTO.md,DIGEST_AUTO.md,DIGEST_AUTO.md,Автодайджест изменений,11,3275,,Svyazi,,нет,нет
+docs/DIGEST_AUTO.md,DIGEST_AUTO.md,DIGEST_AUTO.md,Автодайджест изменений,11,3269,,Svyazi,,нет,нет
 docs/DIGEST_WEEKLY.md,DIGEST_WEEKLY.md,DIGEST_WEEKLY.md,Еженедельный дайджест — 2026-05-11,71,3841,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; SENTINEL,`DIGEST_WEEKLY` — раздел документации проекта Lorenzo.,нет,да
-docs/DUPLICATES.md,DUPLICATES.md,DUPLICATES.md,Отчёт о дублировании,10,15426,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic,,да,да
+docs/DUPLICATES.md,DUPLICATES.md,DUPLICATES.md,Отчёт о дублировании,10,17473,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Yodoca; MemNet; Wikontic,,да,да
 docs/EMPTY_SECTIONS.md,EMPTY_SECTIONS.md,EMPTY_SECTIONS.md,Пустые секции,37,188527,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,`EMPTY_SECTIONS` — раздел документации проекта Lorenzo.,да,да
 docs/ENTITIES.md,ENTITIES.md,ENTITIES.md,Именованные сущности,2,4996,"entities, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Tool Search; Wikontic; Firecrawl,`ENTITIES` — раздел документации проекта Lorenzo.,нет,нет
 docs/FAQ.md,FAQ.md,FAQ.md,Часто задаваемые вопросы (FAQ),207,12218,"faq, docs",Svyazi; CardIndex; AgentFS; knowledge-space; Yodoca; MemNet,`FAQ` — раздел документации проекта Lorenzo.,да,да
@@ -458,8 +458,8 @@ docs/INFO_PROCESSING_METHODS.md,INFO_PROCESSING_METHODS.md,INFO_PROCESSING_METHO
 docs/KEYWORD_INDEX.md,KEYWORD_INDEX.md,KEYWORD_INDEX.md,Инвертированный индекс ключевых слов,4,4185,,Svyazi,,нет,да
 docs/KNOWLEDGE_MAP.md,KNOWLEDGE_MAP.md,KNOWLEDGE_MAP.md,Карта базы знаний Lorenzo,24,4206,,Svyazi,`KNOWLEDGE_MAP` — раздел документации проекта Lorenzo.,нет,нет
 docs/KPI.md,KPI.md,KPI.md,Числовые KPI и метрики,1,17872,,Svyazi; AgentFS; Auto AI Router,,да,да
-docs/KPI_HISTORY.md,KPI_HISTORY.md,KPI_HISTORY.md,История метрик KPI,18,1043,,,,нет,нет
-docs/LANGUAGE_STATS.md,LANGUAGE_STATS.md,LANGUAGE_STATS.md,Языковой состав документов,3,46361,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,,да,да
+docs/KPI_HISTORY.md,KPI_HISTORY.md,KPI_HISTORY.md,История метрик KPI,18,1044,,,,нет,нет
+docs/LANGUAGE_STATS.md,LANGUAGE_STATS.md,LANGUAGE_STATS.md,Языковой состав документов,3,46330,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/LINKS.md,LINKS.md,LINKS.md,Индекс ссылок,4,11657,"links, docs",SENTINEL,**Кто ссылается на этот документ (9):**,нет,нет
 docs/LINK_PREVIEW.md,LINK_PREVIEW.md,LINK_PREVIEW.md,Статус внешних ссылок,4,38860,,AgentFS; knowledge-space; Yodoca; MemNet,Всего URL: **545** | ✅ Работают: **195** | 🔄 Редиректы: **0** | ❌ Недоступны: **350**,нет,нет
 docs/LLM_GAPS.md,LLM_GAPS.md,LLM_GAPS.md,LLM Gap Analysis — семантические пробелы,9,440,,,,нет,нет
@@ -470,23 +470,23 @@ docs/METRICS.md,METRICS.md,METRICS.md,Метрики качества докум
 docs/MINDMAP.md,MINDMAP.md,MINDMAP.md,Майндмап репозитория Lorenzo,100,2939,"mindmap, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,`MINDMAP` — раздел документации проекта Lorenzo.,да,да
 docs/MISSING.md,MISSING.md,MISSING.md,Карта пробелов знаний,20,3444,"missing, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; AutoResearch,`MISSING` — раздел документации проекта Lorenzo.,да,да
 docs/NAMED_ENTITIES.md,NAMED_ENTITIES.md,NAMED_ENTITIES.md,Индекс именованных сущностей,6,13290,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs,`NAMED_ENTITIES` — раздел документации проекта Lorenzo.,да,да
-docs/NARRATIVE.md,NARRATIVE.md,NARRATIVE.md,Нарратив проекта Lorenzo,29,8592,,Svyazi; AgentFS; AI Factory; LiteParse; Yodoca; NGT Memory,"_Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._",да,да
+docs/NARRATIVE.md,NARRATIVE.md,NARRATIVE.md,Нарратив проекта Lorenzo,29,7391,,Svyazi; AgentFS; AI Factory; LiteParse; Yodoca; NGT Memory,,да,да
 docs/NETWORK.md,NETWORK.md,NETWORK.md,Сеть проектов и авторов,2,3061,"network, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic; Firecrawl,`NETWORK` — раздел документации проекта Lorenzo.,нет,нет
 docs/ONBOARDING.md,ONBOARDING.md,ONBOARDING.md,Онбординг — Svyazi 2.0 / Lorenzo,48,4315,"onboarding, docs",Svyazi; CardIndex; AgentFS; Rufler; Yodoca; SENTINEL; Firecrawl,`ONBOARDING` — раздел документации проекта Lorenzo.,да,да
 docs/ORPHANS.md,ORPHANS.md,ORPHANS.md,Изолированные документы (Orphans),35,1329,"orphans, docs",Svyazi,`ORPHANS` — раздел документации проекта Lorenzo.,нет,нет
 docs/OUTLINE.md,OUTLINE.md,OUTLINE.md,Outline базы знаний,3884,346641,"outline, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; AutoResearch; Wikontic; Yjs; Automerge,`OUTLINE` — раздел документации проекта Lorenzo.,да,да
 docs/PARAGRAPH_QUALITY.md,PARAGRAPH_QUALITY.md,PARAGRAPH_QUALITY.md,Качество абзацев,2497,142827,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,`PARAGRAPH_QUALITY` — раздел документации проекта Lorenzo.,да,да
 docs/PASSIVE_VOICE.md,PASSIVE_VOICE.md,PASSIVE_VOICE.md,Пассивный залог и канцеляризмы,5,2716,,,`PASSIVE_VOICE` — раздел документации проекта Lorenzo.,нет,нет
-docs/PRECISION_EVAL.md,PRECISION_EVAL.md,PRECISION_EVAL.md,Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0,0,3139,,Svyazi; CardIndex; AgentFS; knowledge-space; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; SENTINEL; Wikontic,Автоматическая оценка качества hybrid_search(). Hit Rate@5 = **0.950** (≥ порог 0.70).,да,да
+docs/PRECISION_EVAL.md,PRECISION_EVAL.md,PRECISION_EVAL.md,Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0,0,2968,,Svyazi; CardIndex; AgentFS; knowledge-space; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; SENTINEL; Wikontic,Автоматическая оценка качества hybrid_search(). Hit Rate@5 = **1.000** (≥ порог 0.70).,да,да
 docs/PRIORITIES.md,PRIORITIES.md,PRIORITIES.md,Приоритеты файлов,7,41159,"priorities, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; SENTINEL; AutoResearch,Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).,да,да
 docs/PROGRESS.md,PROGRESS.md,PROGRESS.md,Прогресс MVP,65,2889,"progress, docs",Svyazi; AgentFS; knowledge-space; NGT Memory,`PROGRESS` — раздел документации проекта Lorenzo.,нет,да
 docs/PROTOTYPE_SPEC.md,PROTOTYPE_SPEC.md,PROTOTYPE_SPEC.md,Svyazi 2.0 — Спецификация прототипа,177,14238,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Tool Search,,да,да
 docs/QA.md,QA.md,QA.md,Глобальный Q&A,274,18775,"qa, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,`QA` — раздел документации проекта Lorenzo.,да,да
-docs/QUESTIONS.md,QUESTIONS.md,QUESTIONS.md,Открытые вопросы,265,15881,,Svyazi; CardIndex; AgentFS,_Извлечено автоматически из всех документов: **1992** вопросов_,да,да
+docs/QUESTIONS.md,QUESTIONS.md,QUESTIONS.md,Открытые вопросы,265,14836,,Svyazi; CardIndex; AgentFS,,да,да
 docs/READABILITY.md,READABILITY.md,READABILITY.md,Читаемость документов (Flesch-Kincaid),43,309572,"quality, readability, metrics, documentation",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,Средний индекс FRE: **0.7/100** по 2481 документам,да,да
 docs/READING_LIST.md,READING_LIST.md,READING_LIST.md,Список чтения,4,5339,,,`READING_LIST` — раздел документации проекта Lorenzo.,нет,нет
-docs/READING_ORDER.md,READING_ORDER.md,READING_ORDER.md,Рекомендуемый порядок чтения,22,49464,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; Wikontic,"От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).",да,да
-docs/READING_TIME.md,READING_TIME.md,READING_TIME.md,Время чтения документов,3,274773,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,"Документов: **2483** | Слов: **1,676,436** | Время базы: **164ч 31мин**",да,да
+docs/READING_ORDER.md,READING_ORDER.md,READING_ORDER.md,Рекомендуемый порядок чтения,22,48648,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; Wikontic,,да,да
+docs/READING_TIME.md,READING_TIME.md,READING_TIME.md,Время чтения документов,3,273840,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,"Документов: **2484** | Слов: **1,676,209** | Время базы: **164ч 28мин**",да,да
 docs/REGISTRY.md,REGISTRY.md,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,14,10828,,Svyazi,,да,да
 docs/REPORT.md,REPORT.md,REPORT.md,Svyazi 2.0 — Knowledge Base Report,45,6653,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,нет,да
 docs/RISK_REGISTER.md,RISK_REGISTER.md,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,17,6233,,Svyazi; CardIndex; AgentFS; Rufler; MemNet; SENTINEL,,да,да
@@ -498,7 +498,7 @@ docs/ROADMAP/04-NOVEL.md,ROADMAP,04-NOVEL.md,04 — Никем не сделан
 docs/ROADMAP/05-PRIORITIES.md,ROADMAP,05-PRIORITIES.md,05 — Приоритеты: что делать прямо сейчас,59,10532,,,> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.,да,да
 docs/SCHEDULE.md,SCHEDULE.md,SCHEDULE.md,Расписание проекта,21,2718,"schedule, docs",Svyazi; CardIndex; AgentFS; Yodoca; SENTINEL; Tool Search,`SCHEDULE` — раздел документации проекта Lorenzo.,нет,да
 docs/SCORING.md,SCORING.md,SCORING.md,Оценка готовности проекта (Go/No-Go),5,2508,"scoring, docs",,`SCORING` — раздел документации проекта Lorenzo.,да,да
-docs/SCRIPTS_CATALOG.md,SCRIPTS_CATALOG.md,SCRIPTS_CATALOG.md,Каталог скриптов,904,66376,,Svyazi; SENTINEL,,да,да
+docs/SCRIPTS_CATALOG.md,SCRIPTS_CATALOG.md,SCRIPTS_CATALOG.md,Каталог скриптов,905,66973,,Svyazi; SENTINEL,,да,да
 docs/SCRIPT_EVAL_REPORT.md,SCRIPT_EVAL_REPORT.md,SCRIPT_EVAL_REPORT.md,Отчёт об оценке скриптов Lorenzo,577,23635,,Svyazi; CardIndex; AgentFS; Yodoca; NGT Memory; MemNet; SENTINEL; Wikontic,"Детальное живое тестирование 159 скриптов: сценки-диалоги, сравнение «до/после», плюсы/минусы, пути развития.",да,да
 docs/SEARCH.md,SEARCH.md,SEARCH.md,Поисковый индекс,24,295663,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,"Индекс **2498** документов, **2,335,998** слов",да,да
 docs/SEARCH_RESULTS.md,SEARCH_RESULTS.md,SEARCH_RESULTS.md,Результаты поиска,25,2899,anthropic,,Последние результаты поиска по базе знаний.,нет,да
@@ -1429,18 +1429,18 @@ docs/obsidian/05-habr-projects/memory/ngt-memory.md,obsidian,ngt-memory.md,NGT[^
 docs/obsidian/05-habr-projects/memory/yodoca.md,obsidian,yodoca.md,Yodoca[^yodoca]: консолидация и забывание,21,3800,"memory, ingestion, architecture, collaboration",Svyazi; Yodoca; Wikontic,"Yodoca — «Научил ИИ-агента помнить важное и забывать лишнее в SQLite» https://habr.com/ru/articles/1006622/ Это не просто аналог, это архитектурное продолжение Svyazi[^svyazi] на уровне agentic memory",нет,да
 docs/obsidian/ABBREVIATIONS.md,obsidian,ABBREVIATIONS.md,Словарь аббревиатур и сокращений,6,11217,"abbreviations, docs",SENTINEL; LiteLLM; Auto AI Router,`ABBREVIATIONS` — раздел документации проекта Lorenzo.,нет,да
 docs/obsidian/ACTION_ITEMS.md,obsidian,ACTION_ITEMS.md,"Action Items, риски и решения",1663,84790,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,`ACTION_ITEMS` — раздел документации проекта Lorenzo.,да,да
-docs/obsidian/ALERTS.md,obsidian,ALERTS.md,Callout-блоки,12,775,,,,да,нет
+docs/obsidian/ALERTS.md,obsidian,ALERTS.md,Callout-блоки,12,773,,,,да,нет
 docs/obsidian/AUTHORS.md,obsidian,AUTHORS.md,Авторы и коллаборации,8,1426,"authors, docs",,"Авторы проектов, упоминаемые в исследованиях.",нет,нет
 docs/obsidian/AUTOFILLED.md,obsidian,AUTOFILLED.md,Автозаполненные шаблоны,72,3164,"ingestion, collaboration",Svyazi,[!NOTE],нет,нет
-docs/obsidian/BACKLINKS.md,obsidian,BACKLINKS.md,Индекс обратных ссылок,4,5258,,Svyazi; MemNet,,да,да
+docs/obsidian/BACKLINKS.md,obsidian,BACKLINKS.md,Индекс обратных ссылок,4,5182,,Svyazi; MemNet,,нет,да
 docs/obsidian/BADGES.md,obsidian,BADGES.md,Status Badges,6,1748,"badges, status, quality, documentation",,"Бейджи статуса репозитория: тесты, шаблоны, скрипты, скилы",нет,нет
 docs/obsidian/CHANGELOG.md,obsidian,CHANGELOG.md,CHANGELOG,12,8663,"changelog, docs",Svyazi,`CHANGELOG` — раздел документации проекта Lorenzo.,нет,нет
 docs/obsidian/CHANGELOG_AUTO.md,obsidian,CHANGELOG_AUTO.md,Changelog (авто),21,15611,,CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; SENTINEL,`CHANGELOG_AUTO` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/CITATION_INDEX.md,obsidian,CITATION_INDEX.md,Индекс цитирования URL,50,8830,,knowledge-space; Yodoca; MemNet; Wikontic,`CITATION_INDEX` — раздел документации проекта Lorenzo.,нет,нет
-docs/obsidian/CLUSTERS.md,obsidian,CLUSTERS.md,Кластеры тематически близких файлов,13,31966,,Svyazi; AgentFS; Yodoca; Wikontic,,да,да
+docs/obsidian/CLUSTERS.md,obsidian,CLUSTERS.md,Кластеры тематически близких файлов,13,32013,,Svyazi; AgentFS; Yodoca; Wikontic,,да,да
 docs/obsidian/CODE_BLOCKS.md,obsidian,CODE_BLOCKS.md,Code-блоки репозитория,1384,53420,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Yjs; Automerge,`CODE_BLOCKS` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/COLLAB_SUGGESTIONS.md,obsidian,COLLAB_SUGGESTIONS.md,Рекомендации по коллаборации (Collaboration Finder),105,7294,"collaboration, projects, recommendations, svyazi",Svyazi; CardIndex; knowledge-space; mclaude; Rufler; Yodoca; NGT Memory; MemNet; Wikontic,Автоматический поиск партнёрских проектов для: «локальная база знаний агент память граф»,нет,нет
-docs/obsidian/COMPARE.md,obsidian,COMPARE.md,Сравнение с предыдущим коммитом,7,4804,,,,да,нет
+docs/obsidian/COMPARE.md,obsidian,COMPARE.md,Сравнение с предыдущим коммитом,7,4142,,,,да,нет
 docs/obsidian/COMPLEXITY.md,obsidian,COMPLEXITY.md,Оценка читаемости документов,6,3944,"complexity, docs",Rufler; MemNet,**Файлов проанализировано:** 2475,да,нет
 docs/obsidian/COMPONENT_MATRIX.md,obsidian,COMPONENT_MATRIX.md,Матрица компонентов Svyazi 2.0,12,4644,,Svyazi; CardIndex; AgentFS; knowledge-space; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic; Firecrawl,`COMPONENT_MATRIX` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/CONCEPTS.md,obsidian,CONCEPTS.md,Глоссарий понятий,6498,145666,"concepts, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Yjs; Automerge,`CONCEPTS` — раздел документации проекта Lorenzo.,да,да
@@ -1448,7 +1448,7 @@ docs/obsidian/CONCEPT_GRAPH.md,obsidian,CONCEPT_GRAPH.md,Граф концепт
 docs/obsidian/CONSISTENCY.md,obsidian,CONSISTENCY.md,Согласованность терминов,14,5408,,Svyazi; CardIndex; knowledge-space; AI Factory; LiteParse; NGT Memory; Auto AI Router,,нет,нет
 docs/obsidian/CONTACTS.md,obsidian,CONTACTS.md,Контакты и авторы,34,4943,"contacts, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; Yjs,`CONTACTS` — раздел документации проекта Lorenzo.,нет,нет
 docs/obsidian/CONTACT_PRIORITY.md,obsidian,CONTACT_PRIORITY.md,Приоритет контактов,26,2542,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,`CONTACT_PRIORITY` — раздел документации проекта Lorenzo.,нет,нет
-docs/obsidian/CONTRADICTIONS.md,obsidian,CONTRADICTIONS.md,Противоречия в базе знаний,7,13004,,Svyazi; knowledge-space; Rufler; LiteParse; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
+docs/obsidian/CONTRADICTIONS.md,obsidian,CONTRADICTIONS.md,Противоречия в базе знаний,7,13269,,Svyazi; knowledge-space; Rufler; LiteParse; NGT Memory; MemNet; SENTINEL; Auto AI Router,,да,да
 docs/obsidian/COST.md,obsidian,COST.md,Оценка стоимости MVP,16,3655,"cost, docs",CardIndex; AgentFS; Rufler; Yodoca; SENTINEL; Tool Search,`COST` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/COVERAGE.md,obsidian,COVERAGE.md,Матрица покрытия документов,22,2465,"coverage, docs",Svyazi,`COVERAGE` — раздел документации проекта Lorenzo.,да,нет
 docs/obsidian/CROSSREFS.md,obsidian,CROSSREFS.md,Перекрёстные ссылки,16,8303,"crossrefs, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,Для каждого проекта — в каких файлах он упоминается.,нет,да
@@ -1459,9 +1459,9 @@ docs/obsidian/DENSITY.md,obsidian,DENSITY.md,Карта плотности те�
 docs/obsidian/DEPENDABOT.md,obsidian,DEPENDABOT.md,Мониторинг зависимостей,16,1370,,Svyazi; AgentFS; knowledge-space; Yodoca; NGT Memory,,нет,нет
 docs/obsidian/DEPENDENCY_MAP.md,obsidian,DEPENDENCY_MAP.md,Карта зависимостей скриптов,42,11974,,SENTINEL,`DEPENDENCY_MAP` — раздел документации проекта Lorenzo.,да,нет
 docs/obsidian/DIGEST.md,obsidian,DIGEST.md,Дайджест изменений,10,2724,rag,,> fix(docs-toolkit): suppress PytestCollectionWarning for TestResult dataclass,да,нет
-docs/obsidian/DIGEST_AUTO.md,obsidian,DIGEST_AUTO.md,Автодайджест изменений,15,3277,,Svyazi,,нет,нет
+docs/obsidian/DIGEST_AUTO.md,obsidian,DIGEST_AUTO.md,Автодайджест изменений,15,3271,,Svyazi,,нет,нет
 docs/obsidian/DIGEST_WEEKLY.md,obsidian,DIGEST_WEEKLY.md,Еженедельный дайджест — 2026-05-11,75,3789,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; SENTINEL,`DIGEST_WEEKLY` — раздел документации проекта Lorenzo.,нет,да
-docs/obsidian/DUPLICATES.md,obsidian,DUPLICATES.md,Отчёт о дублировании,14,15500,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic,,да,да
+docs/obsidian/DUPLICATES.md,obsidian,DUPLICATES.md,Отчёт о дублировании,14,17547,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Yodoca; MemNet; Wikontic,,да,да
 docs/obsidian/EMPTY_SECTIONS.md,obsidian,EMPTY_SECTIONS.md,Пустые секции,41,188307,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,`EMPTY_SECTIONS` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/ENTITIES.md,obsidian,ENTITIES.md,Именованные сущности,6,4798,"entities, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Tool Search; Wikontic; Firecrawl,`ENTITIES` — раздел документации проекта Lorenzo.,нет,нет
 docs/obsidian/FAQ.md,obsidian,FAQ.md,Часто задаваемые вопросы (FAQ),211,10799,"faq, docs",Svyazi; CardIndex; AgentFS; knowledge-space; Yodoca; MemNet,`FAQ` — раздел документации проекта Lorenzo.,да,да
@@ -1478,8 +1478,8 @@ docs/obsidian/INFO_PROCESSING_METHODS.md,obsidian,INFO_PROCESSING_METHODS.md,М�
 docs/obsidian/KEYWORD_INDEX.md,obsidian,KEYWORD_INDEX.md,Инвертированный индекс ключевых слов,8,4275,,Svyazi,,нет,да
 docs/obsidian/KNOWLEDGE_MAP.md,obsidian,KNOWLEDGE_MAP.md,Карта базы знаний Lorenzo,28,4128,,Svyazi,`KNOWLEDGE_MAP` — раздел документации проекта Lorenzo.,нет,нет
 docs/obsidian/KPI.md,obsidian,KPI.md,Числовые KPI и метрики,5,17948,,Svyazi; AgentFS; Auto AI Router,,да,да
-docs/obsidian/KPI_HISTORY.md,obsidian,KPI_HISTORY.md,История метрик KPI,22,1115,,,,нет,нет
-docs/obsidian/LANGUAGE_STATS.md,obsidian,LANGUAGE_STATS.md,Языковой состав документов,7,46441,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,,да,да
+docs/obsidian/KPI_HISTORY.md,obsidian,KPI_HISTORY.md,История метрик KPI,22,1116,,,,нет,нет
+docs/obsidian/LANGUAGE_STATS.md,obsidian,LANGUAGE_STATS.md,Языковой состав документов,7,46410,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,,да,да
 docs/obsidian/LINKS.md,obsidian,LINKS.md,Индекс ссылок,8,11550,"links, docs",SENTINEL,**Кто ссылается на этот документ (9):**,нет,нет
 docs/obsidian/LLM_GAPS.md,obsidian,LLM_GAPS.md,LLM Gap Analysis — семантические пробелы,13,534,,,,нет,нет
 docs/obsidian/LLM_SUMMARIES.md,obsidian,LLM_SUMMARIES.md,AI-саммари разделов документации,28,3817,,Svyazi,- [Архитектура Svyazi 2.0](#архитектура-svyazi-20),нет,нет
@@ -1489,22 +1489,22 @@ docs/obsidian/METRICS.md,obsidian,METRICS.md,Метрики качества д�
 docs/obsidian/MINDMAP.md,obsidian,MINDMAP.md,Майндмап репозитория Lorenzo,104,2866,"mindmap, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search; AutoResearch; Wikontic; Firecrawl; Yjs; Automerge,`MINDMAP` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/MISSING.md,obsidian,MISSING.md,Карта пробелов знаний,24,3337,"missing, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; NGT Memory; SENTINEL; AutoResearch,`MISSING` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/NAMED_ENTITIES.md,obsidian,NAMED_ENTITIES.md,Индекс именованных сущностей,10,13190,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; AutoResearch; Wikontic; Yjs,`NAMED_ENTITIES` — раздел документации проекта Lorenzo.,да,да
-docs/obsidian/NARRATIVE.md,obsidian,NARRATIVE.md,Нарратив проекта Lorenzo,33,8060,,Svyazi; AgentFS; AI Factory; LiteParse; Yodoca; NGT Memory,"_Связный рассказ о том, как складывается проект — от первых идей до конкретных планов._",да,да
+docs/obsidian/NARRATIVE.md,obsidian,NARRATIVE.md,Нарратив проекта Lorenzo,33,7286,,Svyazi; AgentFS; AI Factory; LiteParse; Yodoca; NGT Memory,,да,да
 docs/obsidian/NETWORK.md,obsidian,NETWORK.md,Сеть проектов и авторов,6,2958,"network, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; Wikontic; Firecrawl,`NETWORK` — раздел документации проекта Lorenzo.,нет,нет
 docs/obsidian/ONBOARDING.md,obsidian,ONBOARDING.md,Онбординг — Svyazi 2.0 / Lorenzo,52,4181,"onboarding, docs",Svyazi; CardIndex; AgentFS; Rufler; Yodoca; SENTINEL; Firecrawl,`ONBOARDING` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/ORPHANS.md,obsidian,ORPHANS.md,Изолированные документы (Orphans),39,1341,"orphans, docs",Svyazi,`ORPHANS` — раздел документации проекта Lorenzo.,нет,нет
 docs/obsidian/OUTLINE.md,obsidian,OUTLINE.md,Outline базы знаний,3888,312591,"outline, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router; AutoResearch; Wikontic; Yjs; Automerge,`OUTLINE` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/PARAGRAPH_QUALITY.md,obsidian,PARAGRAPH_QUALITY.md,Качество абзацев,2501,142656,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,`PARAGRAPH_QUALITY` — раздел документации проекта Lorenzo.,да,да
 docs/obsidian/PASSIVE_VOICE.md,obsidian,PASSIVE_VOICE.md,Пассивный залог и канцеляризмы,9,2613,,,`PASSIVE_VOICE` — раздел документации проекта Lorenzo.,нет,нет
-docs/obsidian/PRECISION_EVAL.md,obsidian,PRECISION_EVAL.md,Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0,4,3127,,Svyazi; CardIndex; AgentFS; knowledge-space; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; SENTINEL; Wikontic,Автоматическая оценка качества hybrid_search(). Hit Rate@5 = **0.950** (≥ порог 0.70).,да,да
+docs/obsidian/PRECISION_EVAL.md,obsidian,PRECISION_EVAL.md,Retrieval Hit Rate Evaluation — Lorenzo / Svyazi 2.0,4,3010,,Svyazi; CardIndex; AgentFS; knowledge-space; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; SENTINEL; Wikontic,Автоматическая оценка качества hybrid_search(). Hit Rate@5 = **1.000** (≥ порог 0.70).,да,да
 docs/obsidian/PRIORITIES.md,obsidian,PRIORITIES.md,Приоритеты файлов,11,41014,"priorities, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; NGT Memory; MemNet; SENTINEL; AutoResearch,Ранжирование по важности (TF-IDF по ключевым терминам архитектуры).,да,да
 docs/obsidian/PROGRESS.md,obsidian,PROGRESS.md,Прогресс MVP,69,2746,"progress, docs",Svyazi; AgentFS; knowledge-space; NGT Memory,`PROGRESS` — раздел документации проекта Lorenzo.,нет,да
 docs/obsidian/PROTOTYPE_SPEC.md,obsidian,PROTOTYPE_SPEC.md,Svyazi 2.0 — Спецификация прототипа,181,13863,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Tool Search,,да,да
 docs/obsidian/QA.md,obsidian,QA.md,Глобальный Q&A,278,18658,"qa, docs",Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; AI Factory; Rufler; LiteParse; Legal RAG; Hybrid RAG; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; LiteLLM; Auto AI Router; Tool Search,`QA` — раздел документации проекта Lorenzo.,да,да
-docs/obsidian/QUESTIONS.md,obsidian,QUESTIONS.md,Открытые вопросы,269,15597,,Svyazi; CardIndex; AgentFS,_Извлечено автоматически из всех документов: **1992** вопросов_,да,да
+docs/obsidian/QUESTIONS.md,obsidian,QUESTIONS.md,Открытые вопросы,269,14906,,Svyazi; CardIndex; AgentFS,,да,да
 docs/obsidian/READING_LIST.md,obsidian,READING_LIST.md,Список чтения,8,4604,,,`READING_LIST` — раздел документации проекта Lorenzo.,нет,нет
-docs/obsidian/READING_ORDER.md,obsidian,READING_ORDER.md,Рекомендуемый порядок чтения,26,39519,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; Wikontic,"От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).",да,да
-docs/obsidian/READING_TIME.md,obsidian,READING_TIME.md,Время чтения документов,7,148731,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,"Документов: **2483** | Слов: **1,676,436** | Время базы: **164ч 31мин**",да,да
+docs/obsidian/READING_ORDER.md,obsidian,READING_ORDER.md,Рекомендуемый порядок чтения,26,38879,,Svyazi; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; Wikontic,,да,да
+docs/obsidian/READING_TIME.md,obsidian,READING_TIME.md,Время чтения документов,7,148259,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; Rufler; LiteParse; Yodoca; MemNet; SENTINEL; AutoResearch; Wikontic; Yjs; Automerge,"Документов: **2484** | Слов: **1,676,209** | Время базы: **164ч 28мин**",да,да
 docs/obsidian/REGISTRY.md,obsidian,REGISTRY.md,REGISTRY — реестр артефактов Lorenzo,18,10094,,Svyazi,,да,да
 docs/obsidian/REPORT.md,obsidian,REPORT.md,Svyazi 2.0 — Knowledge Base Report,49,6616,,Svyazi; CardIndex; AgentFS; knowledge-space; mclaude; LiteParse; Graph RAG; Yodoca; NGT Memory; MemNet; SENTINEL; Auto AI Router,,нет,да
 docs/obsidian/RISK_REGISTER.md,obsidian,RISK_REGISTER.md,Реестр рисков — Svyazi 2.0,21,5930,,Svyazi; CardIndex; AgentFS; Rufler; MemNet; SENTINEL,,да,да
@@ -1516,7 +1516,7 @@ docs/obsidian/ROADMAP/04-NOVEL.md,obsidian,04-NOVEL.md,04 — Никем не с
 docs/obsidian/ROADMAP/05-PRIORITIES.md,obsidian,05-PRIORITIES.md,05 — Приоритеты: что делать прямо сейчас,63,10416,,,> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.,да,да
 docs/obsidian/SCHEDULE.md,obsidian,SCHEDULE.md,Расписание проекта,25,2676,"schedule, docs",Svyazi; CardIndex; AgentFS; Yodoca; SENTINEL; Tool Search,`SCHEDULE` — раздел документации проекта Lorenzo.,нет,да
 docs/obsidian/SCORING.md,obsidian,SCORING.md,Оценка готовности проекта (Go/No-Go),9,2453,"scoring, docs",,`SCORING` — раздел документации проекта Lorenzo.,да,да
-docs/obsidian/SCRIPTS_CATALOG.md,obsidian,SCRIPTS_CATALOG.md,Каталог скриптов,908,66436,,Svyazi; SENTINEL,,да,да
+docs/obsidian/SCRIPTS_CATALOG.md,obsidian,SCRIPTS_CATALOG.md,Каталог скриптов,909,67031,,Svyazi; SENTINEL,,да,да
 docs/obsidian/SCRIPT_EVAL_REPORT.md,obsidian,SCRIPT_EVAL_REPORT.md,Отчёт об оценке скриптов Lorenzo,581,23485,,Svyazi; CardIndex; AgentFS; Yodoca; NGT Memory; MemNet; SENTINEL; Wikontic,"Детальное живое тестирование 159 скриптов: сценки-диалоги, сравнение «до/после», плюсы/минусы, пути развития.",да,да
 docs/obsidian/SEARCH_RESULTS.md,obsidian,SEARCH_RESULTS.md,Результаты поиска,29,2762,anthropic,,Последние результаты поиска по базе знаний.,нет,да
 docs/obsidian/SEE_ALSO.md,obsidian,SEE_ALSO.md,Индекс «Смотрите также»,4,4860,,Svyazi,**Файлов с блоком See Also:** 1079,да,да

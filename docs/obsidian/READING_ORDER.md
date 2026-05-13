@@ -7,19 +7,6 @@ date: 2026-05-13
 
 # Рекомендуемый порядок чтения
 
-> [!TIP]
-> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
-
-<!-- alert-added -->
-
-<!-- summary -->
-> От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
-**Проекты:** Svyazi, AgentFS, knowledge-space, mclaude, Rufler, LiteParse, Yodoca, MemNet
-
----
-
-
-
 От базовых концепций к сложным. Начните с зелёных (🟢), затем жёлтые (🟡), красные (🔴).
 
 | # | Уровень | Документ | Слов | Предварительно прочитать |
@@ -448,30 +435,3 @@ date: 2026-05-13
 3. `04-ai-collaborations/` — ансамбли
 4. `03-technology-combinations/` — комбинации
 5. `02-anthropic-vacancies/` — карьерные возможности
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [[SOURCE_MAP]]
-- [[HEADING_AUDIT]]
-- [[PARAGRAPH_QUALITY]]
-- [[CLUSTERS]]
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (14):**
-- [[README]]
-- [[CLUSTERS]]
-- [[COMPARE]]
-- [[CONTENT_GAPS]]
-- [[OUTLINE]]
-- [[READABILITY]]
-- [[READING_TIME]]
-- [[README]]
-- _...ещё 6_
-

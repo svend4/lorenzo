@@ -8,7 +8,7 @@ date: 2026-05-13
 # Сравнение с предыдущим коммитом
 
 **Файлов было:** 1487  **стало:** 2500  
-**Слов было:** 2,037,833  **стало:** 2,878,993  **Δ:** +841,160
+**Слов было:** 2,038,848  **стало:** 2,878,757  **Δ:** +839,909
 
 
 ## Новые файлы (1013)
@@ -58,48 +58,20 @@ _...и ещё 973_
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (50) — топ по Δ слов
+## Изменившиеся файлы (13) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `DUPLICATES.md` | 1843 | 1944 | +101 |
-| `DUPLICATES.md` | 1801 | 1872 | +71 |
-| `QUESTIONS.md` | 1840 | 1887 | +47 |
-| `CONCEPT_GRAPH.md` | 675 | 720 | +45 |
-| `CONSISTENCY.md` | 652 | 697 | +45 |
-| `CROSS_SECTION.md` | 4381 | 4426 | +45 |
-| `DEPENDABOT.md` | 165 | 210 | +45 |
-| `DIGEST_AUTO.md` | 465 | 510 | +45 |
-| `KEYWORD_INDEX.md` | 1024 | 1069 | +45 |
-| `KPI.md` | 2878 | 2923 | +45 |
-| `KPI_HISTORY.md` | 207 | 252 | +45 |
-| `LANGUAGE_STATS.md` | 7918 | 7963 | +45 |
-| `NARRATIVE.md` | 1083 | 1128 | +45 |
-| `READING_ORDER.md` | 6083 | 6128 | +45 |
-| `SEE_ALSO.md` | 233 | 278 | +45 |
-| `SENTIMENT.md` | 567 | 612 | +45 |
-| `STATS.md` | 715 | 760 | +45 |
-| `COMPARE.md` | 501 | 543 | +42 |
-| `CONTENT_GAPS.md` | 912 | 954 | +42 |
-| `LLM_GAPS.md` | 79 | 117 | +38 |
-| `CLUSTERS.md` | 1705 | 1674 | -31 |
-| `READING_TIME.md` | 27552 | 27581 | +29 |
-| `REPORT.md` | 297 | 326 | +29 |
-| `SUMMARIES.md` | 13 | 42 | +29 |
-| `VALIDATION.md` | 254 | 283 | +29 |
-| `ALERTS.md` | 132 | 108 | -24 |
-| `READING_TIME.md` | 27616 | 27592 | -24 |
-| `DECISIONS.md` | 2613 | 2592 | -21 |
-| `DECISIONS.md` | 2621 | 2600 | -21 |
-| `CONTRADICTIONS.md` | 1464 | 1444 | -20 |
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+| `DIGEST_AUTO.md` | 506 | 428 | -78 |
+| `CONCEPT_GRAPH.md` | 646 | 691 | +45 |
+| `COMPARE.md` | 477 | 521 | +44 |
+| `CONSISTENCY.md` | 697 | 657 | -40 |
+| `DEPENDABOT.md` | 210 | 181 | -29 |
+| `CROSS_SECTION.md` | 4426 | 4401 | -25 |
+| `CONTENT_GAPS.md` | 954 | 930 | -24 |
+| `CONTRADICTIONS.md` | 1495 | 1509 | +14 |
+| `DUPLICATES.md` | 1922 | 1910 | -12 |
+| `DECISIONS.md` | 2592 | 2582 | -10 |
+| `ALERTS.md` | 108 | 108 | +0 |
+| `BACKLINKS.md` | 541 | 541 | +0 |
+| `CLUSTERS.md` | 1674 | 1674 | +0 |

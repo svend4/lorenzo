@@ -45,14 +45,3 @@ h2. Шаблоны
 * _tech-pair_ — Пара технологий с описанием синергии
 * _tech-radar-entry_ — Запись Tech Radar: квадрант, кольцо, обоснование
 * _weekly-digest_ — Еженедельный дайджест: TL;DR, что сделано, метрики, решения, план
-
-
-
-----
-
-_Кто ссылается на этот документ (4):_
-* [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-

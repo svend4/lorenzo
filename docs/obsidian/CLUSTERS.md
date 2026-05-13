@@ -8,10 +8,10 @@ date: 2026-05-13
 # Кластеры тематически близких файлов
 
 Метод: TF-IDF + косинусное сходство (порог 0.15)  
-Документов: 2266, кластеров: 172
+Документов: 2266, кластеров: 171
 
 
-## Кластер 1 — концептов, поиска, репозитория, через (356 файлов)
+## Кластер 1 — концептов, поиска, репозитория, через (355 файлов)
 
 - `docs/01-svyazi/00-intro-part2.md` — _00-intro-part2_
 - `docs/02-anthropic-vacancies/120-главные-технические-риски.md` — _120-главные-технические-риски_
@@ -23,7 +23,7 @@ date: 2026-05-13
 - `docs/02-anthropic-vacancies/298-что-этот-документ-не-решает.md` — _298-что-этот-документ-не-решает_
 - `docs/02-anthropic-vacancies/345-кто-ты.md` — _345-кто-ты_
 - `docs/02-anthropic-vacancies/346-твоё-происхождение.md` — _346-твоё-происхождение_
-- _...и ещё 346 файлов_
+- _...и ещё 345 файлов_
 
 ## Кластер 2 — turn, view, svyazi, agentfs (98 файлов)
 
@@ -81,7 +81,7 @@ date: 2026-05-13
 - `docs/02-anthropic-vacancies/152-ai-coordinated-infrastructure-for-distributed-expe.md` — _152-ai-coordinated-infrastructure-for-distributed-expe_
 - _...и ещё 53 файлов_
 
-## Кластер 6 — turn, view, citeturn, svyazi (61 файлов)
+## Кластер 6 — turn, view, citeturn, cite (60 файлов)
 
 - `docs/01-svyazi/03-component-catalog.md` — _03-component-catalog_
 - `docs/01-svyazi/06-security-privacy.md` — _06-security-privacy_
@@ -90,10 +90,10 @@ date: 2026-05-13
 - `docs/04-ai-collaborations/03-карта-найденных-проектов-и-паттернов.md` — _03-карта-найденных-проектов-и-паттернов_
 - `docs/04-ai-collaborations/06-безопасность-приватность-и-бюджетный-роутинг.md` — _06-безопасность-приватность-и-бюджетный-роутинг_
 - `docs/04-ai-collaborations/12-дорожная-карта-прототипа-следующей-итерации.md` — _12-дорожная-карта-прототипа-следующей-итерации_
-- `docs/CONTRADICTIONS.md` — _CONTRADICTIONS_
 - `docs/TOPIC_MODEL.md` — _TOPIC_MODEL_
 - `docs/WORD_FREQ.md` — _WORD_FREQ_
-- _...и ещё 51 файлов_
+- `docs/obsidian/01-svyazi/03-component-catalog.md` — _03-component-catalog_
+- _...и ещё 50 файлов_
 
 ## Кластер 7 — table-of-contents, double-triangle, table, triangle (60 файлов)
 
@@ -193,7 +193,21 @@ date: 2026-05-13
 - `docs/ROADMAP/04-NOVEL.md` — _04-NOVEL_
 - _...и ещё 27 файлов_
 
-## Кластер 14 — info, camel, engineer, svend (36 файлов)
+## Кластер 14 — docs, anthropic-vacancies, localhost, http (37 файлов)
+
+- `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
+- `docs/COMPARE.md` — _COMPARE_
+- `docs/CONSISTENCY.md` — _CONSISTENCY_
+- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
+- `docs/CONTRADICTIONS.md` — _CONTRADICTIONS_
+- `docs/COVERAGE.md` — _COVERAGE_
+- `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
+- `docs/GATEWAY.md` — _GATEWAY_
+- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
+- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
+- _...и ещё 27 файлов_
+
+## Кластер 15 — info, camel, engineer, svend (36 файлов)
 
 - `docs/02-anthropic-vacancies/00-intro.md` — _00-intro_
 - `docs/02-anthropic-vacancies/01-интегральный-анализ-профиля-svend4.md` — _01-интегральный-анализ-профиля-svend4_
@@ -206,20 +220,6 @@ date: 2026-05-13
 - `docs/anthropic-vacancies/nautilus-pro2-analysis/03-nautilus-B-meta-orchestrator.md` — _03-nautilus-B-meta-orchestrator_
 - `docs/anthropic-vacancies/nautilus-vs-camel/02-what-info-repos-contain.md` — _02-what-info-repos-contain_
 - _...и ещё 26 файлов_
-
-## Кластер 15 — docs, anthropic-vacancies, localhost, http (35 файлов)
-
-- `docs/BROKEN_LINKS.md` — _BROKEN_LINKS_
-- `docs/COMPARE.md` — _COMPARE_
-- `docs/CONSISTENCY.md` — _CONSISTENCY_
-- `docs/CONTENT_GAPS.md` — _CONTENT_GAPS_
-- `docs/COVERAGE.md` — _COVERAGE_
-- `docs/DIGEST_WEEKLY.md` — _DIGEST_WEEKLY_
-- `docs/GATEWAY.md` — _GATEWAY_
-- `docs/GITHUB_ISSUES.md` — _GITHUB_ISSUES_
-- `docs/HEADING_AUDIT.md` — _HEADING_AUDIT_
-- `docs/LINKS.md` — _LINKS_
-- _...и ещё 25 файлов_
 
 ## Кластер 16 — com, https, habr, articles (34 файлов)
 
@@ -431,15 +431,4 @@ date: 2026-05-13
 - `docs/obsidian/02-anthropic-vacancies/236-5-экономика-тиражирования-по-профессии.md` — _236-5-экономика-тиражирования-по-профессии_
 - _...и ещё 6 файлов_
 
-_...и ещё 142 малых кластеров (по 1-2 файла)_
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
+_...и ещё 141 малых кластеров (по 1-2 файла)_

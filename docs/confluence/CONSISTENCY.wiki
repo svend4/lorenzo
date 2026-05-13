@@ -5,23 +5,10 @@
 
 h1. Согласованность терминов
 
-{quote}[!NOTE]{quote}
-{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
-
-
-
-
-{quote}Анализ различных написаний одних и тех же терминов.{quote}
-_Проекты:_ Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
-
-----
-
-
-
 Анализ различных написаний одних и тех же терминов.
 
 || Термин || Канонично || Вариант || Файлов ||
-|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 6 ||
+|| **knowledge-space** || `knowledge-space` || `knowledgespace` || 7 ||
 || **knowledge-space** || `knowledge-space` || `knowledge space` || 32 ||
 || **knowledge-space** || `knowledge-space` || `knowledge_space` || 4 ||
 || **CardIndex** || `CardIndex` || `Card Index` || 2 ||
@@ -43,7 +30,7 @@ _Проекты:_ Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT
 || **Card Envelope** || `Card Envelope` || `Card-Envelope` || 38 ||
 || **Card Envelope** || `Card Envelope` || `CardEnvelope` || 32 ||
 
-_Всего несогласованных написаний: 661_
+_Всего несогласованных написаний: 662_
 
 
 h2. Детали по файлам
@@ -56,7 +43,7 @@ h3. {{knowledgespace}} → должно быть {{knowledge-space}}
 * {{docs/TABLES.md}}
 * {{docs/obsidian/EMPTY_SECTIONS.md}}
 * {{docs/obsidian/CONSISTENCY.md}}
-* _...и ещё 1_
+* _...и ещё 2_
 
 h3. {{knowledge space}} → должно быть {{knowledge-space}}
 
@@ -209,30 +196,3 @@ h2. Как исправить
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 {code}
-
-
-
-----
-
-_Смотрите также:_
-* [MISSING|MISSING.md]
-* [TAGS|TAGS.md]
-* [SPELLCHECK|SPELLCHECK.md]
-* [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
-
-
-
-
-----
-
-_Кто ссылается на этот документ (9):_
-* [354-существующий-landscape-collaborators-твоя-working-|02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md]
-* [MISSING|MISSING.md]
-* [OUTLINE|OUTLINE.md]
-* [READABILITY|READABILITY.md]
-* [READING_TIME|READING_TIME.md]
-* [README|README.md]
-* [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
-* _...ещё 1_
-

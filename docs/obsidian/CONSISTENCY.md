@@ -11,7 +11,7 @@ date: 2026-05-13
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 7 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
 | **CardIndex** | `CardIndex` | `Card Index` | 2 |
@@ -33,7 +33,7 @@ date: 2026-05-13
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
 | **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
 
-**Всего несогласованных написаний: 661**
+**Всего несогласованных написаний: 662**
 
 
 ## Детали по файлам
@@ -46,7 +46,7 @@ date: 2026-05-13
 - `docs/TABLES.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
 - `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 1_
+- _...и ещё 2_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -199,14 +199,3 @@ date: 2026-05-13
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (4):**
-- [READABILITY](../READABILITY.md)
-- [READING_TIME](../READING_TIME.md)
-- [SEARCH](../SEARCH.md)
-- [TABLES](../TABLES.md)
-
