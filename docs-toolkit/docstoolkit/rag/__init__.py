@@ -30,6 +30,10 @@ from docstoolkit.rag.mapreduce import (
     map_reduce_ask, should_use_mapreduce,
     MapReduceConfig, ReduceResult,
 )
+from docstoolkit.rag.clarifier import (
+    detect_ambiguity, build_clarification, apply_clarification,
+    ClarifyingRAG, AmbiguityScore, ClarificationRequest,
+)
 
 __all__ = [
     "Passage", "AnswerResult", "RAGQuery",
@@ -45,4 +49,7 @@ __all__ = [
     "AttributedAnswer", "CounterfactualResult", "SpanAttribution",
     # Gap 10: True long-context map-reduce
     "map_reduce_ask", "should_use_mapreduce", "MapReduceConfig", "ReduceResult",
+    # Gap 4: Active clarification
+    "detect_ambiguity", "build_clarification", "apply_clarification",
+    "ClarifyingRAG", "AmbiguityScore", "ClarificationRequest",
 ]
