@@ -19,6 +19,7 @@ from docstoolkit.embeddings.dispatch import get_provider, list_providers
 from docstoolkit.embeddings.hybrid import HybridSearcher
 from docstoolkit.embeddings.incremental import IncrementalIndex
 from docstoolkit.embeddings.watcher import WatchResult, watch_once, watch_loop
+from docstoolkit.embeddings.coordinator import Index, IndexHit, IndexCoordinator
 
 __all__ = [
     "EmbeddingProvider", "SearchResult",
@@ -28,4 +29,6 @@ __all__ = [
     "IncrementalIndex",
     # Gap 5: File watcher
     "WatchResult", "watch_once", "watch_loop",
+    # M7: IndexCoordinator
+    "Index", "IndexHit", "IndexCoordinator",
 ]
