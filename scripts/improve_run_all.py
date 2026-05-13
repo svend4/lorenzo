@@ -105,6 +105,7 @@ GROUPS = {
         "improve_mindmap.py",
         "improve_network.py",
         "improve_narrative.py",
+        "improve_graph_search.py",   # graph-neighbourhood поиск (stats only в авто-режиме)
     ],
     "generate": [
         # Генерация файлов из шаблонов и данных (после extract/analysis)
@@ -141,6 +142,8 @@ GROUPS = {
         "improve_skill_dashboard.py",   # статистика использования скилов
         "improve_skill_metrics.py",     # качество скилов (structure/examples/steps)
         "improve_card_graph.py",        # граф карточек + PageRank → CARD_GRAPH.json
+        "improve_hot_cards.py",         # горячие карточки: PageRank + query_freq → HOT_CARDS.md
+        "improve_query_log.py",         # аналитика запросов gateway → QUERY_ANALYTICS.md
         "improve_quality_patch.py",     # патч качества после регенерации
     ],
     "export": [
@@ -320,6 +323,7 @@ GROUPS["live"] = [
 GROUPS["semantic"] = [
     # Семантический поиск
     "improve_semantic_embeddings.py",  # TF-IDF fallback индекс
+    "improve_ann_index.py",            # inverted-index ANN (pure-Python fallback)
 ]
 
 GROUP_ORDER = [

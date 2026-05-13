@@ -57,6 +57,8 @@ scripts/
   improve_card_graph.py       — directed graph 1166 карточек, PageRank, CARD_GRAPH.json + CARD_GRAPH.md → --top/--dot
   improve_skill_metrics.py    — quality rubric для .claude/skills/*.md (structure/examples/steps) → SKILL_METRICS.md
   improve_graph_search.py     — graph-neighbourhood search: TF-IDF seeds → BFS expand → re-rank by relevance×pagerank → --hops/--seeds/--alpha/--json/--stats
+  improve_query_log.py        — аналитика запросов gateway: top queries, latency p50/p95/p99, zero-result gaps → QUERY_ANALYTICS.md
+  improve_hot_cards.py        — горячие карточки: 0.4×PageRank + 0.3×query_freq + 0.2×state + 0.1×summary → HOT_CARDS.md
   review_queue.py        — Review Queue UI (Streamlit): одобрение карточек, Review Record §3.5
   prototype_demo.py      — демо Knowledge OS: benchmark 5 запросов, ~1.5с avg
   improve_recipe.py      — система рецептов: 22 именованных цепочки скриптов (--list/--find/--run)
@@ -372,6 +374,7 @@ python scripts/improve_autofill.py            # создаёт docs/contacts/*.m
 | 10 — Summary Extender + 1005 Approved | ✅ Готово | improve_summary_extender.py: 713 карточек, 1005 approved, promote rate 98.7% |
 | 11 — Knowledge Graph + Skill Metrics | ✅ Готово | improve_card_graph.py: 18458 рёбер, PageRank; /api/graph; improve_skill_metrics.py: 86/100 avg |
 | 12 — PageRank-Boosted Search | ✅ Готово | PageRank boost (alpha=0.3, cap=0.4) в gateway + semantic_search; improve_graph_search.py: neighbourhood BFS |
+| 13 — ANN Index + Query Analytics + Hot Cards | ✅ Готово | pure-Python ANN (0ms warm); query_log.jsonl; QUERY_ANALYTICS.md; HOT_CARDS.md composite score |
 
 ### Collaboration Finder (Итерация 3)
 ```bash

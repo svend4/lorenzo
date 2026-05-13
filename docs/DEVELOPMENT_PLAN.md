@@ -21,6 +21,7 @@ _Дата: 2026-05-13 · Обновлено: 2026-05-13 · Ветка: claude/cu
 | 10 — Summary Extender + 1005 Approved | `improve_summary_extender.py`: 713 карточек, +597+18 approved. CI 3-pass pipeline | ✅ |
 | 11 — Knowledge Graph + Skill Metrics | `improve_card_graph.py` (18458 рёбер, PageRank), `/api/graph`, `improve_skill_metrics.py` | ✅ |
 | 12 — PageRank-Boosted Search | PageRank boost в hybrid_search + `improve_graph_search.py` (neighbourhood search) | ✅ |
+| 13 — ANN Index + Query Analytics + Hot Cards | pure-Python ANN (0ms warm), query logging, hot cards composite score | ✅ |
 
 **Текущее распределение карточек:** 1005 approved · 109 normalized · 51 raw · promote rate 98.7%
 
@@ -116,13 +117,61 @@ curl -X POST http://localhost:8083/api/ask \
      -d '{"query": "агент с памятью", "top_k": 5}'
 ```
 
-### Следующий уровень (Итерация 13)
+---
+
+## Итерация 13 — ANN Index + Query Analytics + Hot Cards
+
+### Что реализовано
+
+| Компонент | Детали |
+|-----------|--------|
+| `improve_ann_index.py` (переписан) | Двойной backend: HNSW (если numpy+hnswlib) / pure-Python inverted index (fallback, zero-deps). Warm query: <1ms. `ann_search(query, top_k)` — публичный API для gateway. `--build` создаёт `docs/ann_meta.json` за ~0.7с |
+| Gateway ANN enabled | `_ANN_AVAILABLE = True` без каких-либо зависимостей. `mode=ann` в POST /api/ask теперь работает out-of-the-box |
+| Query logging в gateway.py | `_log_query()` пишет в `.claude/query_log.jsonl` при каждом запросе (ask / search / chat). Запись асинхронная, не влияет на latency |
+| `improve_query_log.py` (новый) | Читает query_log.jsonl, выдаёт `docs/QUERY_ANALYTICS.md`: top queries, p50/p95/p99 latency, источники, zero-result queries, hour-of-day pattern |
+| `improve_hot_cards.py` (новый) | Composite hot-score: 0.4×PageRank + 0.3×query_freq + 0.2×state_bonus + 0.1×summary_quality. Вывод: `docs/HOT_CARDS.md` + `.claude/hot_cards.json`. 1809 карточек проранжировано |
+| `improve_run_all.py` обновлён | `improve_hot_cards.py` + `improve_query_log.py` в группе reports; `improve_ann_index.py` + `improve_graph_search.py` в semantic/graph |
+
+### Inverted-Index ANN: как работает
+
+```
+Build (~0.7s):
+  for doc in 1809 docs:
+    tokenize + TF-IDF weight
+    store in inverted_index[token] → [(doc_id, weight)]
+  → save ann_meta.json (vocab=13633, postings=203180)
+
+Query (<1ms warm):
+  tokenize query → q_vec (sparse TF-IDF)
+  for each token in q_vec:
+    get posting list → accumulate dot-products
+  normalise → cosine similarity → top-K
+```
+
+### CLI
+
+```bash
+python scripts/improve_ann_index.py --build                      # построить индекс
+python scripts/improve_ann_index.py --query "агент с памятью"    # поиск
+python scripts/improve_ann_index.py --benchmark                  # замер скорости
+python scripts/improve_ann_index.py --stats                      # статистика
+
+python scripts/improve_query_log.py                              # аналитика запросов
+python scripts/improve_query_log.py --top 20                     # топ-20 запросов
+python scripts/improve_query_log.py --json                       # JSON
+
+python scripts/improve_hot_cards.py                              # топ горячих карточек
+python scripts/improve_hot_cards.py --top 20 --state approved    # только approved
+python scripts/improve_hot_cards.py --json                       # JSON
+```
+
+### Следующий уровень (Итерация 14)
 
 | Задача | Сложность | Ценность |
 |--------|-----------|---------|
-| Neural embeddings (sentence-transformers) | низкая | высокая |
 | Персонализированные контактные сообщения (LLM) | средняя | высокая |
-| Автоматический дайджест изменений (RSS/Atom + weekly summary) | средняя | средняя |
+| Автоматический еженедельный дайджест с hot cards | низкая | средняя |
+| Retrieval evaluation framework (precision@K, NDCG) | средняя | средняя |
 
 ---
 

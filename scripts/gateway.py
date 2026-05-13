@@ -92,6 +92,25 @@ _INDEX: list[dict] | None = None
 _PASSAGES: list[dict] | None = None
 _PAGERANK: dict[str, float] | None = None
 
+QUERY_LOG = ROOT / ".claude" / "query_log.jsonl"
+
+
+def _log_query(query: str, results_count: int, latency_ms: float, source: str = "api") -> None:
+    """Append one line to query_log.jsonl — used by improve_query_log.py analytics."""
+    try:
+        QUERY_LOG.parent.mkdir(parents=True, exist_ok=True)
+        entry = json.dumps({
+            "ts":      datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+            "query":   query,
+            "results": results_count,
+            "ms":      round(latency_ms, 1),
+            "source":  source,
+        }, ensure_ascii=False)
+        with QUERY_LOG.open("a", encoding="utf-8") as f:
+            f.write(entry + "\n")
+    except Exception:
+        pass  # logging must never break the request
+
 # Top synthetic hub — inflated in-degree due to autofill cross-references.
 # Cap its pagerank contribution so it doesn't dominate all queries.
 _PAGERANK_CAP = 0.4
@@ -623,7 +642,9 @@ def _intent(text: str) -> str:
 
 def _rag_answer(query: str, top_k: int = 8) -> str:
     """RAG без LLM — возвращает контекст из корпуса."""
+    t0 = time.time()
     results = hybrid_search(query, top_k)
+    _log_query(query, len(results), (time.time() - t0) * 1000, source="chat")
     if not results:
         return "По запросу ничего не найдено в базе знаний Lorenzo."
     lines = [f"**Результаты поиска по базе знаний** для: «{query}»\n"]
@@ -838,13 +859,15 @@ async def ask(req: AskRequest):
         for r in results
     )
     answer = _llm_answer(req.query, context) or context
+    latency_ms = (time.time() - t0) * 1000
+    _log_query(req.query, len(results), latency_ms, source="ask")
     return {
         "query":       req.query,
         "answer":      answer,
         "results":     results,
         "search_mode": search_mode,
         "ann_available": _ANN_AVAILABLE,
-        "latency_s":   round(time.time() - t0, 3),
+        "latency_s":   round(latency_ms / 1000, 3),
     }
 
 
@@ -857,11 +880,13 @@ async def search_endpoint(req: AskRequest):
     """
     t0      = time.time()
     results = hybrid_search(req.query, req.top_k)
+    latency_ms = (time.time() - t0) * 1000
+    _log_query(req.query, len(results), latency_ms, source="search")
     return {
         "query":     req.query,
         "results":   results,
         "count":     len(results),
-        "latency_s": round(time.time() - t0, 3),
+        "latency_s": round(latency_ms / 1000, 3),
     }
 
 
