@@ -5,17 +5,9 @@
 
 <!-- alert-added -->
 
-<!-- summary -->
-> Найдено пробелов: **907** (мин. упоминаний: 3)
-**Проекты:** Svyazi
-
----
-
-
-
 _Обновлено: 2026-05-13_
 
-Найдено пробелов: **907** (мин. упоминаний: 3)
+Найдено пробелов: **908** (мин. упоминаний: 3)
 
 > Концепции, упоминаемые во многих файлах, но не имеющие собственного документа.
 
@@ -26,11 +18,11 @@ _Обновлено: 2026-05-13_
 | `MHTML` | 1012 | `docs/obsidian/` |
 | `NPP` | 154 | `docs/obsidian/` |
 | `GDPR` | 126 | `docs/obsidian/` |
-| `HEALTH` | 120 | `docs/obsidian/` |
+| `HEALTH` | 118 | `docs/obsidian/` |
 | `MUST` | 110 | `docs/obsidian/` |
 | `BSL` | 94 | `docs/obsidian/` |
 | `IDF` | 84 | `docs/obsidian/` |
-| `PDF` | 82 | `docs/obsidian/` |
+| `PDF` | 83 | `docs/obsidian/` |
 | `SHOULD` | 80 | `docs/obsidian/` |
 | `PII` | 68 | `docs/obsidian/` |
 | `XII` | 66 | `docs/obsidian/` |
@@ -56,17 +48,17 @@ _Обновлено: 2026-05-13_
 | `DOCX` | 34 | `docs/obsidian/` |
 | `BaseAdapter` | 32 | `docs/obsidian/` |
 | `AIRI` | 32 | `docs/obsidian/` |
-| `VitaliySemenov` | 30 | `docs/obsidian/` |
 | `FAISS` | 30 | `docs/obsidian/` |
 | `DeepSeek` | 30 | `docs/obsidian/` |
 | `ChatDev` | 30 | `docs/obsidian/` |
 | `CardStore` | 30 | `docs/obsidian/` |
+| `VitaliySemenov` | 29 | `docs/obsidian/` |
 | `III` | 28 | `docs/obsidian/` |
 | `IBM` | 26 | `docs/obsidian/` |
-| `Composite Skills Agents` | 26 | `docs/nautilus/` |
-| `Professional Colleague Agents (EN)` | 26 | `docs/obsidian/` |
-| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/nautilus/` |
-| `Representative Agent Layer (EN)` | 26 | `docs/nautilus/` |
+| `Composite Skills Agents` | 26 | `docs/obsidian/` |
+| `Professional Colleague Agents (EN)` | 26 | `docs/nautilus/` |
+| `Профессиональные Коллеги-Агенты (RU)` | 26 | `docs/obsidian/` |
+| `Representative Agent Layer (EN)` | 26 | `docs/obsidian/` |
 | `Representative Agent Layer (RU)` | 26 | `docs/obsidian/` |
 | `NNNN` | 25 | `docs/obsidian/` |
 | `STDP` | 24 | `docs/obsidian/` |
@@ -112,7 +104,7 @@ _Обновлено: 2026-05-13_
 
 Создать: `docs/obsidian/gdpr.md`
 
-### `HEALTH` (120 файлов)
+### `HEALTH` (118 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/QA.md`
@@ -120,7 +112,7 @@ _Обновлено: 2026-05-13_
 - `docs/03-technology-combinations/QA.md`
 - `docs/04-ai-collaborations/QA.md`
 - `docs/05-habr-projects/QA.md`
-- ... и ещё 115 файлах
+- ... и ещё 113 файлах
 
 Создать: `docs/obsidian/health.md`
 
@@ -160,7 +152,7 @@ _Обновлено: 2026-05-13_
 
 Создать: `docs/obsidian/idf.md`
 
-### `PDF` (82 файлов)
+### `PDF` (83 файлов)
 
 Упоминается в:
 - `docs/01-svyazi/03-component-catalog.md`
@@ -168,7 +160,7 @@ _Обновлено: 2026-05-13_
 - `docs/02-anthropic-vacancies/215-4-architecture-of-professional-colleague-agents.md`
 - `docs/02-anthropic-vacancies/235-4-архитектура-профессиональных-коллег-агентов.md`
 - `docs/03-technology-combinations/05-benchmarks.md`
-- ... и ещё 77 файлах
+- ... и ещё 78 файлах
 
 Создать: `docs/obsidian/pdf.md`
 
@@ -315,30 +307,4 @@ _Обновлено: 2026-05-13_
 - ... и ещё 43 файлах
 
 Создать: `docs/obsidian/yijing.md`
-
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [CLUSTERS](CLUSTERS.md)
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [READING_ORDER](READING_ORDER.md)
-- [VERSION_DIFF](VERSION_DIFF.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (8):**
-- [CODE_BLOCKS](CODE_BLOCKS.md)
-- [COMPLEXITY](COMPLEXITY.md)
-- [NAMED_ENTITIES](NAMED_ENTITIES.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
 

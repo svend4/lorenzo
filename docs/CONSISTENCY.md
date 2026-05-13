@@ -5,19 +5,11 @@
 
 <!-- alert-added -->
 
-<!-- summary -->
-> Анализ различных написаний одних и тех же терминов.
-**Проекты:** Svyazi, CardIndex, knowledge-space, AI Factory, LiteParse, NGT Memory, agent-memory-mcp, Auto AI Router
-
----
-
-
-
 Анализ различных написаний одних и тех же терминов.
 
 | Термин | Канонично | Вариант | Файлов |
 |--------|-----------|---------|--------|
-| **knowledge-space** | `knowledge-space` | `knowledgespace` | 6 |
+| **knowledge-space** | `knowledge-space` | `knowledgespace` | 8 |
 | **knowledge-space** | `knowledge-space` | `knowledge space` | 32 |
 | **knowledge-space** | `knowledge-space` | `knowledge_space` | 4 |
 | **CardIndex** | `CardIndex` | `Card Index` | 2 |
@@ -39,7 +31,7 @@
 | **Card Envelope** | `Card Envelope` | `Card-Envelope` | 38 |
 | **Card Envelope** | `Card Envelope` | `CardEnvelope` | 32 |
 
-**Всего несогласованных написаний: 661**
+**Всего несогласованных написаний: 663**
 
 
 ## Детали по файлам
@@ -50,9 +42,9 @@
 - `docs/EMPTY_SECTIONS.md`
 - `docs/CONSISTENCY.md`
 - `docs/TABLES.md`
+- `docs/DUPLICATES.md`
 - `docs/obsidian/EMPTY_SECTIONS.md`
-- `docs/obsidian/CONSISTENCY.md`
-- _...и ещё 1_
+- _...и ещё 3_
 
 ### `knowledge space` → должно быть `knowledge-space`
 
@@ -205,30 +197,3 @@
 # Пример: заменить все вхождения в docs/
 find docs/ -name '*.md' -exec sed -i 's/old_term/new_term/g' {} +
 ```
-
-<!-- see-also -->
-
----
-
-**Смотрите также:**
-- [MISSING](MISSING.md)
-- [TAGS](TAGS.md)
-- [SPELLCHECK](SPELLCHECK.md)
-- [DIGEST_WEEKLY](DIGEST_WEEKLY.md)
-
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (9):**
-- [354-существующий-landscape-collaborators-твоя-working-](02-anthropic-vacancies/354-существующий-landscape-collaborators-твоя-working-.md)
-- [MISSING](MISSING.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-- _...ещё 1_
-
