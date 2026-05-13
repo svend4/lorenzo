@@ -1,5 +1,10 @@
 # 04 — Никем не сделанные направления (true novelty)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 Это не frontier research (что в I-блоке), а **концепции которые никем не упакованы в production систему**, или сделаны кусочно в разных проектах но не сложены вместе. Высокий риск, неизвестность, но и потенциал для truly differentiated product.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [01-SIMPLE](./01-SIMPLE.md), [02-MEDIUM](./02-MEDIUM.md), [03-INNOVATIVE](./03-INNOVATIVE.md), [05-PRIORITIES](./05-PRIORITIES.md).

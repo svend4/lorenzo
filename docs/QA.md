@@ -26,7 +26,7 @@
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Как реализован forensic RAG с доказуемостью?
 
@@ -34,7 +34,7 @@
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -91,7 +91,7 @@
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Какие кластеры найма выделены у Anthropic?
 
@@ -123,7 +123,7 @@
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -225,7 +225,7 @@ _Не найдено в этом файле._
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -237,7 +237,7 @@ _Не найдено в этом файле._
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -322,7 +322,7 @@ _Не найдено в этом файле._
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **evidence envelope**, **memory write**
+Упоминаются: **Evidence Envelope**, **memory write**
 
 ## Каковы этапы MVP и их оценка по времени?
 
@@ -338,7 +338,7 @@ _Не найдено в этом файле._
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 
@@ -564,7 +564,7 @@ _Не найдено в этом файле._
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Какие системы памяти описаны в этом разделе?
 
@@ -616,7 +616,7 @@ _Не найдено в этом файле._
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 

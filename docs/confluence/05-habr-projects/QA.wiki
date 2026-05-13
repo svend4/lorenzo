@@ -5,14 +5,15 @@
 
 h1. Q&A: 05-habr-projects
 
-
-{quote}_Автоматически сгенерировано по 12 файлам раздела._{quote}
-_Проекты:_ CardIndex, AgentFS, knowledge-space, LiteParse, Hybrid RAG, Yodoca, NGT Memory, MemNet
-
-----
+{quote}[!NOTE]{quote}
+{quote}Раздел {{QA}} формируется автоматически из данных репозитория.{quote}
 
 
 
+
+
+
+{quote}{{QA}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Автоматически сгенерировано по 12 файлам раздела._
@@ -76,6 +77,20 @@ h2. Что такое Evidence Envelope и зачем он нужен?
 h2. Какие RAG-подходы сравниваются в документах?
 
 Упоминаются: _Hybrid RAG_, _LiteParse_
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_qa.py
+{code}
+
+h2. Смотрите также
+* [Главная|../README.md]
+* [Метрики|../METRICS.md]
+* [Здоровье|../HEALTH.md]
+* [Глоссарий|../GLOSSARY.md]
+* [Сущности|../ENTITIES.md]
 
 
 

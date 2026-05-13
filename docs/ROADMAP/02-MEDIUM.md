@@ -1,5 +1,10 @@
 # 02 — Средние улучшения (мейнстрим современного RAG)
 
+> [!TIP]
+> Этот документ описывает MVP-подход. Начните с него для быстрого прототипа.
+
+<!-- alert-added -->
+
 Современный mainstream — реализуется коммерческими RAG-фреймворками (LangChain, LlamaIndex, Haystack), но в Lorenzo пока отсутствует. Каждое — 2-5 спринтов, средний риск, существенный прирост качества.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [01-SIMPLE](./01-SIMPLE.md), [03-INNOVATIVE](./03-INNOVATIVE.md), [04-NOVEL](./04-NOVEL.md), [05-PRIORITIES](./05-PRIORITIES.md).

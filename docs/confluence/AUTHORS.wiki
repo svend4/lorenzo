@@ -5,6 +5,20 @@
 
 h1. Авторы и коллаборации
 
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}Авторы проектов, упоминаемые в исследованиях.{quote}
+
+----
+
+
+
 Авторы проектов, упоминаемые в исследованиях.
 
 || Автор || Упоминается в файлах ||
@@ -48,3 +62,21 @@ _Кто ссылается на этот документ (8):_
 * [TABLES|TABLES.md]
 * [README|contacts/README.md]
 
+
+
+
+----
+
+_Смотрите также:_
+* [CONTACT_PRIORITY|CONTACT_PRIORITY.md]
+* [authors-by-name|glossary/authors-by-name.md]
+* [ALERTS|ALERTS.md]
+* [sonia-black|contacts/sonia-black.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_authors.py
+{code}

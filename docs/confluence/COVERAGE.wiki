@@ -5,14 +5,15 @@
 
 h1. Матрица покрытия документов
 
-
-{quote}Условные обозначения: ✅ есть  ⬜ отсутствует{quote}
-_Проекты:_ Svyazi
-
-----
+{quote}[!NOTE]{quote}
+{quote}Раздел {{COVERAGE}} формируется автоматически из данных репозитория.{quote}
 
 
 
+
+
+
+{quote}{{COVERAGE}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Обновлено: 2026-05-13_
@@ -57,12 +58,19 @@ python scripts/improve_backlinks.py
 python scripts/improve_autofill.py
 {code}
 
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]
+
 
 
 ----
 
 _Кто ссылается на этот документ (6):_
-* [METRICS|METRICS.md]
+* [HEATMAP|HEATMAP.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]

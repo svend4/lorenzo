@@ -5,6 +5,21 @@
 
 h1. Глоссарий проектов
 
+{quote}[!NOTE]{quote}
+{quote}Раздел {{GLOSSARY}} формируется автоматически из данных репозитория.{quote}
+
+
+
+
+
+
+{quote}Все проекты, упоминаемые в документах, с количеством файлов.{quote}
+_Проекты:_ Svyazi, CardIndex, AgentFS, knowledge-space, mclaude, AI Factory, Rufler, LiteParse
+
+----
+
+
+
 Все проекты, упоминаемые в документах, с количеством файлов.
 
 || Проект || Упоминается в файлах ||
@@ -56,3 +71,21 @@ _Кто ссылается на этот документ (35):_
 * [DIGEST_WEEKLY|DIGEST_WEEKLY.md]
 * _...ещё 27_
 
+
+
+
+----
+
+_Смотрите также:_
+* [MINDMAP|MINDMAP.md]
+* [GRAPH|GRAPH.md]
+* [ENTITIES|ENTITIES.md]
+* [NETWORK|NETWORK.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_glossary.py
+{code}

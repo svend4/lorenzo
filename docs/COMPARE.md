@@ -1,20 +1,7 @@
 # Сравнение с предыдущим коммитом
 
-<!-- toc-auto -->
-
-> [!NOTE]
-> Раздел `COMPARE` формируется автоматически из данных репозитория.
-
-<!-- alert-added -->
-<!-- tags: compare, docs -->
-
-
-<!-- summary -->
-> `COMPARE` — раздел документации проекта Lorenzo.
-
-
-**Файлов было:** 1479  **стало:** 2484  
-**Слов было:** 2,103,272  **стало:** 2,897,158  **Δ:** +793,886
+**Файлов было:** 1487  **стало:** 2492  
+**Слов было:** 2,089,746  **стало:** 2,828,793  **Δ:** +739,047
 
 
 ## Новые файлы (1005)
@@ -64,65 +51,37 @@ _...и ещё 965_
 ## Удалённые файлы (0)
 
 
-## Изменившиеся файлы (135) — топ по Δ слов
+## Изменившиеся файлы (38) — топ по Δ слов
 
 | Файл | Было | Стало | Δ |
 |------|------|-------|---|
-| `TABLES.md` | 334302 | 316150 | -18152 |
-| `CHANGELOG.md` | 5757 | 890 | -4867 |
-| `CHANGELOG.md` | 5766 | 903 | -4863 |
-| `QA.md` | 3343 | 336 | -3007 |
-| `QA.md` | 3313 | 2126 | -1187 |
-| `CODE_BLOCKS.md` | 5973 | 5332 | -641 |
-| `FAQ.md` | 1821 | 1378 | -443 |
-| `CONTRADICTIONS.md` | 1594 | 1975 | +381 |
-| `CONTRADICTIONS.md` | 1616 | 1995 | +379 |
-| `DUPLICATES.md` | 1957 | 2303 | +346 |
-| `ACTION_ITEMS.md` | 9272 | 8945 | -327 |
-| `CONCEPTS.md` | 15197 | 14963 | -234 |
-| `READABILITY.md` | 37597 | 37373 | -224 |
-| `CONSISTENCY.md` | 640 | 856 | +216 |
-| `PRIORITIES.md` | 3489 | 3683 | +194 |
-| `QA.md` | 362 | 226 | -136 |
-| `WORD_FREQ.md` | 3368 | 3488 | +120 |
-| `NETWORK.md` | 530 | 413 | -117 |
-| `CONTACTS.md` | 669 | 557 | -112 |
-| `NARRATIVE.md` | 1136 | 1241 | +105 |
-| `QA.md` | 422 | 323 | -99 |
-| `QA.md` | 146 | 47 | -99 |
-| `QA.md` | 234 | 135 | -99 |
-| `ENTITIES.md` | 856 | 758 | -98 |
-| `QA.md` | 305 | 207 | -98 |
-| `QA.md` | 315 | 219 | -96 |
-| `QA.md` | 290 | 196 | -94 |
-| `QA.md` | 190 | 107 | -83 |
-| `GRAPH.md` | 2736 | 2654 | -82 |
-| `SENTIMENT.md` | 564 | 646 | +82 |
-
-
-## Использование
-```bash
-# Запуск
-python scripts/improve_compare.py
-```
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-
-<!-- backlinks -->
-
----
-
-**Кто ссылается на этот документ (7):**
-- [COMPLEXITY](COMPLEXITY.md)
-- [OUTLINE](OUTLINE.md)
-- [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- [TABLES](TABLES.md)
-
+| `DUPLICATES.md` | 2047 | 1694 | -353 |
+| `CROSS_SECTION.md` | 4185 | 4395 | +210 |
+| `DECISIONS.md` | 2585 | 2705 | +120 |
+| `CLUSTERS.md` | 1776 | 1674 | -102 |
+| `README.md` | 122 | 44 | -78 |
+| `SCRIPTS_CATALOG.md` | 7791 | 7729 | -62 |
+| `CONSISTENCY.md` | 707 | 659 | -48 |
+| `CONTRADICTIONS.md` | 1506 | 1459 | -47 |
+| `ALERTS.md` | 150 | 108 | -42 |
+| `TASKS_INDEX.md` | 995 | 956 | -39 |
+| `COMPARE.md` | 553 | 519 | -34 |
+| `REGISTRY.md` | 1372 | 1341 | -31 |
+| `CONTENT_GAPS.md` | 960 | 930 | -30 |
+| `CONCEPT_GRAPH.md` | 719 | 691 | -28 |
+| `DIGEST_AUTO.md` | 502 | 479 | -23 |
+| `README.md` | 870 | 892 | +22 |
+| `INFO_PROCESSING_METHODS.md` | 3465 | 3483 | +18 |
+| `00-CURRENT-STATE.md` | 1878 | 1896 | +18 |
+| `01-SIMPLE.md` | 1884 | 1902 | +18 |
+| `03-INNOVATIVE.md` | 4247 | 4265 | +18 |
+| `04-NOVEL.md` | 4521 | 4539 | +18 |
+| `05-PRIORITIES.md` | 1535 | 1553 | +18 |
+| `NARRATIVE.md` | 1110 | 1126 | +16 |
+| `02-MEDIUM.md` | 2694 | 2710 | +16 |
+| `SITEMAP.md` | 9513 | 9529 | +16 |
+| `STATS.md` | 727 | 743 | +16 |
+| `DEPENDABOT.md` | 193 | 181 | -12 |
+| `TABLES.md` | 316179 | 316185 | +6 |
+| `EMPTY_SECTIONS.md` | 32004 | 32002 | -2 |
+| `MINDMAP.md` | 299 | 298 | -1 |

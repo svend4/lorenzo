@@ -448,9 +448,9 @@ _Обновлено: 2026-05-13_
 
 - ## Детали по файлам (0 сл., строка 45)
 - ### `knowledgespace` → должно быть `knowledge-space` (14 сл., строка 48)
-- ### `knowledge space` → должно быть `knowledge-space` (14 сл., строка 57)
-- ### `knowledge_space` → должно быть `knowledge-space` (10 сл., строка 66)
-- ### `Card Index` → должно быть `CardIndex` (6 сл., строка 74)
+- ### `knowledge-space` → должно быть `knowledge-space` (14 сл., строка 57)
+- ### `knowledge-space` → должно быть `knowledge-space` (10 сл., строка 66)
+- ### `CardIndex` → должно быть `CardIndex` (6 сл., строка 74)
 - _...ещё 17_
 
 ### `GITHUB_ISSUES.md` (21 из 80)

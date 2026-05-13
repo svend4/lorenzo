@@ -1,19 +1,13 @@
 # Callout-блоки
-<!-- tags: alerts, docs -->
 
-
-<!-- summary -->
-> `ALERTS` — раздел документации проекта Lorenzo.
-
-
-Добавлено **61** callout-блоков в документы.
+Добавлено **11** callout-блоков в документы.
 
 | Тип | Количество | Назначение |
 |-----|------------|------------|
-| `[!NOTE]` | 25 | Нейтральная заметка |
-| `[!TIP]` | 28 | Практический совет |
-| `[!WARNING]` | 7 | Предупреждение о риске |
-| `[!IMPORTANT]` | 1 | Ключевой документ |
+| `[!NOTE]` | 5 | Нейтральная заметка |
+| `[!TIP]` | 3 | Практический совет |
+| `[!WARNING]` | 3 | Предупреждение о риске |
+| `[!IMPORTANT]` | 0 | Ключевой документ |
 
 ## Пример синтаксиса
 
@@ -33,28 +27,18 @@
 
 _Поддерживается в GitHub Markdown с 2023 года._
 
-
-Документ является частью монорепозитория Lorenzo (Svyazi 2.0). Содержит данные по теме «Callout-блоки». Формируется автоматически.
-
-## Смотрите также
-- [Главная](README.md)
-- [Метрики](METRICS.md)
-- [Здоровье](HEALTH.md)
-- [Глоссарий](GLOSSARY.md)
-- [Сущности](ENTITIES.md)
-
 <!-- backlinks -->
 
 ---
 
-**Кто ссылается на этот документ (9):**
+**Кто ссылается на этот документ (12):**
 - [AUTHORS](AUTHORS.md)
 - [DIGEST](DIGEST.md)
+- [ENTITIES](ENTITIES.md)
+- [HEALTH](HEALTH.md)
 - [INDEX](INDEX.md)
+- [METRICS](METRICS.md)
 - [OUTLINE](OUTLINE.md)
 - [READABILITY](READABILITY.md)
-- [READING_TIME](READING_TIME.md)
-- [README](README.md)
-- [SEARCH](SEARCH.md)
-- _...ещё 1_
+- _...ещё 4_
 

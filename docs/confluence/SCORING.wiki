@@ -6,12 +6,16 @@
 h1. Оценка готовности проекта (Go/No-Go)
 
 
-{quote}1. _[вес 5]_ Слишком много сломанных ссылок{quote}
 
-----
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCORING}} формируется автоматически из данных репозитория.{quote}
 
 
 
+
+
+
+{quote}{{SCORING}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Дата: 2026-05-13_
@@ -70,17 +74,31 @@ h2. ✅ Проект готов к запуску MVP!
 
 
 
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_scoring.py
+{code}
+
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]
+
+
 
 ----
 
-_Кто ссылается на этот документ (16):_
+_Кто ссылается на этот документ (20):_
+* [DENSITY|DENSITY.md]
 * [EMPTY_SECTIONS|EMPTY_SECTIONS.md]
 * [GITHUB_ISSUES|GITHUB_ISSUES.md]
 * [HEADING_AUDIT|HEADING_AUDIT.md]
 * [HEALTH|HEALTH.md]
 * [INDEX|INDEX.md]
+* [LANGUAGE_STATS|LANGUAGE_STATS.md]
 * [METRICS|METRICS.md]
-* [OUTLINE|OUTLINE.md]
-* [PARAGRAPH_QUALITY|PARAGRAPH_QUALITY.md]
-* _...ещё 8_
+* _...ещё 12_
 

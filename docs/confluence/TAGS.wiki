@@ -5,6 +5,23 @@
 
 h1. Индекс тегов
 
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}Каждый файл помечен тегами по темам автоматически.{quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
 Каждый файл помечен тегами по темам автоматически.
 
 
@@ -311,3 +328,21 @@ _Кто ссылается на этот документ (14):_
 * [READABILITY|READABILITY.md]
 * _...ещё 6_
 
+
+
+
+----
+
+_Смотрите также:_
+* [METRICS|METRICS.md]
+* [VERSION_DIFF|VERSION_DIFF.md]
+* [CONSISTENCY|CONSISTENCY.md]
+* [DEPENDENCY_MAP|DEPENDENCY_MAP.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_tags.py
+{code}

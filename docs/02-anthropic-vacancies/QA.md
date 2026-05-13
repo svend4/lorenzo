@@ -21,7 +21,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что входит в интеграционный контракт между слоями?
 
-Упоминаются: **card envelope**, **evidence envelope**, **memory write**, **skill policy**, **review record**
+Упоминаются: **card envelope**, **Evidence Envelope**, **memory write**, **skill policy**, **review record**
 
 ## Какие кластеры найма выделены у Anthropic?
 
@@ -53,7 +53,7 @@ _Автоматически сгенерировано по 355 файлам р�
 
 ## Что такое Evidence Envelope и зачем он нужен?
 
-Упоминаются: **evidence envelope**, **source_id**, **page**, **span**
+Упоминаются: **Evidence Envelope**, **source_id**, **page**, **span**
 
 ## Какие RAG-подходы сравниваются в документах?
 

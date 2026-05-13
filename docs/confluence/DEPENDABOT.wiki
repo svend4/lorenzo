@@ -5,13 +5,8 @@
 
 h1. Мониторинг зависимостей
 
-
-{quote}python scripts/improve_dependabot.py --generate-config{quote}
-_Проекты:_ Svyazi, AgentFS, knowledge-space, Yodoca, NGT Memory
-
-----
-
-
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
 
 
 
@@ -50,14 +45,14 @@ python scripts/improve_dependabot.py --check-pypi
 
 ----
 
-_Кто ссылается на этот документ (11):_
+_Кто ссылается на этот документ (9):_
 * [COLLAB_SUGGESTIONS|COLLAB_SUGGESTIONS.md]
 * [ENTITIES|ENTITIES.md]
-* [GRAPH|GRAPH.md]
-* [MISSING|MISSING.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
-* _...ещё 3_
+* [TABLES|TABLES.md]
+* [WORD_CLOUD|WORD_CLOUD.md]
+* _...ещё 1_
 

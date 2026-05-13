@@ -332,3 +332,10 @@ _Кто ссылается на этот документ (10):_
 * [README|README.md]
 * _...ещё 2_
 
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_changelog_auto.py
+{code}

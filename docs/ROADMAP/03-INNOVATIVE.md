@@ -1,5 +1,10 @@
 # 03 — Инновационные направления (frontier research)
 
+> [!WARNING]
+> Документ содержит описание рисков и ограничений. Изучите их перед принятием архитектурных решений.
+
+<!-- alert-added -->
+
 Современный research frontier (2024-2026): уже опубликованы paper'ы, есть прототипы, но мало production-grade реализаций. Каждое — 4-8 спринтов, требует исследовательского подхода.
 
 **Документ:** часть серии ROADMAP. См. также: [00-CURRENT-STATE](./00-CURRENT-STATE.md), [01-SIMPLE](./01-SIMPLE.md), [02-MEDIUM](./02-MEDIUM.md), [04-NOVEL](./04-NOVEL.md), [05-PRIORITIES](./05-PRIORITIES.md).

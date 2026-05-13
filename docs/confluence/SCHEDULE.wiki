@@ -6,13 +6,16 @@
 h1. Расписание проекта
 
 
-{quote}_Дорожная карта с вехами и задачами по кварталам._{quote}
-_Проекты:_ Svyazi, CardIndex, AgentFS, Yodoca, SENTINEL, Tool Search
 
-----
-
+{quote}[!NOTE]{quote}
+{quote}Раздел {{SCHEDULE}} формируется автоматически из данных репозитория.{quote}
 
 
+
+
+
+
+{quote}{{SCHEDULE}} — раздел документации проекта Lorenzo.{quote}
 
 
 _Дорожная карта с вехами и задачами по кварталам._
@@ -67,16 +70,25 @@ h2. Текущий статус
 * Текущая фаза: _Контакты с авторами_
 * Следующая веха: _⬜ Написать авторам AgentFS, Yodoca, NGT_
 
+h2. Смотрите также
+* [Главная|README.md]
+* [Метрики|METRICS.md]
+* [Здоровье|HEALTH.md]
+* [Глоссарий|GLOSSARY.md]
+* [Сущности|ENTITIES.md]
+
 
 
 ----
 
-_Кто ссылается на этот документ (7):_
+_Кто ссылается на этот документ (9):_
+* [DENSITY|DENSITY.md]
+* [HEATMAP|HEATMAP.md]
 * [INDEX|INDEX.md]
 * [OUTLINE|OUTLINE.md]
 * [READABILITY|READABILITY.md]
 * [READING_TIME|READING_TIME.md]
 * [README|README.md]
 * [SEARCH|SEARCH.md]
-* [TABLES|TABLES.md]
+* _...ещё 1_
 

@@ -28,14 +28,3 @@ h2. Использование в README
 ![license](license.svg)
 ![branch](branch.svg)
 {code}
-
-
-
-----
-
-_Кто ссылается на этот документ (4):_
-* [OUTLINE|../OUTLINE.md]
-* [READABILITY|../READABILITY.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-

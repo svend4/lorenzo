@@ -41,23 +41,7 @@ h2. Контакты
 * Статус связи: [не писали / написали / ответили]
 
 ----
-_Создано: 2026-05-11_
-
-
-
-----
-
-_Кто ссылается на этот документ (10):_
-* [READABILITY|../READABILITY.md]
-* [READING_TIME|../READING_TIME.md]
-* [REGISTRY|../REGISTRY.md]
-* [SEARCH|../SEARCH.md]
-* [TABLES|../TABLES.md]
-* [research-summary|../autofilled/research-summary.md]
-* [README|README.md]
-* [agent-spec|agent-spec.md]
-* _...ещё 2_
-
+_Создано: 2026-05-13_
 
 
 h2. Использование
@@ -65,3 +49,26 @@ h2. Использование
 # Запуск
 python scripts/improve_project_component.py
 {code}
+
+h2. Смотрите также
+* [Главная|../README.md]
+* [Метрики|../METRICS.md]
+* [Здоровье|../HEALTH.md]
+* [Глоссарий|../GLOSSARY.md]
+* [Сущности|../ENTITIES.md]
+
+
+
+----
+
+_Кто ссылается на этот документ (9):_
+* [READABILITY|../READABILITY.md]
+* [READING_TIME|../READING_TIME.md]
+* [SEARCH|../SEARCH.md]
+* [TABLES|../TABLES.md]
+* [research-summary|../autofilled/research-summary.md]
+* [README|README.md]
+* [agent-spec|agent-spec.md]
+* [mega-stack|mega-stack.md]
+* _...ещё 1_
+

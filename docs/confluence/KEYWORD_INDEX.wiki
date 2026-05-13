@@ -5,6 +5,23 @@
 
 h1. Инвертированный индекс ключевых слов
 
+
+
+
+
+{quote}[!NOTE]{quote}
+{quote}Документ создан на основе исследования. Ссылки ведут на связанные материалы.{quote}
+
+
+
+
+{quote}Уникальных слов: _28319_ | Биграмм: _44242_ | Файлов: _1239_{quote}
+_Проекты:_ Svyazi
+
+----
+
+
+
 _Обновлено: 2026-05-13_
 
 Уникальных слов: _28319_ | Биграмм: _44242_ | Файлов: _1239_
@@ -164,3 +181,21 @@ _Кто ссылается на этот документ (19):_
 * [GATEWAY|GATEWAY.md]
 * _...ещё 11_
 
+
+
+
+----
+
+_Смотрите также:_
+* [08-personal-multi-agent-hub|habr-unique-projects/extra-examples/08-personal-multi-agent-hub.md]
+* [03-similarity-3-mcp-support|anthropic-vacancies/hermes-comparison/03-similarity-3-mcp-support.md]
+* [02-similarity-2-persistent-memory|anthropic-vacancies/hermes-comparison/02-similarity-2-persistent-memory.md]
+* [00-question-habr-link|nautilus/community-discussions/habr-article-1-reaction/00-question-habr-link.md]
+
+
+
+h2. Использование
+{code:language=bash}
+# Запуск
+python scripts/improve_keyword_index.py
+{code}
