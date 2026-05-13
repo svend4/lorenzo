@@ -66,9 +66,10 @@
 | Round 50 | ✅ Завершён | 4 | LLM персонализация v3, Qwen3Guard модерация, SR-Scientist, RAG embedder fine-tuning | `round-50/` |
 | Round 51 | ✅ Завершён | 4 | Video RAG CLIP, Design by Contract, ЕГЭ репетитор, FREED++ drug discovery | `round-51/` |
 | Round 52 | ✅ Завершён | 4 | LLM квантование GPTQ/QLoRA, Multi-agent customer support, Бухгалтерский extraction, Machine Unlearning | `round-52/` |
-| Round 53 | 🔜 Следующий | — | LLM техдолг, streaming inference, HR/рекрутинг v2, мультиагентные дебаты | — |
+| Round 53 | ✅ Завершён | 4 | Architecture as Code, YandexGPT Accel DMC/SpinQuant, Resume ranking bias, LatentMAS | `round-53/` |
+| Round 54 | 🔜 Следующий | — | LLM временные ряды, интерпретируемость LLM, LLM для QA тестов, conversation memory | — |
 
-**Итого: 212 проектов, 90+ авторов**
+**Итого: 216 проектов, 90+ авторов**
 
 ## Шаблон раунда
 
