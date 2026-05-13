@@ -63,9 +63,10 @@
 | Round 47 | ✅ Завершён | 4 | LLM Judge образование, SENTINEL безопасность, MTS code review, Temporal KG | `round-47/` |
 | Round 48 | ✅ Завершён | 4 | LLM медицина v3, Multimodal RAG v2, ML промышленность v2, Agent evaluation v2 | `round-48/` |
 | Round 49 | ✅ Завершён | 4 | Finance RAG 4-head, GBNF constrained decoding, Self-hosted 4×4090, SAP Text2SQL | `round-49/` |
-| Round 50 | 🔜 Следующий | — | LLM персонализация v3, AI модерация контента, LLM науч. вычисления, RAFT | — |
+| Round 50 | ✅ Завершён | 4 | LLM персонализация v3, Qwen3Guard модерация, SR-Scientist, RAG embedder fine-tuning | `round-50/` |
+| Round 51 | 🔜 Следующий | — | LLM видеоанализ, верификация кода, адаптивное обучение v2, LLM биоинформатика | — |
 
-**Итого: 200 проектов, 90+ авторов**
+**Итого: 204 проекта, 90+ авторов**
 
 ## Шаблон раунда
 

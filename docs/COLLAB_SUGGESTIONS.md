@@ -1,35 +1,35 @@
 # Рекомендации по коллаборации (Collaboration Finder)
 
 <!-- summary -->
-> Автоматический поиск партнёрских проектов для: «self hosted водяным охлаждением реплицированный tensor parallelism»
-> **Дата:** 2026-05-13 16:33  **Кандидатов:** 1
+> Автоматический поиск партнёрских проектов для: «scientist агент открывает законы природы через символическую регрессию»
+> **Дата:** 2026-05-13 16:53  **Кандидатов:** 1
 
 ---
 
 <!-- tags: collaboration, projects, recommendations, svyazi -->
 
-**Источник:** `docs/06-discovery/round-49/projects/dmitrii-chashchin-self-hosted-4x4090-vllm-parallelism.md`
+**Источник:** `docs/06-discovery/round-50/projects/andre-dataist-sr-scientist-llm-law-discovery-symbolic-regression.md`
 
-**Запрос:** self hosted водяным охлаждением реплицированный tensor parallelism
+**Запрос:** scientist агент открывает законы природы через символическую регрессию
 
 ---
 
-## 1. Yodoca
+## 1. Wikontic: семантический граф
 
-**Релевантность:** `0.417`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 8
+**Релевантность:** `0.400`  **Тип:** `project`  **Состояние:** `raw`  **Связей:** 6
 
-**Документ:** [`docs/svyazi-2-0/components/yodoca.md`](svyazi-2-0/components/yodoca.md)
+**Документ:** [`docs/05-habr-projects/knowledge/wikontic.md`](05-habr-projects/knowledge/wikontic.md)
 
-**Теги:** memory, ingestion, architecture, self-improvement, collaboration
-**Упомянутые проекты:** Svyazi, mclaude, Yodoca, MemNet
+**Теги:** ingestion, collaboration
+**Упомянутые проекты:** Yodoca, Wikontic
 
-> Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией.
+> Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https://habr.com/ru/companies/airi/articles/855128/ Пай
 
 **Связан с:**
-  - [docs/svyazi-2-0/components/ngt-memory.md](svyazi-2-0/components/ngt-memory.md) _references_
-  - [docs/svyazi-2-0/components/memnet.md](svyazi-2-0/components/memnet.md) _references_
-  - [docs/svyazi-2-0/components/mclaude.md](svyazi-2-0/components/mclaude.md) _references_
-  - [docs/svyazi-2-0/components/ai-factory.md](svyazi-2-0/components/ai-factory.md) _references_
+  - [docs/README.md](README.md) _references_
+  - [docs/05-habr-projects/memory/ngt-memory.md](05-habr-projects/memory/ngt-memory.md) _references_
+  - [docs/05-habr-projects/memory/yodoca.md](05-habr-projects/memory/yodoca.md) _references_
+  - [docs/05-habr-projects/02-collaboration-partners.md](05-habr-projects/02-collaboration-partners.md) _references_
 
 **Автор:** VitalyOborin @VitalyOborin  |  GitHub  |  ⬜ `not_started`
 **Контакт:** [`docs/contacts/vitalyoborin.md`](contacts/vitalyoborin.md)
@@ -39,13 +39,13 @@
 
 ```
 **Кому:** VitalyOborin (@VitalyOborin)
-**Тема:** Коллаборация по теме «self hosted водяным охлаждением реплицированный tensor paral»
+**Тема:** Коллаборация по теме «scientist агент открывает законы природы через символическую»
 
 Привет, VitalyOborin!
 
 Изучила ваш проект **Svyazi, Yodoca, Wikontic** и вижу сильную синергию с задачами, над которыми работаю.
 
-Особенно ценна идея: _Локальный self‑evolving AI assistant с долговременной памятью и ночной консолидацией._
+Особенно ценна идея: _Wikontic — Алла Чепурова (AIRI, лаборатория Cognitive AI Systems) https://habr.com/ru/companies/airi/articles/1000720/ И её более ранняя статья: https_
 
 Работаю над Knowledge OS для локальных коллаборационных сетей (Svyazi 2.0 — CardIndex + Retrieval + Memory).
 Хотел бы обсудить возможность интеграции или обмена опытом.
@@ -79,7 +79,7 @@ Lorenzo / svend4
    ```
 5. Повторить поиск с уточнённым запросом:
    ```
-   python scripts/improve_collab_finder.py --query "self hosted водяным охлаждением реплицированный te"
+   python scripts/improve_collab_finder.py --query "scientist агент открывает законы природы через сим"
    ```
 
-_Сгенерировано: 2026-05-13 16:33  |  Алгоритм: TF-IDF + BM25 + граф_
+_Сгенерировано: 2026-05-13 16:53  |  Алгоритм: TF-IDF + BM25 + граф_
